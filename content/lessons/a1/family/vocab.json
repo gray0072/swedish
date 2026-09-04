@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "id": "familj",
+      "sv": "familj",
+      "translations": { "ru": "семья", "en": "family" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en familj", "defSg": "familjen", "indefPl": "familjer", "defPl": "familjerna" },
+      "example": { "sv": "Min familj bor i Stockholm.", "ru": "Моя семья живёт в Стокгольме.", "en": "My family lives in Stockholm." }
+    },
+    {
+      "id": "mamma",
+      "sv": "mamma",
+      "translations": { "ru": "мама", "en": "mom" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mamma", "defSg": "mamman", "indefPl": "mammor", "defPl": "mammorna" },
+      "example": { "sv": "Min mamma heter Eva.", "ru": "Мою маму зовут Эва.", "en": "My mom's name is Eva." }
+    },
+    {
+      "id": "pappa",
+      "sv": "pappa",
+      "translations": { "ru": "папа", "en": "dad" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pappa", "defSg": "pappan", "indefPl": "pappor", "defPl": "papporna" },
+      "example": { "sv": "Min pappa jobbar mycket.", "ru": "Мой папа много работает.", "en": "My dad works a lot." }
+    },
+    {
+      "id": "syster",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" },
+      "example": { "sv": "Jag har en syster.", "ru": "У меня есть сестра.", "en": "I have a sister." }
+    },
+    {
+      "id": "bror",
+      "sv": "bror",
+      "translations": { "ru": "брат", "en": "brother" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bror", "defSg": "brodern", "indefPl": "bröder", "defPl": "bröderna" },
+      "example": { "sv": "Min bror är äldre än jag.", "ru": "Мой брат старше меня.", "en": "My brother is older than me." }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "De har två barn.", "ru": "У них двое детей.", "en": "They have two children." }
+    },
+    {
+      "id": "son",
+      "sv": "son",
+      "translations": { "ru": "сын", "en": "son" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en son", "defSg": "sonen", "indefPl": "söner", "defPl": "sönerna" },
+      "example": { "sv": "Deras son heter Erik.", "ru": "Их сына зовут Эрик.", "en": "Their son's name is Erik." }
+    },
+    {
+      "id": "dotter",
+      "sv": "dotter",
+      "translations": { "ru": "дочь", "en": "daughter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dotter", "defSg": "dottern", "indefPl": "döttrar", "defPl": "döttrarna" },
+      "example": { "sv": "Min dotter är fem år.", "ru": "Моей дочери пять лет.", "en": "My daughter is five years old." }
+    },
+    {
+      "id": "man-family",
+      "sv": "man",
+      "translations": { "ru": "муж", "en": "husband" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" },
+      "example": { "sv": "Hennes man lagar mat.", "ru": "Её муж готовит еду.", "en": "Her husband is cooking." }
+    },
+    {
+      "id": "fru",
+      "sv": "fru",
+      "translations": { "ru": "жена", "en": "wife" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fru", "defSg": "frun", "indefPl": "fruar", "defPl": "fruarna" },
+      "example": { "sv": "Hans fru är lärare.", "ru": "Его жена — учительница.", "en": "His wife is a teacher." }
+    },
+    {
+      "id": "farmor",
+      "sv": "farmor",
+      "translations": { "ru": "бабушка (со стороны отца)", "en": "paternal grandmother" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Farmor bakar kanelbullar.", "ru": "Бабушка печёт булочки с корицей.", "en": "Grandma is baking cinnamon buns." }
+    },
+    {
+      "id": "farfar",
+      "sv": "farfar",
+      "translations": { "ru": "дедушка (со стороны отца)", "en": "paternal grandfather" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Farfar läser tidningen.", "ru": "Дедушка читает газету.", "en": "Grandpa is reading the newspaper." }
+    },
+    {
+      "id": "mormor",
+      "sv": "mormor",
+      "translations": { "ru": "бабушка (со стороны матери)", "en": "maternal grandmother" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Mormor bor i Göteborg.", "ru": "Бабушка (по маме) живёт в Гётеборге.", "en": "Grandma lives in Gothenburg." }
+    },
+    {
+      "id": "morfar",
+      "sv": "morfar",
+      "translations": { "ru": "дедушка (со стороны матери)", "en": "maternal grandfather" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Morfar fiskar varje sommar.", "ru": "Дедушка (по маме) рыбачит каждое лето.", "en": "Grandpa goes fishing every summer." }
+    },
+    {
+      "id": "kusin",
+      "sv": "kusin",
+      "translations": { "ru": "двоюродный брат/сестра", "en": "cousin" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kusin", "defSg": "kusinen", "indefPl": "kusiner", "defPl": "kusinerna" },
+      "example": { "sv": "Min kusin bor i Malmö.", "ru": "Мой(я) кузен(а) живёт в Мальмё.", "en": "My cousin lives in Malmö." }
+    }
+  ]
+}

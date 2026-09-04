@@ -1,0 +1,16 @@
+{
+  "id": "birger-jarl-1252",
+  "era": "medieval",
+  "unlockedBy": "city-wall",
+  "title": { "sv": "1252 — Stockholm nämns första gången", "ru": "1252 — Стокгольм впервые упомянут", "en": "1252 — Stockholm is first mentioned" },
+  "date": { "from": 1252 },
+  "body": {
+    "ru": "Стокгольм впервые появляется в письменных источниках в 1252 году, в письмах, связанных с ярлом Биргером. Основание города традиционно приписывают ему, хотя документально это не подтверждено — скорее это была постепенная застройка острова Стадсхольмен на выходе из озера Меларен в Балтику, удобной точки для контроля торговли. Поэтому точнее говорить не «основан», а «впервые упомянут».",
+    "en": "Stockholm first appears in the written record in 1252, in letters connected to Birger Jarl. The city's founding is traditionally credited to him, though this isn't documented — it was more likely a gradual settlement of the island of Stadsholmen, at the point where Lake Mälaren meets the Baltic, a natural spot to control trade. So \"first mentioned\" is more accurate than \"founded\"."
+  },
+  "vocab": ["stad", "bro", "torg", "slott", "gränd"],
+  "sources": [
+    "Stockholms stadsmuseum",
+    "Nationalencyklopedin — Stockholms historia"
+  ]
+}

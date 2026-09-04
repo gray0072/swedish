@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "id": "hej",
+      "sv": "hej",
+      "translations": { "ru": "привет", "en": "hi" },
+      "pos": "interjection",
+      "example": { "sv": "Hej, hur mår du?", "ru": "Привет, как дела?", "en": "Hi, how are you?" }
+    },
+    {
+      "id": "hej-da",
+      "sv": "hej då",
+      "translations": { "ru": "пока", "en": "bye" },
+      "pos": "phrase",
+      "example": { "sv": "Hej då, vi ses imorgon!", "ru": "Пока, увидимся завтра!", "en": "Bye, see you tomorrow!" }
+    },
+    {
+      "id": "god-morgon",
+      "sv": "god morgon",
+      "translations": { "ru": "доброе утро", "en": "good morning" },
+      "pos": "phrase",
+      "example": { "sv": "God morgon! Sov du bra?", "ru": "Доброе утро! Хорошо спал(а)?", "en": "Good morning! Did you sleep well?" }
+    },
+    {
+      "id": "god-kvall",
+      "sv": "god kväll",
+      "translations": { "ru": "добрый вечер", "en": "good evening" },
+      "pos": "phrase",
+      "example": { "sv": "God kväll, välkomna!", "ru": "Добрый вечер, добро пожаловать!", "en": "Good evening, welcome!" }
+    },
+    {
+      "id": "god-natt",
+      "sv": "god natt",
+      "translations": { "ru": "спокойной ночи", "en": "good night" },
+      "pos": "phrase",
+      "example": { "sv": "God natt, sov gott!", "ru": "Спокойной ночи, сладких снов!", "en": "Good night, sleep well!" }
+    },
+    {
+      "id": "tack",
+      "sv": "tack",
+      "translations": { "ru": "спасибо", "en": "thanks" },
+      "pos": "interjection",
+      "example": { "sv": "Tack för hjälpen!", "ru": "Спасибо за помощь!", "en": "Thanks for the help!" }
+    },
+    {
+      "id": "tack-sa-mycket",
+      "sv": "tack så mycket",
+      "translations": { "ru": "большое спасибо", "en": "thank you very much" },
+      "pos": "phrase",
+      "example": { "sv": "Tack så mycket för presenten!", "ru": "Большое спасибо за подарок!", "en": "Thank you very much for the gift!" }
+    },
+    {
+      "id": "varsagod",
+      "sv": "varsågod",
+      "translations": { "ru": "пожалуйста (при вручении)", "en": "here you go / you're welcome" },
+      "pos": "interjection",
+      "example": { "sv": "Varsågod, här är din kaffe.", "ru": "Пожалуйста, вот ваш кофе.", "en": "Here you go, here's your coffee." }
+    },
+    {
+      "id": "forlat",
+      "sv": "förlåt",
+      "translations": { "ru": "извини(те)", "en": "sorry" },
+      "pos": "interjection",
+      "example": { "sv": "Förlåt, jag är sen.", "ru": "Извини, я опаздываю.", "en": "Sorry, I'm late." }
+    },
+    {
+      "id": "ursakta",
+      "sv": "ursäkta",
+      "translations": { "ru": "извините (привлечь внимание)", "en": "excuse me" },
+      "pos": "interjection",
+      "example": { "sv": "Ursäkta, var är stationen?", "ru": "Извините, где вокзал?", "en": "Excuse me, where is the station?" }
+    },
+    {
+      "id": "hur-mar-du",
+      "sv": "hur mår du?",
+      "translations": { "ru": "как дела?", "en": "how are you?" },
+      "pos": "phrase",
+      "example": { "sv": "Hej! Hur mår du?", "ru": "Привет! Как дела?", "en": "Hi! How are you?" }
+    },
+    {
+      "id": "bra-tack",
+      "sv": "bra, tack",
+      "translations": { "ru": "хорошо, спасибо", "en": "fine, thanks" },
+      "pos": "phrase",
+      "example": { "sv": "Bra, tack! Och du?", "ru": "Хорошо, спасибо! А ты?", "en": "Fine, thanks! And you?" }
+    },
+    {
+      "id": "vi-ses",
+      "sv": "vi ses",
+      "translations": { "ru": "увидимся", "en": "see you" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på måndag!", "ru": "Увидимся в понедельник!", "en": "See you on Monday!" }
+    },
+    {
+      "id": "valkommen",
+      "sv": "välkommen",
+      "translations": { "ru": "добро пожаловать", "en": "welcome" },
+      "pos": "interjection",
+      "example": { "sv": "Välkommen till Sverige!", "ru": "Добро пожаловать в Швецию!", "en": "Welcome to Sweden!" }
+    },
+    {
+      "id": "ja",
+      "sv": "ja",
+      "translations": { "ru": "да", "en": "yes" },
+      "pos": "interjection",
+      "example": { "sv": "Ja, det stämmer.", "ru": "Да, верно.", "en": "Yes, that's right." }
+    },
+    {
+      "id": "nej",
+      "sv": "nej",
+      "translations": { "ru": "нет", "en": "no" },
+      "pos": "interjection",
+      "example": { "sv": "Nej, tyvärr inte.", "ru": "Нет, к сожалению нет.", "en": "No, unfortunately not." }
+    },
+    {
+      "id": "snalla",
+      "sv": "snälla",
+      "translations": { "ru": "пожалуйста (просьба)", "en": "please" },
+      "pos": "adv",
+      "example": { "sv": "Snälla, hjälp mig!", "ru": "Пожалуйста, помоги мне!", "en": "Please, help me!" }
+    }
+  ]
+}

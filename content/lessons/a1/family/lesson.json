@@ -1,0 +1,19 @@
+{
+  "id": "a1/family",
+  "slug": "family",
+  "title": { "sv": "Familj", "ru": "Семья", "en": "Family" },
+  "summary": {
+    "ru": "Слова для членов семьи — и первое знакомство с артиклями en/ett.",
+    "en": "Words for family members — and a first look at en/ett articles."
+  },
+  "kind": "vocab",
+  "levels": ["a1", "sfi-a", "grund-1"],
+  "tags": ["family", "nouns"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 30,
+  "prerequisites": ["a1/greetings"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

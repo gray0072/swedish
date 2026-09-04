@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "id": "cefr",
+      "title": { "ru": "Уровни CEFR", "en": "CEFR levels", "sv": "CEFR-nivåer" },
+      "levels": [
+        { "id": "a1", "title": { "ru": "A1 — Начальный", "en": "A1 — Beginner" }, "order": 1 },
+        { "id": "a2", "title": { "ru": "A2 — Базовый", "en": "A2 — Elementary" }, "order": 2 },
+        { "id": "b1", "title": { "ru": "B1 — Средний", "en": "B1 — Intermediate" }, "order": 3 }
+      ]
+    },
+    {
+      "id": "sfi",
+      "title": { "ru": "SFI", "en": "SFI (Swedish for Immigrants)", "sv": "SFI" },
+      "note": {
+        "ru": "Разбивка по курсам — прагматичное приближение, а не официальная программа Skolverket.",
+        "en": "This course breakdown is a pragmatic approximation, not the official Skolverket syllabus."
+      },
+      "levels": [
+        { "id": "sfi-a", "title": { "ru": "SFI Курс A", "en": "SFI Course A" }, "order": 1 },
+        { "id": "sfi-b", "title": { "ru": "SFI Курс B", "en": "SFI Course B" }, "order": 2 },
+        { "id": "sfi-c", "title": { "ru": "SFI Курс C", "en": "SFI Course C" }, "order": 3 },
+        { "id": "sfi-d", "title": { "ru": "SFI Курс D", "en": "SFI Course D" }, "order": 4 }
+      ]
+    },
+    {
+      "id": "grund",
+      "title": { "ru": "Grundläggande svenska", "en": "Grund 1–4" },
+      "levels": [
+        { "id": "grund-1", "title": { "ru": "Grund 1", "en": "Grund 1" }, "order": 1 },
+        { "id": "grund-2", "title": { "ru": "Grund 2", "en": "Grund 2" }, "order": 2 },
+        { "id": "grund-3", "title": { "ru": "Grund 3", "en": "Grund 3" }, "order": 3 },
+        { "id": "grund-4", "title": { "ru": "Grund 4", "en": "Grund 4" }, "order": 4 }
+      ]
+    }
+  ]
+}

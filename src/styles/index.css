@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+  body {
+    @apply bg-birch text-midnight dark:bg-midnight dark:text-birch font-sans antialiased;
+  }
+  .dark body {
+    @apply bg-midnight text-birch;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-flag;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-granite/15 bg-white/70 p-5 shadow-sm dark:border-white/10 dark:bg-midnight-surface/70;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply btn bg-falu text-birch hover:bg-falu/90;
+  }
+  .btn-secondary {
+    @apply btn border border-granite/30 bg-transparent text-midnight hover:bg-granite/10 dark:text-birch dark:hover:bg-white/10;
+  }
+  .btn-ghost {
+    @apply btn text-granite hover:bg-granite/10 dark:text-birch/70 dark:hover:bg-white/10;
+  }
+  .sv-word {
+    @apply font-semibold;
+  }
+  .swedish-flag-rule {
+    background: linear-gradient(90deg, #006aa7, #fecc00, #006aa7);
+    height: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

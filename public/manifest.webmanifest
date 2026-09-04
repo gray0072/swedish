@@ -1,0 +1,13 @@
+{
+  "name": "Swedish",
+  "short_name": "Swedish",
+  "description": "Учи шведский язык и строй Стокгольм от племени до наших дней.",
+  "start_url": "/swedish/",
+  "scope": "/swedish/",
+  "display": "standalone",
+  "background_color": "#F6F2EA",
+  "theme_color": "#7C3228",
+  "icons": [
+    { "src": "/swedish/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

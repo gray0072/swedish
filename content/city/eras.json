@@ -1,0 +1,46 @@
+{
+  "eras": [
+    {
+      "id": "tribe",
+      "order": 1,
+      "name": { "sv": "Bosättningen", "ru": "Поселение", "en": "The Settlement" },
+      "unlockXp": 0,
+      "palette": { "primary": "#4A5259", "accent": "#7C3228" }
+    },
+    {
+      "id": "viking",
+      "order": 2,
+      "name": { "sv": "Vikingatiden", "ru": "Эпоха викингов", "en": "The Viking Age" },
+      "unlockXp": 800,
+      "palette": { "primary": "#2F4A3C", "accent": "#C8A24A" }
+    },
+    {
+      "id": "medieval",
+      "order": 3,
+      "name": { "sv": "Medeltiden", "ru": "Средневековье", "en": "The Middle Ages" },
+      "unlockXp": 2200,
+      "palette": { "primary": "#7C3228", "accent": "#C8A24A" }
+    },
+    {
+      "id": "empire",
+      "order": 4,
+      "name": { "sv": "Stormaktstiden", "ru": "Эпоха великодержавия", "en": "The Age of Empire" },
+      "unlockXp": 4500,
+      "palette": { "primary": "#006AA7", "accent": "#C8A24A" }
+    },
+    {
+      "id": "industrial",
+      "order": 5,
+      "name": { "sv": "Industrialismen", "ru": "Индустриальная эпоха", "en": "The Industrial Age" },
+      "unlockXp": 8000,
+      "palette": { "primary": "#4A5259", "accent": "#006AA7" }
+    },
+    {
+      "id": "modern",
+      "order": 6,
+      "name": { "sv": "Moderna Stockholm", "ru": "Современный Стокгольм", "en": "Modern Stockholm" },
+      "unlockXp": 14000,
+      "palette": { "primary": "#0E2438", "accent": "#3FBF9F" }
+    }
+  ]
+}

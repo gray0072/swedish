@@ -1,0 +1,16 @@
+{
+  "id": "runstenar",
+  "era": "viking",
+  "unlockedBy": "rune-stone",
+  "title": { "sv": "Runstenarna", "ru": "Рунные камни", "en": "The rune stones" },
+  "date": { "from": 900, "to": 1100 },
+  "body": {
+    "ru": "Только в одном Упланде стоит около 2500 рунных камней — самая высокая плотность в мире. Надписи вырезаны младшим футарком, 16-рунным алфавитом, и почти всегда следуют одной формуле: «X поставил этот камень в память о Y». Один из самых известных сюжетов — экспедиция Ингвара Путешественника на восток около 1040 года, увековеченная примерно на 25 камнях. «Викинг» тогда означало не народ, а занятие — торгово-военный поход; сами скандинавы называли себя свеями и гётами.",
+    "en": "Uppland alone holds around 2,500 rune stones — the densest concentration in the world. The inscriptions are carved in Younger Futhark, a 16-rune alphabet, and almost always follow one formula: \"X raised this stone in memory of Y.\" One of the most famous stories is Ingvar the Far-Travelled's eastward expedition around 1040, commemorated on some 25 stones. \"Viking\" back then wasn't a people but an activity — a raiding or trading voyage; the people themselves were Swedes and Geats."
+  },
+  "vocab": ["sten", "rista", "minne", "resa", "öster"],
+  "sources": [
+    "Riksantikvarieämbetet — Runstenar i Sverige",
+    "Uppsala universitet, Institutionen för nordiska språk"
+  ]
+}

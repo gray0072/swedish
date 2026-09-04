@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-num-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Расставь по возрастанию", "en": "Put in ascending order" },
+      "tokens": ["fem", "tre", "ett", "fyra"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-num-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Расставь по возрастанию", "en": "Put in ascending order" },
+      "tokens": ["tio", "åtta", "nio", "sju"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-num-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь числа с цифрами", "en": "Match the words to the digits" },
+      "pairs": [
+        ["elva", "11"],
+        ["tolv", "12"],
+        ["tretton", "13"],
+        ["tjugo", "20"]
+      ]
+    },
+    {
+      "id": "q-num-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Числа 13–19 образуются с окончанием «-ton», похожим на русское «-надцать».",
+        "en": "Numbers 13-19 are built with the \"-ton\" ending, similar to the Russian \"-надцать\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-num-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tjugo» образовано от «два» (två).", "en": "\"Tjugo\" is derived from \"two\" (två)." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tjugo» (двадцать) — самостоятельное слово, а не производное от «två».",
+        "en": "\"Tjugo\" (twenty) is its own word, not derived from \"två\"."
+      }
+    },
+    {
+      "id": "q-num-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag är ___ år gammal. (18)" },
+      "answer": ["arton"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-num-mc-math-1",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Сколько будет tre + fyra?", "en": "How much is tre + fyra?" },
+      "choices": ["sju", "sex", "åtta", "fem"],
+      "answer": 0
+    },
+    {
+      "id": "q-num-mc-math-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Сколько будет tio − tre?", "en": "How much is tio − tre?" },
+      "choices": ["sju", "sex", "åtta", "nio"],
+      "answer": 0
+    }
+  ]
+}

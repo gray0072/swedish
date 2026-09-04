@@ -1,0 +1,25 @@
+{
+  "items": [
+    { "id": "noll", "sv": "noll", "translations": { "ru": "ноль", "en": "zero" }, "pos": "numeral" },
+    { "id": "ett-num", "sv": "ett", "translations": { "ru": "один", "en": "one" }, "pos": "numeral", "example": { "sv": "Jag har ett äpple.", "ru": "У меня одно яблоко.", "en": "I have one apple." } },
+    { "id": "tva", "sv": "två", "translations": { "ru": "два", "en": "two" }, "pos": "numeral" },
+    { "id": "tre", "sv": "tre", "translations": { "ru": "три", "en": "three" }, "pos": "numeral" },
+    { "id": "fyra", "sv": "fyra", "translations": { "ru": "четыре", "en": "four" }, "pos": "numeral" },
+    { "id": "fem", "sv": "fem", "translations": { "ru": "пять", "en": "five" }, "pos": "numeral" },
+    { "id": "sex", "sv": "sex", "translations": { "ru": "шесть", "en": "six" }, "pos": "numeral" },
+    { "id": "sju", "sv": "sju", "translations": { "ru": "семь", "en": "seven" }, "pos": "numeral" },
+    { "id": "atta", "sv": "åtta", "translations": { "ru": "восемь", "en": "eight" }, "pos": "numeral" },
+    { "id": "nio", "sv": "nio", "translations": { "ru": "девять", "en": "nine" }, "pos": "numeral" },
+    { "id": "tio", "sv": "tio", "translations": { "ru": "десять", "en": "ten" }, "pos": "numeral" },
+    { "id": "elva", "sv": "elva", "translations": { "ru": "одиннадцать", "en": "eleven" }, "pos": "numeral" },
+    { "id": "tolv", "sv": "tolv", "translations": { "ru": "двенадцать", "en": "twelve" }, "pos": "numeral" },
+    { "id": "tretton", "sv": "tretton", "translations": { "ru": "тринадцать", "en": "thirteen" }, "pos": "numeral" },
+    { "id": "fjorton", "sv": "fjorton", "translations": { "ru": "четырнадцать", "en": "fourteen" }, "pos": "numeral" },
+    { "id": "femton", "sv": "femton", "translations": { "ru": "пятнадцать", "en": "fifteen" }, "pos": "numeral" },
+    { "id": "sexton", "sv": "sexton", "translations": { "ru": "шестнадцать", "en": "sixteen" }, "pos": "numeral" },
+    { "id": "sjutton", "sv": "sjutton", "translations": { "ru": "семнадцать", "en": "seventeen" }, "pos": "numeral" },
+    { "id": "arton", "sv": "arton", "translations": { "ru": "восемнадцать", "en": "eighteen" }, "pos": "numeral" },
+    { "id": "nitton", "sv": "nitton", "translations": { "ru": "девятнадцать", "en": "nineteen" }, "pos": "numeral" },
+    { "id": "tjugo", "sv": "tjugo", "translations": { "ru": "двадцать", "en": "twenty" }, "pos": "numeral" }
+  ]
+}

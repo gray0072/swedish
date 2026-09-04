@@ -1,0 +1,76 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-fam-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мою маму зовут Анна.»", "en": "Build the sentence: \"My mom's name is Anna.\"" },
+      "tokens": ["heter", "mamma", "Anna", "Min"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-fam-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня есть брат.»", "en": "Build the sentence: \"I have a brother.\"" },
+      "tokens": ["en", "har", "bror", "Jag"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-fam-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["mamma", "мама"],
+        ["pappa", "папа"],
+        ["syster", "сестра"],
+        ["bror", "брат"]
+      ]
+    },
+    {
+      "id": "q-fam-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Barn» — это ett-слово.", "en": "\"Barn\" is an ett-word." },
+      "answer": true
+    },
+    {
+      "id": "q-fam-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Множественное число от «barn» — «barnar».",
+        "en": "The plural of \"barn\" is \"barnar\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Barn» не меняется во множественном числе: ett barn → barn (много детей).",
+        "en": "\"Barn\" doesn't change in the plural: ett barn → barn (many children)."
+      }
+    },
+    {
+      "id": "q-fam-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag har ___ syster och en bror. (одна)" },
+      "answer": ["en"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fam-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как назвать «бабушку со стороны мамы»?", "en": "How do you say \"grandmother on mom's side\"?" },
+      "choices": ["mormor", "farmor", "morfar", "farfar"],
+      "answer": 0
+    }
+  ]
+}

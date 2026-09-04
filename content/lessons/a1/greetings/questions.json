@@ -1,0 +1,94 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-greet-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ morgon! Hur mår du?" },
+      "answer": ["God"],
+      "acceptAlso": ["god"],
+      "hint": { "ru": "Пожелание перед словом «утро».", "en": "The word that goes before \"morning\"." }
+    },
+    {
+      "id": "q-greet-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Большое спасибо»", "en": "Build the phrase: \"thank you very much\"" },
+      "tokens": ["mycket", "så", "Tack"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-greet-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Доброе утро»", "en": "Build the phrase: \"good morning\"" },
+      "tokens": ["morgon", "God"],
+      "answer": [1, 0]
+    },
+    {
+      "id": "q-greet-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь приветствия с переводом", "en": "Match the greetings with their translation" },
+      "pairs": [
+        ["Hej då", "Пока"],
+        ["Vi ses", "Увидимся"],
+        ["God natt", "Спокойной ночи"],
+        ["Tack", "Спасибо"]
+      ]
+    },
+    {
+      "id": "q-greet-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Hej» можно использовать в любое время суток.",
+        "en": "\"Hej\" can be used at any time of day."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "Да, «hej» — универсальное приветствие.",
+        "en": "Yes, \"hej\" is a universal greeting."
+      }
+    },
+    {
+      "id": "q-greet-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Tack» значит «извините».", "en": "\"Tack\" means \"sorry\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tack» значит «спасибо». «Извините» — это «förlåt» или «ursäkta».",
+        "en": "\"Tack\" means \"thanks\". \"Sorry\" is \"förlåt\" or \"ursäkta\"."
+      }
+    },
+    {
+      "id": "q-greet-mc-context-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Сейчас 23:00. Что скажешь другу перед сном?",
+        "en": "It's 11 PM. What do you say to a friend before bed?"
+      },
+      "choices": ["God natt", "God morgon", "God kväll", "Hej då"],
+      "answer": 0
+    },
+    {
+      "id": "q-greet-mc-context-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто-то помог тебе донести сумки. Что скажешь?",
+        "en": "Someone helped you carry your bags. What do you say?"
+      },
+      "choices": ["Tack så mycket", "Förlåt", "Hej då", "Nej"],
+      "answer": 0
+    }
+  ]
+}

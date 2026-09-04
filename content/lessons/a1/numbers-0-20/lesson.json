@@ -1,0 +1,19 @@
+{
+  "id": "a1/numbers-0-20",
+  "slug": "numbers-0-20",
+  "title": { "sv": "Siffror 0–20", "ru": "Числа 0–20", "en": "Numbers 0–20" },
+  "summary": {
+    "ru": "Считаем от нуля до двадцати по-шведски.",
+    "en": "Counting from zero to twenty in Swedish."
+  },
+  "kind": "vocab",
+  "levels": ["a1", "sfi-a", "grund-1"],
+  "tags": ["numbers", "basics"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 20,
+  "prerequisites": [],
+  "xp": { "base": 100 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

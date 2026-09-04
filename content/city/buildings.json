@@ -1,0 +1,301 @@
+{
+  "buildings": [
+    {
+      "id": "hut",
+      "era": "tribe",
+      "name": { "sv": "Hyddan", "ru": "Хижина", "en": "Hut" },
+      "description": { "ru": "Первое жильё племени.", "en": "The tribe's first shelter." },
+      "cost": { "coins": 30 },
+      "requires": [],
+      "maxLevel": 3,
+      "costGrowth": 1.6,
+      "perk": { "type": "cosmetic" },
+      "position": { "x": 20, "y": 70 }
+    },
+    {
+      "id": "campfire",
+      "era": "tribe",
+      "name": { "sv": "Lägerelden", "ru": "Костёр", "en": "Campfire" },
+      "description": {
+        "ru": "Место, где племя собирается и учит новые слова.",
+        "en": "Where the tribe gathers and learns new words."
+      },
+      "cost": { "coins": 50 },
+      "requires": [],
+      "maxLevel": 3,
+      "costGrowth": 1.8,
+      "perk": { "type": "xpMultiplier", "valuePerLevel": 0.03 },
+      "position": { "x": 42, "y": 61 },
+      "flavour": { "sv": "Elden brinner. Vi lär oss tillsammans." }
+    },
+    {
+      "id": "rock-carving",
+      "era": "tribe",
+      "name": { "sv": "Hällristningen", "ru": "Наскальный рисунок", "en": "Rock carving" },
+      "description": {
+        "ru": "По образцу настоящих наскальных изображений бронзового века в Тануме.",
+        "en": "Modelled on the real Bronze Age rock carvings at Tanum."
+      },
+      "cost": { "coins": 90 },
+      "requires": ["hut"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "cosmetic" },
+      "position": { "x": 65, "y": 75 }
+    },
+    {
+      "id": "stone-ship",
+      "era": "tribe",
+      "name": { "sv": "Skeppssättningen", "ru": "Каменный корабль", "en": "Stone ship" },
+      "description": {
+        "ru": "Каменные корабли — погребальные памятники, похожие на Ales stenar в Сконе.",
+        "en": "Stone ships are burial monuments, like Ales stenar in Skåne."
+      },
+      "cost": { "coins": 160 },
+      "requires": ["campfire"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "dailyIncome", "valuePerLevel": 3 },
+      "position": { "x": 30, "y": 40 }
+    },
+
+    {
+      "id": "longhouse",
+      "era": "viking",
+      "name": { "sv": "Långhuset", "ru": "Длинный дом", "en": "Longhouse" },
+      "description": { "ru": "Общий дом для большой семьи и гостей.", "en": "A shared home for an extended family and guests." },
+      "cost": { "coins": 300 },
+      "requires": [],
+      "maxLevel": 3,
+      "costGrowth": 1.7,
+      "perk": { "type": "coinMultiplier", "valuePerLevel": 0.04 },
+      "position": { "x": 35, "y": 55 }
+    },
+    {
+      "id": "harbour",
+      "era": "viking",
+      "name": { "sv": "Hamnen", "ru": "Гавань", "en": "Harbour" },
+      "description": { "ru": "Отсюда снаряжают походы на восток — в Балтику и дальше.", "en": "Expeditions east — to the Baltic and beyond — set out from here." },
+      "cost": { "coins": 350 },
+      "requires": ["longhouse"],
+      "maxLevel": 2,
+      "costGrowth": 1.8,
+      "perk": { "type": "dailyIncome", "valuePerLevel": 8 },
+      "position": { "x": 60, "y": 30 }
+    },
+    {
+      "id": "rune-stone",
+      "era": "viking",
+      "name": { "sv": "Runstenen", "ru": "Рунный камень", "en": "Rune stone" },
+      "description": {
+        "ru": "Только в Упланде их около 2500 — самая высокая плотность в мире.",
+        "en": "Uppland alone holds around 2,500 of these — the densest concentration in the world."
+      },
+      "cost": { "coins": 400 },
+      "requires": ["longhouse"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "unlockLessonPack", "packId": "viking-words" },
+      "position": { "x": 70, "y": 45 }
+    },
+    {
+      "id": "trading-square",
+      "era": "viking",
+      "name": { "sv": "Birkas torg", "ru": "Торговая площадь Бирки", "en": "Birka's trading square" },
+      "description": {
+        "ru": "Бирка на острове Бьёркё — один из древнейших городов Скандинавии, ок. 750–975.",
+        "en": "Birka on Björkö — one of Scandinavia's earliest towns, c. 750–975."
+      },
+      "cost": { "coins": 500 },
+      "requires": ["harbour"],
+      "maxLevel": 2,
+      "costGrowth": 1.7,
+      "perk": { "type": "xpMultiplier", "valuePerLevel": 0.05 },
+      "position": { "x": 50, "y": 20 }
+    },
+    {
+      "id": "smithy",
+      "era": "viking",
+      "name": { "sv": "Smedjan", "ru": "Кузница", "en": "Smithy" },
+      "description": { "ru": "Куёт инструменты и оружие.", "en": "Forges tools and weapons." },
+      "cost": { "coins": 280 },
+      "requires": [],
+      "maxLevel": 2,
+      "costGrowth": 1.6,
+      "perk": { "type": "hintToken", "valuePerLevel": 1 },
+      "position": { "x": 20, "y": 35 }
+    },
+
+    {
+      "id": "city-wall",
+      "era": "medieval",
+      "name": { "sv": "Stadsmuren", "ru": "Городская стена", "en": "City wall" },
+      "description": { "ru": "Стокгольм впервые упомянут в 1252 году.", "en": "Stockholm is first mentioned in writing in 1252." },
+      "cost": { "coins": 900 },
+      "requires": [],
+      "maxLevel": 2,
+      "costGrowth": 1.7,
+      "perk": { "type": "streakFreeze", "valuePerLevel": 1 },
+      "position": { "x": 40, "y": 50 }
+    },
+    {
+      "id": "storkyrkan",
+      "era": "medieval",
+      "name": { "sv": "Storkyrkan", "ru": "Стурчюркан", "en": "Storkyrkan" },
+      "description": { "ru": "Главный храм города, XIII век.", "en": "The city's cathedral, 13th century." },
+      "cost": { "coins": 1100 },
+      "requires": ["city-wall"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "unlockLessonPack", "packId": "gamla-stan" },
+      "position": { "x": 45, "y": 40 }
+    },
+    {
+      "id": "stortorget-market",
+      "era": "medieval",
+      "name": { "sv": "Stortorget", "ru": "Рынок на Стурторьет", "en": "Stortorget market" },
+      "description": { "ru": "Главная площадь Старого города.", "en": "The main square of the Old Town." },
+      "cost": { "coins": 800 },
+      "requires": [],
+      "maxLevel": 3,
+      "costGrowth": 1.6,
+      "perk": { "type": "coinMultiplier", "valuePerLevel": 0.05 },
+      "position": { "x": 55, "y": 55 }
+    },
+    {
+      "id": "riddarholmen",
+      "era": "medieval",
+      "name": { "sv": "Riddarholmen", "ru": "Риддархольмен", "en": "Riddarholmen" },
+      "description": { "ru": "Остров с усыпальницей шведских королей.", "en": "The island with the Swedish royal burial church." },
+      "cost": { "coins": 1400 },
+      "requires": ["storkyrkan"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "extraReviewSlots", "valuePerLevel": 10 },
+      "position": { "x": 30, "y": 60 }
+    },
+
+    {
+      "id": "shipyard",
+      "era": "empire",
+      "name": { "sv": "Skeppsvarvet", "ru": "Верфь", "en": "Shipyard" },
+      "description": { "ru": "Здесь построили корабль «Васа».", "en": "Where the warship Vasa was built." },
+      "cost": { "coins": 2200 },
+      "requires": [],
+      "maxLevel": 2,
+      "costGrowth": 1.7,
+      "perk": { "type": "coinMultiplier", "valuePerLevel": 0.06 },
+      "position": { "x": 25, "y": 45 }
+    },
+    {
+      "id": "vasa-ship",
+      "era": "empire",
+      "name": { "sv": "Vasaskeppet", "ru": "Корабль «Васа»", "en": "The Vasa" },
+      "description": {
+        "ru": "Опрокинулся в первом плавании 10 августа 1628 года. Поднят в 1961.",
+        "en": "Capsized on her maiden voyage on 10 August 1628. Salvaged in 1961."
+      },
+      "cost": { "coins": 2600 },
+      "requires": ["shipyard"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "unlockLessonPack", "packId": "vasa-ship" },
+      "position": { "x": 40, "y": 30 }
+    },
+    {
+      "id": "royal-palace",
+      "era": "empire",
+      "name": { "sv": "Kungliga slottet", "ru": "Королевский дворец", "en": "The Royal Palace" },
+      "description": { "ru": "Достроен в 1754 году после пожара замка Тре Крунур.", "en": "Completed in 1754 after the Tre Kronor castle fire." },
+      "cost": { "coins": 3200 },
+      "requires": [],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "xpMultiplier", "valuePerLevel": 0.08 },
+      "position": { "x": 55, "y": 40 }
+    },
+
+    {
+      "id": "central-station",
+      "era": "industrial",
+      "name": { "sv": "Centralstationen", "ru": "Центральный вокзал", "en": "Central Station" },
+      "description": { "ru": "Открыт в 1871 году.", "en": "Opened in 1871." },
+      "cost": { "coins": 4200 },
+      "requires": [],
+      "maxLevel": 2,
+      "costGrowth": 1.7,
+      "perk": { "type": "dailyIncome", "valuePerLevel": 20 },
+      "position": { "x": 45, "y": 55 }
+    },
+    {
+      "id": "skansen",
+      "era": "industrial",
+      "name": { "sv": "Skansen", "ru": "Скансен", "en": "Skansen" },
+      "description": {
+        "ru": "Первый в мире музей под открытым небом, основан в 1891 году.",
+        "en": "The world's first open-air museum, founded in 1891."
+      },
+      "cost": { "coins": 4800 },
+      "requires": [],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "unlockLessonPack", "packId": "svensk-kultur" },
+      "position": { "x": 65, "y": 50 }
+    },
+    {
+      "id": "stadshuset",
+      "era": "industrial",
+      "name": { "sv": "Stadshuset", "ru": "Ратуша", "en": "City Hall" },
+      "description": { "ru": "Построена в 1923 году архитектором Рагнаром Эстбергом.", "en": "Built in 1923 by architect Ragnar Östberg." },
+      "cost": { "coins": 5600 },
+      "requires": ["central-station"],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "xpMultiplier", "valuePerLevel": 0.1 },
+      "position": { "x": 35, "y": 65 }
+    },
+
+    {
+      "id": "metro-art-station",
+      "era": "modern",
+      "name": { "sv": "Konsttunnelbanan", "ru": "Станция метро с искусством", "en": "Art metro station" },
+      "description": {
+        "ru": "Около 90 из 100 станций метро оформлены художниками — самая длинная художественная галерея мира.",
+        "en": "About 90 of the 100 metro stations are decorated — the world's longest art gallery."
+      },
+      "cost": { "coins": 7000 },
+      "requires": [],
+      "maxLevel": 2,
+      "costGrowth": 1.7,
+      "perk": { "type": "unlockLessonPack", "packId": "tunnelbanan" },
+      "position": { "x": 50, "y": 45 }
+    },
+    {
+      "id": "avicii-arena",
+      "era": "modern",
+      "name": { "sv": "Avicii Arena", "ru": "Avicii Arena", "en": "Avicii Arena" },
+      "description": {
+        "ru": "Открыта как Globen в 1989 году, переименована в 2021.",
+        "en": "Opened as Globen in 1989, renamed in 2021."
+      },
+      "cost": { "coins": 8000 },
+      "requires": [],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "coinMultiplier", "valuePerLevel": 0.1 },
+      "position": { "x": 65, "y": 60 }
+    },
+    {
+      "id": "abba-museum",
+      "era": "modern",
+      "name": { "sv": "ABBA The Museum", "ru": "Музей ABBA", "en": "ABBA The Museum" },
+      "description": { "ru": "Открыт в 2013 году.", "en": "Opened in 2013." },
+      "cost": { "coins": 9000 },
+      "requires": [],
+      "maxLevel": 1,
+      "costGrowth": 1,
+      "perk": { "type": "xpMultiplier", "valuePerLevel": 0.12 },
+      "position": { "x": 30, "y": 30 }
+    }
+  ]
+}
