@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "lagenhet",
+      "sv": "lägenhet",
+      "translations": { "ru": "квартира", "en": "apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lägenhet", "defSg": "lägenheten", "indefPl": "lägenheter", "defPl": "lägenheterna" },
+      "example": { "sv": "Jag hyr en lägenhet i centrum.", "ru": "Я снимаю квартиру в центре.", "en": "I rent an apartment downtown." }
+    },
+    {
+      "id": "rum",
+      "sv": "rum",
+      "translations": { "ru": "комната", "en": "room" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett rum", "defSg": "rummet", "indefPl": "rum", "defPl": "rummen" },
+      "example": { "sv": "Lägenheten har tre rum.", "ru": "В квартире три комнаты.", "en": "The apartment has three rooms." }
+    },
+    {
+      "id": "hyra-noun",
+      "sv": "hyra",
+      "translations": { "ru": "арендная плата", "en": "rent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" },
+      "example": { "sv": "Hyran ska betalas före den femte.", "ru": "Аренду нужно оплатить до пятого числа.", "en": "The rent must be paid before the fifth." }
+    },
+    {
+      "id": "hyra-verb",
+      "sv": "hyra",
+      "translations": { "ru": "снимать, арендовать", "en": "to rent" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "hyra", "present": "hyr", "past": "hyrde", "supine": "hyrt" },
+      "example": { "sv": "Vi vill hyra en lägenhet med balkong.", "ru": "Мы хотим снять квартиру с балконом.", "en": "We want to rent an apartment with a balcony." }
+    },
+    {
+      "id": "hyresvard",
+      "sv": "hyresvärd",
+      "translations": { "ru": "арендодатель", "en": "landlord" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresvärd", "defSg": "hyresvärden", "indefPl": "hyresvärdar", "defPl": "hyresvärdarna" },
+      "example": { "sv": "Hyresvärden bor i huset bredvid.", "ru": "Арендодатель живёт в соседнем доме.", "en": "The landlord lives in the building next door." }
+    },
+    {
+      "id": "hyresgast",
+      "sv": "hyresgäst",
+      "translations": { "ru": "арендатор, квартиросъёмщик", "en": "tenant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresgäst", "defSg": "hyresgästen", "indefPl": "hyresgäster", "defPl": "hyresgästerna" },
+      "example": { "sv": "Som hyresgäst måste du sköta om lägenheten.", "ru": "Как арендатор ты должен(на) следить за квартирой.", "en": "As a tenant you must take care of the apartment." }
+    },
+    {
+      "id": "kontrakt",
+      "sv": "kontrakt",
+      "translations": { "ru": "договор", "en": "contract" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kontrakt", "defSg": "kontraktet", "indefPl": "kontrakt", "defPl": "kontrakten" },
+      "example": { "sv": "Vi skrev under kontraktet igår.", "ru": "Мы подписали договор вчера.", "en": "We signed the contract yesterday." }
+    },
+    {
+      "id": "flytta",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Vi flyttar in i nästa vecka.", "ru": "Мы переезжаем на следующей неделе.", "en": "We're moving in next week." }
+    },
+    {
+      "id": "nyckel",
+      "sv": "nyckel",
+      "translations": { "ru": "ключ", "en": "key" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nyckel", "defSg": "nyckeln", "indefPl": "nycklar", "defPl": "nycklarna" },
+      "example": { "sv": "Kan jag få nycklarna redan idag?", "ru": "Могу я получить ключи уже сегодня?", "en": "Can I get the keys already today?" }
+    },
+    {
+      "id": "granne",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
+      "example": { "sv": "Min granne heter Lars och är trevlig.", "ru": "Моего соседа зовут Ларс, он приветливый.", "en": "My neighbor is called Lars and he's friendly." }
+    },
+    {
+      "id": "adress",
+      "sv": "adress",
+      "translations": { "ru": "адрес", "en": "address" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en adress", "defSg": "adressen", "indefPl": "adresser", "defPl": "adresserna" },
+      "example": { "sv": "Vad är din nya adress?", "ru": "Какой у тебя новый адрес?", "en": "What's your new address?" }
+    },
+    {
+      "id": "vaning",
+      "sv": "våning",
+      "translations": { "ru": "этаж", "en": "floor, storey" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en våning", "defSg": "våningen", "indefPl": "våningar", "defPl": "våningarna" },
+      "example": { "sv": "Vilken våning bor du på?", "ru": "На каком этаже ты живёшь?", "en": "What floor do you live on?" }
+    },
+    {
+      "id": "balkong",
+      "sv": "balkong",
+      "translations": { "ru": "балкон", "en": "balcony" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en balkong", "defSg": "balkongen", "indefPl": "balkonger", "defPl": "balkongerna" },
+      "example": { "sv": "Lägenheten är möblerad och har en balkong.", "ru": "Квартира меблирована и с балконом.", "en": "The apartment is furnished and has a balcony." }
+    },
+    {
+      "id": "kok",
+      "sv": "kök",
+      "translations": { "ru": "кухня", "en": "kitchen" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kök", "defSg": "köket", "indefPl": "kök", "defPl": "köken" },
+      "example": { "sv": "Köket är litet men fungerar bra.", "ru": "Кухня маленькая, но удобная.", "en": "The kitchen is small but works well." }
+    },
+    {
+      "id": "badrum",
+      "sv": "badrum",
+      "translations": { "ru": "ванная комната", "en": "bathroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett badrum", "defSg": "badrummet", "indefPl": "badrum", "defPl": "badrummen" },
+      "example": { "sv": "Badrummet har både dusch och badkar.", "ru": "В ванной есть и душ, и ванна.", "en": "The bathroom has both a shower and a bathtub." }
+    },
+    {
+      "id": "sovrum",
+      "sv": "sovrum",
+      "translations": { "ru": "спальня", "en": "bedroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sovrum", "defSg": "sovrummet", "indefPl": "sovrum", "defPl": "sovrummen" },
+      "example": { "sv": "Barnen delar ett sovrum.", "ru": "Дети делят одну спальню.", "en": "The children share one bedroom." }
+    },
+    {
+      "id": "moblerad",
+      "sv": "möblerad",
+      "translations": { "ru": "меблированный", "en": "furnished" },
+      "pos": "adj",
+      "example": { "sv": "Vi söker en möblerad lägenhet.", "ru": "Мы ищем меблированную квартиру.", "en": "We're looking for a furnished apartment." }
+    }
+  ]
+}

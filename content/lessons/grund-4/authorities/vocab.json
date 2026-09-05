@@ -1,0 +1,160 @@
+{
+  "items": [
+    {
+      "id": "myndighet",
+      "sv": "myndighet",
+      "translations": { "ru": "госорган, ведомство", "en": "authority, agency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" },
+      "example": { "sv": "Jag måste kontakta en myndighet.", "ru": "Мне нужно связаться с одним ведомством.", "en": "I need to contact an authority." }
+    },
+    {
+      "id": "personnummer",
+      "sv": "personnummer",
+      "translations": { "ru": "личный номер (персональный идентификатор)", "en": "personal ID number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett personnummer", "defSg": "personnumret", "indefPl": "personnummer", "defPl": "personnumren" },
+      "example": { "sv": "Vad är ditt personnummer?", "ru": "Какой у тебя личный номер?", "en": "What's your personal ID number?" }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Ansökan måste skickas in före tidsfristen.", "ru": "Заявление нужно отправить до срока.", "en": "The application must be sent before the deadline." }
+    },
+    {
+      "id": "blankett",
+      "sv": "blankett",
+      "translations": { "ru": "бланк, форма", "en": "form" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blankett", "defSg": "blanketten", "indefPl": "blanketter", "defPl": "blanketterna" },
+      "example": { "sv": "Kom ihåg att fylla i blanketten noga.", "ru": "Не забудь заполнить бланк внимательно.", "en": "Remember to fill in the form carefully." }
+    },
+    {
+      "id": "underskrift",
+      "sv": "underskrift",
+      "translations": { "ru": "подпись", "en": "signature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en underskrift", "defSg": "underskriften", "indefPl": "underskrifter", "defPl": "underskrifterna" },
+      "example": { "sv": "Blanketten behöver din underskrift.", "ru": "На бланке нужна твоя подпись.", "en": "The form needs your signature." }
+    },
+    {
+      "id": "tidsfrist",
+      "sv": "tidsfrist",
+      "translations": { "ru": "срок подачи, дедлайн", "en": "deadline" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidsfrist", "defSg": "tidsfristen", "indefPl": "tidsfrister", "defPl": "tidsfristerna" },
+      "example": { "sv": "Tidsfristen är den sista mars.", "ru": "Срок подачи — последнее число марта.", "en": "The deadline is the last day of March." }
+    },
+    {
+      "id": "skatteverket",
+      "sv": "Skatteverket",
+      "translations": { "ru": "Налоговое агентство", "en": "the Swedish Tax Agency" },
+      "pos": "noun",
+      "example": { "sv": "Jag måste kontakta Skatteverket.", "ru": "Мне нужно связаться с налоговой.", "en": "I need to contact the Tax Agency." }
+    },
+    {
+      "id": "forsakringskassan",
+      "sv": "Försäkringskassan",
+      "translations": { "ru": "Агентство социального страхования", "en": "the Swedish Social Insurance Agency" },
+      "pos": "noun",
+      "example": { "sv": "Jag vill boka en tid hos Försäkringskassan.", "ru": "Я хочу записаться на приём в Försäkringskassan.", "en": "I want to book an appointment with the Social Insurance Agency." }
+    },
+    {
+      "id": "boka",
+      "sv": "boka",
+      "translations": { "ru": "бронировать, записываться", "en": "to book" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "boka", "present": "bokar", "past": "bokade", "supine": "bokat" },
+      "example": { "sv": "Jag vill boka en tid.", "ru": "Я хочу записаться на приём.", "en": "I want to book an appointment." }
+    },
+    {
+      "id": "tid",
+      "sv": "tid",
+      "translations": { "ru": "время; запись, приём", "en": "time; appointment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tid", "defSg": "tiden", "indefPl": "tider", "defPl": "tiderna" },
+      "example": { "sv": "Kan jag få en tid nästa vecka?", "ru": "Могу я записаться на следующую неделю?", "en": "Can I get an appointment next week?" }
+    },
+    {
+      "id": "brev",
+      "sv": "brev",
+      "translations": { "ru": "письмо", "en": "letter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett brev", "defSg": "brevet", "indefPl": "brev", "defPl": "breven" },
+      "example": { "sv": "De skickade ett brev om min skatt.", "ru": "Мне прислали письмо о моём налоге.", "en": "They sent a letter about my tax." }
+    },
+    {
+      "id": "legitimation",
+      "sv": "legitimation",
+      "translations": { "ru": "удостоверение личности", "en": "ID, identification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en legitimation", "defSg": "legitimationen", "indefPl": "legitimationer", "defPl": "legitimationerna" },
+      "example": { "sv": "Du måste visa legitimation.", "ru": "Тебе нужно показать удостоверение личности.", "en": "You have to show ID." }
+    },
+    {
+      "id": "avgift",
+      "sv": "avgift",
+      "translations": { "ru": "сбор, пошлина", "en": "fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avgift", "defSg": "avgiften", "indefPl": "avgifter", "defPl": "avgifterna" },
+      "example": { "sv": "Det kostar en liten avgift.", "ru": "Это стоит небольшую пошлину.", "en": "There's a small fee for it." }
+    },
+    {
+      "id": "inkomst",
+      "sv": "inkomst",
+      "translations": { "ru": "доход", "en": "income" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inkomst", "defSg": "inkomsten", "indefPl": "inkomster", "defPl": "inkomsterna" },
+      "example": { "sv": "Din inkomst påverkar bidraget.", "ru": "Твой доход влияет на пособие.", "en": "Your income affects the benefit." }
+    },
+    {
+      "id": "skatt",
+      "sv": "skatt",
+      "translations": { "ru": "налог", "en": "tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skatt", "defSg": "skatten", "indefPl": "skatter", "defPl": "skatterna" },
+      "example": { "sv": "Alla måste betala skatt.", "ru": "Все должны платить налог.", "en": "Everyone must pay tax." }
+    },
+    {
+      "id": "bidrag",
+      "sv": "bidrag",
+      "translations": { "ru": "пособие, субсидия", "en": "benefit, allowance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bidrag", "defSg": "bidraget", "indefPl": "bidrag", "defPl": "bidragen" },
+      "example": { "sv": "Hon ansökte om bidrag hos Försäkringskassan.", "ru": "Она подала заявление на пособие в Försäkringskassan.", "en": "She applied for a benefit from the Social Insurance Agency." }
+    },
+    {
+      "id": "fylla-i",
+      "sv": "fylla i",
+      "translations": { "ru": "заполнять (бланк)", "en": "to fill in" },
+      "pos": "verb",
+      "forms": { "infinitive": "fylla i", "present": "fyller i", "past": "fyllde i", "supine": "fyllt i" },
+      "example": { "sv": "Fyll i blanketten med bläckpenna.", "ru": "Заполни бланк ручкой.", "en": "Fill in the form with a pen." }
+    },
+    {
+      "id": "skicka",
+      "sv": "skicka",
+      "translations": { "ru": "отправлять", "en": "to send" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skicka", "present": "skickar", "past": "skickade", "supine": "skickat" },
+      "example": { "sv": "Skicka ansökan så fort som möjligt.", "ru": "Отправь заявление как можно скорее.", "en": "Send the application as soon as possible." }
+    }
+  ]
+}

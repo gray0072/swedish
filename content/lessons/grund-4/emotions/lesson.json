@@ -1,0 +1,19 @@
+{
+  "id": "grund-4/emotions",
+  "slug": "emotions",
+  "title": { "sv": "Känslor", "ru": "Чувства", "en": "Emotions" },
+  "summary": {
+    "ru": "Радость, грусть, злость, тревога — как рассказать о своих чувствах по-шведски.",
+    "en": "Happy, sad, angry, worried — how to talk about your feelings in Swedish."
+  },
+  "kind": "vocab",
+  "levels": ["grund-4"],
+  "tags": ["emotions", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": [],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

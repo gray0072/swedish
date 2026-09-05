@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": "glad",
+      "sv": "glad",
+      "translations": { "ru": "радостный, счастливый", "en": "happy, glad" },
+      "pos": "adj",
+      "example": { "sv": "Jag känner mig glad idag.", "ru": "Я чувствую себя радостным(ой) сегодня.", "en": "I feel happy today." }
+    },
+    {
+      "id": "ledsen",
+      "sv": "ledsen",
+      "translations": { "ru": "грустный", "en": "sad" },
+      "pos": "adj",
+      "example": { "sv": "Hon är ledsen för att hunden är sjuk.", "ru": "Она грустит, потому что собака заболела.", "en": "She's sad because the dog is sick." }
+    },
+    {
+      "id": "arg",
+      "sv": "arg",
+      "translations": { "ru": "злой, сердитый", "en": "angry" },
+      "pos": "adj",
+      "example": { "sv": "Han blev arg när tåget var försenat.", "ru": "Он разозлился, когда поезд опоздал.", "en": "He got angry when the train was late." }
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj",
+      "example": { "sv": "Jag är trött efter jobbet.", "ru": "Я устал(а) после работы.", "en": "I'm tired after work." }
+    },
+    {
+      "id": "orolig",
+      "sv": "orolig",
+      "translations": { "ru": "встревоженный, обеспокоенный", "en": "worried" },
+      "pos": "adj",
+      "example": { "sv": "Jag är lite orolig inför intervjun.", "ru": "Я немного волнуюсь перед собеседованием.", "en": "I'm a bit worried about the interview." }
+    },
+    {
+      "id": "forvanad",
+      "sv": "förvånad",
+      "translations": { "ru": "удивлённый", "en": "surprised" },
+      "pos": "adj",
+      "example": { "sv": "Hon blev förvånad och glad på samma gång.", "ru": "Она удивилась и обрадовалась одновременно.", "en": "She was surprised and happy at the same time." }
+    },
+    {
+      "id": "lugn",
+      "sv": "lugn",
+      "translations": { "ru": "спокойный", "en": "calm" },
+      "pos": "adj",
+      "example": { "sv": "Försök att vara lugn.", "ru": "Постарайся быть спокойным(ой).", "en": "Try to stay calm." }
+    },
+    {
+      "id": "radd",
+      "sv": "rädd",
+      "translations": { "ru": "испуганный", "en": "scared, afraid" },
+      "pos": "adj",
+      "example": { "sv": "Barnet är rädd för mörkret.", "ru": "Ребёнок боится темноты.", "en": "The child is afraid of the dark." }
+    },
+    {
+      "id": "stolt",
+      "sv": "stolt",
+      "translations": { "ru": "гордый", "en": "proud" },
+      "pos": "adj",
+      "example": { "sv": "Jag är stolt över dig.", "ru": "Я горжусь тобой.", "en": "I'm proud of you." }
+    },
+    {
+      "id": "nervos",
+      "sv": "nervös",
+      "translations": { "ru": "нервный, взволнованный", "en": "nervous" },
+      "pos": "adj",
+      "example": { "sv": "Han var nervös före provet.", "ru": "Он нервничал перед экзаменом.", "en": "He was nervous before the exam." }
+    },
+    {
+      "id": "kansla",
+      "sv": "känsla",
+      "translations": { "ru": "чувство", "en": "feeling, emotion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en känsla", "defSg": "känslan", "indefPl": "känslor", "defPl": "känslorna" },
+      "example": { "sv": "Det är en konstig känsla.", "ru": "Это странное чувство.", "en": "It's a strange feeling." }
+    },
+    {
+      "id": "gladje",
+      "sv": "glädje",
+      "translations": { "ru": "радость", "en": "joy" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hon grät av glädje.", "ru": "Она заплакала от радости.", "en": "She cried with joy." }
+    },
+    {
+      "id": "ma-verb",
+      "sv": "må",
+      "translations": { "ru": "чувствовать себя (о самочувствии)", "en": "to feel (well-being)" },
+      "pos": "verb",
+      "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" },
+      "example": { "sv": "Jag mår bra idag.", "ru": "Я хорошо себя чувствую сегодня.", "en": "I'm feeling well today." }
+    },
+    {
+      "id": "grata",
+      "sv": "gråta",
+      "translations": { "ru": "плакать", "en": "to cry" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gråta", "present": "gråter", "past": "grät", "supine": "gråtit" },
+      "example": { "sv": "Hon grät av glädje när hon fick jobbet.", "ru": "Она заплакала от радости, когда получила работу.", "en": "She cried with joy when she got the job." }
+    },
+    {
+      "id": "skratta",
+      "sv": "skratta",
+      "translations": { "ru": "смеяться", "en": "to laugh" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skratta", "present": "skrattar", "past": "skrattade", "supine": "skrattat" },
+      "example": { "sv": "Han skrattade högt åt skämtet.", "ru": "Он громко засмеялся над шуткой.", "en": "He laughed loudly at the joke." }
+    },
+    {
+      "id": "hur-kanner-du-dig",
+      "sv": "hur känner du dig?",
+      "translations": { "ru": "как ты себя чувствуешь?", "en": "how do you feel?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur känner du dig idag?", "ru": "Как ты себя чувствуешь сегодня?", "en": "How do you feel today?" }
+    },
+    {
+      "id": "kanna-sig",
+      "sv": "känna sig",
+      "translations": { "ru": "чувствовать себя", "en": "to feel (a certain way)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag känner mig glad och lugn.", "ru": "Я чувствую себя радостным(ой) и спокойным(ой).", "en": "I feel happy and calm." }
+    }
+  ]
+}

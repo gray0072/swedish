@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-emo-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я чувствую себя радостным и спокойным.»", "en": "Build the sentence: \"I feel happy and calm.\"" },
+      "tokens": ["mig", "lugn", "glad", "känner", "och", "Jag"],
+      "answer": [5, 3, 0, 2, 4, 1]
+    },
+    {
+      "id": "q-emo-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери вопрос: «Как ты себя чувствуешь сегодня?»", "en": "Build the question: \"How do you feel today?\"" },
+      "tokens": ["idag?", "känner", "Hur", "du", "dig"],
+      "answer": [2, 1, 3, 4, 0]
+    },
+    {
+      "id": "q-emo-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь чувство с переводом", "en": "Match the emotion with its translation" },
+      "pairs": [
+        ["glad", "радостный"],
+        ["ledsen", "грустный"],
+        ["arg", "злой"],
+        ["rädd", "испуганный"]
+      ]
+    },
+    {
+      "id": "q-emo-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Orolig» значит «встревоженный».", "en": "\"Orolig\" means \"worried\"." },
+      "answer": true
+    },
+    {
+      "id": "q-emo-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Stolt» и «rädd» — это синонимы.", "en": "\"Stolt\" and \"rädd\" are synonyms." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Stolt» значит «гордый», а «rädd» значит «испуганный» — это разные чувства.",
+        "en": "\"Stolt\" means \"proud\" and \"rädd\" means \"scared\" — different feelings entirely."
+      }
+    },
+    {
+      "id": "q-emo-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon blev väldigt ___ av nyheten. (удивлённый)" },
+      "answer": ["förvånad"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-emo-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твой друг только что получил новую работу, о которой давно мечтал. Как он, скорее всего, себя чувствует?",
+        "en": "Your friend just got the new job they'd been dreaming about. How do they probably feel?"
+      },
+      "choices": ["Glad och stolt", "Ledsen och arg", "Trött och rädd", "Orolig och sur"],
+      "answer": 0
+    },
+    {
+      "id": "q-emo-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты завтра сдаёшь важный экзамен и всю ночь думаешь о нём. Какое слово описывает твоё состояние?",
+        "en": "You have an important exam tomorrow and can't stop thinking about it. Which word describes how you feel?"
+      },
+      "choices": ["Nervös", "Lugn", "Stolt", "Glad"],
+      "answer": 0
+    }
+  ]
+}
