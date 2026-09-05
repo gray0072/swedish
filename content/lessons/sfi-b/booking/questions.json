@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-book-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хотел(а) бы записаться на приём.»", "en": "Build the sentence: \"I would like to book an appointment.\"" },
+      "tokens": ["en", "vilja", "tid", "Jag", "skulle", "boka"],
+      "answer": [3, 4, 1, 5, 0, 2]
+    },
+    {
+      "id": "q-book-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Вам подойдёт четверг?»", "en": "Build the sentence: \"Does Thursday suit you?\"" },
+      "tokens": ["på", "det", "torsdag", "Passar"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-book-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["boka", "бронировать, записываться"],
+        ["avboka", "отменять запись"],
+        ["ledig", "свободный"],
+        ["upptagen", "занят"]
+      ]
+    },
+    {
+      "id": "q-book-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Drop-in» значит, что нужно записаться заранее.", "en": "\"Drop-in\" means you must book in advance." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Drop-in» — это приём без предварительной записи.",
+        "en": "\"Drop-in\" means no advance appointment is needed."
+      }
+    },
+    {
+      "id": "q-book-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Bekräftelse» — это сообщение, подтверждающее, что запись сделана.", "en": "\"Bekräftelse\" is a message confirming that the booking was made." },
+      "answer": true
+    },
+    {
+      "id": "q-book-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag måste ___ min tid imorgon. (отменить)" },
+      "answer": ["avboka"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-book-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Receptionisten frågar: «Passar det på torsdag klockan två?» Men du kan inte då. Vad svarar du artigt?",
+        "en": "The receptionist asks: \"Passar det på torsdag klockan två?\" But you can't make it. What's a polite reply?"
+      },
+      "choices": ["Ja, det passar bra", "Tyvärr, jag är upptagen då", "Jag vet inte", "Ring imorgon"],
+      "answer": 1
+    },
+    {
+      "id": "q-book-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты получил(а) смс-подтверждение записи, но не можешь прийти. Что нужно сделать?",
+        "en": "You got a text confirming your appointment, but you can't make it. What should you do?"
+      },
+      "choices": ["Игнорировать смс", "Позвонить и lämna återbud", "Записаться ещё раз", "Ждать в очереди"],
+      "answer": 1
+    }
+  ]
+}

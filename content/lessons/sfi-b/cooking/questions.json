@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-cook-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Нарежь помидоры кубиками.»", "en": "Build the sentence: \"Cut the tomatoes into cubes.\"" },
+      "tokens": ["tärningar", "tomaterna", "i", "Skär"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-cook-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Обжарь лук на масле.»", "en": "Build the sentence: \"Fry the onion in butter.\"" },
+      "tokens": ["i", "löken", "smör", "Stek"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-cook-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь кухонные слова с переводом", "en": "Match the kitchen words with their translation" },
+      "pairs": [
+        ["kastrull", "кастрюля"],
+        ["kniv", "нож"],
+        ["ugn", "духовка"],
+        ["recept", "рецепт"]
+      ]
+    },
+    {
+      "id": "q-cook-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Skala» значит снять кожуру, например с картошки.", "en": "\"Skala\" means to remove the peel, e.g. from a potato." },
+      "answer": true
+    },
+    {
+      "id": "q-cook-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Steka» и «koka» значат одно и то же — готовить в воде.", "en": "\"Steka\" and \"koka\" mean the same thing — to cook in water." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Steka» — жарить (в жире, на сковороде), «koka» — варить (в воде).",
+        "en": "\"Steka\" means to fry (in fat, in a pan), \"koka\" means to boil (in water)."
+      }
+    },
+    {
+      "id": "q-cook-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ potatisen i femton minuter. (свари)" },
+      "answer": ["Koka"],
+      "acceptAlso": ["koka"]
+    },
+    {
+      "id": "q-cook-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Рецепт говорит: «stek löken tills den är gyllene». Что нужно сделать?",
+        "en": "The recipe says: \"stek löken tills den är gyllene\". What should you do?"
+      },
+      "choices": ["Koka löken i vatten", "Steka löken i en stekpanna med fett", "Skära löken i bitar", "Skala löken"],
+      "answer": 1
+    },
+    {
+      "id": "q-cook-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Ты будешь печь хлеб и должен(на) поставить на 200 градусов. Что именно?",
+        "en": "You're going to bake bread and need to set it to 200 degrees. What?"
+      },
+      "choices": ["Spisen", "Kastrullen", "Ugnen", "Skärbrädan"],
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-fam-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Мы обручились этим летом.»", "en": "Build the sentence: \"We got engaged this summer.\"" },
+      "tokens": ["i", "blev", "Vi", "somras", "förlovade"],
+      "answer": [2, 1, 4, 0, 3]
+    },
+    {
+      "id": "q-fam-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «У него двое неродных детей.»", "en": "Build the sentence: \"He has two stepchildren.\"" },
+      "tokens": ["har", "styvbarn", "Han", "två"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-fam-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь родственников с переводом", "en": "Match the family words with their translation" },
+      "pairs": [
+        ["svärmor", "свекровь / тёща"],
+        ["fästman", "жених"],
+        ["sambo", "сожитель"],
+        ["tvilling", "близнец"]
+      ]
+    },
+    {
+      "id": "q-fam-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Sambo» значит, что пара официально расписана.", "en": "\"Sambo\" means the couple is officially married." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Sambo» — это партнёр, с которым живёшь вместе без официального брака.",
+        "en": "\"Sambo\" is a partner you live with without being officially married."
+      }
+    },
+    {
+      "id": "q-fam-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Skilsmässa» значит, что пара юридически разводится.", "en": "\"Skilsmässa\" means the couple is getting legally divorced." },
+      "answer": true
+    },
+    {
+      "id": "q-fam-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Min ___ kommer på middag ikväll. (свекровь)" },
+      "answer": ["svärmor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fam-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты заполняешь анкету и должен выбрать civilstånd (гражданский статус). Что из этого значит «живём вместе, но не расписаны»?",
+        "en": "You're filling in a form and need to pick your civilstånd (marital status). Which word means \"living together but not officially married\"?"
+      },
+      "choices": ["gift", "sambo", "skild", "förlovad"],
+      "answer": 1
+    },
+    {
+      "id": "q-fam-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Подруга говорит: «Jag är gravid!» Что она сообщает?",
+        "en": "A friend says: \"Jag är gravid!\" What is she telling you?"
+      },
+      "choices": ["Она беременна", "Она вышла замуж", "Она развелась", "Она обручилась"],
+      "answer": 0
+    }
+  ]
+}

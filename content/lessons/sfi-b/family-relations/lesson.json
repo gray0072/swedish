@@ -1,0 +1,19 @@
+{
+  "id": "sfi-b/family-relations",
+  "slug": "family-relations",
+  "title": { "sv": "Familj och relationer", "ru": "Семья и отношения", "en": "Family and relationships" },
+  "summary": {
+    "ru": "Гражданский статус, отношения свойства и другие слова о семье на ступень сложнее.",
+    "en": "Marital status, in-laws, and other family words a step beyond the basics."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-b"],
+  "tags": ["family", "relationships", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 600,
+  "prerequisites": [],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

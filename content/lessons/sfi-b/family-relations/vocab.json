@@ -1,0 +1,163 @@
+{
+  "items": [
+    {
+      "id": "gift",
+      "sv": "gift",
+      "translations": { "ru": "женат / замужем", "en": "married" },
+      "pos": "adj",
+      "example": { "sv": "Hon är gift med Anders.", "ru": "Она замужем за Андерсом.", "en": "She is married to Anders." }
+    },
+    {
+      "id": "skild",
+      "sv": "skild",
+      "translations": { "ru": "разведён(а)", "en": "divorced" },
+      "pos": "adj",
+      "example": { "sv": "Mina föräldrar är skilda.", "ru": "Мои родители в разводе.", "en": "My parents are divorced." }
+    },
+    {
+      "id": "singel",
+      "sv": "singel",
+      "translations": { "ru": "холост, не в отношениях", "en": "single" },
+      "pos": "adj",
+      "example": { "sv": "Jag är singel just nu.", "ru": "Сейчас я не в отношениях.", "en": "I'm single right now." }
+    },
+    {
+      "id": "sambo",
+      "sv": "sambo",
+      "translations": { "ru": "сожитель(ница), гражданский партнёр", "en": "live-in partner, cohabitant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sambo", "defSg": "sambon", "indefPl": "sambor", "defPl": "samborna" },
+      "example": { "sv": "Jag och min sambo bor i Uppsala.", "ru": "Мы с сожителем живём в Уппсале.", "en": "My partner and I live in Uppsala." }
+    },
+    {
+      "id": "forlovad",
+      "sv": "förlovad",
+      "translations": { "ru": "помолвлен(а)", "en": "engaged" },
+      "pos": "adj",
+      "example": { "sv": "Vi blev förlovade i somras.", "ru": "Мы обручились этим летом.", "en": "We got engaged last summer." }
+    },
+    {
+      "id": "fastman",
+      "sv": "fästman",
+      "translations": { "ru": "жених (помолвленный)", "en": "fiancé" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hennes fästman jobbar som lärare.", "ru": "Её жених работает учителем.", "en": "Her fiancé works as a teacher." }
+    },
+    {
+      "id": "fastmo",
+      "sv": "fästmö",
+      "translations": { "ru": "невеста (помолвленная)", "en": "fiancée" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han presenterade sin fästmö för familjen.", "ru": "Он представил свою невесту семье.", "en": "He introduced his fiancée to the family." }
+    },
+    {
+      "id": "svarmor",
+      "sv": "svärmor",
+      "translations": { "ru": "свекровь, тёща", "en": "mother-in-law" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min svärmor kommer på middag ikväll.", "ru": "Сегодня вечером свекровь придёт на ужин.", "en": "My mother-in-law is coming for dinner tonight." }
+    },
+    {
+      "id": "svarfar",
+      "sv": "svärfar",
+      "translations": { "ru": "свёкор, тесть", "en": "father-in-law" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min svärfar har ett hus på landet.", "ru": "У моего тестя есть дом за городом.", "en": "My father-in-law has a house in the countryside." }
+    },
+    {
+      "id": "svarson",
+      "sv": "svärson",
+      "translations": { "ru": "зять", "en": "son-in-law" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Deras svärson bor i Malmö.", "ru": "Их зять живёт в Мальмё.", "en": "Their son-in-law lives in Malmö." }
+    },
+    {
+      "id": "svardotter",
+      "sv": "svärdotter",
+      "translations": { "ru": "невестка (жена сына)", "en": "daughter-in-law" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min svärdotter väntar barn.", "ru": "Моя невестка ждёт ребёнка.", "en": "My daughter-in-law is expecting a baby." }
+    },
+    {
+      "id": "styvbarn",
+      "sv": "styvbarn",
+      "translations": { "ru": "приёмный/неродной ребёнок", "en": "stepchild" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Han har två styvbarn.", "ru": "У него двое неродных детей.", "en": "He has two stepchildren." }
+    },
+    {
+      "id": "styvpappa",
+      "sv": "styvpappa",
+      "translations": { "ru": "отчим", "en": "stepfather" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min styvpappa lagar god mat.", "ru": "Мой отчим хорошо готовит.", "en": "My stepfather cooks good food." }
+    },
+    {
+      "id": "styvmamma",
+      "sv": "styvmamma",
+      "translations": { "ru": "мачеха", "en": "stepmother" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag kommer bra överens med min styvmamma.", "ru": "Я хорошо лажу со своей мачехой.", "en": "I get along well with my stepmother." }
+    },
+    {
+      "id": "gravid",
+      "sv": "gravid",
+      "translations": { "ru": "беременна", "en": "pregnant" },
+      "pos": "adj",
+      "example": { "sv": "Hon är gravid i sjätte månaden.", "ru": "Она беременна, шестой месяц.", "en": "She is six months pregnant." }
+    },
+    {
+      "id": "tvilling",
+      "sv": "tvilling",
+      "translations": { "ru": "близнец", "en": "twin" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tvilling", "defSg": "tvillingen", "indefPl": "tvillingar", "defPl": "tvillingarna" },
+      "example": { "sv": "De väntar tvillingar i vår.", "ru": "Весной у них будут близнецы.", "en": "They're expecting twins in the spring." }
+    },
+    {
+      "id": "aktenskap",
+      "sv": "äktenskap",
+      "translations": { "ru": "брак", "en": "marriage" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äktenskap", "defSg": "äktenskapet", "indefPl": "äktenskap", "defPl": "äktenskapen" },
+      "example": { "sv": "De har varit gifta i tio år, ett långt äktenskap.", "ru": "Они женаты десять лет — долгий брак.", "en": "They've been married for ten years, a long marriage." }
+    },
+    {
+      "id": "skilsmassa",
+      "sv": "skilsmässa",
+      "translations": { "ru": "развод", "en": "divorce" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skilsmässa", "defSg": "skilsmässan", "indefPl": "skilsmässor", "defPl": "skilsmässorna" },
+      "example": { "sv": "Skilsmässan tog nästan ett år.", "ru": "Развод занял почти год.", "en": "The divorce took almost a year." }
+    },
+    {
+      "id": "gifta-sig",
+      "sv": "gifta sig",
+      "translations": { "ru": "жениться, выйти замуж", "en": "to get married" },
+      "pos": "verb",
+      "forms": { "infinitive": "gifta sig", "present": "gifter sig", "past": "gifte sig", "supine": "gift sig" },
+      "example": { "sv": "De ska gifta sig nästa sommar.", "ru": "Они поженятся следующим летом.", "en": "They're getting married next summer." }
+    },
+    {
+      "id": "skilja-sig",
+      "sv": "skilja sig",
+      "translations": { "ru": "разводиться", "en": "to get divorced" },
+      "pos": "verb",
+      "forms": { "infinitive": "skilja sig", "present": "skiljer sig", "past": "skilde sig", "supine": "skilt sig" },
+      "example": { "sv": "Han skilde sig förra året.", "ru": "Он развёлся в прошлом году.", "en": "He got divorced last year." }
+    }
+  ]
+}

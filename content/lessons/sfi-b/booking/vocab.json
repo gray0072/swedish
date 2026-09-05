@@ -1,0 +1,160 @@
+{
+  "items": [
+    {
+      "id": "boka",
+      "sv": "boka",
+      "translations": { "ru": "бронировать, записываться", "en": "to book" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "boka", "present": "bokar", "past": "bokade", "supine": "bokat" },
+      "example": { "sv": "Jag skulle vilja boka en tid.", "ru": "Я хотел(а) бы записаться на приём.", "en": "I would like to book an appointment." }
+    },
+    {
+      "id": "avboka",
+      "sv": "avboka",
+      "translations": { "ru": "отменять запись", "en": "to cancel (a booking)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "avboka", "present": "avbokar", "past": "avbokade", "supine": "avbokat" },
+      "example": { "sv": "Jag måste avboka min tid imorgon.", "ru": "Мне нужно отменить завтрашнюю запись.", "en": "I need to cancel my appointment tomorrow." }
+    },
+    {
+      "id": "boka-om",
+      "sv": "boka om",
+      "translations": { "ru": "перенести запись", "en": "to reschedule" },
+      "pos": "verb",
+      "forms": { "infinitive": "boka om", "present": "bokar om", "past": "bokade om", "supine": "bokat om" },
+      "example": { "sv": "Kan vi boka om till fredag istället?", "ru": "Можем перенести на пятницу?", "en": "Can we reschedule to Friday instead?" }
+    },
+    {
+      "id": "tid-boka",
+      "sv": "tid",
+      "translations": { "ru": "запись, приём (время визита)", "en": "appointment, time slot" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tid", "defSg": "tiden", "indefPl": "tider", "defPl": "tiderna" },
+      "example": { "sv": "Har ni någon ledig tid nästa vecka?", "ru": "Есть свободное время на следующей неделе?", "en": "Do you have any free slots next week?" }
+    },
+    {
+      "id": "ledig",
+      "sv": "ledig",
+      "translations": { "ru": "свободный, доступный", "en": "free, available" },
+      "pos": "adj",
+      "example": { "sv": "Är klockan tio ledig?", "ru": "Десять часов свободно?", "en": "Is ten o'clock available?" }
+    },
+    {
+      "id": "upptagen",
+      "sv": "upptagen",
+      "translations": { "ru": "занят(о)", "en": "busy, occupied" },
+      "pos": "adj",
+      "example": { "sv": "Tyvärr är jag upptagen på måndag.", "ru": "К сожалению, в понедельник я занят(а).", "en": "Unfortunately I'm busy on Monday." }
+    },
+    {
+      "id": "kalender",
+      "sv": "kalender",
+      "translations": { "ru": "календарь", "en": "calendar" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kalender", "defSg": "kalendern", "indefPl": "kalendrar", "defPl": "kalendrarna" },
+      "example": { "sv": "Jag kollar min kalender och återkommer.", "ru": "Я посмотрю в календарь и вернусь с ответом.", "en": "I'll check my calendar and get back to you." }
+    },
+    {
+      "id": "bekrafta",
+      "sv": "bekräfta",
+      "translations": { "ru": "подтверждать", "en": "to confirm" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bekräfta", "present": "bekräftar", "past": "bekräftade", "supine": "bekräftat" },
+      "example": { "sv": "Kan du bekräfta tiden via sms?", "ru": "Можете подтвердить запись по смс?", "en": "Can you confirm the appointment by text?" }
+    },
+    {
+      "id": "bekraftelse",
+      "sv": "bekräftelse",
+      "translations": { "ru": "подтверждение", "en": "confirmation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bekräftelse", "defSg": "bekräftelsen", "indefPl": "bekräftelser", "defPl": "bekräftelserna" },
+      "example": { "sv": "Du får en bekräftelse på mejlen.", "ru": "Вы получите подтверждение по почте.", "en": "You'll get a confirmation by email." }
+    },
+    {
+      "id": "mottagning",
+      "sv": "mottagning",
+      "translations": { "ru": "приёмная, поликлиника", "en": "clinic, reception" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mottagning", "defSg": "mottagningen", "indefPl": "mottagningar", "defPl": "mottagningarna" },
+      "example": { "sv": "Ring till mottagningen och boka en tid.", "ru": "Позвони в поликлинику и запишись на приём.", "en": "Call the clinic and book an appointment." }
+    },
+    {
+      "id": "passa",
+      "sv": "passa",
+      "translations": { "ru": "подходить, устраивать (по времени)", "en": "to suit" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "passa", "present": "passar", "past": "passade", "supine": "passat" },
+      "example": { "sv": "Passar det på torsdag klockan två?", "ru": "Вам подойдёт четверг в два часа?", "en": "Does Thursday at two suit you?" }
+    },
+    {
+      "id": "atterbud",
+      "sv": "återbud",
+      "translations": { "ru": "отказ от записи, отмена", "en": "cancellation notice" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett återbud", "defSg": "återbudet", "indefPl": "återbud", "defPl": "återbuden" },
+      "example": { "sv": "Jag måste lämna återbud på min tid.", "ru": "Мне нужно отменить свою запись (сообщить об отказе).", "en": "I need to cancel my appointment (give notice)." }
+    },
+    {
+      "id": "paminnelse",
+      "sv": "påminnelse",
+      "translations": { "ru": "напоминание", "en": "reminder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en påminnelse", "defSg": "påminnelsen", "indefPl": "påminnelser", "defPl": "påminnelserna" },
+      "example": { "sv": "Du får en påminnelse dagen innan.", "ru": "Вы получите напоминание за день до приёма.", "en": "You'll get a reminder the day before." }
+    },
+    {
+      "id": "ko",
+      "sv": "kö",
+      "translations": { "ru": "очередь", "en": "queue" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kö", "defSg": "kön", "indefPl": "köer", "defPl": "köerna" },
+      "example": { "sv": "Det är lång kö till tandläkaren.", "ru": "К зубному большая очередь.", "en": "There's a long queue for the dentist." }
+    },
+    {
+      "id": "flytta-tid",
+      "sv": "flytta",
+      "translations": { "ru": "переносить (время)", "en": "to move (an appointment)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Kan vi flytta tiden till nästa vecka?", "ru": "Можно перенести время на следующую неделю?", "en": "Can we move the appointment to next week?" }
+    },
+    {
+      "id": "vanta",
+      "sv": "vänta",
+      "translations": { "ru": "ждать", "en": "to wait" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vänta", "present": "väntar", "past": "väntade", "supine": "väntat" },
+      "example": { "sv": "Vänta gärna i väntrummet.", "ru": "Пожалуйста, подождите в приёмной.", "en": "Please wait in the waiting room." }
+    },
+    {
+      "id": "drop-in",
+      "sv": "drop-in",
+      "translations": { "ru": "приём без записи", "en": "drop-in (no appointment needed)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vårdcentralen har drop-in på morgonen.", "ru": "В поликлинике утром приём без записи.", "en": "The clinic has drop-in hours in the morning." }
+    },
+    {
+      "id": "telefontid",
+      "sv": "telefontid",
+      "translations": { "ru": "часы работы по телефону", "en": "phone hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en telefontid", "defSg": "telefontiden", "indefPl": "telefontider", "defPl": "telefontiderna" },
+      "example": { "sv": "Telefontiden är mellan åtta och nio.", "ru": "Часы работы по телефону — с восьми до девяти.", "en": "Phone hours are between eight and nine." }
+    }
+  ]
+}

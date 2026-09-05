@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "id": "laga",
+      "sv": "laga",
+      "translations": { "ru": "готовить (еду)", "en": "to cook, to prepare (food)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" },
+      "example": { "sv": "Jag lagar middag varje kväll.", "ru": "Я готовлю ужин каждый вечер.", "en": "I cook dinner every evening." }
+    },
+    {
+      "id": "koka",
+      "sv": "koka",
+      "translations": { "ru": "варить, кипятить", "en": "to boil" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "koka", "present": "kokar", "past": "kokade", "supine": "kokat" },
+      "example": { "sv": "Koka potatisen i femton minuter.", "ru": "Вари картошку пятнадцать минут.", "en": "Boil the potatoes for fifteen minutes." }
+    },
+    {
+      "id": "steka",
+      "sv": "steka",
+      "translations": { "ru": "жарить", "en": "to fry" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "steka", "present": "steker", "past": "stekte", "supine": "stekt" },
+      "example": { "sv": "Stek löken i smör.", "ru": "Обжарь лук на масле.", "en": "Fry the onion in butter." }
+    },
+    {
+      "id": "skara",
+      "sv": "skära",
+      "translations": { "ru": "резать", "en": "to cut, to slice" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skära", "present": "skär", "past": "skar", "supine": "skurit" },
+      "example": { "sv": "Skär tomaterna i tärningar.", "ru": "Нарежь помидоры кубиками.", "en": "Cut the tomatoes into cubes." }
+    },
+    {
+      "id": "skala",
+      "sv": "skala",
+      "translations": { "ru": "чистить, снимать кожуру", "en": "to peel" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skala", "present": "skalar", "past": "skalade", "supine": "skalat" },
+      "example": { "sv": "Skala morötterna innan du kokar dem.", "ru": "Почисти морковь перед варкой.", "en": "Peel the carrots before boiling them." }
+    },
+    {
+      "id": "blanda",
+      "sv": "blanda",
+      "translations": { "ru": "смешивать", "en": "to mix" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "blanda", "present": "blandar", "past": "blandade", "supine": "blandat" },
+      "example": { "sv": "Blanda mjöl, ägg och mjölk.", "ru": "Смешай муку, яйца и молоко.", "en": "Mix flour, eggs and milk." }
+    },
+    {
+      "id": "baka",
+      "sv": "baka",
+      "translations": { "ru": "печь (выпечка)", "en": "to bake" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "baka", "present": "bakar", "past": "bakade", "supine": "bakat" },
+      "example": { "sv": "Vi ska baka bröd i helgen.", "ru": "Мы будем печь хлеб на выходных.", "en": "We're going to bake bread this weekend." }
+    },
+    {
+      "id": "hacka",
+      "sv": "hacka",
+      "translations": { "ru": "мелко резать, рубить", "en": "to chop" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hacka", "present": "hackar", "past": "hackade", "supine": "hackat" },
+      "example": { "sv": "Hacka vitlöken fint.", "ru": "Мелко нарежь чеснок.", "en": "Chop the garlic finely." }
+    },
+    {
+      "id": "rora",
+      "sv": "röra",
+      "translations": { "ru": "мешать, помешивать", "en": "to stir" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "röra", "present": "rör", "past": "rörde", "supine": "rört" },
+      "example": { "sv": "Rör om i grytan då och då.", "ru": "Время от времени помешивай в кастрюле.", "en": "Stir the pot every now and then." }
+    },
+    {
+      "id": "smaka",
+      "sv": "smaka",
+      "translations": { "ru": "пробовать на вкус", "en": "to taste" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "smaka", "present": "smakar", "past": "smakade", "supine": "smakat" },
+      "example": { "sv": "Smaka av soppan innan du serverar.", "ru": "Попробуй суп на вкус перед подачей.", "en": "Taste the soup before serving." }
+    },
+    {
+      "id": "krydda",
+      "sv": "krydda",
+      "translations": { "ru": "приправлять, специи", "en": "to season, to spice" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "krydda", "present": "kryddar", "past": "kryddade", "supine": "kryddat" },
+      "example": { "sv": "Krydda med salt och peppar.", "ru": "Приправь солью и перцем.", "en": "Season with salt and pepper." }
+    },
+    {
+      "id": "kastrull",
+      "sv": "kastrull",
+      "translations": { "ru": "кастрюля", "en": "pot, saucepan" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kastrull", "defSg": "kastrullen", "indefPl": "kastruller", "defPl": "kastrullerna" },
+      "example": { "sv": "Häll vattnet i kastrullen.", "ru": "Налей воду в кастрюлю.", "en": "Pour the water into the pot." }
+    },
+    {
+      "id": "stekpanna",
+      "sv": "stekpanna",
+      "translations": { "ru": "сковорода", "en": "frying pan" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stekpanna", "defSg": "stekpannan", "indefPl": "stekpannor", "defPl": "stekpannorna" },
+      "example": { "sv": "Värm olja i stekpannan.", "ru": "Разогрей масло на сковороде.", "en": "Heat oil in the frying pan." }
+    },
+    {
+      "id": "kniv",
+      "sv": "kniv",
+      "translations": { "ru": "нож", "en": "knife" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kniv", "defSg": "kniven", "indefPl": "knivar", "defPl": "knivarna" },
+      "example": { "sv": "Var försiktig med den vassa kniven.", "ru": "Будь осторожен с острым ножом.", "en": "Be careful with the sharp knife." }
+    },
+    {
+      "id": "skarbrada",
+      "sv": "skärbräda",
+      "translations": { "ru": "разделочная доска", "en": "cutting board" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skärbräda", "defSg": "skärbrädan", "indefPl": "skärbrädor", "defPl": "skärbrädorna" },
+      "example": { "sv": "Lägg grönsakerna på skärbrädan.", "ru": "Положи овощи на разделочную доску.", "en": "Put the vegetables on the cutting board." }
+    },
+    {
+      "id": "ugn",
+      "sv": "ugn",
+      "translations": { "ru": "духовка", "en": "oven" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ugn", "defSg": "ugnen", "indefPl": "ugnar", "defPl": "ugnarna" },
+      "example": { "sv": "Sätt ugnen på tvåhundra grader.", "ru": "Поставь духовку на двести градусов.", "en": "Set the oven to two hundred degrees." }
+    },
+    {
+      "id": "recept",
+      "sv": "recept",
+      "translations": { "ru": "рецепт", "en": "recipe" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett recept", "defSg": "receptet", "indefPl": "recept", "defPl": "recepten" },
+      "example": { "sv": "Jag hittade ett bra recept på nätet.", "ru": "Я нашёл(нашла) хороший рецепт в интернете.", "en": "I found a good recipe online." }
+    },
+    {
+      "id": "spis",
+      "sv": "spis",
+      "translations": { "ru": "плита", "en": "stove" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en spis", "defSg": "spisen", "indefPl": "spisar", "defPl": "spisarna" },
+      "example": { "sv": "Glöm inte att stänga av spisen.", "ru": "Не забудь выключить плиту.", "en": "Don't forget to turn off the stove." }
+    }
+  ]
+}
