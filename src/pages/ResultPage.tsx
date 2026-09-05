@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { useEffect } from 'react';
-import { PartyPopper } from 'lucide-react';
+import { useEffect, useRef } from 'react';
+import { Download, PartyPopper } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
 import { getAllLessons, getLesson } from '@/content/registry';
@@ -9,6 +9,7 @@ import type { RewardResult } from '@/quiz/engine';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
 import { getBuildings } from '@/content/registry';
+import { renderShareCard } from '@/lib/shareCard';
 
 export default function ResultPage() {
   const { levelId = '', slug = '' } = useParams();
@@ -19,6 +20,7 @@ export default function ResultPage() {
   const lang = useLanguage();
   const wallet = useWallet();
   const buildingLevels = useCityBuildingLevels();
+  const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const reward = (location.state as { reward?: RewardResult } | null)?.reward;
 
@@ -30,6 +32,42 @@ export default function ResultPage() {
   if (!reward) return null;
 
   const lesson = getLesson(lessonId);
+
+  async function handleShare() {
+    if (!reward || !canvasRef.current || !lesson) return;
+    renderShareCard(canvasRef.current, {
+      lessonTitle: resolveLocalized(lesson.meta.title, lang),
+      score: reward.score,
+      total: reward.total,
+      xp: reward.xp,
+      coins: reward.coins,
+      dateLabel: new Date().toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US'),
+      perfectLabel: t('result.perfect'),
+    });
+    canvasRef.current.toBlob(async (blob) => {
+      if (!blob) return;
+      const file = new File([blob], 'swedish-result.png', { type: 'image/png' });
+      const nav = navigator as Navigator & {
+        canShare?: (data: { files: File[] }) => boolean;
+        share?: (data: { files: File[]; title?: string }) => Promise<void>;
+      };
+      if (nav.canShare?.({ files: [file] }) && nav.share) {
+        try {
+          await nav.share({ files: [file], title: 'Swedish' });
+          return;
+        } catch {
+          // user cancelled the native share sheet — fall through to download
+        }
+      }
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'swedish-result.png';
+      a.click();
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  }
+
   const allLessons = getAllLessons();
   const nextLesson = allLessons.find((l) => l.meta.order > (lesson?.meta.order ?? 0));
 
@@ -42,6 +80,8 @@ export default function ResultPage() {
 
   return (
     <div className="mx-auto max-w-md space-y-6 text-center">
+      <canvas ref={canvasRef} className="hidden" aria-hidden="true" />
+
       {reward.perfect && (
         <div className="animate-aurora-sweep text-sm font-semibold text-aurora">
           ✨ {t('result.perfect')}
@@ -83,6 +123,13 @@ export default function ResultPage() {
           >
             {t('result.canAfford')} «{resolveLocalized(affordable.name, lang)}» →
           </Link>
+        )}
+
+        {reward.perfect && (
+          <button onClick={handleShare} className="btn-secondary mt-4 w-full">
+            <Download size={16} aria-hidden="true" />
+            {t('result.share')}
+          </button>
         )}
       </div>
 
