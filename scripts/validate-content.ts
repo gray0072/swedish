@@ -174,6 +174,20 @@ if (existsSync(historyRoot)) {
   }
 }
 
+// -- grammar reference articles ------------------------------------------------
+const grammarRoot = join(ROOT, 'grammar');
+if (existsSync(grammarRoot)) {
+  const slugs = new Set<string>();
+  for (const file of readdirSync(grammarRoot)) {
+    if (!file.endsWith('.md')) continue;
+    const slug = file.replace(/\.md$/, '');
+    if (slugs.has(slug)) errors.push(`grammar: duplicate slug "${slug}"`);
+    slugs.add(slug);
+    const raw = readFileSync(join(grammarRoot, file), 'utf-8');
+    if (!/^#\s+.+$/m.test(raw)) errors.push(`grammar/${file}: missing a "# Title" heading`);
+  }
+}
+
 // -- report -------------------------------------------------------------------
 if (warnings.length) {
   console.warn(`\n⚠ ${warnings.length} warning(s):`);

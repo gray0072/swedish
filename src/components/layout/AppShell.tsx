@@ -1,9 +1,26 @@
-import { useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { BookOpen, Home, Landmark, RotateCcw, Settings as SettingsIcon } from 'lucide-react';
+import {
+  BarChart3,
+  BookOpen,
+  Home,
+  Landmark,
+  RotateCcw,
+  ScrollText,
+  Settings as SettingsIcon,
+} from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useLanguage, useSettings } from '@/store/settings';
+import DalaHorse from '@/components/ui/DalaHorse';
+
+function PageLoading() {
+  return (
+    <div className="flex justify-center py-16">
+      <DalaHorse spin className="h-16 w-auto opacity-70" />
+    </div>
+  );
+}
 
 function useThemeEffect() {
   const theme = useSettings().theme;
@@ -57,6 +74,10 @@ const navItems = [
   { to: '/tracks', icon: BookOpen, key: 'nav.tracks' as const, end: false },
   { to: '/review', icon: RotateCcw, key: 'nav.review' as const, end: false },
   { to: '/city', icon: Landmark, key: 'nav.city' as const, end: false },
+  // Secondary destinations, not part of the core loop — desktop nav only so the mobile
+  // bottom bar (prime real estate) stays reserved for the five primary destinations.
+  { to: '/stats', icon: BarChart3, key: 'nav.stats' as const, end: false, desktopOnly: true },
+  { to: '/grammar', icon: ScrollText, key: 'nav.grammar' as const, end: false, desktopOnly: true },
   { to: '/settings', icon: SettingsIcon, key: 'nav.settings' as const, end: false },
 ];
 
@@ -100,7 +121,9 @@ export default function AppShell() {
           <LanguageToggle />
         </div>
         <nav className="flex justify-between border-t border-granite/10 sm:hidden">
-          {navItems.map(({ to, icon: Icon, key, end }) => (
+          {navItems
+            .filter((item) => !item.desktopOnly)
+            .map(({ to, icon: Icon, key, end }) => (
             <NavLink
               key={to}
               to={to}
@@ -117,7 +140,9 @@ export default function AppShell() {
         </nav>
       </header>
       <main className="mx-auto max-w-5xl px-4 py-6">
-        <Outlet />
+        <Suspense fallback={<PageLoading />}>
+          <Outlet />
+        </Suspense>
       </main>
     </div>
   );

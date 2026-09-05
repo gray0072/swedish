@@ -4,6 +4,7 @@
   "nav.tracks": "Topics",
   "nav.review": "Review",
   "nav.city": "Stockholm",
+  "nav.grammar": "Grammar",
   "nav.stats": "Stats",
   "nav.settings": "Settings",
 
@@ -24,6 +25,10 @@
 
   "tracks.title": "Tracks and levels",
   "tracks.sfi.note": "The SFI course breakdown is a pragmatic approximation, not the official Skolverket syllabus.",
+  "tracks.grammarLink": "Grammar reference",
+
+  "grammar.title": "Grammar",
+  "grammar.subtitle": "Short reference articles — not tied to any one topic and don't affect XP.",
 
   "level.lessonsCount": "lessons",
   "level.progress": "completed",
@@ -71,6 +76,7 @@
   "result.backToLesson": "Back to the lesson",
   "result.nextLesson": "Next lesson",
   "result.toCity": "Go to the city",
+  "result.share": "Share your result",
 
   "review.title": "Review",
   "review.subtitle": "A mixed session of everything you've seen so far.",
@@ -113,6 +119,7 @@
   "stats.lessonsPassed": "Topics passed",
   "stats.streak": "Current streak",
   "stats.longestStreak": "Longest streak",
+  "stats.achievements": "Achievements",
 
   "common.back": "Back",
   "common.loading": "Loading…",

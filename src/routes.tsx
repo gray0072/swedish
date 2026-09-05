@@ -1,16 +1,20 @@
+import { lazy } from 'react';
 import { Navigate, type RouteObject } from 'react-router-dom';
 import AppShell from '@/components/layout/AppShell';
-import HomePage from '@/pages/HomePage';
-import TracksPage from '@/pages/TracksPage';
-import LevelPage from '@/pages/LevelPage';
-import LessonPage from '@/pages/LessonPage';
-import QuizPage from '@/pages/QuizPage';
-import ResultPage from '@/pages/ResultPage';
-import ReviewPage from '@/pages/ReviewPage';
-import CityPage from '@/pages/CityPage';
-import StatsPage from '@/pages/StatsPage';
-import SettingsPage from '@/pages/SettingsPage';
-import NotFoundPage from '@/pages/NotFoundPage';
+
+const HomePage = lazy(() => import('@/pages/HomePage'));
+const TracksPage = lazy(() => import('@/pages/TracksPage'));
+const LevelPage = lazy(() => import('@/pages/LevelPage'));
+const LessonPage = lazy(() => import('@/pages/LessonPage'));
+const QuizPage = lazy(() => import('@/pages/QuizPage'));
+const ResultPage = lazy(() => import('@/pages/ResultPage'));
+const ReviewPage = lazy(() => import('@/pages/ReviewPage'));
+const CityPage = lazy(() => import('@/pages/CityPage'));
+const GrammarListPage = lazy(() => import('@/pages/GrammarListPage'));
+const GrammarArticlePage = lazy(() => import('@/pages/GrammarArticlePage'));
+const StatsPage = lazy(() => import('@/pages/StatsPage'));
+const SettingsPage = lazy(() => import('@/pages/SettingsPage'));
+const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
 
 export const routes: RouteObject[] = [
   {
@@ -24,6 +28,8 @@ export const routes: RouteObject[] = [
       { path: '/lesson/:levelId/:slug/result', element: <ResultPage /> },
       { path: '/review', element: <ReviewPage /> },
       { path: '/city', element: <CityPage /> },
+      { path: '/grammar', element: <GrammarListPage /> },
+      { path: '/grammar/:slug', element: <GrammarArticlePage /> },
       { path: '/stats', element: <StatsPage /> },
       { path: '/settings', element: <SettingsPage /> },
       { path: '/404', element: <NotFoundPage /> },

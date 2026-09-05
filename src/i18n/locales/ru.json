@@ -4,6 +4,7 @@
   "nav.tracks": "Темы",
   "nav.review": "Повторение",
   "nav.city": "Стокгольм",
+  "nav.grammar": "Грамматика",
   "nav.stats": "Статистика",
   "nav.settings": "Настройки",
 
@@ -24,6 +25,10 @@
 
   "tracks.title": "Треки и уровни",
   "tracks.sfi.note": "Разбивка по курсам SFI — прагматичное приближение, а не официальная программа Skolverket.",
+  "tracks.grammarLink": "Справочник по грамматике",
+
+  "grammar.title": "Грамматика",
+  "grammar.subtitle": "Короткие справочные статьи — не привязаны к конкретной теме и не влияют на XP.",
 
   "level.lessonsCount": "уроков",
   "level.progress": "пройдено",
@@ -71,6 +76,7 @@
   "result.backToLesson": "Вернуться к теме",
   "result.nextLesson": "Следующая тема",
   "result.toCity": "В город",
+  "result.share": "Поделиться результатом",
 
   "review.title": "Повторение",
   "review.subtitle": "Смешанная сессия из всего, что ты уже видел(а).",
@@ -113,6 +119,7 @@
   "stats.lessonsPassed": "Тем пройдено",
   "stats.streak": "Текущая серия",
   "stats.longestStreak": "Лучшая серия",
+  "stats.achievements": "Достижения",
 
   "common.back": "Назад",
   "common.loading": "Загрузка…",

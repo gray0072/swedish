@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { ScrollText } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
 import { getTracks, getLessonsForLevel } from '@/content/registry';
@@ -14,7 +15,16 @@ export default function TracksPage() {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-2xl font-semibold">{t('tracks.title')}</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-2xl font-semibold">{t('tracks.title')}</h1>
+        <Link
+          to="/grammar"
+          className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
+        >
+          <ScrollText size={15} aria-hidden="true" />
+          {t('tracks.grammarLink')}
+        </Link>
+      </div>
       {tracks.map((track) => (
         <section key={track.id}>
           <h2 className="mb-1 text-lg font-semibold">{resolveLocalized(track.title, lang)}</h2>
