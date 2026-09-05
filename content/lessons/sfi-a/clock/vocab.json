@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "id": "klocka",
+      "sv": "klocka",
+      "translations": { "ru": "часы (наручные/настенные); колокол", "en": "clock, watch" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klocka", "defSg": "klockan", "indefPl": "klockor", "defPl": "klockorna" },
+      "example": { "sv": "Klockan på väggen går fel.", "ru": "Часы на стене показывают неправильно.", "en": "The clock on the wall is wrong." }
+    },
+    {
+      "id": "vad-ar-klockan",
+      "sv": "Vad är klockan?",
+      "translations": { "ru": "Который час?", "en": "What time is it?" },
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta, vad är klockan?", "ru": "Извините, который час?", "en": "Excuse me, what time is it?" }
+    },
+    {
+      "id": "hur-mycket-ar-klockan",
+      "sv": "Hur mycket är klockan?",
+      "translations": { "ru": "Сколько времени? (тот же смысл, что «Vad är klockan?»)", "en": "What time is it? (same meaning as \"Vad är klockan?\")" },
+      "pos": "phrase",
+      "example": { "sv": "Hur mycket är klockan nu?", "ru": "Сколько сейчас времени?", "en": "What time is it now?" }
+    },
+    {
+      "id": "klockan-ar",
+      "sv": "Klockan är...",
+      "translations": { "ru": "Сейчас... (о времени)", "en": "The time is... / It's..." },
+      "pos": "phrase",
+      "example": { "sv": "Klockan är tio.", "ru": "Сейчас десять часов.", "en": "It's ten o'clock." }
+    },
+    {
+      "id": "kvart",
+      "sv": "kvart",
+      "translations": { "ru": "четверть часа (15 минут)", "en": "quarter of an hour (15 minutes)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kvart", "defSg": "kvarten", "indefPl": "kvartar", "defPl": "kvartarna" },
+      "example": { "sv": "Vänta en kvart, tack.", "ru": "Подожди четверть часа, пожалуйста.", "en": "Wait a quarter of an hour, please." }
+    },
+    {
+      "id": "halv",
+      "sv": "halv",
+      "translations": { "ru": "половина (перед СЛЕДУЮЩИМ часом: halv nio = 8:30)", "en": "half (points to the NEXT hour: halv nio = 8:30)" },
+      "pos": "adj",
+      "example": { "sv": "Klockan är halv nio.", "ru": "Сейчас половина девятого (8:30).", "en": "It's half past eight (8:30)." }
+    },
+    {
+      "id": "over",
+      "sv": "över",
+      "translations": { "ru": "после, минут(ы) после часа", "en": "past (minutes after the hour)" },
+      "pos": "prep",
+      "example": { "sv": "Klockan är fem över åtta.", "ru": "Сейчас пять минут девятого (8:05).", "en": "It's five past eight (8:05)." }
+    },
+    {
+      "id": "i-tid",
+      "sv": "i",
+      "translations": { "ru": "без (о времени: минут(ы) до следующего часа)", "en": "to (minutes before the next hour, e.g. kvart i nio)" },
+      "pos": "prep",
+      "example": { "sv": "Klockan är kvart i nio.", "ru": "Сейчас без четверти девять (8:45).", "en": "It's a quarter to nine (8:45)." }
+    },
+    {
+      "id": "halv-nio",
+      "sv": "halv nio",
+      "translations": { "ru": "половина девятого = 8:30 (не «половина девять», а буквально «половина ДО девяти»!)", "en": "half past eight = 8:30 (literally \"half nine\" — halv always means half way TO the next hour)" },
+      "pos": "phrase",
+      "example": { "sv": "Bussen går halv nio.", "ru": "Автобус отправляется в 8:30.", "en": "The bus leaves at 8:30." }
+    },
+    {
+      "id": "kvart-over",
+      "sv": "kvart över",
+      "translations": { "ru": "четверть после часа, напр. kvart över åtta = 8:15", "en": "quarter past, e.g. kvart över åtta = 8:15" },
+      "pos": "phrase",
+      "example": { "sv": "Klockan är kvart över åtta.", "ru": "Сейчас четверть девятого (8:15).", "en": "It's a quarter past eight (8:15)." }
+    },
+    {
+      "id": "kvart-i",
+      "sv": "kvart i",
+      "translations": { "ru": "без четверти, напр. kvart i nio = 8:45", "en": "quarter to, e.g. kvart i nio = 8:45" },
+      "pos": "phrase",
+      "example": { "sv": "Klockan är kvart i nio.", "ru": "Сейчас без четверти девять (8:45).", "en": "It's a quarter to nine (8:45)." }
+    },
+    {
+      "id": "fem-over",
+      "sv": "fem över",
+      "translations": { "ru": "пять минут после, напр. fem över åtta = 8:05", "en": "five past, e.g. fem över åtta = 8:05" },
+      "pos": "phrase",
+      "example": { "sv": "Tåget går fem över åtta.", "ru": "Поезд отправляется в 8:05.", "en": "The train leaves at 8:05." }
+    },
+    {
+      "id": "fem-i",
+      "sv": "fem i",
+      "translations": { "ru": "без пяти, напр. fem i nio = 8:55", "en": "five to, e.g. fem i nio = 8:55" },
+      "pos": "phrase",
+      "example": { "sv": "Vi möts fem i nio.", "ru": "Встретимся без пяти девять (8:55).", "en": "Let's meet at 8:55." }
+    },
+    {
+      "id": "tio-over",
+      "sv": "tio över",
+      "translations": { "ru": "десять минут после, напр. tio över åtta = 8:10", "en": "ten past, e.g. tio över åtta = 8:10" },
+      "pos": "phrase",
+      "example": { "sv": "Filmen börjar tio över åtta.", "ru": "Фильм начинается в 8:10.", "en": "The movie starts at 8:10." }
+    },
+    {
+      "id": "tio-i",
+      "sv": "tio i",
+      "translations": { "ru": "без десяти, напр. tio i nio = 8:50", "en": "ten to, e.g. tio i nio = 8:50" },
+      "pos": "phrase",
+      "example": { "sv": "Klockan är tio i nio.", "ru": "Сейчас без десяти девять (8:50).", "en": "It's ten to nine (8:50)." }
+    },
+    {
+      "id": "precis",
+      "sv": "precis",
+      "translations": { "ru": "точно, ровно", "en": "exactly, sharp" },
+      "pos": "adv",
+      "example": { "sv": "Klockan är precis åtta.", "ru": "Сейчас ровно восемь.", "en": "It's exactly eight o'clock." }
+    },
+    {
+      "id": "vakna",
+      "sv": "vakna",
+      "translations": { "ru": "просыпаться", "en": "to wake up" },
+      "pos": "verb",
+      "forms": { "infinitive": "vakna", "present": "vaknar", "past": "vaknade", "supine": "vaknat" },
+      "example": { "sv": "Jag vaknar klockan sju varje morgon.", "ru": "Я просыпаюсь в семь каждое утро.", "en": "I wake up at seven every morning." }
+    },
+    {
+      "id": "larmklocka",
+      "sv": "larmklocka",
+      "translations": { "ru": "будильник", "en": "alarm clock" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en larmklocka", "defSg": "larmklockan", "indefPl": "larmklockor", "defPl": "larmklockorna" },
+      "example": { "sv": "Larmklockan ringer klockan sex.", "ru": "Будильник звонит в шесть.", "en": "The alarm clock rings at six." }
+    }
+  ]
+}

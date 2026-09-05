@@ -1,0 +1,19 @@
+{
+  "id": "sfi-a/clock",
+  "slug": "clock",
+  "title": { "sv": "Klockan", "ru": "Который час", "en": "Telling the time" },
+  "summary": {
+    "ru": "Как спросить и назвать точное время: целые часы, половины, четверти.",
+    "en": "How to ask and tell the exact time: whole hours, halves, quarters."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-a"],
+  "tags": ["time", "numbers", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 520,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

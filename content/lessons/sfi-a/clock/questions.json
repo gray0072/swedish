@@ -1,0 +1,81 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-clock-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Сейчас без четверти девять.»", "en": "Build the phrase: \"It's a quarter to nine.\"" },
+      "tokens": ["i", "nio", "kvart", "är", "Klockan"],
+      "answer": [4, 3, 2, 0, 1]
+    },
+    {
+      "id": "q-clock-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразы со временем", "en": "Match the phrases with the time" },
+      "pairs": [
+        ["halv nio", "8:30"],
+        ["kvart över åtta", "8:15"],
+        ["kvart i nio", "8:45"],
+        ["fem över åtta", "8:05"]
+      ]
+    },
+    {
+      "id": "q-clock-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Halv nio» значит 8:30, а не 9:30.", "en": "\"Halv nio\" means 8:30, not 9:30." },
+      "answer": true
+    },
+    {
+      "id": "q-clock-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kvart i tio» значит 10:15.", "en": "\"Kvart i tio\" means 10:15." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Kvart i tio» значит без четверти десять, то есть 9:45, а не 10:15.",
+        "en": "\"Kvart i tio\" means a quarter to ten, i.e. 9:45, not 10:15."
+      }
+    },
+    {
+      "id": "q-clock-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Klockan är ___ över åtta. (пять минут после восьми = 8:05)" },
+      "answer": ["fem"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-clock-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто-то говорит: «Klockan är halv fem.» Который час на самом деле?",
+        "en": "Someone says: \"Klockan är halv fem.\" What time is it really?"
+      },
+      "choices": ["4:30", "5:30", "4:15", "5:15"],
+      "answer": 0
+    },
+    {
+      "id": "q-clock-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "На вокзале объявляют: «Tåget går tio i nio.» Во сколько уходит поезд?",
+        "en": "The station announces: \"Tåget går tio i nio.\" What time does the train leave?"
+      },
+      "choices": ["9:10", "8:50", "9:50", "8:10"],
+      "answer": 1
+    }
+  ]
+}

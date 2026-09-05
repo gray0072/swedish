@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": "namn",
+      "sv": "namn",
+      "translations": { "ru": "имя (в широком смысле, ФИО)", "en": "name" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett namn", "defSg": "namnet", "indefPl": "namn", "defPl": "namnen" },
+      "example": { "sv": "Vad är ditt namn?", "ru": "Как тебя зовут?", "en": "What is your name?" }
+    },
+    {
+      "id": "fornamn",
+      "sv": "förnamn",
+      "translations": { "ru": "имя", "en": "first name" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett förnamn", "defSg": "förnamnet", "indefPl": "förnamn", "defPl": "förnamnen" },
+      "example": { "sv": "Mitt förnamn är Ivan.", "ru": "Моё имя — Иван.", "en": "My first name is Ivan." }
+    },
+    {
+      "id": "efternamn",
+      "sv": "efternamn",
+      "translations": { "ru": "фамилия", "en": "surname, last name" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett efternamn", "defSg": "efternamnet", "indefPl": "efternamn", "defPl": "efternamnen" },
+      "example": { "sv": "Hur stavas ditt efternamn?", "ru": "Как пишется твоя фамилия?", "en": "How is your surname spelled?" }
+    },
+    {
+      "id": "adress",
+      "sv": "adress",
+      "translations": { "ru": "адрес", "en": "address" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en adress", "defSg": "adressen", "indefPl": "adresser", "defPl": "adresserna" },
+      "example": { "sv": "Vad är din adress?", "ru": "Какой у тебя адрес?", "en": "What is your address?" }
+    },
+    {
+      "id": "postnummer",
+      "sv": "postnummer",
+      "translations": { "ru": "почтовый индекс", "en": "postal code" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett postnummer", "defSg": "postnumret", "indefPl": "postnummer", "defPl": "postnumren" },
+      "example": { "sv": "Postnumret till Stockholm börjar med 1.", "ru": "Индекс Стокгольма начинается с единицы.", "en": "Stockholm's postal code starts with a 1." }
+    },
+    {
+      "id": "telefonnummer",
+      "sv": "telefonnummer",
+      "translations": { "ru": "номер телефона", "en": "phone number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett telefonnummer", "defSg": "telefonnumret", "indefPl": "telefonnummer", "defPl": "telefonnumren" },
+      "example": { "sv": "Kan jag få ditt telefonnummer?", "ru": "Можно узнать твой номер телефона?", "en": "Can I get your phone number?" }
+    },
+    {
+      "id": "personnummer",
+      "sv": "personnummer",
+      "translations": { "ru": "личный номер (аналог ИНН/паспорта)", "en": "personal identity number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett personnummer", "defSg": "personnumret", "indefPl": "personnummer", "defPl": "personnumren" },
+      "example": { "sv": "Vad är ditt personnummer?", "ru": "Какой у тебя личный номер?", "en": "What is your personal identity number?" }
+    },
+    {
+      "id": "fodelsedatum",
+      "sv": "födelsedatum",
+      "translations": { "ru": "дата рождения", "en": "date of birth" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skriv ditt födelsedatum här.", "ru": "Напиши здесь дату рождения.", "en": "Write your date of birth here." }
+    },
+    {
+      "id": "nationalitet",
+      "sv": "nationalitet",
+      "translations": { "ru": "национальность", "en": "nationality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nationalitet", "defSg": "nationaliteten", "indefPl": "nationaliteter", "defPl": "nationaliteterna" },
+      "example": { "sv": "Vilken nationalitet har du?", "ru": "Какая у тебя национальность?", "en": "What is your nationality?" }
+    },
+    {
+      "id": "medborgarskap",
+      "sv": "medborgarskap",
+      "translations": { "ru": "гражданство", "en": "citizenship" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett medborgarskap", "defSg": "medborgarskapet", "indefPl": "medborgarskap", "defPl": "medborgarskapen" },
+      "example": { "sv": "Jag har svenskt medborgarskap.", "ru": "У меня шведское гражданство.", "en": "I have Swedish citizenship." }
+    },
+    {
+      "id": "underskrift",
+      "sv": "underskrift",
+      "translations": { "ru": "подпись", "en": "signature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en underskrift", "defSg": "underskriften", "indefPl": "underskrifter", "defPl": "underskrifterna" },
+      "example": { "sv": "Din underskrift behövs här.", "ru": "Здесь нужна твоя подпись.", "en": "Your signature is needed here." }
+    },
+    {
+      "id": "civilstand",
+      "sv": "civilstånd",
+      "translations": { "ru": "семейное положение", "en": "marital status" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vad är ditt civilstånd — gift eller ogift?", "ru": "Какое у тебя семейное положение — женат/замужем или нет?", "en": "What is your marital status — married or single?" }
+    },
+    {
+      "id": "kon",
+      "sv": "kön",
+      "translations": { "ru": "пол", "en": "gender, sex" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kön", "defSg": "könet", "indefPl": "kön", "defPl": "könen" },
+      "example": { "sv": "Blanketten frågar efter kön.", "ru": "В бланке спрашивают пол.", "en": "The form asks for gender." }
+    },
+    {
+      "id": "yrke",
+      "sv": "yrke",
+      "translations": { "ru": "профессия", "en": "occupation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" },
+      "example": { "sv": "Vad har du för yrke?", "ru": "Какая у тебя профессия?", "en": "What is your occupation?" }
+    },
+    {
+      "id": "blankett",
+      "sv": "blankett",
+      "translations": { "ru": "бланк, форма", "en": "form (document)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blankett", "defSg": "blanketten", "indefPl": "blanketter", "defPl": "blanketterna" },
+      "example": { "sv": "Fyll i blanketten med versaler.", "ru": "Заполни бланк заглавными буквами.", "en": "Fill in the form in capital letters." }
+    },
+    {
+      "id": "underteckna",
+      "sv": "underteckna",
+      "translations": { "ru": "подписывать(ся)", "en": "to sign" },
+      "pos": "verb",
+      "forms": { "infinitive": "underteckna", "present": "undertecknar", "past": "undertecknade", "supine": "undertecknat" },
+      "example": { "sv": "Underteckna blanketten längst ner.", "ru": "Подпиши бланк внизу.", "en": "Sign the form at the bottom." }
+    },
+    {
+      "id": "fylla-i",
+      "sv": "fylla i",
+      "translations": { "ru": "заполнять (бланк)", "en": "to fill in (a form)" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du hjälpa mig att fylla i blanketten?", "ru": "Можешь помочь мне заполнить бланк?", "en": "Can you help me fill in the form?" }
+    },
+    {
+      "id": "jag-heter",
+      "sv": "Jag heter...",
+      "translations": { "ru": "Меня зовут...", "en": "My name is..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag heter Anna Andersson.", "ru": "Меня зовут Анна Андерссон.", "en": "My name is Anna Andersson." }
+    }
+  ]
+}

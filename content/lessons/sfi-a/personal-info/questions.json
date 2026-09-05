@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-pinfo-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какой у тебя личный номер?»", "en": "Build the question: \"What is your personal identity number?\"" },
+      "tokens": ["personnummer", "ditt", "är", "Vad"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-pinfo-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["förnamn", "имя"],
+        ["efternamn", "фамилия"],
+        ["adress", "адрес"],
+        ["underskrift", "подпись"]
+      ]
+    },
+    {
+      "id": "q-pinfo-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Personnummer» — это то же самое, что имя человека.",
+        "en": "\"Personnummer\" is the same thing as a person's name."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Personnummer» — это уникальный номер из десяти цифр, а не имя.",
+        "en": "\"Personnummer\" is a unique ten-digit number, not a name."
+      }
+    },
+    {
+      "id": "q-pinfo-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Fylla i» значит «заполнять» (например, бланк).", "en": "\"Fylla i\" means \"to fill in\" (e.g. a form)." },
+      "answer": true
+    },
+    {
+      "id": "q-pinfo-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ___ Anna. (меня зовут)" },
+      "answer": ["heter"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-pinfo-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Сотрудник в ведомстве спрашивает: «Vad är ditt civilstånd?» Что он хочет узнать?",
+        "en": "A clerk at the authority asks: \"Vad är ditt civilstånd?\" What do they want to know?"
+      },
+      "choices": [
+        { "ru": "Твою профессию", "en": "Your occupation" },
+        { "ru": "Твоё семейное положение", "en": "Your marital status" },
+        { "ru": "Твой адрес", "en": "Your address" },
+        { "ru": "Твоё гражданство", "en": "Your citizenship" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-pinfo-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "На бланке нужно расписаться внизу. Какое слово напечатано у этой строки?",
+        "en": "You need to sign at the bottom of a form. Which word is printed next to that line?"
+      },
+      "choices": ["Namn", "Underskrift", "Postnummer", "Kön"],
+      "answer": 1
+    }
+  ]
+}

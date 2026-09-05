@@ -1,0 +1,19 @@
+{
+  "id": "sfi-a/personal-info",
+  "slug": "personal-info",
+  "title": { "sv": "Personuppgifter", "ru": "Личные данные", "en": "Personal information" },
+  "summary": {
+    "ru": "Слова для анкет и первого визита в шведское ведомство: имя, адрес, личный номер.",
+    "en": "The words you need on a form or your first visit to a Swedish authority: name, address, personal number."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-a"],
+  "tags": ["forms", "authorities", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 510,
+  "prerequisites": [],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

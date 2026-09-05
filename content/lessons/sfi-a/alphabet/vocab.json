@@ -1,0 +1,208 @@
+{
+  "items": [
+    {
+      "id": "bokstav",
+      "sv": "bokstav",
+      "translations": { "ru": "буква", "en": "letter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bokstav", "defSg": "bokstaven", "indefPl": "bokstäver", "defPl": "bokstäverna" },
+      "example": { "sv": "Mitt namn har sju bokstäver.", "ru": "В моём имени семь букв.", "en": "My name has seven letters." }
+    },
+    {
+      "id": "alfabete",
+      "sv": "alfabete",
+      "translations": { "ru": "алфавит", "en": "alphabet" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det svenska alfabetet har 29 bokstäver.", "ru": "В шведском алфавите 29 букв.", "en": "The Swedish alphabet has 29 letters." }
+    },
+    {
+      "id": "vokal",
+      "sv": "vokal",
+      "translations": { "ru": "гласная (буква)", "en": "vowel" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vokal", "defSg": "vokalen", "indefPl": "vokaler", "defPl": "vokalerna" }
+    },
+    {
+      "id": "konsonant",
+      "sv": "konsonant",
+      "translations": { "ru": "согласная (буква)", "en": "consonant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsonant", "defSg": "konsonanten", "indefPl": "konsonanter", "defPl": "konsonanterna" }
+    },
+    {
+      "id": "bokstavera",
+      "sv": "bokstavera",
+      "translations": { "ru": "произносить по буквам", "en": "to spell out loud" },
+      "pos": "verb",
+      "forms": { "infinitive": "bokstavera", "present": "bokstaverar", "past": "bokstaverade", "supine": "bokstaverat" },
+      "example": { "sv": "Kan du bokstavera efternamnet?", "ru": "Можешь произнести фамилию по буквам?", "en": "Can you spell the surname out loud?" }
+    },
+    {
+      "id": "letter-ao",
+      "sv": "Å",
+      "translations": {
+        "ru": "буква О с кольцом (три особые буквы в конце алфавита; звучит как «о» в слове «дом»)",
+        "en": "the letter Å (one of three extra letters at the end of the alphabet; sounds like 'o' in 'more')"
+      },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-ae",
+      "sv": "Ä",
+      "translations": {
+        "ru": "буква А с двумя точками (звучит как «э» в слове «эти»)",
+        "en": "the letter Ä (sounds like 'e' in 'bed')"
+      },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-oe",
+      "sv": "Ö",
+      "translations": {
+        "ru": "буква О с двумя точками (похожа на немецкое ö, нет аналога в русском)",
+        "en": "the letter Ö (similar to German ö, no exact English equivalent)"
+      },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-j",
+      "sv": "J",
+      "translations": { "ru": "буква Йот (произносится как «й»)", "en": "the letter J (sounds like 'y' in 'yes')" },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-w",
+      "sv": "W",
+      "translations": {
+        "ru": "буква дубль-ве (редкая, встречается в именах и заимствованиях)",
+        "en": "the letter W (rare, mostly in names and loanwords)"
+      },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-q",
+      "sv": "Q",
+      "translations": { "ru": "буква Ку (редкая, встречается в именах)", "en": "the letter Q (rare, mostly in names)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-x",
+      "sv": "X",
+      "translations": { "ru": "буква Икс (произносится как «кс»)", "en": "the letter X (sounds like 'ks')" },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-z",
+      "sv": "Z",
+      "translations": { "ru": "буква Сета (произносится как «с»)", "en": "the letter Z (sounds like 's')" },
+      "pos": "phrase"
+    },
+    {
+      "id": "letter-c",
+      "sv": "C",
+      "translations": {
+        "ru": "буква Се (звучит как «с» перед e/i/y, иначе как «к»)",
+        "en": "the letter C (sounds like 's' before e/i/y, otherwise like 'k')"
+      },
+      "pos": "phrase"
+    },
+    {
+      "id": "sjo",
+      "sv": "sjö",
+      "translations": { "ru": "озеро", "en": "lake" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" },
+      "example": { "sv": "Sjön är vacker på sommaren.", "ru": "Озеро красиво летом.", "en": "The lake is beautiful in summer." }
+    },
+    {
+      "id": "ata",
+      "sv": "äta",
+      "translations": { "ru": "есть, кушать", "en": "to eat" },
+      "pos": "verb",
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Vi äter äpplen i trädgården.", "ru": "Мы едим яблоки в саду.", "en": "We're eating apples in the garden." }
+    },
+    {
+      "id": "bat",
+      "sv": "båt",
+      "translations": { "ru": "лодка", "en": "boat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en båt", "defSg": "båten", "indefPl": "båtar", "defPl": "båtarna" },
+      "example": { "sv": "Vi tar en båt över sjön.", "ru": "Мы плывём на лодке через озеро.", "en": "We're taking a boat across the lake." }
+    },
+    {
+      "id": "vaska",
+      "sv": "väska",
+      "translations": { "ru": "сумка", "en": "bag" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väska", "defSg": "väskan", "indefPl": "väskor", "defPl": "väskorna" },
+      "example": { "sv": "Var är min väska?", "ru": "Где моя сумка?", "en": "Where's my bag?" }
+    },
+    {
+      "id": "ora",
+      "sv": "öra",
+      "translations": { "ru": "ухо", "en": "ear" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett öra", "defSg": "örat", "indefPl": "öron", "defPl": "öronen" },
+      "example": { "sv": "Han har ont i örat.", "ru": "У него болит ухо.", "en": "His ear hurts." }
+    },
+    {
+      "id": "ga",
+      "sv": "gå",
+      "translations": { "ru": "идти, ходить", "en": "to walk, to go" },
+      "pos": "verb",
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Vi går till skolan.", "ru": "Мы идём в школу.", "en": "We're walking to school." }
+    },
+    {
+      "id": "kok",
+      "sv": "kök",
+      "translations": { "ru": "кухня", "en": "kitchen" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kök", "defSg": "köket", "indefPl": "kök", "defPl": "köken" },
+      "example": { "sv": "Köket är litet men mysigt.", "ru": "Кухня маленькая, но уютная.", "en": "The kitchen is small but cozy." }
+    },
+    {
+      "id": "trad",
+      "sv": "träd",
+      "translations": { "ru": "дерево", "en": "tree" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett träd", "defSg": "trädet", "indefPl": "träd", "defPl": "träden" },
+      "example": { "sv": "Trädet är väldigt högt.", "ru": "Дерево очень высокое.", "en": "The tree is very tall." }
+    },
+    {
+      "id": "sjuk",
+      "sv": "sjuk",
+      "translations": { "ru": "больной", "en": "sick" },
+      "pos": "adj",
+      "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болен/больна.", "en": "I'm sick today." }
+    },
+    {
+      "id": "nasa",
+      "sv": "näsa",
+      "translations": { "ru": "нос", "en": "nose" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en näsa", "defSg": "näsan", "indefPl": "näsor", "defPl": "näsorna" },
+      "example": { "sv": "Barnet har en liten näsa.", "ru": "У ребёнка маленький нос.", "en": "The child has a small nose." }
+    },
+    {
+      "id": "hora",
+      "sv": "höra",
+      "translations": { "ru": "слышать", "en": "to hear" },
+      "pos": "verb",
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" },
+      "example": { "sv": "Jag hör dig inte.", "ru": "Я тебя не слышу.", "en": "I can't hear you." }
+    }
+  ]
+}

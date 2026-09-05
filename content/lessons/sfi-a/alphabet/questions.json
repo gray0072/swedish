@@ -1,0 +1,92 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-alpha-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я тебя не слышу.»", "en": "Build the sentence: \"I can't hear you.\"" },
+      "tokens": ["inte", "dig", "hör", "Jag"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-alpha-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь особые буквы с их звучанием", "en": "Match the extra letters with their sound" },
+      "pairs": [
+        ["Å", "звучит как «о» в слове «дом»"],
+        ["Ä", "звучит как «э» в слове «эти»"],
+        ["Ö", "похоже на немецкое ö"],
+        ["J", "звучит как «й»"]
+      ]
+    },
+    {
+      "id": "q-alpha-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Å» — это просто буква «a» с кружком, вариант обычной «a».",
+        "en": "\"Å\" is just an \"a\" with a ring, a variant of the regular \"a\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Å — это отдельная, самостоятельная буква шведского алфавита, а не украшенная «a».",
+        "en": "Å is its own separate letter of the Swedish alphabet, not a decorated \"a\"."
+      }
+    },
+    {
+      "id": "q-alpha-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Буквы å, ä, ö стоят в шведском алфавите в самом конце, после z.",
+        "en": "The letters å, ä, ö come at the very end of the Swedish alphabet, after z."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-alpha-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ___ ditt namn? (произнести по буквам)" },
+      "answer": ["bokstavera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-alpha-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты ищешь фамилию «Öberg» в телефонной книге, отсортированной по алфавиту. Где искать?",
+        "en": "You're looking up the surname \"Öberg\" in an alphabetically sorted list. Where do you look?"
+      },
+      "choices": [
+        { "ru": "В начале, рядом с буквой O", "en": "At the start, near the letter O" },
+        { "ru": "В самом конце, после Z", "en": "At the very end, after Z" },
+        { "ru": "Среди фамилий на A", "en": "Among the surnames starting with A" },
+        { "ru": "Такие фамилии не сортируются по алфавиту", "en": "Such surnames aren't sorted alphabetically" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-alpha-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая из этих букв НЕ входит в обычный латинский алфавит (a-z) и является особой шведской буквой?",
+        "en": "Which of these letters is NOT part of the regular a-z alphabet and is a special Swedish letter?"
+      },
+      "choices": ["B", "M", "Ö", "T"],
+      "answer": 2
+    }
+  ]
+}
