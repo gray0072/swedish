@@ -88,7 +88,9 @@ tests/                   Vitest unit tests
 
 ## Roadmap
 
-- [ ] SFI and Grund curricula (structure exists, lessons not yet written)
+- [ ] SFI curricula (structure exists, lessons not yet written)
+- [x] Grund 2 (3 lessons: clothing, weather, public transport) — Grund 1, 3, 4 still empty
+- [x] TTS voice picker in Settings
 - [x] Illustrated city map
 - [x] `/grammar` reference articles
 - [x] PWA / offline support
