@@ -1,0 +1,19 @@
+{
+  "id": "grund-2/clothing",
+  "slug": "clothing",
+  "title": { "sv": "Kläder", "ru": "Одежда", "en": "Clothing" },
+  "summary": {
+    "ru": "Одежда — и почему некоторые вещи по-шведски всегда во множественном числе.",
+    "en": "Clothing — and why some items are always plural in Swedish."
+  },
+  "kind": "vocab",
+  "levels": ["grund-2", "a1"],
+  "tags": ["clothing", "nouns"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 200,
+  "prerequisites": [],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

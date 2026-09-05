@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "skjorta",
+      "sv": "skjorta",
+      "translations": { "ru": "рубашка", "en": "shirt" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skjorta", "defSg": "skjortan", "indefPl": "skjortor", "defPl": "skjortorna" },
+      "example": { "sv": "Han har en vit skjorta.", "ru": "У него белая рубашка.", "en": "He has a white shirt." }
+    },
+    {
+      "id": "troja",
+      "sv": "tröja",
+      "translations": { "ru": "свитер, кофта", "en": "sweater" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tröja", "defSg": "tröjan", "indefPl": "tröjor", "defPl": "tröjorna" },
+      "example": { "sv": "Jag fryser, jag behöver en tröja.", "ru": "Мне холодно, нужен свитер.", "en": "I'm cold, I need a sweater." }
+    },
+    {
+      "id": "klanning",
+      "sv": "klänning",
+      "translations": { "ru": "платье", "en": "dress" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klänning", "defSg": "klänningen", "indefPl": "klänningar", "defPl": "klänningarna" },
+      "example": { "sv": "Vilken fin klänning!", "ru": "Какое красивое платье!", "en": "What a nice dress!" }
+    },
+    {
+      "id": "kjol",
+      "sv": "kjol",
+      "translations": { "ru": "юбка", "en": "skirt" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kjol", "defSg": "kjolen", "indefPl": "kjolar", "defPl": "kjolarna" },
+      "example": { "sv": "Kjolen är för lång.", "ru": "Юбка слишком длинная.", "en": "The skirt is too long." }
+    },
+    {
+      "id": "jacka",
+      "sv": "jacka",
+      "translations": { "ru": "куртка", "en": "jacket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jacka", "defSg": "jackan", "indefPl": "jackor", "defPl": "jackorna" },
+      "example": { "sv": "Ta med en jacka, det blir kallt.", "ru": "Возьми куртку, будет холодно.", "en": "Bring a jacket, it'll get cold." }
+    },
+    {
+      "id": "byxor",
+      "sv": "byxor",
+      "translations": { "ru": "брюки", "en": "pants" },
+      "pos": "noun",
+      "gender": null,
+      "forms": null,
+      "note": { "ru": "Всегда множественное число, как в английском «pants».", "en": "Always plural, like English \"pants\"." },
+      "example": { "sv": "De här byxorna är nya.", "ru": "Эти брюки новые.", "en": "These pants are new." }
+    },
+    {
+      "id": "sko",
+      "sv": "sko",
+      "translations": { "ru": "туфля, ботинок", "en": "shoe" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sko", "defSg": "skon", "indefPl": "skor", "defPl": "skorna" },
+      "example": { "sv": "Jag behöver nya skor.", "ru": "Мне нужны новые туфли.", "en": "I need new shoes." }
+    },
+    {
+      "id": "strumpa",
+      "sv": "strumpa",
+      "translations": { "ru": "носок", "en": "sock" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en strumpa", "defSg": "strumpan", "indefPl": "strumpor", "defPl": "strumporna" },
+      "example": { "sv": "En strumpa är borta.", "ru": "Один носок пропал.", "en": "One sock is missing." }
+    },
+    {
+      "id": "mossa",
+      "sv": "mössa",
+      "translations": { "ru": "шапка", "en": "hat (knit cap)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mössa", "defSg": "mössan", "indefPl": "mössor", "defPl": "mössorna" },
+      "example": { "sv": "Ta på dig en mössa, det är kallt.", "ru": "Надень шапку, холодно.", "en": "Put on a hat, it's cold." }
+    },
+    {
+      "id": "halsduk",
+      "sv": "halsduk",
+      "translations": { "ru": "шарф", "en": "scarf" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en halsduk", "defSg": "halsduken", "indefPl": "halsdukar", "defPl": "halsdukarna" },
+      "example": { "sv": "Halsduken är av ull.", "ru": "Шарф из шерсти.", "en": "The scarf is made of wool." }
+    },
+    {
+      "id": "handske",
+      "sv": "handske",
+      "translations": { "ru": "перчатка", "en": "glove" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handske", "defSg": "handsken", "indefPl": "handskar", "defPl": "handskarna" },
+      "example": { "sv": "Jag har tappat en handske.", "ru": "Я потерял(а) перчатку.", "en": "I lost a glove." }
+    },
+    {
+      "id": "hatt",
+      "sv": "hatt",
+      "translations": { "ru": "шляпа", "en": "hat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hatt", "defSg": "hatten", "indefPl": "hattar", "defPl": "hattarna" },
+      "example": { "sv": "Han har en svart hatt.", "ru": "У него чёрная шляпа.", "en": "He has a black hat." }
+    },
+    {
+      "id": "kappa",
+      "sv": "kappa",
+      "translations": { "ru": "пальто", "en": "coat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kappa", "defSg": "kappan", "indefPl": "kappor", "defPl": "kapporna" },
+      "example": { "sv": "Kappan är för tunn för vintern.", "ru": "Пальто слишком тонкое для зимы.", "en": "The coat is too thin for winter." }
+    },
+    {
+      "id": "slips",
+      "sv": "slips",
+      "translations": { "ru": "галстук", "en": "tie" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slips", "defSg": "slipsen", "indefPl": "slipsar", "defPl": "slipsarna" },
+      "example": { "sv": "Måste jag ha slips på intervjun?", "ru": "Мне нужен галстук на собеседовании?", "en": "Do I need a tie for the interview?" }
+    },
+    {
+      "id": "vaska",
+      "sv": "väska",
+      "translations": { "ru": "сумка", "en": "bag" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väska", "defSg": "väskan", "indefPl": "väskor", "defPl": "väskorna" },
+      "example": { "sv": "Var är min väska?", "ru": "Где моя сумка?", "en": "Where is my bag?" }
+    },
+    {
+      "id": "glasogon",
+      "sv": "glasögon",
+      "translations": { "ru": "очки", "en": "glasses" },
+      "pos": "noun",
+      "gender": null,
+      "forms": null,
+      "note": { "ru": "Всегда множественное число, как в английском «glasses».", "en": "Always plural, like English \"glasses\"." },
+      "example": { "sv": "Jag ser inget utan glasögon.", "ru": "Я ничего не вижу без очков.", "en": "I can't see anything without glasses." }
+    }
+  ]
+}

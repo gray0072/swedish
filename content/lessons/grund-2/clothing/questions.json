@@ -1,0 +1,69 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-cloth-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мне нужна новая куртка.»", "en": "Build the sentence: \"I need a new jacket.\"" },
+      "tokens": ["jacka", "en", "ny", "behöver", "Jag"],
+      "answer": [4, 3, 1, 2, 0]
+    },
+    {
+      "id": "q-cloth-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["skjorta", "рубашка"],
+        ["kjol", "юбка"],
+        ["hatt", "шляпа"],
+        ["väska", "сумка"]
+      ]
+    },
+    {
+      "id": "q-cloth-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «byxor» (брюки) всегда употребляется только во множественном числе.",
+        "en": "The word \"byxor\" (pants) is always used only in the plural."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-cloth-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Glasögon» — это ett-слово в единственном числе.", "en": "\"Glasögon\" is a singular ett-word." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Glasögon» — существительное, которое всегда стоит во множественном числе.",
+        "en": "\"Glasögon\" is a noun that is always plural."
+      }
+    },
+    {
+      "id": "q-cloth-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Ta på dig en ___, det är kallt ute. (шапка)" },
+      "answer": ["mössa"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cloth-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что обычно надевают на собеседование в офис?", "en": "What do you usually wear to a job interview?" },
+      "choices": ["skjorta och slips", "mössa och handskar", "badkläder", "pyjamas"],
+      "answer": 0
+    }
+  ]
+}

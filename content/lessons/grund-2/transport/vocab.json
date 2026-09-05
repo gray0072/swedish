@@ -1,0 +1,153 @@
+{
+  "items": [
+    {
+      "id": "tunnelbana",
+      "sv": "tunnelbana",
+      "translations": { "ru": "метро", "en": "subway, metro" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tunnelbana", "defSg": "tunnelbanan", "indefPl": "tunnelbanor", "defPl": "tunnelbanorna" },
+      "example": { "sv": "Jag tar tunnelbanan till jobbet.", "ru": "Я езжу на метро на работу.", "en": "I take the subway to work." }
+    },
+    {
+      "id": "buss",
+      "sv": "buss",
+      "translations": { "ru": "автобус", "en": "bus" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en buss", "defSg": "bussen", "indefPl": "bussar", "defPl": "bussarna" },
+      "example": { "sv": "Bussen är sen idag.", "ru": "Автобус сегодня опаздывает.", "en": "The bus is late today." }
+    },
+    {
+      "id": "tag",
+      "sv": "tåg",
+      "translations": { "ru": "поезд", "en": "train" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" },
+      "example": { "sv": "Tåget går klockan åtta.", "ru": "Поезд отправляется в восемь.", "en": "The train leaves at eight." }
+    },
+    {
+      "id": "sparvagn",
+      "sv": "spårvagn",
+      "translations": { "ru": "трамвай", "en": "tram" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en spårvagn", "defSg": "spårvagnen", "indefPl": "spårvagnar", "defPl": "spårvagnarna" },
+      "example": { "sv": "Spårvagnen stannar här.", "ru": "Трамвай останавливается здесь.", "en": "The tram stops here." }
+    },
+    {
+      "id": "biljett",
+      "sv": "biljett",
+      "translations": { "ru": "билет", "en": "ticket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biljett", "defSg": "biljetten", "indefPl": "biljetter", "defPl": "biljetterna" },
+      "example": { "sv": "En biljett, tack.", "ru": "Один билет, пожалуйста.", "en": "One ticket, please." }
+    },
+    {
+      "id": "station",
+      "sv": "station",
+      "translations": { "ru": "станция", "en": "station" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en station", "defSg": "stationen", "indefPl": "stationer", "defPl": "stationerna" },
+      "example": { "sv": "Nästa station är Slussen.", "ru": "Следующая станция — Слюссен.", "en": "Next station is Slussen." }
+    },
+    {
+      "id": "hallplats",
+      "sv": "hållplats",
+      "translations": { "ru": "остановка", "en": "bus/tram stop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hållplats", "defSg": "hållplatsen", "indefPl": "hållplatser", "defPl": "hållplatserna" },
+      "example": { "sv": "Var är närmaste hållplats?", "ru": "Где ближайшая остановка?", "en": "Where's the nearest stop?" }
+    },
+    {
+      "id": "perrong",
+      "sv": "perrong",
+      "translations": { "ru": "платформа", "en": "platform" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en perrong", "defSg": "perrongen", "indefPl": "perronger", "defPl": "perrongerna" },
+      "example": { "sv": "Tåget avgår från perrong 3.", "ru": "Поезд отправляется с платформы 3.", "en": "The train departs from platform 3." }
+    },
+    {
+      "id": "resa-transport",
+      "sv": "resa",
+      "translations": { "ru": "поездка", "en": "trip, journey" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en resa", "defSg": "resan", "indefPl": "resor", "defPl": "resorna" },
+      "example": { "sv": "Resan tar tjugo minuter.", "ru": "Поездка занимает двадцать минут.", "en": "The trip takes twenty minutes." }
+    },
+    {
+      "id": "cykel",
+      "sv": "cykel",
+      "translations": { "ru": "велосипед", "en": "bicycle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en cykel", "defSg": "cykeln", "indefPl": "cyklar", "defPl": "cyklarna" },
+      "example": { "sv": "Jag cyklar till skolan med min cykel.", "ru": "Я езжу в школу на велосипеде.", "en": "I bike to school on my bicycle." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen står på parkeringen.", "ru": "Машина стоит на парковке.", "en": "The car is in the parking lot." }
+    },
+    {
+      "id": "flygplan",
+      "sv": "flygplan",
+      "translations": { "ru": "самолёт", "en": "airplane" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett flygplan", "defSg": "flygplanet", "indefPl": "flygplan", "defPl": "flygplanen" },
+      "example": { "sv": "Flygplanet landar snart.", "ru": "Самолёт скоро приземлится.", "en": "The airplane is landing soon." }
+    },
+    {
+      "id": "farja",
+      "sv": "färja",
+      "translations": { "ru": "паром", "en": "ferry" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en färja", "defSg": "färjan", "indefPl": "färjor", "defPl": "färjorna" },
+      "example": { "sv": "Färjan går till Djurgården.", "ru": "Паром идёт на Юргорден.", "en": "The ferry goes to Djurgården." }
+    },
+    {
+      "id": "dorr-transport",
+      "sv": "dörr",
+      "translations": { "ru": "дверь", "en": "door" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dörr", "defSg": "dörren", "indefPl": "dörrar", "defPl": "dörrarna" },
+      "example": { "sv": "Dörrarna stängs.", "ru": "Двери закрываются.", "en": "The doors are closing." }
+    },
+    {
+      "id": "nasta",
+      "sv": "nästa",
+      "translations": { "ru": "следующий", "en": "next" },
+      "pos": "adj",
+      "example": { "sv": "Nästa station är Slussen.", "ru": "Следующая станция — Слюссен.", "en": "Next station is Slussen." }
+    },
+    {
+      "id": "forsenad",
+      "sv": "försenad",
+      "translations": { "ru": "опаздывающий, задержанный", "en": "delayed" },
+      "pos": "adj",
+      "example": { "sv": "Tåget är försenat.", "ru": "Поезд задерживается.", "en": "The train is delayed." }
+    },
+    {
+      "id": "tidtabell",
+      "sv": "tidtabell",
+      "translations": { "ru": "расписание", "en": "timetable" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidtabell", "defSg": "tidtabellen", "indefPl": "tidtabeller", "defPl": "tidtabellerna" },
+      "example": { "sv": "Kolla tidtabellen innan du åker.", "ru": "Проверь расписание перед поездкой.", "en": "Check the timetable before you go." }
+    }
+  ]
+}

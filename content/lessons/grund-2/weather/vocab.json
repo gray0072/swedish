@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "vader",
+      "sv": "väder",
+      "translations": { "ru": "погода", "en": "weather" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hur är vädret idag?", "ru": "Какая сегодня погода?", "en": "What's the weather like today?" }
+    },
+    {
+      "id": "sol",
+      "sv": "sol",
+      "translations": { "ru": "солнце", "en": "sun" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Solen skiner.", "ru": "Солнце светит.", "en": "The sun is shining." }
+    },
+    {
+      "id": "regn",
+      "sv": "regn",
+      "translations": { "ru": "дождь", "en": "rain" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Regnet har slutat.", "ru": "Дождь закончился.", "en": "The rain has stopped." }
+    },
+    {
+      "id": "sno",
+      "sv": "snö",
+      "translations": { "ru": "снег", "en": "snow" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det ligger snö på marken.", "ru": "На земле лежит снег.", "en": "There's snow on the ground." }
+    },
+    {
+      "id": "moln",
+      "sv": "moln",
+      "translations": { "ru": "облако", "en": "cloud" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett moln", "defSg": "molnet", "indefPl": "moln", "defPl": "molnen" },
+      "example": { "sv": "Himlen är full av moln.", "ru": "Небо полно облаков.", "en": "The sky is full of clouds." }
+    },
+    {
+      "id": "vind",
+      "sv": "vind",
+      "translations": { "ru": "ветер", "en": "wind" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vind", "defSg": "vinden", "indefPl": "vindar", "defPl": "vindarna" },
+      "example": { "sv": "Vinden är stark idag.", "ru": "Сегодня сильный ветер.", "en": "The wind is strong today." }
+    },
+    {
+      "id": "aska",
+      "sv": "åska",
+      "translations": { "ru": "гроза, гром", "en": "thunderstorm" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det blir åska i kväll.", "ru": "Сегодня вечером будет гроза.", "en": "There will be a thunderstorm tonight." }
+    },
+    {
+      "id": "grad",
+      "sv": "grad",
+      "translations": { "ru": "градус", "en": "degree" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en grad", "defSg": "graden", "indefPl": "grader", "defPl": "graderna" },
+      "example": { "sv": "Det är fem grader ute.", "ru": "На улице пять градусов.", "en": "It's five degrees outside." }
+    },
+    {
+      "id": "soligt",
+      "sv": "soligt",
+      "translations": { "ru": "солнечно", "en": "sunny" },
+      "pos": "adj",
+      "example": { "sv": "Det är soligt idag.", "ru": "Сегодня солнечно.", "en": "It's sunny today." }
+    },
+    {
+      "id": "molnigt",
+      "sv": "molnigt",
+      "translations": { "ru": "облачно", "en": "cloudy" },
+      "pos": "adj",
+      "example": { "sv": "Det blir molnigt imorgon.", "ru": "Завтра будет облачно.", "en": "It'll be cloudy tomorrow." }
+    },
+    {
+      "id": "regnigt",
+      "sv": "regnigt",
+      "translations": { "ru": "дождливо", "en": "rainy" },
+      "pos": "adj",
+      "example": { "sv": "Det är regnigt på hösten.", "ru": "Осенью дождливо.", "en": "It's rainy in autumn." }
+    },
+    {
+      "id": "blasigt",
+      "sv": "blåsigt",
+      "translations": { "ru": "ветрено", "en": "windy" },
+      "pos": "adj",
+      "example": { "sv": "Det är blåsigt vid havet.", "ru": "У моря ветрено.", "en": "It's windy by the sea." }
+    },
+    {
+      "id": "kallt",
+      "sv": "kallt",
+      "translations": { "ru": "холодно", "en": "cold" },
+      "pos": "adj",
+      "example": { "sv": "Det är kallt på vintern.", "ru": "Зимой холодно.", "en": "It's cold in winter." }
+    },
+    {
+      "id": "varmt",
+      "sv": "varmt",
+      "translations": { "ru": "тепло, жарко", "en": "warm, hot" },
+      "pos": "adj",
+      "example": { "sv": "Det är varmt på sommaren.", "ru": "Летом тепло.", "en": "It's warm in summer." }
+    },
+    {
+      "id": "det-regnar",
+      "sv": "det regnar",
+      "translations": { "ru": "идёт дождь", "en": "it's raining" },
+      "pos": "phrase",
+      "example": { "sv": "Det regnar mycket i november.", "ru": "В ноябре много дождей.", "en": "It rains a lot in November." }
+    },
+    {
+      "id": "det-snoar",
+      "sv": "det snöar",
+      "translations": { "ru": "идёт снег", "en": "it's snowing" },
+      "pos": "phrase",
+      "example": { "sv": "Det snöar i december.", "ru": "В декабре идёт снег.", "en": "It snows in December." }
+    },
+    {
+      "id": "prognos",
+      "sv": "väderprognos",
+      "translations": { "ru": "прогноз погоды", "en": "weather forecast" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väderprognos", "defSg": "väderprognosen", "indefPl": "väderprognoser", "defPl": "väderprognoserna" },
+      "example": { "sv": "Har du kollat väderprognosen?", "ru": "Ты смотрел(а) прогноз погоды?", "en": "Have you checked the weather forecast?" }
+    }
+  ]
+}

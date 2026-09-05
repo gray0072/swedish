@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-weather-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня солнечно.»", "en": "Build the sentence: \"It's sunny today.\"" },
+      "tokens": ["idag", "är", "soligt", "Det"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-weather-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Идёт дождь.»", "en": "Build the sentence: \"It's raining.\"" },
+      "tokens": ["regnar", "Det"],
+      "answer": [1, 0]
+    },
+    {
+      "id": "q-weather-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь погодные слова с переводом", "en": "Match the weather words with their translation" },
+      "pairs": [
+        ["soligt", "солнечно"],
+        ["regnigt", "дождливо"],
+        ["blåsigt", "ветрено"],
+        ["molnigt", "облачно"]
+      ]
+    },
+    {
+      "id": "q-weather-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В шведском о погоде говорят с безличным «det», как английское «it» в «it's raining».",
+        "en": "In Swedish, the weather is described with the impersonal \"det\", like English \"it\" in \"it's raining\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-weather-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vädret» — это неопределённая форма слова «väder».", "en": "\"Vädret\" is the indefinite form of \"väder\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Vädret» — определённая форма («эта погода», «погода сегодня»). Неопределённая форма — «ett väder».",
+        "en": "\"Vädret\" is the definite form (\"the weather\"). The indefinite form is \"ett väder\"."
+      }
+    },
+    {
+      "id": "q-weather-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är fem ___ ute. (градусов)" },
+      "answer": ["grader"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-weather-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово НЕ описывает погоду?",
+        "en": "Which word does NOT describe weather?"
+      },
+      "choices": ["väska", "soligt", "regnigt", "blåsigt"],
+      "answer": 0
+    }
+  ]
+}

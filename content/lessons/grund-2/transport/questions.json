@@ -1,0 +1,77 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-transport-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери объявление: «Следующая станция — Слюссен.»", "en": "Build the announcement: \"Next station is Slussen.\"" },
+      "tokens": ["Slussen", "är", "station", "Nästa"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-transport-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Двери закрываются.»", "en": "Build the phrase: \"The doors are closing.\"" },
+      "tokens": ["stängs", "Dörrarna"],
+      "answer": [1, 0]
+    },
+    {
+      "id": "q-transport-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь виды транспорта с переводом", "en": "Match the vehicles with their translation" },
+      "pairs": [
+        ["tåg", "поезд"],
+        ["buss", "автобус"],
+        ["cykel", "велосипед"],
+        ["färja", "паром"]
+      ]
+    },
+    {
+      "id": "q-transport-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Hållplats» — это остановка наземного транспорта.", "en": "\"Hållplats\" is a bus/tram stop." },
+      "answer": true
+    },
+    {
+      "id": "q-transport-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tåget är försenat» значит «поезд отменён».", "en": "\"Tåget är försenat\" means \"the train is cancelled\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Försenad» значит «задерживается/опаздывает», а не «отменён».",
+        "en": "\"Försenad\" means \"delayed\", not \"cancelled\"."
+      }
+    },
+    {
+      "id": "q-transport-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "En ___, tack. (билет)" },
+      "answer": ["biljett"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-transport-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты слышишь в динамиках метро: «Dörrarna stängs». Что нужно сделать?",
+        "en": "You hear in the metro speakers: \"Dörrarna stängs\". What should you do?"
+      },
+      "choices": ["Отойти от дверей", "Купить билет", "Выйти на следующей", "Сесть в поезд"],
+      "answer": 0
+    }
+  ]
+}
