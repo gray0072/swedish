@@ -7,6 +7,8 @@ metro. A static, backend-free web app: every lesson is short (5 minutes), every 
 from a large question pool, and every reward is spendable in a city-building game layered on
 top. Full product spec: [SPEC.md](SPEC.md) (English) / [SPEC_ru.md](SPEC_ru.md)
 (Russian) — those two files are the authoritative design spec for this project.
+Lesson-topic plan per level: [CURRICULUM.md](CURRICULUM.md) (Russian) — start here when
+picking what content to write next. Outstanding work: [TODO.md](TODO.md) (Russian).
 Development log: [CHANGELOG.md](CHANGELOG.md) (Russian).
 
 ## Features
@@ -88,17 +90,10 @@ tests/                   Vitest unit tests
 
 ## Roadmap
 
-- [x] SFI A/B (3 lessons each) — SFI C/D still empty
-- [x] Grund 1–4 (3 lessons each)
-- [x] TTS voice picker in Settings
-- [x] Illustrated city map
-- [x] `/grammar` reference articles
-- [x] PWA / offline support
-- [x] Wire history-card vocabulary into the SRS review deck
-- [x] Achievements and a shareable result card
-- [ ] Additional question types in more lessons (listening dictation, pronunciation practice)
-- [ ] B1+ CEFR content
-- [ ] Proper 192/512 PNG app icons (the manifest currently reuses the SVG favicon)
+Moved to dedicated files so they don't drift out of sync with two copies: outstanding
+work (features, content gaps, tech debt, known SPEC/code discrepancies) is tracked in
+[TODO.md](TODO.md); the lesson-by-lesson content plan per level is in
+[CURRICULUM.md](CURRICULUM.md).
 
 ## License
 
