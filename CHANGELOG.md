@@ -1,233 +1,262 @@
-# Журнал разработки
+# Development log
 
-Что уже сделано в проекте, в хронологическом порядке. Новые записи добавляются **в конец**
-файла. Это рабочий журнал для нас двоих, а не публичный changelog с версиями — если нужен
-такой, его можно собрать из этого файла позже.
+What has already been done in the project, in chronological order. New entries are added
+**at the end** of the file. This is a working log for the two of us, not a public,
+versioned changelog — if one is ever needed, it can be assembled from this file later.
 
 ---
 
-## 2026-09-04 — Замысел и техзадание
+## 2026-09-04 — Concept and spec
 
-- Обсудили концепцию: сайт для изучения шведского на GitHub Pages, темы по уровням
-  (SFI kurs A–D, затем SVA grund delkurs 1–4), в каждой теме короткая теория/слова + тест из 10
-  вопросов от пула ~100, плюс геймификация — очки тратятся на застройку Стокгольма от
-  племени до наших дней.
-- Написаны **PROMPT.md** и **PROMPT_ru.md** (позже переименованы в **SPEC.md**/**SPEC_ru.md**,
-  см. запись от того же дня ниже) — подробное техзадание: стек, структура папок, модель
-  данных контента, логика квиз-движка, формулы наград, геймификация, критерии приёмки,
-  16 дополнительных идей сверх исходного запроса.
-- Зафиксированы решения по уточняющим вопросам:
-  - имя репозитория — `swedish`, название сайта — **Swedish**;
-  - учим на **русском или английском** — один переключатель `RU/EN` в шапке меняет и
-    интерфейс, и переводы (не три языка, как предполагалось изначально);
-  - SFI — **прагматичное приближение** к официальной программе Skolverket, честно
-    промаркированное в интерфейсе;
-  - урок — **не длиннее 5 минут**, иначе делится на пронумерованные части.
-- Добавлены два больших раздела по запросу «шведский нац. стиль + викинги/история»:
-  - **визуальный стиль** — северный функционализм (funkis) на всей учебной поверхности,
-    фолк Даларны (далекарлийская лошадка, курбитс) и резьба эпохи викингов (младший футарк,
-    змеиная лента) только в городе; палитра, типографика, правила («никогда не украшай
-    тест», «никаких рогатых шлемов»);
-  - **историческая тема** — 6 эпох города опираются на проверенные факты (Бирка, ~2500
-    рунных камней в Упланде, первое упоминание Стокгольма в 1252 году, гибель «Васы» в 1628,
-    метро-галерея), с явными правилами точности и мифами, которые сознательно не используются.
+- Discussed the concept: a site for learning Swedish on GitHub Pages, topics by level
+  (SFI kurs A–D, then SVA grund delkurs 1–4), each topic with short theory/vocabulary
+  plus a 10-question test drawn from a pool of ~100, and gamification on top — points are
+  spent on building up Stockholm from a tribal settlement to the present day.
+- Wrote **PROMPT.md** and **PROMPT_ru.md** (later renamed to **SPEC.md**/**SPEC_ru.md**,
+  see the entry from the same day below) — a detailed spec: stack, folder structure,
+  content data model, quiz engine logic, reward formulas, gamification, acceptance
+  criteria, and 16 extra ideas beyond the original request.
+- Settled the open questions:
+  - repository name — `swedish`, site name — **Swedish**;
+  - we teach **in Russian or English** — a single `RU/EN` switch in the header changes
+    both the interface and the translations (not three languages, as first assumed);
+  - SFI is a **pragmatic approximation** of the official Skolverket programme, labelled
+    honestly in the interface;
+  - a lesson is **no longer than 5 minutes**, otherwise it is split into numbered parts.
+- Added two large sections on request ("Swedish national style + vikings/history"):
+  - **visual style** — Nordic functionalism (funkis) across the whole learning surface,
+    Dalarna folk art (the Dala horse, kurbits) and viking-age carving (Younger Futhark,
+    the serpent band) only in the city; palette, typography, rules ("never decorate a
+    quiz", "no horned helmets");
+  - **historical theme** — the city's 6 eras rest on verified facts (Birka, ~2,500 rune
+    stones in Uppland, the first mention of Stockholm in 1252, the sinking of the *Vasa*
+    in 1628, the metro gallery), with explicit accuracy rules and a list of myths that are
+    deliberately not used.
 
-## 2026-09-04 — Реализация v1
+## 2026-09-04 — v1 implementation
 
-- Собран рабочий каркас с нуля: **Vite + React 18 + TypeScript (strict) + Tailwind +
-  Zustand + Zod + React Router (HashRouter) + Vitest**.
-- **Контент-пайплайн**: `content/` как данные без кода, автозагрузка через
-  `import.meta.glob`, Zod-схемы, генераторы вопросов из словаря (15–20 слов → 70–100+
-  вопросов: sv↔ru/en, ввод текста, аудирование, артикль en/ett, множественное число).
-- **Квиз-движок**: детерминированный ГПСЧ (mulberry32) для воспроизводимости, взвешенная
-  выборка без повтора вопросов между прогонами, 7 типов вопросов (mc, type-answer, gap,
-  order, match, listen, true-false), one-retry-per-run, формулы XP/монет из SPEC.md §6.3.
-- **Геймификация**: 6 эпох, 22 здания с реальными историческими фактами, 5 исторических
-  карточек с источниками, 8 типов бонусов, SRS-повторение на коробках Лейтнера.
-- **Прочее**: RU/EN-переключатель, тёмная тема, экспорт/импорт сейва, 3 демо-урока начального уровня
-  (приветствия, числа 0–20, семья).
-- **Проверка качества**: 32 юнит-теста (движок, грейдинг, выборка, генераторы, SRS),
-  скрипт валидации контента (`npm run validate`), GitHub Actions (`validate.yml`,
+- Built a working skeleton from scratch: **Vite + React 18 + TypeScript (strict) +
+  Tailwind + Zustand + Zod + React Router (HashRouter) + Vitest**.
+- **Content pipeline**: `content/` as data without code, auto-loaded through
+  `import.meta.glob`, Zod schemas, question generators from vocabulary (15–20 words →
+  70–100+ questions: sv↔ru/en, typing, listening, en/ett article, plural).
+- **Quiz engine**: a deterministic PRNG (mulberry32) for reproducibility, weighted
+  selection without repeating questions between runs, 7 question types (mc, type-answer,
+  gap, order, match, listen, true-false), one retry per run, XP/coin formulas from
+  SPEC.md §6.3.
+- **Gamification**: 6 eras, 22 buildings with real historical facts, 5 history cards with
+  sources, 8 bonus types, SRS review on Leitner boxes.
+- **Other**: RU/EN switch, dark theme, save export/import, 3 demo lessons at the starting
+  level (greetings, numbers 0–20, family).
+- **Quality checks**: 32 unit tests (engine, grading, selection, generators, SRS), a
+  content validation script (`npm run validate`), GitHub Actions (`validate.yml`,
   `deploy.yml`).
-- e2e-проверка через headless Chromium (playwright) выявила и позволила исправить
-  реальный баг: несколько Zustand-селекторов (`usePreviousRunQuestionIds`,
-  `useCityBuildingLevels`) возвращали новый массив/объект на каждый вызов (`?? []`,
-  инлайн-сборка объекта) — это триггерило бесконечный ре-рендер через
-  `useSyncExternalStore`. Исправлено стабильными ссылками и `useMemo`.
+- An e2e check through headless Chromium (Playwright) exposed and let us fix a real bug:
+  several Zustand selectors (`usePreviousRunQuestionIds`, `useCityBuildingLevels`)
+  returned a new array/object on every call (`?? []`, an inline object literal), which
+  triggered an infinite re-render through `useSyncExternalStore`. Fixed with stable
+  references and `useMemo`.
 
-## 2026-09-04 — Чек-лист GitHub Pages и переименование в SPEC
+## 2026-09-04 — GitHub Pages checklist and the rename to SPEC
 
-- Прогнан личный чек-лист пользователя (skill `github-pages`). Часть правил применена
-  (README переписан на английском с live-ссылкой первой строкой, добавлен `LICENSE` MIT,
-  `gh-pages` + `predeploy`/`deploy` как ручная альтернатива деплою), часть — осознанно
-  пропущена с объяснением (отдельный `SPEC.md` не создавался как дубликат — эту роль уже
-  играл `PROMPT.md`; workflow оставлен на `actions/deploy-pages`, а не `peaceiris/gh-pages`,
-  как уже протестированный и более современный вариант). Правила про MUI пропущены как
-  неприменимые (проект на Tailwind).
-- По запросу `PROMPT.md`/`PROMPT_ru.md` переименованы в **SPEC.md**/**SPEC_ru.md** —
-  обновлены все перекрёстные ссылки и упоминания в комментариях кода.
+- Ran the user's personal checklist (the `github-pages` skill). Some rules were applied
+  (README rewritten in English with the live link on the first line, an MIT `LICENSE`
+  added, `gh-pages` + `predeploy`/`deploy` as a manual alternative to the deployment),
+  some were deliberately skipped with an explanation (no separate `SPEC.md` was created as
+  a duplicate — `PROMPT.md` already played that role; the workflow was left on
+  `actions/deploy-pages` rather than `peaceiris/gh-pages`, as the already tested and more
+  modern option). The MUI rules were skipped as not applicable (the project uses Tailwind).
+- On request, `PROMPT.md`/`PROMPT_ru.md` were renamed to **SPEC.md**/**SPEC_ru.md** — all
+  cross-references and mentions in code comments were updated.
 
-## 2026-09-04 — Первый деплой
+## 2026-09-04 — First deployment
 
-- Обнаружено, что код уже был закоммичен (два коммита: «Spec», «A1») — запушено в
+- Found that the code had already been committed (two commits: "Spec", "A1") — pushed to
   `gray0072/swedish`.
-- Workflow `Validate` прошёл сразу; `Deploy to GitHub Pages` упал на шаге
-  `actions/deploy-pages@v4`, потому что Pages ещё ни разу не включали для репозитория.
-  Пользователь включил **Settings → Pages → Source: GitHub Actions**; после этого пустой
-  коммит перезапустил деплой — прошёл успешно.
-- Сайт живой: **https://gray0072.github.io/swedish/** — проверено через headless Chromium
-  (главная, город, повторение, настройки, переключение RU/EN — без ошибок в консоли).
+- The `Validate` workflow passed right away; `Deploy to GitHub Pages` failed at the
+  `actions/deploy-pages@v4` step because Pages had never been enabled for the repository.
+  The user enabled **Settings → Pages → Source: GitHub Actions**; after that an empty
+  commit restarted the deployment, which succeeded.
+- The site is live: **https://gray0072.github.io/swedish/** — verified through headless
+  Chromium (home, city, review, settings, RU/EN switching — no console errors).
 
-## 2026-09-05 — Больше уроков начального уровня
+## 2026-09-05 — More beginner lessons
 
-- Добавлено 5 новых базовых уроков: дни недели (+ культурная привязка к скандинавским богам —
-  Тюр/Один/Тор/Фрейя в названиях дней), цвета (склонение прилагательных en/ett/мн.ч.),
-  настоящее время глаголов (14 глаголов, включая vara/kunna), еда и напитки (исчисляемые
-  vs неисчисляемые существительные, культура fika), время суток (dygn, связь с уроком
-  приветствий). Итого стало **8 базовых уроков**, curriculum-плейлист уровня обновлён.
-- Найден и исправлен ещё один реальный баг: при переходе из квиза одного урока в квиз
-  другого клиентской навигацией (без полной перезагрузки) `QuizRunner` не пересоздавал
-  сессию — вопросы оставались от предыдущего урока, потому что ленивый `useState`-
-  инициализатор выполняется только при монтировании компонента. Исправлено добавлением
-  `key={lesson.meta.id}` в `QuizPage`, чтобы React пересоздавал компонент при смене урока.
-- Прогнаны typecheck, 32 теста, валидация контента (8 уроков, 22 здания), сборка,
-  визуальный e2e-смоук всех новых уроков и их квизов — без ошибок. Закоммичено двумя
-  коммитами (баг-фикс отдельно от контента), запушено, CI зелёный, деплой проверен.
+- Added 5 new basic lessons: days of the week (plus the cultural link to the Norse gods —
+  Tyr/Odin/Thor/Freya in the day names), colours (adjective agreement for en/ett/plural),
+  present tense of verbs (14 verbs, including vara/kunna), food and drinks (countable vs
+  uncountable nouns, fika culture), times of day (dygn, tied to the greetings lesson).
+  That makes **8 basic lessons**; the level's curriculum playlist was updated.
+- Found and fixed another real bug: navigating from one lesson's quiz to another's via
+  client-side navigation (without a full reload), `QuizRunner` did not recreate the
+  session — the questions stayed from the previous lesson, because a lazy `useState`
+  initializer only runs when the component mounts. Fixed by adding
+  `key={lesson.meta.id}` in `QuizPage` so React recreates the component when the lesson
+  changes.
+- Ran typecheck, 32 tests, content validation (8 lessons, 22 buildings), the build, and a
+  visual e2e smoke test of all the new lessons and their quizzes — no errors. Committed in
+  two commits (the bug fix separately from the content), pushed, CI green, deployment
+  verified.
 
-## 2026-09-05 — Всё остальное, кроме контента
+## 2026-09-05 — Everything except content
 
-По запросу «делаем остальное кроме контента» закрыт весь нетекстовый roadmap разом:
+On the request "let's do the rest except content", the whole non-text roadmap was closed
+in one go:
 
-- **Иллюстрированная карта города** — вместо сетки карточек: постоянная береговая линия
-  Меларена и остров Стадсхольмен (тонируются по палитре эпохи, форма не меняется — SPEC
-  §11.5), здания — плоские SVG-пиктограммы (15 иконок) на реальных координатах из
-  `buildings.json`, клик по маркеру скроллит к карточке покупки.
-- **Орнамент** — далекарлийская лошадка-маскот (используется как спиннер загрузки и в
-  пустых состояниях), разделитель-курбитс, рамка эпохи из «змеиной ленты» вокруг
-  заголовка — всё только на экранах города, тест по-прежнему без украшений (SPEC §11.1).
-- **Слова из исторических карточек — в SRS.** `vocab` в `content/history/*.json` теперь
-  полноценные переводы `{sv, ru, en}` вместо голых строк; при прочтении карточки её слова
-  превращаются в настоящие вопросы (дистракторы — из словаря всех карточек) и уходят в
-  колоду повторений с `dueAt` = сейчас.
-- **`/grammar`** — три справочные статьи (порядок слов и правило V2, артикли en/ett,
-  группы глаголов 1–4), без тестов и XP — чистая справка.
-- **Достижения** — 9 штук, условия (слов выучено, серия дней, все уроки пройдены, эпоха
-  достигнута, зданий построено) считаются на лету из уже существующей статистики, а не
-  хранятся отдельно — не могут разойтись с реальными цифрами. Показаны на `/stats`.
-- **Шаринг результата** — canvas-открытка (не HTML/DOM-скриншот) на идеальном прохождении:
-  Web Share API на мобильных, скачивание PNG как запасной вариант.
-- **PWA/офлайн** — `vite-plugin-pwa`, service worker кеширует приложение и весь JSON
-  контента; проверено вручную — сайт открывается в собранной сборке при полностью
-  отключённой сети.
-- **Code-splitting** — все страницы на `React.lazy` + `Suspense` (с той же лошадкой как
-  индикатор загрузки). Главный чанк упал с 560 КБ до 253 КБ, предупреждение Vite о
-  размере чанка исчезло.
-- Обнаружены и исправлены **два реальных бага** при e2e-проверке:
-  1. В `/review` сгенерированные вопросы с выбором ответа не проходили через
-     перемешивание вариантов — правильный ответ всегда был пунктом №1, повторение
-     превращалось в угадайку. Раньше это работало правильно только в обычном тесте
-     урока (`QuizRunner`), потому что только там вызывался `prepareQuestion`.
-  2. В markdown-статьях (теория уроков, `/grammar`) заголовки не отличались по размеру от
-     текста — `prose`-классы использовались без установленного `@tailwindcss/typography`;
-     заодно всплыл второй слой той же проблемы — блок ```example` рендерился внутри
-     стандартного `<pre>`, которому плагин типографики даёт тёмный фон кодового блока.
-- Прогнаны typecheck, 39 тестов, валидация контента, prod-сборка, e2e на живом
-  собранном билде (включая офлайн-режим). Закоммичено 7 коммитами по фичам, запушено,
-  CI и деплой зелёные.
+- **Illustrated city map** — instead of a grid of cards: a permanent Mälaren shoreline and
+  the island of Stadsholmen (tinted to the era palette, the shape never changes — SPEC
+  §11.5), buildings as flat SVG pictograms (15 icons) at the real coordinates from
+  `buildings.json`, clicking a marker scrolls to the purchase card.
+- **Ornament** — the Dala horse mascot (used as the loading spinner and in empty states),
+  a kurbits divider, an era frame made of the "serpent band" around the heading — all only
+  on the city screens; the quiz still has no decoration (SPEC §11.1).
+- **Words from history cards feed the SRS.** `vocab` in `content/history/*.json` is now
+  proper `{sv, ru, en}` translations instead of bare strings; when a card is read, its
+  words turn into real questions (distractors come from the vocabulary of all cards) and
+  go into the review deck with `dueAt` = now.
+- **`/grammar`** — three reference articles (word order and the V2 rule, the en/ett
+  articles, verb groups 1–4), without tests or XP — pure reference.
+- **Achievements** — 9 of them; the conditions (words learned, day streak, all lessons
+  completed, era reached, buildings built) are computed on the fly from statistics that
+  already exist rather than stored separately, so they cannot drift from the real numbers.
+  Shown on `/stats`.
+- **Result sharing** — a canvas postcard (not an HTML/DOM screenshot) on a perfect run:
+  the Web Share API on mobile, a PNG download as a fallback.
+- **PWA/offline** — `vite-plugin-pwa`, a service worker caching the app and all content
+  JSON; verified by hand — the site opens from the production build with networking fully
+  disabled.
+- **Code splitting** — every page on `React.lazy` + `Suspense` (with the same horse as the
+  loading indicator). The main chunk dropped from 560 KB to 253 KB, and Vite's chunk-size
+  warning is gone.
+- **Two real bugs** were found and fixed during the e2e check:
+  1. In `/review`, generated multiple-choice questions did not go through option
+     shuffling — the correct answer was always item #1, which turned review into a
+     guessing game. This had only worked correctly in a regular lesson test
+     (`QuizRunner`), because that was the only place calling `prepareQuestion`.
+  2. In markdown articles (lesson theory, `/grammar`), headings were the same size as the
+     body text — the `prose` classes were used without `@tailwindcss/typography` being
+     installed; that also surfaced a second layer of the same problem — the `example`
+     fenced block rendered inside a standard `<pre>`, which the typography plugin gives a
+     dark code-block background.
+- Ran typecheck, 39 tests, content validation, the production build, e2e against the live
+  built bundle (including offline mode). Committed in 7 commits by feature, pushed, CI and
+  deployment green.
 
-## 2026-09-05 — Выбор голоса озвучки, английский по умолчанию, ещё три урока
+## 2026-09-05 — Voice selection for TTS, English by default, three more lessons
 
-- **Выбор голоса TTS в настройках.** `lib/tts.ts` теперь фильтрует список голосов
-  браузера до sv-SE и хранит выбор пользователя (`voiceURI`) в сторе; при отсутствии
-  выбора или несовпадении на другом устройстве — автовыбор первого доступного шведского
-  голоса, как раньше. В UI — выпадающий список + кнопка «Прослушать» с тестовой фразой;
-  если шведских голосов не установлено вообще — показывается подсказка, как их
-  добавить (Windows Settings / перезапуск Chrome). Провалидировано плейрайтом с
-  подменённым `speechSynthesis.getVoices` (переопределение метода, а не всего объекта —
-  `speechSynthesis` в реальном браузере доступен только для чтения целиком) — список
-  голосов фильтруется правильно, выбор переживает перезагрузку страницы.
-- **Дефолтный язык обучения — английский** (был русский). Изменено и в `freshSave()`,
-  и в SPEC.md/SPEC_ru.md (раздел 0 и §10) — таблица зафиксированных решений обновлена,
-  чтобы не разъезжаться с реальным поведением.
-- **Ещё 3 урока**: «Одежда» (kläder, с объяснением почему
-  byxor/glasögon всегда во множественном числе — как pants/glasses в английском),
-  «Погода» (väder, безличное «det regnar»/«det snöar»), «Общественный транспорт»
-  (kollektivtrafik — сознательно перекликается с фразами из исторической карточки
-  метро «Nästa station» / «Dörrarna stängs», добавленной в прошлой сессии). По 16–18
-  слов, полный набор форм там, где я уверен в правильности (там, где не уверен —
-  оставил `forms: null`, а не гадал), генераторы + по 6 ручных вопросов на урок
-  (order/match/true-false/gap/mc). Curriculum-плейлисты уровней обновлены.
-- Миграция сохранения проверена на синтетическом старом сейве без `settings.ttsVoice` —
-  `migrateSave` докидывает `null` вместо падения в `freshSave()`.
-- Прогнаны typecheck, 39 тестов, валидация контента (11 уроков), визуальная проверка
-  плейрайтом (уровень → урок → квиз, настройки → выбор голоса). Закоммичено 3
-  коммитами (голос, спека, контент).
+- **TTS voice selection in settings.** `lib/tts.ts` now filters the browser's voice list
+  down to sv-SE and stores the user's choice (`voiceURI`) in the store; with no choice, or
+  a mismatch on another device, it falls back to auto-selecting the first available
+  Swedish voice as before. The UI has a dropdown plus a "Play" button with a test phrase;
+  if no Swedish voices are installed at all, a hint explains how to add them (Windows
+  Settings / restarting Chrome). Validated with Playwright using a stubbed
+  `speechSynthesis.getVoices` (overriding the method, not the whole object —
+  `speechSynthesis` is entirely read-only in a real browser) — the voice list filters
+  correctly and the choice survives a page reload.
+- **The default learning language is English** (it was Russian). Changed both in
+  `freshSave()` and in SPEC.md/SPEC_ru.md (section 0 and §10) — the table of settled
+  decisions was updated so it does not drift from the actual behaviour.
+- **3 more lessons**: "Clothing" (kläder, with an explanation of why byxor/glasögon are
+  always plural — like pants/glasses in English), "Weather" (väder, the impersonal "det
+  regnar"/"det snöar"), and "Public transport" (kollektivtrafik — deliberately echoing the
+  phrases from the metro history card, "Nästa station" / "Dörrarna stängs", added in the
+  previous session). 16–18 words each, a full set of forms wherever I am confident they
+  are right (where I was not, I left `forms: null` rather than guessing), generators plus
+  6 hand-written questions per lesson (order/match/true-false/gap/mc). The levels'
+  curriculum playlists were updated.
+- The save migration was verified against a synthetic old save without
+  `settings.ttsVoice` — `migrateSave` fills in `null` instead of falling back to
+  `freshSave()`.
+- Ran typecheck, 39 tests, content validation (11 lessons), a visual check with Playwright
+  (level → lesson → quiz, settings → voice selection). Committed in 3 commits (voice,
+  spec, content).
 
-## 2026-09-05 — 15 уроков разом: 5 параллельных агентов
+## 2026-09-05 — 15 lessons at once: 5 parallel agents
 
-Контекст сессии разросся, поэтому контент дописывали 5 параллельных фоновых агентов —
-по одному на уровень, каждый с самодостаточным брифом (точная Zod-схема из
-`schema.ts`, эталонный урок `sfi-c/transport` как образец, конкретные темы, правило
-«не уверен в форме слова — не пиши её»), без доступа к истории этой сессии.
+The session's context had grown large, so the content was written by 5 parallel background
+agents — one per level, each with a self-contained brief (the exact Zod schema from
+`schema.ts`, the reference lesson `sfi-c/transport` as a model, the specific topics, and
+the rule "if you are not sure of a word form, do not write it"), with no access to this
+session's history.
 
-- Тело (kroppen), Дом (hemma, комнаты и мебель), Животные (djur).
-- Деньги и цены (числа 20–100 — раньше их не было нигде, только 0–20),
-  Здоровье/визит к врачу, Профессии.
-- Жильё и аренда, Госучреждения и бланки (personnummer, Skatteverket,
-  Försäkringskassan), Эмоции.
-- Алфавит (с явным акцентом на å/ä/ö как отдельные буквы в конце алфавита,
-  а не «декорированные» a/o), Личные данные (анкета), Точное время по часам (halv/kvart/
-  över/i — включая явное объяснение того, что «halv nio» значит 8:30, а не 9:30 —
-  типичная ловушка для новичков).
-- Семья и отношения (глубже `sfi-b/family`: статус в браке, родственники со
-  стороны супруга, близнецы), Запись на приём (boka tid), Готовка (глаголы варить/
-  жарить/резать/чистить + кухонная утварь).
+- Body (kroppen), Home (hemma, rooms and furniture), Animals (djur).
+- Money and prices (numbers 20–100 — they did not exist anywhere before, only 0–20),
+  Health/a visit to the doctor, Professions.
+- Housing and renting, Government agencies and forms (personnummer, Skatteverket,
+  Försäkringskassan), Emotions.
+- The alphabet (with explicit emphasis on å/ä/ö as separate letters at the end of the
+  alphabet, not "decorated" a/o), Personal details (a form), Telling the time
+  (halv/kvart/över/i — including an explicit explanation that "halv nio" means 8:30, not
+  9:30, a classic beginner trap).
+- Family and relationships (deeper than `sfi-b/family`: marital status, in-laws, twins),
+  Booking an appointment (boka tid), Cooking (verbs for boiling/frying/cutting/peeling
+  plus kitchen utensils).
 
-Итого 15 новых уроков, все файлы каждого агента изолированы (свой уровень, свой
-curriculum-файл) — конфликтов между агентами не было, `git status` после всех пяти
-показал только новые файлы, ни одного пересечения.
+15 new lessons in total; every agent's files were isolated (its own level, its own
+curriculum file) — there were no conflicts between agents, and `git status` after all five
+showed only new files, with no overlap at all.
 
-- Проверено вручную: числа 20–100, объяснение halv/kvart для времени, формы слов в
-  паре уроков (bokstav→bokstäver, öga→ögon и т.п. — агенты сами предпочли не угадывать
-  там, где не уверены, и оставляли `forms` пустыми).
-- Финальная сквозная проверка после всех агентов: typecheck, 39 тестов, валидация
-  контента (26 уроков, 0 ошибок), визуальный e2e по одному уроку с каждого уровня
-  (урок → квиз, без ошибок консоли), обзор `/tracks` — счётчики уроков сходятся.
-  Закоммичено 5 коммитами (по уровню).
+- Checked by hand: numbers 20–100, the halv/kvart explanation for telling the time, and
+  word forms in a couple of lessons (bokstav→bokstäver, öga→ögon and so on — the agents
+  themselves preferred not to guess where they were unsure and left `forms` empty).
+- Final end-to-end check after all the agents: typecheck, 39 tests, content validation
+  (26 lessons, 0 errors), a visual e2e run through one lesson from each level (lesson →
+  quiz, no console errors), a review of `/tracks` — the lesson counters add up. Committed
+  in 5 commits (one per level).
 
 ---
 
-## 2026-09-05 — Уровни приведены к шведской системе, грамматика по уровням
+## 2026-09-05 — Levels aligned with the Swedish system, grammar per level
 
-Уровни в проекте теперь называются и выстроены так же, как в шведском образовании, и
-идут одной лестницей:
+The project's levels are now named and arranged the way Swedish education does it, in a
+single ladder:
 
 ```
-SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  SVA 1 (гимназический)
+SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  SVA 1 (upper secondary)
 ```
 
-- **Два трека вместо трёх.** `sfi` (kurs A–D) и `sva-grund` (delkurs 1–4, курс komvux
-  на 700 poäng = 100/200/200/200 p, вход после SFI kurs D, выход — behörighet к
-  гимназическому `SVA 1`). Отдельного трека по CEFR больше нет: ориентир по CEFR
-  остался только подписью в скобках у названия уровня.
-- **Один урок — один уровень.** Кросс-тегов больше нет: имя папки, `id` и единственный
-  элемент `levels` всегда совпадают. `scripts/validate-content.ts` теперь это проверяет,
-  плюс проверяет, что каждый `prerequisites` указывает на существующий урок.
-- **Все 26 уроков перераспределены по SFI kurs A–D** — по формату это лексические и
-  фразовые уроки, то есть SFI-шные: kurs A — 9 (алфавит, приветствия, числа, личные
-  данные, дни недели, цвета, части суток, часы, тело), kurs B — 9 (семья и отношения,
-  дом, животные, одежда, погода, еда, готовка, настоящее время), kurs C — 5 (транспорт,
-  деньги, здоровье, запись на приём, профессии), kurs D — 3 (жильё, госучреждения,
-  эмоции). `order` и `prerequisites` перенумерованы под новую последовательность.
-- **Уровни SVA пока пусты намеренно:** их урок — это работа с текстом (referat,
-  аргументация, källkritik), а такого формата урока в проекте ещё нет.
-- **К каждому из 8 уровней — по 20 пунктов грамматики** (160 позиций в `CURRICULUM.md`),
-  сквозной прогрессией: на SFI грамматика даётся готовыми образцами без терминов, на
-  SVA delkurs 1 систематизируется с метаязыком, к delkurs 4 доходит до компрессии
-  придаточных, хеджирования и языковой правки.
-- `TracksPage` больше не хардкодит примечание под треком SFI: рендерит `track.note` из
-  `tracks.json` для любого трека, так что у трека SVA теперь тоже своя пометка.
-  Неиспользуемый ключ `tracks.sfi.note` убран из обеих локалей.
-- Побочный эффект переезда: `id` уроков изменились, поэтому прогресс и SRS-колода в
-  localStorage у существующих сейвов не совпадут со старыми записями.
-- Проверка: typecheck, 39 тестов, валидация контента (26 уроков, 0 ошибок), сборка.
+- **Two tracks instead of three.** `sfi` (kurs A–D) and `sva-grund` (delkurs 1–4, a komvux
+  course of 700 poäng = 100/200/200/200 p, entered after SFI kurs D, exiting with
+  behörighet for the upper-secondary `SVA 1`). There is no separate CEFR track any more:
+  the CEFR reference point survives only as a parenthetical under the level name.
+- **One lesson, one level.** No more cross-tagging: the folder name, the `id` and the
+  single element of `levels` always match. `scripts/validate-content.ts` now checks this,
+  and also checks that every `prerequisites` entry points at an existing lesson.
+- **All 26 lessons were redistributed across SFI kurs A–D** — by format they are
+  vocabulary and phrase lessons, which makes them SFI material: kurs A — 9 (alphabet,
+  greetings, numbers, personal details, days of the week, colours, times of day, the
+  clock, the body), kurs B — 9 (family and relationships, home, animals, clothing,
+  weather, food, cooking, present tense), kurs C — 5 (transport, money, health, booking an
+  appointment, professions), kurs D — 3 (housing, government agencies, emotions). `order`
+  and `prerequisites` were renumbered for the new sequence.
+- **The SVA levels are deliberately empty for now:** a lesson there is work with a text
+  (referat, argumentation, källkritik), and the project has no such lesson format yet.
+- **20 grammar points for each of the 8 levels** (160 entries in `CURRICULUM.md`), with a
+  progression running through them: at SFI, grammar is given as ready-made patterns
+  without terminology; at SVA delkurs 1 it is systematised with metalanguage; by delkurs 4
+  it reaches clause compression, hedging and language editing.
+- `TracksPage` no longer hardcodes the note under the SFI track: it renders `track.note`
+  from `tracks.json` for any track, so the SVA track now has its own note too. The unused
+  `tracks.sfi.note` key was removed from both locales.
+- A side effect of the move: lesson `id`s changed, so progress and the SRS deck in
+  localStorage of existing saves will not match the old entries.
+- Checks: typecheck, 39 tests, content validation (26 lessons, 0 errors), the build.
+
+## 2026-09-05 — English as the primary language of the project
+
+- **`AGENTS.md`** added: the repository's working agreements, with the language rule as
+  the main entry — English is the primary language of every document and of the
+  interface, a Russian translation lives next to the original under the `_ru` suffix, and
+  the two must be updated in the same commit. `CLAUDE.md` is a short pointer to it.
+- **The rule was applied to the existing documents.** `TODO.md`, `CHANGELOG.md` and
+  `CURRICULUM.md` were Russian under suffix-less names: the Russian text moved to
+  `TODO_ru.md`, `CHANGELOG_ru.md` and `CURRICULUM_ru.md` (through `git mv`, so the history
+  follows), and English translations now hold the canonical names. `SPEC.md`/`SPEC_ru.md`
+  were already a correct pair. Cross-references were rewired: English documents link to
+  English ones, Russian to Russian.
+- **Interface.** `src/i18n/index.ts` now derives the key type from `en.json`
+  (`type Key = keyof typeof en`) instead of `ru.json`, so English is the source of truth
+  for the key set; `ru.json` is a translation and must carry the same keys. Both locales
+  already had the same 116 keys, and the default language in `persist.ts` was already
+  `en`, so nothing changed at runtime.
+- Checks: typecheck, 39 tests, content validation (26 lessons, 0 errors).

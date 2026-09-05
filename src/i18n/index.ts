@@ -1,9 +1,11 @@
-import ru from './locales/ru.json';
 import en from './locales/en.json';
+import ru from './locales/ru.json';
 import { useLanguage } from '@/store/settings';
 
-const dictionaries = { ru, en } as const;
-type Key = keyof typeof ru;
+const dictionaries = { en, ru } as const;
+// English is the primary language of the project (see AGENTS.md): en.json defines the
+// key set, and ru.json is a translation that must carry exactly the same keys.
+type Key = keyof typeof en;
 
 function format(template: string, vars?: Record<string, string | number>): string {
   if (!vars) return template;

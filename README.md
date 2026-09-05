@@ -5,11 +5,14 @@
 Learn Swedish and build the city of Stockholm — from a prehistoric settlement to the modern
 metro. A static, backend-free web app: every lesson is short (5 minutes), every test is drawn
 from a large question pool, and every reward is spendable in a city-building game layered on
-top. Full product spec: [SPEC.md](SPEC.md) (English) / [SPEC_ru.md](SPEC_ru.md)
-(Russian) — those two files are the authoritative design spec for this project.
-Lesson-topic plan per level: [CURRICULUM.md](CURRICULUM.md) (Russian) — start here when
-picking what content to write next. Outstanding work: [TODO.md](TODO.md) (Russian).
-Development log: [CHANGELOG.md](CHANGELOG.md) (Russian).
+top. Full product spec: [SPEC.md](SPEC.md) — the authoritative design spec for this
+project. Lesson-topic plan per level: [CURRICULUM.md](CURRICULUM.md) — start here when
+picking what content to write next. Outstanding work: [TODO.md](TODO.md).
+Development log: [CHANGELOG.md](CHANGELOG.md). Contributor conventions:
+[AGENTS.md](AGENTS.md). Every one of these documents has a Russian translation next to it
+under the `_ru` suffix ([SPEC_ru.md](SPEC_ru.md), [CURRICULUM_ru.md](CURRICULUM_ru.md),
+[TODO_ru.md](TODO_ru.md), [CHANGELOG_ru.md](CHANGELOG_ru.md)); English is the primary
+version.
 
 ## Features
 
