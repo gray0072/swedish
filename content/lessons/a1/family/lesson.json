@@ -11,7 +11,7 @@
   "tags": ["family", "nouns"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 30,
+  "order": 40,
   "prerequisites": ["a1/greetings"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

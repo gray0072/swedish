@@ -1,3 +1,12 @@
 {
-  "lessons": ["a1/greetings", "a1/numbers-0-20", "a1/family"]
+  "lessons": [
+    "a1/greetings",
+    "a1/numbers-0-20",
+    "a1/days-of-week",
+    "a1/family",
+    "a1/colors",
+    "a1/present-tense",
+    "a1/food-drinks",
+    "a1/time-of-day"
+  ]
 }

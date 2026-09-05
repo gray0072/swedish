@@ -1,0 +1,63 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-pres-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я изучаю шведский.»", "en": "Build the sentence: \"I study Swedish.\"" },
+      "tokens": ["svenska", "studerar", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-pres-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Шведский глагол в настоящем времени одинаков для «jag» и для «de».",
+        "en": "A Swedish present-tense verb is the same for \"jag\" and for \"de\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-pres-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vara» в настоящем времени — «varar».", "en": "\"Vara\" in the present tense is \"varar\"." },
+      "answer": false,
+      "explanation": { "ru": "Правильная форма — «är», это неправильный глагол.", "en": "The correct form is \"är\" — it's an irregular verb." }
+    },
+    {
+      "id": "q-pres-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ i Stockholm. (bo)" },
+      "answer": ["bor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-pres-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол с переводом", "en": "Match the verb with its translation" },
+      "pairs": [
+        ["äta", "есть, кушать"],
+        ["dricka", "пить"],
+        ["sova", "спать"],
+        ["skriva", "писать"]
+      ]
+    },
+    {
+      "id": "q-pres-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как будет «Меня зовут…»?", "en": "How do you say \"My name is...\"?" },
+      "choices": ["Jag heter…", "Jag bor…", "Jag talar…", "Jag äter…"],
+      "answer": 0
+    }
+  ]
+}

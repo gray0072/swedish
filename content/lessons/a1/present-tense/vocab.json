@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "id": "vara",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit", "imperative": "var" },
+      "example": { "sv": "Jag är trött.", "ru": "Я устал(а).", "en": "I am tired." }
+    },
+    {
+      "id": "heta",
+      "sv": "heta",
+      "translations": { "ru": "зваться", "en": "to be called" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "heta", "present": "heter", "past": "hette", "supine": "hetat" },
+      "example": { "sv": "Jag heter Anna.", "ru": "Меня зовут Анна.", "en": "My name is Anna." }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить", "en": "to live" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag bor i Stockholm.", "ru": "Я живу в Стокгольме.", "en": "I live in Stockholm." }
+    },
+    {
+      "id": "tala",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Talar du svenska?", "ru": "Ты говоришь по-шведски?", "en": "Do you speak Swedish?" }
+    },
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" }
+    },
+    {
+      "id": "skriva",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" }
+    },
+    {
+      "id": "arbeta",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" }
+    },
+    {
+      "id": "studera",
+      "sv": "studera",
+      "translations": { "ru": "учиться", "en": "to study" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "studera", "present": "studerar", "past": "studerade", "supine": "studerat" },
+      "example": { "sv": "Jag studerar svenska.", "ru": "Я изучаю шведский.", "en": "I'm studying Swedish." }
+    },
+    {
+      "id": "ata",
+      "sv": "äta",
+      "translations": { "ru": "есть, кушать", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" }
+    },
+    {
+      "id": "dricka",
+      "sv": "dricka",
+      "translations": { "ru": "пить", "en": "to drink" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dricka", "present": "dricker", "past": "drack", "supine": "druckit" }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+    },
+    {
+      "id": "gilla",
+      "sv": "gilla",
+      "translations": { "ru": "нравиться", "en": "to like" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "gilla", "present": "gillar", "past": "gillade", "supine": "gillat" },
+      "example": { "sv": "Jag gillar kaffe.", "ru": "Мне нравится кофе.", "en": "I like coffee." }
+    },
+    {
+      "id": "forsta",
+      "sv": "förstå",
+      "translations": { "ru": "понимать", "en": "to understand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" }
+    },
+    {
+      "id": "kunna",
+      "sv": "kunna",
+      "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
+      "pos": "verb",
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" }
+    }
+  ]
+}

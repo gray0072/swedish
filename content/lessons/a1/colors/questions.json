@@ -1,0 +1,63 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-colors-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Небо синее.»", "en": "Build the sentence: \"The sky is blue.\"" },
+      "tokens": ["är", "blå", "Himlen"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-colors-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь цвета с переводом", "en": "Match the colors with their translation" },
+      "pairs": [
+        ["röd", "красный"],
+        ["blå", "синий"],
+        ["grön", "зелёный"],
+        ["gul", "жёлтый"]
+      ]
+    },
+    {
+      "id": "q-colors-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Ett-форма от «röd» — «rött».", "en": "The ett-form of \"röd\" is \"rött\"." },
+      "answer": true
+    },
+    {
+      "id": "q-colors-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово «rosa» меняет форму перед ett-словами.", "en": "\"Rosa\" changes form before ett-words." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Rosa» — один из немногих цветов, которые не меняются вообще.",
+        "en": "\"Rosa\" is one of the few colors that never changes."
+      }
+    },
+    {
+      "id": "q-colors-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Gräset är ___. (зелёное)" },
+      "answer": ["grönt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-colors-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какого цвета шведский флаг (кроме жёлтого)?", "en": "What color is the Swedish flag besides yellow?" },
+      "choices": ["blå", "röd", "grön", "lila"],
+      "answer": 0
+    }
+  ]
+}

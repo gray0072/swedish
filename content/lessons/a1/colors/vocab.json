@@ -1,0 +1,19 @@
+{
+  "items": [
+    { "id": "rod", "sv": "röd", "translations": { "ru": "красный", "en": "red" }, "pos": "adj", "note": { "ru": "ett-форма: rött, мн.ч.: röda", "en": "ett-form: rött, plural: röda" }, "example": { "sv": "Bilen är röd.", "ru": "Машина красная.", "en": "The car is red." } },
+    { "id": "bla", "sv": "blå", "translations": { "ru": "синий", "en": "blue" }, "pos": "adj", "note": { "ru": "ett-форма: blått, мн.ч.: blåa", "en": "ett-form: blått, plural: blåa" }, "example": { "sv": "Himlen är blå idag.", "ru": "Небо сегодня синее.", "en": "The sky is blue today." } },
+    { "id": "gron", "sv": "grön", "translations": { "ru": "зелёный", "en": "green" }, "pos": "adj", "note": { "ru": "ett-форма: grönt, мн.ч.: gröna", "en": "ett-form: grönt, plural: gröna" }, "example": { "sv": "Gräset är grönt.", "ru": "Трава зелёная.", "en": "The grass is green." } },
+    { "id": "gul", "sv": "gul", "translations": { "ru": "жёлтый", "en": "yellow" }, "pos": "adj", "note": { "ru": "ett-форма: gult, мн.ч.: gula", "en": "ett-form: gult, plural: gula" } },
+    { "id": "vit", "sv": "vit", "translations": { "ru": "белый", "en": "white" }, "pos": "adj", "note": { "ru": "ett-форма: vitt, мн.ч.: vita", "en": "ett-form: vitt, plural: vita" } },
+    { "id": "svart", "sv": "svart", "translations": { "ru": "чёрный", "en": "black" }, "pos": "adj", "note": { "ru": "ett-форма: svart, мн.ч.: svarta", "en": "ett-form: svart, plural: svarta" } },
+    { "id": "brun", "sv": "brun", "translations": { "ru": "коричневый", "en": "brown" }, "pos": "adj", "note": { "ru": "ett-форма: brunt, мн.ч.: bruna", "en": "ett-form: brunt, plural: bruna" } },
+    { "id": "gra", "sv": "grå", "translations": { "ru": "серый", "en": "grey" }, "pos": "adj", "note": { "ru": "ett-форма: grått, мн.ч.: gråa", "en": "ett-form: grått, plural: gråa" } },
+    { "id": "rosa", "sv": "rosa", "translations": { "ru": "розовый", "en": "pink" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "orange", "sv": "orange", "translations": { "ru": "оранжевый", "en": "orange" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "lila", "sv": "lila", "translations": { "ru": "фиолетовый", "en": "purple" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "beige", "sv": "beige", "translations": { "ru": "бежевый", "en": "beige" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "turkos", "sv": "turkos", "translations": { "ru": "бирюзовый", "en": "turquoise" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "silver", "sv": "silver", "translations": { "ru": "серебристый", "en": "silver" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } },
+    { "id": "guld", "sv": "guld", "translations": { "ru": "золотой", "en": "gold" }, "pos": "adj", "note": { "ru": "не меняется по родам и числам", "en": "invariant — same in every form" } }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "morgon",
+      "sv": "morgon",
+      "translations": { "ru": "утро", "en": "morning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en morgon", "defSg": "morgonen", "indefPl": "morgnar", "defPl": "morgnarna" },
+      "example": { "sv": "Jag dricker kaffe på morgonen.", "ru": "Утром я пью кофе.", "en": "I drink coffee in the morning." }
+    },
+    {
+      "id": "formiddag",
+      "sv": "förmiddag",
+      "translations": { "ru": "первая половина дня", "en": "late morning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förmiddag", "defSg": "förmiddagen", "indefPl": "förmiddagar", "defPl": "förmiddagarna" }
+    },
+    {
+      "id": "middag",
+      "sv": "middag",
+      "translations": { "ru": "полдень; обед", "en": "midday; dinner" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en middag", "defSg": "middagen", "indefPl": "middagar", "defPl": "middagarna" }
+    },
+    {
+      "id": "eftermiddag",
+      "sv": "eftermiddag",
+      "translations": { "ru": "вторая половина дня", "en": "afternoon" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en eftermiddag", "defSg": "eftermiddagen", "indefPl": "eftermiddagar", "defPl": "eftermiddagarna" }
+    },
+    {
+      "id": "kvall",
+      "sv": "kväll",
+      "translations": { "ru": "вечер", "en": "evening" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kväll", "defSg": "kvällen", "indefPl": "kvällar", "defPl": "kvällarna" },
+      "example": { "sv": "Vi ses på kvällen.", "ru": "Увидимся вечером.", "en": "See you in the evening." }
+    },
+    {
+      "id": "natt",
+      "sv": "natt",
+      "translations": { "ru": "ночь", "en": "night" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en natt", "defSg": "natten", "indefPl": "nätter", "defPl": "nätterna" }
+    },
+    {
+      "id": "dygn",
+      "sv": "dygn",
+      "translations": { "ru": "сутки", "en": "24-hour day" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett dygn", "defSg": "dygnet", "indefPl": "dygn", "defPl": "dygnen" },
+      "example": { "sv": "Affären är öppen dygnet runt.", "ru": "Магазин открыт круглые сутки.", "en": "The shop is open around the clock." }
+    },
+    {
+      "id": "timme",
+      "sv": "timme",
+      "translations": { "ru": "час (промежуток времени)", "en": "hour" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en timme", "defSg": "timmen", "indefPl": "timmar", "defPl": "timmarna" }
+    },
+    {
+      "id": "minut",
+      "sv": "minut",
+      "translations": { "ru": "минута", "en": "minute" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en minut", "defSg": "minuten", "indefPl": "minuter", "defPl": "minuterna" }
+    },
+    {
+      "id": "sekund",
+      "sv": "sekund",
+      "translations": { "ru": "секунда", "en": "second" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sekund", "defSg": "sekunden", "indefPl": "sekunder", "defPl": "sekunderna" }
+    },
+    { "id": "nu", "sv": "nu", "translations": { "ru": "сейчас", "en": "now" }, "pos": "adv" },
+    { "id": "snart", "sv": "snart", "translations": { "ru": "скоро", "en": "soon" }, "pos": "adv" },
+    { "id": "sedan", "sv": "sedan", "translations": { "ru": "потом; назад", "en": "then; ago" }, "pos": "adv" },
+    { "id": "sen", "sv": "sen", "translations": { "ru": "поздний", "en": "late" }, "pos": "adj" },
+    { "id": "tidig", "sv": "tidig", "translations": { "ru": "ранний", "en": "early" }, "pos": "adj" }
+  ]
+}

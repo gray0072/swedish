@@ -1,0 +1,31 @@
+{
+  "items": [
+    { "id": "mandag", "sv": "måndag", "translations": { "ru": "понедельник", "en": "Monday" }, "pos": "noun", "example": { "sv": "Vi ses på måndag.", "ru": "Увидимся в понедельник.", "en": "See you on Monday." } },
+    { "id": "tisdag", "sv": "tisdag", "translations": { "ru": "вторник", "en": "Tuesday" }, "pos": "noun" },
+    { "id": "onsdag", "sv": "onsdag", "translations": { "ru": "среда", "en": "Wednesday" }, "pos": "noun" },
+    { "id": "torsdag", "sv": "torsdag", "translations": { "ru": "четверг", "en": "Thursday" }, "pos": "noun" },
+    { "id": "fredag", "sv": "fredag", "translations": { "ru": "пятница", "en": "Friday" }, "pos": "noun", "example": { "sv": "Fredag är min favoritdag.", "ru": "Пятница — мой любимый день.", "en": "Friday is my favourite day." } },
+    { "id": "lordag", "sv": "lördag", "translations": { "ru": "суббота", "en": "Saturday" }, "pos": "noun" },
+    { "id": "sondag", "sv": "söndag", "translations": { "ru": "воскресенье", "en": "Sunday" }, "pos": "noun" },
+    { "id": "idag", "sv": "idag", "translations": { "ru": "сегодня", "en": "today" }, "pos": "adv", "example": { "sv": "Vad ska vi göra idag?", "ru": "Что мы будем делать сегодня?", "en": "What are we doing today?" } },
+    { "id": "imorgon", "sv": "imorgon", "translations": { "ru": "завтра", "en": "tomorrow" }, "pos": "adv" },
+    { "id": "igar", "sv": "igår", "translations": { "ru": "вчера", "en": "yesterday" }, "pos": "adv" },
+    {
+      "id": "helg",
+      "sv": "helg",
+      "translations": { "ru": "выходные", "en": "weekend" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en helg", "defSg": "helgen", "indefPl": "helger", "defPl": "helgerna" },
+      "example": { "sv": "Vad gör du i helgen?", "ru": "Что ты делаешь на выходных?", "en": "What are you doing this weekend?" }
+    },
+    {
+      "id": "vardag",
+      "sv": "vardag",
+      "translations": { "ru": "будний день", "en": "weekday" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vardag", "defSg": "vardagen", "indefPl": "vardagar", "defPl": "vardagarna" }
+    }
+  ]
+}

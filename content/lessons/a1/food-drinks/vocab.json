@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "brod",
+      "sv": "bröd",
+      "translations": { "ru": "хлеб", "en": "bread" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bröd", "defSg": "brödet", "indefPl": "bröd", "defPl": "bröden" },
+      "example": { "sv": "Jag köper bröd varje dag.", "ru": "Я покупаю хлеб каждый день.", "en": "I buy bread every day." }
+    },
+    {
+      "id": "ost",
+      "sv": "ost",
+      "translations": { "ru": "сыр", "en": "cheese" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ost", "defSg": "osten", "indefPl": "ostar", "defPl": "ostarna" }
+    },
+    {
+      "id": "apple",
+      "sv": "äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Hon äter ett äpple.", "ru": "Она ест яблоко.", "en": "She's eating an apple." }
+    },
+    {
+      "id": "banan",
+      "sv": "banan",
+      "translations": { "ru": "банан", "en": "banana" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en banan", "defSg": "bananen", "indefPl": "bananer", "defPl": "bananerna" }
+    },
+    {
+      "id": "potatis",
+      "sv": "potatis",
+      "translations": { "ru": "картофель", "en": "potato" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en potatis", "defSg": "potatisen", "indefPl": "potatisar", "defPl": "potatisarna" }
+    },
+    {
+      "id": "fisk",
+      "sv": "fisk",
+      "translations": { "ru": "рыба", "en": "fish" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fisk", "defSg": "fisken", "indefPl": "fiskar", "defPl": "fiskarna" }
+    },
+    {
+      "id": "smor",
+      "sv": "smör",
+      "translations": { "ru": "масло", "en": "butter" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "mjolk",
+      "sv": "mjölk",
+      "translations": { "ru": "молоко", "en": "milk" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kan jag få lite mjölk?", "ru": "Можно мне немного молока?", "en": "Can I have some milk?" }
+    },
+    {
+      "id": "vatten",
+      "sv": "vatten",
+      "translations": { "ru": "вода", "en": "water" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "kaffe",
+      "sv": "kaffe",
+      "translations": { "ru": "кофе", "en": "coffee" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Ska vi fika och dricka kaffe?", "ru": "Устроим фику и выпьем кофе?", "en": "Shall we have a fika and drink coffee?" }
+    },
+    {
+      "id": "te",
+      "sv": "te",
+      "translations": { "ru": "чай", "en": "tea" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "kott",
+      "sv": "kött",
+      "translations": { "ru": "мясо", "en": "meat" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "ris",
+      "sv": "ris",
+      "translations": { "ru": "рис", "en": "rice" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "socker",
+      "sv": "socker",
+      "translations": { "ru": "сахар", "en": "sugar" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "salt",
+      "sv": "salt",
+      "translations": { "ru": "соль", "en": "salt" },
+      "pos": "noun",
+      "gender": "ett"
+    }
+  ]
+}
