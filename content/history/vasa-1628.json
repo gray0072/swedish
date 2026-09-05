@@ -8,6 +8,12 @@
     "ru": "Военный корабль «Васа» опрокинулся и затонул 10 августа 1628 года в первом же плавании, не пройдя и 1300 метров от верфи — слишком высокий и тяжёлый для своей ширины. Он пролежал на дне гавани более 300 лет и был поднят почти целым в 1961 году благодаря холодной малосолёной воде Балтики, которая защитила дерево от корабельного червя. Сегодня Vasamuseet — самый посещаемый музей Скандинавии.",
     "en": "The warship Vasa capsized and sank on 10 August 1628, on her maiden voyage, barely 1,300 metres from the shipyard — too tall and heavy for her width. She lay on the harbour floor for over 300 years and was raised nearly intact in 1961, preserved by the Baltic's cold, low-salinity water, which kept shipworms away. Today the Vasa Museum is the most visited museum in Scandinavia."
   },
-  "vocab": ["skepp", "sjunka", "bärga", "museum", "trä"],
+  "vocab": [
+    { "sv": "skepp", "ru": "корабль", "en": "ship" },
+    { "sv": "sjunka", "ru": "тонуть", "en": "to sink" },
+    { "sv": "bärga", "ru": "поднимать (со дна), спасать", "en": "to salvage" },
+    { "sv": "museum", "ru": "музей", "en": "museum" },
+    { "sv": "trä", "ru": "дерево (материал)", "en": "wood" }
+  ],
   "sources": ["Vasamuseet — Official history of the Vasa", "Statens maritima och transporthistoriska museer"]
 }

@@ -8,7 +8,13 @@
     "ru": "Бирка на острове Бьёркё в озере Меларен была одним из древнейших городов Скандинавии — торговым узлом, куда стекались серебро, меха и рабы, а взамен уходили железо и ремесленные изделия. Около 830 года сюда прибыл монах Ансгар с христианской миссией — одной из первых попыток обратить скандинавов. Это ещё не Стокгольм: город появится на этом месте только через пять веков, но именно отсюда вырос будущий регион.",
     "en": "Birka on the island of Björkö in Lake Mälaren was one of Scandinavia's earliest towns — a trading hub where silver, furs and enslaved people arrived, and iron and crafted goods went out. Around 830, the monk Ansgar arrived here on a Christian mission — one of the first attempts to convert Scandinavians. This isn't Stockholm yet: the city itself is still five centuries away, but this is the region it grew out of."
   },
-  "vocab": ["handel", "skepp", "silver", "resa", "hamn"],
+  "vocab": [
+    { "sv": "handel", "ru": "торговля", "en": "trade" },
+    { "sv": "skepp", "ru": "корабль", "en": "ship" },
+    { "sv": "silver", "ru": "серебро", "en": "silver" },
+    { "sv": "resa", "ru": "путешествие", "en": "journey" },
+    { "sv": "hamn", "ru": "гавань", "en": "harbour" }
+  ],
   "sources": [
     "UNESCO World Heritage List — Birka and Hovgården",
     "Riksantikvarieämbetet (Swedish National Heritage Board)"

@@ -1,4 +1,5 @@
 import {
+  achievementsFileSchema,
   buildingsFileSchema,
   erasFileSchema,
   historyCardSchema,
@@ -6,6 +7,7 @@ import {
   questionsFileSchema,
   tracksFileSchema,
   vocabFileSchema,
+  type Achievement,
   type Building,
   type Era,
   type HistoryCard,
@@ -56,6 +58,16 @@ const historyFiles = import.meta.glob('../../content/history/*.json', {
   eager: true,
 }) as Record<string, { default: unknown }>;
 
+const grammarFiles = import.meta.glob('../../content/grammar/*.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+}) as Record<string, string>;
+
+const achievementsFile = import.meta.glob('../../content/achievements.json', {
+  eager: true,
+}) as Record<string, { default: unknown }>;
+
 // -- folder key -> lesson id -----------------------------------------------
 // A path like ../../content/lessons/a1/greetings/lesson.json maps to folderKey
 // "a1/greetings" so vocab/questions/theory can be joined to the same lesson.
@@ -76,6 +88,13 @@ export interface LessonContent {
   pool: QuestionsFile['items'];
 }
 
+export interface GrammarArticle {
+  slug: string;
+  title: string;
+  body: string;
+  order: number;
+}
+
 export interface ContentRegistry {
   tracks: Track[];
   lessons: Map<string, LessonContent>;
@@ -83,6 +102,8 @@ export interface ContentRegistry {
   eras: Era[];
   buildings: Building[];
   history: HistoryCard[];
+  grammar: GrammarArticle[];
+  achievements: Achievement[];
   errors: string[];
 }
 
@@ -198,7 +219,26 @@ function buildRegistry(): ContentRegistry {
     history.push(parsed.data);
   }
 
-  return { tracks, lessons, curricula, eras, buildings, history, errors };
+  const grammar: GrammarArticle[] = Object.entries(grammarFiles)
+    .map(([path, raw], i) => {
+      const slug = path.split('/').pop()!.replace(/\.md$/, '');
+      const titleMatch = raw.match(/^#\s+(.+)$/m);
+      if (!titleMatch) errors.push(`${path}: grammar article has no "# Title" heading`);
+      return { slug, title: titleMatch?.[1] ?? slug, body: raw, order: i };
+    })
+    .sort((a, b) => a.slug.localeCompare(b.slug));
+
+  let achievements: Achievement[] = [];
+  for (const mod of Object.values(achievementsFile)) {
+    const parsed = achievementsFileSchema.safeParse(mod.default);
+    if (!parsed.success) {
+      errors.push(`achievements.json: ${parsed.error.message}`);
+      continue;
+    }
+    achievements = parsed.data.achievements;
+  }
+
+  return { tracks, lessons, curricula, eras, buildings, history, grammar, achievements, errors };
 }
 
 let cached: ContentRegistry | null = null;

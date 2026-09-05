@@ -4,6 +4,8 @@ import { resolveLocalized } from '@/content/schema';
 import { useLanguage } from '@/store/settings';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
+import { getHistoryQuestionIdsForCard } from '@/content/registry';
+import AudioButton from '@/components/lesson/AudioButton';
 
 const READ_REWARD = 15;
 
@@ -13,6 +15,7 @@ export default function HistoryCard({ card }: { card: HistoryCardData }) {
   const [open, setOpen] = useState(false);
   const isRead = useAppStore((s) => s.historyRead.includes(card.id));
   const markHistoryRead = useAppStore((s) => s.markHistoryRead);
+  const seedReviewItems = useAppStore((s) => s.seedReviewItems);
 
   const years = card.date.to ? `${card.date.from}–${card.date.to}` : `${card.date.from}`;
 
@@ -22,7 +25,10 @@ export default function HistoryCard({ card }: { card: HistoryCardData }) {
         type="button"
         onClick={() => {
           setOpen((o) => !o);
-          if (!isRead) markHistoryRead(card.id, READ_REWARD);
+          if (!isRead) {
+            markHistoryRead(card.id, READ_REWARD);
+            seedReviewItems(getHistoryQuestionIdsForCard(card.id));
+          }
         }}
         className="flex w-full items-center justify-between text-left"
       >
@@ -43,8 +49,13 @@ export default function HistoryCard({ card }: { card: HistoryCardData }) {
           <p>{resolveLocalized({ ru: card.body.ru, en: card.body.en }, lang)}</p>
           <ul className="flex flex-wrap gap-1.5">
             {card.vocab.map((w) => (
-              <li key={w} className="sv-word rounded-full bg-granite/10 px-2 py-0.5 text-xs dark:bg-white/10">
-                {w}
+              <li
+                key={w.sv}
+                className="flex items-center gap-1 rounded-full bg-granite/10 py-0.5 pl-1 pr-2.5 text-xs dark:bg-white/10"
+              >
+                <AudioButton text={w.sv} />
+                <span className="sv-word">{w.sv}</span>
+                <span className="text-granite/70 dark:text-birch/50">— {resolveLocalized(w, lang)}</span>
               </li>
             ))}
           </ul>

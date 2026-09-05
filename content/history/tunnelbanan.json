@@ -8,6 +8,12 @@
     "ru": "Стокгольмское метро открылось в 1950 году, а сегодня около 90 из его 100 станций оформлены художниками — росписи, скульптуры, необработанная скальная порода вместо облицовки. Из-за этого метро называют «самой длинной художественной галереей мира». Знание нескольких фраз из объявлений — «Nästa station…» («Следующая станция…») и «Dörrarna stängs» («Двери закрываются») — сразу пригодится каждому, кто живёт в Стокгольме.",
     "en": "The Stockholm metro opened in 1950, and today around 90 of its 100 stations are decorated by artists — murals, sculpture, bare bedrock left exposed instead of tiled over. That's why it's called \"the world's longest art gallery\". Knowing a couple of announcement phrases — \"Nästa station…\" (\"Next station…\") and \"Dörrarna stängs\" (\"The doors are closing\") — is immediately useful to anyone living in Stockholm."
   },
-  "vocab": ["tunnelbana", "station", "biljett", "nästa", "dörr"],
+  "vocab": [
+    { "sv": "tunnelbana", "ru": "метро", "en": "subway, metro" },
+    { "sv": "station", "ru": "станция", "en": "station" },
+    { "sv": "biljett", "ru": "билет", "en": "ticket" },
+    { "sv": "nästa", "ru": "следующий", "en": "next" },
+    { "sv": "dörr", "ru": "дверь", "en": "door" }
+  ],
   "sources": ["Stockholms stadsmuseum — Tunnelbanans historia", "SL (Storstockholms Lokaltrafik)"]
 }

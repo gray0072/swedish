@@ -295,6 +295,41 @@ export const buildingsFileSchema = z.object({ buildings: z.array(buildingSchema)
 // History cards
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// Achievements — computed from existing stats, never stored as separate state
+// (SPEC §8.5: they bridge learning and the city).
+// ---------------------------------------------------------------------------
+
+export const achievementConditionSchema = z.discriminatedUnion('type', [
+  z.object({ type: z.literal('wordsLearned'), value: z.number() }),
+  z.object({ type: z.literal('streak'), value: z.number() }),
+  z.object({ type: z.literal('lessonsPassed'), value: z.number() }),
+  z.object({ type: z.literal('allLessonsPassed') }),
+  z.object({ type: z.literal('eraReached'), eraId: z.string() }),
+  z.object({ type: z.literal('buildingsOwned'), value: z.number() }),
+]);
+export type AchievementCondition = z.infer<typeof achievementConditionSchema>;
+
+export const achievementSchema = z.object({
+  id: z.string(),
+  name: localizedStringSchema,
+  description: localizedStringSchema,
+  icon: z.string(),
+  condition: achievementConditionSchema,
+});
+export type Achievement = z.infer<typeof achievementSchema>;
+
+export const achievementsFileSchema = z.object({
+  achievements: z.array(achievementSchema),
+});
+
+export const historyVocabWordSchema = z.object({
+  sv: z.string(),
+  ru: z.string(),
+  en: z.string(),
+});
+export type HistoryVocabWord = z.infer<typeof historyVocabWordSchema>;
+
 export const historyCardSchema = z.object({
   id: z.string(),
   era: z.string(),
@@ -302,7 +337,9 @@ export const historyCardSchema = z.object({
   title: localizedStringSchema,
   date: z.object({ from: z.number(), to: z.number().optional() }),
   body: z.object({ ru: z.string(), en: z.string() }),
-  vocab: z.array(z.string()).default([]),
+  // Full translations, not bare strings — this is what lets reading a card quietly seed
+  // real quiz questions into the SRS deck (SPEC §12.4).
+  vocab: z.array(historyVocabWordSchema).default([]),
   sources: z.array(z.string()).min(1, 'Every history card needs a source (SPEC §12.6)'),
 });
 export type HistoryCard = z.infer<typeof historyCardSchema>;

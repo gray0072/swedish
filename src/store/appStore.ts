@@ -63,6 +63,7 @@ interface AppState extends SaveFile {
   buyBuilding: (buildingId: string, cost: number, maxLevel: number) => boolean;
   markHistoryRead: (id: string, coinReward: number) => void;
   addCoins: (amount: number) => void;
+  seedReviewItems: (ids: string[]) => void;
   setTheme: (theme: SaveFile['settings']['theme']) => void;
   setSound: (enabled: boolean) => void;
   resetSave: () => void;
@@ -209,6 +210,30 @@ export const useAppStore = create<AppState>()(
       },
 
       addCoins: (amount) => set((s) => ({ wallet: { ...s.wallet, coins: s.wallet.coins + amount } })),
+
+      // Seeds brand-new SRS items as "due now" — never touches an id already being tracked,
+      // so re-reading a history card doesn't reset progress on words you've already reviewed.
+      seedReviewItems: (ids) => {
+        set((s) => {
+          const now = new Date().toISOString();
+          const items = { ...s.items };
+          let changed = false;
+          for (const id of ids) {
+            if (items[id]) continue;
+            items[id] = {
+              box: 0,
+              dueAt: now,
+              seen: 0,
+              correct: 0,
+              wrong: 0,
+              lastCorrect: null,
+              lastSeenAt: now,
+            };
+            changed = true;
+          }
+          return changed ? { items } : {};
+        });
+      },
 
       setTheme: (theme) => set((s) => ({ settings: { ...s.settings, theme } })),
       setSound: (sound) => set((s) => ({ settings: { ...s.settings, sound } })),

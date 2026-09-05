@@ -1,4 +1,6 @@
 import { getContentRegistry, type LessonContent } from './loader';
+import { generateHistoryQuestions, historyQuestionId } from './historyQuestions';
+import type { Question } from './schema';
 
 export function getTracks() {
   return getContentRegistry().tracks;
@@ -63,6 +65,45 @@ export function findQuestionById(id: string) {
     if (question) return question;
   }
   return undefined;
+}
+
+let historyQuestionCache: Map<string, Question> | null = null;
+
+function getHistoryQuestionIndex(): Map<string, Question> {
+  if (!historyQuestionCache) {
+    const cards = getContentRegistry().history;
+    historyQuestionCache = new Map();
+    for (const card of cards) {
+      for (const q of generateHistoryQuestions(card, cards)) {
+        historyQuestionCache.set(q.id, q);
+      }
+    }
+  }
+  return historyQuestionCache;
+}
+
+/** The question ids a history card's vocabulary seeds into the SRS deck once it's read. */
+export function getHistoryQuestionIdsForCard(cardId: string): string[] {
+  const card = getContentRegistry().history.find((c) => c.id === cardId);
+  if (!card) return [];
+  return card.vocab.map((w) => historyQuestionId(cardId, w.sv));
+}
+
+/** Looks a question up across BOTH lesson pools and history-derived questions. */
+export function findAnyQuestionById(id: string): Question | undefined {
+  return findQuestionById(id) ?? getHistoryQuestionIndex().get(id);
+}
+
+export function getAchievements() {
+  return getContentRegistry().achievements;
+}
+
+export function getGrammarArticles() {
+  return getContentRegistry().grammar;
+}
+
+export function getGrammarArticle(slug: string) {
+  return getContentRegistry().grammar.find((a) => a.slug === slug);
 }
 
 export function getContentErrors() {
