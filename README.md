@@ -7,6 +7,7 @@ metro. A static, backend-free web app: every lesson is short (5 minutes), every 
 from a large question pool, and every reward is spendable in a city-building game layered on
 top. Full product spec: [SPEC.md](SPEC.md) (English) / [SPEC_ru.md](SPEC_ru.md)
 (Russian) — those two files are the authoritative design spec for this project.
+Development log: [CHANGELOG.md](CHANGELOG.md) (Russian).
 
 ## Features
 
