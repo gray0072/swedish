@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { computeRewards, type QuizSession } from '@/quiz/engine';
+import { computeRewards, prepareQuestion, type QuizSession } from '@/quiz/engine';
+import { mulberry32 } from '@/quiz/prng';
+import type { Question } from '@/content/schema';
 
 function session(results: QuizSession['results']): QuizSession {
   return { lessonId: 'x', seed: 's', attemptNumber: 1, questions: [], results };
@@ -59,5 +61,50 @@ describe('computeRewards', () => {
     const at50 = computeRewards(session(results), { ...baseInputs, streakDays: 50 });
     expect(at10.xp).toBe(at50.xp); // multiplier caps at streakDays=10
     expect(at10.xp).toBeGreaterThan(computeRewards(session(results), baseInputs).xp);
+  });
+});
+
+describe('prepareQuestion', () => {
+  // Generated mc/listen questions always author the correct choice at index 0 — without a
+  // shuffle, every review/quiz render of them would make the answer "always option 1".
+  const mc: Question = {
+    id: 'q1',
+    type: 'mc',
+    difficulty: 1,
+    tags: [],
+    generated: true,
+    prompt: { ru: 'x' },
+    choices: ['correct', 'b', 'c', 'd'],
+    answer: 0,
+  };
+
+  it('remaps the answer index so it still points at the originally-correct choice', () => {
+    for (let seed = 0; seed < 20; seed++) {
+      const rng = mulberry32(seed);
+      const prepared = prepareQuestion(mc, rng);
+      if (prepared.type !== 'mc') throw new Error('expected mc');
+      expect(prepared.choices[prepared.answer]).toBe('correct');
+    }
+  });
+
+  it('actually reorders choices at least once across many seeds (not a no-op)', () => {
+    const everUnshuffled = Array.from({ length: 20 }, (_, seed) => {
+      const prepared = prepareQuestion(mc, mulberry32(seed));
+      return prepared.type === 'mc' && prepared.answer === 0;
+    });
+    expect(everUnshuffled.some((wasFirst) => !wasFirst)).toBe(true);
+  });
+
+  it('leaves non-mc/listen question types untouched', () => {
+    const tf: Question = {
+      id: 'q2',
+      type: 'true-false',
+      difficulty: 1,
+      tags: [],
+      generated: false,
+      prompt: { ru: 'x' },
+      answer: true,
+    };
+    expect(prepareQuestion(tf, mulberry32(1))).toEqual(tf);
   });
 });

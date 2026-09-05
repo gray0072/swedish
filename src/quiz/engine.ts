@@ -19,8 +19,13 @@ export interface QuizSession {
   results: SessionQuestionResult[];
 }
 
-/** For mc/listen, shuffle the choice order and remap the answer index for this session only. */
-function prepareQuestion(question: Question, rng: () => number): Question {
+/**
+ * For mc/listen, shuffle the choice order and remap the answer index for this session only.
+ * Exported so any question-answering surface (quiz sessions, the review deck) can reuse it —
+ * generated questions always author the correct choice first, so skipping this makes the
+ * correct answer trivially "always option 1".
+ */
+export function prepareQuestion(question: Question, rng: () => number): Question {
   if (question.type === 'mc' || question.type === 'listen') {
     const order = shuffle(
       question.choices.map((_, i) => i),

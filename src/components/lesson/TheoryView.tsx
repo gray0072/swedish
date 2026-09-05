@@ -1,7 +1,14 @@
+import { isValidElement } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AudioButton from './AudioButton';
 import { useLanguage } from '@/store/settings';
+
+function isExampleCodeChild(child: unknown): boolean {
+  if (!isValidElement(child)) return false;
+  const props = child.props as { className?: string };
+  return /language-example/.test(props.className ?? '');
+}
 
 /** Renders a fenced ```example block as speaker-enabled sv — translation pairs (SPEC §5.3). */
 function ExampleBlock({ raw }: { raw: string }) {
@@ -33,6 +40,13 @@ export default function TheoryView({ markdown }: { markdown: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
+          // The typography plugin gives <pre> a dark code-block background — fine for real
+          // code, wrong for our example blocks, so unwrap the <pre> when it's ours.
+          pre(props) {
+            const child = Array.isArray(props.children) ? props.children[0] : props.children;
+            if (isExampleCodeChild(child)) return <>{props.children}</>;
+            return <pre {...props} />;
+          },
           code(props) {
             const { className, children } = props;
             const isExample = /language-example/.test(className ?? '');

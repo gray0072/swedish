@@ -5,11 +5,14 @@ import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { usePerks } from '@/store/city';
 import { isDue } from '@/srs/scheduler';
-import { findQuestionById } from '@/content/registry';
+import { findAnyQuestionById } from '@/content/registry';
 import { grade, type Answer, type GradeResult } from '@/quiz/grading';
+import { prepareQuestion } from '@/quiz/engine';
+import { hashSeed, mulberry32 } from '@/quiz/prng';
 import type { Question } from '@/content/schema';
 import QuestionRenderer from '@/components/quiz/QuestionRenderer';
 import ProgressBar from '@/components/ui/ProgressBar';
+import DalaHorse from '@/components/ui/DalaHorse';
 
 const BASE_REVIEW_CAP = 20;
 const REVIEW_COIN_BONUS = 20;
@@ -28,9 +31,13 @@ export default function ReviewPage() {
       .filter(([, stat]) => isDue(stat.dueAt))
       .sort((a, b) => new Date(a[1].dueAt).getTime() - new Date(b[1].dueAt).getTime())
       .slice(0, cap);
+    const rng = mulberry32(hashSeed(`review:${Date.now()}`));
     return due
-      .map(([id]) => findQuestionById(id))
-      .filter((q): q is Question => Boolean(q));
+      .map(([id]) => findAnyQuestionById(id))
+      .filter((q): q is Question => Boolean(q))
+      // Generated questions always author the correct choice first — without this, the
+      // review deck would make every mc/listen question "always pick option 1".
+      .map((q) => prepareQuestion(q, rng));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -42,8 +49,9 @@ export default function ReviewPage() {
 
   if (dueQuestions.length === 0) {
     return (
-      <div className="space-y-2">
+      <div className="mx-auto max-w-md space-y-3 text-center">
         <h1 className="text-2xl font-semibold">{t('review.title')}</h1>
+        <DalaHorse className="mx-auto h-24 w-auto opacity-80" />
         <p className="text-granite dark:text-birch/70">{t('review.empty')}</p>
       </div>
     );
