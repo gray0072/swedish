@@ -89,12 +89,14 @@ tests/                   Vitest unit tests
 ## Roadmap
 
 - [ ] SFI and Grund curricula (structure exists, lessons not yet written)
-- [ ] Illustrated city map (buildings currently render as a card grid, not a positioned map)
-- [ ] `/grammar` reference articles
-- [ ] PWA / offline support
-- [ ] Wire history-card vocabulary into the SRS review deck
-- [ ] Achievements and a shareable result card
+- [x] Illustrated city map
+- [x] `/grammar` reference articles
+- [x] PWA / offline support
+- [x] Wire history-card vocabulary into the SRS review deck
+- [x] Achievements and a shareable result card
 - [ ] Additional question types in more lessons (listening dictation, pronunciation practice)
+- [ ] B1+ CEFR content
+- [ ] Proper 192/512 PNG app icons (the manifest currently reuses the SVG favicon)
 
 ## License
 
