@@ -1,0 +1,67 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-money-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Могу я заплатить картой?»", "en": "Build the phrase: \"Can I pay by card?\"" },
+      "tokens": ["betala", "Kan", "kort", "jag", "med"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-money-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь числа с переводом", "en": "Match the numbers with their translation" },
+      "pairs": [
+        ["tjugo", "двадцать"],
+        ["fyrtio", "сорок"],
+        ["sjuttio", "семьдесят"],
+        ["hundra", "сто"]
+      ]
+    },
+    {
+      "id": "q-money-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Billigt» значит «дёшево».", "en": "\"Billigt\" means \"cheap\"." },
+      "answer": true
+    },
+    {
+      "id": "q-money-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det kostar ___ kronor. (пятьдесят)" },
+      "answer": ["femtio"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-money-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Vad blir tjugo plus trettio?", "en": "What is twenty plus thirty?" },
+      "choices": ["fyrtio", "femtio", "sextio", "sjuttio"],
+      "answer": 1
+    },
+    {
+      "id": "q-money-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Du handlar för sjuttio kronor och betalar med en hundralapp (100 kr). Hur mycket växel får du?",
+        "en": "You shop for seventy kronor and pay with a hundred-note (100 kr). How much change do you get?"
+      },
+      "choices": ["tjugo", "trettio", "fyrtio", "femtio"],
+      "answer": 1
+    }
+  ]
+}

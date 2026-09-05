@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": "sjuk",
+      "sv": "sjuk",
+      "translations": { "ru": "больной", "en": "sick, ill" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: sjukt, мн.ч.: sjuka", "en": "ett-form: sjukt, plural: sjuka" },
+      "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болею.", "en": "I'm sick today." }
+    },
+    {
+      "id": "ont",
+      "sv": "ont",
+      "translations": { "ru": "боль (в выражении «ha ont»)", "en": "pain (in the phrase \"ha ont\")" },
+      "pos": "adv",
+      "example": { "sv": "Jag har ont i huvudet.", "ru": "У меня болит голова.", "en": "I have a headache." }
+    },
+    {
+      "id": "huvudvark",
+      "sv": "huvudvärk",
+      "translations": { "ru": "головная боль", "en": "headache" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag har huvudvärk.", "ru": "У меня болит голова.", "en": "I have a headache." }
+    },
+    {
+      "id": "feber",
+      "sv": "feber",
+      "translations": { "ru": "температура, жар", "en": "fever" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Barnet har hög feber.", "ru": "У ребёнка высокая температура.", "en": "The child has a high fever." }
+    },
+    {
+      "id": "lakare",
+      "sv": "läkare",
+      "translations": { "ru": "врач", "en": "doctor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läkare", "defSg": "läkaren", "indefPl": "läkare", "defPl": "läkarna" },
+      "example": { "sv": "Jag vill träffa en läkare.", "ru": "Я хочу к врачу.", "en": "I want to see a doctor." }
+    },
+    {
+      "id": "sjukskoterska",
+      "sv": "sjuksköterska",
+      "translations": { "ru": "медсестра", "en": "nurse" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjuksköterska", "defSg": "sjuksköterskan", "indefPl": "sjuksköterskor", "defPl": "sjuksköterskorna" },
+      "example": { "sv": "Sjuksköterskan tar ditt blodtryck.", "ru": "Медсестра измеряет твоё давление.", "en": "The nurse takes your blood pressure." }
+    },
+    {
+      "id": "vardcentral",
+      "sv": "vårdcentral",
+      "translations": { "ru": "поликлиника, центр здоровья", "en": "health center" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vårdcentral", "defSg": "vårdcentralen", "indefPl": "vårdcentraler", "defPl": "vårdcentralerna" },
+      "example": { "sv": "Ring vårdcentralen och boka en tid.", "ru": "Позвони в поликлинику и запишись на приём.", "en": "Call the health center and book an appointment." }
+    },
+    {
+      "id": "sjukhus",
+      "sv": "sjukhus",
+      "translations": { "ru": "больница", "en": "hospital" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sjukhus", "defSg": "sjukhuset", "indefPl": "sjukhus", "defPl": "sjukhusen" },
+      "example": { "sv": "Han fördes till sjukhuset i ambulans.", "ru": "Его отвезли в больницу на скорой.", "en": "He was taken to the hospital by ambulance." }
+    },
+    {
+      "id": "medicin",
+      "sv": "medicin",
+      "translations": { "ru": "лекарство", "en": "medicine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medicin", "defSg": "medicinen", "indefPl": "mediciner", "defPl": "medicinerna" },
+      "example": { "sv": "Ta din medicin varje morgon.", "ru": "Принимай лекарство каждое утро.", "en": "Take your medicine every morning." }
+    },
+    {
+      "id": "recept",
+      "sv": "recept",
+      "translations": { "ru": "рецепт (на лекарство)", "en": "prescription" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett recept", "defSg": "receptet", "indefPl": "recept", "defPl": "recepten" },
+      "example": { "sv": "Läkaren skrev ut ett recept.", "ru": "Врач выписал рецепт.", "en": "The doctor wrote a prescription." }
+    },
+    {
+      "id": "tid",
+      "sv": "tid",
+      "translations": { "ru": "время; приём (у врача)", "en": "time; appointment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tid", "defSg": "tiden", "indefPl": "tider", "defPl": "tiderna" },
+      "example": { "sv": "Jag vill boka en tid hos läkaren.", "ru": "Я хочу записаться на приём к врачу.", "en": "I want to book an appointment with the doctor." }
+    },
+    {
+      "id": "boka",
+      "sv": "boka",
+      "translations": { "ru": "бронировать, записываться", "en": "to book" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "boka", "present": "bokar", "past": "bokade", "supine": "bokat" },
+      "example": { "sv": "Jag vill boka en tid hos läkaren.", "ru": "Я хочу записаться на приём к врачу.", "en": "I want to book an appointment with the doctor." }
+    },
+    {
+      "id": "hosta",
+      "sv": "hosta",
+      "translations": { "ru": "кашлять", "en": "to cough" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hosta", "present": "hostar", "past": "hostade", "supine": "hostat" },
+      "example": { "sv": "Jag hostar mycket på natten.", "ru": "Я сильно кашляю по ночам.", "en": "I cough a lot at night." }
+    },
+    {
+      "id": "ma",
+      "sv": "må",
+      "translations": { "ru": "чувствовать себя", "en": "to feel (well/unwell)" },
+      "pos": "verb",
+      "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" },
+      "example": { "sv": "Hur mår du idag?", "ru": "Как ты себя чувствуешь сегодня?", "en": "How are you feeling today?" }
+    },
+    {
+      "id": "apotek",
+      "sv": "apotek",
+      "translations": { "ru": "аптека", "en": "pharmacy" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" },
+      "example": { "sv": "Var ligger närmaste apotek?", "ru": "Где ближайшая аптека?", "en": "Where is the nearest pharmacy?" }
+    },
+    {
+      "id": "frisk",
+      "sv": "frisk",
+      "translations": { "ru": "здоровый", "en": "healthy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: friskt, мн.ч.: friska", "en": "ett-form: friskt, plural: friska" },
+      "example": { "sv": "Nu är jag frisk igen.", "ru": "Теперь я снова здоров.", "en": "Now I'm healthy again." }
+    },
+    {
+      "id": "symtom",
+      "sv": "symtom",
+      "translations": { "ru": "симптом", "en": "symptom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett symtom", "defSg": "symtomet", "indefPl": "symtom", "defPl": "symtomen" },
+      "example": { "sv": "Vilka symtom har du?", "ru": "Какие у тебя симптомы?", "en": "What symptoms do you have?" }
+    },
+    {
+      "id": "smarta",
+      "sv": "smärta",
+      "translations": { "ru": "боль", "en": "pain" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en smärta", "defSg": "smärtan", "indefPl": "smärtor", "defPl": "smärtorna" },
+      "example": { "sv": "Smärtan kom plötsligt.", "ru": "Боль появилась внезапно.", "en": "The pain came suddenly." }
+    }
+  ]
+}

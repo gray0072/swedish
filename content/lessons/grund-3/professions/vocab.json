@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "yrke",
+      "sv": "yrke",
+      "translations": { "ru": "профессия", "en": "profession, occupation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" },
+      "example": { "sv": "Vilket yrke har du?", "ru": "Какая у тебя профессия?", "en": "What is your profession?" }
+    },
+    {
+      "id": "jobba",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Jag jobbar på ett sjukhus.", "ru": "Я работаю в больнице.", "en": "I work at a hospital." }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Min mamma är lärare.", "ru": "Моя мама учитель.", "en": "My mom is a teacher." }
+    },
+    {
+      "id": "lakare-yrke",
+      "sv": "läkare",
+      "translations": { "ru": "врач", "en": "doctor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läkare", "defSg": "läkaren", "indefPl": "läkare", "defPl": "läkarna" },
+      "example": { "sv": "Han jobbar som läkare.", "ru": "Он работает врачом.", "en": "He works as a doctor." }
+    },
+    {
+      "id": "sjukskoterska-yrke",
+      "sv": "sjuksköterska",
+      "translations": { "ru": "медсестра", "en": "nurse" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjuksköterska", "defSg": "sjuksköterskan", "indefPl": "sjuksköterskor", "defPl": "sjuksköterskorna" },
+      "example": { "sv": "Jag är sjuksköterska.", "ru": "Я медсестра.", "en": "I am a nurse." }
+    },
+    {
+      "id": "ingenjor",
+      "sv": "ingenjör",
+      "translations": { "ru": "инженер", "en": "engineer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ingenjör", "defSg": "ingenjören", "indefPl": "ingenjörer", "defPl": "ingenjörerna" },
+      "example": { "sv": "Hon är ingenjör på Volvo.", "ru": "Она инженер в Volvo.", "en": "She is an engineer at Volvo." }
+    },
+    {
+      "id": "forare",
+      "sv": "förare",
+      "translations": { "ru": "водитель", "en": "driver" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förare", "defSg": "föraren", "indefPl": "förare", "defPl": "förarna" },
+      "example": { "sv": "Bussens förare är trevlig.", "ru": "Водитель автобуса приятный.", "en": "The bus driver is nice." }
+    },
+    {
+      "id": "butiksbitrade",
+      "sv": "butiksbiträde",
+      "translations": { "ru": "продавец", "en": "shop assistant" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett butiksbiträde", "defSg": "butiksbiträdet", "indefPl": "butiksbiträden", "defPl": "butiksbiträdena" },
+      "example": { "sv": "Butiksbiträdet hjälpte mig hitta rätt storlek.", "ru": "Продавец помог мне найти нужный размер.", "en": "The shop assistant helped me find the right size." }
+    },
+    {
+      "id": "kock",
+      "sv": "kock",
+      "translations": { "ru": "повар", "en": "cook, chef" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kock", "defSg": "kocken", "indefPl": "kockar", "defPl": "kockarna" },
+      "example": { "sv": "Han jobbar som kock på en restaurang.", "ru": "Он работает поваром в ресторане.", "en": "He works as a cook at a restaurant." }
+    },
+    {
+      "id": "student",
+      "sv": "student",
+      "translations": { "ru": "студент", "en": "student" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en student", "defSg": "studenten", "indefPl": "studenter", "defPl": "studenterna" },
+      "example": { "sv": "Jag är student och jobbar deltid som kock.", "ru": "Я студент и подрабатываю поваром.", "en": "I'm a student and work part-time as a cook." }
+    },
+    {
+      "id": "arbetslos",
+      "sv": "arbetslös",
+      "translations": { "ru": "безработный", "en": "unemployed" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: arbetslöst, мн.ч.: arbetslösa", "en": "ett-form: arbetslöst, plural: arbetslösa" },
+      "example": { "sv": "Han är arbetslös just nu.", "ru": "Он сейчас безработный.", "en": "He is unemployed right now." }
+    },
+    {
+      "id": "pensionar",
+      "sv": "pensionär",
+      "translations": { "ru": "пенсионер", "en": "pensioner, retiree" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pensionär", "defSg": "pensionären", "indefPl": "pensionärer", "defPl": "pensionärerna" },
+      "example": { "sv": "Min farfar är pensionär.", "ru": "Мой дедушка пенсионер.", "en": "My grandpa is a pensioner." }
+    },
+    {
+      "id": "chef",
+      "sv": "chef",
+      "translations": { "ru": "начальник, руководитель", "en": "boss, manager" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en chef", "defSg": "chefen", "indefPl": "chefer", "defPl": "cheferna" },
+      "example": { "sv": "Min chef är sjuk idag.", "ru": "Мой начальник сегодня болеет.", "en": "My boss is sick today." }
+    },
+    {
+      "id": "jobb",
+      "sv": "jobb",
+      "translations": { "ru": "работа (место)", "en": "job" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett jobb", "defSg": "jobbet", "indefPl": "jobb", "defPl": "jobben" },
+      "example": { "sv": "Jag gillar mitt jobb.", "ru": "Мне нравится моя работа.", "en": "I like my job." }
+    },
+    {
+      "id": "arbetsplats",
+      "sv": "arbetsplats",
+      "translations": { "ru": "рабочее место", "en": "workplace" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsplats", "defSg": "arbetsplatsen", "indefPl": "arbetsplatser", "defPl": "arbetsplatserna" },
+      "example": { "sv": "Min arbetsplats ligger nära stationen.", "ru": "Моё рабочее место рядом со станцией.", "en": "My workplace is near the station." }
+    },
+    {
+      "id": "vad-jobbar-du-som",
+      "sv": "Vad jobbar du som?",
+      "translations": { "ru": "Кем ты работаешь?", "en": "What do you work as?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad jobbar du som?", "ru": "Кем ты работаешь?", "en": "What do you work as?" }
+    },
+    {
+      "id": "byggarbetare",
+      "sv": "byggarbetare",
+      "translations": { "ru": "строитель", "en": "construction worker" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en byggarbetare", "defSg": "byggarbetaren", "indefPl": "byggarbetare", "defPl": "byggarbetarna" },
+      "example": { "sv": "Han jobbar som byggarbetare.", "ru": "Он работает строителем.", "en": "He works as a construction worker." }
+    }
+  ]
+}

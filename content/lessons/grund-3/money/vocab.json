@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "id": "tjugo",
+      "sv": "tjugo",
+      "translations": { "ru": "двадцать", "en": "twenty" },
+      "pos": "numeral",
+      "example": { "sv": "Kaffe kostar tjugo kronor.", "ru": "Кофе стоит двадцать крон.", "en": "Coffee costs twenty kronor." }
+    },
+    {
+      "id": "trettio",
+      "sv": "trettio",
+      "translations": { "ru": "тридцать", "en": "thirty" },
+      "pos": "numeral",
+      "example": { "sv": "Bussen kommer om trettio minuter.", "ru": "Автобус придёт через тридцать минут.", "en": "The bus comes in thirty minutes." }
+    },
+    {
+      "id": "fyrtio",
+      "sv": "fyrtio",
+      "translations": { "ru": "сорок", "en": "forty" },
+      "pos": "numeral",
+      "example": { "sv": "Han är fyrtio år gammal.", "ru": "Ему сорок лет.", "en": "He is forty years old." }
+    },
+    {
+      "id": "femtio",
+      "sv": "femtio",
+      "translations": { "ru": "пятьдесят", "en": "fifty" },
+      "pos": "numeral",
+      "example": { "sv": "Jag har femtio kronor kvar.", "ru": "У меня осталось пятьдесят крон.", "en": "I have fifty kronor left." }
+    },
+    {
+      "id": "sextio",
+      "sv": "sextio",
+      "translations": { "ru": "шестьдесят", "en": "sixty" },
+      "pos": "numeral",
+      "example": { "sv": "Resan tar sextio minuter.", "ru": "Поездка занимает шестьдесят минут.", "en": "The trip takes sixty minutes." }
+    },
+    {
+      "id": "sjuttio",
+      "sv": "sjuttio",
+      "translations": { "ru": "семьдесят", "en": "seventy" },
+      "pos": "numeral",
+      "example": { "sv": "Min mormor är sjuttio år.", "ru": "Моей бабушке семьдесят лет.", "en": "My grandma is seventy years old." }
+    },
+    {
+      "id": "attio",
+      "sv": "åttio",
+      "translations": { "ru": "восемьдесят", "en": "eighty" },
+      "pos": "numeral",
+      "example": { "sv": "Boken kostar åttio kronor.", "ru": "Книга стоит восемьдесят крон.", "en": "The book costs eighty kronor." }
+    },
+    {
+      "id": "nittio",
+      "sv": "nittio",
+      "translations": { "ru": "девяносто", "en": "ninety" },
+      "pos": "numeral",
+      "example": { "sv": "Det finns nittio elever i skolan.", "ru": "В школе девяносто учеников.", "en": "There are ninety students in the school." }
+    },
+    {
+      "id": "hundra",
+      "sv": "hundra",
+      "translations": { "ru": "сто", "en": "hundred" },
+      "pos": "numeral",
+      "example": { "sv": "Notan blev hundra kronor.", "ru": "Счёт вышел на сто крон.", "en": "The bill came to a hundred kronor." }
+    },
+    {
+      "id": "krona",
+      "sv": "krona",
+      "translations": { "ru": "крона (валюта)", "en": "krona (currency)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en krona", "defSg": "kronan", "indefPl": "kronor", "defPl": "kronorna" },
+      "example": { "sv": "Det kostar tjugo kronor.", "ru": "Это стоит двадцать крон.", "en": "It costs twenty kronor." }
+    },
+    {
+      "id": "pengar",
+      "sv": "pengar",
+      "translations": { "ru": "деньги", "en": "money" },
+      "pos": "noun",
+      "example": { "sv": "Jag har inte mycket pengar just nu.", "ru": "У меня сейчас немного денег.", "en": "I don't have much money right now." }
+    },
+    {
+      "id": "betala",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" },
+      "example": { "sv": "Kan jag betala med kort?", "ru": "Могу я заплатить картой?", "en": "Can I pay by card?" }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: dyrt, мн.ч.: dyra", "en": "ett-form: dyrt, plural: dyra" },
+      "example": { "sv": "Bostäder är dyra i Stockholm.", "ru": "Жильё в Стокгольме дорогое.", "en": "Housing is expensive in Stockholm." }
+    },
+    {
+      "id": "billig",
+      "sv": "billig",
+      "translations": { "ru": "дешёвый", "en": "cheap" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: billigt, мн.ч.: billiga", "en": "ett-form: billigt, plural: billiga" },
+      "example": { "sv": "Den här tröjan är billig.", "ru": "Этот свитер дешёвый.", "en": "This sweater is cheap." }
+    },
+    {
+      "id": "pris",
+      "sv": "pris",
+      "translations": { "ru": "цена", "en": "price" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" },
+      "example": { "sv": "Vad är priset på biljetten?", "ru": "Какая цена билета?", "en": "What's the price of the ticket?" }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Får jag kvittot, tack?", "ru": "Можно чек, пожалуйста?", "en": "Can I have the receipt, please?" }
+    },
+    {
+      "id": "kontanter",
+      "sv": "kontanter",
+      "translations": { "ru": "наличные", "en": "cash" },
+      "pos": "noun",
+      "example": { "sv": "Jag har inga kontanter, bara kort.", "ru": "У меня нет наличных, только карта.", "en": "I have no cash, only a card." }
+    },
+    {
+      "id": "kort",
+      "sv": "kort",
+      "translations": { "ru": "карта", "en": "card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kort", "defSg": "kortet", "indefPl": "kort", "defPl": "korten" },
+      "example": { "sv": "Jag betalar med kort.", "ru": "Я плачу картой.", "en": "I pay by card." }
+    }
+  ]
+}
