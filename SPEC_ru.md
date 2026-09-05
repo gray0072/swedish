@@ -50,8 +50,9 @@
 - Контент — это **данные, а не код**: добавление урока не требует правки исходников.
 - Полностью статическая сборка, деплой на GitHub Pages одним GitHub Actions workflow.
 - Весь прогресс хранится локально (localStorage) с **экспортом/импортом** файла сохранения.
-- Две параллельные таксономии: **CEFR** (A1, A2, B1, B2, C1) и **SFI** (Kurs A, B, C, D и
-  Grund 1–4 / Grundläggande svenska). Один урок может входить в обе.
+- Три параллельные таксономии: **CEFR** (A1, A2, B1, B2, C1), **SFI** (kurs A, B, C, D) и
+  **SVA grundläggande** (delkurs 1–4 — курс komvux, который идёт после sfi kurs D).
+  Один урок может входить в несколько. О связи трёх шкал — см. `CURRICULUM.md`.
 - Несколько режимов изучения темы, не только тесты.
 - Типизированный и валидируемый контент: сломанный файл урока валит CI, а не браузер ученика.
 
@@ -242,18 +243,20 @@ swedish/
       "id": "sfi",
       "title": { "ru": "SFI", "en": "SFI (Swedish for Immigrants)", "sv": "SFI" },
       "levels": [
-        { "id": "sfi-a", "title": { "ru": "SFI Курс A" }, "order": 1 },
-        { "id": "sfi-b", "title": { "ru": "SFI Курс B" }, "order": 2 },
-        { "id": "sfi-c", "title": { "ru": "SFI Курс C" }, "order": 3 },
-        { "id": "sfi-d", "title": { "ru": "SFI Курс D" }, "order": 4 }
+        { "id": "sfi-a", "title": { "ru": "SFI kurs A" }, "order": 1 },
+        { "id": "sfi-b", "title": { "ru": "SFI kurs B" }, "order": 2 },
+        { "id": "sfi-c", "title": { "ru": "SFI kurs C" }, "order": 3 },
+        { "id": "sfi-d", "title": { "ru": "SFI kurs D" }, "order": 4 }
       ]
     },
     {
       "id": "grund",
-      "title": { "ru": "Grundläggande svenska", "en": "Grund 1–4" },
+      "title": { "ru": "SVA — grundläggande nivå", "sv": "Svenska som andraspråk, grundläggande nivå" },
       "levels": [
-        { "id": "grund-1", "order": 1 }, { "id": "grund-2", "order": 2 },
-        { "id": "grund-3", "order": 3 }, { "id": "grund-4", "order": 4 }
+        { "id": "grund-1", "title": { "ru": "SVA grund delkurs 1" }, "order": 1 },
+        { "id": "grund-2", "title": { "ru": "SVA grund delkurs 2" }, "order": 2 },
+        { "id": "grund-3", "title": { "ru": "SVA grund delkurs 3" }, "order": 3 },
+        { "id": "grund-4", "title": { "ru": "SVA grund delkurs 4" }, "order": 4 }
       ]
     }
   ]

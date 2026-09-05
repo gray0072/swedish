@@ -28,8 +28,10 @@ export default function TracksPage() {
       {tracks.map((track) => (
         <section key={track.id}>
           <h2 className="mb-1 text-lg font-semibold">{resolveLocalized(track.title, lang)}</h2>
-          {track.id === 'sfi' && (
-            <p className="mb-3 text-xs text-granite dark:text-birch/50">{t('tracks.sfi.note')}</p>
+          {track.note && (
+            <p className="mb-3 text-xs text-granite dark:text-birch/50">
+              {resolveLocalized(track.note, lang)}
+            </p>
           )}
           <div className="grid gap-3 sm:grid-cols-2">
             {track.levels.map((level) => {
