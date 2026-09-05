@@ -1,0 +1,33 @@
+{
+  "id": "sfi-a/body",
+  "slug": "body",
+  "title": {
+    "sv": "Kroppen",
+    "ru": "Тело",
+    "en": "The body"
+  },
+  "summary": {
+    "ru": "Голова, руки, ноги — базовые слова о теле человека, нужные и в быту, и у врача.",
+    "en": "Head, arms, legs — the basic words for the human body, useful at home and at the doctor's."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "body",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 90,
+  "prerequisites": [],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

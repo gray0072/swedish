@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/money",
+  "slug": "money",
+  "title": {
+    "sv": "Pengar och priser",
+    "ru": "Деньги и цены",
+    "en": "Money and prices"
+  },
+  "summary": {
+    "ru": "Числа от 20 до 100 и слова для покупок: цена, касса, наличные и карта.",
+    "en": "Numbers 20 to 100 plus shopping words: price, cash, and card."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "money",
+    "numbers",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 220,
+  "prerequisites": [
+    "sfi-a/numbers-0-20"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

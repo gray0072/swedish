@@ -2,7 +2,7 @@
 /**
  * Scaffolds a new lesson folder from a template (SPEC.md §11).
  * Usage: npm run new:lesson -- <level> <slug> "<Swedish title>" "<Russian title>" "<English title>"
- * Example: npm run new:lesson -- a1 colors "Färger" "Цвета" "Colors"
+ * Example: npm run new:lesson -- sfi-a colors "Färger" "Цвета" "Colors"
  */
 import { mkdirSync, existsSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';

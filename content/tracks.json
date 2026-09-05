@@ -1,44 +1,39 @@
 {
   "tracks": [
     {
-      "id": "cefr",
-      "title": { "ru": "Уровни CEFR", "en": "CEFR levels", "sv": "CEFR-nivåer" },
-      "levels": [
-        { "id": "a1", "title": { "ru": "A1 — Начальный", "en": "A1 — Beginner" }, "order": 1 },
-        { "id": "a2", "title": { "ru": "A2 — Базовый", "en": "A2 — Elementary" }, "order": 2 },
-        { "id": "b1", "title": { "ru": "B1 — Средний", "en": "B1 — Intermediate" }, "order": 3 }
-      ]
-    },
-    {
       "id": "sfi",
-      "title": { "ru": "SFI", "en": "SFI (Swedish for Immigrants)", "sv": "SFI" },
+      "title": {
+        "ru": "SFI",
+        "en": "SFI (Swedish for immigrants)",
+        "sv": "Utbildning i svenska för invandrare"
+      },
       "note": {
-        "ru": "Курсы A–D — официальные названия SFI. Они собираются в три studievägar (1: A→B→C→D, 2: B→C→D, 3: C→D). Разбивка тем внутри курсов — прагматичное приближение, а не официальная программа Skolverket.",
-        "en": "Courses A–D are the official SFI course names, grouped into three study paths (1: A→B→C→D, 2: B→C→D, 3: C→D). The topic breakdown inside each course is a pragmatic approximation, not the official Skolverket syllabus."
+        "ru": "Курсы A–D — официальные названия SFI. Они собираются в три studievägar: 1 — A→B→C→D, 2 — B→C→D, 3 — C→D. Разбивка тем внутри курсов — прагматичное приближение, а не официальная программа Skolverket.",
+        "en": "Courses A–D are the official SFI course names, grouped into three study paths: 1 — A→B→C→D, 2 — B→C→D, 3 — C→D. The topic breakdown inside each course is a pragmatic approximation, not the official Skolverket syllabus."
       },
       "levels": [
-        { "id": "sfi-a", "title": { "ru": "SFI kurs A", "en": "SFI kurs A", "sv": "Sfi kurs A" }, "order": 1 },
-        { "id": "sfi-b", "title": { "ru": "SFI kurs B", "en": "SFI kurs B", "sv": "Sfi kurs B" }, "order": 2 },
-        { "id": "sfi-c", "title": { "ru": "SFI kurs C", "en": "SFI kurs C", "sv": "Sfi kurs C" }, "order": 3 },
-        { "id": "sfi-d", "title": { "ru": "SFI kurs D", "en": "SFI kurs D", "sv": "Sfi kurs D" }, "order": 4 }
+        { "id": "sfi-a", "title": { "ru": "SFI kurs A (≈ до A1)", "en": "SFI kurs A (≈ pre-A1)", "sv": "Sfi kurs A" }, "order": 1 },
+        { "id": "sfi-b", "title": { "ru": "SFI kurs B (≈ A1)", "en": "SFI kurs B (≈ A1)", "sv": "Sfi kurs B" }, "order": 2 },
+        { "id": "sfi-c", "title": { "ru": "SFI kurs C (≈ A1+)", "en": "SFI kurs C (≈ A1+)", "sv": "Sfi kurs C" }, "order": 3 },
+        { "id": "sfi-d", "title": { "ru": "SFI kurs D (≈ A2)", "en": "SFI kurs D (≈ A2)", "sv": "Sfi kurs D" }, "order": 4 }
       ]
     },
     {
-      "id": "grund",
+      "id": "sva-grund",
       "title": {
         "ru": "SVA — grundläggande nivå",
         "en": "SVA — basic level (komvux)",
         "sv": "Svenska som andraspråk, grundläggande nivå"
       },
       "note": {
-        "ru": "Официально это один курс komvux на 700 poäng, разбитый на четыре национальные delkurser (100/200/200/200 p). Идёт после SFI kurs D и ведёт к гимназическому курсу SVA 1. Разбивка тем внутри delkurser — прагматичное приближение.",
-        "en": "Officially one 700-point komvux course split into four national delkurser (100/200/200/200 p). It follows SFI kurs D and leads to the upper-secondary course SVA 1. The topic breakdown inside each delkurs is a pragmatic approximation."
+        "ru": "Курс komvux на 700 poäng из четырёх национальных delkurser (100/200/200/200 p). Идёт после SFI kurs D и даёт behörighet к гимназическому курсу SVA 1. Разбивка тем внутри delkurser — прагматичное приближение.",
+        "en": "A 700-point komvux course made of four national delkurser (100/200/200/200 p). It follows SFI kurs D and grants eligibility for the upper-secondary course SVA 1. The topic breakdown inside each delkurs is a pragmatic approximation."
       },
       "levels": [
-        { "id": "grund-1", "title": { "ru": "SVA grund delkurs 1", "en": "SVA grund delkurs 1", "sv": "Delkurs 1" }, "order": 1 },
-        { "id": "grund-2", "title": { "ru": "SVA grund delkurs 2", "en": "SVA grund delkurs 2", "sv": "Delkurs 2" }, "order": 2 },
-        { "id": "grund-3", "title": { "ru": "SVA grund delkurs 3", "en": "SVA grund delkurs 3", "sv": "Delkurs 3" }, "order": 3 },
-        { "id": "grund-4", "title": { "ru": "SVA grund delkurs 4", "en": "SVA grund delkurs 4", "sv": "Delkurs 4" }, "order": 4 }
+        { "id": "sva-grund-1", "title": { "ru": "SVA grund delkurs 1 (≈ A2+)", "en": "SVA grund delkurs 1 (≈ A2+)", "sv": "Delkurs 1" }, "order": 1 },
+        { "id": "sva-grund-2", "title": { "ru": "SVA grund delkurs 2 (≈ B1)", "en": "SVA grund delkurs 2 (≈ B1)", "sv": "Delkurs 2" }, "order": 2 },
+        { "id": "sva-grund-3", "title": { "ru": "SVA grund delkurs 3 (≈ B1)", "en": "SVA grund delkurs 3 (≈ B1)", "sv": "Delkurs 3" }, "order": 3 },
+        { "id": "sva-grund-4", "title": { "ru": "SVA grund delkurs 4 (≈ B1+)", "en": "SVA grund delkurs 4 (≈ B1+)", "sv": "Delkurs 4" }, "order": 4 }
       ]
     }
   ]

@@ -1,0 +1,33 @@
+{
+  "id": "sfi-b/animals",
+  "slug": "animals",
+  "title": {
+    "sv": "Djur",
+    "ru": "Животные",
+    "en": "Animals"
+  },
+  "summary": {
+    "ru": "Собака, кошка, лошадь — самые частые слова о животных для первых разговоров.",
+    "en": "Dog, cat, horse — the highest-frequency animal words for your first conversations."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "animals",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 140,
+  "prerequisites": [],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

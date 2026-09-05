@@ -1,19 +1,37 @@
 {
   "id": "sfi-b/cooking",
   "slug": "cooking",
-  "title": { "sv": "Matlagning", "ru": "Приготовление еды", "en": "Cooking" },
+  "title": {
+    "sv": "Matlagning",
+    "ru": "Приготовление еды",
+    "en": "Cooking"
+  },
   "summary": {
     "ru": "Глаголы приготовления и кухонные слова: варить, жарить, резать, печь, кастрюля, нож.",
     "en": "Cooking verbs and kitchen words: to boil, to fry, to cut, to bake, pot, knife."
   },
   "kind": "mixed",
-  "levels": ["sfi-b"],
-  "tags": ["cooking", "kitchen", "verbs", "everyday"],
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "cooking",
+    "kitchen",
+    "verbs",
+    "everyday"
+  ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 620,
-  "prerequisites": [],
-  "xp": { "base": 115 },
-  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "order": 180,
+  "prerequisites": [
+    "sfi-b/food-drinks"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
   "cityUnlock": null
 }

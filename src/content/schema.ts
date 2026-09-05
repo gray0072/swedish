@@ -63,7 +63,7 @@ export const lessonPartSchema = z.object({
 });
 
 export const lessonMetaSchema = z.object({
-  id: z.string(), // "a1/greetings"
+  id: z.string(), // "sfi-a/greetings"
   slug: z.string(),
   title: localizedStringSchema,
   summary: localizedStringSchema.optional(),

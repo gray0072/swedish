@@ -1,0 +1,9 @@
+{
+  "lessons": [
+    "sfi-c/transport",
+    "sfi-c/money",
+    "sfi-c/health",
+    "sfi-c/booking",
+    "sfi-c/professions"
+  ]
+}

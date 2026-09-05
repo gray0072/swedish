@@ -1,3 +1,13 @@
 {
-  "lessons": ["sfi-b/family-relations", "sfi-b/booking", "sfi-b/cooking"]
+  "lessons": [
+    "sfi-b/family",
+    "sfi-b/family-relations",
+    "sfi-b/home",
+    "sfi-b/animals",
+    "sfi-b/clothing",
+    "sfi-b/weather",
+    "sfi-b/food-drinks",
+    "sfi-b/cooking",
+    "sfi-b/present-tense"
+  ]
 }

@@ -14,7 +14,7 @@ These are settled — do not re-litigate them during implementation.
 | Site title | **Swedish** (`<title>Swedish</title>`, PWA `name`, header wordmark) |
 | Study languages | **Russian and English only.** A toggle in the page header switches both the UI and the translations shown; the choice is persisted in localStorage. Default: **English** |
 | Swedish UI locale | Deferred past v1. Swedish appears as *content*, not as an interface language |
-| SFI structure | **Pragmatic approximation**, not the official Skolverket syllabus. Stated honestly in the UI |
+| Level structure | Course and delkurs **names** follow Skolverket; the topic breakdown inside them is a **pragmatic approximation**. Stated honestly in the UI |
 | Lesson length | **≤ 5 minutes.** Anything longer is split into numbered parts. Enforced by content validation |
 | Visual style | **Swedish national style** — Nordic functionalism for the learning UI, Dalarna folk for warmth, Viking-age carving for the city. Full spec in §11 |
 | Narrative theme | **Vikings and the real history of Sweden and Stockholm.** Every era, building and history card is anchored to verified facts. Full spec in §12 |
@@ -50,9 +50,9 @@ comes back sooner in review.
 - Content is **data, not code** — adding a lesson never requires touching application source.
 - Fully static build deployable to GitHub Pages via a single GitHub Actions workflow.
 - All progress stored locally (localStorage) with **export/import** of a save file.
-- Three parallel taxonomies: **CEFR** (A1, A2, B1, B2, C1), **SFI** (kurs A, B, C, D) and
-  **SVA grundläggande** (delkurs 1–4, the komvux course that follows sfi kurs D).
-  One lesson may belong to several. See `CURRICULUM.md` for how the three relate.
+- Two sequential taxonomies, mirroring the Swedish system: **SFI** (kurs A, B, C, D) and,
+  after it, **SVA grundläggande** (the komvux course, delkurs 1–4). A lesson belongs to
+  exactly one level. See `CURRICULUM.md` for the full ladder.
 - Multiple study modes per topic, not just quizzes.
 - Typed, validated content: a broken lesson file fails CI, not the user's browser.
 
@@ -111,26 +111,24 @@ swedish/
 │        ├─ industrial/
 │        └─ modern/
 ├─ content/                      # ── ALL LEARNING CONTENT LIVES HERE ──
-│  ├─ tracks.json                # track + level definitions (CEFR, SFI)
+│  ├─ tracks.json                # track + level definitions (SFI, SVA grundläggande)
 │  ├─ curricula/                 # ordered playlists of lesson ids
-│  │  ├─ cefr-a1.json
-│  │  ├─ cefr-a2.json
+│  │  ├─ sfi-a.json
 │  │  ├─ sfi-b.json
 │  │  ├─ sfi-c.json
-│  │  └─ grund-1.json
+│  │  └─ sfi-d.json
 │  ├─ lessons/
-│  │  ├─ a1/                     # physical home = primary CEFR level
+│  │  ├─ sfi-a/                  # folder name == level id == lesson id prefix
 │  │  │  ├─ greetings/
 │  │  │  │  ├─ lesson.json       # metadata
 │  │  │  │  ├─ theory.md         # short theory (optional)
 │  │  │  │  ├─ vocab.json        # word list (optional)
 │  │  │  │  └─ questions.json    # handwritten pool + generator config
+│  │  │  ├─ alphabet/
 │  │  │  ├─ numbers-0-20/
-│  │  │  ├─ family/
-│  │  │  ├─ en-ett-articles/
-│  │  │  └─ present-tense/
-│  │  ├─ a2/
-│  │  ├─ b1/
+│  │  │  └─ personal-info/
+│  │  ├─ sfi-b/
+│  │  ├─ sfi-c/
 │  │  └─ ...
 │  ├─ grammar/                   # standalone reference articles (not lessons)
 │  │  ├─ word-order.md
@@ -213,12 +211,15 @@ swedish/
 └─ README.md
 ```
 
-### Why lessons live under a CEFR folder but belong to many tracks
+### One lesson, one level — with playlists on top
 
-A lesson is a **content unit**. A curriculum is an **ordered playlist referencing lesson ids**.
-`content/curricula/sfi-b.json` and `content/curricula/cefr-a1.json` can both include
-`a1/greetings` — no duplication, no symlinks. The folder path is only for human convenience
-when editing; the app never derives meaning from it beyond a default level hint.
+A lesson is a **content unit** that belongs to exactly one level: its folder name, its `id`
+(`sfi-a/greetings`) and the single entry in its `levels` array all say the same thing.
+`scripts/validate-content.ts` enforces that, so a lesson can never drift away from its folder.
+
+A curriculum is an **ordered playlist referencing lesson ids** — `content/curricula/sfi-a.json`
+sets the teaching order inside a level. A playlist may reference any lesson id, so a future
+revision pack can pull lessons from several levels without duplicating content.
 
 ---
 
@@ -232,31 +233,25 @@ All types are defined with Zod in `src/content/schema.ts` and exported as inferr
 {
   "tracks": [
     {
-      "id": "cefr",
-      "title": { "ru": "Уровни CEFR", "en": "CEFR levels", "sv": "CEFR-nivåer" },
-      "levels": [
-        { "id": "a1", "title": { "en": "A1 — Beginner", "ru": "A1 — Начальный" }, "order": 1 },
-        { "id": "a2", "title": { "en": "A2 — Elementary", "ru": "A2 — Базовый" }, "order": 2 }
-      ]
-    },
-    {
       "id": "sfi",
-      "title": { "ru": "SFI", "en": "SFI (Swedish for Immigrants)", "sv": "SFI" },
+      "title": { "en": "SFI (Swedish for immigrants)", "sv": "Utbildning i svenska för invandrare" },
+      "note": { "en": "Courses A–D are the official SFI names, grouped into three study paths." },
       "levels": [
-        { "id": "sfi-a", "title": { "en": "SFI kurs A" }, "order": 1 },
-        { "id": "sfi-b", "title": { "en": "SFI kurs B" }, "order": 2 },
-        { "id": "sfi-c", "title": { "en": "SFI kurs C" }, "order": 3 },
-        { "id": "sfi-d", "title": { "en": "SFI kurs D" }, "order": 4 }
+        { "id": "sfi-a", "title": { "en": "SFI kurs A (≈ pre-A1)" }, "order": 1 },
+        { "id": "sfi-b", "title": { "en": "SFI kurs B (≈ A1)" }, "order": 2 },
+        { "id": "sfi-c", "title": { "en": "SFI kurs C (≈ A1+)" }, "order": 3 },
+        { "id": "sfi-d", "title": { "en": "SFI kurs D (≈ A2)" }, "order": 4 }
       ]
     },
     {
-      "id": "grund",
+      "id": "sva-grund",
       "title": { "en": "SVA — basic level (komvux)", "sv": "Svenska som andraspråk, grundläggande nivå" },
+      "note": { "en": "A 700-point komvux course of four delkurser; it follows SFI kurs D." },
       "levels": [
-        { "id": "grund-1", "title": { "en": "SVA grund delkurs 1" }, "order": 1 },
-        { "id": "grund-2", "title": { "en": "SVA grund delkurs 2" }, "order": 2 },
-        { "id": "grund-3", "title": { "en": "SVA grund delkurs 3" }, "order": 3 },
-        { "id": "grund-4", "title": { "en": "SVA grund delkurs 4" }, "order": 4 }
+        { "id": "sva-grund-1", "title": { "en": "SVA grund delkurs 1 (≈ A2+)" }, "order": 1 },
+        { "id": "sva-grund-2", "title": { "en": "SVA grund delkurs 2 (≈ B1)" }, "order": 2 },
+        { "id": "sva-grund-3", "title": { "en": "SVA grund delkurs 3 (≈ B1)" }, "order": 3 },
+        { "id": "sva-grund-4", "title": { "en": "SVA grund delkurs 4 (≈ B1+)" }, "order": 4 }
       ]
     }
   ]
@@ -273,16 +268,16 @@ a Swedish interface — the UI itself only ships `ru` and `en`.
 
 ```jsonc
 {
-  "id": "a1/greetings",
+  "id": "sfi-a/greetings",
   "slug": "greetings",
   "title": { "sv": "Hälsningar", "ru": "Приветствия", "en": "Greetings" },
   "summary": { "ru": "Как здороваться и прощаться по-шведски." },
   "kind": "vocab",                       // "vocab" | "grammar" | "phrases" | "mixed"
-  "levels": ["a1", "sfi-a", "sfi-b"],    // membership in level ids across all tracks
+  "levels": ["sfi-a"],                   // exactly one level; must match the folder
   "tags": ["everyday", "speaking"],
   "estimatedMinutes": 5,                 // HARD CAP: 5. Longer topics must be split
   "part": null,                          // or { "series": "food", "index": 1, "of": 3 }
-  "order": 10,                           // sort hint within its primary level
+  "order": 10,                           // sort hint within its level
   "prerequisites": [],                   // lesson ids that should be done first (soft gate)
   "xp": { "base": 100 },                 // XP for a first-time pass
   "quiz": { "questionsPerRun": 10, "passScore": 7 },
@@ -295,9 +290,9 @@ theory and ≤ 25 vocabulary items, plus a 10-question quiz. A topic that does n
 a series of parts, each a normal standalone lesson:
 
 ```
-content/lessons/a1/food-1/   → { "part": { "series": "food", "index": 1, "of": 3 } }
-content/lessons/a1/food-2/   → { "part": { "series": "food", "index": 2, "of": 3 } }
-content/lessons/a1/food-3/   → { "part": { "series": "food", "index": 3, "of": 3 } }
+content/lessons/sfi-b/food-1/   → { "part": { "series": "food", "index": 1, "of": 3 } }
+content/lessons/sfi-b/food-2/   → { "part": { "series": "food", "index": 2, "of": 3 } }
+content/lessons/sfi-b/food-3/   → { "part": { "series": "food", "index": 3, "of": 3 } }
 ```
 
 Parts render in the lesson list as a grouped card ("Food · 3 parts") with a shared progress ring,
@@ -679,7 +674,7 @@ The connection must be **explicit and visible**:
 | Path | Page |
 |---|---|
 | `/` | Home: due reviews, streak, continue-learning card, city snapshot |
-| `/tracks` | All tracks (CEFR / SFI / Grund) |
+| `/tracks` | Both tracks (SFI / SVA grundläggande) |
 | `/tracks/:trackId/:levelId` | Lesson list for a level, with progress rings |
 | `/lesson/:levelId/:slug` | Theory + vocabulary + "Take the test" |
 | `/lesson/:levelId/:slug/quiz` | Quiz runner |
@@ -703,8 +698,9 @@ The connection must be **explicit and visible**:
   before first paint so there is no flash of the wrong language.
   All UI strings go through `i18n`; no hardcoded text in components. Swedish is content only —
   there is no Swedish interface locale in v1.
-- **SFI labelling honesty:** the SFI track page carries a short note that the course breakdown is
-  a pragmatic approximation, not the official Skolverket syllabus.
+- **Level labelling honesty:** every track carries a `note` rendered above its levels, saying that
+  the topic breakdown inside the courses is a pragmatic approximation, not the official
+  Skolverket syllabus.
 - **Audio everywhere:** every Swedish word, example and question prompt has a speaker button.
   On first load, warn once if no `sv-SE` voice is installed, with a link to OS instructions.
 - **Positive feedback:** an aurora sweep on a perfect run, a coin-count animation, subtle sounds
@@ -1058,7 +1054,7 @@ the SRS deck. Themed lesson packs from §12.5. Ornament set: dala horse loader, 
 Younger Futhark seals, serpent-band era frames.
 
 **Phase 9 — Content scale-up**
-20+ lessons for A1, 15+ for A2, SFI A/B curricula assembled. Grammar reference articles.
+SFI kurs A/B filled out, kurs C/D built up, first text-based lessons for SVA grund delkurs 1. Grammar reference articles.
 
 **Phase 10 — Polish**
 PWA, offline, i18n completion, accessibility audit, Lighthouse ≥ 95.

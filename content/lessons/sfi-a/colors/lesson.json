@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/colors",
+  "slug": "colors",
+  "title": {
+    "sv": "Färger",
+    "ru": "Цвета",
+    "en": "Colors"
+  },
+  "summary": {
+    "ru": "Основные цвета — и как они меняются перед en- и ett-словами.",
+    "en": "The basic colors — and how they change before en- and ett-words."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "colors",
+    "adjectives"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 60,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "sfi-b/home",
+  "slug": "home",
+  "title": {
+    "sv": "Hemma",
+    "ru": "Дома",
+    "en": "At home"
+  },
+  "summary": {
+    "ru": "Комнаты и мебель — слова, которые нужны, чтобы описать свою квартиру или дом.",
+    "en": "Rooms and furniture — the words you need to describe your own home."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "home",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 130,
+  "prerequisites": [],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

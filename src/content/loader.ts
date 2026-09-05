@@ -69,8 +69,8 @@ const achievementsFile = import.meta.glob('../../content/achievements.json', {
 }) as Record<string, { default: unknown }>;
 
 // -- folder key -> lesson id -----------------------------------------------
-// A path like ../../content/lessons/a1/greetings/lesson.json maps to folderKey
-// "a1/greetings" so vocab/questions/theory can be joined to the same lesson.
+// A path like ../../content/lessons/sfi-a/greetings/lesson.json maps to folderKey
+// "sfi-a/greetings" so vocab/questions/theory can be joined to the same lesson.
 
 function folderKey(path: string): string {
   const parts = path.split('/');

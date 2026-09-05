@@ -1,0 +1,34 @@
+{
+  "id": "sfi-c/professions",
+  "slug": "professions",
+  "title": {
+    "sv": "Yrken",
+    "ru": "Профессии",
+    "en": "Professions"
+  },
+  "summary": {
+    "ru": "Как назвать профессию и ответить на вопрос «Кем ты работаешь?».",
+    "en": "How to name a profession and answer \"What do you work as?\"."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "professions",
+    "work",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 250,
+  "prerequisites": [],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sfi-d/housing",
+  "slug": "housing",
+  "title": {
+    "sv": "Bostad",
+    "ru": "Жильё",
+    "en": "Housing"
+  },
+  "summary": {
+    "ru": "Квартира, аренда, договор, ключи — слова, нужные при съёме жилья в Швеции.",
+    "en": "Apartment, rent, contract, keys — the words you need to rent a home in Sweden."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-d"
+  ],
+  "tags": [
+    "housing",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 310,
+  "prerequisites": [
+    "sfi-b/home"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

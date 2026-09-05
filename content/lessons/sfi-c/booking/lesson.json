@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/booking",
+  "slug": "booking",
+  "title": {
+    "sv": "Att boka tid",
+    "ru": "Как записаться на приём",
+    "en": "Booking an appointment"
+  },
+  "summary": {
+    "ru": "Фразы для записи на приём по телефону: свободное время, перенос, отмена, подтверждение.",
+    "en": "Phrases for booking an appointment by phone: availability, rescheduling, cancelling, confirming."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "phrases",
+    "phone",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 240,
+  "prerequisites": [
+    "sfi-a/clock"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

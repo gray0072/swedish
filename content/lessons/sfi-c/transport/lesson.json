@@ -1,0 +1,33 @@
+{
+  "id": "sfi-c/transport",
+  "slug": "transport",
+  "title": {
+    "sv": "Kollektivtrafik",
+    "ru": "Общественный транспорт",
+    "en": "Public transport"
+  },
+  "summary": {
+    "ru": "Метро, автобус, билеты — слова, нужные каждый день в шведском городе.",
+    "en": "Metro, bus, tickets — the words you need every day in a Swedish city."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "transport",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 210,
+  "prerequisites": [],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

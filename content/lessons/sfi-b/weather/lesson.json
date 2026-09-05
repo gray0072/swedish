@@ -1,0 +1,33 @@
+{
+  "id": "sfi-b/weather",
+  "slug": "weather",
+  "title": {
+    "sv": "Väder",
+    "ru": "Погода",
+    "en": "Weather"
+  },
+  "summary": {
+    "ru": "Как говорить о погоде — и почему шведы для этого используют слово «det».",
+    "en": "How to talk about the weather — and why Swedes use the word \"det\" for it."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "weather",
+    "adjectives"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 160,
+  "prerequisites": [],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

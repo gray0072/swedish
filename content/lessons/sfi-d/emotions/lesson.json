@@ -1,0 +1,33 @@
+{
+  "id": "sfi-d/emotions",
+  "slug": "emotions",
+  "title": {
+    "sv": "Känslor",
+    "ru": "Чувства",
+    "en": "Emotions"
+  },
+  "summary": {
+    "ru": "Радость, грусть, злость, тревога — как рассказать о своих чувствах по-шведски.",
+    "en": "Happy, sad, angry, worried — how to talk about your feelings in Swedish."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-d"
+  ],
+  "tags": [
+    "emotions",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 330,
+  "prerequisites": [],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

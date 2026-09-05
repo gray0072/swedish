@@ -1,3 +1,13 @@
 {
-  "lessons": ["sfi-a/alphabet", "sfi-a/personal-info", "sfi-a/clock"]
+  "lessons": [
+    "sfi-a/alphabet",
+    "sfi-a/greetings",
+    "sfi-a/numbers-0-20",
+    "sfi-a/personal-info",
+    "sfi-a/days-of-week",
+    "sfi-a/colors",
+    "sfi-a/time-of-day",
+    "sfi-a/clock",
+    "sfi-a/body"
+  ]
 }

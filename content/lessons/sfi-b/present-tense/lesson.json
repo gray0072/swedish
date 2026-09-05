@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/present-tense",
+  "slug": "present-tense",
+  "title": {
+    "sv": "Verb i presens",
+    "ru": "Настоящее время глаголов",
+    "en": "Present tense verbs"
+  },
+  "summary": {
+    "ru": "Самая приятная новость шведской грамматики: глагол не меняется по лицам.",
+    "en": "The best news in Swedish grammar: the verb never changes by person."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "verbs",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 190,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

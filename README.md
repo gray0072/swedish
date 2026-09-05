@@ -15,7 +15,7 @@ Development log: [CHANGELOG.md](CHANGELOG.md) (Russian).
 
 | Feature | Description |
 |---|---|
-| Lessons by level | Tracks for CEFR (A1–B1), SFI (kurs A–D) and SVA grundläggande (delkurs 1–4); one lesson can belong to several |
+| Lessons by level | Two sequential tracks: SFI (kurs A–D) and, after it, SVA grundläggande (delkurs 1–4); every lesson belongs to exactly one level |
 | Theory + vocabulary | Short Markdown theory and a word list per lesson, with `sv-SE` text-to-speech on every Swedish word |
 | Quiz engine | 10 questions per run, weighted-sampled from a pool of 100+ generated from the vocabulary list, plus hand-written questions for word order, idioms and grammar traps |
 | Spaced repetition | A global Leitner-box review deck (`/review`) across every lesson you've studied |

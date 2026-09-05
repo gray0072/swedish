@@ -1,19 +1,34 @@
 {
   "id": "sfi-a/alphabet",
   "slug": "alphabet",
-  "title": { "sv": "Alfabetet", "ru": "Шведский алфавит", "en": "The Swedish alphabet" },
+  "title": {
+    "sv": "Alfabetet",
+    "ru": "Шведский алфавит",
+    "en": "The Swedish alphabet"
+  },
   "summary": {
     "ru": "29 букв шведского алфавита — и три особенные буквы å, ä, ö в конце.",
     "en": "The 29 letters of the Swedish alphabet — and the three extra letters å, ä, ö."
   },
   "kind": "vocab",
-  "levels": ["sfi-a"],
-  "tags": ["alphabet", "pronunciation", "basics"],
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "alphabet",
+    "pronunciation",
+    "basics"
+  ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 500,
+  "order": 10,
   "prerequisites": [],
-  "xp": { "base": 100 },
-  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
   "cityUnlock": null
 }

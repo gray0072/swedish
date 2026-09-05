@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/days-of-week",
+  "slug": "days-of-week",
+  "title": {
+    "sv": "Veckodagar",
+    "ru": "Дни недели",
+    "en": "Days of the week"
+  },
+  "summary": {
+    "ru": "Семь дней недели — и почему они называются именно так.",
+    "en": "The seven days of the week — and why they're named the way they are."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "time",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 50,
+  "prerequisites": [
+    "sfi-a/numbers-0-20"
+  ],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/time-of-day",
+  "slug": "time-of-day",
+  "title": {
+    "sv": "Dygnet",
+    "ru": "Время суток",
+    "en": "Time of day"
+  },
+  "summary": {
+    "ru": "Утро, день, вечер, ночь — и шведское слово для целых суток сразу.",
+    "en": "Morning, day, evening, night — and the Swedish word for a full day-night cycle."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "time",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 70,
+  "prerequisites": [
+    "sfi-a/greetings",
+    "sfi-a/days-of-week"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

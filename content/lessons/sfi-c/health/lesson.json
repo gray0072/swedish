@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/health",
+  "slug": "health",
+  "title": {
+    "sv": "Vård och hälsa",
+    "ru": "Здоровье и медицина",
+    "en": "Health and healthcare"
+  },
+  "summary": {
+    "ru": "Как описать симптомы и записаться на приём в вардцентрал.",
+    "en": "How to describe symptoms and book an appointment at the health center."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "health",
+    "doctor",
+    "body"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 230,
+  "prerequisites": [
+    "sfi-a/body"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

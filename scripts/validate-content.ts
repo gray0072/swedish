@@ -50,6 +50,7 @@ if (existsSync(tracksPath)) {
 // -- lessons ------------------------------------------------------------
 const lessonsRoot = join(ROOT, 'lessons');
 const lessonIds = new Set<string>();
+const prerequisites: Array<[string, string[]]> = [];
 
 if (existsSync(lessonsRoot)) {
   for (const level of readdirSync(lessonsRoot)) {
@@ -69,6 +70,10 @@ if (existsSync(lessonsRoot)) {
       const meta = metaParsed.data;
       if (lessonIds.has(meta.id)) errors.push(`duplicate lesson id "${meta.id}"`);
       lessonIds.add(meta.id);
+      if (meta.id !== `${level}/${slug}`) {
+        errors.push(`${level}/${slug}: lesson id is "${meta.id}", expected "${level}/${slug}"`);
+      }
+      prerequisites.push([meta.id, meta.prerequisites]);
 
       for (const levelId of meta.levels) {
         if (!levelIds.has(levelId)) {
@@ -115,6 +120,16 @@ if (existsSync(lessonsRoot)) {
           errors.push(`${meta.id}/${q.id}: answer index ${q.answer} out of range`);
         }
       }
+    }
+  }
+}
+
+// Prerequisites are resolved only after every lesson id is known, so a lesson may
+// point at one that is defined later in the walk.
+for (const [id, prereqs] of prerequisites) {
+  for (const prereq of prereqs) {
+    if (!lessonIds.has(prereq)) {
+      errors.push(`${id}: prerequisite "${prereq}" is not an existing lesson id`);
     }
   }
 }

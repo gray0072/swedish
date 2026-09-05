@@ -1,0 +1,33 @@
+{
+  "id": "sfi-a/greetings",
+  "slug": "greetings",
+  "title": {
+    "sv": "Hälsningar",
+    "ru": "Приветствия",
+    "en": "Greetings"
+  },
+  "summary": {
+    "ru": "Как здороваться, прощаться и благодарить по-шведски.",
+    "en": "How to greet, say goodbye and say thanks in Swedish."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "everyday",
+    "speaking"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 20,
+  "prerequisites": [],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

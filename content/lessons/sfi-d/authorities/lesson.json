@@ -1,0 +1,36 @@
+{
+  "id": "sfi-d/authorities",
+  "slug": "authorities",
+  "title": {
+    "sv": "Myndigheter och blanketter",
+    "ru": "Госорганы и бланки",
+    "en": "Authorities & forms"
+  },
+  "summary": {
+    "ru": "Skatteverket, Försäkringskassan, бланки и подписи — слова для реальной жизни в Швеции.",
+    "en": "Skatteverket, Försäkringskassan, forms and signatures — real-life survival vocabulary for Sweden."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-d"
+  ],
+  "tags": [
+    "authorities",
+    "everyday",
+    "bureaucracy"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 320,
+  "prerequisites": [
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}
