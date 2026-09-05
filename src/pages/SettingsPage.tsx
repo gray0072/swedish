@@ -1,8 +1,24 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { Volume2 } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useSettings, useLanguage } from '@/store/settings';
 import { exportSaveToFile } from '@/store/persist';
+import { listSwedishVoices, previewVoice } from '@/lib/tts';
+
+/** Re-reads the installed sv-SE voice list, refreshing once the browser loads it async. */
+function useSwedishVoiceList(): SpeechSynthesisVoice[] {
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>(() => listSwedishVoices());
+  useEffect(() => {
+    const refresh = () => setVoices(listSwedishVoices());
+    refresh();
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.addEventListener('voiceschanged', refresh);
+      return () => window.speechSynthesis.removeEventListener('voiceschanged', refresh);
+    }
+  }, []);
+  return voices;
+}
 
 export default function SettingsPage() {
   const t = useT();
@@ -11,6 +27,8 @@ export default function SettingsPage() {
   const setLanguage = useAppStore((s) => s.setLanguage);
   const setTheme = useAppStore((s) => s.setTheme);
   const setSound = useAppStore((s) => s.setSound);
+  const setTtsVoice = useAppStore((s) => s.setTtsVoice);
+  const voices = useSwedishVoiceList();
   const resetSave = useAppStore((s) => s.resetSave);
   const importSave = useAppStore((s) => s.importSave);
   const fileInput = useRef<HTMLInputElement>(null);
@@ -92,6 +110,40 @@ export default function SettingsPage() {
           onChange={(e) => setSound(e.target.checked)}
           className="h-5 w-5 accent-falu"
         />
+      </section>
+
+      <section className="card space-y-2">
+        <label className="text-sm font-semibold" htmlFor="voice-select">
+          {t('settings.voice')}
+        </label>
+        {voices.length === 0 ? (
+          <p className="text-xs text-granite dark:text-birch/60">{t('settings.voice.none')}</p>
+        ) : (
+          <div className="flex gap-2">
+            <select
+              id="voice-select"
+              value={settings.ttsVoice ?? ''}
+              onChange={(e) => setTtsVoice(e.target.value || null)}
+              className="w-full rounded-xl border border-granite/25 bg-transparent px-3 py-2.5 text-sm outline-none focus:border-falu dark:border-white/20"
+            >
+              <option value="">{t('settings.voice.auto')}</option>
+              {voices.map((v) => (
+                <option key={v.voiceURI} value={v.voiceURI}>
+                  {v.name} {v.localService ? '' : '☁︎'}
+                </option>
+              ))}
+            </select>
+            <button
+              type="button"
+              className="btn-secondary shrink-0"
+              onClick={() => previewVoice(settings.ttsVoice || voices[0].voiceURI, settings.ttsRate)}
+              aria-label={t('settings.voice.preview')}
+              title={t('settings.voice.preview')}
+            >
+              <Volume2 size={16} aria-hidden="true" />
+            </button>
+          </div>
+        )}
       </section>
 
       <section className="card space-y-3">

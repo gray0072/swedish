@@ -66,6 +66,7 @@ interface AppState extends SaveFile {
   seedReviewItems: (ids: string[]) => void;
   setTheme: (theme: SaveFile['settings']['theme']) => void;
   setSound: (enabled: boolean) => void;
+  setTtsVoice: (voiceURI: string | null) => void;
   resetSave: () => void;
   importSave: (raw: unknown) => boolean;
 }
@@ -237,6 +238,7 @@ export const useAppStore = create<AppState>()(
 
       setTheme: (theme) => set((s) => ({ settings: { ...s.settings, theme } })),
       setSound: (sound) => set((s) => ({ settings: { ...s.settings, sound } })),
+      setTtsVoice: (ttsVoice) => set((s) => ({ settings: { ...s.settings, ttsVoice } })),
 
       resetSave: () => set(freshSave()),
 

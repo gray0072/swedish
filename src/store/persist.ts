@@ -50,21 +50,27 @@ export interface SaveFile {
   items: Record<string, ItemProgress>;
   city: { buildings: Record<string, BuildingState> };
   historyRead: string[];
-  settings: { theme: 'system' | 'light' | 'dark'; sound: boolean; ttsRate: number };
+  settings: {
+    theme: 'system' | 'light' | 'dark';
+    sound: boolean;
+    ttsRate: number;
+    /** speechSynthesis voiceURI of the preferred sv-SE voice, or null = auto-pick. */
+    ttsVoice: string | null;
+  };
 }
 
 export function freshSave(): SaveFile {
   return {
     version: SAVE_VERSION,
     createdAt: new Date().toISOString(),
-    language: 'ru',
+    language: 'en',
     wallet: { xp: 0, coins: 0 },
     streak: { current: 0, longest: 0, lastActiveDate: null, freezesAvailable: 0 },
     lessons: {},
     items: {},
     city: { buildings: {} },
     historyRead: [],
-    settings: { theme: 'system', sound: true, ttsRate: 0.95 },
+    settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null },
   };
 }
 
@@ -90,6 +96,9 @@ export const saveFileSchema = z
       theme: z.enum(['system', 'light', 'dark']),
       sound: z.boolean(),
       ttsRate: z.number(),
+      // Optional: saves from before the voice picker was added won't have it yet — treated
+      // as "auto-pick" (see migrateSave's post-parse defaulting below).
+      ttsVoice: z.string().nullable().optional(),
     }),
   })
   .passthrough();
@@ -112,7 +121,11 @@ export function migrateSave(raw: unknown): SaveFile {
   if (!parsed.success) {
     throw new Error(`Corrupted save file: ${parsed.error.message}`);
   }
-  return parsed.data as SaveFile;
+  const save = parsed.data as SaveFile;
+  // A save from before the voice picker existed won't have settings.ttsVoice at all —
+  // treat that the same as "auto-pick" rather than leaving it undefined.
+  if (save.settings.ttsVoice === undefined) save.settings.ttsVoice = null;
+  return save;
 }
 
 export function loadSave(): SaveFile {
