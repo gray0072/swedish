@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 // Palette and type scale from SPEC.md §11 (Visual identity — Swedish national style).
 // Do not add ad-hoc colors elsewhere — everything routes through these tokens.
@@ -36,12 +37,17 @@ export default {
           '70%': { strokeDashoffset: '0', fillOpacity: '0' },
           '100%': { strokeDashoffset: '0', fillOpacity: '1' },
         },
+        'dala-rock': {
+          '0%, 100%': { transform: 'rotate(-4deg)' },
+          '50%': { transform: 'rotate(4deg)' },
+        },
       },
       animation: {
         'aurora-sweep': 'aurora-sweep 1.2s ease-out',
         carve: 'carve 900ms ease-out',
+        'dala-rock': 'dala-rock 1.6s ease-in-out infinite',
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 } satisfies Config;

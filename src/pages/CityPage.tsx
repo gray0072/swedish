@@ -6,6 +6,9 @@ import { resolveLocalized } from '@/content/schema';
 import { useWallet } from '@/store/wallet';
 import BuildingCard from '@/components/city/BuildingCard';
 import HistoryCard from '@/components/city/HistoryCard';
+import CityMap from '@/components/city/CityMap';
+import EraFrame from '@/components/ui/EraFrame';
+import KurbitsDivider from '@/components/ui/KurbitsDivider';
 
 export default function CityPage() {
   const t = useT();
@@ -56,17 +59,25 @@ export default function CityPage() {
         <p className="card !border-l-4 !border-l-gold text-sm">{t('city.eraIntro.viking')}</p>
       )}
 
-      {unlocked && (
+      {unlocked && selectedEra && (
         <>
+          <EraFrame>{resolveLocalized(selectedEra.name, lang)}</EraFrame>
+          <CityMap era={selectedEra} buildings={buildings} />
+
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {buildings.map((b) => (
-              <BuildingCard key={b.id} building={b} />
+              <div key={b.id} id={`building-${b.id}`} className="scroll-mt-20">
+                <BuildingCard building={b} />
+              </div>
             ))}
           </div>
 
           {historyCards.length > 0 && (
-            <section className="space-y-2">
-              <h2 className="font-display text-lg font-semibold">📜 {resolveLocalized(selectedEra.name, lang)}</h2>
+            <section className="space-y-3">
+              <KurbitsDivider />
+              <h2 className="font-display text-lg font-semibold">
+                📜 {resolveLocalized(selectedEra.name, lang)}
+              </h2>
               {historyCards.map((card) => (
                 <HistoryCard key={card.id} card={card} />
               ))}
