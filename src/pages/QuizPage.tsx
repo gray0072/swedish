@@ -35,7 +35,10 @@ export default function QuizPage() {
           {t('quiz.quit')}
         </button>
       </div>
-      <QuizRunner lesson={lesson} onFinish={handleFinish} />
+      {/* key forces a full remount on lesson change — QuizRunner's session lives in a lazy
+          useState initializer that only runs once, so without this a client-side navigation
+          straight from one lesson's quiz to another's would keep the old session. */}
+      <QuizRunner key={lesson.meta.id} lesson={lesson} onFinish={handleFinish} />
     </div>
   );
 }
