@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-home-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Стол стоит у окна.»", "en": "Build the phrase: \"The table stands by the window.\"" },
+      "tokens": ["vid", "Bordet", "fönstret", "står"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-home-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери вопрос: «Где кухня?»", "en": "Build the question: \"Where is the kitchen?\"" },
+      "tokens": ["köket", "Var", "är"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-home-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь комнаты с переводом", "en": "Match the rooms with their translation" },
+      "pairs": [
+        ["kök", "кухня"],
+        ["sovrum", "спальня"],
+        ["badrum", "ванная"],
+        ["vardagsrum", "гостиная"]
+      ]
+    },
+    {
+      "id": "q-home-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Lägenhet» значит «квартира».", "en": "\"Lägenhet\" means \"apartment\"." },
+      "answer": true
+    },
+    {
+      "id": "q-home-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kylskåp» — это шкаф для одежды.", "en": "\"Kylskåp\" is a wardrobe for clothes." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Kylskåp» — это холодильник (буквально «холодный шкаф»).",
+        "en": "\"Kylskåp\" is a fridge (literally \"cold cupboard\")."
+      }
+    },
+    {
+      "id": "q-home-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Mjölken är i ___. (холодильник, опред. форма)" },
+      "answer": ["kylskåpet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-home-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь принять душ. В какую комнату идти?",
+        "en": "You want to take a shower. Which room do you go to?"
+      },
+      "choices": ["köket", "badrummet", "vardagsrummet", "sovrummet"],
+      "answer": 1
+    },
+    {
+      "id": "q-home-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Где обычно стоит säng («кровать»)?",
+        "en": "Where does a säng (\"bed\") usually stand?"
+      },
+      "choices": ["i köket", "i sovrummet", "i badrummet", "på taket"],
+      "answer": 1
+    }
+  ]
+}

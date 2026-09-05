@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-animals-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Собаку зовут Бруно.»", "en": "Build the phrase: \"The dog's name is Bruno.\"" },
+      "tokens": ["heter", "Bruno", "Hunden"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-animals-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Кошка спит весь день.»", "en": "Build the phrase: \"The cat sleeps all day.\"" },
+      "tokens": ["dagen", "sover", "hela", "Katten"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-animals-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь животных с переводом", "en": "Match the animals with their translation" },
+      "pairs": [
+        ["hund", "собака"],
+        ["katt", "кошка"],
+        ["häst", "лошадь"],
+        ["fisk", "рыба"]
+      ]
+    },
+    {
+      "id": "q-animals-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Множественное число слова «får» — «får» (не меняется).", "en": "The plural of \"får\" is \"får\" (unchanged)." },
+      "answer": true
+    },
+    {
+      "id": "q-animals-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vild» значит «домашний, ручной».", "en": "\"Vild\" means \"tame, domesticated\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Vild» значит «дикий». «Домашний, ручной» — это «tam».",
+        "en": "\"Vild\" means \"wild\". \"Tame\" is \"tam\"."
+      }
+    },
+    {
+      "id": "q-animals-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag har ett ___. (домашнее животное)" },
+      "answer": ["husdjur"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-animals-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты видишь в зоопарке большого дикого кота с гривой. Какое это животное?",
+        "en": "You see a big wild cat with a mane at the zoo. What animal is it?"
+      },
+      "choices": ["ett lejon", "en katt", "en get", "en anka"],
+      "answer": 0
+    },
+    {
+      "id": "q-animals-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое животное даёт молоко на фермах?",
+        "en": "Which farm animal gives milk?"
+      },
+      "choices": ["hunden", "kon", "musen", "fågeln"],
+      "answer": 1
+    }
+  ]
+}

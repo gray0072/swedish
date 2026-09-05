@@ -1,0 +1,173 @@
+{
+  "items": [
+    {
+      "id": "djur",
+      "sv": "djur",
+      "translations": { "ru": "животное", "en": "animal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett djur", "defSg": "djuret", "indefPl": "djur", "defPl": "djuren" },
+      "example": { "sv": "Vilket är ditt favoritdjur?", "ru": "Какое твоё любимое животное?", "en": "What's your favourite animal?" }
+    },
+    {
+      "id": "husdjur",
+      "sv": "husdjur",
+      "translations": { "ru": "домашнее животное, питомец", "en": "pet" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett husdjur", "defSg": "husdjuret", "indefPl": "husdjur", "defPl": "husdjuren" },
+      "example": { "sv": "Jag har ett husdjur.", "ru": "У меня есть домашнее животное.", "en": "I have a pet." }
+    },
+    {
+      "id": "hund",
+      "sv": "hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "example": { "sv": "Hunden heter Bruno.", "ru": "Собаку зовут Бруно.", "en": "The dog's name is Bruno." }
+    },
+    {
+      "id": "katt",
+      "sv": "katt",
+      "translations": { "ru": "кошка", "en": "cat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en katt", "defSg": "katten", "indefPl": "katter", "defPl": "katterna" },
+      "example": { "sv": "Katten sover hela dagen.", "ru": "Кошка спит весь день.", "en": "The cat sleeps all day." }
+    },
+    {
+      "id": "hast",
+      "sv": "häst",
+      "translations": { "ru": "лошадь", "en": "horse" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en häst", "defSg": "hästen", "indefPl": "hästar", "defPl": "hästarna" },
+      "example": { "sv": "Hästen springer fort.", "ru": "Лошадь бежит быстро.", "en": "The horse runs fast." }
+    },
+    {
+      "id": "fagel",
+      "sv": "fågel",
+      "translations": { "ru": "птица", "en": "bird" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fågel", "defSg": "fågeln", "indefPl": "fåglar", "defPl": "fåglarna" },
+      "example": { "sv": "Fåglarna sjunger på morgonen.", "ru": "Птицы поют по утрам.", "en": "The birds sing in the morning." }
+    },
+    {
+      "id": "fisk",
+      "sv": "fisk",
+      "translations": { "ru": "рыба", "en": "fish" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fisk", "defSg": "fisken", "indefPl": "fiskar", "defPl": "fiskarna" },
+      "example": { "sv": "Fisken simmar i sjön.", "ru": "Рыба плавает в озере.", "en": "The fish swims in the lake." }
+    },
+    {
+      "id": "ko",
+      "sv": "ko",
+      "translations": { "ru": "корова", "en": "cow" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ko", "defSg": "kon", "indefPl": "kor", "defPl": "korna" },
+      "example": { "sv": "Kon äter gräs.", "ru": "Корова ест траву.", "en": "The cow is eating grass." }
+    },
+    {
+      "id": "gris",
+      "sv": "gris",
+      "translations": { "ru": "свинья", "en": "pig" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gris", "defSg": "grisen", "indefPl": "grisar", "defPl": "grisarna" },
+      "example": { "sv": "Grisen är rosa.", "ru": "Свинья розовая.", "en": "The pig is pink." }
+    },
+    {
+      "id": "kanin",
+      "sv": "kanin",
+      "translations": { "ru": "кролик", "en": "rabbit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kanin", "defSg": "kaninen", "indefPl": "kaniner", "defPl": "kaninerna" },
+      "example": { "sv": "Kaninen är snabb.", "ru": "Кролик быстрый.", "en": "The rabbit is fast." }
+    },
+    {
+      "id": "far",
+      "sv": "får",
+      "translations": { "ru": "овца", "en": "sheep" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett får", "defSg": "fåret", "indefPl": "får", "defPl": "fåren" },
+      "example": { "sv": "Fåren äter gräs på ängen.", "ru": "Овцы едят траву на лугу.", "en": "The sheep are eating grass in the meadow." }
+    },
+    {
+      "id": "get",
+      "sv": "get",
+      "translations": { "ru": "коза", "en": "goat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en get", "defSg": "geten", "indefPl": "getter", "defPl": "getterna" },
+      "example": { "sv": "Geten hoppar på berget.", "ru": "Коза прыгает по горе.", "en": "The goat jumps on the mountain." }
+    },
+    {
+      "id": "mus",
+      "sv": "mus",
+      "translations": { "ru": "мышь", "en": "mouse" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mus", "defSg": "musen", "indefPl": "möss", "defPl": "mössen" },
+      "example": { "sv": "Musen gömmer sig.", "ru": "Мышь прячется.", "en": "The mouse is hiding." }
+    },
+    {
+      "id": "bjorn",
+      "sv": "björn",
+      "translations": { "ru": "медведь", "en": "bear" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en björn", "defSg": "björnen", "indefPl": "björnar", "defPl": "björnarna" },
+      "example": { "sv": "Björnen sover på vintern.", "ru": "Медведь спит зимой.", "en": "The bear sleeps in winter." }
+    },
+    {
+      "id": "anka",
+      "sv": "anka",
+      "translations": { "ru": "утка", "en": "duck" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en anka", "defSg": "ankan", "indefPl": "ankor", "defPl": "ankorna" },
+      "example": { "sv": "Ankan simmar i dammen.", "ru": "Утка плавает в пруду.", "en": "The duck is swimming in the pond." }
+    },
+    {
+      "id": "hona",
+      "sv": "höna",
+      "translations": { "ru": "курица", "en": "hen" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en höna", "defSg": "hönan", "indefPl": "hönor", "defPl": "hönorna" },
+      "example": { "sv": "Hönan lägger ägg.", "ru": "Курица несёт яйца.", "en": "The hen lays eggs." }
+    },
+    {
+      "id": "lejon",
+      "sv": "lejon",
+      "translations": { "ru": "лев", "en": "lion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lejon", "defSg": "lejonet", "indefPl": "lejon", "defPl": "lejonen" },
+      "example": { "sv": "Lejonet bor i djurparken.", "ru": "Лев живёт в зоопарке.", "en": "The lion lives at the zoo." }
+    },
+    {
+      "id": "vild",
+      "sv": "vild",
+      "translations": { "ru": "дикий", "en": "wild" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: vilt, мн.ч.: vilda", "en": "ett-form: vilt, plural: vilda" },
+      "example": { "sv": "Ett lejon är ett vilt djur.", "ru": "Лев — дикое животное.", "en": "A lion is a wild animal." }
+    },
+    {
+      "id": "tam",
+      "sv": "tam",
+      "translations": { "ru": "домашний, ручной", "en": "tame" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tamt, мн.ч.: tamma", "en": "ett-form: tamt, plural: tamma" },
+      "example": { "sv": "Katten är tam.", "ru": "Кошка ручная.", "en": "The cat is tame." }
+    }
+  ]
+}

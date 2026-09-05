@@ -1,0 +1,165 @@
+{
+  "items": [
+    {
+      "id": "kropp",
+      "sv": "kropp",
+      "translations": { "ru": "тело", "en": "body" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kropp", "defSg": "kroppen", "indefPl": "kroppar", "defPl": "kropparna" },
+      "example": { "sv": "Kroppen behöver vila.", "ru": "Телу нужен отдых.", "en": "The body needs rest." }
+    },
+    {
+      "id": "huvud",
+      "sv": "huvud",
+      "translations": { "ru": "голова", "en": "head" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett huvud", "defSg": "huvudet", "indefPl": "huvuden", "defPl": "huvudena" },
+      "example": { "sv": "Jag har ont i huvudet.", "ru": "У меня болит голова.", "en": "I have a headache." }
+    },
+    {
+      "id": "arm",
+      "sv": "arm",
+      "translations": { "ru": "рука (от плеча до кисти)", "en": "arm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arm", "defSg": "armen", "indefPl": "armar", "defPl": "armarna" },
+      "example": { "sv": "Han har en tatuering på armen.", "ru": "У него татуировка на руке.", "en": "He has a tattoo on his arm." }
+    },
+    {
+      "id": "hand",
+      "sv": "hand",
+      "translations": { "ru": "рука (кисть)", "en": "hand" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hand", "defSg": "handen", "indefPl": "händer", "defPl": "händerna" },
+      "example": { "sv": "Tvätta händerna innan du äter.", "ru": "Помой руки перед едой.", "en": "Wash your hands before you eat." }
+    },
+    {
+      "id": "ben",
+      "sv": "ben",
+      "translations": { "ru": "нога; кость", "en": "leg; bone" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ben", "defSg": "benet", "indefPl": "ben", "defPl": "benen" },
+      "note": { "ru": "то же слово означает и «нога», и «кость» — смотри по контексту", "en": "the same word means both \"leg\" and \"bone\" — context decides" },
+      "example": { "sv": "Hon har brutit benet.", "ru": "Она сломала ногу.", "en": "She broke her leg." }
+    },
+    {
+      "id": "fot",
+      "sv": "fot",
+      "translations": { "ru": "нога (стопа)", "en": "foot" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fot", "defSg": "foten", "indefPl": "fötter", "defPl": "fötterna" },
+      "example": { "sv": "Mina fötter är kalla.", "ru": "У меня замёрзли ноги.", "en": "My feet are cold." }
+    },
+    {
+      "id": "oga",
+      "sv": "öga",
+      "translations": { "ru": "глаз", "en": "eye" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett öga", "defSg": "ögat", "indefPl": "ögon", "defPl": "ögonen" },
+      "example": { "sv": "Hon har blåa ögon.", "ru": "У неё голубые глаза.", "en": "She has blue eyes." }
+    },
+    {
+      "id": "ora",
+      "sv": "öra",
+      "translations": { "ru": "ухо", "en": "ear" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett öra", "defSg": "örat", "indefPl": "öron", "defPl": "öronen" },
+      "example": { "sv": "Jag har ont i örat.", "ru": "У меня болит ухо.", "en": "My ear hurts." }
+    },
+    {
+      "id": "nasa",
+      "sv": "näsa",
+      "translations": { "ru": "нос", "en": "nose" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en näsa", "defSg": "näsan", "indefPl": "näsor", "defPl": "näsorna" },
+      "example": { "sv": "Barnet har en liten näsa.", "ru": "У ребёнка маленький нос.", "en": "The child has a small nose." }
+    },
+    {
+      "id": "mun",
+      "sv": "mun",
+      "translations": { "ru": "рот", "en": "mouth" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mun", "defSg": "munnen", "indefPl": "munnar", "defPl": "munnarna" },
+      "example": { "sv": "Öppna munnen, tack.", "ru": "Откройте рот, пожалуйста.", "en": "Open your mouth, please." }
+    },
+    {
+      "id": "har",
+      "sv": "hår",
+      "translations": { "ru": "волосы", "en": "hair" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hår", "defSg": "håret", "indefPl": "hår", "defPl": "håren" },
+      "example": { "sv": "Hon har långt hår.", "ru": "У неё длинные волосы.", "en": "She has long hair." }
+    },
+    {
+      "id": "mage",
+      "sv": "mage",
+      "translations": { "ru": "живот", "en": "stomach" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mage", "defSg": "magen", "indefPl": "magar", "defPl": "magarna" },
+      "example": { "sv": "Jag har ont i magen.", "ru": "У меня болит живот.", "en": "My stomach hurts." }
+    },
+    {
+      "id": "rygg",
+      "sv": "rygg",
+      "translations": { "ru": "спина", "en": "back" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rygg", "defSg": "ryggen", "indefPl": "ryggar", "defPl": "ryggarna" },
+      "example": { "sv": "Det gör ont i ryggen.", "ru": "Болит спина.", "en": "My back hurts." }
+    },
+    {
+      "id": "finger",
+      "sv": "finger",
+      "translations": { "ru": "палец (руки)", "en": "finger" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett finger", "defSg": "fingret", "indefPl": "fingrar", "defPl": "fingrarna" },
+      "example": { "sv": "Hon har en ring på fingret.", "ru": "У неё кольцо на пальце.", "en": "She has a ring on her finger." }
+    },
+    {
+      "id": "tand",
+      "sv": "tand",
+      "translations": { "ru": "зуб", "en": "tooth" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tand", "defSg": "tanden", "indefPl": "tänder", "defPl": "tänderna" },
+      "example": { "sv": "Borsta tänderna varje kväll.", "ru": "Чисти зубы каждый вечер.", "en": "Brush your teeth every evening." }
+    },
+    {
+      "id": "hals",
+      "sv": "hals",
+      "translations": { "ru": "шея", "en": "neck" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hals", "defSg": "halsen", "indefPl": "halsar", "defPl": "halsarna" },
+      "example": { "sv": "Jag har ont i halsen.", "ru": "У меня болит горло/шея.", "en": "My throat/neck hurts." }
+    },
+    {
+      "id": "kna",
+      "sv": "knä",
+      "translations": { "ru": "колено", "en": "knee" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett knä", "defSg": "knäet", "indefPl": "knän", "defPl": "knäna" },
+      "example": { "sv": "Han skadade knäet i fotboll.", "ru": "Он повредил колено, играя в футбол.", "en": "He hurt his knee playing football." }
+    },
+    {
+      "id": "gor-ont",
+      "sv": "gör ont",
+      "translations": { "ru": "болит", "en": "hurts" },
+      "pos": "phrase",
+      "example": { "sv": "Det gör ont i magen.", "ru": "Живот болит.", "en": "My stomach hurts." }
+    }
+  ]
+}

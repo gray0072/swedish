@@ -1,0 +1,167 @@
+{
+  "items": [
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом (здание)", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset är stort och gult.", "ru": "Дом большой и жёлтый.", "en": "The house is big and yellow." }
+    },
+    {
+      "id": "lagenhet",
+      "sv": "lägenhet",
+      "translations": { "ru": "квартира", "en": "apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lägenhet", "defSg": "lägenheten", "indefPl": "lägenheter", "defPl": "lägenheterna" },
+      "example": { "sv": "Vi bor i en liten lägenhet.", "ru": "Мы живём в маленькой квартире.", "en": "We live in a small apartment." }
+    },
+    {
+      "id": "kok",
+      "sv": "kök",
+      "translations": { "ru": "кухня", "en": "kitchen" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kök", "defSg": "köket", "indefPl": "kök", "defPl": "köken" },
+      "example": { "sv": "Var är köket?", "ru": "Где кухня?", "en": "Where is the kitchen?" }
+    },
+    {
+      "id": "sovrum",
+      "sv": "sovrum",
+      "translations": { "ru": "спальня", "en": "bedroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sovrum", "defSg": "sovrummet", "indefPl": "sovrum", "defPl": "sovrummen" },
+      "example": { "sv": "Sängen står i sovrummet.", "ru": "Кровать стоит в спальне.", "en": "The bed is in the bedroom." }
+    },
+    {
+      "id": "badrum",
+      "sv": "badrum",
+      "translations": { "ru": "ванная", "en": "bathroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett badrum", "defSg": "badrummet", "indefPl": "badrum", "defPl": "badrummen" },
+      "example": { "sv": "Badrummet är litet men fint.", "ru": "Ванная маленькая, но красивая.", "en": "The bathroom is small but nice." }
+    },
+    {
+      "id": "vardagsrum",
+      "sv": "vardagsrum",
+      "translations": { "ru": "гостиная", "en": "living room" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett vardagsrum", "defSg": "vardagsrummet", "indefPl": "vardagsrum", "defPl": "vardagsrummen" },
+      "example": { "sv": "Vi tittar på tv i vardagsrummet.", "ru": "Мы смотрим телевизор в гостиной.", "en": "We watch TV in the living room." }
+    },
+    {
+      "id": "bord",
+      "sv": "bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Bordet står vid fönstret.", "ru": "Стол стоит у окна.", "en": "The table stands by the window." }
+    },
+    {
+      "id": "stol",
+      "sv": "stol",
+      "translations": { "ru": "стул", "en": "chair" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stol", "defSg": "stolen", "indefPl": "stolar", "defPl": "stolarna" },
+      "example": { "sv": "Han sitter på stolen.", "ru": "Он сидит на стуле.", "en": "He is sitting on the chair." }
+    },
+    {
+      "id": "sang",
+      "sv": "säng",
+      "translations": { "ru": "кровать", "en": "bed" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en säng", "defSg": "sängen", "indefPl": "sängar", "defPl": "sängarna" },
+      "example": { "sv": "Sängen är stor och bekväm.", "ru": "Кровать большая и удобная.", "en": "The bed is big and comfortable." }
+    },
+    {
+      "id": "soffa",
+      "sv": "soffa",
+      "translations": { "ru": "диван", "en": "sofa" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en soffa", "defSg": "soffan", "indefPl": "soffor", "defPl": "sofforna" },
+      "example": { "sv": "Soffan är i vardagsrummet.", "ru": "Диван в гостиной.", "en": "The sofa is in the living room." }
+    },
+    {
+      "id": "fonster",
+      "sv": "fönster",
+      "translations": { "ru": "окно", "en": "window" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fönster", "defSg": "fönstret", "indefPl": "fönster", "defPl": "fönstren" },
+      "example": { "sv": "Öppna fönstret, det är varmt.", "ru": "Открой окно, жарко.", "en": "Open the window, it's hot." }
+    },
+    {
+      "id": "lampa",
+      "sv": "lampa",
+      "translations": { "ru": "лампа", "en": "lamp" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lampa", "defSg": "lampan", "indefPl": "lampor", "defPl": "lamporna" },
+      "example": { "sv": "Lampan står på bordet.", "ru": "Лампа стоит на столе.", "en": "The lamp is on the table." }
+    },
+    {
+      "id": "skap",
+      "sv": "skåp",
+      "translations": { "ru": "шкаф", "en": "cupboard, cabinet" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skåp", "defSg": "skåpet", "indefPl": "skåp", "defPl": "skåpen" },
+      "example": { "sv": "Glasen ligger i skåpet.", "ru": "Стаканы лежат в шкафу.", "en": "The glasses are in the cupboard." }
+    },
+    {
+      "id": "matta",
+      "sv": "matta",
+      "translations": { "ru": "ковёр", "en": "rug, carpet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en matta", "defSg": "mattan", "indefPl": "mattor", "defPl": "mattorna" },
+      "example": { "sv": "Katten sover på mattan.", "ru": "Кошка спит на ковре.", "en": "The cat is sleeping on the rug." }
+    },
+    {
+      "id": "kylskap",
+      "sv": "kylskåp",
+      "translations": { "ru": "холодильник", "en": "fridge" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kylskåp", "defSg": "kylskåpet", "indefPl": "kylskåp", "defPl": "kylskåpen" },
+      "example": { "sv": "Mjölken är i kylskåpet.", "ru": "Молоко в холодильнике.", "en": "The milk is in the fridge." }
+    },
+    {
+      "id": "golv",
+      "sv": "golv",
+      "translations": { "ru": "пол", "en": "floor" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett golv", "defSg": "golvet", "indefPl": "golv", "defPl": "golven" },
+      "example": { "sv": "Golvet är kallt på vintern.", "ru": "Пол холодный зимой.", "en": "The floor is cold in winter." }
+    },
+    {
+      "id": "vagg",
+      "sv": "vägg",
+      "translations": { "ru": "стена", "en": "wall" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vägg", "defSg": "väggen", "indefPl": "väggar", "defPl": "väggarna" },
+      "example": { "sv": "Tavlan hänger på väggen.", "ru": "Картина висит на стене.", "en": "The painting hangs on the wall." }
+    },
+    {
+      "id": "tak",
+      "sv": "tak",
+      "translations": { "ru": "потолок; крыша", "en": "ceiling; roof" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tak", "defSg": "taket", "indefPl": "tak", "defPl": "taken" },
+      "note": { "ru": "означает и «потолок» внутри дома, и «крыша» снаружи", "en": "means both \"ceiling\" indoors and \"roof\" outdoors" },
+      "example": { "sv": "Lampan hänger i taket.", "ru": "Лампа висит на потолке.", "en": "The lamp hangs from the ceiling." }
+    }
+  ]
+}

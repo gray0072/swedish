@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-body-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «У меня болит голова.»", "en": "Build the phrase: \"I have a headache.\"" },
+      "tokens": ["huvudet", "ont", "Jag", "har", "i"],
+      "answer": [2, 3, 1, 4, 0]
+    },
+    {
+      "id": "q-body-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Чисти зубы каждый вечер.»", "en": "Build the phrase: \"Brush your teeth every evening.\"" },
+      "tokens": ["kväll", "tänderna", "Borsta", "varje"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-body-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь части тела с переводом", "en": "Match the body parts with their translation" },
+      "pairs": [
+        ["öga", "глаз"],
+        ["öra", "ухо"],
+        ["hand", "рука (кисть)"],
+        ["fot", "нога (стопа)"]
+      ]
+    },
+    {
+      "id": "q-body-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Множественное число слова «öga» — «ögon».", "en": "The plural of \"öga\" is \"ögon\"." },
+      "answer": true
+    },
+    {
+      "id": "q-body-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово «ben» может означать только «кость», а не «ногу».", "en": "The word \"ben\" can only mean \"bone\", never \"leg\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Ben» означает и «ногу», и «кость» — значение зависит от контекста.",
+        "en": "\"Ben\" means both \"leg\" and \"bone\" — the meaning depends on context."
+      }
+    },
+    {
+      "id": "q-body-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag har ont i ___. (живот)" },
+      "answer": ["magen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-body-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "У тебя болит горло и трудно глотать. Что у тебя болит?",
+        "en": "Your throat is sore and it's hard to swallow. What hurts?"
+      },
+      "choices": ["halsen", "fingret", "knäet", "näsan"],
+      "answer": 0
+    },
+    {
+      "id": "q-body-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Каким органом ты слышишь?",
+        "en": "Which body part do you use to hear?"
+      },
+      "choices": ["ögat", "örat", "munnen", "näsan"],
+      "answer": 1
+    }
+  ]
+}
