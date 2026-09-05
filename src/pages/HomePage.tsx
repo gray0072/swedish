@@ -37,9 +37,12 @@ export default function HomePage() {
             <span>🪙</span> {formatNumber(wallet.coins)} {t('home.wallet.coins')}
           </div>
           {streak.current > 0 && (
-            <div className="flex items-center gap-1.5 text-sm font-semibold text-falu dark:text-gold">
+            <Link
+              to="/stats"
+              className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
+            >
               <Flame size={16} aria-hidden="true" /> {streak.current} {t('home.streak.days')}
-            </div>
+            </Link>
           )}
         </div>
       </section>
@@ -89,9 +92,14 @@ export default function HomePage() {
         <span className="text-sm font-semibold text-falu dark:text-gold">{t('home.city.cta')} →</span>
       </Link>
 
-      <Link to="/tracks" className="block text-center text-sm font-semibold text-falu hover:underline dark:text-gold">
-        {t('home.browseTracks')} →
-      </Link>
+      <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-center text-sm font-semibold text-falu dark:text-gold">
+        <Link to="/tracks" className="hover:underline">
+          {t('home.browseTracks')} →
+        </Link>
+        <Link to="/stats" className="hover:underline">
+          {t('nav.stats')} →
+        </Link>
+      </div>
     </div>
   );
 }

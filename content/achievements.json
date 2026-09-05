@@ -1,0 +1,67 @@
+{
+  "achievements": [
+    {
+      "id": "first-word",
+      "name": { "sv": "Första ordet", "ru": "Первое слово", "en": "First word" },
+      "description": { "ru": "Выучи первое слово.", "en": "Learn your first word." },
+      "icon": "🌱",
+      "condition": { "type": "wordsLearned", "value": 1 }
+    },
+    {
+      "id": "vocab-25",
+      "name": { "sv": "Ordförråd 25", "ru": "Словарь 25", "en": "Vocabulary 25" },
+      "description": { "ru": "25 выученных слов.", "en": "25 words learned." },
+      "icon": "📗",
+      "condition": { "type": "wordsLearned", "value": 25 }
+    },
+    {
+      "id": "vocab-75",
+      "name": { "sv": "Ordförråd 75", "ru": "Словарь 75", "en": "Vocabulary 75" },
+      "description": { "ru": "75 выученных слов.", "en": "75 words learned." },
+      "icon": "📚",
+      "condition": { "type": "wordsLearned", "value": 75 }
+    },
+    {
+      "id": "streak-3",
+      "name": { "sv": "Tre dagar i rad", "ru": "Три дня подряд", "en": "Three days in a row" },
+      "description": { "ru": "Занимайся три дня подряд.", "en": "Study three days in a row." },
+      "icon": "🔥",
+      "condition": { "type": "streak", "value": 3 }
+    },
+    {
+      "id": "streak-7",
+      "name": { "sv": "Sju dagar i rad", "ru": "Семь дней подряд", "en": "Seven days in a row" },
+      "description": { "ru": "Занимайся семь дней подряд.", "en": "Study seven days in a row." },
+      "icon": "🔥",
+      "condition": { "type": "streak", "value": 7 }
+    },
+    {
+      "id": "curriculum-clear",
+      "name": { "sv": "Alla lektioner", "ru": "Все уроки", "en": "Every lesson" },
+      "description": { "ru": "Пройди все доступные уроки.", "en": "Pass every available lesson." },
+      "icon": "🎓",
+      "condition": { "type": "allLessonsPassed" }
+    },
+    {
+      "id": "era-viking",
+      "name": { "sv": "Vikingafärd", "ru": "Поход викингов", "en": "Viking voyage" },
+      "description": { "ru": "Дойди до эпохи викингов.", "en": "Reach the Viking age." },
+      "icon": "🛶",
+      "condition": { "type": "eraReached", "eraId": "viking" }
+    },
+    {
+      "id": "era-medieval",
+      "name": { "sv": "Stockholms grundare", "ru": "Основатель Стокгольма", "en": "Founder of Stockholm" },
+      "description": { "ru": "Дойди до средневекового Стокгольма.", "en": "Reach medieval Stockholm." },
+      "icon": "🏰",
+      "condition": { "type": "eraReached", "eraId": "medieval" }
+    },
+    {
+      "id": "builder-10",
+      "name": { "sv": "Samlaren", "ru": "Коллекционер", "en": "The collector" },
+      "description": { "ru": "Построй 10 зданий.", "en": "Build 10 buildings." },
+      "icon": "🏗️",
+      "condition": { "type": "buildingsOwned", "value": 10 }
+    }
+  ]
+}
