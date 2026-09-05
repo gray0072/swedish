@@ -12,7 +12,7 @@ These are settled — do not re-litigate them during implementation.
 |---|---|
 | Repository name | `swedish` → Vite `base: '/swedish/'`, site at `https://<user>.github.io/swedish/` |
 | Site title | **Swedish** (`<title>Swedish</title>`, PWA `name`, header wordmark) |
-| Study languages | **Russian and English only.** A toggle in the page header switches both the UI and the translations shown; the choice is persisted in localStorage |
+| Study languages | **Russian and English only.** A toggle in the page header switches both the UI and the translations shown; the choice is persisted in localStorage. Default: **English** |
 | Swedish UI locale | Deferred past v1. Swedish appears as *content*, not as an interface language |
 | SFI structure | **Pragmatic approximation**, not the official Skolverket syllabus. Stated honestly in the UI |
 | Lesson length | **≤ 5 minutes.** Anything longer is split into numbered parts. Enforced by content validation |
@@ -695,7 +695,7 @@ The connection must be **explicit and visible**:
 - **Dark mode** via Tailwind `class` strategy, defaulting to system preference.
 - **Language toggle in the header.** A single `RU / EN` switch sits in the top bar on every page.
   It controls **both** the interface language and the translation shown next to Swedish — there is
-  one language setting, not two. Default: `ru`. Persisted to localStorage under
+  one language setting, not two. Default: `en`. Persisted to localStorage under
   `swedish-app:language` (written eagerly on change, also mirrored into the save file) and read
   before first paint so there is no flash of the wrong language.
   All UI strings go through `i18n`; no hardcoded text in components. Swedish is content only —
