@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/parts-of-speech",
+  "slug": "parts-of-speech",
+  "title": {
+    "sv": "Ordklasser",
+    "ru": "Части речи",
+    "en": "Parts of speech"
+  },
+  "summary": {
+    "ru": "Без названий частей речи нельзя объяснить ни одно правило дальше — выучи этот метаязык один раз и на весь курс.",
+    "en": "Every rule from here on leans on these names — learn the metalanguage once and you're set for the whole course."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "parts-of-speech",
+    "metalanguage",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 410,
+  "prerequisites": [],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

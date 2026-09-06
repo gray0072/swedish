@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/adjective-comparison",
+  "slug": "adjective-comparison",
+  "title": {
+    "sv": "Adjektivets komparation",
+    "ru": "Степени сравнения, включая супплетивные формы",
+    "en": "Comparison, including suppletive forms"
+  },
+  "summary": {
+    "ru": "Большинство прилагательных сравниваются по регулярной модели -are/-ast, но у десятка самых частых слов основа меняется целиком — их придётся выучить наизусть.",
+    "en": "Most adjectives compare with the regular -are/-ast pattern, but a dozen of the most common ones change their stem entirely — those just have to be memorized."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "adjectives",
+    "grammar",
+    "comparison"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 540,
+  "prerequisites": [
+    "sva-grund-1/adjective-declension"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -90,18 +90,21 @@ Swedish system.
 | SFI kurs B | 9 | 25 | 20 |
 | SFI kurs C | 5 | 25 | 20 |
 | SFI kurs D | 3 | 25 | 20 |
-| SVA grund delkurs 1 | 0 | 25 | 20 |
+| SVA grund delkurs 1 | 20 | 25 | 20 |
 | SVA grund delkurs 2 | 0 | 25 | 20 |
 | SVA grund delkurs 3 | 0 | 25 | 20 |
 | SVA grund delkurs 4 | 0 | 25 | 20 |
 
-Lessons done in total: **26** (`npx tsx scripts/validate-content.ts` confirms the number).
-Grammar points planned in total: **160**.
+Lessons done in total: **46** (`npx tsx scripts/validate-content.ts` confirms the number).
+Grammar points planned in total: **160**, of which **20** now have a dedicated lesson
+(all of SVA grund delkurs 1).
 
-All 26 lessons written so far are vocabulary and phrase lessons, which by format makes
-them SFI material. The SVA levels are deliberately empty for now: a lesson there is work
-with a text (referat, argumentation, källkritik), and the project has no such lesson
-format yet.
+All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1 additionally
+has 20 grammar lessons — one per point on its grammar list, each with bilingual (RU/EN)
+theory (`theory.md` + `theory_en.md`, picked by the study-language toggle). None of
+delkurs 1's 25 thematic topics exists yet, and delkurs 2–4 are still fully empty: a topic
+lesson there is work with a text (referat, argumentation, källkritik), and the project
+has no such lesson format yet.
 
 ---
 
@@ -367,32 +370,53 @@ write it".
 23. [ ] Free time and culture: talking about a film or a book
 24. [ ] Nature and allemansrätten
 25. [ ] Retelling what you heard: a news item, an announcement, an instruction
+26. [x] Parts of speech and metalanguage — `sva-grund-1/parts-of-speech`
+27. [x] Sentence elements — `sva-grund-1/sentence-elements`
+28. [x] The four verb groups and the strong verbs, systematised — `sva-grund-1/verb-groups`
+29. [x] All the tenses in one table — `sva-grund-1/tense-overview`
+30. [x] The future: `ska` / `kommer att` / the present — `sva-grund-1/future-tense`
+31. [x] Modal verbs in every tense — `sva-grund-1/modal-verbs-tenses`
+32. [x] `att` + infinitive, and the infinitive without `att` — `sva-grund-1/att-infinitive`
+33. [x] Main-clause word order: the fundament and the V2 rule — `sva-grund-1/main-clause-word-order`
+34. [x] Subordinate-clause word order and the BIFF rule — `sva-grund-1/subordinate-clause-word-order`
+35. [x] The position of sentence adverbs — `sva-grund-1/sentence-adverb-position`
+36. [x] The noun: gender, number, definiteness — five declensions — `sva-grund-1/noun-declensions`
+37. [x] Double definiteness and its exceptions — `sva-grund-1/double-definiteness`
+38. [x] The adjective: strong and weak declension — `sva-grund-1/adjective-declension`
+39. [x] Comparison, including suppletive forms — `sva-grund-1/adjective-comparison`
+40. [x] Pronouns: personal, object, possessive, reflexive — `sva-grund-1/pronouns-overview`
+41. [x] `sin/sitt/sina` — `sva-grund-1/sin-sitt-sina`
+42. [x] Indefinite pronouns — `sva-grund-1/indefinite-pronouns`
+43. [x] Particle verbs — `sva-grund-1/particle-verbs`
+44. [x] Compounds and the linking `-s-` — `sva-grund-1/compound-words`
+45. [x] Punctuation and capitalisation — `sva-grund-1/punctuation-paragraphs`
 
 ### Grammar (20 points)
 
 Delkurs 1 systematises what SFI taught through patterns: the same topics, but now with
-terminology and rules.
+terminology and rules. Every point below now has its own dedicated bilingual (RU/EN)
+lesson — see the slug next to each.
 
-1. [ ] Parts of speech and metalanguage: `verb, substantiv, adjektiv, pronomen, preposition`
-2. [ ] Sentence elements: `subjekt, predikat, objekt, adverbial`
-3. [ ] The four verb groups and the strong verbs — systematised
-4. [ ] All the tenses: present, preterite, perfect, pluperfect — in one table
-5. [ ] The future: `ska` / `kommer att` / the present — how to choose
-6. [ ] Modal verbs in every tense
-7. [ ] `att` + infinitive, and the infinitive without `att`
-8. [ ] Main-clause word order: the fundament and the V2 rule
-9. [ ] Subordinate-clause word order and the BIFF rule
-10. [ ] The position of sentence adverbs in main and subordinate clauses
-11. [ ] The noun: gender, number, definiteness — the full system of five declensions
-12. [ ] Double definiteness and its exceptions
-13. [ ] The adjective: strong and weak declension
-14. [ ] Comparison, including suppletive forms
-15. [ ] Pronouns: personal, object, possessive, reflexive
-16. [ ] `sin/sitt/sina` — drilled to automaticity
-17. [ ] Indefinite pronouns: `någon, ingen, varje, alla, all/allt`
-18. [ ] Particle verbs and how they differ from "verb + preposition"
-19. [ ] Compounds and the linking `-s-`
-20. [ ] Punctuation and capitalisation; splitting a text into paragraphs
+1. [x] Parts of speech and metalanguage: `verb, substantiv, adjektiv, pronomen, preposition` — `sva-grund-1/parts-of-speech`
+2. [x] Sentence elements: `subjekt, predikat, objekt, adverbial` — `sva-grund-1/sentence-elements`
+3. [x] The four verb groups and the strong verbs — systematised — `sva-grund-1/verb-groups`
+4. [x] All the tenses: present, preterite, perfect, pluperfect — in one table — `sva-grund-1/tense-overview`
+5. [x] The future: `ska` / `kommer att` / the present — how to choose — `sva-grund-1/future-tense`
+6. [x] Modal verbs in every tense — `sva-grund-1/modal-verbs-tenses`
+7. [x] `att` + infinitive, and the infinitive without `att` — `sva-grund-1/att-infinitive`
+8. [x] Main-clause word order: the fundament and the V2 rule — `sva-grund-1/main-clause-word-order`
+9. [x] Subordinate-clause word order and the BIFF rule — `sva-grund-1/subordinate-clause-word-order`
+10. [x] The position of sentence adverbs in main and subordinate clauses — `sva-grund-1/sentence-adverb-position`
+11. [x] The noun: gender, number, definiteness — the full system of five declensions — `sva-grund-1/noun-declensions`
+12. [x] Double definiteness and its exceptions — `sva-grund-1/double-definiteness`
+13. [x] The adjective: strong and weak declension — `sva-grund-1/adjective-declension`
+14. [x] Comparison, including suppletive forms — `sva-grund-1/adjective-comparison`
+15. [x] Pronouns: personal, object, possessive, reflexive — `sva-grund-1/pronouns-overview`
+16. [x] `sin/sitt/sina` — drilled to automaticity — `sva-grund-1/sin-sitt-sina`
+17. [x] Indefinite pronouns: `någon, ingen, varje, alla, all/allt` — `sva-grund-1/indefinite-pronouns`
+18. [x] Particle verbs and how they differ from "verb + preposition" — `sva-grund-1/particle-verbs`
+19. [x] Compounds and the linking `-s-` — `sva-grund-1/compound-words`
+20. [x] Punctuation and capitalisation; splitting a text into paragraphs — `sva-grund-1/punctuation-paragraphs`
 
 ## SVA grund delkurs 2
 

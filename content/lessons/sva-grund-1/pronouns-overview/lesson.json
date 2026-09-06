@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/pronouns-overview",
+  "slug": "pronouns-overview",
+  "title": {
+    "sv": "Pronomen: personliga, objekts-, possessiva, reflexiva",
+    "ru": "Местоимения: личные, объектные, притяжательные, возвратные",
+    "en": "Pronouns: personal, object, possessive, reflexive"
+  },
+  "summary": {
+    "ru": "Четыре ряда местоимений на одной карте: кто говорит, кого называют, чьё это и когда «сам себя».",
+    "en": "Four rows of pronouns on one map: who speaks, who is named, whose it is, and when it's \"oneself\"."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "pronouns",
+    "grammar",
+    "morphology"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 550,
+  "prerequisites": [
+    "sva-grund-1/parts-of-speech"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/modal-verbs-tenses",
+  "slug": "modal-verbs-tenses",
+  "title": {
+    "sv": "Modala hjälpverb i alla tempus",
+    "ru": "Модальные глаголы во всех временах",
+    "en": "Modal verbs in every tense"
+  },
+  "summary": {
+    "ru": "«Vill», «kan» и «måste» уже знакомы — теперь научимся ставить их в прошедшее и перфект.",
+    "en": "\"Vill\", \"kan\" and \"måste\" already feel familiar — now let's put them in the past and the perfect."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "modal-verbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 460,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

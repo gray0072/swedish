@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/double-definiteness",
+  "slug": "double-definiteness",
+  "title": {
+    "sv": "Dubbel bestämdhet",
+    "ru": "Двойная определённость",
+    "en": "Double definiteness"
+  },
+  "summary": {
+    "ru": "Определённое существительное с прилагательным получает и артикль, и собственное окончание сразу — а несколько частых слов эту схему ломают.",
+    "en": "A definite noun modified by an adjective gets both the article and its own ending at once — and a handful of common words break that pattern."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "nouns",
+    "adjectives",
+    "grammar",
+    "definiteness"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 520,
+  "prerequisites": [
+    "sva-grund-1/noun-declensions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

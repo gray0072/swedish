@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/verb-groups",
+  "slug": "verb-groups",
+  "title": {
+    "sv": "Verbgrupper 1–4",
+    "ru": "Группы глаголов 1–4",
+    "en": "Verb groups 1–4"
+  },
+  "summary": {
+    "ru": "Систематизируем четыре группы спряжения и учимся узнавать сильный глагол по инфинитиву.",
+    "en": "We systematise all four conjugation groups and learn to spot a strong verb from its infinitive."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "verb-groups"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 430,
+  "prerequisites": [
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

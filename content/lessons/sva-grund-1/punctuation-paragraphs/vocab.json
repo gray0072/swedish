@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "pa-mandag",
+      "sv": "på måndag",
+      "translations": { "ru": "в понедельник (маленькая буква)", "en": "on Monday (lowercase)" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på måndag.", "ru": "Увидимся в понедельник.", "en": "See you on Monday." }
+    },
+    {
+      "id": "i-januari",
+      "sv": "i januari",
+      "translations": { "ru": "в январе (маленькая буква)", "en": "in January (lowercase)" },
+      "pos": "phrase",
+      "example": { "sv": "Hon kommer i januari.", "ru": "Она приедет в январе.", "en": "She's coming in January." }
+    },
+    {
+      "id": "svenska-sprak",
+      "sv": "svenska",
+      "translations": { "ru": "шведский язык (маленькая буква)", "en": "Swedish, the language (lowercase)" },
+      "pos": "noun",
+      "example": { "sv": "Hon talar svenska.", "ru": "Она говорит по-шведски.", "en": "She speaks Swedish." }
+    },
+    {
+      "id": "svensk-adj",
+      "sv": "svensk",
+      "translations": { "ru": "шведский (прилагательное, маленькая буква)", "en": "Swedish (adjective, lowercase)" },
+      "pos": "adj",
+      "example": { "sv": "Han är en svensk man.", "ru": "Он швед.", "en": "He's a Swedish man." }
+    },
+    {
+      "id": "sverige",
+      "sv": "Sverige",
+      "translations": { "ru": "Швеция (имя собственное, большая буква)", "en": "Sweden (proper noun, capitalised)" },
+      "pos": "noun",
+      "example": { "sv": "Sverige är ett fint land.", "ru": "Швеция — красивая страна.", "en": "Sweden is a beautiful country." }
+    },
+    {
+      "id": "att-konj",
+      "sv": "att",
+      "translations": { "ru": "что (союз, без запятой перед ним)", "en": "that (conjunction, no comma before it)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag tror att hon kommer.", "ru": "Я думаю, что она придёт.", "en": "I think that she's coming." }
+    },
+    {
+      "id": "som-rel",
+      "sv": "som",
+      "translations": { "ru": "который, которая (относительное, без запятой перед ним)", "en": "who, which, that (relative, no comma before it)" },
+      "pos": "pron",
+      "example": { "sv": "Boken som jag läser är bra.", "ru": "Книга, которую я читаю, хорошая.", "en": "The book I'm reading is good." }
+    },
+    {
+      "id": "stycke",
+      "sv": "stycke",
+      "translations": { "ru": "абзац", "en": "paragraph" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "mening-sats",
+      "sv": "mening",
+      "translations": { "ru": "предложение (фраза)", "en": "sentence" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "kommatecken",
+      "sv": "kommatecken",
+      "translations": { "ru": "запятая", "en": "comma" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "stor-bokstav",
+      "sv": "stor bokstav",
+      "translations": { "ru": "заглавная буква", "en": "capital letter" },
+      "pos": "phrase"
+    }
+  ]
+}

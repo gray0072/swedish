@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/future-tense",
+  "slug": "future-tense",
+  "title": {
+    "sv": "Framtid: ska / kommer att / presens",
+    "ru": "Будущее: ska / kommer att / презенс",
+    "en": "The future: ska / kommer att / the present"
+  },
+  "summary": {
+    "ru": "Три способа сказать «будет» по-шведски — и у каждого свой оттенок смысла.",
+    "en": "Three ways to say \"will\" in Swedish — and each one carries a different shade of meaning."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "future-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 450,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

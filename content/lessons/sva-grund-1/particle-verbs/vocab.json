@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "ringa-upp",
+      "sv": "ringa upp",
+      "translations": { "ru": "перезвонить, позвонить (партикельный глагол)", "en": "to call back, to phone up (particle verb)" },
+      "pos": "verb",
+      "forms": { "infinitive": "ringa upp", "present": "ringer upp", "past": "ringde upp", "supine": "ringt upp" },
+      "example": { "sv": "Jag ringer upp dig imorgon.", "ru": "Я перезвоню тебе завтра.", "en": "I'll call you back tomorrow." }
+    },
+    {
+      "id": "ta-bort",
+      "sv": "ta bort",
+      "translations": { "ru": "убрать, удалить (партикельный глагол)", "en": "to remove, to delete (particle verb)" },
+      "pos": "verb",
+      "forms": { "infinitive": "ta bort", "present": "tar bort", "past": "tog bort", "supine": "tagit bort" },
+      "example": { "sv": "Kan du ta bort filen?", "ru": "Можешь удалить файл?", "en": "Can you delete the file?" }
+    },
+    {
+      "id": "komma-ihag",
+      "sv": "komma ihåg",
+      "translations": { "ru": "помнить, вспомнить (партикельный глагол)", "en": "to remember (particle verb)" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma ihåg", "present": "kommer ihåg", "past": "kom ihåg", "supine": "kommit ihåg" },
+      "example": { "sv": "Kom ihåg nyckeln!", "ru": "Не забудь ключ!", "en": "Don't forget the key!" }
+    },
+    {
+      "id": "sla-pa",
+      "sv": "slå på",
+      "translations": { "ru": "включить прибор (партикельный глагол)", "en": "to turn on a device (particle verb)" },
+      "pos": "verb",
+      "forms": { "infinitive": "slå på", "present": "slår på", "past": "slog på", "supine": "slagit på" },
+      "example": { "sv": "Slå på tv:n.", "ru": "Включи телевизор.", "en": "Turn on the TV." }
+    },
+    {
+      "id": "komma-pa",
+      "sv": "komma på",
+      "translations": { "ru": "придумать, сообразить (партикельный глагол)", "en": "to think of, to figure out (particle verb)" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma på", "present": "kommer på", "past": "kom på", "supine": "kommit på" },
+      "example": { "sv": "Jag kom på en bra idé.", "ru": "Я придумал хорошую идею.", "en": "I thought of a good idea." }
+    },
+    {
+      "id": "ga-till",
+      "sv": "gå till",
+      "translations": { "ru": "идти в/к (глагол + обычный предлог)", "en": "to go to (verb + ordinary preposition)" },
+      "pos": "verb",
+      "forms": { "infinitive": "gå till", "present": "går till", "past": "gick till", "supine": "gått till" },
+      "example": { "sv": "Jag går till skolan.", "ru": "Я иду в школу.", "en": "I'm going to school." }
+    },
+    {
+      "id": "uppringning",
+      "sv": "uppringning",
+      "translations": { "ru": "звонок (по телефону)", "en": "a phone call" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "nyckel",
+      "sv": "nyckel",
+      "translations": { "ru": "ключ", "en": "key" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "fil",
+      "sv": "fil",
+      "translations": { "ru": "файл", "en": "file" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "ide",
+      "sv": "idé",
+      "translations": { "ru": "идея", "en": "idea" },
+      "pos": "noun",
+      "gender": "en"
+    }
+  ]
+}

@@ -39,12 +39,17 @@ export default function LessonPage() {
         )}
       </div>
 
-      {lesson.theory && (
-        <section>
-          <h2 className="mb-2 text-lg font-semibold">{t('lesson.theory')}</h2>
-          <TheoryView markdown={lesson.theory} />
-        </section>
-      )}
+      {(() => {
+        const theory = (lang === 'en' ? lesson.theoryEn : lesson.theory) ?? lesson.theory ?? lesson.theoryEn;
+        return (
+          theory && (
+            <section>
+              <h2 className="mb-2 text-lg font-semibold">{t('lesson.theory')}</h2>
+              <TheoryView markdown={theory} />
+            </section>
+          )
+        );
+      })()}
 
       {lesson.vocab.length > 0 && (
         <section>

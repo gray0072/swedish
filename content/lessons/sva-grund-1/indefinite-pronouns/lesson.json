@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/indefinite-pronouns",
+  "slug": "indefinite-pronouns",
+  "title": {
+    "sv": "Obestämda pronomen: någon, ingen, varje, alla, all/allt",
+    "ru": "Неопределённые местоимения: någon, ingen, varje, alla, all/allt",
+    "en": "Indefinite pronouns: någon, ingen, varje, alla, all/allt"
+  },
+  "summary": {
+    "ru": "«Кто-то», «никто», «каждый», «все» — маленькие слова, которые меняют форму по роду и числу почти всегда, кроме одного упрямого исключения.",
+    "en": "\"Someone\", \"no one\", \"every\", \"all\" — small words that change by gender and number, except for one stubborn exception."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "pronouns",
+    "grammar",
+    "quantifiers"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 570,
+  "prerequisites": [
+    "sva-grund-1/pronouns-overview"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

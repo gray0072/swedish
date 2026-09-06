@@ -98,11 +98,19 @@ if (existsSync(lessonsRoot)) {
       }
 
       const theoryPath = join(dir, 'theory.md');
-      if (existsSync(theoryPath)) {
+      const hasTheory = existsSync(theoryPath);
+      if (hasTheory) {
         const words = countWords(readFileSync(theoryPath, 'utf-8'));
         if (words > 450) errors.push(`${meta.id}: theory.md is ${words} words (5-minute rule wants ~400)`);
       } else if (vocab.length === 0) {
         warnings.push(`${meta.id}: no theory.md and no vocab.json — lesson has no content body`);
+      }
+
+      const theoryEnPath = join(dir, 'theory_en.md');
+      if (existsSync(theoryEnPath)) {
+        if (!hasTheory) errors.push(`${meta.id}: theory_en.md exists without a theory.md`);
+        const words = countWords(readFileSync(theoryEnPath, 'utf-8'));
+        if (words > 450) errors.push(`${meta.id}: theory_en.md is ${words} words (5-minute rule wants ~400)`);
       }
 
       const generated = expandGenerators(questionsFile.generators, vocab, meta.id);

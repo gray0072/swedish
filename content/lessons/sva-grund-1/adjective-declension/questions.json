@@ -1,0 +1,150 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adjective-declension-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vi har ett ___ (ny) hus." },
+      "answer": ["nytt"],
+      "acceptAlso": [],
+      "explanation": { "ru": "ett-слово + неопределённое существительное → сильная форма на -t.", "en": "ett-word + indefinite noun → strong form with -t." }
+    },
+    {
+      "id": "q-adjective-declension-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Bilarna är ___ (snabb) idag." },
+      "answer": ["snabba"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Прилагательное-сказуемое во множественном числе всегда на -a.", "en": "A predicative adjective with a plural subject always takes -a." }
+    },
+    {
+      "id": "q-adjective-declension-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Det är en ___ (dyr) lägenhet." },
+      "answer": ["dyr"],
+      "acceptAlso": [],
+      "explanation": { "ru": "en-слово + неопределённое существительное → форма без окончания.", "en": "en-word + indefinite noun → the bare form, no ending." }
+    },
+    {
+      "id": "q-adjective-declension-gap-4",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den ___ (stark) mannen heter Erik." },
+      "answer": ["starka"],
+      "acceptAlso": [],
+      "explanation": { "ru": "После «den» — слабая форма, всегда -a.", "en": "After \"den\" — the weak form, always -a." }
+    },
+    {
+      "id": "q-adjective-declension-gap-5",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Mitt ___ (ny) hus ligger i stan." },
+      "answer": ["nya"],
+      "acceptAlso": [],
+      "explanation": { "ru": "После притяжательного местоимения — тоже слабая форма -a.", "en": "After a possessive pronoun — also the weak -a form." }
+    },
+    {
+      "id": "q-adjective-declension-gap-6",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag läser ___ (rolig) böcker." },
+      "answer": ["roliga"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Неопределённое существительное во множественном числе → сильная форма -a.", "en": "An indefinite plural noun → the strong -a form." }
+    },
+    {
+      "id": "q-adjective-declension-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Выбери правильную форму: «Barnet är ___.» (glad)", "en": "Pick the right form: \"Barnet är ___.\" (glad)" },
+      "choices": ["glatt", "glad", "glada"],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-declension-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильную форму: «Den här bilen är ___.» (dum)", "en": "Pick the right form: \"Den här bilen är ___.\" (dum)" },
+      "choices": ["dum", "dumt", "dumma"],
+      "answer": 0,
+      "explanation": {
+        "ru": "Прилагательное-сказуемое согласуется по роду/числу подлежащего (сильная форма), даже если подлежащее определено.",
+        "en": "A predicative adjective agrees with the subject's gender/number (the strong form), even when the subject is definite."
+      }
+    },
+    {
+      "id": "q-adjective-declension-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое окончание у слабого склонения прилагательного?", "en": "What ending does the weak declension use?" },
+      "choices": [
+        "-a",
+        { "ru": "зависит от рода/числа", "en": "depends on gender/number" },
+        "-t",
+        "-en"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-declension-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Слабая форма прилагательного одна и та же для всех родов и чисел — всегда -a.",
+        "en": "The weak form of an adjective is the same for every gender and number — always -a."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-adjective-declension-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Перед неопределённым существительным прилагательное согласуется по роду и числу.",
+        "en": "Before an indefinite noun, the adjective agrees with gender and number."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-adjective-declension-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После притяжательного местоимения (min, din...) прилагательное принимает сильную форму.",
+        "en": "After a possessive pronoun (min, din...) the adjective takes the strong form."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Притяжательное местоимение — это определитель, значит нужна слабая форма -a.",
+        "en": "A possessive pronoun is a determiner, so the weak -a form is required."
+      }
+    },
+    {
+      "id": "q-adjective-declension-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь контекст с правильным окончанием прилагательного «stor»", "en": "Match the context with the correct ending of \"stor\"" },
+      "pairs": [
+        ["en bil (сильное, en)", "stor bil"],
+        ["ett hus (сильное, ett)", "stort hus"],
+        ["bilar (сильное, мн.ч.)", "stora bilar"],
+        ["den ... bilen (слабое)", "stora bilen"]
+      ]
+    },
+    {
+      "id": "q-adjective-declension-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Та самая новая машина быстрая.»", "en": "Build the sentence: \"The new car is fast.\"" },
+      "tokens": ["snabb", "är", "bilen", "nya", "Den"],
+      "answer": [4, 3, 2, 1, 0]
+    }
+  ]
+}

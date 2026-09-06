@@ -7,17 +7,20 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Content
 
-- [ ] **SVA grund delkurs 1–4 are empty** — 0 lessons across all four levels. A lesson at
-  those levels is work with a text (referat, argumentation, källkritik), and the project
-  has no format for such a lesson yet: it needs not only content but a decision on what
-  the lesson looks like (see `SPEC.md` §5).
+- [ ] **SVA grund delkurs 1–4 have no thematic-topic lessons** — all 100 topics listed
+  across the four levels are still `[ ]`. A topic lesson there is work with a text
+  (referat, argumentation, källkritik), and the project has no format for such a lesson
+  yet: it needs not only content but a decision on what the lesson looks like (see
+  `SPEC.md` §5). Delkurs 1 does now have its 20 grammar-point lessons done (see below).
 - [ ] **SFI kurs D** has only 3 lessons, **kurs C** has 5. `CURRICULUM.md` lists roughly
   20 more topics under each level. A good candidate for a run with parallel agents
   (the approach is described in the CHANGELOG entry for 2026-09-05).
-- [ ] Not a single lesson covers the grammar lists from `CURRICULUM.md` yet
-  (20 points × 8 levels = 160). There are three reference articles in `content/grammar/`
-  so far.
-- [ ] None of the 26 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
+- [ ] `CURRICULUM.md`'s grammar lists: **20/160 points now have a dedicated lesson** — all
+  of SVA grund delkurs 1, each with bilingual (RU/EN) theory via the new `theory_en.md`
+  companion file. The other 140 points (SFI kurs A–D, SVA grund delkurs 2–4) still rely
+  on grammar being threaded through topic lessons' theory rather than a dedicated lesson.
+  There are also three reference articles in `content/grammar/`.
+- [ ] None of the 46 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
   everything still fits the 5-minute limit on a single topic. If a broader topic shows
   up, split it into parts rather than trimming it.
 

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/adjective-declension",
+  "slug": "adjective-declension",
+  "title": {
+    "sv": "Adjektivets starka och svaga böjning",
+    "ru": "Прилагательное: сильное и слабое склонение",
+    "en": "The adjective: strong and weak declension"
+  },
+  "summary": {
+    "ru": "У прилагательного только два режима: сильный -/-t/-a по роду и числу, и слабый -a всегда — и выбор между ними полностью автоматический.",
+    "en": "The adjective has just two modes: strong -/-t/-a agreeing with gender and number, and weak -a always — and the choice between them is fully automatic."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "adjectives",
+    "grammar",
+    "declension"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 530,
+  "prerequisites": [
+    "sva-grund-1/noun-declensions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,116 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "sin-sitt-sina-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Anna älskar ___ man. (свой собственный муж / her own husband)" },
+      "answer": ["sin"],
+      "acceptAlso": []
+    },
+    {
+      "id": "sin-sitt-sina-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han läser ___ brev. (своё письмо / his own letter)" },
+      "answer": ["sitt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "sin-sitt-sina-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "De älskar ___ barn. (своих детей / their own children)" },
+      "answer": ["sina"],
+      "acceptAlso": []
+    },
+    {
+      "id": "sin-sitt-sina-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "___ bil är ny. Han köpte den igår. (Его машина / His car — не подлежащее того же предложения)" },
+      "answer": ["Hans", "hans"],
+      "acceptAlso": []
+    },
+    {
+      "id": "sin-sitt-sina-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anna älskar sin man.» Чей это муж?", "en": "\"Anna älskar sin man.\" Whose husband is it?" },
+      "choices": ["Мужа Анны", "Мужа другой женщины", "Мужа неизвестно кого", "Это не муж, а сын"],
+      "answer": 0
+    },
+    {
+      "id": "sin-sitt-sina-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anna älskar hennes man.» Чей это муж?", "en": "\"Anna älskar hennes man.\" Whose husband is it?" },
+      "choices": ["Мужа Анны", "Мужа другой женщины", "Это ошибка, так нельзя сказать", "Мужа Анны и другой женщины"],
+      "answer": 1,
+      "explanation": { "ru": "«Hennes» указывает на кого-то, кто не является подлежащим предложения — то есть не на Анну.", "en": "\"Hennes\" points to someone who isn't the sentence's subject — that is, not Anna." }
+    },
+    {
+      "id": "sin-sitt-sina-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Какое предложение правильное?", "en": "Which sentence is correct?" },
+      "choices": ["Sin bil är ny.", "Hans bil är ny.", "Sina bil är ny.", "Sitt bil är ny."],
+      "answer": 1,
+      "explanation": { "ru": "«Sin/sitt/sina» не может быть подлежащим — владелец не назван в этом же предложении, нужно «hans».", "en": "\"Sin/sitt/sina\" can never be the subject — the owner isn't named in this sentence, so \"hans\" is needed." }
+    },
+    {
+      "id": "sin-sitt-sina-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Владелец предмета — местоимение по-другому не показывает, а показывает согласование «sin/sitt/sina». С чем оно согласуется?", "en": "\"Sin/sitt/sina\" doesn't mark the owner directly — what does it agree with?" },
+      "choices": ["С подлежащим", "С предметом, которым владеют", "С глаголом", "Ни с чем, форма не меняется"],
+      "answer": 1
+    },
+    {
+      "id": "sin-sitt-sina-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«sin/sitt/sina» может использоваться, только если владелец — подлежащее того же предложения.", "en": "\"sin/sitt/sina\" can only be used when the owner is the subject of that same sentence." },
+      "answer": true
+    },
+    {
+      "id": "sin-sitt-sina-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«sitt» используется перед словами среднего рода (ett-слова).", "en": "\"sitt\" is used before ett-words (neuter gender)." },
+      "answer": true
+    },
+    {
+      "id": "sin-sitt-sina-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«sina» используется, когда владелец во множественном числе.", "en": "\"sina\" is used when the owner is plural." },
+      "answer": false,
+      "explanation": { "ru": "«sina» согласуется с предметом владения во множественном числе, а не с владельцем.", "en": "\"sina\" agrees with the thing owned being plural, not with the owner." }
+    },
+    {
+      "id": "sin-sitt-sina-tf-4",
+      "type": "true-false",
+      "prompt": { "ru": "«Sin bil är ny» — грамматически правильное предложение.", "en": "\"Sin bil är ny\" is a grammatically correct sentence." },
+      "answer": false,
+      "explanation": { "ru": "«sin/sitt/sina» никогда не открывает предложение и не бывает подлежащим.", "en": "\"sin/sitt/sina\" never opens a sentence and is never the subject." }
+    },
+    {
+      "id": "sin-sitt-sina-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предмет владения с правильной формой «sin/sitt/sina»", "en": "Match the thing owned with the correct \"sin/sitt/sina\" form" },
+      "pairs": [
+        ["bok (en)", "sin"],
+        ["brev (ett)", "sitt"],
+        ["böcker (pl)", "sina"],
+        ["bil (en)", "sin"]
+      ]
+    },
+    {
+      "id": "sin-sitt-sina-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он читает свою книгу.»", "en": "Build the sentence: \"He's reading his own book.\"" },
+      "tokens": ["sin", "bok", "läser", "Han"],
+      "answer": [3, 2, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "flicka",
+      "sv": "flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "example": { "sv": "En flicka läser en bok.", "ru": "Девочка читает книгу.", "en": "A girl is reading a book." },
+      "note": { "ru": "Класс -or.", "en": "The -or class." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen står utanför huset.", "ru": "Машина стоит перед домом.", "en": "The car is parked outside the house." },
+      "note": { "ru": "Класс -ar, самый частый.", "en": "The -ar class, the most common one." }
+    },
+    {
+      "id": "familj",
+      "sv": "familj",
+      "translations": { "ru": "семья", "en": "family" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "familj", "defSg": "familjen", "indefPl": "familjer", "defPl": "familjerna" },
+      "example": { "sv": "Familjen bor i Malmö.", "ru": "Семья живёт в Мальмё.", "en": "The family lives in Malmö." },
+      "note": { "ru": "Класс -er.", "en": "The -er class." }
+    },
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset är gammalt.", "ru": "Дом старый.", "en": "The house is old." },
+      "note": { "ru": "Без окончания во мн. числе; опр. мн. — husen.", "en": "No plural ending; def. pl. is husen." }
+    },
+    {
+      "id": "apple",
+      "sv": "äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Jag äter ett äpple.", "ru": "Я ем яблоко.", "en": "I'm eating an apple." },
+      "note": { "ru": "Класс -n (основа на гласную).", "en": "The -n class (stem ends in a vowel)." }
+    },
+    {
+      "id": "dag",
+      "sv": "dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
+      "example": { "sv": "Det var en fin dag.", "ru": "Это был хороший день.", "en": "It was a nice day." },
+      "note": { "ru": "Класс -ar.", "en": "The -ar class." }
+    },
+    {
+      "id": "vecka",
+      "sv": "vecka",
+      "translations": { "ru": "неделя", "en": "week" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "vecka", "defSg": "veckan", "indefPl": "veckor", "defPl": "veckorna" },
+      "example": { "sv": "Nästa vecka börjar kursen.", "ru": "На следующей неделе начинается курс.", "en": "The course starts next week." },
+      "note": { "ru": "Класс -or.", "en": "The -or class." }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Barnen leker ute.", "ru": "Дети играют на улице.", "en": "The children are playing outside." },
+      "note": { "ru": "Без окончания и в ед., и во мн. числе.", "en": "No ending in either singular or plural." }
+    },
+    {
+      "id": "stad",
+      "sv": "stad",
+      "translations": { "ru": "город", "en": "city" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Stockholm är en stor stad.", "ru": "Стокгольм — большой город.", "en": "Stockholm is a big city." },
+      "note": { "ru": "Класс -er с чередованием гласной a→ä.", "en": "The -er class with a vowel change a→ä." }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Läraren förklarar grammatiken.", "ru": "Учитель объясняет грамматику.", "en": "The teacher explains the grammar." },
+      "note": { "ru": "Без окончания во мн. числе (слово на -are); опр. мн. -arna.", "en": "No plural ending (an -are word); def. pl. -arna." }
+    }
+  ]
+}

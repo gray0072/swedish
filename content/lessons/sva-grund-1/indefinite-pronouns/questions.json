@@ -1,0 +1,117 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "indefinite-pronouns-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ ringde. (кто-то / someone)" },
+      "answer": ["Någon", "någon"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag har ___ pengar. (никаких / no)" },
+      "answer": ["inga"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Har du ___ att äta? (что-нибудь / anything)" },
+      "answer": ["något"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "___ dag läser jag en bok. (каждый / every)" },
+      "answer": ["Varje", "varje"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-gap-5",
+      "type": "gap",
+      "prompt": { "sv": "Vi drack ___ mjölk. (mjölk — en-слово, всё молоко / all the milk)" },
+      "answer": ["all"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-gap-6",
+      "type": "gap",
+      "prompt": { "sv": "___ vatten är kallt. (vatten — ett-слово, вся вода / all the water)" },
+      "answer": ["Allt", "allt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "indefinite-pronouns-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать «все ученики» (elev, мн. число)?", "en": "How do you say \"all the students\" (elev, plural)?" },
+      "choices": ["All elever", "Allt elever", "Alla elever", "Varje elever"],
+      "answer": 2
+    },
+    {
+      "id": "indefinite-pronouns-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая форма никогда не меняется по роду и числу?", "en": "Which form never changes for gender or number?" },
+      "choices": ["någon", "ingen", "varje", "alla"],
+      "answer": 2,
+      "explanation": { "ru": "«Varje» неизменяемо и всегда стоит перед существительным в единственном числе.", "en": "\"Varje\" is invariable and always precedes a singular noun." }
+    },
+    {
+      "id": "indefinite-pronouns-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «ничего» перед ett-словом?", "en": "How do you say \"nothing\" before an ett-word?" },
+      "choices": ["ingen", "inget", "inga", "något"],
+      "answer": 1
+    },
+    {
+      "id": "indefinite-pronouns-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "После «varje» всегда стоит существительное в единственном числе.", "en": "\"varje\" is always followed by a singular noun." },
+      "answer": true
+    },
+    {
+      "id": "indefinite-pronouns-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«all» используется перед неисчисляемым ett-словом.", "en": "\"all\" is used before an uncountable ett-word." },
+      "answer": false,
+      "explanation": { "ru": "Перед ett-словом используется «allt» (allt vatten), а «all» — перед en-словом (all mjölk).", "en": "\"allt\" goes before an ett-word (allt vatten); \"all\" goes before an en-word (all mjölk)." }
+    },
+    {
+      "id": "indefinite-pronouns-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«några» — это множественное число от «någon/något».", "en": "\"några\" is the plural of \"någon/något\"." },
+      "answer": true
+    },
+    {
+      "id": "indefinite-pronouns-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь существительное с правильной формой «all/allt/alla»", "en": "Match the noun with the correct \"all/allt/alla\" form" },
+      "pairs": [
+        ["mjölk (en, неисч.)", "all"],
+        ["vatten (ett, неисч.)", "allt"],
+        ["elever (мн. число)", "alla"],
+        ["barn (мн. число)", "alla"]
+      ]
+    },
+    {
+      "id": "indefinite-pronouns-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь род/число с формой «ingen/inget/inga»", "en": "Match the gender/number with the \"ingen/inget/inga\" form" },
+      "pairs": [
+        ["en-слово", "ingen"],
+        ["ett-слово", "inget"],
+        ["множественное число", "inga"]
+      ]
+    }
+  ]
+}

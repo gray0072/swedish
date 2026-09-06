@@ -260,3 +260,30 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   already had the same 116 keys, and the default language in `persist.ts` was already
   `en`, so nothing changed at runtime.
 - Checks: typecheck, 39 tests, content validation (26 lessons, 0 errors).
+
+## 2026-09-05 — Bilingual theory and 20 grammar lessons for SVA grund delkurs 1
+
+- **`theory_en.md`**: an optional English companion to `theory.md`. `LessonPage` now
+  shows whichever of the two matches the study-language toggle, falling back to the other
+  when only one exists — a lesson can still ship Russian-only theory (the historical
+  default across all 26 SFI lessons) or carry both languages. Wired through the content
+  loader, `LessonMeta`'s type (`LessonContent.theoryEn`), `scripts/validate-content.ts`
+  (same ~400-word cap, checked independently per file) and `scripts/new-lesson.ts` (now
+  scaffolds both files for every new lesson).
+- **All 20 grammar points of SVA grund delkurs 1 got a dedicated lesson** — the first
+  lessons in the project built with the new bilingual theory from the start:
+  `parts-of-speech`, `sentence-elements`, `verb-groups`, `tense-overview`,
+  `future-tense`, `modal-verbs-tenses`, `att-infinitive`, `main-clause-word-order`,
+  `subordinate-clause-word-order`, `sentence-adverb-position`, `noun-declensions`,
+  `double-definiteness`, `adjective-declension`, `adjective-comparison`,
+  `pronouns-overview`, `sin-sitt-sina`, `indefinite-pronouns`, `particle-verbs`,
+  `compound-words`, `punctuation-paragraphs`. Written by 4 parallel agents (5 lessons
+  each), against pre-assigned ids/order/prerequisites so cross-references resolved
+  regardless of completion order — the same parallel-agent approach used for the SFI kurs
+  A–D content pass on 2026-09-05.
+- `CURRICULUM.md`/`CURRICULUM_ru.md` updated: all 20 grammar-list checkboxes for delkurs 1
+  marked done with their lesson slug, the 20 lessons also appended to the level's Topics
+  list (so the Done count stays consistent with how every other level is tallied), and
+  the level's Topics list still has 0 of its 25 thematic (text-based) topics — those
+  remain a separate, unstarted piece of work. `content/curricula/sva-grund-1.json` added.
+- Checks: typecheck, 39 tests, content validation (46 lessons, 0 errors).

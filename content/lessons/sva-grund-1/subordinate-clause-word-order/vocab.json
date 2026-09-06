@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "bisats",
+      "sv": "bisats",
+      "translations": { "ru": "придаточное предложение", "en": "subordinate clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bisats", "defSg": "bisatsen", "indefPl": "bisatser", "defPl": "bisatserna" }
+    },
+    {
+      "id": "att-konj",
+      "sv": "att",
+      "translations": { "ru": "что (союз)", "en": "that (conjunction)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han säger att jag inte förstår.", "ru": "Он говорит, что я не понимаю.", "en": "He says that I don't understand." }
+    },
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "because, since" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "om-konj",
+      "sv": "om",
+      "translations": { "ru": "если, ли", "en": "if, whether" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "nar-konj",
+      "sv": "när",
+      "translations": { "ru": "когда (союз)", "en": "when (conjunction)" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "inte",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv"
+    },
+    {
+      "id": "alltid",
+      "sv": "alltid",
+      "translations": { "ru": "всегда", "en": "always" },
+      "pos": "adv"
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe" },
+      "pos": "adv"
+    },
+    {
+      "id": "forsta",
+      "sv": "förstå",
+      "translations": { "ru": "понимать", "en": "to understand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" }
+    },
+    {
+      "id": "saga",
+      "sv": "säga",
+      "translations": { "ru": "говорить, сказать", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sade", "supine": "sagt" }
+    },
+    {
+      "id": "veta",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+    }
+  ]
+}

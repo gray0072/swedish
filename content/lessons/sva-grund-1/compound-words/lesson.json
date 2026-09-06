@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/compound-words",
+  "slug": "compound-words",
+  "title": {
+    "sv": "Sammansatta ord och foge-s",
+    "ru": "Сложные слова и соединительное -s-",
+    "en": "Compounds and the linking -s-"
+  },
+  "summary": {
+    "ru": "В сложном слове смысл и род задаёт последний элемент, а связка -s- посередине то появляется, то нет — и от этого зависит смысл целого слова.",
+    "en": "In a compound the last element sets the meaning and gender, and a linking -s- in the middle appears or not — which can change the meaning of the whole word."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "nouns",
+    "word-formation",
+    "grammar",
+    "compounds"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 590,
+  "prerequisites": [
+    "sva-grund-1/noun-declensions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

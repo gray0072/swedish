@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-subordinate-clause-word-order-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Он говорит, что я не понимаю текст.»",
+        "en": "Build the sentence: \"He says that I don't understand the text.\""
+      },
+      "tokens": ["texten", "förstår", "inte", "jag", "att", "säger", "Han"],
+      "answer": [6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-subordinate-clause-word-order-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Она знает, что он не придёт сегодня.»",
+        "en": "Build the sentence: \"She knows that he isn't coming today.\""
+      },
+      "tokens": ["idag", "kommer", "inte", "han", "att", "vet", "Hon"],
+      "answer": [6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-subordinate-clause-word-order-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери huvudsats (контраст): «Я не понимаю текст.»",
+        "en": "Build the huvudsats (contrast): \"I don't understand the text.\""
+      },
+      "tokens": ["texten", "inte", "förstår", "Jag"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-subordinate-clause-word-order-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В bisats «att jag inte förstår» — где стоит «inte» относительно личного глагола?",
+        "en": "In the bisats \"att jag inte förstår\", where does \"inte\" stand relative to the finite verb?"
+      },
+      "choices": [
+        { "ru": "Перед глаголом", "en": "Before the verb" },
+        { "ru": "После глагола", "en": "After the verb" },
+        { "ru": "В конце предложения", "en": "At the end of the clause" },
+        { "ru": "Перед союзом", "en": "Before the conjunction" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-subordinate-clause-word-order-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что означает аббревиатура BIFF?", "en": "What does the abbreviation BIFF stand for?" },
+      "choices": [
+        { "ru": "Bisats, Inte, Framför, Finit verb", "en": "Bisats, Inte, Framför, Finit verb" },
+        { "ru": "Bisats, Inversion, Finit, Fundament", "en": "Bisats, Inversion, Finit, Fundament" },
+        { "ru": "Bisats, Inte, Fundament, Finit verb", "en": "Bisats, Inte, Fundament, Finit verb" },
+        { "ru": "Bisats, Infinitiv, Framför, Final", "en": "Bisats, Infinitiv, Framför, Final" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-subordinate-clause-word-order-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери правильно построенный bisats.",
+        "en": "Choose the correctly ordered bisats."
+      },
+      "choices": [
+        "...att han inte kommer idag.",
+        "...att han kommer inte idag.",
+        "...att inte han kommer idag.",
+        "...att han kommer idag inte."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-subordinate-clause-word-order-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В huvudsats «inte» стоит после личного глагола.", "en": "In a huvudsats, \"inte\" comes after the finite verb." },
+      "answer": true
+    },
+    {
+      "id": "q-subordinate-clause-word-order-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В bisats «inte» стоит после личного глагола — точно так же, как в huvudsats.",
+        "en": "In a bisats, \"inte\" comes after the finite verb, just like in a huvudsats."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет: в bisats «inte» стоит перед личным глаголом — это и есть правило BIFF.",
+        "en": "No: in a bisats \"inte\" comes before the finite verb — that's the BIFF rule."
+      }
+    },
+    {
+      "id": "q-subordinate-clause-word-order-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Союзы «att, eftersom, om, när» все вводят придаточное предложение (bisats).",
+        "en": "The conjunctions \"att, eftersom, om, när\" all introduce a subordinate clause (bisats)."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-subordinate-clause-word-order-gap-1",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Hon säger att ___. (jag / inte / förstår)",
+        "ru": "Заполни bisats словами «jag / inte / förstår» в правильном порядке.",
+        "en": "Fill in the bisats using \"jag / inte / förstår\" in the right order."
+      },
+      "answer": ["jag inte förstår"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-subordinate-clause-word-order-gap-2",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Vi väntar eftersom ___. (han / inte / kommer)",
+        "ru": "Заполни bisats словами «han / inte / kommer» в правильном порядке.",
+        "en": "Fill in the bisats using \"han / inte / kommer\" in the right order."
+      },
+      "answer": ["han inte kommer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-subordinate-clause-word-order-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь союз с переводом", "en": "Match the conjunction with its translation" },
+      "pairs": [
+        ["att", "что (союз)"],
+        ["eftersom", "так как"],
+        ["om", "если"],
+        ["när", "когда"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-parts-of-speech-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая часть речи у слова «hund»?", "en": "What part of speech is \"hund\"?" },
+      "choices": ["substantiv", "verb", "adjektiv", "preposition"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая часть речи у слова «springa»?", "en": "What part of speech is \"springa\"?" },
+      "choices": ["verb", "substantiv", "adverb", "pronomen"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая часть речи у слова «snabb»?", "en": "What part of speech is \"snabb\"?" },
+      "choices": ["adjektiv", "verb", "adverb", "substantiv"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая часть речи у слова «hon»?", "en": "What part of speech is \"hon\"?" },
+      "choices": ["pronomen", "substantiv", "adjektiv", "konjunktion"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая часть речи у слова «i» в «i parken»?", "en": "What part of speech is \"i\" in \"i parken\"?" },
+      "choices": ["preposition", "adverb", "konjunktion", "pronomen"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-6",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая часть речи у слова «inte»?", "en": "What part of speech is \"inte\"?" },
+      "choices": ["adverb", "verb", "konjunktion", "preposition"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-7",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая часть речи у слова «och»?", "en": "What part of speech is \"och\"?" },
+      "choices": ["konjunktion", "adverb", "preposition", "räkneord"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-8",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая часть речи у слова «två»?", "en": "What part of speech is \"två\"?" },
+      "choices": ["räkneord", "substantiv", "adjektiv", "interjektion"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-mc-9",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая часть речи у слова «hej»?", "en": "What part of speech is \"hej\"?" },
+      "choices": ["interjektion", "verb", "substantiv", "adverb"],
+      "answer": 0
+    },
+    {
+      "id": "q-parts-of-speech-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово может менять форму (hund → hundar), но его часть речи от этого не меняется.",
+        "en": "A word can change shape (hund → hundar), but that never changes its part of speech."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-parts-of-speech-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Substantiv» и «adjektiv» — это одна и та же часть речи.",
+        "en": "\"Substantiv\" and \"adjektiv\" are the same part of speech."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Substantiv называет предмет, adjektiv описывает его — это разные ordklasser.",
+        "en": "Substantiv names a thing, adjektiv describes it — they are different ordklasser."
+      }
+    },
+    {
+      "id": "q-parts-of-speech-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Ordet som visar en handling och böjs i tid kallas ett ___.",
+        "ru": "Слово, которое показывает действие и спрягается по времени, называется ___.",
+        "en": "The word that shows an action and is conjugated for tense is called a ___."
+      },
+      "answer": ["verb"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-parts-of-speech-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь часть речи с примером", "en": "Match the part of speech with its example" },
+      "pairs": [
+        ["substantiv", "hund"],
+        ["verb", "springa"],
+        ["adjektiv", "snabb"],
+        ["pronomen", "hon"]
+      ]
+    },
+    {
+      "id": "q-parts-of-speech-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Маленькая собака бежит быстро.»",
+        "en": "Build the sentence: \"The little dog runs fast.\""
+      },
+      "tokens": ["snabbt", "hunden", "springer", "lilla", "Den"],
+      "answer": [4, 3, 1, 2, 0]
+    }
+  ]
+}

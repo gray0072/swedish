@@ -44,6 +44,7 @@ const lessonJson = {
 
 writeFileSync(join(dir, 'lesson.json'), JSON.stringify(lessonJson, null, 2) + '\n');
 writeFileSync(join(dir, 'theory.md'), `Короткая теория для «${ru}» — до ~400 слов.\n`);
+writeFileSync(join(dir, 'theory_en.md'), `Short theory for "${en}" — up to ~400 words.\n`);
 writeFileSync(join(dir, 'vocab.json'), JSON.stringify({ items: [] }, null, 2) + '\n');
 writeFileSync(
   join(dir, 'questions.json'),

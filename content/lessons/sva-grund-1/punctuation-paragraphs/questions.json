@@ -1,0 +1,94 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "punctuation-paragraphs-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно написать «в понедельник»?", "en": "How do you correctly write \"on Monday\"?" },
+      "choices": ["på Måndag", "på måndag", "På måndag", "PÅ MÅNDAG"],
+      "answer": 1,
+      "explanation": { "ru": "Дни недели по-шведски пишутся с маленькой буквы, в отличие от английского.", "en": "Weekdays are lowercase in Swedish, unlike in English." }
+    },
+    {
+      "id": "punctuation-paragraphs-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово пишется с большой буквы?", "en": "Which word is capitalised?" },
+      "choices": ["svensk (прилагательное)", "svenska (язык)", "Sverige (страна)", "måndag (день недели)"],
+      "answer": 2,
+      "explanation": { "ru": "Sverige — имя собственное (название страны), поэтому с большой буквы. Остальные — нет.", "en": "Sverige is a proper noun (a country's name), so it's capitalised. The others are not." }
+    },
+    {
+      "id": "punctuation-paragraphs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Нужна ли запятая перед «att» в «Jag tror att hon kommer»?", "en": "Is a comma needed before \"att\" in \"Jag tror att hon kommer\"?" },
+      "choices": ["Да, всегда", "Нет, в шведском перед att запятая обычно не ставится", "Только в письменной речи", "Только в вопросах"],
+      "answer": 1
+    },
+    {
+      "id": "punctuation-paragraphs-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Сколько мыслей должно быть в одном абзаце короткого текста?", "en": "How many ideas should one paragraph of a short text contain?" },
+      "choices": ["Столько, сколько поместится", "Одна", "Минимум три", "Абзацы не нужны вовсе"],
+      "answer": 1
+    },
+    {
+      "id": "punctuation-paragraphs-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Названия языков (svenska, engelska) в шведском пишутся с маленькой буквы.", "en": "Language names (svenska, engelska) are lowercase in Swedish." },
+      "answer": true
+    },
+    {
+      "id": "punctuation-paragraphs-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«En Svensk kvinna» — правильное написание.", "en": "\"En Svensk kvinna\" is the correct spelling." },
+      "answer": false,
+      "explanation": { "ru": "Прилагательное «svensk» пишется с маленькой буквы: «en svensk kvinna».", "en": "The adjective \"svensk\" is lowercase: \"en svensk kvinna\"." }
+    },
+    {
+      "id": "punctuation-paragraphs-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "В шведском запятая перед относительным «som» обычно обязательна, как в русском перед «который».", "en": "In Swedish, a comma before the relative \"som\" is usually mandatory, like before \"который\" in Russian." },
+      "answer": false,
+      "explanation": { "ru": "В отличие от русского, перед «som» запятая в шведском обычно не нужна: «Boken som jag läser är bra».", "en": "Unlike Russian, Swedish usually doesn't need a comma before \"som\": \"Boken som jag läser är bra\"." }
+    },
+    {
+      "id": "punctuation-paragraphs-tf-4",
+      "type": "true-false",
+      "prompt": { "ru": "Название страны Sverige пишется с большой буквы.", "en": "The country name Sverige is capitalised." },
+      "answer": true
+    },
+    {
+      "id": "punctuation-paragraphs-tf-5",
+      "type": "true-false",
+      "prompt": { "ru": "Хороший короткий текст обычно разбивают на абзацы пустой строкой.", "en": "A good short text is usually split into paragraphs with a blank line." },
+      "answer": true
+    },
+    {
+      "id": "punctuation-paragraphs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с правильным написанием (большая/маленькая буква)", "en": "Match the word with its correct spelling (capital/lowercase)" },
+      "pairs": [
+        ["Sverige", "большая буква / capital"],
+        ["svensk", "маленькая буква / lowercase"],
+        ["måndag", "маленькая буква / lowercase"],
+        ["svenska", "маленькая буква / lowercase"]
+      ]
+    },
+    {
+      "id": "punctuation-paragraphs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я думаю, что она придёт.»", "en": "Build the sentence: \"I think that she's coming.\"" },
+      "tokens": ["hon", "kommer", "att", "tror", "Jag"],
+      "answer": [4, 3, 2, 0, 1]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/punctuation-paragraphs",
+  "slug": "punctuation-paragraphs",
+  "title": {
+    "sv": "Skiljetecken och stor bokstav; att dela in text i stycken",
+    "ru": "Пунктуация и заглавная буква; деление текста на абзацы",
+    "en": "Punctuation and capitalisation; splitting a text into paragraphs"
+  },
+  "summary": {
+    "ru": "По-шведски пишут с маленькой буквы куда больше слов, чем по-русски или по-английски — и запятая перед «att» почти никогда не нужна.",
+    "en": "Swedish lowercases far more words than Russian or English — and a comma before \"att\" is almost never needed."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "writing",
+    "grammar",
+    "punctuation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 600,
+  "prerequisites": [],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

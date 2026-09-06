@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "sats",
+      "sv": "sats",
+      "translations": { "ru": "предложение (грам.)", "en": "clause/sentence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "sats", "defSg": "satsen", "indefPl": "satser", "defPl": "satserna" }
+    },
+    {
+      "id": "satsdel",
+      "sv": "satsdel",
+      "translations": { "ru": "член предложения", "en": "sentence element" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "satsdel", "defSg": "satsdelen", "indefPl": "satsdelar", "defPl": "satsdelarna" }
+    },
+    {
+      "id": "subjekt",
+      "sv": "subjekt",
+      "translations": { "ru": "подлежащее", "en": "subject" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "subjekt", "defSg": "subjektet", "indefPl": "subjekt", "defPl": "subjekten" },
+      "example": { "sv": "Läraren är subjekt i satsen.", "ru": "«Läraren» — подлежащее в предложении.", "en": "\"Läraren\" is the subject of the clause." }
+    },
+    {
+      "id": "predikat",
+      "sv": "predikat",
+      "translations": { "ru": "сказуемое", "en": "predicate" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "predikat", "defSg": "predikatet", "indefPl": "predikat", "defPl": "predikaten" },
+      "example": { "sv": "Läser är predikat i satsen.", "ru": "«Läser» — сказуемое в предложении.", "en": "\"Läser\" is the predicate of the clause." }
+    },
+    {
+      "id": "objekt",
+      "sv": "objekt",
+      "translations": { "ru": "дополнение", "en": "object" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "objekt", "defSg": "objektet", "indefPl": "objekt", "defPl": "objekten" },
+      "example": { "sv": "Boken är objekt i satsen.", "ru": "«Boken» — дополнение в предложении.", "en": "\"Boken\" is the object of the clause." }
+    },
+    {
+      "id": "adverbial",
+      "sv": "adverbial",
+      "translations": { "ru": "обстоятельство", "en": "adverbial" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "adverbial", "defSg": "adverbialet", "indefPl": "adverbial", "defPl": "adverbialen" },
+      "example": { "sv": "Idag är adverbial i satsen.", "ru": "«Idag» — обстоятельство в предложении.", "en": "\"Idag\" is the adverbial of the clause." }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" }
+    },
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "note": { "ru": "переходный глагол — обычно требует objekt", "en": "transitive verb — normally takes an objekt" }
+    },
+    {
+      "id": "se",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "note": { "ru": "переходный глагол — обычно требует objekt", "en": "transitive verb — normally takes an objekt" }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "note": { "ru": "непереходный глагол — objekt не нужен", "en": "intransitive verb — no objekt needed" }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "note": { "ru": "непереходный глагол — objekt не нужен", "en": "intransitive verb — no objekt needed" }
+    }
+  ]
+}

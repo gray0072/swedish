@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/att-infinitive",
+  "slug": "att-infinitive",
+  "title": {
+    "sv": "att + infinitiv, och infinitiv utan att",
+    "ru": "att + инфинитив и инфинитив без att",
+    "en": "att + infinitive, and the infinitive without att"
+  },
+  "summary": {
+    "ru": "После модальных глаголов att пропадает — и это первое, что выдаёт уверенного носителя языка.",
+    "en": "Drop att after a modal verb, and it's the first thing that makes you sound like a confident speaker."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "infinitive"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 470,
+  "prerequisites": [
+    "sva-grund-1/verb-groups"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

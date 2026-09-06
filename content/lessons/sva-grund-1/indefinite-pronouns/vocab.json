@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": "nagon",
+      "sv": "någon",
+      "translations": { "ru": "кто-то, некто (en-слово)", "en": "someone, anyone (en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Någon ringde.", "ru": "Кто-то звонил.", "en": "Someone called." }
+    },
+    {
+      "id": "nagot",
+      "sv": "något",
+      "translations": { "ru": "что-то, нечто (ett-слово)", "en": "something, anything (ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Har du något att äta?", "ru": "У тебя есть что-нибудь поесть?", "en": "Do you have anything to eat?" }
+    },
+    {
+      "id": "nagra",
+      "sv": "några",
+      "translations": { "ru": "несколько, некоторые (мн. число)", "en": "some, a few (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Jag har några frågor.", "ru": "У меня есть несколько вопросов.", "en": "I have a few questions." }
+    },
+    {
+      "id": "ingen",
+      "sv": "ingen",
+      "translations": { "ru": "никто (en-слово)", "en": "no one, none (en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Ingen var hemma.", "ru": "Никого не было дома.", "en": "No one was home." }
+    },
+    {
+      "id": "inget",
+      "sv": "inget",
+      "translations": { "ru": "ничего (ett-слово)", "en": "nothing, none (ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Jag har inget emot det.", "ru": "Я ничего не имею против.", "en": "I have nothing against it." }
+    },
+    {
+      "id": "inga",
+      "sv": "inga",
+      "translations": { "ru": "никаких (мн. число)", "en": "no, none (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Jag har inga pengar.", "ru": "У меня нет денег.", "en": "I have no money." }
+    },
+    {
+      "id": "varje",
+      "sv": "varje",
+      "translations": { "ru": "каждый (неизменяемое)", "en": "every, each (invariable)" },
+      "pos": "pron",
+      "example": { "sv": "Varje dag läser jag en bok.", "ru": "Каждый день я читаю книгу.", "en": "Every day I read a book." }
+    },
+    {
+      "id": "all",
+      "sv": "all",
+      "translations": { "ru": "весь (перед неисчисляемым en-словом)", "en": "all (before an uncountable en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Vi drack all mjölk.", "ru": "Мы выпили всё молоко.", "en": "We drank all the milk." }
+    },
+    {
+      "id": "allt",
+      "sv": "allt",
+      "translations": { "ru": "всё (перед неисчисляемым ett-словом)", "en": "all (before an uncountable ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Allt vatten är kallt.", "ru": "Вся вода холодная.", "en": "All the water is cold." }
+    },
+    {
+      "id": "alla",
+      "sv": "alla",
+      "translations": { "ru": "все (мн. число)", "en": "all (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Alla elever var där.", "ru": "Все ученики были там.", "en": "All the students were there." }
+    },
+    {
+      "id": "mjolk",
+      "sv": "mjölk",
+      "translations": { "ru": "молоко", "en": "milk" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "vatten",
+      "sv": "vatten",
+      "translations": { "ru": "вода", "en": "water" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "elev",
+      "sv": "elev",
+      "translations": { "ru": "ученик, ученица", "en": "pupil, student" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "pengar",
+      "sv": "pengar",
+      "translations": { "ru": "деньги", "en": "money" },
+      "pos": "noun"
+    }
+  ]
+}

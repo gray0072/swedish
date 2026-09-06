@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "satsadverbial",
+      "sv": "satsadverbial",
+      "translations": { "ru": "сентенциальное наречие", "en": "sentence adverb" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "satsadverbial", "defSg": "satsadverbialet", "indefPl": "satsadverbial", "defPl": "satsadverbialen" }
+    },
+    {
+      "id": "inte",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv"
+    },
+    {
+      "id": "alltid",
+      "sv": "alltid",
+      "translations": { "ru": "всегда", "en": "always" },
+      "pos": "adv"
+    },
+    {
+      "id": "aldrig",
+      "sv": "aldrig",
+      "translations": { "ru": "никогда", "en": "never" },
+      "pos": "adv"
+    },
+    {
+      "id": "ofta",
+      "sv": "ofta",
+      "translations": { "ru": "часто", "en": "often" },
+      "pos": "adv"
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe" },
+      "pos": "adv"
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv"
+    },
+    {
+      "id": "snart",
+      "sv": "snart",
+      "translations": { "ru": "скоро", "en": "soon" },
+      "pos": "adv"
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Hon kommer alltid i tid.", "ru": "Она всегда приходит вовремя.", "en": "She always arrives on time." }
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call (phone)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "De ringer aldrig på kvällen.", "ru": "Они никогда не звонят вечером.", "en": "They never call in the evening." }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Barnen sover redan.", "ru": "Дети уже спят.", "en": "The children are already asleep." }
+    },
+    {
+      "id": "kvall",
+      "sv": "kväll",
+      "translations": { "ru": "вечер", "en": "evening" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "kväll", "defSg": "kvällen", "indefPl": "kvällar", "defPl": "kvällarna" }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" }
+    }
+  ]
+}

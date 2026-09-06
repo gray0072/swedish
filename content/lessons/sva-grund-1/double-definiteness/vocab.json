@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "stor",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "example": { "sv": "Den stora staden ligger vid havet.", "ru": "Тот самый большой город стоит у моря.", "en": "The big city lies by the sea." },
+      "note": { "sv": "stor / stort / stora" }
+    },
+    {
+      "id": "vacker",
+      "sv": "vacker",
+      "translations": { "ru": "красивый", "en": "beautiful" },
+      "pos": "adj",
+      "example": { "sv": "Det vackra huset är gammalt.", "ru": "Тот самый красивый дом — старый.", "en": "The beautiful house is old." },
+      "note": { "sv": "vacker / vackert / vackra" }
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "example": { "sv": "Den gamla bilen fungerar bra.", "ru": "Та самая старая машина хорошо работает.", "en": "The old car works well." },
+      "note": { "sv": "gammal / gammalt / gamla (слабая форма — gamla)" }
+    },
+    {
+      "id": "ny",
+      "sv": "ny",
+      "translations": { "ru": "новый", "en": "new" },
+      "pos": "adj",
+      "example": { "sv": "De nya böckerna ligger på bordet.", "ru": "Те самые новые книги лежат на столе.", "en": "The new books are on the table." },
+      "note": { "sv": "ny / nytt / nya" }
+    },
+    {
+      "id": "stad",
+      "sv": "stad",
+      "translations": { "ru": "город", "en": "city" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Den stora staden heter Göteborg.", "ru": "Тот самый большой город называется Гётеборг.", "en": "The big city is called Gothenburg." }
+    },
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Det gamla huset ska säljas.", "ru": "Тот самый старый дом продаётся.", "en": "The old house is going to be sold." }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Den nya boken är intressant.", "ru": "Та самая новая книга — интересная.", "en": "The new book is interesting." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Den gamla bilen är blå.", "ru": "Та самая старая машина — синяя.", "en": "The old car is blue." }
+    },
+    {
+      "id": "hela",
+      "sv": "hela",
+      "translations": { "ru": "весь, целый", "en": "the whole" },
+      "pos": "adj",
+      "example": { "sv": "Hela dagen regnade det.", "ru": "Весь день шёл дождь.", "en": "It rained all day." },
+      "note": { "ru": "Без свободного артикля перед прилагательным.", "en": "No free-standing article before an adjective." }
+    },
+    {
+      "id": "samma",
+      "sv": "samma",
+      "translations": { "ru": "тот же самый", "en": "the same" },
+      "pos": "adj",
+      "example": { "sv": "Vi bor på samma gata.", "ru": "Мы живём на той же самой улице.", "en": "We live on the same street." },
+      "note": { "ru": "Без свободного артикля.", "en": "No free-standing article." }
+    },
+    {
+      "id": "nasta",
+      "sv": "nästa",
+      "translations": { "ru": "следующий", "en": "next" },
+      "pos": "adj",
+      "example": { "sv": "Vi ses nästa vecka.", "ru": "Увидимся на следующей неделе.", "en": "See you next week." },
+      "note": { "ru": "Без свободного артикля.", "en": "No free-standing article." }
+    },
+    {
+      "id": "min",
+      "sv": "min",
+      "translations": { "ru": "мой", "en": "my" },
+      "pos": "pron",
+      "example": { "sv": "Min stora stad är fin.", "ru": "Мой большой город красивый.", "en": "My big city is nice." },
+      "note": { "ru": "После притяжательного — без артикля, существительное в неопр. форме.", "en": "After a possessive — no article, the noun stays indefinite." }
+    }
+  ]
+}

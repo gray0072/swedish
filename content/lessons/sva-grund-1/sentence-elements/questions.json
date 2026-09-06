@@ -1,0 +1,162 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-sentence-elements-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В предложении «Läraren läser boken idag» — чем является «läraren»?",
+        "en": "In \"Läraren läser boken idag\", what is \"läraren\"?"
+      },
+      "choices": ["subjekt", "predikat", "objekt", "adverbial"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-elements-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В том же предложении — чем является «läser»?",
+        "en": "In the same sentence, what is \"läser\"?"
+      },
+      "choices": ["predikat", "subjekt", "objekt", "adverbial"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-elements-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В том же предложении — чем является «boken»?",
+        "en": "In the same sentence, what is \"boken\"?"
+      },
+      "choices": ["objekt", "subjekt", "predikat", "adverbial"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-elements-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В том же предложении — чем является «idag»?",
+        "en": "In the same sentence, what is \"idag\"?"
+      },
+      "choices": ["adverbial", "objekt", "subjekt", "predikat"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-elements-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "В предложении «Boken läses av läraren» — чем теперь является «boken»?",
+        "en": "In \"Boken läses av läraren\", what is \"boken\" now?"
+      },
+      "choices": ["subjekt", "objekt", "predikat", "adverbial"],
+      "answer": 0,
+      "explanation": {
+        "ru": "Тот же substantiv, но другая роль: теперь книга — подлежащее, а не дополнение.",
+        "en": "Same substantiv, different role: now the book is the subject, not the object."
+      }
+    },
+    {
+      "id": "q-sentence-elements-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Один и тот же substantiv может быть subjekt в одном предложении и objekt в другом.",
+        "en": "The same substantiv can be a subjekt in one sentence and an objekt in another."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-elements-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Predikat — это всегда глагол.", "en": "The predikat is always a verb." },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-elements-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "У непереходного глагола, например «sova», обязательно есть objekt.",
+        "en": "An intransitive verb like \"sova\" always has an objekt."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "У непереходных глаголов (sova, komma) объекта нет вовсе.",
+        "en": "Intransitive verbs (sova, komma) have no objekt at all."
+      }
+    },
+    {
+      "id": "q-sentence-elements-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "I meningen \"Hon ser filmen\" är \"Hon\" ___.",
+        "ru": "В предложении «Hon ser filmen» слово «Hon» — это ___.",
+        "en": "In \"Hon ser filmen\", the word \"Hon\" is the ___."
+      },
+      "answer": ["subjekt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sentence-elements-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "I meningen \"Hon ser filmen\" är \"filmen\" ___.",
+        "ru": "В предложении «Hon ser filmen» слово «filmen» — это ___.",
+        "en": "In \"Hon ser filmen\", the word \"filmen\" is the ___."
+      },
+      "answer": ["objekt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sentence-elements-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь член предложения с вопросом", "en": "Match the sentence element with its question" },
+      "pairs": [
+        ["subjekt", "Кто? Что? (действует)"],
+        ["predikat", "Что делает?"],
+        ["objekt", "Кого? Что? (испытывает действие)"],
+        ["adverbial", "Где? Когда? Как?"]
+      ]
+    },
+    {
+      "id": "q-sentence-elements-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Учитель читает книгу сегодня.»",
+        "en": "Build the sentence: \"The teacher reads the book today.\""
+      },
+      "tokens": ["idag", "boken", "läser", "Läraren"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-sentence-elements-mc-6",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Чем отличается ordklass от satsdel?",
+        "en": "What is the difference between an ordklass and a satsdel?"
+      },
+      "choices": [
+        { "ru": "Ordklass — постоянный ярлык слова, satsdel — его роль в конкретном предложении", "en": "Ordklass is a fixed label for a word, satsdel is its role in one particular sentence" },
+        { "ru": "Это два названия одного и того же", "en": "They are two names for the same thing" },
+        { "ru": "Ordklass касается только глаголов", "en": "Ordklass only applies to verbs" },
+        { "ru": "Satsdel не связан со словами вообще", "en": "Satsdel has nothing to do with words" }
+      ],
+      "answer": 0
+    }
+  ]
+}

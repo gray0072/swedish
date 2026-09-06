@@ -1,0 +1,99 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-future-tense-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Ты видишь тёмные тучи и говоришь другу, что скоро будет дождь. Какая форма естественнее?", "en": "You see dark clouds and tell a friend it's about to rain. Which form is most natural?" },
+      "choices": ["Det ska regna snart.", "Det kommer att regna snart.", "Det regnar snart.", "Det regnade snart."],
+      "answer": 1,
+      "explanation": { "ru": "Это прогноз на основе видимых признаков — kommer att.", "en": "This is a prediction based on visible evidence — kommer att." }
+    },
+    {
+      "id": "q-future-tense-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Ты уже решил и обещаешь другу: «Я позвоню тебе завтра». Как сказать?", "en": "You've decided and promise a friend: \"I'll call you tomorrow.\" How do you say it?" },
+      "choices": ["Jag kommer att ringa dig imorgon.", "Jag ringer dig imorgon möjligen.", "Jag ska ringa dig imorgon.", "Jag ringde dig imorgon."],
+      "answer": 2,
+      "explanation": { "ru": "Личное решение/обещание — ska.", "en": "A personal decision/promise — ska." }
+    },
+    {
+      "id": "q-future-tense-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать по расписанию: «Поезд отправляется завтра в восемь»?", "en": "How do you state the timetable: \"The train leaves at eight tomorrow\"?" },
+      "choices": ["Tåget ska gå klockan åtta imorgon.", "Tåget går klockan åtta imorgon.", "Tåget kommer att gå klockan åtta imorgon.", "Tåget gick klockan åtta imorgon."],
+      "answer": 1,
+      "explanation": { "ru": "Фиксированное расписание выражается презенсом.", "en": "A fixed schedule is expressed with the present tense." }
+    },
+    {
+      "id": "q-future-tense-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ resa till Spanien i sommar. (личное решение, ska)" },
+      "answer": ["ska"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-future-tense-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Titta på molnen — det ___ att regna snart. (kommer)" },
+      "answer": ["kommer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-future-tense-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«ska + инфинитив» подходит для обещания или личного решения.", "en": "\"ska + infinitive\" fits a promise or a personal decision." },
+      "answer": true
+    },
+    {
+      "id": "q-future-tense-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«kommer att» используется для прогноза на основе фактов, а не для личного решения.", "en": "\"kommer att\" is used for an evidence-based prediction, not a personal decision." },
+      "answer": true
+    },
+    {
+      "id": "q-future-tense-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Презенс никогда не может выражать будущее время.", "en": "The present tense can never express the future." },
+      "answer": false,
+      "explanation": { "ru": "Презенс используется для расписаний и твёрдых планов: «Tåget går klockan åtta».", "en": "The present is used for schedules and fixed plans: \"Tåget går klockan åtta\"." }
+    },
+    {
+      "id": "q-future-tense-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В шведском есть отдельная грамматическая форма «будущее время», отличная от презенса.", "en": "Swedish has a separate grammatical \"future tense\" form, distinct from the present." },
+      "answer": false
+    },
+    {
+      "id": "q-future-tense-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я встречаюсь с Анной завтра в три.»", "en": "Build the sentence: \"I'm meeting Anna tomorrow at three.\"" },
+      "tokens": ["klockan", "tre", "imorgon", "Anna", "träffar", "Jag"],
+      "answer": [5, 4, 3, 2, 0, 1]
+    },
+    {
+      "id": "q-future-tense-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму с оттенком смысла", "en": "Match the form with its nuance" },
+      "pairs": [
+        ["ska", "решение / обещание"],
+        ["kommer att", "прогноз"],
+        ["презенс", "расписание"]
+      ]
+    }
+  ]
+}

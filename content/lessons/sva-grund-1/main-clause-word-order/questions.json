@@ -1,0 +1,153 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-main-clause-word-order-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я живу в Мальмё.»", "en": "Build the sentence: \"I live in Malmö.\"" },
+      "tokens": ["Malmö", "bor", "i", "Jag"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-main-clause-word-order-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Завтра Анна переезжает в Лунд.»", "en": "Build the sentence: \"Tomorrow Anna is moving to Lund.\"" },
+      "tokens": ["till", "Anna", "flyttar", "Lund", "Imorgon"],
+      "answer": [4, 2, 1, 0, 3]
+    },
+    {
+      "id": "q-main-clause-word-order-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «В Лунде живёт много студентов.»", "en": "Build the sentence: \"In Lund live many students.\"" },
+      "tokens": ["studenter", "bor", "många", "Lund", "I"],
+      "answer": [4, 3, 1, 2, 0]
+    },
+    {
+      "id": "q-main-clause-word-order-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что стоит в fundament в предложении «Imorgon flyttar Anna till Lund»?",
+        "en": "What occupies the fundament in \"Imorgon flyttar Anna till Lund\"?"
+      },
+      "choices": ["Imorgon", "flyttar", "Anna", "till Lund"],
+      "answer": 0
+    },
+    {
+      "id": "q-main-clause-word-order-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Где стоит личный (finit) глагол в шведском повествовательном предложении?",
+        "en": "Where does the finite verb go in a Swedish statement?"
+      },
+      "choices": [
+        { "ru": "Всегда на втором месте", "en": "Always in the second slot" },
+        { "ru": "Всегда в конце предложения", "en": "Always at the end of the clause" },
+        { "ru": "Где угодно, как в русском", "en": "Anywhere, as in Russian" },
+        { "ru": "Всегда сразу после fundament, но перед subjekt", "en": "Always right after the fundament, but before the fundament" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-main-clause-word-order-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери предложение с правильным порядком слов.",
+        "en": "Choose the sentence with the correct word order."
+      },
+      "choices": ["Imorgon jobbar han i Lund.", "Imorgon han jobbar i Lund.", "Han imorgon jobbar i Lund.", "Jobbar imorgon han i Lund."],
+      "answer": 0
+    },
+    {
+      "id": "q-main-clause-word-order-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что происходит с глаголом в общем вопросе (да/нет)?",
+        "en": "What happens to the verb in a yes/no question?"
+      },
+      "choices": [
+        { "ru": "Он выходит на первое место", "en": "It moves to the first slot" },
+        { "ru": "Он остаётся на втором месте", "en": "It stays in the second slot" },
+        { "ru": "Он уходит в конец", "en": "It moves to the end" },
+        { "ru": "Он исчезает", "en": "It disappears" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-main-clause-word-order-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Если fundament занят обстоятельством, subjekt и глагол меняются местами (инверсия).",
+        "en": "If the fundament holds an adverbial, the subjekt and the verb swap places (inversion)."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-main-clause-word-order-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Правило V2 действует и в придаточных предложениях (bisats) так же, как в главных.",
+        "en": "The V2 rule works in a subordinate clause (bisats) exactly the same way as in a main clause."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "V2 — правило только для huvudsats. В bisats порядок слов другой (см. следующий урок).",
+        "en": "V2 only applies to a huvudsats. A bisats has different word order (see the next lesson)."
+      }
+    },
+    {
+      "id": "q-main-clause-word-order-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В fundament помещается ровно один член предложения.", "en": "The fundament holds exactly one sentence element." },
+      "answer": true
+    },
+    {
+      "id": "q-main-clause-word-order-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "___ bor du?",
+        "ru": "___ bor du? (вопрос «где»)",
+        "en": "___ bor du? (question word \"where\")"
+      },
+      "answer": ["Var"],
+      "acceptAlso": ["var"]
+    },
+    {
+      "id": "q-main-clause-word-order-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "___ du i Stockholm? (общий вопрос, глагол \"bo\")",
+        "ru": "___ du i Stockholm? (общий вопрос, глагол «bo»)",
+        "en": "___ du i Stockholm? (yes/no question, verb \"bo\")"
+      },
+      "answer": ["Bor"],
+      "acceptAlso": ["bor"]
+    },
+    {
+      "id": "q-main-clause-word-order-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь тип fundament с примером", "en": "Match the fundament type with its example" },
+      "pairs": [
+        ["subjekt", "Jag bor i Malmö."],
+        ["adverbial", "Idag bor jag i Stockholm."],
+        ["frågeord", "Var bor du?"]
+      ]
+    }
+  ]
+}

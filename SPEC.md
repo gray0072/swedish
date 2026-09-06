@@ -315,6 +315,11 @@ God morgon! — Доброе утро!
 
 Every Swedish string rendered from theory gets a small speaker button injected automatically.
 
+An optional `theory_en.md` next to it carries the English version. `LessonPage` picks
+`theory_en.md` when the study-language toggle is set to English, falling back to
+`theory.md` when only one of the two files exists — so a lesson may ship Russian-only
+theory (the historical default) or both languages.
+
 ### 5.4 Vocabulary — `vocab.json`
 
 ```jsonc

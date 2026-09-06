@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "snall",
+      "sv": "snäll",
+      "translations": { "ru": "добрый, милый", "en": "kind" },
+      "pos": "adj",
+      "example": { "sv": "Läraren är snäll.", "ru": "Учитель добрый.", "en": "The teacher is kind." },
+      "note": { "sv": "snäll / snällt / snälla" }
+    },
+    {
+      "id": "ny",
+      "sv": "ny",
+      "translations": { "ru": "новый", "en": "new" },
+      "pos": "adj",
+      "example": { "sv": "Vi har en ny bil.", "ru": "У нас новая машина.", "en": "We have a new car." },
+      "note": { "sv": "ny / nytt / nya" }
+    },
+    {
+      "id": "dum",
+      "sv": "dum",
+      "translations": { "ru": "глупый", "en": "silly, dumb" },
+      "pos": "adj",
+      "example": { "sv": "Det var en dum idé.", "ru": "Это была глупая идея.", "en": "That was a silly idea." },
+      "note": { "sv": "dum / dumt / dumma" }
+    },
+    {
+      "id": "snabb",
+      "sv": "snabb",
+      "translations": { "ru": "быстрый", "en": "fast" },
+      "pos": "adj",
+      "example": { "sv": "Tåget är snabbt.", "ru": "Поезд быстрый.", "en": "The train is fast." },
+      "note": { "sv": "snabb / snabbt / snabba" }
+    },
+    {
+      "id": "svag",
+      "sv": "svag",
+      "translations": { "ru": "слабый", "en": "weak" },
+      "pos": "adj",
+      "example": { "sv": "Kaffet är svagt.", "ru": "Кофе слабый.", "en": "The coffee is weak." },
+      "note": { "sv": "svag / svagt / svaga" }
+    },
+    {
+      "id": "stark",
+      "sv": "stark",
+      "translations": { "ru": "сильный", "en": "strong" },
+      "pos": "adj",
+      "example": { "sv": "Han är stark.", "ru": "Он сильный.", "en": "He is strong." },
+      "note": { "sv": "stark / starkt / starka" }
+    },
+    {
+      "id": "rolig",
+      "sv": "rolig",
+      "translations": { "ru": "весёлый, забавный", "en": "fun" },
+      "pos": "adj",
+      "example": { "sv": "Filmen var rolig.", "ru": "Фильм был весёлым.", "en": "The film was fun." },
+      "note": { "sv": "rolig / roligt / roliga" }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "example": { "sv": "Lägenheten är dyr.", "ru": "Квартира дорогая.", "en": "The apartment is expensive." },
+      "note": { "sv": "dyr / dyrt / dyra" }
+    },
+    {
+      "id": "billig",
+      "sv": "billig",
+      "translations": { "ru": "дешёвый", "en": "cheap" },
+      "pos": "adj",
+      "example": { "sv": "Det här är ett billigt hus.", "ru": "Это дешёвый дом.", "en": "This is a cheap house." },
+      "note": { "sv": "billig / billigt / billiga" }
+    },
+    {
+      "id": "glad",
+      "sv": "glad",
+      "translations": { "ru": "радостный, довольный", "en": "happy, glad" },
+      "pos": "adj",
+      "example": { "sv": "Barnen är glada.", "ru": "Дети радостные.", "en": "The children are happy." },
+      "note": { "sv": "glad / glatt / glada" }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Den snabba bilen är dyr.", "ru": "Та самая быстрая машина — дорогая.", "en": "The fast car is expensive." }
+    },
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Ett billigt hus kan ändå vara bra.", "ru": "Дешёвый дом всё равно может быть хорошим.", "en": "A cheap house can still be good." }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adjective-comparison-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Anna är ___ (snäll, сравнит.) än Erik." },
+      "answer": ["snällare"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Регулярная модель: snäll + -are.", "en": "The regular pattern: snäll + -are." }
+    },
+    {
+      "id": "q-adjective-comparison-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Hon är ___ (snäll, превосх.) i klassen." },
+      "answer": ["snällast"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Регулярная модель: snäll + -ast.", "en": "The regular pattern: snäll + -ast." }
+    },
+    {
+      "id": "q-adjective-comparison-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det här är bra, men det där är ___ (bra, сравнит.)." },
+      "answer": ["bättre"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Супплетивная форма: bra/god → bättre → bäst.", "en": "Suppletive form: bra/god → bättre → bäst." }
+    },
+    {
+      "id": "q-adjective-comparison-gap-4",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon är ___ (gammal, сравнит.) än sin bror." },
+      "answer": ["äldre"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Супплетивная форма: gammal → äldre → äldst.", "en": "Suppletive form: gammal → äldre → äldst." }
+    },
+    {
+      "id": "q-adjective-comparison-gap-5",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han har ___ (många, сравнит.) böcker än jag." },
+      "answer": ["fler"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Супплетивная форма: många → fler → flest.", "en": "Suppletive form: många → fler → flest." }
+    },
+    {
+      "id": "q-adjective-comparison-gap-6",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den här lägenheten är ___ (liten, сравнит.)." },
+      "answer": ["mindre"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Супплетивная форма: liten → mindre → minst.", "en": "Suppletive form: liten → mindre → minst." }
+    },
+    {
+      "id": "q-adjective-comparison-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Превосходная степень от «dyr»?", "en": "The superlative of \"dyr\"?" },
+      "choices": ["dyrast", "dyrare", "dyrat"],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-comparison-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Сравнительная степень от «stark»?", "en": "The comparative of \"stark\"?" },
+      "choices": ["starkare", "starkast", "starkre"],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-comparison-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая пара — сравнительная/превосходная степень от «dålig»?", "en": "Which pair is the comparative/superlative of \"dålig\"?" },
+      "choices": ["sämre / sämst", "bättre / bäst", "mindre / minst"],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-comparison-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая форма — превосходная степень от «liten»?", "en": "Which form is the superlative of \"liten\"?" },
+      "choices": ["minst", "mindre", "litenast"],
+      "answer": 0
+    },
+    {
+      "id": "q-adjective-comparison-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Сравнительная степень (bättre, äldre и т. д.) меняется по роду и числу.",
+        "en": "The comparative (bättre, äldre, etc.) changes for gender and number."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Сравнительная степень никогда не меняется по роду и числу.",
+        "en": "The comparative never changes for gender or number."
+      }
+    },
+    {
+      "id": "q-adjective-comparison-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Bra» и «god» имеют общую сравнительную и превосходную степень: bättre, bäst.",
+        "en": "\"Bra\" and \"god\" share the same comparative and superlative: bättre, bäst."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-adjective-comparison-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Регулярная модель сравнения образуется окончаниями -are и -ast.",
+        "en": "The regular comparison pattern uses the endings -are and -ast."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-adjective-comparison-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь положительную степень со сравнительной", "en": "Match the positive degree with its comparative" },
+      "pairs": [
+        ["snäll", "snällare"],
+        ["gammal", "äldre"],
+        ["liten", "mindre"],
+        ["många", "fler"]
+      ]
+    },
+    {
+      "id": "q-adjective-comparison-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она старше своего брата.»", "en": "Build the sentence: \"She is older than her brother.\"" },
+      "tokens": ["bror", "sin", "än", "äldre", "är", "Hon"],
+      "answer": [5, 4, 3, 2, 1, 0]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/particle-verbs",
+  "slug": "particle-verbs",
+  "title": {
+    "sv": "Partikelverb och skillnaden mot \"verb + preposition\"",
+    "ru": "Партикельные глаголы и их отличие от «глагол + предлог»",
+    "en": "Particle verbs and how they differ from \"verb + preposition\""
+  },
+  "summary": {
+    "ru": "Ringa upp — это не «звонить наверх», а «перезвонить»: ударение на частице меняет смысл всего глагола.",
+    "en": "Ringa upp isn't \"ring up\" — it's \"call back\": stress on the particle changes what the whole verb means."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "vocabulary"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 580,
+  "prerequisites": [
+    "sva-grund-1/verb-groups"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

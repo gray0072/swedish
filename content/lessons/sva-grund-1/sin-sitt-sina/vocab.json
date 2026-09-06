@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "id": "sin",
+      "sv": "sin",
+      "translations": { "ru": "свой (перед en-словом)", "en": "one's own (before an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Han älskar sin fru.", "ru": "Он любит свою жену.", "en": "He loves his own wife." }
+    },
+    {
+      "id": "sitt",
+      "sv": "sitt",
+      "translations": { "ru": "своё (перед ett-словом)", "en": "one's own (before an ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Hon läser sitt brev.", "ru": "Она читает своё письмо.", "en": "She's reading her own letter." }
+    },
+    {
+      "id": "sina",
+      "sv": "sina",
+      "translations": { "ru": "свои (перед множественным числом)", "en": "one's own (before a plural)" },
+      "pos": "pron",
+      "example": { "sv": "De älskar sina barn.", "ru": "Они любят своих детей.", "en": "They love their own children." }
+    },
+    {
+      "id": "hans",
+      "sv": "hans",
+      "translations": { "ru": "его (притяжательное, о ком-то другом)", "en": "his (someone else's, not the subject)" },
+      "pos": "pron",
+      "example": { "sv": "Hans bil är ny.", "ru": "Его машина новая.", "en": "His car is new." }
+    },
+    {
+      "id": "hennes",
+      "sv": "hennes",
+      "translations": { "ru": "её (притяжательное, о ком-то другом)", "en": "her (someone else's, not the subject)" },
+      "pos": "pron",
+      "example": { "sv": "Anna älskar hennes man.", "ru": "Анна любит её мужа (другой женщины).", "en": "Anna loves her husband (someone else's)." }
+    },
+    {
+      "id": "deras",
+      "sv": "deras",
+      "translations": { "ru": "их (притяжательное, о ком-то другом)", "en": "their (someone else's, not the subject)" },
+      "pos": "pron",
+      "example": { "sv": "Det är deras hus, inte hans.", "ru": "Это их дом, а не его.", "en": "That's their house, not his." }
+    },
+    {
+      "id": "man-husband",
+      "sv": "man",
+      "translations": { "ru": "муж", "en": "husband" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Anna älskar sin man.", "ru": "Анна любит своего мужа.", "en": "Anna loves her own husband." }
+    },
+    {
+      "id": "fru",
+      "sv": "fru",
+      "translations": { "ru": "жена", "en": "wife" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han läser sin bok.", "ru": "Он читает свою книгу.", "en": "He's reading his own book." }
+    },
+    {
+      "id": "brev",
+      "sv": "brev",
+      "translations": { "ru": "письмо", "en": "letter" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок / дети", "en": "child / children" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "alska",
+      "sv": "älska",
+      "translations": { "ru": "любить", "en": "to love" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "älska", "present": "älskar", "past": "älskade", "supine": "älskat" }
+    }
+  ]
+}

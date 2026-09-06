@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "forsoka",
+      "sv": "försöka",
+      "translations": { "ru": "пытаться", "en": "to try" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "försöka", "present": "försöker", "past": "försökte", "supine": "försökt" },
+      "example": { "sv": "Jag försöker att lära mig svenska.", "ru": "Я пытаюсь выучить шведский.", "en": "I'm trying to learn Swedish." }
+    },
+    {
+      "id": "hoppas",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: it keeps the -s form throughout." },
+      "example": { "sv": "Hon hoppas att få jobb snart.", "ru": "Она надеется скоро получить работу.", "en": "She hopes to get a job soon." }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" }
+    },
+    {
+      "id": "vilja",
+      "sv": "vilja",
+      "translations": { "ru": "хотеть", "en": "to want" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" }
+    },
+    {
+      "id": "kunna",
+      "sv": "kunna",
+      "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
+      "pos": "verb",
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" }
+    },
+    {
+      "id": "lata",
+      "sv": "låta",
+      "translations": { "ru": "разрешать, позволять", "en": "to let, to allow" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "låta", "present": "låter", "past": "lät", "supine": "låtit" },
+      "example": { "sv": "Hon lät barnen leka ute.", "ru": "Она разрешила детям играть на улице.", "en": "She let the children play outside." }
+    },
+    {
+      "id": "se",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "example": { "sv": "Jag såg honom simma.", "ru": "Я видел, как он плавал.", "en": "I saw him swim." }
+    },
+    {
+      "id": "hora",
+      "sv": "höra",
+      "translations": { "ru": "слышать", "en": "to hear" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" }
+    },
+    {
+      "id": "fa",
+      "sv": "få",
+      "translations": { "ru": "получать; иметь право", "en": "to get; to be allowed to" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" }
+    },
+    {
+      "id": "glomma",
+      "sv": "glömma",
+      "translations": { "ru": "забывать", "en": "to forget" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "glömma", "present": "glömmer", "past": "glömde", "supine": "glömt" },
+      "example": { "sv": "Glöm inte att ringa mig.", "ru": "Не забудь позвонить мне.", "en": "Don't forget to call me." }
+    }
+  ]
+}

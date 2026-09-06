@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "snall",
+      "sv": "snäll",
+      "translations": { "ru": "добрый", "en": "kind" },
+      "pos": "adj",
+      "example": { "sv": "Hon är snällare än sin bror.", "ru": "Она добрее, чем её брат.", "en": "She is kinder than her brother." },
+      "note": { "sv": "snäll — snällare — snällast (регулярно)" }
+    },
+    {
+      "id": "ny",
+      "sv": "ny",
+      "translations": { "ru": "новый", "en": "new" },
+      "pos": "adj",
+      "example": { "sv": "Den här bilen är nyare.", "ru": "Эта машина новее.", "en": "This car is newer." },
+      "note": { "sv": "ny — nyare — nyast (регулярно)" }
+    },
+    {
+      "id": "stark",
+      "sv": "stark",
+      "translations": { "ru": "сильный", "en": "strong" },
+      "pos": "adj",
+      "example": { "sv": "Han är starkast i familjen.", "ru": "Он самый сильный в семье.", "en": "He is the strongest in the family." },
+      "note": { "sv": "stark — starkare — starkast (регулярно)" }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "example": { "sv": "Den här lägenheten är dyrare.", "ru": "Эта квартира дороже.", "en": "This apartment is more expensive." },
+      "note": { "sv": "dyr — dyrare — dyrast (регулярно)" }
+    },
+    {
+      "id": "svag",
+      "sv": "svag",
+      "translations": { "ru": "слабый", "en": "weak" },
+      "pos": "adj",
+      "example": { "sv": "Kaffet blir svagare med mer vatten.", "ru": "Кофе становится слабее с большим количеством воды.", "en": "The coffee gets weaker with more water." },
+      "note": { "sv": "svag — svagare — svagast (регулярно)" }
+    },
+    {
+      "id": "bra",
+      "sv": "bra",
+      "translations": { "ru": "хороший", "en": "good" },
+      "pos": "adj",
+      "example": { "sv": "Det här är bättre än det där.", "ru": "Это лучше, чем то.", "en": "This is better than that." },
+      "note": { "sv": "bra/god — bättre — bäst (супплетивно)" }
+    },
+    {
+      "id": "dalig",
+      "sv": "dålig",
+      "translations": { "ru": "плохой", "en": "bad" },
+      "pos": "adj",
+      "example": { "sv": "Vädret var sämre igår.", "ru": "Погода была хуже вчера.", "en": "The weather was worse yesterday." },
+      "note": { "sv": "dålig — sämre/värre — sämst/värst (супплетивно)" }
+    },
+    {
+      "id": "liten",
+      "sv": "liten",
+      "translations": { "ru": "маленький", "en": "small" },
+      "pos": "adj",
+      "example": { "sv": "Den här lägenheten är mindre.", "ru": "Эта квартира меньше.", "en": "This apartment is smaller." },
+      "note": { "sv": "liten — mindre — minst (супплетивно)" }
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "example": { "sv": "Hon är äldre än sin bror.", "ru": "Она старше своего брата.", "en": "She is older than her brother." },
+      "note": { "sv": "gammal — äldre — äldst (супплетивно)" }
+    },
+    {
+      "id": "manga",
+      "sv": "många",
+      "translations": { "ru": "многие, много", "en": "many" },
+      "pos": "adj",
+      "example": { "sv": "Han har fler böcker än jag.", "ru": "У него больше книг, чем у меня.", "en": "He has more books than me." },
+      "note": { "sv": "många — fler — flest (супплетивно)" }
+    }
+  ]
+}

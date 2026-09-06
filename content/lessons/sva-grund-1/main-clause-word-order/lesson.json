@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/main-clause-word-order",
+  "slug": "main-clause-word-order",
+  "title": {
+    "sv": "Ordföljd i huvudsats",
+    "ru": "Порядок слов главного предложения",
+    "en": "Main-clause word order"
+  },
+  "summary": {
+    "ru": "Fundament и правило V2 — единственная причина, почему шведы иногда говорят «сегодня живу я», а не «я живу».",
+    "en": "The fundament and the V2 rule are the whole reason Swedes sometimes say \"today live I\" instead of \"I live\"."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "word-order",
+    "v2",
+    "syntax",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 480,
+  "prerequisites": [
+    "sva-grund-1/sentence-elements"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

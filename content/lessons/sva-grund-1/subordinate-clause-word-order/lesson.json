@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/subordinate-clause-word-order",
+  "slug": "subordinate-clause-word-order",
+  "title": {
+    "sv": "Ordföljd i bisats",
+    "ru": "Порядок слов придаточного предложения",
+    "en": "Subordinate-clause word order"
+  },
+  "summary": {
+    "ru": "Правило BIFF в двух словах: то же «inte», что в huvudsats стояло после глагола, в bisats перепрыгивает перед ним.",
+    "en": "The BIFF rule in one line: the same \"inte\" that sat after the verb in a huvudsats jumps in front of it in a bisats."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "word-order",
+    "biff",
+    "syntax",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 490,
+  "prerequisites": [
+    "sva-grund-1/main-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

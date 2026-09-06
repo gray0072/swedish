@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "ordklass",
+      "sv": "ordklass",
+      "translations": { "ru": "часть речи", "en": "part of speech" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "ordklass", "defSg": "ordklassen", "indefPl": "ordklasser", "defPl": "ordklasserna" },
+      "example": { "sv": "Verb är en ordklass.", "ru": "Глагол — это часть речи.", "en": "A verb is a part of speech." }
+    },
+    {
+      "id": "substantiv",
+      "sv": "substantiv",
+      "translations": { "ru": "существительное", "en": "noun" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "substantiv", "defSg": "substantivet", "indefPl": "substantiv", "defPl": "substantiven" },
+      "example": { "sv": "\"Hund\" är ett substantiv.", "ru": "«Hund» — существительное.", "en": "\"Hund\" is a noun." }
+    },
+    {
+      "id": "verb",
+      "sv": "verb",
+      "translations": { "ru": "глагол", "en": "verb" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "verb", "defSg": "verbet", "indefPl": "verb", "defPl": "verben" },
+      "example": { "sv": "\"Springa\" är ett verb.", "ru": "«Springa» — глагол.", "en": "\"Springa\" is a verb." }
+    },
+    {
+      "id": "adjektiv",
+      "sv": "adjektiv",
+      "translations": { "ru": "прилагательное", "en": "adjective" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "adjektiv", "defSg": "adjektivet", "indefPl": "adjektiv", "defPl": "adjektiven" },
+      "example": { "sv": "\"Snabb\" är ett adjektiv.", "ru": "«Snabb» — прилагательное.", "en": "\"Snabb\" is an adjective." }
+    },
+    {
+      "id": "pronomen",
+      "sv": "pronomen",
+      "translations": { "ru": "местоимение", "en": "pronoun" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "pronomen", "defSg": "pronomenet", "indefPl": "pronomen", "defPl": "pronomenen" },
+      "example": { "sv": "\"Hon\" är ett pronomen.", "ru": "«Hon» — местоимение.", "en": "\"Hon\" is a pronoun." }
+    },
+    {
+      "id": "preposition",
+      "sv": "preposition",
+      "translations": { "ru": "предлог", "en": "preposition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "preposition", "defSg": "prepositionen", "indefPl": "prepositioner", "defPl": "prepositionerna" },
+      "example": { "sv": "\"I\" är en preposition.", "ru": "«I» — предлог.", "en": "\"I\" is a preposition." }
+    },
+    {
+      "id": "adverb",
+      "sv": "adverb",
+      "translations": { "ru": "наречие", "en": "adverb" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "adverb", "defSg": "adverbet", "indefPl": "adverb", "defPl": "adverben" },
+      "example": { "sv": "\"Inte\" är ett adverb.", "ru": "«Inte» — наречие.", "en": "\"Inte\" is an adverb." }
+    },
+    {
+      "id": "konjunktion",
+      "sv": "konjunktion",
+      "translations": { "ru": "союз", "en": "conjunction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "konjunktion", "defSg": "konjunktionen", "indefPl": "konjunktioner", "defPl": "konjunktionerna" },
+      "example": { "sv": "\"Och\" är en konjunktion.", "ru": "«Och» — союз.", "en": "\"Och\" is a conjunction." }
+    },
+    {
+      "id": "rakneord",
+      "sv": "räkneord",
+      "translations": { "ru": "числительное", "en": "numeral" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "räkneord", "defSg": "räkneordet", "indefPl": "räkneord", "defPl": "räkneorden" },
+      "example": { "sv": "\"Två\" är ett räkneord.", "ru": "«Två» — числительное.", "en": "\"Två\" is a numeral." }
+    },
+    {
+      "id": "interjektion",
+      "sv": "interjektion",
+      "translations": { "ru": "междометие", "en": "interjection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "interjektion", "defSg": "interjektionen", "indefPl": "interjektioner", "defPl": "interjektionerna" },
+      "example": { "sv": "\"Hej\" är en interjektion.", "ru": "«Hej» — междометие.", "en": "\"Hej\" is an interjection." }
+    }
+  ]
+}

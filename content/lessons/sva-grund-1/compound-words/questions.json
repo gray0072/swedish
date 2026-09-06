@@ -1,0 +1,142 @@
+{
+  "generators": [
+    { "type": "article", "from": "vocab", "count": "all" },
+    { "type": "plural", "from": "vocab", "count": "all" },
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-compound-words-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В какой паре появляется соединительное -s-?", "en": "Which pair takes the linking -s-?" },
+      "choices": ["arbete + plats", "barn + vagn", "sjuk + hus"],
+      "answer": 0
+    },
+    {
+      "id": "q-compound-words-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая часть слова «bilnyckel» задаёт его род (en)?", "en": "Which part of \"bilnyckel\" sets its gender (en)?" },
+      "choices": ["nyckel", "bil"],
+      "answer": 0
+    },
+    {
+      "id": "q-compound-words-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Что значит «en rödvinsflaska»?", "en": "What does \"en rödvinsflaska\" mean?" },
+      "choices": [
+        { "ru": "бутылка красного вина", "en": "a bottle of red wine" },
+        { "ru": "красная бутылка для вина (любого)", "en": "a red bottle meant for wine (any color)" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-compound-words-mc-4",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Что значит «en röd vinflaska»?", "en": "What does \"en röd vinflaska\" mean?" },
+      "choices": [
+        { "ru": "красная бутылка для вина (цвет самой бутылки)", "en": "a red bottle meant for wine (the color of the bottle itself)" },
+        { "ru": "бутылка красного вина", "en": "a bottle of red wine" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-compound-words-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "regering + ___ + beslut = regeringsbeslut" },
+      "answer": ["s"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Соединительное -s- между regering и beslut.", "en": "A linking -s- between regering and beslut." }
+    },
+    {
+      "id": "q-compound-words-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Hon jobbar på ett stort ___ (sjuk + hus)." },
+      "answer": ["sjukhus"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Без соединительного элемента: sjuk + hus.", "en": "No linking element: sjuk + hus." }
+    },
+    {
+      "id": "q-compound-words-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi läste en ___ (tidning + artikel) om Sverige." },
+      "answer": ["tidningsartikel"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Со связкой -s-: tidning + s + artikel.", "en": "With the linking -s-: tidning + s + artikel." }
+    },
+    {
+      "id": "q-compound-words-gap-4",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han läser en ___ (dag + tidning) varje morgon." },
+      "answer": ["dagstidning"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Со связкой -s-: dag + s + tidning.", "en": "With the linking -s-: dag + s + tidning." }
+    },
+    {
+      "id": "q-compound-words-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Род и значение сложного слова определяются по его первому элементу.",
+        "en": "The gender and core meaning of a compound are set by its first element."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Их определяет последний элемент — он «главный».",
+        "en": "They're set by the last element — that's the head."
+      }
+    },
+    {
+      "id": "q-compound-words-tf-2",
+      "type": "true-false",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "«Rödvinsflaska» и «röd vinflaska» означают одно и то же.",
+        "en": "\"Rödvinsflaska\" and \"röd vinflaska\" mean the same thing."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Первое — про содержимое (вино), второе — про цвет самой бутылки.",
+        "en": "The first is about the contents (wine), the second about the color of the bottle itself."
+      }
+    },
+    {
+      "id": "q-compound-words-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Соединительное -s- чаще появляется, если первая часть сама уже сложное слово.",
+        "en": "The linking -s- appears more often when the first part is itself already a compound."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-compound-words-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь сложное слово с его составом", "en": "Match the compound with its components" },
+      "pairs": [
+        ["bilnyckel", "bil + nyckel"],
+        ["sjukhus", "sjuk + hus"],
+        ["barnvagn", "barn + vagn"],
+        ["regeringsbeslut", "regering + s + beslut"]
+      ]
+    },
+    {
+      "id": "q-compound-words-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы купили бутылку красного вина к ужину.»", "en": "Build the sentence: \"We bought a bottle of red wine for dinner.\"" },
+      "tokens": ["middagen", "till", "rödvinsflaska", "en", "köpte", "Vi"],
+      "answer": [5, 4, 3, 2, 1, 0]
+    }
+  ]
+}

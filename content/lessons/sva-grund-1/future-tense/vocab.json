@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "resa",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Jag ska resa till Spanien i sommar.", "ru": "Я поеду в Испанию этим летом.", "en": "I'm going to travel to Spain this summer." }
+    },
+    {
+      "id": "traffa",
+      "sv": "träffa",
+      "translations": { "ru": "встречать(ся)", "en": "to meet" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+    },
+    {
+      "id": "regna",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "note": { "ru": "Безличный глагол: подлежащее всегда «det».", "en": "An impersonal verb: the subject is always \"det\"." }
+    },
+    {
+      "id": "ga",
+      "sv": "gå",
+      "translations": { "ru": "идти; отправляться (о поезде)", "en": "to go; to leave (of a train)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Tåget går klockan åtta.", "ru": "Поезд отправляется в восемь.", "en": "The train leaves at eight." }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "note": { "ru": "Основа конструкции «kommer att» + инфинитив.", "en": "The base of the \"kommer att\" + infinitive construction." }
+    },
+    {
+      "id": "planera",
+      "sv": "planera",
+      "translations": { "ru": "планировать", "en": "to plan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "planera", "present": "planerar", "past": "planerade", "supine": "planerat" }
+    },
+    {
+      "id": "tag",
+      "sv": "tåg",
+      "translations": { "ru": "поезд", "en": "train" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" }
+    },
+    {
+      "id": "moln",
+      "sv": "moln",
+      "translations": { "ru": "облако", "en": "cloud" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "moln", "defSg": "molnet", "indefPl": "moln", "defPl": "molnen" }
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv"
+    },
+    {
+      "id": "snart",
+      "sv": "snart",
+      "translations": { "ru": "скоро", "en": "soon" },
+      "pos": "adv"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-tense-overview-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое время строится как «har/hade + супин»?", "en": "Which tense is built as \"har/hade + supine\"?" },
+      "choices": [
+        { "ru": "Только перфект", "en": "Only the perfect" },
+        { "ru": "Перфект и плюсквамперфект", "en": "The perfect and the pluperfect" },
+        { "ru": "Только претерит", "en": "Only the preteritum" },
+        { "ru": "Презенс", "en": "The present" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-tense-overview-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Когда я пришёл, она уже поговорила с начальником» — какое время у «поговорила»?", "en": "\"When I arrived, she had already talked to the boss\" — which tense is \"had talked\"?" },
+      "choices": [
+        { "ru": "Презенс", "en": "Present" },
+        { "ru": "Претерит", "en": "Preteritum" },
+        { "ru": "Перфект", "en": "Perfect" },
+        { "ru": "Плюсквамперфект", "en": "Pluperfect" }
+      ],
+      "answer": 3,
+      "explanation": { "ru": "Событие случилось раньше другого прошлого события — hade talat.", "en": "It happened before another past event — hade talat." }
+    },
+    {
+      "id": "q-tense-overview-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ i Sverige i tre år (och bor här fortfarande). (bo, perfekt)" },
+      "answer": ["har bott"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-tense-overview-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Igår ___ jag med min chef. (tala, preteritum)" },
+      "answer": ["talade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-tense-overview-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "När hon kom hem ___ han redan ___ maten. (äta, pluskvamperfekt)" },
+      "answer": ["hade ätit"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-tense-overview-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Redan» и «aldrig» часто сигналят о перфекте.", "en": "\"Redan\" and \"aldrig\" often signal the perfect." },
+      "answer": true
+    },
+    {
+      "id": "q-tense-overview-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Претерит обычно используется с точным указанием времени, например «igår» или «förra året».", "en": "The preteritum is usually used with a specific time marker, like \"igår\" or \"förra året\"." },
+      "answer": true
+    },
+    {
+      "id": "q-tense-overview-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Плюсквамперфект строится как «har + супин».", "en": "The pluperfect is built as \"har + supine\"." },
+      "answer": false,
+      "explanation": { "ru": "Плюсквамперфект строится как «hade + супин».", "en": "The pluperfect is built as \"hade + supine\"." }
+    },
+    {
+      "id": "q-tense-overview-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Супин в перфекте не меняется по лицам: «jag har skrivit» и «de har skrivit».", "en": "The supine in the perfect doesn't change by person: \"jag har skrivit\" and \"de har skrivit\"." },
+      "answer": true
+    },
+    {
+      "id": "q-tense-overview-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я никогда не был в Испании.»", "en": "Build the sentence: \"I have never been to Spain.\"" },
+      "tokens": ["har", "aldrig", "varit", "i", "Spanien", "Jag"],
+      "answer": [5, 0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-tense-overview-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь время с его формой", "en": "Match the tense with its form" },
+      "pairs": [
+        ["Презенс", "skriver"],
+        ["Претерит", "skrev"],
+        ["Перфект", "har skrivit"],
+        ["Плюсквамперфект", "hade skrivit"]
+      ]
+    }
+  ]
+}

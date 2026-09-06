@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "vilja",
+      "sv": "vilja",
+      "translations": { "ru": "хотеть", "en": "to want" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Jag har alltid velat lära mig svenska.", "ru": "Я всегда хотел выучить шведский.", "en": "I've always wanted to learn Swedish." }
+    },
+    {
+      "id": "kunna",
+      "sv": "kunna",
+      "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
+      "pos": "verb",
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "example": { "sv": "Hon har aldrig kunnat simma.", "ru": "Она никогда не умела плавать.", "en": "She has never been able to swim." }
+    },
+    {
+      "id": "fa",
+      "sv": "få",
+      "translations": { "ru": "иметь право, можно", "en": "to be allowed to, may" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Vi har äntligen fått resa till Sverige.", "ru": "Мы наконец-то смогли поехать в Швецию.", "en": "We finally got to travel to Sweden." }
+    },
+    {
+      "id": "bora",
+      "sv": "böra",
+      "translations": { "ru": "следовало бы", "en": "ought to, should" },
+      "pos": "verb",
+      "forms": { "infinitive": "böra", "present": "bör", "past": "borde", "supine": "bort" },
+      "example": { "sv": "Han borde ha ringt tidigare.", "ru": "Ему следовало позвонить раньше.", "en": "He should have called earlier." }
+    },
+    {
+      "id": "maste",
+      "sv": "måste",
+      "translations": { "ru": "должен, вынужден", "en": "must, have to" },
+      "pos": "verb",
+      "note": { "ru": "Одна форма для презенса и претерита: «måste». Супин — «måst».", "en": "One form covers present and preteritum: \"måste\". The supine is \"måst\"." },
+      "example": { "sv": "Jag har måst jobba hela helgen.", "ru": "Мне пришлось работать все выходные.", "en": "I've had to work the whole weekend." }
+    },
+    {
+      "id": "ska",
+      "sv": "ska",
+      "translations": { "ru": "собираться, буду (будущее)", "en": "going to, will (future)" },
+      "pos": "verb",
+      "note": { "ru": "Претерит — «skulle»; в перфекте практически не используется.", "en": "Preteritum is \"skulle\"; almost never used in the perfect." },
+      "example": { "sv": "Hon skulle resa, men blev sjuk.", "ru": "Она собиралась поехать, но заболела.", "en": "She was going to travel, but fell ill." }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" }
+    },
+    {
+      "id": "parkera",
+      "sv": "parkera",
+      "translations": { "ru": "парковаться", "en": "to park" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "parkera", "present": "parkerar", "past": "parkerade", "supine": "parkerat" }
+    },
+    {
+      "id": "vila",
+      "sv": "vila",
+      "translations": { "ru": "отдыхать", "en": "to rest" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vila", "present": "vilar", "past": "vilade", "supine": "vilat" }
+    },
+    {
+      "id": "jobba",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" }
+    }
+  ]
+}

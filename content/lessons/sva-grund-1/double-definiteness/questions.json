@@ -1,0 +1,134 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-double-definiteness-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ stora staden ligger vid havet. (den/det/de)" },
+      "answer": ["Den", "den"],
+      "acceptAlso": [],
+      "explanation": { "ru": "«Stad» — en-слово, значит артикль «den».", "en": "\"Stad\" is an en-word, so the article is \"den\"." }
+    },
+    {
+      "id": "q-double-definiteness-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ stora huset är gammalt. (den/det/de)" },
+      "answer": ["Det", "det"],
+      "acceptAlso": [],
+      "explanation": { "ru": "«Hus» — ett-слово, значит артикль «det».", "en": "\"Hus\" is an ett-word, so the article is \"det\"." }
+    },
+    {
+      "id": "q-double-definiteness-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ stora städerna är vackra. (den/det/de)" },
+      "answer": ["De", "de"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Множественное число всегда берёт «de».", "en": "The plural always takes \"de\"." }
+    },
+    {
+      "id": "q-double-definiteness-gap-4",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": { "sv": "Min stora ___ (stad, неопр. ед.ч.) är fin." },
+      "answer": ["stad"],
+      "acceptAlso": [],
+      "explanation": {
+        "ru": "После притяжательного местоимения существительное остаётся в неопределённой форме: не «staden».",
+        "en": "After a possessive the noun stays in its indefinite form: not \"staden\"."
+      }
+    },
+    {
+      "id": "q-double-definiteness-gap-5",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den gamla ___ (bil, опр. ед.ч.) är blå." },
+      "answer": ["bilen"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Существительное всё равно получает своё определённое окончание.", "en": "The noun still takes its own definite ending." }
+    },
+    {
+      "id": "q-double-definiteness-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Выбери правильный артикль: «___ nya boken är bra.»", "en": "Pick the right article: \"___ nya boken är bra.\"" },
+      "choices": ["Den", "Det", "De"],
+      "answer": 0
+    },
+    {
+      "id": "q-double-definiteness-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Выбери правильный артикль: «___ vackra huset.»", "en": "Pick the right article: \"___ vackra huset.\"" },
+      "choices": ["Det", "Den", "De"],
+      "answer": 0
+    },
+    {
+      "id": "q-double-definiteness-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать «мой большой город»?", "en": "How do you correctly say \"my big city\"?" },
+      "choices": ["min stora stad", "den min stora staden", "min stora staden", "den stora min stad"],
+      "answer": 0
+    },
+    {
+      "id": "q-double-definiteness-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После притяжательного местоимения перед прилагательным всё равно нужен артикль den/det/de.",
+        "en": "A possessive pronoun still requires the article den/det/de before the adjective."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Притяжательность уже выражает определённость сама по себе, поэтому артикль не нужен.",
+        "en": "Possession already marks definiteness on its own, so no article is needed."
+      }
+    },
+    {
+      "id": "q-double-definiteness-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слова hela, samma, nästa не требуют отдельного артикля перед прилагательным, потому что сами делают существительное определённым.",
+        "en": "Words like hela, samma, nästa don't need a separate article before an adjective, because they already make the noun definite by themselves."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-double-definiteness-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Двойная определённость — это артикль + прилагательное в слабой форме + определённое окончание существительного.",
+        "en": "Double definiteness is the article + the adjective in its weak form + the noun's own definite ending."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-double-definiteness-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь род/число с артиклем", "en": "Match the gender/number with its article" },
+      "pairs": [
+        ["en", "den"],
+        ["ett", "det"],
+        ["мн. число / plural", "de"]
+      ]
+    },
+    {
+      "id": "q-double-definiteness-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Та самая старая машина синяя.»", "en": "Build the sentence: \"The old car is blue.\"" },
+      "tokens": ["blå", "bilen", "är", "gamla", "Den"],
+      "answer": [4, 3, 1, 2, 0]
+    }
+  ]
+}

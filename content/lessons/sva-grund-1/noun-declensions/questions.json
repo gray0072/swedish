@@ -1,0 +1,162 @@
+{
+  "generators": [
+    { "type": "article", "from": "vocab", "count": "all" },
+    { "type": "plural", "from": "vocab", "count": "all" },
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-noun-declensions-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "En ___ (flicka, обычн. мн.ч.) leker i parken." },
+      "answer": ["flickor"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Класс -or: flicka → flickor.", "en": "The -or class: flicka → flickor." }
+    },
+    {
+      "id": "q-noun-declensions-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ser alla ___ (bil, опр. мн.ч.) på gatan." },
+      "answer": ["bilarna"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Опр. мн. = неопр. мн. + -na: bilar → bilarna.", "en": "Def. pl. = indef. pl. + -na: bilar → bilarna." }
+    },
+    {
+      "id": "q-noun-declensions-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Här finns fem ___ (hus, неопр. мн.ч.)." },
+      "answer": ["hus"],
+      "acceptAlso": [],
+      "explanation": { "ru": "«Hus» не меняется во множественном числе.", "en": "\"Hus\" does not change in the plural." }
+    },
+    {
+      "id": "q-noun-declensions-gap-4",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ (äpple, опр. мн.ч.) ligger på bordet." },
+      "answer": ["Äpplena", "äpplena"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Класс -n: äpple → äpplen → äpplena.", "en": "The -n class: äpple → äpplen → äpplena." }
+    },
+    {
+      "id": "q-noun-declensions-gap-5",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": { "sv": "Sverige har många ___ (stad, неопр. мн.ч.)." },
+      "answer": ["städer"],
+      "acceptAlso": [],
+      "explanation": { "ru": "«Stad» — исключение внутри класса -er: гласная меняется a→ä.", "en": "\"Stad\" is irregular within the -er class: the vowel changes a→ä." }
+    },
+    {
+      "id": "q-noun-declensions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой артикль у слова «familj»?", "en": "Which article goes with \"familj\"?" },
+      "choices": ["en", "ett"],
+      "answer": 0
+    },
+    {
+      "id": "q-noun-declensions-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой артикль у слова «hus»?", "en": "Which article goes with \"hus\"?" },
+      "choices": ["ett", "en"],
+      "answer": 0
+    },
+    {
+      "id": "q-noun-declensions-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "К какому склонению во множественном числе относится «bil»?", "en": "Which plural declension class does \"bil\" belong to?" },
+      "choices": [
+        "-ar",
+        "-or",
+        "-er",
+        { "ru": "без окончания", "en": "no ending" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-noun-declensions-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Определённое множественное число от «vecka»?", "en": "The definite plural of \"vecka\"?" },
+      "choices": ["veckorna", "veckoma", "veckoren", "veckona"],
+      "answer": 0
+    },
+    {
+      "id": "q-noun-declensions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Определённое множественное число почти всегда равно неопределённому множественному + «-na» или «-en».",
+        "en": "The definite plural is almost always the indefinite plural plus \"-na\" or \"-en\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-noun-declensions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "У слова «barn» во множественном числе появляется окончание «-ar»: «barnar».",
+        "en": "The plural of \"barn\" takes the ending \"-ar\": \"barnar\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Barn» — ett-слово с нулевым окончанием: barn → barn (неопр.) → barnen (опр.).",
+        "en": "\"Barn\" is an ett-word with a zero ending: barn → barn (indef.) → barnen (def.)."
+      }
+    },
+    {
+      "id": "q-noun-declensions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Род существительного (en/ett) обычно можно вывести из его значения.",
+        "en": "A noun's gender (en/ett) can usually be predicted from its meaning."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Род почти всегда нужно просто запоминать вместе со словом.",
+        "en": "Gender almost always has to be memorized together with the word."
+      }
+    },
+    {
+      "id": "q-noun-declensions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с его неопределённым множественным числом", "en": "Match the word with its indefinite plural" },
+      "pairs": [
+        ["flicka", "flickor"],
+        ["bil", "bilar"],
+        ["familj", "familjer"],
+        ["äpple", "äpplen"]
+      ]
+    },
+    {
+      "id": "q-noun-declensions-match-2",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с его определённой формой единственного числа", "en": "Match the word with its definite singular form" },
+      "pairs": [
+        ["bil", "bilen"],
+        ["hus", "huset"],
+        ["familj", "familjen"],
+        ["äpple", "äpplet"]
+      ]
+    },
+    {
+      "id": "q-noun-declensions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Машина красная.»", "en": "Build the sentence: \"The car is red.\"" },
+      "tokens": ["röd", "är", "Bilen"],
+      "answer": [2, 1, 0]
+    }
+  ]
+}

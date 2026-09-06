@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/noun-declensions",
+  "slug": "noun-declensions",
+  "title": {
+    "sv": "Substantivets fem böjningsklasser",
+    "ru": "Существительное: пять склонений",
+    "en": "The noun: five declensions"
+  },
+  "summary": {
+    "ru": "Пять типов множественного числа и род, который просто нужно запоминать вместе со словом — вот стержень шведской морфологии.",
+    "en": "Five plural patterns and a gender you simply memorize with the word — this is the backbone of Swedish noun morphology."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "nouns",
+    "grammar",
+    "declension",
+    "plural"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 510,
+  "prerequisites": [
+    "sva-grund-1/parts-of-speech"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,107 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "particle-verbs-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Kom ___ nyckeln! (не забудь / don't forget)" },
+      "answer": ["ihåg"],
+      "acceptAlso": []
+    },
+    {
+      "id": "particle-verbs-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag ringer ___ dig imorgon. (перезвоню / call back)" },
+      "answer": ["upp"],
+      "acceptAlso": []
+    },
+    {
+      "id": "particle-verbs-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Kan du ta ___ filen? (удалить / delete)" },
+      "answer": ["bort"],
+      "acceptAlso": []
+    },
+    {
+      "id": "particle-verbs-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Slå ___ tv:n. (включи / turn on)" },
+      "answer": ["på"],
+      "acceptAlso": []
+    },
+    {
+      "id": "particle-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что значит «ringa upp»?", "en": "What does \"ringa upp\" mean?" },
+      "choices": ["Звонить наверх, в квартиру этажом выше", "Перезвонить, позвонить по телефону", "Звенеть будильником", "Поднимать трубку, не отвечая"],
+      "answer": 1
+    },
+    {
+      "id": "particle-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "В каком примере частица несёт главное ударение и меняет значение глагола?", "en": "In which example does the particle carry the main stress and change the verb's meaning?" },
+      "choices": ["Jag går till skolan.", "Jag ringer upp dig.", "Hon bor i Malmö.", "Vi äter frukost."],
+      "answer": 1,
+      "explanation": { "ru": "«Upp» здесь — партикель с ударением, меняющая смысл «ringa» (звонить) на «перезвонить».", "en": "Here \"upp\" is a stressed particle that shifts the meaning of \"ringa\" (to call) to \"to call back\"." }
+    },
+    {
+      "id": "particle-verbs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что из перечисленного — обычный предлог, а не партикель?", "en": "Which of these is an ordinary preposition, not a particle?" },
+      "choices": ["upp в «ringa upp»", "ihåg в «komma ihåg»", "till в «gå till skolan»", "på в «slå på»"],
+      "answer": 2
+    },
+    {
+      "id": "particle-verbs-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что значит «komma på en idé»?", "en": "What does \"komma på en idé\" mean?" },
+      "choices": ["Прийти с идеей на встречу", "Придумать идею", "Отказаться от идеи", "Записать идею"],
+      "answer": 1
+    },
+    {
+      "id": "particle-verbs-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В партикельном глаголе главное ударение падает на частицу, а не на сам глагол.", "en": "In a particle verb, the main stress falls on the particle, not on the verb itself." },
+      "answer": true
+    },
+    {
+      "id": "particle-verbs-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Значение партикельного глагола всегда можно предсказать, просто сложив значения слов.", "en": "The meaning of a particle verb can always be predicted by simply adding up the words' meanings." },
+      "answer": false,
+      "explanation": { "ru": "Значение партикельного глагола часто идиоматично и не выводится напрямую из частей — его нужно запомнить.", "en": "A particle verb's meaning is often idiomatic and not derivable from the parts — it has to be learned." }
+    },
+    {
+      "id": "particle-verbs-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Ring upp mig» и «Ring mig» — оба варианта возможны, частица подвижна.", "en": "\"Ring upp mig\" and \"Ring mig\" are both possible — the particle is movable." },
+      "answer": true
+    },
+    {
+      "id": "particle-verbs-tf-4",
+      "type": "true-false",
+      "prompt": { "ru": "Можно сказать «Jag går skolan till» вместо «Jag går till skolan».", "en": "You can say \"Jag går skolan till\" instead of \"Jag går till skolan\"." },
+      "answer": false,
+      "explanation": { "ru": "Обычный предлог «till» не может «перепрыгнуть» через дополнение так, как это делает партикель.", "en": "An ordinary preposition like \"till\" can't jump past the object the way a particle can." }
+    },
+    {
+      "id": "particle-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь партикельный глагол с его значением", "en": "Match the particle verb with its meaning" },
+      "pairs": [
+        ["ringa upp", "перезвонить"],
+        ["ta bort", "удалить"],
+        ["komma ihåg", "помнить"],
+        ["slå på", "включить"]
+      ]
+    }
+  ]
+}

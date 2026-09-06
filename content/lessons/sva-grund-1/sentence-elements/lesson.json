@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/sentence-elements",
+  "slug": "sentence-elements",
+  "title": {
+    "sv": "Satsdelar",
+    "ru": "Члены предложения",
+    "en": "Sentence elements"
+  },
+  "summary": {
+    "ru": "Часть речи — это ярлык слова, а член предложения — его работа в конкретной фразе: одно и то же слово может быть и subjekt, и objekt.",
+    "en": "A part of speech labels a word; a sentence element is the job it does in one particular sentence — the same word can be subjekt in one sentence and objekt in the next."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "sentence-elements",
+    "syntax",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": [
+    "sva-grund-1/parts-of-speech"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

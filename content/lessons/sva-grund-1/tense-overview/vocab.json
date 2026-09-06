@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "tala",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить", "en": "to live" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+    },
+    {
+      "id": "skriva",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" }
+    },
+    {
+      "id": "ha",
+      "sv": "ha",
+      "translations": { "ru": "иметь", "en": "to have" },
+      "pos": "verb",
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "note": { "ru": "Вспомогательный глагол перфекта и плюсквамперфекта: har/hade + супин.", "en": "The auxiliary of the perfect and pluperfect: har/hade + supine." }
+    },
+    {
+      "id": "se",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" }
+    },
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "note": { "ru": "Сигнал претерита — конкретный момент в прошлом.", "en": "A preteritum signal — a specific point in the past." }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "note": { "ru": "Частый сигнал перфекта.", "en": "A common perfect signal." }
+    },
+    {
+      "id": "aldrig",
+      "sv": "aldrig",
+      "translations": { "ru": "никогда", "en": "never" },
+      "pos": "adv",
+      "note": { "ru": "Частый сигнал перфекта: «Jag har aldrig varit där.»", "en": "A common perfect signal: \"Jag har aldrig varit där.\"" }
+    },
+    {
+      "id": "nu",
+      "sv": "nu",
+      "translations": { "ru": "сейчас", "en": "now" },
+      "pos": "adv",
+      "note": { "ru": "Сигнал презенса.", "en": "A present-tense signal." }
+    },
+    {
+      "id": "forra-aret",
+      "sv": "förra året",
+      "translations": { "ru": "в прошлом году", "en": "last year" },
+      "pos": "phrase",
+      "note": { "ru": "Сигнал претерита — точный момент в прошлом.", "en": "A preteritum signal — a specific point in the past." }
+    }
+  ]
+}

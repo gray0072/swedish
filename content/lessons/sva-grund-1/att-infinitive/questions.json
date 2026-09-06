@@ -1,0 +1,111 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-att-infinitive-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag försöker ___ lära mig svenska. (att / -)" },
+      "answer": ["att"],
+      "acceptAlso": [],
+      "hint": { "ru": "После «försöka» att обязателен.", "en": "\"Att\" is required after \"försöka\"." }
+    },
+    {
+      "id": "q-att-infinitive-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag glömde ___ ringa dig igår. (att)" },
+      "answer": ["att"],
+      "acceptAlso": [],
+      "hint": { "ru": "После «glömma» att обязателен.", "en": "\"Att\" is required after \"glömma\"." }
+    },
+    {
+      "id": "q-att-infinitive-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ simma är kul. (att)" },
+      "answer": ["Att"],
+      "acceptAlso": ["att"]
+    },
+    {
+      "id": "q-att-infinitive-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильный вариант: «Она надеется скоро получить работу.»", "en": "Pick the correct sentence: \"She hopes to get a job soon.\"" },
+      "choices": ["Hon hoppas få jobb snart.", "Hon hoppas att få jobb snart.", "Hon hoppas att hon får jobb snart, ja.", "Hon hoppas fått jobb snart."],
+      "answer": 1
+    },
+    {
+      "id": "q-att-infinitive-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильный вариант: «Я умею плавать.»", "en": "Pick the correct sentence: \"I can swim.\"" },
+      "choices": ["Jag kan att simma.", "Jag kan simma.", "Jag kan simmar.", "Att jag kan simma."],
+      "answer": 1,
+      "explanation": { "ru": "После модального глагола «kan» att не нужен.", "en": "No \"att\" after the modal verb \"kan\"." }
+    },
+    {
+      "id": "q-att-infinitive-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "После какой группы глаголов att обычно исчезает?", "en": "After which group of verbs does att usually disappear?" },
+      "choices": [
+        { "ru": "После модальных глаголов и «få/låta/se/höra» + объект", "en": "After modal verbs and \"få/låta/se/höra\" + object" },
+        { "ru": "После глаголов «hoppas» и «lova»", "en": "After the verbs \"hoppas\" and \"lova\"" },
+        { "ru": "Никогда не исчезает", "en": "It never disappears" },
+        { "ru": "Только в вопросах", "en": "Only in questions" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-att-infinitive-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "После модальных глаголов (vill, kan, måste, ska) инфинитив идёт без att.", "en": "After modal verbs (vill, kan, måste, ska) the infinitive comes without att." },
+      "answer": true
+    },
+    {
+      "id": "q-att-infinitive-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Когда инфинитив выступает подлежащим предложения («Плавать весело»), att обязателен.", "en": "When the infinitive is the subject of the sentence (\"Swimming is fun\"), att is required." },
+      "answer": true
+    },
+    {
+      "id": "q-att-infinitive-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "После «se» и «höra» + объект инфинитив ставится с att: «Jag såg honom att simma».", "en": "After \"se\" and \"höra\" + object the infinitive takes att: \"Jag såg honom att simma\"." },
+      "answer": false,
+      "explanation": { "ru": "Правильно: «Jag såg honom simma» — без att.", "en": "Correct: \"Jag såg honom simma\" — no att." }
+    },
+    {
+      "id": "q-att-infinitive-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "После «försöka» и «hoppas» инфинитив обычно требует att.", "en": "After \"försöka\" and \"hoppas\" the infinitive usually requires att." },
+      "answer": true
+    },
+    {
+      "id": "q-att-infinitive-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она разрешила детям играть на улице.»", "en": "Build the sentence: \"She let the children play outside.\"" },
+      "tokens": ["ute", "leka", "barnen", "lät", "Hon"],
+      "answer": [4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-att-infinitive-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол с типом инфинитива, который за ним следует", "en": "Match the verb with the type of infinitive that follows it" },
+      "pairs": [
+        ["hoppas", "att + инфинитив"],
+        ["försöka", "att + инфинитив"],
+        ["vill", "голый инфинитив"],
+        ["se", "голый инфинитив"]
+      ]
+    }
+  ]
+}

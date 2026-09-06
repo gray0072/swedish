@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/sentence-adverb-position",
+  "slug": "sentence-adverb-position",
+  "title": {
+    "sv": "Satsadverbialens plats",
+    "ru": "Место сентенциальных наречий",
+    "en": "Sentence adverb position"
+  },
+  "summary": {
+    "ru": "BIFF работает не только для «inte» — вся группа сентенциальных наречий (alltid, ofta, kanske...) прыгает по тому же правилу.",
+    "en": "BIFF isn't just about \"inte\" — the whole family of sentence adverbs (alltid, ofta, kanske...) jumps by the same rule."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "word-order",
+    "adverbs",
+    "biff",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 500,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,167 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-sentence-adverb-position-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери huvudsats: «Она всегда приходит вовремя.»",
+        "en": "Build the huvudsats: \"She always arrives on time.\""
+      },
+      "tokens": ["tid", "i", "alltid", "kommer", "Hon"],
+      "answer": [4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-sentence-adverb-position-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери bisats: «Я знаю, что она всегда приходит вовремя.»",
+        "en": "Build the bisats: \"I know that she always arrives on time.\""
+      },
+      "tokens": ["tid", "i", "kommer", "alltid", "hon", "att", "vet", "Jag"],
+      "answer": [7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-sentence-adverb-position-order-3",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Дети уже спят.»", "en": "Build the sentence: \"The children are already asleep.\"" },
+      "tokens": ["redan", "sover", "Barnen"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-sentence-adverb-position-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Где стоит «ofta» в huvudsats?",
+        "en": "Where does \"ofta\" go in a huvudsats?"
+      },
+      "choices": [
+        { "ru": "После личного глагола", "en": "After the finite verb" },
+        { "ru": "Перед личным глаголом", "en": "Before the finite verb" },
+        { "ru": "В начале предложения всегда", "en": "Always at the start of the clause" },
+        { "ru": "После объекта", "en": "After the object" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-adverb-position-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Где стоит «ofta» в bisats?",
+        "en": "Where does \"ofta\" go in a bisats?"
+      },
+      "choices": [
+        { "ru": "Перед личным глаголом", "en": "Before the finite verb" },
+        { "ru": "После личного глагола", "en": "After the finite verb" },
+        { "ru": "После объекта", "en": "After the object" },
+        { "ru": "В конце предложения", "en": "At the end of the clause" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-adverb-position-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Выбери правильный huvudsats.", "en": "Choose the correctly ordered huvudsats." },
+      "choices": ["De ringer aldrig på kvällen.", "De aldrig ringer på kvällen.", "Aldrig de ringer på kvällen.", "De ringer på kvällen aldrig alltid."],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-adverb-position-mc-4",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Выбери правильный bisats.", "en": "Choose the correctly ordered bisats." },
+      "choices": [
+        "...att de aldrig ringer på kvällen.",
+        "...att de ringer aldrig på kvällen.",
+        "...att aldrig de ringer på kvällen.",
+        "...att de ringer på kvällen aldrig."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-adverb-position-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое из этих слов НЕ является satsadverbial?", "en": "Which of these words is NOT a satsadverbial?" },
+      "choices": ["kanske", "redan", "hund", "aldrig"],
+      "answer": 2
+    },
+    {
+      "id": "q-sentence-adverb-position-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "К satsadverbial относится только слово «inte».", "en": "\"Inte\" is the only satsadverbial." },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет, вся группа — alltid, aldrig, ofta, kanske, redan, snart — ведёт себя так же.",
+        "en": "No — the whole group (alltid, aldrig, ofta, kanske, redan, snart) behaves the same way."
+      }
+    },
+    {
+      "id": "q-sentence-adverb-position-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Правило позиции для «alltid, ofta, kanske, redan, snart, aldrig» такое же, как для «inte».",
+        "en": "The position rule for \"alltid, ofta, kanske, redan, snart, aldrig\" is the same as for \"inte\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-adverb-position-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В «Jag hoppas att barnen redan sover» слово «redan» стоит перед личным глаголом, потому что это bisats.",
+        "en": "In \"Jag hoppas att barnen redan sover\", \"redan\" stands before the finite verb because this is a bisats."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-adverb-position-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Hon kommer ___ i tid. (alltid, huvudsats)",
+        "ru": "Hon kommer ___ i tid. (alltid, huvudsats)",
+        "en": "Hon kommer ___ i tid. (alltid, huvudsats)"
+      },
+      "answer": ["alltid"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sentence-adverb-position-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Jag vet att hon ___ kommer i tid. (alltid, bisats)",
+        "ru": "Jag vet att hon ___ kommer i tid. (alltid, bisats)",
+        "en": "Jag vet att hon ___ kommer i tid. (alltid, bisats)"
+      },
+      "answer": ["alltid"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sentence-adverb-position-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },
+      "pairs": [
+        ["aldrig", "никогда"],
+        ["ofta", "часто"],
+        ["kanske", "может быть"],
+        ["snart", "скоро"]
+      ]
+    }
+  ]
+}

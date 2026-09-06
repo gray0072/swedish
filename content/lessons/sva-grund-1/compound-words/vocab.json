@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "bilnyckel",
+      "sv": "bilnyckel",
+      "translations": { "ru": "ключ от машины", "en": "car key" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bilnyckel", "defSg": "bilnyckeln", "indefPl": "bilnycklar", "defPl": "bilnycklarna" },
+      "example": { "sv": "Jag har tappat min bilnyckel.", "ru": "Я потерял ключ от машины.", "en": "I've lost my car key." },
+      "note": { "ru": "bil + nyckel, без -s-.", "en": "bil + nyckel, no linking -s-." }
+    },
+    {
+      "id": "sjukhus",
+      "sv": "sjukhus",
+      "translations": { "ru": "больница", "en": "hospital" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "sjukhus", "defSg": "sjukhuset", "indefPl": "sjukhus", "defPl": "sjukhusen" },
+      "example": { "sv": "Hon jobbar på sjukhuset.", "ru": "Она работает в больнице.", "en": "She works at the hospital." },
+      "note": { "ru": "sjuk (прил.) + hus, без -s-.", "en": "sjuk (adj.) + hus, no linking -s-." }
+    },
+    {
+      "id": "barnvagn",
+      "sv": "barnvagn",
+      "translations": { "ru": "детская коляска", "en": "pram, stroller" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "barnvagn", "defSg": "barnvagnen", "indefPl": "barnvagnar", "defPl": "barnvagnarna" },
+      "example": { "sv": "Barnvagnen står i hallen.", "ru": "Коляска стоит в прихожей.", "en": "The stroller is in the hallway." },
+      "note": { "ru": "barn + vagn, без -s-.", "en": "barn + vagn, no linking -s-." }
+    },
+    {
+      "id": "regeringsbeslut",
+      "sv": "regeringsbeslut",
+      "translations": { "ru": "решение правительства", "en": "government decision" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "regeringsbeslut", "defSg": "regeringsbeslutet", "indefPl": "regeringsbeslut", "defPl": "regeringsbesluten" },
+      "example": { "sv": "Det var ett viktigt regeringsbeslut.", "ru": "Это было важное решение правительства.", "en": "That was an important government decision." },
+      "note": { "ru": "regering + s + beslut.", "en": "regering + s + beslut." }
+    },
+    {
+      "id": "arbetsplats",
+      "sv": "arbetsplats",
+      "translations": { "ru": "рабочее место", "en": "workplace" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "arbetsplats", "defSg": "arbetsplatsen", "indefPl": "arbetsplatser", "defPl": "arbetsplatserna" },
+      "example": { "sv": "Min arbetsplats ligger i centrum.", "ru": "Моё рабочее место в центре города.", "en": "My workplace is in the city center." },
+      "note": { "ru": "arbete + s + plats.", "en": "arbete + s + plats." }
+    },
+    {
+      "id": "tidningsartikel",
+      "sv": "tidningsartikel",
+      "translations": { "ru": "газетная статья", "en": "newspaper article" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "tidningsartikel", "defSg": "tidningsartikeln", "indefPl": "tidningsartiklar", "defPl": "tidningsartiklarna" },
+      "example": { "sv": "Jag läste en tidningsartikel om klimatet.", "ru": "Я прочитал газетную статью о климате.", "en": "I read a newspaper article about the climate." },
+      "note": { "ru": "tidning + s + artikel.", "en": "tidning + s + artikel." }
+    },
+    {
+      "id": "rodvinsflaska",
+      "sv": "rödvinsflaska",
+      "translations": { "ru": "бутылка красного вина", "en": "bottle of red wine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "rödvinsflaska", "defSg": "rödvinsflaskan", "indefPl": "rödvinsflaskor", "defPl": "rödvinsflaskorna" },
+      "example": { "sv": "Vi köpte en rödvinsflaska till middagen.", "ru": "Мы купили бутылку красного вина к ужину.", "en": "We bought a bottle of red wine for dinner." },
+      "note": { "ru": "rödvin (само сложное слово) + s + flaska.", "en": "rödvin (already a compound) + s + flaska." }
+    },
+    {
+      "id": "vinflaska",
+      "sv": "vinflaska",
+      "translations": { "ru": "винная бутылка", "en": "wine bottle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "vinflaska", "defSg": "vinflaskan", "indefPl": "vinflaskor", "defPl": "vinflaskorna" },
+      "example": { "sv": "Den där röda vinflaskan är fin.", "ru": "Та красная винная бутылка красивая.", "en": "That red wine bottle is nice." },
+      "note": { "ru": "vin + flaska, без -s-.", "en": "vin + flaska, no linking -s-." }
+    },
+    {
+      "id": "dagstidning",
+      "sv": "dagstidning",
+      "translations": { "ru": "ежедневная газета", "en": "daily newspaper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "dagstidning", "defSg": "dagstidningen", "indefPl": "dagstidningar", "defPl": "dagstidningarna" },
+      "example": { "sv": "Han läser dagstidningen varje morgon.", "ru": "Он читает ежедневную газету каждое утро.", "en": "He reads the daily newspaper every morning." },
+      "note": { "ru": "dag + s + tidning.", "en": "dag + s + tidning." }
+    },
+    {
+      "id": "skolbarn",
+      "sv": "skolbarn",
+      "translations": { "ru": "школьник", "en": "schoolchild" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "skolbarn", "defSg": "skolbarnet", "indefPl": "skolbarn", "defPl": "skolbarnen" },
+      "example": { "sv": "Skolbarnen väntar på bussen.", "ru": "Школьники ждут автобус.", "en": "The schoolchildren are waiting for the bus." },
+      "note": { "ru": "skol + barn, без -s-.", "en": "skol + barn, no linking -s-." }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "id": "jag",
+      "sv": "jag",
+      "translations": { "ru": "я (личное)", "en": "I (personal)" },
+      "pos": "pron",
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
+    },
+    {
+      "id": "mig",
+      "sv": "mig",
+      "translations": { "ru": "меня, мне (объектное)", "en": "me (object)" },
+      "pos": "pron",
+      "example": { "sv": "Hon ringer mig.", "ru": "Она звонит мне.", "en": "She calls me." }
+    },
+    {
+      "id": "min",
+      "sv": "min/mitt/mina",
+      "translations": { "ru": "мой/моё/мои (притяжательное)", "en": "my/mine (possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Det är min bok.", "ru": "Это моя книга.", "en": "That's my book." }
+    },
+    {
+      "id": "du",
+      "sv": "du",
+      "translations": { "ru": "ты (личное)", "en": "you (personal, singular)" },
+      "pos": "pron",
+      "example": { "sv": "Var bor du?", "ru": "Где ты живёшь?", "en": "Where do you live?" }
+    },
+    {
+      "id": "dig",
+      "sv": "dig",
+      "translations": { "ru": "тебя, тебе (объектное)", "en": "you (object, singular)" },
+      "pos": "pron",
+      "example": { "sv": "Jag ser dig.", "ru": "Я тебя вижу.", "en": "I see you." }
+    },
+    {
+      "id": "din",
+      "sv": "din/ditt/dina",
+      "translations": { "ru": "твой/твоё/твои (притяжательное)", "en": "your/yours (possessive, singular)" },
+      "pos": "pron",
+      "example": { "sv": "Är det ditt hus?", "ru": "Это твой дом?", "en": "Is that your house?" }
+    },
+    {
+      "id": "han",
+      "sv": "han",
+      "translations": { "ru": "он (личное)", "en": "he (personal)" },
+      "pos": "pron",
+      "example": { "sv": "Han talar svenska.", "ru": "Он говорит по-шведски.", "en": "He speaks Swedish." }
+    },
+    {
+      "id": "honom",
+      "sv": "honom",
+      "translations": { "ru": "его, ему (объектное, о мужчине)", "en": "him (object)" },
+      "pos": "pron",
+      "example": { "sv": "Jag känner honom.", "ru": "Я его знаю.", "en": "I know him." }
+    },
+    {
+      "id": "hans",
+      "sv": "hans",
+      "translations": { "ru": "его (притяжательное, о мужчине)", "en": "his (possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Det är hans bil.", "ru": "Это его машина.", "en": "That's his car." }
+    },
+    {
+      "id": "hon",
+      "sv": "hon",
+      "translations": { "ru": "она (личное)", "en": "she (personal)" },
+      "pos": "pron",
+      "example": { "sv": "Hon jobbar i skolan.", "ru": "Она работает в школе.", "en": "She works at the school." }
+    },
+    {
+      "id": "henne",
+      "sv": "henne",
+      "translations": { "ru": "её, ей (объектное)", "en": "her (object)" },
+      "pos": "pron",
+      "example": { "sv": "Jag hjälper henne.", "ru": "Я ей помогаю.", "en": "I'm helping her." }
+    },
+    {
+      "id": "hennes",
+      "sv": "hennes",
+      "translations": { "ru": "её (притяжательное)", "en": "her/hers (possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Det är hennes väska.", "ru": "Это её сумка.", "en": "That's her bag." }
+    },
+    {
+      "id": "sig",
+      "sv": "sig",
+      "translations": { "ru": "себя, себе (возвратное, 3-е лицо)", "en": "himself/herself/itself/themselves (reflexive)" },
+      "pos": "pron",
+      "example": { "sv": "Han tvättar sig.", "ru": "Он моется (сам себя).", "en": "He washes himself." }
+    },
+    {
+      "id": "vi",
+      "sv": "vi",
+      "translations": { "ru": "мы (личное)", "en": "we (personal)" },
+      "pos": "pron",
+      "example": { "sv": "Vi bor i Lund.", "ru": "Мы живём в Лунде.", "en": "We live in Lund." }
+    },
+    {
+      "id": "oss",
+      "sv": "oss",
+      "translations": { "ru": "нас, нам (объектное/возвратное)", "en": "us/ourselves (object/reflexive)" },
+      "pos": "pron",
+      "example": { "sv": "De hjälper oss.", "ru": "Они нам помогают.", "en": "They help us." }
+    },
+    {
+      "id": "var",
+      "sv": "vår/vårt/våra",
+      "translations": { "ru": "наш/наше/наши (притяжательное)", "en": "our/ours (possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Det är vårt hus.", "ru": "Это наш дом.", "en": "That's our house." }
+    },
+    {
+      "id": "de",
+      "sv": "de",
+      "translations": { "ru": "они (личное)", "en": "they (personal)" },
+      "pos": "pron",
+      "example": { "sv": "De pratar engelska.", "ru": "Они говорят по-английски.", "en": "They speak English." }
+    },
+    {
+      "id": "dem",
+      "sv": "dem",
+      "translations": { "ru": "их, им (объектное)", "en": "them (object)" },
+      "pos": "pron",
+      "example": { "sv": "Jag träffar dem imorgon.", "ru": "Я встречаюсь с ними завтра.", "en": "I'm meeting them tomorrow." }
+    },
+    {
+      "id": "deras",
+      "sv": "deras",
+      "translations": { "ru": "их (притяжательное)", "en": "their/theirs (possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Det är deras lägenhet.", "ru": "Это их квартира.", "en": "That's their apartment." }
+    }
+  ]
+}

@@ -38,6 +38,12 @@ const theoryFiles = import.meta.glob('../../content/lessons/*/*/theory.md', {
   import: 'default',
 }) as Record<string, string>;
 
+const theoryEnFiles = import.meta.glob('../../content/lessons/*/*/theory_en.md', {
+  eager: true,
+  query: '?raw',
+  import: 'default',
+}) as Record<string, string>;
+
 const curriculaFiles = import.meta.glob('../../content/curricula/*.json', {
   eager: true,
 }) as Record<string, { default: { lessons: string[] } }>;
@@ -82,6 +88,7 @@ function folderKey(path: string): string {
 export interface LessonContent {
   meta: LessonMeta;
   theory: string | null;
+  theoryEn: string | null;
   vocab: VocabItem[];
   questions: QuestionsFile;
   /** Handwritten pool items + everything generators expanded from vocab. */
@@ -138,6 +145,11 @@ function buildRegistry(): ContentRegistry {
     theoryByKey.set(folderKey(path), raw);
   }
 
+  const theoryEnByKey = new Map<string, string>();
+  for (const [path, raw] of Object.entries(theoryEnFiles)) {
+    theoryEnByKey.set(folderKey(path), raw);
+  }
+
   for (const [path, mod] of Object.entries(lessonMetaFiles)) {
     const key = folderKey(path);
     const parsed = lessonMetaSchema.safeParse(mod.default);
@@ -149,6 +161,7 @@ function buildRegistry(): ContentRegistry {
     const vocab = vocabByKey.get(key) ?? [];
     const questions = questionsByKey.get(key) ?? { generators: [], items: [] };
     const theory = theoryByKey.get(key) ?? null;
+    const theoryEn = theoryEnByKey.get(key) ?? null;
 
     const generated = expandGenerators(questions.generators, vocab, meta.id);
     const pool = [...questions.items, ...generated];
@@ -165,7 +178,7 @@ function buildRegistry(): ContentRegistry {
       ids.add(q.id);
     }
 
-    lessons.set(meta.id, { meta, theory, vocab, questions, pool });
+    lessons.set(meta.id, { meta, theory, theoryEn, vocab, questions, pool });
   }
 
   const curricula = new Map<string, string[]>();

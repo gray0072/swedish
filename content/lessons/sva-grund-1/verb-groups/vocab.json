@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "id": "tala",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Hon talar tre språk.", "ru": "Она говорит на трёх языках.", "en": "She speaks three languages." }
+    },
+    {
+      "id": "handla",
+      "sv": "handla",
+      "translations": { "ru": "делать покупки; действовать", "en": "to shop; to act" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla", "present": "handlar", "past": "handlade", "supine": "handlat" },
+      "example": { "sv": "Jag handlar mat på lördagar.", "ru": "Я хожу за продуктами по субботам.", "en": "I do the shopping on Saturdays." }
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Kan du ringa mig ikväll?", "ru": "Можешь позвонить мне вечером?", "en": "Can you call me tonight?" }
+    },
+    {
+      "id": "kopa",
+      "sv": "köpa",
+      "translations": { "ru": "покупать", "en": "to buy" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "köpa", "present": "köper", "past": "köpte", "supine": "köpt" }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить", "en": "to live" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+    },
+    {
+      "id": "tro",
+      "sv": "tro",
+      "translations": { "ru": "верить; думать", "en": "to believe; to think" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag tror att det blir regn.", "ru": "Я думаю, что будет дождь.", "en": "I think it's going to rain." }
+    },
+    {
+      "id": "skriva",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" }
+    },
+    {
+      "id": "ata",
+      "sv": "äta",
+      "translations": { "ru": "есть, кушать", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" }
+    },
+    {
+      "id": "dricka",
+      "sv": "dricka",
+      "translations": { "ru": "пить", "en": "to drink" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dricka", "present": "dricker", "past": "drack", "supine": "druckit" }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+    },
+    {
+      "id": "ta",
+      "sv": "ta",
+      "translations": { "ru": "брать", "en": "to take" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ta", "present": "tar", "past": "tog", "supine": "tagit" }
+    },
+    {
+      "id": "se",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" }
+    },
+    {
+      "id": "ge",
+      "sv": "ge",
+      "translations": { "ru": "давать", "en": "to give" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ge", "present": "ger", "past": "gav", "supine": "gett" }
+    },
+    {
+      "id": "ga",
+      "sv": "gå",
+      "translations": { "ru": "идти", "en": "to go, to walk" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" }
+    }
+  ]
+}
