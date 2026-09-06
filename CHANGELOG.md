@@ -371,3 +371,31 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   (all 45 checkboxes for the level marked done with their lesson slug, under both
   "Topics" and "Grammar", per the double-bookkeeping convention from delkurs 1-2).
 - Checks: typecheck, 39 tests, content validation (161 lessons, 0 errors).
+
+## 2026-09-06 — Fixed a build-breaking content bundle (`vite.config.ts` manualChunks)
+
+- **The production build was failing.** `src/content/loader.ts` eagerly imports every
+  lesson file (161 lessons and counting) via `import.meta.glob(..., { eager: true })`,
+  which Rollup was merging into one 2.33 MB `registry-*.js` chunk. `vite-plugin-pwa`'s
+  service-worker precache step refuses any single asset over its 2 MiB default limit, so
+  `npm run build` errored outright after the delkurs 1-3 content pass pushed the chunk
+  past that line (it had only been a 500 kB *warning* before).
+- **Fix: `build.rollupOptions.output.manualChunks` routes each course level's lesson
+  files into their own chunk** (`content-sfi-a.js`, `content-sva-grund-2.js`, etc.)
+  instead of one shared `registry` chunk — a build-config-only change, zero application
+  code touched. Considered and rejected converting the content API to async/lazy-loaded
+  per level instead: `findQuestionById` (the SRS review deck) and the achievements system
+  need to search across every lesson regardless of level, so lazy-per-level loading
+  wouldn't actually reduce what the Review/Stats pages load, while touching the 12 files
+  that consume `getContentRegistry()` and adding loading-state handling everywhere.
+  `manualChunks` gets the real, build-breaking problem (one oversized file) fixed with
+  no new failure modes.
+- Verified past the build itself: served the built `dist/` via `vite preview`, fetched
+  the `content-sva-grund-2` chunk directly over HTTP and confirmed it parses as valid JS
+  and contains real lesson content, and confirmed `registry-*.js` statically imports all
+  7 existing per-level content chunks (sva-grund-4 doesn't exist yet, as expected).
+- Also raised `build.chunkSizeWarningLimit` to 750 kB — the three `sva-grund-1/2/3`
+  content chunks (45 lessons each) legitimately sit around 630-690 kB, which is real
+  content, not a chunking regression.
+- Checks: typecheck, 39 tests, clean build (0 warnings), PWA precache succeeds (37
+  entries, 2785 KiB).

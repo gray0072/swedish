@@ -67,9 +67,11 @@ list stays current and short). The per-lesson topic list lives separately, in
   (`src/components/city/icons.tsx`, 15 of them for 22 buildings) rather than a unique
   illustration per building as intended in SPEC §11.5. Good enough for the MVP, but
   different buildings of the same era look alike.
-- [ ] The main JS chunk is still 253 KB (after per-page code splitting) — the
-  `TheoryView`/`registry` chunks can be split further if it becomes noticeable on slow
-  networks.
+- [ ] The main JS chunk is still 254 KB (after per-page code splitting), and
+  `TheoryView` (the markdown renderer) is another 159 KB — both could be split further
+  if it becomes noticeable on slow networks. (The `registry` chunk that used to be
+  2.3 MB and broke the PWA precache step is now split one-per-course via
+  `vite.config.ts`'s `manualChunks` — see the CHANGELOG entry for 2026-09-06.)
 - [ ] No unit tests for `src/components/**` (React Testing Library is installed but
   unused) — all current UI checking happens through manual Playwright e2e runs during a
   conversation, and none of it is saved anywhere as a reproducible test.
