@@ -1,0 +1,150 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-law-courts-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Судебный процесс проходил в суде первой инстанции.»", "en": "Build the sentence: \"The trial was held at the district court.\"" },
+      "tokens": ["i tingsrätten.", "hölls", "Rättegången"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-law-courts-basics-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Прокурор предъявил обвинение мужчине.»", "en": "Build the sentence: \"The prosecutor brought charges against the man.\"" },
+      "tokens": ["väckte", "mannen.", "Åklagaren", "åtal mot"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-law-courts-basics-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["domstol", "суд"],
+        ["åklagare", "прокурор"],
+        ["advokat", "адвокат"],
+        ["vittne", "свидетель"]
+      ]
+    },
+    {
+      "id": "q-law-courts-basics-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["tingsrätt", "суд первой инстанции"],
+        ["hovrätt", "апелляционный суд"],
+        ["brottmål", "уголовное дело"],
+        ["tvistemål", "гражданское дело"]
+      ]
+    },
+    {
+      "id": "q-law-courts-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Frikänna» означает признать виновным и назначить наказание.", "en": "\"Frikänna\" means to find someone guilty and impose a punishment." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Frikänna» означает оправдать; признать виновным — это «dömas».",
+        "en": "\"Frikänna\" means to acquit; finding someone guilty is \"dömas\"."
+      }
+    },
+    {
+      "id": "q-law-courts-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Приговор, вынесенный в tingsrätt, можно обжаловать в hovrätt.", "en": "A verdict from the tingsrätt can be appealed to the hovrätt." },
+      "answer": true
+    },
+    {
+      "id": "q-law-courts-basics-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tvistemål» — это всегда уголовное дело с прокурором.", "en": "A \"tvistemål\" is always a criminal case involving a prosecutor." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tvistemål» — это гражданский спор между сторонами; уголовное дело — это «brottmål».",
+        "en": "A \"tvistemål\" is a civil dispute between parties; a criminal case is a \"brottmål\"."
+      }
+    },
+    {
+      "id": "q-law-courts-basics-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Свидетель («vittne») представляет интересы подсудимого в суде.", "en": "A witness (\"vittne\") represents the defendant's interests in court." },
+      "answer": false,
+      "explanation": {
+        "ru": "Свидетель рассказывает, что он видел или слышал; интересы подсудимого представляет адвокат защиты.",
+        "en": "A witness describes what they saw or heard; the defendant's interests are represented by the defence lawyer."
+      }
+    },
+    {
+      "id": "q-law-courts-basics-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Mannen ___ till böter. (был приговорён)" },
+      "answer": ["dömdes"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-law-courts-basics-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du kan ___ domen inom tre veckor. (обжаловать)" },
+      "answer": ["överklaga"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-law-courts-basics-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Han fick betala ___ för fortkörning. (штраф)" },
+      "answer": ["böter"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-law-courts-basics-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто выдвигает обвинение в уголовном деле?",
+        "en": "Who brings charges in a criminal case?"
+      },
+      "choices": ["åklagaren", "försvarsadvokaten", "vittnet", "domaren"],
+      "answer": 0
+    },
+    {
+      "id": "q-law-courts-basics-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Куда можно обратиться, если не согласен с решением суда первой инстанции?",
+        "en": "Where can you turn if you disagree with a district court's ruling?"
+      },
+      "choices": ["hovrätten", "Skatteverket", "Arbetsmiljöverket", "kommunfullmäktige"],
+      "answer": 0
+    },
+    {
+      "id": "q-law-courts-basics-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется высшая судебная инстанция Швеции?",
+        "en": "What is Sweden's highest court called?"
+      },
+      "choices": ["Högsta domstolen", "tingsrätten", "hovrätten", "riksdagen"],
+      "answer": 0
+    }
+  ]
+}

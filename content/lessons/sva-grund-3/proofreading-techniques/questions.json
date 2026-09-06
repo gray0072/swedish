@@ -1,0 +1,91 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-proofreading-techniques-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение содержит ошибку интерференции с пропущенным артиклем?", "en": "Which sentence has an interference error with a missing article?" },
+      "choices": ["Jag har bil.", "Jag har en bil.", "Jag har inte tid."],
+      "answer": 0
+    },
+    {
+      "id": "q-proofreading-techniques-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение содержит ошибку в порядке слов после вынесенного обстоятельства?", "en": "Which sentence has a word-order error after a fronted adverbial?" },
+      "choices": ["Idag jag är trött.", "Idag är jag trött.", "Jag är trött idag."],
+      "answer": 0
+    },
+    {
+      "id": "q-proofreading-techniques-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение содержит лишнюю запятую перед att, перенесённую из русского?", "en": "Which sentence has an extra comma before att, carried over from Russian?" },
+      "choices": ["Jag tror, att hon kommer.", "Jag tror att hon kommer.", "Jag tror inte att hon kommer."],
+      "answer": 0
+    },
+    {
+      "id": "q-proofreading-techniques-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какая форма правильна: «den stora ___» (дом, определённая форма)?", "en": "Which form is correct: \"det stora ___\" (house, definite form)?" },
+      "choices": ["huset", "hus", "husen"],
+      "answer": 0
+    },
+    {
+      "id": "q-proofreading-techniques-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Чтение текста вслух помогает заметить пропущенные слова и сбитый ритм.", "en": "Reading a text aloud helps you notice missing words and an off rhythm." },
+      "answer": true
+    },
+    {
+      "id": "q-proofreading-techniques-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Если существительное упомянуто как «en bil» в начале текста, дальше по тексту его род может свободно меняться.", "en": "If a noun is introduced as \"en bil\" at the start of a text, its gender can freely change later in the text." },
+      "answer": false,
+      "explanation": { "ru": "Род существительного должен оставаться согласованным по всему тексту.", "en": "A noun's gender has to stay consistent throughout the whole text." }
+    },
+    {
+      "id": "q-proofreading-techniques-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Idag ___ jag trött. (är, инверсия после вынесенного обстоятельства)" },
+      "answer": ["är"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-proofreading-techniques-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь неправильный вариант с исправленным", "en": "Match the incorrect version with its correction" },
+      "pairs": [
+        ["Jag har bil.", "Jag har en bil."],
+        ["Idag jag är trött.", "Idag är jag trött."],
+        ["Jag tror, att hon kommer.", "Jag tror att hon kommer."],
+        ["den stora hus", "det stora huset"]
+      ]
+    },
+    {
+      "id": "q-proofreading-techniques-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери правильное предложение: «Сегодня я устал.»", "en": "Build the correct sentence: \"Today I'm tired.\"" },
+      "tokens": ["Idag", "är", "jag", "trött"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-proofreading-techniques-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Какой из трёх приёмов самопроверки помогает поймать нарушение V2?", "en": "Which of the three self-editing techniques helps catch a V2 violation?" },
+      "choices": [
+        { "ru": "Пройтись по каждому huvudsats и проверить, что личный глагол на втором месте", "en": "Go through every huvudsats and check the finite verb is in second position" },
+        { "ru": "Проверить орфографию заимствованных слов", "en": "Check the spelling of loanwords" },
+        { "ru": "Посчитать количество абзацев", "en": "Count the number of paragraphs" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-proofreading-techniques-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Отсутствие второго определённого артикля у существительного (после den/det/de + прилагательное) — пример пропущенной двойной определённости.", "en": "A missing second definite marker on the noun (after den/det/de + adjective) is an example of missing double definiteness." },
+      "answer": true
+    }
+  ]
+}

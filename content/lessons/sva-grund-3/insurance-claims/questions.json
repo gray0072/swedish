@@ -1,0 +1,146 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-insurance-claims-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Страхование жилья покрывает пожар и кражу со взломом.»", "en": "Build the sentence: \"Home insurance covers fire and burglary.\"" },
+      "tokens": ["täcker", "Hemförsäkringen", "och inbrott", "brand"],
+      "answer": [1, 0, 3, 2]
+    },
+    {
+      "id": "q-insurance-claims-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я сразу же подал(а) заявление о страховом случае.»", "en": "Build the sentence: \"I filed an insurance claim right away.\"" },
+      "tokens": ["en skadeanmälan", "direkt", "Jag", "gjorde"],
+      "answer": [2, 3, 0, 1]
+    },
+    {
+      "id": "q-insurance-claims-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["hemförsäkring", "страхование жилья"],
+        ["olycksfallsförsäkring", "страхование от несчастных случаев"],
+        ["skadeanmälan", "заявление о страховом случае"],
+        ["självrisk", "франшиза"]
+      ]
+    },
+    {
+      "id": "q-insurance-claims-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["ersättning", "компенсация"],
+        ["försäkringsvillkor", "условия страхования"],
+        ["premie", "страховая премия"],
+        ["försäkringsbolag", "страховая компания"]
+      ]
+    },
+    {
+      "id": "q-insurance-claims-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Självrisk» — это сумма, которую полностью оплачивает страховая компания.", "en": "\"Självrisk\" is the amount the insurance company pays in full." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Självrisk» — это часть суммы, которую платит сам страхователь, а не компания.",
+        "en": "\"Självrisk\" is the part the policyholder pays themselves, not the company."
+      }
+    },
+    {
+      "id": "q-insurance-claims-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Прежде чем оформить страховку, стоит прочитать «försäkringsvillkor».", "en": "Before taking out a policy, it is worth reading the \"försäkringsvillkor\"." },
+      "answer": true
+    },
+    {
+      "id": "q-insurance-claims-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Livförsäkring» предназначена для покрытия ущерба от кражи в квартире.", "en": "\"Livförsäkring\" is meant to cover damage from a burglary in an apartment." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Livförsäkring» — это страхование жизни; ущерб от кражи покрывает «hemförsäkring».",
+        "en": "\"Livförsäkring\" is life insurance; burglary damage is covered by \"hemförsäkring\"."
+      }
+    },
+    {
+      "id": "q-insurance-claims-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Более высокая франшиза («självrisk») обычно означает более низкую ежемесячную премию.", "en": "A higher deductible (\"självrisk\") usually means a lower monthly premium." },
+      "answer": true
+    },
+    {
+      "id": "q-insurance-claims-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Försäkringen ___ inte vattenskador i det här fallet. (не покрывает)" },
+      "answer": ["täcker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-insurance-claims-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ en hemförsäkring när jag flyttade in. (оформил(а))" },
+      "answer": ["tecknade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-insurance-claims-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ är 1500 kronor för den här skadan. (франшиза)" },
+      "answer": ["Självrisken"],
+      "acceptAlso": ["självrisken"]
+    },
+    {
+      "id": "q-insurance-claims-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Куда нужно подать заявление после кражи со взломом, чтобы получить компенсацию?",
+        "en": "Where do you file a claim after a burglary to receive compensation?"
+      },
+      "choices": ["till försäkringsbolaget", "till Skatteverket", "till kommunfullmäktige", "till Arbetsmiljöverket"],
+      "answer": 0
+    },
+    {
+      "id": "q-insurance-claims-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «страховая премия (взнос)»?",
+        "en": "Which word means \"insurance premium\"?"
+      },
+      "choices": ["premie", "ersättning", "självrisk", "skadeanmälan"],
+      "answer": 0
+    },
+    {
+      "id": "q-insurance-claims-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая страховка нужна прежде всего перед поездкой за границу?",
+        "en": "Which insurance is especially needed before a trip abroad?"
+      },
+      "choices": ["reseförsäkring", "livförsäkring", "hemförsäkring", "olycksfallsförsäkring"],
+      "answer": 0
+    }
+  ]
+}

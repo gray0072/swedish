@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/subjunctive-remnants",
+  "slug": "subjunctive-remnants",
+  "title": {
+    "sv": "Konjunktivrester: vore, må",
+    "ru": "Остатки конъюнктива: vore, må",
+    "en": "Remnants of the subjunctive: vore, må"
+  },
+  "summary": {
+    "ru": "Две окаменевшие формы старого конъюнктива, которые всё ещё встречаются в письменной и торжественной речи.",
+    "en": "Two fossilised forms of the old subjunctive that still turn up in written and elevated speech."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "register",
+    "written-style"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1360,
+  "prerequisites": [
+    "sva-grund-2/conditional-sentences"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,102 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-extended-conditionals-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая форма правильна: «Om jag ___ vetat det, skulle jag ha sagt något.»?", "en": "Which form is correct: \"Om jag ___ vetat det, skulle jag ha sagt något.\"?" },
+      "choices": ["hade", "har", "hade haft"],
+      "answer": 0
+    },
+    {
+      "id": "q-extended-conditionals-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "«Om jag har tid, ___ jag dig.» — реальное условие о будущем.", "en": "\"Om jag har tid, ___ jag dig.\" — a real condition about the future." },
+      "choices": ["ringer", "skulle ringa", "skulle ha ringt"],
+      "answer": 0
+    },
+    {
+      "id": "q-extended-conditionals-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Инверсия без om — это ошибка, которую нужно избегать.", "en": "Inversion without om is a mistake that should be avoided." },
+      "answer": false,
+      "explanation": { "ru": "Это осознанный книжный, официальный стилистический приём, а не ошибка.", "en": "It's a deliberate literary, formal stylistic device, not a mistake." }
+    },
+    {
+      "id": "q-extended-conditionals-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Uppstår fel, kontakta support.» — пример инверсии вместо om при реальном условии.", "en": "\"Uppstår fel, kontakta support.\" is an example of inversion instead of om in a real condition." },
+      "answer": true
+    },
+    {
+      "id": "q-extended-conditionals-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ jag vetat det, hade jag sagt något. (инверсия om jag hade vetat det)" },
+      "answer": ["Hade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-extended-conditionals-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ jag dig, skulle jag tacka nej. (инверсия om jag vore dig)" },
+      "answer": ["Vore"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-extended-conditionals-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь предложение с om и его инверсионный вариант без om", "en": "Match the om-sentence with its inversion without om" },
+      "pairs": [
+        ["Om jag hade tid, skulle jag ringa dig.", "Hade jag tid, skulle jag ringa dig."],
+        ["Om jag hade haft tid, skulle jag ha ringt dig.", "Hade jag haft tid, skulle jag ha ringt dig."],
+        ["Om du behöver hjälp, hör av dig.", "Behöver du hjälp, hör av dig."],
+        ["Om jag vore dig, skulle jag tacka nej.", "Vore jag dig, skulle jag tacka nej."]
+      ]
+    },
+    {
+      "id": "q-extended-conditionals-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если тебе нужна помощь, дай знать.»", "en": "Build the sentence: \"If you need help, get in touch.\"" },
+      "tokens": ["Behöver", "du", "hjälp,", "hör", "av", "dig"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-extended-conditionals-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «vore»?", "en": "What is \"vore\"?" },
+      "choices": [
+        { "ru": "Архаичная сослагательная форма глагола vara", "en": "An archaic subjunctive form of the verb vara" },
+        { "ru": "Форма будущего времени", "en": "A future-tense form" },
+        { "ru": "Форма супинума", "en": "A supine form" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-extended-conditionals-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "В главной части ирреального прошлого условия форма «skulle ha + супинум» надёжнее для официального письма, чем просто «hade + супинум».", "en": "In the main clause of an unreal past condition, \"skulle ha + supine\" is the safer choice for formal writing than plain \"hade + supine\"." },
+      "answer": true
+    },
+    {
+      "id": "q-extended-conditionals-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "К какому регистру обычно относится инверсия без om?", "en": "Which register does inversion without om typically belong to?" },
+      "choices": [
+        { "ru": "Книжный, официальный", "en": "Literary, formal" },
+        { "ru": "Только детская речь", "en": "Only children's speech" },
+        { "ru": "Только SMS-сленг", "en": "Only text-message slang" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-extended-conditionals-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ fel, kontakta support. (инверсия om fel uppstår)" },
+      "answer": ["Uppstår"],
+      "acceptAlso": []
+    }
+  ]
+}

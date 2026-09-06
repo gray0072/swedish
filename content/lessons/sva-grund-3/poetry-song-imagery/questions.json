@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-poetry-song-imagery-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Как называется одна «часть» стихотворения из нескольких строк?", "en": "What's a \"block\" of a poem made of several lines called?" },
+      "choices": ["strof", "rim", "refräng"],
+      "answer": 0
+    },
+    {
+      "id": "q-poetry-song-imagery-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Чем liknelse отличается от metafor?", "en": "How does a liknelse differ from a metafor?" },
+      "choices": [
+        { "ru": "liknelse использует слово «как»", "en": "a liknelse uses the word \"like\"" },
+        { "ru": "они полностью одинаковы", "en": "they are exactly the same" },
+        { "ru": "liknelse встречается только в песнях", "en": "a liknelse only appears in songs" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-poetry-song-imagery-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что такое refräng?", "en": "What is a refräng?" },
+      "choices": ["часть песни, которая повторяется / a part of a song that repeats", "рифма в конце строки / a rhyme at the end of a line", "образный язык / figurative language"],
+      "answer": 0
+    },
+    {
+      "id": "q-poetry-song-imagery-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Metafor и symbol — это одно и то же слово для одного явления.", "en": "Metafor and symbol are just two words for the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Метафора — это перенос значения в конкретной фразе, символ — устойчивый образ (например, птица = свобода).", "en": "A metaphor is a figurative meaning in a specific phrase; a symbol is a recurring image (e.g. a bird = freedom)." }
+    },
+    {
+      "id": "q-poetry-song-imagery-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "У обычных стихотворений (не песен) обязательно есть refräng.", "en": "Ordinary poems (not songs) always have a refräng." },
+      "answer": false,
+      "explanation": { "ru": "Refräng — элемент песни; в стихах его может не быть.", "en": "A refräng is a song element; poems may not have one." }
+    },
+    {
+      "id": "q-poetry-song-imagery-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Sista ordet i varje rad ___. (rimmar)" },
+      "answer": ["rimmar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-poetry-song-imagery-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En fågel kan vara en ___ för frihet. (symbol)" },
+      "answer": ["symbol"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-poetry-song-imagery-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «В стихотворении три строфы по четыре строки в каждой.»", "en": "Build the sentence: \"The poem has three stanzas with four lines each.\"" },
+      "tokens": ["Dikten", "har", "tre", "strofer", "med", "fyra", "verser", "i", "varje"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-poetry-song-imagery-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["dikt", "стихотворение / poem"],
+        ["rim", "рифма / rhyme"],
+        ["metafor", "метафора / metaphor"],
+        ["refräng", "припев / refrain"]
+      ]
+    },
+    {
+      "id": "q-poetry-song-imagery-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «tolka» в контексте стихов?", "en": "What does \"tolka\" mean in the context of poems?" },
+      "choices": ["интерпретировать, толковать / to interpret", "рифмовать / to rhyme", "публиковать / to publish"],
+      "answer": 0
+    }
+  ]
+}

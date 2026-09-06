@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "historisk-kalla",
+      "sv": "historisk källa",
+      "translations": { "ru": "исторический источник", "en": "historical source" },
+      "pos": "phrase",
+      "example": { "sv": "Källan är ett brev från 1809.", "ru": "Источник — это письмо 1809 года.", "en": "The source is a letter from 1809." }
+    },
+    {
+      "id": "tidsperiod",
+      "sv": "tidsperiod",
+      "translations": { "ru": "период времени, эпоха", "en": "time period" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidsperiod", "defSg": "tidsperioden", "indefPl": "tidsperioder", "defPl": "tidsperioderna" },
+      "example": { "sv": "Texten beskriver en viktig tidsperiod i Sveriges historia.", "ru": "Текст описывает важный период в истории Швеции.", "en": "The text describes an important period in Swedish history." }
+    },
+    {
+      "id": "handelseforlopp",
+      "sv": "händelseförlopp",
+      "translations": { "ru": "ход событий", "en": "course of events" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett händelseförlopp", "defSg": "händelseförloppet", "indefPl": "händelseförlopp", "defPl": "händelseförloppen" },
+      "example": { "sv": "Händelseförloppet är svårt att sammanfatta i en enda mening.", "ru": "Ход событий трудно свести к одному предложению.", "en": "The course of events is hard to sum up in a single sentence." }
+    },
+    {
+      "id": "samtida",
+      "sv": "samtida",
+      "translations": { "ru": "современный (той эпохе), современник", "en": "contemporary (to the period)" },
+      "pos": "adj",
+      "note": { "ru": "Прилагательное не изменяется по роду и числу: samtida (en/ett/мн.ч.). Может также использоваться как существительное: en samtida — современник.", "en": "This adjective doesn't change form for gender or number: samtida (en/ett/plural). It can also be used as a noun: en samtida — a contemporary (person)." },
+      "example": { "sv": "En samtida iakttagare beskrev händelsen helt annorlunda.", "ru": "Современник описал событие совсем иначе.", "en": "A contemporary observer described the event quite differently." }
+    },
+    {
+      "id": "eftervarlden",
+      "sv": "eftervärlden",
+      "translations": { "ru": "потомки, будущие поколения", "en": "posterity" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Слово почти всегда используется в определённой форме eftervärlden.", "en": "This word is almost always used in its definite form, eftervärlden." },
+      "example": { "sv": "Eftervärlden minns honom som en viktig reformator.", "ru": "Потомки помнят его как важного реформатора.", "en": "Posterity remembers him as an important reformer." }
+    },
+    {
+      "id": "epok",
+      "sv": "epok",
+      "translations": { "ru": "эпоха", "en": "era, epoch" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en epok", "defSg": "epoken", "indefPl": "epoker", "defPl": "epokerna" }
+    },
+    {
+      "id": "handelse",
+      "sv": "händelse",
+      "translations": { "ru": "событие", "en": "event" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en händelse", "defSg": "händelsen", "indefPl": "händelser", "defPl": "händelserna" }
+    },
+    {
+      "id": "skildra",
+      "sv": "skildra",
+      "translations": { "ru": "изображать, описывать (события)", "en": "to depict, to portray" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skildra", "present": "skildrar", "past": "skildrade", "supine": "skildrat" }
+    },
+    {
+      "id": "tolkning",
+      "sv": "tolkning",
+      "translations": { "ru": "интерпретация, толкование", "en": "interpretation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tolkning", "defSg": "tolkningen", "indefPl": "tolkningar", "defPl": "tolkningarna" }
+    },
+    {
+      "id": "tidslinje",
+      "sv": "tidslinje",
+      "translations": { "ru": "временная линия, хронология", "en": "timeline" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidslinje", "defSg": "tidslinjen", "indefPl": "tidslinjer", "defPl": "tidslinjerna" }
+    },
+    {
+      "id": "samhalle-hist",
+      "sv": "samhälle",
+      "translations": { "ru": "общество", "en": "society" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" }
+    },
+    {
+      "id": "forandring",
+      "sv": "förändring",
+      "translations": { "ru": "изменение", "en": "change" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förändring", "defSg": "förändringen", "indefPl": "förändringar", "defPl": "förändringarna" }
+    },
+    {
+      "id": "arv-hist",
+      "sv": "arv",
+      "translations": { "ru": "наследие", "en": "heritage, legacy" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "minnesmarke",
+      "sv": "minnesmärke",
+      "translations": { "ru": "памятник, мемориал", "en": "memorial, monument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett minnesmärke", "defSg": "minnesmärket", "indefPl": "minnesmärken", "defPl": "minnesmärkena" }
+    }
+  ]
+}

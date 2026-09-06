@@ -1,0 +1,111 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-subjunctive-remnants-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det vore bra om du kunde komma» — что заменяет vore в обычной речи?", "en": "\"Det vore bra om du kunde komma\" — what does vore replace in ordinary speech?" },
+      "choices": ["är", "skulle vara", "blev"],
+      "answer": 1
+    },
+    {
+      "id": "q-subjunctive-remnants-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком стиле чаще встречается vore?", "en": "In which style is vore more commonly found?" },
+      "choices": [
+        { "ru": "В непринуждённой устной речи", "en": "In casual spoken speech" },
+        { "ru": "В приподнятом, письменном стиле", "en": "In elevated, written style" },
+        { "ru": "Только в детских сказках", "en": "Only in children's fairy tales" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-subjunctive-remnants-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Можно ли свободно спрягать må по лицам и временам, как обычный глагол?", "en": "Can må be freely conjugated by person and tense like an ordinary verb?" },
+      "choices": [
+        { "ru": "Да, это обычный продуктивный глагол", "en": "Yes, it's an ordinary productive verb" },
+        { "ru": "Нет, он сохранился только в нескольких застывших выражениях", "en": "No, it survives only in a handful of fixed expressions" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-subjunctive-remnants-mc-4",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Что означает «Måtte det bli sol imorgon»?", "en": "What does \"Måtte det bli sol imorgon\" mean?" },
+      "choices": [
+        { "ru": "Хоть бы завтра было солнце!", "en": "I do hope it's sunny tomorrow!" },
+        { "ru": "Завтра точно будет солнце.", "en": "It will definitely be sunny tomorrow." },
+        { "ru": "Вчера было солнце.", "en": "It was sunny yesterday." }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-subjunctive-remnants-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Det ___ bra om du kunde komma. (книжный конъюнктив vara)" },
+      "answer": ["vore"]
+    },
+    {
+      "id": "q-subjunctive-remnants-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ det gå dig väl! (застывшее пожелание)" },
+      "answer": ["Må"]
+    },
+    {
+      "id": "q-subjunctive-remnants-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ det bli sol imorgon! (расширенная форма для пожелания о будущем)" },
+      "answer": ["Måtte"]
+    },
+    {
+      "id": "q-subjunctive-remnants-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В современном шведском есть живой, продуктивный конъюнктив, как в немецком.", "en": "Modern Swedish has a living, productive subjunctive, like German does." },
+      "answer": false,
+      "explanation": { "ru": "От конъюнктива остались только окаменевшие формы vore и må/måtte.", "en": "Only fossilised forms remain: vore and må/måtte." }
+    },
+    {
+      "id": "q-subjunctive-remnants-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det vore synd att missa festen» и «Det skulle vara synd att missa festen» означают одно и то же.", "en": "\"Det vore synd att missa festen\" and \"Det skulle vara synd att missa festen\" mean the same thing." },
+      "answer": true
+    },
+    {
+      "id": "q-subjunctive-remnants-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово `må` можно свободно использовать в любом предложении с любым смыслом пожелания.", "en": "The word `må` can be freely used in any sentence with any wishing meaning." },
+      "answer": false,
+      "explanation": { "ru": "Оно встречается только в нескольких фиксированных выражениях, не образуя продуктивную парадигму.", "en": "It occurs only in a handful of fixed expressions and does not form a productive paradigm." }
+    },
+    {
+      "id": "q-subjunctive-remnants-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Было бы хорошо, если бы ты смог прийти.»", "en": "Build the sentence: \"It would be good if you could come.\"" },
+      "tokens": ["Det", "vore", "bra", "om", "du", "kunde", "komma"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-subjunctive-remnants-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму с её употреблением", "en": "Match the form with its use" },
+      "pairs": [
+        ["vore", "заменяет skulle vara в письменном стиле / replaces skulle vara in written style"],
+        ["må", "застывшие пожелания и восклицания / fixed wishes and exclamations"],
+        ["måtte", "пожелание о будущем / a wish about the future"]
+      ]
+    }
+  ]
+}

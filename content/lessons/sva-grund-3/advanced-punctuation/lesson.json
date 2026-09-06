@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/advanced-punctuation",
+  "slug": "advanced-punctuation",
+  "title": {
+    "sv": "Skiljetecken: kolon, tankstreck och citattecken",
+    "ru": "Пунктуация: запятая, двоеточие, тире, кавычки",
+    "en": "Punctuation: comma, colon, dash, quotation marks"
+  },
+  "summary": {
+    "ru": "Двоеточие перед списком, тире для вставки, шведские кавычки — и когда запятая перед «som» всё-таки нужна.",
+    "en": "A colon before a list, a dash for an aside, Swedish quotation marks — and when a comma before \"som\" is actually needed."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "punctuation", "writing"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1470,
+  "prerequisites": ["sva-grund-1/punctuation-paragraphs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

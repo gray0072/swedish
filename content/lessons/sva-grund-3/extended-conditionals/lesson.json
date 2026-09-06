@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/extended-conditionals",
+  "slug": "extended-conditionals",
+  "title": {
+    "sv": "Konditionalis utan om: inversion i stället för om",
+    "ru": "Условные конструкции: три ступени и инверсия вместо om",
+    "en": "Conditionals: the three-way system and inversion instead of om"
+  },
+  "summary": {
+    "ru": "Повторяем реальное/ирреальное условие и учимся строить его вообще без om — через инверсию.",
+    "en": "A review of real/unreal conditionals, plus how to build one without om at all — using inversion."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "conditionals", "syntax", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1410,
+  "prerequisites": ["sva-grund-2/unreal-past-conditional"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

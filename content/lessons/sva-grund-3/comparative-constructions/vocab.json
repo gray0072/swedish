@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "ova",
+      "sv": "öva",
+      "translations": { "ru": "тренироваться, упражняться", "en": "to practise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öva", "present": "övar", "past": "övade", "supine": "övat" }
+    },
+    {
+      "id": "trana",
+      "sv": "träna",
+      "translations": { "ru": "тренироваться (физически)", "en": "to train, work out" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träna", "present": "tränar", "past": "tränade", "supine": "tränat" }
+    },
+    {
+      "id": "bra-adj",
+      "sv": "bra",
+      "translations": { "ru": "хороший", "en": "good" },
+      "pos": "adj",
+      "note": { "ru": "Сравнительная степень: bättre; превосходная: bäst.", "en": "Comparative: bättre; superlative: bäst." }
+    },
+    {
+      "id": "stark",
+      "sv": "stark",
+      "translations": { "ru": "сильный", "en": "strong" },
+      "pos": "adj",
+      "note": { "ru": "Сравнительная степень: starkare; превосходная: starkast.", "en": "Comparative: starkare; superlative: starkast." }
+    },
+    {
+      "id": "lang",
+      "sv": "lång",
+      "translations": { "ru": "высокий (о росте), длинный", "en": "tall, long" },
+      "pos": "adj",
+      "note": { "ru": "Сравнительная степень: längre; превосходная: längst.", "en": "Comparative: längre; superlative: längst." }
+    },
+    {
+      "id": "stor-adj",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "note": { "ru": "Сравнительная степень: större; превосходная: störst.", "en": "Comparative: större; superlative: störst." }
+    },
+    {
+      "id": "bror",
+      "sv": "bror",
+      "translations": { "ru": "брат", "en": "brother" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bror", "defSg": "brodern", "indefPl": "bröder", "defPl": "bröderna" }
+    },
+    {
+      "id": "syster",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" }
+    },
+    {
+      "id": "ju",
+      "sv": "ju",
+      "translations": { "ru": "чем (в конструкции ju … desto)", "en": "the (in the ju … desto construction)" },
+      "pos": "conjunction",
+      "note": { "ru": "Вводит первую половину, без инверсии подлежащего и глагола.", "en": "Introduces the first half, no subject-verb inversion." }
+    },
+    {
+      "id": "desto",
+      "sv": "desto",
+      "translations": { "ru": "тем (в конструкции ju … desto)", "en": "the (in the ju … desto construction)" },
+      "pos": "adv",
+      "note": { "ru": "Вводит вторую половину как главное предложение с V2-инверсией.", "en": "Introduces the second half as a main clause with V2 inversion." }
+    },
+    {
+      "id": "lika",
+      "sv": "lika",
+      "translations": { "ru": "так же, одинаково", "en": "equally, just as" },
+      "pos": "adv"
+    },
+    {
+      "id": "som-comp",
+      "sv": "som",
+      "translations": { "ru": "как (в сравнении равенства)", "en": "as (in a comparison of equality)" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "an",
+      "sv": "än",
+      "translations": { "ru": "чем (в сравнении неравенства)", "en": "than (in a comparison of inequality)" },
+      "pos": "conjunction"
+    }
+  ]
+}

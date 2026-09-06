@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-migration-integration-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «migration»?", "en": "What does \"migration\" mean?" },
+      "choices": ["переезд людей из одной страны в другую", "получение гражданства", "изучение шведского языка"],
+      "answer": 0
+    },
+    {
+      "id": "q-migration-integration-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что даёт курс «samhällsorientering»?", "en": "What does a \"samhällsorientering\" course provide?" },
+      "choices": [
+        { "ru": "базовые знания о шведском обществе", "en": "basic knowledge about Swedish society" },
+        { "ru": "вид на жительство", "en": "a residence permit" },
+        { "ru": "гражданство", "en": "citizenship" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-migration-integration-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «etablering på arbetsmarknaden»?", "en": "What does \"etablering på arbetsmarknaden\" mean?" },
+      "choices": ["закрепление на рынке труда", "убежище", "многокультурность"],
+      "answer": 0
+    },
+    {
+      "id": "q-migration-integration-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Asyl и uppehållstillstånd — это одно и то же понятие.", "en": "Asyl and uppehållstillstånd are the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Asyl — статус защиты, а uppehållstillstånd — разрешение на проживание, которое можно получить после предоставления убежища.", "en": "Asyl is protection status, while uppehållstillstånd is the residence permit one can apply for after asylum is granted." }
+    },
+    {
+      "id": "q-migration-integration-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Mångfald на рабочем месте всегда вредит организации.", "en": "Mångfald in the workplace always harms an organization." },
+      "answer": false,
+      "explanation": { "ru": "Разнообразие может обогатить работу организации.", "en": "Diversity can enrich an organization." }
+    },
+    {
+      "id": "q-migration-integration-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Efter beviljad asyl kan man ansöka om ___. (uppehållstillstånd)" },
+      "answer": ["uppehållstillstånd"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-migration-integration-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Sverige beskrivs ofta som ett ___ samhälle. (mångkulturellt)" },
+      "answer": ["mångkulturellt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-migration-integration-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Интеграция — это становление частью общества в новой стране.»", "en": "Build the sentence: \"Integration is about becoming part of society in the new country.\"" },
+      "tokens": ["Integration", "handlar", "om", "att", "bli", "en", "del", "av", "samhället"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-migration-integration-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["migration", "миграция / migration"],
+        ["mångfald", "разнообразие / diversity"],
+        ["fördom", "предрассудок / prejudice"],
+        ["jämlikhet", "равенство / equality"]
+      ]
+    },
+    {
+      "id": "q-migration-integration-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Как называют человека, который недавно переехал в Швецию?", "en": "What is a person who recently moved to Sweden called?" },
+      "choices": ["en nyanländ", "en medborgare", "en fördom"],
+      "answer": 0
+    }
+  ]
+}

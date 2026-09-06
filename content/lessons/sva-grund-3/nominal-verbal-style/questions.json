@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-nominal-verbal-style-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение написано в номинальном стиле?", "en": "Which sentence is written in nominal style?" },
+      "choices": [
+        "Genomförandet av undersökningen resulterade i nya rekommendationer.",
+        "Vi genomförde undersökningen, vilket ledde till nya rekommendationer.",
+        "Vi gjorde en undersökning."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-nominal-verbal-style-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение написано в глагольном стиле?", "en": "Which sentence is written in verbal style?" },
+      "choices": [
+        "Vi fattade beslutet efter att ha granskat ansökan.",
+        "Beslutet fattades efter en granskning av ansökan.",
+        "Beslutets fattande skedde efter granskningens genomförande."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-nominal-verbal-style-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Klarspråk рекомендует использовать больше номинализаций в официальных текстах.", "en": "Klarspråk recommends using more nominalisations in official texts." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: klarspråk советует заменять номинализации глаголами для ясности.", "en": "The opposite: klarspråk advises replacing nominalisations with verbs for clarity." }
+    },
+    {
+      "id": "q-nominal-verbal-style-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Номинальный стиль типичен для канцелярского и юридического языка.", "en": "Nominal style is typical of officialese and legal language." },
+      "answer": true
+    },
+    {
+      "id": "q-nominal-verbal-style-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi ___ ut bidraget i början av månaden. (betala, глагольный стиль)" },
+      "answer": ["betalar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-nominal-verbal-style-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь номинальный вариант с глагольным", "en": "Match the nominal version with the verbal one" },
+      "pairs": [
+        ["Genomförandet av undersökningen resulterade i nya rekommendationer.", "Vi genomförde undersökningen, vilket ledde till nya rekommendationer."],
+        ["Beslutet fattades efter en granskning av ansökan.", "Vi fattade beslutet efter att ha granskat ansökan."],
+        ["Utbetalningen av bidraget sker i början av månaden.", "Vi betalar ut bidraget i början av månaden."]
+      ]
+    },
+    {
+      "id": "q-nominal-verbal-style-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение в глагольном стиле: «Мы приняли решение после того, как проверили заявление.»", "en": "Build the verbal-style sentence: \"We made the decision after reviewing the application.\"" },
+      "tokens": ["Vi", "fattade", "beslutet", "efter", "att", "ha", "granskat", "ansökan"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-nominal-verbal-style-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что происходит с подлежащим-деятелем в номинальном стиле?", "en": "What happens to the subject/agent in nominal style?" },
+      "choices": [
+        { "ru": "Оно часто исчезает или становится безличным", "en": "It often disappears or becomes impersonal" },
+        { "ru": "Оно всегда выделяется жирным", "en": "It is always highlighted in bold" },
+        { "ru": "Оно обязательно превращается в местоимение", "en": "It always turns into a pronoun" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-nominal-verbal-style-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Номинальный стиль иногда полезен, если не нужно называть, кто именно совершил действие.", "en": "Nominal style is sometimes useful when you don't need to name who exactly did the action." },
+      "answer": true
+    },
+    {
+      "id": "q-nominal-verbal-style-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какой глагол типичен как «лёгкая опора» в номинальном стиле?", "en": "Which verb is typical as a \"light support\" verb in nominal style?" },
+      "choices": ["ske", "springa", "älska"],
+      "answer": 0
+    },
+    {
+      "id": "q-nominal-verbal-style-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Undersökningen ___ i nya rekommendationer. (resultera)" },
+      "answer": ["resulterade"],
+      "acceptAlso": []
+    }
+  ]
+}

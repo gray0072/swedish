@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": "trahus",
+      "sv": "trähus",
+      "translations": { "ru": "деревянный дом", "en": "wooden house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "trähus", "defSg": "trähuset", "indefPl": "trähus", "defPl": "trähusen" }
+    },
+    {
+      "id": "tradgard",
+      "sv": "trädgård",
+      "translations": { "ru": "сад", "en": "garden" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "trädgård", "defSg": "trädgården", "indefPl": "trädgårdar", "defPl": "trädgårdarna" }
+    },
+    {
+      "id": "sjo",
+      "sv": "sjö",
+      "translations": { "ru": "озеро", "en": "lake" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" }
+    },
+    {
+      "id": "stor",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "note": { "ru": "Определённая форма (при указателе): stora — одинаково для всех родов и числа.", "en": "Definite form (with a determiner): stora — the same for all genders and numbers." }
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "note": { "ru": "Определённая форма: gamla (неправильная основа gammal- → gamla).", "en": "Definite form: gamla (irregular stem gammal- → gamla)." }
+    },
+    {
+      "id": "vacker",
+      "sv": "vacker",
+      "translations": { "ru": "красивый", "en": "beautiful" },
+      "pos": "adj",
+      "note": { "ru": "Определённая форма: vackra.", "en": "Definite form: vackra." }
+    },
+    {
+      "id": "liten",
+      "sv": "liten",
+      "translations": { "ru": "маленький", "en": "small" },
+      "pos": "adj",
+      "note": { "ru": "Определённая форма особая: lilla (не litna).", "en": "Irregular definite form: lilla (not litna)." }
+    },
+    {
+      "id": "ligga",
+      "sv": "ligga",
+      "translations": { "ru": "лежать, находиться", "en": "to lie, be located" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ligga", "present": "ligger", "past": "låg", "supine": "legat" },
+      "example": { "sv": "Huset ligger vid sjön.", "ru": "Дом находится у озера.", "en": "The house is located by the lake." }
+    },
+    {
+      "id": "den-dar",
+      "sv": "den där",
+      "translations": { "ru": "тот (указывая, en-слово)", "en": "that (pointing, en-word)" },
+      "pos": "pron"
+    },
+    {
+      "id": "det-dar",
+      "sv": "det där",
+      "translations": { "ru": "то (указывая, ett-слово)", "en": "that (pointing, ett-word)" },
+      "pos": "pron"
+    },
+    {
+      "id": "de-dar",
+      "sv": "de där",
+      "translations": { "ru": "те (указывая, множ. число)", "en": "those (pointing, plural)" },
+      "pos": "pron"
+    },
+    {
+      "id": "som",
+      "sv": "som",
+      "translations": { "ru": "который, что", "en": "that, which, who" },
+      "pos": "pron",
+      "note": { "ru": "Относительное местоимение, вводит определительное придаточное.", "en": "Relative pronoun, introduces a relative clause." }
+    },
+    {
+      "id": "hus-huset",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" }
+    }
+  ]
+}

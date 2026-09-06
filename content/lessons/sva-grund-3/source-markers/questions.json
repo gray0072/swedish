@@ -1,0 +1,113 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-source-markers-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что должно идти после `enligt`?", "en": "What must follow `enligt`?" },
+      "choices": [
+        { "ru": "Существительное или имя (источник)", "en": "A noun or a name (the source)" },
+        { "ru": "Целое придаточное с att", "en": "A whole att-clause" },
+        { "ru": "Инфинитив", "en": "An infinitive" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-source-markers-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что берёт после себя `hävdar`?", "en": "What does `hävdar` take after it?" },
+      "choices": ["Существительное без att", "att + придаточное", "Инфинитив без att"],
+      "answer": 1
+    },
+    {
+      "id": "q-source-markers-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Myndigheten hävdar att systemet fungerar korrekt» — согласен ли автор текста с этим утверждением?", "en": "\"Myndigheten hävdar att systemet fungerar korrekt\" — does the writer agree with this claim?" },
+      "choices": [
+        { "ru": "Предложение не говорит об этом — оно лишь называет источник утверждения", "en": "The sentence doesn't say — it only names the source of the claim" },
+        { "ru": "Да, полностью согласен", "en": "Yes, fully agrees" },
+        { "ru": "Нет, явно не согласен", "en": "No, clearly disagrees" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-source-markers-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Зачем в реферате и новостях используют маркеры источника типа enligt/hävdar att?", "en": "Why do referat writing and news use source markers like enligt/hävdar att?" },
+      "choices": [
+        { "ru": "Чтобы дистанцировать автора от прямого утверждения факта", "en": "To keep the writer at a distance from directly stating a fact" },
+        { "ru": "Чтобы сделать текст короче", "en": "To make the text shorter" },
+        { "ru": "Просто для разнообразия стиля", "en": "Just for stylistic variety" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-source-markers-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ Skatteverket ska deklarationen lämnas in senast den 2 maj. (маркер источника + существительное)" },
+      "answer": ["Enligt"]
+    },
+    {
+      "id": "q-source-markers-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Myndigheten ___ att systemet fungerar korrekt. (утверждать)" },
+      "answer": ["hävdar"]
+    },
+    {
+      "id": "q-source-markers-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Experten ___ att situationen kommer att förbättras. (считать, полагать)" },
+      "answer": ["menar"]
+    },
+    {
+      "id": "q-source-markers-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Enligt» можно присоединить прямо к целому придаточному предложению с att.", "en": "\"Enligt\" can attach directly to a whole att-clause." },
+      "answer": false,
+      "explanation": { "ru": "Enligt берёт после себя существительное или имя, а не придаточное.", "en": "Enligt takes a noun or a name after it, not a clause." }
+    },
+    {
+      "id": "q-source-markers-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hävdar att» и «menar att» позволяют приписать утверждение конкретному источнику, не делая его своим фактом.", "en": "\"Hävdar att\" and \"menar att\" let you attribute a claim to a specific source without making it your own fact." },
+      "answer": true
+    },
+    {
+      "id": "q-source-markers-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Маркеры источника не важны в новостных и реферативных текстах.", "en": "Source markers don't matter in news and referat writing." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот, это базовый инструмент для дистанцирования автора от чужого утверждения.", "en": "On the contrary, they're a core tool for keeping the writer at a distance from someone else's claim." }
+    },
+    {
+      "id": "q-source-markers-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «По словам учителя, экзамен был трудным.»", "en": "Build the sentence: \"According to the teacher, the test was hard.\"" },
+      "tokens": ["Enligt", "läraren", "var", "provet", "svårt"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-source-markers-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь маркер с тем, что после него следует", "en": "Match the marker with what follows it" },
+      "pairs": [
+        ["enligt", "существительное/имя источника / a noun/name of the source"],
+        ["hävdar att", "att-придаточное с утверждением / an att-clause with a claim"],
+        ["menar att", "att-придаточное с мнением / an att-clause with an opinion"]
+      ]
+    }
+  ]
+}

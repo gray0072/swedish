@@ -1,0 +1,146 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-work-environment-conflicts-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Работодатель отвечает за хорошие условия труда.»", "en": "Build the sentence: \"The employer is responsible for a good work environment.\"" },
+      "tokens": ["ansvarar", "en god arbetsmiljö.", "Arbetsgivaren", "för"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-work-environment-conflicts-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Стороны разрешили спор через посредничество.»", "en": "Build the sentence: \"The parties resolved the dispute through mediation.\"" },
+      "tokens": ["tvisten", "Parterna", "medling", "löste", "genom"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-work-environment-conflicts-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["arbetsmiljö", "рабочая среда"],
+        ["skyddsombud", "уполномоченный по охране труда"],
+        ["konflikt", "конфликт"],
+        ["medling", "посредничество"]
+      ]
+    },
+    {
+      "id": "q-work-environment-conflicts-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["mobbning", "травля"],
+        ["trakasserier", "домогательства"],
+        ["utredning", "расследование"],
+        ["rehabilitering", "реабилитация"]
+      ]
+    },
+    {
+      "id": "q-work-environment-conflicts-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Skyddsombud» назначается работодателем без участия работников.", "en": "A \"skyddsombud\" is appointed by the employer without any input from employees." },
+      "answer": false,
+      "explanation": {
+        "ru": "Уполномоченного по охране труда избирают сами работники.",
+        "en": "The safety representative is elected by the employees themselves."
+      }
+    },
+    {
+      "id": "q-work-environment-conflicts-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kränkande särbehandling» — юридический термин для систематического унижающего обращения на работе.", "en": "\"Kränkande särbehandling\" is the legal term for systematic offensive treatment at work." },
+      "answer": true
+    },
+    {
+      "id": "q-work-environment-conflicts-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Whistleblowing» — это канал для жалоб на плохое качество кофе в офисе.", "en": "\"Whistleblowing\" is a channel for complaints about poor office coffee quality." },
+      "answer": false,
+      "explanation": {
+        "ru": "Whistleblowing предназначен для сообщений о серьёзных нарушениях, а не о бытовых мелочах.",
+        "en": "Whistleblowing is meant for reporting serious wrongdoing, not everyday minor complaints."
+      }
+    },
+    {
+      "id": "q-work-environment-conflicts-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Arbetsmiljöverket — это государственная инспекция труда в Швеции.", "en": "Arbetsmiljöverket is the government's work environment authority in Sweden." },
+      "answer": true
+    },
+    {
+      "id": "q-work-environment-conflicts-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ händelsen till skyddsombudet. (сообщил(а))" },
+      "answer": ["anmälde"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-work-environment-conflicts-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon anmälde ___ från en kollega. (домогательства)" },
+      "answer": ["trakasserier"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-work-environment-conflicts-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "En ___ uppstod mellan två avdelningar. (конфликт)" },
+      "answer": ["konflikt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-work-environment-conflicts-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто избирается работниками для контроля за безопасностью на рабочем месте?",
+        "en": "Who is elected by employees to oversee workplace safety?"
+      },
+      "choices": ["skyddsombudet", "rekryteraren", "arbetsgivaren", "journalisten"],
+      "answer": 0
+    },
+    {
+      "id": "q-work-environment-conflicts-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает нейтральное посредничество для разрешения спора?",
+        "en": "Which word means neutral mediation to resolve a dispute?"
+      },
+      "choices": ["medling", "mobbning", "utredning", "rehabilitering"],
+      "answer": 0
+    },
+    {
+      "id": "q-work-environment-conflicts-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Куда можно обратиться, если работодатель систематически нарушает закон об охране труда?",
+        "en": "Where can you turn if an employer systematically violates the Work Environment Act?"
+      },
+      "choices": ["Arbetsmiljöverket", "Skatteverket", "Försäkringskassan", "vårdcentralen"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-extended-noun-phrase-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det där stora, gamla, vackra trähuset» — почему все прилагательные оканчиваются на -a, хотя huset — ett-слово?", "en": "\"Det där stora, gamla, vackra trähuset\" — why do all the adjectives end in -a even though huset is an ett-word?" },
+      "choices": [
+        { "ru": "Потому что перед группой стоит указатель det där, и вся группа определена", "en": "Because a determiner (det där) stands before the group, making the whole phrase definite" },
+        { "ru": "Потому что trähus всегда требует -a у прилагательных", "en": "Because trähus always requires -a on adjectives" },
+        { "ru": "Это ошибка, должно быть -t", "en": "It's a mistake, it should be -t" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-extended-noun-phrase-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "К чему относится придаточное «som ligger vid sjön» в «Det där stora, gamla trähuset som ligger vid sjön»?", "en": "What does the relative clause \"som ligger vid sjön\" refer to in \"Det där stora, gamla trähuset som ligger vid sjön\"?" },
+      "choices": [
+        { "ru": "К последнему прилагательному gamla", "en": "To the last adjective, gamla" },
+        { "ru": "Ко всей именной группе, то есть к trähuset", "en": "To the whole noun phrase, i.e. to trähuset" },
+        { "ru": "К указателю det där", "en": "To the determiner det där" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-extended-noun-phrase-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какую форму принимает существительное, когда перед ним стоит указатель типа den/det där?", "en": "What form does the noun take when a determiner like den/det där stands before it?" },
+      "choices": [
+        { "ru": "Неопределённую", "en": "Indefinite" },
+        { "ru": "Определённую (двойная определённость)", "en": "Definite (double definiteness)" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-extended-noun-phrase-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Den där ___ (stor) trädgården är fin. (en-слово, определённая группа)" },
+      "answer": ["stora"]
+    },
+    {
+      "id": "q-extended-noun-phrase-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Det där ___ (gammal) huset ska rivas. (ett-слово, неправильная основа)" },
+      "answer": ["gamla"]
+    },
+    {
+      "id": "q-extended-noun-phrase-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "De där ___ (vacker) husen ligger vid sjön. (множ. число)" },
+      "answer": ["vackra"]
+    },
+    {
+      "id": "q-extended-noun-phrase-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Det där lilla, gamla, vackra trähuset ___ ligger vid sjön är till salu. (относительное местоимение)" },
+      "answer": ["som"]
+    },
+    {
+      "id": "q-extended-noun-phrase-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Когда перед именной группой стоит указатель (den/det/de här/där), все прилагательные в цепочке получают одно и то же окончание -a.", "en": "When a determiner (den/det/de här/där) stands before a noun phrase, every adjective in the chain gets the same -a ending." },
+      "answer": true
+    },
+    {
+      "id": "q-extended-noun-phrase-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В определённой форме прилагательные различаются по роду и числу (stor/stort/stora).", "en": "In the definite form, adjectives are distinguished by gender and number (stor/stort/stora)." },
+      "answer": false,
+      "explanation": { "ru": "В определённой форме всегда одна и та же форма на -a, независимо от рода и числа.", "en": "In the definite form there is always the same -a form, regardless of gender and number." }
+    },
+    {
+      "id": "q-extended-noun-phrase-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Придаточное с som всегда стоит в конце всей именной группы, после существительного.", "en": "A som-clause always comes at the end of the whole noun phrase, after the noun." },
+      "answer": true
+    },
+    {
+      "id": "q-extended-noun-phrase-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери именную группу: «Тот большой, старый, красивый деревянный дом, что стоит у озера.»", "en": "Build the noun phrase: \"That big, old, beautiful wooden house that stands by the lake.\"" },
+      "tokens": ["Det", "där", "stora,", "gamla,", "vackra", "trähuset", "som", "ligger", "vid", "sjön"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "q-extended-noun-phrase-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери группу: «Тот большой, красивый сад.»", "en": "Build the phrase: \"That big, beautiful garden.\"" },
+      "tokens": ["Den", "där", "stora,", "vackra", "trädgården"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-extended-noun-phrase-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь часть именной группы с её ролью", "en": "Match the part of the noun phrase with its role" },
+      "pairs": [
+        ["den där / det där / de där", "указатель, задаёт определённость / determiner, sets definiteness"],
+        ["stora, gamla, vackra", "цепочка прилагательных, все на -a / chain of adjectives, all -a"],
+        ["trähuset", "существительное в определённой форме / noun in the definite form"],
+        ["som ligger vid sjön", "придаточное, относится ко всей группе / relative clause, refers to the whole phrase"]
+      ]
+    }
+  ]
+}

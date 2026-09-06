@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "id": "i-en-artikel-publicerad-i",
+      "sv": "i en artikel publicerad i [tidning] den [datum] skriver [författare] att...",
+      "translations": { "ru": "в статье, опубликованной в [издании] [дата], [автор] пишет, что...", "en": "in an article published in [newspaper] on [date], [author] writes that..." },
+      "pos": "phrase",
+      "example": { "sv": "I en artikel publicerad i Dagens Nyheter den 3 mars skriver Anna Lund att digitaliseringen förändrar arbetsmarknaden.", "ru": "В статье, опубликованной в Dagens Nyheter 3 марта, Анна Лунд пишет, что цифровизация меняет рынок труда.", "en": "In an article published in Dagens Nyheter on March 3, Anna Lund writes that digitalization is changing the labour market." }
+    },
+    {
+      "id": "enligt-en-artikel-i",
+      "sv": "enligt en artikel i...",
+      "translations": { "ru": "согласно статье в...", "en": "according to an article in..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "kallan-uppger-att",
+      "sv": "källan uppger att...",
+      "translations": { "ru": "источник сообщает, что...", "en": "the source states that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "forfattaren-hanvisar-till",
+      "sv": "författaren hänvisar till...",
+      "translations": { "ru": "автор ссылается на...", "en": "the author refers to..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "enligt-namn",
+      "sv": "enligt [namn]",
+      "translations": { "ru": "по словам [имя]", "en": "according to [name]" },
+      "pos": "phrase",
+      "example": { "sv": "Enligt Lund beror förändringen på ny teknik.", "ru": "По словам Лунд, изменение вызвано новыми технологиями.", "en": "According to Lund, the change is due to new technology." }
+    },
+    {
+      "id": "som-det-star-i-artikeln",
+      "sv": "som det står i artikeln",
+      "translations": { "ru": "как написано в статье", "en": "as it says in the article" },
+      "pos": "phrase"
+    },
+    {
+      "id": "artikeln-ar-hamtad-fran",
+      "sv": "artikeln är hämtad från...",
+      "translations": { "ru": "статья взята из...", "en": "the article is taken from..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-framgar-av-texten-att",
+      "sv": "det framgår av texten att...",
+      "translations": { "ru": "из текста следует, что...", "en": "it emerges from the text that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det framgår av texten att många oroar sig för sina jobb.", "ru": "Из текста следует, что многие беспокоятся за свою работу.", "en": "It emerges from the text that many are worried about their jobs." }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    },
+    {
+      "id": "citera",
+      "sv": "citera",
+      "translations": { "ru": "цитировать", "en": "to quote" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" }
+    },
+    {
+      "id": "hanvisa-till",
+      "sv": "hänvisa till",
+      "translations": { "ru": "ссылаться на", "en": "to refer to" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hänvisa", "present": "hänvisar", "past": "hänvisade", "supine": "hänvisat" }
+    },
+    {
+      "id": "ange-kalla",
+      "sv": "ange en källa",
+      "translations": { "ru": "указывать источник", "en": "to cite a source" },
+      "pos": "phrase"
+    },
+    {
+      "id": "tidning",
+      "sv": "tidning",
+      "translations": { "ru": "газета", "en": "newspaper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" }
+    },
+    {
+      "id": "publicera",
+      "sv": "publicera",
+      "translations": { "ru": "публиковать", "en": "to publish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "publicera", "present": "publicerar", "past": "publicerade", "supine": "publicerat" }
+    },
+    {
+      "id": "datum",
+      "sv": "datum",
+      "translations": { "ru": "дата", "en": "date" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" }
+    }
+  ]
+}

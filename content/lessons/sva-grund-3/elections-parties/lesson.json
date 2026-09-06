@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/elections-parties",
+  "slug": "elections-parties",
+  "title": {
+    "sv": "Val och partier",
+    "ru": "Выборы и партии — нейтральная лексика",
+    "en": "Elections and parties — neutral vocabulary"
+  },
+  "summary": {
+    "ru": "Нейтральная лексика для разговора о выборах, голосовании и парламентских партиях в Швеции.",
+    "en": "Neutral vocabulary for discussing elections, voting and parliamentary parties in Sweden."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "society",
+    "civics",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1550,
+  "prerequisites": [
+    "sva-grund-3/swedish-model"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

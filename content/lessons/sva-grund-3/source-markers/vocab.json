@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "id": "enligt",
+      "sv": "enligt",
+      "translations": { "ru": "согласно, по данным", "en": "according to" },
+      "pos": "prep",
+      "note": { "ru": "Требует после себя существительное/имя, а не придаточное.", "en": "Takes a noun/name after it, not a clause." }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать", "en": "to claim, assert" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" },
+      "example": { "sv": "Myndigheten hävdar att systemet fungerar korrekt.", "ru": "Ведомство утверждает, что система работает исправно.", "en": "The agency claims that the system works correctly." }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "считать, полагать", "en": "to think, hold the view" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" }
+    },
+    {
+      "id": "skatteverket",
+      "sv": "Skatteverket",
+      "translations": { "ru": "налоговое управление", "en": "the Swedish Tax Agency" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "deklaration",
+      "sv": "deklaration",
+      "translations": { "ru": "налоговая декларация", "en": "tax return" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "deklaration", "defSg": "deklarationen", "indefPl": "deklarationer", "defPl": "deklarationerna" }
+    },
+    {
+      "id": "myndighet",
+      "sv": "myndighet",
+      "translations": { "ru": "ведомство, орган власти", "en": "authority, agency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" }
+    },
+    {
+      "id": "system",
+      "sv": "system",
+      "translations": { "ru": "система", "en": "system" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "system", "defSg": "systemet", "indefPl": "system", "defPl": "systemen" }
+    },
+    {
+      "id": "expert",
+      "sv": "expert",
+      "translations": { "ru": "эксперт", "en": "expert" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "expert", "defSg": "experten", "indefPl": "experter", "defPl": "experterna" }
+    },
+    {
+      "id": "situation",
+      "sv": "situation",
+      "translations": { "ru": "ситуация", "en": "situation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "situation", "defSg": "situationen", "indefPl": "situationer", "defPl": "situationerna" }
+    },
+    {
+      "id": "forbattras",
+      "sv": "förbättras",
+      "translations": { "ru": "улучшаться", "en": "to improve, get better" },
+      "pos": "verb",
+      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" }
+    },
+    {
+      "id": "fungera",
+      "sv": "fungera",
+      "translations": { "ru": "работать, функционировать", "en": "to function, work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fungera", "present": "fungerar", "past": "fungerade", "supine": "fungerat" }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    }
+  ]
+}

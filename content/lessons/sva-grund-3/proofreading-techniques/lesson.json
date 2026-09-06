@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/proofreading-techniques",
+  "slug": "proofreading-techniques",
+  "title": {
+    "sv": "Vanliga interferensfel och korrekturläsning",
+    "ru": "Типичные ошибки интерференции и приёмы самопроверки текста",
+    "en": "Typical interference errors and techniques for proofreading your own text"
+  },
+  "summary": {
+    "ru": "Пропущенный артикль, забытая инверсия, лишняя запятая перед att — и три приёма, чтобы выловить их самому.",
+    "en": "A missing article, forgotten inversion, an extra comma before att — and three techniques for catching them yourself."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "writing", "proofreading", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1500,
+  "prerequisites": ["sva-grund-3/registers"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

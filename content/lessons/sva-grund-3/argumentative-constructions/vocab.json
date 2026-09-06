@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "a-ena-sidan",
+      "sv": "å ena sidan",
+      "translations": { "ru": "с одной стороны", "en": "on the one hand" },
+      "pos": "phrase",
+      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." }
+    },
+    {
+      "id": "a-andra-sidan",
+      "sv": "å andra sidan",
+      "translations": { "ru": "с другой стороны", "en": "on the other hand" },
+      "pos": "phrase",
+      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." }
+    },
+    {
+      "id": "visserligen",
+      "sv": "visserligen",
+      "translations": { "ru": "правда, действительно (уступка)", "en": "admittedly, it's true that" },
+      "pos": "adv",
+      "note": { "ru": "Признаёт довод оппонента перед тем, как men его перевесит.", "en": "Concedes the opponent's point before men outweighs it." }
+    },
+    {
+      "id": "men",
+      "sv": "men",
+      "translations": { "ru": "но", "en": "but" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "storstad",
+      "sv": "storstad",
+      "translations": { "ru": "большой город", "en": "big city" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "storstad", "defSg": "storstaden", "indefPl": "storstäder", "defPl": "storstäderna" }
+    },
+    {
+      "id": "landet",
+      "sv": "landet",
+      "translations": { "ru": "деревня, сельская местность", "en": "the countryside" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "land", "defSg": "landet", "indefPl": "länder", "defPl": "länderna" }
+    },
+    {
+      "id": "trivas",
+      "sv": "trivas",
+      "translations": { "ru": "чувствовать себя хорошо, нравиться (о месте)", "en": "to feel at home, enjoy being somewhere" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "trivas", "present": "trivs", "past": "trivdes", "supine": "trivts" },
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." }
+    },
+    {
+      "id": "hyra",
+      "sv": "hyra",
+      "translations": { "ru": "аренда, квартплата", "en": "rent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" }
+    },
+    {
+      "id": "hog",
+      "sv": "hög",
+      "translations": { "ru": "высокий", "en": "high" },
+      "pos": "adj"
+    },
+    {
+      "id": "argument",
+      "sv": "argument",
+      "translations": { "ru": "аргумент", "en": "argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" }
+    },
+    {
+      "id": "motargument",
+      "sv": "motargument",
+      "translations": { "ru": "контраргумент", "en": "counter-argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" }
+    },
+    {
+      "id": "flytta-verb",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" }
+    }
+  ]
+}

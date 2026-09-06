@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "id": "diskriminering",
+      "sv": "diskriminering",
+      "translations": { "ru": "дискриминация", "en": "discrimination" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en diskriminering", "defSg": "diskrimineringen", "indefPl": "diskrimineringar", "defPl": "diskrimineringarna" },
+      "example": { "sv": "Diskriminering är förbjudet enligt svensk lag.", "ru": "Дискриминация запрещена шведским законом.", "en": "Discrimination is prohibited under Swedish law." }
+    },
+    {
+      "id": "direkt-diskriminering",
+      "sv": "direkt diskriminering",
+      "translations": { "ru": "прямая дискриминация", "en": "direct discrimination" },
+      "pos": "phrase",
+      "example": { "sv": "Att neka någon en bostad på grund av namn är direkt diskriminering.", "ru": "Отказать кому-то в жилье из-за имени — это прямая дискриминация.", "en": "Refusing someone housing because of their name is direct discrimination." }
+    },
+    {
+      "id": "indirekt-diskriminering",
+      "sv": "indirekt diskriminering",
+      "translations": { "ru": "косвенная дискриминация", "en": "indirect discrimination" },
+      "pos": "phrase",
+      "example": { "sv": "En regel som verkar neutral kan ändå bli indirekt diskriminering.", "ru": "Правило, которое кажется нейтральным, всё же может стать косвенной дискриминацией.", "en": "A seemingly neutral rule can still amount to indirect discrimination." }
+    },
+    {
+      "id": "jamstalldhet",
+      "sv": "jämställdhet",
+      "translations": { "ru": "гендерное равенство", "en": "gender equality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämställdhet", "defSg": "jämställdheten", "indefPl": "jämställdheter", "defPl": "jämställdheterna" },
+      "example": { "sv": "Sverige arbetar aktivt för jämställdhet på arbetsmarknaden.", "ru": "Швеция активно работает над гендерным равенством на рынке труда.", "en": "Sweden actively works toward gender equality in the labour market." }
+    },
+    {
+      "id": "jamlikhet",
+      "sv": "jämlikhet",
+      "translations": { "ru": "равенство (общее, всех людей)", "en": "equality (of all people)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämlikhet", "defSg": "jämlikheten", "indefPl": "jämlikheter", "defPl": "jämlikheterna" },
+      "example": { "sv": "Jämlikhet mellan människor är en grundläggande värdering.", "ru": "Равенство между людьми — это основополагающая ценность.", "en": "Equality between people is a fundamental value." }
+    },
+    {
+      "id": "likabehandling",
+      "sv": "likabehandling",
+      "translations": { "ru": "равное обращение", "en": "equal treatment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en likabehandling", "defSg": "likabehandlingen", "indefPl": "likabehandlingar", "defPl": "likabehandlingarna" },
+      "example": { "sv": "Skolan har en plan för likabehandling av alla elever.", "ru": "В школе есть план по обеспечению равного обращения со всеми учениками.", "en": "The school has a plan for the equal treatment of all pupils." }
+    },
+    {
+      "id": "diskrimineringsgrunder",
+      "sv": "diskrimineringsgrunder",
+      "translations": { "ru": "признаки дискриминации (по закону)", "en": "grounds of discrimination (under the law)" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Семь признаков, защищённых законом о дискриминации: пол, гендерная идентичность, этническая принадлежность, религия, инвалидность, сексуальная ориентация, возраст.", "en": "Seven grounds protected by the Discrimination Act: sex, gender identity, ethnicity, religion, disability, sexual orientation, age." },
+      "example": { "sv": "Ålder är en av de sju diskrimineringsgrunderna.", "ru": "Возраст — один из семи признаков дискриминации.", "en": "Age is one of the seven grounds of discrimination." }
+    },
+    {
+      "id": "do",
+      "sv": "DO (Diskrimineringsombudsmannen)",
+      "translations": { "ru": "Омбудсмен по вопросам дискриминации", "en": "the Equality Ombudsman" },
+      "pos": "noun",
+      "note": { "ru": "Государственное ведомство, которое следит за соблюдением закона о дискриминации и принимает жалобы.", "en": "The government agency that enforces the Discrimination Act and receives complaints." },
+      "example": { "sv": "Man kan anmäla diskriminering till DO.", "ru": "О дискриминации можно заявить в DO.", "en": "You can report discrimination to the Equality Ombudsman." }
+    },
+    {
+      "id": "kon",
+      "sv": "kön",
+      "translations": { "ru": "пол", "en": "sex, gender" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kön", "defSg": "könet", "indefPl": "kön", "defPl": "könen" },
+      "example": { "sv": "Lönen ska inte bero på kön.", "ru": "Зарплата не должна зависеть от пола.", "en": "Pay should not depend on sex." }
+    },
+    {
+      "id": "etnicitet",
+      "sv": "etnicitet",
+      "translations": { "ru": "этническая принадлежность", "en": "ethnicity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en etnicitet", "defSg": "etniciteten", "indefPl": "etniciteter", "defPl": "etniciteterna" },
+      "example": { "sv": "Etnicitet får inte påverka en anställning.", "ru": "Этническая принадлежность не должна влиять на трудоустройство.", "en": "Ethnicity must not affect a hiring decision." }
+    },
+    {
+      "id": "funktionsnedsattning",
+      "sv": "funktionsnedsättning",
+      "translations": { "ru": "инвалидность, ограничение функций", "en": "disability" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en funktionsnedsättning", "defSg": "funktionsnedsättningen", "indefPl": "funktionsnedsättningar", "defPl": "funktionsnedsättningarna" },
+      "example": { "sv": "Arbetsplatsen ska anpassas för personer med funktionsnedsättning.", "ru": "Рабочее место должно быть приспособлено для людей с инвалидностью.", "en": "The workplace must be adapted for people with a disability." }
+    },
+    {
+      "id": "sexuell-laggning",
+      "sv": "sexuell läggning",
+      "translations": { "ru": "сексуальная ориентация", "en": "sexual orientation" },
+      "pos": "phrase",
+      "example": { "sv": "Sexuell läggning är en skyddad diskrimineringsgrund.", "ru": "Сексуальная ориентация — это защищённый законом признак.", "en": "Sexual orientation is a protected ground of discrimination." }
+    },
+    {
+      "id": "aktiva-atgarder",
+      "sv": "aktiva åtgärder",
+      "translations": { "ru": "активные меры (по обеспечению равенства)", "en": "active measures (to promote equality)" },
+      "pos": "phrase",
+      "example": { "sv": "Arbetsgivare ska vidta aktiva åtgärder mot diskriminering.", "ru": "Работодатели обязаны принимать активные меры против дискриминации.", "en": "Employers must take active measures against discrimination." }
+    },
+    {
+      "id": "lika-varde",
+      "sv": "lika värde",
+      "translations": { "ru": "равная ценность (всех людей)", "en": "equal worth (of all people)" },
+      "pos": "phrase",
+      "example": { "sv": "Alla människor har lika värde.", "ru": "Все люди имеют равную ценность.", "en": "All people have equal worth." }
+    },
+    {
+      "id": "diskriminera",
+      "sv": "diskriminera",
+      "translations": { "ru": "дискриминировать", "en": "to discriminate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "diskriminera", "present": "diskriminerar", "past": "diskriminerade", "supine": "diskriminerat" },
+      "example": { "sv": "Det är olagligt att diskriminera en jobbsökande.", "ru": "Дискриминировать соискателя работы незаконно.", "en": "It is illegal to discriminate against a job applicant." }
+    },
+    {
+      "id": "rattighet",
+      "sv": "rättighet",
+      "translations": { "ru": "право", "en": "right" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rättighet", "defSg": "rättigheten", "indefPl": "rättigheter", "defPl": "rättigheterna" },
+      "example": { "sv": "Alla har samma rättigheter oavsett bakgrund.", "ru": "Все имеют одинаковые права независимо от происхождения.", "en": "Everyone has the same rights regardless of background." }
+    }
+  ]
+}

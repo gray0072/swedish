@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/sweden-history-texts",
+  "slug": "sweden-history-texts",
+  "title": {
+    "sv": "Att läsa om Sveriges historia: källa, tidsperiod, samtid",
+    "ru": "История Швеции в текстах",
+    "en": "The history of Sweden through texts"
+  },
+  "summary": {
+    "ru": "Слова для чтения и обсуждения исторического текста: historisk källa, tidsperiod, händelseförlopp, samtida, eftervärlden.",
+    "en": "Vocabulary for reading and discussing a historical text: historisk källa, tidsperiod, händelseförlopp, samtida, eftervärlden."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["vocab", "history", "reading"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1670,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

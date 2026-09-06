@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/registers",
+  "slug": "registers",
+  "title": {
+    "sv": "Register: formellt, neutralt, vardagligt",
+    "ru": "Регистры: формальный, нейтральный, разговорный",
+    "en": "Registers: formal, neutral, colloquial"
+  },
+  "summary": {
+    "ru": "Одна и та же мысль на трёх регистрах — от «vederbörande» до «typen» — и какой выбрать для какого текста.",
+    "en": "The same idea across three registers — from \"vederbörande\" to \"typen\" — and which one fits which text."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "register", "style", "vocabulary"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1490,
+  "prerequisites": ["sva-grund-2/spoken-written-norms"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

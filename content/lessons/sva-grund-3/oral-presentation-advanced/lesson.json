@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/oral-presentation-advanced",
+  "slug": "oral-presentation-advanced",
+  "title": {
+    "sv": "Ett längre muntligt föredrag: bilder, frågor och tidsdisposition",
+    "ru": "Устный доклад с опорой на заметки",
+    "en": "An oral presentation supported by notes"
+  },
+  "summary": {
+    "ru": "Как построить более длинный и структурированный доклад, чем короткое выступление: ссылки на слайды, ответы на вопросы, контроль времени.",
+    "en": "How to structure a longer, more formal talk than a short one: referring to slides, handling questions, and pacing the time."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["phrases", "speaking", "presentation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1620,
+  "prerequisites": ["sva-grund-2/short-talk-notes"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

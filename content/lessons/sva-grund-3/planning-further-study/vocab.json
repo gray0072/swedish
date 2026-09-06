@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": "gymnasieniva",
+      "sv": "gymnasienivå",
+      "translations": { "ru": "гимназический уровень", "en": "upper-secondary level" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gymnasienivå", "defSg": "gymnasienivån", "indefPl": "gymnasienivåer", "defPl": "gymnasienivåerna" }
+    },
+    {
+      "id": "gymnasieskola",
+      "sv": "gymnasieskola",
+      "translations": { "ru": "гимназия (старшая школа)", "en": "upper-secondary school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gymnasieskola", "defSg": "gymnasieskolan", "indefPl": "gymnasieskolor", "defPl": "gymnasieskolorna" }
+    },
+    {
+      "id": "behorighet",
+      "sv": "behörighet",
+      "translations": { "ru": "право на поступление, допуск", "en": "eligibility, qualification" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "grundlaggande-behorighet",
+      "sv": "grundläggande behörighet",
+      "translations": { "ru": "базовое право на поступление", "en": "general eligibility" },
+      "pos": "phrase",
+      "example": { "sv": "För att söka till gymnasiet behöver man ha grundläggande behörighet.", "ru": "Чтобы поступить в гимназию, нужно базовое право на поступление.", "en": "To apply to upper-secondary school, you need general eligibility." }
+    },
+    {
+      "id": "sarskild-behorighet",
+      "sv": "särskild behörighet",
+      "translations": { "ru": "особый допуск (по конкретным предметам)", "en": "specific eligibility (in particular subjects)" },
+      "pos": "phrase",
+      "example": { "sv": "Vissa program kräver också särskild behörighet i vissa ämnen.", "ru": "Некоторые программы также требуют особого допуска по определённым предметам.", "en": "Some programmes also require specific eligibility in certain subjects." }
+    },
+    {
+      "id": "behorig",
+      "sv": "behörig",
+      "translations": { "ru": "имеющий право поступить, допущенный", "en": "eligible, qualified" },
+      "pos": "adj"
+    },
+    {
+      "id": "svenska-som-andrasprak-1",
+      "sv": "Svenska som andraspråk 1",
+      "translations": { "ru": "Шведский как второй язык 1 (курс)", "en": "Swedish as a Second Language 1 (course)" },
+      "pos": "noun",
+      "example": { "sv": "Efter SVA grund kan man fortsätta med Svenska som andraspråk 1 på gymnasienivå.", "ru": "После SVA grund можно продолжить с курсом Svenska som andraspråk 1 на гимназическом уровне.", "en": "After SVA grund, you can continue with Swedish as a Second Language 1 at upper-secondary level." }
+    },
+    {
+      "id": "betygskrav",
+      "sv": "betygskrav",
+      "translations": { "ru": "требования к оценкам", "en": "grade requirement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betygskrav", "defSg": "betygskravet", "indefPl": "betygskrav", "defPl": "betygskraven" }
+    },
+    {
+      "id": "betyg",
+      "sv": "betyg",
+      "translations": { "ru": "оценка", "en": "grade" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betyg", "defSg": "betyget", "indefPl": "betyg", "defPl": "betygen" }
+    },
+    {
+      "id": "krav",
+      "sv": "krav",
+      "translations": { "ru": "требование", "en": "requirement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett krav", "defSg": "kravet", "indefPl": "krav", "defPl": "kraven" }
+    },
+    {
+      "id": "studievagledare",
+      "sv": "studievägledare",
+      "translations": { "ru": "учебный консультант", "en": "study/career counsellor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en studievägledare", "defSg": "studievägledaren", "indefPl": "studievägledare", "defPl": "studievägledarna" },
+      "example": { "sv": "Studievägledaren hjälper dig att välja rätt utbildningsprogram.", "ru": "Учебный консультант помогает выбрать правильную образовательную программу.", "en": "The study counsellor helps you choose the right study programme." }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление, заявка", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" }
+    },
+    {
+      "id": "ansoka",
+      "sv": "ansöka",
+      "translations": { "ru": "подавать заявление, подавать заявку", "en": "to apply" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ansöka", "present": "ansöker", "past": "ansökte", "supine": "ansökt" }
+    },
+    {
+      "id": "ansoka-till-gymnasiet-komvux",
+      "sv": "ansöka till gymnasiet eller komvux",
+      "translations": { "ru": "подавать заявление в гимназию или на komvux", "en": "to apply to upper-secondary school or komvux" },
+      "pos": "phrase",
+      "example": { "sv": "Du ansöker till gymnasiet eller komvux via en digital ansökan.", "ru": "Ты подаёшь заявление в гимназию или на komvux через электронную анкету.", "en": "You apply to upper-secondary school or komvux through a digital application." }
+    },
+    {
+      "id": "antagning",
+      "sv": "antagning",
+      "translations": { "ru": "приём, зачисление", "en": "admission" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en antagning", "defSg": "antagningen", "indefPl": "antagningar", "defPl": "antagningarna" }
+    },
+    {
+      "id": "sokande",
+      "sv": "sökande",
+      "translations": { "ru": "абитуриент, соискатель", "en": "applicant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sökande", "defSg": "sökanden", "indefPl": "sökande", "defPl": "sökandena" },
+      "example": { "sv": "En sökande som saknar vissa betyg kan behöva komplettera dem.", "ru": "Абитуриент, которому не хватает некоторых оценок, может их досдать.", "en": "An applicant who is missing certain grades may need to make them up." }
+    },
+    {
+      "id": "studieplan",
+      "sv": "studieplan",
+      "translations": { "ru": "учебный план", "en": "study plan" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en studieplan", "defSg": "studieplanen", "indefPl": "studieplaner", "defPl": "studieplanerna" }
+    },
+    {
+      "id": "utbildningsprogram",
+      "sv": "utbildningsprogram",
+      "translations": { "ru": "образовательная программа", "en": "study/education programme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utbildningsprogram", "defSg": "utbildningsprogrammet", "indefPl": "utbildningsprogram", "defPl": "utbildningsprogrammen" }
+    },
+    {
+      "id": "komplettera",
+      "sv": "komplettera",
+      "translations": { "ru": "досдавать, дополнять (недостающие оценки)", "en": "to supplement, to make up (missing grades)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "komplettera", "present": "kompletterar", "past": "kompletterade", "supine": "kompletterat" }
+    },
+    {
+      "id": "meritvarde",
+      "sv": "meritvärde",
+      "translations": { "ru": "конкурсный балл", "en": "merit rating, admission score" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meritvärde", "defSg": "meritvärdet", "indefPl": "meritvärden", "defPl": "meritvärdena" }
+    }
+  ]
+}

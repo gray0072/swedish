@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-3/discrimination-equality",
+  "slug": "discrimination-equality",
+  "title": {
+    "sv": "Diskriminering och jämställdhet",
+    "ru": "Дискриминация и равенство — лексика и обсуждение",
+    "en": "Discrimination and equality — vocabulary and discussion"
+  },
+  "summary": {
+    "ru": "Нейтральная лексика для разговора о дискриминации, равенстве и правах человека в Швеции.",
+    "en": "Neutral vocabulary for discussing discrimination, equality and human rights in Sweden."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "society",
+    "discrimination",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1530,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "migration",
+      "sv": "migration",
+      "translations": { "ru": "миграция", "en": "migration" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Migration innebär att människor flyttar från ett land till ett annat.", "ru": "Миграция означает, что люди переезжают из одной страны в другую.", "en": "Migration means that people move from one country to another." }
+    },
+    {
+      "id": "integration",
+      "sv": "integration",
+      "translations": { "ru": "интеграция", "en": "integration" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Integration handlar om att bli en del av samhället i det nya landet.", "ru": "Интеграция — это становление частью общества в новой стране.", "en": "Integration is about becoming part of society in the new country." }
+    },
+    {
+      "id": "mangkulturell",
+      "sv": "mångkulturell",
+      "translations": { "ru": "многокультурный", "en": "multicultural" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: mångkulturellt, мн.ч.: mångkulturella", "en": "ett-form: mångkulturellt, plural: mångkulturella" },
+      "example": { "sv": "Sverige beskrivs ofta som ett mångkulturellt samhälle.", "ru": "Швецию часто описывают как многокультурное общество.", "en": "Sweden is often described as a multicultural society." }
+    },
+    {
+      "id": "samhallsorientering",
+      "sv": "samhällsorientering",
+      "translations": { "ru": "курс общественной ориентации", "en": "civic orientation (course)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Samhällsorientering ger nyanlända grundläggande kunskap om Sverige.", "ru": "Курс общественной ориентации даёт новоприбывшим базовые знания о Швеции.", "en": "Civic orientation gives newly arrived people basic knowledge about Sweden." }
+    },
+    {
+      "id": "etablering-pa-arbetsmarknaden",
+      "sv": "etablering på arbetsmarknaden",
+      "translations": { "ru": "закрепление на рынке труда", "en": "establishment in the labour market" },
+      "pos": "phrase",
+      "example": { "sv": "Etablering på arbetsmarknaden tar ofta längre tid för nyanlända.", "ru": "Закрепление на рынке труда часто занимает больше времени у новоприбывших.", "en": "Establishment in the labour market often takes longer for newly arrived people." }
+    },
+    {
+      "id": "nyanland",
+      "sv": "nyanländ",
+      "translations": { "ru": "новоприбывший", "en": "newly arrived (person)" },
+      "pos": "adj",
+      "note": { "ru": "Часто используется как существительное: en nyanländ, de nyanlända.", "en": "Often used as a noun: en nyanländ, de nyanlända." }
+    },
+    {
+      "id": "asyl",
+      "sv": "asyl",
+      "translations": { "ru": "убежище (юридический статус)", "en": "asylum" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Efter beviljad asyl kan man ansöka om uppehållstillstånd.", "ru": "После предоставления убежища можно подать заявление на вид на жительство.", "en": "After asylum is granted, one can apply for a residence permit." }
+    },
+    {
+      "id": "uppehallstillstand",
+      "sv": "uppehållstillstånd",
+      "translations": { "ru": "вид на жительство", "en": "residence permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett uppehållstillstånd", "defSg": "uppehållstillståndet", "indefPl": "uppehållstillstånd", "defPl": "uppehållstillstånden" }
+    },
+    {
+      "id": "medborgarskap",
+      "sv": "medborgarskap",
+      "translations": { "ru": "гражданство", "en": "citizenship" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett medborgarskap", "defSg": "medborgarskapet", "indefPl": "medborgarskap", "defPl": "medborgarskapen" }
+    },
+    {
+      "id": "mangfald",
+      "sv": "mångfald",
+      "translations": { "ru": "разнообразие", "en": "diversity" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Mångfald på arbetsplatsen kan berika verksamheten.", "ru": "Разнообразие на рабочем месте может обогатить работу организации.", "en": "Diversity in the workplace can enrich an organization." }
+    },
+    {
+      "id": "kulturmote",
+      "sv": "kulturmöte",
+      "translations": { "ru": "встреча культур", "en": "cultural encounter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kulturmöte", "defSg": "kulturmötet", "indefPl": "kulturmöten", "defPl": "kulturmötena" }
+    },
+    {
+      "id": "inkludering",
+      "sv": "inkludering",
+      "translations": { "ru": "включение, инклюзия", "en": "inclusion" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "fordom",
+      "sv": "fördom",
+      "translations": { "ru": "предрассудок", "en": "prejudice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fördom", "defSg": "fördomen", "indefPl": "fördomar", "defPl": "fördomarna" }
+    },
+    {
+      "id": "jamlikhet",
+      "sv": "jämlikhet",
+      "translations": { "ru": "равенство", "en": "equality" },
+      "pos": "noun",
+      "gender": "en"
+    }
+  ]
+}

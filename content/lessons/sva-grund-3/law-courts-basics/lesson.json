@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-3/law-courts-basics",
+  "slug": "law-courts-basics",
+  "title": {
+    "sv": "Juridik och domstol: grundbegrepp",
+    "ru": "Право и суд: базовые понятия",
+    "en": "Law and the courts: the basic concepts"
+  },
+  "summary": {
+    "ru": "Базовая лексика о шведской судебной системе: суды, роли участников процесса, приговор.",
+    "en": "Basic vocabulary for the Swedish court system: the courts, the roles of the participants, the verdict."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "society",
+    "law",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1560,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

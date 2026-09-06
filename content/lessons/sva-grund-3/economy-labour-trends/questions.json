@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-economy-labour-trends-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что происходит с безработицей во время «högkonjunktur»?", "en": "What happens to unemployment during a \"högkonjunktur\"?" },
+      "choices": ["она обычно снижается / it usually falls", "она обычно растёт / it usually rises", "она не меняется / it doesn't change"],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-labour-trends-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что измеряет BNP?", "en": "What does GDP measure?" },
+      "choices": [
+        { "ru": "Стоимость всего произведённого в стране за год", "en": "The value of everything produced in the country in a year" },
+        { "ru": "Уровень безработицы", "en": "The unemployment rate" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-labour-trends-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что обычно происходит с köpkraft, когда инфляция высокая?", "en": "What usually happens to purchasing power when inflation is high?" },
+      "choices": ["Она снижается / it decreases", "Она увеличивается / it increases", "Она удваивается / it doubles"],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-labour-trends-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vid en ___ stiger arbetslösheten vanligtvis. (lågkonjunktur)" },
+      "answer": ["lågkonjunktur"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-economy-labour-trends-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Räntan ___ igen i år. (stiga, presens)" },
+      "answer": ["stiger"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-economy-labour-trends-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Arbetslösheten har ___ det senaste året. (sjunka, supinum)" },
+      "answer": ["sjunkit"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-economy-labour-trends-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Räntehöjning» означает «повышение процентной ставки».", "en": "\"Räntehöjning\" means \"an interest rate hike\"." },
+      "answer": true
+    },
+    {
+      "id": "q-economy-labour-trends-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«BNP» расшифровывается как «bruttonationalprodukt».", "en": "\"BNP\" stands for \"bruttonationalprodukt\"." },
+      "answer": true
+    },
+    {
+      "id": "q-economy-labour-trends-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Räntesänkning» обычно замедляет экономический рост.", "en": "\"Räntesänkning\" (a rate cut) usually slows economic growth." },
+      "answer": false,
+      "explanation": { "ru": "Понижение ставки обычно стимулирует рост, а замедляет его повышение ставки.", "en": "A rate cut usually stimulates growth; a rate hike is what slows it." }
+    },
+    {
+      "id": "q-economy-labour-trends-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["konjunktur", "конъюнктура, экономический цикл / the business cycle"],
+        ["branschtrend", "отраслевой тренд / industry trend"],
+        ["levnadskostnad", "стоимость жизни / cost of living"],
+        ["prognos", "прогноз / forecast"]
+      ]
+    },
+    {
+      "id": "q-economy-labour-trends-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Согласно прогнозу, ожидается, что экономический цикл развернётся в следующем году.»", "en": "Build the sentence: \"According to the forecast, the economic cycle is expected to turn around next year.\"" },
+      "tokens": ["Enligt", "prognosen", "väntas", "konjunkturen", "vända", "nästa", "år"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-economy-labour-trends-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Кто обычно комментирует branschtrender в новостях?", "en": "Who usually comments on branschtrender in the news?" },
+      "choices": ["en analytiker", "en studievägledare", "en läkare"],
+      "answer": 0
+    }
+  ]
+}

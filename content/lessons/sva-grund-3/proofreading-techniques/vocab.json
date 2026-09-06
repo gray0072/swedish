@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "interferensfel",
+      "sv": "interferensfel",
+      "translations": { "ru": "ошибка интерференции (из родного языка)", "en": "interference error (from one's native language)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett interferensfel", "defSg": "interferensfelet", "indefPl": "interferensfel", "defPl": "interferensfelen" }
+    },
+    {
+      "id": "artikel-proofreading",
+      "sv": "artikel",
+      "translations": { "ru": "артикль", "en": "article (grammatical)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" }
+    },
+    {
+      "id": "inversion",
+      "sv": "inversion",
+      "translations": { "ru": "инверсия (обратный порядок слов)", "en": "inversion (reversed word order)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" }
+    },
+    {
+      "id": "dubbel-bestamdhet",
+      "sv": "dubbel bestämdhet",
+      "translations": { "ru": "двойная определённость", "en": "double definiteness" },
+      "pos": "phrase",
+      "example": { "sv": "det stora huset", "ru": "этот большой дом", "en": "this big house" }
+    },
+    {
+      "id": "korrekturlasa",
+      "sv": "korrekturläsa",
+      "translations": { "ru": "вычитывать, проверять текст", "en": "to proofread" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" }
+    },
+    {
+      "id": "lasa-hogt",
+      "sv": "läsa högt",
+      "translations": { "ru": "читать вслух", "en": "to read aloud" },
+      "pos": "phrase"
+    },
+    {
+      "id": "konsekvent",
+      "sv": "konsekvent",
+      "translations": { "ru": "последовательный, согласованный", "en": "consistent" },
+      "pos": "adj"
+    },
+    {
+      "id": "fundament-proofreading",
+      "sv": "fundament",
+      "translations": { "ru": "фундамент (первая позиция huvudsats)", "en": "fundament (the first slot of a main clause)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+    },
+    {
+      "id": "genus",
+      "sv": "genus",
+      "translations": { "ru": "грамматический род", "en": "grammatical gender" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" }
+    },
+    {
+      "id": "huvudsats",
+      "sv": "huvudsats",
+      "translations": { "ru": "главное предложение", "en": "main clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" }
+    }
+  ]
+}

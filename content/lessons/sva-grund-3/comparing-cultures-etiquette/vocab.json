@@ -1,0 +1,171 @@
+{
+  "items": [
+    {
+      "id": "artighetsnorm",
+      "sv": "artighetsnorm",
+      "translations": { "ru": "норма вежливости", "en": "politeness norm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en artighetsnorm", "defSg": "artighetsnormen", "indefPl": "artighetsnormer", "defPl": "artighetsnormerna" }
+    },
+    {
+      "id": "halsningsfras",
+      "sv": "hälsningsfras",
+      "translations": { "ru": "фраза приветствия", "en": "greeting phrase" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hälsningsfras", "defSg": "hälsningsfrasen", "indefPl": "hälsningsfraser", "defPl": "hälsningsfraserna" },
+      "example": { "sv": "\"Hej, hur mår du?\" är en vanlig hälsningsfras.", "ru": "«Hej, hur mår du?» — обычная фраза приветствия.", "en": "\"Hej, hur mår du?\" is a common greeting phrase." }
+    },
+    {
+      "id": "personligt-utrymme",
+      "sv": "personligt utrymme",
+      "translations": { "ru": "личное пространство", "en": "personal space" },
+      "pos": "phrase",
+      "example": { "sv": "Svenskar värnar ofta om sitt personliga utrymme.", "ru": "Шведы часто заботятся о своём личном пространстве.", "en": "Swedes often value their personal space." }
+    },
+    {
+      "id": "punktlighet",
+      "sv": "punktlighet",
+      "translations": { "ru": "пунктуальность", "en": "punctuality" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Punktlighet är en viktig norm på jobbet.", "ru": "Пунктуальность — важная норма на работе.", "en": "Punctuality is an important norm at work." }
+    },
+    {
+      "id": "direkthet",
+      "sv": "direkthet",
+      "translations": { "ru": "прямота (в общении)", "en": "directness" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "En del uppfattar svensk direkthet i sakfrågor som ovänlig, men den är inte menad så.", "ru": "Некоторые воспринимают шведскую прямоту в деловых вопросах как недружелюбие, но так не задумано.", "en": "Some perceive Swedish directness in practical matters as unfriendly, but it isn't meant that way." }
+    },
+    {
+      "id": "skaka-hand",
+      "sv": "skaka hand",
+      "translations": { "ru": "пожать руку, здороваться за руку", "en": "to shake hands" },
+      "pos": "phrase",
+      "example": { "sv": "Man skakar ofta hand när man hälsar på någon för första gången.", "ru": "Часто пожимают руку, когда здороваются с кем-то в первый раз.", "en": "People often shake hands when greeting someone for the first time." }
+    },
+    {
+      "id": "halsa",
+      "sv": "hälsa",
+      "translations": { "ru": "здороваться, приветствовать", "en": "to greet" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hälsa", "present": "hälsar", "past": "hälsade", "supine": "hälsat" },
+      "example": { "sv": "Hon hälsade på alla i rummet.", "ru": "Она поздоровалась со всеми в комнате.", "en": "She greeted everyone in the room." }
+    },
+    {
+      "id": "halla-avstand",
+      "sv": "hålla avstånd",
+      "translations": { "ru": "держать дистанцию", "en": "to keep a distance" },
+      "pos": "phrase",
+      "example": { "sv": "Många svenskar håller ett visst avstånd i kön.", "ru": "Многие шведы держат определённую дистанцию в очереди.", "en": "Many Swedes keep a certain distance in a queue." }
+    },
+    {
+      "id": "vara-i-tid",
+      "sv": "vara i tid",
+      "translations": { "ru": "быть вовремя", "en": "to be on time" },
+      "pos": "phrase",
+      "example": { "sv": "Det är viktigt att vara i tid till mötet.", "ru": "Важно быть вовремя на встрече.", "en": "It's important to be on time for the meeting." }
+    },
+    {
+      "id": "komma-forsent",
+      "sv": "komma för sent",
+      "translations": { "ru": "опоздать, прийти слишком поздно", "en": "to arrive late" },
+      "pos": "phrase",
+      "example": { "sv": "Att komma för sent anses oartigt.", "ru": "Опоздать считается невежливым.", "en": "Arriving late is considered impolite." }
+    },
+    {
+      "id": "tilltala",
+      "sv": "tilltala",
+      "translations": { "ru": "обращаться к (кому-л.)", "en": "to address (someone)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tilltala", "present": "tilltalar", "past": "tilltalade", "supine": "tilltalat" },
+      "example": { "sv": "Efter du-reformen tilltalar man nästan alla med \"du\".", "ru": "После du-реформы почти ко всем обращаются на «ты».", "en": "After the du-reform, almost everyone is addressed with \"du\"." }
+    },
+    {
+      "id": "du-reformen",
+      "sv": "du-reformen",
+      "translations": { "ru": "du-реформа (переход на обращение «ты»)", "en": "the du-reform (shift to informal address)" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "artig",
+      "sv": "artig",
+      "translations": { "ru": "вежливый", "en": "polite" },
+      "pos": "adj",
+      "example": { "sv": "Det anses artigt att inte avbryta någon som pratar.", "ru": "Считается вежливым не перебивать говорящего.", "en": "It's considered polite not to interrupt someone who is speaking." }
+    },
+    {
+      "id": "respektlos",
+      "sv": "respektlös",
+      "translations": { "ru": "неуважительный, невежливый", "en": "disrespectful" },
+      "pos": "adj"
+    },
+    {
+      "id": "forvanta-sig",
+      "sv": "förvänta sig",
+      "translations": { "ru": "ожидать", "en": "to expect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förvänta sig", "present": "förväntar sig", "past": "förväntade sig", "supine": "förväntat sig" },
+      "example": { "sv": "Man förväntar sig ofta ögonkontakt när man pratar med någon.", "ru": "Часто ожидают зрительного контакта, когда разговаривают с кем-то.", "en": "People often expect eye contact when talking to someone." }
+    },
+    {
+      "id": "forvantning",
+      "sv": "förväntning",
+      "translations": { "ru": "ожидание", "en": "expectation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förväntning", "defSg": "förväntningen", "indefPl": "förväntningar", "defPl": "förväntningarna" }
+    },
+    {
+      "id": "norm",
+      "sv": "norm",
+      "translations": { "ru": "норма", "en": "norm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en norm", "defSg": "normen", "indefPl": "normer", "defPl": "normerna" }
+    },
+    {
+      "id": "kroppssprak",
+      "sv": "kroppsspråk",
+      "translations": { "ru": "язык тела", "en": "body language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kroppsspråk", "defSg": "kroppsspråket", "indefPl": "kroppsspråk", "defPl": "kroppsspråken" }
+    },
+    {
+      "id": "ogonkontakt",
+      "sv": "ögonkontakt",
+      "translations": { "ru": "зрительный контакт", "en": "eye contact" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ögonkontakt", "defSg": "ögonkontakten", "indefPl": "ögonkontakter", "defPl": "ögonkontakterna" }
+    },
+    {
+      "id": "i-jamforelse-med",
+      "sv": "i jämförelse med",
+      "translations": { "ru": "по сравнению с", "en": "in comparison with" },
+      "pos": "phrase",
+      "example": { "sv": "I jämförelse med mitt hemland är svenskar mer tystlåtna i small talk.", "ru": "По сравнению с моей родиной шведы более сдержанны в лёгкой беседе.", "en": "In comparison with my home country, Swedes are more reserved in small talk." }
+    },
+    {
+      "id": "det-anses",
+      "sv": "det anses att",
+      "translations": { "ru": "считается, что", "en": "it is considered that" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-ar-vanligt-att",
+      "sv": "det är vanligt att",
+      "translations": { "ru": "принято, обычно бывает так, что", "en": "it is common/customary to" },
+      "pos": "phrase",
+      "example": { "sv": "Det är vanligt att man värdesätter punktlighet mycket högt.", "ru": "Обычно очень высоко ценят пунктуальность.", "en": "It's common to value punctuality very highly." }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-health-prevention-text-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «förebygga»?", "en": "What does \"förebygga\" mean?" },
+      "choices": ["предотвращать / to prevent", "лечить / to treat", "заражаться / to get infected"],
+      "answer": 0
+    },
+    {
+      "id": "q-health-prevention-text-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что является примером riskfaktor согласно тексту?", "en": "What is given as an example of a riskfaktor in the text?" },
+      "choices": ["rökning", "hälsokontroll", "vaccination"],
+      "answer": 0
+    },
+    {
+      "id": "q-health-prevention-text-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Текст-инструкция о профилактике обычно описывает:", "en": "A prevention-instruction text usually describes:" },
+      "choices": [
+        { "ru": "Риск, затем рекомендацию, затем пользу", "en": "The risk, then a recommendation, then the benefit" },
+        { "ru": "Симптомы и лечение болезни", "en": "The symptoms and treatment of an illness" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-health-prevention-text-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Man bör ___ sig mot säsongsinfluensa varje höst. (vaccinera)" },
+      "answer": ["vaccinera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-health-prevention-text-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En årlig ___ kan upptäcka sjukdomar tidigt. (hälsokontroll)" },
+      "answer": ["hälsokontroll"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-health-prevention-text-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Regelbunden motion ___ risken för många sjukdomar. (minska, presens)" },
+      "answer": ["minskar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-health-prevention-text-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Tidig upptäckt räddar liv» значит «раннее выявление спасает жизни».", "en": "\"Tidig upptäckt räddar liv\" means \"early detection saves lives\"." },
+      "answer": true
+    },
+    {
+      "id": "q-health-prevention-text-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Smittsam» означает «полезный для здоровья».", "en": "\"Smittsam\" means \"healthy, good for you\"." },
+      "answer": false,
+      "explanation": { "ru": "«Smittsam» значит «заразный, инфекционный».", "en": "\"Smittsam\" means \"contagious\"." }
+    },
+    {
+      "id": "q-health-prevention-text-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["riskfaktor", "фактор риска / risk factor"],
+        ["rekommendation", "рекомендация / recommendation"],
+        ["hälsosam", "здоровый / healthy"],
+        ["undvika", "избегать / to avoid"]
+      ]
+    },
+    {
+      "id": "q-health-prevention-text-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Вакцинация, здоровое питание и регулярный медосмотр — три способа предотвратить болезнь.»", "en": "Build the sentence: \"Vaccination, healthy diet and regular health check-ups are ways to prevent illness.\"" },
+      "tokens": ["Vaccination,", "hälsosam", "kost", "och", "regelbunden", "hälsokontroll", "kan", "förebygga", "sjukdom"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-health-prevention-text-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «hälsosamma vanor»?", "en": "What does \"hälsosamma vanor\" mean?" },
+      "choices": ["здоровые привычки / healthy habits", "плохие привычки / bad habits", "медицинские анализы / medical tests"],
+      "answer": 0
+    }
+  ]
+}

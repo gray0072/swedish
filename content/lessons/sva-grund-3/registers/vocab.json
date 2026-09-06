@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "vederborande",
+      "sv": "vederbörande",
+      "translations": { "ru": "означенное/данное лицо (канцелярское)", "en": "the party in question (officialese)" },
+      "pos": "noun",
+      "note": { "ru": "Неизменяемая канцелярская форма; в нейтральном регистре — просто «personen».", "en": "An invariable officialese form; in neutral register, simply \"personen\"." }
+    },
+    {
+      "id": "person",
+      "sv": "person",
+      "translations": { "ru": "человек, лицо", "en": "person" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en person", "defSg": "personen", "indefPl": "personer", "defPl": "personerna" }
+    },
+    {
+      "id": "typ-noun",
+      "sv": "typ",
+      "translations": { "ru": "тип, чувак (разговорное)", "en": "guy, dude (colloquial)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en typ", "defSg": "typen", "indefPl": "typer", "defPl": "typerna" }
+    },
+    {
+      "id": "snubbe",
+      "sv": "snubbe",
+      "translations": { "ru": "чувак, парень (разговорное)", "en": "guy, dude (colloquial)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en snubbe", "defSg": "snubben", "indefPl": "snubbar", "defPl": "snubbarna" }
+    },
+    {
+      "id": "installa-sig",
+      "sv": "inställa sig",
+      "translations": { "ru": "явиться (официально)", "en": "to present oneself (formal)" },
+      "pos": "phrase",
+      "example": { "sv": "Vederbörande skall inställa sig senast klockan nio.", "ru": "Означенное лицо обязано явиться не позднее девяти часов.", "en": "The party in question shall present themselves no later than nine o'clock." }
+    },
+    {
+      "id": "komma-registers",
+      "sv": "komma",
+      "translations": { "ru": "приходить, прийти", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+    },
+    {
+      "id": "dyka-upp",
+      "sv": "dyka upp",
+      "translations": { "ru": "появиться, нарисоваться (разговорное)", "en": "to show up (colloquial)" },
+      "pos": "phrase",
+      "example": { "sv": "Typen ska dyka upp innan nio.", "ru": "Чувак должен нарисоваться до девяти.", "en": "The guy's gonna show up before nine." }
+    },
+    {
+      "id": "skall",
+      "sv": "skall",
+      "translations": { "ru": "должен (устаревшая/канцелярская форма от ska)", "en": "shall (archaic/officialese form of ska)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "erhalla",
+      "sv": "erhålla",
+      "translations": { "ru": "получать (формальное)", "en": "to receive, to obtain (formal)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "erhålla", "present": "erhåller", "past": "erhöll", "supine": "erhållit" }
+    },
+    {
+      "id": "fa",
+      "sv": "få",
+      "translations": { "ru": "получать (нейтральное)", "en": "to get, to receive (neutral)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" }
+    },
+    {
+      "id": "vardaglig",
+      "sv": "vardaglig",
+      "translations": { "ru": "повседневный, разговорный", "en": "everyday, colloquial" },
+      "pos": "adj"
+    },
+    {
+      "id": "formell",
+      "sv": "formell",
+      "translations": { "ru": "формальный", "en": "formal" },
+      "pos": "adj"
+    },
+    {
+      "id": "neutral-adj",
+      "sv": "neutral",
+      "translations": { "ru": "нейтральный", "en": "neutral" },
+      "pos": "adj"
+    }
+  ]
+}

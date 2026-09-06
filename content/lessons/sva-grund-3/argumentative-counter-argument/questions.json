@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-argumentative-counter-argument-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза вводит точку зрения оппонента?", "en": "Which phrase introduces the opponent's view?" },
+      "choices": ["motståndare till detta hävdar att", "sammanfattningsvis", "för det första"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-counter-argument-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза лучше всего опровергает возражение?", "en": "Which phrase best refutes an objection?" },
+      "choices": ["men det stämmer inte eftersom", "jag anser att", "för det andra"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-counter-argument-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «tillbakavisa»?", "en": "What does \"tillbakavisa\" mean?" },
+      "choices": [
+        { "ru": "опровергать", "en": "to refute" },
+        { "ru": "соглашаться", "en": "to agree" },
+        { "ru": "обобщать", "en": "to summarize" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-counter-argument-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «i själva verket»?", "en": "What does \"i själva verket\" mean?" },
+      "choices": [
+        { "ru": "на самом деле", "en": "in fact" },
+        { "ru": "во-первых", "en": "firstly" },
+        { "ru": "наконец", "en": "finally" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-counter-argument-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово ближе всего по смыслу к «dock»?", "en": "Which word is closest in meaning to \"dock\"?" },
+      "choices": ["men", "för det första", "sammanfattningsvis"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-counter-argument-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Признание и опровержение контраргумента делает текст менее убедительным.", "en": "Stating and refuting a counter-argument makes a text less convincing." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — это делает текст сильнее и честнее.", "en": "The opposite — it makes the text stronger and more honest." }
+    },
+    {
+      "id": "q-argumentative-counter-argument-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Även om» вводит уступку.", "en": "\"Även om\" introduces a concession." },
+      "answer": true
+    },
+    {
+      "id": "q-argumentative-counter-argument-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ hävdar att en kortare arbetsvecka skulle skada ekonomin. (motståndare till detta)" },
+      "answer": ["Motståndare till detta"],
+      "acceptAlso": ["motståndare till detta"]
+    },
+    {
+      "id": "q-argumentative-counter-argument-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Även om man kan invända att omställningen kostar pengar, väger fördelarna ___. (tyngre)" },
+      "answer": ["tyngre"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-argumentative-counter-argument-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Но это не так, потому что несколько исследований показывают обратное.»", "en": "Build the sentence: \"But that's not true because several studies show the opposite.\"" },
+      "tokens": ["Men", "det", "stämmer", "inte", "eftersom", "flera", "studier", "visar", "motsatsen"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-argumentative-counter-argument-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с её функцией в тексте", "en": "Match the phrase with its function in the text" },
+      "pairs": [
+        ["motståndare till detta hävdar att", "контраргумент / counter-argument"],
+        ["men det stämmer inte eftersom", "опровержение / refutation"],
+        ["även om man kan invända att", "уступка / concession"],
+        ["i själva verket", "усиление тезиса / reinforcing the point"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/quotation-formatting",
+  "slug": "quotation-formatting",
+  "title": {
+    "sv": "Citat och källhänvisning i löpande text",
+    "ru": "Оформление цитаты и ссылки на источник",
+    "en": "Formatting a quotation and a reference to a source"
+  },
+  "summary": {
+    "ru": "«Прямая речь в кавычках» и «она сказала, что...» — разные конструкции с разной пунктуацией.",
+    "en": "Direct speech in quotation marks versus reported \"she said that...\" — different constructions, different punctuation."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "writing", "punctuation", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1480,
+  "prerequisites": ["sva-grund-3/advanced-punctuation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

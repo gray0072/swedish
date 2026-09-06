@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "arbetsmiljo",
+      "sv": "arbetsmiljö",
+      "translations": { "ru": "рабочая среда, условия труда", "en": "work environment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsmiljö", "defSg": "arbetsmiljön", "indefPl": "arbetsmiljöer", "defPl": "arbetsmiljöerna" },
+      "example": { "sv": "Arbetsgivaren ansvarar för en god arbetsmiljö.", "ru": "Работодатель отвечает за хорошие условия труда.", "en": "The employer is responsible for a good work environment." }
+    },
+    {
+      "id": "arbetsmiljolagen",
+      "sv": "arbetsmiljölagen",
+      "translations": { "ru": "закон об охране труда", "en": "the Work Environment Act" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Основной шведский закон, регулирующий безопасность и здоровье на рабочем месте.", "en": "The main Swedish law regulating safety and health at the workplace." },
+      "example": { "sv": "Arbetsmiljölagen kräver att risker undersöks regelbundet.", "ru": "Закон об охране труда требует регулярной проверки рисков.", "en": "The Work Environment Act requires risks to be assessed regularly." }
+    },
+    {
+      "id": "skyddsombud",
+      "sv": "skyddsombud",
+      "translations": { "ru": "уполномоченный по охране труда", "en": "safety representative" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skyddsombud", "defSg": "skyddsombudet", "indefPl": "skyddsombud", "defPl": "skyddsombuden" },
+      "note": { "ru": "Представитель работников, избранный для контроля за безопасностью на рабочем месте.", "en": "A worker representative elected to oversee workplace safety." },
+      "example": { "sv": "Skyddsombudet kontrollerade brandutgångarna på lagret.", "ru": "Уполномоченный по охране труда проверил запасные выходы на складе.", "en": "The safety representative checked the fire exits at the warehouse." }
+    },
+    {
+      "id": "krankande-sarbehandling",
+      "sv": "kränkande särbehandling",
+      "translations": { "ru": "притеснение, унижающее обращение на рабочем месте", "en": "victimisation, offensive treatment at work" },
+      "pos": "phrase",
+      "note": { "ru": "Юридический термин: действия, направленные против одного работника и причиняющие вред его здоровью.", "en": "A legal term for actions directed at one employee that harm their health." },
+      "example": { "sv": "Kränkande särbehandling ska utredas av arbetsgivaren.", "ru": "Работодатель обязан расследовать случаи унижающего обращения.", "en": "Victimisation at work must be investigated by the employer." }
+    },
+    {
+      "id": "mobbning",
+      "sv": "mobbning",
+      "translations": { "ru": "травля, буллинг", "en": "bullying" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mobbning", "defSg": "mobbningen", "indefPl": "mobbningar", "defPl": "mobbningarna" },
+      "example": { "sv": "Mobbning på arbetsplatsen tas på stort allvar.", "ru": "Травля на рабочем месте воспринимается очень серьёзно.", "en": "Bullying at the workplace is taken very seriously." }
+    },
+    {
+      "id": "trakasserier",
+      "sv": "trakasserier",
+      "translations": { "ru": "домогательства, преследование", "en": "harassment" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hon anmälde trakasserier från en kollega.", "ru": "Она заявила о домогательствах со стороны коллеги.", "en": "She reported harassment from a colleague." }
+    },
+    {
+      "id": "konflikt",
+      "sv": "konflikt",
+      "translations": { "ru": "конфликт", "en": "conflict" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konflikt", "defSg": "konflikten", "indefPl": "konflikter", "defPl": "konflikterna" },
+      "example": { "sv": "En konflikt uppstod mellan två avdelningar.", "ru": "Между двумя отделами возник конфликт.", "en": "A conflict arose between two departments." }
+    },
+    {
+      "id": "konflikthantering",
+      "sv": "konflikthantering",
+      "translations": { "ru": "урегулирование конфликтов", "en": "conflict management" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konflikthantering", "defSg": "konflikthanteringen", "indefPl": "konflikthanteringar", "defPl": "konflikthanteringarna" },
+      "example": { "sv": "Chefen gick en kurs i konflikthantering.", "ru": "Начальник прошёл курс по урегулированию конфликтов.", "en": "The manager took a course in conflict management." }
+    },
+    {
+      "id": "medling",
+      "sv": "medling",
+      "translations": { "ru": "посредничество, медиация", "en": "mediation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medling", "defSg": "medlingen", "indefPl": "medlingar", "defPl": "medlingarna" },
+      "example": { "sv": "Parterna löste tvisten genom medling.", "ru": "Стороны разрешили спор через посредничество.", "en": "The parties resolved the dispute through mediation." }
+    },
+    {
+      "id": "whistleblowing",
+      "sv": "whistleblowing",
+      "translations": { "ru": "информирование о нарушениях, «сигнализирование»", "en": "whistleblowing" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Сообщение о серьёзных нарушениях на рабочем месте по защищённому каналу.", "en": "Reporting serious workplace wrongdoing through a protected channel." },
+      "example": { "sv": "Företaget har en kanal för whistleblowing.", "ru": "В компании есть канал для сообщений о нарушениях.", "en": "The company has a whistleblowing channel." }
+    },
+    {
+      "id": "anmala",
+      "sv": "anmäla",
+      "translations": { "ru": "заявлять, сообщать (официально)", "en": "to report (formally)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anmäla", "present": "anmäler", "past": "anmälde", "supine": "anmält" },
+      "example": { "sv": "Jag anmälde händelsen till skyddsombudet.", "ru": "Я сообщил(а) об инциденте уполномоченному по охране труда.", "en": "I reported the incident to the safety representative." }
+    },
+    {
+      "id": "utredning",
+      "sv": "utredning",
+      "translations": { "ru": "расследование, проверка", "en": "investigation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utredning", "defSg": "utredningen", "indefPl": "utredningar", "defPl": "utredningarna" },
+      "example": { "sv": "Arbetsgivaren startade en utredning direkt.", "ru": "Работодатель сразу начал расследование.", "en": "The employer started an investigation right away." }
+    },
+    {
+      "id": "arbetsmiljoverket",
+      "sv": "Arbetsmiljöverket",
+      "translations": { "ru": "Инспекция труда Швеции", "en": "the Swedish Work Environment Authority" },
+      "pos": "noun",
+      "note": { "ru": "Государственное ведомство, контролирующее соблюдение закона об охране труда.", "en": "The government agency that enforces the Work Environment Act." },
+      "example": { "sv": "Arbetsmiljöverket kan besöka en arbetsplats utan förvarning.", "ru": "Инспекция труда может посетить рабочее место без предупреждения.", "en": "The Work Environment Authority can visit a workplace without notice." }
+    },
+    {
+      "id": "stressrelaterad",
+      "sv": "stressrelaterad",
+      "translations": { "ru": "связанный со стрессом", "en": "stress-related" },
+      "pos": "adj",
+      "example": { "sv": "Stressrelaterad ohälsa ökar på många arbetsplatser.", "ru": "Связанные со стрессом заболевания растут на многих рабочих местах.", "en": "Stress-related ill health is rising at many workplaces." }
+    },
+    {
+      "id": "samarbetssvarigheter",
+      "sv": "samarbetssvårigheter",
+      "translations": { "ru": "трудности во взаимодействии, сложности в сотрудничестве", "en": "cooperation difficulties" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Teamet fick samarbetssvårigheter efter omorganisationen.", "ru": "После реорганизации у команды возникли сложности во взаимодействии.", "en": "The team developed cooperation difficulties after the reorganisation." }
+    },
+    {
+      "id": "phrase-oppen-dialog",
+      "sv": "föra en öppen dialog",
+      "translations": { "ru": "вести открытый диалог", "en": "to have an open dialogue" },
+      "pos": "phrase",
+      "example": { "sv": "Vi försöker föra en öppen dialog om problemen.", "ru": "Мы стараемся вести открытый диалог о проблемах.", "en": "We try to have an open dialogue about the problems." }
+    },
+    {
+      "id": "rehabilitering",
+      "sv": "rehabilitering",
+      "translations": { "ru": "реабилитация, восстановление на работе", "en": "rehabilitation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rehabilitering", "defSg": "rehabiliteringen", "indefPl": "rehabiliteringar", "defPl": "rehabiliteringarna" },
+      "example": { "sv": "Arbetsgivaren ska erbjuda rehabilitering vid långvarig sjukdom.", "ru": "Работодатель обязан предложить реабилитацию при длительной болезни.", "en": "The employer must offer rehabilitation in cases of long-term illness." }
+    }
+  ]
+}

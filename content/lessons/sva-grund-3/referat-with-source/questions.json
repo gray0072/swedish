@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-referat-with-source-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза даёт полную ссылку на источник в начале referat?", "en": "Which phrase gives a full source reference at the start of a referat?" },
+      "choices": ["i en artikel publicerad i [tidning] den [datum] skriver [författare] att", "det framgår av texten att", "jag tycker att"],
+      "answer": 0
+    },
+    {
+      "id": "q-referat-with-source-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза короче ссылается на уже названный источник?", "en": "Which phrase is a shorter reference to an already-named source?" },
+      "choices": ["enligt [namn]", "i en artikel publicerad i", "artikeln är hämtad från"],
+      "answer": 0
+    },
+    {
+      "id": "q-referat-with-source-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «hänvisa till»?", "en": "What does \"hänvisa till\" mean?" },
+      "choices": [
+        { "ru": "ссылаться на", "en": "to refer to" },
+        { "ru": "публиковать", "en": "to publish" },
+        { "ru": "цитировать дословно", "en": "to quote word for word" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-referat-with-source-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В referat с указанием источника можно вставлять собственное мнение автора referat.", "en": "In a referat with source citation, you can include the referat writer's own opinion." },
+      "answer": false,
+      "explanation": { "ru": "Referat остаётся нейтральным пересказом — личное мнение туда не входит.", "en": "A referat stays a neutral retelling — personal opinion has no place in it." }
+    },
+    {
+      "id": "q-referat-with-source-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Указание источника в тексте помогает избежать обвинения в плагиате.", "en": "Citing the source in the text helps avoid accusations of plagiarism." },
+      "answer": true
+    },
+    {
+      "id": "q-referat-with-source-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ Lund beror förändringen på ny teknik. (enligt)" },
+      "answer": ["Enligt"],
+      "acceptAlso": ["enligt"]
+    },
+    {
+      "id": "q-referat-with-source-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Det ___ av texten att många oroar sig för sina jobb. (framgår)" },
+      "answer": ["framgår"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-referat-with-source-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Как написано в статье, ожидается, что рабочих мест станет меньше.» (упрощённо)", "en": "Build the sentence: \"As it says in the article, more jobs are expected to disappear.\" (simplified)" },
+      "tokens": ["Som", "det", "står", "i", "artikeln", "väntas", "fler", "jobb", "försvinna"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-referat-with-source-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с её функцией", "en": "Match the phrase with its function" },
+      "pairs": [
+        ["i en artikel publicerad i", "полная ссылка / full reference"],
+        ["enligt [namn]", "короткая ссылка / short reference"],
+        ["källan uppger att", "передача содержания / reporting content"],
+        ["ange en källa", "указывать источник / citing a source"]
+      ]
+    },
+    {
+      "id": "q-referat-with-source-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «datum»?", "en": "What does \"datum\" mean?" },
+      "choices": ["дата / date", "газета / newspaper", "источник / source"],
+      "answer": 0
+    }
+  ]
+}

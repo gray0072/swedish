@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "handling-lit",
+      "sv": "handling",
+      "translations": { "ru": "сюжет, действие (в рассказе)", "en": "plot, storyline" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handling", "defSg": "handlingen", "indefPl": "handlingar", "defPl": "handlingarna" },
+      "example": { "sv": "Handlingen utspelar sig i en liten by på landet.", "ru": "Действие происходит в маленькой деревне.", "en": "The plot takes place in a small village." }
+    },
+    {
+      "id": "huvudperson",
+      "sv": "huvudperson",
+      "translations": { "ru": "главный персонаж, главный герой", "en": "main character" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudperson", "defSg": "huvudpersonen", "indefPl": "huvudpersoner", "defPl": "huvudpersonerna" },
+      "example": { "sv": "Huvudpersonen heter Elin och hon är arton år.", "ru": "Главную героиню зовут Элин, ей восемнадцать лет.", "en": "The main character is called Elin, and she's eighteen years old." }
+    },
+    {
+      "id": "bikaraktar",
+      "sv": "bikaraktär",
+      "translations": { "ru": "второстепенный персонаж", "en": "secondary character" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bikaraktär", "defSg": "bikaraktären", "indefPl": "bikaraktärer", "defPl": "bikaraktärerna" }
+    },
+    {
+      "id": "konflikt",
+      "sv": "konflikt",
+      "translations": { "ru": "конфликт", "en": "conflict" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konflikt", "defSg": "konflikten", "indefPl": "konflikter", "defPl": "konflikterna" },
+      "example": { "sv": "Konflikten handlar om att Elin måste välja mellan familjen och sina drömmar.", "ru": "Конфликт в том, что Элин должна выбирать между семьёй и мечтами.", "en": "The conflict is that Elin has to choose between her family and her dreams." }
+    },
+    {
+      "id": "vandpunkt",
+      "sv": "vändpunkt",
+      "translations": { "ru": "поворотный момент", "en": "turning point" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vändpunkt", "defSg": "vändpunkten", "indefPl": "vändpunkter", "defPl": "vändpunkterna" },
+      "example": { "sv": "Vid vändpunkten inser Elin vad hon egentligen vill.", "ru": "В поворотный момент Элин понимает, чего она на самом деле хочет.", "en": "At the turning point, Elin realizes what she really wants." }
+    },
+    {
+      "id": "berattarperspektiv",
+      "sv": "berättarperspektiv",
+      "translations": { "ru": "повествовательная перспектива, точка зрения рассказчика", "en": "narrative perspective, point of view" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett berättarperspektiv", "defSg": "berättarperspektivet", "indefPl": "berättarperspektiv", "defPl": "berättarperspektiven" },
+      "example": { "sv": "Texten är skriven ur en jag-berättares perspektiv.", "ru": "Текст написан от лица рассказчика от первого лица.", "en": "The text is written from a first-person narrator's perspective." }
+    },
+    {
+      "id": "miljobeskrivning",
+      "sv": "miljöbeskrivning",
+      "translations": { "ru": "описание обстановки, места действия", "en": "setting description" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en miljöbeskrivning", "defSg": "miljöbeskrivningen", "indefPl": "miljöbeskrivningar", "defPl": "miljöbeskrivningarna" },
+      "example": { "sv": "Miljöbeskrivningen ger en tydlig bild av byn och årstiden.", "ru": "Описание обстановки даёт чёткую картину деревни и времени года.", "en": "The setting description gives a clear picture of the village and the season." }
+    },
+    {
+      "id": "intrig",
+      "sv": "intrig",
+      "translations": { "ru": "интрига, сюжетная линия", "en": "plot, intrigue" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en intrig", "defSg": "intrigen", "indefPl": "intriger", "defPl": "intrigerna" }
+    },
+    {
+      "id": "tema",
+      "sv": "tema",
+      "translations": { "ru": "тема", "en": "theme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" }
+    },
+    {
+      "id": "budskap",
+      "sv": "budskap",
+      "translations": { "ru": "послание, идея (произведения)", "en": "message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett budskap", "defSg": "budskapet", "indefPl": "budskap", "defPl": "budskapen" }
+    },
+    {
+      "id": "jag-berattare",
+      "sv": "jag-berättare",
+      "translations": { "ru": "рассказчик от первого лица", "en": "first-person narrator" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jag-berättare", "defSg": "jag-berättaren", "indefPl": "jag-berättare", "defPl": "jag-berättarna" }
+    },
+    {
+      "id": "allvetande-berattare",
+      "sv": "allvetande berättare",
+      "translations": { "ru": "всезнающий рассказчик", "en": "omniscient narrator" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kapitel",
+      "sv": "kapitel",
+      "translations": { "ru": "глава", "en": "chapter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kapitel", "defSg": "kapitlet", "indefPl": "kapitel", "defPl": "kapitlen" }
+    },
+    {
+      "id": "dialog",
+      "sv": "dialog",
+      "translations": { "ru": "диалог", "en": "dialogue" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dialog", "defSg": "dialogen", "indefPl": "dialoger", "defPl": "dialogerna" }
+    },
+    {
+      "id": "upplosning",
+      "sv": "upplösning",
+      "translations": { "ru": "развязка", "en": "resolution, ending" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en upplösning", "defSg": "upplösningen", "indefPl": "upplösningar", "defPl": "upplösningarna" }
+    },
+    {
+      "id": "inledning",
+      "sv": "inledning",
+      "translations": { "ru": "вступление, начало", "en": "opening, introduction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inledning", "defSg": "inledningen", "indefPl": "inledningar", "defPl": "inledningarna" }
+    }
+  ]
+}

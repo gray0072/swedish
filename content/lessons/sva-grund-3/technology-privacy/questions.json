@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-technology-privacy-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «personuppgifter»?", "en": "What are \"personuppgifter\"?" },
+      "choices": ["персональные данные", "пароли", "камеры наблюдения"],
+      "answer": 0
+    },
+    {
+      "id": "q-technology-privacy-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что необходимо получить от человека перед тем, как поделиться его данными?", "en": "What must be obtained from a person before sharing their data?" },
+      "choices": ["samtycke", "kryptering", "övervakning"],
+      "answer": 0
+    },
+    {
+      "id": "q-technology-privacy-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «dataskydd»?", "en": "What does \"dataskydd\" mean?" },
+      "choices": [
+        { "ru": "защита данных", "en": "data protection" },
+        { "ru": "искусственный интеллект", "en": "artificial intelligence" },
+        { "ru": "облачный сервис", "en": "cloud service" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-technology-privacy-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Компаниям не нужно согласие людей, чтобы делиться их персональными данными.", "en": "Companies don't need people's consent to share their personal data." },
+      "answer": false,
+      "explanation": { "ru": "Обычно требуется явное согласие (samtycke).", "en": "Explicit consent (samtycke) is normally required." }
+    },
+    {
+      "id": "q-technology-privacy-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Övervakning означает то же самое, что integritet.", "en": "Övervakning means the same thing as integritet." },
+      "answer": false,
+      "explanation": { "ru": "Övervakning — слежка/наблюдение, integritet — приватность; это противоположные по смыслу понятия в этом контексте.", "en": "Övervakning is surveillance, integritet is privacy — in this context they're near-opposites." }
+    },
+    {
+      "id": "q-technology-privacy-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Använd ett starkt ___ och dela det inte med någon. (lösenord)" },
+      "answer": ["lösenord"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-technology-privacy-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Kameror används för ___ på många offentliga platser. (övervakning)" },
+      "answer": ["övervakning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-technology-privacy-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Компания собирает персональные данные, такие как имя и адрес.»", "en": "Build the sentence: \"The company collects personal data such as name and address.\"" },
+      "tokens": ["Företaget", "samlar", "in", "personuppgifter", "som", "namn", "och", "adress"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-technology-privacy-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["integritet", "приватность / privacy"],
+        ["samtycke", "согласие / consent"],
+        ["kryptering", "шифрование / encryption"],
+        ["hackare", "хакер / hacker"]
+      ]
+    },
+    {
+      "id": "q-technology-privacy-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «digitalt fotavtryck»?", "en": "What is a \"digitalt fotavtryck\"?" },
+      "choices": ["цифровой след / digital footprint", "цифровой пароль / digital password", "облачный сервис / cloud service"],
+      "answer": 0
+    }
+  ]
+}

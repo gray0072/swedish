@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/modality-certainty",
+  "slug": "modality-certainty",
+  "title": {
+    "sv": "Modalitet och grad av säkerhet: måste, borde, lär, torde, kanske",
+    "ru": "Модальность и степень уверенности: måste, borde, lär, torde, kanske",
+    "en": "Modality and degree of certainty: måste, borde, lär, torde, kanske"
+  },
+  "summary": {
+    "ru": "От «точно» до «может быть» — пять слов, которые меряют уверенность говорящего.",
+    "en": "From \"certainly\" to \"maybe\" — five words that measure the speaker's certainty."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "modal-verbs",
+    "modality",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1350,
+  "prerequisites": [
+    "sva-grund-1/modal-verbs-tenses"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

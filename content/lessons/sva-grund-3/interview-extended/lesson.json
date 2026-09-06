@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/interview-extended",
+  "slug": "interview-extended",
+  "title": {
+    "sv": "Intervjun och att presentera sig själv — den fördjupade versionen",
+    "ru": "Собеседование и самопрезентация — расширенная версия",
+    "en": "The interview and self-presentation — the extended version"
+  },
+  "summary": {
+    "ru": "Фразы для сложных вопросов на собеседовании и для встречных вопросов кандидата.",
+    "en": "Phrases for tricky interview questions and for the questions a candidate asks back."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "work",
+    "interview",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1510,
+  "prerequisites": [
+    "sfi-c/professions"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

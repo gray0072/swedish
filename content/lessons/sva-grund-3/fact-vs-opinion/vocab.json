@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "fakta",
+      "sv": "fakta",
+      "translations": { "ru": "факт(ы)", "en": "fact(s)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det är ett fakta att Sverige har 21 regioner.", "ru": "Это факт, что в Швеции 21 регион.", "en": "It is a fact that Sweden has 21 regions." }
+    },
+    {
+      "id": "asikt",
+      "sv": "åsikt",
+      "translations": { "ru": "мнение", "en": "opinion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" },
+      "example": { "sv": "Det här är bara min åsikt, inte ett faktum.", "ru": "Это всего лишь моё мнение, а не факт.", "en": "This is just my opinion, not a fact." }
+    },
+    {
+      "id": "pastaende",
+      "sv": "påstående",
+      "translations": { "ru": "утверждение", "en": "claim, statement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett påstående", "defSg": "påståendet", "indefPl": "påståenden", "defPl": "påståendena" },
+      "example": { "sv": "Kan du styrka det påståendet med en källa?", "ru": "Можешь подтвердить это утверждение источником?", "en": "Can you back up that claim with a source?" }
+    },
+    {
+      "id": "objektiv",
+      "sv": "objektiv",
+      "translations": { "ru": "объективный", "en": "objective" },
+      "pos": "adj",
+      "example": { "sv": "En objektiv text bygger på fakta, inte känslor.", "ru": "Объективный текст основан на фактах, а не на эмоциях.", "en": "An objective text is based on facts, not feelings." }
+    },
+    {
+      "id": "subjektiv",
+      "sv": "subjektiv",
+      "translations": { "ru": "субъективный", "en": "subjective" },
+      "pos": "adj",
+      "example": { "sv": "Krönikan är medvetet subjektiv.", "ru": "Колонка мнений сознательно субъективна.", "en": "The opinion column is deliberately subjective." }
+    },
+    {
+      "id": "phrase-jag-tycker",
+      "sv": "jag tycker...",
+      "translations": { "ru": "я считаю..., по-моему...", "en": "I think..., in my opinion..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag tycker att kollektivtrafiken borde vara billigare.", "ru": "Я считаю, что общественный транспорт должен быть дешевле.", "en": "I think public transport should be cheaper." }
+    },
+    {
+      "id": "phrase-enligt-min-mening",
+      "sv": "enligt min mening...",
+      "translations": { "ru": "по моему мнению...", "en": "in my opinion..." },
+      "pos": "phrase",
+      "example": { "sv": "Enligt min mening är det för dyrt att bo här.", "ru": "По моему мнению, здесь слишком дорого жить.", "en": "In my opinion, it is too expensive to live here." }
+    },
+    {
+      "id": "phrase-det-verkar-som",
+      "sv": "det verkar som...",
+      "translations": { "ru": "кажется, что...", "en": "it seems that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det verkar som att fler väljer att cykla till jobbet.", "ru": "Кажется, что всё больше людей выбирают велосипед, чтобы добраться до работы.", "en": "It seems that more people are choosing to cycle to work." }
+    },
+    {
+      "id": "phrase-uppenbarligen",
+      "sv": "uppenbarligen",
+      "translations": { "ru": "очевидно, явно (субъективная оценка)", "en": "obviously, apparently" },
+      "pos": "adv",
+      "example": { "sv": "Uppenbarligen fungerar inte den nya regeln särskilt bra.", "ru": "Очевидно, новое правило работает не очень хорошо.", "en": "Apparently, the new rule is not working very well." }
+    },
+    {
+      "id": "phrase-enligt-statistik",
+      "sv": "enligt statistiken...",
+      "translations": { "ru": "согласно статистике...", "en": "according to the statistics..." },
+      "pos": "phrase",
+      "example": { "sv": "Enligt statistiken har arbetslösheten minskat med två procent.", "ru": "Согласно статистике, безработица снизилась на два процента.", "en": "According to the statistics, unemployment has fallen by two percent." }
+    },
+    {
+      "id": "phrase-siffrorna-visar",
+      "sv": "siffrorna visar att...",
+      "translations": { "ru": "цифры показывают, что...", "en": "the figures show that..." },
+      "pos": "phrase",
+      "example": { "sv": "Siffrorna visar att fler bostäder har byggts i år.", "ru": "Цифры показывают, что в этом году построено больше жилья.", "en": "The figures show that more homes have been built this year." }
+    },
+    {
+      "id": "bevis",
+      "sv": "bevis",
+      "translations": { "ru": "доказательство", "en": "evidence, proof" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bevis", "defSg": "beviset", "indefPl": "bevis", "defPl": "bevisen" },
+      "example": { "sv": "Det finns inga bevis för det påståendet.", "ru": "Для этого утверждения нет доказательств.", "en": "There is no evidence for that claim." }
+    },
+    {
+      "id": "styrka-ett-pastaende",
+      "sv": "styrka ett påstående",
+      "translations": { "ru": "подтвердить утверждение (доказательствами)", "en": "to support a claim (with evidence)" },
+      "pos": "verb",
+      "forms": { "infinitive": "styrka ett påstående", "present": "styrker ett påstående", "past": "styrkte ett påstående", "supine": "styrkt ett påstående" },
+      "example": { "sv": "Rapporten styrker påståendet med tydliga siffror.", "ru": "Отчёт подтверждает утверждение чёткими цифрами.", "en": "The report supports the claim with clear figures." }
+    },
+    {
+      "id": "dra-en-slutsats",
+      "sv": "dra en slutsats",
+      "translations": { "ru": "делать вывод", "en": "to draw a conclusion" },
+      "pos": "verb",
+      "forms": { "infinitive": "dra en slutsats", "present": "drar en slutsats", "past": "drog en slutsats", "supine": "dragit en slutsats" },
+      "example": { "sv": "Av statistiken kan man dra en slutsats om trenden.", "ru": "На основе статистики можно сделать вывод о тенденции.", "en": "From the statistics, one can draw a conclusion about the trend." }
+    },
+    {
+      "id": "phrase-tva-meningar-jamforelse",
+      "sv": "Bussen var 20 minuter försenad idag. / Jag tycker att bussarna alltid är sena.",
+      "translations": { "ru": "«Автобус сегодня опоздал на 20 минут» (факт) / «По-моему, автобусы всегда опаздывают» (мнение)", "en": "\"The bus was 20 minutes late today\" (fact) / \"I think the buses are always late\" (opinion)" },
+      "pos": "phrase",
+      "note": { "ru": "Первое предложение можно проверить (конкретное время и дата), второе — это обобщённая личная оценка.", "en": "The first sentence can be checked (a specific time and date); the second is a generalised personal judgement." },
+      "example": { "sv": "Bussen var 20 minuter försenad idag enligt tidtabellen.", "ru": "Согласно расписанию, автобус сегодня опоздал на 20 минут.", "en": "According to the timetable, the bus was 20 minutes late today." }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/insurance-claims",
+  "slug": "insurance-claims",
+  "title": {
+    "sv": "Försäkringar: typer, avtal, skadeanmälan",
+    "ru": "Страхование: типы, договор, страховой случай",
+    "en": "Insurance: types, the contract, making a claim"
+  },
+  "summary": {
+    "ru": "Лексика для разговора о видах страхования, условиях договора и подаче заявления о страховом случае.",
+    "en": "Vocabulary for discussing types of insurance, contract terms and filing an insurance claim."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "money",
+    "insurance",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1570,
+  "prerequisites": [
+    "sva-grund-2/savings-credit-insurance"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

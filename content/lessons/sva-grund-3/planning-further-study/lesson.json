@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/planning-further-study",
+  "slug": "planning-further-study",
+  "title": {
+    "sv": "Planera fortsatta studier: gymnasienivå, SVA 1",
+    "ru": "Планирование учёбы дальше: гимназический уровень, SVA 1",
+    "en": "Planning further study: upper-secondary level, SVA 1"
+  },
+  "summary": {
+    "ru": "Слова для планирования учёбы дальше: gymnasienivå, behörighet, Svenska som andraspråk 1, betygskrav, studievägledare, заявление на гимназию/komvux.",
+    "en": "Vocabulary for planning further study: gymnasienivå, behörighet, Svenska som andraspråk 1, betygskrav, studievägledare, applying to upper-secondary school/komvux."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["studies", "gymnasium", "komvux", "vocab"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1750,
+  "prerequisites": ["sva-grund-1/studying-komvux"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

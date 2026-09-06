@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "undra",
+      "sv": "undra",
+      "translations": { "ru": "интересоваться, спрашивать себя", "en": "to wonder" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "undra", "present": "undrar", "past": "undrade", "supine": "undrat" },
+      "example": { "sv": "Läraren undrade om eleven visste svaret.", "ru": "Учитель спросил себя, знает ли ученик ответ.", "en": "The teacher wondered whether the student knew the answer." }
+    },
+    {
+      "id": "tro",
+      "sv": "tro",
+      "translations": { "ru": "думать, полагать", "en": "to think, believe" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" }
+    },
+    {
+      "id": "hoppas",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." }
+    },
+    {
+      "id": "lova",
+      "sv": "lova",
+      "translations": { "ru": "обещать", "en": "to promise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lova", "present": "lovar", "past": "lovade", "supine": "lovat" },
+      "example": { "sv": "Han hade lovat att komma.", "ru": "Он обещал прийти.", "en": "He had promised to come." }
+    },
+    {
+      "id": "flytta",
+      "sv": "flytta",
+      "translations": { "ru": "переносить, переезжать", "en": "to move" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Provet var flyttat till fredag.", "ru": "Экзамен был перенесён на пятницу.", "en": "The test had been moved to Friday." }
+    },
+    {
+      "id": "prov",
+      "sv": "prov",
+      "translations": { "ru": "экзамен, контрольная", "en": "test, exam" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "prov", "defSg": "provet", "indefPl": "prov", "defPl": "proven" }
+    },
+    {
+      "id": "sjuk",
+      "sv": "sjuk",
+      "translations": { "ru": "больной", "en": "sick" },
+      "pos": "adj"
+    },
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "because, since" },
+      "pos": "conjunction",
+      "note": { "ru": "Вводит придаточное причины, требует BIFF-порядка слов.", "en": "Introduces a reason clause; triggers BIFF word order." }
+    },
+    {
+      "id": "faestaen",
+      "sv": "fastän",
+      "translations": { "ru": "хотя", "en": "although, even though" },
+      "pos": "conjunction",
+      "note": { "ru": "Вводит уступительное придаточное.", "en": "Introduces a concessive clause." }
+    },
+    {
+      "id": "varfoer",
+      "sv": "varför",
+      "translations": { "ru": "почему", "en": "why" },
+      "pos": "adv"
+    },
+    {
+      "id": "om-conj",
+      "sv": "om",
+      "translations": { "ru": "ли (в косвенном вопросе)", "en": "whether, if" },
+      "pos": "conjunction",
+      "note": { "ru": "Вводит придаточное типа да/нет-вопроса.", "en": "Introduces a yes/no-question clause." }
+    },
+    {
+      "id": "medan",
+      "sv": "medan",
+      "translations": { "ru": "пока, в то время как", "en": "while" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "laerare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" }
+    },
+    {
+      "id": "elev",
+      "sv": "elev",
+      "translations": { "ru": "ученик", "en": "pupil, student" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" }
+    }
+  ]
+}

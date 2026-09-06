@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-comparing-cultures-etiquette-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «punktlighet»?", "en": "What does \"punktlighet\" mean?" },
+      "choices": ["пунктуальность / punctuality", "прямота / directness", "вежливость / politeness"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза значит «по сравнению с»?", "en": "Which phrase means \"in comparison with\"?" },
+      "choices": ["i jämförelse med", "det anses att", "hålla avstånd"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что случилось после du-reformen?", "en": "What happened after the du-reform?" },
+      "choices": [
+        { "ru": "Почти всех стали называть на «ты»", "en": "Almost everyone started being addressed with \"du\"" },
+        { "ru": "Появились новые праздники", "en": "New holidays were introduced" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Man skakar ofta ___ när man hälsar på någon. (hand)" },
+      "answer": ["hand"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Att komma för ___ anses oartigt. (sent)" },
+      "answer": ["sent"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Считается вежливым не перебивать говорящего.", "en": "It is considered polite not to interrupt someone who is speaking." },
+      "answer": true
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Respektlös» означает «очень вежливый».", "en": "\"Respektlös\" means \"very polite\"." },
+      "answer": false,
+      "explanation": { "ru": "«Respektlös» значит «неуважительный, невежливый».", "en": "\"Respektlös\" means \"disrespectful\"." }
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["förväntning", "ожидание / expectation"],
+        ["kroppsspråk", "язык тела / body language"],
+        ["ögonkontakt", "зрительный контакт / eye contact"],
+        ["norm", "норма / norm"]
+      ]
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Обычно очень ценят пунктуальность.»", "en": "Build the sentence: \"It's common to value punctuality very highly.\"" },
+      "tokens": ["Det", "är", "vanligt", "att", "man", "värdesätter", "punktlighet", "mycket", "högt"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово описывает прямоту в общении?", "en": "Which word describes directness in communication?" },
+      "choices": ["direkthet", "artighetsnorm", "hälsningsfras"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Man förväntar sig ofta ___ när man pratar med någon. (ögonkontakt)" },
+      "answer": ["ögonkontakt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparing-cultures-etiquette-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Hålla avstånd» значит «держать дистанцию».", "en": "\"Hålla avstånd\" means \"to keep a distance\"." },
+      "answer": true
+    }
+  ]
+}

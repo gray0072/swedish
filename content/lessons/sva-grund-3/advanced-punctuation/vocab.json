@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "kolon",
+      "sv": "kolon",
+      "translations": { "ru": "двоеточие", "en": "colon" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kolon", "defSg": "kolonet", "indefPl": "kolon", "defPl": "kolonen" }
+    },
+    {
+      "id": "tankstreck",
+      "sv": "tankstreck",
+      "translations": { "ru": "тире", "en": "dash" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tankstreck", "defSg": "tankstrecket", "indefPl": "tankstreck", "defPl": "tankstrecken" },
+      "example": { "sv": "Mötet – som varade i tre timmar – gav inga resultat.", "ru": "Встреча, которая длилась три часа, не дала результатов.", "en": "The meeting, which lasted three hours, gave no results." }
+    },
+    {
+      "id": "bindestreck",
+      "sv": "bindestreck",
+      "translations": { "ru": "дефис", "en": "hyphen" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bindestreck", "defSg": "bindestrecket", "indefPl": "bindestreck", "defPl": "bindestrecken" },
+      "note": { "ru": "Короткий, без пробелов — не путать с tankstreck.", "en": "Short, no spaces — not to be confused with tankstreck." }
+    },
+    {
+      "id": "citattecken",
+      "sv": "citattecken",
+      "translations": { "ru": "кавычки", "en": "quotation marks" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett citattecken", "defSg": "citattecknet", "indefPl": "citattecken", "defPl": "citattecknen" },
+      "note": { "ru": "В шведском одинаковый символ ” и в начале, и в конце цитаты.", "en": "Swedish uses the same character ” for both the opening and closing mark." }
+    },
+    {
+      "id": "kommatecken",
+      "sv": "kommatecken",
+      "translations": { "ru": "запятая (знак)", "en": "comma (the mark)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kommatecken", "defSg": "kommatecknet", "indefPl": "kommatecken", "defPl": "kommatecknen" }
+    },
+    {
+      "id": "begransande-bisats",
+      "sv": "begränsande bisats",
+      "translations": { "ru": "ограничительное придаточное предложение", "en": "restrictive relative clause" },
+      "pos": "phrase",
+      "example": { "sv": "Boken som jag läser är bra.", "ru": "Книга, которую я читаю, хорошая.", "en": "The book I'm reading is good." }
+    },
+    {
+      "id": "tillagg",
+      "sv": "tillägg",
+      "translations": { "ru": "дополнение, необязательное уточнение", "en": "addition, non-essential extra remark" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tillägg", "defSg": "tillägget", "indefPl": "tillägg", "defPl": "tilläggen" },
+      "example": { "sv": "Min bror, som bor i Malmö, är lärare.", "ru": "Мой брат, который живёт в Мальмё, — учитель.", "en": "My brother, who lives in Malmö, is a teacher." }
+    },
+    {
+      "id": "direkt-tal",
+      "sv": "direkt tal",
+      "translations": { "ru": "прямая речь", "en": "direct speech" },
+      "pos": "phrase"
+    },
+    {
+      "id": "replik",
+      "sv": "replik",
+      "translations": { "ru": "реплика, фраза (в диалоге)", "en": "a line (of dialogue), a remark" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en replik", "defSg": "repliken", "indefPl": "repliker", "defPl": "replikerna" }
+    },
+    {
+      "id": "intervall",
+      "sv": "intervall",
+      "translations": { "ru": "интервал, диапазон", "en": "interval, range" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett intervall", "defSg": "intervallet", "indefPl": "intervall", "defPl": "intervallen" },
+      "example": { "sv": "Öppet 10–18.", "ru": "Открыто с 10 до 18.", "en": "Open 10 to 18." }
+    }
+  ]
+}

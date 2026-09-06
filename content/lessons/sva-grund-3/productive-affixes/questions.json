@@ -1,0 +1,95 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-productive-affixes-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "От какого слова образован «konstnär»?", "en": "What word is \"konstnär\" formed from?" },
+      "choices": ["konst (существительное)", "konsta (несуществующий глагол)", "konstig (прилагательное)"],
+      "answer": 0
+    },
+    {
+      "id": "q-productive-affixes-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "«Läsare» образован от глагола «läsa» с помощью какого суффикса?", "en": "\"Läsare\" is formed from the verb \"läsa\" using which suffix?" },
+      "choices": ["-are", "-når", "-är"],
+      "answer": 0
+    },
+    {
+      "id": "q-productive-affixes-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "-are — открытая, продуктивная модель, применимая почти к любому глаголу.", "en": "-are is an open, productive pattern that applies to almost any verb." },
+      "answer": true
+    },
+    {
+      "id": "q-productive-affixes-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "-når/-är — такая же продуктивная модель, как -are, и новое слово по ней легко образовать самому.", "en": "-når/-är is just as productive a pattern as -are, and you can easily coin a new word with it yourself." },
+      "answer": false,
+      "explanation": { "ru": "-når/-är — закрытая группа; такие слова нужно запоминать готовыми.", "en": "-når/-är is a closed group; such words have to be memorised ready-made." }
+    },
+    {
+      "id": "q-productive-affixes-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "miljon → en ___ (человек с миллионом)" },
+      "answer": ["miljonär"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-productive-affixes-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "simma → en ___ (тот, кто плавает)" },
+      "answer": ["simmare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-productive-affixes-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь основу с образованным от неё словом", "en": "Match the base word with what's formed from it" },
+      "pairs": [
+        ["springa", "springare"],
+        ["sälja", "säljare"],
+        ["tull", "tullnär"],
+        ["revolution", "revolutionär"]
+      ]
+    },
+    {
+      "id": "q-productive-affixes-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое из слов образовано отыменно (denominal), а не от глагола?", "en": "Which word is a denominal formation, not formed from a verb?" },
+      "choices": ["tullnär", "springare", "säljare", "läsare"],
+      "answer": 0
+    },
+    {
+      "id": "q-productive-affixes-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какое из слов образовано отглагольно (deverbal)?", "en": "Which word is a deverbal formation?" },
+      "choices": ["simmare", "konstnär", "miljonär", "revolutionär"],
+      "answer": 0
+    },
+    {
+      "id": "q-productive-affixes-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Художник продал картину коллекционеру.»", "en": "Build the sentence: \"The artist sold the painting to a collector.\"" },
+      "tokens": ["Konstnären", "sålde", "tavlan", "till", "en", "samlare"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-productive-affixes-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Miljonär» и «revolutionär» — оба образованы от существительных с помощью суффикса -är.", "en": "\"Miljonär\" and \"revolutionär\" are both formed from nouns using the suffix -är." },
+      "answer": true
+    },
+    {
+      "id": "q-productive-affixes-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "konst → en ___ (человек искусства)" },
+      "answer": ["konstnär"],
+      "acceptAlso": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/technology-privacy",
+  "slug": "technology-privacy",
+  "title": {
+    "sv": "Teknik och integritet: data, övervakning, AI",
+    "ru": "Технологии и приватность: данные, слежка, ИИ",
+    "en": "Technology and privacy: data, surveillance, AI"
+  },
+  "summary": {
+    "ru": "Слова для обсуждения технологий и приватности: personuppgifter, integritet, övervakning, artificiell intelligens, dataskydd, samtycke.",
+    "en": "Vocabulary for discussing technology and privacy: personuppgifter, integritet, övervakning, artificiell intelligens, dataskydd, samtycke."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["vocab", "technology", "society"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1680,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

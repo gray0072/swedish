@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "id": "forebygga",
+      "sv": "förebygga",
+      "translations": { "ru": "предотвращать, предупреждать", "en": "to prevent" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "förebygga", "present": "förebygger", "past": "förebyggde", "supine": "förebyggt" },
+      "example": { "sv": "Vaccination kan förebygga flera allvarliga sjukdomar.", "ru": "Вакцинация может предотвратить несколько серьёзных заболеваний.", "en": "Vaccination can prevent several serious illnesses." }
+    },
+    {
+      "id": "forebyggande",
+      "sv": "förebyggande",
+      "translations": { "ru": "профилактический, превентивный", "en": "preventive" },
+      "pos": "adj",
+      "example": { "sv": "Förebyggande vård minskar behovet av behandling senare.", "ru": "Профилактическая помощь снижает потребность в лечении позже.", "en": "Preventive care reduces the need for treatment later." }
+    },
+    {
+      "id": "riskfaktor",
+      "sv": "riskfaktor",
+      "translations": { "ru": "фактор риска", "en": "risk factor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en riskfaktor", "defSg": "riskfaktorn", "indefPl": "riskfaktorer", "defPl": "riskfaktorerna" },
+      "example": { "sv": "Rökning är en välkänd riskfaktor för hjärt- och kärlsjukdomar.", "ru": "Курение — хорошо известный фактор риска сердечно-сосудистых заболеваний.", "en": "Smoking is a well-known risk factor for cardiovascular disease." }
+    },
+    {
+      "id": "risk-health",
+      "sv": "risk",
+      "translations": { "ru": "риск", "en": "risk" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en risk", "defSg": "risken", "indefPl": "risker", "defPl": "riskerna" }
+    },
+    {
+      "id": "halsosam",
+      "sv": "hälsosam",
+      "translations": { "ru": "здоровый, полезный для здоровья", "en": "healthy" },
+      "pos": "adj"
+    },
+    {
+      "id": "vana",
+      "sv": "vana",
+      "translations": { "ru": "привычка", "en": "habit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vana", "defSg": "vanan", "indefPl": "vanor", "defPl": "vanorna" }
+    },
+    {
+      "id": "halsosamma-vanor",
+      "sv": "hälsosamma vanor",
+      "translations": { "ru": "здоровые привычки", "en": "healthy habits" },
+      "pos": "phrase",
+      "example": { "sv": "Hälsosamma vanor, som bra kost och tillräckligt med sömn, är grunden för att må bra.", "ru": "Здоровые привычки, такие как хорошее питание и достаточный сон, — основа хорошего самочувствия.", "en": "Healthy habits, such as good diet and enough sleep, are the basis for feeling well." }
+    },
+    {
+      "id": "vaccination",
+      "sv": "vaccination",
+      "translations": { "ru": "вакцинация, прививка", "en": "vaccination" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vaccination", "defSg": "vaccinationen", "indefPl": "vaccinationer", "defPl": "vaccinationerna" }
+    },
+    {
+      "id": "vaccinera-sig",
+      "sv": "vaccinera sig",
+      "translations": { "ru": "прививаться", "en": "to get vaccinated" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vaccinera sig", "present": "vaccinerar sig", "past": "vaccinerade sig", "supine": "vaccinerat sig" },
+      "example": { "sv": "Man bör vaccinera sig mot säsongsinfluensa varje höst.", "ru": "Рекомендуется прививаться от сезонного гриппа каждую осень.", "en": "You should get vaccinated against seasonal flu every autumn." }
+    },
+    {
+      "id": "halsokontroll",
+      "sv": "hälsokontroll",
+      "translations": { "ru": "медицинский осмотр, диспансеризация", "en": "health check-up" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hälsokontroll", "defSg": "hälsokontrollen", "indefPl": "hälsokontroller", "defPl": "hälsokontrollerna" },
+      "example": { "sv": "En årlig hälsokontroll kan upptäcka sjukdomar tidigt.", "ru": "Ежегодный медосмотр может выявить заболевания на ранней стадии.", "en": "An annual health check-up can catch illnesses early." }
+    },
+    {
+      "id": "rekommendation",
+      "sv": "rekommendation",
+      "translations": { "ru": "рекомендация", "en": "recommendation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rekommendation", "defSg": "rekommendationen", "indefPl": "rekommendationer", "defPl": "rekommendationerna" }
+    },
+    {
+      "id": "rekommendera",
+      "sv": "rekommendera",
+      "translations": { "ru": "рекомендовать", "en": "to recommend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rekommendera", "present": "rekommenderar", "past": "rekommenderade", "supine": "rekommenderat" },
+      "example": { "sv": "Det rekommenderas att undvika för mycket stress i vardagen.", "ru": "Рекомендуется избегать слишком большого стресса в повседневной жизни.", "en": "It's recommended to avoid too much stress in everyday life." }
+    },
+    {
+      "id": "sjukdom",
+      "sv": "sjukdom",
+      "translations": { "ru": "болезнь, заболевание", "en": "illness, disease" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjukdom", "defSg": "sjukdomen", "indefPl": "sjukdomar", "defPl": "sjukdomarna" }
+    },
+    {
+      "id": "smittsam",
+      "sv": "smittsam",
+      "translations": { "ru": "заразный, инфекционный", "en": "contagious" },
+      "pos": "adj"
+    },
+    {
+      "id": "motion-health",
+      "sv": "motion",
+      "translations": { "ru": "физическая активность, физкультура", "en": "physical exercise" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Regelbunden motion minskar risken för många sjukdomar.", "ru": "Регулярная физическая активность снижает риск многих заболеваний.", "en": "Regular exercise reduces the risk of many illnesses." }
+    },
+    {
+      "id": "kost",
+      "sv": "kost",
+      "translations": { "ru": "питание, диета", "en": "diet" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "stress-health",
+      "sv": "stress",
+      "translations": { "ru": "стресс", "en": "stress" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "undvika",
+      "sv": "undvika",
+      "translations": { "ru": "избегать", "en": "to avoid" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "undvika", "present": "undviker", "past": "undvek", "supine": "undvikit" }
+    },
+    {
+      "id": "minska-risken-for",
+      "sv": "minska risken för",
+      "translations": { "ru": "снижать риск (чего-л.)", "en": "to reduce the risk of" },
+      "pos": "phrase"
+    },
+    {
+      "id": "tidig-upptackt",
+      "sv": "tidig upptäckt",
+      "translations": { "ru": "раннее выявление", "en": "early detection" },
+      "pos": "phrase",
+      "example": { "sv": "Tidig upptäckt räddar liv.", "ru": "Раннее выявление спасает жизни.", "en": "Early detection saves lives." }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/comparing-cultures-etiquette",
+  "slug": "comparing-cultures-etiquette",
+  "title": {
+    "sv": "Jämföra kulturer: seder, etikett, förväntningar",
+    "ru": "Сравнение культур: обычаи, этикет, ожидания",
+    "en": "Comparing cultures: customs, etiquette, expectations"
+  },
+  "summary": {
+    "ru": "Лексика повседневного этикета — приветствия, личное пространство, пунктуальность, прямота — и новые фразы для сравнения социальных ожиданий.",
+    "en": "Everyday etiquette vocabulary — greetings, personal space, punctuality, directness — plus new phrases for comparing social expectations."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["culture", "etiquette", "comparison", "vocab"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1710,
+  "prerequisites": ["sva-grund-2/holidays-culture-comparison"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

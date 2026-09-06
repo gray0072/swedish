@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "id": "konsumentratt",
+      "sv": "konsumenträtt",
+      "translations": { "ru": "право потребителя, потребительское право", "en": "consumer rights, consumer law" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsumenträtt", "defSg": "konsumenträtten", "indefPl": "konsumenträtter", "defPl": "konsumenträtterna" },
+      "example": { "sv": "Konsumenträtten skyddar dig som köper varor och tjänster.", "ru": "Потребительское право защищает тебя как покупателя товаров и услуг.", "en": "Consumer law protects you as someone who buys goods and services." }
+    },
+    {
+      "id": "konsument",
+      "sv": "konsument",
+      "translations": { "ru": "потребитель", "en": "consumer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsument", "defSg": "konsumenten", "indefPl": "konsumenter", "defPl": "konsumenterna" },
+      "example": { "sv": "Som konsument har du rätt att reklamera en trasig vara.", "ru": "Как потребитель, ты имеешь право предъявить претензию на бракованный товар.", "en": "As a consumer, you have the right to make a complaint about a faulty item." }
+    },
+    {
+      "id": "naringsidkare",
+      "sv": "näringsidkare",
+      "translations": { "ru": "предприниматель, продавец (юридический термин)", "en": "trader, business (legal term)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en näringsidkare", "defSg": "näringsidkaren", "indefPl": "näringsidkare", "defPl": "näringsidkarna" },
+      "example": { "sv": "Tvisten stod mellan en konsument och en näringsidkare.", "ru": "Спор был между потребителем и предпринимателем.", "en": "The dispute was between a consumer and a trader." }
+    },
+    {
+      "id": "reklamationsratt",
+      "sv": "reklamationsrätt",
+      "translations": { "ru": "право на рекламацию", "en": "right to make a complaint" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reklamationsrätt", "defSg": "reklamationsrätten", "indefPl": "reklamationsrätter", "defPl": "reklamationsrätterna" },
+      "example": { "sv": "Reklamationsrätten gäller i upp till tre år.", "ru": "Право на рекламацию действует до трёх лет.", "en": "The right to make a complaint applies for up to three years." }
+    },
+    {
+      "id": "reklamera",
+      "sv": "reklamera",
+      "translations": { "ru": "предъявить претензию, подать рекламацию", "en": "to make a complaint (about a purchase)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" },
+      "example": { "sv": "Jag reklamerade tvättmaskinen efter en månad.", "ru": "Я подал(а) рекламацию на стиральную машину через месяц.", "en": "I made a complaint about the washing machine after a month." }
+    },
+    {
+      "id": "garanti",
+      "sv": "garanti",
+      "translations": { "ru": "гарантия", "en": "warranty, guarantee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en garanti", "defSg": "garantin", "indefPl": "garantier", "defPl": "garantierna" },
+      "example": { "sv": "Produkten har två års garanti.", "ru": "На товар два года гарантии.", "en": "The product has a two-year warranty." }
+    },
+    {
+      "id": "oppet-kop",
+      "sv": "öppet köp",
+      "translations": { "ru": "право на возврат товара по собственному усмотрению", "en": "open purchase (right to return goods)" },
+      "pos": "phrase",
+      "note": { "ru": "Не гарантировано законом, а зависит от условий конкретного магазина.", "en": "Not guaranteed by law — it depends on the individual store's own policy." },
+      "example": { "sv": "Butiken erbjuder öppet köp i 30 dagar.", "ru": "Магазин предлагает право возврата в течение 30 дней.", "en": "The store offers an open-purchase return policy for 30 days." }
+    },
+    {
+      "id": "angerratt",
+      "sv": "ångerrätt",
+      "translations": { "ru": "право на отказ от покупки (при дистанционной торговле)", "en": "right of withdrawal (for distance and online purchases)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ångerrätt", "defSg": "ångerrätten", "indefPl": "ångerrätter", "defPl": "ångerrätterna" },
+      "note": { "ru": "Законное право отказаться от покупки, сделанной онлайн или по телефону, обычно в течение 14 дней.", "en": "The legal right to cancel a purchase made online or by phone, usually within 14 days." },
+      "example": { "sv": "Ångerrätten gäller i 14 dagar vid köp på nätet.", "ru": "Право на отказ от покупки действует 14 дней при онлайн-покупках.", "en": "The right of withdrawal applies for 14 days for online purchases." }
+    },
+    {
+      "id": "tvist",
+      "sv": "tvist",
+      "translations": { "ru": "спор, тяжба", "en": "dispute" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tvist", "defSg": "tvisten", "indefPl": "tvister", "defPl": "tvisterna" },
+      "example": { "sv": "Tvisten handlade om en trasig soffa.", "ru": "Спор был связан со сломанным диваном.", "en": "The dispute was about a broken sofa." }
+    },
+    {
+      "id": "arn",
+      "sv": "ARN (Allmänna reklamationsnämnden)",
+      "translations": { "ru": "Государственное бюро по разрешению потребительских споров", "en": "the National Board for Consumer Disputes" },
+      "pos": "noun",
+      "note": { "ru": "Государственный орган, который бесплатно рассматривает споры между потребителями и продавцами.", "en": "A government body that reviews disputes between consumers and traders free of charge." },
+      "example": { "sv": "Om butiken inte svarar kan du anmäla ärendet till ARN.", "ru": "Если магазин не отвечает, можно подать заявление в ARN.", "en": "If the store does not respond, you can take the case to ARN." }
+    },
+    {
+      "id": "anmala-arende",
+      "sv": "anmäla ett ärende",
+      "translations": { "ru": "подать заявление по делу, зарегистрировать обращение", "en": "to file a case" },
+      "pos": "phrase",
+      "example": { "sv": "Det är gratis att anmäla ett ärende till ARN.", "ru": "Подать заявление в ARN бесплатно.", "en": "Filing a case with ARN is free of charge." }
+    },
+    {
+      "id": "tvistlosning",
+      "sv": "tvistlösning",
+      "translations": { "ru": "разрешение спора", "en": "dispute resolution" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "ARN erbjuder en enkel form av tvistlösning utan domstol.", "ru": "ARN предлагает простую форму разрешения спора без суда.", "en": "ARN offers a simple form of dispute resolution without going to court." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек, квитанция", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Spara alltid kvittot om du behöver reklamera senare.", "ru": "Всегда сохраняй чек на случай, если понадобится подать рекламацию.", "en": "Always keep the receipt in case you need to make a complaint later." }
+    },
+    {
+      "id": "bevisborda",
+      "sv": "bevisbörda",
+      "translations": { "ru": "бремя доказывания", "en": "burden of proof" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "В течение первых двух лет после покупки бремя доказывания того, что дефект не заводской, обычно лежит на продавце.", "en": "Within the first two years after purchase, the burden of proving a defect is not the seller's fault usually lies with the seller." },
+      "example": { "sv": "Bevisbördan ligger ofta på säljaren de första två åren.", "ru": "Бремя доказывания часто лежит на продавце первые два года.", "en": "The burden of proof often lies with the seller for the first two years." }
+    },
+    {
+      "id": "rekommendation",
+      "sv": "rekommendation",
+      "translations": { "ru": "рекомендация (решение ARN не обязательно к исполнению)", "en": "recommendation (ARN's decision is not legally binding)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rekommendation", "defSg": "rekommendationen", "indefPl": "rekommendationer", "defPl": "rekommendationerna" },
+      "example": { "sv": "ARN:s beslut är en rekommendation, inte en dom.", "ru": "Решение ARN — это рекомендация, а не судебный приговор.", "en": "ARN's decision is a recommendation, not a court verdict." }
+    }
+  ]
+}

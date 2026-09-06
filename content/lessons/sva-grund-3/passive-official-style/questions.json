@@ -1,0 +1,110 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-passive-official-style-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая форма типична для табличек, инструкций и объявлений в Швеции?", "en": "Which form is typical of Swedish signs, instructions, and notices?" },
+      "choices": ["Актив с «vi»/«man»", "-s-пассив", "bli-пассив", "Императив во множественном числе"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-official-style-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Почему «Dörrarna stängs automatiskt» звучит более официально, чем «Vi stänger dörrarna»?", "en": "Why does \"Dörrarna stängs automatiskt\" sound more official than \"Vi stänger dörrarna\"?" },
+      "choices": [
+        { "ru": "Потому что -s-пассив убирает конкретного деятеля и звучит как безличное правило", "en": "Because the -s-passive removes the specific agent and sounds like an impersonal rule" },
+        { "ru": "Потому что оно короче", "en": "Because it's shorter" },
+        { "ru": "Разницы в стиле нет, оба одинаково официальны", "en": "There's no stylistic difference, both are equally official" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-passive-official-style-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Biljetter säljs i receptionen.» — как сказать то же самое обычным разговорным активом?", "en": "\"Biljetter säljs i receptionen.\" — how would you say the same thing in everyday active speech?" },
+      "choices": ["Biljetter blev sålda i receptionen.", "Vi säljer biljetter i receptionen.", "Biljetterna är sålda i receptionen."],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-official-style-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Ansökan ___ senast den 1 juni. (lämna in, -s-пассив, официально)" },
+      "answer": ["lämnas in"]
+    },
+    {
+      "id": "q-passive-official-style-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Frågor ___ via mejl. (besvara, -s-пассив)" },
+      "answer": ["besvaras"]
+    },
+    {
+      "id": "q-passive-official-style-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Rökning ___ förbjuden i hela byggnaden. (vara-пассив, состояние-правило)" },
+      "answer": ["är"]
+    },
+    {
+      "id": "q-passive-official-style-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Anmälan ___ senast en vecka innan kursstart. (göra, -s-пассив)" },
+      "answer": ["görs"]
+    },
+    {
+      "id": "q-passive-official-style-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "-s-пассив чаще встречается в официальных объявлениях и инструкциях, чем в бытовой речи.", "en": "The -s-passive occurs more often in official notices and instructions than in everyday speech." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-official-style-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Официальный -s-пассив используется потому, что конкретный исполнитель действия не важен для сообщения.", "en": "The official -s-passive is used because the specific agent of the action doesn't matter for the message." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-official-style-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vi stänger dörrarna nu» звучит более официально и обезличенно, чем «Dörrarna stängs nu».", "en": "\"Vi stänger dörrarna nu\" sounds more official and impersonal than \"Dörrarna stängs nu\"." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: «vi» называет конкретного деятеля, это бытовой вариант, а -s-пассив — официальный.", "en": "It's the other way round: \"vi\" names a specific agent, making it the everyday version, while the -s-passive is the official one." }
+    },
+    {
+      "id": "q-passive-official-style-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери объявление: «Билеты продаются на ресепшене.»", "en": "Build the notice: \"Tickets are sold at the front desk.\"" },
+      "tokens": ["Biljetter", "säljs", "i", "receptionen"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-passive-official-style-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Заявление подаётся не позднее 1 июня.»", "en": "Build the sentence: \"The application is submitted no later than June 1.\"" },
+      "tokens": ["Ansökan", "lämnas", "in", "senast", "den", "1", "juni"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-passive-official-style-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь официальную фразу с её бытовым эквивалентом", "en": "Match the official phrase with its everyday equivalent" },
+      "pairs": [
+        ["Dörrarna stängs automatiskt.", "Vi stänger dörrarna."],
+        ["Frågor besvaras via mejl.", "Vi svarar på frågor via mejl."],
+        ["Biljetter säljs i receptionen.", "Vi säljer biljetter i receptionen."]
+      ]
+    }
+  ]
+}

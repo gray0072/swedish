@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "ha-en-skruv-los",
+      "sv": "ha en skruv lös",
+      "translations": { "ru": "быть немного не в себе, с приветом", "en": "to be a bit crazy, to have a screw loose" },
+      "pos": "phrase",
+      "example": { "sv": "Han pratar med växterna – han har nog en skruv lös.", "ru": "Он разговаривает с растениями — он, наверное, немного с приветом.", "en": "He talks to the plants — he's probably got a screw loose." }
+    },
+    {
+      "id": "kasta-parlor-for-svin",
+      "sv": "kasta pärlor för svin",
+      "translations": { "ru": "метать бисер перед свиньями", "en": "to cast pearls before swine" },
+      "pos": "phrase",
+      "example": { "sv": "Att förklara konst för honom är att kasta pärlor för svin.", "ru": "Объяснять ему искусство — всё равно что метать бисер перед свиньями.", "en": "Explaining art to him is like casting pearls before swine." }
+    },
+    {
+      "id": "ingen-ko-pa-isen",
+      "sv": "det är ingen ko på isen",
+      "translations": { "ru": "спешить некуда, не о чем беспокоиться", "en": "there's no rush, nothing to worry about" },
+      "pos": "phrase",
+      "example": { "sv": "Ta det lugnt, det är ingen ko på isen.", "ru": "Не переживай, спешить некуда.", "en": "Take it easy, there's no rush." }
+    },
+    {
+      "id": "glida-in-pa-en-rakmacka",
+      "sv": "glida in på en räkmacka",
+      "translations": { "ru": "получить что-то легко, без усилий, по счастливой случайности", "en": "to get something easily, without effort, by sheer luck" },
+      "pos": "phrase",
+      "example": { "sv": "Han fick jobbet utan erfarenhet – han gled in på en räkmacka.", "ru": "Он получил работу без опыта — ему просто повезло, без всяких усилий.", "en": "He got the job with no experience — he slid right in without any effort." }
+    },
+    {
+      "id": "ana-ugglor-i-mossen",
+      "sv": "ana ugglor i mossen",
+      "translations": { "ru": "чуять неладное, подозревать подвох", "en": "to sense something's wrong, to smell a rat" },
+      "pos": "phrase",
+      "example": { "sv": "Jag anar ugglor i mossen – något stämmer inte.", "ru": "Я чую неладное — что-то тут не так.", "en": "I smell a rat — something's not right." }
+    },
+    {
+      "id": "skruv",
+      "sv": "skruv",
+      "translations": { "ru": "шуруп, винт", "en": "screw" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skruv", "defSg": "skruven", "indefPl": "skruvar", "defPl": "skruvarna" }
+    },
+    {
+      "id": "svin",
+      "sv": "svin",
+      "translations": { "ru": "свинья", "en": "pig, swine" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett svin", "defSg": "svinet", "indefPl": "svin", "defPl": "svinen" }
+    },
+    {
+      "id": "parla",
+      "sv": "pärla",
+      "translations": { "ru": "жемчужина", "en": "pearl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pärla", "defSg": "pärlan", "indefPl": "pärlor", "defPl": "pärlorna" }
+    },
+    {
+      "id": "ko",
+      "sv": "ko",
+      "translations": { "ru": "корова", "en": "cow" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ko", "defSg": "kon", "indefPl": "kor", "defPl": "korna" }
+    },
+    {
+      "id": "is",
+      "sv": "is",
+      "translations": { "ru": "лёд", "en": "ice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en is", "defSg": "isen", "indefPl": "isar", "defPl": "isarna" }
+    },
+    {
+      "id": "raka",
+      "sv": "räka",
+      "translations": { "ru": "креветка", "en": "shrimp" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räka", "defSg": "räkan", "indefPl": "räkor", "defPl": "räkorna" }
+    },
+    {
+      "id": "macka",
+      "sv": "macka",
+      "translations": { "ru": "бутерброд (разговорное)", "en": "sandwich (colloquial)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en macka", "defSg": "mackan", "indefPl": "mackor", "defPl": "mackorna" }
+    },
+    {
+      "id": "uggla",
+      "sv": "uggla",
+      "translations": { "ru": "сова", "en": "owl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uggla", "defSg": "ugglan", "indefPl": "ugglor", "defPl": "ugglorna" }
+    },
+    {
+      "id": "mosse",
+      "sv": "mosse",
+      "translations": { "ru": "болото", "en": "bog, marsh" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mosse", "defSg": "mossen", "indefPl": "mossar", "defPl": "mossarna" }
+    }
+  ]
+}

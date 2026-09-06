@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/consumer-rights-arn",
+  "slug": "consumer-rights-arn",
+  "title": {
+    "sv": "Konsumenträtt och att vända sig till ARN",
+    "ru": "Права потребителя и обращение в ARN",
+    "en": "Consumer rights and taking a case to ARN"
+  },
+  "summary": {
+    "ru": "Лексика о правах потребителя, рекламации и обращении в шведское бюро по разрешению потребительских споров ARN.",
+    "en": "Vocabulary for consumer rights, complaints and taking a dispute to the Swedish consumer complaints board ARN."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "society",
+    "consumer-rights",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1580,
+  "prerequisites": [
+    "sva-grund-2/written-complaint-claim"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

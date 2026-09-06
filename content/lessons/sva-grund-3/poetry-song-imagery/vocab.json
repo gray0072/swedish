@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "id": "dikt",
+      "sv": "dikt",
+      "translations": { "ru": "стихотворение", "en": "poem" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dikt", "defSg": "dikten", "indefPl": "dikter", "defPl": "dikterna" },
+      "example": { "sv": "Dikten har tre strofer.", "ru": "В стихотворении три строфы.", "en": "The poem has three stanzas." }
+    },
+    {
+      "id": "vers",
+      "sv": "vers",
+      "translations": { "ru": "стих, строка", "en": "verse, line" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vers", "defSg": "versen", "indefPl": "verser", "defPl": "verserna" }
+    },
+    {
+      "id": "strof",
+      "sv": "strof",
+      "translations": { "ru": "строфа", "en": "stanza" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en strof", "defSg": "strofen", "indefPl": "strofer", "defPl": "stroferna" }
+    },
+    {
+      "id": "rim",
+      "sv": "rim",
+      "translations": { "ru": "рифма", "en": "rhyme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett rim", "defSg": "rimmet", "indefPl": "rim", "defPl": "rimmen" }
+    },
+    {
+      "id": "rytm",
+      "sv": "rytm",
+      "translations": { "ru": "ритм", "en": "rhythm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rytm", "defSg": "rytmen", "indefPl": "rytmer", "defPl": "rytmerna" }
+    },
+    {
+      "id": "metafor",
+      "sv": "metafor",
+      "translations": { "ru": "метафора", "en": "metaphor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en metafor", "defSg": "metaforen", "indefPl": "metaforer", "defPl": "metaforerna" },
+      "example": { "sv": "\"Havet är en spegel\" är en metafor.", "ru": "«Море — зеркало» — это метафора.", "en": "\"The sea is a mirror\" is a metaphor." }
+    },
+    {
+      "id": "liknelse",
+      "sv": "liknelse",
+      "translations": { "ru": "сравнение (со словом «как»)", "en": "simile" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en liknelse", "defSg": "liknelsen", "indefPl": "liknelser", "defPl": "liknelserna" },
+      "example": { "sv": "\"Livet är som en resa\" är en liknelse.", "ru": "«Жизнь как путешествие» — это сравнение.", "en": "\"Life is like a journey\" is a simile." }
+    },
+    {
+      "id": "symbol",
+      "sv": "symbol",
+      "translations": { "ru": "символ", "en": "symbol" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en symbol", "defSg": "symbolen", "indefPl": "symboler", "defPl": "symbolerna" },
+      "example": { "sv": "En fågel kan vara en symbol för frihet.", "ru": "Птица может быть символом свободы.", "en": "A bird can be a symbol of freedom." }
+    },
+    {
+      "id": "bildsprak",
+      "sv": "bildspråk",
+      "translations": { "ru": "образный язык, образность", "en": "figurative language, imagery" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bildspråk", "defSg": "bildspråket", "indefPl": "bildspråk", "defPl": "bildspråken" }
+    },
+    {
+      "id": "refrang",
+      "sv": "refräng",
+      "translations": { "ru": "припев", "en": "refrain, chorus" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en refräng", "defSg": "refrängen", "indefPl": "refränger", "defPl": "refrängerna" },
+      "example": { "sv": "Refrängen upprepas efter varje vers.", "ru": "Припев повторяется после каждого куплета.", "en": "The refrain repeats after each verse." }
+    },
+    {
+      "id": "textrad",
+      "sv": "textrad",
+      "translations": { "ru": "строка текста (песни)", "en": "lyric line" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en textrad", "defSg": "textraden", "indefPl": "textrader", "defPl": "textraderna" }
+    },
+    {
+      "id": "poet",
+      "sv": "poet",
+      "translations": { "ru": "поэт", "en": "poet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en poet", "defSg": "poeten", "indefPl": "poeter", "defPl": "poeterna" }
+    },
+    {
+      "id": "tolka",
+      "sv": "tolka",
+      "translations": { "ru": "интерпретировать, толковать", "en": "to interpret" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tolka", "present": "tolkar", "past": "tolkade", "supine": "tolkat" }
+    },
+    {
+      "id": "rimma",
+      "sv": "rimma",
+      "translations": { "ru": "рифмоваться", "en": "to rhyme" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rimma", "present": "rimmar", "past": "rimmade", "supine": "rimmat" },
+      "example": { "sv": "Sista ordet i varje rad rimmar.", "ru": "Последнее слово в каждой строке рифмуется.", "en": "The last word in each line rhymes." }
+    }
+  ]
+}

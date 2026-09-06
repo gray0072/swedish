@@ -338,3 +338,36 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   "Topics" and under "Grammar", following the same double-bookkeeping convention
   established for delkurs 1).
 - Checks: typecheck, 39 tests, content validation (116 lessons, 0 errors).
+
+## 2026-09-06 — SVA grund delkurs 3 complete (45 lessons)
+
+- **All 20 grammar points and all 25 thematic topics for SVA grund delkurs 3** now have
+  a dedicated bilingual lesson — the most advanced content in the project so far, since
+  this level is where the course shifts from sentence-level grammar to text-level and
+  register-level phenomena: complex/nested subordinate clauses, extended noun-phrase
+  agreement, impersonal constructions (`det`/`man`/the `-s` passive), modality and
+  certainty (`måste/borde/lär/torde/kanske`), subjunctive remnants (`vore`, `må`),
+  participial phrases, theme/rheme and fundament choice, nominal vs. verbal style,
+  loanword morphology, advanced punctuation and quotation formatting, three-way register
+  (formal/neutral/colloquial), and proofreading technique — plus topics on institutions
+  (the Swedish model, elections, courts, ARN), media literacy and fact-vs-opinion,
+  advanced argumentation/discussion/presentation, and literature/poetry vocabulary.
+- **Written by 5 parallel agents** (2 handling 10 grammar lessons each, 2 handling 10
+  topic lessons each, 1 handling the final 5 topics) — fewer, larger agents than the
+  9-agent split used for delkurs 2, specifically to reduce the concurrent-request burst
+  that had tripped the account's session rate limit partway through that run. Each agent
+  was also instructed to finish one lesson's all 5 files before starting the next, so an
+  interruption would leave clean partial progress rather than empty/1-file folders. No
+  rate-limit interruption happened this time; all 5 agents completed cleanly.
+- A couple of the agents caught and fixed problems in the task brief itself rather than
+  reproducing them: one corrected a wrong prerequisite id
+  (`sva-grund-2/instructions-recipes` doesn't exist; the real id is
+  `sva-grund-1/instructions-recipes`), one corrected an inaccurate claim about `ju...
+  desto` word order (only the `desto`-clause gets V2 inversion, not both halves), and one
+  swapped out weak loanword-morphology examples for genuinely irregular ones (`museum →
+  museer`, `faktum → fakta`, `drama → dramer`) after checking which loanwords actually
+  resist the five native declension classes.
+- `content/curricula/sva-grund-3.json` added; `CURRICULUM.md`/`CURRICULUM_ru.md` updated
+  (all 45 checkboxes for the level marked done with their lesson slug, under both
+  "Topics" and "Grammar", per the double-bookkeeping convention from delkurs 1-2).
+- Checks: typecheck, 39 tests, content validation (161 lessons, 0 errors).

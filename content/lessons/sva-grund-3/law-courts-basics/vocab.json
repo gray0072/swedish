@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "domstol",
+      "sv": "domstol",
+      "translations": { "ru": "суд", "en": "court" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en domstol", "defSg": "domstolen", "indefPl": "domstolar", "defPl": "domstolarna" },
+      "example": { "sv": "Målet prövas i domstol nästa månad.", "ru": "Дело будет рассмотрено в суде в следующем месяце.", "en": "The case will be tried in court next month." }
+    },
+    {
+      "id": "tingsratt",
+      "sv": "tingsrätt",
+      "translations": { "ru": "суд первой инстанции (окружной суд)", "en": "district court" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tingsrätt", "defSg": "tingsrätten", "indefPl": "tingsrätter", "defPl": "tingsrätterna" },
+      "note": { "ru": "Первая (низшая) судебная инстанция в Швеции по гражданским и уголовным делам.", "en": "The first-instance court in Sweden for civil and criminal cases." },
+      "example": { "sv": "Rättegången hölls i tingsrätten.", "ru": "Судебный процесс проходил в суде первой инстанции.", "en": "The trial was held at the district court." }
+    },
+    {
+      "id": "hovratt",
+      "sv": "hovrätt",
+      "translations": { "ru": "апелляционный суд", "en": "court of appeal" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hovrätt", "defSg": "hovrätten", "indefPl": "hovrätter", "defPl": "hovrätterna" },
+      "example": { "sv": "Han överklagade domen till hovrätten.", "ru": "Он обжаловал приговор в апелляционном суде.", "en": "He appealed the verdict to the court of appeal." }
+    },
+    {
+      "id": "hogsta-domstolen",
+      "sv": "Högsta domstolen",
+      "translations": { "ru": "Верховный суд", "en": "the Supreme Court" },
+      "pos": "noun",
+      "note": { "ru": "Высшая судебная инстанция Швеции по гражданским и уголовным делам.", "en": "Sweden's highest court for civil and criminal cases." },
+      "example": { "sv": "Bara ett fåtal mål tas upp av Högsta domstolen.", "ru": "Верховный суд рассматривает лишь небольшое число дел.", "en": "Only a small number of cases are taken up by the Supreme Court." }
+    },
+    {
+      "id": "aklagare",
+      "sv": "åklagare",
+      "translations": { "ru": "прокурор", "en": "prosecutor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en åklagare", "defSg": "åklagaren", "indefPl": "åklagare", "defPl": "åklagarna" },
+      "example": { "sv": "Åklagaren väckte åtal mot mannen.", "ru": "Прокурор предъявил обвинение мужчине.", "en": "The prosecutor brought charges against the man." }
+    },
+    {
+      "id": "advokat",
+      "sv": "advokat",
+      "translations": { "ru": "адвокат", "en": "lawyer, attorney" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en advokat", "defSg": "advokaten", "indefPl": "advokater", "defPl": "advokaterna" },
+      "example": { "sv": "Hon anlitade en advokat för att företräda henne.", "ru": "Она наняла адвоката, чтобы он представлял её интересы.", "en": "She hired a lawyer to represent her." }
+    },
+    {
+      "id": "forsvarsadvokat",
+      "sv": "försvarsadvokat",
+      "translations": { "ru": "адвокат защиты", "en": "defence lawyer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en försvarsadvokat", "defSg": "försvarsadvokaten", "indefPl": "försvarsadvokater", "defPl": "försvarsadvokaterna" },
+      "example": { "sv": "Försvarsadvokaten ifrågasatte bevisningen.", "ru": "Адвокат защиты поставил под сомнение доказательства.", "en": "The defence lawyer questioned the evidence." }
+    },
+    {
+      "id": "dom",
+      "sv": "dom",
+      "translations": { "ru": "приговор, судебное решение", "en": "verdict, judgment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dom", "defSg": "domen", "indefPl": "domar", "defPl": "domarna" },
+      "example": { "sv": "Domen föll efter en veckas rättegång.", "ru": "Приговор был вынесен после недели судебного процесса.", "en": "The verdict came after a week-long trial." }
+    },
+    {
+      "id": "overklaga",
+      "sv": "överklaga",
+      "translations": { "ru": "обжаловать, подавать апелляцию", "en": "to appeal" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "överklaga", "present": "överklagar", "past": "överklagade", "supine": "överklagat" },
+      "example": { "sv": "Du kan överklaga domen inom tre veckor.", "ru": "Ты можешь обжаловать приговор в течение трёх недель.", "en": "You can appeal the verdict within three weeks." }
+    },
+    {
+      "id": "vittne",
+      "sv": "vittne",
+      "translations": { "ru": "свидетель", "en": "witness" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett vittne", "defSg": "vittnet", "indefPl": "vittnen", "defPl": "vittnena" },
+      "example": { "sv": "Ett vittne berättade vad som hade hänt.", "ru": "Свидетель рассказал, что произошло.", "en": "A witness described what had happened." }
+    },
+    {
+      "id": "brottmal",
+      "sv": "brottmål",
+      "translations": { "ru": "уголовное дело", "en": "criminal case" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett brottmål", "defSg": "brottmålet", "indefPl": "brottmål", "defPl": "brottmålen" },
+      "example": { "sv": "Tingsrätten hanterar både brottmål och tvistemål.", "ru": "Суд первой инстанции рассматривает и уголовные, и гражданские дела.", "en": "The district court handles both criminal and civil cases." }
+    },
+    {
+      "id": "tvistemal",
+      "sv": "tvistemål",
+      "translations": { "ru": "гражданское дело (спор)", "en": "civil case" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tvistemål", "defSg": "tvistemålet", "indefPl": "tvistemål", "defPl": "tvistemålen" },
+      "example": { "sv": "Grannarna hamnade i ett tvistemål om tomtgränsen.", "ru": "Соседи оказались втянуты в гражданский спор о границе участка.", "en": "The neighbours ended up in a civil dispute over the property line." }
+    },
+    {
+      "id": "rattegang",
+      "sv": "rättegång",
+      "translations": { "ru": "судебный процесс", "en": "trial" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rättegång", "defSg": "rättegången", "indefPl": "rättegångar", "defPl": "rättegångarna" },
+      "example": { "sv": "Rättegången pågick i flera dagar.", "ru": "Судебный процесс длился несколько дней.", "en": "The trial went on for several days." }
+    },
+    {
+      "id": "atal",
+      "sv": "åtal",
+      "translations": { "ru": "обвинение (в уголовном порядке)", "en": "prosecution, indictment" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett åtal", "defSg": "åtalet", "indefPl": "åtal", "defPl": "åtalen" },
+      "example": { "sv": "Åklagaren väckte åtal för misshandel.", "ru": "Прокурор выдвинул обвинение за нанесение побоев.", "en": "The prosecutor brought an indictment for assault." }
+    },
+    {
+      "id": "misstankt",
+      "sv": "misstänkt",
+      "translations": { "ru": "подозреваемый", "en": "suspect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en misstänkt", "defSg": "den misstänkte", "indefPl": "misstänkta", "defPl": "de misstänkta" },
+      "example": { "sv": "Den misstänkte nekade till brottet.", "ru": "Подозреваемый отрицал свою причастность к преступлению.", "en": "The suspect denied the crime." }
+    },
+    {
+      "id": "domas",
+      "sv": "dömas",
+      "translations": { "ru": "быть осуждённым, получить приговор", "en": "to be sentenced, to be convicted" },
+      "pos": "verb",
+      "forms": { "infinitive": "dömas", "present": "döms", "past": "dömdes", "supine": "dömts" },
+      "example": { "sv": "Mannen dömdes till böter.", "ru": "Мужчина был приговорён к штрафу.", "en": "The man was sentenced to a fine." }
+    },
+    {
+      "id": "frikanna",
+      "sv": "frikänna",
+      "translations": { "ru": "оправдать", "en": "to acquit" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "frikänna", "present": "frikänner", "past": "frikände", "supine": "frikänt" },
+      "example": { "sv": "Domstolen valde att frikänna den misstänkte.", "ru": "Суд принял решение оправдать подозреваемого.", "en": "The court chose to acquit the suspect." }
+    },
+    {
+      "id": "boter",
+      "sv": "böter",
+      "translations": { "ru": "штраф", "en": "fine" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han fick betala böter för fortkörning.", "ru": "Ему пришлось заплатить штраф за превышение скорости.", "en": "He had to pay a fine for speeding." }
+    }
+  ]
+}

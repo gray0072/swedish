@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/productive-affixes",
+  "slug": "productive-affixes",
+  "title": {
+    "sv": "Produktiva affix: avledningar från verb och substantiv",
+    "ru": "Продуктивные аффиксы: отглагольные и отыменные образования",
+    "en": "Productive affixes: deverbal and denominal formations"
+  },
+  "summary": {
+    "ru": "-are от глаголов, -när/-är от существительных: две системные модели для «человека, который...».",
+    "en": "-are from verbs, -när/-är from nouns: two systematic patterns for \"a person who...\"."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "word-formation", "vocabulary"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1450,
+  "prerequisites": ["sva-grund-2/word-formation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

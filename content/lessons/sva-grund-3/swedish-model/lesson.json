@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-3/swedish-model",
+  "slug": "swedish-model",
+  "title": {
+    "sv": "Den svenska modellen: stat, region, kommun",
+    "ru": "Шведская модель: государство, регион, коммуна",
+    "en": "The Swedish model: the state, the region, the municipality"
+  },
+  "summary": {
+    "ru": "Лексика для разговора об устройстве власти в Швеции: государство, регион и коммуна.",
+    "en": "Vocabulary for discussing how power is organised in Sweden: the state, the region and the municipality."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "society",
+    "civics",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1540,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

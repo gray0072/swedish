@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/describing-process-causation",
+  "slug": "describing-process-causation",
+  "title": {
+    "sv": "Beskriva en process och orsak-verkan-samband",
+    "ru": "Описание процесса и причинно-следственных связей",
+    "en": "Describing a process and cause-and-effect relations"
+  },
+  "summary": {
+    "ru": "Processen inleds med..., det här leder i sin tur till..., som ett resultat av detta... — более абстрактный, письменный вариант последовательности из рецептов delkurs 1.",
+    "en": "Processen inleds med..., det här leder i sin tur till..., som ett resultat av detta... — a more abstract, written-style version of the recipe sequencing from delkurs 1."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["phrases", "process", "causation", "writing"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1740,
+  "prerequisites": ["sva-grund-1/instructions-recipes"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

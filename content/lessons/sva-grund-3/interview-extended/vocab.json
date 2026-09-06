@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "id": "phrase-beratta-om-svaghet",
+      "sv": "Berätta om en svaghet du har.",
+      "translations": { "ru": "Расскажите о своей слабой стороне.", "en": "Tell me about a weakness you have." },
+      "pos": "phrase",
+      "example": { "sv": "Rekryteraren bad mig berätta om en svaghet jag har.", "ru": "Рекрутёр попросил меня рассказать о своей слабой стороне.", "en": "The recruiter asked me to tell them about a weakness I have." }
+    },
+    {
+      "id": "svaghet",
+      "sv": "svaghet",
+      "translations": { "ru": "слабость, слабая сторона", "en": "weakness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en svaghet", "defSg": "svagheten", "indefPl": "svagheter", "defPl": "svagheterna" },
+      "example": { "sv": "Min svaghet är att jag ibland är för detaljfokuserad.", "ru": "Моя слабая сторона в том, что я иногда слишком сосредоточен(а) на деталях.", "en": "My weakness is that I sometimes focus too much on details." }
+    },
+    {
+      "id": "styrka",
+      "sv": "styrka",
+      "translations": { "ru": "сила, сильная сторона", "en": "strength" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en styrka", "defSg": "styrkan", "indefPl": "styrkor", "defPl": "styrkorna" },
+      "example": { "sv": "Min största styrka är samarbetsförmåga.", "ru": "Моя главная сильная сторона — умение работать в команде.", "en": "My greatest strength is the ability to work well with others." }
+    },
+    {
+      "id": "phrase-varfor-sluta-nuvarande",
+      "sv": "Varför vill du sluta ditt nuvarande jobb?",
+      "translations": { "ru": "Почему вы хотите уйти со своей нынешней работы?", "en": "Why do you want to leave your current job?" },
+      "pos": "phrase",
+      "example": { "sv": "Han frågade varför jag vill sluta mitt nuvarande jobb.", "ru": "Он спросил, почему я хочу уйти со своей нынешней работы.", "en": "He asked why I want to leave my current job." }
+    },
+    {
+      "id": "nuvarande",
+      "sv": "nuvarande",
+      "translations": { "ru": "нынешний, текущий", "en": "current" },
+      "pos": "adj",
+      "example": { "sv": "Mitt nuvarande jobb är stabilt men utvecklar mig inte.", "ru": "Моя нынешняя работа стабильна, но не развивает меня.", "en": "My current job is stable but does not help me grow." }
+    },
+    {
+      "id": "saga-upp-sig",
+      "sv": "säga upp sig",
+      "translations": { "ru": "уволиться (по своей инициативе)", "en": "to resign, to quit" },
+      "pos": "verb",
+      "forms": { "infinitive": "säga upp sig", "present": "säger upp sig", "past": "sa upp sig", "supine": "sagt upp sig" },
+      "example": { "sv": "Jag sa upp mig från mitt förra jobb i våras.", "ru": "Я уволился(лась) с прежней работы этой весной.", "en": "I resigned from my previous job this spring." }
+    },
+    {
+      "id": "phrase-nasta-steg",
+      "sv": "Vad blir nästa steg i processen?",
+      "translations": { "ru": "Каким будет следующий шаг в процессе?", "en": "What is the next step in the process?" },
+      "pos": "phrase",
+      "example": { "sv": "Innan jag gick frågade jag: Vad blir nästa steg i processen?", "ru": "Перед уходом я спросил(а): «Каким будет следующий шаг в процессе?»", "en": "Before I left I asked: What is the next step in the process?" }
+    },
+    {
+      "id": "rekryteringsprocess",
+      "sv": "rekryteringsprocess",
+      "translations": { "ru": "процесс найма", "en": "recruitment process" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rekryteringsprocess", "defSg": "rekryteringsprocessen", "indefPl": "rekryteringsprocesser", "defPl": "rekryteringsprocesserna" },
+      "example": { "sv": "Hela rekryteringsprocessen tar ungefär en månad.", "ru": "Весь процесс найма занимает примерно месяц.", "en": "The whole recruitment process takes about a month." }
+    },
+    {
+      "id": "phrase-hur-manga-steg",
+      "sv": "Hur många steg finns kvar i rekryteringen?",
+      "translations": { "ru": "Сколько ещё этапов осталось в процессе найма?", "en": "How many more steps are left in the recruitment?" },
+      "pos": "phrase",
+      "example": { "sv": "Jag frågade hur många steg som fanns kvar i rekryteringen.", "ru": "Я спросил(а), сколько ещё этапов осталось в процессе найма.", "en": "I asked how many more steps were left in the recruitment." }
+    },
+    {
+      "id": "loneanspraket",
+      "sv": "löneanspråk",
+      "translations": { "ru": "ожидания по зарплате", "en": "salary expectations" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett löneanspråk", "defSg": "löneanspråket", "indefPl": "löneanspråk", "defPl": "löneanspråken" },
+      "example": { "sv": "Vilka löneanspråk har du?", "ru": "Какие у вас ожидания по зарплате?", "en": "What are your salary expectations?" }
+    },
+    {
+      "id": "phrase-vilka-loneanspraket",
+      "sv": "Vilka löneanspråk har du?",
+      "translations": { "ru": "Какие у вас ожидания по зарплате?", "en": "What are your salary expectations?" },
+      "pos": "phrase",
+      "example": { "sv": "Rekryteraren frågade: Vilka löneanspråk har du?", "ru": "Рекрутёр спросил: «Какие у вас ожидания по зарплате?»", "en": "The recruiter asked: What are your salary expectations?" }
+    },
+    {
+      "id": "tilltrada",
+      "sv": "tillträda",
+      "translations": { "ru": "приступить к должности", "en": "to take up a position, to start a job" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tillträda", "present": "tillträder", "past": "tillträdde", "supine": "tillträtt" },
+      "example": { "sv": "Jag kan tillträda tjänsten om en månad.", "ru": "Я могу приступить к должности через месяц.", "en": "I can take up the position in a month." }
+    },
+    {
+      "id": "referenstagning",
+      "sv": "referenstagning",
+      "translations": { "ru": "проверка рекомендаций", "en": "reference check" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en referenstagning", "defSg": "referenstagningen", "indefPl": "referenstagningar", "defPl": "referenstagningarna" },
+      "example": { "sv": "Nästa steg är referenstagning innan erbjudandet skickas.", "ru": "Следующий шаг — проверка рекомендаций перед отправкой предложения.", "en": "The next step is a reference check before the offer is sent." }
+    },
+    {
+      "id": "aterkoppling",
+      "sv": "återkoppling",
+      "translations": { "ru": "обратная связь", "en": "feedback" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återkoppling", "defSg": "återkopplingen", "indefPl": "återkopplingar", "defPl": "återkopplingarna" },
+      "example": { "sv": "När kan jag vänta mig återkoppling?", "ru": "Когда мне ждать обратной связи?", "en": "When can I expect feedback?" }
+    },
+    {
+      "id": "phrase-nar-atterkoppling",
+      "sv": "När kan jag vänta mig återkoppling?",
+      "translations": { "ru": "Когда мне ждать обратной связи?", "en": "When can I expect feedback?" },
+      "pos": "phrase",
+      "example": { "sv": "I slutet av intervjun frågade jag: När kan jag vänta mig återkoppling?", "ru": "В конце собеседования я спросил(а): «Когда мне ждать обратной связи?»", "en": "At the end of the interview I asked: When can I expect feedback?" }
+    },
+    {
+      "id": "arbetsuppgift",
+      "sv": "arbetsuppgift",
+      "translations": { "ru": "рабочая задача, обязанность", "en": "task, duty (at work)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsuppgift", "defSg": "arbetsuppgiften", "indefPl": "arbetsuppgifter", "defPl": "arbetsuppgifterna" },
+      "example": { "sv": "Vilka blir mina huvudsakliga arbetsuppgifter?", "ru": "Какие будут мои основные рабочие обязанности?", "en": "What will my main duties be?" }
+    },
+    {
+      "id": "phrase-vilka-arbetsuppgifter",
+      "sv": "Vilka blir mina huvudsakliga arbetsuppgifter?",
+      "translations": { "ru": "Какие будут мои основные рабочие обязанности?", "en": "What will my main duties be?" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ställde en följdfråga: Vilka blir mina huvudsakliga arbetsuppgifter?", "ru": "Я задал(а) уточняющий вопрос: «Какие будут мои основные обязанности?»", "en": "I asked a follow-up question: What will my main duties be?" }
+    },
+    {
+      "id": "samarbetsformaga",
+      "sv": "samarbetsförmåga",
+      "translations": { "ru": "умение сотрудничать", "en": "ability to cooperate, teamwork skills" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en samarbetsförmåga", "defSg": "samarbetsförmågan", "indefPl": "samarbetsförmågor", "defPl": "samarbetsförmågorna" },
+      "example": { "sv": "Arbetsgivaren värdesätter god samarbetsförmåga.", "ru": "Работодатель ценит хорошее умение сотрудничать.", "en": "The employer values good teamwork skills." }
+    },
+    {
+      "id": "pressad-situation",
+      "sv": "pressad situation",
+      "translations": { "ru": "напряжённая ситуация, ситуация под давлением", "en": "high-pressure situation" },
+      "pos": "phrase",
+      "example": { "sv": "Berätta om en pressad situation och hur du hanterade den.", "ru": "Расскажите о напряжённой ситуации и о том, как вы с ней справились.", "en": "Tell me about a high-pressure situation and how you handled it." }
+    },
+    {
+      "id": "phrase-beratta-pressad",
+      "sv": "Berätta om en pressad situation och hur du hanterade den.",
+      "translations": { "ru": "Расскажите о напряжённой ситуации и о том, как вы с ней справились.", "en": "Tell me about a high-pressure situation and how you handled it." },
+      "pos": "phrase",
+      "example": { "sv": "Intervjuaren bad mig berätta om en pressad situation och hur jag hanterade den.", "ru": "Интервьюер попросил меня рассказать о напряжённой ситуации и о том, как я с ней справился(лась).", "en": "The interviewer asked me to tell them about a high-pressure situation and how I handled it." }
+    },
+    {
+      "id": "motivera",
+      "sv": "motivera",
+      "translations": { "ru": "обосновывать, мотивировать", "en": "to justify, to give reasons for" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "motivera", "present": "motiverar", "past": "motiverade", "supine": "motiverat" },
+      "example": { "sv": "Kan du motivera varför du bytte bransch?", "ru": "Можете обосновать, почему вы сменили сферу деятельности?", "en": "Can you explain why you changed industries?" }
+    }
+  ]
+}

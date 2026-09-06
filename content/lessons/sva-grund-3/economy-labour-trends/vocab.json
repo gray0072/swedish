@@ -1,0 +1,187 @@
+{
+  "items": [
+    {
+      "id": "konjunktur",
+      "sv": "konjunktur",
+      "translations": { "ru": "экономическая конъюнктура, экономический цикл", "en": "the business cycle, economic conditions" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" }
+    },
+    {
+      "id": "hogkonjunktur",
+      "sv": "högkonjunktur",
+      "translations": { "ru": "экономический подъём", "en": "economic boom" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en högkonjunktur", "defSg": "högkonjunkturen", "indefPl": "högkonjunkturer", "defPl": "högkonjunkturerna" },
+      "example": { "sv": "Under en högkonjunktur minskar ofta arbetslösheten.", "ru": "Во время подъёма безработица часто снижается.", "en": "During an economic boom, unemployment often falls." }
+    },
+    {
+      "id": "lagkonjunktur",
+      "sv": "lågkonjunktur",
+      "translations": { "ru": "экономический спад", "en": "economic downturn, recession" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lågkonjunktur", "defSg": "lågkonjunkturen", "indefPl": "lågkonjunkturer", "defPl": "lågkonjunkturerna" },
+      "example": { "sv": "Vid en lågkonjunktur stiger arbetslösheten vanligtvis.", "ru": "Во время спада безработица обычно растёт.", "en": "During a downturn, unemployment usually rises." }
+    },
+    {
+      "id": "arbetsloshet-trend",
+      "sv": "arbetslöshet",
+      "translations": { "ru": "безработица", "en": "unemployment" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "arbetsloshetsniva",
+      "sv": "arbetslöshetsnivå",
+      "translations": { "ru": "уровень безработицы", "en": "unemployment level, unemployment rate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetslöshetsnivå", "defSg": "arbetslöshetsnivån", "indefPl": "arbetslöshetsnivåer", "defPl": "arbetslöshetsnivåerna" }
+    },
+    {
+      "id": "bruttonationalprodukt",
+      "sv": "bruttonationalprodukt",
+      "translations": { "ru": "валовой внутренний продукт", "en": "gross domestic product" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bruttonationalprodukt", "defSg": "bruttonationalprodukten", "indefPl": "bruttonationalprodukter", "defPl": "bruttonationalprodukterna" },
+      "note": { "ru": "Обычно сокращается до BNP.", "en": "Usually abbreviated as BNP." }
+    },
+    {
+      "id": "bnp",
+      "sv": "BNP",
+      "translations": { "ru": "ВВП (валовой внутренний продукт)", "en": "GDP (gross domestic product)" },
+      "pos": "noun",
+      "example": { "sv": "BNP mäter värdet av allt som produceras i landet under ett år.", "ru": "ВВП измеряет стоимость всего произведённого в стране за год.", "en": "GDP measures the value of everything produced in the country during a year." }
+    },
+    {
+      "id": "inflation-trend",
+      "sv": "inflation",
+      "translations": { "ru": "инфляция", "en": "inflation" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Om inflationen är hög minskar köpkraften.", "ru": "Если инфляция высокая, покупательная способность снижается.", "en": "If inflation is high, purchasing power decreases." }
+    },
+    {
+      "id": "lonemva",
+      "sv": "lönenivå",
+      "translations": { "ru": "уровень зарплат", "en": "wage level" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lönenivå", "defSg": "lönenivån", "indefPl": "lönenivåer", "defPl": "lönenivåerna" }
+    },
+    {
+      "id": "branschtrend",
+      "sv": "branschtrend",
+      "translations": { "ru": "отраслевой тренд", "en": "industry trend" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en branschtrend", "defSg": "branschtrenden", "indefPl": "branschtrender", "defPl": "branschtrenderna" },
+      "example": { "sv": "En analytiker kommenterade den senaste branschtrenden inom bygg.", "ru": "Аналитик прокомментировал последний отраслевой тренд в строительстве.", "en": "An analyst commented on the latest industry trend in construction." }
+    },
+    {
+      "id": "tillvaxt",
+      "sv": "tillväxt",
+      "translations": { "ru": "экономический рост", "en": "growth" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "ekonomisk",
+      "sv": "ekonomisk",
+      "translations": { "ru": "экономический", "en": "economic" },
+      "pos": "adj",
+      "example": { "sv": "Landet har haft stark ekonomisk tillväxt de senaste åren.", "ru": "В стране в последние годы был сильный экономический рост.", "en": "The country has had strong economic growth in recent years." }
+    },
+    {
+      "id": "kopkraft",
+      "sv": "köpkraft",
+      "translations": { "ru": "покупательная способность", "en": "purchasing power" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "levnadskostnad",
+      "sv": "levnadskostnad",
+      "translations": { "ru": "стоимость жизни", "en": "cost of living" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en levnadskostnad", "defSg": "levnadskostnaden", "indefPl": "levnadskostnader", "defPl": "levnadskostnaderna" }
+    },
+    {
+      "id": "ranta-trend",
+      "sv": "ränta",
+      "translations": { "ru": "процентная ставка", "en": "interest rate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" }
+    },
+    {
+      "id": "rantehojning",
+      "sv": "räntehöjning",
+      "translations": { "ru": "повышение процентной ставки", "en": "interest rate hike" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räntehöjning", "defSg": "räntehöjningen", "indefPl": "räntehöjningar", "defPl": "räntehöjningarna" }
+    },
+    {
+      "id": "rantesankning",
+      "sv": "räntesänkning",
+      "translations": { "ru": "понижение процентной ставки", "en": "interest rate cut" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räntesänkning", "defSg": "räntesänkningen", "indefPl": "räntesänkningar", "defPl": "räntesänkningarna" }
+    },
+    {
+      "id": "prognos",
+      "sv": "prognos",
+      "translations": { "ru": "прогноз", "en": "forecast" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en prognos", "defSg": "prognosen", "indefPl": "prognoser", "defPl": "prognoserna" },
+      "example": { "sv": "Enligt prognosen väntas konjunkturen vända nästa år.", "ru": "Согласно прогнозу, ожидается, что экономика развернётся в следующем году.", "en": "According to the forecast, the economic cycle is expected to turn around next year." }
+    },
+    {
+      "id": "stiga",
+      "sv": "stiga",
+      "translations": { "ru": "расти, повышаться", "en": "to rise" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stiga", "present": "stiger", "past": "steg", "supine": "stigit" },
+      "example": { "sv": "Räntan stiger igen i år.", "ru": "Процентная ставка снова растёт в этом году.", "en": "The interest rate is rising again this year." }
+    },
+    {
+      "id": "sjunka",
+      "sv": "sjunka",
+      "translations": { "ru": "падать, снижаться", "en": "to fall, to decline" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sjunka", "present": "sjunker", "past": "sjönk", "supine": "sjunkit" },
+      "example": { "sv": "Arbetslösheten har sjunkit det senaste året.", "ru": "Безработица снизилась за последний год.", "en": "Unemployment has declined over the past year." }
+    },
+    {
+      "id": "statistik-trend",
+      "sv": "statistik",
+      "translations": { "ru": "статистика", "en": "statistics" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "konjunkturen-vander",
+      "sv": "konjunkturen vänder",
+      "translations": { "ru": "экономический цикл разворачивается", "en": "the economic cycle turns around" },
+      "pos": "phrase"
+    },
+    {
+      "id": "analytiker",
+      "sv": "analytiker",
+      "translations": { "ru": "аналитик", "en": "analyst" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en analytiker", "defSg": "analytikern", "indefPl": "analytiker", "defPl": "analytikerna" }
+    }
+  ]
+}

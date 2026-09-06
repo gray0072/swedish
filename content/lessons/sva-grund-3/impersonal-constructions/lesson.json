@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/impersonal-constructions",
+  "slug": "impersonal-constructions",
+  "title": {
+    "sv": "Opersonliga konstruktioner: det, man, -s-passiv",
+    "ru": "Безличные конструкции: det, man, -s-пассив — как выбрать",
+    "en": "Impersonal constructions: det, man, the -s passive — how to choose"
+  },
+  "summary": {
+    "ru": "Три способа не называть конкретное подлежащее — и у каждого своя ниша.",
+    "en": "Three ways to avoid naming a specific subject — each with its own niche."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "syntax",
+    "passive-voice",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1340,
+  "prerequisites": [
+    "sva-grund-2/passive-voice"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

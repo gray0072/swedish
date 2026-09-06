@@ -1,0 +1,87 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-literary-text-analysis-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Как называется главный персонаж рассказа?", "en": "What's the term for a story's main character?" },
+      "choices": ["huvudperson", "bikaraktär", "berättarperspektiv"],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-text-analysis-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «vändpunkt»?", "en": "What is a \"vändpunkt\"?" },
+      "choices": [
+        { "ru": "поворотный момент истории", "en": "the turning point of a story" },
+        { "ru": "второстепенный персонаж", "en": "a secondary character" },
+        { "ru": "описание обстановки", "en": "a setting description" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-text-analysis-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что описывает «miljöbeskrivning»?", "en": "What does a \"miljöbeskrivning\" describe?" },
+      "choices": ["место и обстановку действия / the setting and surroundings", "внутренний конфликт героя / the character's inner conflict", "структуру глав / the chapter structure"],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-text-analysis-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Bikaraktär — это то же самое, что huvudperson.", "en": "A bikaraktär is the same thing as a huvudperson." },
+      "answer": false,
+      "explanation": { "ru": "Bikaraktär — второстепенный персонаж, а huvudperson — главный.", "en": "A bikaraktär is a secondary character, while huvudperson is the main one." }
+    },
+    {
+      "id": "q-literary-text-analysis-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Jag-berättare рассказывает историю от первого лица.", "en": "A jag-berättare tells the story in the first person." },
+      "answer": true
+    },
+    {
+      "id": "q-literary-text-analysis-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Handlingen ___ sig i en liten by på landet. (utspelar)" },
+      "answer": ["utspelar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-literary-text-analysis-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Vid ___ inser Elin vad hon egentligen vill. (vändpunkten)" },
+      "answer": ["vändpunkten"],
+      "acceptAlso": ["vändpunkt"]
+    },
+    {
+      "id": "q-literary-text-analysis-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Главную героиню зовут Элин, и ей восемнадцать лет.»", "en": "Build the sentence: \"The main character is called Elin, and she is eighteen.\"" },
+      "tokens": ["Huvudpersonen", "heter", "Elin", "och", "hon", "är", "arton", "år"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-literary-text-analysis-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["konflikt", "конфликт / conflict"],
+        ["tema", "тема / theme"],
+        ["upplösning", "развязка / resolution"],
+        ["dialog", "диалог / dialogue"]
+      ]
+    },
+    {
+      "id": "q-literary-text-analysis-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «allvetande berättare»?", "en": "What does \"allvetande berättare\" mean?" },
+      "choices": ["всезнающий рассказчик / omniscient narrator", "рассказчик от первого лица / first-person narrator", "главный персонаж / main character"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "staten",
+      "sv": "staten",
+      "translations": { "ru": "государство", "en": "the state" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stat", "defSg": "staten", "indefPl": "stater", "defPl": "staterna" },
+      "example": { "sv": "Staten ansvarar för försvar och rättsväsende.", "ru": "Государство отвечает за оборону и судебную систему.", "en": "The state is responsible for defence and the justice system." }
+    },
+    {
+      "id": "regionen",
+      "sv": "regionen",
+      "translations": { "ru": "регион", "en": "the region" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en region", "defSg": "regionen", "indefPl": "regioner", "defPl": "regionerna" },
+      "example": { "sv": "Regionen ansvarar för sjukvården.", "ru": "Регион отвечает за здравоохранение.", "en": "The region is responsible for healthcare." }
+    },
+    {
+      "id": "landsting",
+      "sv": "landsting",
+      "translations": { "ru": "ландстинг (устаревшее название региона)", "en": "county council (older term for region)" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "Старое название для нынешних «regioner»; термин заменён в 2019 году, но иногда ещё встречается.", "en": "The old name for today's \"regioner\"; the term was replaced in 2019 but is still sometimes seen." },
+      "example": { "sv": "Förr kallades regionerna för landsting.", "ru": "Раньше регионы назывались ландстингами.", "en": "Regions used to be called landsting." }
+    },
+    {
+      "id": "kommunen",
+      "sv": "kommunen",
+      "translations": { "ru": "коммуна (муниципалитет)", "en": "the municipality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommun", "defSg": "kommunen", "indefPl": "kommuner", "defPl": "kommunerna" },
+      "example": { "sv": "Kommunen ansvarar för skolor och förskolor.", "ru": "Коммуна отвечает за школы и детские сады.", "en": "The municipality is responsible for schools and preschools." }
+    },
+    {
+      "id": "riksdagen",
+      "sv": "riksdagen",
+      "translations": { "ru": "риксдаг (парламент Швеции)", "en": "the Riksdag (the Swedish parliament)" },
+      "pos": "noun",
+      "note": { "ru": "Законодательный орган Швеции, состоящий из 349 депутатов.", "en": "Sweden's legislative body, consisting of 349 members." },
+      "example": { "sv": "Riksdagen beslutar om nya lagar.", "ru": "Риксдаг принимает новые законы.", "en": "The Riksdag decides on new laws." }
+    },
+    {
+      "id": "regeringen",
+      "sv": "regeringen",
+      "translations": { "ru": "правительство", "en": "the government" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" },
+      "example": { "sv": "Regeringen genomför de beslut som riksdagen fattar.", "ru": "Правительство исполняет решения, принятые риксдагом.", "en": "The government implements the decisions the Riksdag makes." }
+    },
+    {
+      "id": "sjalvstyre",
+      "sv": "självstyre",
+      "translations": { "ru": "самоуправление", "en": "self-governance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett självstyre", "defSg": "självstyret", "indefPl": "självstyren", "defPl": "självstyrena" },
+      "example": { "sv": "Kommunalt självstyre är en grundprincip i Sverige.", "ru": "Муниципальное самоуправление — это основной принцип в Швеции.", "en": "Municipal self-governance is a basic principle in Sweden." }
+    },
+    {
+      "id": "skattemedel",
+      "sv": "skattemedel",
+      "translations": { "ru": "налоговые средства, бюджетные деньги", "en": "tax funds, public money" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skolan finansieras med skattemedel.", "ru": "Школа финансируется за счёт налоговых средств.", "en": "The school is financed with tax funds." }
+    },
+    {
+      "id": "kommunalskatt",
+      "sv": "kommunalskatt",
+      "translations": { "ru": "муниципальный (коммунальный) налог", "en": "municipal tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommunalskatt", "defSg": "kommunalskatten", "indefPl": "kommunalskatter", "defPl": "kommunalskatterna" },
+      "example": { "sv": "Kommunalskatten varierar mellan olika kommuner.", "ru": "Муниципальный налог отличается в разных коммунах.", "en": "The municipal tax rate varies between different municipalities." }
+    },
+    {
+      "id": "kommunfullmaktige",
+      "sv": "kommunfullmäktige",
+      "translations": { "ru": "коммунальное собрание (представительный орган коммуны)", "en": "the municipal council" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "Высший принимающий решения орган коммуны, избираемый жителями.", "en": "The municipality's highest decision-making body, elected by residents." },
+      "example": { "sv": "Kommunfullmäktige beslutar om kommunens budget.", "ru": "Коммунальное собрание принимает решение о бюджете коммуны.", "en": "The municipal council decides on the municipality's budget." }
+    },
+    {
+      "id": "regionfullmaktige",
+      "sv": "regionfullmäktige",
+      "translations": { "ru": "региональное собрание (представительный орган региона)", "en": "the regional council" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Regionfullmäktige fattar beslut om vården.", "ru": "Региональное собрание принимает решения о здравоохранении.", "en": "The regional council makes decisions about healthcare." }
+    },
+    {
+      "id": "myndighet",
+      "sv": "myndighet",
+      "translations": { "ru": "ведомство, государственный орган", "en": "authority, government agency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" },
+      "example": { "sv": "Skatteverket är en statlig myndighet.", "ru": "Налоговое ведомство — это государственный орган.", "en": "The Tax Agency is a government authority." }
+    },
+    {
+      "id": "offentlig-sektor",
+      "sv": "offentlig sektor",
+      "translations": { "ru": "государственный сектор", "en": "public sector" },
+      "pos": "phrase",
+      "example": { "sv": "Många jobbar inom offentlig sektor.", "ru": "Многие работают в государственном секторе.", "en": "Many people work in the public sector." }
+    },
+    {
+      "id": "valfard",
+      "sv": "välfärd",
+      "translations": { "ru": "благосостояние, социальное обеспечение", "en": "welfare" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en välfärd", "defSg": "välfärden", "indefPl": "välfärder", "defPl": "välfärderna" },
+      "example": { "sv": "Skatterna finansierar den svenska välfärden.", "ru": "Налоги финансируют шведское социальное обеспечение.", "en": "Taxes fund the Swedish welfare system." }
+    },
+    {
+      "id": "folkvald",
+      "sv": "folkvald",
+      "translations": { "ru": "избранный народом", "en": "elected by the people" },
+      "pos": "adj",
+      "example": { "sv": "Ledamöterna i riksdagen är folkvalda.", "ru": "Депутаты риксдага избираются народом.", "en": "Members of the Riksdag are elected by the people." }
+    }
+  ]
+}

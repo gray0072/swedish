@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "id": "tema",
+      "sv": "tema",
+      "translations": { "ru": "тема (данная, уже известная информация)", "en": "theme (given, already known information)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" }
+    },
+    {
+      "id": "rema",
+      "sv": "rema",
+      "translations": { "ru": "рема (новая информация в предложении)", "en": "rheme (the new information in a sentence)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rema", "defSg": "reman", "indefPl": "remor", "defPl": "remorna" }
+    },
+    {
+      "id": "fundament",
+      "sv": "fundament",
+      "translations": { "ru": "фундамент (позиция перед личным глаголом в huvudsats)", "en": "fundament (the slot before the finite verb in a main clause)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+    },
+    {
+      "id": "huvuddel",
+      "sv": "huvuddel",
+      "translations": { "ru": "основная часть предложения (после личного глагола)", "en": "the main part of the clause (after the finite verb)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvuddel", "defSg": "huvuddelen", "indefPl": "huvuddelar", "defPl": "huvuddelarna" }
+    },
+    {
+      "id": "sammanhang",
+      "sv": "sammanhang",
+      "translations": { "ru": "связность, контекст", "en": "coherence, context" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+    },
+    {
+      "id": "kand-information",
+      "sv": "känd information",
+      "translations": { "ru": "известная информация", "en": "known/given information" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ny-information",
+      "sv": "ny information",
+      "translations": { "ru": "новая информация", "en": "new information" },
+      "pos": "phrase"
+    },
+    {
+      "id": "aterknyta-till",
+      "sv": "återknyta till",
+      "translations": { "ru": "снова связать с, отсылать назад к", "en": "to tie back to, to link back to" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "återknyta", "present": "återknyter", "past": "återknöt", "supine": "återknutit" }
+    },
+    {
+      "id": "visa-sig",
+      "sv": "visa sig (vara)",
+      "translations": { "ru": "оказаться (кем-то/чем-то)", "en": "to turn out to (be)" },
+      "pos": "phrase",
+      "example": { "sv": "Boken visade sig vara mycket värdefull.", "ru": "Эта книга оказалась очень ценной.", "en": "The book turned out to be very valuable." }
+    },
+    {
+      "id": "vardefull",
+      "sv": "värdefull",
+      "translations": { "ru": "ценный", "en": "valuable" },
+      "pos": "adj"
+    },
+    {
+      "id": "vind",
+      "sv": "vind",
+      "translations": { "ru": "чердак", "en": "attic" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vind", "defSg": "vinden", "indefPl": "vindar", "defPl": "vindarna" }
+    },
+    {
+      "id": "hitta",
+      "sv": "hitta",
+      "translations": { "ru": "находить", "en": "to find" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hitta", "present": "hittar", "past": "hittade", "supine": "hittat" }
+    }
+  ]
+}

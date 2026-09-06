@@ -1,0 +1,105 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-theme-rheme-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "«Boken köpte Anna i går.» — что здесь тема (fundament)?", "en": "\"Boken köpte Anna i går.\" — what is the theme (fundament) here?" },
+      "choices": ["Boken", "Anna", "i går"],
+      "answer": 0
+    },
+    {
+      "id": "q-theme-rheme-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какой из вариантов делает темой именно «вчерашний день»?", "en": "Which version makes \"yesterday\" the theme?" },
+      "choices": ["I går köpte Anna boken.", "Anna köpte boken i går.", "Boken köpte Anna i går."],
+      "answer": 0
+    },
+    {
+      "id": "q-theme-rheme-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Рема — это уже известная информация.", "en": "The rheme is already-known information." },
+      "answer": false,
+      "explanation": { "ru": "Рема — это как раз новая информация; известная информация — это тема.", "en": "The rheme is precisely the new information; known information is the theme." }
+    },
+    {
+      "id": "q-theme-rheme-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Fundament обычно передаёт тему, а не рему.", "en": "The fundament usually carries the theme, not the rheme." },
+      "answer": true
+    },
+    {
+      "id": "q-theme-rheme-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi hittade en gammal bok på vinden. ___ visade sig vara mycket värdefull. (Boken)" },
+      "answer": ["Boken"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-theme-rheme-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь fundament с тем, о чём «на самом деле» это предложение", "en": "Match the fundament with what the sentence is \"really\" about" },
+      "pairs": [
+        ["Anna köpte boken i går.", "об Анне"],
+        ["Boken köpte Anna i går.", "о книге"],
+        ["I går köpte Anna boken.", "о вчерашнем дне"]
+      ]
+    },
+    {
+      "id": "q-theme-rheme-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение, тема которого — «вчера»: «Вчера Анна купила книгу.»", "en": "Build the sentence whose theme is \"yesterday\": \"Yesterday, Anna bought the book.\"" },
+      "tokens": ["I", "går", "köpte", "Anna", "boken"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-theme-rheme-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Почему второе предложение в связном тексте обычно начинается с уже упомянутого слова?", "en": "Why does the second sentence in a coherent text usually start with an already-mentioned word?" },
+      "choices": [
+        { "ru": "Это помогает связности текста: тема подхватывает рему предыдущего предложения", "en": "It supports text cohesion: the theme picks up the rheme of the previous sentence" },
+        { "ru": "Это грамматически обязательно и не может быть иначе", "en": "It is grammatically obligatory and cannot be otherwise" },
+        { "ru": "Это правило пунктуации", "en": "It is a punctuation rule" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-theme-rheme-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Все три варианта — «Anna köpte boken i går», «Boken köpte Anna i går», «I går köpte Anna boken» — грамматически правильны.", "en": "All three versions — \"Anna köpte boken i går\", \"Boken köpte Anna i går\", \"I går köpte Anna boken\" — are grammatically correct." },
+      "answer": true
+    },
+    {
+      "id": "q-theme-rheme-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "После предложения «Regeringen presenterade en ny lag.» — какое продолжение лучше связано по теме/реме?", "en": "After \"Regeringen presenterade en ny lag.\" — which continuation flows better by theme/rheme?" },
+      "choices": [
+        "Lagen börjar gälla nästa år.",
+        "Nästa år är det val.",
+        "Journalister skrev om annat igår."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-theme-rheme-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «тема» в информационной структуре предложения?", "en": "What does \"theme\" mean in a sentence's information structure?" },
+      "choices": [
+        { "ru": "То, о чём предложение — уже известная информация", "en": "What the sentence is about — already known information" },
+        { "ru": "Самое новое сообщение в предложении", "en": "The newest piece of information in the sentence" },
+        { "ru": "Всегда грамматическое подлежащее", "en": "Always the grammatical subject" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-theme-rheme-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ köpte Anna i går. (Boken, тема — книга)" },
+      "answer": ["Boken"],
+      "acceptAlso": []
+    }
+  ]
+}

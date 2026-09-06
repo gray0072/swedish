@@ -1,0 +1,157 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-media-literacy-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Кто написал текст и зачем?»", "en": "Build the question: \"Who wrote the text and why?\"" },
+      "tokens": ["skrivit", "har", "Vem", "och varför?", "texten"],
+      "answer": [2, 1, 0, 4, 3]
+    },
+    {
+      "id": "q-media-literacy-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Надёжен ли источник?»", "en": "Build the question: \"Is the source reliable?\"" },
+      "tokens": ["källan", "pålitlig?", "Är"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-media-literacy-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Текст кажется предвзятым.»", "en": "Build the sentence: \"The text seems slanted.\"" },
+      "tokens": ["verkar", "vinklad.", "Texten"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-media-literacy-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["källa", "источник"],
+        ["syfte", "цель"],
+        ["trovärdighet", "надёжность"],
+        ["vinkling", "предвзятая подача"]
+      ]
+    },
+    {
+      "id": "q-media-literacy-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["primärkälla", "первичный источник"],
+        ["sekundärkälla", "вторичный источник"],
+        ["faktagranskning", "проверка фактов"],
+        ["desinformation", "дезинформация"]
+      ]
+    },
+    {
+      "id": "q-media-literacy-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vinkling» всегда означает, что текст полностью лжив.", "en": "\"Vinkling\" always means the text is entirely false." },
+      "answer": false,
+      "explanation": {
+        "ru": "Предвзятая подача не обязательно означает ложь — она означает, что показана не вся картина.",
+        "en": "A slant does not necessarily mean a lie — it means the full picture is not shown."
+      }
+    },
+    {
+      "id": "q-media-literacy-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Достоверность источника растёт, если несколько независимых источников подтверждают одну и ту же информацию.", "en": "A source's credibility increases if several independent sources confirm the same information." },
+      "answer": true
+    },
+    {
+      "id": "q-media-literacy-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Primärkälla» — это пересказ новости в другом издании.", "en": "A \"primärkälla\" is a retelling of the news in another outlet." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это описание «sekundärkälla»; первичный источник — это, например, оригинальный отчёт или документ.",
+        "en": "That describes a \"sekundärkälla\"; a primary source is, for example, the original report or document."
+      }
+    },
+    {
+      "id": "q-media-literacy-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Opartisk» источник обычно представляет только одну точку зрения.", "en": "An \"opartisk\" source usually presents only one perspective." },
+      "answer": false,
+      "explanation": {
+        "ru": "Беспристрастный источник обычно представляет несколько точек зрения, а не только одну.",
+        "en": "An impartial source usually presents several perspectives, not just one."
+      }
+    },
+    {
+      "id": "q-media-literacy-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vad är ___ med den här texten? (цель)" },
+      "answer": ["syftet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-media-literacy-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Myndigheten varnade för ___ inför valet. (дезинформация)" },
+      "answer": ["desinformation"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-media-literacy-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vem är ___ bakom det här inlägget? (автор, отправитель)" },
+      "answer": ["avsändaren"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-media-literacy-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой вопрос стоит задать в первую очередь при чтении незнакомого текста?",
+        "en": "Which question should you ask first when reading an unfamiliar text?"
+      },
+      "choices": ["Vem har skrivit texten och varför?", "Hur lång är texten?", "Vilket typsnitt används?", "Vilken färg har rubriken?"],
+      "answer": 0
+    },
+    {
+      "id": "q-media-literacy-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает систематическую проверку правдивости утверждений?",
+        "en": "Which word means the systematic checking of whether claims are true?"
+      },
+      "choices": ["faktagranskning", "vinkling", "perspektiv", "syfte"],
+      "answer": 0
+    },
+    {
+      "id": "q-media-literacy-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется навык критической оценки источников?",
+        "en": "What is the skill of critically evaluating sources called?"
+      },
+      "choices": ["källkritik", "desinformation", "avsändare", "trovärdighet"],
+      "answer": 0
+    }
+  ]
+}

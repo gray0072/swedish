@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/health-prevention-text",
+  "slug": "health-prevention-text",
+  "title": {
+    "sv": "Hälsa och förebyggande vård: en instruktionstext",
+    "ru": "Здоровье и профилактика: текст-инструкция",
+    "en": "Health and prevention: an instructional text"
+  },
+  "summary": {
+    "ru": "Лексика для текста-инструкции о профилактике (а не лечении): факторы риска, здоровые привычки, вакцинация, медосмотры.",
+    "en": "Vocabulary for a health-instruction text about prevention (not treatment): risk factors, healthy habits, vaccination, check-ups."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["health", "prevention", "vocab"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1730,
+  "prerequisites": ["sva-grund-2/healthcare-system"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

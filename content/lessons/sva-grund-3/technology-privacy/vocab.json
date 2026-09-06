@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": "personuppgifter",
+      "sv": "personuppgifter",
+      "translations": { "ru": "персональные данные", "en": "personal data" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en personuppgift", "defSg": "personuppgiften", "indefPl": "personuppgifter", "defPl": "personuppgifterna" },
+      "example": { "sv": "Företaget samlar in personuppgifter som namn och adress.", "ru": "Компания собирает персональные данные, такие как имя и адрес.", "en": "The company collects personal data such as name and address." }
+    },
+    {
+      "id": "integritet",
+      "sv": "integritet",
+      "translations": { "ru": "приватность, неприкосновенность частной жизни", "en": "privacy" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Många är oroliga för sin integritet på nätet.", "ru": "Многие обеспокоены своей приватностью в интернете.", "en": "Many people are worried about their privacy online." }
+    },
+    {
+      "id": "overvakning",
+      "sv": "övervakning",
+      "translations": { "ru": "слежка, наблюдение", "en": "surveillance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en övervakning", "defSg": "övervakningen", "indefPl": "övervakningar", "defPl": "övervakningarna" },
+      "example": { "sv": "Kameror används för övervakning på många offentliga platser.", "ru": "Камеры используются для наблюдения во многих общественных местах.", "en": "Cameras are used for surveillance in many public places." }
+    },
+    {
+      "id": "artificiell-intelligens",
+      "sv": "artificiell intelligens",
+      "translations": { "ru": "искусственный интеллект (ИИ)", "en": "artificial intelligence (AI)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Artificiell intelligens kan analysera stora mängder data snabbt.", "ru": "Искусственный интеллект может быстро анализировать большие объёмы данных.", "en": "Artificial intelligence can analyze large amounts of data quickly." }
+    },
+    {
+      "id": "dataskydd",
+      "sv": "dataskydd",
+      "translations": { "ru": "защита данных", "en": "data protection" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett dataskydd", "defSg": "dataskyddet", "indefPl": "dataskydd", "defPl": "dataskydden" },
+      "example": { "sv": "Dataskydd handlar om att skydda personuppgifter från missbruk.", "ru": "Защита данных — это защита персональных данных от злоупотребления.", "en": "Data protection is about protecting personal data from misuse." }
+    },
+    {
+      "id": "samtycke",
+      "sv": "samtycke",
+      "translations": { "ru": "согласие", "en": "consent" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Innan företaget får dela dina uppgifter behöver de ditt samtycke.", "ru": "Прежде чем компания сможет поделиться твоими данными, ей нужно твоё согласие.", "en": "Before the company can share your data, it needs your consent." }
+    },
+    {
+      "id": "losenord",
+      "sv": "lösenord",
+      "translations": { "ru": "пароль", "en": "password" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lösenord", "defSg": "lösenordet", "indefPl": "lösenord", "defPl": "lösenorden" },
+      "example": { "sv": "Använd ett starkt lösenord.", "ru": "Используй надёжный пароль.", "en": "Use a strong password." }
+    },
+    {
+      "id": "kryptering",
+      "sv": "kryptering",
+      "translations": { "ru": "шифрование", "en": "encryption" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kryptering", "defSg": "krypteringen", "indefPl": "krypteringar", "defPl": "krypteringarna" }
+    },
+    {
+      "id": "digitalt-fotavtryck",
+      "sv": "digitalt fotavtryck",
+      "translations": { "ru": "цифровой след", "en": "digital footprint" },
+      "pos": "phrase"
+    },
+    {
+      "id": "dela-tech",
+      "sv": "dela",
+      "translations": { "ru": "делиться, распространять (данные)", "en": "to share" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "dela", "present": "delar", "past": "delade", "supine": "delat" }
+    },
+    {
+      "id": "overvaka",
+      "sv": "övervaka",
+      "translations": { "ru": "наблюдать, следить за", "en": "to monitor, to surveil" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "övervaka", "present": "övervakar", "past": "övervakade", "supine": "övervakat" }
+    },
+    {
+      "id": "samla-in",
+      "sv": "samla in",
+      "translations": { "ru": "собирать (данные)", "en": "to collect (data)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "molntjanst",
+      "sv": "molntjänst",
+      "translations": { "ru": "облачный сервис", "en": "cloud service" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en molntjänst", "defSg": "molntjänsten", "indefPl": "molntjänster", "defPl": "molntjänsterna" }
+    },
+    {
+      "id": "hackare",
+      "sv": "hackare",
+      "translations": { "ru": "хакер", "en": "hacker" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hackare", "defSg": "hackaren", "indefPl": "hackare", "defPl": "hackarna" }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/referat-with-source",
+  "slug": "referat-with-source",
+  "title": {
+    "sv": "Referat med tydlig källhänvisning",
+    "ru": "Referat статьи с указанием источника",
+    "en": "A referat of an article with the source cited"
+  },
+  "summary": {
+    "ru": "Как явно указать источник прямо в тексте referat: I en artikel publicerad i... skriver... att..., enligt [namn], без плагиата и без личного мнения.",
+    "en": "How to name the source explicitly inside a referat: I en artikel publicerad i... skriver... att..., enligt [namn], without plagiarism and without personal opinion."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["referat", "writing", "phrases", "source"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1640,
+  "prerequisites": ["sva-grund-2/referat-summary"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

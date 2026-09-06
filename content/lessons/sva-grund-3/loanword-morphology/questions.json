@@ -1,0 +1,104 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "plural", "from": "vocab", "count": "all", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-loanword-morphology-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое множественное число у «en trend»?", "en": "What is the plural of \"en trend\"?" },
+      "choices": ["trender", "trends", "trend"],
+      "answer": 0
+    },
+    {
+      "id": "q-loanword-morphology-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Почему «pizza» получает множественное «pizzor»?", "en": "Why does \"pizza\" take the plural \"pizzor\"?" },
+      "choices": [
+        { "ru": "Потому что оканчивается на -a, как flicka", "en": "Because it ends in -a, like flicka" },
+        { "ru": "Потому что это итальянское слово", "en": "Because it's an Italian word" },
+        { "ru": "Потому что это ett-слово", "en": "Because it's an ett-word" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-loanword-morphology-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Шведский сохраняет для заимствований отдельную «иностранную» модель множественного числа.", "en": "Swedish preserves a separate \"foreign\" plural pattern for loanwords." },
+      "answer": false,
+      "explanation": { "ru": "Заимствования обычно подстраиваются под одну из пяти нативных моделей.", "en": "Loanwords usually get assigned to one of the five native patterns." }
+    },
+    {
+      "id": "q-loanword-morphology-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Museum → museer» подчиняется общему правилу без исключений.", "en": "\"Museum → museer\" follows the general rule without exception." },
+      "answer": false,
+      "explanation": { "ru": "Это неправильное слово: -um отпадает, добавляется -er — нужно запомнить отдельно.", "en": "It's an irregular word: -um drops and -er is added — it has to be memorised individually." }
+    },
+    {
+      "id": "q-loanword-morphology-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi besökte flera ___ i går. (museum, мн.ч.)" },
+      "answer": ["museer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-loanword-morphology-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "ett faktum → ___ (факты, мн.ч.)" },
+      "answer": ["fakta"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-loanword-morphology-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово в единственном числе с формой множественного", "en": "Match the singular word with its plural form" },
+      "pairs": [
+        ["trend", "trender"],
+        ["pizza", "pizzor"],
+        ["konto", "konton"],
+        ["drama", "dramer"]
+      ]
+    },
+    {
+      "id": "q-loanword-morphology-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое из слов образует множественное число неожиданно — не по классу -n, как можно было бы предположить по äpple/tema?", "en": "Which word forms its plural unexpectedly — not by the -n class you might expect from äpple/tema?" },
+      "choices": ["drama", "konto", "pizza"],
+      "answer": 0
+    },
+    {
+      "id": "q-loanword-morphology-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Ett center → center» — какой это узор множественного числа?", "en": "\"Ett center → center\" — which plural pattern is this?" },
+      "choices": [
+        { "ru": "Нулевое окончание, как у hus/fönster", "en": "Zero ending, like hus/fönster" },
+        { "ru": "Окончание -or", "en": "The -or ending" },
+        { "ru": "Окончание -ar", "en": "The -ar ending" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-loanword-morphology-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Если новое заимствованное существительное оканчивается на -um, стоит сразу проверить его форму множественного числа в словаре.", "en": "If a new loanword noun ends in -um, it's worth checking its plural form in a dictionary right away." },
+      "answer": true
+    },
+    {
+      "id": "q-loanword-morphology-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы забронировали отель в центре.»", "en": "Build the sentence: \"We booked a hotel in the center.\"" },
+      "tokens": ["Vi", "bokade", "ett", "hotell", "i", "centrum"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-loanword-morphology-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Определённая форма множественного числа «faktum»...", "en": "The definite plural form of \"faktum\" is..." },
+      "choices": ["fakta (совпадает с неопределённой)", "faktumen", "faktumerna"],
+      "answer": 0
+    }
+  ]
+}

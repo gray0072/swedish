@@ -1,0 +1,87 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-oral-presentation-advanced-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза уместна, отвечая на хороший вопрос из зала?", "en": "Which phrase suits answering a good audience question?" },
+      "choices": ["bra fråga, låt mig förklara", "finns det några frågor?", "tack för att ni lyssnade"],
+      "answer": 0
+    },
+    {
+      "id": "q-oral-presentation-advanced-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза указывает слушателям на изображение?", "en": "Which phrase points the audience to an image?" },
+      "choices": ["som ni ser på bilden", "jag är inte helt säker", "det var en bra poäng"],
+      "answer": 0
+    },
+    {
+      "id": "q-oral-presentation-advanced-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «diagram»?", "en": "What does \"diagram\" mean?" },
+      "choices": [
+        { "ru": "диаграмма, график", "en": "a diagram, chart" },
+        { "ru": "публика", "en": "an audience" },
+        { "ru": "вопрос", "en": "a question" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-oral-presentation-advanced-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Хороший доклад никогда не оставляет время на вопросы.", "en": "A good talk never leaves time for questions." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — время на вопросы обычно закладывается заранее.", "en": "The opposite — time for questions is usually planned in advance." }
+    },
+    {
+      "id": "q-oral-presentation-advanced-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Вслух сообщать, сколько времени осталось, считается неуместным.", "en": "Announcing out loud how much time is left is considered inappropriate." },
+      "answer": false,
+      "explanation": { "ru": "Слушатели ценят, когда докладчик следит за временем открыто.", "en": "Audiences appreciate a speaker who tracks time openly." }
+    },
+    {
+      "id": "q-oral-presentation-advanced-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ på bilden, ökade befolkningen kraftigt. (som ni ser)" },
+      "answer": ["Som ni ser"],
+      "acceptAlso": ["som ni ser"]
+    },
+    {
+      "id": "q-oral-presentation-advanced-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag har ungefär fem minuter ___. (kvar)" },
+      "answer": ["kvar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-oral-presentation-advanced-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если посмотреть на следующее изображение...»", "en": "Build the sentence: \"If we look at the next slide...\"" },
+      "tokens": ["Om", "vi", "tittar", "på", "nästa", "bild"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-oral-presentation-advanced-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с моментом доклада", "en": "Match the phrase with the moment in the talk" },
+      "pairs": [
+        ["innan jag avslutar vill jag säga", "перед завершением / near the close"],
+        ["finns det några frågor?", "вопросы в конце / questions at the end"],
+        ["bra fråga, låt mig förklara", "ответ на вопрос / answering a question"],
+        ["jag ska hålla mig till tiden", "контроль времени / pacing" ]
+      ]
+    },
+    {
+      "id": "q-oral-presentation-advanced-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что уместно сказать, если не уверен(а) в ответе?", "en": "What's appropriate to say when unsure of an answer?" },
+      "choices": ["jag är inte helt säker, men...", "det stämmer aldrig", "det spelar ingen roll"],
+      "answer": 0
+    }
+  ]
+}

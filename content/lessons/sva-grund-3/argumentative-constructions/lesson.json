@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/argumentative-constructions",
+  "slug": "argumentative-constructions",
+  "title": {
+    "sv": "Argumenterande konstruktioner: å ena sidan … å andra sidan, visserligen … men",
+    "ru": "Аргументативные конструкции: å ena sidan … å andra sidan, visserligen … men",
+    "en": "Argumentative constructions: å ena sidan … å andra sidan, visserligen … men"
+  },
+  "summary": {
+    "ru": "Взвесить две стороны или уступить и тут же возразить — конструкции для настоящей аргументации.",
+    "en": "Weighing two sides, or conceding and then pushing back — constructions for real argumentation."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "argumentative-text",
+    "connectors",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1390,
+  "prerequisites": [
+    "sva-grund-2/argumentative-text"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

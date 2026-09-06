@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/poetry-song-imagery",
+  "slug": "poetry-song-imagery",
+  "title": {
+    "sv": "Dikt och sång: bild och metafor",
+    "ru": "Поэзия и песня: образ и метафора",
+    "en": "Poetry and song: image and metaphor"
+  },
+  "summary": {
+    "ru": "Слова для разговора о стихах и песнях: dikt, vers, rim, metafor, liknelse, symbol, refräng — без анализа конкретного произведения.",
+    "en": "Vocabulary for talking about poems and songs: dikt, vers, rim, metafor, liknelse, symbol, refräng — without analysing any specific work."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["vocab", "poetry", "reading"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1660,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

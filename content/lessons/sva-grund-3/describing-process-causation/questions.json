@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-describing-process-causation-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза означает «в результате этого»?", "en": "Which phrase means \"as a result of this\"?" },
+      "choices": ["som ett resultat av detta", "processen inleds med", "i sin tur"],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-process-causation-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «bero på»?", "en": "What does \"bero på\" mean?" },
+      "choices": ["зависеть от / to depend on", "начинаться с / to begin with", "заканчиваться / to end"],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-process-causation-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово описывает общий ход событий?", "en": "Which word describes the general course of events?" },
+      "choices": ["förlopp", "steg", "process"],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-process-causation-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Processen ___ med att en ansökan skickas in. (inleda, presens passiv → inleds)" },
+      "answer": ["inleds"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-describing-process-causation-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Till ___ av den nya lagen har handläggningstiden förkortats. (följd)" },
+      "answer": ["följd"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-describing-process-causation-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Processen ___ med ett skriftligt beslut. (avslutas)" },
+      "answer": ["avslutas"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-describing-process-causation-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Det här leder i sin tur till» вводит следствие следствия.", "en": "\"Det här leder i sin tur till\" introduces a knock-on effect (a consequence of a consequence)." },
+      "answer": true
+    },
+    {
+      "id": "q-describing-process-causation-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Эта лексика подходит только для рецептов.", "en": "This vocabulary is only suitable for recipes." },
+      "answer": false,
+      "explanation": { "ru": "Это более абстрактный, письменный стиль для описания процесса вообще, не рецепта.", "en": "This is a more abstract, written-style register for describing a process in general, not a recipe." }
+    },
+    {
+      "id": "q-describing-process-causation-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["orsak", "причина / cause"],
+        ["konsekvens", "последствие / consequence"],
+        ["i sin tur", "в свою очередь / in turn"],
+        ["leda till", "приводить к / to lead to"]
+      ]
+    },
+    {
+      "id": "q-describing-process-causation-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это, в свою очередь, приводит к более долгому ожиданию.»", "en": "Build the sentence: \"This, in turn, leads to a longer waiting time.\"" },
+      "tokens": ["Det", "här", "leder", "i", "sin", "tur", "till", "en", "längre", "väntetid"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "q-describing-process-causation-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какой глагол значит «влиять на»?", "en": "Which verb means \"to affect\"?" },
+      "choices": ["påverka", "medföra", "utlösa"],
+      "answer": 0
+    }
+  ]
+}

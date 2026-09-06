@@ -1,0 +1,150 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-discrimination-equality-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Все люди имеют равную ценность.»", "en": "Build the sentence: \"All people have equal worth.\"" },
+      "tokens": ["värde", "har", "Alla", "lika", "människor"],
+      "answer": [2, 4, 1, 3, 0]
+    },
+    {
+      "id": "q-discrimination-equality-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дискриминация запрещена шведским законом.»", "en": "Build the sentence: \"Discrimination is prohibited under Swedish law.\"" },
+      "tokens": ["förbjudet", "svensk lag.", "är", "Diskriminering", "enligt"],
+      "answer": [3, 2, 0, 4, 1]
+    },
+    {
+      "id": "q-discrimination-equality-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["diskriminering", "дискриминация"],
+        ["jämställdhet", "гендерное равенство"],
+        ["likabehandling", "равное обращение"],
+        ["rättighet", "право"]
+      ]
+    },
+    {
+      "id": "q-discrimination-equality-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["etnicitet", "этническая принадлежность"],
+        ["funktionsnedsättning", "инвалидность"],
+        ["sexuell läggning", "сексуальная ориентация"],
+        ["kön", "пол"]
+      ]
+    },
+    {
+      "id": "q-discrimination-equality-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Закон в Швеции защищает только один признак дискриминации — возраст.", "en": "Swedish law protects only one ground of discrimination — age." },
+      "answer": false,
+      "explanation": {
+        "ru": "Закон выделяет семь защищённых признаков, а не только возраст.",
+        "en": "The law lists seven protected grounds, not just age."
+      }
+    },
+    {
+      "id": "q-discrimination-equality-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Indirekt diskriminering» — это когда формально нейтральное правило ставит одну группу в невыгодное положение.", "en": "\"Indirekt diskriminering\" is when a formally neutral rule disadvantages one group in practice." },
+      "answer": true
+    },
+    {
+      "id": "q-discrimination-equality-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "DO (Diskrimineringsombudsmannen) — это частная юридическая фирма.", "en": "DO (the Equality Ombudsman) is a private law firm." },
+      "answer": false,
+      "explanation": {
+        "ru": "DO — государственное ведомство, а не частная фирма.",
+        "en": "DO is a government agency, not a private firm."
+      }
+    },
+    {
+      "id": "q-discrimination-equality-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Aktiva åtgärder» означают, что работодатель должен только реагировать на уже поданные жалобы.", "en": "\"Aktiva åtgärder\" mean the employer should only react to complaints already filed." },
+      "answer": false,
+      "explanation": {
+        "ru": "Активные меры означают заблаговременное предотвращение дискриминации, а не только реакцию постфактум.",
+        "en": "Active measures mean preventing discrimination proactively, not only reacting afterwards."
+      }
+    },
+    {
+      "id": "q-discrimination-equality-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Man kan anmäla diskriminering till ___. (DO)" },
+      "answer": ["DO"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-discrimination-equality-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Lönen ska inte bero på ___. (пол)" },
+      "answer": ["kön"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-discrimination-equality-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Det är olagligt att ___ en jobbsökande. (дискриминировать)" },
+      "answer": ["diskriminera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-discrimination-equality-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое ведомство принимает жалобы на дискриминацию в Швеции?",
+        "en": "Which agency receives discrimination complaints in Sweden?"
+      },
+      "choices": ["DO (Diskrimineringsombudsmannen)", "Arbetsförmedlingen", "Skatteverket", "Försäkringskassan"],
+      "answer": 0
+    },
+    {
+      "id": "q-discrimination-equality-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «равное обращение»?",
+        "en": "Which word means \"equal treatment\"?"
+      },
+      "choices": ["likabehandling", "jämlikhet", "rättighet", "diskriminering"],
+      "answer": 0
+    },
+    {
+      "id": "q-discrimination-equality-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Компания открыто отказывает соискателю из-за его возраста. Как это называется?",
+        "en": "A company openly rejects an applicant because of their age. What is this called?"
+      },
+      "choices": ["direkt diskriminering", "aktiva åtgärder", "likabehandling", "jämställdhet"],
+      "answer": 0
+    }
+  ]
+}

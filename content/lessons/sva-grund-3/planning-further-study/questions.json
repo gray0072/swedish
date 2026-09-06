@@ -1,0 +1,92 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-planning-further-study-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что нужно, чтобы поступить в гимназию?", "en": "What do you need to apply to upper-secondary school?" },
+      "choices": ["grundläggande behörighet", "ett utbildningsprogram", "en studieplan"],
+      "answer": 0
+    },
+    {
+      "id": "q-planning-further-study-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Кто помогает выбрать образовательную программу?", "en": "Who helps you choose a study programme?" },
+      "choices": ["en studievägledare", "en sökande", "en antagning"],
+      "answer": 0
+    },
+    {
+      "id": "q-planning-further-study-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что идёт после SVA grund для дальнейшей учёбы?", "en": "What comes after SVA grund for further study?" },
+      "choices": [
+        { "ru": "Svenska som andraspråk 1", "en": "Svenska som andraspråk 1" },
+        { "ru": "SFI kurs A", "en": "SFI kurs A" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-planning-further-study-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Du ___ till gymnasiet eller komvux via en digital ansökan. (ansöka, presens)" },
+      "answer": ["ansöker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-planning-further-study-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En sökande som saknar vissa betyg kan behöva ___ dem. (komplettera)" },
+      "answer": ["komplettera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-planning-further-study-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Vissa program kräver också särskild ___ i vissa ämnen. (behörighet)" },
+      "answer": ["behörighet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-planning-further-study-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Betygskrav» — это требования к оценкам.", "en": "\"Betygskrav\" means grade requirements." },
+      "answer": true
+    },
+    {
+      "id": "q-planning-further-study-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Sökande» означает «учебный консультант».", "en": "\"Sökande\" means \"study counsellor\"." },
+      "answer": false,
+      "explanation": { "ru": "«Sökande» значит «абитуриент, соискатель»; консультант — это «studievägledare».", "en": "\"Sökande\" means \"applicant\"; the counsellor is \"studievägledare\"." }
+    },
+    {
+      "id": "q-planning-further-study-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["ansökan", "заявление / application"],
+        ["antagning", "приём / admission"],
+        ["meritvärde", "конкурсный балл / merit rating"],
+        ["studieplan", "учебный план / study plan"]
+      ]
+    },
+    {
+      "id": "q-planning-further-study-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Учебный консультант помогает выбрать правильную образовательную программу.»", "en": "Build the sentence: \"The study counsellor helps you choose the right study programme.\"" },
+      "tokens": ["Studievägledaren", "hjälper", "dig", "att", "välja", "rätt", "utbildningsprogram"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-planning-further-study-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «behörig»?", "en": "What does \"behörig\" mean?" },
+      "choices": ["имеющий право поступить / eligible", "опоздавший / late", "безработный / unemployed"],
+      "answer": 0
+    }
+  ]
+}

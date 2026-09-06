@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/climate-sustainability",
+  "slug": "climate-sustainability",
+  "title": {
+    "sv": "Klimat och hållbar utveckling — en diskussion",
+    "ru": "Климат и устойчивое развитие — обсуждение",
+    "en": "Climate and sustainable development — a discussion"
+  },
+  "summary": {
+    "ru": "Дискуссионные фразы шире, чем в теме переработки: klimatförändringar, hållbar utveckling, växthuseffekten, klimatomställning, en lösning skulle kunna vara att...",
+    "en": "Discussion phrases that go beyond the recycling topic: klimatförändringar, hållbar utveckling, växthuseffekten, klimatomställning, en lösning skulle kunna vara att..."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["phrases", "climate", "discussion"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1690,
+  "prerequisites": ["sva-grund-2/ecology-recycling-debate"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,110 @@
+{
+  "items": [
+    {
+      "id": "lamna-in",
+      "sv": "lämna in",
+      "translations": { "ru": "подавать (документ)", "en": "to submit, hand in" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "lämna in", "present": "lämnar in", "past": "lämnade in", "supine": "lämnat in" },
+      "example": { "sv": "Ansökan lämnas in senast den 1 juni.", "ru": "Заявление подаётся не позднее 1 июня.", "en": "The application is submitted no later than June 1." }
+    },
+    {
+      "id": "besvara",
+      "sv": "besvara",
+      "translations": { "ru": "отвечать на (что-л.)", "en": "to answer (something)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "besvara", "present": "besvarar", "past": "besvarade", "supine": "besvarat" }
+    },
+    {
+      "id": "salja",
+      "sv": "sälja",
+      "translations": { "ru": "продавать", "en": "to sell" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sälja", "present": "säljer", "past": "sålde", "supine": "sålt" }
+    },
+    {
+      "id": "forbjuda",
+      "sv": "förbjuda",
+      "translations": { "ru": "запрещать", "en": "to prohibit, forbid" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förbjuda", "present": "förbjuder", "past": "förbjöd", "supine": "förbjudit" },
+      "example": { "sv": "Rökning är förbjuden här.", "ru": "Курение здесь запрещено.", "en": "Smoking is prohibited here." }
+    },
+    {
+      "id": "anmalan",
+      "sv": "anmälan",
+      "translations": { "ru": "запись, заявка", "en": "registration, notification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "anmälan", "defSg": "anmälan", "indefPl": "anmälningar", "defPl": "anmälningarna" }
+    },
+    {
+      "id": "gora",
+      "sv": "göra",
+      "translations": { "ru": "делать", "en": "to do" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "göra", "present": "gör", "past": "gjorde", "supine": "gjort" }
+    },
+    {
+      "id": "byggnad",
+      "sv": "byggnad",
+      "translations": { "ru": "здание", "en": "building" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "byggnad", "defSg": "byggnaden", "indefPl": "byggnader", "defPl": "byggnaderna" }
+    },
+    {
+      "id": "reception",
+      "sv": "reception",
+      "translations": { "ru": "ресепшен, стойка регистрации", "en": "reception, front desk" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "reception", "defSg": "receptionen", "indefPl": "receptioner", "defPl": "receptionerna" }
+    },
+    {
+      "id": "biljett",
+      "sv": "biljett",
+      "translations": { "ru": "билет", "en": "ticket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "biljett", "defSg": "biljetten", "indefPl": "biljetter", "defPl": "biljetterna" }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление, заявка", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" }
+    },
+    {
+      "id": "senast",
+      "sv": "senast",
+      "translations": { "ru": "не позднее", "en": "at the latest, no later than" },
+      "pos": "adv"
+    },
+    {
+      "id": "automatiskt",
+      "sv": "automatiskt",
+      "translations": { "ru": "автоматически", "en": "automatically" },
+      "pos": "adv"
+    },
+    {
+      "id": "officiell",
+      "sv": "officiell",
+      "translations": { "ru": "официальный", "en": "official" },
+      "pos": "adj"
+    },
+    {
+      "id": "vardaglig",
+      "sv": "vardaglig",
+      "translations": { "ru": "повседневный, бытовой", "en": "everyday, casual" },
+      "pos": "adj"
+    }
+  ]
+}

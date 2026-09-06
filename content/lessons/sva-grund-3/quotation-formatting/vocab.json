@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "id": "direkt-anforing",
+      "sv": "direkt anföring",
+      "translations": { "ru": "прямая речь", "en": "direct speech" },
+      "pos": "phrase",
+      "example": { "sv": "”Jag kommer imorgon”, säger Anna.", "ru": "«Я приду завтра», — говорит Анна.", "en": "\"I'm coming tomorrow,\" says Anna." }
+    },
+    {
+      "id": "indirekt-anforing",
+      "sv": "indirekt anföring",
+      "translations": { "ru": "косвенная речь", "en": "reported (indirect) speech" },
+      "pos": "phrase",
+      "example": { "sv": "Anna säger att hon kommer imorgon.", "ru": "Анна говорит, что придёт завтра.", "en": "Anna says that she's coming tomorrow." }
+    },
+    {
+      "id": "saga",
+      "sv": "säga",
+      "translations": { "ru": "говорить, сказать", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" }
+    },
+    {
+      "id": "fraga-verb",
+      "sv": "fråga",
+      "translations": { "ru": "спрашивать", "en": "to ask" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" }
+    },
+    {
+      "id": "enligt",
+      "sv": "enligt",
+      "translations": { "ru": "согласно, по (словам кого-то)", "en": "according to" },
+      "pos": "prep",
+      "example": { "sv": "Enligt en artikel i Dagens Nyheter ökar antalet cyklister.", "ru": "Согласно статье в Dagens Nyheter, число велосипедистов растёт.", "en": "According to an article in Dagens Nyheter, the number of cyclists is increasing." }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    },
+    {
+      "id": "kallhanvisning",
+      "sv": "källhänvisning",
+      "translations": { "ru": "ссылка на источник", "en": "source reference, citation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" }
+    },
+    {
+      "id": "referat",
+      "sv": "referat",
+      "translations": { "ru": "пересказ, реферат (текста)", "en": "summary, report (of a text)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett referat", "defSg": "referatet", "indefPl": "referat", "defPl": "referaten" }
+    },
+    {
+      "id": "skribent",
+      "sv": "skribent",
+      "translations": { "ru": "автор, пишущий (статьи)", "en": "writer, author (of an article)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skribent", "defSg": "skribenten", "indefPl": "skribenter", "defPl": "skribenterna" }
+    },
+    {
+      "id": "framga",
+      "sv": "framgå",
+      "translations": { "ru": "явствовать, следовать (из текста)", "en": "to be evident, to emerge (from a text)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "framgå", "present": "framgår", "past": "framgick", "supine": "framgått" },
+      "example": { "sv": "I artikeln framgår det att situationen har förbättrats.", "ru": "Из статьи следует, что ситуация улучшилась.", "en": "The article shows that the situation has improved." }
+    },
+    {
+      "id": "artikel",
+      "sv": "artikel",
+      "translations": { "ru": "статья", "en": "article" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" }
+    }
+  ]
+}

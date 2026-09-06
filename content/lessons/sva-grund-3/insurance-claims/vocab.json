@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "forsakring",
+      "sv": "försäkring",
+      "translations": { "ru": "страховка, страхование", "en": "insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en försäkring", "defSg": "försäkringen", "indefPl": "försäkringar", "defPl": "försäkringarna" },
+      "example": { "sv": "Du bör ha en försäkring för din bostad.", "ru": "У тебя должна быть страховка на жильё.", "en": "You should have insurance for your home." }
+    },
+    {
+      "id": "hemforsakring",
+      "sv": "hemförsäkring",
+      "translations": { "ru": "страхование жилья (домашнего имущества)", "en": "home insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hemförsäkring", "defSg": "hemförsäkringen", "indefPl": "hemförsäkringar", "defPl": "hemförsäkringarna" },
+      "example": { "sv": "Hemförsäkringen täcker bland annat brand och inbrott.", "ru": "Страхование жилья покрывает, в частности, пожар и кражу со взломом.", "en": "Home insurance covers, among other things, fire and burglary." }
+    },
+    {
+      "id": "olycksfallsforsakring",
+      "sv": "olycksfallsförsäkring",
+      "translations": { "ru": "страхование от несчастных случаев", "en": "accident insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en olycksfallsförsäkring", "defSg": "olycksfallsförsäkringen", "indefPl": "olycksfallsförsäkringar", "defPl": "olycksfallsförsäkringarna" },
+      "example": { "sv": "Barnen har en olycksfallsförsäkring genom kommunen.", "ru": "У детей есть страхование от несчастных случаев через коммуну.", "en": "The children have accident insurance through the municipality." }
+    },
+    {
+      "id": "reseforsakring",
+      "sv": "reseförsäkring",
+      "translations": { "ru": "туристическая (путешественная) страховка", "en": "travel insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reseförsäkring", "defSg": "reseförsäkringen", "indefPl": "reseförsäkringar", "defPl": "reseförsäkringarna" },
+      "example": { "sv": "Kolla att din reseförsäkring gäller utomlands.", "ru": "Проверь, действует ли твоя туристическая страховка за границей.", "en": "Check that your travel insurance is valid abroad." }
+    },
+    {
+      "id": "livforsakring",
+      "sv": "livförsäkring",
+      "translations": { "ru": "страхование жизни", "en": "life insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en livförsäkring", "defSg": "livförsäkringen", "indefPl": "livförsäkringar", "defPl": "livförsäkringarna" },
+      "example": { "sv": "En livförsäkring ger ekonomiskt skydd till familjen.", "ru": "Страхование жизни даёт финансовую защиту семье.", "en": "Life insurance gives the family financial protection." }
+    },
+    {
+      "id": "forsakringsvillkor",
+      "sv": "försäkringsvillkor",
+      "translations": { "ru": "условия страхования (полиса)", "en": "insurance terms and conditions" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Läs försäkringsvillkoren innan du tecknar avtalet.", "ru": "Прочитай условия страхования, прежде чем заключать договор.", "en": "Read the insurance terms before signing the contract." }
+    },
+    {
+      "id": "skadeanmalan",
+      "sv": "skadeanmälan",
+      "translations": { "ru": "заявление о страховом случае", "en": "insurance claim" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skadeanmälan", "defSg": "skadeanmälan", "indefPl": "skadeanmälningar", "defPl": "skadeanmälningarna" },
+      "example": { "sv": "Jag gjorde en skadeanmälan direkt efter inbrottet.", "ru": "Я сразу же подал(а) заявление о страховом случае после кражи со взломом.", "en": "I filed an insurance claim right after the burglary." }
+    },
+    {
+      "id": "sjalvrisk",
+      "sv": "självrisk",
+      "translations": { "ru": "франшиза (сумма, которую платит сам страхователь)", "en": "deductible, excess" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en självrisk", "defSg": "självrisken", "indefPl": "självrisker", "defPl": "självriskerna" },
+      "example": { "sv": "Självrisken är 1500 kronor för den här skadan.", "ru": "Франшиза по этому страховому случаю — 1500 крон.", "en": "The deductible for this claim is 1,500 kronor." }
+    },
+    {
+      "id": "ersattning",
+      "sv": "ersättning",
+      "translations": { "ru": "компенсация, возмещение", "en": "compensation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ersättning", "defSg": "ersättningen", "indefPl": "ersättningar", "defPl": "ersättningarna" },
+      "example": { "sv": "Försäkringsbolaget betalade ut ersättning efter en vecka.", "ru": "Страховая компания выплатила компенсацию через неделю.", "en": "The insurance company paid out compensation after a week." }
+    },
+    {
+      "id": "forsakringsbolag",
+      "sv": "försäkringsbolag",
+      "translations": { "ru": "страховая компания", "en": "insurance company" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett försäkringsbolag", "defSg": "försäkringsbolaget", "indefPl": "försäkringsbolag", "defPl": "försäkringsbolagen" },
+      "example": { "sv": "Jämför flera försäkringsbolag innan du väljer.", "ru": "Сравни несколько страховых компаний перед выбором.", "en": "Compare several insurance companies before choosing." }
+    },
+    {
+      "id": "forsakringstagare",
+      "sv": "försäkringstagare",
+      "translations": { "ru": "страхователь (владелец полиса)", "en": "policyholder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en försäkringstagare", "defSg": "försäkringstagaren", "indefPl": "försäkringstagare", "defPl": "försäkringstagarna" },
+      "example": { "sv": "Försäkringstagaren måste anmäla skadan inom en viss tid.", "ru": "Страхователь обязан заявить об ущербе в определённый срок.", "en": "The policyholder must report the damage within a certain time." }
+    },
+    {
+      "id": "teckna-forsakring",
+      "sv": "teckna en försäkring",
+      "translations": { "ru": "оформить страховку", "en": "to take out an insurance policy" },
+      "pos": "verb",
+      "forms": { "infinitive": "teckna en försäkring", "present": "tecknar en försäkring", "past": "tecknade en försäkring", "supine": "tecknat en försäkring" },
+      "example": { "sv": "Jag tecknade en hemförsäkring när jag flyttade in.", "ru": "Я оформил(а) страховку жилья, когда переехал(а).", "en": "I took out home insurance when I moved in." }
+    },
+    {
+      "id": "galla",
+      "sv": "gälla",
+      "translations": { "ru": "действовать, быть в силе (о договоре, страховке)", "en": "to be valid, to apply" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "gälla", "present": "gäller", "past": "gällde", "supine": "gällt" },
+      "example": { "sv": "Försäkringen gäller i hela Norden.", "ru": "Страховка действует по всей Скандинавии.", "en": "The insurance is valid throughout the Nordic countries." }
+    },
+    {
+      "id": "tacka",
+      "sv": "täcka",
+      "translations": { "ru": "покрывать (расходы, ущерб)", "en": "to cover (costs, damage)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "täcka", "present": "täcker", "past": "täckte", "supine": "täckt" },
+      "example": { "sv": "Försäkringen täcker inte vattenskador i det här fallet.", "ru": "В этом случае страховка не покрывает ущерб от воды.", "en": "In this case, the insurance does not cover water damage." }
+    },
+    {
+      "id": "drabbas-av",
+      "sv": "drabbas av",
+      "translations": { "ru": "пострадать от (чего-то)", "en": "to be affected by, to suffer from" },
+      "pos": "verb",
+      "forms": { "infinitive": "drabbas av", "present": "drabbas av", "past": "drabbades av", "supine": "drabbats av" },
+      "example": { "sv": "Familjen drabbades av en vattenskada i källaren.", "ru": "Семья пострадала от ущерба от воды в подвале.", "en": "The family suffered water damage in the basement." }
+    },
+    {
+      "id": "premie",
+      "sv": "premie",
+      "translations": { "ru": "страховая премия (взнос)", "en": "insurance premium" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en premie", "defSg": "premien", "indefPl": "premier", "defPl": "premierna" },
+      "example": { "sv": "Premien höjdes efter skadan.", "ru": "Страховая премия выросла после страхового случая.", "en": "The premium went up after the claim." }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-complex-sentences-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Läraren undrade om eleven visste varför provet var flyttat» — сколько тут придаточных?", "en": "\"Läraren undrade om eleven visste varför provet var flyttat\" — how many subordinate clauses are there?" },
+      "choices": ["Одно", "Два, одно вложено в другое", "Три, все независимы друг от друга", "Ни одного"],
+      "answer": 1,
+      "explanation": { "ru": "«om eleven visste ...» — придаточное 1, а внутри него «varför provet var flyttat» — придаточное 2.", "en": "\"om eleven visste ...\" is clause 1, and \"varför provet var flyttat\" inside it is clause 2." }
+    },
+    {
+      "id": "q-complex-sentences-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В придаточном предложении, где стоит отрицание «inte» по правилу BIFF?", "en": "In a subordinate clause, where does the negation \"inte\" go according to BIFF?" },
+      "choices": ["После спрягаемого глагола", "Перед спрягаемым глаголом", "В самом конце придаточного", "Перед подлежащим"],
+      "answer": 1,
+      "explanation": { "ru": "BIFF: Bisats, Inte, Finita verbet, Före — «inte» стоит перед финитным глаголом.", "en": "BIFF: Bisats, Inte, Finita verbet, Före — \"inte\" goes before the finite verb." }
+    },
+    {
+      "id": "q-complex-sentences-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "«Han sa att han inte kunde komma, eftersom han var sjuk, fastän han hade lovat det» — от чего зависят все три придаточных?", "en": "\"Han sa att han inte kunde komma, eftersom han var sjuk, fastän han hade lovat det\" — what do all three subordinate clauses depend on?" },
+      "choices": ["Друг от друга по цепочке", "Все три — от одного и того же главного предложения", "Первое — от главного, остальные — друг от друга", "Ни от чего, они самостоятельны"],
+      "answer": 1
+    },
+    {
+      "id": "q-complex-sentences-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hon sa att hon ___ kunde komma. (отрицание перед глаголом, BIFF)" },
+      "answer": ["inte"]
+    },
+    {
+      "id": "q-complex-sentences-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Läraren undrade ___ eleven visste svaret. (вводит да/нет-придаточное)" },
+      "answer": ["om"]
+    },
+    {
+      "id": "q-complex-sentences-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Han kom inte, ___ han var sjuk. (придаточное причины)" },
+      "answer": ["eftersom"]
+    },
+    {
+      "id": "q-complex-sentences-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Hon gick ut, ___ hon hade lovat att stanna. (придаточное уступки)" },
+      "answer": ["fastän"]
+    },
+    {
+      "id": "q-complex-sentences-gap-5",
+      "type": "gap",
+      "prompt": { "sv": "Läraren undrade om eleven visste ___ provet var flyttat. (вводит вложенное придаточное причины/повода)" },
+      "answer": ["varför"]
+    },
+    {
+      "id": "q-complex-sentences-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В придаточном предложении спрягаемый глагол не может стоять на втором месте, как в главном (V2).", "en": "In a subordinate clause, the finite verb cannot be in second position the way it is in a main clause (V2)." },
+      "answer": true
+    },
+    {
+      "id": "q-complex-sentences-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Придаточное может содержать внутри себя другое придаточное.", "en": "A subordinate clause can contain another subordinate clause inside it." },
+      "answer": true
+    },
+    {
+      "id": "q-complex-sentences-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Если к одному главному предложению присоединено три придаточных подряд, они обязательно вложены друг в друга.", "en": "If three subordinate clauses in a row are attached to one main clause, they must be nested inside each other." },
+      "answer": false,
+      "explanation": { "ru": "Они могут просто идти цепочкой, каждое зависит напрямую от главного, а не друг от друга.", "en": "They can simply be chained, each depending directly on the main clause rather than on each other." }
+    },
+    {
+      "id": "q-complex-sentences-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери придаточное: «...что она не могла прийти».", "en": "Build the clause: \"...that she couldn't come.\"" },
+      "tokens": ["att", "hon", "inte", "kunde", "komma"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-complex-sentences-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Учитель спросил, знает ли ученик ответ.»", "en": "Build the sentence: \"The teacher wondered whether the student knew the answer.\"" },
+      "tokens": ["Läraren", "undrade", "om", "eleven", "visste", "svaret"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-complex-sentences-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь союз с типом придаточного", "en": "Match the conjunction with the type of clause it introduces" },
+      "pairs": [
+        ["om", "придаточное да/нет-вопроса / yes-no-question clause"],
+        ["eftersom", "придаточное причины / reason clause"],
+        ["fastän", "уступительное придаточное / concessive clause"],
+        ["varför", "придаточное причины/повода в косвенном вопросе / indirect why-question clause"]
+      ]
+    }
+  ]
+}

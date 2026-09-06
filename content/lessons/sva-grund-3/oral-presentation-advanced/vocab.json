@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "bra-fraga-lat-mig-forklara",
+      "sv": "bra fråga, låt mig förklara",
+      "translations": { "ru": "хороший вопрос, позвольте мне объяснить", "en": "good question, let me explain" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-atterkommer-jag-till",
+      "sv": "det återkommer jag till om en liten stund",
+      "translations": { "ru": "я вернусь к этому чуть позже", "en": "I'll come back to that in a moment" },
+      "pos": "phrase"
+    },
+    {
+      "id": "som-ni-ser-pa-bilden",
+      "sv": "som ni ser på bilden",
+      "translations": { "ru": "как вы видите на изображении", "en": "as you see in the picture" },
+      "pos": "phrase",
+      "example": { "sv": "Som ni ser på bilden, ökade befolkningen kraftigt.", "ru": "Как вы видите на изображении, население сильно выросло.", "en": "As you see in the picture, the population grew sharply." }
+    },
+    {
+      "id": "om-vi-tittar-pa-nasta-bild",
+      "sv": "om vi tittar på nästa bild",
+      "translations": { "ru": "если посмотреть на следующее изображение", "en": "if we look at the next slide" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-ska-halla-mig-till-tiden",
+      "sv": "jag ska hålla mig till tiden",
+      "translations": { "ru": "я буду придерживаться регламента", "en": "I'll stick to the time" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-har-ungefar-x-minuter-kvar",
+      "sv": "jag har ungefär fem minuter kvar",
+      "translations": { "ru": "у меня осталось около пяти минут", "en": "I have about five minutes left" },
+      "pos": "phrase"
+    },
+    {
+      "id": "innan-jag-avslutar-vill-jag-saga",
+      "sv": "innan jag avslutar vill jag säga",
+      "translations": { "ru": "прежде чем закончить, хочу сказать", "en": "before I finish, I want to say" },
+      "pos": "phrase"
+    },
+    {
+      "id": "finns-det-nagra-fragor",
+      "sv": "finns det några frågor?",
+      "translations": { "ru": "есть вопросы?", "en": "are there any questions?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-var-en-bra-poang",
+      "sv": "det var en bra poäng",
+      "translations": { "ru": "это хорошее замечание", "en": "that was a good point" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-ar-inte-helt-saker-men",
+      "sv": "jag är inte helt säker, men...",
+      "translations": { "ru": "я не совсем уверен(а), но...", "en": "I'm not entirely sure, but..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "illustrera",
+      "sv": "illustrera",
+      "translations": { "ru": "иллюстрировать, показывать наглядно", "en": "to illustrate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "illustrera", "present": "illustrerar", "past": "illustrerade", "supine": "illustrerat" }
+    },
+    {
+      "id": "diagram",
+      "sv": "diagram",
+      "translations": { "ru": "диаграмма, график", "en": "diagram, chart" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett diagram", "defSg": "diagrammet", "indefPl": "diagram", "defPl": "diagrammen" }
+    },
+    {
+      "id": "presentation-oral",
+      "sv": "presentation",
+      "translations": { "ru": "презентация, доклад", "en": "presentation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en presentation", "defSg": "presentationen", "indefPl": "presentationer", "defPl": "presentationerna" }
+    },
+    {
+      "id": "publik",
+      "sv": "publik",
+      "translations": { "ru": "публика, аудитория", "en": "audience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+    },
+    {
+      "id": "tidsram",
+      "sv": "tidsram",
+      "translations": { "ru": "временные рамки, регламент", "en": "timeframe" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidsram", "defSg": "tidsramen", "indefPl": "tidsramar", "defPl": "tidsramarna" }
+    },
+    {
+      "id": "sammanfatta-oral",
+      "sv": "sammanfatta",
+      "translations": { "ru": "подводить итог, резюмировать", "en": "to summarize" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" }
+    }
+  ]
+}

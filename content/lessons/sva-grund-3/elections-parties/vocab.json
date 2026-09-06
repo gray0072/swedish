@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "val",
+      "sv": "val",
+      "translations": { "ru": "выборы", "en": "election" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett val", "defSg": "valet", "indefPl": "val", "defPl": "valen" },
+      "example": { "sv": "Val till riksdagen hålls vart fjärde år.", "ru": "Выборы в риксдаг проходят раз в четыре года.", "en": "Elections to the Riksdag are held every four years." }
+    },
+    {
+      "id": "rosta",
+      "sv": "rösta",
+      "translations": { "ru": "голосовать", "en": "to vote" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rösta", "present": "röstar", "past": "röstade", "supine": "röstat" },
+      "example": { "sv": "Alla svenska medborgare över 18 år får rösta.", "ru": "Все шведские граждане старше 18 лет могут голосовать.", "en": "All Swedish citizens over 18 may vote." }
+    },
+    {
+      "id": "valsedel",
+      "sv": "valsedel",
+      "translations": { "ru": "избирательный бюллетень", "en": "ballot paper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en valsedel", "defSg": "valsedeln", "indefPl": "valsedlar", "defPl": "valsedlarna" },
+      "example": { "sv": "Man lägger sin valsedel i ett kuvert.", "ru": "Бюллетень кладут в конверт.", "en": "You put your ballot paper in an envelope." }
+    },
+    {
+      "id": "mandat",
+      "sv": "mandat",
+      "translations": { "ru": "мандат (место в парламенте)", "en": "seat (in parliament), mandate" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mandat", "defSg": "mandatet", "indefPl": "mandat", "defPl": "mandaten" },
+      "example": { "sv": "Riksdagen har 349 mandat.", "ru": "В риксдаге 349 мандатов.", "en": "The Riksdag has 349 seats." }
+    },
+    {
+      "id": "riksdagsparti",
+      "sv": "riksdagsparti",
+      "translations": { "ru": "парламентская партия", "en": "parliamentary party" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett riksdagsparti", "defSg": "riksdagspartiet", "indefPl": "riksdagspartier", "defPl": "riksdagspartierna" },
+      "example": { "sv": "Sverige har flera riksdagspartier.", "ru": "В Швеции несколько парламентских партий.", "en": "Sweden has several parliamentary parties." }
+    },
+    {
+      "id": "regering",
+      "sv": "regering",
+      "translations": { "ru": "правительство", "en": "government" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" },
+      "example": { "sv": "Regeringen bildas efter valet.", "ru": "Правительство формируется после выборов.", "en": "The government is formed after the election." }
+    },
+    {
+      "id": "opposition",
+      "sv": "opposition",
+      "translations": { "ru": "оппозиция", "en": "opposition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en opposition", "defSg": "oppositionen", "indefPl": "oppositioner", "defPl": "oppositionerna" },
+      "example": { "sv": "Oppositionen kritiserar regeringens förslag.", "ru": "Оппозиция критикует предложение правительства.", "en": "The opposition criticises the government's proposal." }
+    },
+    {
+      "id": "valjare",
+      "sv": "väljare",
+      "translations": { "ru": "избиратель", "en": "voter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väljare", "defSg": "väljaren", "indefPl": "väljare", "defPl": "väljarna" },
+      "example": { "sv": "Partierna vill övertyga fler väljare.", "ru": "Партии хотят убедить больше избирателей.", "en": "The parties want to convince more voters." }
+    },
+    {
+      "id": "valkrets",
+      "sv": "valkrets",
+      "translations": { "ru": "избирательный округ", "en": "constituency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en valkrets", "defSg": "valkretsen", "indefPl": "valkretsar", "defPl": "valkretsarna" },
+      "example": { "sv": "Landet är indelat i flera valkretsar.", "ru": "Страна разделена на несколько избирательных округов.", "en": "The country is divided into several constituencies." }
+    },
+    {
+      "id": "riksdagsval",
+      "sv": "riksdagsval",
+      "translations": { "ru": "выборы в парламент (риксдаг)", "en": "parliamentary election" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett riksdagsval", "defSg": "riksdagsvalet", "indefPl": "riksdagsval", "defPl": "riksdagsvalen" },
+      "example": { "sv": "Riksdagsvalet äger rum samma dag som kommunalvalet.", "ru": "Выборы в риксдаг проходят в тот же день, что и коммунальные выборы.", "en": "The parliamentary election takes place on the same day as the municipal election." }
+    },
+    {
+      "id": "kommunalval",
+      "sv": "kommunalval",
+      "translations": { "ru": "коммунальные (муниципальные) выборы", "en": "municipal election" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kommunalval", "defSg": "kommunalvalet", "indefPl": "kommunalval", "defPl": "kommunalvalen" },
+      "example": { "sv": "I kommunalvalet väljer man politiker till kommunfullmäktige.", "ru": "На коммунальных выборах выбирают политиков в коммунальное собрание.", "en": "In the municipal election, people elect politicians to the municipal council." }
+    },
+    {
+      "id": "valdeltagande",
+      "sv": "valdeltagande",
+      "translations": { "ru": "явка на выборах", "en": "voter turnout" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Valdeltagandet i Sverige brukar vara högt.", "ru": "Явка на выборах в Швеции обычно высокая.", "en": "Voter turnout in Sweden is usually high." }
+    },
+    {
+      "id": "fyraprocentsparren",
+      "sv": "fyraprocentsspärren",
+      "translations": { "ru": "четырёхпроцентный барьер", "en": "the four-percent threshold" },
+      "pos": "noun",
+      "note": { "ru": "Партия должна получить минимум 4% голосов, чтобы попасть в риксдаг.", "en": "A party must win at least 4% of the vote to enter the Riksdag." },
+      "example": { "sv": "Ett parti måste ta sig över fyraprocentsspärren.", "ru": "Партии нужно преодолеть четырёхпроцентный барьер.", "en": "A party has to get past the four-percent threshold." }
+    },
+    {
+      "id": "koalition",
+      "sv": "koalition",
+      "translations": { "ru": "коалиция", "en": "coalition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en koalition", "defSg": "koalitionen", "indefPl": "koalitioner", "defPl": "koalitionerna" },
+      "example": { "sv": "Flera partier bildade en koalition.", "ru": "Несколько партий образовали коалицию.", "en": "Several parties formed a coalition." }
+    },
+    {
+      "id": "regeringsbildning",
+      "sv": "regeringsbildning",
+      "translations": { "ru": "формирование правительства", "en": "government formation" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Regeringsbildningen tog flera veckor efter valet.", "ru": "Формирование правительства заняло несколько недель после выборов.", "en": "Government formation took several weeks after the election." }
+    },
+    {
+      "id": "folkomrostning",
+      "sv": "folkomröstning",
+      "translations": { "ru": "референдум", "en": "referendum" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en folkomröstning", "defSg": "folkomröstningen", "indefPl": "folkomröstningar", "defPl": "folkomröstningarna" },
+      "example": { "sv": "Sverige har haft några få folkomröstningar.", "ru": "В Швеции было проведено несколько референдумов.", "en": "Sweden has held a few referendums." }
+    }
+  ]
+}

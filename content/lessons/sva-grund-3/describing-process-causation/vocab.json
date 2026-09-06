@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "id": "process",
+      "sv": "process",
+      "translations": { "ru": "процесс", "en": "process" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en process", "defSg": "processen", "indefPl": "processer", "defPl": "processerna" }
+    },
+    {
+      "id": "processen-inleds-med",
+      "sv": "processen inleds med",
+      "translations": { "ru": "процесс начинается с", "en": "the process begins with" },
+      "pos": "phrase",
+      "example": { "sv": "Processen inleds med att en ansökan skickas in.", "ru": "Процесс начинается с подачи заявления.", "en": "The process begins with an application being submitted." }
+    },
+    {
+      "id": "inleda",
+      "sv": "inleda",
+      "translations": { "ru": "начинать, открывать (процесс)", "en": "to begin, to initiate" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "inleda", "present": "inleder", "past": "inledde", "supine": "inlett" }
+    },
+    {
+      "id": "fortga",
+      "sv": "fortgå",
+      "translations": { "ru": "продолжаться, идти дальше", "en": "to proceed, to continue" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "fortgå", "present": "fortgår", "past": "fortgick", "supine": "fortgått" },
+      "example": { "sv": "Därefter fortgår handläggningen under flera veckor.", "ru": "После этого рассмотрение продолжается несколько недель.", "en": "After that, the processing continues for several weeks." }
+    },
+    {
+      "id": "avslutas",
+      "sv": "avslutas",
+      "translations": { "ru": "завершаться", "en": "to be concluded, to end" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "avslutas", "present": "avslutas", "past": "avslutades", "supine": "avslutats" },
+      "note": { "ru": "S-глагол (пассивная форма от avsluta).", "en": "An s-verb (passive form of avsluta)." },
+      "example": { "sv": "Processen avslutas med ett skriftligt beslut.", "ru": "Процесс завершается письменным решением.", "en": "The process concludes with a written decision." }
+    },
+    {
+      "id": "steg-process",
+      "sv": "steg",
+      "translations": { "ru": "шаг, этап", "en": "step" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett steg", "defSg": "steget", "indefPl": "steg", "defPl": "stegen" }
+    },
+    {
+      "id": "leda-till",
+      "sv": "leda till",
+      "translations": { "ru": "приводить к, вести к", "en": "to lead to" },
+      "pos": "phrase",
+      "example": { "sv": "Detta leder till att myndigheten begär in fler dokument.", "ru": "Это приводит к тому, что ведомство запрашивает больше документов.", "en": "This leads to the authority requesting more documents." }
+    },
+    {
+      "id": "det-har-leder-i-sin-tur-till",
+      "sv": "det här leder i sin tur till",
+      "translations": { "ru": "это, в свою очередь, приводит к", "en": "this in turn leads to" },
+      "pos": "phrase",
+      "example": { "sv": "Det här leder i sin tur till en längre väntetid.", "ru": "Это, в свою очередь, приводит к более долгому ожиданию.", "en": "This, in turn, leads to a longer waiting time." }
+    },
+    {
+      "id": "i-sin-tur",
+      "sv": "i sin tur",
+      "translations": { "ru": "в свою очередь", "en": "in turn" },
+      "pos": "phrase"
+    },
+    {
+      "id": "orsak",
+      "sv": "orsak",
+      "translations": { "ru": "причина", "en": "cause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+    },
+    {
+      "id": "konsekvens",
+      "sv": "konsekvens",
+      "translations": { "ru": "последствие", "en": "consequence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" }
+    },
+    {
+      "id": "orsak-och-verkan",
+      "sv": "orsak och verkan",
+      "translations": { "ru": "причина и следствие", "en": "cause and effect" },
+      "pos": "phrase"
+    },
+    {
+      "id": "som-ett-resultat-av-detta",
+      "sv": "som ett resultat av detta",
+      "translations": { "ru": "в результате этого", "en": "as a result of this" },
+      "pos": "phrase",
+      "example": { "sv": "Som ett resultat av detta kan hela processen ta flera månader.", "ru": "В результате весь процесс может занять несколько месяцев.", "en": "As a result of this, the whole process can take several months." }
+    },
+    {
+      "id": "till-foljd-av",
+      "sv": "till följd av",
+      "translations": { "ru": "вследствие, в результате", "en": "as a consequence of" },
+      "pos": "phrase",
+      "example": { "sv": "Till följd av den nya lagen har handläggningstiden förkortats.", "ru": "Вследствие нового закона время рассмотрения сократилось.", "en": "As a consequence of the new law, the processing time has been shortened." }
+    },
+    {
+      "id": "bero-pa",
+      "sv": "bero på",
+      "translations": { "ru": "зависеть от, объясняться (чем-л.)", "en": "to be due to, to depend on" },
+      "pos": "phrase",
+      "example": { "sv": "Väntetiden beror på hur många ärenden som är öppna.", "ru": "Время ожидания зависит от того, сколько дел открыто.", "en": "The waiting time depends on how many cases are open." }
+    },
+    {
+      "id": "medfora",
+      "sv": "medföra",
+      "translations": { "ru": "влечь за собой, приносить (следствие)", "en": "to bring about, to entail" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "medföra", "present": "medför", "past": "medförde", "supine": "medfört" }
+    },
+    {
+      "id": "paverka",
+      "sv": "påverka",
+      "translations": { "ru": "влиять на", "en": "to affect, to influence" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" }
+    },
+    {
+      "id": "utlosa",
+      "sv": "utlösa",
+      "translations": { "ru": "вызывать, запускать (процесс)", "en": "to trigger" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "utlösa", "present": "utlöser", "past": "utlöste", "supine": "utlöst" }
+    },
+    {
+      "id": "forlopp",
+      "sv": "förlopp",
+      "translations": { "ru": "ход событий, течение (процесса)", "en": "course (of events)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett förlopp", "defSg": "förloppet", "indefPl": "förlopp", "defPl": "förloppen" }
+    }
+  ]
+}

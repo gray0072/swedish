@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "phrase-vem-har-skrivit",
+      "sv": "Vem har skrivit texten och varför?",
+      "translations": { "ru": "Кто написал текст и зачем?", "en": "Who wrote the text and why?" },
+      "pos": "phrase",
+      "example": { "sv": "Innan jag litar på artikeln frågar jag: Vem har skrivit texten och varför?", "ru": "Прежде чем доверять статье, я спрашиваю: «Кто написал текст и зачем?»", "en": "Before I trust the article, I ask: Who wrote the text and why?" }
+    },
+    {
+      "id": "phrase-ar-kallan-palitlig",
+      "sv": "Är källan pålitlig?",
+      "translations": { "ru": "Надёжен ли источник?", "en": "Is the source reliable?" },
+      "pos": "phrase",
+      "example": { "sv": "Är källan pålitlig, eller är det ett okänt konto på nätet?", "ru": "Надёжен ли источник, или это неизвестный аккаунт в интернете?", "en": "Is the source reliable, or is it an unknown account online?" }
+    },
+    {
+      "id": "phrase-texten-verkar-vinklad",
+      "sv": "Texten verkar vinklad.",
+      "translations": { "ru": "Текст кажется предвзятым (поданным под определённым углом).", "en": "The text seems slanted." },
+      "pos": "phrase",
+      "example": { "sv": "Texten verkar vinklad eftersom bara en sida får komma till tals.", "ru": "Текст кажется предвзятым, потому что высказывается только одна сторона.", "en": "The text seems slanted because only one side gets to speak." }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Journalisten uppgav sin källa i artikeln.", "ru": "Журналист указал свой источник в статье.", "en": "The journalist named the source in the article." }
+    },
+    {
+      "id": "avsandare",
+      "sv": "avsändare",
+      "translations": { "ru": "отправитель, автор сообщения", "en": "sender, originator (of a message)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avsändare", "defSg": "avsändaren", "indefPl": "avsändare", "defPl": "avsändarna" },
+      "example": { "sv": "Vem är avsändaren bakom det här inlägget?", "ru": "Кто автор этого сообщения?", "en": "Who is the sender behind this post?" }
+    },
+    {
+      "id": "syfte",
+      "sv": "syfte",
+      "translations": { "ru": "цель, назначение", "en": "purpose" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett syfte", "defSg": "syftet", "indefPl": "syften", "defPl": "syftena" },
+      "example": { "sv": "Vad är syftet med den här texten?", "ru": "Какова цель этого текста?", "en": "What is the purpose of this text?" }
+    },
+    {
+      "id": "trovardighet",
+      "sv": "trovärdighet",
+      "translations": { "ru": "надёжность, достоверность", "en": "credibility" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trovärdighet", "defSg": "trovärdigheten", "indefPl": "trovärdigheter", "defPl": "trovärdigheterna" },
+      "example": { "sv": "Trovärdigheten ökar om flera källor säger samma sak.", "ru": "Достоверность повышается, если несколько источников говорят одно и то же.", "en": "Credibility increases when several sources say the same thing." }
+    },
+    {
+      "id": "vinkling",
+      "sv": "vinkling",
+      "translations": { "ru": "предвзятая подача, угол освещения", "en": "slant, angle (in reporting)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vinkling", "defSg": "vinklingen", "indefPl": "vinklingar", "defPl": "vinklingarna" },
+      "example": { "sv": "Nyhetsvinklingen skiljde sig mellan olika tidningar.", "ru": "Подача новости отличалась в разных газетах.", "en": "The slant of the news story differed between newspapers." }
+    },
+    {
+      "id": "kallkritik",
+      "sv": "källkritik",
+      "translations": { "ru": "критическая оценка источника", "en": "source criticism" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källkritik", "defSg": "källkritiken", "indefPl": "källkritiker", "defPl": "källkritikerna" },
+      "example": { "sv": "Källkritik lärs ut redan i skolan.", "ru": "Критической оценке источников учат уже в школе.", "en": "Source criticism is taught already in school." }
+    },
+    {
+      "id": "opartisk",
+      "sv": "opartisk",
+      "translations": { "ru": "беспристрастный", "en": "impartial" },
+      "pos": "adj",
+      "example": { "sv": "En opartisk nyhetskälla presenterar flera perspektiv.", "ru": "Беспристрастный источник новостей представляет несколько точек зрения.", "en": "An impartial news source presents several perspectives." }
+    },
+    {
+      "id": "perspektiv",
+      "sv": "perspektiv",
+      "translations": { "ru": "точка зрения, перспектива", "en": "perspective" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett perspektiv", "defSg": "perspektivet", "indefPl": "perspektiv", "defPl": "perspektiven" },
+      "example": { "sv": "Texten saknar den andra partens perspektiv.", "ru": "В тексте не хватает точки зрения другой стороны.", "en": "The text is missing the other party's perspective." }
+    },
+    {
+      "id": "primarkalla",
+      "sv": "primärkälla",
+      "translations": { "ru": "первичный источник", "en": "primary source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en primärkälla", "defSg": "primärkällan", "indefPl": "primärkällor", "defPl": "primärkällorna" },
+      "example": { "sv": "Rapporten är en primärkälla för siffrorna.", "ru": "Отчёт является первичным источником для этих цифр.", "en": "The report is a primary source for the figures." }
+    },
+    {
+      "id": "sekundarkalla",
+      "sv": "sekundärkälla",
+      "translations": { "ru": "вторичный источник", "en": "secondary source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sekundärkälla", "defSg": "sekundärkällan", "indefPl": "sekundärkällor", "defPl": "sekundärkällorna" },
+      "example": { "sv": "Artikeln är en sekundärkälla som bygger på rapporten.", "ru": "Статья — это вторичный источник, основанный на отчёте.", "en": "The article is a secondary source based on the report." }
+    },
+    {
+      "id": "faktagranskning",
+      "sv": "faktagranskning",
+      "translations": { "ru": "проверка фактов", "en": "fact-checking" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Faktagranskning visade att uppgiften var felaktig.", "ru": "Проверка фактов показала, что сведения были неверны.", "en": "Fact-checking showed that the claim was incorrect." }
+    },
+    {
+      "id": "desinformation",
+      "sv": "desinformation",
+      "translations": { "ru": "дезинформация", "en": "disinformation" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Myndigheten varnade för desinformation inför valet.", "ru": "Ведомство предупредило о дезинформации перед выборами.", "en": "The authority warned about disinformation ahead of the election." }
+    },
+    {
+      "id": "phrase-vilket-syfte",
+      "sv": "Vilket syfte har texten?",
+      "translations": { "ru": "Какова цель текста?", "en": "What is the purpose of the text?" },
+      "pos": "phrase",
+      "example": { "sv": "Fråga dig alltid: Vilket syfte har texten — att informera eller att övertyga?", "ru": "Всегда спрашивай себя: «Какова цель текста — информировать или убедить?»", "en": "Always ask yourself: What is the purpose of the text — to inform or to persuade?" }
+    }
+  ]
+}

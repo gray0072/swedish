@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/loanword-morphology",
+  "slug": "loanword-morphology",
+  "title": {
+    "sv": "Lånord och deras morfologi: en trend – trender, ett center – center",
+    "ru": "Заимствования и их морфология: en trend – trender, ett center – center",
+    "en": "Loanwords and their morphology: en trend – trender, ett center – center"
+  },
+  "summary": {
+    "ru": "Большинство заимствований подстраивается под нативные модели склонения — но несколько слов сопротивляются и их нужно запоминать отдельно.",
+    "en": "Most loanwords get assigned to a native declension pattern — but a handful resist and have to be memorised individually."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "nouns", "loanwords", "declension"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1460,
+  "prerequisites": ["sva-grund-1/noun-declensions"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

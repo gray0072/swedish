@@ -1,0 +1,150 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-consumer-rights-arn-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Право на рекламацию действует до трёх лет.»", "en": "Build the sentence: \"The right to make a complaint applies for up to three years.\"" },
+      "tokens": ["gäller", "Reklamationsrätten", "tre år.", "i upp till"],
+      "answer": [1, 0, 3, 2]
+    },
+    {
+      "id": "q-consumer-rights-arn-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если магазин не отвечает, можно подать заявление в ARN.»", "en": "Build the sentence: \"If the store does not respond, you can take the case to ARN.\"" },
+      "tokens": ["kan du anmäla", "Om butiken inte svarar", "ärendet till ARN."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-consumer-rights-arn-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["konsumenträtt", "право потребителя"],
+        ["reklamera", "предъявить претензию"],
+        ["tvist", "спор"],
+        ["kvitto", "чек"]
+      ]
+    },
+    {
+      "id": "q-consumer-rights-arn-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["ångerrätt", "право на отказ от покупки"],
+        ["öppet köp", "право на возврат по усмотрению"],
+        ["bevisbörda", "бремя доказывания"],
+        ["näringsidkare", "предприниматель"]
+      ]
+    },
+    {
+      "id": "q-consumer-rights-arn-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Обращение в ARN платное и требует найма адвоката.", "en": "Filing a case with ARN costs money and requires hiring a lawyer." },
+      "answer": false,
+      "explanation": {
+        "ru": "Обращение в ARN бесплатное и не требует адвоката.",
+        "en": "Filing a case with ARN is free and does not require a lawyer."
+      }
+    },
+    {
+      "id": "q-consumer-rights-arn-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Решение ARN — это обязательный судебный приговор.", "en": "ARN's decision is a legally binding court verdict." },
+      "answer": false,
+      "explanation": {
+        "ru": "Решение ARN — это рекомендация; большинство компаний следуют ей добровольно.",
+        "en": "ARN's decision is a recommendation; most companies follow it voluntarily."
+      }
+    },
+    {
+      "id": "q-consumer-rights-arn-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Öppet köp» гарантировано законом во всех магазинах Швеции.", "en": "\"Öppet köp\" is guaranteed by law in every Swedish store." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Öppet köp» не гарантировано законом — это добровольная политика конкретного магазина.",
+        "en": "\"Öppet köp\" is not guaranteed by law — it depends on the individual store's own policy."
+      }
+    },
+    {
+      "id": "q-consumer-rights-arn-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Ångerrätt» при онлайн-покупке обычно действует 14 дней.", "en": "The \"ångerrätt\" for an online purchase usually applies for 14 days." },
+      "answer": true
+    },
+    {
+      "id": "q-consumer-rights-arn-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ tvättmaskinen efter en månad. (подал(а) рекламацию на)" },
+      "answer": ["reklamerade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-consumer-rights-arn-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Spara alltid ___ om du behöver reklamera senare. (чек)" },
+      "answer": ["kvittot"],
+      "acceptAlso": ["kvitto"]
+    },
+    {
+      "id": "q-consumer-rights-arn-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Produkten har två års ___. (гарантия)" },
+      "answer": ["garanti"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-consumer-rights-arn-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Куда можно бесплатно обратиться, если продавец отказывается решать спор с потребителем?",
+        "en": "Where can you turn free of charge if a trader refuses to resolve a consumer dispute?"
+      },
+      "choices": ["ARN", "Skatteverket", "Arbetsmiljöverket", "Arbetsförmedlingen"],
+      "answer": 0
+    },
+    {
+      "id": "q-consumer-rights-arn-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «спор» между потребителем и продавцом?",
+        "en": "Which word means a \"dispute\" between a consumer and a trader?"
+      },
+      "choices": ["tvist", "kvitto", "garanti", "rekommendation"],
+      "answer": 0
+    },
+    {
+      "id": "q-consumer-rights-arn-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Сколько лет обычно действует право на рекламацию в Швеции?",
+        "en": "For how many years does the right to make a complaint usually apply in Sweden?"
+      },
+      "choices": ["tre år", "ett år", "tio år", "en månad"],
+      "answer": 0
+    }
+  ]
+}

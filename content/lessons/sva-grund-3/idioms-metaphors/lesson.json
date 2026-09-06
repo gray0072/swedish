@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/idioms-metaphors",
+  "slug": "idioms-metaphors",
+  "title": {
+    "sv": "Idiom, metaforer och fasta uttryck",
+    "ru": "Идиомы, метафоры и устойчивые сочетания",
+    "en": "Idioms, metaphors and fixed expressions"
+  },
+  "summary": {
+    "ru": "«Скользнуть на бутерброде с креветками» — почему нельзя понимать шведские идиомы дословно.",
+    "en": "\"To slide in on a shrimp sandwich\" — why you can't translate Swedish idioms literally."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "idioms", "vocabulary", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1440,
+  "prerequisites": [],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

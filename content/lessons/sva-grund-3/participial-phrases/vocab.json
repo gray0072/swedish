@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "le",
+      "sv": "le",
+      "translations": { "ru": "улыбаться", "en": "to smile" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "le", "present": "ler", "past": "log", "supine": "lett" },
+      "example": { "sv": "Leende gick hon in i rummet.", "ru": "Улыбаясь, она вошла в комнату.", "en": "Smiling, she entered the room." }
+    },
+    {
+      "id": "vissla",
+      "sv": "vissla",
+      "translations": { "ru": "свистеть, насвистывать", "en": "to whistle" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vissla", "present": "visslar", "past": "visslade", "supine": "visslat" }
+    },
+    {
+      "id": "skratta",
+      "sv": "skratta",
+      "translations": { "ru": "смеяться", "en": "to laugh" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skratta", "present": "skrattar", "past": "skrattade", "supine": "skrattat" }
+    },
+    {
+      "id": "lamna",
+      "sv": "lämna",
+      "translations": { "ru": "покидать, оставлять", "en": "to leave" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lämna", "present": "lämnar", "past": "lämnade", "supine": "lämnat" }
+    },
+    {
+      "id": "ga-in",
+      "sv": "gå in",
+      "translations": { "ru": "входить", "en": "to go in, enter" },
+      "pos": "verb",
+      "forms": { "infinitive": "gå in", "present": "går in", "past": "gick in", "supine": "gått in" }
+    },
+    {
+      "id": "rum",
+      "sv": "rum",
+      "translations": { "ru": "комната", "en": "room" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "rum", "defSg": "rummet", "indefPl": "rum", "defPl": "rummen" }
+    },
+    {
+      "id": "gata",
+      "sv": "gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" }
+    },
+    {
+      "id": "skola-noun",
+      "sv": "skola",
+      "translations": { "ru": "школа", "en": "school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" }
+    },
+    {
+      "id": "samtidigt",
+      "sv": "samtidigt",
+      "translations": { "ru": "одновременно", "en": "simultaneously, at the same time" },
+      "pos": "adv"
+    },
+    {
+      "id": "berattande",
+      "sv": "berättande",
+      "translations": { "ru": "повествовательный", "en": "narrative" },
+      "pos": "adj"
+    },
+    {
+      "id": "particip",
+      "sv": "particip",
+      "translations": { "ru": "причастие", "en": "participle" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" }
+    }
+  ]
+}

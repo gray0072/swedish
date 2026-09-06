@@ -1,0 +1,146 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-elections-parties-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Все шведские граждане старше 18 лет могут голосовать.»", "en": "Build the sentence: \"All Swedish citizens over 18 may vote.\"" },
+      "tokens": ["över 18 år", "medborgare", "Alla", "svenska", "får rösta."],
+      "answer": [2, 3, 1, 0, 4]
+    },
+    {
+      "id": "q-elections-parties-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Правительство формируется после выборов.»", "en": "Build the sentence: \"The government is formed after the election.\"" },
+      "tokens": ["bildas", "valet.", "Regeringen", "efter"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-elections-parties-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["val", "выборы"],
+        ["rösta", "голосовать"],
+        ["valsedel", "избирательный бюллетень"],
+        ["mandat", "мандат"]
+      ]
+    },
+    {
+      "id": "q-elections-parties-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["riksdagsparti", "парламентская партия"],
+        ["regering", "правительство"],
+        ["opposition", "оппозиция"],
+        ["väljare", "избиратель"]
+      ]
+    },
+    {
+      "id": "q-elections-parties-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Чтобы попасть в риксдаг, партии достаточно получить хотя бы один голос.", "en": "To enter the Riksdag, a party only needs a single vote." },
+      "answer": false,
+      "explanation": {
+        "ru": "Партии нужно набрать минимум 4% голосов — «fyraprocentsspärren».",
+        "en": "A party needs at least 4% of the vote — the \"fyraprocentsspärren\"."
+      }
+    },
+    {
+      "id": "q-elections-parties-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Выборы в риксдаг, регион и коммуну в Швеции проходят одновременно.", "en": "Elections to the Riksdag, the region and the municipality in Sweden are held at the same time." },
+      "answer": true
+    },
+    {
+      "id": "q-elections-parties-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Оппозиция — это партии, которые вошли в правительство.", "en": "The opposition consists of the parties that joined the government." },
+      "answer": false,
+      "explanation": {
+        "ru": "Оппозиция — это партии, которые не вошли в правительство и следят за его работой.",
+        "en": "The opposition is made up of parties that did not join the government and monitor its work."
+      }
+    },
+    {
+      "id": "q-elections-parties-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Folkomröstning» — это голосование напрямую по конкретному вопросу.", "en": "\"Folkomröstning\" is a direct vote on a specific question." },
+      "answer": true
+    },
+    {
+      "id": "q-elections-parties-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Riksdagen har 349 ___. (мандатов)" },
+      "answer": ["mandat"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-elections-parties-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Flera partier bildade en ___. (коалиция)" },
+      "answer": ["koalition"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-elections-parties-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Man lägger sin ___ i ett kuvert. (бюллетень)" },
+      "answer": ["valsedel"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-elections-parties-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как называется минимальный процент голосов, нужный партии для попадания в риксдаг?",
+        "en": "What is the minimum vote share a party needs to enter the Riksdag called?"
+      },
+      "choices": ["fyraprocentsspärren", "valdeltagande", "regeringsbildning", "folkomröstning"],
+      "answer": 0
+    },
+    {
+      "id": "q-elections-parties-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «явка на выборах»?",
+        "en": "Which word means \"voter turnout\"?"
+      },
+      "choices": ["valdeltagande", "valkrets", "mandat", "koalition"],
+      "answer": 0
+    },
+    {
+      "id": "q-elections-parties-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Кто из перечисленных критикует решения правительства?",
+        "en": "Which of the following criticises the government's decisions?"
+      },
+      "choices": ["oppositionen", "regeringen", "väljarna", "valkretsen"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/participial-phrases",
+  "slug": "participial-phrases",
+  "title": {
+    "sv": "Participfraser i stället för bisatser",
+    "ru": "Причастные обороты вместо придаточных",
+    "en": "Participial phrases in place of subordinate clauses"
+  },
+  "summary": {
+    "ru": "«Leende gick hon in» — как причастие сжимает целое придаточное предложение в письменном стиле.",
+    "en": "\"Leende gick hon in\" — how a participle compresses a whole subordinate clause in written style."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "written-style",
+    "participle"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1370,
+  "prerequisites": [
+    "sva-grund-2/present-participle"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

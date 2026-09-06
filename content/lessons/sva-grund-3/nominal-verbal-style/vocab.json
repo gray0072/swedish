@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": "genomforande",
+      "sv": "genomförande",
+      "translations": { "ru": "проведение, осуществление", "en": "carrying-out, implementation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett genomförande", "defSg": "genomförandet", "indefPl": "genomföranden", "defPl": "genomförandena" }
+    },
+    {
+      "id": "genomfora",
+      "sv": "genomföra",
+      "translations": { "ru": "проводить, осуществлять", "en": "to carry out, to implement" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "genomföra", "present": "genomför", "past": "genomförde", "supine": "genomfört" },
+      "example": { "sv": "Vi genomförde undersökningen.", "ru": "Мы провели исследование.", "en": "We carried out the investigation." }
+    },
+    {
+      "id": "granskning",
+      "sv": "granskning",
+      "translations": { "ru": "проверка, изучение", "en": "review, inspection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en granskning", "defSg": "granskningen", "indefPl": "granskningar", "defPl": "granskningarna" }
+    },
+    {
+      "id": "granska",
+      "sv": "granska",
+      "translations": { "ru": "проверять, изучать", "en": "to review, to examine" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+    },
+    {
+      "id": "utbetalning",
+      "sv": "utbetalning",
+      "translations": { "ru": "выплата", "en": "payout, disbursement" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbetalning", "defSg": "utbetalningen", "indefPl": "utbetalningar", "defPl": "utbetalningarna" }
+    },
+    {
+      "id": "betala-ut",
+      "sv": "betala ut",
+      "translations": { "ru": "выплачивать", "en": "to pay out, to disburse" },
+      "pos": "phrase",
+      "example": { "sv": "Vi betalar ut bidraget i början av månaden.", "ru": "Мы выплачиваем пособие в начале месяца.", "en": "We pay out the benefit at the start of the month." }
+    },
+    {
+      "id": "beslut",
+      "sv": "beslut",
+      "translations": { "ru": "решение", "en": "decision" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett beslut", "defSg": "beslutet", "indefPl": "beslut", "defPl": "besluten" }
+    },
+    {
+      "id": "fatta-beslut",
+      "sv": "fatta ett beslut",
+      "translations": { "ru": "принимать решение", "en": "to make a decision" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ske",
+      "sv": "ske",
+      "translations": { "ru": "происходить, случаться (канцелярское)", "en": "to occur, to take place (officialese)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ske", "present": "sker", "past": "skedde", "supine": "skett" }
+    },
+    {
+      "id": "aga-rum",
+      "sv": "äga rum",
+      "translations": { "ru": "иметь место, происходить (официально)", "en": "to take place (formal)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "resultera-i",
+      "sv": "resultera i",
+      "translations": { "ru": "приводить к, оборачиваться (чем-то)", "en": "to result in" },
+      "pos": "phrase",
+      "example": { "sv": "Undersökningen resulterade i nya rekommendationer.", "ru": "Исследование привело к новым рекомендациям.", "en": "The investigation resulted in new recommendations." }
+    },
+    {
+      "id": "klarsprak",
+      "sv": "klarspråk",
+      "translations": { "ru": "«ясный язык» (движение за простоту официальных текстов)", "en": "\"plain language\" (the movement for clearer official texts)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett klarspråk", "defSg": "klarspråket", "indefPl": "klarspråk", "defPl": "klarspråken" }
+    }
+  ]
+}

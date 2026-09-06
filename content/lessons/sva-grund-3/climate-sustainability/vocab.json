@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "klimatforandringar",
+      "sv": "klimatförändringar",
+      "translations": { "ru": "изменение климата", "en": "climate change" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klimatförändring", "defSg": "klimatförändringen", "indefPl": "klimatförändringar", "defPl": "klimatförändringarna" },
+      "example": { "sv": "Klimatförändringar påverkar redan väderleken över hela världen.", "ru": "Изменение климата уже влияет на погоду по всему миру.", "en": "Climate change is already affecting weather all over the world." }
+    },
+    {
+      "id": "hallbar-utveckling",
+      "sv": "hållbar utveckling",
+      "translations": { "ru": "устойчивое развитие", "en": "sustainable development" },
+      "pos": "phrase"
+    },
+    {
+      "id": "vaxthuseffekten",
+      "sv": "växthuseffekten",
+      "translations": { "ru": "парниковый эффект", "en": "the greenhouse effect" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно используется в определённой форме: växthuseffekten.", "en": "Usually used in the definite form: växthuseffekten." },
+      "example": { "sv": "Växthuseffekten gör att jordens temperatur stiger.", "ru": "Парниковый эффект приводит к росту температуры на Земле.", "en": "The greenhouse effect causes the Earth's temperature to rise." }
+    },
+    {
+      "id": "klimatomstallning",
+      "sv": "klimatomställning",
+      "translations": { "ru": "переход на новую климатическую политику", "en": "climate transition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klimatomställning", "defSg": "klimatomställningen", "indefPl": "klimatomställningar", "defPl": "klimatomställningarna" }
+    },
+    {
+      "id": "en-losning-skulle-kunna-vara-att",
+      "sv": "en lösning skulle kunna vara att...",
+      "translations": { "ru": "одним из решений могло бы стать...", "en": "one solution could be to..." },
+      "pos": "phrase",
+      "example": { "sv": "En lösning skulle kunna vara att satsa mer på förnybar energi.", "ru": "Одним из решений могло бы стать увеличение инвестиций в возобновляемую энергию.", "en": "One solution could be to invest more in renewable energy." }
+    },
+    {
+      "id": "det-storsta-problemet-ar-att",
+      "sv": "det största problemet är att...",
+      "translations": { "ru": "самая большая проблема в том, что...", "en": "the biggest problem is that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "vi-maste-agera-nu",
+      "sv": "vi måste agera nu",
+      "translations": { "ru": "мы должны действовать сейчас", "en": "we must act now" },
+      "pos": "phrase"
+    },
+    {
+      "id": "koldioxidutslapp",
+      "sv": "koldioxidutsläpp",
+      "translations": { "ru": "выбросы углекислого газа", "en": "carbon dioxide emissions" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett koldioxidutsläpp", "defSg": "koldioxidutsläppet", "indefPl": "koldioxidutsläpp", "defPl": "koldioxidutsläppen" }
+    },
+    {
+      "id": "fornybar-energi",
+      "sv": "förnybar energi",
+      "translations": { "ru": "возобновляемая энергия", "en": "renewable energy" },
+      "pos": "phrase"
+    },
+    {
+      "id": "minska-climate",
+      "sv": "minska",
+      "translations": { "ru": "уменьшать, снижать", "en": "to reduce" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" }
+    },
+    {
+      "id": "paverka",
+      "sv": "påverka",
+      "translations": { "ru": "влиять на", "en": "to affect, to impact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" }
+    },
+    {
+      "id": "konsekvens",
+      "sv": "konsekvens",
+      "translations": { "ru": "последствие", "en": "consequence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" }
+    },
+    {
+      "id": "globalt",
+      "sv": "globalt",
+      "translations": { "ru": "глобально, в мировом масштабе", "en": "globally" },
+      "pos": "adv"
+    },
+    {
+      "id": "pa-lang-sikt",
+      "sv": "på lång sikt",
+      "translations": { "ru": "в долгосрочной перспективе", "en": "in the long run" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-kort-sikt",
+      "sv": "på kort sikt",
+      "translations": { "ru": "в краткосрочной перспективе", "en": "in the short run" },
+      "pos": "phrase"
+    }
+  ]
+}

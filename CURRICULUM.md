@@ -92,23 +92,23 @@ Swedish system.
 | SFI kurs D | 3 | 25 | 20 |
 | SVA grund delkurs 1 | 45 | 25 | 20 |
 | SVA grund delkurs 2 | 45 | 25 | 20 |
-| SVA grund delkurs 3 | 0 | 25 | 20 |
+| SVA grund delkurs 3 | 45 | 25 | 20 |
 | SVA grund delkurs 4 | 0 | 25 | 20 |
 
-Lessons done in total: **116** (`npx tsx scripts/validate-content.ts` confirms the number).
-Grammar points planned in total: **160**, of which **40** now have a dedicated lesson
-(all of SVA grund delkurs 1 and 2).
+Lessons done in total: **161** (`npx tsx scripts/validate-content.ts` confirms the number).
+Grammar points planned in total: **160**, of which **60** now have a dedicated lesson
+(all of SVA grund delkurs 1, 2 and 3).
 
-All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1 and delkurs 2
-are both now complete: 20 grammar lessons plus all 25 thematic topics at each level,
-every one with bilingual (RU/EN) theory (`theory.md` + `theory_en.md`, picked by the
+All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1, 2 and 3 are
+all now complete: 20 grammar lessons plus all 25 thematic topics at each level, every
+one with bilingual (RU/EN) theory (`theory.md` + `theory_en.md`, picked by the
 study-language toggle). The thematic topics use the same vocab/phrases lesson pipeline
 as SFI rather than an actual reading-passage format — a few of them (reading a short
-story and retelling it, retelling what you heard, a referat with a cited source) were
-originally imagined as needing dedicated text-based mechanics the project doesn't have;
-for now they teach the vocabulary/phrases the skill needs instead. Delkurs 3–4 are still
-fully empty: a topic lesson there is work with a text (referat, argumentation,
-källkritik), and the project has no such lesson format yet.
+story and retelling it, retelling what you heard, a referat with a cited source, a
+literary text, poetry and song) were originally imagined as needing dedicated text-based
+mechanics the project doesn't have; for now they teach the vocabulary/phrases the skill
+needs instead. Delkurs 4 is still fully empty: a topic lesson there is work with a text
+(referat, argumentation, källkritik), and the project has no such lesson format yet.
 
 ---
 
@@ -505,54 +505,74 @@ argumentative; critical reading of sources; a conscious choice of style.
 
 ### Topics
 
-1. [ ] The interview and self-presentation — the extended version
-2. [ ] The work environment (arbetsmiljö) and conflicts at work
-3. [ ] Discrimination and equality — vocabulary and discussion
-4. [ ] The Swedish model: the state, the region, the municipality
-5. [ ] Elections and parties — neutral vocabulary
-6. [ ] Law and the courts: the basic concepts
-7. [ ] Insurance: types, the contract, making a claim
-8. [ ] Consumer rights and taking a case to ARN
-9. [ ] Media: the source, the author, the purpose of a text, reliability
-10. [ ] Fact versus opinion: how to tell them apart in a text
-11. [ ] An argumentative text with a counter-argument
-12. [ ] An oral presentation supported by notes
-13. [ ] Discussion: how to join in, object, agree, sum up
-14. [ ] A referat of an article with the source cited
-15. [ ] A literary text: the story, the character, the conflict
-16. [ ] Poetry and song: image and metaphor
-17. [ ] The history of Sweden through texts *(cross-references to `content/history/`)*
-18. [ ] Technology and privacy: data, surveillance, AI
-19. [ ] Climate and sustainable development — a discussion
-20. [ ] Migration and integration — a discussion in neutral vocabulary
-21. [ ] Comparing cultures: customs, etiquette, expectations
-22. [ ] The economy and the labour market: trends and statistics
-23. [ ] Health and prevention: an instructional text
-24. [ ] Describing a process and cause-and-effect relations
-25. [ ] Planning further study: upper-secondary level, SVA 1
+1. [x] The interview and self-presentation — the extended version — `sva-grund-3/interview-extended`
+2. [x] The work environment (arbetsmiljö) and conflicts at work — `sva-grund-3/work-environment-conflicts`
+3. [x] Discrimination and equality — vocabulary and discussion — `sva-grund-3/discrimination-equality`
+4. [x] The Swedish model: the state, the region, the municipality — `sva-grund-3/swedish-model`
+5. [x] Elections and parties — neutral vocabulary — `sva-grund-3/elections-parties`
+6. [x] Law and the courts: the basic concepts — `sva-grund-3/law-courts-basics`
+7. [x] Insurance: types, the contract, making a claim — `sva-grund-3/insurance-claims`
+8. [x] Consumer rights and taking a case to ARN — `sva-grund-3/consumer-rights-arn`
+9. [x] Media: the source, the author, the purpose of a text, reliability — `sva-grund-3/media-literacy`
+10. [x] Fact versus opinion: how to tell them apart in a text — `sva-grund-3/fact-vs-opinion`
+11. [x] An argumentative text with a counter-argument — `sva-grund-3/argumentative-counter-argument`
+12. [x] An oral presentation supported by notes — `sva-grund-3/oral-presentation-advanced`
+13. [x] Discussion: how to join in, object, agree, sum up — `sva-grund-3/discussion-skills`
+14. [x] A referat of an article with the source cited — `sva-grund-3/referat-with-source`
+15. [x] A literary text: the story, the character, the conflict — `sva-grund-3/literary-text-analysis`
+16. [x] Poetry and song: image and metaphor — `sva-grund-3/poetry-song-imagery`
+17. [x] The history of Sweden through texts *(cross-references to `content/history/`)* — `sva-grund-3/sweden-history-texts`
+18. [x] Technology and privacy: data, surveillance, AI — `sva-grund-3/technology-privacy`
+19. [x] Climate and sustainable development — a discussion — `sva-grund-3/climate-sustainability`
+20. [x] Migration and integration — a discussion in neutral vocabulary — `sva-grund-3/migration-integration`
+21. [x] Comparing cultures: customs, etiquette, expectations — `sva-grund-3/comparing-cultures-etiquette`
+22. [x] The economy and the labour market: trends and statistics — `sva-grund-3/economy-labour-trends`
+23. [x] Health and prevention: an instructional text — `sva-grund-3/health-prevention-text`
+24. [x] Describing a process and cause-and-effect relations — `sva-grund-3/describing-process-causation`
+25. [x] Planning further study: upper-secondary level, SVA 1 — `sva-grund-3/planning-further-study`
+26. [x] Complex sentences with several subordinate clauses — `sva-grund-3/complex-sentences`
+27. [x] The extended noun phrase and agreement inside it — `sva-grund-3/extended-noun-phrase`
+28. [x] The passive in informative and official style — `sva-grund-3/passive-official-style`
+29. [x] Impersonal constructions: `det`, `man`, the `-s` passive — how to choose — `sva-grund-3/impersonal-constructions`
+30. [x] Modality and degree of certainty: `måste`, `borde`, `lär`, `torde`, `kanske` — `sva-grund-3/modality-certainty`
+31. [x] Remnants of the subjunctive: `vore`, `må` — `sva-grund-3/subjunctive-remnants`
+32. [x] Participial phrases in place of subordinate clauses — `sva-grund-3/participial-phrases`
+33. [x] Reported speech and source markers: `enligt`, `hävdar att`, `menar att` — `sva-grund-3/source-markers`
+34. [x] Argumentative constructions: `å ena sidan … å andra sidan`, `visserligen … men` — `sva-grund-3/argumentative-constructions`
+35. [x] Comparative constructions: `ju … desto`, `lika … som`, `än` — `sva-grund-3/comparative-constructions`
+36. [x] Conditional and hypothetical constructions — extended — `sva-grund-3/extended-conditionals`
+37. [x] Information structure: theme and rheme, and choosing the fundament — `sva-grund-3/theme-rheme`
+38. [x] Nominal versus verbal style: when each is appropriate — `sva-grund-3/nominal-verbal-style`
+39. [x] Idioms, metaphors and fixed expressions — `sva-grund-3/idioms-metaphors`
+40. [x] Productive affixes: deverbal and denominal formations — `sva-grund-3/productive-affixes`
+41. [x] Loanwords and their morphology: `en trend – trender`, `ett center – center` — `sva-grund-3/loanword-morphology`
+42. [x] Punctuation: comma, colon, dash, quotation marks — `sva-grund-3/advanced-punctuation`
+43. [x] Formatting a quotation and a reference to a source — `sva-grund-3/quotation-formatting`
+44. [x] Registers: formal, neutral, colloquial — `sva-grund-3/registers`
+45. [x] Typical interference errors and techniques for proofreading your own text — `sva-grund-3/proofreading-techniques`
 
 ### Grammar (20 points)
 
-1. [ ] Complex sentences with several subordinate clauses
-2. [ ] The extended noun phrase and agreement inside it
-3. [ ] The passive in informative and official style
-4. [ ] Impersonal constructions: `det`, `man`, the `-s` passive — how to choose
-5. [ ] Modality and degree of certainty: `måste`, `borde`, `lär`, `torde`, `kanske`
-6. [ ] Remnants of the subjunctive: `vore`, `må`
-7. [ ] Participial phrases in place of subordinate clauses
-8. [ ] Reported speech and source markers: `enligt`, `hävdar att`, `menar att`
-9. [ ] Argumentative constructions: `å ena sidan … å andra sidan`, `visserligen … men`
-10. [ ] Comparative constructions: `ju … desto`, `lika … som`, `än`
-11. [ ] Conditional and hypothetical constructions — extended
-12. [ ] Information structure: theme and rheme, and choosing the fundament
-13. [ ] Nominal versus verbal style: when each is appropriate
-14. [ ] Idioms, metaphors and fixed expressions
-15. [ ] Productive affixes: deverbal and denominal formations
-16. [ ] Loanwords and their morphology: `en trend – trender`, `ett center – center`
-17. [ ] Punctuation: comma, colon, dash, quotation marks
-18. [ ] Formatting a quotation and a reference to a source
-19. [ ] Registers: formal, neutral, colloquial
-20. [ ] Typical interference errors and techniques for proofreading your own text
+1. [x] Complex sentences with several subordinate clauses — `sva-grund-3/complex-sentences`
+2. [x] The extended noun phrase and agreement inside it — `sva-grund-3/extended-noun-phrase`
+3. [x] The passive in informative and official style — `sva-grund-3/passive-official-style`
+4. [x] Impersonal constructions: `det`, `man`, the `-s` passive — how to choose — `sva-grund-3/impersonal-constructions`
+5. [x] Modality and degree of certainty: `måste`, `borde`, `lär`, `torde`, `kanske` — `sva-grund-3/modality-certainty`
+6. [x] Remnants of the subjunctive: `vore`, `må` — `sva-grund-3/subjunctive-remnants`
+7. [x] Participial phrases in place of subordinate clauses — `sva-grund-3/participial-phrases`
+8. [x] Reported speech and source markers: `enligt`, `hävdar att`, `menar att` — `sva-grund-3/source-markers`
+9. [x] Argumentative constructions: `å ena sidan … å andra sidan`, `visserligen … men` — `sva-grund-3/argumentative-constructions`
+10. [x] Comparative constructions: `ju … desto`, `lika … som`, `än` — `sva-grund-3/comparative-constructions`
+11. [x] Conditional and hypothetical constructions — extended — `sva-grund-3/extended-conditionals`
+12. [x] Information structure: theme and rheme, and choosing the fundament — `sva-grund-3/theme-rheme`
+13. [x] Nominal versus verbal style: when each is appropriate — `sva-grund-3/nominal-verbal-style`
+14. [x] Idioms, metaphors and fixed expressions — `sva-grund-3/idioms-metaphors`
+15. [x] Productive affixes: deverbal and denominal formations — `sva-grund-3/productive-affixes`
+16. [x] Loanwords and their morphology: `en trend – trender`, `ett center – center` — `sva-grund-3/loanword-morphology`
+17. [x] Punctuation: comma, colon, dash, quotation marks — `sva-grund-3/advanced-punctuation`
+18. [x] Formatting a quotation and a reference to a source — `sva-grund-3/quotation-formatting`
+19. [x] Registers: formal, neutral, colloquial — `sva-grund-3/registers`
+20. [x] Typical interference errors and techniques for proofreading your own text — `sva-grund-3/proofreading-techniques`
 
 ## SVA grund delkurs 4
 

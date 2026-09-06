@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "trend",
+      "sv": "trend",
+      "translations": { "ru": "тренд, тенденция", "en": "trend" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trend", "defSg": "trenden", "indefPl": "trender", "defPl": "trenderna" },
+      "note": { "ru": "Заимствование, но склоняется полностью регулярно, как familj.", "en": "A loanword, but declines fully regularly, like familj." }
+    },
+    {
+      "id": "pizza",
+      "sv": "pizza",
+      "translations": { "ru": "пицца", "en": "pizza" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pizza", "defSg": "pizzan", "indefPl": "pizzor", "defPl": "pizzorna" },
+      "note": { "ru": "Оканчивается на -a, поэтому регулярно получает класс -or, как flicka.", "en": "Ends in -a, so it regularly takes the -or class, like flicka." }
+    },
+    {
+      "id": "konto",
+      "sv": "konto",
+      "translations": { "ru": "счёт (банковский)", "en": "account (bank account)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett konto", "defSg": "kontot", "indefPl": "konton", "defPl": "kontona" },
+      "note": { "ru": "Оканчивается на гласную, поэтому регулярно получает класс -n, как äpple.", "en": "Ends in a vowel, so it regularly takes the -n class, like äpple." }
+    },
+    {
+      "id": "center",
+      "sv": "center",
+      "translations": { "ru": "центр", "en": "center" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett center", "defSg": "centret", "indefPl": "center", "defPl": "centren" },
+      "note": { "ru": "Нулевое множественное — как у ett-слов на безударный слог (fönster).", "en": "Zero-ending plural — like ett-words with an unstressed final syllable (fönster)." }
+    },
+    {
+      "id": "hotell",
+      "sv": "hotell",
+      "translations": { "ru": "отель", "en": "hotel" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hotell", "defSg": "hotellet", "indefPl": "hotell", "defPl": "hotellen" },
+      "note": { "ru": "Нулевое множественное, как hus.", "en": "Zero-ending plural, like hus." },
+      "example": { "sv": "Vi bokade ett hotell i centrum.", "ru": "Мы забронировали отель в центре.", "en": "We booked a hotel in the center." }
+    },
+    {
+      "id": "museum",
+      "sv": "museum",
+      "translations": { "ru": "музей", "en": "museum" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett museum", "defSg": "museet", "indefPl": "museer", "defPl": "museerna" },
+      "note": { "ru": "Неправильное: -um отпадает, добавляется -er. Нужно запомнить отдельно.", "en": "Irregular: -um drops, -er is added. Has to be memorised individually." },
+      "example": { "sv": "Vi besökte flera museer i går.", "ru": "Мы посетили несколько музеев вчера.", "en": "We visited several museums yesterday." }
+    },
+    {
+      "id": "faktum",
+      "sv": "faktum",
+      "translations": { "ru": "факт", "en": "fact" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett faktum", "defSg": "faktumet", "indefPl": "fakta", "defPl": "fakta" },
+      "note": { "ru": "Неправильное: -um отпадает, добавляется -a; определённая форма мн.ч. совпадает с неопределённой.", "en": "Irregular: -um drops, -a is added; the definite plural is identical to the indefinite one." }
+    },
+    {
+      "id": "drama",
+      "sv": "drama",
+      "translations": { "ru": "драма", "en": "drama" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett drama", "defSg": "dramat", "indefPl": "dramer", "defPl": "dramerna" },
+      "note": { "ru": "Неправильное: ожидался бы класс -n (как tema → teman), но на деле -er.", "en": "Irregular: you'd expect the -n class (like tema → teman), but it's actually -er." }
+    }
+  ]
+}

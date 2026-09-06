@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "maste",
+      "sv": "måste",
+      "translations": { "ru": "должен, должно быть", "en": "must, must be" },
+      "pos": "verb",
+      "forms": { "infinitive": "måste", "present": "måste", "past": "måste", "supine": "måst" },
+      "note": { "ru": "Модальный глагол: сильная необходимость или сильный логический вывод.", "en": "A modal verb: strong necessity or a strong logical inference." }
+    },
+    {
+      "id": "bora",
+      "sv": "böra",
+      "translations": { "ru": "следовало бы, должно быть (ожидаемо)", "en": "should, ought to (expectation)" },
+      "pos": "verb",
+      "forms": { "infinitive": "böra", "present": "bör", "past": "borde", "supine": "bort" },
+      "note": { "ru": "Форма претерита borde часто используется как самостоятельное модальное значение «должно быть».", "en": "The preterite form borde is often used as a standalone modal meaning \"should be.\"" }
+    },
+    {
+      "id": "lar",
+      "sv": "lär",
+      "translations": { "ru": "говорят, что...", "en": "is said to, reportedly" },
+      "pos": "verb",
+      "note": { "ru": "Эвиденциальное значение: информация из чужих слов, а не от самого говорящего.", "en": "An evidential meaning: information from hearsay, not the speaker's own knowledge." }
+    },
+    {
+      "id": "torde",
+      "sv": "torde",
+      "translations": { "ru": "по-видимому (книжн.)", "en": "presumably (formal/written)" },
+      "pos": "verb",
+      "note": { "ru": "Устаревшая, книжная модальная форма — почти не встречается в устной речи.", "en": "An archaic, written modal form — rarely heard in speech." }
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe, perhaps" },
+      "pos": "adv"
+    },
+    {
+      "id": "sakerhet",
+      "sv": "säkerhet",
+      "translations": { "ru": "уверенность", "en": "certainty" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" }
+    },
+    {
+      "id": "anta",
+      "sv": "anta",
+      "translations": { "ru": "предполагать", "en": "to assume, suppose" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" }
+    },
+    {
+      "id": "granne",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbour" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" }
+    },
+    {
+      "id": "lampa",
+      "sv": "lampa",
+      "translations": { "ru": "лампа", "en": "lamp" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "lampa", "defSg": "lampan", "indefPl": "lampor", "defPl": "lamporna" }
+    },
+    {
+      "id": "tand",
+      "sv": "tänd",
+      "translations": { "ru": "зажжённый, включённый (о свете)", "en": "lit, switched on (of light)" },
+      "pos": "adj"
+    },
+    {
+      "id": "pris",
+      "sv": "pris",
+      "translations": { "ru": "цена", "en": "price" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" }
+    },
+    {
+      "id": "stiga",
+      "sv": "stiga",
+      "translations": { "ru": "подниматься, расти", "en": "to rise" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stiga", "present": "stiger", "past": "steg", "supine": "stigit" }
+    }
+  ]
+}

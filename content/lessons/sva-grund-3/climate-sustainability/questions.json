@@ -1,0 +1,87 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-climate-sustainability-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово называет рост температуры Земли из-за задержания тепла в атмосфере?", "en": "Which word names the Earth's temperature rise caused by heat trapped in the atmosphere?" },
+      "choices": ["växthuseffekten", "klimatomställning", "koldioxidutsläpp"],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-sustainability-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза предлагает конкретное решение?", "en": "Which phrase proposes a specific solution?" },
+      "choices": ["en lösning skulle kunna vara att", "vi måste agera nu", "på kort sikt"],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-sustainability-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «på lång sikt»?", "en": "What does \"på lång sikt\" mean?" },
+      "choices": [
+        { "ru": "в долгосрочной перспективе", "en": "in the long run" },
+        { "ru": "в краткосрочной перспективе", "en": "in the short run" },
+        { "ru": "прямо сейчас", "en": "right now" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-sustainability-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Klimatomställning не стоит никаких денег.", "en": "A klimatomställning costs no money at all." },
+      "answer": false,
+      "explanation": { "ru": "Переход обычно требует значительных затрат, особенно в краткосрочной перспективе.", "en": "The transition usually requires significant costs, especially in the short run." }
+    },
+    {
+      "id": "q-climate-sustainability-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Koldioxidutsläpp положительно влияют на климат.", "en": "Koldioxidutsläpp affect the climate positively." },
+      "answer": false,
+      "explanation": { "ru": "Выбросы углекислого газа влияют на климат негативно.", "en": "Carbon dioxide emissions affect the climate negatively." }
+    },
+    {
+      "id": "q-climate-sustainability-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi måste ___ nu, annars blir konsekvenserna värre. (agera)" },
+      "answer": ["agera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-climate-sustainability-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En lösning skulle kunna vara att satsa mer på ___ energi. (förnybar)" },
+      "answer": ["förnybar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-climate-sustainability-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Изменение климата уже влияет на погоду по всему миру.»", "en": "Build the sentence: \"Climate change is already affecting weather all over the world.\"" },
+      "tokens": ["Klimatförändringar", "påverkar", "redan", "väderleken", "över", "hela", "världen"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-climate-sustainability-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["klimatförändringar", "изменение климата / climate change"],
+        ["förnybar energi", "возобновляемая энергия / renewable energy"],
+        ["konsekvens", "последствие / consequence"],
+        ["globalt", "глобально / globally"]
+      ]
+    },
+    {
+      "id": "q-climate-sustainability-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «hållbar utveckling»?", "en": "What does \"hållbar utveckling\" mean?" },
+      "choices": ["устойчивое развитие / sustainable development", "изменение климата / climate change", "выбросы углекислого газа / carbon dioxide emissions"],
+      "answer": 0
+    }
+  ]
+}

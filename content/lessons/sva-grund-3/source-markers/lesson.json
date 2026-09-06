@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/source-markers",
+  "slug": "source-markers",
+  "title": {
+    "sv": "Indirekt tal och källmarkörer: enligt, hävdar att, menar att",
+    "ru": "Косвенная речь и маркеры источника: enligt, hävdar att, menar att",
+    "en": "Reported speech and source markers: enligt, hävdar att, menar att"
+  },
+  "summary": {
+    "ru": "Как назвать источник утверждения и не выдать чужое мнение за собственный факт.",
+    "en": "How to name the source of a claim without passing someone else's opinion off as your own fact."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "reported-speech",
+    "register",
+    "news-writing"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1380,
+  "prerequisites": [
+    "sva-grund-2/reported-speech-verbs"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

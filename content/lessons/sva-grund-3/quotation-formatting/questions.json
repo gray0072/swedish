@@ -1,0 +1,95 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-quotation-formatting-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое предложение — пример прямой речи?", "en": "Which sentence is an example of direct speech?" },
+      "choices": [
+        "”Jag kommer imorgon”, säger Anna.",
+        "Anna säger att hon kommer imorgon.",
+        "Anna kommer imorgon, tror jag."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-quotation-formatting-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Как изменится местоимение при переходе от прямой речи «Jag har inte tid» к косвенной?", "en": "How does the pronoun change when \"Jag har inte tid\" becomes reported speech?" },
+      "choices": ["jag → han/hon", "jag → du", "jag → vi"],
+      "answer": 0
+    },
+    {
+      "id": "q-quotation-formatting-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В косвенной речи используются кавычки, как и в прямой.", "en": "Reported speech uses quotation marks, just like direct speech." },
+      "answer": false,
+      "explanation": { "ru": "В косвенной речи кавычки не нужны — слова передаются через att-придаточное.", "en": "Reported speech needs no quotation marks — it's rephrased through an att-clause." }
+    },
+    {
+      "id": "q-quotation-formatting-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Enligt en artikel i Dagens Nyheter...» — типичная вводная фраза для ссылки на источник.", "en": "\"Enligt en artikel i Dagens Nyheter...\" is a typical opening phrase for referencing a source." },
+      "answer": true
+    },
+    {
+      "id": "q-quotation-formatting-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Anna ___ att hon kommer imorgon. (косвенная речь от säga)" },
+      "answer": ["säger"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-quotation-formatting-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "”Jag har inte tid”, ___ Erik. (sa)" },
+      "answer": ["sa"],
+      "acceptAlso": ["sade"]
+    },
+    {
+      "id": "q-quotation-formatting-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь прямую речь с её косвенным вариантом", "en": "Match the direct speech with its reported version" },
+      "pairs": [
+        ["”Jag har inte tid”, sa Erik.", "Erik sa att han inte hade tid."],
+        ["”Jag kommer imorgon”, säger Anna.", "Anna säger att hon kommer imorgon."],
+        ["”Jag vet inte”, sa hon.", "Hon sa att hon inte visste."]
+      ]
+    },
+    {
+      "id": "q-quotation-formatting-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение с косвенной речью: «Эрик сказал, что у него нет времени.»", "en": "Build the reported-speech sentence: \"Erik said that he didn't have time.\"" },
+      "tokens": ["Erik", "sa", "att", "han", "inte", "hade", "tid"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-quotation-formatting-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Зачем в referat указывают источник (Enligt NN..., NN skriver att...)?", "en": "Why does a referat name the source (Enligt NN..., NN skriver att...)?" },
+      "choices": [
+        { "ru": "Чтобы читатель видел, где чужая мысль, а где ваш анализ", "en": "So the reader can see where someone else's idea ends and your analysis begins" },
+        { "ru": "Это требование только для научных текстов", "en": "It's a requirement only for scientific texts" },
+        { "ru": "Чтобы предложение звучало длиннее", "en": "To make the sentence sound longer" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-quotation-formatting-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "В прямой речи глагол говорения может стоять и до, и после цитаты.", "en": "In direct speech, the speech verb can stand either before or after the quotation." },
+      "answer": true
+    },
+    {
+      "id": "q-quotation-formatting-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза вводит вывод из прочитанной статьи?", "en": "Which phrase introduces a conclusion drawn from an article you've read?" },
+      "choices": ["I artikeln framgår det att...", "Jag tycker att...", "Det var en gång..."],
+      "answer": 0
+    }
+  ]
+}

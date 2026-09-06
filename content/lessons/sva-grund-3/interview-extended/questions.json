@@ -1,0 +1,158 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-interview-extended-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Расскажите о своей слабой стороне.»", "en": "Build the question: \"Tell me about a weakness you have.\"" },
+      "tokens": ["en svaghet", "Berätta", "du har.", "om"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-interview-extended-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Каким будет следующий шаг в процессе?»", "en": "Build the question: \"What is the next step in the process?\"" },
+      "tokens": ["steg", "Vad", "processen?", "blir", "nästa", "i"],
+      "answer": [1, 3, 4, 0, 5, 2]
+    },
+    {
+      "id": "q-interview-extended-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Почему вы хотите уйти со своей нынешней работы?»", "en": "Build the question: \"Why do you want to leave your current job?\"" },
+      "tokens": ["ditt", "vill", "Varför", "jobb?", "du", "sluta", "nuvarande"],
+      "answer": [2, 4, 1, 5, 0, 6, 3]
+    },
+    {
+      "id": "q-interview-extended-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["svaghet", "слабая сторона"],
+        ["styrka", "сильная сторона"],
+        ["nuvarande", "нынешний"],
+        ["motivera", "обосновывать"]
+      ]
+    },
+    {
+      "id": "q-interview-extended-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["återkoppling", "обратная связь"],
+        ["löneanspråk", "ожидания по зарплате"],
+        ["referenstagning", "проверка рекомендаций"],
+        ["tillträda", "приступить к должности"]
+      ]
+    },
+    {
+      "id": "q-interview-extended-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Лучший ответ про «svaghet» на собеседовании — сказать, что у тебя нет слабых сторон.", "en": "The best answer about a \"svaghet\" in an interview is to say you have no weaknesses." },
+      "answer": false,
+      "explanation": {
+        "ru": "Лучше назвать реальную слабую сторону и показать, как ты с ней справляешься, а не отрицать её наличие.",
+        "en": "It is better to name a real weakness and show how you manage it, rather than denying you have one."
+      }
+    },
+    {
+      "id": "q-interview-extended-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Referenstagning» — это этап, когда работодатель проверяет рекомендации кандидата.", "en": "\"Referenstagning\" is the stage when the employer checks the candidate's references." },
+      "answer": true
+    },
+    {
+      "id": "q-interview-extended-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Отвечая на вопрос о причине ухода с текущей работы, стоит подробно критиковать бывшего работодателя.", "en": "When explaining why you are leaving your current job, you should criticise your former employer in detail." },
+      "answer": false,
+      "explanation": {
+        "ru": "Лучше отвечать нейтрально и говорить о собственном развитии, а не о критике прежнего работодателя.",
+        "en": "It is better to answer neutrally and talk about your own growth, not criticise the former employer."
+      }
+    },
+    {
+      "id": "q-interview-extended-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Löneanspråk» означает «рабочие обязанности».", "en": "\"Löneanspråk\" means \"job duties\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Löneanspråk» — это ожидания по зарплате; рабочие обязанности — «arbetsuppgifter».",
+        "en": "\"Löneanspråk\" means salary expectations; job duties are \"arbetsuppgifter\"."
+      }
+    },
+    {
+      "id": "q-interview-extended-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Min ___ är att jag ibland är för detaljfokuserad. (слабая сторона)" },
+      "answer": ["svaghet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-interview-extended-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ mig från mitt förra jobb i våras. (уволился/уволилась)" },
+      "answer": ["sa upp"],
+      "acceptAlso": ["sade upp"]
+    },
+    {
+      "id": "q-interview-extended-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag kan ___ tjänsten om en månad. (приступить к)" },
+      "answer": ["tillträda"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-interview-extended-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой вопрос стоит задать в конце собеседования, чтобы узнать о дальнейших этапах?",
+        "en": "Which question should you ask at the end of an interview to learn about the next stages?"
+      },
+      "choices": ["Vad blir nästa steg i processen?", "Berätta om en svaghet du har.", "Varför vill du sluta ditt nuvarande jobb?", "Vilka är dina meriter?"],
+      "answer": 0
+    },
+    {
+      "id": "q-interview-extended-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «умение сотрудничать»?",
+        "en": "Which word means \"ability to cooperate\"?"
+      },
+      "choices": ["samarbetsförmåga", "rekryteringsprocess", "arbetsuppgift", "referenstagning"],
+      "answer": 0
+    },
+    {
+      "id": "q-interview-extended-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как спросить, когда ждать обратной связи после собеседования?",
+        "en": "How do you ask when to expect feedback after the interview?"
+      },
+      "choices": ["När kan jag vänta mig återkoppling?", "Vilka löneanspråk har du?", "Kan du motivera varför du bytte bransch?", "Vad handlar artikeln om?"],
+      "answer": 0
+    }
+  ]
+}

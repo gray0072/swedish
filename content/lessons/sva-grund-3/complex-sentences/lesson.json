@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/complex-sentences",
+  "slug": "complex-sentences",
+  "title": {
+    "sv": "Komplexa meningar med flera bisatser",
+    "ru": "Сложные предложения с несколькими придаточными",
+    "en": "Complex sentences with several subordinate clauses"
+  },
+  "summary": {
+    "ru": "Придаточное внутри придаточного или цепочка из нескольких — и в каждом всё равно работает BIFF.",
+    "en": "A clause inside a clause, or a chain of several — and BIFF still applies inside each one."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "syntax",
+    "subordinate-clauses",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1310,
+  "prerequisites": [
+    "sva-grund-2/relative-clauses"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

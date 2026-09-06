@@ -1,0 +1,92 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-sweden-history-texts-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что называют «historisk källa»?", "en": "What is a \"historisk källa\"?" },
+      "choices": [
+        { "ru": "исторический источник (письмо, документ и т. д.)", "en": "a historical source (a letter, document, etc.)" },
+        { "ru": "памятник", "en": "a monument" },
+        { "ru": "эпоху", "en": "an era" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sweden-history-texts-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «samtida» в историческом тексте?", "en": "What does \"samtida\" mean in a historical text?" },
+      "choices": [
+        { "ru": "современный той эпохе", "en": "contemporary to that period" },
+        { "ru": "современный нам, сегодняшний", "en": "contemporary to us, present-day" },
+        { "ru": "будущий", "en": "future" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sweden-history-texts-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Кого называют «eftervärlden»?", "en": "Who does \"eftervärlden\" refer to?" },
+      "choices": ["будущие поколения / future generations", "современников / contemporaries", "историков / historians"],
+      "answer": 0
+    },
+    {
+      "id": "q-sweden-history-texts-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Eftervärlden» обычно используется в неопределённой форме.", "en": "\"Eftervärlden\" is usually used in the indefinite form." },
+      "answer": false,
+      "explanation": { "ru": "Слово почти всегда стоит в определённой форме: eftervärlden.", "en": "The word is almost always in the definite form: eftervärlden." }
+    },
+    {
+      "id": "q-sweden-history-texts-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Historisk källa всегда должна быть письменным документом.", "en": "A historisk källa must always be a written document." },
+      "answer": false,
+      "explanation": { "ru": "Источником может быть и предмет, и изображение, не только текст.", "en": "A source can also be an object or an image, not only text." }
+    },
+    {
+      "id": "q-sweden-history-texts-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Källan är ett brev ___ 1809. (från)" },
+      "answer": ["från"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sweden-history-texts-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Varje ___ har sina egna typiska drag. (epok)" },
+      "answer": ["epok"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sweden-history-texts-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Текст описывает важный период в истории Швеции.»", "en": "Build the sentence: \"The text describes an important period in Swedish history.\"" },
+      "tokens": ["Texten", "beskriver", "en", "viktig", "tidsperiod", "i", "Sveriges", "historia"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-sweden-history-texts-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин со значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["historisk källa", "исторический источник / historical source"],
+        ["händelseförlopp", "ход событий / course of events"],
+        ["eftervärlden", "потомки / posterity"],
+        ["tolkning", "интерпретация / interpretation"]
+      ]
+    },
+    {
+      "id": "q-sweden-history-texts-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «skildra»?", "en": "What does \"skildra\" mean?" },
+      "choices": ["изображать, описывать / to depict, to portray", "публиковать / to publish", "запоминать / to remember"],
+      "answer": 0
+    }
+  ]
+}

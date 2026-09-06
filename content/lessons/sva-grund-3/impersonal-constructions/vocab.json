@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "regna",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Det regnar ute.", "ru": "На улице идёт дождь.", "en": "It's raining outside." }
+    },
+    {
+      "id": "finnas",
+      "sv": "finnas",
+      "translations": { "ru": "существовать, иметься", "en": "to exist, be available" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "finnas", "present": "finns", "past": "fanns", "supine": "funnits" },
+      "example": { "sv": "Det finns inget kaffe kvar.", "ru": "Кофе больше нет.", "en": "There's no coffee left." }
+    },
+    {
+      "id": "dansa",
+      "sv": "dansa",
+      "translations": { "ru": "танцевать", "en": "to dance" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat" }
+    },
+    {
+      "id": "roka",
+      "sv": "röka",
+      "translations": { "ru": "курить", "en": "to smoke" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" }
+    },
+    {
+      "id": "prata",
+      "sv": "prata",
+      "translations": { "ru": "разговаривать", "en": "to talk" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" }
+    },
+    {
+      "id": "man-pron",
+      "sv": "man",
+      "translations": { "ru": "человек вообще, «ты/люди»", "en": "one, generic \"you/people\"" },
+      "pos": "pron",
+      "note": { "ru": "Обобщённое подлежащее: man ska, man kan, man bör.", "en": "A generic subject: man ska, man kan, man bör." }
+    },
+    {
+      "id": "det-pron",
+      "sv": "det",
+      "translations": { "ru": "формальное «это»", "en": "formal \"it\"" },
+      "pos": "pron",
+      "note": { "ru": "Формальное подлежащее: погода, существование, det + -s-пассив.", "en": "A formal subject: weather, existence, det + -s-passive." }
+    },
+    {
+      "id": "klubb",
+      "sv": "klubb",
+      "translations": { "ru": "клуб", "en": "club" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "klubb", "defSg": "klubben", "indefPl": "klubbar", "defPl": "klubbarna" }
+    },
+    {
+      "id": "fest",
+      "sv": "fest",
+      "translations": { "ru": "вечеринка, праздник", "en": "party" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" }
+    },
+    {
+      "id": "kaffe",
+      "sv": "kaffe",
+      "translations": { "ru": "кофе", "en": "coffee" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "kaffe", "defSg": "kaffet", "indefPl": "kaffe", "defPl": "kaffena" }
+    },
+    {
+      "id": "mun",
+      "sv": "mun",
+      "translations": { "ru": "рот", "en": "mouth" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "mun", "defSg": "munnen", "indefPl": "munnar", "defPl": "munnarna" }
+    },
+    {
+      "id": "kvar",
+      "sv": "kvar",
+      "translations": { "ru": "остался, ещё есть", "en": "left, remaining" },
+      "pos": "adv"
+    },
+    {
+      "id": "opersonlig",
+      "sv": "opersonlig",
+      "translations": { "ru": "безличный", "en": "impersonal" },
+      "pos": "adj"
+    }
+  ]
+}

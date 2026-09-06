@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-idioms-metaphors-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «ha en skruv lös»?", "en": "What does \"ha en skruv lös\" mean?" },
+      "choices": [
+        { "ru": "Вести себя немного странно, быть с приветом", "en": "To act a bit strange, to be a little crazy" },
+        { "ru": "Быть очень аккуратным", "en": "To be very tidy" },
+        { "ru": "Чинить мебель", "en": "To fix furniture" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-idioms-metaphors-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «kasta pärlor för svin»?", "en": "What does \"kasta pärlor för svin\" mean?" },
+      "choices": [
+        { "ru": "Метать бисер перед свиньями — тратить ценное на тех, кто не оценит", "en": "To cast pearls before swine — waste something valuable on those who won't appreciate it" },
+        { "ru": "Кормить домашних животных", "en": "To feed pets" },
+        { "ru": "Устраивать вечеринку", "en": "To throw a party" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-idioms-metaphors-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "«Det är ingen ko på isen» означает...", "en": "\"Det är ingen ko på isen\" means..." },
+      "choices": [
+        { "ru": "Спешить некуда, не о чем беспокоиться", "en": "There's no rush, nothing to worry about" },
+        { "ru": "На улице очень холодно", "en": "It's very cold outside" },
+        { "ru": "Кто-то потерялся", "en": "Someone got lost" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-idioms-metaphors-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Han gled in på en räkmacka» означает, что он...", "en": "\"Han gled in på en räkmacka\" means that he..." },
+      "choices": [
+        { "ru": "Получил что-то легко, без усилий", "en": "Got something easily, without effort" },
+        { "ru": "Много работал ради успеха", "en": "Worked hard to succeed" },
+        { "ru": "Приготовил обед", "en": "Made lunch" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-idioms-metaphors-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "«Jag anar ugglor i mossen» означает...", "en": "\"Jag anar ugglor i mossen\" means..." },
+      "choices": [
+        { "ru": "Я чую неладное, подозреваю подвох", "en": "I sense something's wrong, I smell a rat" },
+        { "ru": "Я вижу птиц в лесу", "en": "I see birds in the forest" },
+        { "ru": "Я устал и хочу спать", "en": "I'm tired and want to sleep" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-idioms-metaphors-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Шведские идиомы можно всегда правильно понять, если перевести их слово в слово.", "en": "Swedish idioms can always be correctly understood by translating them word for word." },
+      "answer": false,
+      "explanation": { "ru": "Смысл идиомы не выводится из отдельных слов — её нужно знать целиком.", "en": "An idiom's meaning cannot be derived from its individual words — you have to know it as a whole." }
+    },
+    {
+      "id": "q-idioms-metaphors-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Glida in på en räkmacka» часто содержит оттенок неодобрения — что человек не заслужил результат.", "en": "\"Glida in på en räkmacka\" often carries a note of disapproval — that the person didn't earn the result." },
+      "answer": true
+    },
+    {
+      "id": "q-idioms-metaphors-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь идиому с её буквальным переводом", "en": "Match the idiom with its literal translation" },
+      "pairs": [
+        ["ha en skruv lös", "иметь развинченный шуруп"],
+        ["kasta pärlor för svin", "бросать жемчуг свиньям"],
+        ["det är ingen ko på isen", "на льду нет коровы"],
+        ["glida in på en räkmacka", "въехать на бутерброде с креветками"]
+      ]
+    },
+    {
+      "id": "q-idioms-metaphors-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Ta det lugnt, det är ingen ___ på isen. (ko)" },
+      "answer": ["ko"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-idioms-metaphors-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он получил работу без опыта — ему просто повезло.»", "en": "Build the sentence: \"He got the job with no experience — he slid right in.\"" },
+      "tokens": ["Han", "fick", "jobbet", "utan", "erfarenhet", "–", "han", "gled", "in", "på", "en", "räkmacka"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "id": "q-idioms-metaphors-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag anar ___ i mossen – något stämmer inte. (ugglor)" },
+      "answer": ["ugglor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-idioms-metaphors-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Kasta pärlor för svin» — выражение библейского происхождения, совпадающее по смыслу с русским «метать бисер перед свиньями».", "en": "\"Kasta pärlor för svin\" is a biblical expression that matches the meaning of the English \"cast pearls before swine\"." },
+      "answer": true
+    }
+  ]
+}

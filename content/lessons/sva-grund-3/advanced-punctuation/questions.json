@@ -1,0 +1,103 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-advanced-punctuation-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какой знак вводит список или пояснение после полного предложения?", "en": "Which mark introduces a list or an explanation after a complete clause?" },
+      "choices": ["kolon (:)", "bindestreck (-)", "citattecken (”)"],
+      "answer": 0
+    },
+    {
+      "id": "q-advanced-punctuation-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Чем tankstreck отличается от bindestreck?", "en": "How does tankstreck differ from bindestreck?" },
+      "choices": [
+        { "ru": "Tankstreck длиннее и стоит с пробелами; bindestreck короткий, без пробелов, в сложных словах", "en": "Tankstreck is longer and has spaces around it; bindestreck is short, with no spaces, used in compounds" },
+        { "ru": "Это два названия одного и того же знака", "en": "They are two names for the same mark" },
+        { "ru": "Bindestreck используется только в конце предложения", "en": "Bindestreck is only used at the end of a sentence" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-advanced-punctuation-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В шведском открывающая и закрывающая кавычки — это один и тот же символ ”.", "en": "In Swedish, the opening and closing quotation marks are the very same character ”." },
+      "answer": true
+    },
+    {
+      "id": "q-advanced-punctuation-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Перед любым придаточным с «som» запятая не нужна никогда.", "en": "A comma is never needed before any clause with \"som\"." },
+      "answer": false,
+      "explanation": { "ru": "Перед необязательным, поясняющим «som»-придаточным запятая нужна с обеих сторон.", "en": "A comma is needed on both sides before a non-restrictive, extra \"som\" clause." }
+    },
+    {
+      "id": "q-advanced-punctuation-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "«Boken som jag läser är bra.» — почему здесь нет запятой перед «som»?", "en": "\"Boken som jag läser är bra.\" — why is there no comma before \"som\" here?" },
+      "choices": [
+        { "ru": "Придаточное ограничительное: уточняет, о какой именно книге речь", "en": "The clause is restrictive: it identifies exactly which book is meant" },
+        { "ru": "В шведском запятая перед som вообще не существует как знак", "en": "A comma before som doesn't exist as a mark in Swedish at all" },
+        { "ru": "Потому что предложение короткое", "en": "Because the sentence is short" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-advanced-punctuation-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Min bror, som bor i Malmö, är lärare.» — почему тут запятые нужны?", "en": "\"Min bror, som bor i Malmö, är lärare.\" — why are the commas needed here?" },
+      "choices": [
+        { "ru": "Придаточное — необязательное пояснение, не меняющее, о ком речь", "en": "The clause is an optional extra remark that doesn't change who is meant" },
+        { "ru": "Потому что «bror» — существительное общего рода", "en": "Because \"bror\" is a common-gender noun" },
+        { "ru": "Это правило только для имён городов", "en": "This is a rule that applies only to city names" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-advanced-punctuation-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi behöver tre saker___ mjölk, bröd och ägg. (kolon)" },
+      "answer": [":"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-advanced-punctuation-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь знак с его функцией", "en": "Match the mark with its function" },
+      "pairs": [
+        ["kolon", "вводит список или объяснение"],
+        ["tankstreck", "выделяет вставку или обозначает диапазон"],
+        ["bindestreck", "соединяет части сложного слова"],
+        ["citattecken", "оформляет прямую речь"]
+      ]
+    },
+    {
+      "id": "q-advanced-punctuation-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение с прямой речью: «Я тебя слышу», сказала она.", "en": "Build the sentence with direct speech: 'I hear you,' she said." },
+      "tokens": ["”Jag", "hör", "dig”,", "sa", "hon."],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-advanced-punctuation-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Тире «10–18» здесь обозначает диапазон (от 10 до 18).", "en": "The dash in \"10–18\" here marks a range (from 10 to 18)." },
+      "answer": true
+    },
+    {
+      "id": "q-advanced-punctuation-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Как проверить, ограничительное перед вами придаточное с «som» или пояснительное?", "en": "How do you test whether a \"som\" clause is restrictive or an extra remark?" },
+      "choices": [
+        { "ru": "Убрать придаточное: если непонятно, о ком/чём речь — оно ограничительное", "en": "Remove the clause: if it becomes unclear who or what is meant, it's restrictive" },
+        { "ru": "Посчитать количество слов в придаточном", "en": "Count the number of words in the clause" },
+        { "ru": "Проверить, стоит ли придаточное в начале предложения", "en": "Check whether the clause is at the start of the sentence" }
+      ],
+      "answer": 0
+    }
+  ]
+}

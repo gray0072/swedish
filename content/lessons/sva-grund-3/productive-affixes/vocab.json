@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "springa",
+      "sv": "springa",
+      "translations": { "ru": "бежать", "en": "to run" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" }
+    },
+    {
+      "id": "springare",
+      "sv": "springare",
+      "translations": { "ru": "бегун", "en": "runner" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en springare", "defSg": "springaren", "indefPl": "springare", "defPl": "springarna" },
+      "note": { "ru": "Отглагольное образование (deverbal) от springa.", "en": "A deverbal formation from springa." }
+    },
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" }
+    },
+    {
+      "id": "lasare",
+      "sv": "läsare",
+      "translations": { "ru": "читатель", "en": "reader" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läsare", "defSg": "läsaren", "indefPl": "läsare", "defPl": "läsarna" }
+    },
+    {
+      "id": "salja",
+      "sv": "sälja",
+      "translations": { "ru": "продавать", "en": "to sell" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sälja", "present": "säljer", "past": "sålde", "supine": "sålt" }
+    },
+    {
+      "id": "saljare",
+      "sv": "säljare",
+      "translations": { "ru": "продавец", "en": "salesperson" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en säljare", "defSg": "säljaren", "indefPl": "säljare", "defPl": "säljarna" }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" }
+    },
+    {
+      "id": "simmare",
+      "sv": "simmare",
+      "translations": { "ru": "пловец", "en": "swimmer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en simmare", "defSg": "simmaren", "indefPl": "simmare", "defPl": "simmarna" }
+    },
+    {
+      "id": "konst",
+      "sv": "konst",
+      "translations": { "ru": "искусство", "en": "art" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konst", "defSg": "konsten", "indefPl": "konster", "defPl": "konsterna" }
+    },
+    {
+      "id": "konstnar",
+      "sv": "konstnär",
+      "translations": { "ru": "художник", "en": "artist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konstnär", "defSg": "konstnären", "indefPl": "konstnärer", "defPl": "konstnärerna" },
+      "note": { "ru": "Отыменное образование (denominal) от konst.", "en": "A denominal formation from konst." }
+    },
+    {
+      "id": "tull",
+      "sv": "tull",
+      "translations": { "ru": "таможня, пошлина", "en": "customs, duty" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tull", "defSg": "tullen", "indefPl": "tullar", "defPl": "tullarna" }
+    },
+    {
+      "id": "tullnar",
+      "sv": "tullnär",
+      "translations": { "ru": "таможенник", "en": "customs officer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tullnär", "defSg": "tullnären", "indefPl": "tullnärer", "defPl": "tullnärerna" }
+    },
+    {
+      "id": "miljon",
+      "sv": "miljon",
+      "translations": { "ru": "миллион", "en": "a million" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en miljon", "defSg": "miljonen", "indefPl": "miljoner", "defPl": "miljonerna" }
+    },
+    {
+      "id": "miljonar",
+      "sv": "miljonär",
+      "translations": { "ru": "миллионер", "en": "millionaire" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en miljonär", "defSg": "miljonären", "indefPl": "miljonärer", "defPl": "miljonärerna" }
+    },
+    {
+      "id": "revolution",
+      "sv": "revolution",
+      "translations": { "ru": "революция", "en": "revolution" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en revolution", "defSg": "revolutionen", "indefPl": "revolutioner", "defPl": "revolutionerna" }
+    },
+    {
+      "id": "revolutionar",
+      "sv": "revolutionär",
+      "translations": { "ru": "революционер", "en": "revolutionary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en revolutionär", "defSg": "revolutionären", "indefPl": "revolutionärer", "defPl": "revolutionärerna" }
+    }
+  ]
+}

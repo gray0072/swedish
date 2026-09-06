@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/literary-text-analysis",
+  "slug": "literary-text-analysis",
+  "title": {
+    "sv": "En skönlitterär text: handling, karaktär, konflikt",
+    "ru": "Художественный текст: рассказ, персонаж, конфликт",
+    "en": "A literary text: the story, the character, the conflict"
+  },
+  "summary": {
+    "ru": "Слова для разговора о художественном тексте: handling, huvudperson, konflikt, vändpunkt, berättarperspektiv — без анализа конкретного произведения.",
+    "en": "Vocabulary for talking about a work of fiction: handling, huvudperson, konflikt, vändpunkt, berättarperspektiv — without analysing any specific work."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["vocab", "literature", "reading"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1650,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

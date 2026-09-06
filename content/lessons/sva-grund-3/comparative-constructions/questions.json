@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-comparative-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ju mer du övar, desto bättre blir du» — в какой половине подлежащее стоит перед глаголом (без инверсии)?", "en": "\"Ju mer du övar, desto bättre blir du\" — in which half does the subject come before the verb (no inversion)?" },
+      "choices": ["В ju-части", "В desto-части", "В обеих"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparative-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ju mer du övar, desto bättre blir du» — в какой половине глагол стоит перед подлежащим (V2-инверсия)?", "en": "\"Ju mer du övar, desto bättre blir du\" — in which half does the verb come before the subject (V2 inversion)?" },
+      "choices": ["В ju-части", "В desto-части", "Ни в одной"],
+      "answer": 1
+    },
+    {
+      "id": "q-comparative-constructions-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая конструкция выражает равенство («такой же ... как»)?", "en": "Which construction expresses equality (\"as ... as\")?" },
+      "choices": ["ju … desto", "lika … som", "сравнительная степень + än"],
+      "answer": 1
+    },
+    {
+      "id": "q-comparative-constructions-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «Он выше своего брата»?", "en": "How do you say \"He is taller than his brother\"?" },
+      "choices": ["Han är lika lång som sin bror.", "Han är längre än sin bror.", "Ju längre han är, desto bättre."],
+      "answer": 1
+    },
+    {
+      "id": "q-comparative-constructions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ mer du övar, desto bättre blir du. (первая часть конструкции)" },
+      "answer": ["Ju"]
+    },
+    {
+      "id": "q-comparative-constructions-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Ju mer du övar, ___ bättre blir du. (вторая часть конструкции)" },
+      "answer": ["desto"]
+    },
+    {
+      "id": "q-comparative-constructions-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Hon är lika stark ___ sin syster. (равенство)" },
+      "answer": ["som"]
+    },
+    {
+      "id": "q-comparative-constructions-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Hon är starkare ___ sin bror. (неравенство, сравнительная степень)" },
+      "answer": ["än"]
+    },
+    {
+      "id": "q-comparative-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В ju-части конструкции «ju … desto» подлежащее и глагол не меняются местами.", "en": "In the ju-half of the \"ju … desto\" construction, subject and verb do not swap places." },
+      "answer": true
+    },
+    {
+      "id": "q-comparative-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В desto-части подлежащее стоит после спрягаемого глагола, как в обычном главном предложении с фронтированным членом.", "en": "In the desto-half, the subject comes after the finite verb, as in an ordinary main clause with a fronted element." },
+      "answer": true
+    },
+    {
+      "id": "q-comparative-constructions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Lika … som» и сравнительная степень + «än» означают одно и то же — неравенство.", "en": "\"Lika … som\" and the comparative + \"än\" both express the same thing — inequality." },
+      "answer": false,
+      "explanation": { "ru": "«Lika … som» — равенство, а сравнительная степень + «än» — неравенство (больше/меньше).", "en": "\"Lika … som\" is equality, while the comparative + \"än\" is inequality (more/less)." }
+    },
+    {
+      "id": "q-comparative-constructions-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Чем больше ты тренируешься, тем лучше становишься.»", "en": "Build the sentence: \"The more you practise, the better you get.\"" },
+      "tokens": ["Ju", "mer", "du", "övar,", "desto", "bättre", "blir", "du"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-comparative-constructions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она такого же роста, как её брат.»", "en": "Build the sentence: \"She is as tall as her brother.\"" },
+      "tokens": ["Hon", "är", "lika", "lång", "som", "sin", "bror"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-comparative-constructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с её значением", "en": "Match the construction with its meaning" },
+      "pairs": [
+        ["ju … desto", "пропорциональный рост / proportional increase"],
+        ["lika … som", "равенство / equality"],
+        ["сравнительная степень + än", "неравенство / inequality"]
+      ]
+    }
+  ]
+}

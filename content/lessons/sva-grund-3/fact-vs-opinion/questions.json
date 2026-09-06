@@ -1,0 +1,149 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-fact-vs-opinion-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «По моему мнению, здесь слишком дорого жить.»", "en": "Build the sentence: \"In my opinion, it is too expensive to live here.\"" },
+      "tokens": ["för dyrt", "mening", "att bo här.", "Enligt min", "är det"],
+      "answer": [3, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-fact-vs-opinion-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Согласно статистике, безработица снизилась на два процента.»", "en": "Build the sentence: \"According to the statistics, unemployment has fallen by two percent.\"" },
+      "tokens": ["har", "statistiken", "med två procent.", "arbetslösheten", "Enligt", "minskat"],
+      "answer": [4, 1, 3, 0, 5, 2]
+    },
+    {
+      "id": "q-fact-vs-opinion-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["fakta", "факт"],
+        ["åsikt", "мнение"],
+        ["bevis", "доказательство"],
+        ["påstående", "утверждение"]
+      ]
+    },
+    {
+      "id": "q-fact-vs-opinion-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["objektiv", "объективный"],
+        ["subjektiv", "субъективный"],
+        ["dra en slutsats", "делать вывод"],
+        ["styrka ett påstående", "подтвердить утверждение"]
+      ]
+    },
+    {
+      "id": "q-fact-vs-opinion-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Фраза «jag tycker» обычно вводит проверяемый факт.", "en": "The phrase \"jag tycker\" usually introduces a verifiable fact." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Jag tycker» вводит личное мнение, а не проверяемый факт.",
+        "en": "\"Jag tycker\" introduces a personal opinion, not a verifiable fact."
+      }
+    },
+    {
+      "id": "q-fact-vs-opinion-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Uppenbarligen» всегда означает, что дальше следует строго доказанный факт.", "en": "\"Uppenbarligen\" always signals that a strictly proven fact follows." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Uppenbarligen» часто выражает личную оценку автора, а не доказанный факт.",
+        "en": "\"Uppenbarligen\" often expresses the author's own judgement rather than a proven fact."
+      }
+    },
+    {
+      "id": "q-fact-vs-opinion-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Предложение «Bussen var 20 minuter försenad idag enligt tidtabellen» можно проверить.", "en": "The sentence \"Bussen var 20 minuter försenad idag enligt tidtabellen\" can be checked." },
+      "answer": true
+    },
+    {
+      "id": "q-fact-vs-opinion-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Авторская колонка («subjektiv» текст) обязана опираться только на статистику.", "en": "An opinion column (a \"subjektiv\" text) must rely only on statistics." },
+      "answer": false,
+      "explanation": {
+        "ru": "Субъективный текст строится на личных выводах автора, а не только на статистике.",
+        "en": "A subjective text is built on the author's own conclusions, not only on statistics."
+      }
+    },
+    {
+      "id": "q-fact-vs-opinion-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ___ det påståendet med en källa? (подтвердить)" },
+      "answer": ["styrka"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fact-vs-opinion-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det finns inga ___ för det påståendet. (доказательства)" },
+      "answer": ["bevis"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fact-vs-opinion-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Det här är bara min ___, inte ett faktum. (мнение)" },
+      "answer": ["åsikt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fact-vs-opinion-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая фраза вводит личное мнение, а не проверяемый факт?",
+        "en": "Which phrase introduces a personal opinion rather than a verifiable fact?"
+      },
+      "choices": ["enligt min mening", "enligt statistiken", "siffrorna visar att", "enligt rapporten"],
+      "answer": 0
+    },
+    {
+      "id": "q-fact-vs-opinion-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое из предложений является проверяемым фактом?",
+        "en": "Which of these sentences is a verifiable fact?"
+      },
+      "choices": ["Bussen var 20 minuter försenad idag enligt tidtabellen.", "Jag tycker att bussarna alltid är sena.", "Uppenbarligen är bussarna för dåliga.", "Enligt min mening borde bussarna gå oftare."],
+      "answer": 0
+    },
+    {
+      "id": "q-fact-vs-opinion-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «объективный»?",
+        "en": "Which word means \"objective\"?"
+      },
+      "choices": ["objektiv", "subjektiv", "vinklad", "opartisk"],
+      "answer": 0
+    }
+  ]
+}

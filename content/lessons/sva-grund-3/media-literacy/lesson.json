@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/media-literacy",
+  "slug": "media-literacy",
+  "title": {
+    "sv": "Medier: källa, avsändare, syfte och trovärdighet",
+    "ru": "Медиа: источник, автор, цель текста, надёжность",
+    "en": "Media: the source, the author, the purpose of a text, reliability"
+  },
+  "summary": {
+    "ru": "Фразы и лексика для критической оценки текста: кто его написал, зачем и можно ли ему доверять.",
+    "en": "Phrases and vocabulary for critically assessing a text: who wrote it, why, and whether it can be trusted."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "media",
+    "critical-thinking",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1590,
+  "prerequisites": [
+    "sva-grund-2/news-article-essentials"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

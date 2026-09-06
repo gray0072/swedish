@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/migration-integration",
+  "slug": "migration-integration",
+  "title": {
+    "sv": "Migration och integration — neutrala ord för ett känsligt ämne",
+    "ru": "Миграция и интеграция — обсуждение на нейтральной лексике",
+    "en": "Migration and integration — a discussion in neutral vocabulary"
+  },
+  "summary": {
+    "ru": "Строго нейтральная лексика для деликатной темы: migration, integration, mångkulturell, samhällsorientering, etablering på arbetsmarknaden.",
+    "en": "Strictly neutral vocabulary for a sensitive topic: migration, integration, mångkulturell, samhällsorientering, etablering på arbetsmarknaden."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["vocab", "society", "migration"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1700,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

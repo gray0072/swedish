@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "motstandare",
+      "sv": "motståndare",
+      "translations": { "ru": "оппонент, противник (во мнении)", "en": "opponent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en motståndare", "defSg": "motståndaren", "indefPl": "motståndare", "defPl": "motståndarna" }
+    },
+    {
+      "id": "motstandare-till-detta-havdar-att",
+      "sv": "motståndare till detta hävdar att...",
+      "translations": { "ru": "противники этого утверждают, что...", "en": "opponents of this claim that..." },
+      "pos": "phrase",
+      "example": { "sv": "Motståndare till detta hävdar att en kortare arbetsvecka skulle skada ekonomin.", "ru": "Противники этого утверждают, что более короткая рабочая неделя навредила бы экономике.", "en": "Opponents of this claim that a shorter working week would harm the economy." }
+    },
+    {
+      "id": "men-det-stammer-inte-eftersom",
+      "sv": "men det stämmer inte eftersom...",
+      "translations": { "ru": "но это не так, потому что...", "en": "but that's not true, because..." },
+      "pos": "phrase",
+      "example": { "sv": "Men det stämmer inte eftersom flera studier visar motsatsen.", "ru": "Но это не так, потому что несколько исследований показывают обратное.", "en": "But that's not true, because several studies show the opposite." }
+    },
+    {
+      "id": "aven-om-man-kan-invanda-att",
+      "sv": "även om man kan invända att...",
+      "translations": { "ru": "хотя можно было бы возразить, что...", "en": "even though one could object that..." },
+      "pos": "phrase",
+      "example": { "sv": "Även om man kan invända att omställningen kostar pengar, väger fördelarna tyngre.", "ru": "Хотя можно было бы возразить, что переход стоит денег, преимущества перевешивают.", "en": "Even though one could object that the transition costs money, the advantages outweigh that." }
+    },
+    {
+      "id": "en-mojlig-invandning-ar-att",
+      "sv": "en möjlig invändning är att...",
+      "translations": { "ru": "одно из возможных возражений — то, что...", "en": "one possible objection is that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-ar-sant-att-men",
+      "sv": "det är sant att... men...",
+      "translations": { "ru": "это правда, что... но...", "en": "it's true that... but..." },
+      "pos": "phrase",
+      "example": { "sv": "Det är sant att en del företag skulle få högre kostnader, men de flesta skulle klara omställningen.", "ru": "Это правда, что у некоторых компаний вырастут расходы, но большинство справится с переходом.", "en": "It's true that some companies would face higher costs, but most would manage the transition." }
+    },
+    {
+      "id": "invandning",
+      "sv": "invändning",
+      "translations": { "ru": "возражение", "en": "objection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en invändning", "defSg": "invändningen", "indefPl": "invändningar", "defPl": "invändningarna" }
+    },
+    {
+      "id": "tillbakavisa",
+      "sv": "tillbakavisa",
+      "translations": { "ru": "опровергать", "en": "to refute" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tillbakavisa", "present": "tillbakavisar", "past": "tillbakavisade", "supine": "tillbakavisat" }
+    },
+    {
+      "id": "bemota",
+      "sv": "bemöta",
+      "translations": { "ru": "отвечать на (аргумент), парировать", "en": "to counter, to respond to (an argument)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bemöta", "present": "bemöter", "past": "bemötte", "supine": "bemött" }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать", "en": "to claim, to assert" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" }
+    },
+    {
+      "id": "stamma-ca",
+      "sv": "stämma",
+      "translations": { "ru": "быть верным, соответствовать действительности", "en": "to be correct, to hold true" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "stämma", "present": "stämmer", "past": "stämde", "supine": "stämt" },
+      "example": { "sv": "Det stämmer inte.", "ru": "Это не так.", "en": "That's not correct." }
+    },
+    {
+      "id": "overtyga",
+      "sv": "övertyga",
+      "translations": { "ru": "убеждать", "en": "to convince" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "övertyga", "present": "övertygar", "past": "övertygade", "supine": "övertygat" }
+    },
+    {
+      "id": "dock-ca",
+      "sv": "dock",
+      "translations": { "ru": "однако, впрочем", "en": "however" },
+      "pos": "adv"
+    },
+    {
+      "id": "trots-detta",
+      "sv": "trots detta",
+      "translations": { "ru": "несмотря на это", "en": "despite this" },
+      "pos": "phrase"
+    },
+    {
+      "id": "i-sjalva-verket",
+      "sv": "i själva verket",
+      "translations": { "ru": "на самом деле", "en": "in fact, actually" },
+      "pos": "phrase"
+    },
+    {
+      "id": "giltigt-argument",
+      "sv": "ett giltigt argument",
+      "translations": { "ru": "весомый, обоснованный аргумент", "en": "a valid argument" },
+      "pos": "phrase"
+    }
+  ]
+}

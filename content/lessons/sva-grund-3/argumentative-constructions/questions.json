@@ -1,0 +1,99 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-argumentative-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что делает конструкция «å ena sidan … å andra sidan»?", "en": "What does the \"å ena sidan … å andra sidan\" construction do?" },
+      "choices": [
+        { "ru": "Взвешивает два равноправных взгляда, не называя победителя", "en": "Weighs two equally valid views, without naming a winner" },
+        { "ru": "Опровергает довод оппонента", "en": "Refutes the opponent's argument" },
+        { "ru": "Перечисляет аргументы по порядку (первый, второй)", "en": "Lists arguments in order (first, second)" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Visserligen är hyran hög i city, men det är nära till jobbet» — что делает visserligen?", "en": "\"Visserligen är hyran hög i city, men det är nära till jobbet\" — what does visserligen do?" },
+      "choices": [
+        { "ru": "Признаёт довод оппонента перед тем, как men его перевесит", "en": "Concedes the opponent's point before men outweighs it" },
+        { "ru": "Полностью отрицает довод оппонента", "en": "Fully denies the opponent's point" },
+        { "ru": "Ничего не добавляет к смыслу", "en": "Adds nothing to the meaning" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-constructions-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что происходит с порядком слов после «å ena sidan» в начале предложения?", "en": "What happens to word order after a sentence-initial \"å ena sidan\"?" },
+      "choices": ["V2-инверсия: подлежащее после глагола", "Порядок не меняется", "Глагол уходит в конец предложения"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-constructions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ ena sidan vill jag flytta, å andra sidan trivs jag här. (первая часть конструкции)" },
+      "answer": ["Å"]
+    },
+    {
+      "id": "q-argumentative-constructions-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Visserligen är hyran hög, ___ det är nära till jobbet. (противопоставление)" },
+      "answer": ["men"]
+    },
+    {
+      "id": "q-argumentative-constructions-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ är hyran hög i city, men det är nära till jobbet. (уступка перед men)" },
+      "answer": ["Visserligen"]
+    },
+    {
+      "id": "q-argumentative-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Å ena sidan … å andra sidan» обязательно указывает, какой из двух взглядов правильнее.", "en": "\"Å ena sidan … å andra sidan\" always states which of the two views is correct." },
+      "answer": false,
+      "explanation": { "ru": "Конструкция просто ставит рядом два равноправных соображения, без явного вывода.", "en": "The construction just places two equally valid considerations side by side, without an explicit conclusion." }
+    },
+    {
+      "id": "q-argumentative-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Visserligen … men» сильнее простого перечисления «за» и «против», потому что активно строит возражение.", "en": "\"Visserligen … men\" is stronger than a simple pros-and-cons list because it actively builds a rebuttal." },
+      "answer": true
+    },
+    {
+      "id": "q-argumentative-constructions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Visserligen» в начале предложения не влияет на порядок слов.", "en": "\"Visserligen\" at the start of a sentence has no effect on word order." },
+      "answer": false,
+      "explanation": { "ru": "Как sats-наречие в начале предложения, оно вызывает V2-инверсию.", "en": "As a sentence adverbial in initial position, it triggers V2 inversion." }
+    },
+    {
+      "id": "q-argumentative-constructions-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «С одной стороны, я хочу переехать в большой город, с другой стороны, мне хорошо в деревне.»", "en": "Build the sentence: \"On the one hand I want to move to a big city, on the other hand I'm happy in the countryside.\"" },
+      "tokens": ["Å", "ena", "sidan", "vill", "jag", "flytta", "till", "en", "storstad,", "å", "andra", "sidan", "trivs", "jag", "bra", "på", "landet"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    },
+    {
+      "id": "q-argumentative-constructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с её функцией", "en": "Match the construction with its function" },
+      "pairs": [
+        ["å ena sidan … å andra sidan", "взвесить два равноправных взгляда / weigh two equally valid views"],
+        ["visserligen … men", "уступить и тут же возразить / concede and then push back"]
+      ]
+    }
+  ]
+}

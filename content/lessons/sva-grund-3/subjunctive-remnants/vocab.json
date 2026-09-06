@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "vore",
+      "sv": "vore",
+      "translations": { "ru": "было бы (книжн.)", "en": "would be (formal/written)" },
+      "pos": "verb",
+      "note": { "ru": "Старая форма конъюнктива глагола vara, заменяет skulle vara в приподнятом стиле.", "en": "The old subjunctive form of vara, replacing skulle vara in elevated style." }
+    },
+    {
+      "id": "ma",
+      "sv": "må",
+      "translations": { "ru": "пусть (в пожеланиях)", "en": "may (in wishes)" },
+      "pos": "verb",
+      "note": { "ru": "Сохранился только в застывших пожеланиях: Må det gå dig väl.", "en": "Survives only in fixed wishes: Må det gå dig väl." }
+    },
+    {
+      "id": "matte",
+      "sv": "måtte",
+      "translations": { "ru": "хоть бы, пусть бы", "en": "I do hope, may (wishing about the future)" },
+      "pos": "verb",
+      "note": { "ru": "Расширенная форма må для пожеланий о будущем.", "en": "An extended form of må used for wishes about the future." }
+    },
+    {
+      "id": "vara-inf",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" }
+    },
+    {
+      "id": "synd",
+      "sv": "synd",
+      "translations": { "ru": "жаль", "en": "a shame, a pity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "synd", "defSg": "synden", "indefPl": "synder", "defPl": "synderna" },
+      "example": { "sv": "Det vore synd att missa festen.", "ru": "Было бы жаль пропустить вечеринку.", "en": "It would be a shame to miss the party." }
+    },
+    {
+      "id": "missa",
+      "sv": "missa",
+      "translations": { "ru": "пропустить, упустить", "en": "to miss" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "missa", "present": "missar", "past": "missade", "supine": "missat" }
+    },
+    {
+      "id": "onska",
+      "sv": "önska",
+      "translations": { "ru": "желать", "en": "to wish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "önska", "present": "önskar", "past": "önskade", "supine": "önskat" }
+    },
+    {
+      "id": "hogtidlig",
+      "sv": "högtidlig",
+      "translations": { "ru": "торжественный", "en": "solemn, ceremonial" },
+      "pos": "adj"
+    },
+    {
+      "id": "skriftsprak",
+      "sv": "skriftspråk",
+      "translations": { "ru": "письменный язык", "en": "written language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" }
+    },
+    {
+      "id": "fest-noun",
+      "sv": "fest",
+      "translations": { "ru": "вечеринка, праздник", "en": "party, celebration" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" }
+    }
+  ]
+}

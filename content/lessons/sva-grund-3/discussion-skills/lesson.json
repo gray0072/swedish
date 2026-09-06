@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/discussion-skills",
+  "slug": "discussion-skills",
+  "title": {
+    "sv": "Diskussionsteknik: haka på, invända, hålla med, sammanfatta",
+    "ru": "Дискуссия: как войти, возразить, согласиться, подвести итог",
+    "en": "Discussion: how to join in, object, agree, sum up"
+  },
+  "summary": {
+    "ru": "Базовые фразы для участия в групповой дискуссии: как вежливо вступить, возразить, согласиться и подвести итог сказанному.",
+    "en": "Core phrases for taking part in a group discussion: joining in politely, objecting, agreeing, and summing up what was said."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["phrases", "speaking", "discussion"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1630,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/argumentative-counter-argument",
+  "slug": "argumentative-counter-argument",
+  "title": {
+    "sv": "Motargument och bemötande i en argumenterande text",
+    "ru": "Аргументативный текст с контраргументом",
+    "en": "An argumentative text with a counter-argument"
+  },
+  "summary": {
+    "ru": "Как назвать точку зрения оппонента и опровергнуть её: motståndare till detta hävdar att..., men det stämmer inte eftersom..., även om man kan invända att...",
+    "en": "How to state the opponent's view and refute it: motståndare till detta hävdar att..., men det stämmer inte eftersom..., även om man kan invända att..."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-3"],
+  "tags": ["phrases", "writing", "argumentation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1610,
+  "prerequisites": ["sva-grund-2/argumentative-text"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

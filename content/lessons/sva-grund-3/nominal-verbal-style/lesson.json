@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/nominal-verbal-style",
+  "slug": "nominal-verbal-style",
+  "title": {
+    "sv": "Nominal stil och verbal stil: klarspråk",
+    "ru": "Номинальный и глагольный стиль: когда какой уместен",
+    "en": "Nominal versus verbal style: when each is appropriate"
+  },
+  "summary": {
+    "ru": "Тяжёлые существительные на -ning — ещё не хороший стиль: сравниваем канцелярит с живой речью.",
+    "en": "Heavy -ning nouns aren't automatically good style — comparing officialese with plain language."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "style", "register", "writing"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1430,
+  "prerequisites": ["sva-grund-2/nominalisation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

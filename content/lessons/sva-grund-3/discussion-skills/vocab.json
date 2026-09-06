@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": "far-jag-lagga-till-nagot",
+      "sv": "får jag lägga till något?",
+      "translations": { "ru": "можно мне кое-что добавить?", "en": "may I add something?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-skulle-vilja-saga-en-sak",
+      "sv": "jag skulle vilja säga en sak",
+      "translations": { "ru": "я хотел(а) бы сказать одну вещь", "en": "I would like to say one thing" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-ser-det-lite-annorlunda",
+      "sv": "jag ser det lite annorlunda",
+      "translations": { "ru": "я смотрю на это немного иначе", "en": "I see it a bit differently" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-haller-med-om-att",
+      "sv": "jag håller med om att...",
+      "translations": { "ru": "я согласен(на), что...", "en": "I agree that..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag håller med om att det är ett viktigt problem.", "ru": "Я согласен(на), что это важная проблема.", "en": "I agree that this is an important problem." }
+    },
+    {
+      "id": "jag-haller-inte-riktigt-med-om-att",
+      "sv": "jag håller inte riktigt med om att...",
+      "translations": { "ru": "я не совсем согласен(на), что...", "en": "I don't quite agree that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-stammer-men",
+      "sv": "det stämmer, men...",
+      "translations": { "ru": "это верно, но...", "en": "that's true, but..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "om-jag-ska-sammanfatta",
+      "sv": "om jag ska sammanfatta det vi kommit fram till",
+      "translations": { "ru": "если подвести итог тому, к чему мы пришли", "en": "if I'm to sum up what we've concluded" },
+      "pos": "phrase"
+    },
+    {
+      "id": "far-jag-avbryta",
+      "sv": "får jag avbryta?",
+      "translations": { "ru": "можно перебить?", "en": "may I interrupt?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "fortsatt-du-var-inte-klar",
+      "sv": "fortsätt, du var inte klar",
+      "translations": { "ru": "продолжай, ты не закончил(а)", "en": "go on, you weren't finished" },
+      "pos": "phrase"
+    },
+    {
+      "id": "vad-tycker-du-om-det",
+      "sv": "vad tycker du om det?",
+      "translations": { "ru": "что ты об этом думаешь?", "en": "what do you think about that?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "bra-poang-discussion",
+      "sv": "bra poäng",
+      "translations": { "ru": "хорошее замечание", "en": "good point" },
+      "pos": "phrase"
+    },
+    {
+      "id": "diskussion",
+      "sv": "diskussion",
+      "translations": { "ru": "дискуссия, обсуждение", "en": "discussion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" }
+    },
+    {
+      "id": "delta",
+      "sv": "delta",
+      "translations": { "ru": "участвовать", "en": "to participate" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "delta", "present": "deltar", "past": "deltog", "supine": "deltagit" }
+    },
+    {
+      "id": "avbryta",
+      "sv": "avbryta",
+      "translations": { "ru": "перебивать, прерывать", "en": "to interrupt" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "avbryta", "present": "avbryter", "past": "avbröt", "supine": "avbrutit" }
+    },
+    {
+      "id": "komma-overens",
+      "sv": "komma överens",
+      "translations": { "ru": "прийти к согласию", "en": "to agree, to come to an agreement" },
+      "pos": "phrase"
+    }
+  ]
+}

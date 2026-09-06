@@ -1,0 +1,117 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-impersonal-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово заполняет место подлежащего в «Det regnar»?", "en": "Which word fills the subject slot in \"Det regnar\"?" },
+      "choices": ["man", "det", "-s-пассив"],
+      "answer": 1
+    },
+    {
+      "id": "q-impersonal-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Man ska inte prata med munnen full.» — что означает man здесь?", "en": "\"Man ska inte prata med munnen full.\" — what does man mean here?" },
+      "choices": [
+        { "ru": "Конкретный мужчина", "en": "A specific man" },
+        { "ru": "Обобщённое «люди вообще, каждый»", "en": "A generic \"people in general, anyone\"" },
+        { "ru": "Формальное подлежащее без смысла", "en": "A meaningless formal subject" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-impersonal-constructions-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Почему в «Det röks mycket på den klubben» нужно det перед -s-пассивом?", "en": "Why does \"Det röks mycket på den klubben\" need det before the -s-passive?" },
+      "choices": [
+        { "ru": "Потому что röka — непереходный глагол и у -s-пассива нет собственного подлежащего", "en": "Because röka is intransitive and the -s-passive has no subject of its own" },
+        { "ru": "Потому что это ошибка, det здесь не нужно", "en": "Because it's a mistake, det isn't needed there" },
+        { "ru": "Потому что речь идёт о погоде", "en": "Because it's about the weather" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-impersonal-constructions-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая конструкция полностью убирает деятеля из фокуса, не намекая даже на «людей вообще»?", "en": "Which construction removes the agent from focus entirely, without even hinting at \"people in general\"?" },
+      "choices": ["man", "-s-пассив", "det (погода)"],
+      "answer": 1
+    },
+    {
+      "id": "q-impersonal-constructions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ finns inget kaffe kvar. (формальное подлежащее)" },
+      "answer": ["Det"]
+    },
+    {
+      "id": "q-impersonal-constructions-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ ska inte prata med munnen full. (обобщённое подлежащее)" },
+      "answer": ["Man"]
+    },
+    {
+      "id": "q-impersonal-constructions-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ dansas mycket på svenska fester. (формальное подлежащее + -s-пассив)" },
+      "answer": ["Det"]
+    },
+    {
+      "id": "q-impersonal-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "`Man` всегда обозначает конкретного, известного человека.", "en": "`Man` always refers to a specific, known person." },
+      "answer": false,
+      "explanation": { "ru": "`Man` — обобщённое подлежащее, «люди вообще» или «ты» в общем смысле.", "en": "`Man` is a generic subject, meaning \"people in general\" or a generic \"you.\"" }
+    },
+    {
+      "id": "q-impersonal-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "`Det` может использоваться и для погоды, и как формальное подлежащее перед -s-пассивом непереходного глагола.", "en": "`Det` can be used both for weather and as a formal subject before the -s-passive of an intransitive verb." },
+      "answer": true
+    },
+    {
+      "id": "q-impersonal-constructions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "-s-пассив и `man` полностью взаимозаменяемы и не отличаются по смыслу.", "en": "The -s-passive and `man` are fully interchangeable and carry no difference in meaning." },
+      "answer": false,
+      "explanation": { "ru": "`Man` всё ещё намекает на людей как действующих лиц, а -s-пассив убирает деятеля полностью.", "en": "`Man` still hints at people as agents, while the -s-passive removes the agent entirely." }
+    },
+    {
+      "id": "q-impersonal-constructions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Кофе больше не осталось.»", "en": "Build the sentence: \"There's no coffee left.\"" },
+      "tokens": ["Det", "finns", "inget", "kaffe", "kvar"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-impersonal-constructions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «В этом клубе много танцуют.»", "en": "Build the sentence: \"There's a lot of dancing at that club.\"" },
+      "tokens": ["Det", "dansas", "mycket", "på", "den", "klubben"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-impersonal-constructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с её типичным применением", "en": "Match the construction with its typical use" },
+      "pairs": [
+        ["det", "погода и существование / weather and existence"],
+        ["man", "обобщённый совет или правило / a generic piece of advice or rule"],
+        ["-s-пассив", "официальный текст, деятель не важен / official text, agent doesn't matter"]
+      ]
+    }
+  ]
+}

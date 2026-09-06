@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/extended-noun-phrase",
+  "slug": "extended-noun-phrase",
+  "title": {
+    "sv": "Utbyggd nominalfras och kongruens",
+    "ru": "Развёрнутая именная группа и согласование внутри неё",
+    "en": "The extended noun phrase and agreement inside it"
+  },
+  "summary": {
+    "ru": "Определитель + несколько прилагательных + существительное + придаточное — и все части согласуются по одним правилам.",
+    "en": "Determiner + several adjectives + noun + a relative clause — and every part agrees by the same rules."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "nouns",
+    "adjectives",
+    "agreement"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1320,
+  "prerequisites": [
+    "sva-grund-1/adjective-declension"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

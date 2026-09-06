@@ -1,0 +1,145 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-swedish-model-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Риксдаг принимает новые законы.»", "en": "Build the sentence: \"The Riksdag decides on new laws.\"" },
+      "tokens": ["beslutar", "Riksdagen", "nya lagar.", "om"],
+      "answer": [1, 0, 3, 2]
+    },
+    {
+      "id": "q-swedish-model-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Коммуна отвечает за школы и детские сады.»", "en": "Build the sentence: \"The municipality is responsible for schools and preschools.\"" },
+      "tokens": ["för", "Kommunen", "och förskolor.", "ansvarar", "skolor"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-swedish-model-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["staten", "государство"],
+        ["regionen", "регион"],
+        ["kommunen", "коммуна"],
+        ["riksdagen", "риксдаг (парламент)"]
+      ]
+    },
+    {
+      "id": "q-swedish-model-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["självstyre", "самоуправление"],
+        ["skattemedel", "налоговые средства"],
+        ["myndighet", "ведомство"],
+        ["välfärd", "социальное обеспечение"]
+      ]
+    },
+    {
+      "id": "q-swedish-model-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Landsting» — это современное официальное название региона.", "en": "\"Landsting\" is the current official name for a region." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Landsting» — старое название; с 2019 года официально используется «region».",
+        "en": "\"Landsting\" is the old name; since 2019 the official term is \"region\"."
+      }
+    },
+    {
+      "id": "q-swedish-model-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Коммуны в Швеции обладают самоуправлением и сами решают, как организовать школы.", "en": "Swedish municipalities have self-governance and decide for themselves how to organise schools." },
+      "answer": true
+    },
+    {
+      "id": "q-swedish-model-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Регион в Швеции в первую очередь отвечает за здравоохранение.", "en": "In Sweden, the region is primarily responsible for healthcare." },
+      "answer": true
+    },
+    {
+      "id": "q-swedish-model-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Депутаты риксдага не избираются, а назначаются правительством.", "en": "Members of the Riksdag are not elected but appointed by the government." },
+      "answer": false,
+      "explanation": {
+        "ru": "Депутаты риксдага являются «folkvalda» — избранными народом.",
+        "en": "Members of the Riksdag are \"folkvalda\" — elected by the people."
+      }
+    },
+    {
+      "id": "q-swedish-model-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ genomför de beslut som riksdagen fattar. (правительство)" },
+      "answer": ["Regeringen"],
+      "acceptAlso": ["regeringen"]
+    },
+    {
+      "id": "q-swedish-model-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Skatteverket är en statlig ___. (ведомство)" },
+      "answer": ["myndighet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-swedish-model-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ finansieras med skattemedel. (школа)" },
+      "answer": ["Skolan"],
+      "acceptAlso": ["skolan"]
+    },
+    {
+      "id": "q-swedish-model-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой орган принимает решения о бюджете коммуны?",
+        "en": "Which body decides on the municipality's budget?"
+      },
+      "choices": ["kommunfullmäktige", "riksdagen", "regeringen", "regionfullmäktige"],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-model-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «муниципальный налог»?",
+        "en": "Which word means \"municipal tax\"?"
+      },
+      "choices": ["kommunalskatt", "skattemedel", "välfärd", "myndighet"],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-model-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Сколько уровней власти выделяет шведская модель управления?",
+        "en": "How many levels of government does the Swedish model distinguish?"
+      },
+      "choices": ["tre", "två", "fyra", "fem"],
+      "answer": 0
+    }
+  ]
+}

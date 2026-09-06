@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/work-environment-conflicts",
+  "slug": "work-environment-conflicts",
+  "title": {
+    "sv": "Arbetsmiljö och konflikter på jobbet",
+    "ru": "Рабочая среда (arbetsmiljö) и конфликты на работе",
+    "en": "The work environment (arbetsmiljö) and conflicts at work"
+  },
+  "summary": {
+    "ru": "Лексика для разговора о рабочей среде, конфликтах, роли профсоюза и защите работников.",
+    "en": "Vocabulary for discussing the work environment, conflicts, the union's role and worker protection."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "work",
+    "work-environment",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1520,
+  "prerequisites": [
+    "sva-grund-2/labour-market"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

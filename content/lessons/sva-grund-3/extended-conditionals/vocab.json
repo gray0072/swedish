@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": "vore",
+      "sv": "vore",
+      "translations": { "ru": "был бы (архаичное сослагательное наклонение от vara)", "en": "were/would be (archaic subjunctive of vara)" },
+      "pos": "verb",
+      "example": { "sv": "Vore jag dig, skulle jag tacka nej.", "ru": "Будь я на твоём месте, я бы отказался.", "en": "If I were you, I would decline." }
+    },
+    {
+      "id": "uppsta",
+      "sv": "uppstå",
+      "translations": { "ru": "возникать", "en": "to arise, to occur" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "uppstå", "present": "uppstår", "past": "uppstod", "supine": "uppstått" },
+      "example": { "sv": "Uppstår fel, kontakta support.", "ru": "Если возникнет ошибка, обратитесь в поддержку.", "en": "If an error occurs, contact support." }
+    },
+    {
+      "id": "kontakta",
+      "sv": "kontakta",
+      "translations": { "ru": "связываться, обращаться", "en": "to contact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+    },
+    {
+      "id": "hora-av-sig",
+      "sv": "höra av sig",
+      "translations": { "ru": "давать о себе знать, связываться", "en": "to get in touch, to be in touch" },
+      "pos": "phrase",
+      "example": { "sv": "Behöver du hjälp, hör av dig.", "ru": "Если тебе нужна помощь, дай знать.", "en": "If you need help, get in touch." }
+    },
+    {
+      "id": "tacka-nej",
+      "sv": "tacka nej (till)",
+      "translations": { "ru": "отказаться (от предложения)", "en": "to decline, to say no (to an offer)" },
+      "pos": "phrase",
+      "example": { "sv": "Vore jag dig, skulle jag tacka nej.", "ru": "Будь я на твоём месте, я бы отказался.", "en": "If I were you, I would decline." }
+    },
+    {
+      "id": "skulle-ha-supinum",
+      "sv": "skulle ha + supinum",
+      "translations": { "ru": "сделал бы (условный перфект, главная часть ирреального прошлого)", "en": "would have + past participle (conditional perfect, the main clause of an unreal past condition)" },
+      "pos": "phrase",
+      "note": { "ru": "Стандартная, самая формальная форма главной части.", "en": "The standard, most formal form of the main clause." }
+    },
+    {
+      "id": "hade-supinum-inversion",
+      "sv": "Hade jag vetat det, ...",
+      "translations": { "ru": "Если бы я это знал, ... (инверсия вместо om)", "en": "Had I known that, ... (inversion instead of om)" },
+      "pos": "phrase",
+      "note": { "ru": "Личный глагол придаточного встаёт перед подлежащим и заменяет om.", "en": "The finite verb of the clause moves before the subject and replaces om." }
+    },
+    {
+      "id": "fel",
+      "sv": "fel",
+      "translations": { "ru": "ошибка", "en": "error, mistake" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fel", "defSg": "felet", "indefPl": "fel", "defPl": "felen" }
+    },
+    {
+      "id": "stanna-hemma",
+      "sv": "stanna hemma",
+      "translations": { "ru": "оставаться дома", "en": "to stay home" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call, to phone" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" }
+    },
+    {
+      "id": "regn",
+      "sv": "regn",
+      "translations": { "ru": "дождь", "en": "rain" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett regn", "defSg": "regnet", "indefPl": "regn", "defPl": "regnen" },
+      "example": { "sv": "Vore det inte för regnet, skulle vi gå ut.", "ru": "Если бы не дождь, мы бы пошли гулять.", "en": "If it weren't for the rain, we would go out." }
+    },
+    {
+      "id": "support",
+      "sv": "support",
+      "translations": { "ru": "служба поддержки", "en": "support (customer service)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en support", "defSg": "supporten", "indefPl": "supporter", "defPl": "supporterna" }
+    }
+  ]
+}

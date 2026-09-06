@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-3/fact-vs-opinion",
+  "slug": "fact-vs-opinion",
+  "title": {
+    "sv": "Fakta eller åsikt: att skilja dem åt i en text",
+    "ru": "Факт против мнения: как отличить в тексте",
+    "en": "Fact versus opinion: how to tell them apart in a text"
+  },
+  "summary": {
+    "ru": "Языковые маркеры, которые помогают отличить факт от мнения в шведском тексте.",
+    "en": "Language markers that help distinguish fact from opinion in a Swedish text."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "media",
+    "critical-thinking",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1600,
+  "prerequisites": [
+    "sva-grund-3/media-literacy"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-3/comparative-constructions",
+  "slug": "comparative-constructions",
+  "title": {
+    "sv": "Jämförande konstruktioner: ju … desto, lika … som, än",
+    "ru": "Сравнительные конструкции: ju … desto, lika … som, än",
+    "en": "Comparative constructions: ju … desto, lika … som, än"
+  },
+  "summary": {
+    "ru": "«Чем больше, тем лучше», равенство и сравнение — три способа сопоставлять по-шведски.",
+    "en": "\"The more, the better\", equality, and comparison — three ways to compare in Swedish."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "adjectives",
+    "comparison",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1400,
+  "prerequisites": [
+    "sva-grund-1/adjective-comparison"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

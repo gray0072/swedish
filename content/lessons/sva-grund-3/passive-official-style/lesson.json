@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-3/passive-official-style",
+  "slug": "passive-official-style",
+  "title": {
+    "sv": "Passiv i informativ och officiell stil",
+    "ru": "Пассив в информационном и официальном стиле",
+    "en": "The passive in informative and official style"
+  },
+  "summary": {
+    "ru": "Объявления, инструкции и новости обходятся без «кто» — и звучат нейтрально и официально.",
+    "en": "Notices, instructions, and news skip \"who\" — and sound neutral and official."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-3"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "passive-voice",
+    "register",
+    "official-style"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1330,
+  "prerequisites": [
+    "sva-grund-2/passive-voice"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

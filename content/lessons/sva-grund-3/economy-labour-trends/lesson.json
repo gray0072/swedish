@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/economy-labour-trends",
+  "slug": "economy-labour-trends",
+  "title": {
+    "sv": "Ekonomi och arbetsmarknad: trender och statistik",
+    "ru": "Экономика и рынок труда: тренды и статистика",
+    "en": "The economy and the labour market: trends and statistics"
+  },
+  "summary": {
+    "ru": "Лексика для обсуждения экономических трендов: конъюнктура, безработица, ВВП, инфляция, уровень зарплат и отраслевые тренды.",
+    "en": "Vocabulary for discussing economic trends: the business cycle, unemployment, GDP, inflation, wage levels and industry trends."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-3"],
+  "tags": ["economy", "labour-market", "statistics", "vocab"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1720,
+  "prerequisites": ["sva-grund-2/labour-market"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}
