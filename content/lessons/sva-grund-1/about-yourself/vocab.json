@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "id": "flytta-ay",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move, to relocate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Jag flyttade till Sverige med min familj.", "ru": "Я переехал в Швецию с семьёй.", "en": "I moved to Sweden with my family." }
+    },
+    {
+      "id": "anlanda",
+      "sv": "anlända",
+      "translations": { "ru": "прибывать", "en": "to arrive" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anlända", "present": "anländer", "past": "anlände", "supine": "anlänt" },
+      "example": { "sv": "Vi anlände till Sverige på hösten.", "ru": "Мы прибыли в Швецию осенью.", "en": "We arrived in Sweden in the autumn." }
+    },
+    {
+      "id": "bo-ay",
+      "sv": "bo",
+      "translations": { "ru": "жить, проживать", "en": "to live, to reside" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag har bott i Sverige i tre år.", "ru": "Я живу в Швеции уже три года.", "en": "I've lived in Sweden for three years." }
+    },
+    {
+      "id": "jobba-ay",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Numera jobbar jag som undersköterska.", "ru": "Теперь я работаю помощником медсестры.", "en": "Nowadays I work as a nursing assistant." }
+    },
+    {
+      "id": "studera-ay",
+      "sv": "studera",
+      "translations": { "ru": "учиться, изучать", "en": "to study" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "studera", "present": "studerar", "past": "studerade", "supine": "studerat" },
+      "example": { "sv": "Just nu studerar jag svenska.", "ru": "Прямо сейчас я изучаю шведский.", "en": "Right now I'm studying Swedish." }
+    },
+    {
+      "id": "hoppas-ay",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "example": { "sv": "Jag hoppas kunna jobba som sjuksköterska i framtiden.", "ru": "Я надеюсь в будущем работать медсестрой.", "en": "I hope to be able to work as a nurse in the future." }
+    },
+    {
+      "id": "utbildning",
+      "sv": "utbildning",
+      "translations": { "ru": "образование", "en": "education" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" },
+      "example": { "sv": "Jag har en utbildning inom vård.", "ru": "У меня образование в сфере здравоохранения.", "en": "I have an education in healthcare." }
+    },
+    {
+      "id": "yrke",
+      "sv": "yrke",
+      "translations": { "ru": "профессия", "en": "profession, occupation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" },
+      "example": { "sv": "Vad har du för yrke?", "ru": "Кто ты по профессии?", "en": "What's your profession?" }
+    },
+    {
+      "id": "erfarenhet",
+      "sv": "erfarenhet",
+      "translations": { "ru": "опыт", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en erfarenhet", "defSg": "erfarenheten", "indefPl": "erfarenheter", "defPl": "erfarenheterna" },
+      "example": { "sv": "Jag har erfarenhet av att jobba med barn.", "ru": "У меня есть опыт работы с детьми.", "en": "I have experience working with children." }
+    },
+    {
+      "id": "bakgrund",
+      "sv": "bakgrund",
+      "translations": { "ru": "происхождение, бэкграунд", "en": "background" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bakgrund", "defSg": "bakgrunden", "indefPl": "bakgrunder", "defPl": "bakgrunderna" },
+      "example": { "sv": "Vi har olika bakgrund men samma mål.", "ru": "У нас разное происхождение, но одна цель.", "en": "We have different backgrounds but the same goal." }
+    },
+    {
+      "id": "praktik",
+      "sv": "praktik",
+      "translations": { "ru": "практика, стажировка", "en": "internship, work placement" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en praktik", "defSg": "praktiken", "indefPl": "praktiker", "defPl": "praktikerna" },
+      "example": { "sv": "Jag gör praktik på ett sjukhus.", "ru": "Я прохожу практику в больнице.", "en": "I'm doing an internship at a hospital." }
+    },
+    {
+      "id": "mal-ay",
+      "sv": "mål",
+      "translations": { "ru": "цель", "en": "goal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mål", "defSg": "målet", "indefPl": "mål", "defPl": "målen" },
+      "example": { "sv": "Mitt mål är att bli sjuksköterska.", "ru": "Моя цель — стать медсестрой.", "en": "My goal is to become a nurse." }
+    },
+    {
+      "id": "for-sedan",
+      "sv": "för ... sedan",
+      "translations": { "ru": "... тому назад", "en": "... ago" },
+      "pos": "phrase",
+      "example": { "sv": "Jag kom hit för tre år sedan.", "ru": "Я приехал сюда три года назад.", "en": "I came here three years ago." }
+    },
+    {
+      "id": "sedan-dess",
+      "sv": "sedan dess",
+      "translations": { "ru": "с тех пор", "en": "since then" },
+      "pos": "phrase",
+      "example": { "sv": "Sedan dess har mycket förändrats.", "ru": "С тех пор многое изменилось.", "en": "A lot has changed since then." }
+    },
+    {
+      "id": "numera",
+      "sv": "numera",
+      "translations": { "ru": "в наши дни, теперь", "en": "nowadays" },
+      "pos": "adv",
+      "example": { "sv": "Numera pratar jag mycket svenska.", "ru": "Теперь я много говорю по-шведски.", "en": "Nowadays I speak a lot of Swedish." }
+    },
+    {
+      "id": "just-nu",
+      "sv": "just nu",
+      "translations": { "ru": "прямо сейчас", "en": "right now" },
+      "pos": "phrase",
+      "example": { "sv": "Just nu läser jag en bok på svenska.", "ru": "Прямо сейчас я читаю книгу на шведском.", "en": "Right now I'm reading a book in Swedish." }
+    },
+    {
+      "id": "i-framtiden",
+      "sv": "i framtiden",
+      "translations": { "ru": "в будущем", "en": "in the future" },
+      "pos": "phrase",
+      "example": { "sv": "I framtiden vill jag ha ett eget företag.", "ru": "В будущем я хочу иметь свою компанию.", "en": "In the future I want to have my own company." }
+    }
+  ]
+}

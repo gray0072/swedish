@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/employer-talk",
+  "slug": "employer-talk",
+  "title": {
+    "sv": "Prata med arbetsgivaren",
+    "ru": "Общение с работодателем: отпуск, больничный, график",
+    "en": "Talking to an employer: holiday, sick leave, the schedule"
+  },
+  "summary": {
+    "ru": "Фразы для отпуска, больничного и смены графика — как обсудить это с работодателем по-шведски.",
+    "en": "Phrases for holiday, sick leave and schedule changes — how to talk about them with a Swedish employer."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "work",
+    "phrases",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 770,
+  "prerequisites": [
+    "sfi-c/professions"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

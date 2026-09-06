@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/savings-credit-insurance",
+  "slug": "savings-credit-insurance",
+  "title": {
+    "sv": "Sparande, kredit och försäkring",
+    "ru": "Экономика домохозяйства: сбережения, кредит, страховка",
+    "en": "Household economy: savings, credit, insurance"
+  },
+  "summary": {
+    "ru": "Сбережения, кредитоспособность, ипотека и амортизация, а также домашняя страховка и самориск.",
+    "en": "Savings, creditworthiness, mortgages and amortization, plus home insurance and the deductible."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "money",
+    "bureaucracy",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1120,
+  "prerequisites": [
+    "sva-grund-1/household-economy"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

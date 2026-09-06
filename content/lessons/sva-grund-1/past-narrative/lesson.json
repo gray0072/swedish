@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/past-narrative",
+  "slug": "past-narrative",
+  "title": {
+    "sv": "Vad hände igår, förra veckan och förra året",
+    "ru": "Рассказ о прошлом: вчера, прошлая неделя, прошлый год",
+    "en": "Talking about the past: yesterday, last week, last year"
+  },
+  "summary": {
+    "ru": "Маркеры времени и глаголы для связного рассказа о прошлом в претерите и перфекте.",
+    "en": "Time markers and verbs for a connected narrative about the past in the preterite and perfect."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "vocab",
+    "past-tense",
+    "narrative",
+    "time-expressions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 630,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

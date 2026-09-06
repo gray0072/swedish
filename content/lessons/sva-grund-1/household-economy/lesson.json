@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/household-economy",
+  "slug": "household-economy",
+  "title": {
+    "sv": "Hushållsekonomi",
+    "ru": "Экономика домохозяйства: бюджет, счета, autogiro",
+    "en": "Household economy: budget, bills, autogiro"
+  },
+  "summary": {
+    "ru": "Бюджет, счета, автоплатёж и сберегательный счёт — слова для управления семейными финансами.",
+    "en": "Budget, bills, direct debit and savings — the words for managing household finances."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "money",
+    "everyday",
+    "bureaucracy"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 790,
+  "prerequisites": [
+    "sfi-c/money"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

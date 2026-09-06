@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-2/written-complaint-claim",
+  "slug": "written-complaint-claim",
+  "title": {
+    "sv": "Skriftligt klagomål och reklamation",
+    "ru": "Жалоба и рекламация в письменном виде",
+    "en": "A complaint and a claim in writing"
+  },
+  "summary": {
+    "ru": "Фразы для формальной письменной жалобы и рекламации: Jag vill härmed anmäla..., Varan var felaktig, Jag kräver ersättning för..., Jag ser fram emot ett svar inom....",
+    "en": "Phrases for a formal written complaint and claim: Jag vill härmed anmäla..., Varan var felaktig, Jag kräver ersättning för..., Jag ser fram emot ett svar inom...."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "complaint",
+    "claim",
+    "formal",
+    "writing",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1230,
+  "prerequisites": [
+    "sva-grund-2/formal-letter-organisation"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

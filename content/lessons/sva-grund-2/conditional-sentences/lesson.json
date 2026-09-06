@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/conditional-sentences",
+  "slug": "conditional-sentences",
+  "title": {
+    "sv": "Villkorssatser: real och orealistisk",
+    "ru": "Условные предложения: реальное и нереальное условие",
+    "en": "Conditional sentences: real and unreal conditions"
+  },
+  "summary": {
+    "ru": "«Если пойдёт дождь» и «если бы у меня было время» — разные предложения, разная грамматика.",
+    "en": "\"If it rains\" and \"if I had time\" are different sentences with different grammar."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "conditionals"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 890,
+  "prerequisites": [
+    "sva-grund-1/future-tense"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

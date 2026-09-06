@@ -1,0 +1,94 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-opinion-justification-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Я считаю, что общественный транспорт недостаточно хорош.»", "en": "Build the sentence: \"I think public transport isn't good enough.\"" },
+      "tokens": ["tillräckligt", "kollektivtrafiken", "att", "bra", "tycker", "inte", "Jag", "är"],
+      "answer": [6, 4, 2, 1, 5, 7, 0, 3]
+    },
+    {
+      "id": "q-opinion-justification-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «С одной стороны, удобно жить в городе.»", "en": "Build the sentence: \"On the one hand, it's convenient to live in the city.\"" },
+      "tokens": ["bekvämt", "sidan", "att", "ena", "bo", "är", "i", "stan", "Å", "det"],
+      "answer": [8, 3, 1, 5, 9, 0, 2, 4, 6, 7]
+    },
+    {
+      "id": "q-opinion-justification-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь союзы и фразы с переводом", "en": "Match the conjunctions and phrases with their translation" },
+      "pairs": [
+        ["eftersom", "так как"],
+        ["enligt mig", "по-моему"],
+        ["hålla med", "соглашаться"],
+        ["till exempel", "например"]
+      ]
+    },
+    {
+      "id": "q-opinion-justification-tf-1",
+      "type": "true-false",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "В придаточном предложении после «att» «inte» ставится после личного глагола: «...att kollektivtrafiken är inte bra».",
+        "en": "In a subordinate clause after \"att\", \"inte\" goes after the finite verb: \"...att kollektivtrafiken är inte bra\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильно: «...att kollektivtrafiken inte är bra» — по правилу BIFF «inte» стоит перед личным глаголом в bisats.",
+        "en": "Correct: \"...att kollektivtrafiken inte är bra\" — by the BIFF rule, \"inte\" goes before the finite verb in a bisats."
+      }
+    },
+    {
+      "id": "q-opinion-justification-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Jag anser att» звучит более формально, чем «jag tycker att».",
+        "en": "\"Jag anser att\" sounds more formal than \"jag tycker att\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-opinion-justification-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag tycker att bussarna ofta är sena, ___ det är för få bussar. (так как)" },
+      "answer": ["eftersom"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-opinion-justification-mc-1",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Какой вариант правильно продолжает придаточное после «eftersom», сохраняя порядок BIFF?",
+        "en": "Which option correctly continues the subordinate clause after \"eftersom\", keeping the BIFF order?"
+      },
+      "choices": ["... eftersom bussarna ofta är sena.", "... eftersom bussarna är ofta sena.", "... eftersom är bussarna ofta sena.", "... eftersom ofta bussarna är sena."],
+      "answer": 0
+    },
+    {
+      "id": "q-opinion-justification-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "En vän säger något du inte instämmer i. Vad svarar du?",
+        "en": "A friend says something you disagree with. What do you reply?"
+      },
+      "choices": ["Jag håller inte med.", "Enligt mig.", "Till exempel.", "Å ena sidan."],
+      "answer": 0
+    }
+  ]
+}

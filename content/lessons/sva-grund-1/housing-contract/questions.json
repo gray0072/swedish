@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-housing-contract-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Срок предупреждения — три месяца.»", "en": "Build the sentence: \"The notice period is three months.\"" },
+      "tokens": ["tre", "är", "månader", "Uppsägningstiden"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-housing-contract-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы расторгли договор.»", "en": "Build the sentence: \"We gave notice on the contract.\"" },
+      "tokens": ["upp", "sade", "kontraktet", "Vi"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-housing-contract-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["hyresrätt", "аренда (найм)"],
+        ["bostadsrätt", "кооперативная квартира"],
+        ["förstahandskontrakt", "договор первой руки"],
+        ["andrahandskontrakt", "договор субаренды"]
+      ]
+    },
+    {
+      "id": "q-housing-contract-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Andrahandshyresgäst» — это тот, кто владеет квартирой.", "en": "\"Andrahandshyresgäst\" is the person who owns the apartment." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Andrahandshyresgäst» — это субарендатор, который снимает жильё у основного арендатора, а не владелец.",
+        "en": "\"Andrahandshyresgäst\" is a subtenant renting from the primary tenant, not an owner."
+      }
+    },
+    {
+      "id": "q-housing-contract-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Bostadskö» — это очередь людей, ожидающих квартиру по найму.", "en": "\"Bostadskö\" is a queue of people waiting for a rental apartment." },
+      "answer": true
+    },
+    {
+      "id": "q-housing-contract-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ är oftast tre månader. (Срок предупреждения)" },
+      "answer": ["Uppsägningstiden"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-housing-contract-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hyresvärden ___ lägenheten innan besiktningen. (осматривает)" },
+      "answer": ["besiktar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-housing-contract-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь пересдать свою квартиру на полгода, пока учишься за границей. Что тебе нужно?",
+        "en": "You want to sublet your apartment for six months while studying abroad. What do you need?"
+      },
+      "choices": ["Ett andrahandskontrakt", "Ett förstahandskontrakt", "En bostadsrätt", "En deposition"],
+      "answer": 0
+    },
+    {
+      "id": "q-housing-contract-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "У тебя конфликт с арендодателем, и вы не можете договориться. Куда можно обратиться?",
+        "en": "You have a conflict with your landlord and can't agree. Where can you turn?"
+      },
+      "choices": ["Till Hyresnämnden", "Till Skatteverket", "Till Försäkringskassan", "Till kollegan"],
+      "answer": 0
+    }
+  ]
+}

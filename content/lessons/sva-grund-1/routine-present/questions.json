@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-routine-present-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я всегда просыпаюсь в шесть.»", "en": "Build the sentence: \"I always wake up at six.\"" },
+      "tokens": ["klockan", "alltid", "sex", "vaknar", "Jag"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-routine-present-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я редко готовлю сам(а).»", "en": "Build the sentence: \"I rarely cook by myself.\"" },
+      "tokens": ["mat", "sällan", "själv", "lagar", "Jag"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-routine-present-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь наречия частоты с переводом", "en": "Match the frequency adverbs with their translation" },
+      "pairs": [
+        ["alltid", "всегда"],
+        ["ofta", "часто"],
+        ["ibland", "иногда"],
+        ["sällan", "редко"]
+      ]
+    },
+    {
+      "id": "q-routine-present-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В huvudsats наречие частоты обычно стоит перед личным глаголом.",
+        "en": "In a huvudsats, a frequency adverb usually goes before the finite verb."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "В huvudsats наречие частоты стоит после личного глагола, на том же месте, что и «inte».",
+        "en": "In a huvudsats, a frequency adverb goes after the finite verb — the same spot as \"inte\"."
+      }
+    },
+    {
+      "id": "q-routine-present-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Sköta hushållet» значит «вести хозяйство».",
+        "en": "\"Sköta hushållet\" means \"to run the household\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-routine-present-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ till jobbet med bussen varje dag. (добираюсь)" },
+      "answer": ["pendlar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-routine-present-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vilket ord passar: «Jag är ___ upptagen, men ibland har jag tid att koppla av.» (часто)",
+        "en": "Which word fits: \"Jag är ___ upptagen, men ibland har jag tid att koppla av.\" (often)"
+      },
+      "choices": ["ofta", "sällan", "aldrig", "numera"],
+      "answer": 0
+    },
+    {
+      "id": "q-routine-present-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что из этого — часть утреннего распорядка?",
+        "en": "Which of these is part of a morning routine?"
+      },
+      "choices": ["duscha", "gå och lägga sig", "koppla av", "sova"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-job-application-cv-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я претендую на должность учителя.»", "en": "Build the sentence: \"I am applying for the position of teacher.\"" },
+      "tokens": ["som", "Jag", "lärare", "söker", "tjänsten"],
+      "answer": [1, 3, 4, 0, 2]
+    },
+    {
+      "id": "q-job-application-cv-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Пожалуйста, приложи резюме к заявлению.»", "en": "Build the sentence: \"Please attach your CV to the application.\"" },
+      "tokens": ["ditt CV", "Vänligen", "i ansökan.", "bifoga"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-job-application-cv-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["personligt brev", "сопроводительное письмо"],
+        ["intervju", "собеседование"],
+        ["ansökan", "заявление"],
+        ["referens", "рекомендация"]
+      ]
+    },
+    {
+      "id": "q-job-application-cv-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["merit", "заслуга, достижение"],
+        ["tjänst", "должность"],
+        ["rekryterare", "рекрутёр"],
+        ["bifoga", "прикладывать"]
+      ]
+    },
+    {
+      "id": "q-job-application-cv-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Personligt brev» и «CV» — это один и тот же документ.", "en": "\"Personligt brev\" and \"CV\" are the same document." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это два разных документа: CV — резюме с фактами, personligt brev — сопроводительное письмо с объяснением мотивации.",
+        "en": "They are two separate documents: the CV lists facts, while the personligt brev (cover letter) explains motivation."
+      }
+    },
+    {
+      "id": "q-job-application-cv-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tacka nej till» тьянстен означает согласиться на должность.", "en": "\"Tacka nej till\" a position means accepting it." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tacka nej till» значит отказаться; согласиться — это «tacka ja till».",
+        "en": "\"Tacka nej till\" means to decline; accepting is \"tacka ja till\"."
+      }
+    },
+    {
+      "id": "q-job-application-cv-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Если тебя «kallar till intervju», значит работодатель отклонил заявление.", "en": "Being \"kallad till intervju\" means the employer rejected your application." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот — тебя приглашают на собеседование, это положительный знак.",
+        "en": "The opposite — you're being invited for an interview, which is a positive sign."
+      }
+    },
+    {
+      "id": "q-job-application-cv-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ge mig namn på två ___? (рекомендателей)" },
+      "answer": ["referenser"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-job-application-cv-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ min ansökan igår. (отправил(а))" },
+      "answer": ["skickade in"],
+      "acceptAlso": ["skickade"]
+    },
+    {
+      "id": "q-job-application-cv-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag har en ___ på onsdag. (собеседование)" },
+      "answer": ["intervju"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-job-application-cv-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как по-шведски сказать «У меня есть опыт работы в команде»?",
+        "en": "How do you say \"I have experience working in teams\" in Swedish?"
+      },
+      "choices": ["Jag har erfarenhet av att jobba i team.", "Jag söker tjänsten som lärare.", "Jag tackar nej till erbjudandet.", "Jag kallades till intervju."],
+      "answer": 0
+    },
+    {
+      "id": "q-job-application-cv-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Работодатель предложил тебе работу, и ты согласен. Что ты скажешь?",
+        "en": "The employer offers you the job and you agree. What do you say?"
+      },
+      "choices": ["Jag tackar ja till erbjudandet.", "Jag tackar nej till erbjudandet.", "Jag skickar in min ansökan.", "Jag bifogar mitt CV."],
+      "answer": 0
+    },
+    {
+      "id": "q-job-application-cv-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Кто звонит кандидатам и организует собеседования?",
+        "en": "Who calls candidates and arranges interviews?"
+      },
+      "choices": ["rekryteraren", "arbetstagaren", "pensionären", "kollegan"],
+      "answer": 0
+    }
+  ]
+}

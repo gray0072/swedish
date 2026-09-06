@@ -1,0 +1,77 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-person-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Она невысокая и светловолосая.»", "en": "Build the sentence: \"She is short and blond.\"" },
+      "tokens": ["kort", "är", "blond", "och", "Hon"],
+      "answer": [4, 1, 0, 3, 2]
+    },
+    {
+      "id": "q-person-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["lång", "высокий"],
+        ["snäll", "добрый"],
+        ["blyg", "застенчивый"],
+        ["pålitlig", "надёжный"]
+      ]
+    },
+    {
+      "id": "q-person-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «personlighet» — существительное среднего рода (ett).",
+        "en": "The word \"personlighet\" is a neuter (ett) noun."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Personlighet» — это en-слово: en personlighet, personligheten.",
+        "en": "\"Personlighet\" is an en-word: en personlighet, personligheten."
+      }
+    },
+    {
+      "id": "q-person-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han är väldigt ___. Man kan lita på honom. (надёжный)" },
+      "answer": ["pålitlig"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-person-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Din vän är blyg och pratar sällan med nya människor. Vilket ord beskriver honom?",
+        "en": "Your friend is shy and rarely talks to new people. Which word describes him?"
+      },
+      "choices": ["blyg", "kraftig", "blond", "kort"],
+      "answer": 0
+    },
+    {
+      "id": "q-person-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово значит «уверенный в себе»?",
+        "en": "Which word means \"self-confident\"?"
+      },
+      "choices": ["självsäker", "envis", "öppen", "snäll"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-argumentative-text-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое из этих слов вводит второй аргумент?", "en": "Which of these introduces the second argument?" },
+      "choices": ["för det andra", "för det första", "sammanfattningsvis"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-text-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово вводит уступку/контраргумент?", "en": "Which word introduces a concession/counter-argument?" },
+      "choices": ["visserligen", "sammanfattningsvis", "för det första"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-text-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Признание контраргумента делает аргументативный текст слабее.", "en": "Acknowledging a counter-argument makes an argumentative text weaker." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — это делает текст сильнее и убедительнее.", "en": "The opposite — it makes the text stronger and more convincing." }
+    },
+    {
+      "id": "q-argumentative-text-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Восстанови порядок структуры текста", "en": "Restore the order of the text structure" },
+      "tokens": ["Тезис", "Аргумент 1", "Аргумент 2", "Вывод"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-argumentative-text-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ är det värt att pröva en senare skolstart. (sammanfattningsvis)" },
+      "answer": ["Sammanfattningsvis"],
+      "acceptAlso": ["sammanfattningsvis"]
+    },
+    {
+      "id": "q-argumentative-text-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь часть текста с её функцией", "en": "Match the text part with its function" },
+      "pairs": [
+        ["jag anser att", "тезис / thesis"],
+        ["för det första", "первый аргумент / first argument"],
+        ["visserligen... men...", "уступка / a concession"],
+        ["sammanfattningsvis", "вывод / conclusion"]
+      ]
+    },
+    {
+      "id": "q-argumentative-text-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Сколько аргументов минимум обычно приводят в коротком аргументативном тексте?", "en": "How many arguments does a short argumentative text typically include at minimum?" },
+      "choices": ["Два", "Пять", "Ноль"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-text-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Структура «тезис-аргументы-вывод» подходит только для одной конкретной темы.", "en": "The \"thesis-arguments-conclusion\" structure only fits one specific topic." },
+      "answer": false,
+      "explanation": { "ru": "Структура универсальна и работает для любой темы.", "en": "The structure is universal and works for any topic." }
+    },
+    {
+      "id": "q-argumentative-text-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ sover tonåringar bättre om de får sova längre. (för det första)" },
+      "answer": ["För det första"],
+      "acceptAlso": ["för det första"]
+    },
+    {
+      "id": "q-argumentative-text-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «väga tyngre»?", "en": "What does \"väga tyngre\" mean?" },
+      "choices": ["перевешивать по значимости / to outweigh", "весить меньше / to weigh less", "закончиться / to end"],
+      "answer": 0
+    }
+  ]
+}

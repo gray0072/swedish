@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "id": "hyresvard",
+      "sv": "hyresvärd",
+      "translations": { "ru": "арендодатель (владелец жилья)", "en": "landlord" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresvärd", "defSg": "hyresvärden", "indefPl": "hyresvärdar", "defPl": "hyresvärdarna" },
+      "example": { "sv": "Hyresvärden ansvarar för fastighetens skötsel.", "ru": "Арендодатель отвечает за содержание дома.", "en": "The landlord is responsible for maintaining the property." }
+    },
+    {
+      "id": "hyresgast-rights",
+      "sv": "hyresgäst",
+      "translations": { "ru": "наниматель, арендатор", "en": "tenant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresgäst", "defSg": "hyresgästen", "indefPl": "hyresgäster", "defPl": "hyresgästerna" },
+      "example": { "sv": "Som hyresgäst har du både rättigheter och skyldigheter.", "ru": "Как наниматель, ты имеешь как права, так и обязанности.", "en": "As a tenant, you have both rights and duties." }
+    },
+    {
+      "id": "hyresavtal",
+      "sv": "hyresavtal",
+      "translations": { "ru": "договор найма (аренды)", "en": "tenancy agreement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hyresavtal", "defSg": "hyresavtalet", "indefPl": "hyresavtal", "defPl": "hyresavtalen" },
+      "example": { "sv": "Hyresavtalet reglerar båda parters ansvar.", "ru": "Договор найма регулирует ответственность обеих сторон.", "en": "The tenancy agreement regulates both parties' responsibilities." }
+    },
+    {
+      "id": "underhallsskyldighet",
+      "sv": "underhållsskyldighet",
+      "translations": { "ru": "обязанность по содержанию (жилья)", "en": "duty to maintain (the property)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en underhållsskyldighet", "defSg": "underhållsskyldigheten", "indefPl": "underhållsskyldigheter", "defPl": "underhållsskyldigheterna" },
+      "example": { "sv": "Hyresvärdens underhållsskyldighet gäller hela lägenheten.", "ru": "Обязанность арендодателя по содержанию распространяется на всю квартиру.", "en": "The landlord's duty to maintain covers the whole apartment." }
+    },
+    {
+      "id": "besittningsskydd",
+      "sv": "besittningsskydd",
+      "translations": { "ru": "защита права на проживание (от выселения)", "en": "security of tenure" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett besittningsskydd", "defSg": "besittningsskyddet", "indefPl": "besittningsskydd", "defPl": "besittningsskydden" },
+      "example": { "sv": "De flesta hyresgäster har starkt besittningsskydd.", "ru": "У большинства нанимателей сильная защита от выселения.", "en": "Most tenants have strong security of tenure." }
+    },
+    {
+      "id": "storning",
+      "sv": "störning",
+      "translations": { "ru": "нарушение спокойствия (соседей)", "en": "disturbance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en störning", "defSg": "störningen", "indefPl": "störningar", "defPl": "störningarna" },
+      "example": { "sv": "Grannarna anmälde upprepade störningar.", "ru": "Соседи неоднократно жаловались на нарушение спокойствия.", "en": "The neighbours reported repeated disturbances." }
+    },
+    {
+      "id": "stora",
+      "sv": "störa",
+      "translations": { "ru": "мешать, нарушать покой", "en": "to disturb" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "störa", "present": "stör", "past": "störde", "supine": "stört" },
+      "example": { "sv": "Han störde grannarna med hög musik nattetid.", "ru": "Он мешал соседям громкой музыкой по ночам.", "en": "He disturbed the neighbours with loud music at night." }
+    },
+    {
+      "id": "uppsagning-rights",
+      "sv": "uppsägning",
+      "translations": { "ru": "расторжение договора, уведомление о выезде", "en": "termination of the contract, notice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppsägning", "defSg": "uppsägningen", "indefPl": "uppsägningar", "defPl": "uppsägningarna" },
+      "example": { "sv": "Uppsägningen måste vara skriftlig.", "ru": "Уведомление о расторжении должно быть в письменной форме.", "en": "The termination must be in writing." }
+    },
+    {
+      "id": "uppsagning-fran-hyresvardens-sida",
+      "sv": "uppsägning från hyresvärdens sida",
+      "translations": { "ru": "расторжение договора по инициативе арендодателя", "en": "termination by the landlord" },
+      "pos": "phrase",
+      "example": { "sv": "En uppsägning från hyresvärdens sida kräver ofta saklig grund.", "ru": "Расторжение по инициативе арендодателя часто требует веской причины.", "en": "A termination by the landlord often requires a valid reason." }
+    },
+    {
+      "id": "bruksvardeshyra",
+      "sv": "bruksvärdeshyra",
+      "translations": { "ru": "аренда по потребительской стоимости (система расчёта арендной платы)", "en": "use-value rent (Sweden's rent-setting system)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bruksvärdeshyra", "defSg": "bruksvärdeshyran", "indefPl": "bruksvärdeshyror", "defPl": "bruksvärdeshyrorna" },
+      "example": { "sv": "Hyran fastställs enligt bruksvärdeshyra.", "ru": "Арендная плата устанавливается по системе бруксвердеcхюра.", "en": "The rent is set according to the use-value rent system." }
+    },
+    {
+      "id": "skalig-hyra",
+      "sv": "skälig hyra",
+      "translations": { "ru": "разумная (обоснованная) арендная плата", "en": "reasonable rent" },
+      "pos": "phrase",
+      "example": { "sv": "Du har rätt att betala en skälig hyra.", "ru": "Ты имеешь право платить разумную арендную плату.", "en": "You have the right to pay a reasonable rent." }
+    },
+    {
+      "id": "forverkande",
+      "sv": "förverkande",
+      "translations": { "ru": "лишение права найма (за грубое нарушение)", "en": "forfeiture (of the tenancy)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett förverkande", "defSg": "förverkandet", "indefPl": "förverkanden", "defPl": "förverkandena" },
+      "example": { "sv": "Obetald hyra kan leda till förverkande av kontraktet.", "ru": "Неуплата аренды может привести к лишению права найма.", "en": "Unpaid rent can lead to forfeiture of the tenancy." }
+    },
+    {
+      "id": "vrakning",
+      "sv": "vräkning",
+      "translations": { "ru": "выселение", "en": "eviction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vräkning", "defSg": "vräkningen", "indefPl": "vräkningar", "defPl": "vräkningarna" },
+      "example": { "sv": "En vräkning är alltid en sista utväg.", "ru": "Выселение — это всегда крайняя мера.", "en": "An eviction is always a last resort." }
+    },
+    {
+      "id": "hyresgastforening",
+      "sv": "hyresgästförening",
+      "translations": { "ru": "объединение (союз) нанимателей жилья", "en": "tenants' association" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresgästförening", "defSg": "hyresgästföreningen", "indefPl": "hyresgästföreningar", "defPl": "hyresgästföreningarna" },
+      "example": { "sv": "Hyresgästföreningen kan hjälpa dig att förhandla om hyran.", "ru": "Союз нанимателей может помочь тебе договориться об арендной плате.", "en": "The tenants' association can help you negotiate the rent." }
+    },
+    {
+      "id": "ordningsregel",
+      "sv": "ordningsregel",
+      "translations": { "ru": "правило проживания (в доме)", "en": "house rule" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ordningsregel", "defSg": "ordningsregeln", "indefPl": "ordningsregler", "defPl": "ordningsreglerna" },
+      "example": { "sv": "Ordningsreglerna sitter uppsatta i trapphuset.", "ru": "Правила проживания вывешены в подъезде.", "en": "The house rules are posted in the stairwell." }
+    },
+    {
+      "id": "renovering-rights",
+      "sv": "renovering",
+      "translations": { "ru": "ремонт, реновация", "en": "renovation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en renovering", "defSg": "renoveringen", "indefPl": "renoveringar", "defPl": "renoveringarna" },
+      "example": { "sv": "Hyresvärden planerar en renovering av badrummen.", "ru": "Арендодатель планирует ремонт ванных комнат.", "en": "The landlord is planning a renovation of the bathrooms." }
+    },
+    {
+      "id": "underhall",
+      "sv": "underhåll",
+      "translations": { "ru": "содержание, обслуживание (жилья)", "en": "upkeep, maintenance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett underhåll", "defSg": "underhållet", "indefPl": "underhåll", "defPl": "underhållen" },
+      "example": { "sv": "Löpande underhåll ingår i hyran.", "ru": "Текущее содержание жилья входит в стоимость аренды.", "en": "Ongoing upkeep is included in the rent." }
+    },
+    {
+      "id": "reparation",
+      "sv": "reparation",
+      "translations": { "ru": "починка, ремонт (неисправности)", "en": "repair" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reparation", "defSg": "reparationen", "indefPl": "reparationer", "defPl": "reparationerna" },
+      "example": { "sv": "Anmäl felet så bokar hyresvärden en reparation.", "ru": "Сообщи о неисправности, и арендодатель организует ремонт.", "en": "Report the fault and the landlord will arrange a repair." }
+    }
+  ]
+}

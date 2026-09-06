@@ -1,0 +1,122 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "formal-letter-organisation-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я обращаюсь к вам относительно моего заявления.»", "en": "Build the sentence: \"I am contacting you regarding my application.\"" },
+      "tokens": ["Jag", "vänder", "mig", "till", "er", "angående", "min ansökan"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "formal-letter-organisation-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Прилагаю справку о личности.»", "en": "Build the sentence: \"I am enclosing my certificate of registration.\"" },
+      "tokens": ["Jag", "bifogar", "mitt personbevis"],
+      "answer": [0, 1, 2]
+    },
+    {
+      "id": "formal-letter-organisation-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["myndighet", "ведомство"],
+        ["ärende", "дело"],
+        ["bilaga", "приложение"],
+        ["mottagare", "получатель"]
+      ]
+    },
+    {
+      "id": "formal-letter-organisation-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь формальную фразу с переводом", "en": "Match the formal phrase with its translation" },
+      "pairs": [
+        ["jag vänder mig till er angående...", "я обращаюсь к вам относительно..."],
+        ["jag skulle vilja fråga om...", "я хотел(а) бы спросить о..."],
+        ["med anledning av", "в связи с"],
+        ["med vänlig hälsning", "с уважением"]
+      ]
+    },
+    {
+      "id": "formal-letter-organisation-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Kram» — подходящая подпись для формального письма в организацию.",
+        "en": "\"Kram\" is a suitable sign-off for a formal letter to an organisation."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Kram» слишком неформально. Формальное письмо заканчивают «Med vänlig hälsning» и полным именем.",
+        "en": "\"Kram\" is too informal. A formal letter closes with \"Med vänlig hälsning\" and a full name."
+      }
+    },
+    {
+      "id": "formal-letter-organisation-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Hej,» может использоваться даже в официальной переписке, если имя получателя неизвестно.",
+        "en": "\"Hej,\" can be used even in official correspondence when the recipient's name is unknown."
+      },
+      "answer": true
+    },
+    {
+      "id": "formal-letter-organisation-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ mig till er angående mitt ärende. (обращаюсь)" },
+      "answer": ["vänder"],
+      "acceptAlso": []
+    },
+    {
+      "id": "formal-letter-organisation-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Med vänlig ___, Maria Andersson (уважением)" },
+      "answer": ["hälsning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "formal-letter-organisation-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая фраза больше подходит для формального вопроса вместо «Kan du...»?",
+        "en": "Which phrase better fits a formal request instead of \"Kan du...\"?"
+      },
+      "choices": ["Jag skulle vilja fråga om...", "Kram", "Hej då!", "Puss och kram"],
+      "answer": 0
+    },
+    {
+      "id": "formal-letter-organisation-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что означает «en bilaga» в формальном письме?",
+        "en": "What does \"en bilaga\" mean in a formal letter?"
+      },
+      "choices": ["приложение к письму", "прощание", "личное мнение", "получатель"],
+      "answer": 0
+    },
+    {
+      "id": "formal-letter-organisation-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что нужно сделать в конце формального письма, кроме «Med vänlig hälsning»?",
+        "en": "What should you do at the end of a formal letter, besides writing \"Med vänlig hälsning\"?"
+      },
+      "choices": ["Underteckna med fullständigt namn", "Skriva Kram", "Rita en bild", "Avsluta med iaf"],
+      "answer": 0
+    }
+  ]
+}

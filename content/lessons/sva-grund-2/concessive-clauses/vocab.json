@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "fast",
+      "sv": "fast",
+      "translations": { "ru": "хотя, несмотря на то что (реальный факт, разговорное)", "en": "even though (a real fact, spoken)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han spelar fotboll fast han är skadad.", "ru": "Он играет в футбол, хотя он травмирован.", "en": "He plays football even though he's injured." }
+    },
+    {
+      "id": "trots-att",
+      "sv": "trots att",
+      "translations": { "ru": "несмотря на то что (реальный факт, книжное)", "en": "even though (a real fact, more formal)" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon jobbade trots att hon inte mådde bra.", "ru": "Она работала, хотя ей было нехорошо.", "en": "She worked even though she wasn't feeling well." }
+    },
+    {
+      "id": "aven-om",
+      "sv": "även om",
+      "translations": { "ru": "даже если (предположение, возможно неверное)", "en": "even if (a hypothesis, possibly untrue)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han spelar fotboll även om han är skadad.", "ru": "Он играет в футбол, даже если он травмирован.", "en": "He plays football even if he's injured." }
+    },
+    {
+      "id": "spela",
+      "sv": "spela",
+      "translations": { "ru": "играть", "en": "to play" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spela", "present": "spelar", "past": "spelade", "supine": "spelat" }
+    },
+    {
+      "id": "skadad",
+      "sv": "skadad",
+      "translations": { "ru": "травмированный, повреждённый", "en": "injured" },
+      "pos": "adj"
+    },
+    {
+      "id": "ma",
+      "sv": "må",
+      "translations": { "ru": "чувствовать себя (в фразах «må bra/dåligt»)", "en": "to feel (in phrases like \"må bra/dåligt\")" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" }
+    },
+    {
+      "id": "sluta",
+      "sv": "sluta",
+      "translations": { "ru": "прекращать, переставать", "en": "to stop" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" }
+    },
+    {
+      "id": "jobba",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" }
+    },
+    {
+      "id": "regna-concessive",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+    },
+    {
+      "id": "fotboll",
+      "sv": "fotboll",
+      "translations": { "ru": "футбол", "en": "football, soccer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "fotboll", "defSg": "fotbollen", "indefPl": "fotbollar", "defPl": "fotbollarna" }
+    }
+  ]
+}

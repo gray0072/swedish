@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "budget",
+      "sv": "budget",
+      "translations": { "ru": "бюджет", "en": "budget" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en budget", "defSg": "budgeten", "indefPl": "budgetar", "defPl": "budgetarna" },
+      "example": { "sv": "Vi måste hålla oss till budgeten.", "ru": "Нам нужно придерживаться бюджета.", "en": "We need to stick to the budget." }
+    },
+    {
+      "id": "hushallsbudget",
+      "sv": "hushållsbudget",
+      "translations": { "ru": "бюджет домохозяйства", "en": "household budget" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hushållsbudget", "defSg": "hushållsbudgeten", "indefPl": "hushållsbudgetar", "defPl": "hushållsbudgetarna" },
+      "example": { "sv": "Vi gör en hushållsbudget varje månad.", "ru": "Мы составляем бюджет домохозяйства каждый месяц.", "en": "We make a household budget every month." }
+    },
+    {
+      "id": "rakning-hushall",
+      "sv": "räkning",
+      "translations": { "ru": "счёт, квитанция", "en": "bill, invoice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räkning", "defSg": "räkningen", "indefPl": "räkningar", "defPl": "räkningarna" },
+      "example": { "sv": "Elräkningen kom idag.", "ru": "Сегодня пришёл счёт за электричество.", "en": "The electricity bill arrived today." }
+    },
+    {
+      "id": "autogiro",
+      "sv": "autogiro",
+      "translations": { "ru": "автоплатёж (прямое дебетование)", "en": "direct debit, autogiro" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett autogiro", "defSg": "autogirot", "indefPl": "autogiron", "defPl": "autogirona" },
+      "example": { "sv": "Jag betalar hyran via autogiro.", "ru": "Я плачу за аренду через автоплатёж.", "en": "I pay the rent via direct debit." }
+    },
+    {
+      "id": "e-faktura",
+      "sv": "e-faktura",
+      "translations": { "ru": "электронный счёт (е-фактура)", "en": "e-invoice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-faktura", "defSg": "e-fakturan", "indefPl": "e-fakturor", "defPl": "e-fakturorna" },
+      "example": { "sv": "Jag har ställt in e-faktura för alla räkningar.", "ru": "Я подключил(а) е-фактуру для всех счетов.", "en": "I've set up e-invoices for all my bills." }
+    },
+    {
+      "id": "forfallodag",
+      "sv": "förfallodag",
+      "translations": { "ru": "дата платежа (крайний срок оплаты)", "en": "due date" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förfallodag", "defSg": "förfallodagen", "indefPl": "förfallodagar", "defPl": "förfallodagarna" },
+      "example": { "sv": "Förfallodagen är den sista i månaden.", "ru": "Дата платежа — последнее число месяца.", "en": "The due date is the last day of the month." }
+    },
+    {
+      "id": "forfalla",
+      "sv": "förfalla",
+      "translations": { "ru": "наступать (о сроке оплаты)", "en": "to fall due, to expire" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förfalla", "present": "förfaller", "past": "förföll", "supine": "förfallit" },
+      "example": { "sv": "Räkningen förfaller om tio dagar.", "ru": "Срок оплаты счёта наступает через десять дней.", "en": "The bill falls due in ten days." }
+    },
+    {
+      "id": "sparkonto",
+      "sv": "sparkonto",
+      "translations": { "ru": "сберегательный счёт", "en": "savings account" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sparkonto", "defSg": "sparkontot", "indefPl": "sparkonton", "defPl": "sparkontona" },
+      "example": { "sv": "Jag sätter in pengar på sparkontot varje månad.", "ru": "Я кладу деньги на сберегательный счёт каждый месяц.", "en": "I put money into my savings account every month." }
+    },
+    {
+      "id": "lonekonto",
+      "sv": "lönekonto",
+      "translations": { "ru": "зарплатный счёт", "en": "salary account" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lönekonto", "defSg": "lönekontot", "indefPl": "lönekonton", "defPl": "lönekontona" },
+      "example": { "sv": "Lönen sätts in på lönekontot den 25:e.", "ru": "Зарплата поступает на зарплатный счёт 25-го числа.", "en": "The salary is paid into the salary account on the 25th." }
+    },
+    {
+      "id": "utgift",
+      "sv": "utgift",
+      "translations": { "ru": "расход", "en": "expense" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utgift", "defSg": "utgiften", "indefPl": "utgifter", "defPl": "utgifterna" },
+      "example": { "sv": "Hyran är vår största utgift.", "ru": "Аренда — наш самый большой расход.", "en": "Rent is our biggest expense." }
+    },
+    {
+      "id": "inkomst-econ",
+      "sv": "inkomst",
+      "translations": { "ru": "доход", "en": "income" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inkomst", "defSg": "inkomsten", "indefPl": "inkomster", "defPl": "inkomsterna" },
+      "example": { "sv": "Vår inkomst täcker inte alla utgifter denna månad.", "ru": "Наш доход не покрывает все расходы в этом месяце.", "en": "Our income doesn't cover all the expenses this month." }
+    },
+    {
+      "id": "spara-pengar",
+      "sv": "spara",
+      "translations": { "ru": "копить, экономить", "en": "to save (money)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" },
+      "example": { "sv": "Vi försöker spara tusen kronor i månaden.", "ru": "Мы стараемся копить тысячу крон в месяц.", "en": "We try to save a thousand kronor a month." }
+    },
+    {
+      "id": "lana",
+      "sv": "låna",
+      "translations": { "ru": "занимать, одалживать", "en": "to borrow, to lend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "Vi lånade pengar till bilen.", "ru": "Мы взяли кредит на машину.", "en": "We borrowed money for the car." }
+    },
+    {
+      "id": "lan",
+      "sv": "lån",
+      "translations": { "ru": "кредит, займ", "en": "loan" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lån", "defSg": "lånet", "indefPl": "lån", "defPl": "lånen" },
+      "example": { "sv": "Vi har ett lån för lägenheten.", "ru": "У нас есть кредит на квартиру.", "en": "We have a loan for the apartment." }
+    },
+    {
+      "id": "ranta",
+      "sv": "ränta",
+      "translations": { "ru": "процентная ставка", "en": "interest (rate)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" },
+      "example": { "sv": "Räntan på lånet har gått upp.", "ru": "Процентная ставка по кредиту выросла.", "en": "The interest rate on the loan has gone up." }
+    },
+    {
+      "id": "betalningspaminnelse",
+      "sv": "betalningspåminnelse",
+      "translations": { "ru": "напоминание об оплате", "en": "payment reminder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en betalningspåminnelse", "defSg": "betalningspåminnelsen", "indefPl": "betalningspåminnelser", "defPl": "betalningspåminnelserna" },
+      "example": { "sv": "Jag fick en betalningspåminnelse igår.", "ru": "Вчера мне пришло напоминание об оплате.", "en": "I got a payment reminder yesterday." }
+    }
+  ]
+}

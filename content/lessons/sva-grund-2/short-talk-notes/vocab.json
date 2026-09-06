@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "idag-ska-jag-beratta",
+      "sv": "idag ska jag berätta om",
+      "translations": { "ru": "сегодня я расскажу о", "en": "today I'm going to talk about" },
+      "pos": "phrase"
+    },
+    {
+      "id": "forst-vill-jag-namna",
+      "sv": "först vill jag nämna",
+      "translations": { "ru": "сначала я хочу упомянуть", "en": "first I'd like to mention" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sedan-kommer-jag-att",
+      "sv": "sedan kommer jag att gå in på",
+      "translations": { "ru": "затем я перейду к", "en": "then I'll go into" },
+      "pos": "phrase"
+    },
+    {
+      "id": "till-sist-tar-jag-upp",
+      "sv": "till sist tar jag upp",
+      "translations": { "ru": "наконец, я расскажу о", "en": "finally I'll cover" },
+      "pos": "phrase"
+    },
+    {
+      "id": "tack-for-att-ni-lyssnade",
+      "sv": "tack för att ni lyssnade",
+      "translations": { "ru": "спасибо, что выслушали", "en": "thank you for listening" },
+      "pos": "phrase"
+    },
+    {
+      "id": "stodord",
+      "sv": "stödord",
+      "translations": { "ru": "опорные слова, ключевые слова", "en": "keywords, support words" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett stödord", "defSg": "stödordet", "indefPl": "stödord", "defPl": "stödorden" },
+      "example": { "sv": "Skriv stödord på ett kort, inte hela meningar.", "ru": "Пиши опорные слова на карточке, а не целые предложения.", "en": "Write keywords on a card, not whole sentences." }
+    },
+    {
+      "id": "framforande",
+      "sv": "framförande",
+      "translations": { "ru": "выступление, презентация", "en": "presentation, performance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett framförande", "defSg": "framförandet", "indefPl": "framföranden", "defPl": "framförandena" }
+    },
+    {
+      "id": "publik",
+      "sv": "publik",
+      "translations": { "ru": "публика, аудитория", "en": "audience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+    }
+  ]
+}

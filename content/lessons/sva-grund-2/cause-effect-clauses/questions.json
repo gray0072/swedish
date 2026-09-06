@@ -1,0 +1,109 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-cause-effect-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Skolan stängde ___ snön." },
+      "answer": ["på grund av"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cause-effect-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han talade högt, ___ alla kunde höra." },
+      "answer": ["så att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cause-effect-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Hon klarade provet ___ sin lärare." },
+      "answer": ["tack vare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cause-effect-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После «på grund av» может идти целый bisats с подлежащим и личным глаголом.",
+        "en": "\"På grund av\" can be followed by a full bisats with a subject and a finite verb."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«På grund av» берёт только существительную группу, без своего глагола — в отличие от «eftersom».",
+        "en": "\"På grund av\" only takes a noun phrase, with no verb of its own — unlike \"eftersom\"."
+      }
+    },
+    {
+      "id": "q-cause-effect-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Tack vare» обычно указывает на положительную причину.", "en": "\"Tack vare\" usually points to a positive cause." },
+      "answer": true
+    },
+    {
+      "id": "q-cause-effect-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово вводит следствие (результат), а не причину?", "en": "Which word introduces a consequence (result), not a cause?" },
+      "choices": ["eftersom", "därför att", "så att", "tack vare"],
+      "answer": 2
+    },
+    {
+      "id": "q-cause-effect-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какие два слова вводят целый bisats (подлежащее + личный глагол)?", "en": "Which two words introduce a full bisats (subject + finite verb)?" },
+      "choices": [
+        { "ru": "eftersom и därför att", "en": "eftersom and därför att" },
+        { "ru": "på grund av и tack vare", "en": "på grund av and tack vare" },
+        { "ru": "till följd av и med anledning av", "en": "till följd av and med anledning av" },
+        { "ru": "orsak и följd", "en": "orsak and följd" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-cause-effect-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она сдала экзамен благодаря своему учителю.»", "en": "Build the sentence: \"She passed the exam thanks to her teacher.\"" },
+      "tokens": ["Hon", "klarade", "provet", "tack", "vare", "sin", "lärare"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-cause-effect-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с тем, что после него идёт", "en": "Match the word with what follows it" },
+      "pairs": [
+        ["eftersom", "подлежащее + глагол / subject + verb"],
+        ["på grund av", "существительное / a noun phrase"],
+        ["tack vare", "существительное (положительная причина) / a noun phrase (positive cause)"],
+        ["så att", "подлежащее + глагол (результат) / subject + verb (result)"]
+      ]
+    },
+    {
+      "id": "q-cause-effect-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Vi stannade hemma eftersom det ___ regnade. (inte)" },
+      "answer": ["inte slutade"],
+      "acceptAlso": [],
+      "hint": {
+        "ru": "В bisats «inte» ставится перед личным глаголом (правило BIFF).",
+        "en": "In a bisats, \"inte\" goes before the finite verb (the BIFF rule)."
+      }
+    },
+    {
+      "id": "q-cause-effect-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Eftersom» может стоять в начале предложения.", "en": "\"Eftersom\" can stand at the start of a sentence." },
+      "answer": true,
+      "explanation": {
+        "ru": "Придаточное с «eftersom» может быть fundament'ом — тогда после него следует V2-инверсия в главном предложении.",
+        "en": "A subordinate clause with \"eftersom\" can serve as the fundament — the main clause after it then has V2 inversion."
+      }
+    }
+  ]
+}

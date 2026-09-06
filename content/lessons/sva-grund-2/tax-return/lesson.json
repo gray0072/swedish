@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/tax-return",
+  "slug": "tax-return",
+  "title": {
+    "sv": "Skatt och Skatteverket: förstå deklarationen",
+    "ru": "Налоги и Skatteverket: понимание декларации",
+    "en": "Taxes and Skatteverket: understanding a tax return"
+  },
+  "summary": {
+    "ru": "Декларация, подоходный и муниципальный налог, вычеты, возврат и доплата налога — как разобраться в письме от Skatteverket.",
+    "en": "The tax return, income and municipal tax, deductions, refunds and back tax — making sense of a letter from Skatteverket."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "bureaucracy",
+    "money",
+    "taxes"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1140,
+  "prerequisites": [
+    "sfi-d/authorities"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

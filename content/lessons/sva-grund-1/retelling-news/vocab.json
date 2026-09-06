@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "id": "hora",
+      "sv": "höra",
+      "translations": { "ru": "слышать", "en": "to hear" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" },
+      "example": { "sv": "Jag hörde att tåget är försenat.", "ru": "Я слышал(а), что поезд опаздывает.", "en": "I heard that the train is late." }
+    },
+    {
+      "id": "jag-horde-att",
+      "sv": "jag hörde att...",
+      "translations": { "ru": "я слышал(а), что...", "en": "I heard that..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag hörde att tåget är försenat tjugo minuter.", "ru": "Я слышал(а), что поезд опаздывает на двадцать минут.", "en": "I heard that the train is twenty minutes late." }
+    },
+    {
+      "id": "det-sades-att",
+      "sv": "det sades att...",
+      "translations": { "ru": "говорили, что...", "en": "it was said that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det sades att bussen inte går på lördagar.", "ru": "Говорили, что автобус по субботам не ходит.", "en": "It was said that the bus doesn't run on Saturdays." }
+    },
+    {
+      "id": "enligt-nyheterna",
+      "sv": "enligt nyheterna...",
+      "translations": { "ru": "согласно новостям...", "en": "according to the news..." },
+      "pos": "phrase",
+      "example": { "sv": "Enligt nyheterna blir det snö imorgon.", "ru": "Согласно новостям, завтра будет снег.", "en": "According to the news, it'll snow tomorrow." }
+    },
+    {
+      "id": "de-meddelade-att",
+      "sv": "de meddelade att...",
+      "translations": { "ru": "они сообщили, что...", "en": "they announced that..." },
+      "pos": "phrase",
+      "example": { "sv": "De meddelade att mötet är flyttat till fredag.", "ru": "Они сообщили, что встречу перенесли на пятницу.", "en": "They announced that the meeting has been moved to Friday." }
+    },
+    {
+      "id": "nyhet",
+      "sv": "nyhet",
+      "translations": { "ru": "новость", "en": "news item" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nyhet", "defSg": "nyheten", "indefPl": "nyheter", "defPl": "nyheterna" },
+      "example": { "sv": "Det var en viktig nyhet i radion.", "ru": "По радио была важная новость.", "en": "There was an important news item on the radio." }
+    },
+    {
+      "id": "meddelande",
+      "sv": "meddelande",
+      "translations": { "ru": "сообщение, объявление", "en": "announcement, message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" },
+      "example": { "sv": "Vi fick ett meddelande om att spåret är ändrat.", "ru": "Мы получили сообщение об изменении пути.", "en": "We got an announcement that the platform had changed." }
+    },
+    {
+      "id": "instruktion",
+      "sv": "instruktion",
+      "translations": { "ru": "инструкция", "en": "instruction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en instruktion", "defSg": "instruktionen", "indefPl": "instruktioner", "defPl": "instruktionerna" },
+      "example": { "sv": "Chefen gav en muntlig instruktion på morgonmötet.", "ru": "Начальник дал устную инструкцию на утренней встрече.", "en": "The boss gave a spoken instruction at the morning meeting." }
+    },
+    {
+      "id": "meddela",
+      "sv": "meddela",
+      "translations": { "ru": "сообщать, объявлять", "en": "to announce, to inform" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "meddela", "present": "meddelar", "past": "meddelade", "supine": "meddelat" },
+      "example": { "sv": "De meddelade att spår tre är stängt idag.", "ru": "Они сообщили, что третий путь сегодня закрыт.", "en": "They announced that platform three is closed today." }
+    },
+    {
+      "id": "aterberatta",
+      "sv": "återberätta",
+      "translations": { "ru": "пересказывать", "en": "to retell" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "återberätta", "present": "återberättar", "past": "återberättade", "supine": "återberättat" },
+      "example": { "sv": "Kan du återberätta vad de sa på mötet?", "ru": "Можешь пересказать, что сказали на встрече?", "en": "Can you retell what they said at the meeting?" }
+    },
+    {
+      "id": "enligt",
+      "sv": "enligt",
+      "translations": { "ru": "согласно, по (словам)", "en": "according to" },
+      "pos": "prep",
+      "example": { "sv": "Enligt meteorologerna blir det regn imorgon.", "ru": "По словам метеорологов, завтра будет дождь.", "en": "According to the meteorologists, it'll rain tomorrow." }
+    },
+    {
+      "id": "pasta",
+      "sv": "påstå",
+      "translations": { "ru": "утверждать", "en": "to claim" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "påstå", "present": "påstår", "past": "påstod", "supine": "påstått" },
+      "example": { "sv": "Han påstod att han inte visste något.", "ru": "Он утверждал, что ничего не знал.", "en": "He claimed he didn't know anything." }
+    },
+    {
+      "id": "rapportera",
+      "sv": "rapportera",
+      "translations": { "ru": "сообщать, докладывать", "en": "to report" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rapportera", "present": "rapporterar", "past": "rapporterade", "supine": "rapporterat" },
+      "example": { "sv": "Radion rapporterade om olyckan.", "ru": "Радио сообщило об аварии.", "en": "The radio reported on the accident." }
+    },
+    {
+      "id": "varning",
+      "sv": "varning",
+      "translations": { "ru": "предупреждение", "en": "warning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en varning", "defSg": "varningen", "indefPl": "varningar", "defPl": "varningarna" },
+      "example": { "sv": "De gick ut med en varning om storm.", "ru": "Они выпустили предупреждение о шторме.", "en": "They issued a storm warning." }
+    },
+    {
+      "id": "utropa",
+      "sv": "utropa",
+      "translations": { "ru": "объявлять (вслух, по громкой связи)", "en": "to call out, to announce (over a speaker)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utropa", "present": "utropar", "past": "utropade", "supine": "utropat" },
+      "example": { "sv": "De utropade att tåget till Malmö var inställt.", "ru": "Объявили, что поезд на Мальмё отменён.", "en": "They announced that the train to Malmö was cancelled." }
+    },
+    {
+      "id": "hogtalare",
+      "sv": "högtalare",
+      "translations": { "ru": "громкоговоритель", "en": "loudspeaker" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en högtalare", "defSg": "högtalaren", "indefPl": "högtalare", "defPl": "högtalarna" },
+      "example": { "sv": "Meddelandet kom över högtalaren på stationen.", "ru": "Объявление прозвучало по громкоговорителю на станции.", "en": "The announcement came over the loudspeaker at the station." }
+    }
+  ]
+}

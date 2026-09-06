@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": "tycka",
+      "sv": "tycka",
+      "translations": { "ru": "считать, иметь мнение", "en": "to think, to have an opinion" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka", "present": "tycker", "past": "tyckte", "supine": "tyckt" },
+      "example": { "sv": "Jag tycker att svenska är roligt.", "ru": "Я считаю, что шведский — это интересно.", "en": "I think Swedish is fun." }
+    },
+    {
+      "id": "anse",
+      "sv": "anse",
+      "translations": { "ru": "полагать, считать (формально)", "en": "to consider, to be of the opinion" },
+      "pos": "verb",
+      "forms": { "infinitive": "anse", "present": "anser", "past": "ansåg", "supine": "ansett" },
+      "example": { "sv": "Jag anser att alla borde lära sig svenska.", "ru": "Я полагаю, что всем следует учить шведский.", "en": "I'm of the opinion that everyone should learn Swedish." }
+    },
+    {
+      "id": "tro-oj",
+      "sv": "tro",
+      "translations": { "ru": "думать, полагать, верить", "en": "to think, to believe" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag tror att det blir bättre snart.", "ru": "Я думаю, что скоро станет лучше.", "en": "I believe it will get better soon." }
+    },
+    {
+      "id": "enligt-mig",
+      "sv": "enligt mig",
+      "translations": { "ru": "по-моему", "en": "in my opinion" },
+      "pos": "phrase",
+      "example": { "sv": "Enligt mig är det en bra idé.", "ru": "По-моему, это хорошая идея.", "en": "In my opinion, it's a good idea." }
+    },
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, поскольку", "en": "since, because" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag stannar hemma eftersom jag är sjuk.", "ru": "Я остаюсь дома, так как я болен.", "en": "I'm staying home since I'm sick." }
+    },
+    {
+      "id": "for-att-oj",
+      "sv": "för att",
+      "translations": { "ru": "потому что (разговорное)", "en": "because (colloquial)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag är trött för att jag sov dåligt.", "ru": "Я устал, потому что плохо спал.", "en": "I'm tired because I slept badly." }
+    },
+    {
+      "id": "darfor-att",
+      "sv": "därför att",
+      "translations": { "ru": "потому что (более книжное)", "en": "because (more formal)" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon läser mycket därför att hon vill lära sig snabbt.", "ru": "Она много читает, потому что хочет быстро научиться.", "en": "She reads a lot because she wants to learn fast." }
+    },
+    {
+      "id": "halla-med",
+      "sv": "hålla med",
+      "translations": { "ru": "соглашаться", "en": "to agree" },
+      "pos": "verb",
+      "forms": { "infinitive": "hålla med", "present": "håller med", "past": "höll med", "supine": "hållit med" },
+      "example": { "sv": "Jag håller med dig helt.", "ru": "Я полностью с тобой согласен.", "en": "I completely agree with you." }
+    },
+    {
+      "id": "a-ena-sidan",
+      "sv": "å ena sidan",
+      "translations": { "ru": "с одной стороны", "en": "on the one hand" },
+      "pos": "phrase",
+      "example": { "sv": "Å ena sidan är det bekvämt att bo i stan.", "ru": "С одной стороны, удобно жить в городе.", "en": "On the one hand, it's convenient to live in the city." }
+    },
+    {
+      "id": "a-andra-sidan",
+      "sv": "å andra sidan",
+      "translations": { "ru": "с другой стороны", "en": "on the other hand" },
+      "pos": "phrase",
+      "example": { "sv": "Å andra sidan är det dyrt.", "ru": "С другой стороны, это дорого.", "en": "On the other hand, it's expensive." }
+    },
+    {
+      "id": "argument",
+      "sv": "argument",
+      "translations": { "ru": "аргумент", "en": "argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" },
+      "example": { "sv": "Det är ett starkt argument.", "ru": "Это сильный аргумент.", "en": "That's a strong argument." }
+    },
+    {
+      "id": "asikt",
+      "sv": "åsikt",
+      "translations": { "ru": "мнение", "en": "opinion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" },
+      "example": { "sv": "Alla har rätt till sin åsikt.", "ru": "У каждого есть право на своё мнение.", "en": "Everyone has a right to their own opinion." }
+    },
+    {
+      "id": "motivera",
+      "sv": "motivera",
+      "translations": { "ru": "обосновывать, мотивировать", "en": "to justify, to motivate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "motivera", "present": "motiverar", "past": "motiverade", "supine": "motiverat" },
+      "example": { "sv": "Kan du motivera din åsikt?", "ru": "Можешь обосновать своё мнение?", "en": "Can you justify your opinion?" }
+    },
+    {
+      "id": "viktig",
+      "sv": "viktig",
+      "translations": { "ru": "важный", "en": "important" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: viktigt, мн.ч.: viktiga", "en": "ett-form: viktigt, plural: viktiga" },
+      "example": { "sv": "Det är viktigt att lyssna på andras åsikter.", "ru": "Важно прислушиваться к чужим мнениям.", "en": "It's important to listen to other people's opinions." }
+    },
+    {
+      "id": "exempel",
+      "sv": "exempel",
+      "translations": { "ru": "пример", "en": "example" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett exempel", "defSg": "exemplet", "indefPl": "exempel", "defPl": "exemplen" },
+      "example": { "sv": "Kan du ge ett exempel?", "ru": "Можешь привести пример?", "en": "Can you give an example?" }
+    },
+    {
+      "id": "till-exempel",
+      "sv": "till exempel",
+      "translations": { "ru": "например", "en": "for example" },
+      "pos": "phrase",
+      "example": { "sv": "Till exempel kan bussarna vara försenade.", "ru": "Например, автобусы могут опаздывать.", "en": "For example, the buses can be late." }
+    }
+  ]
+}

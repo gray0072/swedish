@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "lang-person",
+      "sv": "lång",
+      "translations": { "ru": "высокий, длинный", "en": "tall, long" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
+      "example": { "sv": "Han är lång och smal.", "ru": "Он высокий и худой.", "en": "He is tall and slim." }
+    },
+    {
+      "id": "kort-person",
+      "sv": "kort",
+      "translations": { "ru": "невысокий, короткий", "en": "short" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: kort, мн.ч.: korta", "en": "ett-form: kort, plural: korta" },
+      "example": { "sv": "Hon är kort men stark.", "ru": "Она невысокая, но сильная.", "en": "She is short but strong." }
+    },
+    {
+      "id": "smal",
+      "sv": "smal",
+      "translations": { "ru": "худой, стройный", "en": "slim, thin" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
+      "example": { "sv": "Han har blivit smalare.", "ru": "Он похудел.", "en": "He has become slimmer." }
+    },
+    {
+      "id": "kraftig",
+      "sv": "kraftig",
+      "translations": { "ru": "крупный, плотного телосложения", "en": "heavily built, sturdy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: kraftigt, мн.ч.: kraftiga", "en": "ett-form: kraftigt, plural: kraftiga" },
+      "example": { "sv": "Farbrorn är kraftig och stark.", "ru": "Дядя крупного телосложения и сильный.", "en": "The uncle is heavily built and strong." }
+    },
+    {
+      "id": "blond",
+      "sv": "blond",
+      "translations": { "ru": "светловолосый, блондин(ка)", "en": "blond" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: blont, мн.ч.: blonda", "en": "ett-form: blont, plural: blonda" },
+      "example": { "sv": "Hennes bror är blond med blå ögon.", "ru": "Её брат светловолосый, с голубыми глазами.", "en": "Her brother is blond with blue eyes." }
+    },
+    {
+      "id": "morkharig",
+      "sv": "mörkhårig",
+      "translations": { "ru": "темноволосый", "en": "dark-haired" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: mörkhårigt, мн.ч.: mörkhåriga", "en": "ett-form: mörkhårigt, plural: mörkhåriga" },
+      "example": { "sv": "Min kollega är mörkhårig och har glasögon.", "ru": "Мой коллега темноволосый и носит очки.", "en": "My colleague is dark-haired and wears glasses." }
+    },
+    {
+      "id": "lockig",
+      "sv": "lockig",
+      "translations": { "ru": "кудрявый", "en": "curly-haired" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lockigt, мн.ч.: lockiga", "en": "ett-form: lockigt, plural: lockiga" },
+      "example": { "sv": "Barnet har lockigt hår.", "ru": "У ребёнка кудрявые волосы.", "en": "The child has curly hair." }
+    },
+    {
+      "id": "snall",
+      "sv": "snäll",
+      "translations": { "ru": "добрый, милый", "en": "kind" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: snällt, мн.ч.: snälla", "en": "ett-form: snällt, plural: snälla" },
+      "example": { "sv": "Min granne är väldigt snäll.", "ru": "Мой сосед очень добрый.", "en": "My neighbour is very kind." }
+    },
+    {
+      "id": "envis",
+      "sv": "envis",
+      "translations": { "ru": "упрямый", "en": "stubborn" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: envist, мн.ч.: envisa", "en": "ett-form: envist, plural: envisa" },
+      "example": { "sv": "Han är envis och ändrar sig sällan.", "ru": "Он упрямый и редко меняет решение.", "en": "He is stubborn and rarely changes his mind." }
+    },
+    {
+      "id": "palitlig",
+      "sv": "pålitlig",
+      "translations": { "ru": "надёжный", "en": "reliable" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: pålitligt, мн.ч.: pålitliga", "en": "ett-form: pålitligt, plural: pålitliga" },
+      "example": { "sv": "Hon är pålitlig — man kan lita på henne.", "ru": "Она надёжная — на неё можно положиться.", "en": "She is reliable — you can count on her." }
+    },
+    {
+      "id": "blyg",
+      "sv": "blyg",
+      "translations": { "ru": "застенчивый", "en": "shy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: blygt, мн.ч.: blyga", "en": "ett-form: blygt, plural: blyga" },
+      "example": { "sv": "Pojken är blyg när han möter nya människor.", "ru": "Мальчик стесняется при знакомстве с новыми людьми.", "en": "The boy is shy when he meets new people." }
+    },
+    {
+      "id": "oppen-person",
+      "sv": "öppen",
+      "translations": { "ru": "открытый, общительный", "en": "open, outgoing" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: öppet, мн.ч.: öppna", "en": "ett-form: öppet, plural: öppna" },
+      "example": { "sv": "Hon är öppen och pratar gärna med alla.", "ru": "Она открытая и охотно общается со всеми.", "en": "She is open and happily talks to everyone." }
+    },
+    {
+      "id": "sjalvsaker",
+      "sv": "självsäker",
+      "translations": { "ru": "уверенный в себе", "en": "self-confident" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: självsäkert, мн.ч.: självsäkra", "en": "ett-form: självsäkert, plural: självsäkra" },
+      "example": { "sv": "Han verkar självsäker på intervjuer.", "ru": "На собеседованиях он выглядит уверенным в себе.", "en": "He seems self-confident at interviews." }
+    },
+    {
+      "id": "utseende",
+      "sv": "utseende",
+      "translations": { "ru": "внешность", "en": "appearance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utseende", "defSg": "utseendet", "indefPl": "utseenden", "defPl": "utseendena" },
+      "example": { "sv": "Utseendet säger inte allt om en person.", "ru": "Внешность не говорит всего о человеке.", "en": "Appearance doesn't say everything about a person." }
+    },
+    {
+      "id": "personlighet",
+      "sv": "personlighet",
+      "translations": { "ru": "личность, характер", "en": "personality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en personlighet", "defSg": "personligheten", "indefPl": "personligheter", "defPl": "personligheterna" },
+      "example": { "sv": "Hon har en stark personlighet.", "ru": "У неё сильный характер.", "en": "She has a strong personality." }
+    },
+    {
+      "id": "se-ut",
+      "sv": "se ut",
+      "translations": { "ru": "выглядеть", "en": "to look (a certain way)" },
+      "pos": "verb",
+      "forms": { "infinitive": "se ut", "present": "ser ut", "past": "såg ut", "supine": "sett ut" },
+      "example": { "sv": "Hur ser din bror ut?", "ru": "Как выглядит твой брат?", "en": "What does your brother look like?" }
+    }
+  ]
+}

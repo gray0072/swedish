@@ -1,0 +1,142 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-personal-experience-story-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я всегда буду помнить тот день.»", "en": "Build the sentence: \"I will always remember that day.\"" },
+      "tokens": ["den", "att", "Jag", "dagen", "alltid", "minnas", "kommer"],
+      "answer": [2, 6, 4, 1, 5, 0, 3]
+    },
+    {
+      "id": "q-personal-experience-story-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Это изменило то, как я смотрю на жизнь.»", "en": "Build the sentence: \"It changed the way I see life.\"" },
+      "tokens": ["på", "sätt", "Det", "livet", "att", "förändrade", "se", "mitt"],
+      "answer": [2, 5, 7, 1, 4, 6, 0, 3]
+    },
+    {
+      "id": "q-personal-experience-story-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова и фразы с переводом", "en": "Match the words and phrases with their translation" },
+      "pairs": [
+        ["vändpunkt", "поворотный момент"],
+        ["tacksam", "благодарный"],
+        ["i efterhand", "оглядываясь назад"],
+        ["påverka", "влиять на"]
+      ]
+    },
+    {
+      "id": "q-personal-experience-story-tf-1",
+      "type": "true-false",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "«Minnas» спрягается как обычный глагол первой группы: minnas, minnsar, minnsade, minnsat.",
+        "en": "\"Minnas\" conjugates like a regular group-1 verb: minnas, minnsar, minnsade, minnsat."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильные формы: minnas — minns — mindes — mints (депонентный глагол).",
+        "en": "The correct forms are: minnas — minns — mindes — mints (a deponent verb)."
+      }
+    },
+    {
+      "id": "q-personal-experience-story-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Фраза «till en början» означает то же самое, что и «med tiden».",
+        "en": "The phrase \"till en början\" means the same as \"med tiden\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Till en början» — «поначалу» (о начале), «med tiden» — «со временем» (о развитии позже).",
+        "en": "\"Till en början\" means \"at first\" (the start), while \"med tiden\" means \"over time\" (a later development)."
+      }
+    },
+    {
+      "id": "q-personal-experience-story-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Tacksam» изменяется как обычное прилагательное: en tacksam, ett tacksamt, мн.ч. tacksamma.",
+        "en": "\"Tacksam\" inflects like a regular adjective: en tacksam, ett tacksamt, plural tacksamma."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-personal-experience-story-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det ___ mig att inse att tiden är dyrbar. (заставило)" },
+      "answer": ["fick"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-personal-experience-story-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag blev ___ att lämna allt bakom mig. (вынужден)" },
+      "answer": ["tvungen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-personal-experience-story-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая фраза лучше всего подходит, чтобы начать рассказ о значимом событии?",
+        "en": "Which phrase best opens a story about a significant event?"
+      },
+      "choices": ["Det som hände var att...", "Till exempel...", "Enligt mig...", "Å ena sidan..."],
+      "answer": 0
+    },
+    {
+      "id": "q-personal-experience-story-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово называет событие, изменившее взгляд человека на жизнь?",
+        "en": "Which word names an event that changed a person's outlook on life?"
+      },
+      "choices": ["vändpunkt", "upplevelse", "händelse", "tacksam"],
+      "answer": 0
+    },
+    {
+      "id": "q-personal-experience-story-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая фраза означает «оглядываясь назад»?",
+        "en": "Which phrase means \"looking back, in hindsight\"?"
+      },
+      "choices": ["i efterhand", "till en början", "med tiden", "till slut"],
+      "answer": 0
+    },
+    {
+      "id": "q-personal-experience-story-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что значит «bli rörd»?",
+        "en": "What does \"bli rörd\" mean?"
+      },
+      "choices": [
+        { "ru": "растрогаться", "en": "to be moved emotionally" },
+        { "ru": "рассердиться", "en": "to get angry" },
+        { "ru": "устать", "en": "to get tired" },
+        { "ru": "забыть", "en": "to forget" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-past-narrative-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Вчера я встретил старого друга.»", "en": "Build the sentence: \"Yesterday I met an old friend.\"" },
+      "tokens": ["gammal", "träffade", "vän", "Igår", "jag", "en"],
+      "answer": [3, 1, 4, 5, 0, 2]
+    },
+    {
+      "id": "q-past-narrative-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «На прошлой неделе я ездил в Гётеборг.»", "en": "Build the sentence: \"Last week I went to Gothenburg.\"" },
+      "tokens": ["Göteborg", "veckan", "till", "åkte", "Förra", "jag"],
+      "answer": [4, 1, 3, 5, 2, 0]
+    },
+    {
+      "id": "q-past-narrative-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь маркеры времени с переводом", "en": "Match the time markers with their translation" },
+      "pairs": [
+        ["igår", "вчера"],
+        ["förra veckan", "на прошлой неделе"],
+        ["förra året", "в прошлом году"],
+        ["till slut", "в конце концов"]
+      ]
+    },
+    {
+      "id": "q-past-narrative-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Когда указано точное время в прошлом (например, «igår»), обычно используется претерит, а не перфект.",
+        "en": "When a precise past time is given (like \"igår\"), you normally use the preteritum, not the perfect."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-past-narrative-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Глагол «hända» спрягается как обычный глагол первой группы: hända, handar, handade, handat.",
+        "en": "The verb \"hända\" conjugates like a regular group-1 verb: hända, handar, handade, handat."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильные формы: hända — händer — hände — hänt.",
+        "en": "The correct forms are: hända — händer — hände — hänt."
+      }
+    },
+    {
+      "id": "q-past-narrative-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ gick vi hem tillsammans. (в конце концов)" },
+      "answer": ["Till slut"],
+      "acceptAlso": ["till slut"]
+    },
+    {
+      "id": "q-past-narrative-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "En vän frågar: «Vad hände sen?» Vilket ord används för att fortsätta berättelsen?",
+        "en": "A friend asks: \"Vad hände sen?\" Which word continues the story?"
+      },
+      "choices": ["Efteråt...", "Numera...", "Ibland...", "Sällan..."],
+      "answer": 0
+    },
+    {
+      "id": "q-past-narrative-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое из этих слов означает именно «позавчера»?",
+        "en": "Which of these words specifically means \"the day before yesterday\"?"
+      },
+      "choices": ["i förrgår", "igår", "förra veckan", "i somras"],
+      "answer": 0
+    }
+  ]
+}

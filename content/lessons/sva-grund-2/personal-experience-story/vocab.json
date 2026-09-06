@@ -1,0 +1,143 @@
+{
+  "items": [
+    {
+      "id": "upplevelse",
+      "sv": "upplevelse",
+      "translations": { "ru": "переживание, впечатление, опыт", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en upplevelse", "defSg": "upplevelsen", "indefPl": "upplevelser", "defPl": "upplevelserna" },
+      "example": { "sv": "Det var en upplevelse jag aldrig kommer att glömma.", "ru": "Это было переживание, которое я никогда не забуду.", "en": "It was an experience I will never forget." }
+    },
+    {
+      "id": "handelse",
+      "sv": "händelse",
+      "translations": { "ru": "событие, происшествие", "en": "event, occurrence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en händelse", "defSg": "händelsen", "indefPl": "händelser", "defPl": "händelserna" },
+      "example": { "sv": "Den händelsen förändrade hela mitt liv.", "ru": "Это событие изменило всю мою жизнь.", "en": "That event changed my whole life." }
+    },
+    {
+      "id": "minnas",
+      "sv": "minnas",
+      "translations": { "ru": "помнить", "en": "to remember" },
+      "pos": "verb",
+      "forms": { "infinitive": "minnas", "present": "minns", "past": "mindes", "supine": "mints" },
+      "example": { "sv": "Jag minns fortfarande hur nervös jag var.", "ru": "Я до сих пор помню, как нервничал.", "en": "I still remember how nervous I was." }
+    },
+    {
+      "id": "paverka",
+      "sv": "påverka",
+      "translations": { "ru": "влиять на", "en": "to affect, to influence" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" },
+      "example": { "sv": "Flytten till Sverige påverkade mig mycket.", "ru": "Переезд в Швецию сильно повлиял на меня.", "en": "Moving to Sweden affected me a lot." }
+    },
+    {
+      "id": "vandpunkt",
+      "sv": "vändpunkt",
+      "translations": { "ru": "поворотный момент", "en": "turning point" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vändpunkt", "defSg": "vändpunkten", "indefPl": "vändpunkter", "defPl": "vändpunkterna" },
+      "example": { "sv": "Det blev en vändpunkt i mitt liv.", "ru": "Это стало поворотным моментом в моей жизни.", "en": "It became a turning point in my life." }
+    },
+    {
+      "id": "inse",
+      "sv": "inse",
+      "translations": { "ru": "осознавать, понимать", "en": "to realize" },
+      "pos": "verb",
+      "forms": { "infinitive": "inse", "present": "inser", "past": "insåg", "supine": "insett" },
+      "example": { "sv": "Då insåg jag att allt skulle bli bra.", "ru": "Тогда я понял, что всё будет хорошо.", "en": "Then I realized that everything would be fine." }
+    },
+    {
+      "id": "tacksam",
+      "sv": "tacksam",
+      "translations": { "ru": "благодарный", "en": "grateful" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tacksamt, мн.ч.: tacksamma", "en": "ett-form: tacksamt, plural: tacksamma" },
+      "example": { "sv": "Jag är tacksam för den erfarenheten.", "ru": "Я благодарен за этот опыт.", "en": "I'm grateful for that experience." }
+    },
+    {
+      "id": "rord",
+      "sv": "rörd",
+      "translations": { "ru": "растроганный, тронутый", "en": "moved, touched (emotionally)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: rört, мн.ч.: rörda", "en": "ett-form: rört, plural: rörda" },
+      "example": { "sv": "Jag blev rörd när jag tänkte tillbaka på det.", "ru": "Я растрогался, вспоминая об этом.", "en": "I was moved when I thought back on it." }
+    },
+    {
+      "id": "det-som-hande-var-att",
+      "sv": "Det som hände var att...",
+      "translations": { "ru": "Дело было в том, что...", "en": "What happened was that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det som hände var att jag missade planet.", "ru": "Дело было в том, что я опоздал на самолёт.", "en": "What happened was that I missed the plane." }
+    },
+    {
+      "id": "jag-kommer-alltid-att-minnas",
+      "sv": "Jag kommer alltid att minnas...",
+      "translations": { "ru": "Я всегда буду помнить...", "en": "I will always remember..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kommer alltid att minnas den dagen.", "ru": "Я всегда буду помнить тот день.", "en": "I will always remember that day." }
+    },
+    {
+      "id": "det-forandrade-mitt-satt-att-se-pa",
+      "sv": "Det förändrade mitt sätt att se på...",
+      "translations": { "ru": "Это изменило то, как я смотрю на...", "en": "It changed the way I see..." },
+      "pos": "phrase",
+      "example": { "sv": "Det förändrade mitt sätt att se på livet.", "ru": "Это изменило то, как я смотрю на жизнь.", "en": "It changed the way I see life." }
+    },
+    {
+      "id": "det-fick-mig-att-inse-att",
+      "sv": "Det fick mig att inse att...",
+      "translations": { "ru": "Это заставило меня понять, что...", "en": "It made me realize that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det fick mig att inse att tiden är dyrbar.", "ru": "Это заставило меня понять, что время ценно.", "en": "It made me realize that time is precious." }
+    },
+    {
+      "id": "jag-blev-tvungen-att",
+      "sv": "Jag blev tvungen att...",
+      "translations": { "ru": "Мне пришлось...", "en": "I was forced to..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag blev tvungen att lämna allt bakom mig.", "ru": "Мне пришлось оставить всё позади.", "en": "I was forced to leave everything behind." }
+    },
+    {
+      "id": "till-en-borjan",
+      "sv": "till en början",
+      "translations": { "ru": "поначалу", "en": "at first" },
+      "pos": "phrase",
+      "example": { "sv": "Till en början var jag rädd för att prata svenska.", "ru": "Поначалу я боялся говорить по-шведски.", "en": "At first I was afraid to speak Swedish." }
+    },
+    {
+      "id": "med-tiden",
+      "sv": "med tiden",
+      "translations": { "ru": "со временем", "en": "over time" },
+      "pos": "phrase",
+      "example": { "sv": "Med tiden blev det lättare.", "ru": "Со временем стало легче.", "en": "Over time it got easier." }
+    },
+    {
+      "id": "i-efterhand",
+      "sv": "i efterhand",
+      "translations": { "ru": "оглядываясь назад, задним числом", "en": "in hindsight, looking back" },
+      "pos": "phrase",
+      "example": { "sv": "I efterhand förstår jag att det var rätt beslut.", "ru": "Оглядываясь назад, я понимаю, что это было правильное решение.", "en": "In hindsight, I understand it was the right decision." }
+    },
+    {
+      "id": "det-viktigaste-jag-larde-mig-var-att",
+      "sv": "Det viktigaste jag lärde mig var att...",
+      "translations": { "ru": "Самое важное, чему я научился, было...", "en": "The most important thing I learned was..." },
+      "pos": "phrase",
+      "example": { "sv": "Det viktigaste jag lärde mig var att inte ge upp.", "ru": "Самое важное, чему я научился, — не сдаваться.", "en": "The most important thing I learned was not to give up." }
+    },
+    {
+      "id": "paminna-om",
+      "sv": "påminna om",
+      "translations": { "ru": "напоминать о", "en": "to remind of" },
+      "pos": "verb",
+      "forms": { "infinitive": "påminna om", "present": "påminner om", "past": "påminde om", "supine": "påmint om" },
+      "example": { "sv": "Den här låten påminner mig om min barndom.", "ru": "Эта песня напоминает мне о моём детстве.", "en": "This song reminds me of my childhood." }
+    }
+  ]
+}

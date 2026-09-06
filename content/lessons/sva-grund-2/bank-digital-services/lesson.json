@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/bank-digital-services",
+  "slug": "bank-digital-services",
+  "title": {
+    "sv": "Banken, BankID och myndigheternas e-tjänster",
+    "ru": "Банк, BankID и цифровые сервисы государства",
+    "en": "The bank, BankID and the state's digital services"
+  },
+  "summary": {
+    "ru": "Как открыть банковский счёт, пользоваться интернет-банком и Swish, а также цифровой почтой от государства.",
+    "en": "How to open a bank account, use internet banking and Swish, and handle official digital mail."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "digital",
+    "money",
+    "bureaucracy"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1130,
+  "prerequisites": [
+    "sva-grund-1/digital-life"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

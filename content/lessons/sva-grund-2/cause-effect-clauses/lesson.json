@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/cause-effect-clauses",
+  "slug": "cause-effect-clauses",
+  "title": {
+    "sv": "Orsak och verkan: eftersom, därför att, så att, på grund av, tack vare",
+    "ru": "Причина и следствие: eftersom, därför att, så att, på grund av, tack vare",
+    "en": "Cause and effect: eftersom, därför att, så att, på grund av, tack vare"
+  },
+  "summary": {
+    "ru": "«eftersom/därför att/så att» вводят целый bisats, а «på grund av/tack vare» берут просто существительное.",
+    "en": "\"eftersom/därför att/så att\" introduce a full bisats, while \"på grund av/tack vare\" just take a noun phrase."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "cause-effect",
+    "syntax",
+    "biff"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 950,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

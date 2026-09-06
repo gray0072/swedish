@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "because, since" },
+      "pos": "conjunction",
+      "example": { "sv": "Eftersom det regnade mycket, stannade vi hemma.", "ru": "Так как шёл сильный дождь, мы остались дома.", "en": "Because it rained heavily, we stayed home." }
+    },
+    {
+      "id": "regna",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+    },
+    {
+      "id": "stanna",
+      "sv": "stanna",
+      "translations": { "ru": "оставаться", "en": "to stay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "stanna", "present": "stannar", "past": "stannade", "supine": "stannat" }
+    },
+    {
+      "id": "ringa-lswo",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to ring, to call" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Telefonen ringde.", "ru": "Телефон зазвонил.", "en": "The phone rang." }
+    },
+    {
+      "id": "telefon",
+      "sv": "telefon",
+      "translations": { "ru": "телефон", "en": "telephone" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "telefon", "defSg": "telefonen", "indefPl": "telefoner", "defPl": "telefonerna" }
+    },
+    {
+      "id": "fraga-noun-lswo",
+      "sv": "fråga",
+      "translations": { "ru": "вопрос", "en": "question" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "fråga", "defSg": "frågan", "indefPl": "frågor", "defPl": "frågorna" }
+    },
+    {
+      "id": "kontakta",
+      "sv": "kontakta",
+      "translations": { "ru": "связываться, контактировать", "en": "to contact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+    },
+    {
+      "id": "om-conj",
+      "sv": "om",
+      "translations": { "ru": "если", "en": "if" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "nar-conj",
+      "sv": "när",
+      "translations": { "ru": "когда (союз)", "en": "when (conjunction)" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "kvall",
+      "sv": "kväll",
+      "translations": { "ru": "вечер", "en": "evening" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "kväll", "defSg": "kvällen", "indefPl": "kvällar", "defPl": "kvällarna" }
+    },
+    {
+      "id": "hem-adv",
+      "sv": "hem",
+      "translations": { "ru": "домой", "en": "home (direction)" },
+      "pos": "adv"
+    },
+    {
+      "id": "hemma",
+      "sv": "hemma",
+      "translations": { "ru": "дома", "en": "at home" },
+      "pos": "adv"
+    }
+  ]
+}

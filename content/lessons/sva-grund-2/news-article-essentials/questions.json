@@ -1,0 +1,128 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-news-article-essentials-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «О чём статья?»", "en": "Build the sentence: \"What is the article about?\"" },
+      "tokens": ["om", "handlar", "artikeln", "Vad"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-news-article-essentials-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Основной текст даёт больше подробностей о событии.»", "en": "Build the sentence: \"The body text gives more details about the event.\"" },
+      "tokens": ["ger", "om", "detaljer", "Brödtexten", "händelsen", "fler"],
+      "answer": [3, 0, 5, 2, 1, 4]
+    },
+    {
+      "id": "q-news-article-essentials-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["rubrik", "заголовок"],
+        ["ingress", "вводный абзац"],
+        ["brödtext", "основной текст"],
+        ["källa", "источник"]
+      ]
+    },
+    {
+      "id": "q-news-article-essentials-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["journalist", "журналист"],
+        ["citat", "цитата"],
+        ["läsare", "читатель"],
+        ["sammanfatta", "резюмировать"]
+      ]
+    },
+    {
+      "id": "q-news-article-essentials-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Rubrik» — это основной текст статьи со всеми подробностями.", "en": "\"Rubrik\" is the article's body text with all the details." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Rubrik» — это заголовок. Основной текст со всеми подробностями называется «brödtext».",
+        "en": "\"Rubrik\" is the headline. The body text with all the details is called \"brödtext\"."
+      }
+    },
+    {
+      "id": "q-news-article-essentials-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Заголовка и вводного абзаца часто достаточно, чтобы понять, о чём статья.", "en": "The headline and lead paragraph are often enough to understand what an article is about." },
+      "answer": true
+    },
+    {
+      "id": "q-news-article-essentials-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Фраза «enligt artikeln...» представляет информацию как личное мнение говорящего.", "en": "The phrase \"enligt artikeln...\" presents information as the speaker's personal opinion." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Enligt artikeln» ссылается на источник (статью), а не на личное мнение.",
+        "en": "\"Enligt artikeln\" refers to the source (the article), not to a personal opinion."
+      }
+    },
+    {
+      "id": "q-news-article-essentials-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ är källan en rapport från myndigheten. (согласно статье)" },
+      "answer": ["Enligt artikeln"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-news-article-essentials-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь передать самую суть статьи одной фразой. Что скажешь?",
+        "en": "You want to convey the article's core message in one phrase. What do you say?"
+      },
+      "choices": [
+        "Huvudbudskapet är att...",
+        "Kan du ge mig återkoppling?",
+        "Vad är sista inlämningsdag?",
+        "Man skulle kunna invända att..."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-news-article-essentials-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово обозначает человека, который пишет статьи для газеты?",
+        "en": "Which word means the person who writes newspaper articles?"
+      },
+      "choices": ["journalist", "läsare", "källa", "rubrik"],
+      "answer": 0
+    },
+    {
+      "id": "q-news-article-essentials-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что идёт сразу после заголовка в короткой статье?",
+        "en": "What comes right after the headline in a short article?"
+      },
+      "choices": ["ingress", "citat", "läsare", "journalist"],
+      "answer": 0
+    }
+  ]
+}

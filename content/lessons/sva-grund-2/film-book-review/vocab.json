@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "handla-om",
+      "sv": "handla om",
+      "translations": { "ru": "рассказывать о, повествовать о", "en": "to be about" },
+      "pos": "phrase",
+      "example": { "sv": "Filmen handlar om en familj som flyttar till en ny stad.", "ru": "Фильм рассказывает о семье, которая переезжает в новый город.", "en": "The film is about a family that moves to a new city." }
+    },
+    {
+      "id": "avsloja",
+      "sv": "avslöja",
+      "translations": { "ru": "раскрывать (спойлер), выдавать", "en": "to give away, to reveal" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "avslöja", "present": "avslöjar", "past": "avslöjade", "supine": "avslöjat" }
+    },
+    {
+      "id": "valskriven",
+      "sv": "välskriven",
+      "translations": { "ru": "хорошо написанный", "en": "well-written" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: välskrivet, мн.ч.: välskrivna", "en": "ett-form: välskrivet, plural: välskrivna" }
+    },
+    {
+      "id": "platt",
+      "sv": "platt",
+      "translations": { "ru": "плоский, невыразительный (о персонаже)", "en": "flat (of a character)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: platt, мн.ч.: platta", "en": "ett-form: platt, plural: platta" }
+    },
+    {
+      "id": "skadespelare",
+      "sv": "skådespelare",
+      "translations": { "ru": "актёр", "en": "actor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" }
+    },
+    {
+      "id": "ge-stjarnor",
+      "sv": "ge stjärnor",
+      "translations": { "ru": "ставить оценку в звёздах", "en": "to give a star rating" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle ge den fyra av fem stjärnor.", "ru": "Я бы дал(а) ей четыре звезды из пяти.", "en": "I'd give it four out of five stars." }
+    },
+    {
+      "id": "rekommendera",
+      "sv": "rekommendera",
+      "translations": { "ru": "рекомендовать", "en": "to recommend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rekommendera", "present": "rekommenderar", "past": "rekommenderade", "supine": "rekommenderat" },
+      "example": { "sv": "Jag rekommenderar den till alla som gillar spännande dramer.", "ru": "Я рекомендую его всем, кому нравится напряжённая драма.", "en": "I recommend it to anyone who likes gripping dramas." }
+    },
+    {
+      "id": "recension",
+      "sv": "recension",
+      "translations": { "ru": "рецензия", "en": "review" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en recension", "defSg": "recensionen", "indefPl": "recensioner", "defPl": "recensionerna" }
+    },
+    {
+      "id": "tempo",
+      "sv": "tempo",
+      "translations": { "ru": "темп", "en": "pace" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" }
+    }
+  ]
+}

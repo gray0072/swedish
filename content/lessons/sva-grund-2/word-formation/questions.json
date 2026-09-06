@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-word-formation-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая приставка выражает отрицание, «не-»?", "en": "Which prefix expresses negation, \"un-/im-\"?" },
+      "choices": ["o-", "be-", "för-"],
+      "answer": 0
+    },
+    {
+      "id": "q-word-formation-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какой суффикс соответствует значению «можно сделать»?", "en": "Which suffix corresponds to \"can be done\"?" },
+      "choices": ["-bar", "-lig", "-lös"],
+      "answer": 0
+    },
+    {
+      "id": "q-word-formation-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какой суффикс означает «без»?", "en": "Which suffix means \"without\"?" },
+      "choices": ["-lös", "-bar", "-het"],
+      "answer": 0
+    },
+    {
+      "id": "q-word-formation-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "möjlig → ___ (невозможный)" },
+      "answer": ["omöjlig"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-word-formation-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "läsa → ___ (можно прочитать)" },
+      "answer": ["läsbar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-word-formation-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "hopp → ___ (безнадёжный)" },
+      "answer": ["hopplös"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-word-formation-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Любое сочетание корня и модели словообразования всегда существует как реальное слово.", "en": "Any combination of a root and a word-formation pattern always exists as a real word." },
+      "answer": false,
+      "explanation": { "ru": "Стоит проверять слово в словаре — не всё, что можно образовать по модели, реально используется.", "en": "Check a word in a dictionary — not everything a pattern could produce is actually in use." }
+    },
+    {
+      "id": "q-word-formation-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь корень с производным словом", "en": "Match the root with the derived word" },
+      "pairs": [
+        ["fara (сущ.)", "farlig"],
+        ["hopp", "hopplös"],
+        ["läsa", "läsbar"],
+        ["möjlig", "omöjlig"]
+      ]
+    },
+    {
+      "id": "q-word-formation-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Besvara» отличается от «svara» тем, что...", "en": "\"Besvara\" differs from \"svara\" in that..." },
+      "choices": [
+        { "ru": "у него всегда есть прямой объект (ответить на что-то конкретное)", "en": "it always takes a direct object (to answer something specific)" },
+        { "ru": "оно значит «спрашивать», а не «отвечать»", "en": "it means \"to ask\", not \"to answer\"" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-word-formation-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это опасно.»", "en": "Build the sentence: \"This is dangerous.\"" },
+      "tokens": ["Det", "här", "är", "farligt"],
+      "answer": [0, 1, 2, 3]
+    }
+  ]
+}

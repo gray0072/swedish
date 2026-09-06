@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/health-symptoms-detailed",
+  "slug": "health-symptoms-detailed",
+  "title": {
+    "sv": "Att beskriva symtom i detalj och prata med läkaren",
+    "ru": "Здоровье: подробное описание симптомов и разговор с врачом",
+    "en": "Health: describing symptoms in detail and talking to a doctor"
+  },
+  "summary": {
+    "ru": "Как рассказать врачу, как долго и насколько сильно у тебя что-то болит, и понять типичные вопросы врача.",
+    "en": "How to tell a doctor how long and how intensely something hurts, and understand typical doctor questions."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "health",
+    "doctor",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 680,
+  "prerequisites": [
+    "sfi-c/health"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

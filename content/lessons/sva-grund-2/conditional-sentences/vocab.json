@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "id": "om-if",
+      "sv": "om",
+      "translations": { "ru": "если", "en": "if" },
+      "pos": "conjunction",
+      "example": { "sv": "Om det regnar stannar jag hemma.", "ru": "Если пойдёт дождь, я останусь дома.", "en": "If it rains, I'll stay home." }
+    },
+    {
+      "id": "skulle",
+      "sv": "skulle",
+      "translations": { "ru": "(вспом. глагол для нереального условия) бы", "en": "would (auxiliary for unreal conditions)" },
+      "pos": "verb",
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
+      "example": { "sv": "Jag skulle resa mer om jag hade tid.", "ru": "Я бы путешествовал больше, если бы у меня было время.", "en": "I would travel more if I had time." }
+    },
+    {
+      "id": "veta",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" },
+      "example": { "sv": "Om han visste svaret skulle han säga det.", "ru": "Если бы он знал ответ, он бы его сказал.", "en": "If he knew the answer, he would say it." }
+    },
+    {
+      "id": "ha",
+      "sv": "ha",
+      "translations": { "ru": "иметь", "en": "to have" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "example": { "sv": "Om jag hade pengar skulle jag köpa boken.", "ru": "Если бы у меня были деньги, я бы купил книгу.", "en": "If I had money, I would buy the book." }
+    },
+    {
+      "id": "villkor",
+      "sv": "villkor",
+      "translations": { "ru": "условие", "en": "condition" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett villkor", "defSg": "villkoret", "indefPl": "villkor", "defPl": "villkoren" },
+      "example": { "sv": "Villkoret är enkelt: kom i tid.", "ru": "Условие простое: приходи вовремя.", "en": "The condition is simple: come on time." }
+    },
+    {
+      "id": "hypotetisk",
+      "sv": "hypotetisk",
+      "translations": { "ru": "гипотетический", "en": "hypothetical" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: hypotetiskt, мн.ч.: hypotetiska", "en": "ett-form: hypotetiskt, plural: hypotetiska" },
+      "example": { "sv": "Det är bara en hypotetisk fråga.", "ru": "Это всего лишь гипотетический вопрос.", "en": "It's just a hypothetical question." }
+    },
+    {
+      "id": "verklig",
+      "sv": "verklig",
+      "translations": { "ru": "реальный, настоящий", "en": "real" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: verkligt, мн.ч.: verkliga", "en": "ett-form: verkligt, plural: verkliga" },
+      "example": { "sv": "Det här är ett verkligt problem.", "ru": "Это реальная проблема.", "en": "This is a real problem." }
+    },
+    {
+      "id": "resa-mer",
+      "sv": "resa mer",
+      "translations": { "ru": "путешествовать больше", "en": "to travel more" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle resa mer om jag hade råd.", "ru": "Я бы путешествовал больше, если бы мог себе это позволить.", "en": "I would travel more if I could afford it." }
+    }
+  ]
+}

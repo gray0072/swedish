@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/opinion-justification",
+  "slug": "opinion-justification",
+  "title": {
+    "sv": "Tycka och motivera: jag tycker att … eftersom …",
+    "ru": "Мнение и обоснование: jag tycker att … eftersom …",
+    "en": "Opinion and justification: jag tycker att … eftersom …"
+  },
+  "summary": {
+    "ru": "Как высказать мнение и обосновать его, не нарушая порядок слов в придаточном предложении.",
+    "en": "How to state an opinion and justify it without breaking subordinate-clause word order."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "phrases",
+    "opinions",
+    "biff",
+    "subordinate-clause"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 650,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

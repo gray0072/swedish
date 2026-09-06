@@ -287,3 +287,54 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   the level's Topics list still has 0 of its 25 thematic (text-based) topics — those
   remain a separate, unstarted piece of work. `content/curricula/sva-grund-1.json` added.
 - Checks: typecheck, 39 tests, content validation (46 lessons, 0 errors).
+
+## 2026-09-06 — All 25 thematic topics for SVA grund delkurs 1
+
+- **SVA grund delkurs 1 is now complete**: its 25 thematic topics
+  (`about-yourself`, `routine-present`, `past-narrative`, `future-plans`,
+  `opinion-justification`, `describing-person`, `describing-place`,
+  `health-symptoms-detailed`, `studying-komvux`, `reading-retelling`, `personal-letter`,
+  `forms-questionnaires`, `instructions-recipes`, `dictionary-work`,
+  `paraphrase-strategies`, `workday-colleagues`, `employer-talk`, `housing-contract`,
+  `household-economy`, `digital-life`, `child-school-talk`, `holidays-traditions`,
+  `free-time-culture`, `nature-allemansratten`, `retelling-news`) join yesterday's 20
+  grammar lessons, all bilingual (`theory.md` + `theory_en.md`). Again written by 5
+  parallel agents (5 lessons each) against pre-assigned ids/order/prerequisites.
+- **A deliberate simplification**: a proper text-based lesson format (a reading passage
+  plus comprehension questions) still doesn't exist in the project — that was flagged as
+  a real gap in `TODO.md`. Rather than build it, topics like "read a short story and
+  retell it" and "retell what you heard" shipped through the existing vocab/phrases
+  pipeline: they teach the vocabulary and connector phrases the skill needs (sequencing
+  words, reporting verbs, reported-speech word order) rather than embedding an actual
+  passage with its own comprehension quiz. `TODO.md` now tracks that gap as applying to
+  SVA grund delkurs 2–4, not delkurs 1.
+- `CURRICULUM.md`/`CURRICULUM_ru.md`: all 25 topic checkboxes for the level marked done
+  with their lesson slug; the level's Done count is now 45/45 (20 grammar + 25 topics).
+  `content/curricula/sva-grund-1.json` extended with the 25 new ids.
+- Checks: typecheck, 39 tests, content validation (71 lessons, 0 errors).
+
+## 2026-09-06 — SVA grund delkurs 2 complete (45 lessons)
+
+- **All 20 grammar points and all 25 thematic topics for SVA grund delkurs 2** now have
+  a dedicated bilingual lesson, mirroring yesterday's delkurs 1 pass: passive voice,
+  conditionals (real, unreal-present, unreal-past), the subordinate-clause family
+  (relative/temporal/concessive/causal), participles, nominalisation, word formation,
+  verb-preposition government, discourse-level grammar (text connectors, cleft
+  sentences, reported speech, long-sentence word order, spoken/written norms), plus
+  topics on work, benefits, housing, tax, education, argumentative writing, referat,
+  formal complaints, reviews, and more.
+- **Written by 9 parallel agents** (4 covering grammar, 5 covering topics) against
+  pre-assigned ids/order/prerequisites, the same approach as delkurs 1 — but this run
+  hit the account's session rate limit partway through: all 9 agents were terminated by
+  a 429 mid-write, leaving 19 of the 45 lesson folders missing or partially written (some
+  0 bytes, some missing `vocab.json`/`questions.json`, one missing all 4 non-metadata
+  files). Diagnosed by diffing the directory listing against the planned 45 ids and
+  re-running `validate-content.ts`; the 6 partially-written lessons were completed from
+  their existing files rather than overwritten, and the other 13 were written from
+  scratch directly in the main session (not re-delegated to background agents, to avoid
+  re-triggering the same burst-concurrency limit).
+- `content/curricula/sva-grund-2.json` added; `CURRICULUM.md`/`CURRICULUM_ru.md` updated
+  (all 45 checkboxes for the level marked done with their lesson slug — both under
+  "Topics" and under "Grammar", following the same double-bookkeeping convention
+  established for delkurs 1).
+- Checks: typecheck, 39 tests, content validation (116 lessons, 0 errors).

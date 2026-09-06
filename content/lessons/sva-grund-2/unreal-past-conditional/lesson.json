@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/unreal-past-conditional",
+  "slug": "unreal-past-conditional",
+  "title": {
+    "sv": "Skulle ha + supinum — orealistiskt dåtida villkor",
+    "ru": "«skulle ha + supinum» — нереальное условие в прошлом",
+    "en": "\"skulle ha + supinum\" — the unreal condition in the past"
+  },
+  "summary": {
+    "ru": "«Если бы я знал» — как сказать это по-шведски о прошлом, которое уже не изменить.",
+    "en": "\"If I had known\" — how to say this in Swedish about a past that can no longer change."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "conditionals", "verbs"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 900,
+  "prerequisites": ["sva-grund-2/conditional-sentences"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

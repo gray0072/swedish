@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-2/long-sentence-word-order",
+  "slug": "long-sentence-word-order",
+  "title": {
+    "sv": "Ordföljd i långa meningar; val av fundament",
+    "ru": "Порядок слов в длинных предложениях; выбор фундамента",
+    "en": "Word order in long sentences; choosing the fundament"
+  },
+  "summary": {
+    "ru": "«Eftersom det regnade mycket, stannade vi hemma» — целое придаточное занимает всего одно место fundament, и V2 работает как обычно.",
+    "en": "\"Eftersom det regnade mycket, stannade vi hemma\" — a whole subordinate clause fills just one fundament slot, and V2 works exactly as usual."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "word-order",
+    "v2",
+    "fundament",
+    "syntax",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1040,
+  "prerequisites": [
+    "sva-grund-1/sentence-adverb-position"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

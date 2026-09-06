@@ -1,0 +1,116 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "dictionary-work-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется словарная форма слова, которую ищут в словаре?",
+        "en": "What is the base dictionary form of a word called when you look it up?"
+      },
+      "choices": ["uppslagsord", "betydelse", "böjning", "synonym"],
+      "answer": 0
+    },
+    {
+      "id": "dictionary-work-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое заглавное слово (uppslagsord) у формы «sprang»?",
+        "en": "What is the headword (uppslagsord) for the form \"sprang\"?"
+      },
+      "choices": ["springa", "sprungit", "spring", "springer"],
+      "answer": 0
+    },
+    {
+      "id": "dictionary-work-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «motsats» значит...",
+        "en": "The word \"motsats\" means..."
+      },
+      "choices": ["синоним", "антоним, противоположность", "произношение", "написание"],
+      "answer": 1
+    },
+    {
+      "id": "dictionary-work-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Существительное в словаре обычно даётся в определённой форме множественного числа.",
+        "en": "A noun is usually listed in the dictionary in the definite plural form."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Существительное даётся в неопределённой форме единственного числа.",
+        "en": "A noun is listed in the indefinite singular form."
+      }
+    },
+    {
+      "id": "dictionary-work-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Betydelse» и «synonym» — это одно и то же.",
+        "en": "\"Betydelse\" and \"synonym\" are the same thing."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Betydelse» — это значение слова, а «synonym» — другое слово с похожим значением.",
+        "en": "\"Betydelse\" is the meaning of a word, while \"synonym\" is a different word with a similar meaning."
+      }
+    },
+    {
+      "id": "dictionary-work-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Вопрос «Kan man säga...?» подходит, когда сомневаешься, употребимо ли выражение.",
+        "en": "The question \"Kan man säga...?\" fits when you're unsure whether an expression is used."
+      },
+      "answer": true
+    },
+    {
+      "id": "dictionary-work-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vad ___ ordet \"lagom\"? (значит)" },
+      "answer": ["betyder"],
+      "acceptAlso": []
+    },
+    {
+      "id": "dictionary-work-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hur ___ verbet \"vara\"? (спрягается)" },
+      "answer": ["böjs"],
+      "acceptAlso": ["böjer"]
+    },
+    {
+      "id": "dictionary-work-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь словарный термин с переводом", "en": "Match the dictionary term with its translation" },
+      "pairs": [
+        ["uppslagsord", "заглавное слово"],
+        ["betydelse", "значение"],
+        ["synonym", "синоним"],
+        ["böjning", "словоизменение"]
+      ]
+    },
+    {
+      "id": "dictionary-work-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Можешь привести пример?»", "en": "Build the question: \"Can you give an example?\"" },
+      "tokens": ["ge", "ett", "exempel", "Kan", "du"],
+      "answer": [3, 4, 0, 1, 2]
+    }
+  ]
+}

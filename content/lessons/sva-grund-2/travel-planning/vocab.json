@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "boka-resa",
+      "sv": "boka resa",
+      "translations": { "ru": "бронировать поездку", "en": "to book a trip" },
+      "pos": "phrase",
+      "example": { "sv": "Vi bokade resan online.", "ru": "Мы забронировали поездку онлайн.", "en": "We booked the trip online." }
+    },
+    {
+      "id": "researrangor",
+      "sv": "researrangör",
+      "translations": { "ru": "турагентство, туроператор", "en": "travel agency, tour operator" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en researrangör", "defSg": "researrangören", "indefPl": "researrangörer", "defPl": "researrangörerna" },
+      "example": { "sv": "Researrangören erbjuder paketresor till Grekland.", "ru": "Турагентство предлагает пакетные туры в Грецию.", "en": "The tour operator offers package holidays to Greece." }
+    },
+    {
+      "id": "paketresa",
+      "sv": "paketresa",
+      "translations": { "ru": "пакетный тур", "en": "package holiday" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en paketresa", "defSg": "paketresan", "indefPl": "paketresor", "defPl": "paketresorna" }
+    },
+    {
+      "id": "resmal",
+      "sv": "resmål",
+      "translations": { "ru": "пункт назначения", "en": "destination" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett resmål", "defSg": "resmålet", "indefPl": "resmål", "defPl": "resmålen" },
+      "example": { "sv": "Italien är ett populärt resmål.", "ru": "Италия — популярное направление для путешествий.", "en": "Italy is a popular destination." }
+    },
+    {
+      "id": "avbokning",
+      "sv": "avbokning",
+      "translations": { "ru": "отмена бронирования", "en": "cancellation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avbokning", "defSg": "avbokningen", "indefPl": "avbokningar", "defPl": "avbokningarna" }
+    },
+    {
+      "id": "reseforsakring",
+      "sv": "reseförsäkring",
+      "translations": { "ru": "туристическая страховка", "en": "travel insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reseförsäkring", "defSg": "reseförsäkringen", "indefPl": "reseförsäkringar", "defPl": "reseförsäkringarna" },
+      "example": { "sv": "Glöm inte att teckna en reseförsäkring.", "ru": "Не забудьте оформить туристическую страховку.", "en": "Don't forget to take out travel insurance." }
+    },
+    {
+      "id": "packa",
+      "sv": "packa",
+      "translations": { "ru": "паковать чемодан, собираться в поездку", "en": "to pack" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "packa", "present": "packar", "past": "packade", "supine": "packat" },
+      "example": { "sv": "Jag gjorde en packlista innan resan.", "ru": "Я составил список вещей перед поездкой.", "en": "I made a packing list before the trip." }
+    },
+    {
+      "id": "packlista",
+      "sv": "packlista",
+      "translations": { "ru": "список вещей для поездки", "en": "packing list" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en packlista", "defSg": "packlistan", "indefPl": "packlistor", "defPl": "packlistorna" }
+    },
+    {
+      "id": "hyra-bil",
+      "sv": "hyra bil",
+      "translations": { "ru": "арендовать машину", "en": "to rent a car" },
+      "pos": "phrase",
+      "example": { "sv": "Det är billigare att hyra bil i förväg.", "ru": "Дешевле арендовать машину заранее.", "en": "It's cheaper to rent a car in advance." }
+    },
+    {
+      "id": "avresa",
+      "sv": "avresa",
+      "translations": { "ru": "отправление, отъезд", "en": "departure" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avresa", "defSg": "avresan", "indefPl": "avresor", "defPl": "avresorna" }
+    },
+    {
+      "id": "incheckning",
+      "sv": "incheckning",
+      "translations": { "ru": "регистрация на рейс", "en": "check-in" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en incheckning", "defSg": "incheckningen", "indefPl": "incheckningar", "defPl": "incheckningarna" },
+      "example": { "sv": "Incheckningen öppnar två timmar före avresa.", "ru": "Регистрация открывается за два часа до вылета.", "en": "Check-in opens two hours before departure." }
+    },
+    {
+      "id": "granskontroll",
+      "sv": "gränskontroll",
+      "translations": { "ru": "пограничный контроль", "en": "border control" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gränskontroll", "defSg": "gränskontrollen", "indefPl": "gränskontroller", "defPl": "gränskontrollerna" }
+    },
+    {
+      "id": "utomlands",
+      "sv": "utomlands",
+      "translations": { "ru": "за границей, за границу", "en": "abroad" },
+      "pos": "adv"
+    },
+    {
+      "id": "hemresa",
+      "sv": "hemresa",
+      "translations": { "ru": "обратная дорога домой", "en": "the trip home" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hemresa", "defSg": "hemresan", "indefPl": "hemresor", "defPl": "hemresorna" }
+    }
+  ]
+}

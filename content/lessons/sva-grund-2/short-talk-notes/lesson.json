@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/short-talk-notes",
+  "slug": "short-talk-notes",
+  "title": {
+    "sv": "Ett 2–3 minuters muntligt framförande med stödord",
+    "ru": "Устное выступление на 2–3 минуты с опорой на заметки",
+    "en": "A 2–3 minute talk supported by notes"
+  },
+  "summary": {
+    "ru": "Как построить короткое устное выступление и говорить по ключевым словам, а не по написанному тексту.",
+    "en": "How to structure a short prepared talk and speak from keywords instead of a written-out script."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-2"],
+  "tags": ["phrases", "speaking", "presentation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1300,
+  "prerequisites": ["sva-grund-1/about-yourself"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

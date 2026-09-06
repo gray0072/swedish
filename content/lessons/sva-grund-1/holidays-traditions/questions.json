@@ -1,0 +1,120 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-hol-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы отмечаем мидсоммар с танцами и цветами в волосах.»", "en": "Build the sentence: \"We celebrate Midsummer with dancing and flowers in our hair.\"" },
+      "tokens": ["dans", "midsommar", "Vi", "och", "firar", "blommor i håret", "med"],
+      "answer": [2, 4, 1, 6, 0, 3, 5]
+    },
+    {
+      "id": "q-hol-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «На вальборг зажигают большой костёр.»", "en": "Build the sentence: \"On Valborg people light a big bonfire.\"" },
+      "tokens": ["en", "man", "brasa", "tänder", "På valborg", "stor"],
+      "answer": [4, 1, 3, 0, 5, 2]
+    },
+    {
+      "id": "q-hol-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь праздник с переводом", "en": "Match the holiday with its translation" },
+      "pairs": [
+        ["midsommar", "Мидсоммар"],
+        ["jul", "Рождество"],
+        ["påsk", "Пасха"],
+        ["valborg", "Вальборг"]
+      ]
+    },
+    {
+      "id": "q-hol-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предмет праздника с переводом", "en": "Match the holiday item with its translation" },
+      "pairs": [
+        ["julgran", "рождественская ёлка"],
+        ["påskägg", "пасхальное яйцо"],
+        ["midsommarstång", "майский шест"],
+        ["brasa", "костёр"]
+      ]
+    },
+    {
+      "id": "q-hol-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Lucia отмечают 13 декабря.", "en": "Lucia is celebrated on 13 December." },
+      "answer": true
+    },
+    {
+      "id": "q-hol-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Valborg отмечают зимой.", "en": "Valborg is celebrated in winter." },
+      "answer": false,
+      "explanation": {
+        "ru": "Valborg отмечают 30 апреля, в конце весны, а не зимой.",
+        "en": "Valborg is celebrated on 30 April, at the end of spring, not in winter."
+      }
+    },
+    {
+      "id": "q-hol-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Man dansar kring ___ på midsommar. (майский шест)" },
+      "answer": ["midsommarstången"],
+      "acceptAlso": ["en midsommarstång", "midsommarstång"]
+    },
+    {
+      "id": "q-hol-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vi ___ nyår med fyrverkerier. (отмечаем)" },
+      "answer": ["firar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-hol-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твой коллега спрашивает, есть ли похожий праздник в твоей стране. Как начать сравнение?",
+        "en": "Your colleague asks if there's a similar holiday in your country. How would you start comparing?"
+      },
+      "choices": ["I mitt hemland firar vi...", "Jag vet inte vad du menar", "Det är för sent", "Jag har ingen aning"],
+      "answer": 0
+    },
+    {
+      "id": "q-hol-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь сказать, что праздник похож на твой, но есть отличие в дате. Что сказать?",
+        "en": "You want to say the holiday is similar to yours, but the date is different. What do you say?"
+      },
+      "choices": ["Det liknar det, men skillnaden är att vi firar det en annan månad.", "Det är helt likadant.", "Jag firar aldrig något.", "Vad heter det på svenska?"],
+      "answer": 0
+    },
+    {
+      "id": "q-hol-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что традиционно делают дети на Пасху в Швеции?",
+        "en": "What do children traditionally do at Easter in Sweden?"
+      },
+      "choices": ["Klär ut sig till påskkärringar", "Tänder en luciatåg", "Bygger en midsommarstång", "Sjunger vårsånger vid en brasa"],
+      "answer": 0
+    }
+  ]
+}

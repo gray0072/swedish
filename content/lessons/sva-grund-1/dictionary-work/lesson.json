@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/dictionary-work",
+  "slug": "dictionary-work",
+  "title": {
+    "sv": "Att jobba med en ordbok",
+    "ru": "Работа со словарём и определением слова",
+    "en": "Working with a dictionary and a word definition"
+  },
+  "summary": {
+    "ru": "Метаязык словаря (uppslagsord, betydelse, synonym, böjning) и фразы, чтобы спросить о значении и употреблении слова.",
+    "en": "Dictionary metalanguage (uppslagsord, betydelse, synonym, böjning) and phrases for asking what a word means and how it's used."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "dictionary",
+    "metalanguage",
+    "phrases",
+    "study-skills"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 740,
+  "prerequisites": [
+    "sva-grund-1/parts-of-speech"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

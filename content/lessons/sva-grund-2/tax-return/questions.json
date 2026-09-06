@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-tax-return-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Кто платит kommunalskatt?", "en": "Who pays kommunalskatt?" },
+      "choices": [
+        { "ru": "Все, кто зарабатывает", "en": "Everyone who earns income" },
+        { "ru": "Только те с высокими доходами", "en": "Only those with high incomes" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-tax-return-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что такое återbäring?", "en": "What is återbäring?" },
+      "choices": ["возврат налога / tax refund", "доплата налога / back tax", "налоговый вычет / deduction", "налоговая таблица / tax table"],
+      "answer": 0
+    },
+    {
+      "id": "q-tax-return-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Inkomstskatt платят абсолютно все работающие.", "en": "Everyone who works pays inkomstskatt." },
+      "answer": false,
+      "explanation": { "ru": "Государственный подоходный налог платят только при высоких доходах; kommunalskatt платят все.", "en": "State income tax is only paid on high incomes; kommunalskatt is paid by everyone." }
+    },
+    {
+      "id": "q-tax-return-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "ROT-avdrag относится к ремонту жилья, а RUT-avdrag — к бытовым услугам вроде уборки.", "en": "The ROT deduction covers home renovation, and the RUT deduction covers household services like cleaning." },
+      "answer": true
+    },
+    {
+      "id": "q-tax-return-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Deklarationen ska vara inne den sista ___." },
+      "answer": ["maj"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-tax-return-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han fick ___ eftersom han hade för lite skatt dragen." },
+      "answer": ["kvarskatt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-tax-return-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с его значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["avdrag", "налоговый вычет / a deduction"],
+        ["återbäring", "возврат налога / a tax refund"],
+        ["kvarskatt", "доплата налога / back tax"],
+        ["slutskattebesked", "итоговое уведомление / the final tax statement"]
+      ]
+    },
+    {
+      "id": "q-tax-return-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Кто рассчитывает удержание налога по skattetabell?", "en": "Who calculates the withholding using a skattetabell?" },
+      "choices": [
+        { "ru": "Работодатель", "en": "The employer" },
+        { "ru": "Сам работник", "en": "The employee themself" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-tax-return-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Большинство сейчас подают декларацию в цифровом виде.»", "en": "Build the sentence: \"Most people file digitally nowadays.\"" },
+      "tokens": ["De", "flesta", "deklarerar", "digitalt", "numera"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-tax-return-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Slutskattebesked приходит весной, до подачи декларации.", "en": "The slutskattebesked arrives in spring, before you file the return." },
+      "answer": false,
+      "explanation": { "ru": "Итоговое уведомление приходит осенью, уже после обработки декларации.", "en": "The final statement arrives in autumn, after the return has been processed." }
+    }
+  ]
+}

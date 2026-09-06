@@ -1,0 +1,95 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-future-plans-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я планирую искать работу.»", "en": "Build the sentence: \"I'm planning to look for a job.\"" },
+      "tokens": ["söka", "att", "planerar", "jobb", "Jag"],
+      "answer": [4, 2, 1, 0, 3]
+    },
+    {
+      "id": "q-future-plans-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Мы поженимся следующим летом.»", "en": "Build the sentence: \"We're going to get married next summer.\"" },
+      "tokens": ["nästa", "gifta", "att", "sommar", "Vi", "kommer", "oss"],
+      "answer": [4, 5, 2, 1, 6, 0, 3]
+    },
+    {
+      "id": "q-future-plans-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["dröm", "мечта"],
+        ["mål", "цель"],
+        ["karriär", "карьера"],
+        ["familj", "семья"]
+      ]
+    },
+    {
+      "id": "q-future-plans-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Hoppas på» выражает уверенность, а не надежду.",
+        "en": "\"Hoppas på\" expresses certainty rather than hope."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Hoppas på» выражает желаемое, но не гарантированное — надежду, а не уверенность.",
+        "en": "\"Hoppas på\" expresses something desired but not guaranteed — hope, not certainty."
+      }
+    },
+    {
+      "id": "q-future-plans-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Sikta på att bli sjuksköterska» значит «нацелиться стать медсестрой».",
+        "en": "\"Sikta på att bli sjuksköterska\" means \"to aim to become a nurse\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-future-plans-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ att söka jobb inom vården. (планирую)" },
+      "answer": ["planerar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-future-plans-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vilken fras uttrycker ett redan fattat beslut, inte bara en gissning?",
+        "en": "Which phrase expresses a decision already made, not just a guess?"
+      },
+      "choices": ["Jag ska börja plugga i höst.", "Det kommer nog att regna.", "Priserna kommer att stiga.", "Kanske blir det soligt."],
+      "answer": 0
+    },
+    {
+      "id": "q-future-plans-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово относится к семейным планам, а не к учёбе или работе?",
+        "en": "Which word relates to family plans rather than study or work?"
+      },
+      "choices": ["skaffa barn", "söka jobb", "utbilda sig", "karriär"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-agent-phrase-av-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно назвать автора: «Книгу написала Астрид Линдгрен»?", "en": "How do you correctly name the author: \"The book was written by Astrid Lindgren\"?" },
+      "choices": ["Boken skrevs av Astrid Lindgren.", "Boken skrevs Astrid Lindgren.", "Boken skrevs till Astrid Lindgren.", "Boken blev skrivet av Astrid Lindgren."],
+      "answer": 0,
+      "explanation": { "ru": "Деятель вводится предлогом av; «blev skrivet» неверно согласовано (boken — en-слово, нужно skriven).", "en": "The doer is introduced with av; \"blev skrivet\" has the wrong agreement (boken is an en-word, it needs skriven)." }
+    },
+    {
+      "id": "q-agent-phrase-av-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Машину угнали ночью, никто не знает кто. Как естественнее сказать?", "en": "The car got stolen last night and nobody knows who did it. What's the most natural way to say it?" },
+      "choices": ["Bilen blev stulen av någon i natt.", "Bilen blev stulen i natt.", "Bilen blev stulen av tjuven i natt.", "Bilen stjäls i natt."],
+      "answer": 1,
+      "explanation": { "ru": "Деятель неизвестен, поэтому av-фраза опускается.", "en": "The agent is unknown, so the av-phrase is left out." }
+    },
+    {
+      "id": "q-agent-phrase-av-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ужин подают в семь» (неважно, кто именно подаёт). Какой вариант естественнее?", "en": "\"Dinner is served at seven\" (it doesn't matter who exactly serves it). Which option is more natural?" },
+      "choices": ["Middagen serveras av kocken klockan sju.", "Middagen serveras klockan sju.", "Middagen serveras av någon klockan sju.", "Middagen blev serverad av en person klockan sju."],
+      "answer": 1,
+      "explanation": { "ru": "Деятель неважен и очевиден из контекста, av-фраза не нужна.", "en": "The agent is unimportant and obvious from context, so no av-phrase is needed." }
+    },
+    {
+      "id": "q-agent-phrase-av-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Boken skrevs ___ Astrid Lindgren. (агентивный предлог)" },
+      "answer": ["av"]
+    },
+    {
+      "id": "q-agent-phrase-av-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Fönstret krossades ___ en fotboll. (важно, чем разбили)" },
+      "answer": ["av"]
+    },
+    {
+      "id": "q-agent-phrase-av-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Huset byggdes ___ min farfar. (важно, кто именно строил)" },
+      "answer": ["av"]
+    },
+    {
+      "id": "q-agent-phrase-av-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Brevet blev skrivet ___ chefen. (bli-пассив + деятель)" },
+      "answer": ["av"]
+    },
+    {
+      "id": "q-agent-phrase-av-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Агентивная фраза с av называет того, кто выполнил действие.", "en": "The agent phrase with av names who performed the action." },
+      "answer": true
+    },
+    {
+      "id": "q-agent-phrase-av-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В шведском пассиве агентивную фразу с av обычно сохраняют, даже если деятель неизвестен или неважен.", "en": "In the Swedish passive, the agent phrase with av is usually kept even when the agent is unknown or unimportant." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — когда деятель неизвестен, неважен или очевиден, av-фразу обычно опускают.", "en": "The opposite is true — when the agent is unknown, unimportant, or obvious, the av-phrase is usually left out." }
+    },
+    {
+      "id": "q-agent-phrase-av-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Bilen blev stulen i natt» — естественное шведское предложение без указания деятеля, потому что деятель неизвестен.", "en": "\"Bilen blev stulen i natt\" is a natural Swedish sentence without naming the agent, because the agent is unknown." },
+      "answer": true
+    },
+    {
+      "id": "q-agent-phrase-av-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Английский язык склонен чаще сохранять «by X», чем шведский сохраняет «av + деятель».", "en": "English tends to keep \"by X\" more often than Swedish keeps \"av + the agent\"." },
+      "answer": true
+    },
+    {
+      "id": "q-agent-phrase-av-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Книгу написала Астрид Линдгрен.»", "en": "Build the sentence: \"The book was written by Astrid Lindgren.\"" },
+      "tokens": ["skrevs", "Astrid Lindgren", "Boken", "av"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-agent-phrase-av-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение (без деятеля): «Ужин подают в семь.»", "en": "Build the sentence (no agent named): \"Dinner is served at seven.\"" },
+      "tokens": ["klockan", "serveras", "sju", "Middagen"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-agent-phrase-av-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь ситуацию с примером", "en": "Match the situation with its example" },
+      "pairs": [
+        ["Деятель назван, потому что важен", "Boken skrevs av Astrid Lindgren."],
+        ["Деятель неизвестен", "Bilen blev stulen i natt."],
+        ["Деятель неважен/очевиден", "Middagen serveras klockan sju."]
+      ]
+    }
+  ]
+}

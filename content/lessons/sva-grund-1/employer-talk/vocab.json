@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "semester",
+      "sv": "semester",
+      "translations": { "ru": "отпуск (оплачиваемый)", "en": "vacation, paid leave" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en semester", "defSg": "semestern", "indefPl": "semestrar", "defPl": "semestrarna" },
+      "example": { "sv": "Jag ska ta semester i juli.", "ru": "Я собираюсь взять отпуск в июле.", "en": "I'm going to take vacation in July." }
+    },
+    {
+      "id": "ledig-jobb",
+      "sv": "ledig",
+      "translations": { "ru": "свободный (от работы), выходной", "en": "off, free (from work)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: ledigt, мн.ч.: lediga", "en": "ett-form: ledigt, plural: lediga" },
+      "example": { "sv": "Jag är ledig på fredag.", "ru": "В пятницу я не работаю.", "en": "I'm off work on Friday." }
+    },
+    {
+      "id": "ta-ledigt",
+      "sv": "ta ledigt",
+      "translations": { "ru": "взять отгул/отпуск", "en": "to take time off" },
+      "pos": "verb",
+      "forms": { "infinitive": "ta ledigt", "present": "tar ledigt", "past": "tog ledigt", "supine": "tagit ledigt", "imperative": "ta ledigt" },
+      "example": { "sv": "Jag skulle vilja ta ledigt på torsdag.", "ru": "Я хотел(а) бы взять отгул в четверг.", "en": "I would like to take Thursday off." }
+    },
+    {
+      "id": "sjukskriven",
+      "sv": "sjukskriven",
+      "translations": { "ru": "на больничном (оформленный)", "en": "signed off sick, on sick leave" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: sjukskrivet, мн.ч.: sjukskrivna", "en": "ett-form: sjukskrivet, plural: sjukskrivna" },
+      "example": { "sv": "Jag är sjukskriven till fredag.", "ru": "Я на больничном до пятницы.", "en": "I'm signed off sick until Friday." }
+    },
+    {
+      "id": "sjukanmalan",
+      "sv": "sjukanmälan",
+      "translations": { "ru": "уведомление о болезни (звонок на работу)", "en": "sick notification (calling in sick)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjukanmälan", "defSg": "sjukanmälan", "indefPl": "sjukanmälningar", "defPl": "sjukanmälningarna" },
+      "example": { "sv": "Gör din sjukanmälan innan klockan åtta.", "ru": "Сообщи о болезни до восьми часов.", "en": "Report your sick leave before eight o'clock." }
+    },
+    {
+      "id": "sjukanmala-sig",
+      "sv": "sjukanmäla sig",
+      "translations": { "ru": "сообщать на работу о болезни", "en": "to report in sick" },
+      "pos": "verb",
+      "forms": { "infinitive": "sjukanmäla sig", "present": "sjukanmäler sig", "past": "sjukanmälde sig", "supine": "sjukanmält sig" },
+      "example": { "sv": "Jag måste sjukanmäla mig till jobbet.", "ru": "Мне нужно сообщить на работу о болезни.", "en": "I need to report in sick to work." }
+    },
+    {
+      "id": "vab",
+      "sv": "VAB",
+      "translations": { "ru": "уход за больным ребёнком (пособие)", "en": "temporary parental benefit (caring for a sick child)" },
+      "pos": "noun",
+      "example": { "sv": "Jag tar VAB imorgon eftersom sonen är sjuk.", "ru": "Завтра я беру VAB, потому что сын заболел.", "en": "I'm taking VAB tomorrow because my son is sick." }
+    },
+    {
+      "id": "vabba",
+      "sv": "vabba",
+      "translations": { "ru": "сидеть дома с больным ребёнком (по VAB)", "en": "to stay home caring for a sick child" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vabba", "present": "vabbar", "past": "vabbade", "supine": "vabbat", "imperative": "vabba" },
+      "example": { "sv": "Jag vabbar idag, sonen har feber.", "ru": "Сегодня я сижу с больным ребёнком, у сына температура.", "en": "I'm staying home with my sick kid today, my son has a fever." }
+    },
+    {
+      "id": "schema",
+      "sv": "schema",
+      "translations": { "ru": "график, расписание", "en": "schedule" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett schema", "defSg": "schemat", "indefPl": "scheman", "defPl": "schemana" },
+      "example": { "sv": "Kan vi ändra schemat för nästa vecka?", "ru": "Можем изменить график на следующую неделю?", "en": "Can we change the schedule for next week?" }
+    },
+    {
+      "id": "byta-pass",
+      "sv": "byta pass",
+      "translations": { "ru": "меняться сменами", "en": "to swap shifts" },
+      "pos": "verb",
+      "forms": { "infinitive": "byta pass", "present": "byter pass", "past": "bytte pass", "supine": "bytt pass", "imperative": "byt pass" },
+      "example": { "sv": "Kan jag byta pass med dig på lördag?", "ru": "Могу я поменяться сменами с тобой в субботу?", "en": "Can I swap shifts with you on Saturday?" }
+    },
+    {
+      "id": "pass-jobb",
+      "sv": "pass",
+      "translations": { "ru": "смена", "en": "shift" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett pass", "defSg": "passet", "indefPl": "pass", "defPl": "passen" },
+      "example": { "sv": "Jag jobbar kvällspass idag.", "ru": "Сегодня у меня вечерняя смена.", "en": "I'm working an evening shift today." }
+    },
+    {
+      "id": "arbetstid",
+      "sv": "arbetstid",
+      "translations": { "ru": "рабочее время", "en": "working hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetstid", "defSg": "arbetstiden", "indefPl": "arbetstider", "defPl": "arbetstiderna" },
+      "example": { "sv": "Min arbetstid är åtta timmar om dagen.", "ru": "Моё рабочее время — восемь часов в день.", "en": "My working hours are eight hours a day." }
+    },
+    {
+      "id": "overtid",
+      "sv": "övertid",
+      "translations": { "ru": "сверхурочные (переработка)", "en": "overtime" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag jobbade övertid igår.", "ru": "Вчера я работал(а) сверхурочно.", "en": "I worked overtime yesterday." }
+    },
+    {
+      "id": "kollega",
+      "sv": "kollega",
+      "translations": { "ru": "коллега", "en": "colleague" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kollega", "defSg": "kollegan", "indefPl": "kollegor", "defPl": "kollegorna" },
+      "example": { "sv": "Min kollega tar också semester i juli.", "ru": "Мой коллега тоже берёт отпуск в июле.", "en": "My colleague is also taking vacation in July." }
+    },
+    {
+      "id": "phrase-ta-ledigt",
+      "sv": "Jag skulle vilja ta ledigt.",
+      "translations": { "ru": "Я хотел(а) бы взять отгул.", "en": "I would like to take some time off." },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja ta ledigt nästa fredag.", "ru": "Я хотел(а) бы взять выходной в следующую пятницу.", "en": "I would like to take next Friday off." }
+    },
+    {
+      "id": "phrase-sjukskriven",
+      "sv": "Jag är sjukskriven.",
+      "translations": { "ru": "Я на больничном.", "en": "I'm on sick leave." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är sjukskriven till och med onsdag.", "ru": "Я на больничном по среду включительно.", "en": "I'm on sick leave through Wednesday." }
+    },
+    {
+      "id": "phrase-byta-pass",
+      "sv": "Kan jag byta pass med dig?",
+      "translations": { "ru": "Могу я поменяться сменами с тобой?", "en": "Can I swap shifts with you?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag byta pass med dig på lördag?", "ru": "Могу я поменяться сменами с тобой в субботу?", "en": "Can I swap shifts with you on Saturday?" }
+    },
+    {
+      "id": "phrase-ta-ut-semester",
+      "sv": "Får jag ta ut semester i juli?",
+      "translations": { "ru": "Могу я взять отпуск в июле?", "en": "Can I take my vacation in July?" },
+      "pos": "phrase",
+      "example": { "sv": "Får jag ta ut semester i juli i år?", "ru": "Могу я взять отпуск в июле в этом году?", "en": "Can I take my vacation in July this year?" }
+    }
+  ]
+}

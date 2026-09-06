@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/education-system-overview",
+  "slug": "education-system-overview",
+  "title": {
+    "sv": "Det svenska utbildningssystemet – en översikt",
+    "ru": "Шведская система образования — обзор",
+    "en": "The Swedish education system — an overview"
+  },
+  "summary": {
+    "ru": "Слова для описания шведской системы образования: от детского сада до вуза, право на поступление и система оценок A-F.",
+    "en": "Vocabulary for describing the Swedish education system: from preschool to higher education, admission requirements and the A-F grading scale."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "education",
+    "system",
+    "school"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1160,
+  "prerequisites": [
+    "sva-grund-1/studying-komvux"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

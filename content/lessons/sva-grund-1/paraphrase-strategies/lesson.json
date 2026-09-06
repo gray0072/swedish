@@ -1,0 +1,35 @@
+{
+  "id": "sva-grund-1/paraphrase-strategies",
+  "slug": "paraphrase-strategies",
+  "title": {
+    "sv": "Strategier: fråga och parafrasera",
+    "ru": "Стратегии: как спросить о непонятном слове, как перефразировать",
+    "en": "Strategies: how to ask about a word you do not know, how to paraphrase"
+  },
+  "summary": {
+    "ru": "Спасательные фразы, когда не хватает слова: спросить перевод, объяснить другими словами, перефразировать мысль.",
+    "en": "Survival phrases for when a word won't come: asking for a translation, explaining around it, paraphrasing your thought."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "communication-strategies",
+    "paraphrasing",
+    "phrases",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 750,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "volontararbete",
+      "sv": "volontärarbete",
+      "translations": { "ru": "волонтёрская работа", "en": "volunteer work" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett volontärarbete", "defSg": "volontärarbetet", "indefPl": "volontärarbeten", "defPl": "volontärarbetena" }
+    },
+    {
+      "id": "ideell-forening",
+      "sv": "ideell förening",
+      "translations": { "ru": "некоммерческое объединение", "en": "non-profit association" },
+      "pos": "phrase",
+      "example": { "sv": "Hon engagerar sig i en ideell förening för hemlösa.", "ru": "Она занимается волонтёрством в некоммерческой организации для бездомных.", "en": "She volunteers at a non-profit for the homeless." }
+    },
+    {
+      "id": "engagera-sig",
+      "sv": "engagera sig",
+      "translations": { "ru": "вовлекаться, активно заниматься (чем-то)", "en": "to get involved, to be engaged in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "engagera", "present": "engagerar", "past": "engagerade", "supine": "engagerat" },
+      "example": { "sv": "Han engagerar sig i klimatfrågor.", "ru": "Он активно занимается вопросами климата.", "en": "He's actively engaged in climate issues." }
+    },
+    {
+      "id": "bidra-till",
+      "sv": "bidra till",
+      "translations": { "ru": "вносить вклад в", "en": "to contribute to" },
+      "pos": "phrase",
+      "example": { "sv": "Många vill bidra till samhället på sin fritid.", "ru": "Многие хотят вносить вклад в общество в свободное время.", "en": "Many want to contribute to society in their free time." }
+    },
+    {
+      "id": "medborgare",
+      "sv": "medborgare",
+      "translations": { "ru": "гражданин", "en": "citizen" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medborgare", "defSg": "medborgaren", "indefPl": "medborgare", "defPl": "medborgarna" }
+    },
+    {
+      "id": "delta-i",
+      "sv": "delta i",
+      "translations": { "ru": "участвовать в", "en": "to take part in" },
+      "pos": "phrase",
+      "example": { "sv": "Alla medborgare har rätt att delta i beslut som rör kommunen.", "ru": "Все граждане имеют право участвовать в решениях, касающихся коммуны.", "en": "All citizens have the right to take part in decisions affecting the municipality." }
+    },
+    {
+      "id": "samhalle",
+      "sv": "samhälle",
+      "translations": { "ru": "общество", "en": "society" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" }
+    },
+    {
+      "id": "lokal-forening",
+      "sv": "lokal förening",
+      "translations": { "ru": "местное объединение", "en": "local association" },
+      "pos": "phrase"
+    }
+  ]
+}

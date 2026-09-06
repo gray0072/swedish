@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "id": "referat",
+      "sv": "referat",
+      "translations": { "ru": "реферат, краткое изложение (письменное)", "en": "written summary, referat" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett referat", "defSg": "referatet", "indefPl": "referat", "defPl": "referaten" },
+      "example": { "sv": "Skriv ett referat av artikeln.", "ru": "Напиши краткое изложение статьи.", "en": "Write a summary of the article." }
+    },
+    {
+      "id": "sammanfatta",
+      "sv": "sammanfatta",
+      "translations": { "ru": "суммировать, кратко излагать", "en": "to summarise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Kan du sammanfatta artikeln i tre meningar?", "ru": "Можешь изложить статью в трёх предложениях?", "en": "Can you summarise the article in three sentences?" }
+    },
+    {
+      "id": "sammanfattning",
+      "sv": "sammanfattning",
+      "translations": { "ru": "краткое изложение, резюме", "en": "summary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sammanfattning", "defSg": "sammanfattningen", "indefPl": "sammanfattningar", "defPl": "sammanfattningarna" },
+      "example": { "sv": "Sammanfattningen ska vara kort och neutral.", "ru": "Резюме должно быть коротким и нейтральным.", "en": "The summary should be short and neutral." }
+    },
+    {
+      "id": "artikel-referat",
+      "sv": "artikel",
+      "translations": { "ru": "статья", "en": "article" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" },
+      "example": { "sv": "Artikeln handlar om klimatförändringar.", "ru": "Статья о климатических изменениях.", "en": "The article is about climate change." }
+    },
+    {
+      "id": "forfattare",
+      "sv": "författare",
+      "translations": { "ru": "автор", "en": "author" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" },
+      "example": { "sv": "Författaren menar att förändring är nödvändig.", "ru": "Автор считает, что перемены необходимы.", "en": "The author holds that change is necessary." }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "считать, иметь в виду", "en": "to mean, to hold the view" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Hon menar att skolan borde ändra reglerna.", "ru": "Она считает, что школе следует изменить правила.", "en": "She holds that the school should change the rules." }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать", "en": "to claim, to assert" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" },
+      "example": { "sv": "Han hävdar att problemet är löst.", "ru": "Он утверждает, что проблема решена.", "en": "He claims the problem is solved." }
+    },
+    {
+      "id": "pasta",
+      "sv": "påstå",
+      "translations": { "ru": "утверждать, заявлять", "en": "to claim, to allege" },
+      "pos": "verb",
+      "forms": { "infinitive": "påstå", "present": "påstår", "past": "påstod", "supine": "påstått" },
+      "example": { "sv": "Vissa påstår att texten är föråldrad.", "ru": "Некоторые утверждают, что текст устарел.", "en": "Some allege that the text is outdated." }
+    },
+    {
+      "id": "framhalla",
+      "sv": "framhålla",
+      "translations": { "ru": "подчёркивать, выделять", "en": "to emphasise, to point out" },
+      "pos": "verb",
+      "forms": { "infinitive": "framhålla", "present": "framhåller", "past": "framhöll", "supine": "framhållit" },
+      "example": { "sv": "Författaren framhåller att fler borde delta.", "ru": "Автор подчёркивает, что участвовать должно больше людей.", "en": "The author points out that more people should take part." }
+    },
+    {
+      "id": "betona-referat",
+      "sv": "betona",
+      "translations": { "ru": "подчёркивать, акцентировать", "en": "to stress, to emphasise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" },
+      "example": { "sv": "Texten betonar vikten av utbildning.", "ru": "Текст подчёркивает важность образования.", "en": "The text stresses the importance of education." }
+    },
+    {
+      "id": "enligt",
+      "sv": "enligt",
+      "translations": { "ru": "согласно, по (кому-то/чему-то)", "en": "according to" },
+      "pos": "prep",
+      "example": { "sv": "Enligt texten är arbetslösheten hög.", "ru": "Согласно тексту, безработица высока.", "en": "According to the text, unemployment is high." }
+    },
+    {
+      "id": "handla-om-referat",
+      "sv": "handla om",
+      "translations": { "ru": "быть о (чём-то)", "en": "to be about" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla om", "present": "handlar om", "past": "handlade om", "supine": "handlat om" },
+      "example": { "sv": "Artikeln handlar om vattenbrist.", "ru": "Статья о нехватке воды.", "en": "The article is about water shortage." }
+    },
+    {
+      "id": "ta-upp",
+      "sv": "ta upp",
+      "translations": { "ru": "поднимать (тему, вопрос)", "en": "to raise, to bring up (a topic)" },
+      "pos": "verb",
+      "forms": { "infinitive": "ta upp", "present": "tar upp", "past": "tog upp", "supine": "tagit upp" },
+      "example": { "sv": "Texten tar upp frågan om vattenbrist.", "ru": "Текст поднимает вопрос о нехватке воды.", "en": "The text raises the question of water shortage." }
+    },
+    {
+      "id": "framga",
+      "sv": "framgå",
+      "translations": { "ru": "явствовать, следовать (из текста)", "en": "to emerge, to become clear" },
+      "pos": "verb",
+      "forms": { "infinitive": "framgå", "present": "framgår", "past": "framgick", "supine": "framgått" },
+      "example": { "sv": "Det framgår av artikeln att situationen har förbättrats.", "ru": "Из статьи следует, что ситуация улучшилась.", "en": "It emerges from the article that the situation has improved." }
+    },
+    {
+      "id": "objektiv",
+      "sv": "objektiv",
+      "translations": { "ru": "объективный", "en": "objective" },
+      "pos": "adj",
+      "example": { "sv": "Ett referat ska vara objektivt.", "ru": "Реферат должен быть объективным.", "en": "A referat should be objective." }
+    },
+    {
+      "id": "asikt",
+      "sv": "åsikt",
+      "translations": { "ru": "мнение", "en": "opinion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" },
+      "example": { "sv": "En egen åsikt hör inte hemma i ett referat.", "ru": "Личному мнению не место в реферате.", "en": "A personal opinion has no place in a referat." }
+    },
+    {
+      "id": "sammanfattningsvis",
+      "sv": "sammanfattningsvis",
+      "translations": { "ru": "в заключение, подводя итог", "en": "in summary, to sum up" },
+      "pos": "adv",
+      "example": { "sv": "Sammanfattningsvis handlar texten om ett samhällsproblem.", "ru": "Подводя итог, текст посвящён общественной проблеме.", "en": "In summary, the text is about a social problem." }
+    },
+    {
+      "id": "kalla-referat",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Ange alltid din källa i ett referat.", "ru": "В реферате всегда указывай источник.", "en": "Always state your source in a referat." }
+    }
+  ]
+}

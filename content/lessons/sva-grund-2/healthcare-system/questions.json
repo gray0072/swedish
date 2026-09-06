@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-healthcare-system-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Куда обращаются в первую очередь при большинстве проблем со здоровьем?", "en": "Where do you turn first for most health issues?" },
+      "choices": ["vårdcentral", "akutmottagning", "specialistvård", "1177 Vårdguiden"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthcare-system-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что нужно, чтобы попасть к специалисту?", "en": "What do you need to see a specialist?" },
+      "choices": ["en remiss", "ett frikort", "en journal", "en väntetid"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthcare-system-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "1177 Vårdguiden работает только в рабочие часы поликлиник.", "en": "1177 Vårdguiden only operates during health centers' office hours." },
+      "answer": false,
+      "explanation": { "ru": "1177 доступна круглосуточно.", "en": "1177 is available around the clock." }
+    },
+    {
+      "id": "q-healthcare-system-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Frikort даёт право на бесплатные визиты после того, как оплачен определённый годовой лимит.", "en": "A frikort gives free visits after a certain annual limit has been paid." },
+      "answer": true
+    },
+    {
+      "id": "q-healthcare-system-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vid livshotande symtom ska man åka till ___." },
+      "answer": ["akutmottagningen"],
+      "acceptAlso": ["akuten"]
+    },
+    {
+      "id": "q-healthcare-system-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Du behöver en ___ för att träffa en specialist." },
+      "answer": ["remiss"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-healthcare-system-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с его значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["remiss", "направление к специалисту / a referral"],
+        ["frikort", "карта бесплатного обслуживания / a free care card"],
+        ["väntetid", "время ожидания / waiting time"],
+        ["patientavgift", "пациентский сбор / patient fee"]
+      ]
+    },
+    {
+      "id": "q-healthcare-system-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что гарантирует vårdgaranti?", "en": "What does the vårdgaranti guarantee?" },
+      "choices": [
+        { "ru": "Максимальные сроки ожидания приёма", "en": "Maximum waiting times for an appointment" },
+        { "ru": "Бесплатное лечение для всех", "en": "Free treatment for everyone" },
+        { "ru": "Отсутствие пациентского сбора", "en": "No patient fee at all" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-healthcare-system-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Твоя поликлиника — это первый шаг при большинстве проблем.»", "en": "Build the sentence: \"Your health center is the first step for most issues.\"" },
+      "tokens": ["Din", "vårdcentral", "är", "första", "steget", "för", "de", "flesta", "besvär"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-healthcare-system-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Помощь детям до 18 лет в Швеции обычно бесплатна.", "en": "Healthcare for children under 18 in Sweden is usually free of charge." },
+      "answer": true
+    }
+  ]
+}

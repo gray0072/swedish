@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-verb-preposition-government-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag tänker ___ dig." },
+      "answer": ["på"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-verb-preposition-government-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Vi pratade ___ filmen." },
+      "answer": ["om"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-verb-preposition-government-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Allt beror ___ vädret." },
+      "answer": ["på"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-verb-preposition-government-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Jag har vant mig ___ det svenska vädret." },
+      "answer": ["vid"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-verb-preposition-government-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Предлог после глагола в шведском всегда можно предсказать по логике пространства.", "en": "The preposition after a verb in Swedish can always be predicted from spatial logic." },
+      "answer": false,
+      "explanation": { "ru": "Это фиксированные пары «глагол + предлог», их нужно запоминать вместе.", "en": "These are fixed \"verb + preposition\" pairs that must be learned together." }
+    },
+    {
+      "id": "q-verb-preposition-government-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Как сказать «интересоваться музыкой»?", "en": "How do you say \"to be interested in music\"?" },
+      "choices": ["intressera sig för musik", "intressera sig på musik", "intressera sig om musik"],
+      "answer": 0
+    },
+    {
+      "id": "q-verb-preposition-government-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "«Skilja sig från» может означать...", "en": "\"Skilja sig från\" can mean..." },
+      "choices": [
+        { "ru": "отличаться от кого-то/чего-то, или разводиться с супругом", "en": "to differ from someone/something, or to divorce a spouse" },
+        { "ru": "только «привыкать к»", "en": "only \"to get used to\"" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-verb-preposition-government-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь глагол с предлогом", "en": "Match the verb with its preposition" },
+      "pairs": [
+        ["tänka", "på"],
+        ["prata", "om"],
+        ["vänja sig", "vid"],
+        ["oroa sig", "för"]
+      ]
+    },
+    {
+      "id": "q-verb-preposition-government-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Всё зависит от погоды.»", "en": "Build the sentence: \"Everything depends on the weather.\"" },
+      "tokens": ["Allt", "beror", "på", "vädret"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-verb-preposition-government-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Лучшая стратегия — заучивать глагол и предлог как единое целое, а не переводить предлог отдельно.", "en": "The best strategy is to learn the verb and preposition as one unit, not to translate the preposition separately." },
+      "answer": true
+    }
+  ]
+}

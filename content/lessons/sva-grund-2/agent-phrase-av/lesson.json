@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/agent-phrase-av",
+  "slug": "agent-phrase-av",
+  "title": {
+    "sv": "Agentfras med av",
+    "ru": "Агентивная фраза с av и когда её опускают",
+    "en": "The agent phrase with av and when it is left out"
+  },
+  "summary": {
+    "ru": "Кто это сделал? По-шведски называть деятеля нужно далеко не всегда.",
+    "en": "Who did it? In Swedish, you often don't need to say."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "passive-voice",
+    "syntax"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 870,
+  "prerequisites": [
+    "sva-grund-2/passive-voice"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

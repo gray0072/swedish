@@ -1,0 +1,167 @@
+{
+  "items": [
+    {
+      "id": "brev-letter",
+      "sv": "brev",
+      "translations": { "ru": "письмо", "en": "letter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett brev", "defSg": "brevet", "indefPl": "brev", "defPl": "breven" },
+      "example": { "sv": "Jag skrev ett långt brev till min kompis.", "ru": "Я написал(а) другу длинное письмо.", "en": "I wrote a long letter to my friend." }
+    },
+    {
+      "id": "meddelande",
+      "sv": "meddelande",
+      "translations": { "ru": "сообщение", "en": "message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" },
+      "example": { "sv": "Jag fick ett meddelande från Anna.", "ru": "Я получил(а) сообщение от Анны.", "en": "I got a message from Anna." }
+    },
+    {
+      "id": "halsning",
+      "sv": "hälsning",
+      "translations": { "ru": "приветствие, привет (в письме)", "en": "greeting, regards" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hälsning", "defSg": "hälsningen", "indefPl": "hälsningar", "defPl": "hälsningarna" },
+      "example": { "sv": "Med vänlig hälsning, Erik", "ru": "С наилучшими пожеланиями, Эрик", "en": "Kind regards, Erik" }
+    },
+    {
+      "id": "kar",
+      "sv": "kära",
+      "translations": { "ru": "дорогой, дорогая (в обращении)", "en": "dear (in a salutation)" },
+      "pos": "adj",
+      "example": { "sv": "Kära Anna, tack för ditt brev!", "ru": "Дорогая Анна, спасибо за твоё письмо!", "en": "Dear Anna, thanks for your letter!" }
+    },
+    {
+      "id": "skriva-letter",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Jag skriver för att berätta en nyhet.", "ru": "Пишу, чтобы рассказать новость.", "en": "I'm writing to tell you some news." }
+    },
+    {
+      "id": "hora-av-sig",
+      "sv": "höra av sig",
+      "translations": { "ru": "дать о себе знать, связаться", "en": "to get in touch, to let someone hear from you" },
+      "pos": "verb",
+      "forms": { "infinitive": "höra av sig", "present": "hör av sig", "past": "hörde av sig", "supine": "hört av sig" },
+      "example": { "sv": "Hör av dig snart!", "ru": "Дай знать о себе поскорее!", "en": "Let me hear from you soon!" }
+    },
+    {
+      "id": "hoppas",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "example": { "sv": "Hoppas allt är bra med dig!", "ru": "Надеюсь, у тебя всё хорошо!", "en": "Hope everything's fine with you!" }
+    },
+    {
+      "id": "sakna",
+      "sv": "sakna",
+      "translations": { "ru": "скучать (по кому-то)", "en": "to miss (someone)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sakna", "present": "saknar", "past": "saknade", "supine": "saknat" },
+      "example": { "sv": "Jag saknar dig!", "ru": "Я скучаю по тебе!", "en": "I miss you!" }
+    },
+    {
+      "id": "traffas",
+      "sv": "träffas",
+      "translations": { "ru": "встречаться (друг с другом)", "en": "to meet (each other)" },
+      "pos": "verb",
+      "forms": { "infinitive": "träffas", "present": "träffas", "past": "träffades", "supine": "träffats" },
+      "example": { "sv": "Vi ses snart och träffas igen!", "ru": "Скоро увидимся и снова встретимся!", "en": "See you soon, let's meet up again!" }
+    },
+    {
+      "id": "krama",
+      "sv": "krama",
+      "translations": { "ru": "обнимать", "en": "to hug" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "krama", "present": "kramar", "past": "kramade", "supine": "kramat" },
+      "example": { "sv": "Jag vill krama dig!", "ru": "Хочу тебя обнять!", "en": "I want to hug you!" }
+    },
+    {
+      "id": "kram",
+      "sv": "kram",
+      "translations": { "ru": "объятие, «обнимаю» (в подписи)", "en": "hug (as a letter sign-off)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kram", "defSg": "kramen", "indefPl": "kramar", "defPl": "kramarna" },
+      "example": { "sv": "Kram, Sofia", "ru": "Обнимаю, София", "en": "Hugs, Sofia" }
+    },
+    {
+      "id": "puss",
+      "sv": "puss",
+      "translations": { "ru": "поцелуй, «целую» (в подписи)", "en": "kiss (as a letter sign-off)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en puss", "defSg": "pussen", "indefPl": "pussar", "defPl": "pussarna" },
+      "example": { "sv": "Puss och kram!", "ru": "Целую и обнимаю!", "en": "Kisses and hugs!" }
+    },
+    {
+      "id": "avsluta",
+      "sv": "avsluta",
+      "translations": { "ru": "заканчивать, завершать", "en": "to end, to close" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "avsluta", "present": "avslutar", "past": "avslutade", "supine": "avslutat" },
+      "example": { "sv": "Hur ska jag avsluta brevet?", "ru": "Как мне закончить письмо?", "en": "How should I close the letter?" }
+    },
+    {
+      "id": "inledning",
+      "sv": "inledning",
+      "translations": { "ru": "вступление, начало (письма)", "en": "opening, introduction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inledning", "defSg": "inledningen", "indefPl": "inledningar", "defPl": "inledningarna" },
+      "example": { "sv": "Inledningen är bara en hälsning.", "ru": "Вступление — это просто приветствие.", "en": "The opening is just a greeting." }
+    },
+    {
+      "id": "avslutning",
+      "sv": "avslutning",
+      "translations": { "ru": "заключение, прощание (в письме)", "en": "closing, sign-off" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avslutning", "defSg": "avslutningen", "indefPl": "avslutningar", "defPl": "avslutningarna" },
+      "example": { "sv": "\"Kram\" är en informell avslutning.", "ru": "«Kram» — неформальное прощание.", "en": "\"Kram\" is an informal sign-off." }
+    },
+    {
+      "id": "van-letter",
+      "sv": "vän",
+      "translations": { "ru": "друг, подруга", "en": "friend" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vän", "defSg": "vännen", "indefPl": "vänner", "defPl": "vännerna" },
+      "example": { "sv": "Jag skriver till min bästa vän.", "ru": "Я пишу своему лучшему другу.", "en": "I'm writing to my best friend." }
+    },
+    {
+      "id": "sms",
+      "sv": "sms",
+      "translations": { "ru": "смс-сообщение", "en": "text message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sms", "defSg": "sms:et", "indefPl": "sms", "defPl": "sms:en" },
+      "example": { "sv": "Jag skickade ett sms igår.", "ru": "Я вчера отправил(а) смс.", "en": "I sent a text message yesterday." }
+    },
+    {
+      "id": "skicka-letter",
+      "sv": "skicka",
+      "translations": { "ru": "отправлять", "en": "to send" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skicka", "present": "skickar", "past": "skickade", "supine": "skickat" },
+      "example": { "sv": "Skicka ett meddelande när du kommer fram.", "ru": "Отправь сообщение, когда доберёшься.", "en": "Send a message when you get there." }
+    },
+    {
+      "id": "snart",
+      "sv": "snart",
+      "translations": { "ru": "скоро", "en": "soon" },
+      "pos": "adv",
+      "example": { "sv": "Vi ses snart!", "ru": "Скоро увидимся!", "en": "See you soon!" }
+    }
+  ]
+}

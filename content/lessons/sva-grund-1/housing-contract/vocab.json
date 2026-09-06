@@ -1,0 +1,151 @@
+{
+  "items": [
+    {
+      "id": "hyreskontrakt",
+      "sv": "hyreskontrakt",
+      "translations": { "ru": "договор аренды", "en": "rental (lease) contract" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hyreskontrakt", "defSg": "hyreskontraktet", "indefPl": "hyreskontrakt", "defPl": "hyreskontrakten" },
+      "example": { "sv": "Vi skrev under hyreskontraktet i förra veckan.", "ru": "Мы подписали договор аренды на прошлой неделе.", "en": "We signed the lease last week." }
+    },
+    {
+      "id": "forstahandskontrakt",
+      "sv": "förstahandskontrakt",
+      "translations": { "ru": "договор первой руки", "en": "first-hand rental contract" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett förstahandskontrakt", "defSg": "förstahandskontraktet", "indefPl": "förstahandskontrakt", "defPl": "förstahandskontrakten" },
+      "example": { "sv": "Med ett förstahandskontrakt hyr du direkt av fastighetsägaren.", "ru": "С договором первой руки ты снимаешь напрямую у владельца недвижимости.", "en": "With a first-hand contract you rent directly from the property owner." }
+    },
+    {
+      "id": "andrahandskontrakt",
+      "sv": "andrahandskontrakt",
+      "translations": { "ru": "договор второй руки (субаренда)", "en": "second-hand (sublet) contract" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett andrahandskontrakt", "defSg": "andrahandskontraktet", "indefPl": "andrahandskontrakt", "defPl": "andrahandskontrakten" },
+      "example": { "sv": "Hon hyr lägenheten på ett andrahandskontrakt.", "ru": "Она снимает квартиру по договору субаренды.", "en": "She rents the apartment on a sublet contract." }
+    },
+    {
+      "id": "andrahandsuthyrning",
+      "sv": "andrahandsuthyrning",
+      "translations": { "ru": "субаренда, пересдача жилья", "en": "subletting" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Andrahandsuthyrning kräver ofta tillstånd från hyresvärden.", "ru": "Субаренда часто требует разрешения от арендодателя.", "en": "Subletting often requires the landlord's permission." }
+    },
+    {
+      "id": "forstahandshyresgast",
+      "sv": "förstahandshyresgäst",
+      "translations": { "ru": "основной арендатор (первой руки)", "en": "first-hand (primary) tenant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förstahandshyresgäst", "defSg": "förstahandshyresgästen", "indefPl": "förstahandshyresgäster", "defPl": "förstahandshyresgästerna" },
+      "example": { "sv": "Förstahandshyresgästen måste godkänna en andrahandsuthyrning.", "ru": "Основной арендатор должен одобрить субаренду.", "en": "The primary tenant must approve a sublet." }
+    },
+    {
+      "id": "andrahandshyresgast",
+      "sv": "andrahandshyresgäst",
+      "translations": { "ru": "субарендатор", "en": "subtenant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en andrahandshyresgäst", "defSg": "andrahandshyresgästen", "indefPl": "andrahandshyresgäster", "defPl": "andrahandshyresgästerna" },
+      "example": { "sv": "Som andrahandshyresgäst har du också rättigheter.", "ru": "Как субарендатор ты тоже имеешь права.", "en": "As a subtenant, you have rights too." }
+    },
+    {
+      "id": "bostadsko",
+      "sv": "bostadskö",
+      "translations": { "ru": "очередь на квартиру", "en": "housing queue" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bostadskö", "defSg": "bostadskön", "indefPl": "bostadsköer", "defPl": "bostadsköerna" },
+      "example": { "sv": "Han har stått i bostadskön i fem år.", "ru": "Он стоит в очереди на квартиру уже пять лет.", "en": "He's been in the housing queue for five years." }
+    },
+    {
+      "id": "sta-i-ko",
+      "sv": "stå i kö",
+      "translations": { "ru": "стоять в очереди", "en": "to be in a queue, to be on a waiting list" },
+      "pos": "verb",
+      "forms": { "infinitive": "stå i kö", "present": "står i kö", "past": "stod i kö", "supine": "stått i kö" },
+      "example": { "sv": "Du måste stå i kö i flera år för en hyresrätt i centrum.", "ru": "Тебе нужно стоять в очереди несколько лет ради квартиры в центре.", "en": "You have to be on the waiting list for several years for a rental apartment downtown." }
+    },
+    {
+      "id": "uppsagningstid",
+      "sv": "uppsägningstid",
+      "translations": { "ru": "срок предупреждения о расторжении договора", "en": "notice period" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppsägningstid", "defSg": "uppsägningstiden", "indefPl": "uppsägningstider", "defPl": "uppsägningstiderna" },
+      "example": { "sv": "Uppsägningstiden är oftast tre månader.", "ru": "Срок предупреждения обычно составляет три месяца.", "en": "The notice period is usually three months." }
+    },
+    {
+      "id": "saga-upp",
+      "sv": "säga upp",
+      "translations": { "ru": "расторгать (договор)", "en": "to terminate (a contract), to give notice" },
+      "pos": "verb",
+      "forms": { "infinitive": "säga upp", "present": "säger upp", "past": "sade upp", "supine": "sagt upp" },
+      "example": { "sv": "Vi sade upp kontraktet i god tid.", "ru": "Мы расторгли договор заблаговременно.", "en": "We gave notice on the contract in good time." }
+    },
+    {
+      "id": "besiktning",
+      "sv": "besiktning",
+      "translations": { "ru": "осмотр (квартиры)", "en": "inspection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en besiktning", "defSg": "besiktningen", "indefPl": "besiktningar", "defPl": "besiktningarna" },
+      "example": { "sv": "Besiktningen sker när du flyttar ut.", "ru": "Осмотр проводится, когда ты съезжаешь.", "en": "The inspection happens when you move out." }
+    },
+    {
+      "id": "besikta",
+      "sv": "besikta",
+      "translations": { "ru": "осматривать (жильё)", "en": "to inspect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "besikta", "present": "besiktar", "past": "besiktade", "supine": "besiktat" },
+      "example": { "sv": "Hyresvärden besiktar lägenheten innan du flyttar in.", "ru": "Арендодатель осматривает квартиру перед твоим заездом.", "en": "The landlord inspects the apartment before you move in." }
+    },
+    {
+      "id": "hyresratt",
+      "sv": "hyresrätt",
+      "translations": { "ru": "квартира по найму (арендное жильё)", "en": "rental-tenure apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyresrätt", "defSg": "hyresrätten", "indefPl": "hyresrätter", "defPl": "hyresrätterna" },
+      "example": { "sv": "De flesta unga vuxna börjar med en hyresrätt.", "ru": "Большинство молодых людей начинают с арендного жилья.", "en": "Most young adults start out with a rental-tenure apartment." }
+    },
+    {
+      "id": "bostadsratt",
+      "sv": "bostadsrätt",
+      "translations": { "ru": "кооперативная квартира (в собственности через кооператив)", "en": "co-operative (tenant-owned) apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bostadsrätt", "defSg": "bostadsrätten", "indefPl": "bostadsrätter", "defPl": "bostadsrätterna" },
+      "example": { "sv": "De köpte en bostadsrätt förra året.", "ru": "В прошлом году они купили кооперативную квартиру.", "en": "They bought a co-operative apartment last year." }
+    },
+    {
+      "id": "hyresnamnden",
+      "sv": "Hyresnämnden",
+      "translations": { "ru": "Арендная комиссия (орган по жилищным спорам)", "en": "the Rental Tribunal" },
+      "pos": "noun",
+      "example": { "sv": "Om ni inte kommer överens kan ni vända er till Hyresnämnden.", "ru": "Если вы не можете договориться, можно обратиться в Арендную комиссию.", "en": "If you can't agree, you can turn to the Rental Tribunal." }
+    },
+    {
+      "id": "flyttstadning",
+      "sv": "flyttstädning",
+      "translations": { "ru": "уборка при переезде", "en": "move-out cleaning" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Glöm inte flyttstädningen innan besiktningen.", "ru": "Не забудь про уборку перед осмотром при переезде.", "en": "Don't forget the move-out cleaning before the inspection." }
+    },
+    {
+      "id": "deposition",
+      "sv": "deposition",
+      "translations": { "ru": "залог (депозит)", "en": "security deposit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en deposition", "defSg": "depositionen", "indefPl": "depositioner", "defPl": "depositionerna" },
+      "example": { "sv": "Depositionen betalas tillbaka om lägenheten är hel.", "ru": "Залог возвращается, если квартира в порядке.", "en": "The deposit is refunded if the apartment is undamaged." }
+    }
+  ]
+}

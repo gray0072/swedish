@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/argumentative-text",
+  "slug": "argumentative-text",
+  "title": {
+    "sv": "Den argumenterande texten: tes, argument, slutsats",
+    "ru": "Аргументативный текст: тезис, аргументы, вывод",
+    "en": "The argumentative text: thesis, arguments, conclusion"
+  },
+  "summary": {
+    "ru": "Тезис — аргументы — вывод: та же идея из «opinion-justification», но уже на уровне целого текста.",
+    "en": "Thesis — arguments — conclusion: the same idea from \"opinion-justification\", now at the level of a whole text."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-2"],
+  "tags": ["phrases", "writing", "argumentation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1200,
+  "prerequisites": ["sva-grund-1/opinion-justification"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

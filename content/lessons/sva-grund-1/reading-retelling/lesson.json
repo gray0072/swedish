@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/reading-retelling",
+  "slug": "reading-retelling",
+  "title": {
+    "sv": "Att återberätta en text",
+    "ru": "Чтение адаптированного рассказа и пересказ",
+    "en": "Reading an adapted short story and retelling it"
+  },
+  "summary": {
+    "ru": "Слова-связки для пересказа (först, sedan, till slut) и глаголы речи (berätta att, säga att) с правильным порядком слов в bisats.",
+    "en": "The connectors that hold a retelling together (först, sedan, till slut) and reporting verbs (berätta att, säga att) with correct bisats word order."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "retelling",
+    "connectors",
+    "reported-speech",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 700,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

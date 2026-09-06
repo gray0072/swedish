@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "since, because" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi stannade hemma eftersom det regnade.", "ru": "Мы остались дома, так как шёл дождь.", "en": "We stayed home since it was raining." }
+    },
+    {
+      "id": "darfor-att",
+      "sv": "därför att",
+      "translations": { "ru": "потому что", "en": "because" },
+      "pos": "conjunction",
+      "example": { "sv": "Han är trött därför att han jobbade hela natten.", "ru": "Он устал, потому что работал всю ночь.", "en": "He's tired because he worked all night." }
+    },
+    {
+      "id": "sa-att",
+      "sv": "så att",
+      "translations": { "ru": "так что, чтобы", "en": "so that" },
+      "pos": "conjunction",
+      "example": { "sv": "Han talade högt, så att alla kunde höra.", "ru": "Он говорил громко, так что все могли слышать.", "en": "He spoke loudly so that everyone could hear." }
+    },
+    {
+      "id": "pa-grund-av",
+      "sv": "på grund av",
+      "translations": { "ru": "из-за", "en": "because of" },
+      "pos": "prep",
+      "example": { "sv": "Skolan stängde på grund av snön.", "ru": "Школа закрылась из-за снега.", "en": "The school closed because of the snow." }
+    },
+    {
+      "id": "tack-vare",
+      "sv": "tack vare",
+      "translations": { "ru": "благодаря", "en": "thanks to" },
+      "pos": "prep",
+      "example": { "sv": "Hon klarade provet tack vare sin lärare.", "ru": "Она сдала экзамен благодаря своему учителю.", "en": "She passed the exam thanks to her teacher." }
+    },
+    {
+      "id": "till-foljd-av",
+      "sv": "till följd av",
+      "translations": { "ru": "в результате, вследствие", "en": "as a result of" },
+      "pos": "prep",
+      "note": { "ru": "Более формальный синоним «på grund av», типичен для новостей и официальных текстов.", "en": "A more formal synonym of \"på grund av\", typical of news and official texts." },
+      "example": { "sv": "Tåget var försenat till följd av snöovädret.", "ru": "Поезд опоздал вследствие снежной бури.", "en": "The train was delayed as a result of the snowstorm." }
+    },
+    {
+      "id": "med-anledning-av",
+      "sv": "med anledning av",
+      "translations": { "ru": "по случаю, в связи с", "en": "on account of, in connection with" },
+      "pos": "prep",
+      "example": { "sv": "Skolan stängde tidigt med anledning av helgen.", "ru": "Школа закрылась рано в связи с праздником.", "en": "The school closed early on account of the holiday." }
+    },
+    {
+      "id": "resultera-i",
+      "sv": "resultera i",
+      "translations": { "ru": "приводить к, заканчиваться (чем-то)", "en": "to result in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "resultera", "present": "resulterar", "past": "resulterade", "supine": "resulterat" },
+      "example": { "sv": "Diskussionen resulterade i ett nytt förslag.", "ru": "Обсуждение привело к новому предложению.", "en": "The discussion resulted in a new proposal." }
+    },
+    {
+      "id": "orsak",
+      "sv": "orsak",
+      "translations": { "ru": "причина", "en": "cause, reason" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" },
+      "example": { "sv": "Vad var orsaken till förseningen?", "ru": "Какова была причина опоздания?", "en": "What was the cause of the delay?" }
+    },
+    {
+      "id": "foljd",
+      "sv": "följd",
+      "translations": { "ru": "следствие, результат", "en": "consequence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en följd", "defSg": "följden", "indefPl": "följder", "defPl": "följderna" },
+      "example": { "sv": "En följd av strejken var långa köer.", "ru": "Следствием забастовки были длинные очереди.", "en": "One consequence of the strike was long queues." }
+    }
+  ]
+}

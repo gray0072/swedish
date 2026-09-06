@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/travel-planning",
+  "slug": "travel-planning",
+  "title": {
+    "sv": "Planera en resa: transport och resmål",
+    "ru": "Транспорт и путешествия: планирование поездки",
+    "en": "Transport and travel: planning a trip"
+  },
+  "summary": {
+    "ru": "Слова для планирования поездки: бронирование, страховка, багаж и регистрация — за рамками ежедневного транспорта.",
+    "en": "Words for planning a trip: booking, insurance, luggage and check-in — beyond everyday commuting."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "vocab",
+    "travel",
+    "transport",
+    "planning"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1280,
+  "prerequisites": [
+    "sfi-c/transport"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

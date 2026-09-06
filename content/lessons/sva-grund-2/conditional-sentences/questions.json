@@ -1,0 +1,110 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-conditional-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Om det regnar ___ jag hemma. (stanna)" },
+      "answer": ["stannar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-conditional-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Om jag ___ tid skulle jag resa mer. (ha)" },
+      "answer": ["hade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-conditional-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Om han visste svaret ___ han säga det. (skola)" },
+      "answer": ["skulle"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-conditional-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Om jag har pengar köper jag boken» — какое это условие?",
+        "en": "\"Om jag har pengar köper jag boken\" — what kind of condition is this?"
+      },
+      "choices": [
+        { "ru": "Реальное — деньги вполне могут появиться", "en": "Real — the money could genuinely turn up" },
+        { "ru": "Нереальное — денег точно не будет", "en": "Unreal — there will definitely be no money" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-conditional-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Om jag hade pengar skulle jag köpa boken» — какое это условие?",
+        "en": "\"Om jag hade pengar skulle jag köpa boken\" — what kind of condition is this?"
+      },
+      "choices": [
+        { "ru": "Реальное", "en": "Real" },
+        { "ru": "Нереальное (гипотетическое) — сейчас денег нет", "en": "Unreal (hypothetical) — there's no money right now" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-conditional-tf-1",
+      "type": "true-false",
+      "prompt": {
+        "ru": "В нереальном условии претерит (`hade`, `visste`) означает, что действие было в прошлом.",
+        "en": "In an unreal condition, the preterite (`hade`, `visste`) means the action happened in the past."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Здесь претерит не про время — он сигнализирует, что условие нереально сейчас.",
+        "en": "Here the preterite isn't about time — it signals that the condition is unreal right now."
+      }
+    },
+    {
+      "id": "q-conditional-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "В реальном условии главное предложение может стоять в презенсе вместо `ska`.", "en": "In a real condition, the main clause can use the present tense instead of `ska`." },
+      "answer": true
+    },
+    {
+      "id": "q-conditional-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если у меня будет время, я тебе позвоню.»", "en": "Build the sentence: \"If I have time, I'll call you.\"" },
+      "tokens": ["Om", "jag", "har", "tid", "ska", "jag", "ringa", "dig"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-conditional-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь тип условия с его грамматикой", "en": "Match the condition type with its grammar" },
+      "pairs": [
+        ["om + презенс, главное + ska/презенс", "реальное условие / real condition"],
+        ["om + претерит, главное + skulle + инфинитив", "нереальное условие / unreal condition"]
+      ]
+    },
+    {
+      "id": "q-conditional-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "___ det regnar stannar jag hemma." },
+      "answer": ["Om"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-conditional-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Где обычно стоит главный глагол сразу после om-придаточного, если оно стоит первым?", "en": "Where does the main verb typically go right after a fronted om-clause?" },
+      "choices": [
+        { "ru": "Сразу после придаточного (V2-инверсия)", "en": "Right after the clause (V2 inversion)" },
+        { "ru": "В самом конце предложения", "en": "At the very end of the sentence" }
+      ],
+      "answer": 0
+    }
+  ]
+}

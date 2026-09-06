@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/temporal-clauses",
+  "slug": "temporal-clauses",
+  "title": {
+    "sv": "Tidsbisatser och deras ordföljd",
+    "ru": "Придаточные времени и их порядок слов",
+    "en": "Temporal clauses and their word order"
+  },
+  "summary": {
+    "ru": "Семь союзов времени — när, då, medan, innan, efter att, tills, sedan — и главная ловушка: när против då.",
+    "en": "Seven time conjunctions — när, då, medan, innan, efter att, tills, sedan — and the main trap: när versus då."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "temporal-clause",
+    "syntax",
+    "biff"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 930,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

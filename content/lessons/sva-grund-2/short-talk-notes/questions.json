@@ -1,0 +1,81 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-short-talk-notes-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что такое stödord?", "en": "What are stödord?" },
+      "choices": [
+        { "ru": "Опорные ключевые слова для выступления, а не готовый текст", "en": "Keywords for a talk, not a ready-made script" },
+        { "ru": "Полный текст выступления", "en": "The full text of the talk" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-short-talk-notes-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза вводит первый пункт выступления?", "en": "Which phrase introduces the talk's first point?" },
+      "choices": ["först vill jag nämna", "sammanfattningsvis", "tack för att ni lyssnade"],
+      "answer": 0
+    },
+    {
+      "id": "q-short-talk-notes-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Лучшая стратегия — написать полный текст и прочитать его вслух с листа.", "en": "The best strategy is to write out a full text and read it aloud from the page." },
+      "answer": false,
+      "explanation": { "ru": "Лучше говорить по опорным словам, глядя на слушателей, а не на бумагу.", "en": "It's better to speak from keywords, looking at the audience rather than the paper." }
+    },
+    {
+      "id": "q-short-talk-notes-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ jag ska berätta om mitt hemland. (idag)" },
+      "answer": ["Idag"],
+      "acceptAlso": ["idag"]
+    },
+    {
+      "id": "q-short-talk-notes-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ vill jag säga att... (sammanfattningsvis)" },
+      "answer": ["Sammanfattningsvis"],
+      "acceptAlso": ["sammanfattningsvis"]
+    },
+    {
+      "id": "q-short-talk-notes-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с её ролью в выступлении", "en": "Match the phrase with its role in the talk" },
+      "pairs": [
+        ["idag ska jag berätta om", "начало / opening"],
+        ["sedan kommer jag att gå in på", "середина / middle"],
+        ["till sist tar jag upp", "переход к концу / near the end"],
+        ["tack för att ni lyssnade", "завершение / closing"]
+      ]
+    },
+    {
+      "id": "q-short-talk-notes-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня я расскажу о своей родине.»", "en": "Build the sentence: \"Today I'm going to talk about my home country.\"" },
+      "tokens": ["Idag", "ska", "jag", "berätta", "om", "mitt", "hemland"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-short-talk-notes-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Сигналы структуры («först... sedan... till sist...») помогают и слушателю, и выступающему.", "en": "Structural signposts (\"först... sedan... till sist...\") help both the listener and the speaker." },
+      "answer": true
+    },
+    {
+      "id": "q-short-talk-notes-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Почему говорить по stödord лучше, чем читать полный текст?", "en": "Why is speaking from stödord better than reading a full text?" },
+      "choices": [
+        { "ru": "Речь звучит естественнее, есть контакт со слушателями", "en": "The talk sounds more natural and keeps contact with the audience" },
+        { "ru": "Так короче по времени всегда", "en": "It's always shorter in time" }
+      ],
+      "answer": 0
+    }
+  ]
+}

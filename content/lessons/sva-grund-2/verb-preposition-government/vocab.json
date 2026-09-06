@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "tanka-pa",
+      "sv": "tänka på",
+      "translations": { "ru": "думать о", "en": "to think of, to think about" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tänker på dig.", "ru": "Я думаю о тебе.", "en": "I'm thinking of you." }
+    },
+    {
+      "id": "prata-om",
+      "sv": "prata om",
+      "translations": { "ru": "говорить о", "en": "to talk about" },
+      "pos": "phrase",
+      "example": { "sv": "Vi pratade om filmen.", "ru": "Мы говорили о фильме.", "en": "We talked about the film." }
+    },
+    {
+      "id": "bero-pa",
+      "sv": "bero på",
+      "translations": { "ru": "зависеть от", "en": "to depend on" },
+      "pos": "phrase",
+      "example": { "sv": "Allt beror på vädret.", "ru": "Всё зависит от погоды.", "en": "Everything depends on the weather." }
+    },
+    {
+      "id": "skilja-sig-fran",
+      "sv": "skilja sig från",
+      "translations": { "ru": "отличаться от; разводиться с", "en": "to differ from; to divorce" },
+      "pos": "phrase",
+      "example": { "sv": "Hon skiljer sig från sin man.", "ru": "Она разводится со своим мужем.", "en": "She's divorcing her husband." }
+    },
+    {
+      "id": "vanja-sig-vid",
+      "sv": "vänja sig vid",
+      "translations": { "ru": "привыкать к", "en": "to get used to" },
+      "pos": "phrase",
+      "example": { "sv": "Jag har vant mig vid det svenska vädret.", "ru": "Я привык(ла) к шведской погоде.", "en": "I've gotten used to the Swedish weather." }
+    },
+    {
+      "id": "intressera-sig-for",
+      "sv": "intressera sig för",
+      "translations": { "ru": "интересоваться (чем-то)", "en": "to be interested in" },
+      "pos": "phrase",
+      "example": { "sv": "Hon intresserar sig för musik.", "ru": "Она интересуется музыкой.", "en": "She's interested in music." }
+    },
+    {
+      "id": "lita-pa",
+      "sv": "lita på",
+      "translations": { "ru": "доверять", "en": "to trust" },
+      "pos": "phrase"
+    },
+    {
+      "id": "oroa-sig-for",
+      "sv": "oroa sig för",
+      "translations": { "ru": "беспокоиться о", "en": "to worry about" },
+      "pos": "phrase"
+    }
+  ]
+}

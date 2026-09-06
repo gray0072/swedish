@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "omojlig",
+      "sv": "omöjlig",
+      "translations": { "ru": "невозможный", "en": "impossible" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: omöjligt, мн.ч.: omöjliga", "en": "ett-form: omöjligt, plural: omöjliga" }
+    },
+    {
+      "id": "olycklig",
+      "sv": "olycklig",
+      "translations": { "ru": "несчастный", "en": "unhappy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: olyckligt, мн.ч.: olyckliga", "en": "ett-form: olyckligt, plural: olyckliga" }
+    },
+    {
+      "id": "besvara",
+      "sv": "besvara",
+      "translations": { "ru": "ответить на (что-то)", "en": "to answer (something)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "besvara", "present": "besvarar", "past": "besvarade", "supine": "besvarat" }
+    },
+    {
+      "id": "betala",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" }
+    },
+    {
+      "id": "lasbar",
+      "sv": "läsbar",
+      "translations": { "ru": "читаемый", "en": "readable" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: läsbart, мн.ч.: läsbara", "en": "ett-form: läsbart, plural: läsbara" }
+    },
+    {
+      "id": "forklarbar",
+      "sv": "förklarbar",
+      "translations": { "ru": "объяснимый", "en": "explicable" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: förklarbart, мн.ч.: förklarbara", "en": "ett-form: förklarbart, plural: förklarbara" }
+    },
+    {
+      "id": "farlig",
+      "sv": "farlig",
+      "translations": { "ru": "опасный", "en": "dangerous" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: farligt, мн.ч.: farliga", "en": "ett-form: farligt, plural: farliga" }
+    },
+    {
+      "id": "hopplos",
+      "sv": "hopplös",
+      "translations": { "ru": "безнадёжный", "en": "hopeless" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: hopplöst, мн.ч.: hopplösa", "en": "ett-form: hopplöst, plural: hopplösa" }
+    },
+    {
+      "id": "fara-noun",
+      "sv": "fara",
+      "translations": { "ru": "опасность", "en": "danger" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fara", "defSg": "faran", "indefPl": "faror", "defPl": "farorna" }
+    },
+    {
+      "id": "hopp-noun",
+      "sv": "hopp",
+      "translations": { "ru": "надежда", "en": "hope" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hopp", "defSg": "hoppet", "indefPl": "hopp", "defPl": "hoppen" }
+    }
+  ]
+}

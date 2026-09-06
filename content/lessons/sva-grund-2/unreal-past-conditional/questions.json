@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-unreal-past-conditional-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Om jag ___ vetat det skulle jag ha sagt något. (ha)" },
+      "answer": ["hade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-unreal-past-conditional-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Om hon hade skyndat sig skulle hon ___ hunnit med tåget. (ha)" },
+      "answer": ["ha"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-unreal-past-conditional-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая пара форм используется в нереальном условии о прошлом?",
+        "en": "Which pair of forms is used in an unreal condition about the past?"
+      },
+      "choices": [
+        { "ru": "om + презенс / ska + инфинитив", "en": "om + present / ska + infinitive" },
+        { "ru": "om + претерит / skulle + инфинитив", "en": "om + preterite / skulle + infinitive" },
+        { "ru": "om + плюсквамперфект / skulle ha + супин", "en": "om + pluperfect / skulle ha + supine" }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q-unreal-past-conditional-tf-1",
+      "type": "true-false",
+      "prompt": {
+        "ru": "«Om jag hade tid skulle jag ringa dig» и «Om jag hade haft tid skulle jag ha ringt dig» означают одно и то же.",
+        "en": "\"Om jag hade tid skulle jag ringa dig\" and \"Om jag hade haft tid skulle jag ha ringt dig\" mean the same thing."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Первое — гипотеза о настоящем, второе — сожаление о конкретном случае в прошлом.",
+        "en": "The first is a hypothesis about now; the second is regret about a specific past occasion."
+      }
+    },
+    {
+      "id": "q-unreal-past-conditional-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Нереальное условие о прошлом обычно выражает сожаление о том, что не случилось.", "en": "An unreal past condition usually expresses regret about something that didn't happen." },
+      "answer": true
+    },
+    {
+      "id": "q-unreal-past-conditional-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Если бы мы забронировали раньше, билеты были бы дешевле.»", "en": "Build the sentence: \"If we had booked earlier, the tickets would have been cheaper.\"" },
+      "tokens": ["Om", "vi", "hade", "bokat", "tidigare", "skulle", "biljetterna", "ha", "varit", "billigare"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "q-unreal-past-conditional-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "«Om jag hade vetat det...» — о чём это условие?", "en": "\"Om jag hade vetat det...\" — what is this condition about?" },
+      "choices": [
+        { "ru": "О конкретном моменте в прошлом, который уже не изменить", "en": "A specific moment in the past that can no longer change" },
+        { "ru": "О будущем", "en": "The future" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-unreal-past-conditional-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Om vi hade bokat tidigare ___ biljetterna ha varit billigare. (skola)" },
+      "answer": ["skulle"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-unreal-past-conditional-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Проверочный вопрос, который помогает выбрать нужную ступень условия:", "en": "The check question that helps you pick the right conditional step:" },
+      "choices": [
+        { "ru": "Условие про сейчас или про тот конкретный раз, тогда?", "en": "Is the condition about now, or about that specific time, back then?" },
+        { "ru": "Условие длинное или короткое?", "en": "Is the condition long or short?" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-unreal-past-conditional-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "В главном предложении используется «skulle» + инфинитив, а не «skulle ha» + супин.", "en": "The main clause uses \"skulle\" + infinitive, not \"skulle ha\" + supine." },
+      "answer": false,
+      "explanation": { "ru": "В прошлом-нереальном условии главное предложение — именно «skulle ha» + супин.", "en": "In the unreal-past condition, the main clause is precisely \"skulle ha\" + supine." }
+    }
+  ]
+}

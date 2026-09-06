@@ -1,0 +1,141 @@
+{
+  "items": [
+    {
+      "id": "kollega-arbete",
+      "sv": "kollega",
+      "translations": { "ru": "коллега", "en": "colleague" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kollega", "defSg": "kollegan", "indefPl": "kollegor", "defPl": "kollegorna" },
+      "example": { "sv": "Min kollega hjälper mig ofta.", "ru": "Мой коллега часто мне помогает.", "en": "My colleague often helps me." }
+    },
+    {
+      "id": "arbetspass",
+      "sv": "arbetspass",
+      "translations": { "ru": "рабочая смена", "en": "work shift" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett arbetspass", "defSg": "arbetspasset", "indefPl": "arbetspass", "defPl": "arbetspassen" },
+      "example": { "sv": "Mitt arbetspass börjar klockan sju.", "ru": "Моя смена начинается в семь.", "en": "My shift starts at seven." }
+    },
+    {
+      "id": "rast",
+      "sv": "rast",
+      "translations": { "ru": "перерыв", "en": "break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rast", "defSg": "rasten", "indefPl": "raster", "defPl": "rasterna" },
+      "example": { "sv": "Vi har rast klockan tolv.", "ru": "У нас перерыв в двенадцать.", "en": "We have a break at twelve." }
+    },
+    {
+      "id": "mote",
+      "sv": "möte",
+      "translations": { "ru": "встреча, собрание", "en": "meeting" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett möte", "defSg": "mötet", "indefPl": "möten", "defPl": "mötena" },
+      "example": { "sv": "Vi har ett möte imorgon bitti.", "ru": "У нас завтра утром собрание.", "en": "We have a meeting tomorrow morning." }
+    },
+    {
+      "id": "deadline",
+      "sv": "deadline",
+      "translations": { "ru": "дедлайн, крайний срок", "en": "deadline" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Deadlinen är på fredag.", "ru": "Дедлайн — в пятницу.", "en": "The deadline is on Friday." }
+    },
+    {
+      "id": "schema-arbete",
+      "sv": "schema",
+      "translations": { "ru": "расписание (смен)", "en": "schedule" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett schema", "defSg": "schemat", "indefPl": "scheman", "defPl": "schemana" },
+      "example": { "sv": "Schemat ändras varje vecka.", "ru": "Расписание меняется каждую неделю.", "en": "The schedule changes every week." }
+    },
+    {
+      "id": "byta-pass",
+      "sv": "byta pass",
+      "translations": { "ru": "поменяться сменами", "en": "to swap shifts" },
+      "pos": "verb",
+      "forms": { "infinitive": "byta pass", "present": "byter pass", "past": "bytte pass", "supine": "bytt pass" },
+      "example": { "sv": "Kan vi byta pass på torsdag?", "ru": "Можем поменяться сменами в четверг?", "en": "Can we swap shifts on Thursday?" }
+    },
+    {
+      "id": "komma-overens-om",
+      "sv": "komma överens om",
+      "translations": { "ru": "договориться о", "en": "to agree on" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma överens om", "present": "kommer överens om", "past": "kom överens om", "supine": "kommit överens om" },
+      "example": { "sv": "Vi kom överens om nya tider.", "ru": "Мы договорились о новом времени.", "en": "We agreed on new times." }
+    },
+    {
+      "id": "arbetsdag",
+      "sv": "arbetsdag",
+      "translations": { "ru": "рабочий день", "en": "working day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsdag", "defSg": "arbetsdagen", "indefPl": "arbetsdagar", "defPl": "arbetsdagarna" },
+      "example": { "sv": "En vanlig arbetsdag börjar klockan åtta.", "ru": "Обычный рабочий день начинается в восемь.", "en": "A regular working day starts at eight." }
+    },
+    {
+      "id": "arbetstid",
+      "sv": "arbetstid",
+      "translations": { "ru": "рабочее время", "en": "working hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetstid", "defSg": "arbetstiden", "indefPl": "arbetstider", "defPl": "arbetstiderna" },
+      "example": { "sv": "Vår arbetstid är flexibel.", "ru": "Наше рабочее время гибкое.", "en": "Our working hours are flexible." }
+    },
+    {
+      "id": "overtid",
+      "sv": "övertid",
+      "translations": { "ru": "сверхурочные", "en": "overtime" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en övertid", "defSg": "övertiden", "indefPl": "övertider", "defPl": "övertiderna" },
+      "example": { "sv": "Jag jobbar övertid ikväll.", "ru": "Сегодня вечером я работаю сверхурочно.", "en": "I'm working overtime tonight." }
+    },
+    {
+      "id": "lunchrast",
+      "sv": "lunchrast",
+      "translations": { "ru": "обеденный перерыв", "en": "lunch break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lunchrast", "defSg": "lunchrasten", "indefPl": "lunchraster", "defPl": "lunchrasterna" },
+      "example": { "sv": "Lunchrasten är en timme.", "ru": "Обеденный перерыв длится час.", "en": "The lunch break is one hour." }
+    },
+    {
+      "id": "samarbeta",
+      "sv": "samarbeta",
+      "translations": { "ru": "сотрудничать", "en": "to cooperate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "samarbeta", "present": "samarbetar", "past": "samarbetade", "supine": "samarbetat" },
+      "example": { "sv": "Vi samarbetar bra tillsammans.", "ru": "Мы хорошо сотрудничаем.", "en": "We cooperate well together." }
+    },
+    {
+      "id": "flextid",
+      "sv": "flextid",
+      "translations": { "ru": "гибкий график", "en": "flexitime" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flextid", "defSg": "flextiden", "indefPl": "flextider", "defPl": "flextiderna" },
+      "example": { "sv": "Vi har flextid på jobbet.", "ru": "У нас на работе гибкий график.", "en": "We have flexitime at work." }
+    },
+    {
+      "id": "passar-det-rast",
+      "sv": "Passar det om jag tar rast klockan elva istället?",
+      "translations": { "ru": "Тебе подходит, если я возьму перерыв в 11 вместо этого?", "en": "Would it work if I take my break at eleven instead?" },
+      "pos": "phrase",
+      "example": { "sv": "Passar det om jag tar rast klockan elva istället?", "ru": "Тебе подходит, если я возьму перерыв в 11 вместо этого?", "en": "Would it work if I take my break at eleven instead?" }
+    },
+    {
+      "id": "ja-det-gar-bra",
+      "sv": "Ja, det går bra, vi hörs imorgon.",
+      "translations": { "ru": "Да, всё нормально, созвонимся завтра.", "en": "Yes, that's fine, we'll talk tomorrow." },
+      "pos": "phrase",
+      "example": { "sv": "Ja, det går bra, vi hörs imorgon.", "ru": "Да, всё нормально, созвонимся завтра.", "en": "Yes, that's fine, we'll talk tomorrow." }
+    }
+  ]
+}

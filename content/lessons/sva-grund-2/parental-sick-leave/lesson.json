@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/parental-sick-leave",
+  "slug": "parental-sick-leave",
+  "title": {
+    "sv": "Sjukpenning, semester och föräldraledighet",
+    "ru": "Больничный, отпуск, родительский отпуск — правила и лексика",
+    "en": "Sick leave, holiday, parental leave — the rules and the vocabulary"
+  },
+  "summary": {
+    "ru": "Официальные термины системы соцстрахования: больничные, отпускные и родительские выплаты.",
+    "en": "The official vocabulary of social insurance: sick pay, vacation pay and parental benefits."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "work",
+    "social-insurance",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1090,
+  "prerequisites": [
+    "sva-grund-1/employer-talk"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

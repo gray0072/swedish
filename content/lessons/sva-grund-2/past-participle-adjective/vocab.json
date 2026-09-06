@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "skriven",
+      "sv": "skriven",
+      "translations": { "ru": "написанный", "en": "written" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: skrivet, мн.ч.: skrivna", "en": "ett-form: skrivet, plural: skrivna" },
+      "example": { "sv": "Det här är ett skrivet brev.", "ru": "Это написанное письмо.", "en": "This is a written letter." }
+    },
+    {
+      "id": "stangd",
+      "sv": "stängd",
+      "translations": { "ru": "закрытый", "en": "closed" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: stängt, мн.ч.: stängda", "en": "ett-form: stängt, plural: stängda" },
+      "example": { "sv": "Butiken är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
+    },
+    {
+      "id": "oppnad",
+      "sv": "öppnad",
+      "translations": { "ru": "открытый (кем-то)", "en": "opened" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: öppnat, мн.ч.: öppnade", "en": "ett-form: öppnat, plural: öppnade" },
+      "example": { "sv": "Ett redan öppnat paket kan inte returneras.", "ru": "Уже вскрытую посылку нельзя вернуть.", "en": "An already opened package can't be returned." }
+    },
+    {
+      "id": "kokt",
+      "sv": "kokt",
+      "translations": { "ru": "варёный", "en": "boiled" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: kokt, мн.ч.: kokta (форма en/ett совпадают)", "en": "ett-form: kokt, plural: kokta (en/ett forms coincide)" },
+      "example": { "sv": "Vi åt kokt potatis till middag.", "ru": "Мы ели варёную картошку на ужин.", "en": "We had boiled potatoes for dinner." }
+    },
+    {
+      "id": "malad",
+      "sv": "målad",
+      "translations": { "ru": "покрашенный", "en": "painted" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: målat, мн.ч.: målade", "en": "ett-form: målat, plural: målade" },
+      "example": { "sv": "Huset är nymålat.", "ru": "Дом свежепокрашен.", "en": "The house is freshly painted." }
+    },
+    {
+      "id": "trott-participle",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj",
+      "note": { "ru": "Исторически причастие от «tröttna», сегодня — обычное прилагательное; ett-форма: trött, мн.ч.: trötta", "en": "Historically a participle of \"tröttna\", now a plain adjective; ett-form: trött, plural: trötta" }
+    },
+    {
+      "id": "supinum",
+      "sv": "supinum",
+      "translations": { "ru": "супин", "en": "the supine" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." }
+    },
+    {
+      "id": "perfektparticip",
+      "sv": "perfektparticip",
+      "translations": { "ru": "перфектное причастие", "en": "past participle" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." }
+    }
+  ]
+}

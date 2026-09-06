@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/job-application-cv",
+  "slug": "job-application-cv",
+  "title": {
+    "sv": "Jobbansökan och CV",
+    "ru": "Заявление о приёме на работу и CV",
+    "en": "A job application and a CV"
+  },
+  "summary": {
+    "ru": "Ключевые фразы и слова для сопроводительного письма, резюме и собеседования на шведском.",
+    "en": "Key phrases and vocabulary for a cover letter, a CV and a job interview in Swedish."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "work",
+    "job-application",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1070,
+  "prerequisites": [
+    "sva-grund-2/labour-market"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

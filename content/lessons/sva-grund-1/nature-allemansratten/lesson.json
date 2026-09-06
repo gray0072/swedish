@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/nature-allemansratten",
+  "slug": "nature-allemansratten",
+  "title": {
+    "sv": "Naturen och allemansrätten",
+    "ru": "Природа и allemansrätten",
+    "en": "Nature and allemansrätten"
+  },
+  "summary": {
+    "ru": "Allemansrätten — право на доступ к природе в Швеции: что можно и что нельзя.",
+    "en": "Allemansrätten — the Swedish right of public access to nature: what it allows and its limits."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "nature",
+    "culture",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 840,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

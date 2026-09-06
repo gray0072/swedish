@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "nar-temporal",
+      "sv": "när",
+      "translations": { "ru": "когда (повторяется, наст./буд.)", "en": "when (repeated, present/future)" },
+      "pos": "conjunction",
+      "example": { "sv": "När det regnar, stannar jag hemma.", "ru": "Когда идёт дождь, я остаюсь дома.", "en": "When it rains, I stay home." }
+    },
+    {
+      "id": "da-temporal",
+      "sv": "då",
+      "translations": { "ru": "когда (один раз в прошлом)", "en": "when (a single past occasion)" },
+      "pos": "conjunction",
+      "example": { "sv": "Då telefonen ringde, sov jag.", "ru": "Когда (в тот раз) зазвонил телефон, я спал.", "en": "When the phone rang, I was sleeping." }
+    },
+    {
+      "id": "medan",
+      "sv": "medan",
+      "translations": { "ru": "пока, в то время как", "en": "while" },
+      "pos": "conjunction",
+      "example": { "sv": "Han lagade mat medan hon inte var hemma.", "ru": "Он готовил еду, пока её не было дома.", "en": "He cooked while she wasn't home." }
+    },
+    {
+      "id": "innan",
+      "sv": "innan",
+      "translations": { "ru": "перед тем как, до того как", "en": "before" },
+      "pos": "conjunction",
+      "example": { "sv": "Ring mig innan du åker.", "ru": "Позвони мне перед тем, как поедешь.", "en": "Call me before you leave." }
+    },
+    {
+      "id": "efter-att",
+      "sv": "efter att",
+      "translations": { "ru": "после того как", "en": "after" },
+      "pos": "conjunction",
+      "example": { "sv": "Efter att han hade läst boken, lämnade han tillbaka den.", "ru": "После того как он прочитал книгу, он вернул её.", "en": "After he had read the book, he returned it." }
+    },
+    {
+      "id": "tills",
+      "sv": "tills",
+      "translations": { "ru": "пока не, до тех пор пока", "en": "until" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi väntar tills han inte är arg längre.", "ru": "Мы ждём, пока он не перестанет злиться.", "en": "We wait until he isn't angry anymore." }
+    },
+    {
+      "id": "sedan-konj",
+      "sv": "sedan",
+      "translations": { "ru": "с тех пор как", "en": "since" },
+      "pos": "conjunction",
+      "example": { "sv": "Sedan hon flyttade hit har hon inte träffat honom.", "ru": "С тех пор как она переехала сюда, она не встречала его.", "en": "Since she moved here, she hasn't met him." }
+    },
+    {
+      "id": "regna",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to ring, to call" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" }
+    },
+    {
+      "id": "laga",
+      "sv": "laga",
+      "translations": { "ru": "готовить (еду)", "en": "to cook, to make (food)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" }
+    },
+    {
+      "id": "aka",
+      "sv": "åka",
+      "translations": { "ru": "ехать", "en": "to go (by vehicle)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" }
+    },
+    {
+      "id": "vanta",
+      "sv": "vänta",
+      "translations": { "ru": "ждать", "en": "to wait" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vänta", "present": "väntar", "past": "väntade", "supine": "väntat" }
+    },
+    {
+      "id": "flytta",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move (relocate)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" }
+    },
+    {
+      "id": "traffa",
+      "sv": "träffa",
+      "translations": { "ru": "встречать", "en": "to meet" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+    }
+  ]
+}

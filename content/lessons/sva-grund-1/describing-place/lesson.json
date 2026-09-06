@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/describing-place",
+  "slug": "describing-place",
+  "title": {
+    "sv": "Att beskriva en plats: lägenhet, område, stad",
+    "ru": "Описание места: квартира, район, город",
+    "en": "Describing a place: a flat, a neighbourhood, a city"
+  },
+  "summary": {
+    "ru": "Слова для описания квартиры, района и города — на уровень сложнее, чем базовая тема «Дома» в SFI.",
+    "en": "Words for describing a flat, a neighbourhood and a city — a step up from the basic SFI \"home\" vocabulary."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "home",
+    "city",
+    "neighbourhood"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 670,
+  "prerequisites": [
+    "sfi-b/home"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

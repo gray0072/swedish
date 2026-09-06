@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "ifylles-av",
+      "sv": "ifylles av",
+      "translations": { "ru": "заполняется (кем-то) — устар. канцелярская форма", "en": "to be filled in by (dated bureaucratic passive)" },
+      "pos": "phrase",
+      "example": { "sv": "Ifylles av arbetsgivaren.", "ru": "Заполняется работодателем.", "en": "To be filled in by the employer." },
+      "note": { "ru": "Устаревшая пассивная форма от «fylla i»; на современных бланках чаще пишут «fylls i av».", "en": "An old passive form of \"fylla i\"; modern forms more often say \"fylls i av\"." }
+    },
+    {
+      "id": "obligatorisk",
+      "sv": "obligatorisk",
+      "translations": { "ru": "обязательный", "en": "mandatory, required" },
+      "pos": "adj",
+      "example": { "sv": "Detta är ett obligatoriskt fält.", "ru": "Это обязательное поле.", "en": "This is a mandatory field." }
+    },
+    {
+      "id": "frivillig",
+      "sv": "frivillig",
+      "translations": { "ru": "добровольный, необязательный", "en": "voluntary, optional" },
+      "pos": "adj",
+      "example": { "sv": "Den här frågan är frivillig.", "ru": "Этот вопрос необязательный.", "en": "This question is optional." }
+    },
+    {
+      "id": "falt",
+      "sv": "fält",
+      "translations": { "ru": "поле (в бланке)", "en": "field (on a form)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fält", "defSg": "fältet", "indefPl": "fält", "defPl": "fälten" },
+      "example": { "sv": "Fyll i alla obligatoriska fält.", "ru": "Заполни все обязательные поля.", "en": "Fill in all the mandatory fields." }
+    },
+    {
+      "id": "kryssa-i",
+      "sv": "kryssa i",
+      "translations": { "ru": "поставить галочку, отметить", "en": "to tick, to check (a box)" },
+      "pos": "verb",
+      "forms": { "infinitive": "kryssa i", "present": "kryssar i", "past": "kryssade i", "supine": "kryssat i" },
+      "example": { "sv": "Kryssa i rutan om du är student.", "ru": "Поставь галочку, если ты студент(ка).", "en": "Tick the box if you're a student." }
+    },
+    {
+      "id": "ruta",
+      "sv": "ruta",
+      "translations": { "ru": "клетка, чекбокс", "en": "box, checkbox" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ruta", "defSg": "rutan", "indefPl": "rutor", "defPl": "rutorna" },
+      "example": { "sv": "Sätt ett kryss i rätt ruta.", "ru": "Поставь галочку в нужной клетке.", "en": "Put a tick in the right box." }
+    },
+    {
+      "id": "ange",
+      "sv": "ange",
+      "translations": { "ru": "указать, сообщить (формально)", "en": "to state, to indicate" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ange", "present": "anger", "past": "angav", "supine": "angett" },
+      "example": { "sv": "Ange ditt personnummer här.", "ru": "Укажите здесь свой личный номер.", "en": "State your personal ID number here." }
+    },
+    {
+      "id": "bifoga",
+      "sv": "bifoga",
+      "translations": { "ru": "прилагать, вкладывать (документ)", "en": "to attach, to enclose" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bifoga", "present": "bifogar", "past": "bifogade", "supine": "bifogat" },
+      "example": { "sv": "Bifoga en kopia av ditt pass.", "ru": "Приложи копию паспорта.", "en": "Attach a copy of your passport." }
+    },
+    {
+      "id": "bilaga",
+      "sv": "bilaga",
+      "translations": { "ru": "приложение, вложенный документ", "en": "enclosure, attachment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bilaga", "defSg": "bilagan", "indefPl": "bilagor", "defPl": "bilagorna" },
+      "example": { "sv": "Se bilagan för mer information.", "ru": "См. приложение для подробностей.", "en": "See the enclosure for more information." }
+    },
+    {
+      "id": "underteckna",
+      "sv": "underteckna",
+      "translations": { "ru": "подписывать (официально)", "en": "to sign (formally)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "underteckna", "present": "undertecknar", "past": "undertecknade", "supine": "undertecknat" },
+      "example": { "sv": "Underteckna blanketten på sista sidan.", "ru": "Подпишите бланк на последней странице.", "en": "Sign the form on the last page." }
+    },
+    {
+      "id": "ort",
+      "sv": "ort",
+      "translations": { "ru": "место, населённый пункт (в подписи)", "en": "place, locality (in a signature line)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ort", "defSg": "orten", "indefPl": "orter", "defPl": "orterna" },
+      "example": { "sv": "Ange datum och ort vid underskriften.", "ru": "Укажи дату и место рядом с подписью.", "en": "State the date and place next to the signature." }
+    },
+    {
+      "id": "datum",
+      "sv": "datum",
+      "translations": { "ru": "дата", "en": "date" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" },
+      "example": { "sv": "Skriv dagens datum högst upp.", "ru": "Напиши сегодняшнюю дату сверху.", "en": "Write today's date at the top." }
+    },
+    {
+      "id": "enkat",
+      "sv": "enkät",
+      "translations": { "ru": "анкета, опрос", "en": "questionnaire, survey" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en enkät", "defSg": "enkäten", "indefPl": "enkäter", "defPl": "enkäterna" },
+      "example": { "sv": "Skolan skickade ut en enkät till alla föräldrar.", "ru": "Школа разослала анкету всем родителям.", "en": "The school sent out a questionnaire to all parents." }
+    },
+    {
+      "id": "fylla-i-forms",
+      "sv": "fylla i",
+      "translations": { "ru": "заполнять (бланк)", "en": "to fill in" },
+      "pos": "verb",
+      "forms": { "infinitive": "fylla i", "present": "fyller i", "past": "fyllde i", "supine": "fyllt i" },
+      "example": { "sv": "Fyll i blanketten med versaler.", "ru": "Заполни бланк заглавными буквами.", "en": "Fill in the form in capital letters." }
+    },
+    {
+      "id": "intyg",
+      "sv": "intyg",
+      "translations": { "ru": "справка, свидетельство", "en": "certificate, attestation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett intyg", "defSg": "intyget", "indefPl": "intyg", "defPl": "intygen" },
+      "example": { "sv": "Du behöver ett läkarintyg.", "ru": "Тебе нужна справка от врача.", "en": "You need a doctor's certificate." }
+    },
+    {
+      "id": "samtycke",
+      "sv": "samtycke",
+      "translations": { "ru": "согласие", "en": "consent" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett samtycke", "defSg": "samtycket", "indefPl": "samtycken", "defPl": "samtyckena" },
+      "example": { "sv": "Blanketten kräver båda föräldrarnas samtycke.", "ru": "Бланк требует согласия обоих родителей.", "en": "The form requires both parents' consent." }
+    },
+    {
+      "id": "underskrift-forms",
+      "sv": "underskrift",
+      "translations": { "ru": "подпись", "en": "signature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en underskrift", "defSg": "underskriften", "indefPl": "underskrifter", "defPl": "underskrifterna" },
+      "example": { "sv": "Glöm inte din underskrift längst ner.", "ru": "Не забудь подпись внизу.", "en": "Don't forget your signature at the bottom." }
+    }
+  ]
+}

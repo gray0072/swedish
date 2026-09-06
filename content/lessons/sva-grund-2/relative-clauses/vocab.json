@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "som-rel",
+      "sv": "som",
+      "translations": { "ru": "который, которая, которое, которые (не меняется)", "en": "who, which, that (invariable)" },
+      "pos": "pron",
+      "example": { "sv": "Mannen som bor här är lärare.", "ru": "Мужчина, который живёт здесь, — учитель.", "en": "The man who lives here is a teacher." }
+    },
+    {
+      "id": "vars",
+      "sv": "vars",
+      "translations": { "ru": "чей, чья, чьё, чьи", "en": "whose" },
+      "pos": "pron",
+      "example": { "sv": "Kvinnan vars bil blev stulen var arg.", "ru": "Женщина, чья машина была украдена, была зла.", "en": "The woman whose car was stolen was angry." }
+    },
+    {
+      "id": "dar-rel",
+      "sv": "där",
+      "translations": { "ru": "где (место)", "en": "where (location)" },
+      "pos": "adv",
+      "example": { "sv": "Staden där jag bor är vacker.", "ru": "Город, где я живу, красивый.", "en": "The city where I live is beautiful." }
+    },
+    {
+      "id": "dit",
+      "sv": "dit",
+      "translations": { "ru": "куда (направление)", "en": "where to, to which place (motion)" },
+      "pos": "adv",
+      "example": { "sv": "Staden dit jag reste var vacker.", "ru": "Город, куда я поехал, был красивый.", "en": "The city I traveled to was beautiful." }
+    },
+    {
+      "id": "vilket",
+      "sv": "vilket",
+      "translations": { "ru": "что (относится ко всему предложению)", "en": "which (refers to the whole clause)" },
+      "pos": "pron",
+      "example": { "sv": "Han kom för sent, vilket gjorde henne arg.", "ru": "Он опоздал, что разозлило её.", "en": "He came too late, which made her angry." }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить (где-то)", "en": "to live (reside)" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+    },
+    {
+      "id": "resa",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+    },
+    {
+      "id": "stjala",
+      "sv": "stjäla",
+      "translations": { "ru": "красть", "en": "to steal" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stjäla", "present": "stjäl", "past": "stal", "supine": "stulit" }
+    },
+    {
+      "id": "gora",
+      "sv": "göra",
+      "translations": { "ru": "делать", "en": "to do, to make" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "göra", "present": "gör", "past": "gjorde", "supine": "gjort" }
+    },
+    {
+      "id": "stad",
+      "sv": "stad",
+      "translations": { "ru": "город", "en": "city, town" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" }
+    },
+    {
+      "id": "kvinna",
+      "sv": "kvinna",
+      "translations": { "ru": "женщина", "en": "woman" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "kvinna", "defSg": "kvinnan", "indefPl": "kvinnor", "defPl": "kvinnorna" }
+    },
+    {
+      "id": "man-noun",
+      "sv": "man",
+      "translations": { "ru": "мужчина", "en": "man" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" }
+    },
+    {
+      "id": "arg",
+      "sv": "arg",
+      "translations": { "ru": "злой, сердитый", "en": "angry" },
+      "pos": "adj"
+    },
+    {
+      "id": "sent",
+      "sv": "sent",
+      "translations": { "ru": "поздно", "en": "late" },
+      "pos": "adv"
+    }
+  ]
+}

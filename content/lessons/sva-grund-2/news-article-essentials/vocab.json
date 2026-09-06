@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "id": "vad-handlar-artikeln-om",
+      "sv": "Vad handlar artikeln om?",
+      "translations": { "ru": "О чём статья?", "en": "What is the article about?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad handlar artikeln om? Huvudbudskapet är att priserna på el har ökat.", "ru": "О чём статья? Главное сообщение — то, что цены на электричество выросли.", "en": "What is the article about? The main message is that electricity prices have gone up." }
+    },
+    {
+      "id": "huvudbudskapet-ar",
+      "sv": "huvudbudskapet är...",
+      "translations": { "ru": "главное сообщение — это...", "en": "the main message is..." },
+      "pos": "phrase",
+      "example": { "sv": "Huvudbudskapet är att alla måste källsortera.", "ru": "Главное сообщение — то, что все должны сортировать мусор.", "en": "The main message is that everyone has to sort their waste." }
+    },
+    {
+      "id": "enligt-artikeln",
+      "sv": "enligt artikeln...",
+      "translations": { "ru": "согласно статье...", "en": "according to the article..." },
+      "pos": "phrase",
+      "example": { "sv": "Enligt artikeln är källan en rapport från myndigheten.", "ru": "Согласно статье, источник — это отчёт ведомства.", "en": "According to the article, the source is a report from the authority." }
+    },
+    {
+      "id": "det-viktigaste-ar-att",
+      "sv": "det viktigaste är att...",
+      "translations": { "ru": "самое важное — то, что...", "en": "the most important thing is that..." },
+      "pos": "phrase",
+      "example": { "sv": "Det viktigaste är att priserna kommer att sjunka till våren.", "ru": "Самое важное — то, что цены снизятся к весне.", "en": "The most important thing is that prices will go down by spring." }
+    },
+    {
+      "id": "rubrik",
+      "sv": "rubrik",
+      "translations": { "ru": "заголовок", "en": "headline" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rubrik", "defSg": "rubriken", "indefPl": "rubriker", "defPl": "rubrikerna" },
+      "example": { "sv": "Rubriken var mycket kort.", "ru": "Заголовок был очень коротким.", "en": "The headline was very short." }
+    },
+    {
+      "id": "ingress",
+      "sv": "ingress",
+      "translations": { "ru": "вводный абзац, лид", "en": "lead paragraph" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ingress", "defSg": "ingressen", "indefPl": "ingresser", "defPl": "ingresserna" },
+      "example": { "sv": "Ingressen sammanfattar hela artikeln på två meningar.", "ru": "Вводный абзац резюмирует всю статью в двух предложениях.", "en": "The lead paragraph summarizes the whole article in two sentences." }
+    },
+    {
+      "id": "brodtext",
+      "sv": "brödtext",
+      "translations": { "ru": "основной текст", "en": "body text" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brödtext", "defSg": "brödtexten", "indefPl": "brödtexter", "defPl": "brödtexterna" },
+      "example": { "sv": "Brödtexten ger fler detaljer om händelsen.", "ru": "Основной текст даёт больше подробностей о событии.", "en": "The body text gives more details about the event." }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Vilken är källan till uppgiften?", "ru": "Какой источник у этой информации?", "en": "What is the source of this information?" }
+    },
+    {
+      "id": "artikel",
+      "sv": "artikel",
+      "translations": { "ru": "статья", "en": "article" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" },
+      "example": { "sv": "Jag läste en artikel om klimatet.", "ru": "Я прочитал(а) статью о климате.", "en": "I read an article about the climate." }
+    },
+    {
+      "id": "nyhetsartikel",
+      "sv": "nyhetsartikel",
+      "translations": { "ru": "новостная статья", "en": "news article" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nyhetsartikel", "defSg": "nyhetsartikeln", "indefPl": "nyhetsartiklar", "defPl": "nyhetsartiklarna" },
+      "example": { "sv": "Han skrev en kort nyhetsartikel om mötet.", "ru": "Он написал короткую новостную статью о встрече.", "en": "He wrote a short news article about the meeting." }
+    },
+    {
+      "id": "sammanfatta",
+      "sv": "sammanfatta",
+      "translations": { "ru": "резюмировать, суммировать", "en": "to summarize" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Kan du sammanfatta artikeln med egna ord?", "ru": "Можешь резюмировать статью своими словами?", "en": "Can you summarize the article in your own words?" }
+    },
+    {
+      "id": "lasare",
+      "sv": "läsare",
+      "translations": { "ru": "читатель", "en": "reader" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läsare", "defSg": "läsaren", "indefPl": "läsare", "defPl": "läsarna" },
+      "example": { "sv": "Rubriken ska väcka läsarens intresse.", "ru": "Заголовок должен вызвать интерес читателя.", "en": "The headline should catch the reader's interest." }
+    },
+    {
+      "id": "rapportera",
+      "sv": "rapportera",
+      "translations": { "ru": "сообщать, докладывать", "en": "to report" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rapportera", "present": "rapporterar", "past": "rapporterade", "supine": "rapporterat" },
+      "example": { "sv": "Tidningen rapporterade om olyckan igår.", "ru": "Газета сообщила о происшествии вчера.", "en": "The newspaper reported on the accident yesterday." }
+    },
+    {
+      "id": "handla-om",
+      "sv": "handla om",
+      "translations": { "ru": "быть о (чём-то), речь идёт о", "en": "to be about" },
+      "pos": "phrase",
+      "example": { "sv": "Artikeln handlar om ett nytt förbud.", "ru": "Статья о новом запрете.", "en": "The article is about a new ban." }
+    },
+    {
+      "id": "citat",
+      "sv": "citat",
+      "translations": { "ru": "цитата", "en": "quote" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett citat", "defSg": "citatet", "indefPl": "citat", "defPl": "citaten" },
+      "example": { "sv": "Artikeln innehöll ett citat från ministern.", "ru": "В статье была цитата министра.", "en": "The article contained a quote from the minister." }
+    },
+    {
+      "id": "journalist",
+      "sv": "journalist",
+      "translations": { "ru": "журналист", "en": "journalist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en journalist", "defSg": "journalisten", "indefPl": "journalister", "defPl": "journalisterna" },
+      "example": { "sv": "Journalisten intervjuade flera experter.", "ru": "Журналист взял интервью у нескольких экспертов.", "en": "The journalist interviewed several experts." }
+    }
+  ]
+}

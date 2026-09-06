@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "forst-retelling",
+      "sv": "först",
+      "translations": { "ru": "сначала, сперва", "en": "first, at first" },
+      "pos": "adv",
+      "example": { "sv": "Först gick Anna till affären.", "ru": "Сначала Анна пошла в магазин.", "en": "First Anna went to the store." }
+    },
+    {
+      "id": "sedan-retelling",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, after that" },
+      "pos": "adv",
+      "example": { "sv": "Sedan tappade hon sin telefon.", "ru": "Потом она уронила телефон.", "en": "Then she dropped her phone." }
+    },
+    {
+      "id": "darefter",
+      "sv": "därefter",
+      "translations": { "ru": "затем, после этого", "en": "after that, subsequently" },
+      "pos": "adv",
+      "example": { "sv": "Därefter ringde hon till sin väninna.", "ru": "После этого она позвонила своей подруге.", "en": "After that she called her friend." }
+    },
+    {
+      "id": "plotsligt",
+      "sv": "plötsligt",
+      "translations": { "ru": "вдруг, внезапно", "en": "suddenly" },
+      "pos": "adv",
+      "example": { "sv": "Plötsligt ropade någon på gatan.", "ru": "Вдруг кто-то крикнул на улице.", "en": "Suddenly someone shouted on the street." }
+    },
+    {
+      "id": "till-slut",
+      "sv": "till slut",
+      "translations": { "ru": "в конце концов, наконец", "en": "finally, in the end" },
+      "pos": "phrase",
+      "example": { "sv": "Till slut hittade hon telefonen.", "ru": "В конце концов она нашла телефон.", "en": "In the end she found the phone." }
+    },
+    {
+      "id": "beratta-retelling",
+      "sv": "berätta",
+      "translations": { "ru": "рассказывать", "en": "to tell" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" },
+      "example": { "sv": "Han berättade att han hade glömt nyckeln.", "ru": "Он рассказал, что забыл ключ.", "en": "He told me he had forgotten the key." }
+    },
+    {
+      "id": "saga",
+      "sv": "säga",
+      "translations": { "ru": "говорить, сказать", "en": "to say" },
+      "pos": "verb",
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt", "imperative": "säg" },
+      "example": { "sv": "Hon sa att hon inte kunde komma.", "ru": "Она сказала, что не может прийти.", "en": "She said she couldn't come." }
+    },
+    {
+      "id": "tycka-retelling",
+      "sv": "tycka",
+      "translations": { "ru": "считать, думать (иметь мнение)", "en": "to think, to feel (opinion)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka", "present": "tycker", "past": "tyckte", "supine": "tyckt" },
+      "example": { "sv": "Jag tycker att historien var rolig.", "ru": "Я считаю, что рассказ был весёлый.", "en": "I think the story was funny." }
+    },
+    {
+      "id": "tanka-retelling",
+      "sv": "tänka",
+      "translations": { "ru": "думать", "en": "to think" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tänka", "present": "tänker", "past": "tänkte", "supine": "tänkt" },
+      "example": { "sv": "Hon tänkte att det var för sent.", "ru": "Она подумала, что уже слишком поздно.", "en": "She thought it was too late." }
+    },
+    {
+      "id": "handa",
+      "sv": "hända",
+      "translations": { "ru": "случаться, происходить", "en": "to happen" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "hända", "present": "händer", "past": "hände", "supine": "hänt" },
+      "example": { "sv": "Vad hände sedan i historien?", "ru": "Что случилось потом в рассказе?", "en": "What happened next in the story?" }
+    },
+    {
+      "id": "borja-retelling",
+      "sv": "börja",
+      "translations": { "ru": "начинать(ся)", "en": "to begin, to start" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "example": { "sv": "Berättelsen börjar på morgonen.", "ru": "Рассказ начинается утром.", "en": "The story begins in the morning." }
+    },
+    {
+      "id": "sluta-retelling",
+      "sv": "sluta",
+      "translations": { "ru": "заканчивать(ся)", "en": "to end, to finish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" },
+      "example": { "sv": "Historien slutar lyckligt.", "ru": "Рассказ заканчивается счастливо.", "en": "The story ends happily." }
+    },
+    {
+      "id": "tappa",
+      "sv": "tappa",
+      "translations": { "ru": "терять, ронять", "en": "to lose, to drop" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tappa", "present": "tappar", "past": "tappade", "supine": "tappat" },
+      "example": { "sv": "Hon tappade sin telefon på gatan.", "ru": "Она уронила телефон на улице.", "en": "She dropped her phone on the street." }
+    },
+    {
+      "id": "hitta-retelling",
+      "sv": "hitta",
+      "translations": { "ru": "находить", "en": "to find" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hitta", "present": "hittar", "past": "hittade", "supine": "hittat" },
+      "example": { "sv": "En snäll man hittade telefonen.", "ru": "Добрый мужчина нашёл телефон.", "en": "A kind man found the phone." }
+    },
+    {
+      "id": "aterberatta",
+      "sv": "återberätta",
+      "translations": { "ru": "пересказывать", "en": "to retell" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "återberätta", "present": "återberättar", "past": "återberättade", "supine": "återberättat" },
+      "example": { "sv": "Kan du återberätta texten med egna ord?", "ru": "Можешь пересказать текст своими словами?", "en": "Can you retell the text in your own words?" }
+    },
+    {
+      "id": "historia-retelling",
+      "sv": "historia",
+      "translations": { "ru": "история, рассказ", "en": "story" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en historia", "defSg": "historien", "indefPl": "historier", "defPl": "historierna" },
+      "example": { "sv": "Det var en rolig historia.", "ru": "Это была весёлая история.", "en": "It was a funny story." }
+    },
+    {
+      "id": "berattelse",
+      "sv": "berättelse",
+      "translations": { "ru": "рассказ, повествование", "en": "narrative, tale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" },
+      "example": { "sv": "Berättelsen handlar om en ung man.", "ru": "Рассказ повествует о молодом мужчине.", "en": "The tale is about a young man." }
+    },
+    {
+      "id": "handling",
+      "sv": "handling",
+      "translations": { "ru": "сюжет, действие", "en": "plot, action" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handling", "defSg": "handlingen", "indefPl": "handlingar", "defPl": "handlingarna" },
+      "example": { "sv": "Handlingen utspelar sig i Stockholm.", "ru": "Действие происходит в Стокгольме.", "en": "The plot takes place in Stockholm." }
+    },
+    {
+      "id": "huvudperson",
+      "sv": "huvudperson",
+      "translations": { "ru": "главный герой", "en": "main character" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudperson", "defSg": "huvudpersonen", "indefPl": "huvudpersoner", "defPl": "huvudpersonerna" },
+      "example": { "sv": "Huvudpersonen heter Anna.", "ru": "Главную героиню зовут Анна.", "en": "The main character is called Anna." }
+    }
+  ]
+}

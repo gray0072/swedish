@@ -1,0 +1,116 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "paraphrase-strategies-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что сказать, если слово вылетело из головы?",
+        "en": "What do you say when a word slips your mind?"
+      },
+      "choices": ["Jag kommer inte på ordet, men det är typ...", "Jag förstod inte riktigt", "Med andra ord...", "Det vill säga..."],
+      "answer": 0
+    },
+    {
+      "id": "paraphrase-strategies-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как спросить, как сказать слово по-шведски?",
+        "en": "How do you ask how to say a word in Swedish?"
+      },
+      "choices": ["Vad menar du med det?", "Hur säger man det på svenska?", "Kan du parafrasera?", "Förlåt, jag förstod inte."],
+      "answer": 1
+    },
+    {
+      "id": "paraphrase-strategies-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая фраза уместна, если хочешь пояснить свою мысль другими словами?",
+        "en": "Which phrase fits when you want to restate your point in different words?"
+      },
+      "choices": ["Med andra ord...", "Bråttom!", "Kan man säga så?", "Vad betyder ordet?"],
+      "answer": 0
+    },
+    {
+      "id": "paraphrase-strategies-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Det vill säga» и «med andra ord» используются в похожей функции — пояснить сказанное.",
+        "en": "\"Det vill säga\" and \"med andra ord\" serve a similar function — clarifying what was said."
+      },
+      "answer": true
+    },
+    {
+      "id": "paraphrase-strategies-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Использовать слово «typ», описывая предмет, который забыл(а), как называется — это признак плохого владения языком.",
+        "en": "Using the word \"typ\" to describe a thing whose name you've forgotten is a sign of poor language skills."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Это нормальная разговорная стратегия, которой пользуются и носители языка.",
+        "en": "It's a normal conversational strategy that native speakers use too."
+      }
+    },
+    {
+      "id": "paraphrase-strategies-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Bråttom» описывает ситуацию, когда торопиться не нужно.",
+        "en": "\"Bråttom\" describes a situation where there is no need to hurry."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Bråttom» значит «срочно, нужно спешить».",
+        "en": "\"Bråttom\" means \"urgent, in a hurry\"."
+      }
+    },
+    {
+      "id": "paraphrase-strategies-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Förlåt, jag förstod inte ___. Kan du säga det på ett annat sätt? (совсем)" },
+      "answer": ["riktigt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "paraphrase-strategies-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vad ___ du med det? (имеешь в виду)" },
+      "answer": ["menar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "paraphrase-strategies-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь стратегическую фразу с переводом", "en": "Match the strategy phrase with its translation" },
+      "pairs": [
+        ["Jag kommer inte på ordet", "Не могу вспомнить слово"],
+        ["Med andra ord", "Другими словами"],
+        ["Vad menar du med det?", "Что ты имеешь в виду?"],
+        ["Kan du säga det på ett annat sätt?", "Можешь сказать по-другому?"]
+      ]
+    },
+    {
+      "id": "paraphrase-strategies-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Извини, я не совсем понял(а).»", "en": "Build the sentence: \"Sorry, I didn't quite understand.\"" },
+      "tokens": ["riktigt", "Förlåt,", "förstod", "inte", "jag"],
+      "answer": [1, 4, 2, 3, 0]
+    }
+  ]
+}

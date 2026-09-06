@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "utvecklingssamtal",
+      "sv": "utvecklingssamtal",
+      "translations": { "ru": "развитийная беседа (родитель–учитель)", "en": "development talk (parent-teacher conference)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utvecklingssamtal", "defSg": "utvecklingssamtalet", "indefPl": "utvecklingssamtal", "defPl": "utvecklingssamtalen" },
+      "example": { "sv": "Vi har blivit inbjudna till ett utvecklingssamtal på torsdag.", "ru": "Нас пригласили на развитийную беседу в четверг.", "en": "We've been invited to a development talk on Thursday." }
+    },
+    {
+      "id": "individuell-utvecklingsplan",
+      "sv": "individuell utvecklingsplan",
+      "translations": { "ru": "индивидуальный план развития (IUP)", "en": "individual development plan (IUP)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Läraren skriver ner mål i den individuella utvecklingsplanen.", "ru": "Учитель записывает цели в индивидуальный план развития.", "en": "The teacher writes down goals in the individual development plan." }
+    },
+    {
+      "id": "hur-det-gar-i-skolan",
+      "sv": "hur det går i skolan",
+      "translations": { "ru": "как дела в школе", "en": "how school is going" },
+      "pos": "phrase",
+      "example": { "sv": "Hur går det för honom i skolan just nu?", "ru": "Как у него сейчас дела в школе?", "en": "How is he doing at school right now?" }
+    },
+    {
+      "id": "styrka-school",
+      "sv": "styrka",
+      "translations": { "ru": "сильная сторона, сила", "en": "strength" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en styrka", "defSg": "styrkan", "indefPl": "styrkor", "defPl": "styrkorna" },
+      "example": { "sv": "Matematik är hennes styrka.", "ru": "Математика — её сильная сторона.", "en": "Math is her strength." }
+    },
+    {
+      "id": "svaghet",
+      "sv": "svaghet",
+      "translations": { "ru": "слабая сторона, слабость", "en": "weakness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en svaghet", "defSg": "svagheten", "indefPl": "svagheter", "defPl": "svagheterna" },
+      "example": { "sv": "Läraren pratade om barnets styrkor och svagheter.", "ru": "Учитель рассказал о сильных и слабых сторонах ребёнка.", "en": "The teacher talked about the child's strengths and weaknesses." }
+    },
+    {
+      "id": "laxa",
+      "sv": "läxa",
+      "translations": { "ru": "домашнее задание", "en": "homework (assignment)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
+      "example": { "sv": "Gör han läxorna varje dag?", "ru": "Он делает домашние задания каждый день?", "en": "Does he do his homework every day?" }
+    },
+    {
+      "id": "larare-school",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Läraren berättade om barnets framsteg.", "ru": "Учитель рассказал об успехах ребёнка.", "en": "The teacher talked about the child's progress." }
+    },
+    {
+      "id": "rektor",
+      "sv": "rektor",
+      "translations": { "ru": "директор школы", "en": "headteacher, principal" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rektor", "defSg": "rektorn", "indefPl": "rektorer", "defPl": "rektorerna" },
+      "example": { "sv": "Rektorn var också med på mötet.", "ru": "Директор тоже был на встрече.", "en": "The headteacher also joined the meeting." }
+    },
+    {
+      "id": "betyg",
+      "sv": "betyg",
+      "translations": { "ru": "оценка (в школе)", "en": "grade, mark" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betyg", "defSg": "betyget", "indefPl": "betyg", "defPl": "betygen" },
+      "example": { "sv": "Hon fick bra betyg i höstas.", "ru": "Она получила хорошие оценки этой осенью.", "en": "She got good grades last autumn." }
+    },
+    {
+      "id": "mentor",
+      "sv": "mentor",
+      "translations": { "ru": "наставник, классный руководитель", "en": "mentor, contact teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mentor", "defSg": "mentorn", "indefPl": "mentorer", "defPl": "mentorerna" },
+      "example": { "sv": "Prata gärna med mentorn om något känns svårt.", "ru": "Поговорите с наставником, если что-то кажется сложным.", "en": "Feel free to talk to the mentor if something feels difficult." }
+    },
+    {
+      "id": "narvaro",
+      "sv": "närvaro",
+      "translations": { "ru": "посещаемость", "en": "attendance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en närvaro", "defSg": "närvaron", "indefPl": "närvaro", "defPl": "närvaron" },
+      "example": { "sv": "Skolan mäter elevernas närvaro varje dag.", "ru": "Школа отслеживает посещаемость учеников каждый день.", "en": "The school tracks students' attendance every day." }
+    },
+    {
+      "id": "franvaro",
+      "sv": "frånvaro",
+      "translations": { "ru": "отсутствие, пропуск занятий", "en": "absence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frånvaro", "defSg": "frånvaron", "indefPl": "frånvaro", "defPl": "frånvaron" },
+      "example": { "sv": "Vid frånvaro måste man anmäla det på morgonen.", "ru": "При отсутствии нужно сообщить об этом утром.", "en": "In case of absence, you must report it in the morning." }
+    },
+    {
+      "id": "utvecklas",
+      "sv": "utvecklas",
+      "translations": { "ru": "развиваться", "en": "to develop, to progress" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utvecklas", "present": "utvecklas", "past": "utvecklades", "supine": "utvecklats" },
+      "example": { "sv": "Han har utvecklats mycket i svenska i år.", "ru": "Он сильно продвинулся в шведском за этот год.", "en": "He has progressed a lot in Swedish this year." }
+    },
+    {
+      "id": "boka-in",
+      "sv": "boka in",
+      "translations": { "ru": "назначить, запланировать (время)", "en": "to schedule, to book in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "boka in", "present": "bokar in", "past": "bokade in", "supine": "bokat in" },
+      "example": { "sv": "Kan vi boka in samtalet en annan dag?", "ru": "Можем назначить беседу на другой день?", "en": "Can we schedule the talk for another day?" }
+    },
+    {
+      "id": "vad-kan-vi-gora-hemma",
+      "sv": "vad kan vi göra hemma för att hjälpa?",
+      "translations": { "ru": "что мы можем делать дома, чтобы помочь?", "en": "what can we do at home to help?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad kan vi göra hemma för att hjälpa henne?", "ru": "Что мы можем делать дома, чтобы ей помочь?", "en": "What can we do at home to help her?" }
+    },
+    {
+      "id": "han-behover-trana-mer-pa",
+      "sv": "han/hon behöver träna mer på...",
+      "translations": { "ru": "ему/ей нужно больше тренироваться в...", "en": "he/she needs to practice more on..." },
+      "pos": "phrase",
+      "example": { "sv": "Hon behöver träna mer på att läsa.", "ru": "Ей нужно больше тренироваться в чтении.", "en": "She needs to practice reading more." }
+    },
+    {
+      "id": "forklara-ordet",
+      "sv": "kan du förklara vad det ordet betyder?",
+      "translations": { "ru": "можете объяснить, что значит это слово?", "en": "can you explain what that word means?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du förklara vad det ordet betyder?", "ru": "Можете объяснить, что значит это слово?", "en": "Can you explain what that word means?" }
+    }
+  ]
+}

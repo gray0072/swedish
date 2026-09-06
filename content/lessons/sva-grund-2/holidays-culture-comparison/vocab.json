@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "till-skillnad-fran",
+      "sv": "till skillnad från",
+      "translations": { "ru": "в отличие от", "en": "unlike, in contrast to" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-liknande-satt",
+      "sv": "på liknande sätt",
+      "translations": { "ru": "похожим образом", "en": "in a similar way" },
+      "pos": "phrase"
+    },
+    {
+      "id": "en-intressant-skillnad",
+      "sv": "en intressant skillnad är att",
+      "translations": { "ru": "интересное отличие в том, что", "en": "an interesting difference is that" },
+      "pos": "phrase"
+    },
+    {
+      "id": "generellt-sett",
+      "sv": "generellt sett",
+      "translations": { "ru": "в целом, вообще говоря", "en": "generally speaking" },
+      "pos": "phrase",
+      "example": { "sv": "Generellt sett är svenska högtider ofta kopplade till naturen.", "ru": "В целом шведские праздники часто связаны с природой.", "en": "Generally speaking, Swedish holidays are often tied to nature." }
+    },
+    {
+      "id": "medan-comparison",
+      "sv": "medan",
+      "translations": { "ru": "тогда как, в то время как", "en": "while, whereas" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "skillnad",
+      "sv": "skillnad",
+      "translations": { "ru": "отличие, разница", "en": "difference" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skillnad", "defSg": "skillnaden", "indefPl": "skillnader", "defPl": "skillnaderna" }
+    },
+    {
+      "id": "likhet",
+      "sv": "likhet",
+      "translations": { "ru": "сходство", "en": "similarity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" }
+    },
+    {
+      "id": "vara-van-vid",
+      "sv": "vara van vid",
+      "translations": { "ru": "быть привычным к, привыкнуть к", "en": "to be used to" },
+      "pos": "phrase",
+      "example": { "sv": "Jag är van vid att fira med hela byn.", "ru": "Я привык(ла) отмечать со всей деревней.", "en": "I'm used to celebrating with the whole village." }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/describing-charts",
+  "slug": "describing-charts",
+  "title": {
+    "sv": "Beskriva ett diagram och statistik i enkla ord",
+    "ru": "Описание графика и статистики простыми словами",
+    "en": "Describing a chart and statistics in plain words"
+  },
+  "summary": {
+    "ru": "Öka, minska, en topp, majoriteten — слова, чтобы пересказать смысл графика своими словами.",
+    "en": "Öka, minska, en topp, majoriteten — the words to describe what a chart shows in your own words."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-2"],
+  "tags": ["phrases", "statistics", "writing"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1190,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

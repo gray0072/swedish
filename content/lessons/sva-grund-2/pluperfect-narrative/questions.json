@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-pluperfect-narrative-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Когда она пришла на вокзал, поезд уже ушёл.» Как сказать правильно?", "en": "\"When she got to the station, the train had already left.\" How do you say it correctly?" },
+      "choices": ["När hon kom till stationen hade tåget redan gått.", "När hon kom till stationen har tåget redan gått.", "När hon kom till stationen gick tåget redan.", "När hon kom till stationen kommer tåget redan att gå."],
+      "answer": 0,
+      "explanation": { "ru": "Отправление поезда случилось раньше прихода на вокзал — плюсквамперфект.", "en": "The train's departure happened before the arrival at the station — the pluperfect." }
+    },
+    {
+      "id": "q-pluperfect-narrative-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Он был усталым, потому что не спал ночью.» Какой вариант правильный?", "en": "\"He was tired because he hadn't slept that night.\" Which version is correct?" },
+      "choices": ["Han var trött eftersom han inte hade sovit på natten.", "Han är trött eftersom han inte hade sovit på natten.", "Han var trött eftersom han inte har sovit på natten.", "Han hade varit trött eftersom han sover inte på natten."],
+      "answer": 0
+    },
+    {
+      "id": "q-pluperfect-narrative-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag kom hem klockan sju. Jag hade redan ätit middag på jobbet. Sedan somnade jag direkt.» Какое событие произошло раньше всех?", "en": "\"Jag kom hem klockan sju. Jag hade redan ätit middag på jobbet. Sedan somnade jag direkt.\" Which event happened earliest?" },
+      "choices": ["Пришёл домой / Got home", "Поел на работе / Ate at work", "Заснул / Fell asleep", "Все одновременно / All at the same time"],
+      "answer": 1
+    },
+    {
+      "id": "q-pluperfect-narrative-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "När hon kom till stationen ___ tåget redan. (плюсквамперфект, gå)" },
+      "answer": ["hade gått"]
+    },
+    {
+      "id": "q-pluperfect-narrative-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han var trött eftersom han inte ___ på natten. (плюсквамперфект, sova)" },
+      "answer": ["hade sovit"]
+    },
+    {
+      "id": "q-pluperfect-narrative-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ middag innan jag kom hem. (плюсквамперфект, äta)" },
+      "answer": ["hade ätit"]
+    },
+    {
+      "id": "q-pluperfect-narrative-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Klockan sju ___ jag hem, och sedan somnade jag direkt. (претерит, komma)" },
+      "answer": ["kom"]
+    },
+    {
+      "id": "q-pluperfect-narrative-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Плюсквамперфект строится как hade + супин.", "en": "The pluperfect is built as hade + supine." },
+      "answer": true
+    },
+    {
+      "id": "q-pluperfect-narrative-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Плюсквамперфект используется для главной, хронологической линии событий в рассказе, а не для более раннего события.", "en": "The pluperfect is used for the main, chronological timeline of a story, not for an earlier event." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: главная линия обычно идёт в претерите, а плюсквамперфект отмечает событие, случившееся раньше.", "en": "It's the opposite: the main timeline usually runs in the preteritum, and the pluperfect marks an event that happened earlier." }
+    },
+    {
+      "id": "q-pluperfect-narrative-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Слова redan, tidigare, innan часто сигналят о плюсквамперфекте.", "en": "Words like redan, tidigare, innan often signal the pluperfect." },
+      "answer": true
+    },
+    {
+      "id": "q-pluperfect-narrative-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag hade redan ätit middag på jobbet» описывает событие, случившееся раньше остальной части рассказа.", "en": "\"Jag hade redan ätit middag på jobbet\" describes an event that happened before the rest of the story." },
+      "answer": true
+    },
+    {
+      "id": "q-pluperfect-narrative-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Поезд уже ушёл.»", "en": "Build the sentence: \"The train had already left.\"" },
+      "tokens": ["redan", "gått", "hade", "Tåget"],
+      "answer": [3, 2, 0, 1]
+    },
+    {
+      "id": "q-pluperfect-narrative-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я уже поел (обед).»", "en": "Build the sentence: \"I had already eaten (dinner).\"" },
+      "tokens": ["ätit", "redan", "middag", "hade", "Jag"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-pluperfect-narrative-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предложение с его ролью в рассказе", "en": "Match the sentence with its role in the story" },
+      "pairs": [
+        ["Главная линия (претерит)", "Jag kom hem klockan sju."],
+        ["Более раннее событие (плюсквамперфект)", "Jag hade redan ätit middag på jobbet."],
+        ["Продолжение линии (претерит)", "Sedan somnade jag direkt."]
+      ]
+    }
+  ]
+}

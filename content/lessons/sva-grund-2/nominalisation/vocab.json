@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "undersoka",
+      "sv": "undersöka",
+      "translations": { "ru": "исследовать, обследовать", "en": "to investigate, to examine" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" }
+    },
+    {
+      "id": "undersokning",
+      "sv": "undersökning",
+      "translations": { "ru": "исследование, обследование", "en": "investigation, examination" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en undersökning", "defSg": "undersökningen", "indefPl": "undersökningar", "defPl": "undersökningarna" },
+      "example": { "sv": "Efter undersökningen fattades ett beslut.", "ru": "После исследования было принято решение.", "en": "After the investigation, a decision was made." }
+    },
+    {
+      "id": "anvanda-nom",
+      "sv": "användande",
+      "translations": { "ru": "использование (сам процесс)", "en": "usage, the act of using" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "Абстрактное существительное от «använda», совпадает по форме с презенс-причастием.", "en": "An abstract noun from \"använda\", identical in shape to the present participle." }
+    },
+    {
+      "id": "agerande",
+      "sv": "agerande",
+      "translations": { "ru": "поведение, образ действий", "en": "behaviour, conduct" },
+      "pos": "noun",
+      "gender": "ett"
+    },
+    {
+      "id": "mojlighet",
+      "sv": "möjlighet",
+      "translations": { "ru": "возможность", "en": "possibility" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" }
+    },
+    {
+      "id": "sakerhet",
+      "sv": "säkerhet",
+      "translations": { "ru": "надёжность, безопасность", "en": "safety, security" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" }
+    },
+    {
+      "id": "berattelse",
+      "sv": "berättelse",
+      "translations": { "ru": "рассказ, повествование", "en": "story, narrative" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" }
+    },
+    {
+      "id": "upplevelse",
+      "sv": "upplevelse",
+      "translations": { "ru": "переживание, впечатление", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en upplevelse", "defSg": "upplevelsen", "indefPl": "upplevelser", "defPl": "upplevelserna" }
+    },
+    {
+      "id": "utbildning",
+      "sv": "utbildning",
+      "translations": { "ru": "образование, обучение", "en": "education, training" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" }
+    }
+  ]
+}

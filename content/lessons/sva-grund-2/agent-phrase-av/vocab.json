@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "av",
+      "sv": "av",
+      "translations": { "ru": "(агентивный предлог) кем/чем", "en": "by (agent-marking preposition)" },
+      "pos": "prep",
+      "note": { "ru": "Вводит деятеля в пассивном предложении: skrevs av Astrid Lindgren.", "en": "Introduces the doer in a passive sentence: skrevs av Astrid Lindgren." }
+    },
+    {
+      "id": "stjala",
+      "sv": "stjäla",
+      "translations": { "ru": "красть", "en": "to steal" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stjäla", "present": "stjäl", "past": "stal", "supine": "stulit" },
+      "example": { "sv": "Bilen blev stulen i natt.", "ru": "Машину угнали ночью.", "en": "The car got stolen last night." }
+    },
+    {
+      "id": "servera",
+      "sv": "servera",
+      "translations": { "ru": "подавать (еду)", "en": "to serve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "servera", "present": "serverar", "past": "serverade", "supine": "serverat" }
+    },
+    {
+      "id": "krossa",
+      "sv": "krossa",
+      "translations": { "ru": "разбивать", "en": "to break, to smash" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "krossa", "present": "krossar", "past": "krossade", "supine": "krossat" }
+    },
+    {
+      "id": "bygga",
+      "sv": "bygga",
+      "translations": { "ru": "строить", "en": "to build" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bygga", "present": "bygger", "past": "byggde", "supine": "byggt" }
+    },
+    {
+      "id": "fonster",
+      "sv": "fönster",
+      "translations": { "ru": "окно", "en": "window" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "fönster", "defSg": "fönstret", "indefPl": "fönster", "defPl": "fönstren" }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" }
+    },
+    {
+      "id": "middag",
+      "sv": "middag",
+      "translations": { "ru": "обед/ужин", "en": "dinner" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "middag", "defSg": "middagen", "indefPl": "middagar", "defPl": "middagarna" }
+    },
+    {
+      "id": "chef",
+      "sv": "chef",
+      "translations": { "ru": "начальник", "en": "boss" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "chef", "defSg": "chefen", "indefPl": "chefer", "defPl": "cheferna" }
+    },
+    {
+      "id": "farfar",
+      "sv": "farfar",
+      "translations": { "ru": "дедушка (по отцу)", "en": "paternal grandfather" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "farfar", "defSg": "farfadern", "indefPl": "farfäder", "defPl": "farfäderna" }
+    },
+    {
+      "id": "natt",
+      "sv": "natt",
+      "translations": { "ru": "ночь", "en": "night" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "natt", "defSg": "natten", "indefPl": "nätter", "defPl": "nätterna" }
+    },
+    {
+      "id": "i-natt",
+      "sv": "i natt",
+      "translations": { "ru": "этой ночью", "en": "last night / tonight" },
+      "pos": "phrase",
+      "note": { "ru": "Значение зависит от времени высказывания: прошлая или предстоящая ночь.", "en": "The meaning depends on when it's said: the night just past or the one still ahead." }
+    },
+    {
+      "id": "okand",
+      "sv": "okänd",
+      "translations": { "ru": "неизвестный", "en": "unknown" },
+      "pos": "adj"
+    },
+    {
+      "id": "viktig",
+      "sv": "viktig",
+      "translations": { "ru": "важный", "en": "important" },
+      "pos": "adj"
+    }
+  ]
+}

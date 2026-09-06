@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/rental-contract-rights",
+  "slug": "rental-contract-rights",
+  "title": {
+    "sv": "Hyreskontrakt: rättigheter och skyldigheter",
+    "ru": "Жильё: договор аренды, права и обязанности сторон",
+    "en": "Housing: the rental contract, the rights and duties of both parties"
+  },
+  "summary": {
+    "ru": "Хозяин и наниматель, обязанности по содержанию жилья, защита от выселения и расторжение договора со стороны арендодателя.",
+    "en": "Landlord and tenant, upkeep obligations, security of tenure and termination by the landlord."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "housing",
+    "bureaucracy",
+    "legal"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1110,
+  "prerequisites": [
+    "sva-grund-1/housing-contract"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/formal-letter-organisation",
+  "slug": "formal-letter-organisation",
+  "title": {
+    "sv": "Formellt brev till en myndighet eller organisation",
+    "ru": "Формальное письмо в организацию",
+    "en": "A formal letter to an organisation"
+  },
+  "summary": {
+    "ru": "Формальный регистр вместо личного письма: обращения (Hej, / Bäste herr/fru...), прощание Med vänlig hälsning, и фразы просьбы Jag vänder mig till er angående..., Jag skulle vilja fråga om....",
+    "en": "The formal register versus a personal letter: salutations (Hej, / Bäste herr/fru...), the closing Med vänlig hälsning, and request phrases like Jag vänder mig till er angående..., Jag skulle vilja fråga om...."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "letter",
+    "formal",
+    "writing",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1220,
+  "prerequisites": [
+    "sva-grund-1/personal-letter"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

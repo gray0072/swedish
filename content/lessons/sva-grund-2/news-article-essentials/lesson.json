@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/news-article-essentials",
+  "slug": "news-article-essentials",
+  "title": {
+    "sv": "Nyheter: att läsa en kort artikel och hitta det viktigaste",
+    "ru": "Новости: чтение короткой статьи и выделение главного",
+    "en": "News: reading a short article and picking out the essentials"
+  },
+  "summary": {
+    "ru": "Фразы и слова для чтения короткой новостной статьи: как понять, о чём она, и сослаться на источник.",
+    "en": "Phrases and vocabulary for reading a short news article: getting the gist, what it's about, and referring back to the source."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "phrases",
+    "news",
+    "reading"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1180,
+  "prerequisites": [
+    "sva-grund-1/retelling-news"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

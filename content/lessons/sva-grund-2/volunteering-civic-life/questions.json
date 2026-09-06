@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-volunteering-civic-life-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что такое en ideell förening?", "en": "What is en ideell förening?" },
+      "choices": [
+        { "ru": "Некоммерческое объединение", "en": "A non-profit association" },
+        { "ru": "Государственное учреждение", "en": "A government agency" },
+        { "ru": "Частная компания", "en": "A private company" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-volunteering-civic-life-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «engagera sig»?", "en": "What does \"engagera sig\" mean?" },
+      "choices": ["вовлекаться, активно заниматься чем-то / to get involved", "отдыхать / to relax", "переезжать / to move house"],
+      "answer": 0
+    },
+    {
+      "id": "q-volunteering-civic-life-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Гражданская жизнь сводится только к формальному волонтёрству в крупных организациях.", "en": "Civic life comes down only to formal volunteering at large organisations." },
+      "answer": false,
+      "explanation": { "ru": "Небольшой личный вклад — помощь соседу, местное объединение — тоже часть гражданской жизни.", "en": "A small personal contribution — helping a neighbour, a local association — is also part of civic life." }
+    },
+    {
+      "id": "q-volunteering-civic-life-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Alla ___ har rätt att delta i beslut som rör kommunen. (medborgare)" },
+      "answer": ["medborgare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-volunteering-civic-life-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Många vill ___ samhället på sin fritid. (bidra till)" },
+      "answer": ["bidra till"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-volunteering-civic-life-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["medborgare", "гражданин / citizen"],
+        ["samhälle", "общество / society"],
+        ["delta i", "участвовать в / to take part in"],
+        ["engagera sig", "вовлекаться / to get involved"]
+      ]
+    },
+    {
+      "id": "q-volunteering-civic-life-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он активно занимается вопросами климата.»", "en": "Build the sentence: \"He's actively engaged in climate issues.\"" },
+      "tokens": ["Han", "engagerar", "sig", "i", "klimatfrågor"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-volunteering-civic-life-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Волонтёрство в Швеции часто организовано через некоммерческие объединения.", "en": "Volunteering in Sweden is often organised through non-profit associations." },
+      "answer": true
+    },
+    {
+      "id": "q-volunteering-civic-life-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "С чего часто начинается гражданское участие?", "en": "What does civic participation often start with?" },
+      "choices": [
+        { "ru": "С малого: помощи соседу, местного объединения", "en": "With something small: helping a neighbour, a local association" },
+        { "ru": "Только с работы в крупной организации", "en": "Only with work at a large organisation" }
+      ],
+      "answer": 0
+    }
+  ]
+}

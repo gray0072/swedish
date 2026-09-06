@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "id": "stanga",
+      "sv": "stänga",
+      "translations": { "ru": "закрывать", "en": "to close" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "stänga", "present": "stänger", "past": "stängde", "supine": "stängt" },
+      "example": { "sv": "Affären stängs klockan arton.", "ru": "Магазин закрывается в 18:00.", "en": "The shop closes at 18:00." }
+    },
+    {
+      "id": "oppna",
+      "sv": "öppna",
+      "translations": { "ru": "открывать", "en": "to open" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öppna", "present": "öppnar", "past": "öppnade", "supine": "öppnat" }
+    },
+    {
+      "id": "skriva",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Boken skrevs av en känd författare.", "ru": "Книгу написал известный автор.", "en": "The book was written by a well-known author." }
+    },
+    {
+      "id": "salja",
+      "sv": "sälja",
+      "translations": { "ru": "продавать", "en": "to sell" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sälja", "present": "säljer", "past": "sålde", "supine": "sålt" }
+    },
+    {
+      "id": "bygga",
+      "sv": "bygga",
+      "translations": { "ru": "строить", "en": "to build" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bygga", "present": "bygger", "past": "byggde", "supine": "byggt" }
+    },
+    {
+      "id": "bli",
+      "sv": "bli",
+      "translations": { "ru": "стать", "en": "to become" },
+      "pos": "verb",
+      "forms": { "infinitive": "bli", "present": "blir", "past": "blev", "supine": "blivit" },
+      "note": { "ru": "Вспомогательный глагол bli-пассива: bli + причастие (blev stängd).", "en": "The auxiliary of the bli-passive: bli + participle (blev stängd)." }
+    },
+    {
+      "id": "vara",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "note": { "ru": "Вспомогательный глагол vara-пассива: vara + причастие (är stängd).", "en": "The auxiliary of the vara-passive: vara + participle (är stängd)." }
+    },
+    {
+      "id": "passiv",
+      "sv": "passiv",
+      "translations": { "ru": "пассивный", "en": "passive" },
+      "pos": "adj"
+    },
+    {
+      "id": "aktiv",
+      "sv": "aktiv",
+      "translations": { "ru": "активный", "en": "active" },
+      "pos": "adj"
+    },
+    {
+      "id": "dorr",
+      "sv": "dörr",
+      "translations": { "ru": "дверь", "en": "door" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "dörr", "defSg": "dörren", "indefPl": "dörrar", "defPl": "dörrarna" }
+    },
+    {
+      "id": "butik",
+      "sv": "butik",
+      "translations": { "ru": "магазин", "en": "shop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "butik", "defSg": "butiken", "indefPl": "butiker", "defPl": "butikerna" }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" }
+    },
+    {
+      "id": "forfattare",
+      "sv": "författare",
+      "translations": { "ru": "автор", "en": "author" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" }
+    },
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" }
+    },
+    {
+      "id": "varje-dag",
+      "sv": "varje dag",
+      "translations": { "ru": "каждый день", "en": "every day" },
+      "pos": "phrase"
+    },
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv"
+    }
+  ]
+}

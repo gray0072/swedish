@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-household-economy-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Аренда — наш самый большой расход.»", "en": "Build the sentence: \"Rent is our biggest expense.\"" },
+      "tokens": ["största", "är", "utgift", "vår", "Hyran"],
+      "answer": [4, 1, 3, 0, 2]
+    },
+    {
+      "id": "q-household-economy-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я плачу за аренду через автоплатёж.»", "en": "Build the sentence: \"I pay the rent via direct debit.\"" },
+      "tokens": ["via", "hyran", "betalar", "autogiro", "Jag"],
+      "answer": [4, 2, 1, 0, 3]
+    },
+    {
+      "id": "q-household-economy-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["sparkonto", "сберегательный счёт"],
+        ["lönekonto", "зарплатный счёт"],
+        ["autogiro", "автоплатёж"],
+        ["e-faktura", "электронный счёт"]
+      ]
+    },
+    {
+      "id": "q-household-economy-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Förfallodag» — это день, когда пришла зарплата.", "en": "\"Förfallodag\" is the day your salary arrives." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Förfallodag» — это крайний срок оплаты счёта, а не день зарплаты.",
+        "en": "\"Förfallodag\" is a bill's payment due date, not payday."
+      }
+    },
+    {
+      "id": "q-household-economy-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Autogiro» позволяет банку автоматически списывать деньги для оплаты счетов.", "en": "\"Autogiro\" lets the bank automatically withdraw money to pay bills." },
+      "answer": true
+    },
+    {
+      "id": "q-household-economy-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Räkningen ___ om tio dagar. (наступает срок)" },
+      "answer": ["förfaller"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-household-economy-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag sätter in pengar på ___ varje månad. (сберегательный счёт)" },
+      "answer": ["sparkontot"],
+      "acceptAlso": ["sparkonto"]
+    },
+    {
+      "id": "q-household-economy-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь, чтобы банк сам списывал деньги за счета каждый месяц, без твоего участия. Что нужно настроить?",
+        "en": "You want the bank to automatically withdraw money for bills every month. What should you set up?"
+      },
+      "choices": ["Autogiro", "Sparkonto", "Ränta", "Lån"],
+      "answer": 0
+    },
+    {
+      "id": "q-household-economy-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твои расходы в этом месяце больше, чем доход. Что из этого верно?",
+        "en": "Your expenses this month are greater than your income. Which statement is true?"
+      },
+      "choices": ["Utgifterna är större än inkomsten", "Inkomsten är större än utgifterna", "Räntan är noll", "Budgeten är perfekt"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-concessive-clauses-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Han spelar fotboll ___ han är skadad» — известно, что он на самом деле травмирован. Какой союз подходит?",
+        "en": "\"Han spelar fotboll ___ han är skadad\" — it's known that he really is injured. Which conjunction fits?"
+      },
+      "choices": ["fast", "även om", "tills", "medan"],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Han spelar fotboll ___ han är skadad» — неизвестно, травмирован ли он на самом деле. Какой союз подходит?",
+        "en": "\"Han spelar fotboll ___ han är skadad\" — it's unknown whether he's really injured. Which conjunction fits?"
+      },
+      "choices": ["även om", "fast", "eftersom", "trots att"],
+      "answer": 0,
+      "explanation": {
+        "ru": "«även om» вводит гипотезу («даже если это так»), в отличие от «fast/trots att», которые сообщают о реальном факте.",
+        "en": "\"även om\" introduces a hypothesis (\"even if that's the case\"), unlike \"fast/trots att\", which report a real fact."
+      }
+    },
+    {
+      "id": "q-concessive-clauses-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В чём разница между «fast/trots att» и «även om»?",
+        "en": "What's the difference between \"fast/trots att\" and \"även om\"?"
+      },
+      "choices": [
+        { "ru": "«fast/trots att» — реальный факт, «även om» — предположение", "en": "\"fast/trots att\" is a real fact, \"även om\" is a hypothesis" },
+        { "ru": "Оба означают одно и то же", "en": "Both mean exactly the same thing" },
+        { "ru": "«även om» — реальный факт, «fast/trots att» — предположение", "en": "\"även om\" is a real fact, \"fast/trots att\" is a hypothesis" },
+        { "ru": "«fast» относится только к будущему времени", "en": "\"fast\" refers only to future time" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой из двух синонимов более книжный, письменный?", "en": "Which of the two synonyms is more formal, more written?" },
+      "choices": ["trots att", "fast", "även om", "medan"],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Где стоит «inte» в bisats «...trots att hon inte mådde bra»?",
+        "en": "Where does \"inte\" stand in the bisats \"...trots att hon inte mådde bra\"?"
+      },
+      "choices": [
+        { "ru": "Перед личным глаголом «mådde»", "en": "Before the finite verb \"mådde\"" },
+        { "ru": "После личного глагола «mådde»", "en": "After the finite verb \"mådde\"" },
+        { "ru": "В конце предложения", "en": "At the end of the clause" },
+        { "ru": "Перед союзом «trots att»", "en": "Before the conjunction \"trots att\"" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Han spelar fotboll ___ han är skadad. (реальный факт)",
+        "ru": "Заполни союз для реального факта.",
+        "en": "Fill in the conjunction for a real fact."
+      },
+      "answer": ["fast", "trots att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-concessive-clauses-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Han spelar fotboll ___ han är skadad. (неизвестно, факт ли это)",
+        "ru": "Заполни союз для гипотезы, возможно неверной.",
+        "en": "Fill in the conjunction for a hypothesis, possibly untrue."
+      },
+      "answer": ["även om"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-concessive-clauses-gap-3",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Hon jobbade trots att hon ___ mådde bra.",
+        "ru": "Заполни отрицание внутри bisats (BIFF).",
+        "en": "Fill in the negation inside the bisats (BIFF)."
+      },
+      "answer": ["inte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-concessive-clauses-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Она работала, хотя ей было нехорошо.»",
+        "en": "Build the sentence: \"She worked even though she wasn't feeling well.\""
+      },
+      "tokens": ["bra", "mådde", "inte", "hon", "att", "trots", "jobbade", "Hon"],
+      "answer": [7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-concessive-clauses-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Я выйду, даже если дождь не перестанет.»",
+        "en": "Build the sentence: \"I'll go out even if it doesn't stop raining.\""
+      },
+      "tokens": ["regna", "slutar", "inte", "det", "om", "även", "ut", "går", "Jag"],
+      "answer": [8, 7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-concessive-clauses-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение (реальный факт): «Он играет в футбол, хотя он травмирован.»",
+        "en": "Build the sentence (a real fact): \"He plays football even though he's injured.\""
+      },
+      "tokens": ["skadad", "är", "han", "fast", "fotboll", "spelar", "Han"],
+      "answer": [6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-concessive-clauses-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«fast» и «trots att» вводят факт, который действительно имеет место.",
+        "en": "\"fast\" and \"trots att\" introduce a fact that really holds."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-concessive-clauses-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«även om» означает то же самое, что «fast» — сообщение о реальном факте.",
+        "en": "\"även om\" means the same as \"fast\" — reporting a real fact."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет: «även om» вводит гипотезу, которая может быть и неверна («даже если это так»).",
+        "en": "No: \"även om\" introduces a hypothesis that may not be true (\"even if that's the case\")."
+      }
+    },
+    {
+      "id": "q-concessive-clauses-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«trots att» более книжный вариант, чем разговорное «fast».", "en": "\"trots att\" is a more formal variant than the spoken \"fast\"." },
+      "answer": true
+    },
+    {
+      "id": "q-concessive-clauses-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь союз со значением", "en": "Match the conjunction with its meaning" },
+      "pairs": [
+        ["fast", "хотя (факт, разговорное)"],
+        ["trots att", "хотя (факт, книжное)"],
+        ["även om", "даже если (гипотеза)"]
+      ]
+    }
+  ]
+}

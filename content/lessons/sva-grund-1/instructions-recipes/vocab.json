@@ -1,0 +1,151 @@
+{
+  "items": [
+    {
+      "id": "forst",
+      "sv": "först",
+      "translations": { "ru": "сначала", "en": "first" },
+      "pos": "adv",
+      "example": { "sv": "Först skalar du potatisen.", "ru": "Сначала почисти картошку.", "en": "First, peel the potatoes." }
+    },
+    {
+      "id": "sedan-recept",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, next" },
+      "pos": "adv",
+      "example": { "sv": "Sedan skär du den i bitar.", "ru": "Потом нарежь её кусочками.", "en": "Then cut it into pieces." }
+    },
+    {
+      "id": "darefter",
+      "sv": "därefter",
+      "translations": { "ru": "после этого, затем", "en": "after that" },
+      "pos": "adv",
+      "example": { "sv": "Därefter tillsätter du saltet.", "ru": "После этого добавь соль.", "en": "After that, add the salt." }
+    },
+    {
+      "id": "till-sist",
+      "sv": "till sist",
+      "translations": { "ru": "в конце, напоследок", "en": "finally, lastly" },
+      "pos": "phrase",
+      "example": { "sv": "Till sist häller du upp soppan.", "ru": "В конце разлей суп.", "en": "Finally, ladle out the soup." }
+    },
+    {
+      "id": "steg-for-steg",
+      "sv": "steg för steg",
+      "translations": { "ru": "шаг за шагом", "en": "step by step" },
+      "pos": "phrase",
+      "example": { "sv": "Följ receptet steg för steg.", "ru": "Следуй рецепту шаг за шагом.", "en": "Follow the recipe step by step." }
+    },
+    {
+      "id": "tillsatta",
+      "sv": "tillsätta",
+      "translations": { "ru": "добавлять (ингредиент)", "en": "to add (an ingredient)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "tillsätta", "present": "tillsätter", "past": "tillsatte", "supine": "tillsatt", "imperative": "tillsätt" },
+      "example": { "sv": "Tillsätt salt och peppar.", "ru": "Добавь соль и перец.", "en": "Add salt and pepper." }
+    },
+    {
+      "id": "blanda-recept",
+      "sv": "blanda",
+      "translations": { "ru": "смешивать", "en": "to mix" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "blanda", "present": "blandar", "past": "blandade", "supine": "blandat", "imperative": "blanda" },
+      "example": { "sv": "Blanda mjölet med äggen.", "ru": "Смешай муку с яйцами.", "en": "Mix the flour with the eggs." }
+    },
+    {
+      "id": "rora-om",
+      "sv": "röra om",
+      "translations": { "ru": "помешивать", "en": "to stir" },
+      "pos": "verb",
+      "forms": { "infinitive": "röra om", "present": "rör om", "past": "rörde om", "supine": "rört om", "imperative": "rör om" },
+      "example": { "sv": "Rör om i grytan med en slev.", "ru": "Помешай в кастрюле половником.", "en": "Stir the pot with a ladle." }
+    },
+    {
+      "id": "sjuda",
+      "sv": "sjuda",
+      "translations": { "ru": "томиться, слабо кипеть", "en": "to simmer" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sjuda", "present": "sjuder", "past": "sjöd", "supine": "sjudit", "imperative": "sjud" },
+      "example": { "sv": "Låt grytan sjuda i tjugo minuter.", "ru": "Пусть рагу потомится двадцать минут.", "en": "Let the stew simmer for twenty minutes." }
+    },
+    {
+      "id": "lata-sjuda",
+      "sv": "låt sjuda",
+      "translations": { "ru": "пусть томится, оставь кипеть на медленном огне", "en": "let it simmer" },
+      "pos": "phrase",
+      "example": { "sv": "Häll i buljongen och låt sjuda.", "ru": "Влей бульон и оставь томиться.", "en": "Pour in the broth and let it simmer." }
+    },
+    {
+      "id": "koka-upp",
+      "sv": "koka upp",
+      "translations": { "ru": "довести до кипения", "en": "to bring to a boil" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "koka upp", "present": "kokar upp", "past": "kokade upp", "supine": "kokat upp", "imperative": "koka upp" },
+      "example": { "sv": "Koka upp vattnet innan du tillsätter pastan.", "ru": "Доведи воду до кипения, прежде чем добавить макароны.", "en": "Bring the water to a boil before adding the pasta." }
+    },
+    {
+      "id": "halla",
+      "sv": "hälla",
+      "translations": { "ru": "лить, наливать", "en": "to pour" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "hälla", "present": "häller", "past": "hällde", "supine": "hällt", "imperative": "häll" },
+      "example": { "sv": "Häll mjölken i skålen.", "ru": "Налей молоко в миску.", "en": "Pour the milk into the bowl." }
+    },
+    {
+      "id": "halla-upp",
+      "sv": "hälla upp",
+      "translations": { "ru": "разливать (по тарелкам), подавать", "en": "to dish up, to ladle out" },
+      "pos": "verb",
+      "forms": { "infinitive": "hälla upp", "present": "häller upp", "past": "hällde upp", "supine": "hällt upp", "imperative": "häll upp" },
+      "example": { "sv": "Häll upp soppan i tallrikarna.", "ru": "Разлей суп по тарелкам.", "en": "Ladle the soup into the plates." }
+    },
+    {
+      "id": "stalla-in",
+      "sv": "ställa in",
+      "translations": { "ru": "устанавливать (таймер, температуру)", "en": "to set (a timer, the oven)" },
+      "pos": "verb",
+      "forms": { "infinitive": "ställa in", "present": "ställer in", "past": "ställde in", "supine": "ställt in", "imperative": "ställ in" },
+      "example": { "sv": "Ställ in ugnen på tvåhundra grader.", "ru": "Поставь духовку на двести градусов.", "en": "Set the oven to two hundred degrees." }
+    },
+    {
+      "id": "servera-recept",
+      "sv": "servera",
+      "translations": { "ru": "подавать (блюдо)", "en": "to serve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "servera", "present": "serverar", "past": "serverade", "supine": "serverat", "imperative": "servera" },
+      "example": { "sv": "Servera med bröd och sallad.", "ru": "Подавай с хлебом и салатом.", "en": "Serve with bread and salad." }
+    },
+    {
+      "id": "recept-instr",
+      "sv": "recept",
+      "translations": { "ru": "рецепт", "en": "recipe" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett recept", "defSg": "receptet", "indefPl": "recept", "defPl": "recepten" },
+      "example": { "sv": "Receptet räcker till fyra portioner.", "ru": "Рецепта хватает на четыре порции.", "en": "The recipe is enough for four servings." }
+    },
+    {
+      "id": "ingrediens",
+      "sv": "ingrediens",
+      "translations": { "ru": "ингредиент", "en": "ingredient" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ingrediens", "defSg": "ingrediensen", "indefPl": "ingredienser", "defPl": "ingredienserna" },
+      "example": { "sv": "Vilka ingredienser behöver vi?", "ru": "Какие ингредиенты нам нужны?", "en": "Which ingredients do we need?" }
+    },
+    {
+      "id": "portion",
+      "sv": "portion",
+      "translations": { "ru": "порция", "en": "portion, serving" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en portion", "defSg": "portionen", "indefPl": "portioner", "defPl": "portionerna" },
+      "example": { "sv": "Det här receptet ger fyra portioner.", "ru": "Этот рецепт рассчитан на четыре порции.", "en": "This recipe makes four servings." }
+    }
+  ]
+}

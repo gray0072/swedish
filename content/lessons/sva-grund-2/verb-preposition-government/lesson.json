@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/verb-preposition-government",
+  "slug": "verb-preposition-government",
+  "title": {
+    "sv": "Abstrakta prepositioner och verb med prepositionsstyrning",
+    "ru": "Абстрактные предлоги и глагольное управление",
+    "en": "Abstract prepositions and verbs governing prepositions"
+  },
+  "summary": {
+    "ru": "«Prata om», «bero på», «vänja sig vid» — предлог после глагола не угадать логикой, только запомнить.",
+    "en": "\"Prata om\", \"bero på\", \"vänja sig vid\" — the preposition after a verb can't be guessed by logic, only learned."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "prepositions", "verbs"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1000,
+  "prerequisites": ["sva-grund-1/verb-groups"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

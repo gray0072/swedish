@@ -1,0 +1,132 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "referat-summary-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Автор считает, что правительству следовало бы делать больше.»", "en": "Build the sentence: \"The author holds that the government ought to do more.\"" },
+      "tokens": ["Författaren", "menar", "att", "regeringen", "borde", "göra", "mer"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "referat-summary-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Согласно тексту, безработица высока среди молодёжи.»", "en": "Build the sentence: \"According to the text, unemployment is high among young people.\"" },
+      "tokens": ["Enligt texten", "är", "arbetslösheten", "hög", "bland unga"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "referat-summary-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь глагол с переводом", "en": "Match the verb with its translation" },
+      "pairs": [
+        ["mena", "считать"],
+        ["hävda", "утверждать"],
+        ["framhålla", "подчёркивать"],
+        ["framgå", "явствовать"]
+      ]
+    },
+    {
+      "id": "referat-summary-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу-связку с переводом", "en": "Match the connecting phrase with its translation" },
+      "pairs": [
+        ["enligt texten", "согласно тексту"],
+        ["det framgår att...", "из этого следует, что..."],
+        ["sammanfattningsvis", "в заключение"],
+        ["artikeln handlar om...", "статья о..."]
+      ]
+    },
+    {
+      "id": "referat-summary-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Referat пишется от третьего лица, а не от первого.",
+        "en": "A referat is written in the third person, not the first."
+      },
+      "answer": true
+    },
+    {
+      "id": "referat-summary-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В хорошем referat уместно писать «jag tycker att...».",
+        "en": "It's appropriate to write \"jag tycker att...\" in a good referat."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Referat должен быть objektiv («объективным») и не содержать личного мнения пишущего.",
+        "en": "A referat must stay objektiv (\"objective\") and must not contain the writer's own opinion."
+      }
+    },
+    {
+      "id": "referat-summary-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После глагола «hävda» следует att-sats с обратным порядком слов (BIFF).",
+        "en": "The verb \"hävda\" is followed by an att-sats where the BIFF word order applies."
+      },
+      "answer": true
+    },
+    {
+      "id": "referat-summary-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ texten är arbetslösheten hög bland unga. (согласно)" },
+      "answer": ["Enligt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "referat-summary-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon ___ att problemet är större än man tror. (утверждает)" },
+      "answer": ["hävdar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "referat-summary-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая фраза вводит тему статьи в начале referat?",
+        "en": "Which phrase introduces the topic of an article at the start of a referat?"
+      },
+      "choices": ["Artikeln handlar om...", "Jag tycker att...", "Kram", "Hör av dig snart"],
+      "answer": 0
+    },
+    {
+      "id": "referat-summary-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово правильно завершает referat, подводя итог?",
+        "en": "Which word correctly closes a referat, summing up?"
+      },
+      "choices": ["sammanfattningsvis", "till slut ska jag säga", "kram", "hej då"],
+      "answer": 0
+    },
+    {
+      "id": "referat-summary-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что из перечисленного НЕ подходит для нейтрального referat?",
+        "en": "Which of the following does NOT belong in a neutral referat?"
+      },
+      "choices": ["Jag tycker att artikeln är dålig.", "Författaren menar att...", "Enligt texten...", "Sammanfattningsvis..."],
+      "answer": 0
+    }
+  ]
+}

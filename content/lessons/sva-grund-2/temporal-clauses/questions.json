@@ -1,0 +1,180 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-temporal-clauses-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери союз: «___ det regnar, stannar jag hemma.» (когда, повторяется)",
+        "en": "Choose the conjunction: \"___ det regnar, stannar jag hemma.\" (when, repeated)"
+      },
+      "choices": ["När", "Då", "Medan", "Innan"],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери союз: «___ telefonen ringde, sov jag.» (тот единственный раз в прошлом)",
+        "en": "Choose the conjunction: \"___ telefonen ringde, sov jag.\" (that one time, in the past)"
+      },
+      "choices": ["Då", "När", "Tills", "Sedan"],
+      "answer": 0,
+      "explanation": {
+        "ru": "«då» используется именно для одного конкретного случая в прошлом, а не для повторяющегося действия.",
+        "en": "\"då\" is used precisely for one specific past occasion, not for a repeated action."
+      }
+    },
+    {
+      "id": "q-temporal-clauses-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает союз «medan»?", "en": "What does the conjunction \"medan\" mean?" },
+      "choices": [
+        { "ru": "пока, в то время как", "en": "while" },
+        { "ru": "после того как", "en": "after" },
+        { "ru": "перед тем как", "en": "before" },
+        { "ru": "пока не", "en": "until" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери союз: «___ han hade läst boken, lämnade han tillbaka den.» («После того как он прочитал книгу, он вернул её.»)",
+        "en": "Choose the conjunction: \"___ han hade läst boken, lämnade han tillbaka den.\" (\"After he had read the book, he returned it.\")"
+      },
+      "choices": ["Efter att", "Innan", "Tills", "Sedan"],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-mc-5",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой союз означает «пока не, до тех пор пока»?", "en": "Which conjunction means \"until\"?" },
+      "choices": ["tills", "innan", "sedan", "medan"],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "___ det regnar, stannar jag hemma.",
+        "ru": "Заполни союз «когда» (повторяется, наст./буд.).",
+        "en": "Fill in the conjunction \"when\" (repeated, present/future)."
+      },
+      "answer": ["När"],
+      "acceptAlso": ["när"]
+    },
+    {
+      "id": "q-temporal-clauses-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "___ telefonen ringde, sov jag.",
+        "ru": "Заполни союз «когда» (один конкретный раз в прошлом).",
+        "en": "Fill in the conjunction \"when\" (one specific past occasion)."
+      },
+      "answer": ["Då"],
+      "acceptAlso": ["då"]
+    },
+    {
+      "id": "q-temporal-clauses-gap-3",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Vi väntar ___ han inte är arg längre.",
+        "ru": "Заполни союз «пока не».",
+        "en": "Fill in the conjunction \"until\"."
+      },
+      "answer": ["tills"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-temporal-clauses-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Он готовил еду, пока её не было дома.»",
+        "en": "Build the sentence: \"He cooked while she wasn't home.\""
+      },
+      "tokens": ["hemma", "var", "inte", "hon", "medan", "mat", "lagade", "Han"],
+      "answer": [7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-temporal-clauses-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Позвони мне перед тем, как поедешь.»",
+        "en": "Build the sentence: \"Call me before you leave.\""
+      },
+      "tokens": ["åker", "du", "innan", "mig", "Ring"],
+      "answer": [4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-temporal-clauses-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «С тех пор как она переехала сюда, она не встречала его.»",
+        "en": "Build the sentence: \"Since she moved here, she hasn't met him.\""
+      },
+      "tokens": ["honom", "träffat", "inte", "hon", "har", "hit", "flyttade", "hon", "Sedan"],
+      "answer": [8, 7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-temporal-clauses-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«när» используется для повторяющихся действий и настоящего/будущего времени.",
+        "en": "\"när\" is used for repeated actions and for the present/future."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-temporal-clauses-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«då» используется для повторяющихся действий в прошлом.",
+        "en": "\"då\" is used for repeated actions in the past."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет: «då» — только для одного конкретного случая в прошлом.",
+        "en": "No: \"då\" is only for one specific past occasion."
+      }
+    },
+    {
+      "id": "q-temporal-clauses-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Союз «sedan» может означать «с тех пор как».", "en": "The conjunction \"sedan\" can mean \"since\"." },
+      "answer": true
+    },
+    {
+      "id": "q-temporal-clauses-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь союз с его значением", "en": "Match the conjunction with its meaning" },
+      "pairs": [
+        ["när", "когда (повторяется)"],
+        ["då", "когда (один раз, прошлое)"],
+        ["medan", "пока, в то время как"],
+        ["innan", "перед тем как"],
+        ["tills", "пока не"]
+      ]
+    }
+  ]
+}

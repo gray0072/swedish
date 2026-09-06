@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/passive-voice",
+  "slug": "passive-voice",
+  "title": {
+    "sv": "Passiv: -s, bli, vara",
+    "ru": "Пассив: -s, bli, vara — значение и выбор формы",
+    "en": "The passive: -s, bli, vara — meaning and choosing a form"
+  },
+  "summary": {
+    "ru": "Три способа сказать «это делается» по-шведски — и у каждого своё время и смысл.",
+    "en": "Three ways to say \"it gets done\" in Swedish — each with its own timing and meaning."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "passive-voice"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 860,
+  "prerequisites": [
+    "sva-grund-1/verb-groups"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

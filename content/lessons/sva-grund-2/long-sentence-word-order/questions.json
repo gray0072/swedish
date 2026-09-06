@@ -1,0 +1,159 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-long-sentence-word-order-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что стоит в fundament в «Eftersom det regnade mycket, stannade vi hemma»?",
+        "en": "What occupies the fundament in \"Eftersom det regnade mycket, stannade vi hemma\"?"
+      },
+      "choices": ["Eftersom det regnade mycket", "stannade", "vi", "hemma"],
+      "answer": 0
+    },
+    {
+      "id": "q-long-sentence-word-order-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что идёт сразу после длинного fundament (целого придаточного) в huvudsats?",
+        "en": "What comes right after a long fundament (a whole subordinate clause) in a huvudsats?"
+      },
+      "choices": [
+        { "ru": "Subjekt", "en": "The subjekt" },
+        { "ru": "Личный глагол huvudsats", "en": "The finite verb of the huvudsats" },
+        { "ru": "Ничего, предложение заканчивается", "en": "Nothing, the sentence ends" },
+        { "ru": "Ещё одно придаточное", "en": "Another subordinate clause" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-long-sentence-word-order-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери предложение с правильным порядком слов.",
+        "en": "Choose the sentence with the correct word order."
+      },
+      "choices": [
+        "Eftersom det regnade mycket, stannade vi hemma.",
+        "Eftersom det regnade mycket, vi stannade hemma.",
+        "Eftersom det regnade mycket, hemma stannade vi.",
+        "Eftersom regnade det mycket, stannade vi hemma."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-long-sentence-word-order-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что происходит с порядком слов huvudsats, если придаточное стоит ПОСЛЕ главного предложения?",
+        "en": "If the subordinate clause comes AFTER the main clause instead of before it, what happens to the main clause's word order?"
+      },
+      "choices": [
+        { "ru": "Всё равно происходит инверсия", "en": "It still inverts" },
+        { "ru": "Сохраняется обычный порядок subjekt-глагол", "en": "It stays in ordinary subjekt-verb order" },
+        { "ru": "Глагол уходит в конец", "en": "The verb moves to the end" },
+        { "ru": "Предложение становится вопросом", "en": "The sentence becomes a question" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-long-sentence-word-order-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Целое придаточное предложение, вынесенное перед главным, всё равно занимает только одно место fundament.",
+        "en": "A whole subordinate clause fronted before the main clause still counts as just one fundament slot."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-long-sentence-word-order-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После длинного fundament глагол главного предложения должен стоять после subjekt, как в русском или английском.",
+        "en": "After a long fundament, the main clause verb should come after the subjekt, as in Russian or English."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "V2 всё равно требует инверсии: глагол идёт сразу после fundament, а subjekt — после глагола.",
+        "en": "V2 still requires inversion: the verb comes right after the fundament, and the subjekt follows the verb."
+      }
+    },
+    {
+      "id": "q-long-sentence-word-order-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Запятая перед главным предложением после длинного fundament — обычная, рекомендуемая практика.",
+        "en": "A comma before the main clause after a long fundament is common, recommended practice."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-long-sentence-word-order-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Eftersom det regnade mycket, ___ vi hemma.",
+        "ru": "Eftersom det regnade mycket, ___ vi hemma. (глагол «stanna», прош. время)",
+        "en": "Eftersom det regnade mycket, ___ vi hemma. (verb \"stanna\", past tense)"
+      },
+      "answer": ["stannade"]
+    },
+    {
+      "id": "q-long-sentence-word-order-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "När jag kom hem igår kväll, ___ telefonen.",
+        "ru": "När jag kom hem igår kväll, ___ telefonen. (глагол «ringa», прош. время)",
+        "en": "När jag kom hem igår kväll, ___ telefonen. (verb \"ringa\", past tense)"
+      },
+      "answer": ["ringde"]
+    },
+    {
+      "id": "q-long-sentence-word-order-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если у тебя есть вопросы, ты можешь связаться с нами.»", "en": "Build the sentence: \"If you have questions, you can contact us.\"" },
+      "tokens": ["kontakta", "har", "kan", "du", "Om", "du", "frågor,", "oss"],
+      "answer": [4, 5, 1, 6, 2, 3, 0, 7]
+    },
+    {
+      "id": "q-long-sentence-word-order-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Так как шёл сильный дождь, мы остались дома.»", "en": "Build the sentence: \"Because it rained heavily, we stayed home.\"" },
+      "tokens": ["mycket,", "vi", "det", "Eftersom", "stannade", "regnade", "hemma"],
+      "answer": [3, 2, 5, 0, 4, 1, 6]
+    },
+    {
+      "id": "q-long-sentence-word-order-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы остались дома, так как шёл сильный дождь.» (придаточное после главного, без инверсии)", "en": "Build the sentence: \"We stayed home because it rained heavily.\" (subordinate clause after the main clause, no inversion)" },
+      "tokens": ["hemma", "det", "eftersom", "mycket", "Vi", "stannade", "regnade"],
+      "answer": [4, 5, 0, 2, 1, 6, 3]
+    },
+    {
+      "id": "q-long-sentence-word-order-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь тип fundament с примером", "en": "Match the type of fundament with its example" },
+      "pairs": [
+        ["короткое обстоятельство", "Idag stannar vi hemma."],
+        ["длинное придаточное", "Eftersom det regnade mycket, stannade vi hemma."],
+        ["subjekt", "Vi stannar hemma."]
+      ]
+    }
+  ]
+}

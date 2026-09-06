@@ -1,0 +1,90 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-travel-planning-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что такое en paketresa?", "en": "What is en paketresa?" },
+      "choices": [
+        { "ru": "Пакетный тур с перелётом и отелем вместе", "en": "A package holiday with flight and hotel together" },
+        { "ru": "Только билет на самолёт", "en": "Just a plane ticket" },
+        { "ru": "Страховка на поездку", "en": "Travel insurance" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-travel-planning-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Когда обычно открывается incheckning перед вылетом?", "en": "When does check-in usually open before a flight?" },
+      "choices": [
+        { "ru": "За пару часов до вылета", "en": "A couple of hours before departure" },
+        { "ru": "За неделю до вылета", "en": "A week before departure" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-travel-planning-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Reseförsäkring нужна на случай болезни или потери багажа в поездке.", "en": "Travel insurance covers illness or lost luggage during a trip." },
+      "answer": true
+    },
+    {
+      "id": "q-travel-planning-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Avbokning всегда бесплатна независимо от срока.", "en": "Cancellation (avbokning) is always free regardless of the deadline." },
+      "answer": false,
+      "explanation": { "ru": "Отмена обычно бесплатна только до определённого срока.", "en": "Cancellation is usually free only up to a certain deadline." }
+    },
+    {
+      "id": "q-travel-planning-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Italien är ett populärt ___." },
+      "answer": ["resmål"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-travel-planning-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Glöm inte att teckna en ___." },
+      "answer": ["reseförsäkring"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-travel-planning-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["resmål", "пункт назначения / destination"],
+        ["packlista", "список вещей / packing list"],
+        ["avresa", "отправление / departure"],
+        ["gränskontroll", "пограничный контроль / border control"]
+      ]
+    },
+    {
+      "id": "q-travel-planning-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дешевле арендовать машину заранее.»", "en": "Build the sentence: \"It's cheaper to rent a car in advance.\"" },
+      "tokens": ["Det", "är", "billigare", "att", "hyra", "bil", "i", "förväg"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-travel-planning-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что нужно взять с собой на gränskontroll при поездке utomlands?", "en": "What do you need to bring to border control when travelling abroad?" },
+      "choices": ["passet", "packlistan", "avbokningen"],
+      "answer": 0
+    },
+    {
+      "id": "q-travel-planning-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Hemresa случается перед avresa.", "en": "The hemresa (trip home) happens before the avresa (departure)." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: сначала avresa (отправление в поездку), а hemresa — обратная дорога в конце.", "en": "The other way around: avresa (departure) comes first, and hemresa (the trip home) at the end." }
+    }
+  ]
+}

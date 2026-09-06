@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/housing-contract",
+  "slug": "housing-contract",
+  "title": {
+    "sv": "Hyreskontrakt och bostadskö",
+    "ru": "Жильё: контракт, förstahand/andrahand, очередь на квартиру",
+    "en": "Housing: the contract, förstahand/andrahand, the housing queue"
+  },
+  "summary": {
+    "ru": "Договор аренды, первая и вторая рука, очередь и осмотр квартиры — углублённая лексика о жилье.",
+    "en": "The lease, first-hand and second-hand renting, the queue and the inspection — deeper housing vocabulary."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "housing",
+    "bureaucracy",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 780,
+  "prerequisites": [
+    "sfi-d/housing"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

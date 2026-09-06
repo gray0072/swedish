@@ -1,0 +1,77 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-workday-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Можем поменяться сменами в четверг?»", "en": "Build the question: \"Can we swap shifts on Thursday?\"" },
+      "tokens": ["byta", "på", "vi", "torsdag", "Kan", "pass"],
+      "answer": [4, 2, 0, 5, 1, 3]
+    },
+    {
+      "id": "q-workday-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["kollega", "коллега"],
+        ["möte", "встреча"],
+        ["rast", "перерыв"],
+        ["deadline", "дедлайн"]
+      ]
+    },
+    {
+      "id": "q-workday-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Flextid» значит, что нужно работать строго с 9 до 17.",
+        "en": "\"Flextid\" means you must work strictly from 9 to 5."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Flextid» — это гибкий график, противоположность строгому фиксированному расписанию.",
+        "en": "\"Flextid\" means flexible working hours, the opposite of a strict fixed schedule."
+      }
+    },
+    {
+      "id": "q-workday-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan vi ___ pass på torsdag? (поменяться)" },
+      "answer": ["byta"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-workday-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твой коллега спрашивает, можно ли поменяться сменами. Ты не против. Что ты ответишь?",
+        "en": "Your colleague asks if you can swap shifts. You're fine with it. What do you reply?"
+      },
+      "choices": ["Ja, det går bra", "Nej, jag vet inte var det är", "Jag har feber", "Vad heter du?"],
+      "answer": 0
+    },
+    {
+      "id": "q-workday-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Сегодня тебе нужно работать больше часов, чем обычно. Как это называется?",
+        "en": "Today you need to work more hours than usual. What is this called?"
+      },
+      "choices": ["övertid", "rast", "möte", "semester"],
+      "answer": 0
+    }
+  ]
+}

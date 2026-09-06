@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/healthcare-system",
+  "slug": "healthcare-system",
+  "title": {
+    "sv": "Sjukvårdssystemet",
+    "ru": "Система здравоохранения: 1177, vårdcentral, akuten",
+    "en": "The healthcare system: 1177, vårdcentral, akuten"
+  },
+  "summary": {
+    "ru": "Как устроена шведская система здравоохранения: 1177, направления, оплата и льготы.",
+    "en": "How the Swedish healthcare system works: 1177, referrals, patient fees and cost protection."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "health",
+    "healthcare-system",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1100,
+  "prerequisites": [
+    "sfi-c/health"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

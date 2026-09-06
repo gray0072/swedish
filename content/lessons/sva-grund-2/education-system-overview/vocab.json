@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "id": "forskola",
+      "sv": "förskola",
+      "translations": { "ru": "детский сад, дошкольное учреждение", "en": "preschool" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förskola", "defSg": "förskolan", "indefPl": "förskolor", "defPl": "förskolorna" },
+      "example": { "sv": "Mitt barn går på förskolan tre dagar i veckan.", "ru": "Мой ребёнок ходит в детский сад три дня в неделю.", "en": "My child goes to preschool three days a week." }
+    },
+    {
+      "id": "grundskola",
+      "sv": "grundskola",
+      "translations": { "ru": "обязательная школа (1-9 класс)", "en": "compulsory school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en grundskola", "defSg": "grundskolan", "indefPl": "grundskolor", "defPl": "grundskolorna" },
+      "example": { "sv": "Grundskolan är obligatorisk för alla barn i Sverige.", "ru": "Обязательная школа обязательна для всех детей в Швеции.", "en": "Compulsory school is mandatory for all children in Sweden." }
+    },
+    {
+      "id": "gymnasium",
+      "sv": "gymnasium",
+      "translations": { "ru": "гимназия, старшая школа", "en": "upper secondary school" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett gymnasium", "defSg": "gymnasiet", "indefPl": "gymnasier", "defPl": "gymnasierna" },
+      "example": { "sv": "Efter grundskolan börjar de flesta på gymnasiet.", "ru": "После обязательной школы большинство поступает в гимназию.", "en": "After compulsory school, most students start upper secondary school." }
+    },
+    {
+      "id": "komvux-overview",
+      "sv": "komvux",
+      "translations": { "ru": "комвукс (муниципальное образование для взрослых)", "en": "komvux (municipal adult education)" },
+      "pos": "noun",
+      "example": { "sv": "Jag läser upp mina betyg på komvux.", "ru": "Я подтягиваю свои оценки на komvux.", "en": "I'm raising my grades at komvux." }
+    },
+    {
+      "id": "hogskola",
+      "sv": "högskola",
+      "translations": { "ru": "высшая школа, институт", "en": "university college" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en högskola", "defSg": "högskolan", "indefPl": "högskolor", "defPl": "högskolorna" },
+      "example": { "sv": "Hon studerar sjuksköterska på en högskola.", "ru": "Она учится на медсестру в высшей школе.", "en": "She's studying to be a nurse at a university college." }
+    },
+    {
+      "id": "universitet",
+      "sv": "universitet",
+      "translations": { "ru": "университет", "en": "university" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett universitet", "defSg": "universitetet", "indefPl": "universitet", "defPl": "universiteten" },
+      "example": { "sv": "Han pluggar juridik på universitetet.", "ru": "Он изучает право в университете.", "en": "He's studying law at university." }
+    },
+    {
+      "id": "behorighet",
+      "sv": "behörighet",
+      "translations": { "ru": "право на поступление, необходимая квалификация", "en": "eligibility, entry qualification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en behörighet", "defSg": "behörigheten", "indefPl": "behörigheter", "defPl": "behörigheterna" },
+      "example": { "sv": "Jag saknar behörighet i matematik.", "ru": "Мне не хватает права на поступление по математике.", "en": "I'm missing the entry qualification in math." }
+    },
+    {
+      "id": "betygssystem",
+      "sv": "betygssystem",
+      "translations": { "ru": "система оценок", "en": "grading system" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betygssystem", "defSg": "betygssystemet", "indefPl": "betygssystem", "defPl": "betygssystemen" },
+      "example": { "sv": "Betygssystemet går från A till F.", "ru": "Система оценок идёт от A до F.", "en": "The grading system runs from A to F." }
+    },
+    {
+      "id": "betygsskala",
+      "sv": "betygsskala",
+      "translations": { "ru": "шкала оценок", "en": "grading scale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en betygsskala", "defSg": "betygsskalan", "indefPl": "betygsskalor", "defPl": "betygsskalorna" },
+      "example": { "sv": "Läraren förklarade betygsskalan för hela klassen.", "ru": "Учитель объяснил всему классу шкалу оценок.", "en": "The teacher explained the grading scale to the whole class." }
+    },
+    {
+      "id": "meritvarde",
+      "sv": "meritvärde",
+      "translations": { "ru": "средний балл (для поступления)", "en": "merit rating" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meritvärde", "defSg": "meritvärdet", "indefPl": "meritvärden", "defPl": "meritvärdena" },
+      "example": { "sv": "Mitt meritvärde avgör om jag blir antagen till programmet.", "ru": "Мой средний балл определяет, буду ли я зачислен(а) на программу.", "en": "My merit rating decides whether I get admitted to the program." }
+    },
+    {
+      "id": "antagning",
+      "sv": "antagning",
+      "translations": { "ru": "зачисление, приём (в учебное заведение)", "en": "admission" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en antagning", "defSg": "antagningen", "indefPl": "antagningar", "defPl": "antagningarna" },
+      "example": { "sv": "Antagningen till programmet sker på hösten.", "ru": "Приём на программу происходит осенью.", "en": "Admission to the program happens in the fall." }
+    },
+    {
+      "id": "utbildning",
+      "sv": "utbildning",
+      "translations": { "ru": "образование, обучение", "en": "education, training" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" },
+      "example": { "sv": "Han vill söka en längre utbildning nästa år.", "ru": "Он хочет подать заявку на более длинное обучение в следующем году.", "en": "He wants to apply for a longer program next year." }
+    },
+    {
+      "id": "yrkesutbildning",
+      "sv": "yrkesutbildning",
+      "translations": { "ru": "профессиональное образование", "en": "vocational education" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en yrkesutbildning", "defSg": "yrkesutbildningen", "indefPl": "yrkesutbildningar", "defPl": "yrkesutbildningarna" },
+      "example": { "sv": "Hon valde en yrkesutbildning till elektriker.", "ru": "Она выбрала профессиональное обучение на электрика.", "en": "She chose vocational training to become an electrician." }
+    },
+    {
+      "id": "examen",
+      "sv": "examen",
+      "translations": { "ru": "диплом, экзамен (выпускной)", "en": "degree, diploma" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han tog sin examen förra våren.", "ru": "Он получил диплом прошлой весной.", "en": "He got his degree last spring." }
+    },
+    {
+      "id": "lasar",
+      "sv": "läsår",
+      "translations": { "ru": "учебный год", "en": "school year" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett läsår", "defSg": "läsåret", "indefPl": "läsår", "defPl": "läsåren" },
+      "example": { "sv": "Läsåret börjar i slutet av augusti.", "ru": "Учебный год начинается в конце августа.", "en": "The school year starts at the end of August." }
+    },
+    {
+      "id": "obligatorisk",
+      "sv": "obligatorisk",
+      "translations": { "ru": "обязательный", "en": "compulsory, mandatory" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: obligatoriskt, мн.ч.: obligatoriska", "en": "ett-form: obligatoriskt, plural: obligatoriska" },
+      "example": { "sv": "Grundskolan är obligatorisk.", "ru": "Обязательная школа обязательна.", "en": "Compulsory school is mandatory." }
+    },
+    {
+      "id": "frivillig",
+      "sv": "frivillig",
+      "translations": { "ru": "добровольный, необязательный", "en": "voluntary" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: frivilligt, мн.ч.: frivilliga", "en": "ett-form: frivilligt, plural: frivilliga" },
+      "example": { "sv": "Gymnasiet är frivilligt, men de flesta går dit.", "ru": "Гимназия необязательна, но большинство туда идёт.", "en": "Upper secondary school is voluntary, but most people go." }
+    },
+    {
+      "id": "hogskoleprov",
+      "sv": "högskoleprov",
+      "translations": { "ru": "вступительный тест в вуз", "en": "university entrance test" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett högskoleprov", "defSg": "högskoleprovet", "indefPl": "högskoleprov", "defPl": "högskoleproven" },
+      "example": { "sv": "Hon skrev högskoleprovet för att höja sina chanser.", "ru": "Она сдала вступительный тест, чтобы повысить свои шансы.", "en": "She took the entrance test to improve her chances." }
+    }
+  ]
+}

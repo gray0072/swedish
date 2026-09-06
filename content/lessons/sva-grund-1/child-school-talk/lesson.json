@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/child-school-talk",
+  "slug": "child-school-talk",
+  "title": {
+    "sv": "Barnets skola: utvecklingssamtal",
+    "ru": "Школа ребёнка: развитийная беседа (utvecklingssamtal)",
+    "en": "Your child's school: the development talk (utvecklingssamtal)"
+  },
+  "summary": {
+    "ru": "Слова и фразы для разговора с учителем о ребёнке: как дела в школе, сильные и слабые стороны, домашние задания.",
+    "en": "Words and phrases for talking to your child's teacher: how school is going, strengths and weaknesses, homework."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "family",
+    "school",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 810,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/instructions-recipes",
+  "slug": "instructions-recipes",
+  "title": {
+    "sv": "Instruktioner och recept",
+    "ru": "Инструкции и рецепты: понять и выполнить последовательность",
+    "en": "Instructions and recipes: understanding and following a sequence"
+  },
+  "summary": {
+    "ru": "Слова-связки для инструкций и рецептов — först, sedan, till sist — и разбор короткого рецепта по шагам.",
+    "en": "Sequence words for instructions and recipes — först, sedan, till sist — worked through a short recipe step by step."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "cooking",
+    "instructions",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 730,
+  "prerequisites": [
+    "sfi-b/cooking"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

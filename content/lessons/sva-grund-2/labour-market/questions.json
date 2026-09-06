@@ -1,0 +1,150 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-labour-market-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какая квалификация требуется для этой должности?»", "en": "Build the question: \"What qualifications are required for the position?\"" },
+      "tokens": ["krävs", "kvalifikationer", "för", "Vilka", "tjänsten?"],
+      "answer": [3, 1, 0, 2, 4]
+    },
+    {
+      "id": "q-labour-market-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня пять лет опыта работы в клиентской поддержке.»", "en": "Build the sentence: \"I have five years of experience in customer service.\"" },
+      "tokens": ["erfarenhet", "har", "Jag", "av kundtjänst.", "fem års"],
+      "answer": [2, 1, 4, 0, 3]
+    },
+    {
+      "id": "q-labour-market-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["arbetsgivare", "работодатель"],
+        ["arbetstagare", "работник"],
+        ["bransch", "отрасль"],
+        ["rekrytering", "наём"]
+      ]
+    },
+    {
+      "id": "q-labour-market-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["kvalifikation", "квалификация"],
+        ["kompetens", "компетенция, навыки"],
+        ["erfarenhet", "опыт"],
+        ["konkurrens", "конкуренция"]
+      ]
+    },
+    {
+      "id": "q-labour-market-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Arbetsgivare» — это тот, кто ищет работу.", "en": "\"Arbetsgivare\" is someone looking for a job." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Arbetsgivare» — это работодатель, тот, кто нанимает; ищущий работу — это «arbetstagare» после найма, а до этого — «arbetssökande».",
+        "en": "\"Arbetsgivare\" means employer — the one who hires; the person hired becomes an \"arbetstagare\", and before that is an \"arbetssökande\" (job seeker)."
+      }
+    },
+    {
+      "id": "q-labour-market-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Arbetsförmedlingen — это государственная служба занятости в Швеции.", "en": "Arbetsförmedlingen is the Swedish government's employment service." },
+      "answer": true
+    },
+    {
+      "id": "q-labour-market-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Heltid» и «deltid» означают одно и то же — полную занятость.", "en": "\"Heltid\" and \"deltid\" mean the same thing — full-time work." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Heltid» — полная занятость, «deltid» — неполная (частичная) занятость.",
+        "en": "\"Heltid\" is full-time, while \"deltid\" is part-time."
+      }
+    },
+    {
+      "id": "q-labour-market-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag läste en ___ på nätet igår. (объявление о вакансии)" },
+      "answer": ["jobbannons"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-labour-market-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är hård ___ om de lediga jobben. (конкуренция)" },
+      "answer": ["konkurrens"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-labour-market-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Företaget vill ___ fler ingenjörer. (нанять)" },
+      "answer": ["anställa"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-labour-market-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь узнать, кто ищет сотрудников в компании. Как называется эта сторона?",
+        "en": "You want to know who is looking for staff at a company. What is that side called?"
+      },
+      "choices": ["arbetsgivare", "arbetstagare", "pensionär", "student"],
+      "answer": 0
+    },
+    {
+      "id": "q-labour-market-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово означает «отрасль, сфера деятельности»?",
+        "en": "Which word means \"industry, sector\"?"
+      },
+      "choices": ["bransch", "kompetens", "rekrytering", "konkurrens"],
+      "answer": 0
+    },
+    {
+      "id": "q-labour-market-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Куда стоит обратиться, если ты остался без работы и ищешь новую?",
+        "en": "Where should you turn if you've lost your job and are looking for a new one?"
+      },
+      "choices": ["Arbetsförmedlingen", "Försäkringskassan", "Skatteverket", "vårdcentralen"],
+      "answer": 0
+    },
+    {
+      "id": "q-labour-market-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Аиша работает три дня в неделю, а не пять. Как это называется?",
+        "en": "Aisha works three days a week instead of five. What is that called?"
+      },
+      "choices": ["deltid", "heltid", "övertid", "semester"],
+      "answer": 0
+    }
+  ]
+}

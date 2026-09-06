@@ -1,0 +1,142 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-parental-sick-leave-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня двадцать пять дней отпуска в год.»", "en": "Build the sentence: \"I have twenty-five vacation days a year.\"" },
+      "tokens": ["semesterdagar", "har", "Jag", "per år", "tjugofem"],
+      "answer": [2, 1, 4, 0, 3]
+    },
+    {
+      "id": "q-parental-sick-leave-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Работодатель платит по больничному первые четырнадцать дней.»", "en": "Build the sentence: \"The employer pays sick pay for the first fourteen days.\"" },
+      "tokens": ["sjuklön", "de första", "Arbetsgivaren", "fjorton dagarna", "betalar"],
+      "answer": [2, 4, 0, 1, 3]
+    },
+    {
+      "id": "q-parental-sick-leave-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["föräldrapenning", "родительское пособие"],
+        ["sjukpenning", "пособие по болезни"],
+        ["semesterdag", "день отпуска"],
+        ["läkarintyg", "справка от врача"]
+      ]
+    },
+    {
+      "id": "q-parental-sick-leave-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["karensdag", "карентный день"],
+        ["sjuklön", "оплата больничного от работодателя"],
+        ["semesterersättning", "отпускная компенсация"],
+        ["arbetsförmåga", "трудоспособность"]
+      ]
+    },
+    {
+      "id": "q-parental-sick-leave-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Sjukpenning выплачивает работодатель, а не Försäkringskassan.", "en": "Sjukpenning is paid by the employer, not by Försäkringskassan." },
+      "answer": false,
+      "explanation": {
+        "ru": "Sjukpenning выплачивает Försäkringskassan, после того как работодатель заканчивает платить sjuklön (обычно после двух недель).",
+        "en": "Sjukpenning is paid by Försäkringskassan, after the employer stops paying sjuklön (usually after two weeks)."
+      }
+    },
+    {
+      "id": "q-parental-sick-leave-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "За karensdag (карентный день) полагается полная зарплата.", "en": "A karensdag (waiting day) is paid at the full salary rate." },
+      "answer": false,
+      "explanation": {
+        "ru": "За karensdag делают karensavdrag — вычет из зарплаты, то есть день оплачивается не полностью.",
+        "en": "A karensdag involves a karensavdrag — a deduction, meaning it isn't paid at the full rate."
+      }
+    },
+    {
+      "id": "q-parental-sick-leave-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Föräldrapenning может получать только один из родителей, второй не имеет права.", "en": "Only one parent can receive föräldrapenning; the other has no right to it." },
+      "answer": false,
+      "explanation": {
+        "ru": "Оба родителя имеют право на föräldrapenning и могут делить дни между собой.",
+        "en": "Both parents are entitled to föräldrapenning and can split the days between them."
+      }
+    },
+    {
+      "id": "q-parental-sick-leave-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Efter dag åtta måste du visa ett ___. (справку от врача)" },
+      "answer": ["läkarintyg"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-parental-sick-leave-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ansökte om föräldrapenning hos ___. (Кассы социального страхования)" },
+      "answer": ["Försäkringskassan"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-parental-sick-leave-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Du får ___ om du slutar innan du tagit ut all semester. (отпускную компенсацию)" },
+      "answer": ["semesterersättning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-parental-sick-leave-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто платит sjuklön в первые две недели болезни?",
+        "en": "Who pays sjuklön during the first two weeks of illness?"
+      },
+      "choices": ["arbetsgivaren", "Försäkringskassan", "facket", "kommunen"],
+      "answer": 0
+    },
+    {
+      "id": "q-parental-sick-leave-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как называется пособие, которое выплачивают родителям, ухаживающим за новорождённым?",
+        "en": "What is the benefit paid to parents caring for a newborn called?"
+      },
+      "choices": ["föräldrapenning", "sjukpenning", "semesterersättning", "karensavdrag"],
+      "answer": 0
+    },
+    {
+      "id": "q-parental-sick-leave-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется первый неоплачиваемый день болезни?",
+        "en": "What is the first unpaid day of illness called?"
+      },
+      "choices": ["karensdag", "semesterdag", "föräldraledighet", "sjukfrånvaro"],
+      "answer": 0
+    }
+  ]
+}

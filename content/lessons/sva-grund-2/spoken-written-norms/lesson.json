@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/spoken-written-norms",
+  "slug": "spoken-written-norms",
+  "title": {
+    "sv": "Talspråk och skriftspråk: dem/dom, förkortningar, partiklar",
+    "ru": "Разговорная и письменная норма: dem/dom, стяжения, частицы",
+    "en": "The spoken and written norms: dem/dom, contractions, particles"
+  },
+  "summary": {
+    "ru": "То, что пишут в сочинении, и то, что говорят на кухне, — не всегда одно и то же слово.",
+    "en": "What you write in an essay and what you say in the kitchen aren't always the same word."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "register", "spoken-swedish"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1050,
+  "prerequisites": ["sva-grund-1/punctuation-paragraphs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

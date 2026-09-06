@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "schema-studier",
+      "sv": "schema",
+      "translations": { "ru": "расписание", "en": "schedule, timetable" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett schema", "defSg": "schemat", "indefPl": "scheman", "defPl": "schemana" },
+      "example": { "sv": "Kolla schemat för nästa vecka.", "ru": "Посмотри расписание на следующую неделю.", "en": "Check the schedule for next week." }
+    },
+    {
+      "id": "lektion",
+      "sv": "lektion",
+      "translations": { "ru": "урок, занятие", "en": "lesson, class" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lektion", "defSg": "lektionen", "indefPl": "lektioner", "defPl": "lektionerna" },
+      "example": { "sv": "Lektionen börjar klockan nio.", "ru": "Урок начинается в девять.", "en": "The lesson starts at nine." }
+    },
+    {
+      "id": "uppgift",
+      "sv": "uppgift",
+      "translations": { "ru": "задание", "en": "assignment, task" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppgift", "defSg": "uppgiften", "indefPl": "uppgifter", "defPl": "uppgifterna" },
+      "example": { "sv": "Jag måste göra en uppgift till imorgon.", "ru": "Мне нужно сделать задание к завтрашнему дню.", "en": "I have to do an assignment for tomorrow." }
+    },
+    {
+      "id": "inlamning",
+      "sv": "inlämning",
+      "translations": { "ru": "сдача (работы), крайний срок сдачи", "en": "submission, hand-in" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inlämning", "defSg": "inlämningen", "indefPl": "inlämningar", "defPl": "inlämningarna" },
+      "example": { "sv": "Inlämningen är på fredag.", "ru": "Сдача работы — в пятницу.", "en": "The submission is on Friday." }
+    },
+    {
+      "id": "betyg",
+      "sv": "betyg",
+      "translations": { "ru": "оценка", "en": "grade" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betyg", "defSg": "betyget", "indefPl": "betyg", "defPl": "betygen" },
+      "example": { "sv": "Jag fick högsta betyg på provet.", "ru": "Я получил высшую оценку за тест.", "en": "I got the top grade on the test." }
+    },
+    {
+      "id": "franvaro",
+      "sv": "frånvaro",
+      "translations": { "ru": "отсутствие (на занятиях), пропуски", "en": "absence" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hög frånvaro kan påverka betyget.", "ru": "Много пропусков может повлиять на оценку.", "en": "High absence can affect your grade." }
+    },
+    {
+      "id": "aterkoppling",
+      "sv": "återkoppling",
+      "translations": { "ru": "обратная связь", "en": "feedback" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återkoppling", "defSg": "återkopplingen", "indefPl": "återkopplingar", "defPl": "återkopplingarna" },
+      "example": { "sv": "Läraren ger återkoppling efter varje inlämning.", "ru": "Учитель даёт обратную связь после каждой сдачи.", "en": "The teacher gives feedback after every submission." }
+    },
+    {
+      "id": "muntlig",
+      "sv": "muntlig",
+      "translations": { "ru": "устный", "en": "oral" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: muntligt, мн.ч.: muntliga", "en": "ett-form: muntligt, plural: muntliga" },
+      "example": { "sv": "Vi har muntlig examination på torsdag.", "ru": "У нас устный экзамен в четверг.", "en": "We have an oral exam on Thursday." }
+    },
+    {
+      "id": "examination",
+      "sv": "examination",
+      "translations": { "ru": "экзамен", "en": "examination, exam" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en examination", "defSg": "examinationen", "indefPl": "examinationer", "defPl": "examinationerna" },
+      "example": { "sv": "Examinationen tar en timme.", "ru": "Экзамен длится час.", "en": "The exam takes an hour." }
+    },
+    {
+      "id": "sista-inlamningsdag",
+      "sv": "Vad är sista inlämningsdag?",
+      "translations": { "ru": "Когда крайний срок сдачи?", "en": "What's the deadline for submission?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad är sista inlämningsdag för uppgiften?", "ru": "Когда крайний срок сдачи задания?", "en": "What's the deadline for the assignment?" }
+    },
+    {
+      "id": "be-om-aterkoppling",
+      "sv": "Kan du ge mig återkoppling på min uppgift?",
+      "translations": { "ru": "Можешь дать мне обратную связь по моему заданию?", "en": "Can you give me feedback on my assignment?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du ge mig återkoppling på min uppgift?", "ru": "Можешь дать мне обратную связь по моему заданию?", "en": "Can you give me feedback on my assignment?" }
+    },
+    {
+      "id": "poang-for-godkant",
+      "sv": "Hur många poäng krävs för godkänt betyg?",
+      "translations": { "ru": "Сколько баллов нужно для проходной оценки?", "en": "How many points are needed for a passing grade?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur många poäng krävs för godkänt betyg?", "ru": "Сколько баллов нужно для проходной оценки?", "en": "How many points are needed for a passing grade?" }
+    },
+    {
+      "id": "godkand",
+      "sv": "godkänd",
+      "translations": { "ru": "сдано, зачёт (положительная оценка)", "en": "passed, approved" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: godkänt, мн.ч.: godkända", "en": "ett-form: godkänt, plural: godkända" },
+      "example": { "sv": "Jag fick godkänt på kursen.", "ru": "Я сдал курс (получил зачёт).", "en": "I passed the course." }
+    },
+    {
+      "id": "underkand",
+      "sv": "underkänd",
+      "translations": { "ru": "не сдано, незачёт", "en": "failed" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: underkänt, мн.ч.: underkända", "en": "ett-form: underkänt, plural: underkända" },
+      "example": { "sv": "Tyvärr blev han underkänd på provet.", "ru": "К сожалению, он не сдал тест.", "en": "Unfortunately he failed the test." }
+    },
+    {
+      "id": "komvux",
+      "sv": "komvux",
+      "translations": { "ru": "комвукс (муниципальное образование для взрослых)", "en": "komvux (municipal adult education)" },
+      "pos": "noun",
+      "example": { "sv": "Jag läser svenska på komvux.", "ru": "Я изучаю шведский в комвуксе.", "en": "I study Swedish at komvux." }
+    },
+    {
+      "id": "kurs",
+      "sv": "kurs",
+      "translations": { "ru": "курс", "en": "course" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kurs", "defSg": "kursen", "indefPl": "kurser", "defPl": "kurserna" },
+      "example": { "sv": "Jag går en kurs i svenska för invandrare.", "ru": "Я прохожу курс шведского для иммигрантов.", "en": "I'm taking a course in Swedish for immigrants." }
+    },
+    {
+      "id": "laxa",
+      "sv": "läxa",
+      "translations": { "ru": "домашнее задание", "en": "homework" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
+      "example": { "sv": "Jag har mycket läxor i kväll.", "ru": "У меня сегодня много домашних заданий.", "en": "I have a lot of homework tonight." }
+    },
+    {
+      "id": "prov",
+      "sv": "prov",
+      "translations": { "ru": "тест, контрольная", "en": "test" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett prov", "defSg": "provet", "indefPl": "prov", "defPl": "proven" },
+      "example": { "sv": "Provet är på måndag.", "ru": "Тест в понедельник.", "en": "The test is on Monday." }
+    }
+  ]
+}

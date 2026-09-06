@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/workday-colleagues",
+  "slug": "workday-colleagues",
+  "title": {
+    "sv": "Arbetsdagen: kollegor och överenskommelser",
+    "ru": "Работа: рабочий день, коллеги, договорённости",
+    "en": "Work: the working day, colleagues, arrangements"
+  },
+  "summary": {
+    "ru": "Слова о рабочем дне и коллегах: смены, перерывы, встречи и как договориться об изменениях.",
+    "en": "Words for the working day and colleagues: shifts, breaks, meetings, and how to arrange changes."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "work",
+    "colleagues",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 760,
+  "prerequisites": [
+    "sfi-c/professions"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

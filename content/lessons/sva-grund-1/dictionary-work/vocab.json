@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "ordbok",
+      "sv": "ordbok",
+      "translations": { "ru": "словарь", "en": "dictionary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ordbok", "defSg": "ordboken", "indefPl": "ordböcker", "defPl": "ordböckerna" },
+      "example": { "sv": "Jag slår upp ordet i ordboken.", "ru": "Я ищу слово в словаре.", "en": "I look up the word in the dictionary." }
+    },
+    {
+      "id": "uppslagsord",
+      "sv": "uppslagsord",
+      "translations": { "ru": "заглавное слово (словарной статьи)", "en": "headword, dictionary entry" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett uppslagsord", "defSg": "uppslagsordet", "indefPl": "uppslagsord", "defPl": "uppslagsorden" },
+      "example": { "sv": "Uppslagsordet står i grundform.", "ru": "Заглавное слово стоит в начальной форме.", "en": "The headword is given in its base form." }
+    },
+    {
+      "id": "betydelse",
+      "sv": "betydelse",
+      "translations": { "ru": "значение", "en": "meaning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en betydelse", "defSg": "betydelsen", "indefPl": "betydelser", "defPl": "betydelserna" },
+      "example": { "sv": "Ordet har flera betydelser.", "ru": "У слова несколько значений.", "en": "The word has several meanings." }
+    },
+    {
+      "id": "synonym-dict",
+      "sv": "synonym",
+      "translations": { "ru": "синоним", "en": "synonym" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en synonym", "defSg": "synonymen", "indefPl": "synonymer", "defPl": "synonymerna" },
+      "example": { "sv": "\"Stor\" och \"gigantisk\" är nästan synonymer.", "ru": "«Stor» и «gigantisk» — почти синонимы.", "en": "\"Stor\" and \"gigantisk\" are nearly synonyms." }
+    },
+    {
+      "id": "motsats",
+      "sv": "motsats",
+      "translations": { "ru": "антоним, противоположность", "en": "antonym, opposite" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en motsats", "defSg": "motsatsen", "indefPl": "motsatser", "defPl": "motsatserna" },
+      "example": { "sv": "Vad är motsatsen till \"stor\"?", "ru": "Какой антоним у слова «stor»?", "en": "What's the antonym of \"stor\"?" }
+    },
+    {
+      "id": "exempel-dict",
+      "sv": "exempel",
+      "translations": { "ru": "пример", "en": "example" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett exempel", "defSg": "exemplet", "indefPl": "exempel", "defPl": "exemplen" },
+      "example": { "sv": "Ge mig ett exempel på ordet i en mening.", "ru": "Дай мне пример слова в предложении.", "en": "Give me an example of the word in a sentence." }
+    },
+    {
+      "id": "bojning",
+      "sv": "böjning",
+      "translations": { "ru": "словоизменение, парадигма форм", "en": "inflection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en böjning", "defSg": "böjningen", "indefPl": "böjningar", "defPl": "böjningarna" },
+      "example": { "sv": "Ordbokens böjning visar alla former.", "ru": "Словарная парадигма показывает все формы.", "en": "The dictionary's inflection table shows all the forms." }
+    },
+    {
+      "id": "betyda",
+      "sv": "betyda",
+      "translations": { "ru": "означать", "en": "to mean" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "betyda", "present": "betyder", "past": "betydde", "supine": "betytt" },
+      "example": { "sv": "Vad betyder ordet \"lagom\"?", "ru": "Что значит слово «lagom»?", "en": "What does the word \"lagom\" mean?" }
+    },
+    {
+      "id": "boja",
+      "sv": "böja",
+      "translations": { "ru": "спрягать, склонять", "en": "to inflect, to conjugate, to decline" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "böja", "present": "böjer", "past": "böjde", "supine": "böjt" },
+      "example": { "sv": "Hur böjs verbet \"vara\"?", "ru": "Как спрягается глагол «vara»?", "en": "How is the verb \"vara\" conjugated?" }
+    },
+    {
+      "id": "sla-upp",
+      "sv": "slå upp",
+      "translations": { "ru": "искать, смотреть в словаре", "en": "to look up (a word)" },
+      "pos": "verb",
+      "forms": { "infinitive": "slå upp", "present": "slår upp", "past": "slog upp", "supine": "slagit upp" },
+      "example": { "sv": "Jag slår upp ordet i ordboken.", "ru": "Я ищу слово в словаре.", "en": "I look the word up in the dictionary." }
+    },
+    {
+      "id": "forklara",
+      "sv": "förklara",
+      "translations": { "ru": "объяснять", "en": "to explain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förklara", "present": "förklarar", "past": "förklarade", "supine": "förklarat" },
+      "example": { "sv": "Kan du förklara ordet för mig?", "ru": "Можешь объяснить мне это слово?", "en": "Can you explain the word to me?" }
+    },
+    {
+      "id": "uttal",
+      "sv": "uttal",
+      "translations": { "ru": "произношение", "en": "pronunciation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett uttal", "defSg": "uttalet", "indefPl": "uttal", "defPl": "uttalen" },
+      "example": { "sv": "Ordboken visar också ordets uttal.", "ru": "Словарь также показывает произношение слова.", "en": "The dictionary also shows the word's pronunciation." }
+    },
+    {
+      "id": "stavning",
+      "sv": "stavning",
+      "translations": { "ru": "написание, орфография", "en": "spelling" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stavning", "defSg": "stavningen", "indefPl": "stavningar", "defPl": "stavningarna" },
+      "example": { "sv": "Kolla stavningen i ordboken om du är osäker.", "ru": "Проверь написание в словаре, если сомневаешься.", "en": "Check the spelling in the dictionary if you're unsure." }
+    },
+    {
+      "id": "lagom",
+      "sv": "lagom",
+      "translations": { "ru": "в меру, в самый раз", "en": "just the right amount, just right" },
+      "pos": "adv",
+      "example": { "sv": "Kaffet är lagom varmt.", "ru": "Кофе в самый раз тёплый.", "en": "The coffee is just the right temperature." }
+    },
+    {
+      "id": "innebord",
+      "sv": "innebörd",
+      "translations": { "ru": "смысл, суть (слова)", "en": "sense, underlying meaning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en innebörd", "defSg": "innebörden", "indefPl": "innebörder", "defPl": "innebörderna" },
+      "example": { "sv": "Jag förstår inte ordets innebörd.", "ru": "Я не понимаю смысл этого слова.", "en": "I don't understand the sense of the word." }
+    },
+    {
+      "id": "exempelmening",
+      "sv": "exempelmening",
+      "translations": { "ru": "предложение-пример", "en": "example sentence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en exempelmening", "defSg": "exempelmeningen", "indefPl": "exempelmeningar", "defPl": "exempelmeningarna" },
+      "example": { "sv": "Läs exempelmeningen för att förstå ordet.", "ru": "Прочитай предложение-пример, чтобы понять слово.", "en": "Read the example sentence to understand the word." }
+    }
+  ]
+}

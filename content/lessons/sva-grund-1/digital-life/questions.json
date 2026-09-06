@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-digital-life-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я вхожу с помощью пароля.»", "en": "Build the sentence: \"I log in with my password.\"" },
+      "tokens": ["med", "loggar", "lösenord", "in", "mitt", "Jag"],
+      "answer": [5, 1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-digital-life-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Отсканируй QR-код камерой.»", "en": "Build the sentence: \"Scan the QR code with the camera.\"" },
+      "tokens": ["med", "QR-koden", "kameran.", "Skanna"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-digital-life-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["lösenord", "пароль"],
+        ["användarnamn", "имя пользователя"],
+        ["app", "приложение"],
+        ["notis", "уведомление"]
+      ]
+    },
+    {
+      "id": "q-digital-life-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kivra» — это государственное ведомство, а не приложение.", "en": "\"Kivra\" is a government agency, not an app." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Kivra» — это частный сервис цифрового почтового ящика, а не государственное ведомство.",
+        "en": "\"Kivra\" is a private digital mailbox service, not a government agency."
+      }
+    },
+    {
+      "id": "q-digital-life-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "BankID можно использовать, чтобы войти в Mina sidor на сайте госоргана.", "en": "BankID can be used to log in to \"Mina sidor\" on a government website." },
+      "answer": true
+    },
+    {
+      "id": "q-digital-life-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag har glömt mitt ___. (пароль)" },
+      "answer": ["lösenord"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-digital-life-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ QR-koden med kameran. (Отсканируй)" },
+      "answer": ["Skanna"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-digital-life-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Тебе нужно подтвердить личность на сайте налоговой службы. Что ты используешь?",
+        "en": "You need to verify your identity on the Tax Agency's website. What do you use?"
+      },
+      "choices": ["BankID", "Ett lösenord", "En QR-kod", "En app-uppdatering"],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-life-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты получаешь официальные письма от государства не по обычной почте, а в приложении. Что это, скорее всего?",
+        "en": "You receive official letters from the government not by regular mail, but in an app. What's this most likely to be?"
+      },
+      "choices": ["Kivra (digital brevlåda)", "Ett lösenord", "En QR-kod", "Mina sidor på banken"],
+      "answer": 0
+    }
+  ]
+}

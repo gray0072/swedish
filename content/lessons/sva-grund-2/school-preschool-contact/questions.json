@@ -1,0 +1,81 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-school-preschool-contact-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что такое elevhälsa?", "en": "What is elevhälsa?" },
+      "choices": [
+        { "ru": "Школьная служба здоровья и поддержки учеников", "en": "The school's student health/support service" },
+        { "ru": "Утренний завтрак в школе", "en": "The school's morning breakfast" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-school-preschool-contact-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Кто такой mentor в шведской школе?", "en": "Who is the mentor at a Swedish school?" },
+      "choices": [
+        { "ru": "Учитель, закреплённый именно за этим учеником", "en": "A teacher assigned specifically to that student" },
+        { "ru": "Директор школы", "en": "The school principal" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-school-preschool-contact-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Контакт с учителем ограничивается только ежегодной utvecklingssamtal.", "en": "Contact with the teacher is limited only to the yearly utvecklingssamtal." },
+      "answer": false,
+      "explanation": { "ru": "Родитель может и должен обращаться в течение года по мере необходимости.", "en": "A parent can and should reach out during the year as needed." }
+    },
+    {
+      "id": "q-school-preschool-contact-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag skulle vilja ___ ett möte med hans lärare. (boka)" },
+      "answer": ["boka"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-school-preschool-contact-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Finns det extra ___ att få om han har svårt med matematiken? (stöd)" },
+      "answer": ["stöd"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-school-preschool-contact-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["mentor", "закреплённый учитель / assigned teacher"],
+        ["elevhälsa", "школьная служба поддержки / student health service"],
+        ["särskilt stöd", "дополнительная поддержка / extra support"],
+        ["svårigheter", "трудности / difficulties"]
+      ]
+    },
+    {
+      "id": "q-school-preschool-contact-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы обратились в elevhälsa за советом.»", "en": "Build the sentence: \"We've contacted elevhälsan for advice.\"" },
+      "tokens": ["Vi", "har", "kontaktat", "elevhälsan", "för", "att", "få", "råd"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-school-preschool-contact-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Elevhälsa включает школьную медсестру, психолога и куратора.", "en": "Elevhälsa includes the school nurse, psychologist, and counsellor." },
+      "answer": true
+    },
+    {
+      "id": "q-school-preschool-contact-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Как вежливо спросить, можно ли встретиться на следующей неделе?", "en": "How do you politely ask whether it's possible to meet next week?" },
+      "choices": ["Går det att träffas nästa vecka?", "Ni måste träffas nästa vecka!", "Varför inte nästa vecka?"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "komma-pa",
+      "sv": "komma på",
+      "translations": { "ru": "вспомнить, придумать", "en": "to think of, to come up with" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma på", "present": "kommer på", "past": "kom på", "supine": "kommit på" },
+      "example": { "sv": "Jag kommer inte på ordet just nu.", "ru": "Я не могу вспомнить слово прямо сейчас.", "en": "I can't think of the word right now." }
+    },
+    {
+      "id": "typ",
+      "sv": "typ",
+      "translations": { "ru": "типа, вроде", "en": "like, kind of" },
+      "pos": "adv",
+      "example": { "sv": "Det är typ en sak man lagar mat i.", "ru": "Это типа штука, в которой готовят еду.", "en": "It's like the thing you cook food in." }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "иметь в виду", "en": "to mean" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Jag menar att det är bråttom.", "ru": "Я имею в виду, что это срочно.", "en": "I mean that it's urgent." }
+    },
+    {
+      "id": "parafrasera",
+      "sv": "parafrasera",
+      "translations": { "ru": "перефразировать", "en": "to paraphrase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "parafrasera", "present": "parafraserar", "past": "parafraserade", "supine": "parafraserat" },
+      "example": { "sv": "Kan du parafrasera det du sa?", "ru": "Можешь перефразировать то, что сказал(а)?", "en": "Can you paraphrase what you said?" }
+    },
+    {
+      "id": "med-andra-ord",
+      "sv": "med andra ord",
+      "translations": { "ru": "другими словами", "en": "in other words" },
+      "pos": "phrase",
+      "example": { "sv": "Med andra ord, jag orkar inte idag.", "ru": "Другими словами, у меня сегодня нет сил.", "en": "In other words, I don't have the energy today." }
+    },
+    {
+      "id": "det-vill-saga",
+      "sv": "det vill säga",
+      "translations": { "ru": "то есть", "en": "that is to say" },
+      "pos": "phrase",
+      "example": { "sv": "Jag kommer sent, det vill säga efter sju.", "ru": "Я приду поздно, то есть после семи.", "en": "I'll come late, that is, after seven." }
+    },
+    {
+      "id": "forsta-strategies",
+      "sv": "förstå",
+      "translations": { "ru": "понимать", "en": "to understand" },
+      "pos": "verb",
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" },
+      "example": { "sv": "Förlåt, jag förstod inte riktigt.", "ru": "Извини, я не совсем понял(а).", "en": "Sorry, I didn't quite understand." }
+    },
+    {
+      "id": "forklara-strategies",
+      "sv": "förklara",
+      "translations": { "ru": "объяснять", "en": "to explain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förklara", "present": "förklarar", "past": "förklarade", "supine": "förklarat" },
+      "example": { "sv": "Kan du förklara det på ett annat sätt?", "ru": "Можешь объяснить это по-другому?", "en": "Can you explain it a different way?" }
+    },
+    {
+      "id": "satt",
+      "sv": "sätt",
+      "translations": { "ru": "способ, манера", "en": "way, manner" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sätt", "defSg": "sättet", "indefPl": "sätt", "defPl": "sätten" },
+      "example": { "sv": "Säg det på ett annat sätt.", "ru": "Скажи это по-другому.", "en": "Say it a different way." }
+    },
+    {
+      "id": "ord-word",
+      "sv": "ord",
+      "translations": { "ru": "слово", "en": "word" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ord", "defSg": "ordet", "indefPl": "ord", "defPl": "orden" },
+      "example": { "sv": "Jag hittar inte rätt ord.", "ru": "Я не могу найти нужное слово.", "en": "I can't find the right word." }
+    },
+    {
+      "id": "brattom",
+      "sv": "bråttom",
+      "translations": { "ru": "срочно, спешить", "en": "urgent, in a hurry" },
+      "pos": "adv",
+      "example": { "sv": "Det är bråttom, vi måste gå nu!", "ru": "Это срочно, нам нужно идти сейчас же!", "en": "It's urgent, we have to go now!" }
+    },
+    {
+      "id": "riktigt",
+      "sv": "riktigt",
+      "translations": { "ru": "по-настоящему, совсем", "en": "really, quite" },
+      "pos": "adv",
+      "example": { "sv": "Jag förstod inte riktigt vad du menade.", "ru": "Я не совсем понял(а), что ты имел(а) в виду.", "en": "I didn't quite understand what you meant." }
+    },
+    {
+      "id": "annan",
+      "sv": "annan",
+      "translations": { "ru": "другой", "en": "other, another" },
+      "pos": "adj",
+      "example": { "sv": "Kan du säga det på ett annat sätt?", "ru": "Можешь сказать это по-другому?", "en": "Can you say it a different way?" }
+    },
+    {
+      "id": "sak",
+      "sv": "sak",
+      "translations": { "ru": "вещь, предмет", "en": "thing" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sak", "defSg": "saken", "indefPl": "saker", "defPl": "sakerna" },
+      "example": { "sv": "Det är en sak man använder i köket.", "ru": "Это вещь, которую используют на кухне.", "en": "It's a thing you use in the kitchen." }
+    },
+    {
+      "id": "laga-mat",
+      "sv": "laga mat",
+      "translations": { "ru": "готовить еду", "en": "to cook" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "laga mat", "present": "lagar mat", "past": "lagade mat", "supine": "lagat mat" },
+      "example": { "sv": "En sak man lagar mat i.", "ru": "Штука, в которой готовят еду.", "en": "A thing you cook food in." }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/cleft-construction",
+  "slug": "cleft-construction",
+  "title": {
+    "sv": "Klyvning: \"det är … som\"",
+    "ru": "Клефт-конструкция «det är … som» — выделение важного",
+    "en": "The cleft construction \"det är … som\" — highlighting what matters"
+  },
+  "summary": {
+    "ru": "«Det är Anna som lagar mat» — именно Анна, а не кто-то другой. Как выделить любой член предложения одной конструкцией.",
+    "en": "\"Det är Anna som lagar mat\" — it's Anna, not someone else. How to spotlight any part of a sentence with one construction."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "cleft",
+    "emphasis",
+    "syntax",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1020,
+  "prerequisites": [
+    "sva-grund-1/main-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/concessive-clauses",
+  "slug": "concessive-clauses",
+  "title": {
+    "sv": "Konsessiva bisatser: fast, trots att, även om",
+    "ru": "Уступительные и противительные конструкции: fast, trots att, även om",
+    "en": "Concessive and adversative constructions: fast, trots att, även om"
+  },
+  "summary": {
+    "ru": "«fast/trots att» — уступка при реальном факте, «även om» — уступка при предположении. Одна и та же фраза, разный смысл.",
+    "en": "\"fast/trots att\" concedes a real fact; \"även om\" concedes a hypothesis. The same phrase, a different meaning."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "concessive",
+    "syntax",
+    "biff"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 940,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

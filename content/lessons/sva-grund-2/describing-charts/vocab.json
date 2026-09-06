@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "oka",
+      "sv": "öka",
+      "translations": { "ru": "увеличиваться, расти", "en": "to increase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" },
+      "example": { "sv": "Antalet studenter ökade under 2020-talet.", "ru": "Число студентов увеличивалось в 2020-х.", "en": "The number of students increased during the 2020s." }
+    },
+    {
+      "id": "minska",
+      "sv": "minska",
+      "translations": { "ru": "уменьшаться, снижаться", "en": "to decrease" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" },
+      "example": { "sv": "Priserna minskade något förra året.", "ru": "Цены немного снизились в прошлом году.", "en": "Prices decreased slightly last year." }
+    },
+    {
+      "id": "ligga-still",
+      "sv": "ligga still",
+      "translations": { "ru": "оставаться неизменным (о графике)", "en": "to stay flat" },
+      "pos": "phrase",
+      "example": { "sv": "Kurvan låg still under hela perioden.", "ru": "Кривая оставалась неизменной весь период.", "en": "The curve stayed flat throughout the period." }
+    },
+    {
+      "id": "topp",
+      "sv": "topp",
+      "translations": { "ru": "пик", "en": "peak" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en topp", "defSg": "toppen", "indefPl": "toppar", "defPl": "topparna" }
+    },
+    {
+      "id": "nedgang",
+      "sv": "nedgång",
+      "translations": { "ru": "спад, падение", "en": "decline, drop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nedgång", "defSg": "nedgången", "indefPl": "nedgångar", "defPl": "nedgångarna" }
+    },
+    {
+      "id": "ungefar-halften",
+      "sv": "ungefär hälften",
+      "translations": { "ru": "примерно половина", "en": "about half" },
+      "pos": "phrase",
+      "example": { "sv": "Ungefär hälften av de tillfrågade svarade ja.", "ru": "Примерно половина опрошенных ответила «да».", "en": "About half of those asked said yes." }
+    },
+    {
+      "id": "en-tredjedel",
+      "sv": "en tredjedel",
+      "translations": { "ru": "треть", "en": "a third" },
+      "pos": "phrase"
+    },
+    {
+      "id": "majoriteten",
+      "sv": "majoriteten",
+      "translations": { "ru": "большинство", "en": "the majority" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en majoritet", "defSg": "majoriteten", "indefPl": "majoriteter", "defPl": "majoriteterna" },
+      "example": { "sv": "Majoriteten av deltagarna var positiva.", "ru": "Большинство участников были настроены положительно.", "en": "The majority of participants were positive." }
+    },
+    {
+      "id": "jamfort-med",
+      "sv": "jämfört med",
+      "translations": { "ru": "по сравнению с", "en": "compared with" },
+      "pos": "phrase",
+      "example": { "sv": "Jämfört med föregående år har siffran fördubblats.", "ru": "По сравнению с прошлым годом цифра удвоилась.", "en": "Compared with the previous year, the figure has doubled." }
+    },
+    {
+      "id": "fordubblas",
+      "sv": "fördubblas",
+      "translations": { "ru": "удваиваться", "en": "to double" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fördubblas", "present": "fördubblas", "past": "fördubblades", "supine": "fördubblats" },
+      "note": { "ru": "S-глагол (пассивная/депонентная форма).", "en": "An s-verb (passive/deponent form)." }
+    }
+  ]
+}

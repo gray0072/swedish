@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/future-plans",
+  "slug": "future-plans",
+  "title": {
+    "sv": "Planer för framtiden",
+    "ru": "Планы на будущее: учёба, работа, семья",
+    "en": "Plans for the future: studies, work, family"
+  },
+  "summary": {
+    "ru": "Глаголы и фразы для разговора о планах в учёбе, работе и семье с ska и kommer att.",
+    "en": "Verbs and phrases for talking about study, work and family plans with ska and kommer att."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "vocab",
+    "future-tense",
+    "plans"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 640,
+  "prerequisites": [
+    "sva-grund-1/future-tense"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

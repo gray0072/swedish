@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "anstallningsavtal",
+      "sv": "anställningsavtal",
+      "translations": { "ru": "трудовой договор", "en": "employment contract" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett anställningsavtal", "defSg": "anställningsavtalet", "indefPl": "anställningsavtal", "defPl": "anställningsavtalen" },
+      "example": { "sv": "Läs igenom anställningsavtalet noga innan du skriver under.", "ru": "Внимательно прочитай трудовой договор перед подписанием.", "en": "Read the employment contract carefully before you sign it." }
+    },
+    {
+      "id": "tillsvidareanstallning",
+      "sv": "tillsvidareanställning",
+      "translations": { "ru": "бессрочная занятость, постоянная должность", "en": "permanent employment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tillsvidareanställning", "defSg": "tillsvidareanställningen", "indefPl": "tillsvidareanställningar", "defPl": "tillsvidareanställningarna" },
+      "example": { "sv": "Efter provanställningen fick hon en tillsvidareanställning.", "ru": "После испытательного срока она получила постоянную должность.", "en": "After the probationary period, she got a permanent position." }
+    },
+    {
+      "id": "visstidsanstallning",
+      "sv": "visstidsanställning",
+      "translations": { "ru": "срочная занятость, работа на определённый срок", "en": "fixed-term employment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en visstidsanställning", "defSg": "visstidsanställningen", "indefPl": "visstidsanställningar", "defPl": "visstidsanställningarna" },
+      "example": { "sv": "Han har en visstidsanställning fram till december.", "ru": "У него срочный контракт до декабря.", "en": "He has a fixed-term contract until December." }
+    },
+    {
+      "id": "provanstallning",
+      "sv": "provanställning",
+      "translations": { "ru": "испытательный срок (форма найма)", "en": "probationary employment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en provanställning", "defSg": "provanställningen", "indefPl": "provanställningar", "defPl": "provanställningarna" },
+      "example": { "sv": "Provanställningen varar i sex månader.", "ru": "Испытательный срок длится шесть месяцев.", "en": "The probationary period lasts six months." }
+    },
+    {
+      "id": "uppsagningstid",
+      "sv": "uppsägningstid",
+      "translations": { "ru": "срок предупреждения об увольнении", "en": "notice period" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppsägningstid", "defSg": "uppsägningstiden", "indefPl": "uppsägningstider", "defPl": "uppsägningstiderna" },
+      "example": { "sv": "Min uppsägningstid är tre månader.", "ru": "Мой срок предупреждения об увольнении — три месяца.", "en": "My notice period is three months." }
+    },
+    {
+      "id": "saga-upp",
+      "sv": "säga upp",
+      "translations": { "ru": "увольнять; расторгать договор", "en": "to give notice, to terminate employment" },
+      "pos": "verb",
+      "forms": { "infinitive": "säga upp", "present": "säger upp", "past": "sade upp", "supine": "sagt upp", "imperative": "säg upp" },
+      "example": { "sv": "Företaget sa upp tio anställda i somras.", "ru": "Компания уволила десять сотрудников этим летом.", "en": "The company laid off ten employees this summer." }
+    },
+    {
+      "id": "kollektivavtal",
+      "sv": "kollektivavtal",
+      "translations": { "ru": "коллективный договор", "en": "collective agreement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kollektivavtal", "defSg": "kollektivavtalet", "indefPl": "kollektivavtal", "defPl": "kollektivavtalen" },
+      "example": { "sv": "Arbetsplatsen omfattas av kollektivavtal.", "ru": "На это рабочее место распространяется коллективный договор.", "en": "The workplace is covered by a collective agreement." }
+    },
+    {
+      "id": "fackforbund",
+      "sv": "fackförbund",
+      "translations": { "ru": "профсоюз", "en": "trade union" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fackförbund", "defSg": "fackförbundet", "indefPl": "fackförbund", "defPl": "fackförbunden" },
+      "example": { "sv": "Jag är med i ett fackförbund.", "ru": "Я состою в профсоюзе.", "en": "I am a member of a trade union." }
+    },
+    {
+      "id": "medlemsavgift",
+      "sv": "medlemsavgift",
+      "translations": { "ru": "членский взнос", "en": "membership fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medlemsavgift", "defSg": "medlemsavgiften", "indefPl": "medlemsavgifter", "defPl": "medlemsavgifterna" },
+      "example": { "sv": "Medlemsavgiften dras från lönen varje månad.", "ru": "Членский взнос вычитается из зарплаты каждый месяц.", "en": "The membership fee is deducted from the salary every month." }
+    },
+    {
+      "id": "medlem",
+      "sv": "medlem",
+      "translations": { "ru": "член (организации)", "en": "member" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medlem", "defSg": "medlemmen", "indefPl": "medlemmar", "defPl": "medlemmarna" },
+      "example": { "sv": "Hon blev medlem i facket direkt efter anställningen.", "ru": "Она вступила в профсоюз сразу после трудоустройства.", "en": "She became a union member right after being hired." }
+    },
+    {
+      "id": "arbetsratt",
+      "sv": "arbetsrätt",
+      "translations": { "ru": "трудовое право", "en": "labour law" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kursen handlar om svensk arbetsrätt.", "ru": "Курс посвящён шведскому трудовому праву.", "en": "The course is about Swedish labour law." }
+    },
+    {
+      "id": "las",
+      "sv": "LAS",
+      "translations": { "ru": "Закон о защите занятости (Швеция)", "en": "the Employment Protection Act (Sweden)" },
+      "pos": "noun",
+      "note": { "ru": "LAS = lagen om anställningsskydd, регулирует увольнения и сроки предупреждения.", "en": "LAS = lagen om anställningsskydd, the law regulating dismissals and notice periods." },
+      "example": { "sv": "Enligt LAS har jag rätt till en viss uppsägningstid.", "ru": "Согласно LAS, у меня есть право на определённый срок предупреждения.", "en": "Under LAS, I'm entitled to a certain notice period." }
+    },
+    {
+      "id": "forhandla",
+      "sv": "förhandla",
+      "translations": { "ru": "вести переговоры", "en": "to negotiate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förhandla", "present": "förhandlar", "past": "förhandlade", "supine": "förhandlat", "imperative": "förhandla" },
+      "example": { "sv": "Facket förhandlar om högre löner varje år.", "ru": "Профсоюз каждый год ведёт переговоры о повышении зарплаты.", "en": "The union negotiates for higher wages every year." }
+    },
+    {
+      "id": "strejk",
+      "sv": "strejk",
+      "translations": { "ru": "забастовка", "en": "strike" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en strejk", "defSg": "strejken", "indefPl": "strejker", "defPl": "strejkerna" },
+      "example": { "sv": "Bussförarna gick ut i strejk i går.", "ru": "Вчера водители автобусов вышли на забастовку.", "en": "The bus drivers went on strike yesterday." }
+    },
+    {
+      "id": "skyddsombud",
+      "sv": "skyddsombud",
+      "translations": { "ru": "представитель по охране труда", "en": "safety representative" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skyddsombud", "defSg": "skyddsombudet", "indefPl": "skyddsombud", "defPl": "skyddsombuden" },
+      "example": { "sv": "Skyddsombudet kontrollerar arbetsmiljön varje månad.", "ru": "Представитель по охране труда проверяет условия труда каждый месяц.", "en": "The safety representative checks the work environment every month." }
+    }
+  ]
+}

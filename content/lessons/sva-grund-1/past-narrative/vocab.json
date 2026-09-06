@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Igår träffade jag en gammal vän.", "ru": "Вчера я встретил старого друга.", "en": "Yesterday I met an old friend." }
+    },
+    {
+      "id": "i-forrgar",
+      "sv": "i förrgår",
+      "translations": { "ru": "позавчера", "en": "the day before yesterday" },
+      "pos": "adv",
+      "example": { "sv": "I förrgår ringde hon till mig.", "ru": "Позавчера она позвонила мне.", "en": "The day before yesterday she called me." }
+    },
+    {
+      "id": "forra-veckan",
+      "sv": "förra veckan",
+      "translations": { "ru": "на прошлой неделе", "en": "last week" },
+      "pos": "phrase",
+      "example": { "sv": "Förra veckan åkte jag till Göteborg.", "ru": "На прошлой неделе я ездил в Гётеборг.", "en": "Last week I went to Gothenburg." }
+    },
+    {
+      "id": "forra-aret",
+      "sv": "förra året",
+      "translations": { "ru": "в прошлом году", "en": "last year" },
+      "pos": "phrase",
+      "example": { "sv": "Förra året bodde jag i Malmö.", "ru": "В прошлом году я жил в Мальмё.", "en": "Last year I lived in Malmö." }
+    },
+    {
+      "id": "for-tva-dagar-sedan",
+      "sv": "för två dagar sedan",
+      "translations": { "ru": "два дня назад", "en": "two days ago" },
+      "pos": "phrase",
+      "example": { "sv": "För två dagar sedan hände något konstigt.", "ru": "Два дня назад случилось кое-что странное.", "en": "Two days ago something strange happened." }
+    },
+    {
+      "id": "i-somras",
+      "sv": "i somras",
+      "translations": { "ru": "прошлым летом", "en": "last summer" },
+      "pos": "adv",
+      "example": { "sv": "I somras reste vi till Norge.", "ru": "Прошлым летом мы ездили в Норвегию.", "en": "Last summer we traveled to Norway." }
+    },
+    {
+      "id": "sedan-pn",
+      "sv": "sedan",
+      "translations": { "ru": "затем, потом", "en": "then, afterwards" },
+      "pos": "adv",
+      "example": { "sv": "Jag åt frukost, sedan gick jag till jobbet.", "ru": "Я позавтракал, потом пошёл на работу.", "en": "I ate breakfast, then I went to work." }
+    },
+    {
+      "id": "efterat",
+      "sv": "efteråt",
+      "translations": { "ru": "после этого, потом", "en": "afterwards" },
+      "pos": "adv",
+      "example": { "sv": "Efteråt träffade jag min kollega.", "ru": "После этого я встретил коллегу.", "en": "Afterwards I met my colleague." }
+    },
+    {
+      "id": "till-slut",
+      "sv": "till slut",
+      "translations": { "ru": "в конце концов, наконец", "en": "finally, in the end" },
+      "pos": "phrase",
+      "example": { "sv": "Till slut gick vi hem tillsammans.", "ru": "В конце концов мы пошли домой вместе.", "en": "In the end we walked home together." }
+    },
+    {
+      "id": "aka",
+      "sv": "åka",
+      "translations": { "ru": "ехать, ездить (на транспорте)", "en": "to go, to travel (by vehicle)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" },
+      "example": { "sv": "Förra veckan åkte jag till Göteborg.", "ru": "На прошлой неделе я ездил в Гётеборг.", "en": "Last week I went to Gothenburg." }
+    },
+    {
+      "id": "komma-pn",
+      "sv": "komma",
+      "translations": { "ru": "приходить, приезжать", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Hon kom sent till festen igår.", "ru": "Она пришла на праздник поздно вчера.", "en": "She came late to the party yesterday." }
+    },
+    {
+      "id": "traffa",
+      "sv": "träffa",
+      "translations": { "ru": "встречать, встречаться с", "en": "to meet" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" },
+      "example": { "sv": "Igår träffade jag en gammal vän.", "ru": "Вчера я встретил старого друга.", "en": "Yesterday I met an old friend." }
+    },
+    {
+      "id": "ga-pn",
+      "sv": "gå",
+      "translations": { "ru": "идти, ходить", "en": "to go, to walk" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Vi gick hem tillsammans till slut.", "ru": "В конце концов мы пошли домой вместе.", "en": "In the end we walked home together." }
+    },
+    {
+      "id": "vara-pn",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Förra året var jag i Spanien.", "ru": "В прошлом году я был в Испании.", "en": "Last year I was in Spain." }
+    },
+    {
+      "id": "ha-pn",
+      "sv": "ha",
+      "translations": { "ru": "иметь", "en": "to have" },
+      "pos": "verb",
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "example": { "sv": "Igår hade jag mycket att göra.", "ru": "Вчера у меня было много дел.", "en": "Yesterday I had a lot to do." }
+    },
+    {
+      "id": "bli-pn",
+      "sv": "bli",
+      "translations": { "ru": "становиться", "en": "to become" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "bli", "present": "blir", "past": "blev", "supine": "blivit" },
+      "example": { "sv": "Han blev glad när han hörde nyheten.", "ru": "Он обрадовался, когда услышал новость.", "en": "He became happy when he heard the news." }
+    },
+    {
+      "id": "handa",
+      "sv": "hända",
+      "translations": { "ru": "случаться, происходить", "en": "to happen" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "hända", "present": "händer", "past": "hände", "supine": "hänt" },
+      "example": { "sv": "Vad hände sen?", "ru": "Что случилось потом?", "en": "What happened next?" }
+    },
+    {
+      "id": "beratta",
+      "sv": "berätta",
+      "translations": { "ru": "рассказывать", "en": "to tell, to narrate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" },
+      "example": { "sv": "Kan du berätta vad som hände?", "ru": "Можешь рассказать, что случилось?", "en": "Can you tell me what happened?" }
+    }
+  ]
+}

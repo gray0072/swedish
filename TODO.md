@@ -7,20 +7,20 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Content
 
-- [ ] **SVA grund delkurs 1–4 have no thematic-topic lessons** — all 100 topics listed
-  across the four levels are still `[ ]`. A topic lesson there is work with a text
-  (referat, argumentation, källkritik), and the project has no format for such a lesson
-  yet: it needs not only content but a decision on what the lesson looks like (see
-  `SPEC.md` §5). Delkurs 1 does now have its 20 grammar-point lessons done (see below).
+- [ ] **SVA grund delkurs 3–4 have no lessons at all** — all 50 topics and 40 grammar
+  points across the two levels are still `[ ]`. If they get the same "real text format"
+  treatment delkurs 1 and 2's topics didn't get, that format still needs to be designed
+  first (reading passage field, comprehension question types, `LessonPage` UI — see
+  `SPEC.md` §5); otherwise they can reuse the same vocab/phrases pipeline as delkurs 1-2.
 - [ ] **SFI kurs D** has only 3 lessons, **kurs C** has 5. `CURRICULUM.md` lists roughly
   20 more topics under each level. A good candidate for a run with parallel agents
   (the approach is described in the CHANGELOG entry for 2026-09-05).
-- [ ] `CURRICULUM.md`'s grammar lists: **20/160 points now have a dedicated lesson** — all
-  of SVA grund delkurs 1, each with bilingual (RU/EN) theory via the new `theory_en.md`
-  companion file. The other 140 points (SFI kurs A–D, SVA grund delkurs 2–4) still rely
+- [ ] `CURRICULUM.md`'s grammar lists: **40/160 points now have a dedicated lesson** — all
+  of SVA grund delkurs 1 and 2, each with bilingual (RU/EN) theory via the `theory_en.md`
+  companion file. The other 120 points (SFI kurs A–D, SVA grund delkurs 3–4) still rely
   on grammar being threaded through topic lessons' theory rather than a dedicated lesson.
   There are also three reference articles in `content/grammar/`.
-- [ ] None of the 46 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
+- [ ] None of the 116 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
   everything still fits the 5-minute limit on a single topic. If a broader topic shows
   up, split it into parts rather than trimming it.
 

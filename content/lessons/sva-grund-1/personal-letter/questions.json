@@ -1,0 +1,112 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "personal-letter-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое обращение самое тёплое и старомодное?",
+        "en": "Which salutation is the warmest and most old-fashioned?"
+      },
+      "choices": ["Hej Anna!", "Kära Anna,", "Anna,", "Till Anna"],
+      "answer": 1
+    },
+    {
+      "id": "personal-letter-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое прощание самое неформальное — только между близкими людьми?",
+        "en": "Which closing is the most informal — only between close people?"
+      },
+      "choices": ["Med vänlig hälsning", "Hälsningar", "Kram", "Högaktningsfullt"],
+      "answer": 2
+    },
+    {
+      "id": "personal-letter-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая фраза уместнее всего в начале письма другу?",
+        "en": "Which phrase best opens a letter to a friend?"
+      },
+      "choices": ["Jag skriver för att berätta att jag flyttar.", "Härmed ansöker jag om...", "Ärendet gäller...", "Bifogat finner ni..."],
+      "answer": 0
+    },
+    {
+      "id": "personal-letter-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Med vänlig hälsning» можно использовать и в полуформальном письме.",
+        "en": "\"Med vänlig hälsning\" can also be used in a semi-formal letter."
+      },
+      "answer": true
+    },
+    {
+      "id": "personal-letter-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Короткое sms-сообщение обычно начинается с полного обращения «Kära...».",
+        "en": "A short text message usually opens with the full salutation \"Kära...\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Sms обычно короткие и без формального обращения — часто просто «Hej!».",
+        "en": "Text messages are usually short and skip the formal salutation — often just \"Hej!\"."
+      }
+    },
+    {
+      "id": "personal-letter-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «kära» ставится перед именем независимо от того, мужчина это или женщина.",
+        "en": "The word \"kära\" goes before the name regardless of whether it's a man or a woman."
+      },
+      "answer": true
+    },
+    {
+      "id": "personal-letter-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hoppas allt är bra ___ dig! (с тобой)" },
+      "answer": ["med"],
+      "acceptAlso": []
+    },
+    {
+      "id": "personal-letter-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь формулу письма с переводом", "en": "Match the letter formula with its translation" },
+      "pairs": [
+        ["Hör av dig snart!", "Дай знать о себе поскорее!"],
+        ["Vi ses snart!", "Скоро увидимся!"],
+        ["Med vänlig hälsning", "С наилучшими пожеланиями"],
+        ["Puss och kram", "Целую и обнимаю"]
+      ]
+    },
+    {
+      "id": "personal-letter-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Пишу, чтобы сказать, что я переезжаю.»", "en": "Build the sentence: \"I'm writing to tell you I'm moving.\"" },
+      "tokens": ["skriver", "att", "jag", "för", "flyttar", "Jag", "berätta", "att"],
+      "answer": [5, 0, 3, 6, 1, 2, 4]
+    },
+    {
+      "id": "personal-letter-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Не могу прийти сегодня вечером.»", "en": "Build the sentence: \"Can't come tonight.\"" },
+      "tokens": ["ikväll", "komma", "Kan", "inte"],
+      "answer": [2, 3, 1, 0]
+    }
+  ]
+}

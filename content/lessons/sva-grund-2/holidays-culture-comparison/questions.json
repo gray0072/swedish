@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-holidays-culture-comparison-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза вводит различие?", "en": "Which phrase introduces a difference?" },
+      "choices": ["en intressant skillnad är att", "på liknande sätt", "generellt sett"],
+      "answer": 0
+    },
+    {
+      "id": "q-holidays-culture-comparison-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза вводит сходство?", "en": "Which phrase introduces a similarity?" },
+      "choices": ["på liknande sätt", "till skillnad från", "en intressant skillnad är att"],
+      "answer": 0
+    },
+    {
+      "id": "q-holidays-culture-comparison-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ i mitt hemland firar man inte nyår på samma sätt här. (till skillnad från)" },
+      "answer": ["Till skillnad från"],
+      "acceptAlso": ["till skillnad från"]
+    },
+    {
+      "id": "q-holidays-culture-comparison-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Medan» вводит противопоставление, «тогда как».", "en": "\"Medan\" introduces a contrast, \"while/whereas\"." },
+      "answer": true
+    },
+    {
+      "id": "q-holidays-culture-comparison-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Хорошее сравнение культур — это просто список фактов без связок.", "en": "A good cultural comparison is just a list of facts with no connectors." },
+      "answer": false,
+      "explanation": { "ru": "Каждое сходство/различие должно быть явно введено сигнальным словом.", "en": "Every similarity/difference should be explicitly introduced by a signal word." }
+    },
+    {
+      "id": "q-holidays-culture-comparison-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["skillnad", "отличие / difference"],
+        ["likhet", "сходство / similarity"],
+        ["generellt sett", "в целом / generally speaking"],
+        ["vara van vid", "быть привычным к / to be used to"]
+      ]
+    },
+    {
+      "id": "q-holidays-culture-comparison-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «В целом шведские праздники часто связаны с природой.»", "en": "Build the sentence: \"Generally speaking, Swedish holidays are often tied to nature.\"" },
+      "tokens": ["Generellt", "sett", "är", "svenska", "högtider", "ofta", "kopplade", "till", "naturen"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-holidays-culture-comparison-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "«Julen firas med släkten, medan jag är van vid att fira med hela byn» — что здесь противопоставлено?", "en": "\"Julen firas med släkten, medan jag är van vid att fira med hela byn\" — what is being contrasted here?" },
+      "choices": [
+        { "ru": "Празднование с родственниками vs. со всей деревней", "en": "Celebrating with relatives vs. with the whole village" },
+        { "ru": "Два разных праздника", "en": "Two different holidays" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-holidays-culture-comparison-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En intressant ___ är att midsommar firas utomhus." },
+      "answer": ["skillnad"],
+      "acceptAlso": []
+    }
+  ]
+}

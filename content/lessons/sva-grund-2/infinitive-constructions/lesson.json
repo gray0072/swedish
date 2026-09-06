@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/infinitive-constructions",
+  "slug": "infinitive-constructions",
+  "title": {
+    "sv": "Infinitivkonstruktioner: för att, utan att, genom att, istället för att",
+    "ru": "Инфинитивные обороты: för att, utan att, genom att, istället för att",
+    "en": "Infinitive constructions: för att, utan att, genom att, istället för att"
+  },
+  "summary": {
+    "ru": "Голый инфинитив после «för att», «utan att», «genom att» и «istället för att» — и как не спутать «för att» цели с «för att» причины.",
+    "en": "The bare infinitive after \"för att\", \"utan att\", \"genom att\" and \"istället för att\" — and how not to confuse purpose \"för att\" with cause \"för att\"."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "infinitive",
+    "conjunctions",
+    "syntax"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 910,
+  "prerequisites": [
+    "sva-grund-1/att-infinitive"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

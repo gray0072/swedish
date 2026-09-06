@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/past-participle-adjective",
+  "slug": "past-participle-adjective",
+  "title": {
+    "sv": "Perfektparticip som adjektiv och dess böjning",
+    "ru": "Причастие прошедшего времени как прилагательное и согласование",
+    "en": "The past participle as an adjective, and agreement"
+  },
+  "summary": {
+    "ru": "«Skriven, skrivet, skrivna» — причастие ведёт себя как обычное прилагательное, не как супин.",
+    "en": "\"Skriven, skrivet, skrivna\" — the participle behaves like a regular adjective, not like the supine."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "adjectives", "verbs"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 970,
+  "prerequisites": ["sva-grund-1/adjective-declension"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "a-ena-sidan-eco",
+      "sv": "å ena sidan...",
+      "translations": { "ru": "с одной стороны...", "en": "on the one hand..." },
+      "pos": "phrase",
+      "example": { "sv": "Å ena sidan är källsortering bra för miljön.", "ru": "С одной стороны, сортировка мусора полезна для окружающей среды.", "en": "On the one hand, sorting waste is good for the environment." }
+    },
+    {
+      "id": "a-andra-sidan-eco",
+      "sv": "å andra sidan...",
+      "translations": { "ru": "с другой стороны...", "en": "on the other hand..." },
+      "pos": "phrase",
+      "example": { "sv": "Å andra sidan tar det tid att sortera allt rätt.", "ru": "С другой стороны, правильно всё рассортировать требует времени.", "en": "On the other hand, sorting everything correctly takes time." }
+    },
+    {
+      "id": "argument-for-ar-att",
+      "sv": "ett argument för är att...",
+      "translations": { "ru": "один аргумент за — то, что...", "en": "one argument for is that..." },
+      "pos": "phrase",
+      "example": { "sv": "Ett argument för är att pant ger folk en anledning att återvinna.", "ru": "Один аргумент за — это то, что залоговая система даёт людям повод перерабатывать.", "en": "One argument for is that the deposit system gives people a reason to recycle." }
+    },
+    {
+      "id": "argument-emot-ar-att",
+      "sv": "ett argument emot är att...",
+      "translations": { "ru": "один аргумент против — то, что...", "en": "one argument against is that..." },
+      "pos": "phrase",
+      "example": { "sv": "Ett argument emot är att det tar tid att källsortera.", "ru": "Один аргумент против — то, что сортировка мусора занимает время.", "en": "One argument against is that sorting waste takes time." }
+    },
+    {
+      "id": "invanda-att",
+      "sv": "man skulle kunna invända att...",
+      "translations": { "ru": "можно было бы возразить, что...", "en": "one could object that..." },
+      "pos": "phrase",
+      "example": { "sv": "Man skulle kunna invända att inte alla har nära till en återvinningsstation.", "ru": "Можно было бы возразить, что не у всех есть станция переработки поблизости.", "en": "One could object that not everyone lives close to a recycling station." }
+    },
+    {
+      "id": "men-samtidigt",
+      "sv": "men samtidigt...",
+      "translations": { "ru": "но в то же время...", "en": "but at the same time..." },
+      "pos": "phrase",
+      "example": { "sv": "Men samtidigt kostar det pengar att bygga fler kompostanläggningar.", "ru": "Но в то же время строить больше компостных установок стоит денег.", "en": "But at the same time, building more composting facilities costs money." }
+    },
+    {
+      "id": "atervinning",
+      "sv": "återvinning",
+      "translations": { "ru": "переработка (отходов)", "en": "recycling" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Återvinning minskar mängden avfall som hamnar på soptippen.", "ru": "Переработка уменьшает количество отходов, попадающих на свалку.", "en": "Recycling reduces the amount of waste that ends up in landfill." }
+    },
+    {
+      "id": "kallsortering",
+      "sv": "källsortering",
+      "translations": { "ru": "сортировка мусора (по источнику)", "en": "waste sorting" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Källsortering är obligatorisk i de flesta svenska kommuner.", "ru": "Сортировка мусора обязательна в большинстве шведских коммун.", "en": "Waste sorting is mandatory in most Swedish municipalities." }
+    },
+    {
+      "id": "pant",
+      "sv": "pant",
+      "translations": { "ru": "залог (за банки и бутылки)", "en": "deposit (on cans and bottles)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pant", "defSg": "panten", "indefPl": "pantar", "defPl": "pantarna" },
+      "example": { "sv": "Jag lämnade tillbaka flaskorna och fick pant.", "ru": "Я сдал(а) бутылки и получил(а) залог обратно.", "en": "I returned the bottles and got the deposit back." }
+    },
+    {
+      "id": "kompost",
+      "sv": "kompost",
+      "translations": { "ru": "компост", "en": "compost" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kompost", "defSg": "komposten", "indefPl": "komposter", "defPl": "komposterna" },
+      "example": { "sv": "Vi har en kompost på gården.", "ru": "У нас во дворе есть компост.", "en": "We have a compost bin in the yard." }
+    },
+    {
+      "id": "miljo",
+      "sv": "miljö",
+      "translations": { "ru": "окружающая среда", "en": "environment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en miljö", "defSg": "miljön", "indefPl": "miljöer", "defPl": "miljöerna" },
+      "example": { "sv": "Källsortering är bra för miljön.", "ru": "Сортировка мусора полезна для окружающей среды.", "en": "Waste sorting is good for the environment." }
+    },
+    {
+      "id": "avfall",
+      "sv": "avfall",
+      "translations": { "ru": "отходы, мусор", "en": "waste" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Allt avfall ska sorteras i rätt kärl.", "ru": "Все отходы нужно сортировать в правильные контейнеры.", "en": "All waste should be sorted into the correct bins." }
+    },
+    {
+      "id": "utslapp",
+      "sv": "utsläpp",
+      "translations": { "ru": "выбросы", "en": "emissions" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utsläpp", "defSg": "utsläppet", "indefPl": "utsläpp", "defPl": "utsläppen" },
+      "example": { "sv": "Återvinning kan minska utsläppen från industrin.", "ru": "Переработка может снизить выбросы от промышленности.", "en": "Recycling can reduce emissions from industry." }
+    },
+    {
+      "id": "hallbar",
+      "sv": "hållbar",
+      "translations": { "ru": "устойчивый, экологичный", "en": "sustainable" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: hållbart, мн.ч.: hållbara", "en": "ett-form: hållbart, plural: hållbara" },
+      "example": { "sv": "Vi försöker leva mer hållbart.", "ru": "Мы стараемся жить более экологично.", "en": "We try to live more sustainably." }
+    },
+    {
+      "id": "atervinningsstation",
+      "sv": "återvinningsstation",
+      "translations": { "ru": "станция переработки, пункт приёма вторсырья", "en": "recycling station" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återvinningsstation", "defSg": "återvinningsstationen", "indefPl": "återvinningsstationer", "defPl": "återvinningsstationerna" },
+      "example": { "sv": "Det finns en återvinningsstation nära vårt hus.", "ru": "Рядом с нашим домом есть станция переработки.", "en": "There's a recycling station near our house." }
+    },
+    {
+      "id": "slanga",
+      "sv": "slänga",
+      "translations": { "ru": "выбрасывать", "en": "to throw away" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "slänga", "present": "slänger", "past": "slängde", "supine": "slängt" },
+      "example": { "sv": "Släng inte glaset i restavfallet!", "ru": "Не выбрасывай стекло в общий мусор!", "en": "Don't throw the glass in with the general waste!" }
+    }
+  ]
+}

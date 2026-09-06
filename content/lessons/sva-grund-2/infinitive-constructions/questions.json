@@ -1,0 +1,192 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-infinitive-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что означает «för att» в «Han sparar pengar för att köpa en bil»?",
+        "en": "What does \"för att\" mean in \"Han sparar pengar för att köpa en bil\"?"
+      },
+      "choices": [
+        { "ru": "чтобы (цель)", "en": "in order to (purpose)" },
+        { "ru": "потому что (причина)", "en": "because (cause)" },
+        { "ru": "вместо того чтобы", "en": "instead of doing" },
+        { "ru": "без того чтобы", "en": "without doing" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Что означает «för att» в «Han är trött för att han jobbade hela natten»?",
+        "en": "What does \"för att\" mean in \"Han är trött för att han jobbade hela natten\"?"
+      },
+      "choices": [
+        { "ru": "потому что (причина)", "en": "because (cause)" },
+        { "ru": "чтобы (цель)", "en": "in order to (purpose)" },
+        { "ru": "путём того что", "en": "by doing" },
+        { "ru": "вместо того чтобы", "en": "instead of doing" }
+      ],
+      "answer": 0,
+      "explanation": {
+        "ru": "Здесь после «för att» идут подлежащее «han» и личный глагол «jobbade» — это настоящий bisats причины, а не оборот цели.",
+        "en": "Here \"för att\" is followed by the subject \"han\" and the finite verb \"jobbade\" — a real cause bisats, not a purpose construction."
+      }
+    },
+    {
+      "id": "q-infinitive-constructions-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как отличить «för att» цели от «för att» причины?",
+        "en": "How do you tell purpose \"för att\" from cause \"för att\"?"
+      },
+      "choices": [
+        { "ru": "Если сразу голый инфинитив без подлежащего — цель; если есть подлежащее и личный глагол — причина.", "en": "A bare infinitive with no subject right after it — purpose; a subject plus a finite verb — cause." },
+        { "ru": "«för att» всегда означает цель.", "en": "\"för att\" always means purpose." },
+        { "ru": "«för att» всегда означает причину.", "en": "\"för att\" always means cause." },
+        { "ru": "Разницы нет, оба значения взаимозаменяемы.", "en": "There's no difference; the two meanings are interchangeable." }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-constructions-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как правильно сказать «уйти, не попрощавшись»?",
+        "en": "How do you correctly say \"to leave without saying goodbye\"?"
+      },
+      "choices": [
+        "gå utan att säga hejdå",
+        "gå för att säga hejdå",
+        "gå genom att säga hejdå",
+        "gå istället för att säga hejdå"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-constructions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Man lär sig svenska ___ prata mycket.",
+        "ru": "Заполни пропуск оборотом со значением «путём того что» (genom att).",
+        "en": "Fill in the blank with the phrase meaning \"by doing\" (genom att)."
+      },
+      "answer": ["genom att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-infinitive-constructions-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Hon gick ___ säga hejdå.",
+        "ru": "Заполни пропуск оборотом со значением «без того чтобы» (utan att).",
+        "en": "Fill in the blank with the phrase meaning \"without doing\" (utan att)."
+      },
+      "answer": ["utan att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-infinitive-constructions-gap-3",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Hon lovade ___ röka.",
+        "ru": "Заполни отрицательный инфинитивный оборот: «обещала не курить» (att + inte).",
+        "en": "Fill in the negative infinitive construction: \"promised not to smoke\" (att + inte)."
+      },
+      "answer": ["att inte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-infinitive-constructions-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение: «Он читал книгу вместо того, чтобы смотреть телевизор.»",
+        "en": "Build the sentence: \"He read a book instead of watching TV.\""
+      },
+      "tokens": ["tv", "på", "titta", "att", "för", "istället", "bok", "en", "läste", "Han"],
+      "answer": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-infinitive-constructions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Шведский учат, много разговаривая.»",
+        "en": "Build the sentence: \"You learn Swedish by talking a lot.\""
+      },
+      "tokens": ["mycket", "prata", "att", "genom", "svenska", "sig", "lär", "Man"],
+      "answer": [7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-infinitive-constructions-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери bisats причины (контраст): «Он устал, потому что работал всю ночь.»",
+        "en": "Build the cause bisats (contrast): \"He's tired because he worked all night.\""
+      },
+      "tokens": ["natten", "hela", "jobbade", "han", "att", "för", "trött", "är", "Han"],
+      "answer": [8, 7, 6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-infinitive-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«för att» перед подлежащим и личным глаголом означает «потому что».",
+        "en": "\"för att\" before a subject and a finite verb means \"because\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-infinitive-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После «utan att» всегда идёт своё подлежащее, как в обычном bisats.",
+        "en": "\"utan att\" is always followed by its own subject, just like a regular bisats."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет: после «utan att» идёт голый инфинитив без подлежащего.",
+        "en": "No: \"utan att\" is followed by a bare infinitive with no subject."
+      }
+    },
+    {
+      "id": "q-infinitive-constructions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В отрицательных инфинитивных оборотах «inte» ставится сразу после «att», перед инфинитивом.",
+        "en": "In negative infinitive constructions, \"inte\" goes right after \"att\", before the infinitive."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-infinitive-constructions-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь оборот со значением", "en": "Match the construction with its meaning" },
+      "pairs": [
+        ["för att (+ infinitiv)", "чтобы"],
+        ["utan att", "не делая"],
+        ["genom att", "путём того что"],
+        ["istället för att", "вместо того чтобы"]
+      ]
+    }
+  ]
+}

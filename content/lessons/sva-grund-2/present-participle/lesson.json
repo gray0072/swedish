@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/present-participle",
+  "slug": "present-participle",
+  "title": {
+    "sv": "Presens particip (-ande/-ende)",
+    "ru": "Причастие настоящего времени (-ande/-ende)",
+    "en": "The present participle (-ande/-ende)"
+  },
+  "summary": {
+    "ru": "Причастие настоящего времени (-ande/-ende) не согласуется — это его главное отличие от обычных прилагательных.",
+    "en": "The present participle (-ande/-ende) never agrees — that's what sets it apart from ordinary adjectives."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "verbs",
+    "participle",
+    "word-formation",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 960,
+  "prerequisites": [
+    "sva-grund-1/verb-groups"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

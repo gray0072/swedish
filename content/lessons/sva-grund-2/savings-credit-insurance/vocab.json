@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "id": "sparande",
+      "sv": "sparande",
+      "translations": { "ru": "сбережение, накопление", "en": "saving(s)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sparande", "defSg": "sparandet", "indefPl": "sparanden", "defPl": "sparandena" },
+      "example": { "sv": "Regelbundet sparande ger trygghet på lång sikt.", "ru": "Регулярные сбережения дают уверенность в долгосрочной перспективе.", "en": "Regular saving gives you security in the long run." }
+    },
+    {
+      "id": "spara-credit",
+      "sv": "spara",
+      "translations": { "ru": "копить, сберегать", "en": "to save" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" },
+      "example": { "sv": "Vi sparar en del av lönen varje månad.", "ru": "Мы откладываем часть зарплаты каждый месяц.", "en": "We save part of our salary every month." }
+    },
+    {
+      "id": "sparkonto-credit",
+      "sv": "sparkonto",
+      "translations": { "ru": "сберегательный счёт", "en": "savings account" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sparkonto", "defSg": "sparkontot", "indefPl": "sparkonton", "defPl": "sparkontona" },
+      "example": { "sv": "Pengarna på sparkontot ger en liten ränta.", "ru": "Деньги на сберегательном счёте приносят небольшой процент.", "en": "The money in the savings account earns a small amount of interest." }
+    },
+    {
+      "id": "ranta-credit",
+      "sv": "ränta",
+      "translations": { "ru": "процентная ставка", "en": "interest (rate)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" },
+      "example": { "sv": "Räntan på bolånet är rörlig.", "ru": "Процентная ставка по ипотеке плавающая.", "en": "The interest rate on the mortgage is variable." }
+    },
+    {
+      "id": "lan-credit",
+      "sv": "lån",
+      "translations": { "ru": "кредит, займ", "en": "loan" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lån", "defSg": "lånet", "indefPl": "lån", "defPl": "lånen" },
+      "example": { "sv": "Banken beviljade lånet efter en kreditupplysning.", "ru": "Банк одобрил кредит после проверки кредитной истории.", "en": "The bank approved the loan after a credit check." }
+    },
+    {
+      "id": "lana-credit",
+      "sv": "låna",
+      "translations": { "ru": "занимать, брать взаймы", "en": "to borrow" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "De lånade pengar för att köpa lägenheten.", "ru": "Они взяли кредит, чтобы купить квартиру.", "en": "They borrowed money to buy the apartment." }
+    },
+    {
+      "id": "bolan",
+      "sv": "bolån",
+      "translations": { "ru": "ипотечный кредит", "en": "mortgage" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bolån", "defSg": "bolånet", "indefPl": "bolån", "defPl": "bolånen" },
+      "example": { "sv": "Bolånet betalas av under många år.", "ru": "Ипотечный кредит выплачивается в течение многих лет.", "en": "The mortgage is paid off over many years." }
+    },
+    {
+      "id": "amortering",
+      "sv": "amortering",
+      "translations": { "ru": "погашение кредита (амортизация)", "en": "amortization, loan repayment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en amortering", "defSg": "amorteringen", "indefPl": "amorteringar", "defPl": "amorteringarna" },
+      "example": { "sv": "Amorteringen dras automatiskt varje månad.", "ru": "Погашение кредита списывается автоматически каждый месяц.", "en": "The loan repayment is deducted automatically every month." }
+    },
+    {
+      "id": "amortera",
+      "sv": "amortera",
+      "translations": { "ru": "погашать кредит (по частям)", "en": "to amortize, to pay off a loan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "amortera", "present": "amorterar", "past": "amorterade", "supine": "amorterat" },
+      "example": { "sv": "Vi amorterar tre tusen kronor i månaden.", "ru": "Мы гасим три тысячи крон в месяц.", "en": "We pay off three thousand kronor a month." }
+    },
+    {
+      "id": "kreditvardighet",
+      "sv": "kreditvärdighet",
+      "translations": { "ru": "кредитоспособность", "en": "creditworthiness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kreditvärdighet", "defSg": "kreditvärdigheten", "indefPl": "kreditvärdigheter", "defPl": "kreditvärdigheterna" },
+      "example": { "sv": "Banken bedömer din kreditvärdighet innan lånet godkänns.", "ru": "Банк оценивает твою кредитоспособность перед одобрением кредита.", "en": "The bank assesses your creditworthiness before approving the loan." }
+    },
+    {
+      "id": "kreditupplysning",
+      "sv": "kreditupplysning",
+      "translations": { "ru": "проверка кредитной истории", "en": "credit check, credit report" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kreditupplysning", "defSg": "kreditupplysningen", "indefPl": "kreditupplysningar", "defPl": "kreditupplysningarna" },
+      "example": { "sv": "Banken tar en kreditupplysning på dig.", "ru": "Банк делает проверку твоей кредитной истории.", "en": "The bank runs a credit check on you." }
+    },
+    {
+      "id": "kontantinsats",
+      "sv": "kontantinsats",
+      "translations": { "ru": "первоначальный взнос (наличными)", "en": "down payment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontantinsats", "defSg": "kontantinsatsen", "indefPl": "kontantinsatser", "defPl": "kontantinsatserna" },
+      "example": { "sv": "Du behöver minst femton procent i kontantinsats.", "ru": "Тебе нужен как минимум пятнадцать процентов первоначального взноса.", "en": "You need at least fifteen percent as a down payment." }
+    },
+    {
+      "id": "borgensman",
+      "sv": "borgensman",
+      "translations": { "ru": "поручитель", "en": "guarantor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en borgensman", "defSg": "borgensmannen", "indefPl": "borgensmän", "defPl": "borgensmännen" },
+      "example": { "sv": "Hennes far ställde upp som borgensman på lånet.", "ru": "Её отец выступил поручителем по кредиту.", "en": "Her father acted as guarantor for the loan." }
+    },
+    {
+      "id": "betalningsanmarkning",
+      "sv": "betalningsanmärkning",
+      "translations": { "ru": "запись о неплатёжеспособности (в кредитной истории)", "en": "payment default record" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en betalningsanmärkning", "defSg": "betalningsanmärkningen", "indefPl": "betalningsanmärkningar", "defPl": "betalningsanmärkningarna" },
+      "example": { "sv": "En betalningsanmärkning gör det svårare att låna pengar.", "ru": "Запись о неплатёжеспособности усложняет получение кредита.", "en": "A payment default record makes it harder to borrow money." }
+    },
+    {
+      "id": "skuld",
+      "sv": "skuld",
+      "translations": { "ru": "долг", "en": "debt" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skuld", "defSg": "skulden", "indefPl": "skulder", "defPl": "skulderna" },
+      "example": { "sv": "De har ingen skuld kvar hos Kronofogden.", "ru": "У них не осталось долгов перед службой судебных приставов.", "en": "They no longer have any debt with the Enforcement Authority." }
+    },
+    {
+      "id": "hemforsakring",
+      "sv": "hemförsäkring",
+      "translations": { "ru": "страхование жилья (домашняя страховка)", "en": "home insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hemförsäkring", "defSg": "hemförsäkringen", "indefPl": "hemförsäkringar", "defPl": "hemförsäkringarna" },
+      "example": { "sv": "Alla bör ha en hemförsäkring.", "ru": "У каждого должна быть страховка жилья.", "en": "Everyone should have home insurance." }
+    },
+    {
+      "id": "forsakringsbolag",
+      "sv": "försäkringsbolag",
+      "translations": { "ru": "страховая компания", "en": "insurance company" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett försäkringsbolag", "defSg": "försäkringsbolaget", "indefPl": "försäkringsbolag", "defPl": "försäkringsbolagen" },
+      "example": { "sv": "Jag anmälde skadan till försäkringsbolaget.", "ru": "Я сообщил о повреждении в страховую компанию.", "en": "I reported the damage to the insurance company." }
+    },
+    {
+      "id": "sjalvrisk",
+      "sv": "självrisk",
+      "translations": { "ru": "франшиза (доля, которую платит сам застрахованный)", "en": "deductible, excess" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en självrisk", "defSg": "självrisken", "indefPl": "självrisker", "defPl": "självriskerna" },
+      "example": { "sv": "Självrisken är två tusen kronor vid inbrott.", "ru": "Франшиза составляет две тысячи крон при краже со взломом.", "en": "The deductible is two thousand kronor in the event of a burglary." }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "dem",
+      "sv": "dem",
+      "translations": { "ru": "их, им (письменная форма)", "en": "them (written form)" },
+      "pos": "pron",
+      "example": { "sv": "Jag såg dem igår.", "ru": "Я видел их вчера.", "en": "I saw them yesterday." }
+    },
+    {
+      "id": "dom",
+      "sv": "dom",
+      "translations": { "ru": "их, им, они (разговорная форма)", "en": "them, they (spoken form)" },
+      "pos": "pron",
+      "note": { "ru": "В речи заменяет и «dem», и подлежащее «de».", "en": "In speech it replaces both \"dem\" and the subject \"de\"." }
+    },
+    {
+      "id": "sen-sedan",
+      "sv": "sen",
+      "translations": { "ru": "потом (разговорное от sedan)", "en": "later, then (colloquial for sedan)" },
+      "pos": "adv",
+      "example": { "sv": "Vi ses sen!", "ru": "Увидимся потом!", "en": "See you later!" }
+    },
+    {
+      "id": "nan-nagon",
+      "sv": "nån",
+      "translations": { "ru": "кто-то (разговорное от någon)", "en": "someone (colloquial for någon)" },
+      "pos": "pron"
+    },
+    {
+      "id": "nat-nagot",
+      "sv": "nåt",
+      "translations": { "ru": "что-то (разговорное от något)", "en": "something (colloquial for något)" },
+      "pos": "pron",
+      "example": { "sv": "Har du nåt att säga?", "ru": "Тебе есть что сказать?", "en": "Do you have anything to say?" }
+    },
+    {
+      "id": "ju",
+      "sv": "ju",
+      "translations": { "ru": "ведь, же (частица очевидности)", "en": "you know, after all (particle of obviousness)" },
+      "pos": "adv",
+      "example": { "sv": "Det är ju uppenbart.", "ru": "Ну это же очевидно.", "en": "Well, it's obvious, isn't it." }
+    },
+    {
+      "id": "nog",
+      "sv": "nog",
+      "translations": { "ru": "наверное, пожалуй (частица предположения)", "en": "probably, I'd guess (particle of assumption)" },
+      "pos": "adv",
+      "example": { "sv": "Han kommer nog snart.", "ru": "Он, наверное, скоро придёт.", "en": "He'll probably come soon." }
+    },
+    {
+      "id": "val",
+      "sv": "väl",
+      "translations": { "ru": "ведь, полагаю (частица подтверждения)", "en": "I suppose, right? (particle seeking confirmation)" },
+      "pos": "adv",
+      "example": { "sv": "Du vet väl vad klockan är?", "ru": "Ты ведь знаешь, который час?", "en": "You know what time it is, right?" }
+    },
+    {
+      "id": "talsprak",
+      "sv": "talspråk",
+      "translations": { "ru": "разговорный язык", "en": "spoken language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett talspråk", "defSg": "talspråket", "indefPl": "talspråk", "defPl": "talspråken" }
+    },
+    {
+      "id": "skriftsprak",
+      "sv": "skriftspråk",
+      "translations": { "ru": "письменный язык", "en": "written language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-reported-speech-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой глагол сильнее всего намекает, что говорящий сомневается в правдивости слов?",
+        "en": "Which verb most strongly implies the speaker doubts what's being reported?"
+      },
+      "choices": ["hävdar", "påstår", "tycker", "berättar"],
+      "answer": 1
+    },
+    {
+      "id": "q-reported-speech-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой глагол выражает уверенное, обоснованное утверждение?",
+        "en": "Which verb expresses a confident, well-supported claim?"
+      },
+      "choices": ["påstår", "hävdar", "menar", "tror"],
+      "answer": 1
+    },
+    {
+      "id": "q-reported-speech-verbs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой глагол вводит чисто субъективное мнение (о вкусе, качестве)?",
+        "en": "Which verb introduces a purely subjective opinion (taste, quality)?"
+      },
+      "choices": ["hävdar", "påstår", "tycker", "berättar"],
+      "answer": 2
+    },
+    {
+      "id": "q-reported-speech-verbs-mc-4",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери предложение с правильным порядком слов по правилу BIFF.",
+        "en": "Choose the sentence with the correct BIFF word order."
+      },
+      "choices": [
+        "Han påstår att han inte känner till saken.",
+        "Han påstår att han känner inte till saken.",
+        "Han påstår att inte han känner till saken.",
+        "Han påstår inte han att känner till saken."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-reported-speech-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Все эти глаголы речи (påstå, mena, hävda, tycka) присоединяют att-предложение.",
+        "en": "All these reporting verbs (påstå, mena, hävda, tycka) take an att-clause."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-reported-speech-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Внутри att-предложения после этих глаголов «inte» стоит после личного глагола, как в huvudsats.",
+        "en": "Inside the att-clause after these verbs, \"inte\" comes after the finite verb, just like in a huvudsats."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "По правилу BIFF в bisats «inte» стоит перед личным глаголом, а не после.",
+        "en": "By the BIFF rule, in a bisats \"inte\" comes before the finite verb, not after."
+      }
+    },
+    {
+      "id": "q-reported-speech-verbs-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Hävda» обычно звучит увереннее, чем «påstå».",
+        "en": "\"Hävda\" typically sounds more confident than \"påstå\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-reported-speech-verbs-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Forskare ___ att klimatet förändras.",
+        "ru": "Forskare ___ att klimatet förändras. (уверенно утверждают)",
+        "en": "Forskare ___ att klimatet förändras. (assert confidently)"
+      },
+      "answer": ["hävdar"]
+    },
+    {
+      "id": "q-reported-speech-verbs-gap-2",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Han påstår att han ___ känner till saken.",
+        "ru": "Han påstår att han ___ känner till saken. (BIFF: «не», перед глаголом)",
+        "en": "Han påstår att han ___ känner till saken. (BIFF: \"not\", before the verb)"
+      },
+      "answer": ["inte"]
+    },
+    {
+      "id": "q-reported-speech-verbs-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": {
+        "sv": "Jag ___ att filmen var bra.",
+        "ru": "Jag ___ att filmen var bra. (личное мнение, «считаю»)",
+        "en": "Jag ___ att filmen var bra. (personal opinion, \"think\")"
+      },
+      "answer": ["tycker"]
+    },
+    {
+      "id": "q-reported-speech-verbs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она считает, что нам следует подождать.»", "en": "Build the sentence: \"She argues that we should wait.\"" },
+      "tokens": ["vänta", "att", "menar", "borde", "Hon", "vi"],
+      "answer": [4, 2, 1, 5, 3, 0]
+    },
+    {
+      "id": "q-reported-speech-verbs-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Он утверждает, что не знает об этом деле.»", "en": "Build the sentence: \"He claims he doesn't know about the matter.\"" },
+      "tokens": ["saken", "han", "till", "att", "påstår", "känner", "Han", "inte"],
+      "answer": [6, 4, 3, 1, 7, 5, 2, 0]
+    },
+    {
+      "id": "q-reported-speech-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол с оттенком его значения", "en": "Match the verb with its shade of meaning" },
+      "pairs": [
+        ["påstå", "skeptical claim"],
+        ["hävda", "confident assertion"],
+        ["tycka", "subjective opinion"],
+        ["mena", "argue/mean"]
+      ]
+    }
+  ]
+}

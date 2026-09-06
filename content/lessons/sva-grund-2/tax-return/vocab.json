@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "deklaration",
+      "sv": "deklaration",
+      "translations": { "ru": "налоговая декларация", "en": "tax return" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en deklaration", "defSg": "deklarationen", "indefPl": "deklarationer", "defPl": "deklarationerna" },
+      "example": { "sv": "Deklarationen ska vara inne den sista maj.", "ru": "Декларацию нужно подать до последнего числа мая.", "en": "The tax return must be submitted by the last day of May." }
+    },
+    {
+      "id": "deklarera",
+      "sv": "deklarera",
+      "translations": { "ru": "подавать налоговую декларацию", "en": "to file a tax return" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "deklarera", "present": "deklarerar", "past": "deklarerade", "supine": "deklarerat" },
+      "example": { "sv": "De flesta deklarerar digitalt numera.", "ru": "Большинство сейчас подают декларацию в цифровом виде.", "en": "Most people file digitally nowadays." }
+    },
+    {
+      "id": "deklarera-digitalt",
+      "sv": "deklarera digitalt",
+      "translations": { "ru": "подавать декларацию онлайн", "en": "to file a tax return digitally" },
+      "pos": "phrase",
+      "example": { "sv": "Du kan deklarera digitalt via appen eller Mina sidor.", "ru": "Ты можешь подать декларацию онлайн через приложение или «Мои страницы».", "en": "You can file your tax return digitally via the app or Mina sidor." }
+    },
+    {
+      "id": "inkomstskatt",
+      "sv": "inkomstskatt",
+      "translations": { "ru": "подоходный налог", "en": "income tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inkomstskatt", "defSg": "inkomstskatten", "indefPl": "inkomstskatter", "defPl": "inkomstskatterna" },
+      "example": { "sv": "Inkomstskatten dras direkt från lönen.", "ru": "Подоходный налог удерживается прямо из зарплаты.", "en": "Income tax is deducted directly from the salary." }
+    },
+    {
+      "id": "kommunalskatt",
+      "sv": "kommunalskatt",
+      "translations": { "ru": "муниципальный налог", "en": "municipal tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommunalskatt", "defSg": "kommunalskatten", "indefPl": "kommunalskatter", "defPl": "kommunalskatterna" },
+      "example": { "sv": "Kommunalskatten varierar mellan olika kommuner.", "ru": "Муниципальный налог отличается в разных коммунах.", "en": "The municipal tax varies between different municipalities." }
+    },
+    {
+      "id": "avdrag",
+      "sv": "avdrag",
+      "translations": { "ru": "налоговый вычет", "en": "deduction" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett avdrag", "defSg": "avdraget", "indefPl": "avdrag", "defPl": "avdragen" },
+      "example": { "sv": "Hon gjorde avdrag för resor till jobbet.", "ru": "Она заявила вычет за поездки на работу.", "en": "She claimed a deduction for travel to work." }
+    },
+    {
+      "id": "gora-avdrag",
+      "sv": "göra avdrag",
+      "translations": { "ru": "заявлять налоговый вычет", "en": "to claim a deduction" },
+      "pos": "phrase",
+      "example": { "sv": "Du kan göra avdrag för vissa arbetsresor.", "ru": "Ты можешь заявить вычет за некоторые рабочие поездки.", "en": "You can claim a deduction for certain work trips." }
+    },
+    {
+      "id": "aterbaring",
+      "sv": "återbäring",
+      "translations": { "ru": "возврат налога", "en": "tax refund" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återbäring", "defSg": "återbäringen", "indefPl": "återbäringar", "defPl": "återbäringarna" },
+      "example": { "sv": "Återbäringen betalas ut i juni om deklarationen är klar i tid.", "ru": "Возврат налога выплачивается в июне, если декларация подана вовремя.", "en": "The tax refund is paid out in June if the return is done in time." }
+    },
+    {
+      "id": "kvarskatt",
+      "sv": "kvarskatt",
+      "translations": { "ru": "доплата налога (недоимка)", "en": "back tax (tax owed)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kvarskatt", "defSg": "kvarskatten", "indefPl": "kvarskatter", "defPl": "kvarskatterna" },
+      "example": { "sv": "Han fick kvarskatt eftersom han hade för lite skatt dragen.", "ru": "У него возникла доплата налога, потому что было удержано слишком мало.", "en": "He got back tax because too little tax had been withheld." }
+    },
+    {
+      "id": "skattetabell",
+      "sv": "skattetabell",
+      "translations": { "ru": "налоговая таблица", "en": "tax table" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skattetabell", "defSg": "skattetabellen", "indefPl": "skattetabeller", "defPl": "skattetabellerna" },
+      "example": { "sv": "Arbetsgivaren använder en skattetabell för att räkna ut skatten.", "ru": "Работодатель использует налоговую таблицу для расчёта налога.", "en": "The employer uses a tax table to calculate the tax." }
+    },
+    {
+      "id": "jamkning",
+      "sv": "jämkning",
+      "translations": { "ru": "корректировка налога (предварительный перерасчёт)", "en": "tax adjustment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämkning", "defSg": "jämkningen", "indefPl": "jämkningar", "defPl": "jämkningarna" },
+      "example": { "sv": "Du kan ansöka om jämkning om du har extra avdrag under året.", "ru": "Ты можешь подать заявление на корректировку налога, если у тебя есть дополнительные вычеты в течение года.", "en": "You can apply for a tax adjustment if you have extra deductions during the year." }
+    },
+    {
+      "id": "rotavdrag",
+      "sv": "ROT-avdrag",
+      "translations": { "ru": "налоговый вычет за ремонтные работы (ROT)", "en": "ROT deduction (for renovation work)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ROT-avdrag", "defSg": "ROT-avdraget", "indefPl": "ROT-avdrag", "defPl": "ROT-avdragen" },
+      "example": { "sv": "Vi använde ROT-avdrag när vi renoverade köket.", "ru": "Мы воспользовались вычетом ROT при ремонте кухни.", "en": "We used the ROT deduction when we renovated the kitchen." }
+    },
+    {
+      "id": "rutavdrag",
+      "sv": "RUT-avdrag",
+      "translations": { "ru": "налоговый вычет за бытовые услуги (RUT)", "en": "RUT deduction (for household services)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett RUT-avdrag", "defSg": "RUT-avdraget", "indefPl": "RUT-avdrag", "defPl": "RUT-avdragen" },
+      "example": { "sv": "RUT-avdrag gäller till exempel för städhjälp i hemmet.", "ru": "Вычет RUT распространяется, например, на услуги уборки дома.", "en": "The RUT deduction applies, for example, to home cleaning help." }
+    },
+    {
+      "id": "slutskattebesked",
+      "sv": "slutskattebesked",
+      "translations": { "ru": "итоговое налоговое уведомление", "en": "final tax statement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett slutskattebesked", "defSg": "slutskattebeskedet", "indefPl": "slutskattebesked", "defPl": "slutskattebeskeden" },
+      "example": { "sv": "Slutskattebeskedet visar om du får pengar tillbaka eller ska betala mer.", "ru": "Итоговое налоговое уведомление показывает, вернут ли тебе деньги или нужно доплатить.", "en": "The final tax statement shows whether you get money back or need to pay more." }
+    },
+    {
+      "id": "skattereduktion",
+      "sv": "skattereduktion",
+      "translations": { "ru": "снижение налога (налоговая льгота)", "en": "tax reduction, tax credit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skattereduktion", "defSg": "skattereduktionen", "indefPl": "skattereduktioner", "defPl": "skattereduktionerna" },
+      "example": { "sv": "Skattereduktionen för fackavgift syns i deklarationen.", "ru": "Налоговая льгота за членские взносы в профсоюз отражается в декларации.", "en": "The tax reduction for union fees appears in the tax return." }
+    },
+    {
+      "id": "deklarationsblankett",
+      "sv": "deklarationsblankett",
+      "translations": { "ru": "бланк налоговой декларации", "en": "tax return form" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en deklarationsblankett", "defSg": "deklarationsblanketten", "indefPl": "deklarationsblanketter", "defPl": "deklarationsblanketterna" },
+      "example": { "sv": "Vissa väljer fortfarande att skicka in deklarationsblanketten på papper.", "ru": "Некоторые всё ещё выбирают отправить бланк декларации на бумаге.", "en": "Some people still choose to send in the tax return form on paper." }
+    }
+  ]
+}

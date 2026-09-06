@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "id": "phrase-1177-vardguiden",
+      "sv": "1177 Vårdguiden",
+      "translations": { "ru": "служба медицинской консультации и информации 1177", "en": "the 1177 health information and advice service" },
+      "pos": "phrase",
+      "note": { "ru": "Телефонный номер и сайт 1177 дают советы по здоровью и помогают записаться на приём.", "en": "The phone number and website 1177 give health advice and help you book appointments." },
+      "example": { "sv": "Du kan alltid ringa 1177 Vårdguiden om du är osäker.", "ru": "Ты всегда можешь позвонить в 1177 Vårdguiden, если сомневаешься.", "en": "You can always call 1177 Vårdguiden if you're unsure." }
+    },
+    {
+      "id": "vardcentral-system",
+      "sv": "vårdcentral",
+      "translations": { "ru": "поликлиника, центр здоровья", "en": "primary health center" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vårdcentral", "defSg": "vårdcentralen", "indefPl": "vårdcentraler", "defPl": "vårdcentralerna" },
+      "example": { "sv": "Din vårdcentral är första steget för de flesta besvär.", "ru": "Твоя поликлиника — это первый шаг при большинстве проблем со здоровьем.", "en": "Your primary health center is the first step for most health issues." }
+    },
+    {
+      "id": "akutmottagning",
+      "sv": "akutmottagning",
+      "translations": { "ru": "отделение скорой помощи, приёмный покой", "en": "emergency department" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en akutmottagning", "defSg": "akutmottagningen", "indefPl": "akutmottagningar", "defPl": "akutmottagningarna" },
+      "example": { "sv": "Vid livshotande symtom ska man åka till akutmottagningen.", "ru": "При угрожающих жизни симптомах нужно ехать в отделение скорой помощи.", "en": "For life-threatening symptoms, you should go to the emergency department." }
+    },
+    {
+      "id": "remiss",
+      "sv": "remiss",
+      "translations": { "ru": "направление (к специалисту)", "en": "referral" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en remiss", "defSg": "remissen", "indefPl": "remisser", "defPl": "remisserna" },
+      "example": { "sv": "Du behöver en remiss för att träffa en specialist.", "ru": "Тебе нужно направление, чтобы попасть к специалисту.", "en": "You need a referral to see a specialist." }
+    },
+    {
+      "id": "journal",
+      "sv": "journal",
+      "translations": { "ru": "медицинская карта", "en": "medical record" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en journal", "defSg": "journalen", "indefPl": "journaler", "defPl": "journalerna" },
+      "example": { "sv": "Läkaren skriver allt i din journal.", "ru": "Врач всё записывает в твою медицинскую карту.", "en": "The doctor writes everything in your medical record." }
+    },
+    {
+      "id": "patientavgift",
+      "sv": "patientavgift",
+      "translations": { "ru": "пациентский сбор (плата за приём)", "en": "patient fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en patientavgift", "defSg": "patientavgiften", "indefPl": "patientavgifter", "defPl": "patientavgifterna" },
+      "example": { "sv": "Patientavgiften på vårdcentralen är ofta runt tvåhundra kronor.", "ru": "Пациентский сбор в поликлинике обычно около двухсот крон.", "en": "The patient fee at a health center is often around two hundred kronor." }
+    },
+    {
+      "id": "hogkostnadsskydd",
+      "sv": "högkostnadsskydd",
+      "translations": { "ru": "льгота при высоких расходах на лечение (потолок расходов)", "en": "high-cost protection (a cap on healthcare costs)" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "После того как пациент заплатил определённую сумму за визиты в течение года, дальнейшие визиты становятся бесплатными.", "en": "Once a patient has paid a set amount for visits within a year, further visits become free." },
+      "example": { "sv": "Tack vare högkostnadsskyddet betalar jag inget mer i år.", "ru": "Благодаря льготе по высоким расходам я больше не плачу в этом году.", "en": "Thanks to the high-cost protection, I don't pay anything more this year." }
+    },
+    {
+      "id": "frikort",
+      "sv": "frikort",
+      "translations": { "ru": "карта бесплатного обслуживания", "en": "free care card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett frikort", "defSg": "frikortet", "indefPl": "frikort", "defPl": "frikorten" },
+      "example": { "sv": "Jag fick ett frikort efter mitt sjätte besök.", "ru": "Я получил(а) карту бесплатного обслуживания после шестого визита.", "en": "I got a free care card after my sixth visit." }
+    },
+    {
+      "id": "vantetid",
+      "sv": "väntetid",
+      "translations": { "ru": "время ожидания", "en": "waiting time" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väntetid", "defSg": "väntetiden", "indefPl": "väntetider", "defPl": "väntetiderna" },
+      "example": { "sv": "Väntetiden till specialisten var tre veckor.", "ru": "Время ожидания приёма у специалиста составило три недели.", "en": "The waiting time to see the specialist was three weeks." }
+    },
+    {
+      "id": "vardgaranti",
+      "sv": "vårdgaranti",
+      "translations": { "ru": "гарантия сроков оказания медицинской помощи", "en": "care guarantee (maximum legal waiting times)" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Закон устанавливает максимальные сроки ожидания приёма и лечения.", "en": "The law sets maximum waiting times for appointments and treatment." },
+      "example": { "sv": "Vårdgarantin säger att du ska få en tid inom tre dagar.", "ru": "Гарантия сроков говорит, что тебе должны дать приём в течение трёх дней.", "en": "The care guarantee says you should get an appointment within three days." }
+    },
+    {
+      "id": "specialistvard",
+      "sv": "specialistvård",
+      "translations": { "ru": "специализированная медицинская помощь", "en": "specialist care" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Efter remissen fick jag specialistvård på sjukhuset.", "ru": "После направления я получил(а) специализированную помощь в больнице.", "en": "After the referral, I received specialist care at the hospital." }
+    },
+    {
+      "id": "prioritera",
+      "sv": "prioritera",
+      "translations": { "ru": "определять приоритет, ставить в очередь по срочности", "en": "to prioritize, to triage" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prioritera", "present": "prioriterar", "past": "prioriterade", "supine": "prioriterat" },
+      "example": { "sv": "På akuten prioriterar man de svåraste fallen först.", "ru": "В отделении скорой помощи в первую очередь принимают самые тяжёлые случаи.", "en": "At the emergency department, the most severe cases are prioritized first." }
+    },
+    {
+      "id": "avgiftsfri",
+      "sv": "avgiftsfri",
+      "translations": { "ru": "бесплатный (без сбора)", "en": "free of charge" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: avgiftsfritt, мн.ч.: avgiftsfria", "en": "ett-form: avgiftsfritt, plural: avgiftsfria" },
+      "example": { "sv": "Vård för barn under arton år är avgiftsfri.", "ru": "Медицинская помощь для детей до восемнадцати лет бесплатна.", "en": "Healthcare for children under eighteen is free of charge." }
+    }
+  ]
+}

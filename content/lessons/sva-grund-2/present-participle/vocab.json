@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "id": "le",
+      "sv": "le",
+      "translations": { "ru": "улыбаться", "en": "to smile" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "le", "present": "ler", "past": "log", "supine": "lett" },
+      "example": { "sv": "Hon ler mot mig.", "ru": "Она улыбается мне.", "en": "She's smiling at me." }
+    },
+    {
+      "id": "leende",
+      "sv": "leende",
+      "translations": { "ru": "улыбающийся; улыбка", "en": "smiling; a smile" },
+      "pos": "adj",
+      "note": { "ru": "Причастие наст. времени от le — не изменяется по роду/числу; как существительное ett leende значит «улыбка».", "en": "Present participle of le — invariable for gender/number; as a noun, ett leende means \"a smile\"." },
+      "example": { "sv": "En leende flicka vinkade.", "ru": "Улыбающаяся девочка помахала рукой.", "en": "A smiling girl waved." }
+    },
+    {
+      "id": "springa",
+      "sv": "springa",
+      "translations": { "ru": "бежать", "en": "to run" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" }
+    },
+    {
+      "id": "springande",
+      "sv": "springande",
+      "translations": { "ru": "бегом, на бегу", "en": "running" },
+      "pos": "adj",
+      "note": { "ru": "Причастие наст. времени от springa; используется обстоятельственно.", "en": "Present participle of springa; used adverbially." },
+      "example": { "sv": "Barnen kom springande.", "ru": "Дети прибежали.", "en": "The children came running." }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить", "en": "to live" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+    },
+    {
+      "id": "boende",
+      "sv": "boende",
+      "translations": { "ru": "проживание, жильё", "en": "accommodation, housing" },
+      "pos": "noun",
+      "gender": "ett",
+      "note": { "ru": "От bo (жить) + -ende. В значении «жилец» слово общего рода: en boende, flera boende.", "en": "From bo (to live) + -ende. In the sense \"resident/occupant\" the word is common gender: en boende, flera boende." },
+      "example": { "sv": "Kommunen erbjuder tillfälligt boende.", "ru": "Коммуна предлагает временное жильё.", "en": "The municipality offers temporary accommodation." }
+    },
+    {
+      "id": "resa",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+    },
+    {
+      "id": "resande",
+      "sv": "resande",
+      "translations": { "ru": "путешественник, пассажир", "en": "traveller, passenger" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "en resande — flera resande: во мн.ч. форма не меняется.", "en": "en resande — flera resande: the plural form doesn't change." },
+      "example": { "sv": "Resande ombeds visa biljetten.", "ru": "Пассажиров просят предъявить билет.", "en": "Passengers are asked to show their ticket." }
+    },
+    {
+      "id": "studera",
+      "sv": "studera",
+      "translations": { "ru": "учиться, изучать", "en": "to study" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "studera", "present": "studerar", "past": "studerade", "supine": "studerat" }
+    },
+    {
+      "id": "studerande",
+      "sv": "studerande",
+      "translations": { "ru": "учащийся, студент", "en": "student" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Официальное слово для «студент»; en studerande — flera studerande.", "en": "The official/formal word for \"student\"; en studerande — flera studerande." },
+      "example": { "sv": "Alla studerande måste registrera sig.", "ru": "Все учащиеся должны зарегистрироваться.", "en": "All students must register." }
+    },
+    {
+      "id": "ske",
+      "sv": "ske",
+      "translations": { "ru": "случаться, происходить", "en": "to happen" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "ske", "present": "sker", "past": "skedde", "supine": "skett" }
+    },
+    {
+      "id": "skeende",
+      "sv": "skeende",
+      "translations": { "ru": "событие, ход событий", "en": "event, process, course of events" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det var ett dramatiskt skeende.", "ru": "Это была драматичная череда событий.", "en": "It was a dramatic course of events." }
+    },
+    {
+      "id": "tro",
+      "sv": "tro",
+      "translations": { "ru": "верить, думать", "en": "to believe, to think" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" }
+    },
+    {
+      "id": "troende",
+      "sv": "troende",
+      "translations": { "ru": "верующий", "en": "believer" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "en troende — flera troende.", "en": "en troende — flera troende." },
+      "example": { "sv": "Kyrkan var full av troende.", "ru": "Церковь была полна верующих.", "en": "The church was full of believers." }
+    }
+  ]
+}

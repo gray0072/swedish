@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/holidays-traditions",
+  "slug": "holidays-traditions",
+  "title": {
+    "sv": "Högtider och traditioner",
+    "ru": "Праздники и традиции: описание и сравнение со своей культурой",
+    "en": "Holidays and traditions: describing them and comparing with your own culture"
+  },
+  "summary": {
+    "ru": "Главные шведские праздники — midsommar, jul, påsk, lucia, valborg — и фразы, чтобы сравнить их со своей культурой.",
+    "en": "The main Swedish holidays — midsommar, jul, påsk, lucia, valborg — and phrases for comparing them with your own culture."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "culture",
+    "holidays",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 820,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

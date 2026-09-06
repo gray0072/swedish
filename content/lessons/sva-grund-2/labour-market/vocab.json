@@ -1,0 +1,141 @@
+{
+  "items": [
+    {
+      "id": "arbetsmarknad",
+      "sv": "arbetsmarknad",
+      "translations": { "ru": "рынок труда", "en": "labour market" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsmarknad", "defSg": "arbetsmarknaden", "indefPl": "arbetsmarknader", "defPl": "arbetsmarknaderna" },
+      "example": { "sv": "Arbetsmarknaden är tuff inom vissa branscher just nu.", "ru": "Рынок труда сейчас тяжёлый в некоторых отраслях.", "en": "The labour market is tough in some industries right now." }
+    },
+    {
+      "id": "bransch",
+      "sv": "bransch",
+      "translations": { "ru": "отрасль, сфера", "en": "industry, sector" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bransch", "defSg": "branschen", "indefPl": "branscher", "defPl": "branscherna" },
+      "example": { "sv": "Hon jobbar inom IT-branschen.", "ru": "Она работает в IT-отрасли.", "en": "She works in the IT industry." }
+    },
+    {
+      "id": "arbetsgivare",
+      "sv": "arbetsgivare",
+      "translations": { "ru": "работодатель", "en": "employer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsgivare", "defSg": "arbetsgivaren", "indefPl": "arbetsgivare", "defPl": "arbetsgivarna" },
+      "example": { "sv": "Arbetsgivaren erbjöd mig en tillsvidareanställning.", "ru": "Работодатель предложил мне постоянную должность.", "en": "The employer offered me a permanent position." }
+    },
+    {
+      "id": "arbetstagare",
+      "sv": "arbetstagare",
+      "translations": { "ru": "работник, наёмный сотрудник", "en": "employee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetstagare", "defSg": "arbetstagaren", "indefPl": "arbetstagare", "defPl": "arbetstagarna" },
+      "example": { "sv": "Alla arbetstagare har rätt till semester.", "ru": "Все работники имеют право на отпуск.", "en": "All employees are entitled to a vacation." }
+    },
+    {
+      "id": "kvalifikation",
+      "sv": "kvalifikation",
+      "translations": { "ru": "квалификация", "en": "qualification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kvalifikation", "defSg": "kvalifikationen", "indefPl": "kvalifikationer", "defPl": "kvalifikationerna" },
+      "example": { "sv": "Vilka kvalifikationer krävs för tjänsten?", "ru": "Какая квалификация требуется для этой должности?", "en": "What qualifications are required for the position?" }
+    },
+    {
+      "id": "erfarenhet",
+      "sv": "erfarenhet",
+      "translations": { "ru": "опыт", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en erfarenhet", "defSg": "erfarenheten", "indefPl": "erfarenheter", "defPl": "erfarenheterna" },
+      "example": { "sv": "Jag har fem års erfarenhet av kundtjänst.", "ru": "У меня пять лет опыта работы в клиентской поддержке.", "en": "I have five years of experience in customer service." }
+    },
+    {
+      "id": "rekrytering",
+      "sv": "rekrytering",
+      "translations": { "ru": "наём, рекрутинг", "en": "recruitment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rekrytering", "defSg": "rekryteringen", "indefPl": "rekryteringar", "defPl": "rekryteringarna" },
+      "example": { "sv": "Företaget har startat en ny rekrytering.", "ru": "Компания начала новый набор сотрудников.", "en": "The company has started a new round of recruitment." }
+    },
+    {
+      "id": "lediga-jobb",
+      "sv": "lediga jobb",
+      "translations": { "ru": "вакансии, свободные места", "en": "job vacancies, openings" },
+      "pos": "phrase",
+      "example": { "sv": "Det finns flera lediga jobb inom vården.", "ru": "В здравоохранении есть несколько вакансий.", "en": "There are several job openings in healthcare." }
+    },
+    {
+      "id": "jobbannons",
+      "sv": "jobbannons",
+      "translations": { "ru": "объявление о вакансии", "en": "job ad, job posting" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jobbannons", "defSg": "jobbannonsen", "indefPl": "jobbannonser", "defPl": "jobbannonserna" },
+      "example": { "sv": "Jag läste en jobbannons på nätet igår.", "ru": "Вчера я прочитал(а) объявление о вакансии в интернете.", "en": "I read a job ad online yesterday." }
+    },
+    {
+      "id": "soka-jobb",
+      "sv": "söka jobb",
+      "translations": { "ru": "искать работу", "en": "to look for a job, job-hunt" },
+      "pos": "verb",
+      "forms": { "infinitive": "söka jobb", "present": "söker jobb", "past": "sökte jobb", "supine": "sökt jobb" },
+      "example": { "sv": "Jag har sökt jobb i tre månader.", "ru": "Я ищу работу уже три месяца.", "en": "I've been job-hunting for three months." }
+    },
+    {
+      "id": "kompetens",
+      "sv": "kompetens",
+      "translations": { "ru": "компетенция, навыки", "en": "competence, skills" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kompetens", "defSg": "kompetensen", "indefPl": "kompetenser", "defPl": "kompetenserna" },
+      "example": { "sv": "Arbetsgivaren efterfrågar digital kompetens.", "ru": "Работодатель ищет цифровые навыки.", "en": "The employer is looking for digital skills." }
+    },
+    {
+      "id": "arbetsformedlingen",
+      "sv": "Arbetsförmedlingen",
+      "translations": { "ru": "Служба занятости Швеции", "en": "the Swedish Public Employment Service" },
+      "pos": "noun",
+      "note": { "ru": "Государственное ведомство, которое помогает искать работу и регистрирует безработных.", "en": "The government agency that helps people find work and registers the unemployed." },
+      "example": { "sv": "Jag skrev in mig på Arbetsförmedlingen förra veckan.", "ru": "Я встал(а) на учёт в службу занятости на прошлой неделе.", "en": "I registered with the Employment Service last week." }
+    },
+    {
+      "id": "heltid",
+      "sv": "heltid",
+      "translations": { "ru": "полная занятость", "en": "full-time" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hon jobbar heltid som sjuksköterska.", "ru": "Она работает полный день медсестрой.", "en": "She works full-time as a nurse." }
+    },
+    {
+      "id": "deltid",
+      "sv": "deltid",
+      "translations": { "ru": "частичная занятость", "en": "part-time" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag jobbar deltid vid sidan av studierna.", "ru": "Я работаю неполный день параллельно с учёбой.", "en": "I work part-time alongside my studies." }
+    },
+    {
+      "id": "anstalla",
+      "sv": "anställa",
+      "translations": { "ru": "нанимать, принимать на работу", "en": "to hire, to employ" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anställa", "present": "anställer", "past": "anställde", "supine": "anställt" },
+      "example": { "sv": "Företaget vill anställa fler ingenjörer.", "ru": "Компания хочет нанять больше инженеров.", "en": "The company wants to hire more engineers." }
+    },
+    {
+      "id": "konkurrens",
+      "sv": "konkurrens",
+      "translations": { "ru": "конкуренция", "en": "competition" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det är hård konkurrens om de lediga jobben.", "ru": "За вакансии идёт жёсткая конкуренция.", "en": "There is fierce competition for the vacancies." }
+    }
+  ]
+}

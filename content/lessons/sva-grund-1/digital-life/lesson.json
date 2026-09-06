@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/digital-life",
+  "slug": "digital-life",
+  "title": {
+    "sv": "Digitalt liv",
+    "ru": "Цифровая жизнь: BankID, Mina sidor, приложения",
+    "en": "Digital life: BankID, Mina sidor, apps"
+  },
+  "summary": {
+    "ru": "BankID, Mina sidor, цифровой почтовый ящик и приложения — слова для цифровых госуслуг в Швеции.",
+    "en": "BankID, Mina sidor, the digital mailbox and apps — the words for Sweden's digital public services."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "digital",
+    "bureaucracy",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 800,
+  "prerequisites": [
+    "sfi-d/authorities"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

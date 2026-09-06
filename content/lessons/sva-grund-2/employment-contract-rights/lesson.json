@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/employment-contract-rights",
+  "slug": "employment-contract-rights",
+  "title": {
+    "sv": "Anställningsavtal och fackförbund",
+    "ru": "Трудовой договор и трудовые права; профсоюзы",
+    "en": "The employment contract and labour rights; unions"
+  },
+  "summary": {
+    "ru": "Лексика трудового договора, видов найма, увольнения и профсоюзов в Швеции.",
+    "en": "Vocabulary for employment contracts, types of employment, termination and trade unions in Sweden."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "work",
+    "labour-rights",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1080,
+  "prerequisites": [
+    "sfi-d/authorities"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

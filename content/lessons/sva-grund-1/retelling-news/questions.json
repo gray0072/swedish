@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-ren-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я слышал(а), что поезд опаздывает на двадцать минут.»", "en": "Build the sentence: \"I heard that the train is twenty minutes late.\"" },
+      "tokens": ["försenat", "att", "hörde", "tjugo minuter", "Jag", "tåget är"],
+      "answer": [4, 2, 1, 5, 0, 3]
+    },
+    {
+      "id": "q-ren-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Они сообщили, что встречу перенесли на пятницу.»", "en": "Build the sentence: \"They announced that the meeting has been moved to Friday.\"" },
+      "tokens": ["flyttat", "meddelade", "till fredag", "är", "De", "att mötet"],
+      "answer": [4, 1, 5, 3, 0, 2]
+    },
+    {
+      "id": "q-ren-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["nyhet", "новость"],
+        ["meddelande", "объявление"],
+        ["varning", "предупреждение"],
+        ["högtalare", "громкоговоритель"]
+      ]
+    },
+    {
+      "id": "q-ren-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Enligt nyheterna» значит «согласно новостям».", "en": "\"Enligt nyheterna\" means \"according to the news\"." },
+      "answer": true
+    },
+    {
+      "id": "q-ren-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Påstå» и «meddela» означают ровно одно и то же — просто «сообщать факт».", "en": "\"Påstå\" and \"meddela\" mean exactly the same thing — simply \"to state a fact\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Påstå» — утверждать что-то (возможно, спорное), а «meddela» — нейтрально сообщать или объявлять.",
+        "en": "\"Påstå\" means to claim something (possibly disputed), while \"meddela\" is a neutral \"to announce/inform\"."
+      }
+    },
+    {
+      "id": "q-ren-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ nyheterna blir det snö imorgon. (согласно)" },
+      "answer": ["Enligt"],
+      "acceptAlso": ["enligt"]
+    },
+    {
+      "id": "q-ren-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "De ___ att spår tre är stängt idag. (сообщили)" },
+      "answer": ["meddelade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-ren-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты услышал(а) по громкоговорителю на вокзале, что твой путь изменился, и хочешь пересказать это другу. С чего начать?",
+        "en": "You heard over the station loudspeaker that your platform changed, and you want to retell it to a friend. How do you start?"
+      },
+      "choices": ["De meddelade att spåret är ändrat.", "Jag läste att spåret är ändrat.", "Jag tror att spåret är samma.", "Det är ingen skillnad."],
+      "answer": 0
+    },
+    {
+      "id": "q-ren-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты не помнишь точно, кто сказал, что автобус не ходит по субботам, но хочешь передать эту информацию. Какая фраза подходит?",
+        "en": "You don't remember exactly who said the bus doesn't run on Saturdays, but you want to pass on the information. Which phrase fits?"
+      },
+      "choices": ["Det sades att bussen inte går på lördagar.", "Jag läste en bok om bussar.", "Bussen kör aldrig.", "Jag vet allt om bussar."],
+      "answer": 0
+    },
+    {
+      "id": "q-ren-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Начальник устно сказал сотрудникам быть на месте в восемь. Как пересказать эту устную инструкцию?",
+        "en": "The boss verbally told the staff to be there at eight. How do you retell this spoken instruction?"
+      },
+      "choices": ["Chefen sa att vi ska vara på plats klockan åtta.", "Chefen skrev ett brev om klockan åtta.", "Ingen sa något om tiden.", "Chefen frågade vad klockan är."],
+      "answer": 0
+    }
+  ]
+}

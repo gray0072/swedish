@@ -1,0 +1,116 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-cst-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Нас пригласили на развитийную беседу в четверг.»", "en": "Build the sentence: \"We've been invited to a development talk on Thursday.\"" },
+      "tokens": ["blivit", "till", "ett", "Vi", "har", "utvecklingssamtal", "inbjudna", "på torsdag"],
+      "answer": [3, 4, 0, 6, 1, 2, 5, 7]
+    },
+    {
+      "id": "q-cst-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери вопрос: «Как у него сейчас дела в школе?»", "en": "Build the question: \"How is he doing at school right now?\"" },
+      "tokens": ["för", "det", "honom", "Hur", "i skolan", "går", "just nu?"],
+      "answer": [3, 5, 0, 2, 4, 6]
+    },
+    {
+      "id": "q-cst-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["utvecklingssamtal", "развитийная беседа"],
+        ["läxa", "домашнее задание"],
+        ["betyg", "оценка"],
+        ["mentor", "наставник"]
+      ]
+    },
+    {
+      "id": "q-cst-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Utvecklingssamtal» — это беседа родителей с учителем о ребёнке.", "en": "\"Utvecklingssamtal\" is a talk between parents and the teacher about the child." },
+      "answer": true
+    },
+    {
+      "id": "q-cst-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Frånvaro» значит «посещаемость».", "en": "\"Frånvaro\" means \"attendance\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Frånvaro» значит «отсутствие, пропуск», а «посещаемость» — это «närvaro».",
+        "en": "\"Frånvaro\" means \"absence\" — \"attendance\" is \"närvaro\"."
+      }
+    },
+    {
+      "id": "q-cst-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Läraren pratade om barnets styrkor och ___. (слабые стороны)" },
+      "answer": ["svagheter"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cst-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Gör han ___ varje dag? (домашние задания)" },
+      "answer": ["läxorna"],
+      "acceptAlso": ["läxor"]
+    },
+    {
+      "id": "q-cst-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Läraren säger att ditt barn behöver träna mer på läsning. Vad kan du fråga för att hjälpa hemma?",
+        "en": "The teacher says your child needs more practice reading. What could you ask to help at home?"
+      },
+      "choices": ["Vad kan vi göra hemma för att hjälpa henne?", "Vad heter läraren?", "Var ligger skolan?", "Hur mycket kostar skolan?"],
+      "answer": 0
+    },
+    {
+      "id": "q-cst-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты не понял слово, которое использовал учитель во время беседы. Что вежливо сказать?",
+        "en": "You didn't understand a word the teacher used during the talk. What's a polite thing to say?"
+      },
+      "choices": ["Kan du förklara vad det ordet betyder?", "Det spelar ingen roll", "Jag pratar inte svenska", "Vi ses imorgon"],
+      "answer": 0
+    },
+    {
+      "id": "q-cst-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что записывает учитель в индивидуальном плане развития (IUP)?",
+        "en": "What does the teacher write in the individual development plan (IUP)?"
+      },
+      "choices": ["Mål och uppföljning för eleven", "Skolans matsedel", "Lärarens semester", "Föräldrarnas jobb"],
+      "answer": 0
+    },
+    {
+      "id": "q-cst-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Можем назначить беседу на другой день?»", "en": "Translate to Swedish: \"Can we schedule the talk for another day?\"" },
+      "answer": ["Kan vi boka in samtalet en annan dag?"],
+      "hint": { "ru": "Используй глагол «boka in».", "en": "Use the verb \"boka in\"." }
+    }
+  ]
+}

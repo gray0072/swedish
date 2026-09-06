@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "vakna",
+      "sv": "vakna",
+      "translations": { "ru": "просыпаться", "en": "to wake up" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vakna", "present": "vaknar", "past": "vaknade", "supine": "vaknat" },
+      "example": { "sv": "Jag vaknar alltid klockan sex.", "ru": "Я всегда просыпаюсь в шесть.", "en": "I always wake up at six." }
+    },
+    {
+      "id": "duscha",
+      "sv": "duscha",
+      "translations": { "ru": "принимать душ", "en": "to shower" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "duscha", "present": "duschar", "past": "duschade", "supine": "duschat" },
+      "example": { "sv": "Jag duschar ofta på morgonen.", "ru": "Я часто принимаю душ утром.", "en": "I often shower in the morning." }
+    },
+    {
+      "id": "borsta-tanderna",
+      "sv": "borsta tänderna",
+      "translations": { "ru": "чистить зубы", "en": "to brush one's teeth" },
+      "pos": "phrase",
+      "example": { "sv": "Jag borstar tänderna två gånger om dagen.", "ru": "Я чищу зубы два раза в день.", "en": "I brush my teeth twice a day." }
+    },
+    {
+      "id": "kla-pa-sig",
+      "sv": "klä på sig",
+      "translations": { "ru": "одеваться", "en": "to get dressed" },
+      "pos": "phrase",
+      "example": { "sv": "Jag klär på mig och äter frukost.", "ru": "Я одеваюсь и завтракаю.", "en": "I get dressed and eat breakfast." }
+    },
+    {
+      "id": "ata-frukost",
+      "sv": "äta frukost",
+      "translations": { "ru": "завтракать", "en": "to eat breakfast" },
+      "pos": "phrase",
+      "example": { "sv": "Jag äter alltid frukost hemma.", "ru": "Я всегда завтракаю дома.", "en": "I always eat breakfast at home." }
+    },
+    {
+      "id": "pendla",
+      "sv": "pendla",
+      "translations": { "ru": "добираться (на работу/учёбу), совершать поездки", "en": "to commute" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "pendla", "present": "pendlar", "past": "pendlade", "supine": "pendlat" },
+      "example": { "sv": "Jag pendlar till jobbet med bussen.", "ru": "Я добираюсь на работу на автобусе.", "en": "I commute to work by bus." }
+    },
+    {
+      "id": "jobba-rp",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Jag jobbar från åtta till fem.", "ru": "Я работаю с восьми до пяти.", "en": "I work from eight to five." }
+    },
+    {
+      "id": "skota",
+      "sv": "sköta",
+      "translations": { "ru": "заботиться о, вести (хозяйство)", "en": "to take care of, to manage" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "sköta", "present": "sköter", "past": "skötte", "supine": "skött" },
+      "example": { "sv": "Vi sköter hushållet tillsammans.", "ru": "Мы вместе ведём хозяйство.", "en": "We manage the household together." }
+    },
+    {
+      "id": "koppla-av",
+      "sv": "koppla av",
+      "translations": { "ru": "отдыхать, расслабляться", "en": "to relax, to unwind" },
+      "pos": "verb",
+      "forms": { "infinitive": "koppla av", "present": "kopplar av", "past": "kopplade av", "supine": "kopplat av" },
+      "example": { "sv": "På kvällen kopplar jag av framför tv:n.", "ru": "Вечером я отдыхаю перед телевизором.", "en": "In the evening I unwind in front of the TV." }
+    },
+    {
+      "id": "laga-mat",
+      "sv": "laga mat",
+      "translations": { "ru": "готовить еду", "en": "to cook" },
+      "pos": "phrase",
+      "example": { "sv": "Jag lagar sällan mat själv.", "ru": "Я редко готовлю сам(а).", "en": "I rarely cook by myself." }
+    },
+    {
+      "id": "handla",
+      "sv": "handla",
+      "translations": { "ru": "делать покупки, закупаться", "en": "to shop, to buy groceries" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla", "present": "handlar", "past": "handlade", "supine": "handlat" },
+      "example": { "sv": "Jag handlar mat en gång i veckan.", "ru": "Я закупаюсь продуктами раз в неделю.", "en": "I buy groceries once a week." }
+    },
+    {
+      "id": "komma-hem",
+      "sv": "komma hem",
+      "translations": { "ru": "приходить домой", "en": "to come home" },
+      "pos": "phrase",
+      "example": { "sv": "Jag kommer hem klockan sex.", "ru": "Я прихожу домой в шесть.", "en": "I come home at six." }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Jag sover ungefär åtta timmar.", "ru": "Я сплю примерно восемь часов.", "en": "I sleep about eight hours." }
+    },
+    {
+      "id": "ga-lagga-sig",
+      "sv": "gå och lägga sig",
+      "translations": { "ru": "ложиться спать", "en": "to go to bed" },
+      "pos": "phrase",
+      "example": { "sv": "Jag går och lägger mig klockan elva.", "ru": "Я ложусь спать в одиннадцать.", "en": "I go to bed at eleven." }
+    },
+    {
+      "id": "alltid",
+      "sv": "alltid",
+      "translations": { "ru": "всегда", "en": "always" },
+      "pos": "adv",
+      "example": { "sv": "Jag vaknar alltid tidigt.", "ru": "Я всегда просыпаюсь рано.", "en": "I always wake up early." }
+    },
+    {
+      "id": "ofta",
+      "sv": "ofta",
+      "translations": { "ru": "часто", "en": "often" },
+      "pos": "adv",
+      "example": { "sv": "Vi handlar ofta på lördagar.", "ru": "Мы часто закупаемся по субботам.", "en": "We often shop on Saturdays." }
+    },
+    {
+      "id": "ibland",
+      "sv": "ibland",
+      "translations": { "ru": "иногда", "en": "sometimes" },
+      "pos": "adv",
+      "example": { "sv": "Ibland pendlar jag med cykel.", "ru": "Иногда я добираюсь на велосипеде.", "en": "Sometimes I commute by bike." }
+    },
+    {
+      "id": "sallan",
+      "sv": "sällan",
+      "translations": { "ru": "редко", "en": "rarely" },
+      "pos": "adv",
+      "example": { "sv": "Jag är sällan hemma på dagarna.", "ru": "Я редко бываю дома днём.", "en": "I'm rarely home during the day." }
+    }
+  ]
+}

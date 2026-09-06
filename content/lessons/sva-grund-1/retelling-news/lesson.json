@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/retelling-news",
+  "slug": "retelling-news",
+  "title": {
+    "sv": "Återberätta vad man hört: nyhet, meddelande, instruktion",
+    "ru": "Пересказ услышанного: новость, объявление, инструкция",
+    "en": "Retelling what you heard: a news item, an announcement, an instruction"
+  },
+  "summary": {
+    "ru": "Фразы, чтобы пересказать то, что ты услышал(а) — новость по радио, объявление на вокзале, устную инструкцию.",
+    "en": "Phrases for retelling something you heard — a radio news item, a station announcement, a spoken instruction."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "listening",
+    "reported-speech",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 850,
+  "prerequisites": [
+    "sva-grund-1/reading-retelling"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

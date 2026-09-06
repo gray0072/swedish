@@ -1,0 +1,77 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-healthdet-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери вопрос: «Где болит?»", "en": "Build the question: \"Where does it hurt?\"" },
+      "tokens": ["det", "gör", "Var", "ont"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-healthdet-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["svår", "сильный"],
+        ["lindrig", "лёгкий"],
+        ["ihållande", "постоянный"],
+        ["remiss", "направление"]
+      ]
+    },
+    {
+      "id": "q-healthdet-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Ihållande» изменяет форму в зависимости от рода существительного.",
+        "en": "\"Ihållande\" changes form depending on the noun's gender."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Прилагательные на -ande не изменяются: ihållande одинаково для en/ett/мн.ч.",
+        "en": "Adjectives ending in -ande don't change: ihållande is the same for en/ett/plural."
+      }
+    },
+    {
+      "id": "q-healthdet-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Läkaren vill ___ dig. (осмотреть)" },
+      "answer": ["undersöka"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-healthdet-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Врач хочет узнать, как долго у тебя симптомы. Что он спросит?",
+        "en": "The doctor wants to know how long you've had the symptoms. What will they ask?"
+      },
+      "choices": ["Hur länge har du haft ont?", "Var bor du?", "Vad heter du?", "Har du legitimation?"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthdet-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Боль стала слабее. Как это сказать по-шведски?",
+        "en": "The pain got weaker. How do you say this in Swedish?"
+      },
+      "choices": ["Smärtan har lättat.", "Smärtan har förvärrats.", "Jag har feber.", "Jag mår bra."],
+      "answer": 0
+    }
+  ]
+}

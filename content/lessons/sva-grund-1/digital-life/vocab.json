@@ -1,0 +1,147 @@
+{
+  "items": [
+    {
+      "id": "bankid",
+      "sv": "BankID",
+      "translations": { "ru": "БанкID (цифровая идентификация)", "en": "BankID (digital ID app)" },
+      "pos": "noun",
+      "example": { "sv": "Logga in med BankID för att se dina uppgifter.", "ru": "Войди через BankID, чтобы увидеть свои данные.", "en": "Log in with BankID to see your information." }
+    },
+    {
+      "id": "mina-sidor",
+      "sv": "Mina sidor",
+      "translations": { "ru": "«Мои страницы» (личный кабинет)", "en": "\"Mina sidor\" (my pages, a personal account portal)" },
+      "pos": "noun",
+      "example": { "sv": "Du hittar din ansökan under Mina sidor.", "ru": "Ты найдёшь своё заявление в разделе «Мои страницы».", "en": "You'll find your application under \"Mina sidor\"." }
+    },
+    {
+      "id": "logga-in",
+      "sv": "logga in",
+      "translations": { "ru": "входить (в систему)", "en": "to log in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "logga in", "present": "loggar in", "past": "loggade in", "supine": "loggat in" },
+      "example": { "sv": "Jag loggar in med mitt lösenord.", "ru": "Я вхожу с помощью пароля.", "en": "I log in with my password." }
+    },
+    {
+      "id": "logga-ut",
+      "sv": "logga ut",
+      "translations": { "ru": "выходить (из системы)", "en": "to log out" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "logga ut", "present": "loggar ut", "past": "loggade ut", "supine": "loggat ut" },
+      "example": { "sv": "Glöm inte att logga ut efteråt.", "ru": "Не забудь выйти из системы после.", "en": "Don't forget to log out afterwards." }
+    },
+    {
+      "id": "e-legitimation",
+      "sv": "e-legitimation",
+      "translations": { "ru": "электронное удостоверение личности", "en": "electronic ID" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-legitimation", "defSg": "e-legitimationen", "indefPl": "e-legitimationer", "defPl": "e-legitimationerna" },
+      "example": { "sv": "BankID är en typ av e-legitimation.", "ru": "BankID — это один из видов электронного удостоверения личности.", "en": "BankID is a type of electronic ID." }
+    },
+    {
+      "id": "app",
+      "sv": "app",
+      "translations": { "ru": "приложение", "en": "app" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en app", "defSg": "appen", "indefPl": "appar", "defPl": "apparna" },
+      "example": { "sv": "Ladda ner appen från Skatteverket.", "ru": "Скачай приложение от налоговой.", "en": "Download the app from the Tax Agency." }
+    },
+    {
+      "id": "kivra",
+      "sv": "Kivra",
+      "translations": { "ru": "Kivra (сервис цифрового почтового ящика)", "en": "Kivra (a digital mailbox service)" },
+      "pos": "noun",
+      "example": { "sv": "Jag får mina brev från myndigheterna i Kivra.", "ru": "Письма от госорганов я получаю в Kivra.", "en": "I receive my letters from the authorities in Kivra." }
+    },
+    {
+      "id": "digital-brevlada",
+      "sv": "digital brevlåda",
+      "translations": { "ru": "цифровой почтовый ящик", "en": "digital mailbox" },
+      "pos": "phrase",
+      "example": { "sv": "Många myndigheter skickar post till din digitala brevlåda.", "ru": "Многие госорганы отправляют письма в твой цифровой почтовый ящик.", "en": "Many authorities send mail to your digital mailbox." }
+    },
+    {
+      "id": "losenord",
+      "sv": "lösenord",
+      "translations": { "ru": "пароль", "en": "password" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lösenord", "defSg": "lösenordet", "indefPl": "lösenord", "defPl": "lösenorden" },
+      "example": { "sv": "Jag har glömt mitt lösenord.", "ru": "Я забыл(а) свой пароль.", "en": "I've forgotten my password." }
+    },
+    {
+      "id": "anvandarnamn",
+      "sv": "användarnamn",
+      "translations": { "ru": "имя пользователя", "en": "username" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett användarnamn", "defSg": "användarnamnet", "indefPl": "användarnamn", "defPl": "användarnamnen" },
+      "example": { "sv": "Ditt användarnamn är din e-postadress.", "ru": "Твоё имя пользователя — это твой email.", "en": "Your username is your email address." }
+    },
+    {
+      "id": "skanna",
+      "sv": "skanna",
+      "translations": { "ru": "сканировать", "en": "to scan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skanna", "present": "skannar", "past": "skannade", "supine": "skannat" },
+      "example": { "sv": "Skanna QR-koden med kameran.", "ru": "Отсканируй QR-код камерой.", "en": "Scan the QR code with the camera." }
+    },
+    {
+      "id": "qr-kod",
+      "sv": "QR-kod",
+      "translations": { "ru": "QR-код", "en": "QR code" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en QR-kod", "defSg": "QR-koden", "indefPl": "QR-koder", "defPl": "QR-koderna" },
+      "example": { "sv": "Skanna QR-koden för att logga in.", "ru": "Отсканируй QR-код, чтобы войти.", "en": "Scan the QR code to log in." }
+    },
+    {
+      "id": "ladda-ner",
+      "sv": "ladda ner",
+      "translations": { "ru": "скачивать", "en": "to download" },
+      "pos": "verb",
+      "forms": { "infinitive": "ladda ner", "present": "laddar ner", "past": "laddade ner", "supine": "laddat ner" },
+      "example": { "sv": "Ladda ner appen innan du åker till mötet.", "ru": "Скачай приложение перед тем, как поедешь на встречу.", "en": "Download the app before you go to the meeting." }
+    },
+    {
+      "id": "uppdatera",
+      "sv": "uppdatera",
+      "translations": { "ru": "обновлять", "en": "to update" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "uppdatera", "present": "uppdaterar", "past": "uppdaterade", "supine": "uppdaterat" },
+      "example": { "sv": "Kom ihåg att uppdatera appen regelbundet.", "ru": "Не забывай регулярно обновлять приложение.", "en": "Remember to update the app regularly." }
+    },
+    {
+      "id": "notis",
+      "sv": "notis",
+      "translations": { "ru": "уведомление", "en": "notification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en notis", "defSg": "notisen", "indefPl": "notiser", "defPl": "notiserna" },
+      "example": { "sv": "Jag fick en notis om ett nytt brev.", "ru": "Мне пришло уведомление о новом письме.", "en": "I got a notification about a new letter." }
+    },
+    {
+      "id": "e-tjanst",
+      "sv": "e-tjänst",
+      "translations": { "ru": "электронная услуга", "en": "e-service" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-tjänst", "defSg": "e-tjänsten", "indefPl": "e-tjänster", "defPl": "e-tjänsterna" },
+      "example": { "sv": "Du kan använda myndighetens e-tjänst dygnet runt.", "ru": "Электронной услугой госоргана можно пользоваться круглосуточно.", "en": "You can use the authority's e-service around the clock." }
+    },
+    {
+      "id": "digital-adj",
+      "sv": "digital",
+      "translations": { "ru": "цифровой", "en": "digital" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: digitalt, мн.ч.: digitala", "en": "ett-form: digitalt, plural: digitala" },
+      "example": { "sv": "Allt fler tjänster blir digitala.", "ru": "Всё больше услуг становятся цифровыми.", "en": "More and more services are becoming digital." }
+    }
+  ]
+}

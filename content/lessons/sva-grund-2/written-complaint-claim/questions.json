@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-written-complaint-claim-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Каким словом обычно открывают формальную жалобу?", "en": "Which word typically opens a formal complaint?" },
+      "choices": ["härmed", "jättearg", "kanske", "typ"],
+      "answer": 0
+    },
+    {
+      "id": "q-written-complaint-claim-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что стоит приложить как доказательство покупки?", "en": "What should you attach as proof of purchase?" },
+      "choices": ["kvittot", "kravet", "fristen", "garantin"],
+      "answer": 0
+    },
+    {
+      "id": "q-written-complaint-claim-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Хорошая рекламация всегда указывает конкретный срок ответа.", "en": "A good claim always states a concrete deadline for the reply." },
+      "answer": true
+    },
+    {
+      "id": "q-written-complaint-claim-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "В формальной жалобе уместно писать «Jag är jättearg!».", "en": "It's appropriate to write \"Jag är jättearg!\" in a formal complaint." },
+      "answer": false,
+      "explanation": { "ru": "Формальное письмо остаётся нейтральным и по делу, без эмоциональных выражений.", "en": "A formal letter stays neutral and to the point, without emotional language." }
+    },
+    {
+      "id": "q-written-complaint-claim-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ ersättning för den trasiga varan. (kräva)" },
+      "answer": ["kräver"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-written-complaint-claim-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag ser fram emot ett svar inom två ___." },
+      "answer": ["veckor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-written-complaint-claim-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["reklamation", "рекламация / a claim"],
+        ["ersättning", "компенсация / compensation"],
+        ["kvitto", "чек / a receipt"],
+        ["frist", "срок / a deadline"]
+      ]
+    },
+    {
+      "id": "q-written-complaint-claim-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я хочу, чтобы вы заменили товар как можно скорее.»", "en": "Build the sentence: \"I want you to replace the item as soon as possible.\"" },
+      "tokens": ["Jag", "vill", "att", "ni", "byter", "ut", "varan", "snarast", "möjligt"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-written-complaint-claim-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое из этих слов означает «устранить» проблему?", "en": "Which of these words means to \"fix\" a problem?" },
+      "choices": ["åtgärda", "kräva", "reklamera", "bifoga"],
+      "answer": 0
+    },
+    {
+      "id": "q-written-complaint-claim-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Klagomål и reklamation — полные синонимы во всех контекстах.", "en": "Klagomål and reklamation are complete synonyms in every context." },
+      "answer": false,
+      "explanation": { "ru": "Reklamation обычно про товар/услугу с конкретным требованием, klagomål — более общее слово для жалобы.", "en": "Reklamation is usually about a product/service with a concrete demand; klagomål is the more general word for a complaint." }
+    }
+  ]
+}

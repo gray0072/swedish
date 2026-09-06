@@ -1,0 +1,110 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "reading-retelling-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Она сказала, что не может прийти.»", "en": "Build the sentence: \"She said she couldn't come.\"" },
+      "tokens": ["Hon", "sa", "att", "hon", "inte", "kunde", "komma"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "reading-retelling-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «В конце концов она нашла телефон.»", "en": "Build the sentence: \"In the end she found the phone.\"" },
+      "tokens": ["hon", "Till slut", "telefonen", "hittade"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "reading-retelling-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово-связку с переводом", "en": "Match the connector with its translation" },
+      "pairs": [
+        ["först", "сначала"],
+        ["sedan", "потом"],
+        ["plötsligt", "вдруг"],
+        ["till slut", "в конце концов"]
+      ]
+    },
+    {
+      "id": "reading-retelling-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В придаточном предложении после «att» слово «inte» стоит перед глаголом.",
+        "en": "In a subordinate clause after \"att\", the word \"inte\" comes before the verb."
+      },
+      "answer": true
+    },
+    {
+      "id": "reading-retelling-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После «hon berättade att» слова идут в том же порядке, что и в самостоятельном предложении (huvudsats).",
+        "en": "After \"hon berättade att\", the word order is the same as in a main clause (huvudsats)."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "После «att» начинается bisats, и там действует правило BIFF: «inte» перепрыгивает перед глаголом.",
+        "en": "After \"att\" a bisats begins, and the BIFF rule applies: \"inte\" jumps in front of the verb."
+      }
+    },
+    {
+      "id": "reading-retelling-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon sa att hon ___ kunde komma. (не)" },
+      "answer": ["inte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "reading-retelling-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ gick Anna till affären, och ___ tappade hon sin telefon. (сначала / потом)" },
+      "answer": ["Först", "sedan"],
+      "acceptAlso": []
+    },
+    {
+      "id": "reading-retelling-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой вариант правильно передаёт «Он рассказал, что забыл ключ»?",
+        "en": "Which option correctly says \"He told me he had forgotten the key\"?"
+      },
+      "choices": ["Han berättade att han hade glömt nyckeln", "Han berättade att han glömt inte hade nyckeln", "Han berättade han hade glömt att nyckeln"],
+      "answer": 0
+    },
+    {
+      "id": "reading-retelling-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово используется, чтобы отметить самое первое событие в пересказе?",
+        "en": "Which word marks the very first event in a retelling?"
+      },
+      "choices": ["till slut", "plötsligt", "först", "sedan"],
+      "answer": 2
+    },
+    {
+      "id": "reading-retelling-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой глагол правильно вводит чужое мнение: «Jag ___ att historien var rolig»?",
+        "en": "Which verb correctly introduces an opinion: \"Jag ___ att historien var rolig\"?"
+      },
+      "choices": ["tycker", "händer", "hittar", "tappar"],
+      "answer": 0
+    }
+  ]
+}

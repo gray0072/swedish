@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "saga-rs",
+      "sv": "säga",
+      "translations": { "ru": "сказать, говорить", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sade", "supine": "sagt" }
+    },
+    {
+      "id": "pasta",
+      "sv": "påstå",
+      "translations": { "ru": "утверждать (часто со скепсисом)", "en": "to claim (often skeptically)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "påstå", "present": "påstår", "past": "påstod", "supine": "påstått" },
+      "example": { "sv": "Han påstår att jorden är platt.", "ru": "Он утверждает, что Земля плоская.", "en": "He claims that the earth is flat." }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать, настаивать", "en": "to assert, maintain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" },
+      "example": { "sv": "Forskare hävdar att klimatet förändras.", "ru": "Учёные утверждают, что климат меняется.", "en": "Researchers assert that the climate is changing." }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "иметь в виду, считать", "en": "to mean, to argue" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Hon menar att vi borde vänta.", "ru": "Она считает, что нам следует подождать.", "en": "She argues that we should wait." }
+    },
+    {
+      "id": "tycka",
+      "sv": "tycka",
+      "translations": { "ru": "находить, считать (мнение)", "en": "to think, find (opinion)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka", "present": "tycker", "past": "tyckte", "supine": "tyckt" },
+      "example": { "sv": "Jag tycker att filmen var bra.", "ru": "Я считаю, что фильм был хороший.", "en": "I think the movie was good." }
+    },
+    {
+      "id": "tro-rs",
+      "sv": "tro",
+      "translations": { "ru": "верить, полагать", "en": "to believe, think" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" }
+    },
+    {
+      "id": "beratta",
+      "sv": "berätta",
+      "translations": { "ru": "рассказывать", "en": "to tell, narrate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" }
+    },
+    {
+      "id": "pastaende",
+      "sv": "påstående",
+      "translations": { "ru": "утверждение", "en": "claim, assertion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "påstående", "defSg": "påståendet", "indefPl": "påståenden", "defPl": "påståendena" }
+    },
+    {
+      "id": "asikt",
+      "sv": "åsikt",
+      "translations": { "ru": "мнение", "en": "opinion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" }
+    },
+    {
+      "id": "forskare",
+      "sv": "forskare",
+      "translations": { "ru": "исследователь, учёный", "en": "researcher, scientist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    },
+    {
+      "id": "att-conj",
+      "sv": "att",
+      "translations": { "ru": "что (союз, вводящий придаточное)", "en": "that (conjunction introducing a clause)" },
+      "pos": "conjunction"
+    }
+  ]
+}

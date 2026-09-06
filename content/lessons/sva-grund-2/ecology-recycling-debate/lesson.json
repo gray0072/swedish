@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/ecology-recycling-debate",
+  "slug": "ecology-recycling-debate",
+  "title": {
+    "sv": "Miljö och återvinning: argument för och emot",
+    "ru": "Экология и переработка: аргументы за и против",
+    "en": "Ecology and recycling: arguments for and against"
+  },
+  "summary": {
+    "ru": "Фразы для дискуссии за и против на примере переработки мусора: аргументы, возражения и лексика сортировки отходов.",
+    "en": "Debate phrases for arguing for and against, applied to recycling: arguments, objections, and waste-sorting vocabulary."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "phrases",
+    "ecology",
+    "debate",
+    "recycling"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1170,
+  "prerequisites": [
+    "sva-grund-1/nature-allemansratten"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

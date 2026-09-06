@@ -1,0 +1,183 @@
+{
+  "items": [
+    {
+      "id": "kost",
+      "sv": "kost",
+      "translations": { "ru": "питание, рацион", "en": "diet, food" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han försöker äta en hälsosam kost.", "ru": "Он старается придерживаться здорового питания.", "en": "He tries to eat a healthy diet." }
+    },
+    {
+      "id": "naring",
+      "sv": "näring",
+      "translations": { "ru": "питательные вещества", "en": "nutrition, nutrients" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Grönsaker innehåller mycket näring.", "ru": "Овощи содержат много питательных веществ.", "en": "Vegetables contain a lot of nutrients." }
+    },
+    {
+      "id": "naringsrik",
+      "sv": "näringsrik",
+      "translations": { "ru": "богатый питательными веществами", "en": "nutritious, nutrient-rich" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: näringsrikt, мн.ч.: näringsrika", "en": "ett-form: näringsrikt, plural: näringsrika" },
+      "example": { "sv": "Linser är näringsrika och billiga.", "ru": "Чечевица питательна и недорога.", "en": "Lentils are nutritious and cheap." }
+    },
+    {
+      "id": "somnbrist",
+      "sv": "sömnbrist",
+      "translations": { "ru": "недостаток сна", "en": "sleep deprivation" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sömnbrist påverkar koncentrationen negativt.", "ru": "Недостаток сна негативно влияет на концентрацию.", "en": "Sleep deprivation negatively affects concentration." }
+    },
+    {
+      "id": "somn",
+      "sv": "sömn",
+      "translations": { "ru": "сон", "en": "sleep" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "God sömn är grunden för återhämtning.", "ru": "Хороший сон — основа восстановления.", "en": "Good sleep is the foundation of recovery." }
+    },
+    {
+      "id": "aterhamtning",
+      "sv": "återhämtning",
+      "translations": { "ru": "восстановление", "en": "recovery" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kroppen behöver återhämtning efter träning.", "ru": "Организму нужно восстановление после тренировки.", "en": "The body needs recovery after exercise." }
+    },
+    {
+      "id": "motionera",
+      "sv": "motionera",
+      "translations": { "ru": "заниматься физкультурой", "en": "to exercise, to work out" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "motionera", "present": "motionerar", "past": "motionerade", "supine": "motionerat" },
+      "example": { "sv": "Jag försöker motionera tre gånger i veckan.", "ru": "Я стараюсь заниматься физкультурой три раза в неделю.", "en": "I try to exercise three times a week." }
+    },
+    {
+      "id": "motion",
+      "sv": "motion",
+      "translations": { "ru": "физическая активность, движение", "en": "exercise, physical activity" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Dagliga promenader räknas som motion.", "ru": "Ежедневные прогулки считаются физической активностью.", "en": "Daily walks count as exercise." }
+    },
+    {
+      "id": "stillasittande",
+      "sv": "stillasittande",
+      "translations": { "ru": "сидячий", "en": "sedentary" },
+      "pos": "adj",
+      "note": { "ru": "не изменяется по родам и числам (прилагательные на -ande)", "en": "invariant across gender and number (adjectives ending in -ande)" },
+      "example": { "sv": "Ett stillasittande arbete ökar risken för hälsoproblem.", "ru": "Сидячая работа увеличивает риск проблем со здоровьем.", "en": "A sedentary job increases the risk of health problems." }
+    },
+    {
+      "id": "balanserad-kost",
+      "sv": "balanserad kost",
+      "translations": { "ru": "сбалансированное питание", "en": "balanced diet" },
+      "pos": "phrase",
+      "example": { "sv": "Läkaren rekommenderar en balanserad kost.", "ru": "Врач рекомендует сбалансированное питание.", "en": "The doctor recommends a balanced diet." }
+    },
+    {
+      "id": "halsosam",
+      "sv": "hälsosam",
+      "translations": { "ru": "здоровый (о питании, образе жизни)", "en": "healthy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: hälsosamt, мн.ч.: hälsosamma", "en": "ett-form: hälsosamt, plural: hälsosamma" },
+      "example": { "sv": "Det är viktigt att leva ett hälsosamt liv.", "ru": "Важно вести здоровый образ жизни.", "en": "It's important to live a healthy life." }
+    },
+    {
+      "id": "ohalsosam",
+      "sv": "ohälsosam",
+      "translations": { "ru": "нездоровый", "en": "unhealthy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: ohälsosamt, мн.ч.: ohälsosamma", "en": "ett-form: ohälsosamt, plural: ohälsosamma" },
+      "example": { "sv": "Snabbmat är ofta ohälsosam.", "ru": "Фастфуд часто нездоровый.", "en": "Fast food is often unhealthy." }
+    },
+    {
+      "id": "livsstil",
+      "sv": "livsstil",
+      "translations": { "ru": "образ жизни", "en": "lifestyle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en livsstil", "defSg": "livsstilen", "indefPl": "livsstilar", "defPl": "livsstilarna" },
+      "example": { "sv": "Han har ändrat sin livsstil helt.", "ru": "Он полностью изменил свой образ жизни.", "en": "He has completely changed his lifestyle." }
+    },
+    {
+      "id": "stress",
+      "sv": "stress",
+      "translations": { "ru": "стресс", "en": "stress" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "För mycket stress är skadligt för hälsan.", "ru": "Слишком много стресса вредно для здоровья.", "en": "Too much stress is harmful to health." }
+    },
+    {
+      "id": "koppla-av",
+      "sv": "koppla av",
+      "translations": { "ru": "расслабляться", "en": "to relax, to unwind" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "koppla av", "present": "kopplar av", "past": "kopplade av", "supine": "kopplat av" },
+      "example": { "sv": "Det är viktigt att koppla av ibland.", "ru": "Важно иногда расслабляться.", "en": "It's important to relax sometimes." }
+    },
+    {
+      "id": "sova-gott",
+      "sv": "sova gott",
+      "translations": { "ru": "хорошо спать, выспаться", "en": "to sleep well" },
+      "pos": "phrase",
+      "example": { "sv": "Jag hoppas att du sover gott inatt.", "ru": "Надеюсь, ты хорошо выспишься сегодня ночью.", "en": "I hope you sleep well tonight." }
+    },
+    {
+      "id": "ata-halsosamt",
+      "sv": "äta hälsosamt",
+      "translations": { "ru": "питаться здорово", "en": "to eat healthily" },
+      "pos": "phrase",
+      "example": { "sv": "Hon försöker äta hälsosamt varje dag.", "ru": "Она старается питаться здорово каждый день.", "en": "She tries to eat healthily every day." }
+    },
+    {
+      "id": "vitamin",
+      "sv": "vitamin",
+      "translations": { "ru": "витамин", "en": "vitamin" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett vitamin", "defSg": "vitaminet", "indefPl": "vitaminer", "defPl": "vitaminerna" },
+      "example": { "sv": "Apelsiner innehåller mycket vitamin C.", "ru": "Апельсины содержат много витамина С.", "en": "Oranges contain a lot of vitamin C." }
+    },
+    {
+      "id": "protein",
+      "sv": "protein",
+      "translations": { "ru": "белок", "en": "protein" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett protein", "defSg": "proteinet", "indefPl": "proteiner", "defPl": "proteinerna" },
+      "example": { "sv": "Bönor är en bra källa till protein.", "ru": "Бобы — хороший источник белка.", "en": "Beans are a good source of protein." }
+    },
+    {
+      "id": "forebygga",
+      "sv": "förebygga",
+      "translations": { "ru": "предотвращать", "en": "to prevent" },
+      "pos": "verb",
+      "forms": { "infinitive": "förebygga", "present": "förebygger", "past": "förebyggde", "supine": "förebyggt" },
+      "example": { "sv": "Motion kan förebygga många sjukdomar.", "ru": "Физическая активность может предотвратить многие болезни.", "en": "Exercise can prevent many diseases." }
+    },
+    {
+      "id": "undvika",
+      "sv": "undvika",
+      "translations": { "ru": "избегать", "en": "to avoid" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "undvika", "present": "undviker", "past": "undvek", "supine": "undvikit" },
+      "example": { "sv": "Man bör undvika för mycket socker.", "ru": "Следует избегать слишком большого количества сахара.", "en": "One should avoid too much sugar." }
+    },
+    {
+      "id": "vardagsmotion",
+      "sv": "vardagsmotion",
+      "translations": { "ru": "повседневная физическая активность", "en": "everyday exercise" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Att ta trapporna istället för hissen är bra vardagsmotion.", "ru": "Подниматься по лестнице вместо лифта — хорошая повседневная физическая активность.", "en": "Taking the stairs instead of the elevator is good everyday exercise." }
+    }
+  ]
+}

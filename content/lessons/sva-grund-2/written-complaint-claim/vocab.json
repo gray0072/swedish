@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "id": "klagomal",
+      "sv": "klagomål",
+      "translations": { "ru": "жалоба", "en": "complaint" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett klagomål", "defSg": "klagomålet", "indefPl": "klagomål", "defPl": "klagomålen" }
+    },
+    {
+      "id": "reklamation",
+      "sv": "reklamation",
+      "translations": { "ru": "рекламация, претензия", "en": "claim" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reklamation", "defSg": "reklamationen", "indefPl": "reklamationer", "defPl": "reklamationerna" }
+    },
+    {
+      "id": "reklamera",
+      "sv": "reklamera",
+      "translations": { "ru": "предъявить претензию", "en": "to file a claim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" }
+    },
+    {
+      "id": "harmed",
+      "sv": "härmed",
+      "translations": { "ru": "настоящим (в офиц. документах)", "en": "hereby" },
+      "pos": "adv",
+      "example": { "sv": "Jag vill härmed anmäla att varan jag köpte var felaktig.", "ru": "Настоящим сообщаю, что купленный мной товар оказался неисправным.", "en": "I hereby wish to report that the item I bought was faulty." }
+    },
+    {
+      "id": "krava",
+      "sv": "kräva",
+      "translations": { "ru": "требовать", "en": "to demand" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "kräva", "present": "kräver", "past": "krävde", "supine": "krävt" },
+      "example": { "sv": "Jag kräver ersättning för den trasiga varan.", "ru": "Я требую компенсацию за неисправный товар.", "en": "I demand compensation for the broken item." }
+    },
+    {
+      "id": "ersattning",
+      "sv": "ersättning",
+      "translations": { "ru": "компенсация, возмещение", "en": "compensation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ersättning", "defSg": "ersättningen", "indefPl": "ersättningar", "defPl": "ersättningarna" }
+    },
+    {
+      "id": "atgarda",
+      "sv": "åtgärda",
+      "translations": { "ru": "устранить (проблему)", "en": "to fix, to remedy" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "åtgärda", "present": "åtgärdar", "past": "åtgärdade", "supine": "åtgärdat" }
+    },
+    {
+      "id": "byta-ut",
+      "sv": "byta ut",
+      "translations": { "ru": "заменить (товар)", "en": "to replace" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vill att ni byter ut varan snarast möjligt.", "ru": "Я хочу, чтобы вы заменили товар как можно скорее.", "en": "I want you to replace the item as soon as possible." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Jag bifogar kvittot som bevis på köpet.", "ru": "Прилагаю чек как доказательство покупки.", "en": "I am enclosing the receipt as proof of purchase." }
+    },
+    {
+      "id": "garanti",
+      "sv": "garanti",
+      "translations": { "ru": "гарантия", "en": "warranty" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en garanti", "defSg": "garantin", "indefPl": "garantier", "defPl": "garantierna" }
+    },
+    {
+      "id": "frist",
+      "sv": "frist",
+      "translations": { "ru": "срок (для ответа)", "en": "deadline" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frist", "defSg": "fristen", "indefPl": "frister", "defPl": "fristerna" },
+      "example": { "sv": "Jag ser fram emot ett svar inom två veckor.", "ru": "Жду ответа в течение двух недель.", "en": "I look forward to a reply within two weeks." }
+    },
+    {
+      "id": "krav",
+      "sv": "krav",
+      "translations": { "ru": "требование", "en": "demand" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett krav", "defSg": "kravet", "indefPl": "krav", "defPl": "kraven" }
+    },
+    {
+      "id": "felaktig",
+      "sv": "felaktig",
+      "translations": { "ru": "неисправный, дефектный", "en": "faulty" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: felaktigt, мн.ч.: felaktiga", "en": "ett-form: felaktigt, plural: felaktiga" },
+      "example": { "sv": "Varan var felaktig redan när jag öppnade paketet.", "ru": "Товар был неисправен уже при вскрытии упаковки.", "en": "The item was already faulty when I opened the package." }
+    }
+  ]
+}

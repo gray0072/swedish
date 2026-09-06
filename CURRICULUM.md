@@ -90,21 +90,25 @@ Swedish system.
 | SFI kurs B | 9 | 25 | 20 |
 | SFI kurs C | 5 | 25 | 20 |
 | SFI kurs D | 3 | 25 | 20 |
-| SVA grund delkurs 1 | 20 | 25 | 20 |
-| SVA grund delkurs 2 | 0 | 25 | 20 |
+| SVA grund delkurs 1 | 45 | 25 | 20 |
+| SVA grund delkurs 2 | 45 | 25 | 20 |
 | SVA grund delkurs 3 | 0 | 25 | 20 |
 | SVA grund delkurs 4 | 0 | 25 | 20 |
 
-Lessons done in total: **46** (`npx tsx scripts/validate-content.ts` confirms the number).
-Grammar points planned in total: **160**, of which **20** now have a dedicated lesson
-(all of SVA grund delkurs 1).
+Lessons done in total: **116** (`npx tsx scripts/validate-content.ts` confirms the number).
+Grammar points planned in total: **160**, of which **40** now have a dedicated lesson
+(all of SVA grund delkurs 1 and 2).
 
-All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1 additionally
-has 20 grammar lessons — one per point on its grammar list, each with bilingual (RU/EN)
-theory (`theory.md` + `theory_en.md`, picked by the study-language toggle). None of
-delkurs 1's 25 thematic topics exists yet, and delkurs 2–4 are still fully empty: a topic
-lesson there is work with a text (referat, argumentation, källkritik), and the project
-has no such lesson format yet.
+All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1 and delkurs 2
+are both now complete: 20 grammar lessons plus all 25 thematic topics at each level,
+every one with bilingual (RU/EN) theory (`theory.md` + `theory_en.md`, picked by the
+study-language toggle). The thematic topics use the same vocab/phrases lesson pipeline
+as SFI rather than an actual reading-passage format — a few of them (reading a short
+story and retelling it, retelling what you heard, a referat with a cited source) were
+originally imagined as needing dedicated text-based mechanics the project doesn't have;
+for now they teach the vocabulary/phrases the skill needs instead. Delkurs 3–4 are still
+fully empty: a topic lesson there is work with a text (referat, argumentation,
+källkritik), and the project has no such lesson format yet.
 
 ---
 
@@ -345,31 +349,31 @@ write it".
 
 ### Topics
 
-1. [ ] About yourself: the path to Sweden, studies, work — a connected monologue
-2. [ ] My routine and my habits — an account in the present tense
-3. [ ] Talking about the past: yesterday, last week, last year
-4. [ ] Plans for the future: studies, work, family
-5. [ ] Opinion and justification: `jag tycker att … eftersom …`
-6. [ ] Describing a person: appearance and character
-7. [ ] Describing a place: a flat, a neighbourhood, a city
-8. [ ] Health: describing symptoms in detail and talking to a doctor
-9. [ ] Studying at komvux: schedule, assignments, feedback from the teacher
-10. [ ] Reading an adapted short story and retelling it
-11. [ ] A personal letter and a message: structure and polite formulas
-12. [ ] Filling in forms and questionnaires: understanding the wording
-13. [ ] Instructions and recipes: understanding and following a sequence
-14. [ ] Working with a dictionary and a word definition
-15. [ ] Strategies: how to ask about a word you do not know, how to paraphrase
-16. [ ] Work: the working day, colleagues, arrangements
-17. [ ] Talking to an employer: holiday, sick leave, the schedule
-18. [ ] Housing: the contract, förstahand/andrahand, the housing queue
-19. [ ] Household economy: budget, bills, autogiro
-20. [ ] Digital life: BankID, Mina sidor, apps
-21. [ ] Your child's school: the development talk (utvecklingssamtal)
-22. [ ] Holidays and traditions: describing them and comparing with your own culture
-23. [ ] Free time and culture: talking about a film or a book
-24. [ ] Nature and allemansrätten
-25. [ ] Retelling what you heard: a news item, an announcement, an instruction
+1. [x] About yourself: the path to Sweden, studies, work — a connected monologue — `sva-grund-1/about-yourself`
+2. [x] My routine and my habits — an account in the present tense — `sva-grund-1/routine-present`
+3. [x] Talking about the past: yesterday, last week, last year — `sva-grund-1/past-narrative`
+4. [x] Plans for the future: studies, work, family — `sva-grund-1/future-plans`
+5. [x] Opinion and justification: `jag tycker att … eftersom …` — `sva-grund-1/opinion-justification`
+6. [x] Describing a person: appearance and character — `sva-grund-1/describing-person`
+7. [x] Describing a place: a flat, a neighbourhood, a city — `sva-grund-1/describing-place`
+8. [x] Health: describing symptoms in detail and talking to a doctor — `sva-grund-1/health-symptoms-detailed`
+9. [x] Studying at komvux: schedule, assignments, feedback from the teacher — `sva-grund-1/studying-komvux`
+10. [x] Reading an adapted short story and retelling it — `sva-grund-1/reading-retelling`
+11. [x] A personal letter and a message: structure and polite formulas — `sva-grund-1/personal-letter`
+12. [x] Filling in forms and questionnaires: understanding the wording — `sva-grund-1/forms-questionnaires`
+13. [x] Instructions and recipes: understanding and following a sequence — `sva-grund-1/instructions-recipes`
+14. [x] Working with a dictionary and a word definition — `sva-grund-1/dictionary-work`
+15. [x] Strategies: how to ask about a word you do not know, how to paraphrase — `sva-grund-1/paraphrase-strategies`
+16. [x] Work: the working day, colleagues, arrangements — `sva-grund-1/workday-colleagues`
+17. [x] Talking to an employer: holiday, sick leave, the schedule — `sva-grund-1/employer-talk`
+18. [x] Housing: the contract, förstahand/andrahand, the housing queue — `sva-grund-1/housing-contract`
+19. [x] Household economy: budget, bills, autogiro — `sva-grund-1/household-economy`
+20. [x] Digital life: BankID, Mina sidor, apps — `sva-grund-1/digital-life`
+21. [x] Your child's school: the development talk (utvecklingssamtal) — `sva-grund-1/child-school-talk`
+22. [x] Holidays and traditions: describing them and comparing with your own culture — `sva-grund-1/holidays-traditions`
+23. [x] Free time and culture: talking about a film or a book — `sva-grund-1/free-time-culture`
+24. [x] Nature and allemansrätten — `sva-grund-1/nature-allemansratten`
+25. [x] Retelling what you heard: a news item, an announcement, an instruction — `sva-grund-1/retelling-news`
 26. [x] Parts of speech and metalanguage — `sva-grund-1/parts-of-speech`
 27. [x] Sentence elements — `sva-grund-1/sentence-elements`
 28. [x] The four verb groups and the strong verbs, systematised — `sva-grund-1/verb-groups`
@@ -425,54 +429,74 @@ structured (introduction — body — conclusion), and work with sources appears
 
 ### Topics
 
-1. [ ] The labour market: vacancies, industries, requirements
-2. [ ] A job application and a CV
-3. [ ] The employment contract and labour rights; unions
-4. [ ] Sick leave, holiday, parental leave — the rules and the vocabulary
-5. [ ] The healthcare system: 1177, vårdcentral, akuten
-6. [ ] Housing: the rental contract, the rights and duties of both parties
-7. [ ] Household economy: savings, credit, insurance
-8. [ ] The bank, BankID and the state's digital services
-9. [ ] Taxes and Skatteverket: understanding a tax return
-10. [ ] School and preschool: contact with the teacher, the development talk
-11. [ ] The Swedish education system — an overview
-12. [ ] Ecology and recycling: arguments for and against
-13. [ ] News: reading a short article and picking out the essentials
-14. [ ] Describing a chart and statistics in plain words
-15. [ ] The argumentative text: thesis, arguments, conclusion
-16. [ ] Retelling and summarising (referat)
-17. [ ] A formal letter to an organisation
-18. [ ] A complaint and a claim in writing
-19. [ ] Holidays and traditions: comparing cultures
-20. [ ] A review of a film or a book
-21. [ ] A healthy lifestyle: food, sleep, movement
-22. [ ] Personal experience: telling the story of a significant event
-23. [ ] Transport and travel: planning a trip
-24. [ ] Volunteering and civic life
-25. [ ] A 2–3 minute talk supported by notes
+1. [x] The labour market: vacancies, industries, requirements — `sva-grund-2/labour-market`
+2. [x] A job application and a CV — `sva-grund-2/job-application-cv`
+3. [x] The employment contract and labour rights; unions — `sva-grund-2/employment-contract-rights`
+4. [x] Sick leave, holiday, parental leave — the rules and the vocabulary — `sva-grund-2/parental-sick-leave`
+5. [x] The healthcare system: 1177, vårdcentral, akuten — `sva-grund-2/healthcare-system`
+6. [x] Housing: the rental contract, the rights and duties of both parties — `sva-grund-2/rental-contract-rights`
+7. [x] Household economy: savings, credit, insurance — `sva-grund-2/savings-credit-insurance`
+8. [x] The bank, BankID and the state's digital services — `sva-grund-2/bank-digital-services`
+9. [x] Taxes and Skatteverket: understanding a tax return — `sva-grund-2/tax-return`
+10. [x] School and preschool: contact with the teacher, the development talk — `sva-grund-2/school-preschool-contact`
+11. [x] The Swedish education system — an overview — `sva-grund-2/education-system-overview`
+12. [x] Ecology and recycling: arguments for and against — `sva-grund-2/ecology-recycling-debate`
+13. [x] News: reading a short article and picking out the essentials — `sva-grund-2/news-article-essentials`
+14. [x] Describing a chart and statistics in plain words — `sva-grund-2/describing-charts`
+15. [x] The argumentative text: thesis, arguments, conclusion — `sva-grund-2/argumentative-text`
+16. [x] Retelling and summarising (referat) — `sva-grund-2/referat-summary`
+17. [x] A formal letter to an organisation — `sva-grund-2/formal-letter-organisation`
+18. [x] A complaint and a claim in writing — `sva-grund-2/written-complaint-claim`
+19. [x] Holidays and traditions: comparing cultures — `sva-grund-2/holidays-culture-comparison`
+20. [x] A review of a film or a book — `sva-grund-2/film-book-review`
+21. [x] A healthy lifestyle: food, sleep, movement — `sva-grund-2/healthy-lifestyle`
+22. [x] Personal experience: telling the story of a significant event — `sva-grund-2/personal-experience-story`
+23. [x] Transport and travel: planning a trip — `sva-grund-2/travel-planning`
+24. [x] Volunteering and civic life — `sva-grund-2/volunteering-civic-life`
+25. [x] A 2–3 minute talk supported by notes — `sva-grund-2/short-talk-notes`
+26. [x] The passive: `-s`, `bli`, `vara` — meaning and choosing a form — `sva-grund-2/passive-voice`
+27. [x] The agent phrase with `av` and when it is left out — `sva-grund-2/agent-phrase-av`
+28. [x] The pluperfect and the order of events in a narrative — `sva-grund-2/pluperfect-narrative`
+29. [x] Conditional sentences: real and unreal conditions — `sva-grund-2/conditional-sentences`
+30. [x] `skulle ha + supinum` — the unreal condition in the past — `sva-grund-2/unreal-past-conditional`
+31. [x] Infinitive constructions: `för att`, `utan att`, `genom att`, `istället för att` — `sva-grund-2/infinitive-constructions`
+32. [x] Relative clauses: `som`, `vars`, `där`, `dit`, `vilket` — `sva-grund-2/relative-clauses`
+33. [x] Temporal clauses and their word order — `sva-grund-2/temporal-clauses`
+34. [x] Concessive and adversative constructions: `fast`, `trots att`, `även om` — `sva-grund-2/concessive-clauses`
+35. [x] Cause and effect: `eftersom`, `därför att`, `så att`, `på grund av`, `tack vare` — `sva-grund-2/cause-effect-clauses`
+36. [x] The present participle (`-ande/-ende`) — `sva-grund-2/present-participle`
+37. [x] The past participle as an adjective, and agreement — `sva-grund-2/past-participle-adjective`
+38. [x] Nominalisation: `-ning`, `-ande`, `-het`, `-else` — `sva-grund-2/nominalisation`
+39. [x] Word formation: prefixes and suffixes, the productive patterns — `sva-grund-2/word-formation`
+40. [x] Abstract prepositions and verbs governing prepositions — `sva-grund-2/verb-preposition-government`
+41. [x] Text connectors and paragraph structure — `sva-grund-2/text-connectors`
+42. [x] The cleft construction `det är … som` — highlighting what matters — `sva-grund-2/cleft-construction`
+43. [x] Reported speech and verbs of saying: `påstår`, `menar`, `hävdar att` — `sva-grund-2/reported-speech-verbs`
+44. [x] Word order in long sentences; choosing the fundament — `sva-grund-2/long-sentence-word-order`
+45. [x] The spoken and written norms: `dem/dom`, contractions, particles — `sva-grund-2/spoken-written-norms`
 
 ### Grammar (20 points)
 
-1. [ ] The passive: `-s`, `bli`, `vara` — meaning and choosing a form
-2. [ ] The agent phrase with `av` and when it is left out
-3. [ ] The pluperfect and the order of events in a narrative
-4. [ ] Conditional sentences: real and unreal conditions
-5. [ ] `skulle ha + supinum` — the unreal condition in the past
-6. [ ] Infinitive constructions: `för att`, `utan att`, `genom att`, `istället för att`
-7. [ ] Relative clauses: `som`, `vars`, `där`, `dit`, `vilket`
-8. [ ] Temporal clauses and their word order
-9. [ ] Concessive and adversative constructions: `fast`, `trots att`, `även om`
-10. [ ] Cause and effect: `eftersom`, `därför att`, `så att`, `på grund av`, `tack vare`
-11. [ ] The present participle (`-ande/-ende`)
-12. [ ] The past participle as an adjective, and agreement
-13. [ ] Nominalisation: `-ning`, `-ande`, `-het`, `-else`
-14. [ ] Word formation: prefixes and suffixes, the productive patterns
-15. [ ] Abstract prepositions and verbs governing prepositions
-16. [ ] Text connectors and paragraph structure
-17. [ ] The cleft construction `det är … som` — highlighting what matters
-18. [ ] Reported speech and verbs of saying: `påstår`, `menar`, `hävdar att`
-19. [ ] Word order in long sentences; choosing the fundament
-20. [ ] The spoken and written norms: `dem/dom`, contractions, particles
+1. [x] The passive: `-s`, `bli`, `vara` — meaning and choosing a form — `sva-grund-2/passive-voice`
+2. [x] The agent phrase with `av` and when it is left out — `sva-grund-2/agent-phrase-av`
+3. [x] The pluperfect and the order of events in a narrative — `sva-grund-2/pluperfect-narrative`
+4. [x] Conditional sentences: real and unreal conditions — `sva-grund-2/conditional-sentences`
+5. [x] `skulle ha + supinum` — the unreal condition in the past — `sva-grund-2/unreal-past-conditional`
+6. [x] Infinitive constructions: `för att`, `utan att`, `genom att`, `istället för att` — `sva-grund-2/infinitive-constructions`
+7. [x] Relative clauses: `som`, `vars`, `där`, `dit`, `vilket` — `sva-grund-2/relative-clauses`
+8. [x] Temporal clauses and their word order — `sva-grund-2/temporal-clauses`
+9. [x] Concessive and adversative constructions: `fast`, `trots att`, `även om` — `sva-grund-2/concessive-clauses`
+10. [x] Cause and effect: `eftersom`, `därför att`, `så att`, `på grund av`, `tack vare` — `sva-grund-2/cause-effect-clauses`
+11. [x] The present participle (`-ande/-ende`) — `sva-grund-2/present-participle`
+12. [x] The past participle as an adjective, and agreement — `sva-grund-2/past-participle-adjective`
+13. [x] Nominalisation: `-ning`, `-ande`, `-het`, `-else` — `sva-grund-2/nominalisation`
+14. [x] Word formation: prefixes and suffixes, the productive patterns — `sva-grund-2/word-formation`
+15. [x] Abstract prepositions and verbs governing prepositions — `sva-grund-2/verb-preposition-government`
+16. [x] Text connectors and paragraph structure — `sva-grund-2/text-connectors`
+17. [x] The cleft construction `det är … som` — highlighting what matters — `sva-grund-2/cleft-construction`
+18. [x] Reported speech and verbs of saying: `påstår`, `menar`, `hävdar att` — `sva-grund-2/reported-speech-verbs`
+19. [x] Word order in long sentences; choosing the fundament — `sva-grund-2/long-sentence-word-order`
+20. [x] The spoken and written norms: `dem/dom`, contractions, particles — `sva-grund-2/spoken-written-norms`
 
 ## SVA grund delkurs 3
 

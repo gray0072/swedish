@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "boka-mote",
+      "sv": "boka ett möte",
+      "translations": { "ru": "записаться на встречу", "en": "to book a meeting" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja boka ett möte med hans lärare.", "ru": "Я хотел(а) бы записаться на встречу с его учителем.", "en": "I would like to book a meeting with his teacher." }
+    },
+    {
+      "id": "hur-gar-det",
+      "sv": "hur går det för honom/henne",
+      "translations": { "ru": "как у него/неё дела", "en": "how is he/she doing" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sarskilt-stod",
+      "sv": "särskilt stöd",
+      "translations": { "ru": "дополнительная (специальная) поддержка", "en": "extra support" },
+      "pos": "phrase",
+      "example": { "sv": "Finns det extra stöd att få om han har svårt med matematiken?", "ru": "Есть ли дополнительная поддержка, если у него трудности с математикой?", "en": "Is there extra support available if he's struggling with math?" }
+    },
+    {
+      "id": "elevhalsa",
+      "sv": "elevhälsa",
+      "translations": { "ru": "школьная служба здоровья и поддержки учеников", "en": "the school's student health/support service" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elevhälsa", "defSg": "elevhälsan", "indefPl": "elevhälsor", "defPl": "elevhälsorna" },
+      "example": { "sv": "Vi har kontaktat elevhälsan för att få råd.", "ru": "Мы обратились в elevhälsa за советом.", "en": "We've contacted elevhälsan for advice." }
+    },
+    {
+      "id": "mentor",
+      "sv": "mentor",
+      "translations": { "ru": "ментор (закреплённый учитель)", "en": "mentor (an assigned teacher)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mentor", "defSg": "mentorn", "indefPl": "mentorer", "defPl": "mentorerna" },
+      "example": { "sv": "Min dotters mentor svarar snabbt på mejl.", "ru": "Ментор моей дочери быстро отвечает на письма.", "en": "My daughter's mentor replies to emails quickly." }
+    },
+    {
+      "id": "svarigheter",
+      "sv": "svårigheter",
+      "translations": { "ru": "трудности", "en": "difficulties" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en svårighet", "defSg": "svårigheten", "indefPl": "svårigheter", "defPl": "svårigheterna" }
+    },
+    {
+      "id": "kontakta",
+      "sv": "kontakta",
+      "translations": { "ru": "связаться с, обратиться к", "en": "to contact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+    }
+  ]
+}

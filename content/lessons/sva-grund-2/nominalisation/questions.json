@@ -1,0 +1,81 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-nominalisation-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какой суффикс превращает «möjlig» (возможный) в существительное?", "en": "Which suffix turns \"möjlig\" (possible) into a noun?" },
+      "choices": ["-het", "-ning", "-ande", "-else"],
+      "answer": 0
+    },
+    {
+      "id": "q-nominalisation-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "От какого глагола образовано «undersökning»?", "en": "Which verb does \"undersökning\" come from?" },
+      "choices": ["undersöka", "berätta", "uppleva", "agera"],
+      "answer": 0
+    },
+    {
+      "id": "q-nominalisation-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Существует единое правило, по которому всегда можно предсказать, какой суффикс возьмёт конкретный глагол.", "en": "There is a single rule that always predicts which suffix a given verb will take." },
+      "answer": false,
+      "explanation": { "ru": "Выбор суффикса нужно запоминать по каждому слову отдельно.", "en": "The choice of suffix has to be learned word by word." }
+    },
+    {
+      "id": "q-nominalisation-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "-ning — самый продуктивный суффикс номинализации.", "en": "-ning is the most productive nominalisation suffix." },
+      "answer": true
+    },
+    {
+      "id": "q-nominalisation-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Efter ___ fattades ett beslut. (undersökning)" },
+      "answer": ["undersökningen"],
+      "acceptAlso": ["undersökning"]
+    },
+    {
+      "id": "q-nominalisation-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь глагол/прилагательное с существительным", "en": "Match the verb/adjective with the noun" },
+      "pairs": [
+        ["berätta", "berättelse"],
+        ["uppleva", "upplevelse"],
+        ["möjlig", "möjlighet"],
+        ["undersöka", "undersökning"]
+      ]
+    },
+    {
+      "id": "q-nominalisation-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое существительное относится к небольшой, часто книжной группе на -else?", "en": "Which noun belongs to the small, often literary -else group?" },
+      "choices": ["berättelse", "utbildning", "säkerhet", "agerande"],
+      "answer": 0
+    },
+    {
+      "id": "q-nominalisation-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Användande» по форме совпадает с презенс-причастием «använd­ande».", "en": "\"Användande\" is identical in shape to the present participle \"användande\"." },
+      "answer": true
+    },
+    {
+      "id": "q-nominalisation-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «После исследования было принято решение.»", "en": "Build the sentence: \"After the investigation, a decision was made.\"" },
+      "tokens": ["Efter", "undersökningen", "fattades", "ett", "beslut"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-nominalisation-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Säkerhet» образовано от какого слова?", "en": "\"Säkerhet\" is formed from which word?" },
+      "choices": ["säker (adj)", "säga (verb)", "säll (adj)"],
+      "answer": 0
+    }
+  ]
+}

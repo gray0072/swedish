@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/nominalisation",
+  "slug": "nominalisation",
+  "title": {
+    "sv": "Nominalisering: -ning, -ande, -het, -else",
+    "ru": "Номинализация: -ning, -ande, -het, -else",
+    "en": "Nominalisation: -ning, -ande, -het, -else"
+  },
+  "summary": {
+    "ru": "Как превратить глагол или прилагательное в существительное — ключ к более письменному стилю.",
+    "en": "How to turn a verb or adjective into a noun — the key to a more written style."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "word-formation", "nouns"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 980,
+  "prerequisites": ["sva-grund-1/verb-groups"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

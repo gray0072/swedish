@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "id": "bankkonto",
+      "sv": "bankkonto",
+      "translations": { "ru": "банковский счёт", "en": "bank account" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bankkonto", "defSg": "bankkontot", "indefPl": "bankkonton", "defPl": "bankkontona" },
+      "example": { "sv": "Lönen sätts in på bankkontot varje månad.", "ru": "Зарплата поступает на банковский счёт каждый месяц.", "en": "The salary is paid into the bank account every month." }
+    },
+    {
+      "id": "oppna-ett-bankkonto",
+      "sv": "öppna ett bankkonto",
+      "translations": { "ru": "открыть банковский счёт", "en": "to open a bank account" },
+      "pos": "phrase",
+      "example": { "sv": "Du behöver legitimation för att öppna ett bankkonto.", "ru": "Тебе нужно удостоверение личности, чтобы открыть банковский счёт.", "en": "You need ID to open a bank account." }
+    },
+    {
+      "id": "internetbank",
+      "sv": "internetbank",
+      "translations": { "ru": "интернет-банк", "en": "internet banking" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en internetbank", "defSg": "internetbanken", "indefPl": "internetbanker", "defPl": "internetbankerna" },
+      "example": { "sv": "Jag betalar alla räkningar via internetbanken.", "ru": "Я оплачиваю все счета через интернет-банк.", "en": "I pay all my bills through internet banking." }
+    },
+    {
+      "id": "swisha",
+      "sv": "swisha",
+      "translations": { "ru": "перевести деньги через Swish", "en": "to pay via Swish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "swisha", "present": "swishar", "past": "swishade", "supine": "swishat" },
+      "example": { "sv": "Kan du swisha mig hundra kronor?", "ru": "Можешь перевести мне сто крон через Swish?", "en": "Can you Swish me a hundred kronor?" }
+    },
+    {
+      "id": "swish",
+      "sv": "Swish",
+      "translations": { "ru": "Swish (сервис мгновенных платежей)", "en": "Swish (an instant-payment service)" },
+      "pos": "noun",
+      "example": { "sv": "De flesta svenskar betalar med Swish i vardagen.", "ru": "Большинство шведов расплачиваются через Swish в повседневной жизни.", "en": "Most Swedes pay with Swish in everyday life." }
+    },
+    {
+      "id": "e-legitimation-bank",
+      "sv": "e-legitimation",
+      "translations": { "ru": "электронное удостоверение личности", "en": "electronic ID" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-legitimation", "defSg": "e-legitimationen", "indefPl": "e-legitimationer", "defPl": "e-legitimationerna" },
+      "example": { "sv": "Du loggar in på internetbanken med din e-legitimation.", "ru": "Ты входишь в интернет-банк с помощью электронного удостоверения личности.", "en": "You log in to internet banking with your electronic ID." }
+    },
+    {
+      "id": "myndighetspost",
+      "sv": "myndighetspost",
+      "translations": { "ru": "почта от государственных органов", "en": "official (government) mail" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighetspost", "defSg": "myndighetsposten", "indefPl": "myndighetsposter", "defPl": "myndighetsposterna" },
+      "example": { "sv": "All myndighetspost samlas på ett ställe digitalt.", "ru": "Вся почта от госорганов собирается в одном месте в цифровом виде.", "en": "All official mail is collected in one place digitally." }
+    },
+    {
+      "id": "mina-meddelanden",
+      "sv": "Mina meddelanden",
+      "translations": { "ru": "«Мои сообщения» (цифровой почтовый сервис)", "en": "\"Mina meddelanden\" (a digital mail service)" },
+      "pos": "noun",
+      "example": { "sv": "Skatteverket skickar beslutet till Mina meddelanden.", "ru": "Налоговое агентство отправляет решение в «Мои сообщения».", "en": "The Tax Agency sends the decision to \"Mina meddelanden\"." }
+    },
+    {
+      "id": "kontonummer",
+      "sv": "kontonummer",
+      "translations": { "ru": "номер счёта", "en": "account number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kontonummer", "defSg": "kontonumret", "indefPl": "kontonummer", "defPl": "kontonumren" },
+      "example": { "sv": "Ange kontonummer och clearingnummer.", "ru": "Укажи номер счёта и клиринговый номер.", "en": "Enter the account number and the clearing number." }
+    },
+    {
+      "id": "clearingnummer",
+      "sv": "clearingnummer",
+      "translations": { "ru": "клиринговый номер (код банка)", "en": "clearing number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett clearingnummer", "defSg": "clearingnumret", "indefPl": "clearingnummer", "defPl": "clearingnumren" },
+      "example": { "sv": "Clearingnumret visar vilken bank kontot tillhör.", "ru": "Клиринговый номер показывает, к какому банку относится счёт.", "en": "The clearing number shows which bank the account belongs to." }
+    },
+    {
+      "id": "overforing",
+      "sv": "överföring",
+      "translations": { "ru": "перевод (денежных средств)", "en": "transfer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en överföring", "defSg": "överföringen", "indefPl": "överföringar", "defPl": "överföringarna" },
+      "example": { "sv": "Överföringen tar oftast bara några sekunder.", "ru": "Перевод обычно занимает всего несколько секунд.", "en": "The transfer usually only takes a few seconds." }
+    },
+    {
+      "id": "fora-over-pengar",
+      "sv": "föra över pengar",
+      "translations": { "ru": "переводить деньги", "en": "to transfer money" },
+      "pos": "verb",
+      "forms": { "infinitive": "föra över", "present": "för över", "past": "förde över", "supine": "fört över" },
+      "example": { "sv": "Jag förde över pengar till mitt sparkonto.", "ru": "Я перевёл деньги на свой сберегательный счёт.", "en": "I transferred money to my savings account." }
+    },
+    {
+      "id": "bankkort",
+      "sv": "bankkort",
+      "translations": { "ru": "дебетовая карта", "en": "debit card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bankkort", "defSg": "bankkortet", "indefPl": "bankkort", "defPl": "bankkorten" },
+      "example": { "sv": "Jag betalar oftast med bankkort.", "ru": "Обычно я плачу дебетовой картой.", "en": "I usually pay with a debit card." }
+    },
+    {
+      "id": "kreditkort",
+      "sv": "kreditkort",
+      "translations": { "ru": "кредитная карта", "en": "credit card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kreditkort", "defSg": "kreditkortet", "indefPl": "kreditkort", "defPl": "kreditkorten" },
+      "example": { "sv": "Hon betalade resan med kreditkort.", "ru": "Она оплатила поездку кредитной картой.", "en": "She paid for the trip with a credit card." }
+    },
+    {
+      "id": "dosa",
+      "sv": "dosa",
+      "translations": { "ru": "устройство безопасности (кодогенератор банка)", "en": "security token, card reader" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dosa", "defSg": "dosan", "indefPl": "dosor", "defPl": "dosorna" },
+      "example": { "sv": "Vissa banker kräver fortfarande en dosa för inloggning.", "ru": "Некоторые банки всё ещё требуют кодогенератор для входа.", "en": "Some banks still require a security token to log in." }
+    },
+    {
+      "id": "kundtjanst",
+      "sv": "kundtjänst",
+      "translations": { "ru": "служба поддержки клиентов", "en": "customer service" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kundtjänst", "defSg": "kundtjänsten", "indefPl": "kundtjänster", "defPl": "kundtjänsterna" },
+      "example": { "sv": "Ring bankens kundtjänst om du har frågor.", "ru": "Позвони в службу поддержки банка, если есть вопросы.", "en": "Call the bank's customer service if you have questions." }
+    },
+    {
+      "id": "bedrageri",
+      "sv": "bedrägeri",
+      "translations": { "ru": "мошенничество", "en": "fraud" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bedrägeri", "defSg": "bedrägeriet", "indefPl": "bedrägerier", "defPl": "bedrägerierna" },
+      "example": { "sv": "Var försiktig med bedrägeri via sms och telefon.", "ru": "Будь осторожен с мошенничеством через смс и звонки.", "en": "Be careful of fraud via text messages and phone calls." }
+    },
+    {
+      "id": "blockera-kortet",
+      "sv": "blockera kortet",
+      "translations": { "ru": "заблокировать карту", "en": "to block the card" },
+      "pos": "phrase",
+      "example": { "sv": "Ring banken direkt för att blockera kortet.", "ru": "Сразу позвони в банк, чтобы заблокировать карту.", "en": "Call the bank right away to block the card." }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/about-yourself",
+  "slug": "about-yourself",
+  "title": {
+    "sv": "Berätta om dig själv",
+    "ru": "Рассказ о себе: путь в Швецию, учёба, работа — связный монолог",
+    "en": "About yourself: the path to Sweden, studies, work — a connected monologue"
+  },
+  "summary": {
+    "ru": "Как связать прошлое, настоящее и будущее в один рассказ о себе с помощью слов-связок.",
+    "en": "How to link past, present and future into one connected story about yourself using linking words."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "phrases",
+    "self-presentation",
+    "connectors"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 610,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

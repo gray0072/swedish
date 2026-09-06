@@ -1,0 +1,95 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-about-yourself-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я приехал в Швецию три года назад.»", "en": "Build the sentence: \"I came to Sweden three years ago.\"" },
+      "tokens": ["Sverige", "till", "sedan", "år", "Jag", "kom", "tre"],
+      "answer": [4, 5, 1, 0, 6, 3, 2]
+    },
+    {
+      "id": "q-about-yourself-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Прямо сейчас я изучаю шведский.»", "en": "Build the sentence: \"Right now I'm studying Swedish.\"" },
+      "tokens": ["studerar", "nu", "svenska", "Just", "jag"],
+      "answer": [3, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-about-yourself-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова-связки с переводом", "en": "Match the connectors with their translation" },
+      "pairs": [
+        ["sedan dess", "с тех пор"],
+        ["numera", "в наши дни, теперь"],
+        ["just nu", "прямо сейчас"],
+        ["i framtiden", "в будущем"]
+      ]
+    },
+    {
+      "id": "q-about-yourself-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Sedan dess» обычно сочетается с перфектом (har + супин).",
+        "en": "\"Sedan dess\" is usually combined with the perfect (har + supine)."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-about-yourself-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Numera» означает то же самое, что и «för länge sedan» («давным-давно»).",
+        "en": "\"Numera\" means the same as \"för länge sedan\" (\"a long time ago\")."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Numera» значит «в наши дни, теперь» — противоположность прошлому.",
+        "en": "\"Numera\" means \"nowadays\" — the opposite of the past."
+      }
+    },
+    {
+      "id": "q-about-yourself-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag kom till Sverige ___ tre år sedan. (тому назад)" },
+      "answer": ["för"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-about-yourself-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du vill berätta att du har jobbat som lärare tidigare, men gör något annat nu. Vilket ord passar bäst?",
+        "en": "You want to say you used to work as a teacher, but do something else now. Which word fits best?"
+      },
+      "choices": ["numera", "igår", "snart", "aldrig"],
+      "answer": 0
+    },
+    {
+      "id": "q-about-yourself-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово используется, чтобы сказать о цели, которую ты преследуешь?",
+        "en": "Which word do you use to talk about a goal you're pursuing?"
+      },
+      "choices": ["mål", "kö", "kalender", "recept"],
+      "answer": 0
+    }
+  ]
+}

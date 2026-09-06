@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/pluperfect-narrative",
+  "slug": "pluperfect-narrative",
+  "title": {
+    "sv": "Pluskvamperfekt i berättelser",
+    "ru": "Плюсквамперфект и порядок событий в рассказе",
+    "en": "The pluperfect and the order of events in a narrative"
+  },
+  "summary": {
+    "ru": "Как сказать «а до этого уже случилось кое-что другое», не запутав слушателя.",
+    "en": "How to say \"but before that, something else had already happened\" without losing your listener."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "tenses",
+    "narrative"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 880,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

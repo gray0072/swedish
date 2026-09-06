@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/forms-questionnaires",
+  "slug": "forms-questionnaires",
+  "title": {
+    "sv": "Blanketter och enkäter",
+    "ru": "Заполнение бланков и анкет: понимание формулировок",
+    "en": "Filling in forms and questionnaires: understanding the wording"
+  },
+  "summary": {
+    "ru": "Слова, которые встречаются на бланках и в анкетах: обязательное поле, галочка, приложить документ, подписать, дата и место.",
+    "en": "The words that show up on forms and questionnaires: mandatory field, ticking a box, attaching a document, signing, date and place."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "forms",
+    "bureaucracy",
+    "vocab",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 720,
+  "prerequisites": [
+    "sfi-d/authorities"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

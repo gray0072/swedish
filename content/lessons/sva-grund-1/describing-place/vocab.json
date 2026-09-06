@@ -1,0 +1,141 @@
+{
+  "items": [
+    {
+      "id": "belagen",
+      "sv": "belägen",
+      "translations": { "ru": "расположенный", "en": "situated, located" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: beläget, мн.ч.: belägna", "en": "ett-form: beläget, plural: belägna" },
+      "example": { "sv": "Lägenheten är belägen nära centrum.", "ru": "Квартира расположена рядом с центром.", "en": "The flat is located close to the centre." }
+    },
+    {
+      "id": "central",
+      "sv": "central",
+      "translations": { "ru": "центральный", "en": "central" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: centralt, мн.ч.: centrala", "en": "ett-form: centralt, plural: centrala" },
+      "example": { "sv": "Området ligger centralt.", "ru": "Район расположен в центре.", "en": "The area is centrally located." }
+    },
+    {
+      "id": "lugn-plats",
+      "sv": "lugn",
+      "translations": { "ru": "тихий, спокойный", "en": "quiet, calm" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lugnt, мн.ч.: lugna", "en": "ett-form: lugnt, plural: lugna" },
+      "example": { "sv": "Gatan är lugn på kvällarna.", "ru": "Улица тихая по вечерам.", "en": "The street is quiet in the evenings." }
+    },
+    {
+      "id": "barnvanlig",
+      "sv": "barnvänlig",
+      "translations": { "ru": "удобный для детей", "en": "child-friendly" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: barnvänligt, мн.ч.: barnvänliga", "en": "ett-form: barnvänligt, plural: barnvänliga" },
+      "example": { "sv": "Parken är barnvänlig med lekplatser.", "ru": "Парк удобен для детей — там есть площадки.", "en": "The park is child-friendly, with playgrounds." }
+    },
+    {
+      "id": "trygg",
+      "sv": "trygg",
+      "translations": { "ru": "безопасный", "en": "safe" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tryggt, мн.ч.: trygga", "en": "ett-form: tryggt, plural: trygga" },
+      "example": { "sv": "Området känns tryggt på kvällen.", "ru": "Район кажется безопасным вечером.", "en": "The area feels safe in the evening." }
+    },
+    {
+      "id": "bekvam",
+      "sv": "bekväm",
+      "translations": { "ru": "удобный", "en": "convenient, comfortable" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: bekvämt, мн.ч.: bekväma", "en": "ett-form: bekvämt, plural: bekväma" },
+      "example": { "sv": "Det är bekvämt att bo nära stationen.", "ru": "Удобно жить рядом со станцией.", "en": "It's convenient to live close to the station." }
+    },
+    {
+      "id": "gronomrade",
+      "sv": "grönområde",
+      "translations": { "ru": "зелёная зона", "en": "green area, park area" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett grönområde", "defSg": "grönområdet", "indefPl": "grönområden", "defPl": "grönområdena" },
+      "example": { "sv": "Nära huset finns ett stort grönområde.", "ru": "Рядом с домом есть большая зелёная зона.", "en": "There is a large green area near the house." }
+    },
+    {
+      "id": "kommunikation",
+      "sv": "kommunikation",
+      "translations": { "ru": "сообщение, связь (обычно во мн.ч. — транспортное сообщение)", "en": "connection (often plural: transport connections)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommunikation", "defSg": "kommunikationen", "indefPl": "kommunikationer", "defPl": "kommunikationerna" },
+      "example": { "sv": "Det är bra kommunikationer till centrum.", "ru": "Сюда хорошее транспортное сообщение с центром.", "en": "There are good transport connections to the centre." }
+    },
+    {
+      "id": "omrade",
+      "sv": "område",
+      "translations": { "ru": "район, зона", "en": "area, neighbourhood" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett område", "defSg": "området", "indefPl": "områden", "defPl": "områdena" },
+      "example": { "sv": "Vilket område bor du i?", "ru": "В каком районе ты живёшь?", "en": "Which area do you live in?" }
+    },
+    {
+      "id": "stadsdel",
+      "sv": "stadsdel",
+      "translations": { "ru": "район города", "en": "district, city area" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stadsdel", "defSg": "stadsdelen", "indefPl": "stadsdelar", "defPl": "stadsdelarna" },
+      "example": { "sv": "Södermalm är en känd stadsdel i Stockholm.", "ru": "Сёдермальм — известный район Стокгольма.", "en": "Södermalm is a well-known district in Stockholm." }
+    },
+    {
+      "id": "granne",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbour" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
+      "example": { "sv": "Mina grannar är trevliga.", "ru": "Мои соседи приятные.", "en": "My neighbours are nice." }
+    },
+    {
+      "id": "utsikt",
+      "sv": "utsikt",
+      "translations": { "ru": "вид (из окна)", "en": "view" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utsikt", "defSg": "utsikten", "indefPl": "utsikter", "defPl": "utsikterna" },
+      "example": { "sv": "Lägenheten har fin utsikt över sjön.", "ru": "Из квартиры красивый вид на озеро.", "en": "The flat has a lovely view of the lake." }
+    },
+    {
+      "id": "avstand",
+      "sv": "avstånd",
+      "translations": { "ru": "расстояние", "en": "distance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett avstånd", "defSg": "avståndet", "indefPl": "avstånd", "defPl": "avstånden" },
+      "example": { "sv": "Avståndet till jobbet är kort.", "ru": "Расстояние до работы небольшое.", "en": "The distance to work is short." }
+    },
+    {
+      "id": "pendla",
+      "sv": "pendla",
+      "translations": { "ru": "ездить на работу (регулярно)", "en": "to commute" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "pendla", "present": "pendlar", "past": "pendlade", "supine": "pendlat" },
+      "example": { "sv": "Jag pendlar till jobbet varje dag.", "ru": "Я каждый день езжу на работу.", "en": "I commute to work every day." }
+    },
+    {
+      "id": "hyra-plats",
+      "sv": "hyra",
+      "translations": { "ru": "квартплата, аренда", "en": "rent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" },
+      "example": { "sv": "Hyran är hög i den här stadsdelen.", "ru": "Квартплата высокая в этом районе.", "en": "The rent is high in this district." }
+    },
+    {
+      "id": "trafik",
+      "sv": "trafik",
+      "translations": { "ru": "движение, трафик", "en": "traffic" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det är mycket trafik på morgonen.", "ru": "Утром на дорогах много машин.", "en": "There's a lot of traffic in the morning." }
+    }
+  ]
+}

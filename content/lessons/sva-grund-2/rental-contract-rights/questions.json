@@ -1,0 +1,143 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-rental-contract-rights-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Арендодатель отвечает за содержание дома.»", "en": "Build the sentence: \"The landlord is responsible for maintaining the property.\"" },
+      "tokens": ["fastighetens", "ansvarar", "skötsel", "Hyresvärden", "för"],
+      "answer": [3, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-rental-contract-rights-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Уведомление о расторжении должно быть в письменной форме.»", "en": "Build the sentence: \"The termination must be in writing.\"" },
+      "tokens": ["vara", "måste", "skriftlig", "Uppsägningen"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-rental-contract-rights-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["hyresvärd", "арендодатель"],
+        ["hyresgäst", "наниматель"],
+        ["besittningsskydd", "защита от выселения"],
+        ["vräkning", "выселение"]
+      ]
+    },
+    {
+      "id": "q-rental-contract-rights-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["underhållsskyldighet", "обязанность по содержанию"],
+        ["ordningsregel", "правило проживания"],
+        ["hyresgästförening", "союз нанимателей"],
+        ["skälig hyra", "разумная арендная плата"]
+      ]
+    },
+    {
+      "id": "q-rental-contract-rights-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Besittningsskydd» защищает нанимателя от произвольного выселения.", "en": "\"Besittningsskydd\" protects the tenant from arbitrary eviction." },
+      "answer": true
+    },
+    {
+      "id": "q-rental-contract-rights-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Underhållsskyldighet» — это обязанность нанимателя платить арендную плату вовремя.", "en": "\"Underhållsskyldighet\" is the tenant's duty to pay rent on time." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Underhållsskyldighet» — это обязанность (обычно арендодателя) содержать жильё в исправном состоянии, а не платить аренду.",
+        "en": "\"Underhållsskyldighet\" is the duty (usually the landlord's) to keep the property in good condition, not to pay rent."
+      }
+    },
+    {
+      "id": "q-rental-contract-rights-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Förverkande» означает, что наниматель теряет право на жильё за грубое нарушение договора.", "en": "\"Förverkande\" means the tenant loses the right to the tenancy for a serious breach of contract." },
+      "answer": true
+    },
+    {
+      "id": "q-rental-contract-rights-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Grannarna anmälde upprepade ___. (нарушения спокойствия)" },
+      "answer": ["störningar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-rental-contract-rights-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du har rätt att betala en ___ hyra. (разумную)" },
+      "answer": ["skälig"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-rental-contract-rights-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Anmäl felet så bokar hyresvärden en ___. (ремонт)" },
+      "answer": ["reparation"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-rental-contract-rights-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твой сосед много лет не платит за квартиру. Что может сделать арендодатель?",
+        "en": "Your neighbour hasn't paid rent for months. What can the landlord do?"
+      },
+      "choices": ["Kräva förverkande av kontraktet", "Höja grannens lön", "Byta bostadsrätt mot hyresrätt", "Ringa Hyresnämnden för att fira"],
+      "answer": 0
+    },
+    {
+      "id": "q-rental-contract-rights-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто в первую очередь отвечает за плановый ремонт (renovering) в доме?",
+        "en": "Who is primarily responsible for planned renovations in the building?"
+      },
+      "choices": ["Hyresvärden", "Hyresgästen", "Grannen", "Kronofogden"],
+      "answer": 0
+    },
+    {
+      "id": "q-rental-contract-rights-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Куда наниматель может обратиться за помощью в переговорах об арендной плате?",
+        "en": "Where can a tenant turn for help negotiating the rent?"
+      },
+      "choices": ["Till Hyresgästföreningen", "Till Skatteverket", "Till Försäkringskassan", "Till rektorn"],
+      "answer": 0
+    },
+    {
+      "id": "q-rental-contract-rights-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Правила проживания вывешены в подъезде.»", "en": "Translate to Swedish: \"The house rules are posted in the stairwell.\"" },
+      "answer": ["Ordningsreglerna sitter uppsatta i trapphuset."],
+      "hint": { "ru": "Используй слово «ordningsregler».", "en": "Use the word \"ordningsregler\"." }
+    }
+  ]
+}

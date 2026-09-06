@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-1/describing-person",
+  "slug": "describing-person",
+  "title": {
+    "sv": "Att beskriva en person: utseende och karaktär",
+    "ru": "Описание человека: внешность и характер",
+    "en": "Describing a person: appearance and character"
+  },
+  "summary": {
+    "ru": "Прилагательные для внешности и характера — с учётом сильного и слабого склонения.",
+    "en": "Adjectives for appearance and character — with the correct strong/weak declension."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "people",
+    "appearance",
+    "character",
+    "adjectives"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 660,
+  "prerequisites": [
+    "sva-grund-1/adjective-declension"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

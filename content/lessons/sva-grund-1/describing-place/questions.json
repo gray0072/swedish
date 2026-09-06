@@ -1,0 +1,77 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-place-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Район тихий и удобный для детей.»", "en": "Build the sentence: \"The area is quiet and child-friendly.\"" },
+      "tokens": ["barnvänligt", "är", "lugnt", "och", "Området"],
+      "answer": [4, 1, 2, 3, 0]
+    },
+    {
+      "id": "q-place-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["grönområde", "зелёная зона"],
+        ["granne", "сосед"],
+        ["utsikt", "вид"],
+        ["stadsdel", "район города"]
+      ]
+    },
+    {
+      "id": "q-place-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «kommunikationer» обычно используется в единственном числе.",
+        "en": "The word \"kommunikationer\" is usually used in the singular."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "В значении «транспортное сообщение» слово почти всегда употребляется во множественном числе: bra kommunikationer.",
+        "en": "In the sense of \"transport connections,\" the word is almost always used in the plural: bra kommunikationer."
+      }
+    },
+    {
+      "id": "q-place-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Lägenheten är ___ nära centrum. (расположена)" },
+      "answer": ["belägen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-place-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое из этих слов точно означает зелёную зону рядом с домом?",
+        "en": "Which of these words specifically means a green area near a home?"
+      },
+      "choices": ["grönområde", "garage", "källare", "balkong"],
+      "answer": 0
+    },
+    {
+      "id": "q-place-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Anna vill inte pendla långt till jobbet. Vad är viktigt för henne när hon väljer lägenhet?",
+        "en": "Anna doesn't want a long commute to work. What matters most when she chooses a flat?"
+      },
+      "choices": ["kort avstånd till jobbet", "hög hyra", "mycket trafik", "dålig utsikt"],
+      "answer": 0
+    }
+  ]
+}

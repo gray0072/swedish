@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/personal-experience-story",
+  "slug": "personal-experience-story",
+  "title": {
+    "sv": "Berätta om en betydelsefull upplevelse",
+    "ru": "Личный опыт: рассказ о значимом событии",
+    "en": "Personal experience: telling the story of a significant event"
+  },
+  "summary": {
+    "ru": "Фразы для рассказа о значимом личном событии: не только события, но и их влияние и осмысление.",
+    "en": "Phrases for telling the story of a significant personal event: not just what happened, but its impact and meaning."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "phrases",
+    "narrative",
+    "personal-experience",
+    "reflection"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1270,
+  "prerequisites": [
+    "sva-grund-1/past-narrative"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

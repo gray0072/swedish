@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-employer-talk-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хотел(а) бы взять отгул.»", "en": "Build the sentence: \"I would like to take time off.\"" },
+      "tokens": ["vilja", "ledigt", "Jag", "skulle", "ta"],
+      "answer": [2, 3, 0, 4, 1]
+    },
+    {
+      "id": "q-employer-talk-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Могу я поменяться сменами с тобой?»", "en": "Build the question: \"Can I swap shifts with you?\"" },
+      "tokens": ["med", "byta", "dig?", "Kan", "pass", "jag"],
+      "answer": [3, 5, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-employer-talk-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["semester", "отпуск"],
+        ["sjukskriven", "на больничном"],
+        ["schema", "график"],
+        ["kollega", "коллега"]
+      ]
+    },
+    {
+      "id": "q-employer-talk-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«VAB» означает, что человек взял обычный отпуск, а не сидит с больным ребёнком.", "en": "\"VAB\" means the person took regular vacation, not time off to care for a sick child." },
+      "answer": false,
+      "explanation": {
+        "ru": "«VAB» (vård av barn) — это пособие и дни, когда родитель остаётся дома именно с заболевшим ребёнком.",
+        "en": "\"VAB\" (vård av barn) is the benefit for staying home specifically to care for a sick child."
+      }
+    },
+    {
+      "id": "q-employer-talk-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Можно использовать глагол «vabba», говоря, что сидишь дома с заболевшим ребёнком.", "en": "You can use the verb \"vabba\" to say you're staying home with a sick child." },
+      "answer": true
+    },
+    {
+      "id": "q-employer-talk-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag är ___ till fredag. (на больничном)" },
+      "answer": ["sjukskriven"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-employer-talk-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan vi ändra ___? (график)" },
+      "answer": ["schemat"],
+      "acceptAlso": ["schema"]
+    },
+    {
+      "id": "q-employer-talk-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Твой ребёнок заболел, и тебе нужно остаться дома. Что ты скажешь работодателю?",
+        "en": "Your child is sick and you need to stay home. What do you tell your employer?"
+      },
+      "choices": ["Jag tar VAB idag", "Jag tar semester idag", "Jag är sjukskriven idag", "Jag byter pass idag"],
+      "answer": 0
+    },
+    {
+      "id": "q-employer-talk-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь работать в субботу вместо пятницы. Что логично сказать коллеге?",
+        "en": "You want to work Saturday instead of Friday. What's the natural thing to say to a colleague?"
+      },
+      "choices": ["Kan jag byta pass med dig?", "Jag är sjukskriven", "Jag tar semester", "Jag vabbar imorgon"],
+      "answer": 0
+    }
+  ]
+}

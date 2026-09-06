@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/reported-speech-verbs",
+  "slug": "reported-speech-verbs",
+  "title": {
+    "sv": "Rapporterande verb: \"påstår\", \"menar\", \"hävdar att\"",
+    "ru": "Косвенная речь и глаголы речи: «påstår», «menar», «hävdar att»",
+    "en": "Reported speech and verbs of saying: \"påstår\", \"menar\", \"hävdar att\""
+  },
+  "summary": {
+    "ru": "Påstå, mena, hävda, tycka — каждый глагол речи добавляет свой оттенок отношения к пересказываемым словам.",
+    "en": "Påstå, mena, hävda, tycka — each verb of saying adds its own shade of stance toward the words being reported."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "reported-speech",
+    "verbs",
+    "biff",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1030,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

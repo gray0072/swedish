@@ -1,0 +1,124 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-ecology-recycling-debate-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «С одной стороны, сортировка мусора полезна для окружающей среды.»", "en": "Build the sentence: \"On the one hand, sorting waste is good for the environment.\"" },
+      "tokens": ["källsortering", "sidan", "för", "är", "miljön", "ena", "bra", "Å"],
+      "answer": [7, 5, 1, 3, 0, 6, 2, 4]
+    },
+    {
+      "id": "q-ecology-recycling-debate-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Один аргумент за — это то, что залог даёт людям повод перерабатывать.»", "en": "Build the sentence: \"One argument for is that the deposit gives people a reason to recycle.\"" },
+      "tokens": ["pant", "en", "att", "återvinna", "är", "anledning", "argument", "ger", "för", "folk", "ett", "att"],
+      "answer": [10, 6, 8, 4, 2, 0, 7, 9, 1, 5, 11, 3]
+    },
+    {
+      "id": "q-ecology-recycling-debate-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["återvinning", "переработка"],
+        ["källsortering", "сортировка мусора"],
+        ["pant", "залог"],
+        ["kompost", "компост"]
+      ]
+    },
+    {
+      "id": "q-ecology-recycling-debate-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразы с переводом", "en": "Match the phrases with their translation" },
+      "pairs": [
+        ["å ena sidan", "с одной стороны"],
+        ["å andra sidan", "с другой стороны"],
+        ["men samtidigt", "но в то же время"],
+        ["man skulle kunna invända att", "можно было бы возразить, что"]
+      ]
+    },
+    {
+      "id": "q-ecology-recycling-debate-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Pant» — это залог, который возвращают за сдачу банок и бутылок.", "en": "\"Pant\" is the deposit refunded for returning cans and bottles." },
+      "answer": true
+    },
+    {
+      "id": "q-ecology-recycling-debate-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ett argument emot är att...» используется, чтобы привести аргумент в пользу идеи.", "en": "\"Ett argument emot är att...\" is used to give an argument in favor of an idea." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Emot» значит «против» — эта фраза вводит аргумент против, а не за.",
+        "en": "\"Emot\" means \"against\" — this phrase introduces an argument against, not for."
+      }
+    },
+    {
+      "id": "q-ecology-recycling-debate-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kompost» — это способ переработки органических отходов.", "en": "\"Kompost\" is a way of processing organic waste." },
+      "answer": true
+    },
+    {
+      "id": "q-ecology-recycling-debate-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Å ena sidan är källsortering bra för miljön, men ___ tar det tid att göra rätt. (с другой стороны)" },
+      "answer": ["å andra sidan"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-ecology-recycling-debate-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь возразить на чужой аргумент. С чего начнёшь фразу?",
+        "en": "You want to object to someone's argument. How do you start the sentence?"
+      },
+      "choices": [
+        "Man skulle kunna invända att...",
+        "Enligt mig...",
+        "Till exempel...",
+        "Jag håller med."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-ecology-recycling-debate-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово обозначает пункт приёма вторсырья?",
+        "en": "Which word means a recycling station?"
+      },
+      "choices": ["återvinningsstation", "kompost", "avfall", "utsläpp"],
+      "answer": 0
+    },
+    {
+      "id": "q-ecology-recycling-debate-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Как правильно закончить: «Jag tycker att systemet med pant är ganska smart, ___ det kostar pengar att bygga fler stationer.»",
+        "en": "How do you correctly finish: \"Jag tycker att systemet med pant är ganska smart, ___ det kostar pengar att bygga fler stationer.\""
+      },
+      "choices": ["men samtidigt", "till exempel", "enligt mig", "å ena sidan"],
+      "answer": 0
+    }
+  ]
+}

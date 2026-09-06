@@ -1,0 +1,35 @@
+{
+  "id": "sva-grund-1/personal-letter",
+  "slug": "personal-letter",
+  "title": {
+    "sv": "Personligt brev och meddelande",
+    "ru": "Личное письмо и сообщение: структура и вежливые формулы",
+    "en": "A personal letter and a message: structure and polite formulas"
+  },
+  "summary": {
+    "ru": "Приветствия, прощания и формулы личного письма (Hej!, Kära..., Kram) в сравнении с коротким неформальным сообщением.",
+    "en": "Salutations, closings and formulas for a personal letter (Hej!, Kära..., Kram), contrasted with a short informal text message."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "letter",
+    "messaging",
+    "phrases",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 710,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

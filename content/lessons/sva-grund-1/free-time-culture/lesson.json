@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/free-time-culture",
+  "slug": "free-time-culture",
+  "title": {
+    "sv": "Fritid och kultur: berätta om en film eller bok",
+    "ru": "Свободное время и культура: рассказ о фильме или книге",
+    "en": "Free time and culture: talking about a film or a book"
+  },
+  "summary": {
+    "ru": "Фразы, чтобы рассказать о фильме или книге: сюжет, жанр, рекомендация, впечатление.",
+    "en": "Phrases for talking about a film or a book: the plot, genre, a recommendation, your impression."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "culture",
+    "free-time",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 830,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

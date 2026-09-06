@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "som-cleft",
+      "sv": "som",
+      "translations": { "ru": "который; (в клефте) служебное слово", "en": "that/who/which; (in a cleft) the fixed linking word" },
+      "pos": "pron",
+      "example": { "sv": "Det är Anna som lagar mat.", "ru": "Это Анна готовит еду.", "en": "It's Anna who's cooking." }
+    },
+    {
+      "id": "laga",
+      "sv": "laga",
+      "translations": { "ru": "готовить (еду)", "en": "to cook (food)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" },
+      "example": { "sv": "Anna lagar mat.", "ru": "Анна готовит еду.", "en": "Anna cooks food." }
+    },
+    {
+      "id": "lasa-cleft",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Erik läser tidningen.", "ru": "Эрик читает газету.", "en": "Erik is reading the newspaper." }
+    },
+    {
+      "id": "tidning",
+      "sv": "tidning",
+      "translations": { "ru": "газета", "en": "newspaper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" }
+    },
+    {
+      "id": "bok-cleft",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" }
+    },
+    {
+      "id": "betona",
+      "sv": "betona",
+      "translations": { "ru": "подчёркивать, акцентировать", "en": "to emphasize, stress" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+    },
+    {
+      "id": "viktig",
+      "sv": "viktig",
+      "translations": { "ru": "важный", "en": "important" },
+      "pos": "adj"
+    },
+    {
+      "id": "betoning",
+      "sv": "betoning",
+      "translations": { "ru": "ударение, выделение", "en": "emphasis, stress" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "betoning", "defSg": "betoningen", "indefPl": "betoningar", "defPl": "betoningarna" }
+    },
+    {
+      "id": "igar-cleft",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv"
+    },
+    {
+      "id": "utan",
+      "sv": "utan",
+      "translations": { "ru": "а (в противопоставлении после отрицания)", "en": "but (contrastive, after a negation)" },
+      "pos": "conjunction",
+      "example": { "sv": "Det är inte Anna som lagar mat, utan Erik.", "ru": "Еду готовит не Анна, а Эрик.", "en": "It's not Anna who's cooking, but Erik." }
+    },
+    {
+      "id": "anta",
+      "sv": "anta",
+      "translations": { "ru": "предполагать", "en": "to assume" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" }
+    },
+    {
+      "id": "antagande",
+      "sv": "antagande",
+      "translations": { "ru": "предположение", "en": "assumption" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "antagande", "defSg": "antagandet", "indefPl": "antaganden", "defPl": "antagandena" }
+    }
+  ]
+}

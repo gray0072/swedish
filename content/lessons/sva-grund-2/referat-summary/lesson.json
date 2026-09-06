@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-2/referat-summary",
+  "slug": "referat-summary",
+  "title": {
+    "sv": "Referat: att sammanfatta en text",
+    "ru": "Пересказ и краткое изложение (referat)",
+    "en": "Retelling and summarising (referat)"
+  },
+  "summary": {
+    "ru": "Нейтральные фразы для письменного referat — краткого изложения чужого текста от третьего лица: Artikeln handlar om..., Författaren menar att..., Enligt texten..., без личного мнения.",
+    "en": "Neutral third-person phrases for a written referat — summarising someone else's text: Artikeln handlar om..., Författaren menar att..., Enligt texten..., without personal opinion."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "referat",
+    "summary",
+    "writing",
+    "phrases",
+    "formal"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1210,
+  "prerequisites": [
+    "sva-grund-1/reading-retelling"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

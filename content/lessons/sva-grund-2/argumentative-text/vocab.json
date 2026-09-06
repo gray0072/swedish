@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "jag-anser-att",
+      "sv": "jag anser att",
+      "translations": { "ru": "я считаю, что", "en": "I believe that" },
+      "pos": "phrase",
+      "example": { "sv": "Jag anser att skolan bör börja senare.", "ru": "Я считаю, что школа должна начинаться позже.", "en": "I believe school should start later." }
+    },
+    {
+      "id": "for-det-forsta",
+      "sv": "för det första",
+      "translations": { "ru": "во-первых", "en": "first, firstly" },
+      "pos": "phrase"
+    },
+    {
+      "id": "for-det-andra",
+      "sv": "för det andra",
+      "translations": { "ru": "во-вторых", "en": "second, secondly" },
+      "pos": "phrase"
+    },
+    {
+      "id": "visserligen",
+      "sv": "visserligen",
+      "translations": { "ru": "правда, конечно (уступка)", "en": "admittedly (a concession)" },
+      "pos": "adv",
+      "example": { "sv": "Visserligen skulle scheman bli svårare att planera, men fördelarna väger tyngre.", "ru": "Правда, расписание было бы сложнее планировать, но преимущества перевешивают.", "en": "Admittedly, schedules would become harder to plan, but the advantages outweigh that." }
+    },
+    {
+      "id": "vaga-tyngre",
+      "sv": "väga tyngre",
+      "translations": { "ru": "перевешивать (о значимости)", "en": "to outweigh, to carry more weight" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sammanfattningsvis",
+      "sv": "sammanfattningsvis",
+      "translations": { "ru": "в итоге, подводя итог", "en": "in summary, to sum up" },
+      "pos": "adv",
+      "example": { "sv": "Sammanfattningsvis är det värt att pröva en senare skolstart.", "ru": "В итоге стоит попробовать более позднее начало занятий.", "en": "In summary, it's worth trying a later school start." }
+    },
+    {
+      "id": "argument",
+      "sv": "argument",
+      "translations": { "ru": "аргумент", "en": "argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" }
+    },
+    {
+      "id": "tes",
+      "sv": "tes",
+      "translations": { "ru": "тезис", "en": "thesis" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" }
+    },
+    {
+      "id": "motargument",
+      "sv": "motargument",
+      "translations": { "ru": "контраргумент", "en": "counter-argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/holidays-culture-comparison",
+  "slug": "holidays-culture-comparison",
+  "title": {
+    "sv": "Högtider och traditioner: jämföra kulturer",
+    "ru": "Праздники и традиции: сравнение культур",
+    "en": "Holidays and traditions: comparing cultures"
+  },
+  "summary": {
+    "ru": "Фразы для сравнения, а не только описания: чем шведский праздник похож и чем отличается от твоего.",
+    "en": "Phrases for comparing, not just describing: how a Swedish holiday resembles and differs from your own."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-2"],
+  "tags": ["vocab", "culture", "comparison"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1240,
+  "prerequisites": ["sva-grund-1/holidays-traditions"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

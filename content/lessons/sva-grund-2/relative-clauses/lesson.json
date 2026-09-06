@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/relative-clauses",
+  "slug": "relative-clauses",
+  "title": {
+    "sv": "Relativsatser: som, vars, där, dit, vilket",
+    "ru": "Относительные придаточные: som, vars, där, dit, vilket",
+    "en": "Relative clauses: som, vars, där, dit, vilket"
+  },
+  "summary": {
+    "ru": "Пять слов, вводящих relativsats — «который», «чей», «где», «куда» и «что» (обо всей мысли) — и BIFF внутри них.",
+    "en": "Five words that introduce a relativsats — \"who/which\", \"whose\", \"where\" (static and motion) and \"which\" (referring to a whole idea) — and BIFF inside them."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "grammar",
+    "relative-clause",
+    "syntax",
+    "biff"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 920,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

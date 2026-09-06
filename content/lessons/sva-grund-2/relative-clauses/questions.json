@@ -1,0 +1,192 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-relative-clauses-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Выбери слово: «Mannen ___ bor här är lärare.» («Мужчина, который живёт здесь, — учитель.»)",
+        "en": "Choose the word: \"Mannen ___ bor här är lärare.\" (\"The man who lives here is a teacher.\")"
+      },
+      "choices": ["som", "vars", "där", "vilket"],
+      "answer": 0
+    },
+    {
+      "id": "q-relative-clauses-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери слово: «Staden ___ jag bor är vacker.» («Город, где я живу, красивый.»)",
+        "en": "Choose the word: \"Staden ___ jag bor är vacker.\" (\"The city where I live is beautiful.\")"
+      },
+      "choices": ["där", "dit", "som", "vars"],
+      "answer": 0
+    },
+    {
+      "id": "q-relative-clauses-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери слово: «Staden ___ jag reste var vacker.» («Город, куда я поехал, был красивый.»)",
+        "en": "Choose the word: \"Staden ___ jag reste var vacker.\" (\"The city I traveled to was beautiful.\")"
+      },
+      "choices": ["dit", "där", "som", "vilket"],
+      "answer": 0,
+      "explanation": {
+        "ru": "«reste» — глагол движения, поэтому нужно «dit» (направление), а не «där» (место).",
+        "en": "\"reste\" is a verb of motion, so \"dit\" (direction) is needed, not \"där\" (location)."
+      }
+    },
+    {
+      "id": "q-relative-clauses-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери слово: «Kvinnan ___ bil blev stulen var arg.» («Женщина, чья машина была украдена, была зла.»)",
+        "en": "Choose the word: \"Kvinnan ___ bil blev stulen var arg.\" (\"The woman whose car was stolen was angry.\")"
+      },
+      "choices": ["vars", "som", "vilket", "där"],
+      "answer": 0
+    },
+    {
+      "id": "q-relative-clauses-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Выбери слово: «Han kom för sent, ___ gjorde henne arg.» («Он опоздал, что разозлило её.»)",
+        "en": "Choose the word: \"Han kom för sent, ___ gjorde henne arg.\" (\"He came too late, which made her angry.\")"
+      },
+      "choices": ["vilket", "som", "vars", "där"],
+      "answer": 0,
+      "explanation": {
+        "ru": "«vilket» относится не к одному существительному, а ко всей предыдущей мысли «han kom för sent».",
+        "en": "\"vilket\" doesn't refer to a single noun but to the whole preceding idea, \"han kom för sent\"."
+      }
+    },
+    {
+      "id": "q-relative-clauses-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": {
+        "sv": "Mannen ___ bor här är lärare.",
+        "ru": "Заполни относительное слово «который».",
+        "en": "Fill in the relative word \"who\"."
+      },
+      "answer": ["som"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-relative-clauses-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Kvinnan ___ bil blev stulen var arg.",
+        "ru": "Заполни относительное слово «чья».",
+        "en": "Fill in the relative word \"whose\"."
+      },
+      "answer": ["vars"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-relative-clauses-gap-3",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": {
+        "sv": "Mannen som ___ bor här är lärare.",
+        "ru": "Заполни отрицание внутри relativsats (BIFF): «который не живёт здесь».",
+        "en": "Fill in the negation inside the relativsats (BIFF): \"who doesn't live here\"."
+      },
+      "answer": ["inte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-relative-clauses-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Книга, которую я читаю, хорошая.»",
+        "en": "Build the sentence: \"The book that I'm reading is good.\""
+      },
+      "tokens": ["bra", "är", "läser", "jag", "som", "Boken"],
+      "answer": [5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-relative-clauses-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Собери предложение: «Город, где я живу, красивый.»",
+        "en": "Build the sentence: \"The city where I live is beautiful.\""
+      },
+      "tokens": ["vacker", "är", "bor", "jag", "där", "Staden"],
+      "answer": [5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-relative-clauses-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Собери предложение с BIFF: «Мужчина, который не живёт здесь, — учитель.»",
+        "en": "Build the sentence with BIFF: \"The man who doesn't live here is a teacher.\""
+      },
+      "tokens": ["lärare", "är", "här", "bor", "inte", "som", "Mannen"],
+      "answer": [6, 5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-relative-clauses-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«som» изменяется по роду и числу в зависимости от существительного, к которому относится.",
+        "en": "\"som\" changes form depending on the gender and number of the noun it refers to."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Нет: «som» не изменяется никогда — это одна из самых удобных черт шведской грамматики.",
+        "en": "No: \"som\" never changes form — one of the more convenient facts about Swedish grammar."
+      }
+    },
+    {
+      "id": "q-relative-clauses-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«vilket» может относиться ко всему предыдущему предложению, а не только к одному существительному.",
+        "en": "\"vilket\" can refer to the entire preceding clause, not just to a single noun."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-relative-clauses-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«där» используется для направления движения, а «dit» — для места действия.",
+        "en": "\"där\" is used for the direction of motion, and \"dit\" for the location of an action."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот: «där» — место (статика), «dit» — направление (движение).",
+        "en": "The other way round: \"där\" is location (static), \"dit\" is direction (motion)."
+      }
+    },
+    {
+      "id": "q-relative-clauses-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь относительное слово с его значением", "en": "Match the relative word with its meaning" },
+      "pairs": [
+        ["som", "который (универсальное)"],
+        ["vars", "чей"],
+        ["där", "где (место)"],
+        ["dit", "куда (направление)"],
+        ["vilket", "что (весь bisats)"]
+      ]
+    }
+  ]
+}

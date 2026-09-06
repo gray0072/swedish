@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "allemansratten",
+      "sv": "allemansrätten",
+      "translations": { "ru": "право каждого (на доступ к природе)", "en": "the right of public access" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Allemansrätten ger alla rätt att vistas i naturen.", "ru": "Allemansrätten даёт каждому право находиться на природе.", "en": "Allemansrätten gives everyone the right to be out in nature." }
+    },
+    {
+      "id": "skog",
+      "sv": "skog",
+      "translations": { "ru": "лес", "en": "forest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skog", "defSg": "skogen", "indefPl": "skogar", "defPl": "skogarna" },
+      "example": { "sv": "Vi kan vandra i skogen så mycket vi vill.", "ru": "Мы можем сколько угодно ходить в поход по лесу.", "en": "We can hike in the forest as much as we want." }
+    },
+    {
+      "id": "sjo",
+      "sv": "sjö",
+      "translations": { "ru": "озеро", "en": "lake" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" },
+      "example": { "sv": "Man får bada i nästan vilken sjö som helst.", "ru": "Купаться можно почти в любом озере.", "en": "You may swim in almost any lake." }
+    },
+    {
+      "id": "vandra",
+      "sv": "vandra",
+      "translations": { "ru": "ходить в поход, бродить", "en": "to hike" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vandra", "present": "vandrar", "past": "vandrade", "supine": "vandrat" },
+      "example": { "sv": "Vi vandrade genom skogen hela dagen.", "ru": "Мы весь день бродили по лесу.", "en": "We hiked through the forest all day." }
+    },
+    {
+      "id": "talta",
+      "sv": "tälta",
+      "translations": { "ru": "ставить палатку, ночевать в палатке", "en": "to camp, to pitch a tent" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tälta", "present": "tältar", "past": "tältade", "supine": "tältat" },
+      "example": { "sv": "Får man tälta här en natt?", "ru": "Здесь можно поставить палатку на одну ночь?", "en": "Can you pitch a tent here for one night?" }
+    },
+    {
+      "id": "plocka",
+      "sv": "plocka",
+      "translations": { "ru": "собирать (ягоды, грибы, цветы)", "en": "to pick (berries, mushrooms, flowers)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "plocka", "present": "plockar", "past": "plockade", "supine": "plockat" },
+      "example": { "sv": "Man får plocka bär och svamp fritt i skogen.", "ru": "В лесу можно свободно собирать ягоды и грибы.", "en": "You may freely pick berries and mushrooms in the forest." }
+    },
+    {
+      "id": "bar",
+      "sv": "bär",
+      "translations": { "ru": "ягода", "en": "berry" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bär", "defSg": "bäret", "indefPl": "bär", "defPl": "bären" },
+      "example": { "sv": "Vi plockade bär i skogen.", "ru": "Мы собирали ягоды в лесу.", "en": "We picked berries in the forest." }
+    },
+    {
+      "id": "svamp",
+      "sv": "svamp",
+      "translations": { "ru": "гриб", "en": "mushroom" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en svamp", "defSg": "svampen", "indefPl": "svampar", "defPl": "svamparna" },
+      "example": { "sv": "Det finns mycket svamp i skogen på hösten.", "ru": "Осенью в лесу много грибов.", "en": "There are lots of mushrooms in the forest in autumn." }
+    },
+    {
+      "id": "natur",
+      "sv": "natur",
+      "translations": { "ru": "природа", "en": "nature" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Man ska respektera naturen.", "ru": "Природу нужно уважать.", "en": "You should respect nature." }
+    },
+    {
+      "id": "respektera",
+      "sv": "respektera",
+      "translations": { "ru": "уважать", "en": "to respect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "respektera", "present": "respekterar", "past": "respekterade", "supine": "respekterat" },
+      "example": { "sv": "Man ska respektera naturen och andra människor.", "ru": "Нужно уважать природу и других людей.", "en": "You should respect nature and other people." }
+    },
+    {
+      "id": "mark",
+      "sv": "mark",
+      "translations": { "ru": "земля, участок земли", "en": "land, ground" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mark", "defSg": "marken", "indefPl": "marker", "defPl": "markerna" },
+      "example": { "sv": "Man får vandra över privat mark.", "ru": "Можно ходить по частной земле.", "en": "You may hike across private land." }
+    },
+    {
+      "id": "tomt",
+      "sv": "tomt",
+      "translations": { "ru": "приусадебный участок", "en": "house plot, garden" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tomt", "defSg": "tomten", "indefPl": "tomter", "defPl": "tomterna" },
+      "example": { "sv": "Man får inte gå över någons tomt utan lov.", "ru": "Нельзя проходить через чей-то участок без разрешения.", "en": "You may not cross someone's plot without permission." }
+    },
+    {
+      "id": "hemfridszon",
+      "sv": "hemfridszon",
+      "translations": { "ru": "приватная зона у дома", "en": "the private zone around a home" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hemfridszon", "defSg": "hemfridszonen", "indefPl": "hemfridszoner", "defPl": "hemfridszonerna" },
+      "example": { "sv": "Man får inte gå för nära husets hemfridszon.", "ru": "Нельзя подходить слишком близко к приватной зоне дома.", "en": "You may not get too close to a house's private zone." }
+    },
+    {
+      "id": "stora",
+      "sv": "störa",
+      "translations": { "ru": "мешать, беспокоить", "en": "to disturb" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "störa", "present": "stör", "past": "störde", "supine": "stört" },
+      "example": { "sv": "Man ska inte störa djuren i naturen.", "ru": "Не нужно тревожить животных на природе.", "en": "You shouldn't disturb the animals in nature." }
+    },
+    {
+      "id": "skrapa-ner",
+      "sv": "skräpa ner",
+      "translations": { "ru": "мусорить", "en": "to litter" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skräpa ner", "present": "skräpar ner", "past": "skräpade ner", "supine": "skräpat ner" },
+      "example": { "sv": "Skräpa aldrig ner i naturen.", "ru": "Никогда не мусори на природе.", "en": "Never litter in nature." }
+    },
+    {
+      "id": "inte-stora-inte-forstora",
+      "sv": "inte störa, inte förstöra",
+      "translations": { "ru": "не мешать, не портить", "en": "don't disturb, don't destroy" },
+      "pos": "phrase",
+      "example": { "sv": "Kom ihåg: inte störa, inte förstöra!", "ru": "Помни: не мешать, не портить!", "en": "Remember: don't disturb, don't destroy!" }
+    }
+  ]
+}

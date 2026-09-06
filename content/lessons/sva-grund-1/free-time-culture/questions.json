@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-ftc-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Книга происходит в Стокгольме в 1950-х годах.»", "en": "Build the sentence: \"The book takes place in Stockholm in the 1950s.\"" },
+      "tokens": ["sig", "Boken", "på 1950-talet", "i Stockholm", "utspelar"],
+      "answer": [1, 4, 0, 3, 2]
+    },
+    {
+      "id": "q-ftc-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я бы порекомендовал(а) эту книгу.»", "en": "Build the sentence: \"I would recommend that book.\"" },
+      "tokens": ["rekommendera", "boken", "Jag", "den", "skulle"],
+      "answer": [2, 4, 0, 3, 1]
+    },
+    {
+      "id": "q-ftc-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["film", "фильм"],
+        ["bok", "книга"],
+        ["bibliotek", "библиотека"],
+        ["biograf", "кинотеатр"]
+      ]
+    },
+    {
+      "id": "q-ftc-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Spännande» значит «захватывающий».", "en": "\"Spännande\" means \"exciting\"." },
+      "answer": true
+    },
+    {
+      "id": "q-ftc-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tråkig» и «spännande» — синонимы.", "en": "\"Tråkig\" and \"spännande\" are synonyms." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tråkig» значит «скучный», а «spännande» значит «захватывающий» — это противоположности.",
+        "en": "\"Tråkig\" means \"boring\" and \"spännande\" means \"exciting\" — opposites, not synonyms."
+      }
+    },
+    {
+      "id": "q-ftc-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag såg en film som ___ om en familj i Sverige. (была о)" },
+      "answer": ["handlade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-ftc-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ___ en bok på biblioteket. (взял/взяла)" },
+      "answer": ["lånade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-ftc-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Друг спрашивает, стоит ли смотреть фильм, который тебе очень понравился. Что сказать?",
+        "en": "A friend asks whether it's worth watching a film you really liked. What do you say?"
+      },
+      "choices": ["Jag skulle rekommendera den — den var väldigt spännande.", "Jag har aldrig sett den.", "Den var helt tråkig, se den inte.", "Jag vet inte vad den handlar om."],
+      "answer": 0
+    },
+    {
+      "id": "q-ftc-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь спросить друга, о чём был фильм, который он посмотрел. Как спросить?",
+        "en": "You want to ask a friend what the film they watched was about. How do you ask?"
+      },
+      "choices": ["Vad handlade filmen om?", "Var ligger biografen?", "Vem regisserade filmen?", "Hur mycket kostade biljetten?"],
+      "answer": 0
+    },
+    {
+      "id": "q-ftc-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Где можно бесплатно взять книгу почитать?",
+        "en": "Where can you borrow a book to read for free?"
+      },
+      "choices": ["På biblioteket", "På biografen", "I en recension", "I en genre"],
+      "answer": 0
+    }
+  ]
+}

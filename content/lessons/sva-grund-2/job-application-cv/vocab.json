@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "id": "personligt-brev",
+      "sv": "personligt brev",
+      "translations": { "ru": "сопроводительное письмо", "en": "cover letter" },
+      "pos": "phrase",
+      "example": { "sv": "Glöm inte att skriva ett personligt brev till din ansökan.", "ru": "Не забудь написать сопроводительное письмо к своему заявлению.", "en": "Don't forget to write a cover letter for your application." }
+    },
+    {
+      "id": "merit",
+      "sv": "merit",
+      "translations": { "ru": "заслуга, достижение (в резюме)", "en": "merit, qualification (on a CV)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en merit", "defSg": "meriten", "indefPl": "meriter", "defPl": "meriterna" },
+      "example": { "sv": "Dina meriter passar bra för den här tjänsten.", "ru": "Твои заслуги хорошо подходят для этой должности.", "en": "Your qualifications suit this position well." }
+    },
+    {
+      "id": "referens",
+      "sv": "referens",
+      "translations": { "ru": "рекомендация, референс", "en": "reference" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en referens", "defSg": "referensen", "indefPl": "referenser", "defPl": "referenserna" },
+      "example": { "sv": "Kan du ge mig namn på två referenser?", "ru": "Можешь дать мне имена двух рекомендателей?", "en": "Can you give me the names of two references?" }
+    },
+    {
+      "id": "phrase-soker-tjansten",
+      "sv": "Jag söker tjänsten som...",
+      "translations": { "ru": "Я претендую на должность...", "en": "I am applying for the position of..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag söker tjänsten som lärare på er skola.", "ru": "Я претендую на должность учителя в вашей школе.", "en": "I am applying for the position of teacher at your school." }
+    },
+    {
+      "id": "phrase-har-erfarenhet-av",
+      "sv": "Jag har erfarenhet av...",
+      "translations": { "ru": "У меня есть опыт в...", "en": "I have experience in..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har erfarenhet av att jobba i team.", "ru": "У меня есть опыт работы в команде.", "en": "I have experience working in teams." }
+    },
+    {
+      "id": "tjanst",
+      "sv": "tjänst",
+      "translations": { "ru": "должность (офиц.)", "en": "position, post" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tjänst", "defSg": "tjänsten", "indefPl": "tjänster", "defPl": "tjänsterna" },
+      "example": { "sv": "Tjänsten är på heltid.", "ru": "Должность на полную ставку.", "en": "The position is full-time." }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление, заявка", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" },
+      "example": { "sv": "Din ansökan ska vara inne senast fredag.", "ru": "Твоё заявление должно быть подано не позднее пятницы.", "en": "Your application needs to be in by Friday at the latest." }
+    },
+    {
+      "id": "skicka-in",
+      "sv": "skicka in",
+      "translations": { "ru": "отправлять, подавать (документы)", "en": "to submit, to send in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skicka in", "present": "skickar in", "past": "skickade in", "supine": "skickat in", "imperative": "skicka in" },
+      "example": { "sv": "Jag skickade in min ansökan igår.", "ru": "Я подал(а) заявление вчера.", "en": "I submitted my application yesterday." }
+    },
+    {
+      "id": "cv",
+      "sv": "CV",
+      "translations": { "ru": "резюме, CV", "en": "CV, resume" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Bifoga ditt CV och personliga brev.", "ru": "Приложи своё резюме и сопроводительное письмо.", "en": "Attach your CV and cover letter." }
+    },
+    {
+      "id": "intervju",
+      "sv": "intervju",
+      "translations": { "ru": "собеседование, интервью", "en": "interview" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en intervju", "defSg": "intervjun", "indefPl": "intervjuer", "defPl": "intervjuerna" },
+      "example": { "sv": "Jag har en intervju på onsdag.", "ru": "У меня собеседование в среду.", "en": "I have an interview on Wednesday." }
+    },
+    {
+      "id": "phrase-kallas-till-intervju",
+      "sv": "Jag kallades till intervju.",
+      "translations": { "ru": "Меня пригласили на собеседование.", "en": "I was invited for an interview." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kallades till intervju en vecka efter ansökan.", "ru": "Меня пригласили на собеседование через неделю после подачи заявления.", "en": "I was invited for an interview a week after applying." }
+    },
+    {
+      "id": "phrase-lampad-for",
+      "sv": "Jag är lämpad för tjänsten.",
+      "translations": { "ru": "Я подхожу для этой должности.", "en": "I am suited for the position." },
+      "pos": "phrase",
+      "example": { "sv": "Med min utbildning är jag väl lämpad för tjänsten.", "ru": "С моим образованием я хорошо подхожу для этой должности.", "en": "With my education I am well suited for the position." }
+    },
+    {
+      "id": "rekryterare",
+      "sv": "rekryterare",
+      "translations": { "ru": "рекрутёр", "en": "recruiter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rekryterare", "defSg": "rekryteraren", "indefPl": "rekryterare", "defPl": "rekryterarna" },
+      "example": { "sv": "Rekryteraren ringde mig i förra veckan.", "ru": "Рекрутёр звонил(а) мне на прошлой неделе.", "en": "The recruiter called me last week." }
+    },
+    {
+      "id": "bifoga",
+      "sv": "bifoga",
+      "translations": { "ru": "прикладывать (документ)", "en": "to attach, to enclose" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bifoga", "present": "bifogar", "past": "bifogade", "supine": "bifogat", "imperative": "bifoga" },
+      "example": { "sv": "Vänligen bifoga ditt CV i ansökan.", "ru": "Пожалуйста, приложи резюме к заявлению.", "en": "Please attach your CV to the application." }
+    },
+    {
+      "id": "tacka-ja-till",
+      "sv": "tacka ja till",
+      "translations": { "ru": "принять (предложение)", "en": "to accept (an offer)" },
+      "pos": "verb",
+      "forms": { "infinitive": "tacka ja till", "present": "tackar ja till", "past": "tackade ja till", "supine": "tackat ja till" },
+      "example": { "sv": "Jag tackade ja till erbjudandet direkt.", "ru": "Я сразу принял(а) предложение.", "en": "I accepted the offer right away." }
+    },
+    {
+      "id": "tacka-nej-till",
+      "sv": "tacka nej till",
+      "translations": { "ru": "отклонить (предложение)", "en": "to decline (an offer)" },
+      "pos": "verb",
+      "forms": { "infinitive": "tacka nej till", "present": "tackar nej till", "past": "tackade nej till", "supine": "tackat nej till" },
+      "example": { "sv": "Hon tackade nej till tjänsten.", "ru": "Она отклонила эту должность.", "en": "She declined the position." }
+    }
+  ]
+}

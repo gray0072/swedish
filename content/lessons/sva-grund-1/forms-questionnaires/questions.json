@@ -1,0 +1,118 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "forms-questionnaires-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что значит «obligatoriskt fält»?",
+        "en": "What does \"obligatoriskt fält\" mean?"
+      },
+      "choices": ["необязательное поле", "обязательное поле", "пустое поле", "неверное поле"],
+      "answer": 1
+    },
+    {
+      "id": "forms-questionnaires-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Каким глаголом на официальном бланке просят «указать» личный номер?",
+        "en": "Which verb does an official form use to ask you to \"state\" your ID number?"
+      },
+      "choices": ["ange", "kryssa i", "bifoga", "underteckna"],
+      "answer": 0
+    },
+    {
+      "id": "forms-questionnaires-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что нужно сделать с копией паспорта, если бланк просит «bifoga en bilaga»?",
+        "en": "What should you do with the passport copy if the form asks to \"bifoga en bilaga\"?"
+      },
+      "choices": ["Отправить отдельно по почте", "Приложить её к заявлению как документ", "Показать при личном визите", "Перевести на шведский"],
+      "answer": 1
+    },
+    {
+      "id": "forms-questionnaires-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Frivillig» значит, что вопрос можно оставить без ответа.",
+        "en": "\"Frivillig\" means the question can be left unanswered."
+      },
+      "answer": true
+    },
+    {
+      "id": "forms-questionnaires-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Ifylles av» — это современная разговорная форма глагола «fylla i».",
+        "en": "\"Ifylles av\" is a modern, colloquial form of the verb \"fylla i\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Это устаревшая канцелярская пассивная форма; в разговорной речи так не говорят.",
+        "en": "It's a dated bureaucratic passive form; it's not used in everyday speech."
+      }
+    },
+    {
+      "id": "forms-questionnaires-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Рядом с подписью на бланке обычно просят указать «datum och ort».",
+        "en": "Next to the signature on a form, you're usually asked to state \"datum och ort\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "forms-questionnaires-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ blanketten och ange datum och ort. (Подпишите)" },
+      "answer": ["Underteckna"],
+      "acceptAlso": []
+    },
+    {
+      "id": "forms-questionnaires-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ i rutan om du är student. (Поставь галочку)" },
+      "answer": ["Kryssa"],
+      "acceptAlso": []
+    },
+    {
+      "id": "forms-questionnaires-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с бланка с переводом", "en": "Match the form-wording word with its translation" },
+      "pairs": [
+        ["obligatoriskt fält", "обязательное поле"],
+        ["kryssa i", "поставить галочку"],
+        ["bifoga", "приложить"],
+        ["underteckna", "подписать"]
+      ]
+    },
+    {
+      "id": "forms-questionnaires-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["intyg", "справка"],
+        ["samtycke", "согласие"],
+        ["bilaga", "приложение"],
+        ["enkät", "анкета"]
+      ]
+    }
+  ]
+}

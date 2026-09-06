@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-1/studying-komvux",
+  "slug": "studying-komvux",
+  "title": {
+    "sv": "Att studera på komvux: schema, uppgifter, återkoppling",
+    "ru": "Учёба на komvux: расписание, задания, обратная связь от учителя",
+    "en": "Studying at komvux: schedule, assignments, feedback from the teacher"
+  },
+  "summary": {
+    "ru": "Слова и фразы для учёбы на komvux: расписание занятий, сдача заданий, оценки и обратная связь.",
+    "en": "Vocabulary and phrases for studying at komvux: class schedules, submitting assignments, grades and feedback."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "studies",
+    "komvux",
+    "school"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 690,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

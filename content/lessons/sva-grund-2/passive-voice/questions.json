@@ -1,0 +1,122 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-passive-voice-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «По-шведски говорят в Швеции» (общий факт)?", "en": "How do you say \"Swedish is spoken in Sweden\" (a general fact)?" },
+      "choices": ["Svenska talas i Sverige.", "Svenska blev talat i Sverige.", "Svenska är talat i Sverige.", "Svenska talades i Sverige."],
+      "answer": 0
+    },
+    {
+      "id": "q-passive-voice-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Магазин закрыли вчера в 18:00 (однократное событие). Как сказать?", "en": "The shop got closed at 18:00 yesterday (a single event). How do you say it?" },
+      "choices": ["Butiken stängs klockan arton igår.", "Butiken blev stängd klockan arton igår.", "Butiken är stängd klockan arton igår.", "Butiken stänger klockan arton igår."],
+      "answer": 1,
+      "explanation": { "ru": "Однократное завершённое событие в прошлом — bli + причастие.", "en": "A single completed event in the past — bli + participle." }
+    },
+    {
+      "id": "q-passive-voice-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Магазин сейчас закрыт (результат, состояние). Как сказать?", "en": "The shop is closed right now (a resulting state). How do you say it?" },
+      "choices": ["Butiken stängs nu.", "Butiken blev stängd nu.", "Butiken är stängd nu.", "Butiken stängde nu."],
+      "answer": 2,
+      "explanation": { "ru": "Состояние сейчас — vara + причастие.", "en": "A state right now — vara + participle." }
+    },
+    {
+      "id": "q-passive-voice-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Den här boken ___ av en känd författare. (общее утверждение, -s-пассив, skriva)" },
+      "answer": ["skrivs"]
+    },
+    {
+      "id": "q-passive-voice-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Dörren ___ klockan arton igår. (bli-пассив, stänga, однократное событие)" },
+      "answer": ["blev stängd"]
+    },
+    {
+      "id": "q-passive-voice-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Boken ___ redan. (vara-пассив, skriva, результат)" },
+      "answer": ["är skriven"]
+    },
+    {
+      "id": "q-passive-voice-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Huset ___ nu. (vara-пассив, bygga, ett-слово, состояние)" },
+      "answer": ["är byggt"]
+    },
+    {
+      "id": "q-passive-voice-gap-5",
+      "type": "gap",
+      "prompt": { "sv": "Husen ___ förra året. (bli-пассив, bygga, множ. число, однократное событие)" },
+      "answer": ["blev byggda"]
+    },
+    {
+      "id": "q-passive-voice-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "-s-пассив обычно используется для общих правил, расписаний и привычных действий.", "en": "The -s-passive is typically used for general rules, schedules, and habitual actions." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-voice-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Причастие после bli/vara не меняется и всегда выглядит одинаково, независимо от подлежащего.", "en": "The participle after bli/vara never changes and always looks the same, regardless of the subject." },
+      "answer": false,
+      "explanation": { "ru": "Причастие согласуется с подлежащим: skriven (en-слово) / skrivet (ett-слово) / skrivna (множ. число).", "en": "The participle agrees with the subject: skriven (en-word) / skrivet (ett-word) / skrivna (plural)." }
+    },
+    {
+      "id": "q-passive-voice-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Boken blev skriven på ett år» описывает однократное завершённое событие.", "en": "\"Boken blev skriven på ett år\" describes a single completed event." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-voice-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Butiken är stängd nu» говорит о том, что кто-то закрывает магазин прямо сейчас, в процессе.", "en": "\"Butiken är stängd nu\" describes someone closing the shop right now, in progress." },
+      "answer": false,
+      "explanation": { "ru": "«vara + причастие» описывает уже достигнутое состояние (магазин уже закрыт), а не процесс закрытия.", "en": "\"vara + participle\" describes an already-reached state (the shop is already closed), not the process of closing." }
+    },
+    {
+      "id": "q-passive-voice-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Магазин закрывается в восемнадцать (каждый день).»", "en": "Build the sentence: \"The shop closes at eighteen (every day).\"" },
+      "tokens": ["stängs", "arton", "klockan", "Butiken"],
+      "answer": [3, 0, 2, 1]
+    },
+    {
+      "id": "q-passive-voice-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дверь была закрыта вчера.»", "en": "Build the sentence: \"The door got closed yesterday.\"" },
+      "tokens": ["igår", "stängd", "blev", "Dörren"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-passive-voice-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь стратегию пассива с примером", "en": "Match the passive strategy with its example" },
+      "pairs": [
+        ["-s (обычное действие)", "Butiken stängs klockan arton."],
+        ["bli (однократное событие)", "Butiken blev stängd igår."],
+        ["vara (состояние)", "Butiken är stängd nu."]
+      ]
+    }
+  ]
+}

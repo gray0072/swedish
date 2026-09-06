@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "veta-upc",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" },
+      "example": { "sv": "Om jag hade vetat det skulle jag ha sagt något.", "ru": "Если бы я это знал, я бы что-то сказал.", "en": "If I had known that, I would have said something." }
+    },
+    {
+      "id": "saga",
+      "sv": "säga",
+      "translations": { "ru": "сказать", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" }
+    },
+    {
+      "id": "skynda-sig",
+      "sv": "skynda sig",
+      "translations": { "ru": "поторопиться", "en": "to hurry" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skynda", "present": "skyndar", "past": "skyndade", "supine": "skyndat" },
+      "example": { "sv": "Om hon hade skyndat sig skulle hon ha hunnit med tåget.", "ru": "Если бы она поторопилась, она бы успела на поезд.", "en": "If she had hurried, she would have caught the train." }
+    },
+    {
+      "id": "hinna-med",
+      "sv": "hinna med",
+      "translations": { "ru": "успеть на (транспорт)", "en": "to catch (a train/bus)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "boka-tidigare",
+      "sv": "boka tidigare",
+      "translations": { "ru": "забронировать раньше", "en": "to book earlier" },
+      "pos": "phrase",
+      "example": { "sv": "Om vi hade bokat tidigare skulle biljetterna ha varit billigare.", "ru": "Если бы мы забронировали раньше, билеты были бы дешевле.", "en": "If we had booked earlier, the tickets would have been cheaper." }
+    },
+    {
+      "id": "anger",
+      "sv": "ånger",
+      "translations": { "ru": "сожаление", "en": "regret" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ånger", "defSg": "ångern", "indefPl": "ånger", "defPl": "ångrarna" }
+    },
+    {
+      "id": "pluskvamperfekt",
+      "sv": "pluskvamperfekt",
+      "translations": { "ru": "плюсквамперфект", "en": "the pluperfect" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Грамматический термин, не бытовое слово.", "en": "A grammatical term, not everyday vocabulary." }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-cleft-construction-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что выделяется в «Det är Anna som lagar mat»?", "en": "What is emphasized in \"Det är Anna som lagar mat\"?" },
+      "choices": ["Anna", "mat", "lagar", "Det"],
+      "answer": 0
+    },
+    {
+      "id": "q-cleft-construction-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что выделяется в «Det är tidningen som Erik läser»?", "en": "What is emphasized in \"Det är tidningen som Erik läser\"?" },
+      "choices": ["Erik", "tidningen", "läser", "Det"],
+      "answer": 1
+    },
+    {
+      "id": "q-cleft-construction-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Выбери клефт-версию предложения «Vi bor i Malmö», выделяющую «i Malmö».",
+        "en": "Choose the cleft version of \"Vi bor i Malmö\" that emphasizes \"i Malmö\"."
+      },
+      "choices": [
+        "Det är i Malmö som vi bor.",
+        "Det är vi som bor i Malmö.",
+        "I Malmö bor det som vi.",
+        "Vi är det som bor i Malmö."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-cleft-construction-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Во что превращается «är» в клефт-конструкции в прошедшем времени?", "en": "What does \"är\" become in the cleft construction in the past tense?" },
+      "choices": ["var", "vart", "varit", "är"],
+      "answer": 0
+    },
+    {
+      "id": "q-cleft-construction-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Зачем использовать клефт-конструкцию вместо обычного предложения?",
+        "en": "Why use a cleft construction instead of a plain sentence?"
+      },
+      "choices": [
+        { "ru": "Чтобы исправить грамматическую ошибку", "en": "To correct a grammar mistake" },
+        { "ru": "Чтобы сделать предложение прошедшим временем", "en": "To make the sentence past tense" },
+        { "ru": "Чтобы явно выделить одну конкретную часть информации", "en": "To explicitly highlight one specific piece of information" },
+        { "ru": "Чтобы задать вопрос", "en": "To ask a question" }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q-cleft-construction-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Som» в клефт-конструкции согласуется в роде и числе с выделяемым словом.",
+        "en": "\"Som\" in the cleft construction agrees in gender and number with the highlighted word."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Som» здесь — неизменяемое служебное слово клефта, а не обычное относительное местоимение.",
+        "en": "\"Som\" here is an invariant linking word of the cleft, not an ordinary relative pronoun."
+      }
+    },
+    {
+      "id": "q-cleft-construction-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Клефт-конструкция «Det är X som...» может выделять subjekt, objekt или обстоятельство.",
+        "en": "The cleft construction \"Det är X som...\" can highlight a subjekt, an objekt, or an adverbial."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-cleft-construction-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Det var Anna som lagade mat igår» подчёркивает, что еда была приготовлена, а не то, кто её готовил.",
+        "en": "\"Det var Anna som lagade mat igår\" emphasizes that the food was cooked, not who cooked it."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Выделяется именно «Anna» — subjekt, а не факт готовки.",
+        "en": "It's \"Anna\" — the subjekt — that's emphasized, not the fact of cooking."
+      }
+    },
+    {
+      "id": "q-cleft-construction-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": {
+        "sv": "___ är Anna som lagar mat.",
+        "ru": "___ är Anna som lagar mat. (клефт, наст. время)",
+        "en": "___ är Anna som lagar mat. (cleft, present tense)"
+      },
+      "answer": ["Det"],
+      "acceptAlso": ["det"]
+    },
+    {
+      "id": "q-cleft-construction-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": {
+        "sv": "Det ___ Anna som lagade mat igår.",
+        "ru": "Det ___ Anna som lagade mat igår. (клефт, прош. время)",
+        "en": "Det ___ Anna som lagade mat igår. (cleft, past tense)"
+      },
+      "answer": ["var"]
+    },
+    {
+      "id": "q-cleft-construction-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это книгу читает Анна (не что-то другое).»", "en": "Build the sentence: \"It's the book that Anna is reading.\"" },
+      "tokens": ["läser", "boken", "som", "är", "Det", "Anna"],
+      "answer": [4, 3, 1, 2, 5, 0]
+    },
+    {
+      "id": "q-cleft-construction-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это в Мальмё мы живём.»", "en": "Build the sentence: \"It's in Malmö that we live.\"" },
+      "tokens": ["som", "är", "vi", "Det", "bor", "i Malmö"],
+      "answer": [3, 1, 5, 0, 2, 4]
+    },
+    {
+      "id": "q-cleft-construction-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь обычное предложение с его клефт-версией", "en": "Match the plain sentence with its cleft version" },
+      "pairs": [
+        ["Anna lagar mat.", "Det är Anna som lagar mat."],
+        ["Erik läser tidningen.", "Det är tidningen som Erik läser."],
+        ["Vi bor i Malmö.", "Det är i Malmö som vi bor."]
+      ]
+    }
+  ]
+}

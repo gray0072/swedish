@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-1/routine-present",
+  "slug": "routine-present",
+  "title": {
+    "sv": "Min dag och mina vanor",
+    "ru": "Мой распорядок и мои привычки — рассказ в настоящем времени",
+    "en": "My routine and my habits — an account in the present tense"
+  },
+  "summary": {
+    "ru": "Связный рассказ о ежедневных делах и привычках с помощью наречий частоты.",
+    "en": "A connected account of daily activities and habits using frequency adverbs."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-1"
+  ],
+  "tags": [
+    "vocab",
+    "daily-routine",
+    "frequency-adverbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 620,
+  "prerequisites": [
+    "sva-grund-1/verb-groups"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,147 @@
+{
+  "items": [
+    {
+      "id": "myndighet",
+      "sv": "myndighet",
+      "translations": { "ru": "ведомство, орган власти", "en": "authority, government agency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" },
+      "example": { "sv": "Jag skickade brevet till en myndighet.", "ru": "Я отправил(а) письмо в ведомство.", "en": "I sent the letter to a government agency." }
+    },
+    {
+      "id": "organisation-letter",
+      "sv": "organisation",
+      "translations": { "ru": "организация", "en": "organisation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en organisation", "defSg": "organisationen", "indefPl": "organisationer", "defPl": "organisationerna" },
+      "example": { "sv": "Brevet är riktat till en organisation.", "ru": "Письмо адресовано организации.", "en": "The letter is addressed to an organisation." }
+    },
+    {
+      "id": "angaende",
+      "sv": "angående",
+      "translations": { "ru": "относительно, касательно", "en": "regarding, concerning" },
+      "pos": "prep",
+      "example": { "sv": "Jag skriver angående mitt ärende.", "ru": "Пишу относительно моего дела.", "en": "I'm writing regarding my case." }
+    },
+    {
+      "id": "vanda-sig-till",
+      "sv": "vända sig till",
+      "translations": { "ru": "обращаться к", "en": "to turn to, to contact" },
+      "pos": "verb",
+      "forms": { "infinitive": "vända sig till", "present": "vänder sig till", "past": "vände sig till", "supine": "vänt sig till" },
+      "example": { "sv": "Jag vänder mig till er angående min ansökan.", "ru": "Я обращаюсь к вам относительно моего заявления.", "en": "I am contacting you regarding my application." }
+    },
+    {
+      "id": "arende",
+      "sv": "ärende",
+      "translations": { "ru": "дело, вопрос (в переписке)", "en": "case, matter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ärende", "defSg": "ärendet", "indefPl": "ärenden", "defPl": "ärendena" },
+      "example": { "sv": "Har mitt ärende behandlats än?", "ru": "Моё дело уже рассмотрено?", "en": "Has my case been processed yet?" }
+    },
+    {
+      "id": "avsandare",
+      "sv": "avsändare",
+      "translations": { "ru": "отправитель", "en": "sender" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avsändare", "defSg": "avsändaren", "indefPl": "avsändare", "defPl": "avsändarna" },
+      "example": { "sv": "Ange avsändarens adress överst i brevet.", "ru": "Укажи адрес отправителя вверху письма.", "en": "State the sender's address at the top of the letter." }
+    },
+    {
+      "id": "mottagare",
+      "sv": "mottagare",
+      "translations": { "ru": "получатель", "en": "recipient" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mottagare", "defSg": "mottagaren", "indefPl": "mottagare", "defPl": "mottagarna" },
+      "example": { "sv": "Vem är mottagaren av brevet?", "ru": "Кто получатель письма?", "en": "Who is the recipient of the letter?" }
+    },
+    {
+      "id": "underteckna-letter",
+      "sv": "underteckna",
+      "translations": { "ru": "подписывать", "en": "to sign" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "underteckna", "present": "undertecknar", "past": "undertecknade", "supine": "undertecknat" },
+      "example": { "sv": "Kom ihåg att underteckna brevet.", "ru": "Не забудь подписать письмо.", "en": "Remember to sign the letter." }
+    },
+    {
+      "id": "bifoga-letter",
+      "sv": "bifoga",
+      "translations": { "ru": "прилагать (документ)", "en": "to enclose, to attach" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bifoga", "present": "bifogar", "past": "bifogade", "supine": "bifogat" },
+      "example": { "sv": "Jag bifogar mitt personbevis.", "ru": "Прилагаю справку о личности.", "en": "I am enclosing my certificate of registration." }
+    },
+    {
+      "id": "bilaga",
+      "sv": "bilaga",
+      "translations": { "ru": "приложение (к письму)", "en": "attachment, enclosure" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bilaga", "defSg": "bilagan", "indefPl": "bilagor", "defPl": "bilagorna" },
+      "example": { "sv": "Se bilagan för mer information.", "ru": "Смотри приложение для дополнительной информации.", "en": "See the attachment for more information." }
+    },
+    {
+      "id": "tacksam",
+      "sv": "tacksam",
+      "translations": { "ru": "благодарный", "en": "grateful" },
+      "pos": "adj",
+      "example": { "sv": "Jag är tacksam för ett snabbt svar.", "ru": "Буду благодарен(на) за быстрый ответ.", "en": "I would be grateful for a prompt reply." }
+    },
+    {
+      "id": "baste-herr-fru",
+      "sv": "bäste herr/fru",
+      "translations": { "ru": "уважаемый господин/госпожа", "en": "dear Sir/Madam" },
+      "pos": "phrase",
+      "example": { "sv": "Bäste herr/fru, jag skriver angående ert beslut.", "ru": "Уважаемый господин/госпожа, я пишу относительно вашего решения.", "en": "Dear Sir/Madam, I am writing regarding your decision." }
+    },
+    {
+      "id": "jag-vander-mig-till-er",
+      "sv": "jag vänder mig till er angående...",
+      "translations": { "ru": "я обращаюсь к вам относительно...", "en": "I am contacting you regarding..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag vänder mig till er angående mitt ärende.", "ru": "Я обращаюсь к вам относительно моего дела.", "en": "I am contacting you regarding my case." }
+    },
+    {
+      "id": "jag-skulle-vilja-fraga-om",
+      "sv": "jag skulle vilja fråga om...",
+      "translations": { "ru": "я хотел(а) бы спросить о...", "en": "I would like to ask whether..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja fråga om ni har fått min ansökan.", "ru": "Я хотел(а) бы спросить, получили ли вы моё заявление.", "en": "I would like to ask whether you have received my application." }
+    },
+    {
+      "id": "med-anledning-av",
+      "sv": "med anledning av",
+      "translations": { "ru": "в связи с", "en": "in connection with, due to" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skriver med anledning av ert brev.", "ru": "Пишу в связи с вашим письмом.", "en": "I am writing in connection with your letter." }
+    },
+    {
+      "id": "skriftligen",
+      "sv": "skriftligen",
+      "translations": { "ru": "письменно", "en": "in writing" },
+      "pos": "adv",
+      "example": { "sv": "Svara gärna skriftligen.", "ru": "Пожалуйста, ответьте письменно.", "en": "Please reply in writing." }
+    },
+    {
+      "id": "formell",
+      "sv": "formell",
+      "translations": { "ru": "формальный, официальный", "en": "formal" },
+      "pos": "adj",
+      "example": { "sv": "Ett brev till en myndighet ska vara formellt.", "ru": "Письмо в ведомство должно быть формальным.", "en": "A letter to an authority should be formal." }
+    },
+    {
+      "id": "med-vanlig-halsning-formal",
+      "sv": "med vänlig hälsning",
+      "translations": { "ru": "с уважением (формальное прощание)", "en": "kind regards (formal closing)" },
+      "pos": "phrase",
+      "example": { "sv": "Med vänlig hälsning, Maria Andersson", "ru": "С уважением, Мария Андерссон", "en": "Kind regards, Maria Andersson" }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-savings-credit-insurance-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Банк одобрил кредит после проверки кредитной истории.»", "en": "Build the sentence: \"The bank approved the loan after a credit check.\"" },
+      "tokens": ["en kreditupplysning", "beviljade", "efter", "lånet", "Banken"],
+      "answer": [4, 1, 3, 2, 0]
+    },
+    {
+      "id": "q-savings-credit-insurance-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы гасим три тысячи крон в месяц.»", "en": "Build the sentence: \"We pay off three thousand kronor a month.\"" },
+      "tokens": ["kronor", "i månaden", "tre tusen", "amorterar", "Vi"],
+      "answer": [4, 3, 2, 0, 1]
+    },
+    {
+      "id": "q-savings-credit-insurance-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["sparande", "сбережение"],
+        ["ränta", "процентная ставка"],
+        ["bolån", "ипотечный кредит"],
+        ["skuld", "долг"]
+      ]
+    },
+    {
+      "id": "q-savings-credit-insurance-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["kreditvärdighet", "кредитоспособность"],
+        ["hemförsäkring", "страхование жилья"],
+        ["självrisk", "франшиза"],
+        ["borgensman", "поручитель"]
+      ]
+    },
+    {
+      "id": "q-savings-credit-insurance-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Amortering» — это выплата части кредита, а не процентов по нему.", "en": "\"Amortering\" is repaying part of the loan itself, not the interest on it." },
+      "answer": true
+    },
+    {
+      "id": "q-savings-credit-insurance-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Självrisk» — это сумма, которую страховая компания выплачивает тебе полностью.", "en": "\"Självrisk\" is the full amount the insurance company pays out to you." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Självrisk» — это часть, которую при страховом случае платишь ты сам, а не страховая компания.",
+        "en": "\"Självrisk\" is the part you pay yourself in a claim, not what the insurance company pays out."
+      }
+    },
+    {
+      "id": "q-savings-credit-insurance-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Betalningsanmärkning» облегчает получение нового кредита.", "en": "\"Betalningsanmärkning\" makes it easier to get a new loan." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот, «betalningsanmärkning» — запись о неплатёжеспособности — усложняет получение кредита.",
+        "en": "On the contrary, a \"betalningsanmärkning\" — a payment default record — makes it harder to get a loan."
+      }
+    },
+    {
+      "id": "q-savings-credit-insurance-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Banken bedömer din ___ innan lånet godkänns. (кредитоспособность)" },
+      "answer": ["kreditvärdighet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-savings-credit-insurance-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du behöver minst femton procent i ___. (первоначальный взнос)" },
+      "answer": ["kontantinsats"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-savings-credit-insurance-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Alla bör ha en ___. (страховка жилья)" },
+      "answer": ["hemförsäkring"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-savings-credit-insurance-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты хочешь взять ипотеку, но у тебя нет достаточного дохода. Что банк может попросить?",
+        "en": "You want a mortgage but don't have enough income. What might the bank ask for?"
+      },
+      "choices": ["En borgensman", "En självrisk", "Ett sparkonto", "En hemförsäkring"],
+      "answer": 0
+    },
+    {
+      "id": "q-savings-credit-insurance-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто-то залил тебе квартиру, и ты подаёшь заявление в страховую. Что тебе, скорее всего, придётся заплатить самому?",
+        "en": "Your apartment gets flooded and you file an insurance claim. What will you most likely have to pay yourself?"
+      },
+      "choices": ["Självrisken", "Räntan", "Amorteringen", "Kontantinsatsen"],
+      "answer": 0
+    },
+    {
+      "id": "q-savings-credit-insurance-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что из перечисленного описывает регулярную выплату основной суммы кредита?",
+        "en": "Which of these describes regularly paying off the principal of a loan?"
+      },
+      "choices": ["Amortering", "Skuld", "Kreditupplysning", "Betalningsanmärkning"],
+      "answer": 0
+    },
+    {
+      "id": "q-savings-credit-insurance-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Процентная ставка по ипотеке плавающая.»", "en": "Translate to Swedish: \"The interest rate on the mortgage is variable.\"" },
+      "answer": ["Räntan på bolånet är rörlig."],
+      "hint": { "ru": "Используй слова «ränta» и «bolån».", "en": "Use the words \"ränta\" and \"bolån\"." }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "dessutom",
+      "sv": "dessutom",
+      "translations": { "ru": "к тому же, кроме того", "en": "in addition, moreover" },
+      "pos": "adv",
+      "example": { "sv": "Dessutom jobbar hon deltid.", "ru": "К тому же она работает неполный день.", "en": "In addition, she works part-time." }
+    },
+    {
+      "id": "daremot",
+      "sv": "däremot",
+      "translations": { "ru": "напротив, зато", "en": "in contrast, on the other hand" },
+      "pos": "adv",
+      "example": { "sv": "Däremot stannar Erik hellre hemma.", "ru": "Эрик же, напротив, предпочитает оставаться дома.", "en": "Erik, in contrast, prefers to stay home." }
+    },
+    {
+      "id": "alltsa",
+      "sv": "alltså",
+      "translations": { "ru": "следовательно, значит", "en": "so, therefore" },
+      "pos": "adv",
+      "example": { "sv": "Alltså stannade vi hemma.", "ru": "Поэтому мы остались дома.", "en": "So we stayed home." }
+    },
+    {
+      "id": "darfor",
+      "sv": "därför",
+      "translations": { "ru": "поэтому", "en": "therefore, that's why" },
+      "pos": "adv",
+      "example": { "sv": "Därför kom hon sent.", "ru": "Поэтому она пришла поздно.", "en": "That's why she arrived late." }
+    },
+    {
+      "id": "a-andra-sidan",
+      "sv": "å andra sidan",
+      "translations": { "ru": "с другой стороны", "en": "on the other hand" },
+      "pos": "adv",
+      "example": { "sv": "Å andra sidan ligger den långt från centrum.", "ru": "С другой стороны, она находится далеко от центра.", "en": "On the other hand, it's far from the centre." }
+    },
+    {
+      "id": "tvartom",
+      "sv": "tvärtom",
+      "translations": { "ru": "наоборот", "en": "on the contrary" },
+      "pos": "adv"
+    },
+    {
+      "id": "dock",
+      "sv": "dock",
+      "translations": { "ru": "однако, всё же", "en": "however, though" },
+      "pos": "adv"
+    },
+    {
+      "id": "samtidigt",
+      "sv": "samtidigt",
+      "translations": { "ru": "в то же время", "en": "at the same time" },
+      "pos": "adv"
+    },
+    {
+      "id": "slutligen",
+      "sv": "slutligen",
+      "translations": { "ru": "наконец, в заключение", "en": "finally, in conclusion" },
+      "pos": "adv"
+    },
+    {
+      "id": "for-det-forsta",
+      "sv": "för det första",
+      "translations": { "ru": "во-первых", "en": "firstly" },
+      "pos": "adv"
+    },
+    {
+      "id": "stycke",
+      "sv": "stycke",
+      "translations": { "ru": "абзац", "en": "paragraph" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "stycke", "defSg": "stycket", "indefPl": "stycken", "defPl": "styckena" }
+    },
+    {
+      "id": "sammanhang",
+      "sv": "sammanhang",
+      "translations": { "ru": "связность, контекст", "en": "coherence, context" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+    }
+  ]
+}

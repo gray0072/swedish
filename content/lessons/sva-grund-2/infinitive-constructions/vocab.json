@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "for-att",
+      "sv": "för att",
+      "translations": { "ru": "чтобы (цель); потому что (причина, перед подлежащим)", "en": "in order to (purpose); because (cause, before a subject)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han sparar pengar för att köpa en bil.", "ru": "Он копит деньги, чтобы купить машину.", "en": "He saves money in order to buy a car." }
+    },
+    {
+      "id": "utan-att",
+      "sv": "utan att",
+      "translations": { "ru": "не делая, без того чтобы", "en": "without doing" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon gick utan att säga hejdå.", "ru": "Она ушла, не попрощавшись.", "en": "She left without saying goodbye." }
+    },
+    {
+      "id": "genom-att",
+      "sv": "genom att",
+      "translations": { "ru": "путём того что, тем что", "en": "by doing" },
+      "pos": "conjunction",
+      "example": { "sv": "Man lär sig svenska genom att prata mycket.", "ru": "Шведский учат, много разговаривая.", "en": "You learn Swedish by talking a lot." }
+    },
+    {
+      "id": "istallet-for-att",
+      "sv": "istället för att",
+      "translations": { "ru": "вместо того чтобы", "en": "instead of doing" },
+      "pos": "conjunction",
+      "example": { "sv": "Han läste en bok istället för att titta på tv.", "ru": "Он читал книгу вместо того, чтобы смотреть телевизор.", "en": "He read a book instead of watching TV." }
+    },
+    {
+      "id": "spara",
+      "sv": "spara",
+      "translations": { "ru": "копить, экономить", "en": "to save" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" }
+    },
+    {
+      "id": "prata",
+      "sv": "prata",
+      "translations": { "ru": "разговаривать", "en": "to talk" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" }
+    },
+    {
+      "id": "titta",
+      "sv": "titta",
+      "translations": { "ru": "смотреть", "en": "to watch, to look" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "titta", "present": "tittar", "past": "tittade", "supine": "tittat" }
+    },
+    {
+      "id": "lasa-inf",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" }
+    },
+    {
+      "id": "lova",
+      "sv": "lova",
+      "translations": { "ru": "обещать", "en": "to promise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lova", "present": "lovar", "past": "lovade", "supine": "lovat" }
+    },
+    {
+      "id": "roka",
+      "sv": "röka",
+      "translations": { "ru": "курить", "en": "to smoke" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" }
+    },
+    {
+      "id": "hejda",
+      "sv": "hejdå",
+      "translations": { "ru": "пока (при прощании)", "en": "bye" },
+      "pos": "interjection"
+    }
+  ]
+}

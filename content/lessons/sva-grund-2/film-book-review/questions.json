@@ -1,0 +1,82 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-film-book-review-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что отличает рецензию от простого рассказа о фильме?", "en": "What distinguishes a review from simply talking about a film?" },
+      "choices": [
+        { "ru": "Рецензия всегда даёт ясную рекомендацию", "en": "A review always gives a clear recommendation" },
+        { "ru": "Рецензия обязательно длиннее", "en": "A review is always longer" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-film-book-review-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «avslöja»?", "en": "What does \"avslöja\" mean?" },
+      "choices": ["выдавать, раскрывать (спойлер) / to give away", "рекомендовать / to recommend", "снимать (фильм) / to shoot (a film)"],
+      "answer": 0
+    },
+    {
+      "id": "q-film-book-review-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Хорошая рецензия обычно раскрывает все повороты сюжета.", "en": "A good review usually gives away every plot twist." },
+      "answer": false,
+      "explanation": { "ru": "Хорошая рецензия избегает спойлеров.", "en": "A good review avoids spoilers." }
+    },
+    {
+      "id": "q-film-book-review-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag skulle ge den fyra av fem ___. (stjärna)" },
+      "answer": ["stjärnor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-film-book-review-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Handlingen är ___, men vissa karaktärer känns platta. (välskriven)" },
+      "answer": ["välskriven"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-film-book-review-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["recension", "рецензия / a review"],
+        ["skådespelare", "актёр / an actor"],
+        ["rekommendera", "рекомендовать / to recommend"],
+        ["tempo", "темп / pace"]
+      ]
+    },
+    {
+      "id": "q-film-book-review-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я рекомендую его всем, кому нравится напряжённая драма.»", "en": "Build the sentence: \"I recommend it to anyone who likes gripping dramas.\"" },
+      "tokens": ["Jag", "rekommenderar", "den", "till", "alla", "som", "gillar", "spännande", "dramer"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-film-book-review-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какой последний пункт в схеме рецензии?", "en": "What is the last point in the review's shape?" },
+      "choices": [
+        { "ru": "Рекомендация — кому стоит, кому не стоит", "en": "A recommendation — who should, who shouldn't" },
+        { "ru": "Краткое содержание", "en": "A brief summary" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-film-book-review-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Boken är inget för den som vill ha ett snabbt tempo» — это положительная рекомендация для всех читателей без исключения.", "en": "\"Boken är inget för den som vill ha ett snabbt tempo\" is a positive recommendation for every reader without exception." },
+      "answer": false,
+      "explanation": { "ru": "Это оговорка: книга не подходит именно тем, кто любит быстрый темп.", "en": "It's a caveat: the book isn't for those who specifically want a fast pace." }
+    }
+  ]
+}

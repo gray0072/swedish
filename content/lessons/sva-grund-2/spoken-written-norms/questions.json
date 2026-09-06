@@ -1,0 +1,82 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-spoken-written-norms-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая форма правильна для формального письма: «Jag såg ... igår.»?", "en": "Which form is correct for formal writing: \"Jag såg ... igår.\"?" },
+      "choices": ["dem", "dom"],
+      "answer": 0
+    },
+    {
+      "id": "q-spoken-written-norms-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В речи «dom» может заменять и подлежащее «de».", "en": "In speech, \"dom\" can also replace the subject \"de\"." },
+      "answer": true
+    },
+    {
+      "id": "q-spoken-written-norms-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Частицы «ju, nog, väl» типичны для формального письма.", "en": "The particles \"ju, nog, väl\" are typical of formal writing." },
+      "answer": false,
+      "explanation": { "ru": "Это разговорные частицы; в официальном письме мысль формулируют прямо, без них.", "en": "These are spoken particles; formal writing states things directly, without them." }
+    },
+    {
+      "id": "q-spoken-written-norms-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi ses ___! (sedan, разговорный вариант)" },
+      "answer": ["sen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-spoken-written-norms-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово добавляет оттенок предположения («наверное»)?", "en": "Which word adds a shade of assumption (\"probably\")?" },
+      "choices": ["nog", "ju", "väl"],
+      "answer": 0
+    },
+    {
+      "id": "q-spoken-written-norms-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово подчёркивает, что что-то очевидно?", "en": "Which word emphasises that something is obvious?" },
+      "choices": ["ju", "nog", "väl"],
+      "answer": 0
+    },
+    {
+      "id": "q-spoken-written-norms-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь разговорную форму с письменной", "en": "Match the spoken form with the written one" },
+      "pairs": [
+        ["sen", "sedan"],
+        ["nån", "någon"],
+        ["nåt", "något"],
+        ["dom", "de / dem"]
+      ]
+    },
+    {
+      "id": "q-spoken-written-norms-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "Заявление в организацию стоит писать с полными формами (dem, sedan, något), а не с dom/sen/nåt.", "en": "An application to an organisation should be written with the full forms (dem, sedan, något), not dom/sen/nåt." },
+      "answer": true
+    },
+    {
+      "id": "q-spoken-written-norms-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "«Du vet väl vad klockan är?» — какой оттенок добавляет «väl»?", "en": "\"Du vet väl vad klockan är?\" — what shade does \"väl\" add?" },
+      "choices": [
+        { "ru": "Ищет подтверждения / что-то вроде «ведь, да?»", "en": "Seeks confirmation / something like \"right?\"" },
+        { "ru": "Выражает сильное сомнение", "en": "Expresses strong doubt" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-spoken-written-norms-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Har du ___ att säga? (något, разговорный вариант)" },
+      "answer": ["nåt"],
+      "acceptAlso": []
+    }
+  ]
+}

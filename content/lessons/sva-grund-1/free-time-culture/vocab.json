@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "id": "film",
+      "sv": "film",
+      "translations": { "ru": "фильм", "en": "movie, film" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en film", "defSg": "filmen", "indefPl": "filmer", "defPl": "filmerna" },
+      "example": { "sv": "Jag såg en film igår.", "ru": "Я вчера посмотрел(а) фильм.", "en": "I watched a film yesterday." }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Boken utspelar sig i Stockholm.", "ru": "Книга происходит в Стокгольме.", "en": "The book takes place in Stockholm." }
+    },
+    {
+      "id": "handla-om",
+      "sv": "handla om",
+      "translations": { "ru": "быть о (чём-то), рассказывать о", "en": "to be about" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla om", "present": "handlar om", "past": "handlade om", "supine": "handlat om" },
+      "example": { "sv": "Filmen handlar om en familj som flyttar till Sverige.", "ru": "Фильм о семье, которая переезжает в Швецию.", "en": "The film is about a family that moves to Sweden." }
+    },
+    {
+      "id": "utspela-sig",
+      "sv": "utspela sig",
+      "translations": { "ru": "происходить, разворачиваться (о сюжете)", "en": "to take place, to be set (of a plot)" },
+      "pos": "verb",
+      "forms": { "infinitive": "utspela sig", "present": "utspelar sig", "past": "utspelade sig", "supine": "utspelat sig" },
+      "example": { "sv": "Boken utspelar sig på 1950-talet.", "ru": "Книга происходит в 1950-х годах.", "en": "The book is set in the 1950s." }
+    },
+    {
+      "id": "rekommendera",
+      "sv": "rekommendera",
+      "translations": { "ru": "рекомендовать", "en": "to recommend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rekommendera", "present": "rekommenderar", "past": "rekommenderade", "supine": "rekommenderat" },
+      "example": { "sv": "Jag skulle rekommendera den boken.", "ru": "Я бы порекомендовал(а) эту книгу.", "en": "I would recommend that book." }
+    },
+    {
+      "id": "spannande",
+      "sv": "spännande",
+      "translations": { "ru": "захватывающий, увлекательный", "en": "exciting, thrilling" },
+      "pos": "adj",
+      "example": { "sv": "Det var en väldigt spännande film.", "ru": "Это был очень увлекательный фильм.", "en": "It was a very exciting film." }
+    },
+    {
+      "id": "trakig",
+      "sv": "tråkig",
+      "translations": { "ru": "скучный", "en": "boring" },
+      "pos": "adj",
+      "example": { "sv": "Filmen var lite tråkig i mitten.", "ru": "Фильм был немного скучным в середине.", "en": "The film was a bit boring in the middle." }
+    },
+    {
+      "id": "roman",
+      "sv": "roman",
+      "translations": { "ru": "роман", "en": "novel" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en roman", "defSg": "romanen", "indefPl": "romaner", "defPl": "romanerna" },
+      "example": { "sv": "Det är en spännande roman.", "ru": "Это увлекательный роман.", "en": "It's an exciting novel." }
+    },
+    {
+      "id": "huvudperson",
+      "sv": "huvudperson",
+      "translations": { "ru": "главный герой", "en": "main character" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudperson", "defSg": "huvudpersonen", "indefPl": "huvudpersoner", "defPl": "huvudpersonerna" },
+      "example": { "sv": "Huvudpersonen är en ung kvinna som söker jobb.", "ru": "Главная героиня — молодая женщина, ищущая работу.", "en": "The main character is a young woman looking for a job." }
+    },
+    {
+      "id": "recension",
+      "sv": "recension",
+      "translations": { "ru": "рецензия, отзыв", "en": "review" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en recension", "defSg": "recensionen", "indefPl": "recensioner", "defPl": "recensionerna" },
+      "example": { "sv": "Jag läste en recension om filmen.", "ru": "Я прочитал(а) рецензию на фильм.", "en": "I read a review of the film." }
+    },
+    {
+      "id": "genre",
+      "sv": "genre",
+      "translations": { "ru": "жанр", "en": "genre" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en genre", "defSg": "genren", "indefPl": "genrer", "defPl": "genrerna" },
+      "example": { "sv": "Vilken genre är det — drama eller komedi?", "ru": "Какой это жанр — драма или комедия?", "en": "What genre is it — drama or comedy?" }
+    },
+    {
+      "id": "bibliotek",
+      "sv": "bibliotek",
+      "translations": { "ru": "библиотека", "en": "library" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bibliotek", "defSg": "biblioteket", "indefPl": "bibliotek", "defPl": "biblioteken" },
+      "example": { "sv": "Man kan låna böcker gratis på biblioteket.", "ru": "В библиотеке можно бесплатно брать книги.", "en": "You can borrow books for free at the library." }
+    },
+    {
+      "id": "lana",
+      "sv": "låna",
+      "translations": { "ru": "брать взаймы, одалживать", "en": "to borrow, to lend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "Jag lånade en bok på biblioteket.", "ru": "Я взял(а) книгу в библиотеке.", "en": "I borrowed a book from the library." }
+    },
+    {
+      "id": "biograf",
+      "sv": "biograf",
+      "translations": { "ru": "кинотеатр", "en": "cinema" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biograf", "defSg": "biografen", "indefPl": "biografer", "defPl": "biograferna" },
+      "example": { "sv": "Vi ska se en ny film på biografen.", "ru": "Мы пойдём смотреть новый фильм в кино.", "en": "We're going to see a new film at the cinema." }
+    },
+    {
+      "id": "handling",
+      "sv": "handling",
+      "translations": { "ru": "сюжет, действие", "en": "plot" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handling", "defSg": "handlingen", "indefPl": "handlingar", "defPl": "handlingarna" },
+      "example": { "sv": "Handlingen är ganska spännande.", "ru": "Сюжет довольно захватывающий.", "en": "The plot is quite exciting." }
+    },
+    {
+      "id": "jag-sag-en-film-som-handlade-om",
+      "sv": "jag såg en film som handlade om...",
+      "translations": { "ru": "я посмотрел(а) фильм, который был о...", "en": "I saw a film that was about..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag såg en film som handlade om en familj som flyttar till Sverige.", "ru": "Я посмотрел(а) фильм о семье, которая переезжает в Швецию.", "en": "I saw a film about a family that moves to Sweden." }
+    },
+    {
+      "id": "boken-utspelar-sig-i",
+      "sv": "boken utspelar sig i...",
+      "translations": { "ru": "книга происходит в...", "en": "the book takes place in..." },
+      "pos": "phrase",
+      "example": { "sv": "Boken utspelar sig i Stockholm på 1950-talet.", "ru": "Книга происходит в Стокгольме в 1950-х годах.", "en": "The book takes place in Stockholm in the 1950s." }
+    },
+    {
+      "id": "jag-skulle-rekommendera",
+      "sv": "jag skulle rekommendera...",
+      "translations": { "ru": "я бы порекомендовал(а)...", "en": "I would recommend..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle rekommendera den boken — den var väldigt spännande.", "ru": "Я бы порекомендовал(а) эту книгу — она была очень захватывающей.", "en": "I would recommend that book — it was very exciting." }
+    },
+    {
+      "id": "det-var-ganska-spannande-trakigt",
+      "sv": "det var ganska spännande/tråkigt",
+      "translations": { "ru": "это было довольно захватывающе/скучно", "en": "it was pretty exciting/boring" },
+      "pos": "phrase",
+      "example": { "sv": "Det var ganska spännande, tycker jag.", "ru": "По-моему, это было довольно захватывающе.", "en": "It was pretty exciting, I think." }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "id": "planera",
+      "sv": "planera",
+      "translations": { "ru": "планировать", "en": "to plan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "planera", "present": "planerar", "past": "planerade", "supine": "planerat" },
+      "example": { "sv": "Jag planerar att söka jobb inom vården.", "ru": "Я планирую искать работу в сфере здравоохранения.", "en": "I'm planning to apply for jobs in healthcare." }
+    },
+    {
+      "id": "hoppas-fp",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "example": { "sv": "Jag hoppas på en fast anställning nästa år.", "ru": "Я надеюсь на постоянную работу в следующем году.", "en": "I'm hoping for a permanent job next year." }
+    },
+    {
+      "id": "sikta-pa",
+      "sv": "sikta på",
+      "translations": { "ru": "нацеливаться на", "en": "to aim for" },
+      "pos": "verb",
+      "forms": { "infinitive": "sikta på", "present": "siktar på", "past": "siktade på", "supine": "siktat på" },
+      "example": { "sv": "Hon siktar på att bli sjuksköterska om tre år.", "ru": "Она нацелена стать медсестрой через три года.", "en": "She's aiming to become a nurse in three years." }
+    },
+    {
+      "id": "borja",
+      "sv": "börja",
+      "translations": { "ru": "начинать", "en": "to begin, to start" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "example": { "sv": "Jag ska börja plugga i höst.", "ru": "Я собираюсь начать учиться этой осенью.", "en": "I'm going to start studying this autumn." }
+    },
+    {
+      "id": "tanka-fp",
+      "sv": "tänka",
+      "translations": { "ru": "намереваться, собираться (+ inf.)", "en": "to intend to" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tänka", "present": "tänker", "past": "tänkte", "supine": "tänkt" },
+      "example": { "sv": "Jag tänker flytta till Stockholm.", "ru": "Я собираюсь переехать в Стокгольм.", "en": "I intend to move to Stockholm." }
+    },
+    {
+      "id": "framtid",
+      "sv": "framtid",
+      "translations": { "ru": "будущее", "en": "future" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en framtid", "defSg": "framtiden", "indefPl": "framtider", "defPl": "framtiderna" },
+      "example": { "sv": "Hur ser din framtid ut?", "ru": "Как выглядит твоё будущее?", "en": "What does your future look like?" }
+    },
+    {
+      "id": "mal-fp",
+      "sv": "mål",
+      "translations": { "ru": "цель", "en": "goal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mål", "defSg": "målet", "indefPl": "mål", "defPl": "målen" },
+      "example": { "sv": "Mitt mål är att ha en fast anställning.", "ru": "Моя цель — иметь постоянную работу.", "en": "My goal is to have a permanent job." }
+    },
+    {
+      "id": "drom",
+      "sv": "dröm",
+      "translations": { "ru": "мечта", "en": "dream" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dröm", "defSg": "drömmen", "indefPl": "drömmar", "defPl": "drömmarna" },
+      "example": { "sv": "Jag vill förverkliga min dröm.", "ru": "Я хочу осуществить свою мечту.", "en": "I want to fulfil my dream." }
+    },
+    {
+      "id": "karriar",
+      "sv": "karriär",
+      "translations": { "ru": "карьера", "en": "career" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en karriär", "defSg": "karriären", "indefPl": "karriärer", "defPl": "karriärerna" },
+      "example": { "sv": "Hon vill satsa på sin karriär.", "ru": "Она хочет вложиться в свою карьеру.", "en": "She wants to invest in her career." }
+    },
+    {
+      "id": "familj",
+      "sv": "familj",
+      "translations": { "ru": "семья", "en": "family" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en familj", "defSg": "familjen", "indefPl": "familjer", "defPl": "familjerna" },
+      "example": { "sv": "Vi vill skaffa en familj.", "ru": "Мы хотим завести семью.", "en": "We want to start a family." }
+    },
+    {
+      "id": "utbilda-sig",
+      "sv": "utbilda sig",
+      "translations": { "ru": "получать образование, обучаться", "en": "to get educated, to train" },
+      "pos": "verb",
+      "forms": { "infinitive": "utbilda sig", "present": "utbildar sig", "past": "utbildade sig", "supine": "utbildat sig" },
+      "example": { "sv": "Jag planerar att utbilda mig till undersköterska.", "ru": "Я планирую обучиться на помощника медсестры.", "en": "I'm planning to train as a nursing assistant." }
+    },
+    {
+      "id": "soka-jobb",
+      "sv": "söka jobb",
+      "translations": { "ru": "искать работу", "en": "to job-search, to apply for jobs" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska söka jobb inom vården.", "ru": "Я собираюсь искать работу в сфере здравоохранения.", "en": "I'm going to look for a job in healthcare." }
+    },
+    {
+      "id": "gifta-sig",
+      "sv": "gifta sig",
+      "translations": { "ru": "жениться, выходить замуж", "en": "to get married" },
+      "pos": "verb",
+      "forms": { "infinitive": "gifta sig", "present": "gifter sig", "past": "gifte sig", "supine": "gift sig" },
+      "example": { "sv": "Vi kommer att gifta oss nästa sommar.", "ru": "Мы поженимся следующим летом.", "en": "We're going to get married next summer." }
+    },
+    {
+      "id": "skaffa-barn",
+      "sv": "skaffa barn",
+      "translations": { "ru": "завести детей", "en": "to have children" },
+      "pos": "phrase",
+      "example": { "sv": "Vi planerar att skaffa barn om ett par år.", "ru": "Мы планируем завести детей через пару лет.", "en": "We're planning to have children in a couple of years." }
+    },
+    {
+      "id": "flytta-fp",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move, to relocate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Vi tänker flytta till en större lägenhet.", "ru": "Мы собираемся переехать в квартиру побольше.", "en": "We intend to move to a bigger apartment." }
+    },
+    {
+      "id": "spara-pengar",
+      "sv": "spara pengar",
+      "translations": { "ru": "копить/экономить деньги", "en": "to save money" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ska spara pengar till en resa.", "ru": "Мы собираемся копить деньги на поездку.", "en": "We're going to save money for a trip." }
+    },
+    {
+      "id": "utveckla",
+      "sv": "utveckla",
+      "translations": { "ru": "развивать", "en": "to develop" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utveckla", "present": "utvecklar", "past": "utvecklade", "supine": "utvecklat" },
+      "example": { "sv": "Jag vill utveckla min svenska.", "ru": "Я хочу развивать свой шведский.", "en": "I want to develop my Swedish." }
+    },
+    {
+      "id": "forverkliga",
+      "sv": "förverkliga",
+      "translations": { "ru": "осуществлять, воплощать", "en": "to fulfil, to realize" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förverkliga", "present": "förverkligar", "past": "förverkligade", "supine": "förverkligat" },
+      "example": { "sv": "Hon vill förverkliga sin dröm om en egen firma.", "ru": "Она хочет осуществить свою мечту о собственной фирме.", "en": "She wants to fulfil her dream of her own company." }
+    }
+  ]
+}

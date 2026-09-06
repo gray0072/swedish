@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/volunteering-civic-life",
+  "slug": "volunteering-civic-life",
+  "title": {
+    "sv": "Volontärarbete och samhällsengagemang",
+    "ru": "Волонтёрство и общественная жизнь",
+    "en": "Volunteering and civic life"
+  },
+  "summary": {
+    "ru": "Слова для разговора о волонтёрстве, некоммерческих организациях и участии в жизни общества.",
+    "en": "Vocabulary for talking about volunteering, non-profit organisations, and taking part in civic life."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-2"],
+  "tags": ["vocab", "civic-life", "society"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1290,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

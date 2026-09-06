@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-2/labour-market",
+  "slug": "labour-market",
+  "title": {
+    "sv": "Arbetsmarknaden",
+    "ru": "Рынок труда: вакансии, отрасли, требования",
+    "en": "The labour market: vacancies, industries, requirements"
+  },
+  "summary": {
+    "ru": "Как говорить о рынке труда: вакансии, отрасли, требования к кандидатам и наём.",
+    "en": "How to talk about the labour market: vacancies, industries, candidate requirements and recruitment."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "work",
+    "labour-market",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1060,
+  "prerequisites": [
+    "sfi-c/professions"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

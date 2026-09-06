@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-describing-charts-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово описывает рост цифры?", "en": "Which word describes a figure going up?" },
+      "choices": ["öka", "minska", "ligga still"],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-charts-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «en nedgång»?", "en": "What does \"en nedgång\" mean?" },
+      "choices": ["спад, падение / a decline", "пик / a peak", "среднее значение / an average"],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-charts-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Priserna ___ något förra året. (minska)" },
+      "answer": ["minskade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-describing-charts-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ av deltagarna var positiva. (majoriteten)" },
+      "answer": ["Majoriteten"],
+      "acceptAlso": ["majoriteten"]
+    },
+    {
+      "id": "q-describing-charts-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "На этом уровне принято описывать точные цифры графика, а не общие тенденции.", "en": "At this level, it's customary to describe the exact numbers of a chart rather than general trends." },
+      "answer": false,
+      "explanation": { "ru": "Задача — описать тенденцию словами, а не пересчитать все цифры.", "en": "The goal is to describe the trend in words, not recite every number." }
+    },
+    {
+      "id": "q-describing-charts-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["topp", "пик / peak"],
+        ["nedgång", "спад / decline"],
+        ["en tredjedel", "треть / a third"],
+        ["jämfört med", "по сравнению с / compared with" ]
+      ]
+    },
+    {
+      "id": "q-describing-charts-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Диаграмма показывает явный пик в июле.»", "en": "Build the sentence: \"The chart shows a clear peak in July.\"" },
+      "tokens": ["Diagrammet", "visar", "en", "tydlig", "topp", "i", "juli"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-describing-charts-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Как лучше всего начать описание графика?", "en": "What's the best way to open a chart description?" },
+      "choices": [
+        { "ru": "С общего вывода, а затем деталями", "en": "With a general conclusion, then details" },
+        { "ru": "Сразу перечислить все цифры по порядку", "en": "By listing every number in order right away" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-describing-charts-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Jämfört med föregående år har siffran fördubblats» значит, что цифра удвоилась.", "en": "\"Jämfört med föregående år har siffran fördubblats\" means the figure has doubled." },
+      "answer": true
+    },
+    {
+      "id": "q-describing-charts-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Kurvan ___ still under hela perioden. (ligga)" },
+      "answer": ["låg"],
+      "acceptAlso": []
+    }
+  ]
+}

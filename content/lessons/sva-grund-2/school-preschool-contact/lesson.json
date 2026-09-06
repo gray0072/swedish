@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/school-preschool-contact",
+  "slug": "school-preschool-contact",
+  "title": {
+    "sv": "Skola och förskola: kontakt med läraren, utvecklingssamtal",
+    "ru": "Школа и садик: контакт с учителем, развитийная беседа",
+    "en": "School and preschool: contact with the teacher, the development talk"
+  },
+  "summary": {
+    "ru": "Как поддерживать постоянный контакт со школой и садиком, а не только раз в год на развитийной беседе.",
+    "en": "How to keep ongoing contact with school and preschool, not just once a year at the utvecklingssamtal."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-2"],
+  "tags": ["phrases", "school", "family"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1150,
+  "prerequisites": ["sva-grund-1/child-school-talk"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

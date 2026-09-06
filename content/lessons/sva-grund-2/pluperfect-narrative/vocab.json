@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "somna",
+      "sv": "somna",
+      "translations": { "ru": "засыпать", "en": "to fall asleep" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "somna", "present": "somnar", "past": "somnade", "supine": "somnat" },
+      "example": { "sv": "Sedan somnade jag direkt.", "ru": "Потом я сразу заснул.", "en": "Then I fell asleep right away." }
+    },
+    {
+      "id": "ata",
+      "sv": "äta",
+      "translations": { "ru": "есть (кушать)", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+    },
+    {
+      "id": "ga",
+      "sv": "gå",
+      "translations": { "ru": "идти; отправляться (о поезде)", "en": "to go; to leave (of a train)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Tåget hade redan gått.", "ru": "Поезд уже ушёл.", "en": "The train had already left." }
+    },
+    {
+      "id": "tag",
+      "sv": "tåg",
+      "translations": { "ru": "поезд", "en": "train" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" }
+    },
+    {
+      "id": "station",
+      "sv": "station",
+      "translations": { "ru": "вокзал, станция", "en": "station" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "station", "defSg": "stationen", "indefPl": "stationer", "defPl": "stationerna" }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "note": { "ru": "Частый сигнал плюсквамперфекта.", "en": "A common pluperfect signal." }
+    },
+    {
+      "id": "tidigare",
+      "sv": "tidigare",
+      "translations": { "ru": "раньше, ранее", "en": "earlier" },
+      "pos": "adv"
+    },
+    {
+      "id": "innan",
+      "sv": "innan",
+      "translations": { "ru": "до того как", "en": "before" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "sedan",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, afterwards" },
+      "pos": "adv"
+    },
+    {
+      "id": "direkt",
+      "sv": "direkt",
+      "translations": { "ru": "сразу, прямо", "en": "right away, immediately" },
+      "pos": "adv"
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "усталый", "en": "tired" },
+      "pos": "adj"
+    },
+    {
+      "id": "natt",
+      "sv": "natt",
+      "translations": { "ru": "ночь", "en": "night" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "natt", "defSg": "natten", "indefPl": "nätter", "defPl": "nätterna" }
+    }
+  ]
+}

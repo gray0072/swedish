@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-2/text-connectors",
+  "slug": "text-connectors",
+  "title": {
+    "sv": "Textbindning: sambandsord mellan meningar",
+    "ru": "Текстовые связки и структура абзаца",
+    "en": "Text connectors and paragraph structure"
+  },
+  "summary": {
+    "ru": "Dessutom, däremot, alltså, å andra sidan — слова, которые скрепляют не части одного предложения, а целые мысли и абзацы.",
+    "en": "Dessutom, däremot, alltså, å andra sidan — words that link not parts of one sentence, but whole ideas and paragraphs."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "connectors",
+    "discourse",
+    "text-structure",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1010,
+  "prerequisites": [
+    "sva-grund-1/subordinate-clause-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

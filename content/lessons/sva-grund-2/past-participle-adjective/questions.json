@@ -1,0 +1,91 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-past-participle-adjective-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Ett ___ brev. (skriven, ett-род)" },
+      "answer": ["skrivet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-past-participle-adjective-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "En ___ bok. (skriven, en-род)" },
+      "answer": ["skriven"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-past-participle-adjective-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ brev. (skriven, мн.ч.)" },
+      "answer": ["Skrivna"],
+      "acceptAlso": ["skrivna"]
+    },
+    {
+      "id": "q-past-participle-adjective-tf-1",
+      "type": "true-false",
+      "prompt": {
+        "ru": "Перфектное причастие согласуется в роде и числе с существительным, как обычное прилагательное.",
+        "en": "The past participle agrees in gender and number with the noun, like an ordinary adjective."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-past-participle-adjective-tf-2",
+      "type": "true-false",
+      "prompt": {
+        "ru": "Презенс-причастие (skrivande) тоже меняет форму по роду и числу.",
+        "en": "The present participle (skrivande) also changes form by gender and number."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Презенс-причастие неизменяемо; меняется только перфектное причастие.",
+        "en": "The present participle is invariable; only the past participle changes."
+      }
+    },
+    {
+      "id": "q-past-participle-adjective-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Чем супин отличается от перфектного причастия?", "en": "How does the supine differ from the past participle?" },
+      "choices": [
+        { "ru": "Супин используется в перфекте («har skrivit»), причастие — как прилагательное и меняется", "en": "The supine is used in the perfect (\"har skrivit\"), the participle is used as an adjective and agrees" },
+        { "ru": "Это просто два названия одной и той же формы", "en": "They're just two names for the same form" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-past-participle-adjective-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Выбери правильную форму: «Butiken är ___ på söndagar.»", "en": "Pick the correct form: \"Butiken är ___ på söndagar.\"" },
+      "choices": ["stängd", "stängt", "stängda"],
+      "answer": 0
+    },
+    {
+      "id": "q-past-participle-adjective-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дом свежепокрашен.»", "en": "Build the sentence: \"The house is freshly painted.\"" },
+      "tokens": ["Huset", "är", "nymålat"],
+      "answer": [0, 1, 2]
+    },
+    {
+      "id": "q-past-participle-adjective-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь причастие в ett-роде с en-родом", "en": "Match the ett-form participle with its en-form" },
+      "pairs": [
+        ["skrivet", "skriven"],
+        ["stängt", "stängd"],
+        ["målat", "målad"]
+      ]
+    },
+    {
+      "id": "q-past-participle-adjective-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Ett redan öppnat paket» — здесь причастие в форме ett-рода.", "en": "\"Ett redan öppnat paket\" — the participle here is in the ett-form." },
+      "answer": true
+    }
+  ]
+}

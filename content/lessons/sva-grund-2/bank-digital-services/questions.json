@@ -1,0 +1,143 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-bank-digital-services-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Ты входишь в интернет-банк с помощью электронного удостоверения личности.»", "en": "Build the sentence: \"You log in to internet banking with your electronic ID.\"" },
+      "tokens": ["din e-legitimation", "på internetbanken", "loggar in", "med", "Du"],
+      "answer": [4, 2, 1, 3, 0]
+    },
+    {
+      "id": "q-bank-digital-services-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Ring banken direkt för att blockera kortet.» (Позвони в банк сразу, чтобы заблокировать карту.)", "en": "Build the sentence: \"Call the bank right away to block the card.\"" },
+      "tokens": ["för att", "direkt", "banken", "blockera kortet", "Ring"],
+      "answer": [4, 2, 1, 0, 3]
+    },
+    {
+      "id": "q-bank-digital-services-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["bankkonto", "банковский счёт"],
+        ["kontonummer", "номер счёта"],
+        ["bankkort", "дебетовая карта"],
+        ["kundtjänst", "служба поддержки"]
+      ]
+    },
+    {
+      "id": "q-bank-digital-services-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
+      "pairs": [
+        ["myndighetspost", "почта от госорганов"],
+        ["överföring", "перевод денег"],
+        ["dosa", "кодогенератор"],
+        ["bedrägeri", "мошенничество"]
+      ]
+    },
+    {
+      "id": "q-bank-digital-services-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Swisha» значит переводить деньги через сервис Swish.", "en": "\"Swisha\" means paying money via the Swish service." },
+      "answer": true
+    },
+    {
+      "id": "q-bank-digital-services-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Clearingnummer» показывает номер твоей налоговой декларации.", "en": "\"Clearingnummer\" shows the number of your tax return." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Clearingnummer» — это код банка, к которому относится счёт, а не номер декларации.",
+        "en": "A \"clearingnummer\" identifies which bank an account belongs to, not a tax return."
+      }
+    },
+    {
+      "id": "q-bank-digital-services-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Mina meddelanden» — это сервис, куда госорганы отправляют официальные письма.", "en": "\"Mina meddelanden\" is a service where authorities send official letters." },
+      "answer": true
+    },
+    {
+      "id": "q-bank-digital-services-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ___ mig hundra kronor? (перевести через Swish)" },
+      "answer": ["swisha"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-bank-digital-services-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du behöver legitimation för att öppna ett ___. (банковский счёт)" },
+      "answer": ["bankkonto"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-bank-digital-services-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Ring bankens ___ om du har frågor. (служба поддержки)" },
+      "answer": ["kundtjänst"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-bank-digital-services-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты потерял банковскую карту на улице. Что нужно сделать в первую очередь?",
+        "en": "You lost your bank card on the street. What should you do first?"
+      },
+      "choices": ["Ringa banken och blockera kortet", "Skicka pengar via Swish", "Öppna ett nytt bankkonto", "Kontakta Mina meddelanden"],
+      "answer": 0
+    },
+    {
+      "id": "q-bank-digital-services-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Тебе нужно указать реквизиты, чтобы получить перевод. Что тебе понадобится, помимо номера счёта?",
+        "en": "You need to give your bank details to receive a transfer. What do you need besides the account number?"
+      },
+      "choices": ["Clearingnumret", "Personnumret till grannen", "Ett kreditkort", "En dosa"],
+      "answer": 0
+    },
+    {
+      "id": "q-bank-digital-services-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Кто-то звонит и представляется банком, требуя срочно назвать код из смс. Что это, скорее всего?",
+        "en": "Someone calls claiming to be from your bank and urgently demands an SMS code. What's this most likely to be?"
+      },
+      "choices": ["Ett bedrägeri", "En överföring", "En kreditupplysning", "En kundtjänst"],
+      "answer": 0
+    },
+    {
+      "id": "q-bank-digital-services-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Я оплачиваю все счета через интернет-банк.»", "en": "Translate to Swedish: \"I pay all my bills through internet banking.\"" },
+      "answer": ["Jag betalar alla räkningar via internetbanken."],
+      "hint": { "ru": "Используй слово «internetbank».", "en": "Use the word \"internetbank\"." }
+    }
+  ]
+}

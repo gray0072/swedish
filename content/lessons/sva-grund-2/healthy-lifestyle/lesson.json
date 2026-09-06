@@ -1,0 +1,34 @@
+{
+  "id": "sva-grund-2/healthy-lifestyle",
+  "slug": "healthy-lifestyle",
+  "title": {
+    "sv": "Hälsosam livsstil: kost, sömn och rörelse",
+    "ru": "Здоровый образ жизни: питание, сон, движение",
+    "en": "A healthy lifestyle: food, sleep, movement"
+  },
+  "summary": {
+    "ru": "Слова о питании, сне и физической активности для разговора о здоровом образе жизни.",
+    "en": "Words about food, sleep and physical activity for talking about a healthy lifestyle."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-2"
+  ],
+  "tags": [
+    "vocab",
+    "health",
+    "lifestyle"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1260,
+  "prerequisites": [],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

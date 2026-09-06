@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/film-book-review",
+  "slug": "film-book-review",
+  "title": {
+    "sv": "En recension av en film eller bok",
+    "ru": "Рецензия на фильм или книгу",
+    "en": "A review of a film or a book"
+  },
+  "summary": {
+    "ru": "Не просто «понравилось/не понравилось» — а связная рецензия с оценкой и рекомендацией.",
+    "en": "Not just \"I liked it/I didn't\" — a connected review with a verdict and a recommendation."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-2"],
+  "tags": ["phrases", "culture", "writing"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1250,
+  "prerequisites": ["sva-grund-1/free-time-culture"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

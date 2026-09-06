@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "haft-ont-tre-dagar",
+      "sv": "Jag har haft ont i tre dagar.",
+      "translations": { "ru": "У меня болит уже три дня.", "en": "I've had pain for three days." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har haft ont i tre dagar.", "ru": "У меня болит уже три дня.", "en": "I've had pain for three days." }
+    },
+    {
+      "id": "gor-vart-ont-rorelse",
+      "sv": "Det gör väldigt ont när jag rör mig.",
+      "translations": { "ru": "Очень больно, когда я двигаюсь.", "en": "It hurts a lot when I move." },
+      "pos": "phrase",
+      "example": { "sv": "Det gör väldigt ont när jag rör mig.", "ru": "Очень больно, когда я двигаюсь.", "en": "It hurts a lot when I move." }
+    },
+    {
+      "id": "var-gor-det-ont",
+      "sv": "Var gör det ont?",
+      "translations": { "ru": "Где болит?", "en": "Where does it hurt?" },
+      "pos": "phrase",
+      "example": { "sv": "Var gör det ont?", "ru": "Где болит?", "en": "Where does it hurt?" }
+    },
+    {
+      "id": "har-du-feber",
+      "sv": "Har du feber?",
+      "translations": { "ru": "У тебя температура?", "en": "Do you have a fever?" },
+      "pos": "phrase",
+      "example": { "sv": "Har du feber?", "ru": "У тебя температура?", "en": "Do you have a fever?" }
+    },
+    {
+      "id": "jag-skriver-ut-recept",
+      "sv": "Jag skriver ut ett recept åt dig.",
+      "translations": { "ru": "Я выпишу тебе рецепт.", "en": "I'll write you a prescription." },
+      "pos": "phrase",
+      "example": { "sv": "Jag skriver ut ett recept åt dig.", "ru": "Я выпишу тебе рецепт.", "en": "I'll write you a prescription." }
+    },
+    {
+      "id": "hur-lange-ont",
+      "sv": "Hur länge har du haft ont?",
+      "translations": { "ru": "Как долго у тебя болит?", "en": "How long have you had the pain?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur länge har du haft ont?", "ru": "Как долго у тебя болит?", "en": "How long have you had the pain?" }
+    },
+    {
+      "id": "lange",
+      "sv": "länge",
+      "translations": { "ru": "долго", "en": "for a long time" },
+      "pos": "adv",
+      "example": { "sv": "Jag har hostat länge.", "ru": "Я долго кашляю.", "en": "I've been coughing for a long time." }
+    },
+    {
+      "id": "ihallande",
+      "sv": "ihållande",
+      "translations": { "ru": "постоянный, непрекращающийся", "en": "persistent, constant" },
+      "pos": "adj",
+      "note": { "ru": "не изменяется по родам и числам (прилагательные на -ande)", "en": "invariant across gender and number (adjectives ending in -ande)" },
+      "example": { "sv": "Jag har ihållande huvudvärk.", "ru": "У меня постоянная головная боль.", "en": "I have a persistent headache." }
+    },
+    {
+      "id": "akut",
+      "sv": "akut",
+      "translations": { "ru": "острый, срочный", "en": "acute, urgent" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: akut, мн.ч.: akuta", "en": "ett-form: akut, plural: akuta" },
+      "example": { "sv": "Det känns akut, jag måste till sjukhuset.", "ru": "Это похоже на срочный случай, мне нужно в больницу.", "en": "It feels urgent, I need to go to the hospital." }
+    },
+    {
+      "id": "svar",
+      "sv": "svår",
+      "translations": { "ru": "сильный, тяжёлый (о боли)", "en": "severe" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: svårt, мн.ч.: svåra", "en": "ett-form: svårt, plural: svåra" },
+      "example": { "sv": "Jag har svår smärta i ryggen.", "ru": "У меня сильная боль в спине.", "en": "I have severe pain in my back." }
+    },
+    {
+      "id": "lindrig",
+      "sv": "lindrig",
+      "translations": { "ru": "лёгкий, несильный", "en": "mild" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lindrigt, мн.ч.: lindriga", "en": "ett-form: lindrigt, plural: lindriga" },
+      "example": { "sv": "Det är bara en lindrig förkylning.", "ru": "Это просто лёгкая простуда.", "en": "It's just a mild cold." }
+    },
+    {
+      "id": "forvarras",
+      "sv": "förvärras",
+      "translations": { "ru": "ухудшаться", "en": "to get worse" },
+      "pos": "verb",
+      "forms": { "infinitive": "förvärras", "present": "förvärras", "past": "förvärrades", "supine": "förvärrats" },
+      "example": { "sv": "Smärtan har förvärrats sedan i morse.", "ru": "Боль усилилась с сегодняшнего утра.", "en": "The pain has gotten worse since this morning." }
+    },
+    {
+      "id": "latta",
+      "sv": "lätta",
+      "translations": { "ru": "облегчаться, уменьшаться (о боли)", "en": "to ease, subside" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lätta", "present": "lättar", "past": "lättade", "supine": "lättat" },
+      "example": { "sv": "Smärtan har lättat lite.", "ru": "Боль немного утихла.", "en": "The pain has eased a little." }
+    },
+    {
+      "id": "undersoka",
+      "sv": "undersöka",
+      "translations": { "ru": "осматривать, обследовать", "en": "to examine" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" },
+      "example": { "sv": "Läkaren vill undersöka dig.", "ru": "Врач хочет тебя осмотреть.", "en": "The doctor wants to examine you." }
+    },
+    {
+      "id": "remiss",
+      "sv": "remiss",
+      "translations": { "ru": "направление (к специалисту)", "en": "referral" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en remiss", "defSg": "remissen", "indefPl": "remisser", "defPl": "remisserna" },
+      "example": { "sv": "Du får en remiss till specialist.", "ru": "Тебе дадут направление к специалисту.", "en": "You'll get a referral to a specialist." }
+    },
+    {
+      "id": "andas",
+      "sv": "andas",
+      "translations": { "ru": "дышать", "en": "to breathe" },
+      "pos": "verb",
+      "forms": { "infinitive": "andas", "present": "andas", "past": "andades", "supine": "andats" },
+      "example": { "sv": "Andas djupt, tack.", "ru": "Дыши глубоко, пожалуйста.", "en": "Breathe deeply, please." }
+    },
+    {
+      "id": "skala",
+      "sv": "skala",
+      "translations": { "ru": "шкала", "en": "scale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skala", "defSg": "skalan", "indefPl": "skalor", "defPl": "skalorna" },
+      "example": { "sv": "På en skala från ett till tio, hur ont gör det?", "ru": "По шкале от одного до десяти, насколько сильно болит?", "en": "On a scale from one to ten, how much does it hurt?" }
+    },
+    {
+      "id": "skala-fraga",
+      "sv": "På en skala från ett till tio, hur ont gör det?",
+      "translations": { "ru": "По шкале от одного до десяти, насколько сильно болит?", "en": "On a scale from one to ten, how much does it hurt?" },
+      "pos": "phrase",
+      "example": { "sv": "På en skala från ett till tio, hur ont gör det?", "ru": "По шкале от одного до десяти, насколько сильно болит?", "en": "On a scale from one to ten, how much does it hurt?" }
+    }
+  ]
+}

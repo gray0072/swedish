@@ -1,0 +1,142 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-healthy-lifestyle-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Сбалансированное питание важно для здоровья.»", "en": "Build the sentence: \"A balanced diet is important for health.\"" },
+      "tokens": ["hälsan", "viktig", "En", "kost", "för", "är", "balanserad"],
+      "answer": [2, 6, 3, 5, 1, 4, 0]
+    },
+    {
+      "id": "q-healthy-lifestyle-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Организму нужно восстановление после тренировки.»", "en": "Build the sentence: \"The body needs recovery after exercise.\"" },
+      "tokens": ["efter", "återhämtning", "träning", "Kroppen", "behöver"],
+      "answer": [3, 4, 1, 0, 2]
+    },
+    {
+      "id": "q-healthy-lifestyle-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["sömnbrist", "недостаток сна"],
+        ["återhämtning", "восстановление"],
+        ["stillasittande", "сидячий"],
+        ["koppla av", "расслабляться"]
+      ]
+    },
+    {
+      "id": "q-healthy-lifestyle-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Прилагательное «stillasittande» меняет форму в ett-роде: stillasittande → stillasittant.",
+        "en": "The adjective \"stillasittande\" changes form for ett-words: stillasittande → stillasittant."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Прилагательные на -ande не изменяются: и en-, и ett-форма — «stillasittande».",
+        "en": "Adjectives ending in -ande are invariant: both the en- and ett-form are \"stillasittande\"."
+      }
+    },
+    {
+      "id": "q-healthy-lifestyle-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Vardagsmotion» — это упражнения именно в тренажёрном зале.",
+        "en": "\"Vardagsmotion\" specifically means exercising at a gym."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Vardagsmotion» — это обычная повседневная активность: лестница вместо лифта, ходьба вместо автобуса.",
+        "en": "\"Vardagsmotion\" is ordinary everyday activity: stairs instead of the elevator, walking instead of the bus."
+      }
+    },
+    {
+      "id": "q-healthy-lifestyle-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Förebygga» и «undvika» — это одно и то же слово, только с разным написанием.",
+        "en": "\"Förebygga\" and \"undvika\" are the same word, just spelled differently."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Это разные глаголы: «förebygga» — предотвращать, «undvika» — избегать.",
+        "en": "They are different verbs: \"förebygga\" means to prevent, \"undvika\" means to avoid."
+      }
+    },
+    {
+      "id": "q-healthy-lifestyle-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "God ___ är grunden för återhämtning. (сон)" },
+      "answer": ["sömn"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-healthy-lifestyle-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Man bör ___ för mycket socker. (избегать)" },
+      "answer": ["undvika"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-healthy-lifestyle-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово описывает недостаток сна?",
+        "en": "Which word describes a lack of sleep?"
+      },
+      "choices": ["sömnbrist", "återhämtning", "motion", "kost"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthy-lifestyle-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово точнее всего описывает сидячую работу?",
+        "en": "Which word best describes a sedentary job?"
+      },
+      "choices": ["stillasittande arbete", "balanserad kost", "vardagsmotion", "återhämtning"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthy-lifestyle-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое из этих слов значит «избегать»?",
+        "en": "Which of these words means \"to avoid\"?"
+      },
+      "choices": ["undvika", "förebygga", "motionera", "koppla av"],
+      "answer": 0
+    },
+    {
+      "id": "q-healthy-lifestyle-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Согласно примеру из урока, что является хорошим источником белка?",
+        "en": "According to the lesson's example, what is a good source of protein?"
+      },
+      "choices": ["Bönor", "Socker", "Vatten", "Stress"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "foraldrapenning",
+      "sv": "föräldrapenning",
+      "translations": { "ru": "родительское пособие", "en": "parental benefit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en föräldrapenning", "defSg": "föräldrapenningen", "indefPl": "föräldrapenningar", "defPl": "föräldrapenningarna" },
+      "example": { "sv": "Man kan ta ut föräldrapenning fram till barnet fyller tolv år.", "ru": "Родительское пособие можно получать, пока ребёнку не исполнится двенадцать лет.", "en": "Parental benefit can be drawn until the child turns twelve." }
+    },
+    {
+      "id": "foraldraledighet",
+      "sv": "föräldraledighet",
+      "translations": { "ru": "родительский отпуск", "en": "parental leave" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en föräldraledighet", "defSg": "föräldraledigheten", "indefPl": "föräldraledigheter", "defPl": "föräldraledigheterna" },
+      "example": { "sv": "Hon tog ut föräldraledighet i åtta månader.", "ru": "Она была в родительском отпуске восемь месяцев.", "en": "She took eight months of parental leave." }
+    },
+    {
+      "id": "foralder",
+      "sv": "förälder",
+      "translations": { "ru": "родитель", "en": "parent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förälder", "defSg": "föräldern", "indefPl": "föräldrar", "defPl": "föräldrarna" },
+      "example": { "sv": "Båda föräldrarna har rätt till föräldrapenning.", "ru": "Оба родителя имеют право на родительское пособие.", "en": "Both parents are entitled to parental benefit." }
+    },
+    {
+      "id": "sjukpenning",
+      "sv": "sjukpenning",
+      "translations": { "ru": "пособие по болезни", "en": "sickness benefit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjukpenning", "defSg": "sjukpenningen", "indefPl": "sjukpenningar", "defPl": "sjukpenningarna" },
+      "example": { "sv": "Efter två veckor betalar Försäkringskassan sjukpenning.", "ru": "После двух недель Försäkringskassan выплачивает пособие по болезни.", "en": "After two weeks, the Social Insurance Agency pays sickness benefit." }
+    },
+    {
+      "id": "sjuklon",
+      "sv": "sjuklön",
+      "translations": { "ru": "оплата больничного (от работодателя)", "en": "sick pay (paid by the employer)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjuklön", "defSg": "sjuklönen", "indefPl": "sjuklöner", "defPl": "sjuklönerna" },
+      "example": { "sv": "Arbetsgivaren betalar sjuklön de första fjorton dagarna.", "ru": "Работодатель платит по больничному первые четырнадцать дней.", "en": "The employer pays sick pay for the first fourteen days." }
+    },
+    {
+      "id": "karensdag",
+      "sv": "karensdag",
+      "translations": { "ru": "карентный день (первый неоплачиваемый день болезни)", "en": "waiting day (the first unpaid sick day)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en karensdag", "defSg": "karensdagen", "indefPl": "karensdagar", "defPl": "karensdagarna" },
+      "example": { "sv": "Den första sjukdagen kallas ofta karensdag.", "ru": "Первый день болезни часто называют карентным днём.", "en": "The first day of illness is often called a waiting day." }
+    },
+    {
+      "id": "karensavdrag",
+      "sv": "karensavdrag",
+      "translations": { "ru": "карентный вычет из зарплаты", "en": "the deduction for the waiting period" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett karensavdrag", "defSg": "karensavdraget", "indefPl": "karensavdrag", "defPl": "karensavdragen" },
+      "example": { "sv": "Karensavdraget motsvarar 20 procent av en genomsnittlig veckolön.", "ru": "Карентный вычет составляет 20 процентов от средней недельной зарплаты.", "en": "The waiting-period deduction equals 20 percent of an average week's pay." }
+    },
+    {
+      "id": "forsakringskassan",
+      "sv": "Försäkringskassan",
+      "translations": { "ru": "Кассы социального страхования Швеции", "en": "the Swedish Social Insurance Agency" },
+      "pos": "noun",
+      "note": { "ru": "Государственное ведомство, которое выплачивает пособия по болезни, родительские пособия и другие компенсации.", "en": "The government agency that pays out sickness benefit, parental benefit and other compensation." },
+      "example": { "sv": "Jag ansökte om föräldrapenning hos Försäkringskassan.", "ru": "Я подал(а) заявление на родительское пособие в Försäkringskassan.", "en": "I applied for parental benefit at the Social Insurance Agency." }
+    },
+    {
+      "id": "semesterdag",
+      "sv": "semesterdag",
+      "translations": { "ru": "день отпуска", "en": "vacation day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en semesterdag", "defSg": "semesterdagen", "indefPl": "semesterdagar", "defPl": "semesterdagarna" },
+      "example": { "sv": "Jag har tjugofem semesterdagar per år.", "ru": "У меня двадцать пять дней отпуска в год.", "en": "I have twenty-five vacation days a year." }
+    },
+    {
+      "id": "semesterersattning",
+      "sv": "semesterersättning",
+      "translations": { "ru": "отпускная компенсация", "en": "vacation pay, holiday compensation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en semesterersättning", "defSg": "semesterersättningen", "indefPl": "semesterersättningar", "defPl": "semesterersättningarna" },
+      "example": { "sv": "Du får semesterersättning om du slutar innan du tagit ut all semester.", "ru": "Ты получишь отпускную компенсацию, если уволишься, не использовав весь отпуск.", "en": "You get vacation pay if you leave before using all your vacation days." }
+    },
+    {
+      "id": "lakarintyg",
+      "sv": "läkarintyg",
+      "translations": { "ru": "справка от врача", "en": "medical certificate" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett läkarintyg", "defSg": "läkarintyget", "indefPl": "läkarintyg", "defPl": "läkarintygen" },
+      "example": { "sv": "Efter dag åtta måste du visa ett läkarintyg.", "ru": "После восьмого дня нужно предъявить справку от врача.", "en": "After day eight you need to show a medical certificate." }
+    },
+    {
+      "id": "sjukfranvaro",
+      "sv": "sjukfrånvaro",
+      "translations": { "ru": "отсутствие по болезни", "en": "sick absence" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sjukfrånvaron ökade under vintern.", "ru": "Отсутствие по болезни выросло зимой.", "en": "Sick absence increased during the winter." }
+    },
+    {
+      "id": "arbetsformaga",
+      "sv": "arbetsförmåga",
+      "translations": { "ru": "трудоспособность", "en": "work capacity" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Läkaren bedömer din arbetsförmåga.", "ru": "Врач оценивает твою трудоспособность.", "en": "The doctor assesses your work capacity." }
+    },
+    {
+      "id": "avdrag",
+      "sv": "avdrag",
+      "translations": { "ru": "вычет, удержание", "en": "deduction" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett avdrag", "defSg": "avdraget", "indefPl": "avdrag", "defPl": "avdragen" },
+      "example": { "sv": "Ett avdrag görs på lönen vid sjukdom.", "ru": "При болезни из зарплаты делается вычет.", "en": "A deduction is made from the salary in case of illness." }
+    }
+  ]
+}

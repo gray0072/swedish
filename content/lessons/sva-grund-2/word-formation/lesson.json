@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/word-formation",
+  "slug": "word-formation",
+  "title": {
+    "sv": "Ordbildning: prefix och suffix, produktiva mönster",
+    "ru": "Словообразование: приставки и суффиксы, продуктивные модели",
+    "en": "Word formation: prefixes and suffixes, the productive patterns"
+  },
+  "summary": {
+    "ru": "«O-», «be-», «-bar», «-lig» — несколько моделей, которые расширяют словарь без зубрёжки новых слов.",
+    "en": "\"O-\", \"be-\", \"-bar\", \"-lig\" — a handful of patterns that expand your vocabulary without memorising brand-new words."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "word-formation", "vocabulary"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 990,
+  "prerequisites": ["sva-grund-2/nominalisation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}
