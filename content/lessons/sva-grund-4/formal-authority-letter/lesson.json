@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/formal-authority-letter",
+  "slug": "formal-authority-letter",
+  "title": {
+    "sv": "Ett formellt brev och en vändning till en myndighet",
+    "ru": "Официальное письмо и обращение в госорган",
+    "en": "A formal letter and an approach to a public authority"
+  },
+  "summary": {
+    "ru": "Самый формальный регистр шведского языка: как обратиться в государственный орган и попросить письменное решение.",
+    "en": "The most formal register of Swedish: how to approach a public authority and request a written decision."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "administration",
+    "formal-letter",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2010,
+  "prerequisites": [
+    "sva-grund-2/formal-letter-organisation"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

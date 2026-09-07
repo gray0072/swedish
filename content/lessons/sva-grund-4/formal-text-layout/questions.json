@@ -1,0 +1,131 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-formal-text-layout-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как оформляется заголовок по шведской типографской норме?", "en": "How is a heading formatted per Swedish typographic convention?" },
+      "choices": [
+        { "ru": "Без точки в конце, заглавная буква только у первого слова", "en": "No full stop at the end, only the first word capitalised" },
+        { "ru": "Всегда полностью заглавными буквами", "en": "Always in full capitals" },
+        { "ru": "С точкой в конце, как обычное предложение", "en": "With a full stop at the end, like an ordinary sentence" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-text-layout-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Можно ли в одном документе смешивать отступ (indrag) и пустую строку (blankrad) для разделения абзацев?", "en": "Can a single document mix indentation (indrag) and a blank line (blankrad) to separate paragraphs?" },
+      "choices": [
+        { "ru": "Нет, выбирается один способ на весь документ", "en": "No, one method is chosen for the whole document" },
+        { "ru": "Да, это не имеет значения", "en": "Yes, it doesn't matter" },
+        { "ru": "Только в академических текстах", "en": "Only in academic texts" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-text-layout-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Когда используют нумерованный список, а не маркированный?", "en": "When do you use a numbered list rather than a bulleted one?" },
+      "choices": [
+        { "ru": "Когда порядок пунктов важен", "en": "When the order of items matters" },
+        { "ru": "Когда пунктов больше пяти", "en": "When there are more than five items" },
+        { "ru": "Никогда, буллеты всегда лучше", "en": "Never, bullets are always better" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-text-layout-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что важнее всего для пунктуации формального документа целиком?", "en": "What matters most for the punctuation of a formal document as a whole?" },
+      "choices": [
+        { "ru": "Единообразие (последовательность) по всему тексту", "en": "Consistency throughout the whole text" },
+        { "ru": "Максимальное разнообразие знаков", "en": "The greatest possible variety of marks" },
+        { "ru": "Отсутствие знаков препинания вообще", "en": "The absence of punctuation altogether" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-text-layout-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "1.1 ___ — предыстория (заголовок подраздела)" },
+      "answer": ["Bakgrund"]
+    },
+    {
+      "id": "q-formal-text-layout-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ resultatet efter ett år. (оценить, императив от utvärdera)" },
+      "answer": ["Utvärdera"]
+    },
+    {
+      "id": "q-formal-text-layout-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Заголовок в формальном шведском тексте обычно заканчивается точкой.", "en": "A heading in formal Swedish text usually ends with a full stop." },
+      "answer": false,
+      "explanation": { "ru": "Заголовки пишутся без точки в конце.", "en": "Headings are written without a full stop at the end." }
+    },
+    {
+      "id": "q-formal-text-layout-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Каждый пункт списка, если это самостоятельное предложение, начинается с заглавной буквы и заканчивается точкой.", "en": "Each list item, if it is a complete sentence, starts with a capital letter and ends with a full stop." },
+      "answer": true
+    },
+    {
+      "id": "q-formal-text-layout-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Иерархия заголовков строится от частного к общему.", "en": "Heading hierarchy goes from the specific to the general." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — от общего к частному (1, затем 1.1, затем 1.1.1).", "en": "The opposite — from general to specific (1, then 1.1, then 1.1.1)." }
+    },
+    {
+      "id": "q-formal-text-layout-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Несогласованность в оформлении (например, кавычки то такие, то другие) выглядит небрежно, даже если грамматика верна.", "en": "Inconsistent formatting (e.g. mixing different quotation marks) looks careless even if the grammar is correct." },
+      "answer": true
+    },
+    {
+      "id": "q-formal-text-layout-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери заголовок раздела: «Цель и постановка вопроса» с нумерацией 1.1.1", "en": "Build the section heading: \"Purpose and research question\" numbered 1.1.1" },
+      "tokens": ["1.1.1", "Syfte", "och", "frågeställning"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-formal-text-layout-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь термин с его значением", "en": "Match the term with its meaning" },
+      "pairs": [
+        ["rubrik", "заголовок / heading"],
+        ["indrag", "отступ / indentation"],
+        ["blankrad", "пустая строка / blank line"],
+        ["punktlista", "маркированный список / bulleted list"]
+      ]
+    },
+    {
+      "id": "q-formal-text-layout-mc-5",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Где типичнее разделение абзацев пустой строкой (blankrad)?", "en": "Where is separating paragraphs with a blank line (blankrad) more typical?" },
+      "choices": [
+        { "ru": "В письмах, отчётах, цифровых документах", "en": "In letters, reports, digital documents" },
+        { "ru": "Только в поэзии", "en": "Only in poetry" },
+        { "ru": "Никогда не используется", "en": "It is never used" }
+      ],
+      "answer": 0
+    }
+  ]
+}

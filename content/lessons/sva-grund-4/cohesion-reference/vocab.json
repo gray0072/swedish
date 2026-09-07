@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "det-ref",
+      "sv": "det",
+      "translations": { "ru": "это (отсылка к целой ситуации)", "en": "it/that (refers to a whole situation)" },
+      "pos": "pron",
+      "example": { "sv": "Han fick jobbet. Det gläder mig.", "ru": "Он получил работу. Это меня радует.", "en": "He got the job. That makes me glad." }
+    },
+    {
+      "id": "detta-ref",
+      "sv": "detta",
+      "translations": { "ru": "это, данный (перед ett-словом, подытоживает предыдущее)", "en": "this (before an ett-word, sums up what came before)" },
+      "pos": "pron",
+      "example": { "sv": "Detta beslut kom som en överraskning.", "ru": "Это решение стало неожиданностью.", "en": "This decision came as a surprise." }
+    },
+    {
+      "id": "denna-ref",
+      "sv": "denna",
+      "translations": { "ru": "эта, данная (перед en-словом)", "en": "this (before an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Denna utveckling oroar många.", "ru": "Это развитие событий тревожит многих.", "en": "This development worries many." }
+    },
+    {
+      "id": "dessa-ref",
+      "sv": "dessa",
+      "translations": { "ru": "эти (множественное число)", "en": "these (plural)" },
+      "pos": "pron"
+    },
+    {
+      "id": "vilket-ref",
+      "sv": "vilket",
+      "translations": { "ru": "что (отсылает ко всему предыдущему придаточному)", "en": "which (refers back to the whole preceding clause)" },
+      "pos": "pron",
+      "example": { "sv": "Han kom för sent, vilket irriterade henne.", "ru": "Он опоздал, что её раздражало.", "en": "He came late, which annoyed her." },
+      "note": { "ru": "Всегда в форме среднего рода, независимо от рода/числа окружающих слов.", "en": "Always in the neuter form, regardless of the gender/number of the surrounding words." }
+    },
+    {
+      "id": "glaedja",
+      "sv": "glädja",
+      "translations": { "ru": "радовать", "en": "to make glad, to please" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "glädja", "present": "gläder", "past": "gladde", "supine": "glatt" }
+    },
+    {
+      "id": "irritera",
+      "sv": "irritera",
+      "translations": { "ru": "раздражать", "en": "to irritate, to annoy" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "irritera", "present": "irriterar", "past": "irriterade", "supine": "irriterat" }
+    },
+    {
+      "id": "beslut-ref",
+      "sv": "beslut",
+      "translations": { "ru": "решение", "en": "decision" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "beslut", "defSg": "beslutet", "indefPl": "beslut", "defPl": "besluten" }
+    },
+    {
+      "id": "utveckling",
+      "sv": "utveckling",
+      "translations": { "ru": "развитие (событий)", "en": "development" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "utveckling", "defSg": "utvecklingen", "indefPl": "utvecklingar", "defPl": "utvecklingarna" }
+    },
+    {
+      "id": "oeverraskning",
+      "sv": "överraskning",
+      "translations": { "ru": "неожиданность, сюрприз", "en": "surprise" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "överraskning", "defSg": "överraskningen", "indefPl": "överraskningar", "defPl": "överraskningarna" }
+    },
+    {
+      "id": "protest-ref",
+      "sv": "protest",
+      "translations": { "ru": "протест", "en": "protest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "protest", "defSg": "protesten", "indefPl": "protester", "defPl": "protesterna" }
+    },
+    {
+      "id": "leda-till",
+      "sv": "leda till",
+      "translations": { "ru": "приводить к", "en": "to lead to" },
+      "pos": "phrase",
+      "example": { "sv": "Detta ledde till stora protester.", "ru": "Это привело к масштабным протестам.", "en": "This led to major protests." }
+    },
+    {
+      "id": "kraftigt",
+      "sv": "kraftigt",
+      "translations": { "ru": "резко, сильно", "en": "sharply, strongly" },
+      "pos": "adv"
+    }
+  ]
+}

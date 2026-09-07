@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-self-proofreading-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Зачем читать текст вслух перед сдачей?", "en": "Why read a text aloud before handing it in?" },
+      "choices": [
+        { "ru": "Чтобы услышать, звучат ли предложения естественно", "en": "To hear whether the sentences sound natural" },
+        { "ru": "Чтобы быстрее закончить работу", "en": "To finish the work faster" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-self-proofreading-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «en sak i taget»?", "en": "What does \"en sak i taget\" mean?" },
+      "choices": ["одно дело за раз / one thing at a time", "свежий взгляд / fresh eyes", "искать повторы / to look for repetitions"],
+      "answer": 0
+    },
+    {
+      "id": "q-self-proofreading-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово значит «пунктуация»?", "en": "Which word means \"punctuation\"?" },
+      "choices": ["interpunktion", "stavfel", "verbform"],
+      "answer": 0
+    },
+    {
+      "id": "q-self-proofreading-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «lägga åt sidan»?", "en": "What does \"lägga åt sidan\" mean?" },
+      "choices": ["отложить в сторону / to set aside", "проверять / to check", "отмечать / to mark"],
+      "answer": 0
+    },
+    {
+      "id": "q-self-proofreading-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Läs texten ___ för dig själv för att höra om meningarna låter naturliga. (högt)" },
+      "answer": ["högt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-self-proofreading-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Lägg texten åt ___ och läs den igen senare. (sidan)" },
+      "answer": ["sidan"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-self-proofreading-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ det du är osäker på och slå upp det i en ordbok senare. (Markera)" },
+      "answer": ["Markera"],
+      "acceptAlso": ["markera"]
+    },
+    {
+      "id": "q-self-proofreading-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Проверять один тип ошибок за раз эффективнее, чем искать всё сразу.", "en": "Checking one error type at a time is more effective than looking for everything at once." },
+      "answer": true
+    },
+    {
+      "id": "q-self-proofreading-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Fräscha ögon» означает «уставшие глаза».", "en": "\"Fräscha ögon\" means \"tired eyes\"." },
+      "answer": false,
+      "explanation": { "ru": "«Fräscha ögon» значит «свежий взгляд».", "en": "\"Fräscha ögon\" means \"fresh eyes\"." }
+    },
+    {
+      "id": "q-self-proofreading-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Genomläsning» — это проход по тексту при чтении.", "en": "\"Genomläsning\" is a pass through a text while reading." },
+      "answer": true
+    },
+    {
+      "id": "q-self-proofreading-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["stavfel", "орфографическая ошибка / spelling mistake"],
+        ["upprepning", "повторение / repetition"],
+        ["osäker", "неуверенный / unsure"],
+        ["granska", "просматривать / to review"]
+      ]
+    },
+    {
+      "id": "q-self-proofreading-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Проверяйте по одному аспекту за раз.»", "en": "Build the sentence: \"Check one thing at a time.\"" },
+      "tokens": ["Kontrollera", "en", "sak", "i", "taget"],
+      "answer": [0, 1, 2, 3, 4]
+    }
+  ]
+}

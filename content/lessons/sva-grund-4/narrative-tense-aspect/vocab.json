@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "historiskt-presens",
+      "sv": "historiskt presens",
+      "translations": { "ru": "историческое настоящее время", "en": "historical present" },
+      "pos": "phrase",
+      "example": { "sv": "Det är år 1863. Kungen reser till huvudstaden.", "ru": "Идёт 1863 год. Король едет в столицу.", "en": "It is the year 1863. The king travels to the capital." }
+    },
+    {
+      "id": "berattelse",
+      "sv": "berättelse",
+      "translations": { "ru": "рассказ, повествование", "en": "story, narrative" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" }
+    },
+    {
+      "id": "resa-verb",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+    },
+    {
+      "id": "mota",
+      "sv": "möta",
+      "translations": { "ru": "встречать", "en": "to meet" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "möta", "present": "möter", "past": "mötte", "supine": "mött" }
+    },
+    {
+      "id": "huvudstad",
+      "sv": "huvudstad",
+      "translations": { "ru": "столица", "en": "capital city" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" }
+    },
+    {
+      "id": "torg",
+      "sv": "torg",
+      "translations": { "ru": "площадь", "en": "square (in a city)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" }
+    },
+    {
+      "id": "jublande",
+      "sv": "jublande",
+      "translations": { "ru": "ликующий", "en": "cheering, jubilant" },
+      "pos": "adj"
+    },
+    {
+      "id": "folkmassa",
+      "sv": "folkmassa",
+      "translations": { "ru": "толпа народа", "en": "crowd" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en folkmassa", "defSg": "folkmassan", "indefPl": "folkmassor", "defPl": "folkmassorna" }
+    },
+    {
+      "id": "plotsligt",
+      "sv": "plötsligt",
+      "translations": { "ru": "вдруг, внезапно", "en": "suddenly" },
+      "pos": "adv"
+    },
+    {
+      "id": "ljud",
+      "sv": "ljud",
+      "translations": { "ru": "звук", "en": "sound" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ljud", "defSg": "ljudet", "indefPl": "ljud", "defPl": "ljuden" }
+    },
+    {
+      "id": "hora-verb",
+      "sv": "höra",
+      "translations": { "ru": "слышать", "en": "to hear" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" }
+    },
+    {
+      "id": "skog",
+      "sv": "skog",
+      "translations": { "ru": "лес", "en": "forest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skog", "defSg": "skogen", "indefPl": "skogar", "defPl": "skogarna" }
+    },
+    {
+      "id": "kulmen",
+      "sv": "kulmen",
+      "translations": { "ru": "кульминация", "en": "climax" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Слово почти не изменяется по числам в обычном употреблении.", "en": "The word rarely changes for number in ordinary use." }
+    }
+  ]
+}

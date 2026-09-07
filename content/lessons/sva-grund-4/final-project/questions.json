@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-final-project-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза используется, чтобы представить своё исследование?", "en": "Which phrase is used to present your investigation?" },
+      "choices": ["i mitt arbete har jag undersökt", "om jag skulle göra om det", "jag valde det här ämnet"],
+      "answer": 0
+    },
+    {
+      "id": "q-final-project-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «dra slutsatser»?", "en": "What does \"dra slutsatser\" mean?" },
+      "choices": ["делать выводы / to draw conclusions", "выбирать тему / to choose a topic", "защищать работу / to defend one's work"],
+      "answer": 0
+    },
+    {
+      "id": "q-final-project-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Зачем нужна фраза «om jag skulle göra om det»?", "en": "What is the phrase \"om jag skulle göra om det\" used for?" },
+      "choices": [
+        { "ru": "Для честной рефлексии над собственной работой", "en": "For honest reflection on your own work" },
+        { "ru": "Чтобы просто похвалить свою работу", "en": "Just to praise your own work" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-final-project-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что такое slutprojektet в этом уроке?", "en": "What is the slutprojektet in this lesson?" },
+      "choices": [
+        { "ru": "Итоговая письменная работа, которую нужно защитить устно", "en": "A final piece of writing that must be defended orally" },
+        { "ru": "Ежедневное домашнее задание по грамматике", "en": "A daily grammar homework exercise" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-final-project-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "I mitt arbete har jag ___ hur unga vuxna ser på distansarbete. (undersökt)" },
+      "answer": ["undersökt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-final-project-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ det här ämnet eftersom det engagerar mig personligen. (valde)" },
+      "answer": ["valde"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-final-project-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Jag ska ___ mitt arbete muntligt inför klassen. (försvara)" },
+      "answer": ["försvara"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-final-project-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Slutprojektet соединяет письменный текст и устную защиту.", "en": "The slutprojektet brings together a written text and an oral defence." },
+      "answer": true
+    },
+    {
+      "id": "q-final-project-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Disposition» значит «структура, план работы».", "en": "\"Disposition\" means \"outline, structure\"." },
+      "answer": true
+    },
+    {
+      "id": "q-final-project-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Avslutningsvis» значит «в начале».", "en": "\"Avslutningsvis\" means \"at the beginning\"." },
+      "answer": false,
+      "explanation": { "ru": "«Avslutningsvis» значит «в заключение, наконец».", "en": "\"Avslutningsvis\" means \"in conclusion, finally\"." }
+    },
+    {
+      "id": "q-final-project-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["metod", "метод / method"],
+        ["slutsats", "вывод / conclusion"],
+        ["ämne", "тема / topic"],
+        ["disposition", "структура / outline"]
+      ]
+    },
+    {
+      "id": "q-final-project-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если бы я делал(а) это заново, я бы опросил(а) больше людей.»", "en": "Build the sentence: \"If I were to do it again, I would interview more people.\"" },
+      "tokens": ["Om", "jag", "skulle", "göra", "om", "det", "skulle", "jag", "intervjua", "fler", "personer"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-kallkritik-assessment-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Всегда нужно проверять подлинность источника.»", "en": "Build the sentence: \"You must always check a source's authenticity.\"" },
+      "tokens": ["Man måste alltid", "innan man litar på den.", "kontrollera källans äkthet"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-kallkritik-assessment-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «У источника, похоже, есть явная тенденциозность.»", "en": "Build the sentence: \"The source seems to have a clear bias.\"" },
+      "tokens": ["Källan", "en tydlig tendens", "verkar ha"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-kallkritik-assessment-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Всегда проверяй важные факты минимум по двум источникам.»", "en": "Build the sentence: \"Always verify important facts against at least two sources.\"" },
+      "tokens": ["viktiga fakta", "Verifiera alltid", "i minst två källor."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-kallkritik-assessment-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["äkthet", "подлинность"],
+        ["tidssamband", "связь по времени"],
+        ["beroende", "зависимость"],
+        ["tendens", "тенденциозность"]
+      ]
+    },
+    {
+      "id": "q-kallkritik-assessment-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["primärkälla", "первичный источник"],
+        ["sekundärkälla", "вторичный источник"],
+        ["referat", "пересказ"],
+        ["trovärdighet", "достоверность"]
+      ]
+    },
+    {
+      "id": "q-kallkritik-assessment-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Äkthet», «tidssamband», «beroende» и «tendens» — это четыре классических критерия källkritik.", "en": "\"Äkthet\", \"tidssamband\", \"beroende\" and \"tendens\" are the four classic källkritik criteria." },
+      "answer": true
+    },
+    {
+      "id": "q-kallkritik-assessment-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Referat должен включать собственное мнение автора о содержании источника.", "en": "A referat should include the writer's own opinion about the content of the source." },
+      "answer": false,
+      "explanation": {
+        "ru": "Referat — это нейтральный пересказ, без примеси личного мнения.",
+        "en": "A referat is a neutral summary, without mixing in a personal opinion."
+      }
+    },
+    {
+      "id": "q-kallkritik-assessment-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем ближе по времени источник к самому событию, тем обычно он надёжнее.", "en": "The closer a source is in time to the event itself, the more reliable it usually is." },
+      "answer": true
+    },
+    {
+      "id": "q-kallkritik-assessment-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Вторичный источник (sekundärkälla) — это то же самое, что и первичный источник (primärkälla).", "en": "A secondary source (sekundärkälla) is the same thing as a primary source (primärkälla)." },
+      "answer": false,
+      "explanation": {
+        "ru": "Sekundärkälla опирается на primärkälla и не является тем же самым источником.",
+        "en": "A sekundärkälla builds on a primärkälla and is not the same source."
+      }
+    },
+    {
+      "id": "q-kallkritik-assessment-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Källan verkar ha en tydlig ___ eftersom avsändaren vill sälja en produkt. (тенденциозность)" },
+      "answer": ["tendens"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-kallkritik-assessment-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ alltid viktiga fakta i minst två källor. (верифицируй)" },
+      "answer": ["Verifiera"],
+      "acceptAlso": ["verifiera"]
+    },
+    {
+      "id": "q-kallkritik-assessment-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vad är ___ med den här texten — att informera eller att övertyga? (замысел, цель)" },
+      "answer": ["syftet"],
+      "acceptAlso": ["syfte"]
+    },
+    {
+      "id": "q-kallkritik-assessment-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что проверяет критерий «beroende»?",
+        "en": "What does the \"beroende\" criterion check?"
+      },
+      "choices": ["независим ли источник от других источников", "насколько источник свежий по времени", "подлинность источника", "есть ли у источника скрытая цель"],
+      "answer": 0
+    },
+    {
+      "id": "q-kallkritik-assessment-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «беспристрастный»?",
+        "en": "Which word means \"impartial\"?"
+      },
+      "choices": ["opartisk", "vinklad", "beroende", "tendens"],
+      "answer": 0
+    },
+    {
+      "id": "q-kallkritik-assessment-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Зачем нужна källkritik?",
+        "en": "What is källkritik for?"
+      },
+      "choices": ["чтобы оценить надёжность источника и не стать жертвой дезинформации", "чтобы сделать текст короче", "чтобы найти орфографические ошибки", "чтобы перевести текст на другой язык"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "id": "ta-stallning-till",
+      "sv": "ta ställning till",
+      "translations": { "ru": "занять позицию по (чему-то)", "en": "to take a position on" },
+      "pos": "phrase",
+      "example": { "sv": "Hon tar ställning till förslaget.", "ru": "Она занимает позицию по этому предложению.", "en": "She takes a position on the proposal." }
+    },
+    {
+      "id": "dra-slutsatsen-att",
+      "sv": "dra slutsatsen att",
+      "translations": { "ru": "сделать вывод, что", "en": "to draw the conclusion that" },
+      "pos": "phrase",
+      "example": { "sv": "Utredningen drar slutsatsen att reformen har gett önskad effekt.", "ru": "Расследование делает вывод, что реформа дала желаемый эффект.", "en": "The inquiry concludes that the reform has had the desired effect." }
+    },
+    {
+      "id": "lagga-fram-ett-forslag",
+      "sv": "lägga fram ett förslag",
+      "translations": { "ru": "выдвинуть предложение", "en": "to put forward a proposal" },
+      "pos": "phrase",
+      "example": { "sv": "Regeringen lägger fram ett nytt förslag nästa vecka.", "ru": "Правительство выдвигает новое предложение на следующей неделе.", "en": "The government is putting forward a new proposal next week." }
+    },
+    {
+      "id": "fora-en-diskussion",
+      "sv": "föra en diskussion",
+      "translations": { "ru": "вести дискуссию", "en": "to hold, lead a discussion" },
+      "pos": "phrase",
+      "example": { "sv": "Kommittén för en diskussion om budgeten.", "ru": "Комитет ведёт дискуссию о бюджете.", "en": "The committee is holding a discussion about the budget." }
+    },
+    {
+      "id": "ge-uttryck-for",
+      "sv": "ge uttryck för",
+      "translations": { "ru": "выразить (мнение, чувство)", "en": "to express (an opinion, a feeling)" },
+      "pos": "phrase",
+      "example": { "sv": "Han ger uttryck för sin oro över klimatet.", "ru": "Он выражает свою обеспокоенность климатом.", "en": "He expresses his concern about the climate." }
+    },
+    {
+      "id": "stallning",
+      "sv": "ställning",
+      "translations": { "ru": "позиция, положение", "en": "position, stance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ställning", "defSg": "ställningen", "indefPl": "ställningar", "defPl": "ställningarna" }
+    },
+    {
+      "id": "slutsats",
+      "sv": "slutsats",
+      "translations": { "ru": "вывод, заключение", "en": "conclusion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+    },
+    {
+      "id": "forslag",
+      "sv": "förslag",
+      "translations": { "ru": "предложение (идея)", "en": "proposal, suggestion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "förslag", "defSg": "förslaget", "indefPl": "förslag", "defPl": "förslagen" }
+    },
+    {
+      "id": "diskussion",
+      "sv": "diskussion",
+      "translations": { "ru": "дискуссия, обсуждение", "en": "discussion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" }
+    },
+    {
+      "id": "uttryck",
+      "sv": "uttryck",
+      "translations": { "ru": "выражение", "en": "expression" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "uttryck", "defSg": "uttrycket", "indefPl": "uttryck", "defPl": "uttrycken" }
+    },
+    {
+      "id": "utredning",
+      "sv": "utredning",
+      "translations": { "ru": "расследование, официальное исследование", "en": "inquiry, official investigation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utredning", "defSg": "utredningen", "indefPl": "utredningar", "defPl": "utredningarna" }
+    },
+    {
+      "id": "reform",
+      "sv": "reform",
+      "translations": { "ru": "реформа", "en": "reform" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reform", "defSg": "reformen", "indefPl": "reformer", "defPl": "reformerna" }
+    },
+    {
+      "id": "effekt",
+      "sv": "effekt",
+      "translations": { "ru": "эффект, результат", "en": "effect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en effekt", "defSg": "effekten", "indefPl": "effekter", "defPl": "effekterna" }
+    },
+    {
+      "id": "budget",
+      "sv": "budget",
+      "translations": { "ru": "бюджет", "en": "budget" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en budget", "defSg": "budgeten", "indefPl": "budgetar", "defPl": "budgetarna" }
+    },
+    {
+      "id": "kommitte",
+      "sv": "kommitté",
+      "translations": { "ru": "комитет", "en": "committee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommitté", "defSg": "kommittén", "indefPl": "kommittéer", "defPl": "kommittéerna" }
+    },
+    {
+      "id": "dra-verb",
+      "sv": "dra",
+      "translations": { "ru": "тащить, тянуть; делать (вывод)", "en": "to pull, draw" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dra", "present": "drar", "past": "drog", "supine": "dragit" }
+    },
+    {
+      "id": "lagga-verb",
+      "sv": "lägga",
+      "translations": { "ru": "класть, положить", "en": "to lay, put" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "lägga", "present": "lägger", "past": "lade", "supine": "lagt" }
+    }
+  ]
+}

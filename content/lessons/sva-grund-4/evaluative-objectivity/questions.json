@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-evaluative-objectivity-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой глагол нейтрален, а не оценочен?", "en": "Which verb is neutral, not evaluative?" },
+      "choices": ["skjuta i höjden", "öka", "explodera", "rasa"],
+      "answer": 1
+    },
+    {
+      "id": "q-evaluative-objectivity-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Priset sköt i höjden med hela 10 procent» — что здесь добавляет оценку?", "en": "\"Priset sköt i höjden med hela 10 procent\" — what adds the evaluative judgment here?" },
+      "choices": ["Число 10", "Глагол «sköt i höjden» и усилитель «hela»", "Слово «procent»", "Ничего, это нейтральное предложение"],
+      "answer": 1
+    },
+    {
+      "id": "q-evaluative-objectivity-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Меняет ли оценочная лексика сами факты?", "en": "Does evaluative vocabulary change the facts themselves?" },
+      "choices": ["Да, полностью меняет", "Нет, она добавляет скрытую позицию автора, не меняя факты", "Да, но только числа", "Оценочная лексика делает текст грамматически неверным"],
+      "answer": 1
+    },
+    {
+      "id": "q-evaluative-objectivity-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком жанре уместна оценочная лексика вроде «rasa», «enorm», «chockerande»?", "en": "In which genre is evaluative vocabulary like \"rasa\", \"enorm\", \"chockerande\" appropriate?" },
+      "choices": ["В utredande text", "В debattartikel (статье-мнении)", "Нигде не уместна", "Только в юридических документах"],
+      "answer": 1
+    },
+    {
+      "id": "q-evaluative-objectivity-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Почему utredande text на письменном экзамене требует нейтральной лексики?", "en": "Why does the exam's utredande text require neutral vocabulary?" },
+      "choices": ["Потому что этот жанр требует объективного, беспозиционного изложения фактов", "Потому что оценочная лексика грамматически запрещена", "Потому что экзамен не проверяет лексику", "Потому что utredande text — это художественный жанр"],
+      "answer": 0
+    },
+    {
+      "id": "q-evaluative-objectivity-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Minska» и «rasa» могут описывать одно и то же изменение количества, но с разной степенью оценки.", "en": "\"Minska\" and \"rasa\" can describe the same change in quantity, but with a different degree of judgment." },
+      "answer": true
+    },
+    {
+      "id": "q-evaluative-objectivity-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Усилители вроде «hela» и «enorm» типичны для нейтрального utredande text.", "en": "Intensifiers like \"hela\" and \"enorm\" are typical of a neutral utredande text." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот, они типичны для оценочного, персуазивного письма, а не для нейтрального изложения.", "en": "The opposite: they're typical of evaluative, persuasive writing, not neutral presentation." }
+    },
+    {
+      "id": "q-evaluative-objectivity-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Умение распознавать оценочную лексику полезно и для нейтрального письма, и для убеждающего.", "en": "Recognising evaluative vocabulary is useful for both neutral and persuasive writing." },
+      "answer": true
+    },
+    {
+      "id": "q-evaluative-objectivity-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Priset ___ med 10 procent. (нейтральный глагол роста)" },
+      "answer": ["ökade"]
+    },
+    {
+      "id": "q-evaluative-objectivity-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Priset sköt i höjden med ___ 10 procent. (усилитель)" },
+      "answer": ["hela"]
+    },
+    {
+      "id": "q-evaluative-objectivity-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Antalet arbetslösa ___ dramatiskt under året. (оценочный глагол убывания)" },
+      "answer": ["rasade"]
+    },
+    {
+      "id": "q-evaluative-objectivity-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери нейтральное предложение: «Цена выросла на 10 процентов.»", "en": "Build the neutral sentence: \"The price increased by 10 percent.\"" },
+      "tokens": ["Priset", "ökade", "med", "10", "procent"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-evaluative-objectivity-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь нейтральное слово с его оценочным аналогом", "en": "Match the neutral word with its evaluative counterpart" },
+      "pairs": [
+        ["öka", "skjuta i höjden"],
+        ["minska", "rasa"],
+        ["en vinst på en miljon kronor", "en enorm vinst på hela en miljon kronor"]
+      ]
+    }
+  ]
+}

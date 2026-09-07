@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/nominalisation-academic-business",
+  "slug": "nominalisation-academic-business",
+  "title": {
+    "sv": "Nominalisering i akademisk och affärsmässig text",
+    "ru": "Номинализация в академическом и деловом тексте",
+    "en": "Nominalisation in academic and business text"
+  },
+  "summary": {
+    "ru": "Один и тот же абзац: от глаголов к сплошным существительным — как выглядит академия и офис.",
+    "en": "The same paragraph, from verbs to solid nouns — what academic and office writing sound like."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "nominalisation",
+    "academic-style",
+    "business-style",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1800,
+  "prerequisites": [
+    "sva-grund-3/nominal-verbal-style"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

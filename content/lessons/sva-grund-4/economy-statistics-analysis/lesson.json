@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/economy-statistics-analysis",
+  "slug": "economy-statistics-analysis",
+  "title": {
+    "sv": "Ekonomi och arbetsmarknad: att analysera statistik",
+    "ru": "Экономика и рынок труда: анализ статистики",
+    "en": "The economy and the labour market: analysing statistics"
+  },
+  "summary": {
+    "ru": "Фразы для анализа (а не только описания) экономической статистики: Statistiken tyder på att..., en möjlig förklaring är..., detta kan bero på flera faktorer.",
+    "en": "Phrases for analysing (not just describing) economic statistics: Statistiken tyder på att..., en möjlig förklaring är..., detta kan bero på flera faktorer."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "economy", "statistics"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2110,
+  "prerequisites": ["sva-grund-3/economy-labour-trends"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

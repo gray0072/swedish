@@ -7,21 +7,25 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Content
 
-- [ ] **SVA grund delkurs 4 has no lessons at all** — all 25 topics and 20 grammar
-  points at the level are still `[ ]`. If it gets the same "real text format" treatment
-  delkurs 1-3's topics didn't get, that format still needs to be designed first (reading
-  passage field, comprehension question types, `LessonPage` UI — see `SPEC.md` §5);
-  otherwise it can reuse the same vocab/phrases pipeline as delkurs 1-3. This is the last
-  remaining level, and finishing it completes SVA grund end to end.
 - [ ] **SFI kurs D** has only 3 lessons, **kurs C** has 5. `CURRICULUM.md` lists roughly
-  20 more topics under each level. A good candidate for a run with parallel agents
-  (the approach is described in the CHANGELOG entry for 2026-09-05).
-- [ ] `CURRICULUM.md`'s grammar lists: **60/160 points now have a dedicated lesson** — all
-  of SVA grund delkurs 1, 2 and 3, each with bilingual (RU/EN) theory via the
-  `theory_en.md` companion file. The other 100 points (SFI kurs A–D, SVA grund delkurs 4)
-  still rely on grammar being threaded through topic lessons' theory rather than a
-  dedicated lesson. There are also three reference articles in `content/grammar/`.
-- [ ] None of the 161 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
+  20 more topics under each level — the last remaining gap in the level-by-level
+  content plan now that all of SVA grund (delkurs 1-4) is done. A good candidate for a
+  run with parallel agents (the approach is described in the CHANGELOG entry for
+  2026-09-05).
+- [ ] `CURRICULUM.md`'s grammar lists: **80/160 points now have a dedicated lesson** — all
+  of SVA grund delkurs 1-4, each with bilingual (RU/EN) theory via the `theory_en.md`
+  companion file. The other 80 points (SFI kurs A–D) still rely on grammar being
+  threaded through topic lessons' theory rather than a dedicated lesson. There are also
+  three reference articles in `content/grammar/`.
+- [ ] The "real text-lesson format" (a reading-passage field, comprehension question
+  types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
+  that would ideally use it (reading a short story and retelling it, a referat with a
+  cited source, analysing a literary text, källkritik) shipped instead as an ordinary
+  vocab/phrases lesson teaching the skill's vocabulary rather than embedding an actual
+  text. This is a deliberate, repeated simplification across all 100 SVA grund topics,
+  not a per-level gap anymore — worth revisiting as a real feature if the vocab/phrases
+  version turns out to be too shallow in practice.
+- [ ] None of the 206 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
   everything still fits the 5-minute limit on a single topic. If a broader topic shows
   up, split it into parts rather than trimming it.
 

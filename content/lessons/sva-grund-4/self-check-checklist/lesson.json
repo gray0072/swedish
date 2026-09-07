@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/self-check-checklist",
+  "slug": "self-check-checklist",
+  "title": {
+    "sv": "Språkgranskning: vanliga fel och en checklista för självgranskning",
+    "ru": "Языковая правка: типичные ошибки, чек-лист самопроверки",
+    "en": "Proofreading: the typical mistakes, a self-check list"
+  },
+  "summary": {
+    "ru": "Финальный чек-лист перед сдачей текста: V2, род существительных, двойная определённость, sin/hans.",
+    "en": "The final checklist before you submit a text: V2, noun gender, double definiteness, sin/hans."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "writing", "proofreading", "review"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1950,
+  "prerequisites": ["sva-grund-3/proofreading-techniques"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

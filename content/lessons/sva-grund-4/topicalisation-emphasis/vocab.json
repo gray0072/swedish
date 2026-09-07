@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "topikalisering",
+      "sv": "topikalisering",
+      "translations": { "ru": "топикализация", "en": "topicalisation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en topikalisering", "defSg": "topikaliseringen", "indefPl": "topikaliseringar", "defPl": "topikaliseringarna" }
+    },
+    {
+      "id": "fundament",
+      "sv": "fundament",
+      "translations": { "ru": "фундамент (первое место в предложении)", "en": "fundament (first position in a clause)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+    },
+    {
+      "id": "emfas",
+      "sv": "emfas",
+      "translations": { "ru": "эмфаза, выделение", "en": "emphasis" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en emfas", "defSg": "emfasen", "indefPl": "emfaser", "defPl": "emfaserna" }
+    },
+    {
+      "id": "betona",
+      "sv": "betona",
+      "translations": { "ru": "подчёркивать, выделять", "en": "to emphasise, stress" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+    },
+    {
+      "id": "kontrast",
+      "sv": "kontrast",
+      "translations": { "ru": "контраст, противопоставление", "en": "contrast" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" }
+    },
+    {
+      "id": "objekt-noun",
+      "sv": "objekt",
+      "translations": { "ru": "объект, дополнение", "en": "object" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett objekt", "defSg": "objektet", "indefPl": "objekt", "defPl": "objekten" }
+    },
+    {
+      "id": "adverbial",
+      "sv": "adverbial",
+      "translations": { "ru": "обстоятельство", "en": "adverbial" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett adverbial", "defSg": "adverbialet", "indefPl": "adverbial", "defPl": "adverbialen" }
+    },
+    {
+      "id": "se-verb",
+      "sv": "se",
+      "translations": { "ru": "видеть, смотреть", "en": "to see, watch" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" }
+    },
+    {
+      "id": "bo-verb",
+      "sv": "bo",
+      "translations": { "ru": "жить, проживать", "en": "to live, reside" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+    },
+    {
+      "id": "traffa",
+      "sv": "träffa",
+      "translations": { "ru": "встречать (кого-то)", "en": "to meet (someone)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+    },
+    {
+      "id": "losa",
+      "sv": "lösa",
+      "translations": { "ru": "решать (проблему)", "en": "to solve" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "lösa", "present": "löser", "past": "löste", "supine": "löst" }
+    },
+    {
+      "id": "gang",
+      "sv": "gång",
+      "translations": { "ru": "раз (при счёте)", "en": "time (occasion)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gång", "defSg": "gången", "indefPl": "gånger", "defPl": "gångerna" }
+    }
+  ]
+}

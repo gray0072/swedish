@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "id": "korrekturlasa",
+      "sv": "korrekturläsa",
+      "translations": { "ru": "вычитывать, делать корректуру", "en": "to proofread" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" }
+    },
+    {
+      "id": "korrekturlasning",
+      "sv": "korrekturläsning",
+      "translations": { "ru": "корректура, языковая правка", "en": "proofreading" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "lasa-hogt",
+      "sv": "läsa högt",
+      "translations": { "ru": "читать вслух", "en": "to read aloud" },
+      "pos": "phrase",
+      "example": { "sv": "Läs texten högt för dig själv för att höra om meningarna låter naturliga.", "ru": "Прочитайте текст вслух самому себе, чтобы услышать, звучат ли предложения естественно.", "en": "Read the text aloud to yourself, to hear whether the sentences sound natural." }
+    },
+    {
+      "id": "stavfel",
+      "sv": "stavfel",
+      "translations": { "ru": "орфографическая ошибка", "en": "spelling mistake" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett stavfel", "defSg": "stavfelet", "indefPl": "stavfel", "defPl": "stavfelen" }
+    },
+    {
+      "id": "interpunktion",
+      "sv": "interpunktion",
+      "translations": { "ru": "пунктуация", "en": "punctuation" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "en-sak-i-taget",
+      "sv": "en sak i taget",
+      "translations": { "ru": "одно дело за раз", "en": "one thing at a time" },
+      "pos": "phrase",
+      "example": { "sv": "Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer.", "ru": "Проверяйте по одному аспекту за раз — сначала орфографию, потом пунктуацию, потом формы глаголов.", "en": "Check one thing at a time — first spelling, then punctuation, then verb forms." }
+    },
+    {
+      "id": "lagga-at-sidan",
+      "sv": "lägga åt sidan",
+      "translations": { "ru": "отложить в сторону", "en": "to set aside" },
+      "pos": "phrase",
+      "example": { "sv": "Lägg texten åt sidan och läs den igen senare med fräscha ögon.", "ru": "Отложите текст в сторону и перечитайте его позже свежим взглядом.", "en": "Set the text aside and reread it later with fresh eyes." }
+    },
+    {
+      "id": "fraescha-ogon",
+      "sv": "fräscha ögon",
+      "translations": { "ru": "свежий взгляд", "en": "fresh eyes" },
+      "pos": "phrase"
+    },
+    {
+      "id": "upprepning",
+      "sv": "upprepning",
+      "translations": { "ru": "повторение", "en": "repetition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en upprepning", "defSg": "upprepningen", "indefPl": "upprepningar", "defPl": "upprepningarna" },
+      "example": { "sv": "Leta efter upprepningar innan du lämnar in texten.", "ru": "Ищите повторы, прежде чем сдать текст.", "en": "Look for repetitions before you hand in the text." }
+    },
+    {
+      "id": "leta-efter",
+      "sv": "leta efter",
+      "translations": { "ru": "искать", "en": "to look for" },
+      "pos": "phrase"
+    },
+    {
+      "id": "markera",
+      "sv": "markera",
+      "translations": { "ru": "отмечать", "en": "to mark" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "markera", "present": "markerar", "past": "markerade", "supine": "markerat" },
+      "example": { "sv": "Markera det du är osäker på och slå upp det i en ordbok senare.", "ru": "Отметьте то, в чём вы не уверены, и найдите это позже в словаре.", "en": "Mark what you're unsure of, and look it up in a dictionary later." }
+    },
+    {
+      "id": "osaker",
+      "sv": "osäker",
+      "translations": { "ru": "неуверенный", "en": "unsure" },
+      "pos": "adj"
+    },
+    {
+      "id": "granska",
+      "sv": "granska",
+      "translations": { "ru": "просматривать, изучать", "en": "to review, to examine" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+    },
+    {
+      "id": "genomlasning",
+      "sv": "genomläsning",
+      "translations": { "ru": "прочтение, проход по тексту", "en": "read-through" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en genomläsning", "defSg": "genomläsningen", "indefPl": "genomläsningar", "defPl": "genomläsningarna" }
+    },
+    {
+      "id": "verbform",
+      "sv": "verbform",
+      "translations": { "ru": "форма глагола", "en": "verb form" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en verbform", "defSg": "verbformen", "indefPl": "verbformer", "defPl": "verbformerna" }
+    },
+    {
+      "id": "stavning",
+      "sv": "stavning",
+      "translations": { "ru": "орфография, написание", "en": "spelling" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "naturlig",
+      "sv": "naturlig",
+      "translations": { "ru": "естественный", "en": "natural" },
+      "pos": "adj",
+      "example": { "sv": "Läs texten högt för att höra om meningarna låter naturliga.", "ru": "Прочитайте текст вслух, чтобы услышать, звучат ли предложения естественно.", "en": "Read the text aloud to hear whether the sentences sound natural." }
+    }
+  ]
+}

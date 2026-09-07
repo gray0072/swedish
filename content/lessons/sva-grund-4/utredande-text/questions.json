@@ -1,0 +1,158 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-utredande-text-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Вопрос можно осветить с разных сторон.»", "en": "Build the sentence: \"The question can be illuminated from several angles.\"" },
+      "tokens": ["kan belysas", "Frågan", "från flera håll."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-utredande-text-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Utredande text должен быть максимально объективным.»", "en": "Build the sentence: \"An utredande text should be as objective as possible.\"" },
+      "tokens": ["ska vara", "En utredande text", "så objektiv som möjligt."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-utredande-text-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Текст рассматривает несколько разных точек зрения на один и тот же вопрос.»", "en": "Build the sentence: \"The text covers several different perspectives on the same question.\"" },
+      "tokens": ["Texten", "flera olika perspektiv", "tar upp", "på samma fråga."],
+      "answer": [0, 2, 1, 3]
+    },
+    {
+      "id": "q-utredande-text-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["perspektiv", "точка зрения"],
+        ["aspekt", "аспект"],
+        ["slutsats", "вывод"],
+        ["belysa", "освещать"]
+      ]
+    },
+    {
+      "id": "q-utredande-text-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["neutral", "нейтральный"],
+        ["objektiv", "объективный"],
+        ["mångfacetterad", "многогранный"],
+        ["undersöka", "исследовать"]
+      ]
+    },
+    {
+      "id": "q-utredande-text-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В utredande text автор должен открыто высказывать своё личное мнение и убеждать читателя.", "en": "In an utredande text, the writer should openly state a personal opinion and try to convince the reader." },
+      "answer": false,
+      "explanation": {
+        "ru": "Utredande text должен оставаться нейтральным и объективным, не занимая чью-то сторону.",
+        "en": "An utredande text must stay neutral and objective, without taking a side."
+      }
+    },
+    {
+      "id": "q-utredande-text-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Конструкция «å ena sidan..., å andra sidan...» используется, чтобы представить две разные точки зрения.", "en": "The construction \"å ena sidan..., å andra sidan...\" is used to present two different perspectives." },
+      "answer": true
+    },
+    {
+      "id": "q-utredande-text-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Заключение utredande text должно выносить чёткий личный вердикт по вопросу.", "en": "The conclusion of an utredande text should deliver a clear personal verdict on the question." },
+      "answer": false,
+      "explanation": {
+        "ru": "Заключение подводит сбалансированный итог, не выбирая одну сторону как «правильную».",
+        "en": "The conclusion draws a balanced summary without choosing one side as \"correct\"."
+      }
+    },
+    {
+      "id": "q-utredande-text-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Utredande text и argumenterande text — это один и тот же жанр текста.", "en": "An utredande text and an argumenterande text are the same genre of text." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это разные жанры: argumenterande text отстаивает позицию, utredande text остаётся нейтральным.",
+        "en": "They are different genres: an argumenterande text argues for a position, while an utredande text stays neutral."
+      }
+    },
+    {
+      "id": "q-utredande-text-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Skribenten förhåller sig ___ genom hela texten. (нейтральный)" },
+      "answer": ["neutral"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-utredande-text-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Texten ___ frågan ur flera perspektiv. (исследует)" },
+      "answer": ["undersöker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-utredande-text-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ visar detta att frågan är mer komplex än den verkar. (в совокупности)" },
+      "answer": ["Sammantaget"],
+      "acceptAlso": ["sammantaget"]
+    },
+    {
+      "id": "q-utredande-text-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Чем главное отличие utredande text от argumenterande text?",
+        "en": "What is the main difference between an utredande text and an argumenterande text?"
+      },
+      "choices": ["utredande text остаётся нейтральным, не занимая чью-то сторону", "utredande text всегда короче", "utredande text не использует источники", "разницы нет, это одно и то же"],
+      "answer": 0
+    },
+    {
+      "id": "q-utredande-text-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «многогранный»?",
+        "en": "Which word means \"multifaceted\"?"
+      },
+      "choices": ["mångfacetterad", "objektiv", "neutral", "sammantaget"],
+      "answer": 0
+    },
+    {
+      "id": "q-utredande-text-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как должно звучать заключение хорошего utredande text?",
+        "en": "How should the conclusion of a good utredande text sound?"
+      },
+      "choices": ["как сбалансированное обобщение разных точек зрения", "как личный вердикт автора", "как повторение введения слово в слово", "как список использованных слов"],
+      "answer": 0
+    }
+  ]
+}

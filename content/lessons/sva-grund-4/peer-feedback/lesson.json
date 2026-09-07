@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/peer-feedback",
+  "slug": "peer-feedback",
+  "title": {
+    "sv": "Kamratrespons: ge feedback på någon annans text",
+    "ru": "Обратная связь на чужой текст (kamratrespons)",
+    "en": "Giving feedback on someone else's text (kamratrespons)"
+  },
+  "summary": {
+    "ru": "Фразы для конструктивной обратной связи на текст одноклассника: начать с позитивного, сформулировать критику как предложение, задать уточняющий вопрос.",
+    "en": "Phrases for giving constructive feedback on a classmate's text: starting with something positive, phrasing criticism as a suggestion, and asking a clarifying question."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "writing", "feedback"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2190,
+  "prerequisites": ["sva-grund-4/self-proofreading"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

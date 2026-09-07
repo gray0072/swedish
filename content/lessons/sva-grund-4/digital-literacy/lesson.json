@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/digital-literacy",
+  "slug": "digital-literacy",
+  "title": {
+    "sv": "Digital kompetens: källor, AI, faktagranskning",
+    "ru": "Цифровая грамотность: источники, ИИ, проверка фактов",
+    "en": "Digital literacy: sources, AI, fact-checking"
+  },
+  "summary": {
+    "ru": "Лексика для цифровой грамотности: digital källkritik, faktagranskning, desinformation, algoritm, AI-genererat innehåll.",
+    "en": "Vocabulary for digital literacy: digital källkritik, faktagranskning, desinformation, algoritm, AI-genererat innehåll."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "technology", "media"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2150,
+  "prerequisites": ["sva-grund-3/technology-privacy"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

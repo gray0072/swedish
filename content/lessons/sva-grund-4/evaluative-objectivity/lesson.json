@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/evaluative-objectivity",
+  "slug": "evaluative-objectivity",
+  "title": {
+    "sv": "Värderande ordval och objektivitet i framställningen",
+    "ru": "Оценочная лексика и объективность изложения",
+    "en": "Evaluative vocabulary and objectivity of presentation"
+  },
+  "summary": {
+    "ru": "«Выросло на 10%» или «взлетело аж на 10%»? Одни и те же факты, разная позиция автора.",
+    "en": "\"Rose by 10%\" or \"shot up by a whole 10%\"? The same facts, a different authorial stance."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "vocabulary",
+    "objectivity",
+    "style",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1850,
+  "prerequisites": [
+    "sva-grund-3/registers"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

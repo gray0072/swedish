@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "foer-att-purpose",
+      "sv": "för att",
+      "translations": { "ru": "для того чтобы, чтобы (цель)", "en": "in order to/that (purpose)" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon sprang för att hon skulle hinna med tåget.", "ru": "Она бежала, чтобы успеть на поезд.", "en": "She ran so that she would catch the train." },
+      "note": { "ru": "Перед личным глаголом — полное придаточное; перед инфинитивом (без своего подлежащего) — инфинитивный оборот.", "en": "Before a finite verb it's a full clause; before an infinitive (with no subject of its own) it's an infinitive phrase." }
+    },
+    {
+      "id": "utan-att",
+      "sv": "utan att",
+      "translations": { "ru": "не (делая чего-л.), без того чтобы", "en": "without (doing something)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han gick utan att säga hejdå.", "ru": "Он ушёл, не попрощавшись.", "en": "He left without saying goodbye." }
+    },
+    {
+      "id": "istaellet-foer-att",
+      "sv": "istället för att",
+      "translations": { "ru": "вместо того чтобы", "en": "instead of" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon läste en bok istället för att titta på tv.", "ru": "Она читала книгу, вместо того чтобы смотреть телевизор.", "en": "She read a book instead of watching TV." }
+    },
+    {
+      "id": "springa-compressed",
+      "sv": "springa",
+      "translations": { "ru": "бежать", "en": "to run" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" }
+    },
+    {
+      "id": "hinna-med",
+      "sv": "hinna med",
+      "translations": { "ru": "успевать на, успевать сделать", "en": "to make it in time for" },
+      "pos": "phrase",
+      "example": { "sv": "Hon hann med tåget i sista sekunden.", "ru": "Она успела на поезд в последнюю секунду.", "en": "She made it onto the train at the last second." }
+    },
+    {
+      "id": "log-le",
+      "sv": "le",
+      "translations": { "ru": "улыбаться", "en": "to smile" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "le", "present": "ler", "past": "log", "supine": "lett" }
+    },
+    {
+      "id": "leende-adj",
+      "sv": "leende",
+      "translations": { "ru": "улыбаясь (причастие наст. вр. от le)", "en": "smiling (present participle of le)" },
+      "pos": "adj",
+      "example": { "sv": "Leende sprang hon för att hinna med tåget.", "ru": "Улыбаясь, она бежала, чтобы успеть на поезд.", "en": "Smiling, she ran to catch the train." }
+    },
+    {
+      "id": "vissla-compressed",
+      "sv": "vissla",
+      "translations": { "ru": "свистеть, насвистывать", "en": "to whistle" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vissla", "present": "visslar", "past": "visslade", "supine": "visslat" }
+    },
+    {
+      "id": "haejdaa",
+      "sv": "hejdå",
+      "translations": { "ru": "пока, до свидания", "en": "bye, goodbye" },
+      "pos": "interjection"
+    },
+    {
+      "id": "taag-compressed",
+      "sv": "tåg",
+      "translations": { "ru": "поезд", "en": "train" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" }
+    },
+    {
+      "id": "hinna",
+      "sv": "hinna",
+      "translations": { "ru": "успевать (по времени)", "en": "to have (enough) time to, to make it" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "hinna", "present": "hinner", "past": "hann", "supine": "hunnit" }
+    },
+    {
+      "id": "kompression",
+      "sv": "kompression",
+      "translations": { "ru": "сжатие, компрессия", "en": "compression" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "kompression", "defSg": "kompressionen", "indefPl": "kompressioner", "defPl": "kompressionerna" }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-self-check-checklist-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое предложение нарушает правило V2?", "en": "Which sentence violates the V2 rule?" },
+      "choices": ["Trots regnet gick vi ut.", "Trots regnet vi gick ut.", "Vi gick ut trots regnet."],
+      "answer": 1
+    },
+    {
+      "id": "q-self-check-checklist-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что проверяет пункт чек-листа про род существительных?", "en": "What does the checklist item about noun gender check?" },
+      "choices": [
+        { "ru": "Что род одного и того же слова не меняется по всему тексту", "en": "That the gender of the same word doesn't change throughout the text" },
+        { "ru": "Что все существительные — en-слова", "en": "That all nouns are en-words" },
+        { "ru": "Что в тексте нет существительных вообще", "en": "That the text has no nouns at all" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-self-check-checklist-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой вариант правильно соблюдает двойную определённость?", "en": "Which option correctly observes double definiteness?" },
+      "choices": ["den stora hus", "det stora huset", "det stora hus"],
+      "answer": 1
+    },
+    {
+      "id": "q-self-check-checklist-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anna älskar ___ bror» — брат самой Анны. Какое слово?", "en": "\"Anna älskar ___ bror\" — Anna's own brother. Which word fits?" },
+      "choices": ["sin", "hans", "hennes"],
+      "answer": 0
+    },
+    {
+      "id": "q-self-check-checklist-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anna älskar ___ bror» — брат кого-то другого (не Анны). Какое слово?", "en": "\"Anna älskar ___ bror\" — someone else's brother (not Anna's). Which word fits?" },
+      "choices": ["sin", "hans/hennes", "sina"],
+      "answer": 1
+    },
+    {
+      "id": "q-self-check-checklist-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Trots regnet ___ vi ut. (V2, gick)" },
+      "answer": ["gick"]
+    },
+    {
+      "id": "q-self-check-checklist-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag såg en bil. ___ var röd. (правильная определённая форма от bil)" },
+      "answer": ["Bilen"]
+    },
+    {
+      "id": "q-self-check-checklist-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "det stora ___ (определённая форма от hus)" },
+      "answer": ["huset"]
+    },
+    {
+      "id": "q-self-check-checklist-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Пункт про V2 нужно проверять особенно после длинного вынесенного вперёд обстоятельства.", "en": "The V2 check is especially important after a long fronted adverbial." },
+      "answer": true
+    },
+    {
+      "id": "q-self-check-checklist-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Чек-лист рекомендуется проходить во время написания текста, по одному пункту на каждое предложение.", "en": "The checklist is recommended to be run while writing, one point per sentence." },
+      "answer": false,
+      "explanation": { "ru": "Чек-лист проходят после того, как текст уже написан целиком, отдельным чтением на каждый пункт.", "en": "The checklist is run after the whole text is written, with a separate read-through for each point." }
+    },
+    {
+      "id": "q-self-check-checklist-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Несовпадение вывода с тезисом из вступления — это ошибка логики текста, а не грамматики.", "en": "A conclusion that doesn't match the introduction's thesis is a logical error, not a grammatical one." },
+      "answer": true
+    },
+    {
+      "id": "q-self-check-checklist-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Sin/sitt/sina» используется, когда обладатель — подлежащее того же предложения.", "en": "\"Sin/sitt/sina\" is used when the owner is the subject of that same clause." },
+      "answer": true
+    },
+    {
+      "id": "q-self-check-checklist-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери исправленное предложение: «Несмотря на дождь, мы вышли на улицу.»", "en": "Build the corrected sentence: \"Despite the rain, we went outside.\"" },
+      "tokens": ["Trots", "regnet", "gick", "vi", "ut"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-self-check-checklist-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь пункт чек-листа с тем, что он проверяет", "en": "Match the checklist item with what it checks" },
+      "pairs": [
+        ["V2", "личный глагол на втором месте / finite verb in second position"],
+        ["Genus", "согласованный род существительного / consistent noun gender"],
+        ["Dubbel bestämdhet", "определённая форма и артикль, и существительного / definite article and definite noun form together"],
+        ["Sin vs hans/hennes", "совпадает ли обладатель с подлежащим / whether the owner matches the subject"]
+      ]
+    }
+  ]
+}

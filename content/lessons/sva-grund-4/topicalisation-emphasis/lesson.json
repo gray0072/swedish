@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/topicalisation-emphasis",
+  "slug": "topicalisation-emphasis",
+  "title": {
+    "sv": "Topikalisering, inversion och emfas som stilval",
+    "ru": "Топикализация, инверсия и эмфаза как стилистический выбор",
+    "en": "Topicalisation, inversion and emphasis as a stylistic choice"
+  },
+  "summary": {
+    "ru": "«Den här boken har jag redan läst» — зачем нарочно ставить не подлежащее в fundament.",
+    "en": "\"Den här boken har jag redan läst\" — why you'd deliberately front something other than the subject."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "word-order", "style", "emphasis"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1890,
+  "prerequisites": ["sva-grund-3/theme-rheme"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

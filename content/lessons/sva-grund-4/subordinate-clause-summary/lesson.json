@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/subordinate-clause-summary",
+  "slug": "subordinate-clause-summary",
+  "title": {
+    "sv": "Alla bisatstyper och deras ordföljd — en sammanfattande tabell",
+    "ru": "Сводная таблица всех типов придаточных и их порядка слов",
+    "en": "A summary table of every subordinate-clause type and its word order"
+  },
+  "summary": {
+    "ru": "Шесть типов придаточных из delkurs 1–3 в одной таблице — и BIFF работает в каждом.",
+    "en": "Six subordinate-clause types from delkurs 1-3 in one table — and BIFF applies in every one."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "syntax",
+    "subordinate-clauses",
+    "word-order",
+    "review"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1770,
+  "prerequisites": [
+    "sva-grund-3/complex-sentences"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

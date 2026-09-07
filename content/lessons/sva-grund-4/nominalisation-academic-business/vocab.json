@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "studie",
+      "sv": "studie",
+      "translations": { "ru": "исследование", "en": "study" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" }
+    },
+    {
+      "id": "genomforande-ab",
+      "sv": "genomförande",
+      "translations": { "ru": "проведение, осуществление", "en": "carrying-out, implementation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett genomförande", "defSg": "genomförandet", "indefPl": "genomföranden", "defPl": "genomförandena" }
+    },
+    {
+      "id": "granskning-ab",
+      "sv": "granskning",
+      "translations": { "ru": "проверка, изучение", "en": "review, examination" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "granskning", "defSg": "granskningen", "indefPl": "granskningar", "defPl": "granskningarna" }
+    },
+    {
+      "id": "samband",
+      "sv": "samband",
+      "translations": { "ru": "связь, зависимость", "en": "link, connection" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" }
+    },
+    {
+      "id": "variabel",
+      "sv": "variabel",
+      "translations": { "ru": "переменная", "en": "variable" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "variabel", "defSg": "variabeln", "indefPl": "variabler", "defPl": "variablerna" }
+    },
+    {
+      "id": "resultat-ab",
+      "sv": "resultat",
+      "translations": { "ru": "результат", "en": "result" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "resultat", "defSg": "resultatet", "indefPl": "resultat", "defPl": "resultaten" }
+    },
+    {
+      "id": "handlaeggning",
+      "sv": "handläggning",
+      "translations": { "ru": "обработка, рассмотрение (дела)", "en": "processing, handling (of a case)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "handläggning", "defSg": "handläggningen", "indefPl": "handläggningar", "defPl": "handläggningarna" }
+    },
+    {
+      "id": "handlaegga",
+      "sv": "handlägga",
+      "translations": { "ru": "обрабатывать, рассматривать (дело)", "en": "to process, to handle (a case)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "handlägga", "present": "handlägger", "past": "handlade", "supine": "handlagt" }
+    },
+    {
+      "id": "aerende",
+      "sv": "ärende",
+      "translations": { "ru": "дело, вопрос (в делопроизводстве)", "en": "case, matter (administrative)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ärende", "defSg": "ärendet", "indefPl": "ärenden", "defPl": "ärendena" }
+    },
+    {
+      "id": "ansoekan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление, заявка", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" }
+    },
+    {
+      "id": "inkommande",
+      "sv": "inkommande",
+      "translations": { "ru": "поступающий, входящий", "en": "incoming, arriving" },
+      "pos": "adj",
+      "example": { "sv": "i samband med ansökans inkommande", "ru": "в связи с поступлением заявления", "en": "in connection with the arrival of the application" }
+    },
+    {
+      "id": "meddela",
+      "sv": "meddela",
+      "translations": { "ru": "сообщать", "en": "to announce, to inform" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "meddela", "present": "meddelar", "past": "meddelade", "supine": "meddelat" }
+    },
+    {
+      "id": "paaboerja",
+      "sv": "påbörja",
+      "translations": { "ru": "начинать, приступать к", "en": "to begin, to commence" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "påbörja", "present": "påbörjar", "past": "påbörjade", "supine": "påbörjat" },
+      "note": { "ru": "Более формальный синоним «börja».", "en": "A more formal synonym for \"börja\"." }
+    },
+    {
+      "id": "innebaera",
+      "sv": "innebära",
+      "translations": { "ru": "означать, включать в себя", "en": "to entail, to involve" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "innebära", "present": "innebär", "past": "innebar", "supine": "inneburit" }
+    },
+    {
+      "id": "material-ab",
+      "sv": "material",
+      "translations": { "ru": "материал (для исследования)", "en": "material (for a study)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "material", "defSg": "materialet", "indefPl": "material", "defPl": "materialen" }
+    }
+  ]
+}

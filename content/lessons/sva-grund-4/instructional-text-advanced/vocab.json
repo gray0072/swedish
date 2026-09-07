@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "det-forsta-steget-ar-att",
+      "sv": "det första steget är att",
+      "translations": { "ru": "первый шаг — это", "en": "the first step is to" },
+      "pos": "phrase"
+    },
+    {
+      "id": "nasta-steg-ar-att",
+      "sv": "nästa steg är att",
+      "translations": { "ru": "следующий шаг — это", "en": "the next step is to" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-sista-steget-ar-att",
+      "sv": "det sista steget är att",
+      "translations": { "ru": "последний шаг — это", "en": "the last step is to" },
+      "pos": "phrase",
+      "example": { "sv": "Det sista steget är att skicka in ansökan digitalt.", "ru": "Последний шаг — отправить заявление в электронном виде.", "en": "The last step is to submit the application digitally." }
+    },
+    {
+      "id": "stota-pa",
+      "sv": "stöta på",
+      "translations": { "ru": "столкнуться с", "en": "to encounter, to run into" },
+      "pos": "phrase",
+      "example": { "sv": "Om du stöter på problemet att sidan inte laddar, prova då att ladda om sidan.", "ru": "Если вы столкнётесь с проблемой, что страница не загружается, попробуйте перезагрузить страницу.", "en": "If you encounter the problem that the page doesn't load, then try reloading the page." }
+    },
+    {
+      "id": "prova-att",
+      "sv": "prova att",
+      "translations": { "ru": "попробовать сделать что-то", "en": "to try to (do something)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prova", "present": "provar", "past": "provade", "supine": "provat" }
+    },
+    {
+      "id": "fungera",
+      "sv": "fungera",
+      "translations": { "ru": "работать, функционировать", "en": "to function, to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fungera", "present": "fungerar", "past": "fungerade", "supine": "fungerat" },
+      "example": { "sv": "Om något inte fungerar som förväntat, kontakta då handläggaren direkt.", "ru": "Если что-то работает не так, как ожидалось, свяжитесь напрямую с сотрудником.", "en": "If something doesn't work as expected, then contact the caseworker directly." }
+    },
+    {
+      "id": "ladda-om",
+      "sv": "ladda om",
+      "translations": { "ru": "перезагрузить", "en": "to reload" },
+      "pos": "phrase"
+    },
+    {
+      "id": "blankett",
+      "sv": "blankett",
+      "translations": { "ru": "бланк, форма", "en": "form" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blankett", "defSg": "blanketten", "indefPl": "blanketter", "defPl": "blanketterna" },
+      "example": { "sv": "Nästa steg är att fylla i blanketten noggrant.", "ru": "Следующий шаг — внимательно заполнить бланк.", "en": "The next step is to fill in the form carefully." }
+    },
+    {
+      "id": "fylla-i",
+      "sv": "fylla i",
+      "translations": { "ru": "заполнить (бланк)", "en": "to fill in" },
+      "pos": "phrase"
+    },
+    {
+      "id": "skicka-in",
+      "sv": "skicka in",
+      "translations": { "ru": "отправить, подать (заявление)", "en": "to submit" },
+      "pos": "phrase"
+    },
+    {
+      "id": "logga-in",
+      "sv": "logga in",
+      "translations": { "ru": "войти в систему", "en": "to log in" },
+      "pos": "phrase",
+      "example": { "sv": "Det första steget är att logga in med ditt personnummer.", "ru": "Первый шаг — войти в систему, используя личный номер.", "en": "The first step is to log in with your personal number." }
+    },
+    {
+      "id": "bekraftelse",
+      "sv": "bekräftelse",
+      "translations": { "ru": "подтверждение", "en": "confirmation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bekräftelse", "defSg": "bekräftelsen", "indefPl": "bekräftelser", "defPl": "bekräftelserna" }
+    },
+    {
+      "id": "kontrollera",
+      "sv": "kontrollera",
+      "translations": { "ru": "проверять", "en": "to check" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kontrollera", "present": "kontrollerar", "past": "kontrollerade", "supine": "kontrollerat" },
+      "example": { "sv": "Kontrollera att alla uppgifter stämmer innan du fortsätter.", "ru": "Проверьте, что все данные верны, прежде чем продолжить.", "en": "Check that all the details are correct before you continue." }
+    },
+    {
+      "id": "se-till-att",
+      "sv": "se till att",
+      "translations": { "ru": "проследить за тем, чтобы", "en": "to make sure that" },
+      "pos": "phrase",
+      "example": { "sv": "Se till att en bekräftelse har kommit innan du stänger sidan.", "ru": "Убедитесь, что подтверждение пришло, прежде чем закрыть страницу.", "en": "Make sure a confirmation has arrived before you close the page." }
+    },
+    {
+      "id": "innan",
+      "sv": "innan",
+      "translations": { "ru": "прежде чем, до того как", "en": "before" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "fortsatta",
+      "sv": "fortsätta",
+      "translations": { "ru": "продолжать", "en": "to continue" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "fortsätta", "present": "fortsätter", "past": "fortsatte", "supine": "fortsatt" }
+    },
+    {
+      "id": "handlaggare",
+      "sv": "handläggare",
+      "translations": { "ru": "сотрудник, ведущий дело", "en": "caseworker" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handläggare", "defSg": "handläggaren", "indefPl": "handläggare", "defPl": "handläggarna" }
+    },
+    {
+      "id": "enhet-instr",
+      "sv": "enhet",
+      "translations": { "ru": "устройство", "en": "device" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en enhet", "defSg": "enheten", "indefPl": "enheter", "defPl": "enheterna" }
+    },
+    {
+      "id": "forvantad",
+      "sv": "förväntad",
+      "translations": { "ru": "ожидаемый", "en": "expected" },
+      "pos": "adj",
+      "example": { "sv": "Om något inte fungerar som förväntat, kontakta då handläggaren.", "ru": "Если что-то работает не так, как ожидалось, свяжитесь с сотрудником.", "en": "If something doesn't work as expected, then contact the caseworker." }
+    },
+    {
+      "id": "uppgift-instr",
+      "sv": "uppgift",
+      "translations": { "ru": "данные, сведения", "en": "detail, piece of information" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppgift", "defSg": "uppgiften", "indefPl": "uppgifter", "defPl": "uppgifterna" }
+    }
+  ]
+}

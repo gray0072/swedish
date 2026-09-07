@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "klimatpolitik",
+      "sv": "klimatpolitik",
+      "translations": { "ru": "климатическая политика", "en": "climate policy" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klimatpolitik", "defSg": "klimatpolitiken", "indefPl": "klimatpolitiker", "defPl": "klimatpolitikerna" },
+      "example": { "sv": "Sveriges klimatpolitik syftar till att minska utsläppen till 2045.", "ru": "Климатическая политика Швеции направлена на снижение выбросов к 2045 году.", "en": "Sweden's climate policy aims to reduce emissions by 2045." }
+    },
+    {
+      "id": "styrmedel",
+      "sv": "styrmedel",
+      "translations": { "ru": "инструмент политики, регулирующий механизм", "en": "policy tool" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett styrmedel", "defSg": "styrmedlet", "indefPl": "styrmedel", "defPl": "styrmedlen" },
+      "example": { "sv": "Koldioxidskatt är ett styrmedel som ska minska utsläppen.", "ru": "Налог на CO2 — это инструмент политики для снижения выбросов.", "en": "A carbon tax is a policy tool meant to reduce emissions." }
+    },
+    {
+      "id": "utslappsminskning",
+      "sv": "utsläppsminskning",
+      "translations": { "ru": "снижение выбросов", "en": "emissions reduction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utsläppsminskning", "defSg": "utsläppsminskningen", "indefPl": "utsläppsminskningar", "defPl": "utsläppsminskningarna" },
+      "example": { "sv": "En kraftig utsläppsminskning krävs för att nå klimatmålen.", "ru": "Требуется значительное снижение выбросов, чтобы достичь климатических целей.", "en": "A sharp reduction in emissions is needed to reach the climate targets." }
+    },
+    {
+      "id": "en-avvagning-mellan",
+      "sv": "en avvägning mellan...",
+      "translations": { "ru": "компромисс между...", "en": "a trade-off between..." },
+      "pos": "phrase",
+      "example": { "sv": "Det handlar om en avvägning mellan ekonomisk tillväxt och miljöhänsyn.", "ru": "Речь идёт о компромиссе между экономическим ростом и заботой об экологии.", "en": "It's about a trade-off between economic growth and environmental concern." }
+    },
+    {
+      "id": "pa-kort-sikt",
+      "sv": "på kort sikt",
+      "translations": { "ru": "в краткосрочной перспективе", "en": "in the short term" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-lang-sikt",
+      "sv": "på lång sikt",
+      "translations": { "ru": "в долгосрочной перспективе", "en": "in the long term" },
+      "pos": "phrase",
+      "example": { "sv": "På kort sikt kan åtgärden kosta pengar, men på lång sikt lönar den sig.", "ru": "В краткосрочной перспективе мера может стоить денег, но в долгосрочной — окупается.", "en": "In the short term, the measure may cost money, but in the long term it pays off." }
+    },
+    {
+      "id": "koldioxidskatt",
+      "sv": "koldioxidskatt",
+      "translations": { "ru": "налог на выбросы углекислого газа", "en": "carbon tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en koldioxidskatt", "defSg": "koldioxidskatten", "indefPl": "koldioxidskatter", "defPl": "koldioxidskatterna" }
+    },
+    {
+      "id": "klimatmal",
+      "sv": "klimatmål",
+      "translations": { "ru": "климатическая цель", "en": "climate target" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett klimatmål", "defSg": "klimatmålet", "indefPl": "klimatmål", "defPl": "klimatmålen" }
+    },
+    {
+      "id": "miljohansyn",
+      "sv": "miljöhänsyn",
+      "translations": { "ru": "забота об окружающей среде, экологические соображения", "en": "environmental concern, environmental consideration" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en miljöhänsyn", "defSg": "miljöhänsynen", "indefPl": "miljöhänsyner", "defPl": "miljöhänsynerna" }
+    },
+    {
+      "id": "ekonomisk-tillvaxt",
+      "sv": "ekonomisk tillväxt",
+      "translations": { "ru": "экономический рост", "en": "economic growth" },
+      "pos": "phrase"
+    },
+    {
+      "id": "subvention",
+      "sv": "subvention",
+      "translations": { "ru": "субсидия", "en": "subsidy" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en subvention", "defSg": "subventionen", "indefPl": "subventioner", "defPl": "subventionerna" }
+    },
+    {
+      "id": "reglering",
+      "sv": "reglering",
+      "translations": { "ru": "регулирование, нормативное ограничение", "en": "regulation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reglering", "defSg": "regleringen", "indefPl": "regleringar", "defPl": "regleringarna" }
+    },
+    {
+      "id": "syfta-till",
+      "sv": "syfta till att...",
+      "translations": { "ru": "быть направленным на то, чтобы...", "en": "to aim to..." },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "syfta", "present": "syftar", "past": "syftade", "supine": "syftat" }
+    },
+    {
+      "id": "kompromiss",
+      "sv": "kompromiss",
+      "translations": { "ru": "компромисс", "en": "compromise" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kompromiss", "defSg": "kompromissen", "indefPl": "kompromisser", "defPl": "kompromisserna" }
+    }
+  ]
+}

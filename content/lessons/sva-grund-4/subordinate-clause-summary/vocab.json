@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "att-conj-sum",
+      "sv": "att",
+      "translations": { "ru": "что (вводит изъяснительное придаточное)", "en": "that (introduces an object clause)" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon sa att hon inte kunde komma.", "ru": "Она сказала, что не может прийти.", "en": "She said that she couldn't come." }
+    },
+    {
+      "id": "som-rel-sum",
+      "sv": "som",
+      "translations": { "ru": "который (относительное местоимение)", "en": "who/which/that (relative pronoun)" },
+      "pos": "pron",
+      "example": { "sv": "Mannen som bor här är trevlig.", "ru": "Мужчина, который здесь живёт, приятный.", "en": "The man who lives here is nice." }
+    },
+    {
+      "id": "vars",
+      "sv": "vars",
+      "translations": { "ru": "чей, которого (относительное притяжательное)", "en": "whose (relative possessive)" },
+      "pos": "pron",
+      "example": { "sv": "Kvinnan vars bil stals bor granne med oss.", "ru": "Женщина, чью машину украли, живёт по соседству с нами.", "en": "The woman whose car was stolen lives next door to us." }
+    },
+    {
+      "id": "vilket-rel-sum",
+      "sv": "vilket",
+      "translations": { "ru": "что (относится ко всему предыдущему предложению)", "en": "which (refers back to the whole previous clause)" },
+      "pos": "pron",
+      "example": { "sv": "Han kom för sent, vilket irriterade henne.", "ru": "Он опоздал, что её раздражало.", "en": "He came late, which annoyed her." }
+    },
+    {
+      "id": "naer-conj-sum",
+      "sv": "när",
+      "translations": { "ru": "когда", "en": "when" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "medan-conj-sum",
+      "sv": "medan",
+      "translations": { "ru": "пока, в то время как", "en": "while" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "innan-conj-sum",
+      "sv": "innan",
+      "translations": { "ru": "прежде чем, до того как", "en": "before" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "tills-conj",
+      "sv": "tills",
+      "translations": { "ru": "пока не, до тех пор пока", "en": "until" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi väntade tills han kom.", "ru": "Мы ждали, пока он не пришёл.", "en": "We waited until he came." }
+    },
+    {
+      "id": "fastaen-sum",
+      "sv": "fastän",
+      "translations": { "ru": "хотя", "en": "although, even though" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "aeven-om",
+      "sv": "även om",
+      "translations": { "ru": "даже если, хотя бы и", "en": "even if" },
+      "pos": "conjunction",
+      "example": { "sv": "Han gick ut även om det regnade.", "ru": "Он вышел на улицу, даже если шёл дождь.", "en": "He went out even if it was raining." }
+    },
+    {
+      "id": "eftersom-sum",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "because, since" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "daerfoer-att",
+      "sv": "därför att",
+      "translations": { "ru": "потому что", "en": "because" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon stannade hemma därför att hon inte mådde bra.", "ru": "Она осталась дома, потому что плохо себя чувствовала.", "en": "She stayed home because she wasn't feeling well." }
+    },
+    {
+      "id": "om-cond-sum",
+      "sv": "om",
+      "translations": { "ru": "если", "en": "if" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "ifall",
+      "sv": "ifall",
+      "translations": { "ru": "в случае если, если", "en": "in case, if" },
+      "pos": "conjunction",
+      "example": { "sv": "Ta med ett paraply ifall det regnar.", "ru": "Возьми зонт на случай, если пойдёт дождь.", "en": "Take an umbrella in case it rains." }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "id": "kallkritik",
+      "sv": "källkritik",
+      "translations": { "ru": "критика источников (оценка надёжности источника)", "en": "source criticism" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källkritik", "defSg": "källkritiken", "indefPl": "källkritik", "defPl": "källkritiken" },
+      "example": { "sv": "God källkritik bygger på fyra klassiska kriterier.", "ru": "Хорошая критика источников строится на четырёх классических критериях.", "en": "Good source criticism is built on four classic criteria." }
+    },
+    {
+      "id": "akthet",
+      "sv": "äkthet",
+      "translations": { "ru": "подлинность", "en": "authenticity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en äkthet", "defSg": "äktheten", "indefPl": "äkthet", "defPl": "äktheten" },
+      "example": { "sv": "Man måste alltid kontrollera källans äkthet innan man litar på den.", "ru": "Всегда нужно проверять подлинность источника, прежде чем доверять ему.", "en": "You must always check a source's authenticity before trusting it." }
+    },
+    {
+      "id": "tidssamband",
+      "sv": "tidssamband",
+      "translations": { "ru": "связь по времени (актуальность, близость к событию)", "en": "time relevance (closeness to the event)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tidssamband", "defSg": "tidssambandet", "indefPl": "tidssamband", "defPl": "tidssambanden" },
+      "example": { "sv": "Tidssambandet är viktigt: en anteckning från händelsen är oftast mer pålitlig än ett minne tjugo år senare.", "ru": "Связь по времени важна: запись, сделанная во время события, обычно надёжнее, чем воспоминание через двадцать лет.", "en": "Time relevance matters: a note made at the time of the event is usually more reliable than a memory twenty years later." }
+    },
+    {
+      "id": "beroende",
+      "sv": "beroende",
+      "translations": { "ru": "зависимость (от другого источника)", "en": "dependency (on another source)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett beroende", "defSg": "beroendet", "indefPl": "beroenden", "defPl": "beroendena" },
+      "example": { "sv": "Källan verkar ha ett beroende av en annan artikel utan att ange varifrån informationen kommer.", "ru": "Похоже, источник зависит от другой статьи, не указывая, откуда взята информация.", "en": "The source seems to have a dependency on another article without stating where the information comes from." }
+    },
+    {
+      "id": "tendens",
+      "sv": "tendens",
+      "translations": { "ru": "тенденциозность, предвзятость, направленность", "en": "bias, tendency (an agenda behind a source)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tendens", "defSg": "tendensen", "indefPl": "tendenser", "defPl": "tendenserna" },
+      "example": { "sv": "Källan verkar ha en tydlig tendens eftersom avsändaren vill sälja en produkt.", "ru": "У источника, похоже, есть явная тенденциозность, поскольку отправитель хочет что-то продать.", "en": "The source seems to have a clear bias, since the sender wants to sell a product." }
+    },
+    {
+      "id": "referat",
+      "sv": "referat",
+      "translations": { "ru": "пересказ, реферат (нейтральное изложение чужого текста)", "en": "referat (a neutral summary or report of someone else's text)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett referat", "defSg": "referatet", "indefPl": "referat", "defPl": "referaten" },
+      "example": { "sv": "Ett referat ska återge källans innehåll utan att blanda in egna åsikter.", "ru": "Referat должен передавать содержание источника, не примешивая собственных мнений.", "en": "A referat should convey the content of a source without mixing in personal opinions." }
+    },
+    {
+      "id": "primarkalla",
+      "sv": "primärkälla",
+      "translations": { "ru": "первичный источник", "en": "primary source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en primärkälla", "defSg": "primärkällan", "indefPl": "primärkällor", "defPl": "primärkällorna" },
+      "example": { "sv": "En primärkälla är till exempel ett originaldokument eller ett ögonvittne.", "ru": "Первичный источник — это, например, оригинальный документ или очевидец.", "en": "A primary source is, for example, an original document or an eyewitness." }
+    },
+    {
+      "id": "sekundarkalla",
+      "sv": "sekundärkälla",
+      "translations": { "ru": "вторичный источник", "en": "secondary source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sekundärkälla", "defSg": "sekundärkällan", "indefPl": "sekundärkällor", "defPl": "sekundärkällorna" },
+      "example": { "sv": "En sekundärkälla bygger på information från en primärkälla.", "ru": "Вторичный источник опирается на информацию из первичного источника.", "en": "A secondary source builds on information from a primary source." }
+    },
+    {
+      "id": "trovardighet",
+      "sv": "trovärdighet",
+      "translations": { "ru": "достоверность, надёжность", "en": "credibility, reliability" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trovärdighet", "defSg": "trovärdigheten", "indefPl": "trovärdighet", "defPl": "trovärdigheten" },
+      "example": { "sv": "Källans trovärdighet ökar om flera oberoende källor säger samma sak.", "ru": "Достоверность источника повышается, если несколько независимых источников подтверждают одно и то же.", "en": "A source's credibility increases if several independent sources say the same thing." }
+    },
+    {
+      "id": "vinklad",
+      "sv": "vinklad",
+      "translations": { "ru": "предвзятый, тенденциозно поданный", "en": "biased, slanted" },
+      "pos": "adj",
+      "example": { "sv": "Artikeln är vinklad och visar bara en sida av frågan.", "ru": "Статья предвзята и показывает только одну сторону вопроса.", "en": "The article is slanted and shows only one side of the question." }
+    },
+    {
+      "id": "opartisk",
+      "sv": "opartisk",
+      "translations": { "ru": "беспристрастный", "en": "impartial" },
+      "pos": "adj",
+      "example": { "sv": "En domstol förväntas vara opartisk.", "ru": "От суда ожидают беспристрастности.", "en": "A court is expected to be impartial." }
+    },
+    {
+      "id": "avsandare",
+      "sv": "avsändare",
+      "translations": { "ru": "отправитель, автор источника", "en": "sender, the source's author/originator" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avsändare", "defSg": "avsändaren", "indefPl": "avsändare", "defPl": "avsändarna" },
+      "example": { "sv": "Vem är avsändaren bakom det här inlägget?", "ru": "Кто отправитель (автор) этого сообщения?", "en": "Who is the sender behind this post?" }
+    },
+    {
+      "id": "syfte",
+      "sv": "syfte",
+      "translations": { "ru": "цель, замысел (источника)", "en": "purpose, intent (behind a source)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett syfte", "defSg": "syftet", "indefPl": "syften", "defPl": "syftena" },
+      "example": { "sv": "Vad är syftet med den här texten — att informera eller att övertyga?", "ru": "Какова цель этого текста — информировать или убеждать?", "en": "What is the purpose of this text — to inform or to persuade?" }
+    },
+    {
+      "id": "desinformation",
+      "sv": "desinformation",
+      "translations": { "ru": "дезинформация", "en": "disinformation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en desinformation", "defSg": "desinformationen", "indefPl": "desinformation", "defPl": "desinformationen" },
+      "example": { "sv": "Källkritik hjälper dig att inte bli lurad av desinformation.", "ru": "Критика источников помогает не попасться на дезинформацию.", "en": "Source criticism helps you avoid being fooled by disinformation." }
+    },
+    {
+      "id": "verifiera",
+      "sv": "verifiera",
+      "translations": { "ru": "верифицировать, проверять (факт)", "en": "to verify" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "verifiera", "present": "verifierar", "past": "verifierade", "supine": "verifierat" },
+      "example": { "sv": "Verifiera alltid viktiga fakta i minst två oberoende källor.", "ru": "Всегда проверяй важные факты минимум по двум независимым источникам.", "en": "Always verify important facts against at least two independent sources." }
+    }
+  ]
+}

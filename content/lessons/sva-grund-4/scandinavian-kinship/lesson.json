@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/scandinavian-kinship",
+  "slug": "scandinavian-kinship",
+  "title": {
+    "sv": "Nordisk språkförståelse: danska och norska på gehör",
+    "ru": "Скандинавское языковое родство: датский и норвежский на слух",
+    "en": "Scandinavian language kinship: Danish and Norwegian by ear"
+  },
+  "summary": {
+    "ru": "Факты и лексика о родстве скандинавских языков: nordiska språk, grannspråk, skandinavisk språkförståelse — и почему датский труднее понимать на слух, чем норвежский.",
+    "en": "Facts and vocabulary about the kinship of the Scandinavian languages: nordiska språk, grannspråk, skandinavisk språkförståelse — and why Danish is harder to understand by ear than Norwegian."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "language", "culture"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2100,
+  "prerequisites": [],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

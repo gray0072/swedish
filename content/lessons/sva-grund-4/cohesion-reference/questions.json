@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-cohesion-reference-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "«Han fick jobbet. Det gläder mig.» — к чему относится «det»?", "en": "\"Han fick jobbet. Det gläder mig.\" — what does \"det\" refer to?" },
+      "choices": ["К слову «jobbet»", "Ко всему факту «он получил работу»", "К слову «mig»", "Ни к чему конкретному"],
+      "answer": 1
+    },
+    {
+      "id": "q-cohesion-reference-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Почему в примере используется «det», а не «den» (форма для en-слова)?", "en": "Why does the example use \"det\" and not \"den\" (the en-word form)?" },
+      "choices": ["Потому что «jobbet» — ett-слово", "Потому что «det» отсылает к целой ситуации, а не к конкретному существительному с родом", "Это ошибка, должно быть «den»", "Потому что «det» — всегда подлежащее"],
+      "answer": 1
+    },
+    {
+      "id": "q-cohesion-reference-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hon flyttade till Stockholm. Detta beslut kom som en överraskning.» — что называет «detta beslut»?", "en": "\"Hon flyttade till Stockholm. Detta beslut kom som en överraskning.\" — what does \"detta beslut\" name?" },
+      "choices": ["Новое, ещё не упомянутое решение", "Сам переезд, названный «решением» задним числом", "Слово «Stockholm»", "Слово «överraskning»"],
+      "answer": 1
+    },
+    {
+      "id": "q-cohesion-reference-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Han kom för sent, vilket irriterade henne» — к чему отсылает «vilket»?", "en": "\"Han kom för sent, vilket irriterade henne\" — what does \"vilket\" refer to?" },
+      "choices": ["К слову «henne»", "Ко всей предшествующей части предложения «han kom för sent»", "К слову «sent»", "«vilket» здесь ничего не заменяет"],
+      "answer": 1
+    },
+    {
+      "id": "q-cohesion-reference-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Чем «vilket» (после запятой) отличается от относительного «som»?", "en": "How does \"vilket\" (after a comma) differ from the relative \"som\"?" },
+      "choices": ["Ничем, это полные синонимы", "«Vilket» ссылается на весь предыдущий факт, «som» — на конкретное слово-антецедент", "«Som» всегда стоит после запятой, а «vilket» никогда", "«Vilket» используется только в вопросах"],
+      "answer": 1
+    },
+    {
+      "id": "q-cohesion-reference-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vilket» всегда стоит в форме среднего рода, независимо от рода окружающих слов.", "en": "\"Vilket\" always stays in the neuter form, regardless of the gender of the surrounding words." },
+      "answer": true
+    },
+    {
+      "id": "q-cohesion-reference-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Detta» перед существительным может подводить итог предыдущему предложению одним словом.", "en": "\"Detta\" before a noun can sum up the previous sentence in one word." },
+      "answer": true
+    },
+    {
+      "id": "q-cohesion-reference-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Референция (det/detta/vilket) не влияет на связность текста — это чисто украшение.", "en": "Reference (det/detta/vilket) doesn't affect text cohesion — it's purely decorative." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: без этих ссылок текст распадается на несвязанные предложения.", "en": "The opposite: without these references, a text falls apart into disconnected sentences." }
+    },
+    {
+      "id": "q-cohesion-reference-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Han fick jobbet. ___ gläder mig. (отсылка к целому факту)" },
+      "answer": ["Det"]
+    },
+    {
+      "id": "q-cohesion-reference-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Hon flyttade till Stockholm. ___ beslut kom som en överraskning. (подытоживающая ссылка перед ett-словом)" },
+      "answer": ["Detta"]
+    },
+    {
+      "id": "q-cohesion-reference-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Priserna steg kraftigt i somras, ___ ledde till stora protester. (отсылка ко всему придаточному)" },
+      "answer": ["vilket"]
+    },
+    {
+      "id": "q-cohesion-reference-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он опоздал, что её раздражало.»", "en": "Build the sentence: \"He came late, which annoyed her.\"" },
+      "tokens": ["Han", "kom", "för", "sent", "vilket", "irriterade", "henne"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-cohesion-reference-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь ссылочное слово с тем, к чему оно отсылает", "en": "Match the referring word with what it refers to" },
+      "pairs": [
+        ["det", "целая ситуация / a whole situation"],
+        ["detta + существительное", "итог предыдущего предложения / a summary of the previous sentence"],
+        ["vilket", "всё предыдущее придаточное / the entire preceding clause"]
+      ]
+    }
+  ]
+}

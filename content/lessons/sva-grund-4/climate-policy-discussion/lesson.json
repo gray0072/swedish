@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/climate-policy-discussion",
+  "slug": "climate-policy-discussion",
+  "title": {
+    "sv": "Miljö och klimatpolitik — ett resonerande samtal",
+    "ru": "Экология и климатическая политика — аргументированное обсуждение",
+    "en": "Ecology and climate policy — a reasoned discussion"
+  },
+  "summary": {
+    "ru": "Фразы для обсуждения климатической политики на более высоком уровне: klimatpolitik, styrmedel, utsläppsminskning, en avvägning mellan..., på lång/kort sikt.",
+    "en": "Policy-level phrases for discussing climate policy: klimatpolitik, styrmedel, utsläppsminskning, en avvägning mellan..., på lång/kort sikt."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "climate", "society"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2130,
+  "prerequisites": ["sva-grund-3/climate-sustainability"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

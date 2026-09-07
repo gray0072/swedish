@@ -399,3 +399,36 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   content, not a chunking regression.
 - Checks: typecheck, 39 tests, clean build (0 warnings), PWA precache succeeds (37
   entries, 2785 KiB).
+
+## 2026-09-07 — SVA grund delkurs 4 complete: the whole SVA grund track is done
+
+- **All 20 grammar points and all 25 thematic topics for SVA grund delkurs 4** now have
+  a dedicated bilingual lesson, finishing the last of the four delkurser. Delkurs 4 gives
+  the course's final grade and behörighet for the upper-secondary `Svenska som
+  andraspråk 1`, so most of its grammar points are capstone systematisations of
+  delkurs 1-3 rather than new sentence grammar: a full verb-system reference table, a
+  summary of every subordinate-clause type, a summary of every conditional type, plus
+  academic/formal-register topics new to this level (nominalisation in academic/business
+  text, hedging language, evaluative vs. objective wording, referatteknik and what
+  counts as plagiat, topicalisation for emphasis, the historical present as a literary
+  device). Its topics look past the course itself: university applications, a polished
+  CV/portfolio, the argumentative essay and utredande text in full, and a final project
+  combining a written text with an oral defence.
+- **Written by the same 5-agent, larger-batch approach as delkurs 3** (2×10 grammar,
+  2×10 topics, 1×5 topics), each finishing one lesson's full 5 files before starting the
+  next. No rate-limit interruption this run either — all 5 agents completed cleanly, one
+  self-caught and trimmed a `theory_en.md` that came in over the 450-word hard cap
+  before it was even flagged externally.
+- **SVA grund delkurs 1-4 is now complete end to end**: 206 lessons total, 80 of the
+  160 planned grammar points now have a dedicated lesson, 100 of the 100 SVA grund
+  thematic topics are written. `content/curricula/sva-grund-4.json` added;
+  `CURRICULUM.md`/`CURRICULUM_ru.md` updated (all 45 checkboxes for the level marked
+  done, plus a rewritten top-of-section summary reflecting the whole track's
+  completion); `TODO.md`/`TODO_ru.md` collapsed the per-level "delkurs N has no lessons"
+  bullets into a single note that the still-undesigned real text-lesson format is now a
+  deliberate simplification repeated across all 100 SVA grund topics, not a per-level gap.
+- Also bumped `vite.config.ts`'s `chunkSizeWarningLimit` from 750 to 800 kB: delkurs 4's
+  content chunk (45 lessons) lands at 757 kB, legitimately sized content under the same
+  per-course `manualChunks` split from the previous entry.
+- Checks: typecheck, 39 tests, content validation (206 lessons, 0 errors), clean build
+  (0 warnings), PWA precache succeeds (38 entries, 3543 KiB).

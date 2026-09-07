@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-nominalisation-academic-business-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "«Genomförandet av studien innebar en granskning» — что здесь является подлежащим?", "en": "\"Genomförandet av studien innebar en granskning\" — what is the subject here?" },
+      "choices": ["Studien", "Genomförandet", "En granskning", "Vi"],
+      "answer": 1
+    },
+    {
+      "id": "q-nominalisation-academic-business-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем номинализированная версия абзаца отличается от глагольной?", "en": "How does the nominalised version of a paragraph differ from the verbal one?" },
+      "choices": ["Она короче", "Она убирает действующее лицо и делает процесс/результат подлежащим", "В ней больше глаголов", "Она обязательно неправильная грамматически"],
+      "answer": 1
+    },
+    {
+      "id": "q-nominalisation-academic-business-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Handläggningen av ärendet påbörjades i samband med ansökans inkommande» — какой это регистр?", "en": "\"Handläggningen av ärendet påbörjades i samband med ansökans inkommande\" — which register is this?" },
+      "choices": ["Разговорный", "Деловой/официальный", "Художественный", "SMS-стиль"],
+      "answer": 1
+    },
+    {
+      "id": "q-nominalisation-academic-business-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что типично для раздела «Метод» научной статьи?", "en": "What's typical of a research paper's \"Methods\" section?" },
+      "choices": ["Активные конструкции с «jag»", "Номинализация: процесс/результат становится подлежащим, а не человек", "Разговорная лексика", "Полное отсутствие существительных"],
+      "answer": 1
+    },
+    {
+      "id": "q-nominalisation-academic-business-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Почему абзац из одних номинализаций подряд читается тяжелее?", "en": "Why does a paragraph made of nothing but nominalisations read more heavily?" },
+      "choices": ["Потому что почти каждое существительное тянет за собой родительный оборот (av/mellan)", "Потому что в нём нет глаголов вообще", "Потому что номинализации всегда длиннее слов", "Потому что читатель не понимает существительные"],
+      "answer": 0
+    },
+    {
+      "id": "q-nominalisation-academic-business-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Номинализация типична и для академического, и для делового/официального текста.", "en": "Nominalisation is typical of both academic and business/official text." },
+      "answer": true
+    },
+    {
+      "id": "q-nominalisation-academic-business-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Хороший академический текст обычно состоит только из номинализаций, без единого глагола.", "en": "Good academic writing usually consists only of nominalisations, without a single verb." },
+      "answer": false,
+      "explanation": { "ru": "Хороший текст обычно смешивает номинализацию (ключевые термины) с глаголами (там, где важна ясность действия).", "en": "Good writing usually mixes nominalisation (key terms) with verbs (wherever the action needs to be clear)." }
+    },
+    {
+      "id": "q-nominalisation-academic-business-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Påbörja» — более формальный синоним «börja».", "en": "\"Påbörja\" is a more formal synonym of \"börja\"." },
+      "answer": true
+    },
+    {
+      "id": "q-nominalisation-academic-business-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ av studien innebar en systematisk granskning av materialet. (номинализация от genomföra)" },
+      "answer": ["Genomförandet"]
+    },
+    {
+      "id": "q-nominalisation-academic-business-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Handläggningen av ärendet ___ i samband med ansökans inkommande. (пассив от påbörja, прошедшее время)" },
+      "answer": ["påbörjades"]
+    },
+    {
+      "id": "q-nominalisation-academic-business-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Ett beslut kommer att ___ inom två veckor. (пассивный инфинитив от meddela)" },
+      "answer": ["meddelas"]
+    },
+    {
+      "id": "q-nominalisation-academic-business-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Resultaten visade på ett ___ mellan variablerna. (существительное «связь»)" },
+      "answer": ["samband"]
+    },
+    {
+      "id": "q-nominalisation-academic-business-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери номинализированное предложение: «Проведение исследования включало систематическое изучение материала.»", "en": "Build the nominalised sentence: \"The carrying-out of the study involved a systematic review of the material.\"" },
+      "tokens": ["Genomförandet", "av", "studien", "innebar", "en", "systematisk", "granskning", "av", "materialet"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-nominalisation-academic-business-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагольную фразу с её номинализированным вариантом", "en": "Match the verbal phrase with its nominalised equivalent" },
+      "pairs": [
+        ["vi genomförde studien", "genomförandet av studien"],
+        ["vi handlägger ärendet", "handläggningen av ärendet"],
+        ["vi meddelar beslutet", "ett beslut meddelas"]
+      ]
+    }
+  ]
+}

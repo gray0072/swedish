@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "kan-taenkas",
+      "sv": "kan tänkas",
+      "translations": { "ru": "вполне возможно, что; можно предположить", "en": "it's quite conceivable that" },
+      "pos": "phrase",
+      "example": { "sv": "Det kan tänkas att torkan har bidragit till fler bränder.", "ru": "Вполне можно предположить, что засуха способствовала увеличению числа пожаров.", "en": "It's quite conceivable that the drought contributed to more fires." }
+    },
+    {
+      "id": "tyckas",
+      "sv": "tyckas",
+      "translations": { "ru": "казаться, судя по всему", "en": "to seem" },
+      "pos": "verb",
+      "forms": { "infinitive": "tyckas", "present": "tycks", "past": "tycktes", "supine": "tyckts" },
+      "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." },
+      "example": { "sv": "Torkan tycks ha ökat antalet skogsbränder.", "ru": "Похоже, засуха увеличила число лесных пожаров.", "en": "The drought seems to have increased the number of forest fires." }
+    },
+    {
+      "id": "foerefalla",
+      "sv": "förefalla",
+      "translations": { "ru": "представляться, казаться (книжно)", "en": "to appear, to seem (formal)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förefalla", "present": "förefaller", "past": "föreföll", "supine": "förefallit" },
+      "example": { "sv": "Sambandet förefaller vara starkt.", "ru": "Связь представляется весьма прочной.", "en": "The link appears to be strong." }
+    },
+    {
+      "id": "torka-hedge",
+      "sv": "torka",
+      "translations": { "ru": "засуха", "en": "drought" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "torka", "defSg": "torkan", "indefPl": "torkor", "defPl": "torkorna" }
+    },
+    {
+      "id": "skogsbrand",
+      "sv": "skogsbrand",
+      "translations": { "ru": "лесной пожар", "en": "forest fire" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "skogsbrand", "defSg": "skogsbranden", "indefPl": "skogsbränder", "defPl": "skogsbränderna" }
+    },
+    {
+      "id": "bidra-till",
+      "sv": "bidra till",
+      "translations": { "ru": "способствовать, содействовать", "en": "to contribute to" },
+      "pos": "phrase",
+      "example": { "sv": "Torkan har bidragit till fler bränder.", "ru": "Засуха способствовала росту числа пожаров.", "en": "The drought has contributed to more fires." }
+    },
+    {
+      "id": "samband-hedge",
+      "sv": "samband",
+      "translations": { "ru": "связь, зависимость", "en": "link, connection" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" }
+    },
+    {
+      "id": "markant",
+      "sv": "markant",
+      "translations": { "ru": "заметно, значительно", "en": "markedly, noticeably" },
+      "pos": "adv"
+    },
+    {
+      "id": "orsaka",
+      "sv": "orsaka",
+      "translations": { "ru": "вызывать, быть причиной", "en": "to cause" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "orsaka", "present": "orsakar", "past": "orsakade", "supine": "orsakat" }
+    },
+    {
+      "id": "tyda-paa",
+      "sv": "tyda på",
+      "translations": { "ru": "указывать на, свидетельствовать о", "en": "to indicate, to point to" },
+      "pos": "phrase",
+      "example": { "sv": "Resultaten tyder på ett samband.", "ru": "Результаты указывают на связь.", "en": "The results point to a link." }
+    },
+    {
+      "id": "anta-hedge",
+      "sv": "anta",
+      "translations": { "ru": "предполагать, допускать", "en": "to assume" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" }
+    },
+    {
+      "id": "antyda",
+      "sv": "antyda",
+      "translations": { "ru": "намекать, свидетельствовать (слабее, чем tyda på)", "en": "to suggest, to hint at" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "antyda", "present": "antyder", "past": "antydde", "supine": "antytt" }
+    },
+    {
+      "id": "kategorisk",
+      "sv": "kategorisk",
+      "translations": { "ru": "категоричный", "en": "categorical" },
+      "pos": "adj"
+    }
+  ]
+}

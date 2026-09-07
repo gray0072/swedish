@@ -1,0 +1,102 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-digital-literacy-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «digital källkritik»?", "en": "What does \"digital källkritik\" mean?" },
+      "choices": [
+        { "ru": "умение оценивать достоверность онлайн-источников", "en": "the ability to judge the credibility of online sources" },
+        { "ru": "техническая защита данных", "en": "technical data protection" },
+        { "ru": "программирование сайтов", "en": "website programming" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-literacy-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Чем «desinformation» отличается от простой ошибки?", "en": "How does \"desinformation\" differ from a simple mistake?" },
+      "choices": [
+        { "ru": "дезинформация распространяется намеренно, а ошибка — нет", "en": "disinformation is spread deliberately, a mistake is not" },
+        { "ru": "это одно и то же", "en": "they are the same thing" },
+        { "ru": "дезинформация относится только к рекламе", "en": "disinformation applies only to advertising" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-literacy-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что делает «algoritm» в соцсетях?", "en": "What does an \"algoritm\" do on social media?" },
+      "choices": [
+        { "ru": "показывает контент, похожий на то, что вы уже смотрели", "en": "it shows content similar to what you've already viewed" },
+        { "ru": "проверяет факты", "en": "it fact-checks" },
+        { "ru": "удаляет ваши данные", "en": "it deletes your data" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-literacy-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «trovärdig»?", "en": "What does \"trovärdig\" mean?" },
+      "choices": ["заслуживающий доверия", "устаревший", "анонимный"],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-literacy-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Изображение всегда легко отличить от AI-genererat innehåll.", "en": "An image is always easy to tell apart from AI-generated content." },
+      "answer": false,
+      "explanation": { "ru": "Это не всегда легко — нужно проверять источник.", "en": "It's not always easy — the source needs checking." }
+    },
+    {
+      "id": "q-digital-literacy-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Перед тем как делиться новостью, разумно провести faktagranskning.", "en": "Before sharing a news story, it's wise to do a faktagranskning." },
+      "answer": true,
+      "explanation": { "ru": "Это помогает избежать распространения ложной информации.", "en": "This helps avoid spreading false information." }
+    },
+    {
+      "id": "q-digital-literacy-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Innan man delar en nyhet är det klokt att göra en ___. (faktagranskning)" },
+      "answer": ["faktagranskning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-digital-literacy-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ sprids ofta snabbt i sociala medier. (desinformation)" },
+      "answer": ["desinformation", "Desinformation"],
+      "acceptAlso": ["desinformation"]
+    },
+    {
+      "id": "q-digital-literacy-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Стоит проверить источник, прежде чем доверять ответу, сгенерированному ИИ.»", "en": "Build the sentence: \"You should check the source before trusting an AI-generated answer.\"" },
+      "tokens": ["Man", "bör", "kontrollera", "källan", "innan", "man", "litar", "på", "ett", "AI-genererat", "svar"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "id": "q-digital-literacy-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с переводом", "en": "Match the term with its translation" },
+      "pairs": [
+        ["faktagranskning", "проверка фактов / fact-checking"],
+        ["desinformation", "дезинформация / disinformation"],
+        ["algoritm", "алгоритм / algorithm"],
+        ["oberoende källa", "независимый источник / independent source"]
+      ]
+    },
+    {
+      "id": "q-digital-literacy-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «publiceringsdatum»?", "en": "What does \"publiceringsdatum\" mean?" },
+      "choices": ["дата публикации", "имя автора", "название сайта"],
+      "answer": 0
+    }
+  ]
+}

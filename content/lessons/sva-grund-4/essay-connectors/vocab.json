@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": "inledningsvis",
+      "sv": "inledningsvis",
+      "translations": { "ru": "для начала, вводя тему", "en": "to begin with, at the outset" },
+      "pos": "adv",
+      "example": { "sv": "Inledningsvis bör man notera att frågan är omdiskuterad.", "ru": "Для начала стоит отметить, что этот вопрос обсуждается.", "en": "To begin with, it's worth noting that the question is debated." }
+    },
+    {
+      "id": "till-att-boerja-med",
+      "sv": "till att börja med",
+      "translations": { "ru": "начнём с того, что; прежде всего", "en": "to start with" },
+      "pos": "phrase"
+    },
+    {
+      "id": "vidare-essay",
+      "sv": "vidare",
+      "translations": { "ru": "далее, кроме того", "en": "furthermore, further" },
+      "pos": "adv",
+      "example": { "sv": "Vidare visar undersökningen att de flesta föredrar distansarbete.", "ru": "Далее исследование показывает, что большинство предпочитает удалённую работу.", "en": "Furthermore, the study shows that most people prefer remote work." }
+    },
+    {
+      "id": "foer-det-andra",
+      "sv": "för det andra",
+      "translations": { "ru": "во-вторых", "en": "secondly, in the second place" },
+      "pos": "phrase"
+    },
+    {
+      "id": "aa-ena-sidan",
+      "sv": "å ena sidan",
+      "translations": { "ru": "с одной стороны", "en": "on the one hand" },
+      "pos": "phrase"
+    },
+    {
+      "id": "aa-andra-sidan",
+      "sv": "å andra sidan",
+      "translations": { "ru": "с другой стороны", "en": "on the other hand" },
+      "pos": "phrase",
+      "example": { "sv": "Å ena sidan sparar man tid, å andra sidan ökar kostnaden.", "ru": "С одной стороны, экономится время, с другой — растут расходы.", "en": "On the one hand it saves time, on the other the cost goes up." }
+    },
+    {
+      "id": "daeremot-essay",
+      "sv": "däremot",
+      "translations": { "ru": "напротив, зато", "en": "on the contrary, however" },
+      "pos": "adv"
+    },
+    {
+      "id": "avslutningsvis",
+      "sv": "avslutningsvis",
+      "translations": { "ru": "в заключение", "en": "in conclusion, finally" },
+      "pos": "adv",
+      "example": { "sv": "Avslutningsvis kan man konstatera att båda sidor har goda argument.", "ru": "В заключение можно констатировать, что у обеих сторон есть весомые аргументы.", "en": "In conclusion, one can state that both sides have good arguments." }
+    },
+    {
+      "id": "sammanfattningsvis",
+      "sv": "sammanfattningsvis",
+      "translations": { "ru": "подводя итог, в итоге", "en": "in summary, to sum up" },
+      "pos": "adv"
+    },
+    {
+      "id": "slutligen",
+      "sv": "slutligen",
+      "translations": { "ru": "наконец, в конце концов", "en": "finally, lastly" },
+      "pos": "adv"
+    },
+    {
+      "id": "omdiskuterad",
+      "sv": "omdiskuterad",
+      "translations": { "ru": "обсуждаемый, дискуссионный", "en": "debated, discussed" },
+      "pos": "adj"
+    },
+    {
+      "id": "undersoekning-essay",
+      "sv": "undersökning",
+      "translations": { "ru": "исследование, опрос", "en": "study, survey" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "undersökning", "defSg": "undersökningen", "indefPl": "undersökningar", "defPl": "undersökningarna" }
+    },
+    {
+      "id": "distansarbete",
+      "sv": "distansarbete",
+      "translations": { "ru": "удалённая работа", "en": "remote work" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "distansarbete", "defSg": "distansarbetet", "indefPl": "distansarbeten", "defPl": "distansarbetena" }
+    },
+    {
+      "id": "gemenskap",
+      "sv": "gemenskap",
+      "translations": { "ru": "общность, чувство коллектива", "en": "community, togetherness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "gemenskap", "defSg": "gemenskapen", "indefPl": "gemenskaper", "defPl": "gemenskaperna" }
+    },
+    {
+      "id": "konstatera",
+      "sv": "konstatera",
+      "translations": { "ru": "констатировать, устанавливать (факт)", "en": "to state, to note as fact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "konstatera", "present": "konstaterar", "past": "konstaterade", "supine": "konstaterat" }
+    }
+  ]
+}

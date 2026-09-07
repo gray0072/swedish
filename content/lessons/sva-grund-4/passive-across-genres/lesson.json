@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/passive-across-genres",
+  "slug": "passive-across-genres",
+  "title": {
+    "sv": "Passiv och agentkonstruktioner i olika genrer",
+    "ru": "Пассив и агентивные конструкции в разных жанрах",
+    "en": "The passive and agent constructions across genres"
+  },
+  "summary": {
+    "ru": "Одно и то же событие в новости, научном тексте и личном рассказе — пассив звучит по-разному.",
+    "en": "The same event in a news report, a scientific text and a personal story — the passive sounds different each time."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "passive",
+    "genre",
+    "style",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1780,
+  "prerequisites": [
+    "sva-grund-3/passive-official-style"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

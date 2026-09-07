@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "krok",
+      "sv": "krok",
+      "translations": { "ru": "крючок (эффектное начало текста)", "en": "hook (an attention-grabbing opening)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en krok", "defSg": "kroken", "indefPl": "krokar", "defPl": "krokarna" },
+      "example": { "sv": "En stark krok fångar läsarens uppmärksamhet direkt i första meningen.", "ru": "Сильный «крючок» сразу цепляет внимание читателя в первом предложении.", "en": "A strong hook grabs the reader's attention right in the first sentence." }
+    },
+    {
+      "id": "tes",
+      "sv": "tes",
+      "translations": { "ru": "тезис (главная мысль эссе)", "en": "thesis (the essay's main claim)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" },
+      "example": { "sv": "Tesen bör presenteras tydligt redan i inledningen.", "ru": "Тезис нужно чётко сформулировать уже во введении.", "en": "The thesis should be stated clearly already in the introduction." }
+    },
+    {
+      "id": "amnesmening",
+      "sv": "ämnesmening",
+      "translations": { "ru": "тематическое предложение (главная мысль абзаца)", "en": "topic sentence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ämnesmening", "defSg": "ämnesmeningen", "indefPl": "ämnesmeningar", "defPl": "ämnesmeningarna" },
+      "example": { "sv": "Varje stycke bör inledas med en tydlig ämnesmening.", "ru": "Каждый абзац должен начинаться с чёткого тематического предложения.", "en": "Every paragraph should open with a clear topic sentence." }
+    },
+    {
+      "id": "belagg",
+      "sv": "belägg",
+      "translations": { "ru": "доказательство, подтверждение", "en": "evidence, supporting proof" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett belägg", "defSg": "belägget", "indefPl": "belägg", "defPl": "beläggen" },
+      "example": { "sv": "Ge alltid ett konkret belägg som stöder din åsikt.", "ru": "Всегда приводи конкретное доказательство, подтверждающее твою мысль.", "en": "Always give concrete evidence that supports your point." }
+    },
+    {
+      "id": "analys",
+      "sv": "analys",
+      "translations": { "ru": "анализ", "en": "analysis" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en analys", "defSg": "analysen", "indefPl": "analyser", "defPl": "analyserna" },
+      "example": { "sv": "Efter belägget behövs en analys av varför det är relevant.", "ru": "После доказательства нужен анализ того, почему оно уместно.", "en": "After the evidence, an analysis of why it is relevant is needed." }
+    },
+    {
+      "id": "ge-ett-konkret-belagg",
+      "sv": "Ge alltid ett konkret belägg som stöder din åsikt, och analysera sedan varför det är relevant.",
+      "translations": { "ru": "Всегда приводи конкретное доказательство, подтверждающее твою мысль, а затем анализируй, почему оно важно.", "en": "Always give concrete evidence that supports your point, then analyse why it is relevant." },
+      "pos": "phrase",
+      "example": { "sv": "Läraren påminde: Ge alltid ett konkret belägg som stöder din åsikt.", "ru": "Учитель напомнил(а): «Всегда приводи конкретное доказательство, подтверждающее твою мысль».", "en": "The teacher reminded us: Always give concrete evidence that supports your point." }
+    },
+    {
+      "id": "motargument-full",
+      "sv": "motargument",
+      "translations": { "ru": "контраргумент", "en": "counter-argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" },
+      "example": { "sv": "Ett starkt motargument gör texten mer trovärdig.", "ru": "Сильный контраргумент делает текст более убедительным.", "en": "A strong counter-argument makes the text more credible." }
+    },
+    {
+      "id": "bemota",
+      "sv": "bemöta",
+      "translations": { "ru": "отвечать на, опровергать (аргумент)", "en": "to counter, to rebut" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bemöta", "present": "bemöter", "past": "bemötte", "supine": "bemött" },
+      "example": { "sv": "Man skulle kunna invända att..., men jag bemöter det argumentet genom att...", "ru": "Можно было бы возразить, что..., но я опровергаю этот аргумент тем, что...", "en": "One could object that..., but I counter that argument by..." }
+    },
+    {
+      "id": "bemotande",
+      "sv": "bemötande",
+      "translations": { "ru": "опровержение, ответ на контраргумент", "en": "rebuttal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bemötande", "defSg": "bemötandet", "indefPl": "bemötanden", "defPl": "bemötandena" },
+      "example": { "sv": "Ett bra bemötande visar att du har övervägt andra perspektiv.", "ru": "Хорошее опровержение показывает, что ты рассмотрел(а) и другие точки зрения.", "en": "A good rebuttal shows that you have considered other perspectives." }
+    },
+    {
+      "id": "sammanfattningsvis",
+      "sv": "sammanfattningsvis",
+      "translations": { "ru": "в заключение (вводное слово)", "en": "in conclusion" },
+      "pos": "adv",
+      "example": { "sv": "Sammanfattningsvis visar detta att frågan är mer komplex än den verkar.", "ru": "В заключение это показывает, что вопрос сложнее, чем кажется.", "en": "In conclusion, this shows that the question is more complex than it seems." }
+    },
+    {
+      "id": "dessutom",
+      "sv": "dessutom",
+      "translations": { "ru": "кроме того", "en": "furthermore" },
+      "pos": "adv",
+      "example": { "sv": "Dessutom finns det statistik som stärker denna tes.", "ru": "Кроме того, есть статистика, подтверждающая этот тезис.", "en": "Furthermore, there is statistics that supports this thesis." }
+    },
+    {
+      "id": "mot-bakgrund-av-detta",
+      "sv": "Mot bakgrund av detta bör man överväga en förändring.",
+      "translations": { "ru": "На основании этого следует рассмотреть изменение.", "en": "In light of this, one should consider a change." },
+      "pos": "phrase",
+      "example": { "sv": "Avslutningen inleddes: Mot bakgrund av detta bör man överväga en förändring.", "ru": "Заключение начиналось так: «На основании этого следует рассмотреть изменение».", "en": "The conclusion opened with: In light of this, one should consider a change." }
+    },
+    {
+      "id": "avslutningsvis-oppnar-detta-for",
+      "sv": "Avslutningsvis öppnar detta för en viktigare fråga.",
+      "translations": { "ru": "В заключение это открывает более важный вопрос.", "en": "In conclusion, this opens up a more important question." },
+      "pos": "phrase",
+      "example": { "sv": "Avslutningsvis öppnar detta för en viktigare fråga om hur samhället bör agera.", "ru": "В заключение это открывает более важный вопрос о том, как должно действовать общество.", "en": "In conclusion, this opens up a more important question about how society should act." }
+    },
+    {
+      "id": "disposition",
+      "sv": "disposition",
+      "translations": { "ru": "план, структура текста", "en": "outline, structure (of a text)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en disposition", "defSg": "dispositionen", "indefPl": "dispositioner", "defPl": "dispositionerna" },
+      "example": { "sv": "En tydlig disposition gör texten lättare att följa.", "ru": "Чёткая структура делает текст более понятным для чтения.", "en": "A clear outline makes a text easier to follow." }
+    },
+    {
+      "id": "rod-trad",
+      "sv": "röd tråd",
+      "translations": { "ru": "красная нить (сквозная логика текста)", "en": "a common thread (running through a text)" },
+      "pos": "phrase",
+      "example": { "sv": "Det ska finnas en röd tråd genom hela texten, från inledning till avslutning.", "ru": "Через весь текст, от введения до заключения, должна проходить единая логическая нить.", "en": "There should be a common thread running through the whole text, from introduction to conclusion." }
+    }
+  ]
+}

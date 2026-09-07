@@ -1,0 +1,109 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-hedging-language-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое хеджирование в тексте?", "en": "What is hedging in a text?" },
+      "choices": ["Полное отрицание утверждения", "Способ смягчить утверждение, не отказываясь от него полностью", "Синоним категоричного заявления", "Грамматическая ошибка"],
+      "answer": 1
+    },
+    {
+      "id": "q-hedging-language-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Torkan tycks ha ökat antalet skogsbränder» — что выражает «tycks»?", "en": "\"Torkan tycks ha ökat antalet skogsbränder\" — what does \"tycks\" express?" },
+      "choices": ["Полную уверенность", "Похоже, судя по наблюдениям — не стопроцентную уверенность", "Чистое предположение без всяких оснований", "Прошедшее время без модальности"],
+      "answer": 1
+    },
+    {
+      "id": "q-hedging-language-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем «Klimatförändringarna orsakar fler skogsbränder» отличается от «Klimatförändringarna tycks bidra till fler skogsbränder»?", "en": "How does \"Klimatförändringarna orsakar fler skogsbränder\" differ from \"Klimatförändringarna tycks bidra till fler skogsbränder\"?" },
+      "choices": ["Ничем, значение идентично", "Первое — категоричное утверждение, второе — хеджированное, осторожное", "Второе относится к прошлому, первое — к будущему", "Первое пассивное, второе активное"],
+      "answer": 1
+    },
+    {
+      "id": "q-hedging-language-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Где хеджирование типично уместно?", "en": "Where is hedging typically appropriate?" },
+      "choices": ["В решительных лозунгах и рекламе", "В научных статьях и осторожной аналитической журналистике", "В SMS другу", "Оно неуместно нигде"],
+      "answer": 1
+    },
+    {
+      "id": "q-hedging-language-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "«Förefaller» ближе по регистру к...", "en": "\"Förefaller\" is closest in register to..." },
+      "choices": ["Разговорному «typ»", "Книжному, формальному стилю", "Сленгу", "Императиву"],
+      "answer": 1
+    },
+    {
+      "id": "q-hedging-language-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Kan tänkas» полностью снимает утверждение — как будто автор ничего не сказал.", "en": "\"Kan tänkas\" completely removes the claim, as if the author said nothing." },
+      "answer": false,
+      "explanation": { "ru": "Нет: хедж смягчает утверждение, но не отменяет его — оно остаётся обоснованным предположением.", "en": "No: a hedge softens the claim but doesn't cancel it — it remains a well-founded assumption." }
+    },
+    {
+      "id": "q-hedging-language-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tyckas» — депонентный глагол.", "en": "\"Tyckas\" is a deponent verb." },
+      "answer": true
+    },
+    {
+      "id": "q-hedging-language-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В повседневной решительной речи хедж обычно звучит уверенно и уместно.", "en": "In everyday decisive speech, a hedge usually sounds confident and appropriate." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот, в решительной речи хедж звучит уклончиво и неуверенно.", "en": "The opposite: in decisive speech a hedge sounds evasive and unsure." }
+    },
+    {
+      "id": "q-hedging-language-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Det ___ tänkas att torkan har bidragit till fler bränder. (хедж «можно предположить»)" },
+      "answer": ["kan"]
+    },
+    {
+      "id": "q-hedging-language-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Torkan ___ ha ökat antalet skogsbränder. (хедж, настоящее время от tyckas)" },
+      "answer": ["tycks"]
+    },
+    {
+      "id": "q-hedging-language-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Sambandet ___ vara starkt. (хедж, настоящее время от förefalla)" },
+      "answer": ["förefaller"]
+    },
+    {
+      "id": "q-hedging-language-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери хеджированное предложение: «Изменение климата, похоже, способствует увеличению числа лесных пожаров.»", "en": "Build the hedged sentence: \"Climate change seems to contribute to more forest fires.\"" },
+      "tokens": ["Klimatförändringarna", "tycks", "bidra", "till", "fler", "skogsbränder"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-hedging-language-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь хедж с его оттенком значения", "en": "Match the hedge with its shade of meaning" },
+      "pairs": [
+        ["kan tänkas", "вполне возможно, что / it's conceivable that"],
+        ["tycks", "похоже, судя по наблюдениям / seems, based on observation"],
+        ["förefaller", "по-видимому, книжно / appears, formal"]
+      ]
+    }
+  ]
+}

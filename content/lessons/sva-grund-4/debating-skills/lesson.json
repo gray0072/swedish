@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/debating-skills",
+  "slug": "debating-skills",
+  "title": {
+    "sv": "Debattteknik: inta ståndpunkt, bemöta motståndaren",
+    "ru": "Дебаты: подготовка позиции и ответ оппоненту",
+    "en": "Debating: preparing a position and answering an opponent"
+  },
+  "summary": {
+    "ru": "Формальные фразы для дебатов — более официальные, чем в обычной дискуссии: как заявить позицию, привести аргумент и ответить оппоненту.",
+    "en": "Formal debate phrases, more formal than a casual discussion: stating a position, giving an argument, and answering an opponent."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "speaking", "debate"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2060,
+  "prerequisites": ["sva-grund-3/discussion-skills"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/utredande-text",
+  "slug": "utredande-text",
+  "title": {
+    "sv": "Utredande text — att belysa en fråga med källor",
+    "ru": "Utredande text (объясняющий текст) с источниками",
+    "en": "Utredande text (an explanatory text) with sources"
+  },
+  "summary": {
+    "ru": "Слова и фразы для utredande text — жанра, который освещает вопрос с разных сторон, не принимая ничью сторону.",
+    "en": "Vocabulary and phrases for the utredande text genre — one that illuminates a question from several sides without taking a stance."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "writing",
+    "utredande-text",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2030,
+  "prerequisites": [
+    "sva-grund-2/argumentative-text"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

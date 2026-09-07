@@ -1,0 +1,39 @@
+{
+  "id": "sva-grund-4/compressed-clauses",
+  "slug": "compressed-clauses",
+  "title": {
+    "sv": "Particip- och infinitivfraser som förkortade bisatser",
+    "ru": "Причастные и инфинитивные обороты как компрессия придаточных",
+    "en": "Participial and infinitive phrases as compressed subordinate clauses"
+  },
+  "summary": {
+    "ru": "Одна мысль — три степени сжатия: полное придаточное, инфинитивный оборот, причастный оборот.",
+    "en": "One idea, three levels of compression: a full clause, an infinitive phrase, a participial phrase."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "syntax",
+    "participles",
+    "infinitive",
+    "style",
+    "review"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1790,
+  "prerequisites": [
+    "sva-grund-3/participial-phrases"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

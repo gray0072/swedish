@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/university-application",
+  "slug": "university-application",
+  "title": {
+    "sv": "Att söka till högskolan — behörighet, CSN och ansökan",
+    "ru": "Поступление в вуз: behörighet, CSN, заявка",
+    "en": "Applying to university: behörighet, CSN, the application"
+  },
+  "summary": {
+    "ru": "Слова для подачи заявки в вуз: базовое и специальное право на поступление, портал antagning.se, мерит-баллы и финансовая поддержка от CSN.",
+    "en": "Vocabulary for a university application: general and specific eligibility, the antagning.se portal, merit points, and student finance from CSN."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "education",
+    "university",
+    "csn"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1970,
+  "prerequisites": [
+    "sva-grund-4/sva1-requirements"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

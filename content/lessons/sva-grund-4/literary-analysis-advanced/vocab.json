@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "id": "tema-adv",
+      "sv": "tema",
+      "translations": { "ru": "тема (произведения)", "en": "theme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" },
+      "example": { "sv": "Ett återkommande tema i boken är ensamhet.", "ru": "Повторяющаяся тема в книге — одиночество.", "en": "A recurring theme in the book is loneliness." }
+    },
+    {
+      "id": "motiv",
+      "sv": "motiv",
+      "translations": { "ru": "мотив (повторяющийся образ)", "en": "motif" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett motiv", "defSg": "motivet", "indefPl": "motiv", "defPl": "motiven" },
+      "example": { "sv": "Ett motiv som återkommer är den mörka skogen.", "ru": "Мотив, который повторяется, — тёмный лес.", "en": "A motif that recurs is the dark forest." }
+    },
+    {
+      "id": "symbolik",
+      "sv": "symbolik",
+      "translations": { "ru": "символика", "en": "symbolism" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en symbolik", "defSg": "symboliken", "indefPl": "symboliker", "defPl": "symbolikerna" }
+    },
+    {
+      "id": "symbol-lit",
+      "sv": "symbol",
+      "translations": { "ru": "символ", "en": "symbol" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en symbol", "defSg": "symbolen", "indefPl": "symboler", "defPl": "symbolerna" },
+      "example": { "sv": "Fågeln kan tolkas som en symbol för frihet.", "ru": "Птица может толковаться как символ свободы.", "en": "The bird can be interpreted as a symbol of freedom." }
+    },
+    {
+      "id": "sprakligstil",
+      "sv": "språklig stil",
+      "translations": { "ru": "языковой стиль", "en": "language style" },
+      "pos": "phrase",
+      "example": { "sv": "Författarens språkliga stil är kort och kärv.", "ru": "Языковой стиль автора — краткий и сдержанный.", "en": "The author's language style is short and terse." }
+    },
+    {
+      "id": "forfattarens-syfte",
+      "sv": "författarens syfte",
+      "translations": { "ru": "замысел автора", "en": "the author's purpose" },
+      "pos": "phrase",
+      "example": { "sv": "Författarens syfte verkar vara att väcka eftertanke.", "ru": "Замысел автора, похоже, в том, чтобы заставить задуматься.", "en": "The author's purpose seems to be to provoke reflection." }
+    },
+    {
+      "id": "tolkning",
+      "sv": "tolkning",
+      "translations": { "ru": "интерпретация, толкование", "en": "interpretation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tolkning", "defSg": "tolkningen", "indefPl": "tolkningar", "defPl": "tolkningarna" },
+      "example": { "sv": "Min tolkning är att slutet är öppet med flit.", "ru": "Моя интерпретация в том, что конец намеренно открытый.", "en": "My interpretation is that the ending is deliberately left open." }
+    },
+    {
+      "id": "tolka-som",
+      "sv": "tolka som",
+      "translations": { "ru": "толковать как", "en": "to interpret as" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tolka", "present": "tolkar", "past": "tolkade", "supine": "tolkat" }
+    },
+    {
+      "id": "eftertanke",
+      "sv": "eftertanke",
+      "translations": { "ru": "размышление, задумчивость", "en": "reflection, second thought" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en eftertanke", "defSg": "eftertanken", "indefPl": "eftertankar", "defPl": "eftertankarna" }
+    },
+    {
+      "id": "karv",
+      "sv": "kärv",
+      "translations": { "ru": "суровый, сдержанный (о стиле)", "en": "terse, austere" },
+      "pos": "adj"
+    },
+    {
+      "id": "tempo-lit",
+      "sv": "tempo",
+      "translations": { "ru": "темп (повествования)", "en": "pace" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" }
+    },
+    {
+      "id": "oppet-slut",
+      "sv": "öppet slut",
+      "translations": { "ru": "открытый финал", "en": "open ending" },
+      "pos": "phrase"
+    },
+    {
+      "id": "metafor",
+      "sv": "metafor",
+      "translations": { "ru": "метафора", "en": "metaphor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en metafor", "defSg": "metaforen", "indefPl": "metaforer", "defPl": "metaforerna" }
+    },
+    {
+      "id": "kontrast-lit",
+      "sv": "kontrast",
+      "translations": { "ru": "контраст", "en": "contrast" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" }
+    },
+    {
+      "id": "aterkommande",
+      "sv": "återkommande",
+      "translations": { "ru": "повторяющийся", "en": "recurring" },
+      "pos": "adj"
+    },
+    {
+      "id": "vacka-eftertanke",
+      "sv": "väcka eftertanke",
+      "translations": { "ru": "заставлять задуматься", "en": "to provoke reflection" },
+      "pos": "phrase"
+    }
+  ]
+}

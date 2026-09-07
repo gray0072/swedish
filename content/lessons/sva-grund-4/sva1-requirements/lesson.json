@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/sva1-requirements",
+  "slug": "sva1-requirements",
+  "title": {
+    "sv": "Gymnasienivå och Svenska som andraspråk 1 — krav och vad som väntar",
+    "ru": "Гимназический уровень и SVA 1: требования и что ждёт дальше",
+    "en": "Upper-secondary level and SVA 1: the requirements and what comes next"
+  },
+  "summary": {
+    "ru": "Слова о переходе на гимназический уровень: курс Svenska som andraspråk 1, учебный план, критерии оценивания и итоговая оценка.",
+    "en": "Vocabulary for moving up to upper-secondary level: the Svenska som andraspråk 1 course, the syllabus, grading criteria and the final grade."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "education",
+    "sva1",
+    "gymnasium"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1960,
+  "prerequisites": [
+    "sva-grund-3/planning-further-study"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

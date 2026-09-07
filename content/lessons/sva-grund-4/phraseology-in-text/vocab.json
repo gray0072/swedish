@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": "dra-nytta-av",
+      "sv": "dra nytta av",
+      "translations": { "ru": "извлекать пользу из", "en": "to benefit from" },
+      "pos": "phrase",
+      "example": { "sv": "Utbildning kan hjälpa människor att dra nytta av nya möjligheter.", "ru": "Образование может помочь людям извлечь пользу из новых возможностей.", "en": "Education can help people benefit from new opportunities." }
+    },
+    {
+      "id": "satta-fingret-pa",
+      "sv": "sätta fingret på",
+      "translations": { "ru": "точно указать на (проблему)", "en": "to pinpoint (a problem)" },
+      "pos": "phrase",
+      "example": { "sv": "Artikeln sätter fingret på ett verkligt problem.", "ru": "Статья указывает на реальную проблему.", "en": "The article puts its finger on a real problem." }
+    },
+    {
+      "id": "steg-i-ratt-riktning",
+      "sv": "vara ett steg i rätt riktning",
+      "translations": { "ru": "быть шагом в правильном направлении", "en": "to be a step in the right direction" },
+      "pos": "phrase",
+      "example": { "sv": "Det är ett steg i rätt riktning, men mer behöver göras.", "ru": "Это шаг в правильном направлении, но нужно сделать больше.", "en": "It's a step in the right direction, but more needs to be done." }
+    },
+    {
+      "id": "ta-hansyn-till",
+      "sv": "ta hänsyn till",
+      "translations": { "ru": "принимать во внимание", "en": "to take into account" },
+      "pos": "phrase",
+      "example": { "sv": "Regeringen bör ta hänsyn till forskarnas varningar.", "ru": "Правительству следует принимать во внимание предупреждения учёных.", "en": "The government should take researchers' warnings into account." }
+    },
+    {
+      "id": "lagga-vikt-vid",
+      "sv": "lägga vikt vid",
+      "translations": { "ru": "придавать значение (чему-то)", "en": "to attach importance to" },
+      "pos": "phrase",
+      "example": { "sv": "Många lägger stor vikt vid att kunna arbeta hemifrån.", "ru": "Многие придают большое значение возможности работать из дома.", "en": "Many people attach great importance to being able to work from home." }
+    },
+    {
+      "id": "nytta",
+      "sv": "nytta",
+      "translations": { "ru": "польза", "en": "benefit, use" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nytta", "defSg": "nyttan", "indefPl": "nyttor", "defPl": "nyttorna" }
+    },
+    {
+      "id": "finger",
+      "sv": "finger",
+      "translations": { "ru": "палец (на руке)", "en": "finger" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett finger", "defSg": "fingret", "indefPl": "fingrar", "defPl": "fingrarna" }
+    },
+    {
+      "id": "riktning",
+      "sv": "riktning",
+      "translations": { "ru": "направление", "en": "direction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en riktning", "defSg": "riktningen", "indefPl": "riktningar", "defPl": "riktningarna" }
+    },
+    {
+      "id": "hansyn",
+      "sv": "hänsyn",
+      "translations": { "ru": "внимание, учёт (чьих-то интересов)", "en": "consideration, regard" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+    },
+    {
+      "id": "vikt",
+      "sv": "vikt",
+      "translations": { "ru": "вес; значение", "en": "weight; importance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vikt", "defSg": "vikten", "indefPl": "vikter", "defPl": "vikterna" }
+    },
+    {
+      "id": "mojlighet",
+      "sv": "möjlighet",
+      "translations": { "ru": "возможность", "en": "possibility, opportunity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" }
+    },
+    {
+      "id": "varning",
+      "sv": "varning",
+      "translations": { "ru": "предупреждение", "en": "warning" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en varning", "defSg": "varningen", "indefPl": "varningar", "defPl": "varningarna" }
+    },
+    {
+      "id": "hemifran",
+      "sv": "hemifrån",
+      "translations": { "ru": "из дома", "en": "from home" },
+      "pos": "adv"
+    }
+  ]
+}

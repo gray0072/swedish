@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": "socialforsakring",
+      "sv": "socialförsäkring",
+      "translations": { "ru": "социальное страхование", "en": "social insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en socialförsäkring", "defSg": "socialförsäkringen", "indefPl": "socialförsäkringar", "defPl": "socialförsäkringarna" },
+      "example": { "sv": "Socialförsäkringen ger ersättning vid sjukdom och föräldraledighet.", "ru": "Социальное страхование даёт компенсацию при болезни и в декретном отпуске.", "en": "Social insurance provides compensation for illness and parental leave." }
+    },
+    {
+      "id": "sjukvardsavgift",
+      "sv": "sjukvårdsavgift",
+      "translations": { "ru": "плата за медицинскую услугу", "en": "healthcare fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjukvårdsavgift", "defSg": "sjukvårdsavgiften", "indefPl": "sjukvårdsavgifter", "defPl": "sjukvårdsavgifterna" },
+      "example": { "sv": "Sjukvårdsavgiften varierar mellan olika regioner i Sverige.", "ru": "Плата за визит к врачу отличается в разных регионах Швеции.", "en": "The healthcare fee varies between different regions in Sweden." }
+    },
+    {
+      "id": "hogkostnadsskydd",
+      "sv": "högkostnadsskydd",
+      "translations": { "ru": "защита от высоких расходов (лимит на выплаты)", "en": "high-cost protection scheme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett högkostnadsskydd", "defSg": "högkostnadsskyddet", "indefPl": "högkostnadsskydd", "defPl": "högkostnadsskydden" },
+      "example": { "sv": "Det finns ett högkostnadsskydd som gör att man inte betalar hur mycket som helst.", "ru": "Существует защита от высоких расходов, благодаря которой не приходится платить сколько угодно.", "en": "There is a high-cost protection scheme that stops you from paying an unlimited amount." }
+    },
+    {
+      "id": "patientens-rattigheter",
+      "sv": "patientens rättigheter",
+      "translations": { "ru": "права пациента", "en": "patient's rights" },
+      "pos": "phrase",
+      "example": { "sv": "Patientens rättigheter innefattar rätten till information om sin vård.", "ru": "Права пациента включают право на информацию о своём лечении.", "en": "A patient's rights include the right to information about their care." }
+    },
+    {
+      "id": "jamlik-vard",
+      "sv": "jämlik vård",
+      "translations": { "ru": "равное здравоохранение", "en": "equal healthcare" },
+      "pos": "phrase",
+      "example": { "sv": "Jämlik vård innebär att alla ska få vård på lika villkor, oavsett bakgrund.", "ru": "Равное здравоохранение означает, что все должны получать помощь на равных условиях, независимо от происхождения.", "en": "Equal healthcare means that everyone should get care on equal terms, regardless of background." }
+    },
+    {
+      "id": "folkhalsa",
+      "sv": "folkhälsa",
+      "translations": { "ru": "общественное здоровье", "en": "public health" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en folkhälsa", "defSg": "folkhälsan", "indefPl": "folkhälsor", "defPl": "folkhälsorna" },
+      "example": { "sv": "Folkhälsan handlar om befolkningens hälsa i stort, inte bara enskilda patienter.", "ru": "Общественное здоровье касается здоровья населения в целом, а не только отдельных пациентов.", "en": "Public health is about the health of the population as a whole, not just individual patients." }
+    },
+    {
+      "id": "patientavgift",
+      "sv": "patientavgift",
+      "translations": { "ru": "плата пациента", "en": "patient fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en patientavgift", "defSg": "patientavgiften", "indefPl": "patientavgifter", "defPl": "patientavgifterna" }
+    },
+    {
+      "id": "foraldraledighet",
+      "sv": "föräldraledighet",
+      "translations": { "ru": "родительский отпуск", "en": "parental leave" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en föräldraledighet", "defSg": "föräldraledigheten", "indefPl": "föräldraledigheter", "defPl": "föräldraledigheterna" }
+    },
+    {
+      "id": "sjukersattning",
+      "sv": "sjukersättning",
+      "translations": { "ru": "пособие по болезни/нетрудоспособности", "en": "sickness benefit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjukersättning", "defSg": "sjukersättningen", "indefPl": "sjukersättningar", "defPl": "sjukersättningarna" }
+    },
+    {
+      "id": "region-healthcare",
+      "sv": "region",
+      "translations": { "ru": "регион (административная единица, отвечающая за здравоохранение)", "en": "region (administrative unit responsible for healthcare)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en region", "defSg": "regionen", "indefPl": "regioner", "defPl": "regionerna" }
+    },
+    {
+      "id": "oavsett-bakgrund",
+      "sv": "oavsett bakgrund",
+      "translations": { "ru": "независимо от происхождения", "en": "regardless of background" },
+      "pos": "phrase"
+    },
+    {
+      "id": "befolkning",
+      "sv": "befolkning",
+      "translations": { "ru": "население", "en": "population" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en befolkning", "defSg": "befolkningen", "indefPl": "befolkningar", "defPl": "befolkningarna" }
+    },
+    {
+      "id": "ersattning-healthcare",
+      "sv": "ersättning",
+      "translations": { "ru": "компенсация, возмещение", "en": "compensation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ersättning", "defSg": "ersättningen", "indefPl": "ersättningar", "defPl": "ersättningarna" }
+    },
+    {
+      "id": "vardgaranti",
+      "sv": "vårdgaranti",
+      "translations": { "ru": "гарантия на медицинскую помощь (максимальное время ожидания)", "en": "care guarantee (maximum waiting-time guarantee)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vårdgaranti", "defSg": "vårdgarantin", "indefPl": "vårdgarantier", "defPl": "vårdgarantierna" }
+    }
+  ]
+}

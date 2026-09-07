@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-swedish-literature-cinema-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Кто была первой женщиной-нобелевским лауреатом по литературе (шведка)?", "en": "Who was the first woman to win the Nobel Prize in Literature (a Swede)?" },
+      "choices": ["Selma Lagerlöf", "Astrid Lindgren", "Ingmar Bergman"],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-literature-cinema-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «filmatisering»?", "en": "What does \"filmatisering\" mean?" },
+      "choices": [
+        { "ru": "экранизация", "en": "film adaptation" },
+        { "ru": "сценарий", "en": "screenplay" },
+        { "ru": "премьера", "en": "premiere" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-literature-cinema-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Ингмар Бергман известен прежде всего как...", "en": "Ingmar Bergman is best known as a..." },
+      "choices": [
+        { "ru": "режиссёр", "en": "film director" },
+        { "ru": "писатель детективов", "en": "crime novelist" },
+        { "ru": "поэт", "en": "poet" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-literature-cinema-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «deckare»?", "en": "What does \"deckare\" mean?" },
+      "choices": ["детектив (жанр)", "классика", "экранизация"],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-literature-cinema-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Астрид Линдгрен написала книги о Пеппи Длинныйчулок.", "en": "Astrid Lindgren wrote the books about Pippi Longstocking." },
+      "answer": true,
+      "explanation": { "ru": "Да, это одни из самых известных шведских детских книг.", "en": "Yes, these are among the most famous Swedish children's books." }
+    },
+    {
+      "id": "q-swedish-literature-cinema-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Чтобы поддержать разговор о культуре, обязательно нужно пересказать сюжет всей книги.", "en": "To join a conversation about culture, you must be able to retell the whole plot of a book." },
+      "answer": false,
+      "explanation": { "ru": "Достаточно знать имя и пару фактов, не обязательно пересказывать сюжет.", "en": "Knowing a name and a couple of facts is enough — no need to retell the plot." }
+    },
+    {
+      "id": "q-swedish-literature-cinema-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Ingmar Bergman är en av Sveriges mest kända ___. (regissörer)" },
+      "answer": ["regissörer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-swedish-literature-cinema-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ tar ofta upp aktuella samhällsfrågor. (samtidslitteraturen)" },
+      "answer": ["samtidslitteraturen", "Samtidslitteraturen"],
+      "acceptAlso": ["samtidslitteraturen"]
+    },
+    {
+      "id": "q-swedish-literature-cinema-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Многие книги Стига Ларссона были экранизированы.»", "en": "Build the sentence: \"Many of Stieg Larsson's books have been made into films.\"" },
+      "tokens": ["Många", "av", "Stieg", "Larssons", "böcker", "har", "fått", "en", "filmatisering"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-swedish-literature-cinema-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["nobelpristagare", "нобелевский лауреат / Nobel laureate"],
+        ["regissör", "режиссёр / director"],
+        ["deckare", "детектив / crime novel"],
+        ["publik", "публика / audience"]
+      ]
+    },
+    {
+      "id": "q-swedish-literature-cinema-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «prisbelönt»?", "en": "What does \"prisbelönt\" mean?" },
+      "choices": ["удостоенный премии", "недооценённый", "запрещённый"],
+      "answer": 0
+    }
+  ]
+}

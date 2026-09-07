@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/verb-collocations-extended",
+  "slug": "verb-collocations-extended",
+  "title": {
+    "sv": "Verbrektion och kollokationer — den utökade listan",
+    "ru": "Глагольное управление и коллокации — расширенный список",
+    "en": "Verb government and collocations — the extended list"
+  },
+  "summary": {
+    "ru": "«Ta ställning till», «dra slutsatsen att», «lägga fram ett förslag» — устойчивые обороты формального шведского.",
+    "en": "\"Ta ställning till\", \"dra slutsatsen att\", \"lägga fram ett förslag\" — the fixed expressions of formal Swedish."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "verbs", "collocations", "formal"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1910,
+  "prerequisites": ["sva-grund-2/verb-preposition-government"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "utredande-text",
+      "sv": "utredande text",
+      "translations": { "ru": "объясняющий (исследующий) текст", "en": "an explanatory, investigating text" },
+      "pos": "phrase",
+      "example": { "sv": "En utredande text ska belysa en fråga utan att ta ställning.", "ru": "Utredande text должен освещать вопрос, не занимая чью-то сторону.", "en": "An utredande text should illuminate a question without taking a side." }
+    },
+    {
+      "id": "belysa",
+      "sv": "belysa",
+      "translations": { "ru": "освещать (вопрос), проливать свет на", "en": "to shed light on, to illuminate (a question)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "belysa", "present": "belyser", "past": "belyste", "supine": "belyst" },
+      "example": { "sv": "Texten belyser problemet ur flera perspektiv.", "ru": "Текст освещает проблему с нескольких точек зрения.", "en": "The text sheds light on the problem from several perspectives." }
+    },
+    {
+      "id": "fragan-kan-belysas-fran-flera-hall",
+      "sv": "Frågan kan belysas från flera håll.",
+      "translations": { "ru": "Вопрос можно осветить с разных сторон.", "en": "The question can be illuminated from several angles." },
+      "pos": "phrase",
+      "example": { "sv": "Jag inledde min utredande text med: Frågan kan belysas från flera håll.", "ru": "Я начал(а) свой utredande text словами: «Вопрос можно осветить с разных сторон».", "en": "I opened my utredande text with: The question can be illuminated from several angles." }
+    },
+    {
+      "id": "a-ena-sidan-a-andra-sidan",
+      "sv": "Å ena sidan kan man argumentera för att... Å andra sidan finns det perspektiv som visar att...",
+      "translations": { "ru": "С одной стороны, можно утверждать, что... С другой стороны, есть точка зрения, которая показывает, что...", "en": "On the one hand, one could argue that... On the other hand, there is a perspective showing that..." },
+      "pos": "phrase",
+      "example": { "sv": "Å ena sidan kan man argumentera för att distansarbete ökar friheten. Å andra sidan finns det perspektiv som visar att det försvårar samarbete.", "ru": "С одной стороны, можно утверждать, что удалённая работа увеличивает свободу. С другой стороны, есть точка зрения, что она усложняет сотрудничество.", "en": "On the one hand, one could argue that remote work increases freedom. On the other hand, there is a perspective showing that it makes cooperation harder." }
+    },
+    {
+      "id": "sammantaget",
+      "sv": "sammantaget",
+      "translations": { "ru": "в совокупности, в целом", "en": "taken together, overall" },
+      "pos": "adv",
+      "example": { "sv": "Sammantaget pekar källorna åt olika håll.", "ru": "В совокупности источники указывают в разные стороны.", "en": "Taken together, the sources point in different directions." }
+    },
+    {
+      "id": "sammantaget-visar-detta-att",
+      "sv": "Sammantaget visar detta att frågan är mer komplex än den verkar vid första anblick.",
+      "translations": { "ru": "В совокупности это показывает, что вопрос сложнее, чем кажется на первый взгляд.", "en": "Taken together, this shows that the question is more complex than it first appears." },
+      "pos": "phrase",
+      "example": { "sv": "Jag avslutade texten med: Sammantaget visar detta att frågan är mer komplex än den verkar vid första anblick.", "ru": "Я закончил(а) текст словами: «В совокупности это показывает, что вопрос сложнее, чем кажется на первый взгляд».", "en": "I ended the text with: Taken together, this shows that the question is more complex than it first appears." }
+    },
+    {
+      "id": "perspektiv",
+      "sv": "perspektiv",
+      "translations": { "ru": "перспектива, точка зрения, ракурс", "en": "perspective, angle" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett perspektiv", "defSg": "perspektivet", "indefPl": "perspektiv", "defPl": "perspektiven" },
+      "example": { "sv": "Texten tar upp flera olika perspektiv på samma fråga.", "ru": "Текст рассматривает несколько разных точек зрения на один и тот же вопрос.", "en": "The text covers several different perspectives on the same question." }
+    },
+    {
+      "id": "neutral",
+      "sv": "neutral",
+      "translations": { "ru": "нейтральный (не принимающий чью-то сторону)", "en": "neutral, impartial" },
+      "pos": "adj",
+      "example": { "sv": "Skribenten förhåller sig neutral genom hela texten.", "ru": "Автор сохраняет нейтральную позицию на протяжении всего текста.", "en": "The writer remains neutral throughout the text." }
+    },
+    {
+      "id": "objektiv",
+      "sv": "objektiv",
+      "translations": { "ru": "объективный", "en": "objective" },
+      "pos": "adj",
+      "example": { "sv": "En utredande text ska vara så objektiv som möjligt.", "ru": "Utredande text должен быть максимально объективным.", "en": "An utredande text should be as objective as possible." }
+    },
+    {
+      "id": "undersoka",
+      "sv": "undersöka",
+      "translations": { "ru": "исследовать, изучать", "en": "to investigate, to examine" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" },
+      "example": { "sv": "Texten undersöker frågan ur ett historiskt och ett ekonomiskt perspektiv.", "ru": "Текст исследует вопрос с исторической и с экономической точки зрения.", "en": "The text examines the question from a historical and an economic perspective." }
+    },
+    {
+      "id": "mangfacetterad",
+      "sv": "mångfacetterad",
+      "translations": { "ru": "многогранный", "en": "multifaceted" },
+      "pos": "adj",
+      "example": { "sv": "Det här är en mångfacetterad fråga utan ett enkelt svar.", "ru": "Это многогранный вопрос без простого ответа.", "en": "This is a multifaceted question without a simple answer." }
+    },
+    {
+      "id": "utan-att-ta-stallning",
+      "sv": "utan att ta ställning",
+      "translations": { "ru": "не занимая чью-то сторону, не высказывая личной позиции", "en": "without taking a position, without taking sides" },
+      "pos": "phrase",
+      "example": { "sv": "Skribenten presenterar båda sidorna utan att ta ställning.", "ru": "Автор представляет обе стороны, не занимая никакой позиции.", "en": "The writer presents both sides without taking a position." }
+    },
+    {
+      "id": "aspekt",
+      "sv": "aspekt",
+      "translations": { "ru": "аспект", "en": "aspect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en aspekt", "defSg": "aspekten", "indefPl": "aspekter", "defPl": "aspekterna" },
+      "example": { "sv": "En viktig aspekt av frågan är hur den påverkar unga människor.", "ru": "Важный аспект вопроса — то, как он влияет на молодых людей.", "en": "An important aspect of the question is how it affects young people." }
+    },
+    {
+      "id": "slutsats",
+      "sv": "slutsats",
+      "translations": { "ru": "вывод (нейтральный, обобщающий, а не личный вердикт)", "en": "conclusion (a neutral summing-up, not a personal verdict)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" },
+      "example": { "sv": "Slutsatsen sammanfattar de olika perspektiven utan att välja ett av dem.", "ru": "Вывод обобщает разные точки зрения, не выбирая ни одну из них.", "en": "The conclusion sums up the different perspectives without choosing one of them." }
+    }
+  ]
+}

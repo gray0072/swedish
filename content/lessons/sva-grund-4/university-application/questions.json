@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-university-application-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Базовое право на поступление требуется для всех вузовских программ.»", "en": "Build the sentence: \"General eligibility is required for every university programme.\"" },
+      "tokens": ["krävs", "Grundläggande behörighet", "för alla högskoleprogram."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-university-application-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я подал(а) заявку в университет через antagning.se.»", "en": "Build the sentence: \"I applied to university via antagning.se.\"" },
+      "tokens": ["till universitetet", "Jag sökte", "via antagning.se."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-university-application-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Мерит-баллы могут повысить твой балл при отборе.»", "en": "Build the sentence: \"Merit points can raise your score in the selection.\"" },
+      "tokens": ["kan höja", "vid urvalet.", "Meritpoäng", "ditt jämförelsetal"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-university-application-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["högskola", "вуз"],
+        ["termin", "семестр"],
+        ["urval", "отбор"],
+        ["studielån", "учебный кредит"]
+      ]
+    },
+    {
+      "id": "q-university-application-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["meritpoäng", "мерит-баллы"],
+        ["antagningsbesked", "уведомление о зачислении"],
+        ["reservplats", "резервное место"],
+        ["studiebidrag", "учебное пособие"]
+      ]
+    },
+    {
+      "id": "q-university-application-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Studiebidrag» нужно возвращать, как обычный кредит.", "en": "A \"studiebidrag\" must be repaid, just like a regular loan." },
+      "answer": false,
+      "explanation": {
+        "ru": "Studiebidrag — это грант, его не нужно возвращать; возвращают только studielån.",
+        "en": "A studiebidrag is a grant that does not need to be repaid; only the studielån is repaid."
+      }
+    },
+    {
+      "id": "q-university-application-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Заявки в шведские вузы подаются через портал antagning.se.", "en": "Applications to Swedish universities are submitted via the antagning.se portal." },
+      "answer": true
+    },
+    {
+      "id": "q-university-application-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Särskild behörighet» одинакова для абсолютно всех программ.", "en": "\"Särskild behörighet\" is exactly the same for every programme." },
+      "answer": false,
+      "explanation": {
+        "ru": "Специальные требования зависят от конкретной программы: у каждой свои обязательные предметы.",
+        "en": "Specific eligibility requirements depend on the programme: each one has its own required subjects."
+      }
+    },
+    {
+      "id": "q-university-application-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "CSN — это орган, который выдаёт финансовую поддержку на учёбу.", "en": "CSN is the authority that provides student finance." },
+      "answer": true
+    },
+    {
+      "id": "q-university-application-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ om studiemedel hos CSN. (подал/подала заявку)" },
+      "answer": ["ansökte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-university-application-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Om jag saknar en kurs kan jag ___ den på komvux. (досдать)" },
+      "answer": ["komplettera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-university-application-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ till hösttermin brukar vara i mars-april. (период подачи заявок)" },
+      "answer": ["Ansökningsperioden"],
+      "acceptAlso": ["ansökningsperioden"]
+    },
+    {
+      "id": "q-university-application-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что такое «meritpoäng»?",
+        "en": "What are \"meritpoäng\"?"
+      },
+      "choices": ["дополнительные баллы, повышающие твой средний балл при отборе", "название вузовского портала", "вид студенческого кредита", "требование к посещаемости"],
+      "answer": 0
+    },
+    {
+      "id": "q-university-application-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какой государственный орган выдаёт studiemedel?",
+        "en": "Which government authority provides studiemedel?"
+      },
+      "choices": ["CSN", "Skatteverket", "Migrationsverket", "Arbetsförmedlingen"],
+      "answer": 0
+    },
+    {
+      "id": "q-university-application-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что получает абитуриент, если для него сразу не нашлось места на программе?",
+        "en": "What does an applicant get if there was no place for them on the programme right away?"
+      },
+      "choices": ["reservplats", "antagningsbesked", "meritvärde", "urvalsgrupp"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-proportional-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая конструкция более книжная и формальная?", "en": "Which construction is more formal and written?" },
+      "choices": ["ju … desto", "i takt med att", "Обе одинаково нейтральны"],
+      "answer": 1
+    },
+    {
+      "id": "q-proportional-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ju mer du övar, desto bättre blir du» — в какой части подлежащее стоит после глагола?", "en": "\"Ju mer du övar, desto bättre blir du\" — in which half does the subject come after the verb?" },
+      "choices": ["В ju-части", "В desto-части", "Ни в одной"],
+      "answer": 1
+    },
+    {
+      "id": "q-proportional-constructions-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что вводит «i takt med att»?", "en": "What does \"i takt med att\" introduce?" },
+      "choices": ["Придаточное предложение", "Прямую речь", "Список"],
+      "answer": 0
+    },
+    {
+      "id": "q-proportional-constructions-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как перевести «Efterfrågan ökar i takt med att priserna sjunker»?", "en": "How do you translate \"Efterfrågan ökar i takt med att priserna sjunker\"?" },
+      "choices": [
+        { "ru": "Спрос растёт по мере того, как цены падают", "en": "Demand rises as prices fall" },
+        { "ru": "Спрос падает, потому что цены растут", "en": "Demand falls because prices rise" },
+        { "ru": "Спрос не зависит от цен", "en": "Demand does not depend on prices" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-proportional-constructions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ mer du övar, desto bättre blir du. (первая часть конструкции)" },
+      "answer": ["Ju"]
+    },
+    {
+      "id": "q-proportional-constructions-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Efterfrågan ökar i takt ___ att priserna sjunker." },
+      "answer": ["med"]
+    },
+    {
+      "id": "q-proportional-constructions-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Antalet elbilar växer i takt med ___ laddinfrastrukturen byggs ut." },
+      "answer": ["att"]
+    },
+    {
+      "id": "q-proportional-constructions-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Ju äldre man blir, ___ klokare blir man. (вторая часть конструкции)" },
+      "answer": ["desto"]
+    },
+    {
+      "id": "q-proportional-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В ju-части конструкции «ju … desto» подлежащее и глагол не меняются местами.", "en": "In the ju-half of \"ju … desto\", subject and verb do not swap places." },
+      "answer": true
+    },
+    {
+      "id": "q-proportional-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«I takt med att» строится как одно предложение с att-придаточным, а не как два отдельных главных предложения.", "en": "\"I takt med att\" is built as one sentence with an att-clause, not as two separate main clauses." },
+      "answer": true
+    },
+    {
+      "id": "q-proportional-constructions-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«I takt med att» типичнее для разговорной речи, чем для новостных текстов.", "en": "\"I takt med att\" is more typical of spoken language than of news texts." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: «i takt med att» — книжный оборот, типичный для новостных и аналитических текстов.", "en": "The opposite: \"i takt med att\" is a formal, written phrase typical of news and analytical texts." }
+    },
+    {
+      "id": "q-proportional-constructions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Спрос растёт по мере того, как цены падают.»", "en": "Build the sentence: \"Demand rises as prices fall.\"" },
+      "tokens": ["Efterfrågan", "ökar", "i", "takt", "med", "att", "priserna", "sjunker"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-proportional-constructions-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Чем больше людей ездит на велосипеде, тем чище становится воздух.»", "en": "Build the sentence: \"The more people who cycle, the cleaner the air becomes.\"" },
+      "tokens": ["Ju", "fler", "som", "cyklar,", "desto", "renare", "blir", "luften"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-proportional-constructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с её характеристикой", "en": "Match the construction with its property" },
+      "pairs": [
+        ["ju … desto", "инверсия только во второй половине / inversion only in the second half"],
+        ["i takt med att", "одно предложение с att-придаточным / one sentence with an att-clause"],
+        ["takt", "существительное «такт, ритм» / noun \"beat, pace\""]
+      ]
+    },
+    {
+      "id": "q-proportional-constructions-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что буквально значит «i takt med»?", "en": "What does \"i takt med\" literally mean?" },
+      "choices": [
+        { "ru": "«в такт с» — образ синхронного движения", "en": "\"in step with\" — an image of moving in sync" },
+        { "ru": "«вместо» — замена одного другим", "en": "\"instead of\" — replacing one with another" },
+        { "ru": "«несмотря на» — противопоставление", "en": "\"despite\" — a contrast" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/cohesion-reference",
+  "slug": "cohesion-reference",
+  "title": {
+    "sv": "Kohesion och referens: det, detta, vilket, pronominell återkoppling",
+    "ru": "Когезия и референция: det, detta, vilket, местоименные отсылки",
+    "en": "Cohesion and reference: det, detta, vilket, pronominal reference"
+  },
+  "summary": {
+    "ru": "Клей текста: как det/detta/vilket отсылают не к слову, а ко всей предыдущей мысли.",
+    "en": "The text's glue: how det/detta/vilket refer back to a whole idea, not just one word."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "cohesion",
+    "reference",
+    "pronouns",
+    "writing"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1830,
+  "prerequisites": [
+    "sva-grund-4/essay-connectors"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-economy-statistics-analysis-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза используется, чтобы предложить объяснение статистике?", "en": "Which phrase is used to offer an explanation for statistics?" },
+      "choices": ["en möjlig förklaring är att...", "jämfört med föregående år", "det är svårt att säga säkert"],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-statistics-analysis-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "В чём разница между «samband» и «orsak»?", "en": "What is the difference between \"samband\" and \"orsak\"?" },
+      "choices": [
+        { "ru": "samband — это связь/корреляция, orsak — причина", "en": "samband is a correlation, orsak is a cause" },
+        { "ru": "это синонимы", "en": "they are synonyms" },
+        { "ru": "samband относится только к погоде", "en": "samband applies only to weather" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-statistics-analysis-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «bristyrke»?", "en": "What does \"bristyrke\" mean?" },
+      "choices": [
+        { "ru": "дефицитная профессия", "en": "a profession in short supply" },
+        { "ru": "хорошо оплачиваемая работа", "en": "a well-paid job" },
+        { "ru": "временная работа", "en": "a temporary job" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-statistics-analysis-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «konjunktur»?", "en": "What does \"konjunktur\" mean?" },
+      "choices": ["экономическая конъюнктура", "процентная ставка", "государственный бюджет"],
+      "answer": 0
+    },
+    {
+      "id": "q-economy-statistics-analysis-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Если два показателя связаны (samband), это всегда значит, что один вызывает другой.", "en": "If two figures are correlated (samband), that always means one causes the other." },
+      "answer": false,
+      "explanation": { "ru": "Корреляция не равна причинности — нужны дополнительные данные.", "en": "Correlation is not causation — more data is needed." }
+    },
+    {
+      "id": "q-economy-statistics-analysis-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Хороший анализ статистики всегда признаёт, что могут быть разные объяснения.", "en": "Good statistical analysis always acknowledges there may be different explanations." },
+      "answer": true,
+      "explanation": { "ru": "Именно поэтому используются фразы вроде «en möjlig förklaring är att...».", "en": "That's exactly why phrases like \"en möjlig förklaring är att...\" are used." }
+    },
+    {
+      "id": "q-economy-statistics-analysis-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Statistiken ___ på att arbetslösheten minskar bland unga. (tyder)" },
+      "answer": ["tyder"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-economy-statistics-analysis-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Man kan inte ___ slutsatsen att X orsakar Y enbart utifrån detta. (dra)" },
+      "answer": ["dra"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-economy-statistics-analysis-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «По сравнению с прошлым годом инфляция снизилась.»", "en": "Build the sentence: \"Compared with the previous year, inflation has gone down.\"" },
+      "tokens": ["Jämfört", "med", "föregående", "år", "har", "inflationen", "gått", "ner"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-economy-statistics-analysis-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с её функцией", "en": "Match the phrase with its function" },
+      "pairs": [
+        ["statistiken tyder på att", "интерпретация данных / interpreting data"],
+        ["en möjlig förklaring är", "объяснение / offering an explanation"],
+        ["det är svårt att säga säkert", "осторожность в выводах / being cautious"],
+        ["jämfört med föregående år", "сравнение / comparison"]
+      ]
+    },
+    {
+      "id": "q-economy-statistics-analysis-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «slutsats»?", "en": "What does \"slutsats\" mean?" },
+      "choices": ["вывод, заключение", "источник данных", "погрешность"],
+      "answer": 0
+    }
+  ]
+}

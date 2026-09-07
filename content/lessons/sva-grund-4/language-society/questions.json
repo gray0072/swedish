@@ -1,0 +1,102 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-language-society-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Чем отличается «sociolekt» от «dialekt»?", "en": "How is \"sociolekt\" different from \"dialekt\"?" },
+      "choices": [
+        { "ru": "социолект связан с социальной группой, диалект — с регионом", "en": "a sociolect is tied to a social group, a dialect to a region" },
+        { "ru": "это синонимы", "en": "they are synonyms" },
+        { "ru": "социолект относится только к письменной речи", "en": "a sociolect applies only to written language" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-language-society-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «kodväxling»?", "en": "What does \"kodväxling\" mean?" },
+      "choices": [
+        { "ru": "переключение кодов/языков в разговоре", "en": "code-switching between languages in a conversation" },
+        { "ru": "изучение нового алфавита", "en": "learning a new alphabet" },
+        { "ru": "перевод текста", "en": "translating a text" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-language-society-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «språknorm»?", "en": "What is \"språknorm\"?" },
+      "choices": [
+        { "ru": "то, что считается правильным в языке в данный момент", "en": "what counts as correct in a language at a given time" },
+        { "ru": "региональный диалект", "en": "a regional dialect" },
+        { "ru": "иностранный акцент", "en": "a foreign accent" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-language-society-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «tvåspråkig»?", "en": "What does \"tvåspråkig\" mean?" },
+      "choices": ["двуязычный", "одноязычный", "многодиалектный"],
+      "answer": 0
+    },
+    {
+      "id": "q-language-society-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Диалект — это неправильная форма языка.", "en": "A dialect is an incorrect form of a language." },
+      "answer": false,
+      "explanation": { "ru": "Диалект — это просто региональный вариант языка, не хуже стандартного.", "en": "A dialect is simply a regional variety of a language, not inferior to the standard." }
+    },
+    {
+      "id": "q-language-society-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Языковая норма неизменна и никогда не меняется.", "en": "The language norm is fixed and never changes." },
+      "answer": false,
+      "explanation": { "ru": "Норма медленно меняется со временем.", "en": "The norm changes slowly over time." }
+    },
+    {
+      "id": "q-language-society-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Ungdomars sätt att prata kallas ibland en ___. (sociolekt)" },
+      "answer": ["sociolekt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-language-society-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Många tvåspråkiga barn ___ mellan svenska och sitt andra språk. (kodväxlar)" },
+      "answer": ["kodväxlar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-language-society-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Языковая норма медленно меняется со временем.»", "en": "Build the sentence: \"The language norm changes slowly over time.\"" },
+      "tokens": ["Språknormen", "förändras", "långsamt", "över", "tid"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-language-society-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с определением", "en": "Match the term with its definition" },
+      "pairs": [
+        ["dialekt", "региональный вариант языка / regional language variety"],
+        ["sociolekt", "речь социальной группы / speech of a social group"],
+        ["modersmål", "родной язык / native language"],
+        ["brytning", "иностранный акцент / foreign accent"]
+      ]
+    },
+    {
+      "id": "q-language-society-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «myndighetstext»?", "en": "What does \"myndighetstext\" mean?" },
+      "choices": ["официальный текст госоргана", "личное письмо", "диалог в фильме"],
+      "answer": 0
+    }
+  ]
+}

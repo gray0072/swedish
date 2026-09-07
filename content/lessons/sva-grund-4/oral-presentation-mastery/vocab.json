@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "id": "jag-ska-forsoka-halla-mig-till-tiden",
+      "sv": "Jag ska försöka hålla mig till tiden.",
+      "translations": { "ru": "Я постараюсь уложиться во времени.", "en": "I will try to stick to the time." },
+      "pos": "phrase",
+      "example": { "sv": "Jag inledde med: Jag ska försöka hålla mig till tiden, annars hinner ni inte ställa frågor.", "ru": "Я начал(а) со слов: «Я постараюсь уложиться во времени, иначе вы не успеете задать вопросы».", "en": "I opened with: I will try to stick to the time, otherwise you won't have time for questions." }
+    },
+    {
+      "id": "halla-sig-till-tiden",
+      "sv": "hålla sig till tiden",
+      "translations": { "ru": "укладываться во времени, соблюдать регламент", "en": "to stick to the time, to stay within the time limit" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "hålla sig till tiden", "present": "håller sig till tiden", "past": "höll sig till tiden", "supine": "hållit sig till tiden" },
+      "example": { "sv": "Det är viktigt att hålla sig till tiden så att alla grupper hinner presentera.", "ru": "Важно укладываться во времени, чтобы все группы успели выступить.", "en": "It is important to stick to the time so that every group gets to present." }
+    },
+    {
+      "id": "har-ni-nagon-gang-undrat",
+      "sv": "Har ni någon gång undrat varför så många väljer att flytta till en storstad?",
+      "translations": { "ru": "Вы когда-нибудь задумывались, почему так много людей выбирают переезд в большой город?", "en": "Have you ever wondered why so many people choose to move to a big city?" },
+      "pos": "phrase",
+      "example": { "sv": "Jag väckte publikens intresse med: Har ni någon gång undrat varför så många väljer att flytta till en storstad?", "ru": "Я привлёк(ла) внимание аудитории вопросом: «Вы когда-нибудь задумывались, почему так много людей выбирают переезд в большой город?»", "en": "I caught the audience's attention with: Have you ever wondered why so many people choose to move to a big city?" }
+    },
+    {
+      "id": "retorisk-fraga",
+      "sv": "retorisk fråga",
+      "translations": { "ru": "риторический вопрос", "en": "rhetorical question" },
+      "pos": "phrase",
+      "example": { "sv": "Jag inledde med en retorisk fråga för att fånga publikens uppmärksamhet.", "ru": "Я начал(а) с риторического вопроса, чтобы привлечь внимание аудитории.", "en": "I opened with a rhetorical question to grab the audience's attention." }
+    },
+    {
+      "id": "det-ar-en-bra-fraga",
+      "sv": "Det är en bra fråga som jag inte har ett enkelt svar på, men jag tror att det beror på flera faktorer.",
+      "translations": { "ru": "Это хороший вопрос, на который у меня нет простого ответа, но я думаю, что дело в нескольких факторах.", "en": "That's a good question I don't have a simple answer to, but I think it depends on several factors." },
+      "pos": "phrase",
+      "example": { "sv": "När jag fick en svår fråga svarade jag: Det är en bra fråga som jag inte har ett enkelt svar på, men jag tror att det beror på flera faktorer.", "ru": "Когда мне задали сложный вопрос, я ответил(а): «Это хороший вопрос, на который у меня нет простого ответа, но я думаю, что дело в нескольких факторах».", "en": "When I got a hard question I answered: That's a good question I don't have a simple answer to, but I think it depends on several factors." }
+    },
+    {
+      "id": "ogonkontakt",
+      "sv": "ögonkontakt",
+      "translations": { "ru": "зрительный контакт", "en": "eye contact" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ögonkontakt", "defSg": "ögonkontakten", "indefPl": "ögonkontakt", "defPl": "ögonkontakten" },
+      "example": { "sv": "Håll ögonkontakt med olika delar av publiken under presentationen.", "ru": "Поддерживай зрительный контакт с разными частями аудитории во время презентации.", "en": "Keep eye contact with different parts of the audience during the presentation." }
+    },
+    {
+      "id": "halla-ogonkontakt",
+      "sv": "hålla ögonkontakt",
+      "translations": { "ru": "поддерживать зрительный контакт", "en": "to keep/maintain eye contact" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "hålla ögonkontakt", "present": "håller ögonkontakt", "past": "höll ögonkontakt", "supine": "hållit ögonkontakt" },
+      "example": { "sv": "Jag försöker hålla ögonkontakt istället för att bara läsa från mina anteckningar.", "ru": "Я стараюсь поддерживать зрительный контакт, а не просто читать по заметкам.", "en": "I try to keep eye contact instead of just reading from my notes." }
+    },
+    {
+      "id": "tempo",
+      "sv": "tempo",
+      "translations": { "ru": "темп (речи)", "en": "pace (of speech)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" },
+      "example": { "sv": "Ett lugnt tempo gör det lättare för publiken att hänga med.", "ru": "Спокойный темп помогает аудитории лучше следить за мыслью.", "en": "A calm pace makes it easier for the audience to follow along." }
+    },
+    {
+      "id": "paus",
+      "sv": "paus",
+      "translations": { "ru": "пауза", "en": "pause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en paus", "defSg": "pausen", "indefPl": "pauser", "defPl": "pauserna" },
+      "example": { "sv": "En kort paus före den viktigaste poängen skapar spänning.", "ru": "Короткая пауза перед самой важной мыслью создаёт напряжение.", "en": "A short pause before the key point creates tension." }
+    },
+    {
+      "id": "gora-en-paus",
+      "sv": "göra en paus",
+      "translations": { "ru": "сделать паузу", "en": "to make a pause" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "göra en paus", "present": "gör en paus", "past": "gjorde en paus", "supine": "gjort en paus" },
+      "example": { "sv": "Gör en paus innan du avslöjar den viktigaste slutsatsen.", "ru": "Сделай паузу перед тем, как раскрыть самый важный вывод.", "en": "Make a pause before revealing the most important conclusion." }
+    },
+    {
+      "id": "publikkontakt",
+      "sv": "publikkontakt",
+      "translations": { "ru": "контакт с аудиторией", "en": "audience rapport, contact with the audience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en publikkontakt", "defSg": "publikkontakten", "indefPl": "publikkontakt", "defPl": "publikkontakten" },
+      "example": { "sv": "God publikkontakt gör presentationen mer levande.", "ru": "Хороший контакт с аудиторией делает презентацию более живой.", "en": "Good audience rapport makes a presentation feel more alive." }
+    },
+    {
+      "id": "engagera",
+      "sv": "engagera",
+      "translations": { "ru": "вовлекать, увлекать", "en": "to engage" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "engagera", "present": "engagerar", "past": "engagerade", "supine": "engagerat" },
+      "example": { "sv": "En retorisk fråga kan engagera publiken direkt.", "ru": "Риторический вопрос может сразу вовлечь аудиторию.", "en": "A rhetorical question can engage the audience right away." }
+    },
+    {
+      "id": "improvisera",
+      "sv": "improvisera",
+      "translations": { "ru": "импровизировать", "en": "to improvise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "improvisera", "present": "improviserar", "past": "improviserade", "supine": "improviserat" },
+      "example": { "sv": "Om tekniken krånglar måste du kunna improvisera lite.", "ru": "Если техника подводит, нужно уметь немного импровизировать.", "en": "If the technology misbehaves, you need to be able to improvise a little." }
+    },
+    {
+      "id": "avrunda",
+      "sv": "avrunda",
+      "translations": { "ru": "завершать, подводить итог (презентации)", "en": "to wrap up, to round off (a presentation)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "avrunda", "present": "avrundar", "past": "avrundade", "supine": "avrundat" },
+      "example": { "sv": "Jag avrundade presentationen med en kort sammanfattning och tackade för mig.", "ru": "Я завершил(а) презентацию коротким резюме и поблагодарил(а) за внимание.", "en": "I wrapped up the presentation with a short summary and thanked the audience." }
+    }
+  ]
+}

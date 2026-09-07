@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "checklista",
+      "sv": "checklista",
+      "translations": { "ru": "чек-лист, список проверки", "en": "checklist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en checklista", "defSg": "checklistan", "indefPl": "checklistor", "defPl": "checklistorna" }
+    },
+    {
+      "id": "granska",
+      "sv": "granska",
+      "translations": { "ru": "проверять, тщательно рассматривать", "en": "to review, scrutinise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+    },
+    {
+      "id": "sprakgranskning",
+      "sv": "språkgranskning",
+      "translations": { "ru": "языковая правка, проверка языка", "en": "proofreading, language review" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en språkgranskning", "defSg": "språkgranskningen", "indefPl": "språkgranskningar", "defPl": "språkgranskningarna" }
+    },
+    {
+      "id": "huvudsats",
+      "sv": "huvudsats",
+      "translations": { "ru": "главное предложение", "en": "main clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" }
+    },
+    {
+      "id": "genus",
+      "sv": "genus",
+      "translations": { "ru": "грамматический род", "en": "grammatical gender" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" }
+    },
+    {
+      "id": "dubbel-bestamdhet",
+      "sv": "dubbel bestämdhet",
+      "translations": { "ru": "двойная определённость", "en": "double definiteness" },
+      "pos": "phrase",
+      "example": { "sv": "det stora huset", "ru": "этот большой дом", "en": "this big house" }
+    },
+    {
+      "id": "tes",
+      "sv": "tes",
+      "translations": { "ru": "тезис", "en": "thesis" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" }
+    },
+    {
+      "id": "slutsats-checklist",
+      "sv": "slutsats",
+      "translations": { "ru": "вывод, заключение", "en": "conclusion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+    },
+    {
+      "id": "sammanhang",
+      "sv": "sammanhang",
+      "translations": { "ru": "связность, контекст", "en": "coherence, context" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+    },
+    {
+      "id": "alska",
+      "sv": "älska",
+      "translations": { "ru": "любить", "en": "to love" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "älska", "present": "älskar", "past": "älskade", "supine": "älskat" }
+    },
+    {
+      "id": "sin-sitt-sina",
+      "sv": "sin/sitt/sina",
+      "translations": { "ru": "свой/своё/свои (возвратное притяжательное)", "en": "one's own (reflexive possessive)" },
+      "pos": "pron",
+      "note": { "ru": "Используется, когда обладатель совпадает с подлежащим предложения.", "en": "Used when the owner is the same as the subject of the clause." }
+    },
+    {
+      "id": "hans-hennes",
+      "sv": "hans/hennes",
+      "translations": { "ru": "его/её (не возвратное)", "en": "his/her (non-reflexive)" },
+      "pos": "pron",
+      "note": { "ru": "Используется, когда обладатель — не подлежащее этого предложения.", "en": "Used when the owner is not the subject of this clause." }
+    },
+    {
+      "id": "trots",
+      "sv": "trots",
+      "translations": { "ru": "несмотря на", "en": "despite, in spite of" },
+      "pos": "prep"
+    }
+  ]
+}

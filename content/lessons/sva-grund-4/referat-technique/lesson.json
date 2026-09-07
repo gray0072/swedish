@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/referat-technique",
+  "slug": "referat-technique",
+  "title": {
+    "sv": "Referatteknik: citat, parafras, källhänvisning, plagiat",
+    "ru": "Referatteknik: цитата, пересказ, ссылка, плагиат",
+    "en": "Referatteknik: quotation, paraphrase, reference, plagiarism"
+  },
+  "summary": {
+    "ru": "Как честно пересказать чужой текст: цитата или парафраз — и почему без ссылки на источник это плагиат.",
+    "en": "How to summarise someone else's text honestly: quote or paraphrase — and why skipping the source reference makes it plagiarism."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "writing", "style", "academic"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1880,
+  "prerequisites": ["sva-grund-3/quotation-formatting"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

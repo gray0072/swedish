@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-formal-authority-letter-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Настоящим обращаюсь в Försäkringskassan по поводу моего дела.»", "en": "Build the sentence: \"I am hereby writing to Försäkringskassan regarding my case.\"" },
+      "tokens": ["härmed till Försäkringskassan", "Jag vänder mig", "angående mitt ärende."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-formal-authority-letter-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Прошу вынести письменное решение по делу.»", "en": "Build the sentence: \"I am requesting a written decision in the matter.\"" },
+      "tokens": ["om ett skriftligt beslut", "Jag ber", "i ärendet."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-formal-authority-letter-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я хочу обжаловать отказ по моему заявлению.»", "en": "Build the sentence: \"I want to appeal the rejection of my application.\"" },
+      "tokens": ["Jag vill", "på min ansökan.", "överklaga avslaget"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-formal-authority-letter-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["myndighet", "государственный орган"],
+        ["ärende", "дело"],
+        ["beslut", "решение"],
+        ["avslag", "отказ"]
+      ]
+    },
+    {
+      "id": "q-formal-authority-letter-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["handläggare", "куратор дела"],
+        ["diarienummer", "регистрационный номер"],
+        ["yttrande", "заключение"],
+        ["bifall", "положительное решение"]
+      ]
+    },
+    {
+      "id": "q-formal-authority-letter-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Härmed» — это разговорное слово, которое не используют в официальных письмах.", "en": "\"Härmed\" is a casual word not used in formal letters." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот, «härmed» — типичное слово именно для формальных писем в госорганы.",
+        "en": "On the contrary, \"härmed\" is a typical word used specifically in formal letters to authorities."
+      }
+    },
+    {
+      "id": "q-formal-authority-letter-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Отказ (avslag) по заявлению можно обжаловать (överklaga) в установленный срок.", "en": "A rejection (avslag) of an application can be appealed (överklaga) within a set deadline." },
+      "answer": true
+    },
+    {
+      "id": "q-formal-authority-letter-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Диарийный номер (diarienummer) не имеет значения при переписке с госорганом.", "en": "A reference number (diarienummer) does not matter in correspondence with an authority." },
+      "answer": false,
+      "explanation": {
+        "ru": "Диарийный номер важен: он помогает куратору дела быстро найти нужные документы.",
+        "en": "The reference number matters: it helps the case officer find the right documents quickly."
+      }
+    },
+    {
+      "id": "q-formal-authority-letter-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Bifall» означает положительное решение по заявлению.", "en": "\"Bifall\" means a positive decision on an application." },
+      "answer": true
+    },
+    {
+      "id": "q-formal-authority-letter-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag skriver ___ mitt avslag från förra månaden. (по поводу)" },
+      "answer": ["angående"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-formal-authority-letter-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Ange alltid ditt ___ när du kontaktar myndigheten. (регистрационный номер)" },
+      "answer": ["diarienummer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-formal-authority-letter-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag vill ___ avslaget på min ansökan. (обжаловать)" },
+      "answer": ["överklaga"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-formal-authority-letter-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая фраза лучше всего подходит для начала письма в госорган?",
+        "en": "Which phrase best opens a letter to a public authority?"
+      },
+      "choices": ["Jag vänder mig härmed till [myndighet] angående...", "Hej, jag undrar bara lite...", "Tja, det gäller...", "Hallå där, kan ni hjälpa mig?"],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-authority-letter-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется человек, который ведёт твоё дело в госоргане?",
+        "en": "What is the person who handles your case at an authority called?"
+      },
+      "choices": ["handläggare", "myndighet", "beslut", "yttrande"],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-authority-letter-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой официальной фразой принято завершать письмо в госорган?",
+        "en": "Which formal phrase is typically used to close a letter to an authority?"
+      },
+      "choices": ["Högaktningsfullt", "Hej då!", "Vi ses!", "Kramar"],
+      "answer": 0
+    }
+  ]
+}

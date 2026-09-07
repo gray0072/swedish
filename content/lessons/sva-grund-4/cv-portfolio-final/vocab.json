@@ -1,0 +1,141 @@
+{
+  "items": [
+    {
+      "id": "jag-har-alltid-brunnit-for",
+      "sv": "Jag har alltid brunnit för att arbeta med människor.",
+      "translations": { "ru": "Я всегда горел(а) страстью работать с людьми.", "en": "I have always been passionate about working with people." },
+      "pos": "phrase",
+      "example": { "sv": "I mitt personliga brev skrev jag: Jag har alltid brunnit för att arbeta med människor.", "ru": "В сопроводительном письме я написал(а): «Я всегда горел(а) страстью работать с людьми».", "en": "In my cover letter I wrote: I have always been passionate about working with people." }
+    },
+    {
+      "id": "brinna-for",
+      "sv": "brinna för",
+      "translations": { "ru": "гореть страстью к чему-то, увлекаться", "en": "to be passionate about, to burn for" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "brinna för", "present": "brinner för", "past": "brann för", "supine": "brunnit för" },
+      "example": { "sv": "Jag brinner för hållbar utveckling.", "ru": "Я увлечён(а) устойчивым развитием.", "en": "I am passionate about sustainable development." }
+    },
+    {
+      "id": "min-styrka-ar",
+      "sv": "Min styrka är förmågan att lösa problem snabbt.",
+      "translations": { "ru": "Моя сильная сторона — способность быстро решать проблемы.", "en": "My strength is the ability to solve problems quickly." },
+      "pos": "phrase",
+      "example": { "sv": "Jag avslutade profilen med: Min styrka är förmågan att lösa problem snabbt.", "ru": "Я завершил(а) профиль словами: «Моя сильная сторона — способность быстро решать проблемы».", "en": "I ended the profile with: My strength is the ability to solve problems quickly." }
+    },
+    {
+      "id": "profil",
+      "sv": "profil",
+      "translations": { "ru": "профиль (короткое представление в начале резюме)", "en": "profile (a short summary at the top of a CV)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en profil", "defSg": "profilen", "indefPl": "profiler", "defPl": "profilerna" },
+      "example": { "sv": "Överst i CV:t har jag en kort profil om mig själv.", "ru": "В начале резюме у меня есть короткий профиль о себе.", "en": "At the top of my CV I have a short profile about myself." }
+    },
+    {
+      "id": "arbetsprov",
+      "sv": "arbetsprov",
+      "translations": { "ru": "рабочий образец, пример работы", "en": "work sample" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett arbetsprov", "defSg": "arbetsprovet", "indefPl": "arbetsprover", "defPl": "arbetsproven" },
+      "example": { "sv": "Jag bifogade tre arbetsprov från mitt senaste jobb.", "ru": "Я приложил(а) три примера работы с последнего места работы.", "en": "I attached three work samples from my most recent job." }
+    },
+    {
+      "id": "referenser-pa-begaran",
+      "sv": "Referenser lämnas på begäran.",
+      "translations": { "ru": "Рекомендации предоставляются по запросу.", "en": "References available on request." },
+      "pos": "phrase",
+      "example": { "sv": "Längst ner i CV:t skrev jag: Referenser lämnas på begäran.", "ru": "В самом низу резюме я написал(а): «Рекомендации предоставляются по запросу».", "en": "At the very bottom of my CV I wrote: References available on request." }
+    },
+    {
+      "id": "portfolio",
+      "sv": "portfolio",
+      "translations": { "ru": "портфолио (собрание работ)", "en": "portfolio" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en portfolio", "defSg": "portfolion", "indefPl": "portfolior", "defPl": "portfoliorna" },
+      "example": { "sv": "Jag har en digital portfolio med länkar till tidigare projekt.", "ru": "У меня есть цифровое портфолио со ссылками на прошлые проекты.", "en": "I have a digital portfolio with links to past projects." }
+    },
+    {
+      "id": "meritforteckning",
+      "sv": "meritförteckning",
+      "translations": { "ru": "перечень заслуг, резюме (официальный термин)", "en": "list of qualifications, CV (formal term)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en meritförteckning", "defSg": "meritförteckningen", "indefPl": "meritförteckningar", "defPl": "meritförteckningarna" },
+      "example": { "sv": "Bifoga en meritförteckning tillsammans med ansökan.", "ru": "Приложи резюме (перечень заслуг) вместе с заявкой.", "en": "Attach a list of qualifications together with your application." }
+    },
+    {
+      "id": "kompetensprofil",
+      "sv": "kompetensprofil",
+      "translations": { "ru": "профиль компетенций", "en": "competence profile" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kompetensprofil", "defSg": "kompetensprofilen", "indefPl": "kompetensprofiler", "defPl": "kompetensprofilerna" },
+      "example": { "sv": "Min kompetensprofil visar både tekniska och sociala färdigheter.", "ru": "Мой профиль компетенций показывает как технические, так и социальные навыки.", "en": "My competence profile shows both technical and social skills." }
+    },
+    {
+      "id": "utmarka-sig",
+      "sv": "utmärka sig",
+      "translations": { "ru": "выделяться (среди других)", "en": "to stand out" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utmärka sig", "present": "utmärker sig", "past": "utmärkte sig", "supine": "utmärkt sig" },
+      "example": { "sv": "Ett skräddarsytt personligt brev gör att du utmärker dig bland andra sökande.", "ru": "Индивидуально подогнанное сопроводительное письмо помогает тебе выделиться среди других соискателей.", "en": "A tailored cover letter helps you stand out among the other applicants." }
+    },
+    {
+      "id": "konkret-exempel",
+      "sv": "konkret exempel",
+      "translations": { "ru": "конкретный пример", "en": "concrete example" },
+      "pos": "phrase",
+      "example": { "sv": "Ge alltid ett konkret exempel som styrker ditt påstående.", "ru": "Всегда приводи конкретный пример, подтверждающий твоё утверждение.", "en": "Always give a concrete example that supports your claim." }
+    },
+    {
+      "id": "sammanfatta",
+      "sv": "sammanfatta",
+      "translations": { "ru": "обобщать, суммировать", "en": "to summarise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Profilen ska sammanfatta din erfarenhet på tre-fyra rader.", "ru": "Профиль должен обобщать твой опыт в трёх-четырёх строках.", "en": "The profile should summarise your experience in three or four lines." }
+    },
+    {
+      "id": "digital-portfolio",
+      "sv": "digital portfolio",
+      "translations": { "ru": "цифровое портфолио", "en": "digital portfolio" },
+      "pos": "phrase",
+      "example": { "sv": "Jag har en digital portfolio med länkar till tidigare projekt.", "ru": "У меня есть цифровое портфолио со ссылками на прошлые проекты.", "en": "I have a digital portfolio with links to past projects." }
+    },
+    {
+      "id": "skraddarsy",
+      "sv": "skräddarsy",
+      "translations": { "ru": "адаптировать, подгонять (под конкретную вакансию)", "en": "to tailor (a CV or cover letter to a specific job)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "skräddarsy", "present": "skräddarsyr", "past": "skräddarsydde", "supine": "skräddarsytt" },
+      "example": { "sv": "Skräddarsy ditt personliga brev för varje tjänst du söker.", "ru": "Подгоняй сопроводительное письмо под каждую вакансию, на которую подаёшь заявку.", "en": "Tailor your cover letter for every position you apply for." }
+    },
+    {
+      "id": "personligt-brev-final",
+      "sv": "personligt brev",
+      "translations": { "ru": "сопроводительное письмо", "en": "cover letter" },
+      "pos": "phrase",
+      "example": { "sv": "Ett bra personligt brev innehåller alltid konkreta exempel.", "ru": "Хорошее сопроводительное письмо всегда содержит конкретные примеры.", "en": "A good cover letter always contains concrete examples." }
+    },
+    {
+      "id": "inledande-mening",
+      "sv": "inledande mening",
+      "translations": { "ru": "вступительное предложение (крючок)", "en": "opening hook sentence" },
+      "pos": "phrase",
+      "example": { "sv": "En stark inledande mening väcker läsarens intresse direkt.", "ru": "Сильное вступительное предложение сразу привлекает внимание читателя.", "en": "A strong opening sentence grabs the reader's interest right away." }
+    },
+    {
+      "id": "malinriktad",
+      "sv": "målinriktad",
+      "translations": { "ru": "целенаправленный, целеустремлённый", "en": "goal-oriented, focused" },
+      "pos": "adj",
+      "example": { "sv": "Rekryteraren beskrev mig som målinriktad och noggrann.", "ru": "Рекрутёр описал меня как целеустремлённого(ую) и внимательного(ую) к деталям.", "en": "The recruiter described me as goal-oriented and thorough." }
+    }
+  ]
+}

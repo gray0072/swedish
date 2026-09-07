@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "nordiska-sprak",
+      "sv": "nordiska språk",
+      "translations": { "ru": "скандинавские (северные) языки", "en": "Nordic languages" },
+      "pos": "phrase",
+      "example": { "sv": "Svenska, danska och norska tillhör de nordiska språken.", "ru": "Шведский, датский и норвежский относятся к скандинавским языкам.", "en": "Swedish, Danish, and Norwegian belong to the Nordic languages." }
+    },
+    {
+      "id": "grannsprak",
+      "sv": "grannspråk",
+      "translations": { "ru": "язык-сосед, близкородственный язык соседней страны", "en": "neighbour language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett grannspråk", "defSg": "grannspråket", "indefPl": "grannspråk", "defPl": "grannspråken" },
+      "example": { "sv": "Danska och norska kallas Sveriges grannspråk.", "ru": "Датский и норвежский называют «языками-соседями» Швеции.", "en": "Danish and Norwegian are called Sweden's neighbour languages." }
+    },
+    {
+      "id": "skandinavisk-sprakforstaelse",
+      "sv": "skandinavisk språkförståelse",
+      "translations": { "ru": "скандинавское языковое взаимопонимание", "en": "Scandinavian language comprehension" },
+      "pos": "phrase"
+    },
+    {
+      "id": "grannsprakforstaelse",
+      "sv": "grannspråksförståelse",
+      "translations": { "ru": "понимание языков-соседей", "en": "neighbour-language comprehension" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en grannspråksförståelse", "defSg": "grannspråksförståelsen", "indefPl": "grannspråksförståelser", "defPl": "grannspråksförståelserna" }
+    },
+    {
+      "id": "omsesidigt-forstaeliga",
+      "sv": "ömsesidigt förståeliga",
+      "translations": { "ru": "взаимопонятные (о языках)", "en": "mutually intelligible" },
+      "pos": "phrase"
+    },
+    {
+      "id": "talad-danska",
+      "sv": "talad danska",
+      "translations": { "ru": "устная датская речь", "en": "spoken Danish" },
+      "pos": "phrase",
+      "example": { "sv": "Skriven danska går ofta att förstå, men talad danska är svårare.", "ru": "Письменный датский часто понятен, а вот устная речь — сложнее.", "en": "Written Danish can often be understood, but spoken Danish is harder." }
+    },
+    {
+      "id": "muntligt",
+      "sv": "muntligt",
+      "translations": { "ru": "устно, на слух", "en": "orally, by ear" },
+      "pos": "adv",
+      "example": { "sv": "Norska är för de flesta svenskar lättare att förstå muntligt än danska.", "ru": "Норвежский большинству шведов легче понимать на слух, чем датский.", "en": "Most Swedes find Norwegian easier to understand by ear than Danish." }
+    },
+    {
+      "id": "falska-vanner",
+      "sv": "falska vänner",
+      "translations": { "ru": "ложные друзья переводчика", "en": "false friends" },
+      "pos": "phrase"
+    },
+    {
+      "id": "rolig-false-friend",
+      "sv": "rolig",
+      "translations": { "ru": "весёлый, забавный (в шведском); спокойный (в норвежском)", "en": "funny/fun (Swedish); calm (Norwegian)" },
+      "pos": "adj",
+      "example": { "sv": "Svenska \"rolig\" betyder rolig/kul, men norska \"rolig\" betyder lugn.", "ru": "Шведское «rolig» значит «весёлый», а норвежское «rolig» значит «спокойный».", "en": "Swedish \"rolig\" means \"funny/fun\", but Norwegian \"rolig\" means \"calm\"." }
+    },
+    {
+      "id": "by-false-friend",
+      "sv": "by",
+      "translations": { "ru": "деревня (в шведском); город (в датском)", "en": "village (Swedish); town/city (Danish)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en by", "defSg": "byn", "indefPl": "byar", "defPl": "byarna" },
+      "example": { "sv": "Svenska \"by\" betyder en liten ort på landet, men danska \"by\" betyder stad.", "ru": "Шведское «by» значит «маленькая деревня», а датское «by» значит «город».", "en": "Swedish \"by\" means \"a small village\", but Danish \"by\" means \"town/city\"." }
+    },
+    {
+      "id": "uttal-kinship",
+      "sv": "uttal",
+      "translations": { "ru": "произношение", "en": "pronunciation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett uttal", "defSg": "uttalet", "indefPl": "uttal", "defPl": "uttalen" }
+    },
+    {
+      "id": "melodi-i-talet",
+      "sv": "melodi i talet",
+      "translations": { "ru": "мелодика речи, интонация", "en": "speech melody, intonation" },
+      "pos": "phrase"
+    },
+    {
+      "id": "slakt-sprak",
+      "sv": "släkt språk",
+      "translations": { "ru": "родственный язык", "en": "related language" },
+      "pos": "phrase"
+    },
+    {
+      "id": "germanska-sprak",
+      "sv": "germanska språk",
+      "translations": { "ru": "германские языки", "en": "Germanic languages" },
+      "pos": "phrase"
+    }
+  ]
+}

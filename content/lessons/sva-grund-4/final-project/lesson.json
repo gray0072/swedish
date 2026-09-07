@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/final-project",
+  "slug": "final-project",
+  "title": {
+    "sv": "Slutprojekt: egen text om valfritt ämne, med muntligt försvar",
+    "ru": "Итоговый проект: собственный текст на свободную тему с защитой",
+    "en": "The final project: your own text on a free topic, defended orally"
+  },
+  "summary": {
+    "ru": "Итоговые фразы всего курса SVA grund: представить своё исследование, объяснить выбор темы и подготовить рефлексию для устной защиты письменной работы.",
+    "en": "Capstone phrases for the whole SVA grund course: presenting your own investigation, explaining your choice of topic, and reflecting aloud when defending a piece of writing."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "writing", "speaking", "capstone"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2200,
+  "prerequisites": ["sva-grund-3/planning-further-study"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

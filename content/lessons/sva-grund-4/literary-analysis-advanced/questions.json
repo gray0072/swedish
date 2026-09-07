@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-literary-analysis-advanced-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Чем «motiv» отличается от «tema»?", "en": "How is \"motiv\" different from \"tema\"?" },
+      "choices": [
+        { "ru": "мотив — конкретная повторяющаяся деталь, тема — о чём текст в целом", "en": "a motif is a specific recurring detail, a theme is what the text is about overall" },
+        { "ru": "это синонимы", "en": "they are synonyms" },
+        { "ru": "мотив относится только к музыке", "en": "a motif applies only to music" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-analysis-advanced-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «kärv» (о стиле)?", "en": "What does \"kärv\" mean (about style)?" },
+      "choices": [
+        { "ru": "суровый, сдержанный", "en": "terse, austere" },
+        { "ru": "весёлый, лёгкий", "en": "cheerful, light" },
+        { "ru": "длинный, витиеватый", "en": "long, elaborate" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-analysis-advanced-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Как сказать «замысел автора» по-шведски?", "en": "How do you say \"the author's purpose\" in Swedish?" },
+      "choices": ["författarens syfte", "läsarens tolkning", "berättarens perspektiv"],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-analysis-advanced-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «öppet slut»?", "en": "What does \"öppet slut\" mean?" },
+      "choices": ["открытый финал", "счастливый конец", "поворотный момент"],
+      "answer": 0
+    },
+    {
+      "id": "q-literary-analysis-advanced-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Хороший литературный анализ — это в основном пересказ сюжета.", "en": "Good literary analysis is mostly retelling the plot." },
+      "answer": false,
+      "explanation": { "ru": "Анализ должен связывать язык, стиль и тему с замыслом автора, а не просто пересказывать события.", "en": "Analysis should connect language, style, and theme to the author's purpose, not just retell events." }
+    },
+    {
+      "id": "q-literary-analysis-advanced-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Symbol» может толковаться по-разному разными читателями.", "en": "A \"symbol\" can be interpreted differently by different readers." },
+      "answer": true,
+      "explanation": { "ru": "Толкование символов (tolkning) часто субъективно.", "en": "Interpretation of symbols (tolkning) is often subjective." }
+    },
+    {
+      "id": "q-literary-analysis-advanced-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Fågeln kan ___ som en symbol för frihet. (tolkas)" },
+      "answer": ["tolkas"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-literary-analysis-advanced-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Ett ___ som återkommer är den mörka skogen. (motiv)" },
+      "answer": ["motiv"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-literary-analysis-advanced-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Языковой стиль автора — краткий и сдержанный.»", "en": "Build the sentence: \"The author's language style is short and terse.\"" },
+      "tokens": ["Författarens", "språkliga", "stil", "är", "kort", "och", "kärv"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-literary-analysis-advanced-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с определением", "en": "Match the term with its definition" },
+      "pairs": [
+        ["tema", "о чём текст в целом / what the text is about"],
+        ["motiv", "повторяющаяся деталь / a recurring detail"],
+        ["tolkning", "интерпретация / interpretation"],
+        ["metafor", "образное сравнение / a figurative comparison"]
+      ]
+    },
+    {
+      "id": "q-literary-analysis-advanced-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «väcka eftertanke»?", "en": "What does \"väcka eftertanke\" mean?" },
+      "choices": ["заставлять задуматься", "рассмешить", "вызвать скуку"],
+      "answer": 0
+    }
+  ]
+}

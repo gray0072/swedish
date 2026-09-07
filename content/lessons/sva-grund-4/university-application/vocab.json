@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "grundlaggande-behorighet",
+      "sv": "grundläggande behörighet",
+      "translations": { "ru": "базовое право на поступление (в вуз)", "en": "general eligibility (for university)" },
+      "pos": "phrase",
+      "example": { "sv": "Grundläggande behörighet krävs för alla högskoleprogram.", "ru": "Базовое право на поступление требуется для всех вузовских программ.", "en": "General eligibility is required for every university programme." }
+    },
+    {
+      "id": "sarskild-behorighet",
+      "sv": "särskild behörighet",
+      "translations": { "ru": "специальные требования (по конкретным предметам)", "en": "specific eligibility requirements" },
+      "pos": "phrase",
+      "example": { "sv": "Särskild behörighet innebär att du har läst specifika kurser, till exempel matematik.", "ru": "Специальные требования означают, что ты изучал(а) конкретные курсы, например математику.", "en": "Specific eligibility requirements mean you have studied particular courses, for example mathematics." }
+    },
+    {
+      "id": "antagning-se",
+      "sv": "antagning.se",
+      "translations": { "ru": "antagning.se — единый портал подачи заявок в вузы", "en": "antagning.se — the national university application portal" },
+      "pos": "phrase",
+      "example": { "sv": "Jag sökte till universitetet via antagning.se.", "ru": "Я подал(а) заявку в университет через antagning.se.", "en": "I applied to university via antagning.se." }
+    },
+    {
+      "id": "meritpoang",
+      "sv": "meritpoäng",
+      "translations": { "ru": "дополнительные баллы за успеваемость (мерит-баллы)", "en": "merit points (extra points added to your grades)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en meritpoäng", "defSg": "meritpoängen", "indefPl": "meritpoäng", "defPl": "meritpoängen" },
+      "example": { "sv": "Meritpoäng kan höja ditt jämförelsetal vid urvalet.", "ru": "Мерит-баллы могут повысить твой сравнительный балл при отборе.", "en": "Merit points can raise your comparative score in the selection." }
+    },
+    {
+      "id": "studiemedel",
+      "sv": "studiemedel",
+      "translations": { "ru": "финансовая поддержка на учёбу (от CSN)", "en": "student finance (from CSN)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "studiemedel", "defSg": "studiemedlet", "indefPl": "studiemedel", "defPl": "studiemedlen" },
+      "example": { "sv": "Jag ansökte om studiemedel hos CSN inför min första termin.", "ru": "Я подал(а) заявку на финансовую поддержку в CSN перед первым семестром.", "en": "I applied for student finance from CSN before my first term." }
+    },
+    {
+      "id": "csn",
+      "sv": "CSN",
+      "translations": { "ru": "ЦСН — государственный орган, выдающий финансовую поддержку на учёбу", "en": "CSN — the Swedish Board of Student Finance" },
+      "pos": "noun",
+      "example": { "sv": "CSN betalar ut studiebidrag och studielån varje månad.", "ru": "CSN ежемесячно выплачивает грант и кредит на учёбу.", "en": "CSN pays out the student grant and student loan every month." }
+    },
+    {
+      "id": "ansokningsperiod",
+      "sv": "ansökningsperiod",
+      "translations": { "ru": "период подачи заявок", "en": "application period" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ansökningsperiod", "defSg": "ansökningsperioden", "indefPl": "ansökningsperioder", "defPl": "ansökningsperioderna" },
+      "example": { "sv": "Ansökningsperioden för hösttermin brukar vara i mars-april.", "ru": "Период подачи заявок на осенний семестр обычно приходится на март-апрель.", "en": "The application period for the autumn term is usually in March-April." }
+    },
+    {
+      "id": "hogskola",
+      "sv": "högskola",
+      "translations": { "ru": "вуз, высшая школа", "en": "university college, higher-education institution" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en högskola", "defSg": "högskolan", "indefPl": "högskolor", "defPl": "högskolorna" },
+      "example": { "sv": "Slutbetyget ger dig behörighet till högskolan.", "ru": "Итоговая оценка даёт тебе право на поступление в вуз.", "en": "The final grade gives you eligibility for university." }
+    },
+    {
+      "id": "universitet",
+      "sv": "universitet",
+      "translations": { "ru": "университет", "en": "university" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett universitet", "defSg": "universitetet", "indefPl": "universitet", "defPl": "universiteten" },
+      "example": { "sv": "Hon studerar juridik vid universitetet i Uppsala.", "ru": "Она изучает право в университете Уппсалы.", "en": "She is studying law at the university in Uppsala." }
+    },
+    {
+      "id": "ansoka",
+      "sv": "ansöka",
+      "translations": { "ru": "подавать заявку", "en": "to apply" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ansöka", "present": "ansöker", "past": "ansökte", "supine": "ansökt" },
+      "example": { "sv": "Du måste ansöka om studiemedel varje termin.", "ru": "Тебе нужно подавать заявку на финансовую поддержку каждый семестр.", "en": "You need to apply for student finance every term." }
+    },
+    {
+      "id": "urval",
+      "sv": "urval",
+      "translations": { "ru": "отбор (при поступлении)", "en": "selection (for admission)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett urval", "defSg": "urvalet", "indefPl": "urval", "defPl": "urvalen" },
+      "example": { "sv": "Urvalet till populära program görs ofta enbart på betyg.", "ru": "Отбор на популярные программы часто ведётся только по оценкам.", "en": "Selection for popular programmes is often based on grades alone." }
+    },
+    {
+      "id": "meritvarde",
+      "sv": "meritvärde",
+      "translations": { "ru": "суммарный балл по оценкам (мерит-балл)", "en": "grade point total (merit value)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meritvärde", "defSg": "meritvärdet", "indefPl": "meritvärden", "defPl": "meritvärdena" },
+      "example": { "sv": "Ditt meritvärde räknas ut från alla dina slutbetyg.", "ru": "Твой мерит-балл рассчитывается на основе всех итоговых оценок.", "en": "Your merit value is calculated from all of your final grades." }
+    },
+    {
+      "id": "urvalsgrupp",
+      "sv": "urvalsgrupp",
+      "translations": { "ru": "группа отбора", "en": "selection group" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en urvalsgrupp", "defSg": "urvalsgruppen", "indefPl": "urvalsgrupper", "defPl": "urvalsgrupperna" },
+      "example": { "sv": "Sökande med betyg från komvux hamnar i en egen urvalsgrupp.", "ru": "Абитуриенты с оценками из комвукса попадают в отдельную группу отбора.", "en": "Applicants with grades from komvux fall into their own selection group." }
+    },
+    {
+      "id": "antagningsbesked",
+      "sv": "antagningsbesked",
+      "translations": { "ru": "уведомление о зачислении", "en": "admission notice" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett antagningsbesked", "defSg": "antagningsbeskedet", "indefPl": "antagningsbesked", "defPl": "antagningsbeskeden" },
+      "example": { "sv": "Antagningsbeskedet kommer via antagning.se i juli.", "ru": "Уведомление о зачислении приходит через antagning.se в июле.", "en": "The admission notice arrives via antagning.se in July." }
+    },
+    {
+      "id": "reservplats",
+      "sv": "reservplats",
+      "translations": { "ru": "резервное место", "en": "waiting-list place" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reservplats", "defSg": "reservplatsen", "indefPl": "reservplatser", "defPl": "reservplatserna" },
+      "example": { "sv": "Jag fick en reservplats och kom in senare från kön.", "ru": "Я получил(а) резервное место и поступил(а) позже из очереди.", "en": "I got a waiting-list place and was admitted later from the queue." }
+    },
+    {
+      "id": "studielan",
+      "sv": "studielån",
+      "translations": { "ru": "учебный кредит", "en": "student loan" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett studielån", "defSg": "studielånet", "indefPl": "studielån", "defPl": "studielånen" },
+      "example": { "sv": "Studielånet betalar du tillbaka efter examen.", "ru": "Учебный кредит ты выплачиваешь после окончания учёбы.", "en": "You pay the student loan back after graduation." }
+    },
+    {
+      "id": "studiebidrag",
+      "sv": "studiebidrag",
+      "translations": { "ru": "учебное пособие, грант", "en": "student grant" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett studiebidrag", "defSg": "studiebidraget", "indefPl": "studiebidrag", "defPl": "studiebidragen" },
+      "example": { "sv": "Studiebidraget behöver du inte betala tillbaka.", "ru": "Учебное пособие возвращать не нужно.", "en": "You do not need to pay the student grant back." }
+    },
+    {
+      "id": "komplettera",
+      "sv": "komplettera",
+      "translations": { "ru": "дополнять, досдавать (недостающее)", "en": "to make up (missing credits), to supplement" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "komplettera", "present": "kompletterar", "past": "kompletterade", "supine": "kompletterat" },
+      "example": { "sv": "Jag behöver komplettera matematik innan jag kan söka programmet.", "ru": "Мне нужно досдать математику, прежде чем подавать заявку на программу.", "en": "I need to make up mathematics before I can apply to the programme." }
+    },
+    {
+      "id": "behorighetskrav",
+      "sv": "behörighetskrav",
+      "translations": { "ru": "требования для допуска", "en": "eligibility requirements" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett behörighetskrav", "defSg": "behörighetskravet", "indefPl": "behörighetskrav", "defPl": "behörighetskraven" },
+      "example": { "sv": "Kolla behörighetskraven för programmet innan du söker.", "ru": "Проверь требования для допуска на программу, прежде чем подавать заявку.", "en": "Check the programme's eligibility requirements before you apply." }
+    },
+    {
+      "id": "termin",
+      "sv": "termin",
+      "translations": { "ru": "семестр", "en": "term, semester" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en termin", "defSg": "terminen", "indefPl": "terminer", "defPl": "terminerna" },
+      "example": { "sv": "Jag börjar min första termin på högskolan i höst.", "ru": "Я начинаю первый семестр в вузе этой осенью.", "en": "I am starting my first term at university this autumn." }
+    }
+  ]
+}

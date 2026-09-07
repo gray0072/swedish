@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-cv-portfolio-final-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я увлечён(а) устойчивым развитием.»", "en": "Build the sentence: \"I am passionate about sustainable development.\"" },
+      "tokens": ["för hållbar utveckling.", "Jag brinner"],
+      "answer": [1, 0]
+    },
+    {
+      "id": "q-cv-portfolio-final-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Моя сильная сторона — способность быстро решать проблемы.»", "en": "Build the sentence: \"My strength is the ability to solve problems quickly.\"" },
+      "tokens": ["förmågan", "Min styrka är", "att lösa problem snabbt."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-cv-portfolio-final-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Всегда приводи конкретный пример, подтверждающий твоё утверждение.»", "en": "Build the sentence: \"Always give a concrete example that supports your claim.\"" },
+      "tokens": ["Ge alltid", "som styrker ditt påstående.", "ett konkret exempel"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-cv-portfolio-final-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["arbetsprov", "пример работы"],
+        ["profil", "профиль"],
+        ["portfolio", "портфолио"],
+        ["meritförteckning", "резюме (перечень заслуг)"]
+      ]
+    },
+    {
+      "id": "q-cv-portfolio-final-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["skräddarsy", "подгонять под вакансию"],
+        ["utmärka sig", "выделяться"],
+        ["sammanfatta", "обобщать"],
+        ["kompetensprofil", "профиль компетенций"]
+      ]
+    },
+    {
+      "id": "q-cv-portfolio-final-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Referenser lämnas på begäran» значит, что рекомендации нужно приложить сразу же ко всем заявкам.", "en": "\"Referenser lämnas på begäran\" means the references must be attached to every application right away." },
+      "answer": false,
+      "explanation": {
+        "ru": "Фраза означает, что рекомендации предоставляются только по запросу работодателя, а не автоматически.",
+        "en": "The phrase means references are provided only if the employer asks, not automatically."
+      }
+    },
+    {
+      "id": "q-cv-portfolio-final-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Хорошее сопроводительное письмо стоит подгонять (skräddarsy) под каждую конкретную вакансию.", "en": "A good cover letter should be tailored (skräddarsy) to each specific job." },
+      "answer": true
+    },
+    {
+      "id": "q-cv-portfolio-final-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Утверждения о своих сильных сторонах убедительнее звучат без конкретных примеров.", "en": "Claims about your strengths sound more convincing without concrete examples." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот — конкретный пример делает утверждение убедительным, без него фраза звучит пусто.",
+        "en": "The opposite is true — a concrete example makes a claim convincing; without one it sounds empty."
+      }
+    },
+    {
+      "id": "q-cv-portfolio-final-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Portfolio» — это собрание примеров выполненных работ.", "en": "A \"portfolio\" is a collection of samples of completed work." },
+      "answer": true
+    },
+    {
+      "id": "q-cv-portfolio-final-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ för att arbeta med människor. (всегда горел(а) страстью)" },
+      "answer": ["har alltid brunnit"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cv-portfolio-final-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ ditt personliga brev för varje tjänst du söker. (подгоняй под вакансию)" },
+      "answer": ["Skräddarsy"],
+      "acceptAlso": ["skräddarsy"]
+    },
+    {
+      "id": "q-cv-portfolio-final-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Ett skräddarsytt brev gör att du ___ bland andra sökande. (выделяешься)" },
+      "answer": ["utmärker dig"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-cv-portfolio-final-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что означает фраза «Jag brinner för...»?",
+        "en": "What does the phrase \"Jag brinner för...\" mean?"
+      },
+      "choices": ["Я по-настоящему увлечён(а) чем-то", "Я устал(а) от чего-то", "Я боюсь чего-то", "Я сомневаюсь в чём-то"],
+      "answer": 0
+    },
+    {
+      "id": "q-cv-portfolio-final-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «пример работы» для портфолио?",
+        "en": "Which word means a \"work sample\" for a portfolio?"
+      },
+      "choices": ["arbetsprov", "meritförteckning", "profil", "referens"],
+      "answer": 0
+    },
+    {
+      "id": "q-cv-portfolio-final-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что должен делать короткий «profil» в начале резюме?",
+        "en": "What should the short \"profil\" at the top of a CV do?"
+      },
+      "choices": ["обобщать опыт и цели кандидата", "перечислять все места работы по датам", "содержать полный список рекомендаций", "заменять сопроводительное письмо целиком"],
+      "answer": 0
+    }
+  ]
+}

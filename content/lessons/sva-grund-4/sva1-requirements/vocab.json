@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "gymnasiegemensamma-amnen",
+      "sv": "gymnasiegemensamma ämnen",
+      "translations": { "ru": "общеобразовательные предметы гимназии (общие для всех программ)", "en": "upper-secondary common-core subjects" },
+      "pos": "phrase",
+      "example": { "sv": "Svenska, engelska och matematik ingår i de gymnasiegemensamma ämnena.", "ru": "Шведский, английский и математика входят в общеобразовательные предметы гимназии.", "en": "Swedish, English and mathematics are among the upper-secondary common-core subjects." }
+    },
+    {
+      "id": "kursplan",
+      "sv": "kursplan",
+      "translations": { "ru": "учебный план курса", "en": "syllabus, course plan" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kursplan", "defSg": "kursplanen", "indefPl": "kursplaner", "defPl": "kursplanerna" },
+      "example": { "sv": "Kursplanen för Svenska som andraspråk 1 finns på Skolverkets webbplats.", "ru": "Учебный план курса «Шведский как второй язык 1» есть на сайте Skolverket.", "en": "The syllabus for Swedish as a Second Language 1 is on the Skolverket website." }
+    },
+    {
+      "id": "betygskriterium",
+      "sv": "betygskriterium",
+      "translations": { "ru": "критерий выставления оценки", "en": "grading criterion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betygskriterium", "defSg": "betygskriteriet", "indefPl": "betygskriterier", "defPl": "betygskriterierna" },
+      "example": { "sv": "Läraren förklarade betygskriterierna innan provet.", "ru": "Учитель объяснил критерии оценивания перед контрольной.", "en": "The teacher explained the grading criteria before the test." }
+    },
+    {
+      "id": "svenska-som-andrasprak-1",
+      "sv": "Svenska som andraspråk 1",
+      "translations": { "ru": "«Шведский как второй язык 1» (гимназический предмет, 100 баллов)", "en": "\"Swedish as a Second Language 1\" (upper-secondary subject, 100 points)" },
+      "pos": "phrase",
+      "example": { "sv": "Svenska som andraspråk 1 är ett gymnasiegemensamt ämne på 100 poäng.", "ru": "«Шведский как второй язык 1» — общеобразовательный предмет на 100 баллов.", "en": "Swedish as a Second Language 1 is a common-core subject worth 100 points." }
+    },
+    {
+      "id": "slutbetyg",
+      "sv": "slutbetyg",
+      "translations": { "ru": "итоговая оценка, аттестат", "en": "final grade, final certificate" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett slutbetyg", "defSg": "slutbetyget", "indefPl": "slutbetyg", "defPl": "slutbetygen" },
+      "example": { "sv": "Slutbetyget ger dig behörighet till högskolan.", "ru": "Итоговая оценка даёт тебе право на поступление в вуз.", "en": "The final grade gives you eligibility for university." }
+    },
+    {
+      "id": "gymnasieskola",
+      "sv": "gymnasieskola",
+      "translations": { "ru": "гимназия (старшая школа)", "en": "upper-secondary school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gymnasieskola", "defSg": "gymnasieskolan", "indefPl": "gymnasieskolor", "defPl": "gymnasieskolorna" },
+      "example": { "sv": "Vuxna läser oftast gymnasienivå inom komvux, inte i en vanlig gymnasieskola.", "ru": "Взрослые обычно учатся на гимназическом уровне в комвуксе, а не в обычной гимназии.", "en": "Adults usually study at upper-secondary level within komvux, not a regular upper-secondary school." }
+    },
+    {
+      "id": "komvux",
+      "sv": "komvux",
+      "translations": { "ru": "коммунальное образование для взрослых (комвукс)", "en": "municipal adult education (komvux)" },
+      "pos": "noun",
+      "example": { "sv": "Jag läser Svenska som andraspråk 1 på komvux.", "ru": "Я изучаю «Шведский как второй язык 1» в комвуксе.", "en": "I am studying Swedish as a Second Language 1 at komvux." }
+    },
+    {
+      "id": "vuxenutbildning",
+      "sv": "vuxenutbildning",
+      "translations": { "ru": "образование для взрослых", "en": "adult education" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vuxenutbildning", "defSg": "vuxenutbildningen", "indefPl": "vuxenutbildningar", "defPl": "vuxenutbildningarna" },
+      "example": { "sv": "Vuxenutbildningen erbjuder både grundläggande och gymnasiala kurser.", "ru": "Образование для взрослых предлагает курсы как базового, так и гимназического уровня.", "en": "Adult education offers both basic-level and upper-secondary-level courses." }
+    },
+    {
+      "id": "yrkesprogram",
+      "sv": "yrkesprogram",
+      "translations": { "ru": "профессиональная программа обучения", "en": "vocational programme" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett yrkesprogram", "defSg": "yrkesprogrammet", "indefPl": "yrkesprogram", "defPl": "yrkesprogrammen" },
+      "example": { "sv": "Ett yrkesprogram förbereder dig för ett specifikt yrke.", "ru": "Профессиональная программа готовит к конкретной профессии.", "en": "A vocational programme prepares you for a specific occupation." }
+    },
+    {
+      "id": "hogskoleforberedande-program",
+      "sv": "högskoleförberedande program",
+      "translations": { "ru": "программа, готовящая к обучению в вузе", "en": "higher-education preparatory programme" },
+      "pos": "phrase",
+      "example": { "sv": "Ett högskoleförberedande program ger grundläggande behörighet till högskolan.", "ru": "Программа, готовящая к вузу, даёт базовое право на поступление в вуз.", "en": "A higher-education preparatory programme gives you the general eligibility for university." }
+    },
+    {
+      "id": "nationella-prov",
+      "sv": "nationella prov",
+      "translations": { "ru": "национальные (единые) тесты", "en": "national tests" },
+      "pos": "phrase",
+      "example": { "sv": "I Svenska som andraspråk 1 ingår inte alltid nationella prov, men kunskapskraven är desamma.", "ru": "В курс «Шведский как второй язык 1» не всегда входят национальные тесты, но требования к знаниям одинаковы.", "en": "Swedish as a Second Language 1 does not always include national tests, but the knowledge requirements are the same." }
+    },
+    {
+      "id": "betygsskala",
+      "sv": "betygsskala",
+      "translations": { "ru": "шкала оценок", "en": "grading scale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en betygsskala", "defSg": "betygsskalan", "indefPl": "betygsskalor", "defPl": "betygsskalorna" },
+      "example": { "sv": "Betygsskalan på gymnasienivå går från A till F.", "ru": "Шкала оценок на гимназическом уровне — от A до F.", "en": "The grading scale at upper-secondary level runs from A to F." }
+    },
+    {
+      "id": "godkant-betyg",
+      "sv": "godkänt betyg",
+      "translations": { "ru": "положительная (зачётная) оценка", "en": "a passing grade" },
+      "pos": "phrase",
+      "example": { "sv": "Du behöver ett godkänt betyg, alltså minst E, för att kursen ska räknas.", "ru": "Тебе нужна положительная оценка, то есть минимум E, чтобы курс засчитали.", "en": "You need a passing grade — at least an E — for the course to count." }
+    },
+    {
+      "id": "kunskapskrav",
+      "sv": "kunskapskrav",
+      "translations": { "ru": "требование к знаниям", "en": "knowledge requirement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kunskapskrav", "defSg": "kunskapskravet", "indefPl": "kunskapskrav", "defPl": "kunskapskraven" },
+      "example": { "sv": "Kunskapskraven beskriver vad du måste kunna för varje betygssteg.", "ru": "Требования к знаниям описывают, что нужно уметь для каждой оценки.", "en": "The knowledge requirements describe what you must be able to do for each grade step." }
+    },
+    {
+      "id": "studievagledare",
+      "sv": "studievägledare",
+      "translations": { "ru": "консультант по выбору учёбы", "en": "study and career counsellor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en studievägledare", "defSg": "studievägledaren", "indefPl": "studievägledare", "defPl": "studievägledarna" },
+      "example": { "sv": "Fråga din studievägledare vilka kurser du behöver för behörighet.", "ru": "Спроси у консультанта по учёбе, какие курсы нужны для допуска.", "en": "Ask your study and career counsellor which courses you need for eligibility." }
+    },
+    {
+      "id": "amnesbetyg",
+      "sv": "ämnesbetyg",
+      "translations": { "ru": "предметная оценка (по новой системе)", "en": "subject grade (in the new grading system)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ämnesbetyg", "defSg": "ämnesbetyget", "indefPl": "ämnesbetyg", "defPl": "ämnesbetygen" },
+      "example": { "sv": "Sedan 2025 får eleverna ämnesbetyg i stället för kursbetyg.", "ru": "С 2025 года ученики получают предметные оценки вместо оценок по отдельным курсам.", "en": "Since 2025 students receive subject grades instead of course grades." }
+    },
+    {
+      "id": "behorighet",
+      "sv": "behörighet",
+      "translations": { "ru": "право на поступление, допуск", "en": "eligibility, entry qualification" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en behörighet", "defSg": "behörigheten", "indefPl": "behörigheter", "defPl": "behörigheterna" },
+      "example": { "sv": "Slutbetyget ger dig behörighet till högskolan.", "ru": "Итоговая оценка даёт тебе право на поступление в вуз.", "en": "The final grade gives you eligibility for university." }
+    },
+    {
+      "id": "gymnasieexamen",
+      "sv": "gymnasieexamen",
+      "translations": { "ru": "аттестат о среднем образовании", "en": "upper-secondary diploma" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gymnasieexamen", "defSg": "gymnasieexamen", "indefPl": "gymnasieexamina", "defPl": "gymnasieexamina" },
+      "note": { "ru": "обычно используется только в единственном числе", "en": "usually used only in the singular" },
+      "example": { "sv": "Ett godkänt slutbetyg i alla kurser ger en gymnasieexamen.", "ru": "Положительные итоговые оценки по всем курсам дают аттестат о среднем образовании.", "en": "Passing final grades in every course gives you an upper-secondary diploma." }
+    }
+  ]
+}

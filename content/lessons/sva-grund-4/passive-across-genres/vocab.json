@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "id": "rapport-genre",
+      "sv": "rapport",
+      "translations": { "ru": "отчёт, доклад", "en": "report" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "rapport", "defSg": "rapporten", "indefPl": "rapporter", "defPl": "rapporterna" }
+    },
+    {
+      "id": "forskare-genre",
+      "sv": "forskare",
+      "translations": { "ru": "исследователь, учёный", "en": "researcher, scientist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+    },
+    {
+      "id": "presskonferens",
+      "sv": "presskonferens",
+      "translations": { "ru": "пресс-конференция", "en": "press conference" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "presskonferens", "defSg": "presskonferensen", "indefPl": "presskonferenser", "defPl": "presskonferenserna" }
+    },
+    {
+      "id": "regering",
+      "sv": "regering",
+      "translations": { "ru": "правительство", "en": "government" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" }
+    },
+    {
+      "id": "foerhandling",
+      "sv": "förhandling",
+      "translations": { "ru": "переговоры", "en": "negotiation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "förhandling", "defSg": "förhandlingen", "indefPl": "förhandlingar", "defPl": "förhandlingarna" }
+    },
+    {
+      "id": "presentera",
+      "sv": "presentera",
+      "translations": { "ru": "представлять, презентовать", "en": "to present" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "presentera", "present": "presenterar", "past": "presenterade", "supine": "presenterat" }
+    },
+    {
+      "id": "fatta-beslut-genre",
+      "sv": "fatta ett beslut",
+      "translations": { "ru": "принимать решение", "en": "to make a decision" },
+      "pos": "phrase",
+      "example": { "sv": "Beslutet fattades av regeringen.", "ru": "Решение было принято правительством.", "en": "The decision was made by the government." }
+    },
+    {
+      "id": "upphetta",
+      "sv": "upphetta",
+      "translations": { "ru": "нагревать", "en": "to heat (up)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "upphetta", "present": "upphettar", "past": "upphettade", "supine": "upphettat" }
+    },
+    {
+      "id": "roera-om",
+      "sv": "röra om",
+      "translations": { "ru": "перемешивать", "en": "to stir" },
+      "pos": "phrase",
+      "example": { "sv": "Rör om i fem minuter.", "ru": "Перемешивайте пять минут.", "en": "Stir for five minutes." }
+    },
+    {
+      "id": "samla-in",
+      "sv": "samla in",
+      "translations": { "ru": "собирать (данные)", "en": "to collect (data)" },
+      "pos": "phrase",
+      "example": { "sv": "Data samlas in varje månad.", "ru": "Данные собираются каждый месяц.", "en": "Data is collected every month." }
+    },
+    {
+      "id": "analysera",
+      "sv": "analysera",
+      "translations": { "ru": "анализировать", "en": "to analyse" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "analysera", "present": "analyserar", "past": "analyserade", "supine": "analyserat" }
+    },
+    {
+      "id": "sammanstaella",
+      "sv": "sammanställa",
+      "translations": { "ru": "сводить воедино, составлять", "en": "to compile" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "sammanställa", "present": "sammanställer", "past": "sammanställde", "supine": "sammanställt" }
+    },
+    {
+      "id": "orolig-genre",
+      "sv": "orolig",
+      "translations": { "ru": "встревоженный, беспокойный", "en": "worried, anxious" },
+      "pos": "adj"
+    },
+    {
+      "id": "av-agent",
+      "sv": "av",
+      "translations": { "ru": "предлог, вводящий агента в пассиве («кем сделано»)", "en": "the preposition introducing the agent in a passive (\"done by\")" },
+      "pos": "prep",
+      "example": { "sv": "Rapporten skrevs av forskare.", "ru": "Отчёт был написан исследователями.", "en": "The report was written by researchers." }
+    },
+    {
+      "id": "genre-noun",
+      "sv": "genre",
+      "translations": { "ru": "жанр", "en": "genre" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "genre", "defSg": "genren", "indefPl": "genrer", "defPl": "genrerna" }
+    }
+  ]
+}

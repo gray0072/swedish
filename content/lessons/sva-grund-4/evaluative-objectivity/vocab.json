@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "oeka-obj",
+      "sv": "öka",
+      "translations": { "ru": "увеличиваться, расти", "en": "to increase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" },
+      "note": { "ru": "Нейтральный глагол роста.", "en": "A neutral verb of increase." }
+    },
+    {
+      "id": "minska-obj",
+      "sv": "minska",
+      "translations": { "ru": "уменьшаться, сокращаться", "en": "to decrease" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" },
+      "note": { "ru": "Нейтральный глагол убывания.", "en": "A neutral verb of decrease." }
+    },
+    {
+      "id": "skjuta-i-hoejden",
+      "sv": "skjuta i höjden",
+      "translations": { "ru": "резко взлетать, стремительно расти", "en": "to shoot up, to skyrocket" },
+      "pos": "phrase",
+      "example": { "sv": "Priset sköt i höjden med hela 10 procent.", "ru": "Цена взлетела аж на 10 процентов.", "en": "The price shot up by a whole 10 percent." },
+      "note": { "ru": "Оценочный, драматичный синоним «öka».", "en": "An evaluative, dramatic synonym for \"öka\"." }
+    },
+    {
+      "id": "explodera",
+      "sv": "explodera",
+      "translations": { "ru": "взрываться (перен. резко расти)", "en": "to explode (fig. to increase sharply)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "explodera", "present": "exploderar", "past": "exploderade", "supine": "exploderat" },
+      "note": { "ru": "В переносном значении используется так же, как «öka», но экспрессивнее.", "en": "Used figuratively like \"öka\", but more expressive." }
+    },
+    {
+      "id": "rasa",
+      "sv": "rasa",
+      "translations": { "ru": "резко падать, обрушиваться", "en": "to plummet, to collapse" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rasa", "present": "rasar", "past": "rasade", "supine": "rasat" },
+      "note": { "ru": "Оценочный, драматичный синоним «minska».", "en": "An evaluative, dramatic synonym for \"minska\"." }
+    },
+    {
+      "id": "kollapsa",
+      "sv": "kollapsa",
+      "translations": { "ru": "рушиться, коллапсировать", "en": "to collapse" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kollapsa", "present": "kollapsar", "past": "kollapsade", "supine": "kollapsat" }
+    },
+    {
+      "id": "enorm",
+      "sv": "enorm",
+      "translations": { "ru": "огромный", "en": "enormous" },
+      "pos": "adj"
+    },
+    {
+      "id": "hela-intensifier",
+      "sv": "hela",
+      "translations": { "ru": "целых (усилитель перед числом)", "en": "a whole (intensifier before a number)" },
+      "pos": "adv",
+      "example": { "sv": "med hela 10 procent", "ru": "аж на целых 10 процентов", "en": "by a whole 10 percent" }
+    },
+    {
+      "id": "drastiskt",
+      "sv": "drastiskt",
+      "translations": { "ru": "резко, драматически", "en": "drastically" },
+      "pos": "adv"
+    },
+    {
+      "id": "dramatiskt",
+      "sv": "dramatiskt",
+      "translations": { "ru": "драматично, резко", "en": "dramatically" },
+      "pos": "adv"
+    },
+    {
+      "id": "chockerande",
+      "sv": "chockerande",
+      "translations": { "ru": "шокирующий", "en": "shocking" },
+      "pos": "adj"
+    },
+    {
+      "id": "vinst",
+      "sv": "vinst",
+      "translations": { "ru": "прибыль, выигрыш", "en": "profit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "vinst", "defSg": "vinsten", "indefPl": "vinster", "defPl": "vinsterna" }
+    },
+    {
+      "id": "arbetsloes",
+      "sv": "arbetslös",
+      "translations": { "ru": "безработный", "en": "unemployed" },
+      "pos": "adj"
+    },
+    {
+      "id": "utredande-text",
+      "sv": "utredande text",
+      "translations": { "ru": "исследующее (объективное) эссе — жанр письменного экзамена", "en": "an investigative (objective) essay — the exam-writing genre" },
+      "pos": "phrase"
+    },
+    {
+      "id": "debattartikel",
+      "sv": "debattartikel",
+      "translations": { "ru": "статья-мнение, полемическая статья", "en": "opinion piece, op-ed" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "debattartikel", "defSg": "debattartikeln", "indefPl": "debattartiklar", "defPl": "debattartiklarna" }
+    }
+  ]
+}

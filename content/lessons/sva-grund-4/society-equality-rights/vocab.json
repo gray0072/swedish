@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "manskliga-rattigheter",
+      "sv": "mänskliga rättigheter",
+      "translations": { "ru": "права человека", "en": "human rights" },
+      "pos": "phrase",
+      "example": { "sv": "Mänskliga rättigheter gäller alla människor, oavsett var de bor.", "ru": "Права человека распространяются на всех людей, независимо от того, где они живут.", "en": "Human rights apply to all people, regardless of where they live." }
+    },
+    {
+      "id": "inkludering",
+      "sv": "inkludering",
+      "translations": { "ru": "инклюзия", "en": "inclusion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inkludering", "defSg": "inkluderingen", "indefPl": "inkluderingar", "defPl": "inkluderingarna" },
+      "example": { "sv": "Skolan arbetar aktivt med inkludering av alla elever.", "ru": "Школа активно работает над инклюзией всех учеников.", "en": "The school actively works on including all pupils." }
+    },
+    {
+      "id": "delaktighet",
+      "sv": "delaktighet",
+      "translations": { "ru": "причастность, ощущение принадлежности", "en": "sense of belonging, participation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en delaktighet", "defSg": "delaktigheten", "indefPl": "delaktigheter", "defPl": "delaktigheterna" },
+      "example": { "sv": "Delaktighet betyder att man känner sig som en del av gemenskapen.", "ru": "Причастность означает, что человек чувствует себя частью сообщества.", "en": "A sense of belonging means feeling like part of the community." }
+    },
+    {
+      "id": "jamlikhet",
+      "sv": "jämlikhet",
+      "translations": { "ru": "равенство (в целом, между людьми)", "en": "equality (in general, among people)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämlikhet", "defSg": "jämlikheten", "indefPl": "jämlikheter", "defPl": "jämlikheterna" },
+      "example": { "sv": "Jämlikhet handlar om att alla människor har samma värde och rättigheter.", "ru": "Равенство означает, что все люди имеют одинаковую ценность и права.", "en": "Equality means all people have the same worth and rights." }
+    },
+    {
+      "id": "jamstalldhet",
+      "sv": "jämställdhet",
+      "translations": { "ru": "гендерное равенство (между женщинами и мужчинами)", "en": "gender equality (between women and men)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämställdhet", "defSg": "jämställdheten", "indefPl": "jämställdheter", "defPl": "jämställdheterna" },
+      "example": { "sv": "Jämställdhet handlar specifikt om jämlikhet mellan kvinnor och män.", "ru": "Гендерное равенство касается именно равенства между женщинами и мужчинами.", "en": "Gender equality is specifically about equality between women and men." }
+    },
+    {
+      "id": "tillganglighet",
+      "sv": "tillgänglighet",
+      "translations": { "ru": "доступность", "en": "accessibility" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tillgänglighet", "defSg": "tillgängligheten", "indefPl": "tillgängligheter", "defPl": "tillgängligheterna" },
+      "example": { "sv": "Tillgänglighet handlar om att alla ska kunna ta sig fram och delta.", "ru": "Доступность означает, что все должны иметь возможность передвигаться и участвовать.", "en": "Accessibility means everyone should be able to get around and take part." }
+    },
+    {
+      "id": "gemenskap",
+      "sv": "gemenskap",
+      "translations": { "ru": "сообщество, общность", "en": "community" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gemenskap", "defSg": "gemenskapen", "indefPl": "gemenskaper", "defPl": "gemenskaperna" }
+    },
+    {
+      "id": "vardighet",
+      "sv": "värdighet",
+      "translations": { "ru": "достоинство", "en": "dignity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en värdighet", "defSg": "värdigheten", "indefPl": "värdigheter", "defPl": "värdigheterna" }
+    },
+    {
+      "id": "utanforskap",
+      "sv": "utanförskap",
+      "translations": { "ru": "исключённость, социальная изоляция", "en": "social exclusion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utanförskap", "defSg": "utanförskapet", "indefPl": "utanförskap", "defPl": "utanförskapen" }
+    },
+    {
+      "id": "funktionsvariation",
+      "sv": "funktionsvariation",
+      "translations": { "ru": "функциональная особенность (инвалидность, нейтральный термин)", "en": "functional variation (disability, neutral term)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en funktionsvariation", "defSg": "funktionsvariationen", "indefPl": "funktionsvariationer", "defPl": "funktionsvariationerna" }
+    },
+    {
+      "id": "ratten-till",
+      "sv": "rätten till...",
+      "translations": { "ru": "право на...", "en": "the right to..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "samma-varde",
+      "sv": "samma värde",
+      "translations": { "ru": "одинаковая ценность", "en": "equal worth" },
+      "pos": "phrase"
+    },
+    {
+      "id": "delta-i-samhallet",
+      "sv": "delta i samhället",
+      "translations": { "ru": "участвовать в жизни общества", "en": "to take part in society" },
+      "pos": "phrase"
+    },
+    {
+      "id": "mangfald",
+      "sv": "mångfald",
+      "translations": { "ru": "разнообразие", "en": "diversity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mångfald", "defSg": "mångfalden", "indefPl": "mångfalder", "defPl": "mångfalderna" }
+    }
+  ]
+}

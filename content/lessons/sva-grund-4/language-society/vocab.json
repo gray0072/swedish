@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "dialekt",
+      "sv": "dialekt",
+      "translations": { "ru": "диалект", "en": "dialect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dialekt", "defSg": "dialekten", "indefPl": "dialekter", "defPl": "dialekterna" },
+      "example": { "sv": "Skånska är en dialekt som låter ganska annorlunda mot rikssvenska.", "ru": "Сконский — это диалект, звучащий довольно иначе, чем стандартный шведский.", "en": "Scanian is a dialect that sounds quite different from standard Swedish." }
+    },
+    {
+      "id": "sociolekt",
+      "sv": "sociolekt",
+      "translations": { "ru": "социолект", "en": "sociolect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sociolekt", "defSg": "sociolekten", "indefPl": "sociolekter", "defPl": "sociolekterna" },
+      "example": { "sv": "Ungdomars sätt att prata kallas ibland en sociolekt.", "ru": "Манера речи молодёжи иногда называется социолектом.", "en": "The way young people talk is sometimes called a sociolect." }
+    },
+    {
+      "id": "standardsvenska",
+      "sv": "standardsvenska",
+      "translations": { "ru": "стандартный шведский язык", "en": "standard Swedish" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en standardsvenska", "defSg": "standardsvenskan", "indefPl": "standardsvenskor", "defPl": "standardsvenskorna" },
+      "example": { "sv": "Standardsvenska används ofta i nyheter och myndighetstexter.", "ru": "Стандартный шведский часто используется в новостях и текстах госорганов.", "en": "Standard Swedish is often used in the news and official texts." }
+    },
+    {
+      "id": "spraknorm-word",
+      "sv": "språknorm",
+      "translations": { "ru": "языковая норма", "en": "language norm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en språknorm", "defSg": "språknormen", "indefPl": "språknormer", "defPl": "språknormerna" },
+      "example": { "sv": "Språknormen förändras långsamt över tid.", "ru": "Языковая норма медленно меняется со временем.", "en": "The language norm changes slowly over time." }
+    },
+    {
+      "id": "kodvaxling",
+      "sv": "kodväxling",
+      "translations": { "ru": "переключение кодов, кодовое переключение", "en": "code-switching" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kodväxling", "defSg": "kodväxlingen", "indefPl": "kodväxlingar", "defPl": "kodväxlingarna" },
+      "example": { "sv": "Många tvåspråkiga barn kodväxlar mellan svenska och sitt andra språk.", "ru": "Многие двуязычные дети переключаются между шведским и своим вторым языком.", "en": "Many bilingual children code-switch between Swedish and their other language." }
+    },
+    {
+      "id": "kodvaxla",
+      "sv": "kodväxla",
+      "translations": { "ru": "переключаться между языками/стилями", "en": "to code-switch" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kodväxla", "present": "kodväxlar", "past": "kodväxlade", "supine": "kodväxlat" }
+    },
+    {
+      "id": "rikssvenska",
+      "sv": "rikssvenska",
+      "translations": { "ru": "общешведский язык (стандарт всей страны)", "en": "national standard Swedish" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rikssvenska", "defSg": "rikssvenskan", "indefPl": "rikssvenskor", "defPl": "rikssvenskorna" }
+    },
+    {
+      "id": "tvasprakig",
+      "sv": "tvåspråkig",
+      "translations": { "ru": "двуязычный", "en": "bilingual" },
+      "pos": "adj"
+    },
+    {
+      "id": "modersmal",
+      "sv": "modersmål",
+      "translations": { "ru": "родной язык", "en": "mother tongue, native language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett modersmål", "defSg": "modersmålet", "indefPl": "modersmål", "defPl": "modersmålen" }
+    },
+    {
+      "id": "brytning",
+      "sv": "brytning",
+      "translations": { "ru": "акцент (речи иностранца)", "en": "accent (of a non-native speaker)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brytning", "defSg": "brytningen", "indefPl": "brytningar", "defPl": "brytningarna" }
+    },
+    {
+      "id": "sprakvariant",
+      "sv": "språkvariant",
+      "translations": { "ru": "языковой вариант", "en": "language variety" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en språkvariant", "defSg": "språkvarianten", "indefPl": "språkvarianter", "defPl": "språkvarianterna" }
+    },
+    {
+      "id": "identitet-lang",
+      "sv": "identitet",
+      "translations": { "ru": "идентичность", "en": "identity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en identitet", "defSg": "identiteten", "indefPl": "identiteter", "defPl": "identiteterna" }
+    },
+    {
+      "id": "sprakforandring",
+      "sv": "språkförändring",
+      "translations": { "ru": "языковое изменение", "en": "language change" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en språkförändring", "defSg": "språkförändringen", "indefPl": "språkförändringar", "defPl": "språkförändringarna" }
+    },
+    {
+      "id": "myndighetstext",
+      "sv": "myndighetstext",
+      "translations": { "ru": "текст госоргана, официальный документ", "en": "official/government text" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighetstext", "defSg": "myndighetstexten", "indefPl": "myndighetstexter", "defPl": "myndighetstexterna" }
+    }
+  ]
+}

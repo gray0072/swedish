@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/proportional-constructions",
+  "slug": "proportional-constructions",
+  "title": {
+    "sv": "Proportionella konstruktioner: ju … desto, i takt med att",
+    "ru": "Пропорциональные конструкции: ju … desto, i takt med att",
+    "en": "Proportional constructions: ju … desto, i takt med att"
+  },
+  "summary": {
+    "ru": "Повторяем «чем больше, тем лучше» и добавляем книжное «по мере того как» — i takt med att.",
+    "en": "Review \"the more, the better\" and add the formal written connector for proportional change — i takt med att."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "word-order", "connectors", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1860,
+  "prerequisites": ["sva-grund-3/comparative-constructions"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

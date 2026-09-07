@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "havsnivaa",
+      "sv": "havsnivå",
+      "translations": { "ru": "уровень моря", "en": "sea level" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "havsnivå", "defSg": "havsnivån", "indefPl": "havsnivåer", "defPl": "havsnivåerna" }
+    },
+    {
+      "id": "havsnivaahoejning",
+      "sv": "havsnivåhöjning",
+      "translations": { "ru": "повышение уровня моря", "en": "sea-level rise" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "havsnivåhöjning", "defSg": "havsnivåhöjningen", "indefPl": "havsnivåhöjningar", "defPl": "havsnivåhöjningarna" }
+    },
+    {
+      "id": "oeversvaemning",
+      "sv": "översvämning",
+      "translations": { "ru": "затопление, наводнение", "en": "flooding" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "översvämning", "defSg": "översvämningen", "indefPl": "översvämningar", "defPl": "översvämningarna" }
+    },
+    {
+      "id": "risk-popsci",
+      "sv": "risk",
+      "translations": { "ru": "риск", "en": "risk" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "risk", "defSg": "risken", "indefPl": "risker", "defPl": "riskerna" }
+    },
+    {
+      "id": "riskfaktor",
+      "sv": "riskfaktor",
+      "translations": { "ru": "фактор риска", "en": "risk factor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "riskfaktor", "defSg": "riskfaktorn", "indefPl": "riskfaktorer", "defPl": "riskfaktorerna" }
+    },
+    {
+      "id": "bygglov",
+      "sv": "bygglov",
+      "translations": { "ru": "разрешение на строительство", "en": "building permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "bygglov", "defSg": "bygglovet", "indefPl": "bygglov", "defPl": "byggloven" }
+    },
+    {
+      "id": "beakta",
+      "sv": "beakta",
+      "translations": { "ru": "учитывать, принимать во внимание", "en": "to take into account" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "beakta", "present": "beaktar", "past": "beaktade", "supine": "beaktat" },
+      "note": { "ru": "Книжный, официальный глагол.", "en": "A bookish, official verb." }
+    },
+    {
+      "id": "vaega-in",
+      "sv": "väga in",
+      "translations": { "ru": "принимать во внимание, взвешивать (при решении)", "en": "to weigh in, to factor in" },
+      "pos": "phrase",
+      "example": { "sv": "Detta ska vägas in i planeringen.", "ru": "Это должно быть учтено при планировании.", "en": "This must be factored into the planning." }
+    },
+    {
+      "id": "utgoera",
+      "sv": "utgöra",
+      "translations": { "ru": "представлять собой, составлять", "en": "to constitute" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "utgöra", "present": "utgör", "past": "utgjorde", "supine": "utgjort" }
+    },
+    {
+      "id": "exponering",
+      "sv": "exponering",
+      "translations": { "ru": "воздействие, экспозиция", "en": "exposure" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "exponering", "defSg": "exponeringen", "indefPl": "exponeringar", "defPl": "exponeringarna" }
+    },
+    {
+      "id": "luftfoerorening",
+      "sv": "luftförorening",
+      "translations": { "ru": "загрязнение воздуха", "en": "air pollution" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "luftförorening", "defSg": "luftföroreningen", "indefPl": "luftföroreningar", "defPl": "luftföroreningarna" }
+    },
+    {
+      "id": "kommunal-planering",
+      "sv": "kommunal planering",
+      "translations": { "ru": "муниципальное планирование", "en": "municipal planning" },
+      "pos": "phrase"
+    },
+    {
+      "id": "forskare-popsci",
+      "sv": "forskare",
+      "translations": { "ru": "учёный, исследователь", "en": "researcher, scientist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+    },
+    {
+      "id": "kustnaera",
+      "sv": "kustnära",
+      "translations": { "ru": "прибрежный, находящийся рядом с побережьем", "en": "coastal, near the coast" },
+      "pos": "adj"
+    }
+  ]
+}

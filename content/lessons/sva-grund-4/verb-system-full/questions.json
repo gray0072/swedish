@@ -1,0 +1,133 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-verb-system-full-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое время выражает результат/факт, важный сейчас, без указания точного момента в прошлом?", "en": "Which tense expresses a result/fact that matters now, with no exact past moment stated?" },
+      "choices": ["Претерит", "Перфект (har + супин)", "Презенс", "Плюсквамперфект"],
+      "answer": 1
+    },
+    {
+      "id": "q-verb-system-full-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hon hade skrivit boken innan hon fyllde tjugo» — какое это время?", "en": "\"Hon hade skrivit boken innan hon fyllde tjugo\" — which tense is this?" },
+      "choices": ["Перфект", "Плюсквамперфект", "Претерит", "Футурум"],
+      "answer": 1,
+      "explanation": { "ru": "hade + супин = плюсквамперфект: событие произошло раньше другого события в прошлом.", "en": "hade + supine = pluperfect: the event happened before another past event." }
+    },
+    {
+      "id": "q-verb-system-full-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем «kommer att regna» отличается от «ska regna»?", "en": "How does \"kommer att regna\" differ from \"ska regna\"?" },
+      "choices": ["Ничем, это то же самое", "kommer att — прогноз/предсказание, ska — план или намерение", "kommer att используется только в прошлом", "ska — это пассив"],
+      "answer": 1
+    },
+    {
+      "id": "q-verb-system-full-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой из трёх типов пассива описывает уже достигнутое состояние/результат?", "en": "Which of the three passive types describes an already-reached state/result?" },
+      "choices": ["-s-пассив (skrivs)", "bli-пассив (blir skriven)", "vara-пассив (är skriven)", "Все три одинаковы"],
+      "answer": 2
+    },
+    {
+      "id": "q-verb-system-full-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое «vore»?", "en": "What is \"vore\"?" },
+      "choices": ["Форма претерита от «vara»", "Застывшая форма сослагательного наклонения от «vara», равнозначная «skulle vara»", "Пассивная форма от «vara»", "Синоним «var» в разговорной речи"],
+      "answer": 1
+    },
+    {
+      "id": "q-verb-system-full-mc-6",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Что общего у глаголов «hoppas», «trivas», «minnas», «lyckas»?", "en": "What do \"hoppas\", \"trivas\", \"minnas\" and \"lyckas\" have in common?" },
+      "choices": ["Все они модальные", "Это депонентные глаголы — форма на -s во всех временах, но это не пассив", "Все они неправильные в претерите", "Все они образуют пассив через bli"],
+      "answer": 1
+    },
+    {
+      "id": "q-verb-system-full-mc-7",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Чем «måste» отличается от большинства других глаголов?", "en": "How does \"måste\" differ from most other verbs?" },
+      "choices": ["У него нет инфинитива, и одна и та же форма служит настоящему и прошедшему времени", "Он не имеет значения долженствования", "Он спрягается по лицам", "Он образует перфект через bli"],
+      "answer": 0
+    },
+    {
+      "id": "q-verb-system-full-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Презенс-партицип (skrivande) изменяется по родам и числам, как прилагательное.", "en": "The present participle (skrivande) changes for gender and number, like an adjective." },
+      "answer": false,
+      "explanation": { "ru": "Презенс-партицип неизменяем; изменяется по родам/числам перфект-партицип (skriven/skrivet/skrivna).", "en": "The present participle is invariable; it's the perfect participle (skriven/skrivet/skrivna) that agrees for gender/number." }
+    },
+    {
+      "id": "q-verb-system-full-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Böra» и «kunna» — оба модальные глаголы, но у «böra» супин «bort» встречается редко и только в книжном стиле.", "en": "\"Böra\" and \"kunna\" are both modal verbs, but \"böra\"'s supine \"bort\" is rare and only bookish." },
+      "answer": true
+    },
+    {
+      "id": "q-verb-system-full-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Депонентный глагол образует пассив с помощью -s точно так же, как обычный глагол.", "en": "A deponent verb forms a passive with -s exactly the way an ordinary verb does." },
+      "answer": false,
+      "explanation": { "ru": "У депонентного глагола -s — это его единственная, обычная форма, а не пассив; активного варианта без -s не существует.", "en": "For a deponent verb, the -s form is its only ordinary form, not a passive; there is no active variant without -s." }
+    },
+    {
+      "id": "q-verb-system-full-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Om jag ___ rik, skulle jag resa jorden runt. (сослагательное от vara)" },
+      "answer": ["vore"]
+    },
+    {
+      "id": "q-verb-system-full-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ att allt går bra. (депонентный глагол, «надеяться»)" },
+      "answer": ["hoppas"]
+    },
+    {
+      "id": "q-verb-system-full-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Boken ___ av en känd författare. (-s-пассив от skriva, настоящее время)" },
+      "answer": ["skrivs"]
+    },
+    {
+      "id": "q-verb-system-full-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Hon ___ redan skrivit brevet när jag kom. (плюсквамперфект — вспомогательный глагол)" },
+      "answer": ["hade"]
+    },
+    {
+      "id": "q-verb-system-full-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она уже написала три книги.» (перфект)", "en": "Build the sentence: \"She has already written three books.\" (perfect)" },
+      "tokens": ["Hon", "har", "redan", "skrivit", "tre", "böcker"],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-verb-system-full-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму с её ролью в системе", "en": "Match the form with its role in the system" },
+      "pairs": [
+        ["vore", "сослагательное наклонение / subjunctive"],
+        ["skrivs", "-s-пассив / -s passive"],
+        ["hade skrivit", "плюсквамперфект / pluperfect"],
+        ["skrivande", "презенс-партицип / present participle"]
+      ]
+    }
+  ]
+}

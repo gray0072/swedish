@@ -93,22 +93,28 @@ Swedish system.
 | SVA grund delkurs 1 | 45 | 25 | 20 |
 | SVA grund delkurs 2 | 45 | 25 | 20 |
 | SVA grund delkurs 3 | 45 | 25 | 20 |
-| SVA grund delkurs 4 | 0 | 25 | 20 |
+| SVA grund delkurs 4 | 45 | 25 | 20 |
 
-Lessons done in total: **161** (`npx tsx scripts/validate-content.ts` confirms the number).
-Grammar points planned in total: **160**, of which **60** now have a dedicated lesson
-(all of SVA grund delkurs 1, 2 and 3).
+Lessons done in total: **206** (`npx tsx scripts/validate-content.ts` confirms the number).
+Grammar points planned in total: **160**, of which **80** now have a dedicated lesson
+(all of SVA grund delkurs 1, 2, 3 and 4).
 
-All 26 SFI lessons are vocabulary and phrase lessons. SVA grund delkurs 1, 2 and 3 are
-all now complete: 20 grammar lessons plus all 25 thematic topics at each level, every
-one with bilingual (RU/EN) theory (`theory.md` + `theory_en.md`, picked by the
-study-language toggle). The thematic topics use the same vocab/phrases lesson pipeline
-as SFI rather than an actual reading-passage format — a few of them (reading a short
-story and retelling it, retelling what you heard, a referat with a cited source, a
-literary text, poetry and song) were originally imagined as needing dedicated text-based
-mechanics the project doesn't have; for now they teach the vocabulary/phrases the skill
-needs instead. Delkurs 4 is still fully empty: a topic lesson there is work with a text
-(referat, argumentation, källkritik), and the project has no such lesson format yet.
+**SVA grund is now complete end to end** — all four delkurser (1-4), 80 grammar lessons
+and 100 thematic topics, every one with bilingual (RU/EN) theory (`theory.md` +
+`theory_en.md`, picked by the study-language toggle). Delkurs 4 was the capstone level:
+it gives the course's final grade and behörighet for the upper-secondary `Svenska som
+andraspråk 1`, so its grammar points mostly systematise delkurs 1-3 into summary
+reference lessons (the full verb system, every subordinate-clause type, every
+conditional type) rather than introducing new sentence grammar, and its topics cover
+what comes after this course (university application, the final project). All 26 SFI
+lessons are vocabulary and phrase lessons; the SVA grund thematic topics use that same
+vocab/phrases pipeline rather than an actual reading-passage format — several of them
+across all four levels (reading a short story and retelling it, a referat with a cited
+source, analysing a literary text, källkritik) were originally imagined as needing
+dedicated text-based mechanics the project doesn't have; they teach the
+vocabulary/phrases the skill needs instead. The next content frontier is SFI kurs C/D
+(only 5 and 3 lessons written against ~25 planned topics each) and the still-undesigned
+real text-lesson format, tracked in `TODO.md`.
 
 ---
 
@@ -583,51 +589,71 @@ style.
 
 ### Topics
 
-1. [ ] Upper-secondary level and SVA 1: the requirements and what comes next
-2. [ ] Applying to university: behörighet, CSN, the application
-3. [ ] CV, cover letter, portfolio — the final version
-4. [ ] The interview: difficult questions and how to answer them
-5. [ ] The employment contract and the payslip — a detailed walkthrough
-6. [ ] A formal letter and an approach to a public authority
-7. [ ] The argumentative essay: the full structure
-8. [ ] Utredande text (an explanatory text) with sources
-9. [ ] Referat and källkritik: assessing the reliability of a source
-10. [ ] An oral presentation: structure, pace, contact with the audience
-11. [ ] Debating: preparing a position and answering an opponent
-12. [ ] Analysing a literary text: theme, motif, language
-13. [ ] Swedish literature and cinema — an overview to talk about
-14. [ ] Language and society: dialects, sociolekt, language norms
-15. [ ] Scandinavian language kinship: Danish and Norwegian by ear
-16. [ ] The economy and the labour market: analysing statistics
-17. [ ] Healthcare and the social system — in depth
-18. [ ] Ecology and climate policy — a reasoned discussion
-19. [ ] Society: equality, inclusion, rights — a discussion
-20. [ ] Digital literacy: sources, AI, fact-checking
-21. [ ] A comparative text: two points of view, two systems
-22. [ ] An instructional text: explaining a process to the reader
-23. [ ] Proofreading your own text
-24. [ ] Giving feedback on someone else's text (kamratrespons)
-25. [ ] The final project: your own text on a free topic, defended orally
+1. [x] Upper-secondary level and SVA 1: the requirements and what comes next — `sva-grund-4/sva1-requirements`
+2. [x] Applying to university: behörighet, CSN, the application — `sva-grund-4/university-application`
+3. [x] CV, cover letter, portfolio — the final version — `sva-grund-4/cv-portfolio-final`
+4. [x] The interview: difficult questions and how to answer them — `sva-grund-4/interview-difficult-questions`
+5. [x] The employment contract and the payslip — a detailed walkthrough — `sva-grund-4/payslip-walkthrough`
+6. [x] A formal letter and an approach to a public authority — `sva-grund-4/formal-authority-letter`
+7. [x] The argumentative essay: the full structure — `sva-grund-4/argumentative-essay-full`
+8. [x] Utredande text (an explanatory text) with sources — `sva-grund-4/utredande-text`
+9. [x] Referat and källkritik: assessing the reliability of a source — `sva-grund-4/kallkritik-assessment`
+10. [x] An oral presentation: structure, pace, contact with the audience — `sva-grund-4/oral-presentation-mastery`
+11. [x] Debating: preparing a position and answering an opponent — `sva-grund-4/debating-skills`
+12. [x] Analysing a literary text: theme, motif, language — `sva-grund-4/literary-analysis-advanced`
+13. [x] Swedish literature and cinema — an overview to talk about — `sva-grund-4/swedish-literature-cinema`
+14. [x] Language and society: dialects, sociolekt, language norms — `sva-grund-4/language-society`
+15. [x] Scandinavian language kinship: Danish and Norwegian by ear — `sva-grund-4/scandinavian-kinship`
+16. [x] The economy and the labour market: analysing statistics — `sva-grund-4/economy-statistics-analysis`
+17. [x] Healthcare and the social system — in depth — `sva-grund-4/healthcare-system-depth`
+18. [x] Ecology and climate policy — a reasoned discussion — `sva-grund-4/climate-policy-discussion`
+19. [x] Society: equality, inclusion, rights — a discussion — `sva-grund-4/society-equality-rights`
+20. [x] Digital literacy: sources, AI, fact-checking — `sva-grund-4/digital-literacy`
+21. [x] A comparative text: two points of view, two systems — `sva-grund-4/comparative-text`
+22. [x] An instructional text: explaining a process to the reader — `sva-grund-4/instructional-text-advanced`
+23. [x] Proofreading your own text — `sva-grund-4/self-proofreading`
+24. [x] Giving feedback on someone else's text (kamratrespons) — `sva-grund-4/peer-feedback`
+25. [x] The final project: your own text on a free topic, defended orally — `sva-grund-4/final-project`
+26. [x] Full systematisation of the verb system, including the rare forms — `sva-grund-4/verb-system-full`
+27. [x] A summary table of every subordinate-clause type and its word order — `sva-grund-4/subordinate-clause-summary`
+28. [x] The passive and agent constructions across genres — `sva-grund-4/passive-across-genres`
+29. [x] Participial and infinitive phrases as compressed subordinate clauses — `sva-grund-4/compressed-clauses`
+30. [x] Nominalisation in academic and business text — `sva-grund-4/nominalisation-academic-business`
+31. [x] The syntax of popular-science and official text — `sva-grund-4/popular-science-syntax`
+32. [x] Connectors for structuring an essay — `sva-grund-4/essay-connectors`
+33. [x] Cohesion and reference: `det`, `detta`, `vilket`, pronominal reference — `sva-grund-4/cohesion-reference`
+34. [x] Hedging and cautious wording: `kan tänkas`, `tycks`, `förefaller` — `sva-grund-4/hedging-language`
+35. [x] Evaluative vocabulary and objectivity of presentation — `sva-grund-4/evaluative-objectivity`
+36. [x] Proportional constructions: `ju … desto`, `i takt med att` — `sva-grund-4/proportional-constructions`
+37. [x] Conditional periods of every type, including the unreal past — `sva-grund-4/conditional-periods-full`
+38. [x] Referatteknik: quotation, paraphrase, reference, plagiarism — `sva-grund-4/referat-technique`
+39. [x] Topicalisation, inversion and emphasis as a stylistic choice — `sva-grund-4/topicalisation-emphasis`
+40. [x] Tense and aspect in narrative: choosing a form for effect — `sva-grund-4/narrative-tense-aspect`
+41. [x] Verb government and collocations — the extended list — `sva-grund-4/verb-collocations-extended`
+42. [x] Word formation: complex compounds and productive patterns — `sva-grund-4/complex-compounds`
+43. [x] Idioms, metaphors and phraseology in a text — `sva-grund-4/phraseology-in-text`
+44. [x] Punctuation and the layout of a formal text — `sva-grund-4/formal-text-layout`
+45. [x] Proofreading: the typical mistakes, a self-check list — `sva-grund-4/self-check-checklist`
 
 ### Grammar (20 points)
 
-1. [ ] Full systematisation of the verb system, including the rare forms
-2. [ ] A summary table of every subordinate-clause type and its word order
-3. [ ] The passive and agent constructions across genres
-4. [ ] Participial and infinitive phrases as compressed subordinate clauses
-5. [ ] Nominalisation in academic and business text
-6. [ ] The syntax of popular-science and official text
-7. [ ] Connectors for structuring an essay
-8. [ ] Cohesion and reference: `det`, `detta`, `vilket`, pronominal reference
-9. [ ] Hedging and cautious wording: `kan tänkas`, `tycks`, `förefaller`
-10. [ ] Evaluative vocabulary and objectivity of presentation
-11. [ ] Proportional constructions: `ju … desto`, `i takt med att`
-12. [ ] Conditional periods of every type, including the unreal past
-13. [ ] Referatteknik: quotation, paraphrase, reference, plagiarism
-14. [ ] Topicalisation, inversion and emphasis as a stylistic choice
-15. [ ] Tense and aspect in narrative: choosing a form for effect
-16. [ ] Verb government and collocations — the extended list
-17. [ ] Word formation: complex compounds and productive patterns
-18. [ ] Idioms, metaphors and phraseology in a text
-19. [ ] Punctuation and the layout of a formal text
-20. [ ] Proofreading: the typical mistakes, a self-check list
+1. [x] Full systematisation of the verb system, including the rare forms — `sva-grund-4/verb-system-full`
+2. [x] A summary table of every subordinate-clause type and its word order — `sva-grund-4/subordinate-clause-summary`
+3. [x] The passive and agent constructions across genres — `sva-grund-4/passive-across-genres`
+4. [x] Participial and infinitive phrases as compressed subordinate clauses — `sva-grund-4/compressed-clauses`
+5. [x] Nominalisation in academic and business text — `sva-grund-4/nominalisation-academic-business`
+6. [x] The syntax of popular-science and official text — `sva-grund-4/popular-science-syntax`
+7. [x] Connectors for structuring an essay — `sva-grund-4/essay-connectors`
+8. [x] Cohesion and reference: `det`, `detta`, `vilket`, pronominal reference — `sva-grund-4/cohesion-reference`
+9. [x] Hedging and cautious wording: `kan tänkas`, `tycks`, `förefaller` — `sva-grund-4/hedging-language`
+10. [x] Evaluative vocabulary and objectivity of presentation — `sva-grund-4/evaluative-objectivity`
+11. [x] Proportional constructions: `ju … desto`, `i takt med att` — `sva-grund-4/proportional-constructions`
+12. [x] Conditional periods of every type, including the unreal past — `sva-grund-4/conditional-periods-full`
+13. [x] Referatteknik: quotation, paraphrase, reference, plagiarism — `sva-grund-4/referat-technique`
+14. [x] Topicalisation, inversion and emphasis as a stylistic choice — `sva-grund-4/topicalisation-emphasis`
+15. [x] Tense and aspect in narrative: choosing a form for effect — `sva-grund-4/narrative-tense-aspect`
+16. [x] Verb government and collocations — the extended list — `sva-grund-4/verb-collocations-extended`
+17. [x] Word formation: complex compounds and productive patterns — `sva-grund-4/complex-compounds`
+18. [x] Idioms, metaphors and phraseology in a text — `sva-grund-4/phraseology-in-text`
+19. [x] Punctuation and the layout of a formal text — `sva-grund-4/formal-text-layout`
+20. [x] Proofreading: the typical mistakes, a self-check list — `sva-grund-4/self-check-checklist`

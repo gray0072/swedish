@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/language-society",
+  "slug": "language-society",
+  "title": {
+    "sv": "Språk och samhälle: dialekt, sociolekt, språknormer",
+    "ru": "Язык и общество: диалекты, sociolekt, языковые нормы",
+    "en": "Language and society: dialects, sociolekt, language norms"
+  },
+  "summary": {
+    "ru": "Лексика о том, как язык связан с обществом: dialekt, sociolekt, standardsvenska, språknorm, kodväxling.",
+    "en": "Vocabulary connecting language to society: dialekt, sociolekt, standardsvenska, språknorm, kodväxling."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "language", "society"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2090,
+  "prerequisites": ["sva-grund-3/registers"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

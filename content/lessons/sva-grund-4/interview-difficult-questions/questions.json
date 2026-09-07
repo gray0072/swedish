@@ -1,0 +1,157 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-interview-difficult-questions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Где вы видите себя через пять лет?»", "en": "Build the question: \"Where do you see yourself in five years?\"" },
+      "tokens": ["ser du", "om fem år?", "Var", "dig själv"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-interview-difficult-questions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Почему в вашем резюме образовался пробел?»", "en": "Build the question: \"Why is there a gap in your CV?\"" },
+      "tokens": ["blev det", "Varför", "ett glapp", "i ditt CV?"],
+      "answer": [1, 0, 2, 3]
+    },
+    {
+      "id": "q-interview-difficult-questions-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери вопрос: «Как вы справляетесь со стрессом и давлением?»", "en": "Build the question: \"How do you handle stress and pressure?\"" },
+      "tokens": ["hanterar du", "Hur", "stress och press?"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-interview-difficult-questions-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["misstag", "ошибка"],
+        ["glapp", "пробел (в резюме)"],
+        ["konflikt", "конфликт"],
+        ["vändpunkt", "поворотный момент"]
+      ]
+    },
+    {
+      "id": "q-interview-difficult-questions-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["karriärmål", "карьерная цель"],
+        ["karriärpaus", "перерыв в карьере"],
+        ["reflektera", "размышлять"],
+        ["hantera kritik", "справляться с критикой"]
+      ]
+    },
+    {
+      "id": "q-interview-difficult-questions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "На вопрос про ошибку лучше всего сказать, что ты никогда не ошибаешься.", "en": "The best answer about a mistake is to say you never make mistakes." },
+      "answer": false,
+      "explanation": {
+        "ru": "Лучше признать реальную ошибку и показать, чему ты научился/научилась.",
+        "en": "It is better to admit a real mistake and show what you learned from it."
+      }
+    },
+    {
+      "id": "q-interview-difficult-questions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Karriärpaus» — это причина, о которой стоит рассказать честно и коротко.", "en": "A \"karriärpaus\" is something worth explaining honestly and briefly." },
+      "answer": true
+    },
+    {
+      "id": "q-interview-difficult-questions-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Рассказывая о конфликте на прежней работе, стоит подробно ругать бывших коллег.", "en": "When talking about a past conflict, you should criticise former colleagues in detail." },
+      "answer": false,
+      "explanation": {
+        "ru": "Лучше сфокусироваться на том, как конфликт был конструктивно разрешён, а не на критике коллег.",
+        "en": "It is better to focus on how the conflict was resolved constructively, not on criticising colleagues."
+      }
+    },
+    {
+      "id": "q-interview-difficult-questions-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Glapp» означает то же самое, что и «karriärmål».", "en": "\"Glapp\" means the same thing as \"karriärmål\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Glapp» — это пробел в резюме, а «karriärmål» — карьерная цель.", "en": "\"Glapp\" is a gap in a CV, while \"karriärmål\" is a career goal."
+      }
+    },
+    {
+      "id": "q-interview-difficult-questions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ av misstaget och blev mer noggrann. (извлёк(ла) урок)" },
+      "answer": ["lärde mig"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-interview-difficult-questions-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Mitt ___ är att bli teamledare inom några år. (карьерная цель)" },
+      "answer": ["karriärmål"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-interview-difficult-questions-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vi löste ___ genom att prata öppet. (конфликт)" },
+      "answer": ["konflikten"],
+      "acceptAlso": ["konflikt"]
+    },
+    {
+      "id": "q-interview-difficult-questions-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как лучше всего ответить на вопрос про причину пробела в резюме?",
+        "en": "What is the best way to answer a question about the reason for a CV gap?"
+      },
+      "choices": ["коротко и честно, а затем перейти к тому, что было дальше", "отказаться отвечать на этот вопрос", "долго и подробно оправдываться", "сменить тему разговора"],
+      "answer": 0
+    },
+    {
+      "id": "q-interview-difficult-questions-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «поворотный момент»?",
+        "en": "Which word means \"turning point\"?"
+      },
+      "choices": ["vändpunkt", "karriärpaus", "glapp", "misstag"],
+      "answer": 0
+    },
+    {
+      "id": "q-interview-difficult-questions-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что стоит сделать перед собеседованием, чтобы увереннее отвечать на сложные вопросы?",
+        "en": "What should you do before an interview to answer difficult questions more confidently?"
+      },
+      "choices": ["заранее reflektera над своими ответами и примерами", "полностью избегать подготовки", "заучить один универсальный ответ на все вопросы", "просить друга ответить вместо себя"],
+      "answer": 0
+    }
+  ]
+}

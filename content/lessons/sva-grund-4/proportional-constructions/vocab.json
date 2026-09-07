@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "ju-desto",
+      "sv": "ju … desto",
+      "translations": { "ru": "чем …, тем …", "en": "the more …, the more …" },
+      "pos": "phrase",
+      "example": { "sv": "Ju mer du övar, desto bättre blir du.", "ru": "Чем больше ты тренируешься, тем лучше становишься.", "en": "The more you practise, the better you get." }
+    },
+    {
+      "id": "i-takt-med-att",
+      "sv": "i takt med att",
+      "translations": { "ru": "по мере того как", "en": "as, in step with" },
+      "pos": "phrase",
+      "example": { "sv": "Efterfrågan ökar i takt med att priserna sjunker.", "ru": "Спрос растёт по мере того, как цены падают.", "en": "Demand rises as prices fall." }
+    },
+    {
+      "id": "takt",
+      "sv": "takt",
+      "translations": { "ru": "такт, ритм, темп", "en": "beat, rhythm, pace" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en takt", "defSg": "takten", "indefPl": "takter", "defPl": "takterna" }
+    },
+    {
+      "id": "oka",
+      "sv": "öka",
+      "translations": { "ru": "расти, увеличиваться", "en": "to increase, to grow" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" }
+    },
+    {
+      "id": "sjunka",
+      "sv": "sjunka",
+      "translations": { "ru": "падать, снижаться; тонуть", "en": "to fall, to decline; to sink" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sjunka", "present": "sjunker", "past": "sjönk", "supine": "sjunkit" }
+    },
+    {
+      "id": "efterfragan",
+      "sv": "efterfrågan",
+      "translations": { "ru": "спрос", "en": "demand" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Слово почти не имеет формы множественного числа в обычном употреблении.", "en": "The word rarely takes a plural form in ordinary use." }
+    },
+    {
+      "id": "pris-noun",
+      "sv": "pris",
+      "translations": { "ru": "цена; приз", "en": "price; prize" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" }
+    },
+    {
+      "id": "vaxa",
+      "sv": "växa",
+      "translations": { "ru": "расти", "en": "to grow" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "växa", "present": "växer", "past": "växte", "supine": "växt" }
+    },
+    {
+      "id": "elbil",
+      "sv": "elbil",
+      "translations": { "ru": "электромобиль", "en": "electric car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elbil", "defSg": "elbilen", "indefPl": "elbilar", "defPl": "elbilarna" }
+    },
+    {
+      "id": "infrastruktur",
+      "sv": "infrastruktur",
+      "translations": { "ru": "инфраструктура", "en": "infrastructure" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en infrastruktur", "defSg": "infrastrukturen", "indefPl": "infrastrukturer", "defPl": "infrastrukturerna" }
+    },
+    {
+      "id": "byggas-ut",
+      "sv": "byggas ut",
+      "translations": { "ru": "расширяться, наращиваться (о строительстве)", "en": "to be expanded, built out" },
+      "pos": "phrase",
+      "example": { "sv": "Laddinfrastrukturen byggs ut snabbt.", "ru": "Зарядная инфраструктура быстро расширяется.", "en": "The charging infrastructure is being expanded rapidly." }
+    },
+    {
+      "id": "luftkvalitet",
+      "sv": "luftkvalitet",
+      "translations": { "ru": "качество воздуха", "en": "air quality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en luftkvalitet", "defSg": "luftkvaliteten", "indefPl": "luftkvaliteter", "defPl": "luftkvaliteterna" }
+    },
+    {
+      "id": "forbattras",
+      "sv": "förbättras",
+      "translations": { "ru": "улучшаться", "en": "to improve (intransitive)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" }
+    },
+    {
+      "id": "klok",
+      "sv": "klok",
+      "translations": { "ru": "мудрый, разумный", "en": "wise, sensible" },
+      "pos": "adj",
+      "note": { "ru": "Сравнительная степень: klokare; превосходная: klokast.", "en": "Comparative: klokare; superlative: klokast." }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/comparative-text",
+  "slug": "comparative-text",
+  "title": {
+    "sv": "Jämförande text: två perspektiv, två system",
+    "ru": "Сравнительный текст: две точки зрения, две системы",
+    "en": "A comparative text: two points of view, two systems"
+  },
+  "summary": {
+    "ru": "Фразы для формального письменного сравнения — не разговорного, как в delkurs 3: как представить две системы, назвать главное различие и подвести взвешенный итог.",
+    "en": "Phrases for a formal written comparison, more structured than the spoken comparisons in delkurs 3: presenting two systems, naming the main difference, and reaching a balanced conclusion."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "writing", "comparison"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2160,
+  "prerequisites": ["sva-grund-3/comparing-cultures-etiquette"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

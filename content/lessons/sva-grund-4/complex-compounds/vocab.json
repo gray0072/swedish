@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "arbetsmarknadspolitik",
+      "sv": "arbetsmarknadspolitik",
+      "translations": { "ru": "политика на рынке труда", "en": "labour market policy" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа. Три элемента: arbets (труда) + marknad (рынок) + s + politik (политика).", "en": "Usually has no plural. Three elements: arbets (labour's) + marknad (market) + s + politik (policy)." }
+    },
+    {
+      "id": "arbetsmarknad",
+      "sv": "arbetsmarknad",
+      "translations": { "ru": "рынок труда", "en": "labour market" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsmarknad", "defSg": "arbetsmarknaden", "indefPl": "arbetsmarknader", "defPl": "arbetsmarknaderna" }
+    },
+    {
+      "id": "politik",
+      "sv": "politik",
+      "translations": { "ru": "политика", "en": "policy, politics" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа (не путать с en politiker — «политик, человек»).", "en": "Usually has no plural (do not confuse with en politiker — \"a politician\")." }
+    },
+    {
+      "id": "marknad",
+      "sv": "marknad",
+      "translations": { "ru": "рынок", "en": "market" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en marknad", "defSg": "marknaden", "indefPl": "marknader", "defPl": "marknaderna" }
+    },
+    {
+      "id": "sjukvardspersonal",
+      "sv": "sjukvårdspersonal",
+      "translations": { "ru": "медицинский персонал", "en": "healthcare staff" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа (собирательное слово). sjuk (больной) + vård (уход) + s + personal (персонал).", "en": "Usually has no plural (a collective noun). sjuk (sick) + vård (care) + s + personal (staff)." }
+    },
+    {
+      "id": "sjukvard",
+      "sv": "sjukvård",
+      "translations": { "ru": "здравоохранение, медицинский уход", "en": "healthcare" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+    },
+    {
+      "id": "personal",
+      "sv": "personal",
+      "translations": { "ru": "персонал", "en": "staff, personnel" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Собирательное слово, обычно без множественного числа.", "en": "A collective noun, usually with no plural." }
+    },
+    {
+      "id": "konsumentskyddslagstiftning",
+      "sv": "konsumentskyddslagstiftning",
+      "translations": { "ru": "законодательство о защите прав потребителей", "en": "consumer protection legislation" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа. konsument (потребитель) + skydd (защита) + s + lagstiftning (законодательство).", "en": "Usually has no plural. konsument (consumer) + skydd (protection) + s + lagstiftning (legislation)." }
+    },
+    {
+      "id": "konsument",
+      "sv": "konsument",
+      "translations": { "ru": "потребитель", "en": "consumer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konsument", "defSg": "konsumenten", "indefPl": "konsumenter", "defPl": "konsumenterna" }
+    },
+    {
+      "id": "skydd",
+      "sv": "skydd",
+      "translations": { "ru": "защита", "en": "protection" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "skydd", "defSg": "skyddet", "indefPl": "skydd", "defPl": "skydden" }
+    },
+    {
+      "id": "lagstiftning",
+      "sv": "lagstiftning",
+      "translations": { "ru": "законодательство", "en": "legislation" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+    },
+    {
+      "id": "sammansattning",
+      "sv": "sammansättning",
+      "translations": { "ru": "сложное слово, композит", "en": "compound word" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sammansättning", "defSg": "sammansättningen", "indefPl": "sammansättningar", "defPl": "sammansättningarna" }
+    },
+    {
+      "id": "huvudord",
+      "sv": "huvudord",
+      "translations": { "ru": "главное слово (в композите)", "en": "head word (in a compound)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "huvudord", "defSg": "huvudordet", "indefPl": "huvudord", "defPl": "huvudorden" }
+    }
+  ]
+}

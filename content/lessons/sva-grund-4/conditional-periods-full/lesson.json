@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/conditional-periods-full",
+  "slug": "conditional-periods-full",
+  "title": {
+    "sv": "Villkorssatser: en samlad översikt över alla typer",
+    "ru": "Условные периоды всех типов, включая нереальные в прошлом",
+    "en": "Conditional periods of every type, including the unreal past"
+  },
+  "summary": {
+    "ru": "Одна таблица на все условные предложения из delkurs 2-3: реальные, ирреальные и без om.",
+    "en": "One table for every conditional type from delkurs 2-3: real, unreal, and the om-less alternative."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "conditionals", "word-order", "review"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1870,
+  "prerequisites": ["sva-grund-3/extended-conditionals"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

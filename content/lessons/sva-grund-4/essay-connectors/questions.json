@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-essay-connectors-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая связка типична для введения в эссе?", "en": "Which connector is typical of an essay's opening?" },
+      "choices": ["Avslutningsvis", "Inledningsvis", "Däremot", "Alltså"],
+      "answer": 1
+    },
+    {
+      "id": "q-essay-connectors-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая связка вводит заключение?", "en": "Which connector introduces the conclusion?" },
+      "choices": ["Vidare", "Å ena sidan", "Sammanfattningsvis", "Dessutom"],
+      "answer": 2
+    },
+    {
+      "id": "q-essay-connectors-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Inledningsvis bör man notera att...» — почему после «inledningsvis» идёт «bör», а не «man bör»?", "en": "\"Inledningsvis bör man notera att...\" — why does \"bör\" come right after \"inledningsvis\" instead of \"man bör\"?" },
+      "choices": ["Потому что это ошибка", "Потому что связка заняла fundament, и по V2 глагол стоит на втором месте", "Потому что «bör» — модальный и всегда стоит первым", "Потому что это вопросительное предложение"],
+      "answer": 1
+    },
+    {
+      "id": "q-essay-connectors-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая пара связок вводит противопоставление точек зрения?", "en": "Which pair of connectors introduces contrasting viewpoints?" },
+      "choices": ["Vidare ... dessutom", "Å ena sidan ... å andra sidan", "Inledningsvis ... avslutningsvis", "För det andra ... slutligen"],
+      "answer": 1
+    },
+    {
+      "id": "q-essay-connectors-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что из этого — классический скелет утредande text (аргументирующего эссе)?", "en": "Which of these is the classic skeleton of an utredande text (argumentative essay)?" },
+      "choices": ["Только вывод, без введения", "Inledning → argument (vidare/dessutom) → motargument (å andra sidan) → avslutning", "Случайный порядок абзацев", "Один длинный абзац без связок"],
+      "answer": 1
+    },
+    {
+      "id": "q-essay-connectors-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vidare» вводит дополнительный аргумент, продолжающий предыдущий.", "en": "\"Vidare\" introduces an additional argument continuing the previous one." },
+      "answer": true
+    },
+    {
+      "id": "q-essay-connectors-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Avslutningsvis» и «sammanfattningsvis» оба типично вводят заключение эссе.", "en": "\"Avslutningsvis\" and \"sammanfattningsvis\" both typically introduce an essay's conclusion." },
+      "answer": true
+    },
+    {
+      "id": "q-essay-connectors-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Текстовые связки в начале предложения не влияют на порядок слов.", "en": "Sentence-initial text connectors don't affect word order." },
+      "answer": false,
+      "explanation": { "ru": "Влияют: они занимают fundament, и по правилу V2 глагол встаёт на второе место.", "en": "They do: they occupy the fundament, and by the V2 rule the verb moves into second position." }
+    },
+    {
+      "id": "q-essay-connectors-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ bör man notera att frågan är omdiskuterad. (связка введения)" },
+      "answer": ["Inledningsvis"]
+    },
+    {
+      "id": "q-essay-connectors-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ visar undersökningen att de flesta föredrar distansarbete. (связка добавления)" },
+      "answer": ["Vidare"]
+    },
+    {
+      "id": "q-essay-connectors-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ kan man konstatera att båda sidor har goda argument. (связка заключения)" },
+      "answer": ["Avslutningsvis", "Sammanfattningsvis"]
+    },
+    {
+      "id": "q-essay-connectors-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Å ena sidan sparar man tid, ___ ökar kostnaden. (вторая часть противопоставления)" },
+      "answer": ["å andra sidan"]
+    },
+    {
+      "id": "q-essay-connectors-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Далее исследование показывает, что...» (связка + V2)", "en": "Build the sentence: \"Furthermore, the study shows that...\" (connector + V2)" },
+      "tokens": ["Vidare", "visar", "undersökningen", "att", "de", "flesta", "föredrar", "distansarbete"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-essay-connectors-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь связку с её функцией в эссе", "en": "Match the connector with its function in an essay" },
+      "pairs": [
+        ["inledningsvis", "введение / opening"],
+        ["vidare", "добавление / adding"],
+        ["å andra sidan", "противопоставление / contrasting"],
+        ["sammanfattningsvis", "заключение / concluding"]
+      ]
+    }
+  ]
+}

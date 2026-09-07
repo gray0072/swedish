@@ -1,0 +1,134 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-referat-technique-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое parafras?", "en": "What is a parafras?" },
+      "choices": [
+        { "ru": "Дословная цитата в кавычках", "en": "A verbatim quote in quotation marks" },
+        { "ru": "Пересказ чужой мысли своими словами", "en": "Someone else's idea retold in your own words" },
+        { "ru": "Список источников в конце текста", "en": "A list of sources at the end of the text" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-referat-technique-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Нужна ли ссылка на источник при парафразе?", "en": "Is a source reference required for a paraphrase?" },
+      "choices": [
+        { "ru": "Да, всегда, даже без кавычек", "en": "Yes, always, even without quotation marks" },
+        { "ru": "Нет, ведь слова уже не дословные", "en": "No, since the wording isn't verbatim anymore" },
+        { "ru": "Только если текст длиннее одного абзаца", "en": "Only if the text is longer than one paragraph" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-referat-technique-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что определяет plagiat?", "en": "What defines plagiat?" },
+      "choices": [
+        { "ru": "Использование чужих слов/мыслей без указания источника", "en": "Using someone else's words/ideas without naming the source" },
+        { "ru": "Слишком длинная цитата", "en": "A quotation that is too long" },
+        { "ru": "Пересказ текста на другом языке", "en": "Retelling a text in another language" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-referat-technique-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое предложение оформлено как честный парафраз?", "en": "Which sentence is formatted as an honest paraphrase?" },
+      "choices": [
+        "Klimatförändringarna är det största hotet mot vår tid.",
+        "Enligt Berg är klimatförändringarna vår tids allvarligaste utmaning.",
+        "”Klimatförändringarna är vår tids allvarligaste utmaning.”"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-referat-technique-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "”Klimatförändringarna är det största hotet mot vår tid”, ___ forskaren Lena Berg. (пишет)" },
+      "answer": ["skriver"]
+    },
+    {
+      "id": "q-referat-technique-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ Lena Berg är klimatförändringarna vår tids allvarligaste utmaning. (по словам)" },
+      "answer": ["Enligt"]
+    },
+    {
+      "id": "q-referat-technique-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "I sin studie ___ Berg (2023) att utsläppen måste halveras. (утверждает)" },
+      "answer": ["hävdar"]
+    },
+    {
+      "id": "q-referat-technique-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Цитата оформляется в кавычках и требует ссылки на источник.", "en": "A quotation is put in quotation marks and requires a source reference." },
+      "answer": true
+    },
+    {
+      "id": "q-referat-technique-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Парафраз без ссылки на источник — это плагиат.", "en": "A paraphrase without a source reference is plagiarism." },
+      "answer": true
+    },
+    {
+      "id": "q-referat-technique-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Если переформулировать чужую мысль своими словами, она автоматически становится вашей собственной, и источник указывать не нужно.", "en": "Rephrasing someone else's idea in your own words automatically makes it your own, so no source is needed." },
+      "answer": false,
+      "explanation": { "ru": "Чужая мысль остаётся чужой независимо от формулировки — источник указывать обязательно.", "en": "An idea remains someone else's regardless of wording — the source must still be named." }
+    },
+    {
+      "id": "q-referat-technique-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Дословное копирование текста без кавычек и без ссылки на источник считается плагиатом.", "en": "Copying text verbatim without quotation marks and without a source reference counts as plagiarism." },
+      "answer": true
+    },
+    {
+      "id": "q-referat-technique-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «По словам Лены Берг, изменение климата — самая серьёзная проблема нашего времени.»", "en": "Build the sentence: \"According to Lena Berg, climate change is the most serious challenge of our time.\"" },
+      "tokens": ["Enligt", "Lena", "Berg", "är", "klimatförändringarna", "vår", "tids", "allvarligaste", "utmaning"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-referat-technique-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь способ пересказа с его признаками", "en": "Match the method with its characteristics" },
+      "pairs": [
+        ["Citat", "кавычки + источник / quotation marks + source"],
+        ["Parafras", "без кавычек + источник / no quotation marks + source"],
+        ["Plagiat", "без кавычек + без источника / no quotation marks + no source"]
+      ]
+    },
+    {
+      "id": "q-referat-technique-mc-5",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Зачем в referat всегда указывать источник?", "en": "Why should a referat always name the source?" },
+      "choices": [
+        { "ru": "Чтобы читатель видел границу между чужой мыслью и вашим анализом", "en": "So the reader can see the boundary between someone else's idea and your own analysis" },
+        { "ru": "Это требуется только для длинных цитат", "en": "It's only required for long quotations" },
+        { "ru": "Чтобы текст выглядел научнее, но без реального смысла", "en": "Just to make the text look more academic, with no real purpose" }
+      ],
+      "answer": 0
+    }
+  ]
+}

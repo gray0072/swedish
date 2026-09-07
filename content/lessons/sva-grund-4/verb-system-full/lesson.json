@@ -1,0 +1,40 @@
+{
+  "id": "sva-grund-4/verb-system-full",
+  "slug": "verb-system-full",
+  "title": {
+    "sv": "Hela verbsystemet: tempus, passiv, particip, modala verb och sällsynta former",
+    "ru": "Полная система глагола: времена, пассив, причастия, модальные и редкие формы",
+    "en": "The full verb system: tenses, passive, participles, modal verbs and rare forms"
+  },
+  "summary": {
+    "ru": "Не новая тема, а капитан-таблица: вся глагольная система delkurs 1–3 в одном месте.",
+    "en": "Not new grammar — a capstone table: the whole verb system from delkurs 1-3 in one place."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "tenses",
+    "passive",
+    "participles",
+    "modal-verbs",
+    "review"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1760,
+  "prerequisites": [
+    "sva-grund-1/tense-overview"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/self-proofreading",
+  "slug": "self-proofreading",
+  "title": {
+    "sv": "Korrekturläsning av den egna texten",
+    "ru": "Языковая правка собственного текста",
+    "en": "Proofreading your own text"
+  },
+  "summary": {
+    "ru": "Практические привычки для правки собственного письменного текста перед сдачей: читать вслух, проверять один тип ошибок за раз и перечитывать текст позже свежим взглядом.",
+    "en": "Practical habits for proofreading your own writing before you hand it in: reading aloud, checking one error type per pass, and rereading the text later with fresh eyes."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "writing", "proofreading"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2180,
+  "prerequisites": ["sva-grund-4/self-check-checklist"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

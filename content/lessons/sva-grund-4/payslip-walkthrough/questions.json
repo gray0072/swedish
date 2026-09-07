@@ -1,0 +1,153 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-payslip-walkthrough-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Расчётный листок показывает зарплату брутто, вычеты и зарплату нетто.»", "en": "Build the sentence: \"The payslip shows the gross salary, the deductions and the net salary.\"" },
+      "tokens": ["visar", "Lönespecifikationen", "bruttolön, avdrag och nettolön."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-payslip-walkthrough-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Работодатель ежемесячно откладывает деньги в твою трудовую пенсию.»", "en": "Build the sentence: \"The employer sets aside money for your occupational pension every month.\"" },
+      "tokens": ["sätter av pengar", "varje månad.", "Arbetsgivaren", "till din tjänstepension"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-payslip-walkthrough-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Большинство имеет право на 25 дней отпуска в год.»", "en": "Build the sentence: \"Most people are entitled to 25 vacation days a year.\"" },
+      "tokens": ["till 25 semesterdagar per år.", "har rätt", "De flesta"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-payslip-walkthrough-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["bruttolön", "зарплата до вычета налогов"],
+        ["nettolön", "зарплата после вычета налогов"],
+        ["lönespecifikation", "расчётный листок"],
+        ["tjänstepension", "трудовая пенсия"]
+      ]
+    },
+    {
+      "id": "q-payslip-walkthrough-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["arbetsgivaravgift", "взносы работодателя"],
+        ["jämkning", "перерасчёт налога"],
+        ["sjuklön", "оплата по болезни"],
+        ["övertidsersättning", "оплата сверхурочных"]
+      ]
+    },
+    {
+      "id": "q-payslip-walkthrough-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Nettolön» — это сумма, которую ты реально получаешь на счёт после вычета налога.", "en": "\"Nettolön\" is the amount you actually receive in your account after tax." },
+      "answer": true
+    },
+    {
+      "id": "q-payslip-walkthrough-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Arbetsgivaravgift» — это налог, который вычитают напрямую из зарплаты сотрудника.", "en": "\"Arbetsgivaravgift\" is a tax deducted directly from the employee's own salary." },
+      "answer": false,
+      "explanation": {
+        "ru": "Arbetsgivaravgift платит работодатель государству отдельно, это не вычет из зарплаты работника.",
+        "en": "The arbetsgivaravgift is paid by the employer to the state separately; it is not a deduction from the employee's salary."
+      }
+    },
+    {
+      "id": "q-payslip-walkthrough-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Если из зарплаты удержали слишком много налога, можно попросить jämkning.", "en": "If too much tax was withheld from your salary, you can request a jämkning." },
+      "answer": true
+    },
+    {
+      "id": "q-payslip-walkthrough-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Все дни больничного и отпуска по уходу за ребёнком одинаково не засчитываются для отпускных.", "en": "All sick days and all parental-leave days equally never count toward holiday pay." },
+      "answer": false,
+      "explanation": {
+        "ru": "Часть таких дней является semesterlönegrundande, то есть засчитывается для отпускных, — например, первые 180 дней с родительским пособием.",
+        "en": "Some of these days are semesterlönegrundande, meaning they do count toward holiday pay — for example, the first 180 days on parental benefit."
+      }
+    },
+    {
+      "id": "q-payslip-walkthrough-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Skillnaden mellan bruttolön och nettolön är ___ skatt. (удержанный)" },
+      "answer": ["avdragen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-payslip-walkthrough-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Arbetsgivaren skickar en ___ till Skatteverket varje år. (справка о доходах)" },
+      "answer": ["kontrolluppgift"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-payslip-walkthrough-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ på mitt jobb är den 25:e varje månad. (день выплаты)" },
+      "answer": ["Utbetalningsdagen"],
+      "acceptAlso": ["utbetalningsdagen"]
+    },
+    {
+      "id": "q-payslip-walkthrough-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «зарплата до вычета налогов»?",
+        "en": "Which word means \"salary before tax\"?"
+      },
+      "choices": ["bruttolön", "nettolön", "sjuklön", "timlön"],
+      "answer": 0
+    },
+    {
+      "id": "q-payslip-walkthrough-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что показывает расчётный листок (lönespecifikation)?",
+        "en": "What does a payslip (lönespecifikation) show?"
+      },
+      "choices": ["зарплату брутто, вычеты и зарплату нетто", "только дни отпуска", "только банковские реквизиты", "только рабочий график"],
+      "answer": 0
+    },
+    {
+      "id": "q-payslip-walkthrough-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Куда откладывает деньги работодатель для твоей будущей пенсии?",
+        "en": "Where does the employer set aside money for your future pension?"
+      },
+      "choices": ["tjänstepension", "semesterersättning", "arbetsgivaravgift", "jämkning"],
+      "answer": 0
+    }
+  ]
+}

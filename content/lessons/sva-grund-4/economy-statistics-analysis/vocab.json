@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "statistiken-tyder-pa-att",
+      "sv": "statistiken tyder på att...",
+      "translations": { "ru": "статистика указывает на то, что...", "en": "the statistics suggest that..." },
+      "pos": "phrase",
+      "example": { "sv": "Statistiken tyder på att arbetslösheten minskar bland unga.", "ru": "Статистика указывает на то, что безработица снижается среди молодёжи.", "en": "The statistics suggest that unemployment is decreasing among young people." }
+    },
+    {
+      "id": "siffrorna-visar",
+      "sv": "siffrorna visar en tydlig trend",
+      "translations": { "ru": "цифры показывают чёткий тренд", "en": "the figures show a clear trend" },
+      "pos": "phrase"
+    },
+    {
+      "id": "en-mojlig-forklaring-ar-att",
+      "sv": "en möjlig förklaring är att...",
+      "translations": { "ru": "возможное объяснение в том, что...", "en": "a possible explanation is that..." },
+      "pos": "phrase",
+      "example": { "sv": "En möjlig förklaring är att fler utbildar sig inom bristyrken.", "ru": "Возможное объяснение в том, что больше людей учится на дефицитные специальности.", "en": "A possible explanation is that more people are training for professions in short supply." }
+    },
+    {
+      "id": "detta-kan-bero-pa",
+      "sv": "detta kan bero på flera faktorer",
+      "translations": { "ru": "это может зависеть от нескольких факторов", "en": "this can depend on several factors" },
+      "pos": "phrase"
+    },
+    {
+      "id": "man-kan-inte-dra-slutsatsen",
+      "sv": "man kan inte dra slutsatsen att...",
+      "translations": { "ru": "нельзя делать вывод, что...", "en": "one can't conclude that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "svart-att-saga-sakert",
+      "sv": "det är svårt att säga säkert utan mer data",
+      "translations": { "ru": "трудно сказать наверняка без дополнительных данных", "en": "it's hard to say for sure without more data" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jamfort-med-foregaende-ar",
+      "sv": "jämfört med föregående år",
+      "translations": { "ru": "по сравнению с прошлым годом", "en": "compared with the previous year" },
+      "pos": "phrase",
+      "example": { "sv": "Jämfört med föregående år har inflationen gått ner.", "ru": "По сравнению с прошлым годом инфляция снизилась.", "en": "Compared with the previous year, inflation has gone down." }
+    },
+    {
+      "id": "samband",
+      "sv": "samband",
+      "translations": { "ru": "связь, корреляция", "en": "correlation, connection" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" }
+    },
+    {
+      "id": "orsak-econ",
+      "sv": "orsak",
+      "translations": { "ru": "причина", "en": "cause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+    },
+    {
+      "id": "faktor",
+      "sv": "faktor",
+      "translations": { "ru": "фактор", "en": "factor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en faktor", "defSg": "faktorn", "indefPl": "faktorer", "defPl": "faktorerna" }
+    },
+    {
+      "id": "konjunktur",
+      "sv": "konjunktur",
+      "translations": { "ru": "экономическая конъюнктура, деловой цикл", "en": "economic cycle, business climate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" }
+    },
+    {
+      "id": "bristyrke",
+      "sv": "bristyrke",
+      "translations": { "ru": "дефицитная профессия", "en": "profession in short supply" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bristyrke", "defSg": "bristyrket", "indefPl": "bristyrken", "defPl": "bristyrkena" }
+    },
+    {
+      "id": "slutsats",
+      "sv": "slutsats",
+      "translations": { "ru": "вывод, заключение", "en": "conclusion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+    },
+    {
+      "id": "dra-en-slutsats",
+      "sv": "dra en slutsats",
+      "translations": { "ru": "делать вывод", "en": "to draw a conclusion" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dra", "present": "drar", "past": "drog", "supine": "dragit" }
+    },
+    {
+      "id": "data-econ",
+      "sv": "data",
+      "translations": { "ru": "данные", "en": "data" },
+      "pos": "noun",
+      "gender": "ett"
+    }
+  ]
+}

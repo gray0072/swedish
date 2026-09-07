@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "kamratrespons",
+      "sv": "kamratrespons",
+      "translations": { "ru": "обратная связь от одноклассника", "en": "peer feedback" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "respons",
+      "sv": "respons",
+      "translations": { "ru": "отклик, обратная связь", "en": "feedback, response" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "ge-respons",
+      "sv": "ge respons",
+      "translations": { "ru": "давать обратную связь", "en": "to give feedback" },
+      "pos": "phrase"
+    },
+    {
+      "id": "konstruktiv",
+      "sv": "konstruktiv",
+      "translations": { "ru": "конструктивный", "en": "constructive" },
+      "pos": "adj",
+      "example": { "sv": "Konstruktiv kritik hjälper författaren att förbättra texten.", "ru": "Конструктивная критика помогает автору улучшить текст.", "en": "Constructive criticism helps the author improve the text." }
+    },
+    {
+      "id": "kritik",
+      "sv": "kritik",
+      "translations": { "ru": "критика", "en": "criticism" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "forbattringsforslag",
+      "sv": "förbättringsförslag",
+      "translations": { "ru": "предложение по улучшению", "en": "suggestion for improvement" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett förbättringsförslag", "defSg": "förbättringsförslaget", "indefPl": "förbättringsförslag", "defPl": "förbättringsförslagen" }
+    },
+    {
+      "id": "lyckas-med",
+      "sv": "lyckas med",
+      "translations": { "ru": "преуспеть в чём-то, справиться с чем-то", "en": "to succeed at, to do well with" },
+      "pos": "verb",
+      "forms": { "infinitive": "lyckas", "present": "lyckas", "past": "lyckades", "supine": "lyckats" },
+      "example": { "sv": "Jag tycker att du lyckas bra med att beskriva miljön i din text.", "ru": "Мне кажется, тебе хорошо удалось описать обстановку в твоём тексте.", "en": "I think you do a good job of describing the setting in your text." }
+    },
+    {
+      "id": "ett-forslag-skulle-kunna-vara-att",
+      "sv": "ett förslag skulle kunna vara att",
+      "translations": { "ru": "одно предложение могло бы быть в том, чтобы", "en": "one suggestion could be to" },
+      "pos": "phrase",
+      "example": { "sv": "Ett förslag skulle kunna vara att korta ner den här meningen.", "ru": "Одно предложение могло бы быть в том, чтобы сократить это предложение.", "en": "One suggestion could be to shorten this sentence." }
+    },
+    {
+      "id": "styrka",
+      "sv": "styrka",
+      "translations": { "ru": "сильная сторона", "en": "strength" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en styrka", "defSg": "styrkan", "indefPl": "styrkor", "defPl": "styrkorna" }
+    },
+    {
+      "id": "svaghet",
+      "sv": "svaghet",
+      "translations": { "ru": "слабая сторона", "en": "weakness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en svaghet", "defSg": "svagheten", "indefPl": "svagheter", "defPl": "svagheterna" }
+    },
+    {
+      "id": "tydliggora",
+      "sv": "tydliggöra",
+      "translations": { "ru": "прояснять, делать понятнее", "en": "to clarify" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "tydliggöra", "present": "tydliggör", "past": "tydliggjorde", "supine": "tydliggjort" },
+      "example": { "sv": "Kanske skulle du kunna tydliggöra den här meningen.", "ru": "Может быть, ты мог бы прояснить это предложение.", "en": "Maybe you could clarify this sentence." }
+    },
+    {
+      "id": "uttrycka-sig",
+      "sv": "uttrycka sig",
+      "translations": { "ru": "выражаться, формулировать свои мысли", "en": "to express oneself" },
+      "pos": "phrase"
+    },
+    {
+      "id": "formulering",
+      "sv": "formulering",
+      "translations": { "ru": "формулировка", "en": "phrasing, wording" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en formulering", "defSg": "formuleringen", "indefPl": "formuleringar", "defPl": "formuleringarna" }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "иметь в виду, подразумевать", "en": "to mean" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Vad menade du här?", "ru": "Что ты имел в виду здесь?", "en": "What did you mean here?" }
+    },
+    {
+      "id": "vad-menade-du-har",
+      "sv": "vad menade du här?",
+      "translations": { "ru": "что ты имел в виду здесь?", "en": "what did you mean here?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "korta-ner",
+      "sv": "korta ner",
+      "translations": { "ru": "сократить", "en": "to shorten" },
+      "pos": "phrase"
+    },
+    {
+      "id": "konkret",
+      "sv": "konkret",
+      "translations": { "ru": "конкретный", "en": "concrete" },
+      "pos": "adj"
+    },
+    {
+      "id": "formulera-om",
+      "sv": "formulera om",
+      "translations": { "ru": "переформулировать", "en": "to rephrase" },
+      "pos": "phrase",
+      "example": { "sv": "Du kan tydliggöra meningen genom att formulera om den.", "ru": "Ты можешь прояснить предложение, переформулировав его.", "en": "You can clarify the sentence by rephrasing it." }
+    }
+  ]
+}

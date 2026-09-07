@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "digital-kallkritik",
+      "sv": "digital källkritik",
+      "translations": { "ru": "цифровая критика источников", "en": "digital source criticism" },
+      "pos": "phrase",
+      "example": { "sv": "Digital källkritik handlar om att bedöma om en källa på nätet är trovärdig.", "ru": "Цифровая критика источников — это умение оценивать, заслуживает ли доверия онлайн-источник.", "en": "Digital source criticism is about judging whether an online source is trustworthy." }
+    },
+    {
+      "id": "faktagranskning",
+      "sv": "faktagranskning",
+      "translations": { "ru": "проверка фактов", "en": "fact-checking" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en faktagranskning", "defSg": "faktagranskningen", "indefPl": "faktagranskningar", "defPl": "faktagranskningarna" },
+      "example": { "sv": "Innan man delar en nyhet är det klokt att göra en faktagranskning.", "ru": "Прежде чем делиться новостью, разумно провести проверку фактов.", "en": "Before sharing a news story, it's wise to do a fact-check." }
+    },
+    {
+      "id": "desinformation",
+      "sv": "desinformation",
+      "translations": { "ru": "дезинформация", "en": "disinformation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en desinformation", "defSg": "desinformationen", "indefPl": "desinformationer", "defPl": "desinformationerna" },
+      "example": { "sv": "Desinformation sprids ofta snabbt i sociala medier.", "ru": "Дезинформация часто быстро распространяется в соцсетях.", "en": "Disinformation often spreads quickly on social media." }
+    },
+    {
+      "id": "algoritm",
+      "sv": "algoritm",
+      "translations": { "ru": "алгоритм", "en": "algorithm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en algoritm", "defSg": "algoritmen", "indefPl": "algoritmer", "defPl": "algoritmerna" },
+      "example": { "sv": "Algoritmen visar innehåll som liknar det du redan har klickat på.", "ru": "Алгоритм показывает контент, похожий на тот, что вы уже открывали.", "en": "The algorithm shows content similar to what you've already clicked on." }
+    },
+    {
+      "id": "ai-genererat-innehall",
+      "sv": "AI-genererat innehåll",
+      "translations": { "ru": "контент, сгенерированный ИИ", "en": "AI-generated content" },
+      "pos": "phrase",
+      "example": { "sv": "Det är inte alltid lätt att se om en bild är AI-genererat innehåll.", "ru": "Не всегда легко понять, что изображение — это контент, сгенерированный ИИ.", "en": "It's not always easy to tell if an image is AI-generated content." }
+    },
+    {
+      "id": "trovardig",
+      "sv": "trovärdig",
+      "translations": { "ru": "заслуживающий доверия, достоверный", "en": "credible, trustworthy" },
+      "pos": "adj"
+    },
+    {
+      "id": "kalla-source",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    },
+    {
+      "id": "bedoma",
+      "sv": "bedöma",
+      "translations": { "ru": "оценивать, судить о", "en": "to assess, to judge" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bedöma", "present": "bedömer", "past": "bedömde", "supine": "bedömt" }
+    },
+    {
+      "id": "granska",
+      "sv": "granska",
+      "translations": { "ru": "проверять, изучать критически", "en": "to check, to scrutinize" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+    },
+    {
+      "id": "spridas",
+      "sv": "spridas",
+      "translations": { "ru": "распространяться", "en": "to spread (intr.)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "spridas", "present": "sprids", "past": "spreds", "supine": "spridits" }
+    },
+    {
+      "id": "oberoende-kalla",
+      "sv": "oberoende källa",
+      "translations": { "ru": "независимый источник", "en": "independent source" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sociala-medier",
+      "sv": "sociala medier",
+      "translations": { "ru": "социальные сети", "en": "social media" },
+      "pos": "phrase"
+    },
+    {
+      "id": "publiceringsdatum",
+      "sv": "publiceringsdatum",
+      "translations": { "ru": "дата публикации", "en": "publication date" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett publiceringsdatum", "defSg": "publiceringsdatumet", "indefPl": "publiceringsdatum", "defPl": "publiceringsdatumen" }
+    },
+    {
+      "id": "lita-pa",
+      "sv": "lita på",
+      "translations": { "ru": "доверять", "en": "to trust" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lita", "present": "litar", "past": "litade", "supine": "litat" }
+    }
+  ]
+}

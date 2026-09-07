@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-peer-feedback-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "С чего лучше всего начать обратную связь на текст?", "en": "What's the best way to start feedback on a text?" },
+      "choices": [
+        { "ru": "С чего-то позитивного", "en": "With something positive" },
+        { "ru": "Сразу со списка ошибок", "en": "Straight with a list of mistakes" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-peer-feedback-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза формулирует критику как предложение?", "en": "Which phrase frames criticism as a suggestion?" },
+      "choices": ["ett förslag skulle kunna vara att", "vad menade du här?", "lyckas med"],
+      "answer": 0
+    },
+    {
+      "id": "q-peer-feedback-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «tydliggöra»?", "en": "What does \"tydliggöra\" mean?" },
+      "choices": ["прояснять / to clarify", "сокращать / to shorten", "критиковать / to criticize"],
+      "answer": 0
+    },
+    {
+      "id": "q-peer-feedback-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Зачем задавать уточняющий вопрос вместо прямой критики?", "en": "Why ask a clarifying question instead of direct criticism?" },
+      "choices": [
+        { "ru": "Он показывает, где текст непонятен читателю, не осуждая автора", "en": "It shows where the text is unclear to a reader, without judging the author" },
+        { "ru": "Он всегда быстрее, чем похвала", "en": "It is always faster than praise" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-peer-feedback-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag tycker att du ___ bra med att beskriva miljön. (lyckas)" },
+      "answer": ["lyckas"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-peer-feedback-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Ett ___ skulle kunna vara att korta ner den här meningen. (förslag)" },
+      "answer": ["förslag"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-peer-feedback-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Vad ___ du här? (menade)" },
+      "answer": ["menade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-peer-feedback-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Konstruktiv kritik» помогает автору улучшить текст, а не только указывает на ошибки.", "en": "\"Konstruktiv kritik\" helps the author improve the text rather than just pointing out mistakes." },
+      "answer": true
+    },
+    {
+      "id": "q-peer-feedback-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Svaghet» означает «сильная сторона».", "en": "\"Svaghet\" means \"strength\"." },
+      "answer": false,
+      "explanation": { "ru": "«Svaghet» значит «слабая сторона»; сильная сторона — это «styrka».", "en": "\"Svaghet\" means \"weakness\"; strength is \"styrka\"." }
+    },
+    {
+      "id": "q-peer-feedback-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Korta ner» значит «сократить».", "en": "\"Korta ner\" means \"to shorten\"." },
+      "answer": true
+    },
+    {
+      "id": "q-peer-feedback-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["styrka", "сильная сторона / strength"],
+        ["förbättringsförslag", "предложение по улучшению / suggestion for improvement"],
+        ["formulering", "формулировка / phrasing"],
+        ["konkret", "конкретный / concrete"]
+      ]
+    },
+    {
+      "id": "q-peer-feedback-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Одно предложение могло бы быть в том, чтобы сократить это предложение.»", "en": "Build the sentence: \"One suggestion could be to shorten this sentence.\"" },
+      "tokens": ["Ett", "förslag", "skulle", "kunna", "vara", "att", "korta", "ner", "den", "här", "meningen"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  ]
+}

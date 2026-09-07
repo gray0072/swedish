@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/literary-analysis-advanced",
+  "slug": "literary-analysis-advanced",
+  "title": {
+    "sv": "En skönlitterär text: tema, motiv, språklig stil",
+    "ru": "Анализ художественного текста: тема, мотив, язык",
+    "en": "Analysing a literary text: theme, motif, language"
+  },
+  "summary": {
+    "ru": "Более глубокая аналитическая лексика, чем в базовом «literary-text-analysis»: tema, motiv, symbolik, språklig stil, författarens syfte, tolkning.",
+    "en": "Deeper analytical vocabulary than the basic \"literary-text-analysis\": tema, motiv, symbolik, språklig stil, författarens syfte, tolkning."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "literature", "reading"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2070,
+  "prerequisites": ["sva-grund-3/literary-text-analysis"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

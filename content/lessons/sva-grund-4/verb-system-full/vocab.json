@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "id": "skriva-full",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Hon har skrivit tre böcker.", "ru": "Она написала (уже) три книги.", "en": "She has written three books." }
+    },
+    {
+      "id": "vara-full",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "note": { "ru": "От этого глагола образована редкая форма «vore» (см. ниже).", "en": "This verb gives the rare form \"vore\" (see below)." }
+    },
+    {
+      "id": "vore",
+      "sv": "vore",
+      "translations": { "ru": "был бы (сослагательное наклонение)", "en": "were/would be (subjunctive)" },
+      "pos": "verb",
+      "example": { "sv": "Om jag vore rik, skulle jag resa jorden runt.", "ru": "Если бы я был богат, я бы объехал весь мир.", "en": "If I were rich, I would travel around the world." },
+      "note": { "ru": "Застывшая форма сослагательного наклонения от «vara»; равнозначна «skulle vara».", "en": "A fossilised subjunctive form of \"vara\"; equivalent to \"skulle vara\"." }
+    },
+    {
+      "id": "hoppas-full",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." }
+    },
+    {
+      "id": "trivas",
+      "sv": "trivas",
+      "translations": { "ru": "чувствовать себя хорошо, уютно (где-то)", "en": "to feel at home, to enjoy being (somewhere)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "trivas", "present": "trivs", "past": "trivdes", "supine": "trivts" },
+      "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
+    },
+    {
+      "id": "minnas",
+      "sv": "minnas",
+      "translations": { "ru": "помнить", "en": "to remember" },
+      "pos": "verb",
+      "forms": { "infinitive": "minnas", "present": "minns", "past": "mindes", "supine": "mints" },
+      "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
+    },
+    {
+      "id": "lyckas",
+      "sv": "lyckas",
+      "translations": { "ru": "удаваться, преуспевать", "en": "to succeed, to manage to" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lyckas", "present": "lyckas", "past": "lyckades", "supine": "lyckats" },
+      "example": { "sv": "Vi lyckades hitta huset till slut.", "ru": "Нам в конце концов удалось найти дом.", "en": "We managed to find the house in the end." },
+      "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
+    },
+    {
+      "id": "andas",
+      "sv": "andas",
+      "translations": { "ru": "дышать", "en": "to breathe" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "andas", "present": "andas", "past": "andades", "supine": "andats" },
+      "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
+    },
+    {
+      "id": "kunna-full",
+      "sv": "kunna",
+      "translations": { "ru": "мочь, уметь", "en": "to be able to, can" },
+      "pos": "verb",
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "note": { "ru": "Модальный глагол.", "en": "A modal verb." }
+    },
+    {
+      "id": "vilja-full",
+      "sv": "vilja",
+      "translations": { "ru": "хотеть", "en": "to want to" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "note": { "ru": "Модальный глагол.", "en": "A modal verb." }
+    },
+    {
+      "id": "bora",
+      "sv": "böra",
+      "translations": { "ru": "следовало бы, надлежит", "en": "ought to, should" },
+      "pos": "verb",
+      "forms": { "infinitive": "böra", "present": "bör", "past": "borde", "supine": "bort" },
+      "note": { "ru": "Модальный глагол; супин «bort» встречается редко, в книжном стиле.", "en": "A modal verb; the supine \"bort\" is rare and bookish." }
+    },
+    {
+      "id": "maaste",
+      "sv": "måste",
+      "translations": { "ru": "должен, обязан", "en": "must, have to" },
+      "pos": "verb",
+      "note": { "ru": "Дефектный модальный глагол: одна и та же форма для настоящего и прошедшего времени, без инфинитива.", "en": "A defective modal verb: the same form serves present and past, with no infinitive." }
+    },
+    {
+      "id": "ska-full",
+      "sv": "ska",
+      "translations": { "ru": "должен (будущее/намерение)", "en": "shall, will, be going to" },
+      "pos": "verb",
+      "note": { "ru": "Дефектный модальный глагол; инфинитив «skola» практически не используется в современном языке.", "en": "A defective modal verb; the infinitive \"skola\" is almost never used in modern Swedish." }
+    },
+    {
+      "id": "particip",
+      "sv": "particip",
+      "translations": { "ru": "причастие", "en": "participle" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" }
+    },
+    {
+      "id": "tempus",
+      "sv": "tempus",
+      "translations": { "ru": "грамматическое время", "en": "(grammatical) tense" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "tempus", "defSg": "tempuset", "indefPl": "tempus", "defPl": "tempusen" }
+    },
+    {
+      "id": "futurum",
+      "sv": "futurum",
+      "translations": { "ru": "будущее время", "en": "future tense" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "futurum", "defSg": "futurumet", "indefPl": "futurum", "defPl": "futurumen" }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/kallkritik-assessment",
+  "slug": "kallkritik-assessment",
+  "title": {
+    "sv": "Referat och källkritik — att bedöma en källas tillförlitlighet",
+    "ru": "Referat и källkritik: оценка надёжности источника",
+    "en": "Referat and källkritik: assessing the reliability of a source"
+  },
+  "summary": {
+    "ru": "Четыре классических критерия källkritik — äkthet, tidssamband, beroende и tendens — и слово referat для нейтрального пересказа.",
+    "en": "The four classic källkritik criteria — äkthet, tidssamband, beroende and tendens — plus the word referat for a neutral summary."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "media-literacy",
+    "kallkritik",
+    "writing"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2040,
+  "prerequisites": [
+    "sva-grund-3/media-literacy"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

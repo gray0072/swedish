@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/complex-compounds",
+  "slug": "complex-compounds",
+  "title": {
+    "sv": "Ordbildning: komplexa sammansättningar och produktiva mönster",
+    "ru": "Словообразование: сложные композиты и продуктивные модели",
+    "en": "Word formation: complex compounds and productive patterns"
+  },
+  "summary": {
+    "ru": "Как разобрать длинное слово вроде arbetsmarknadspolitik: ищем главное существительное справа.",
+    "en": "How to break down a long word like arbetsmarknadspolitik: find the head noun on the right first."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "word-formation", "reading", "vocabulary"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1920,
+  "prerequisites": ["sva-grund-1/compound-words"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

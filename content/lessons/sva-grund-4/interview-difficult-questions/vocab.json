@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "beratta-om-ett-misstag",
+      "sv": "Berätta om ett misstag du gjort och vad du lärde dig.",
+      "translations": { "ru": "Расскажите об ошибке, которую вы совершили, и о том, чему вы научились.", "en": "Tell me about a mistake you made and what you learned from it." },
+      "pos": "phrase",
+      "example": { "sv": "Intervjuaren bad mig: Berätta om ett misstag du gjort och vad du lärde dig.", "ru": "Интервьюер попросил меня: «Расскажите об ошибке, которую вы совершили, и о том, чему вы научились».", "en": "The interviewer asked me: Tell me about a mistake you made and what you learned from it." }
+    },
+    {
+      "id": "misstag",
+      "sv": "misstag",
+      "translations": { "ru": "ошибка", "en": "mistake" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett misstag", "defSg": "misstaget", "indefPl": "misstag", "defPl": "misstagen" },
+      "example": { "sv": "Alla gör misstag ibland, det viktiga är hur man hanterar dem.", "ru": "Все иногда совершают ошибки, важно то, как ты с ними справляешься.", "en": "Everyone makes mistakes sometimes; what matters is how you handle them." }
+    },
+    {
+      "id": "lara-sig-av",
+      "sv": "lära sig av",
+      "translations": { "ru": "учиться на (ошибках, опыте)", "en": "to learn from" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "lära sig av", "present": "lär sig av", "past": "lärde sig av", "supine": "lärt sig av" },
+      "example": { "sv": "Jag lärde mig av misstaget och blev mer noggrann framöver.", "ru": "Я извлёк(ла) урок из ошибки и стал(а) более внимательным(ой) в дальнейшем.", "en": "I learned from the mistake and became more careful going forward." }
+    },
+    {
+      "id": "var-ser-du-dig-sjalv",
+      "sv": "Var ser du dig själv om fem år?",
+      "translations": { "ru": "Где вы видите себя через пять лет?", "en": "Where do you see yourself in five years?" },
+      "pos": "phrase",
+      "example": { "sv": "Rekryteraren frågade: Var ser du dig själv om fem år?", "ru": "Рекрутёр спросил: «Где вы видите себя через пять лет?»", "en": "The recruiter asked: Where do you see yourself in five years?" }
+    },
+    {
+      "id": "karriarmal",
+      "sv": "karriärmål",
+      "translations": { "ru": "карьерная цель", "en": "career goal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett karriärmål", "defSg": "karriärmålet", "indefPl": "karriärmål", "defPl": "karriärmålen" },
+      "example": { "sv": "Mitt karriärmål är att bli teamledare inom några år.", "ru": "Моя карьерная цель — стать руководителем команды через несколько лет.", "en": "My career goal is to become a team lead within a few years." }
+    },
+    {
+      "id": "varfor-blev-det-ett-glapp",
+      "sv": "Varför blev det ett glapp i ditt CV?",
+      "translations": { "ru": "Почему в вашем резюме образовался пробел?", "en": "Why is there a gap in your CV?" },
+      "pos": "phrase",
+      "example": { "sv": "Hon frågade rakt på sak: Varför blev det ett glapp i ditt CV?", "ru": "Она спросила прямо: «Почему в вашем резюме образовался пробел?»", "en": "She asked directly: Why is there a gap in your CV?" }
+    },
+    {
+      "id": "glapp",
+      "sv": "glapp",
+      "translations": { "ru": "пробел, разрыв (в резюме, в стаже)", "en": "gap (in a CV or timeline)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett glapp", "defSg": "glappet", "indefPl": "glapp", "defPl": "glappen" },
+      "example": { "sv": "Glappet i mitt CV berodde på föräldraledighet.", "ru": "Пробел в моём резюме был связан с декретным отпуском.", "en": "The gap in my CV was due to parental leave." }
+    },
+    {
+      "id": "karriarpaus",
+      "sv": "karriärpaus",
+      "translations": { "ru": "перерыв в карьере", "en": "career break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en karriärpaus", "defSg": "karriärpausen", "indefPl": "karriärpauser", "defPl": "karriärpauserna" },
+      "example": { "sv": "Jag tog en karriärpaus för att studera svenska på heltid.", "ru": "Я взял(а) перерыв в карьере, чтобы учить шведский на полной ставке.", "en": "I took a career break to study Swedish full time." }
+    },
+    {
+      "id": "beratta-om-en-konflikt",
+      "sv": "Berätta om en konflikt du haft på jobbet och hur du löste den.",
+      "translations": { "ru": "Расскажите о конфликте на работе и как вы его разрешили.", "en": "Tell me about a conflict you had at work and how you resolved it." },
+      "pos": "phrase",
+      "example": { "sv": "Intervjuaren ville veta: Berätta om en konflikt du haft på jobbet och hur du löste den.", "ru": "Интервьюер хотел узнать: «Расскажите о конфликте на работе и как вы его разрешили».", "en": "The interviewer wanted to know: Tell me about a conflict you had at work and how you resolved it." }
+    },
+    {
+      "id": "konflikt",
+      "sv": "konflikt",
+      "translations": { "ru": "конфликт", "en": "conflict" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en konflikt", "defSg": "konflikten", "indefPl": "konflikter", "defPl": "konflikterna" },
+      "example": { "sv": "Vi löste konflikten genom att prata öppet om problemet.", "ru": "Мы разрешили конфликт, открыто обсудив проблему.", "en": "We resolved the conflict by talking openly about the problem." }
+    },
+    {
+      "id": "hantera-kritik",
+      "sv": "hantera kritik",
+      "translations": { "ru": "справляться с критикой", "en": "to handle criticism" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hantera kritik", "present": "hanterar kritik", "past": "hanterade kritik", "supine": "hanterat kritik" },
+      "example": { "sv": "Jag har lärt mig att hantera kritik på ett konstruktivt sätt.", "ru": "Я научился(лась) конструктивно справляться с критикой.", "en": "I have learned to handle criticism constructively." }
+    },
+    {
+      "id": "vad-motiverar-dig",
+      "sv": "Vad motiverar dig i ditt arbete?",
+      "translations": { "ru": "Что вас мотивирует в работе?", "en": "What motivates you in your work?" },
+      "pos": "phrase",
+      "example": { "sv": "Han svarade tydligt på frågan: Vad motiverar dig i ditt arbete?", "ru": "Он чётко ответил на вопрос: «Что вас мотивирует в работе?»", "en": "He answered clearly to the question: What motivates you in your work?" }
+    },
+    {
+      "id": "hur-hanterar-du-stress",
+      "sv": "Hur hanterar du stress och press?",
+      "translations": { "ru": "Как вы справляетесь со стрессом и давлением?", "en": "How do you handle stress and pressure?" },
+      "pos": "phrase",
+      "example": { "sv": "En vanlig fråga är: Hur hanterar du stress och press?", "ru": "Частый вопрос: «Как вы справляетесь со стрессом и давлением?»", "en": "A common question is: How do you handle stress and pressure?" }
+    },
+    {
+      "id": "reflektera",
+      "sv": "reflektera",
+      "translations": { "ru": "размышлять, рефлексировать", "en": "to reflect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reflektera", "present": "reflekterar", "past": "reflekterade", "supine": "reflekterat" },
+      "example": { "sv": "Reflektera över dina svar innan intervjun så att du känner dig trygg.", "ru": "Обдумай свои ответы перед собеседованием, чтобы чувствовать себя увереннее.", "en": "Reflect on your answers before the interview so you feel confident." }
+    },
+    {
+      "id": "vandpunkt",
+      "sv": "vändpunkt",
+      "translations": { "ru": "поворотный момент", "en": "turning point" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vändpunkt", "defSg": "vändpunkten", "indefPl": "vändpunkter", "defPl": "vändpunkterna" },
+      "example": { "sv": "Det blev en vändpunkt i projektet när vi bytte strategi.", "ru": "Это стало поворотным моментом в проекте, когда мы сменили стратегию.", "en": "It became a turning point in the project when we changed strategy." }
+    }
+  ]
+}

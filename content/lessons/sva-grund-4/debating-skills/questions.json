@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-debating-skills-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза используется, чтобы заявить свою позицию в дебатах?", "en": "Which phrase is used to state your position in a debate?" },
+      "choices": ["jag intar ståndpunkten att...", "låt mig bemöta det argumentet", "det håller inte"],
+      "answer": 0
+    },
+    {
+      "id": "q-debating-skills-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «bemöta»?", "en": "What does \"bemöta\" mean?" },
+      "choices": [
+        { "ru": "отвечать на аргумент", "en": "to counter an argument" },
+        { "ru": "соглашаться", "en": "to agree" },
+        { "ru": "прерывать", "en": "to interrupt" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-debating-skills-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «motståndare»?", "en": "What does \"motståndare\" mean?" },
+      "choices": [
+        { "ru": "оппонент", "en": "opponent" },
+        { "ru": "аргумент", "en": "argument" },
+        { "ru": "довод", "en": "reason" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-debating-skills-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово значит «настаивать (на своём)»?", "en": "Which word means \"to maintain/stand by\"?" },
+      "choices": ["vidhålla", "hävda", "bemöta"],
+      "answer": 0
+    },
+    {
+      "id": "q-debating-skills-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В дебатах допустимо критиковать личность оппонента, а не его аргумент.", "en": "In a debate, it's acceptable to criticise the opponent's personality rather than their argument." },
+      "answer": false,
+      "explanation": { "ru": "Нужно критиковать аргумент, а не переходить на личности.", "en": "You should attack the argument, not the person." }
+    },
+    {
+      "id": "q-debating-skills-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Ett tungt vägande skäl» означает слабый, неубедительный довод.", "en": "\"Ett tungt vägande skäl\" means a weak, unconvincing reason." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот, это веский, серьёзный довод.", "en": "On the contrary, it means a weighty, serious reason." }
+    },
+    {
+      "id": "q-debating-skills-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Min ___ hävdar att X, men jag menar att... (motståndare)" },
+      "answer": ["motståndare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-debating-skills-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Sammanfattningsvis ___ jag min ståndpunkt. (vidhåller)" },
+      "answer": ["vidhåller"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-debating-skills-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Позвольте мне ответить на этот аргумент.»", "en": "Build the sentence: \"Let me answer that argument.\"" },
+      "tokens": ["Låt", "mig", "bemöta", "det", "argumentet"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-debating-skills-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с её функцией", "en": "Match the phrase with its function" },
+      "pairs": [
+        ["jag intar ståndpunkten att", "заявить позицию / stating a position"],
+        ["min motståndare hävdar", "ответ оппоненту / answering an opponent"],
+        ["ett tungt vägande skäl", "аргумент / an argument"],
+        ["sammanfattningsvis vidhåller jag", "заключение / concluding"]
+      ]
+    },
+    {
+      "id": "q-debating-skills-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «motargument»?", "en": "What does \"motargument\" mean?" },
+      "choices": ["контраргумент / counterargument", "победа / win", "позиция / position"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/payslip-walkthrough",
+  "slug": "payslip-walkthrough",
+  "title": {
+    "sv": "Anställningsavtalet och lönespecifikationen — en detaljerad genomgång",
+    "ru": "Трудовой договор и расчётный листок — детальный разбор",
+    "en": "The employment contract and the payslip — a detailed walkthrough"
+  },
+  "summary": {
+    "ru": "Слова для чтения расчётного листка: брутто- и нетто-зарплата, удержанный налог, трудовая пенсия и отпускные.",
+    "en": "Vocabulary for reading a payslip: gross and net salary, tax withheld, occupational pension and holiday pay."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "work",
+    "salary",
+    "taxes"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2000,
+  "prerequisites": [
+    "sva-grund-2/employment-contract-rights"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

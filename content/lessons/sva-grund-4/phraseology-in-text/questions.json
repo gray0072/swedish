@@ -1,0 +1,122 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-phraseology-in-text-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что значит «dra nytta av»?", "en": "What does \"dra nytta av\" mean?" },
+      "choices": [
+        { "ru": "извлекать пользу из", "en": "to benefit from" },
+        { "ru": "отказываться от", "en": "to give up on" },
+        { "ru": "бояться (чего-то)", "en": "to be afraid of" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-phraseology-in-text-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что значит «sätta fingret på ett problem»?", "en": "What does \"sätta fingret på ett problem\" mean?" },
+      "choices": [
+        { "ru": "точно указать на проблему", "en": "to pinpoint the problem" },
+        { "ru": "игнорировать проблему", "en": "to ignore the problem" },
+        { "ru": "преувеличить проблему", "en": "to exaggerate the problem" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-phraseology-in-text-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем эта фразеология отличается от ярких идиом delkurs 3 (например, «ha en skruv lös»)?", "en": "How does this phraseology differ from the vivid idioms of delkurs 3 (e.g. \"ha en skruv lös\")?" },
+      "choices": [
+        { "ru": "Она менее образная и естественно вплетается в аргументацию", "en": "It's less image-rich and blends naturally into argumentation" },
+        { "ru": "Она используется только в разговорной речи", "en": "It's used only in spoken language" },
+        { "ru": "Никакой разницы нет", "en": "There is no difference at all" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-phraseology-in-text-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как перевести «Många lägger stor vikt vid att kunna arbeta hemifrån»?", "en": "How do you translate \"Många lägger stor vikt vid att kunna arbeta hemifrån\"?" },
+      "choices": [
+        { "ru": "Многие придают большое значение возможности работать из дома", "en": "Many people attach great importance to being able to work from home" },
+        { "ru": "Многие боятся работать из дома", "en": "Many people are afraid of working from home" },
+        { "ru": "Немногие хотят работать из дома", "en": "Few people want to work from home" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-phraseology-in-text-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Det är ett steg i rätt ___, men mer behöver göras. (riktning)" },
+      "answer": ["riktning"]
+    },
+    {
+      "id": "q-phraseology-in-text-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Regeringen bör ta ___ till forskarnas varningar. (hänsyn)" },
+      "answer": ["hänsyn"]
+    },
+    {
+      "id": "q-phraseology-in-text-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Artikeln sätter ___ på ett verkligt problem. (fingret)" },
+      "answer": ["fingret"]
+    },
+    {
+      "id": "q-phraseology-in-text-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Utbildning kan hjälpa människor att dra ___ av nya möjligheter. (nytta)" },
+      "answer": ["nytta"]
+    },
+    {
+      "id": "q-phraseology-in-text-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Sätta fingret på» можно понять дословно по частям, без знания устойчивого выражения.", "en": "\"Sätta fingret på\" can be understood word for word, without knowing it as a fixed phrase." },
+      "answer": false,
+      "explanation": { "ru": "Как и другие фразеологизмы, это выражение нужно учить целиком.", "en": "Like other phraseology, this expression must be learned as a whole unit." }
+    },
+    {
+      "id": "q-phraseology-in-text-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Такая фразеология типична для аргументированных текстов и эссе.", "en": "This kind of phraseology is typical of argumentative texts and essays." },
+      "answer": true
+    },
+    {
+      "id": "q-phraseology-in-text-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ett steg i rätt riktning» звучит более «по-взрослому», чем простое «det är bra».", "en": "\"Ett steg i rätt riktning\" sounds more \"grown-up\" than a plain \"det är bra\"." },
+      "answer": true
+    },
+    {
+      "id": "q-phraseology-in-text-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это шаг в правильном направлении, но нужно сделать больше.»", "en": "Build the sentence: \"It's a step in the right direction, but more needs to be done.\"" },
+      "tokens": ["Det", "är", "ett", "steg", "i", "rätt", "riktning,", "men", "mer", "behöver", "göras"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    },
+    {
+      "id": "q-phraseology-in-text-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразеологизм с его значением", "en": "Match the phrase with its meaning" },
+      "pairs": [
+        ["dra nytta av", "извлекать пользу из / to benefit from"],
+        ["sätta fingret på", "точно указать на / to pinpoint"],
+        ["ta hänsyn till", "принимать во внимание / to take into account"],
+        ["lägga vikt vid", "придавать значение / to attach importance to"]
+      ]
+    }
+  ]
+}

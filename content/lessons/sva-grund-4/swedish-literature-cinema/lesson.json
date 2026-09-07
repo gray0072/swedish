@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/swedish-literature-cinema",
+  "slug": "swedish-literature-cinema",
+  "title": {
+    "sv": "Svensk litteratur och film — att kunna samtala om",
+    "ru": "Шведская литература и кино — обзор для разговора",
+    "en": "Swedish literature and cinema — an overview to talk about"
+  },
+  "summary": {
+    "ru": "Лексика для разговора о известных шведских писателях и режиссёрах в общих чертах: nobelpristagare, klassiker, filmatisering, regissör, samtidslitteratur.",
+    "en": "Vocabulary for discussing well-known Swedish authors and filmmakers in general terms: nobelpristagare, klassiker, filmatisering, regissör, samtidslitteratur."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "culture", "literature"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2080,
+  "prerequisites": ["sva-grund-3/poetry-song-imagery"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

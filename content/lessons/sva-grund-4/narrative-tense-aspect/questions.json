@@ -1,0 +1,125 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-narrative-tense-aspect-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое «historiskt presens»?", "en": "What is \"historiskt presens\"?" },
+      "choices": [
+        { "ru": "Рассказ о прошлом в форме презенса, для живости", "en": "Narrating the past using the present tense, for vividness" },
+        { "ru": "Отдельное время для будущего", "en": "A separate tense for the future" },
+        { "ru": "Ошибка начинающих учащихся", "en": "A mistake made by beginner learners" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-narrative-tense-aspect-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det är år 1863. Kungen reser till huvudstaden.» — как читатель понимает, что речь о прошлом?", "en": "\"Det är år 1863. Kungen reser till huvudstaden.\" — how does the reader know this is about the past?" },
+      "choices": [
+        { "ru": "По контексту (дата, обстановка), а не по грамматическому времени", "en": "From context (the date, setting), not from the grammatical tense" },
+        { "ru": "По форме глагола reser", "en": "From the verb form reser" },
+        { "ru": "Это невозможно понять", "en": "It's impossible to tell" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-narrative-tense-aspect-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Зачем автор может переключаться с претерита на историческое настоящее в кульминационный момент?", "en": "Why might a writer switch from the preterite to the historical present at the climactic moment?" },
+      "choices": [
+        { "ru": "Чтобы подчеркнуть внезапность, «как будто на глазах читателя»", "en": "To emphasise suddenness, \"as if before the reader's eyes\"" },
+        { "ru": "Потому что претерит неправильный", "en": "Because the preterite is incorrect there" },
+        { "ru": "Это случайная описка", "en": "It's an accidental typo" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-narrative-tense-aspect-mc-4",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое предложение — пример исторического настоящего?", "en": "Which sentence is an example of the historical present?" },
+      "choices": ["Kungen reste till huvudstaden 1863.", "Året är 1863. Kungen reser till huvudstaden.", "Kungen hade rest till huvudstaden innan han möttes av folket."],
+      "answer": 1
+    },
+    {
+      "id": "q-narrative-tense-aspect-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Han gick länge i skogen. Plötsligt ___ han ett ljud bakom sig. (презенс от höra)" },
+      "answer": ["hör"]
+    },
+    {
+      "id": "q-narrative-tense-aspect-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Det ___ år 1863. Kungen reser till huvudstaden. (презенс от vara)" },
+      "answer": ["är"]
+    },
+    {
+      "id": "q-narrative-tense-aspect-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Kungen ___ till huvudstaden 1863 och möttes av jublande folkmassor. (претерит от resa)" },
+      "answer": ["reste"]
+    },
+    {
+      "id": "q-narrative-tense-aspect-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Историческое настоящее меняет фактическое значение — событие на самом деле происходит сейчас.", "en": "The historical present changes the actual meaning — the event is really happening now." },
+      "answer": false,
+      "explanation": { "ru": "Сдвиг чисто стилистический: факт остаётся в прошлом, меняется только форма подачи.", "en": "The shift is purely stylistic: the fact stays in the past, only the presentation changes." }
+    },
+    {
+      "id": "q-narrative-tense-aspect-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Историческое настоящее часто встречается в художественной литературе и устных рассказах.", "en": "The historical present is common in literary fiction and oral storytelling." },
+      "answer": true
+    },
+    {
+      "id": "q-narrative-tense-aspect-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В одном и том же отрывке нельзя сочетать претерит и историческое настоящее.", "en": "The preterite and the historical present cannot be combined within the same passage." },
+      "answer": false,
+      "explanation": { "ru": "Можно и даже приветствуется: фон — в претерите, кульминация — в историческом настоящем.", "en": "They can be combined, and it's even a common technique: background in the preterite, climax in the historical present." }
+    },
+    {
+      "id": "q-narrative-tense-aspect-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Он долго шёл по лесу. Вдруг он слышит звук позади себя.»", "en": "Build the sentence: \"He walked in the forest for a long time. Suddenly he hears a sound behind him.\"" },
+      "tokens": ["Han", "gick", "länge", "i", "skogen.", "Plötsligt", "hör", "han", "ett", "ljud", "bakom", "sig"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "id": "q-narrative-tense-aspect-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму времени с её ролью в повествовании", "en": "Match the tense form with its narrative role" },
+      "pairs": [
+        ["Preteritum", "основная линия событий / main storyline"],
+        ["Pluskvamperfekt", "отступление к более раннему событию / step back to an earlier event"],
+        ["Historiskt presens", "живость, эффект «здесь и сейчас» / vividness, \"here and now\" effect"]
+      ]
+    },
+    {
+      "id": "q-narrative-tense-aspect-mc-5",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Историческое настоящее чаще встречается в...", "en": "The historical present is more often found in..." },
+      "choices": [
+        { "ru": "художественном тексте и живом рассказе", "en": "literary text and lively storytelling" },
+        { "ru": "юридических договорах", "en": "legal contracts" },
+        { "ru": "таблицах и списках", "en": "tables and lists" }
+      ],
+      "answer": 0
+    }
+  ]
+}

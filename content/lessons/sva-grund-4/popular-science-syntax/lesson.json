@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/popular-science-syntax",
+  "slug": "popular-science-syntax",
+  "title": {
+    "sv": "Syntax i populärvetenskaplig och myndighetstext",
+    "ru": "Синтаксис научно-популярного и официального текста",
+    "en": "The syntax of popular-science and official text"
+  },
+  "summary": {
+    "ru": "Одна тема, два жанра: научпоп объясняет простыми словами, ведомство остаётся максимально безличным.",
+    "en": "One topic, two genres: popular science explains in plain words, officialese stays maximally impersonal."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "nominalisation",
+    "style",
+    "register",
+    "genre"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1810,
+  "prerequisites": [
+    "sva-grund-4/nominalisation-academic-business"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

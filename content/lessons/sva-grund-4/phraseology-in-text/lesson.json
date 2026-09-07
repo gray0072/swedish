@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/phraseology-in-text",
+  "slug": "phraseology-in-text",
+  "title": {
+    "sv": "Idiom, metaforer och fraseologi i löpande text",
+    "ru": "Идиомы, метафоры и фразеология в тексте",
+    "en": "Idioms, metaphors and phraseology in a text"
+  },
+  "summary": {
+    "ru": "«Dra nytta av», «sätta fingret på», «ett steg i rätt riktning» — устойчивые обороты для сочинений и аргументации.",
+    "en": "\"Dra nytta av\", \"sätta fingret på\", \"ett steg i rätt riktning\" — the fixed phrases of essays and argumentation."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "vocabulary", "style", "idioms"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1930,
+  "prerequisites": ["sva-grund-3/idioms-metaphors"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/argumentative-essay-full",
+  "slug": "argumentative-essay-full",
+  "title": {
+    "sv": "Den argumenterande texten — den fullständiga strukturen",
+    "ru": "Аргументативное эссе: полная структура",
+    "en": "The argumentative essay: the full structure"
+  },
+  "summary": {
+    "ru": "Слова и фразы для полной структуры эссе: крючок и тезис во введении, доказательства и анализ в абзацах, контраргумент и сильное заключение.",
+    "en": "Vocabulary and phrases for the full essay structure: a hook and thesis in the introduction, evidence and analysis in body paragraphs, a counter-argument and a strong conclusion."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "writing",
+    "essay",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2020,
+  "prerequisites": [
+    "sva-grund-3/argumentative-counter-argument"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/formal-text-layout",
+  "slug": "formal-text-layout",
+  "title": {
+    "sv": "Interpunktion och layout i en formell text",
+    "ru": "Пунктуация и оформление формального текста",
+    "en": "Punctuation and the layout of a formal text"
+  },
+  "summary": {
+    "ru": "Заголовки, абзацы, списки в связном тексте — визуальные правила формального документа.",
+    "en": "Headings, paragraphs, and lists in running prose — the visual rules of a formal document."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "writing", "punctuation", "formal"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1940,
+  "prerequisites": ["sva-grund-3/advanced-punctuation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

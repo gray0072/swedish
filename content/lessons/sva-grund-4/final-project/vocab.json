@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "id": "slutprojekt",
+      "sv": "slutprojekt",
+      "translations": { "ru": "итоговый проект", "en": "final project" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett slutprojekt", "defSg": "slutprojektet", "indefPl": "slutprojekt", "defPl": "slutprojekten" }
+    },
+    {
+      "id": "sjalvstandigt-arbete",
+      "sv": "självständigt arbete",
+      "translations": { "ru": "самостоятельная работа", "en": "independent work" },
+      "pos": "phrase"
+    },
+    {
+      "id": "undersoka",
+      "sv": "undersöka",
+      "translations": { "ru": "исследовать", "en": "to investigate" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" },
+      "example": { "sv": "I mitt arbete har jag undersökt hur unga vuxna i Sverige ser på distansarbete.", "ru": "В своей работе я исследовал(а), как молодые взрослые в Швеции относятся к удалённой работе.", "en": "In my project, I've investigated how young adults in Sweden view remote work." }
+    },
+    {
+      "id": "amne-final",
+      "sv": "ämne",
+      "translations": { "ru": "тема, предмет", "en": "topic, subject" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ämne", "defSg": "ämnet", "indefPl": "ämnen", "defPl": "ämnena" },
+      "example": { "sv": "Jag valde det här ämnet eftersom det känns aktuellt.", "ru": "Я выбрал(а) эту тему, потому что она кажется актуальной.", "en": "I chose this topic because it feels current." }
+    },
+    {
+      "id": "valja",
+      "sv": "välja",
+      "translations": { "ru": "выбирать", "en": "to choose" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "välja", "present": "väljer", "past": "valde", "supine": "valt" }
+    },
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "потому что, так как", "en": "because, since" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "engagera",
+      "sv": "engagera",
+      "translations": { "ru": "увлекать, вовлекать", "en": "to engage" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "engagera", "present": "engagerar", "past": "engagerade", "supine": "engagerat" }
+    },
+    {
+      "id": "metod",
+      "sv": "metod",
+      "translations": { "ru": "метод", "en": "method" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en metod", "defSg": "metoden", "indefPl": "metoder", "defPl": "metoderna" }
+    },
+    {
+      "id": "slutsats",
+      "sv": "slutsats",
+      "translations": { "ru": "вывод", "en": "conclusion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+    },
+    {
+      "id": "dra-slutsatser",
+      "sv": "dra slutsatser",
+      "translations": { "ru": "делать выводы", "en": "to draw conclusions" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sammanfatta",
+      "sv": "sammanfatta",
+      "translations": { "ru": "подводить итог, резюмировать", "en": "to summarize" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Sammanfattningsvis har jag lärt mig mycket av mitt arbete.", "ru": "Подводя итог, я многому научился благодаря своей работе.", "en": "To sum up, I've learned a lot from my project." }
+    },
+    {
+      "id": "muntlig-presentation",
+      "sv": "muntlig presentation",
+      "translations": { "ru": "устная презентация", "en": "oral presentation" },
+      "pos": "phrase"
+    },
+    {
+      "id": "forsvara",
+      "sv": "försvara",
+      "translations": { "ru": "защищать", "en": "to defend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "försvara", "present": "försvarar", "past": "försvarade", "supine": "försvarat" }
+    },
+    {
+      "id": "forsvara-sitt-arbete",
+      "sv": "försvara sitt arbete",
+      "translations": { "ru": "защищать свою работу", "en": "to defend one's work" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska försvara mitt arbete muntligt inför klassen.", "ru": "Я буду устно защищать свою работу перед классом.", "en": "I will defend my work orally in front of the class." }
+    },
+    {
+      "id": "disposition",
+      "sv": "disposition",
+      "translations": { "ru": "структура, план работы", "en": "outline, structure" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en disposition", "defSg": "dispositionen", "indefPl": "dispositioner", "defPl": "dispositionerna" }
+    },
+    {
+      "id": "om-jag-skulle-gora-om-det",
+      "sv": "om jag skulle göra om det",
+      "translations": { "ru": "если бы я делал(а) это заново", "en": "if I were to do it again" },
+      "pos": "phrase",
+      "example": { "sv": "Om jag skulle göra om det skulle jag intervjua fler personer.", "ru": "Если бы я делал(а) это заново, я бы опросил(а) больше людей.", "en": "If I were to do it again, I would interview more people." }
+    },
+    {
+      "id": "reflektera",
+      "sv": "reflektera",
+      "translations": { "ru": "размышлять, рефлексировать", "en": "to reflect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reflektera", "present": "reflekterar", "past": "reflekterade", "supine": "reflekterat" }
+    },
+    {
+      "id": "avslutningsvis",
+      "sv": "avslutningsvis",
+      "translations": { "ru": "в заключение, наконец", "en": "in conclusion, finally" },
+      "pos": "adv"
+    }
+  ]
+}

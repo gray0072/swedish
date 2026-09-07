@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-instructional-text-advanced-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза означает «столкнуться с проблемой»?", "en": "Which phrase means \"to encounter a problem\"?" },
+      "choices": ["stöta på (ett problem)", "se till att", "fylla i"],
+      "answer": 0
+    },
+    {
+      "id": "q-instructional-text-advanced-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «se till att»?", "en": "What does \"se till att\" mean?" },
+      "choices": ["проследить за тем, чтобы / to make sure that", "заполнить / to fill in", "войти в систему / to log in"],
+      "answer": 0
+    },
+    {
+      "id": "q-instructional-text-advanced-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Чем обычно завершается инструктивный текст?", "en": "How does an instructional text usually end?" },
+      "choices": [
+        { "ru": "Проверкой перед тем, как продолжить или закрыть процесс", "en": "A check before continuing or closing the process" },
+        { "ru": "Новым, не связанным с темой вопросом", "en": "An unrelated question" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-instructional-text-advanced-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово значит «сотрудник, ведущий дело»?", "en": "Which word means \"caseworker\"?" },
+      "choices": ["handläggare", "blankett", "bekräftelse"],
+      "answer": 0
+    },
+    {
+      "id": "q-instructional-text-advanced-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Det första ___ är att logga in med ditt personnummer. (steget)" },
+      "answer": ["steget"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-instructional-text-advanced-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ att alla uppgifter stämmer innan du fortsätter. (Kontrollera)" },
+      "answer": ["Kontrollera"],
+      "acceptAlso": ["kontrollera"]
+    },
+    {
+      "id": "q-instructional-text-advanced-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Nästa steg är att ___ blanketten noggrant. (fylla i → fylla)" },
+      "answer": ["fylla"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-instructional-text-advanced-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Условное предложение с «om» используется, чтобы заранее ответить на возможные проблемы читателя.", "en": "A conditional clause with \"om\" is used to answer the reader's likely problems in advance." },
+      "answer": true
+    },
+    {
+      "id": "q-instructional-text-advanced-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Инструктивный текст из этого урока — это рецепт блюда.", "en": "The instructional text in this lesson is a recipe." },
+      "answer": false,
+      "explanation": { "ru": "Это руководство для читателя (например, заполнение заявления), а не рецепт.", "en": "It is a guide for a reader (for example, filling in an application), not a recipe." }
+    },
+    {
+      "id": "q-instructional-text-advanced-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Ladda om» значит «перезагрузить».", "en": "\"Ladda om\" means \"to reload\"." },
+      "answer": true
+    },
+    {
+      "id": "q-instructional-text-advanced-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["skicka in", "отправить, подать / to submit"],
+        ["fylla i", "заполнить / to fill in"],
+        ["logga in", "войти в систему / to log in"],
+        ["fortsätta", "продолжать / to continue"]
+      ]
+    },
+    {
+      "id": "q-instructional-text-advanced-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Убедитесь, что подтверждение пришло, прежде чем закрыть страницу.»", "en": "Build the sentence: \"Make sure a confirmation has arrived before you close the page.\"" },
+      "tokens": ["Se", "till", "att", "en", "bekräftelse", "har", "kommit", "innan", "du", "stänger", "sidan"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  ]
+}

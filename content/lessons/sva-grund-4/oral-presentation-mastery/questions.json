@@ -1,0 +1,158 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-oral-presentation-mastery-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я постараюсь уложиться во времени.»", "en": "Build the sentence: \"I will try to stick to the time.\"" },
+      "tokens": ["hålla mig", "Jag ska försöka", "till tiden."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-oral-presentation-mastery-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Держи зрительный контакт с разными частями аудитории.»", "en": "Build the sentence: \"Keep eye contact with different parts of the audience.\"" },
+      "tokens": ["Håll", "med olika delar av publiken.", "ögonkontakt"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-oral-presentation-mastery-order-3",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сделай паузу перед важным моментом.»", "en": "Build the sentence: \"Make a pause before the important point.\"" },
+      "tokens": ["en paus", "Gör", "innan den viktiga poängen."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-oral-presentation-mastery-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["ögonkontakt", "зрительный контакт"],
+        ["tempo", "темп"],
+        ["paus", "пауза"],
+        ["publikkontakt", "контакт с аудиторией"]
+      ]
+    },
+    {
+      "id": "q-oral-presentation-mastery-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["engagera", "вовлекать"],
+        ["improvisera", "импровизировать"],
+        ["avrunda", "завершать (презентацию)"],
+        ["retorisk fråga", "риторический вопрос"]
+      ]
+    },
+    {
+      "id": "q-oral-presentation-mastery-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Риторический вопрос обычно требует, чтобы аудитория ответила вслух.", "en": "A rhetorical question usually requires the audience to answer out loud." },
+      "answer": false,
+      "explanation": {
+        "ru": "Риторический вопрос задают, чтобы заставить задуматься, а не чтобы получить ответ вслух.",
+        "en": "A rhetorical question is asked to make people think, not to get a spoken answer."
+      }
+    },
+    {
+      "id": "q-oral-presentation-mastery-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "На сложный вопрос лучше честно признать сложность и всё равно попытаться ответить.", "en": "For a difficult question, it is best to honestly acknowledge the difficulty and still attempt an answer." },
+      "answer": true
+    },
+    {
+      "id": "q-oral-presentation-mastery-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Пауза перед важным моментом всегда мешает восприятию речи.", "en": "A pause before an important point always hurts how the speech is received." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот, короткая пауза перед важным моментом помогает подчеркнуть мысль.",
+        "en": "On the contrary, a short pause before an important point helps to emphasise it."
+      }
+    },
+    {
+      "id": "q-oral-presentation-mastery-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Соблюдать регламент по времени во время презентации — это неуважение к аудитории.", "en": "Sticking to the time limit during a presentation is disrespectful to the audience." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот, соблюдение регламента показывает уважение к слушателям.",
+        "en": "On the contrary, sticking to the time limit shows respect for the audience."
+      }
+    },
+    {
+      "id": "q-oral-presentation-mastery-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag försöker ___ istället för att bara läsa mina anteckningar. (поддерживать зрительный контакт)" },
+      "answer": ["hålla ögonkontakt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-oral-presentation-mastery-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ presentationen med en kort sammanfattning. (заверши, подведи итог)" },
+      "answer": ["Avrunda"],
+      "acceptAlso": ["avrunda"]
+    },
+    {
+      "id": "q-oral-presentation-mastery-gap-3",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är en bra fråga som jag inte har ett enkelt svar ___. (на который)" },
+      "answer": ["på"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-oral-presentation-mastery-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что лучше всего ответить на неожиданно сложный вопрос из аудитории?",
+        "en": "What is the best way to respond to an unexpectedly hard question from the audience?"
+      },
+      "choices": ["Det är en bra fråga som jag inte har ett enkelt svar på, men...", "Jag vet inte, nästa fråga.", "Den frågan är dum.", "Ignorera frågan helt."],
+      "answer": 0
+    },
+    {
+      "id": "q-oral-presentation-mastery-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «темп речи»?",
+        "en": "Which word means \"pace of speech\"?"
+      },
+      "choices": ["tempo", "paus", "ögonkontakt", "publikkontakt"],
+      "answer": 0
+    },
+    {
+      "id": "q-oral-presentation-mastery-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Зачем нужен риторический вопрос в начале презентации?",
+        "en": "Why use a rhetorical question at the start of a presentation?"
+      },
+      "choices": ["чтобы вовлечь аудиторию и заставить её задуматься", "чтобы проверить знания аудитории", "чтобы заполнить время презентации", "чтобы завершить выступление"],
+      "answer": 0
+    }
+  ]
+}

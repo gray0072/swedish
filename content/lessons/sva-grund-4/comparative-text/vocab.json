@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": "system",
+      "sv": "system",
+      "translations": { "ru": "система", "en": "system" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett system", "defSg": "systemet", "indefPl": "system", "defPl": "systemen" }
+    },
+    {
+      "id": "skillnad-comp",
+      "sv": "skillnad",
+      "translations": { "ru": "различие", "en": "difference" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skillnad", "defSg": "skillnaden", "indefPl": "skillnader", "defPl": "skillnaderna" },
+      "example": { "sv": "Den största skillnaden ligger i hur mycket valfrihet eleverna har.", "ru": "Главное различие заключается в том, сколько свободы выбора есть у учеников.", "en": "The main difference lies in how much freedom of choice the students have." }
+    },
+    {
+      "id": "likhet",
+      "sv": "likhet",
+      "translations": { "ru": "сходство", "en": "similarity" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" }
+    },
+    {
+      "id": "jamfora",
+      "sv": "jämföra",
+      "translations": { "ru": "сравнивать", "en": "to compare" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "jämföra", "present": "jämför", "past": "jämförde", "supine": "jämfört" },
+      "example": { "sv": "Syftet med den här texten är att jämföra det svenska skolsystemet med skolsystemet i mitt hemland.", "ru": "Цель этого текста — сравнить шведскую школьную систему со школьной системой на моей родине.", "en": "The purpose of this text is to compare the Swedish school system with the school system in my home country." }
+    },
+    {
+      "id": "syfte-comp",
+      "sv": "syfte",
+      "translations": { "ru": "цель, назначение", "en": "purpose" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett syfte", "defSg": "syftet", "indefPl": "syften", "defPl": "syftena" }
+    },
+    {
+      "id": "bygga-pa",
+      "sv": "bygga på",
+      "translations": { "ru": "основываться на, строиться на", "en": "to be built on, based on" },
+      "pos": "phrase",
+      "example": { "sv": "Det ena systemet bygger på tio års obligatorisk skolgång.", "ru": "Одна система основана на десяти годах обязательного обучения.", "en": "One system is based on ten years of compulsory schooling." }
+    },
+    {
+      "id": "vara-baserad-pa",
+      "sv": "vara baserad på",
+      "translations": { "ru": "быть основанным на", "en": "to be based on" },
+      "pos": "phrase",
+      "example": { "sv": "Det andra systemet är baserat på en kortare grundutbildning.", "ru": "Другая система базируется на более короткой базовой подготовке.", "en": "The other system is based on a shorter basic education." }
+    },
+    {
+      "id": "den-storsta-skillnaden-ligger-i",
+      "sv": "den största skillnaden ligger i",
+      "translations": { "ru": "главное различие заключается в", "en": "the main difference lies in" },
+      "pos": "phrase"
+    },
+    {
+      "id": "bada",
+      "sv": "båda",
+      "translations": { "ru": "оба, обе", "en": "both" },
+      "pos": "pron",
+      "example": { "sv": "Båda systemen har sina för- och nackdelar.", "ru": "У обеих систем есть свои плюсы и минусы.", "en": "Both systems have their advantages and disadvantages." }
+    },
+    {
+      "id": "for-och-nackdelar",
+      "sv": "för- och nackdelar",
+      "translations": { "ru": "плюсы и минусы", "en": "advantages and disadvantages" },
+      "pos": "phrase",
+      "note": { "ru": "Сокращение от fördelar och nackdelar.", "en": "A shorthand for fördelar och nackdelar." }
+    },
+    {
+      "id": "a-ena-sidan-a-andra-sidan",
+      "sv": "å ena sidan ... å andra sidan",
+      "translations": { "ru": "с одной стороны ... с другой стороны", "en": "on the one hand ... on the other hand" },
+      "pos": "phrase",
+      "example": { "sv": "Å ena sidan är klasserna större i mitt hemland, å andra sidan har lärarna där mer tid för varje ämne.", "ru": "С одной стороны, классы на моей родине больше, с другой стороны, у учителей там больше времени на каждый предмет.", "en": "On the one hand, classes are bigger in my home country; on the other hand, teachers there have more time for each subject." }
+    },
+    {
+      "id": "till-skillnad-fran",
+      "sv": "till skillnad från",
+      "translations": { "ru": "в отличие от", "en": "unlike, in contrast to" },
+      "pos": "phrase"
+    },
+    {
+      "id": "gemensamt-for-bada",
+      "sv": "gemensamt för båda är att",
+      "translations": { "ru": "общее для обеих систем то, что", "en": "what both have in common is that" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sammanfattningsvis-comp",
+      "sv": "sammanfattningsvis",
+      "translations": { "ru": "подводя итог", "en": "to sum up" },
+      "pos": "adv",
+      "example": { "sv": "Sammanfattningsvis liknar systemen varandra mer än man kan tro.", "ru": "Подводя итог, системы больше похожи друг на друга, чем можно подумать.", "en": "To sum up, the systems resemble each other more than one might think." }
+    },
+    {
+      "id": "valfrihet",
+      "sv": "valfrihet",
+      "translations": { "ru": "свобода выбора", "en": "freedom of choice" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "obligatorisk",
+      "sv": "obligatorisk",
+      "translations": { "ru": "обязательный", "en": "compulsory, mandatory" },
+      "pos": "adj",
+      "example": { "sv": "Grundskolan är obligatorisk i Sverige.", "ru": "Основная школа в Швеции обязательна.", "en": "Compulsory school is mandatory in Sweden." }
+    },
+    {
+      "id": "perfekt",
+      "sv": "perfekt",
+      "translations": { "ru": "идеальный, совершенный", "en": "perfect" },
+      "pos": "adj"
+    },
+    {
+      "id": "skolgang",
+      "sv": "skolgång",
+      "translations": { "ru": "обучение в школе, посещение школы", "en": "schooling" },
+      "pos": "noun",
+      "gender": "en"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sva-grund-4/cv-portfolio-final",
+  "slug": "cv-portfolio-final",
+  "title": {
+    "sv": "CV, personligt brev och portfolio — den slutgiltiga versionen",
+    "ru": "Резюме, сопроводительное письмо, портфолио — финальная версия",
+    "en": "CV, cover letter, portfolio — the final version"
+  },
+  "summary": {
+    "ru": "Более зрелые фразы для сопроводительного письма и слова для портфолио с примерами работ.",
+    "en": "More mature phrases for a cover letter and vocabulary for a portfolio of work samples."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "work",
+    "cv",
+    "portfolio",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1980,
+  "prerequisites": [
+    "sva-grund-2/job-application-cv"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

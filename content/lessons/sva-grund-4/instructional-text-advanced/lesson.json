@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/instructional-text-advanced",
+  "slug": "instructional-text-advanced",
+  "title": {
+    "sv": "Instruerande text: förklara en process för läsaren",
+    "ru": "Инструктивный текст: как объяснить процесс читателю",
+    "en": "An instructional text: explaining a process to the reader"
+  },
+  "summary": {
+    "ru": "Полноценный инструктивный текст для читателя (не рецепт): чёткие шаг-маркеры, предугадывание вопросов читателя и финальная проверка перед завершением.",
+    "en": "A full instructional text for a reader (not a recipe): clear step markers, anticipating the reader's questions, and a closing check before finishing."
+  },
+  "kind": "phrases",
+  "levels": ["sva-grund-4"],
+  "tags": ["phrases", "writing", "instructions"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2170,
+  "prerequisites": ["sva-grund-3/describing-process-causation"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

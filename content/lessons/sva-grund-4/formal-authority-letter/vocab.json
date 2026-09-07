@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "jag-vander-mig-harmed-till",
+      "sv": "Jag vänder mig härmed till Försäkringskassan angående mitt ärende.",
+      "translations": { "ru": "Настоящим обращаюсь в Försäkringskassan по поводу моего дела.", "en": "I am hereby writing to Försäkringskassan regarding my case." },
+      "pos": "phrase",
+      "example": { "sv": "Brevet inleddes: Jag vänder mig härmed till Försäkringskassan angående mitt ärende om föräldrapenning.", "ru": "Письмо начиналось так: «Настоящим обращаюсь в Försäkringskassan по поводу моего дела о родительском пособии».", "en": "The letter opened with: I am hereby writing to Försäkringskassan regarding my case about parental benefit." }
+    },
+    {
+      "id": "harmed",
+      "sv": "härmed",
+      "translations": { "ru": "настоящим (формальная вводная фраза в письмах)", "en": "hereby" },
+      "pos": "adv",
+      "example": { "sv": "Jag ansöker härmed om omprövning av beslutet.", "ru": "Настоящим прошу пересмотреть решение.", "en": "I hereby apply for a reconsideration of the decision." }
+    },
+    {
+      "id": "angaende",
+      "sv": "angående",
+      "translations": { "ru": "относительно, по поводу", "en": "regarding, concerning" },
+      "pos": "prep",
+      "example": { "sv": "Jag skriver angående mitt avslag från förra månaden.", "ru": "Я пишу по поводу моего отказа с прошлого месяца.", "en": "I am writing regarding my rejection from last month." }
+    },
+    {
+      "id": "myndighet",
+      "sv": "myndighet",
+      "translations": { "ru": "государственный орган, ведомство", "en": "public authority, government agency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" },
+      "example": { "sv": "Migrationsverket är en myndighet som hanterar uppehållstillstånd.", "ru": "Migrationsverket — это госорган, который занимается видами на жительство.", "en": "Migrationsverket is a government agency that handles residence permits." }
+    },
+    {
+      "id": "arende",
+      "sv": "ärende",
+      "translations": { "ru": "дело, вопрос (в делопроизводстве)", "en": "case, matter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ärende", "defSg": "ärendet", "indefPl": "ärenden", "defPl": "ärendena" },
+      "example": { "sv": "Mitt ärende har varit öppet i tre månader.", "ru": "Моё дело открыто уже три месяца.", "en": "My case has been open for three months." }
+    },
+    {
+      "id": "jag-ber-om-ett-skriftligt-beslut",
+      "sv": "Jag ber om ett skriftligt beslut i ärendet.",
+      "translations": { "ru": "Прошу вынести письменное решение по делу.", "en": "I am requesting a written decision in the matter." },
+      "pos": "phrase",
+      "example": { "sv": "Jag avslutade brevet med: Jag ber om ett skriftligt beslut i ärendet.", "ru": "Я закончил(а) письмо словами: «Прошу вынести письменное решение по делу».", "en": "I ended the letter with: I am requesting a written decision in the matter." }
+    },
+    {
+      "id": "beslut",
+      "sv": "beslut",
+      "translations": { "ru": "решение", "en": "decision" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett beslut", "defSg": "beslutet", "indefPl": "beslut", "defPl": "besluten" },
+      "example": { "sv": "Myndighetens beslut kom med posten efter tre veckor.", "ru": "Решение госоргана пришло по почте через три недели.", "en": "The authority's decision arrived by post after three weeks." }
+    },
+    {
+      "id": "overklaga",
+      "sv": "överklaga",
+      "translations": { "ru": "обжаловать", "en": "to appeal" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "överklaga", "present": "överklagar", "past": "överklagade", "supine": "överklagat" },
+      "example": { "sv": "Jag vill överklaga avslaget på min ansökan.", "ru": "Я хочу обжаловать отказ по моему заявлению.", "en": "I want to appeal the rejection of my application." }
+    },
+    {
+      "id": "avslag",
+      "sv": "avslag",
+      "translations": { "ru": "отказ (по заявлению)", "en": "rejection, refusal (of an application)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett avslag", "defSg": "avslaget", "indefPl": "avslag", "defPl": "avslagen" },
+      "example": { "sv": "Jag fick ett avslag men tänker överklaga.", "ru": "Я получил(а) отказ, но собираюсь его обжаловать.", "en": "I got a rejection, but I intend to appeal it." }
+    },
+    {
+      "id": "bifall",
+      "sv": "bifall",
+      "translations": { "ru": "удовлетворение заявления, положительное решение", "en": "approval, granting (of an application)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bifall", "defSg": "bifallet", "indefPl": "bifall", "defPl": "bifallen" },
+      "example": { "sv": "Till min glädje fick jag bifall på min ansökan.", "ru": "К моей радости, моё заявление удовлетворили.", "en": "To my relief, my application was approved." }
+    },
+    {
+      "id": "handlaggare",
+      "sv": "handläggare",
+      "translations": { "ru": "делопроизводитель, куратор дела", "en": "case officer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en handläggare", "defSg": "handläggaren", "indefPl": "handläggare", "defPl": "handläggarna" },
+      "example": { "sv": "Min handläggare ringde för att fråga om fler dokument.", "ru": "Мой куратор дела позвонил(а), чтобы спросить о дополнительных документах.", "en": "My case officer called to ask for more documents." }
+    },
+    {
+      "id": "diarienummer",
+      "sv": "diarienummer",
+      "translations": { "ru": "регистрационный номер дела", "en": "reference number, case number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett diarienummer", "defSg": "diarienumret", "indefPl": "diarienummer", "defPl": "diarienumren" },
+      "example": { "sv": "Ange alltid ditt diarienummer när du kontaktar myndigheten.", "ru": "Всегда указывай регистрационный номер дела, когда обращаешься в госорган.", "en": "Always state your reference number when contacting the authority." }
+    },
+    {
+      "id": "yttrande",
+      "sv": "yttrande",
+      "translations": { "ru": "заключение, отзыв, замечания (по делу)", "en": "statement, comment (submitted in a case)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett yttrande", "defSg": "yttrandet", "indefPl": "yttranden", "defPl": "yttrandena" },
+      "example": { "sv": "Kommunen bad om ett yttrande innan beslutet fattades.", "ru": "Коммуна запросила заключение перед принятием решения.", "en": "The municipality asked for a statement before the decision was made." }
+    },
+    {
+      "id": "jag-emotser-ert-svar",
+      "sv": "Jag emotser ert svar.",
+      "translations": { "ru": "Ожидаю вашего ответа.", "en": "I look forward to your reply." },
+      "pos": "phrase",
+      "example": { "sv": "Jag emotser ert svar inom de närmaste veckorna.", "ru": "Ожидаю вашего ответа в ближайшие недели.", "en": "I look forward to your reply within the coming weeks." }
+    },
+    {
+      "id": "hogaktningsfullt",
+      "sv": "Högaktningsfullt",
+      "translations": { "ru": "С глубоким уважением (официальная подпись в письме)", "en": "Yours faithfully (formal letter closing)" },
+      "pos": "phrase",
+      "example": { "sv": "Brevet avslutades med: Högaktningsfullt, Maria Andersson.", "ru": "Письмо заканчивалось словами: «С глубоким уважением, Мария Андерссон».", "en": "The letter ended with: Yours faithfully, Maria Andersson." }
+    }
+  ]
+}

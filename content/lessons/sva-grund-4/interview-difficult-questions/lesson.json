@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/interview-difficult-questions",
+  "slug": "interview-difficult-questions",
+  "title": {
+    "sv": "Intervjun — svåra frågor och hur man svarar på dem",
+    "ru": "Собеседование: сложные вопросы и как на них отвечать",
+    "en": "The interview: difficult questions and how to answer them"
+  },
+  "summary": {
+    "ru": "Фразы для по-настоящему трудных вопросов на собеседовании: об ошибках, планах на пять лет и пробелах в резюме.",
+    "en": "Phrases for genuinely tough interview questions: about mistakes, five-year plans and CV gaps."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "work",
+    "interview",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1990,
+  "prerequisites": [
+    "sva-grund-3/interview-extended"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

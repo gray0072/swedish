@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "id": "nobelpristagare",
+      "sv": "nobelpristagare",
+      "translations": { "ru": "нобелевский лауреат", "en": "Nobel laureate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nobelpristagare", "defSg": "nobelpristagaren", "indefPl": "nobelpristagare", "defPl": "nobelpristagarna" },
+      "example": { "sv": "Selma Lagerlöf var den första kvinnliga nobelpristagaren i litteratur.", "ru": "Сельма Лагерлёф была первой женщиной — нобелевским лауреатом по литературе.", "en": "Selma Lagerlöf was the first woman to win the Nobel Prize in Literature." }
+    },
+    {
+      "id": "klassiker",
+      "sv": "klassiker",
+      "translations": { "ru": "классика, классическое произведение", "en": "classic" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klassiker", "defSg": "klassikern", "indefPl": "klassiker", "defPl": "klassikerna" },
+      "example": { "sv": "Astrid Lindgrens böcker om Pippi Långstrump är svenska klassiker.", "ru": "Книги Астрид Линдгрен о Пеппи Длинныйчулок — шведская классика.", "en": "Astrid Lindgren's books about Pippi Longstocking are Swedish classics." }
+    },
+    {
+      "id": "filmatisering",
+      "sv": "filmatisering",
+      "translations": { "ru": "экранизация", "en": "film adaptation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en filmatisering", "defSg": "filmatiseringen", "indefPl": "filmatiseringar", "defPl": "filmatiseringarna" },
+      "example": { "sv": "Många av Stieg Larssons böcker har fått en filmatisering.", "ru": "Многие книги Стига Ларссона были экранизированы.", "en": "Many of Stieg Larsson's books have been made into films." }
+    },
+    {
+      "id": "regissor",
+      "sv": "regissör",
+      "translations": { "ru": "режиссёр", "en": "director" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en regissör", "defSg": "regissören", "indefPl": "regissörer", "defPl": "regissörerna" },
+      "example": { "sv": "Ingmar Bergman är en av Sveriges mest kända regissörer.", "ru": "Ингмар Бергман — один из самых известных режиссёров Швеции.", "en": "Ingmar Bergman is one of Sweden's best-known directors." }
+    },
+    {
+      "id": "samtidslitteratur",
+      "sv": "samtidslitteratur",
+      "translations": { "ru": "современная литература", "en": "contemporary literature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en samtidslitteratur", "defSg": "samtidslitteraturen", "indefPl": "samtidslitteraturer", "defPl": "samtidslitteraturerna" },
+      "example": { "sv": "Samtidslitteraturen tar ofta upp aktuella samhällsfrågor.", "ru": "Современная литература часто затрагивает актуальные общественные вопросы.", "en": "Contemporary literature often deals with current social issues." }
+    },
+    {
+      "id": "forfattare-lit-cin",
+      "sv": "författare",
+      "translations": { "ru": "писатель, автор", "en": "author, writer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" }
+    },
+    {
+      "id": "deckare",
+      "sv": "deckare",
+      "translations": { "ru": "детектив (жанр/книга)", "en": "crime novel, detective story" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en deckare", "defSg": "deckaren", "indefPl": "deckare", "defPl": "deckarna" }
+    },
+    {
+      "id": "skadespelare",
+      "sv": "skådespelare",
+      "translations": { "ru": "актёр, актриса", "en": "actor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" }
+    },
+    {
+      "id": "manusforfattare",
+      "sv": "manusförfattare",
+      "translations": { "ru": "сценарист", "en": "screenwriter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en manusförfattare", "defSg": "manusförfattaren", "indefPl": "manusförfattare", "defPl": "manusförfattarna" }
+    },
+    {
+      "id": "racknas-som",
+      "sv": "räknas som",
+      "translations": { "ru": "считаться (кем-то), расцениваться как", "en": "to be considered (as)" },
+      "pos": "phrase",
+      "example": { "sv": "Han räknas som en av de stora inom svensk film.", "ru": "Его считают одним из великих в шведском кино.", "en": "He's considered one of the greats in Swedish cinema." }
+    },
+    {
+      "id": "har-du-last-nagot-av-henne",
+      "sv": "har du läst något av henne?",
+      "translations": { "ru": "ты читал(а) что-нибудь из её книг?", "en": "have you read anything by her?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "aktuell-samhallsfraga",
+      "sv": "en aktuell samhällsfråga",
+      "translations": { "ru": "актуальный общественный вопрос", "en": "a current social issue" },
+      "pos": "phrase"
+    },
+    {
+      "id": "prisbelont",
+      "sv": "prisbelönt",
+      "translations": { "ru": "удостоенный премии, отмеченный наградами", "en": "award-winning" },
+      "pos": "adj"
+    },
+    {
+      "id": "utspela-sig",
+      "sv": "utspela sig",
+      "translations": { "ru": "происходить, разворачиваться (о действии)", "en": "to take place, to be set (of a story)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "utspela sig", "present": "utspelar sig", "past": "utspelade sig", "supine": "utspelat sig" }
+    },
+    {
+      "id": "publik",
+      "sv": "publik",
+      "translations": { "ru": "публика, аудитория (зрителей)", "en": "audience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+    }
+  ]
+}

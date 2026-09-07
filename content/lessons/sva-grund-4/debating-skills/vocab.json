@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": "jag-intar-standpunkten-att",
+      "sv": "jag intar ståndpunkten att...",
+      "translations": { "ru": "я придерживаюсь позиции, что...", "en": "I take the position that..." },
+      "pos": "phrase",
+      "example": { "sv": "Jag intar ståndpunkten att skolan bör förbjuda mobiler i klassrummet.", "ru": "Я придерживаюсь позиции, что школа должна запретить телефоны в классе.", "en": "I take the position that schools should ban phones in the classroom." }
+    },
+    {
+      "id": "min-utgangspunkt-ar-att",
+      "sv": "min utgångspunkt är att...",
+      "translations": { "ru": "моя исходная позиция в том, что...", "en": "my starting point is that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-starkaste-argumentet",
+      "sv": "det starkaste argumentet för min sida är...",
+      "translations": { "ru": "самый сильный аргумент в пользу моей стороны — это...", "en": "the strongest argument for my side is..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "tungt-vagande-skal",
+      "sv": "ett tungt vägande skäl",
+      "translations": { "ru": "веский довод", "en": "a weighty reason" },
+      "pos": "phrase"
+    },
+    {
+      "id": "min-motstandare-havdar",
+      "sv": "min motståndare hävdar att...",
+      "translations": { "ru": "мой оппонент утверждает, что...", "en": "my opponent claims that..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "lat-mig-bemota-det",
+      "sv": "låt mig bemöta det argumentet",
+      "translations": { "ru": "позвольте мне ответить на этот аргумент", "en": "let me answer that argument" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-haller-inte",
+      "sv": "det håller inte, av flera skäl",
+      "translations": { "ru": "это не выдерживает критики по нескольким причинам", "en": "that doesn't hold up, for several reasons" },
+      "pos": "phrase"
+    },
+    {
+      "id": "sammanfattningsvis-vidhaller",
+      "sv": "sammanfattningsvis vidhåller jag min ståndpunkt",
+      "translations": { "ru": "в заключение, я настаиваю на своей позиции", "en": "in conclusion, I stand by my position" },
+      "pos": "phrase"
+    },
+    {
+      "id": "debatt",
+      "sv": "debatt",
+      "translations": { "ru": "дебаты", "en": "debate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en debatt", "defSg": "debatten", "indefPl": "debatter", "defPl": "debatterna" }
+    },
+    {
+      "id": "standpunkt",
+      "sv": "ståndpunkt",
+      "translations": { "ru": "позиция, точка зрения", "en": "position, standpoint" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ståndpunkt", "defSg": "ståndpunkten", "indefPl": "ståndpunkter", "defPl": "ståndpunkterna" }
+    },
+    {
+      "id": "motstandare",
+      "sv": "motståndare",
+      "translations": { "ru": "оппонент, противник", "en": "opponent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en motståndare", "defSg": "motståndaren", "indefPl": "motståndare", "defPl": "motståndarna" }
+    },
+    {
+      "id": "argument-debate",
+      "sv": "argument",
+      "translations": { "ru": "аргумент", "en": "argument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать", "en": "to claim, to assert" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" }
+    },
+    {
+      "id": "bemota",
+      "sv": "bemöta",
+      "translations": { "ru": "отвечать (на аргумент), парировать", "en": "to counter, to respond to (an argument)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "bemöta", "present": "bemöter", "past": "bemötte", "supine": "bemött" }
+    },
+    {
+      "id": "vidhalla",
+      "sv": "vidhålla",
+      "translations": { "ru": "настаивать (на своём)", "en": "to maintain, to stand by" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vidhålla", "present": "vidhåller", "past": "vidhöll", "supine": "vidhållit" }
+    },
+    {
+      "id": "skal-debate",
+      "sv": "skäl",
+      "translations": { "ru": "довод, причина", "en": "reason" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skäl", "defSg": "skälet", "indefPl": "skäl", "defPl": "skälen" }
+    },
+    {
+      "id": "vinna-en-debatt",
+      "sv": "vinna en debatt",
+      "translations": { "ru": "выиграть дебаты", "en": "to win a debate" },
+      "pos": "phrase"
+    },
+    {
+      "id": "motargument",
+      "sv": "motargument",
+      "translations": { "ru": "контраргумент", "en": "counterargument" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" }
+    }
+  ]
+}

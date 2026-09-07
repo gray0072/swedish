@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/hedging-language",
+  "slug": "hedging-language",
+  "title": {
+    "sv": "Hedging och försiktiga formuleringar: kan tänkas, tycks, förefaller",
+    "ru": "Хеджирование и осторожные формулировки: kan tänkas, tycks, förefaller",
+    "en": "Hedging and cautious wording: kan tänkas, tycks, förefaller"
+  },
+  "summary": {
+    "ru": "Как смягчить утверждение, не отказываясь от него совсем — язык академии и журналистики.",
+    "en": "How to soften a claim without abandoning it entirely — the language of academia and journalism."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "hedging",
+    "modality",
+    "academic-style",
+    "register"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1840,
+  "prerequisites": [
+    "sva-grund-3/modality-certainty"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

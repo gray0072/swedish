@@ -1,0 +1,102 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-society-equality-rights-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "В чём разница между «jämlikhet» и «jämställdhet»?", "en": "What is the difference between \"jämlikhet\" and \"jämställdhet\"?" },
+      "choices": [
+        { "ru": "jämlikhet — равенство вообще, jämställdhet — только между женщинами и мужчинами", "en": "jämlikhet is equality in general, jämställdhet is specifically between women and men" },
+        { "ru": "это точные синонимы", "en": "they are exact synonyms" },
+        { "ru": "jämställdhet относится только к экономике", "en": "jämställdhet applies only to economics" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-society-equality-rights-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «delaktighet»?", "en": "What does \"delaktighet\" mean?" },
+      "choices": [
+        { "ru": "ощущение принадлежности к сообществу", "en": "a sense of belonging to a community" },
+        { "ru": "финансовая помощь", "en": "financial aid" },
+        { "ru": "юридический документ", "en": "a legal document" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-society-equality-rights-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «tillgänglighet»?", "en": "What does \"tillgänglighet\" mean?" },
+      "choices": ["доступность", "гендерное равенство", "разнообразие"],
+      "answer": 0
+    },
+    {
+      "id": "q-society-equality-rights-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «funktionsvariation»?", "en": "What is \"funktionsvariation\"?" },
+      "choices": [
+        { "ru": "нейтральный термин для инвалидности/функциональных особенностей", "en": "a neutral term for a disability/functional variation" },
+        { "ru": "тип диалекта", "en": "a type of dialect" },
+        { "ru": "форма дискриминации", "en": "a form of discrimination" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-society-equality-rights-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Jämställdhet» и «jämlikhet» — это одно и то же понятие.", "en": "\"Jämställdhet\" and \"jämlikhet\" are the same concept." },
+      "answer": false,
+      "explanation": { "ru": "Jämlikhet — общее равенство, jämställdhet — конкретно гендерное равенство.", "en": "Jämlikhet is general equality; jämställdhet is specifically gender equality." }
+    },
+    {
+      "id": "q-society-equality-rights-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Права человека распространяются только на граждан определённой страны.", "en": "Human rights apply only to citizens of a particular country." },
+      "answer": false,
+      "explanation": { "ru": "Мänskliga rättigheter распространяются на всех людей, независимо от страны.", "en": "Mänskliga rättigheter apply to all people, regardless of country." }
+    },
+    {
+      "id": "q-society-equality-rights-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jämställdhet handlar specifikt om jämlikhet mellan kvinnor och ___. (män)" },
+      "answer": ["män"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-society-equality-rights-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Skolan arbetar aktivt med ___ av alla elever. (inkludering)" },
+      "answer": ["inkludering"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-society-equality-rights-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Доступность означает, что все должны иметь возможность передвигаться и участвовать.»", "en": "Build the sentence: \"Accessibility means everyone should be able to get around and take part.\"" },
+      "tokens": ["Tillgänglighet", "handlar", "om", "att", "alla", "ska", "kunna", "ta", "sig", "fram", "och", "delta"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "id": "q-society-equality-rights-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с переводом", "en": "Match the term with its translation" },
+      "pairs": [
+        ["jämlikhet", "равенство в целом / equality in general"],
+        ["jämställdhet", "гендерное равенство / gender equality"],
+        ["tillgänglighet", "доступность / accessibility"],
+        ["mångfald", "разнообразие / diversity"]
+      ]
+    },
+    {
+      "id": "q-society-equality-rights-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «utanförskap»?", "en": "What does \"utanförskap\" mean?" },
+      "choices": ["социальная изоляция, исключённость", "экономический рост", "языковая норма"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/healthcare-system-depth",
+  "slug": "healthcare-system-depth",
+  "title": {
+    "sv": "Sjukvård och socialt system — på djupet",
+    "ru": "Здравоохранение и социальная система — углублённо",
+    "en": "Healthcare and the social system — in depth"
+  },
+  "summary": {
+    "ru": "Лексика, связывающая здравоохранение с более широкой социальной системой: socialförsäkring, sjukvårdsavgift, patientens rättigheter, jämlik vård, folkhälsa.",
+    "en": "Vocabulary connecting healthcare to the wider social system: socialförsäkring, sjukvårdsavgift, patientens rättigheter, jämlik vård, folkhälsa."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "healthcare", "society"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2120,
+  "prerequisites": ["sva-grund-3/health-prevention-text"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

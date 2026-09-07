@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "id": "villkorssats",
+      "sv": "villkorssats",
+      "translations": { "ru": "условное предложение", "en": "conditional clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en villkorssats", "defSg": "villkorssatsen", "indefPl": "villkorssatser", "defPl": "villkorssatserna" }
+    },
+    {
+      "id": "om-conj",
+      "sv": "om",
+      "translations": { "ru": "если", "en": "if" },
+      "pos": "conjunction"
+    },
+    {
+      "id": "skulle",
+      "sv": "skulle",
+      "translations": { "ru": "форма претерита от «ska»: «бы, собирался»", "en": "past tense of \"ska\": \"would\"" },
+      "pos": "verb",
+      "note": { "ru": "Используется в главной части ирреальных условных предложений.", "en": "Used in the main clause of unreal conditionals." }
+    },
+    {
+      "id": "vore",
+      "sv": "vore",
+      "translations": { "ru": "был бы (архаичный сослагательный от vara)", "en": "were, would be (archaic subjunctive of vara)" },
+      "pos": "verb",
+      "note": { "ru": "Сохранился почти только в инверсионной конструкции без om.", "en": "Survives almost only in the om-less inversion construction." }
+    },
+    {
+      "id": "ringa-verb",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call, phone" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" }
+    },
+    {
+      "id": "uppsta",
+      "sv": "uppstå",
+      "translations": { "ru": "возникать", "en": "to arise, occur" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "uppstå", "present": "uppstår", "past": "uppstod", "supine": "uppstått" }
+    },
+    {
+      "id": "fel-noun",
+      "sv": "fel",
+      "translations": { "ru": "ошибка, сбой", "en": "error, fault" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "fel", "defSg": "felet", "indefPl": "fel", "defPl": "felen" }
+    },
+    {
+      "id": "kontakta",
+      "sv": "kontakta",
+      "translations": { "ru": "связаться с, обратиться к", "en": "to contact" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+    },
+    {
+      "id": "tacka-nej",
+      "sv": "tacka nej",
+      "translations": { "ru": "отказаться (от предложения)", "en": "to decline, say no thanks" },
+      "pos": "phrase",
+      "example": { "sv": "Vore jag dig, skulle jag tacka nej.", "ru": "Будь я на твоём месте, я бы отказался.", "en": "Were I you, I would decline." }
+    },
+    {
+      "id": "irreell",
+      "sv": "irreell",
+      "translations": { "ru": "нереальный, ирреальный", "en": "unreal, hypothetical" },
+      "pos": "adj"
+    },
+    {
+      "id": "reell",
+      "sv": "reell",
+      "translations": { "ru": "реальный, действительный", "en": "real, actual" },
+      "pos": "adj"
+    },
+    {
+      "id": "plusquamperfekt",
+      "sv": "pluskvamperfekt",
+      "translations": { "ru": "плюсквамперфект", "en": "pluperfect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pluskvamperfekt", "defSg": "pluskvamperfekten", "indefPl": "pluskvamperfekter", "defPl": "pluskvamperfekterna" }
+    },
+    {
+      "id": "inversion",
+      "sv": "inversion",
+      "translations": { "ru": "инверсия", "en": "inversion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-popular-science-syntax-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Для какой аудитории пишется научно-популярный текст?", "en": "Who is the audience for popular-science text?" },
+      "choices": ["Только для специалистов", "Для широкой публики без специальных знаний", "Только для заявителей", "Ни для кого конкретно"],
+      "answer": 1
+    },
+    {
+      "id": "q-popular-science-syntax-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Forskare har sett att havsnivån stiger snabbare än väntat» — какая черта научпопа здесь видна?", "en": "\"Forskare har sett att havsnivån stiger snabbare än väntat\" — what popular-science trait is visible here?" },
+      "choices": ["Деятель («forskare») назван, использован глагол действия", "Деятель полностью скрыт", "Предложение максимально номинализировано", "Использован -s-пассив без агента"],
+      "answer": 0
+    },
+    {
+      "id": "q-popular-science-syntax-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Havsnivåhöjningen medför en ökad översvämningsrisk... vilket ska beaktas vid bygglovsprövning» — какой это стиль?", "en": "\"Havsnivåhöjningen medför en ökad översvämningsrisk... vilket ska beaktas vid bygglovsprövning\" — what style is this?" },
+      "choices": ["Научно-популярный", "Максимально номинализированный, ведомственный", "Разговорный", "Личный рассказ"],
+      "answer": 1
+    },
+    {
+      "id": "q-popular-science-syntax-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем предложения ведомственного текста отличаются от научпопа по длине и абстрактности?", "en": "How do official-text sentences differ from popular science in length and abstraction?" },
+      "choices": ["Они короче и конкретнее", "Они длиннее и более абстрактны", "Они одинаковы", "Ведомственный текст вообще не использует полные предложения"],
+      "answer": 1
+    },
+    {
+      "id": "q-popular-science-syntax-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Что делает ведомственный текст с действием «учитывать» в примере про bygglov?", "en": "What does the official text do to the action \"to take into account\" in the bygglov example?" },
+      "choices": ["Оставляет его глаголом с явным подлежащим", "Превращает в безличный пассив: ska beaktas", "Убирает полностью", "Заменяет причастным оборотом"],
+      "answer": 1
+    },
+    {
+      "id": "q-popular-science-syntax-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Научпоп обычно смешивает умеренную номинализацию с глаголами и конкретными примерами.", "en": "Popular science usually mixes moderate nominalisation with verbs and concrete examples." },
+      "answer": true
+    },
+    {
+      "id": "q-popular-science-syntax-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Ведомственный текст обычно называет конкретного человека, который выполняет действие.", "en": "Official text usually names the specific person who performs the action." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: деятель почти всегда скрыт за номинализацией или безличным пассивом.", "en": "The opposite: the agent is almost always hidden behind a nominalisation or an impersonal passive." }
+    },
+    {
+      "id": "q-popular-science-syntax-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Один и тот же факт можно изложить и научно-популярным, и ведомственным стилем.", "en": "The same fact can be expressed in both popular-science and official style." },
+      "answer": true
+    },
+    {
+      "id": "q-popular-science-syntax-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Studien visar att luftföroreningar ___ risken för hjärt-kärlsjukdomar. (глагол «повышать»)" },
+      "answer": ["ökar"]
+    },
+    {
+      "id": "q-popular-science-syntax-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Exponering för luftföroreningar ___ en riskfaktor. (глагол «представлять собой»)" },
+      "answer": ["utgör"]
+    },
+    {
+      "id": "q-popular-science-syntax-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Detta ska ___ vid bygglovsprövning. (пассивный инфинитив от beakta)" },
+      "answer": ["beaktas"]
+    },
+    {
+      "id": "q-popular-science-syntax-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери ведомственное предложение: «Повышение уровня моря влечёт за собой повышенный риск затопления.»", "en": "Build the official sentence: \"The rise in sea level entails an increased flood risk.\"" },
+      "tokens": ["Havsnivåhöjningen", "medför", "en", "ökad", "översvämningsrisk"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-popular-science-syntax-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь черту стиля с жанром", "en": "Match the stylistic trait with its genre" },
+      "pairs": [
+        ["деятель назван, предложения короче / agent named, shorter sentences", "научпоп / popular science"],
+        ["деятель скрыт, максимальная номинализация / agent hidden, maximal nominalisation", "ведомственный текст / official text"]
+      ]
+    }
+  ]
+}

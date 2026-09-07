@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-passive-across-genres-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "В каком жанре пассив встречается чаще всего?", "en": "In which genre is the passive most frequent?" },
+      "choices": ["Личный рассказ", "Научный/инструктивный текст", "SMS другу", "Устный анекдот"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-across-genres-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В новостном репортаже, когда используется пассив, что часто называется?", "en": "In a news report, when the passive is used, what is often named?" },
+      "choices": ["Ничего, агент почти всегда опускается", "Агент — через предлог av", "Только время действия", "Только место действия"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-across-genres-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Provet upphettas till hundra grader och rörs om» — какой это жанр?", "en": "\"Provet upphettas till hundra grader och rörs om\" — what genre is this?" },
+      "choices": ["Личный рассказ", "Научный/инструктивный текст", "Новостной репортаж", "Разговорная речь"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-across-genres-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Почему в инструкции по опыту не называют, кто именно нагревает образец?", "en": "Why doesn't a lab instruction name who exactly heats the sample?" },
+      "choices": ["Потому что это грамматически невозможно", "Потому что важен сам процесс, а деятель обычно и так понятен", "Потому что инструкции всегда пишутся в активном залоге", "Потому что это запрещено правилами клара-språk"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-across-genres-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Почему в личном рассказе пассив используется редко?", "en": "Why is the passive rare in personal narrative?" },
+      "choices": ["Потому что в шведском пассив запрещён в прошедшем времени", "Потому что рассказчику важно показать себя как действующее лицо, и он пишет активом", "Потому что личный рассказ всегда пишется в настоящем времени", "Потому что пассив используется только с неодушевлёнными существительными"],
+      "answer": 1
+    },
+    {
+      "id": "q-passive-across-genres-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Предлог «av» вводит агента (того, кто выполняет действие) в пассивной конструкции.", "en": "The preposition \"av\" introduces the agent (the one performing the action) in a passive construction." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-across-genres-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Научный/инструктивный текст обычно называет агента через «av» почти в каждом предложении.", "en": "Scientific/instructional text usually names the agent with \"av\" in almost every sentence." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот — в этом жанре агент почти всегда опускается: важен процесс, а не исполнитель.", "en": "The opposite — in this genre the agent is almost always omitted: the process matters, not who performs it." }
+    },
+    {
+      "id": "q-passive-across-genres-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Плотность пассива в тексте — это стилистический выбор, а не жёсткое грамматическое правило.", "en": "Passive density in a text is a stylistic choice, not a strict grammatical rule." },
+      "answer": true
+    },
+    {
+      "id": "q-passive-across-genres-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Rapporten skrevs ___ forskare vid Lunds universitet. (агент в пассиве)" },
+      "answer": ["av"]
+    },
+    {
+      "id": "q-passive-across-genres-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Data samlas ___ varje månad. (собирать данные — устойчивое выражение)" },
+      "answer": ["in"]
+    },
+    {
+      "id": "q-passive-across-genres-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Provet ___ till hundra grader. (пассив от upphetta, настоящее время)" },
+      "answer": ["upphettas"]
+    },
+    {
+      "id": "q-passive-across-genres-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Beslutet ___ av regeringen efter förhandlingar. (пассив от fatta, прошедшее время)" },
+      "answer": ["fattades"]
+    },
+    {
+      "id": "q-passive-across-genres-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Отчёт был написан исследователями Лундского университета.»", "en": "Build the sentence: \"The report was written by researchers at Lund University.\"" },
+      "tokens": ["Rapporten", "skrevs", "av", "forskare", "vid", "Lunds", "universitet"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "id": "q-passive-across-genres-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь жанр с типичной плотностью пассива", "en": "Match the genre with its typical passive density" },
+      "pairs": [
+        ["новостной репортаж / news report", "средняя, агент часто назван / moderate, agent often stated"],
+        ["научный/инструктивный текст / scientific/instructional text", "высокая, агент почти всегда опущен / heavy, agent almost always omitted"],
+        ["личный рассказ / personal narrative", "низкая, обычно актив / low, active preferred"]
+      ]
+    }
+  ]
+}

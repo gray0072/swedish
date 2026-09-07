@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "rubrik",
+      "sv": "rubrik",
+      "translations": { "ru": "заголовок", "en": "heading" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rubrik", "defSg": "rubriken", "indefPl": "rubriker", "defPl": "rubrikerna" }
+    },
+    {
+      "id": "stycke",
+      "sv": "stycke",
+      "translations": { "ru": "абзац", "en": "paragraph" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett stycke", "defSg": "stycket", "indefPl": "stycken", "defPl": "styckena" }
+    },
+    {
+      "id": "indrag",
+      "sv": "indrag",
+      "translations": { "ru": "красная строка, отступ", "en": "indentation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "indrag", "defSg": "indraget", "indefPl": "indrag", "defPl": "indragen" }
+    },
+    {
+      "id": "blankrad",
+      "sv": "blankrad",
+      "translations": { "ru": "пустая строка", "en": "blank line" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blankrad", "defSg": "blankraden", "indefPl": "blankrader", "defPl": "blankraderna" }
+    },
+    {
+      "id": "lista",
+      "sv": "lista",
+      "translations": { "ru": "список", "en": "list" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lista", "defSg": "listan", "indefPl": "listor", "defPl": "listorna" }
+    },
+    {
+      "id": "numrerad-lista",
+      "sv": "numrerad lista",
+      "translations": { "ru": "нумерованный список", "en": "numbered list" },
+      "pos": "phrase"
+    },
+    {
+      "id": "punktlista",
+      "sv": "punktlista",
+      "translations": { "ru": "маркированный список", "en": "bulleted list" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en punktlista", "defSg": "punktlistan", "indefPl": "punktlistor", "defPl": "punktlistorna" }
+    },
+    {
+      "id": "atgard",
+      "sv": "åtgärd",
+      "translations": { "ru": "мера, действие", "en": "measure, action" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en åtgärd", "defSg": "åtgärden", "indefPl": "åtgärder", "defPl": "åtgärderna" }
+    },
+    {
+      "id": "utvardera",
+      "sv": "utvärdera",
+      "translations": { "ru": "оценивать (результат)", "en": "to evaluate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utvärdera", "present": "utvärderar", "past": "utvärderade", "supine": "utvärderat" }
+    },
+    {
+      "id": "inledning",
+      "sv": "inledning",
+      "translations": { "ru": "введение", "en": "introduction" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inledning", "defSg": "inledningen", "indefPl": "inledningar", "defPl": "inledningarna" }
+    },
+    {
+      "id": "bakgrund",
+      "sv": "bakgrund",
+      "translations": { "ru": "предыстория, фон", "en": "background" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bakgrund", "defSg": "bakgrunden", "indefPl": "bakgrunder", "defPl": "bakgrunderna" }
+    },
+    {
+      "id": "syfte",
+      "sv": "syfte",
+      "translations": { "ru": "цель (документа, исследования)", "en": "purpose" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett syfte", "defSg": "syftet", "indefPl": "syften", "defPl": "syftena" }
+    },
+    {
+      "id": "konsekvent",
+      "sv": "konsekvent",
+      "translations": { "ru": "последовательный", "en": "consistent" },
+      "pos": "adj"
+    }
+  ]
+}

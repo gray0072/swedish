@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-comparative-text-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза означает «главное различие заключается в»?", "en": "Which phrase means \"the main difference lies in\"?" },
+      "choices": ["den största skillnaden ligger i", "gemensamt för båda är att", "till skillnad från"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparative-text-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «bygga på»?", "en": "What does \"bygga på\" mean?" },
+      "choices": ["основываться на / to be based on", "отличаться от / to differ from", "заканчиваться / to end"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparative-text-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Какое слово переводится как «свобода выбора»?", "en": "Which word translates as \"freedom of choice\"?" },
+      "choices": ["valfrihet", "skolgång", "likhet"],
+      "answer": 0
+    },
+    {
+      "id": "q-comparative-text-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Чем заканчивается взвешенный сравнительный текст?", "en": "How does a balanced comparative text end?" },
+      "choices": [
+        { "ru": "Указанием на плюсы и минусы обеих систем", "en": "By noting the advantages and disadvantages of both systems" },
+        { "ru": "Только личным мнением автора без аргументов", "en": "With only the author's personal opinion and no argument" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-comparative-text-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Den största ___ ligger i hur mycket valfrihet eleverna har. (skillnaden)" },
+      "answer": ["skillnaden"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparative-text-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Båda systemen har sina för- och ___. (nackdelar)" },
+      "answer": ["nackdelar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparative-text-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Syftet med den här texten är att ___ det svenska skolsystemet med skolsystemet i mitt hemland. (jämföra)" },
+      "answer": ["jämföra"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-comparative-text-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Å ena sidan ... å andra sidan» вводит две противоположные точки зрения.", "en": "\"Å ena sidan ... å andra sidan\" introduces two contrasting points of view." },
+      "answer": true
+    },
+    {
+      "id": "q-comparative-text-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Sammanfattningsvis» используют, чтобы начать текст, а не закончить его.", "en": "\"Sammanfattningsvis\" is used to start a text, not to end it." },
+      "answer": false,
+      "explanation": { "ru": "«Sammanfattningsvis» значит «подводя итог» и используется в конце текста.", "en": "\"Sammanfattningsvis\" means \"to sum up\" and is used at the end of a text." }
+    },
+    {
+      "id": "q-comparative-text-tf-3",
+      "type": "true-false",
+      "prompt": { "ru": "«Till skillnad från» значит «в отличие от».", "en": "\"Till skillnad från\" means \"unlike, in contrast to\"." },
+      "answer": true
+    },
+    {
+      "id": "q-comparative-text-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["gemensamt för båda är att", "общее для обеих систем то, что / what both have in common is that"],
+        ["vara baserad på", "быть основанным на / to be based on"],
+        ["obligatorisk", "обязательный / compulsory"],
+        ["skolgång", "обучение в школе / schooling"]
+      ]
+    },
+    {
+      "id": "q-comparative-text-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У обеих систем есть свои плюсы и минусы.»", "en": "Build the sentence: \"Both systems have their advantages and disadvantages.\"" },
+      "tokens": ["Båda", "systemen", "har", "sina", "för-", "och", "nackdelar"],
+      "answer": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ]
+}

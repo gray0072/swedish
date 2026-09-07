@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/society-equality-rights",
+  "slug": "society-equality-rights",
+  "title": {
+    "sv": "Samhälle: jämlikhet, inkludering, rättigheter",
+    "ru": "Общество: равенство, инклюзия, права — обсуждение",
+    "en": "Society: equality, inclusion, rights — a discussion"
+  },
+  "summary": {
+    "ru": "Лексика: mänskliga rättigheter, inkludering, delaktighet, jämlikhet vs jämställdhet (равенство вообще и гендерное равенство), tillgänglighet.",
+    "en": "Vocabulary: mänskliga rättigheter, inkludering, delaktighet, jämlikhet vs jämställdhet (general equality vs. gender equality), tillgänglighet."
+  },
+  "kind": "vocab",
+  "levels": ["sva-grund-4"],
+  "tags": ["vocab", "society", "rights"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2140,
+  "prerequisites": ["sva-grund-3/discrimination-equality"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

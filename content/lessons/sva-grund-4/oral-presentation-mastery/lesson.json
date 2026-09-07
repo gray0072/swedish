@@ -1,0 +1,36 @@
+{
+  "id": "sva-grund-4/oral-presentation-mastery",
+  "slug": "oral-presentation-mastery",
+  "title": {
+    "sv": "Den muntliga presentationen — struktur, tempo och publikkontakt",
+    "ru": "Устная презентация: структура, темп, контакт с аудиторией",
+    "en": "An oral presentation: structure, pace, contact with the audience"
+  },
+  "summary": {
+    "ru": "Продвинутые фразы для подачи презентации: контроль времени, зрительный контакт, риторические вопросы и уверенные ответы на сложные вопросы.",
+    "en": "Advanced delivery phrases for a presentation: managing time, eye contact, rhetorical questions, and answering difficult questions with confidence."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "presentation",
+    "speaking",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2050,
+  "prerequisites": [
+    "sva-grund-3/oral-presentation-advanced"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

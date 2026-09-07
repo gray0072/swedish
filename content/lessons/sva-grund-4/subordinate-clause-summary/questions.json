@@ -1,0 +1,123 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-subordinate-clause-summary-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает BIFF?", "en": "What does BIFF stand for?" },
+      "choices": ["Bisats, Inte, Finita verbet, Före", "Bisats, Inversion, Fundament, Före", "Bisats, Inte, Fundament, Efter", "Böjning, Inte, Finita verbet, Före"],
+      "answer": 0
+    },
+    {
+      "id": "q-subordinate-clause-summary-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой союз вводит уступительное придаточное?", "en": "Which conjunction introduces a concessive clause?" },
+      "choices": ["eftersom", "fastän", "om", "att"],
+      "answer": 1
+    },
+    {
+      "id": "q-subordinate-clause-summary-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Mannen som inte bor här längre har flyttat» — какой это тип придаточного?", "en": "\"Mannen som inte bor här längre har flyttat\" — what type of clause is this?" },
+      "choices": ["Условное", "Относительное", "Причины", "Изъяснительное"],
+      "answer": 1
+    },
+    {
+      "id": "q-subordinate-clause-summary-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В придаточном «eftersom hon inte mådde bra» где стоит «inte»?", "en": "In the clause \"eftersom hon inte mådde bra\", where is \"inte\"?" },
+      "choices": ["После финитного глагола mådde", "Перед финитным глаголом mådde", "В самом начале придаточного", "После bra"],
+      "answer": 1
+    },
+    {
+      "id": "q-subordinate-clause-summary-mc-5",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "«Om du inte kommer i tid, väntar vi inte» — почему во второй части «väntar vi», а не «vi väntar»?", "en": "\"Om du inte kommer i tid, väntar vi inte\" — why is it \"väntar vi\" and not \"vi väntar\" in the second part?" },
+      "choices": ["Потому что это тоже придаточное с BIFF", "Потому что придаточное в начале заняло fundament, и по V2 глагол стоит на втором месте", "Это ошибка, порядок должен быть vi väntar", "Потому что väntar — модальный глагол"],
+      "answer": 1
+    },
+    {
+      "id": "q-subordinate-clause-summary-mc-6",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что различает шесть типов придаточных из этого урока?", "en": "What distinguishes the six clause types in this lesson?" },
+      "choices": ["Порядок слов внутри придаточного", "Значение и союз, а порядок слов один и тот же (BIFF)", "Только тип придаточного определяет наличие подлежащего", "Ничего, все шесть — это одно и то же придаточное"],
+      "answer": 1
+    },
+    {
+      "id": "q-subordinate-clause-summary-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«När», «medan», «innan» и «tills» вводят временные придаточные.", "en": "\"När\", \"medan\", \"innan\" and \"tills\" introduce temporal clauses." },
+      "answer": true
+    },
+    {
+      "id": "q-subordinate-clause-summary-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В относительном придаточном с «som» правило BIFF не действует.", "en": "BIFF does not apply in a relative clause introduced by \"som\"." },
+      "answer": false,
+      "explanation": { "ru": "BIFF действует в любом придаточном, включая относительное: Mannen som inte bor här längre....", "en": "BIFF applies in every subordinate clause, including a relative one: Mannen som inte bor här längre...." }
+    },
+    {
+      "id": "q-subordinate-clause-summary-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Om» и «ifall» оба могут вводить условное придаточное.", "en": "Both \"om\" and \"ifall\" can introduce a conditional clause." },
+      "answer": true
+    },
+    {
+      "id": "q-subordinate-clause-summary-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hon stannade hemma ___ hon inte mådde bra. (придаточное причины)" },
+      "answer": ["eftersom", "därför att"]
+    },
+    {
+      "id": "q-subordinate-clause-summary-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han gick ut ___ det regnade. (уступительное придаточное)" },
+      "answer": ["fastän", "även om"]
+    },
+    {
+      "id": "q-subordinate-clause-summary-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "Vi väntade ___ han kom. (придаточное «пока не»)" },
+      "answer": ["tills"]
+    },
+    {
+      "id": "q-subordinate-clause-summary-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "Kvinnan ___ bil stals bor granne med oss. (относительное притяжательное)" },
+      "answer": ["vars"]
+    },
+    {
+      "id": "q-subordinate-clause-summary-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери придаточное: «...так как она плохо себя чувствовала» (BIFF)", "en": "Build the clause: \"...since she wasn't feeling well\" (BIFF)" },
+      "tokens": ["eftersom", "hon", "inte", "mådde", "bra"],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-subordinate-clause-summary-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь союз с типом придаточного", "en": "Match the conjunction with the clause type" },
+      "pairs": [
+        ["att", "изъяснительное / object clause"],
+        ["fastän", "уступительное / concessive clause"],
+        ["eftersom", "причины / causal clause"],
+        ["om", "условное / conditional clause"],
+        ["när", "временное / temporal clause"]
+      ]
+    }
+  ]
+}

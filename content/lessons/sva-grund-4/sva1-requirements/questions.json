@@ -1,0 +1,153 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-sva1-requirements-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Шкала оценок на гимназическом уровне — от A до F.»", "en": "Build the sentence: \"The grading scale at upper-secondary level runs from A to F.\"" },
+      "tokens": ["går", "Betygsskalan", "från A till F.", "på gymnasienivå"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-sva1-requirements-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Итоговая оценка даёт тебе право на поступление в вуз.»", "en": "Build the sentence: \"The final grade gives you eligibility for university.\"" },
+      "tokens": ["ger dig", "till högskolan.", "Slutbetyget", "behörighet"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-sva1-requirements-order-3",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Учебный план есть на сайте Skolverket.»", "en": "Build the sentence: \"The syllabus is on the Skolverket website.\"" },
+      "tokens": ["på Skolverkets webbplats.", "Kursplanen", "finns"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-sva1-requirements-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["kursplan", "учебный план"],
+        ["slutbetyg", "итоговая оценка"],
+        ["behörighet", "право на поступление"],
+        ["komvux", "образование для взрослых (комвукс)"]
+      ]
+    },
+    {
+      "id": "q-sva1-requirements-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["yrkesprogram", "профессиональная программа"],
+        ["studievägledare", "консультант по учёбе"],
+        ["betygsskala", "шкала оценок"],
+        ["gymnasieexamen", "аттестат о среднем образовании"]
+      ]
+    },
+    {
+      "id": "q-sva1-requirements-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Минимальная положительная оценка (godkänt betyg) — это E.", "en": "The minimum passing grade (\"godkänt betyg\") is an E." },
+      "answer": true
+    },
+    {
+      "id": "q-sva1-requirements-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Komvux» — это обычная гимназия для подростков 16-19 лет.", "en": "\"Komvux\" is a regular upper-secondary school for teenagers aged 16-19." },
+      "answer": false,
+      "explanation": {
+        "ru": "Komvux — это муниципальное образование для взрослых, а не обычная гимназия.",
+        "en": "Komvux is municipal adult education, not a regular upper-secondary school."
+      }
+    },
+    {
+      "id": "q-sva1-requirements-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kunskapskrav» описывают, что нужно уметь для каждой оценки.", "en": "\"Kunskapskrav\" describe what you must be able to do for each grade." },
+      "answer": true
+    },
+    {
+      "id": "q-sva1-requirements-tf-4",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Slutbetyg» никак не влияет на «behörighet» (право поступления) в вуз.", "en": "A \"slutbetyg\" has no effect on your \"behörighet\" (eligibility) for university." },
+      "answer": false,
+      "explanation": {
+        "ru": "Именно итоговая оценка даёт право на дальнейшую учёбу.",
+        "en": "It is exactly the final grade that gives eligibility for further studies."
+      }
+    },
+    {
+      "id": "q-sva1-requirements-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du behöver ett ___ betyg, alltså minst E. (положительная)" },
+      "answer": ["godkänt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sva1-requirements-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ ger dig behörighet till högskolan. (итоговая оценка)" },
+      "answer": ["Slutbetyget"],
+      "acceptAlso": ["slutbetyget"]
+    },
+    {
+      "id": "q-sva1-requirements-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Fråga din ___ vilka kurser du behöver. (консультант по учёбе)" },
+      "answer": ["studievägledare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sva1-requirements-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как называется предмет «Шведский как второй язык» на гимназическом уровне?",
+        "en": "What is the name of the \"Swedish as a Second Language\" subject at upper-secondary level?"
+      },
+      "choices": ["Svenska som andraspråk 1", "Svenska för invandrare", "Svenska 1", "Engelska 5"],
+      "answer": 0
+    },
+    {
+      "id": "q-sva1-requirements-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какая оценка — минимальная положительная в шведской системе A-F?",
+        "en": "Which grade is the minimum passing grade in the Swedish A-F system?"
+      },
+      "choices": ["E", "F", "C", "A"],
+      "answer": 0
+    },
+    {
+      "id": "q-sva1-requirements-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "К кому стоит обратиться, чтобы узнать, какие курсы нужны для допуска?",
+        "en": "Who should you contact to find out which courses you need for eligibility?"
+      },
+      "choices": ["studievägledare", "arbetsgivare", "hyresvärd", "socialsekreterare"],
+      "answer": 0
+    }
+  ]
+}

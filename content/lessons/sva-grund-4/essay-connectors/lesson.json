@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/essay-connectors",
+  "slug": "essay-connectors",
+  "title": {
+    "sv": "Konnektorer för att strukturera en uppsats",
+    "ru": "Коннекторы для структурирования эссе",
+    "en": "Connectors for structuring an essay"
+  },
+  "summary": {
+    "ru": "Введение, развитие, контраст, заключение — набор связок для целого эссе, а не одного абзаца.",
+    "en": "Opening, adding, contrasting, concluding — a connector toolkit for a whole essay, not just one paragraph."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "connectors",
+    "essay",
+    "writing",
+    "cohesion"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1820,
+  "prerequisites": [
+    "sva-grund-2/text-connectors"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

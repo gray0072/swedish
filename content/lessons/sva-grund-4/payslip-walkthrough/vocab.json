@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "id": "bruttolon",
+      "sv": "bruttolön",
+      "translations": { "ru": "зарплата до вычета налогов (брутто)", "en": "gross salary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bruttolön", "defSg": "bruttolönen", "indefPl": "bruttolöner", "defPl": "bruttolönerna" },
+      "example": { "sv": "Min bruttolön är 32 000 kronor i månaden.", "ru": "Моя зарплата до вычета налогов — 32 000 крон в месяц.", "en": "My gross salary is 32,000 kronor a month." }
+    },
+    {
+      "id": "nettolon",
+      "sv": "nettolön",
+      "translations": { "ru": "зарплата после вычета налогов (нетто)", "en": "net salary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nettolön", "defSg": "nettolönen", "indefPl": "nettolöner", "defPl": "nettolönerna" },
+      "example": { "sv": "Nettolönen som betalas ut blir cirka 25 000 kronor.", "ru": "Зарплата нетто, которую перечисляют, составляет около 25 000 крон.", "en": "The net salary paid out comes to about 25,000 kronor." }
+    },
+    {
+      "id": "avdragen-skatt",
+      "sv": "avdragen skatt",
+      "translations": { "ru": "удержанный налог", "en": "tax withheld" },
+      "pos": "phrase",
+      "example": { "sv": "Skillnaden mellan bruttolön och nettolön är avdragen skatt.", "ru": "Разница между зарплатой брутто и нетто — это удержанный налог.", "en": "The difference between gross and net salary is the tax withheld." }
+    },
+    {
+      "id": "tjanstepension",
+      "sv": "tjänstepension",
+      "translations": { "ru": "профессиональная (трудовая) пенсия", "en": "occupational pension" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tjänstepension", "defSg": "tjänstepensionen", "indefPl": "tjänstepensioner", "defPl": "tjänstepensionerna" },
+      "example": { "sv": "Arbetsgivaren sätter av pengar till din tjänstepension varje månad.", "ru": "Работодатель ежемесячно откладывает деньги в твою трудовую пенсию.", "en": "The employer sets aside money for your occupational pension every month." }
+    },
+    {
+      "id": "lonespecifikation",
+      "sv": "lönespecifikation",
+      "translations": { "ru": "расчётный листок", "en": "payslip" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lönespecifikation", "defSg": "lönespecifikationen", "indefPl": "lönespecifikationer", "defPl": "lönespecifikationerna" },
+      "example": { "sv": "Lönespecifikationen visar bruttolön, avdrag och nettolön.", "ru": "Расчётный листок показывает зарплату брутто, вычеты и зарплату нетто.", "en": "The payslip shows the gross salary, the deductions and the net salary." }
+    },
+    {
+      "id": "semesterlonegrundande",
+      "sv": "semesterlönegrundande",
+      "translations": { "ru": "дающий право на отпускные (о рабочем времени)", "en": "qualifying for holiday pay" },
+      "pos": "adj",
+      "example": { "sv": "De första 180 dagarna med föräldrapenning är semesterlönegrundande.", "ru": "Первые 180 дней с родительским пособием дают право на отпускные.", "en": "The first 180 days on parental benefit qualify for holiday pay." }
+    },
+    {
+      "id": "arbetsgivaravgift",
+      "sv": "arbetsgivaravgift",
+      "translations": { "ru": "взносы работодателя (социальные отчисления)", "en": "employer's social security contribution" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsgivaravgift", "defSg": "arbetsgivaravgiften", "indefPl": "arbetsgivaravgifter", "defPl": "arbetsgivaravgifterna" },
+      "example": { "sv": "Arbetsgivaren betalar arbetsgivaravgifter till staten utöver din lön.", "ru": "Помимо зарплаты, работодатель платит государству взносы работодателя.", "en": "In addition to your salary, the employer pays social security contributions to the state." }
+    },
+    {
+      "id": "skattetabell",
+      "sv": "skattetabell",
+      "translations": { "ru": "налоговая таблица", "en": "tax table" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skattetabell", "defSg": "skattetabellen", "indefPl": "skattetabeller", "defPl": "skattetabellerna" },
+      "example": { "sv": "Arbetsgivaren räknar ut din skatt utifrån rätt skattetabell.", "ru": "Работодатель рассчитывает твой налог по нужной налоговой таблице.", "en": "The employer calculates your tax based on the correct tax table." }
+    },
+    {
+      "id": "preliminarskatt",
+      "sv": "preliminärskatt",
+      "translations": { "ru": "предварительный (авансовый) налог", "en": "preliminary tax" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en preliminärskatt", "defSg": "preliminärskatten", "indefPl": "preliminärskatter", "defPl": "preliminärskatterna" },
+      "example": { "sv": "Preliminärskatten dras direkt från din lön varje månad.", "ru": "Предварительный налог удерживается прямо из зарплаты каждый месяц.", "en": "Preliminary tax is deducted directly from your salary every month." }
+    },
+    {
+      "id": "jamkning",
+      "sv": "jämkning",
+      "translations": { "ru": "корректировка (перерасчёт) налога", "en": "tax adjustment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jämkning", "defSg": "jämkningen", "indefPl": "jämkningar", "defPl": "jämkningarna" },
+      "example": { "sv": "Om för mycket skatt dras kan du ansöka om jämkning hos Skatteverket.", "ru": "Если удерживают слишком много налога, можно подать заявку на перерасчёт в налоговой службе.", "en": "If too much tax is withheld, you can apply for a tax adjustment at the Tax Agency." }
+    },
+    {
+      "id": "kontrolluppgift",
+      "sv": "kontrolluppgift",
+      "translations": { "ru": "справка о доходах (сведения для налоговой)", "en": "income statement (reported to the tax agency)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontrolluppgift", "defSg": "kontrolluppgiften", "indefPl": "kontrolluppgifter", "defPl": "kontrolluppgifterna" },
+      "example": { "sv": "Arbetsgivaren skickar en kontrolluppgift till Skatteverket varje år.", "ru": "Работодатель ежегодно отправляет справку о доходах в налоговую службу.", "en": "The employer sends an income statement to the Tax Agency every year." }
+    },
+    {
+      "id": "overtidsersattning",
+      "sv": "övertidsersättning",
+      "translations": { "ru": "оплата сверхурочных", "en": "overtime pay" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en övertidsersättning", "defSg": "övertidsersättningen", "indefPl": "övertidsersättningar", "defPl": "övertidsersättningarna" },
+      "example": { "sv": "Jag fick övertidsersättning för de extra timmarna i förra veckan.", "ru": "Я получил(а) оплату сверхурочных за дополнительные часы на прошлой неделе.", "en": "I received overtime pay for the extra hours last week." }
+    },
+    {
+      "id": "semesterersattning",
+      "sv": "semesterersättning",
+      "translations": { "ru": "отпускная компенсация", "en": "holiday pay, holiday compensation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en semesterersättning", "defSg": "semesterersättningen", "indefPl": "semesterersättningar", "defPl": "semesterersättningarna" },
+      "example": { "sv": "Vid en tillfällig anställning får du semesterersättning i stället för lediga dagar.", "ru": "При временной работе ты получаешь отпускную компенсацию вместо выходных дней.", "en": "In a temporary job you get holiday compensation instead of days off." }
+    },
+    {
+      "id": "semesterdag",
+      "sv": "semesterdag",
+      "translations": { "ru": "день отпуска", "en": "vacation day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en semesterdag", "defSg": "semesterdagen", "indefPl": "semesterdagar", "defPl": "semesterdagarna" },
+      "example": { "sv": "De flesta har rätt till 25 semesterdagar per år.", "ru": "У большинства есть право на 25 дней отпуска в год.", "en": "Most people are entitled to 25 vacation days a year." }
+    },
+    {
+      "id": "sjuklon",
+      "sv": "sjuklön",
+      "translations": { "ru": "оплата по болезни", "en": "sick pay" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjuklön", "defSg": "sjuklönen", "indefPl": "sjuklöner", "defPl": "sjuklönerna" },
+      "example": { "sv": "Arbetsgivaren betalar sjuklön de första två veckorna av en sjukperiod.", "ru": "Работодатель платит по болезни первые две недели больничного.", "en": "The employer pays sick pay for the first two weeks of an illness." }
+    },
+    {
+      "id": "timlon",
+      "sv": "timlön",
+      "translations": { "ru": "почасовая оплата", "en": "hourly wage" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en timlön", "defSg": "timlönen", "indefPl": "timlöner", "defPl": "timlönerna" },
+      "example": { "sv": "Timlönen för sommarjobbet var 130 kronor.", "ru": "Почасовая оплата на летней работе была 130 крон.", "en": "The hourly wage for the summer job was 130 kronor." }
+    },
+    {
+      "id": "manadslon",
+      "sv": "månadslön",
+      "translations": { "ru": "месячная зарплата (оклад)", "en": "monthly salary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en månadslön", "defSg": "månadslönen", "indefPl": "månadslöner", "defPl": "månadslönerna" },
+      "example": { "sv": "Jag har en fast månadslön oavsett hur många timmar jag jobbar.", "ru": "У меня фиксированный месячный оклад независимо от того, сколько часов я работаю.", "en": "I have a fixed monthly salary regardless of how many hours I work." }
+    },
+    {
+      "id": "utbetalningsdag",
+      "sv": "utbetalningsdag",
+      "translations": { "ru": "день выплаты (зарплаты)", "en": "payday" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbetalningsdag", "defSg": "utbetalningsdagen", "indefPl": "utbetalningsdagar", "defPl": "utbetalningsdagarna" },
+      "example": { "sv": "Utbetalningsdagen på mitt jobb är den 25:e varje månad.", "ru": "День выплаты на моей работе — 25-е число каждого месяца.", "en": "The payday at my job is the 25th of every month." }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-argumentative-essay-full-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Тезис нужно чётко сформулировать уже во введении.»", "en": "Build the sentence: \"The thesis should be stated clearly already in the introduction.\"" },
+      "tokens": ["Tesen", "redan i inledningen.", "bör presenteras tydligt"],
+      "answer": [0, 2, 1]
+    },
+    {
+      "id": "q-argumentative-essay-full-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Каждый абзац должен начинаться с чёткого тематического предложения.»", "en": "Build the sentence: \"Every paragraph should open with a clear topic sentence.\"" },
+      "tokens": ["med en tydlig ämnesmening.", "bör inledas", "Varje stycke"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-argumentative-essay-full-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Через весь текст должна проходить единая красная нить.»", "en": "Build the sentence: \"There should be a common thread running through the whole text.\"" },
+      "tokens": ["genom hela texten.", "Det ska finnas", "en röd tråd"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-argumentative-essay-full-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["krok", "крючок (начало текста)"],
+        ["tes", "тезис"],
+        ["belägg", "доказательство"],
+        ["analys", "анализ"]
+      ]
+    },
+    {
+      "id": "q-argumentative-essay-full-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["motargument", "контраргумент"],
+        ["bemötande", "опровержение"],
+        ["disposition", "структура текста"],
+        ["ämnesmening", "тематическое предложение"]
+      ]
+    },
+    {
+      "id": "q-argumentative-essay-full-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Хорошее заключение просто повторяет тезис теми же словами.", "en": "A good conclusion simply repeats the thesis in the same words." },
+      "answer": false,
+      "explanation": {
+        "ru": "Хорошее заключение идёт дальше — делает более широкий вывод или задаёт новый вопрос.",
+        "en": "A good conclusion goes further — it draws a broader conclusion or poses a new question."
+      }
+    },
+    {
+      "id": "q-argumentative-essay-full-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "После belägg (доказательства) в абзаце нужна analys — объяснение, почему оно важно.", "en": "After the belägg (evidence) in a paragraph, an analys — an explanation of why it matters — is needed." },
+      "answer": true
+    },
+    {
+      "id": "q-argumentative-essay-full-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Сильное эссе полностью игнорирует любые контраргументы.", "en": "A strong essay completely ignores any counter-arguments." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот, сильное эссе рассматривает контраргумент и грамотно его опровергает.",
+        "en": "On the contrary, a strong essay addresses a counter-argument and properly rebuts it."
+      }
+    },
+    {
+      "id": "q-argumentative-essay-full-tf-4",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Röd tråd» означает логическую связность текста от начала до конца.", "en": "\"Röd tråd\" means the logical coherence of a text from start to finish." },
+      "answer": true
+    },
+    {
+      "id": "q-argumentative-essay-full-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "En stark ___ fångar läsarens uppmärksamhet direkt. (крючок)" },
+      "answer": ["krok"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-argumentative-essay-full-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ det argumentet genom att visa nya siffror. (опровергаю)" },
+      "answer": ["bemöter"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-argumentative-essay-full-gap-3",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ visar detta att frågan är mer komplex än den verkar. (в заключение)" },
+      "answer": ["Sammanfattningsvis"],
+      "acceptAlso": ["sammanfattningsvis"]
+    },
+    {
+      "id": "q-argumentative-essay-full-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что должно идти после ämnesmening (тематического предложения) в абзаце?",
+        "en": "What should come after the ämnesmening (topic sentence) in a paragraph?"
+      },
+      "choices": ["belägg и analys", "новый tes", "ещё одна krok", "заключение всего эссе"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-essay-full-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какое слово означает «контраргумент»?",
+        "en": "Which word means \"counter-argument\"?"
+      },
+      "choices": ["motargument", "belägg", "disposition", "krok"],
+      "answer": 0
+    },
+    {
+      "id": "q-argumentative-essay-full-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Что делает хорошее заключение помимо повторения тезиса?",
+        "en": "What does a good conclusion do besides restating the thesis?"
+      },
+      "choices": ["делает более широкий вывод или задаёт новый вопрос", "полностью повторяет введение", "добавляет новый контраргумент без опровержения", "перечисляет все использованные источники"],
+      "answer": 0
+    }
+  ]
+}

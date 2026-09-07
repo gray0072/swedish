@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-4/narrative-tense-aspect",
+  "slug": "narrative-tense-aspect",
+  "title": {
+    "sv": "Tempus och aspekt i berättande text: att välja form för effekt",
+    "ru": "Время и аспект в повествовании: выбор формы для эффекта",
+    "en": "Tense and aspect in narrative: choosing a form for effect"
+  },
+  "summary": {
+    "ru": "Историческое настоящее время: как рассказчик нарочно нарушает «ожидаемое» время ради живости.",
+    "en": "The historical present: how a narrator deliberately breaks the \"expected\" tense for vividness."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-4"],
+  "tags": ["grammar", "verbs", "style", "narrative"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1900,
+  "prerequisites": ["sva-grund-2/pluperfect-narrative"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

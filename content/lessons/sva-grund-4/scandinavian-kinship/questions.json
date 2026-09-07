@@ -1,0 +1,102 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-scandinavian-kinship-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Какие языки называют «grannspråk» Швеции?", "en": "Which languages are called Sweden's \"grannspråk\"?" },
+      "choices": ["датский и норвежский", "немецкий и голландский", "финский и исландский"],
+      "answer": 0
+    },
+    {
+      "id": "q-scandinavian-kinship-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какой из скандинавских языков большинству шведов труднее всего понимать на слух?", "en": "Which Scandinavian language is hardest for most Swedes to understand by ear?" },
+      "choices": ["датский", "норвежский", "исландский"],
+      "answer": 0
+    },
+    {
+      "id": "q-scandinavian-kinship-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что означает шведское слово «rolig»?", "en": "What does the Swedish word \"rolig\" mean?" },
+      "choices": [
+        { "ru": "весёлый, забавный", "en": "funny, fun" },
+        { "ru": "спокойный", "en": "calm" },
+        { "ru": "грустный", "en": "sad" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-scandinavian-kinship-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что означает датское слово «by»?", "en": "What does the Danish word \"by\" mean?" },
+      "choices": [
+        { "ru": "город", "en": "town/city" },
+        { "ru": "деревня", "en": "village" },
+        { "ru": "остров", "en": "island" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-scandinavian-kinship-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Письменный текст на датском обычно легче понять, чем устную датскую речь.", "en": "Written Danish text is usually easier to understand than spoken Danish." },
+      "answer": true,
+      "explanation": { "ru": "Да, произношение датского сильно отличается от написания.", "en": "Yes, Danish pronunciation differs a lot from its spelling." }
+    },
+    {
+      "id": "q-scandinavian-kinship-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Норвежское слово «rolig» означает то же самое, что шведское «rolig».", "en": "The Norwegian word \"rolig\" means the same as the Swedish word \"rolig\"." },
+      "answer": false,
+      "explanation": { "ru": "Это ложные друзья: в шведском — «весёлый», в норвежском — «спокойный».", "en": "These are false friends: Swedish means \"funny/fun\", Norwegian means \"calm\"." }
+    },
+    {
+      "id": "q-scandinavian-kinship-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Svenska, danska och norska tillhör de ___ språken. (nordiska)" },
+      "answer": ["nordiska"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-scandinavian-kinship-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Danska och norska kallas Sveriges ___. (grannspråk)" },
+      "answer": ["grannspråk"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-scandinavian-kinship-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Норвежский большинству шведов легче понимать на слух, чем датский.»", "en": "Build the sentence: \"Norwegian is easier for most Swedes to understand orally than Danish.\"" },
+      "tokens": ["Norska", "är", "för", "de", "flesta", "svenskar", "lättare", "att", "förstå", "muntligt", "än", "danska"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "id": "q-scandinavian-kinship-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["grannspråk", "язык-сосед / neighbour language"],
+        ["falska vänner", "ложные друзья / false friends"],
+        ["uttal", "произношение / pronunciation"],
+        ["germanska språk", "германские языки / Germanic languages"]
+      ]
+    },
+    {
+      "id": "q-scandinavian-kinship-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «grannspråksförståelse»?", "en": "What is \"grannspråksförståelse\"?" },
+      "choices": [
+        { "ru": "понимание близкородственных языков соседних стран", "en": "comprehension of closely related neighbouring-country languages" },
+        { "ru": "перевод официальных документов", "en": "translating official documents" },
+        { "ru": "изучение иностранного алфавита", "en": "learning a foreign alphabet" }
+      ],
+      "answer": 0
+    }
+  ]
+}

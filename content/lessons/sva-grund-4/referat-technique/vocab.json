@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "citat",
+      "sv": "citat",
+      "translations": { "ru": "цитата", "en": "quotation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "citat", "defSg": "citatet", "indefPl": "citat", "defPl": "citaten" }
+    },
+    {
+      "id": "citera",
+      "sv": "citera",
+      "translations": { "ru": "цитировать", "en": "to quote" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" }
+    },
+    {
+      "id": "parafras",
+      "sv": "parafras",
+      "translations": { "ru": "парафраз, пересказ своими словами", "en": "paraphrase" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en parafras", "defSg": "parafrasen", "indefPl": "parafraser", "defPl": "parafraserna" }
+    },
+    {
+      "id": "parafrasera",
+      "sv": "parafrasera",
+      "translations": { "ru": "перефразировать, пересказывать своими словами", "en": "to paraphrase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "parafrasera", "present": "parafraserar", "past": "parafraserade", "supine": "parafraserat" }
+    },
+    {
+      "id": "plagiat",
+      "sv": "plagiat",
+      "translations": { "ru": "плагиат", "en": "plagiarism" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett plagiat", "defSg": "plagiatet", "indefPl": "plagiat", "defPl": "plagiaten" }
+    },
+    {
+      "id": "plagiera",
+      "sv": "plagiera",
+      "translations": { "ru": "заниматься плагиатом, красть чужой текст", "en": "to plagiarise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "plagiera", "present": "plagierar", "past": "plagierade", "supine": "plagierat" }
+    },
+    {
+      "id": "kalla-referat",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+    },
+    {
+      "id": "kallhanvisning-referat",
+      "sv": "källhänvisning",
+      "translations": { "ru": "ссылка на источник", "en": "source reference, citation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" }
+    },
+    {
+      "id": "havda",
+      "sv": "hävda",
+      "translations": { "ru": "утверждать", "en": "to claim, assert" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" },
+      "example": { "sv": "I sin studie hävdar Berg att utsläppen måste halveras.", "ru": "В своём исследовании Берг утверждает, что выбросы нужно сократить вдвое.", "en": "In her study, Berg argues that emissions must be halved." }
+    },
+    {
+      "id": "forskare",
+      "sv": "forskare",
+      "translations": { "ru": "исследователь, учёный", "en": "researcher, scholar" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+    },
+    {
+      "id": "studie",
+      "sv": "studie",
+      "translations": { "ru": "исследование", "en": "study" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" }
+    },
+    {
+      "id": "halvera",
+      "sv": "halvera",
+      "translations": { "ru": "сократить вдвое, разделить пополам", "en": "to halve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "halvera", "present": "halverar", "past": "halverade", "supine": "halverat" }
+    },
+    {
+      "id": "utslapp",
+      "sv": "utsläpp",
+      "translations": { "ru": "выбросы", "en": "emissions" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "utsläpp", "defSg": "utsläppet", "indefPl": "utsläpp", "defPl": "utsläppen" }
+    },
+    {
+      "id": "referatteknik",
+      "sv": "referatteknik",
+      "translations": { "ru": "техника пересказа (реферирования)", "en": "referat technique, summarising technique" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en referatteknik", "defSg": "referattekniken", "indefPl": "referattekniker", "defPl": "referatteknikerna" }
+    },
+    {
+      "id": "hot-noun",
+      "sv": "hot",
+      "translations": { "ru": "угроза", "en": "threat" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "hot", "defSg": "hotet", "indefPl": "hot", "defPl": "hoten" }
+    }
+  ]
+}

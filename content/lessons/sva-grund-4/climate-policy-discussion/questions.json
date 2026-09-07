@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-climate-policy-discussion-mc-1",
+      "type": "mc",
+      "prompt": { "ru": "Что означает «styrmedel»?", "en": "What does \"styrmedel\" mean?" },
+      "choices": [
+        { "ru": "инструмент политики (налог, субсидия, закон)", "en": "a policy tool (tax, subsidy, law)" },
+        { "ru": "климатическая цель", "en": "a climate target" },
+        { "ru": "выброс CO2", "en": "a CO2 emission" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-policy-discussion-mc-2",
+      "type": "mc",
+      "prompt": { "ru": "Какая фраза используется, чтобы признать компромисс между интересами?", "en": "Which phrase is used to acknowledge a trade-off between interests?" },
+      "choices": ["en avvägning mellan...", "på kort sikt", "ett klimatmål"],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-policy-discussion-mc-3",
+      "type": "mc",
+      "prompt": { "ru": "Что такое «koldioxidskatt»?", "en": "What is \"koldioxidskatt\"?" },
+      "choices": [
+        { "ru": "налог на выбросы CO2", "en": "a tax on CO2 emissions" },
+        { "ru": "субсидия на электромобили", "en": "an EV subsidy" },
+        { "ru": "штраф за мусор", "en": "a littering fine" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-policy-discussion-mc-4",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «på lång sikt»?", "en": "What does \"på lång sikt\" mean?" },
+      "choices": ["в долгосрочной перспективе", "в краткосрочной перспективе", "прямо сейчас"],
+      "answer": 0
+    },
+    {
+      "id": "q-climate-policy-discussion-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Обсуждение климатической политики обычно сводится только к «за» или «против».", "en": "Discussing climate policy usually boils down only to \"for\" or \"against\"." },
+      "answer": false,
+      "explanation": { "ru": "Политика обычно требует компромисса и учёта краткосрочных и долгосрочных эффектов.", "en": "Policy usually requires trade-offs and weighing short-term against long-term effects." }
+    },
+    {
+      "id": "q-climate-policy-discussion-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Мера, которая стоит денег в краткосрочной перспективе, никогда не может окупиться в долгосрочной.", "en": "A measure that costs money in the short term can never pay off in the long term." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот, многие меры окупаются именно в долгосрочной перспективе.", "en": "On the contrary, many measures do pay off precisely in the long term." }
+    },
+    {
+      "id": "q-climate-policy-discussion-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Koldioxidskatt är ett ___ som ska minska utsläppen. (styrmedel)" },
+      "answer": ["styrmedel"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-climate-policy-discussion-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Det handlar om en ___ mellan ekonomisk tillväxt och miljöhänsyn. (avvägning)" },
+      "answer": ["avvägning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-climate-policy-discussion-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Требуется значительное снижение выбросов, чтобы достичь климатических целей.»", "en": "Build the sentence: \"A sharp reduction in emissions is needed to reach the climate targets.\"" },
+      "tokens": ["En", "kraftig", "utsläppsminskning", "krävs", "för", "att", "nå", "klimatmålen"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "q-climate-policy-discussion-match-1",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь термин с переводом", "en": "Match the term with its translation" },
+      "pairs": [
+        ["styrmedel", "инструмент политики / policy tool"],
+        ["utsläppsminskning", "снижение выбросов / emissions reduction"],
+        ["subvention", "субсидия / subsidy"],
+        ["reglering", "регулирование / regulation"]
+      ]
+    },
+    {
+      "id": "q-climate-policy-discussion-mc-5",
+      "type": "mc",
+      "prompt": { "ru": "Что значит «syfta till att...»?", "en": "What does \"syfta till att...\" mean?" },
+      "choices": ["быть направленным на то, чтобы...", "запрещать", "финансировать"],
+      "answer": 0
+    }
+  ]
+}
