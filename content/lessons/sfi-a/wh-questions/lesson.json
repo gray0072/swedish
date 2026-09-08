@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/wh-questions",
+  "slug": "wh-questions",
+  "title": {
+    "sv": "Vad, var, hur — frågor",
+    "ru": "Вопросы с вопросительным словом",
+    "en": "Wh-questions"
+  },
+  "summary": {
+    "ru": "Вопросительное слово → слово-действие → кто — зеркало утверждения из прошлого урока.",
+    "en": "Question word → the action word → who — the mirror image of the previous lesson's statement shape."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "questions",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 360,
+  "prerequisites": [
+    "sfi-a/statement-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

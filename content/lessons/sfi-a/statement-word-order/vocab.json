@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "jag",
+      "sv": "jag",
+      "translations": { "ru": "я", "en": "I" },
+      "pos": "pron",
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
+    },
+    {
+      "id": "bor",
+      "sv": "bor",
+      "translations": { "ru": "живу / живёшь / живёт", "en": "live(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
+    },
+    {
+      "id": "i",
+      "sv": "i",
+      "translations": { "ru": "в", "en": "in" },
+      "pos": "prep",
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
+    },
+    {
+      "id": "du",
+      "sv": "du",
+      "translations": { "ru": "ты", "en": "you" },
+      "pos": "pron",
+      "example": { "sv": "Du heter Ali.", "ru": "Тебя зовут Али.", "en": "Your name is Ali." }
+    },
+    {
+      "id": "heter",
+      "sv": "heter",
+      "translations": { "ru": "зовут (меня/тебя/его...)", "en": "is/am named" },
+      "pos": "verb",
+      "forms": { "infinitive": "heta", "present": "heter", "past": "hette", "supine": "hetat" },
+      "example": { "sv": "Du heter Ali.", "ru": "Тебя зовут Али.", "en": "Your name is Ali." }
+    },
+    {
+      "id": "vi",
+      "sv": "vi",
+      "translations": { "ru": "мы", "en": "we" },
+      "pos": "pron",
+      "example": { "sv": "Vi talar svenska.", "ru": "Мы говорим по-шведски.", "en": "We speak Swedish." }
+    },
+    {
+      "id": "talar",
+      "sv": "talar",
+      "translations": { "ru": "говорю / говоришь / говорит", "en": "speak(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Vi talar svenska.", "ru": "Мы говорим по-шведски.", "en": "We speak Swedish." }
+    },
+    {
+      "id": "svenska",
+      "sv": "svenska",
+      "translations": { "ru": "шведский язык", "en": "Swedish (the language)" },
+      "pos": "noun",
+      "example": { "sv": "Vi talar svenska.", "ru": "Мы говорим по-шведски.", "en": "We speak Swedish." }
+    },
+    {
+      "id": "han",
+      "sv": "han",
+      "translations": { "ru": "он", "en": "he" },
+      "pos": "pron",
+      "example": { "sv": "Han jobbar i Stockholm.", "ru": "Он работает в Стокгольме.", "en": "He works in Stockholm." }
+    },
+    {
+      "id": "jobbar",
+      "sv": "jobbar",
+      "translations": { "ru": "работаю / работаешь / работает", "en": "work(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Han jobbar i Stockholm.", "ru": "Он работает в Стокгольме.", "en": "He works in Stockholm." }
+    },
+    {
+      "id": "de",
+      "sv": "de",
+      "translations": { "ru": "они", "en": "they" },
+      "pos": "pron",
+      "example": { "sv": "De bor i Göteborg.", "ru": "Они живут в Гётеборге.", "en": "They live in Gothenburg." }
+    }
+  ]
+}

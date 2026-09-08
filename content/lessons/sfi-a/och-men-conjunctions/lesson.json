@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/och-men-conjunctions",
+  "slug": "och-men-conjunctions",
+  "title": {
+    "sv": "Och och men",
+    "ru": "Союзы och и men",
+    "en": "\"och\" and \"men\""
+  },
+  "summary": {
+    "ru": "Och, men и eller — слова-клей, которые соединяют два коротких предложения в одно.",
+    "en": "Och, men, and eller — glue words that join two short sentences into one."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "conjunctions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 380,
+  "prerequisites": [
+    "sfi-a/statement-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

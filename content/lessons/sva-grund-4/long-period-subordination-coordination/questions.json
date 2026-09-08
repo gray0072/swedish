@@ -1,0 +1,90 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-long-period-subordination-coordination-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как обычно читается сочинённая (samordning) цепочка фактов?", "en": "How does a coordinated (samordning) chain of facts typically read?" },
+      "choices": ["Как иерархия с одной главной мыслью", "Как ряд равноправных, аддитивных фактов", "Как вопрос", "Как пассивная конструкция"],
+      "answer": 1
+    },
+    {
+      "id": "q-long-period-subordination-coordination-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Trots att det regnade gick vi ut, eftersom vi hade lovat att komma, vilket gjorde att vi blev blöta.» — какая часть здесь huvudsats?", "en": "\"Trots att det regnade gick vi ut, eftersom vi hade lovat att komma, vilket gjorde att vi blev blöta.\" — which part is the huvudsats here?" },
+      "choices": ["Trots att det regnade", "vi gick ut", "eftersom vi hade lovat att komma", "vilket gjorde att vi blev blöta"],
+      "answer": 1
+    },
+    {
+      "id": "q-long-period-subordination-coordination-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой риск связан со слишком длинным, сильно подчинённым периодом?", "en": "What risk comes with an overlong, heavily subordinated period?" },
+      "choices": ["Текст становится грамматически неверным", "Читаемость снижается — читателю трудно уследить за мыслью", "Предложение автоматически превращается в вопрос", "Такой риск отсутствует"],
+      "answer": 1
+    },
+    {
+      "id": "q-long-period-subordination-coordination-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что делает подчинение (underordning) с содержанием предложения по сравнению с сочинением?", "en": "What does subordination (underordning) do to the content of a sentence compared with coordination?" },
+      "choices": ["Ничего не меняет", "Создаёт иерархию: одна мысль на фоне, другая выдвинута вперёд", "Удаляет часть фактов", "Делает предложение короче"],
+      "answer": 1
+    },
+    {
+      "id": "q-long-period-subordination-coordination-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Сочинение (samordning) обычно ближе к устной, разговорной речи, чем подчинение.", "en": "Coordination (samordning) is usually closer to plain, spoken language than subordination." },
+      "answer": true
+    },
+    {
+      "id": "q-long-period-subordination-coordination-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Умелый автор должен подчинять как можно больше мыслей в одном предложении, не заботясь о длине.", "en": "A skilled writer should subordinate as many ideas as possible into one sentence, without worrying about length." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: слишком длинный подчинённый период трудно читать — нужно варьировать длину предложений.", "en": "The opposite: an overlong subordinated period is hard to read — sentence length should be varied." }
+    },
+    {
+      "id": "q-long-period-subordination-coordination-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В сочинённой цепочке все части предложения равноправны.", "en": "In a coordinated chain, all the parts of the sentence are equal in status." },
+      "answer": true
+    },
+    {
+      "id": "q-long-period-subordination-coordination-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ det regnade gick vi ut. (несмотря на то что)" },
+      "answer": ["Trots att"]
+    },
+    {
+      "id": "q-long-period-subordination-coordination-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Мы обещали прийти, поэтому всё равно вышли.»", "en": "Build the sentence: \"We had promised to come, so we went out anyway.\"" },
+      "tokens": ["Vi", "hade", "lovat", "att", "komma", "så", "vi", "gick", "ut", "ändå"],
+      "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "q-long-period-subordination-coordination-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь союз/слово с его функцией", "en": "Match the connector with its function" },
+      "pairs": [
+        ["och", "сочинение, добавление / coordination, addition"],
+        ["men", "сочинение, противопоставление / coordination, contrast"],
+        ["så", "сочинение, следствие / coordination, result"],
+        ["eftersom", "подчинение, причина / subordination, reason"],
+        ["trots att", "подчинение, уступка / subordination, concession"]
+      ]
+    }
+  ]
+}

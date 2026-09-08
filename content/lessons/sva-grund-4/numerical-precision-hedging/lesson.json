@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/numerical-precision-hedging",
+  "slug": "numerical-precision-hedging",
+  "title": {
+    "sv": "Siffror i text: precision och försiktighet",
+    "ru": "Числовые утверждения: точность и осторожность",
+    "en": "Numerical statements: precision and hedging"
+  },
+  "summary": {
+    "ru": "Три регистра точности вокруг цифры в тексте: точный (exakt), приблизительный (cirka, drygt, knappt) и расплывчатый (en betydande andel).",
+    "en": "Three registers of precision around a figure in a text: exact (exakt), approximate (cirka, drygt, knappt), and vague (en betydande andel)."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "precision",
+    "statistics",
+    "register",
+    "hedging"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2240,
+  "prerequisites": [
+    "sva-grund-4/economy-statistics-analysis"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

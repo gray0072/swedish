@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/vowel-length",
+  "slug": "vowel-length",
+  "title": {
+    "sv": "Långa och korta vokaler",
+    "ru": "Долгие и краткие гласные",
+    "en": "Long and short vowels"
+  },
+  "summary": {
+    "ru": "vit / vitt, mat / matt — одна буква после гласной или две решают, как звучит слово.",
+    "en": "vit / vitt, mat / matt — one letter or two after the vowel decides how a word sounds."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "pronunciation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 310,
+  "prerequisites": [
+    "sfi-a/alphabet"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

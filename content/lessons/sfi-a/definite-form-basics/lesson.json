@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/definite-form-basics",
+  "slug": "definite-form-basics",
+  "title": {
+    "sv": "Bestämd form: en bok → boken",
+    "ru": "Определённая форма: en bok → boken",
+    "en": "The definite form: \"en bok\" → \"boken\""
+  },
+  "summary": {
+    "ru": "В шведском нет отдельного слова для «этот» — оно приклеивается к концу существительного.",
+    "en": "Swedish has no separate word for \"the\" — it gets glued onto the end of the noun instead."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "definite-form",
+    "nouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 400,
+  "prerequisites": [
+    "sfi-a/en-ett-basics"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

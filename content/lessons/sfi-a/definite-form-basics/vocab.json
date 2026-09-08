@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen är ny.", "ru": "Машина новая.", "en": "The car is new." }
+    },
+    {
+      "id": "katt",
+      "sv": "en katt",
+      "translations": { "ru": "кошка", "en": "cat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en katt", "defSg": "katten", "indefPl": "katter", "defPl": "katterna" },
+      "example": { "sv": "Katten är svart.", "ru": "Кошка чёрная.", "en": "The cat is black." }
+    },
+    {
+      "id": "hund",
+      "sv": "en hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "example": { "sv": "Hunden är stor.", "ru": "Собака большая.", "en": "The dog is big." }
+    },
+    {
+      "id": "dag",
+      "sv": "en dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
+      "example": { "sv": "Dagen är lång.", "ru": "День длинный.", "en": "The day is long." }
+    },
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "example": { "sv": "Flickan är glad.", "ru": "Девочка радостная.", "en": "The girl is happy." }
+    },
+    {
+      "id": "pojke",
+      "sv": "en pojke",
+      "translations": { "ru": "мальчик", "en": "boy" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pojke", "defSg": "pojken", "indefPl": "pojkar", "defPl": "pojkarna" },
+      "example": { "sv": "Pojken är trött.", "ru": "Мальчик устал.", "en": "The boy is tired." }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset är stort.", "ru": "Дом большой.", "en": "The house is big." }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Barnet är litet.", "ru": "Ребёнок маленький.", "en": "The child is small." }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Bordet är brunt.", "ru": "Стол коричневый.", "en": "The table is brown." }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Äpplet är rött.", "ru": "Яблоко красное.", "en": "The apple is red." }
+    },
+    {
+      "id": "jobb",
+      "sv": "ett jobb",
+      "translations": { "ru": "работа", "en": "job" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett jobb", "defSg": "jobbet", "indefPl": "jobb", "defPl": "jobben" },
+      "example": { "sv": "Jobbet är bra.", "ru": "Работа хорошая.", "en": "The job is good." }
+    },
+    {
+      "id": "ar",
+      "sv": "ett år",
+      "translations": { "ru": "год", "en": "year" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett år", "defSg": "året", "indefPl": "år", "defPl": "åren" },
+      "example": { "sv": "Året är långt.", "ru": "Год длинный.", "en": "The year is long." }
+    }
+  ]
+}

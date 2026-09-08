@@ -1,0 +1,73 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-letter-sound-correspondence-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Klockan är ___. (сейчас семь часов)" },
+      "answer": ["sju"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-letter-sound-correspondence-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ bröd. (покупаю)" },
+      "answer": ["köper"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-letter-sound-correspondence-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Слово «skjorta» начинается с того же звука, что и «sju».", "en": "\"Skjorta\" starts with the same sound as \"sju\"." },
+      "answer": true
+    },
+    {
+      "id": "q-letter-sound-correspondence-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Буква «k» перед «ö» звучит как обычное русское «к».", "en": "The letter \"k\" before \"ö\" sounds like a plain \"k\"." },
+      "answer": false,
+      "explanation": { "ru": "Перед e, i, y, ä, ö буква «k» звучит мягко, как «tj».", "en": "Before e, i, y, ä, ö the letter \"k\" sounds soft, like \"tj\"." }
+    },
+    {
+      "id": "q-letter-sound-correspondence-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой звук слышен в начале слова «stjärna»?", "en": "Which sound do you hear at the start of \"stjärna\"?" },
+      "choices": ["Звук sj", "Звук tj", "Обычное «к»", "Обычное «г»"],
+      "answer": 0
+    },
+    {
+      "id": "q-letter-sound-correspondence-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как звучит первая буква в слове «Göteborg»?", "en": "How does the first letter of \"Göteborg\" sound?" },
+      "choices": ["Как «г»", "Как «й»", "Как «х»", "Как «в»"],
+      "answer": 1
+    },
+    {
+      "id": "q-letter-sound-correspondence-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я покупаю хлеб.»", "en": "Build the sentence: \"I buy bread.\"" },
+      "tokens": ["bröd", "köper", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-letter-sound-correspondence-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово со звуком, с которого оно начинается", "en": "Match the word with the sound it starts with" },
+      "pairs": [
+        ["sju", "звук sj"],
+        ["tjej", "звук tj"],
+        ["kök", "звук tj"],
+        ["ge", "звук й"]
+      ]
+    }
+  ]
+}

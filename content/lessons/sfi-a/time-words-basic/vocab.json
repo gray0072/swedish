@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "id": "nu",
+      "sv": "nu",
+      "translations": { "ru": "сейчас", "en": "now" },
+      "pos": "adv",
+      "example": { "sv": "Nu förstår jag.", "ru": "Теперь я понимаю.", "en": "Now I understand." }
+    },
+    {
+      "id": "idag-basic",
+      "sv": "idag",
+      "translations": { "ru": "сегодня", "en": "today" },
+      "pos": "adv",
+      "example": { "sv": "Jag jobbar idag.", "ru": "Я работаю сегодня.", "en": "I work today." }
+    },
+    {
+      "id": "imorgon-basic",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv",
+      "example": { "sv": "Imorgon jobbar jag.", "ru": "Завтра я работаю.", "en": "Tomorrow I work." }
+    },
+    {
+      "id": "igar-basic",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Igår, inte idag.", "ru": "Вчера, не сегодня.", "en": "Yesterday, not today." }
+    },
+    {
+      "id": "jag-talar-svenska-idag",
+      "sv": "Jag talar svenska idag.",
+      "translations": { "ru": "Я говорю по-шведски сегодня.", "en": "I speak Swedish today." },
+      "pos": "phrase"
+    },
+    {
+      "id": "idag-jobbar-jag",
+      "sv": "Idag jobbar jag.",
+      "translations": { "ru": "Сегодня я работаю.", "en": "Today I work." },
+      "pos": "phrase",
+      "note": { "ru": "Слово действия идёт сразу после слова времени, перед «jag».", "en": "The action word comes right after the time word, before \"jag\"." }
+    },
+    {
+      "id": "imorgon-ar-jag-hemma",
+      "sv": "Imorgon är jag hemma.",
+      "translations": { "ru": "Завтра я дома.", "en": "Tomorrow I'm home." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-ar-hemma-imorgon",
+      "sv": "Jag är hemma imorgon.",
+      "translations": { "ru": "Я дома завтра.", "en": "I'm home tomorrow." },
+      "pos": "phrase"
+    },
+    {
+      "id": "nu-jobbar-jag",
+      "sv": "Nu jobbar jag.",
+      "translations": { "ru": "Сейчас я работаю.", "en": "Now I'm working." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-jobbar-nu",
+      "sv": "Jag jobbar nu.",
+      "translations": { "ru": "Я работаю сейчас.", "en": "I'm working now." },
+      "pos": "phrase"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "period-long",
+      "sv": "period",
+      "translations": { "ru": "период (длинное, синтаксически сложное предложение)", "en": "period (a long, syntactically complex sentence)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "period", "defSg": "perioden", "indefPl": "perioder", "defPl": "perioderna" },
+      "example": { "sv": "En lång period kan innehålla flera bisatser.", "ru": "Длинный период может содержать несколько придаточных.", "en": "A long period can contain several subordinate clauses." }
+    },
+    {
+      "id": "samordning",
+      "sv": "samordning",
+      "translations": { "ru": "сочинение, сочинительная связь (равноправные части)", "en": "coordination (linking equal parts)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "samordning", "defSg": "samordningen", "indefPl": "samordningar", "defPl": "samordningarna" },
+      "example": { "sv": "Samordning binder ihop satser som är likvärdiga.", "ru": "Сочинение связывает равноправные предложения.", "en": "Coordination links clauses that are equal in status." }
+    },
+    {
+      "id": "underordning",
+      "sv": "underordning",
+      "translations": { "ru": "подчинение (одна часть становится второстепенной)", "en": "subordination (one part becomes secondary)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "underordning", "defSg": "underordningen", "indefPl": "underordningar", "defPl": "underordningarna" },
+      "example": { "sv": "Underordning skapar en hierarki mellan satserna.", "ru": "Подчинение создаёт иерархию между предложениями.", "en": "Subordination creates a hierarchy between the clauses." }
+    },
+    {
+      "id": "huvudsats-period",
+      "sv": "huvudsats",
+      "translations": { "ru": "главное предложение", "en": "main clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" },
+      "example": { "sv": "I en underordnad period finns bara en huvudsats.", "ru": "В подчинённом периоде есть только одно главное предложение.", "en": "In a subordinated period there is only one main clause." }
+    },
+    {
+      "id": "bisats-period",
+      "sv": "bisats",
+      "translations": { "ru": "придаточное предложение", "en": "subordinate clause" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "bisats", "defSg": "bisatsen", "indefPl": "bisatser", "defPl": "bisatserna" },
+      "example": { "sv": "För många bisatser i samma period gör texten svårläst.", "ru": "Слишком много придаточных в одном периоде затрудняет чтение.", "en": "Too many subordinate clauses in the same period makes a text hard to read." }
+    },
+    {
+      "id": "eftersom-period",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что (вводит придаточное причины)", "en": "because, since (introduces a reason clause)" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi gick ut, eftersom vi hade lovat att komma.", "ru": "Мы вышли, потому что обещали прийти.", "en": "We went out, because we had promised to come." }
+    },
+    {
+      "id": "trots-att-period",
+      "sv": "trots att",
+      "translations": { "ru": "несмотря на то что", "en": "although, even though" },
+      "pos": "conjunction",
+      "example": { "sv": "Trots att det regnade gick vi ut.", "ru": "Несмотря на то что шёл дождь, мы вышли.", "en": "Although it was raining, we went out." }
+    },
+    {
+      "id": "som-period",
+      "sv": "som",
+      "translations": { "ru": "который (относительное местоимение, подчиняет придаточное)", "en": "who/which/that (relative pronoun, introduces a subordinate clause)" },
+      "pos": "pron",
+      "example": { "sv": "Löftet som vi gav gjorde att vi gick ut trots regnet.", "ru": "Обещание, которое мы дали, заставило нас выйти, несмотря на дождь.", "en": "The promise that we gave made us go out despite the rain." }
+    },
+    {
+      "id": "vilket-period",
+      "sv": "vilket",
+      "translations": { "ru": "что (отсылает ко всей предыдущей мысли, вводит подчинённое следствие)", "en": "which (refers to the whole preceding idea, introduces a subordinate consequence)" },
+      "pos": "pron",
+      "example": { "sv": "Vi gick ut i regnet, vilket gjorde att vi blev blöta.", "ru": "Мы вышли под дождь, что привело к тому, что мы промокли.", "en": "We went out in the rain, which meant that we got wet." }
+    },
+    {
+      "id": "och-period",
+      "sv": "och",
+      "translations": { "ru": "и (сочинительный союз, соединяет равноправные части)", "en": "and (coordinating conjunction, joins equal parts)" },
+      "pos": "conjunction",
+      "example": { "sv": "Det regnade, och vi blev blöta.", "ru": "Шёл дождь, и мы промокли.", "en": "It was raining, and we got wet." }
+    },
+    {
+      "id": "men-period",
+      "sv": "men",
+      "translations": { "ru": "но (сочинительный союз противопоставления)", "en": "but (coordinating conjunction of contrast)" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi var trötta, men vi gick ändå ut.", "ru": "Мы устали, но всё равно вышли.", "en": "We were tired, but we went out anyway." }
+    },
+    {
+      "id": "saa-period",
+      "sv": "så",
+      "translations": { "ru": "поэтому, так что (сочинительный союз следствия)", "en": "so (coordinating conjunction of result)" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi hade lovat att komma, så vi gick ut ändå.", "ru": "Мы обещали прийти, поэтому всё равно вышли.", "en": "We had promised to come, so we went out anyway." }
+    },
+    {
+      "id": "variera-period",
+      "sv": "variera",
+      "translations": { "ru": "варьировать, разнообразить", "en": "to vary" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "variera", "present": "varierar", "past": "varierade", "supine": "varierat" },
+      "example": { "sv": "En skicklig skribent varierar meningslängden.", "ru": "Умелый автор варьирует длину предложений.", "en": "A skilled writer varies sentence length." }
+    }
+  ]
+}

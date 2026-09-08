@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "exakt",
+      "sv": "exakt",
+      "translations": { "ru": "точно, ровно", "en": "exactly" },
+      "pos": "adv",
+      "example": { "sv": "Exakt 40 procent svarade ja.", "ru": "Ровно 40 процентов ответили да.", "en": "Exactly 40 percent said yes." }
+    },
+    {
+      "id": "precis-tal",
+      "sv": "precis",
+      "translations": { "ru": "точно, ровно", "en": "exactly, precisely" },
+      "pos": "adv",
+      "note": { "ru": "Синоним «exakt» перед числом или долей.", "en": "A synonym of \"exakt\" before a number or fraction." },
+      "example": { "sv": "Precis hälften av de tillfrågade svarade ja.", "ru": "Ровно половина опрошенных ответила да.", "en": "Exactly half of those asked said yes." }
+    },
+    {
+      "id": "paa-pricken",
+      "sv": "på pricken",
+      "translations": { "ru": "точь-в-точь, тютелька в тютельку", "en": "spot on, right on the mark" },
+      "pos": "phrase",
+      "example": { "sv": "Resultatet blev femtio procent, på pricken vad undersökningen hade förutspått.", "ru": "Результат составил пятьдесят процентов — точь-в-точь то, что предсказало исследование.", "en": "The result came out at fifty percent, spot on what the survey had predicted." }
+    },
+    {
+      "id": "ungefaer",
+      "sv": "ungefär",
+      "translations": { "ru": "приблизительно, примерно", "en": "approximately, roughly" },
+      "pos": "adv",
+      "example": { "sv": "Ungefär hälften av de tillfrågade svarade ja.", "ru": "Примерно половина опрошенных ответила да.", "en": "Roughly half of those asked said yes." }
+    },
+    {
+      "id": "cirka",
+      "sv": "cirka",
+      "translations": { "ru": "приблизительно, около (сокр. ca)", "en": "approximately, circa (abbreviated ca)" },
+      "pos": "adv",
+      "note": { "ru": "В письменном тексте часто сокращается до «ca».", "en": "Often abbreviated to \"ca\" in written text." },
+      "example": { "sv": "Cirka 30 procent av eleverna cyklar till skolan.", "ru": "Около 30 процентов учеников ездят в школу на велосипеде.", "en": "About 30 percent of students cycle to school." }
+    },
+    {
+      "id": "omkring",
+      "sv": "omkring",
+      "translations": { "ru": "около, приблизительно", "en": "around, about" },
+      "pos": "prep",
+      "note": { "ru": "Близкий синоним — «runt» (t.ex. runt 30 procent).", "en": "A close synonym is \"runt\" (e.g. runt 30 procent)." },
+      "example": { "sv": "Omkring en tredjedel av befolkningen bor i storstäder.", "ru": "Около трети населения живёт в больших городах.", "en": "About a third of the population lives in big cities." }
+    },
+    {
+      "id": "naestan",
+      "sv": "nästan",
+      "translations": { "ru": "почти", "en": "almost" },
+      "pos": "adv",
+      "example": { "sv": "Nästan 90 procent av deltagarna var nöjda.", "ru": "Почти 90 процентов участников были довольны.", "en": "Almost 90 percent of participants were satisfied." }
+    },
+    {
+      "id": "drygt",
+      "sv": "drygt",
+      "translations": { "ru": "чуть больше, немного более", "en": "just over, a little more than" },
+      "pos": "adv",
+      "note": { "ru": "Всегда «немного больше», в отличие от «knappt» — «немного меньше».", "en": "Always \"a little more than\", the mirror image of \"knappt\" — \"a little less than\"." },
+      "example": { "sv": "Drygt en tredjedel av eleverna valde naturvetenskap.", "ru": "Чуть больше трети учеников выбрали естественные науки.", "en": "Just over a third of the students chose natural science." }
+    },
+    {
+      "id": "knappt",
+      "sv": "knappt",
+      "translations": { "ru": "чуть меньше, едва", "en": "just under, barely" },
+      "pos": "adv",
+      "note": { "ru": "Противоположность «drygt».", "en": "The opposite of \"drygt\"." },
+      "example": { "sv": "Knappt tio procent av rösterna gick till partiet.", "ru": "Чуть меньше десяти процентов голосов досталось партии.", "en": "Just under ten percent of the votes went to the party." }
+    },
+    {
+      "id": "en-betydande-andel",
+      "sv": "en betydande andel",
+      "translations": { "ru": "значительная доля", "en": "a significant proportion" },
+      "pos": "phrase",
+      "example": { "sv": "En betydande andel av befolkningen saknar tillgång till bredband.", "ru": "Значительная доля населения не имеет доступа к широкополосному интернету.", "en": "A significant proportion of the population lacks access to broadband." }
+    },
+    {
+      "id": "en-del-av",
+      "sv": "en del av",
+      "translations": { "ru": "часть, некоторые из", "en": "some of, a part of" },
+      "pos": "phrase",
+      "example": { "sv": "En del av deltagarna hoppade av under kursens gång.", "ru": "Часть участников бросила курс на середине.", "en": "Some of the participants dropped out during the course." }
+    },
+    {
+      "id": "flera",
+      "sv": "flera",
+      "translations": { "ru": "несколько, многие", "en": "several" },
+      "pos": "pron",
+      "example": { "sv": "Flera undersökningar visar samma resultat.", "ru": "Несколько исследований показывают одинаковый результат.", "en": "Several surveys show the same result." }
+    },
+    {
+      "id": "de-flesta",
+      "sv": "de flesta",
+      "translations": { "ru": "большинство", "en": "most (of them)" },
+      "pos": "phrase",
+      "example": { "sv": "De flesta av de tillfrågade var positiva till förslaget.", "ru": "Большинство опрошенных положительно отнеслись к предложению.", "en": "Most of those asked were positive about the proposal." }
+    },
+    {
+      "id": "ett-faatal",
+      "sv": "ett fåtal",
+      "translations": { "ru": "небольшое число, горстка", "en": "a small number, a handful" },
+      "pos": "phrase",
+      "example": { "sv": "Ett fåtal deltagare avstod från att svara.", "ru": "Небольшое число участников воздержалось от ответа.", "en": "A small number of participants declined to answer." }
+    }
+  ]
+}

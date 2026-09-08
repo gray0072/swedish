@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/word-stress-melody",
+  "slug": "word-stress-melody",
+  "title": {
+    "sv": "Betoning: MÅN-dag, ar-BE-tar",
+    "ru": "Ударение и мелодика шведского слова",
+    "en": "Word stress and the melody of a Swedish word"
+  },
+  "summary": {
+    "ru": "Какой слог звучит громче всех — и почему это важно для понимания.",
+    "en": "Which syllable sounds the loudest — and why it matters for being understood."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "pronunciation",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 460,
+  "prerequisites": [
+    "sfi-a/alphabet"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

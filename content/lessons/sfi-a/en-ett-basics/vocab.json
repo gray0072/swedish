@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det är en bil.", "ru": "Это машина.", "en": "That's a car." }
+    },
+    {
+      "id": "katt",
+      "sv": "en katt",
+      "translations": { "ru": "кошка", "en": "cat" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag har en katt.", "ru": "У меня есть кошка.", "en": "I have a cat." }
+    },
+    {
+      "id": "hund",
+      "sv": "en hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han har en hund.", "ru": "У него есть собака.", "en": "He has a dog." }
+    },
+    {
+      "id": "dag",
+      "sv": "en dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "En dag är lång.", "ru": "День длинный.", "en": "A day is long." }
+    },
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det är en flicka.", "ru": "Это девочка.", "en": "That's a girl." }
+    },
+    {
+      "id": "pojke",
+      "sv": "en pojke",
+      "translations": { "ru": "мальчик", "en": "boy" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det är en pojke.", "ru": "Это мальчик.", "en": "That's a boy." }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det är ett hus.", "ru": "Это дом.", "en": "That's a house." }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hon har ett barn.", "ru": "У неё есть ребёнок.", "en": "She has a child." }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det är ett bord.", "ru": "Это стол.", "en": "That's a table." }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det är ett äpple.", "ru": "Это яблоко.", "en": "That's an apple." }
+    },
+    {
+      "id": "jobb",
+      "sv": "ett jobb",
+      "translations": { "ru": "работа", "en": "job" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag har ett jobb.", "ru": "У меня есть работа.", "en": "I have a job." }
+    },
+    {
+      "id": "ar",
+      "sv": "ett år",
+      "translations": { "ru": "год", "en": "year" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Ett år är långt.", "ru": "Год длинный.", "en": "A year is long." }
+    }
+  ]
+}

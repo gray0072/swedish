@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-och-men-conjunctions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня есть сын и дочь.»", "en": "Build the sentence: \"I have a son and a daughter.\"" },
+      "tokens": ["en", "dotter", "Jag", "och", "har", "son", "en"],
+      "answer": [2, 4, 0, 5, 3, 6, 1]
+    },
+    {
+      "id": "q-och-men-conjunctions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он усталый, но радостный.»", "en": "Build the sentence: \"He is tired but happy.\"" },
+      "tokens": ["men", "trött", "glad", "är", "Han"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-och-men-conjunctions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag talar svenska ___ inte engelska. (но)" },
+      "answer": ["men"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-och-men-conjunctions-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Vill du ha kaffe ___ te? (или)" },
+      "answer": ["eller"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-och-men-conjunctions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово соединяет две вещи, которые противоречат друг другу?", "en": "Which word joins two things that contradict each other?" },
+      "choices": ["och", "men", "eller", "inte"],
+      "answer": 1
+    },
+    {
+      "id": "q-och-men-conjunctions-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово предлагает выбор между двумя вещами?", "en": "Which word offers a choice between two things?" },
+      "choices": ["och", "men", "eller", "och så"],
+      "answer": 2
+    },
+    {
+      "id": "q-och-men-conjunctions-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«Och» используется, чтобы предложить выбор между двумя вещами.", "en": "\"Och\" is used to offer a choice between two things." },
+      "answer": false,
+      "explanation": { "ru": "Выбор предлагает «eller». «Och» просто добавляет одно к другому.", "en": "\"Eller\" offers a choice. \"Och\" simply adds one thing to another." }
+    },
+    {
+      "id": "q-och-men-conjunctions-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "После och, men и eller порядок слов внутри каждой части предложения не меняется.", "en": "After och, men, and eller, the word order inside each part of the sentence stays the same." },
+      "answer": true
+    },
+    {
+      "id": "q-och-men-conjunctions-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово-клей с переводом", "en": "Match the glue word with its translation" },
+      "pairs": [
+        ["och", "и"],
+        ["men", "но"],
+        ["eller", "или"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/present-tense-basics",
+  "slug": "present-tense-basics",
+  "title": {
+    "sv": "Presens: heter, bor, kommer, talar",
+    "ru": "Настоящее время как готовая форма",
+    "en": "The present tense as a ready-made form"
+  },
+  "summary": {
+    "ru": "jag heter, du heter, han heter — одно и то же слово для всех.",
+    "en": "jag heter, du heter, han heter — the same word for everyone."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "verbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 330,
+  "prerequisites": [
+    "sfi-a/personal-pronouns"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

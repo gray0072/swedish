@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "id": "i",
+      "sv": "i",
+      "translations": { "ru": "в (внутри большого места: страна, город)", "en": "in (inside a bigger place: a country, a city)" },
+      "pos": "prep",
+      "example": { "sv": "Jag bor i Sverige.", "ru": "Я живу в Швеции.", "en": "I live in Sweden." }
+    },
+    {
+      "id": "pa",
+      "sv": "på",
+      "translations": { "ru": "на / по адресу (более точное, конкретное место)", "en": "at / on (an address, or a specific spot)" },
+      "pos": "prep",
+      "example": { "sv": "Jag bor på Storgatan 5.", "ru": "Я живу на Стургатан, 5.", "en": "I live at Storgatan 5." }
+    },
+    {
+      "id": "jag-bor-i-sverige",
+      "sv": "Jag bor i Sverige.",
+      "translations": { "ru": "Я живу в Швеции.", "en": "I live in Sweden." },
+      "pos": "phrase",
+      "example": { "sv": "Jag bor i Sverige nu.", "ru": "Сейчас я живу в Швеции.", "en": "I live in Sweden now." }
+    },
+    {
+      "id": "jag-bor-i-malmo",
+      "sv": "Jag bor i Malmö.",
+      "translations": { "ru": "Я живу в Мальмё.", "en": "I live in Malmö." },
+      "pos": "phrase"
+    },
+    {
+      "id": "hon-jobbar-i-stockholm",
+      "sv": "Hon jobbar i Stockholm.",
+      "translations": { "ru": "Она работает в Стокгольме.", "en": "She works in Stockholm." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-bor-pa-storgatan-5",
+      "sv": "Jag bor på Storgatan 5.",
+      "translations": { "ru": "Я живу на Стургатан, 5.", "en": "I live at Storgatan 5." },
+      "pos": "phrase"
+    },
+    {
+      "id": "han-jobbar-pa-ett-kontor",
+      "sv": "Han jobbar på ett kontor.",
+      "translations": { "ru": "Он работает в офисе.", "en": "He works at an office." },
+      "pos": "phrase"
+    },
+    {
+      "id": "vi-ar-pa-skolan",
+      "sv": "Vi är på skolan.",
+      "translations": { "ru": "Мы в школе.", "en": "We are at school." },
+      "pos": "phrase"
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить", "en": "to live" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag bor i Göteborg.", "ru": "Я живу в Гётеборге.", "en": "I live in Gothenburg." }
+    },
+    {
+      "id": "jobba",
+      "sv": "jobba",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Jag jobbar på ett café.", "ru": "Я работаю в кафе.", "en": "I work at a café." }
+    },
+    {
+      "id": "skola",
+      "sv": "skola",
+      "translations": { "ru": "школа", "en": "school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" },
+      "example": { "sv": "Vi är på skolan.", "ru": "Мы в школе.", "en": "We are at school." }
+    },
+    {
+      "id": "kontor",
+      "sv": "kontor",
+      "translations": { "ru": "офис", "en": "office" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kontor", "defSg": "kontoret", "indefPl": "kontor", "defPl": "kontoren" },
+      "example": { "sv": "Han jobbar på ett kontor.", "ru": "Он работает в офисе.", "en": "He works at an office." }
+    }
+  ]
+}

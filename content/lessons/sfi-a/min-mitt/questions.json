@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-min-mitt-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ mamma heter Eva. (моя)" },
+      "answer": ["Min", "min"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-min-mitt-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ barn sover. (мой)" },
+      "answer": ["Mitt", "mitt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-min-mitt-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "___ böcker är nya. (мои)" },
+      "answer": ["Mina", "mina"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-min-mitt-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно сказать «моя машина»?", "en": "How do you correctly say \"my car\"?" },
+      "choices": ["min bil", "mitt bil", "mina bil", "bil min"],
+      "answer": 0
+    },
+    {
+      "id": "q-min-mitt-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно сказать «мой дом»?", "en": "How do you correctly say \"my house\"?" },
+      "choices": ["min hus", "mitt hus", "mina hus", "hus mitt"],
+      "answer": 1
+    },
+    {
+      "id": "q-min-mitt-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "«mitt» используется перед ett-словами.", "en": "\"mitt\" is used before ett-words." },
+      "answer": true
+    },
+    {
+      "id": "q-min-mitt-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«mina» используется перед одним en-словом.", "en": "\"mina\" is used before a single en-word." },
+      "answer": false,
+      "explanation": {
+        "ru": "«mina» используется перед словом во множественном числе: mina barn, mina böcker.",
+        "en": "\"mina\" is used before a plural word: mina barn, mina böcker."
+      }
+    },
+    {
+      "id": "q-min-mitt-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с правильной формой «мой»", "en": "Match the word with the correct form of \"my\"" },
+      "pairs": [
+        ["bil (en)", "min"],
+        ["hus (ett)", "mitt"],
+        ["böcker (pl)", "mina"],
+        ["bok (en)", "min"]
+      ]
+    },
+    {
+      "id": "q-min-mitt-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мою маму зовут Ева.»", "en": "Build the sentence: \"My mom's name is Eva.\"" },
+      "tokens": ["heter", "mamma", "Eva", "Min"],
+      "answer": [3, 1, 0, 2]
+    }
+  ]
+}

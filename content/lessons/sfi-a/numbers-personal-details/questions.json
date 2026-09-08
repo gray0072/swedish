@@ -1,0 +1,75 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-numbers-personal-details-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hur gammal är du? Jag är ___ år. (двадцать)" },
+      "answer": ["tjugo"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-numbers-personal-details-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag bor på Storgatan ___. (10)" },
+      "answer": ["tio"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-numbers-personal-details-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно спросить возраст?", "en": "How do you correctly ask someone's age?" },
+      "choices": ["Hur gammal är du?", "Vad är ditt nummer?", "Vilken adress bor du på?", "Hur mycket är klockan?"],
+      "answer": 0
+    },
+    {
+      "id": "q-numbers-personal-details-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как читается номер дома в адресе — «Storgatan 16»?", "en": "How is the house number read in the address \"Storgatan 16\"?" },
+      "choices": ["ett sex", "sexton", "sextio", "sex"],
+      "answer": 1
+    },
+    {
+      "id": "q-numbers-personal-details-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Номер дома в адресе произносится целиком, одним словом.", "en": "A house number in an address is said whole, as one word." },
+      "answer": true
+    },
+    {
+      "id": "q-numbers-personal-details-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Возраст и номер дома читаются по цифрам, как номер телефона.", "en": "Age and house numbers are read digit by digit, like a phone number." },
+      "answer": false,
+      "explanation": {
+        "ru": "Только номер телефона и personnummer читаются по цифрам. Возраст и номер дома — целым числом.",
+        "en": "Only phone numbers and the personnummer are read digit by digit. Age and house numbers are said as a whole number."
+      }
+    },
+    {
+      "id": "q-numbers-personal-details-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вопрос с подходящим ответом", "en": "Match the question with the matching answer" },
+      "pairs": [
+        ["Hur gammal är du?", "Jag är tjugo år."],
+        ["Vilken adress bor du på?", "Jag bor på Storgatan tio."],
+        ["Vilket husnummer?", "Husnummer sexton."]
+      ]
+    },
+    {
+      "id": "q-numbers-personal-details-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мне двадцать лет.»", "en": "Build the sentence: \"I am twenty years old.\"" },
+      "tokens": ["år", "är", "tjugo", "Jag"],
+      "answer": [3, 1, 2, 0]
+    }
+  ]
+}

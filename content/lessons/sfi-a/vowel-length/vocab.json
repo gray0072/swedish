@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "vit",
+      "sv": "vit",
+      "translations": { "ru": "белый", "en": "white" },
+      "pos": "adj",
+      "example": { "sv": "Bilen är vit.", "ru": "Машина белая.", "en": "The car is white." }
+    },
+    {
+      "id": "vitt",
+      "sv": "vitt",
+      "translations": { "ru": "белый (перед ett-словом)", "en": "white (before an ett-word)" },
+      "pos": "adj",
+      "example": { "sv": "Huset är vitt.", "ru": "Дом белый.", "en": "The house is white." }
+    },
+    {
+      "id": "mat",
+      "sv": "mat",
+      "translations": { "ru": "еда", "en": "food" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Maten är god.", "ru": "Еда вкусная.", "en": "The food is good." }
+    },
+    {
+      "id": "matt",
+      "sv": "matt",
+      "translations": { "ru": "матовый, тусклый", "en": "matte, dull" },
+      "pos": "adj",
+      "example": { "sv": "Väggen är matt, inte blank.", "ru": "Стена матовая, не глянцевая.", "en": "The wall is matte, not glossy." }
+    },
+    {
+      "id": "tak",
+      "sv": "tak",
+      "translations": { "ru": "потолок, крыша", "en": "ceiling, roof" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Taket är högt.", "ru": "Потолок высокий.", "en": "The ceiling is high." }
+    },
+    {
+      "id": "tack",
+      "sv": "tack",
+      "translations": { "ru": "спасибо", "en": "thanks" },
+      "pos": "interjection",
+      "example": { "sv": "Tack för hjälpen!", "ru": "Спасибо за помощь!", "en": "Thanks for the help!" }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить (где-то)", "en": "to live (somewhere)" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
+    },
+    {
+      "id": "boll",
+      "sv": "boll",
+      "translations": { "ru": "мяч", "en": "ball" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Bollen är röd.", "ru": "Мяч красный.", "en": "The ball is red." }
+    }
+  ]
+}

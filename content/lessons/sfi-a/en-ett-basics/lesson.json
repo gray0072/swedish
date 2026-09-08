@@ -1,0 +1,34 @@
+{
+  "id": "sfi-a/en-ett-basics",
+  "slug": "en-ett-basics",
+  "title": {
+    "sv": "En eller ett?",
+    "ru": "En или ett — первое знакомство",
+    "en": "En or ett?"
+  },
+  "summary": {
+    "ru": "Каждое существительное приходит со своим маленьким словом — en или ett. Знакомимся на первых 12 словах.",
+    "en": "Every noun comes with its own little word — en or ett. A first look, on 12 everyday nouns."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "en-ett",
+    "nouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 390,
+  "prerequisites": [],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

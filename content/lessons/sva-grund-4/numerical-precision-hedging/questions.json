@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-numerical-precision-hedging-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает «drygt» перед числом?", "en": "What does \"drygt\" mean before a number?" },
+      "choices": [
+        { "ru": "Ровно, точно", "en": "Exactly" },
+        { "ru": "Чуть больше", "en": "A little more than" },
+        { "ru": "Чуть меньше", "en": "A little less than" },
+        { "ru": "Примерно, около", "en": "Roughly, about" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-numerical-precision-hedging-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает «knappt» перед числом?", "en": "What does \"knappt\" mean before a number?" },
+      "choices": [
+        { "ru": "Ровно, точно", "en": "Exactly" },
+        { "ru": "Чуть больше", "en": "A little more than" },
+        { "ru": "Чуть меньше", "en": "A little less than" },
+        { "ru": "Значительно больше", "en": "Much more than" }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q-numerical-precision-hedging-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое выражение относится к самому расплывчатому регистру — без опоры на конкретную цифру?", "en": "Which expression belongs to the vaguest register — with no figure behind it?" },
+      "choices": ["Exakt 40 procent", "Cirka 40 procent", "En betydande andel", "Precis 40 procent"],
+      "answer": 2
+    },
+    {
+      "id": "q-numerical-precision-hedging-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Drygt» и «knappt» означают одно и то же.", "en": "\"Drygt\" and \"knappt\" mean the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Нет: «drygt» — «чуть больше», «knappt» — «чуть меньше», это противоположные направления.", "en": "No: \"drygt\" means \"a little more than\", \"knappt\" means \"a little less than\" — opposite directions." }
+    },
+    {
+      "id": "q-numerical-precision-hedging-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Cirka» и «ungefär» оба относятся к приблизительному регистру.", "en": "\"Cirka\" and \"ungefär\" both belong to the approximate register." },
+      "answer": true
+    },
+    {
+      "id": "q-numerical-precision-hedging-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«En betydande andel» называет точное число процентов.", "en": "\"En betydande andel\" names an exact percentage." },
+      "answer": false,
+      "explanation": { "ru": "Нет, это расплывчатая формулировка — без конкретной цифры.", "en": "No, it's a vague, hedged phrase — it names no specific figure." }
+    },
+    {
+      "id": "q-numerical-precision-hedging-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ hälften av de tillfrågade svarade ja. (приблизительно)" },
+      "answer": ["Ungefär"],
+      "acceptAlso": ["ungefär"]
+    },
+    {
+      "id": "q-numerical-precision-hedging-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "___ tio procent av rösterna gick till partiet. (чуть меньше)" },
+      "answer": ["Knappt"],
+      "acceptAlso": ["knappt"]
+    },
+    {
+      "id": "q-numerical-precision-hedging-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Ровно 40 процентов ответили да.»", "en": "Build the sentence: \"Exactly 40 percent said yes.\"" },
+      "tokens": ["procent", "Exakt", "ja", "40", "svarade"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-numerical-precision-hedging-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с его регистром точности", "en": "Match the word with its register of precision" },
+      "pairs": [
+        ["exakt", "точный регистр / exact register"],
+        ["ungefär", "приблизительный регистр / approximate register"],
+        ["en betydande andel", "расплывчатый регистр / hedged, vague register"]
+      ]
+    }
+  ]
+}

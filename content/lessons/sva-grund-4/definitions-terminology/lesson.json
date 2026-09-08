@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/definitions-terminology",
+  "slug": "definitions-terminology",
+  "title": {
+    "sv": "Definitioner och terminologi",
+    "ru": "Определения и терминология",
+    "en": "Definitions and terminology"
+  },
+  "summary": {
+    "ru": "Как ввести и определить понятие в тексте: X är..., X innebär att..., Med X menas/avses..., X kan definieras som...",
+    "en": "How to introduce and define a concept in a text: X är..., X innebär att..., Med X menas/avses..., X kan definieras som..."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "definitions",
+    "terminology",
+    "academic-style",
+    "writing"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2250,
+  "prerequisites": [
+    "sva-grund-4/utredande-text"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

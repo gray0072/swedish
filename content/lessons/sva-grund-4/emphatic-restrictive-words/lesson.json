@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/emphatic-restrictive-words",
+  "slug": "emphatic-restrictive-words",
+  "title": {
+    "sv": "Understrykande och avgränsande ord: endast, enbart, just, till och med",
+    "ru": "Выделительные и ограничительные слова",
+    "en": "Emphatic and restrictive words"
+  },
+  "summary": {
+    "ru": "Два семейства фокусирующих слов письменного шведского: ограничительные (endast, enbart, bara) и выделительные (just, till och med, själva).",
+    "en": "Two families of focusing words in written Swedish: restrictive (endast, enbart, bara) and emphatic (just, till och med, själva)."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "focus",
+    "register",
+    "adverbs",
+    "style"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2230,
+  "prerequisites": [
+    "sva-grund-4/hedging-language"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

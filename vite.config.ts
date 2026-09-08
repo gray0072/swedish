@@ -31,11 +31,11 @@ export default defineConfig({
     },
   },
   build: {
-    // The largest per-level content chunks (sva-grund-1/2/3/4, ~45 lessons each) sit
-    // around 630-760 kB — legitimately sized content, not a code-splitting problem, now
+    // The largest per-level content chunks (sva-grund-1/2/3/4, 45-50 lessons each) sit
+    // around 630-850 kB — legitimately sized content, not a code-splitting problem, now
     // that manualChunks below keeps every chunk well under the PWA plugin's 2 MiB
     // precache cap.
-    chunkSizeWarningLimit: 800,
+    chunkSizeWarningLimit: 900,
     rollupOptions: {
       output: {
         // content/loader.ts eagerly imports every lesson file (161 lessons and counting),

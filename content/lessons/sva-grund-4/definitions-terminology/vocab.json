@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "innebaera",
+      "sv": "innebära",
+      "translations": { "ru": "означать, означать собой, влечь за собой", "en": "to entail, to mean (that)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "innebära", "present": "innebär", "past": "innebar", "supine": "inneburit" },
+      "example": { "sv": "Källkritik innebär att man bedömer en källas tillförlitlighet.", "ru": "Источниковедческая критика означает, что оценивается надёжность источника.", "en": "Source criticism means assessing the reliability of a source." }
+    },
+    {
+      "id": "mena",
+      "sv": "mena",
+      "translations": { "ru": "иметь в виду, считать, утверждать", "en": "to mean, to argue" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Författaren menar att begreppet är svårt att definiera.", "ru": "Автор считает, что понятие трудно определить.", "en": "The author argues that the concept is hard to define." }
+    },
+    {
+      "id": "avse",
+      "sv": "avse",
+      "translations": { "ru": "иметь в виду, относиться к, подразумевать (официально)", "en": "to refer to, to mean (formal)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "avse", "present": "avser", "past": "avsåg", "supine": "avsett" },
+      "note": { "ru": "Более официальный и книжный, чем «mena».", "en": "More formal and written than \"mena\"." },
+      "example": { "sv": "Lagen avser alla som bor i landet.", "ru": "Закон касается всех, кто проживает в стране.", "en": "The law applies to everyone living in the country." }
+    },
+    {
+      "id": "definiera",
+      "sv": "definiera",
+      "translations": { "ru": "определять, давать определение", "en": "to define" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "definiera", "present": "definierar", "past": "definierade", "supine": "definierat" },
+      "example": { "sv": "Ett argument kan definieras som ett påstående som stöds av skäl.", "ru": "Аргумент можно определить как утверждение, подкреплённое доводами.", "en": "An argument can be defined as a claim supported by reasons." }
+    },
+    {
+      "id": "vistas",
+      "sv": "vistas",
+      "translations": { "ru": "находиться, пребывать (где-л.)", "en": "to stay, to be present (somewhere)" },
+      "pos": "verb",
+      "forms": { "infinitive": "vistas", "present": "vistas", "past": "vistades", "supine": "vistats" },
+      "note": { "ru": "Депонентный глагол — существует только в форме на -s.", "en": "A deponent verb — it exists only in the -s form." },
+      "example": { "sv": "En allemansrätt är rätten att vistas fritt i naturen.", "ru": "Право свободного доступа к природе — это право свободно находиться на природе.", "en": "The right of public access is the right to move about freely in nature." }
+    },
+    {
+      "id": "begrepp",
+      "sv": "begrepp",
+      "translations": { "ru": "понятие", "en": "concept, notion" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "begrepp", "defSg": "begreppet", "indefPl": "begrepp", "defPl": "begreppen" },
+      "example": { "sv": "Ett begrepp behöver ofta förklaras för läsaren.", "ru": "Понятие часто нужно объяснить читателю.", "en": "A concept often needs to be explained to the reader." }
+    },
+    {
+      "id": "term",
+      "sv": "term",
+      "translations": { "ru": "термин", "en": "term" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "term", "defSg": "termen", "indefPl": "termer", "defPl": "termerna" },
+      "example": { "sv": "Ordet är en teknisk term inom juridiken.", "ru": "Это слово — технический термин в юриспруденции.", "en": "The word is a technical term within law." }
+    },
+    {
+      "id": "definition",
+      "sv": "definition",
+      "translations": { "ru": "определение", "en": "definition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "definition", "defSg": "definitionen", "indefPl": "definitioner", "defPl": "definitionerna" },
+      "example": { "sv": "Texten inleds med en tydlig definition av begreppet.", "ru": "Текст начинается с чёткого определения понятия.", "en": "The text opens with a clear definition of the concept." }
+    },
+    {
+      "id": "med-menas",
+      "sv": "med ... menas",
+      "translations": { "ru": "под ... понимается", "en": "by ... is meant" },
+      "pos": "phrase",
+      "note": { "ru": "Формальная, пассивная по духу конструкция для определения.", "en": "A formal, passive-flavoured construction for giving a definition." },
+      "example": { "sv": "Med hållbar utveckling menas en utveckling som tillgodoser dagens behov utan att äventyra kommande generationers behov.", "ru": "Под устойчивым развитием понимается развитие, которое удовлетворяет потребности сегодняшнего дня, не подвергая опасности потребности будущих поколений.", "en": "By sustainable development is meant development that meets today's needs without jeopardising the needs of future generations." }
+    },
+    {
+      "id": "kan-definieras-som",
+      "sv": "kan definieras som...",
+      "translations": { "ru": "можно определить как...", "en": "can be defined as..." },
+      "pos": "phrase",
+      "example": { "sv": "Ett argument kan definieras som ett påstående som stöds av skäl.", "ru": "Аргумент можно определить как утверждение, подкреплённое доводами.", "en": "An argument can be defined as a claim supported by reasons." }
+    },
+    {
+      "id": "i-vardagligt-tal",
+      "sv": "i vardagligt tal",
+      "translations": { "ru": "в повседневной речи", "en": "in everyday speech" },
+      "pos": "phrase",
+      "example": { "sv": "I vardagligt tal betyder ordet \"kultur\" konst och nöje, men i den här texten avses människors gemensamma levnadssätt.", "ru": "В повседневной речи слово «культура» означает искусство и развлечения, но в этом тексте имеется в виду общий уклад жизни людей.", "en": "In everyday speech the word \"culture\" means art and entertainment, but in this text it refers to a shared way of life." }
+    },
+    {
+      "id": "allemansraett",
+      "sv": "allemansrätt",
+      "translations": { "ru": "право свободного доступа к природе", "en": "the right of public access (to nature)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Allemansrätten ger alla rätt att plocka bär i skogen.", "ru": "Право свободного доступа даёт каждому право собирать ягоды в лесу.", "en": "The right of public access gives everyone the right to pick berries in the forest." }
+    },
+    {
+      "id": "haallbar-utveckling",
+      "sv": "hållbar utveckling",
+      "translations": { "ru": "устойчивое развитие", "en": "sustainable development" },
+      "pos": "phrase",
+      "example": { "sv": "Hållbar utveckling är ett begrepp som används inom miljöpolitiken.", "ru": "Устойчивое развитие — понятие, которое используется в экологической политике.", "en": "Sustainable development is a concept used in environmental policy." }
+    }
+  ]
+}

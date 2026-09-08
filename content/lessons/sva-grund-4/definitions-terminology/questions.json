@@ -1,0 +1,96 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-definitions-terminology-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая конструкция для определения понятия самая официальная — она ставит понятие на первое место, а того, кто определяет, оставляет за кадром?", "en": "Which pattern for defining a concept is the most formal one — it puts the concept first and backgrounds who is doing the defining?" },
+      "choices": ["X är...", "X innebär att...", "Med X menas/avses...", "X kan definieras som..."],
+      "answer": 2
+    },
+    {
+      "id": "q-definitions-terminology-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово — более официальный, книжный вариант «mena» («иметь в виду»)?", "en": "Which word is the more formal, written twin of \"mena\" (\"to mean\")?" },
+      "choices": [
+        { "ru": "tycka", "en": "tycka" },
+        { "ru": "avse", "en": "avse" },
+        { "ru": "hoppas", "en": "hoppas" },
+        { "ru": "tro", "en": "tro" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-definitions-terminology-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что верно про глагол «vistas»?", "en": "What is true about the verb \"vistas\"?" },
+      "choices": [
+        { "ru": "Обычный глагол с формами на -ar, -ade, -at", "en": "A regular verb with -ar, -ade, -at forms" },
+        { "ru": "Депонентный глагол — существует только в форме на -s", "en": "A deponent verb — it exists only in the -s form" },
+        { "ru": "Существительное", "en": "A noun" },
+        { "ru": "Прилагательное", "en": "An adjective" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-definitions-terminology-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vistas» — депонентный глагол, существующий только в форме на -s.", "en": "\"Vistas\" is a deponent verb that exists only in the -s form." },
+      "answer": true
+    },
+    {
+      "id": "q-definitions-terminology-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Термин, который определяется в тексте, никогда не нужно как-то выделять при первом упоминании.", "en": "A term being defined in a text should never be marked in any special way on its first mention." },
+      "answer": false,
+      "explanation": { "ru": "Наоборот: термин обычно выделяют жирным, курсивом или кавычками, чтобы читатель мог его найти снова.", "en": "The opposite: a term is usually marked in bold, italics or quotation marks so the reader can find it again." }
+    },
+    {
+      "id": "q-definitions-terminology-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Med X menas...» звучит более пассивно и официально, чем «X innebär att...».", "en": "\"Med X menas...\" sounds more passive and formal than \"X innebär att...\"." },
+      "answer": true
+    },
+    {
+      "id": "q-definitions-terminology-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Med hållbar utveckling ___ en utveckling som tillgodoser dagens behov utan att äventyra kommande generationers. (пассив от «mena»)" },
+      "answer": ["menas"]
+    },
+    {
+      "id": "q-definitions-terminology-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Ett argument kan ___ som ett påstående som stöds av skäl. (пассив от «definiera»)" },
+      "answer": ["definieras"]
+    },
+    {
+      "id": "q-definitions-terminology-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Источниковедческая критика означает, что оценивается надёжность источника.»", "en": "Build the sentence: \"Source criticism means assessing the reliability of a source.\"" },
+      "tokens": ["tillförlitlighet", "att", "Källkritik", "källas", "bedömer", "en", "man", "innebär"],
+      "answer": [2, 7, 1, 6, 4, 5, 3, 0]
+    },
+    {
+      "id": "q-definitions-terminology-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с её функцией", "en": "Match the pattern with its function" },
+      "pairs": [
+        ["X innebär att...", "объясняет, что подразумевает X / explains what X entails"],
+        ["Med X menas...", "формальное, пассивное определение / formal, passive-flavoured definition"],
+        ["X kan definieras som...", "формальное определение / a formal definition"]
+      ]
+    }
+  ]
+}

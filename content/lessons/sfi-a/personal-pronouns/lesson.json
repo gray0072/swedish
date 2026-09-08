@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/personal-pronouns",
+  "slug": "personal-pronouns",
+  "title": {
+    "sv": "Jag, du, han, hon...",
+    "ru": "Личные местоимения",
+    "en": "Personal pronouns"
+  },
+  "summary": {
+    "ru": "Семь слов, которые заменяют имя: jag, du, han, hon, vi, ni, de.",
+    "en": "The seven words that replace a name: jag, du, han, hon, vi, ni, de."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 320,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

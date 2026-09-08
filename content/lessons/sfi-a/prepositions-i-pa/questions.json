@@ -1,0 +1,87 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-prepositions-i-pa-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я живу в Швеции.»", "en": "Build the sentence: \"I live in Sweden.\"" },
+      "tokens": ["i", "bor", "Jag", "Sverige"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-prepositions-i-pa-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он работает в офисе.»", "en": "Build the sentence: \"He works at an office.\"" },
+      "tokens": ["på", "jobbar", "Han", "ett", "kontor"],
+      "answer": [2, 1, 0, 3, 4]
+    },
+    {
+      "id": "q-prepositions-i-pa-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag bor ___ Malmö." },
+      "answer": ["i"],
+      "acceptAlso": [],
+      "hint": { "ru": "Malmö — это целый город.", "en": "Malmö is a whole city." }
+    },
+    {
+      "id": "q-prepositions-i-pa-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag bor ___ Storgatan 5." },
+      "answer": ["på"],
+      "acceptAlso": [],
+      "hint": { "ru": "Это адрес — улица и номер дома.", "en": "This is an address — a street and a number." }
+    },
+    {
+      "id": "q-prepositions-i-pa-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово подходит? «Vi är ___ skolan.»", "en": "Which word fits? \"Vi är ___ skolan.\"" },
+      "choices": ["i", "på", "och", "är"],
+      "answer": 1
+    },
+    {
+      "id": "q-prepositions-i-pa-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово подходит? «Hon jobbar ___ Stockholm.»", "en": "Which word fits? \"Hon jobbar ___ Stockholm.\"" },
+      "choices": ["på", "i", "och", "har"],
+      "answer": 1
+    },
+    {
+      "id": "q-prepositions-i-pa-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Мы говорим «i Stockholm», потому что Stockholm — это целый город.", "en": "We say \"i Stockholm\" because Stockholm is a whole city." },
+      "answer": true
+    },
+    {
+      "id": "q-prepositions-i-pa-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«på Sverige» — правильный вариант, потому что Sverige — это страна.", "en": "\"på Sverige\" is correct because Sverige is a country." },
+      "answer": false,
+      "explanation": { "ru": "Для целой страны используют «i»: i Sverige.", "en": "For a whole country you use \"i\": i Sverige." }
+    },
+    {
+      "id": "q-prepositions-i-pa-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь место с нужным предлогом", "en": "Match the place with the correct preposition" },
+      "pairs": [
+        ["Sverige", "i"],
+        ["Malmö", "i"],
+        ["Storgatan 5", "på"],
+        ["ett kontor", "på"]
+      ]
+    }
+  ]
+}

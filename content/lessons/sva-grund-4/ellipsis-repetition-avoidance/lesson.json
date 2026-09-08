@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/ellipsis-repetition-avoidance",
+  "slug": "ellipsis-repetition-avoidance",
+  "title": {
+    "sv": "Ellips: att utelämna det redan sagda",
+    "ru": "Эллипсис: пропуск уже сказанного",
+    "en": "Ellipsis: leaving out what has already been said"
+  },
+  "summary": {
+    "ru": "Как избежать повторов, просто пропуская то, что уже понятно из контекста — компаньон местоименной референции.",
+    "en": "How to avoid repetition by simply leaving out what is already clear from context — a companion to pronominal reference."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "ellipsis",
+    "cohesion",
+    "style",
+    "writing"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2220,
+  "prerequisites": [
+    "sva-grund-4/cohesion-reference"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

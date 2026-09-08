@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/pa-with-days",
+  "slug": "pa-with-days",
+  "title": {
+    "sv": "På måndag, på fredag",
+    "ru": "På с днями недели",
+    "en": "\"på\" with days of the week"
+  },
+  "summary": {
+    "ru": "Одно маленькое слово перед любым днём недели: på måndag, på fredag.",
+    "en": "One small word before any day of the week: på måndag, på fredag."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "prepositions",
+    "grammar",
+    "time"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 450,
+  "prerequisites": [
+    "sfi-a/days-of-week"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -12,13 +12,15 @@ list stays current and short). The per-lesson topic list lives separately, in
   level-by-level content plan now that all of SVA grund (delkurs 1-4) and all of SFI
   kurs A are done. A good candidate for a run with parallel agents (the approach is
   described in the CHANGELOG entries for 2026-09-05 and 2026-09-07).
-- [ ] `CURRICULUM.md`'s grammar lists: **80/200 points still have a dedicated lesson** —
-  points 1-20 of SVA grund delkurs 1-4, each with bilingual (RU/EN) theory via the
-  `theory_en.md` companion file. The other 120 points (all 100 of SFI kurs A–D, and
-  points 21-25 added to each SVA grund delkurs when every level was extended from 20 to
-  25 grammar points) still rely on grammar being threaded through topic lessons' theory
-  rather than a dedicated lesson. There are also three reference articles in
-  `content/grammar/`.
+- [ ] `CURRICULUM.md`'s grammar lists: **110/200 points now have a dedicated lesson** —
+  points 1-20 of SVA grund delkurs 1-3 plus all 25 of delkurs 4 (bilingual RU/EN
+  theory via `theory_en.md`), and all 25 of SFI kurs A (19 with a lesson of their own,
+  appended past item 25 of the Topics list the way SVA grund does; 6 marked done by
+  reference to a topic lesson that already covered the point, no duplicate written).
+  The other 90 points (SFI kurs B–D's 75, and points 21-25 of SVA grund delkurs 1-3)
+  still rely on grammar being threaded through topic lessons' theory rather than a
+  dedicated lesson. There are also three reference
+  articles in `content/grammar/`.
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a
@@ -27,7 +29,7 @@ list stays current and short). The per-lesson topic list lives separately, in
   text. This is a deliberate, repeated simplification across all 100 SVA grund topics,
   not a per-level gap anymore — worth revisiting as a real feature if the vocab/phrases
   version turns out to be too shallow in practice.
-- [ ] None of the 222 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
+- [ ] None of the 246 lessons is grouped into a series (`part`/`series` from SPEC §5.2) —
   everything still fits the 5-minute limit on a single topic. If a broader topic shows
   up, split it into parts rather than trimming it.
 

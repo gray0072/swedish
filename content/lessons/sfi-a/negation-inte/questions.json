@@ -1,0 +1,81 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-negation-inte-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я не живу в Лунде.»", "en": "Build the sentence: \"I don't live in Lund.\"" },
+      "tokens": ["i", "inte", "Lund", "bor", "Jag"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-negation-inte-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «У нас нет машины.»", "en": "Build the sentence: \"We don't have a car.\"" },
+      "tokens": ["bil", "har", "inte", "Vi"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-negation-inte-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Han talar ___ engelska. (не)" },
+      "answer": ["inte"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-negation-inte-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Hon ___ inte i Malmö. (работает)" },
+      "answer": ["jobbar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-negation-inte-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Куда ставится inte в простом предложении?", "en": "Where does inte go in a simple sentence?" },
+      "choices": ["В начало предложения", "Сразу после слова-действия", "В самый конец", "Перед словом-действием"],
+      "answer": 1
+    },
+    {
+      "id": "q-negation-inte-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильное отрицание к «Vi har bil.»", "en": "Pick the correct negation of \"Vi har bil.\"" },
+      "choices": ["Inte vi har bil.", "Vi har bil inte.", "Vi har inte bil.", "Vi inte har bil."],
+      "answer": 2
+    },
+    {
+      "id": "q-negation-inte-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Порядок остальных слов меняется, когда добавляешь inte.", "en": "The order of the other words changes when you add inte." },
+      "answer": false,
+      "explanation": { "ru": "Меняется только одно: после слова-действия появляется inte.", "en": "Only one thing changes: inte appears right after the action word." }
+    },
+    {
+      "id": "q-negation-inte-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«Du heter inte Erik» значит «Тебя зовут не Эрик».", "en": "\"Du heter inte Erik\" means \"Your name isn't Erik.\"" },
+      "answer": true
+    },
+    {
+      "id": "q-negation-inte-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь утверждение с отрицанием", "en": "Match the statement with its negation" },
+      "pairs": [
+        ["Jag bor i Lund.", "Jag bor inte i Lund."],
+        ["Vi har bil.", "Vi har inte bil."],
+        ["Han talar engelska.", "Han talar inte engelska."],
+        ["Du heter Erik.", "Du heter inte Erik."]
+      ]
+    }
+  ]
+}

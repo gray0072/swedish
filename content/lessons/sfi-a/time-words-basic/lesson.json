@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/time-words-basic",
+  "slug": "time-words-basic",
+  "title": {
+    "sv": "Nu, idag, imorgon, igår",
+    "ru": "Слова времени: nu, idag, imorgon, igår",
+    "en": "The first time words: \"nu\", \"idag\", \"imorgon\", \"igår\""
+  },
+  "summary": {
+    "ru": "Четыре слова, которые можно ставить и в начало, и в конец предложения.",
+    "en": "Four words you can put at the start or the end of a simple sentence."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "time"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 480,
+  "prerequisites": [
+    "sfi-a/days-of-week"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-pa-with-days-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я работаю в понедельник.»", "en": "Build the sentence: \"I work on Monday.\"" },
+      "tokens": ["på", "jobbar", "Jag", "måndag"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-pa-with-days-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Увидимся в пятницу.»", "en": "Build the sentence: \"See you on Friday.\"" },
+      "tokens": ["på", "ses", "Vi", "fredag"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-pa-with-days-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vi ses ___ lördag." },
+      "answer": ["på"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-pa-with-days-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag jobbar ___ måndagar." },
+      "answer": ["på"],
+      "acceptAlso": [],
+      "hint": { "ru": "«Каждый понедельник» — тоже с этим словом.", "en": "\"Every Monday\" also takes this word." }
+    },
+    {
+      "id": "q-pa-with-days-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «по понедельникам» (каждую неделю)?", "en": "How do you say \"on Mondays\" (every week)?" },
+      "choices": ["på måndag", "på måndagar", "i måndag", "måndag"],
+      "answer": 1
+    },
+    {
+      "id": "q-pa-with-days-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что значит «på fredag»?", "en": "What does \"på fredag\" mean?" },
+      "choices": ["в пятницу", "в четверг", "по пятницам, каждую неделю", "в субботу"],
+      "answer": 0
+    },
+    {
+      "id": "q-pa-with-days-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«på måndagar» значит «каждый понедельник».", "en": "\"på måndagar\" means \"every Monday\"." },
+      "answer": true
+    },
+    {
+      "id": "q-pa-with-days-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово «på» подходит только для некоторых дней недели, а не для всех.", "en": "The word \"på\" only works with some days of the week, not all of them." },
+      "answer": false,
+      "explanation": { "ru": "«på» подходит перед любым днём недели.", "en": "\"på\" works before any day of the week." }
+    },
+    {
+      "id": "q-pa-with-days-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь день недели с «på»-формой", "en": "Match the day with its \"på\" form" },
+      "pairs": [
+        ["fredag", "på fredag"],
+        ["lördag", "på lördag"],
+        ["söndag", "på söndag"],
+        ["tisdag", "på tisdag"]
+      ]
+    }
+  ]
+}

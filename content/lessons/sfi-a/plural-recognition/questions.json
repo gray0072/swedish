@@ -1,0 +1,76 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-plural-recognition-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «две машины»?", "en": "How do you say \"two cars\"?" },
+      "choices": ["två bilar", "två bil", "två biler", "två bilor"],
+      "answer": 0
+    },
+    {
+      "id": "q-plural-recognition-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как выглядит множественное число слова «hus» (дом)?", "en": "What does the plural of \"hus\" (house) look like?" },
+      "choices": ["hus", "huser", "husar", "huses"],
+      "answer": 0
+    },
+    {
+      "id": "q-plural-recognition-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Множественное число слова «hus» выглядит так же, как единственное.", "en": "The plural of \"hus\" looks the same as the singular." },
+      "answer": true
+    },
+    {
+      "id": "q-plural-recognition-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«två boker» — правильное множественное число от «en bok».", "en": "\"två boker\" is the correct plural of \"en bok\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильно: «två böcker».",
+        "en": "The correct form is \"två böcker\"."
+      }
+    },
+    {
+      "id": "q-plural-recognition-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "en katt – två ___" },
+      "answer": ["katter"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-plural-recognition-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "ett barn – två ___" },
+      "answer": ["barn"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-plural-recognition-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь единственное число со множественным", "en": "Match the singular with its plural" },
+      "pairs": [
+        ["bil", "bilar"],
+        ["hus", "hus"],
+        ["barn", "barn"],
+        ["bok", "böcker"]
+      ]
+    },
+    {
+      "id": "q-plural-recognition-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У нас две машины.»", "en": "Build the sentence: \"We have two cars.\"" },
+      "tokens": ["har", "två", "bilar", "Vi"],
+      "answer": [3, 0, 1, 2]
+    }
+  ]
+}

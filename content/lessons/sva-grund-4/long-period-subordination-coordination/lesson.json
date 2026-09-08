@@ -1,0 +1,38 @@
+{
+  "id": "sva-grund-4/long-period-subordination-coordination",
+  "slug": "long-period-subordination-coordination",
+  "title": {
+    "sv": "Den långa perioden: bisats eller sidoordning",
+    "ru": "Длинный период: подчинение против сочинения",
+    "en": "The long period: subordination versus coordination"
+  },
+  "summary": {
+    "ru": "Стилистический выбор в длинном предложении: нанизывать факты через сочинение или выстроить иерархию через подчинение.",
+    "en": "A stylistic choice in a long sentence: chain facts through coordination, or build a hierarchy through subordination."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sva-grund-4"
+  ],
+  "tags": [
+    "grammar",
+    "syntax",
+    "style",
+    "subordination",
+    "coordination"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 2210,
+  "prerequisites": [
+    "sva-grund-3/complex-sentences"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

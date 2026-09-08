@@ -1,0 +1,84 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-definite-form-basics-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "en bil → ___" },
+      "answer": ["bilen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-definite-form-basics-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "ett hus → ___" },
+      "answer": ["huset"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-definite-form-basics-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «эта кошка»?", "en": "How do you say \"the cat\"?" },
+      "choices": ["katten", "kattet", "kattan", "katt"],
+      "answer": 0
+    },
+    {
+      "id": "q-definite-form-basics-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «этот ребёнок»?", "en": "How do you say \"the child\"?" },
+      "choices": ["barnen", "barnet", "barns", "barnan"],
+      "answer": 1
+    },
+    {
+      "id": "q-definite-form-basics-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "en-слова обычно добавляют «-en» на конце.", "en": "En-words usually add \"-en\" at the end." },
+      "answer": true
+    },
+    {
+      "id": "q-definite-form-basics-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "ett-слова обычно добавляют «-en» на конце.", "en": "Ett-words usually add \"-en\" at the end." },
+      "answer": false,
+      "explanation": {
+        "ru": "ett-слова добавляют «-et»: ett hus → huset.",
+        "en": "Ett-words add \"-et\": ett hus → huset."
+      }
+    },
+    {
+      "id": "q-definite-form-basics-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с его формой «этот, эта»", "en": "Match the word with its \"the\" form" },
+      "pairs": [
+        ["bil", "bilen"],
+        ["hus", "huset"],
+        ["katt", "katten"],
+        ["barn", "barnet"]
+      ]
+    },
+    {
+      "id": "q-definite-form-basics-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Машина новая.»", "en": "Build the sentence: \"The car is new.\"" },
+      "tokens": ["är", "ny", "Bilen"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-definite-form-basics-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Дом большой.»", "en": "Build the sentence: \"The house is big.\"" },
+      "tokens": ["stort", "är", "Huset"],
+      "answer": [2, 1, 0]
+    }
+  ]
+}

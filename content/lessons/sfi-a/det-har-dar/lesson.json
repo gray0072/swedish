@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/det-har-dar",
+  "slug": "det-har-dar",
+  "title": {
+    "sv": "Det här är, det där är",
+    "ru": "Det här är / det där är — «это»",
+    "en": "\"det här är\" / \"det där är\""
+  },
+  "summary": {
+    "ru": "Показать пальцем и назвать вещь: то, что рядом, и то, что далеко.",
+    "en": "Pointing at something and naming it: what's near, and what's far away."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 470,
+  "prerequisites": [
+    "sfi-a/colors"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

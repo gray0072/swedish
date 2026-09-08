@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": "jag",
+      "sv": "jag",
+      "translations": { "ru": "я", "en": "I" },
+      "pos": "pron",
+      "example": { "sv": "Jag heter Ali.", "ru": "Меня зовут Али.", "en": "My name is Ali." }
+    },
+    {
+      "id": "du",
+      "sv": "du",
+      "translations": { "ru": "ты", "en": "you" },
+      "pos": "pron",
+      "example": { "sv": "Du bor i Malmö.", "ru": "Ты живёшь в Мальмё.", "en": "You live in Malmö." }
+    },
+    {
+      "id": "han",
+      "sv": "han",
+      "translations": { "ru": "он", "en": "he" },
+      "pos": "pron",
+      "example": { "sv": "Han jobbar i Stockholm.", "ru": "Он работает в Стокгольме.", "en": "He works in Stockholm." }
+    },
+    {
+      "id": "hon",
+      "sv": "hon",
+      "translations": { "ru": "она", "en": "she" },
+      "pos": "pron",
+      "example": { "sv": "Hon talar svenska.", "ru": "Она говорит по-шведски.", "en": "She speaks Swedish." }
+    },
+    {
+      "id": "vi",
+      "sv": "vi",
+      "translations": { "ru": "мы", "en": "we" },
+      "pos": "pron",
+      "example": { "sv": "Vi bor i Sverige.", "ru": "Мы живём в Швеции.", "en": "We live in Sweden." }
+    },
+    {
+      "id": "ni",
+      "sv": "ni",
+      "translations": { "ru": "вы", "en": "you (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Ni pratar engelska.", "ru": "Вы говорите по-английски.", "en": "You (all) speak English." }
+    },
+    {
+      "id": "de",
+      "sv": "de",
+      "translations": { "ru": "они", "en": "they" },
+      "pos": "pron",
+      "note": { "ru": "Произносится как «дом».", "en": "Pronounced like \"dom\"." },
+      "example": { "sv": "De kommer från Syrien.", "ru": "Они из Сирии.", "en": "They are from Syria." }
+    },
+    {
+      "id": "den",
+      "sv": "den",
+      "translations": { "ru": "он/она (про предмет — en-слово)", "en": "it (about a thing — an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Har du en bil? Den är ny.", "ru": "У тебя есть машина? Она новая.", "en": "Do you have a car? It's new." }
+    },
+    {
+      "id": "det",
+      "sv": "det",
+      "translations": { "ru": "он/она/оно (про предмет — ett-слово, а также «это»)", "en": "it (about a thing — an ett-word, also \"it/this\")" },
+      "pos": "pron",
+      "example": { "sv": "Det är kallt idag.", "ru": "Сегодня холодно.", "en": "It's cold today." }
+    }
+  ]
+}

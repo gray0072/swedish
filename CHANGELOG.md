@@ -517,3 +517,100 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   the nationality/language pairs (including `Syrien`/`Irak` → `arabiska` and `Iran` →
   `persiska`), that 2026-09-07 really is Monday of ISO week 37, the `Ja`/`Jo` split, and
   the imperative table.
+
+## 2026-09-08 — SFI kurs A's grammar plan finished too: 19 dedicated grammar lessons
+
+- **SFI kurs A is now the first level complete on both axes** — all 25 topics (done
+  yesterday) and now all 25 grammar points. This is new territory for SFI: until now
+  only SVA grund's delkurser had dedicated grammar lessons (the standing plan for SFI
+  was "grammar threaded through topic theory, no dedicated lesson" — see the TODO entry
+  this replaces). 241 lessons in total now (222 → 241).
+- Same 4-parallel-agents pattern as yesterday, split by topic area (sounds/pronouns,
+  sentence structure, nouns, prepositions/style) rather than by curriculum order, each
+  agent getting exact slugs/orders/prerequisites up front so no folder collided. The one
+  new constraint in the brief: **zero grammatical terminology**, even though the model
+  lesson (`sva-grund-1/sin-sitt-sina`) freely uses "subject" — kurs A's own rule (drill
+  the pattern, don't name it) had to survive the jump from topic lessons to grammar
+  lessons.
+- 19 of the 25 points got a new lesson; the other 6 were already fully taught by a topic
+  lesson written the day before, so they are marked done **by reference, not
+  duplicated** — exactly the move SVA grund uses when a grammar point and a topic
+  coincide: the alphabet, yes/no-question inversion, colour adjectives, the classroom
+  imperative *and* the polite `kan` request (both point to `classroom-instructions`,
+  which already had `Kan du upprepa?` etc.), and `Vad kostar det?`. The 19 new lessons
+  were appended to the level's Topics list as items 26-44, mirroring exactly how SVA
+  grund's delkurs 1-4 append their grammar-dedicated topics past item 25.
+- Sounds and pronouns: the sj-/tj-/soft-k sound families, long vs. short vowels
+  (`vit`/`vitt`, one letter vs. doubled), the seven personal pronouns, `heter/bor/
+  kommer/talar` as same-for-every-person ready-made forms, and `är`/`har` as the two
+  most useful glue words for talking about yourself.
+- Sentence shape: statement order as a fixed "who → action word → the rest" shape,
+  wh-questions as its mirror image ("question word → action word → who"), `inte`
+  dropped in right after the action word (with fresh examples, deliberately not
+  repeating `simple-questions`'s `Jag förstår inte`), and `och`/`men`/`eller` as glue
+  words joining two short sentences.
+- Nouns: `en`/`ett` as a first encounter (learn the little word and the noun as one
+  unit), the definite form as an ending glued to the back rather than a separate word
+  for "the", plural recognition (deliberately recognition-only, not full declension
+  classes — that stays SVA grund's job), `min`/`mitt`/`mina` as the same en/ett/plural
+  split the learner already has, and numbers in personal details other than a phone
+  number (age, a street/apartment number) so it doesn't overlap `phone-numbers`.
+- Prepositions and style: `i` (inside a bigger place) vs. `på` (an address, a specific
+  spot), `på` + a day name, word stress shown by capitalising the stressed syllable
+  (`MÅNdag`, `arBEtar`), `det här är`/`det där är` as invariant pointing phrases (built
+  on the `colors` vocabulary), and the four first time words `nu/idag/imorgon/igår`
+  with the fronted-time-word order pattern shown side by side, kept in the present
+  tense throughout as instructed.
+- Checks: content validation (241 lessons, 0 errors, 0 warnings), typecheck, 39 tests,
+  clean build with 0 warnings, PWA precache 38 entries / 3912 KiB. Spot-checked by hand:
+  the sj-/tj-/g-before-front-vowel sound table, the vowel-length minimal pairs, every
+  noun's `forms` in `plural-recognition` (bilar/böcker/hus-unchanged/barn-unchanged all
+  verified), and the `inte`-placement pattern against `simple-questions` for overlap.
+
+## 2026-09-08 — SVA grund delkurs 4's grammar plan finished: the second level complete on both axes
+
+- The same day as SFI kurs A closed its grammar plan, **SVA grund delkurs 4 closed
+  its own last 5 grammar points (21-25)** — the only points across all of SVA grund's
+  four delkurser that had a `theory_en.md`-bilingual dedicated-lesson convention
+  already established but no lesson yet. 246 lessons in total now (241 → 246). Delkurs
+  4 becomes the second level, after SFI kurs A yesterday, complete on both the Topics
+  and the Grammar plan.
+- Two parallel agents (3 lessons + 2 lessons, split by theme rather than evenly), each
+  handed the exact model lesson (`sva-grund-4/hedging-language`, all five files) to
+  copy the register and file shape from — this level keeps full grammatical
+  terminology, unlike SFI kurs A's terminology-free rule from the day before.
+- The long period (point 21): the stylistic choice between coordination (`och`, `men`
+  — additive, plainer, more spoken) and subordination (`eftersom`, `som`, `vilket` —
+  hierarchical, denser, written) for the same content, plus the risk of an overlong,
+  over-embedded sentence.
+- Ellipsis (point 22): the companion technique to `cohesion-reference`'s pronominal
+  reference — instead of pointing back with `det`/`vilket`, simply drop the repeated
+  part: a shared subject after `och`, the repeated verb in an `än`-comparison
+  (`Han är längre än hon.`), or almost the whole sentence in a short answer. Built to
+  not repeat `cohesion-reference`'s own examples.
+- Emphatic and restrictive words (point 23): the restrictive family `endast`/`enbart`
+  (written register) vs. the everyday `bara`, and the emphatic family `just`/`till och
+  med`/`själva`.
+- Numerical precision and hedging (point 24): three registers for a figure in text —
+  exact (`exakt`), approximate (`cirka`, and the precise contrasting pair `drygt`
+  "just over" / `knappt` "just under"), and hedged/vague (`en betydande andel`) — with
+  the same fact stated in all three side by side.
+- Definitions and terminology (point 25) — **the last grammar point of the entire
+  200-point SVA grund plan**: the standard Swedish frames for introducing a concept
+  (`X är...`, `X innebär att...`, `Med X menas/avses...`, `X kan definieras som...`)
+  and marking a defined term on first mention.
+- The 5 new lessons were appended to delkurs 4's Topics list as items 46-50, exactly
+  mirroring how points 1-20 already sit at items 26-45 — the same SVA grund convention
+  used for SFI kurs A's grammar lessons yesterday. Grammar-points-with-a-dedicated-
+  lesson stands at 110/200: delkurs 1-3 still carry their own 15 unwritten points
+  (21-25 each); that, SFI kurs B/C/D's still-unwritten topics, and the undesigned
+  real text-lesson format remain the frontier.
+- One infrastructure fix: `content-sva-grund-4`'s chunk grew to 843 kB with the 5 new
+  lessons, past the 800 kB `chunkSizeWarningLimit` set on 2026-09-07 — bumped to 900 kB
+  in `vite.config.ts`, same legitimate-content reasoning as before, still well under
+  the PWA plugin's 2 MiB precache cap (which grew to 3999 KiB across 38 entries).
+- Checks: content validation (246 lessons, 0 errors, 0 warnings), typecheck, 39 tests,
+  clean build with 0 warnings after the chunk-limit fix. Spot-checked by hand: the
+  `drygt`/`knappt` "just over"/"just under" contrast, the four definitional frames,
+  and that `ellipsis-repetition-avoidance` doesn't reuse `cohesion-reference`'s
+  examples.

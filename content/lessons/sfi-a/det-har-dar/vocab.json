@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "det-har-ar",
+      "sv": "Det här är...",
+      "translations": { "ru": "Вот это... (то, что рядом)", "en": "This is... (something near)" },
+      "pos": "phrase",
+      "example": { "sv": "Det här är en bok.", "ru": "Это книга.", "en": "This is a book." }
+    },
+    {
+      "id": "det-dar-ar",
+      "sv": "Det där är...",
+      "translations": { "ru": "Вон то... (то, что далеко)", "en": "That is... (something far away)" },
+      "pos": "phrase",
+      "example": { "sv": "Det där är en bil.", "ru": "Вон там машина.", "en": "That is a car." }
+    },
+    {
+      "id": "det-har-ar-en-bok",
+      "sv": "Det här är en bok.",
+      "translations": { "ru": "Это книга.", "en": "This is a book." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-dar-ar-en-bil",
+      "sv": "Det där är en bil.",
+      "translations": { "ru": "Вон там машина.", "en": "That is a car." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-har-ar-en-rod-bil",
+      "sv": "Det här är en röd bil.",
+      "translations": { "ru": "Это красная машина.", "en": "This is a red car." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-dar-ar-ett-blatt-hus",
+      "sv": "Det där är ett blått hus.",
+      "translations": { "ru": "Вон там синий дом.", "en": "That is a blue house." },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-har-ar-bocker",
+      "sv": "Det här är böcker.",
+      "translations": { "ru": "Это книги.", "en": "These are books." },
+      "pos": "phrase",
+      "note": { "ru": "«Det här är» не меняется, даже когда предметов несколько.", "en": "\"Det här är\" stays the same, even for more than one thing." }
+    },
+    {
+      "id": "bok-dhd",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Det här är en bok.", "ru": "Это книга.", "en": "This is a book." }
+    },
+    {
+      "id": "bil-dhd",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Det där är en bil.", "ru": "Вон там машина.", "en": "That is a car." }
+    },
+    {
+      "id": "hus-dhd",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Det där är ett hus.", "ru": "Вон там дом.", "en": "That is a house." }
+    }
+  ]
+}

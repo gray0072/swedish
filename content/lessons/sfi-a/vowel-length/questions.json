@@ -1,0 +1,73 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-vowel-length-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Bilen är ___. (белая, долгое «и», одна буква t)" },
+      "answer": ["vit"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-vowel-length-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Huset är ___. (белое, ett-слово, две буквы t)" },
+      "answer": ["vitt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-vowel-length-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В слове «matt» гласная звучит коротко, потому что после неё две одинаковые буквы.", "en": "In \"matt\" the vowel sounds short because two of the same letter follow it." },
+      "answer": true
+    },
+    {
+      "id": "q-vowel-length-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«mat» и «matt» произносятся одинаково.", "en": "\"mat\" and \"matt\" are pronounced the same way." },
+      "answer": false,
+      "explanation": { "ru": "«mat» — с долгим «а», «matt» — с коротким «а».", "en": "\"mat\" has a long \"a\", \"matt\" has a short \"a\"." }
+    },
+    {
+      "id": "q-vowel-length-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком слове гласная звучит долго?", "en": "In which word is the vowel long?" },
+      "choices": ["tack", "tak", "boll", "matt"],
+      "answer": 1
+    },
+    {
+      "id": "q-vowel-length-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком слове гласная звучит коротко?", "en": "In which word is the vowel short?" },
+      "choices": ["bo", "tak", "vit", "boll"],
+      "answer": 3
+    },
+    {
+      "id": "q-vowel-length-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Еда вкусная.»", "en": "Build the sentence: \"The food is good.\"" },
+      "tokens": ["god", "är", "Maten"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-vowel-length-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с длиной его гласной", "en": "Match the word with the length of its vowel" },
+      "pairs": [
+        ["vit", "долгий и"],
+        ["vitt", "короткий и"],
+        ["mat", "долгий а"],
+        ["matt", "короткий а"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-en-ett-basics-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Det är ___ hus. (дом)" },
+      "answer": ["ett"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-en-ett-basics-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag har ___ katt. (кошка)" },
+      "answer": ["en"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-en-ett-basics-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно сказать «ребёнок»?", "en": "How do you correctly say \"child\"?" },
+      "choices": ["ett barn", "en barn", "ett barnet", "en barnet"],
+      "answer": 0
+    },
+    {
+      "id": "q-en-ett-basics-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как правильно сказать «машина»?", "en": "How do you correctly say \"car\"?" },
+      "choices": ["ett bil", "en bil", "bil en", "bil ett"],
+      "answer": 1
+    },
+    {
+      "id": "q-en-ett-basics-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "Большинство шведских существительных — en-слова.", "en": "Most Swedish nouns are en-words." },
+      "answer": true
+    },
+    {
+      "id": "q-en-ett-basics-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "«en äpple» — правильно сказано.", "en": "\"en äpple\" is said correctly." },
+      "answer": false,
+      "explanation": {
+        "ru": "Яблоко — ett-слово: правильно «ett äpple».",
+        "en": "Apple is an ett-word: the correct form is \"ett äpple\"."
+      }
+    },
+    {
+      "id": "q-en-ett-basics-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово с его маленьким словом-спутником", "en": "Match the noun with its own little word" },
+      "pairs": [
+        ["bil", "en"],
+        ["hus", "ett"],
+        ["katt", "en"],
+        ["barn", "ett"]
+      ]
+    },
+    {
+      "id": "q-en-ett-basics-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Это машина.»", "en": "Build the sentence: \"That's a car.\"" },
+      "tokens": ["är", "en", "bil", "Det"],
+      "answer": [3, 0, 1, 2]
+    },
+    {
+      "id": "q-en-ett-basics-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «У неё есть ребёнок.»", "en": "Build the sentence: \"She has a child.\"" },
+      "tokens": ["har", "ett", "barn", "Hon"],
+      "answer": [3, 0, 1, 2]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/negation-inte",
+  "slug": "negation-inte",
+  "title": {
+    "sv": "Inte — säga nej till en mening",
+    "ru": "Отрицание inte",
+    "en": "The negation \"inte\""
+  },
+  "summary": {
+    "ru": "Хочешь сказать «нет» предложению? Просто вставь inte сразу после слова-действия.",
+    "en": "Want to say no to a sentence? Just slot inte right after the action word."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "negation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 370,
+  "prerequisites": [
+    "sfi-a/simple-questions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

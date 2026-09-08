@@ -1,0 +1,84 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-time-words-basic-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я работаю сегодня.»", "en": "Build the sentence: \"I work today.\"" },
+      "tokens": ["idag", "jobbar", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-time-words-basic-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня я работаю.» (idag в начале)", "en": "Build the sentence: \"Today I work.\" (idag first)" },
+      "tokens": ["jobbar", "Idag", "jag"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-time-words-basic-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ jobbar jag. (сегодня, в начале предложения)" },
+      "answer": ["Idag"],
+      "acceptAlso": ["idag"]
+    },
+    {
+      "id": "q-time-words-basic-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag är hemma ___. (завтра)" },
+      "answer": ["imorgon"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-time-words-basic-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Imorgon» стоит в начале предложения. Что идёт сразу за ним?", "en": "\"Imorgon\" opens the sentence. What comes right after it?" },
+      "choices": ["слово действия (например, är, jobbar)", "jag", "ничего, сразу точка", "ещё одно слово времени"],
+      "answer": 0
+    },
+    {
+      "id": "q-time-words-basic-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое предложение означает то же самое, что «Jag jobbar nu.»?", "en": "Which sentence means the same as \"Jag jobbar nu.\"?" },
+      "choices": ["Nu jobbar jag.", "Jag nu jobbar.", "Jobbar jag nu.", "Nu jag jobbar."],
+      "answer": 0
+    },
+    {
+      "id": "q-time-words-basic-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag jobbar idag.» и «Idag jobbar jag.» означают одно и то же.", "en": "\"Jag jobbar idag.\" and \"Idag jobbar jag.\" mean the same thing." },
+      "answer": true
+    },
+    {
+      "id": "q-time-words-basic-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Nu», «idag», «imorgon» и «igår» можно ставить и в начало, и в конец простого предложения.", "en": "\"Nu\", \"idag\", \"imorgon\" and \"igår\" can go at the start or the end of a simple sentence." },
+      "answer": true
+    },
+    {
+      "id": "q-time-words-basic-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово времени с переводом", "en": "Match the time word with its meaning" },
+      "pairs": [
+        ["nu", "сейчас"],
+        ["idag", "сегодня"],
+        ["imorgon", "завтра"],
+        ["igår", "вчера"]
+      ]
+    }
+  ]
+}

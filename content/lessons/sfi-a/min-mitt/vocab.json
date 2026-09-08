@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "min",
+      "sv": "min",
+      "translations": { "ru": "мой, моя (перед en-словом)", "en": "my (before an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Det är min bok.", "ru": "Это моя книга.", "en": "That's my book." }
+    },
+    {
+      "id": "mitt",
+      "sv": "mitt",
+      "translations": { "ru": "моё (перед ett-словом)", "en": "my (before an ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Det är mitt hus.", "ru": "Это мой дом.", "en": "That's my house." }
+    },
+    {
+      "id": "mina",
+      "sv": "mina",
+      "translations": { "ru": "мои (перед множественным числом)", "en": "my (before a plural)" },
+      "pos": "pron",
+      "example": { "sv": "Det är mina barn.", "ru": "Это мои дети.", "en": "These are my children." }
+    },
+    {
+      "id": "mamma",
+      "sv": "mamma",
+      "translations": { "ru": "мама", "en": "mom, mother" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mamma", "defSg": "mamman", "indefPl": "mammor", "defPl": "mammorna" },
+      "example": { "sv": "Min mamma heter Eva.", "ru": "Мою маму зовут Ева.", "en": "My mom's name is Eva." }
+    },
+    {
+      "id": "min-bil",
+      "sv": "min bil",
+      "translations": { "ru": "моя машина", "en": "my car" },
+      "pos": "phrase",
+      "example": { "sv": "Min bil är blå.", "ru": "Моя машина синяя.", "en": "My car is blue." }
+    },
+    {
+      "id": "min-bok",
+      "sv": "min bok",
+      "translations": { "ru": "моя книга", "en": "my book" },
+      "pos": "phrase",
+      "example": { "sv": "Var är min bok?", "ru": "Где моя книга?", "en": "Where is my book?" }
+    },
+    {
+      "id": "mitt-barn",
+      "sv": "mitt barn",
+      "translations": { "ru": "мой ребёнок", "en": "my child" },
+      "pos": "phrase",
+      "example": { "sv": "Mitt barn sover.", "ru": "Мой ребёнок спит.", "en": "My child is sleeping." }
+    },
+    {
+      "id": "mitt-hus",
+      "sv": "mitt hus",
+      "translations": { "ru": "мой дом", "en": "my house" },
+      "pos": "phrase",
+      "example": { "sv": "Mitt hus är stort.", "ru": "Мой дом большой.", "en": "My house is big." }
+    },
+    {
+      "id": "mitt-jobb",
+      "sv": "mitt jobb",
+      "translations": { "ru": "моя работа", "en": "my job" },
+      "pos": "phrase",
+      "example": { "sv": "Mitt jobb är bra.", "ru": "Моя работа хорошая.", "en": "My job is good." }
+    },
+    {
+      "id": "mina-bocker",
+      "sv": "mina böcker",
+      "translations": { "ru": "мои книги", "en": "my books" },
+      "pos": "phrase",
+      "example": { "sv": "Mina böcker är nya.", "ru": "Мои книги новые.", "en": "My books are new." }
+    },
+    {
+      "id": "mina-barn",
+      "sv": "mina barn",
+      "translations": { "ru": "мои дети", "en": "my children" },
+      "pos": "phrase",
+      "example": { "sv": "Mina barn är trötta.", "ru": "Мои дети устали.", "en": "My children are tired." }
+    }
+  ]
+}

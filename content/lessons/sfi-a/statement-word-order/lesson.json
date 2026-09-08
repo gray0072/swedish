@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/statement-word-order",
+  "slug": "statement-word-order",
+  "title": {
+    "sv": "Ordföljd: Jag bor i Malmö",
+    "ru": "Порядок слов в простом предложении",
+    "en": "Word order in a simple statement"
+  },
+  "summary": {
+    "ru": "Кто → слово-действие → всё остальное — шаблон для любого простого предложения.",
+    "en": "Who → the action word → everything else — the shape for any simple statement."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 350,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

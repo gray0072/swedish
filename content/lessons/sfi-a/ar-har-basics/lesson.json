@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/ar-har-basics",
+  "slug": "ar-har-basics",
+  "title": {
+    "sv": "Är och har om dig själv",
+    "ru": "Är и har в рассказе о себе",
+    "en": "Är and har about yourself"
+  },
+  "summary": {
+    "ru": "Jag är trött, jag har barn — два самых полезных слова в шведском.",
+    "en": "Jag är trött, jag har barn — the two most useful words in Swedish."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "verbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 340,
+  "prerequisites": [
+    "sfi-a/present-tense-basics"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

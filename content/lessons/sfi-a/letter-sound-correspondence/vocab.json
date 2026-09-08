@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "sju",
+      "sv": "sju",
+      "translations": { "ru": "семь", "en": "seven" },
+      "pos": "numeral",
+      "example": { "sv": "Klockan är sju.", "ru": "Сейчас семь часов.", "en": "It's seven o'clock." }
+    },
+    {
+      "id": "sjuk",
+      "sv": "sjuk",
+      "translations": { "ru": "больной", "en": "sick" },
+      "pos": "adj",
+      "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болен.", "en": "I'm sick today." }
+    },
+    {
+      "id": "stjarna",
+      "sv": "stjärna",
+      "translations": { "ru": "звезда", "en": "star" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Stjärnan lyser på natten.", "ru": "Звезда светит ночью.", "en": "The star shines at night." }
+    },
+    {
+      "id": "skjorta",
+      "sv": "skjorta",
+      "translations": { "ru": "рубашка", "en": "shirt" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Skjortan är vit.", "ru": "Рубашка белая.", "en": "The shirt is white." }
+    },
+    {
+      "id": "tjej",
+      "sv": "tjej",
+      "translations": { "ru": "девушка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hon är en tjej.", "ru": "Она девушка.", "en": "She is a girl." }
+    },
+    {
+      "id": "kok",
+      "sv": "kök",
+      "translations": { "ru": "кухня", "en": "kitchen" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Köket är litet.", "ru": "Кухня маленькая.", "en": "The kitchen is small." }
+    },
+    {
+      "id": "karlek",
+      "sv": "kärlek",
+      "translations": { "ru": "любовь", "en": "love" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kärlek är viktig för alla.", "ru": "Любовь важна для всех.", "en": "Love is important to everyone." }
+    },
+    {
+      "id": "kopa",
+      "sv": "köpa",
+      "translations": { "ru": "покупать", "en": "to buy" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "köpa", "present": "köper", "past": "köpte", "supine": "köpt" },
+      "example": { "sv": "Jag köper bröd.", "ru": "Я покупаю хлеб.", "en": "I buy bread." }
+    },
+    {
+      "id": "goteborg",
+      "sv": "Göteborg",
+      "translations": { "ru": "Гётеборг", "en": "Gothenburg" },
+      "pos": "noun",
+      "example": { "sv": "Jag bor i Göteborg.", "ru": "Я живу в Гётеборге.", "en": "I live in Gothenburg." }
+    },
+    {
+      "id": "ge",
+      "sv": "ge",
+      "translations": { "ru": "давать", "en": "to give" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ge", "present": "ger", "past": "gav", "supine": "gett" },
+      "example": { "sv": "Jag ger en present.", "ru": "Я дарю подарок.", "en": "I give a present." }
+    }
+  ]
+}

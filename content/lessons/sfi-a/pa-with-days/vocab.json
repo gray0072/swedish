@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "id": "pa-mandag",
+      "sv": "på måndag",
+      "translations": { "ru": "в понедельник (в ближайший)", "en": "on Monday (the coming one)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag jobbar på måndag.", "ru": "Я работаю в понедельник.", "en": "I work on Monday." }
+    },
+    {
+      "id": "pa-tisdag",
+      "sv": "på tisdag",
+      "translations": { "ru": "во вторник", "en": "on Tuesday" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på tisdag.", "ru": "Увидимся во вторник.", "en": "See you on Tuesday." }
+    },
+    {
+      "id": "pa-onsdag",
+      "sv": "på onsdag",
+      "translations": { "ru": "в среду", "en": "on Wednesday" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-torsdag",
+      "sv": "på torsdag",
+      "translations": { "ru": "в четверг", "en": "on Thursday" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-fredag",
+      "sv": "på fredag",
+      "translations": { "ru": "в пятницу", "en": "on Friday" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på fredag.", "ru": "Увидимся в пятницу.", "en": "See you on Friday." }
+    },
+    {
+      "id": "pa-lordag",
+      "sv": "på lördag",
+      "translations": { "ru": "в субботу", "en": "on Saturday" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på lördag.", "ru": "Увидимся в субботу.", "en": "See you on Saturday." }
+    },
+    {
+      "id": "pa-sondag",
+      "sv": "på söndag",
+      "translations": { "ru": "в воскресенье", "en": "on Sunday" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pa-mandagar",
+      "sv": "på måndagar",
+      "translations": { "ru": "по понедельникам (каждый понедельник)", "en": "on Mondays (every Monday)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag jobbar på måndagar.", "ru": "Я работаю по понедельникам.", "en": "I work on Mondays." }
+    }
+  ]
+}

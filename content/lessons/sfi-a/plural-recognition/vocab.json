@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "en bil – två bilar", "ru": "одна машина – две машины", "en": "one car – two cars" }
+    },
+    {
+      "id": "katt",
+      "sv": "en katt",
+      "translations": { "ru": "кошка", "en": "cat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en katt", "defSg": "katten", "indefPl": "katter", "defPl": "katterna" },
+      "example": { "sv": "en katt – två katter", "ru": "одна кошка – две кошки", "en": "one cat – two cats" }
+    },
+    {
+      "id": "hund",
+      "sv": "en hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "example": { "sv": "en hund – två hundar", "ru": "одна собака – две собаки", "en": "one dog – two dogs" }
+    },
+    {
+      "id": "dag",
+      "sv": "en dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
+      "example": { "sv": "en dag – två dagar", "ru": "один день – два дня", "en": "one day – two days" }
+    },
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "example": { "sv": "en flicka – två flickor", "ru": "одна девочка – две девочки", "en": "one girl – two girls" }
+    },
+    {
+      "id": "bok",
+      "sv": "en bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "en bok – två böcker", "ru": "одна книга – две книги", "en": "one book – two books" }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "ett hus – två hus", "ru": "один дом – два дома", "en": "one house – two houses" }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "ett barn – två barn", "ru": "один ребёнок – двое детей", "en": "one child – two children" }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "ett bord – två bord", "ru": "один стол – два стола", "en": "one table – two tables" }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "ett äpple – två äpplen", "ru": "одно яблоко – два яблока", "en": "one apple – two apples" }
+    }
+  ]
+}

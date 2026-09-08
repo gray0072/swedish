@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "id": "ar",
+      "sv": "är",
+      "translations": { "ru": "быть (я есть, ты есть, он есть — одно и то же слово)", "en": "to be (jag är, du är, han är — the same word)" },
+      "pos": "verb",
+      "example": { "sv": "Jag är trött.", "ru": "Я устал.", "en": "I'm tired." }
+    },
+    {
+      "id": "har",
+      "sv": "har",
+      "translations": { "ru": "иметь (одно и то же слово для всех)", "en": "to have (the same word for everyone)" },
+      "pos": "verb",
+      "example": { "sv": "Jag har en bil.", "ru": "У меня есть машина.", "en": "I have a car." }
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj",
+      "example": { "sv": "Jag är trött idag.", "ru": "Я сегодня устал.", "en": "I'm tired today." }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок, дети", "en": "child, children" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag har två barn.", "ru": "У меня двое детей.", "en": "I have two children." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag har en bil.", "ru": "У меня есть машина.", "en": "I have a car." }
+    },
+    {
+      "id": "sverige",
+      "sv": "Sverige",
+      "translations": { "ru": "Швеция", "en": "Sweden" },
+      "pos": "noun",
+      "example": { "sv": "Hon bor i Sverige.", "ru": "Она живёт в Швеции.", "en": "She lives in Sweden." }
+    },
+    {
+      "id": "tva",
+      "sv": "två",
+      "translations": { "ru": "два", "en": "two" },
+      "pos": "numeral",
+      "example": { "sv": "Jag har två barn.", "ru": "У меня двое детей.", "en": "I have two children." }
+    },
+    {
+      "id": "har-du-barn",
+      "sv": "Har du barn?",
+      "translations": { "ru": "У тебя есть дети?", "en": "Do you have children?" },
+      "pos": "phrase",
+      "example": { "sv": "Har du barn? — Ja, jag har två barn.", "ru": "У тебя есть дети? — Да, у меня двое.", "en": "Do you have children? — Yes, I have two." }
+    },
+    {
+      "id": "jag-ar-fran-sverige",
+      "sv": "Jag är från Sverige.",
+      "translations": { "ru": "Я из Швеции.", "en": "I'm from Sweden." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är inte från Sverige, jag är från Somalia.", "ru": "Я не из Швеции, я из Сомали.", "en": "I'm not from Sweden, I'm from Somalia." }
+    }
+  ]
+}

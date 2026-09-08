@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/numbers-personal-details",
+  "slug": "numbers-personal-details",
+  "title": {
+    "sv": "Siffror i dina uppgifter",
+    "ru": "Цифры в личных данных",
+    "en": "Numbers in your personal details"
+  },
+  "summary": {
+    "ru": "Числа 0–20, которые ты уже знаешь, — теперь для возраста и адреса, целиком, а не по цифрам.",
+    "en": "The numbers 0–20 you already know — now for age and address, spoken whole, not digit by digit."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "numbers",
+    "personal-info"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 430,
+  "prerequisites": [
+    "sfi-a/numbers-0-20",
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

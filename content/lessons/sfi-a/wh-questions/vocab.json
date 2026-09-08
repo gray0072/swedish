@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "vad",
+      "sv": "vad",
+      "translations": { "ru": "что", "en": "what" },
+      "pos": "pron",
+      "example": { "sv": "Vad heter du?", "ru": "Как тебя зовут?", "en": "What's your name?" }
+    },
+    {
+      "id": "var",
+      "sv": "var",
+      "translations": { "ru": "где", "en": "where" },
+      "pos": "adv",
+      "example": { "sv": "Var bor du?", "ru": "Где ты живёшь?", "en": "Where do you live?" }
+    },
+    {
+      "id": "hur",
+      "sv": "hur",
+      "translations": { "ru": "как", "en": "how" },
+      "pos": "adv",
+      "example": { "sv": "Hur gammal är du?", "ru": "Сколько тебе лет?", "en": "How old are you?" }
+    },
+    {
+      "id": "vem",
+      "sv": "vem",
+      "translations": { "ru": "кто", "en": "who" },
+      "pos": "pron",
+      "example": { "sv": "Vem är det?", "ru": "Кто это?", "en": "Who is that?" }
+    },
+    {
+      "id": "nar",
+      "sv": "när",
+      "translations": { "ru": "когда", "en": "when" },
+      "pos": "adv",
+      "example": { "sv": "När kommer du?", "ru": "Когда ты придёшь?", "en": "When are you coming?" }
+    },
+    {
+      "id": "vad-heter-du",
+      "sv": "Vad heter du?",
+      "translations": { "ru": "Как тебя зовут?", "en": "What's your name?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad heter du? — Jag heter Ali.", "ru": "Как тебя зовут? — Меня зовут Али.", "en": "What's your name? — My name is Ali." }
+    },
+    {
+      "id": "var-bor-du",
+      "sv": "Var bor du?",
+      "translations": { "ru": "Где ты живёшь?", "en": "Where do you live?" },
+      "pos": "phrase",
+      "example": { "sv": "Var bor du? — Jag bor i Malmö.", "ru": "Где ты живёшь? — Я живу в Мальмё.", "en": "Where do you live? — I live in Malmö." }
+    },
+    {
+      "id": "hur-gammal-ar-du",
+      "sv": "Hur gammal är du?",
+      "translations": { "ru": "Сколько тебе лет?", "en": "How old are you?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "vem-ar-det",
+      "sv": "Vem är det?",
+      "translations": { "ru": "Кто это?", "en": "Who is that?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "nar-kommer-du",
+      "sv": "När kommer du?",
+      "translations": { "ru": "Когда ты придёшь?", "en": "When are you coming?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый; ... лет (о возрасте)", "en": "old (age)" },
+      "pos": "adj",
+      "example": { "sv": "Hur gammal är du?", "ru": "Сколько тебе лет?", "en": "How old are you?" }
+    },
+    {
+      "id": "kommer",
+      "sv": "kommer",
+      "translations": { "ru": "прихожу / приходишь / приходит", "en": "come(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "När kommer du?", "ru": "Когда ты придёшь?", "en": "When are you coming?" }
+    },
+    {
+      "id": "ar",
+      "sv": "är",
+      "translations": { "ru": "есть / является (быть)", "en": "am/is/are" },
+      "pos": "verb",
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Vem är det?", "ru": "Кто это?", "en": "Who is that?" }
+    }
+  ]
+}

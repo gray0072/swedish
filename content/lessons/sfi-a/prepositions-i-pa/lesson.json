@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/prepositions-i-pa",
+  "slug": "prepositions-i-pa",
+  "title": {
+    "sv": "Prepositionerna i och på",
+    "ru": "Предлоги i и på",
+    "en": "The prepositions \"i\" and \"på\""
+  },
+  "summary": {
+    "ru": "i Sverige, men på Storgatan 5 — маленькое слово, которое показывает, где ты.",
+    "en": "i Sverige, but på Storgatan 5 — a small word that shows exactly where you are."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "prepositions",
+    "grammar",
+    "places"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 440,
+  "prerequisites": [
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

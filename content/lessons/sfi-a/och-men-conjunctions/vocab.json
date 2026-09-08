@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": "och",
+      "sv": "och",
+      "translations": { "ru": "и", "en": "and" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag heter Ali och jag bor i Malmö.", "ru": "Меня зовут Али, и я живу в Мальмё.", "en": "My name is Ali, and I live in Malmö." }
+    },
+    {
+      "id": "men",
+      "sv": "men",
+      "translations": { "ru": "но", "en": "but" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag talar svenska men inte engelska.", "ru": "Я говорю по-шведски, но не по-английски.", "en": "I speak Swedish but not English." }
+    },
+    {
+      "id": "eller",
+      "sv": "eller",
+      "translations": { "ru": "или", "en": "or" },
+      "pos": "conjunction",
+      "example": { "sv": "Vill du ha kaffe eller te?", "ru": "Хочешь кофе или чай?", "en": "Do you want coffee or tea?" }
+    },
+    {
+      "id": "son",
+      "sv": "son",
+      "translations": { "ru": "сын", "en": "son" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag har en son och en dotter.", "ru": "У меня есть сын и дочь.", "en": "I have a son and a daughter." }
+    },
+    {
+      "id": "dotter",
+      "sv": "dotter",
+      "translations": { "ru": "дочь", "en": "daughter" },
+      "pos": "noun",
+      "gender": "en"
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "усталый", "en": "tired" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: trött (без изменений), мн.ч.: trötta", "en": "ett-form: trött (unchanged), plural: trötta" },
+      "example": { "sv": "Han är trött men glad.", "ru": "Он усталый, но радостный.", "en": "He is tired but happy." }
+    },
+    {
+      "id": "glad",
+      "sv": "glad",
+      "translations": { "ru": "радостный, весёлый", "en": "happy, glad" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: glatt, мн.ч.: glada", "en": "ett-form: glatt, plural: glada" }
+    },
+    {
+      "id": "kaffe",
+      "sv": "kaffe",
+      "translations": { "ru": "кофе", "en": "coffee" },
+      "pos": "noun",
+      "example": { "sv": "Vill du ha kaffe eller te?", "ru": "Хочешь кофе или чай?", "en": "Do you want coffee or tea?" }
+    },
+    {
+      "id": "te",
+      "sv": "te",
+      "translations": { "ru": "чай", "en": "tea" },
+      "pos": "noun"
+    },
+    {
+      "id": "vill",
+      "sv": "vill",
+      "translations": { "ru": "хочу / хочешь / хочет", "en": "want(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Vill du ha kaffe eller te?", "ru": "Хочешь кофе или чай?", "en": "Do you want coffee or tea?" }
+    },
+    {
+      "id": "ha",
+      "sv": "ha",
+      "translations": { "ru": "иметь", "en": "to have" },
+      "pos": "verb",
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" }
+    },
+    {
+      "id": "heter",
+      "sv": "heter",
+      "translations": { "ru": "зовут (меня/тебя/его...)", "en": "is/am named" },
+      "pos": "verb",
+      "forms": { "infinitive": "heta", "present": "heter", "past": "hette", "supine": "hetat" },
+      "example": { "sv": "Jag heter Ali och jag bor i Malmö.", "ru": "Меня зовут Али, и я живу в Мальмё.", "en": "My name is Ali, and I live in Malmö." }
+    },
+    {
+      "id": "talar",
+      "sv": "talar",
+      "translations": { "ru": "говорю / говоришь / говорит", "en": "speak(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Jag talar svenska men inte engelska.", "ru": "Я говорю по-шведски, но не по-английски.", "en": "I speak Swedish but not English." }
+    },
+    {
+      "id": "svenska",
+      "sv": "svenska",
+      "translations": { "ru": "шведский язык", "en": "Swedish (the language)" },
+      "pos": "noun"
+    },
+    {
+      "id": "engelska",
+      "sv": "engelska",
+      "translations": { "ru": "английский язык", "en": "English (the language)" },
+      "pos": "noun"
+    }
+  ]
+}

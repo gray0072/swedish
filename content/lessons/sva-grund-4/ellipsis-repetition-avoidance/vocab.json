@@ -1,0 +1,105 @@
+{
+  "items": [
+    {
+      "id": "ellips",
+      "sv": "ellips",
+      "translations": { "ru": "эллипсис (пропуск уже сказанного)", "en": "ellipsis (leaving out what was already said)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "ellips", "defSg": "ellipsen", "indefPl": "ellipser", "defPl": "ellipserna" },
+      "example": { "sv": "Ellips är ett sätt att undvika upprepning.", "ru": "Эллипсис — способ избежать повторов.", "en": "Ellipsis is a way to avoid repetition." }
+    },
+    {
+      "id": "utelaemna",
+      "sv": "utelämna",
+      "translations": { "ru": "пропускать, опускать (не упоминать)", "en": "to leave out, to omit" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "utelämna", "present": "utelämnar", "past": "utelämnade", "supine": "utelämnat" },
+      "example": { "sv": "Man kan utelämna det subjekt som redan är nämnt.", "ru": "Можно опустить подлежащее, которое уже было названо.", "en": "You can leave out a subject that has already been mentioned." }
+    },
+    {
+      "id": "upprepning",
+      "sv": "upprepning",
+      "translations": { "ru": "повторение, повтор", "en": "repetition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "upprepning", "defSg": "upprepningen", "indefPl": "upprepningar", "defPl": "upprepningarna" },
+      "example": { "sv": "Överdriven pronominell återkoppling kan låta som en onödig upprepning.", "ru": "Чрезмерная местоименная отсылка может звучать как ненужное повторение.", "en": "Overusing pronominal reference can sound like needless repetition." }
+    },
+    {
+      "id": "gemensamt-subjekt",
+      "sv": "gemensamt subjekt",
+      "translations": { "ru": "общее подлежащее (эллипсис после «och»)", "en": "shared subject (ellipsis after \"och\")" },
+      "pos": "phrase",
+      "example": { "sv": "Hon läste boken och tyckte om den.", "ru": "Она прочитала книгу и понравилась ей (букв. и оценила её).", "en": "She read the book and liked it." }
+    },
+    {
+      "id": "gemensamt-verb",
+      "sv": "gemensamt verb",
+      "translations": { "ru": "общий глагол (эллипсис в сравнении)", "en": "shared verb (ellipsis in a comparison)" },
+      "pos": "phrase",
+      "example": { "sv": "Han är längre än hon.", "ru": "Он выше, чем она.", "en": "He is taller than she is." }
+    },
+    {
+      "id": "kort-svar",
+      "sv": "kort svar",
+      "translations": { "ru": "короткий ответ (с эллипсисом большей части предложения)", "en": "short answer (with most of the sentence elided)" },
+      "pos": "phrase",
+      "example": { "sv": "Vill du ha kaffe? Ja, gärna.", "ru": "Хочешь кофе? Да, с удовольствием.", "en": "Would you like coffee? Yes, please." }
+    },
+    {
+      "id": "aen-comparison",
+      "sv": "än",
+      "translations": { "ru": "чем (в сравнении)", "en": "than (in a comparison)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han är längre än vad hon är.", "ru": "Он выше, чем она есть.", "en": "He is taller than she is." }
+    },
+    {
+      "id": "tycka-om",
+      "sv": "tycka om",
+      "translations": { "ru": "нравиться, любить (что-то)", "en": "to like" },
+      "pos": "phrase",
+      "example": { "sv": "Hon tyckte om boken.", "ru": "Ей понравилась книга.", "en": "She liked the book." }
+    },
+    {
+      "id": "laesa-ellips",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Har du läst boken? Nej, inte än.", "ru": "Ты читал книгу? Нет, ещё нет.", "en": "Have you read the book? No, not yet." }
+    },
+    {
+      "id": "gaerna",
+      "sv": "gärna",
+      "translations": { "ru": "охотно, с удовольствием", "en": "gladly, willingly" },
+      "pos": "adv",
+      "example": { "sv": "Ja, gärna.", "ru": "Да, с удовольствием.", "en": "Yes, gladly." }
+    },
+    {
+      "id": "inte-aen",
+      "sv": "inte än",
+      "translations": { "ru": "ещё нет", "en": "not yet" },
+      "pos": "phrase",
+      "example": { "sv": "Nej, inte än.", "ru": "Нет, ещё нет.", "en": "No, not yet." }
+    },
+    {
+      "id": "jaemfoerelse",
+      "sv": "jämförelse",
+      "translations": { "ru": "сравнение", "en": "comparison" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "jämförelse", "defSg": "jämförelsen", "indefPl": "jämförelser", "defPl": "jämförelserna" },
+      "example": { "sv": "En jämförelse kan innehålla en ellips av verbet.", "ru": "Сравнение может содержать эллипсис глагола.", "en": "A comparison can contain an ellipsis of the verb." }
+    },
+    {
+      "id": "laengre-ellips",
+      "sv": "längre",
+      "translations": { "ru": "выше, длиннее (сравнительная степень от «lång»)", "en": "taller, longer (comparative of \"lång\")" },
+      "pos": "adj",
+      "example": { "sv": "Han är längre än hon.", "ru": "Он выше, чем она.", "en": "He is taller than she is." }
+    }
+  ]
+}

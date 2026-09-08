@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-emphatic-restrictive-words-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "К какому семейству относятся «endast» и «enbart»?", "en": "Which family do \"endast\" and \"enbart\" belong to?" },
+      "choices": ["Выделительные (усиливают элемент)", "Ограничительные (сужают утверждение)", "Хеджирующие (смягчают уверенность)", "Сочинительные союзы"],
+      "answer": 1
+    },
+    {
+      "id": "q-emphatic-restrictive-words-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чем «bara» отличается по регистру от «endast»/«enbart»?", "en": "How does \"bara\" differ in register from \"endast\"/\"enbart\"?" },
+      "choices": ["Ничем, это точные синонимы без разницы в регистре", "«Bara» — разговорный, повседневный вариант; «endast»/«enbart» — нейтрально-книжные", "«Bara» уместен только в официальных документах", "«Bara» — устаревшее слово"],
+      "answer": 1
+    },
+    {
+      "id": "q-emphatic-restrictive-words-mc-3",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает «till och med» в «Till och med barnen förstod det»?", "en": "What does \"till och med\" mean in \"Till och med barnen förstod det\"?" },
+      "choices": ["только", "даже", "именно", "почти"],
+      "answer": 1
+    },
+    {
+      "id": "q-emphatic-restrictive-words-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Где обычно стоит выделительное или ограничительное слово по отношению к тому, что оно фокусирует?", "en": "Where does a restrictive or emphatic word typically sit relative to what it focuses on?" },
+      "choices": ["После фокусируемого элемента, в конце предложения", "Непосредственно перед фокусируемым элементом", "В самом начале предложения независимо от фокуса", "Положение не имеет значения"],
+      "answer": 1
+    },
+    {
+      "id": "q-emphatic-restrictive-words-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Blott» — обычное повседневное слово, которое можно использовать так же часто, как «bara».", "en": "\"Blott\" is a common everyday word that can be used as often as \"bara\"." },
+      "answer": false,
+      "explanation": { "ru": "Нет, «blott» — очень формальное, литературное и редкое слово.", "en": "No, \"blott\" is a very formal, literary, and rare word." }
+    },
+    {
+      "id": "q-emphatic-restrictive-words-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Själva» согласуется по роду и числу: själv, självt, själva.", "en": "\"Själva\" agrees in gender and number: själv, självt, själva." },
+      "answer": true
+    },
+    {
+      "id": "q-emphatic-restrictive-words-tf-3",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Just» в «just den här boken» выделяет именно эту книгу, а не какую-то другую.", "en": "\"Just\" in \"just den här boken\" singles out precisely this book, not some other one." },
+      "answer": true
+    },
+    {
+      "id": "q-emphatic-restrictive-words-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ barnen förstod det. (даже)" },
+      "answer": ["Till och med"]
+    },
+    {
+      "id": "q-emphatic-restrictive-words-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сама идея хороша.»", "en": "Build the sentence: \"The idea itself is good.\"" },
+      "tokens": ["Själva", "idén", "är", "bra"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-emphatic-restrictive-words-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с его смыслом/регистром", "en": "Match the word with its meaning/register" },
+      "pairs": [
+        ["endast", "только, нейтрально-книжно / only, neutral-written"],
+        ["bara", "только, разговорно / only, spoken"],
+        ["just", "именно / precisely"],
+        ["till och med", "даже / even"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "id": "hur-gammal-ar-du",
+      "sv": "Hur gammal är du?",
+      "translations": { "ru": "Сколько тебе лет?", "en": "How old are you?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur gammal är du?", "ru": "Сколько тебе лет?", "en": "How old are you?" }
+    },
+    {
+      "id": "jag-ar-tjugo-ar",
+      "sv": "Jag är tjugo år.",
+      "translations": { "ru": "Мне двадцать лет.", "en": "I am twenty years old." },
+      "pos": "phrase",
+      "example": { "sv": "Hur gammal är du? Jag är tjugo år.", "ru": "Сколько тебе лет? Мне двадцать лет.", "en": "How old are you? I am twenty years old." }
+    },
+    {
+      "id": "alder",
+      "sv": "ålder",
+      "translations": { "ru": "возраст", "en": "age" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ålder", "defSg": "åldern", "indefPl": "åldrar", "defPl": "åldrarna" },
+      "example": { "sv": "Skriv din ålder här.", "ru": "Напиши здесь свой возраст.", "en": "Write your age here." }
+    },
+    {
+      "id": "vilken-adress-bor-du-pa",
+      "sv": "Vilken adress bor du på?",
+      "translations": { "ru": "По какому адресу ты живёшь?", "en": "What address do you live at?" },
+      "pos": "phrase",
+      "example": { "sv": "Vilken adress bor du på?", "ru": "По какому адресу ты живёшь?", "en": "What address do you live at?" }
+    },
+    {
+      "id": "jag-bor-pa-storgatan-tio",
+      "sv": "Jag bor på Storgatan tio.",
+      "translations": { "ru": "Я живу на Стургатан, 10.", "en": "I live at Storgatan 10." },
+      "pos": "phrase",
+      "example": { "sv": "Jag bor på Storgatan tio.", "ru": "Я живу на Стургатан, 10.", "en": "I live at Storgatan 10." }
+    },
+    {
+      "id": "jag-bor-pa-kungsgatan-sexton",
+      "sv": "Jag bor på Kungsgatan sexton.",
+      "translations": { "ru": "Я живу на Кунгсгатан, 16.", "en": "I live at Kungsgatan 16." },
+      "pos": "phrase",
+      "example": { "sv": "Jag bor på Kungsgatan sexton.", "ru": "Я живу на Кунгсгатан, 16.", "en": "I live at Kungsgatan 16." }
+    },
+    {
+      "id": "gata",
+      "sv": "gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "example": { "sv": "Vilken gata bor du på?", "ru": "На какой улице ты живёшь?", "en": "Which street do you live on?" }
+    },
+    {
+      "id": "lagenhet",
+      "sv": "lägenhet",
+      "translations": { "ru": "квартира", "en": "apartment, flat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lägenhet", "defSg": "lägenheten", "indefPl": "lägenheter", "defPl": "lägenheterna" },
+      "example": { "sv": "Jag bor i en lägenhet.", "ru": "Я живу в квартире.", "en": "I live in an apartment." }
+    },
+    {
+      "id": "lagenhet-nummer-fem",
+      "sv": "lägenhet nummer fem",
+      "translations": { "ru": "квартира номер пять", "en": "apartment number five" },
+      "pos": "phrase",
+      "example": { "sv": "Jag bor i lägenhet nummer fem.", "ru": "Я живу в квартире номер пять.", "en": "I live in apartment number five." }
+    },
+    {
+      "id": "nummer",
+      "sv": "nummer",
+      "translations": { "ru": "номер", "en": "number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett nummer", "defSg": "numret", "indefPl": "nummer", "defPl": "numren" },
+      "example": { "sv": "Vilket nummer bor du på?", "ru": "Какой у тебя номер дома?", "en": "What number do you live at?" }
+    },
+    {
+      "id": "husnummer",
+      "sv": "husnummer",
+      "translations": { "ru": "номер дома", "en": "house number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett husnummer", "defSg": "husnumret", "indefPl": "husnummer", "defPl": "husnumren" },
+      "example": { "sv": "Vad är ditt husnummer?", "ru": "Какой у тебя номер дома?", "en": "What is your house number?" }
+    }
+  ]
+}

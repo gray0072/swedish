@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "heter",
+      "sv": "heter",
+      "translations": { "ru": "зовут (jag heter, du heter, han heter — всегда так)", "en": "is/am/are called (jag heter, du heter, han heter — always the same)" },
+      "pos": "verb",
+      "example": { "sv": "Jag heter Sara.", "ru": "Меня зовут Сара.", "en": "My name is Sara." }
+    },
+    {
+      "id": "bor",
+      "sv": "bor",
+      "translations": { "ru": "живу/живёшь/живёт... (одно слово для всех)", "en": "live(s) (one word for everyone)" },
+      "pos": "verb",
+      "example": { "sv": "Vi bor i Göteborg.", "ru": "Мы живём в Гётеборге.", "en": "We live in Gothenburg." }
+    },
+    {
+      "id": "kommer",
+      "sv": "kommer",
+      "translations": { "ru": "прихожу/приходит... (тоже одно слово)", "en": "come(s) (also one word)" },
+      "pos": "verb",
+      "example": { "sv": "De kommer från Irak.", "ru": "Они из Ирака.", "en": "They are from Iraq." }
+    },
+    {
+      "id": "talar",
+      "sv": "talar",
+      "translations": { "ru": "говорю/говоришь/говорит...", "en": "speak(s)" },
+      "pos": "verb",
+      "example": { "sv": "Han talar svenska.", "ru": "Он говорит по-шведски.", "en": "He speaks Swedish." }
+    },
+    {
+      "id": "ater",
+      "sv": "äter",
+      "translations": { "ru": "ем/ешь/ест...", "en": "eat(s)" },
+      "pos": "verb",
+      "example": { "sv": "Jag äter frukost.", "ru": "Я ем завтрак.", "en": "I eat breakfast." }
+    },
+    {
+      "id": "jobbar",
+      "sv": "jobbar",
+      "translations": { "ru": "работаю/работаешь/работает...", "en": "work(s)" },
+      "pos": "verb",
+      "example": { "sv": "Jag jobbar i Malmö.", "ru": "Я работаю в Мальмё.", "en": "I work in Malmö." }
+    },
+    {
+      "id": "laser",
+      "sv": "läser",
+      "translations": { "ru": "читаю/читаешь/читает...", "en": "read(s)" },
+      "pos": "verb",
+      "example": { "sv": "Vi läser en bok.", "ru": "Мы читаем книгу.", "en": "We read a book." }
+    }
+  ]
+}

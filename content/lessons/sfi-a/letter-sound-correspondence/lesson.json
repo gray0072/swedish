@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/letter-sound-correspondence",
+  "slug": "letter-sound-correspondence",
+  "title": {
+    "sv": "Bokstav och ljud",
+    "ru": "Буква и звук",
+    "en": "Letter and sound"
+  },
+  "summary": {
+    "ru": "sj, stj, skj, tj и k перед e/i/y/ä/ö — разные буквы, но узнаваемые звуки.",
+    "en": "sj, stj, skj, tj and k before e/i/y/ä/ö — different letters, recognisable sounds."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "pronunciation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 300,
+  "prerequisites": [
+    "sfi-a/alphabet"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

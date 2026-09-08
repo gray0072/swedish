@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "inte",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv",
+      "note": { "ru": "Inte встаёт сразу после слова-действия.", "en": "Inte goes right after the action word." },
+      "example": { "sv": "Jag bor inte i Lund.", "ru": "Я не живу в Лунде.", "en": "I don't live in Lund." }
+    },
+    {
+      "id": "bor",
+      "sv": "bor",
+      "translations": { "ru": "живу / живёшь / живёт", "en": "live(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "note": { "ru": "Утверждение: Jag bor i Lund.", "en": "The statement: Jag bor i Lund." },
+      "example": { "sv": "Jag bor inte i Lund.", "ru": "Я не живу в Лунде.", "en": "I don't live in Lund." }
+    },
+    {
+      "id": "talar",
+      "sv": "talar",
+      "translations": { "ru": "говорю / говоришь / говорит", "en": "speak(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "note": { "ru": "Утверждение: Han talar engelska.", "en": "The statement: Han talar engelska." },
+      "example": { "sv": "Han talar inte engelska.", "ru": "Он не говорит по-английски.", "en": "He doesn't speak English." }
+    },
+    {
+      "id": "har",
+      "sv": "har",
+      "translations": { "ru": "имею / имеешь / имеет (есть у ...)", "en": "have/has" },
+      "pos": "verb",
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "note": { "ru": "Утверждение: Vi har bil.", "en": "The statement: Vi har bil." },
+      "example": { "sv": "Vi har inte bil.", "ru": "У нас нет машины.", "en": "We don't have a car." }
+    },
+    {
+      "id": "jobbar",
+      "sv": "jobbar",
+      "translations": { "ru": "работаю / работаешь / работает", "en": "work(s)" },
+      "pos": "verb",
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "note": { "ru": "Утверждение: Hon jobbar i Malmö.", "en": "The statement: Hon jobbar i Malmö." },
+      "example": { "sv": "Hon jobbar inte i Malmö.", "ru": "Она не работает в Мальмё.", "en": "She doesn't work in Malmö." }
+    },
+    {
+      "id": "heter",
+      "sv": "heter",
+      "translations": { "ru": "зовут (меня/тебя/его...)", "en": "is/am named" },
+      "pos": "verb",
+      "forms": { "infinitive": "heta", "present": "heter", "past": "hette", "supine": "hetat" },
+      "note": { "ru": "Утверждение: Du heter Erik.", "en": "The statement: Du heter Erik." },
+      "example": { "sv": "Du heter inte Erik.", "ru": "Тебя зовут не Эрик.", "en": "Your name isn't Erik." }
+    },
+    {
+      "id": "engelska",
+      "sv": "engelska",
+      "translations": { "ru": "английский язык", "en": "English (the language)" },
+      "pos": "noun",
+      "example": { "sv": "Han talar inte engelska.", "ru": "Он не говорит по-английски.", "en": "He doesn't speak English." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi har inte bil.", "ru": "У нас нет машины.", "en": "We don't have a car." }
+    },
+    {
+      "id": "jag",
+      "sv": "jag",
+      "translations": { "ru": "я", "en": "I" },
+      "pos": "pron"
+    },
+    {
+      "id": "han",
+      "sv": "han",
+      "translations": { "ru": "он", "en": "he" },
+      "pos": "pron"
+    },
+    {
+      "id": "hon",
+      "sv": "hon",
+      "translations": { "ru": "она", "en": "she" },
+      "pos": "pron"
+    },
+    {
+      "id": "vi",
+      "sv": "vi",
+      "translations": { "ru": "мы", "en": "we" },
+      "pos": "pron"
+    },
+    {
+      "id": "du",
+      "sv": "du",
+      "translations": { "ru": "ты", "en": "you" },
+      "pos": "pron"
+    }
+  ]
+}

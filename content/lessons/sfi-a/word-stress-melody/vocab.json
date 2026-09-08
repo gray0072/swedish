@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "mandag-stress",
+      "sv": "måndag",
+      "translations": { "ru": "понедельник", "en": "Monday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: MÅNdag.", "en": "The loud syllable is the first one: MÅNdag." },
+      "example": { "sv": "Idag är det måndag.", "ru": "Сегодня понедельник.", "en": "Today is Monday." }
+    },
+    {
+      "id": "tisdag-stress",
+      "sv": "tisdag",
+      "translations": { "ru": "вторник", "en": "Tuesday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: TISdag.", "en": "The loud syllable is the first one: TISdag." },
+      "example": { "sv": "Imorgon är det tisdag.", "ru": "Завтра вторник.", "en": "Tomorrow is Tuesday." }
+    },
+    {
+      "id": "onsdag-stress",
+      "sv": "onsdag",
+      "translations": { "ru": "среда", "en": "Wednesday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: ONSdag.", "en": "The loud syllable is the first one: ONSdag." }
+    },
+    {
+      "id": "torsdag-stress",
+      "sv": "torsdag",
+      "translations": { "ru": "четверг", "en": "Thursday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: TORSdag.", "en": "The loud syllable is the first one: TORSdag." }
+    },
+    {
+      "id": "fredag-stress",
+      "sv": "fredag",
+      "translations": { "ru": "пятница", "en": "Friday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: FREdag.", "en": "The loud syllable is the first one: FREdag." }
+    },
+    {
+      "id": "lordag-stress",
+      "sv": "lördag",
+      "translations": { "ru": "суббота", "en": "Saturday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: LÖRdag.", "en": "The loud syllable is the first one: LÖRdag." }
+    },
+    {
+      "id": "sondag-stress",
+      "sv": "söndag",
+      "translations": { "ru": "воскресенье", "en": "Sunday" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: SÖNdag.", "en": "The loud syllable is the first one: SÖNdag." }
+    },
+    {
+      "id": "tala-stress",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "note": { "ru": "Громкий слог первый: TAlar.", "en": "The loud syllable is the first one: TAlar." },
+      "example": { "sv": "Jag talar svenska.", "ru": "Я говорю по-шведски.", "en": "I speak Swedish." }
+    },
+    {
+      "id": "arbeta-stress",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "note": { "ru": "Здесь громкий слог не первый: arBEtar.", "en": "Here the loud syllable is not the first one: arBEtar." },
+      "example": { "sv": "Jag arbetar på måndag.", "ru": "Я работаю в понедельник.", "en": "I work on Monday." }
+    },
+    {
+      "id": "sverige-stress",
+      "sv": "Sverige",
+      "translations": { "ru": "Швеция", "en": "Sweden" },
+      "pos": "noun",
+      "note": { "ru": "Громкий слог первый: SVErige.", "en": "The loud syllable is the first one: SVErige." },
+      "example": { "sv": "Jag bor i Sverige.", "ru": "Я живу в Швеции.", "en": "I live in Sweden." }
+    }
+  ]
+}

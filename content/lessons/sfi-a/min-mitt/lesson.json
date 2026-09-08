@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/min-mitt",
+  "slug": "min-mitt",
+  "title": {
+    "sv": "Min mamma, mitt barn",
+    "ru": "Min и mitt — «мой»",
+    "en": "\"Min\" / \"mitt\" — my"
+  },
+  "summary": {
+    "ru": "min перед en-словом, mitt перед ett-словом, mina перед множественным числом — та же пара, что ты уже знаешь.",
+    "en": "min before an en-word, mitt before an ett-word, mina before a plural — the same split you already know."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "possessive",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": [
+    "sfi-a/en-ett-basics"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-statement-word-order-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я живу в Мальмё.»", "en": "Build the sentence: \"I live in Malmö.\"" },
+      "tokens": ["Malmö", "Jag", "bor", "i"],
+      "answer": [1, 2, 3, 0]
+    },
+    {
+      "id": "q-statement-word-order-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Мы говорим по-шведски.»", "en": "Build the sentence: \"We speak Swedish.\"" },
+      "tokens": ["svenska", "talar", "Vi"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-statement-word-order-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ heter Ali. (ты)" },
+      "answer": ["Du"],
+      "acceptAlso": ["du"]
+    },
+    {
+      "id": "q-statement-word-order-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Han ___ i Stockholm. (работает)" },
+      "answer": ["jobbar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-statement-word-order-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой порядок слов в шведском простом предложении?", "en": "What is the word order in a simple Swedish sentence?" },
+      "choices": [
+        "кто → слово-действие → всё остальное",
+        "слово-действие → кто → всё остальное",
+        "всё остальное → кто → слово-действие",
+        "порядок совсем свободный"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-statement-word-order-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильное предложение.", "en": "Pick the correct sentence." },
+      "choices": ["Bor jag i Malmö.", "Jag bor i Malmö.", "I Malmö jag bor.", "Malmö jag bor i."],
+      "answer": 1
+    },
+    {
+      "id": "q-statement-word-order-tf-1",
+      "type": "true-false",
+      "prompt": { "ru": "В предложении «Jag bor i Malmö» слово «bor» стоит на первом месте.", "en": "In \"Jag bor i Malmö\", the word \"bor\" comes first." },
+      "answer": false,
+      "explanation": { "ru": "На первом месте стоит «jag» — тот, кто живёт.", "en": "\"Jag\" comes first — the one who lives there." }
+    },
+    {
+      "id": "q-statement-word-order-tf-2",
+      "type": "true-false",
+      "prompt": { "ru": "Слово-действие в простом шведском предложении всегда стоит на втором месте.", "en": "The action word in a simple Swedish sentence always comes second." },
+      "answer": true
+    },
+    {
+      "id": "q-statement-word-order-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь начало и продолжение предложения", "en": "Match the start and the end of the sentence" },
+      "pairs": [
+        ["Jag bor", "i Malmö"],
+        ["Du heter", "Ali"],
+        ["Vi talar", "svenska"],
+        ["Han jobbar", "i Stockholm"]
+      ]
+    }
+  ]
+}

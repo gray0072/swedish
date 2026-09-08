@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "id": "endast",
+      "sv": "endast",
+      "translations": { "ru": "только, лишь (нейтрально-книжный регистр)", "en": "only (neutral-to-formal written register)" },
+      "pos": "adv",
+      "example": { "sv": "Endast medlemmar får delta i mötet.", "ru": "Только члены могут участвовать во встрече.", "en": "Only members may take part in the meeting." }
+    },
+    {
+      "id": "enbart",
+      "sv": "enbart",
+      "translations": { "ru": "исключительно, только (нейтрально-книжный регистр)", "en": "only, exclusively (neutral-to-formal written register)" },
+      "pos": "adv",
+      "example": { "sv": "Kursen är öppen enbart för nybörjare.", "ru": "Курс открыт исключительно для начинающих.", "en": "The course is open only to beginners." }
+    },
+    {
+      "id": "bara-restrictive",
+      "sv": "bara",
+      "translations": { "ru": "только, просто (разговорный, повседневный вариант)", "en": "only, just (everyday spoken equivalent)" },
+      "pos": "adv",
+      "example": { "sv": "Jag vill bara vila lite.", "ru": "Я просто хочу немного отдохнуть.", "en": "I just want to rest a little." }
+    },
+    {
+      "id": "blott",
+      "sv": "blott",
+      "translations": { "ru": "лишь, только (книжно, очень формально, редко)", "en": "merely, only (literary, very formal, rare)" },
+      "pos": "adv",
+      "note": { "ru": "Очень формальное, литературное слово — используй редко.", "en": "Very formal, literary word — use sparingly." },
+      "example": { "sv": "Blott ett fåtal klarade provet.", "ru": "Лишь немногие прошли тест.", "en": "Only a handful passed the test." }
+    },
+    {
+      "id": "just-emphatic",
+      "sv": "just",
+      "translations": { "ru": "именно, как раз", "en": "precisely, exactly" },
+      "pos": "adv",
+      "example": { "sv": "Det är just den här boken jag menar.", "ru": "Это именно та книга, которую я имею в виду.", "en": "It's precisely this book I mean." }
+    },
+    {
+      "id": "till-och-med",
+      "sv": "till och med",
+      "translations": { "ru": "даже", "en": "even" },
+      "pos": "phrase",
+      "example": { "sv": "Till och med barnen förstod det.", "ru": "Даже дети это поняли.", "en": "Even the children understood it." }
+    },
+    {
+      "id": "sjaelva",
+      "sv": "själva",
+      "translations": { "ru": "сам, сама, само, сами (усилительное); тж. букв. «самая»", "en": "the very, itself/themselves (intensifying)" },
+      "pos": "pron",
+      "note": { "ru": "Согласуется по роду/числу: själv (en, ед. ч.), självt (ett, ед. ч.), själva (мн. ч. и перед определённой формой).", "en": "Agrees in gender/number: själv (en, sg.), självt (ett, sg.), själva (pl. and before a definite-form noun)." },
+      "example": { "sv": "Själva idén är bra.", "ru": "Сама идея хороша.", "en": "The idea itself is good." }
+    },
+    {
+      "id": "idee",
+      "sv": "idé",
+      "translations": { "ru": "идея", "en": "idea" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "idé", "defSg": "idén", "indefPl": "idéer", "defPl": "idéerna" },
+      "example": { "sv": "Själva idén är bra, men genomförandet brister.", "ru": "Сама идея хороша, но исполнение хромает.", "en": "The idea itself is good, but the execution is lacking." }
+    },
+    {
+      "id": "barn-emphatic",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Till och med barnen förstod det.", "ru": "Даже дети это поняли.", "en": "Even the children understood it." }
+    },
+    {
+      "id": "foersta-emphatic",
+      "sv": "förstå",
+      "translations": { "ru": "понимать", "en": "to understand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" },
+      "example": { "sv": "Till och med barnen förstod det.", "ru": "Даже дети это поняли.", "en": "Even the children understood it." }
+    },
+    {
+      "id": "register-emphatic",
+      "sv": "register",
+      "translations": { "ru": "регистр (стилистический уровень языка)", "en": "register (a stylistic level of language)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "register", "defSg": "registret", "indefPl": "register", "defPl": "registren" },
+      "example": { "sv": "Endast och enbart hör till ett mer formellt register än bara.", "ru": "Endast и enbart принадлежат к более формальному регистру, чем bara.", "en": "Endast and enbart belong to a more formal register than bara." }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/plural-recognition",
+  "slug": "plural-recognition",
+  "title": {
+    "sv": "Flera saker: en bok – två böcker",
+    "ru": "Множественное число: en bok – två böcker",
+    "en": "Recognising the plural: \"en bok – två böcker\""
+  },
+  "summary": {
+    "ru": "Множественное число выглядит по-разному у разных слов. Учимся его узнавать, не придумывая окончания самим.",
+    "en": "Plurals look different for different words. Learning to recognise one, without producing the ending yourself."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "grammar",
+    "plural",
+    "nouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 410,
+  "prerequisites": [
+    "sfi-a/definite-form-basics"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}
