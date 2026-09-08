@@ -1,0 +1,170 @@
+{
+  "items": [
+    {
+      "id": "cirkel",
+      "sv": "cirkel",
+      "translations": { "ru": "круг", "en": "circle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en cirkel", "defSg": "cirkeln", "indefPl": "cirklar", "defPl": "cirklarna" },
+      "example": { "sv": "Rita en cirkel här.", "ru": "Нарисуй здесь круг.", "en": "Draw a circle here." }
+    },
+    {
+      "id": "kvadrat",
+      "sv": "kvadrat",
+      "translations": { "ru": "квадрат", "en": "square" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kvadrat", "defSg": "kvadraten", "indefPl": "kvadrater", "defPl": "kvadraterna" },
+      "example": { "sv": "En kvadrat har fyra lika sidor.", "ru": "У квадрата четыре одинаковые стороны.", "en": "A square has four equal sides." }
+    },
+    {
+      "id": "triangel",
+      "sv": "triangel",
+      "translations": { "ru": "треугольник", "en": "triangle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en triangel", "defSg": "triangeln", "indefPl": "trianglar", "defPl": "trianglarna" },
+      "example": { "sv": "Skylten är en triangel.", "ru": "Знак — треугольник.", "en": "The sign is a triangle." }
+    },
+    {
+      "id": "rektangel",
+      "sv": "rektangel",
+      "translations": { "ru": "прямоугольник", "en": "rectangle" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rektangel", "defSg": "rektangeln", "indefPl": "rektanglar", "defPl": "rektanglarna" },
+      "example": { "sv": "Dörren är en rektangel.", "ru": "Дверь — прямоугольник.", "en": "The door is a rectangle." }
+    },
+    {
+      "id": "linje",
+      "sv": "linje",
+      "translations": { "ru": "линия", "en": "line" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en linje", "defSg": "linjen", "indefPl": "linjer", "defPl": "linjerna" },
+      "example": { "sv": "Skriv på linjen.", "ru": "Пиши на линии.", "en": "Write on the line." }
+    },
+    {
+      "id": "punkt",
+      "sv": "punkt",
+      "translations": { "ru": "точка", "en": "dot, point" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en punkt", "defSg": "punkten", "indefPl": "punkter", "defPl": "punkterna" },
+      "example": { "sv": "Sätt en punkt här.", "ru": "Поставь здесь точку.", "en": "Put a dot here." }
+    },
+    {
+      "id": "rund",
+      "sv": "rund",
+      "translations": { "ru": "круглый", "en": "round" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: runt, мн.ч.: runda", "en": "ett-form: runt, plural: runda" },
+      "example": { "sv": "Bordet är runt.", "ru": "Стол круглый.", "en": "The table is round." }
+    },
+    {
+      "id": "fyrkantig",
+      "sv": "fyrkantig",
+      "translations": { "ru": "квадратный, четырёхугольный", "en": "square-shaped, four-sided" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: fyrkantigt, мн.ч.: fyrkantiga", "en": "ett-form: fyrkantigt, plural: fyrkantiga" },
+      "example": { "sv": "Fönstret är fyrkantigt.", "ru": "Окно квадратное.", "en": "The window is square." }
+    },
+    {
+      "id": "stor",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big, large" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: stort, мн.ч.: stora", "en": "ett-form: stort, plural: stora" },
+      "example": { "sv": "Vi bor i ett stort hus.", "ru": "Мы живём в большом доме.", "en": "We live in a big house." }
+    },
+    {
+      "id": "liten",
+      "sv": "liten",
+      "translations": { "ru": "маленький", "en": "small, little" },
+      "pos": "adj",
+      "note": { "ru": "Неправильное: liten / litet / lilla / små. Надо выучить наизусть.", "en": "Irregular: liten / litet / lilla / små. Learn it by heart." },
+      "example": { "sv": "Jag har en liten bil.", "ru": "У меня маленькая машина.", "en": "I have a small car." }
+    },
+    {
+      "id": "lang",
+      "sv": "lång",
+      "translations": { "ru": "длинный; высокий (о человеке)", "en": "long; tall (of a person)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
+      "example": { "sv": "Min bror är lång.", "ru": "Мой брат высокий.", "en": "My brother is tall." }
+    },
+    {
+      "id": "kort",
+      "sv": "kort",
+      "translations": { "ru": "короткий", "en": "short" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: kort, мн.ч.: korta", "en": "ett-form: kort, plural: korta" },
+      "example": { "sv": "Vägen är kort.", "ru": "Дорога короткая.", "en": "The road is short." }
+    },
+    {
+      "id": "hog",
+      "sv": "hög",
+      "translations": { "ru": "высокий", "en": "high, tall" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: högt, мн.ч.: höga", "en": "ett-form: högt, plural: höga" },
+      "example": { "sv": "Berget är högt.", "ru": "Гора высокая.", "en": "The mountain is high." }
+    },
+    {
+      "id": "lag",
+      "sv": "låg",
+      "translations": { "ru": "низкий", "en": "low" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lågt, мн.ч.: låga", "en": "ett-form: lågt, plural: låga" },
+      "example": { "sv": "Huset är lågt.", "ru": "Дом низкий.", "en": "The house is low." }
+    },
+    {
+      "id": "bred",
+      "sv": "bred",
+      "translations": { "ru": "широкий", "en": "wide, broad" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: brett, мн.ч.: breda", "en": "ett-form: brett, plural: breda" },
+      "example": { "sv": "Gatan är bred.", "ru": "Улица широкая.", "en": "The street is wide." }
+    },
+    {
+      "id": "smal",
+      "sv": "smal",
+      "translations": { "ru": "узкий; худой", "en": "narrow; slim" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
+      "example": { "sv": "Vägen är smal.", "ru": "Дорога узкая.", "en": "The road is narrow." }
+    },
+    {
+      "id": "tjock",
+      "sv": "tjock",
+      "translations": { "ru": "толстый", "en": "thick, fat" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tjockt, мн.ч.: tjocka", "en": "ett-form: tjockt, plural: tjocka" },
+      "example": { "sv": "Boken är tjock.", "ru": "Книга толстая.", "en": "The book is thick." }
+    },
+    {
+      "id": "tunn",
+      "sv": "tunn",
+      "translations": { "ru": "тонкий", "en": "thin" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tunt, мн.ч.: tunna", "en": "ett-form: tunt, plural: tunna" },
+      "example": { "sv": "Isen är tunn.", "ru": "Лёд тонкий.", "en": "The ice is thin." }
+    },
+    {
+      "id": "tung",
+      "sv": "tung",
+      "translations": { "ru": "тяжёлый", "en": "heavy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tungt, мн.ч.: tunga", "en": "ett-form: tungt, plural: tunga" },
+      "example": { "sv": "Väskan är tung.", "ru": "Сумка тяжёлая.", "en": "The bag is heavy." }
+    },
+    {
+      "id": "latt",
+      "sv": "lätt",
+      "translations": { "ru": "лёгкий (по весу); лёгкий, простой", "en": "light (in weight); easy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lätt, мн.ч.: lätta", "en": "ett-form: lätt, plural: lätta" },
+      "example": { "sv": "Väskan är lätt.", "ru": "Сумка лёгкая.", "en": "The bag is light." }
+    }
+  ]
+}

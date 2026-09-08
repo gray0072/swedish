@@ -1,0 +1,112 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-simple-signs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вывески-противоположности", "en": "Match each sign with its opposite" },
+      "pairs": [
+        ["ÖPPET", "STÄNGT"],
+        ["INGÅNG", "UTGÅNG"],
+        ["DRA", "TRYCK"],
+        ["DAMER", "HERRAR"]
+      ]
+    },
+    {
+      "id": "q-simple-signs-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«STÄNGT» значит «открыто».", "en": "\"STÄNGT\" means \"open\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«STÄNGT» — закрыто. «Открыто» — «ÖPPET».",
+        "en": "\"STÄNGT\" means closed. \"Open\" is \"ÖPPET\"."
+      }
+    },
+    {
+      "id": "q-simple-signs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«DRA» на двери значит: тянуть дверь на себя.",
+        "en": "\"DRA\" on a door means: pull the door towards you."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "А «TRYCK» — толкать от себя.",
+        "en": "And \"TRYCK\" means push it away from you."
+      }
+    },
+    {
+      "id": "q-simple-signs-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "На двери написано TRYCK. Что ты делаешь?", "en": "The door says TRYCK. What do you do?" },
+      "choices": [
+        { "ru": "Толкаю дверь от себя", "en": "Push the door away from me" },
+        { "ru": "Тяну дверь на себя", "en": "Pull the door towards me" },
+        { "ru": "Звоню в звонок", "en": "Ring the bell" },
+        { "ru": "Ищу другой вход", "en": "Look for another entrance" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-simple-signs-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Тебе нужен туалет. Какую вывеску ты ищешь?", "en": "You need a toilet. Which sign do you look for?" },
+      "choices": ["TOALETT", "KASSA", "TRAPPA", "INFORMATION"],
+      "answer": 0
+    },
+    {
+      "id": "q-simple-signs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что значит RÖKNING FÖRBJUDEN?", "en": "What does RÖKNING FÖRBJUDEN mean?" },
+      "choices": [
+        { "ru": "Курить запрещено", "en": "Smoking is forbidden" },
+        { "ru": "Здесь можно курить", "en": "You may smoke here" },
+        { "ru": "Аварийный выход", "en": "Emergency exit" },
+        { "ru": "Место занято", "en": "The seat is reserved" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-simple-signs-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är ___ på söndagar." },
+      "answer": ["stängt"],
+      "acceptAlso": ["STÄNGT", "Stängt"],
+      "hint": { "ru": "По воскресеньям магазин не работает.", "en": "On Sundays the shop does not open." }
+    },
+    {
+      "id": "q-simple-signs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Где туалет?»", "en": "Build the question: \"Where is the toilet?\"" },
+      "tokens": ["toaletten", "Var", "är"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-simple-signs-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "nödutgång",
+      "prompt": { "ru": "Что ты услышал?", "en": "What did you hear?" },
+      "choices": [
+        { "ru": "аварийный выход", "en": "emergency exit" },
+        { "ru": "вход", "en": "entrance" },
+        { "ru": "лифт", "en": "lift" },
+        { "ru": "касса", "en": "checkout" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/emergency-phrases",
+  "slug": "emergency-phrases",
+  "title": {
+    "sv": "Nödsituationer",
+    "ru": "Фразы в экстренной ситуации",
+    "en": "Emergency phrases"
+  },
+  "summary": {
+    "ru": "112 — единый номер экстренных служб в Швеции, и десяток фраз, которые нужно знать наизусть.",
+    "en": "112 is Sweden's single emergency number — plus a dozen phrases worth knowing by heart."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "emergency",
+    "phrases",
+    "health"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 130,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

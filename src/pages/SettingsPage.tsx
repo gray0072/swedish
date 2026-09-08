@@ -3,6 +3,7 @@ import { Volume2 } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useSettings, useLanguage } from '@/store/settings';
+import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
 import { exportSaveToFile } from '@/store/persist';
 import { listSwedishVoices, previewVoice } from '@/lib/tts';
 
@@ -70,18 +71,21 @@ export default function SettingsPage() {
       <h1 className="text-2xl font-semibold">{t('settings.title')}</h1>
 
       <section className="card space-y-2">
-        <label className="text-sm font-semibold">{t('settings.language')}</label>
-        <div className="flex gap-2">
-          {(['ru', 'en'] as const).map((code) => (
-            <button
-              key={code}
-              onClick={() => setLanguage(code)}
-              className={lang === code ? 'btn-primary' : 'btn-secondary'}
-            >
-              {code.toUpperCase()}
-            </button>
+        <label className="text-sm font-semibold" htmlFor="language-select">
+          {t('settings.language')}
+        </label>
+        <select
+          id="language-select"
+          value={lang}
+          onChange={(e) => setLanguage(e.target.value as StudyLanguage)}
+          className="w-full rounded-xl border border-granite/25 bg-transparent px-3 py-2.5 text-sm outline-none focus:border-falu dark:border-white/20"
+        >
+          {LANGUAGE_OPTIONS.map(({ code, label }) => (
+            <option key={code} value={code}>
+              {label}
+            </option>
           ))}
-        </div>
+        </select>
       </section>
 
       <section className="card space-y-2">

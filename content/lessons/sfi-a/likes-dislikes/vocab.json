@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": "gilla",
+      "sv": "gilla",
+      "translations": { "ru": "нравиться, любить", "en": "to like" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "gilla", "present": "gillar", "past": "gillade", "supine": "gillat", "imperative": "gilla" },
+      "example": { "sv": "Jag gillar min lärare.", "ru": "Мне нравится мой учитель.", "en": "I like my teacher." }
+    },
+    {
+      "id": "jag-gillar-kaffe",
+      "sv": "Jag gillar kaffe.",
+      "translations": { "ru": "Я люблю кофе.", "en": "I like coffee." },
+      "pos": "phrase",
+      "example": { "sv": "Jag gillar kaffe med mjölk.", "ru": "Я люблю кофе с молоком.", "en": "I like coffee with milk." }
+    },
+    {
+      "id": "jag-gillar-inte-kaffe",
+      "sv": "Jag gillar inte kaffe.",
+      "translations": { "ru": "Я не люблю кофе.", "en": "I do not like coffee." },
+      "pos": "phrase",
+      "note": { "ru": "«inte» стоит после глагола, а не перед ним", "en": "\"inte\" comes after the verb, never before it" },
+      "example": { "sv": "Jag gillar inte kaffe, jag dricker te.", "ru": "Я не люблю кофе, я пью чай.", "en": "I do not like coffee, I drink tea." }
+    },
+    {
+      "id": "tycker-om",
+      "sv": "Jag tycker om att läsa.",
+      "translations": { "ru": "Мне нравится читать.", "en": "I like to read." },
+      "pos": "phrase",
+      "note": { "ru": "«tycka om» = «gilla». Отрицание: Jag tycker inte om...", "en": "\"tycka om\" = \"gilla\". Negation: Jag tycker inte om..." },
+      "example": { "sv": "Jag tycker om att läsa på kvällen.", "ru": "Мне нравится читать вечером.", "en": "I like to read in the evening." }
+    },
+    {
+      "id": "jag-alskar-choklad",
+      "sv": "Jag älskar choklad.",
+      "translations": { "ru": "Я обожаю шоколад.", "en": "I love chocolate." },
+      "pos": "phrase",
+      "note": { "ru": "«älskar» сильнее, чем «gillar»", "en": "\"älskar\" is stronger than \"gillar\"" },
+      "example": { "sv": "Jag älskar choklad och glass.", "ru": "Я обожаю шоколад и мороженое.", "en": "I love chocolate and ice cream." }
+    },
+    {
+      "id": "jag-hatar",
+      "sv": "Jag hatar...",
+      "translations": { "ru": "Я ненавижу...", "en": "I hate..." },
+      "pos": "phrase",
+      "note": { "ru": "очень сильное слово — в быту чаще говорят «Jag gillar inte...»", "en": "a very strong word — in everyday talk people say \"Jag gillar inte...\"" },
+      "example": { "sv": "Jag hatar spindlar.", "ru": "Я ненавижу пауков.", "en": "I hate spiders." }
+    },
+    {
+      "id": "gillar-du",
+      "sv": "Gillar du...?",
+      "translations": { "ru": "Тебе нравится...?", "en": "Do you like...?" },
+      "pos": "phrase",
+      "example": { "sv": "Gillar du fisk?", "ru": "Ты любишь рыбу?", "en": "Do you like fish?" }
+    },
+    {
+      "id": "vad-gillar-du",
+      "sv": "Vad gillar du?",
+      "translations": { "ru": "Что тебе нравится?", "en": "What do you like?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad gillar du att göra på helgen?", "ru": "Что тебе нравится делать на выходных?", "en": "What do you like to do at the weekend?" }
+    },
+    {
+      "id": "ja-det-gor-jag",
+      "sv": "Ja, det gör jag.",
+      "translations": { "ru": "Да, нравится.", "en": "Yes, I do." },
+      "pos": "phrase",
+      "example": { "sv": "Gillar du kaffe? — Ja, det gör jag.", "ru": "Ты любишь кофе? — Да.", "en": "Do you like coffee? — Yes, I do." }
+    },
+    {
+      "id": "nej-det-gor-jag-inte",
+      "sv": "Nej, det gör jag inte.",
+      "translations": { "ru": "Нет, не нравится.", "en": "No, I do not." },
+      "pos": "phrase",
+      "example": { "sv": "Gillar du fisk? — Nej, det gör jag inte.", "ru": "Ты любишь рыбу? — Нет.", "en": "Do you like fish? — No, I do not." }
+    },
+    {
+      "id": "det-ar-bra",
+      "sv": "Det är bra.",
+      "translations": { "ru": "Это хорошо.", "en": "It is good." },
+      "pos": "phrase",
+      "example": { "sv": "Filmen är bra.", "ru": "Фильм хороший.", "en": "The film is good." }
+    },
+    {
+      "id": "det-ar-gott",
+      "sv": "Det är gott.",
+      "translations": { "ru": "Это вкусно.", "en": "It is tasty." },
+      "pos": "phrase",
+      "note": { "ru": "только о еде и напитках", "en": "only about food and drink" },
+      "example": { "sv": "Kaffet är gott!", "ru": "Кофе вкусный!", "en": "The coffee is tasty!" }
+    },
+    {
+      "id": "det-ar-roligt",
+      "sv": "Det är roligt.",
+      "translations": { "ru": "Это весело, интересно.", "en": "It is fun." },
+      "pos": "phrase",
+      "example": { "sv": "Det är roligt att lära sig svenska.", "ru": "Учить шведский весело.", "en": "Learning Swedish is fun." }
+    },
+    {
+      "id": "det-ar-trakigt",
+      "sv": "Det är tråkigt.",
+      "translations": { "ru": "Это скучно.", "en": "It is boring." },
+      "pos": "phrase",
+      "example": { "sv": "Filmen är tråkig.", "ru": "Фильм скучный.", "en": "The film is boring." }
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe" },
+      "pos": "adv",
+      "example": { "sv": "Jag kommer kanske i morgon.", "ru": "Может быть, я приду завтра.", "en": "Maybe I will come tomorrow." }
+    },
+    {
+      "id": "lite",
+      "sv": "lite",
+      "translations": { "ru": "немного", "en": "a little" },
+      "pos": "adv",
+      "example": { "sv": "Kan jag få lite mjölk?", "ru": "Можно немного молока?", "en": "Can I have a little milk?" }
+    },
+    {
+      "id": "mycket",
+      "sv": "mycket",
+      "translations": { "ru": "очень, много", "en": "very, much" },
+      "pos": "adv",
+      "example": { "sv": "Jag tycker mycket om kaffe.", "ru": "Я очень люблю кофе.", "en": "I like coffee a lot." }
+    }
+  ]
+}

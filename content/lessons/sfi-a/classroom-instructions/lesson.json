@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/classroom-instructions",
+  "slug": "classroom-instructions",
+  "title": {
+    "sv": "Instruktioner i klassrummet",
+    "ru": "Инструкции в классе",
+    "en": "Classroom instructions"
+  },
+  "summary": {
+    "ru": "Что говорит учитель: «Lyssna!», «Läs!», «Öppna boken!» — и как вежливо попросить повторить.",
+    "en": "What the teacher says: \"Lyssna!\", \"Läs!\", \"Öppna boken!\" — and how to politely ask for a repeat."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "classroom",
+    "imperative",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 100,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

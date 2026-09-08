@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-simple-directions-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Идите прямо.»", "en": "Build the phrase: \"Go straight ahead.\"" },
+      "tokens": ["fram.", "Gå", "rakt"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-simple-directions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Поверните налево.»", "en": "Build the phrase: \"Turn left.\"" },
+      "tokens": ["vänster.", "till", "Sväng"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-simple-directions-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь с переводом", "en": "Match with the translation" },
+      "pairs": [
+        ["rakt fram", "прямо"],
+        ["till höger", "направо"],
+        ["till vänster", "налево"],
+        ["en korsning", "перекрёсток"]
+      ]
+    },
+    {
+      "id": "q-simple-directions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Till höger» значит «налево».", "en": "\"Till höger\" means \"to the left\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "till höger — направо, till vänster — налево.",
+        "en": "till höger is to the right, till vänster is to the left."
+      }
+    },
+    {
+      "id": "q-simple-directions-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Если тебе говорят «Det är nära», идти близко.", "en": "If someone says \"Det är nära\", it is close by." },
+      "answer": true
+    },
+    {
+      "id": "q-simple-directions-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Ursäkta, ___ är stationen? (где / where)" },
+      "answer": ["var"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-simple-directions-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Gå ___ fram. (прямо / straight)" },
+      "answer": ["rakt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-simple-directions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Тебе объяснили дорогу. Что сказать в конце?", "en": "Someone has just given you directions. What do you say?" },
+      "choices": ["Tack för hjälpen!", "Det är långt.", "Gå tillbaka.", "Jag vill bara titta."],
+      "answer": 0
+    },
+    {
+      "id": "q-simple-directions-listen-1",
+      "type": "listen",
+      "difficulty": 3,
+      "audioText": "Sväng till vänster vid korsningen.",
+      "prompt": { "ru": "Куда нужно повернуть?", "en": "Which way should you turn?" },
+      "choices": ["till höger", "till vänster", "rakt fram", "tillbaka"],
+      "answer": 1
+    }
+  ]
+}

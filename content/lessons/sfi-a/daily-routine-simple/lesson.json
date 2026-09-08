@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/daily-routine-simple",
+  "slug": "daily-routine-simple",
+  "title": {
+    "sv": "Min dag",
+    "ru": "Простой распорядок дня",
+    "en": "A simple daily routine"
+  },
+  "summary": {
+    "ru": "Först, sedan, till slut — первый связный рассказ о своём дне.",
+    "en": "Först, sedan, till slut — your first connected story about your day."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "daily-routine",
+    "verbs",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 250,
+  "prerequisites": [
+    "sfi-a/time-of-day"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "jag-vaknar",
+      "sv": "Jag vaknar klockan sju.",
+      "translations": { "ru": "Я просыпаюсь в семь.", "en": "I wake up at seven." },
+      "pos": "phrase",
+      "example": { "sv": "Jag vaknar klockan sju varje dag.", "ru": "Я просыпаюсь в семь каждый день.", "en": "I wake up at seven every day." }
+    },
+    {
+      "id": "jag-gar-upp",
+      "sv": "Jag går upp.",
+      "translations": { "ru": "Я встаю (с постели).", "en": "I get up." },
+      "pos": "phrase",
+      "example": { "sv": "Jag vaknar och går upp.", "ru": "Я просыпаюсь и встаю.", "en": "I wake up and get up." }
+    },
+    {
+      "id": "jag-ater-frukost",
+      "sv": "Jag äter frukost.",
+      "translations": { "ru": "Я завтракаю.", "en": "I eat breakfast." },
+      "pos": "phrase",
+      "example": { "sv": "Jag äter frukost klockan halv åtta.", "ru": "Я завтракаю в половине восьмого.", "en": "I eat breakfast at half past seven." }
+    },
+    {
+      "id": "jag-gar-till-skolan",
+      "sv": "Jag går till skolan.",
+      "translations": { "ru": "Я иду в школу.", "en": "I go to school." },
+      "pos": "phrase",
+      "example": { "sv": "Sedan går jag till skolan.", "ru": "Потом я иду в школу.", "en": "Then I go to school." }
+    },
+    {
+      "id": "jag-arbetar",
+      "sv": "Jag arbetar.",
+      "translations": { "ru": "Я работаю.", "en": "I work." },
+      "pos": "phrase",
+      "note": { "ru": "в разговоре часто «Jag jobbar.»", "en": "in speech often \"Jag jobbar.\"" },
+      "example": { "sv": "Jag arbetar på ett café.", "ru": "Я работаю в кафе.", "en": "I work at a café." }
+    },
+    {
+      "id": "jag-ater-lunch",
+      "sv": "Jag äter lunch.",
+      "translations": { "ru": "Я обедаю.", "en": "I eat lunch." },
+      "pos": "phrase",
+      "example": { "sv": "Jag äter lunch klockan tolv.", "ru": "Я обедаю в двенадцать.", "en": "I eat lunch at twelve." }
+    },
+    {
+      "id": "jag-kommer-hem",
+      "sv": "Jag kommer hem.",
+      "translations": { "ru": "Я прихожу домой.", "en": "I come home." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kommer hem klockan fem.", "ru": "Я прихожу домой в пять.", "en": "I come home at five." }
+    },
+    {
+      "id": "jag-lagar-mat",
+      "sv": "Jag lagar mat.",
+      "translations": { "ru": "Я готовлю еду.", "en": "I cook." },
+      "pos": "phrase",
+      "example": { "sv": "Jag lagar mat till familjen.", "ru": "Я готовлю еду для семьи.", "en": "I cook for the family." }
+    },
+    {
+      "id": "jag-ater-middag",
+      "sv": "Jag äter middag.",
+      "translations": { "ru": "Я ужинаю.", "en": "I eat dinner." },
+      "pos": "phrase",
+      "example": { "sv": "Vi äter middag klockan sex.", "ru": "Мы ужинаем в шесть.", "en": "We eat dinner at six." }
+    },
+    {
+      "id": "jag-tittar-pa-tv",
+      "sv": "Jag tittar på tv.",
+      "translations": { "ru": "Я смотрю телевизор.", "en": "I watch TV." },
+      "pos": "phrase",
+      "example": { "sv": "På kvällen tittar jag på tv.", "ru": "Вечером я смотрю телевизор.", "en": "In the evening I watch TV." }
+    },
+    {
+      "id": "jag-gar-och-lagger-mig",
+      "sv": "Jag går och lägger mig.",
+      "translations": { "ru": "Я иду спать (ложусь).", "en": "I go to bed." },
+      "pos": "phrase",
+      "example": { "sv": "Jag går och lägger mig klockan elva.", "ru": "Я ложусь спать в одиннадцать.", "en": "I go to bed at eleven." }
+    },
+    {
+      "id": "jag-sover",
+      "sv": "Jag sover.",
+      "translations": { "ru": "Я сплю.", "en": "I sleep." },
+      "pos": "phrase",
+      "example": { "sv": "Jag sover åtta timmar.", "ru": "Я сплю восемь часов.", "en": "I sleep eight hours." }
+    },
+    {
+      "id": "frukost",
+      "sv": "frukost",
+      "translations": { "ru": "завтрак", "en": "breakfast" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frukost", "defSg": "frukosten", "indefPl": "frukostar", "defPl": "frukostarna" },
+      "example": { "sv": "Frukosten är viktig.", "ru": "Завтрак важен.", "en": "Breakfast is important." }
+    },
+    {
+      "id": "lunch",
+      "sv": "lunch",
+      "translations": { "ru": "обед", "en": "lunch" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lunch", "defSg": "lunchen", "indefPl": "luncher", "defPl": "luncherna" },
+      "example": { "sv": "Lunchen kostar 90 kronor.", "ru": "Обед стоит 90 крон.", "en": "The lunch costs 90 kronor." }
+    },
+    {
+      "id": "middag-mal",
+      "sv": "middag",
+      "translations": { "ru": "ужин (главная еда дня)", "en": "dinner (the main evening meal)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en middag", "defSg": "middagen", "indefPl": "middagar", "defPl": "middagarna" },
+      "example": { "sv": "Middagen är klar!", "ru": "Ужин готов!", "en": "Dinner is ready!" }
+    },
+    {
+      "id": "forst",
+      "sv": "först",
+      "translations": { "ru": "сначала", "en": "first" },
+      "pos": "adv",
+      "example": { "sv": "Först vaknar jag.", "ru": "Сначала я просыпаюсь.", "en": "First I wake up." }
+    },
+    {
+      "id": "sedan-darefter",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, after that" },
+      "pos": "adv",
+      "note": { "ru": "в речи часто короткое «sen»", "en": "in speech often shortened to \"sen\"" },
+      "example": { "sv": "Sedan äter jag frukost.", "ru": "Потом я завтракаю.", "en": "Then I eat breakfast." }
+    },
+    {
+      "id": "pa-morgonen",
+      "sv": "på morgonen",
+      "translations": { "ru": "утром", "en": "in the morning" },
+      "pos": "phrase",
+      "example": { "sv": "På morgonen dricker jag kaffe.", "ru": "Утром я пью кофе.", "en": "In the morning I drink coffee." }
+    },
+    {
+      "id": "pa-kvallen",
+      "sv": "på kvällen",
+      "translations": { "ru": "вечером", "en": "in the evening" },
+      "pos": "phrase",
+      "example": { "sv": "På kvällen läser jag en bok.", "ru": "Вечером я читаю книгу.", "en": "In the evening I read a book." }
+    }
+  ]
+}

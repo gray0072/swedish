@@ -8,6 +8,22 @@
     "sfi-a/colors",
     "sfi-a/time-of-day",
     "sfi-a/clock",
-    "sfi-a/body"
+    "sfi-a/body",
+    "sfi-a/classroom-instructions",
+    "sfi-a/simple-questions",
+    "sfi-a/simple-signs",
+    "sfi-a/emergency-phrases",
+    "sfi-a/phone-numbers",
+    "sfi-a/months-seasons",
+    "sfi-a/writing-dates",
+    "sfi-a/shapes-sizes",
+    "sfi-a/shopping-phrases",
+    "sfi-a/simple-directions",
+    "sfi-a/movement-verbs",
+    "sfi-a/school-items",
+    "sfi-a/countries-nationalities",
+    "sfi-a/how-you-feel",
+    "sfi-a/likes-dislikes",
+    "sfi-a/daily-routine-simple"
   ]
 }

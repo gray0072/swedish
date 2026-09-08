@@ -1,0 +1,34 @@
+{
+  "id": "sfi-a/simple-directions",
+  "slug": "simple-directions",
+  "title": {
+    "sv": "Vägbeskrivning",
+    "ru": "Как объяснить дорогу",
+    "en": "Simple directions"
+  },
+  "summary": {
+    "ru": "Прямо, направо, налево — и как спросить дорогу.",
+    "en": "Straight ahead, right, left — and how to ask the way."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "directions",
+    "phrases",
+    "city"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 190,
+  "prerequisites": [],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sfi-a/movement-verbs",
+  "slug": "movement-verbs",
+  "title": {
+    "sv": "Verb: att röra sig",
+    "ru": "Простые глаголы движения",
+    "en": "Simple verbs of movement"
+  },
+  "summary": {
+    "ru": "Идти, бежать, сидеть, стоять — и настоящее время на -r.",
+    "en": "Walk, run, sit, stand — and the present tense in -r."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "verbs",
+    "movement",
+    "present-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 200,
+  "prerequisites": [],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,120 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-simple-questions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Ты живёшь в Мальмё?»", "en": "Build the question: \"Do you live in Malmö?\"" },
+      "tokens": ["i", "Bor", "Malmö", "du"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-simple-questions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери короткий ответ: «Да (живу).»", "en": "Build the short answer: \"Yes, I do.\"" },
+      "tokens": ["det", "jag", "Ja", "gör"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-simple-questions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вопрос и правильный короткий ответ", "en": "Match each question with the right short answer" },
+      "pairs": [
+        ["Är du gift?", "Ja, det är jag."],
+        ["Har du barn?", "Ja, det har jag."],
+        ["Bor du i Malmö?", "Ja, det gör jag."],
+        ["Bor du inte här?", "Jo, jag bor här."]
+      ]
+    },
+    {
+      "id": "q-simple-questions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В вопросе «да/нет» глагол стоит на первом месте.",
+        "en": "In a yes/no question the verb comes first."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "Du bor i Malmö. → Bor du i Malmö?",
+        "en": "Du bor i Malmö. → Bor du i Malmö?"
+      }
+    },
+    {
+      "id": "q-simple-questions-tf-2",
+      "type": "true-false",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "На вопрос «Bor du inte här?» отвечают «Ja», если ты здесь живёшь.",
+        "en": "You answer \"Bor du inte här?\" with \"Ja\" if you do live there."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "После отрицательного вопроса нужно «Jo»: Jo, jag bor här.",
+        "en": "After a negative question you need \"Jo\": Jo, jag bor här."
+      }
+    },
+    {
+      "id": "q-simple-questions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ du svenska? — Ja, lite." },
+      "answer": ["Talar"],
+      "acceptAlso": ["talar", "Pratar", "pratar"],
+      "hint": { "ru": "Глагол «говорить» выходит на первое место.", "en": "The verb \"to speak\" moves to the front." }
+    },
+    {
+      "id": "q-simple-questions-mc-1",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Тебя спрашивают: «Bor du inte i Stockholm?» Ты живёшь в Стокгольме. Что ты ответишь?",
+        "en": "Someone asks: \"Bor du inte i Stockholm?\" You do live in Stockholm. What do you answer?"
+      },
+      "choices": [
+        "Jo, jag bor i Stockholm.",
+        "Ja, jag bor i Stockholm.",
+        "Nej, jag bor i Stockholm.",
+        "Kanske."
+      ],
+      "answer": 0,
+      "explanation": {
+        "ru": "Вопрос был отрицательный, поэтому «да» здесь — «Jo».",
+        "en": "The question was negative, so \"yes\" here is \"Jo\"."
+      }
+    },
+    {
+      "id": "q-simple-questions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как сделать вопрос из «Du har barn.»?",
+        "en": "How do you turn \"Du har barn.\" into a question?"
+      },
+      "choices": ["Har du barn?", "Du har barn?", "Barn har du?", "Har barn du?"],
+      "answer": 0
+    },
+    {
+      "id": "q-simple-questions-listen-1",
+      "type": "listen",
+      "difficulty": 1,
+      "audioText": "Förstår du?",
+      "prompt": { "ru": "Что тебя спросили?", "en": "What were you asked?" },
+      "choices": [
+        { "ru": "Ты понимаешь?", "en": "Do you understand?" },
+        { "ru": "Ты живёшь здесь?", "en": "Do you live here?" },
+        { "ru": "Ты женат / замужем?", "en": "Are you married?" },
+        { "ru": "У тебя есть дети?", "en": "Do you have children?" }
+      ],
+      "answer": 0
+    }
+  ]
+}

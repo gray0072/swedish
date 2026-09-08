@@ -12,6 +12,7 @@ import {
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useLanguage, useSettings } from '@/store/settings';
+import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
 import DalaHorse from '@/components/ui/DalaHorse';
 
 function PageLoading() {
@@ -45,27 +46,18 @@ function LanguageToggle() {
   const lang = useLanguage();
   const setLanguage = useAppStore((s) => s.setLanguage);
   return (
-    <div
-      className="flex overflow-hidden rounded-full border border-granite/30 text-xs font-semibold"
-      role="group"
+    <select
+      value={lang}
+      onChange={(e) => setLanguage(e.target.value as StudyLanguage)}
       aria-label="Study language"
+      className="rounded-full border border-granite/30 bg-transparent px-3 py-1.5 text-xs font-semibold text-granite outline-none focus:border-falu dark:text-birch/70"
     >
-      {(['ru', 'en'] as const).map((code) => (
-        <button
-          key={code}
-          onClick={() => setLanguage(code)}
-          aria-pressed={lang === code}
-          className={
-            'px-3 py-1.5 transition-colors ' +
-            (lang === code
-              ? 'bg-falu text-birch'
-              : 'text-granite hover:bg-granite/10 dark:text-birch/70')
-          }
-        >
-          {code.toUpperCase()}
-        </button>
+      {LANGUAGE_OPTIONS.map(({ code, label }) => (
+        <option key={code} value={code}>
+          {label}
+        </option>
       ))}
-    </div>
+    </select>
   );
 }
 

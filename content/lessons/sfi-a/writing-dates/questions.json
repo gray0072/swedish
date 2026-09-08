@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-writing-dates-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как в Швеции пишут дату 7 сентября 2026 года на бланке?", "en": "How is 7 September 2026 written on a Swedish form?" },
+      "choices": ["2026-09-07", "07-09-2026", "09/07/2026", "07.09.26"],
+      "answer": 0,
+      "explanation": {
+        "ru": "Стандартный шведский порядок — год, месяц, день.",
+        "en": "The standard Swedish order is year, month, day."
+      }
+    },
+    {
+      "id": "q-writing-dates-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что означает «v. 37» в шведском календаре?", "en": "What does \"v. 37\" mean in a Swedish calendar?" },
+      "choices": ["vecka 37", "vår 37", "37 veckor", "vinter 37"],
+      "answer": 0
+    },
+    {
+      "id": "q-writing-dates-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какое сегодня число?»", "en": "Build the question: \"What is the date today?\"" },
+      "tokens": ["det", "Vilket", "idag", "datum", "är"],
+      "answer": [1, 3, 4, 0, 2]
+    },
+    {
+      "id": "q-writing-dates-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери ответ: «Сегодня седьмое сентября.»", "en": "Build the answer: \"Today is the seventh of September.\"" },
+      "tokens": ["den", "Idag", "september", "är", "sjunde", "det"],
+      "answer": [1, 3, 5, 0, 4, 2]
+    },
+    {
+      "id": "q-writing-dates-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь число с порядковым числительным", "en": "Match the number with its ordinal" },
+      "pairs": [
+        ["1", "första"],
+        ["3", "tredje"],
+        ["8", "åttonde"],
+        ["31", "trettioförsta"]
+      ]
+    },
+    {
+      "id": "q-writing-dates-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В шведской записи даты год стоит первым: 2026-09-07.", "en": "In the Swedish date format the year comes first: 2026-09-07." },
+      "answer": true
+    },
+    {
+      "id": "q-writing-dates-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "2026-09-07 означает 9 июля 2026 года.", "en": "2026-09-07 means 9 July 2026." },
+      "answer": false,
+      "explanation": {
+        "ru": "Порядок — год, месяц, день: это 7 сентября.",
+        "en": "The order is year, month, day: this is 7 September."
+      }
+    },
+    {
+      "id": "q-writing-dates-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Idag är det ___ sjunde september. (маленькое слово перед числом / the little word before the number)" },
+      "answer": ["den"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-writing-dates-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "den trettioförsta december",
+      "prompt": { "ru": "Какая это дата?", "en": "Which date is this?" },
+      "choices": ["31/12", "30/12", "13/12", "31/10"],
+      "answer": 0
+    }
+  ]
+}

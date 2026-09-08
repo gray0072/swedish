@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-emergency-phrases-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой номер экстренных служб в Швеции?", "en": "What is the emergency number in Sweden?" },
+      "choices": ["112", "911", "1177", "999"],
+      "answer": 0,
+      "explanation": {
+        "ru": "112 — единый номер для скорой, пожарных и полиции.",
+        "en": "112 is the single number for ambulance, fire brigade and police."
+      }
+    },
+    {
+      "id": "q-emergency-phrases-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты плохо себя чувствуешь, но это не экстренный случай. Что делать?",
+        "en": "You feel unwell, but it is not an emergency. What do you do?"
+      },
+      "choices": [
+        { "ru": "Позвонить 1177 за медицинским советом", "en": "Call 1177 for medical advice" },
+        { "ru": "Позвонить 112", "en": "Call 112" },
+        { "ru": "Позвонить в полицию", "en": "Call the police" },
+        { "ru": "Ничего не делать", "en": "Do nothing" }
+      ],
+      "answer": 0,
+      "explanation": {
+        "ru": "1177 — телефон медицинской консультации. 112 — только для настоящих ЧП.",
+        "en": "1177 is the medical advice line. 112 is only for real emergencies."
+      }
+    },
+    {
+      "id": "q-emergency-phrases-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Звонок на 112 в Швеции бесплатный.", "en": "Calling 112 in Sweden is free of charge." },
+      "answer": true
+    },
+    {
+      "id": "q-emergency-phrases-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В Швеции у скорой, пожарных и полиции разные номера.",
+        "en": "In Sweden the ambulance, the fire brigade and the police have different numbers."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Номер один — 112. Оператор сам вызовет нужную службу.",
+        "en": "There is one number — 112. The operator sends the service you need."
+      }
+    },
+    {
+      "id": "q-emergency-phrases-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Мне нужна помощь.»", "en": "Build the phrase: \"I need help.\"" },
+      "tokens": ["hjälp", "behöver", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-emergency-phrases-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Можешь мне помочь?»", "en": "Build the question: \"Can you help me?\"" },
+      "tokens": ["mig", "du", "Kan", "hjälpa"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-emergency-phrases-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Hjälp! ___ 112!" },
+      "answer": ["Ring"],
+      "acceptAlso": ["ring"],
+      "hint": { "ru": "Глагол «звонить» в форме команды.", "en": "The verb \"to call\" in its command form." }
+    },
+    {
+      "id": "q-emergency-phrases-match-1",
+      "type": "match",
+      "difficulty": 3,
+      "prompt": { "ru": "Кто нужен в этой ситуации?", "en": "Which service does each situation need?" },
+      "pairs": [
+        ["Det brinner!", "brandkår"],
+        ["Jag är sjuk.", "ambulans"],
+        ["Jag har tappat min telefon.", "polis"],
+        ["Jag behöver medicin.", "apotek"]
+      ]
+    },
+    {
+      "id": "q-emergency-phrases-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Det brinner!",
+      "prompt": { "ru": "Что ты услышал?", "en": "What did you hear?" },
+      "choices": [
+        { "ru": "Пожар!", "en": "There's a fire!" },
+        { "ru": "Я болен.", "en": "I am ill." },
+        { "ru": "Где аптека?", "en": "Where is the pharmacy?" },
+        { "ru": "Мне нужна помощь.", "en": "I need help." }
+      ],
+      "answer": 0
+    }
+  ]
+}

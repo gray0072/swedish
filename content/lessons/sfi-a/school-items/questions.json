@@ -1,0 +1,90 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-school-items-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Можно одолжить ручку?»", "en": "Build the question: \"Can I borrow a pen?\"" },
+      "tokens": ["penna?", "Kan", "låna", "en", "jag"],
+      "answer": [1, 4, 2, 3, 0]
+    },
+    {
+      "id": "q-school-items-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Книга лежит на столе.»", "en": "Build the sentence: \"The book is lying on the table.\"" },
+      "tokens": ["bordet.", "ligger", "Boken", "på"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-school-items-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["en bok", "книга"],
+        ["en penna", "ручка"],
+        ["ett bord", "стол"],
+        ["en väska", "сумка"],
+        ["ett suddgummi", "ластик"]
+      ]
+    },
+    {
+      "id": "q-school-items-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Bord» — это en-слово.", "en": "\"Bord\" is an en-word." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это ett-слово: ett bord, bordet.",
+        "en": "It is an ett-word: ett bord, bordet."
+      }
+    },
+    {
+      "id": "q-school-items-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Определённая форма от «en bok» — «boken».", "en": "The definite form of \"en bok\" is \"boken\"." },
+      "answer": true
+    },
+    {
+      "id": "q-school-items-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Kan jag låna ___ penna? (en / ett)" },
+      "answer": ["en"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-school-items-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Boken ligger på ___. (ett bord → «на столе»)" },
+      "answer": ["bordet"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-school-items-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Чем стирают то, что написано карандашом?", "en": "What do you rub out pencil with?" },
+      "choices": ["ett suddgummi", "en pärm", "ett block", "en ordbok"],
+      "answer": 0
+    },
+    {
+      "id": "q-school-items-listen-1",
+      "type": "listen",
+      "difficulty": 3,
+      "audioText": "Kan jag låna ett suddgummi?",
+      "prompt": { "ru": "Что просят одолжить?", "en": "What is being borrowed?" },
+      "choices": ["en penna", "ett suddgummi", "en bok", "en dator"],
+      "answer": 1
+    }
+  ]
+}

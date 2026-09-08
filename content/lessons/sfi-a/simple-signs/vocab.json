@@ -1,0 +1,141 @@
+{
+  "items": [
+    {
+      "id": "oppet",
+      "sv": "ÖPPET",
+      "translations": { "ru": "открыто", "en": "open" },
+      "pos": "adj",
+      "note": { "ru": "Обычная запись: öppet.", "en": "Written normally: öppet." },
+      "example": { "sv": "Det är öppet idag.", "ru": "Сегодня открыто.", "en": "It is open today." }
+    },
+    {
+      "id": "stangt",
+      "sv": "STÄNGT",
+      "translations": { "ru": "закрыто", "en": "closed" },
+      "pos": "adj",
+      "note": { "ru": "Обычная запись: stängt.", "en": "Written normally: stängt." },
+      "example": { "sv": "Det är stängt på söndagar.", "ru": "По воскресеньям закрыто.", "en": "It is closed on Sundays." }
+    },
+    {
+      "id": "ingang",
+      "sv": "INGÅNG",
+      "translations": { "ru": "вход", "en": "entrance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ingång", "defSg": "ingången", "indefPl": "ingångar", "defPl": "ingångarna" }
+    },
+    {
+      "id": "utgang",
+      "sv": "UTGÅNG",
+      "translations": { "ru": "выход", "en": "exit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utgång", "defSg": "utgången", "indefPl": "utgångar", "defPl": "utgångarna" }
+    },
+    {
+      "id": "nodutgang",
+      "sv": "NÖDUTGÅNG",
+      "translations": { "ru": "аварийный выход", "en": "emergency exit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nödutgång", "defSg": "nödutgången", "indefPl": "nödutgångar", "defPl": "nödutgångarna" },
+      "note": { "ru": "nöd- значит «беда, авария».", "en": "nöd- means \"emergency, distress\"." }
+    },
+    {
+      "id": "toalett",
+      "sv": "TOALETT",
+      "translations": { "ru": "туалет", "en": "toilet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en toalett", "defSg": "toaletten", "indefPl": "toaletter", "defPl": "toaletterna" }
+    },
+    {
+      "id": "wc",
+      "sv": "WC",
+      "translations": { "ru": "туалет (WC)", "en": "toilet (WC)" },
+      "pos": "noun",
+      "note": { "ru": "То же, что TOALETT. Часто просто буквы WC.", "en": "The same as TOALETT. Often just the letters WC." }
+    },
+    {
+      "id": "damer",
+      "sv": "DAMER",
+      "translations": { "ru": "женский (туалет)", "en": "ladies" },
+      "pos": "noun",
+      "note": { "ru": "en dam — женщина, дама; damer — женщины.", "en": "en dam — a lady; damer — ladies." }
+    },
+    {
+      "id": "herrar",
+      "sv": "HERRAR",
+      "translations": { "ru": "мужской (туалет)", "en": "gentlemen" },
+      "pos": "noun",
+      "note": { "ru": "en herre — мужчина, господин; herrar — мужчины.", "en": "en herre — a gentleman; herrar — gentlemen." }
+    },
+    {
+      "id": "dra",
+      "sv": "DRA",
+      "translations": { "ru": "тянуть (на себя)", "en": "pull" },
+      "pos": "verb",
+      "note": { "ru": "На двери: тянуть дверь к себе.", "en": "On a door: pull the door towards you." }
+    },
+    {
+      "id": "tryck",
+      "sv": "TRYCK",
+      "translations": { "ru": "толкать (от себя)", "en": "push" },
+      "pos": "verb",
+      "note": { "ru": "На двери: толкать дверь от себя.", "en": "On a door: push the door away from you." }
+    },
+    {
+      "id": "kassa",
+      "sv": "KASSA",
+      "translations": { "ru": "касса", "en": "checkout, cash desk" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kassa", "defSg": "kassan", "indefPl": "kassor", "defPl": "kassorna" }
+    },
+    {
+      "id": "hiss",
+      "sv": "HISS",
+      "translations": { "ru": "лифт", "en": "lift, elevator" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hiss", "defSg": "hissen", "indefPl": "hissar", "defPl": "hissarna" }
+    },
+    {
+      "id": "trappa",
+      "sv": "TRAPPA",
+      "translations": { "ru": "лестница", "en": "stairs" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trappa", "defSg": "trappan", "indefPl": "trappor", "defPl": "trapporna" }
+    },
+    {
+      "id": "information",
+      "sv": "INFORMATION",
+      "translations": { "ru": "информация, справочная", "en": "information desk" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Место, где можно спросить дорогу.", "en": "The place where you can ask for directions." }
+    },
+    {
+      "id": "rokning-forbjuden",
+      "sv": "RÖKNING FÖRBJUDEN",
+      "translations": { "ru": "курение запрещено", "en": "no smoking" },
+      "pos": "phrase",
+      "note": { "ru": "rökning — курение; förbjuden — запрещено.", "en": "rökning — smoking; förbjuden — forbidden." }
+    },
+    {
+      "id": "tilltrade-forbjudet",
+      "sv": "TILLTRÄDE FÖRBJUDET",
+      "translations": { "ru": "проход запрещён", "en": "no entry, no admittance" },
+      "pos": "phrase",
+      "note": { "ru": "tillträde — доступ, проход.", "en": "tillträde — access, admittance." }
+    },
+    {
+      "id": "reserverat",
+      "sv": "RESERVERAT",
+      "translations": { "ru": "зарезервировано, занято", "en": "reserved" },
+      "pos": "adj",
+      "note": { "ru": "На столе в кафе или на месте в поезде.", "en": "On a café table or a seat on the train." }
+    }
+  ]
+}

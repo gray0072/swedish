@@ -1,0 +1,34 @@
+{
+  "id": "sfi-a/simple-signs",
+  "slug": "simple-signs",
+  "title": {
+    "sv": "Skyltar",
+    "ru": "Простые вывески и знаки",
+    "en": "Reading simple signs"
+  },
+  "summary": {
+    "ru": "ÖPPET, STÄNGT, INGÅNG, UTGÅNG, DRA, TRYCK — вывески, которые встречаются в первый же день.",
+    "en": "ÖPPET, STÄNGT, INGÅNG, UTGÅNG, DRA, TRYCK — the signs you meet on your very first day."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "signs",
+    "reading",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 120,
+  "prerequisites": [],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

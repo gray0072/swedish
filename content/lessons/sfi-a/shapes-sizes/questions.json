@@ -1,0 +1,94 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-shapes-sizes-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы живём в большом доме.»", "en": "Build the sentence: \"We live in a big house.\"" },
+      "tokens": ["ett", "Vi", "hus", "bor", "stort", "i"],
+      "answer": [1, 3, 5, 0, 4, 2]
+    },
+    {
+      "id": "q-shapes-sizes-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь фигуры с переводом", "en": "Match the shapes with their translation" },
+      "pairs": [
+        ["cirkel", "круг"],
+        ["kvadrat", "квадрат"],
+        ["triangel", "треугольник"],
+        ["rektangel", "прямоугольник"]
+      ]
+    },
+    {
+      "id": "q-shapes-sizes-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Ett-форма от «stor» — «stort»: ett stort hus.", "en": "The ett-form of \"stor\" is \"stort\": ett stort hus." },
+      "answer": true
+    },
+    {
+      "id": "q-shapes-sizes-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Множественное число от «liten» — «litena».", "en": "The plural of \"liten\" is \"litena\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Liten» неправильное: во множественном числе — små.",
+        "en": "\"Liten\" is irregular: the plural is små."
+      }
+    },
+    {
+      "id": "q-shapes-sizes-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag har en ___ bil. (маленькую / small)" },
+      "answer": ["liten"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-shapes-sizes-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi bor i ett ___ hus. (большом / big)" },
+      "answer": ["stort"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-shapes-sizes-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово противоположно «tung»?", "en": "Which word is the opposite of \"tung\"?" },
+      "choices": ["lätt", "tjock", "hög", "bred"],
+      "answer": 0
+    },
+    {
+      "id": "q-shapes-sizes-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Какая форма «liten» стоит перед ett-словом? ___ hus", "en": "Which form of \"liten\" goes before an ett-word? ___ hus" },
+      "choices": ["ett litet", "en liten", "den lilla", "de små"],
+      "answer": 0
+    },
+    {
+      "id": "q-shapes-sizes-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Bordet är runt.",
+      "prompt": { "ru": "Какой формы стол?", "en": "What shape is the table?" },
+      "choices": [
+        { "ru": "круглый", "en": "round" },
+        { "ru": "квадратный", "en": "square" },
+        { "ru": "большой", "en": "big" },
+        { "ru": "тонкий", "en": "thin" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-likes-dislikes-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я не люблю рыбу.»", "en": "Build the sentence: \"I do not like fish.\"" },
+      "tokens": ["fisk", "gillar", "Jag", "inte"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-likes-dislikes-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мне нравится плавать.»", "en": "Build the sentence: \"I like to swim.\"" },
+      "tokens": ["att", "tycker", "Jag", "simma", "om"],
+      "answer": [2, 1, 4, 0, 3]
+    },
+    {
+      "id": "q-likes-dislikes-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь противоположности", "en": "Match the opposites" },
+      "pairs": [
+        ["bra", "dåligt"],
+        ["roligt", "tråkigt"],
+        ["älskar", "hatar"],
+        ["mycket", "lite"]
+      ]
+    },
+    {
+      "id": "q-likes-dislikes-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«gott» говорят о еде, а «bra» — обо всём остальном.", "en": "\"gott\" is used about food, \"bra\" about everything else." },
+      "answer": true,
+      "explanation": {
+        "ru": "Kaffet är gott (вкусный), men filmen är bra (хороший).",
+        "en": "Kaffet är gott (tasty), but filmen är bra (good)."
+      }
+    },
+    {
+      "id": "q-likes-dislikes-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag inte gillar fisk» — правильный порядок слов.", "en": "\"Jag inte gillar fisk\" is the correct word order." },
+      "answer": false,
+      "explanation": {
+        "ru": "«inte» идёт после глагола: Jag gillar inte fisk.",
+        "en": "\"inte\" goes after the verb: Jag gillar inte fisk."
+      }
+    },
+    {
+      "id": "q-likes-dislikes-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag tycker ___ att läsa." },
+      "answer": ["om"],
+      "acceptAlso": [],
+      "hint": { "ru": "tycka ___ = нравиться", "en": "tycka ___ = to like" }
+    },
+    {
+      "id": "q-likes-dislikes-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Gillar du fisk? — Nej, det gör jag ___." },
+      "answer": ["inte"],
+      "acceptAlso": [],
+      "hint": { "ru": "не", "en": "not" }
+    },
+    {
+      "id": "q-likes-dislikes-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Кофе вкусный. Как это сказать?", "en": "The coffee is tasty. How do you say it?" },
+      "choices": ["Kaffet är gott.", "Kaffet är roligt.", "Kaffet är tråkigt.", "Kaffet är trött."],
+      "answer": 0
+    },
+    {
+      "id": "q-likes-dislikes-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag älskar choklad.",
+      "prompt": { "ru": "Что говорит человек?", "en": "What does the person say?" },
+      "choices": [
+        { "ru": "Я обожаю шоколад.", "en": "I love chocolate." },
+        { "ru": "Я не люблю шоколад.", "en": "I do not like chocolate." },
+        { "ru": "Я люблю кофе.", "en": "I like coffee." },
+        { "ru": "Может быть, немного шоколада.", "en": "Maybe a little chocolate." }
+      ],
+      "answer": 0
+    }
+  ]
+}

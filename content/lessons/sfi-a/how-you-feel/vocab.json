@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": "hur-mar-du",
+      "sv": "Hur mår du?",
+      "translations": { "ru": "Как ты себя чувствуешь?", "en": "How are you feeling?" },
+      "pos": "phrase",
+      "example": { "sv": "Hej Anna! Hur mår du idag?", "ru": "Привет, Анна! Как ты сегодня?", "en": "Hi Anna! How are you feeling today?" }
+    },
+    {
+      "id": "jag-mar-bra",
+      "sv": "Jag mår bra.",
+      "translations": { "ru": "Я чувствую себя хорошо.", "en": "I feel fine." },
+      "pos": "phrase",
+      "example": { "sv": "Tack, jag mår bra.", "ru": "Спасибо, я в порядке.", "en": "Thanks, I feel fine." }
+    },
+    {
+      "id": "jag-mar-daligt",
+      "sv": "Jag mår dåligt.",
+      "translations": { "ru": "Мне плохо.", "en": "I feel bad." },
+      "pos": "phrase",
+      "example": { "sv": "Jag mår dåligt, jag går hem.", "ru": "Мне плохо, я иду домой.", "en": "I feel bad, I am going home." }
+    },
+    {
+      "id": "jag-mar-inte-bra",
+      "sv": "Jag mår inte bra.",
+      "translations": { "ru": "Мне нехорошо.", "en": "I do not feel well." },
+      "pos": "phrase",
+      "note": { "ru": "мягче, чем «jag mår dåligt» — так говорят чаще", "en": "softer than \"jag mår dåligt\" — the more common way to say it" },
+      "example": { "sv": "Jag mår inte bra idag.", "ru": "Мне сегодня нехорошо.", "en": "I do not feel well today." }
+    },
+    {
+      "id": "jag-ar-sjuk",
+      "sv": "Jag är sjuk.",
+      "translations": { "ru": "Я болен / больна.", "en": "I am ill." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är sjuk och kommer inte till skolan.", "ru": "Я болею и не приду в школу.", "en": "I am ill and will not come to school." }
+    },
+    {
+      "id": "jag-ar-frisk",
+      "sv": "Jag är frisk.",
+      "translations": { "ru": "Я здоров / здорова.", "en": "I am healthy." },
+      "pos": "phrase",
+      "example": { "sv": "Nu är jag frisk igen.", "ru": "Теперь я снова здоров.", "en": "Now I am healthy again." }
+    },
+    {
+      "id": "ont-i-huvudet",
+      "sv": "Jag har ont i huvudet.",
+      "translations": { "ru": "У меня болит голова.", "en": "I have a headache." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har ont i huvudet, har du en tablett?", "ru": "У меня болит голова, есть таблетка?", "en": "I have a headache, do you have a pill?" }
+    },
+    {
+      "id": "ont-i-magen",
+      "sv": "Jag har ont i magen.",
+      "translations": { "ru": "У меня болит живот.", "en": "I have a stomach ache." },
+      "pos": "phrase",
+      "example": { "sv": "Barnet har ont i magen.", "ru": "У ребёнка болит живот.", "en": "The child has a stomach ache." }
+    },
+    {
+      "id": "ont-i-halsen",
+      "sv": "Jag har ont i halsen.",
+      "translations": { "ru": "У меня болит горло.", "en": "I have a sore throat." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har ont i halsen och hostar.", "ru": "У меня болит горло, и я кашляю.", "en": "I have a sore throat and I am coughing." }
+    },
+    {
+      "id": "ont-i-ryggen",
+      "sv": "Jag har ont i ryggen.",
+      "translations": { "ru": "У меня болит спина.", "en": "I have a backache." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har ont i ryggen efter arbetet.", "ru": "У меня болит спина после работы.", "en": "I have a backache after work." }
+    },
+    {
+      "id": "jag-har-feber",
+      "sv": "Jag har feber.",
+      "translations": { "ru": "У меня температура.", "en": "I have a fever." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har feber, 38 grader.", "ru": "У меня температура, 38 градусов.", "en": "I have a fever, 38 degrees." }
+    },
+    {
+      "id": "jag-ar-forkyld",
+      "sv": "Jag är förkyld.",
+      "translations": { "ru": "Я простудился / простудилась.", "en": "I have a cold." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är förkyld och stannar hemma.", "ru": "Я простудился и остаюсь дома.", "en": "I have a cold and am staying home." }
+    },
+    {
+      "id": "jag-ar-trott",
+      "sv": "Jag är trött.",
+      "translations": { "ru": "Я устал / устала.", "en": "I am tired." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är trött, jag sov dåligt.", "ru": "Я устал, я плохо спал.", "en": "I am tired, I slept badly." }
+    },
+    {
+      "id": "jag-ar-hungrig",
+      "sv": "Jag är hungrig.",
+      "translations": { "ru": "Я голоден / голодна.", "en": "I am hungry." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är hungrig. Vi äter nu!", "ru": "Я голоден. Давай поедим!", "en": "I am hungry. Let us eat now!" }
+    },
+    {
+      "id": "jag-ar-torstig",
+      "sv": "Jag är törstig.",
+      "translations": { "ru": "Я хочу пить.", "en": "I am thirsty." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är törstig, kan jag få vatten?", "ru": "Я хочу пить, можно воды?", "en": "I am thirsty, can I have some water?" }
+    },
+    {
+      "id": "jag-fryser",
+      "sv": "Jag fryser.",
+      "translations": { "ru": "Мне холодно.", "en": "I am cold." },
+      "pos": "phrase",
+      "note": { "ru": "можно также «Jag är frusen». Но не «Jag är kall» — это о холодном человеке, не о самочувствии", "en": "also \"Jag är frusen\". Not \"Jag är kall\" — that describes a cold person, not how you feel" },
+      "example": { "sv": "Jag fryser, stäng fönstret tack.", "ru": "Мне холодно, закрой окно, пожалуйста.", "en": "I am cold, close the window please." }
+    },
+    {
+      "id": "jag-ar-varm",
+      "sv": "Jag är varm.",
+      "translations": { "ru": "Мне жарко.", "en": "I am hot." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är varm, jag tar av jackan.", "ru": "Мне жарко, я сниму куртку.", "en": "I am hot, I will take off my jacket." }
+    },
+    {
+      "id": "sa-dar",
+      "sv": "Så där.",
+      "translations": { "ru": "Так себе.", "en": "So-so." },
+      "pos": "phrase",
+      "note": { "ru": "средний ответ на «Hur mår du?»", "en": "the middle answer to \"Hur mår du?\"" },
+      "example": { "sv": "Hur mår du? — Så där.", "ru": "Как ты? — Так себе.", "en": "How are you? — So-so." }
+    }
+  ]
+}

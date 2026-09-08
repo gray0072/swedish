@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/school-items",
+  "slug": "school-items",
+  "title": {
+    "sv": "I klassrummet: saker",
+    "ru": "Школа и школьные принадлежности",
+    "en": "School and stationery items"
+  },
+  "summary": {
+    "ru": "Вещи в классе — и определённая форма как окончание в конце слова.",
+    "en": "Things in the classroom — and the definite form as an ending."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "school",
+    "nouns",
+    "classroom"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 210,
+  "prerequisites": [
+    "sfi-a/alphabet"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

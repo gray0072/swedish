@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/writing-dates",
+  "slug": "writing-dates",
+  "title": {
+    "sv": "Datum",
+    "ru": "Шведский календарь: как писать дату",
+    "en": "The Swedish calendar: writing a date"
+  },
+  "summary": {
+    "ru": "Формат 2026-09-07, порядковые числительные и номера недель.",
+    "en": "The 2026-09-07 format, the ordinal numbers, and week numbers."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "dates",
+    "calendar",
+    "ordinals",
+    "numbers"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 160,
+  "prerequisites": [
+    "sfi-a/months-seasons"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-months-seasons-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Расставь месяцы по порядку", "en": "Put the months in order" },
+      "tokens": ["mars", "januari", "april", "februari"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-months-seasons-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Расставь времена года по порядку, начиная с весны", "en": "Put the seasons in order, starting with spring" },
+      "tokens": ["vinter", "sommar", "vår", "höst"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-months-seasons-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь месяц с временем года", "en": "Match the month with its season" },
+      "pairs": [
+        ["januari", "vinter"],
+        ["april", "vår"],
+        ["juli", "sommar"],
+        ["oktober", "höst"]
+      ]
+    },
+    {
+      "id": "q-months-seasons-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Названия месяцев в шведском пишутся со строчной буквы: januari, mars, december.", "en": "Month names in Swedish are written in lower case: januari, mars, december." },
+      "answer": true,
+      "explanation": {
+        "ru": "В отличие от английского, где пишут January.",
+        "en": "Unlike English, which writes January."
+      }
+    },
+    {
+      "id": "q-months-seasons-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Juli — это июнь.", "en": "Juli means June." },
+      "answer": false,
+      "explanation": {
+        "ru": "Juli — июль, а июнь — juni.",
+        "en": "Juli is July; June is juni."
+      }
+    },
+    {
+      "id": "q-months-seasons-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag börjar SFI ___ januari. (предлог / preposition)" },
+      "answer": ["i"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-months-seasons-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ sommaren badar vi i sjön. (предлог / preposition)" },
+      "answer": ["På"],
+      "acceptAlso": ["på"]
+    },
+    {
+      "id": "q-months-seasons-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой месяц идёт после augusti?", "en": "Which month comes after augusti?" },
+      "choices": ["september", "juli", "oktober", "april"],
+      "answer": 0
+    },
+    {
+      "id": "q-months-seasons-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "På hösten regnar det mycket.",
+      "prompt": { "ru": "О каком времени года речь?", "en": "Which season is this about?" },
+      "choices": ["höst", "vår", "sommar", "vinter"],
+      "answer": 0
+    }
+  ]
+}

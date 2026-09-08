@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-phone-numbers-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какой у тебя номер телефона?»", "en": "Build the question: \"What is your phone number?\"" },
+      "tokens": ["ditt", "Vad", "telefonnummer", "är"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-phone-numbers-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери просьбу: «Можешь повторить номер?»", "en": "Build the request: \"Can you repeat the number?\"" },
+      "tokens": ["upprepa", "Kan", "numret", "du"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-phone-numbers-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с их значением", "en": "Match the words with their meaning" },
+      "pairs": [
+        ["riktnummer", "08"],
+        ["landsnummer", "+46"],
+        ["bindestreck", "-"],
+        ["plus", "+"]
+      ]
+    },
+    {
+      "id": "q-phone-numbers-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Personnummer состоит из десяти цифр: шесть — дата рождения, потом ещё четыре.", "en": "A personnummer has ten digits: six for the date of birth, then four more." },
+      "answer": true
+    },
+    {
+      "id": "q-phone-numbers-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Landsnummer Швеции — +47.", "en": "Sweden's country code is +47." },
+      "answer": false,
+      "explanation": {
+        "ru": "У Швеции +46. +47 — это Норвегия.",
+        "en": "Sweden is +46. +47 is Norway."
+      }
+    },
+    {
+      "id": "q-phone-numbers-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ___ numret? (повторить / repeat)" },
+      "answer": ["upprepa"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-phone-numbers-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du säga det ___? (медленнее / more slowly)" },
+      "answer": ["långsammare"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-phone-numbers-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "С каких цифр начинаются шведские мобильные номера?", "en": "Which digits does a Swedish mobile number start with?" },
+      "choices": ["07", "08", "031", "040"],
+      "answer": 0
+    },
+    {
+      "id": "q-phone-numbers-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "sjuttiotre",
+      "prompt": { "ru": "Какое число ты слышишь?", "en": "Which number do you hear?" },
+      "choices": ["73", "37", "70", "13"],
+      "answer": 0
+    }
+  ]
+}

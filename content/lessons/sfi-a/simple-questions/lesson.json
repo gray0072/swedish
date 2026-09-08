@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/simple-questions",
+  "slug": "simple-questions",
+  "title": {
+    "sv": "Enkla frågor och svar",
+    "ru": "Простые вопросы и ответы",
+    "en": "Simple questions and answers"
+  },
+  "summary": {
+    "ru": "Вопросы «да/нет»: глагол выходит вперёд — и короткие ответы Ja, Nej, Jo.",
+    "en": "Yes/no questions: the verb moves to the front — and the short answers Ja, Nej, Jo."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "questions",
+    "phrases",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 110,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

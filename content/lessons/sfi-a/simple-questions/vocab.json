@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "ar-du-gift",
+      "sv": "Är du gift?",
+      "translations": { "ru": "Ты женат / замужем?", "en": "Are you married?" },
+      "pos": "phrase",
+      "example": { "sv": "Är du gift? — Ja, det är jag.", "ru": "Ты замужем? — Да.", "en": "Are you married? — Yes, I am." }
+    },
+    {
+      "id": "har-du-barn",
+      "sv": "Har du barn?",
+      "translations": { "ru": "У тебя есть дети?", "en": "Do you have children?" },
+      "pos": "phrase",
+      "example": { "sv": "Har du barn? — Ja, två.", "ru": "У тебя есть дети? — Да, двое.", "en": "Do you have children? — Yes, two." }
+    },
+    {
+      "id": "bor-du-i-malmo",
+      "sv": "Bor du i Malmö?",
+      "translations": { "ru": "Ты живёшь в Мальмё?", "en": "Do you live in Malmö?" },
+      "pos": "phrase",
+      "note": { "ru": "Утверждение: Du bor i Malmö.", "en": "The statement: Du bor i Malmö." }
+    },
+    {
+      "id": "talar-du-svenska",
+      "sv": "Talar du svenska?",
+      "translations": { "ru": "Ты говоришь по-шведски?", "en": "Do you speak Swedish?" },
+      "pos": "phrase",
+      "note": { "ru": "Также говорят: Pratar du svenska?", "en": "You also hear: Pratar du svenska?" }
+    },
+    {
+      "id": "forstar-du",
+      "sv": "Förstår du?",
+      "translations": { "ru": "Ты понимаешь?", "en": "Do you understand?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "heter-du-anna",
+      "sv": "Heter du Anna?",
+      "translations": { "ru": "Тебя зовут Анна?", "en": "Is your name Anna?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kommer-du-fran-sverige",
+      "sv": "Kommer du från Sverige?",
+      "translations": { "ru": "Ты из Швеции?", "en": "Are you from Sweden?" },
+      "pos": "phrase",
+      "example": { "sv": "Kommer du från Sverige? — Nej, jag kommer från Syrien.", "ru": "Ты из Швеции? — Нет, я из Сирии.", "en": "Are you from Sweden? — No, I'm from Syria." }
+    },
+    {
+      "id": "ja",
+      "sv": "Ja",
+      "translations": { "ru": "да", "en": "yes" },
+      "pos": "interjection"
+    },
+    {
+      "id": "nej",
+      "sv": "Nej",
+      "translations": { "ru": "нет", "en": "no" },
+      "pos": "interjection"
+    },
+    {
+      "id": "jo",
+      "sv": "Jo",
+      "translations": { "ru": "да (ответ на отрицательный вопрос)", "en": "yes (answering a negative question)" },
+      "pos": "interjection",
+      "example": { "sv": "Bor du inte här? — Jo, jag bor här.", "ru": "Ты разве не живёшь здесь? — Живу.", "en": "Don't you live here? — Yes, I do live here." }
+    },
+    {
+      "id": "ja-det-gor-jag",
+      "sv": "Ja, det gör jag.",
+      "translations": { "ru": "Да (делаю / живу / говорю).", "en": "Yes, I do." },
+      "pos": "phrase",
+      "example": { "sv": "Talar du svenska? — Ja, det gör jag.", "ru": "Ты говоришь по-шведски? — Да.", "en": "Do you speak Swedish? — Yes, I do." }
+    },
+    {
+      "id": "nej-det-gor-jag-inte",
+      "sv": "Nej, det gör jag inte.",
+      "translations": { "ru": "Нет (не делаю).", "en": "No, I don't." },
+      "pos": "phrase",
+      "example": { "sv": "Bor du i Malmö? — Nej, det gör jag inte.", "ru": "Ты живёшь в Мальмё? — Нет.", "en": "Do you live in Malmö? — No, I don't." }
+    },
+    {
+      "id": "ja-det-ar-jag",
+      "sv": "Ja, det är jag.",
+      "translations": { "ru": "Да (я такой / такая).", "en": "Yes, I am." },
+      "pos": "phrase",
+      "note": { "ru": "Ответ на вопрос с är.", "en": "The answer to a question with är." }
+    },
+    {
+      "id": "nej-det-ar-jag-inte",
+      "sv": "Nej, det är jag inte.",
+      "translations": { "ru": "Нет (я не такой / такая).", "en": "No, I'm not." },
+      "pos": "phrase",
+      "note": { "ru": "Ответ на вопрос с är.", "en": "The answer to a question with är." }
+    },
+    {
+      "id": "ja-det-har-jag",
+      "sv": "Ja, det har jag.",
+      "translations": { "ru": "Да, есть.", "en": "Yes, I have." },
+      "pos": "phrase",
+      "note": { "ru": "Ответ на вопрос с har.", "en": "The answer to a question with har." }
+    },
+    {
+      "id": "jag-vet-inte",
+      "sv": "Jag vet inte.",
+      "translations": { "ru": "Я не знаю.", "en": "I don't know." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-forstar-inte",
+      "sv": "Jag förstår inte.",
+      "translations": { "ru": "Я не понимаю.", "en": "I don't understand." },
+      "pos": "phrase"
+    },
+    {
+      "id": "kanske",
+      "sv": "Kanske",
+      "translations": { "ru": "может быть", "en": "maybe" },
+      "pos": "adv",
+      "example": { "sv": "Kommer du imorgon? — Kanske.", "ru": "Ты придёшь завтра? — Может быть.", "en": "Are you coming tomorrow? — Maybe." }
+    }
+  ]
+}

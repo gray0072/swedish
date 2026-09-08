@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/months-seasons",
+  "slug": "months-seasons",
+  "title": {
+    "sv": "Månader och årstider",
+    "ru": "Месяцы и времена года",
+    "en": "Months and seasons"
+  },
+  "summary": {
+    "ru": "Двенадцать месяцев, четыре времени года — и правило строчной буквы.",
+    "en": "The twelve months, the four seasons — and the lower-case rule."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "months",
+    "seasons",
+    "calendar",
+    "time"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 150,
+  "prerequisites": [
+    "sfi-a/days-of-week"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

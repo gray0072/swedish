@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "ga",
+      "sv": "gå",
+      "translations": { "ru": "идти (пешком)", "en": "to walk, to go" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått", "imperative": "gå" },
+      "example": { "sv": "Jag går till skolan.", "ru": "Я иду в школу.", "en": "I walk to school." }
+    },
+    {
+      "id": "springa",
+      "sv": "springa",
+      "translations": { "ru": "бежать", "en": "to run" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit", "imperative": "spring" },
+      "example": { "sv": "Barnen springer i parken.", "ru": "Дети бегают в парке.", "en": "The children are running in the park." }
+    },
+    {
+      "id": "sitta",
+      "sv": "sitta",
+      "translations": { "ru": "сидеть", "en": "to sit" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sitta", "present": "sitter", "past": "satt", "supine": "suttit", "imperative": "sitt" },
+      "example": { "sv": "Vi sitter på en stol.", "ru": "Мы сидим на стуле.", "en": "We are sitting on a chair." }
+    },
+    {
+      "id": "sta",
+      "sv": "stå",
+      "translations": { "ru": "стоять", "en": "to stand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stå", "present": "står", "past": "stod", "supine": "stått", "imperative": "stå" },
+      "example": { "sv": "Läraren står vid tavlan.", "ru": "Учитель стоит у доски.", "en": "The teacher is standing by the board." }
+    },
+    {
+      "id": "ligga",
+      "sv": "ligga",
+      "translations": { "ru": "лежать", "en": "to lie, to be lying" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ligga", "present": "ligger", "past": "låg", "supine": "legat", "imperative": "ligg" },
+      "example": { "sv": "Boken ligger på bordet.", "ru": "Книга лежит на столе.", "en": "The book is lying on the table." }
+    },
+    {
+      "id": "komma",
+      "sv": "komma",
+      "translations": { "ru": "приходить, приезжать", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit", "imperative": "kom" },
+      "example": { "sv": "Jag kommer klockan åtta.", "ru": "Я приду в восемь.", "en": "I am coming at eight." }
+    },
+    {
+      "id": "aka",
+      "sv": "åka",
+      "translations": { "ru": "ехать (на транспорте)", "en": "to go by vehicle, to ride" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt", "imperative": "åk" },
+      "example": { "sv": "Jag åker buss till jobbet.", "ru": "Я езжу на работу на автобусе.", "en": "I take the bus to work." }
+    },
+    {
+      "id": "cykla",
+      "sv": "cykla",
+      "translations": { "ru": "ехать на велосипеде", "en": "to cycle" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat", "imperative": "cykla" },
+      "example": { "sv": "Hon cyklar varje dag.", "ru": "Она катается на велосипеде каждый день.", "en": "She cycles every day." }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat", "imperative": "simma" },
+      "example": { "sv": "Vi simmar på lördag.", "ru": "Мы плаваем в субботу.", "en": "We swim on Saturday." }
+    },
+    {
+      "id": "hoppa",
+      "sv": "hoppa",
+      "translations": { "ru": "прыгать", "en": "to jump" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hoppa", "present": "hoppar", "past": "hoppade", "supine": "hoppat", "imperative": "hoppa" },
+      "example": { "sv": "Barnen hoppar och springer.", "ru": "Дети прыгают и бегают.", "en": "The children are jumping and running." }
+    },
+    {
+      "id": "dansa",
+      "sv": "dansa",
+      "translations": { "ru": "танцевать", "en": "to dance" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat", "imperative": "dansa" },
+      "example": { "sv": "Vi dansar hemma.", "ru": "Мы танцуем дома.", "en": "We dance at home." }
+    },
+    {
+      "id": "sova",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit", "imperative": "sov" },
+      "example": { "sv": "Barnet sover nu.", "ru": "Ребёнок сейчас спит.", "en": "The child is sleeping now." }
+    },
+    {
+      "id": "oppna",
+      "sv": "öppna",
+      "translations": { "ru": "открывать", "en": "to open" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öppna", "present": "öppnar", "past": "öppnade", "supine": "öppnat", "imperative": "öppna" },
+      "example": { "sv": "Öppna boken!", "ru": "Открой книгу!", "en": "Open the book!" }
+    },
+    {
+      "id": "stanga",
+      "sv": "stänga",
+      "translations": { "ru": "закрывать", "en": "to close" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "stänga", "present": "stänger", "past": "stängde", "supine": "stängt", "imperative": "stäng" },
+      "example": { "sv": "Stäng dörren, tack.", "ru": "Закрой дверь, пожалуйста.", "en": "Close the door, please." }
+    },
+    {
+      "id": "titta",
+      "sv": "titta",
+      "translations": { "ru": "смотреть", "en": "to look, to watch" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "titta", "present": "tittar", "past": "tittade", "supine": "tittat", "imperative": "titta" },
+      "example": { "sv": "Titta på tavlan!", "ru": "Смотри на доску!", "en": "Look at the board!" }
+    },
+    {
+      "id": "lyssna",
+      "sv": "lyssna",
+      "translations": { "ru": "слушать", "en": "to listen" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lyssna", "present": "lyssnar", "past": "lyssnade", "supine": "lyssnat", "imperative": "lyssna" },
+      "example": { "sv": "Jag lyssnar på läraren.", "ru": "Я слушаю учителя.", "en": "I am listening to the teacher." }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "datum",
+      "sv": "datum",
+      "translations": { "ru": "дата", "en": "date" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" },
+      "example": { "sv": "Vilket datum är det idag?", "ru": "Какое сегодня число?", "en": "What is the date today?" }
+    },
+    {
+      "id": "ar",
+      "sv": "år",
+      "translations": { "ru": "год", "en": "year" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett år", "defSg": "året", "indefPl": "år", "defPl": "åren" },
+      "example": { "sv": "Vi skriver år 2026.", "ru": "Сейчас 2026 год.", "en": "The year is 2026." }
+    },
+    {
+      "id": "manad",
+      "sv": "månad",
+      "translations": { "ru": "месяц", "en": "month" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en månad", "defSg": "månaden", "indefPl": "månader", "defPl": "månaderna" },
+      "example": { "sv": "Ett år har tolv månader.", "ru": "В году двенадцать месяцев.", "en": "A year has twelve months." }
+    },
+    {
+      "id": "vecka",
+      "sv": "vecka",
+      "translations": { "ru": "неделя", "en": "week" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vecka", "defSg": "veckan", "indefPl": "veckor", "defPl": "veckorna" },
+      "note": { "ru": "В Швеции недели нумеруют: vecka 37, коротко v. 37.", "en": "In Sweden weeks are numbered: vecka 37, short v. 37." },
+      "example": { "sv": "Vi ses vecka 37.", "ru": "Увидимся на 37-й неделе.", "en": "See you in week 37." }
+    },
+    {
+      "id": "idag",
+      "sv": "idag",
+      "translations": { "ru": "сегодня", "en": "today" },
+      "pos": "adv",
+      "example": { "sv": "Idag är det den sjunde september.", "ru": "Сегодня седьмое сентября.", "en": "Today is the seventh of September." }
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv",
+      "example": { "sv": "Imorgon är det den åttonde september.", "ru": "Завтра восьмое сентября.", "en": "Tomorrow is the eighth of September." }
+    },
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Igår var det den sjätte september.", "ru": "Вчера было шестое сентября.", "en": "Yesterday was the sixth of September." }
+    },
+    {
+      "id": "forsta",
+      "sv": "första",
+      "translations": { "ru": "первое (1-е)", "en": "first (1st)" },
+      "pos": "numeral",
+      "example": { "sv": "den första maj", "ru": "первое мая", "en": "the first of May" }
+    },
+    {
+      "id": "andra",
+      "sv": "andra",
+      "translations": { "ru": "второе (2-е)", "en": "second (2nd)" },
+      "pos": "numeral",
+      "example": { "sv": "den andra maj", "ru": "второе мая", "en": "the second of May" }
+    },
+    {
+      "id": "tredje",
+      "sv": "tredje",
+      "translations": { "ru": "третье (3-е)", "en": "third (3rd)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "fjarde",
+      "sv": "fjärde",
+      "translations": { "ru": "четвёртое (4-е)", "en": "fourth (4th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "femte",
+      "sv": "femte",
+      "translations": { "ru": "пятое (5-е)", "en": "fifth (5th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "sjatte",
+      "sv": "sjätte",
+      "translations": { "ru": "шестое (6-е)", "en": "sixth (6th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "sjunde",
+      "sv": "sjunde",
+      "translations": { "ru": "седьмое (7-е)", "en": "seventh (7th)" },
+      "pos": "numeral",
+      "example": { "sv": "den sjunde september", "ru": "седьмое сентября", "en": "the seventh of September" }
+    },
+    {
+      "id": "attonde",
+      "sv": "åttonde",
+      "translations": { "ru": "восьмое (8-е)", "en": "eighth (8th)" },
+      "pos": "numeral",
+      "note": { "ru": "Не «åtta-nde»: åtta становится åttonde.", "en": "Not \"åtta-nde\": åtta becomes åttonde." }
+    },
+    {
+      "id": "nionde",
+      "sv": "nionde",
+      "translations": { "ru": "девятое (9-е)", "en": "ninth (9th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "tionde",
+      "sv": "tionde",
+      "translations": { "ru": "десятое (10-е)", "en": "tenth (10th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "elfte",
+      "sv": "elfte",
+      "translations": { "ru": "одиннадцатое (11-е)", "en": "eleventh (11th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "tolfte",
+      "sv": "tolfte",
+      "translations": { "ru": "двенадцатое (12-е)", "en": "twelfth (12th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "tjugonde",
+      "sv": "tjugonde",
+      "translations": { "ru": "двадцатое (20-е)", "en": "twentieth (20th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "tjugoforsta",
+      "sv": "tjugoförsta",
+      "translations": { "ru": "двадцать первое (21-е)", "en": "twenty-first (21st)" },
+      "pos": "numeral",
+      "note": { "ru": "tjugo + första — как в русском «двадцать первое».", "en": "tjugo + första — built the same way as \"twenty-first\"." }
+    },
+    {
+      "id": "trettionde",
+      "sv": "trettionde",
+      "translations": { "ru": "тридцатое (30-е)", "en": "thirtieth (30th)" },
+      "pos": "numeral"
+    },
+    {
+      "id": "trettioforsta",
+      "sv": "trettioförsta",
+      "translations": { "ru": "тридцать первое (31-е)", "en": "thirty-first (31st)" },
+      "pos": "numeral",
+      "example": { "sv": "den trettioförsta december", "ru": "тридцать первое декабря", "en": "the thirty-first of December" }
+    }
+  ]
+}

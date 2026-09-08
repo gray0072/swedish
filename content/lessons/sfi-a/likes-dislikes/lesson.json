@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/likes-dislikes",
+  "slug": "likes-dislikes",
+  "title": {
+    "sv": "Gillar du?",
+    "ru": "Нравится или нет",
+    "en": "Like and dislike"
+  },
+  "summary": {
+    "ru": "Jag gillar, jag tycker om, jag gillar inte — и разница между bra и gott.",
+    "en": "Jag gillar, jag tycker om, jag gillar inte — and the difference between bra and gott."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "opinions",
+    "phrases",
+    "negation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 240,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

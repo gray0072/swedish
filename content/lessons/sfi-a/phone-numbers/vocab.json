@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "nummer",
+      "sv": "nummer",
+      "translations": { "ru": "номер", "en": "number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett nummer", "defSg": "numret", "indefPl": "nummer", "defPl": "numren" },
+      "example": { "sv": "Vilket nummer sa du?", "ru": "Какой номер ты сказал(а)?", "en": "Which number did you say?" }
+    },
+    {
+      "id": "siffra",
+      "sv": "siffra",
+      "translations": { "ru": "цифра", "en": "digit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en siffra", "defSg": "siffran", "indefPl": "siffror", "defPl": "siffrorna" },
+      "example": { "sv": "Säg en siffra i taget.", "ru": "Говори по одной цифре.", "en": "Say one digit at a time." }
+    },
+    {
+      "id": "telefonnummer",
+      "sv": "telefonnummer",
+      "translations": { "ru": "номер телефона", "en": "phone number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett telefonnummer", "defSg": "telefonnumret", "indefPl": "telefonnummer", "defPl": "telefonnumren" },
+      "example": { "sv": "Jag skriver mitt telefonnummer här.", "ru": "Я пишу здесь свой номер телефона.", "en": "I am writing my phone number here." }
+    },
+    {
+      "id": "mobilnummer",
+      "sv": "mobilnummer",
+      "translations": { "ru": "номер мобильного", "en": "mobile number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mobilnummer", "defSg": "mobilnumret", "indefPl": "mobilnummer", "defPl": "mobilnumren" },
+      "note": { "ru": "Шведские мобильные номера начинаются с 07.", "en": "Swedish mobile numbers start with 07." },
+      "example": { "sv": "Mitt mobilnummer börjar med 07.", "ru": "Мой мобильный номер начинается с 07.", "en": "My mobile number starts with 07." }
+    },
+    {
+      "id": "riktnummer",
+      "sv": "riktnummer",
+      "translations": { "ru": "код города", "en": "area code" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett riktnummer", "defSg": "riktnumret", "indefPl": "riktnummer", "defPl": "riktnumren" },
+      "note": { "ru": "Стокгольм — 08, Гётеборг — 031, Мальмё — 040.", "en": "Stockholm is 08, Göteborg 031, Malmö 040." },
+      "example": { "sv": "Riktnummer till Stockholm är 08.", "ru": "Код Стокгольма — 08.", "en": "The area code for Stockholm is 08." }
+    },
+    {
+      "id": "landsnummer",
+      "sv": "landsnummer",
+      "translations": { "ru": "код страны", "en": "country code" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett landsnummer", "defSg": "landsnumret", "indefPl": "landsnummer", "defPl": "landsnumren" },
+      "note": { "ru": "У Швеции это +46.", "en": "Sweden's is +46." },
+      "example": { "sv": "Sveriges landsnummer är plus fyrtiosex.", "ru": "Код страны Швеции — плюс сорок шесть.", "en": "Sweden's country code is plus forty-six." }
+    },
+    {
+      "id": "personnummer",
+      "sv": "personnummer",
+      "translations": { "ru": "личный номер (шведский ID)", "en": "personal identity number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett personnummer", "defSg": "personnumret", "indefPl": "personnummer", "defPl": "personnumren" },
+      "note": { "ru": "Формат ГГММДД-ХХХХ, десять цифр. Читают по одной цифре.", "en": "Format YYMMDD-XXXX, ten digits. Read out digit by digit." },
+      "example": { "sv": "Vad är ditt personnummer?", "ru": "Какой у тебя личный номер?", "en": "What is your personal identity number?" }
+    },
+    {
+      "id": "noll",
+      "sv": "noll",
+      "translations": { "ru": "ноль", "en": "zero" },
+      "pos": "numeral",
+      "example": { "sv": "Numret börjar med noll åtta.", "ru": "Номер начинается с ноль восемь.", "en": "The number starts with zero eight." }
+    },
+    {
+      "id": "plus",
+      "sv": "plus",
+      "translations": { "ru": "плюс (знак +)", "en": "plus (the + sign)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Plus fyrtiosex är Sverige.", "ru": "Плюс сорок шесть — это Швеция.", "en": "Plus forty-six is Sweden." }
+    },
+    {
+      "id": "bindestreck",
+      "sv": "bindestreck",
+      "translations": { "ru": "дефис (знак -)", "en": "hyphen (the - sign)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bindestreck", "defSg": "bindestrecket", "indefPl": "bindestreck", "defPl": "bindestrecken" },
+      "example": { "sv": "Här står ett bindestreck.", "ru": "Здесь стоит дефис.", "en": "There is a hyphen here." }
+    },
+    {
+      "id": "sjuttiotre",
+      "sv": "sjuttiotre",
+      "translations": { "ru": "семьдесят три (73)", "en": "seventy-three (73)" },
+      "pos": "numeral",
+      "note": { "ru": "Пары цифр в номере часто читают одним словом: 73 — sjuttiotre.", "en": "Pairs of digits in a number are often read as one word: 73 is sjuttiotre." }
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call, to phone" },
+      "pos": "verb",
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt", "imperative": "ring" },
+      "example": { "sv": "Ring mig imorgon.", "ru": "Позвони мне завтра.", "en": "Call me tomorrow." }
+    },
+    {
+      "id": "svara",
+      "sv": "svara",
+      "translations": { "ru": "отвечать", "en": "to answer" },
+      "pos": "verb",
+      "forms": { "infinitive": "svara", "present": "svarar", "past": "svarade", "supine": "svarat", "imperative": "svara" },
+      "example": { "sv": "Jag svarar i telefonen.", "ru": "Я отвечаю по телефону.", "en": "I answer the phone." }
+    },
+    {
+      "id": "stava",
+      "sv": "stava",
+      "translations": { "ru": "диктовать по буквам", "en": "to spell" },
+      "pos": "verb",
+      "forms": { "infinitive": "stava", "present": "stavar", "past": "stavade", "supine": "stavat", "imperative": "stava" },
+      "example": { "sv": "Kan du stava ditt namn?", "ru": "Можешь продиктовать имя по буквам?", "en": "Can you spell your name?" }
+    },
+    {
+      "id": "vad-ar-ditt-telefonnummer",
+      "sv": "Vad är ditt telefonnummer?",
+      "translations": { "ru": "Какой у тебя номер телефона?", "en": "What is your phone number?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kan-du-upprepa-numret",
+      "sv": "Kan du upprepa numret?",
+      "translations": { "ru": "Можешь повторить номер?", "en": "Can you repeat the number?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kan-du-saga-det-langsammare",
+      "sv": "Kan du säga det långsammare?",
+      "translations": { "ru": "Можешь сказать это медленнее?", "en": "Can you say it more slowly?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-stavar-mitt-namn",
+      "sv": "Jag stavar mitt namn.",
+      "translations": { "ru": "Я называю своё имя по буквам.", "en": "I spell my name." },
+      "pos": "phrase"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": "lyssna",
+      "sv": "Lyssna!",
+      "translations": { "ru": "Слушай(те)!", "en": "Listen!" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lyssna", "present": "lyssnar", "past": "lyssnade", "supine": "lyssnat", "imperative": "lyssna" },
+      "example": { "sv": "Lyssna på läraren!", "ru": "Слушайте учителя!", "en": "Listen to the teacher!" }
+    },
+    {
+      "id": "las",
+      "sv": "Läs!",
+      "translations": { "ru": "Читай(те)!", "en": "Read!" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst", "imperative": "läs" },
+      "example": { "sv": "Läs texten på sidan tio.", "ru": "Читайте текст на странице десять.", "en": "Read the text on page ten." }
+    },
+    {
+      "id": "skriv",
+      "sv": "Skriv!",
+      "translations": { "ru": "Пиши(те)!", "en": "Write!" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit", "imperative": "skriv" },
+      "example": { "sv": "Skriv ditt namn här.", "ru": "Напишите здесь своё имя.", "en": "Write your name here." }
+    },
+    {
+      "id": "upprepa",
+      "sv": "Upprepa!",
+      "translations": { "ru": "Повтори(те)!", "en": "Repeat!" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "upprepa", "present": "upprepar", "past": "upprepade", "supine": "upprepat", "imperative": "upprepa" },
+      "example": { "sv": "Upprepa efter mig.", "ru": "Повторяйте за мной.", "en": "Repeat after me." }
+    },
+    {
+      "id": "oppna-boken",
+      "sv": "Öppna boken!",
+      "translations": { "ru": "Откройте книгу!", "en": "Open the book!" },
+      "pos": "phrase",
+      "example": { "sv": "Öppna boken på sidan fem.", "ru": "Откройте книгу на странице пять.", "en": "Open the book at page five." }
+    },
+    {
+      "id": "stang-boken",
+      "sv": "Stäng boken!",
+      "translations": { "ru": "Закройте книгу!", "en": "Close the book!" },
+      "pos": "phrase",
+      "note": { "ru": "От глагола stänga — закрывать.", "en": "From the verb stänga — to close." }
+    },
+    {
+      "id": "titta-pa-tavlan",
+      "sv": "Titta på tavlan!",
+      "translations": { "ru": "Смотрите на доску!", "en": "Look at the board!" },
+      "pos": "phrase",
+      "note": { "ru": "en tavla — доска в классе.", "en": "en tavla — the board in the classroom." }
+    },
+    {
+      "id": "sitt-ner",
+      "sv": "Sitt ner!",
+      "translations": { "ru": "Сядьте!", "en": "Sit down!" },
+      "pos": "phrase",
+      "note": { "ru": "От глагола sitta — сидеть.", "en": "From the verb sitta — to sit." }
+    },
+    {
+      "id": "res-dig-upp",
+      "sv": "Res dig upp!",
+      "translations": { "ru": "Встань(те)!", "en": "Stand up!" },
+      "pos": "phrase",
+      "note": { "ru": "Также говорят: Ställ dig upp!", "en": "You also hear: Ställ dig upp!" }
+    },
+    {
+      "id": "arbeta-i-par",
+      "sv": "Arbeta i par!",
+      "translations": { "ru": "Работайте в парах!", "en": "Work in pairs!" },
+      "pos": "phrase",
+      "example": { "sv": "Arbeta i par och prata svenska.", "ru": "Работайте в парах и говорите по-шведски.", "en": "Work in pairs and speak Swedish." }
+    },
+    {
+      "id": "rack-upp-handen",
+      "sv": "Räck upp handen!",
+      "translations": { "ru": "Поднимите руку!", "en": "Raise your hand!" },
+      "pos": "phrase",
+      "note": { "ru": "en hand — рука; handen — рука (опред.).", "en": "en hand — hand; handen — the hand." }
+    },
+    {
+      "id": "var-tysta",
+      "sv": "Var tysta!",
+      "translations": { "ru": "Тихо!", "en": "Be quiet!" },
+      "pos": "phrase",
+      "note": { "ru": "Одному человеку: Var tyst!", "en": "To one person: Var tyst!" }
+    },
+    {
+      "id": "vand-blad",
+      "sv": "Vänd blad!",
+      "translations": { "ru": "Переверните страницу!", "en": "Turn the page!" },
+      "pos": "phrase",
+      "note": { "ru": "Также: Vänd sidan!", "en": "Also: Vänd sidan!" }
+    },
+    {
+      "id": "sudda-ut",
+      "sv": "Sudda ut!",
+      "translations": { "ru": "Стирай(те)!", "en": "Erase it!" },
+      "pos": "phrase",
+      "note": { "ru": "Стереть написанное — ластиком или с доски.", "en": "To rub out what is written — with an eraser or off the board." }
+    },
+    {
+      "id": "kan-du-upprepa",
+      "sv": "Kan du upprepa?",
+      "translations": { "ru": "Можешь повторить?", "en": "Can you repeat that?" },
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, kan du upprepa?", "ru": "Извини, можешь повторить?", "en": "Sorry, can you repeat that?" }
+    },
+    {
+      "id": "kan-du-skriva-det-pa-tavlan",
+      "sv": "Kan du skriva det på tavlan?",
+      "translations": { "ru": "Можешь написать это на доске?", "en": "Can you write it on the board?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kan-du-prata-langsammare",
+      "sv": "Kan du prata långsammare?",
+      "translations": { "ru": "Можешь говорить медленнее?", "en": "Can you speak more slowly?" },
+      "pos": "phrase",
+      "example": { "sv": "Jag förstår inte. Kan du prata långsammare?", "ru": "Я не понимаю. Можешь говорить медленнее?", "en": "I don't understand. Can you speak more slowly?" }
+    }
+  ]
+}

@@ -432,3 +432,88 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   per-course `manualChunks` split from the previous entry.
 - Checks: typecheck, 39 tests, content validation (206 lessons, 0 errors), clean build
   (0 warnings), PWA precache succeeds (38 entries, 3543 KiB).
+
+## 2026-09-07 — Curriculum plan: 25 grammar points per level, and four missing everyday topics
+
+- **Every level's grammar list grew from 20 to 25 points** (160 → 200 planned), so each
+  of the eight levels now plans 25 topics *and* 25 grammar points. The new points fill
+  the gaps the 20-point plan left: kurs A got word stress, `det här är`, the first time
+  words, `Vad kostar det?` and `och`/`men`; kurs B `det finns`, routine reflexives,
+  quantity words, `vilken/vems` and `tycker om`/`gillar`; kurs C the `-s` passive on
+  signs, numbers in dates and percentages, degree/frequency adverbs, indirect questions
+  and time expressions; kurs D `vore`, impersonal `det`, comparatives, `o-`/`miss-`
+  word formation and written punctuation; SVA grund delkurs 1 the bare noun, formal
+  subject `det`, adverb formation, numerals read aloud and spelling/vowel length;
+  delkurs 2 embedded-question word order, paired conjunctions, quantifiers in
+  statistics, sequence of tenses and prepositional adverbials; delkurs 3 apposition,
+  existentials and the definiteness constraint, generic reference, the scope of
+  negation and phase verbs; delkurs 4 the long period, ellipsis, restrictive words,
+  numerical precision and how a concept is defined. The 20 new SVA grund points
+  (21-25 in each delkurs) have no lesson yet — that is the only sense in which the
+  track is no longer "complete", and the summary paragraph now says so.
+- **Four everyday topics that were missing from the whole programme** were added, each
+  paid for inside its own level so every level stays at exactly 25 topics: kurs B gained
+  a restaurant/café topic (ordering, the bill, fika) in place of "Pets and taking care
+  of them", which the done `sfi-b/animals` lesson already covers; kurs C gained a
+  police-report topic (theft, lost documents) and a dentist/tandvård topic, paid for by
+  dropping "Transport: tickets, fines, delays" (folded into the done `sfi-c/transport`)
+  and merging "Shopping: prices, discounts" with "Complaints and returning goods"; kurs
+  D gained online shopping (delivery, returns, ångerrätt), paid for by merging the
+  employment contract with unions and labour rights — the same pairing `sva-grund-2`
+  already uses. No `[x]` item was touched: only planned, unwritten topics were moved.
+- `TODO.md`/`TODO_ru.md`: the grammar-coverage bullet now reads 80/200 points with a
+  dedicated lesson, and names the 120 that do not have one (all 100 SFI points, by
+  design, plus the 20 new SVA grund ones).
+
+## 2026-09-07 — SFI kurs A finished: 16 lessons by 4 parallel agents
+
+- **SFI kurs A is the first complete course** — topics 10-25 were all written in one
+  pass, taking the level from 9 to 25 of its 25 planned topics (206 → 222 lessons
+  overall). Written by 4 parallel background agents, 4 lessons each, on the pattern from
+  the 2026-09-05 entry: a self-contained brief per agent (the Zod rules from
+  `schema.ts`, `sfi-a/colors` and `sfi-a/clock` as the model lessons, and the standing
+  rule "if you are not sure of a word form, do not write it"), no access to this
+  session's history, and fixed slugs/orders/prerequisites handed out up front so no two
+  agents could touch the same folder. The index files (`content/curricula/sfi-a.json`,
+  `CURRICULUM*.md`, `TODO*.md`, this file) were kept out of the agents' hands and updated
+  centrally afterwards — that is what made 16 parallel writers conflict-free.
+- Classroom instructions (the imperative as a ready-made pattern), simple yes/no
+  questions (inversion, and `Jo` as the answer to a negative question), reading signs
+  (`ÖPPET`, `INGÅNG`, `DRA`/`TRYCK`, `RÖKNING FÖRBJUDEN` vs `TILLTRÄDE FÖRBJUDET`),
+  emergency phrases (112 for ambulans/brandkår/polis, plus 1177 for advice that is *not*
+  an emergency).
+- Digits on the phone (telefonnummer, riktnummer, and personnummer as `YYMMDD-XXXX` read
+  one digit at a time), months and seasons (lower case — the headline rule), the Swedish
+  calendar (`2026-09-07` big-endian on every form, `den 7 september` in running text,
+  `den sjunde september` aloud, and `vecka 37` per ISO 8601), shapes and sizes (reusing
+  the adjective table from `colors`, plus the irregular `liten / litet / lilla / små`).
+- Shopping phrases (`Vad kostar det?` → `Det kostar … kronor`, card as the norm and the
+  real `Vi tar inte kontanter` sign), directions (`rakt fram`, `till höger/vänster`),
+  verbs of movement (with the `gå` on foot vs `åka` by vehicle trap, and the fact that
+  the present tense does not change with the person), school and stationery items (the
+  definite form as an ending glued on the back: `en bok → boken`).
+- Countries and nationalities (`Jag kommer från Sverige. Jag är svensk. Jag talar
+  svenska.` — and that country names are capitalised while nationalities and languages
+  are not), how you feel (`Jag mår …`, and `Jag har ont i` + the *definite* body part,
+  reusing the exact forms from `sfi-a/body`), like/dislike (`gillar` / `tycker om`,
+  `inte` after the verb, and `bra` vs `gott`), and a simple daily routine — the first
+  connected account, built on `först … sedan …` and on the verb staying second after a
+  fronted time expression.
+- Each lesson is the standard five files, so **every new kurs A lesson is bilingual from
+  the start** — `theory.md` (RU) *and* `theory_en.md` (EN), 16-23 vocabulary items, and 9
+  hand-written questions on top of the four generators. The nine older kurs A lessons
+  still have Russian-only theory, which is now the level's only inconsistency.
+- Two accuracy catches worth recording: an agent's first draft of the imperative rule
+  claimed the final `-a` always drops (wrong — `lyssna → Lyssna!`) and was rewritten to
+  the accurate, terminology-free version (`-ar` present → command equals the infinitive;
+  `-er` present → the `-a` drops); and `kvitto` was entered as **ett** kvitto against the
+  brief, which had it wrong. Agents left `forms` empty wherever they were unsure, as
+  instructed — `papper` (both `pappret` and `papperet` exist), `suddgummi`, `rea` and
+  every proper noun and phrase carry none.
+- Checks: content validation (222 lessons, 0 errors, 0 warnings), typecheck, 39 tests,
+  clean build with 0 warnings (`content-sfi-a` grows to 275 kB, well inside the 800 kB
+  `chunkSizeWarningLimit`), PWA precache 38 entries / 3744 KiB. Spot-checked by hand
+  against the agents' reports: every verb paradigm and verb group in `movement-verbs`,
+  the nationality/language pairs (including `Syrien`/`Irak` → `arabiska` and `Iran` →
+  `persiska`), that 2026-09-07 really is Monday of ISO week 37, the `Ja`/`Jo` split, and
+  the imperative table.

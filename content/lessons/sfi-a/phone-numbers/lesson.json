@@ -1,0 +1,38 @@
+{
+  "id": "sfi-a/phone-numbers",
+  "slug": "phone-numbers",
+  "title": {
+    "sv": "Siffror i telefon",
+    "ru": "Цифры по телефону",
+    "en": "Numbers on the phone"
+  },
+  "summary": {
+    "ru": "Как шведы диктуют номер телефона и personnummer — по цифрам и парами.",
+    "en": "How Swedes say a phone number and a personnummer out loud — digit by digit and in pairs."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "numbers",
+    "phone",
+    "personnummer",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 140,
+  "prerequisites": [
+    "sfi-a/numbers-0-20",
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

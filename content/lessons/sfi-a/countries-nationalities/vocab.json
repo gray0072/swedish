@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "land",
+      "sv": "land",
+      "translations": { "ru": "страна", "en": "country" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett land", "defSg": "landet", "indefPl": "länder", "defPl": "länderna" },
+      "example": { "sv": "Vilket land kommer du från?", "ru": "Из какой страны ты?", "en": "Which country do you come from?" }
+    },
+    {
+      "id": "sprak",
+      "sv": "språk",
+      "translations": { "ru": "язык", "en": "language" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett språk", "defSg": "språket", "indefPl": "språk", "defPl": "språken" },
+      "example": { "sv": "Jag talar två språk.", "ru": "Я говорю на двух языках.", "en": "I speak two languages." }
+    },
+    {
+      "id": "tala",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat", "imperative": "tala" },
+      "example": { "sv": "Jag talar lite svenska.", "ru": "Я немного говорю по-шведски.", "en": "I speak a little Swedish." }
+    },
+    {
+      "id": "var-kommer-du-ifran",
+      "sv": "Var kommer du ifrån?",
+      "translations": { "ru": "Откуда ты?", "en": "Where do you come from?" },
+      "pos": "phrase",
+      "example": { "sv": "Hej! Var kommer du ifrån?", "ru": "Привет! Откуда ты?", "en": "Hi! Where do you come from?" }
+    },
+    {
+      "id": "sverige",
+      "sv": "Sverige",
+      "translations": { "ru": "Швеция", "en": "Sweden" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: svensk · språk: svenska", "en": "nationality: svensk · language: svenska" },
+      "example": { "sv": "Jag kommer från Sverige och talar svenska.", "ru": "Я из Швеции и говорю по-шведски.", "en": "I come from Sweden and I speak Swedish." }
+    },
+    {
+      "id": "ryssland",
+      "sv": "Ryssland",
+      "translations": { "ru": "Россия", "en": "Russia" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: rysk · språk: ryska", "en": "nationality: rysk · language: ryska" },
+      "example": { "sv": "Hon kommer från Ryssland och talar ryska.", "ru": "Она из России и говорит по-русски.", "en": "She comes from Russia and speaks Russian." }
+    },
+    {
+      "id": "ukraina",
+      "sv": "Ukraina",
+      "translations": { "ru": "Украина", "en": "Ukraine" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: ukrainsk · språk: ukrainska", "en": "nationality: ukrainsk · language: ukrainska" },
+      "example": { "sv": "Han kommer från Ukraina.", "ru": "Он из Украины.", "en": "He comes from Ukraine." }
+    },
+    {
+      "id": "polen",
+      "sv": "Polen",
+      "translations": { "ru": "Польша", "en": "Poland" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: polsk · språk: polska", "en": "nationality: polsk · language: polska" },
+      "example": { "sv": "Min lärare kommer från Polen.", "ru": "Мой учитель из Польши.", "en": "My teacher comes from Poland." }
+    },
+    {
+      "id": "finland",
+      "sv": "Finland",
+      "translations": { "ru": "Финляндия", "en": "Finland" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: finsk · språk: finska", "en": "nationality: finsk · language: finska" },
+      "example": { "sv": "Finland ligger öster om Sverige.", "ru": "Финляндия находится к востоку от Швеции.", "en": "Finland lies east of Sweden." }
+    },
+    {
+      "id": "norge",
+      "sv": "Norge",
+      "translations": { "ru": "Норвегия", "en": "Norway" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: norsk · språk: norska", "en": "nationality: norsk · language: norska" },
+      "example": { "sv": "Vi åker till Norge på lördag.", "ru": "Мы едем в Норвегию в субботу.", "en": "We are going to Norway on Saturday." }
+    },
+    {
+      "id": "danmark",
+      "sv": "Danmark",
+      "translations": { "ru": "Дания", "en": "Denmark" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: dansk · språk: danska", "en": "nationality: dansk · language: danska" },
+      "example": { "sv": "Danmark ligger söder om Sverige.", "ru": "Дания находится к югу от Швеции.", "en": "Denmark lies south of Sweden." }
+    },
+    {
+      "id": "tyskland",
+      "sv": "Tyskland",
+      "translations": { "ru": "Германия", "en": "Germany" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: tysk · språk: tyska", "en": "nationality: tysk · language: tyska" },
+      "example": { "sv": "Jag talar också tyska.", "ru": "Я также говорю по-немецки.", "en": "I also speak German." }
+    },
+    {
+      "id": "england",
+      "sv": "England",
+      "translations": { "ru": "Англия", "en": "England" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: engelsk · språk: engelska", "en": "nationality: engelsk · language: engelska" },
+      "example": { "sv": "I England talar man engelska.", "ru": "В Англии говорят по-английски.", "en": "In England people speak English." }
+    },
+    {
+      "id": "syrien",
+      "sv": "Syrien",
+      "translations": { "ru": "Сирия", "en": "Syria" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: syrisk · språk: arabiska", "en": "nationality: syrisk · language: arabiska" },
+      "example": { "sv": "Han kommer från Syrien och talar arabiska.", "ru": "Он из Сирии и говорит по-арабски.", "en": "He comes from Syria and speaks Arabic." }
+    },
+    {
+      "id": "irak",
+      "sv": "Irak",
+      "translations": { "ru": "Ирак", "en": "Iraq" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: irakisk · språk: arabiska", "en": "nationality: irakisk · language: arabiska" },
+      "example": { "sv": "Min vän kommer från Irak.", "ru": "Мой друг из Ирака.", "en": "My friend comes from Iraq." }
+    },
+    {
+      "id": "somalia",
+      "sv": "Somalia",
+      "translations": { "ru": "Сомали", "en": "Somalia" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: somalisk · språk: somaliska", "en": "nationality: somalisk · language: somaliska" },
+      "example": { "sv": "Hon kommer från Somalia och talar somaliska.", "ru": "Она из Сомали и говорит на сомалийском.", "en": "She comes from Somalia and speaks Somali." }
+    },
+    {
+      "id": "iran",
+      "sv": "Iran",
+      "translations": { "ru": "Иран", "en": "Iran" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: iransk · språk: persiska", "en": "nationality: iransk · language: persiska" },
+      "example": { "sv": "I Iran talar man persiska.", "ru": "В Иране говорят на персидском.", "en": "In Iran people speak Persian." }
+    },
+    {
+      "id": "turkiet",
+      "sv": "Turkiet",
+      "translations": { "ru": "Турция", "en": "Turkey" },
+      "pos": "noun",
+      "note": { "ru": "nationalitet: turkisk · språk: turkiska", "en": "nationality: turkisk · language: turkiska" },
+      "example": { "sv": "Han kommer från Turkiet och talar turkiska.", "ru": "Он из Турции и говорит по-турецки.", "en": "He comes from Turkey and speaks Turkish." }
+    }
+  ]
+}

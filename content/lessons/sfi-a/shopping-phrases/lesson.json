@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/shopping-phrases",
+  "slug": "shopping-phrases",
+  "title": {
+    "sv": "Handla i butik",
+    "ru": "Простые фразы в магазине",
+    "en": "Simple shopping phrases"
+  },
+  "summary": {
+    "ru": "Сколько это стоит и можно ли заплатить картой.",
+    "en": "How much it costs, and whether you can pay by card."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "shopping",
+    "phrases",
+    "money"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 180,
+  "prerequisites": [
+    "sfi-a/numbers-0-20"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

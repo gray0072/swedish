@@ -1,0 +1,90 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-movement-verbs-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Я иду в школу.»", "en": "Build the sentence: \"I walk to school.\"" },
+      "tokens": ["skolan.", "Jag", "till", "går"],
+      "answer": [1, 3, 2, 0]
+    },
+    {
+      "id": "q-movement-verbs-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь глаголы с переводом", "en": "Match the verbs with their translation" },
+      "pairs": [
+        ["gå", "идти пешком"],
+        ["springa", "бежать"],
+        ["sitta", "сидеть"],
+        ["stå", "стоять"],
+        ["ligga", "лежать"]
+      ]
+    },
+    {
+      "id": "q-movement-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag åker buss» значит, что я иду пешком.", "en": "\"Jag åker buss\" means I go on foot." },
+      "answer": false,
+      "explanation": {
+        "ru": "gå — пешком, åka — на транспорте: Jag åker buss.",
+        "en": "gå is on foot, åka is by vehicle: Jag åker buss."
+      }
+    },
+    {
+      "id": "q-movement-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Форма глагола не меняется от лица: jag går, du går, vi går.", "en": "The verb form does not change with the person: jag går, du går, vi går." },
+      "answer": true
+    },
+    {
+      "id": "q-movement-verbs-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ___ till skolan varje dag. (gå)" },
+      "answer": ["går"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-movement-verbs-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ buss till jobbet. (åka)" },
+      "answer": ["åker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-movement-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Я иду в школу пешком. Как это сказать?", "en": "I go to school on foot. How do you say it?" },
+      "choices": ["Jag går till skolan.", "Jag åker till skolan.", "Jag cyklar till skolan.", "Jag springer till skolan."],
+      "answer": 0
+    },
+    {
+      "id": "q-movement-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая форма глагола «stå» — настоящее время?", "en": "Which form of \"stå\" is the present tense?" },
+      "choices": ["står", "stod", "stått", "stå"],
+      "answer": 0
+    },
+    {
+      "id": "q-movement-verbs-listen-1",
+      "type": "listen",
+      "difficulty": 3,
+      "audioText": "Vi åker buss till skolan.",
+      "prompt": { "ru": "Что ты слышишь?", "en": "What do you hear?" },
+      "choices": ["Vi går till skolan.", "Vi åker buss till skolan.", "Vi cyklar till skolan.", "Vi springer till skolan."],
+      "answer": 1
+    }
+  ]
+}

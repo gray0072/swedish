@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-how-you-feel-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня болит голова.»", "en": "Build the sentence: \"I have a headache.\"" },
+      "tokens": ["ont", "Jag", "huvudet", "har", "i"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-how-you-feel-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мне нехорошо.»", "en": "Build the sentence: \"I do not feel well.\"" },
+      "tokens": ["bra", "mår", "Jag", "inte"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-how-you-feel-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь часть тела с фразой «болит»", "en": "Match the body part with its \"it hurts\" phrase" },
+      "pairs": [
+        ["huvud", "Jag har ont i huvudet."],
+        ["mage", "Jag har ont i magen."],
+        ["hals", "Jag har ont i halsen."],
+        ["rygg", "Jag har ont i ryggen."]
+      ]
+    },
+    {
+      "id": "q-how-you-feel-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Правильно сказать «Jag har ont i huvud».", "en": "\"Jag har ont i huvud\" is correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "После «ont i» нужна определённая форма: i huvudet, i magen, i halsen.",
+        "en": "After \"ont i\" the body part takes the definite form: i huvudet, i magen, i halsen."
+      }
+    },
+    {
+      "id": "q-how-you-feel-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag är frisk» значит «я здоров».", "en": "\"Jag är frisk\" means \"I am healthy\"." },
+      "answer": true
+    },
+    {
+      "id": "q-how-you-feel-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag har ont i ___." },
+      "answer": ["magen"],
+      "acceptAlso": [],
+      "hint": { "ru": "живот", "en": "stomach" }
+    },
+    {
+      "id": "q-how-you-feel-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Hur ___ du? — Jag mår bra." },
+      "answer": ["mår"],
+      "acceptAlso": [],
+      "hint": { "ru": "чувствуешь себя", "en": "feel" }
+    },
+    {
+      "id": "q-how-you-feel-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «мне холодно»?", "en": "How do you say \"I am cold\"?" },
+      "choices": ["Jag fryser.", "Jag är kall.", "Jag har kall.", "Jag mår kall."],
+      "answer": 0,
+      "explanation": {
+        "ru": "«Jag är kall» — о холодном человеке, а не о самочувствии. Говорите «Jag fryser» или «Jag är frusen».",
+        "en": "\"Jag är kall\" describes a cold person, not how you feel. Say \"Jag fryser\" or \"Jag är frusen\"."
+      }
+    },
+    {
+      "id": "q-how-you-feel-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag har feber.",
+      "prompt": { "ru": "Что говорит человек?", "en": "What does the person say?" },
+      "choices": [
+        { "ru": "У меня температура.", "en": "I have a fever." },
+        { "ru": "Я голоден.", "en": "I am hungry." },
+        { "ru": "Я устал.", "en": "I am tired." },
+        { "ru": "Я здоров.", "en": "I am healthy." }
+      ],
+      "answer": 0
+    }
+  ]
+}

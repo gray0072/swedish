@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": "januari",
+      "sv": "januari",
+      "translations": { "ru": "январь", "en": "January" },
+      "pos": "noun",
+      "note": { "ru": "Зима (vinter). Пишется со строчной буквы.", "en": "Winter (vinter). Written in lower case." },
+      "example": { "sv": "Jag börjar SFI i januari.", "ru": "Я начинаю SFI в январе.", "en": "I start SFI in January." }
+    },
+    {
+      "id": "februari",
+      "sv": "februari",
+      "translations": { "ru": "февраль", "en": "February" },
+      "pos": "noun",
+      "note": { "ru": "Зима (vinter).", "en": "Winter (vinter)." }
+    },
+    {
+      "id": "mars",
+      "sv": "mars",
+      "translations": { "ru": "март", "en": "March" },
+      "pos": "noun",
+      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." }
+    },
+    {
+      "id": "april",
+      "sv": "april",
+      "translations": { "ru": "апрель", "en": "April" },
+      "pos": "noun",
+      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." }
+    },
+    {
+      "id": "maj",
+      "sv": "maj",
+      "translations": { "ru": "май", "en": "May" },
+      "pos": "noun",
+      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." },
+      "example": { "sv": "I maj är det ljust länge.", "ru": "В мае долго светло.", "en": "In May it stays light for a long time." }
+    },
+    {
+      "id": "juni",
+      "sv": "juni",
+      "translations": { "ru": "июнь", "en": "June" },
+      "pos": "noun",
+      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." }
+    },
+    {
+      "id": "juli",
+      "sv": "juli",
+      "translations": { "ru": "июль", "en": "July" },
+      "pos": "noun",
+      "note": { "ru": "Лето (sommar). Месяц отпусков в Швеции.", "en": "Summer (sommar). The main holiday month in Sweden." }
+    },
+    {
+      "id": "augusti",
+      "sv": "augusti",
+      "translations": { "ru": "август", "en": "August" },
+      "pos": "noun",
+      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." }
+    },
+    {
+      "id": "september",
+      "sv": "september",
+      "translations": { "ru": "сентябрь", "en": "September" },
+      "pos": "noun",
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+    },
+    {
+      "id": "oktober",
+      "sv": "oktober",
+      "translations": { "ru": "октябрь", "en": "October" },
+      "pos": "noun",
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+    },
+    {
+      "id": "november",
+      "sv": "november",
+      "translations": { "ru": "ноябрь", "en": "November" },
+      "pos": "noun",
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+    },
+    {
+      "id": "december",
+      "sv": "december",
+      "translations": { "ru": "декабрь", "en": "December" },
+      "pos": "noun",
+      "note": { "ru": "Зима (vinter).", "en": "Winter (vinter)." },
+      "example": { "sv": "I december är det mörkt.", "ru": "В декабре темно.", "en": "In December it is dark." }
+    },
+    {
+      "id": "var-season",
+      "sv": "vår",
+      "translations": { "ru": "весна", "en": "spring" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vår", "defSg": "våren", "indefPl": "vårar", "defPl": "vårarna" },
+      "note": { "ru": "Март — май.", "en": "March to May." },
+      "example": { "sv": "På våren blir det ljusare.", "ru": "Весной становится светлее.", "en": "In spring it gets lighter." }
+    },
+    {
+      "id": "sommar",
+      "sv": "sommar",
+      "translations": { "ru": "лето", "en": "summer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sommar", "defSg": "sommaren", "indefPl": "somrar", "defPl": "somrarna" },
+      "note": { "ru": "Июнь — август.", "en": "June to August." },
+      "example": { "sv": "På sommaren badar vi i sjön.", "ru": "Летом мы купаемся в озере.", "en": "In summer we swim in the lake." }
+    },
+    {
+      "id": "host",
+      "sv": "höst",
+      "translations": { "ru": "осень", "en": "autumn, fall" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en höst", "defSg": "hösten", "indefPl": "höstar", "defPl": "höstarna" },
+      "note": { "ru": "Сентябрь — ноябрь.", "en": "September to November." },
+      "example": { "sv": "På hösten regnar det mycket.", "ru": "Осенью много дождей.", "en": "In autumn it rains a lot." }
+    },
+    {
+      "id": "vinter",
+      "sv": "vinter",
+      "translations": { "ru": "зима", "en": "winter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vinter", "defSg": "vintern", "indefPl": "vintrar", "defPl": "vintrarna" },
+      "note": { "ru": "Декабрь — февраль.", "en": "December to February." },
+      "example": { "sv": "På vintern snöar det.", "ru": "Зимой идёт снег.", "en": "In winter it snows." }
+    }
+  ]
+}

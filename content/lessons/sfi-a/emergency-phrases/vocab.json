@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "hjalp",
+      "sv": "Hjälp!",
+      "translations": { "ru": "Помогите!", "en": "Help!" },
+      "pos": "interjection",
+      "example": { "sv": "Hjälp! Ring 112!", "ru": "Помогите! Звоните 112!", "en": "Help! Call 112!" }
+    },
+    {
+      "id": "ring-112",
+      "sv": "Ring 112!",
+      "translations": { "ru": "Звоните 112!", "en": "Call 112!" },
+      "pos": "phrase",
+      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." }
+    },
+    {
+      "id": "jag-behover-hjalp",
+      "sv": "Jag behöver hjälp.",
+      "translations": { "ru": "Мне нужна помощь.", "en": "I need help." },
+      "pos": "phrase"
+    },
+    {
+      "id": "kan-du-hjalpa-mig",
+      "sv": "Kan du hjälpa mig?",
+      "translations": { "ru": "Можешь мне помочь?", "en": "Can you help me?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-ar-en-olycka",
+      "sv": "Det är en olycka.",
+      "translations": { "ru": "Здесь авария (несчастный случай).", "en": "There has been an accident." },
+      "pos": "phrase",
+      "note": { "ru": "en olycka — авария, несчастный случай.", "en": "en olycka — an accident." }
+    },
+    {
+      "id": "det-brinner",
+      "sv": "Det brinner!",
+      "translations": { "ru": "Пожар! (Горит!)", "en": "There's a fire!" },
+      "pos": "phrase",
+      "note": { "ru": "От глагола brinna — гореть.", "en": "From the verb brinna — to burn." }
+    },
+    {
+      "id": "jag-ar-sjuk",
+      "sv": "Jag är sjuk.",
+      "translations": { "ru": "Я болен / больна.", "en": "I am ill." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-har-ont-har",
+      "sv": "Jag har ont här.",
+      "translations": { "ru": "У меня здесь болит.", "en": "It hurts here." },
+      "pos": "phrase",
+      "note": { "ru": "ha ont — испытывать боль. Покажите рукой где.", "en": "ha ont — to be in pain. Point to the place." }
+    },
+    {
+      "id": "ring-en-ambulans",
+      "sv": "Ring en ambulans.",
+      "translations": { "ru": "Вызовите скорую.", "en": "Call an ambulance." },
+      "pos": "phrase"
+    },
+    {
+      "id": "ring-polisen",
+      "sv": "Ring polisen.",
+      "translations": { "ru": "Вызовите полицию.", "en": "Call the police." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-forstar-inte",
+      "sv": "Jag förstår inte.",
+      "translations": { "ru": "Я не понимаю.", "en": "I don't understand." },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-talar-inte-svenska",
+      "sv": "Jag talar inte svenska.",
+      "translations": { "ru": "Я не говорю по-шведски.", "en": "I don't speak Swedish." },
+      "pos": "phrase"
+    },
+    {
+      "id": "talar-du-engelska",
+      "sv": "Talar du engelska?",
+      "translations": { "ru": "Ты говоришь по-английски?", "en": "Do you speak English?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "var-ar-narmaste-apotek",
+      "sv": "Var är närmaste apotek?",
+      "translations": { "ru": "Где ближайшая аптека?", "en": "Where is the nearest pharmacy?" },
+      "pos": "phrase",
+      "note": { "ru": "närmaste — ближайший.", "en": "närmaste — the nearest." }
+    },
+    {
+      "id": "jag-har-tappat-min-telefon",
+      "sv": "Jag har tappat min telefon.",
+      "translations": { "ru": "Я потерял(а) телефон.", "en": "I have lost my phone." },
+      "pos": "phrase"
+    },
+    {
+      "id": "ambulans",
+      "sv": "ambulans",
+      "translations": { "ru": "скорая помощь", "en": "ambulance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ambulans", "defSg": "ambulansen", "indefPl": "ambulanser", "defPl": "ambulanserna" }
+    },
+    {
+      "id": "brandkar",
+      "sv": "brandkår",
+      "translations": { "ru": "пожарная служба", "en": "fire brigade" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brandkår", "defSg": "brandkåren", "indefPl": "brandkårer", "defPl": "brandkårerna" }
+    },
+    {
+      "id": "apotek",
+      "sv": "apotek",
+      "translations": { "ru": "аптека", "en": "pharmacy" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" }
+    }
+  ]
+}

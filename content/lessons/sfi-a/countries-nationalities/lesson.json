@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/countries-nationalities",
+  "slug": "countries-nationalities",
+  "title": {
+    "sv": "Länder och nationaliteter",
+    "ru": "Страны и национальности",
+    "en": "Countries and nationalities"
+  },
+  "summary": {
+    "ru": "Откуда ты? Страна, национальность и язык — три предложения о себе.",
+    "en": "Where are you from? Country, nationality and language — three sentences about yourself."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "countries",
+    "nationalities",
+    "languages"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 220,
+  "prerequisites": [
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

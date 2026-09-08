@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-shopping-phrases-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери вопрос: «Сколько это стоит?»", "en": "Build the question: \"How much does it cost?\"" },
+      "tokens": ["kostar", "Vad", "det?"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-shopping-phrases-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери ответ: «Это стоит двадцать крон.»", "en": "Build the answer: \"It costs twenty kronor.\"" },
+      "tokens": ["kronor.", "Det", "tjugo", "kostar"],
+      "answer": [1, 3, 2, 0]
+    },
+    {
+      "id": "q-shopping-phrases-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["ett kvitto", "чек"],
+        ["en påse", "пакет"],
+        ["kontant", "наличными"],
+        ["rea", "распродажа"]
+      ]
+    },
+    {
+      "id": "q-shopping-phrases-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В большинстве шведских магазинов можно заплатить картой.", "en": "In most Swedish shops you can pay by card." },
+      "answer": true,
+      "explanation": {
+        "ru": "Швеция почти безналичная: часто висит табличка «Vi tar inte kontanter».",
+        "en": "Sweden is almost cashless: many shops post a sign saying \"Vi tar inte kontanter\"."
+      }
+    },
+    {
+      "id": "q-shopping-phrases-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Правильно говорить «en kvitto».", "en": "\"En kvitto\" is correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это ett-слово: ett kvitto, kvittot.",
+        "en": "It is an ett-word: ett kvitto, kvittot."
+      }
+    },
+    {
+      "id": "q-shopping-phrases-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Kan jag betala med ___? (картой / by card)" },
+      "answer": ["kort"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-shopping-phrases-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Tack, det var ___. (это всё / that's all)" },
+      "answer": ["allt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-shopping-phrases-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как попросить чек?", "en": "How do you ask for a receipt?" },
+      "choices": ["Kan jag få ett kvitto?", "Kan jag betala med kort?", "Var är kassan?", "Jag vill bara titta."],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-phrases-listen-1",
+      "type": "listen",
+      "difficulty": 3,
+      "audioText": "Det kostar trettio kronor.",
+      "prompt": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
+      "choices": ["tre kronor", "tretton kronor", "trettio kronor", "tjugo kronor"],
+      "answer": 2
+    }
+  ]
+}

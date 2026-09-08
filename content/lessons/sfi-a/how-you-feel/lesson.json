@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/how-you-feel",
+  "slug": "how-you-feel",
+  "title": {
+    "sv": "Hur mår du?",
+    "ru": "Как ты себя чувствуешь",
+    "en": "How you feel"
+  },
+  "summary": {
+    "ru": "Jag mår bra, jag mår dåligt, jag har ont i huvudet — как сказать о самочувствии.",
+    "en": "Jag mår bra, jag mår dåligt, jag har ont i huvudet — saying how you feel."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "health",
+    "body",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 230,
+  "prerequisites": [
+    "sfi-a/body"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

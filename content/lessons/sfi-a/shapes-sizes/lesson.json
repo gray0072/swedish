@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/shapes-sizes",
+  "slug": "shapes-sizes",
+  "title": {
+    "sv": "Former och storlekar",
+    "ru": "Формы и размеры",
+    "en": "Shapes and sizes"
+  },
+  "summary": {
+    "ru": "Круг, квадрат, большой и маленький — и капризное слово liten.",
+    "en": "Circle, square, big and small — and the awkward word liten."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "shapes",
+    "sizes",
+    "adjectives",
+    "opposites"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 170,
+  "prerequisites": [
+    "sfi-a/colors"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

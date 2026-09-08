@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": "bok",
+      "sv": "en bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Boken ligger på bordet.", "ru": "Книга лежит на столе.", "en": "The book is lying on the table." }
+    },
+    {
+      "id": "penna",
+      "sv": "en penna",
+      "translations": { "ru": "ручка", "en": "pen" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en penna", "defSg": "pennan", "indefPl": "pennor", "defPl": "pennorna" },
+      "example": { "sv": "Kan jag låna en penna?", "ru": "Можно одолжить ручку?", "en": "Can I borrow a pen?" }
+    },
+    {
+      "id": "blyertspenna",
+      "sv": "en blyertspenna",
+      "translations": { "ru": "карандаш", "en": "pencil" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blyertspenna", "defSg": "blyertspennan", "indefPl": "blyertspennor", "defPl": "blyertspennorna" },
+      "note": { "ru": "В речи часто просто «en penna».", "en": "In everyday speech often just \"en penna\"." }
+    },
+    {
+      "id": "papper",
+      "sv": "ett papper",
+      "translations": { "ru": "бумага, лист бумаги", "en": "paper, sheet of paper" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag skriver på ett papper.", "ru": "Я пишу на листе бумаги.", "en": "I am writing on a sheet of paper." }
+    },
+    {
+      "id": "suddgummi",
+      "sv": "ett suddgummi",
+      "translations": { "ru": "ластик", "en": "eraser" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Kan jag låna ett suddgummi?", "ru": "Можно одолжить ластик?", "en": "Can I borrow an eraser?" }
+    },
+    {
+      "id": "parm",
+      "sv": "en pärm",
+      "translations": { "ru": "папка", "en": "binder, folder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en pärm", "defSg": "pärmen", "indefPl": "pärmar", "defPl": "pärmarna" }
+    },
+    {
+      "id": "vaska",
+      "sv": "en väska",
+      "translations": { "ru": "сумка", "en": "bag" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väska", "defSg": "väskan", "indefPl": "väskor", "defPl": "väskorna" },
+      "example": { "sv": "Datorn är i väskan.", "ru": "Компьютер в сумке.", "en": "The computer is in the bag." }
+    },
+    {
+      "id": "block",
+      "sv": "ett block",
+      "translations": { "ru": "блокнот", "en": "notepad" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett block", "defSg": "blocket", "indefPl": "block", "defPl": "blocken" }
+    },
+    {
+      "id": "tavla",
+      "sv": "en tavla",
+      "translations": { "ru": "доска", "en": "board" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tavla", "defSg": "tavlan", "indefPl": "tavlor", "defPl": "tavlorna" },
+      "example": { "sv": "Titta på tavlan!", "ru": "Смотри на доску!", "en": "Look at the board!" }
+    },
+    {
+      "id": "dator",
+      "sv": "en dator",
+      "translations": { "ru": "компьютер", "en": "computer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dator", "defSg": "datorn", "indefPl": "datorer", "defPl": "datorerna" }
+    },
+    {
+      "id": "stol",
+      "sv": "en stol",
+      "translations": { "ru": "стул", "en": "chair" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stol", "defSg": "stolen", "indefPl": "stolar", "defPl": "stolarna" },
+      "example": { "sv": "Jag sitter på en stol.", "ru": "Я сижу на стуле.", "en": "I am sitting on a chair." }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table, desk" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" }
+    },
+    {
+      "id": "larare",
+      "sv": "en lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Läraren står vid tavlan.", "ru": "Учитель стоит у доски.", "en": "The teacher is standing by the board." }
+    },
+    {
+      "id": "elev",
+      "sv": "en elev",
+      "translations": { "ru": "ученик", "en": "pupil, student" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" }
+    },
+    {
+      "id": "klassrum",
+      "sv": "ett klassrum",
+      "translations": { "ru": "класс, классная комната", "en": "classroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett klassrum", "defSg": "klassrummet", "indefPl": "klassrum", "defPl": "klassrummen" }
+    },
+    {
+      "id": "lektion",
+      "sv": "en lektion",
+      "translations": { "ru": "урок", "en": "lesson" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lektion", "defSg": "lektionen", "indefPl": "lektioner", "defPl": "lektionerna" },
+      "example": { "sv": "Lektionen börjar klockan nio.", "ru": "Урок начинается в девять.", "en": "The lesson starts at nine." }
+    },
+    {
+      "id": "ordbok",
+      "sv": "en ordbok",
+      "translations": { "ru": "словарь", "en": "dictionary" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ordbok", "defSg": "ordboken", "indefPl": "ordböcker", "defPl": "ordböckerna" }
+    },
+    {
+      "id": "kan-jag-lana-en-penna",
+      "sv": "Kan jag låna en penna?",
+      "translations": { "ru": "Можно одолжить ручку?", "en": "Can I borrow a pen?" },
+      "pos": "phrase"
+    }
+  ]
+}

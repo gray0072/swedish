@@ -1,0 +1,104 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-classroom-instructions-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Откройте книгу!»", "en": "Build the phrase: \"Open the book!\"" },
+      "tokens": ["boken", "Öppna"],
+      "answer": [1, 0]
+    },
+    {
+      "id": "q-classroom-instructions-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Можешь говорить медленнее?»", "en": "Build the question: \"Can you speak more slowly?\"" },
+      "tokens": ["långsammare", "Kan", "prata", "du"],
+      "answer": [1, 3, 2, 0]
+    },
+    {
+      "id": "q-classroom-instructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь инфинитив и команду учителя", "en": "Match the infinitive with the teacher's command" },
+      "pairs": [
+        ["lyssna", "Lyssna!"],
+        ["läsa", "Läs!"],
+        ["skriva", "Skriv!"],
+        ["öppna", "Öppna!"]
+      ]
+    },
+    {
+      "id": "q-classroom-instructions-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Команда от глагола «skriva» — «Skriv!».", "en": "The command from the verb \"skriva\" is \"Skriv!\"." },
+      "answer": true,
+      "explanation": {
+        "ru": "У глаголов с настоящим временем на -er (jag skriver, jag läser) команда теряет конечное -a.",
+        "en": "Verbs with an -er present tense (jag skriver, jag läser) drop the final -a in the command."
+      }
+    },
+    {
+      "id": "q-classroom-instructions-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Sitt ner!» значит «встань».", "en": "\"Sitt ner!\" means \"stand up\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Sitt ner!» — сядь. «Встань» — «Res dig upp!».",
+        "en": "\"Sitt ner!\" means sit down. \"Stand up\" is \"Res dig upp!\"."
+      }
+    },
+    {
+      "id": "q-classroom-instructions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ på tavlan!" },
+      "answer": ["Titta"],
+      "acceptAlso": ["titta"],
+      "hint": { "ru": "Учитель хочет, чтобы вы посмотрели на доску.", "en": "The teacher wants you to look at the board." }
+    },
+    {
+      "id": "q-classroom-instructions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Учитель говорит «Räck upp handen!». Что нужно сделать?", "en": "The teacher says \"Räck upp handen!\". What do you do?" },
+      "choices": [
+        { "ru": "Поднять руку", "en": "Raise your hand" },
+        { "ru": "Открыть книгу", "en": "Open the book" },
+        { "ru": "Встать", "en": "Stand up" },
+        { "ru": "Перевернуть страницу", "en": "Turn the page" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-classroom-instructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Ты не расслышал учителя. Что ты скажешь?", "en": "You did not catch what the teacher said. What do you say?" },
+      "choices": ["Kan du upprepa?", "Var tysta!", "Sitt ner!", "Vänd blad!"],
+      "answer": 0
+    },
+    {
+      "id": "q-classroom-instructions-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Stäng boken!",
+      "prompt": { "ru": "Что ты услышал?", "en": "What did you hear?" },
+      "choices": [
+        { "ru": "Закройте книгу!", "en": "Close the book!" },
+        { "ru": "Откройте книгу!", "en": "Open the book!" },
+        { "ru": "Читайте текст!", "en": "Read the text!" },
+        { "ru": "Работайте в парах!", "en": "Work in pairs!" }
+      ],
+      "answer": 0
+    }
+  ]
+}
