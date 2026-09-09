@@ -121,7 +121,7 @@ swedish/
 │  │  ├─ sfi-a/                  # folder name == level id == lesson id prefix
 │  │  │  ├─ greetings/
 │  │  │  │  ├─ lesson.json       # metadata
-│  │  │  │  ├─ theory.md         # short theory (optional)
+│  │  │  │  ├─ theory.md         # short theory, English (optional)
 │  │  │  │  ├─ vocab.json        # word list (optional)
 │  │  │  │  └─ questions.json    # handwritten pool + generator config
 │  │  │  ├─ alphabet/
@@ -308,17 +308,17 @@ Plain Markdown. Keep it under ~400 words. Supported extras:
 
 ````markdown
 ```example
-Hej! — Привет!
-God morgon! — Доброе утро!
+Hej! — Hi!
+God morgon! — Good morning!
 ```
 ````
 
 Every Swedish string rendered from theory gets a small speaker button injected automatically.
 
-An optional `theory_en.md` next to it carries the English version. `LessonPage` picks
-`theory_en.md` when the study-language toggle is set to English, falling back to
-`theory.md` when only one of the two files exists — so a lesson may ship Russian-only
-theory (the historical default) or both languages.
+An optional `theory_ru.md` next to it carries the Russian translation. `LessonPage` picks
+`theory_ru.md` when the study-language toggle is set to Russian, falling back to
+`theory.md` when only one of the two files exists — so a lesson may ship English-only
+theory (the default) or both languages.
 
 ### 5.4 Vocabulary — `vocab.json`
 
@@ -999,7 +999,7 @@ export default defineConfig({
 ## 15. Content authoring workflow
 
 1. `npm run new:lesson` → asks for level, slug, title, kind → creates the folder with
-   templated `lesson.json`, `theory.md`, `vocab.json`, `questions.json`.
+   templated `lesson.json`, `theory.md`, `theory_ru.md`, `vocab.json`, `questions.json`.
 2. Fill in 15–25 vocabulary items (25 is the hard cap — see the 5-minute rule). Generators
    expand these into 100+ questions.
 3. Add 10–20 handwritten questions for the things generators cannot produce (word order,

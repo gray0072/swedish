@@ -1,8 +1,8 @@
-Чтобы сказать «нет» простому предложению, добавь слово inte сразу после
-слова-действия. Больше ничего менять не нужно — порядок остальных слов
-остаётся таким же, как в утверждении.
+To say no to a simple sentence, add the word inte right after the action word.
+Nothing else changes — the order of the other words stays the same as in the
+statement.
 
-| утверждение | отрицание |
+| statement | negation |
 |---|---|
 | Jag bor i Lund. | Jag bor **inte** i Lund. |
 | Han talar engelska. | Han talar **inte** engelska. |
@@ -11,17 +11,17 @@
 | Du heter Erik. | Du heter **inte** Erik. |
 
 ```example
-Jag bor inte i Lund. — Я не живу в Лунде.
-Han talar inte engelska. — Он не говорит по-английски.
-Vi har inte bil. — У нас нет машины.
-Hon jobbar inte i Malmö. — Она не работает в Мальмё.
-Du heter inte Erik. — Тебя зовут не Эрик.
+Jag bor inte i Lund. — I don't live in Lund.
+Han talar inte engelska. — He doesn't speak English.
+Vi har inte bil. — We don't have a car.
+Hon jobbar inte i Malmö. — She doesn't work in Malmö.
+Du heter inte Erik. — Your name isn't Erik.
 ```
 
-Правило одно: найди слово-действие в предложении и поставь inte сразу после
-него — не в начало, не в конец. Это работает для любого простого утверждения,
-с любым словом-действием.
+One rule: find the action word in the sentence and put inte right after it —
+not at the start, not at the end. This works for any simple statement, with
+any action word.
 
-Обрати внимание на разницу с вопросом: чтобы задать вопрос, слово-действие
-переезжает в начало предложения. А для inte слово-действие остаётся на своём
-обычном месте — просто сразу за ним появляется одно новое слово.
+Notice the difference from a question: to ask a question, the action word
+moves to the front of the sentence. For inte, the action word stays right
+where it usually is — one new word simply appears right after it.

@@ -1,34 +1,34 @@
-Att återberätta en läst text har egna kopplingsord — men att återberätta något
-man **hört** («услышал») kräver oftast en annan inledning, eftersom källan är
-ett ljud, inte en text: radio, en **högtalare** («громкоговоритель») på stationen,
-eller ett samtal.
+Retelling a text you've read has its own connectors — but retelling something
+you **hörde** (heard) usually needs a different opening, because the source is
+a sound, not a text: the radio, a **högtalare** (loudspeaker) at the station,
+or a conversation.
 
 ```example
-Jag hörde att tåget är försenat tjugo minuter. — Я слышал(а), что поезд опаздывает на двадцать минут.
-Enligt nyheterna blir det snö imorgon. — Согласно новостям, завтра будет снег.
+Jag hörde att tåget är försenat tjugo minuter. — I heard that the train is twenty minutes late.
+Enligt nyheterna blir det snö imorgon. — According to the news, it'll snow tomorrow.
 ```
 
-En vanlig start är **"Jag hörde att..."** («Я слышал(а), что...»). Om man inte
-minns exakt vem som sa det, men vill visa att informationen kommer utifrån,
-säger man **"Det sades att..."** («Говорили, что...»). För officiell information,
-till exempel från **nyheterna** («новостей») eller en myndighet, passar
-**"Enligt nyheterna..."** («Согласно новостям...»).
+A common opener is **"Jag hörde att..."** ("I heard that..."). If you don't
+remember exactly who said it but want to show the information came from
+outside, you say **"Det sades att..."** ("It was said that..."). For official
+information — from the **nyheterna** (news) or an authority, for example —
+**"Enligt nyheterna..."** ("According to the news...") fits well.
 
 ```example
-Det sades att bussen inte går på lördagar. — Говорили, что автобус по субботам не ходит.
-De meddelade att mötet är flyttat till fredag. — Они сообщили, что встречу перенесли на пятницу.
+Det sades att bussen inte går på lördagar. — It was said that the bus doesn't run on Saturdays.
+De meddelade att mötet är flyttat till fredag. — They announced that the meeting has been moved to Friday.
 ```
 
-Om någon **meddelar** («сообщает») något direkt, till exempel över en
-**högtalare** på tåget, använder man **"De meddelade att..."** («Они сообщили,
-что...»). Samma struktur funkar för en muntlig **instruktion** («инструкцию»):
-man byter bara ut verbet mot **"De sa att man ska..."** («Они сказали, что нужно...»).
+When someone **meddelar** (announces) something directly — say, over a
+**högtalare** on the train — you use **"De meddelade att..."** ("They
+announced that..."). The same structure works for a spoken **instruktion**
+(instruction): you just swap in **"De sa att man ska..."** ("They said you
+should...").
 
 ```example
-De meddelade att spår tre är stängt idag. — Они сообщили, что третий путь сегодня закрыт.
-Chefen sa att vi ska vara på plats klockan åtta. — Начальник сказал, что нам нужно быть на месте в восемь.
+De meddelade att spår tre är stängt idag. — They announced that platform three is closed today.
+Chefen sa att vi ska vara på plats klockan åtta. — The boss said we should be there at eight o'clock.
 ```
 
-Precis som när man återberättar en text, byter man tidsform och personliga
-pronomen till den nya berättarens perspektiv — bara källan är ett öra, inte ett
-öga.
+Just as when retelling a text, you shift the tense and personal pronouns to
+the new narrator's perspective — only now the source is an ear, not an eye.

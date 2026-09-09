@@ -1,37 +1,37 @@
-Шведский язык делит слова на **части речи** (*ordklasser*) — так же, как русский. Эти
-термины будут появляться в каждом следующем уроке, поэтому выучи их сразу.
+Swedish sorts words into **parts of speech** (*ordklasser*), just like English. These
+terms will show up in every lesson from here on, so learn them right away.
 
-| Ordklass | Часть речи | Пример | Перевод |
+| Ordklass | Part of speech | Example | Translation |
 |---|---|---|---|
-| substantiv | существительное | hund | собака |
-| verb | глагол | springa | бежать |
-| adjektiv | прилагательное | snabb | быстрый |
-| pronomen | местоимение | hon | она |
-| preposition | предлог | i | в |
-| adverb | наречие | inte | не |
-| konjunktion | союз | och | и |
-| räkneord | числительное | två | два |
-| interjektion | междометие | hej | привет |
+| substantiv | noun | hund | dog |
+| verb | verb | springa | to run |
+| adjektiv | adjective | snabb | fast |
+| pronomen | pronoun | hon | she |
+| preposition | preposition | i | in |
+| adverb | adverb | inte | not |
+| konjunktion | conjunction | och | and |
+| räkneord | numeral | två | two |
+| interjektion | interjection | hej | hi |
 
-Первые пять — **verb, substantiv, adjektiv, pronomen, preposition** — базовый набор,
-на который ссылается любое описание грамматики. Остальные четыре тоже важны: без
-**adverb** нельзя объяснить, куда девается слово «inte», без **konjunktion** — как
-соединять предложения друг с другом.
+The first five — **verb, substantiv, adjektiv, pronomen, preposition** — are the core
+set every grammar reference relies on. The other four matter too: without **adverb**
+you can't explain where the word "inte" goes, and without **konjunktion** you can't
+join two sentences together.
 
-Разберём одно предложение по частям речи:
+Let's break one sentence down by part of speech:
 
 ```example
-Den lilla hunden springer snabbt i parken. — Маленькая собака быстро бежит в парке.
+Den lilla hunden springer snabbt i parken. — The little dog runs fast in the park.
 ```
 
-*Den* — pronomen (указательное), *lilla* — adjektiv, *hunden* — substantiv, *springer* —
-verb, *snabbt* — adverb, *i* — preposition, *parken* — substantiv.
+*Den* is a pronomen (demonstrative), *lilla* an adjektiv, *hunden* a substantiv,
+*springer* a verb, *snabbt* an adverb, *i* a preposition, *parken* a substantiv.
 
-Важно не путать часть речи со **словоформой**: одно и то же слово меняет форму
-(hund → hunden → hundar), но часть речи у него не меняется — substantiv остаётся
-substantiv.
+Don't confuse a part of speech with a **word form**: the same word changes shape
+(hund → hunden → hundar), but its part of speech never changes — a substantiv stays
+a substantiv.
 
-Проверить часть речи слова просто: спроси, на какой вопрос оно отвечает и как ведёт
-себя в предложении. Substantiv называет предмет и имеет число и определённость, verb
-показывает действие и спрягается по времени, adjektiv описывает substantiv и
-согласуется с ним в роде и числе.
+Checking a word's part of speech is simple: ask what question it answers and how it
+behaves in the sentence. A substantiv names a thing and has number and definiteness,
+a verb shows an action and is conjugated for tense, an adjektiv describes a substantiv
+and agrees with it in gender and number.

@@ -1,7 +1,7 @@
-Хорошая новость: в шведском для «сейчас» у каждого глагола есть только **одна** форма
-— она не меняется от того, кто говорит: я, ты, он, мы или они.
+Good news: for "now", every Swedish verb has only **one** form — it doesn't change
+depending on who's speaking: I, you, he, we or they.
 
-| Кто | Форма |
+| Who | Form |
 |---|---|
 | jag | heter |
 | du | heter |
@@ -10,7 +10,7 @@
 | ni | heter |
 | de | heter |
 
-| Кто | Форма |
+| Who | Form |
 |---|---|
 | jag | bor |
 | du | bor |
@@ -19,18 +19,18 @@
 | ni | bor |
 | de | bor |
 
-Просто выучи каждое слово целиком, как готовую деталь: **heter**, **bor** — не нужно
-подбирать окончание под jag или под vi, оно уже одно на всех.
+Just learn each word as a whole, ready-made piece: **heter**, **bor** — there's no
+ending to pick for jag versus vi, it's already the same for everyone.
 
-То же самое работает для любого другого глагола:
+The same works for any other verb:
 
 ```example
-De kommer från Irak. — Они из Ирака.
-Han talar svenska. — Он говорит по-шведски.
-Jag äter frukost. — Я ем завтрак.
-Vi jobbar i Malmö. — Мы работаем в Мальмё.
-Ni läser en bok. — Вы читаете книгу.
+De kommer från Irak. — They are from Iraq.
+Han talar svenska. — He speaks Swedish.
+Jag äter frukost. — I eat breakfast.
+Vi jobbar i Malmö. — We work in Malmö.
+Ni läser en bok. — You (all) read a book.
 ```
 
-Правило одной фразой: выучил слово **heter** — умеешь сказать «зовут» про jag, du,
-han, hon, vi, ni и de сразу, одним и тем же словом.
+One-line rule: once you know the word **heter**, you can say "is called" about jag, du,
+han, hon, vi, ni and de all at once, with the very same word.

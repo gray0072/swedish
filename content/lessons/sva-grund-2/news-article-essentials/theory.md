@@ -1,22 +1,24 @@
-Короткая новостная статья обычно устроена одинаково: сначала **rubrik** (заголовок), потом **ingress** (вводный абзац с самым главным) и только потом **brödtext** (основной текст с подробностями). Если торопишься, достаточно прочитать rubrik и ingress, чтобы понять суть.
+# News: reading a short article and picking out the essentials
+
+A short news article is usually built the same way: first the **rubrik** (headline), then the **ingress** (lead paragraph with the most important facts), and only after that the **brödtext** (body text with the details). If you're in a hurry, reading the rubrik and ingress is often enough to get the point.
 
 ```example
-Rubriken och ingressen räcker ofta för att förstå vad artikeln handlar om. — Заголовка и вводного абзаца часто достаточно, чтобы понять, о чём статья.
-Brödtexten ger fler detaljer om händelsen. — Основной текст даёт больше подробностей о событии.
+Rubriken och ingressen räcker ofta för att förstå vad artikeln handlar om. — The headline and the lead paragraph are often enough to understand what the article is about.
+Brödtexten ger fler detaljer om händelsen. — The body text gives more details about the event.
 ```
 
-Когда рассказываешь о статье своими словами, начни с вопроса **Vad handlar artikeln om?** («О чём статья?») и ответь фразой **huvudbudskapet är...** («главное сообщение — это...»). Так слушателю сразу понятна суть, а детали можно добавить потом.
+When you retell an article in your own words, start with the question **Vad handlar artikeln om?** ("What is the article about?") and answer with **huvudbudskapet är...** ("the main message is..."). That way the listener immediately gets the point, and you can add details afterward.
 
 ```example
-Vad handlar artikeln om? Huvudbudskapet är att priserna på el har ökat. — О чём статья? Главное сообщение — то, что цены на электричество выросли.
-Enligt artikeln kommer priserna att sjunka igen till våren. — Согласно статье, цены снова снизятся к весне.
+Vad handlar artikeln om? Huvudbudskapet är att priserna på el har ökat. — What is the article about? The main message is that electricity prices have gone up.
+Enligt artikeln kommer priserna att sjunka igen till våren. — According to the article, prices will go down again by spring.
 ```
 
-Ссылаясь на конкретные факты, используй **enligt artikeln...** («согласно статье...») — это работает как ссылка на **källa** (источник), не выдавая информацию за своё личное мнение. А чтобы подвести итог, скажи **det viktigaste är att...** («самое важное — то, что...»).
+When referring to specific facts, use **enligt artikeln...** ("according to the article...") — this works as a reference to the **källa** (source) instead of presenting the information as your own opinion. And to sum things up, say **det viktigaste är att...** ("the most important thing is that...").
 
 ```example
-Enligt artikeln är källan en rapport från myndigheten. — Согласно статье, источник — это отчёт ведомства.
-Det viktigaste är att alla nu måste källsortera sitt avfall. — Самое важное — то, что теперь все должны сортировать свой мусор.
+Enligt artikeln är källan en rapport från myndigheten. — According to the article, the source is a report from the authority.
+Det viktigaste är att alla nu måste källsortera sitt avfall. — The most important thing is that everyone now has to sort their waste.
 ```
 
-Эти четыре фразы вместе позволяют пересказать любую короткую **nyhetsartikel** (новостную статью), не вдаваясь в лишние детали.
+Together, these four phrases let you retell any short **nyhetsartikel** (news article) without getting lost in extra detail.

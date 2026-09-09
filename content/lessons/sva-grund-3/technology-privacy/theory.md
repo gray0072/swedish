@@ -1,43 +1,44 @@
-Технологии и приватность — частая тема разговоров и текстов на уровне SVA
-grund 3. Этот урок даёт базовую лексику, чтобы обсуждать её нейтрально и по
-существу.
+Technology and privacy is a common topic in conversations and texts at the
+SVA grund 3 level. This lesson gives you core vocabulary to discuss it
+neutrally and to the point.
 
-## Personuppgifter och integritet
+## Personuppgifter and integritet
 
 ```example
-Företaget samlar in personuppgifter som namn och adress. — Компания собирает персональные данные, такие как имя и адрес.
+Företaget samlar in personuppgifter som namn och adress. — The company collects personal data such as name and address.
 ```
 
 ```example
-Många är oroliga för sin integritet på nätet. — Многие обеспокоены своей приватностью в интернете.
+Många är oroliga för sin integritet på nätet. — Many people are worried about their privacy online.
 ```
 
-## Övervakning och artificiell intelligens
+## Övervakning and artificiell intelligens
 
 ```example
-Kameror används för övervakning på många offentliga platser. — Камеры используются для наблюдения во многих общественных местах.
-```
-
-```example
-Artificiell intelligens kan analysera stora mängder data snabbt. — Искусственный интеллект может быстро анализировать большие объёмы данных.
-```
-
-## Dataskydd och samtycke
-
-```example
-Dataskydd handlar om att skydda personuppgifter från missbruk. — Защита данных — это защита персональных данных от злоупотребления.
+Kameror används för övervakning på många offentliga platser. — Cameras are used for surveillance in many public places.
 ```
 
 ```example
-Innan företaget får dela dina uppgifter behöver de ditt samtycke. — Прежде чем компания сможет поделиться твоими данными, ей нужно твоё согласие.
+Artificiell intelligens kan analysera stora mängder data snabbt. — Artificial intelligence can analyze large amounts of data quickly.
 ```
 
-## Практическая лексика
+## Dataskydd and samtycke
 
 ```example
-Använd ett starkt lösenord och dela det inte med någon. — Используй надёжный пароль и не делись им ни с кем.
+Dataskydd handlar om att skydda personuppgifter från missbruk. — Data protection is about protecting personal data from misuse.
 ```
 
-Кроме основных терминов, полезны и практические слова: `lösenord` (пароль),
-`kryptering` (шифрование) и `digitalt fotavtryck` (цифровой след) —
-информация, которую человек оставляет о себе в сети.
+```example
+Innan företaget får dela dina uppgifter behöver de ditt samtycke. — Before the company can share your data, it needs your consent.
+```
+
+## Practical vocabulary
+
+```example
+Använd ett starkt lösenord och dela det inte med någon. — Use a strong password and don't share it with anyone.
+```
+
+Besides the core terms, some practical words are useful too: `lösenord`
+(password), `kryptering` (encryption), and `digitalt fotavtryck` (digital
+footprint) — the trace of information a person leaves about themselves
+online.

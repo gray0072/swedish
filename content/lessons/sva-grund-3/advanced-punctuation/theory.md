@@ -1,50 +1,52 @@
-Delkurs 1 разобрал базовую пунктуацию. Здесь — знаки, нужные для более сложного,
-взрослого текста: двоеточие, тире, кавычки и один особый случай с запятой.
+Delkurs 1 covered basic punctuation. Here are the marks needed for more complex,
+adult writing: the colon, the dash, quotation marks, and one special case with the
+comma.
 
-## Двоеточие (kolon)
+## The colon (kolon)
 
-Вводит список, объяснение или пример — то, что раскрывает сказанное перед ним:
-
-```example
-Vi behöver tre saker: mjölk, bröd och ägg. — Нам нужны три вещи: молоко, хлеб и яйца.
-Svaret är enkelt: vi har inte råd. — Ответ прост: у нас нет средств.
-```
-
-## Тире (tankstreck)
-
-Длинное тире со шпациями с обеих сторон — не путать с коротким дефисом в сложных
-словах (`bindestreck`, без пробелов). Тире выделяет вставку-пояснение или обозначает
-диапазон:
+Introduces a list, an explanation, or an example — something that unpacks what came
+before it:
 
 ```example
-Mötet – som varade i tre timmar – gav inga resultat. — Встреча, которая длилась три часа, не дала результатов.
-Öppet 10–18. — Открыто с 10 до 18.
+Vi behöver tre saker: mjölk, bröd och ägg. — We need three things: milk, bread, and eggs.
+Svaret är enkelt: vi har inte råd. — The answer is simple: we can't afford it.
 ```
 
-## Кавычки (citattecken)
+## The dash (tankstreck)
 
-Шведские кавычки — `”…”`: **один и тот же символ** и в начале, и в конце цитаты (в
-отличие от английских „лапок“ „…“ или „ёлочек“ «…»). Запятая при прямой речи обычно
-стоит перед закрывающей кавычкой либо сразу после неё, в зависимости от структуры
-предложения:
+A long dash with spaces on both sides — not to be confused with the short hyphen in
+compound words (`bindestreck`, no spaces). The dash sets off a parenthetical aside or
+marks a range:
 
 ```example
-”Jag hör dig”, sa hon. — «Я тебя слышу», — сказала она.
-Hon sa: ”Jag kommer strax.” — Она сказала: «Я скоро приду».
+Mötet – som varade i tre timmar – gav inga resultat. — The meeting, which lasted three hours, gave no results.
+Öppet 10–18. — Open 10 to 18.
 ```
 
-## Запятая перед som — не всегда «никогда»
+## Quotation marks (citattecken)
 
-Delkurs 1 показал: перед ограничительным `som` (которое уточняет, о ком/чём именно
-речь) запятая не нужна. Но если придаточное с `som` — это **дополнительная,
-необязательная** информация, запятая ставится с обеих сторон:
+Swedish quotation marks are `”…”`: **the very same character** opens and closes a
+quotation (unlike English "curly quotes" „…" or French/Russian «guillemets»). A comma
+before direct speech usually goes right before the closing quotation mark or right
+after it, depending on the sentence structure:
 
 ```example
-Boken som jag läser är bra. — Книга, которую я читаю (именно эта книга среди прочих), хорошая. (без запятой — ограничительное)
-Min bror, som bor i Malmö, är lärare. — Мой брат, который живёт в Мальмё, — учитель. (с запятой — дополнительное пояснение)
+”Jag hör dig”, sa hon. — "I hear you," she said.
+Hon sa: ”Jag kommer strax.” — She said: "I'll come right away."
 ```
 
-Проверка простая: если убрать придаточное и смысл предложения не изменится
-принципиально (просто станет чуть менее подробным) — перед вами необязательное
-уточнение, и нужна запятая. Если без придаточного непонятно, о ком вообще речь, —
-оно ограничительное, и запятая не нужна.
+## A comma before som — not always "never"
+
+Delkurs 1 showed that a restrictive `som` clause (one that identifies exactly who or
+what is meant) takes no comma. But when a `som` clause adds **extra, optional**
+information, a comma is needed on both sides:
+
+```example
+Boken som jag läser är bra. — The book I'm reading (this particular one among others) is good. (no comma — restrictive)
+Min bror, som bor i Malmö, är lärare. — My brother, who lives in Malmö, is a teacher. (comma — extra, non-essential detail)
+```
+
+A simple test: if you remove the clause and the sentence's meaning doesn't change in
+any essential way (it just becomes slightly less detailed) — it's an optional aside,
+and you need a comma. If removing it leaves you unsure who or what is even meant —
+it's restrictive, and no comma is needed.

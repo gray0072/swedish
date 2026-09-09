@@ -1,50 +1,51 @@
-На этом уровне пропорциональные конструкции систематизируются: повторяем `ju …
-desto` из delkurs 3 и добавляем более книжный, письменный оборот `i takt med att`.
+At this level proportional constructions get systematised: we review `ju … desto`
+from delkurs 3 and add the more formal, written phrase `i takt med att`.
 
-## Повторение: ju … desto
+## Review: ju … desto
 
-Показывает, что рост одного признака идёт вместе с ростом другого. Важно помнить:
-`ju`-часть ведёт себя как придаточное (без инверсии), а `desto`-часть — как
-главное предложение с V2 (подлежащее после глагола):
-
-```example
-Ju mer du övar, desto bättre blir du. — Чем больше ты тренируешься, тем лучше становишься.
-Ju äldre man blir, desto klokare blir man (ofta). — Чем старше становишься, тем мудрее (часто) становишься.
-```
-
-## i takt med att — «по мере того как»
-
-`I takt med att` вводит придаточное и показывает, что два процесса развиваются
-параллельно, с одинаковым темпом: рост (или падение) одного сопровождается ростом
-(или падением) другого. Это более формальный, письменный вариант, типичный для
-новостных и аналитических текстов:
+Shows that one property rising goes hand in hand with another rising. Remember:
+the `ju`-half behaves like a subordinate clause (no inversion), while the
+`desto`-half behaves like a main clause with V2 (subject after the verb):
 
 ```example
-Efterfrågan ökar i takt med att priserna sjunker. — Спрос растёт по мере того, как цены падают.
-Antalet elbilar växer i takt med att laddinfrastrukturen byggs ut. — Число электромобилей растёт по мере того, как расширяется зарядная инфраструктура.
+Ju mer du övar, desto bättre blir du. — The more you practise, the better you get.
+Ju äldre man blir, desto klokare blir man (ofta). — The older you get, the wiser you (often) become.
 ```
 
-Буквально `i takt med` значит «в такт с» (`takt` — «такт, ритм»): образ синхронного
-движения двух процессов.
+## i takt med att — "as, in step with"
 
-## Разница между ju … desto и i takt med att
+`I takt med att` introduces a subordinate clause and shows that two processes
+develop in parallel, at a matching pace: one thing rising (or falling) is
+accompanied by another rising (or falling). It's a more formal, written variant,
+typical of news and analytical texts:
 
-| Конструкция | Регистр | Структура |
+```example
+Efterfrågan ökar i takt med att priserna sjunker. — Demand rises as prices fall.
+Antalet elbilar växer i takt med att laddinfrastrukturen byggs ut. — The number of electric cars grows as charging infrastructure is expanded.
+```
+
+Literally `i takt med` means "in step with" (`takt` = "beat, rhythm, pace"): the
+image is of two processes moving in sync.
+
+## The difference between ju … desto and i takt med att
+
+| Construction | Register | Structure |
 |---|---|---|
-| ju … desto | нейтральный, разговорный и письменный | два отдельных предложения: ju-часть + desto-часть (V2) |
-| i takt med att | книжный, формальный, письменный | одно предложение: главная часть + att-придаточное |
+| ju … desto | neutral, spoken and written | two separate clauses: ju-half + desto-half (V2) |
+| i takt med att | formal, written | one sentence: main clause + att-subordinate clause |
 
-`Ju … desto` подчёркивает причинно-следственную зависимость темпа («чем сильнее
-одно, тем сильнее другое»); `i takt med att` — скорее одновременность двух
-параллельных тенденций, часто без прямой причинности.
+`Ju … desto` highlights a cause-and-effect dependency of pace ("the more one
+thing, the more the other"); `i takt med att` is more about simultaneity of two
+parallel trends, often without direct causation.
 
 ```example
-Ju fler som cyklar, desto renare blir luften. — Чем больше людей ездит на велосипеде, тем чище становится воздух.
-Luftkvaliteten förbättras i takt med att fler väljer cykeln. — Качество воздуха улучшается по мере того, как всё больше людей выбирают велосипед.
+Ju fler som cyklar, desto renare blir luften. — The more people who cycle, the cleaner the air becomes.
+Luftkvaliteten förbättras i takt med att fler väljer cykeln. — Air quality improves as more people choose the bicycle.
 ```
 
-## Коротко
+## In short
 
-`Ju … desto` — «чем …, тем …», разговорно-нейтральный регистр, особая инверсия во
-второй части. `I takt med att` — «по мере того как», книжный регистр, придаточное
-с `att`, подчёркивает параллельный темп двух процессов.
+`Ju … desto` is "the more …, the more …", neutral-to-spoken register, with its own
+inversion pattern in the second half. `I takt med att` is "as, in step with",
+formal register, an att-clause, emphasising the matching pace of two parallel
+processes.

@@ -1,21 +1,21 @@
-Чтобы поступить в шведский вуз, нужно сначала иметь **grundläggande behörighet** (базовое право на поступление) — обычно это законченное среднее образование, включая **gymnasieexamen** или его аналог для взрослых. Для многих программ дополнительно требуется **särskild behörighet** — конкретные предметы на определённом уровне, например математика или биология.
+To be admitted to a Swedish university, you first need **grundläggande behörighet** (general eligibility) — usually a completed upper-secondary education, including a **gymnasieexamen** or its adult-education equivalent. Many programmes also require **särskild behörighet** — specific subjects studied at a particular level, for example mathematics or biology.
 
 ```example
-Grundläggande behörighet krävs för alla högskoleprogram. — Базовое право на поступление требуется для всех вузовских программ.
-Särskild behörighet innebär att du läst specifika kurser. — Специальные требования означают, что ты изучал(а) конкретные курсы.
+Grundläggande behörighet krävs för alla högskoleprogram. — General eligibility is required for every university programme.
+Särskild behörighet innebär att du läst specifika kurser. — Specific eligibility requirements mean you have studied particular courses.
 ```
 
-Все заявки подаются через единый портал **antagning.se** в течение **ansökningsperiod** (периода подачи заявок) — обычно с середины марта по середину апреля, если речь про осенний семестр. Отбор (**urval**) часто основан на **meritpoäng** — дополнительных баллах, которые прибавляются к среднему баллу аттестата (**meritvärde**) за определённые предметы.
+Every application goes through the single national portal **antagning.se** during the **ansökningsperiod** (application period) — usually mid-March to mid-April for the autumn term. Selection (**urval**) is often based on **meritpoäng** — extra points added to your grade average (**meritvärde**) for certain subjects.
 
 ```example
-Jag sökte till universitetet via antagning.se. — Я подал(а) заявку в университет через antagning.se.
-Meritpoäng kan höja ditt jämförelsetal vid urvalet. — Мерит-баллы могут повысить твой сравнительный балл при отборе.
+Jag sökte till universitetet via antagning.se. — I applied to university via antagning.se.
+Meritpoäng kan höja ditt jämförelsetal vid urvalet. — Merit points can raise your comparative score in the selection.
 ```
 
-После обработки заявок приходит **antagningsbesked** (уведомление о зачислении); если мест не хватило сразу — можно получить **reservplats** (резервное место) и попасть позже. Финансирование учёбы называется **studiemedel** и состоит из **studiebidrag** (гранта, который не нужно возвращать) и **studielån** (кредита) — оба выдаёт **CSN**.
+Once applications are processed, an **antagningsbesked** (admission notice) arrives; if there were not enough places at first, you may get a **reservplats** (waiting-list place) and be admitted later. Funding your studies is called **studiemedel** and consists of a **studiebidrag** (a grant you do not repay) and a **studielån** (a loan) — both paid out by **CSN**.
 
 ```example
-Jag ansökte om studiemedel hos CSN inför min första termin. — Я подал(а) заявку на финансовую поддержку в CSN перед первым семестром.
+Jag ansökte om studiemedel hos CSN inför min första termin. — I applied for student finance from CSN before my first term.
 ```
 
-Если каких-то баллов не хватает по **behörighetskrav**, можно **komplettera** — досдать недостающий курс в комвуксе, прежде чем снова подавать заявку.
+If you are short on points for some **behörighetskrav**, you can **komplettera** — make up the missing course at komvux before applying again.

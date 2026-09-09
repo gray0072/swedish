@@ -1,40 +1,40 @@
-**fast** и **trots att** значат «хотя, несмотря на то что» — уступка при факте,
-который действительно имеет место. **även om** значит «даже если» — уступка при
-предположении, которое может быть и неверным. Оба вводят bisats, и в них
-работает BIFF.
+**fast** and **trots att** mean "even though" — a concession about a fact that
+really holds. **även om** means "even if" — a concession about an assumption
+that may or may not be true. Both introduce a bisats, and BIFF applies inside
+it.
 
-## fast / trots att — реальный факт
-
-```example
-Han spelar fotboll fast han är skadad. — Он играет в футбол, хотя он травмирован.
-```
-
-**trots att** — более книжный, письменный вариант того же самого; **fast** —
-разговорный:
+## fast / trots att — a real fact
 
 ```example
-Hon jobbade trots att hon inte mådde bra. — Она работала, хотя ей было нехорошо.
+Han spelar fotboll fast han är skadad. — He plays football even though he's injured.
 ```
 
-Здесь травма и плохое самочувствие — реальные факты, а не предположения.
-
-## även om — гипотеза, возможно неверная
+**trots att** is the more formal, written version of the same thing; **fast**
+is the spoken one:
 
 ```example
-Han spelar fotboll även om han är skadad. — Он играет в футбол, даже если он травмирован.
+Hon jobbade trots att hon inte mådde bra. — She worked even though she wasn't feeling well.
 ```
 
-То же самое предложение, но с «även om», означает другое: неизвестно, травмирован
-ли он на самом деле, — но даже в этом случае он играет. Сравни минимальную пару
-выше: одно и то же слово «skadad», но с «fast» это факт, а с «även om» —
-допущение.
+Here the injury and the illness are real facts, not assumptions.
+
+## även om — a hypothesis, possibly untrue
 
 ```example
-Jag går ut även om det inte slutar regna. — Я выйду, даже если дождь не перестанет.
+Han spelar fotboll även om han är skadad. — He plays football even if he's injured.
 ```
 
-## Тест
+The same sentence with "även om" means something else: it's unknown whether
+he's actually injured — but even in that case he plays. Compare the minimal
+pair above: the same word "skadad", but with "fast" it's a fact, and with
+"även om" it's an assumption.
 
-Если говорящий сообщает о том, что действительно произошло или происходит —
-**fast/trots att**. Если речь о возможности, условии или неизвестном факте —
-**även om**.
+```example
+Jag går ut även om det inte slutar regna. — I'll go out even if it doesn't stop raining.
+```
+
+## The test
+
+If the speaker is reporting something that really happened or is happening —
+**fast/trots att**. If it's about a possibility, a condition, or an unknown
+fact — **även om**.

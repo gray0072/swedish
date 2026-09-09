@@ -1,42 +1,42 @@
-На уроке учитель почти всё время говорит короткими командами: **Lyssna!**, **Läs!**,
-**Skriv!** Это форма приказа — по-шведски она звучит совершенно нормально и вежливо.
-Учитель не грубит, это просто рабочий язык класса.
+In class the teacher speaks almost entirely in short commands: **Lyssna!**, **Läs!**,
+**Skriv!** This is the command form, and in Swedish it sounds completely normal and
+polite. The teacher is not being rude — this is simply the working language of the room.
 
-Команда делается из инфинитива глагола. Подсказка — настоящее время. Если оно на
-**-ar** (jag lyssnar, jag öppnar), команда совпадает с инфинитивом. Если оно на **-er**
-(jag läser, jag skriver), у команды отпадает конечное **-a**.
+The command is built from the infinitive of the verb. The present tense tells you how.
+If the present ends in **-ar** (jag lyssnar, jag öppnar), the command is identical to the
+infinitive. If it ends in **-er** (jag läser, jag skriver), the command drops the final **-a**.
 
-| инфинитив | команда |
+| infinitive | command |
 |---|---|
-| lyssna (слушать) | **Lyssna!** |
-| öppna (открывать) | **Öppna!** |
-| upprepa (повторять) | **Upprepa!** |
-| läsa (читать) | **Läs!** |
-| skriva (писать) | **Skriv!** |
-| stänga (закрывать) | **Stäng!** |
+| lyssna (to listen) | **Lyssna!** |
+| öppna (to open) | **Öppna!** |
+| upprepa (to repeat) | **Upprepa!** |
+| läsa (to read) | **Läs!** |
+| skriva (to write) | **Skriv!** |
+| stänga (to close) | **Stäng!** |
 
-К команде часто добавляют слово: что именно открыть, куда смотреть.
-
-```example
-Öppna boken på sidan fem. — Откройте книгу на странице пять.
-Titta på tavlan! — Смотрите на доску!
-Arbeta i par! — Работайте в парах!
-Räck upp handen! — Поднимите руку!
-Sitt ner! — Сядьте!
-Res dig upp! — Встаньте!
-```
-
-## Что сказать в ответ
-
-Вам тоже нужны две-три фразы. Просьбу в Швеции обычно начинают с **Kan du...?**
-(«Можешь...?») — это простое и полностью вежливое начало.
+A word is usually added to the command: what to open, where to look.
 
 ```example
-Kan du upprepa? — Можешь повторить?
-Kan du skriva det på tavlan? — Можешь написать это на доске?
-Kan du prata långsammare? — Можешь говорить медленнее?
+Öppna boken på sidan fem. — Open the book at page five.
+Titta på tavlan! — Look at the board!
+Arbeta i par! — Work in pairs!
+Räck upp handen! — Raise your hand!
+Sitt ner! — Sit down!
+Res dig upp! — Stand up!
 ```
 
-Эти три фразы стоит выучить наизусть в первую же неделю: они спасают на любом уроке.
-И помните — **Jag förstår inte** («Я не понимаю») говорить не стыдно, а полезно:
-учитель тут же повторит медленнее.
+## What to say back
+
+You need two or three phrases of your own. In Sweden a request usually starts with
+**Kan du...?** ("Can you...?") — a simple and perfectly polite opening.
+
+```example
+Kan du upprepa? — Can you repeat that?
+Kan du skriva det på tavlan? — Can you write it on the board?
+Kan du prata långsammare? — Can you speak more slowly?
+```
+
+Learn those three by heart in your very first week: they rescue you in any lesson.
+And remember — saying **Jag förstår inte** ("I don't understand") is not embarrassing
+but useful: the teacher will simply repeat it more slowly.

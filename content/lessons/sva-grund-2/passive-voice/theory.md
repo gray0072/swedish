@@ -1,47 +1,49 @@
-В шведском три способа сказать пассив (когда с подлежащим что-то делают), и выбор между
-ними несёт смысл: обычное действие, однократное событие или уже достигнутый результат.
+Swedish has three ways to build the passive (when something is done to the subject), and
+the choice between them carries meaning: a habitual action, a single event, or an
+already-reached result.
 
-## -s-пассив: общее, привычное или официальное действие
+## The -s-passive: a general, habitual, or official action
 
-Образование: презенс без -r + **-s** (после -ar → -as, после -er → просто -s).
+Formation: present tense minus -r + **-s** (after -ar → -as, after -er → just -s).
 
-| Актив (презенс) | -s-пассив | Пример |
+| Active (present) | -s-passive | Example |
 |---|---|---|
-| talar | talas | Svenska talas i Sverige. — По-шведски говорят в Швеции. |
-| stänger | stängs | Butiken stängs klockan arton. — Магазин закрывается в 18:00 (обычно, по правилу). |
-| skriver | skrivs | Boken skrivs av en känd författare. — Книгу пишет известный автор. |
+| talar | talas | Svenska talas i Sverige. — Swedish is spoken in Sweden. |
+| stänger | stängs | Butiken stängs klockan arton. — The shop closes at 18:00 (as a rule, usually). |
+| skriver | skrivs | Boken skrivs av en känd författare. — The book is written by a well-known author. |
 
-В претерите то же самое: просто **+ -s** к форме претерита: stängde → stängdes, skrev →
-skrevs.
+The preteritum works the same way: just **+ -s** on the preteritum form: stängde →
+stängdes, skrev → skrevs.
 
-## bli + перфектное причастие: однократное завершённое событие
+## bli + perfect participle: a single completed event
 
-Причастие после **bli** согласуется с подлежащим: **-en** (en-слово), **-et** (ett-слово),
-**-na** (мн. число) у сильных глаголов вроде *skriva*; **-d/-t/-da** у слабых вроде
-*stänga*.
-
-```example
-Butiken blev stängd klockan arton igår. — Магазин закрыли (он закрылся) в 18:00 вчера.
-Boken blev skriven på ett år. — Книгу написали за один год.
-```
-
-## vara + перфектное причастие: результат, состояние сейчас
-
-Та же форма причастия, но с **vara** — это уже не событие, а состояние, в котором вещь
-находится сейчас.
+The participle after **bli** agrees with the subject: **-en** (en-word), **-et**
+(ett-word), **-na** (plural) for strong verbs like *skriva*; **-d/-t/-da** for weak verbs
+like *stänga*.
 
 ```example
-Butiken är stängd nu. — Магазин сейчас закрыт.
-Boken är skriven på svenska. — Книга написана по-шведски.
+Butiken blev stängd klockan arton igår. — The shop got closed at 18:00 yesterday.
+Boken blev skriven på ett år. — The book was written in one year.
 ```
 
-## Один и тот же глагол — три значения
+## vara + perfect participle: a result, a state right now
+
+Same participle form, but with **vara** it's no longer an event — it's the state
+something is in right now.
 
 ```example
-Butiken stängs klockan arton varje dag. — Магазин закрывается в 18:00 каждый день (обычно).
-Butiken blev stängd klockan arton igår. — Магазин закрылся в 18:00 вчера (однократное событие).
-Butiken är stängd nu. — Магазин сейчас закрыт (состояние).
+Butiken är stängd nu. — The shop is closed now.
+Boken är skriven på svenska. — The book is written in Swedish.
 ```
 
-Запомни разницу коротко: **-s** — правило, расписание или привычка; **bli** — что-то
-произошло (фокус на изменении); **vara** — так есть прямо сейчас (фокус на результате).
+## One verb, three meanings
+
+```example
+Butiken stängs klockan arton varje dag. — The shop closes at 18:00 every day (habitually).
+Butiken blev stängd klockan arton igår. — The shop got closed at 18:00 yesterday (a single event).
+Butiken är stängd nu. — The shop is closed now (a state).
+```
+
+Short version: **-s** is a rule, schedule, or habit; **bli** is something that happened
+(the focus is on the change); **vara** is how things are right now (the focus is on the
+result).

@@ -1,40 +1,41 @@
-Когда шведы описывают порядок действий — в рецепте, инструкции по сборке мебели или в
-руководстве на работе — они используют слова-связки. **Först** («сначала») открывает
-список, **sedan** и **därefter** («потом», «после этого») продолжают его, а **till
-sist** («в конце») завершает. Вместе это называется **steg för steg** — «шаг за шагом».
+When Swedes describe a sequence of actions — in a recipe, furniture-assembly
+instructions, or a manual at work — they use sequence words. **Först** ("first") opens
+the list, **sedan** and **därefter** ("then", "after that") continue it, and **till
+sist** ("finally") closes it. Together this is called **steg för steg** — "step by
+step".
 
 ```example
-Först skalar du potatisen. — Сначала почисти картошку.
-Sedan skär du den i bitar. — Потом нарежь её кусочками.
+Först skalar du potatisen. — First, peel the potatoes.
+Sedan skär du den i bitar. — Then cut it into pieces.
 ```
 
-В рецептах глаголы обычно стоят в повелительной форме (императиве) — она у большинства
-глаголов совпадает с основой: *tillsätt*, *blanda*, *häll*. Глагол **tillsätta** значит
-«добавлять» ингредиент, а **blanda** — «смешивать».
+In recipes, verbs are usually in the imperative — which for most verbs is just the
+stem: *tillsätt*, *blanda*, *häll*. The verb **tillsätta** means to "add" an
+ingredient, and **blanda** means "to mix".
 
 ```example
-Tillsätt salt och peppar. — Добавь соль и перец.
-Blanda mjölet med äggen. — Смешай муку с яйцами.
+Tillsätt salt och peppar. — Add salt and pepper.
+Blanda mjölet med äggen. — Mix the flour with the eggs.
 ```
 
-Особое слово — **sjuda**: оно значит не «кипеть», а «слабо томиться» на медленном огне.
-Часто встречается вместе с **låta** («позволять») в устойчивом выражении **låt sjuda** —
-«пусть потомится».
+One special word is **sjuda**: it doesn't mean "to boil" but "to simmer gently" on
+low heat. It often appears together with **låta** ("to let") in the fixed phrase **låt
+sjuda** — "let it simmer".
 
 ```example
-Låt grytan sjuda i tjugo minuter. — Пусть рагу потомится двадцать минут.
+Låt grytan sjuda i tjugo minuter. — Let the stew simmer for twenty minutes.
 ```
 
-Когда блюдо готово, его нужно **hälla upp** — «разлить по тарелкам» — и **servera** —
-«подать».
+Once the dish is ready, you need to **hälla upp** — "ladle it out" — and **servera** —
+"serve" it.
 
 ```example
-Häll upp soppan i tallrikarna. — Разлей суп по тарелкам.
-Servera med bröd och sallad. — Подавай с хлебом и салатом.
+Häll upp soppan i tallrikarna. — Ladle the soup into the plates.
+Servera med bröd och sallad. — Serve with bread and salad.
 ```
 
-Короткий рецепт целиком показывает всю последовательность:
+A short recipe put together shows the whole sequence:
 
 ```example
-Koka upp vattnet. Tillsätt pastan. Låt sjuda i tio minuter. Till sist, häll upp och servera. — Доведи воду до кипения. Добавь макароны. Пусть варится десять минут. В конце разлей по тарелкам и подавай.
+Koka upp vattnet. Tillsätt pastan. Låt sjuda i tio minuter. Till sist, häll upp och servera. — Bring the water to a boil. Add the pasta. Let it simmer for ten minutes. Finally, ladle it out and serve.
 ```

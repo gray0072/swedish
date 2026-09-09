@@ -77,7 +77,7 @@ rather publish from a local build to a `gh-pages` branch instead of waiting on C
 
 ```
 content/                # all learning content — lessons, vocab, questions, city, history
-  lessons/<level>/<slug>/  lesson.json, theory.md, vocab.json, questions.json
+  lessons/<level>/<slug>/  lesson.json, theory.md, theory_ru.md, vocab.json, questions.json
   curricula/             ordered lesson-id playlists per track
   city/                  eras.json, buildings.json
   history/               short sourced history cards

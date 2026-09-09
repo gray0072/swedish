@@ -1,35 +1,34 @@
-Регулярное **sparande** («сбережение») обычно начинается со **sparkonto**
-(«сберегательного счёта»), где деньги приносят небольшую **ränta**
-(«процентную ставку»). Когда денег на крупную покупку не хватает, люди берут
-**lån** («кредит») — например, **bolån** («ипотечный кредит») на квартиру или
-дом.
+Regular **sparande** (saving) usually starts with a **sparkonto** (savings
+account), where the money earns a small **ränta** (interest rate). When
+there isn't enough money for a big purchase, people take out a **lån**
+(loan) — for example a **bolån** (mortgage) for an apartment or house.
 
 ```example
-Regelbundet sparande ger trygghet på lång sikt. — Регулярные сбережения дают уверенность в долгосрочной перспективе.
-Räntan på bolånet är rörlig. — Процентная ставка по ипотеке плавающая.
+Regelbundet sparande ger trygghet på lång sikt. — Regular saving gives you security in the long run.
+Räntan på bolånet är rörlig. — The interest rate on the mortgage is variable.
 ```
 
-Прежде чем одобрить кредит, банк делает **kreditupplysning** — проверку
-кредитной истории, чтобы оценить **kreditvärdighet** («кредитоспособность»)
-заявителя. Часто требуется **kontantinsats** («первоначальный взнос»), а если
-дохода не хватает, банк может попросить **borgensman** («поручителя»).
+Before approving a loan, the bank runs a **kreditupplysning** (credit check)
+to assess the applicant's **kreditvärdighet** (creditworthiness). A
+**kontantinsats** (down payment) is often required, and if the income isn't
+enough, the bank may ask for a **borgensman** (guarantor).
 
 ```example
-Banken tar en kreditupplysning på dig. — Банк делает проверку твоей кредитной истории.
-Hennes far ställde upp som borgensman på lånet. — Её отец выступил поручителем по кредиту.
+Banken tar en kreditupplysning på dig. — The bank runs a credit check on you.
+Hennes far ställde upp som borgensman på lånet. — Her father acted as guarantor for the loan.
 ```
 
-Погашение кредита по частям называется **amortering** — в отличие от процентов,
-это уменьшает саму **skuld** («долг»). Если платежи задерживаются надолго,
-может появиться **betalningsanmärkning** — запись, которая сильно усложняет
-получение новых кредитов в будущем.
+Paying off a loan bit by bit is called **amortering** — unlike interest, this
+reduces the **skuld** (debt) itself. If payments fall behind for long enough,
+a **betalningsanmärkning** (payment default record) can appear, which makes
+it much harder to get new loans in the future.
 
 ```example
-Amorteringen dras automatiskt varje månad. — Погашение кредита списывается автоматически каждый месяц.
-En betalningsanmärkning gör det svårare att låna pengar. — Запись о неплатёжеспособности усложняет получение кредита.
+Amorteringen dras automatiskt varje månad. — The loan repayment is deducted automatically every month.
+En betalningsanmärkning gör det svårare att låna pengar. — A payment default record makes it harder to borrow money.
 ```
 
-Помимо кредитов, важна и **hemförsäkring** («страховка жилья») от
-**försäkringsbolag** («страховой компании»): она покрывает ущерб от пожара,
-кражи или потопа. При страховом случае сам застрахованный платит
-**självrisk** — фиксированную часть, а остальное покрывает страховка.
+Besides loans, a **hemförsäkring** (home insurance) from a
+**försäkringsbolag** (insurance company) matters too: it covers damage from
+fire, theft, or flooding. When you make a claim, you pay the **självrisk**
+(deductible) yourself, and the insurance covers the rest.

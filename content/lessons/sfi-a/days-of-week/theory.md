@@ -1,14 +1,10 @@
-Шведская неделя начинается с понедельника — **måndag** («день Луны»). Как и в русском, где
-дни недели «привязаны» к числам (втор-ник — второй), в шведском они восходят к древним
-скандинавским богам и небесным телам — это тот же слой, что и римские названия дней в
-английском (Tuesday — день Тюра, Wednesday — день Одина).
+The Swedish week starts on Monday — **måndag** ("day of the Moon"). Like English weekday names, Swedish day names go back to old Norse gods and heavenly bodies — the same layer of history that gave English *Tuesday* (Tyr's day) and *Wednesday* (Odin's day).
 
 ```example
-tisdag — вторник (день бога Тюра)
-onsdag — среда (день Одина)
-torsdag — четверг (день Тора)
-fredag — пятница (день богини Фрейи)
+tisdag — Tuesday (day of the god Tyr)
+onsdag — Wednesday (day of Odin)
+torsdag — Thursday (day of Thor)
+fredag — Friday (day of the goddess Freya)
 ```
 
-Названия дней пишутся со строчной буквы, в отличие от английского. Чтобы сказать «по
-понедельникам» или «в понедельник», используют предлог **på**: *på måndag*.
+Day names are written with a lower-case letter, unlike in English. To say "on Monday" or "on Mondays", use the preposition **på**: *på måndag*.

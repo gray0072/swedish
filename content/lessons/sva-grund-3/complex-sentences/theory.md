@@ -1,52 +1,52 @@
-В этом уроке — как соединять несколько придаточных в одном предложении: вкладывать одно
-придаточное в другое или цепочкой присоединять несколько к одному и тому же главному.
-Порядок слов в каждом придаточном подчиняется правилу **BIFF**, независимо от того,
-насколько глубоко оно вложено.
+This lesson is about joining several subordinate clauses in one sentence: nesting one
+clause inside another, or chaining several onto the same main clause. Word order inside
+every subordinate clause still follows the **BIFF** rule, no matter how deeply it is
+nested.
 
-## Напоминание: BIFF
+## Reminder: BIFF
 
-**BIFF** = **B**isats, **I**nte, **F**inita verbet, **F**öre — в придаточном
-предложении отрицание и другие sats-наречия (`inte`, `alltid`, `ofta`) стоят **перед**
-спрягаемым глаголом, а не после него, как в главном предложении (правило V2).
-
-```example
-Hon sa att hon inte kunde komma. — Она сказала, что не может прийти.
-```
-
-## Вложенные придаточные: одно внутри другого
-
-Придаточное может само содержать другое придаточное — как матрёшка.
+**BIFF** = **B**isats, **I**nte, **F**inita verbet, **F**öre — in a subordinate clause
+(bisats), negation and other sentence adverbs (`inte`, `alltid`, `ofta`) come **before**
+the finite verb, not after it as in a main clause (the V2 rule).
 
 ```example
-Läraren undrade om eleven visste varför provet var flyttat. — Учитель спросил, знает ли ученик, почему экзамен перенесли.
+Hon sa att hon inte kunde komma. — She said that she couldn't come.
 ```
 
-Разбор по частям:
+## Nested clauses: one inside another
 
-| Часть | Роль | Слова |
+A subordinate clause can itself contain another subordinate clause — like a nesting doll.
+
+```example
+Läraren undrade om eleven visste varför provet var flyttat. — The teacher wondered whether the student knew why the test had been moved.
+```
+
+Breaking it down:
+
+| Part | Role | Words |
 |---|---|---|
-| Главное | — | *Läraren undrade* ... |
-| Придаточное 1 | объектное, вводится `om` | *om eleven visste* ... |
-| Придаточное 2 | вложено внутрь первого, вводится `varför` | *varför provet var flyttat* |
+| Main clause | — | *Läraren undrade* ... |
+| Clause 1 | object clause, introduced by `om` | *om eleven visste* ... |
+| Clause 2 | nested inside clause 1, introduced by `varför` | *varför provet var flyttat* |
 
-Оба придаточных следуют BIFF: если бы там было отрицание, оно встало бы перед глаголом
-(*om eleven inte visste* ...).
+Both clauses follow BIFF: if either had a negation, it would sit before the verb (*om
+eleven inte visste* ...).
 
-## Цепочка придаточных: несколько после одного главного
+## Chained clauses: several attached to one main clause
 
-Вместо вложения несколько придаточных могут просто идти одно за другим, каждое
-присоединяясь к главному напрямую, а не друг к другу.
+Instead of nesting, several subordinate clauses can simply follow one another, each
+attaching directly to the main clause rather than to each other.
 
 ```example
-Han sa att han inte kunde komma, eftersom han var sjuk, fastän han hade lovat det. — Он сказал, что не может прийти, потому что он болен, хотя и обещал это.
+Han sa att han inte kunde komma, eftersom han var sjuk, fastän han hade lovat det. — He said he couldn't come, because he was sick, even though he had promised to.
 ```
 
-Здесь три придаточных: *att han inte kunde komma* (объектное), *eftersom han var sjuk*
-(причины), *fastän han hade lovat det* (уступительное) — все три зависят от одного
-главного *Han sa*, а не друг от друга.
+Here there are three subordinate clauses: *att han inte kunde komma* (object clause),
+*eftersom han var sjuk* (reason), *fastän han hade lovat det* (concession) — all three
+depend on the same main clause *Han sa*, not on each other.
 
-## Главное правило
+## The main rule
 
-Сколько бы придаточных ни было и как бы глубоко они ни вкладывались, каждое живёт по
-своим правилам: BIFF внутри него, а спрягаемый глагол — не на втором месте, как в
-главном предложении.
+However many subordinate clauses there are, and however deeply they are nested, each one
+follows its own rules: BIFF inside it, and the finite verb never in second position the
+way it is in a main clause.

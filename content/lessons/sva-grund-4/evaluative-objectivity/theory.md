@@ -1,43 +1,44 @@
-Одни и те же факты можно изложить нейтрально или так, чтобы незаметно навязать
-читателю оценку. Разница — не в грамматике, а в выборе слов: глаголов,
-прилагательных и усилителей.
+The same facts can be presented neutrally, or in a way that quietly smuggles a
+stance in on the reader. The difference isn't in the grammar but in word choice:
+verbs, adjectives, and intensifiers.
 
-## Нейтрально vs оценочно: одна и та же цифра
+## Neutral vs. evaluative: the same number
 
 ```example
-Priset ökade med 10 procent. — Цена выросла на 10 процентов. (нейтрально)
-Priset sköt i höjden med hela 10 procent. — Цена взлетела аж на 10 процентов. (оценочно)
+Priset ökade med 10 procent. — The price increased by 10 percent. (neutral)
+Priset sköt i höjden med hela 10 procent. — The price shot up by a whole 10 percent. (evaluative)
 ```
 
-`Ökade` — обычный, нейтральный глагол роста. `Sköt i höjden» (буквально
-«выстрелила вверх») + усилитель `hela` («целых») превращают тот же факт в
-драматичное заявление, будто рост — это нечто из ряда вон выходящее.
+`Ökade` is an ordinary, neutral verb of increase. `Sköt i höjden` (literally "shot
+upward") plus the intensifier `hela` ("a whole") turn the same fact into a dramatic
+claim, as if the increase were something extraordinary.
 
-## Маркеры оценочности
+## Markers of evaluative language
 
-| Нейтрально | Оценочно | Что добавляет оценку |
+| Neutral | Evaluative | What adds the judgment |
 |---|---|---|
-| öka | skjuta i höjden, explodera | глагол с встроенной драмой |
-| minska | rasa, kollapsa | глагол с встроенной драмой |
-| en vinst på en miljon kronor | en enorm vinst på hela en miljon kronor | усилители «enorm», «hela» |
-| Antalet minskade | Antalet minskade drastiskt/skrämmande | оценочное наречие |
+| öka | skjuta i höjden, explodera | a verb with built-in drama |
+| minska | rasa, kollapsa | a verb with built-in drama |
+| en vinst på en miljon kronor | en enorm vinst på hela en miljon kronor | intensifiers "enorm", "hela" |
+| Antalet minskade | Antalet minskade drastiskt/skrämmande | an evaluative adverb |
 
 ```example
-Antalet arbetslösa minskade under året. — Число безработных сократилось за год. (нейтрально)
-Antalet arbetslösa rasade dramatiskt under året. — Число безработных резко обрушилось за год. (оценочно)
+Antalet arbetslösa minskade under året. — The number of unemployed decreased over the year. (neutral)
+Antalet arbetslösa rasade dramatiskt under året. — The number of unemployed plummeted dramatically over the year. (evaluative)
 ```
 
-## Почему это важно для utredande text
+## Why this matters for utredande text
 
-Шведский письменный экзамен курса требует **utredande text** — нейтрального,
-нейтрально-исследующего изложения темы, без явной позиции автора. Оценочная лексика
-(`skjuta i höjden`, `rasa`, `enorm`, `chockerande`, `hela`) уместна в
-**debattartikel** (статье-мнении) или в рекламе, где автор открыто убеждает
-читателя, но не в utredande text, где ожидается объективное описание фактов.
+The course's writing exam requires an **utredande text** — a neutral, investigative
+account of a topic, with no explicit stance from the author. Evaluative vocabulary
+(`skjuta i höjden`, `rasa`, `enorm`, `chockerande`, `hela`) belongs in a
+**debattartikel** (an opinion piece) or in advertising, where the author openly
+persuades the reader — not in an utredande text, where an objective account of the
+facts is expected.
 
-## Коротко
+## In short
 
-Оценочная лексика не меняет факты — она добавляет к ним скрытую позицию автора
-через выбор глагола, прилагательного или усилителя. Умение распознать это (и
-убрать при необходимости) — ключевой навык для нейтрального изложения, а умение
-осознанно его использовать — навык для убеждающего письма.
+Evaluative vocabulary doesn't change the facts — it adds a hidden authorial stance
+to them through the choice of verb, adjective, or intensifier. Recognising this
+(and removing it when needed) is a key skill for neutral writing, and using it
+deliberately is a skill for persuasive writing.

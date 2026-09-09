@@ -1,50 +1,50 @@
-На delkurs 3 вы сравнивали культуры в разговорном стиле. Теперь нужен формальный
-**jämförande text** — сравнительный текст с чёткой структурой: вступление, описание
-двух систем, главное различие и взвешенный вывод.
+At delkurs 3 you compared cultures in a spoken, informal style. Now you need a formal
+**jämförande text** — a comparative text with clear structure: an introduction, two
+systems described, the main difference named, and a balanced conclusion.
 
-## Вступление: две системы
-
-```example
-Syftet med den här texten är att jämföra det svenska skolsystemet med skolsystemet i mitt hemland. — Цель этого текста — сравнить шведскую школьную систему со школьной системой на моей родине.
-```
-
-## Представление двух точек зрения
+## Introduction: two systems
 
 ```example
-Medan det ena systemet bygger på tio års obligatorisk skolgång, är det andra baserat på en kortare grundutbildning. — В то время как одна система основана на десяти годах обязательного обучения, другая базируется на более короткой базовой подготовке.
+Syftet med den här texten är att jämföra det svenska skolsystemet med skolsystemet i mitt hemland. — The purpose of this text is to compare the Swedish school system with the school system in my home country.
 ```
 
-**bygga på** — основываться на; **vara baserad på** — быть основанным на. Эти
-конструкции задают рамку: сначала одна система, потом другая — а не просто список
-фактов подряд.
-
-## Главное различие
+## Presenting two points of view
 
 ```example
-Den största skillnaden ligger i hur mycket valfrihet eleverna har. — Главное различие заключается в том, сколько свободы выбора есть у учеников.
+Medan det ena systemet bygger på tio års obligatorisk skolgång, är det andra baserat på en kortare grundutbildning. — While one system is based on ten years of compulsory schooling, the other is based on a shorter basic education.
 ```
 
-**Den största skillnaden ligger i...** — устойчивая фраза формального сравнительного
-текста: она сразу показывает читателю, на чём стоит сосредоточиться.
+**bygga på** — to be built on, based on; **vara baserad på** — to be based on. These
+constructions frame the comparison: first one system, then the other — not just a
+list of unrelated facts.
 
-## Взвешенный вывод
+## The main difference
 
 ```example
-Båda systemen har sina för- och nackdelar, och inget av dem är perfekt. — У обеих систем есть свои плюсы и минусы, и ни одна из них не идеальна.
+Den största skillnaden ligger i hur mycket valfrihet eleverna har. — The main difference lies in how much freedom of choice the students have.
 ```
 
-## Дополнительные связки
+**Den största skillnaden ligger i...** — a fixed phrase for a formal comparative
+text: it immediately tells the reader what to focus on.
 
-- **å ena sidan ... å andra sidan** — с одной стороны ... с другой стороны
-- **till skillnad från** — в отличие от
-- **gemensamt för båda är att** — общее для обеих систем то, что
-- **sammanfattningsvis** — подводя итог
+## A balanced conclusion
 
 ```example
-Å ena sidan är klasserna större i mitt hemland, å andra sidan har lärarna där mer tid för varje ämne. — С одной стороны, классы на моей родине больше, с другой стороны, у учителей там больше времени на каждый предмет.
-Sammanfattningsvis liknar systemen varandra mer än man kan tro vid en första anblick. — Подводя итог, системы больше похожи друг на друга, чем можно подумать на первый взгляд.
+Båda systemen har sina för- och nackdelar, och inget av dem är perfekt. — Both systems have their advantages and disadvantages, and neither of them is perfect.
 ```
 
-В отличие от неформального сравнения из delkurs 3, такой текст явно называет
-**likheter** (сходства) и **skillnader** (различия) и завершается взвешенным
-выводом, а не просто личным мнением.
+## More connectors
+
+- **å ena sidan ... å andra sidan** — on the one hand ... on the other hand
+- **till skillnad från** — unlike, in contrast to
+- **gemensamt för båda är att** — what both have in common is that
+- **sammanfattningsvis** — to sum up
+
+```example
+Å ena sidan är klasserna större i mitt hemland, å andra sidan har lärarna där mer tid för varje ämne. — On the one hand, classes are bigger in my home country; on the other hand, teachers there have more time for each subject.
+Sammanfattningsvis liknar systemen varandra mer än man kan tro vid en första anblick. — To sum up, the systems resemble each other more than one might think at first glance.
+```
+
+Unlike the informal comparison from delkurs 3, a text like this explicitly names the
+**likheter** (similarities) and **skillnader** (differences) and ends with a balanced
+conclusion rather than just a personal opinion.

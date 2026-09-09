@@ -1,35 +1,34 @@
-Рассказ о своём распорядке дня строится из глаголов действия в презенсе (см. тему
-«Группы глаголов 1–4») и наречий частоты, которые показывают, как часто что-то
-происходит.
+An account of your daily routine is built from action verbs in the present tense (see
+"Verb groups 1–4") and frequency adverbs, which show how often something happens.
 
-Шкала наречий частоты: **alltid** (всегда) → **ofta** (часто) → **ibland** (иногда) →
-**sällan** (редко). В huvudsats они стоят **после** личного глагола — на том же месте, где
-стоит *inte* (см. правило BIFF в теме про придаточные предложения):
-
-```example
-Jag vaknar alltid klockan sex. — Я всегда просыпаюсь в шесть.
-Jag duschar ofta på morgonen. — Я часто принимаю душ утром.
-Jag lagar sällan mat själv. — Я редко готовлю сам(а).
-```
-
-Типичный распорядок дня — это цепочка глаголов в презенсе: **vakna** (просыпаться),
-**duscha** (принимать душ), **borsta tänderna** (чистить зубы), **äta frukost**
-(завтракать), **pendla** (добираться на работу или учёбу), **jobba** (работать),
-**komma hem** (приходить домой), **laga mat** (готовить), **koppla av** (отдыхать),
-**sova** (спать).
+The frequency scale: **alltid** (always) → **ofta** (often) → **ibland** (sometimes) →
+**sällan** (rarely). In a huvudsats they go **after** the finite verb — the same spot
+where *inte* goes (see the BIFF rule in the subordinate-clause lesson):
 
 ```example
-Jag vaknar, duschar och borstar tänderna. — Я просыпаюсь, принимаю душ и чищу зубы.
-Sedan pendlar jag till jobbet med bussen. — Потом я еду на работу на автобусе.
-På kvällen kopplar jag av och tittar på tv innan jag går och lägger mig. — Вечером я отдыхаю и смотрю телевизор, прежде чем лечь спать.
+Jag vaknar alltid klockan sex. — I always wake up at six.
+Jag duschar ofta på morgonen. — I often shower in the morning.
+Jag lagar sällan mat själv. — I rarely cook by myself.
 ```
 
-Глагол **sköta** значит «заботиться о, справляться с» (*sköta hushållet* — вести
-хозяйство), а **handla** — «делать покупки, закупаться».
+A typical daily routine is a chain of present-tense verbs: **vakna** (wake up),
+**duscha** (shower), **borsta tänderna** (brush your teeth), **äta frukost** (eat
+breakfast), **pendla** (commute to work or school), **jobba** (work), **komma hem**
+(come home), **laga mat** (cook), **koppla av** (relax, unwind), **sova** (sleep).
 
-Чтобы рассказ не превращался в простой список действий, соединяй предложения словами
-**sedan** (потом), **efter det** (после этого), **på morgonen/dagen/kvällen**
-(утром/днём/вечером) — так получится связный текст, а не перечисление.
+```example
+Jag vaknar, duschar och borstar tänderna. — I wake up, shower and brush my teeth.
+Sedan pendlar jag till jobbet med bussen. — Then I commute to work by bus.
+På kvällen kopplar jag av och tittar på tv innan jag går och lägger mig. — In the evening I relax and watch TV before going to bed.
+```
 
-Совет: описывая привычки, а не разовые действия, используй именно презенс — это
-стандартный способ говорить о регулярных, повторяющихся действиях в шведском языке.
+The verb **sköta** means "to take care of, to manage" (*sköta hushållet* — run the
+household), while **handla** means "to shop, to buy groceries".
+
+To keep the account from turning into a plain list of actions, link the sentences with
+**sedan** (then), **efter det** (after that), **på morgonen/dagen/kvällen** (in the
+morning/during the day/in the evening) — that produces a connected text rather than an
+enumeration.
+
+Tip: when describing habits, not one-off actions, use the present tense — that's the
+standard way to talk about regular, repeated actions in Swedish.

@@ -1,57 +1,59 @@
-Вывески в Швеции почти всегда написаны ЗАГЛАВНЫМИ БУКВАМИ и без артиклей — одно-два
-слова. Их не нужно уметь произносить, их нужно узнавать глазами.
+Signs in Sweden are almost always written in CAPITAL LETTERS and without articles —
+one or two words. You do not need to pronounce them; you need to recognise them at
+a glance.
 
-## Открыто или закрыто
+## Open or closed
 
-| вывеска | значение |
+| sign | meaning |
 |---|---|
-| **ÖPPET** | открыто |
-| **STÄNGT** | закрыто |
+| **ÖPPET** | open |
+| **STÄNGT** | closed |
 
-На двери магазина обычно висит табличка **Öppettider** — «часы работы», а рядом
-время, которое вы уже знаете: `Mån–fre 10–18`, `Lör 10–15`, `Sön stängt`.
-Дни недели на табличках сокращают: **mån, tis, ons, tors, fre, lör, sön**.
+A shop door usually carries a small notice saying **Öppettider** — "opening hours" —
+with the clock times you already know beside it: `Mån–fre 10–18`, `Lör 10–15`,
+`Sön stängt`.
+Weekdays are abbreviated on such notices: **mån, tis, ons, tors, fre, lör, sön**.
 
-## Вход и выход
+## In and out
 
-| вывеска | значение |
+| sign | meaning |
 |---|---|
-| **INGÅNG** | вход |
-| **UTGÅNG** | выход |
-| **NÖDUTGÅNG** | аварийный выход |
+| **INGÅNG** | entrance |
+| **UTGÅNG** | exit |
+| **NÖDUTGÅNG** | emergency exit |
 
-Часть **in-** значит «внутрь», **ut-** — «наружу», а **nöd-** — «беда». Отсюда легко
-запомнить всю тройку.
+The part **in-** means "in", **ut-** means "out", and **nöd-** means "emergency".
+That makes all three easy to remember together.
 
-## Дверь: DRA или TRYCK
-
-```example
-DRA — тянуть дверь на себя
-TRYCK — толкать дверь от себя
-```
-
-## Запрещено
-
-Слово **förbjuden / förbjudet** значит «запрещено». Окончание меняется вместе со
-словом рядом, но смысл всегда один и тот же.
+## The door: DRA or TRYCK
 
 ```example
-RÖKNING FÖRBJUDEN — курение запрещено
-TILLTRÄDE FÖRBJUDET — проход запрещён
+DRA — pull the door towards you
+TRYCK — push the door away from you
 ```
 
-## Остальные полезные вывески
+## Forbidden
+
+The word **förbjuden / förbjudet** means "forbidden". The ending changes with the
+word next to it, but the meaning is always the same.
 
 ```example
-TOALETT / WC — туалет
-DAMER — женский; HERRAR — мужской
-KASSA — касса
-HISS — лифт; TRAPPA — лестница
-INFORMATION — справочная
-RESERVERAT — занято, зарезервировано
+RÖKNING FÖRBJUDEN — smoking forbidden
+TILLTRÄDE FÖRBJUDET — no admittance
 ```
 
-Эти двадцать слов — почти всё, что нужно, чтобы уверенно двигаться по городу,
-магазину или поликлинике в первую неделю в Швеции. Учите их не по одному, а парами
-противоположностей: ÖPPET–STÄNGT, INGÅNG–UTGÅNG, DRA–TRYCK, DAMER–HERRAR. Так они
-запоминаются гораздо быстрее.
+## Other useful signs
+
+```example
+TOALETT / WC — toilet
+DAMER — ladies; HERRAR — gentlemen
+KASSA — checkout, cash desk
+HISS — lift; TRAPPA — stairs
+INFORMATION — information desk
+RESERVERAT — reserved
+```
+
+These twenty words are almost everything you need to move around a town, a shop or
+a health centre with confidence in your first week in Sweden. Learn them not one by
+one but in pairs of opposites: ÖPPET–STÄNGT, INGÅNG–UTGÅNG, DRA–TRYCK, DAMER–HERRAR.
+They stick far faster that way.

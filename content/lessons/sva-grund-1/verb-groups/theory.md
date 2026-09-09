@@ -1,44 +1,44 @@
-Четыре группы шведских глаголов различаются тем, как они образуют **претерит** (прошедшее
-время) и **супин** (форма для перфекта). В презенсе разница почти не видна — см. тему
-«Настоящее время глаголов».
+Swedish verbs fall into four groups by how they form the **preteritum** (past tense) and
+the **supine** (the form used in the perfect). In the present tense the groups look almost
+identical — see "Present tense verbs".
 
-| Группа | Инфинитив | Презенс | Претерит | Супин | Глагол |
+| Group | Infinitive | Present | Preteritum | Supine | Verb |
 |---|---|---|---|---|---|
 | **1** | -a | -ar | -ade | -at | tala — talar — talade — talat |
-| **2** | -a / согласная | -er | -de / -te | -t | ringa — ringer — ringde — ringt |
-| **3** | гласная (≠ -a) | -r | -dde | -tt | bo — bor — bodde — bott |
-| **4** (сильные) | -a | -er | смена гласной | -it | skriva — skriver — skrev — skrivit |
+| **2** | -a / consonant | -er | -de / -te | -t | ringa — ringer — ringde — ringt |
+| **3** | vowel (≠ -a) | -r | -dde | -tt | bo — bor — bodde — bott |
+| **4** (strong) | -a | -er | stem-vowel change | -it | skriva — skriver — skrev — skrivit |
 
-## Как узнать сильный глагол
+## How to spot a strong verb
 
-Сильные глаголы (группа 4) легко спутать с группой 1: инфинитив у обеих часто оканчивается
-на **-a** (fara, komma, skriva — как и studera, arbeta). Два надёжных признака:
+Strong verbs (group 4) are easy to confuse with group 1: both often end in **-a** in the
+infinitive (fara, komma, skriva — just like studera, arbeta). Two reliable clues:
 
-1. Презенс сильного глагола оканчивается на **-er** (как у группы 2), а не на **-ar**:
-   *skriver*, не *skrivar*.
-2. Претерит короткий, без окончания -de/-te — вместо этого меняется корневая гласная:
-   *skrev*, не *skrivade*.
+1. A strong verb's present tense ends in **-er** (like group 2), not **-ar**:
+   *skriver*, not *skrivar*.
+2. The preteritum is short, with no -de/-te ending — instead the stem vowel changes:
+   *skrev*, not *skrivade*.
 
-Саму смену гласной по правилу не вывести — сильные глаголы просто нужно запомнить,
-начиная с самых частотных.
+The vowel change itself can't be derived from a rule — strong verbs simply have to be
+memorised, starting with the most frequent ones.
 
 ```example
-Jag skriver ett brev. — Я пишу письмо.
-Igår skrev jag ett brev. — Вчера я написал письмо.
-Jag har skrivit många brev. — Я написал много писем.
+Jag skriver ett brev. — I'm writing a letter.
+Igår skrev jag ett brev. — Yesterday I wrote a letter.
+Jag har skrivit många brev. — I've written many letters.
 ```
 
-## Ещё несколько важных сильных глаголов
+## A few more important strong verbs
 
-| Инфинитив | Презенс | Претерит | Супин | Перевод |
+| Infinitive | Present | Preteritum | Supine | Meaning |
 |---|---|---|---|---|
-| äta | äter | åt | ätit | есть |
-| dricka | dricker | drack | druckit | пить |
-| komma | kommer | kom | kommit | приходить |
-| ta(ga) | tar | tog | tagit | брать |
-| se | ser | såg | sett | видеть |
-| gå | går | gick | gått | идти |
+| äta | äter | åt | ätit | to eat |
+| dricka | dricker | drack | druckit | to drink |
+| komma | kommer | kom | kommit | to come |
+| ta(ga) | tar | tog | tagit | to take |
+| se | ser | såg | sett | to see |
+| gå | går | gick | gått | to go |
 
-Настоящие исключения (не входят чисто ни в одну группу): **vara** → är, var, varit;
-**vilja** → vill, ville, velat; **kunna** → kan, kunde, kunnat. Это самые частотные глаголы
-языка — их стоит выучить отдельно.
+True exceptions (fit no group cleanly): **vara** → är, var, varit; **vilja** → vill, ville,
+velat; **kunna** → kan, kunde, kunnat. These are the most frequent verbs in the language —
+worth learning separately, first.

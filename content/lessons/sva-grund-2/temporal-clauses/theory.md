@@ -1,50 +1,50 @@
-Придаточные времени тоже bisats — «inte» в них стоит перед личным глаголом
-(правило BIFF).
+Temporal clauses are also a bisats — "inte" goes before the finite verb in them
+too (the BIFF rule).
 
-## Семь союзов времени
+## Seven time conjunctions
 
-| Союз | Значение |
+| Conjunction | Meaning |
 |---|---|
-| när | когда (повторяется, наст./буд., и разово тоже) |
-| då | когда (один конкретный случай в прошлом) |
-| medan | пока, в то время как (одновременность) |
-| innan | перед тем как |
-| efter att | после того как |
-| tills | пока не, до тех пор пока |
-| sedan | с тех пор как |
+| när | when (repeated, present/future, and single events too) |
+| då | when (one specific past occasion) |
+| medan | while (simultaneity) |
+| innan | before |
+| efter att | after |
+| tills | until |
+| sedan | since |
 
-## när против då — частая ошибка
+## när vs. då — a common mistake
 
-**när** — для повторяющихся действий и для настоящего/будущего:
-
-```example
-När det regnar, stannar jag hemma. — Когда идёт дождь, я остаюсь дома.
-```
-
-**då** — только для одного конкретного случая в прошлом:
+**när** is used for repeated actions and for the present/future:
 
 ```example
-Då telefonen ringde, sov jag. — Когда (в тот раз) зазвонил телефон, я спал.
+När det regnar, stannar jag hemma. — When it rains, I stay home.
 ```
 
-В разговорной речи «när» всё чаще заменяет «då» и в этом значении, но на письме
-и на экзамене разница важна.
-
-## Остальные союзы, с BIFF внутри
+**då** is used only for one specific past occasion:
 
 ```example
-Han lagade mat medan hon inte var hemma. — Он готовил еду, пока её не было дома.
-Ring mig innan du åker. — Позвони мне перед тем, как поедешь.
-Efter att han hade läst boken, lämnade han tillbaka den. — После того как он прочитал книгу, он вернул её.
-Vi väntar tills han inte är arg längre. — Мы ждём, пока он не перестанет злиться.
+Då telefonen ringde, sov jag. — When (that time) the phone rang, I was sleeping.
 ```
 
-**sedan** как союз времени (не путать с наречием «потом»):
+In spoken Swedish, "när" increasingly replaces "då" in this meaning too, but in
+writing and on exams the difference matters.
+
+## The rest, with BIFF inside
 
 ```example
-Sedan hon flyttade hit har hon inte träffat honom. — С тех пор как она переехала сюда, она не встречала его.
+Han lagade mat medan hon inte var hemma. — He cooked while she wasn't home.
+Ring mig innan du åker. — Call me before you leave.
+Efter att han hade läst boken, lämnade han tillbaka den. — After he had read the book, he returned it.
+Vi väntar tills han inte är arg längre. — We wait until he isn't angry anymore.
 ```
 
-Обрати внимание: bisats с «sedan» стоит первым и занимает fundament huvudsats,
-поэтому после него — инверсия («har hon»), а «inte» там уже стоит после
-личного глагола, как обычно в huvudsats.
+**sedan** as a time conjunction (don't confuse it with the adverb "then"):
+
+```example
+Sedan hon flyttade hit har hon inte träffat honom. — Since she moved here, she hasn't met him.
+```
+
+Notice: the bisats with "sedan" comes first and occupies the huvudsats's
+fundament, so what follows is inverted ("har hon"), and "inte" there already
+comes after the finite verb, as usual in a huvudsats.

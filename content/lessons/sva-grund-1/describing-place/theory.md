@@ -1,24 +1,26 @@
-Чтобы рассказать о квартире, районе и городе на уровне выше SFI, нужны прилагательные и существительные, которые описывают не «что» есть в доме, а «как» там жить. Прилагательное **belägen** (расположенный) склоняется необычно, как *öppen*: *belägen → beläget (ett) → belägna (мн.ч.)*.
+# Describing a place: a flat, a neighbourhood, a city
+
+To talk about a flat, a neighbourhood or a city beyond basic SFI vocabulary, you need adjectives and nouns that describe not what's in the home, but what it's like to live there. The adjective **belägen** (situated) declines irregularly, like *öppen*: *belägen → beläget (ett) → belägna (plural)*.
 
 ```example
-Lägenheten är belägen nära centrum. — Квартира расположена рядом с центром.
-Området är lugnt och barnvänligt. — Район тихий и удобный для детей.
+Lägenheten är belägen nära centrum. — The flat is situated close to the centre.
+Området är lugnt och barnvänligt. — The area is quiet and child-friendly.
 ```
 
-Многие «местные» прилагательные употребляются в форме среднего рода (**-t**), даже когда описывают не конкретный предмет, а образ жизни: *central → centralt*, *lugn → lugnt*, *barnvänlig → barnvänligt*, *trygg → tryggt*. Такая форма используется, когда прилагательное относится к глаголам **ligga** или **kännas**, а не напрямую к существительному.
+Many "place" adjectives appear in their neuter (**-t**) form even when they describe a way of living rather than a single object: *central → centralt*, *lugn → lugnt*, *barnvänlig → barnvänligt*, *trygg → tryggt*. This form is used when the adjective goes with verbs like **ligga** (to be situated) or **kännas** (to feel), rather than modifying a noun directly.
 
-Существительное **grönområde** (зелёная зона) — среднего рода: *ett grönområde, grönområdet*. А слово **kommunikationer** (транспортное сообщение) почти всегда употребляется во множественном числе: *bra kommunikationer* — «хорошее транспортное сообщение».
+The noun **grönområde** (green area) is neuter: *ett grönområde, grönområdet*. And **kommunikationer** (transport connections) is almost always used in the plural: *bra kommunikationer* means "good transport connections."
 
 ```example
-Nära huset finns ett grönområde. — Рядом с домом есть зелёная зона.
-Det är bra kommunikationer härifrån. — Отсюда хорошее транспортное сообщение.
+Nära huset finns ett grönområde. — There is a green area near the house.
+Det är bra kommunikationer härifrån. — There are good transport connections from here.
 ```
 
-Вот пример полного описания квартиры и района:
+Here is a full example description of a flat and its neighbourhood:
 
 ```example
-Lägenheten ligger centralt och är belägen nära ett grönområde. — Квартира расположена в центре, рядом с зелёной зоной.
-Området är lugnt, tryggt och barnvänligt, och kommunikationerna är bra. — Район тихий, безопасный и удобный для детей, и транспортное сообщение хорошее.
+Lägenheten ligger centralt och är belägen nära ett grönområde. — The flat is centrally located, close to a green area.
+Området är lugnt, tryggt och barnvänligt, och kommunikationerna är bra. — The area is quiet, safe and child-friendly, and the transport connections are good.
 ```
 
-Слова **granne** (сосед), **stadsdel** (район города) и **utsikt** (вид) тоже пригодятся, когда нужно описать, где и как ты живёшь, а не просто перечислить комнаты.
+Words like **granne** (neighbour), **stadsdel** (district) and **utsikt** (view) are also useful when describing where and how you live, not just listing rooms.

@@ -1,43 +1,43 @@
-В delkurs 3 вы увидели номинализацию как приём («genomförande», «granskning»). Здесь
-— как **целый абзац** превращается из глагольного в номинализированный в двух
-конкретных регистрах: академическом и деловом/официальном.
+In delkurs 3 you saw nominalisation as a device (`genomförande`, `granskning`).
+Here's how a **whole paragraph** shifts from verbal to nominalised in two specific
+registers: academic and business/official.
 
-## Академический текст: абзац целиком
-
-```example
-Vi genomförde studien genom att systematiskt granska materialet. Vi såg att variablerna hängde ihop. — Мы провели исследование, систематически изучив материал. Мы увидели, что переменные связаны.
-Genomförandet av studien innebar en systematisk granskning av materialet. Resultaten visade på ett samband mellan variablerna. — Проведение исследования включало систематическое изучение материала. Результаты показали наличие связи между переменными.
-```
-
-Глагольная версия называет действующее лицо («vi») и действие глаголом
-(«genomförde», «såg»). Номинализированная версия убирает «vi» вовсе: подлежащим
-становится не человек, а сам процесс («genomförandet», «resultaten») — типично для
-раздела «Метод» в научной статье.
-
-## Деловой/официальный текст: тот же абзац приёмом
+## Academic text: a whole paragraph
 
 ```example
-Vi började handlägga ärendet när ansökan kom in. Vi meddelar beslutet inom två veckor. — Мы начали обработку дела, когда поступило заявление. Мы сообщим решение в течение двух недель.
-Handläggningen av ärendet påbörjades i samband med ansökans inkommande. Ett beslut kommer att meddelas inom två veckor. — Обработка дела была начата в связи с поступлением заявления. Решение будет сообщено в течение двух недель.
+Vi genomförde studien genom att systematiskt granska materialet. Vi såg att variablerna hängde ihop. — We carried out the study by systematically reviewing the material. We saw that the variables were linked.
+Genomförandet av studien innebar en systematisk granskning av materialet. Resultaten visade på ett samband mellan variablerna. — The carrying-out of the study involved a systematic review of the material. The results showed a link between the variables.
 ```
 
-Здесь то же самое: «vi» исчезает, «handläggningen», «ansökans inkommande» и
-«ett beslut» становятся подлежащими вместо действующих лиц — типичный тон
-ведомственного письма.
+The verbal version names an actor ("vi") and expresses the action with a verb
+("genomförde", "såg"). The nominalised version drops "vi" entirely: the subject
+becomes the process itself ("genomförandet", "resultaten") — typical of a "Methods"
+section in a research paper.
 
-## Сравнение приёмов рядом
+## Business/official text: the same paragraph, the same device
 
-| Глагольный абзац | Номинализированный абзац |
+```example
+Vi började handlägga ärendet när ansökan kom in. Vi meddelar beslutet inom två veckor. — We started processing the case when the application came in. We'll announce the decision within two weeks.
+Handläggningen av ärendet påbörjades i samband med ansökans inkommande. Ett beslut kommer att meddelas inom två veckor. — The processing of the case was begun in connection with the arrival of the application. A decision will be announced within two weeks.
+```
+
+Same pattern here: "vi" disappears, and "handläggningen", "ansökans inkommande" and
+"ett beslut" become subjects instead of actors — the typical tone of an
+official letter.
+
+## The two devices side by side
+
+| Verbal paragraph | Nominalised paragraph |
 |---|---|
 | Vi genomförde studien... Vi såg... | Genomförandet innebar... Resultaten visade... |
 | Vi handlägger ärendet... Vi meddelar... | Handläggningen påbörjades... Ett beslut meddelas... |
 
-## Почему именно так пишут
+## Why it's written this way
 
-И в науке, и в ведомстве номинализация подчёркивает **процесс и результат**, а не
-конкретного человека — это выглядит объективно и безлично, что как раз и требуется
-жанру. Но абзац, состоящий из одних номинализаций подряд, читается тяжелее: почти
-каждое существительное тянет за собой родительный оборот («av studien», «av
-ärendet», «mellan variablerna»). Хороший академический и деловой текст обычно
-смешивает оба стиля: номинализация — для ключевых терминов раздела, глагол — там,
-где нужна ясность действия.
+In both science and officialdom, nominalisation puts the focus on the **process
+and the result**, not a specific person — it reads as objective and impersonal,
+which is exactly what the genre calls for. But a paragraph made of nothing but
+nominalisations reads heavily: almost every noun drags along a genitive phrase
+("av studien", "av ärendet", "mellan variablerna"). Good academic and business
+writing usually mixes both styles: nominalisation for the section's key terms, a
+verb wherever the action needs to be clear.

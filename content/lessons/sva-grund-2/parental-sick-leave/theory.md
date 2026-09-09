@@ -1,33 +1,32 @@
-Шведская система социального страхования управляется через **Försäkringskassan**
-(Кассы социального страхования). Именно туда подают заявления на **föräldrapenning**
-(родительское пособие) во время **föräldraledighet** (родительского отпуска) — оба
-**förälder** (родителя) имеют на это право, и дни пособия можно делить между собой.
+Sweden's social insurance system runs through **Försäkringskassan** (the Social
+Insurance Agency). That is where you apply for **föräldrapenning** (parental benefit)
+during **föräldraledighet** (parental leave) — both **förälder** (parents) are
+entitled to it, and the benefit days can be split between them.
 
 ```example
-Man kan ta ut föräldrapenning fram till barnet fyller tolv år. — Родительское пособие можно получать, пока ребёнку не исполнится двенадцать лет.
-Båda föräldrarna har rätt till föräldrapenning. — Оба родителя имеют право на родительское пособие.
+Man kan ta ut föräldrapenning fram till barnet fyller tolv år. — Parental benefit can be drawn until the child turns twelve.
+Båda föräldrarna har rätt till föräldrapenning. — Both parents are entitled to parental benefit.
 ```
 
-При болезни первые две недели работодатель платит **sjuklön** (оплату больничного), а
-первый день считается **karensdag** (карентным днём) — за него, точнее, за
-**karensavdrag** (карентный вычет), деньги не платят. После двух недель
-**Försäkringskassan** берёт на себя выплату **sjukpenning** (пособия по болезни), и с
-восьмого дня уже требуется **läkarintyg** (справка от врача).
+When you're sick, the employer pays **sjuklön** (sick pay) for the first two weeks, and
+the first day counts as a **karensdag** (waiting day) — covered by a **karensavdrag**
+(waiting-period deduction), meaning it isn't paid. After two weeks, **Försäkringskassan**
+takes over paying **sjukpenning** (sickness benefit), and from day eight onward a
+**läkarintyg** (medical certificate) is required.
 
 ```example
-Arbetsgivaren betalar sjuklön de första fjorton dagarna. — Работодатель платит по больничному первые четырнадцать дней.
-Efter dag åtta måste du visa ett läkarintyg. — После восьмого дня нужно предъявить справку от врача.
+Arbetsgivaren betalar sjuklön de första fjorton dagarna. — The employer pays sick pay for the first fourteen days.
+Efter dag åtta måste du visa ett läkarintyg. — After day eight you need to show a medical certificate.
 ```
 
-Долгая **sjukfrånvaro** (отсутствие по болезни) может повлиять на **arbetsförmåga**
-(трудоспособность) — именно её оценивает врач, решая, сколько ещё нужно
-восстанавливаться.
+Prolonged **sjukfrånvaro** (sick absence) can affect **arbetsförmåga** (work capacity)
+— exactly what a doctor assesses when deciding how much more recovery time is needed.
 
 ```example
-Läkaren bedömer din arbetsförmåga. — Врач оценивает твою трудоспособность.
-Jag har tjugofem semesterdagar per år. — У меня двадцать пять дней отпуска в год.
+Läkaren bedömer din arbetsförmåga. — The doctor assesses your work capacity.
+Jag har tjugofem semesterdagar per år. — I have twenty-five vacation days a year.
 ```
 
-Отдельно от больничного действуют **semesterdagar** (дни отпуска): если человек
-увольняется, не использовав все дни, ему полагается **semesterersättning** — денежная
-компенсация за оставшиеся дни отпуска.
+Separate from sick leave are **semesterdagar** (vacation days): if someone leaves a job
+without having used all of them, they're entitled to **semesterersättning** — a cash
+payment for the remaining vacation days.

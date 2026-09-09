@@ -1,52 +1,52 @@
-Относительное придаточное (*relativsats*) — тоже bisats, и в нём тоже работает BIFF:
-если нужно «inte», оно встаёт перед личным глаголом.
+A relative clause (*relativsats*) is also a bisats, and BIFF applies inside it too:
+if "inte" is needed, it goes before the finite verb.
 
-## som — «который» (подлежащее и дополнение)
+## som — "who/which/that" (subject and object)
 
-**som** не изменяется по роду и числу и вводит relativsats и как подлежащее, и как
-дополнение:
-
-```example
-Mannen som bor här är lärare. — Мужчина, который живёт здесь, — учитель.
-Boken som jag läser är bra. — Книга, которую я читаю, хорошая.
-```
-
-## vars — «чей»
-
-**vars** — родительный падеж относительного слова, «чей/чья/чьё/чьи», формальный
-книжный вариант:
+**som** never changes for gender or number, and it introduces a relativsats both
+as a subject and as an object:
 
 ```example
-Kvinnan vars bil blev stulen var arg. — Женщина, чья машина была украдена, была зла.
+Mannen som bor här är lärare. — The man who lives here is a teacher.
+Boken som jag läser är bra. — The book that I'm reading is good.
 ```
 
-## där и dit — «где» и «куда»
+## vars — "whose"
 
-**där** — место действия (статика), **dit** — направление движения («туда, куда»):
+**vars** is the genitive relative word, "whose", a formal, bookish choice:
 
 ```example
-Staden där jag bor är vacker. — Город, где я живу, красивый.
-Staden dit jag reste var vacker. — Город, куда я поехал, был красивый.
+Kvinnan vars bil blev stulen var arg. — The woman whose car was stolen was angry.
 ```
 
-## vilket — «что» (вся предыдущая мысль)
+## där and dit — "where" (static) and "where" (motion)
 
-**vilket** относится не к отдельному существительному, а ко всему предыдущему
-предложению целиком:
+**där** marks the location of an action (static), **dit** marks the direction of
+motion ("to where"):
 
 ```example
-Han kom för sent, vilket gjorde henne arg. — Он опоздал, что разозлило её.
+Staden där jag bor är vacker. — The city where I live is beautiful.
+Staden dit jag reste var vacker. — The city I traveled to was beautiful.
 ```
 
-## BIFF внутри relativsats
+## vilket — "which" (the whole preceding idea)
 
-Relativsats — тоже bisats, и «inte» в нём стоит перед личным глаголом, как и
-всегда:
+**vilket** doesn't refer to a single noun — it refers back to the entire
+preceding clause:
 
 ```example
-Mannen som inte bor här är lärare. — Мужчина, который не живёт здесь, — учитель.
+Han kom för sent, vilket gjorde henne arg. — He came too late, which made her angry.
 ```
 
-Выбор слова зависит от того, к чему оно относится: **som** — к существительному
-(любая роль в придаточном), **vars** — к владельцу, **där/dit** — к месту,
-**vilket** — ко всей мысли целиком.
+## BIFF inside a relativsats
+
+A relativsats is also a bisats, and "inte" comes before the finite verb inside
+it, as always:
+
+```example
+Mannen som inte bor här är lärare. — The man who doesn't live here is a teacher.
+```
+
+Which word to use depends on what it refers to: **som** — a noun (any role in
+the clause), **vars** — an owner, **där/dit** — a place, **vilket** — a whole
+idea.

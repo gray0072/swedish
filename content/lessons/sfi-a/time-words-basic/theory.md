@@ -1,35 +1,35 @@
-Четыре маленьких слова помогают говорить о времени: **nu** (сейчас), **idag**
-(сегодня), **imorgon** (завтра), **igår** (вчера). Их можно ставить и в начало, и в
-конец простого предложения.
+Four small words help you talk about time: **nu** (now), **idag** (today),
+**imorgon** (tomorrow), **igår** (yesterday). You can put them at the start or the
+end of a simple sentence.
 
 ```example
-Jag jobbar idag. — Я работаю сегодня.
-Idag jobbar jag. — Сегодня я работаю.
+Jag jobbar idag. — I work today.
+Idag jobbar jag. — Today I work.
 ```
 
-Замечаешь разницу в порядке слов? Если слово времени стоит в начале предложения,
-слово действия (jobbar) идёт сразу за ним — перед «jag». Сравни ещё раз:
+Notice the difference in word order? When the time word opens the sentence, the
+action word (jobbar) comes right after it — before "jag". Compare again:
 
 ```example
-Jag är hemma imorgon. — Я дома завтра.
-Imorgon är jag hemma. — Завтра я дома.
-Jag jobbar nu. — Я работаю сейчас.
-Nu jobbar jag. — Сейчас я работаю.
+Jag är hemma imorgon. — I'm home tomorrow.
+Imorgon är jag hemma. — Tomorrow I'm home.
+Jag jobbar nu. — I'm working now.
+Nu jobbar jag. — Now I'm working.
 ```
 
-Оба варианта правильные и означают одно и то же — просто выбирай, какое слово хочешь
-подчеркнуть, поставив его первым. Такой же порядок работает и с другими простыми
-предложениями:
+Both orders are correct and mean the same thing — you just choose which word to
+put first, to give it a little more weight. The same pattern works with other simple
+sentences too:
 
 ```example
-Nu förstår jag. — Теперь я понимаю.
+Nu förstår jag. — Now I understand.
 ```
 
-Слово **igår** ты пока встретишь в основном в коротких фразах вроде этой:
+For now you'll mostly meet **igår** in short phrases like this one:
 
 ```example
-Igår, inte idag. — Вчера, не сегодня.
+Igår, inte idag. — Yesterday, not today.
 ```
 
-Рассказ о вчерашнем дне подробно потребует новых слов, которые придут в следующих
-уроках.
+Telling a full story about yesterday needs more words, which are coming in later
+lessons.

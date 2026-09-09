@@ -1,35 +1,34 @@
-Шведский **arbetsmarknad** (рынок труда) устроен по отраслям — **bransch**: IT-branschen,
-vårdbranschen, byggbranschen и так далее. Компании, которым нужны сотрудники, публикуют
-**jobbannons** — объявление о вакансии, где перечислены **lediga jobb** (свободные места)
-и требования к кандидату.
+The Swedish **arbetsmarknad** (labour market) is organised by sector — **bransch**:
+IT-branschen, vårdbranschen, byggbranschen, and so on. Companies that need staff publish
+a **jobbannons** — a job ad listing the **lediga jobb** (vacancies) available and what
+they expect from a candidate.
 
 ```example
-Det finns flera lediga jobb inom vårdbranschen. — В сфере здравоохранения есть несколько вакансий.
-Jag läste en jobbannons på nätet igår. — Вчера я прочитал(а) объявление о вакансии в интернете.
+Det finns flera lediga jobb inom vårdbranschen. — There are several job openings in healthcare.
+Jag läste en jobbannons på nätet igår. — I read a job ad online yesterday.
 ```
 
-В объявлении обычно указывают, какие **kvalifikationer** (квалификация) и какая
-**kompetens** (компетенция, навыки) нужны, а также сколько лет **erfarenhet** (опыта)
-ожидается. Отношения между сторонами описываются словами **arbetsgivare** (работодатель)
-и **arbetstagare** (работник) — это официальные термины, которые встречаются в законах и
-договорах.
+An ad usually states what **kvalifikationer** (qualifications) and what **kompetens**
+(competence, skills) are needed, and how many years of **erfarenhet** (experience) are
+expected. The relationship between the two sides is described with the words
+**arbetsgivare** (employer) and **arbetstagare** (employee) — official terms found in
+laws and contracts.
 
 ```example
-Vilka kvalifikationer krävs för tjänsten? — Какая квалификация требуется для этой должности?
-Jag har fem års erfarenhet av kundtjänst. — У меня пять лет опыта работы в клиентской поддержке.
+Vilka kvalifikationer krävs för tjänsten? — What qualifications are required for the position?
+Jag har fem års erfarenhet av kundtjänst. — I have five years of experience in customer service.
 ```
 
-Если человек **söker jobb** (ищет работу), он часто регистрируется в
-**Arbetsförmedlingen** — государственной службе занятости, которая помогает с поиском
-и переобучением. Работу можно искать на **heltid** (полную занятость) или **deltid**
-(неполную занятость), а сам процесс подбора персонала называется **rekrytering** (наём,
-рекрутинг).
+If someone **söker jobb** (is job-hunting), they often register with
+**Arbetsförmedlingen** — the government employment agency that helps with job search and
+retraining. Work can be **heltid** (full-time) or **deltid** (part-time), and the whole
+hiring process is called **rekrytering** (recruitment).
 
 ```example
-Jag skrev in mig på Arbetsförmedlingen förra veckan. — Я встал(а) на учёт в службу занятости на прошлой неделе.
-Det är hård konkurrens om de lediga jobben. — За вакансии идёт жёсткая конкуренция.
+Jag skrev in mig på Arbetsförmedlingen förra veckan. — I registered with the Employment Service last week.
+Det är hård konkurrens om de lediga jobben. — There is fierce competition for the vacancies.
 ```
 
-За популярные вакансии обычно высокая **konkurrens** (конкуренция), поэтому важно
-понимать, как работодатели описывают свои требования — это первый шаг перед тем, как
-писать резюме и сопроводительное письмо.
+Popular vacancies usually attract heavy **konkurrens** (competition), so understanding how
+employers phrase their requirements is the first step before writing a CV and a cover
+letter.

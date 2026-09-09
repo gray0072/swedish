@@ -1,31 +1,31 @@
-Sverige har flera **högtider** («праздники») med starka **traditioner**
-(«традиции»). **Midsommar** («Мидсоммар», в конце juni) firas med dans kring en
-**midsommarstång** («майский шест») och blomsterkransar. **Jul** («Рождество»,
-i december) firas med **julgran** («ёлка»), julbord och besök av **jultomten**
-(«рождественский гном/Дед Мороз»).
+Sweden has several **högtider** (holidays) with strong **traditioner**
+(traditions). **Midsommar** (Midsummer, at the end of June) is celebrated by
+dancing around a **midsommarstång** (maypole) decorated with flowers. **Jul**
+(Christmas, in December) is celebrated with a **julgran** (Christmas tree), a
+festive table, and a visit from **jultomten** (the Christmas gnome/Santa).
 
 ```example
-Vi firar midsommar med dans och blommor i håret. — Мы отмечаем мидсоммар с танцами и цветами в волосах.
-På julafton äter familjen julbord tillsammans. — В сочельник семья вместе ест рождественский стол.
+Vi firar midsommar med dans och blommor i håret. — We celebrate Midsummer with dancing and flowers in our hair.
+På julafton äter familjen julbord tillsammans. — On Christmas Eve the family eats the Christmas table together.
 ```
 
-**Påsk** («Пасха», i mars-april) firas med **påskägg** («пасхальные яйца») och
-barn som klär ut sig till påskkärringar. **Lucia** (13 december) firar en ung
-kvinna med ljus i håret som leder ett **luciatåg** («люсиа-шествие») genom mörkret.
-**Valborg** (30 april) firas med sång och en stor **brasa** («костёр») som hälsar
-våren välkommen.
+**Påsk** (Easter, in March-April) is celebrated with **påskägg** (Easter eggs)
+and children dressing up as Easter witches. **Lucia** (13 December) is when a
+young woman with candles in her hair leads a **luciatåg** (Lucia procession)
+through the darkness. **Valborg** (30 April) is celebrated with singing and a
+large **brasa** (bonfire) that welcomes the spring.
 
 ```example
-Barnen går runt och firar påsk som små häxor. — Дети ходят и празднуют Пасху, наряженные маленькими ведьмами.
-På valborg tänder man en stor brasa och sjunger vårsånger. — На вальборг зажигают большой костёр и поют весенние песни.
+Barnen går runt och firar påsk som små häxor. — The children go around celebrating Easter dressed as little witches.
+På valborg tänder man en stor brasa och sjunger vårsånger. — On Valborg people light a big bonfire and sing spring songs.
 ```
 
-När man berättar om sin egen kultur är det bra att kunna jämföra. Man kan säga
-**"I mitt hemland firar vi..."** («В моей стране мы отмечаем...»), **"Det
-liknar..."** («Это похоже на...») eller **"Skillnaden är att..."** («Разница в
-том, что...»).
+When talking about your own culture, it helps to be able to compare. You can
+say **"I mitt hemland firar vi..."** ("In my home country we celebrate..."),
+**"Det liknar..."** ("It's similar to...") or **"Skillnaden är att..."** ("The
+difference is that...").
 
 ```example
-I mitt hemland firar vi nyår med fyrverkerier. — В моей стране мы отмечаем Новый год фейерверками.
-Det liknar jul, men skillnaden är att vi firar det en annan månad. — Это похоже на Рождество, но разница в том, что мы отмечаем его в другом месяце.
+I mitt hemland firar vi nyår med fyrverkerier. — In my home country we celebrate New Year with fireworks.
+Det liknar jul, men skillnaden är att vi firar det en annan månad. — It's similar to Christmas, but the difference is that we celebrate it in a different month.
 ```

@@ -1,41 +1,42 @@
-Шведский, на котором говорят, и шведский, который пишут в сочинении, расходятся
-сильнее, чем кажется новичку. Знать оба регистра важно: писать нужно по письменной
-норме, а понимать на слух — по разговорной.
+The Swedish people speak and the Swedish you write in an essay diverge more than a
+beginner might expect. Knowing both registers matters: write by the written norm,
+but understand spoken Swedish by the spoken one.
 
-## `dem` и `dom`
+## `dem` and `dom`
 
-В письме объектная и притяжательная форма 3 л. мн.ч. — **dem** («их/им»). В речи
-почти всегда произносят и часто пишут в неформальных сообщениях **dom** — при этом
-**dom** в разговоре заменяет ещё и подлежащее **de** («они»)!
-
-```example
-Jag såg dem igår. — Я видел их вчера. (письменно: dem)
-Jag såg dom igår. — Я видел их вчера. (в речи и SMS: dom)
-```
-
-## Стяжения (förkortningar)
-
-В быстрой речи слова сокращаются: **sedan → sen**, **någon → nån**, **något → nåt**,
-**inte → int'** (реже на письме). В официальном тексте используется полная форма.
+In writing, the object and possessive form of the 3rd person plural is **dem**
+("them/their"). In speech it's almost always pronounced, and often written in
+informal messages, as **dom** — and in speech **dom** also replaces the subject form
+**de** ("they")!
 
 ```example
-Vi ses sen! — Увидимся потом! (разговорное sen = sedan)
-Har du nåt att säga? — Тебе есть что сказать? (разговорное nåt = något)
+Jag såg dem igår. — I saw them yesterday. (written: dem)
+Jag såg dom igår. — I saw them yesterday. (spoken/text messages: dom)
 ```
 
-## Модальные частицы
+## Contractions (förkortningar)
 
-Слова **ju** («ведь, же»), **nog** («наверное, пожалуй»), **väl** («полагаю, ведь»)
-смягчают или окрашивают высказывание в устной речи, добавляя оттенок уверенности,
-сомнения или очевидности. В официальном письме их почти не встретишь — там мысль
-формулируют прямо, без таких частиц.
+In fast speech, words get shortened: **sedan → sen**, **någon → nån**, **något →
+nåt**, **inte → int'** (rarer in writing). Formal text uses the full form.
 
 ```example
-Det är ju uppenbart. — Ну это же очевидно.
-Han kommer nog snart. — Он, наверное, скоро придёт.
-Du vet väl vad klockan är? — Ты ведь знаешь, который час?
+Vi ses sen! — See you later! (colloquial sen = sedan)
+Har du nåt att säga? — Do you have anything to say? (colloquial nåt = något)
 ```
 
-Хороший ориентир: если пишете заявление, письмо в организацию или referat — держитесь
-полных форм (**dem**, **sedan**, **något**) и избегайте частиц **ju/nog/väl**. Если
-переписываетесь с другом — разговорный вариант звучит естественнее.
+## Modal particles
+
+Words like **ju** ("you know, after all"), **nog** ("probably, I'd guess"), and
+**väl** ("I suppose, right?") soften or colour a statement in speech, adding a shade
+of certainty, doubt, or obviousness. You'll barely see them in formal writing — there,
+a thought is stated directly, without such particles.
+
+```example
+Det är ju uppenbart. — Well, it's obvious, isn't it.
+Han kommer nog snart. — He'll probably come soon.
+Du vet väl vad klockan är? — You know what time it is, right?
+```
+
+A good rule of thumb: writing an application, a letter to an organisation, or a
+referat — stick to the full forms (**dem**, **sedan**, **något**) and avoid the
+particles **ju/nog/väl**. Texting a friend — the spoken variant sounds more natural.

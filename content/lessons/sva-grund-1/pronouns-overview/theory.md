@@ -1,7 +1,7 @@
-В шведском у местоимения не одна форма, а целых четыре — в зависимости от роли в
-предложении. Разберём все четыре ряда сразу, на одной карте.
+Swedish pronouns don't have just one form — they have four, depending on their role in
+the sentence. Let's look at all four rows at once, on one map.
 
-| Лицо | Личное (подлежащее) | Объектное | Притяжательное | Возвратное |
+| Person | Personal (subject) | Object | Possessive | Reflexive |
 |---|---|---|---|---|
 | jag | jag | mig | min / mitt / mina | mig |
 | du | du | dig | din / ditt / dina | dig |
@@ -13,25 +13,26 @@
 | ni | ni | er | er / ert / era | er |
 | de | de | dem | deras | sig |
 
-**Личное** местоимение — подлежащее: *Jag bor i Malmö* (я живу в Мальмё).
+The **personal** pronoun is the subject: *Jag bor i Malmö* (I live in Malmö).
 
-**Объектное** — то, на что действие направлено: *Hon ringer mig* (она звонит мне).
+The **object** pronoun is what the action is directed at: *Hon ringer mig* (she calls me).
 
-**Притяжательное** отвечает на вопрос «чей?» и, как прилагательное, согласуется с
-предметом обладания по роду и числу: *min bok* (en-слово), *mitt hus* (ett-слово),
-*mina böcker* (множественное число).
+The **possessive** pronoun answers "whose?" and, like an adjective, agrees with the
+thing owned in gender and number: *min bok* (an en-word), *mitt hus* (an ett-word),
+*mina böcker* (plural).
 
-**Возвратное** *sig* — только для 3-го лица (han/hon/den/det/de) и означает «самого
-себя»: подлежащее и объект — один и тот же человек.
+The **reflexive** pronoun *sig* exists only for the 3rd person (han/hon/den/det/de) and
+means "himself/herself/itself/themselves": the subject and the object are the same
+person.
 
 ```example
-Han tvättar sig. — Он моется (сам себя).
-Han tvättar honom. — Он моет его (кого-то другого).
+Han tvättar sig. — He washes himself.
+Han tvättar honom. — He washes him (someone else).
 ```
 
-Важно не путать возвратное *sig* с притяжательно-возвратным *sin/sitt/sina* — это
-разные слова с разной ролью: *sig* заменяет объект, *sin/sitt/sina* заменяет
-притяжательное местоимение 3-го лица. Про них — отдельный, более сложный урок.
+Don't confuse the reflexive *sig* with the possessive-reflexive *sin/sitt/sina* — they
+are different words with different jobs: *sig* replaces an object, while *sin/sitt/sina*
+replaces a 3rd-person possessive. That pair gets its own, trickier lesson.
 
-Для 1-го и 2-го лица (jag, du, vi, ni) отдельного возвратного местоимения нет —
-используются обычные объектные формы: *mig, dig, oss, er*.
+For the 1st and 2nd person (jag, du, vi, ni) there is no separate reflexive form — the
+ordinary object forms are used instead: *mig, dig, oss, er*.

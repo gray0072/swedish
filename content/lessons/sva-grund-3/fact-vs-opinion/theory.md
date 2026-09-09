@@ -1,34 +1,35 @@
-**Fakta** (факт) можно проверить: он опирается на данные, документы или наблюдения.
-**Åsikt** (мнение) — это личная оценка, которая может быть разумной, но не является
-доказанной истиной. Часто оба типа высказываний смешаны в одном тексте, и полезно уметь
-их разделять по языковым сигналам.
+A **fakta** (fact) can be checked: it rests on data, documents or observation. An
+**åsikt** (opinion) is a personal judgement that may be reasonable but is not a proven
+truth. The two are often mixed together in a single text, and it helps to be able to
+tell them apart by their language signals.
 
 ```example
-Bussen var 20 minuter försenad idag enligt tidtabellen. — Согласно расписанию, автобус сегодня опоздал на 20 минут.
-Jag tycker att bussarna alltid är sena. — По-моему, автобусы всегда опаздывают.
+Bussen var 20 minuter försenad idag enligt tidtabellen. — According to the timetable, the bus was 20 minutes late today.
+Jag tycker att bussarna alltid är sena. — I think the buses are always late.
 ```
 
-Мнение часто вводится характерными фразами: **jag tycker...** (я считаю), **enligt min
-mening...** (по моему мнению), **det verkar som...** (кажется, что) или наречием
-**uppenbarligen** (очевидно) — которое, несмотря на звучание, часто выражает личную
-оценку автора, а не доказанный факт.
+An opinion is often introduced by characteristic phrases: **jag tycker...** (I think),
+**enligt min mening...** (in my opinion), **det verkar som...** (it seems that), or the
+adverb **uppenbarligen** (obviously) — which, despite how it sounds, often expresses the
+author's own judgement rather than a proven fact.
 
 ```example
-Enligt min mening är det för dyrt att bo här. — По моему мнению, здесь слишком дорого жить.
-Uppenbarligen fungerar inte den nya regeln särskilt bra. — Очевидно, новое правило работает не очень хорошо.
+Enligt min mening är det för dyrt att bo här. — In my opinion, it is too expensive to live here.
+Uppenbarligen fungerar inte den nya regeln särskilt bra. — Apparently, the new rule is not working very well.
 ```
 
-Фактическое утверждение, наоборот, часто опирается на конкретные числа и источники:
-**enligt statistiken...** (согласно статистике), **siffrorna visar att...** (цифры
-показывают, что). Такое **påstående** (утверждение) можно **styrka** (подкрепить)
-конкретными **bevis** (доказательствами).
+A factual statement, by contrast, often rests on concrete numbers and sources:
+**enligt statistiken...** (according to the statistics), **siffrorna visar att...**
+(the figures show that). Such a **påstående** (claim) can be **styrkt** (supported) with
+concrete **bevis** (evidence).
 
 ```example
-Enligt statistiken har arbetslösheten minskat med två procent. — Согласно статистике, безработица снизилась на два процента.
-Rapporten styrker påståendet med tydliga siffror. — Отчёт подтверждает утверждение чёткими цифрами.
+Enligt statistiken har arbetslösheten minskat med två procent. — According to the statistics, unemployment has fallen by two percent.
+Rapporten styrker påståendet med tydliga siffror. — The report supports the claim with clear figures.
 ```
 
-Текст, который стремится быть **objektiv** (объективным), опирается на проверяемые
-факты; текст, который открыто **subjektiv** (субъективен) — например, авторская колонка
-— строится на личных выводах автора. Умение различать их помогает самостоятельно
-**dra en slutsats** (делать выводы), а не принимать чужое мнение за установленный факт.
+A text that aims to be **objektiv** (objective) rests on verifiable facts; a text that
+is openly **subjektiv** (subjective) — an opinion column, for instance — is built on the
+author's own conclusions. Being able to tell them apart helps you **dra en slutsats**
+(draw your own conclusions) rather than mistaking someone else's opinion for an
+established fact.

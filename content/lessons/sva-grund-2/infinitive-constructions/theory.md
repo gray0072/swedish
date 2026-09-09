@@ -1,53 +1,54 @@
-После некоторых оборотов шведский инфинитив идёт «голым» — без подлежащего, только с
-частицей **att** перед глаголом. Это не полноценный bisats: своего subjekt и личного
-глагола там нет, поэтому правило BIFF к ним буквально не применяется — но **inte**,
-если оно нужно, всё равно встаёт прямо перед инфинитивом, сразу после att.
+After certain conjunction-like expressions, a Swedish infinitive appears "bare" —
+with no subject of its own, just the particle **att** before the verb. This is not a
+full bisats: it has no subjekt and no finite verb of its own, so the BIFF rule doesn't
+literally apply — but **inte**, when it's needed, still lands right before the
+infinitive, immediately after att.
 
-## för att — цель
+## för att — purpose
 
-**för att** + голый инфинитив = «чтобы» (цель):
-
-```example
-Han sparar pengar för att köpa en bil. — Он копит деньги, чтобы купить машину.
-```
-
-Осторожно: то же **för att** перед подлежащим и личным глаголом означает «потому что» —
-и это уже настоящий bisats:
+**för att** + bare infinitive = "in order to" (purpose):
 
 ```example
-Han är trött för att han jobbade hela natten. — Он устал, потому что работал всю ночь.
+Han sparar pengar för att köpa en bil. — He saves money in order to buy a car.
 ```
 
-Тест простой: сразу инфинитив без подлежащего — цель; есть подлежащее и личный
-глагол — причина.
+Careful: the same **för att** before a subject and a finite verb means "because" —
+and that's a real bisats:
+
+```example
+Han är trött för att han jobbade hela natten. — He's tired because he worked all night.
+```
+
+Simple test: a bare infinitive right after it — purpose; a subject and finite
+verb — cause.
 
 ## utan att, genom att, istället för att
 
 ```example
-Hon gick utan att säga hejdå. — Она ушла, не попрощавшись.
-Man lär sig svenska genom att prata mycket. — Шведский учат, много разговаривая.
-Han läste en bok istället för att titta på tv. — Он читал книгу вместо того, чтобы смотреть телевизор.
+Hon gick utan att säga hejdå. — She left without saying goodbye.
+Man lär sig svenska genom att prata mycket. — You learn Swedish by talking a lot.
+Han läste en bok istället för att titta på tv. — He read a book instead of watching TV.
 ```
 
-**utan att** — «не делая, без того чтобы»; **genom att** — способ или средство
-(«путём того что»); **istället för att** — «вместо того чтобы». Все три работают
-одинаково: союзное выражение + голый инфинитив, без своего подлежащего.
+**utan att** — "without doing"; **genom att** — means or method ("by doing");
+**istället för att** — "instead of doing". All three work the same way: a
+conjunction-like phrase + a bare infinitive, with no subject of its own.
 
-## Отрицание: att inte
+## Negation: att inte
 
-Если нужно отрицание, **inte** становится прямо после att, перед инфинитивом:
+For negation, **inte** goes right after att, before the infinitive:
 
 ```example
-Hon lovade att inte röka. — Она обещала не курить.
+Hon lovade att inte röka. — She promised not to smoke.
 ```
 
-Сравни с настоящим bisats, где есть своё подлежащее, и inte стоит перед личным
-глаголом (правило BIFF):
+Compare a real bisats, which has its own subject, where inte comes before the
+finite verb (the BIFF rule):
 
 ```example
-Han är hemma eftersom han inte har tid. — Он дома, потому что у него нет времени.
+Han är hemma eftersom han inte har tid. — He's home because he doesn't have time.
 ```
 
-Главный тест для всей темы один: если после союзного слова сразу идёт голый
-инфинитив без подлежащего — перед нами инфинитивный оборот; если есть подлежащее
-и личный глагол — это bisats, и в нём работает BIFF.
+One test covers the whole topic: a bare infinitive right after the conjunction —
+an infinitive construction; a subject plus a finite verb — a bisats, where BIFF
+applies.

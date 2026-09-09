@@ -1,32 +1,34 @@
-Личное **brev** («письмо») другу или родственнику начинается с обращения. Самое простое —
-**Hej Anna!** («Привет, Анна!»), более тёплое и старомодное — **Kära Anna,** («Дорогая
-Анна,»): «kära» ставится перед именем независимо от рода.
+A personal **brev** ("letter") to a friend or relative opens with a salutation. The
+simplest is **Hej Anna!** ("Hi Anna!"); a warmer, more old-fashioned one is **Kära
+Anna,** ("Dear Anna,") — "kära" goes before the name regardless of gender.
 
 ```example
-Hej Anna! Hoppas allt är bra med dig. — Привет, Анна! Надеюсь, у тебя всё хорошо.
-Kära Erik, Tack för ditt brev! — Дорогой Эрик, спасибо за твоё письмо!
+Hej Anna! Hoppas allt är bra med dig. — Hi Anna! Hope everything's fine with you.
+Kära Erik, Tack för ditt brev! — Dear Erik, thanks for your letter!
 ```
 
-В середине письма пригодятся фразы-связки: **Jag skriver för att...** («Пишу, чтобы...»),
-**Jag skriver för att berätta att...** («...сообщить, что...»), и в конце — **Hör av dig
-snart!** («Дай о себе знать поскорее!») или **Vi ses snart!** («Скоро увидимся!»).
+In the body, useful connecting phrases include **Jag skriver för att...** ("I'm writing
+to..."), **Jag skriver för att berätta att...** ("...to tell you that..."), and near the
+end **Hör av dig snart!** ("Let me hear from you soon!") or **Vi ses snart!** ("See you
+soon!").
 
-Прощание (**avslutning**) зависит от степени близости. Нейтральное и вежливое —
-**Med vänlig hälsning** («С наилучшими пожеланиями») — годится и для полуформальных
-писем. Более тёплое — просто **Hälsningar** («Привет» / «С приветом»). Самое неформальное,
-между близкими людьми, — **Kram** («Обнимаю») или **Puss och kram** («Целую и обнимаю»).
+The closing (**avslutning**) depends on how close you are. Neutral and polite —
+**Med vänlig hälsning** ("Kind regards") — also works for semi-formal letters. Warmer is
+just **Hälsningar** ("Regards"). The most informal, between close people, is **Kram**
+("Hugs") or **Puss och kram** ("Kisses and hugs").
 
 ```example
-Jag skriver för att berätta att jag flyttar till Malmö. — Пишу, чтобы сказать, что я переезжаю в Мальмё.
-Hör av dig snart! Kram, Sofia — Дай знать о себе поскорее! Обнимаю, София
+Jag skriver för att berätta att jag flyttar till Malmö. — I'm writing to tell you I'm moving to Malmö.
+Hör av dig snart! Kram, Sofia — Let me hear from you soon! Hugs, Sofia
 ```
 
-Короткое **sms** («смс-сообщение») устроено совсем иначе: без обращения и подписи,
-короткими фразами, иногда с сокращениями вроде **iaf** («i alla fall», «в любом случае»).
+A short **sms** ("text message") works very differently: no salutation, no signature,
+short phrases, sometimes abbreviations like **iaf** ("i alla fall", "anyway").
 
 ```example
-Hej! Kan inte komma ikväll, sry! Hör av mig imorgon. — Привет! Не могу прийти сегодня, извини! Напишу завтра.
+Hej! Kan inte komma ikväll, sry! Hör av mig imorgon. — Hi! Can't come tonight, sorry! I'll message you tomorrow.
 ```
 
-Разница в **hälsning** («приветствие/обращение») — это разница в регистре: письмо близкому
-**vän** («другу») пишут тепло и подробно, а sms — коротко и по делу.
+The difference in **hälsning** ("greeting") is really a difference in register: a letter
+to a close **vän** ("friend") is written warmly and in detail, while a text message stays
+short and to the point.

@@ -1,36 +1,35 @@
-# Существительное: род, число, определённость
+# The noun: gender, number, definiteness
 
-У каждого существительного есть **род** (en или ett, около 75% слов — en) и четыре формы:
-неопределённое/определённое единственное число, неопределённое/определённое множественное.
-Определённость — это не отдельное слово, а **окончание**, приклеенное к существительному.
+Every noun has a **gender** (en or ett — about 75% of words are en) and four forms:
+indefinite/definite singular, indefinite/definite plural. Definiteness is not a separate
+word but an **ending** glued onto the noun itself.
 
-Множественное число образуется по одному из пяти продуктивных типов. Запоминать тип нужно
-вместе со словом — по роду его не вычислить надёжно.
+The plural is built with one of five productive patterns. You have to memorize the
+pattern together with the word — gender alone does not reliably predict it.
 
-| Класс | Пример | Неопр. ед. | Опр. ед. | Неопр. мн. | Опр. мн. |
+| Class | Example | Indef. sg | Def. sg | Indef. pl | Def. pl |
 |---|---|---|---|---|---|
-| **-or** (en, часто на -a) | flicka (девочка) | en flicka | flickan | flick**or** | flick**orna** |
-| **-ar** (en, самый частый) | bil (машина) | en bil | bilen | bil**ar** | bil**arna** |
-| **-er** (en) | familj (семья) | en familj | familjen | familj**er** | familj**erna** |
-| **без окончания** (часто ett) | hus (дом) | ett hus | huset | hus | hus**en** |
-| **-n** (ett, основа на гласную) | äpple (яблоко) | ett äpple | äpplet | äpple**n** | äpple**na** |
+| **-or** (en, often -a words) | flicka (girl) | en flicka | flickan | flick**or** | flick**orna** |
+| **-ar** (en, the most common) | bil (car) | en bil | bilen | bil**ar** | bil**arna** |
+| **-er** (en) | familj (family) | en familj | familjen | familj**er** | familj**erna** |
+| **no ending** (often ett) | hus (house) | ett hus | huset | hus | hus**en** |
+| **-n** (ett, stem ends in a vowel) | äpple (apple) | ett äpple | äpplet | äpple**n** | äpple**na** |
 
-Определённое множественное почти всегда получается по общему правилу: неопределённое
-множественное + **-na** (если основа заканчивается на согласную) или **-en** (если основа
-уже оканчивается на согласную без своего окончания, как *hus → husen*).
+The definite plural almost always follows one general rule: indefinite plural +
+**-na** (if the stem ends in a consonant) or **-en** (if the plural already has no ending
+of its own, as in *hus → husen*).
 
 ```example
-en bil — машина (какая-то)
-bilen — машина (та самая)
-bilar — машины (какие-то)
-bilarna — машины (те самые)
+en bil — a car
+bilen — the car
+bilar — cars
+bilarna — the cars
 ```
 
-Есть нерегулярные слова внутри классов: **stad** (город) во множественном числе меняет
-гласную — *städer, städerna* (класс -er), а **barn** (ребёнок) — ett-слово с нулевым
-окончанием и в единственном, и во множественном числе: *barn → barnen*.
+Some words are irregular inside their own class: **stad** (city) changes its vowel in the
+plural — *städer, städerna* (still the -er class), and **barn** (child) is an ett-word
+with a zero ending in both singular and plural: *barn → barnen*.
 
-Род (en/ett) не выводится из значения или формы слова почти никогда: приходится
-запоминать его как часть словарной формы, например «**en** bil», а не просто «bil». Учи
-новое существительное сразу с артиклем и с формой множественного числа — это экономит
-время в будущем.
+Gender (en/ett) is almost never predictable from a word's meaning or shape: you have to
+memorize it as part of the dictionary form, e.g. "**en** bil", not just "bil". Learn a new
+noun together with its article and its plural form — it saves time later.

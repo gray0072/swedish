@@ -1,47 +1,47 @@
-В «discrimination-equality» речь шла о дискриминации. Теперь — о более
-широких понятиях: правах человека, инклюзии и разнице между двумя похожими
-шведскими словами о равенстве.
+In "discrimination-equality" we talked about discrimination. Now: broader
+concepts — human rights, inclusion, and the difference between two similar
+Swedish words about equality.
 
-## Права человека
+## Human rights
 
 ```example
-Mänskliga rättigheter gäller alla människor, oavsett var de bor. — Права человека распространяются на всех людей, независимо от того, где они живут.
+Mänskliga rättigheter gäller alla människor, oavsett var de bor. — Human rights apply to all people, regardless of where they live.
 ```
 
-## Инклюзия и участие
+## Inclusion and participation
 
 ```example
-Skolan arbetar aktivt med inkludering av alla elever. — Школа активно работает над инклюзией всех учеников.
-```
-
-```example
-Delaktighet betyder att man känner sig som en del av gemenskapen. — Причастность означает, что человек чувствует себя частью сообщества.
-```
-
-## Jämlikhet и jämställdhet — не одно и то же!
-
-```example
-Jämlikhet handlar om att alla människor har samma värde och rättigheter. — Равенство (jämlikhet) означает, что все люди имеют одинаковую ценность и права.
+Skolan arbetar aktivt med inkludering av alla elever. — The school actively works on including all pupils.
 ```
 
 ```example
-Jämställdhet handlar specifikt om jämlikhet mellan kvinnor och män. — Гендерное равенство (jämställdhet) касается именно равенства между женщинами и мужчинами.
+Delaktighet betyder att man känner sig som en del av gemenskapen. — A sense of belonging (delaktighet) means feeling like part of the community.
 ```
 
-`Jämlikhet` — общее слово (равенство между людьми в целом: по этничности,
-классу, возможностям). `Jämställdhet` — уже, только про женщин и мужчин.
-Это частая ошибка у изучающих шведский.
-
-## Доступность
+## Jämlikhet vs. jämställdhet — not the same thing!
 
 ```example
-Tillgänglighet handlar om att alla ska kunna ta sig fram och delta. — Доступность означает, что все должны иметь возможность передвигаться и участвовать.
+Jämlikhet handlar om att alla människor har samma värde och rättigheter. — Equality (jämlikhet) means all people have the same worth and rights.
 ```
 
-## Полезно знать
+```example
+Jämställdhet handlar specifikt om jämlikhet mellan kvinnor och män. — Gender equality (jämställdhet) is specifically about equality between women and men.
+```
 
-1. Не путайте `jämlikhet` (равенство вообще) и `jämställdhet` (гендерное
-   равенство) — это две разные, хотя и похожие идеи.
-2. `Delaktighet` — не просто присутствие, а ощущение принадлежности.
-3. `Tillgänglighet` касается не только пандусов, но и доступности
-   информации, языка и услуг.
+`Jämlikhet` is the general word (equality among people overall: ethnicity,
+class, ability). `Jämställdhet` is narrower — specifically about women and
+men. Learners of Swedish mix these up often.
+
+## Accessibility
+
+```example
+Tillgänglighet handlar om att alla ska kunna ta sig fram och delta. — Accessibility means everyone should be able to get around and take part.
+```
+
+## Good to know
+
+1. Don't confuse `jämlikhet` (equality in general) with `jämställdhet`
+   (gender equality) — two related but different ideas.
+2. `Delaktighet` isn't just being present — it's a feeling of belonging.
+3. `Tillgänglighet` is about more than ramps — also access to information,
+   language, and services.

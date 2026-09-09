@@ -1,44 +1,45 @@
-Прошлый уровень дал инструмент — номинализацию (`genomförande`, `granskning`,
-`utbetalning`). Теперь важнее не «как образовать», а «когда уместно использовать».
+The previous level gave you a tool — nominalisation (`genomförande`, `granskning`,
+`utbetalning`). Now what matters more is not "how to form it" but "when it's actually
+appropriate to use."
 
-## Номинальный стиль: действия через существительные
+## Nominal style: actions expressed as nouns
 
-Номинальный стиль строит предложение вокруг отглагольного существительного, а
-глагол превращается в «лёгкую» опору: `ske`, `äga rum`, `resultera i`, `genomföras`.
-Типичен для канцелярского, юридического и старого академического языка:
-
-```example
-Genomförandet av undersökningen resulterade i nya rekommendationer. — Проведение исследования привело к новым рекомендациям.
-Beslutet fattades efter en granskning av ansökan. — Решение было принято после проверки заявления.
-```
-
-## Глагольный стиль: действия через глаголы
-
-Глагольный стиль называет то же действие глаголом напрямую, обычно с ясным
-подлежащим-деятелем — это делает текст короче и понятнее:
+Nominal style builds the sentence around a deverbal noun, while the verb shrinks into
+a "light" support: `ske`, `äga rum`, `resultera i`, `genomföras`. It is typical of
+officialese, legal language, and older academic Swedish:
 
 ```example
-Vi genomförde undersökningen, vilket ledde till nya rekommendationer. — Мы провели исследование, что привело к новым рекомендациям.
-Vi fattade beslutet efter att ha granskat ansökan. — Мы приняли решение после того, как проверили заявление.
+Genomförandet av undersökningen resulterade i nya rekommendationer. — The carrying-out of the investigation resulted in new recommendations.
+Beslutet fattades efter en granskning av ansökan. — The decision was made after a review of the application.
 ```
 
-## Сравним рядом
+## Verbal style: actions expressed as verbs
 
-| Номинальный стиль | Глагольный стиль |
+Verbal style names the same action directly with a verb, usually with a clear
+subject doing the acting — this makes the text shorter and easier to follow:
+
+```example
+Vi genomförde undersökningen, vilket ledde till nya rekommendationer. — We carried out the investigation, which led to new recommendations.
+Vi fattade beslutet efter att ha granskat ansökan. — We made the decision after reviewing the application.
+```
+
+## Side by side
+
+| Nominal style | Verbal style |
 |---|---|
 | Genomförandet av undersökningen resulterade i nya rekommendationer. | Vi genomförde undersökningen, vilket ledde till nya rekommendationer. |
 | Utbetalningen av bidraget sker i början av månaden. | Vi betalar ut bidraget i början av månaden. |
 | Beslutet fattades efter en granskning av ansökan. | Vi fattade beslutet efter att ha granskat ansökan. |
 
-## Какой стиль выбрать
+## Which style to choose
 
-Номинальный стиль звучит официально и безлично — иногда это именно то, что нужно
-(например, чтобы не называть, кто именно принял решение). Но он тяжелее читается:
-подлежащее теряется, действие «застывает» в существительном.
+Nominal style sounds official and impersonal — sometimes that's exactly what you
+want (for instance, to avoid naming who exactly made a decision). But it reads more
+heavily: the subject disappears and the action "freezes" into a noun.
 
-Современное шведское движение за **klarspråk** («ясный язык») — рекомендации
-языкового совета и государственных ведомств — прямо советует чиновникам заменять
-номинализации глаголами и писать `vi genomförde` вместо `genomförandet skedde`, даже
-в официальных текстах: так текст легче понимает обычный читатель. Это осознанный
-стилистический выбор, а не жёсткое грамматическое правило: номинальный стиль не
-«ошибочен», но всё чаще считается менее удачным по умолчанию.
+The modern Swedish **klarspråk** ("plain language") movement — guidance from the
+Language Council and government agencies — actively advises officials to replace
+nominalisations with verbs, writing `vi genomförde` instead of `genomförandet
+skedde`, even in official documents: it makes the text easier for ordinary readers to
+follow. This is a deliberate stylistic choice, not a strict grammar rule: nominal
+style isn't "wrong", but it's increasingly seen as the weaker default.

@@ -1,47 +1,47 @@
-Фигуры в шведском узнаваемы: **en cirkel** (круг), **en kvadrat** (квадрат),
-**en triangel** (треугольник), **en rektangel** (прямоугольник). Ещё пригодятся
-**en linje** (линия) и **en punkt** (точка).
+The shapes are easy to recognise: **en cirkel** (circle), **en kvadrat** (square),
+**en triangel** (triangle), **en rektangel** (rectangle). You will also need
+**en linje** (line) and **en punkt** (dot).
 
-Размеры всегда учат парами:
+Sizes are always learned in pairs:
 
-| большой / маленький | stor / liten |
+| big / small | stor / liten |
 |---|---|
-| длинный / короткий | lång / kort |
-| высокий / низкий | hög / låg |
-| широкий / узкий | bred / smal |
-| толстый / тонкий | tjock / tunn |
-| тяжёлый / лёгкий | tung / lätt |
+| long / short | lång / kort |
+| high / low | hög / låg |
+| wide / narrow | bred / smal |
+| thick / thin | tjock / tunn |
+| heavy / light | tung / lätt |
 
-## Тот же образец, что и с цветами
+## The same pattern as the colors
 
-Прилагательные размера меняются так же, как цвета:
+Size words change exactly like the colors did:
 
-| | en-слово | ett-слово | множественное число |
+| | en-word | ett-word | plural |
 |---|---|---|---|
 | **stor** | en stor bil | ett stort hus | stora bilar |
 | **rund** | en rund boll | ett runt bord | runda bord |
 
 ```example
-Gatan är bred. — Улица широкая.
-Berget är högt. — Гора высокая.
-Väskan är tung. — Сумка тяжёлая.
+Gatan är bred. — The street is wide.
+Berget är högt. — The mountain is high.
+Väskan är tung. — The bag is heavy.
 ```
 
-## Liten — единственное слово-исключение
+## Liten — the one exception
 
-Одно слово ведёт себя не по образцу. Это **liten**. Его нужно выучить наизусть — другого
-способа нет:
+One word does not follow the pattern at all: **liten**. You simply have to memorise it;
+there is no shortcut.
 
-| en-слово | ett-слово | после den/det/min | множественное число |
+| en-word | ett-word | after den/det/min | plural |
 |---|---|---|---|
 | en liten bil | ett litet hus | den lilla bilen | små bilar |
 
 ```example
-Jag har en liten bil. — У меня маленькая машина.
-Vi bor i ett litet hus. — Мы живём в маленьком доме.
-Den lilla flickan heter Eva. — Маленькую девочку зовут Эва.
-Vi har två små barn. — У нас двое маленьких детей.
+Jag har en liten bil. — I have a small car.
+Vi bor i ett litet hus. — We live in a small house.
+Den lilla flickan heter Eva. — The little girl is called Eva.
+Vi har två små barn. — We have two small children.
 ```
 
-Обрати внимание: **små** совсем не похоже на **liten**. Это самая частая ошибка
-начинающих — сказать «litena bilar» вместо **små bilar**.
+Notice that **små** looks nothing like **liten**. This is the most common beginner
+mistake — saying "litena bilar" instead of **små bilar**.

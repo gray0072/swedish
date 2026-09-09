@@ -1,14 +1,11 @@
-В шведском есть удобное слово **dygn** — «сутки», целый цикл день+ночь одним словом, без
-аналога в русском («сутки» ближе всего, но по-шведски это ощущается ещё более обыденно).
+Swedish has a handy word, **dygn** — the full day-and-night cycle in a single word. English has no exact equivalent; the closest you can do is "a full day" or "24 hours", but in Swedish the word feels like a completely ordinary, everyday one.
 
-Вспомни приветствия из первой темы — они как раз привязаны к этим частям суток:
+Recall the greetings from the first lesson — they are tied exactly to these parts of the day:
 
 ```example
-på morgonen — утром (God morgon!)
-på kvällen — вечером (God kväll!)
-på natten — ночью (God natt!)
+på morgonen — in the morning (God morgon!)
+på kvällen — in the evening (God kväll!)
+på natten — at night (God natt!)
 ```
 
-Между **förmiddag** («до полудня») и **eftermiddag** («после полудня») стоит **middag** —
-буквально «середина дня». Само слово *middag* по-шведски также означает «обед» —
-исторически главный приём пищи как раз выпадал на середину дня.
+Between **förmiddag** ("before noon") and **eftermiddag** ("after noon") stands **middag** — literally "the middle of the day". The word *middag* in Swedish also means "dinner" — historically, the main meal of the day fell right in the middle of it.

@@ -1,23 +1,23 @@
-После **grundläggande vuxenutbildning** (базового образования для взрослых) — то есть после SFI и всех делкурсов SVA grund — открывается путь на **gymnasienivå** (гимназический уровень). Ключевой предмет здесь — **Svenska som andraspråk 1**: он входит в число **gymnasiegemensamma ämnen** (общих для всех программ предметов) и стоит 100 баллов.
+After **grundläggande vuxenutbildning** (basic adult education) — that is, after SFI and every SVA grund delkurs — the path opens to **gymnasienivå** (upper-secondary level). The key subject here is **Svenska som andraspråk 1**: it is one of the **gymnasiegemensamma ämnen** (subjects common to every programme) and is worth 100 points.
 
-У каждого курса есть **kursplan** (учебный план) с описанием целей и содержания, а также **kunskapskrav** (требования к знаниям) для каждой оценки. Раньше их называли **betygskriterier**, и это слово всё ещё часто встречается в разговоре.
-
-```example
-Kursplanen för Svenska som andraspråk 1 finns på Skolverkets webbplats. — Учебный план курса «Шведский как второй язык 1» есть на сайте Skolverket.
-Läraren förklarade betygskriterierna innan provet. — Учитель объяснил критерии оценивания перед контрольной.
-```
-
-Оценки ставятся по **betygsskala** от A до F, и нужен минимум **godkänt betyg** — то есть E, — чтобы курс засчитали. Итоговая оценка называется **slutbetyg**, и именно она даёт **behörighet** (право) на дальнейшую учёбу, например в вузе.
+Every course has a **kursplan** (syllabus) describing its aims and content, plus **kunskapskrav** (knowledge requirements) for each grade. These used to be called **betygskriterier**, and the word is still common in everyday speech.
 
 ```example
-Betygsskalan på gymnasienivå går från A till F. — Шкала оценок на гимназическом уровне — от A до F.
-Slutbetyget ger dig behörighet till högskolan. — Итоговая оценка даёт тебе право на поступление в вуз.
+Kursplanen för Svenska som andraspråk 1 finns på Skolverkets webbplats. — The syllabus for Swedish as a Second Language 1 is on the Skolverket website.
+Läraren förklarade betygskriterierna innan provet. — The teacher explained the grading criteria before the test.
 ```
 
-Учиться на гимназическом уровне взрослые обычно идут через **komvux** (муниципальное образование для взрослых), а не в обычную **gymnasieskola**. Там можно выбрать **yrkesprogram** (профессиональную программу) или **högskoleförberedande program** (программу для подготовки к вузу). Если сомневаешься, какие курсы нужны именно тебе, — обратись к **studievägledare** (консультанту по выбору учёбы).
+Grades follow a **betygsskala** from A to F, and you need at least a **godkänt betyg** — an E — for the course to count. The final grade is called a **slutbetyg**, and it is exactly this that gives you **behörighet** (eligibility) for further studies, at university for instance.
 
 ```example
-Fråga din studievägledare vilka kurser du behöver för behörighet. — Спроси у консультанта по учёбе, какие курсы нужны для допуска.
+Betygsskalan på gymnasienivå går från A till F. — The grading scale at upper-secondary level runs from A to F.
+Slutbetyget ger dig behörighet till högskolan. — The final grade gives you eligibility for university.
 ```
 
-Полный набор положительных итоговых оценок по всем предметам даёт **gymnasieexamen** — аттестат о среднем образовании.
+Adults usually study at upper-secondary level through **komvux** (municipal adult education) rather than a regular **gymnasieskola**. There you can choose a **yrkesprogram** (vocational programme) or a **högskoleförberedande program** (higher-education preparatory programme). If you are unsure which courses you need, ask your **studievägledare** (study and career counsellor).
+
+```example
+Fråga din studievägledare vilka kurser du behöver för behörighet. — Ask your study and career counsellor which courses you need for eligibility.
+```
+
+A full set of passing final grades in every subject gives you a **gymnasieexamen** — an upper-secondary diploma.

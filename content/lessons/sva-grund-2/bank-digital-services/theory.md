@@ -1,34 +1,34 @@
-Чтобы **öppna ett bankkonto** («открыть банковский счёт») в Швеции, обычно
-нужны удостоверение личности и личный номер. У счёта есть **kontonummer**
-(«номер счёта») и **clearingnummer** — код, который показывает, какому банку
-принадлежит счёт.
+To **öppna ett bankkonto** (open a bank account) in Sweden you usually need
+ID and your personal number. An account has a **kontonummer** (account
+number) and a **clearingnummer** — a code that shows which bank the account
+belongs to.
 
 ```example
-Du behöver legitimation för att öppna ett bankkonto. — Тебе нужно удостоверение личности, чтобы открыть банковский счёт.
-Ange kontonummer och clearingnummer. — Укажи номер счёта и клиринговый номер.
+Du behöver legitimation för att öppna ett bankkonto. — You need ID to open a bank account.
+Ange kontonummer och clearingnummer. — Enter the account number and the clearing number.
 ```
 
-Большинство повседневных дел ведётся через **internetbank** («интернет-банк»)
-и **e-legitimation** — вход происходит с помощью BankID или похожего
-приложения. Мгновенные переводы между людьми чаще всего делаются через
-**Swish**: сказать «**swisha** мне деньги» — обычное дело.
+Most everyday banking happens through **internetbank** (internet banking)
+and **e-legitimation** — you log in using BankID or a similar app. Instant
+transfers between people are usually done through **Swish**: asking someone
+to **swisha** you money is completely normal.
 
 ```example
-Jag betalar alla räkningar via internetbanken. — Я оплачиваю все счета через интернет-банк.
-Kan du swisha mig hundra kronor? — Можешь перевести мне сто крон через Swish?
+Jag betalar alla räkningar via internetbanken. — I pay all my bills through internet banking.
+Kan du swisha mig hundra kronor? — Can you Swish me a hundred kronor?
 ```
 
-Государство тоже пользуется цифровыми каналами: **myndighetspost**
-(«почта от госорганов») часто приходит в сервис **Mina meddelanden**
-(«Мои сообщения»), а не бумажным письмом. Это удобно, но требует регулярно
-проверять уведомления.
+The state also uses digital channels: **myndighetspost** (official mail)
+often arrives through **Mina meddelanden** ("My Messages") instead of on
+paper. That's convenient, but it means you need to check notifications
+regularly.
 
 ```example
-Skatteverket skickar beslutet till Mina meddelanden. — Налоговое агентство отправляет решение в «Мои сообщения».
-All myndighetspost samlas på ett ställe digitalt. — Вся почта от госорганов собирается в одном месте в цифровом виде.
+Skatteverket skickar beslutet till Mina meddelanden. — The Tax Agency sends the decision to "Mina meddelanden".
+All myndighetspost samlas på ett ställe digitalt. — All official mail is collected in one place digitally.
 ```
 
-Если карту украли или произошло **bedrägeri** («мошенничество») — например,
-звонок с просьбой назвать код из смс — нужно сразу **blockera kortet**
-(«заблокировать карту») и связаться с **kundtjänst** («службой поддержки»)
-банка.
+If your card is stolen, or a **bedrägeri** (fraud attempt) happens — for
+example a call asking you to read out an SMS code — you should immediately
+**blockera kortet** (block the card) and contact the bank's **kundtjänst**
+(customer service).

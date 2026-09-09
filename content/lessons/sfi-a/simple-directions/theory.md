@@ -1,43 +1,42 @@
-Спросить дорогу можно одной короткой фразой. Начни с **Ursäkta** («извините») —
-без него вопрос звучит резко.
+You can ask the way with one short phrase. Start with **Ursäkta** ("excuse me")
+— without it the question sounds blunt.
 
 ```example
-Ursäkta, var är stationen? — Извините, где вокзал?
-Ursäkta, var är toaletten? — Извините, где туалет?
-Hur kommer jag till torget? — Как мне добраться до площади?
+Ursäkta, var är stationen? — Excuse me, where is the station?
+Ursäkta, var är toaletten? — Excuse me, where is the toilet?
+Hur kommer jag till torget? — How do I get to the square?
 ```
 
-Дальше самое главное — узнать ответ на слух. Ответов, по сути, всего три:
+The hard part is recognising the answer by ear. There are really only three:
 
-| ответ | значение |
+| answer | meaning |
 |---|---|
-| **rakt fram** | прямо |
-| **till höger** | направо |
-| **till vänster** | налево |
+| **rakt fram** | straight ahead |
+| **till höger** | to the right |
+| **till vänster** | to the left |
 
-**höger** и **vänster** легко перепутать. Подсказка для русского уха:
-**v**änster — **в**лево, обе начинаются на «в».
+**höger** and **vänster** are easy to mix up. Learn one of them properly: if
+**höger** is right, then **vänster** is whatever is left.
 
-Ответ обычно начинается с команды — с той же формы глагола, которую ты уже
-слышал(а) в классе (**Lyssna!**, **Titta!**). Здесь это **Gå!** («иди») и
-**Sväng!** («поворачивай»). К команде просто добавляют направление:
-
-```example
-Gå rakt fram. — Идите прямо.
-Sväng till höger vid korsningen. — Поверните направо на перекрёстке.
-Gå tillbaka och sväng till vänster. — Идите назад и поверните налево.
-```
-
-О расстоянии скажут коротко: **Det är nära** («это близко») или
-**Det är långt** («это далеко»). Часто добавят **här** («здесь») или **där**
-(«там»):
+The answer usually opens with a command — the same verb form you already heard
+in the classroom (**Lyssna!**, **Titta!**). Here it is **Gå!** ("walk") and
+**Sväng!** ("turn"). Just add the direction to the command:
 
 ```example
-Det är nära. Det är där, vid torget. — Это близко. Это там, у площади.
+Gå rakt fram. — Go straight ahead.
+Sväng till höger vid korsningen. — Turn right at the crossroads.
+Gå tillbaka och sväng till vänster. — Go back and turn left.
 ```
 
-Четыре слова, которые встречаются почти в любом объяснении: **en gata**
-(улица), **ett torg** (площадь), **en korsning** (перекрёсток), **ett hörn**
-(угол).
+Distance comes in two short words: **Det är nära** ("it is close") or
+**Det är långt** ("it is far"). People often add **här** ("here") or **där**
+("there"):
 
-И в конце обязательно скажи **Tack för hjälpen!**
+```example
+Det är nära. Det är där, vid torget. — It is close. It is there, by the square.
+```
+
+Four words show up in almost every set of directions: **en gata** (street),
+**ett torg** (square), **en korsning** (crossroads), **ett hörn** (corner).
+
+And at the end, always say **Tack för hjälpen!**

@@ -1,40 +1,41 @@
-На уровне delkurs 1 вы научились просто рассказывать о фильме или книге. Настоящая
-**рецензия** идёт дальше: она даёт краткое содержание, оценку и чёткий вердикт —
-структура похожа на аргументативный текст.
+At delkurs 1 you learned to simply talk about a film or book. A real **review** goes
+further: it gives a brief summary, an evaluation, and a clear verdict — a structure
+much like the argumentative text.
 
-## Краткое содержание — без спойлеров
-
-```example
-Filmen handlar om en familj som flyttar till en ny stad. — Фильм рассказывает о семье, которая переезжает в новый город.
-Utan att avslöja för mycket kan jag säga att slutet överraskar. — Не раскрывая слишком много, скажу, что финал удивляет.
-```
-
-## Оценка сильных и слабых сторон
+## A brief summary — no spoilers
 
 ```example
-Handlingen är välskriven, men vissa karaktärer känns platta. — Сюжет хорошо написан, но некоторые персонажи кажутся плоскими.
-Skådespelarna gör ett starkt jobb genom hela filmen. — Актёры отлично играют на протяжении всего фильма.
+Filmen handlar om en familj som flyttar till en ny stad. — The film is about a family that moves to a new city.
+Utan att avslöja för mycket kan jag säga att slutet överraskar. — Without giving too much away, I can say the ending surprises.
 ```
 
-## Численная оценка
+## Weighing strengths and weaknesses
 
 ```example
-Jag skulle ge den fyra av fem stjärnor. — Я бы дал(а) ей четыре звезды из пяти.
+Handlingen är välskriven, men vissa karaktärer känns platta. — The plot is well-written, but some characters feel flat.
+Skådespelarna gör ett starkt jobb genom hela filmen. — The actors do a strong job throughout the film.
 ```
 
-## Рекомендация — заключение рецензии
+## A numeric verdict
 
 ```example
-Jag rekommenderar den till alla som gillar spännande dramer. — Я рекомендую его всем, кому нравится напряжённая драма.
-Boken är inget för den som vill ha ett snabbt tempo. — Книга не для тех, кто хочет быстрого темпа.
+Jag skulle ge den fyra av fem stjärnor. — I'd give it four out of five stars.
 ```
 
-## Схема рецензии
+## A recommendation — the review's closing
 
-1. Краткое содержание (без спойлеров).
-2. Что получилось хорошо, что — не очень.
-3. Оценка (звёзды или общая формулировка).
-4. Рекомендация: кому стоит, а кому не стоит.
+```example
+Jag rekommenderar den till alla som gillar spännande dramer. — I recommend it to anyone who likes gripping dramas.
+Boken är inget för den som vill ha ett snabbt tempo. — The book isn't for anyone who wants a fast pace.
+```
 
-Разница между простым рассказом о фильме (delkurs 1) и рецензией — именно в пункте
-4: рецензия всегда даёт читателю ясный совет, смотреть/читать или нет.
+## The review's shape
+
+1. A brief summary (no spoilers).
+2. What worked well, what didn't.
+3. A verdict (stars, or a general statement).
+4. A recommendation: who should bother, who shouldn't.
+
+The difference between a simple description of a film (delkurs 1) and a review is
+exactly point 4: a review always gives the reader a clear steer — watch/read it or
+not.

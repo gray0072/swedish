@@ -1,50 +1,53 @@
-Delkurs 3 показал пунктуацию прямой и косвенной речи. Здесь — полный инструментарий
-честного referat: когда цитировать дословно, когда пересказывать своими словами, и
-почему в обоих случаях источник указывать обязательно.
+Delkurs 3 covered the punctuation of direct and reported speech. Here is the full
+toolkit for an honest referat: when to quote verbatim, when to paraphrase in your
+own words, and why a source reference is required either way.
 
-## Цитата (citat) — дословно
+## Quotation (citat) — verbatim
 
-Цитата передаёт чужие слова без изменений, в кавычках, со ссылкой на источник:
-
-```example
-”Klimatförändringarna är det största hotet mot vår tid”, skriver forskaren Lena Berg. — «Изменение климата — величайшая угроза нашего времени», — пишет исследователь Лена Берг.
-```
-
-## Парафраз (parafras) — своими словами
-
-Парафраз передаёт ту же мысль своими словами, без кавычек — но источник всё равно
-обязателен: чужая мысль не становится вашей только потому, что вы её переформулировали.
+A quotation passes on someone else's words unchanged, in quotation marks, with a
+source reference:
 
 ```example
-Enligt Lena Berg är klimatförändringarna vår tids allvarligaste utmaning. — По словам Лены Берг, изменение климата — самая серьёзная проблема нашего времени.
+”Klimatförändringarna är det största hotet mot vår tid”, skriver forskaren Lena Berg. — "Climate change is the greatest threat of our time," writes researcher Lena Berg.
 ```
 
-## Ссылка на источник (källhänvisning) — обязательна в обоих случаях
+## Paraphrase (parafras) — in your own words
 
-| Способ | Кавычки | Источник указан |
+A paraphrase conveys the same idea in your own words, without quotation marks —
+but the source is still required: someone else's idea does not become yours just
+because you rephrased it.
+
+```example
+Enligt Lena Berg är klimatförändringarna vår tids allvarligaste utmaning. — According to Lena Berg, climate change is the most serious challenge of our time.
+```
+
+## Source reference (källhänvisning) — required either way
+
+| Method | Quotation marks | Source named |
 |---|---|---|
-| Цитата | да | да |
-| Парафраз | нет | да |
-| Плагиат | нет | **нет** |
+| Quotation | yes | yes |
+| Paraphrase | no | yes |
+| Plagiarism | no | **no** |
 
 ```example
-I sin studie hävdar Berg (2023) att utsläppen måste halveras. — В своём исследовании Берг (2023) утверждает, что выбросы нужно сократить вдвое.
+I sin studie hävdar Berg (2023) att utsläppen måste halveras. — In her study, Berg (2023) argues that emissions must be halved.
 ```
 
-## Plagiat — что это
+## Plagiat — what it means
 
-**Plagiat** — использование чужих слов или чужой мысли без указания источника,
-как будто это ваши собственные. Это касается и дословного копирования без
-кавычек, и пересказа своими словами без ссылки:
+**Plagiat** (plagiarism) is using someone else's words or ideas without naming the
+source, as if they were your own. This applies both to verbatim copying without
+quotation marks and to paraphrasing without a reference:
 
 ```example
-✗ Klimatförändringarna är det största hotet mot vår tid. (без кавычек и без ссылки — плагиат)
-✓ Enligt Berg (2023) är klimatförändringarna det största hotet mot vår tid. — По Бергу (2023), изменение климата — величайшая угроза.
+✗ Klimatförändringarna är det största hotet mot vår tid. (no quotation marks, no reference — plagiarism)
+✓ Enligt Berg (2023) är klimatförändringarna det största hotet mot vår tid. — According to Berg (2023), climate change is the greatest threat.
 ```
 
-## Практический вывод
+## Practical takeaway
 
-Пишете референт — задайте себе три вопроса: (1) это цитата дословно или мой
-пересказ? (2) если дословно — стоят ли кавычки? (3) указан ли источник в любом
-случае? Честный referat строится не на дословности, а на прозрачности: читатель
-должен всегда видеть, где чужая мысль, а где ваш анализ.
+When writing a referat, ask yourself three questions: (1) is this a verbatim quote
+or my own paraphrase? (2) if verbatim, are there quotation marks? (3) is the source
+named either way? An honest referat is built not on exact wording but on
+transparency: the reader must always be able to see where someone else's idea ends
+and your own analysis begins.

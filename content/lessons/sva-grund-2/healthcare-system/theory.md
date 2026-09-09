@@ -1,34 +1,35 @@
-Шведское здравоохранение устроено по ступеням. Первый шаг почти всегда — **din
-vårdcentral** (твоя поликлиника, к которой ты прикреплён по месту жительства), а не
-больница напрямую. Если непонятно, куда обращаться, или нужен совет — звонишь или
-пишешь в **1177 Vårdguiden**: это государственная служба медицинской информации и
-консультаций, доступная круглосуточно.
+Swedish healthcare is organised in steps. The first step is almost always **din
+vårdcentral** (your primary health center, tied to where you live), not the hospital
+directly. If you're not sure where to turn, or just need advice, you call or message
+**1177 Vårdguiden**: a state-run health information and advice service, available
+around the clock.
 
 ```example
-Du kan alltid ringa 1177 Vårdguiden om du är osäker. — Ты всегда можешь позвонить в 1177 Vårdguiden, если сомневаешься.
-Din vårdcentral är första steget för de flesta besvär. — Твоя поликлиника — это первый шаг при большинстве проблем со здоровьем.
+Du kan alltid ringa 1177 Vårdguiden om du är osäker. — You can always call 1177 Vårdguiden if you're unsure.
+Din vårdcentral är första steget för de flesta besvär. — Your primary health center is the first step for most health issues.
 ```
 
-Если нужен специалист (кардиолог, дерматолог и т.д.), обычно требуется **en remiss**
-— направление от врача поликлиники. Только при угрозе жизни едут сразу в
-**akutmottagning** (отделение скорой помощи), минуя все очереди.
+If you need a specialist (a cardiologist, dermatologist etc.), you usually need **en
+remiss** — a referral from a doctor at your health center. Only for life-threatening
+symptoms do you go straight to the **akutmottagning** (emergency department), skipping
+every queue.
 
 ```example
-Du behöver en remiss för att träffa en specialist. — Тебе нужно направление, чтобы попасть к специалисту.
-Vid livshotande symtom ska man åka till akutmottagningen. — При угрожающих жизни симптомах нужно ехать в отделение скорой помощи.
+Du behöver en remiss för att träffa en specialist. — You need a referral to see a specialist.
+Vid livshotande symtom ska man åka till akutmottagningen. — For life-threatening symptoms, you should go to the emergency department.
 ```
 
-За визит платят **en patientavgift** — обычно около 100–300 крон в поликлинике.
-Но после того как пациент заплатил определённую сумму за год (обычно чуть больше
-тысячи крон), включается **högkostnadsskydd** — льгота по высоким расходам, и
-пациент получает **ett frikort**: дальнейшие визиты в этом году становятся
-бесплатными.
+You pay **en patientavgift** for a visit — usually around 100-300 kronor at a health
+center. But once a patient has paid a certain amount within a year (usually a bit over
+a thousand kronor), **högkostnadsskydd** (high-cost protection) kicks in, and the
+patient receives **ett frikort**: further visits that year become free.
 
 ```example
-Patientavgiften på vårdcentralen är ofta runt tvåhundra kronor. — Пациентский сбор в поликлинике обычно около двухсот крон.
-Tack vare högkostnadsskyddet betalar jag inget mer i år. — Благодаря льготе по высоким расходам я больше не плачу в этом году.
+Patientavgiften på vårdcentralen är ofta runt tvåhundra kronor. — The patient fee at a health center is often around two hundred kronor.
+Tack vare högkostnadsskyddet betalar jag inget mer i år. — Thanks to the high-cost protection, I don't pay anything more this year.
 ```
 
-Закон гарантирует максимальные сроки: **vårdgarantin** обещает приём у врача в
-поликлинике в течение трёх дней, а к специалисту — в течение 90 дней. На практике
-**väntetiden** (время ожидания) иногда длиннее, особенно к узким специалистам.
+The law guarantees maximum waiting times: the **vårdgaranti** promises an appointment
+at a health center within three days, and with a specialist within 90 days. In
+practice the **väntetid** (waiting time) is sometimes longer, especially for
+narrow specialties.

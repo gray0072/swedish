@@ -1,43 +1,44 @@
-Не новая грамматика, а капитан-таблица: шесть типов придаточных из delkurs 1–3
-собраны в одном месте. Все они подчиняются одному и тому же правилу порядка слов —
-**BIFF** (Bisats, Inte, Finita verbet, Före): отрицание и sats-наречия (`inte`,
-`alltid`, `ofta`) стоят **перед** спрягаемым глаголом, а не после, как в главном
-предложении.
+Not new grammar — a capstone table: the six subordinate-clause types from delkurs
+1-3, gathered in one place. All of them obey the same word-order rule, **BIFF**
+(Bisats, Inte, Finita verbet, Före): negation and sentence adverbs (`inte`,
+`alltid`, `ofta`) come **before** the finite verb, not after it as in a main clause.
 
-## Шесть типов придаточных
+## Six clause types
 
-| Тип придаточного | Союзы/слова | Пример с BIFF |
+| Clause type | Conjunctions/words | Example with BIFF |
 |---|---|---|
-| Изъяснительное (att) | `att` | Hon sa att hon **inte** kunde komma. |
-| Относительное | `som`, `vars`, `vilket` | Mannen som **inte** bor här längre har flyttat. |
-| Временное | `när`, `medan`, `innan`, `tills` | Han ringde när hon **inte** var hemma. |
-| Уступительное | `fastän`, `även om` | Han gick ut fastän det **inte** regnade. |
-| Причины | `eftersom`, `därför att` | Hon stannade hemma eftersom hon **inte** mådde bra. |
-| Условное | `om`, `ifall` | Om du **inte** kommer i tid, väntar vi inte. |
+| Object (att) clause | `att` | Hon sa att hon **inte** kunde komma. |
+| Relative | `som`, `vars`, `vilket` | Mannen som **inte** bor här längre har flyttat. |
+| Temporal | `när`, `medan`, `innan`, `tills` | Han ringde när hon **inte** var hemma. |
+| Concessive | `fastän`, `även om` | Han gick ut fastän det **inte** regnade. |
+| Causal | `eftersom`, `därför att` | Hon stannade hemma eftersom hon **inte** mådde bra. |
+| Conditional | `om`, `ifall` | Om du **inte** kommer i tid, väntar vi inte. |
 
 ```example
-Hon sa att hon inte kunde komma. — Она сказала, что не может прийти.
-Mannen som inte bor här längre har flyttat till Malmö. — Мужчина, который здесь больше не живёт, переехал в Мальмё.
-Han ringde när hon inte var hemma. — Он позвонил, когда её не было дома.
+Hon sa att hon inte kunde komma. — She said that she couldn't come.
+Mannen som inte bor här längre har flyttat till Malmö. — The man who no longer lives here has moved to Malmö.
+Han ringde när hon inte var hemma. — He called when she wasn't home.
 ```
 
-## Проверка: одно и то же правило, разные союзы
+## Check: same rule, different conjunctions
 
-Союз или вводное слово определяет **тип** придаточного (изъяснительное, временное,
-причины и т.д.), но не влияет на порядок слов внутри него — он всегда один и тот же:
-подлежащее, затем `inte`/наречие, затем спрягаемый глагол.
+The conjunction or introductory word decides the **type** of clause (object,
+temporal, causal, and so on), but it doesn't change the word order inside it — that
+stays the same: subject, then `inte`/the adverb, then the finite verb.
 
 ```example
-Hon stannade hemma eftersom hon inte mådde bra. — Она осталась дома, так как плохо себя чувствовала.
-Om du inte kommer i tid, väntar vi inte. — Если ты не придёшь вовремя, мы не будем ждать.
+Hon stannade hemma eftersom hon inte mådde bra. — She stayed home because she wasn't feeling well.
+Om du inte kommer i tid, väntar vi inte. — If you don't come on time, we won't wait.
 ```
 
-Обрати внимание на второй пример: сама придаточная часть (`om du inte kommer i
-tid`) следует BIFF, а вот главное предложение после неё (`väntar vi inte`) — это уже
-не придаточное, там снова работает V2 (глагол на втором месте, после fundament).
+Notice the second example: the subordinate clause itself (`om du inte kommer i
+tid`) follows BIFF, while the main clause after it (`väntar vi inte`) is no longer a
+subordinate clause — V2 applies there again (the verb in second position, after the
+fundament).
 
-## Главное правило урока
+## The lesson's main rule
 
-Какой бы союз ни вводил придаточное — `att`, `som`, `när`, `fastän`, `eftersom` или
-`om` — порядок слов внутри него один и тот же: BIFF. Разница между типами
-придаточных — это разница в значении и союзе, а не в порядке слов.
+Whatever conjunction introduces a subordinate clause — `att`, `som`, `när`,
+`fastän`, `eftersom` or `om` — the word order inside it is the same: BIFF. The
+difference between clause types is a difference in meaning and conjunction, not in
+word order.

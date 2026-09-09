@@ -1,26 +1,26 @@
-Чтобы показать пальцем на что-то и назвать это, в шведском есть два коротких
-выражения: **det här är** — «вот это» (то, что рядом) и **det där är** — «вон то»
-(то, что подальше).
+To point at something and name it, Swedish has two short expressions: **det här är**
+— "this is" (something near) and **det där är** — "that is" (something further
+away).
 
 ```example
-Det här är en bok. — Это книга.
-Det där är en bil. — Вон там машина.
+Det här är en bok. — This is a book.
+Det där är en bil. — That is a car.
 ```
 
-| выражение | указывает на |
+| expression | points at |
 |---|---|
-| det här är | что-то рядом |
-| det där är | что-то далеко |
+| det här är | something near |
+| det där är | something far away |
 
-Оба выражения не меняются: ни от рода слова, ни от числа предметов. Одна и та же
-форма подходит и для одного предмета, и для нескольких — совсем не так, как цвета,
-которые меняют окончание.
+Neither expression changes — not for the gender of the word, not for how many things
+there are. The same form works for one thing and for several — quite unlike colors,
+which change their ending.
 
 ```example
-Det här är en röd bil. — Это красная машина.
-Det där är ett blått hus. — Вон там синий дом.
-Det här är böcker. — Это книги.
+Det här är en röd bil. — This is a red car.
+Det där är ett blått hus. — That is a blue house.
+Det här är böcker. — These are books.
 ```
 
-Запомни: **det här är** и **det där är** всегда звучат одинаково, что бы ты ни
-показывал(а) — один предмет или несколько, en-слово или ett-слово.
+Remember: **det här är** and **det där är** always sound the same, no matter what
+you're pointing at — one thing or several, an en-word or an ett-word.

@@ -32,13 +32,13 @@ const questionFiles = import.meta.glob('../../content/lessons/*/*/questions.json
   eager: true,
 }) as Record<string, { default: unknown }>;
 
-const theoryFiles = import.meta.glob('../../content/lessons/*/*/theory.md', {
+const theoryEnFiles = import.meta.glob('../../content/lessons/*/*/theory.md', {
   eager: true,
   query: '?raw',
   import: 'default',
 }) as Record<string, string>;
 
-const theoryEnFiles = import.meta.glob('../../content/lessons/*/*/theory_en.md', {
+const theoryRuFiles = import.meta.glob('../../content/lessons/*/*/theory_ru.md', {
   eager: true,
   query: '?raw',
   import: 'default',
@@ -87,8 +87,8 @@ function folderKey(path: string): string {
 
 export interface LessonContent {
   meta: LessonMeta;
-  theory: string | null;
   theoryEn: string | null;
+  theoryRu: string | null;
   vocab: VocabItem[];
   questions: QuestionsFile;
   /** Handwritten pool items + everything generators expanded from vocab. */
@@ -140,14 +140,14 @@ function buildRegistry(): ContentRegistry {
     questionsByKey.set(key, parsed.data);
   }
 
-  const theoryByKey = new Map<string, string>();
-  for (const [path, raw] of Object.entries(theoryFiles)) {
-    theoryByKey.set(folderKey(path), raw);
-  }
-
   const theoryEnByKey = new Map<string, string>();
   for (const [path, raw] of Object.entries(theoryEnFiles)) {
     theoryEnByKey.set(folderKey(path), raw);
+  }
+
+  const theoryRuByKey = new Map<string, string>();
+  for (const [path, raw] of Object.entries(theoryRuFiles)) {
+    theoryRuByKey.set(folderKey(path), raw);
   }
 
   for (const [path, mod] of Object.entries(lessonMetaFiles)) {
@@ -160,8 +160,8 @@ function buildRegistry(): ContentRegistry {
     const meta = parsed.data;
     const vocab = vocabByKey.get(key) ?? [];
     const questions = questionsByKey.get(key) ?? { generators: [], items: [] };
-    const theory = theoryByKey.get(key) ?? null;
     const theoryEn = theoryEnByKey.get(key) ?? null;
+    const theoryRu = theoryRuByKey.get(key) ?? null;
 
     const generated = expandGenerators(questions.generators, vocab, meta.id);
     const pool = [...questions.items, ...generated];
@@ -178,7 +178,7 @@ function buildRegistry(): ContentRegistry {
       ids.add(q.id);
     }
 
-    lessons.set(meta.id, { meta, theory, theoryEn, vocab, questions, pool });
+    lessons.set(meta.id, { meta, theoryEn, theoryRu, vocab, questions, pool });
   }
 
   const curricula = new Map<string, string[]>();

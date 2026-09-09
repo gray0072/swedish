@@ -1,31 +1,20 @@
-I Sverige möter man förr eller senare en **myndighet** («госорган») — till exempel
-**Skatteverket** («Налоговое агентство»), som sköter skatt och **personnummer**
-(«личный номер»), eller **Försäkringskassan** («Агентство социального страхования»),
-som betalar ut olika **bidrag** («пособия»).
+Sooner or later, everyone in Sweden deals with a **myndighet** (government agency) — for example **Skatteverket** (the Tax Agency), which handles taxes and **personnummer** (personal identity number), or **Försäkringskassan** (the Social Insurance Agency), which pays out various **bidrag** (benefits).
 
 ```example
-Jag måste kontakta Skatteverket. — Мне нужно связаться с налоговой.
-Vad är ditt personnummer? — Какой у тебя личный номер?
+Jag måste kontakta Skatteverket. — I need to contact the Tax Agency.
+Vad är ditt personnummer? — What's your personal number?
 ```
 
-För det mesta börjar allt med en **ansökan** («заявление») — du **fyller i** en
-**blankett** («бланк») med dina uppgifter, sätter din **underskrift** («подпись»)
-och **skickar** den innan **tidsfristen** («срок подачи») går ut. Ibland behöver
-du visa **legitimation** («удостоverение личности») och betala en **avgift**
-(«сбор, пошлина»).
+Most things start with an **ansökan** (application) — you **fyller i** (fill in) a **blankett** (form) with your details, add your **underskrift** (signature), and **skickar** (send) it before the **tidsfristen** (deadline) runs out. Sometimes you also need to show **legitimation** (ID) and pay an **avgift** (fee).
 
 ```example
-Kom ihåg att fylla i blanketten noga. — Не забудь заполнить бланк внимательно.
-Ansökan måste skickas in före tidsfristen. — Заявление нужно отправить до срока.
+Kom ihåg att fylla i blanketten noga. — Remember to fill in the form carefully.
+Ansökan måste skickas in före tidsfristen. — The application must be sent in before the deadline.
 ```
 
-Många ärenden går att sköta digitalt, men ibland måste man **boka** en **tid**
-(«записаться на приём») och gå dit personligen. Håll koll på din **inkomst**
-(«доход») — den påverkar både **skatt** och bidrag. Ett viktigt **brev**
-(«письмо») från en myndighet ska man alltid läsa noga, även om det känns
-krångligt.
+Many matters can be handled online, but sometimes you have to **boka en tid** (book an appointment) and go there in person. Keep track of your **inkomst** (income) — it affects both your **skatt** (tax) and your benefits. Always read an important **brev** (letter) from an agency carefully, even if it feels complicated.
 
 ```example
-Jag vill boka en tid hos Försäkringskassan. — Я хочу записаться на приём в Försäkringskassan.
-De skickade ett brev om min skatt. — Мне прислали письмо о моём налоге.
+Jag vill boka en tid hos Försäkringskassan. — I want to book an appointment at the Social Insurance Agency.
+De skickade ett brev om min skatt. — They sent me a letter about my tax.
 ```

@@ -1,10 +1,10 @@
-У каждого шведского существительного своя форма множественного числа — и заранее
-угадать её нельзя. Иногда на конце появляется новый кусочек, а иногда слово вообще не
-меняется. Сейчас задача не в том, чтобы придумать самому правильное окончание — этому
-посвящён отдельный, гораздо более подробный курс. Задача — просто **узнавать**, что
-перед тобой не одна вещь, а несколько.
+Every Swedish noun has its own way of forming the plural — and you can't guess it in
+advance. Sometimes a new piece appears at the end, sometimes the word doesn't change at
+all. The goal right now isn't to work out the right ending yourself — that belongs to a
+separate, much more detailed course later on. The goal is simply to **recognise** that
+you're looking at more than one thing.
 
-| одна вещь | несколько вещей |
+| one thing | several things |
 |---|---|
 | en bil | två bilar |
 | en katt | två katter |
@@ -15,13 +15,13 @@
 | ett äpple | två äpplen |
 
 ```example
-Jag har en bil. Vi har två bilar. — У меня одна машина. У нас две машины.
-Han har ett barn. De har två barn. — У него один ребёнок. У них двое детей.
+Jag har en bil. Vi har två bilar. — I have one car. We have two cars.
+Han har ett barn. De har två barn. — He has one child. They have two children.
 ```
 
-Обрати внимание: **hus** и **barn** во множественном числе выглядят точно так же, как и
-в единственном — единственная подсказка тут слово «två» или другое число рядом. А вот
-**bok** меняется куда сильнее других: **böcker**, а не просто «bok» плюс окончание.
+Notice: **hus** and **barn** look exactly the same in the plural as in the singular —
+the only clue is the word "two" or another number next to them. **Bok**, on the other
+hand, changes far more than the rest: **böcker**, not just "bok" plus an ending.
 
-Пока не нужно запоминать, какое слово получает какое окончание. Достаточно уметь
-заметить разницу между «один» и «несколько», когда слышишь или читаешь шведский текст.
+You don't need to memorise which word takes which ending yet. It's enough to be able to
+spot the difference between "one" and "several" when you hear or read Swedish.

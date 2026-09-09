@@ -1,18 +1,29 @@
-В Швеции гражданский статус часто спрашивают в анкетах и разговорах: **gift** (женат/замужем), **skild** (в разводе), **singel** (одинок/а) или **sambo** — партнёр, с которым живёшь вместе, но официально не расписан. Это отдельное юридическое понятие в Швеции, почти как «гражданский брак».
+In Sweden, marital status is often asked about on forms and in conversation: **gift**
+(married), **skild** (divorced), **singel** (single) or **sambo** — a partner you live
+together with but aren't officially married to. This is a distinct legal concept in
+Sweden, roughly like a "common-law marriage."
 
 ```example
-Är du gift eller singel? — Ты женат/замужем или холост/не замужем?
-Jag och min sambo bor ihop. — Мы с партнёром живём вместе.
-Vi blev förlovade i somras. — Мы обручились этим летом.
+Är du gift eller singel? — Are you married or single?
+Jag och min sambo bor ihop. — My partner and I live together.
+Vi blev förlovade i somras. — We got engaged this summer.
 ```
 
-Перед свадьбой люди **förlovar sig** («обручаются») — тогда партнёров называют **fästman** (жених) и **fästmö** (невеста). После свадьбы (**äktenskap**) появляются родственники по браку: **svärmor**/**svärfar** (свекровь/тесть и свёкор/тесть — слово одно для обеих сторон), **svärson**/**svärdotter** (зять/невестка).
+Before a wedding, people **förlovar sig** ("get engaged") — the partners are then
+called **fästman** (fiancé) and **fästmö** (fiancée). After the wedding (**äktenskap**)
+come in-laws: **svärmor**/**svärfar** (mother-in-law/father-in-law — the same word is
+used regardless of which side of the family), **svärson**/**svärdotter**
+(son-in-law/daughter-in-law).
 
-Если у партнёра уже есть дети от прошлых отношений, это **styvbarn** («неродной ребёнок»): **styvpappa** или **styvmamma** — неродной отец или мать для этих детей.
+If a partner already has children from a previous relationship, they are **styvbarn**
+("stepchild"): **styvpappa** or **styvmamma** is the stepfather or stepmother to those
+children.
 
 ```example
-Min svärmor bor granne med oss. — Моя свекровь живёт по соседству с нами.
-Han har två styvbarn. — У него двое приёмных детей.
+Min svärmor bor granne med oss. — My mother-in-law lives next door to us.
+Han har två styvbarn. — He has two stepchildren.
 ```
 
-Другие полезные слова: **gravid** («беременна»), **tvilling** («близнец»), и глаголы **gifta sig** («пожениться») и **skilja sig** («развестись») — оба спрягаются как обычные глаголы, только с частицей **sig** в конце всех форм.
+Other useful words: **gravid** ("pregnant"), **tvilling** ("twin"), and the verbs
+**gifta sig** ("to get married") and **skilja sig** ("to get divorced") — both are
+conjugated like ordinary verbs, just with the particle **sig** attached in every form.

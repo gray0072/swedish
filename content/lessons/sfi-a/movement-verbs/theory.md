@@ -1,49 +1,48 @@
-На курсе A нужна всего одна форма глагола — **настоящее время** (то, что
-происходит сейчас или вообще). Узнать её легко: она почти всегда кончается
-на **-r**.
+At kurs A you only need one verb form — the **present tense** (what is
+happening now, or in general). It is easy to spot: it almost always ends in
+**-r**.
 
-| глагол | настоящее время |
+| verb | present tense |
 |---|---|
-| gå (идти) | jag **går** |
-| springa (бежать) | du **springer** |
-| sitta (сидеть) | vi **sitter** |
-| dansa (танцевать) | hon **dansar** |
-| stå (стоять) | de **står** |
+| gå (to walk) | jag **går** |
+| springa (to run) | du **springer** |
+| sitta (to sit) | vi **sitter** |
+| dansa (to dance) | hon **dansar** |
+| stå (to stand) | de **står** |
 
-Самое приятное: форма **не меняется от лица**. Одна форма на всех — ни «иду /
-идёшь / идём», ни английского «he goes».
+The best part: the form **does not change with the person**. One form for
+everybody — no "I go / he goes", no endings to pick.
 
 ```example
-jag går — я иду
-du går — ты идёшь
-vi går — мы идём
-de går — они идут
+jag går — I walk
+du går — you walk
+vi går — we walk
+de går — they walk
 ```
 
-**Ловушка: gå или åka?** По-русски и то и другое можно сказать «идти/ехать», но
-швед различает строго:
+**The trap: gå or åka?** English uses "go" for both, but Swedish keeps them
+strictly apart:
 
-| глагол | как |
+| verb | how |
 |---|---|
-| **gå** | пешком |
-| **åka** | на транспорте |
+| **gå** | on foot |
+| **åka** | by vehicle |
 
 ```example
-Jag går till skolan. — Я иду в школу (пешком).
-Jag åker buss till skolan. — Я еду в школу на автобусе.
-Vi åker bil. — Мы едем на машине.
+Jag går till skolan. — I walk to school.
+Jag åker buss till skolan. — I go to school by bus.
+Vi åker bil. — We go by car.
 ```
 
-Обрати внимание: после **åka** транспорт идёт без предлога и без артикля —
-**åka buss**, **åka bil**, **åka tåg**. А для велосипеда есть свой глагол:
-**cykla**.
+Note that after **åka** the vehicle takes no preposition and no article —
+**åka buss**, **åka bil**, **åka tåg**. A bicycle has its own verb: **cykla**.
 
-Запоминай группами — так легче: **sitta / stå / ligga** (сидеть / стоять /
-лежать), **komma / gå** (приходить / уходить), **öppna / stänga** (открывать /
-закрывать), **titta / lyssna** (смотреть / слушать).
+Learn them in groups, it is easier: **sitta / stå / ligga** (sit / stand /
+lie), **komma / gå** (come / go), **öppna / stänga** (open / close),
+**titta / lyssna** (look / listen).
 
 ```example
-Läraren står vid tavlan. — Учитель стоит у доски.
-Boken ligger på bordet. — Книга лежит на столе.
-Jag kommer klockan åtta. — Я приду в восемь.
+Läraren står vid tavlan. — The teacher is standing by the board.
+Boken ligger på bordet. — The book is lying on the table.
+Jag kommer klockan åtta. — I am coming at eight.
 ```

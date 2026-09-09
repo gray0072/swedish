@@ -1,44 +1,43 @@
-В теме «Общественный транспорт» вы выучили слова для ежедневных поездок: buss, tåg,
-biljett. Эта тема — про планирование самой **поездки** (resa) целиком: от бронирования
-до чемодана.
+In "Public transport" you learned the words for everyday commuting: buss, tåg, biljett.
+This topic is about planning the whole **trip** (resa) — from booking to the suitcase.
 
-Первый шаг — **boka** (бронировать). Можно **boka resa** (забронировать поездку) через
-**en researrangör** — турагентство или туроператора, который предлагает готовые
-**paketresor** (пакетные туры) с перелётом и отелем сразу.
-
-```example
-Vi bokade resan online. — Мы забронировали поездку онлайн.
-Researrangören erbjuder paketresor till Grekland. — Турагентство предлагает пакетные туры в Грецию.
-```
-
-Место, куда вы едете, называется **resmål** (пункт назначения). Если бронирование
-нужно отменить, это **avbokning** — обычно бесплатная только до определённого срока.
-Перед долгой поездкой разумно оформить **en reseförsäkring** — страховку на случай
-болезни или потери багажа.
+The first step is **boka** (to book). You can **boka resa** (book a trip) through **en
+researrangör** — a travel agency or tour operator that offers ready-made **paketresor**
+(package holidays) with flight and hotel together.
 
 ```example
-Italien är ett populärt resmål. — Италия — популярное направление для путешествий.
-Glöm inte att teckna en reseförsäkring. — Не забудьте оформить туристическую страховку.
+Vi bokade resan online. — We booked the trip online.
+Researrangören erbjuder paketresor till Grekland. — The tour operator offers package holidays to Greece.
 ```
 
-Готовясь к поездке, нужно **packa** (собрать чемодан) — часто по заранее составленному
-списку, **en packlista**. На месте, если нужен транспорт, можно **hyra bil** — взять
-машину напрокат, а не только пользоваться общественным транспортом.
+The place you're going to is called **resmål** (destination). If a booking needs to be
+cancelled, that's an **avbokning** — usually free only up to a certain deadline. Before
+a longer trip it's sensible to take out **en reseförsäkring** — travel insurance in
+case of illness or lost luggage.
 
 ```example
-Jag gjorde en packlista innan resan. — Я составил список вещей перед поездкой.
-Det är billigare att hyra bil i förväg. — Дешевле арендовать машину заранее.
+Italien är ett populärt resmål. — Italy is a popular destination.
+Glöm inte att teckna en reseförsäkring. — Don't forget to take out travel insurance.
 ```
 
-В день отъезда важны два слова: **avresa** (отправление) и **incheckning**
-(регистрация на рейс), которая обычно открывается за пару часов до вылета. При поездке
-**utomlands** (за границу) на границе может быть **gränskontroll** — паспортный
-контроль, поэтому не забудьте **passet** (паспорт).
+While getting ready, you need to **packa** (pack your bag) — often from a prepared
+**packlista** (packing list). Once there, if you need transport, you can **hyra bil** —
+rent a car, not just use public transport.
 
 ```example
-Incheckningen öppnar två timmar före avresa. — Регистрация открывается за два часа до вылета.
-Kom ihåg att ta med passet. — Не забудьте взять паспорт.
+Jag gjorde en packlista innan resan. — I made a packing list before the trip.
+Det är billigare att hyra bil i förväg. — It's cheaper to rent a car in advance.
 ```
 
-А после отпуска (**semester**) вас ждёт **hemresa** — обратная дорога домой, которая,
-как и всё остальное в путешествии, тоже иногда задерживается.
+On departure day, two words matter: **avresa** (departure) and **incheckning**
+(check-in), which usually opens a couple of hours before the flight. When travelling
+**utomlands** (abroad) there may be a **gränskontroll** — border/passport control — at
+the border, so don't forget your **pass** (passport).
+
+```example
+Incheckningen öppnar två timmar före avresa. — Check-in opens two hours before departure.
+Kom ihåg att ta med passet. — Remember to bring your passport.
+```
+
+And after the **semester** (vacation) comes the **hemresa** — the trip home, which,
+like everything else in travel, is sometimes delayed too.

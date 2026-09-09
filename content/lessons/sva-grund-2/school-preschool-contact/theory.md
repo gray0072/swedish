@@ -1,41 +1,40 @@
-На прошлом уровне вы выучили базовые слова про **utvecklingssamtal** — ежегодную
-развитийную беседу с учителем. Но контакт со школой этим не ограничивается: часто
-нужно самому проявить инициативу в течение года.
+At the previous level you learned the basic words for the **utvecklingssamtal** — the
+yearly development talk with the teacher. But contact with school doesn't stop there:
+you often need to take the initiative yourself during the year.
 
-## Записаться на встречу
-
-```example
-Jag skulle vilja boka ett möte med hans lärare. — Я хотел(а) бы записаться на встречу с его учителем.
-Går det att träffas nästa vecka? — Можно встретиться на следующей неделе?
-```
-
-## Спросить, как дела у ребёнка
+## Booking a meeting
 
 ```example
-Hur går det för henne i skolan just nu? — Как у неё сейчас дела в школе?
-Finns det något jag kan hjälpa till med hemma? — Есть что-то, с чем я могу помочь дома?
+Jag skulle vilja boka ett möte med hans lärare. — I would like to book a meeting with his teacher.
+Går det att träffas nästa vecka? — Would it be possible to meet next week?
 ```
 
-## Если нужна дополнительная поддержка
-
-Если у ребёнка трудности, полезно знать слова **särskilt stöd** (дополнительная
-поддержка) и **elevhälsa** (школьная служба здоровья и поддержки учеников, куда
-входят школьная медсестра, психолог, куратор):
+## Asking how the child is doing
 
 ```example
-Finns det extra stöd att få om han har svårt med matematiken? — Есть ли дополнительная поддержка, если у него трудности с математикой?
-Vi har kontaktat elevhälsan för att få råd. — Мы обратились в elevhälsa за советом.
+Hur går det för henne i skolan just nu? — How is she doing in school right now?
+Finns det något jag kan hjälpa till med hemma? — Is there anything I can help with at home?
 ```
 
-## Ключевая фигура — mentor
+## If extra support is needed
 
-У многих учеников есть личный **mentor** — учитель, который отвечает именно за
-этого ребёнка и с которым удобнее всего держать связь между официальными
-беседами.
+If the child is struggling, it's useful to know the words **särskilt stöd** (extra
+support) and **elevhälsa** (the school's student health/support service, which
+includes the school nurse, psychologist, and counsellor):
 
 ```example
-Min dotters mentor svarar snabbt på mejl. — Ментор моей дочери быстро отвечает на письма.
+Finns det extra stöd att få om han har svårt med matematiken? — Is there extra support available if he's struggling with math?
+Vi har kontaktat elevhälsan för att få råd. — We've contacted elevhälsan for advice.
 ```
 
-Регулярный, а не только раз-в-год, контакт со школой помогает заметить проблему
-рано — и решить её быстрее.
+## A key figure — the mentor
+
+Many students have a personal **mentor** — a teacher specifically responsible for
+that child, and the easiest person to stay in touch with between official talks.
+
+```example
+Min dotters mentor svarar snabbt på mejl. — My daughter's mentor replies to emails quickly.
+```
+
+Regular contact with the school, not just once a year, helps catch a problem early —
+and solve it faster.

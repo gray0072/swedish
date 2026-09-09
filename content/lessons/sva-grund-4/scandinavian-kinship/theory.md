@@ -1,49 +1,49 @@
-Шведский, датский и норвежский — «nordiska språk» (северогерманские
-скандинавские языки), очень близкие родственники. Многие шведы могут читать
-датский и норвежский без специального обучения.
+Swedish, Danish, and Norwegian are "nordiska språk" (North Germanic
+Scandinavian languages), close relatives of one another. Many Swedes can
+read Danish and Norwegian without any special training.
 
-## Родство языков
+## Language kinship
 
 ```example
-Svenska, danska och norska tillhör de nordiska språken. — Шведский, датский и норвежский относятся к скандинавским (северным) языкам.
+Svenska, danska och norska tillhör de nordiska språken. — Swedish, Danish, and Norwegian belong to the Nordic languages.
 ```
 
 ```example
-Danska och norska kallas Sveriges grannspråk. — Датский и норвежский называют «языками-соседями» Швеции.
+Danska och norska kallas Sveriges grannspråk. — Danish and Norwegian are called Sweden's "neighbour languages".
 ```
 
-`Grannspråk` — школьный термин: близкородственный язык соседней страны,
-который понимают в основном без перевода.
+`Grannspråk` is a school term: a closely related neighbouring-country
+language that's mostly understandable without translation.
 
-## Письменный текст легче, чем речь на слух
-
-```example
-Skriven danska går ofta att förstå, men talad danska är svårare. — Письменный датский часто понятен, а вот устная речь — сложнее.
-```
+## Written text is easier than speech by ear
 
 ```example
-Norska är för de flesta svenskar lättare att förstå muntligt än danska. — Норвежский большинству шведов легче понимать на слух, чем датский.
-```
-
-Причина: произношение датского сильно отличается от написания — много
-«проглоченных» согласных и особая мелодика речи (`stød`). Норвежская
-интонация и звучание, наоборот, ближе к шведскому.
-
-## Ложные друзья переводчика
-
-```example
-Svenska "rolig" betyder rolig/kul, men norska "rolig" betyder lugn. — Шведское «rolig» значит «весёлый», а норвежское «rolig» значит «спокойный».
+Skriven danska går ofta att förstå, men talad danska är svårare. — Written Danish can often be understood, but spoken Danish is harder.
 ```
 
 ```example
-Svenska "by" betyder en liten ort på landet, men danska "by" betyder stad. — Шведское «by» значит «маленькая деревня», а датское «by» значит «город».
+Norska är för de flesta svenskar lättare att förstå muntligt än danska. — Most Swedes find Norwegian easier to understand by ear than Danish.
 ```
 
-## Полезно знать
+The reason: Danish pronunciation differs a lot from its spelling — many
+"swallowed" consonants and a distinctive prosody (`stød`). Norwegian
+intonation and sound, by contrast, are closer to Swedish.
 
-1. `Grannspråksförståelse` (понимание языков-соседей) — часть школьной
-   программы в скандинавских странах.
-2. Понимание на слух труднее письменного — не удивляйтесь, если устная
-   датская речь кажется совсем другим языком.
-3. Ложные друзья встречаются даже между близкими языками — стоит быть
-   внимательным.
+## False friends
+
+```example
+Svenska "rolig" betyder rolig/kul, men norska "rolig" betyder lugn. — Swedish "rolig" means "funny/fun", but Norwegian "rolig" means "calm".
+```
+
+```example
+Svenska "by" betyder en liten ort på landet, men danska "by" betyder stad. — Swedish "by" means "a small village", but Danish "by" means "town/city".
+```
+
+## Good to know
+
+1. `Grannspråksförståelse` (understanding neighbour languages) is part of
+   the school curriculum in the Scandinavian countries.
+2. Listening comprehension is harder than reading — don't be surprised if
+   spoken Danish sounds like a completely different language.
+3. False friends turn up even between closely related languages — it pays
+   to be careful.

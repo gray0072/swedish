@@ -1,36 +1,36 @@
-Неопределённые местоимения показывают количество без точного числа: «кто-то»,
-«никто», «каждый», «все». Большинство из них меняются по роду (en/ett) и числу —
-как прилагательные.
+Indefinite pronouns show quantity without an exact number: "someone", "no one",
+"every", "all". Most of them change by gender (en/ett) and number — just like
+adjectives.
 
-| | en-слово | ett-слово | множественное число |
+| | en-word | ett-word | plural |
 |---|---|---|---|
-| **некто / что-то** | någon | något | några |
-| **никто / ничего** | ingen | inget | inga |
+| **someone / something** | någon | något | några |
+| **no one / nothing** | ingen | inget | inga |
 
 ```example
-Någon ringde. — Кто-то звонил.
-Jag har inga pengar. — У меня нет денег.
-Har du något att äta? — У тебя есть что-нибудь поесть?
+Någon ringde. — Someone called.
+Jag har inga pengar. — I have no money.
+Har du något att äta? — Do you have anything to eat?
 ```
 
-**Varje** («каждый») — исключение: форма никогда не меняется, и после него всегда
-стоит существительное в единственном числе: *varje dag* (каждый день), *varje bok*
-(каждая книга), *varje hus* (каждый дом) — независимо от рода.
+**Varje** ("every/each") is the exception: its form never changes, and it is always
+followed by a singular noun: *varje dag* (every day), *varje bok* (every book),
+*varje hus* (every house) — regardless of gender.
 
-**All/allt/alla** зависит от того, что после него:
+**All/allt/alla** depends on what follows it:
 
-| Форма | Когда | Пример |
+| Form | When | Example |
 |---|---|---|
-| all | en-слово, неисчисляемое | all mjölk (всё молоко) |
-| allt | ett-слово, неисчисляемое | allt vatten (вся вода) |
-| alla | множественное число, исчисляемое | alla barn (все дети) |
+| all | en-word, uncountable | all mjölk (all milk) |
+| allt | ett-word, uncountable | allt vatten (all water) |
+| alla | plural, countable | alla barn (all children) |
 
 ```example
-Vi drack all mjölk. — Мы выпили всё молоко.
-Allt vatten är kallt. — Вся вода холодная.
-Alla elever var där. — Все ученики были там.
+Vi drack all mjölk. — We drank all the milk.
+Allt vatten är kallt. — All the water is cold.
+Alla elever var där. — All the students were there.
 ```
 
-Короткая подсказка: *varje* — всегда одна форма и всегда единственное число.
-*Någon/ingen* и *all* меняются одинаково: -Ø для en-слова, -t/allt для ett-слова,
--a/alla для множественного числа.
+Short reminder: *varje* is always one form and always singular. *Någon/ingen* and
+*all* change the same way: bare form for an en-word, -t/allt for an ett-word, -a/alla
+for a plural.

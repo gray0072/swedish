@@ -1,7 +1,7 @@
-**är** и **har** — два самых полезных слова в шведском. Каждое из них тоже одно и то
-же слово для jag, du, han, hon, vi, ni и de — ничего не меняется.
+**är** and **har** are the two most useful words in Swedish. Each of them is also the
+same word for jag, du, han, hon, vi, ni and de — nothing changes.
 
-| Кто | är | har |
+| Who | är | har |
 |---|---|---|
 | jag | är | har |
 | du | är | har |
@@ -10,20 +10,21 @@
 | ni | är | har |
 | de | är | har |
 
-**är** отвечает на вопрос «какой ты / кто ты / откуда ты», а **har** — «что у тебя
-есть». С этими двумя словами уже можно рассказать о себе.
+**är** answers "what are you like / who are you / where are you from", and **har**
+answers "what do you have". With just these two words you can already talk about
+yourself.
 
 ```example
-Jag är trött. — Я устал.
-Jag är från Sverige. — Я из Швеции.
-Jag har två barn. — У меня двое детей.
-Jag har en bil. — У меня есть машина.
-Har du barn? — У тебя есть дети?
+Jag är trött. — I'm tired.
+Jag är från Sverige. — I'm from Sweden.
+Jag har två barn. — I have two children.
+Jag har en bil. — I have a car.
+Har du barn? — Do you have children?
 ```
 
-Обрати внимание на вопрос **Har du barn?** — слово **har** просто встаёт перед **du**,
-больше ничего не меняется. Отвечают так: «Ja, jag har två barn» или «Nej, jag har inte
-barn».
+Notice the question **Har du barn?** — the word **har** simply moves in front of
+**du**, nothing else changes. You answer: "Ja, jag har två barn" or "Nej, jag har inte
+barn".
 
-Правило одной фразой: **är** — какой ты, **har** — что у тебя есть, и оба слова не
-меняются, кто бы ни говорил.
+One-line rule: **är** — what you're like, **har** — what you have, and neither word
+changes no matter who's speaking.

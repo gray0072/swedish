@@ -1,38 +1,39 @@
-# Сложные слова и соединительное -s-
+# Compounds and the linking -s-
 
-Шведский язык обожает складывать слова в одно без пробела. Смысл и **грамматический
-род** сложного слова задаёт **последний элемент** — он «главный», а всё, что стоит перед
-ним, только уточняет:
+Swedish loves joining words into one with no space. The meaning and **grammatical
+gender** of a compound is set by its **last element** — that's the head, and everything
+before it only narrows the meaning down:
 
 ```example
-en nyckel — ключ
-en bilnyckel — ключ от машины (bil + nyckel, род остался от nyckel — en)
+en nyckel — a key
+en bilnyckel — a car key (bil + nyckel, gender stays from nyckel — en)
 ```
 
-Между элементами иногда появляется соединительное **-s-**, а иногда нет — единого
-жёсткого правила нет, но есть заметные тенденции.
+A linking **-s-** sometimes appears between the elements, and sometimes doesn't — there
+is no single strict rule, but there are clear tendencies.
 
-| Без -s- | Значение | Со -s- | Значение |
+| No -s- | Meaning | With -s- | Meaning |
 |---|---|---|---|
-| sjuk + hus → sjukhus | больница | regering + beslut → regerings**b**eslut | решение правительства |
-| barn + vagn → barnvagn | коляска | arbete + plats → arbet**s**plats | рабочее место |
-| skol + barn → skolbarn | школьник | tidning + artikel → tidning**s**artikel | газетная статья |
+| sjuk + hus → sjukhus | hospital | regering + beslut → regerings**b**eslut | government decision |
+| barn + vagn → barnvagn | pram, stroller | arbete + plats → arbet**s**plats | workplace |
+| skol + barn → skolbarn | schoolchild | tidning + artikel → tidning**s**artikel | newspaper article |
 
-Связка -s- чаще появляется, когда первая часть — многосложное существительное (особенно
-на -ing, -het, -else, -nad), а также когда первая часть сама уже является сложным
-словом. Односложные слова и прилагательные в первой позиции обычно связки не требуют.
-Но точное поведение всё равно проще выучить по конкретным словам, чем вывести правилом.
+The linking -s- appears more often when the first part is a multi-syllable noun
+(especially ending in -ing, -het, -else, -nad), and also when the first part is itself
+already a compound. Monosyllabic words and adjectives in first position usually take no
+linking element. Still, the exact behaviour is easier to learn word by word than to
+derive from a rule.
 
-## Осторожно с делением слова
+## Watch out for splitting a compound
 
-Если сложное слово по ошибке написать как два отдельных, смысл меняется:
+If a compound is mistakenly written as two separate words, the meaning changes:
 
 ```example
-en rödvinsflaska — бутылка красного вина (сложное слово: rödvin + s + flaska)
-en röd vinflaska — красная бутылка для вина (прилагательное röd + слово vinflaska)
+en rödvinsflaska — a bottle of red wine (a compound: rödvin + s + flaska)
+en röd vinflaska — a red wine-bottle (the adjective röd + the word vinflaska)
 ```
 
-В первом случае речь о содержимом (вино), во втором — о цвете самой бутылки. Такая
-путаница («särskrivning», ошибочное раздельное написание) — частая и заметная ошибка в
-шведском: **regeringsbeslut** ≠ *regerings beslut* написанное как два слова читается
-иначе и режет глаз носителю.
+The first is about the contents (wine), the second is about the bottle's own color. This
+confusion ("särskrivning", mistakenly splitting a compound) is a common and noticeable
+mistake in Swedish: **regeringsbeslut** is not the same as *regerings beslut* written as
+two words — a native reader reads it differently, and it looks wrong.

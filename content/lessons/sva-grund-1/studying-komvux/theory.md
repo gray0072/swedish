@@ -1,22 +1,24 @@
-На **komvux** (муниципальном образовании для взрослых) многое устроено иначе, чем в обычной школе: своё **schema** (расписание), свои **uppgifter** (задания) и своя система оценок.
+# Studying at komvux: schedule, assignments, feedback from the teacher
+
+At **komvux** (municipal adult education) many things work differently from regular school: you have your own **schema** (schedule), your own **uppgifter** (assignments), and your own grading system.
 
 ```example
-Kolla schemat innan lektionen. — Посмотри расписание перед уроком.
-Jag måste göra en uppgift till fredag. — Мне нужно сделать задание к пятнице.
+Kolla schemat innan lektionen. — Check the schedule before the lesson.
+Jag måste göra en uppgift till fredag. — I have to do an assignment by Friday.
 ```
 
-Каждое задание сдаётся к определённому сроку — **inlämning**. Если пропустить его, это может повлиять на **frånvaro** (пропуски) и в итоге на **betyg** (оценку). Оценки на komvux обычно всего две: **godkänd** (сдано) и **underkänd** (не сдано), хотя на некоторых курсах есть более подробная шкала.
+Every assignment is due by a certain deadline — the **inlämning**. Missing it can affect your **frånvaro** (absence record) and ultimately your **betyg** (grade). Grades at komvux are usually just two: **godkänd** (passed) and **underkänd** (failed), though some courses use a more detailed scale.
 
 ```example
-Vad är sista inlämningsdag för uppgiften? — Когда крайний срок сдачи задания?
-Jag fick godkänt på kursen. — Я сдал курс.
+Vad är sista inlämningsdag för uppgiften? — What's the deadline for the assignment?
+Jag fick godkänt på kursen. — I passed the course.
 ```
 
-После сдачи работы учитель обычно даёт **återkoppling** (обратную связь) — что получилось хорошо, а что нужно улучшить. Не стесняйся спрашивать самому:
+After you submit work, the teacher usually gives **återkoppling** (feedback) — what went well and what needs improving. Don't be shy about asking for it yourself:
 
 ```example
-Kan du ge mig återkoppling på min uppgift? — Можешь дать мне обратную связь по моему заданию?
-Hur många poäng krävs för godkänt betyg? — Сколько баллов нужно для положительной оценки?
+Kan du ge mig återkoppling på min uppgift? — Can you give me feedback on my assignment?
+Hur många poäng krävs för godkänt betyg? — How many points are needed for a passing grade?
 ```
 
-На некоторых курсах вместо письменного **prov** (теста) есть **muntlig examination** — устный экзамен, где нужно рассказать о теме вслух. Слово **komvux** не изменяется и обычно используется без артикля, как название места: *Jag läser på komvux* — «Я учусь в комвуксе».
+Some courses replace a written **prov** (test) with a **muntlig examination** — an oral exam where you talk through a topic out loud. The word **komvux** doesn't change form and is normally used without an article, like a place name: *Jag läser på komvux* — "I study at komvux."

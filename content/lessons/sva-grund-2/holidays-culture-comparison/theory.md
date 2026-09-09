@@ -1,38 +1,38 @@
-На уровне delkurs 1 вы выучили базовые названия шведских праздников. Теперь задача
-сложнее: не просто назвать праздник, а **сравнить** его со своей культурой —
-показать сходство и различие фразами более высокого уровня, чем простое «похоже/не
-похоже».
+At delkurs 1 you learned the basic names of Swedish holidays. Now the task is
+harder: not just naming a holiday, but **comparing** it with your own culture —
+showing similarity and difference with higher-level phrases than a plain "it's
+similar/different".
 
-## Сходство
-
-```example
-Till skillnad från i mitt hemland firar man inte nyår med fyrverkerier på samma sätt här. — В отличие от моей родины, здесь не отмечают Новый год фейерверками так же.
-På liknande sätt samlas familjen kring bordet både i Sverige och hemma. — Похожим образом семья собирается за столом и в Швеции, и у меня дома.
-```
-
-## Различие
+## Similarity
 
 ```example
-En intressant skillnad är att midsommar firas utomhus, medan vårt vårfirande oftast är inomhus. — Интересное отличие в том, что midsommar отмечают на улице, тогда как наш весенний праздник обычно проводится в помещении.
+Till skillnad från i mitt hemland firar man inte nyår med fyrverkerier på samma sätt här. — Unlike in my home country, New Year isn't celebrated with fireworks in the same way here.
+På liknande sätt samlas familjen kring bordet både i Sverige och hemma. — Similarly, the family gathers around the table both in Sweden and back home.
 ```
 
-## Обобщение и вывод
+## Difference
 
 ```example
-Generellt sett är svenska högtider ofta kopplade till naturen och årstiderna. — В целом шведские праздники часто связаны с природой и временами года.
+En intressant skillnad är att midsommar firas utomhus, medan vårt vårfirande oftast är inomhus. — An interesting difference is that midsommar is celebrated outdoors, while our spring celebration is usually indoors.
 ```
 
-## Полезная лексика для сравнения
-
-- **till skillnad från** — в отличие от
-- **på liknande sätt** — похожим образом
-- **en intressant skillnad är att** — интересное отличие в том, что
-- **generellt sett** — в целом, вообще говоря
-- **medan** — тогда как, в то время как
+## Generalising and concluding
 
 ```example
-Julen firas med släkten, medan jag är van vid att fira med hela byn. — Рождество отмечают с родственниками, тогда как я привык(ла) отмечать со всей деревней.
+Generellt sett är svenska högtider ofta kopplade till naturen och årstiderna. — Generally speaking, Swedish holidays are often tied to nature and the seasons.
 ```
 
-Такое сравнение — не просто список фактов о двух культурах, а связный текст, где
-каждое сходство или различие явно введено сигнальным словом.
+## Useful comparison vocabulary
+
+- **till skillnad från** — unlike, in contrast to
+- **på liknande sätt** — similarly, in a similar way
+- **en intressant skillnad är att** — an interesting difference is that
+- **generellt sett** — generally speaking
+- **medan** — while, whereas
+
+```example
+Julen firas med släkten, medan jag är van vid att fira med hela byn. — Christmas is celebrated with relatives, while I'm used to celebrating with the whole village.
+```
+
+A comparison like this isn't just a list of facts about two cultures, but a connected
+text where every similarity or difference is explicitly introduced by a signal word.

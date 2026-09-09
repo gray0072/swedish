@@ -1,52 +1,52 @@
-Delkurs 3 показал, что fundament (первое место в V2) — это тема, обычно уже
-известная информация. Здесь — тот же механизм, но как **осознанный стилистический
-приём**: нарочно вынести не подлежащее, а другой член предложения, чтобы придать
-ему эмфазу (выделить, противопоставить).
+Delkurs 3 showed that the fundament (first position in V2) carries the theme,
+usually already-known information. Here is the same mechanism used as a
+**deliberate stylistic device**: fronting something other than the subject on
+purpose, to give it emphasis (highlight it, contrast it).
 
-## Нейтральный порядок vs топикализация
+## Neutral order vs topicalisation
 
-Сравните нейтральное предложение и топикализированное — смысл фактов один и тот
-же, но акцент разный:
+Compare a neutral sentence with a topicalised one — the facts are the same, but
+the emphasis differs:
 
 ```example
-Jag har redan läst den här boken. — Я уже прочитал эту книгу. (нейтрально: тема — «я»)
-Den här boken har jag redan läst. — ЭТУ книгу я уже прочитал. (тема — «эта книга», акцент на ней)
+Jag har redan läst den här boken. — I've already read this book. (neutral: the theme is "I")
+Den här boken har jag redan läst. — THIS book I've already read. (the theme is "this book", emphasised)
 ```
 
-Во втором варианте объект `den här boken` вынесен в fundament — не потому, что это
-грамматически обязательно, а чтобы подчеркнуть именно книгу: например, в ответ на
-вопрос «а эту книгу ты читал?» или в противопоставлении другим книгам.
+In the second version the object `den här boken` is fronted into the fundament —
+not because grammar requires it, but to highlight precisely this book: say, in
+answer to "have you read this one, though?" or in contrast to other books.
 
-## Что можно топикализировать
+## What can be topicalised
 
-В fundament может встать практически любой член предложения — объект,
-обстоятельство, часть сказуемого — с обязательной инверсией подлежащего и глагола
-(V2):
+Almost any sentence element can go into the fundament — an object, an adverbial, a
+part of the predicate — with obligatory subject-verb inversion (V2):
 
-| Что вынесено | Пример | Эффект |
+| Fronted element | Example | Effect |
 |---|---|---|
-| Объект | Den här filmen har jag sett tre gånger. | выделяет фильм, противопоставление |
-| Обстоятельство места | I Stockholm har jag aldrig bott. | выделяет место |
-| Обстоятельство времени | Igår träffade jag henne, inte idag. | выделяет момент, контраст |
+| Object | Den här filmen har jag sett tre gånger. | highlights the film, contrast |
+| Place adverbial | I Stockholm har jag aldrig bott. | highlights the place |
+| Time adverbial | Igår träffade jag henne, inte idag. | highlights the moment, contrast |
 
 ```example
-Den här filmen har jag sett tre gånger. — ЭТОТ фильм я смотрел три раза.
-I Stockholm har jag aldrig bott. — В Стокгольме я никогда не жил.
+Den här filmen har jag sett tre gånger. — THIS film I've watched three times.
+I Stockholm har jag aldrig bott. — In Stockholm I have never lived.
 ```
 
-## Когда это уместно
+## When it fits
 
-Топикализация — не ошибка и не просто вариант «для разнообразия»: она сигнализирует
-контраст или сильное выделение. Уместна в живой речи, публицистике, аргументации
-(«вот именно этот пункт я хочу подчеркнуть»), но избыточна в нейтральном
-повествовании, где обычный порядок подлежащее-первое яснее.
+Topicalisation is not an error or just a "variety" option — it signals contrast or
+strong emphasis. It suits lively speech, opinion writing, and argumentation
+("this is exactly the point I want to stress"), but is overkill in neutral
+narration, where the plain subject-first order is clearer.
 
 ```example
-Det här problemet måste vi lösa nu, inte imorgon. — ИМЕННО эту проблему мы должны решить сейчас, а не завтра.
+Det här problemet måste vi lösa nu, inte imorgon. — THIS problem is the one we must solve now, not tomorrow.
 ```
 
-## Коротко
+## In short
 
-Топикализация — вынесение не-подлежащего в fundament с обязательной V2-инверсией.
-Это стилистический выбор для эмфазы и контраста, а не грамматическая необходимость —
-используйте её, когда хотите специально выделить именно этот элемент предложения.
+Topicalisation fronts a non-subject into the fundament with obligatory V2
+inversion. It's a stylistic choice for emphasis and contrast, not a grammatical
+necessity — use it when you specifically want to highlight that one element of the
+sentence.

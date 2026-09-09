@@ -1,44 +1,45 @@
-Кроме нейтрального *säga* («сказать»), в шведском есть целый набор глаголов речи с
-разным оттенком отношения к сказанному. Все они присоединяют **att-предложение**
-(придаточное с союзом *att*), а значит внутри него действует правило **BIFF**: «inte»
-(и другие сентенциальные наречия) стоят **перед** личным глаголом.
+Besides the neutral *säga* ("to say"), Swedish has a whole set of speech verbs that each
+carry a different shade of stance toward what's being reported. All of them take an
+**att-clause** (a subordinate clause with the conjunction *att*), so the **BIFF** rule
+applies inside it: "inte" (and other sentence adverbials) sit **before** the finite verb.
 
-**Påstå** (утверждать) часто подразумевает сомнение говорящего в правдивости слов:
-
-```example
-Han påstår att jorden är platt. — Он утверждает, что Земля плоская.
-```
-
-**Hävda** (утверждать, настаивать), наоборот, звучит уверенно — говорящий не сомневается
-в своей правоте:
+**Påstå** (to claim) often implies the speaker doubts the truth of the words:
 
 ```example
-Forskare hävdar att klimatet förändras. — Учёные утверждают, что климат меняется.
+Han påstår att jorden är platt. — He claims that the earth is flat.
 ```
 
-**Mena** (иметь в виду, считать) вводит чьё-то мнение или аргумент:
+**Hävda** (to assert, maintain), by contrast, sounds confident — the speaker isn't
+questioning their own claim:
 
 ```example
-Hon menar att vi borde vänta. — Она считает, что нам следует подождать.
+Forskare hävdar att klimatet förändras. — Researchers assert that the climate is changing.
 ```
 
-**Tycka** (находить, считать) — субъективная оценка, личное мнение о вкусе или качестве:
+**Mena** (to mean, to argue) introduces someone's opinion or argument:
 
 ```example
-Jag tycker att filmen var bra. — Я считаю, что фильм был хороший.
+Hon menar att vi borde vänta. — She argues that we should wait.
 ```
 
-Во всех примерах после *att* стоит bisats, и BIFF применяется как обычно:
+**Tycka** (to find, to think) is a subjective judgment — a personal opinion about taste
+or quality:
 
 ```example
-Han påstår att han inte känner till saken. — Он утверждает, что не знает об этом деле.
+Jag tycker att filmen var bra. — I think/find that the movie was good.
 ```
 
-Здесь «inte» стоит перед «känner till», а не после, как было бы в huvudsats («Han känner
-inte till saken»).
+In every example, what follows *att* is a bisats, and BIFF applies as usual:
 
-Этот набор глаголов особенно полезен при пересказе чужого текста или мнения:
-подставляя *påstår* вместо *säger*, ты сигнализируешь читателю, что сам сомневаешься в
-достоверности утверждения; используя *hävdar*, наоборот, подчёркиваешь уверенность
-источника. Выбор глагола передаёт отношение автора к пересказываемым словам — важный
-навык для академического и делового письма.
+```example
+Han påstår att han inte känner till saken. — He claims he doesn't know about the matter.
+```
+
+Here "inte" sits before "känner till", not after it, the way it would in a huvudsats
+("Han känner inte till saken").
+
+This set of verbs is especially useful when summarising someone else's text or opinion:
+swap in *påstår* instead of *säger* and you signal to the reader that you doubt the
+claim's accuracy; use *hävdar* instead, and you underline the source's confidence. The
+verb you choose conveys your own stance toward the words you're reporting — a useful
+skill for academic and professional writing.

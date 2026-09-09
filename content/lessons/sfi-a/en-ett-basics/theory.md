@@ -1,30 +1,31 @@
-У каждого шведского существительного есть маленькое слово-спутник впереди — **en** или
-**ett**. Оно приклеивается к слову намертво и превращается с ним в единое целое: не
-просто «bil» (машина), а **en bil**. Учить нужно сразу обе части вместе, одной парой.
+Every Swedish noun comes with a little companion word in front of it — **en** or
+**ett**. It glues onto the noun and the two become one unit: not just "bil" (car), but
+**en bil**. Learn both parts together, as one pair, right from the start.
 
-Правила, которое подсказало бы заранее, где en, а где ett, не существует — это просто
-запоминается вместе со словом, как цвет волос у человека. Хорошая новость: бóльшая
-часть существительных — en-слова, ett-слова встречаются реже.
+There is no rule that tells you in advance which noun gets which word — it is simply
+memorised along with the word itself, like a person's eye colour. The good news: most
+nouns are en-words, ett-words show up less often.
 
-| en-слова | ett-слова |
+| en-words | ett-words |
 |---|---|
-| en bil (машина) | ett hus (дом) |
-| en katt (кошка) | ett barn (ребёнок) |
-| en hund (собака) | ett bord (стол) |
-| en dag (день) | ett äpple (яблоко) |
-| en flicka (девочка) | ett jobb (работа) |
-| en pojke (мальчик) | ett år (год) |
+| en bil (car) | ett hus (house) |
+| en katt (cat) | ett barn (child) |
+| en hund (dog) | ett bord (table) |
+| en dag (day) | ett äpple (apple) |
+| en flicka (girl) | ett jobb (job) |
+| en pojke (boy) | ett år (year) |
 
 ```example
-Det är en bil. — Это машина.
-Jag har en katt. — У меня есть кошка.
-Det är ett hus. — Это дом.
-Hon har ett barn. — У неё есть ребёнок.
+Det är en bil. — That's a car.
+Jag har en katt. — I have a cat.
+Det är ett hus. — That's a house.
+Hon har ett barn. — She has a child.
 ```
 
-Запоминай слово сразу вместе с его парой: не «bil», а «en bil»; не «hus», а «ett hus».
-Если сказать «ett bil» вместо «en bil», шведы поймут, но это будет слышно как ошибка
-сразу же — с первого слова.
+Learn the noun together with its own little word: not "bil", but "en bil"; not "hus",
+but "ett hus". Say "ett bil" instead of "en bil" and Swedes will still understand you —
+but it is heard as a mistake immediately, on the very first word.
 
-Позже само слово «en» или «ett» подскажет тебе, как сказать «эта машина» или «этот
-дом» и как сказать «мой» про эту вещь — но об этом в следующих уроках.
+Later on, that same little word — "en" or "ett" — will tell you how to say "the car" or
+"the house", and how to say "my" about that same thing. More on that in the next
+lessons.

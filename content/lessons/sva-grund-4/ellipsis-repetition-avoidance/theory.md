@@ -1,47 +1,48 @@
-В прошлом уроке текст держался вместе через **референцию**: `det`, `detta`, `vilket`
-отсылали назад к уже сказанному. **Эллипсис** — родственная техника с обратным
-знаком: вместо того чтобы указать на уже сказанное местоимением, повторяемую часть
-можно просто **пропустить**, если она восстановима из контекста.
+The last lesson held a text together through **reference**: `det`, `detta`, `vilket`
+pointed back to what was already said. **Ellipsis** is a related technique with the
+opposite move: instead of pointing back at the repeated part with a pronoun, you can
+simply **leave it out**, whenever it's recoverable from context.
 
-## Три типовых паттерна
+## Three typical patterns
 
-| Паттерн | Что пропускается | Пример |
+| Pattern | What gets dropped | Example |
 |---|---|---|
-| Общее подлежащее | подлежащее второй сочинённой части | Hon läste boken och tyckte om den. |
-| Общий глагол в сравнении | повторяемый глагол после «än» | Han är längre än hon. |
-| Эллипсис в коротком ответе | почти всё предложение | Vill du ha kaffe? — Ja, gärna. |
+| Shared subject | the subject of the second coordinated clause | Hon läste boken och tyckte om den. |
+| Shared verb in a comparison | the repeated verb after "än" | Han är längre än hon. |
+| Ellipsis in a short answer | almost the whole sentence | Vill du ha kaffe? — Ja, gärna. |
 
 ```example
-Hon läste boken och hon tyckte om den. — Она прочитала книгу, и она оценила её. (полная, без эллипсиса)
-Hon läste boken och tyckte om den. — Она прочитала книгу и оценила её. (эллипсис общего подлежащего после «och»)
+Hon läste boken och hon tyckte om den. — She read the book and she liked it. (full, no ellipsis)
+Hon läste boken och tyckte om den. — She read the book and liked it. (ellipsis of the shared subject after "och")
 ```
 
 ```example
-Han är längre än vad hon är. — Он выше, чем она есть. (полная форма со сравнением)
-Han är längre än hon. — Он выше, чем она. (эллипсис повторяемого глагола «är»)
+Han är längre än vad hon är. — He is taller than she is. (full form with the comparison spelled out)
+Han är längre än hon. — He is taller than she. (ellipsis of the repeated verb "är")
 ```
 
-## Эллипсис в коротких ответах
+## Ellipsis in short answers
 
-В диалоге почти всё предложение обычно опускается, остаётся только новая информация:
+In dialogue, almost the whole sentence is normally dropped, leaving only the new
+information:
 
 ```example
-Vill du ha kaffe? Ja, jag vill gärna ha kaffe. — Хочешь кофе? Да, я хочу кофе с удовольствием. (полный, неестественно длинный ответ)
-Vill du ha kaffe? Ja, gärna. — Хочешь кофе? Да, с удовольствием. (естественный короткий ответ)
-Har du läst boken? Nej, inte än. — Ты читал книгу? Нет, ещё нет.
+Vill du ha kaffe? Ja, jag vill gärna ha kaffe. — Would you like coffee? Yes, I would like coffee gladly. (full, unnaturally long answer)
+Vill du ha kaffe? Ja, gärna. — Would you like coffee? Yes, please. (natural short answer)
+Har du läst boken? Nej, inte än. — Have you read the book? No, not yet.
 ```
 
-## Эллипсис и референция — два компаньона
+## Ellipsis and reference — two companions
 
-Обе техники решают одну задачу — не повторяться, — но по-разному: референция
-(`det`, `vilket`) указывает на сказанное местоимением, эллипсис убирает его вовсе.
-Если можно чисто опустить повторяемое слово, а вместо этого раз за разом вставлять
-местоимение, текст начинает звучать громоздко. Опытный автор переключается между
-этими двумя приёмами по ситуации.
+Both techniques solve the same problem — not repeating yourself — but in different
+ways: reference (`det`, `vilket`) points back with a pronoun, ellipsis removes the
+repeated part entirely. If a clean ellipsis is available and you insert a pronoun
+instead, again and again, the text starts to sound clunky. A skilled writer switches
+between the two techniques as the situation calls for it.
 
-## Коротко
+## In short
 
-Эллипсис пропускает общее подлежащее после `och`, общий глагол в сравнении с `än` и
-почти всё предложение в коротком ответе — если это восстановимо из контекста. Это не
-ошибка и не небрежность, а стандартный инструмент письменного и устного шведского,
-который работает в паре с местоименной референцией.
+Ellipsis drops the shared subject after `och`, the shared verb in a comparison with
+`än`, and almost the whole sentence in a short answer — whenever it's recoverable
+from context. This isn't an error or carelessness, but a standard tool of written and
+spoken Swedish that works alongside pronominal reference.

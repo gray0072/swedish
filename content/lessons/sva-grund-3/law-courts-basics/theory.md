@@ -1,33 +1,33 @@
-Шведская судебная система устроена в три инстанции. Дело обычно начинается в
-**tingsrätt** — суде первой инстанции, который рассматривает и **brottmål** (уголовные
-дела), и **tvistemål** (гражданские споры). Если сторона не согласна с решением, она
-может **överklaga** (обжаловать) его в **hovrätt** (апелляционном суде), а в редких
-случаях дело доходит до **Högsta domstolen** (Верховного суда).
+The Swedish court system has three tiers. A case usually starts at the **tingsrätt** —
+the district court, which handles both **brottmål** (criminal cases) and **tvistemål**
+(civil disputes). If a party disagrees with the ruling, they can **överklaga** (appeal)
+it to the **hovrätt** (court of appeal), and in rare cases a case reaches the
+**Högsta domstolen** (Supreme Court).
 
 ```example
-Rättegången hölls i tingsrätten. — Судебный процесс проходил в суде первой инстанции.
-Du kan överklaga domen inom tre veckor. — Ты можешь обжаловать приговор в течение трёх недель.
+Rättegången hölls i tingsrätten. — The trial was held at the district court.
+Du kan överklaga domen inom tre veckor. — You can appeal the verdict within three weeks.
 ```
 
-В уголовном деле обвинение представляет **åklagare** (прокурор), который выдвигает
-**åtal** (обвинение) против **misstänkt** (подозреваемого). Со стороны защиты выступает
-**försvarsadvokat** (адвокат защиты), а важную роль в процессе играют **vittnen**
-(свидетели), которые рассказывают, что видели или слышали.
+In a criminal case, the prosecution is represented by the **åklagare** (prosecutor), who
+brings an **åtal** (indictment) against the **misstänkt** (suspect). The defence is
+represented by a **försvarsadvokat** (defence lawyer), and **vittnen** (witnesses) play
+an important role in the trial, describing what they saw or heard.
 
 ```example
-Åklagaren väckte åtal mot mannen. — Прокурор предъявил обвинение мужчине.
-Ett vittne berättade vad som hade hänt. — Свидетель рассказал, что произошло.
+Åklagaren väckte åtal mot mannen. — The prosecutor brought charges against the man.
+Ett vittne berättade vad som hade hänt. — A witness described what had happened.
 ```
 
-Судебный процесс — **rättegång** — заканчивается решением суда: подсудимого могут
-**dömas** (осудить), например, к **böter** (штрафу), либо **frikänna** (оправдать), если
-вина не доказана. Итоговое решение называется **dom** — приговор или судебное решение,
-и именно его можно обжаловать в вышестоящей инстанции.
+The trial — **rättegång** — ends with the court's decision: the defendant may be
+**dömas** (convicted), for instance to pay **böter** (a fine), or **frikänna** (acquitted)
+if guilt is not proven. The final decision is called a **dom** — a verdict or judgment —
+and it is exactly this that can be appealed to a higher court.
 
 ```example
-Mannen dömdes till böter. — Мужчина был приговорён к штрафу.
-Domstolen valde att frikänna den misstänkte. — Суд принял решение оправдать подозреваемого.
+Mannen dömdes till böter. — The man was sentenced to a fine.
+Domstolen valde att frikänna den misstänkte. — The court chose to acquit the suspect.
 ```
 
-В гражданских спорах — например, о границах участка — стороны обычно нанимают
-**advokat** (адвоката), чтобы он представлял их интересы в **tvistemål**.
+In civil disputes — over a property boundary, for instance — the parties usually hire an
+**advokat** (lawyer) to represent their interests in a **tvistemål**.

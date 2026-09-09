@@ -1,31 +1,31 @@
-Och и men — маленькие слова-клей: они соединяют два коротких предложения в
-одно, а порядок слов внутри каждой части при этом не меняется.
+Och and men are small glue words: they join two short sentences into one,
+while the word order inside each part stays the same.
 
-Och (и) соединяет две вещи, которые идут вместе, без противопоставления:
-
-```example
-Jag heter Ali och jag bor i Malmö. — Меня зовут Али, и я живу в Мальмё.
-Jag har en son och en dotter. — У меня есть сын и дочь.
-```
-
-Men (но) соединяет две вещи, которые противоречат друг другу:
+Och (and) joins two things that go together, with no contrast:
 
 ```example
-Jag talar svenska men inte engelska. — Я говорю по-шведски, но не по-английски.
-Han är trött men glad. — Он усталый, но радостный.
+Jag heter Ali och jag bor i Malmö. — My name is Ali, and I live in Malmö.
+Jag har en son och en dotter. — I have a son and a daughter.
 ```
 
-Ещё одно полезное слово-клей — eller (или): им предлагают выбор между двумя
-вещами.
+Men (but) joins two things that contradict each other:
 
 ```example
-Vill du ha kaffe eller te? — Хочешь кофе или чай?
+Jag talar svenska men inte engelska. — I speak Swedish but not English.
+Han är trött men glad. — He is tired but happy.
 ```
 
-Все три слова работают одинаково просто: возьми два коротких предложения (или
-два коротких куска) и поставь между ними och, men или eller — och для «тоже/
-и», men для «но», eller — когда нужно выбрать одно из двух.
+One more useful glue word is eller (or): it offers a choice between two
+things.
 
-Каждая часть остаётся отдельным простым предложением сама по себе: кто →
-слово-действие → всё остальное. Слово-клей просто встаёт между двумя такими
-частями, ничего не меняя внутри них.
+```example
+Vill du ha kaffe eller te? — Do you want coffee or tea?
+```
+
+All three words work the same simple way: take two short sentences (or two
+short pieces) and put och, men, or eller between them — och for "also/and",
+men for "but", eller when you need to pick one of two.
+
+Each part stays a simple sentence on its own: who → the action word → the
+rest. The glue word just sits between two such parts, without changing
+anything inside them.

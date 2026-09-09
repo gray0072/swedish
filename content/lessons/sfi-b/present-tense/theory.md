@@ -1,16 +1,16 @@
-Лучшая новость для начинающего: в шведском настоящем времени **глагол не меняется по
-лицам**. Одна форма — на *jag* (я), *du* (ты), *han/hon* (он/она), *vi* (мы), *ni* (вы),
-*de* (они).
+The best news for a beginner: in the Swedish present tense, **the verb doesn't change
+by person**. One form serves *jag* (I), *du* (you), *han/hon* (he/she), *vi* (we), *ni*
+(you, plural), and *de* (they).
 
 ```example
-jag talar — я говорю
-du talar — ты говоришь
-de talar — они говорят
+jag talar — I speak
+du talar — you speak
+de talar — they speak
 ```
 
-Большинство глаголов в настоящем времени оканчиваются на **-r**. По типу спряжения глаголы
-делятся на группы (1–4) — это определяет, как образуются прошедшее время и супин, но в
-настоящем времени разница почти не чувствуется.
+Most verbs in the present tense end in **-r**. Verbs are grouped by conjugation type
+(1–4), which determines how the past tense and supine are formed, but in the present
+tense the difference is barely noticeable.
 
-Несколько глаголов — исключения и их стоит просто запомнить: **vara** («быть») → *är*,
-**vilja** («хотеть») → *vill*, **kunna** («мочь/уметь») → *kan*.
+A few verbs are exceptions and are simply worth memorizing: **vara** ("to be") →
+*är*, **vilja** ("to want") → *vill*, **kunna** ("can, to be able to") → *kan*.

@@ -1,40 +1,40 @@
-На delkurs 1 вы описывали рецепт шаг за шагом: **först, sedan, till sist**. Теперь
-нужен более абстрактный, письменный стиль — для описания процесса вообще (не
-рецепта) и причинно-следственных связей.
+At delkurs 1 you described a recipe step by step: **först, sedan, till sist**. Now
+you need a more abstract, written-style register — for describing a process in
+general (not a recipe) and cause-and-effect relations.
 
-## Начало и ход процесса
-
-```example
-Processen inleds med att en ansökan skickas in. — Процесс начинается с подачи заявления.
-Därefter fortgår handläggningen under flera veckor. — После этого рассмотрение продолжается несколько недель.
-```
-
-## Причина и следствие
+## Starting and continuing the process
 
 ```example
-Detta leder till att myndigheten begär in fler dokument. — Это приводит к тому, что ведомство запрашивает больше документов.
-Det här leder i sin tur till en längre väntetid. — Это, в свою очередь, приводит к более долгому ожиданию.
+Processen inleds med att en ansökan skickas in. — The process begins with an application being submitted.
+Därefter fortgår handläggningen under flera veckor. — After that, the processing continues for several weeks.
 ```
 
-## Итог и результат
+## Cause and effect
 
 ```example
-Som ett resultat av detta kan hela processen ta flera månader. — В результате весь процесс может занять несколько месяцев.
-Väntetiden beror på hur många ärenden som är öppna just nu. — Время ожидания зависит от того, сколько дел открыто прямо сейчас.
+Detta leder till att myndigheten begär in fler dokument. — This leads to the authority requesting more documents.
+Det här leder i sin tur till en längre väntetid. — This, in turn, leads to a longer waiting time.
 ```
 
-## Полезные связки
-
-- **processen inleds med** — процесс начинается с
-- **det här leder i sin tur till** — это, в свою очередь, приводит к
-- **som ett resultat av detta** — в результате этого
-- **till följd av** — вследствие, в результате
+## Outcome and result
 
 ```example
-Till följd av den nya lagen har handläggningstiden förkortats. — Вследствие нового закона время рассмотрения сократилось.
-Processen avslutas med ett skriftligt beslut. — Процесс завершается письменным решением.
+Som ett resultat av detta kan hela processen ta flera månader. — As a result of this, the whole process can take several months.
+Väntetiden beror på hur många ärenden som är öppna just nu. — The waiting time depends on how many cases are open right now.
 ```
 
-Такой текст описывает не конкретный рецепт, а обобщённый ход событий — **förlopp** —
-через причины (**orsak**) и последствия (**konsekvens**), а не через простую
-последовательность действий.
+## Useful connectors
+
+- **processen inleds med** — the process begins with
+- **det här leder i sin tur till** — this in turn leads to
+- **som ett resultat av detta** — as a result of this
+- **till följd av** — as a consequence of
+
+```example
+Till följd av den nya lagen har handläggningstiden förkortats. — As a consequence of the new law, the processing time has been shortened.
+Processen avslutas med ett skriftligt beslut. — The process concludes with a written decision.
+```
+
+A text like this doesn't describe a specific recipe but a general course of events —
+**förlopp** — through causes (**orsak**) and consequences (**konsekvens**), rather than
+a simple sequence of actions.

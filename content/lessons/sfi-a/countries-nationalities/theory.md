@@ -1,16 +1,16 @@
-Три предложения, которые в классе SFI вы скажете тысячу раз. Выучите их как одну
-формулу — и вы уже можете рассказать о себе.
+Three sentences you will say a thousand times in an SFI classroom. Learn them as
+one formula and you can already introduce yourself.
 
 ```example
-Jag kommer från Sverige. — Я из Швеции.
-Jag är svensk. — Я швед.
-Jag talar svenska. — Я говорю по-шведски.
+Jag kommer från Sverige. — I come from Sweden.
+Jag är svensk. — I am Swedish.
+Jag talar svenska. — I speak Swedish.
 ```
 
-Спрашивают так: **Var kommer du ifrån?** — «Откуда ты?» Ответ всегда начинается с
-**Jag kommer från...**
+The question is **Var kommer du ifrån?** — "Where do you come from?" The answer
+always starts with **Jag kommer från...**
 
-| land (страна) | nationalitet | språk (язык) |
+| land (country) | nationalitet | språk (language) |
 |---|---|---|
 | Sverige | svensk | svenska |
 | Ryssland | rysk | ryska |
@@ -22,26 +22,26 @@ Jag talar svenska. — Я говорю по-шведски.
 | Syrien | syrisk | arabiska |
 | Iran | iransk | persiska |
 
-Самое частое место ошибки — большие буквы. **Название страны пишется с большой
-буквы, а национальность и язык — с маленькой.** В английском наоборот, поэтому
-рука сама тянется написать *Svenska*. Не надо.
+The most common mistake here is capital letters. **The country name is
+capitalised, but the nationality and the language are lower case.** English does
+the opposite, so your hand wants to write *Svenska*. Don't.
 
 ```example
 Sverige — svensk — svenska
 Turkiet — turkisk — turkiska
 ```
 
-Заметьте, как удобно устроены слова: почти все языки заканчиваются на **-ska**
+Notice how neatly the words are built: almost every language ends in **-ska**
 (svenska, ryska, polska, tyska, engelska, turkiska, somaliska, arabiska,
-persiska), а национальность — на **-sk** (svensk, rysk, polsk, tysk). Услышали
-страну — язык обычно можно угадать.
+persiska), and the nationality ends in **-sk** (svensk, rysk, polsk, tysk). Hear
+the country and you can usually guess the language.
 
-Но не всегда: язык не совпадает со страной. В Сирии и Ираке говорят
-**arabiska**, в Иране — **persiska**. Это стоит просто запомнить.
+But not always: the language does not always match the country. In Syria and
+Iraq people speak **arabiska**, in Iran **persiska**. Those you simply learn.
 
-Ещё одна полезная форма — **i** + страна, когда речь о месте:
+One more useful shape — **i** + country, when you talk about a place:
 
 ```example
-I England talar man engelska. — В Англии говорят по-английски.
-Jag bor i Sverige nu. — Сейчас я живу в Швеции.
+I England talar man engelska. — In England people speak English.
+Jag bor i Sverige nu. — I live in Sweden now.
 ```

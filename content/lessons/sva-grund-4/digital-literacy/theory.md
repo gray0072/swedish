@@ -1,47 +1,47 @@
-В «technology-privacy» речь шла о приватности данных. Теперь — о том, как
-критически оценивать то, что мы видим в интернете: источники, алгоритмы и
-контент, созданный ИИ.
+In "technology-privacy" we talked about data privacy. Now: how to
+critically assess what we see online — sources, algorithms, and
+AI-generated content.
 
-## Цифровая критика источников
-
-```example
-Digital källkritik handlar om att bedöma om en källa på nätet är trovärdig. — Цифровая критика источников — это умение оценивать, заслуживает ли доверия онлайн-источник.
-```
-
-## Проверка фактов
+## Digital source criticism
 
 ```example
-Innan man delar en nyhet är det klokt att göra en faktagranskning. — Прежде чем делиться новостью, разумно провести проверку фактов.
+Digital källkritik handlar om att bedöma om en källa på nätet är trovärdig. — Digital source criticism is about judging whether an online source is trustworthy.
 ```
 
-## Дезинформация
+## Fact-checking
 
 ```example
-Desinformation sprids ofta snabbt i sociala medier. — Дезинформация часто быстро распространяется в соцсетях.
+Innan man delar en nyhet är det klokt att göra en faktagranskning. — Before sharing a news story, it's wise to do a fact-check.
 ```
 
-`Desinformation` — это намеренно ложная информация (в отличие от простой
-ошибки).
-
-## Алгоритмы
+## Disinformation
 
 ```example
-Algoritmen visar innehåll som liknar det du redan har klickat på. — Алгоритм показывает контент, похожий на тот, что вы уже открывали.
+Desinformation sprids ofta snabbt i sociala medier. — Disinformation often spreads quickly on social media.
 ```
 
-## Контент, созданный ИИ
+`Desinformation` is deliberately false information (unlike a simple
+mistake).
+
+## Algorithms
 
 ```example
-Det är inte alltid lätt att se om en bild är AI-genererat innehåll. — Не всегда легко понять, что изображение — это контент, сгенерированный ИИ.
+Algoritmen visar innehåll som liknar det du redan har klickat på. — The algorithm shows content similar to what you've already clicked on.
+```
+
+## AI-generated content
+
+```example
+Det är inte alltid lätt att se om en bild är AI-genererat innehåll. — It's not always easy to tell if an image is AI-generated content.
 ```
 
 ```example
-Man bör kontrollera källan innan man litar på ett AI-genererat svar. — Стоит проверить источник, прежде чем доверять ответу, сгенерированному ИИ.
+Man bör kontrollera källan innan man litar på ett AI-genererat svar. — You should check the source before trusting an AI-generated answer.
 ```
 
-## Полезные вопросы для проверки источника
+## Useful questions for checking a source
 
-1. Кто автор и есть ли у него причина преувеличивать или обманывать?
-2. Есть ли этот факт в других, независимых источниках?
-3. Дата публикации — актуальна ли информация?
-4. Похоже ли изображение/видео на AI-genererat innehåll?
+1. Who is the author, and do they have a reason to exaggerate or deceive?
+2. Is the fact confirmed by other, independent sources?
+3. What's the publication date — is the information still current?
+4. Does the image/video look like AI-generated content?

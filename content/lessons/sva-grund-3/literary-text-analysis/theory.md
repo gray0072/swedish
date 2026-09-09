@@ -1,43 +1,44 @@
-Этот урок — не про конкретный рассказ, а про слова, которыми можно обсуждать
-_любой_ художественный текст: рассказ, роман, отрывок. Эти слова часто нужны
-на уроках SFI/SVA, когда учитель просит описать прочитанное.
+This lesson isn't about one specific story — it's about the words you can use
+to talk about _any_ literary text: a short story, a novel, an excerpt. These
+words often come up in SFI/SVA classes when the teacher asks you to describe
+something you've read.
 
-## Handling и personer
+## Handling and personer
 
 ```example
-Handlingen utspelar sig i en liten by på landet. — Действие (сюжет) происходит в маленькой деревне.
+Handlingen utspelar sig i en liten by på landet. — The plot takes place in a small village in the countryside.
 ```
 
 ```example
-Huvudpersonen heter Elin och hon är arton år. — Главную героиню зовут Элин, и ей восемнадцать лет.
+Huvudpersonen heter Elin och hon är arton år. — The main character is called Elin, and she's eighteen years old.
 ```
 
-Помимо huvudperson (главный персонаж), в тексте обычно есть и bikaraktärer —
-второстепенные персонажи, которые влияют на историю, но не в центре неё.
+Besides the huvudperson (main character), a text usually has bikaraktärer —
+secondary characters who affect the story without being at its centre.
 
-## Konflikt och vändpunkt
-
-```example
-Konflikten handlar om att Elin måste välja mellan familjen och sina drömmar. — Конфликт заключается в том, что Элин должна выбирать между семьёй и своими мечтами.
-```
+## Konflikt and vändpunkt
 
 ```example
-Vid vändpunkten inser Elin vad hon egentligen vill. — В поворотный момент Элин понимает, чего она на самом деле хочет.
-```
-
-## Berättarperspektiv och miljöbeskrivning
-
-```example
-Texten är skriven ur en jag-berättares perspektiv. — Текст написан от лица рассказчика от первого лица.
+Konflikten handlar om att Elin måste välja mellan familjen och sina drömmar. — The conflict is that Elin has to choose between her family and her dreams.
 ```
 
 ```example
-Miljöbeskrivningen ger en tydlig bild av byn och årstiden. — Описание обстановки даёт чёткую картину деревни и времени года.
+Vid vändpunkten inser Elin vad hon egentligen vill. — At the turning point, Elin realizes what she really wants.
 ```
 
-## Как это использовать
+## Berättarperspektiv and miljöbeskrivning
 
-Эти слова складываются в короткое устное или письменное описание: тема
-(`tema`) → главный персонаж (`huvudperson`) → конфликт (`konflikt`) →
-поворотный момент (`vändpunkt`) → развязка (`upplösning`). Такая структура
-подходит для пересказа рассказа любого уровня сложности.
+```example
+Texten är skriven ur en jag-berättares perspektiv. — The text is written from a first-person narrator's perspective.
+```
+
+```example
+Miljöbeskrivningen ger en tydlig bild av byn och årstiden. — The setting description gives a clear picture of the village and the season.
+```
+
+## How to use this
+
+These words build into a short spoken or written description: theme
+(`tema`) → main character (`huvudperson`) → conflict (`konflikt`) → turning
+point (`vändpunkt`) → resolution (`upplösning`). This structure works for
+retelling a story of any level of difficulty.

@@ -1,44 +1,45 @@
-После списка самопроверки из прошлого урока пора перейти к самой **korrekturläsning**
-— языковой правке текста. Это не то же самое, что проверять содержание: здесь речь
-о том, как найти собственные ошибки в языке, прежде чем сдать текст.
+After the self-check list from the previous lesson, it's time to move to actual
+**korrekturläsning** — proofreading the language of your text. This isn't the same
+as checking content: it's about finding your own language errors before you hand a
+text in.
 
-## Читайте текст вслух
-
-```example
-Läs texten högt för dig själv för att höra om meningarna låter naturliga. — Прочитайте текст вслух самому себе, чтобы услышать, звучат ли предложения естественно.
-```
-
-Вслух легче заметить, где предложение слишком длинное или где не хватает слова —
-глаз при чтении про себя часто "достраивает" пропущенное.
-
-## Проверяйте один аспект за раз
+## Read the text aloud
 
 ```example
-Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Проверяйте по одному аспекту за раз — сначала орфографию, потом пунктуацию, потом формы глаголов.
+Läs texten högt för dig själv för att höra om meningarna låter naturliga. — Read the text aloud to yourself, to hear whether the sentences sound natural.
 ```
 
-**en sak i taget** — одно дело за раз. Если искать все ошибки сразу, легко
-пропустить большинство из них; отдельный проход на каждый тип ошибок (**stavfel**,
-**interpunktion**, **verbform**) даёт больше результата.
+Reading aloud makes it easier to notice a sentence that's too long, or a missing
+word — when reading silently, the eye often "fills in" what isn't actually there.
 
-## Отложите текст и вернитесь к нему позже
+## Check one thing at a time
 
 ```example
-Lägg texten åt sidan och läs den igen senare med fräscha ögon. — Отложите текст в сторону и перечитайте его позже свежим взглядом.
+Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Check one thing at a time — first spelling, then punctuation, then verb forms.
 ```
 
-**lägg åt sidan** — отложить в сторону; **fräscha ögon** — свежий взгляд. Через
-день собственный текст читается совсем иначе, чем сразу после того, как он написан.
+**en sak i taget** — one thing at a time. Looking for every kind of mistake at once
+makes it easy to miss most of them; a separate pass for each error type
+(**stavfel**, **interpunktion**, **verbform**) catches more.
 
-## Дополнительные приёмы
-
-- **leta efter upprepningar** — искать повторы
-- **markera det du är osäker på** — отмечать то, в чём вы не уверены
-- **granska en genomläsning i taget** — просматривать текст за один проход на раз
+## Set the text aside and come back later
 
 ```example
-Markera det du är osäker på och slå upp det i en ordbok senare. — Отметьте то, в чём вы не уверены, и найдите это позже в словаре.
+Lägg texten åt sidan och läs den igen senare med fräscha ögon. — Set the text aside and reread it later with fresh eyes.
 ```
 
-Хорошая **korrekturläsning** — это не один быстрый взгляд, а несколько коротких,
-целенаправленных проходов по тексту.
+**lägg åt sidan** — to set aside; **fräscha ögon** — fresh eyes. A day later, your
+own text reads very differently from right after you wrote it.
+
+## More techniques
+
+- **leta efter upprepningar** — look for repetitions
+- **markera det du är osäker på** — mark what you're unsure of
+- **granska en genomläsning i taget** — review the text one pass at a time
+
+```example
+Markera det du är osäker på och slå upp det i en ordbok senare. — Mark what you're unsure of, and look it up in a dictionary later.
+```
+
+Good **korrekturläsning** isn't a single quick glance — it's several short, focused
+passes through the text.

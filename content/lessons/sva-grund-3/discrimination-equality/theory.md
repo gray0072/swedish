@@ -1,35 +1,35 @@
-В Швеции **diskriminering** (дискриминация) прямо запрещена законом. Закон выделяет
-семь защищённых **diskrimineringsgrunder** (признаков дискриминации): пол (**kön**),
-гендерная идентичность, **etnicitet** (этническая принадлежность), религия,
-**funktionsnedsättning** (инвалидность), **sexuell läggning** (сексуальная ориентация) и
-возраст.
+In Sweden, **diskriminering** (discrimination) is explicitly prohibited by law. The law
+lists seven protected **diskrimineringsgrunder** (grounds of discrimination): sex
+(**kön**), gender identity, **etnicitet** (ethnicity), religion, **funktionsnedsättning**
+(disability), **sexuell läggning** (sexual orientation), and age.
 
 ```example
-Diskriminering är förbjudet enligt svensk lag. — Дискриминация запрещена шведским законом.
-Ålder är en av de sju diskrimineringsgrunderna. — Возраст — один из семи признаков дискриминации.
+Diskriminering är förbjudet enligt svensk lag. — Discrimination is prohibited under Swedish law.
+Ålder är en av de sju diskrimineringsgrunderna. — Age is one of the seven grounds of discrimination.
 ```
 
-Различают **direkt diskriminering** (прямую) — когда человека открыто хуже обращаются
-из-за одного из признаков — и **indirekt diskriminering** (косвенную), когда формально
-нейтральное правило на практике ставит определённую группу в невыгодное положение.
-Принцип **likabehandling** (равного обращения) означает, что все люди имеют одинаковые
-**rättigheter** (права) и **lika värde** (равную ценность).
+A distinction is made between **direkt diskriminering** (direct discrimination) — when a
+person is openly treated worse because of one of these grounds — and **indirekt
+diskriminering** (indirect discrimination), when a formally neutral rule ends up putting
+a particular group at a disadvantage in practice. The principle of **likabehandling**
+(equal treatment) means that all people have the same **rättigheter** (rights) and
+**lika värde** (equal worth).
 
 ```example
-En regel som verkar neutral kan ändå bli indirekt diskriminering. — Правило, которое кажется нейтральным, всё же может стать косвенной дискриминацией.
-Alla människor har lika värde. — Все люди имеют равную ценность.
+En regel som verkar neutral kan ändå bli indirekt diskriminering. — A seemingly neutral rule can still amount to indirect discrimination.
+Alla människor har lika värde. — All people have equal worth.
 ```
 
-Работодатели и учебные заведения обязаны принимать **aktiva åtgärder** (активные меры)
-для предотвращения дискриминации, а не просто реагировать на жалобы задним числом. Тема
-**jämställdhet** (гендерного равенства) — в частности, равной оплаты труда и равного
-распределения родительского отпуска — особенно активно обсуждается в шведском обществе.
+Employers and schools are required to take **aktiva åtgärder** (active measures) to
+prevent discrimination, rather than merely reacting to complaints after the fact. The
+topic of **jämställdhet** (gender equality) — in particular equal pay and an equal split
+of parental leave — is discussed especially actively in Swedish society.
 
 ```example
-Arbetsgivare ska vidta aktiva åtgärder mot diskriminering. — Работодатели обязаны принимать активные меры против дискриминации.
-Sverige arbetar aktivt för jämställdhet på arbetsmarknaden. — Швеция активно работает над гендерным равенством на рынке труда.
+Arbetsgivare ska vidta aktiva åtgärder mot diskriminering. — Employers must take active measures against discrimination.
+Sverige arbetar aktivt för jämställdhet på arbetsmarknaden. — Sweden actively works toward gender equality in the labour market.
 ```
 
-Если человек считает, что его **diskriminerade** (дискриминировали), он может обратиться
-в **DO** — Омбудсмен по вопросам дискриминации, государственное ведомство, которое
-принимает жалобы и следит за соблюдением закона.
+If someone believes they were **diskriminerade** (discriminated against), they can turn
+to **DO** — the Equality Ombudsman, the government agency that receives complaints and
+enforces the law.

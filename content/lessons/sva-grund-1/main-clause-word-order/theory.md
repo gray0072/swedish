@@ -1,43 +1,42 @@
-Порядок слов в шведском — не свободный, как в русском, а строгая структура из
-пронумерованных мест (*satsschema*). Первое место называется **fundament** — туда
-попадает ровно один член предложения: subjekt, adverbial, objekt или даже целое
-придаточное.
+Swedish word order is not free like Russian or, to a lesser extent, English — it follows
+a strict structure of numbered slots (*satsschema*). The first slot is called the
+**fundament** — exactly one sentence element goes there: a subjekt, an adverbial, an
+objekt, or even a whole subordinate clause.
 
-Главное правило шведского порядка слов — **V2** (verb-second): личный (finit) глагол в
-повествовательном предложении всегда стоит на **втором месте**, что бы ни занимало
-fundament.
+The main rule of Swedish word order is **V2** (verb-second): the finite verb in a
+statement always sits in the **second** slot, no matter what occupies the fundament.
 
-Если fundament занят subjekt — порядок обычный:
-
-```example
-Jag bor i Malmö. — Я живу в Мальмё.
-```
-
-Но если fundament занял кто-то другой — обстоятельство времени, места, — subjekt и
-predikat **меняются местами** (инверсия), чтобы глагол остался вторым:
+If the fundament holds the subjekt, the order looks ordinary:
 
 ```example
-Idag bor jag i Stockholm. — Сегодня я живу в Стокгольме.
-I Stockholm bor många studenter. — В Стокгольме живёт много студентов.
+Jag bor i Malmö. — I live in Malmö.
 ```
 
-Обрати внимание: «idag» стоит первым, поэтому глагол «bor» остаётся на втором месте, а
-subjekt «jag» сдвигается на третье. В русском порядок слов гибкий и не подчиняется
-такому жёсткому правилу — в шведском это не стиль, а грамматика: без инверсии
-предложение попросту неправильно.
-
-В общем вопросе (да/нет) fundament пуст, и глагол выходит на **первое** место:
+But if something else takes the fundament — a time or place adverbial — the subjekt and
+the verb **swap places** (inversion), so the verb stays second:
 
 ```example
-Bor du i Stockholm? — Ты живёшь в Стокгольме?
+Idag bor jag i Stockholm. — Today I live in Stockholm.
+I Stockholm bor många studenter. — In Stockholm live many students.
 ```
 
-В вопросе со специальным словом (*vem, vad, var, när*...) вопросительное слово само
-занимает fundament, а глагол остаётся вторым:
+Notice: "idag" comes first, so the verb "bor" stays in second place, and the subjekt
+"jag" moves to third. English word order is more flexible and doesn't follow such a
+strict rule — in Swedish this is not a style choice, it's grammar: skip the inversion
+and the sentence is simply wrong.
+
+In a yes/no question the fundament is empty, and the verb moves to the **first** slot:
 
 ```example
-Var bor du? — Где ты живёшь?
+Bor du i Stockholm? — Do you live in Stockholm?
 ```
 
-V2 — правило только для **huvudsats** (главного предложения). В придаточном (*bisats*)
-порядок слов другой — это тема следующего урока.
+In a question with a question word (*vem, vad, var, när*...), the question word itself
+takes the fundament, and the verb still comes second:
+
+```example
+Var bor du? — Where do you live?
+```
+
+V2 only applies to a **huvudsats** (main clause). In a subordinate clause (*bisats*) the
+word order is different — that's the topic of the next lesson.

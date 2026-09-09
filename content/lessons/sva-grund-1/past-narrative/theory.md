@@ -1,35 +1,36 @@
-Когда рассказываешь о прошлом с точным указанием времени (когда именно это случилось),
-используется **претерит** — прошедшее время, а не перфект (сравни тему «Все времена»).
-Маркеры времени показывают, когда именно случилось событие: **igår** (вчера), **i
-förrgår** (позавчера), **förra veckan** (на прошлой неделе), **förra året** (в прошлом
-году), **för två dagar sedan** (два дня назад), **i somras** (прошлым летом).
+When you talk about the past with a precise time marker (saying exactly when something
+happened), you use the **preteritum** — the simple past — rather than the perfect
+(compare "All the tenses"). Time markers show exactly when the event happened: **igår**
+(yesterday), **i förrgår** (the day before yesterday), **förra veckan** (last week),
+**förra året** (last year), **för två dagar sedan** (two days ago), **i somras** (last
+summer).
 
 ```example
-Igår träffade jag en gammal vän. — Вчера я встретил старого друга.
-Förra veckan åkte jag till Göteborg. — На прошлой неделе я ездил в Гётеборг.
-För två dagar sedan hände något konstigt. — Два дня назад случилось кое-что странное.
+Igår träffade jag en gammal vän. — Yesterday I met an old friend.
+Förra veckan åkte jag till Göteborg. — Last week I went to Gothenburg.
+För två dagar sedan hände något konstigt. — Two days ago something strange happened.
 ```
 
-Связный рассказ о прошлом обычно строится как цепочка событий: сначала одно, потом
-другое, а в конце — итог. Для этого полезны связки **sedan** (затем), **efteråt** (после
-этого) и **till slut** (в конце концов, наконец).
+A connected narrative about the past is usually built as a chain of events: first one
+thing, then another, and finally an outcome. The connectors **sedan** (then), **efteråt**
+(afterwards) and **till slut** (finally, in the end) are useful for this.
 
 ```example
-Jag vaknade tidigt, sedan åkte jag till jobbet. Efteråt träffade jag min kollega, och till slut gick vi hem tillsammans. — Я проснулся рано, потом поехал на работу. После этого я встретил коллегу, и в конце концов мы пошли домой вместе.
+Jag vaknade tidigt, sedan åkte jag till jobbet. Efteråt träffade jag min kollega, och till slut gick vi hem tillsammans. — I woke up early, then I went to work. Afterwards I met my colleague, and finally we walked home together.
 ```
 
-Частые глаголы рассказа о прошлом — **komma** (kom, kommit), **gå** (gick, gått), **bli**
-(blev, blivit), **ha** (hade, haft), **vara** (var, varit) — почти всегда сильные или
-неправильные, их формы просто нужно запомнить.
+Frequent narrative verbs — **komma** (kom, kommit), **gå** (gick, gått), **bli** (blev,
+blivit), **ha** (hade, haft), **vara** (var, varit) — are almost always strong or
+irregular; their forms simply need to be memorized.
 
-Если важно упомянуть, что что-то случилось раньше другого прошлого события (то есть «до
-этого уже...»), используется плюсквамперфект (*hade* + супин) — это отдельная тема из
-урока «Все времена».
+If it matters that something happened before another past event (that is, "before that,
+something had already..."), you use the pluperfect (*hade* + supine) — a separate topic
+covered in "All the tenses".
 
-Глаголы **berätta** («рассказывать») и **hända** («случаться») часто появляются в самих
-рассказах о прошлом: *Vad hände sen?* («Что случилось потом?») — типичный вопрос
-слушателя, который подталкивает рассказчика продолжать.
+The verbs **berätta** ("to tell, to narrate") and **hända** ("to happen") often appear
+inside the narrative itself: *Vad hände sen?* ("What happened then?") is a typical
+listener's question that nudges the storyteller to continue.
 
 ```example
-Kan du berätta vad som hände förra året? — Можешь рассказать, что случилось в прошлом году?
+Kan du berätta vad som hände förra året? — Can you tell me what happened last year?
 ```

@@ -1,50 +1,51 @@
-Шведские месяцы легко узнать: они почти такие же, как в русском и в английском.
+Swedish months are easy to recognise: they look almost the same as in English.
 
-| зима | весна | лето | осень |
+| winter | spring | summer | autumn |
 |---|---|---|---|
 | december | mars | juni | september |
 | januari | april | juli | oktober |
 | februari | maj | augusti | november |
 
-Четыре времени года (**årstider**) — это **vår**, **sommar**, **höst** и **vinter**.
+The four seasons (**årstider**) are **vår**, **sommar**, **höst** and **vinter**.
 
-## Главное правило: строчная буква
+## The main rule: lower case
 
-Месяцы и времена года в шведском пишутся **со строчной буквы** — как и дни недели.
-В английском пишут *January*, а в шведском только **januari**. Заглавная буква
-нужна лишь в начале предложения.
-
-```example
-Jag börjar SFI i januari. — Я начинаю SFI в январе.
-December är en mörk månad. — Декабрь — тёмный месяц.
-```
-
-## Предлоги: i и på
-
-С месяцами используют предлог **i**:
+In Swedish, months and seasons are written **in lower case** — just like the days of
+the week. English writes *January*, but Swedish writes only **januari**. A capital
+letter appears only at the start of a sentence.
 
 ```example
-i januari — в январе
-i maj — в мае
-i augusti — в августе
+Jag börjar SFI i januari. — I start SFI in January.
+December är en mörk månad. — December is a dark month.
 ```
 
-С временами года обычно говорят **på** и определённую форму слова:
+## The prepositions i and på
+
+With months, use **i**:
 
 ```example
-på våren — весной
-på sommaren — летом
-på hösten — осенью
-på vintern — зимой
+i januari — in January
+i maj — in May
+i augusti — in August
 ```
 
-Запомни два образца — **i januari** и **på sommaren** — и остальные строятся так же.
+With seasons, Swedish normally uses **på** plus the definite form of the word:
 
 ```example
-På sommaren badar vi i sjön. — Летом мы купаемся в озере.
-På vintern snöar det. — Зимой идёт снег.
-I juli har många semester. — В июле у многих отпуск.
+på våren — in spring
+på sommaren — in summer
+på hösten — in autumn
+på vintern — in winter
 ```
 
-В Швеции времена года очень заметны: в декабре темно уже в три часа дня, а в июне
-светло почти всю ночь. Поэтому слова **sommar** и **vinter** ты услышишь очень часто.
+Learn the two patterns — **i januari** and **på sommaren** — and the rest follow.
+
+```example
+På sommaren badar vi i sjön. — In summer we swim in the lake.
+På vintern snöar det. — In winter it snows.
+I juli har många semester. — In July many people are on holiday.
+```
+
+The seasons are very noticeable in Sweden: in December it is dark by three in the
+afternoon, and in June it stays light almost all night. That is why you will hear the
+words **sommar** and **vinter** very often.

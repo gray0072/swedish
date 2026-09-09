@@ -1,35 +1,33 @@
-Власть в Швеции разделена на три уровня: **staten** (государство), **regionen** (регион)
-и **kommunen** (коммуна). Каждый уровень отвечает за свою часть задач и финансируется во
-многом за счёт налогов — **skattemedel** (налоговые средства).
+Power in Sweden is divided across three levels: **staten** (the state), **regionen**
+(the region) and **kommunen** (the municipality). Each level is responsible for its own
+part of public tasks and is largely financed through taxes — **skattemedel** (tax funds).
 
 ```example
-Staten ansvarar för försvar och rättsväsende. — Государство отвечает за оборону и судебную систему.
-Kommunen ansvarar för skolor och förskolor. — Коммуна отвечает за школы и детские сады.
+Staten ansvarar för försvar och rättsväsende. — The state is responsible for defence and the justice system.
+Kommunen ansvarar för skolor och förskolor. — The municipality is responsible for schools and preschools.
 ```
 
-На государственном уровне законы принимает **riksdagen** — риксдаг, парламент из 349
-депутатов, а исполняет решения **regeringen** (правительство). На уровне региона
-здравоохранением занимается орган, который до 2019 года назывался **landsting**, а
-сейчас официально называется region; решения там принимает **regionfullmäktige**
-(региональное собрание).
+At the state level, laws are passed by **riksdagen** — the Riksdag, a parliament of 349
+members — while **regeringen** (the government) implements the decisions. At the
+regional level, healthcare is handled by a body that, until 2019, was called
+**landsting**, but is now officially called a region; decisions there are made by the
+**regionfullmäktige** (regional council).
 
 ```example
-Riksdagen beslutar om nya lagar. — Риксдаг принимает новые законы.
-Regionfullmäktige fattar beslut om vården. — Региональное собрание принимает решения о здравоохранении.
+Riksdagen beslutar om nya lagar. — The Riksdag decides on new laws.
+Regionfullmäktige fattar beslut om vården. — The regional council makes decisions about healthcare.
 ```
 
-Коммуны обладают широким **självstyre** (самоуправлением): именно коммуна решает, как
-организовать школы, детские сады и уход за пожилыми. Решения принимает
-**kommunfullmäktige** — избираемое жителями коммунальное собрание, а финансируется всё
-это за счёт **kommunalskatt** (муниципального налога), размер которого различается по
-стране.
+Municipalities enjoy broad **självstyre** (self-governance): it is the municipality that
+decides how to organise schools, preschools and elderly care. Decisions are made by the
+**kommunfullmäktige** — the municipal council elected by residents — and it is all funded
+through **kommunalskatt** (municipal tax), whose rate varies across the country.
 
 ```example
-Kommunfullmäktige beslutar om kommunens budget. — Коммунальное собрание принимает решение о бюджете коммуны.
-Kommunalskatten varierar mellan olika kommuner. — Муниципальный налог отличается в разных коммунах.
+Kommunfullmäktige beslutar om kommunens budget. — The municipal council decides on the municipality's budget.
+Kommunalskatten varierar mellan olika kommuner. — The municipal tax rate varies between different municipalities.
 ```
 
-Такое трёхуровневое устройство — вместе с многочисленными государственными
-**myndigheter** (ведомствами), например Налоговым или Миграционным управлением, —
-финансирует **offentlig sektor** (государственный сектор) и шведскую систему
-**välfärd** (социального обеспечения).
+This three-level structure — together with numerous government **myndigheter**
+(agencies), such as the Tax Agency or the Migration Agency — funds the **offentlig
+sektor** (public sector) and the Swedish **välfärd** (welfare) system.

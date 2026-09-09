@@ -1,43 +1,43 @@
-В уроке «short-talk-notes» вы говорили 2–3 минуты по опорным словам. Более
-длинный доклад (5–10 минут) добавляет ещё три вещи: опору на изображения,
-работу с вопросами из зала и контроль времени.
+In "short-talk-notes" you spoke for 2–3 minutes from keywords. A longer talk
+(5–10 minutes) adds three more things: referring to images, handling
+questions from the audience, and keeping track of time.
 
-## Ссылка на изображение
+## Referring to an image
 
 ```example
-Som ni ser på bilden, ökade befolkningen kraftigt under den här perioden. — Как вы видите на изображении, население сильно выросло в этот период.
+Som ni ser på bilden, ökade befolkningen kraftigt under den här perioden. — As you see in the picture, the population grew sharply during this period.
 ```
 
 ```example
-Om vi tittar på nästa bild, syns det tydligt hur... — Если посмотреть на следующее изображение, хорошо видно, как...
+Om vi tittar på nästa bild, syns det tydligt hur... — If we look at the next slide, you can clearly see how...
 ```
 
-## Ответ на вопрос
+## Answering a question
 
-Хороший доклад оставляет время для вопросов в конце. Не нужно бояться сказать,
-что вы вернётесь к вопросу позже:
+A good talk leaves time for questions at the end. It's fine to say you'll
+come back to something later:
 
 ```example
-Bra fråga, låt mig förklara det lite mer. — Хороший вопрос, позвольте мне объяснить это подробнее.
+Bra fråga, låt mig förklara det lite mer. — Good question, let me explain that a bit more.
 ```
 
 ```example
-Det återkommer jag till om en liten stund. — Я вернусь к этому чуть позже.
+Det återkommer jag till om en liten stund. — I'll come back to that in a moment.
 ```
 
-## Контроль времени
+## Keeping track of time
 
 ```example
-Jag har ungefär två minuter kvar, så jag ska hålla mig till huvudpunkterna. — У меня осталось около двух минут, поэтому я остановлюсь на главных пунктах.
+Jag har ungefär två minuter kvar, så jag ska hålla mig till huvudpunkterna. — I have about two minutes left, so I'll stick to the main points.
 ```
 
-## Структура длинного доклада
+## Structure of a longer talk
 
-1. Введение и план доклада (`idag ska jag ta upp tre saker`).
-2. Основная часть с опорой на изображения/диаграммы.
-3. Контроль времени вслух — слушатели это ценят.
-4. Завершение и вопросы (`finns det några frågor?`).
-5. Ответы на вопросы, при необходимости — обещание вернуться позже.
+1. Introduction and outline (`idag ska jag ta upp tre saker`).
+2. Main body, supported by images or diagrams.
+3. Tracking time out loud — the audience appreciates this.
+4. Closing and questions (`finns det några frågor?`).
+5. Answering questions, promising to return to one later if needed.
 
-Публика прощает нервозность, но не прощает, если доклад разваливается по
-структуре или сильно выходит за рамки времени.
+An audience forgives nerves, but not a talk that loses its structure or runs
+far over time.

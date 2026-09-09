@@ -1,10 +1,11 @@
-В прошлом уроке ты выучил(а) шаблон утверждения: кто → слово-действие → всё
-остальное. Например: Jag bor i Malmö.
+In the previous lesson you learned the statement shape: who → the action word →
+the rest. For example: Jag bor i Malmö.
 
-Вопрос с вопросительным словом переворачивает этот шаблон: вопросительное слово
-встаёт на первое место, слово-действие — сразу за ним, а кто (или что) — в конце.
+A question with a question word flips that shape around: the question word
+comes first, the action word comes right after it, and who (or what) comes
+last.
 
-| вопросительное слово | слово-действие | кто |
+| question word | the action word | who |
 |---|---|---|
 | Vad | heter | du |
 | Var | bor | du |
@@ -13,20 +14,21 @@
 | När | kommer | du |
 
 ```example
-Vad heter du? — Как тебя зовут?
-Var bor du? — Где ты живёшь?
-Hur gammal är du? — Сколько тебе лет?
-Vem är det? — Кто это?
-När kommer du? — Когда ты придёшь?
+Vad heter du? — What's your name?
+Var bor du? — Where do you live?
+Hur gammal är du? — How old are you?
+Vem är det? — Who is that?
+När kommer du? — When are you coming?
 ```
 
-Три главных вопросительных слова — vad (что), var (где) и hur (как). Ещё два
-стоит выучить сразу: vem (кто) и när (когда) — они работают по тому же шаблону.
+The three key question words are vad (what), var (where) and hur (how). Two
+more are worth learning right away: vem (who) and när (when) — they follow the
+same shape.
 
-Обрати внимание: слово-действие стоит на втором месте и в утверждении, и в
-вопросе. Меняется только то, кто занимает первое место — тот, кто действует,
-или вопросительное слово.
+Notice that the action word stays in second place in both the statement and
+the question. Only who takes first place changes — the one doing the action,
+or the question word.
 
-Ответ на такой вопрос часто просто переворачивает шаблон обратно к утверждению:
-Var bor du? — Jag bor i Malmö. Vad heter du? — Jag heter Ali. Один и тот же
-шаблон работает в обе стороны: и для вопроса, и для ответа на него.
+The answer to such a question often just flips the shape back into a
+statement: Var bor du? — Jag bor i Malmö. Vad heter du? — Jag heter Ali. The
+same shape works both ways — for the question and for the answer to it.

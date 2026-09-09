@@ -1,40 +1,39 @@
-Тексты о профилактике — это не про лечение уже возникшей болезни, а про то, как
-**förebygga** (предотвратить) её заранее.
+A prevention text isn't about treating an illness that already exists — it's about
+how to **förebygga** (prevent) it beforehand.
 
-## Факторы риска
-
-```example
-Rökning är en välkänd riskfaktor för hjärt- och kärlsjukdomar. — Курение — хорошо известный фактор риска сердечно-сосудистых заболеваний.
-Regelbunden motion minskar risken för många sjukdomar. — Регулярная физическая активность снижает риск многих заболеваний.
-```
-
-**Förebyggande vård** (профилактическая помощь) обычно строится вокруг нескольких
-простых мер.
-
-## Здоровые привычки
+## Risk factors
 
 ```example
-Hälsosamma vanor, som bra kost och tillräckligt med sömn, är grunden för att må bra. — Здоровые привычки, такие как хорошее питание и достаточный сон, — основа хорошего самочувствия.
-Det rekommenderas att undvika för mycket stress i vardagen. — Рекомендуется избегать слишком большого стресса в повседневной жизни.
+Rökning är en välkänd riskfaktor för hjärt- och kärlsjukdomar. — Smoking is a well-known risk factor for cardiovascular disease.
+Regelbunden motion minskar risken för många sjukdomar. — Regular exercise reduces the risk of many illnesses.
 ```
 
-## Вакцинация и медосмотры
+**Förebyggande vård** (preventive care) is usually built around a few simple
+measures.
+
+## Healthy habits
 
 ```example
-Man bör vaccinera sig mot säsongsinfluensa varje höst. — Рекомендуется прививаться от сезонного гриппа каждую осень.
-En årlig hälsokontroll kan upptäcka sjukdomar tidigt. — Ежегодный медосмотр может выявить заболевания на ранней стадии.
+Hälsosamma vanor, som bra kost och tillräckligt med sömn, är grunden för att må bra. — Healthy habits, such as good diet and enough sleep, are the basis for feeling well.
+Det rekommenderas att undvika för mycket stress i vardagen. — It's recommended to avoid too much stress in everyday life.
 ```
 
-## Структура текста-инструкции
-
-Инструктивный текст о профилактике обычно построен так: сначала называется
-**riskfaktor**, затем даётся **rekommendation** (рекомендация), а в конце
-объясняется польза.
+## Vaccination and check-ups
 
 ```example
-Vaccination, hälsosam kost och regelbunden hälsokontroll är tre enkla sätt att förebygga sjukdom. — Вакцинация, здоровое питание и регулярный медосмотр — три простых способа предотвратить болезнь.
-Tidig upptäckt räddar liv. — Раннее выявление спасает жизни.
+Man bör vaccinera sig mot säsongsinfluensa varje höst. — You should get vaccinated against seasonal flu every autumn.
+En årlig hälsokontroll kan upptäcka sjukdomar tidigt. — An annual health check-up can catch illnesses early.
 ```
 
-Такой текст не описывает симптомы или лечение — он даёт советы **до** того, как
-проблема возникла.
+## The structure of an instructional text
+
+A prevention-instruction text is usually built like this: first a **riskfaktor** is
+named, then a **rekommendation** is given, and finally the benefit is explained.
+
+```example
+Vaccination, hälsosam kost och regelbunden hälsokontroll är tre enkla sätt att förebygga sjukdom. — Vaccination, a healthy diet and regular health check-ups are three simple ways to prevent illness.
+Tidig upptäckt räddar liv. — Early detection saves lives.
+```
+
+A text like this doesn't describe symptoms or treatment — it gives advice **before**
+the problem arises.

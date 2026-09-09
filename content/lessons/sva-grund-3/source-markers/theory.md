@@ -1,49 +1,47 @@
-В референтах, новостях и деловых текстах важно ясно показать, откуда взято
-утверждение — сам автор так считает или он просто передаёт чужие слова. Для этого
-используются маркеры источника.
+In summaries, news, and official texts it matters whether a claim comes from the writer
+themself or is just being relayed from someone else. Source markers make that clear.
 
-## enligt + именная группа
+## enligt + a noun phrase
 
-`Enligt` («согласно, по данным») ставится перед существительным или именем — без
-придаточного, без `att`.
+`Enligt` ("according to") goes before a noun or a name — no clause, no `att`.
 
 ```example
-Enligt Skatteverket ska deklarationen lämnas in senast den 2 maj. — По данным налогового управления, декларацию нужно подать не позднее 2 мая.
-Enligt läraren var provet svårt. — По словам учителя, экзамен был трудным.
+Enligt Skatteverket ska deklarationen lämnas in senast den 2 maj. — According to the Tax Agency, the tax return must be submitted by May 2 at the latest.
+Enligt läraren var provet svårt. — According to the teacher, the test was hard.
 ```
 
-`Enligt` нельзя присоединить к целому придаточному предложению — только к
-существительному/имени, которое называет источник.
+`Enligt` cannot attach to a whole subordinate clause — only to a noun/name that names
+the source.
 
-## hävdar att / menar att + att-придаточное
+## hävdar att / menar att + an att-clause
 
-Глаголы `hävda` («утверждать») и `mena` («считать, полагать») берут после себя целое
-придаточное с `att` — так автор текста приписывает утверждение конкретному источнику,
-не делая его своим собственным фактом.
+The verbs `hävda` ("to claim, assert") and `mena` ("to think, hold the view") take a
+full `att`-clause after them — this lets the writer attribute a claim to a specific
+source without making it their own established fact.
 
 ```example
-Myndigheten hävdar att systemet fungerar korrekt. — Ведомство утверждает, что система работает исправно.
-Experten menar att situationen kommer att förbättras. — Эксперт считает, что ситуация улучшится.
+Myndigheten hävdar att systemet fungerar korrekt. — The agency claims that the system is working correctly.
+Experten menar att situationen kommer att förbättras. — The expert holds the view that the situation will improve.
 ```
 
-## Разница между «сообщаю факт» и «передаю чужое утверждение»
+## "I state a fact" vs. "I relay someone else's claim"
 
 ```example
-Systemet fungerar korrekt. — Система работает исправно. (говорящий утверждает это как факт)
-Myndigheten hävdar att systemet fungerar korrekt. — Ведомство утверждает, что система работает исправно. (говорящий лишь передаёт чужие слова, дистанцируясь)
+Systemet fungerar korrekt. — The system works correctly. (the writer states this as fact)
+Myndigheten hävdar att systemet fungerar korrekt. — The agency claims that the system works correctly. (the writer merely relays someone else's words, staying at a distance)
 ```
 
-Второе предложение не говорит, согласен ли автор текста с этим утверждением — оно
-просто фиксирует, кто это сказал.
+The second sentence doesn't say whether the writer agrees — it simply records who said
+it.
 
-## Где это важно
+## Why this matters
 
-Источники и маркеры дистанцирования — базовый инструмент реферата и новостной
-заметки: они позволяют пересказывать чужие слова, не выдавая их за собственное мнение
-или установленный факт.
+Sources and distancing markers are a core tool of referat-writing and news reporting:
+they let you relay someone else's words without passing them off as your own opinion or
+an established fact.
 
-## Коротко
+## In short
 
-`Enligt` + существительное называет источник напрямую; `hävdar att` / `menar att` +
-att-придаточное приписывает целое утверждение конкретному источнику. Оба способа
-дистанцируют автора текста от прямого утверждения факта.
+`Enligt` + a noun names the source directly; `hävdar att` / `menar att` + an
+att-clause attributes a whole claim to a specific source. Both keep the writer at a
+distance from stating the claim as their own fact.

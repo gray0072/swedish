@@ -1,42 +1,44 @@
-В шведском нет отдельного «будущего времени» — есть три способа говорить о будущем, и
-выбор между ними несёт смысл.
+Swedish has no dedicated "future tense" — there are three ways to talk about the future,
+and the choice between them carries meaning.
 
-## ska + инфинитив — решение, намерение, обещание
+## ska + infinitive — a decision, an intention, a promise
 
-**ska** используется, когда говорящий уже принял решение или обещает что-то сделать:
-
-```example
-Jag ska resa till Spanien i sommar. — Я поеду в Испанию этим летом (я так решил).
-Jag ska ringa dig imorgon. — Я позвоню тебе завтра (обещаю).
-```
-
-## kommer att + инфинитив — прогноз на основе фактов
-
-**kommer att** используется для предсказания, которое опирается на видимые признаки или
-логический вывод говорящего, а не на его личное решение:
+**ska** is used when the speaker has already made a decision or is promising to do
+something:
 
 ```example
-Titta på molnen — det kommer att regna snart. — Смотри на облака — скоро пойдёт дождь.
-Priserna kommer att stiga nästa år. — Цены вырастут в следующем году.
+Jag ska resa till Spanien i sommar. — I'm going to travel to Spain this summer (I've decided).
+Jag ska ringa dig imorgon. — I'll call you tomorrow (I promise).
 ```
 
-## Презенс — расписание, твёрдый план
+## kommer att + infinitive — a prediction based on evidence
 
-Обычный **презенс** используется для будущего, когда речь идёт о зафиксированном расписании
-или плане, особенно с указанием времени:
+**kommer att** is used for a prediction that rests on visible evidence or the speaker's
+reasoning, rather than on their own decision:
 
 ```example
-Tåget går klockan åtta imorgon. — Поезд отправляется завтра в восемь.
-Jag träffar Anna imorgon klockan tre. — Я встречаюсь с Анной завтра в три.
+Titta på molnen — det kommer att regna snart. — Look at the clouds — it's going to rain soon.
+Priserna kommer att stiga nästa år. — Prices will rise next year.
 ```
 
-## Одна и та же идея — три оттенка
+## The present tense — a schedule, a fixed plan
 
-| Форма | Пример | Оттенок |
+The plain **present tense** is used for the future when it's a fixed schedule or plan,
+especially with a time expression:
+
+```example
+Tåget går klockan åtta imorgon. — The train leaves at eight tomorrow.
+Jag träffar Anna imorgon klockan tre. — I'm meeting Anna tomorrow at three.
+```
+
+## The same idea, three shades
+
+| Form | Example | Nuance |
 |---|---|---|
-| ska | Jag ska träffa Anna imorgon. | Я так решил(а) / договорился(ась) |
-| kommer att | Jag kommer att träffa Anna imorgon. | Скорее всего это случится (нейтральный прогноз) |
-| презенс | Jag träffar Anna imorgon klockan tre. | Точная договорённость по расписанию |
+| ska | Jag ska träffa Anna imorgon. | I've decided to / arranged to |
+| kommer att | Jag kommer att träffa Anna imorgon. | This will most likely happen (a neutral prediction) |
+| present | Jag träffar Anna imorgon klockan tre. | An exact, scheduled arrangement |
 
-Разница тонкая, и во многих бытовых фразах формы взаимозаменяемы — но там, где важен
-оттенок (обещание vs прогноз vs расписание), выбор формы это показывает.
+The difference is subtle, and in a lot of everyday phrases the forms are interchangeable —
+but wherever the nuance matters (a promise vs. a prediction vs. a schedule), the choice of
+form shows it.

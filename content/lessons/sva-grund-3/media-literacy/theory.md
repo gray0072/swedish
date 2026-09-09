@@ -1,33 +1,33 @@
-Читая новость или пост в интернете, полезно применять **källkritik** — критическую оценку
-источника. Первый вопрос: **Vem har skrivit texten och varför?** — кто автор
-(**avsändare**) и какова его цель (**syfte**)? Один и тот же факт можно подать
-по-разному в зависимости от намерения.
+When reading a news story or an online post, it helps to apply **källkritik** — source
+criticism. The first question is: **Vem har skrivit texten och varför?** — who is the
+author (**avsändare**) and what is their purpose (**syfte**)? The same fact can be
+presented differently depending on intent.
 
 ```example
-Vem har skrivit texten och varför? — Кто написал текст и зачем?
-Vad är syftet med den här texten? — Какова цель этого текста?
+Vem har skrivit texten och varför? — Who wrote the text and why?
+Vad är syftet med den här texten? — What is the purpose of this text?
 ```
 
-Второй важный вопрос — **Är källan pålitlig?** Надёжность (**trovärdighet**) источника
-растёт, если можно проверить его через **primärkälla** (первичный источник, например
-официальный отчёт), а не только через **sekundärkälla** (пересказ в другом издании).
-**Opartisk** (беспристрастный) источник обычно представляет разные **perspektiv**
-(точки зрения), а не только одну сторону.
+The second important question is: **Är källan pålitlig?** A source's **trovärdighet**
+(credibility) grows if it can be checked against a **primärkälla** (primary source, such
+as an official report) rather than only through a **sekundärkälla** (a retelling in
+another outlet). An **opartisk** (impartial) source usually presents several
+**perspektiv** (perspectives) rather than only one side.
 
 ```example
-Är källan pålitlig, eller är det ett okänt konto på nätet? — Надёжен ли источник, или это неизвестный аккаунт в интернете?
-Trovärdigheten ökar om flera källor säger samma sak. — Достоверность повышается, если несколько источников говорят одно и то же.
+Är källan pålitlig, eller är det ett okänt konto på nätet? — Is the source reliable, or is it an unknown account online?
+Trovärdigheten ökar om flera källor säger samma sak. — Credibility increases when several sources say the same thing.
 ```
 
-Иногда текст сознательно построен так, чтобы вызвать определённую реакцию — тогда можно
-сказать: **Texten verkar vinklad** — «текст кажется предвзятым». **Vinkling** (подача под
-углом) не всегда означает ложь, но означает, что читателю показывают не всю картину.
+Sometimes a text is deliberately built to provoke a particular reaction — in that case
+you can say: **Texten verkar vinklad** — "the text seems slanted." **Vinkling** (a slant)
+does not always mean a lie, but it does mean the reader is not shown the full picture.
 
 ```example
-Texten verkar vinklad eftersom bara en sida får komma till tals. — Текст кажется предвзятым, потому что высказывается только одна сторона.
-Nyhetsvinklingen skiljde sig mellan olika tidningar. — Подача новости отличалась в разных газетах.
+Texten verkar vinklad eftersom bara en sida får komma till tals. — The text seems slanted because only one side gets to speak.
+Nyhetsvinklingen skiljde sig mellan olika tidningar. — The slant of the news story differed between newspapers.
 ```
 
-Профессиональные СМИ и независимые организации регулярно проводят **faktagranskning**
-(проверку фактов), в том числе чтобы распознать **desinformation** (дезинформацию) —
-намеренно ложную информацию, распространяемую с определённой целью.
+Professional media and independent organisations regularly carry out **faktagranskning**
+(fact-checking), partly to recognise **desinformation** (disinformation) — deliberately
+false information spread with a particular purpose.

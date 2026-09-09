@@ -1,53 +1,52 @@
-Помимо простого сравнения «больше/меньше», в шведском есть отдельные конструкции для
-пропорционального нарастания, равенства и обычного сравнения с `än`. У каждой — свой
-порядок слов.
+Beyond a simple "more/less" comparison, Swedish has separate constructions for
+proportional increase, equality, and ordinary comparison with `än`. Each has its own
+word order.
 
-## ju … desto — «чем …, тем …»
+## ju … desto — "the more …, the more …"
 
-Показывает, что рост одного признака идёт вместе с ростом другого.
+Shows that one property rising goes hand in hand with another rising.
 
 ```example
-Ju mer du övar, desto bättre blir du. — Чем больше ты тренируешься, тем лучше становишься.
+Ju mer du övar, desto bättre blir du. — The more you practise, the better you get.
 ```
 
-Разбор порядка слов — половины устроены по-разному:
+Breaking down the word order — the two halves behave differently:
 
-| Часть | Порядок | Пример |
+| Part | Word order | Example |
 |---|---|---|
-| ju-часть | как придаточное: подлежащее перед глаголом, без инверсии | *ju mer* **du övar** |
-| desto-часть | как главное предложение: V2, глагол сразу после *desto + прилагательное*, подлежащее после глагола | *desto bättre* **blir du** |
+| the ju-half | like a subordinate clause: subject before the verb, no inversion | *ju mer* **du övar** |
+| the desto-half | like a main clause: V2, the verb right after *desto + adjective*, subject after the verb | *desto bättre* **blir du** |
 
-Это важно запомнить отдельно: `ju`-часть не переворачивает подлежащее и глагол
-(потому что `ju` вводит её как придаточное), а вот `desto`-часть — обычное главное
-предложение с V2, поэтому там подлежащее стоит после глагола.
+This is worth remembering as two separate facts: the `ju`-half does not invert subject
+and verb (because `ju` introduces it like a subordinate clause), while the `desto`-half
+is an ordinary main clause with V2, so there the subject comes after the verb.
 
-## lika … som — равенство
+## lika … som — equality
 
-`Lika` + прилагательное + `som` сравнивает два предмета как равные по какому-то
-признаку.
-
-```example
-Hon är lika lång som sin bror. — Она такого же роста, как её брат.
-```
-
-## Сравнительная степень + än — неравенство
-
-Обычное сравнение «больше/меньше, чем» строится через сравнительную степень
-прилагательного и союз `än`.
+`Lika` + adjective + `som` compares two things as equal in some property.
 
 ```example
-Han är större än sin bror. — Он выше своего брата.
+Hon är lika lång som sin bror. — She is as tall as her brother.
 ```
 
-## Все три рядом
+## comparative + än — inequality
+
+An ordinary "more/less than" comparison is built with the comparative form of the
+adjective and the conjunction `än`.
 
 ```example
-Ju mer hon tränar, desto starkare blir hon. — Чем больше она тренируется, тем сильнее становится.
-Hon är lika stark som sin syster. — Она такая же сильная, как её сестра.
-Hon är starkare än sin bror. — Она сильнее своего брата.
+Han är större än sin bror. — He is taller than his brother.
 ```
 
-## Коротко
+## All three side by side
 
-`Ju … desto` — пропорциональный рост (ju без инверсии, desto с инверсией); `lika …
-som` — равенство; сравнительная степень + `än` — обычное неравенство.
+```example
+Ju mer hon tränar, desto starkare blir hon. — The more she trains, the stronger she gets.
+Hon är lika stark som sin syster. — She is as strong as her sister.
+Hon är starkare än sin bror. — She is stronger than her brother.
+```
+
+## In short
+
+`Ju … desto` is proportional increase (no inversion in the ju-half, inversion in the
+desto-half); `lika … som` is equality; comparative + `än` is ordinary inequality.

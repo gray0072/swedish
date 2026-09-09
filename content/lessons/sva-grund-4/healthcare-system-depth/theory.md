@@ -1,53 +1,50 @@
-В «health-prevention-text» речь шла о профилактике и здоровье конкретного
-человека. Теперь — о том, как здравоохранение встроено в социальную
-систему Швеции в целом.
+In "health-prevention-text" we talked about prevention and one person's
+health. Now: how healthcare is embedded in Sweden's social system as a
+whole.
 
-## Социальное страхование
-
-```example
-Socialförsäkringen ger ersättning vid sjukdom och föräldraledighet. — Социальное страхование даёт компенсацию при болезни и в декретном отпуске.
-```
-
-`Socialförsäkring` — общий термин для системы государственных выплат
-(больничный, родительский отпуск, пенсия и т. д.).
-
-## Плата за визит к врачу
+## Social insurance
 
 ```example
-Sjukvårdsavgiften varierar mellan olika regioner i Sverige. — Плата за визит к врачу отличается в разных регионах Швеции.
+Socialförsäkringen ger ersättning vid sjukdom och föräldraledighet. — Social insurance provides compensation for illness and parental leave.
+```
+
+`Socialförsäkring` is the general term for the system of state payments
+(sick pay, parental leave, pension, and so on).
+
+## Paying for a doctor's visit
+
+```example
+Sjukvårdsavgiften varierar mellan olika regioner i Sverige. — The healthcare fee varies between different regions in Sweden.
 ```
 
 ```example
-Det finns ett högkostnadsskydd som gör att man inte betalar hur mycket som helst. — Существует защита от высоких расходов, благодаря которой не приходится платить сколько угодно.
+Det finns ett högkostnadsskydd som gör att man inte betalar hur mycket som helst. — There is a high-cost protection scheme that stops you from paying an unlimited amount.
 ```
 
-Здравоохранение в Швеции не бесплатное, но пациент платит небольшую
-фиксированную сумму (`patientavgift`/`sjukvårdsavgift`), а не полную
-стоимость.
+Healthcare in Sweden isn't free, but a patient pays a small fixed amount
+(`patientavgift`/`sjukvårdsavgift`) rather than the full cost.
 
-## Права пациента
+## Patients' rights
 
 ```example
-Patientens rättigheter innefattar rätten till information om sin vård. — Права пациента включают право на информацию о своём лечении.
+Patientens rättigheter innefattar rätten till information om sin vård. — A patient's rights include the right to information about their care.
 ```
 
-## Равный доступ к медицине
+## Equal access to healthcare
 
 ```example
-Jämlik vård innebär att alla ska få vård på lika villkor, oavsett bakgrund. — Равное здравоохранение означает, что все должны получать помощь на равных условиях, независимо от происхождения.
+Jämlik vård innebär att alla ska få vård på lika villkor, oavsett bakgrund. — Equal healthcare means that everyone should get care on equal terms, regardless of background.
 ```
 
-## Общественное здоровье
+## Public health
 
 ```example
-Folkhälsan handlar om befolkningens hälsa i stort, inte bara enskilda patienter. — Общественное здоровье касается здоровья населения в целом, а не только отдельных пациентов.
+Folkhälsan handlar om befolkningens hälsa i stort, inte bara enskilda patienter. — Public health is about the health of the population as a whole, not just individual patients.
 ```
 
-## Полезно знать
+## Good to know
 
-1. `Socialförsäkring` шире, чем просто медицина — она включает больничный,
-   родительские выплаты и пенсию.
-2. `Högkostnadsskydd` ограничивает общую сумму, которую пациент платит за
-   год.
-3. `Folkhälsa` — это взгляд на здоровье общества в целом, а не отдельного
-   человека.
+1. `Socialförsäkring` is broader than just healthcare — it includes sick
+   pay, parental benefits, and pensions.
+2. `Högkostnadsskydd` caps the total amount a patient pays in a year.
+3. `Folkhälsa` looks at the health of society as a whole, not one person.

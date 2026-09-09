@@ -1,46 +1,46 @@
-Именная группа может разрастись до целой цепочки: указатель + несколько прилагательных
-+ существительное + придаточное определительное — и все части этой цепочки
-согласуются между собой по предсказуемым правилам.
+A noun phrase can grow into a whole chain: determiner + several adjectives + noun + a
+relative clause — and every part of that chain agrees with the others by predictable
+rules.
 
-## Полная структура
+## The full structure
 
 ```example
-Det där stora, gamla, vackra trähuset som ligger vid sjön. — Тот большой, старый, красивый деревянный дом, что стоит у озера.
+Det där stora, gamla, vackra trähuset som ligger vid sjön. — That big, old, beautiful wooden house that stands by the lake.
 ```
 
-| Часть | Роль | Слово(-а) |
+| Part | Role | Word(s) |
 |---|---|---|
-| Указатель | определённость + указание | *det där* |
-| Прилагательные (несколько подряд, через запятую) | признаки | *stora, gamla, vackra* |
-| Существительное | определённая форма | *trähuset* |
-| Придаточное | уточняет, какой именно дом | *som ligger vid sjön* |
+| Determiner | definiteness + pointing | *det där* |
+| Adjectives (several in a row, comma-separated) | properties | *stora, gamla, vackra* |
+| Noun | definite form | *trähuset* |
+| Relative clause | specifies which house exactly | *som ligger vid sjön* |
 
-## Все прилагательные согласуются одинаково
+## Every adjective in the chain agrees the same way
 
-Как только перед существительным стоит указатель типа *den/det/de här/där*, всё
-существительное употребляется в **определённой форме** (двойная определённость:
-*trähus**et***), а **каждое** прилагательное в цепочке принимает окончание **-a** —
-одно и то же для en-слова, ett-слова и множественного числа. Это отличается от
-неопределённой формы, где у ett-слова было бы *-t*, а во множественном — тоже *-a*, но у
-en-слова в единственном числе — без окончания.
+Once a determiner like *den/det/de här/där* stands before the noun, the noun itself
+takes the **definite form** (double definiteness: *trähus**et***), and **every**
+adjective in the chain takes the ending **-a** — the same ending regardless of whether
+the head noun is an en-word, an ett-word, or plural. This differs from the indefinite
+form, where an ett-word would take *-t* and a plural would also take *-a*, but a
+singular en-word would take no ending at all.
 
 ```example
-Den där stora, gamla, vackra trädgården som ligger vid sjön. — Тот большой, старый, красивый сад, что находится у озера.
+Den där stora, gamla, vackra trädgården som ligger vid sjön. — That big, old, beautiful garden that lies by the lake.
 ```
 
-*trädgården* — en-слово, но прилагательное всё равно *stora* (не *stor*), потому что
-вся группа определена указателем — правило одно и для en-, и для ett-слов, и для
-множественного числа.
+*trädgården* is an en-word, but the adjective is still *stora* (not *stor*), because the
+whole phrase is made definite by the determiner — one rule for en-words, ett-words, and
+plurals alike.
 
-## Куда крепится придаточное
+## Where the relative clause attaches
 
-Придаточное *som ligger vid sjön* относится не к последнему прилагательному, а ко
-**всей именной группе целиком** — то есть к главному существительному (*trähuset*,
-*trädgården*). Оно всегда стоит в самом конце группы, после существительного,
-независимо от того, сколько прилагательных было перед ним.
+The relative clause *som ligger vid sjön* does not attach to the last adjective — it
+attaches to the **whole noun phrase**, that is, to the head noun (*trähuset*,
+*trädgården*). It always stands at the very end of the phrase, after the noun, no
+matter how many adjectives came before it.
 
-## Коротко
+## In short
 
-Сколько бы прилагательных ни стояло в цепочке, они склоняются одинаково (все — на
-*-a* при указателе), а придаточное в конце определяет весь предмет целиком, а не
-последнее слово перед ним.
+However many adjectives sit in the chain, they all decline the same way (all end in
+*-a* once a determiner is present), and the relative clause at the end defines the
+whole thing, not just the last word before it.

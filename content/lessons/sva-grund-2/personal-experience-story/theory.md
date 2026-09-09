@@ -1,47 +1,49 @@
-В теме «Рассказ о прошлом» (delkurs 1) вы учились строить цепочку событий: igår, sedan,
-till slut. Рассказ о **значимом** событии идёт дальше: важно не только что случилось, но
-и почему это было важно, и как это на вас повлияло.
+In "Talking about the past" (delkurs 1) you learned to build a chain of events: igår,
+sedan, till slut. Telling the story of a **significant** event goes further: it matters
+not only what happened, but why it mattered and how it affected you.
 
-Начать такой рассказ можно фразой **Det som hände var att...** («Дело было в том,
-что...») — она сразу вводит суть события, не перегружая слушателя деталями.
-
-```example
-Det som hände var att jag missade planet. — Дело было в том, что я опоздал на самолёт.
-```
-
-Дальше в рассказ добавляются глаголы **minnas** («помнить») и **påverka** («влиять на»)
-— они переключают внимание с самого события на его след в вашей жизни. Событие, которое
-меняет взгляд на жизнь, называют **en vändpunkt** — поворотным моментом.
+You can open such a story with **Det som hände var att...** ("What happened was
+that...") — it introduces the core of the event right away, without overloading the
+listener with detail.
 
 ```example
-Jag kommer alltid att minnas den dagen. — Я всегда буду помнить тот день.
-Det blev en vändpunkt i mitt liv. — Это стало поворотным моментом в моей жизни.
+Det som hände var att jag missade planet. — What happened was that I missed the plane.
 ```
 
-Фраза **Det förändrade mitt sätt att se på...** («Это изменило то, как я смотрю на...»)
-— удобный способ связать событие с его долгосрочным эффектом, не вдаваясь в лишние
-подробности.
+Further into the story come the verbs **minnas** ("to remember") and **påverka** ("to
+affect") — they shift attention from the event itself to the mark it left on your life.
+An event that changes your outlook on life is called **en vändpunkt** — a turning point.
 
 ```example
-Det förändrade mitt sätt att se på livet. — Это изменило то, как я смотрю на жизнь.
+Jag kommer alltid att minnas den dagen. — I will always remember that day.
+Det blev en vändpunkt i mitt liv. — It became a turning point in my life.
 ```
 
-Полезны также фразы **till en början** (поначалу — как было до перемены), **med tiden**
-(со временем — как менялось) и **i efterhand** (оглядываясь назад — как видится сейчас).
-Вместе они показывают развитие ситуации во времени, а не только один момент.
+The phrase **Det förändrade mitt sätt att se på...** ("It changed the way I see...") is
+a convenient way to link the event to its long-term effect without going into
+unnecessary detail.
 
 ```example
-Till en början var jag rädd för att prata svenska. Med tiden blev det lättare. — Поначалу я боялся говорить по-шведски. Со временем стало легче.
+Det förändrade mitt sätt att se på livet. — It changed the way I see life.
 ```
 
-Закончить рассказ помогает фраза **Det viktigaste jag lärde mig var att...** («Самое
-важное, чему я научился, было...») — она подводит итог и превращает историю в вывод,
-а не просто перечисление событий.
+Also useful are **till en början** (at first — how it was before the change), **med
+tiden** (over time — how it developed) and **i efterhand** (in hindsight — how it looks
+now). Together they show how a situation developed over time, not just one single
+moment.
 
 ```example
-Det viktigaste jag lärde mig var att inte ge upp. — Самое важное, чему я научился, — не сдаваться.
+Till en början var jag rädd för att prata svenska. Med tiden blev det lättare. — At first I was afraid to speak Swedish. Over time it got easier.
 ```
 
-Такая структура — событие, его влияние, вывод — типична для устных заданий SFI/SVA на
-уровне delkurs 2, где важно не только рассказать историю, но и показать рефлексию над
-ней.
+You can close the story with **Det viktigaste jag lärde mig var att...** ("The most
+important thing I learned was...") — it sums things up and turns the story into a
+conclusion, not just a list of events.
+
+```example
+Det viktigaste jag lärde mig var att inte ge upp. — The most important thing I learned was not to give up.
+```
+
+This structure — event, impact, conclusion — is typical of the SFI/SVA speaking tasks
+at the delkurs 2 level, where it matters not only to tell a story but also to show
+reflection on it.

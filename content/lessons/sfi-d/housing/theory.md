@@ -1,29 +1,20 @@
-Att hitta en **lägenhet** («квартира») i Sverige betyder oftast att skriva under ett
-**kontrakt** («договор») med en **hyresvärd** («арендодатель»). Du blir då **hyresgäst**
-(«арендатор, квартиросъёмщик»). Varje månad betalar du **hyra** — det svenska ordet
-betyder både «арендная плата» (substantiv) och «снимать/арендовать» (verb), så titta på
-sammanhanget.
+Finding a **lägenhet** (apartment) in Sweden usually means signing a **kontrakt** (contract) with a **hyresvärd** (landlord). That makes you the **hyresgäst** (tenant). Every month you pay **hyra** — this Swedish word means both "rent" (noun) and "to rent" (verb), so look at the context.
 
 ```example
-Jag hyr en lägenhet i centrum. — Я снимаю квартиру в центре.
-Hyran ska betalas före den femte. — Аренду нужно оплатить до пятого числа.
+Jag hyr en lägenhet i centrum. — I rent an apartment in the center.
+Hyran ska betalas före den femte. — The rent must be paid before the fifth.
 ```
 
-En lägenhet har oftast flera **rum**: **kök** («кухня»), **badrum** («ванная») och
-**sovrum** («спальня»). Om lägenheten redan har möbler kallas den **möblerad**
-(«меблированная»). Din **adress** («адрес») innehåller ofta en **våning**
-(«этаж») — till exempel «tre trappor upp» betyder tredje våningen.
+An apartment usually has several **rum** (rooms): **kök** (kitchen), **badrum** (bathroom), and **sovrum** (bedroom). If the apartment already has furniture, it's called **möblerad** (furnished). Your **adress** (address) often includes a **våning** (floor) — for example, "tre trappor upp" means the third floor.
 
 ```example
-Vilken våning bor du på? — На каком этаже ты живёшь?
-Lägenheten är möblerad och har en balkong. — Квартира меблирована и с балконом.
+Vilken våning bor du på? — What floor do you live on?
+Lägenheten är möblerad och har en balkong. — The apartment is furnished and has a balcony.
 ```
 
-När du **flyttar** («переезжаешь») in behöver du en **nyckel** («ключ») till
-ytterdörren. Det är bra att hälsa på sin **granne** («сосед») — man kan behöva
-låna något eller bara säga hej i trapphuset.
+When you **flyttar** (move) in, you need a **nyckel** (key) to the front door. It's good to say hello to your **granne** (neighbor) — you might need to borrow something, or just say hi in the stairwell.
 
 ```example
-Kan jag få nycklarna redan idag? — Могу я получить ключи уже сегодня?
-Min granne heter Lars och är trevlig. — Моего соседа зовут Ларс, он приветливый.
+Kan jag få nycklarna redan idag? — Can I get the keys already today?
+Min granne heter Lars och är trevlig. — My neighbor's name is Lars and he's friendly.
 ```

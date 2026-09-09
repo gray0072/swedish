@@ -1,21 +1,21 @@
-К концу SVA grund резюме и сопроводительное письмо должны звучать более зрелым, личным тоном. Вместо сухого перечисления фактов используют более выразительные фразы: **Jag har alltid brunnit för att arbeta med människor** — «Я всегда горел(а) страстью работать с людьми». Глагол **brinna för** буквально означает «гореть за что-то», то есть быть по-настоящему увлечённым делом.
+By the end of SVA grund, a CV and cover letter should sound more mature and personal. Instead of a dry list of facts, more vivid phrases are used: **Jag har alltid brunnit för att arbeta med människor** — "I have always been passionate about working with people." The verb **brinna för** literally means "to burn for something", that is, to be genuinely passionate about it.
 
 ```example
-Jag brinner för hållbar utveckling. — Я увлечён(а) устойчивым развитием.
-Min styrka är förmågan att lösa problem snabbt. — Моя сильная сторона — способность быстро решать проблемы.
+Jag brinner för hållbar utveckling. — I am passionate about sustainable development.
+Min styrka är förmågan att lösa problem snabbt. — My strength is the ability to solve problems quickly.
 ```
 
-Важно не просто заявлять о сильных сторонах, а подкреплять их **konkret exempel** (конкретным примером) — иначе фраза звучит пусто. В начале резюме часто добавляют короткий **profil**: несколько строк о себе, которые **sammanfatta** (обобщают) опыт и цели.
+It is not enough to simply claim a strength — you need to back it up with a **konkret exempel** (concrete example), or the phrase sounds empty. A short **profil** is often added at the top of a CV: a few lines about yourself that **sammanfatta** (summarise) your experience and goals.
 
 ```example
-Ge alltid ett konkret exempel som styrker ditt påstående. — Всегда приводи конкретный пример, подтверждающий твоё утверждение.
+Ge alltid ett konkret exempel som styrker ditt påstående. — Always give a concrete example that supports your claim.
 ```
 
-Финальная версия заявки часто включает **portfolio** — собрание **arbetsprov** (примеров работ): текстов, проектов, фотографий выполненных задач. Рекомендации не обязательно прикладывать сразу — можно написать, что **referenser lämnas på begäran**, то есть «рекомендации предоставляются по запросу».
+The final version of an application often includes a **portfolio** — a collection of **arbetsprov** (work samples): texts, projects, photos of completed tasks. References do not have to be attached right away — you can simply state that **referenser lämnas på begäran**, meaning "references available on request."
 
 ```example
-Jag har en digital portfolio med länkar till tidigare projekt. — У меня есть цифровое портфолио со ссылками на прошлые проекты.
-Referenser lämnas på begäran. — Рекомендации предоставляются по запросу.
+Jag har en digital portfolio med länkar till tidigare projekt. — I have a digital portfolio with links to past projects.
+Referenser lämnas på begäran. — References available on request.
 ```
 
-Хорошая практика — **skräddarsy** (подгонять) сопроводительное письмо под конкретную вакансию, а не отправлять один и тот же текст всем работодателям: так легче **utmärka sig** — выделиться среди других соискателей.
+Good practice is to **skräddarsy** (tailor) your cover letter for each specific position rather than sending the same text to every employer: it makes it easier to **utmärka sig** — stand out among the other applicants.

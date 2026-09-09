@@ -1,38 +1,38 @@
-Короткое устное выступление на 2–3 минуты строится по той же логике «начало —
-середина — конец», что и монолог о себе на прошлом уровне, но с явными сигналами
-структуры, которые помогают и слушателю, и самому выступающему.
+A short prepared talk (2-3 minutes) follows the same "beginning — middle — end" logic
+as the personal monologue from the previous level, but with explicit structural
+signals that help both the listener and the speaker.
 
-## Начало
-
-```example
-Idag ska jag berätta om mitt hemland. — Сегодня я расскажу о своей родине.
-Jag har valt att prata om ett ämne som intresserar mig mycket. — Я выбрал(а) рассказать о теме, которая меня очень интересует.
-```
-
-## Сигналы структуры в середине
+## Opening
 
 ```example
-Först vill jag nämna... — Сначала я хочу упомянуть...
-Sedan kommer jag att gå in på... — Затем я перейду к...
-Till sist tar jag upp... — Наконец, я расскажу о...
+Idag ska jag berätta om mitt hemland. — Today I'm going to talk about my home country.
+Jag har valt att prata om ett ämne som intresserar mig mycket. — I've chosen to talk about a topic that interests me a lot.
 ```
 
-## Завершение
+## Structural signposts in the middle
 
 ```example
-Sammanfattningsvis vill jag säga att... — Подводя итог, хочу сказать, что...
-Tack för att ni lyssnade! — Спасибо, что выслушали!
+Först vill jag nämna... — First I'd like to mention...
+Sedan kommer jag att gå in på... — Then I'll go into...
+Till sist tar jag upp... — Finally I'll cover...
 ```
 
-## Заметки, а не текст целиком
-
-Главная ошибка новичка — написать полный текст и читать его вслух. Вместо этого
-готовят **stödord** (опорные слова) — несколько ключевых слов на карточке для
-каждого пункта, а не готовые предложения:
+## Closing
 
 ```example
-Stödord: hemland – natur – mat – familj – sakna. — Опорные слова: родина – природа – еда – семья – скучать.
+Sammanfattningsvis vill jag säga att... — To sum up, I'd like to say that...
+Tack för att ni lyssnade! — Thank you for listening!
 ```
 
-По таким словам говорят своими словами, глядя на слушателей, а не на бумагу — речь
-звучит естественнее и легче удерживает внимание зала.
+## Notes, not a full script
+
+The most common beginner mistake is writing out a complete text and reading it aloud.
+Instead, prepare **stödord** (support words) — a handful of keywords on a card for
+each point, not ready-made sentences:
+
+```example
+Stödord: hemland – natur – mat – familj – sakna. — Keywords: home country – nature – food – family – to miss.
+```
+
+You speak from these keywords in your own words, looking at the audience rather than
+the paper — the talk sounds more natural and holds the room's attention better.

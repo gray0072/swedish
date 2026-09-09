@@ -1,30 +1,32 @@
-По-шведски с большой буквы пишут гораздо меньше слов, чем по-русски или по-английски.
-Собственные имена — да: *Sverige, Stockholm, Anna*. А вот дни недели, месяцы, языки
-и национальности-прилагательные — с маленькой:
+Swedish capitalises far fewer words than English. Proper names still get a capital —
+*Sverige, Stockholm, Anna* — but weekdays, months, languages, and nationality
+adjectives are lowercase:
 
 ```example
-Vi ses på måndag i januari. — Увидимся в понедельник в январе.
-Hon talar svenska. — Она говорит по-шведски.
-Han är en svensk man. — Он швед (буквально: шведский мужчина).
+Vi ses på måndag i januari. — See you on Monday in January.
+Hon talar svenska. — She speaks Swedish.
+Han är en svensk man. — He's a Swedish man.
 ```
 
-Обрати внимание: *svensk* как прилагательное — с маленькой буквы, а *Sverige* как
-название страны — с большой. Английское «Swedish» и русское «Швеция» здесь не
-подсказка: в шведском своя логика.
+Notice: *svensk* as an adjective is lowercase, while *Sverige* as the country's name
+is capitalised. English capitalisation habits are not a reliable guide here — Swedish
+has its own logic.
 
-Вторая частая ошибка — запятая перед *att* и относительным *som*. В русском перед
-союзом «что» и словом «который» запятая обязательна, а в шведском — почти никогда:
+The second common mistake is the comma before *att* and the relative *som*. Many
+languages require a comma there before "that" or "which/who" — Swedish almost never
+uses one:
 
 ```example
-Jag tror att hon kommer. — Я думаю, что она придёт.
-Boken som jag läser är bra. — Книга, которую я читаю, хорошая.
+Jag tror att hon kommer. — I think that she's coming.
+Boken som jag läser är bra. — The book I'm reading is good.
 ```
 
-Запятые в шведском в целом расставляются реже и служат в основном для перечислений
-и для отделения вводных слов, а не для разметки каждого придаточного предложения.
+Overall, Swedish uses commas more sparingly, mainly for lists and for setting off
+introductory words — not to mark every subordinate clause.
 
-Наконец, деление на абзацы. Хороший короткий текст (объявление, письмо, ответ на
-задание) строится так: **одна мысль — один абзац**, между абзацами — пустая строка.
-Не нужно делать абзац из одного предложения и не нужно вмещать в один абзац
-несколько разных мыслей — читателю должно быть легко проследить структуру: вступление,
-основная мысль (обычно один-два абзаца), заключение.
+Finally, paragraph breaks. A good short text (a notice, a letter, an assignment
+answer) follows a simple rule: **one idea per paragraph**, with a blank line between
+paragraphs. Don't make a whole paragraph out of a single sentence, and don't cram
+several different ideas into one paragraph — the reader should be able to follow the
+structure easily: an introduction, the main point (usually one or two paragraphs),
+and a conclusion.

@@ -1,43 +1,43 @@
-Экономика движется циклами — **konjunktur**. Когда экономика растёт, говорят о
-**högkonjunktur** (подъём), а когда она слабеет — о **lågkonjunktur** (спад).
+The economy moves in cycles — **konjunktur**. When the economy is growing, it's
+called **högkonjunktur** (a boom); when it weakens, **lågkonjunktur** (a downturn).
 
 ```example
-Under en högkonjunktur minskar ofta arbetslösheten. — Во время подъёма безработица часто снижается.
-Vid en lågkonjunktur stiger arbetslösheten vanligtvis. — Во время спада безработица обычно растёт.
+Under en högkonjunktur minskar ofta arbetslösheten. — During a boom, unemployment often falls.
+Vid en lågkonjunktur stiger arbetslösheten vanligtvis. — During a downturn, unemployment usually rises.
 ```
 
-## Ключевые показатели
+## Key indicators
 
-- **BNP (bruttonationalprodukt)** — ВВП, стоимость всего произведённого в стране за год.
-- **inflation** — рост общего уровня цен.
-- **lönenivå** — уровень зарплат в отрасли или стране.
-- **köpkraft** — покупательная способность: сколько можно купить на свою зарплату.
+- **BNP (bruttonationalprodukt)** — GDP, the value of everything produced in the country in a year.
+- **inflation** — a rise in the general price level.
+- **lönenivå** — the wage level in an industry or country.
+- **köpkraft** — purchasing power: how much you can buy with your salary.
 
 ```example
-Om inflationen är hög minskar köpkraften. — Если инфляция высокая, покупательная способность снижается.
-BNP mäter värdet av allt som produceras i landet under ett år. — ВВП измеряет стоимость всего произведённого в стране за год.
+Om inflationen är hög minskar köpkraften. — If inflation is high, purchasing power decreases.
+BNP mäter värdet av allt som produceras i landet under ett år. — GDP measures the value of everything produced in the country during a year.
 ```
 
-## Тренды по отраслям
+## Industry trends
 
-**branschtrend** описывает изменения в конкретной отрасли — например, в IT или
-строительстве.
+**branschtrend** describes a change within a specific industry — for example in IT or
+construction.
 
 ```example
-En analytiker kommenterade den senaste branschtrenden inom bygg. — Аналитик прокомментировал последний отраслевой тренд в строительстве.
+En analytiker kommenterade den senaste branschtrenden inom bygg. — An analyst commented on the latest industry trend in construction.
 ```
 
-## Ставка, рост и прогнозы
+## Interest rates, growth and forecasts
 
-**Räntan** (ключевая процентная ставка) сильно влияет на экономику: **en
-räntehöjning** (повышение ставки) обычно замедляет **tillväxt** (рост), а **en
-räntesänkning** (понижение ставки) — стимулирует его.
+**Räntan** (the key interest rate) strongly affects the economy: **en räntehöjning**
+(a rate hike) usually slows **tillväxt** (growth), while **en räntesänkning** (a rate
+cut) stimulates it.
 
 ```example
-Räntan stiger igen i år, vilket kan bromsa den ekonomiska tillväxten. — Процентная ставка снова растёт в этом году, что может затормозить экономический рост.
-Enligt prognosen väntas konjunkturen vända nästa år. — Согласно прогнозу, ожидается, что экономический цикл развернётся в следующем году.
+Räntan stiger igen i år, vilket kan bromsa den ekonomiska tillväxten. — The interest rate is rising again this year, which may slow economic growth.
+Enligt prognosen väntas konjunkturen vända nästa år. — According to the forecast, the economic cycle is expected to turn around next year.
 ```
 
-Хорошая статья или устное сообщение о тренде обычно начинается с общей статистики
-(**statistik**), а затем объясняет её причины и последствия — не просто перечисляет
-цифры одну за другой.
+A good article or spoken report about a trend usually opens with the general
+**statistik** (statistics) and then explains its causes and consequences — rather than
+just listing numbers one after another.

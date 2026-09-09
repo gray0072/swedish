@@ -1,49 +1,50 @@
-Пассив — не просто грамматическая форма, а стилистический выбор, и разные жанры
-текста используют его по-разному: как часто, и называют ли того, кто выполняет
-действие (агента, вводимого предлогом `av`).
+The passive isn't just a grammatical form — it's a stylistic choice, and different
+text genres use it differently: how often, and whether they name the one who
+performs the action (the agent, introduced with `av`).
 
-## Три жанра — одна и та же новость
+## Three genres, the same piece of news
 
-| Жанр | Частота пассива | Агент (`av`-фраза) | Пример |
+| Genre | Passive density | Agent (`av`-phrase) | Example |
 |---|---|---|---|
-| Новостной репортаж | средняя | часто называется | Rapporten skrevs av forskare vid Lunds universitet. |
-| Научный/инструктивный текст | высокая (в основном -s-пассив) | почти всегда опускается | Data samlas in och analyseras. |
-| Личный рассказ | низкая — обычно актив | — | Jag läste rapporten igår kväll. |
+| News report | moderate | often stated | Rapporten skrevs av forskare vid Lunds universitet. |
+| Scientific/instructional text | heavy (mostly -s passive) | almost always omitted | Data samlas in och analyseras. |
+| Personal narrative | low — active preferred | — | Jag läste rapporten igår kväll. |
 
 ```example
-Rapporten skrevs av forskare vid Lunds universitet och presenterades på en presskonferens igår. — Отчёт был написан исследователями Лундского университета и представлен на пресс-конференции вчера.
-Data samlas in, analyseras och sammanställs i en tabell. — Данные собираются, анализируются и сводятся в таблицу.
-Jag läste rapporten igår kväll och blev riktigt orolig. — Я прочитал отчёт вчера вечером и по-настоящему встревожился.
+Rapporten skrevs av forskare vid Lunds universitet och presenterades på en presskonferens igår. — The report was written by researchers at Lund University and presented at a press conference yesterday.
+Data samlas in, analyseras och sammanställs i en tabell. — Data is collected, analysed and compiled in a table.
+Jag läste rapporten igår kväll och blev riktigt orolig. — I read the report yesterday evening and got really worried.
 ```
 
-## Новостной жанр: пассив с указанием агента
+## News genre: passive with the agent named
 
-В новостях пассив используется умеренно, но когда используется — источник действия
-обычно называется через `av`, потому что для читателя важно, *кто* сделал новость
-(кто написал отчёт, кто принял решение):
+In news reports the passive is used moderately, but when it is used, the source of
+the action is usually named with `av`, because it matters to the reader *who* made
+the news (who wrote the report, who made the decision):
 
 ```example
-Beslutet fattades av regeringen efter flera veckors förhandlingar. — Решение было принято правительством после нескольких недель переговоров.
+Beslutet fattades av regeringen efter flera veckors förhandlingar. — The decision was made by the government after several weeks of negotiations.
 ```
 
-## Научный и инструктивный текст: пассив без агента
+## Scientific and instructional text: passive with no agent
 
-В методологической части научной статьи или в инструкции важен сам процесс, а не
-то, кто именно его выполняет (обычно и так ясно, что это исследователь или
-пользователь). Отсюда — плотный -s-пассив без `av`:
+In a study's methods section or in a set of instructions, what matters is the
+process itself, not exactly who carries it out (it's usually obvious anyway that
+it's the researcher or the user). Hence a dense -s passive with no `av`:
 
 ```example
-Provet upphettas till hundra grader och rörs om i fem minuter. — Образец нагревается до ста градусов и перемешивается пять минут.
+Provet upphettas till hundra grader och rörs om i fem minuter. — The sample is heated to a hundred degrees and stirred for five minutes.
 ```
 
-## Личный рассказ: активный залог
+## Personal narrative: the active voice
 
-В личном повествовании читателю важен сам рассказчик как действующее лицо, поэтому
-пассив звучит неестественно и почти не используется — рассказчик пишет о себе
-активным залогом, от первого лица.
+In personal narrative, the reader cares about the narrator as an actor, so the
+passive sounds unnatural and is almost never used — the narrator writes about
+themselves actively, in the first person.
 
-## Коротко
+## In short
 
-Одно и то же событие можно описать пассивом с агентом (новость), пассивом без
-агента (наука/инструкция) или активом (личный рассказ) — выбор жанра определяет,
-насколько уместен пассив и нужно ли называть того, кто действие совершил.
+The same event can be described with a passive that names the agent (news), a
+passive with no agent (science/instructions), or the active voice (personal
+narrative) — the genre decides how appropriate the passive is and whether the doer
+needs naming at all.

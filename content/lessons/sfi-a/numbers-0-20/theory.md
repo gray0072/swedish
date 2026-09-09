@@ -1,19 +1,16 @@
-Числа 0–12 нужно просто запомнить — они не образуются по правилу. А вот 13–19 устроены
-предсказуемо: это основа числа + окончание **-ton** (сравни с русским «-надцать»).
+Numbers 0–12 simply need to be memorized — they don't follow a pattern. But 13–19 are predictable: it's the base number + the ending **-ton** (compare with the English "-teen").
 
 ```example
-tretton — тринадцать
-fjorton — четырнадцать
-femton — пятнадцать
+tretton — thirteen
+fjorton — fourteen
+femton — fifteen
 ```
 
-Число **20** — это уже отдельное слово, **tjugo**, а не производное от «два».
+The number **20** is a separate word, **tjugo**, not derived from "two" the way "twenty" is related to "two" in English.
 
-Забавный момент: слово **en** — это не только «один», но и неопределённый артикль перед
-en-словами (*en bok* — «книга»), а **ett** — то же самое для ett-слов. Про артикли подробнее
-будет в отдельной теме.
+A fun detail: the word **en** is not only "one" but also the indefinite article before en-words (**en bok** — "a book"), and **ett** does the same job for ett-words. Articles will be covered in more detail in a separate lesson.
 
 ```example
-en — один / en (артикль перед en-словами)
-ett — один / ett (артикль перед ett-словами)
+en — one / a (article before en-words)
+ett — one / a (article before ett-words)
 ```

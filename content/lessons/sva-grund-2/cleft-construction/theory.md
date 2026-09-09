@@ -1,40 +1,42 @@
-В обычном шведском предложении логическое ударение обычно падает на конец: важная
-информация оказывается там сама собой. Но если нужно явно выделить конкретное слово
-как самое важное — «именно это, а не что-то другое», — используется **клефт-конструкция**
-(cleft): **Det är X som...**
+In an ordinary Swedish sentence, the main stress usually falls near the end, so the
+important new information lands there on its own. But when you need to explicitly
+single out one specific word as the important one — "this one, not something else" —
+Swedish uses the **cleft construction**: **Det är X som...**
 
 ```example
-Anna lagar mat. — Анна готовит еду.
-Det är Anna som lagar mat. — Это Анна готовит еду (а не кто-то другой).
+Anna lagar mat. — Anna cooks food.
+Det är Anna som lagar mat. — It's Anna who's cooking (not someone else).
 ```
 
-Клефт может выделять не только subjekt, но и objekt:
+A cleft can single out not only the subjekt but also the objekt:
 
 ```example
-Erik läser tidningen. — Эрик читает газету.
-Det är tidningen som Erik läser. — Это газету читает Эрик (а не книгу).
+Erik läser tidningen. — Erik is reading the newspaper.
+Det är tidningen som Erik läser. — It's the newspaper that Erik is reading (not the book).
 ```
 
-...или обстоятельство:
+...or an adverbial:
 
 ```example
-Vi bor i Malmö. — Мы живём в Мальмё.
-Det är i Malmö som vi bor. — Это в Мальмё мы живём (а не в другом городе).
+Vi bor i Malmö. — We live in Malmö.
+Det är i Malmö som vi bor. — It's in Malmö that we live (not some other city).
 ```
 
-Схема одна и та же: **Det är** + выделяемый элемент + **som** + остаток предложения без
-этого элемента. «Som» здесь — не обычное относительное «который» (оно не согласуется ни
-в роде, ни в числе), а служебное слово клефт-конструкции.
+The pattern is always the same: **Det är** + the highlighted element + **som** + the
+rest of the sentence with that element removed. "Som" here is not the ordinary relative
+"who/which/that" — it never agrees in gender or number, it's just the fixed linking word
+of the cleft pattern.
 
-Если действие происходит в прошлом, «är» меняется на «var», согласуясь со временем
-глагола в остатке предложения, а не с самим выделяемым словом:
+If the action is in the past, "är" changes to "var", agreeing with the tense of the verb
+in the rest of the sentence, not with the highlighted word itself:
 
 ```example
-Anna lagade mat igår. — Анна готовила еду вчера.
-Det var Anna som lagade mat igår. — Это Анна готовила еду вчера.
+Anna lagade mat igår. — Anna cooked food yesterday.
+Det var Anna som lagade mat igår. — It was Anna who cooked food yesterday.
 ```
 
-Сравни пары «обычное предложение / клефт» выше: смысл почти тот же, но клефт явно
-указывает читателю или слушателю, какое слово — самое новое и важное. В письменном
-шведском это частый приём, особенно в ответах на вопрос «кто именно» или «что именно»
-сделал что-то, и в текстах, где нужно поправить чьё-то ошибочное предположение.
+Compare the plain/cleft pairs above: the meaning is nearly the same, but the cleft
+explicitly tells the reader or listener which word carries the new, important
+information. This is common in written Swedish, especially in answers to "who exactly"
+or "what exactly" did something, and in texts that correct someone's mistaken
+assumption.

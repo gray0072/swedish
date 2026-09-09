@@ -1,49 +1,49 @@
-Delkurs 2 разобрал базовые пары «глагол + предлог» (`tänka på`, `bero på`). Здесь —
-более продвинутый, письменный слой: устойчивые обороты «глагол + существительное»
-(verb + noun collocations), типичные для формального, академического текста.
+Delkurs 2 covered basic "verb + preposition" pairs (`tänka på`, `bero på`). Here is
+a more advanced, written layer: fixed "verb + noun" collocations typical of
+formal, academic text.
 
-## Глагол + предлог — управление (повторение принципа)
+## Verb + preposition — government (a reminder of the principle)
 
-Предлог после глагола часто нельзя вывести логически, его нужно просто выучить
-вместе с глаголом:
+The preposition after a verb often cannot be worked out logically — it must be
+learned together with the verb:
 
 ```example
-Hon tar ställning till förslaget. — Она занимает позицию по этому предложению.
+Hon tar ställning till förslaget. — She takes a position on the proposal.
 ```
 
-## Глагол + существительное — коллокации формального текста
+## Verb + noun — the collocations of formal text
 
-Формальные и академические тексты (статьи, доклады, эссе) изобилуют устойчивыми
-сочетаниями «глагол + существительное», которые вместе означают больше, чем сумма
-частей — их тоже нужно выучивать как единое целое:
+Formal and academic texts (articles, reports, essays) are full of fixed "verb +
+noun" combinations whose meaning together is more than the sum of the parts —
+these too must be learned as single units:
 
-| Коллокация | Значение |
+| Collocation | Meaning |
 |---|---|
-| ta ställning till | занять позицию по (чему-то) |
-| dra slutsatsen att | сделать вывод, что |
-| lägga fram ett förslag | выдвинуть предложение |
-| föra en diskussion | вести дискуссию |
-| ge uttryck för | выразить (мнение, чувство) |
+| ta ställning till | to take a position on |
+| dra slutsatsen att | to draw the conclusion that |
+| lägga fram ett förslag | to put forward a proposal |
+| föra en diskussion | to hold/lead a discussion |
+| ge uttryck för | to express (an opinion, a feeling) |
 
 ```example
-Utredningen drar slutsatsen att reformen har gett önskad effekt. — Расследование делает вывод, что реформа дала желаемый эффект.
-Regeringen lägger fram ett nytt förslag nästa vecka. — Правительство выдвигает новое предложение на следующей неделе.
+Utredningen drar slutsatsen att reformen har gett önskad effekt. — The inquiry concludes that the reform has had the desired effect.
+Regeringen lägger fram ett nytt förslag nästa vecka. — The government is putting forward a new proposal next week.
 ```
 
-## Почему это важно отдельно от обычных глаголов
+## Why treat these separately from ordinary verbs
 
-Такие обороты нельзя перевести дословно слово за словом с русского или
-английского — они складываются в устойчивую единицу, где меняется лишь дополнение
-после `till`/`att`/артикля:
+These expressions cannot be translated word for word from Russian or English —
+they form a fixed unit where only the complement after `till`/`att`/the article
+changes:
 
 ```example
-Han ger uttryck för sin oro över klimatet. — Он выражает свою обеспокоенность климатом.
-Kommittén för en diskussion om budgeten. — Комитет ведёт дискуссию о бюджете.
+Han ger uttryck för sin oro över klimatet. — He expresses his concern about the climate.
+Kommittén för en diskussion om budgeten. — The committee is holding a discussion about the budget.
 ```
 
-## Коротко
+## In short
 
-Расширенный слой формального шведского — не отдельные глаголы, а целые
-коллокации «глагол + существительное» (`ta ställning till`, `dra slutsatsen att`,
-`lägga fram ett förslag`), которые нужно запоминать целиком, как готовые
-строительные блоки академического и делового текста.
+The extended layer of formal Swedish is not individual verbs but whole "verb +
+noun" collocations (`ta ställning till`, `dra slutsatsen att`, `lägga fram ett
+förslag`) that must be memorised whole, as ready-made building blocks of academic
+and business text.

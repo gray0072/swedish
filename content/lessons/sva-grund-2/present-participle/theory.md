@@ -1,42 +1,42 @@
-# Причастие настоящего времени (-ande/-ende)
+# The present participle (-ande/-ende)
 
-Причастие настоящего времени образуется от основы инфинитива с добавлением суффикса:
+The present participle is formed from the infinitive stem plus a suffix:
 
-| Основа | Суффикс | Пример |
+| Stem | Suffix | Example |
 |---|---|---|
-| оканчивается на согласную (после удаления -a) | -ande | skriva → skriv + ande = skrivande |
-| уже оканчивается на гласную | -ende | le → le + ende = leende; bo → bo + ende = boende |
+| ends in a consonant (after dropping -a) | -ande | skriva → skriv + ande = skrivande |
+| already ends in a vowel | -ende | le → le + ende = leende; bo → bo + ende = boende |
 
-Главное отличие от обычного прилагательного: причастие настоящего времени **не изменяется** — ни по роду, ни по числу, ни по определённости. Одна и та же форма годится везде:
-
-```example
-en leende flicka — улыбающаяся девочка
-ett leende barn — улыбающийся ребёнок
-leende barn (мн.ч.) — улыбающиеся дети
-```
-
-## Два основных употребления
-
-**1. Как прилагательное** — перед существительным, форма не меняется (см. пример выше).
-
-**2. Как обстоятельство образа действия** — при глаголах движения показывает, «как» происходит действие:
+The key difference from an ordinary adjective: the present participle **never changes** — not for gender, not for number, not for definiteness. One form fits everywhere:
 
 ```example
-Hon kom springande. — Она прибежала (пришла бегом).
-Han satt läsande i soffan. — Он сидел, читая, на диване.
+en leende flicka — a smiling girl
+ett leende barn — a smiling child
+leende barn (pl.) — smiling children
 ```
 
-## Причастие как застывшее существительное
+## Two main uses
 
-У многих частотных слов причастие «застыло» и стало обычным существительным, обозначающим человека. У таких существительных на -ande/-ende есть особенность: они **не меняют форму во множественном числе**:
+**1. As an adjective** — before a noun, the form never changes (see example above).
 
-| Форма | Значение |
+**2. As an adverbial of manner** — with verbs of motion, it shows *how* the action happens:
+
+```example
+Hon kom springande. — She came running.
+Han satt läsande i soffan. — He sat reading on the sofa.
+```
+
+## The participle frozen into a noun
+
+For many common words the participle has "frozen" into an ordinary noun referring to a person. Such -ande/-ende nouns have one quirk: they **do not change in the plural**:
+
+| Form | Meaning |
 |---|---|
-| en studerande — flera studerande | студент — несколько студентов |
-| en resande — flera resande | пассажир/путешественник — несколько пассажиров |
-| en troende — flera troende | верующий — несколько верующих |
-| en ordförande — flera ordförande | председатель — несколько председателей |
+| en studerande — flera studerande | a student — several students |
+| en resande — flera resande | a traveller — several travellers |
+| en troende — flera troende | a believer — several believers |
+| en ordförande — flera ordförande | a chairperson — several chairpersons |
 
-Обрати внимание: **skrivande** может значить и «пишущий» (причастие-прилагательное), и «письмо, писательство» (отвлечённое существительное среднего рода, *ett skrivande*) — про это словообразование смотри тему «Номинализация».
+Note that **skrivande** can mean both "writing" (the participle used as an adjective) and "writing, the act of writing" (an abstract neuter noun, *ett skrivande*) — see "Nominalisation" for that pattern.
 
-Итого правило простое: **основа на согласную → -ande; основа уже на гласную → -ende**, и форма всегда одна и та же, независимо от рода, числа и роли в предложении.
+So the rule is simple: **a stem ending in a consonant takes -ande; a stem already ending in a vowel takes -ende** — and the form stays the same regardless of gender, number, or role in the sentence.

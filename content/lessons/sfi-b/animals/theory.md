@@ -1,24 +1,24 @@
-Общее слово для «животного» — **ett djur**, ett-слово с необычным множественным
-числом: **djur → djur** (форма не меняется, как у **ett hus** или **ett bord**).
-Домашнее животное — **ett husdjur**, буквально «домовое животное».
+The general word for "animal" is **ett djur**, an ett-word with an unusual plural:
+**djur → djur** (the form doesn't change, like **ett hus** or **ett bord**). A pet is
+**ett husdjur**, literally a "house animal."
 
 ```example
-Jag har ett husdjur. — У меня есть домашнее животное.
-Hunden heter Bruno. — Собаку зовут Бруно.
+Jag har ett husdjur. — I have a pet.
+Hunden heter Bruno. — The dog's name is Bruno.
 ```
 
-Большинство названий животных — en-слова: **en hund** («собака»), **en katt**
-(«кошка»), **en häst** («лошадь»), **en ko** («корова»). Исключения стоит запомнить
-отдельно: **ett får** («овца») и **ett lejon** («лев») — ett-слова, и у обоих
-множественное число не меняется: **får → får**, **lejon → lejon**.
+Most animal names are en-words: **en hund** ("dog"), **en katt** ("cat"), **en häst**
+("horse"), **en ko** ("cow"). A couple of exceptions are worth memorizing separately:
+**ett får** ("sheep") and **ett lejon** ("lion") are ett-words, and both have an
+unchanged plural: **får → får**, **lejon → lejon**.
 
 ```example
-Katten sover hela dagen. — Кошка спит весь день.
-Fåglarna sjunger på morgonen. — Птицы поют по утрам.
+Katten sover hela dagen. — The cat sleeps all day.
+Fåglarna sjunger på morgonen. — The birds sing in the morning.
 ```
 
-Некоторые множественные формы неправильные и их лучше выучить наизусть: **fågel →
-fåglar** (птица), **mus → möss** (мышь, с изменением гласной). Прилагательные
-**vild** («дикий») и **tam** («домашний, ручной») часто используются вместе с
-названиями животных, чтобы уточнить, о каком животном речь: **ett vilt djur**
-(«дикое животное»), **ett tamt djur» («домашнее животное»).
+Some plural forms are irregular and are best learned by heart: **fågel → fåglar**
+(bird), **mus → möss** (mouse, with a vowel change). The adjectives **vild**
+("wild") and **tam** ("tame, domestic") are often used together with animal names to
+specify which kind of animal is meant: **ett vilt djur** ("a wild animal"), **ett
+tamt djur** ("a domestic animal").

@@ -1,31 +1,32 @@
-Шведская **ansökan** (заявление) о работе обычно состоит из двух документов: **CV**
-(резюме) и **personligt brev** (сопроводительное письмо). В резюме перечисляют
-образование, опыт и **meriter** (заслуги, достижения), а в письме объясняют, почему
-именно ты подходишь для конкретной **tjänst** (должности).
+A Swedish job **ansökan** (application) usually consists of two documents: a **CV**
+(resume) and a **personligt brev** (cover letter). The CV lists education, experience
+and **meriter** (merits, achievements), while the letter explains why you specifically
+suit a given **tjänst** (position).
 
 ```example
-Jag söker tjänsten som lärare på er skola. — Я претендую на должность учителя в вашей школе.
-Jag har erfarenhet av att jobba i team. — У меня есть опыт работы в команде.
+Jag söker tjänsten som lärare på er skola. — I am applying for the position of teacher at your school.
+Jag har erfarenhet av att jobba i team. — I have experience working in teams.
 ```
 
-Готовые документы нужно **skicka in** — отправить, часто через сайт компании. Не забудь
-**bifoga** (приложить) и CV, и сопроводительное письмо, а также указать **referenser**
-(рекомендателей) — людей, которые могут подтвердить твой опыт по телефону.
+The finished documents need to be **skicka in** — submitted, often through the
+company's website. Don't forget to **bifoga** (attach) both the CV and the cover
+letter, and to list **referenser** (references) — people who can confirm your
+experience by phone.
 
 ```example
-Vänligen bifoga ditt CV i ansökan. — Пожалуйста, приложи резюме к заявлению.
-Kan du ge mig namn på två referenser? — Можешь дать мне имена двух рекомендателей?
+Vänligen bifoga ditt CV i ansökan. — Please attach your CV to the application.
+Kan du ge mig namn på två referenser? — Can you give me the names of two references?
 ```
 
-Если заявление понравилось **rekryterare** (рекрутёру), тебя **kallar till intervju** —
-приглашают на собеседование. На встрече полезно кратко и уверенно сказать, почему
-именно ты подходишь.
+If a **rekryterare** (recruiter) likes the application, you get **kallad till
+intervju** — called in for an interview. In the meeting, it helps to say briefly and
+confidently why you're the right fit.
 
 ```example
-Jag kallades till intervju en vecka efter ansökan. — Меня пригласили на собеседование через неделю после подачи заявления.
-Med min utbildning är jag väl lämpad för tjänsten. — С моим образованием я хорошо подхожу для этой должности.
+Jag kallades till intervju en vecka efter ansökan. — I was invited for an interview a week after applying.
+Med min utbildning är jag väl lämpad för tjänsten. — With my education I am well suited for the position.
 ```
 
-После собеседования компания делает предложение, и его можно либо **tacka ja till**
-(принять), либо **tacka nej till** (отклонить) — оба варианта нормальны и ожидаемы в
-шведской деловой культуре.
+After the interview, the company makes an offer, which you can either **tacka ja till**
+(accept) or **tacka nej till** (decline) — both are normal and expected in Swedish
+business culture.

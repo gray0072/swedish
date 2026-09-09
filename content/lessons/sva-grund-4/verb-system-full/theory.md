@@ -1,56 +1,54 @@
-Это не новая грамматика, а капитан-сводка: вся глагольная система, пройденная в
-delkurs 1–3, собранная в одну таблицу для повторения перед финальным экзаменом уровня.
+This is not new grammar — a capstone summary: the whole verb system covered across
+delkurs 1-3, gathered into one table for review before the level's final exam.
 
-## Вся система: времена, залог, наклонение — одной таблицей
+## The whole system: tense, voice, mood — in one table
 
-| Категория | Форма (пример: skriva) | Употребление |
+| Category | Form (example: skriva) | Used for |
 |---|---|---|
-| Презенс | skriver | сейчас, регулярно, факт |
-| Претерит | skrev | однократное прошлое + указание времени (*igår*) |
-| Перфект | har skrivit | результат/факт важен сейчас, время не названо |
-| Плюсквамперфект | hade skrivit | «прошлое до прошлого» |
-| Футурум-намерение | ska skriva | план, решение говорящего |
-| Футурум-прогноз | kommer att skriva | предсказание, прогноз |
-| Пассив -s | skrivs | процесс, правило, деятель не важен |
-| Пассив bli | blir skriven | однократное событие в пассиве |
-| Пассив vara | är skriven | результат, состояние |
-| Презенс партицип | skrivande | причастие наст. вр., не изменяется |
-| Перфект партицип | skriven/skrivet/skrivna | причастие прош. вр., согласуется как прилагательное |
-| Модальные + inf | måste/kan/vill/ska/bör/får skriva | долженствование, возможность, желание |
+| Present | skriver | now, regularly, a fact |
+| Preterite | skrev | a single past event + a time word (*igår*) |
+| Perfect | har skrivit | the result/fact matters now, time unspecified |
+| Pluperfect | hade skrivit | "past before the past" |
+| Future (intention) | ska skriva | a plan, the speaker's decision |
+| Future (prediction) | kommer att skriva | a forecast, a prediction |
+| -s passive | skrivs | a process/rule, the agent doesn't matter |
+| bli passive | blir skriven | a single passive event |
+| vara passive | är skriven | a result, a state |
+| Present participle | skrivande | present-tense participle, invariable |
+| Perfect participle | skriven/skrivet/skrivna | past-tense participle, agrees like an adjective |
+| Modal + infinitive | måste/kan/vill/ska/bör/får skriva | obligation, ability, wish |
 
 ```example
-Hon skriver en bok. — Она пишет книгу.
-Hon skrev en bok förra året. — Она написала книгу в прошлом году.
-Hon har skrivit tre böcker. — Она написала (уже) три книги.
-Hon hade skrivit boken innan hon fyllde tjugo. — Она написала книгу ещё до того, как ей исполнилось двадцать.
+Hon skriver en bok. — She is writing a book.
+Hon skrev en bok förra året. — She wrote a book last year.
+Hon har skrivit tre böcker. — She has written three books.
+Hon hade skrivit boken innan hon fyllde tjugo. — She had written the book before she turned twenty.
 ```
 
-## Редкая форма 1: остаток сослагательного наклонения
+## Rare form 1: a surviving subjunctive
 
-Современный шведский почти не имеет отдельного сослагательного наклонения, но одна
-форма сохранилась: **vore** (от `vara`) — используется в нереальных условиях наравне
-с `skulle vara`.
+Modern Swedish has almost no separate subjunctive mood, but one form has survived:
+**vore** (from `vara`) — used in unreal conditions alongside `skulle vara`.
 
 ```example
-Om jag vore rik, skulle jag resa jorden runt. — Если бы я был богат, я бы объехал весь мир.
-Det vore bra om du kunde komma. — Было бы хорошо, если бы ты мог прийти.
+Om jag vore rik, skulle jag resa jorden runt. — If I were rich, I would travel around the world.
+Det vore bra om du kunde komma. — It would be good if you could come.
 ```
 
-## Редкая форма 2: депонентные глаголы
+## Rare form 2: deponent verbs
 
-Депонентные глаголы (`hoppas`, `trivas`, `minnas`, `lyckas`, `andas`) сохраняют
-окончание **-s** во всех временах и лицах — это не пассив, а их обычная,
-единственная форма.
+Deponent verbs (`hoppas`, `trivas`, `minnas`, `lyckas`, `andas`) keep the **-s** ending
+in every tense and person — this isn't a passive, it's simply their only form.
 
 ```example
-Jag hoppas att allt går bra. — Я надеюсь, что всё пройдёт хорошо.
-Hon trivs bra på sitt nya jobb. — Ей хорошо на новой работе.
-Vi lyckades hitta huset till slut. — Нам в конце концов удалось найти дом.
+Jag hoppas att allt går bra. — I hope everything goes well.
+Hon trivs bra på sitt nya jobb. — She feels at home in her new job.
+Vi lyckades hitta huset till slut. — We managed to find the house in the end.
 ```
 
-## Коротко
+## In short
 
-Вся система — от презенса до плюсквамперфекта, от актива до трёх типов пассива,
-плюс причастия, модальные глаголы и редкие формы (`vore`, депонентные глаголы) —
-работает по правилам, которые вы уже знаете по отдельности. Этот урок просто
-собирает всё в одном месте перед финальным тестом уровня.
+The whole system — from present to pluperfect, from active to three kinds of
+passive, plus participles, modal verbs and the rare forms (`vore`, deponent verbs) —
+follows rules you already know one at a time. This lesson just puts everything in
+one place before the level's final test.

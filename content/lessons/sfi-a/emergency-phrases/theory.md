@@ -1,50 +1,50 @@
-В Швеции **один** номер для всех экстренных служб: **112**. По нему вызывают и скорую
-(**ambulans**), и пожарных (**brandkår**), и полицию (**polis**) — оператор сам решит,
-кого прислать. Звонок бесплатный с любого телефона. Номер читают по цифрам:
-*ett — ett — två*.
+Sweden has **one** number for every emergency service: **112**. It brings the ambulance
+(**ambulans**), the fire brigade (**brandkår**) and the police (**polis**) — the operator
+decides who to send. The call is free from any phone. The number is read out digit by
+digit: *ett — ett — två*.
 
-Звонить на 112 нужно только тогда, когда есть реальная опасность для жизни, здоровья
-или имущества. Если вы просто заболели и хотите совета врача, есть отдельный номер —
-**1177** (медицинская консультация, не экстренный случай).
+Call 112 only when there is a real danger to life, health or property. If you are simply
+ill and want advice from a nurse, there is a separate number — **1177** (medical advice,
+not an emergency).
 
-## Первые слова
-
-```example
-Hjälp! — Помогите!
-Ring 112! — Звоните 112!
-Jag behöver hjälp. — Мне нужна помощь.
-Kan du hjälpa mig? — Можешь мне помочь?
-```
-
-## Что случилось
+## Your first words
 
 ```example
-Det är en olycka. — Произошёл несчастный случай.
-Det brinner! — Пожар!
-Jag är sjuk. — Я болен / больна.
-Jag har ont här. — У меня здесь болит.
+Hjälp! — Help!
+Ring 112! — Call 112!
+Jag behöver hjälp. — I need help.
+Kan du hjälpa mig? — Can you help me?
 ```
 
-Фразу **Jag har ont här** можно сказать, показывая рукой на больное место — этого уже
-достаточно, чтобы вас поняли.
-
-## Если не хватает слов
-
-Не бойтесь сказать прямо, что вы пока не говорите по-шведски. Оператор 112 говорит
-по-английски и может вызвать переводчика.
+## What has happened
 
 ```example
-Jag förstår inte. — Я не понимаю.
-Jag talar inte svenska. — Я не говорю по-шведски.
-Talar du engelska? — Ты говоришь по-английски?
+Det är en olycka. — There has been an accident.
+Det brinner! — There's a fire!
+Jag är sjuk. — I am ill.
+Jag har ont här. — It hurts here.
 ```
 
-## И две бытовые фразы
+You can say **Jag har ont här** while pointing at the place that hurts — that alone is
+enough to be understood.
+
+## When the words run out
+
+Do not be afraid to say plainly that you do not speak Swedish yet. The 112 operator
+speaks English and can bring in an interpreter.
 
 ```example
-Var är närmaste apotek? — Где ближайшая аптека?
-Jag har tappat min telefon. — Я потерял(а) телефон.
+Jag förstår inte. — I don't understand.
+Jag talar inte svenska. — I don't speak Swedish.
+Talar du engelska? — Do you speak English?
 ```
 
-Выучите **112**, **Hjälp!** и **Jag behöver hjälp** наизусть. В настоящей экстренной
-ситуации думать будет некогда.
+## And two everyday phrases
+
+```example
+Var är närmaste apotek? — Where is the nearest pharmacy?
+Jag har tappat min telefon. — I have lost my phone.
+```
+
+Learn **112**, **Hjälp!** and **Jag behöver hjälp** by heart. In a real emergency there
+will be no time to think.

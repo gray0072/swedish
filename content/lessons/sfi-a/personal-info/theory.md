@@ -9,10 +9,10 @@ Other common fields: **kön** (gender — man/kvinna), **civilstånd** (marital 
 At the bottom of the form you must **underteckna** (sign) it — that means writing your **underskrift** (signature). If a field is unclear, just ask what it means; every clerk is used to helping with this.
 
 ```example
-Hur stavas ditt efternamn? — Как пишется твоя фамилия?
-Vad är ditt personnummer? — Какой у тебя личный номер?
-Kan du fylla i den här blanketten? — Можешь заполнить этот бланк?
-Jag heter Anna Andersson. — Меня зовут Анна Андерссон.
+Hur stavas ditt efternamn? — How is your surname spelled?
+Vad är ditt personnummer? — What is your personal number?
+Kan du fylla i den här blanketten? — Can you fill in this form?
+Jag heter Anna Andersson. — My name is Anna Andersson.
 ```
 
 Knowing these words by heart saves a lot of time — and stress — on your first visit to a Swedish authority. A tip: **fylla i** means "to fill in" (a form), while **skriva under** and **underteckna** both mean "to sign" — the second is a bit more formal and is the word you'll see printed on the form itself, right above the signature line.

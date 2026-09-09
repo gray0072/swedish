@@ -1,16 +1,13 @@
-Шведские прилагательные, в том числе цвета, меняют окончание в зависимости от рода
-существительного — почти как в русском «красн-ый / красн-ое / красн-ые».
+Swedish adjectives, including color words, change their ending depending on the gender of the noun and whether it's singular or plural — something English adjectives never do.
 
-| | en-слово | ett-слово | множественное число |
+| | en-word | ett-word | plural |
 |---|---|---|---|
-| **röd** (красный) | en röd bil | ett rött hus | röda bilar |
+| **röd** (red) | en röd bil | ett rött hus | röda bilar |
 
 ```example
-en blå himmel — синее небо
-ett blått hav — синее море
-blåa ögon — синие глаза
+en blå himmel — a blue sky
+ett blått hav — a blue sea
+blåa ögon — blue eyes
 ```
 
-Не все цвета меняются: **rosa** (розовый), **orange** (оранжевый), **lila** (фиолетовый),
-**beige** (бежевый) и «металлические» **silver** / **guld** остаются одинаковыми во всех
-формах — их можно запоминать без табличек.
+Not all colors change: **rosa** (pink), **orange** (orange), **lila** (purple), **beige** (beige), and the "metallic" **silver** / **guld** (gold) stay the same in every form — you can simply learn them without worrying about tables.

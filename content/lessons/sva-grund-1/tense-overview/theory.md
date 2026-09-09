@@ -1,32 +1,32 @@
-Четыре шведских времени строятся из двух форм глагола, которые ты уже знаешь: презенс и
-претерит (группы 1–4), плюс вспомогательный глагол **ha** («иметь») и супин.
+Swedish's four tenses are built from two verb forms you already know — present and
+preteritum (groups 1–4) — plus the auxiliary **ha** ("to have") and the supine.
 
-| Тempus | tala (гр.1) | bo (гр.3) | skriva (сильный, гр.4) | Когда используется |
+| Tense | tala (gr.1) | bo (gr.3) | skriva (strong, gr.4) | Used for |
 |---|---|---|---|---|
-| **Презенс** | talar | bor | skriver | сейчас, регулярно, факт |
-| **Претерит** | talade | bodde | skrev | однократное действие в прошлом с указанием времени (*igår*, *förra året*) |
-| **Перфект** | har talat | har bott | har skrivit | результат важен сейчас; жизненный опыт |
-| **Плюсквамперфект** | hade talat | hade bott | hade skrivit | «прошлое до прошлого» в рассказе |
+| **Present** | talar | bor | skriver | now, habitually, a fact |
+| **Preteritum** | talade | bodde | skrev | a single past action with a time marker (*igår*, *förra året*) |
+| **Perfect** | har talat | har bott | har skrivit | the result matters now; life experience |
+| **Pluperfect** | hade talat | hade bott | hade skrivit | "the past before the past" in a narrative |
 
-## Перфект: har + супин
+## Perfect: har + supine
 
-**Перфект** (har + супин) используется, когда момент действия не назван точно, а важен сам
-факт или результат: *Jag har bott i Sverige i tre år* — я живу (прожил) в Швеции три года,
-и это продолжается сейчас. Слова-сигналы: *redan* (уже), *aldrig* (никогда), *just* (только
-что), *någonsin* (когда-либо).
+The **perfect** (har + supine) is used when the exact moment doesn't matter — what matters
+is the fact or the result: *Jag har bott i Sverige i tre år* — I've lived in Sweden for
+three years, and I still do. Signal words: *redan* (already), *aldrig* (never), *just*
+(just now), *någonsin* (ever).
 
-## Плюсквамперфект: hade + супин
+## Pluperfect: hade + supine
 
-**Плюсквамперфект** (hade + супин) описывает событие, случившееся раньше другого события в
-прошлом — «прошлое до прошлого». Это времена рассказа: сначала было одно, а *до* этого —
-другое.
+The **pluperfect** (hade + supine) describes something that happened before another past
+event — "the past before the past". It's the tense of narration: first one thing happened,
+and *before* that, something else had already happened.
 
 ```example
-Jag talar svenska nu. — Я говорю по-шведски сейчас.
-Igår talade jag med henne. — Вчера я говорил с ней.
-Jag har talat svenska i tio år. — Я говорю по-шведски (уже) десять лет.
-När jag kom dit hade hon redan talat med chefen. — Когда я туда пришёл, она уже поговорила с начальником.
+Jag talar svenska nu. — I speak Swedish now.
+Igår talade jag med henne. — Yesterday I talked with her.
+Jag har talat svenska i tio år. — I've spoken Swedish for ten years.
+När jag kom dit hade hon redan talat med chefen. — When I got there, she had already talked to the boss.
 ```
 
-Обрати внимание: **har/hade** не меняются по лицам (как и все шведские глаголы), а супин —
-одна и та же форма для любого подлежащего: *jag har skrivit*, *de har skrivit*.
+Note: **har/hade** never change by person (like every Swedish verb), and the supine is the
+same form for any subject: *jag har skrivit*, *de har skrivit*.

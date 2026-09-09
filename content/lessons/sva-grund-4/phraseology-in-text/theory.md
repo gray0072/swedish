@@ -1,43 +1,44 @@
-Delkurs 3 показал яркие, образные идиомы (`ha en skruv lös`, `kasta pärlor för
-svin`) как отдельные явления. Здесь — более тихий, но не менее важный слой:
-фразеологизмы, которые естественно вплетаются в аргументацию сочинений и эссе, не
-привлекая к себе особого внимания.
+Delkurs 3 covered vivid, image-rich idioms (`ha en skruv lös`, `kasta pärlor för
+svin`) as a phenomenon of their own. Here is a quieter, but no less important,
+layer: phraseology that weaves naturally into the argumentation of essays,
+without drawing attention to itself.
 
-## Фразеология аргументации
+## The phraseology of argumentation
 
-Эти обороты не такие «цветастые», как классические идиомы, но их тоже нельзя
-понять по частям — только целиком, как готовые блоки текста:
+These phrases are less "colourful" than classic idioms, but they too cannot be
+understood piece by piece — only as whole, ready-made blocks of text:
 
 ```example
-Utbildning kan hjälpa människor att dra nytta av nya möjligheter. — Образование может помочь людям извлечь пользу из новых возможностей.
-Artikeln sätter fingret på ett verkligt problem. — Статья указывает на реальную проблему (буквально: «кладёт палец на»).
-Det är ett steg i rätt riktning, men mer behöver göras. — Это шаг в правильном направлении, но нужно сделать больше.
+Utbildning kan hjälpa människor att dra nytta av nya möjligheter. — Education can help people benefit from new opportunities.
+Artikeln sätter fingret på ett verkligt problem. — The article puts its finger on a real problem (literally: "puts a finger on").
+Det är ett steg i rätt riktning, men mer behöver göras. — It's a step in the right direction, but more needs to be done.
 ```
 
-## Таблица ключевых оборотов
+## A table of key phrases
 
-| Оборот | Значение | Буквально |
+| Phrase | Meaning | Literally |
 |---|---|---|
-| dra nytta av | извлекать пользу из | «тянуть пользу из» |
-| sätta fingret på | точно указать на (проблему) | «положить палец на» |
-| vara ett steg i rätt riktning | быть шагом в правильном направлении | — |
-| ta hänsyn till | принимать во внимание | «брать во внимание к» |
-| lägga vikt vid | придавать значение (чему-то) | «класть вес на» |
+| dra nytta av | to benefit from | "to draw benefit from" |
+| sätta fingret på | to pinpoint (a problem) | "to put a finger on" |
+| vara ett steg i rätt riktning | to be a step in the right direction | — |
+| ta hänsyn till | to take into account | "to take into consideration of" |
+| lägga vikt vid | to attach importance to (something) | "to lay weight on" |
 
-## Как использовать в собственном тексте
+## How to use these in your own text
 
-Такая фразеология делает аргументацию более естественной и «взрослой» — вместо
-простого «det är bra» опытный автор пишет «det är ett steg i rätt riktning»,
-вместо «jag tycker att det är viktigt» — «jag lägger stor vikt vid detta»:
+Such phraseology makes argumentation sound more natural and "grown-up" — instead
+of a plain "det är bra", a skilled writer writes "det är ett steg i rätt
+riktning"; instead of "jag tycker att det är viktigt" — "jag lägger stor vikt vid
+detta":
 
 ```example
-Regeringen bör ta hänsyn till forskarnas varningar. — Правительству следует принимать во внимание предупреждения учёных.
-Många lägger stor vikt vid att kunna arbeta hemifrån. — Многие придают большое значение возможности работать из дома.
+Regeringen bör ta hänsyn till forskarnas varningar. — The government should take researchers' warnings into account.
+Många lägger stor vikt vid att kunna arbeta hemifrån. — Many people attach great importance to being able to work from home.
 ```
 
-## Коротко
+## In short
 
-В отличие от ярких идиом delkurs 3, эта фразеология — рабочий инструмент
-аргументированного текста: устойчивые, не слишком образные обороты (`dra nytta
-av`, `sätta fingret på`, `ett steg i rätt riktning`, `ta hänsyn till`, `lägga vikt
-vid`), которые стоит запоминать и использовать целиком.
+Unlike the vivid idioms of delkurs 3, this phraseology is a working tool of
+argumentative text: fixed, less image-rich phrases (`dra nytta av`, `sätta fingret
+på`, `ett steg i rätt riktning`, `ta hänsyn till`, `lägga vikt vid`) worth
+memorising and using as whole units.

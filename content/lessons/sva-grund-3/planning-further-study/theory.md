@@ -1,41 +1,42 @@
-На delkurs 1 вы выучили базовые слова про **komvux**. Теперь речь о том, как
-планировать учёбу дальше — на гимназическом уровне (**gymnasienivå**) или на курсе
-**Svenska som andraspråk 1**.
+At delkurs 1 you learned the basics about **komvux**. Now it's about planning
+further study — at upper-secondary level (**gymnasienivå**) or on the
+**Svenska som andraspråk 1** course.
 
-## Требования для поступления
-
-```example
-För att söka till gymnasiet behöver man ha grundläggande behörighet. — Чтобы поступить в гимназию, нужно базовое право на поступление.
-Vissa program kräver också särskild behörighet i vissa ämnen. — Некоторые программы также требуют особого допуска по определённым предметам.
-```
-
-**Betygskrav** (требования к оценкам) зависят от конкретной программы или курса.
-
-## Заявление и приём
+## Requirements for admission
 
 ```example
-Du ansöker till gymnasiet eller komvux via en digital ansökan. — Ты подаёшь заявление в гимназию или на komvux через электронную анкету.
-En sökande som saknar vissa betyg kan behöva komplettera dem. — Абитуриент, которому не хватает некоторых оценок, может их досдать.
+För att söka till gymnasiet behöver man ha grundläggande behörighet. — To apply to upper-secondary school, you need general eligibility.
+Vissa program kräver också särskild behörighet i vissa ämnen. — Some programmes also require specific eligibility in certain subjects.
 ```
 
-## Кто помогает с планированием
+**Betygskrav** (grade requirements) depend on the specific programme or course.
 
-**Studievägledare** (учебный консультант) помогает составить **studieplan** (учебный
-план) и выбрать подходящую **utbildningsprogram** (образовательную программу).
+## Applying and admission
 
 ```example
-Studievägledaren hjälper dig att välja rätt utbildningsprogram. — Учебный консультант помогает выбрать правильную образовательную программу.
+Du ansöker till gymnasiet eller komvux via en digital ansökan. — You apply to upper-secondary school or komvux through a digital application.
+En sökande som saknar vissa betyg kan behöva komplettera dem. — An applicant who is missing certain grades may need to make them up.
 ```
 
-## После SVA grund
+## Who helps with planning
 
-Пройдя базовый курс, многие продолжают на курсе **Svenska som andraspråk 1** —
-следующая ступень после SVA grund, часто необходимая для дальнейшей учёбы в
-гимназии для взрослых.
+A **studievägledare** (study counsellor) helps you put together a **studieplan**
+(study plan) and choose the right **utbildningsprogram** (study programme).
 
 ```example
-Efter SVA grund kan man fortsätta med Svenska som andraspråk 1 på gymnasienivå. — После SVA grund можно продолжить с курсом Svenska som andraspråk 1 на гимназическом уровне.
+Studievägledaren hjälper dig att välja rätt utbildningsprogram. — The study counsellor helps you choose the right study programme.
 ```
 
-Планировать учёбу дальше — значит заранее узнать **krav** (требования) и
-**meritvärde** (конкурсный балл) для нужной программы, а не ждать до последнего дня.
+## After SVA grund
+
+Once you finish the basic course, many continue with **Svenska som andraspråk 1** —
+the next step after SVA grund, often needed for further study at adult
+upper-secondary school (gymnasium för vuxna).
+
+```example
+Efter SVA grund kan man fortsätta med Svenska som andraspråk 1 på gymnasienivå. — After SVA grund, you can continue with Swedish as a Second Language 1 at upper-secondary level.
+```
+
+Planning further study means finding out the **krav** (requirements) and
+**meritvärde** (admission score) for the programme you want ahead of time, rather than
+waiting until the last day.

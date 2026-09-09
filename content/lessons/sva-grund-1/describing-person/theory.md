@@ -1,24 +1,26 @@
-Чтобы описать человека — внешность и характер — нужны прилагательные, но не забывай про склонение: сильная форма без артикля (согласуется с en/ett/мн.ч.), слабая форма после артикля или притяжательного местоимения — всегда **-a** (см. урок «Прилагательное: сильное и слабое склонение»).
+# Describing a person: appearance and character
+
+Describing someone's looks and personality just takes adjectives — but remember the declension rule: the strong form (no determiner, agrees with en/ett/plural) versus the weak form after a determiner or possessive, always **-a** (see "The adjective: strong and weak declension").
 
 ```example
-Han är lång och mörkhårig. — Он высокий и темноволосый.
-Hon är kort och blond. — Она невысокая и светловолосая.
+Han är lång och mörkhårig. — He is tall and dark-haired.
+Hon är kort och blond. — She is short and blond.
 ```
 
-Внешность описывают через рост (**lång/kort**), телосложение (**smal/kraftig**) и волосы (**blond/mörkhårig/lockig**). Существительное **utseende** (внешность) — среднего рода: *ett utseende, utseendet*.
+Appearance is described through height (**lång/kort**), build (**smal/kraftig**), and hair (**blond/mörkhårig/lockig**). The noun **utseende** (appearance) is neuter: *ett utseende, utseendet*.
 
 ```example
-Min bror är kraftig men snäll. — Мой брат крупный, но добрый.
-Den blyga flickan pratar sällan. — Стеснительная девочка редко разговаривает.
+Min bror är kraftig men snäll. — My brother is heavily built but kind.
+Den blyga flickan pratar sällan. — The shy girl rarely talks.
 ```
 
-Обрати внимание на второй пример: перед прилагательным стоит артикль **den**, поэтому *blyg* переходит в слабую форму *blyga*.
+Notice the second example: a determiner (**den**) stands before the adjective, so *blyg* switches to the weak form *blyga*.
 
-Характер описывают отдельным набором слов: **snäll** (добрый), **envis** (упрямый), **pålitlig** (надёжный), **blyg** (застенчивый), **öppen** (открытый), **självsäker** (уверенный в себе). Существительное **personlighet** (личность, характер) всегда женского рода (en-слово), даже если речь о мужчине.
+Character is described with a separate set of words: **snäll** (kind), **envis** (stubborn), **pålitlig** (reliable), **blyg** (shy), **öppen** (open, outgoing), **självsäker** (self-confident). The noun **personlighet** (personality) is always an en-word, even when talking about a man.
 
-Чтобы спросить о внешности, используют глагольную фразу **se ut** («выглядеть»): *Hur ser han ut?* — «Как он выглядит?». Частица *ut* не изменяется — меняется только глагол *se*: *ser ut* (наст.), *såg ut* (прош.), *sett ut* (супин).
+To ask about appearance, Swedish uses the verb phrase **se ut** ("to look like"): *Hur ser han ut?* — "What does he look like?" Note that *ut* is an unchanging particle — only *se* conjugates: *ser ut* (present), *såg ut* (past), *sett ut* (supine).
 
 ```example
-Hur ser din kollega ut? — Как выглядит твой коллега?
-Han är lång, mörkhårig och väldigt pålitlig. — Он высокий, темноволосый и очень надёжный.
+Hur ser din kollega ut? — What does your colleague look like?
+Han är lång, mörkhårig och väldigt pålitlig. — He is tall, dark-haired, and very reliable.
 ```

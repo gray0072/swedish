@@ -1,45 +1,45 @@
-Из пяти классов склонения из delkurs 1 — не готовый список «на все слова»: заимствования
-не изобретают шестой класс, а обычно **подстраиваются под ближайшую нативную модель**
-по своему окончанию. Но не всегда гладко — несколько слов сопротивляются.
+The five declension classes from delkurs 1 aren't a ready-made list for every word:
+loanwords don't invent a sixth class — instead they usually **get assigned to the
+nearest native pattern** based on how they end. But not always smoothly — a few
+words resist.
 
-## Обычно вписываются в один из пяти классов
-
-```example
-en trend → trender — тренд → тренды (как familj → familjer, класс -er)
-en pizza → pizzor — пицца → пиццы (как flicka → flickor, класс -or)
-ett konto → konton — счёт → счета (как äpple → äpplen, класс -n)
-```
-
-Хотя это заимствованные слова, шведская грамматика не сохраняет для них никакой
-«иностранной» формы множественного числа — она просто подбирает класс по тому, на
-что оканчивается слово.
-
-## «Нулевое» множественное — тоже нативный, не иностранный узор
+## Usually they fit into one of the five classes
 
 ```example
-ett center → center — центр → центры (как hus → hus, нулевое окончание)
-ett hotell → hotell — отель → отели (тот же нулевой класс)
+en trend → trender — a trend → trends (like familj → familjer, the -er class)
+en pizza → pizzor — a pizza → pizzas (like flicka → flickor, the -or class)
+ett konto → konton — an account → accounts (like äpple → äpplen, the -n class)
 ```
 
-Множественное число без окончания выглядит «по-иностранному», но на деле это узнаваемый
-нативный узор для ett-слов, оканчивающихся на согласную или безударный слог.
+Even though these are loanwords, Swedish grammar doesn't preserve any "foreign"
+plural form for them — it simply picks a class based on what the word ends in.
 
-## Слова, которые сопротивляются — только запоминать
+## The "zero" plural — also a native pattern, not a foreign one
 
 ```example
-ett museum → museer — музей → музеи (окончание -um отпадает, добавляется -er)
-ett faktum → fakta — факт → факты (окончание -um отпадает, добавляется -a; определённая форма мн.ч. тоже «fakta»)
-ett drama → dramer — драма → драмы (ожидался бы класс -n, как tema → teman, но на деле -er)
+ett center → center — a center → centers (like hus → hus, the zero-ending class)
+ett hotell → hotell — a hotel → hotels (the same zero-ending class)
 ```
 
-Эти слова латинского происхождения не подчиняются ни своему «ожидаемому» классу, ни
-общему правилу — их нужно выучить как исключения, каждое отдельно.
+A plural with no added ending looks "foreign", but it's actually a familiar native
+pattern for ett-words ending in a consonant or an unstressed syllable.
+
+## Words that resist — you just have to memorise them
 
 ```example
-Vi besökte flera museer i går. — Мы посетили несколько музеев вчера.
+ett museum → museer — a museum → museums (the -um ending drops, -er is added)
+ett faktum → fakta — a fact → facts (the -um ending drops, -a is added; the definite plural is also "fakta")
+ett drama → dramer — a drama → dramas (you'd expect the -n class, like tema → teman, but it's actually -er)
 ```
 
-Практический вывод: встретив новое заимствованное существительное, сначала
-попробуйте угадать класс по окончанию слова — это сработает в большинстве случаев.
-Но если слово оканчивается на -um или на другой нетипичный слог, лучше сразу
-проверить форму множественного числа в словаре.
+These Latin-derived words follow neither their "expected" class nor the general
+rule — you have to learn them as exceptions, one by one.
+
+```example
+Vi besökte flera museer i går. — We visited several museums yesterday.
+```
+
+A practical rule of thumb: when you meet a new loanword noun, first try to guess its
+class from the word's ending — that works in most cases. But if the word ends in
+-um or some other unusual syllable, it's safer to check the plural form in a
+dictionary right away.

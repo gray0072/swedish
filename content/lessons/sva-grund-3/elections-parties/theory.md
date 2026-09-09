@@ -1,32 +1,33 @@
-В Швеции **val** (выборы) в риксдаг, региональное и коммунальное собрание проходят
-одновременно, раз в четыре года. Каждый **väljare** (избиратель) старше 18 лет может
-**rösta** (голосовать), опустив **valsedel** (бюллетень) в конверт на избирательном
-участке своего **valkrets** (округа).
+In Sweden, **val** (elections) to the Riksdag, the regional council and the municipal
+council are held at the same time, every four years. Every **väljare** (voter) over 18
+may **rösta** (vote) by placing a **valsedel** (ballot paper) in an envelope at a polling
+station in their **valkrets** (constituency).
 
 ```example
-Val till riksdagen hålls vart fjärde år. — Выборы в риксдаг проходят раз в четыре года.
-Alla svenska medborgare över 18 år får rösta. — Все шведские граждане старше 18 лет могут голосовать.
+Val till riksdagen hålls vart fjärde år. — Elections to the Riksdag are held every four years.
+Alla svenska medborgare över 18 år får rösta. — All Swedish citizens over 18 may vote.
 ```
 
-Голоса распределяются между **riksdagsparti** (парламентскими партиями) — но чтобы
-попасть в риксдаг, партии нужно преодолеть **fyraprocentsspärren** (четырёхпроцентный
-барьер). По итогам голосования партии получают **mandat** (места) в парламенте.
-**Valdeltagande** (явка) в Швеции традиционно высокая.
+Votes are split between **riksdagsparti** (parliamentary parties) — but to enter the
+Riksdag, a party must clear the **fyraprocentsspärren** (four-percent threshold). Based
+on the results, parties are awarded **mandat** (seats) in parliament. **Valdeltagande**
+(voter turnout) in Sweden is traditionally high.
 
 ```example
-Riksdagen har 349 mandat. — В риксдаге 349 мандатов.
-Ett parti måste ta sig över fyraprocentsspärren. — Партии нужно преодолеть четырёхпроцентный барьер.
+Riksdagen har 349 mandat. — The Riksdag has 349 seats.
+Ett parti måste ta sig över fyraprocentsspärren. — A party has to get past the four-percent threshold.
 ```
 
-После выборов начинается **regeringsbildning** (формирование правительства): партии,
-получившие большинство или заключившие союз, образуют **koalition** (коалицию) и
-**regering** (правительство), а остальные партии образуют **opposition** (оппозицию),
-которая следит за работой правительства и критикует его решения.
+After the election, **regeringsbildning** (government formation) begins: parties that
+have a majority, or that form an alliance, create a **koalition** (coalition) and a
+**regering** (government), while the remaining parties form the **opposition**, which
+monitors the government's work and criticises its decisions.
 
 ```example
-Regeringen bildas efter valet. — Правительство формируется после выборов.
-Oppositionen kritiserar regeringens förslag. — Оппозиция критикует предложение правительства.
+Regeringen bildas efter valet. — The government is formed after the election.
+Oppositionen kritiserar regeringens förslag. — The opposition criticises the government's proposal.
 ```
 
-Помимо обычных выборов, в Швеции иногда проводят **folkomröstning** (референдум) —
-голосование напрямую по конкретному вопросу, а не за партию или кандидата.
+Besides ordinary elections, Sweden occasionally holds a **folkomröstning**
+(referendum) — a direct vote on a specific question rather than on a party or a
+candidate.

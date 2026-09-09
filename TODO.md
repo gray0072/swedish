@@ -14,7 +14,7 @@ list stays current and short). The per-lesson topic list lives separately, in
   described in the CHANGELOG entries for 2026-09-05 and 2026-09-07).
 - [ ] `CURRICULUM.md`'s grammar lists: **110/200 points now have a dedicated lesson** —
   points 1-20 of SVA grund delkurs 1-3 plus all 25 of delkurs 4 (bilingual RU/EN
-  theory via `theory_en.md`), and all 25 of SFI kurs A (19 with a lesson of their own,
+  theory via `theory_ru.md`), and all 25 of SFI kurs A (19 with a lesson of their own,
   appended past item 25 of the Topics list the way SVA grund does; 6 marked done by
   reference to a topic lesson that already covered the point, no duplicate written).
   The other 90 points (SFI kurs B–D's 75, and points 21-25 of SVA grund delkurs 1-3)

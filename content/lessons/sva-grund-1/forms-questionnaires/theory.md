@@ -1,31 +1,30 @@
-На уровне SFI ты уже выучил(а) базовые слова про **blankett** («бланк») и личные данные.
-Теперь разберём формулировки, которые встречаются в самих бланках и **enkäter**
-(«анкетах») и которые часто ставят в тупик даже при хорошем словарном запасе.
+At SFI level you already learned the basic words around a **blankett** ("form") and
+personal data. Now let's look at the wording that appears on the forms and **enkäter**
+("questionnaires") themselves — wording that can trip up even a solid vocabulary.
 
-Рядом с некоторыми полями стоит **obligatoriskt fält** («обязательное поле») — его
-нельзя оставить пустым, в отличие от **frivillig** («добровольный, необязательный»)
-вопроса. Вместо текста часто нужно просто **kryssa i en ruta** («поставить галочку в
-клетке/чекбоксе»).
-
-```example
-Detta är ett obligatoriskt fält. — Это обязательное поле.
-Kryssa i rutan om du är student. — Поставь галочку, если ты студент(ка).
-```
-
-Глагол **ange** («указать, сообщить») используется вместо простого «skriva», когда речь
-о формальных данных: «Ange ditt personnummer» («Укажите свой личный номер»). Если к
-заявлению нужно приложить документ, это называется **bifoga en bilaga** («приложить
-приложение/документ»). Подписать бланк — не «skriva under», как в разговорной речи, а
-официально **underteckna**, и рядом с подписью часто просят указать **datum och ort**
-(«дату и место») — например, «Stockholm, 2024-05-12».
+Next to some fields you'll see **obligatoriskt fält** ("mandatory field") — it can't be
+left blank, unlike a **frivillig** ("voluntary, optional") question. Instead of writing
+text, you're often asked to just **kryssa i en ruta** ("tick a box").
 
 ```example
-Bifoga en kopia av ditt pass som bilaga. — Приложите копию паспорта как документ.
-Underteckna blanketten och ange datum och ort. — Подпишите бланк и укажите дату и место.
+Detta är ett obligatoriskt fält. — This is a mandatory field.
+Kryssa i rutan om du är student. — Tick the box if you're a student.
 ```
 
-Иногда на старых официальных бланках встречается пассивная форма **ifylles av**
-(«заполняется [кем-то]») — устаревший канцелярский вариант обычного «fylls i av»:
-«Ifylles av arbetsgivaren» («Заполняется работодателем»). А к заявлению может
-понадобиться **intyg** («справка, свидетельство») или письменное **samtycke**
-(«согласие») — например, от второго родителя.
+The verb **ange** ("to state, to indicate") replaces plain "skriva" when it's formal
+data: "Ange ditt personnummer" ("State your personal ID number"). If you need to attach
+a document to an application, that's **bifoga en bilaga** ("to attach an enclosure").
+Signing a form isn't the everyday "skriva under" but the formal **underteckna**, and next
+to the signature you're usually asked for **datum och ort** ("date and place") — e.g.
+"Stockholm, 2024-05-12".
+
+```example
+Bifoga en kopia av ditt pass som bilaga. — Attach a copy of your passport as an enclosure.
+Underteckna blanketten och ange datum och ort. — Sign the form and state the date and place.
+```
+
+Older official forms sometimes use the passive form **ifylles av** ("to be filled in
+by") — an old-fashioned bureaucratic version of the ordinary "fylls i av": "Ifylles av
+arbetsgivaren" ("To be filled in by the employer"). An application may also need an
+**intyg** ("certificate, attestation") or a written **samtycke** ("consent") — for
+example from the other parent.

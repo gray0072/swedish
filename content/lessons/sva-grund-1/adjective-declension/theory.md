@@ -1,49 +1,49 @@
-# Прилагательное: сильное и слабое склонение
+# The adjective: strong and weak declension
 
-У шведского прилагательного всего два «режима» — и выбор между ними не зависит от
-смысла, только от контекста.
+A Swedish adjective has only two "modes" — and the choice between them depends purely on
+context, never on meaning.
 
-## Сильное (неопределённое) склонение
+## Strong (indefinite) declension
 
-Используется с неопределённым существительным (без den/det/de, без притяжательного) и
-согласуется по роду и числу: **-** (en), **-t** (ett), **-a** (множественное число).
+Used with an indefinite noun (no den/det/de, no possessive) and agrees with gender and
+number: **-** (en), **-t** (ett), **-a** (plural).
 
-| Форма | Окончание | Пример |
+| Form | Ending | Example |
 |---|---|---|
 | en | — | en stor bil |
 | ett | -t | ett stort hus |
-| мн. ч. | -a | stora bilar / hus |
+| plural | -a | stora bilar / hus |
 
 ```example
-en stor bil — большая машина (какая-то)
-ett stort hus — большой дом (какой-то)
-stora bilar — большие машины (какие-то)
+en stor bil — a big car
+ett stort hus — a big house
+stora bilar — big cars
 ```
 
-## Слабое (определённое) склонение
+## Weak (definite) declension
 
-Используется после определителя — свободного артикля (den/det/de), притяжательного
-местоимения или указательного (den här). Окончание всегда одно: **-a**, независимо от
-рода и числа.
+Used after a determiner — a free-standing article (den/det/de), a possessive pronoun, or
+a demonstrative (den här). The ending is always the same: **-a**, regardless of gender or
+number.
 
-| Контекст | Прилагательное | Пример |
+| Context | Adjective | Example |
 |---|---|---|
 | den + en | -a | den stora bilen |
 | det + ett | -a | det stora huset |
-| de + мн. ч. | -a | de stora bilarna |
+| de + plural | -a | de stora bilarna |
 | min/din... | -a | min stora bil |
 
 ```example
-den stora bilen — та самая большая машина
-det stora huset — тот самый большой дом
-min stora bil — моя большая машина
+den stora bilen — the big car
+det stora huset — the big house
+min stora bil — my big car
 ```
 
-Обрати внимание: слабая форма прилагательного (**stora**) одна и та же во всех трёх
-родах/числах — это резко упрощает дело по сравнению с сильным склонением. Как именно
-артикль сочетается с определённым существительным (и когда его вообще не ставят) —
-отдельная тема «Двойная определённость и её исключения»: там сильное/слабое склонение
-встречается снова, уже в связке с самим существительным.
+Note that the weak form (**stora**) is identical across all three genders/numbers — this
+is far simpler than the strong declension. Exactly how the article pairs with a definite
+noun (and when it's dropped altogether) is its own topic — "Double definiteness and its
+exceptions" — where this same strong/weak contrast shows up again, now tied to the noun
+itself.
 
-Итого правило выбора простое: **есть определитель перед прилагательным → слабая форма
--a; определителя нет → сильная форма, согласованная по роду/числу**.
+The rule of thumb is simple: **a determiner in front of the adjective → the weak -a
+form; no determiner → the strong form, agreeing with gender/number**.

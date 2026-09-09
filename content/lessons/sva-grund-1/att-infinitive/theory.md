@@ -1,44 +1,44 @@
-Шведский инфинитив после другого глагола иногда требует частицу **att** (аналог
-английского *to*), а иногда идёт «голым», без неё. Разница системная, а не случайная.
+A Swedish infinitive following another verb sometimes needs the particle **att** (like
+English *to*), and sometimes comes "bare", without it. The split is systematic, not random.
 
-## att нужен
+## att is required
 
-**att** обязателен:
+**att** is required:
 
-- после большинства обычных глаголов, вводящих действие: **försöka** (пытаться),
-  **hoppas** (надеяться), **glömma** (забыть), **lova** (обещать), **tycka om** (любить
-  что-то делать);
-- когда инфинитив сам выступает подлежащим предложения: **Att simma är kul** — «Плавать
-  весело».
-
-```example
-Jag försöker att lära mig svenska. — Я пытаюсь выучить шведский.
-Hon hoppas att få jobb snart. — Она надеется скоро получить работу.
-Att simma är kul. — Плавать весело.
-```
-
-## att не нужен — голый инфинитив
-
-**att** пропадает после:
-
-- модальных глаголов: **vill, kan, måste, ska, får, bör** + инфинитив;
-- глаголов **få, låta, se, höra** + объект + инфинитив (конструкция «дать кому-то сделать
-  что-то» / «увидеть/услышать, как кто-то делает»).
+- after most ordinary verbs that introduce an action: **försöka** (to try), **hoppas** (to
+  hope), **glömma** (to forget), **lova** (to promise), **tycka om** (to like doing
+  something);
+- when the infinitive itself is the subject of the sentence: **Att simma är kul** — "To
+  swim is fun."
 
 ```example
-Jag vill simma. — Я хочу плавать.
-Jag kan simma. — Я умею плавать.
-Hon lät barnen leka ute. — Она разрешила детям играть на улице.
-Jag såg honom simma. — Я видел, как он плавал.
+Jag försöker att lära mig svenska. — I'm trying to learn Swedish.
+Hon hoppas att få jobb snart. — She hopes to get a job soon.
+Att simma är kul. — Swimming is fun.
 ```
 
-## Минимальная пара
+## att is dropped — the bare infinitive
 
-| С att | Без att |
+**att** disappears after:
+
+- modal verbs: **vill, kan, måste, ska, får, bör** + infinitive;
+- the verbs **få, låta, se, höra** + object + infinitive (a "let/have someone do
+  something" or "see/hear someone doing something" construction).
+
+```example
+Jag vill simma. — I want to swim.
+Jag kan simma. — I can swim.
+Hon lät barnen leka ute. — She let the children play outside.
+Jag såg honom simma. — I saw him swim.
+```
+
+## A minimal pair
+
+| With att | Without att |
 |---|---|
-| Jag försöker att simma. (я пытаюсь плавать) | Jag kan simma. (я умею плавать) |
-| Hon hoppas att simma imorgon. (она надеется поплавать завтра) | Hon vill simma imorgon. (она хочет поплавать завтра) |
+| Jag försöker att simma. (I'm trying to swim) | Jag kan simma. (I can swim) |
+| Hon hoppas att simma imorgon. (she hopes to swim tomorrow) | Hon vill simma imorgon. (she wants to swim tomorrow) |
 
-Проверка простая: если перед инфинитивом стоит модальный глагол или конструкция
-«få/låta/se/höra + кто-то», att убирается; во всех остальных случаях, когда один глагол
-вводит другой, att обычно нужен.
+The test is simple: if a modal verb or a **få/låta/se/höra + someone** construction comes
+right before the infinitive, att is dropped; in every other case where one verb introduces
+another, att is usually needed.

@@ -1,37 +1,37 @@
-Каждое шведское существительное — либо **en**-слово, либо **ett**-слово. Это
-приходится запоминать вместе со словом, как род в русском. В классе большинство
-вещей — en-слова: **en bok**, **en penna**, **en stol**, **en väska**,
-**en dator**. Но есть и ett-слова: **ett bord**, **ett papper**,
-**ett suddgummi**, **ett klassrum**.
+Every Swedish noun is either an **en**-word or an **ett**-word. You have to
+learn that together with the word itself. In the classroom most things are
+en-words: **en bok**, **en penna**, **en stol**, **en väska**, **en dator**.
+But some are ett-words: **ett bord**, **ett papper**, **ett suddgummi**,
+**ett klassrum**.
 
-Второе, что удивляет каждого новичка: в шведском **нет отдельного слова** для
-«этот, эта». Определённость просто приклеивается к концу слова.
+The second thing that surprises every beginner: Swedish has **no separate word
+for "the"**. Definiteness is simply glued onto the end of the word.
 
-| одна вещь | эта вещь |
+| a thing | the thing |
 |---|---|
-| en bok (книга) | bok**en** |
-| en penna (ручка) | penna**n** |
-| en stol (стул) | stol**en** |
-| ett bord (стол) | bord**et** |
-| ett klassrum (класс) | klassrum**met** |
+| en bok (a book) | bok**en** |
+| en penna (a pen) | penna**n** |
+| en stol (a chair) | stol**en** |
+| ett bord (a table) | bord**et** |
+| ett klassrum (a classroom) | klassrum**met** |
 
-Схема простая: en-слова получают **-en** (или только **-n**, если слово уже
-кончается на -a), а ett-слова получают **-et**.
-
-```example
-Boken ligger på bordet. — Книга лежит на столе.
-Läraren står vid tavlan. — Учитель стоит у доски.
-Datorn är i väskan. — Компьютер в сумке.
-```
-
-И фраза, ради которой все эти слова и нужны:
+The pattern is simple: en-words take **-en** (or just **-n** if the word
+already ends in -a), and ett-words take **-et**.
 
 ```example
-Kan jag låna en penna? — Можно одолжить ручку?
-Kan jag låna ett suddgummi? — Можно одолжить ластик?
-Kan jag låna en ordbok? — Можно взять словарь?
+Boken ligger på bordet. — The book is lying on the table.
+Läraren står vid tavlan. — The teacher is standing by the board.
+Datorn är i väskan. — The computer is in the bag.
 ```
 
-Обрати внимание на **en** / **ett** внутри самой фразы: именно здесь ошибку
-слышно сразу. Поэтому в списке слов ниже артикль стоит рядом со словом —
-запоминай их вместе, одной парой.
+And here is the phrase all of these words exist to serve:
+
+```example
+Kan jag låna en penna? — Can I borrow a pen?
+Kan jag låna ett suddgummi? — Can I borrow an eraser?
+Kan jag låna en ordbok? — Can I borrow a dictionary?
+```
+
+Watch the **en** / **ett** inside the phrase itself — that is where a mistake
+is heard straight away. That is why the word list below keeps the article next
+to the word: learn them as one pair.

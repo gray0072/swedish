@@ -1,22 +1,23 @@
-У каждого шведского существительного есть свой род — **en** или **ett**. Большинство слов
-(около 75%) — en-слова, поэтому если сомневаешься, «en» — неплохая ставка по умолчанию.
+Every Swedish noun has a gender — **en** or **ett**. Most words (about 75%) are
+en-words, so if you're unsure, "en" is a decent default guess.
 
-Род определяет, как слово меняется:
+Gender determines how a word changes:
 
-| | en-слово (**mamma**) | ett-слово (**barn**) |
+| | en-word (**mamma**) | ett-word (**barn**) |
 |---|---|---|
-| неопределённая форма | en mamma | ett barn |
-| определённая форма | mamma**n** | barn**et** |
-| мн. число, неопр. | mamm**or** | barn |
-| мн. число, опр. | mamm**orna** | barn**en** |
+| indefinite form | en mamma | ett barn |
+| definite form | mamma**n** | barn**et** |
+| plural, indefinite | mamm**or** | barn |
+| plural, definite | mamm**orna** | barn**en** |
 
-Определённая форма («**мама**» вместо «**какая-то мама**») в шведском — это не отдельное
-слово, а окончание. Это сильно отличается от русского и требует привыкания.
+The definite form ("**the** mom" instead of "**a** mom") in Swedish isn't a separate
+word but an ending. This is quite different from Russian (and from English, where it's
+a separate word) and takes some getting used to.
 
 ```example
-en mamma — мама (какая-то, неопределённая)
-mamman — та самая мама (определённая)
+en mamma — a mom (some mom, indefinite)
+mamman — the mom (definite, that particular one)
 ```
 
-Некоторые формы множественного числа неправильные — их нужно просто запомнить, как и в любом
-языке. **Barn** («ребёнок») вообще не меняется во множественном числе.
+Some plural forms are irregular and simply have to be memorized, as in any language.
+**Barn** ("child") doesn't change at all in the plural.

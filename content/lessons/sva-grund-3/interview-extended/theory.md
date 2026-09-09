@@ -1,33 +1,34 @@
-На собеседовании (**intervju**) более высокого уровня рекрутёр часто задаёт сложные,
-неудобные вопросы. Один из классических — про **svaghet** (слабую сторону). Отвечать
-полным отрицанием («у меня нет слабостей») не стоит — лучше назвать реальную черту и
-показать, как ты с ней работаешь. Похожий вопрос — про **styrka** (сильную сторону):
-здесь полезно приводить конкретный пример из опыта, а не общие слова.
+In a more advanced job **intervju** (interview), the recruiter often asks tricky,
+uncomfortable questions. One classic is about a **svaghet** (weakness). Flatly denying
+having any ("I have no weaknesses") is not a good answer — it is better to name a real
+trait and show how you manage it. A similar question is about a **styrka** (strength):
+here it helps to give a concrete example from experience rather than vague words.
 
 ```example
-Berätta om en svaghet du har. — Расскажите о своей слабой стороне.
-Min styrka är samarbetsförmåga. — Моя сильная сторона — умение работать в команде.
+Berätta om en svaghet du har. — Tell me about a weakness you have.
+Min styrka är samarbetsförmåga. — My strength is the ability to work well with others.
 ```
 
-Ещё один частый вопрос касается ухода с **nuvarande** (нынешней) работы: почему ты хочешь
-**säga upp sig** (уволиться) именно сейчас. Отвечать стоит нейтрально и по делу — говорить
-о развитии, а не критиковать бывшего работодателя.
+Another common question concerns leaving your **nuvarande** (current) job: why you want to
+**säga upp sig** (resign) right now. The best answer stays neutral and focused — talking
+about growth rather than criticising a former employer.
 
 ```example
-Varför vill du sluta ditt nuvarande jobb? — Почему вы хотите уйти со своей нынешней работы?
-Jag vill utvecklas inom en ny bransch. — Я хочу развиваться в новой сфере.
+Varför vill du sluta ditt nuvarande jobb? — Why do you want to leave your current job?
+Jag vill utvecklas inom en ny bransch. — I want to grow in a new industry.
 ```
 
-Хорошее собеседование — это разговор в обе стороны. К концу встречи стоит самому задать
-несколько вопросов: про **rekryteringsprocess** (процесс найма), про **löneanspråk**
-(ожидания по зарплате, если о них не спросили заранее), про **arbetsuppgifter**
-(рабочие обязанности) и про **återkoppling** (обратную связь) — когда ждать ответа.
+A good interview is a two-way conversation. Toward the end of the meeting it is worth
+asking a few questions of your own: about the **rekryteringsprocess** (recruitment
+process), about **löneanspråk** (salary expectations, if not already asked), about
+**arbetsuppgifter** (job duties), and about **återkoppling** (feedback) — when to expect
+an answer.
 
 ```example
-Vad blir nästa steg i processen? — Каким будет следующий шаг в процессе?
-När kan jag vänta mig återkoppling? — Когда мне ждать обратной связи?
+Vad blir nästa steg i processen? — What is the next step in the process?
+När kan jag vänta mig återkoppling? — When can I expect feedback?
 ```
 
-Такие встречные вопросы показывают, что кандидат серьёзно относится к процессу и уже
-думает о том, когда сможет **tillträda** (приступить к работе) — после
-**referenstagning** (проверки рекомендаций) и финального решения работодателя.
+Asking such questions back shows that a candidate takes the process seriously and is
+already thinking about when they could **tillträda** (start the job) — after
+**referenstagning** (a reference check) and the employer's final decision.

@@ -1,37 +1,38 @@
-V2 действует независимо от того, насколько велик fundament: место всего одно, но
-занять его может не только одно слово, а целое **придаточное предложение**, стоящее
-целиком перед главным.
+V2 applies no matter how big the fundament is: there's only one slot, but a whole
+**subordinate clause** can occupy it, standing entirely in front of the main clause.
 
 ```example
-Eftersom det regnade mycket, stannade vi hemma. — Так как шёл сильный дождь, мы остались дома.
+Eftersom det regnade mycket, stannade vi hemma. — Because it rained heavily, we stayed home.
 ```
 
-Всё придаточное «Eftersom det regnade mycket» — это ОДИН fundament, один член
-huvudsats (обстоятельство причины). Поэтому сразу после него, как и всегда по правилу
-V2, идёт личный глагол главного предложения — «stannade» — а subjekt «vi» сдвигается на
-третье место. Здесь нет исключения из V2, просто «первое место» оказалось длинным.
+The whole clause "Eftersom det regnade mycket" is ONE fundament — one single element of
+the huvudsats (a reason adverbial). So right after it, exactly as the V2 rule always
+requires, comes the finite verb of the main clause — "stannade" — and the subjekt "vi"
+moves to third place. This isn't an exception to V2, the "first slot" just happens to be
+long.
 
 ```example
-När jag kom hem igår kväll, ringde telefonen. — Когда я пришёл домой вчера вечером, зазвонил телефон.
+När jag kom hem igår kväll, ringde telefonen. — When I came home last night, the phone rang.
 ```
 
-Тот же принцип: «När jag kom hem igår kväll» целиком в fundament, а «ringde» —
-huvudsats-глагол на втором месте.
+Same principle: "När jag kom hem igår kväll" sits entirely in the fundament, and
+"ringde" is the huvudsats verb in second place.
 
-Запятая перед главным предложением после длинного fundament — обычная и рекомендуемая
-практика (хотя формально не всегда обязательна): она визуально отмечает границу между
-fundament и остальной huvudsats.
+A comma before the main clause after a long fundament is common and recommended
+practice (though not always strictly obligatory) — it visually marks the boundary
+between the fundament and the rest of the huvudsats.
 
 ```example
-Om du har frågor, kan du kontakta oss. — Если у тебя есть вопросы, ты можешь связаться с нами.
+Om du har frågor, kan du kontakta oss. — If you have questions, you can contact us.
 ```
 
-Частая ошибка — забыть про инверсию после длинного fundament и написать «...du kan...»,
-по образцу русского или английского порядка слов. Проверка простая: спроси себя, что
-стоит в fundament (весь кусок до запятой в этих примерах), и помести личный глагол
-huvudsats сразу после него, а subjekt — следом за глаголом.
+A common mistake is to forget the inversion after a long fundament and write "...du
+kan...", following English or Russian word order. The check is simple: identify what
+occupies the fundament (everything up to the comma in these examples), then place the
+huvudsats's finite verb right after it, with the subjekt following the verb.
 
-Если придаточное стоит не первым, а после главного, инверсия не нужна — обычный порядок
-subjekt-verb сохраняется: «Vi stannade hemma eftersom det regnade mycket.» Инверсия
-возникает только тогда, когда fundament занят чем-то, кроме subjekt — и не важно, короткое
-это «idag» или целое придаточное предложение.
+If the subordinate clause comes after the main clause instead of before it, no inversion
+is needed — the ordinary subjekt-verb order holds: "Vi stannade hemma eftersom det
+regnade mycket." Inversion only happens when the fundament is occupied by something
+other than the subjekt — and it doesn't matter whether that's a short "idag" or an
+entire subordinate clause.

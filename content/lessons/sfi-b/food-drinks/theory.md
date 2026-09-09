@@ -1,14 +1,14 @@
-У «неисчисляемых» продуктов вроде **mjölk** (молоко), **kaffe** (кофе) или **socker** (сахар)
-род есть, а множественное число почти не используется — так же, как в русском странно
-звучит «два молока». А вот исчисляемые продукты — **äpple** (яблоко), **banan** (банан) —
-ведут себя как обычные существительные и меняются по числам без исключений.
+"Uncountable" foods like **mjölk** (milk), **kaffe** (coffee), or **socker** (sugar)
+have a gender, but their plural is almost never used — much like it sounds odd in
+English to say "two milks." Countable foods, however — **äpple** (apple), **banan**
+(banana) — behave like ordinary nouns and change number without exceptions.
 
 ```example
-en kopp kaffe — чашка кофе
-ett glas mjölk — стакан молока
-två äpplen — два яблока
+en kopp kaffe — a cup of coffee
+ett glas mjölk — a glass of milk
+två äpplen — two apples
 ```
 
-Fika — почти официальная традиция: пауза с кофе (или чаем) и чем-то сладким, обычно
-несколько раз в день. Слово **fika** — и существительное («перерыв на кофе»), и глагол
-(«делать этот перерыв»).
+Fika is almost an official tradition: a break with coffee (or tea) and something
+sweet, usually several times a day. The word **fika** is both a noun ("a coffee
+break") and a verb ("to take that break").

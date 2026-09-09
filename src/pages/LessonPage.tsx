@@ -40,7 +40,7 @@ export default function LessonPage() {
       </div>
 
       {(() => {
-        const theory = (lang === 'en' ? lesson.theoryEn : lesson.theory) ?? lesson.theory ?? lesson.theoryEn;
+        const theory = (lang === 'ru' ? lesson.theoryRu : lesson.theoryEn) ?? lesson.theoryEn ?? lesson.theoryRu;
         return (
           theory && (
             <section>

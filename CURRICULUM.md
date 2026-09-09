@@ -104,7 +104,7 @@ imperative and polite `kan` request, and `Vad kostar det?`).
 
 **SVA grund is written end to end against its original 20-point grammar plan** — all
 four delkurser (1-4), 80 grammar lessons and 100 thematic topics, every one with
-bilingual (RU/EN) theory (`theory.md` + `theory_en.md`, picked by the study-language
+bilingual (RU/EN) theory (`theory.md` + `theory_ru.md`, picked by the study-language
 toggle). Delkurs 4 was the capstone level:
 it gives the course's final grade and behörighet for the upper-secondary `Svenska som
 andraspråk 1`, so its grammar points mostly systematise delkurs 1-3 into summary

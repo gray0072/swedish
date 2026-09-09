@@ -1,51 +1,51 @@
-Номинализация — только один инструмент словообразования. Есть и другие продуктивные
-модели: они позволяют угадывать значение незнакомого слова и самому образовывать
-новые.
+Nominalisation is only one word-formation tool. There are other productive patterns
+too: they let you guess the meaning of an unfamiliar word, and build new ones
+yourself.
 
-## Приставка `o-` — отрицание
+## The prefix `o-` — negation
 
-Добавляется к прилагательным (реже к существительным) и переворачивает значение на
-противоположное — как русское «не-»:
-
-```example
-möjlig → omöjlig — возможный → невозможный
-lycklig → olycklig — счастливый → несчастный
-```
-
-## Приставка `be-` — делает глагол переходным
-
-Часто превращает непереходный или абстрактный корень в переходный глагол «сделать
-что-то с объектом»:
+Added to adjectives (more rarely nouns), it flips the meaning to its opposite — like
+English "un-" or "im-":
 
 ```example
-svara → besvara — отвечать → ответить (на что-то конкретное, с объектом)
-tala → betala — говорить → платить (исторически от «говорить о долге»)
+möjlig → omöjlig — possible → impossible
+lycklig → olycklig — happy → unhappy
 ```
 
-## Суффикс `-bar` — «можно сделать»
+## The prefix `be-` — makes a verb transitive
 
-Соответствует русскому «-мый/-имый» или английскому «-able»:
+Often turns an intransitive or abstract root into a transitive verb, "to do X to an
+object":
 
 ```example
-läsa → läsbar — читать → читаемый (можно прочитать)
-förklara → förklarbar — объяснять → объяснимый
+svara → besvara — to answer (in general) → to answer (something specific, with an object)
+tala → betala — to speak → to pay (historically from "to speak of a debt")
 ```
 
-## Суффикс `-lig` — превращает существительное в прилагательное
+## The suffix `-bar` — "can be done"
+
+Corresponds to English "-able":
 
 ```example
-fara → farlig — опасность → опасный
+läsa → läsbar — to read → readable
+förklara → förklarbar — to explain → explicable
 ```
 
-## Суффикс `-lös` — «без»
-
-Соответствует русскому «без-» или английскому «-less»:
+## The suffix `-lig` — turns a noun into an adjective
 
 ```example
-hopp → hopplös — надежда → безнадёжный
+fara → farlig — danger → dangerous
 ```
 
-Эти модели продуктивны: зная корень и модель, часто можно понять или образовать новое
-слово, даже если раньше его не встречал. Но не любое сочетание существует на самом
-деле — как всегда со словообразованием, стоит проверять слово в словаре, прежде чем
-использовать его в письменном тексте.
+## The suffix `-lös` — "without"
+
+Corresponds to English "-less":
+
+```example
+hopp → hopplös — hope → hopeless
+```
+
+These patterns are productive: knowing the root and the pattern often lets you
+understand or coin a new word, even one you've never met before. But not every
+combination actually exists — as always with word formation, check a word in a
+dictionary before using it in a written text.

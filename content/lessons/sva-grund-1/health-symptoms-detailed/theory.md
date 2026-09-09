@@ -1,24 +1,26 @@
-На уровне SFI ты уже умеешь сказать *Jag har ont i huvudet* («У меня болит голова»). Теперь научимся уточнять — как долго и насколько сильно, а также понимать типичные вопросы врача.
+# Health: describing symptoms in detail and talking to a doctor
+
+At the SFI level you already know how to say *Jag har ont i huvudet* ("I have a headache"). Now let's learn to be more specific — how long and how intensely — and to understand a doctor's typical questions.
 
 ```example
-Jag har haft ont i tre dagar. — У меня болит уже три дня.
-Hur länge har du haft ont? — Как долго у тебя болит?
+Jag har haft ont i tre dagar. — I've had pain for three days.
+Hur länge har du haft ont? — How long have you had the pain?
 ```
 
-Чтобы описать длительность, используется конструкция **har haft ont i** + период времени (перфект от *ha*). Наречие **länge** («долго») тоже часто встречается: *Jag har hostat länge.*
+To describe duration, Swedish uses **har haft ont i** + a period of time (the perfect tense of *ha*). The adverb **länge** ("for a long time") also comes up often: *Jag har hostat länge.*
 
-Для интенсивности боли используют прилагательные **svår** (сильный, тяжёлый), **lindrig** (лёгкий) и **ihållande** (постоянный) — последнее не изменяется по родам и числам, это особенность прилагательных на **-ande**.
+For intensity, use the adjectives **svår** (severe), **lindrig** (mild), and **ihållande** (persistent) — the last one doesn't change for gender or number, a feature of adjectives ending in **-ande**.
 
 ```example
-Jag har svår smärta i ryggen. — У меня сильная боль в спине.
-Det är bara en lindrig förkylning. — Это просто лёгкая простуда.
+Jag har svår smärta i ryggen. — I have severe pain in my back.
+Det är bara en lindrig förkylning. — It's just a mild cold.
 ```
 
-Врач обычно спрашивает **Var gör det ont?** («Где болит?») и **Har du feber?** («У тебя температура?»), а иногда просит оценить боль по шкале: *På en skala från ett till tio, hur ont gör det?* После осмотра (**undersöka**) врач может сказать *Jag skriver ut ett recept åt dig* («Я выпишу тебе рецепт») или дать **remiss** — направление к специалисту.
+A doctor usually asks **Var gör det ont?** ("Where does it hurt?") and **Har du feber?** ("Do you have a fever?"), and sometimes asks you to rate the pain on a scale: *På en skala från ett till tio, hur ont gör det?* After examining you (**undersöka**), the doctor might say *Jag skriver ut ett recept åt dig* ("I'll write you a prescription") or give you a **remiss** — a referral to a specialist.
 
 ```example
-Läkaren vill undersöka dig. — Врач хочет тебя осмотреть.
-Smärtan har förvärrats sedan i morse, men nu har den lättat. — Боль усилилась с утра, но теперь немного утихла.
+Läkaren vill undersöka dig. — The doctor wants to examine you.
+Smärtan har förvärrats sedan i morse, men nu har den lättat. — The pain has gotten worse since this morning, but now it's eased a little.
 ```
 
-Эти фразы помогают точнее рассказать врачу о своём состоянии, а не просто назвать один симптом.
+These phrases help you describe your condition more precisely to a doctor, rather than just naming a single symptom.

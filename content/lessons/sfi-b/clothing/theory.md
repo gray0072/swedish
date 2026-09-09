@@ -1,19 +1,20 @@
-Большинство слов для одежды — обычные en-слова с привычными формами единственного и
-множественного числа. Но есть важное исключение: вещи, которые состоят из двух одинаковых
-частей — **byxor** («брюки»), **glasögon** («очки») — по-шведски всегда стоят во
-множественном числе, даже когда речь об одной вещи. Это похоже на английское «pants» или
-«glasses» — в русском такого нет, поэтому к этому стоит просто привыкнуть.
+Most clothing words are ordinary en-words with familiar singular and plural forms.
+But there's one important exception: items made of two matching parts — **byxor**
+("trousers"), **glasögon** ("glasses") — are always plural in Swedish, even when
+talking about a single item. This is similar to English "pants" or "glasses" — Russian
+has no such pattern, so it just takes some getting used to.
 
 ```example
-en tröja — свитер (одна вещь, en-слово)
-byxor — брюки (всегда множественное число, отдельного единственного не бывает)
+en tröja — a sweater (a single item, en-word)
+byxor — trousers (always plural, there's no separate singular)
 ```
 
-Спросить «сколько это стоит» об одежде в магазине можно так:
+You can ask "how much does it cost" about a piece of clothing in a shop like this:
 
 ```example
-Hur mycket kostar den här tröjan? — Сколько стоит этот свитер?
+Hur mycket kostar den här tröjan? — How much does this sweater cost?
 ```
 
-Обрати внимание: **den här** («этот») меняется в зависимости от рода — **den här** для
-en-слов, **det här** для ett-слов. Подробнее о согласовании — в теме про артикли.
+Note that **den här** ("this") changes depending on gender — **den här** for
+en-words, **det här** for ett-words. More on this agreement is covered in the topic
+on articles.

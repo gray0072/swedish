@@ -1,54 +1,55 @@
-Этот урок повторяет трёхступенчатую систему условных предложений из предыдущего
-уровня и добавляет новый, более книжный приём: условие вообще без слова `om`.
+This lesson reviews the three-step conditional system from the previous level and
+adds a new, more literary device: a condition built without the word `om` at all.
 
-## Три ступени — краткое повторение
+## The three steps — a quick review
 
-| Тип условия | Придаточное (om-часть) | Главное предложение |
+| Type of condition | The om-clause | The main clause |
 |---|---|---|
-| Реальное (о будущем) | презенс | презенс |
-| Ирреальное (о настоящем) | претерит | skulle + инфинитив |
-| Ирреальное (о прошлом) | плюсквамперфект | skulle ha + супинум |
+| Real (about the future) | present | present |
+| Unreal (about now) | preterite | skulle + infinitive |
+| Unreal (about the past) | pluperfect | skulle ha + supine |
 
 ```example
-Om jag har tid ringer jag dig. — Если у меня будет время, я тебе позвоню.
-Om jag hade tid skulle jag ringa dig. — Если бы у меня было время, я бы тебе позвонил.
-Om jag hade haft tid skulle jag ha ringt dig. — Если бы у меня было время (тогда), я бы тебе позвонил.
+Om jag har tid ringer jag dig. — If I have time, I'll call you.
+Om jag hade tid skulle jag ringa dig. — If I had time, I would call you.
+Om jag hade haft tid skulle jag ha ringt dig. — If I had had time (back then), I would have called you.
 ```
 
-## Инверсия вместо om
+## Inversion instead of om
 
-`Om` можно убрать совсем: его роль тогда берёт на себя **инверсия** — личный глагол
-условной части встаёт перед подлежащим, на то самое место, где стоял бы `om`. Это
-более книжный, официальный вариант, обычный в письменном и формальном устном языке:
+You can drop `om` entirely: its job is then taken over by **inversion** — the finite
+verb of the condition clause moves in front of the subject, into the very slot where
+`om` would have stood. This is a more literary, formal option, common in written and
+formal spoken Swedish:
 
 ```example
-Hade jag vetat det, hade jag sagt något. — Если бы я это знал, я бы что-то сказал.
-Hade jag vetat det, skulle jag ha sagt något. — Если бы я это знал, я бы что-то сказал.
+Hade jag vetat det, hade jag sagt något. — Had I known that, I would have said something.
+Hade jag vetat det, skulle jag ha sagt något. — Had I known that, I would have said something.
 ```
 
-Оба варианта главной части — «hade sagt» и «skulle ha sagt» — встречаются в текстах;
-«skulle ha + супинум» надёжнее для официального письма, «hade + супинум» тоже книжный,
-но чуть менее формальный вариант.
+Both versions of the main clause — "hade sagt" and "skulle ha sagt" — occur in real
+texts; "skulle ha + supine" is the safer choice for formal writing, while
+"hade + supine" is also literary but slightly less formal.
 
-## Vore — архаичная форма для «был бы»
+## Vore — an archaic form for "were/would be"
 
-Старая сослагательная форма **vore** (от `vara`) сохранилась почти исключительно в
-этой инверсионной конструкции, для ирреального настоящего:
+The old subjunctive form **vore** (from `vara`) survives almost only in this inversion
+construction, for the unreal present:
 
 ```example
-Vore jag dig, skulle jag tacka nej. — Будь я на твоём месте, я бы отказался.
-Vore det inte för regnet, skulle vi gå ut. — Если бы не дождь, мы бы пошли гулять.
+Vore jag dig, skulle jag tacka nej. — If I were you, I would decline.
+Vore det inte för regnet, skulle vi gå ut. — If it weren't for the rain, we would go out.
 ```
 
-## Инверсия работает и для реальных условий
+## Inversion also works for real conditions
 
-Тот же приём используется и без всякой гипотетичности — часто в инструкциях,
-объявлениях, официальных текстах:
+The same device is used with no hypothetical meaning at all — often in instructions,
+notices, and official texts:
 
 ```example
-Uppstår fel, kontakta support. — Если возникнет ошибка, обратитесь в поддержку.
-Behöver du hjälp, hör av dig. — Если тебе нужна помощь, дай знать.
+Uppstår fel, kontakta support. — If an error occurs, contact support.
+Behöver du hjälp, hör av dig. — If you need help, get in touch.
 ```
 
-Инверсия без `om` — не ошибка и не упрощение, а осознанный стилистический выбор:
-предложение становится компактнее и звучит более официально, книжно.
+Inversion without `om` is not a mistake or a shortcut — it's a deliberate stylistic
+choice: it makes the sentence more compact and gives it a more formal, literary tone.

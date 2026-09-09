@@ -1,41 +1,42 @@
-Официальный, информационный шведский — объявления, инструкции, новости — гораздо чаще
-использует **-s-пассив**, чем разговорная речь. Причина не в грамматике, а в стиле:
--s-пассив убирает того, кто действие выполняет, и звучит нейтрально, безлично,
-по-деловому.
+Official, informative Swedish — notices, instructions, news — leans far more heavily on
+the **-s-passive** than everyday speech does. The reason isn't grammar, it's style: the
+-s-passive removes the person doing the action and sounds neutral, impersonal, and
+businesslike.
 
-## Объявление vs повседневная речь
+## A notice vs. everyday speech
 
 ```example
-Dörrarna stängs automatiskt. — Двери закрываются автоматически. (объявление в лифте)
-Vi stänger dörrarna nu. — Мы закрываем двери сейчас. (то же самое, но по-бытовому)
+Dörrarna stängs automatiskt. — The doors close automatically. (a sign in an elevator)
+Vi stänger dörrarna nu. — We're closing the doors now. (the same action, said casually)
 ```
 
-Оба предложения описывают одно действие, но первое — обезличенное правило (для
-таблички), а второе называет конкретное «мы», которое действует прямо сейчас.
+Both sentences describe the same action, but the first is an impersonal rule (fit for a
+sign), while the second names a specific "we" acting right now.
 
-## Ещё примеры официального стиля
+## More examples of official style
 
-| Официально (-s-пассив) | По-бытовому (актив) |
+| Official (-s-passive) | Everyday (active) |
 |---|---|
-| Ansökan lämnas in senast den 1 juni. — Заявление подаётся не позднее 1 июня. | Du lämnar in ansökan senast den 1 juni. — Ты подаёшь заявление не позднее 1 июня. |
-| Frågor besvaras via mejl. — Вопросы отвечаются по почте. | Vi svarar på frågor via mejl. — Мы отвечаем на вопросы по почте. |
-| Biljetter säljs i receptionen. — Билеты продаются на ресепшене. | Vi säljer biljetter i receptionen. — Мы продаём билеты на ресепшене. |
+| Ansökan lämnas in senast den 1 juni. — The application is submitted no later than June 1. | Du lämnar in ansökan senast den 1 juni. — You submit the application no later than June 1. |
+| Frågor besvaras via mejl. — Questions are answered by email. | Vi svarar på frågor via mejl. — We answer questions by email. |
+| Biljetter säljs i receptionen. — Tickets are sold at the front desk. | Vi säljer biljetter i receptionen. — We sell tickets at the front desk. |
 
-## Почему именно -s, а не bli/vara
+## Why -s, and not bli/vara
 
-В этих текстах не важно, кто именно закрывает двери, принимает заявления или продаёт
-билеты, — важен сам факт и правило. -s-пассив как раз и создан для общих, привычных,
-безличных утверждений (в отличие от bli — однократного события, и vara — уже
-достигнутого состояния, см. предыдущий уровень).
+In these texts it doesn't matter who exactly closes the doors, processes the
+applications, or sells the tickets — what matters is the fact and the rule itself. The
+-s-passive is built exactly for such general, habitual, impersonal statements (unlike
+bli, for a single event, or vara, for an already-reached state — see the previous
+level).
 
 ```example
-Rökning är förbjuden i hela byggnaden. — Курение запрещено во всём здании.
-Anmälan görs senast en vecka innan kursstart. — Запись производится не позднее чем за неделю до начала курса.
+Rökning är förbjuden i hela byggnaden. — Smoking is prohibited throughout the building.
+Anmälan görs senast en vecka innan kursstart. — Registration is done no later than one week before the course starts.
 ```
 
-## Коротко
+## In short
 
-Чем более официален и безличен текст — объявление на двери, правила, новость в
-газете, — тем чаще в нём встретится -s-пассив вместо активной формы с «я/мы/они».
-Это не украшение стиля, а способ убрать конкретного деятеля из фокуса и подчеркнуть
-само правило или факт.
+The more official and impersonal a text is — a sign on a door, a set of rules, a news
+report — the more often you'll find the -s-passive instead of an active form with
+"I/we/they." It isn't a stylistic flourish; it's a way of taking the specific agent out
+of focus and highlighting the rule or fact itself.

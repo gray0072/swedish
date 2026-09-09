@@ -1,32 +1,32 @@
-Это классическая ловушка для начинающих. У 3-го лица (han, hon, den, det, de) — целых
-**два** способа сказать «его/её/их»: обычное притяжательное (*hans, hennes, dess,
-deras*) и возвратно-притяжательное *sin/sitt/sina*.
+This is a classic beginner trap. For the 3rd person (han, hon, den, det, de) there are
+**two** ways to say "his/her/its/their": the ordinary possessive (*hans, hennes, dess,
+deras*) and the reflexive possessive *sin/sitt/sina*.
 
-Разница — не в лице, а в том, **чьё** это. *Sin/sitt/sina* используется, когда владелец
-— это подлежащее того же предложения. Обычное притяжательное — когда владелец
-кто-то другой, не подлежащее.
+The difference isn't about person — it's about **whose** it is. *Sin/sitt/sina* is used
+when the owner is the subject of that very sentence. The ordinary possessive is used
+when the owner is someone else, not the subject.
 
 ```example
-Anna älskar sin man. — Анна любит своего мужа (мужа самой Анны).
-Anna älskar hennes man. — Анна любит её мужа (мужа другой женщины).
+Anna älskar sin man. — Anna loves her own husband (Anna's own husband).
+Anna älskar hennes man. — Anna loves her husband (some other woman's husband).
 ```
 
-Во втором предложении *hennes* указывает на женщину, о которой шла речь раньше — не
-на Анну. Спутать эти два слова — значит поменять смысл предложения на противоположный.
+In the second sentence, *hennes* points to a woman mentioned earlier — not to Anna
+herself. Mixing up these two words flips the meaning of the sentence.
 
-Форма *sin/sitt/sina* согласуется не с владельцем, а с тем, **чем владеют** — совсем
-как обычное притяжательное:
+The form *sin/sitt/sina* agrees not with the owner, but with **the thing owned** —
+exactly like an ordinary possessive:
 
-| Форма | Когда используется | Пример |
+| Form | Used when | Example |
 |---|---|---|
-| sin | предмет владения — en-слово | Han läser sin bok. |
-| sitt | предмет владения — ett-слово | Han läser sitt brev. |
-| sina | предмет владения во множественном числе | Han läser sina böcker. |
+| sin | the thing owned is an en-word | Han läser sin bok. |
+| sitt | the thing owned is an ett-word | Han läser sitt brev. |
+| sina | the thing owned is plural | Han läser sina böcker. |
 
-Важное ограничение: *sin/sitt/sina* никогда не бывает подлежащим и не встаёт в начало
-предложения. Нельзя сказать *Sin bil är ny* — здесь владелец не назван внутри этого
-же предложения, поэтому нужно обычное притяжательное: **Hans bil är ny** (Его машина
-новая).
+An important restriction: *sin/sitt/sina* is never the subject and never opens a
+sentence. You can't say *Sin bil är ny* — here the owner isn't named within that same
+sentence, so the ordinary possessive is needed instead: **Hans bil är ny** (His car is
+new).
 
-Правило одной фразой: смотри на подлежащее предложения. Владелец = подлежащее → *sin/
-sitt/sina*. Владелец — кто-то другой → *hans/hennes/dess/deras*.
+One-line rule: look at the sentence's subject. Owner = subject → *sin/sitt/sina*.
+Owner is someone else → *hans/hennes/dess/deras*.

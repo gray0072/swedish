@@ -1,46 +1,45 @@
-В современном шведском нет живого, продуктивного конъюнктива (как, например, в
-немецком) — но от него остались две окаменевшие формы: `vore` и `må`. Они не образуют
-систему, это просто отдельные слова, которые стоит уметь узнавать.
+Modern Swedish has no living, productive subjunctive (unlike, say, German) — but two
+fossilised forms remain: `vore` and `må`. They don't form a system; they're just
+individual words worth being able to recognise.
 
-## vore — старый конъюнктив глагола vara
+## vore — the old subjunctive of vara
 
-`Vore` исторически — форма конъюнктива от *vara* («быть»). В современном языке она
-употребляется в приподнятом, письменном стиле вместо `skulle vara` в гипотетических
-условиях.
-
-```example
-Det vore bra om du kunde komma. — Было бы хорошо, если бы ты смог прийти.
-Det skulle vara bra om du kunde komma. — То же самое обычным, разговорным способом.
-```
-
-Оба варианта грамматически верны и означают одно и то же — `vore` просто звучит более
-книжно и изысканно.
+`Vore` was historically the subjunctive form of *vara* ("to be"). In modern Swedish it
+is used in elevated, written style instead of `skulle vara` in hypothetical conditions.
 
 ```example
-Det vore synd att missa festen. — Было бы жаль пропустить вечеринку.
+Det vore bra om du kunde komma. — It would be good if you could come.
+Det skulle vara bra om du kunde komma. — The same thing, said the ordinary, spoken way.
 ```
 
-## må — только в устойчивых пожеланиях
-
-`Må` не образует продуктивную парадигму — он сохранился в нескольких застывших
-выражениях-пожеланиях и восклицаниях, и заменить его на другой глагол или использовать
-свободно нельзя.
+Both versions are grammatically correct and mean the same thing — `vore` simply sounds
+more literary and refined.
 
 ```example
-Må det gå dig väl! — Пусть у тебя всё сложится хорошо!
-Må så vara. — Пусть будет так; так тому и быть.
+Det vore synd att missa festen. — It would be a shame to miss the party.
 ```
 
-Расширенная форма `måtte` используется для пожеланий о будущем, часто с оттенком
-надежды:
+## må — only in fixed wishes
+
+`Må` does not form a productive paradigm — it survives in a handful of fossilised
+wish-expressions and exclamations, and it cannot be swapped for another verb or used
+freely.
 
 ```example
-Måtte det bli sol imorgon! — Хоть бы завтра было солнце!
+Må det gå dig väl! — May all go well for you!
+Må så vara. — So be it; be that as it may.
 ```
 
-## Коротко: не система, а окаменелости
+The extended form `måtte` is used for wishes about the future, often with a hopeful
+tone:
 
-`Vore` ещё живо в письменном/приподнятом стиле как замена `skulle vara`, а `må`/`måtte`
-встречаются только в закреплённых пожеланиях и восклицаниях. Ни то ни другое не стоит
-пытаться спрягать или использовать свободно — это не грамматическая категория, а
-несколько отдельных слов, которые нужно просто узнавать в тексте.
+```example
+Måtte det bli sol imorgon! — I do hope it's sunny tomorrow!
+```
+
+## In short: fossils, not a system
+
+`Vore` is still alive in written/elevated style as a substitute for `skulle vara`, while
+`må`/`måtte` occur only in fixed wishes and exclamations. Neither should be conjugated
+or used freely — this isn't a grammatical category so much as a handful of individual
+words worth recognising in a text.

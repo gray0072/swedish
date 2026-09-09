@@ -1,53 +1,53 @@
-Delkurs 3 показал типичные ошибки интерференции. Это — заключительный урок всего
-delkurs 4: конкретный чек-лист, который нужно пройти перед сдачей любого
-формального текста.
+Delkurs 3 covered typical interference errors. This is the closing lesson of the
+whole delkurs 4: a concrete checklist to run through before submitting any formal
+text.
 
-## Чек-лист самопроверки
+## The self-check checklist
 
-**1. Каждый ли huvudsats — V2?** Личный глагол должен стоять вторым членом,
-особенно после длинного вынесенного вперёд обстоятельства:
-
-```example
-✗ Trots regnet vi gick ut. → ✓ Trots regnet gick vi ut. — Несмотря на дождь, мы вышли на улицу.
-```
-
-**2. Согласован ли род каждого существительного по всему тексту?** Если слово
-впервые появилось как `en bil`, оно должно оставаться `en`-словом (`bilen`, не
-`det bilen`) во всех последующих упоминаниях:
+**1. Is every huvudsats (main clause) V2?** The finite verb must be the second
+element, especially after a long fronted adverbial:
 
 ```example
-✗ Jag såg en bil. Det bilen var röd. → ✓ Jag såg en bil. Bilen var röd. — Я увидел машину. Машина была красной.
+✗ Trots regnet vi gick ut. → ✓ Trots regnet gick vi ut. — Despite the rain, we went outside.
 ```
 
-**3. Соблюдена ли двойная определённость?** Если перед существительным стоит
-определённый артикль и прилагательное, само существительное тоже должно быть в
-определённой форме:
+**2. Is the gender of every noun consistent throughout the text?** If a word
+first appeared as `en bil`, it must stay an `en`-word (`bilen`, not `det bilen`)
+in every later mention:
 
 ```example
-✗ den stora hus → ✓ det stora huset — этот большой дом
+✗ Jag såg en bil. Det bilen var röd. → ✓ Jag såg en bil. Bilen var röd. — I saw a car. The car was red.
 ```
 
-**4. Sin/sitt/sina или hans/hennes?** `Sin/sitt/sina` — только когда обладатель
-совпадает с подлежащим того же предложения; иначе — `hans/hennes`:
+**3. Is double definiteness observed?** If a noun is preceded by a definite
+article and an adjective, the noun itself must also take its definite form:
 
 ```example
-Anna älskar sin bror. — Анна любит своего (её собственного) брата.
-Anna älskar hans bror. — Анна любит его (чужого, не её) брата.
+✗ den stora hus → ✓ det stora huset — this big house
 ```
 
-**5. Соответствует ли заключение тезису?** Перечитайте вступление и вывод рядом:
-если во вступлении заявлена одна проблема, а вывод отвечает на другую, текст
-теряет связность — это ошибка не грамматики, а логики текста.
+**4. Sin/sitt/sina or hans/hennes?** `Sin/sitt/sina` only when the owner is the
+same as the subject of that clause; otherwise use `hans/hennes`:
 
-## Как пользоваться чек-листом
+```example
+Anna älskar sin bror. — Anna loves her own brother.
+Anna älskar hans bror. — Anna loves his (someone else's) brother.
+```
 
-Пройдите по всем пяти пунктам после того, как текст уже написан целиком — не во
-время написания. Каждый пункт проверяется отдельным чтением всего текста: сначала
-ищете только V2-нарушения, затем только род, затем определённость, и так далее.
-Так внимание не распыляется на всё сразу.
+**5. Does the conclusion match the thesis?** Reread the introduction and the
+conclusion side by side: if the introduction states one problem while the
+conclusion answers a different one, the text loses coherence — this is an error
+of logic, not grammar.
 
-## Коротко
+## How to use the checklist
 
-Пять проверок перед сдачей текста: V2 в каждом главном предложении, согласованный
-род существительных, двойная определённость, правильный выбор `sin` против
-`hans/hennes`, и соответствие вывода тезису из вступления.
+Go through all five points after the text is already fully written — not while
+you're writing. Check each point with a separate read-through of the whole text:
+first look only for V2 violations, then only for gender, then definiteness, and so
+on. This way your attention isn't split across everything at once.
+
+## In short
+
+Five checks before submitting a text: V2 in every main clause, consistent noun
+gender, double definiteness, the right choice between `sin` and `hans/hennes`, and
+a conclusion that matches the thesis stated in the introduction.

@@ -1,46 +1,46 @@
-В «climate-sustainability» речь шла об основах: почему климат меняется и
-что можно делать лично. Теперь — как обсуждать климатическую ПОЛИТИКУ:
-решения на уровне общества, а не только личного поведения.
+In "climate-sustainability" we covered the basics: why the climate is
+changing and what one can do personally. Now: how to discuss climate
+POLICY — decisions at the level of society, not just personal behaviour.
 
-## Климатическая политика
-
-```example
-Sveriges klimatpolitik syftar till att minska utsläppen till 2045. — Климатическая политика Швеции направлена на снижение выбросов к 2045 году.
-```
-
-## Инструменты политики
+## Climate policy
 
 ```example
-Koldioxidskatt är ett styrmedel som ska minska utsläppen. — Налог на CO2 — это инструмент политики для снижения выбросов.
+Sveriges klimatpolitik syftar till att minska utsläppen till 2045. — Sweden's climate policy aims to reduce emissions by 2045.
 ```
 
-`Styrmedel` — общее слово для инструментов, которыми государство направляет
-поведение общества: налоги, субсидии, законы.
-
-## Снижение выбросов
+## Policy tools
 
 ```example
-En kraftig utsläppsminskning krävs för att nå klimatmålen. — Требуется значительное снижение выбросов, чтобы достичь климатических целей.
+Koldioxidskatt är ett styrmedel som ska minska utsläppen. — A carbon tax is a policy tool meant to reduce emissions.
 ```
 
-## Компромисс между интересами
+`Styrmedel` is the general word for the tools a state uses to steer
+society's behaviour: taxes, subsidies, laws.
+
+## Reducing emissions
 
 ```example
-Det handlar om en avvägning mellan ekonomisk tillväxt och miljöhänsyn. — Речь идёт о компромиссе между экономическим ростом и заботой об экологии.
+En kraftig utsläppsminskning krävs för att nå klimatmålen. — A sharp reduction in emissions is needed to reach the climate targets.
 ```
 
-`En avvägning mellan X och Y` — способ признать, что решение требует
-баланса, а не идеального ответа.
-
-## Краткосрочная и долгосрочная перспектива
+## Weighing competing interests
 
 ```example
-På kort sikt kan åtgärden kosta pengar, men på lång sikt lönar den sig. — В краткосрочной перспективе мера может стоить денег, но в долгосрочной — окупается.
+Det handlar om en avvägning mellan ekonomisk tillväxt och miljöhänsyn. — It's about a trade-off between economic growth and environmental concern.
 ```
 
-## Как строить аргументированный разговор о политике
+`En avvägning mellan X och Y` acknowledges that a decision requires
+balancing, not a perfect answer.
 
-1. Назвать конкретный инструмент политики (`styrmedel`), а не только цель.
-2. Признать компромисс: `en avvägning mellan...`
-3. Разделять краткосрочный и долгосрочный эффект (`på kort/lång sikt`).
-4. Не сводить всё к «за» и «против» — политика обычно сложнее.
+## Short-term vs. long-term
+
+```example
+På kort sikt kan åtgärden kosta pengar, men på lång sikt lönar den sig. — In the short term, the measure may cost money, but in the long term it pays off.
+```
+
+## Building a reasoned discussion of policy
+
+1. Name a concrete policy tool (`styrmedel`), not just a goal.
+2. Acknowledge the trade-off: `en avvägning mellan...`
+3. Distinguish short-term from long-term effects (`på kort/lång sikt`).
+4. Don't reduce everything to "for" and "against" — policy is usually more complex.

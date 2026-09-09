@@ -1,49 +1,49 @@
-В «economy-labour-trends» мы описывали тренды: растёт, падает, стабильно.
-Теперь — как анализировать статистику: не только ЧТО происходит, но и
-ПОЧЕМУ это может происходить.
+In "economy-labour-trends" we described trends: rising, falling, stable.
+Now: how to analyse statistics — not just WHAT is happening, but WHY it
+might be happening.
 
-## Что говорит статистика
+## What the statistics say
 
 ```example
-Statistiken tyder på att arbetslösheten minskar bland unga. — Статистика указывает на то, что безработица снижается среди молодёжи.
+Statistiken tyder på att arbetslösheten minskar bland unga. — The statistics suggest that unemployment is decreasing among young people.
 ```
 
 ```example
-Siffrorna visar en tydlig trend under de senaste fem åren. — Цифры показывают чёткий тренд за последние пять лет.
+Siffrorna visar en tydlig trend under de senaste fem åren. — The figures show a clear trend over the last five years.
 ```
 
-## Возможное объяснение
+## A possible explanation
 
 ```example
-En möjlig förklaring är att fler utbildar sig inom bristyrken. — Возможное объяснение в том, что больше людей учится на дефицитные специальности.
-```
-
-```example
-Detta kan bero på flera faktorer, till exempel konjunkturen. — Это может зависеть от нескольких факторов, например, от экономической конъюнктуры.
-```
-
-## Осторожность в выводах
-
-```example
-Man kan inte dra slutsatsen att X orsakar Y enbart utifrån detta. — Нельзя делать вывод, что X вызывает Y, только на основании этого.
+En möjlig förklaring är att fler utbildar sig inom bristyrken. — A possible explanation is that more people are training for professions in short supply.
 ```
 
 ```example
-Det är svårt att säga säkert utan mer data. — Трудно сказать наверняка без дополнительных данных.
+Detta kan bero på flera faktorer, till exempel konjunkturen. — This can depend on several factors, for example the economic cycle.
 ```
 
-Хороший анализ различает корреляцию (`samband`) и причинность (`orsak`) —
-то, что два показателя связаны, не значит, что один вызывает другой.
-
-## Сравнение показателей
+## Being cautious about conclusions
 
 ```example
-Jämfört med föregående år har inflationen gått ner. — По сравнению с прошлым годом инфляция снизилась.
+Man kan inte dra slutsatsen att X orsakar Y enbart utifrån detta. — You can't conclude that X causes Y based on this alone.
 ```
 
-## Как строить анализ статистики
+```example
+Det är svårt att säga säkert utan mer data. — It's hard to say for sure without more data.
+```
 
-1. Описать данные: `siffrorna visar...`
-2. Предложить объяснение: `en möjlig förklaring är...`
-3. Признать неопределённость: `det kan bero på flera faktorer`.
-4. Не путать связь (`samband`) с причиной (`orsak`).
+Good analysis distinguishes correlation (`samband`) from causation
+(`orsak`) — two figures being related doesn't mean one causes the other.
+
+## Comparing figures
+
+```example
+Jämfört med föregående år har inflationen gått ner. — Compared with the previous year, inflation has gone down.
+```
+
+## How to build a statistical analysis
+
+1. Describe the data: `siffrorna visar...`
+2. Offer an explanation: `en möjlig förklaring är...`
+3. Acknowledge uncertainty: `det kan bero på flera faktorer`.
+4. Don't confuse a correlation (`samband`) with a cause (`orsak`).

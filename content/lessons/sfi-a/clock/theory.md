@@ -13,10 +13,10 @@ So one full hour, in order, sounds like: klockan är åtta → fem över → tio
 Mastering whole hours, halv, kvart, and fem/tio över/i already covers almost every everyday situation — at work, on the bus, or arranging to meet someone.
 
 ```example
-Vad är klockan? — Который час?
-Klockan är halv nio. — Сейчас половина девятого (8:30).
-Klockan är kvart i tio. — Сейчас без четверти десять (9:45).
-Jag vaknar klockan sju varje morgon. — Я просыпаюсь в семь каждое утро.
+Vad är klockan? — What time is it?
+Klockan är halv nio. — It's half past eight (8:30).
+Klockan är kvart i tio. — It's a quarter to ten (9:45).
+Jag vaknar klockan sju varje morgon. — I wake up at seven every morning.
 ```
 
 One more useful pair: **vakna** means "to wake up", while a **larmklocka** is the alarm clock that helps you do it on time.

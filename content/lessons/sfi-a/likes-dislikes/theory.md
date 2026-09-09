@@ -1,22 +1,22 @@
-Сказать «мне нравится» по-шведски можно двумя способами, и они значат одно и то же:
-**gillar** и **tycker om**.
+There are two ways to say "I like" in Swedish, and they mean the same thing:
+**gillar** and **tycker om**.
 
 ```example
-Jag gillar kaffe. — Я люблю кофе.
-Jag tycker om kaffe. — То же самое.
+Jag gillar kaffe. — I like coffee.
+Jag tycker om kaffe. — The same thing.
 ```
 
-Оба работают и с существительным, и с глаголом. Перед глаголом нужно **att**:
+Both work with a noun and with a verb. Before a verb you need **att**:
 
 ```example
-Jag tycker om att simma. — Мне нравится плавать.
-Jag gillar att laga mat. — Мне нравится готовить.
-Jag gillar min lärare. — Мне нравится мой учитель.
+Jag tycker om att simma. — I like to swim.
+Jag gillar att laga mat. — I like cooking.
+Jag gillar min lärare. — I like my teacher.
 ```
 
-Теперь то, что стоит отработать до автоматизма: **inte** идёт после глагола, а не
-перед ним. Русское «я не люблю» так и хочется собрать как *jag inte gillar* — а
-по-шведски порядок другой.
+Now the thing worth drilling until it is automatic: **inte** comes after the
+verb, not before it. English puts the "not" first ("I do not like"), so your
+hand wants to build *jag inte gillar* — but Swedish orders it differently.
 
 | + | − |
 |---|---|
@@ -24,25 +24,27 @@ Jag gillar min lärare. — Мне нравится мой учитель.
 | Jag tycker om fisk. | Jag tycker **inte** om fisk. |
 | Jag gillar att dansa. | Jag gillar **inte** att dansa. |
 
-Обратите внимание на вторую строку: в «tycker om» слово **inte** встаёт прямо
-между двумя словами — `Jag tycker inte om fisk.`
+Look at the second row: with "tycker om" the word **inte** lands right between
+the two words — `Jag tycker inte om fisk.`
 
-Отвечать на вопрос коротко очень удобно:
+Short answers are very handy here:
 
 ```example
 Gillar du kaffe? — Ja, det gör jag.
 Gillar du fisk? — Nej, det gör jag inte.
 ```
 
-Сильнее, чем «gillar»: **Jag älskar choklad.** А **Jag hatar...** — очень сильное
-слово, почти грубое; в обычном разговоре лучше сказать «Jag gillar inte...».
+Stronger than "gillar": **Jag älskar choklad.** And **Jag hatar...** is a very
+strong word, almost harsh; in ordinary conversation say "Jag gillar inte..."
+instead.
 
-И последнее — маленькая ловушка каждого дня. **bra** значит «хороший, хорошо»
-вообще, а **gott** — «вкусный», только о еде и напитках.
+Last, a small everyday trap. **bra** means "good" in general, while **gott**
+means "tasty" and is used only about food and drink.
 
 ```example
-Filmen är bra. — Фильм хороший.
-Kaffet är gott. — Кофе вкусный.
+Filmen är bra. — The film is good.
+Kaffet är gott. — The coffee is tasty.
 ```
 
-Скажете «Maten är bra» — вас поймут, но прозвучит странно. О еде — **gott**.
+Say "Maten är bra" and people will understand you, but it sounds odd. About
+food, use **gott**.

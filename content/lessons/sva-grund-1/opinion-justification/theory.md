@@ -1,35 +1,35 @@
-Чтобы высказать мнение по-шведски, используй **jag tycker att** («я считаю, что» —
-самый нейтральный вариант) или более формальное **jag anser att** («я полагаю, что»).
-После **att** идёт придаточное предложение (bisats) — а значит, действует правило
-**BIFF** (см. тему «Порядок слов придаточного предложения»): *inte* и похожие наречия
-(*ofta, alltid, kanske*) встают **перед** личным глаголом.
+To state an opinion in Swedish, use **jag tycker att** ("I think that" — the most neutral
+option) or the more formal **jag anser att** ("I am of the opinion that"). After **att**
+comes a subordinate clause (bisats) — which means the **BIFF** rule applies (see
+"Subordinate-clause word order"): *inte* and similar adverbs (*ofta, alltid, kanske*) go
+**before** the finite verb.
 
 ```example
-Jag tycker att kollektivtrafiken inte är tillräckligt bra. — Я считаю, что общественный транспорт недостаточно хорош.
+Jag tycker att kollektivtrafiken inte är tillräckligt bra. — I think public transport isn't good enough.
 ```
 
-Обрати внимание: «inte är», а не «är inte» — потому что это bisats после «att».
-Обоснование мнения присоединяется союзами **eftersom** («так как»), **för att**
-(«потому что», разговорный вариант) или **därför att** («потому что», более книжный).
-После этих союзов тоже начинается bisats с тем же правилом BIFF:
+Notice: "inte är", not "är inte" — because this is a bisats after "att". A justification
+is attached with the conjunctions **eftersom** ("since, because"), **för att**
+("because", the colloquial option), or **därför att** ("because", more formal/written).
+These conjunctions also introduce a bisats with the same BIFF rule:
 
 ```example
-Jag tycker att kollektivtrafiken inte är tillräckligt bra, eftersom bussarna ofta är sena. — Я считаю, что общественный транспорт недостаточно хорош, так как автобусы часто опаздывают.
+Jag tycker att kollektivtrafiken inte är tillräckligt bra, eftersom bussarna ofta är sena. — I think public transport isn't good enough, since the buses are often late.
 ```
 
-Здесь тоже «ofta är sena», а не «är ofta sena» — сентенциальное наречие снова стоит перед
-глаголом, потому что это bisats после «eftersom».
+Here too it's "ofta är sena", not "är ofta sena" — the sentence adverb again sits before
+the verb, because this is a bisats after "eftersom".
 
-Другие полезные фразы: **enligt mig** («по-моему», вводное словосочетание, после
-которого идёт обычная huvudsats), **jag tror att** («я думаю, что» — более осторожное
-мнение, чем «tycker»), **jag håller med** («я согласен/согласна») и **jag håller inte
-med** («я не согласен/согласна»). Чтобы показать два взгляда на вопрос, используй **å
-ena sidan ... å andra sidan** («с одной стороны ... с другой стороны»):
+Other useful phrases: **enligt mig** ("in my opinion", an introductory phrase after which
+an ordinary huvudsats follows), **jag tror att** ("I think/believe that" — a more
+cautious opinion than "tycker"), **jag håller med** ("I agree") and **jag håller inte
+med** ("I disagree"). To present two sides of an issue, use **å ena sidan ... å andra
+sidan** ("on the one hand ... on the other hand"):
 
 ```example
-Å ena sidan är det bekvämt att bo i stan, å andra sidan är det dyrt. — С одной стороны, удобно жить в городе, с другой — это дорого.
+Å ena sidan är det bekvämt att bo i stan, å andra sidan är det dyrt. — On the one hand it's convenient to live in the city, on the other hand it's expensive.
 ```
 
-Для подкрепления мнения пригодятся слова **argument** (аргумент), **åsikt** (мнение),
-**motivera** (обосновывать) и **till exempel** (например) — их удобно вставлять сразу
-после обоснования, чтобы привести конкретный пример.
+To back up an opinion, the words **argument** (argument), **åsikt** (opinion),
+**motivera** (to justify) and **till exempel** (for example) come in handy — useful right
+after a justification, to add a concrete example.

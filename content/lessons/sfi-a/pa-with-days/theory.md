@@ -1,16 +1,16 @@
-Чтобы сказать «в понедельник», «в пятницу» и так далее, нужно всего одно маленькое
-слово — **på**. Оно встаёт прямо перед названием дня.
+To say "on Monday", "on Friday" and so on, you only need one small word — **på**. It
+goes right before the name of the day.
 
 ```example
-på måndag — в понедельник
-på fredag — в пятницу
-Jag jobbar på måndag. — Я работаю в понедельник.
-Vi ses på lördag. — Увидимся в субботу.
+på måndag — on Monday
+på fredag — on Friday
+Jag jobbar på måndag. — I work on Monday.
+Vi ses på lördag. — See you on Saturday.
 ```
 
-Одно и то же слово подходит для любого дня недели:
+The same word works for every day of the week:
 
-| день | с på |
+| day | with på |
 |---|---|
 | måndag | på måndag |
 | tisdag | på tisdag |
@@ -20,11 +20,10 @@ Vi ses på lördag. — Увидимся в субботу.
 | lördag | på lördag |
 | söndag | på söndag |
 
-Маленький нюанс: **på måndag** без других слов вокруг обычно значит ближайший
-понедельник — тот, что скоро наступит. А если день стоит во множественном числе —
-**på måndagar** — это значит «по понедельникам», то есть каждую неделю, а не один
-конкретный день.
+One small wrinkle: on its own, **på måndag** usually means the coming Monday — the
+one just ahead. But when the day is plural — **på måndagar** — it means "on Mondays",
+every week, not just one specific day.
 
 ```example
-Jag jobbar på måndagar. — Я работаю по понедельникам (каждую неделю).
+Jag jobbar på måndagar. — I work on Mondays (every week).
 ```

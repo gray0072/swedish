@@ -1,33 +1,33 @@
-Каждый год, кто зарабатывал деньги в Швеции, получает от **Skatteverket** (налоговое
-управление) готовую **deklaration** — предзаполненную налоговую декларацию. Её нужно
-подтвердить или исправить до последнего числа мая, чаще всего просто **deklarera
-digitalt** — через приложение или Mina sidor.
+Every year, anyone who earned money in Sweden gets a ready-made **deklaration** (tax
+return) from **Skatteverket** (the tax agency) — pre-filled in advance. It has to be
+confirmed or corrected by the last day of May, most often simply by choosing to
+**deklarera digitalt** — via the app or Mina sidor.
 
 ```example
-Deklarationen ska vara inne den sista maj. — Декларацию нужно подать до последнего числа мая.
-De flesta deklarerar digitalt numera. — Большинство сейчас подают декларацию в цифровом виде.
+Deklarationen ska vara inne den sista maj. — The tax return must be submitted by the last day of May.
+De flesta deklarerar digitalt numera. — Most people file digitally nowadays.
 ```
 
-Налог с зарплаты складывается из двух частей: **inkomstskatt** (государственный
-подоходный налог, платят только при высоких доходах) и **kommunalskatt**
-(муниципальный налог, платят все, ставка отличается по коммунам). Работодатель
-удерживает налог сразу по **skattetabell** — специальной таблице.
+Tax on a salary has two parts: **inkomstskatt** (state income tax, only paid on high
+incomes) and **kommunalskatt** (municipal tax, everyone pays it, the rate varies by
+municipality). The employer withholds tax directly according to a **skattetabell** — a
+special tax table.
 
 ```example
-Inkomstskatten dras direkt från lönen. — Подоходный налог удерживается прямо из зарплаты.
-Kommunalskatten varierar mellan olika kommuner. — Муниципальный налог отличается в разных коммунах.
+Inkomstskatten dras direkt från lönen. — Income tax is deducted directly from the salary.
+Kommunalskatten varierar mellan olika kommuner. — The municipal tax varies between different municipalities.
 ```
 
-Если за год удержали больше налога, чем нужно, весной приходит **återbäring** —
-возврат налога. Если удержали меньше — придётся доплатить **kvarskatt**. Уменьшить
-налог законно помогает **avdrag** (вычет) — например, за проезд на работу, а также
-специальные вычеты **ROT** (за ремонт жилья) и **RUT** (за бытовые услуги вроде
-уборки).
+If too much tax was withheld during the year, an **återbäring** (tax refund) arrives
+in spring. If too little was withheld, you owe **kvarskatt** (back tax). Legally
+reducing your tax is helped by **avdrag** (deductions) — for example, for commuting to
+work, plus the special **ROT** (home renovation) and **RUT** (household services like
+cleaning) deductions.
 
 ```example
-Hon gjorde avdrag för resor till jobbet. — Она заявила вычет за поездки на работу.
-Vi använde ROT-avdrag när vi renoverade köket. — Мы воспользовались вычетом ROT при ремонте кухни.
+Hon gjorde avdrag för resor till jobbet. — She claimed a deduction for travel to work.
+Vi använde ROT-avdrag när vi renoverade köket. — We used the ROT deduction when we renovated the kitchen.
 ```
 
-Итог года виден в **slutskattebesked** — итоговом уведомлении, которое приходит
-осенью и показывает, вернут деньги или нужно доплатить.
+The year's outcome shows up on the **slutskattebesked** — the final tax statement that
+arrives in autumn and shows whether you get money back or need to pay more.

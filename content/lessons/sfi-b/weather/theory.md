@@ -1,23 +1,23 @@
-Чтобы сказать «идёт дождь» или «сегодня солнечно», в шведском используют безличное
-**det** («это», как английское «it» в «it's raining») — подлежащего в привычном смысле
-у такого предложения нет.
+To say "it's raining" or "it's sunny today," Swedish uses the impersonal **det** ("it,"
+like English "it" in "it's raining") — a sentence like this has no subject in the
+usual sense.
 
 ```example
-Det regnar. — Идёт дождь.
-Det snöar. — Идёт снег.
-Det är soligt idag. — Сегодня солнечно.
+Det regnar. — It's raining.
+Det snöar. — It's snowing.
+Det är soligt idag. — It's sunny today.
 ```
 
-Прилагательные, описывающие погоду, чаще всего стоят в форме на **-t** (это форма
-среднего рода / безличная форма — подробнее в теме про прилагательные):
+Adjectives describing weather most often take the **-t** form (this is the neuter /
+impersonal form — covered in more detail in the topic on adjectives):
 
 ```example
-soligt — солнечно
-molnigt — облачно
-regnigt — дождливо
-blåsigt — ветрено
+soligt — sunny
+molnigt — cloudy
+regnigt — rainy
+blåsigt — windy
 ```
 
-Спросить о погоде можно так: **Hur är vädret idag?** («Какая сегодня погода?») —
-слово «väder» («погода») здесь стоит в определённой форме **vädret**, потому что речь
-идёт о вполне конкретной, сегодняшней погоде.
+You can ask about the weather like this: **Hur är vädret idag?** ("What's the weather
+like today?") — the word "väder" ("weather") is in the definite form **vädret** here,
+because it refers to a specific, particular weather: today's.

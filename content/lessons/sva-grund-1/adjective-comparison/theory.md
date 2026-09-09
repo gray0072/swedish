@@ -1,47 +1,46 @@
-# Степени сравнения прилагательных
+# Comparison of adjectives
 
-Есть три степени: положительная (**stor**), сравнительная (**större**) и превосходная
-(**störst**). Регулярная модель — окончания **-are** (сравнительная) и **-ast**
-(превосходная), и в этой модели прилагательное не меняется по роду и числу:
+There are three degrees: positive (**stor**), comparative (**större**) and superlative
+(**störst**). The regular pattern uses the endings **-are** (comparative) and **-ast**
+(superlative), and in this pattern the adjective does not change for gender or number:
 
-| Положительная | Сравнительная | Превосходная |
+| Positive | Comparative | Superlative |
 |---|---|---|
-| snäll (добрый) | snäll**are** | snäll**ast** |
-| stark (сильный) | stark**are** | stark**ast** |
-| dyr (дорогой) | dyr**are** | dyr**ast** |
+| snäll (kind) | snäll**are** | snäll**ast** |
+| stark (strong) | stark**are** | stark**ast** |
+| dyr (expensive) | dyr**are** | dyr**ast** |
 
 ```example
-Anna är snäll. — Анна добрая.
-Anna är snällare än Erik. — Анна добрее, чем Эрик.
-Anna är snällast i klassen. — Анна самая добрая в классе.
+Anna är snäll. — Anna is kind.
+Anna är snällare än Erik. — Anna is kinder than Erik.
+Anna är snällast i klassen. — Anna is the kindest in the class.
 ```
 
-Превосходная степень в определённой позиции (перед существительным) получает ещё и
-окончание **-a**: *den snällaste läraren* (самый добрый учитель) — та же логика слабого
-склонения, что и у обычных прилагательных.
+In a definite, attributive position (before a noun) the superlative also takes an **-a**
+ending: *den snällaste läraren* (the kindest teacher) — the same weak-declension logic
+as for ordinary adjectives.
 
-## Супплетивные (неправильные) формы
+## Suppletive (irregular) forms
 
-У самых частых прилагательных сравнение образуется от **другого корня** — их нужно
-просто выучить:
+The most common adjectives compare from an entirely **different stem** — these simply
+have to be memorized:
 
-| Положительная | Сравнительная | Превосходная |
+| Positive | Comparative | Superlative |
 |---|---|---|
-| bra / god (хороший) | bättre | bäst |
-| dålig (плохой) | sämre / värre | sämst / värst |
-| liten (маленький) | mindre | minst |
-| gammal (старый) | äldre | äldst |
-| många (многие) | fler | flest |
+| bra / god (good) | bättre | bäst |
+| dålig (bad) | sämre / värre | sämst / värst |
+| liten (small) | mindre | minst |
+| gammal (old) | äldre | äldst |
+| många (many) | fler | flest |
 
 ```example
-Det här är bra, men det där är bättre. — Это хорошо, но то — лучше.
-Hon är äldre än sin bror. — Она старше своего брата.
+Det här är bra, men det där är bättre. — This is good, but that one is better.
+Hon är äldre än sin bror. — She is older than her brother.
 ```
 
-У «dålig» два варианта сравнительной/превосходной степени: **sämre/sämst** — про
-качество («хуже по качеству»), **värre/värst** — про степень серьёзности («хуже,
-опаснее»). На практике оба варианта часто взаимозаменяемы в разговорной речи, но при
-сомнении ориентируйся на это различие.
+"Dålig" has two comparative/superlative sets: **sämre/sämst** for quality ("worse in
+quality"), **värre/värst** for severity ("worse, more serious"). In everyday speech the
+two are often interchangeable, but this is the distinction to fall back on.
 
-Сравнительная степень (**bättre**, **äldre** и т. д.) никогда не меняется по роду или
-числу — в отличие от положительной степени и превосходной в атрибутивной позиции.
+The comparative (**bättre**, **äldre**, etc.) never changes for gender or number —
+unlike the positive degree and the superlative in attributive position.

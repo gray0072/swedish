@@ -1,46 +1,45 @@
-**Номинализация** — превращение глагола или прилагательного в существительное. Это
-ключевой приём письменного стиля: вместо «man undersökte problemet» пишут «en
-undersökning av problemet». В шведском для этого есть несколько суффиксов.
+**Nominalisation** turns a verb or adjective into a noun. It's a key device of written
+style: instead of "man undersökte problemet" ("they investigated the problem"), you
+write "en undersökning av problemet" ("an investigation of the problem"). Swedish has
+several suffixes for this.
 
-## -ning — самый продуктивный
+## -ning — the most productive
 
-Работает почти с любым глаголом первой-второй группы и означает и сам процесс, и его
-результат:
+Works with almost any group 1-2 verb and denotes both the process and its result:
 
 ```example
-undersöka → en undersökning — исследовать → исследование
-utbilda → en utbildning — обучать → образование, обучение
+undersöka → en undersökning — to investigate → an investigation
+utbilda → en utbildning — to educate → education, training
 ```
 
-## -ande — более формальный, про сам процесс
+## -ande — more formal, about the process itself
 
-Совпадает по форме с презенс-причастием, но используется как существительное —
-абстрактное, часто о длящемся процессе или явлении в целом:
+Has the same shape as the present participle, but is used as a noun — abstract, often
+about an ongoing process or phenomenon in general:
 
 ```example
-använda → användande — использовать → использование (сам факт использования)
-agera → agerande — действовать → поведение, образ действий
+använda → användande — to use → the using, usage (the fact of using something)
+agera → agerande — to act → behaviour, conduct
 ```
 
-## -het — от прилагательных, абстрактное качество
+## -het — from adjectives, an abstract quality
 
 ```example
-möjlig → en möjlighet — возможный → возможность
-säker → en säkerhet — надёжный → надёжность, безопасность
+möjlig → en möjlighet — possible → a possibility
+säker → en säkerhet — safe, reliable → safety, security
 ```
 
-## -else — небольшая закрытая группа, часто книжная
+## -else — a small closed group, often literary
 
 ```example
-berätta → en berättelse — рассказывать → рассказ, повествование
-uppleva → en upplevelse — переживать → переживание, впечатление
+berätta → en berättelse — to tell → a story, a narrative
+uppleva → en upplevelse — to experience → an experience
 ```
 
-Единого правила, какой суффикс выбрать для конкретного глагола, нет — это нужно
-запоминать словарно, слово за словом. Но зато номинализация даёт возможность строить
-компактные, формальные предложения — основной инструмент письменного и официального
-стиля на этом уровне.
+There's no single rule for which suffix a given verb takes — it has to be learned word
+by word. But nominalisation is what lets you build compact, formal sentences — the
+core tool of written and official style at this level.
 
 ```example
-Efter undersökningen fattades ett beslut. — После исследования было принято решение.
+Efter undersökningen fattades ett beslut. — After the investigation, a decision was made.
 ```

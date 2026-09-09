@@ -1,25 +1,25 @@
-В шведском нет отдельного слова «этот, эта, это» — той роли, которую в русском играет
-слово перед существительным, когда речь идёт про уже известную вещь. Вместо отдельного
-слова кусочек просто приклеивается к концу существительного.
+Swedish has no separate word for "the" — the little word that in English sits in front
+of a noun you already know about. Instead, a small piece is simply glued onto the end
+of the noun itself.
 
-en-слова обычно получают на конце **-en**, ett-слова — **-et**.
+En-words usually add **-en** at the end, ett-words usually add **-et**.
 
-| en-слово | + en | ett-слово | + et |
+| en-word | + en | ett-word | + et |
 |---|---|---|---|
 | en bil | bil**en** | ett hus | hus**et** |
 | en katt | katt**en** | ett barn | barn**et** |
 | en dag | dag**en** | ett äpple | äppl**et** |
 
 ```example
-Bilen är ny. — Машина новая.
-Huset är stort. — Дом большой.
-Barnet är litet. — Ребёнок маленький.
+Bilen är ny. — The car is new.
+Huset är stort. — The house is big.
+Barnet är litet. — The child is small.
 ```
 
-Слово, которое уже кончается на -a или -e, теряет её и получает только **-n** (у
-en-слов) или **-t** (у ett-слов): en flicka → flick**an**, en pojke → pojk**en**, ett
-äpple → äppl**et**.
+A word that already ends in -a or -e drops that vowel and only adds **-n** (en-words) or
+**-t** (ett-words): en flicka → flick**an**, en pojke → pojk**en**, ett äpple →
+äppl**et**.
 
-Тот самый **en** или **ett**, что ты выучил вместе со словом на прошлом уроке, теперь
-подсказывает, какой кусочек приклеивать в конце: en bil → bilen, ett hus → huset —
-смысл «этот, тот самый» просто переезжает на конец слова.
+The same **en** or **ett** you learned together with the word in the last lesson now
+tells you which ending to glue on: en bil → bilen, ett hus → huset — the little word
+"the" simply moves to the end of the noun.

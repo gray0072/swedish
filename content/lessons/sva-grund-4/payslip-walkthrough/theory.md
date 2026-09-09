@@ -1,21 +1,21 @@
-Расчётный листок (**lönespecifikation**) показывает, как из **bruttolön** (зарплаты до вычета налогов) получается **nettolön** — сумма, которая реально поступает на счёт. Разница между ними — это **avdragen skatt** (удержанный налог), который работодатель рассчитывает по **skattetabell** (налоговой таблице) для твоего муниципалитета.
+A payslip (**lönespecifikation**) shows how a **bruttolön** (gross salary, before tax) becomes a **nettolön** — the amount that actually lands in your account. The difference between the two is **avdragen skatt** (tax withheld), which the employer calculates using the **skattetabell** (tax table) for your municipality.
 
 ```example
-Min bruttolön är 32 000 kronor, men nettolönen blir cirka 25 000 efter avdragen skatt. — Моя зарплата до вычетов — 32 000 крон, но после удержания налога нетто получается около 25 000.
+Min bruttolön är 32 000 kronor, men nettolönen blir cirka 25 000 efter avdragen skatt. — My gross salary is 32,000 kronor, but the net salary comes to about 25,000 after tax withheld.
 ```
 
-Если налог удерживают неправильно — слишком много или слишком мало, — можно попросить **jämkning** (перерасчёт) в налоговой службе. В конце года работодатель отправляет туда **kontrolluppgift** — справку обо всех твоих доходах за год.
+If the wrong amount of tax is withheld — too much or too little — you can apply for a **jämkning** (tax adjustment) at the Tax Agency. At the end of the year the employer sends it a **kontrolluppgift** — a statement of all your income for the year.
 
-Помимо зарплаты, работодатель платит **arbetsgivaravgift** (взносы работодателя) государству и откладывает часть денег в **tjänstepension** (трудовую пенсию) — это не видно в нетто-зарплате, но влияет на твою будущую пенсию.
+Besides your salary, the employer pays **arbetsgivaravgift** (an employer's social security contribution) to the state and sets aside money for a **tjänstepension** (occupational pension) — this is not visible in your net salary, but it affects your future pension.
 
 ```example
-Arbetsgivaren betalar arbetsgivaravgifter och sätter av pengar till din tjänstepension. — Работодатель платит взносы работодателя и откладывает деньги в твою трудовую пенсию.
+Arbetsgivaren betalar arbetsgivaravgifter och sätter av pengar till din tjänstepension. — The employer pays social security contributions and sets aside money for your occupational pension.
 ```
 
-В расчётном листке также может быть указана **övertidsersättning** (оплата сверхурочных), **sjuklön** (оплата по болезни) и накопленные **semesterdagar** (дни отпуска). Время, которое засчитывается для отпуска, — например, часть больничного или родительского отпуска, — называется **semesterlönegrundande** (дающим право на отпускные).
+A payslip may also show **övertidsersättning** (overtime pay), **sjuklön** (sick pay), and accrued **semesterdagar** (vacation days). Time that counts toward holiday pay — for example, part of a sick leave or parental leave — is called **semesterlönegrundande** (qualifying for holiday pay).
 
 ```example
-De första 180 dagarna med föräldrapenning är semesterlönegrundande. — Первые 180 дней с родительским пособием дают право на отпускные.
+De första 180 dagarna med föräldrapenning är semesterlönegrundande. — The first 180 days on parental benefit qualify for holiday pay.
 ```
 
-Зарплата обычно приходит в один и тот же **utbetalningsdag** (день выплаты) каждый месяц — часто 25-го числа.
+Salary usually arrives on the same **utbetalningsdag** (payday) every month — often the 25th.

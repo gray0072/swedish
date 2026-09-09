@@ -1,41 +1,41 @@
-На delkurs 2 вы сравнивали праздники. Теперь тема шире: повседневные
-**artighetsnormer** — нормы вежливости — и то, как их сравнивать с тем, что принято у
-вас на родине.
+At delkurs 2 you compared holidays. Now the topic is broader: everyday
+**artighetsnormer** — politeness norms — and how to compare them with what's customary
+back home.
 
-## Приветствие и обращение
-
-```example
-Man skakar ofta hand när man hälsar på någon för första gången. — Часто пожимают руку, когда здороваются с кем-то в первый раз.
-Efter du-reformen tilltalar man nästan alla med "du", inte med titel. — После du-реформы почти ко всем обращаются на «ты», а не по титулу.
-```
-
-**Du-reformen** — реформа 1960–70-х годов, после которой формальное обращение по
-титулу почти исчезло из повседневной речи.
-
-## Личное пространство и пунктуальность
+## Greetings and forms of address
 
 ```example
-Svenskar värnar ofta om sitt personliga utrymme och håller ett visst avstånd i kön. — Шведы часто заботятся о личном пространстве и держат некоторую дистанцию в очереди.
-Det är vanligt att man värdesätter punktlighet mycket högt — att komma för sent anses oartigt. — Обычно очень ценят пунктуальность — прийти слишком поздно считается невежливым.
+Man skakar ofta hand när man hälsar på någon för första gången. — People often shake hands when greeting someone for the first time.
+Efter du-reformen tilltalar man nästan alla med "du", inte med titel. — After the du-reform, almost everyone is addressed with "du" rather than a title.
 ```
 
-## Прямота против сдержанности
+**Du-reformen** was a reform in the 1960s–70s after which formal address by title
+almost disappeared from everyday speech.
+
+## Personal space and punctuality
 
 ```example
-I jämförelse med mitt hemland är svenskar ofta raka i sakfrågor men mer tystlåtna i small talk. — По сравнению с моей родиной шведы часто прямолинейны в деловых вопросах, но более сдержанны в лёгкой беседе.
-Det anses artigt att inte avbryta någon som pratar. — Считается вежливым не перебивать говорящего.
+Svenskar värnar ofta om sitt personliga utrymme och håller ett visst avstånd i kön. — Swedes often value their personal space and keep a certain distance in a queue.
+Det är vanligt att man värdesätter punktlighet mycket högt — att komma för sent anses oartigt. — It's common to value punctuality very highly — arriving late is considered impolite.
 ```
 
-## Новая лексика для сравнения ожиданий
-
-- **i jämförelse med** — по сравнению с
-- **det anses att** — считается, что
-- **det är vanligt att** — принято, обычно бывает так, что
+## Directness versus reserve
 
 ```example
-Man förväntar sig ofta ögonkontakt när man pratar med någon — det anses visa intresse. — Часто ожидают зрительного контакта в разговоре — считается, что это показывает интерес.
+I jämförelse med mitt hemland är svenskar ofta raka i sakfrågor men mer tystlåtna i small talk. — In comparison with my home country, Swedes are often direct on practical matters but more reserved in small talk.
+Det anses artigt att inte avbryta någon som pratar. — It's considered polite not to interrupt someone who is speaking.
 ```
 
-Сравнивая этикет двух культур, важно не просто перечислять факты о **kroppsspråk**
-(языке тела) и **förväntningar** (ожиданиях), а явно указывать, что именно
-считается нормой, а что — нет.
+## New vocabulary for comparing expectations
+
+- **i jämförelse med** — in comparison with
+- **det anses att** — it is considered that
+- **det är vanligt att** — it is common/customary to
+
+```example
+Man förväntar sig ofta ögonkontakt när man pratar med någon — det anses visa intresse. — People often expect eye contact in a conversation — it's considered to show interest.
+```
+
+When comparing the etiquette of two cultures, it's not enough to list facts about
+**kroppsspråk** (body language) and **förväntningar** (expectations) — you need to say
+clearly what actually counts as the norm, and what doesn't.

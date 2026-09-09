@@ -1,48 +1,49 @@
-В прошлом уроке вы правили собственный текст. Теперь речь о **kamratrespons** —
-обратной связи на текст одноклассника: как дать её конструктивно, а не просто
-сказать «здесь ошибка».
+In the previous lesson you proofread your own text. Now it's about **kamratrespons**
+— giving feedback on a classmate's text: how to make it constructive rather than
+just pointing out "this is wrong."
 
-## Начните с позитивного
-
-```example
-Jag tycker att du lyckas bra med att beskriva miljön i din text. — Мне кажется, тебе хорошо удалось описать обстановку в твоём тексте.
-```
-
-**lyckas med** — преуспеть в чём-то, справиться с чем-то. Начало с сильных сторон
-(**styrkor**) делает читателя открытым к дальнейшим замечаниям.
-
-## Формулируйте критику как предложение
-
-Вместо «det här är fel» (это неправильно) сформулируйте критику как вариант.
+## Start with something positive
 
 ```example
-Ett förslag skulle kunna vara att korta ner den här meningen. — Одно предложение могло бы быть в том, чтобы сократить это предложение.
+Jag tycker att du lyckas bra med att beskriva miljön i din text. — I think you do a good job of describing the setting in your text.
 ```
 
-**ett förslag skulle kunna vara att...** — конструктивная формулировка: она
-оставляет автору право решать, принимать совет или нет, вместо того чтобы просто
-указывать на **svaghet** (слабое место).
+**lyckas med** — to succeed at, to do well with. Starting with strengths
+(**styrkor**) makes the reader more open to the comments that follow.
 
-## Задавайте уточняющие вопросы
+## Phrase criticism as a suggestion
+
+Instead of "det här är fel" ("this is wrong"), phrase your criticism as an option.
 
 ```example
-Vad menade du här? Jag är inte helt säker på vad du vill säga. — Что ты имел в виду здесь? Я не совсем уверен, что ты хочешь сказать.
+Ett förslag skulle kunna vara att korta ner den här meningen. — One suggestion could be to shorten this sentence.
 ```
 
-Уточняющий вопрос часто полезнее прямой критики: он показывает автору, где текст
-непонятен читателю, — не указывая при этом, что именно "неправильно".
+**ett förslag skulle kunna vara att...** — a constructive phrasing: it leaves the
+author free to decide whether to take the advice, instead of simply pointing out a
+**svaghet** (weakness).
 
-## Полезная лексика
-
-- **kamratrespons / ge respons** — обратная связь от одноклассника / давать
-  обратную связь
-- **konstruktiv kritik** — конструктивная критика
-- **förbättringsförslag** — предложение по улучшению
-- **tydliggöra, uttrycka sig, formulering** — прояснить, выразиться, формулировка
+## Ask clarifying questions
 
 ```example
-Kanske skulle du kunna tydliggöra den här meningen genom att formulera om den. — Может быть, ты мог бы прояснить это предложение, переформулировав его.
+Vad menade du här? Jag är inte helt säker på vad du vill säga. — What did you mean here? I'm not entirely sure what you're trying to say.
 ```
 
-Хорошая **kamratrespons** сочетает похвалу, конкретное предложение и вопрос — а не
-просто список того, что не так.
+A clarifying question is often more useful than direct criticism: it shows the
+author where the text is unclear to a reader, without stating outright that
+something is "wrong."
+
+## Useful vocabulary
+
+- **kamratrespons / ge respons** — peer feedback / to give feedback
+- **konstruktiv kritik** — constructive criticism
+- **förbättringsförslag** — a suggestion for improvement
+- **tydliggöra, uttrycka sig, formulering** — to clarify, to express oneself,
+  phrasing/wording
+
+```example
+Kanske skulle du kunna tydliggöra den här meningen genom att formulera om den. — Maybe you could clarify this sentence by rephrasing it.
+```
+
+Good **kamratrespons** combines praise, a concrete suggestion, and a question —
+not just a list of what's wrong.

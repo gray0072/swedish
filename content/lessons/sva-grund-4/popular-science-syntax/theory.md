@@ -1,40 +1,40 @@
-Прошлый урок показал номинализацию в академическом и деловом тексте. Здесь —
-контраст на границе этих стилей: **научно-популярный текст** (типа журнала
-*Forskning & Framsteg*) объясняет то же самое проще, чем чистый **myndighetstext**
-(текст ведомства).
+The previous lesson showed nominalisation in academic and business text. Here's a
+contrast at the edge of those styles: **popular-science text** (like the magazine
+*Forskning & Framsteg*) explains the same thing more simply than pure
+**myndighetstext** (official/agency text).
 
-## Одна тема — два жанра
+## One topic, two genres
 
 ```example
-Forskare har sett att havsnivån stiger snabbare än väntat, vilket gör att fler kustnära hus riskerar att översvämmas. — Учёные обнаружили, что уровень моря поднимается быстрее, чем ожидалось, из-за чего всё больше прибрежных домов рискуют быть затопленными.
-Havsnivåhöjningen medför en ökad översvämningsrisk i kustnära områden, vilket ska beaktas vid bygglovsprövning. — Повышение уровня моря влечёт за собой повышенный риск затопления в прибрежных районах, что должно учитываться при рассмотрении заявок на разрешение строительства.
+Forskare har sett att havsnivån stiger snabbare än väntat, vilket gör att fler kustnära hus riskerar att översvämmas. — Researchers have found that sea levels are rising faster than expected, which means more coastal houses risk being flooded.
+Havsnivåhöjningen medför en ökad översvämningsrisk i kustnära områden, vilket ska beaktas vid bygglovsprövning. — The rise in sea level entails an increased flood risk in coastal areas, which must be taken into account when reviewing building-permit applications.
 ```
 
-## Сравнение построения предложения
+## Comparing sentence construction
 
-| | Научпоп | Ведомственный текст |
+| | Popular science | Official/agency text |
 |---|---|---|
-| Аудитория | широкая, без специальных знаний | специалисты и заявители |
-| Предложения | короче, с конкретными примерами | длинные, абстрактные |
-| Номинализация | умеренная, вперемешку с глаголами | максимальная |
-| Деятель | часто назван («forskare», «vi») | почти всегда скрыт |
+| Audience | broad, no specialist knowledge | specialists and applicants |
+| Sentences | shorter, with concrete examples | long, abstract |
+| Nominalisation | moderate, mixed with verbs | maximal |
+| Agent | often named ("forskare"/"vi") | almost always hidden |
 
-Научпоп называет действующее лицо («forskare»/учёные) и глагол действия («har
-sett» — обнаружили), а вывод передаёт через «vilket» + простое `gör att`
-(«из-за чего»). Ведомственный вариант делает подлежащим саму номинализацию
-(«havsnivåhöjningen»), а действие («учитывать») превращает в безличный пассив
-(«ska beaktas»).
+Popular science names an actor ("forskare" — researchers) and a verb of action
+("har sett" — have found), and states the consequence with a simple "vilket
+gör att" ("which means"). The official version makes the nominalisation itself the
+subject ("havsnivåhöjningen"), and turns the action ("to take into account") into an
+impersonal passive ("ska beaktas").
 
-## Ещё пример: то же противопоставление
+## Another example, the same contrast
 
 ```example
-Studien visar att luftföroreningar ökar risken för hjärt-kärlsjukdomar hos barn som bor nära stora vägar. — Исследование показывает, что загрязнение воздуха повышает риск сердечно-сосудистых заболеваний у детей, живущих у крупных дорог.
-Exponering för luftföroreningar i anslutning till större vägar utgör en riskfaktor som ska vägas in i den kommunala planeringen. — Воздействие загрязнения воздуха вблизи крупных дорог представляет собой фактор риска, который должен учитываться при муниципальном планировании.
+Studien visar att luftföroreningar ökar risken för hjärt-kärlsjukdomar hos barn som bor nära stora vägar. — The study shows that air pollution increases the risk of cardiovascular disease in children who live near major roads.
+Exponering för luftföroreningar i anslutning till större vägar utgör en riskfaktor som ska vägas in i den kommunala planeringen. — Exposure to air pollution in the vicinity of major roads constitutes a risk factor that must be weighed into municipal planning.
 ```
 
-## Коротко
+## In short
 
-Научпоп и ведомственный текст могут говорить об одном и том же факте, но
-научно-популярный сохраняет конкретику (кто, что увидел, простое следствие) для
-широкого читателя, а официальный доводит номинализацию и безличность до предела —
-это его норма, а не недостаток.
+Popular science and official text can state the same fact, but popular science
+keeps the concrete details (who found what, a simple consequence) for a general
+reader, while official text pushes nominalisation and impersonality to the limit —
+that's its norm, not a flaw.

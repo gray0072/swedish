@@ -1,35 +1,34 @@
-Хорошая **arbetsmiljö** (рабочая среда) — это не только физическая безопасность, но и
-психологический климат. **Arbetsmiljölagen** (закон об охране труда) обязывает
-работодателя регулярно оценивать риски и устранять их. За соблюдением закона на местах
-следит **skyddsombud** — уполномоченный по охране труда, избранный самими работниками.
+A good **arbetsmiljö** (work environment) is not only physical safety but also the
+psychological climate. The **arbetsmiljölagen** (Work Environment Act) requires employers
+to regularly assess risks and remove them. Compliance on the ground is monitored by the
+**skyddsombud** — a safety representative elected by the employees themselves.
 
 ```example
-Arbetsgivaren ansvarar för en god arbetsmiljö. — Работодатель отвечает за хорошие условия труда.
-Skyddsombudet kontrollerade brandutgångarna på lagret. — Уполномоченный по охране труда проверил запасные выходы на складе.
+Arbetsgivaren ansvarar för en god arbetsmiljö. — The employer is responsible for a good work environment.
+Skyddsombudet kontrollerade brandutgångarna på lagret. — The safety representative checked the fire exits at the warehouse.
 ```
 
-Иногда на рабочем месте возникает **konflikt** — конфликт между коллегами или отделами.
-Если конфликт заходит слишком далеко и превращается в **mobbning** (травлю) или
-**trakasserier** (домогательства), это уже квалифицируется как **kränkande särbehandling**
-— юридический термин для систематического унижающего обращения, которое работодатель
-обязан расследовать.
+Sometimes a **konflikt** (conflict) arises between colleagues or departments. If a
+conflict goes too far and turns into **mobbning** (bullying) or **trakasserier**
+(harassment), it becomes **kränkande särbehandling** — the legal term for systematic
+offensive treatment, which the employer is obliged to investigate.
 
 ```example
-En konflikt uppstod mellan två avdelningar. — Между двумя отделами возник конфликт.
-Kränkande särbehandling ska utredas av arbetsgivaren. — Работодатель обязан расследовать случаи унижающего обращения.
+En konflikt uppstod mellan två avdelningar. — A conflict arose between two departments.
+Kränkande särbehandling ska utredas av arbetsgivaren. — Victimisation at work must be investigated by the employer.
 ```
 
-Для разрешения споров часто используется **medling** (посредничество) — нейтральная
-третья сторона помогает конфликтующим сторонам договориться. Если на рабочем месте
-происходит серьёзное нарушение (например, обман клиентов или незаконные действия),
-работник может воспользоваться каналом **whistleblowing** — защищённым способом сообщить
-о проблеме, не боясь последствий.
+**Medling** (mediation) is often used to resolve disputes — a neutral third party helps
+the conflicting sides reach an agreement. If something more serious happens at the
+workplace (such as fraud against customers or unlawful conduct), an employee can use the
+**whistleblowing** channel — a protected way to report a problem without fearing
+consequences.
 
 ```example
-Parterna löste tvisten genom medling. — Стороны разрешили спор через посредничество.
-Företaget har en kanal för whistleblowing. — В компании есть канал для сообщений о нарушениях.
+Parterna löste tvisten genom medling. — The parties resolved the dispute through mediation.
+Företaget har en kanal för whistleblowing. — The company has a whistleblowing channel.
 ```
 
-Если проблема не решается внутри компании, можно обратиться в **Arbetsmiljöverket** —
-государственную инспекцию труда, которая следит за соблюдением закона на всех рабочих
-местах Швеции.
+If a problem is not resolved within the company, one can turn to
+**Arbetsmiljöverket** — the government's work environment authority, which enforces the
+law across all Swedish workplaces.

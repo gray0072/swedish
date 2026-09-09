@@ -1,40 +1,40 @@
-Уметь пересказать словами суть графика или таблицы — важный навык на этом уровне:
-не считать точные цифры, а описать тенденцию.
+Being able to describe the gist of a chart or table in words is an important skill at
+this level: not reading out exact numbers, but describing the trend.
 
-## Направление изменения
-
-```example
-Antalet studenter ökade under 2020-talet. — Число студентов увеличивалось в 2020-х.
-Priserna minskade något förra året. — Цены немного снизились в прошлом году.
-Kurvan låg still under hela perioden. — Кривая оставалась неизменной весь период.
-```
-
-## Экстремумы
-
-**en topp** («пик») и **en nedgång** («спад/падение») описывают самые заметные точки
-графика:
+## Direction of change
 
 ```example
-Diagrammet visar en tydlig topp i juli. — Диаграмма показывает явный пик в июле.
-Efter toppen följde en kraftig nedgång. — За пиком последовал резкий спад.
+Antalet studenter ökade under 2020-talet. — The number of students increased during the 2020s.
+Priserna minskade något förra året. — Prices decreased slightly last year.
+Kurvan låg still under hela perioden. — The curve stayed flat throughout the period.
 ```
 
-## Доли и пропорции
+## Extremes
 
-Вместо точных чисел на этом уровне часто описывают приблизительные доли:
+**en topp** ("a peak") and **en nedgång** ("a drop/decline") describe the most
+noticeable points on a chart:
 
 ```example
-Ungefär hälften av de tillfrågade svarade ja. — Примерно половина опрошенных ответила «да».
-En tredjedel av eleverna valde det alternativet. — Треть учеников выбрала этот вариант.
-Majoriteten av deltagarna var positiva. — Большинство участников были настроены положительно.
+Diagrammet visar en tydlig topp i juli. — The chart shows a clear peak in July.
+Efter toppen följde en kraftig nedgång. — A sharp decline followed the peak.
 ```
 
-## Сравнение
+## Shares and proportions
+
+Instead of exact numbers, at this level people often describe approximate shares:
 
 ```example
-Jämfört med föregående år har siffran fördubblats. — По сравнению с прошлым годом цифра удвоилась.
+Ungefär hälften av de tillfrågade svarade ja. — About half of those asked said yes.
+En tredjedel av eleverna valde det alternativet. — A third of the students chose that option.
+Majoriteten av deltagarna var positiva. — The majority of participants were positive.
 ```
 
-Хороший приём — начинать описание с общего вывода («В целом видно, что...»), а
-затем подкреплять его одной-двумя конкретными деталями из графика, а не перечислять
-все цифры подряд.
+## Comparison
+
+```example
+Jämfört med föregående år har siffran fördubblats. — Compared with the previous year, the figure has doubled.
+```
+
+A good technique is to open the description with a general conclusion ("Overall, it's
+clear that..."), and then back it up with one or two specific details from the chart,
+rather than listing every number in turn.

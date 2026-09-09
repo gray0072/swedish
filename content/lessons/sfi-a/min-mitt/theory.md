@@ -1,22 +1,21 @@
-Ты уже знаешь, что у каждого существительного своя пара — **en** или **ett**. У слова
-«мой» — **min / mitt / mina** — работает точно то же самое разделение, просто для
-другого слова.
+You already know that every noun has its own pair — **en** or **ett**. The word "my" —
+**min / mitt / mina** — follows exactly the same split, just for a different word.
 
-| | когда использовать | пример |
+| | when to use it | example |
 |---|---|---|
-| **min** | перед en-словом | min bil, min bok, min mamma |
-| **mitt** | перед ett-словом | mitt barn, mitt hus, mitt jobb |
-| **mina** | перед словом во множественном числе | mina barn, mina böcker |
+| **min** | before an en-word | min bil, min bok, min mamma |
+| **mitt** | before an ett-word | mitt barn, mitt hus, mitt jobb |
+| **mina** | before a plural word | mina barn, mina böcker |
 
 ```example
-Min mamma heter Eva. — Мою маму зовут Ева.
-Mitt barn sover. — Мой ребёнок спит.
-Mina böcker är nya. — Мои книги новые.
+Min mamma heter Eva. — My mom's name is Eva.
+Mitt barn sover. — My child is sleeping.
+Mina böcker är nya. — My books are new.
 ```
 
-Смотри на слово, которое идёт сразу после: en-слово → **min**, ett-слово → **mitt**,
-несколько вещей → **mina**. Это та же самая пара en/ett, которую ты уже выучил — просто
-в новой роли, перед словом «мой».
+Look at the word that comes right after: en-word → **min**, ett-word → **mitt**,
+several things → **mina**. It's the same en/ett pair you already learned — just in a
+new role, in front of the word "my".
 
-Хорошая новость: **din** (твой), **hans** (его), **hennes** (её) и другие похожие слова
-работают по такому же принципу. Их можно будет освоить позже — механизм ты уже знаешь.
+Good news: **din** (your), **hans** (his), **hennes** (her) and similar words work the
+same way. You can pick those up later — you already know the mechanism.

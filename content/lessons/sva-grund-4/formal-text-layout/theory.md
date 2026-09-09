@@ -1,55 +1,55 @@
-Delkurs 3 разобрал знаки препинания для сложных предложений. Здесь — визуальное,
-структурное оформление целого документа: заголовки, абзацы и списки в связном
-тексте.
+Delkurs 3 covered the punctuation of complex sentences. Here is the visual,
+structural layout of a whole document: headings, paragraphs, and lists in running
+prose.
 
-## Иерархия заголовков (rubriker)
+## Heading hierarchy (rubriker)
 
-В формальном документе заголовки организованы по уровням — от общего к частному.
-Шведская типографская норма: заголовок пишется без точки в конце, но с заглавной
-буквы только у первого слова (если это не имя собственное):
+In a formal document, headings are organised in levels, from general to specific.
+Swedish typographic convention: a heading has no full stop at the end, and only
+its first word is capitalised (unless it's a proper noun):
 
 ```example
-1. Inledning — Введение
-1.1 Bakgrund — Предыстория
-1.1.1 Syfte och frågeställning — Цель и постановка вопроса
+1. Inledning — Introduction
+1.1 Bakgrund — Background
+1.1.1 Syfte och frågeställning — Purpose and research question
 ```
 
-## Абзацы: отступ или пустая строка
+## Paragraphs: indentation or a blank line
 
-Есть два принятых способа отделять абзацы друг от друга — выбирается один способ
-на весь документ, смешивать нельзя:
+There are two accepted ways to separate paragraphs — you pick one for the whole
+document; mixing them is not allowed:
 
-| Способ | Как выглядит | Где типично |
+| Method | What it looks like | Where it's typical |
 |---|---|---|
-| Отступ (indrag) | первая строка абзаца сдвинута вправо, без пустой строки между абзацами | книги, некоторые академические тексты |
-| Пустая строка (blankrad) | абзацы разделены пустой строкой, без отступа | письма, отчёты, цифровые документы |
+| Indentation (indrag) | the first line of a paragraph is indented, no blank line between paragraphs | books, some academic texts |
+| Blank line (blankrad) | paragraphs are separated by a blank line, no indentation | letters, reports, digital documents |
 
-## Списки в связном тексте
+## Lists in running text
 
-Нумерованный список используют, когда порядок пунктов важен; маркированный
-(буллеты) — когда порядок не важен. Каждый пункт списка начинается с заглавной
-буквы, если это самостоятельное предложение, и заканчивается точкой:
+A numbered list is used when the order of items matters; a bulleted list, when
+order doesn't matter. Each list item starts with a capital letter if it's a
+complete sentence, and ends with a full stop.
 
-Например, после вводной фразы «Rapporten föreslår tre åtgärder» («Отчёт предлагает
-три меры») список пунктов может выглядеть так:
+For example, after the introductory phrase "Rapporten föreslår tre åtgärder"
+("The report proposes three measures"), the list of items might look like this:
 
 ```example
-Öka antalet lärare. — Увеличить число учителей.
-Förbättra lokalerna. — Улучшить помещения.
-Utvärdera resultatet efter ett år. — Оценить результат через год.
+Öka antalet lärare. — Increase the number of teachers.
+Förbättra lokalerna. — Improve the premises.
+Utvärdera resultatet efter ett år. — Evaluate the result after one year.
 ```
 
-## Единообразие пунктуации по всему документу
+## Consistency of punctuation throughout the document
 
-Главное правило формального документа — последовательность: если в начале текста
-используются шведские кавычки `”…”`, они должны использоваться и в конце; если
-десятичные числа записываются через запятую (`3,14`), это должно соблюдаться
-везде. Непоследовательность бросается в глаза и выглядит небрежно даже при
-правильной грамматике каждого отдельного предложения.
+The main rule of a formal document is consistency: if the beginning of the text
+uses Swedish quotation marks `”…”`, they must be used the same way throughout; if
+decimal numbers are written with a comma (`3,14`), that must hold everywhere.
+Inconsistency stands out and looks careless even if every individual sentence is
+grammatically correct.
 
-## Коротко
+## In short
 
-Формальный документ строится не только правильными предложениями, но и
-последовательной визуальной структурой: иерархия заголовков от общего к
-частному, один выбранный способ разделения абзацев на весь текст, ясные списки —
-и единый стиль пунктуации от начала до конца.
+A formal document is built not only from correct sentences but also from a
+consistent visual structure: a heading hierarchy from general to specific, one
+chosen method of separating paragraphs for the whole text, clear lists — and one
+unified punctuation style from start to finish.

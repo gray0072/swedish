@@ -1,31 +1,31 @@
-Предыдущий урок показал условие «если бы X, я бы...» о настоящем. Но если речь о
-**прошлом**, которое уже случилось и не изменить, конструкция сдвигается ещё на шаг
-назад: `om`-придаточное — в **плюсквамперфекте** (`hade + supinum`), главное
-предложение — **skulle ha + supinum**.
+The previous lesson showed the "if X, I would..." condition about the present. But
+when you're talking about the **past** — something that already happened and can't be
+changed — the construction shifts one more step back: the `om`-clause goes into the
+**pluperfect** (`hade + supinum`), and the main clause uses **skulle ha + supinum**.
 
 ```example
-Om jag hade vetat det skulle jag ha sagt något. — Если бы я это знал, я бы что-то сказал.
-Om hon hade skyndat sig skulle hon ha hunnit med tåget. — Если бы она поторопилась, она бы успела на поезд.
+Om jag hade vetat det skulle jag ha sagt något. — If I had known that, I would have said something.
+Om hon hade skyndat sig skulle hon ha hunnit med tåget. — If she had hurried, she would have caught the train.
 ```
 
-Сравните три ступени одного и того же предложения — как меняется грамматика в
-зависимости от того, о чём мы говорим:
+Compare the three steps of essentially the same sentence — notice how the grammar
+shifts depending on what you're actually talking about:
 
 ```example
-Om jag har tid ringer jag dig. — Если у меня будет время, я тебе позвоню. (реально, о будущем)
-Om jag hade tid skulle jag ringa dig. — Если бы у меня было время, я бы тебе позвонил. (гипотетически, о настоящем)
-Om jag hade haft tid skulle jag ha ringt dig. — Если бы у меня было время (тогда), я бы тебе позвонил. (нереально, о прошлом)
+Om jag har tid ringer jag dig. — If I have time, I'll call you. (real, about the future)
+Om jag hade tid skulle jag ringa dig. — If I had time, I would call you. (hypothetical, about now)
+Om jag hade haft tid skulle jag ha ringt dig. — If I had had time (back then), I would have called you. (unreal, about the past)
 ```
 
-Смысл нереального прошлого условия почти всегда — **сожаление** или разбор того, что
-могло бы случиться, но не случилось. Обе части предложения смотрят строго в прошлое:
-и условие, и его несостоявшееся следствие.
+The meaning of an unreal past condition is almost always **regret**, or working
+through what could have happened but didn't. Both halves of the sentence look
+strictly into the past: both the condition and its unfulfilled consequence.
 
 ```example
-Om vi hade bokat tidigare skulle biljetterna ha varit billigare. — Если бы мы забронировали раньше, билеты были бы дешевле.
+Om vi hade bokat tidigare skulle biljetterna ha varit billigare. — If we had booked earlier, the tickets would have been cheaper.
 ```
 
-Частая ошибка — смешать ступени: сказать `om jag hade tid` (претерит) вместо `om jag
-hade haft tid` (плюсквамперфект), когда речь именно о прошлом эпизоде. Проверяйте
-себя вопросом: «условие относится к сейчас или к тому разу, тогда?» — и выбирайте
-ступень по ответу.
+A common mistake is mixing the steps: saying `om jag hade tid` (preterite) instead of
+`om jag hade haft tid` (pluperfect) when you actually mean a specific past episode.
+Check yourself with the question: "is the condition about now, or about that one time,
+back then?" — and pick the step from the answer.

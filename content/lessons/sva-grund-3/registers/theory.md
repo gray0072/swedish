@@ -1,39 +1,41 @@
-Delkurs 2 показал разницу между устной и письменной нормой. Регистр — понятие шире:
-это шкала от очень официального до совсем разговорного, и она работает даже внутри
-письменного языка.
+Delkurs 2 covered the difference between spoken and written norms. Register is a
+wider idea: a scale running from very formal to fully colloquial, and it operates
+even within written language.
 
-## Одна мысль — три регистра
+## One idea, three registers
 
 ```example
-Vederbörande skall inställa sig senast klockan nio. — Означенное лицо обязано явиться не позднее девяти часов. (формальный, канцелярский)
-Personen ska komma senast klockan nio. — Человек должен прийти не позднее девяти. (нейтральный)
-Typen ska dyka upp innan nio, typ. — Чувак должен нарисоваться до девяти, типа. (разговорный)
+Vederbörande skall inställa sig senast klockan nio. — The party in question shall present themselves no later than nine o'clock. (formal, officialese)
+Personen ska komma senast klockan nio. — The person should arrive no later than nine. (neutral)
+Typen ska dyka upp innan nio, typ. — The guy's gonna show up before nine, like. (colloquial)
 ```
 
-Меняется не грамматика (все три предложения правильны), а лексика: кто как назван
-(`vederbörande` / `personen` / `typen`), какой глагол выбран (`inställa sig` /
-`komma` / `dyka upp`), есть ли слова-паразиты вроде `typ`.
+What changes isn't the grammar (all three sentences are correct) but the
+vocabulary: how the referent is named (`vederbörande` / `personen` / `typen`), which
+verb is chosen (`inställa sig` / `komma` / `dyka upp`), and whether filler words like
+`typ` appear.
 
-## Ключевые маркеры регистра
+## Key register markers
 
-| Формальный | Нейтральный | Разговорный |
+| Formal | Neutral | Colloquial |
 |---|---|---|
 | vederbörande | personen | typen, snubben |
 | inställa sig | komma | dyka upp |
 | skall | ska | ska |
 | erhålla | få | få |
 
-Слово `vederbörande` («означенное лицо») и форма `skall` вместо `ska` — приметы
-устаревшего канцелярского языка; сегодня даже официальные ведомства по совету
-klarspråk стараются их избегать в пользу нейтрального `personen` и `ska`.
+The word `vederbörande` ("the party in question") and the form `skall` instead of
+`ska` are markers of old-fashioned officialese; today even government agencies,
+following klarspråk guidance, try to avoid them in favour of neutral `personen` and
+`ska`.
 
-## Какой регистр для какого текста
+## Which register fits which text
 
-- **Заявление, официальное письмо** — нейтральный, местами чуть более формальный
-  регистр: полные формы, без `vederbörande`, без сленга.
-- **SMS другу** — разговорный: сокращения, `typ`, `nån`, `dyka upp`.
-- **Нейтральная новостная заметка** — строго нейтральный: ни канцелярита, ни сленга.
+- **An application, a formal letter** — neutral, sometimes leaning slightly formal:
+  full forms, no `vederbörande`, no slang.
+- **A text message to a friend** — colloquial: contractions, `typ`, `nån`, `dyka upp`.
+- **A neutral news report** — strictly neutral: neither officialese nor slang.
 
-Выбор регистра — не про «правильно/неправильно», а про уместность: разговорное
-слово в заявлении звучит фамильярно, а канцелярское `vederbörande` в SMS другу —
-абсурдно и комично.
+Choosing a register isn't about "right or wrong" — it's about fit: a colloquial word
+in an application sounds overly familiar, while officialese `vederbörande` in a text
+to a friend sounds absurd and comical.

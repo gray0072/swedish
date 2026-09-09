@@ -1,18 +1,18 @@
-Чтобы записаться на приём по телефону, начни с вежливой фразы **"Jag skulle vilja boka en tid"** («Я хотел(а) бы записаться на приём»). Тебя обычно спросят, что тебе подходит:
+To book an appointment by phone, start with the polite phrase **"Jag skulle vilja boka en tid"** ("I would like to book an appointment"). You'll usually be asked what time suits you:
 
 ```example
-Jag skulle vilja boka en tid. — Я хотел(а) бы записаться на приём.
-Passar det på torsdag klockan två? — Вам подойдёт четверг в два часа?
-Tyvärr är jag upptagen då. — К сожалению, тогда я занят(а).
+Jag skulle vilja boka en tid. — I would like to book an appointment.
+Passar det på torsdag klockan två? — Does Thursday at two o'clock suit you?
+Tyvärr är jag upptagen då. — Unfortunately I'm busy then.
 ```
 
-Если предложенное время не подходит, можно попросить другое: «Har ni någon annan **ledig** tid?» («Есть другое свободное время?»). Если нужно отменить визит совсем — это **avboka**, а если просто перенести на другой день — **boka om** или **flytta tiden**.
+If the suggested time doesn't work, you can ask for another one: "Har ni någon annan **ledig** tid?" ("Do you have any other free time?"). To cancel the visit entirely is **avboka**, while moving it to another day is **boka om** or **flytta tiden**.
 
 ```example
-Jag måste avboka min tid. — Мне нужно отменить запись.
-Kan vi boka om till nästa vecka? — Можем перенести на следующую неделю?
+Jag måste avboka min tid. — I have to cancel my appointment.
+Kan vi boka om till nästa vecka? — Can we reschedule to next week?
 ```
 
-После разговора часто приходит **bekräftelse** (подтверждение) по смс или почте, а за день до приёма — **påminnelse** (напоминание). Если вообще не можешь прийти и не предупредил заранее, это называется **lämna återbud** — «дать знать об отказе» (в идеале заранее, а не в последний момент).
+After the call you'll usually get a **bekräftelse** (confirmation) by text message or email, and a day before the appointment a **påminnelse** (reminder). If you can't come at all and don't let them know in advance, that's called **lämna återbud** — "give notice of cancellation" (ideally ahead of time, not at the last moment).
 
-Некоторые **mottagningar** (поликлиники) принимают и без записи — это **drop-in**: приходишь и ждёшь в **kö** (очереди), без звонка заранее.
+Some **mottagningar** (clinics) also accept people without a booking — that's called **drop-in**: you just show up and wait in the **kö** (queue), with no call needed beforehand.

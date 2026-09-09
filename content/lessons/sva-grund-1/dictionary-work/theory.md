@@ -1,34 +1,34 @@
-Хороший словарь (**ordbok**) экономит часы догадок. Слово, которое ты ищешь, называется
-**uppslagsord** («заглавное слово, словарная статья») — его пишут в начальной форме:
-существительное в indefinit единственном числе, глагол в инфинитиве.
+A good dictionary (**ordbok**) saves hours of guessing. The word you look up is called
+the **uppslagsord** ("headword, dictionary entry") — it's listed in its base form: a
+noun in the indefinite singular, a verb in the infinitive.
 
 ```example
-Uppslagsordet för "hundar" är "hund". — Заглавное слово для "hundar" — это "hund".
-Uppslagsordet för "sprang" är "springa". — Заглавное слово для "sprang" — это "springa".
+Uppslagsordet för "hundar" är "hund". — The headword for "hundar" is "hund".
+Uppslagsordet för "sprang" är "springa". — The headword for "sprang" is "springa".
 ```
 
-Рядом с заглавным словом обычно указана его **böjning** («словоизменение, парадигма
-форм») — например, все формы существительного или глагола, и часть речи, которую ты
-уже знаешь как *ordklass*. Дальше идёт **betydelse** («значение») — иногда не одно, а
-несколько, пронумерованных. Иногда словарь добавляет **synonym** («синоним», похожее
-слово) или **motsats** («антоним», противоположное по значению), а после определения —
-**exempel** («пример») использования в предложении.
+Next to the headword you'll usually find its **böjning** ("inflection, the full set of
+forms") — for example all the forms of a noun or verb — and its part of speech, which you
+already know as *ordklass*. After that comes the **betydelse** ("meaning") — sometimes
+more than one, numbered. Some dictionaries also add a **synonym** (a similar word) or a
+**motsats** ("antonym", the opposite meaning), followed by an **exempel** ("example") of
+the word used in a sentence.
 
 ```example
-Kan du ge ett exempel på hur man använder ordet? — Можешь привести пример, как использовать это слово?
-Vad är motsatsen till "stor"? — Какой антоним у слова "stor"?
+Kan du ge ett exempel på hur man använder ordet? — Can you give an example of how the word is used?
+Vad är motsatsen till "stor"? — What's the antonym of "stor"?
 ```
 
-Если слова нет в словаре или его значение непонятно, спроси прямо:
-**Vad betyder "lagom"?** («Что значит "lagom"?»), **Hur böjs verbet "vara"?** («Как
-спрягается глагол "vara"?»), или, если сомневаешься в употреблении: **Kan man säga
-"jag är glad över det"?** («Можно ли сказать "jag är glad över det"?»).
+If a word isn't in the dictionary or its meaning is unclear, just ask directly:
+**Vad betyder "lagom"?** ("What does 'lagom' mean?"), **Hur böjs verbet "vara"?** ("How
+is the verb 'vara' conjugated?"), or, if you're unsure about usage: **Kan man säga
+"jag är glad över det"?** ("Can you say 'jag är glad över det'?").
 
 ```example
-Vad betyder ordet "lagom"? — Что значит слово "lagom"?
-Hur böjs verbet "vara"? — Как спрягается глагол "vara"?
-Kan man säga så här på svenska? — Можно ли так сказать по-шведски?
+Vad betyder ordet "lagom"? — What does the word "lagom" mean?
+Hur böjs verbet "vara"? — How is the verb "vara" conjugated?
+Kan man säga så här på svenska? — Can you say it this way in Swedish?
 ```
 
-Эти три вопроса — твой главный инструмент, когда учишься по-настоящему самостоятельно
-работать с новым словом, а не просто запоминать перевод.
+These three questions are your main tool for learning to work independently with a new
+word, instead of just memorizing a translation.

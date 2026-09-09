@@ -1,48 +1,49 @@
-Модальные слова не только выражают долженствование или возможность — они ещё
-показывают, насколько сам говорящий уверен в том, что говорит. Вот шкала от почти
-полной уверенности до чистого предположения.
+Modal words don't just express obligation or possibility — they also show how certain
+the speaker is about what they're saying. Here's a scale from near-total certainty to
+pure speculation.
 
-## Шкала уверенности
+## The certainty scale
 
-| Слово | Значение | Степень уверенности |
+| Word | Meaning | Degree of certainty |
 |---|---|---|
-| `måste` | должно быть (сильный логический вывод) | почти уверен |
-| `borde` | должно быть, ожидаемо | высокая, но не полная уверенность |
-| `lär` | говорят, что...; по слухам | опирается на чужие слова |
-| `torde` | по-видимому (книжно, официально) | осторожное предположение |
-| `kanske` | может быть | чистое предположение |
+| `måste` | must be (a strong logical inference) | near-certain |
+| `borde` | should be, expected | high, but not full certainty |
+| `lär` | is said to..., reportedly | relies on someone else's words |
+| `torde` | presumably (formal, written) | a cautious guess |
+| `kanske` | maybe | pure speculation |
 
-## Примеры по одному на каждое слово
-
-```example
-Hon måste vara hemma nu, lampan är tänd. — Она, должно быть, дома — свет горит.
-Hon borde vara hemma nu, klockan är sex. — Она, наверное, уже дома — сейчас шесть.
-Hon lär vara hemma nu, sa grannen. — Она, говорят, дома — так сказала соседка.
-Hon torde vara hemma nu. — Она, по-видимому, дома (книжный стиль).
-Hon är kanske hemma nu. — Может быть, она сейчас дома.
-```
-
-## Особенность lär: специфически шведское значение
-
-`Lär` (от *lära*, «учить») в этой конструкции значит не «учиться», а «говорят, что» —
-источник информации не сам говорящий, а слухи, чужие слова, СМИ:
+## One example for each word
 
 ```example
-Det lär bli regn imorgon. — Говорят, завтра будет дождь.
-Han lär ha flyttat till Stockholm. — Говорят, он переехал в Стокгольм.
+Hon måste vara hemma nu, lampan är tänd. — She must be home now, the light is on.
+Hon borde vara hemma nu, klockan är sex. — She should be home now, it's six o'clock.
+Hon lär vara hemma nu, sa grannen. — She's said to be home now, the neighbour said.
+Hon torde vara hemma nu. — She's presumably home now (formal style).
+Hon är kanske hemma nu. — Maybe she's home now.
 ```
 
-## torde: книжный, официальный регистр
+## lär: a specifically Swedish evidential use
 
-`Torde` почти не встречается в устной речи — это слово газетных статей, официальных
-документов, вежливых формулировок:
+`Lär` (from *lära*, "to teach/learn") does not mean "to learn" in this construction —
+here it means "is said to," "reportedly": the source of the information isn't the
+speaker's own knowledge but hearsay, other people's words, or the media.
 
 ```example
-Priset torde stiga nästa år. — Цена, по-видимому, вырастет в следующем году.
+Det lär bli regn imorgon. — It's said that it will rain tomorrow.
+Han lär ha flyttat till Stockholm. — He's reportedly moved to Stockholm.
 ```
 
-## Коротко
+## torde: a formal, written register
 
-От `måste` (я почти уверен) через `borde` (ожидаю, что так) и `lär` (я это слышал от
-других) к `torde` (осторожно, книжно) и `kanske` (просто предполагаю) — каждое слово
-занимает своё место на шкале уверенности говорящего.
+`Torde` is rarely heard in speech — it belongs to newspaper articles, official
+documents, and polite, guarded phrasing:
+
+```example
+Priset torde stiga nästa år. — The price will presumably rise next year.
+```
+
+## In short
+
+From `måste` (I'm nearly certain) through `borde` (I expect so) and `lär` (I heard this
+from others) to `torde` (a cautious, written guess) and `kanske` (I'm simply
+speculating) — each word occupies its own place on the speaker's scale of certainty.

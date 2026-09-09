@@ -1,40 +1,40 @@
-«Рассказ о себе» (короткий монолог вроде elevator pitch) связывает три времени: как ты
-оказался в Швеции (прошлое), чем занимаешься сейчас (настоящее) и что планируешь
-(будущее). Слова-связки помогают слушателю не потеряться между тремя временами.
+A short "about yourself" monologue (like an elevator pitch) links three tenses: how you
+ended up in Sweden (past), what you do now (present), and what you're planning (future).
+Linking words keep the listener from getting lost between the three.
 
-Для прошлого используется **för ... sedan** («... назад»): указывает, сколько времени
-прошло. Переход от прошлого к настоящему делает **sedan dess** («с тех пор») — обычно
-вместе с перфектом (*har* + супин), потому что действие началось в прошлом и продолжается
-до сих пор.
-
-```example
-Jag kom till Sverige för tre år sedan. — Я приехал в Швецию три года назад.
-Sedan dess har jag lärt mig svenska. — С тех пор я выучил шведский.
-```
-
-Слово **numera** («в наши дни, теперь») подчёркивает контраст с прошлым — то, что
-изменилось. **Just nu** («прямо сейчас») указывает на текущий момент и обычно идёт с
-презенсом.
+For the past, use **för ... sedan** ("... ago") to say how much time has passed. The
+bridge from past to present is **sedan dess** ("since then") — usually paired with the
+perfect (*har* + supine), because the action started in the past and continues now.
 
 ```example
-Förut jobbade jag som kock, men numera studerar jag till undersköterska. — Раньше я работал поваром, а теперь учусь на помощника медсестры.
-Just nu praktiserar jag på ett sjukhus. — Прямо сейчас я прохожу практику в больнице.
+Jag kom till Sverige för tre år sedan. — I came to Sweden three years ago.
+Sedan dess har jag lärt mig svenska. — Since then I've learned Swedish.
 ```
 
-Для будущего связка **i framtiden** («в будущем») сочетается со **ska** или **kommer
-att** — смотря идёт ли речь о твоём решении или о прогнозе (см. тему «Будущее: ska /
-kommer att / презенс»).
+The word **numera** ("nowadays") highlights a contrast with the past — something that has
+changed. **Just nu** ("right now") points to the current moment and usually goes with the
+present tense.
 
 ```example
-I framtiden hoppas jag kunna jobba som sjuksköterska. — В будущем я надеюсь работать медсестрой.
+Förut jobbade jag som kock, men numera studerar jag till undersköterska. — I used to work as a cook, but nowadays I'm studying to become a nursing assistant.
+Just nu praktiserar jag på ett sjukhus. — Right now I'm doing an internship at a hospital.
 ```
 
-Собранный вместе, монолог о себе звучит так: сначала — откуда ты и когда приехал
-(претерит), затем — что изменилось с тех пор и чем занимаешься сейчас (перфект и
-презенс), и в конце — куда движешься (ska/kommer att). Три времени, соединённые
-связками, делают рассказ логичным, а не набором разрозненных фактов.
+For the future, the connector **i framtiden** ("in the future") pairs with **ska** or
+**kommer att** — depending on whether you're stating your own decision or a prediction
+(see "The future: ska / kommer att / the present").
 
-Полезный словарь для такого рассказа: **utbildning** (образование), **yrke**
-(профессия), **erfarenhet** (опыт), **bakgrund** (происхождение, бэкграунд), **praktik**
-(практика, стажировка), **mål** (цель). Эти слова пригодятся и когда рассказываешь о
-прошлом, и когда говоришь о планах.
+```example
+I framtiden hoppas jag kunna jobba som sjuksköterska. — In the future I hope to be able to work as a nurse.
+```
+
+Put together, a monologue about yourself flows like this: first where you're from and
+when you arrived (preteritum), then what has changed since then and what you do now
+(perfect and present), and finally where you're heading (ska/kommer att). Three tenses,
+tied together with connectors, make the story logical rather than a pile of disconnected
+facts.
+
+Useful vocabulary for this kind of story: **utbildning** (education), **yrke**
+(profession), **erfarenhet** (experience), **bakgrund** (background), **praktik**
+(internship, work placement), **mål** (goal). These words come in handy both when talking
+about the past and when talking about plans.

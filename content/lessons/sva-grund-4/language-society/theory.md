@@ -1,49 +1,49 @@
-В «registers» речь шла о формальном и неформальном стиле. Теперь — о том,
-как язык варьируется в зависимости от того, ОТКУДА человек и КАКАЯ у него
-социальная группа.
+In "registers" we talked about formal and informal style. Now: how language
+varies depending on WHERE someone is from and WHICH social group they
+belong to.
 
-## Диалект
-
-```example
-Skånska är en dialekt som låter ganska annorlunda mot rikssvenska. — Сконский — это диалект, звучащий довольно иначе, чем стандартный шведский.
-```
-
-`Dialekt` связан с географией — регионом Швеции.
-
-## Социолект
+## Dialect
 
 ```example
-Ungdomars sätt att prata kallas ibland en sociolekt. — Манера речи молодёжи иногда называется социолектом.
+Skånska är en dialekt som låter ganska annorlunda mot rikssvenska. — Scanian is a dialect that sounds quite different from standard Swedish.
 ```
 
-`Sociolekt` связан не с регионом, а с социальной группой: возрастом,
-образованием, окружением.
+`Dialekt` is tied to geography — a region of Sweden.
 
-## Стандартный язык и норма
+## Sociolect
 
 ```example
-Standardsvenska används ofta i nyheter och myndighetstexter. — Стандартный шведский часто используется в новостях и текстах госорганов.
+Ungdomars sätt att prata kallas ibland en sociolekt. — The way young people talk is sometimes called a sociolect.
+```
+
+`Sociolekt` is tied not to a region but to a social group: age, education,
+environment.
+
+## Standard language and norm
+
+```example
+Standardsvenska används ofta i nyheter och myndighetstexter. — Standard Swedish is often used in the news and official texts.
 ```
 
 ```example
-Språknormen förändras långsamt över tid. — Языковая норма медленно меняется со временем.
+Språknormen förändras långsamt över tid. — The language norm changes slowly over time.
 ```
 
-`Språknorm` — это то, что считается «правильным» в данный момент, но норма
-не статична.
+`Språknorm` is what counts as "correct" at a given moment — but the norm
+isn't static.
 
-## Переключение кодов
+## Code-switching
 
 ```example
-Många tvåspråkiga barn kodväxlar mellan svenska och sitt andra språk. — Многие двуязычные дети переключаются между шведским и своим вторым языком.
+Många tvåspråkiga barn kodväxlar mellan svenska och sitt andra språk. — Many bilingual children code-switch between Swedish and their other language.
 ```
 
-`Kodväxling` (code-switching) — переход с одного языка или стиля на другой
-в пределах одного разговора, часто у двуязычных людей.
+`Kodväxling` (code-switching) is switching between one language or style and
+another within the same conversation, often among bilingual people.
 
-## Важно понимать
+## Good to understand
 
-1. Диалект ≠ неправильный язык — это просто региональный вариант.
-2. Социолект часто связан с идентичностью группы, а не с уровнем образования.
-3. Kodväxling — нормальное явление у двуязычных людей, а не признак того,
-   что человек «путает» языки.
+1. A dialect isn't "incorrect" language — it's simply a regional variant.
+2. A sociolect is often tied to a group's identity, not to education level.
+3. Kodväxling is normal for bilingual people, not a sign of "confusing"
+   languages.

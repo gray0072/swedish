@@ -1,39 +1,40 @@
-Предлоги места (`i`, `på`, `under`) описывают конкретное пространство, и их выбор
-обычно логичен. Но у многих глаголов есть свой предлог перед объектом, и он никак не
-связан с пространством — это нужно просто запомнить вместе с глаголом, как единое
-целое.
+Prepositions of place (`i`, `på`, `under`) describe concrete space, and choosing them
+is usually logical. But many verbs have their own preposition before the object, and
+it has nothing to do with space — it simply has to be learned together with the verb,
+as one single unit.
 
 ```example
-Jag tänker på dig. — Я думаю о тебе.
-Vi pratade om filmen. — Мы говорили о фильме.
+Jag tänker på dig. — I'm thinking of you.
+Vi pratade om filmen. — We talked about the film.
 ```
 
-Сравните с русским: там, где по-русски естественно «о» (думать о, говорить о), в
-шведском иногда стоит `på`, а иногда `om` — предсказать нельзя, только запомнить
-пару «глагол + предлог» целиком.
+Compare with English: where "about" fits naturally for both "think about" and "talk
+about", Swedish sometimes uses `på` and sometimes `om` — it can't be predicted, only
+learned as a fixed "verb + preposition" pair.
 
 ```example
-Allt beror på vädret. — Всё зависит от погоды.
-Hon skiljer sig från sin man. — Она разводится со своим мужем.
+Allt beror på vädret. — Everything depends on the weather.
+Hon skiljer sig från sin man. — She's divorcing her husband.
 ```
 
-Несколько частотных пар, которые стоит выучить наизусть:
+A handful of frequent pairs worth learning by heart:
 
-| Глагол + предлог | Перевод |
+| Verb + preposition | Meaning |
 |---|---|
-| tänka på | думать о |
-| prata/tala om | говорить о |
-| bero på | зависеть от |
-| skilja sig från | отличаться от / разводиться с |
-| vänja sig vid | привыкать к |
-| intressera sig för | интересоваться (чем-то) |
-| lita på | доверять |
-| oroa sig för | беспокоиться о |
+| tänka på | to think of/about |
+| prata/tala om | to talk about |
+| bero på | to depend on |
+| skilja sig från | to differ from / to divorce |
+| vänja sig vid | to get used to |
+| intressera sig för | to be interested in |
+| lita på | to trust |
+| oroa sig för | to worry about |
 
 ```example
-Jag har vant mig vid det svenska vädret. — Я привык(ла) к шведской погоде.
-Hon intresserar sig för musik. — Она интересуется музыкой.
+Jag har vant mig vid det svenska vädret. — I've gotten used to the Swedish weather.
+Hon intresserar sig för musik. — She's interested in music.
 ```
 
-Лучшая стратегия — не переводить предлог с русского или английского, а заучивать
-глагол и предлог как одну неразрывную единицу, сразу с примером предложения.
+The best strategy is not to translate the preposition from English or Russian, but to
+learn the verb and preposition as one inseparable unit, together with an example
+sentence.

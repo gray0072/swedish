@@ -1,37 +1,38 @@
-Часть речи (*ordklass*) — это ярлык слова самого по себе: «hund» всегда substantiv.
-Член предложения (*satsdel*) — это его роль в конкретном предложении: то же самое слово
-может быть то subjekt, то objekt. Это классическая путаница у начинающих, и два понятия
-важно не смешивать.
+A part of speech (*ordklass*) labels a word by itself: "hund" is always a substantiv.
+A sentence element (*satsdel*) is its job in one particular sentence: the same word can
+be a subjekt in one sentence and an objekt in another. This is the classic beginner
+confusion, so keep the two ideas apart.
 
-Четыре базовых члена предложения:
+Four basic sentence elements:
 
-| Satsdel | Роль | Вопрос |
+| Satsdel | Role | Question |
 |---|---|---|
-| subjekt | кто/что действует | Кто? Что? |
-| predikat | что происходит (глагол) | Что делает? |
-| objekt | на кого/что направлено действие | Кого? Что? |
-| adverbial | где, когда, как | Где? Когда? Как? |
+| subjekt | who/what acts | Who? What? |
+| predikat | what happens (the verb) | What does it do? |
+| objekt | who/what the action targets | Whom? What? |
+| adverbial | where, when, how | Where? When? How? |
 
-Разберём предложение:
+Let's analyse a sentence:
 
 ```example
-Läraren läser boken idag. — Учитель читает книгу сегодня.
+Läraren läser boken idag. — The teacher reads the book today.
 ```
 
-*Läraren* — subjekt (кто читает), *läser* — predikat (что делает), *boken* — objekt
-(что читает), *idag* — adverbial (когда).
+*Läraren* is the subjekt (who reads), *läser* the predikat (the action), *boken* the
+objekt (what is read), *idag* the adverbial (when).
 
-Обрати внимание: и *läraren*, и *boken* — оба substantiv, часть речи у них одна и та
-же. Но в предложении они выполняют разные роли — члены предложения у них разные. А в
-предложении «Boken läses av läraren» уже сама *boken* становится subjekt.
+Notice: both *läraren* and *boken* are the same part of speech, substantiv. But in the
+sentence they play different roles — different sentence elements. In another sentence,
+"Boken läses av läraren", *boken* itself becomes the subjekt.
 
-Predikat — всегда глагол (или группа из finit + infinit глагола), и predikat в простом
-предложении только один. Subjekt обычно стоит рядом с predikat — перед ним или сразу
-после, если что-то другое заняло первое место (об этом — в следующем уроке).
+The predikat is always a verb (or a group made of a finite plus an infinite verb), and
+there is exactly one predikat per simple clause. The subjekt usually sits right next to
+the predikat — before it, or right after it if something else has taken the first slot
+(more on that in the next lesson).
 
-Objekt отвечает на вопрос «кого/что» и появляется только у переходных глаголов
-(*läsa, se, äta*); у непереходных (*sova, komma*) объекта нет вовсе.
+The objekt answers "whom/what" and only shows up with transitive verbs (*läsa, se,
+äta*); intransitive verbs (*sova, komma*) have no objekt at all.
 
-Adverbial — самый гибкий член: это может быть одно слово (*idag*) или целая группа
-слов (*i skolan, för länge sedan*), и отвечает он на разные вопросы — где, когда, как,
-почему.
+The adverbial is the most flexible element: it can be one word (*idag*) or a whole
+phrase (*i skolan, för länge sedan*), and it answers several different questions —
+where, when, how, why.

@@ -1,17 +1,13 @@
-Стокгольмское метро (tunnelbana) — самый быстрый способ передвигаться по городу, и его
-объявления звучат в динамиках каждый день. Две фразы стоит выучить в первую очередь:
+The Stockholm metro (**tunnelbana**) is the fastest way to get around the city, and its announcements play over the loudspeakers every day. Two phrases are worth learning first:
 
 ```example
-Nästa station är Slussen. — Следующая станция — Слюссен.
-Dörrarna stängs. — Двери закрываются.
+Nästa station är Slussen. — Next station is Slussen.
+Dörrarna stängs. — The doors are closing.
 ```
 
-Для проезда нужен **biljett** («билет») — обычно это карта **SL-kort**, которую нужно
-приложить на **hållplats** (наземная остановка) или **station** (станция метро). Слово
-«resa» означает и «поездка» (существительное), и «путешествовать» (глагол) — смотри
-по контексту.
+To travel you need a **biljett** (ticket) — usually an **SL-kort** card, which you tap at a **hållplats** (surface stop) or **station** (metro station). The word "resa" means both "a trip" (noun) and "to travel" (verb) — check the context.
 
 ```example
-En biljett, tack. — Один билет, пожалуйста.
-Var är närmaste hållplats? — Где ближайшая остановка?
+En biljett, tack. — One ticket, please.
+Var är närmaste hållplats? — Where's the nearest stop?
 ```

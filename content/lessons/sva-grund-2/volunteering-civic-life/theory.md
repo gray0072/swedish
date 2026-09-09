@@ -1,29 +1,29 @@
-В Швеции очень развито **volontärarbete** (волонтёрство) через **ideella
-föreningar** — некоммерческие объединения. Это может быть спортивный клуб,
-благотворительная организация или локальное сообщество: людей объединяет не
-зарплата, а желание **bidra till samhället** (внести вклад в общество).
+**Volontärarbete** (volunteering) is very developed in Sweden through **ideella
+föreningar** — non-profit associations. That can be a sports club, a charity, or a
+local community: what unites people isn't a salary but a wish to **bidra till
+samhället** (contribute to society).
 
 ```example
-Hon engagerar sig i en ideell förening för hemlösa. — Она занимается волонтёрством в некоммерческой организации для бездомных.
-Många vill bidra till samhället på sin fritid. — Многие хотят вносить вклад в общество в свободное время.
+Hon engagerar sig i en ideell förening för hemlösa. — She volunteers at a non-profit for the homeless.
+Många vill bidra till samhället på sin fritid. — Many want to contribute to society in their free time.
 ```
 
-Слово **engagera sig** («вовлекаться, посвящать себя чему-то») — ключевое: оно
-описывает активное, добровольное участие, а не просто интерес со стороны.
+The word **engagera sig** ("to get involved, to commit oneself to something") is key:
+it describes active, voluntary participation, not just outside interest.
 
 ```example
-Han engagerar sig i klimatfrågor. — Он активно занимается вопросами климата.
+Han engagerar sig i klimatfrågor. — He's actively engaged in climate issues.
 ```
 
-Гражданская жизнь не сводится к волонтёрству. Каждый **medborgare** (гражданин)
-может **delta i** («участвовать в») местной жизни: голосовать, ходить на
-собрания жилищного кооператива, подписывать петиции.
+Civic life isn't only about volunteering. Every **medborgare** (citizen) can **delta
+i** ("take part in") local life: voting, attending housing-cooperative meetings,
+signing petitions.
 
 ```example
-Alla medborgare har rätt att delta i beslut som rör kommunen. — Все граждане имеют право участвовать в решениях, касающихся коммуны.
+Alla medborgare har rätt att delta i beslut som rör kommunen. — All citizens have the right to take part in decisions affecting the municipality.
 ```
 
-Волонтёрство часто начинается с малого: помочь соседу, организовать мероприятие в
-районе, вступить в местное объединение (**en lokal förening**). Небольшой личный
-вклад — тоже часть гражданской жизни, не только формальное волонтёрство в крупной
-организации.
+Volunteering often starts small: helping a neighbour, organising a neighbourhood
+event, joining a local association (**en lokal förening**). A small personal
+contribution is also part of civic life, not just formal volunteering at a big
+organisation.

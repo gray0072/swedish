@@ -1,33 +1,33 @@
-Разговор с работодателем в Швеции построен на нескольких ключевых словах. **Semester**
-— это оплачиваемый ежегодный отпуск, и просьбу о нём часто формулируют вежливо: «Jag
-skulle vilja ta ledigt» («Я хотел(а) бы взять отгул»).
+Talking to an employer in Sweden revolves around a handful of key words. **Semester**
+is paid annual leave, and asking for it is usually phrased politely: "Jag skulle vilja
+ta ledigt" ("I would like to take some time off").
 
 ```example
-Jag skulle vilja ta ledigt nästa fredag. — Я хотел(а) бы взять выходной в следующую пятницу.
-Får jag ta ut semester i juli? — Могу я взять отпуск в июле?
+Jag skulle vilja ta ledigt nästa fredag. — I would like to take next Friday off.
+Får jag ta ut semester i juli? — Can I take my vacation in July?
 ```
 
-Если ты заболел(а), нужно сделать **sjukanmälan** — сообщить на работу до начала смены
-— и после этого ты становишься **sjukskriven** («на больничном»).
+If you get sick, you make a **sjukanmälan** — reporting it to work before your shift
+starts — and you then become **sjukskriven** ("signed off sick").
 
 ```example
-Jag är sjukskriven till och med onsdag. — Я на больничном по среду включительно.
+Jag är sjukskriven till och med onsdag. — I'm on sick leave through Wednesday.
 ```
 
-Отдельное явление — **VAB** (vård av barn): временное пособие, когда родитель остаётся
-дома с заболевшим ребёнком. Разговорный глагол для этого — **vabba**.
+A separate concept is **VAB** (vård av barn): a temporary benefit for staying home to
+care for a sick child. The everyday verb for this is **vabba**.
 
 ```example
-Jag vabbar idag, sonen har feber. — Сегодня я сижу с больным ребёнком, у сына температура.
+Jag vabbar idag, sonen har feber. — I'm staying home with my sick kid today, my son has a fever.
 ```
 
-Рабочий **schema** («график») иногда нужно менять — например, **byta pass**
-(«поменяться сменами») с коллегой:
+The work **schema** ("schedule") sometimes needs changing — for example, **byta pass**
+("swapping shifts") with a colleague:
 
 ```example
-Kan jag byta pass med dig på lördag? — Могу я поменяться сменами с тобой в субботу?
+Kan jag byta pass med dig på lördag? — Can I swap shifts with you on Saturday?
 ```
 
-Эти фразы вежливые и прямые одновременно — швед ценит ясность: сказать факт
-(sjukskriven, VAB) и сразу предложить конкретное решение (byta pass, ta ledigt), а не
-долго извиняться.
+These phrases are polite and direct at the same time — Swedes value clarity: state the
+fact (sjukskriven, VAB) and immediately offer a concrete solution (byta pass, ta
+ledigt), rather than over-apologizing.

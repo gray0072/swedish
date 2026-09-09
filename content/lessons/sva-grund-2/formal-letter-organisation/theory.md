@@ -1,37 +1,36 @@
-Личное письмо другу начинается с **Hej Anna!** или **Kära Anna,** — но письмо к
-**myndighet** («ведомству») или **organisation** («организации») требует другого регистра.
-Если ты не знаешь имени получателя, можно начать нейтрально — **Hej,** — это принято даже
-в официальной переписке, — или более старомодно: **Bäste herr/fru,** («Уважаемый
-господин/госпожа,»).
+A personal letter to a friend opens with **Hej Anna!** or **Kära Anna,** — but a letter to
+a **myndighet** ("authority") or **organisation** calls for a different register. If you
+don't know the recipient's name, a neutral **Hej,** is accepted even in official writing,
+or the more old-fashioned **Bäste herr/fru,** ("Dear Sir/Madam,").
 
 ```example
-Hej, Jag vänder mig till er angående min ansökan. — Здравствуйте, я обращаюсь к вам по поводу моего заявления.
-Bäste herr/fru, Jag skriver med anledning av ert brev. — Уважаемый господин/госпожа, я пишу в связи с вашим письмом.
+Hej, Jag vänder mig till er angående min ansökan. — Hello, I'm writing to you regarding my application.
+Bäste herr/fru, Jag skriver med anledning av ert brev. — Dear Sir/Madam, I'm writing in connection with your letter.
 ```
 
-Главная фраза-открытие формального письма — **Jag vänder mig till er angående...**
-(«Я обращаюсь к вам относительно...»). Чтобы задать вопрос, используй **Jag skulle vilja
-fråga om...** («Я хотел(а) бы спросить о...»), а не прямое **Kan du...** («Можешь ли
-ты...»), которое звучит слишком неформально для **myndighet** или **organisation**.
+The key opening phrase of a formal letter is **Jag vänder mig till er angående...** ("I am
+contacting you regarding..."). To ask something, use **Jag skulle vilja fråga om...** ("I
+would like to ask whether...") rather than a direct **Kan du...** ("Can you..."), which
+sounds too informal for a **myndighet** or **organisation**.
 
 ```example
-Jag skulle vilja fråga om mitt ärende har behandlats. — Я хотел(а) бы спросить, рассмотрено ли моё дело.
-Jag är tacksam för ett snabbt svar. — Буду благодарен(на) за быстрый ответ.
+Jag skulle vilja fråga om mitt ärende har behandlats. — I would like to ask whether my case has been processed.
+Jag är tacksam för ett snabbt svar. — I would be grateful for a prompt reply.
 ```
 
-Не забывай приложить документы: **Jag bifogar...** («Прилагаю...») и **en bilaga**
-(«приложение»). В конце формального письма пишущий **undertecknar** («подписывается»)
-полным именем.
+Remember to attach documents: **Jag bifogar...** ("I am enclosing...") and **en bilaga**
+("an attachment"). At the end of a formal letter, the writer **undertecknar** ("signs")
+with their full name.
 
-Прощание тоже отличается от личного письма: нейтральное и универсальное **Med vänlig
-hälsning** («С уважением») подходит для любого формального письма, а не тёплое **Kram**
-или **Hälsningar**. После него — полное имя, а не только фамильярное сокращение.
+The closing also differs from a personal letter: the neutral, all-purpose **Med vänlig
+hälsning** ("Kind regards") fits any formal letter, not the warm **Kram** or **Hälsningar**.
+It's followed by a full name, not a familiar short form.
 
 ```example
-Jag bifogar mitt personbevis som en bilaga. — Прилагаю справку о личности как приложение.
-Med vänlig hälsning, Maria Andersson — С уважением, Мария Андерссон
+Jag bifogar mitt personbevis som en bilaga. — I'm enclosing my certificate of registration as an attachment.
+Med vänlig hälsning, Maria Andersson — Kind regards, Maria Andersson
 ```
 
-Разница проста: **avsändaren** («отправитель») личного письма пишет тепло и коротко, а
-формальное письмо к **mottagaren** («получателю») в организации — по делу, вежливо и с
-полной подписью.
+The difference is simple: the **avsändare** ("sender") of a personal letter writes warmly
+and briefly, while a formal letter to the **mottagare** ("recipient") at an organisation
+stays polite, to the point, and fully signed.

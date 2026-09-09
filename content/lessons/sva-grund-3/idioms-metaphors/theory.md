@@ -1,57 +1,57 @@
-**Идиома** — устойчивое сочетание слов, чей общий смысл нельзя вывести из значений
-отдельных слов. Переводить такие выражения дословно бесполезно и часто смешно —
-их нужно просто знать целиком, как отдельные единицы словаря.
+An **idiom** is a fixed combination of words whose overall meaning cannot be worked
+out from the meanings of the individual words. Translating such expressions literally
+is useless and often funny — you simply have to know them whole, as single
+vocabulary units.
 
 ## ha en skruv lös
 
-Буквально «иметь развинченный шуруп». Означает — вести себя странно, немного
-не в себе, «с приветом».
+Literally "to have a loose screw." It means to act strangely, to be a bit crazy.
 
 ```example
-Han pratar med växterna – han har nog en skruv lös. — Он разговаривает с растениями — он, наверное, немного с приветом.
+Han pratar med växterna – han har nog en skruv lös. — He talks to the plants — he's probably got a screw loose.
 ```
 
 ## kasta pärlor för svin
 
-Буквально «бросать жемчуг свиньям» (библейское по происхождению выражение,
-совпадает и в русском). Означает — тратить что-то ценное на тех, кто этого не
-оценит.
+Literally "to throw pearls to pigs" (a biblical expression, matching the English
+"to cast pearls before swine"). It means to waste something valuable on people who
+won't appreciate it.
 
 ```example
-Att förklara konst för honom är att kasta pärlor för svin. — Объяснять ему искусство — всё равно что метать бисер перед свиньями.
+Att förklara konst för honom är att kasta pärlor för svin. — Explaining art to him is like casting pearls before swine.
 ```
 
 ## Det är ingen ko på isen
 
-Буквально «на льду нет коровы» (то есть льду ничего не грозит). Означает —
-не о чем беспокоиться, спешить некуда.
+Literally "there's no cow on the ice" (so the ice is in no danger). It means there's
+nothing to worry about, no need to rush.
 
 ```example
-Ta det lugnt, det är ingen ko på isen. — Не переживай, спешить некуда.
+Ta det lugnt, det är ingen ko på isen. — Take it easy, there's no rush.
 ```
 
 ## glida in på en räkmacka
 
-Буквально «въехать/проскользнуть на бутерброде с креветками». Означает —
-получить что-то без усилий, легко, по счастливой случайности (часто с оттенком
-неодобрения — не заслужив этого).
+Literally "to slide in on a shrimp sandwich." It means to get something easily,
+without effort, by sheer luck — often with a note of disapproval, implying the
+person didn't earn it.
 
 ```example
-Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — Он получил работу без опыта — ему просто повезло, без всяких усилий.
+Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — He got the job with no experience — he slid right in without any effort.
 ```
 
 ## ana ugglor i mossen
 
-Буквально «подозревать сов в болоте». Означает — почуять неладное, заподозрить
-подвох.
+Literally "to suspect owls in the bog." It means to sense that something is wrong,
+to smell a rat.
 
 ```example
-Jag anar ugglor i mossen – något stämmer inte. — Я чую неладное — что-то тут не так.
+Jag anar ugglor i mossen – något stämmer inte. — I smell a rat — something's not right.
 ```
 
-## Итог
+## The takeaway
 
-Идиомы делают речь живой и характерно шведской, но использовать их нужно
-осторожно: неверно понятая или буквально переведённая идиома звучит нелепо или
-даже меняет смысл на противоположный. Лучший способ выучить их — не по одному
-слову, а целыми фразами, вместе с примером в контексте.
+Idioms make speech lively and distinctly Swedish, but they need careful handling: a
+misunderstood or literally translated idiom sounds absurd, or can even flip the
+meaning. The best way to learn them is not word by word, but as whole phrases,
+together with an example in context.

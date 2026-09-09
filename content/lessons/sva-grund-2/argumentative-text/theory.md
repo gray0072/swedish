@@ -1,42 +1,42 @@
-В уроке «opinion-justification» вы научились обосновывать мнение в одном
-предложении: «Jag tycker att... eftersom...». Аргументативный текст — та же логика,
-но развёрнутая на несколько абзацев с чёткой структурой: **тезис — аргументы —
-вывод**.
+In the "opinion-justification" lesson you learned to back up an opinion in a single
+sentence: "Jag tycker att... eftersom...". An argumentative text is the same logic,
+stretched across several paragraphs with a clear structure: **thesis — arguments —
+conclusion**.
 
-## Тезис (тема и позиция)
-
-```example
-Jag anser att skolan bör börja senare på morgonen. — Я считаю, что школа должна начинаться позже утром.
-```
-
-## Аргументы (по одному на абзац)
-
-Каждый аргумент вводится сигнальным словом, чтобы читатель видел структуру:
+## Thesis (topic and position)
 
 ```example
-För det första sover tonåringar bättre om de får sova längre på morgonen. — Во-первых, подростки лучше высыпаются, если могут дольше спать утром.
-För det andra skulle betygen troligen förbättras. — Во-вторых, оценки, вероятно, улучшились бы.
+Jag anser att skolan bör börja senare på morgonen. — I believe school should start later in the morning.
 ```
 
-Можно и признать контраргумент — это делает текст сильнее, а не слабее:
+## Arguments (one per paragraph)
+
+Each argument opens with a signal word so the reader can see the structure:
 
 ```example
-Visserligen skulle scheman bli svårare att planera, men fördelarna väger tyngre. — Правда, расписание было бы сложнее планировать, но преимущества перевешивают.
+För det första sover tonåringar bättre om de får sova längre på morgonen. — First, teenagers sleep better if they get to sleep longer in the morning.
+För det andra skulle betygen troligen förbättras. — Second, grades would probably improve.
 ```
 
-## Вывод
+You can also acknowledge a counter-argument — it makes the text stronger, not weaker:
 
 ```example
-Sammanfattningsvis är det värt att pröva en senare skolstart. — В итоге стоит попробовать более позднее начало занятий.
+Visserligen skulle scheman bli svårare att planera, men fördelarna väger tyngre. — Admittedly, schedules would become harder to plan, but the advantages outweigh that.
 ```
 
-## Схема целиком
+## Conclusion
 
-1. **Тезис** — одно предложение с чёткой позицией.
-2. **Аргумент 1** (`för det första`) — с примером или причиной.
-3. **Аргумент 2** (`för det andra`) — ещё один, отдельным абзацем.
-4. Опционально — уступка (`visserligen... men...`).
-5. **Вывод** (`sammanfattningsvis`) — возврат к тезису другими словами.
+```example
+Sammanfattningsvis är det värt att pröva en senare skolstart. — In summary, it's worth trying a later school start.
+```
 
-Эта структура работает для любой темы: от школьного расписания до переработки
-мусора — меняется только содержание аргументов, не сама форма.
+## The whole scheme
+
+1. **Thesis** — one sentence with a clear position.
+2. **Argument 1** (`för det första`) — with an example or reason.
+3. **Argument 2** (`för det andra`) — another one, its own paragraph.
+4. Optionally — a concession (`visserligen... men...`).
+5. **Conclusion** (`sammanfattningsvis`) — returns to the thesis in different words.
+
+This structure works for any topic, from school schedules to waste recycling — only
+the content of the arguments changes, not the shape itself.

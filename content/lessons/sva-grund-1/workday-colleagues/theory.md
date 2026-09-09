@@ -1,22 +1,24 @@
-Рабочий день (**arbetsdag**) редко проходит без общения с коллегами (**kollegor**) — нужно обсуждать смены (**arbetspass**), перерывы (**rast**) и встречи (**möte**).
+# Work: the working day, colleagues, arrangements
+
+A working day (**arbetsdag**) rarely goes by without talking to colleagues (**kollegor**) — you need to discuss shifts (**arbetspass**), breaks (**rast**), and meetings (**möte**).
 
 ```example
-Mitt arbetspass börjar klockan sju. — Моя смена начинается в семь.
-Vi har rast klockan tolv. — У нас перерыв в двенадцать.
+Mitt arbetspass börjar klockan sju. — My shift starts at seven.
+Vi har rast klockan tolv. — We have a break at twelve.
 ```
 
-Если расписание (**schema**) меняется или не подходит, коллеги часто хотят **byta pass** — поменяться сменами. Глагольная фраза **komma överens om** (договориться о чём-то) пригодится, когда нужно согласовать новые условия.
+If the schedule (**schema**) changes or doesn't fit, colleagues often want to **byta pass** — swap shifts. The verb phrase **komma överens om** (to agree on something) is useful when you need to settle new arrangements.
 
 ```example
-Kan vi byta pass på torsdag? — Можем поменяться сменами в четверг?
-Vi kom överens om nya tider. — Мы договорились о новом времени.
+Kan vi byta pass på torsdag? — Can we swap shifts on Thursday?
+Vi kom överens om nya tider. — We agreed on new times.
 ```
 
-Вот пример короткого разговора о смене на работе:
+Here's a short example of a conversation about arranging a shift:
 
 ```example
-Passar det om jag tar rast klockan elva istället? — Тебе подходит, если я возьму перерыв в 11 вместо этого?
-Ja, det går bra, vi hörs imorgon. — Да, всё нормально, созвонимся завтра.
+Passar det om jag tar rast klockan elva istället? — Would it work if I take my break at eleven instead?
+Ja, det går bra, vi hörs imorgon. — Yes, that's fine, we'll talk tomorrow.
 ```
 
-Если нужно закончить задание к сроку (**deadline**), иногда приходится работать сверхурочно (**övertid**) — но во многих компаниях есть и **flextid** (гибкий график), который позволяет самому выбирать **arbetstid** (рабочее время) в разумных пределах. Хорошая команда обычно **samarbetar** (сотрудничает) даже при таких изменениях.
+If a task needs to be finished by a **deadline**, sometimes you end up working overtime (**övertid**) — but many companies also offer **flextid** (flexitime), which lets you choose your **arbetstid** (working hours) within reasonable limits. A good team usually **samarbetar** (cooperates) well even through these changes.

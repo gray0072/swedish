@@ -1,38 +1,38 @@
-У шведского глагола есть **супин** (`skrivit` — часть перфекта: `har skrivit`) и
-отдельно — **перфектное причастие** (`skriven`), которое используется как обычное
-прилагательное. Их легко перепутать, потому что оба образованы от одного глагола, но
-это разные формы с разными функциями.
+A Swedish verb has a **supine** (`skrivit` — part of the perfect: `har skrivit`) and,
+separately, a **past participle** (`skriven`), used as an ordinary adjective. They're
+easy to mix up because both are built from the same verb, but they're different forms
+with different jobs.
 
 ```example
-Jag har skrivit ett brev. — Я написал письмо. (супин, часть перфекта)
-Det här är ett skrivet brev. — Это написанное письмо. (причастие как прилагательное)
+Jag har skrivit ett brev. — I have written a letter. (supine, part of the perfect)
+Det här är ett skrivet brev. — This is a written letter. (participle as adjective)
 ```
 
-Главное отличие от супина: перфектное причастие **согласуется** с существительным по
-роду и числу — совсем как обычное прилагательное (`stor/stort/stora`):
+The key difference from the supine: the past participle **agrees** with the noun in
+gender and number — exactly like an ordinary adjective (`stor/stort/stora`):
 
-| Форма | Пример |
+| Form | Example |
 |---|---|
-| en-род | ett skrivet → **en skriven** bok |
-| ett-род | **ett skrivet** brev |
-| мн.ч. | **skrivna** brev |
+| en-word | **en skriven** bok |
+| ett-word | **ett skrivet** brev |
+| plural | **skrivna** brev |
 
 ```example
-En skriven bok. — Написанная книга. (en-род)
-Ett skrivet brev. — Написанное письмо. (ett-род)
-Skrivna brev. — Написанные письма. (мн.ч.)
+En skriven bok. — A written book. (en-word)
+Ett skrivet brev. — A written letter. (ett-word)
+Skrivna brev. — Written letters. (plural)
 ```
 
-Сравните с **презенс-причастием** (`skrivande`) из прошлого урока: то причастие
-никогда не меняет форму — она одна для всех родов и чисел. А перфектное причастие
-всегда меняется, потому что описывает результат завершённого действия, а не процесс.
+Compare this with the **present participle** (`skrivande`) from the previous lesson:
+that participle never changes form — it's the same for every gender and number. The
+past participle, however, always changes, because it describes the result of a
+completed action rather than an ongoing process.
 
 ```example
-Ett skrivande barn (пишущий ребёнок — не меняется) — ett skrivet brev (написанное письмо — меняется).
+Ett skrivande barn (a writing child — unchanged) — ett skrivet brev (a written letter — agrees).
 ```
 
-Форма причастия обычно предсказуема по группе глагола: у первой группы это `-ad/-at/
--ade` (`måla → målad/målat/målade`), у второй — `-d/-t/-da` или `-t/-t/-ta`, по образцу
-супина (`stänga → stängd/stängt/stängda`). У сильных глаголов (четвёртая группа) формы
-более неправильные, и их стоит просто запоминать по одной: `skriva → skriven/skrivet/
-skrivna`.
+The participle's shape is usually predictable from the verb group: group 1 gets
+`-ad/-at/-ade` (`måla → målad/målat/målade`), group 2 gets `-d/-t/-da` or `-t/-t/-ta`,
+matching the supine (`stänga → stängd/stängt/stängda`). Strong verbs (group 4) are more
+irregular and are best learned one by one: `skriva → skriven/skrivet/skrivna`.

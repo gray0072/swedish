@@ -1,43 +1,46 @@
-Этот урок даёт слова для чтения текстов об истории — например, коротких
-статей об истории Швеции в разделе «История» приложения (`content/history/`).
-Сам урок — только лексика, а не исторические факты.
+This lesson gives you words for reading texts about history — for example,
+the short articles about Swedish history in the app's History section
+(`content/history/`). The lesson itself is only vocabulary, not historical
+facts.
 
-## Källa och tidsperiod
+## Källa and tidsperiod
 
 ```example
-Källan är ett brev från 1809. — Источник — это письмо 1809 года.
+Källan är ett brev från 1809. — The source is a letter from 1809.
 ```
 
 ```example
-Texten beskriver en viktig tidsperiod i Sveriges historia. — Текст описывает важный период в истории Швеции.
+Texten beskriver en viktig tidsperiod i Sveriges historia. — The text describes an important period in Swedish history.
 ```
 
-Историк всегда спрашивает: откуда взята информация? Это и есть `historisk
-källa` — исторический источник, например письмо, газета или предмет.
+A historian always asks: where does the information come from? That's a
+`historisk källa` — a historical source, such as a letter, a newspaper, or an
+object.
 
-## Händelseförlopp och epok
-
-```example
-Händelseförloppet är svårt att sammanfatta i en enda mening. — Ход событий трудно свести к одному предложению.
-```
+## Händelseförlopp and epok
 
 ```example
-Varje epok har sina egna typiska drag. — У каждой эпохи есть свои характерные черты.
-```
-
-## Samtida och eftervärlden
-
-```example
-En samtida iakttagare beskrev händelsen helt annorlunda än vi gör idag. — Современник (человек той эпохи) описал событие совсем иначе, чем мы сегодня.
+Händelseförloppet är svårt att sammanfatta i en enda mening. — The course of events is hard to sum up in a single sentence.
 ```
 
 ```example
-Eftervärlden minns honom som en viktig reformator. — Потомки помнят его как важного реформатора.
+Varje epok har sina egna typiska drag. — Every era has its own typical features.
 ```
 
-## Как использовать
+## Samtida and eftervärlden
 
-Слово `samtida` означает «современный тому периоду» (не «современный нам»).
-`Eftervärlden` — почти всегда в определённой форме, означает «те, кто будет
-жить после». Вместе эти слова помогают говорить о том, как разные поколения
-по-разному видят одно и то же событие (`tolkning` — интерпретация).
+```example
+En samtida iakttagare beskrev händelsen helt annorlunda än vi gör idag. — A contemporary observer described the event quite differently from how we do today.
+```
+
+```example
+Eftervärlden minns honom som en viktig reformator. — Posterity remembers him as an important reformer.
+```
+
+## How to use this
+
+`Samtida` means "contemporary to that period" (not "contemporary to us").
+`Eftervärlden` is almost always used in the definite form and means "those
+who will live afterward". Together, these words help you talk about how
+different generations see the same event differently (`tolkning` —
+interpretation).

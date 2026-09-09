@@ -1,43 +1,43 @@
-В уроке «ecology-recycling-debate» вы обсуждали переработку мусора — за и
-против. Теперь та же дискуссионная техника (`å ena sidan... å andra sidan`)
-применяется к более широкой теме: климату и устойчивому развитию.
+In "ecology-recycling-debate" you discussed waste recycling — for and
+against. The same discussion technique (`å ena sidan... å andra sidan`) now
+applies to a broader topic: climate and sustainable development.
 
-## Основные понятия
+## Core concepts
 
 ```example
-Klimatförändringar påverkar redan väderleken över hela världen. — Изменение климата уже влияет на погоду по всему миру.
+Klimatförändringar påverkar redan väderleken över hela världen. — Climate change is already affecting weather all over the world.
 ```
 
 ```example
-Växthuseffekten gör att jordens temperatur stiger. — Парниковый эффект приводит к росту температуры на Земле.
+Växthuseffekten gör att jordens temperatur stiger. — The greenhouse effect causes the Earth's temperature to rise.
 ```
 
-## Обсуждение решений
+## Discussing solutions
 
 ```example
-En lösning skulle kunna vara att satsa mer på förnybar energi. — Одним из решений могло бы стать увеличение инвестиций в возобновляемую энергию.
-```
-
-```example
-Det största problemet är att klimatomställningen kostar mycket pengar på kort sikt. — Самая большая проблема в том, что переход на новую климатическую политику стоит много денег в краткосрочной перспективе.
+En lösning skulle kunna vara att satsa mer på förnybar energi. — One solution could be to invest more in renewable energy.
 ```
 
 ```example
-Vi måste agera nu, annars blir konsekvenserna värre på lång sikt. — Мы должны действовать сейчас, иначе последствия будут хуже в долгосрочной перспективе.
+Det största problemet är att klimatomställningen kostar mycket pengar på kort sikt. — The biggest problem is that the climate transition costs a lot of money in the short run.
 ```
-
-## Причина и следствие
 
 ```example
-Koldioxidutsläppen från industrin påverkar klimatet negativt. — Выбросы углекислого газа от промышленности негативно влияют на климат.
+Vi måste agera nu, annars blir konsekvenserna värre på lång sikt. — We must act now, or the consequences will be worse in the long run.
 ```
 
-## Схема дискуссии
+## Cause and effect
 
-1. Назвать проблему (`klimatförändringar`, `växthuseffekten`).
-2. Обсудить за и против конкретных решений (`en lösning skulle kunna vara
-   att...`).
-3. Взвесить краткосрочные и долгосрочные последствия (`på kort sikt` /
-   `på lång sikt`).
-4. Прийти к общему выводу — например, что действовать нужно `globalt`, а не
-   только в одной стране.
+```example
+Koldioxidutsläppen från industrin påverkar klimatet negativt. — Carbon dioxide emissions from industry affect the climate negatively.
+```
+
+## The discussion scheme
+
+1. Name the problem (`klimatförändringar`, `växthuseffekten`).
+2. Discuss the pros and cons of specific solutions (`en lösning skulle
+   kunna vara att...`).
+3. Weigh short-term and long-term consequences (`på kort sikt` / `på lång
+   sikt`).
+4. Reach a shared conclusion — for instance, that action is needed
+   `globalt`, not just in one country.

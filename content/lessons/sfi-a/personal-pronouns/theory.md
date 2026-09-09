@@ -1,37 +1,37 @@
-Вместо того чтобы каждый раз повторять чьё-то имя, в шведском есть семь коротких слов.
-Выучи их сразу все — они нужны в каждом предложении.
+Instead of repeating someone's name every time, Swedish has seven short words. Learn
+all seven at once — you need them in every sentence.
 
-| Шведский | Перевод |
+| Swedish | Meaning |
 |---|---|
-| jag | я |
-| du | ты |
-| han | он |
-| hon | она |
-| vi | мы |
-| ni | вы |
-| de | они |
+| jag | I |
+| du | you |
+| han | he |
+| hon | she |
+| vi | we |
+| ni | you (plural) |
+| de | they |
 
 ```example
-Jag heter Ali. — Меня зовут Али.
-Du bor i Malmö. — Ты живёшь в Мальмё.
-Han jobbar i Stockholm. — Он работает в Стокгольме.
-Hon talar svenska. — Она говорит по-шведски.
-Vi bor i Sverige. — Мы живём в Швеции.
-Ni pratar engelska. — Вы говорите по-английски.
-De kommer från Syrien. — Они из Сирии.
+Jag heter Ali. — My name is Ali.
+Du bor i Malmö. — You live in Malmö.
+Han jobbar i Stockholm. — He works in Stockholm.
+Hon talar svenska. — She speaks Swedish.
+Vi bor i Sverige. — We live in Sweden.
+Ni pratar engelska. — You (all) speak English.
+De kommer från Syrien. — They are from Syria.
 ```
 
-Небольшая деталь произношения: **de** на слух звучит как «дом», а не как пишется —
-привыкни сразу произносить его так.
+A small pronunciation detail: **de** sounds like "dom" when spoken, not like it's
+spelled — get used to saying it that way from the start.
 
-Есть ещё два коротких слова для «он/она/оно», но уже не про людей, а про вещи: **den**
-— когда вещь называется en-словом, и **det** — когда вещь называется ett-словом
-(det используется и в общем смысле «это», как в «Det är kallt» — «холодно»).
+There are two more short words for "it", not about people but about things: **den** —
+when the thing is an en-word, and **det** — when the thing is an ett-word (det is also
+used in a general sense of "it", as in "Det är kallt" — "it's cold").
 
 ```example
-Har du en bil? Den är ny. — У тебя есть машина? Она новая.
-Det är kallt idag. — Сегодня холодно.
+Har du en bil? Den är ny. — Do you have a car? It's new.
+Det är kallt idag. — It's cold today.
 ```
 
-Все семь слов из первой таблицы плюс den/det — это набор, которым можно заменить
-любое имя или любую вещь. Выучи их наизусть, они встретятся в каждом уроке.
+All seven words from the first table, plus den/det, are the toolkit that replaces any
+name or any thing. Learn them by heart — they show up in every lesson.

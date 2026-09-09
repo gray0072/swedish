@@ -1,42 +1,42 @@
-В шведском есть маленькие слова вроде *upp, bort, på, ihåg*, которые в паре с
-глаголом ведут себя по-разному — и это важно различать.
+Swedish has small words like *upp, bort, på, ihåg* that behave differently when
+paired with a verb — and telling the two patterns apart matters.
 
-**Партикельный глагол** — это глагол + частица, где частица несёт **главное
-ударение** и вместе они дают новое, часто непрозрачное значение:
-
-```example
-Jag ringer upp dig imorgon. — Я перезвоню тебе завтра.
-Kom ihåg nyckeln! — Не забудь ключ!
-```
-
-*Ringa* значит «звонить», но *ringa UPP* (ударение на «upp») значит «перезвонить/
-позвонить». *Komma ihåg* дословно «прийти в память», а по смыслу — «помнить,
-вспомнить». Значение целого не выводится напрямую из частей — его нужно просто
-запомнить, как отдельное слово.
-
-Сравни с обычным **«глагол + предлог»**, где предлог безударный и просто вводит
-дополнение — смысл предсказуем:
+A **particle verb** is a verb + particle where the particle carries the **main
+stress**, and together they get a new, often non-transparent meaning:
 
 ```example
-Jag går till skolan. — Я иду в школу.
+Jag ringer upp dig imorgon. — I'll call you back tomorrow.
+Kom ihåg nyckeln! — Don't forget the key!
 ```
 
-Здесь *till* — обычный предлог направления, ударение остаётся на глаголе *går*.
+*Ringa* means "to call", but *ringa UPP* (stress on "upp") means "to call back /
+phone up". *Komma ihåg* literally means "to come into memory", but its actual meaning
+is "to remember". The meaning of the whole isn't predictable from the parts — you
+simply have to learn it as its own word.
 
-**Проверка на практике:** у многих партикельных глаголов частица может стоять
-и после дополнения: *Ring upp mig* и *Ring mig* — обе фразы работают, частица
-«подвижна». У обычного предлога так не получится: нельзя сказать *Jag går skolan
-till*.
+Compare that with an ordinary **"verb + preposition"**, where the preposition is
+unstressed and just introduces an argument — the meaning stays predictable:
 
-Пять частых партикельных глаголов:
+```example
+Jag går till skolan. — I'm going to school.
+```
 
-| Глагол | Буквально | Идиоматично |
+Here *till* is an ordinary preposition of direction, and the stress stays on the verb
+*går*.
+
+**A practical test:** with many particle verbs, the particle can also come after the
+object: *Ring upp mig* and *Ring mig* both work — the particle is "movable". An
+ordinary preposition can't do that: you can't say *Jag går skolan till*.
+
+Five common particle verbs:
+
+| Verb | Literally | Idiomatically |
 |---|---|---|
-| ringa upp | звонить + вверх | перезвонить |
-| ta bort | брать + прочь | убрать, удалить |
-| komma ihåg | приходить + в память | помнить, вспомнить |
-| slå på | бить + на | включить (прибор) |
-| komma på | приходить + на | придумать, сообразить |
+| ringa upp | to ring + up | to call back |
+| ta bort | to take + away | to remove, delete |
+| komma ihåg | to come + into memory | to remember |
+| slå på | to strike + on | to turn on (a device) |
+| komma på | to come + on | to think of, figure out |
 
-Иногда от такого глагола образуется и существительное: *ringa upp* → *en
-uppringning* (звонок).
+Sometimes such a verb also gives rise to a noun: *ringa upp* → *en uppringning*
+(a phone call).

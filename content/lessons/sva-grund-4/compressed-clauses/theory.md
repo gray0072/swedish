@@ -1,53 +1,54 @@
-Инфинитивные обороты (`för att`, `utan att`, `istället för att`) и причастные
-обороты (презенс-партицип: `leende`, `visslande`) — два способа сжать полное
-придаточное в более короткую фразу. У них разные роли: инфинитив сжимает
-придаточное цели/исключения, причастие — придаточное времени/образа действия.
-Посмотрим, как одна и та же мысль сжимается в два шага.
+Infinitive phrases (`för att`, `utan att`, `istället för att`) and participial
+phrases (the present participle: `leende`, `visslande`) are two ways to compress a
+full subordinate clause into a shorter phrase. They play different roles: the
+infinitive compresses a purpose/exception clause, the participle compresses a
+time/manner clause. Let's watch the same idea get compressed in two steps.
 
-## Шаг 1: полное придаточное цели
+## Step 1: a full purpose clause
 
-`För att` перед личным глаголом (обычно со `skulle`) вводит полное придаточное
-цели:
-
-```example
-Hon sprang för att hon skulle hinna med tåget. — Она бежала, чтобы успеть на поезд.
-```
-
-## Шаг 2: то же самое — инфинитивным оборотом
-
-Если подлежащее придаточного цели совпадает с подлежащим главного, придаточное
-сжимается в инфинитивный оборот: `för att` + инфинитив, без своего подлежащего.
+`För att` before a finite verb (usually with `skulle`) introduces a full purpose
+clause:
 
 ```example
-Hon sprang för att hinna med tåget. — Она бежала, чтобы успеть на поезд.
+Hon sprang för att hon skulle hinna med tåget. — She ran so that she would catch the train.
 ```
 
-`Utan att` работает так же для придаточного исключения:
+## Step 2: the same idea as an infinitive phrase
+
+If the subject of the purpose clause matches the subject of the main clause, the
+clause compresses into an infinitive phrase: `för att` + infinitive, with no
+subject of its own.
 
 ```example
-Han gick utan att säga hejdå. — Он ушёл, не попрощавшись.
+Hon sprang för att hinna med tåget. — She ran to catch the train.
 ```
 
-## Шаг 3: добавляем причастный оборот — сжимаем ещё и придаточное образа действия
-
-Придаточное времени/образа действия (`medan hon log`) можно сжать в причастный
-оборот (`leende`), вынесенный в начало предложения:
+`Utan att` works the same way for an exception clause:
 
 ```example
-Hon log medan hon sprang för att hinna med tåget. — Она улыбалась, пока бежала, чтобы успеть на поезд.
-Leende sprang hon för att hinna med tåget. — Улыбаясь, она бежала, чтобы успеть на поезд.
+Han gick utan att säga hejdå. — He left without saying goodbye.
 ```
 
-## Три уровня сжатия одной и той же мысли
+## Step 3: add a participial phrase — compress the manner clause too
 
-| Уровень | Предложение |
+A time/manner clause (`medan hon log`) can be compressed into a participial phrase
+(`leende`) fronted at the start of the sentence:
+
+```example
+Hon log medan hon sprang för att hinna med tåget. — She smiled while she ran to catch the train.
+Leende sprang hon för att hinna med tåget. — Smiling, she ran to catch the train.
+```
+
+## Three levels of compression, same idea
+
+| Level | Sentence |
 |---|---|
-| Полное (два придаточных) | Hon log medan hon sprang, för att hon skulle hinna med tåget. |
-| Инфинитивный оборот вместо цели | Hon log medan hon sprang för att hinna med tåget. |
-| + причастный оборот вместо образа действия | Leende sprang hon för att hinna med tåget. |
+| Full (two clauses) | Hon log medan hon sprang, för att hon skulle hinna med tåget. |
+| Purpose clause compressed to an infinitive phrase | Hon log medan hon sprang för att hinna med tåget. |
+| + manner clause also compressed to a participial phrase | Leende sprang hon för att hinna med tåget. |
 
-## Коротко
+## In short
 
-Инфинитивные обороты сжимают придаточные цели/исключения (`för att`, `utan att`),
-причастные — придаточные времени/образа действия. Их можно применять по отдельности
-или вместе — так письменный текст становится компактнее, не теряя смысла.
+Infinitive phrases compress purpose/exception clauses (`för att`, `utan att`);
+participial phrases compress time/manner clauses. You can use them one at a time
+or together — that's how written text gets more compact without losing meaning.

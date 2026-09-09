@@ -1,44 +1,44 @@
-Delkurs 3 показал шкалу уверенности (`måste`, `borde`, `lär`, `torde`, `kanske`).
-**Хеджирование** — родственная, но более специфичная техника: способ смягчить
-утверждение в академическом или журналистском тексте, не отказываясь от него
-полностью и не называя источник неопределённости прямо.
+Delkurs 3 showed the certainty scale (`måste`, `borde`, `lär`, `torde`, `kanske`).
+**Hedging** is a related but more specific technique: a way to soften a claim in
+academic or journalistic text, without abandoning it entirely and without directly
+naming the source of the uncertainty.
 
-## Три ключевые формулы
+## Three key formulas
 
-| Хедж | Значение | Пример |
+| Hedge | Meaning | Example |
 |---|---|---|
-| `kan tänkas` | вполне возможно, что; можно предположить | Det kan tänkas att torkan har bidragit till fler bränder. |
-| `tycks` | судя по всему, похоже (на основании наблюдений) | Torkan tycks ha ökat antalet skogsbränder. |
-| `förefaller` | по-видимому, представляется (книжно, официально) | Sambandet mellan torka och bränder förefaller vara starkt. |
+| `kan tänkas` | it's quite conceivable that; one might assume | Det kan tänkas att torkan har bidragit till fler bränder. |
+| `tycks` | it seems, apparently (based on observation) | Torkan tycks ha ökat antalet skogsbränder. |
+| `förefaller` | it appears, it would seem (formal, written) | Sambandet mellan torka och bränder förefaller vara starkt. |
 
 ```example
-Det kan tänkas att torkan har bidragit till fler skogsbränder. — Вполне можно предположить, что засуха способствовала увеличению числа лесных пожаров.
-Torkan tycks ha ökat antalet skogsbränder markant. — Похоже, засуха заметно увеличила число лесных пожаров.
-Sambandet mellan torka och bränder förefaller vara starkt. — Связь между засухой и пожарами представляется весьма прочной.
+Det kan tänkas att torkan har bidragit till fler skogsbränder. — It's quite conceivable that the drought contributed to more forest fires.
+Torkan tycks ha ökat antalet skogsbränder markant. — The drought seems to have markedly increased the number of forest fires.
+Sambandet mellan torka och bränder förefaller vara starkt. — The link between drought and fires appears to be strong.
 ```
 
-## Прямое утверждение vs хеджированная академическая версия
+## A blunt claim vs. its hedged academic version
 
 ```example
-Klimatförändringarna orsakar fler skogsbränder. — Изменение климата вызывает больше лесных пожаров. (прямое, категоричное утверждение)
-Klimatförändringarna tycks bidra till fler skogsbränder. — Изменение климата, судя по всему, способствует увеличению числа лесных пожаров. (хеджированное, академическое)
+Klimatförändringarna orsakar fler skogsbränder. — Climate change causes more forest fires. (a blunt, categorical claim)
+Klimatförändringarna tycks bidra till fler skogsbränder. — Climate change seems to contribute to more forest fires. (hedged, academic)
 ```
 
-Разница не в фактах, а в степени ответственности автора за утверждение: прямая
-версия звучит как доказанный факт, хеджированная — как обоснованный, но не
-абсолютный вывод, что типично для науки (данные не всегда дают стопроцентную
-уверенность) и осторожной журналистики.
+The difference isn't in the facts but in how much the author commits to the claim:
+the blunt version sounds like a proven fact, the hedged version sounds like a
+well-founded but non-absolute conclusion — typical of science (data rarely gives
+one hundred percent certainty) and cautious journalism.
 
-## Где это уместно
+## Where it's appropriate
 
-Хеджирование типично для научных статей, аналитических новостей и осторожных
-официальных выводов — там, где автор опирается на данные или наблюдения, но не
-хочет заявлять абсолютную истину. В повседневной речи и в решительных заявлениях
-хедж, наоборот, звучит уклончиво и неуверенно.
+Hedging is typical of research articles, analytical news, and careful official
+conclusions — wherever the author relies on data or observation but doesn't want to
+claim absolute truth. In everyday speech and in decisive statements, a hedge sounds
+evasive and unsure instead.
 
-## Коротко
+## In short
 
-`Kan tänkas`, `tycks` и `förefaller` смягчают утверждение, не превращая его в
-чистое предположение (`kanske`) и не убирая полностью: это инструмент, позволяющий
-сказать «вероятно, но я не настаиваю на стопроцентной уверенности» — стандартный
-приём академического и осторожного журналистского письма.
+`Kan tänkas`, `tycks` and `förefaller` soften a claim without turning it into pure
+speculation (`kanske`) and without dropping it entirely: they let you say
+"probably, but I'm not insisting on one hundred percent certainty" — a standard
+move in academic and careful journalistic writing.

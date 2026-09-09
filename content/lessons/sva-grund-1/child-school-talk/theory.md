@@ -1,31 +1,32 @@
-Ett–två gånger per läsår bjuder skolan in föräldrar till ett **utvecklingssamtal**
-(«развитийная беседа») — ett samtal med läraren om hur det går för barnet. Ofta finns
-en **individuell utvecklingsplan** («индивидуальный план развития», förkortas IUP), där
-läraren skriver ner mål och uppföljning.
+Once or twice a school year, the school invites parents to an **utvecklingssamtal**
+(development talk) — a conversation with the teacher about how the child is doing.
+There is often an **individuell utvecklingsplan** (individual development plan,
+abbreviated IUP), where the teacher writes down goals and follow-up notes.
 
 ```example
-Vi har blivit inbjudna till ett utvecklingssamtal på torsdag. — Нас пригласили на развитийную беседу в четверг.
-Hur går det för honom i skolan just nu? — Как у него сейчас дела в школе?
+Vi har blivit inbjudna till ett utvecklingssamtal på torsdag. — We've been invited to a development talk on Thursday.
+Hur går det för honom i skolan just nu? — How is he doing at school right now?
 ```
 
-Läraren berättar ofta om barnets **styrkor och svagheter** («сильные и слабые
-стороны»): vad som går bra och vad som behöver övas mer. Man pratar också om
-**läxor** («домашние задания»), **närvaro** («посещаемость») och **betyg**
-(«оценки»), om barnet redan får sådana.
+The teacher usually talks about the child's **styrkor och svagheter** (strengths
+and weaknesses): what's going well and what needs more practice. You'll also talk
+about **läxor** (homework), **närvaro** (attendance), and **betyg** (grades), if
+the child already receives them.
 
 ```example
-Hon är stark i matematik men behöver träna mer på att läsa. — Она сильна в математике, но ей нужно больше тренироваться в чтении.
-Gör han läxorna varje dag? — Он делает домашние задания каждый день?
+Hon är stark i matematik men behöver träna mer på att läsa. — She's strong in math but needs to practice reading more.
+Gör han läxorna varje dag? — Does he do his homework every day?
 ```
 
-Som förälder kan man alltid fråga vad man kan göra hemma för att hjälpa till, och
-be **läraren** eller **mentorn** förklara ord man inte förstår. Ibland är det bra
-att skriva ner viktiga punkter under samtalet, så att man kommer ihåg dem senare.
+As a parent, you can always ask what you can do at home to help, and ask the
+**lärare** (teacher) or **mentor** to explain any word you don't understand.
+It's often useful to write down important points during the talk so you remember
+them later.
 
 ```example
-Vad kan vi göra hemma för att hjälpa henne? — Что мы можем делать дома, чтобы ей помочь?
-Kan du förklara vad det ordet betyder? — Можете объяснить, что значит это слово?
+Vad kan vi göra hemma för att hjälpa henne? — What can we do at home to help her?
+Kan du förklara vad det ordet betyder? — Can you explain what that word means?
 ```
 
-Om man inte kan komma på den föreslagna tiden går det oftast bra att **boka in**
-samtalet en annan dag — skolan brukar vara flexibel med detta.
+If the suggested time doesn't work for you, it's usually fine to **boka in** the
+talk for another day — schools tend to be flexible about this.

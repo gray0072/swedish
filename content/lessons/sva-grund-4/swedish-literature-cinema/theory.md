@@ -1,49 +1,49 @@
-Чтобы поддержать разговор о шведской культуре, не нужно знать сюжеты всех
-книг и фильмов — достаточно общей лексики и нескольких имён, которые узнают
-почти все шведы.
+To take part in a conversation about Swedish culture, you don't need to know
+every plot — general vocabulary plus a few names almost every Swede
+recognizes is enough.
 
-## Нобелевские лауреаты и классики
+## Nobel laureates and classics
 
 ```example
-Selma Lagerlöf var den första kvinnliga nobelpristagaren i litteratur. — Сельма Лагерлёф была первой женщиной — нобелевским лауреатом по литературе.
+Selma Lagerlöf var den första kvinnliga nobelpristagaren i litteratur. — Selma Lagerlöf was the first woman to win the Nobel Prize in Literature.
 ```
 
 ```example
-Astrid Lindgrens böcker om Pippi Långstrump är svenska klassiker. — Книги Астрид Линдгрен о Пеппи Длинныйчулок — шведская классика.
+Astrid Lindgrens böcker om Pippi Långstrump är svenska klassiker. — Astrid Lindgren's books about Pippi Longstocking are Swedish classics.
 ```
 
-`Klassiker` — произведение, которое остаётся известным десятилетиями.
+`Klassiker` — a work that stays well-known for decades.
 
-## Кино и режиссёры
-
-```example
-Ingmar Bergman är en av Sveriges mest kända regissörer. — Ингмар Бергман — один из самых известных режиссёров Швеции.
-```
+## Cinema and directors
 
 ```example
-Många av Stieg Larssons böcker har fått en filmatisering. — Многие книги Стига Ларссона были экранизированы.
-```
-
-`Filmatisering` — экранизация, то есть фильм, снятый по книге.
-
-## Современная литература
-
-```example
-Samtidslitteraturen tar ofta upp aktuella samhällsfrågor. — Современная литература часто затрагивает актуальные общественные вопросы.
-```
-
-## Как говорить об этом в разговоре
-
-```example
-Har du läst något av henne? Jag har bara sett filmatiseringen. — Ты читал(а) что-нибудь из её книг? Я только видел(а) экранизацию.
+Ingmar Bergman är en av Sveriges mest kända regissörer. — Ingmar Bergman is one of Sweden's best-known directors.
 ```
 
 ```example
-Han räknas som en av de stora inom svensk film. — Его считают одним из великих в шведском кино.
+Många av Stieg Larssons böcker har fått en filmatisering. — Many of Stieg Larsson's books have been made into films.
 ```
 
-## Полезно знать
+`Filmatisering` — a film adaptation, i.e. a movie based on a book.
 
-1. Не обязательно знать сюжет — достаточно назвать имя и одно-два слова о нём.
-2. `Regissör` относится к фильму, `författare` — к книге.
-3. Многие шведские детективы (deckare) экранизированы и известны за рубежом.
+## Contemporary literature
+
+```example
+Samtidslitteraturen tar ofta upp aktuella samhällsfrågor. — Contemporary literature often deals with current social issues.
+```
+
+## Talking about it in conversation
+
+```example
+Har du läst något av henne? Jag har bara sett filmatiseringen. — Have you read anything by her? I've only seen the film adaptation.
+```
+
+```example
+Han räknas som en av de stora inom svensk film. — He's considered one of the greats in Swedish cinema.
+```
+
+## Good to know
+
+1. You don't need to know the plot — a name and a word or two about them is enough.
+2. `Regissör` refers to film, `författare` to a book.
+3. Many Swedish crime novels (deckare) have been filmed and are well-known abroad.

@@ -1,50 +1,49 @@
-Связки из прошлого урока соединяют абзацы. Но текст держится вместе ещё и на
-**референции** — местоимениях, которые отсылают назад не к одному слову, а к целой
-предыдущей мысли или ситуации. Это и есть когезия: то, что мешает тексту
-рассыпаться на список несвязанных фактов.
+The connectors from the last lesson join paragraphs. But a text also holds
+together through **reference** — pronouns that point back not to one word but to
+an entire preceding idea or situation. This is cohesion: what keeps a text from
+falling apart into a list of unconnected facts.
 
-## det: отсылка к целой ситуации
+## det: referring back to a whole situation
 
-`Det` может относиться не к конкретному существительному, а ко всему предыдущему
-факту целиком:
-
-```example
-Han fick jobbet. Det gläder mig. — Он получил работу. Это меня радует.
-```
-
-Здесь «det» = не «работу» (jobbet, en-слово, потребовало бы «den»), а сам факт
-«он получил работу» целиком — поэтому используется нейтральная форма «det».
-
-## detta + существительное: подытоживающая ссылка
-
-`Detta` (или `denna`/`dessa`) перед существительным-«ярлыком» (`beslut`, `utveckling`,
-`problem`) подытоживает предыдущее предложение одним словом:
+`Det` can refer not to a specific noun but to the whole preceding fact:
 
 ```example
-Hon flyttade till Stockholm. Detta beslut kom som en överraskning för alla. — Она переехала в Стокгольм. Это решение стало неожиданностью для всех.
+Han fick jobbet. Det gläder mig. — He got the job. That makes me glad.
 ```
 
-«Detta beslut» — не новое решение, а название того, что уже было сказано: сам
-переезд назван «решением» задним числом.
+Here "det" doesn't mean "the job" (jobbet, an en-word, which would need "den") — it
+means the whole fact "he got the job" — hence the neuter form "det".
 
-## vilket: отсылка ко всему предыдущему придаточному
+## detta + a noun: a summarising label
 
-`Vilket`, стоящее после запятой в начале нового придаточного, отсылает не к
-существительному, а **ко всей предшествующей части предложения**:
+`Detta` (or `denna`/`dessa`) before a "label" noun (`beslut`, `utveckling`,
+`problem`) sums up the previous sentence in one word:
 
 ```example
-Han kom för sent, vilket irriterade henne. — Он опоздал, что её раздражало.
-Priserna steg kraftigt i somras, vilket ledde till stora protester. — Цены резко выросли этим летом, что привело к масштабным протестам.
+Hon flyttade till Stockholm. Detta beslut kom som en överraskning för alla. — She moved to Stockholm. This decision came as a surprise to everyone.
 ```
 
-`Vilket` всегда стоит в форме среднего рода единственного числа, независимо от
-рода или числа слов вокруг — потому что оно ссылается не на существительное, а на
-факт/событие целиком. Это отличает его от обычного относительного `som`, который
-всегда указывает на конкретное слово-антецедент (см. предыдущий урок).
+"Detta beslut" isn't a new decision — it's a name for what was already said: the
+move itself is retroactively labelled a "decision".
 
-## Коротко
+## vilket: referring back to the whole preceding clause
 
-`Det` подхватывает предыдущую ситуацию целиком; `detta` + существительное подводит
-ей итог одним словом; `vilket` после запятой связывает новое придаточное со всей
-предыдущей частью предложения. Без этих ссылок текст читался бы как набор
-несвязанных фактов, даже если каждое предложение грамматически верно само по себе.
+`Vilket`, placed after a comma at the start of a new clause, refers not to a noun
+but to **the entire preceding part of the sentence**:
+
+```example
+Han kom för sent, vilket irriterade henne. — He came late, which annoyed her.
+Priserna steg kraftigt i somras, vilket ledde till stora protester. — Prices rose sharply last summer, which led to major protests.
+```
+
+`Vilket` always stays in the neuter singular form, regardless of the gender or
+number of the surrounding words — because it refers not to a noun but to a whole
+fact or event. That sets it apart from the ordinary relative `som`, which always
+points to a specific noun antecedent (see the previous lesson).
+
+## In short
+
+`Det` picks up the previous situation as a whole; `detta` + a noun sums it up in
+one word; `vilket` after a comma links a new clause to the entire preceding part of
+the sentence. Without these references, a text would read as a set of unconnected
+facts even if every single sentence were grammatically correct on its own.

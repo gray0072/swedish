@@ -1,34 +1,34 @@
-**Allemansrätten** («право каждого») är en unik svensk rätt: alla får vistas
-fritt i **naturen** («природе») — gå i **skogen** («лесу»), bada i en **sjö**
-(«озере») eller **vandra** («ходить в поход») över privat **mark** («землю») —
-utan att fråga markägaren om lov.
+**Allemansrätten** (the right of public access, literally "everyone's right") is
+a unique Swedish right: everyone may freely enjoy **naturen** (nature) — walk in
+the **skog** (forest), swim in a **sjö** (lake), or **vandra** (hike) across
+private **mark** (land) — without asking the landowner for permission.
 
 ```example
-Vi kan vandra i skogen så mycket vi vill. — Мы можем сколько угодно ходить в поход по лесу.
-Får man tälta här en natt? — Здесь можно поставить палатку на одну ночь?
+Vi kan vandra i skogen så mycket vi vill. — We can hike in the forest as much as we want.
+Får man tälta här en natt? — Can you pitch a tent here for one night?
 ```
 
-Rätten ger också möjlighet att **plocka bär och svamp** («собирать ягоды и
-грибы») och **tälta** en natt nästan var som helst i naturen. Men med rätten
-kommer ansvar: man ska **respektera naturen** («уважать природу») och andra
-människor — mottot är **"inte störa, inte förstöra"** («не мешать, не
-портить»).
+The right also lets you **plocka bär och svamp** (pick berries and mushrooms)
+and **tälta** (camp) for one night almost anywhere in nature. But with the
+right comes responsibility: you must **respektera naturen** (respect nature)
+and other people — the motto is **"inte störa, inte förstöra"** ("don't
+disturb, don't destroy").
 
 ```example
-Man får plocka bär och svamp fritt i skogen. — В лесу можно свободно собирать ягоды и грибы.
-Kom ihåg: inte störa, inte förstöra! — Помни: не мешать, не портить!
+Man får plocka bär och svamp fritt i skogen. — You may freely pick berries and mushrooms in the forest.
+Kom ihåg: inte störa, inte förstöra! — Remember: don't disturb, don't destroy!
 ```
 
-Det finns gränser. Man får inte gå för nära någons hus — det kallas
-**hemfridszonen** («приватная зона у дома») — eller gå över en **tomt**
-(«приусадебный участок») utan lov. Man får inte köra bil eller motorcykel i
-naturen, inte skräpa ner, och inte bryta grenar från levande träd. Nära djur och
-fåglar, särskilt på våren, ska man vara extra försiktig.
+There are limits. You may not get too close to someone's house — this is
+called the **hemfridszon** (the private zone around a home) — or cross a
+**tomt** (a house plot/garden) without permission. You may not drive a car or
+motorcycle off-road, litter, or break branches off living trees. Near animals
+and birds, especially in spring, you should be extra careful.
 
 ```example
-Man får inte gå för nära husets hemfridszon. — Нельзя подходить слишком близко к приватной зоне дома.
-Skräpa aldrig ner i naturen. — Никогда не мусори на природе.
+Man får inte gå för nära husets hemfridszon. — You may not get too close to a house's private zone.
+Skräpa aldrig ner i naturen. — Never litter in nature.
 ```
 
-Allemansrätten är alltså en fantastisk frihet — men den bygger på förtroende och
-gemensamt ansvar för naturen.
+Allemansrätten is a wonderful freedom — but it rests on trust and shared
+responsibility for nature.

@@ -1,44 +1,44 @@
-Миграция и интеграция — тема, которая требует особенно нейтральной,
-фактической лексики. Этот урок даёт официальные термины, которые
-используются в шведских текстах об этой теме, — без оценочных суждений.
+Migration and integration is a topic that calls for especially neutral,
+factual vocabulary. This lesson gives you the official terms used in Swedish
+texts on this topic — without value judgments.
 
-## Migration och integration
+## Migration and integration
 
 ```example
-Migration innebär att människor flyttar från ett land till ett annat. — Миграция означает, что люди переезжают из одной страны в другую.
+Migration innebär att människor flyttar från ett land till ett annat. — Migration means that people move from one country to another.
 ```
 
 ```example
-Integration handlar om att bli en del av samhället i det nya landet. — Интеграция — это становление частью общества в новой стране.
+Integration handlar om att bli en del av samhället i det nya landet. — Integration is about becoming part of society in the new country.
 ```
 
-## Mångkulturell och mångfald
+## Mångkulturell and mångfald
 
 ```example
-Sverige beskrivs ofta som ett mångkulturellt samhälle. — Швецию часто описывают как многокультурное общество.
-```
-
-```example
-Mångfald på arbetsplatsen kan berika verksamheten. — Разнообразие на рабочем месте может обогатить работу организации.
-```
-
-## Samhällsorientering och etablering
-
-Для новоприбывших (`nyanlända`) в Швеции существуют специальные курсы:
-
-```example
-Samhällsorientering ger nyanlända grundläggande kunskap om Sverige. — Курс общественной ориентации даёт новоприбывшим базовые знания о Швеции.
+Sverige beskrivs ofta som ett mångkulturellt samhälle. — Sweden is often described as a multicultural society.
 ```
 
 ```example
-Etablering på arbetsmarknaden tar ofta längre tid för nyanlända. — Закрепление на рынке труда часто занимает больше времени у новоприбывших.
+Mångfald på arbetsplatsen kan berika verksamheten. — Diversity in the workplace can enrich an organization.
 ```
 
-## Официальные термины
+## Samhällsorientering and etablering
+
+Sweden offers a special course for newly arrived people (`nyanlända`):
 
 ```example
-Efter beviljad asyl kan man ansöka om uppehållstillstånd. — После предоставления убежища можно подать заявление на вид на жительство.
+Samhällsorientering ger nyanlända grundläggande kunskap om Sverige. — Civic orientation gives newly arrived people basic knowledge about Sweden.
 ```
 
-Слова этого урока — нейтральные, официальные термины из шведской
-миграционной и интеграционной политики, а не разговорные оценки.
+```example
+Etablering på arbetsmarknaden tar ofta längre tid för nyanlända. — Establishment in the labour market often takes longer for newly arrived people.
+```
+
+## Official terms
+
+```example
+Efter beviljad asyl kan man ansöka om uppehållstillstånd. — After asylum is granted, one can apply for a residence permit.
+```
+
+The words in this lesson are neutral, official terms from Swedish migration
+and integration policy, not colloquial judgments.

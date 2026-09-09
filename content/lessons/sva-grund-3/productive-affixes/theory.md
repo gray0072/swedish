@@ -1,46 +1,48 @@
-Прошлый урок показал несколько отдельных моделей словообразования. Теперь
-систематизируем один частный, но очень полезный случай — образование
-существительных, обозначающих «человека, который...» (agent noun). Здесь чётко
-видны две разные модели в зависимости от того, от чего образовано слово.
+The previous lesson showed several separate word-formation patterns. Now let's
+systematise one particular but very useful case — forming nouns that mean "a person
+who does X" (agent nouns). Here you can clearly see two different patterns,
+depending on what the word is formed from.
 
-## Отглагольные (deverbal): суффикс -are
+## Deverbal: the suffix -are
 
-Самая продуктивная модель — присоединить `-are` прямо к основе глагола. Значение:
-«тот, кто делает это действие»:
-
-```example
-springa → en springare — бежать → бегун
-läsa → en läsare — читать → читатель
-sälja → en säljare — продавать → продавец
-simma → en simmare — плавать → пловец
-```
-
-Эта модель работает почти с любым глаголом и остаётся живой: новое слово на `-are`
-от нового глагола обычно сразу понятно шведу, даже если раньше он его не слышал.
-
-## Отыменные (denominal): суффикс -när / -är
-
-Другая, гораздо менее продуктивная модель образует существительное «человек,
-связанный с X» не от глагола, а прямо от существительного:
+The most productive pattern is attaching `-are` directly to a verb stem. The
+meaning: "someone who does this action":
 
 ```example
-konst → en konstnär — искусство → художник
-tull → en tullnär — таможня, пошлина → таможенник
-miljon → en miljonär — миллион → миллионер
-revolution → en revolutionär — революция → революционер
+springa → en springare — to run → a runner
+läsa → en läsare — to read → a reader
+sälja → en säljare — to sell → a salesperson
+simma → en simmare — to swim → a swimmer
 ```
 
-## Сравним модели
+This pattern works with almost any verb and stays fully alive: a new word in `-are`
+built from a new verb is usually instantly understood by a Swedish speaker, even if
+they've never heard it before.
 
-| Модель | От чего образовано | Пример |
+## Denominal: the suffix -när / -är
+
+Another, far less productive pattern forms a noun meaning "a person connected to X"
+not from a verb, but directly from a noun:
+
+```example
+konst → en konstnär — art → an artist
+tull → en tullnär — customs, duty → a customs officer
+miljon → en miljonär — a million → a millionaire
+revolution → en revolutionär — a revolution → a revolutionary
+```
+
+## Comparing the two patterns
+
+| Pattern | Formed from | Example |
 |---|---|---|
-| -are (deverbal) | от глагола | läsa → läsare |
-| -när / -är (denominal) | от существительного | konst → konstnär |
+| -are (deverbal) | a verb | läsa → läsare |
+| -när / -är (denominal) | a noun | konst → konstnär |
 
-## Итог
+## The takeaway
 
-`-are` — открытая, продуктивная модель: ей подчиняется практически любой глагол.
-`-när`/`-är`, напротив, закрытая группа: слов не так много, и новое слово по этой
-модели образовать самому обычно нельзя — такие существительные нужно запоминать
-готовыми, словарно, как и заимствования вообще. Различие «продуктивная модель vs
-закрытый список» — ключ к тому, как вообще устроено словообразование в шведском.
+`-are` is an open, productive pattern: it applies to virtually any verb. `-när`/`-är`,
+by contrast, is a closed group: there aren't many such words, and you usually can't
+coin a new one on your own by this pattern — these nouns have to be memorised
+ready-made, the way loanwords in general are. The distinction between "a productive
+pattern" and "a closed list" is the key to how word formation actually works in
+Swedish.

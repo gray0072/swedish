@@ -1,35 +1,35 @@
-## Плюсквамперфект: hade + супин
+## The pluperfect: hade + supine
 
-Плюсквамперфект строится так же, как перфект (**har + супин**), только вспомогательный
-глагол стоит в прошедшем времени: **hade + супин**. Это «прошлое до прошлого».
+The pluperfect is built just like the perfect (**har + supine**), except the auxiliary
+verb is in the past tense: **hade + supine**. It's "the past before the past".
 
-## Порядок событий в рассказе
+## The order of events in a narrative
 
-Рассказ о прошлом обычно идёт в **претерите** — это главная линия событий, одно за
-другим. Но если нужно упомянуть что-то, что случилось РАНЬШЕ этой линии, используют
-**плюсквамперфект** — рассказчик как бы «отступает назад», а потом возвращается к
-основной линии.
-
-```example
-Jag kom hem klockan sju. — Я пришёл домой в семь.
-Jag hade redan ätit middag på jobbet. — Я уже поел на работе (до того, как пришёл домой).
-Sedan somnade jag direkt. — Потом я сразу заснул.
-```
-
-Здесь три события: **kom** и **somnade** (претерит) — главная линия по порядку; **hade
-ätit** (плюсквамперфект) случилось раньше первого события — это отступление, объясняющее
-контекст.
-
-## Сигналы плюсквамперфекта
-
-Слова **redan** (уже), **tidigare** (раньше), **innan** (до того как) часто сопровождают
-плюсквамперфект, подсказывая, что событие сдвинуто назад во времени относительно
-остального рассказа.
+A story about the past usually runs in the **preteritum** — the main timeline, one event
+after another. But when you need to mention something that happened BEFORE that timeline,
+you use the **pluperfect** — the narrator steps back for a moment, then returns to the
+main line.
 
 ```example
-När hon kom till stationen hade tåget redan gått. — Когда она пришла на вокзал, поезд уже ушёл.
-Han var trött eftersom han inte hade sovit på natten. — Он был усталым, потому что не спал ночью.
+Jag kom hem klockan sju. — I got home at seven.
+Jag hade redan ätit middag på jobbet. — I had already eaten dinner at work (before getting home).
+Sedan somnade jag direkt. — Then I fell asleep right away.
 ```
 
-Правило простое: если в рассказе о прошлом нужно сказать «а до этого уже случилось
-кое-что другое» — это и есть работа плюсквамперфекта.
+There are three events here: **kom** and **somnade** (preteritum) form the main timeline,
+in order; **hade ätit** (pluperfect) happened before the first of them — a step back that
+fills in the context.
+
+## Signals of the pluperfect
+
+Words like **redan** (already), **tidigare** (earlier), **innan** (before) often
+accompany the pluperfect, signalling that the event is shifted back in time relative to
+the rest of the story.
+
+```example
+När hon kom till stationen hade tåget redan gått. — When she got to the station, the train had already left.
+Han var trött eftersom han inte hade sovit på natten. — He was tired because he hadn't slept that night.
+```
+
+The rule in one line: when a past narrative needs to say "but before that, something else
+had already happened" — that's the pluperfect at work.

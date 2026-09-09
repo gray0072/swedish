@@ -1,49 +1,51 @@
-Delkurs 2 показал претерит как основную линию рассказа о прошлом и плюсквамперфект
-для «отступлений назад». Здесь — приём, который сознательно **ломает** эту
-ожидаемую схему ради эффекта: историческое настоящее время (historiskt presens).
+Delkurs 2 showed the preterite as the main storyline of a past narrative, and the
+pluperfect for "stepping back" to something earlier. Here is a device that
+deliberately **breaks** that expected pattern for effect: the historical present
+(historiskt presens).
 
-## Историческое настоящее — рассказ о прошлом в презенсе
+## The historical present — narrating the past in the present tense
 
-Рассказчик описывает прошлые события в настоящем времени, чтобы сделать их более
-живыми, «происходящими прямо сейчас на глазах читателя». Это частый приём в
-художественной литературе, устных рассказах и драматичных новостных репортажах:
+The narrator describes past events in the present tense to make them feel more
+vivid, "happening right in front of the reader." This is a common device in
+literary fiction, oral storytelling, and dramatic news reports:
 
 ```example
-Det är år 1863. Kungen reser till huvudstaden och möter folket på torget. — Идёт 1863 год. Король едет в столицу и встречает народ на площади.
+Det är år 1863. Kungen reser till huvudstaden och möter folket på torget. — It is the year 1863. The king travels to the capital and meets the people in the square.
 ```
 
-Хотя грамматически это презенс, читатель понимает по контексту (дата, обстановка),
-что речь о прошлом — временной сдвиг тут чисто стилистический, не меняющий смысл
-факта.
+Although grammatically this is the present tense, the reader understands from
+context (the date, the setting) that it refers to the past — the tense shift here
+is purely stylistic and does not change the underlying fact.
 
-## Сравнение: обычный претерит vs историческое настоящее
+## Comparison: ordinary preterite vs historical present
 
-| Форма | Эффект | Пример |
+| Form | Effect | Example |
 |---|---|---|
-| Претерит | нейтральное повествование о прошлом | Kungen reste till huvudstaden 1863. |
-| Историческое настоящее | живость, «как будто на глазах» | Det är 1863. Kungen reser till huvudstaden. |
+| Preterite | neutral narration of the past | Kungen reste till huvudstaden 1863. |
+| Historical present | vividness, "as if before your eyes" | Det är 1863. Kungen reser till huvudstaden. |
 
 ```example
-Kungen reste till huvudstaden 1863 och möttes av jublande folkmassor. — Король поехал в столицу в 1863 году и был встречен ликующей толпой. (нейтральный претерит)
-Året är 1863. Kungen reser till huvudstaden och möts av jublande folkmassor. — Идёт 1863 год. Король едет в столицу, и его встречает ликующая толпа. (живее, историческое настоящее)
+Kungen reste till huvudstaden 1863 och möttes av jublande folkmassor. — The king travelled to the capital in 1863 and was met by cheering crowds. (neutral preterite)
+Året är 1863. Kungen reser till huvudstaden och möts av jublande folkmassor. — It is 1863. The king travels to the capital and is met by cheering crowds. (more vivid, historical present)
 ```
 
-## Осознанный слом ожидаемого времени
+## Deliberately breaking the expected tense
 
-Опытный автор может внутри одного отрывка переключаться между претеритом (фоновое
-повествование) и историческим настоящим (кульминационный момент), чтобы
-подчеркнуть именно этот момент:
+A skilled writer can switch within a single passage between the preterite
+(background narration) and the historical present (the climactic moment), to
+throw that moment into relief:
 
 ```example
-Han gick länge i skogen. Plötsligt hör han ett ljud bakom sig. — Он долго шёл по лесу. Вдруг он слышит звук позади себя.
+Han gick länge i skogen. Plötsligt hör han ett ljud bakom sig. — He walked in the forest for a long time. Suddenly he hears a sound behind him.
 ```
 
-Здесь фон («шёл») — в претерите, а кульминация («слышит») — нарочно в презенсе:
-эффект внезапности, будто читатель переживает момент вместе с героем.
+Here the background ("walked") is in the preterite, while the climax ("hears") is
+deliberately in the present tense: the effect is one of suddenness, as if the
+reader is living the moment alongside the character.
 
-## Коротко
+## In short
 
-Историческое настоящее — не грамматическая ошибка и не путаница времён, а
-осознанный литературный приём: рассказчик переключается на презенс в самый
-напряжённый момент прошлого рассказа, чтобы сделать сцену более живой и
-непосредственной.
+The historical present is not a grammatical error or a mix-up of tenses, but a
+deliberate literary device: the narrator switches to the present tense at the most
+intense moment of a past narrative to make the scene feel more vivid and
+immediate.

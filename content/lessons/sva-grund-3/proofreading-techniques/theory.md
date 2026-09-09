@@ -1,50 +1,50 @@
-Последний урок делкурса собирает вместе типичные ошибки, которые русско- и
-англоязычные (да и вообще большинство) учащиеся переносят из родного языка в
-шведский, — и конкретные приёмы, как выловить их самому, без учителя.
+This last lesson of the delkurs gathers together the typical errors that
+Russian- and English-speaking (and most other) learners carry over from their native
+language into Swedish — and concrete techniques for catching them yourself, without
+a teacher.
 
-## 1. Пропущенный артикль en/ett
+## 1. A missing en/ett article
 
-В русском артиклей нет вовсе, а в английском артикль не связан с родом — поэтому
-легко забыть его в шведском:
-
-```example
-✗ Jag har bil. → ✓ Jag har en bil. — У меня есть машина.
-```
-
-## 2. Забытая инверсия после вынесенного обстоятельства
-
-По-русски и по-английски порядок подлежащее-сказуемое не меняется, если предложение
-начинается с обстоятельства. По-шведски после V2 обязательна инверсия:
+Russian has no articles at all, and English articles aren't tied to gender — so it's
+easy to forget the article in Swedish:
 
 ```example
-✗ Idag jag är trött. → ✓ Idag är jag trött. — Сегодня я устал.
+✗ Jag har bil. → ✓ Jag har en bil. — I have a car.
 ```
 
-## 3. Лишняя запятая перед att/som
+## 2. Forgotten inversion after a fronted adverbial
 
-В русском перед «что» и «который» запятая обязательна — по-шведски перед `att` и
-ограничительным `som` её почти никогда не ставят:
+In Russian and English, subject-verb order doesn't change when a sentence opens
+with an adverbial. In Swedish, V2 requires inversion:
 
 ```example
-✗ Jag tror, att hon kommer. → ✓ Jag tror att hon kommer. — Я думаю, что она придёт.
+✗ Idag jag är trött. → ✓ Idag är jag trött. — Today I'm tired.
 ```
 
-## 4. Пропущенная двойная определённость
+## 3. An extra comma before att/som
 
-Если перед существительным стоит определённый артикль (`den/det/de`) и
-прилагательное, само существительное всё равно должно получить свою определённую
-форму:
+Many languages require a comma before "that" and "which/who" — in Swedish, a comma
+before `att` and a restrictive `som` is almost never used:
 
 ```example
-✗ den stora hus → ✓ det stora huset — этот большой дом
+✗ Jag tror, att hon kommer. → ✓ Jag tror att hon kommer. — I think that she's coming.
 ```
 
-## Три приёма самопроверки
+## 4. Missing double definiteness
 
-1. **Читайте текст вслух.** Пропущенное слово или сбитый ритм фразы часто слышны,
-   даже если незаметны при чтении про себя.
-2. **Пройдитесь по каждому huvudsats и проверьте: личный глагол — на втором
-   месте?** Особенно после длинного или необычного fundament.
-3. **Проверьте род каждого существительного по всему тексту.** Если слово в начале
-   текста было `en bil`, а дальше вдруг появилось `det bilen` — это несогласованность,
-   которую легко не заметить, но легко исправить, если специально искать её.
+When a noun is preceded by a definite article (`den/det/de`) and an adjective, the
+noun itself still has to take its own definite form:
+
+```example
+✗ den stora hus → ✓ det stora huset — this big house
+```
+
+## Three self-editing techniques
+
+1. **Read the text aloud.** A missing word or an off rhythm is often audible even
+   when it's invisible when reading silently.
+2. **Go through every huvudsats and check: is the finite verb in second position?**
+   Especially after a long or unusual fundament.
+3. **Check the gender of every noun across the whole text.** If a word started out
+   as `en bil` but later shows up as `det bilen`, that's an inconsistency — easy to
+   miss, but easy to fix once you specifically look for it.

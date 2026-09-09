@@ -1,7 +1,7 @@
-В шведском простом предложении слова почти всегда стоят в одном и том же порядке:
-сначала тот, кто что-то делает, потом слово-действие, потом всё остальное.
+In a simple Swedish sentence, the words almost always come in the same order:
+first the one who does something, then the action word, then everything else.
 
-| кто | слово-действие | всё остальное |
+| who | the action word | the rest |
 |---|---|---|
 | Jag | bor | i Malmö |
 | Du | heter | Ali |
@@ -10,24 +10,24 @@
 | De | bor | i Göteborg |
 
 ```example
-Jag bor i Malmö. — Я живу в Мальмё.
-Du heter Ali. — Тебя зовут Али.
-Vi talar svenska. — Мы говорим по-шведски.
-Han jobbar i Stockholm. — Он работает в Стокгольме.
-De bor i Göteborg. — Они живут в Гётеборге.
+Jag bor i Malmö. — I live in Malmö.
+Du heter Ali. — Your name is Ali.
+Vi talar svenska. — We speak Swedish.
+Han jobbar i Stockholm. — He works in Stockholm.
+De bor i Göteborg. — They live in Gothenburg.
 ```
 
-Этот шаблон — кто → слово-действие → всё остальное — работает почти для любого
-простого шведского предложения. Части нельзя переставлять местами: «Bor jag i
-Malmö» или «I Malmö jag bor» звучат неправильно.
+This shape — who → the action word → the rest — works for almost any simple
+Swedish sentence. The parts can't swap places: "Bor jag i Malmö" or "I Malmö jag
+bor" sound wrong.
 
-Слово-действие не меняется в зависимости от того, кто стоит первым: jag bor, du
-bor, han bor, de bor — форма одна и та же. Меняется только то, кто занимает
-первое место.
+The action word doesn't change depending on who comes first: jag bor, du bor,
+han bor, de bor — it's the same form every time. Only who stands in first
+place changes.
 
-«Всё остальное» может быть коротким или длинным — одно слово (Ali) или
-несколько (i Malmö, i Göteborg). Сколько бы слов там ни было, они всегда идут
-одним блоком после слова-действия, а не перед ним.
+"The rest" can be short or long — one word (Ali) or several (i Malmö, i
+Göteborg). However many words there are, they always come together as one
+block after the action word, never before it.
 
-Запомни форму, а не длинное правило: «кто» + «слово-действие» + «всё остальное» —
-и по этому шаблону можно собрать любое простое предложение.
+Learn the shape, not a long rule: "who" + "the action word" + "the rest" — and
+you can build any simple statement on this pattern.

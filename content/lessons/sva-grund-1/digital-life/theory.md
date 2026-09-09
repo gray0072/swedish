@@ -1,33 +1,33 @@
-Цифровая жизнь в Швеции начинается с **BankID** — приложения для идентификации, через
-которое входят в интернет-банк, госуслуги и многие частные сервисы. BankID — это один
-из видов **e-legitimation** («электронного удостоверения личности»).
+Digital life in Sweden starts with **BankID** — an identification app used to log in to
+online banking, government e-services, and many private services. BankID is a type of
+**e-legitimation** ("electronic ID").
 
 ```example
-Logga in med BankID för att se dina uppgifter. — Войди через BankID, чтобы увидеть свои данные.
-BankID är en typ av e-legitimation. — BankID — это один из видов электронного удостоверения личности.
+Logga in med BankID för att se dina uppgifter. — Log in with BankID to see your information.
+BankID är en typ av e-legitimation. — BankID is a type of electronic ID.
 ```
 
-Почти у каждого госоргана есть личный кабинет — **Mina sidor** («Мои страницы»), где
-видны заявления, письма и статус дел. Чтобы войти, нужно **logga in** («войти»), а
-после — **logga ut** («выйти»).
+Almost every authority has a personal account portal — **Mina sidor** ("my pages") —
+where you see your applications, letters, and case status. To get in you **logga in**
+("log in"), and afterwards you **logga ut** ("log out").
 
 ```example
-Du hittar din ansökan under Mina sidor. — Ты найдёшь своё заявление в разделе «Мои страницы».
-Glöm inte att logga ut efteråt. — Не забудь выйти из системы после.
+Du hittar din ansökan under Mina sidor. — You'll find your application under "Mina sidor".
+Glöm inte att logga ut efteråt. — Don't forget to log out afterwards.
 ```
 
-Вместо бумажных писем многие получают почту от государства в **digital brevlåda**
-(«цифровой почтовый ящик») — самый известный сервис называется **Kivra**.
+Instead of paper letters, many people receive mail from the government in a
+**digital brevlåda** ("digital mailbox") — the best-known service is called **Kivra**.
 
 ```example
-Jag får mina brev från myndigheterna i Kivra. — Письма от госорганов я получаю в Kivra.
+Jag får mina brev från myndigheterna i Kivra. — I receive my letters from the authorities in Kivra.
 ```
 
-Полезные слова для повседневной работы с телефоном: **app** («приложение»), которое
-нужно **ladda ner** («скачать») и время от времени **uppdatera** («обновлять»);
-**lösenord** («пароль») и **QR-kod**, который можно **skanna** («отсканировать»)
-камерой, чтобы быстро войти в **e-tjänst** («электронную услугу»).
+Useful words for everyday phone use: an **app**, which you need to **ladda ner**
+("download") and occasionally **uppdatera** ("update"); a **lösenord** ("password") and
+a **QR-kod**, which you can **skanna** ("scan") with the camera to quickly log in to an
+**e-tjänst** ("e-service").
 
 ```example
-Skanna QR-koden för att logga in. — Отсканируй QR-код, чтобы войти.
+Skanna QR-koden för att logga in. — Scan the QR code to log in.
 ```

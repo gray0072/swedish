@@ -1,46 +1,45 @@
-# Двойная определённость и её исключения
+# Double definiteness and its exceptions
 
-Когда определённое существительное описывается прилагательным, шведский требует **двух**
-показателей определённости сразу: свободного артикля (**den/det/de**) перед прилагательным
-и собственного определённого окончания у самого существительного.
+When a definite noun is described by an adjective, Swedish marks definiteness **twice**:
+a free-standing article (**den/det/de**) before the adjective, and the noun's own
+definite ending.
 
-| Род/число | Артикль | Прилагательное | Существительное |
+| Gender/number | Article | Adjective | Noun |
 |---|---|---|---|
 | en | den | stora | staden |
 | ett | det | stora | huset |
-| мн. ч. | de | stora | städerna |
+| plural | de | stora | städerna |
 
 ```example
-den stora staden — тот самый большой город
-det stora huset — тот самый большой дом
-de stora städerna — те самые большие города
+den stora staden — the big city
+det stora huset — the big house
+de stora städerna — the big cities
 ```
 
-Без прилагательного артикль не нужен — определённости достаточно окончания: *staden*
-(город, тот самый). Артикль появляется именно потому, что между определённостью и
-существительным встал прилагательный.
+Without an adjective, no article is needed — the ending alone marks definiteness:
+*staden* (the city). The article shows up precisely because an adjective has stepped in
+between definiteness and the noun.
 
-## Исключение 1: притяжательность
+## Exception 1: possessives
 
-После притяжательного местоимения или родительного падежа свободный артикль не ставится
-— и существительное остаётся в **неопределённой** форме, потому что притяжательность уже
-сама выражает определённость:
+After a possessive pronoun or a genitive, the free-standing article disappears — and the
+noun stays in its **indefinite** form, because possession already marks definiteness on
+its own:
 
 ```example
-min stora stad — мой большой город
-Andens stora bil — большая машина Андерса
+min stora stad — my big city
+Andens stora bil — Anders's big car
 ```
 
-Неправильно: *~~den min stora staden~~*.
+Wrong: *~~den min stora staden~~*.
 
-## Исключение 2: hela, samma, nästa и подобные
+## Exception 2: hela, samma, nästa, and similar words
 
-Слова **hela** (весь), **samma** (тот же), **nästa** (следующий), **förra** (прошлый) и
-несколько похожих сами по себе делают существительное определённым, поэтому отдельный
-артикль перед прилагательным не добавляется: *hela dagen*, *samma bok*, *nästa vecka*.
-У каждого слова свои детали (иногда существительное при этом в определённой форме,
-иногда нет) — их удобнее запоминать как готовые сочетания, а не выводить по общему
-правилу.
+Words like **hela** (whole), **samma** (same), **nästa** (next) and **förra** (last)
+already make the noun definite by themselves, so no separate article is added before the
+adjective: *hela dagen*, *samma bok*, *nästa vecka*. Each word has its own quirks — for
+some the noun keeps its definite ending, for others it doesn't — so it's more efficient
+to learn them as fixed phrases than to derive them from a single rule.
 
-Слабая форма прилагательного (всегда на **-a**: *stora*) используется во всех этих
-случаях — подробнее об этом в теме «Прилагательное: сильное и слабое склонение».
+The adjective's weak form (always **-a**: *stora*) is used in every one of these cases —
+see the lesson "The adjective: strong and weak declension" for the full picture.

@@ -1,33 +1,33 @@
-**Försäkring** (страховка) бывает разных видов. **Hemförsäkring** (страхование жилья)
-покрывает пожар, кражу со взломом и часть ответственности перед третьими лицами;
-**olycksfallsförsäkring** (страхование от несчастных случаев) выплачивает компенсацию
-при травме; **reseförsäkring** (туристическая страховка) нужна в поездках, а
-**livförsäkring** (страхование жизни) даёт финансовую защиту семье.
+**Försäkring** (insurance) comes in several types. **Hemförsäkring** (home insurance)
+covers fire, burglary and part of your liability toward third parties;
+**olycksfallsförsäkring** (accident insurance) pays compensation for an injury;
+**reseförsäkring** (travel insurance) is needed on trips, and **livförsäkring** (life
+insurance) gives the family financial protection.
 
 ```example
-Hemförsäkringen täcker bland annat brand och inbrott. — Страхование жилья покрывает, в частности, пожар и кражу со взломом.
-Kolla att din reseförsäkring gäller utomlands. — Проверь, действует ли твоя туристическая страховка за границей.
+Hemförsäkringen täcker bland annat brand och inbrott. — Home insurance covers, among other things, fire and burglary.
+Kolla att din reseförsäkring gäller utomlands. — Check that your travel insurance is valid abroad.
 ```
 
-Прежде чем **teckna en försäkring** (оформить страховку) в **försäkringsbolag**
-(страховой компании), стоит внимательно прочитать **försäkringsvillkor** (условия
-договора) — в них написано, что именно страховка **täcker** (покрывает) и при каких
-условиях она **gäller** (действует).
+Before you **teckna en försäkring** (take out a policy) with a **försäkringsbolag**
+(insurance company), it is worth carefully reading the **försäkringsvillkor** (terms and
+conditions) — they state exactly what the policy **täcker** (covers) and under what
+conditions it **gäller** (is valid).
 
 ```example
-Läs försäkringsvillkoren innan du tecknar avtalet. — Прочитай условия страхования, прежде чем заключать договор.
-Försäkringen gäller i hela Norden. — Страховка действует по всей Скандинавии.
+Läs försäkringsvillkoren innan du tecknar avtalet. — Read the insurance terms before signing the contract.
+Försäkringen gäller i hela Norden. — The insurance is valid throughout the Nordic countries.
 ```
 
-Если человек **drabbas av** (пострадал от) ущерба — например, от кражи или ущерба от
-воды, — как **försäkringstagare** (страхователь) он подаёт **skadeanmälan** (заявление о
-страховом случае) в страховую компанию.
+If someone **drabbas av** (suffers) damage — from a burglary or water damage, say —
+as the **försäkringstagare** (policyholder) they file a **skadeanmälan** (insurance
+claim) with the insurance company.
 
 ```example
-Jag gjorde en skadeanmälan direkt efter inbrottet. — Я сразу же подал(а) заявление о страховом случае после кражи со взломом.
-Försäkringsbolaget betalade ut ersättning efter en vecka. — Страховая компания выплатила компенсацию через неделю.
+Jag gjorde en skadeanmälan direkt efter inbrottet. — I filed an insurance claim right after the burglary.
+Försäkringsbolaget betalade ut ersättning efter en vecka. — The insurance company paid out compensation after a week.
 ```
 
-Из выплаченной **ersättning** (компенсации) обычно вычитается **självrisk** — франшиза,
-фиксированная сумма, которую страхователь платит сам; чем выше он выбрал франшизу, тем
-ниже, как правило, ежемесячная **premie** (страховая премия).
+The **ersättning** (compensation) paid out usually has the **självrisk** deducted from
+it — the deductible, a fixed amount the policyholder pays themselves; the higher the
+deductible chosen, the lower the monthly **premie** (premium) tends to be.

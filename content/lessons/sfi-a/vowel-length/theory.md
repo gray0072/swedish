@@ -1,36 +1,34 @@
-В шведском одна и та же гласная буква звучит по-разному в зависимости от того, что
-идёт после неё.
+In Swedish, the same vowel letter sounds different depending on what comes after it.
 
-Правило простое: **одна согласная буква после гласной — гласная звучит долго.**
-**Две одинаковые согласные буквы после гласной — гласная звучит коротко.**
+The rule is simple: **one consonant letter after the vowel — the vowel is said long.**
+**Two of the same consonant letter after the vowel — the vowel is said short.**
 
 ```example
-vit — белый (одна «t», долгое «и»)
-vitt — белый, перед ett-словом (две «t», короткое «и»)
-mat — еда (одна «t», долгое «а»)
-matt — матовый (две «t», короткое «а»)
+vit — white (one "t", long "i")
+vitt — white, before an ett-word (two "t"s, short "i")
+mat — food (one "t", long "a")
+matt — matte, dull (two "t"s, short "a")
 ```
 
-Слушай разницу: **vit** — «и» тянется, **vitt** — «и» короткое и резкое. То же самое
-с **mat** и **matt**.
+Listen to the difference: in **vit** the "i" is stretched out, in **vitt** it's short
+and clipped. The same happens with **mat** and **matt**.
 
-| Долгая гласная (одна буква) | Краткая гласная (две буквы) |
+| Long vowel (one letter) | Short vowel (two letters) |
 |---|---|
-| vit — белый | vitt — белый |
-| mat — еда | matt — матовый |
-| tak — потолок | tack — спасибо |
-| bo — жить | boll — мяч |
+| vit — white | vitt — white |
+| mat — food | matt — matte |
+| tak — ceiling | tack — thanks |
+| bo — to live | boll — ball |
 
-Маленькое отступление: у **vit/vitt** удвоение буквы — это заодно и обычное окончание
-для ett-слов (об этом отдельный урок), но здесь важно не окончание, а звук: **vitt**
-произносится с коротким «и», и точка.
+A small side note: with **vit/vitt** the doubled letter also happens to be the regular
+ending used before ett-words (that's a separate lesson) — but the point here is the
+sound, not the ending: **vitt** is said with a short "i", and that's it.
 
 ```example
-Taket är högt. — Потолок высокий.
-Tack för hjälpen! — Спасибо за помощь!
-Jag bor i Malmö. — Я живу в Мальмё.
-Bollen är röd. — Мяч красный.
+Taket är högt. — The ceiling is high.
+Tack för hjälpen! — Thanks for the help!
+Jag bor i Malmö. — I live in Malmö.
+Bollen är röd. — The ball is red.
 ```
 
-Правило одной фразой: одна буква — говори долго, две одинаковые буквы — говори
-коротко.
+One-line rule: one letter — say it long, two of the same letter — say it short.

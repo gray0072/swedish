@@ -1,43 +1,43 @@
-Простое перечисление аргументов через `för det första` / `för det andra` (с прошлого
-уровня) годится не для всякой аргументации. Когда нужно взвесить две стороны вопроса
-или сначала уступить оппоненту, а потом возразить, используются более тонкие
-конструкции.
+Simply listing arguments with `för det första` / `för det andra` (from the previous
+level) doesn't suit every kind of argumentation. When you need to weigh two sides of an
+issue, or concede a point to your opponent before pushing back, more subtle
+constructions come into play.
 
-## å ena sidan … å andra sidan — взвешивание двух сторон
+## å ena sidan … å andra sidan — weighing two sides
 
-`Å ena sidan` («с одной стороны») и `å andra sidan` («с другой стороны») ставят рядом
-два равноправных, часто противоположных соображения — без явного вывода, какое из
-них важнее.
-
-```example
-Å ena sidan vill jag flytta till en storstad, å andra sidan trivs jag bra på landet. — С одной стороны, я хочу переехать в большой город, с другой стороны, мне хорошо и в деревне.
-```
-
-Оба наречия — sats-наречия, поэтому после них следует V2-инверсия: подлежащее стоит
-после спрягаемого глагола (*vill jag*, *trivs jag*), а не перед ним.
-
-## visserligen … men — уступка и возражение
-
-`Visserligen` («правда, действительно») сначала признаёт довод оппонента, а `men`
-(«но») тут же его перевешивает собственным контраргументом. Это сильнее, чем просто
-перечисление «за» и «против» — это активное построение спора.
+`Å ena sidan` ("on the one hand") and `å andra sidan` ("on the other hand") place two
+equally valid, often opposing, considerations side by side — without stating which one
+wins.
 
 ```example
-Visserligen är hyran hög i city, men det är nära till jobbet. — Правда, аренда в центре высокая, но зато близко до работы.
+Å ena sidan vill jag flytta till en storstad, å andra sidan trivs jag bra på landet. — On the one hand I want to move to a big city, on the other hand I'm happy in the countryside.
 ```
 
-Здесь `visserligen` тоже вызывает V2-инверсию (*är hyran*), потому что стоит в начале
-предложения как sats-наречие.
+Both phrases are sentence adverbials, so V2 inversion follows: the subject comes after
+the finite verb (*vill jag*, *trivs jag*), not before it.
 
-## Сравнение двух конструкций
+## visserligen … men — concession and rebuttal
 
-| Конструкция | Функция |
+`Visserligen` ("admittedly, it's true that") first grants the opponent's point, and
+`men` ("but") immediately outweighs it with a counter-argument. This is stronger than
+just listing pros and cons — it actively builds an argument.
+
+```example
+Visserligen är hyran hög i city, men det är nära till jobbet. — Admittedly the rent is high downtown, but it's close to work.
+```
+
+Here `visserligen` also triggers V2 inversion (*är hyran*), because it stands
+sentence-initially as a sentence adverbial.
+
+## Comparing the two constructions
+
+| Construction | Function |
 |---|---|
-| `å ena sidan … å andra sidan` | Показать два равноправных взгляда, без явного победителя |
-| `visserligen … men` | Признать довод — и тут же его опровергнуть/перевесить |
+| `å ena sidan … å andra sidan` | Show two equally valid views, with no clear winner |
+| `visserligen … men` | Concede a point — then immediately rebut or outweigh it |
 
-## Коротко
+## In short
 
-`Å ena sidan … å andra sidan` взвешивает, `visserligen … men` уступает и тут же
-возражает — обе конструкции идут дальше простого `för det första/andra` и делают
-аргументацию более гибкой и убедительной.
+`Å ena sidan … å andra sidan` weighs; `visserligen … men` concedes and then pushes
+back — both go beyond the simpler `för det första/andra` and make an argument more
+flexible and persuasive.

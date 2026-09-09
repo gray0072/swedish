@@ -1,21 +1,21 @@
-На продвинутом уровне устной презентации важна не только структура, но и то, как ты её подаёшь. В самом начале стоит обозначить рамки: **Jag ska försöka hålla mig till tiden** — «Я постараюсь уложиться во времени». Это показывает уважение к слушателям.
+At an advanced level, an oral presentation is not just about structure but also about how you deliver it. Right at the start, it helps to set expectations: **Jag ska försöka hålla mig till tiden** — "I will try to stick to the time." This shows respect for the audience.
 
 ```example
-Jag ska försöka hålla mig till tiden, annars hinner ni inte ställa frågor. — Я постараюсь уложиться во времени, иначе вы не успеете задать вопросы.
+Jag ska försöka hålla mig till tiden, annars hinner ni inte ställa frågor. — I will try to stick to the time, otherwise you won't have time for questions.
 ```
 
-Чтобы удержать внимание аудитории, полезно поддерживать **ögonkontakt** (зрительный контакт) и использовать **retorisk fråga** (риторический вопрос) — вопрос, на который не ждут ответа вслух, а который заставляет задуматься.
+To keep the audience's attention, it helps to maintain **ögonkontakt** (eye contact) and use a **retorisk fråga** (rhetorical question) — a question that is not meant to be answered out loud, but that makes people think.
 
 ```example
-Har ni någon gång undrat varför så många väljer att flytta till en storstad? — Вы когда-нибудь задумывались, почему так много людей выбирают переезд в большой город?
+Har ni någon gång undrat varför så många väljer att flytta till en storstad? — Have you ever wondered why so many people choose to move to a big city?
 ```
 
-Хороший **tempo** (темп) речи — не слишком быстрый и не слишком медленный. **Göra en paus** (сделать паузу) перед важным моментом помогает подчеркнуть мысль и даёт слушателям время её осмыслить.
+A good **tempo** (pace) of speech is neither too fast nor too slow. To **göra en paus** (make a pause) before an important point helps to emphasise it and gives listeners time to take it in.
 
-Если во время презентации задают неожиданный или сложный вопрос, не стоит паниковать. Можно честно признать сложность вопроса и всё равно попытаться ответить: **Det är en bra fråga som jag inte har ett enkelt svar på, men...** — «Это хороший вопрос, на который у меня нет простого ответа, но...»
+If an unexpected or difficult question comes up during a presentation, there is no need to panic. You can honestly acknowledge that it is a hard question and still attempt an answer: **Det är en bra fråga som jag inte har ett enkelt svar på, men...** — "That's a good question I don't have a simple answer to, but..."
 
 ```example
-Det är en bra fråga som jag inte har ett enkelt svar på, men jag tror att det beror på flera faktorer. — Это хороший вопрос, на который у меня нет простого ответа, но я думаю, что дело в нескольких факторах.
+Det är en bra fråga som jag inte har ett enkelt svar på, men jag tror att det beror på flera faktorer. — That's a good question I don't have a simple answer to, but I think it depends on several factors.
 ```
 
-Иногда приходится **improvisera** (импровизировать), если что-то пошло не по плану, — и это нормально, если сохранять спокойствие и **engagera** (вовлекать) аудиторию через **publikkontakt** (контакт со слушателями). В конце презентации важно чётко **avrunda** — подвести итог и поблагодарить за внимание.
+Sometimes you have to **improvisera** (improvise) if something does not go according to plan — and that is fine, as long as you stay calm and **engagera** (engage) the audience through **publikkontakt** (contact with the audience). At the end of a presentation, it is important to **avrunda** clearly — sum up and thank the audience for their attention.

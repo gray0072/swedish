@@ -1,36 +1,36 @@
-Когда в пассивном предложении нужно назвать, КТО совершил действие, добавляем **av +
-деятель** после пассивной формы (и -s-пассив, и bli-пассив это допускают).
+When a passive sentence needs to name WHO did the action, add **av + the doer** after the
+passive form (both the -s-passive and the bli-passive allow this).
 
 ```example
-Boken skrevs av Astrid Lindgren. — Книгу написала Астрид Линдгрен.
-Huset byggdes av min farfar. — Дом построил мой дед.
-Brevet blev skrivet av chefen. — Письмо написал начальник.
+Boken skrevs av Astrid Lindgren. — The book was written by Astrid Lindgren.
+Huset byggdes av min farfar. — The house was built by my grandfather.
+Brevet blev skrivet av chefen. — The letter was written by the boss.
 ```
 
-## Когда деятеля не называют вовсе
+## When the agent is left out entirely
 
-В шведском пассиве агентивную фразу с **av** очень часто просто опускают — гораздо чаще,
-чем в русском. Это происходит, когда:
+In the Swedish passive, the agent phrase with **av** is very often simply dropped — much
+more often than in English. This happens when:
 
-1. **Деятель неизвестен**: Bilen blev stulen i natt. — Машину угнали ночью (никто не
-   знает, кто).
-2. **Деятель неважен или очевиден**: Middagen serveras klockan sju. — Ужин подают в семь
-   (неважно, кто именно подаёт).
-3. **Деятель — «люди вообще»**: Här talas svenska. — Здесь говорят по-шведски.
+1. **The agent is unknown**: Bilen blev stulen i natt. — The car got stolen last night
+   (nobody knows who).
+2. **The agent is unimportant or obvious**: Middagen serveras klockan sju. — Dinner is
+   served at seven (it doesn't matter exactly who serves it).
+3. **The agent is "people in general"**: Här talas svenska. — Swedish is spoken here.
 
-## Контраст с английским
+## Contrast with English
 
-Английский часто сохраняет «by X» даже там, где это не обязательно. Шведский пассив без
-**av** — это самый нейтральный, естественный вариант; фразу с деятелем добавляют, только
-когда он конкретен и важен для смысла.
+English often keeps "by X" even where it isn't strictly needed. The Swedish passive
+without **av** is the more neutral, natural default; the agent phrase is added only when
+the doer is specific and matters to the meaning.
 
 ```example
-Fönstret krossades. — Окно разбили. (факт, деятель неважен)
-Fönstret krossades av en fotboll. — Окно разбил футбольный мяч. (важно, чем/кем)
+Fönstret krossades. — The window got broken. (a plain fact, the agent doesn't matter)
+Fönstret krossades av en fotboll. — The window was broken by a football. (what/who broke it matters)
 ```
 
-## Правило одной фразой
+## The rule in one line
 
-Спроси себя: «Важно ли, КТО это сделал?» Если да — добавляй **av + деятель**. Если
-нет — оставляй пассив без него; это звучит естественнее, чем перевод с обязательным «by
-someone».
+Ask yourself: "Does it matter WHO did it?" If yes — add **av + the doer**. If no — leave
+the passive bare; that sounds more natural than the reflex to translate an English "by
+someone".

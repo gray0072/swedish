@@ -1,47 +1,47 @@
-Это последний урок всего курса SVA grund. **Slutprojektet** — итоговая работа:
-самостоятельный письменный текст на свободную тему, который потом нужно защитить
-устно перед классом. Здесь письмо (текст) и устная речь (защита) соединяются
-вместе — то, что вы отрабатывали отдельно на протяжении всех четырёх delkurs.
+This is the very last lesson of the whole SVA grund course. The **slutprojekt** —
+final project — is an independent piece of writing on a topic of your own choosing,
+which you then defend orally in front of the class. Writing (the text) and speaking
+(the defence) come together here — something you've practised separately across all
+four delkurs.
 
-## Представление своей работы
-
-```example
-I mitt arbete har jag undersökt hur unga vuxna i Sverige ser på distansarbete. — В своей работе я исследовал(а), как молодые взрослые в Швеции относятся к удалённой работе.
-```
-
-**undersöka** — исследовать; **i mitt arbete** — в моей работе. Так начинается
-устная защита: коротко, но конкретно.
-
-## Объяснение выбора темы
+## Presenting your work
 
 ```example
-Jag valde det här ämnet eftersom det känns aktuellt och engagerar mig personligen. — Я выбрал(а) эту тему, потому что она кажется актуальной и лично меня увлекает.
+I mitt arbete har jag undersökt hur unga vuxna i Sverige ser på distansarbete. — In my project, I've investigated how young adults in Sweden view remote work.
 ```
 
-**jag valde ... eftersom** — фраза, которая связывает личный интерес с содержанием
-работы; она показывает слушателям, почему тема важна именно для вас.
+**undersöka** — to investigate; **i mitt arbete** — in my project. This is how an
+oral defence often opens: short, but specific.
 
-## Рефлексия: что можно было бы сделать иначе
+## Explaining your choice of topic
 
 ```example
-Om jag skulle göra om det skulle jag intervjua fler personer. — Если бы я делал(а) это заново, я бы опросил(а) больше людей.
+Jag valde det här ämnet eftersom det känns aktuellt och engagerar mig personligen. — I chose this topic because it feels current and engages me personally.
 ```
 
-**om jag skulle göra om det** — условное предложение для честной рефлексии: оно
-показывает, что вы способны критически оценить собственную работу, а не только
-хвалить её.
+**jag valde ... eftersom** — a phrase that connects personal interest to the
+content of the project; it shows the listeners why the topic matters to you.
 
-## Завершение курса
+## Reflecting on what you'd do differently
 
 ```example
-Sammanfattningsvis har jag lärt mig mycket av att både skriva och försvara mitt eget arbete. — Подводя итог, я многому научился, и написав, и защитив собственную работу.
+Om jag skulle göra om det skulle jag intervjua fler personer. — If I were to do it again, I would interview more people.
 ```
 
-Такой **slutprojekt** — не просто ещё одно задание, а капстоун всего курса SVA
-grund: он собирает вместе умение писать структурированный текст (delkurs 1–4) и
-умение говорить о нём перед аудиторией.
+**om jag skulle göra om det** — a conditional clause for honest reflection: it shows
+you can critically assess your own work, not just praise it.
 
-- **slutprojekt / självständigt arbete** — итоговый проект / самостоятельная работа
-- **metod, slutsats, disposition** — метод, вывод, структура (плана)
-- **muntlig presentation, försvara sitt arbete** — устная презентация, защищать
-  свою работу
+## Closing the course
+
+```example
+Sammanfattningsvis har jag lärt mig mycket av att både skriva och försvara mitt eget arbete. — To sum up, I've learned a lot from both writing and defending my own work.
+```
+
+A **slutprojekt** like this isn't just another assignment — it's the capstone of the
+whole SVA grund course: it brings together the ability to write a structured text
+(delkurs 1–4) and the ability to talk about it in front of an audience.
+
+- **slutprojekt / självständigt arbete** — final project / independent work
+- **metod, slutsats, disposition** — method, conclusion, outline/structure
+- **muntlig presentation, försvara sitt arbete** — oral presentation, to defend
+  one's work

@@ -1,33 +1,32 @@
-Даже с хорошим словарным запасом иногда слово просто не всплывает в памяти. Для этого
-есть спасательная фраза: **Jag kommer inte på ordet, men det är typ...** («Не могу
-вспомнить слово, но это типа...») — и дальше можно описать предмет или заменить его
-похожим словом.
+Even with a solid vocabulary, sometimes a word just won't come to mind. There's a rescue
+phrase for that: **Jag kommer inte på ordet, men det är typ...** ("I can't think of the
+word, but it's like...") — and then you can describe the thing or swap in a similar word.
 
 ```example
-Jag kommer inte på ordet, men det är typ en sak man lagar mat i. — Не могу вспомнить слово, но это типа штука, в которой готовят еду.
+Jag kommer inte på ordet, men det är typ en sak man lagar mat i. — I can't think of the word, but it's like the thing you cook food in.
 ```
 
-Если знаешь слово на родном языке, но не знаешь по-шведски, спроси прямо:
-**Hur säger man "сковорода" på svenska?** («Как сказать "сковорода" по-шведски?»).
-Собеседник может ответить словом или, наоборот, объяснить его через другое —
-это называется **parafrasera** («перефразировать»): сказать ту же мысль другими
-словами, если первая формулировка не сработала.
+If you know the word in your own language but not in Swedish, just ask:
+**Hur säger man "frying pan" på svenska?** ("How do you say 'frying pan' in Swedish?").
+The other person might answer with the word, or explain it a different way — that's
+called **parafrasera** ("to paraphrase"): saying the same thought in different words if
+the first attempt didn't land.
 
 ```example
-Hur säger man "чайник" på svenska? — Как сказать "чайник" по-шведски?
-Med andra ord, jag menar att det är bråttom. — Другими словами, я имею в виду, что это срочно.
+Hur säger man "kettle" på svenska? — How do you say "kettle" in Swedish?
+Med andra ord, jag menar att det är bråttom. — In other words, I mean that it's urgent.
 ```
 
-Полезные связки для перефразирования: **med andra ord** («другими словами»), **jag
-menar att** («я имею в виду, что»), и **det vill säga** («то есть», сокращённо
-«d.v.s.»). Если не понял(а) собеседника, вежливо переспроси: **Vad menar du med
-det?** («Что ты имеешь в виду?») или просто **Förlåt, jag förstod inte riktigt.**
-(«Извини, я не совсем понял(а)»).
+Useful connectors for paraphrasing: **med andra ord** ("in other words"), **jag menar
+att** ("I mean that"), and **det vill säga** ("that is to say", abbreviated "d.v.s.").
+If you didn't understand, politely ask again: **Vad menar du med det?** ("What do you
+mean by that?") or simply **Förlåt, jag förstod inte riktigt.** ("Sorry, I didn't quite
+understand").
 
 ```example
-Vad menar du med det? — Что ты имеешь в виду?
-Förlåt, jag förstod inte riktigt. Kan du säga det på ett annat sätt? — Извини, я не совсем понял(а). Можешь сказать по-другому?
+Vad menar du med det? — What do you mean by that?
+Förlåt, jag förstod inte riktigt. Kan du säga det på ett annat sätt? — Sorry, I didn't quite understand. Can you say it a different way?
 ```
 
-Эти фразы — не признак слабого языка, а нормальный инструмент любого носителя: даже
-шведы регулярно перефразируют мысль, если первая попытка была непонятна.
+These phrases aren't a sign of a weak language — they're a normal tool for any speaker:
+even Swedes regularly paraphrase a thought when the first attempt didn't get through.

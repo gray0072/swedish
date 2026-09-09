@@ -1,17 +1,14 @@
-Швед­ские приветствия зависят от времени суток и от того, насколько формальна ситуация — но
-в целом шведский язык обходится без вежливой формы «вы»: почти всегда обращаются на «ты».
+Swedish greetings depend on the time of day and how formal the situation is — but overall, Swedish gets by without a polite "you" form: people almost always address each other with the informal **du**.
 
-- **Hej!** — универсальное приветствие, подходит в любой ситуации, в любое время суток.
-- **God morgon / God kväll / God natt** — «доброе утро / добрый вечер / спокойной ночи»,
-  привязаны к времени суток.
-- Прощаясь, чаще всего говорят **Hej då!** или неформальное **Vi ses!** («увидимся»).
+- **Hej!** — a universal greeting that works in any situation, at any time of day.
+- **God morgon / God kväll / God natt** — "good morning / good evening / good night", tied to the time of day.
+- When saying goodbye, people most often say **Hej då!** or the informal **Vi ses!** ("see you").
 
 ```example
-Hej! — Привет!
-God morgon! — Доброе утро!
-Hej då! — Пока!
-Tack så mycket! — Большое спасибо!
+Hej! — Hi!
+God morgon! — Good morning!
+Hej då! — Bye!
+Tack så mycket! — Thank you very much!
 ```
 
-Слово **tack** («спасибо») в Швеции используют очень часто — гораздо чаще, чем «пожалуйста»
-в русском. А вот в ответ на «спасибо» шведы обычно просто улыбаются или говорят **varsågod**.
+The word **tack** ("thanks") is used constantly in Sweden — far more often than "please" is used in English. When someone says **tack** to them, Swedes typically just smile or say **varsågod** ("you're welcome").

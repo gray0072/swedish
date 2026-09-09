@@ -1,51 +1,49 @@
-В «economy-statistics-analysis» речь шла о том, как анализировать статистику —
-искать объяснения и причины. Здесь другой вопрос: какими словами вообще
-формулировать саму цифру. Один и тот же факт можно подать как точное число,
-как приблизительную величину или как расплывчатое, ничем не измеренное
-утверждение — и это меняет весь регистр текста.
+"economy-statistics-analysis" covered how to analyse statistics — explanations
+and causes. Here is a different question: what words to use for the figure
+itself. The same fact can be exact, approximate, or vague — and that choice
+shifts the register of the text.
 
-## Три регистра точности
+## Three registers of precision
 
-| Регистр | Типичные слова | Пример |
+| Register | Typical words | Example |
 |---|---|---|
-| Точный | exakt, precis, på pricken | Exakt 40 procent svarade ja. |
-| Приблизительный | ungefär, cirka/ca, omkring, nästan, drygt, knappt | Ungefär hälften av de tillfrågade svarade ja. |
-| Расплывчатый | en betydande andel, en del av, flera, de flesta, ett fåtal | En betydande andel av de tillfrågade svarade ja. |
+| Exact | exakt, precis, på pricken | Exakt 40 procent svarade ja. |
+| Approximate | ungefär, cirka/ca, omkring, nästan, drygt, knappt | Ungefär hälften av de tillfrågade svarade ja. |
+| Hedged/vague | en betydande andel, en del av, flera, de flesta, ett fåtal | En betydande andel av de tillfrågade svarade ja. |
 
 ```example
-Exakt 50 procent av de tillfrågade svarade ja. — Ровно 50 процентов опрошенных ответили да.
-Cirka 50 procent av de tillfrågade svarade ja. — Около 50 процентов опрошенных ответили да.
-En betydande andel av de tillfrågade svarade ja. — Значительная доля опрошенных ответила да.
+Exakt 50 procent av de tillfrågade svarade ja. — Exactly 50 percent of those asked said yes.
+Cirka 50 procent av de tillfrågade svarade ja. — About 50 percent of those asked said yes.
+En betydande andel av de tillfrågade svarade ja. — A significant proportion of those asked said yes.
 ```
 
-## Drygt и knappt: точная пара
+## Drygt and knappt: a precise pair
 
-`Drygt` всегда означает «чуть больше», `knappt` — всегда «чуть меньше». Это не
-синонимы «ungefär», а указание направления от круглого числа:
+`Drygt` always means "a little more than"; `knappt` always means "a little less
+than". They are not vague synonyms of `ungefär` — they point in opposite
+directions from a round number:
 
 ```example
-Drygt en tredjedel av eleverna valde naturvetenskap. — Чуть больше трети учеников выбрали естественные науки (немного больше 1/3).
-Knappt tio procent av rösterna gick till partiet. — Чуть меньше десяти процентов голосов досталось партии (немного меньше 10 %).
+Drygt en tredjedel av eleverna valde naturvetenskap. — Just over a third of the students chose natural science (a bit more than 1/3).
+Knappt tio procent av rösterna gick till partiet. — Just under ten percent of the votes went to the party (a bit less than 10%).
 ```
 
-Перепутать эти два слова — значит перевернуть факт: «немного больше половины»
-и «немного меньше половины» — разные утверждения.
+Mixing them up flips the fact.
 
-## Выбор регистра меняет тон предложения
+## Choosing a register shifts the tone
 
 ```example
-Cirka 50 procent av de tillfrågade svarade ja. — Около 50 процентов опрошенных ответили да. (статистический тон)
-Ungefär hälften av de tillfrågade svarade ja. — Примерно половина опрошенных ответила да. (тот же уровень точности, но повествовательный тон)
-En betydande andel av de tillfrågade svarade ja. — Значительная доля опрошенных ответила да. (расплывчато — когда точная цифра неизвестна или неважна)
+Cirka 50 procent av de tillfrågade svarade ja. — About 50 percent of those asked said yes. (statistical tone)
+Ungefär hälften av de tillfrågade svarade ja. — Roughly half of those asked said yes. (same precision, narrative tone)
+En betydande andel av de tillfrågade svarade ja. — A significant proportion of those asked said yes. (vague — used when the exact figure is unknown or beside the point)
 ```
 
-`Cirka 50 procent` и `ungefär hälften` называют одну и ту же величину, но
-первое звучит как отчёт, а второе — как рассказ. `En betydande andel` вообще не
-называет число: так пишут, когда точных данных нет или суть не в цифре.
+`Cirka 50 procent` and `ungefär hälften` name the same quantity, but the first
+reads like a report and the second like a story. `En betydande andel` names no
+number at all.
 
-## Коротко
+## In short
 
-Три регистра — точный (`exakt`), приблизительный (`cirka`, `drygt`, `knappt`) и
-расплывчатый (`en betydande andel`) — не взаимозаменяемы: выбор слова говорит
-читателю, насколько автор уверен в цифре и насколько важна сама цифра для
-мысли текста.
+Exact (`exakt`), approximate (`cirka`, `drygt`, `knappt`) and hedged/vague (`en
+betydande andel`) are not interchangeable: the word you pick tells the reader
+how confident you are in the figure, and how much it matters to the point.

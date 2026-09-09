@@ -1,28 +1,29 @@
-Числа от 0 до 20, которые ты уже знаешь, нужны не только для номера телефона — они
-пригодятся, чтобы сказать свой возраст и адрес. Здесь число произносится **целиком,
-одним словом** — не по отдельным цифрам, как в номере телефона.
+The numbers 0 to 20 you already know aren't just for phone numbers — you also need them
+to say your age and your address. Here the number is said **whole, as one word** — not
+digit by digit, the way a phone number is.
 
-**Возраст.**
+**Age.**
 ```example
-Hur gammal är du? — Сколько тебе лет?
-Jag är tjugo år. — Мне двадцать лет.
+Hur gammal är du? — How old are you?
+Jag är tjugo år. — I am twenty years old.
 ```
 
-**Адрес.**
+**Address.**
 ```example
-Vilken adress bor du på? — По какому адресу ты живёшь?
-Jag bor på Storgatan tio. — Я живу на Стургатан, 10.
-Jag bor på Kungsgatan sexton. — Я живу на Кунгсгатан, 16.
+Vilken adress bor du på? — What address do you live at?
+Jag bor på Storgatan tio. — I live at Storgatan 10.
+Jag bor på Kungsgatan sexton. — I live at Kungsgatan 16.
 ```
 
-После названия улицы номер дома идёт как обычное число: «Storgatan tio», а не «Storgatan
-ett-noll». Так же и с номером квартиры: **lägenhet nummer fem** — квартира номер пять.
+After the street name, the house number is just an ordinary number: "Storgatan tio", not
+"Storgatan ett-noll" (one-zero). The same goes for an apartment number: **lägenhet
+nummer fem** — apartment number five.
 
-| вопрос | ответ |
+| question | answer |
 |---|---|
 | Hur gammal är du? | Jag är … år. |
 | Vilken adress bor du på? | Jag bor på … nummer … |
 | Vilket husnummer? | Husnummer … |
 
-Разница с номером телефона простая: там каждая цифра — отдельное слово, а тут число
-целиком — одно слово, как ты и учил его в самом начале.
+The difference from a phone number is simple: there, every digit is its own word; here,
+the whole number is one word — the way you first learned it.

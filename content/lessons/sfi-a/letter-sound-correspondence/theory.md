@@ -1,35 +1,35 @@
-В шведском несколько разных написаний могут звучать одинаково. Вот три группы, которые
-стоит выучить сразу — они встречаются очень часто.
+In Swedish, several different spellings can sound the same. Here are three groups worth
+learning right away — they show up very often.
 
-**sj, stj, skj** — все три написания дают один и тот же звук: что-то среднее между «х»
-и «ш», такой лёгкий шипящий выдох. Его называют «sj-звук».
+**sj, stj, skj** — all three spellings give the same sound: something between "h" and
+"sh", a light hissing breath. It's called the "sj-sound".
 
-**tj, а также k перед e, i, y, ä, ö** — дают другой узнаваемый звук, мягкий, похожий
-на русское «ч». Слово может начинаться на «tj», а может — на обычную букву «k», звук
-всё равно один и тот же.
+**tj, and also k before e, i, y, ä, ö** — give another recognisable sound, soft, close
+to the "ch" in "cheese". A word can start with "tj", or with a plain letter "k" — the
+sound is the same either way.
 
-**g перед e, i, y, ä, ö** — звучит как «й».
+**g before e, i, y, ä, ö** — sounds like "y" (as in "yes").
 
-| Написание | Как звучит | Примеры |
+| Spelling | How it sounds | Examples |
 |---|---|---|
-| sj, stj, skj | sj-звук (среднее между «х» и «ш») | sju, sjuk, stjärna, skjorta |
-| tj, k (перед e/i/y/ä/ö) | tj-звук (мягкое «ч») | tjej, kök, kärlek, köpa |
-| g (перед e/i/y/ä/ö) | й | Göteborg, ge |
+| sj, stj, skj | the sj-sound (between "h" and "sh") | sju, sjuk, stjärna, skjorta |
+| tj, k (before e/i/y/ä/ö) | the tj-sound (soft "ch") | tjej, kök, kärlek, köpa |
+| g (before e/i/y/ä/ö) | "y" | Göteborg, ge |
 
 ```example
-sju — семь
-sjuk — больной
-stjärna — звезда
-skjorta — рубашка
-tjej — девушка
-kök — кухня
-Göteborg — Гётеборг
-ge — давать
+sju — seven
+sjuk — sick
+stjärna — star
+skjorta — shirt
+tjej — girl
+kök — kitchen
+Göteborg — Gothenburg
+ge — to give
 ```
 
-Заметь: буква одна и та же («k» или «g»), но звук зависит от того, какая гласная идёт
-после неё. Перед e, i, y, ä, ö — мягкий звук. Перед a, o, u, å — обычный, твёрдый:
-сравни **kök** (мягко) и **ko** (корова, твёрдо).
+Notice: it's the same letter ("k" or "g"), but the sound depends on which vowel comes
+after it. Before e, i, y, ä, ö — a soft sound. Before a, o, u, å — a plain, hard sound:
+compare **kök** (soft) and **ko** (cow, hard).
 
-Лучший способ выучить эти звуки — слушать слова и повторять вслух, а не читать буквы
-по отдельности.
+The best way to learn these sounds is to listen to the words and repeat them out loud,
+not to read the letters one by one.

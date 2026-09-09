@@ -1,45 +1,44 @@
-Разговор о планах опирается на грамматику будущего времени (см. «Будущее: ska / kommer
-att / презенс»): **ska** используется, когда решение уже принято, **kommer att** — когда
-речь идёт о прогнозе.
+Talking about plans relies on the grammar of the future tense (see "The future: ska /
+kommer att / the present"): **ska** is used when a decision has already been made,
+**kommer att** when it's a prediction.
 
-Фраза **ska börja** («собираюсь начать») выражает конкретное намерение:
-
-```example
-Jag ska börja plugga till undersköterska i höst. — Я собираюсь начать учиться на помощника медсестры этой осенью.
-```
-
-**Planerar att** («планирую») + инфинитив звучит чуть более обдуманно, как долгосрочный
-план, а не спонтанное решение:
+The phrase **ska börja** ("going to start") expresses a concrete intention:
 
 ```example
-Jag planerar att söka jobb inom vården. — Я планирую искать работу в сфере здравоохранения.
+Jag ska börja plugga till undersköterska i höst. — I'm going to start studying to become a nursing assistant this autumn.
 ```
 
-**Hoppas på** («надеюсь на» + существительное) или **hoppas att** («надеюсь, что» +
-придаточное) выражает желаемое, но не гарантированное:
+**Planerar att** ("plan to") + infinitive sounds a bit more deliberate — a long-term
+plan rather than a spur-of-the-moment decision:
 
 ```example
-Jag hoppas på en fast anställning nästa år. — Я надеюсь на постоянную работу в следующем году.
+Jag planerar att söka jobb inom vården. — I'm planning to apply for jobs in healthcare.
 ```
 
-**Siktar på** («нацелен(а) на») подчёркивает конкретную цель, к которой стремишься:
+**Hoppas på** ("hope for" + a noun) or **hoppas att** ("hope that" + a clause) expresses
+something desired but not guaranteed:
 
 ```example
-Hon siktar på att bli sjuksköterska om tre år. — Она нацелена стать медсестрой через три года.
+Jag hoppas på en fast anställning nästa år. — I'm hoping for a permanent job next year.
 ```
 
-Семейные планы часто описываются глаголами **gifta sig** (жениться, выходить замуж),
-**skaffa barn** (завести детей), **flytta** (переехать):
+**Siktar på** ("aims for") emphasizes a concrete goal you're working towards:
 
 ```example
-Vi kommer att gifta oss nästa sommar. — Мы поженимся следующим летом.
+Hon siktar på att bli sjuksköterska om tre år. — She's aiming to become a nurse in three years.
 ```
 
-Полезные существительные: **framtid** (будущее), **mål** (цель), **dröm** (мечта),
-**karriär** (карьера), **familj** (семья). Глагол **förverkliga** («осуществить,
-воплотить») хорошо сочетается со словом **dröm**: *förverkliga sin dröm* («осуществить
-свою мечту»).
+Family plans are often described with the verbs **gifta sig** (to get married), **skaffa
+barn** (to have children), **flytta** (to move):
 
-Совет: сочетай эти фразы с **ska** или **kommer att** последовательно в одном рассказе —
-так план прозвучит целостно, а не как набор отдельных, не связанных друг с другом
-желаний.
+```example
+Vi kommer att gifta oss nästa sommar. — We're going to get married next summer.
+```
+
+Useful nouns: **framtid** (future), **mål** (goal), **dröm** (dream), **karriär**
+(career), **familj** (family). The verb **förverkliga** ("to fulfil, to realize") pairs
+well with **dröm**: *förverkliga sin dröm* ("to fulfil one's dream").
+
+Tip: chain these phrases together with **ska** or **kommer att** consistently within one
+account — that makes the plan sound like a coherent whole rather than a pile of
+disconnected wishes.

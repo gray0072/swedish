@@ -1,25 +1,17 @@
-В шведском у каждого существительного есть род — **en** или **ett** — и слова о теле
-не исключение. Большинство — en-слова (**en arm**, **en hand**, **en fot**), но
-некоторые — ett-слова (**ett huvud**, **ett öga**, **ett öra**, **ett ben**).
+In Swedish every noun has a gender — **en** or **ett** — and words for body parts are no exception. Most are en-words (**en arm**, **en hand**, **en fot**), but some are ett-words (**ett huvud**, **ett öga**, **ett öra**, **ett ben**).
 
 ```example
-Jag har ont i huvudet. — У меня болит голова.
-Jag har ont i magen. — У меня болит живот.
+Jag har ont i huvudet. — My head hurts.
+Jag har ont i magen. — My stomach hurts.
 ```
 
-Слово **öga** («глаз») и **öra** («ухо») — старые ett-слова с необычным множественным
-числом: **öga → ögon**, **öra → öron** (без обычного окончания «-ar» или «-or»).
-Похожий случай — **fot → fötter** и **hand → händer**: гласная в корне меняется.
+The words **öga** ("eye") and **öra** ("ear") are old ett-words with an irregular plural: **öga → ögon**, **öra → öron** (without the usual **-ar** or **-or** ending). A similar case is **fot → fötter** and **hand → händer**, where the vowel in the stem changes.
 
 ```example
-Jag har två ögon och två öron. — У меня два глаза и два уха.
-Han har stora händer. — У него большие руки (кисти).
+Jag har två ögon och två öron. — I have two eyes and two ears.
+Han har stora händer. — He has big hands.
 ```
 
-Заметь разницу между **arm** («рука» — от плеча до кисти) и **hand** («рука» —
-кисть), а также между **ben** («нога», но и «кость» — по контексту) и **fot**
-(«нога» — стопа). Швед различает эти части тела точнее, чем русский язык.
+Notice the difference between **arm** (the arm, from shoulder to hand) and **hand** (the hand itself), as well as between **ben** ("leg", but also "bone", depending on context) and **fot** ("foot"). Swedish distinguishes these body parts more precisely than English often does.
 
-Чтобы сказать, что что-то болит, используют выражение **det gör ont i** + определённая
-форма части тела: «Det gör ont i ryggen» («Болит спина»). Это очень частая фраза —
-пригодится и дома, и у врача.
+To say that something hurts, use the expression **det gör ont i** + the definite form of the body part: "Det gör ont i ryggen" ("My back hurts"). This is a very common phrase — useful both at home and at the doctor's.

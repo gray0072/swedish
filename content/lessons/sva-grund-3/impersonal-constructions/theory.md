@@ -1,51 +1,52 @@
-Иногда подлежащее не хочется называть вовсе — ни «я», ни «они», ни конкретное лицо. В
-шведском для этого есть три разных инструмента, и они не взаимозаменяемы.
+Sometimes you don't want to name a subject at all — not "I," not "they," not any
+specific person. Swedish has three different tools for this, and they aren't
+interchangeable.
 
-## det — погода, существование, формальное подлежащее
+## det — weather, existence, a formal subject
 
-`Det` заполняет место подлежащего там, где реального деятеля просто нет (погода) или
-где грамматике нужно формальное подлежащее перед глаголом.
-
-```example
-Det regnar. — Идёт дождь.
-Det finns inget kaffe kvar. — Кофе больше не осталось.
-```
-
-`Det` также может стоять перед -s-пассивом непереходного глагола — тогда настоящего
-подлежащего вообще нет, оно чисто формальное:
+`Det` fills the subject slot where there is no real agent at all (weather), or where the
+grammar simply needs a formal subject before the verb.
 
 ```example
-Det dansas mycket på svenska fester. — На шведских вечеринках много танцуют.
+Det regnar. — It's raining.
+Det finns inget kaffe kvar. — There's no coffee left.
 ```
 
-## man — обобщённое «ты/люди/все»
-
-`Man` называет неопределённого, любого человека — «люди вообще», «каждый», часто в
-советах и правилах.
+`Det` can also stand before the -s-passive of an intransitive verb — then there is no
+real subject at all, just a formal one:
 
 ```example
-Man ska inte prata med munnen full. — Не стоит разговаривать с набитым ртом.
-Man röker mycket på den klubben. — В этом клубе много курят (люди вообще).
+Det dansas mycket på svenska fester. — There's a lot of dancing at Swedish parties.
 ```
 
-## -s-пассив — деятель убран совсем
+## man — a generic "one/you/people"
 
--s-пассив не называет никакого подлежащего-деятеля вообще, а фокусируется на самом
-действии (см. предыдущий урок про официальный стиль).
+`Man` names an unspecified, generic person — "people in general," "everyone" — often
+used in advice and rules.
 
 ```example
-Det röks mycket på den klubben. — В этом клубе много курят (сам факт курения, без «кто»).
+Man ska inte prata med munnen full. — One shouldn't talk with a full mouth.
+Man röker mycket på den klubben. — People smoke a lot at that club (people in general).
 ```
 
-Здесь `röka` — непереходный глагол, и у -s-пассива нет собственного подлежащего, поэтому
-перед ним обязательно стоит формальное `det` — `man` и `-s`-пассив в этом примере
-описывают один и тот же факт с чуть разным фокусом: `man` всё ещё намекает на «людей»
-как действующих лиц, а `det röks` убирает деятеля полностью.
+## the -s passive — the agent is removed entirely
 
-## Как выбрать
+The -s-passive doesn't name any subject-agent at all — it focuses purely on the action
+itself (see the previous lesson on official style).
 
-| Конструкция | Когда уместна |
+```example
+Det röks mycket på den klubben. — There's a lot of smoking at that club (just the fact of smoking, with no "who").
+```
+
+Here `röka` is an intransitive verb, and the -s-passive has no subject of its own, so a
+formal `det` must stand in front of it — `man` and the -s-passive in this example
+describe the same fact with a slightly different focus: `man` still hints at "people" as
+agents, while `det röks` removes the agent entirely.
+
+## How to choose
+
+| Construction | When it fits |
 |---|---|
-| `det` | погода, существование (`det finns`), формальное подлежащее перед непереходным -s-пассивом |
-| `man` | совет, правило, обобщение — «люди/ты вообще» ещё чувствуются как действующие лица |
-| `-s`-пассив | официальный, безличный текст — деятель не важен и не упоминается вовсе |
+| `det` | weather, existence (`det finns`), a formal subject before an intransitive -s-passive |
+| `man` | advice, a rule, a generalisation — "people/you in general" is still felt as an agent |
+| the `-s` passive | official, impersonal text — the agent doesn't matter and isn't mentioned at all |
