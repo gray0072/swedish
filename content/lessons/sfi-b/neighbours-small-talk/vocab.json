@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "id": "granne",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbour" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
+      "example": { "sv": "Vår nya granne verkar trevlig.", "ru": "Наш новый сосед кажется приятным.", "en": "Our new neighbour seems nice." }
+    },
+    {
+      "id": "trapphus",
+      "sv": "trapphus",
+      "translations": { "ru": "подъезд, лестничная клетка", "en": "stairwell" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett trapphus", "defSg": "trapphuset", "indefPl": "trapphus", "defPl": "trapphusen" },
+      "example": { "sv": "Det är städdag i trapphuset imorgon.", "ru": "Завтра день уборки в подъезде.", "en": "Tomorrow is cleaning day in the stairwell." }
+    },
+    {
+      "id": "hiss",
+      "sv": "hiss",
+      "translations": { "ru": "лифт", "en": "elevator, lift" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hiss", "defSg": "hissen", "indefPl": "hissar", "defPl": "hissarna" },
+      "example": { "sv": "Hissen är trasig igen.", "ru": "Лифт снова сломан.", "en": "The elevator is broken again." }
+    },
+    {
+      "id": "portkod",
+      "sv": "portkod",
+      "translations": { "ru": "код от подъезда", "en": "door code, entry code" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en portkod", "defSg": "portkoden", "indefPl": "portkoder", "defPl": "portkoderna" },
+      "example": { "sv": "Vad är portkoden till huset?", "ru": "Какой код от подъезда?", "en": "What's the door code for the building?" }
+    },
+    {
+      "id": "brevlada",
+      "sv": "brevlåda",
+      "translations": { "ru": "почтовый ящик", "en": "mailbox" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brevlåda", "defSg": "brevlådan", "indefPl": "brevlådor", "defPl": "brevlådorna" },
+      "example": { "sv": "Posten ligger i brevlådan.", "ru": "Почта лежит в почтовом ящике.", "en": "The mail is in the mailbox." }
+    },
+    {
+      "id": "sopnedkast",
+      "sv": "sopnedkast",
+      "translations": { "ru": "мусоропровод", "en": "trash chute" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sopnedkast", "defSg": "sopnedkastet", "indefPl": "sopnedkast", "defPl": "sopnedkasten" },
+      "example": { "sv": "Kasta soporna i sopnedkastet, inte i trappan.", "ru": "Выбрасывай мусор в мусоропровод, а не на лестницу.", "en": "Throw the trash down the chute, not on the stairs." }
+    },
+    {
+      "id": "dorr",
+      "sv": "dörr",
+      "translations": { "ru": "дверь", "en": "door" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dörr", "defSg": "dörren", "indefPl": "dörrar", "defPl": "dörrarna" },
+      "example": { "sv": "Någon knackade på dörren.", "ru": "Кто-то постучал в дверь.", "en": "Someone knocked on the door." }
+    },
+    {
+      "id": "halsa",
+      "sv": "hälsa",
+      "translations": { "ru": "здороваться, приветствовать", "en": "to greet, to say hello" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hälsa", "present": "hälsar", "past": "hälsade", "supine": "hälsat" },
+      "example": { "sv": "Jag hälsar alltid på grannarna i hissen.", "ru": "Я всегда здороваюсь с соседями в лифте.", "en": "I always greet the neighbours in the elevator." }
+    },
+    {
+      "id": "prata",
+      "sv": "prata",
+      "translations": { "ru": "разговаривать, говорить", "en": "to talk" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" },
+      "example": { "sv": "Vi pratade en stund i trapphuset.", "ru": "Мы немного поговорили в подъезде.", "en": "We talked for a while in the stairwell." }
+    },
+    {
+      "id": "smaprata",
+      "sv": "småprata",
+      "translations": { "ru": "болтать, вести светскую беседу", "en": "to make small talk, to chat" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "småprata", "present": "småpratar", "past": "småpratade", "supine": "småpratat" },
+      "example": { "sv": "Det är trevligt att småprata med grannarna.", "ru": "Приятно немного поболтать с соседями.", "en": "It's nice to make small talk with the neighbours." }
+    },
+    {
+      "id": "lana",
+      "sv": "låna",
+      "translations": { "ru": "одалживать, брать взаймы", "en": "to borrow, to lend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "Kan jag låna lite mjölk?", "ru": "Можно одолжить немного молока?", "en": "Can I borrow some milk?" }
+    },
+    {
+      "id": "stora",
+      "sv": "störa",
+      "translations": { "ru": "беспокоить, мешать", "en": "to disturb, to bother" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "störa", "present": "stör", "past": "störde", "supine": "stört" },
+      "example": { "sv": "Ursäkta, stör jag?", "ru": "Извини, я не мешаю?", "en": "Sorry, am I disturbing you?" }
+    },
+    {
+      "id": "knacka",
+      "sv": "knacka",
+      "translations": { "ru": "стучать", "en": "to knock" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "knacka", "present": "knackar", "past": "knackade", "supine": "knackat" },
+      "example": { "sv": "Han knackade på för att fråga om socker.", "ru": "Он постучал, чтобы попросить сахара.", "en": "He knocked to ask for some sugar." }
+    },
+    {
+      "id": "fika",
+      "sv": "fika",
+      "translations": { "ru": "пить кофе (с беседой)", "en": "to have a coffee break, to chat over coffee" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fika", "present": "fikar", "past": "fikade", "supine": "fikat" },
+      "example": { "sv": "Ska vi fika hos mig imorgon?", "ru": "Зайдёшь ко мне на кофе завтра?", "en": "Shall we have coffee at my place tomorrow?" }
+    },
+    {
+      "id": "tyst",
+      "sv": "tyst",
+      "translations": { "ru": "тихий", "en": "quiet" },
+      "pos": "adj",
+      "example": { "sv": "Var snäll och var tyst efter klockan tio.", "ru": "Пожалуйста, соблюдай тишину после десяти.", "en": "Please be quiet after ten o'clock." }
+    },
+    {
+      "id": "hogljudd",
+      "sv": "högljudd",
+      "translations": { "ru": "шумный, громкий", "en": "loud, noisy" },
+      "pos": "adj",
+      "example": { "sv": "Grannen ovanför är lite högljudd på kvällarna.", "ru": "Сосед сверху немного шумный по вечерам.", "en": "The neighbour upstairs is a bit loud in the evenings." }
+    },
+    {
+      "id": "trevlig",
+      "sv": "trevlig",
+      "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
+      "pos": "adj",
+      "example": { "sv": "Det var trevligt att prata med dig!", "ru": "Было приятно с тобой поговорить!", "en": "It was nice talking to you!" }
+    },
+    {
+      "id": "hur-mar-du",
+      "sv": "Hur mår du?",
+      "translations": { "ru": "Как ты?", "en": "How are you?" },
+      "pos": "phrase",
+      "example": { "sv": "Hej! Hur mår du idag?", "ru": "Привет! Как ты сегодня?", "en": "Hi! How are you today?" }
+    },
+    {
+      "id": "hur-star-det-till",
+      "sv": "Hur står det till?",
+      "translations": { "ru": "Как поживаешь? / Как дела?", "en": "How are things? / How do you do?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur står det till med familjen?", "ru": "Как дела у семьи?", "en": "How are things with the family?" }
+    },
+    {
+      "id": "gemensam-tvattstuga",
+      "sv": "gemensam tvättstuga",
+      "translations": { "ru": "общая прачечная", "en": "shared laundry room" },
+      "pos": "phrase",
+      "example": { "sv": "Vi har en gemensam tvättstuga i källaren.", "ru": "У нас есть общая прачечная в подвале.", "en": "We have a shared laundry room in the basement." }
+    }
+  ]
+}

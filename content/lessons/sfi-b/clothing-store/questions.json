@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-clothing-store-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Могу я примерить этот свитер?»", "en": "Build the sentence: \"Can I try on this sweater?\"" },
+      "tokens": ["prova", "här", "Kan", "tröjan", "den", "jag"],
+      "answer": [2, 5, 0, 4, 1, 3]
+    },
+    {
+      "id": "q-clothing-store-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Я хочу поменять рубашку.»", "en": "Build the sentence: \"I want to exchange the shirt.\"" },
+      "tokens": ["skjortan", "vill", "Jag", "byta"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-clothing-store-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова из магазина одежды с переводом", "en": "Match the clothing-store words with their translation" },
+      "pairs": [
+        ["storlek", "размер"],
+        ["kvitto", "чек"],
+        ["rea", "распродажа"],
+        ["expedit", "продавец-консультант"]
+      ]
+    },
+    {
+      "id": "q-clothing-store-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Passa» и «prova» означают одно и то же.", "en": "\"Passa\" and \"prova\" mean the same thing." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Prova» — примерить (действие), «passa» — подходить по размеру (результат).",
+        "en": "\"Prova\" means to try something on (the action), \"passa\" means to fit (the result)."
+      }
+    },
+    {
+      "id": "q-clothing-store-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Обычно нужен кассовый чек (kvitto), чтобы вернуть или обменять вещь.", "en": "You usually need the receipt (kvitto) to return or exchange an item." },
+      "answer": true
+    },
+    {
+      "id": "q-clothing-store-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den här kjolen är för ___, jag behöver en större storlek. (маленькая)" },
+      "answer": ["liten"],
+      "acceptAlso": ["Liten"]
+    },
+    {
+      "id": "q-clothing-store-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ jag prova den här klänningen? (Могу)" },
+      "answer": ["Kan"],
+      "acceptAlso": ["kan"]
+    },
+    {
+      "id": "q-clothing-store-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты купил(а) свитер, но он не подходит, а чек у тебя есть. Что ты скажешь продавцу?",
+        "en": "You bought a sweater, but it doesn't fit, and you have the receipt. What do you say to the shop assistant?"
+      },
+      "choices": ["Jag vill sälja tröjan.", "Jag vill byta tröjan, den passar inte.", "Jag vill handla en rea.", "Jag vill ha en rabatt på skorna."],
+      "answer": 1
+    }
+  ]
+}

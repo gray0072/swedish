@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/phone-call-opening-hours",
+  "slug": "phone-call-opening-hours",
+  "title": {
+    "sv": "Ett telefonsamtal",
+    "ru": "Простой телефонный звонок",
+    "en": "A simple phone call"
+  },
+  "summary": {
+    "ru": "Простой телефонный разговор: как спросить о часах работы, попросить позвать кого-то и вежливо попрощаться.",
+    "en": "A simple phone call: how to ask about opening hours, ask for someone, and end the call politely."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "phone",
+    "phrases",
+    "everyday",
+    "communication"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 350,
+  "prerequisites": [
+    "sfi-a/phone-numbers"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

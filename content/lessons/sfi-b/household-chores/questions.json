@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-household-chores-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Сложи бельё и убери его в шкаф.»", "en": "Build the sentence: \"Fold the laundry and put it in the wardrobe.\"" },
+      "tokens": ["och", "den", "Vik", "garderoben", "lägg", "tvätten", "i"],
+      "answer": [2, 5, 0, 4, 1, 6, 3]
+    },
+    {
+      "id": "q-household-chores-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Не забудь вынести мусор сегодня вечером.»", "en": "Build the sentence: \"Remember to take out the trash tonight.\"" },
+      "tokens": ["ikväll", "att", "Kom", "soporna", "slänga", "ihåg"],
+      "answer": [2, 5, 1, 4, 3, 0]
+    },
+    {
+      "id": "q-household-chores-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь бытовую технику и предметы с переводом", "en": "Match the household appliances and items with their translation" },
+      "pairs": [
+        ["dammsugare", "пылесос"],
+        ["tvättmaskin", "стиральная машина"],
+        ["diskmaskin", "посудомоечная машина"],
+        ["trasa", "тряпка"]
+      ]
+    },
+    {
+      "id": "q-household-chores-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Diska» значит мыть посуду, а не стирать одежду.", "en": "\"Diska\" means to wash the dishes, not to do laundry." },
+      "answer": true
+    },
+    {
+      "id": "q-household-chores-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Ren» и «smutsig» — синонимы, оба значат «грязный».", "en": "\"Ren\" and \"smutsig\" are synonyms, both meaning \"dirty\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "Это противоположности: «ren» — чистый, «smutsig» — грязный.",
+        "en": "They're opposites: \"ren\" means clean, \"smutsig\" means dirty."
+      }
+    },
+    {
+      "id": "q-household-chores-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ sängen innan du går till skolan. (заправь)" },
+      "answer": ["Bädda"],
+      "acceptAlso": ["bädda"]
+    },
+    {
+      "id": "q-household-chores-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Glöm inte att ___ soporna ikväll. (выбросить)" },
+      "answer": ["slänga"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-household-chores-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Стиральная машина закончила работу. Что нужно сделать с одеждой дальше?",
+        "en": "The washing machine has finished. What should you do with the clothes next?"
+      },
+      "choices": ["Diska dem", "Vika och lägga in dem i garderoben", "Dammsuga dem", "Slänga dem"],
+      "answer": 1
+    },
+    {
+      "id": "q-household-chores-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Какое из этих слов НЕ связано с уборкой?",
+        "en": "Which of these words is NOT related to cleaning?"
+      },
+      "choices": ["städa", "diska", "recept", "dammsuga"],
+      "answer": 2,
+      "explanation": {
+        "ru": "«Recept» значит «рецепт» — это слово из кулинарии, а не из уборки.",
+        "en": "\"Recept\" means \"recipe\" — a cooking word, not a cleaning word."
+      }
+    }
+  ]
+}

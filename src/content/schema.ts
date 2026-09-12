@@ -8,13 +8,13 @@ export const localizedStringSchema = z.object({
 });
 export type LocalizedString = z.infer<typeof localizedStringSchema>;
 
-export const studyLanguageSchema = z.enum(['ru', 'en']);
+export const studyLanguageSchema = z.enum(['en', 'ru']);
 export type StudyLanguage = z.infer<typeof studyLanguageSchema>;
 
 /** Native-name labels for the study language dropdown. Add new languages here only. */
 export const LANGUAGE_OPTIONS: { code: StudyLanguage; label: string }[] = [
-  { code: 'ru', label: 'Русский' },
   { code: 'en', label: 'English' },
+  { code: 'ru', label: 'Русский' },
 ];
 
 /** Resolve a localized string for the current study language, with sane fallback order. */
@@ -23,7 +23,7 @@ export function resolveLocalized(
   lang: StudyLanguage,
 ): string {
   if (!value) return '';
-  const other: StudyLanguage = lang === 'ru' ? 'en' : 'ru';
+  const other: StudyLanguage = lang === 'en' ? 'ru' : 'en';
   return value[lang] ?? value[other] ?? value.sv ?? Object.values(value).find(Boolean) ?? '';
 }
 

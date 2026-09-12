@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call, to phone" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt", "imperative": "ring" },
+      "example": { "sv": "Jag ringer till affären för att fråga om öppettiderna.", "ru": "Я звоню в магазин, чтобы спросить о часах работы.", "en": "I'm calling the shop to ask about the opening hours." }
+    },
+    {
+      "id": "svara",
+      "sv": "svara",
+      "translations": { "ru": "отвечать", "en": "to answer" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "svara", "present": "svarar", "past": "svarade", "supine": "svarat", "imperative": "svara" },
+      "example": { "sv": "Ingen svarar just nu.", "ru": "Сейчас никто не отвечает.", "en": "No one is answering right now." }
+    },
+    {
+      "id": "fraga",
+      "sv": "fråga",
+      "translations": { "ru": "спрашивать", "en": "to ask" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat", "imperative": "fråga" },
+      "example": { "sv": "Jag vill fråga om öppettiderna.", "ru": "Я хочу спросить о часах работы.", "en": "I want to ask about the opening hours." }
+    },
+    {
+      "id": "vanta",
+      "sv": "vänta",
+      "translations": { "ru": "ждать", "en": "to wait" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vänta", "present": "väntar", "past": "väntade", "supine": "väntat", "imperative": "vänta" },
+      "example": { "sv": "Kan du vänta en stund?", "ru": "Можешь немного подождать?", "en": "Can you wait a moment?" }
+    },
+    {
+      "id": "lagga-pa",
+      "sv": "lägga på",
+      "translations": { "ru": "класть трубку, вешать трубку", "en": "to hang up (the phone)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "lägga på", "present": "lägger på", "past": "lade på", "supine": "lagt på", "imperative": "lägg på" },
+      "note": { "ru": "Не путай со «svara» — отвечать. «Lägga på» значит закончить разговор.", "en": "Don't confuse with \"svara\" — to answer. \"Lägga på\" means to end the call." },
+      "example": { "sv": "Hon lade på efter samtalet.", "ru": "Она положила трубку после разговора.", "en": "She hung up after the call." }
+    },
+    {
+      "id": "prata",
+      "sv": "prata",
+      "translations": { "ru": "говорить, разговаривать", "en": "to talk, to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat", "imperative": "prata" },
+      "example": { "sv": "Vi pratade i tio minuter.", "ru": "Мы говорили десять минут.", "en": "We talked for ten minutes." }
+    },
+    {
+      "id": "telefonsamtal",
+      "sv": "telefonsamtal",
+      "translations": { "ru": "телефонный разговор", "en": "phone call" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett telefonsamtal", "defSg": "telefonsamtalet", "indefPl": "telefonsamtal", "defPl": "telefonsamtalen" },
+      "example": { "sv": "Det var ett kort telefonsamtal.", "ru": "Это был короткий телефонный разговор.", "en": "It was a short phone call." }
+    },
+    {
+      "id": "oppettider",
+      "sv": "öppettider",
+      "translations": { "ru": "часы работы, график работы", "en": "opening hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en öppettid", "defSg": "öppettiden", "indefPl": "öppettider", "defPl": "öppettiderna" },
+      "note": { "ru": "Почти всегда используется во множественном числе.", "en": "Almost always used in the plural." },
+      "example": { "sv": "Öppettiderna står på hemsidan.", "ru": "Часы работы указаны на сайте.", "en": "The opening hours are listed on the website." }
+    },
+    {
+      "id": "telefonsvarare",
+      "sv": "telefonsvarare",
+      "translations": { "ru": "автоответчик", "en": "answering machine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en telefonsvarare", "defSg": "telefonsvararen", "indefPl": "telefonsvarare", "defPl": "telefonsvararna" },
+      "example": { "sv": "Jag pratade med telefonsvararen.", "ru": "Я говорил(а) с автоответчиком.", "en": "I spoke to the answering machine." }
+    },
+    {
+      "id": "oppen",
+      "sv": "öppen",
+      "translations": { "ru": "открытый, открыто", "en": "open" },
+      "pos": "adj",
+      "note": { "ru": "Согласуется по роду: öppen (en-слово), öppet (ett-слово), öppna (мн. ч.).", "en": "Agrees with gender: öppen (en-word), öppet (ett-word), öppna (plural)." },
+      "example": { "sv": "Är biblioteket öppet på lördagar?", "ru": "Библиотека открыта по субботам?", "en": "Is the library open on Saturdays?" }
+    },
+    {
+      "id": "stangd",
+      "sv": "stängd",
+      "translations": { "ru": "закрытый, закрыто", "en": "closed" },
+      "pos": "adj",
+      "note": { "ru": "Согласуется по роду: stängd (en-слово), stängt (ett-слово), stängda (мн. ч.).", "en": "Agrees with gender: stängd (en-word), stängt (ett-word), stängda (plural)." },
+      "example": { "sv": "Affären är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
+    },
+    {
+      "id": "upptaget",
+      "sv": "upptaget",
+      "translations": { "ru": "занято (о телефонной линии)", "en": "busy (of a phone line)" },
+      "pos": "adj",
+      "note": { "ru": "От «upptagen» (занятый); про телефонную линию всегда говорят в форме среднего рода: Det är upptaget.", "en": "From \"upptagen\" (busy/occupied); the phone-line sense always uses the neuter form: Det är upptaget." },
+      "example": { "sv": "Jag ringde, men det var upptaget.", "ru": "Я позвонил(а), но было занято.", "en": "I called, but the line was busy." }
+    },
+    {
+      "id": "kan-jag-fa-prata-med",
+      "sv": "Kan jag få prata med [namn]?",
+      "translations": { "ru": "Можно поговорить с [именем]?", "en": "May I speak with [name]?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "tack-for-hjalpen",
+      "sv": "Tack för hjälpen!",
+      "translations": { "ru": "Спасибо за помощь!", "en": "Thanks for the help!" },
+      "pos": "phrase"
+    },
+    {
+      "id": "hej-det-ar-jag",
+      "sv": "Hej, det är Sara.",
+      "translations": { "ru": "Привет, это Сара.", "en": "Hi, this is Sara." },
+      "pos": "phrase"
+    },
+    {
+      "id": "vad-har-ni-for-oppettider",
+      "sv": "Vad har ni för öppettider?",
+      "translations": { "ru": "Какой у вас график работы?", "en": "What are your opening hours?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ar-det-oppet-idag",
+      "sv": "Är det öppet idag?",
+      "translations": { "ru": "Сегодня открыто?", "en": "Is it open today?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-ringer-angaende",
+      "sv": "Jag ringer angående öppettiderna.",
+      "translations": { "ru": "Я звоню по поводу часов работы.", "en": "I'm calling regarding the opening hours." },
+      "pos": "phrase"
+    },
+    {
+      "id": "ett-ogonblick",
+      "sv": "Ett ögonblick, bara.",
+      "translations": { "ru": "Одну секунду.", "en": "One moment, please." },
+      "pos": "phrase"
+    },
+    {
+      "id": "vem-soker-du",
+      "sv": "Vem söker du?",
+      "translations": { "ru": "С кем вы хотите поговорить?", "en": "Whom would you like to speak to?" },
+      "pos": "phrase"
+    }
+  ]
+}

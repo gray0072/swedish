@@ -1,0 +1,110 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-describing-appearance-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «У неё длинные прямые волосы.»", "en": "Build the sentence: \"She has long, straight hair.\"" },
+      "tokens": ["rakt", "hår", "Hon", "långt", "har"],
+      "answer": [2, 4, 3, 0, 1]
+    },
+    {
+      "id": "q-describing-appearance-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Он низкий и крупный.»", "en": "Build the sentence: \"He is short and heavyset.\"" },
+      "tokens": ["kraftig", "är", "och", "Han", "kort"],
+      "answer": [3, 1, 4, 2, 0]
+    },
+    {
+      "id": "q-describing-appearance-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова о внешности с переводом", "en": "Match the appearance words with their translation" },
+      "pairs": [
+        ["skägg", "борода"],
+        ["mustasch", "усы"],
+        ["glasögon", "очки"],
+        ["leende", "улыбка"]
+      ]
+    },
+    {
+      "id": "q-describing-appearance-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Слово «glasögon» существует только во множественном числе — формы «ett glasögon» не бывает.", "en": "\"Glasögon\" exists only in the plural in Swedish — there is no singular \"ett glasögon\"." },
+      "answer": true,
+      "explanation": {
+        "ru": "«Очки» — это plurale tantum: «ett par glasögon» значит «пара очков».",
+        "en": "\"Glasses\" is a plurale tantum word: \"ett par glasögon\" means \"a pair of glasses\"."
+      }
+    },
+    {
+      "id": "q-describing-appearance-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Глагол «le» (улыбаться) — правильный глагол первой группы: le, lear, leade, leat.", "en": "The verb \"le\" (to smile) is a regular first-conjugation verb: le, lear, leade, leat." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Le» — неправильный глагол: le, ler, log, lett.",
+        "en": "\"Le\" is irregular: le, ler, log, lett."
+      }
+    },
+    {
+      "id": "q-describing-appearance-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon har ___ hår. (кудрявые)" },
+      "answer": ["lockigt"],
+      "acceptAlso": ["Lockigt"]
+    },
+    {
+      "id": "q-describing-appearance-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Mannen har ett grått ___. (борода)" },
+      "answer": ["skägg"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-describing-appearance-mc-1",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Какое предложение лучше всего описывает: «молодая, стройная женщина со светлыми волосами и голубыми глазами»?",
+        "en": "Which sentence best describes: \"a young, slim woman with blonde hair and blue eyes\"?"
+      },
+      "choices": [
+        "En gammal man med grått skägg.",
+        "En ung, smal kvinna med blont hår och blå ögon.",
+        "En kraftig man med mustasch.",
+        "En medellång pojke med glasögon."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-describing-appearance-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как по-шведски сказать «пара очков»?",
+        "en": "How do you say \"a pair of glasses\" in Swedish?"
+      },
+      "choices": ["en glasögon", "ett par glasögon", "en par glasögon", "ett glasögon"],
+      "answer": 1,
+      "explanation": {
+        "ru": "«Glasögon» не имеет формы единственного числа, поэтому «пара» выражается словом «par».",
+        "en": "\"Glasögon\" has no singular form, so \"pair\" is expressed with the word \"par\"."
+      }
+    }
+  ]
+}

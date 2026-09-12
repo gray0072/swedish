@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/household-chores",
+  "slug": "household-chores",
+  "title": {
+    "sv": "Städning och hushållssysslor",
+    "ru": "Уборка и домашние дела",
+    "en": "Cleaning and household chores"
+  },
+  "summary": {
+    "ru": "Глаголы уборки и предметы для дома: убираться, мыть посуду, пылесосить, стирать, гладить.",
+    "en": "Cleaning verbs and household items: to clean, wash dishes, vacuum, do laundry, iron."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "home",
+    "chores",
+    "verbs",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 270,
+  "prerequisites": [
+    "sfi-b/home"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sfi-b/daily-routine-connected",
+  "slug": "daily-routine-connected",
+  "title": {
+    "sv": "En vanlig dag",
+    "ru": "Мой день по порядку",
+    "en": "A day, step by step"
+  },
+  "summary": {
+    "ru": "Расскажи о своём дне как единую историю, связывая шаги словами sedan, därefter, innan, medan и till slut.",
+    "en": "Tell your whole day as one connected story, linking each step with sedan, därefter, innan, medan and till slut."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "daily-routine",
+    "connectors",
+    "reflexive-verbs",
+    "time-of-day"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 230,
+  "prerequisites": [
+    "sfi-a/daily-routine-simple",
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

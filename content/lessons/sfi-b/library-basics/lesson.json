@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/library-basics",
+  "slug": "library-basics",
+  "title": {
+    "sv": "Biblioteket",
+    "ru": "Библиотека",
+    "en": "The library"
+  },
+  "summary": {
+    "ru": "Как взять книгу в библиотеке и по каким правилам её нужно вернуть.",
+    "en": "How to borrow a book from the library and the rules for returning it."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "library",
+    "books",
+    "reading",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 320,
+  "prerequisites": [
+    "sfi-a/school-items"
+  ],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/directions-in-town",
+  "slug": "directions-in-town",
+  "title": {
+    "sv": "Vägen i stan",
+    "ru": "Дорога в городе",
+    "en": "Directions in town"
+  },
+  "summary": {
+    "ru": "Как спросить и объяснить дорогу в городе: перекрёстки, кольцевые развязки, повороты и ориентиры.",
+    "en": "How to ask for and give directions in town: crossings, roundabouts, turns, and landmarks."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "directions",
+    "town",
+    "phrases",
+    "navigation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 310,
+  "prerequisites": [
+    "sfi-a/simple-directions"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

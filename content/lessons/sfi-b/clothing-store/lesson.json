@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/clothing-store",
+  "slug": "clothing-store",
+  "title": {
+    "sv": "I klädaffären",
+    "ru": "В магазине одежды",
+    "en": "At the clothing store"
+  },
+  "summary": {
+    "ru": "Покупки одежды: размеры, примерочная, обмен и возврат вещей.",
+    "en": "Shopping for clothes: sizes, the fitting room, exchanges and returns."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "shopping",
+    "clothing",
+    "store",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 210,
+  "prerequisites": [
+    "sfi-b/clothing"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

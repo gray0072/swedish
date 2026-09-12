@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/celebrations-basics",
+  "slug": "celebrations-basics",
+  "title": {
+    "sv": "Högtider",
+    "ru": "Праздники",
+    "en": "Celebrations"
+  },
+  "summary": {
+    "ru": "Базовая лексика о праздниках: дни рождения, юл (Рождество) и мидсоммар.",
+    "en": "Basic vocabulary for celebrations: birthdays, jul (Christmas), and midsommar (Midsummer)."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "celebrations",
+    "culture",
+    "holidays",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 290,
+  "prerequisites": [
+    "sfi-a/months-seasons"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "id": "storlek",
+      "sv": "storlek",
+      "translations": { "ru": "размер", "en": "size" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en storlek", "defSg": "storleken", "indefPl": "storlekar", "defPl": "storlekarna" },
+      "example": { "sv": "Vilken storlek har du?", "ru": "Какой у тебя размер?", "en": "What size are you?" }
+    },
+    {
+      "id": "prova",
+      "sv": "prova",
+      "translations": { "ru": "примерять, пробовать", "en": "to try on" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "prova", "present": "provar", "past": "provade", "supine": "provat" },
+      "example": { "sv": "Kan jag prova den här klänningen?", "ru": "Могу я примерить это платье?", "en": "Can I try on this dress?" }
+    },
+    {
+      "id": "omkladningsrum",
+      "sv": "omklädningsrum",
+      "translations": { "ru": "примерочная", "en": "fitting room" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett omklädningsrum", "defSg": "omklädningsrummet", "indefPl": "omklädningsrum", "defPl": "omklädningsrummen" },
+      "example": { "sv": "Omklädningsrummet är där borta.", "ru": "Примерочная вон там.", "en": "The fitting room is over there." }
+    },
+    {
+      "id": "passa",
+      "sv": "passa",
+      "translations": { "ru": "подходить (по размеру)", "en": "to fit" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "passa", "present": "passar", "past": "passade", "supine": "passat" },
+      "example": { "sv": "Byxorna passar inte, de är för trånga.", "ru": "Брюки не подходят, они слишком узкие.", "en": "The pants don't fit, they're too tight." }
+    },
+    {
+      "id": "byta",
+      "sv": "byta",
+      "translations": { "ru": "менять, обменивать", "en": "to exchange" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "byta", "present": "byter", "past": "bytte", "supine": "bytt" },
+      "example": { "sv": "Jag vill byta den här tröjan mot en större.", "ru": "Я хочу поменять этот свитер на больший.", "en": "I'd like to exchange this sweater for a bigger one." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Spara kvittot om du vill returnera varan.", "ru": "Сохрани чек, если хочешь вернуть товар.", "en": "Keep the receipt if you want to return the item." }
+    },
+    {
+      "id": "returnera",
+      "sv": "returnera",
+      "translations": { "ru": "возвращать (товар)", "en": "to return (an item)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "returnera", "present": "returnerar", "past": "returnerade", "supine": "returnerat" },
+      "example": { "sv": "Du kan returnera kläderna inom trettio dagar.", "ru": "Ты можешь вернуть одежду в течение тридцати дней.", "en": "You can return the clothes within thirty days." }
+    },
+    {
+      "id": "rea",
+      "sv": "rea",
+      "translations": { "ru": "распродажа", "en": "sale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rea", "defSg": "rean", "indefPl": "reor", "defPl": "reorna" },
+      "example": { "sv": "Skorna var på rea, jag betalade halva priset.", "ru": "Обувь была на распродаже, я заплатил(а) половину цены.", "en": "The shoes were on sale, I paid half price." }
+    },
+    {
+      "id": "for-stor",
+      "sv": "för stor",
+      "translations": { "ru": "слишком большой", "en": "too big" },
+      "pos": "phrase",
+      "example": { "sv": "Jackan är för stor för mig.", "ru": "Куртка мне слишком велика.", "en": "The jacket is too big for me." }
+    },
+    {
+      "id": "for-liten",
+      "sv": "för liten",
+      "translations": { "ru": "слишком маленький", "en": "too small" },
+      "pos": "phrase",
+      "example": { "sv": "Skorna är för små, jag behöver en större storlek.", "ru": "Туфли слишком малы, мне нужен размер побольше.", "en": "The shoes are too small, I need a bigger size." }
+    },
+    {
+      "id": "kassa",
+      "sv": "kassa",
+      "translations": { "ru": "касса", "en": "checkout, cash register" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kassa", "defSg": "kassan", "indefPl": "kassor", "defPl": "kassorna" },
+      "example": { "sv": "Betala i kassan, tack.", "ru": "Оплатите на кассе, пожалуйста.", "en": "Please pay at the checkout." }
+    },
+    {
+      "id": "betala",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" },
+      "example": { "sv": "Hur mycket ska jag betala?", "ru": "Сколько мне нужно заплатить?", "en": "How much do I need to pay?" }
+    },
+    {
+      "id": "handla",
+      "sv": "handla",
+      "translations": { "ru": "делать покупки, ходить по магазинам", "en": "to shop, to go shopping" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla", "present": "handlar", "past": "handlade", "supine": "handlat" },
+      "example": { "sv": "Vi ska handla kläder i helgen.", "ru": "Мы собираемся за одеждой на выходных.", "en": "We're going shopping for clothes this weekend." }
+    },
+    {
+      "id": "expedit",
+      "sv": "expedit",
+      "translations": { "ru": "продавец-консультант", "en": "shop assistant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en expedit", "defSg": "expediten", "indefPl": "expediter", "defPl": "expediterna" },
+      "example": { "sv": "Expediten hjälpte mig hitta rätt storlek.", "ru": "Продавец помог мне найти нужный размер.", "en": "The shop assistant helped me find the right size." }
+    },
+    {
+      "id": "rabatt",
+      "sv": "rabatt",
+      "translations": { "ru": "скидка", "en": "discount" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rabatt", "defSg": "rabatten", "indefPl": "rabatter", "defPl": "rabatterna" },
+      "example": { "sv": "Jag fick tjugo procent rabatt på jackan.", "ru": "Я получил(а) скидку двадцать процентов на куртку.", "en": "I got a twenty percent discount on the jacket." }
+    },
+    {
+      "id": "klanning-store",
+      "sv": "klänning",
+      "translations": { "ru": "платье", "en": "dress" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klänning", "defSg": "klänningen", "indefPl": "klänningar", "defPl": "klänningarna" },
+      "example": { "sv": "Den här klänningen finns i tre storlekar.", "ru": "Это платье есть в трёх размерах.", "en": "This dress comes in three sizes." }
+    },
+    {
+      "id": "skjorta-store",
+      "sv": "skjorta",
+      "translations": { "ru": "рубашка", "en": "shirt" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skjorta", "defSg": "skjortan", "indefPl": "skjortor", "defPl": "skjortorna" },
+      "example": { "sv": "Jag vill prova skjortan i en mindre storlek.", "ru": "Я хочу примерить рубашку меньшего размера.", "en": "I'd like to try the shirt in a smaller size." }
+    },
+    {
+      "id": "troja-store",
+      "sv": "tröja",
+      "translations": { "ru": "свитер, кофта", "en": "sweater" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tröja", "defSg": "tröjan", "indefPl": "tröjor", "defPl": "tröjorna" },
+      "example": { "sv": "Tröjan var på rea." }
+    },
+    {
+      "id": "byxor-store",
+      "sv": "byxor",
+      "translations": { "ru": "брюки", "en": "pants" },
+      "pos": "noun",
+      "gender": null,
+      "forms": null,
+      "note": { "ru": "Всегда множественное число.", "en": "Always plural." },
+      "example": { "sv": "Kan jag byta byxorna mot en annan storlek?", "ru": "Могу я поменять брюки на другой размер?", "en": "Can I exchange the pants for another size?" }
+    }
+  ]
+}

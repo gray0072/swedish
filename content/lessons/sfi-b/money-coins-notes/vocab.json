@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "id": "pengar",
+      "sv": "pengar",
+      "translations": { "ru": "деньги", "en": "money" },
+      "pos": "noun",
+      "gender": "en",
+      "note": {
+        "ru": "«Pengar» существует только во множественном числе — формы единственного числа нет.",
+        "en": "\"Pengar\" only exists in the plural — there is no singular form."
+      },
+      "example": { "sv": "Jag har inte mycket pengar just nu.", "ru": "У меня сейчас немного денег.", "en": "I don't have much money right now." }
+    },
+    {
+      "id": "krona",
+      "sv": "krona",
+      "translations": { "ru": "крона (шведская валюта)", "en": "krona (Swedish currency)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en krona", "defSg": "kronan", "indefPl": "kronor", "defPl": "kronorna" },
+      "example": { "sv": "En kaffe kostar cirka trettio kronor.", "ru": "Кофе стоит примерно тридцать крон.", "en": "A coffee costs about thirty kronor." }
+    },
+    {
+      "id": "mynt",
+      "sv": "mynt",
+      "translations": { "ru": "монета", "en": "coin" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mynt", "defSg": "myntet", "indefPl": "mynt", "defPl": "mynten" },
+      "example": { "sv": "Jag har några mynt i fickan.", "ru": "У меня в кармане есть немного монет.", "en": "I have a few coins in my pocket." }
+    },
+    {
+      "id": "sedel",
+      "sv": "sedel",
+      "translations": { "ru": "банкнота, купюра", "en": "banknote" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sedel", "defSg": "sedeln", "indefPl": "sedlar", "defPl": "sedlarna" },
+      "example": { "sv": "Han la en sedel på bordet.", "ru": "Он положил купюру на стол.", "en": "He put a banknote on the table." }
+    },
+    {
+      "id": "vaxel",
+      "sv": "växel",
+      "translations": { "ru": "сдача", "en": "change (money returned)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en växel", "defSg": "växeln", "indefPl": "växlar", "defPl": "växlarna" },
+      "note": {
+        "ru": "В значении «сдача» это слово почти всегда используется в единственном числе.",
+        "en": "In the sense of \"change,\" this word is almost always used in the singular."
+      },
+      "example": { "sv": "Här är din växel, tio kronor.", "ru": "Вот ваша сдача, десять крон.", "en": "Here is your change, ten kronor." }
+    },
+    {
+      "id": "pris",
+      "sv": "pris",
+      "translations": { "ru": "цена", "en": "price" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" },
+      "example": { "sv": "Priset har gått upp igen.", "ru": "Цена снова выросла.", "en": "The price has gone up again." }
+    },
+    {
+      "id": "rabatt",
+      "sv": "rabatt",
+      "translations": { "ru": "скидка", "en": "discount" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rabatt", "defSg": "rabatten", "indefPl": "rabatter", "defPl": "rabatterna" },
+      "example": { "sv": "Vi har tjugo procent rabatt idag.", "ru": "Сегодня у нас скидка двадцать процентов.", "en": "We have a twenty percent discount today." }
+    },
+    {
+      "id": "planbok",
+      "sv": "plånbok",
+      "translations": { "ru": "кошелёк", "en": "wallet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en plånbok", "defSg": "plånboken", "indefPl": "plånböcker", "defPl": "plånböckerna" },
+      "example": { "sv": "Jag glömde min plånbok hemma.", "ru": "Я забыл(а) кошелёк дома.", "en": "I forgot my wallet at home." }
+    },
+    {
+      "id": "kosta",
+      "sv": "kosta",
+      "translations": { "ru": "стоить", "en": "to cost" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kosta", "present": "kostar", "past": "kostade", "supine": "kostat" },
+      "example": { "sv": "Hur mycket kostar det?", "ru": "Сколько это стоит?", "en": "How much does it cost?" }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "example": { "sv": "Den här klockan är väldigt dyr.", "ru": "Эти часы очень дорогие.", "en": "This watch is very expensive." }
+    },
+    {
+      "id": "billig",
+      "sv": "billig",
+      "translations": { "ru": "дешёвый", "en": "cheap" },
+      "pos": "adj",
+      "example": { "sv": "Bussbiljetten är billigare än taxi.", "ru": "Билет на автобус дешевле, чем такси.", "en": "The bus ticket is cheaper than a taxi." }
+    },
+    {
+      "id": "gratis",
+      "sv": "gratis",
+      "translations": { "ru": "бесплатный, бесплатно", "en": "free (of charge)" },
+      "pos": "adj",
+      "note": {
+        "ru": "«Gratis» не изменяется по роду и числу: ett gratis inträde, en gratis biljett.",
+        "en": "\"Gratis\" is invariable — it never changes form: ett gratis inträde, en gratis biljett."
+      },
+      "example": { "sv": "Inträdet är gratis för barn.", "ru": "Вход бесплатный для детей.", "en": "Entry is free for children." }
+    },
+    {
+      "id": "betala-kontant",
+      "sv": "betala kontant",
+      "translations": { "ru": "платить наличными", "en": "to pay in cash" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag betala kontant här?", "ru": "Можно здесь заплатить наличными?", "en": "Can I pay in cash here?" }
+    },
+    {
+      "id": "betala-med-kort",
+      "sv": "betala med kort",
+      "translations": { "ru": "платить картой", "en": "to pay by card" },
+      "pos": "phrase",
+      "example": { "sv": "Man kan betala med kort i nästan alla affärer.", "ru": "Почти во всех магазинах можно заплатить картой.", "en": "You can pay by card in almost every shop." }
+    },
+    {
+      "id": "swisha",
+      "sv": "swisha",
+      "translations": { "ru": "перевести деньги через Swish", "en": "to pay via Swish (Swedish mobile payment app)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "swisha", "present": "swishar", "past": "swishade", "supine": "swishat" },
+      "note": {
+        "ru": "Swish — приложение для мгновенных переводов между шведскими банковскими счетами; глагол «swisha» — из повседневного языка.",
+        "en": "Swish is an app for instant transfers between Swedish bank accounts; the verb \"swisha\" comes from everyday spoken language."
+      },
+      "example": { "sv": "Kan du swisha mig hundra kronor?", "ru": "Можешь перевести мне сто крон через Swish?", "en": "Can you Swish me a hundred kronor?" }
+    },
+    {
+      "id": "spara-pengar",
+      "sv": "spara pengar",
+      "translations": { "ru": "копить, экономить деньги", "en": "to save money" },
+      "pos": "phrase",
+      "example": { "sv": "Jag försöker spara pengar varje månad.", "ru": "Я стараюсь копить деньги каждый месяц.", "en": "I try to save money every month." }
+    },
+    {
+      "id": "lana-pengar",
+      "sv": "låna pengar",
+      "translations": { "ru": "занимать / одалживать деньги", "en": "to borrow / to lend money" },
+      "pos": "phrase",
+      "note": {
+        "ru": "«Låna» значит и «занимать», и «одалживать» — смысл уточняет предлог: låna av (у кого-то) = занять, låna till (кому-то) = одолжить.",
+        "en": "\"Låna\" means both \"to borrow\" and \"to lend\" — the preposition clarifies which: låna av (someone) = to borrow, låna till (someone) = to lend."
+      },
+      "example": { "sv": "Kan jag låna pengar av dig?", "ru": "Можно занять у тебя денег?", "en": "Can I borrow some money from you?" }
+    },
+    {
+      "id": "vaxla-pengar",
+      "sv": "växla pengar",
+      "translations": { "ru": "менять, обменивать деньги", "en": "to exchange money" },
+      "pos": "phrase",
+      "example": { "sv": "Var kan jag växla pengar till euro?", "ru": "Где можно обменять деньги на евро?", "en": "Where can I exchange money for euros?" }
+    }
+  ]
+}

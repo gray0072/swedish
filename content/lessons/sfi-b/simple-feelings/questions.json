@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-simple-feelings-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я чувствую себя счастливым.»", "en": "Build the sentence: \"I feel happy.\"" },
+      "tokens": ["mig", "känner", "Jag", "glad"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-simple-feelings-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь прилагательное с переводом", "en": "Match the adjective with its translation" },
+      "pairs": [
+        ["trött", "усталый"],
+        ["glad", "радостный"],
+        ["ledsen", "грустный"],
+        ["arg", "злой"],
+        ["lugn", "спокойный"]
+      ]
+    },
+    {
+      "id": "q-simple-feelings-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Ett-форма слова «ledsen» — «ledset», а не «ledsent».", "en": "The ett-form of \"ledsen\" is \"ledset\", not \"ledsent\"." },
+      "answer": true
+    },
+    {
+      "id": "q-simple-feelings-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Предложение «Jag känner glad» грамматически правильное.", "en": "The sentence \"Jag känner glad\" is grammatically correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "Нужно возвратное местоимение: «Jag känner mig glad».",
+        "en": "It needs the reflexive pronoun: \"Jag känner mig glad\"."
+      }
+    },
+    {
+      "id": "q-simple-feelings-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag är ___ och vill äta något." },
+      "answer": ["hungrig"],
+      "acceptAlso": [],
+      "hint": { "ru": "голодный", "en": "hungry" }
+    },
+    {
+      "id": "q-simple-feelings-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Barnet är ___ eftersom hunden sprang bort." },
+      "answer": ["ledset"],
+      "acceptAlso": [],
+      "hint": { "ru": "грустный (ett-форма)", "en": "sad (ett-form)" }
+    },
+    {
+      "id": "q-simple-feelings-mc-1",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Как сказать «я чувствую себя спокойно»?", "en": "How do you say \"I feel calm\"?" },
+      "choices": ["Jag känner mig lugn.", "Jag är lugnt.", "Jag känner lugn.", "Jag mår lugn."],
+      "answer": 0,
+      "explanation": {
+        "ru": "«Jag» — общего рода, поэтому нужна форма «lugn» (не «lugnt»), а после «känner» нужно возвратное местоимение «mig».",
+        "en": "\"Jag\" takes the common-gender form \"lugn\" (not \"lugnt\"), and \"känner\" needs the reflexive pronoun \"mig\"."
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "items": [
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Jag läser en bra bok på kvällarna.", "ru": "Вечерами я читаю хорошую книгу.", "en": "I read a good book in the evenings." }
+    },
+    {
+      "id": "spela",
+      "sv": "spela",
+      "translations": { "ru": "играть", "en": "to play" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spela", "present": "spelar", "past": "spelade", "supine": "spelat" },
+      "example": { "sv": "Vad gillar du att spela?", "ru": "Во что тебе нравится играть?", "en": "What do you like to play?" }
+    },
+    {
+      "id": "spela-fotboll",
+      "sv": "spela fotboll",
+      "translations": { "ru": "играть в футбол", "en": "to play football" },
+      "pos": "phrase",
+      "example": { "sv": "Vi spelar fotboll på lördagar.", "ru": "Мы играем в футбол по субботам.", "en": "We play football on Saturdays." }
+    },
+    {
+      "id": "spela-ett-instrument",
+      "sv": "spela ett instrument",
+      "translations": { "ru": "играть на музыкальном инструменте", "en": "to play an instrument" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du spela ett instrument?", "ru": "Ты умеешь играть на каком-нибудь инструменте?", "en": "Can you play an instrument?" }
+    },
+    {
+      "id": "spela-dataspel",
+      "sv": "spela dataspel",
+      "translations": { "ru": "играть в компьютерные игры", "en": "to play video games" },
+      "pos": "phrase",
+      "example": { "sv": "Min bror spelar dataspel varje dag.", "ru": "Мой брат играет в видеоигры каждый день.", "en": "My brother plays video games every day." }
+    },
+    {
+      "id": "mala",
+      "sv": "måla",
+      "translations": { "ru": "рисовать красками", "en": "to paint" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "måla", "present": "målar", "past": "målade", "supine": "målat" },
+      "example": { "sv": "Hon målar tavlor på helgerna.", "ru": "По выходным она рисует картины.", "en": "She paints pictures on weekends." }
+    },
+    {
+      "id": "rita",
+      "sv": "rita",
+      "translations": { "ru": "рисовать (карандашом)", "en": "to draw" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rita", "present": "ritar", "past": "ritade", "supine": "ritat" },
+      "example": { "sv": "Barnen ritar bilar och hus.", "ru": "Дети рисуют машины и дома.", "en": "The children draw cars and houses." }
+    },
+    {
+      "id": "sy",
+      "sv": "sy",
+      "translations": { "ru": "шить", "en": "to sew" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "sy", "present": "syr", "past": "sydde", "supine": "sytt" },
+      "example": { "sv": "Mormor syr en klänning till mig.", "ru": "Бабушка шьёт для меня платье.", "en": "Grandma is sewing a dress for me." }
+    },
+    {
+      "id": "sticka",
+      "sv": "sticka",
+      "translations": { "ru": "вязать", "en": "to knit" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sticka", "present": "stickar", "past": "stickade", "supine": "stickat" },
+      "example": { "sv": "Jag stickar en tröja åt min son.", "ru": "Я вяжу свитер для сына.", "en": "I'm knitting a sweater for my son." },
+      "note": { "en": "As \"to knit\" this verb is weak (stickar/stickade/stickat); do not confuse with \"sticka\" meaning \"to sting/prick\" (sticker/stack/stuckit).", "ru": "В значении «вязать» глагол слабый (stickar/stickade/stickat); не путай с «sticka» — «колоть» (sticker/stack/stuckit)." }
+    },
+    {
+      "id": "fiska",
+      "sv": "fiska",
+      "translations": { "ru": "рыбачить", "en": "to fish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fiska", "present": "fiskar", "past": "fiskade", "supine": "fiskat" },
+      "example": { "sv": "Vi brukar fiska i sjön på sommaren.", "ru": "Летом мы обычно рыбачим на озере.", "en": "We usually fish in the lake in summer." }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Barnen simmar i havet varje dag.", "ru": "Дети каждый день купаются в море.", "en": "The children swim in the sea every day." }
+    },
+    {
+      "id": "trana",
+      "sv": "träna",
+      "translations": { "ru": "тренироваться", "en": "to exercise, to train" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träna", "present": "tränar", "past": "tränade", "supine": "tränat" },
+      "example": { "sv": "Jag tränar på gymmet tre gånger i veckan.", "ru": "Я тренируюсь в спортзале три раза в неделю.", "en": "I train at the gym three times a week." }
+    },
+    {
+      "id": "resa",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Vi reser till Spanien i sommar.", "ru": "Этим летом мы едем в Испанию.", "en": "We're traveling to Spain this summer." }
+    },
+    {
+      "id": "fotografera",
+      "sv": "fotografera",
+      "translations": { "ru": "фотографировать", "en": "to photograph" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fotografera", "present": "fotograferar", "past": "fotograferade", "supine": "fotograferat" },
+      "example": { "sv": "Han fotograferar fåglar i skogen.", "ru": "Он фотографирует птиц в лесу.", "en": "He photographs birds in the forest." }
+    },
+    {
+      "id": "odla",
+      "sv": "odla",
+      "translations": { "ru": "выращивать (растения)", "en": "to grow (plants), to garden" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "odla", "present": "odlar", "past": "odlade", "supine": "odlat" },
+      "example": { "sv": "Vi odlar tomater i trädgården.", "ru": "Мы выращиваем помидоры в саду.", "en": "We grow tomatoes in the garden." }
+    },
+    {
+      "id": "dansa",
+      "sv": "dansa",
+      "translations": { "ru": "танцевать", "en": "to dance" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat" },
+      "example": { "sv": "De dansar salsa varje fredag.", "ru": "Они танцуют сальсу каждую пятницу.", "en": "They dance salsa every Friday." }
+    },
+    {
+      "id": "sjunga",
+      "sv": "sjunga",
+      "translations": { "ru": "петь", "en": "to sing" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sjunga", "present": "sjunger", "past": "sjöng", "supine": "sjungit" },
+      "example": { "sv": "Hon sjunger i en kör.", "ru": "Она поёт в хоре.", "en": "She sings in a choir." }
+    },
+    {
+      "id": "samla-pa",
+      "sv": "samla på",
+      "translations": { "ru": "коллекционировать", "en": "to collect" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "samla på", "present": "samlar på", "past": "samlade på", "supine": "samlat på" },
+      "example": { "sv": "Han samlar på frimärken.", "ru": "Он коллекционирует марки.", "en": "He collects stamps." }
+    },
+    {
+      "id": "gilla",
+      "sv": "gilla",
+      "translations": { "ru": "нравиться, любить", "en": "to like" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "gilla", "present": "gillar", "past": "gillade", "supine": "gillat" },
+      "example": { "sv": "Jag gillar att läsa deckare.", "ru": "Мне нравится читать детективы.", "en": "I like reading detective novels." }
+    },
+    {
+      "id": "tycka-om",
+      "sv": "tycka om",
+      "translations": { "ru": "любить, нравиться", "en": "to like" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka om", "present": "tycker om", "past": "tyckte om", "supine": "tyckt om" },
+      "example": { "sv": "Vad tycker du om att göra på fritiden?", "ru": "Что ты любишь делать в свободное время?", "en": "What do you like to do in your free time?" },
+      "note": { "en": "\"Tycka om\" and \"gilla\" are near-synonyms for \"to like\"; \"tycka om\" is slightly more common before an activity (att-clause).", "ru": "«Tycka om» и «gilla» — почти синонимы со значением «нравиться»; «tycka om» чуть чаще используется перед действием (с «att»)." }
+    },
+    {
+      "id": "hobby",
+      "sv": "hobby",
+      "translations": { "ru": "хобби", "en": "hobby" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hobby", "defSg": "hobbyn", "indefPl": "hobbyer", "defPl": "hobbyerna" },
+      "example": { "sv": "Fotografering är min favorithobby.", "ru": "Фотография — моё любимое хобби.", "en": "Photography is my favorite hobby." }
+    },
+    {
+      "id": "fritid",
+      "sv": "fritid",
+      "translations": { "ru": "свободное время", "en": "free time" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fritid", "defSg": "fritiden", "indefPl": "fritider", "defPl": "fritiderna" },
+      "example": { "sv": "Vad gör du på din fritid?", "ru": "Что ты делаешь в своё свободное время?", "en": "What do you do in your free time?" }
+    }
+  ]
+}

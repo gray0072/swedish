@@ -1,0 +1,38 @@
+{
+  "id": "sfi-b/restaurant-cafe",
+  "slug": "restaurant-cafe",
+  "title": {
+    "sv": "På restaurang och café",
+    "ru": "В ресторане и кафе",
+    "en": "At the restaurant and café"
+  },
+  "summary": {
+    "ru": "Как заказать еду в ресторане, попросить счёт и устроить fika с булочкой.",
+    "en": "How to order food at a restaurant, ask for the bill, and enjoy a Swedish fika."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "restaurant",
+    "cafe",
+    "food",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 220,
+  "prerequisites": [
+    "sfi-b/food-drinks",
+    "sfi-b/cooking"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

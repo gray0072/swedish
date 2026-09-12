@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "id": "gata",
+      "sv": "en gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "example": { "sv": "Den här gatan är väldigt lång.", "ru": "Эта улица очень длинная.", "en": "This street is very long." }
+    },
+    {
+      "id": "torg",
+      "sv": "ett torg",
+      "translations": { "ru": "площадь", "en": "square" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" },
+      "example": { "sv": "Vi ses på torget klockan tre.", "ru": "Встретимся на площади в три часа.", "en": "Let's meet at the square at three o'clock." }
+    },
+    {
+      "id": "vag",
+      "sv": "en väg",
+      "translations": { "ru": "дорога, путь", "en": "way, road" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en väg", "defSg": "vägen", "indefPl": "vägar", "defPl": "vägarna" },
+      "example": { "sv": "Vilken väg ska jag ta till centrum?", "ru": "По какой дороге мне ехать в центр?", "en": "Which way should I take to the town centre?" }
+    },
+    {
+      "id": "korsning",
+      "sv": "en korsning",
+      "translations": { "ru": "перекрёсток", "en": "crossing, intersection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en korsning", "defSg": "korsningen", "indefPl": "korsningar", "defPl": "korsningarna" },
+      "example": { "sv": "Vid nästa korsning ska du svänga.", "ru": "На следующем перекрёстке нужно повернуть.", "en": "At the next intersection, you should turn." }
+    },
+    {
+      "id": "rondell",
+      "sv": "en rondell",
+      "translations": { "ru": "кольцевая развязка, круговое движение", "en": "roundabout" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rondell", "defSg": "rondellen", "indefPl": "rondeller", "defPl": "rondellerna" },
+      "example": { "sv": "Kör runt rondellen och ta andra avfarten.", "ru": "Объезжай кольцевую развязку и сверни на второй съезд.", "en": "Go around the roundabout and take the second exit." }
+    },
+    {
+      "id": "karta",
+      "sv": "en karta",
+      "translations": { "ru": "карта", "en": "map" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en karta", "defSg": "kartan", "indefPl": "kartor", "defPl": "kartorna" },
+      "example": { "sv": "Kan du visa mig på kartan var vi är?", "ru": "Можешь показать мне на карте, где мы находимся?", "en": "Can you show me on the map where we are?" }
+    },
+    {
+      "id": "overgangsstalle",
+      "sv": "ett övergångsställe",
+      "translations": { "ru": "пешеходный переход", "en": "pedestrian crossing" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett övergångsställe", "defSg": "övergångsstället", "indefPl": "övergångsställen", "defPl": "övergångsställena" },
+      "example": { "sv": "Gå över gatan vid övergångsstället.", "ru": "Переходи улицу по пешеходному переходу.", "en": "Cross the street at the pedestrian crossing." }
+    },
+    {
+      "id": "gangbana",
+      "sv": "en gångbana",
+      "translations": { "ru": "тротуар", "en": "sidewalk, pavement" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gångbana", "defSg": "gångbanan", "indefPl": "gångbanor", "defPl": "gångbanorna" },
+      "example": { "sv": "Cyklister får inte köra på gångbanan.", "ru": "Велосипедистам нельзя ездить по тротуару.", "en": "Cyclists are not allowed to ride on the sidewalk." }
+    },
+    {
+      "id": "hallplats",
+      "sv": "en hållplats",
+      "translations": { "ru": "остановка (автобуса, трамвая)", "en": "bus stop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hållplats", "defSg": "hållplatsen", "indefPl": "hållplatser", "defPl": "hållplatserna" },
+      "example": { "sv": "Bussen stannar vid nästa hållplats.", "ru": "Автобус останавливается на следующей остановке.", "en": "The bus stops at the next stop." }
+    },
+    {
+      "id": "hoger",
+      "sv": "höger",
+      "translations": { "ru": "правый, направо", "en": "right" },
+      "pos": "adj",
+      "example": { "sv": "Ta första gatan på höger sida.", "ru": "Сверни на первую улицу с правой стороны.", "en": "Take the first street on the right side." }
+    },
+    {
+      "id": "vanster",
+      "sv": "vänster",
+      "translations": { "ru": "левый, налево", "en": "left" },
+      "pos": "adj",
+      "example": { "sv": "Biblioteket ligger på vänster sida om gatan.", "ru": "Библиотека находится с левой стороны улицы.", "en": "The library is on the left side of the street." }
+    },
+    {
+      "id": "rakt-fram",
+      "sv": "rakt fram",
+      "translations": { "ru": "прямо", "en": "straight ahead" },
+      "pos": "phrase",
+      "example": { "sv": "Fortsätt rakt fram förbi kyrkan.", "ru": "Продолжай прямо мимо церкви.", "en": "Continue straight ahead past the church." }
+    },
+    {
+      "id": "mittemot",
+      "sv": "mittemot",
+      "translations": { "ru": "напротив", "en": "opposite" },
+      "pos": "prep",
+      "example": { "sv": "Apoteket ligger mittemot torget.", "ru": "Аптека находится напротив площади.", "en": "The pharmacy is opposite the square." }
+    },
+    {
+      "id": "nara",
+      "sv": "nära",
+      "translations": { "ru": "близко, рядом", "en": "near, close" },
+      "pos": "adv",
+      "example": { "sv": "Biblioteket är nära, bara två minuter härifrån.", "ru": "Библиотека рядом, всего в двух минутах отсюда.", "en": "The library is near, just two minutes from here." }
+    },
+    {
+      "id": "langt",
+      "sv": "långt",
+      "translations": { "ru": "далеко", "en": "far" },
+      "pos": "adv",
+      "example": { "sv": "Är det långt till stationen?", "ru": "До вокзала далеко?", "en": "Is it far to the station?" }
+    },
+    {
+      "id": "svanga",
+      "sv": "svänga",
+      "translations": { "ru": "поворачивать", "en": "to turn" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "svänga", "present": "svänger", "past": "svängde", "supine": "svängt" },
+      "example": { "sv": "Sväng vänster vid biblioteket.", "ru": "Поверни налево у библиотеки.", "en": "Turn left at the library." }
+    },
+    {
+      "id": "ga-forbi",
+      "sv": "gå förbi",
+      "translations": { "ru": "проходить мимо", "en": "to walk past" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå förbi", "present": "går förbi", "past": "gick förbi", "supine": "gått förbi" },
+      "example": { "sv": "Du går förbi banken och sedan är biblioteket på höger sida.", "ru": "Ты пройдёшь мимо банка, и затем библиотека будет с правой стороны.", "en": "You walk past the bank, and then the library is on the right side." }
+    },
+    {
+      "id": "hitta",
+      "sv": "hitta",
+      "translations": { "ru": "находить, найти", "en": "to find" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hitta", "present": "hittar", "past": "hittade", "supine": "hittat" },
+      "example": { "sv": "Jag kan inte hitta rätt gata.", "ru": "Я не могу найти нужную улицу.", "en": "I can't find the right street." }
+    },
+    {
+      "id": "fraga-om-vagen",
+      "sv": "fråga om vägen",
+      "translations": { "ru": "спросить дорогу", "en": "to ask for directions" },
+      "pos": "phrase",
+      "example": { "sv": "Ska vi fråga någon om vägen?", "ru": "Может, спросим у кого-нибудь дорогу?", "en": "Shall we ask someone for directions?" }
+    }
+  ]
+}

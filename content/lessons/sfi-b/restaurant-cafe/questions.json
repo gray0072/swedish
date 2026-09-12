@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-restaurant-cafe-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Можно счёт, пожалуйста?»", "en": "Build the sentence: \"Can we have the bill, please?\"" },
+      "tokens": ["notan", "tack", "få", "vi", "Kan"],
+      "answer": [4, 3, 2, 0, 1]
+    },
+    {
+      "id": "q-restaurant-cafe-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хочу заказать чашку кофе.»", "en": "Build the sentence: \"I would like to order a cup of coffee.\"" },
+      "tokens": ["kaffe", "kopp", "en", "beställa", "vill", "Jag"],
+      "answer": [5, 4, 3, 2, 1, 0]
+    },
+    {
+      "id": "q-restaurant-cafe-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова из ресторана с переводом", "en": "Match the restaurant words with their translation" },
+      "pairs": [
+        ["nota", "счёт"],
+        ["dricks", "чаевые"],
+        ["gäst", "гость"],
+        ["kvitto", "чек"]
+      ]
+    },
+    {
+      "id": "q-restaurant-cafe-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Fika» — это просто чашка кофе, и ничего больше.", "en": "\"Fika\" is just a cup of coffee, nothing more." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Fika» — это скорее социальная пауза за кофе (часто с булочкой), а не просто напиток.",
+        "en": "\"Fika\" is more of a social coffee break (often with a pastry) than just a drink."
+      }
+    },
+    {
+      "id": "q-restaurant-cafe-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kvitto» и «nota» значат одно и то же и используются в один и тот же момент.", "en": "\"Kvitto\" and \"nota\" mean the same thing and are asked for at the same moment." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Nota» — это счёт, который просят до оплаты, а «kvitto» — чек, который выдают уже после оплаты.",
+        "en": "\"Nota\" is the bill, asked for before paying, while \"kvitto\" is the receipt, given after you've paid."
+      }
+    },
+    {
+      "id": "q-restaurant-cafe-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Kan jag få ___, tack? (счёт)" },
+      "answer": ["notan"],
+      "acceptAlso": ["räkningen"]
+    },
+    {
+      "id": "q-restaurant-cafe-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Официант спрашивает: «Vill ni beställa några förrätter?» Что он предлагает?",
+        "en": "The waiter asks: \"Vill ni beställa några förrätter?\" What is he offering?"
+      },
+      "choices": ["Beställa huvudrätter", "Beställa förrätter", "Betala notan", "Boka ett bord"],
+      "answer": 1
+    },
+    {
+      "id": "q-restaurant-cafe-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Вы хотите оплатить счёт раздельно с друзьями. Что вы скажете?",
+        "en": "You want to split the bill with friends. What do you say?"
+      },
+      "choices": ["Vi betalar var för sig, tack.", "Vi vill ha mer dricks.", "Kan vi få menyn?", "Bordet är bokat."],
+      "answer": 0,
+      "explanation": {
+        "ru": "«Betala var för sig» значит, что каждый платит за себя отдельно.",
+        "en": "\"Betala var för sig\" means each person pays for their own share separately."
+      }
+    }
+  ]
+}

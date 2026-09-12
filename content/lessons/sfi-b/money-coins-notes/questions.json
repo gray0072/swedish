@@ -1,0 +1,115 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-money-coins-notes-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Можно мне сдачу?»", "en": "Build the phrase: \"Can I get change?\"" },
+      "tokens": ["jag", "få", "Kan", "växel?"],
+      "answer": [2, 0, 1, 3]
+    },
+    {
+      "id": "q-money-coins-notes-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Мне нужно обменять деньги.»", "en": "Build the sentence: \"I need to exchange money.\"" },
+      "tokens": ["växla", "måste", "Jag", "pengar."],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-money-coins-notes-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["mynt", "монета"],
+        ["sedel", "купюра"],
+        ["plånbok", "кошелёк"],
+        ["rabatt", "скидка"]
+      ]
+    },
+    {
+      "id": "q-money-coins-notes-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В Швеции до сих пор есть монеты номиналом меньше одной кроны (öre).",
+        "en": "Sweden still has coins worth less than one krona (öre)."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Монеты в эре были выведены из обращения в 2010 году. Сегодня самая мелкая монета — 1 krona, хотя öre всё ещё используется при расчёте цен.",
+        "en": "Öre coins were withdrawn from circulation in 2010. Today the smallest coin is 1 krona, although öre is still used in pricing calculations."
+      }
+    },
+    {
+      "id": "q-money-coins-notes-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Слово «pengar» используется только во множественном числе, формы единственного числа нет.",
+        "en": "The word \"pengar\" is only used in the plural — there is no singular form."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "«Pengar» (деньги) — существительное, у которого нет обычной формы единственного числа.",
+        "en": "\"Pengar\" (money) is a noun that has no everyday singular form."
+      }
+    },
+    {
+      "id": "q-money-coins-notes-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Kan jag betala ___? (наличными / in cash)" },
+      "answer": ["kontant"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-money-coins-notes-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag vill ___ pengar av min bror. (занять / to borrow)" },
+      "answer": ["låna"],
+      "acceptAlso": [],
+      "explanation": {
+        "ru": "«Låna av» кого-то значит занять у кого-то; «låna till» кому-то значит одолжить кому-то.",
+        "en": "\"Låna av\" someone means to borrow from them; \"låna till\" someone means to lend to them."
+      }
+    },
+    {
+      "id": "q-money-coins-notes-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое «Swish» в Швеции?", "en": "What is \"Swish\" in Sweden?" },
+      "choices": [
+        { "ru": "Приложение для мгновенных денежных переводов между мобильными телефонами", "en": "An app for instant money transfers between mobile phones" },
+        { "ru": "Другое слово для наличных денег", "en": "Another word for cash" },
+        { "ru": "Вид скидки в магазинах", "en": "A type of shop discount" },
+        { "ru": "Банковская карта", "en": "A bank card" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-money-coins-notes-listen-1",
+      "type": "listen",
+      "difficulty": 3,
+      "audioText": "Den kostar tvåhundrafemtio kronor.",
+      "prompt": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
+      "choices": ["25 kronor", "250 kronor", "205 kronor", "215 kronor"],
+      "answer": 1,
+      "explanation": {
+        "ru": "«Tvåhundrafemtio» — это двести пятьдесят (200 + 50).",
+        "en": "\"Tvåhundrafemtio\" is two hundred fifty (200 + 50)."
+      }
+    }
+  ]
+}

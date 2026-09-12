@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "hogtid",
+      "sv": "högtid",
+      "translations": { "ru": "праздник (торжество)", "en": "holiday, festival" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en högtid", "defSg": "högtiden", "indefPl": "högtider", "defPl": "högtiderna" },
+      "example": { "sv": "Jul är en viktig högtid i Sverige.", "ru": "Рождество — важный праздник в Швеции.", "en": "Christmas is an important holiday in Sweden." }
+    },
+    {
+      "id": "fodelsedag",
+      "sv": "födelsedag",
+      "translations": { "ru": "день рождения", "en": "birthday" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en födelsedag", "defSg": "födelsedagen", "indefPl": "födelsedagar", "defPl": "födelsedagarna" },
+      "example": { "sv": "Grattis på födelsedagen!", "ru": "С днём рождения!", "en": "Happy birthday!" }
+    },
+    {
+      "id": "jul",
+      "sv": "jul",
+      "translations": { "ru": "Рождество, Рождество (юл)", "en": "Christmas" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jul", "defSg": "julen", "indefPl": "jular", "defPl": "jularna" },
+      "example": { "sv": "I Sverige firar man jul den tjugofjärde december.", "ru": "В Швеции Рождество празднуют двадцать четвёртого декабря.", "en": "In Sweden, Christmas is celebrated on December 24th." }
+    },
+    {
+      "id": "midsommar",
+      "sv": "midsommar",
+      "translations": { "ru": "Мидсоммар (шведский праздник летнего солнцестояния)", "en": "Midsummer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en midsommar", "defSg": "midsommaren", "indefPl": "midsomrar", "defPl": "midsomrarna" },
+      "example": { "sv": "Midsommar firas i slutet av juni.", "ru": "Мидсоммар празднуют в конце июня.", "en": "Midsummer is celebrated at the end of June." }
+    },
+    {
+      "id": "pask",
+      "sv": "påsk",
+      "translations": { "ru": "Пасха", "en": "Easter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en påsk", "defSg": "påsken", "indefPl": "påskar", "defPl": "påskarna" },
+      "example": { "sv": "På påsk målar vi ägg.", "ru": "На Пасху мы красим яйца.", "en": "At Easter we paint eggs." }
+    },
+    {
+      "id": "nyar",
+      "sv": "nyår",
+      "translations": { "ru": "Новый год", "en": "New Year" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett nyår", "defSg": "nyåret", "indefPl": "nyår", "defPl": "nyåren" },
+      "example": { "sv": "Vi firar nyår med fyrverkerier.", "ru": "Мы празднуем Новый год фейерверками.", "en": "We celebrate New Year with fireworks." }
+    },
+    {
+      "id": "fira",
+      "sv": "fira",
+      "translations": { "ru": "праздновать", "en": "to celebrate" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fira", "present": "firar", "past": "firade", "supine": "firat" },
+      "example": { "sv": "Vi firar jul med familjen.", "ru": "Мы празднуем Рождество с семьёй.", "en": "We celebrate Christmas with the family." }
+    },
+    {
+      "id": "present",
+      "sv": "present",
+      "translations": { "ru": "подарок", "en": "gift, present" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en present", "defSg": "presenten", "indefPl": "presenter", "defPl": "presenterna" },
+      "example": { "sv": "Jag köpte en present till min syster.", "ru": "Я купил(а) подарок для сестры.", "en": "I bought a gift for my sister." }
+    },
+    {
+      "id": "tarta",
+      "sv": "tårta",
+      "translations": { "ru": "торт", "en": "cake" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tårta", "defSg": "tårtan", "indefPl": "tårtor", "defPl": "tårtorna" },
+      "example": { "sv": "Vi åt tårta på festen.", "ru": "Мы ели торт на празднике.", "en": "We ate cake at the party." }
+    },
+    {
+      "id": "ljus",
+      "sv": "ljus",
+      "translations": { "ru": "свеча", "en": "candle" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett ljus", "defSg": "ljuset", "indefPl": "ljus", "defPl": "ljusen" },
+      "example": { "sv": "Vi tänder ljus på tårtan.", "ru": "Мы зажигаем свечи на торте.", "en": "We light candles on the cake." }
+    },
+    {
+      "id": "julgran",
+      "sv": "julgran",
+      "translations": { "ru": "рождественская ёлка", "en": "Christmas tree" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en julgran", "defSg": "julgranen", "indefPl": "julgranar", "defPl": "julgranarna" },
+      "example": { "sv": "Vi klär julgranen med ljus och stjärnor.", "ru": "Мы украшаем ёлку огоньками и звёздами.", "en": "We decorate the Christmas tree with lights and stars." }
+    },
+    {
+      "id": "midsommarstang",
+      "sv": "midsommarstång",
+      "translations": { "ru": "майский шест (мидсоммарстонг)", "en": "maypole" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en midsommarstång", "defSg": "midsommarstången", "indefPl": "midsommarstänger", "defPl": "midsommarstängerna" },
+      "example": { "sv": "Man reser en midsommarstång på midsommarafton.", "ru": "Майский шест устанавливают в канун Мидсоммара.", "en": "People raise a maypole on Midsummer's Eve." }
+    },
+    {
+      "id": "sjunga",
+      "sv": "sjunga",
+      "translations": { "ru": "петь", "en": "to sing" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sjunga", "present": "sjunger", "past": "sjöng", "supine": "sjungit" },
+      "example": { "sv": "Vi sjunger sånger vid midsommarstången.", "ru": "Мы поём песни у майского шеста.", "en": "We sing songs by the maypole." }
+    },
+    {
+      "id": "dansa",
+      "sv": "dansa",
+      "translations": { "ru": "танцевать", "en": "to dance" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat" },
+      "example": { "sv": "Barnen dansar runt midsommarstången.", "ru": "Дети танцуют вокруг майского шеста.", "en": "The children dance around the maypole." }
+    },
+    {
+      "id": "grattis",
+      "sv": "grattis",
+      "translations": { "ru": "поздравляю!", "en": "congratulations!" },
+      "pos": "interjection",
+      "example": { "sv": "Grattis på födelsedagen!", "ru": "С днём рождения!", "en": "Happy birthday! (lit. congratulations on the birthday)" }
+    },
+    {
+      "id": "inbjudan",
+      "sv": "inbjudan",
+      "translations": { "ru": "приглашение", "en": "invitation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inbjudan", "defSg": "inbjudan", "indefPl": "inbjudningar", "defPl": "inbjudningarna" },
+      "example": { "sv": "Vi skickade en inbjudan till alla gäster.", "ru": "Мы отправили приглашение всем гостям.", "en": "We sent an invitation to all the guests." }
+    },
+    {
+      "id": "bjuda-in",
+      "sv": "bjuda in",
+      "translations": { "ru": "приглашать", "en": "to invite" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "bjuda in", "present": "bjuder in", "past": "bjöd in", "supine": "bjudit in" },
+      "example": { "sv": "Vi bjuder in våra vänner till festen.", "ru": "Мы приглашаем друзей на праздник.", "en": "We invite our friends to the party." }
+    }
+  ]
+}

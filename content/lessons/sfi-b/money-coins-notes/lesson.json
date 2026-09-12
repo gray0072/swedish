@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/money-coins-notes",
+  "slug": "money-coins-notes",
+  "title": {
+    "sv": "Pengar: mynt och sedlar",
+    "ru": "Деньги: монеты и купюры",
+    "en": "Money: coins and notes"
+  },
+  "summary": {
+    "ru": "Монеты, купюры и как спросить, сколько что-то стоит.",
+    "en": "Coins, notes, and how to ask how much something costs."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "money",
+    "payments",
+    "shopping",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 300,
+  "prerequisites": [
+    "sfi-a/shopping-phrases"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,187 @@
+{
+  "items": [
+    {
+      "id": "har-utseende",
+      "sv": "hår",
+      "translations": { "ru": "волосы", "en": "hair" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hår", "defSg": "håret", "indefPl": "hår", "defPl": "håren" },
+      "example": { "sv": "Anna har långt, lockigt hår.", "ru": "У Анны длинные кудрявые волосы.", "en": "Anna has long, curly hair." }
+    },
+    {
+      "id": "harfarg",
+      "sv": "hårfärg",
+      "translations": { "ru": "цвет волос", "en": "hair color" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hårfärg", "defSg": "hårfärgen", "indefPl": "hårfärger", "defPl": "hårfärgerna" },
+      "example": { "sv": "Vilken hårfärg har du?", "ru": "Какой у тебя цвет волос?", "en": "What color is your hair?" }
+    },
+    {
+      "id": "lockig",
+      "sv": "lockig",
+      "translations": { "ru": "кудрявый", "en": "curly" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: lockigt, мн.ч.: lockiga", "en": "ett-form: lockigt, plural: lockiga" },
+      "example": { "sv": "Hennes hår är lockigt och blont.", "ru": "Её волосы кудрявые и светлые.", "en": "Her hair is curly and blonde." }
+    },
+    {
+      "id": "rak",
+      "sv": "rak",
+      "translations": { "ru": "прямой (о волосах)", "en": "straight (hair)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: rakt, мн.ч.: raka", "en": "ett-form: rakt, plural: raka" },
+      "example": { "sv": "Erik har rakt, grått hår.", "ru": "У Эрика прямые седые волосы.", "en": "Erik has straight, grey hair." }
+    },
+    {
+      "id": "kort-utseende",
+      "sv": "kort",
+      "translations": { "ru": "короткий (о волосах); низкий (о росте)", "en": "short (hair, height)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма совпадает: kort, мн.ч.: korta", "en": "ett-form is the same: kort, plural: korta" },
+      "example": { "sv": "Hon klippte sig och har kort hår nu.", "ru": "Она подстриглась, и теперь у неё короткие волосы.", "en": "She got a haircut and has short hair now." }
+    },
+    {
+      "id": "lang-utseende",
+      "sv": "lång",
+      "translations": { "ru": "длинный (о волосах); высокий (о росте)", "en": "long (hair); tall (height)" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
+      "example": { "sv": "Erik är lång och kraftig.", "ru": "Эрик высокий и крупный.", "en": "Erik is tall and heavyset." }
+    },
+    {
+      "id": "medellang",
+      "sv": "medellång",
+      "translations": { "ru": "среднего роста", "en": "medium height" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: medellångt, мн.ч.: medellånga", "en": "ett-form: medellångt, plural: medellånga" },
+      "example": { "sv": "Anna är medellång, varken kort eller lång.", "ru": "Анна среднего роста — ни низкая, ни высокая.", "en": "Anna is medium height — neither short nor tall." }
+    },
+    {
+      "id": "blont-har",
+      "sv": "blont hår",
+      "translations": { "ru": "светлые волосы", "en": "blonde hair" },
+      "pos": "phrase",
+      "note": { "ru": "blond согласуется с ett-словом hår: blont", "en": "blond agrees with the ett-word hår: blont" },
+      "example": { "sv": "Anna har blont hår och blå ögon.", "ru": "У Анны светлые волосы и голубые глаза.", "en": "Anna has blonde hair and blue eyes." }
+    },
+    {
+      "id": "brunt-har",
+      "sv": "brunt hår",
+      "translations": { "ru": "каштановые/коричневые волосы", "en": "brown hair" },
+      "pos": "phrase",
+      "example": { "sv": "Hennes syster har brunt hår.", "ru": "У её сестры каштановые волосы.", "en": "Her sister has brown hair." }
+    },
+    {
+      "id": "skagg",
+      "sv": "skägg",
+      "translations": { "ru": "борода", "en": "beard" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skägg", "defSg": "skägget", "indefPl": "skägg", "defPl": "skäggen" },
+      "example": { "sv": "Erik har ett grått skägg.", "ru": "У Эрика седая борода.", "en": "Erik has a grey beard." }
+    },
+    {
+      "id": "mustasch",
+      "sv": "mustasch",
+      "translations": { "ru": "усы", "en": "moustache" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mustasch", "defSg": "mustaschen", "indefPl": "mustascher", "defPl": "mustascherna" },
+      "example": { "sv": "Farfar har en tjock mustasch.", "ru": "У дедушки густые усы.", "en": "Grandpa has a thick moustache." }
+    },
+    {
+      "id": "glasogon",
+      "sv": "glasögon",
+      "translations": { "ru": "очки", "en": "glasses" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "glasögon", "defSg": "glasögonen", "indefPl": "glasögon", "defPl": "glasögonen" },
+      "note": { "ru": "plurale tantum: существует только во множественном числе, форма «ett glasögon» не используется — «пара очков» будет «ett par glasögon»", "en": "plurale tantum: exists only in the plural — there is no singular \"ett glasögon\"; \"a pair of glasses\" is \"ett par glasögon\"" },
+      "example": { "sv": "Erik bär glasögon när han läser.", "ru": "Эрик носит очки, когда читает.", "en": "Erik wears glasses when he reads." }
+    },
+    {
+      "id": "ogonfarg",
+      "sv": "ögonfärg",
+      "translations": { "ru": "цвет глаз", "en": "eye color" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ögonfärg", "defSg": "ögonfärgen", "indefPl": "ögonfärger", "defPl": "ögonfärgerna" },
+      "example": { "sv": "Hennes ögonfärg är grön.", "ru": "Цвет её глаз — зелёный.", "en": "Her eye color is green." }
+    },
+    {
+      "id": "bla-ogon",
+      "sv": "blå ögon",
+      "translations": { "ru": "голубые/синие глаза", "en": "blue eyes" },
+      "pos": "phrase",
+      "example": { "sv": "Anna har blå ögon och ett vänligt leende.", "ru": "У Анны голубые глаза и добрая улыбка.", "en": "Anna has blue eyes and a kind smile." }
+    },
+    {
+      "id": "bruna-ogon",
+      "sv": "bruna ögon",
+      "translations": { "ru": "карие глаза", "en": "brown eyes" },
+      "pos": "phrase",
+      "note": { "ru": "brun согласуется с ögon во мн.ч.: bruna", "en": "brun agrees with the plural ögon: bruna" },
+      "example": { "sv": "Erik har bruna ögon och grått hår.", "ru": "У Эрика карие глаза и седые волосы.", "en": "Erik has brown eyes and grey hair." }
+    },
+    {
+      "id": "smal",
+      "sv": "smal",
+      "translations": { "ru": "стройный, худой", "en": "slim, thin" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
+      "example": { "sv": "Anna är smal och medellång.", "ru": "Анна стройная и среднего роста.", "en": "Anna is slim and medium height." }
+    },
+    {
+      "id": "kraftig",
+      "sv": "kraftig",
+      "translations": { "ru": "крупный, плотного телосложения", "en": "heavyset, sturdy" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: kraftigt, мн.ч.: kraftiga", "en": "ett-form: kraftigt, plural: kraftiga" },
+      "example": { "sv": "Erik är kraftig och stark.", "ru": "Эрик крупный и сильный.", "en": "Erik is heavyset and strong." }
+    },
+    {
+      "id": "ung",
+      "sv": "ung",
+      "translations": { "ru": "молодой", "en": "young" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: ungt, мн.ч.: unga", "en": "ett-form: ungt, plural: unga" },
+      "example": { "sv": "Anna är bara tjugo år och ser ung ut.", "ru": "Анне всего двадцать лет, и она выглядит молодо.", "en": "Anna is only twenty and looks young." }
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: gammalt, мн.ч.: gamla (неправильная форма — одна m пропадает)", "en": "ett-form: gammalt, plural: gamla (irregular — one m drops)" },
+      "example": { "sv": "Erik är gammal men pigg.", "ru": "Эрик старый, но бодрый.", "en": "Erik is old but lively." }
+    },
+    {
+      "id": "snygg",
+      "sv": "snygg",
+      "translations": { "ru": "симпатичный, привлекательный", "en": "good-looking, attractive" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: snyggt, мн.ч.: snygga", "en": "ett-form: snyggt, plural: snygga" },
+      "example": { "sv": "Många tycker att Erik är snygg trots sin ålder.", "ru": "Многие считают, что Эрик привлекателен, несмотря на возраст.", "en": "Many think Erik is good-looking despite his age." }
+    },
+    {
+      "id": "le",
+      "sv": "le",
+      "translations": { "ru": "улыбаться", "en": "to smile" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "le", "present": "ler", "past": "log", "supine": "lett" },
+      "example": { "sv": "Anna ler ofta mot främlingar.", "ru": "Анна часто улыбается незнакомцам.", "en": "Anna often smiles at strangers." }
+    },
+    {
+      "id": "leende",
+      "sv": "leende",
+      "translations": { "ru": "улыбка", "en": "a smile" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett leende", "defSg": "leendet", "indefPl": "leenden", "defPl": "leendena" },
+      "example": { "sv": "Hon har ett varmt leende.", "ru": "У неё тёплая улыбка.", "en": "She has a warm smile." }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/grocery-store",
+  "slug": "grocery-store",
+  "title": {
+    "sv": "I mataffären",
+    "ru": "В продуктовом магазине",
+    "en": "At the grocery store"
+  },
+  "summary": {
+    "ru": "Повседневный поход за продуктами: касса, чек, взвешивание продуктов, скидки и оплата картой или наличными.",
+    "en": "Everyday grocery shopping: checkout, receipt, weighing produce, discounts, and paying by card or cash."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "shopping",
+    "groceries",
+    "food",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 200,
+  "prerequisites": [
+    "sfi-b/food-drinks"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

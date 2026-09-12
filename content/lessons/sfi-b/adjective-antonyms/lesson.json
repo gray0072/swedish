@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/adjective-antonyms",
+  "slug": "adjective-antonyms",
+  "title": {
+    "sv": "Motsatsord",
+    "ru": "Прилагательные-антонимы",
+    "en": "Adjective antonyms"
+  },
+  "summary": {
+    "ru": "Описываем предметы парами противоположных прилагательных: большой/маленький, новый/старый, дорогой/дешёвый.",
+    "en": "Describing objects using pairs of opposite adjectives: big/small, new/old, expensive/cheap."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "adjectives",
+    "antonyms",
+    "describing-objects",
+    "vocabulary"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 240,
+  "prerequisites": [
+    "sfi-a/shapes-sizes"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

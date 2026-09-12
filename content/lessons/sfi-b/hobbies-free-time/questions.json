@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-hobbies-free-time-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я играю в футбол по субботам.»", "en": "Build the sentence: \"I play football on Saturdays.\"" },
+      "tokens": ["lördagar", "spelar", "Jag", "på", "fotboll"],
+      "answer": [2, 1, 4, 3, 0]
+    },
+    {
+      "id": "q-hobbies-free-time-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Он коллекционирует марки.»", "en": "Build the sentence: \"He collects stamps.\"" },
+      "tokens": ["frimärken", "samlar", "på", "Han"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-hobbies-free-time-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глаголы с переводом", "en": "Match the verbs with their translation" },
+      "pairs": [
+        ["läsa", "читать"],
+        ["simma", "плавать"],
+        ["sjunga", "петь"],
+        ["dansa", "танцевать"]
+      ]
+    },
+    {
+      "id": "q-hobbies-free-time-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В этом уроке «sticka» означает «рыбачить».", "en": "In this lesson, \"sticka\" means \"to fish\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Sticka» здесь значит «вязать»; «рыбачить» — это «fiska».",
+        "en": "\"Sticka\" here means \"to knit\"; \"to fish\" is \"fiska\"."
+      }
+    },
+    {
+      "id": "q-hobbies-free-time-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Tycka om» и «gilla» оба могут означать «нравиться».", "en": "\"Tycka om\" and \"gilla\" can both mean \"to like\"." },
+      "answer": true
+    },
+    {
+      "id": "q-hobbies-free-time-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ fotboll varje helg. (играю)" },
+      "answer": ["spelar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-hobbies-free-time-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vad ___ du om att göra på fritiden? (любишь)" },
+      "answer": ["tycker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-hobbies-free-time-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какой глагол означает «коллекционировать», например марки?",
+        "en": "Which verb means \"to collect\", as in stamps?"
+      },
+      "choices": ["samla på", "spela", "odla", "sticka"],
+      "answer": 0
+    },
+    {
+      "id": "q-hobbies-free-time-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Каким глаголом называют вязание свитера спицами и пряжей?",
+        "en": "Which verb describes making a sweater with needles and yarn?"
+      },
+      "choices": ["sy", "sticka", "väva", "måla"],
+      "answer": 1,
+      "explanation": {
+        "ru": "«Sy» — шить (иглой и ниткой через ткань), «sticka» — вязать спицами.",
+        "en": "\"Sy\" is to sew (needle and thread through fabric), \"sticka\" is to knit (with needles and yarn)."
+      }
+    }
+  ]
+}

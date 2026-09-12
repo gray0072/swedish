@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-library-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я должен(на) вернуть книгу.»", "en": "Build the sentence: \"I have to return the book.\"" },
+      "tokens": ["tillbaka", "lämna", "boken", "måste", "Jag"],
+      "answer": [4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-library-basics-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Веди себя тихо в библиотеке!»", "en": "Build the sentence: \"Be quiet in the library!\"" },
+      "tokens": ["biblioteket", "tyst", "i", "Var"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-library-basics-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова о библиотеке с переводом", "en": "Match the library words with their translation" },
+      "pairs": [
+        ["bibliotek", "библиотека"],
+        ["lånekort", "читательский билет"],
+        ["hylla", "полка"],
+        ["tidskrift", "журнал"]
+      ]
+    },
+    {
+      "id": "q-library-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В большинстве зон библиотеки нужно вести себя тихо (tyst).", "en": "In most areas of the library you should be quiet (tyst)." },
+      "answer": true
+    },
+    {
+      "id": "q-library-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Låna» и «lämna tillbaka» значат одно и то же.", "en": "\"Låna\" and \"lämna tillbaka\" mean the same thing." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Låna» — брать книгу в библиотеке, «lämna tillbaka» — возвращать её обратно.",
+        "en": "\"Låna\" means to borrow a book from the library, \"lämna tillbaka\" means to return it."
+      }
+    },
+    {
+      "id": "q-library-basics-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Boken är sen, så jag måste betala en ___. (штраф за просрочку)" },
+      "answer": ["förseningsavgift"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-library-basics-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ den här boken innan den blir populär och tar slut. (зарезервируй)" },
+      "answer": ["Reservera"],
+      "acceptAlso": ["reservera"]
+    },
+    {
+      "id": "q-library-basics-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Книгу нужно было вернуть в понедельник, но ты забыл(а). Что происходит?",
+        "en": "The book was due back on Monday, but you forgot. What happens?"
+      },
+      "choices": ["Du får betala en förseningsavgift", "Biblioteket skickar en ny bok till dig", "Du måste köpa ett nytt lånekort", "Inget särskilt händer"],
+      "answer": 0
+    },
+    {
+      "id": "q-library-basics-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Ты хочешь прочитать книгу, которую сейчас держит другой читатель. Что можно сделать?",
+        "en": "You want to read a book that another reader currently has. What can you do?"
+      },
+      "choices": ["Reservera boken", "Betala en förseningsavgift direkt", "Köpa boken i receptionen", "Vänta i biblioteket tills personen kommer tillbaka"],
+      "answer": 0,
+      "explanation": {
+        "ru": "Библиотека сама сообщит, когда забронированная книга освободится.",
+        "en": "The library will notify you once the reserved book becomes available."
+      }
+    }
+  ]
+}

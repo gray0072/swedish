@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "id": "bestalla",
+      "sv": "beställa",
+      "translations": { "ru": "заказывать", "en": "to order" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "beställa", "present": "beställer", "past": "beställde", "supine": "beställt" },
+      "example": { "sv": "Jag vill beställa en kopp kaffe.", "ru": "Я хочу заказать чашку кофе.", "en": "I would like to order a cup of coffee." }
+    },
+    {
+      "id": "meny",
+      "sv": "meny",
+      "translations": { "ru": "меню", "en": "menu" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en meny", "defSg": "menyn", "indefPl": "menyer", "defPl": "menyerna" },
+      "example": { "sv": "Kan jag få se menyn, tack?", "ru": "Можно посмотреть меню, пожалуйста?", "en": "Can I see the menu, please?" }
+    },
+    {
+      "id": "servitor",
+      "sv": "servitör",
+      "translations": { "ru": "официант", "en": "waiter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en servitör", "defSg": "servitören", "indefPl": "servitörer", "defPl": "servitörerna" },
+      "example": { "sv": "Servitören rekommenderar fisken idag.", "ru": "Официант рекомендует сегодня рыбу.", "en": "The waiter recommends the fish today." }
+    },
+    {
+      "id": "servitris",
+      "sv": "servitris",
+      "translations": { "ru": "официантка", "en": "waitress" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en servitris", "defSg": "servitrisen", "indefPl": "servitriser", "defPl": "servitriserna" },
+      "example": { "sv": "Servitrisen tog vår beställning.", "ru": "Официантка приняла наш заказ.", "en": "The waitress took our order." }
+    },
+    {
+      "id": "nota",
+      "sv": "nota",
+      "translations": { "ru": "счёт (в ресторане)", "en": "the bill" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nota", "defSg": "notan", "indefPl": "notor", "defPl": "notorna" },
+      "example": { "sv": "Kan vi få notan, tack?", "ru": "Можно счёт, пожалуйста?", "en": "Can we have the bill, please?" }
+    },
+    {
+      "id": "dricks",
+      "sv": "dricks",
+      "translations": { "ru": "чаевые", "en": "tip" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi lämnade lite dricks till servitören.", "ru": "Мы оставили немного чаевых официанту.", "en": "We left a small tip for the waiter." },
+      "note": { "en": "Usually used as an uncountable noun, mostly in the singular.", "ru": "Обычно употребляется как неисчисляемое существительное, в основном в единственном числе." }
+    },
+    {
+      "id": "bord",
+      "sv": "bord",
+      "translations": { "ru": "стол, столик", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Vi bokade ett bord för fyra personer.", "ru": "Мы забронировали столик на четверых.", "en": "We booked a table for four people." }
+    },
+    {
+      "id": "boka-bord",
+      "sv": "Jag skulle vilja boka ett bord.",
+      "translations": { "ru": "Я хотел(а) бы забронировать столик.", "en": "I would like to book a table." },
+      "pos": "phrase"
+    },
+    {
+      "id": "fika",
+      "sv": "fika",
+      "translations": { "ru": "фика (кофе-пауза)", "en": "fika (coffee break)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fika", "defSg": "fikan", "indefPl": "fikor", "defPl": "fikorna" },
+      "example": { "sv": "Ska vi ta en fika efter lunch?", "ru": "Устроим фику после обеда?", "en": "Shall we have a fika after lunch?" }
+    },
+    {
+      "id": "kaffe",
+      "sv": "kaffe",
+      "translations": { "ru": "кофе", "en": "coffee" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "En kopp kaffe, tack.", "ru": "Чашку кофе, пожалуйста.", "en": "A cup of coffee, please." }
+    },
+    {
+      "id": "kanelbulle",
+      "sv": "kanelbulle",
+      "translations": { "ru": "булочка с корицей", "en": "cinnamon bun" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kanelbulle", "defSg": "kanelbullen", "indefPl": "kanelbullar", "defPl": "kanelbullarna" },
+      "example": { "sv": "Jag tar en kanelbulle till kaffet.", "ru": "Я возьму булочку с корицей к кофе.", "en": "I'll have a cinnamon bun with my coffee." }
+    },
+    {
+      "id": "forratt",
+      "sv": "förrätt",
+      "translations": { "ru": "закуска", "en": "starter" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förrätt", "defSg": "förrätten", "indefPl": "förrätter", "defPl": "förrätterna" },
+      "example": { "sv": "Vad blir det för förrätt?", "ru": "Что будет на закуску?", "en": "What will you have as a starter?" }
+    },
+    {
+      "id": "huvudratt",
+      "sv": "huvudrätt",
+      "translations": { "ru": "основное блюдо", "en": "main course" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en huvudrätt", "defSg": "huvudrätten", "indefPl": "huvudrätter", "defPl": "huvudrätterna" },
+      "example": { "sv": "Som huvudrätt rekommenderar jag laxen.", "ru": "На горячее я рекомендую лосось.", "en": "As a main course I recommend the salmon." }
+    },
+    {
+      "id": "efterratt",
+      "sv": "efterrätt",
+      "translations": { "ru": "десерт", "en": "dessert" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en efterrätt", "defSg": "efterrätten", "indefPl": "efterrätter", "defPl": "efterrätterna" },
+      "example": { "sv": "Vill du ha någon efterrätt?", "ru": "Хочешь какой-нибудь десерт?", "en": "Would you like any dessert?" }
+    },
+    {
+      "id": "smaklig-maltid",
+      "sv": "Smaklig måltid!",
+      "translations": { "ru": "Приятного аппетита!", "en": "Enjoy your meal!" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Kan jag få ett kvitto, tack?", "ru": "Можно чек, пожалуйста?", "en": "Can I have a receipt, please?" }
+    },
+    {
+      "id": "betala-var-for-sig",
+      "sv": "Vi betalar var för sig, tack.",
+      "translations": { "ru": "Мы платим отдельно, пожалуйста.", "en": "We're paying separately, please." },
+      "pos": "phrase"
+    },
+    {
+      "id": "rekommendera",
+      "sv": "rekommendera",
+      "translations": { "ru": "рекомендовать", "en": "to recommend" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rekommendera", "present": "rekommenderar", "past": "rekommenderade", "supine": "rekommenderat" },
+      "example": { "sv": "Vad rekommenderar du?", "ru": "Что ты порекомендуешь?", "en": "What do you recommend?" }
+    },
+    {
+      "id": "servera",
+      "sv": "servera",
+      "translations": { "ru": "подавать (еду)", "en": "to serve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "servera", "present": "serverar", "past": "serverade", "supine": "serverat" },
+      "example": { "sv": "Maten serveras om tio minuter.", "ru": "Еду подадут через десять минут.", "en": "The food will be served in ten minutes." }
+    },
+    {
+      "id": "gast",
+      "sv": "gäst",
+      "translations": { "ru": "гость, посетитель", "en": "guest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gäst", "defSg": "gästen", "indefPl": "gäster", "defPl": "gästerna" },
+      "example": { "sv": "Restaurangen har många gäster på fredagar.", "ru": "В ресторане много гостей по пятницам.", "en": "The restaurant has many guests on Fridays." }
+    }
+  ]
+}

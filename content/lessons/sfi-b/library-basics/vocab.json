@@ -1,0 +1,165 @@
+{
+  "items": [
+    {
+      "id": "bibliotek",
+      "sv": "bibliotek",
+      "translations": { "ru": "библиотека", "en": "library" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bibliotek", "defSg": "biblioteket", "indefPl": "bibliotek", "defPl": "biblioteken" },
+      "example": { "sv": "Vi går till biblioteket efter skolan.", "ru": "Мы идём в библиотеку после школы.", "en": "We're going to the library after school." }
+    },
+    {
+      "id": "bibliotekarie",
+      "sv": "bibliotekarie",
+      "translations": { "ru": "библиотекарь", "en": "librarian" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bibliotekarie", "defSg": "bibliotekarien", "indefPl": "bibliotekarier", "defPl": "bibliotekarierna" },
+      "example": { "sv": "Fråga bibliotekarien om du inte hittar boken.", "ru": "Спроси библиотекаря, если не можешь найти книгу.", "en": "Ask the librarian if you can't find the book." }
+    },
+    {
+      "id": "lanekort",
+      "sv": "lånekort",
+      "translations": { "ru": "читательский билет, карта библиотеки", "en": "library card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lånekort", "defSg": "lånekortet", "indefPl": "lånekort", "defPl": "lånekorten" },
+      "example": { "sv": "Du behöver ett lånekort för att låna böcker.", "ru": "Тебе нужен читательский билет, чтобы брать книги.", "en": "You need a library card to borrow books." }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Jag har lånat tre böcker den här veckan.", "ru": "Я взял(а) три книги на этой неделе.", "en": "I've borrowed three books this week." }
+    },
+    {
+      "id": "e-bok",
+      "sv": "e-bok",
+      "translations": { "ru": "электронная книга", "en": "e-book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-bok", "defSg": "e-boken", "indefPl": "e-böcker", "defPl": "e-böckerna" },
+      "example": { "sv": "Man kan också låna e-böcker via appen.", "ru": "Электронные книги тоже можно брать через приложение.", "en": "You can also borrow e-books through the app." }
+    },
+    {
+      "id": "tidning",
+      "sv": "tidning",
+      "translations": { "ru": "газета", "en": "newspaper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" },
+      "example": { "sv": "Dagens tidning ligger på bordet vid entrén.", "ru": "Сегодняшняя газета лежит на столе у входа.", "en": "Today's newspaper is on the table by the entrance." }
+    },
+    {
+      "id": "tidskrift",
+      "sv": "tidskrift",
+      "translations": { "ru": "журнал", "en": "magazine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidskrift", "defSg": "tidskriften", "indefPl": "tidskrifter", "defPl": "tidskrifterna" },
+      "example": { "sv": "Jag ska bläddra i en tidskrift medan jag väntar.", "ru": "Полистаю журнал, пока жду.", "en": "I'll leaf through a magazine while I wait." }
+    },
+    {
+      "id": "hylla",
+      "sv": "hylla",
+      "translations": { "ru": "полка", "en": "shelf" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hylla", "defSg": "hyllan", "indefPl": "hyllor", "defPl": "hyllorna" },
+      "example": { "sv": "Deckarna står på den nedersta hyllan.", "ru": "Детективы стоят на нижней полке.", "en": "The crime novels are on the bottom shelf." }
+    },
+    {
+      "id": "avdelning",
+      "sv": "avdelning",
+      "translations": { "ru": "отдел, секция", "en": "section, department" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avdelning", "defSg": "avdelningen", "indefPl": "avdelningar", "defPl": "avdelningarna" },
+      "example": { "sv": "Barnavdelningen ligger en trappa ner.", "ru": "Детский отдел находится этажом ниже.", "en": "The children's section is one floor down." }
+    },
+    {
+      "id": "oppettider",
+      "sv": "öppettider",
+      "translations": { "ru": "часы работы", "en": "opening hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en öppettid", "defSg": "öppettiden", "indefPl": "öppettider", "defPl": "öppettiderna" },
+      "example": { "sv": "Vilka är bibliotekets öppettider på lördagar?", "ru": "Какие часы работы у библиотеки по субботам?", "en": "What are the library's opening hours on Saturdays?" }
+    },
+    {
+      "id": "forseningsavgift",
+      "sv": "förseningsavgift",
+      "translations": { "ru": "штраф за просрочку", "en": "late fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förseningsavgift", "defSg": "förseningsavgiften", "indefPl": "förseningsavgifter", "defPl": "förseningsavgifterna" },
+      "example": { "sv": "Om boken är sen får du betala en förseningsavgift.", "ru": "Если книга просрочена, придётся заплатить штраф.", "en": "If the book is late, you have to pay a late fee." }
+    },
+    {
+      "id": "lana",
+      "sv": "låna",
+      "translations": { "ru": "брать взаймы, брать напрокат", "en": "to borrow" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "Jag vill låna den här boken.", "ru": "Я хочу взять эту книгу.", "en": "I want to borrow this book." }
+    },
+    {
+      "id": "lamna-tillbaka",
+      "sv": "lämna tillbaka",
+      "translations": { "ru": "возвращать (книгу и т.п.)", "en": "to return (a book, etc.)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lämna tillbaka", "present": "lämnar tillbaka", "past": "lämnade tillbaka", "supine": "lämnat tillbaka" },
+      "example": { "sv": "Du måste lämna tillbaka boken på fredag.", "ru": "Ты должен(на) вернуть книгу в пятницу.", "en": "You have to return the book on Friday." }
+    },
+    {
+      "id": "reservera",
+      "sv": "reservera",
+      "translations": { "ru": "резервировать, бронировать", "en": "to reserve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reservera", "present": "reserverar", "past": "reserverade", "supine": "reserverat" },
+      "example": { "sv": "Jag reserverade boken på nätet igår.", "ru": "Вчера я забронировал(а) книгу через интернет.", "en": "I reserved the book online yesterday." }
+    },
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Hon läser en tidskrift i soffan.", "ru": "Она читает журнал на диване.", "en": "She's reading a magazine on the sofa." }
+    },
+    {
+      "id": "fornya",
+      "sv": "förnya",
+      "translations": { "ru": "продлевать (срок займа)", "en": "to renew (a loan)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "förnya", "present": "förnyar", "past": "förnyade", "supine": "förnyat" },
+      "example": { "sv": "Kan jag förnya lånet en gång till?", "ru": "Можно продлить срок ещё на один раз?", "en": "Can I renew the loan one more time?" }
+    },
+    {
+      "id": "bladdra",
+      "sv": "bläddra",
+      "translations": { "ru": "листать, пролистывать", "en": "to leaf through, to browse" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bläddra", "present": "bläddrar", "past": "bläddrade", "supine": "bläddrat" },
+      "example": { "sv": "Jag bläddrar igenom boken innan jag lånar den.", "ru": "Я листаю книгу, прежде чем взять её.", "en": "I leaf through the book before borrowing it." }
+    },
+    {
+      "id": "tyst",
+      "sv": "tyst",
+      "translations": { "ru": "тихий, тихо", "en": "quiet" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: tyst, мн.ч.: tysta", "en": "ett-form: tyst, plural: tysta" },
+      "example": { "sv": "Man ska vara tyst i läsesalen.", "ru": "В читальном зале нужно вести себя тихо.", "en": "You should be quiet in the reading room." }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "id": "stada",
+      "sv": "städa",
+      "translations": { "ru": "убираться, наводить чистоту", "en": "to clean, to tidy up" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "städa", "present": "städar", "past": "städade", "supine": "städat" },
+      "example": { "sv": "Jag städar lägenheten på lördagar.", "ru": "Я убираюсь в квартире по субботам.", "en": "I clean my apartment on Saturdays." }
+    },
+    {
+      "id": "diska",
+      "sv": "diska",
+      "translations": { "ru": "мыть посуду", "en": "to wash the dishes" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "diska", "present": "diskar", "past": "diskade", "supine": "diskat" },
+      "example": { "sv": "Kan du diska efter middagen?", "ru": "Ты можешь помыть посуду после ужина?", "en": "Can you wash the dishes after dinner?" }
+    },
+    {
+      "id": "dammsuga",
+      "sv": "dammsuga",
+      "translations": { "ru": "пылесосить", "en": "to vacuum" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dammsuga", "present": "dammsuger", "past": "dammsög", "supine": "dammsugit" },
+      "note": { "ru": "спрягается как «suga» (сосать): dammsuger, dammsög, dammsugit", "en": "conjugates like \"suga\" (to suck): dammsuger, dammsög, dammsugit" },
+      "example": { "sv": "Vi dammsuger vardagsrummet varje vecka.", "ru": "Мы пылесосим гостиную каждую неделю.", "en": "We vacuum the living room every week." }
+    },
+    {
+      "id": "tvatta",
+      "sv": "tvätta",
+      "translations": { "ru": "стирать (одежду)", "en": "to do the laundry, to wash (clothes)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tvätta", "present": "tvättar", "past": "tvättade", "supine": "tvättat" },
+      "example": { "sv": "Jag ska tvätta kläderna imorgon.", "ru": "Я постираю одежду завтра.", "en": "I'm going to do the laundry tomorrow." }
+    },
+    {
+      "id": "stryka",
+      "sv": "stryka",
+      "translations": { "ru": "гладить (утюгом)", "en": "to iron" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stryka", "present": "stryker", "past": "strök", "supine": "strukit" },
+      "example": { "sv": "Hon stryker skjortorna på söndagskvällen.", "ru": "Она гладит рубашки в воскресенье вечером.", "en": "She irons the shirts on Sunday evening." }
+    },
+    {
+      "id": "torka",
+      "sv": "torka",
+      "translations": { "ru": "сушить; вытирать", "en": "to dry; to wipe" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "torka", "present": "torkar", "past": "torkade", "supine": "torkat" },
+      "example": { "sv": "Torka bordet efter middagen.", "ru": "Протри стол после ужина.", "en": "Wipe the table after dinner." }
+    },
+    {
+      "id": "damma",
+      "sv": "damma",
+      "translations": { "ru": "вытирать пыль", "en": "to dust" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "damma", "present": "dammar", "past": "dammade", "supine": "dammat" },
+      "example": { "sv": "Glöm inte att damma hyllorna.", "ru": "Не забудь протереть пыль с полок.", "en": "Don't forget to dust the shelves." }
+    },
+    {
+      "id": "badda",
+      "sv": "bädda",
+      "translations": { "ru": "заправлять (кровать)", "en": "to make (the bed)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bädda", "present": "bäddar", "past": "bäddade", "supine": "bäddat" },
+      "note": { "ru": "почти всегда с «sängen»: bädda sängen", "en": "almost always with \"sängen\": bädda sängen" },
+      "example": { "sv": "Bädda sängen innan du går till skolan.", "ru": "Заправь кровать перед тем, как идти в школу.", "en": "Make the bed before you go to school." }
+    },
+    {
+      "id": "vika",
+      "sv": "vika",
+      "translations": { "ru": "складывать, сворачивать", "en": "to fold" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vika", "present": "viker", "past": "vek", "supine": "vikit" },
+      "example": { "sv": "Vik tvätten och lägg den i garderoben.", "ru": "Сложи бельё и убери его в шкаф.", "en": "Fold the laundry and put it in the wardrobe." }
+    },
+    {
+      "id": "slanga",
+      "sv": "slänga",
+      "translations": { "ru": "выбрасывать", "en": "to throw away" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "slänga", "present": "slänger", "past": "slängde", "supine": "slängt" },
+      "example": { "sv": "Kom ihåg att slänga soporna ikväll.", "ru": "Не забудь вынести мусор сегодня вечером.", "en": "Remember to take out the trash tonight." }
+    },
+    {
+      "id": "sopor",
+      "sv": "sopor",
+      "translations": { "ru": "мусор", "en": "trash, garbage" },
+      "pos": "noun",
+      "gender": null,
+      "forms": null,
+      "note": { "ru": "всегда во множественном числе, как английское «the dishes»", "en": "always plural, like English \"the dishes\"" },
+      "example": { "sv": "Var slänger jag soporna?", "ru": "Куда мне выбросить мусор?", "en": "Where do I throw out the trash?" }
+    },
+    {
+      "id": "skrap",
+      "sv": "skräp",
+      "translations": { "ru": "мусор, хлам", "en": "litter, junk" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett skräp", "defSg": "skräpet", "indefPl": "skräp", "defPl": "skräpen" },
+      "note": { "ru": "обычно употребляется в единственном числе, как неисчисляемое", "en": "usually used in the singular, as an uncountable" },
+      "example": { "sv": "Det ligger skräp på golvet.", "ru": "На полу валяется мусор.", "en": "There's litter on the floor." }
+    },
+    {
+      "id": "tvatt",
+      "sv": "tvätt",
+      "translations": { "ru": "стирка, бельё для стирки", "en": "laundry" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tvätt", "defSg": "tvätten", "indefPl": "tvättar", "defPl": "tvättarna" },
+      "example": { "sv": "Jag måste göra tvätten idag.", "ru": "Мне нужно сегодня постирать.", "en": "I need to do the laundry today." }
+    },
+    {
+      "id": "tvattmaskin",
+      "sv": "tvättmaskin",
+      "translations": { "ru": "стиральная машина", "en": "washing machine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tvättmaskin", "defSg": "tvättmaskinen", "indefPl": "tvättmaskiner", "defPl": "tvättmaskinerna" },
+      "example": { "sv": "Lägg kläderna i tvättmaskinen.", "ru": "Положи одежду в стиральную машину.", "en": "Put the clothes in the washing machine." }
+    },
+    {
+      "id": "diskmaskin",
+      "sv": "diskmaskin",
+      "translations": { "ru": "посудомоечная машина", "en": "dishwasher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en diskmaskin", "defSg": "diskmaskinen", "indefPl": "diskmaskiner", "defPl": "diskmaskinerna" },
+      "example": { "sv": "Diskmaskinen är full, vi kör den ikväll.", "ru": "Посудомоечная машина полная, включим её вечером.", "en": "The dishwasher is full, we'll run it tonight." }
+    },
+    {
+      "id": "dammsugare",
+      "sv": "dammsugare",
+      "translations": { "ru": "пылесос", "en": "vacuum cleaner" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dammsugare", "defSg": "dammsugaren", "indefPl": "dammsugare", "defPl": "dammsugarna" },
+      "example": { "sv": "Dammsugaren är trasig igen.", "ru": "Пылесос снова сломан.", "en": "The vacuum cleaner is broken again." }
+    },
+    {
+      "id": "hushallssyssla",
+      "sv": "hushållssyssla",
+      "translations": { "ru": "домашнее дело, хозяйственная обязанность", "en": "household chore" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hushållssyssla", "defSg": "hushållssysslan", "indefPl": "hushållssysslor", "defPl": "hushållssysslorna" },
+      "example": { "sv": "Att diska är en tråkig hushållssyssla.", "ru": "Мыть посуду — скучное домашнее дело.", "en": "Washing dishes is a boring chore." }
+    },
+    {
+      "id": "trasa",
+      "sv": "trasa",
+      "translations": { "ru": "тряпка", "en": "rag, cloth" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trasa", "defSg": "trasan", "indefPl": "trasor", "defPl": "trasorna" },
+      "example": { "sv": "Torka bordet med en trasa.", "ru": "Протри стол тряпкой.", "en": "Wipe the table with a rag." }
+    },
+    {
+      "id": "ren",
+      "sv": "ren",
+      "translations": { "ru": "чистый", "en": "clean" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: rent, мн.ч.: rena", "en": "ett-form: rent, plural: rena" },
+      "example": { "sv": "Köket är rent nu.", "ru": "Кухня теперь чистая.", "en": "The kitchen is clean now." }
+    },
+    {
+      "id": "smutsig",
+      "sv": "smutsig",
+      "translations": { "ru": "грязный", "en": "dirty" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: smutsigt, мн.ч.: smutsiga", "en": "ett-form: smutsigt, plural: smutsiga" },
+      "example": { "sv": "Golvet är smutsigt efter festen.", "ru": "Пол грязный после вечеринки.", "en": "The floor is dirty after the party." }
+    }
+  ]
+}

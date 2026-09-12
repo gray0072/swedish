@@ -1,0 +1,95 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-preschool-school-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мама отводит меня в детский сад утром.»", "en": "Build the sentence: \"Mom drops me off at preschool in the morning.\"" },
+      "tokens": ["på morgonen.", "Mamma", "på förskolan", "lämnar", "mig"],
+      "answer": [1, 3, 4, 2, 0]
+    },
+    {
+      "id": "q-preschool-school-basics-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Родители забирают детей после обеда.»", "en": "Build the sentence: \"The parents pick up the children in the afternoon.\"" },
+      "tokens": ["på eftermiddagen.", "barnen", "Föräldrarna", "hämtar"],
+      "answer": [2, 3, 1, 0]
+    },
+    {
+      "id": "q-preschool-school-basics-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["förskola", "детский сад"],
+        ["läxa", "домашнее задание"],
+        ["rast", "перемена"],
+        ["klasskompis", "одноклассник"],
+        ["lekplats", "детская площадка"]
+      ]
+    },
+    {
+      "id": "q-preschool-school-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Barn» — это ett-слово.", "en": "\"Barn\" is an ett-word." },
+      "answer": true
+    },
+    {
+      "id": "q-preschool-school-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Fröken» — это официальное название профессии воспитателя в Швеции.",
+        "en": "\"Fröken\" is the official professional title for a preschool teacher in Sweden."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Официальные названия — «förskollärare» или «barnskötare». «Fröken» — это старое, но всё ещё живое слово, которым дети обращаются к учительнице.",
+        "en": "The official titles are \"förskollärare\" or \"barnskötare\". \"Fröken\" is an old but still common word children use to address a teacher."
+      }
+    },
+    {
+      "id": "q-preschool-school-basics-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag måste göra min ___ innan middagen. (домашнее задание)" },
+      "answer": ["läxa"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-preschool-school-basics-gap-2",
+      "type": "gap",
+      "difficulty": 3,
+      "prompt": { "sv": "Du måste ___ barnet om det är sjukt. (sjukanmäla, presens)" },
+      "answer": ["sjukanmäler"],
+      "acceptAlso": [],
+      "explanation": { "ru": "Презенс глаголов 2-й группы: sjukanmäla → sjukanmäler.", "en": "Present tense of group-2 verbs: sjukanmäla → sjukanmäler." }
+    },
+    {
+      "id": "q-preschool-school-basics-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какое слово значит «отводить ребёнка» (утром, в детский сад), а не «забирать»?",
+        "en": "Which word means \"to drop a child off\" (in the morning), not \"to pick up\"?"
+      },
+      "choices": ["hämta", "lämna", "vila", "sjukanmäla"],
+      "answer": 1,
+      "explanation": {
+        "ru": "«Lämna» — отводить/оставлять утром, «hämta» — забирать после.",
+        "en": "\"Lämna\" is to drop off in the morning, \"hämta\" is to pick up later."
+      }
+    }
+  ]
+}

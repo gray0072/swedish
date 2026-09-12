@@ -1,0 +1,105 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-neighbours-small-talk-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Кто-то постучал в дверь.»", "en": "Build the sentence: \"Someone knocked on the door.\"" },
+      "tokens": ["dörren", "på", "Någon", "knackade"],
+      "answer": [2, 3, 1, 0]
+    },
+    {
+      "id": "q-neighbours-small-talk-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Можно одолжить немного молока?»", "en": "Build the sentence: \"Can I borrow some milk?\"" },
+      "tokens": ["mjölk", "låna", "jag", "lite", "Kan"],
+      "answer": [4, 2, 1, 3, 0]
+    },
+    {
+      "id": "q-neighbours-small-talk-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слова о доме и подъезде с переводом", "en": "Match the stairwell words with their translation" },
+      "pairs": [
+        ["hiss", "лифт"],
+        ["portkod", "код от подъезда"],
+        ["brevlåda", "почтовый ящик"],
+        ["sopnedkast", "мусоропровод"]
+      ]
+    },
+    {
+      "id": "q-neighbours-small-talk-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Tyst» и «högljudd» — это синонимы.", "en": "\"Tyst\" and \"högljudd\" mean the same thing." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tyst» значит «тихий», а «högljudd» — «шумный, громкий»: это противоположности.",
+        "en": "\"Tyst\" means \"quiet\", while \"högljudd\" means \"loud, noisy\" — they are opposites."
+      }
+    },
+    {
+      "id": "q-neighbours-small-talk-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Fika» означает просто пить кофе в одиночестве и молча.", "en": "\"Fika\" means simply drinking coffee alone and in silence." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Fika» — это шведская традиция пить кофе вместе с кем-то и немного поболтать, а не пить его в одиночестве.",
+        "en": "\"Fika\" is the Swedish tradition of having coffee together with someone and chatting a little, not drinking it alone."
+      }
+    },
+    {
+      "id": "q-neighbours-small-talk-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan jag ___ lite socker? (одолжить)" },
+      "answer": ["låna"],
+      "acceptAlso": ["Låna"]
+    },
+    {
+      "id": "q-neighbours-small-talk-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Var snäll och var ___ efter klockan tio. (тихим/тихой)" },
+      "answer": ["tyst"],
+      "acceptAlso": ["Tyst"]
+    },
+    {
+      "id": "q-neighbours-small-talk-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Соседка спрашивает: «Hur står det till?» Что она хочет узнать?",
+        "en": "Your neighbour asks: \"Hur står det till?\" What is she asking?"
+      },
+      "choices": ["Var bor du?", "Hur mår du / hur går det för dig?", "Vad heter du?", "Var är hissen?"],
+      "answer": 1
+    },
+    {
+      "id": "q-neighbours-small-talk-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Ты хочешь постирать одеяло, но у тебя нет своей стиральной машины. Куда идти?",
+        "en": "You want to wash a blanket but don't have your own washing machine. Where do you go?"
+      },
+      "choices": ["Till sopnedkastet", "Till den gemensamma tvättstugan", "Till brevlådan", "Till portkoden"],
+      "answer": 1,
+      "explanation": {
+        "ru": "«Gemensam tvättstuga» — это общая прачечная, которой пользуются все жильцы дома.",
+        "en": "A \"gemensam tvättstuga\" is a shared laundry room used by everyone in the building."
+      }
+    }
+  ]
+}

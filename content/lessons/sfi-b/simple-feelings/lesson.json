@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/simple-feelings",
+  "slug": "simple-feelings",
+  "title": {
+    "sv": "Enkla känslor",
+    "ru": "Простые чувства",
+    "en": "Simple feelings"
+  },
+  "summary": {
+    "ru": "Простые слова о чувствах и состояниях — усталый, голодный, счастливый — и как их использовать с «vara» и «känna sig».",
+    "en": "Simple feeling words — tired, hungry, happy — and how to use them with \"vara\" and \"känna sig\"."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "feelings",
+    "adjectives",
+    "everyday",
+    "emotions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 340,
+  "prerequisites": [
+    "sfi-a/how-you-feel"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

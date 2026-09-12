@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "vakna",
+      "sv": "vakna",
+      "translations": { "ru": "просыпаться", "en": "to wake up" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vakna", "present": "vaknar", "past": "vaknade", "supine": "vaknat" },
+      "example": { "sv": "Jag vaknar klockan sju på morgonen.", "ru": "Я просыпаюсь в семь утра.", "en": "I wake up at seven in the morning." }
+    },
+    {
+      "id": "ga-upp",
+      "sv": "gå upp",
+      "translations": { "ru": "вставать (с постели)", "en": "to get up" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå upp", "present": "går upp", "past": "gick upp", "supine": "gått upp" },
+      "example": { "sv": "Jag vaknar och går genast upp.", "ru": "Я просыпаюсь и сразу встаю.", "en": "I wake up and get up right away." }
+    },
+    {
+      "id": "kla-pa-sig",
+      "sv": "klä på sig",
+      "translations": { "ru": "одеваться", "en": "to get dressed" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "klä på sig", "present": "klär på sig", "past": "klädde på sig", "supine": "klätt på sig" },
+      "note": { "ru": "возвратное местоимение меняется по лицам: jag klär på mig, du klär på dig, hon klär på sig", "en": "the reflexive pronoun changes with the subject: jag klär på mig, du klär på dig, hon klär på sig" },
+      "example": { "sv": "Efter duschen klär jag på mig.", "ru": "После душа я одеваюсь.", "en": "After the shower I get dressed." }
+    },
+    {
+      "id": "duscha",
+      "sv": "duscha",
+      "translations": { "ru": "принимать душ", "en": "to shower, to take a shower" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "duscha", "present": "duschar", "past": "duschade", "supine": "duschat" },
+      "example": { "sv": "Jag duschar innan jag klär på mig.", "ru": "Я принимаю душ перед тем, как одеться.", "en": "I take a shower before I get dressed." }
+    },
+    {
+      "id": "borsta-tanderna",
+      "sv": "borsta tänderna",
+      "translations": { "ru": "чистить зубы", "en": "to brush one's teeth" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "borsta tänderna", "present": "borstar tänderna", "past": "borstade tänderna", "supine": "borstat tänderna" },
+      "example": { "sv": "Jag borstar tänderna efter frukosten.", "ru": "Я чищу зубы после завтрака.", "en": "I brush my teeth after breakfast." }
+    },
+    {
+      "id": "koppla-av",
+      "sv": "koppla av",
+      "translations": { "ru": "расслабляться, отдыхать", "en": "to relax, to unwind" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "koppla av", "present": "kopplar av", "past": "kopplade av", "supine": "kopplat av" },
+      "example": { "sv": "På kvällen kopplar jag av framför tv:n.", "ru": "Вечером я расслабляюсь перед телевизором.", "en": "In the evening I relax in front of the TV." }
+    },
+    {
+      "id": "somna",
+      "sv": "somna",
+      "translations": { "ru": "засыпать", "en": "to fall asleep" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "somna", "present": "somnar", "past": "somnade", "supine": "somnat" },
+      "example": { "sv": "Jag läser lite och somnar sedan snabbt.", "ru": "Я немного читаю и потом быстро засыпаю.", "en": "I read a little and then fall asleep quickly." }
+    },
+    {
+      "id": "ga-och-lagga-sig",
+      "sv": "gå och lägga sig",
+      "translations": { "ru": "ложиться спать", "en": "to go to bed" },
+      "pos": "verb",
+      "forms": { "infinitive": "gå och lägga sig", "present": "går och lägger sig", "past": "gick och lade sig", "supine": "gått och lagt sig" },
+      "note": { "ru": "местоимение меняется: jag går och lägger mig, du går och lägger dig", "en": "the pronoun changes with the subject: jag går och lägger mig, du går och lägger dig" },
+      "example": { "sv": "Till slut går jag och lägger mig.", "ru": "В конце концов я иду спать.", "en": "Finally I go to bed." }
+    },
+    {
+      "id": "sedan",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, after that" },
+      "pos": "adv",
+      "example": { "sv": "Jag äter frukost. Sedan duschar jag.", "ru": "Я завтракаю. Потом я принимаю душ.", "en": "I eat breakfast. Then I shower." }
+    },
+    {
+      "id": "darefter",
+      "sv": "därefter",
+      "translations": { "ru": "после этого, затем (более официально)", "en": "after that (more formal, written)" },
+      "pos": "adv",
+      "note": { "ru": "более официальный/письменный вариант, чем «sedan»", "en": "a more formal/written alternative to \"sedan\"" },
+      "example": { "sv": "Jag äter frukost. Därefter borstar jag tänderna.", "ru": "Я завтракаю. После этого я чищу зубы.", "en": "I eat breakfast. After that I brush my teeth." }
+    },
+    {
+      "id": "efter-det",
+      "sv": "efter det",
+      "translations": { "ru": "после этого", "en": "after that" },
+      "pos": "phrase",
+      "example": { "sv": "Vi pratar en stund. Efter det går alla hem.", "ru": "Мы немного разговариваем. После этого все идут домой.", "en": "We talk for a while. After that everyone goes home." }
+    },
+    {
+      "id": "innan",
+      "sv": "innan",
+      "translations": { "ru": "перед тем как, до того как", "en": "before" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag duschar innan jag äter frukost.", "ru": "Я принимаю душ перед тем, как позавтракать.", "en": "I shower before I eat breakfast." }
+    },
+    {
+      "id": "medan",
+      "sv": "medan",
+      "translations": { "ru": "пока, в то время как", "en": "while" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag lyssnar på nyheterna medan jag äter frukost.", "ru": "Я слушаю новости, пока завтракаю.", "en": "I listen to the news while I eat breakfast." }
+    },
+    {
+      "id": "till-slut",
+      "sv": "till slut",
+      "translations": { "ru": "наконец, в конце концов", "en": "finally, in the end" },
+      "pos": "phrase",
+      "example": { "sv": "Till slut somnar jag.", "ru": "В конце концов я засыпаю.", "en": "Finally I fall asleep." }
+    },
+    {
+      "id": "pa-morgonen",
+      "sv": "på morgonen",
+      "translations": { "ru": "утром", "en": "in the morning" },
+      "pos": "phrase",
+      "example": { "sv": "På morgonen vaknar jag och duschar.", "ru": "Утром я просыпаюсь и принимаю душ.", "en": "In the morning I wake up and shower." }
+    },
+    {
+      "id": "pa-formiddagen",
+      "sv": "på förmiddagen",
+      "translations": { "ru": "в первой половине дня, до полудня", "en": "in the late morning, before noon" },
+      "pos": "phrase",
+      "example": { "sv": "På förmiddagen jobbar jag hemifrån.", "ru": "В первой половине дня я работаю из дома.", "en": "In the late morning I work from home." }
+    },
+    {
+      "id": "pa-eftermiddagen",
+      "sv": "på eftermiddagen",
+      "translations": { "ru": "днём, во второй половине дня", "en": "in the afternoon" },
+      "pos": "phrase",
+      "example": { "sv": "På eftermiddagen hämtar jag barnen.", "ru": "Днём я забираю детей.", "en": "In the afternoon I pick up the kids." }
+    },
+    {
+      "id": "pa-kvallen",
+      "sv": "på kvällen",
+      "translations": { "ru": "вечером", "en": "in the evening" },
+      "pos": "phrase",
+      "example": { "sv": "På kvällen kopplar jag av.", "ru": "Вечером я отдыхаю.", "en": "In the evening I relax." }
+    },
+    {
+      "id": "pa-natten",
+      "sv": "på natten",
+      "translations": { "ru": "ночью", "en": "at night" },
+      "pos": "phrase",
+      "example": { "sv": "På natten sover jag djupt.", "ru": "Ночью я крепко сплю.", "en": "At night I sleep deeply." }
+    }
+  ]
+}

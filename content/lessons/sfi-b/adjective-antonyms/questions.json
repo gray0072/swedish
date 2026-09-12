@@ -1,0 +1,114 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adjective-antonyms-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь прилагательные с их антонимами", "en": "Match the adjectives with their antonyms" },
+      "pairs": [
+        ["stor", "liten"],
+        ["lång", "kort"],
+        ["ny", "gammal"],
+        ["snabb", "långsam"],
+        ["tung", "lätt"],
+        ["dyr", "billig"]
+      ]
+    },
+    {
+      "id": "q-adjective-antonyms-match-2",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь прилагательные с их антонимами", "en": "Match the adjectives with their antonyms" },
+      "pairs": [
+        ["ren", "smutsig"],
+        ["öppen", "stängd"],
+        ["full", "tom"],
+        ["hög", "låg"],
+        ["bred", "smal"]
+      ]
+    },
+    {
+      "id": "q-adjective-antonyms-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Как выглядит форма среднего рода (ett-form) прилагательного «stor»?",
+        "en": "What is the ett-form of the adjective \"stor\"?"
+      },
+      "choices": ["stor", "stort", "stora", "större"],
+      "answer": 1
+    },
+    {
+      "id": "q-adjective-antonyms-mc-2",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": {
+        "ru": "Какая форма множественного числа у прилагательного «liten» (маленький)?",
+        "en": "What is the plural form of the adjective \"liten\" (small)?"
+      },
+      "choices": ["liten", "litet", "små", "litna"],
+      "answer": 2,
+      "explanation": {
+        "ru": "«Liten» — неправильное прилагательное: ett litet, но мн.ч. — små, а не «litna».",
+        "en": "\"Liten\" is irregular: ett litet, but the plural is små, not a regular \"-na\" form."
+      }
+    },
+    {
+      "id": "q-adjective-antonyms-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Какая форма среднего рода (ett-form) у прилагательного «gammal» (старый)?",
+        "en": "What is the ett-form of \"gammal\" (old)?"
+      },
+      "choices": ["gammal", "gammalt", "gamla", "gammalet"],
+      "answer": 1
+    },
+    {
+      "id": "q-adjective-antonyms-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Множественное число прилагательного «öppen» (открытый) — «öppna».",
+        "en": "The plural form of \"öppen\" (open) is \"öppna\"."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "«Öppen» неправильное, как «vaken»: en öppen, ett öppet, мн.ч. öppna.",
+        "en": "\"Öppen\" is irregular like \"vaken\": en öppen, ett öppet, plural öppna."
+      }
+    },
+    {
+      "id": "q-adjective-antonyms-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Lätt» может означать и «лёгкий по весу», и «лёгкий, простой».",
+        "en": "\"Lätt\" can mean both \"light in weight\" and \"easy\"."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "Слово «lätt» действительно используется в обоих значениях — зависит от контекста.",
+        "en": "\"Lätt\" genuinely covers both meanings — context tells them apart."
+      }
+    },
+    {
+      "id": "q-adjective-antonyms-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Flaskan är tom, men glaset är ___. (полный)" },
+      "answer": ["fullt"],
+      "acceptAlso": ["Fullt"],
+      "explanation": {
+        "ru": "«Glaset» — слово среднего рода (ett glas), поэтому прилагательное получает окончание -t: fullt.",
+        "en": "\"Glaset\" is an ett-word (ett glas), so the adjective takes the -t ending: fullt."
+      }
+    }
+  ]
+}

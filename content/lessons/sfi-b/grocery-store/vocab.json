@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "id": "kassa",
+      "sv": "kassa",
+      "translations": { "ru": "касса", "en": "checkout, till" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kassa", "defSg": "kassan", "indefPl": "kassor", "defPl": "kassorna" },
+      "example": { "sv": "Kön till kassan var lång.", "ru": "Очередь в кассу была длинной.", "en": "The line at the checkout was long." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Spara kvittot om du vill byta varan.", "ru": "Сохрани чек, если хочешь обменять товар.", "en": "Keep the receipt if you want to exchange the item." }
+    },
+    {
+      "id": "avdelning",
+      "sv": "avdelning",
+      "translations": { "ru": "отдел", "en": "department, section" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avdelning", "defSg": "avdelningen", "indefPl": "avdelningar", "defPl": "avdelningarna" },
+      "example": { "sv": "Grönsakerna finns i en annan avdelning.", "ru": "Овощи находятся в другом отделе.", "en": "The vegetables are in a different department." }
+    },
+    {
+      "id": "gronsak",
+      "sv": "grönsak",
+      "translations": { "ru": "овощ", "en": "vegetable" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en grönsak", "defSg": "grönsaken", "indefPl": "grönsaker", "defPl": "grönsakerna" },
+      "example": { "sv": "Jag köper alltid färska grönsaker.", "ru": "Я всегда покупаю свежие овощи.", "en": "I always buy fresh vegetables." }
+    },
+    {
+      "id": "frukt",
+      "sv": "frukt",
+      "translations": { "ru": "фрукт", "en": "fruit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frukt", "defSg": "frukten", "indefPl": "frukter", "defPl": "frukterna" },
+      "example": { "sv": "Frukten ligger bredvid grönsakerna.", "ru": "Фрукты лежат рядом с овощами.", "en": "The fruit is next to the vegetables." }
+    },
+    {
+      "id": "mejeri",
+      "sv": "mejeri",
+      "translations": { "ru": "молочные продукты (отдел)", "en": "dairy" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mejeri", "defSg": "mejeriet", "indefPl": "mejerier", "defPl": "mejerierna" },
+      "example": { "sv": "Osten ligger i mejeriavdelningen.", "ru": "Сыр лежит в отделе молочных продуктов.", "en": "The cheese is in the dairy department." }
+    },
+    {
+      "id": "kott",
+      "sv": "kött",
+      "translations": { "ru": "мясо", "en": "meat" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kött", "defSg": "köttet", "indefPl": "kött", "defPl": "köttet" },
+      "example": { "sv": "Köttet var på extrapris idag.", "ru": "Мясо было по акции сегодня.", "en": "The meat was on special offer today." }
+    },
+    {
+      "id": "brod",
+      "sv": "bröd",
+      "translations": { "ru": "хлеб", "en": "bread" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bröd", "defSg": "brödet", "indefPl": "bröd", "defPl": "bröden" },
+      "example": { "sv": "Vi köpte nybakat bröd i affären.", "ru": "Мы купили свежеиспечённый хлеб в магазине.", "en": "We bought freshly baked bread at the store." }
+    },
+    {
+      "id": "ko",
+      "sv": "kö",
+      "translations": { "ru": "очередь", "en": "queue, line" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kö", "defSg": "kön", "indefPl": "köer", "defPl": "köerna" },
+      "example": { "sv": "Det var lång kö vid kassan på lördagen.", "ru": "В субботу у кассы была длинная очередь.", "en": "There was a long line at the checkout on Saturday." }
+    },
+    {
+      "id": "rabatt",
+      "sv": "rabatt",
+      "translations": { "ru": "скидка", "en": "discount" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rabatt", "defSg": "rabatten", "indefPl": "rabatter", "defPl": "rabatterna" },
+      "example": { "sv": "Det är tio procents rabatt på pasta idag.", "ru": "Сегодня скидка десять процентов на макароны.", "en": "There's a ten percent discount on pasta today." }
+    },
+    {
+      "id": "erbjudande",
+      "sv": "erbjudande",
+      "translations": { "ru": "предложение (акция)", "en": "offer, deal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett erbjudande", "defSg": "erbjudandet", "indefPl": "erbjudanden", "defPl": "erbjudandena" },
+      "example": { "sv": "Butiken har ett bra erbjudande på kaffe just nu.", "ru": "В магазине сейчас хорошее предложение на кофе.", "en": "The store has a good offer on coffee right now." }
+    },
+    {
+      "id": "korg",
+      "sv": "korg",
+      "translations": { "ru": "корзина", "en": "basket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en korg", "defSg": "korgen", "indefPl": "korgar", "defPl": "korgarna" },
+      "example": { "sv": "Ta en korg om du bara ska handla lite.", "ru": "Возьми корзину, если собираешься купить немного.", "en": "Take a basket if you're only shopping for a little." }
+    },
+    {
+      "id": "kundvagn",
+      "sv": "kundvagn",
+      "translations": { "ru": "тележка", "en": "shopping cart" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kundvagn", "defSg": "kundvagnen", "indefPl": "kundvagnar", "defPl": "kundvagnarna" },
+      "example": { "sv": "Kundvagnen var full efter veckohandlingen.", "ru": "Тележка была полной после недельных покупок.", "en": "The shopping cart was full after the weekly shop." }
+    },
+    {
+      "id": "pase",
+      "sv": "påse",
+      "translations": { "ru": "пакет", "en": "bag" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en påse", "defSg": "påsen", "indefPl": "påsar", "defPl": "påsarna" },
+      "example": { "sv": "Vill du ha en påse, eller har du med egen kasse?", "ru": "Хочешь пакет, или у тебя своя сумка?", "en": "Would you like a bag, or do you have your own?" }
+    },
+    {
+      "id": "kort",
+      "sv": "kort",
+      "translations": { "ru": "карта (банковская)", "en": "card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kort", "defSg": "kortet", "indefPl": "kort", "defPl": "korten" },
+      "example": { "sv": "Jag betalar alltid med kort, sällan kontant.", "ru": "Я всегда плачу картой, редко наличными.", "en": "I always pay by card, rarely in cash." }
+    },
+    {
+      "id": "kontant",
+      "sv": "kontant",
+      "translations": { "ru": "наличными", "en": "in cash" },
+      "pos": "adv",
+      "example": { "sv": "Kan man betala kontant här, eller bara med kort?", "ru": "Здесь можно платить наличными, или только картой?", "en": "Can you pay in cash here, or only by card?" }
+    },
+    {
+      "id": "vaga",
+      "sv": "väga",
+      "translations": { "ru": "взвешивать", "en": "to weigh" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "väga", "present": "väger", "past": "vägde", "supine": "vägt", "imperative": "väg" },
+      "example": { "sv": "Du måste väga bananerna innan du betalar.", "ru": "Тебе нужно взвесить бананы перед оплатой.", "en": "You need to weigh the bananas before paying." }
+    },
+    {
+      "id": "betala",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat", "imperative": "betala" },
+      "example": { "sv": "Var kan jag betala för varorna?", "ru": "Где я могу оплатить товары?", "en": "Where can I pay for the goods?" }
+    },
+    {
+      "id": "handla",
+      "sv": "handla",
+      "translations": { "ru": "делать покупки", "en": "to shop, to go shopping" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "handla", "present": "handlar", "past": "handlade", "supine": "handlat", "imperative": "handla" },
+      "example": { "sv": "Vi brukar handla mat på söndagar.", "ru": "Мы обычно закупаем продукты по воскресеньям.", "en": "We usually go grocery shopping on Sundays." }
+    },
+    {
+      "id": "kopa",
+      "sv": "köpa",
+      "translations": { "ru": "покупать", "en": "to buy" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "köpa", "present": "köper", "past": "köpte", "supine": "köpt", "imperative": "köp" },
+      "example": { "sv": "Jag ska köpa bröd och mjölk.", "ru": "Я куплю хлеб и молоко.", "en": "I'm going to buy bread and milk." }
+    },
+    {
+      "id": "byta",
+      "sv": "byta",
+      "translations": { "ru": "обменивать", "en": "to exchange" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "byta", "present": "byter", "past": "bytte", "supine": "bytt", "imperative": "byt" },
+      "example": { "sv": "Du kan byta varan om du har kvittot.", "ru": "Ты можешь обменять товар, если у тебя есть чек.", "en": "You can exchange the item if you have the receipt." }
+    }
+  ]
+}

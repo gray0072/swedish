@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "forskola",
+      "sv": "en förskola",
+      "translations": { "ru": "детский сад", "en": "preschool" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förskola", "defSg": "förskolan", "indefPl": "förskolor", "defPl": "förskolorna" },
+      "example": { "sv": "Mitt barn går på förskolan varje dag.", "ru": "Мой ребёнок каждый день ходит в детский сад.", "en": "My child goes to preschool every day." }
+    },
+    {
+      "id": "skola",
+      "sv": "en skola",
+      "translations": { "ru": "школа", "en": "school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" },
+      "example": { "sv": "Skolan börjar klockan åtta.", "ru": "Школа начинается в восемь.", "en": "School starts at eight o'clock." }
+    },
+    {
+      "id": "froken",
+      "sv": "en fröken",
+      "translations": { "ru": "учительница, фрёкен", "en": "teacher (miss)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Barnen frågar fröken om hjälp.", "ru": "Дети спрашивают учительницу о помощи.", "en": "The children ask the teacher for help." },
+      "note": { "ru": "Традиционное слово, которым дети обращаются к учительнице, особенно в детском саду и младших классах.", "en": "A traditional word children use to address a female teacher, especially in preschool and the lower grades." }
+    },
+    {
+      "id": "klasskompis",
+      "sv": "en klasskompis",
+      "translations": { "ru": "одноклассник", "en": "classmate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klasskompis", "defSg": "klasskompisen", "indefPl": "klasskompisar", "defPl": "klasskompisarna" },
+      "example": { "sv": "Hon leker med sin klasskompis på rasten.", "ru": "Она играет со своим одноклассником на перемене.", "en": "She plays with her classmate at recess." }
+    },
+    {
+      "id": "leksak",
+      "sv": "en leksak",
+      "translations": { "ru": "игрушка", "en": "toy" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en leksak", "defSg": "leksaken", "indefPl": "leksaker", "defPl": "leksakerna" },
+      "example": { "sv": "Barnen delar leksaker i förskolan.", "ru": "Дети делятся игрушками в детском саду.", "en": "The children share toys at preschool." }
+    },
+    {
+      "id": "rast",
+      "sv": "en rast",
+      "translations": { "ru": "перемена", "en": "break, recess" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rast", "defSg": "rasten", "indefPl": "raster", "defPl": "rasterna" },
+      "example": { "sv": "Vi äter mellanmål efter rasten.", "ru": "Мы едим перекус после перемены.", "en": "We eat a snack after the break." }
+    },
+    {
+      "id": "laxa",
+      "sv": "en läxa",
+      "translations": { "ru": "домашнее задание", "en": "homework" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
+      "example": { "sv": "Jag måste göra min läxa innan middagen.", "ru": "Мне нужно сделать домашнее задание перед ужином.", "en": "I have to do my homework before dinner." }
+    },
+    {
+      "id": "skolvaska",
+      "sv": "en skolväska",
+      "translations": { "ru": "школьная сумка, ранец", "en": "school bag" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skolväska", "defSg": "skolväskan", "indefPl": "skolväskor", "defPl": "skolväskorna" },
+      "example": { "sv": "Glöm inte skolväskan hemma!", "ru": "Не забудь школьную сумку дома!", "en": "Don't forget your school bag at home!" }
+    },
+    {
+      "id": "skoldag",
+      "sv": "en skoldag",
+      "translations": { "ru": "школьный день", "en": "school day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skoldag", "defSg": "skoldagen", "indefPl": "skoldagar", "defPl": "skoldagarna" },
+      "example": { "sv": "Skoldagen slutar klockan tre.", "ru": "Школьный день заканчивается в три часа.", "en": "The school day ends at three o'clock." }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Förskolan tar hand om små barn.", "ru": "Детский сад заботится о маленьких детях.", "en": "The preschool takes care of small children." }
+    },
+    {
+      "id": "foralder",
+      "sv": "en förälder",
+      "translations": { "ru": "родитель", "en": "parent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förälder", "defSg": "föräldern", "indefPl": "föräldrar", "defPl": "föräldrarna" },
+      "example": { "sv": "Föräldrarna hämtar barnen på eftermiddagen.", "ru": "Родители забирают детей после обеда.", "en": "The parents pick up the children in the afternoon." }
+    },
+    {
+      "id": "lekplats",
+      "sv": "en lekplats",
+      "translations": { "ru": "детская площадка", "en": "playground" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lekplats", "defSg": "lekplatsen", "indefPl": "lekplatser", "defPl": "lekplatserna" },
+      "example": { "sv": "Barnen leker på lekplatsen efter lunch.", "ru": "Дети играют на детской площадке после обеда.", "en": "The children play on the playground after lunch." }
+    },
+    {
+      "id": "mellanmal",
+      "sv": "ett mellanmål",
+      "translations": { "ru": "перекус, полдник", "en": "snack" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mellanmål", "defSg": "mellanmålet", "indefPl": "mellanmål", "defPl": "mellanmålen" },
+      "example": { "sv": "Förskolan serverar mellanmål klockan tre.", "ru": "Детский сад подаёт перекус в три часа.", "en": "The preschool serves a snack at three o'clock." }
+    },
+    {
+      "id": "utflykt",
+      "sv": "en utflykt",
+      "translations": { "ru": "экскурсия, поездка", "en": "outing, trip" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utflykt", "defSg": "utflykten", "indefPl": "utflykter", "defPl": "utflykterna" },
+      "example": { "sv": "Klassen ska på utflykt till skogen.", "ru": "Класс отправляется на экскурсию в лес.", "en": "The class is going on a trip to the forest." }
+    },
+    {
+      "id": "samling",
+      "sv": "en samling",
+      "translations": { "ru": "сбор, утренний круг", "en": "circle time, gathering" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en samling", "defSg": "samlingen", "indefPl": "samlingar", "defPl": "samlingarna" },
+      "example": { "sv": "Barnen sjunger sånger under samlingen.", "ru": "Дети поют песни во время сбора.", "en": "The children sing songs during circle time." }
+    },
+    {
+      "id": "hamta",
+      "sv": "hämta",
+      "translations": { "ru": "забирать (ребёнка)", "en": "to pick up (a child)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hämta", "present": "hämtar", "past": "hämtade", "supine": "hämtat" },
+      "example": { "sv": "Pappa hämtar mig från förskolan klockan fyra.", "ru": "Папа забирает меня из детского сада в четыре часа.", "en": "Dad picks me up from preschool at four o'clock." }
+    },
+    {
+      "id": "lamna",
+      "sv": "lämna",
+      "translations": { "ru": "отводить, оставлять (ребёнка)", "en": "to drop off (a child)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "lämna", "present": "lämnar", "past": "lämnade", "supine": "lämnat" },
+      "example": { "sv": "Mamma lämnar mig på förskolan på morgonen.", "ru": "Мама отводит меня в детский сад утром.", "en": "Mom drops me off at preschool in the morning." }
+    },
+    {
+      "id": "sjukanmala",
+      "sv": "sjukanmäla",
+      "translations": { "ru": "сообщить о болезни (ребёнка)", "en": "to report sick" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "sjukanmäla", "present": "sjukanmäler", "past": "sjukanmälde", "supine": "sjukanmält" },
+      "example": { "sv": "Du måste sjukanmäla barnet om det är sjukt.", "ru": "Нужно сообщить о болезни ребёнка, если он болен.", "en": "You have to report the child sick if they are ill." },
+      "note": { "ru": "Обычно делается через приложение школы/сада или по телефону до начала дня.", "en": "Usually done through the school's/preschool's app or by phone before the day starts." }
+    },
+    {
+      "id": "vila",
+      "sv": "vila",
+      "translations": { "ru": "отдыхать", "en": "to rest, to nap" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vila", "present": "vilar", "past": "vilade", "supine": "vilat" },
+      "example": { "sv": "Barnen vilar efter lunch på förskolan.", "ru": "Дети отдыхают после обеда в детском саду.", "en": "The children rest after lunch at preschool." }
+    }
+  ]
+}

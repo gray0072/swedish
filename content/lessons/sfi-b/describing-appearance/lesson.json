@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/describing-appearance",
+  "slug": "describing-appearance",
+  "title": {
+    "sv": "Hur ser man ut?",
+    "ru": "Описание внешности",
+    "en": "Describing appearance"
+  },
+  "summary": {
+    "ru": "Слова и фразы для описания внешности человека: рост, волосы, глаза, телосложение.",
+    "en": "Words and phrases for describing a person's appearance: height, hair, eyes, build."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "appearance",
+    "people",
+    "adjectives",
+    "description"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 250,
+  "prerequisites": [
+    "sfi-a/body"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

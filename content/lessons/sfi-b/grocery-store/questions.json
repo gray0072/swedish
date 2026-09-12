@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-grocery-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Возьми корзину перед тем, как идти за покупками.»", "en": "Build the sentence: \"Take a basket before you shop.\"" },
+      "tokens": ["innan", "du", "handlar", "Ta", "en", "korg"],
+      "answer": [3, 4, 5, 0, 1, 2]
+    },
+    {
+      "id": "q-grocery-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Я куплю хлеб и молоко.»", "en": "Build the sentence: \"I'm going to buy bread and milk.\"" },
+      "tokens": ["och", "mjölk", "köpa", "Jag", "ska", "bröd"],
+      "answer": [3, 4, 2, 5, 0, 1]
+    },
+    {
+      "id": "q-grocery-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова из магазина с переводом", "en": "Match the grocery-store words with their translation" },
+      "pairs": [
+        ["kassa", "касса"],
+        ["kvitto", "чек"],
+        ["korg", "корзина"],
+        ["rabatt", "скидка"]
+      ]
+    },
+    {
+      "id": "q-grocery-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Betala kontant» значит платить картой.", "en": "\"Betala kontant\" means to pay by card." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Kontant» значит наличными, а не картой — «betala kontant» = платить наличными.",
+        "en": "\"Kontant\" means cash, not card — \"betala kontant\" means to pay in cash."
+      }
+    },
+    {
+      "id": "q-grocery-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Чтобы обменять товар (byta), обычно нужен чек (kvitto).", "en": "To exchange (byta) an item, you usually need the receipt (kvitto)." },
+      "answer": true
+    },
+    {
+      "id": "q-grocery-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ bananerna innan du betalar. (взвесь)" },
+      "answer": ["Väg"],
+      "acceptAlso": ["väg"]
+    },
+    {
+      "id": "q-grocery-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Glöm inte att ta med en ___ till mataffären. (пакет)" },
+      "answer": ["påse"],
+      "acceptAlso": ["en påse"]
+    },
+    {
+      "id": "q-grocery-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Skylten säger «realisation – 20% rabatt». Что это значит?",
+        "en": "The sign says \"realisation – 20% rabatt\". What does this mean?"
+      },
+      "choices": ["Varorna är dyrare nu", "Varorna är billigare just nu", "Butiken är stängd", "Du måste betala kontant"],
+      "answer": 1
+    },
+    {
+      "id": "q-grocery-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ты набрал(а) много продуктов и не хочешь нести всё в руках. Что ты берёшь?",
+        "en": "You've picked out a lot of groceries and don't want to carry it all. What do you take?"
+      },
+      "choices": ["Ett kvitto", "En kundvagn", "En rabatt", "Ett erbjudande"],
+      "answer": 1
+    }
+  ]
+}

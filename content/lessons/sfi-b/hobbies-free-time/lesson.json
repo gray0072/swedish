@@ -1,0 +1,38 @@
+{
+  "id": "sfi-b/hobbies-free-time",
+  "slug": "hobbies-free-time",
+  "title": {
+    "sv": "Fritid och hobbyer",
+    "ru": "Хобби и свободное время",
+    "en": "Hobbies and free time"
+  },
+  "summary": {
+    "ru": "Глаголы и слова о хобби и досуге: читать, играть, рисовать, петь, плавать, коллекционировать.",
+    "en": "Verbs and words for hobbies and leisure: to read, to play, to paint, to sing, to swim, to collect."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "hobbies",
+    "free-time",
+    "verbs",
+    "leisure",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 260,
+  "prerequisites": [
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

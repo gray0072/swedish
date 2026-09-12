@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/neighbours-small-talk",
+  "slug": "neighbours-small-talk",
+  "title": {
+    "sv": "Grannar och småprat",
+    "ru": "Соседи и разговоры в подъезде",
+    "en": "Neighbours and small talk"
+  },
+  "summary": {
+    "ru": "Слова и фразы для короткого разговора с соседями в подъезде: приветствие, лифт, прачечная, почтовый ящик.",
+    "en": "Words and phrases for a short chat with neighbours in the stairwell: greetings, the elevator, the laundry room, the mailbox."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "neighbours",
+    "social",
+    "everyday",
+    "small-talk"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 280,
+  "prerequisites": [
+    "sfi-b/home"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

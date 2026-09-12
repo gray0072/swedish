@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-celebrations-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Мы поём песни у майского шеста.»", "en": "Build the sentence: \"We sing songs by the maypole.\"" },
+      "tokens": ["vid", "sjunger", "sånger", "Vi", "midsommarstången"],
+      "answer": [3, 1, 2, 0, 4]
+    },
+    {
+      "id": "q-celebrations-basics-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Мы приглашаем гостей.»", "en": "Build the sentence: \"We invite guests.\"" },
+      "tokens": ["in", "Vi", "gäster", "bjuder"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-celebrations-basics-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь праздники с переводом", "en": "Match the holidays with their translation" },
+      "pairs": [
+        ["jul", "Рождество"],
+        ["midsommar", "Мидсоммар"],
+        ["påsk", "Пасха"],
+        ["nyår", "Новый год"]
+      ]
+    },
+    {
+      "id": "q-celebrations-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Midsommar» празднуют летом.", "en": "\"Midsommar\" is celebrated in the summer." },
+      "answer": true
+    },
+    {
+      "id": "q-celebrations-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jul» и «midsommar» празднуются в один и тот же день.", "en": "\"Jul\" and \"midsommar\" are celebrated on the same day." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Jul» — зимний праздник (декабрь), «midsommar» — летний (июнь).",
+        "en": "\"Jul\" is a winter holiday (December), while \"midsommar\" is a summer one (June)."
+      }
+    },
+    {
+      "id": "q-celebrations-basics-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi tänder ___ på tårtan. (свечи)" },
+      "answer": ["ljus"],
+      "acceptAlso": ["Ljus"]
+    },
+    {
+      "id": "q-celebrations-basics-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Какой праздник отмечают в конце июня?",
+        "en": "Which holiday is celebrated at the end of June?"
+      },
+      "choices": ["Jul", "Påsk", "Midsommar", "Nyår"],
+      "answer": 2
+    },
+    {
+      "id": "q-celebrations-basics-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Что говорят человеку в день рождения?",
+        "en": "What do you say to someone on their birthday?"
+      },
+      "choices": ["Grattis!", "Skål!", "Hej då!", "Tack så mycket!"],
+      "answer": 0,
+      "explanation": {
+        "ru": "«Grattis» — стандартное поздравление в Швеции (например, «Grattis på födelsedagen!»).",
+        "en": "\"Grattis\" is the standard Swedish congratulation (e.g. \"Grattis på födelsedagen!\")."
+      }
+    }
+  ]
+}

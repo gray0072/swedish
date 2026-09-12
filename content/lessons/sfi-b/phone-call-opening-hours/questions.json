@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural", "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-phone-call-opening-hours-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Привет, это Сара.»", "en": "Build the sentence: \"Hi, this is Sara.\"" },
+      "tokens": ["är", "Hej,", "Sara.", "det"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-phone-call-opening-hours-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какой у вас график работы?»", "en": "Build the question: \"What are your opening hours?\"" },
+      "tokens": ["för", "har", "öppettider?", "Vad", "ni"],
+      "answer": [3, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-phone-call-opening-hours-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с их значением", "en": "Match the words with their meaning" },
+      "pairs": [
+        ["öppettider", "opening hours"],
+        ["stängd", "closed"],
+        ["upptaget", "busy (line)"],
+        ["telefonsvarare", "answering machine"]
+      ]
+    },
+    {
+      "id": "q-phone-call-opening-hours-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Если телефонная линия занята, шведы говорят «Det är upptaget».", "en": "If the phone line is busy, Swedes say \"Det är upptaget\"." },
+      "answer": true
+    },
+    {
+      "id": "q-phone-call-opening-hours-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Lägga på» значит взять трубку и ответить на звонок.", "en": "\"Lägga på\" means to pick up the phone and answer the call." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Lägga på» значит положить трубку, то есть закончить разговор. Отвечать на звонок — это «svara».",
+        "en": "\"Lägga på\" means to hang up, i.e. to end the call. To answer the phone is \"svara\"."
+      }
+    },
+    {
+      "id": "q-phone-call-opening-hours-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ___ dig imorgon. (я позвоню / I will call)" },
+      "answer": ["ringer"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-phone-call-opening-hours-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan jag få ___ med Anna? (поговорить / speak)" },
+      "answer": ["prata"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-phone-call-opening-hours-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Никто не отвечает, и после нескольких гудков ты слышишь запись голоса. Что это?",
+        "en": "No one answers, and after a few rings you hear a recorded voice. What is this?"
+      },
+      "choices": ["Telefonsvararen", "Öppettiderna", "Riktnumret", "Ett ögonblick"],
+      "answer": 0
+    }
+  ]
+}

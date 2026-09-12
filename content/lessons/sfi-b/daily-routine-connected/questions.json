@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-daily-routine-connected-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я принимаю душ перед тем, как позавтракать.»", "en": "Build the sentence: \"I shower before I eat breakfast.\"" },
+      "tokens": ["innan", "jag", "äter", "Jag", "duschar", "frukost"],
+      "answer": [3, 4, 0, 1, 2, 5]
+    },
+    {
+      "id": "q-daily-routine-connected-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Потом я одеваюсь.»", "en": "Build the sentence: \"Then I get dressed.\"" },
+      "tokens": ["på", "jag", "mig", "Sedan", "klär"],
+      "answer": [3, 4, 1, 0, 2]
+    },
+    {
+      "id": "q-daily-routine-connected-order-3",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «В конце концов я иду спать.»", "en": "Build the sentence: \"Finally I go to bed.\"" },
+      "tokens": ["och", "mig", "går", "Till", "lägger", "slut", "jag"],
+      "answer": [3, 5, 2, 6, 0, 4, 1]
+    },
+    {
+      "id": "q-daily-routine-connected-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова-связки с переводом", "en": "Match the connectors with their translation" },
+      "pairs": [
+        ["sedan", "потом"],
+        ["innan", "перед тем как"],
+        ["medan", "пока"],
+        ["till slut", "в конце концов"]
+      ]
+    },
+    {
+      "id": "q-daily-routine-connected-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В «klä på sig» возвратное местоимение всегда остаётся «sig», независимо от подлежащего.", "en": "In \"klä på sig\" the reflexive pronoun always stays \"sig\", no matter the subject." },
+      "answer": false,
+      "explanation": {
+        "ru": "Местоимение меняется по лицам: jag klär på mig, du klär på dig, hon klär på sig. «Sig» — только словарная форма.",
+        "en": "The pronoun changes with the subject: jag klär på mig, du klär på dig, hon klär på sig. \"Sig\" is only the dictionary form."
+      }
+    },
+    {
+      "id": "q-daily-routine-connected-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Medan» значит «пока, в то время как».", "en": "\"Medan\" means \"while\"." },
+      "answer": true
+    },
+    {
+      "id": "q-daily-routine-connected-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag duschar ___ jag äter frukost. (перед тем как)" },
+      "answer": ["innan"],
+      "acceptAlso": ["Innan"],
+      "hint": { "ru": "перед тем как", "en": "before" }
+    },
+    {
+      "id": "q-daily-routine-connected-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как сказать «в первой половине дня, до полудня»?",
+        "en": "How do you say \"in the late morning, before noon\"?"
+      },
+      "choices": ["på morgonen", "på förmiddagen", "på eftermiddagen", "på natten"],
+      "answer": 1
+    }
+  ]
+}

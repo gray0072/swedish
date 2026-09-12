@@ -1,0 +1,37 @@
+{
+  "id": "sfi-b/preschool-school-basics",
+  "slug": "preschool-school-basics",
+  "title": {
+    "sv": "Förskola och skola",
+    "ru": "Детский сад и школа",
+    "en": "Preschool and school"
+  },
+  "summary": {
+    "ru": "Базовые слова о детском саде и школе для детей: отвести, забрать, перемена, домашнее задание.",
+    "en": "Basic words about preschool and school life with children: dropping off, picking up, breaks, homework."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "children",
+    "school",
+    "preschool",
+    "family"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 330,
+  "prerequisites": [
+    "sfi-a/school-items"
+  ],
+  "xp": {
+    "base": 100
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}
