@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/demonstratives",
+  "slug": "demonstratives",
+  "title": {
+    "sv": "Demonstrativa pronomen: den här, den där, de här",
+    "ru": "Указательные местоимения",
+    "en": "Demonstratives: den här, den där, de här"
+  },
+  "summary": {
+    "ru": "«Этот/тот» в шведском согласуется с en/ett/множественным числом.",
+    "en": "\"This/that\" in Swedish, agreeing with en/ett/plural."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "pronouns",
+    "demonstratives"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 500,
+  "prerequisites": [
+    "sfi-a/det-har-dar"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

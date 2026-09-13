@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "min",
+      "sv": "min",
+      "translations": { "ru": "мой (en)", "en": "my (with en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Min bil är röd.", "ru": "Моя машина красная.", "en": "My car is red." }
+    },
+    {
+      "id": "mitt",
+      "sv": "mitt",
+      "translations": { "ru": "моё (ett)", "en": "my (with ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Mitt hus är stort.", "ru": "Мой дом большой.", "en": "My house is big." }
+    },
+    {
+      "id": "mina",
+      "sv": "mina",
+      "translations": { "ru": "мои (мн. ч.)", "en": "my (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Mina böcker är nya.", "ru": "Мои книги новые.", "en": "My books are new." }
+    },
+    {
+      "id": "din",
+      "sv": "din",
+      "translations": { "ru": "твой (en)", "en": "your (with en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Din bil är ny.", "ru": "Твоя машина новая.", "en": "Your car is new." }
+    },
+    {
+      "id": "ditt",
+      "sv": "ditt",
+      "translations": { "ru": "твоё (ett)", "en": "your (with ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Ditt hus är fint.", "ru": "Твой дом красивый.", "en": "Your house is nice." }
+    },
+    {
+      "id": "dina",
+      "sv": "dina",
+      "translations": { "ru": "твои (мн. ч.)", "en": "your (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Dina barn är glada.", "ru": "Твои дети радостные.", "en": "Your children are happy." }
+    },
+    {
+      "id": "hans",
+      "sv": "hans",
+      "translations": { "ru": "его", "en": "his" },
+      "pos": "pron",
+      "note": { "ru": "не меняется по en/ett/мн. ч.", "en": "does not change for en/ett/plural" },
+      "example": { "sv": "Hans bil är dyr.", "ru": "Его машина дорогая.", "en": "His car is expensive." }
+    },
+    {
+      "id": "hennes",
+      "sv": "hennes",
+      "translations": { "ru": "её", "en": "her" },
+      "pos": "pron",
+      "note": { "ru": "не меняется по en/ett/мн. ч.", "en": "does not change for en/ett/plural" },
+      "example": { "sv": "Hennes hus är stort.", "ru": "Её дом большой.", "en": "Her house is big." }
+    },
+    {
+      "id": "var",
+      "sv": "vår",
+      "translations": { "ru": "наш (en)", "en": "our (with en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Vår bil är gammal.", "ru": "Наша машина старая.", "en": "Our car is old." }
+    },
+    {
+      "id": "vart",
+      "sv": "vårt",
+      "translations": { "ru": "наше (ett)", "en": "our (with ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Vårt hus är litet.", "ru": "Наш дом маленький.", "en": "Our house is small." }
+    },
+    {
+      "id": "vara",
+      "sv": "våra",
+      "translations": { "ru": "наши (мн. ч.)", "en": "our (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Våra vänner kommer idag.", "ru": "Наши друзья приходят сегодня.", "en": "Our friends are coming today." }
+    },
+    {
+      "id": "er",
+      "sv": "er",
+      "translations": { "ru": "ваш (en)", "en": "your, pl. (with en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Er bil står utanför.", "ru": "Ваша машина стоит снаружи.", "en": "Your car is parked outside." }
+    },
+    {
+      "id": "ert",
+      "sv": "ert",
+      "translations": { "ru": "ваше (ett)", "en": "your, pl. (with ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Ert hus är fint.", "ru": "Ваш дом красивый.", "en": "Your house is nice." }
+    },
+    {
+      "id": "era",
+      "sv": "era",
+      "translations": { "ru": "ваши (мн. ч.)", "en": "your, pl. (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Era barn är trevliga.", "ru": "Ваши дети приятные.", "en": "Your children are nice." }
+    },
+    {
+      "id": "deras",
+      "sv": "deras",
+      "translations": { "ru": "их", "en": "their" },
+      "pos": "pron",
+      "note": { "ru": "не меняется по en/ett/мн. ч.", "en": "does not change for en/ett/plural" },
+      "example": { "sv": "Deras hus är nytt.", "ru": "Их дом новый.", "en": "Their house is new." }
+    }
+  ]
+}

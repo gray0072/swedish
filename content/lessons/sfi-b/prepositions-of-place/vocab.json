@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "id": "i-place",
+      "sv": "i",
+      "translations": { "ru": "в (внутри чего-то)", "en": "in" },
+      "pos": "prep",
+      "example": { "sv": "Boken är i väskan.", "ru": "Книга в сумке.", "en": "The book is in the bag." }
+    },
+    {
+      "id": "pa-place",
+      "sv": "på",
+      "translations": { "ru": "на", "en": "on, at" },
+      "pos": "prep",
+      "example": { "sv": "Boken är på bordet.", "ru": "Книга на столе.", "en": "The book is on the table." }
+    },
+    {
+      "id": "under",
+      "sv": "under",
+      "translations": { "ru": "под", "en": "under" },
+      "pos": "prep",
+      "example": { "sv": "Katten ligger under bordet.", "ru": "Кошка лежит под столом.", "en": "The cat is lying under the table." }
+    },
+    {
+      "id": "bakom",
+      "sv": "bakom",
+      "translations": { "ru": "за, позади", "en": "behind" },
+      "pos": "prep",
+      "example": { "sv": "Bilen står bakom huset.", "ru": "Машина стоит за домом.", "en": "The car is behind the house." }
+    },
+    {
+      "id": "framfor",
+      "sv": "framför",
+      "translations": { "ru": "перед, впереди", "en": "in front of" },
+      "pos": "prep",
+      "example": { "sv": "Hon står framför tavlan.", "ru": "Она стоит перед доской.", "en": "She is standing in front of the board." }
+    },
+    {
+      "id": "mellan",
+      "sv": "mellan",
+      "translations": { "ru": "между", "en": "between" },
+      "pos": "prep",
+      "example": { "sv": "Skolan ligger mellan banken och biblioteket.", "ru": "Школа находится между банком и библиотекой.", "en": "The school is between the bank and the library." }
+    },
+    {
+      "id": "over",
+      "sv": "över",
+      "translations": { "ru": "над, через", "en": "above, over" },
+      "pos": "prep",
+      "example": { "sv": "Lampan hänger över bordet.", "ru": "Лампа висит над столом.", "en": "The lamp hangs above the table." }
+    },
+    {
+      "id": "bredvid",
+      "sv": "bredvid",
+      "translations": { "ru": "рядом с, около", "en": "next to, beside" },
+      "pos": "prep",
+      "example": { "sv": "Stolen står bredvid bordet.", "ru": "Стул стоит рядом со столом.", "en": "The chair is next to the table." }
+    },
+    {
+      "id": "bord",
+      "sv": "bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Boken ligger på bordet.", "ru": "Книга лежит на столе.", "en": "The book is lying on the table." }
+    },
+    {
+      "id": "stol",
+      "sv": "stol",
+      "translations": { "ru": "стул", "en": "chair" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stol", "defSg": "stolen", "indefPl": "stolar", "defPl": "stolarna" },
+      "example": { "sv": "Han sitter på stolen.", "ru": "Он сидит на стуле.", "en": "He is sitting on the chair." }
+    },
+    {
+      "id": "bank",
+      "sv": "bank",
+      "translations": { "ru": "банк", "en": "bank" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bank", "defSg": "banken", "indefPl": "banker", "defPl": "bankerna" },
+      "example": { "sv": "Banken ligger bredvid torget.", "ru": "Банк находится рядом с площадью.", "en": "The bank is next to the square." }
+    },
+    {
+      "id": "bibliotek",
+      "sv": "bibliotek",
+      "translations": { "ru": "библиотека", "en": "library" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bibliotek", "defSg": "biblioteket", "indefPl": "bibliotek", "defPl": "biblioteken" },
+      "example": { "sv": "Biblioteket ligger mellan skolan och banken.", "ru": "Библиотека находится между школой и банком.", "en": "The library is between the school and the bank." }
+    },
+    {
+      "id": "torg",
+      "sv": "torg",
+      "translations": { "ru": "площадь", "en": "square (in a town)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" },
+      "example": { "sv": "Vi träffas på torget.", "ru": "Встретимся на площади.", "en": "We'll meet at the square." }
+    },
+    {
+      "id": "ligga",
+      "sv": "ligga",
+      "translations": { "ru": "лежать, находиться", "en": "to lie, to be located" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ligga", "present": "ligger", "past": "låg", "supine": "legat" },
+      "example": { "sv": "Staden ligger vid havet.", "ru": "Город находится у моря.", "en": "The town is located by the sea." }
+    },
+    {
+      "id": "sta-verb",
+      "sv": "stå",
+      "translations": { "ru": "стоять", "en": "to stand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stå", "present": "står", "past": "stod", "supine": "stått" },
+      "example": { "sv": "Bilen står framför huset.", "ru": "Машина стоит перед домом.", "en": "The car is standing in front of the house." }
+    }
+  ]
+}

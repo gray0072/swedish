@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "id": "du-bor-i-malmo-statement",
+      "sv": "Du bor i Malmö.",
+      "translations": { "ru": "Ты живёшь в Мальмё. (утверждение — тон падает)", "en": "You live in Malmö. (statement — pitch falls)" },
+      "pos": "phrase",
+      "note": { "ru": "Мелодия падает к концу предложения.", "en": "The pitch falls toward the end of the sentence." }
+    },
+    {
+      "id": "bor-du-i-malmo-question",
+      "sv": "Bor du i Malmö?",
+      "translations": { "ru": "Ты живёшь в Мальмё? (вопрос — тон растёт)", "en": "Do you live in Malmö? (question — pitch rises)" },
+      "pos": "phrase",
+      "note": { "ru": "Мелодия растёт к концу предложения, глагол стоит первым.", "en": "The pitch rises toward the end, and the verb comes first." }
+    },
+    {
+      "id": "hon-pratar-svenska-statement",
+      "sv": "Hon pratar svenska.",
+      "translations": { "ru": "Она говорит по-шведски. (утверждение)", "en": "She speaks Swedish. (statement)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "pratar-hon-svenska-question",
+      "sv": "Pratar hon svenska?",
+      "translations": { "ru": "Она говорит по-шведски? (вопрос)", "en": "Does she speak Swedish? (question)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ful",
+      "sv": "ful",
+      "translations": { "ru": "некрасивый (долгое u, одна согласная)", "en": "ugly (long u, one consonant)" },
+      "pos": "adj",
+      "example": { "sv": "Huset är fult, tycker han.", "ru": "Дом некрасивый, думает он.", "en": "The house is ugly, he thinks." }
+    },
+    {
+      "id": "full",
+      "sv": "full",
+      "translations": { "ru": "полный, пьяный (краткое u, две согласные)", "en": "full, drunk (short u, two consonants)" },
+      "pos": "adj",
+      "example": { "sv": "Glaset är fullt.", "ru": "Стакан полный.", "en": "The glass is full." }
+    },
+    {
+      "id": "sil",
+      "sv": "sil",
+      "translations": { "ru": "сито (долгое i, одна согласная)", "en": "sieve, strainer (long i, one consonant)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sil", "defSg": "silen", "indefPl": "silar", "defPl": "silarna" }
+    },
+    {
+      "id": "sill",
+      "sv": "sill",
+      "translations": { "ru": "селёдка (краткое i, две согласные)", "en": "herring (short i, two consonants)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sill", "defSg": "sillen", "indefPl": "sillar", "defPl": "sillarna" }
+    },
+    {
+      "id": "hal",
+      "sv": "hal",
+      "translations": { "ru": "скользкий (долгое a, одна согласная)", "en": "slippery (long a, one consonant)" },
+      "pos": "adj",
+      "example": { "sv": "Isen är hal.", "ru": "Лёд скользкий.", "en": "The ice is slippery." }
+    },
+    {
+      "id": "hall",
+      "sv": "hall",
+      "translations": { "ru": "прихожая (краткое a, две согласные)", "en": "hall, corridor (short a, two consonants)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hall", "defSg": "hallen", "indefPl": "hallar", "defPl": "hallarna" }
+    },
+    {
+      "id": "vek",
+      "sv": "vek",
+      "translations": { "ru": "слабый, мягкий (долгое e, одна согласная)", "en": "weak, soft/pliant (long e, one consonant)" },
+      "pos": "adj"
+    },
+    {
+      "id": "veck",
+      "sv": "veck",
+      "translations": { "ru": "складка, сгиб (краткое e, две согласные)", "en": "fold, crease (short e, two consonants)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett veck", "defSg": "vecket", "indefPl": "veck", "defPl": "vecken" }
+    }
+  ]
+}

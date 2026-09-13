@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "vilja-modal",
+      "sv": "vilja",
+      "translations": { "ru": "хотеть", "en": "to want to" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Jag vill sova.", "ru": "Я хочу спать.", "en": "I want to sleep." }
+    },
+    {
+      "id": "kunna-modal",
+      "sv": "kunna",
+      "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
+      "pos": "verb",
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "example": { "sv": "Kan du simma?", "ru": "Ты умеешь плавать?", "en": "Can you swim?" }
+    },
+    {
+      "id": "maste-modal",
+      "sv": "måste",
+      "translations": { "ru": "должен, обязан", "en": "must, have to" },
+      "pos": "verb",
+      "forms": { "infinitive": "måste", "present": "måste", "past": "måste", "supine": "måst" },
+      "note": { "ru": "форма не меняется во всех временах кроме супина", "en": "the form doesn't change across most tenses" },
+      "example": { "sv": "Vi måste gå nu.", "ru": "Нам нужно идти сейчас.", "en": "We must go now." }
+    },
+    {
+      "id": "fa-modal",
+      "sv": "få",
+      "translations": { "ru": "иметь разрешение, мочь", "en": "may, to be allowed to" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Du får inte röka här.", "ru": "Тебе нельзя курить здесь.", "en": "You are not allowed to smoke here." }
+    },
+    {
+      "id": "roka-modal",
+      "sv": "röka",
+      "translations": { "ru": "курить", "en": "to smoke" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" },
+      "example": { "sv": "Man får inte röka inomhus.", "ru": "Нельзя курить в помещении.", "en": "You may not smoke indoors." }
+    },
+    {
+      "id": "sova-modal",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Jag vill sova nu.", "ru": "Я хочу спать сейчас.", "en": "I want to sleep now." }
+    },
+    {
+      "id": "simma-modal",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Kan du simma?", "ru": "Ты умеешь плавать?", "en": "Can you swim?" }
+    },
+    {
+      "id": "ga-modal",
+      "sv": "gå",
+      "translations": { "ru": "идти", "en": "to go, to walk" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Vi måste gå nu.", "ru": "Нам нужно идти сейчас.", "en": "We must go now." }
+    },
+    {
+      "id": "betala-modal",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" },
+      "example": { "sv": "Du måste betala nu.", "ru": "Тебе нужно заплатить сейчас.", "en": "You have to pay now." }
+    },
+    {
+      "id": "parkera-modal",
+      "sv": "parkera",
+      "translations": { "ru": "парковаться", "en": "to park" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "parkera", "present": "parkerar", "past": "parkerade", "supine": "parkerat" },
+      "example": { "sv": "Du får inte parkera här.", "ru": "Здесь нельзя парковаться.", "en": "You are not allowed to park here." }
+    },
+    {
+      "id": "inte",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv",
+      "example": { "sv": "Du får inte röka här.", "ru": "Тебе нельзя курить здесь.", "en": "You are not allowed to smoke here." }
+    },
+    {
+      "id": "gama-vill",
+      "sv": "Jag vill sova.",
+      "translations": { "ru": "Я хочу спать.", "en": "I want to sleep." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är trött, jag vill sova.", "ru": "Я устал(а), я хочу спать.", "en": "I'm tired, I want to sleep." }
+    },
+    {
+      "id": "far-inte",
+      "sv": "Du får inte röka här.",
+      "translations": { "ru": "Тебе нельзя курить здесь.", "en": "You are not allowed to smoke here." },
+      "pos": "phrase",
+      "example": { "sv": "Här får du inte röka.", "ru": "Здесь тебе нельзя курить.", "en": "Here you are not allowed to smoke." }
+    }
+  ]
+}

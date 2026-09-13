@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-upper-lower-case-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Имя Anna пишется со строчной буквы: anna.", "en": "The name Anna is written with a lower-case letter: anna." },
+      "answer": false,
+      "explanation": {
+        "ru": "Имена собственные всегда пишутся с заглавной буквы: Anna.",
+        "en": "Proper names always start with a capital letter: Anna."
+      }
+    },
+    {
+      "id": "q-upper-lower-case-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Textat» значит писать печатными буквами, а не курсивом.", "en": "\"Textat\" means writing in block letters, not in cursive." },
+      "answer": true
+    },
+    {
+      "id": "q-upper-lower-case-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как по-шведски «заглавная буква»?", "en": "How do you say \"capital letter\" in Swedish?" },
+      "choices": ["stor bokstav", "liten bokstav", "en penna", "en rad"],
+      "answer": 0
+    },
+    {
+      "id": "q-upper-lower-case-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что просят, когда говорят «Skriv textat, tack»?", "en": "What are you asked when someone says \"Skriv textat, tack\"?" },
+      "choices": [
+        "Write in block letters, please.",
+        "Write your address, please.",
+        "Sign here, please.",
+        "Read it out loud, please."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-upper-lower-case-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Напишите здесь, пожалуйста.»", "en": "Build the sentence: \"Write here, please.\"" },
+      "tokens": ["tack.", "här,", "Skriv"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-upper-lower-case-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Namn börjar med stor ___." },
+      "answer": ["bokstav"],
+      "acceptAlso": [],
+      "hint": { "ru": "буква", "en": "letter" }
+    },
+    {
+      "id": "q-upper-lower-case-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Kan du skriva ditt namn här?",
+      "prompt": { "ru": "Что просят сделать?", "en": "What are you being asked to do?" },
+      "choices": [
+        { "ru": "Написать своё имя", "en": "Write your name" },
+        { "ru": "Произнести своё имя по буквам", "en": "Spell your name" },
+        { "ru": "Прочитать вслух", "en": "Read out loud" },
+        { "ru": "Показать удостоверение", "en": "Show an ID" }
+      ],
+      "answer": 0
+    }
+  ]
+}

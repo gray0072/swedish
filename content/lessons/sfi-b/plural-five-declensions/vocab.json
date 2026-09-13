@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "note": { "ru": "Склонение -or", "en": "-or declension" },
+      "example": { "sv": "två flickor", "ru": "две девочки", "en": "two girls" }
+    },
+    {
+      "id": "gata",
+      "sv": "en gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "note": { "ru": "Склонение -or", "en": "-or declension" },
+      "example": { "sv": "två gator", "ru": "две улицы", "en": "two streets" }
+    },
+    {
+      "id": "lampa",
+      "sv": "en lampa",
+      "translations": { "ru": "лампа", "en": "lamp" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lampa", "defSg": "lampan", "indefPl": "lampor", "defPl": "lamporna" },
+      "note": { "ru": "Склонение -or", "en": "-or declension" },
+      "example": { "sv": "två lampor", "ru": "две лампы", "en": "two lamps" }
+    },
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "note": { "ru": "Склонение -ar", "en": "-ar declension" },
+      "example": { "sv": "två bilar", "ru": "две машины", "en": "two cars" }
+    },
+    {
+      "id": "hund",
+      "sv": "en hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "note": { "ru": "Склонение -ar", "en": "-ar declension" },
+      "example": { "sv": "två hundar", "ru": "две собаки", "en": "two dogs" }
+    },
+    {
+      "id": "dag",
+      "sv": "en dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
+      "note": { "ru": "Склонение -ar", "en": "-ar declension" },
+      "example": { "sv": "två dagar", "ru": "два дня", "en": "two days" }
+    },
+    {
+      "id": "lagenhet",
+      "sv": "en lägenhet",
+      "translations": { "ru": "квартира", "en": "apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lägenhet", "defSg": "lägenheten", "indefPl": "lägenheter", "defPl": "lägenheterna" },
+      "note": { "ru": "Склонение -er", "en": "-er declension" },
+      "example": { "sv": "två lägenheter", "ru": "две квартиры", "en": "two apartments" }
+    },
+    {
+      "id": "biljett",
+      "sv": "en biljett",
+      "translations": { "ru": "билет", "en": "ticket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biljett", "defSg": "biljetten", "indefPl": "biljetter", "defPl": "biljetterna" },
+      "note": { "ru": "Склонение -er", "en": "-er declension" },
+      "example": { "sv": "två biljetter", "ru": "два билета", "en": "two tickets" }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "note": { "ru": "Склонение -n", "en": "-n declension" },
+      "example": { "sv": "två äpplen", "ru": "два яблока", "en": "two apples" }
+    },
+    {
+      "id": "hjarta",
+      "sv": "ett hjärta",
+      "translations": { "ru": "сердце", "en": "heart" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hjärta", "defSg": "hjärtat", "indefPl": "hjärtan", "defPl": "hjärtana" },
+      "note": { "ru": "Склонение -n", "en": "-n declension" },
+      "example": { "sv": "två hjärtan", "ru": "два сердца", "en": "two hearts" }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "note": { "ru": "Без окончания", "en": "no ending" },
+      "example": { "sv": "två hus", "ru": "два дома", "en": "two houses" }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "note": { "ru": "Без окончания", "en": "no ending" },
+      "example": { "sv": "två bord", "ru": "два стола", "en": "two tables" }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "note": { "ru": "Без окончания", "en": "no ending" },
+      "example": { "sv": "två barn", "ru": "двое детей", "en": "two children" }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/places-in-town",
+  "slug": "places-in-town",
+  "title": {
+    "sv": "Platser i stan",
+    "ru": "Места в городе",
+    "en": "Places in town"
+  },
+  "summary": {
+    "ru": "Affär, apotek, bibliotek, torg, park — куда нужно сходить в городе.",
+    "en": "Affär, apotek, bibliotek, torg, park — the everyday places you need in town."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "town",
+    "places",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 360,
+  "prerequisites": [
+    "sfi-b/directions-in-town"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

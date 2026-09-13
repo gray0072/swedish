@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/adjective-agreement",
+  "slug": "adjective-agreement",
+  "title": {
+    "sv": "Adjektivets böjning: en stor bil, ett stort hus, bilen är stor",
+    "ru": "Согласование прилагательных",
+    "en": "Adjective agreement: en stor bil, ett stort hus, bilen är stor"
+  },
+  "summary": {
+    "ru": "Прилагательное получает -t с ett-словами, а после «är» согласуется с подлежащим так же.",
+    "en": "Adjectives take -t with ett-words, and after \"är\" agree with the subject the same way."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "adjectives",
+    "en-ett"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 470,
+  "prerequisites": [
+    "sfi-a/colors"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

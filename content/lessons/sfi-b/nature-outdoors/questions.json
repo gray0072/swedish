@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-nature-outdoors-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «На выходных мы едем за город.»", "en": "Build the sentence: \"This weekend we're going out of town.\"" },
+      "tokens": ["helgen", "åker", "vi", "stan", "utanför", "I"],
+      "answer": [5, 0, 1, 2, 4, 3]
+    },
+    {
+      "id": "q-nature-outdoors-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дети плавают в озере.»", "en": "Build the sentence: \"The kids swim in the lake.\"" },
+      "tokens": ["i", "simmar", "Barnen", "sjön"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-nature-outdoors-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с местом", "en": "Match the word with the place" },
+      "pairs": [
+        ["simma", "sjön"],
+        ["vandra", "berget"],
+        ["grilla", "stranden"],
+        ["cykla", "skogen"]
+      ]
+    },
+    {
+      "id": "q-nature-outdoors-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Skog» переводится как «лес».", "en": "\"Skog\" means \"forest\"." },
+      "answer": true
+    },
+    {
+      "id": "q-nature-outdoors-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Berg» — слово общего рода (en-ord).", "en": "\"Berg\" is a common-gender (en) noun." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Berg» — слово среднего рода: ett berg.",
+        "en": "\"Berg\" is a neuter (ett) noun: ett berg."
+      }
+    },
+    {
+      "id": "q-nature-outdoors-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ en promenad i skogen." },
+      "answer": ["tar"],
+      "acceptAlso": ["gör"],
+      "hint": { "ru": "берём/делаем (прогулку)", "en": "take (a walk)" }
+    },
+    {
+      "id": "q-nature-outdoors-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Min pappa ___ i sjön." },
+      "answer": ["fiskar"],
+      "acceptAlso": [],
+      "hint": { "ru": "ловит рыбу", "en": "fishes" }
+    },
+    {
+      "id": "q-nature-outdoors-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «свежий воздух»?", "en": "How do you say \"fresh air\"?" },
+      "choices": ["frisk luft", "kall luft", "ren skog", "vacker natur"],
+      "answer": 0
+    },
+    {
+      "id": "q-nature-outdoors-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «озеро» (неопред. форма с артиклем)", "en": "Translate to Swedish: \"a lake\" (indefinite form with article)" },
+      "answer": ["en sjö"],
+      "hint": { "ru": "общий род", "en": "common gender" }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "id": "affar",
+      "sv": "affär",
+      "translations": { "ru": "магазин", "en": "shop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en affär", "defSg": "affären", "indefPl": "affärer", "defPl": "affärerna" },
+      "example": { "sv": "Affären ligger på torget.", "ru": "Магазин находится на площади.", "en": "The shop is on the square." }
+    },
+    {
+      "id": "mataffar",
+      "sv": "mataffär",
+      "translations": { "ru": "продуктовый магазин", "en": "grocery store" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mataffär", "defSg": "mataffären", "indefPl": "mataffärer", "defPl": "mataffärerna" },
+      "example": { "sv": "Jag handlar mat i mataffären.", "ru": "Я покупаю еду в продуктовом магазине.", "en": "I buy food at the grocery store." }
+    },
+    {
+      "id": "apotek",
+      "sv": "apotek",
+      "translations": { "ru": "аптека", "en": "pharmacy" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" },
+      "example": { "sv": "Var ligger apoteket?", "ru": "Где находится аптека?", "en": "Where is the pharmacy?" }
+    },
+    {
+      "id": "bibliotek",
+      "sv": "bibliotek",
+      "translations": { "ru": "библиотека", "en": "library" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bibliotek", "defSg": "biblioteket", "indefPl": "bibliotek", "defPl": "biblioteken" },
+      "example": { "sv": "Jag lånar böcker på biblioteket.", "ru": "Я беру книги в библиотеке.", "en": "I borrow books at the library." }
+    },
+    {
+      "id": "torg",
+      "sv": "torg",
+      "translations": { "ru": "площадь", "en": "square" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" },
+      "example": { "sv": "Jag ska till torget.", "ru": "Я иду на площадь.", "en": "I'm going to the square." }
+    },
+    {
+      "id": "park",
+      "sv": "park",
+      "translations": { "ru": "парк", "en": "park" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en park", "defSg": "parken", "indefPl": "parker", "defPl": "parkerna" },
+      "example": { "sv": "Vi promenerar i parken.", "ru": "Мы гуляем в парке.", "en": "We take a walk in the park." }
+    },
+    {
+      "id": "bank",
+      "sv": "bank",
+      "translations": { "ru": "банк", "en": "bank" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bank", "defSg": "banken", "indefPl": "banker", "defPl": "bankerna" },
+      "example": { "sv": "Banken öppnar klockan tio.", "ru": "Банк открывается в десять.", "en": "The bank opens at ten." }
+    },
+    {
+      "id": "post",
+      "sv": "post",
+      "translations": { "ru": "почта", "en": "post office" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en post", "defSg": "posten", "indefPl": "poster", "defPl": "posterna" },
+      "note": { "ru": "тж. значит «почта» как письма", "en": "also means \"mail\" as in letters" },
+      "example": { "sv": "Jag skickar paketet på posten.", "ru": "Я отправляю посылку на почте.", "en": "I send the parcel at the post office." }
+    },
+    {
+      "id": "kyrka",
+      "sv": "kyrka",
+      "translations": { "ru": "церковь", "en": "church" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kyrka", "defSg": "kyrkan", "indefPl": "kyrkor", "defPl": "kyrkorna" },
+      "example": { "sv": "Kyrkan ligger nära torget.", "ru": "Церковь находится рядом с площадью.", "en": "The church is near the square." }
+    },
+    {
+      "id": "gym",
+      "sv": "gym",
+      "translations": { "ru": "спортзал", "en": "gym" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett gym", "defSg": "gymmet", "indefPl": "gym", "defPl": "gymmen" },
+      "example": { "sv": "Jag tränar på gymmet.", "ru": "Я тренируюсь в спортзале.", "en": "I work out at the gym." }
+    },
+    {
+      "id": "skola-plats",
+      "sv": "skola",
+      "translations": { "ru": "школа", "en": "school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" },
+      "example": { "sv": "Barnen går till skolan.", "ru": "Дети идут в школу.", "en": "The children go to school." }
+    },
+    {
+      "id": "sjukhus",
+      "sv": "sjukhus",
+      "translations": { "ru": "больница", "en": "hospital" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett sjukhus", "defSg": "sjukhuset", "indefPl": "sjukhus", "defPl": "sjukhusen" },
+      "example": { "sv": "Sjukhuset ligger utanför stan.", "ru": "Больница находится за городом.", "en": "The hospital is outside town." }
+    },
+    {
+      "id": "restaurang",
+      "sv": "restaurang",
+      "translations": { "ru": "ресторан", "en": "restaurant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en restaurang", "defSg": "restaurangen", "indefPl": "restauranger", "defPl": "restaurangerna" },
+      "example": { "sv": "Vi äter middag på en restaurang.", "ru": "Мы ужинаем в ресторане.", "en": "We eat dinner at a restaurant." }
+    },
+    {
+      "id": "cafe",
+      "sv": "café",
+      "translations": { "ru": "кафе", "en": "café" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett café", "defSg": "caféet", "indefPl": "caféer", "defPl": "caféerna" },
+      "example": { "sv": "Vi fikar på ett café.", "ru": "Мы пьём кофе в кафе.", "en": "We have coffee at a café." }
+    },
+    {
+      "id": "ligger",
+      "sv": "ligga",
+      "translations": { "ru": "находиться, лежать", "en": "to be located, to lie" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ligga", "present": "ligger", "past": "låg", "supine": "legat" },
+      "example": { "sv": "Var ligger apoteket?", "ru": "Где находится аптека?", "en": "Where is the pharmacy located?" }
+    },
+    {
+      "id": "var-fras",
+      "sv": "Var ligger apoteket?",
+      "translations": { "ru": "Где находится аптека?", "en": "Where is the pharmacy?" },
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta, var ligger apoteket?", "ru": "Извините, где находится аптека?", "en": "Excuse me, where is the pharmacy?" }
+    },
+    {
+      "id": "jag-ska-till",
+      "sv": "Jag ska till torget.",
+      "translations": { "ru": "Я иду (собираюсь) на площадь.", "en": "I'm going to the square." },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska till torget för att handla.", "ru": "Я иду на площадь за покупками.", "en": "I'm going to the square to shop." }
+    },
+    {
+      "id": "nara",
+      "sv": "nära",
+      "translations": { "ru": "близко, рядом", "en": "near, close" },
+      "pos": "prep",
+      "example": { "sv": "Biblioteket ligger nära skolan.", "ru": "Библиотека находится рядом со школой.", "en": "The library is near the school." }
+    },
+    {
+      "id": "langt-fran",
+      "sv": "långt från",
+      "translations": { "ru": "далеко от", "en": "far from" },
+      "pos": "phrase",
+      "example": { "sv": "Sjukhuset ligger långt från centrum.", "ru": "Больница находится далеко от центра.", "en": "The hospital is far from the center." }
+    },
+    {
+      "id": "centrum",
+      "sv": "centrum",
+      "translations": { "ru": "центр (города)", "en": "town center" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett centrum", "defSg": "centrumet", "indefPl": "centrum", "defPl": "centrumen" },
+      "note": { "ru": "чаще используется без артикля: «i centrum»", "en": "often used without an article: \"i centrum\"" },
+      "example": { "sv": "Vi bor i centrum.", "ru": "Мы живём в центре.", "en": "We live in the center." }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-object-pronouns-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она звонит мне.»", "en": "Build the sentence: \"She calls me.\"" },
+      "tokens": ["ringer", "Hon", "mig"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-object-pronouns-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Мы приглашаем их на ужин.»", "en": "Build the sentence: \"We invite them to dinner.\"" },
+      "tokens": ["på", "bjuder", "middag", "Vi", "dem"],
+      "answer": [3, 1, 4, 0, 2]
+    },
+    {
+      "id": "q-object-pronouns-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ser ___. (тебя)" },
+      "answer": ["dig"],
+      "acceptAlso": [],
+      "hint": { "ru": "тебя", "en": "you" }
+    },
+    {
+      "id": "q-object-pronouns-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Läraren hjälper ___. (нам)" },
+      "answer": ["oss"],
+      "acceptAlso": [],
+      "hint": { "ru": "нам", "en": "us" }
+    },
+    {
+      "id": "q-object-pronouns-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь местоимение-подлежащее с местоимением-дополнением", "en": "Match the subject pronoun with its object form" },
+      "pairs": [
+        ["jag", "mig"],
+        ["du", "dig"],
+        ["han", "honom"],
+        ["hon", "henne"],
+        ["vi", "oss"],
+        ["de", "dem"]
+      ]
+    },
+    {
+      "id": "q-object-pronouns-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Dem» произносится так же, как «de» — «dom».", "en": "\"Dem\" is pronounced the same way as \"de\" — like \"dom\"." },
+      "answer": true
+    },
+    {
+      "id": "q-object-pronouns-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Правильно: «Jag ser han.»", "en": "\"Jag ser han\" is correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "После глагола нужна форма дополнения: Jag ser honom.",
+        "en": "After the verb you need the object form: Jag ser honom."
+      }
+    },
+    {
+      "id": "q-object-pronouns-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Мы приглашаем вас на ужин»?", "en": "How do you say \"We invite you (plural) to dinner\"?" },
+      "choices": ["Vi bjuder er på middag.", "Vi bjuder ni på middag.", "Vi bjuder du på middag.", "Vi bjuder dem på middag."],
+      "answer": 0
+    },
+    {
+      "id": "q-object-pronouns-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая форма нужна после предлога «till» в «till ___» (для неё)?", "en": "Which form comes after the preposition \"till\" in \"till ___\" (for her)?" },
+      "choices": ["henne", "hon", "hennes", "hon's"],
+      "answer": 0
+    },
+    {
+      "id": "q-object-pronouns-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Kan du hjälpa mig?",
+      "prompt": { "ru": "Что просит человек?", "en": "What is the person asking for?" },
+      "choices": [
+        { "ru": "Помощи", "en": "Help" },
+        { "ru": "Денег", "en": "Money" },
+        { "ru": "Еды", "en": "Food" },
+        { "ru": "Звонка", "en": "A phone call" }
+      ],
+      "answer": 0
+    }
+  ]
+}

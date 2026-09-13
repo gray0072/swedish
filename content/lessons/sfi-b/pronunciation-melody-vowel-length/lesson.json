@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/pronunciation-melody-vowel-length",
+  "slug": "pronunciation-melody-vowel-length",
+  "title": {
+    "sv": "Meningsmelodi och vokallängd",
+    "ru": "Произношение: мелодика утверждения и вопроса, долгие и краткие гласные в новом слове",
+    "en": "Pronunciation: the melody of a statement and of a question, and long and short vowels in a new word"
+  },
+  "summary": {
+    "ru": "Мелодика утверждения и вопроса, а также правило долгих и кратких гласных на новых словах.",
+    "en": "Sentence intonation contrast and applying vowel-length rules to unfamiliar words."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "pronunciation",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 540,
+  "prerequisites": [
+    "sfi-a/word-stress-melody"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

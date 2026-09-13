@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-fai-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «В понедельник я работаю.»", "en": "Build the sentence: \"On Monday I work.\"" },
+      "tokens": ["jobbar", "På måndag", "jag"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-fai-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня холодно.»", "en": "Build the sentence: \"Today it's cold.\"" },
+      "tokens": ["kallt", "är", "Idag", "det"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-fai-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Когда предложение начинается с обстоятельства времени, подлежащее и глагол меняются местами.",
+        "en": "When a sentence starts with a time adverbial, the subject and the verb swap places."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-fai-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Ibland jag lagar mat» — правильный порядок слов.", "en": "\"Ibland jag lagar mat\" is correct Swedish word order." },
+      "answer": false,
+      "explanation": { "ru": "Правильно: «Ibland lagar jag mat» — глагол должен стоять на втором месте.", "en": "Correct: \"Ibland lagar jag mat\" — the verb must stay in second position." }
+    },
+    {
+      "id": "q-fai-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "I Sverige ___ många människor. (bo)" },
+      "answer": ["bor"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fai-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Idag ___ det kallt. (vara)" },
+      "answer": ["är"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-fai-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь начало предложения с продолжением", "en": "Match the sentence opening with its continuation" },
+      "pairs": [
+        ["På måndag", "jobbar jag."],
+        ["I Sverige", "bor många människor."],
+        ["Idag", "är det kallt."],
+        ["Ibland", "lagar jag mat."]
+      ]
+    },
+    {
+      "id": "q-fai-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой порядок слов правильный?", "en": "Which word order is correct?" },
+      "choices": ["På måndag jobbar jag.", "På måndag jag jobbar.", "Jobbar på måndag jag.", "På måndag jag är jobbar."],
+      "answer": 0
+    },
+    {
+      "id": "q-fai-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильный вариант.", "en": "Choose the correct sentence." },
+      "choices": ["Ibland jag lagar mat.", "Ibland lagar jag mat.", "Ibland mat lagar jag.", "Lagar ibland jag mat."],
+      "answer": 1
+    },
+    {
+      "id": "q-fai-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи, начав со слова «Sedan» (потом): «Потом мы идём домой.»", "en": "Translate, starting with \"Sedan\": \"Then we go home.\"" },
+      "answer": ["Sedan går vi hem."],
+      "hint": { "ru": "Не забудь про инверсию.", "en": "Remember the inversion." }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-demonstratives-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Эта машина новая.»", "en": "Build the sentence: \"This car is new.\"" },
+      "tokens": ["ny", "här", "Den", "bilen", "är"],
+      "answer": [2, 1, 3, 4, 0]
+    },
+    {
+      "id": "q-demonstratives-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Тот дом маленький.»", "en": "Build the sentence: \"That house is small.\"" },
+      "tokens": ["litet", "där", "Det", "är", "huset"],
+      "answer": [2, 1, 4, 3, 0]
+    },
+    {
+      "id": "q-demonstratives-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ bilarna är dyra. (эти)" },
+      "answer": ["De här"],
+      "acceptAlso": ["de här"],
+      "hint": { "ru": "множественное число", "en": "plural" }
+    },
+    {
+      "id": "q-demonstratives-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den ___ bilen är gammal. (та)" },
+      "answer": ["där"],
+      "acceptAlso": [],
+      "hint": { "ru": "не «здесь», а «там»", "en": "not \"here\", but \"there\"" }
+    },
+    {
+      "id": "q-demonstratives-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Den här» используется перед ett-словом.", "en": "\"Den här\" is used before an ett-word." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Den här» — с en-словом; с ett-словом — «det här».",
+        "en": "\"Den här\" goes with an en-word; an ett-word takes \"det här\"."
+      }
+    },
+    {
+      "id": "q-demonstratives-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "После «den här / det här / de här» существительное стоит в определённой форме.", "en": "After \"den här / det här / de här\" the noun takes its definite form." },
+      "answer": true
+    },
+    {
+      "id": "q-demonstratives-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь указательное местоимение с существительным", "en": "Match the demonstrative with the noun" },
+      "pairs": [
+        ["den här", "bilen"],
+        ["det här", "huset"],
+        ["de här", "bilarna"],
+        ["den där", "bilen (той)"]
+      ]
+    },
+    {
+      "id": "q-demonstratives-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «эти машины»?", "en": "How do you say \"these cars\"?" },
+      "choices": ["de här bilarna", "den här bilarna", "det här bilarna", "de där bilen"],
+      "answer": 0
+    },
+    {
+      "id": "q-demonstratives-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши указательное местоимение «тот» для ett-слова.", "en": "Write the demonstrative \"that\" used with an ett-word." },
+      "answer": ["det där"],
+      "hint": { "ru": "det här / det där", "en": "det här / det där" }
+    },
+    {
+      "id": "q-demonstratives-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "De här bilarna är dyra.",
+      "prompt": { "ru": "Что дорогое?", "en": "What is expensive?" },
+      "choices": [
+        { "ru": "Эти машины", "en": "These cars" },
+        { "ru": "Тот дом", "en": "That house" },
+        { "ru": "Эта книга", "en": "This book" },
+        { "ru": "Те дома", "en": "Those houses" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/upper-lower-case",
+  "slug": "upper-lower-case",
+  "title": {
+    "sv": "Stora och små bokstäver",
+    "ru": "Прописные и строчные буквы",
+    "en": "Upper and lower case"
+  },
+  "summary": {
+    "ru": "Рукописный алфавит и как красиво написать своё имя от руки.",
+    "en": "The handwritten alphabet, and writing your own name by hand."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "literacy",
+    "writing",
+    "alphabet"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 264,
+  "prerequisites": [
+    "sfi-a/alphabet"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

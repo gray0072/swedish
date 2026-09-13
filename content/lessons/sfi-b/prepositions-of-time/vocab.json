@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "klockan-sju",
+      "sv": "klockan sju",
+      "translations": { "ru": "в семь часов", "en": "at seven o'clock" },
+      "pos": "phrase",
+      "example": { "sv": "Mötet börjar klockan sju.", "ru": "Встреча начинается в семь.", "en": "The meeting starts at seven." }
+    },
+    {
+      "id": "pa-morgonen-time",
+      "sv": "på morgonen",
+      "translations": { "ru": "утром", "en": "in the morning" },
+      "pos": "phrase",
+      "example": { "sv": "Jag springer på morgonen.", "ru": "Я бегаю по утрам.", "en": "I run in the morning." }
+    },
+    {
+      "id": "pa-mandag-time",
+      "sv": "på måndag",
+      "translations": { "ru": "в понедельник (ближайший)", "en": "on Monday (the coming one)" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ses på måndag.", "ru": "Увидимся в понедельник.", "en": "See you on Monday." }
+    },
+    {
+      "id": "i-sommar",
+      "sv": "i sommar",
+      "translations": { "ru": "этим летом", "en": "this summer" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ska resa i sommar.", "ru": "Мы поедем в путешествие этим летом.", "en": "We're going to travel this summer." }
+    },
+    {
+      "id": "i-vinter",
+      "sv": "i vinter",
+      "translations": { "ru": "этой зимой", "en": "this winter" },
+      "pos": "phrase",
+      "example": { "sv": "Det snöar mycket i vinter.", "ru": "Этой зимой много снега.", "en": "It's snowing a lot this winter." }
+    },
+    {
+      "id": "om-sommaren",
+      "sv": "om sommaren",
+      "translations": { "ru": "летом (каждое лето)", "en": "in the summer (every summer)" },
+      "pos": "phrase",
+      "example": { "sv": "Om sommaren badar vi ofta.", "ru": "Летом мы часто купаемся.", "en": "In the summer we often swim." }
+    },
+    {
+      "id": "om-en-vecka",
+      "sv": "om en vecka",
+      "translations": { "ru": "через неделю", "en": "in a week (from now)" },
+      "pos": "phrase",
+      "example": { "sv": "Provet är om en vecka.", "ru": "Экзамен через неделю.", "en": "The test is in a week." }
+    },
+    {
+      "id": "klockan",
+      "sv": "klockan",
+      "translations": { "ru": "часы, время (сколько времени)", "en": "the clock, o'clock" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klocka", "defSg": "klockan", "indefPl": "klockor", "defPl": "klockorna" },
+      "example": { "sv": "Vad är klockan?", "ru": "Который час?", "en": "What time is it?" }
+    },
+    {
+      "id": "vecka",
+      "sv": "vecka",
+      "translations": { "ru": "неделя", "en": "week" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vecka", "defSg": "veckan", "indefPl": "veckor", "defPl": "veckorna" },
+      "example": { "sv": "Nästa vecka jobbar jag inte.", "ru": "На следующей неделе я не работаю.", "en": "Next week I'm not working." }
+    },
+    {
+      "id": "borja",
+      "sv": "börja",
+      "translations": { "ru": "начинать(ся)", "en": "to start, to begin" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "example": { "sv": "Kursen börjar om en vecka.", "ru": "Курс начинается через неделю.", "en": "The course starts in a week." }
+    },
+    {
+      "id": "vad-ar-klockan",
+      "sv": "Vad är klockan?",
+      "translations": { "ru": "Который час?", "en": "What time is it?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad är klockan? Klockan är sju.", "ru": "Который час? Сейчас семь.", "en": "What time is it? It's seven." }
+    }
+  ]
+}

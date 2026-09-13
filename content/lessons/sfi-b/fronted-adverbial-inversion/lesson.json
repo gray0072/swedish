@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/fronted-adverbial-inversion",
+  "slug": "fronted-adverbial-inversion",
+  "title": {
+    "sv": "Inversion efter framflyttat adverbial",
+    "ru": "Инверсия после обстоятельства в начале",
+    "en": "Inversion after a fronted adverbial"
+  },
+  "summary": {
+    "ru": "«På måndag jobbar jag» — если предложение начинается не с подлежащего, подлежащее и глагол меняются местами.",
+    "en": "\"På måndag jobbar jag\" — when something other than the subject starts the sentence, subject and verb swap places."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "word-order",
+    "grammar",
+    "v2"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 410,
+  "prerequisites": [
+    "sfi-b/v2-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

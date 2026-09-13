@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/object-pronouns",
+  "slug": "object-pronouns",
+  "title": {
+    "sv": "Mig, dig, honom, henne, oss, er, dem",
+    "ru": "Объектные местоимения",
+    "en": "Object pronouns: mig, dig, honom, henne, oss, er, dem"
+  },
+  "summary": {
+    "ru": "Формы местоимений после глагола или предлога: mig, dig, honom, henne, oss, er, dem.",
+    "en": "The object-form pronouns, used after a verb or preposition."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 510,
+  "prerequisites": [
+    "sfi-a/personal-pronouns"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

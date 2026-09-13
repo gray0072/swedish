@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/tycker-om-gillar-alskar",
+  "slug": "tycker-om-gillar-alskar",
+  "title": {
+    "sv": "Att säga vad man gillar: tycker om, gillar, älskar",
+    "ru": "Как сказать, что нравится: tycker om, gillar, älskar",
+    "en": "Saying what you like: tycker om, gillar, älskar + noun or infinitive"
+  },
+  "summary": {
+    "ru": "Три частых глагола для выражения симпатии, по нарастанию силы чувства, каждый — с существительным или инфинитивом.",
+    "en": "The three common verbs for expressing liking, in increasing intensity, each usable with a noun or an infinitive."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "verbs",
+    "phrases",
+    "feelings"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 600,
+  "prerequisites": [
+    "sfi-b/hobbies-free-time"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen är röd.", "ru": "Машина красная.", "en": "The car is red." }
+    },
+    {
+      "id": "katt",
+      "sv": "en katt",
+      "translations": { "ru": "кошка", "en": "cat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en katt", "defSg": "katten", "indefPl": "katter", "defPl": "katterna" },
+      "example": { "sv": "Katten sover.", "ru": "Кошка спит.", "en": "The cat is sleeping." }
+    },
+    {
+      "id": "dag",
+      "sv": "en dag",
+      "translations": { "ru": "день", "en": "day" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
+      "example": { "sv": "Dagen är lång.", "ru": "День длинный.", "en": "The day is long." }
+    },
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "example": { "sv": "Flickan läser.", "ru": "Девочка читает.", "en": "The girl is reading." }
+    },
+    {
+      "id": "gata",
+      "sv": "en gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "example": { "sv": "Gatan är lång.", "ru": "Улица длинная.", "en": "The street is long." }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset är stort.", "ru": "Дом большой.", "en": "The house is big." }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Bordet är nytt.", "ru": "Стол новый.", "en": "The table is new." }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Barnet leker.", "ru": "Ребёнок играет.", "en": "The child is playing." }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Äpplet är gott.", "ru": "Яблоко вкусное.", "en": "The apple is tasty." }
+    },
+    {
+      "id": "oga",
+      "sv": "ett öga",
+      "translations": { "ru": "глаз", "en": "eye" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett öga", "defSg": "ögat", "indefPl": "ögon", "defPl": "ögonen" },
+      "example": { "sv": "Ögat är blått.", "ru": "Глаз голубой.", "en": "The eye is blue." }
+    }
+  ]
+}

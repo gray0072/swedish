@@ -1,0 +1,35 @@
+{
+  "id": "sfi-a/everyday-politeness",
+  "slug": "everyday-politeness",
+  "title": {
+    "sv": "Artighetsord",
+    "ru": "Вежливые слова на каждый день",
+    "en": "Everyday politeness"
+  },
+  "summary": {
+    "ru": "tack, tack så mycket, varsågod, förlåt, ursäkta — маленькие слова, которые нужны каждый день.",
+    "en": "tack, tack så mycket, varsågod, förlåt, ursäkta — the small words you need every day."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "politeness",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 251,
+  "prerequisites": [
+    "sfi-a/greetings"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

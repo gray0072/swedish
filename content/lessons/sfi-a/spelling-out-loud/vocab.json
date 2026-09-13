@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "hur-stavas-ditt-namn",
+      "sv": "Hur stavas ditt namn?",
+      "translations": { "ru": "Как пишется твоё имя (по буквам)?", "en": "How do you spell your name?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur stavas ditt namn? — S-A-R-A.", "ru": "Как пишется твоё имя? — С-А-Р-А.", "en": "How do you spell your name? — S-A-R-A." }
+    },
+    {
+      "id": "kan-du-bokstavera",
+      "sv": "Kan du bokstavera det?",
+      "translations": { "ru": "Можешь произнести это по буквам?", "en": "Can you spell that out?" },
+      "pos": "phrase",
+      "example": { "sv": "Jag förstår inte. Kan du bokstavera det?", "ru": "Я не понимаю. Можешь по буквам?", "en": "I don't understand. Can you spell that out?" }
+    },
+    {
+      "id": "jag-stavar",
+      "sv": "Jag stavar mitt namn.",
+      "translations": { "ru": "Я называю своё имя по буквам.", "en": "I'll spell my name." },
+      "pos": "phrase",
+      "example": { "sv": "Jag stavar mitt namn: A-N-N-A.", "ru": "Я называю своё имя по буквам: А-Н-Н-А.", "en": "I'll spell my name: A-N-N-A." }
+    },
+    {
+      "id": "hur-stavas-gatan",
+      "sv": "Hur stavas gatan?",
+      "translations": { "ru": "Как пишется название улицы?", "en": "How do you spell the street name?" },
+      "pos": "phrase",
+      "example": { "sv": "Hur stavas gatan du bor på?", "ru": "Как пишется улица, на которой ты живёшь?", "en": "How do you spell the street you live on?" }
+    },
+    {
+      "id": "med-a",
+      "sv": "med å, ä eller ö?",
+      "translations": { "ru": "через å, ä или ö?", "en": "with å, ä or ö?" },
+      "pos": "phrase",
+      "example": { "sv": "Är det å, ä eller ö?", "ru": "Это å, ä или ö?", "en": "Is it å, ä or ö?" }
+    },
+    {
+      "id": "stort-eller-litet",
+      "sv": "stort eller litet?",
+      "translations": { "ru": "заглавная или строчная?", "en": "capital or small (letter)?" },
+      "pos": "phrase",
+      "example": { "sv": "Stort S, som i Sara.", "ru": "Заглавная S, как в имени Sara.", "en": "Capital S, as in Sara." }
+    },
+    {
+      "id": "vanta-lite",
+      "sv": "Vänta lite, jag skriver.",
+      "translations": { "ru": "Подожди немного, я записываю.", "en": "Wait a moment, I'm writing it down." },
+      "pos": "phrase",
+      "example": { "sv": "Vänta lite, jag skriver ner det.", "ru": "Подожди, я это запишу.", "en": "Wait a moment, I'll write it down." }
+    },
+    {
+      "id": "kan-du-upprepa-det",
+      "sv": "Kan du upprepa det, tack?",
+      "translations": { "ru": "Можешь повторить, пожалуйста?", "en": "Can you repeat that, please?" },
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, kan du upprepa det, tack?", "ru": "Извини, можешь повторить, пожалуйста?", "en": "Sorry, can you repeat that, please?" }
+    },
+    {
+      "id": "vad-heter-du-i-efternamn",
+      "sv": "Vad heter du i efternamn?",
+      "translations": { "ru": "Как твоя фамилия?", "en": "What is your last name?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad heter du i efternamn? — Andersson.", "ru": "Как твоя фамилия? — Андерссон.", "en": "What is your last name? — Andersson." }
+    },
+    {
+      "id": "det-stavas",
+      "sv": "Det stavas …",
+      "translations": { "ru": "Это пишется …", "en": "It's spelled …" },
+      "pos": "phrase",
+      "example": { "sv": "Det stavas med två s.", "ru": "Это пишется с двумя s.", "en": "It's spelled with two s." }
+    }
+  ]
+}

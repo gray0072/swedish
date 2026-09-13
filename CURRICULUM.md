@@ -92,8 +92,8 @@ Swedish system.
 
 | Level | Lessons done | Lessons planned |
 |---|---|---|
-| SFI kurs A | 44 | 50 |
-| SFI kurs B | 25 | 50 |
+| SFI kurs A | 50 | 50 |
+| SFI kurs B | 50 | 50 |
 | SFI kurs C | 5 | 50 |
 | SFI kurs D | 3 | 50 |
 | SVA grund delkurs 1 | 45 | 50 |
@@ -101,10 +101,9 @@ Swedish system.
 | SVA grund delkurs 3 | 45 | 50 |
 | SVA grund delkurs 4 | 50 | 50 |
 
-Lessons done in total: **262** (`npx tsx scripts/validate-content.ts` confirms the
-number) out of **400** planned — 50 per level across the eight levels. The **138** still to
-write are SFI kurs A's 6 newly added topics, SFI kurs B's 25 (23 grammar lessons and 2 new
-topics), the 45 lessons kurs C is missing and the 47 kurs D is missing, and the five
+Lessons done in total: **293** (`npx tsx scripts/validate-content.ts` confirms the
+number) out of **400** planned — 50 per level across the eight levels. The **107** still to
+write are the 45 lessons kurs C is missing and the 47 kurs D is missing, and the five
 closing grammar lessons of each of SVA grund delkurs 1-3.
 
 **SVA grund is written end to end against its original 20-point grammar plan** — all four
@@ -131,12 +130,17 @@ grammatical alike, closing the course's own capstone points 21-25 (subordination
 coordination in a long period, ellipsis, emphatic/restrictive words, numerical precision
 and hedging, defining a concept). **SFI kurs A got there first on the same day**, and its
 grammar is still finished: all 25 of its patterns are taught, 19 by a lesson of their own
-and six inside a thematic lesson. What it now lacks is six freshly added topics — the
-level was extended to the same 50 lessons every other level plans for, and so was kurs B,
-whose original 25 thematic lessons are all written. The next content frontier is kurs B's
-grammar half, SFI kurs C and D (5 and 3 lessons written so far), the closing grammar
-lessons of SVA grund delkurs 1-3, the eight new SFI topics, and the still-undesigned real
-text-lesson format, tracked in `TODO.md`.
+and six inside a thematic lesson. **SFI kurs A is now complete too**: its six newly added
+topics (everyday politeness, spelling out loud, upper/lower case, a capital letter and a
+full stop, telling the teacher you are ill or late, your own school day at SFI) are
+written, closing all 50 of its lessons. **SFI kurs B is complete as well**: its 23 grammar
+lessons and 2 new topics (places in town, nature and the outdoors) are written, closing all
+50 of its lessons too — its grammar, unlike kurs A's, is explained with real terminology
+(V2 word order, the five plural declensions, the genitive `-s`, possessives,
+demonstratives, and more) rather than drilled as bare patterns, matching the level's step
+up from studieväg 1 alone to the entry point for studieväg 2. The next content frontier is
+SFI kurs C and D (5 and 3 lessons written so far), the closing grammar lessons of SVA grund
+delkurs 1-3, and the still-undesigned real text-lesson format, tracked in `TODO.md`.
 
 **The plan was rebalanced on 2026-09-13** after a coverage review of all 400 items. No
 lesson was written, renamed or removed — only unwritten items changed, and every level
@@ -175,7 +179,7 @@ still holds exactly 50. What the review changed:
 *Who it is for:* studieväg 1, starting from zero. A lot of work on literacy itself —
 letter, sound, handwriting, reading individual words. Speaking runs ahead of writing.
 
-### Lessons (50 lessons, 44 done)
+### Lessons (50 lessons, 50 done)
 
 Grammar here is **not explained with terminology** — it is drilled as ready-made patterns.
 Six of those patterns are carried by a thematic lesson (the alphabet, yes/no questions,
@@ -208,12 +212,12 @@ items 32–50 the pattern lessons.
 23. [x] How you feel: "I feel bad", "I have a headache" — `sfi-a/how-you-feel`
 24. [x] Like / dislike — simple phrases — `sfi-a/likes-dislikes`
 25. [x] A simple daily routine (got up, ate, went to bed) — `sfi-a/daily-routine-simple`
-26. [ ] Everyday politeness: `tack`, `tack så mycket`, `varsågod`, `förlåt`, `ursäkta`
-27. [ ] Spelling out loud (`bokstavera`): `Hur stavas ditt namn?` — your name and your street letter by letter
-28. [ ] Upper and lower case: the handwritten alphabet and writing your own name
-29. [ ] A capital letter and a full stop: writing one simple sentence by hand
-30. [ ] Telling the teacher you are ill or will be late: `Jag är sjuk`, `Jag kommer sent`
-31. [ ] Your own school day at SFI: `lektion`, `rast`, `läxa`, `schema`, `lärare`
+26. [x] Everyday politeness: `tack`, `tack så mycket`, `varsågod`, `förlåt`, `ursäkta` — `sfi-a/everyday-politeness`
+27. [x] Spelling out loud (`bokstavera`): `Hur stavas ditt namn?` — your name and your street letter by letter — `sfi-a/spelling-out-loud`
+28. [x] Upper and lower case: the handwritten alphabet and writing your own name — `sfi-a/upper-lower-case`
+29. [x] A capital letter and a full stop: writing one simple sentence by hand — `sfi-a/capital-letter-full-stop`
+30. [x] Telling the teacher you are ill or will be late: `Jag är sjuk`, `Jag kommer sent` — `sfi-a/telling-teacher-ill-late`
+31. [x] Your own school day at SFI: `lektion`, `rast`, `läxa`, `schema`, `lärare` — `sfi-a/school-day-sfi`
 32. [x] Letter-to-sound correspondence; `sj-`, `tj-`, `k-` before a front vowel — `sfi-a/letter-sound-correspondence`
 33. [x] Long and short vowels: `vit` / `vitt`, `mat` / `matt` — `sfi-a/vowel-length`
 34. [x] Personal pronouns: `jag, du, han, hon, vi, ni, de` — `sfi-a/personal-pronouns`
@@ -240,7 +244,7 @@ items 32–50 the pattern lessons.
 Simple connected speech on familiar topics appears, along with simple writing and reading
 short adapted texts.
 
-### Lessons (50 lessons, 25 done)
+### Lessons (50 lessons, 50 done)
 
 Items 1–27 are the thematic lessons, items 28–50 the level's grammar.
 
@@ -269,31 +273,31 @@ Items 1–27 are the thematic lessons, items 28–50 the level's grammar.
 23. [x] Preschool and school for children — basic words — `sfi-b/preschool-school-basics`
 24. [x] Simple feelings (tired, hungry, happy) — `sfi-b/simple-feelings`
 25. [x] A simple phone call (asking about opening hours) — `sfi-b/phone-call-opening-hours`
-26. [ ] Places in town: `affär`, `apotek`, `bibliotek`, `torg`, `park`
-27. [ ] Nature and the outdoors: `skog`, `sjö`, `strand`, `berg` — a trip out of town
-28. [ ] The infinitive and `att`: `Jag vill äta`, `Det är kul att läsa`
-29. [ ] The modals `vill`, `kan`, `måste`, `får` + infinitive
-30. [ ] V2 word order: the verb is always second
-31. [ ] Inversion after a fronted adverbial: `På måndag jobbar jag`
-32. [ ] Sentence adverbs: `inte, alltid, aldrig, ofta, kanske`
-33. [ ] `en`/`ett`: the indefinite and definite singular — as a system
-34. [ ] The plural: five declensions (`-or, -ar, -er, -n`, and no ending)
-35. [ ] The definite plural: `bilarna`, `husen`, `äpplena`
-36. [ ] The conjunctions `och`, `men`, `eller`, `för`, `så`
-37. [ ] Adjective agreement: `en stor bil`, `ett stort hus`, `bilen är stor`
-38. [ ] The genitive `-s`: `Annas bok`, `barnets namn`, `min mammas bil`
-39. [ ] Possessives: `min, din, hans, hennes, vår, er, deras`
-40. [ ] Demonstratives: `den här`, `den där`, `de här`
-41. [ ] Object pronouns: `mig, dig, honom, henne, oss, er, dem`
-42. [ ] Prepositions of place: `i, på, under, bakom, framför, mellan`
-43. [ ] Numbers 0–1000, ordinals, prices in `kronor` and writing a date
-44. [ ] Pronunciation: the melody of a statement and of a question, and long and short vowels in a new word
-45. [ ] Prepositions of time: `klockan`, `på`, `i`, `om`
-46. [ ] The preterite of frequent verbs: `var, hade, gick, kom, sa, fick`
-47. [ ] `det finns` and `det är` in simple sentences
-48. [ ] Quantity: `mycket / många`, `lite / några`, `alla / ingen`
-49. [ ] The question words `vilken / vilket / vilka`, `vems`, `hur mycket`
-50. [ ] Saying what you like: `tycker om`, `gillar`, `älskar` + noun or infinitive
+26. [x] Places in town: `affär`, `apotek`, `bibliotek`, `torg`, `park` — `sfi-b/places-in-town`
+27. [x] Nature and the outdoors: `skog`, `sjö`, `strand`, `berg` — a trip out of town — `sfi-b/nature-outdoors`
+28. [x] The infinitive and `att`: `Jag vill äta`, `Det är kul att läsa` — `sfi-b/infinitive-att`
+29. [x] The modals `vill`, `kan`, `måste`, `får` + infinitive — `sfi-b/modals-infinitive`
+30. [x] V2 word order: the verb is always second — `sfi-b/v2-word-order`
+31. [x] Inversion after a fronted adverbial: `På måndag jobbar jag` — `sfi-b/fronted-adverbial-inversion`
+32. [x] Sentence adverbs: `inte, alltid, aldrig, ofta, kanske` — `sfi-b/sentence-adverbs`
+33. [x] `en`/`ett`: the indefinite and definite singular — as a system — `sfi-b/en-ett-system`
+34. [x] The plural: five declensions (`-or, -ar, -er, -n`, and no ending) — `sfi-b/plural-five-declensions`
+35. [x] The definite plural: `bilarna`, `husen`, `äpplena` — `sfi-b/definite-plural`
+36. [x] The conjunctions `och`, `men`, `eller`, `för`, `så` — `sfi-b/conjunctions-och-men-eller`
+37. [x] Adjective agreement: `en stor bil`, `ett stort hus`, `bilen är stor` — `sfi-b/adjective-agreement`
+38. [x] The genitive `-s`: `Annas bok`, `barnets namn`, `min mammas bil` — `sfi-b/genitive-s`
+39. [x] Possessives: `min, din, hans, hennes, vår, er, deras` — `sfi-b/possessives`
+40. [x] Demonstratives: `den här`, `den där`, `de här` — `sfi-b/demonstratives`
+41. [x] Object pronouns: `mig, dig, honom, henne, oss, er, dem` — `sfi-b/object-pronouns`
+42. [x] Prepositions of place: `i, på, under, bakom, framför, mellan` — `sfi-b/prepositions-of-place`
+43. [x] Numbers 0–1000, ordinals, prices in `kronor` and writing a date — `sfi-b/numbers-ordinals-dates`
+44. [x] Pronunciation: the melody of a statement and of a question, and long and short vowels in a new word — `sfi-b/pronunciation-melody-vowel-length`
+45. [x] Prepositions of time: `klockan`, `på`, `i`, `om` — `sfi-b/prepositions-of-time`
+46. [x] The preterite of frequent verbs: `var, hade, gick, kom, sa, fick` — `sfi-b/preterite-frequent-verbs`
+47. [x] `det finns` and `det är` in simple sentences — `sfi-b/det-finns-det-ar`
+48. [x] Quantity: `mycket / många`, `lite / några`, `alla / ingen` — `sfi-b/quantity-mycket-lite-alla`
+49. [x] The question words `vilken / vilket / vilka`, `vems`, `hur mycket` — `sfi-b/question-words-vilken-vems`
+50. [x] Saying what you like: `tycker om`, `gillar`, `älskar` + noun or infinitive — `sfi-b/tycker-om-gillar-alskar`
 
 ## SFI kurs C
 

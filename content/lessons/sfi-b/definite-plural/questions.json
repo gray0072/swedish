@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "plural", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-defpl-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "bilar -> ___ (определённое множественное)" },
+      "answer": ["bilarna"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-defpl-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "hus -> ___ (определённое множественное)" },
+      "answer": ["husen"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-defpl-gap-3",
+      "type": "gap",
+      "prompt": { "sv": "äpplen -> ___ (определённое множественное)" },
+      "answer": ["äpplena"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-defpl-gap-4",
+      "type": "gap",
+      "prompt": { "sv": "flickor -> ___ (определённое множественное)" },
+      "answer": ["flickorna"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-defpl-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Множественное число, оканчивающееся на согласный (например «hus»), получает -en в определённой форме.", "en": "A plural ending in a consonant (like \"hus\") gets -en in the definite form." },
+      "answer": true
+    },
+    {
+      "id": "q-defpl-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Определённая форма множественного числа от «äpplen» — «äpplenen».", "en": "The definite plural of \"äpplen\" is \"äpplenen\"." },
+      "answer": false,
+      "explanation": { "ru": "Правильно: «äpplena» — к -n-склонению добавляется только -a.", "en": "Correct: \"äpplena\" — the -n declension only adds -a." }
+    },
+    {
+      "id": "q-defpl-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая определённая форма множественного числа у «hundar»?", "en": "What is the definite plural of \"hundar\"?" },
+      "choices": ["hundarna", "hundaren", "hundarena", "hundarna na"],
+      "answer": 0
+    },
+    {
+      "id": "q-defpl-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая определённая форма множественного числа у «barn» (plural)?", "en": "What is the definite plural of \"barn\" (plural)?" },
+      "choices": ["barnena", "barnen", "barnarna", "barnet"],
+      "answer": 1
+    },
+    {
+      "id": "q-defpl-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь неопределённое множественное с определённым", "en": "Match the indefinite plural with the definite plural" },
+      "pairs": [
+        ["bilar", "bilarna"],
+        ["hus", "husen"],
+        ["äpplen", "äpplena"],
+        ["lägenheter", "lägenheterna"]
+      ]
+    },
+    {
+      "id": "q-defpl-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дома старые.»", "en": "Build the sentence: \"The houses are old.\"" },
+      "tokens": ["gamla", "är", "Husen"],
+      "answer": [2, 1, 0]
+    }
+  ]
+}

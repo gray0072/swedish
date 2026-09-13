@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/sentence-adverbs",
+  "slug": "sentence-adverbs",
+  "title": {
+    "sv": "Satsadverbial: inte, alltid, aldrig, ofta, kanske",
+    "ru": "Наречия предложения: inte, alltid, aldrig, ofta, kanske",
+    "en": "Sentence adverbs: inte, alltid, aldrig, ofta, kanske"
+  },
+  "summary": {
+    "ru": "Куда встают эти наречия в главном предложении — сразу после спрягаемого глагола.",
+    "en": "Where these adverbs sit in a main clause — right after the finite verb."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "word-order",
+    "grammar",
+    "adverbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": [
+    "sfi-b/v2-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

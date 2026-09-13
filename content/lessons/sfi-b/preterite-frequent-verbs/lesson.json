@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/preterite-frequent-verbs",
+  "slug": "preterite-frequent-verbs",
+  "title": {
+    "sv": "Preteritum: var, hade, gick, kom, sa, fick",
+    "ru": "Претерит частых глаголов: var, hade, gick, kom, sa, fick",
+    "en": "The preterite of frequent verbs: var, hade, gick, kom, sa, fick"
+  },
+  "summary": {
+    "ru": "Прошедшее время самых частых неправильных глаголов — как готовые формы для заучивания.",
+    "en": "The past-tense form of the most common irregular verbs, learned as ready-made forms."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "past-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 560,
+  "prerequisites": [
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

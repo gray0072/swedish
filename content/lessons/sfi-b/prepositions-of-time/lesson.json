@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/prepositions-of-time",
+  "slug": "prepositions-of-time",
+  "title": {
+    "sv": "klockan, på, i, om",
+    "ru": "Предлоги времени",
+    "en": "Prepositions of time: klockan, på, i, om"
+  },
+  "summary": {
+    "ru": "Предлоги, которые используются с часами, днями недели и будущим временем.",
+    "en": "The prepositions used with clock times, days, and future time."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "prepositions",
+    "time"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 550,
+  "prerequisites": [
+    "sfi-a/pa-with-days"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

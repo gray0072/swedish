@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/conjunctions-och-men-eller",
+  "slug": "conjunctions-och-men-eller",
+  "title": {
+    "sv": "Konjunktionerna och, men, eller, för, så",
+    "ru": "Союзы och, men, eller, för, så",
+    "en": "The conjunctions och, men, eller, för, så"
+  },
+  "summary": {
+    "ru": "Пять сочинительных союзов соединяют два главных предложения или два слова.",
+    "en": "Five coordinating conjunctions joining two main clauses or two words."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "conjunctions",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 460,
+  "prerequisites": [
+    "sfi-a/och-men-conjunctions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

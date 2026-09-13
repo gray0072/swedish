@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "flicka",
+      "sv": "en flicka",
+      "translations": { "ru": "девочка", "en": "girl" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
+      "example": { "sv": "Flickorna leker.", "ru": "Девочки играют.", "en": "The girls are playing." }
+    },
+    {
+      "id": "gata",
+      "sv": "en gata",
+      "translations": { "ru": "улица", "en": "street" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "example": { "sv": "Gatorna är långa.", "ru": "Улицы длинные.", "en": "The streets are long." }
+    },
+    {
+      "id": "bil",
+      "sv": "en bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilarna är nya.", "ru": "Машины новые.", "en": "The cars are new." }
+    },
+    {
+      "id": "hund",
+      "sv": "en hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "example": { "sv": "Hundarna sover.", "ru": "Собаки спят.", "en": "The dogs are sleeping." }
+    },
+    {
+      "id": "lagenhet",
+      "sv": "en lägenhet",
+      "translations": { "ru": "квартира", "en": "apartment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lägenhet", "defSg": "lägenheten", "indefPl": "lägenheter", "defPl": "lägenheterna" },
+      "example": { "sv": "Lägenheterna är dyra.", "ru": "Квартиры дорогие.", "en": "The apartments are expensive." }
+    },
+    {
+      "id": "biljett",
+      "sv": "en biljett",
+      "translations": { "ru": "билет", "en": "ticket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biljett", "defSg": "biljetten", "indefPl": "biljetter", "defPl": "biljetterna" },
+      "example": { "sv": "Biljetterna ligger på bordet.", "ru": "Билеты лежат на столе.", "en": "The tickets are on the table." }
+    },
+    {
+      "id": "apple",
+      "sv": "ett äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Äpplena är röda.", "ru": "Яблоки красные.", "en": "The apples are red." }
+    },
+    {
+      "id": "hjarta",
+      "sv": "ett hjärta",
+      "translations": { "ru": "сердце", "en": "heart" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hjärta", "defSg": "hjärtat", "indefPl": "hjärtan", "defPl": "hjärtana" },
+      "example": { "sv": "Hjärtana slår.", "ru": "Сердца бьются.", "en": "The hearts are beating." }
+    },
+    {
+      "id": "hus",
+      "sv": "ett hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Husen är gamla.", "ru": "Дома старые.", "en": "The houses are old." }
+    },
+    {
+      "id": "bord",
+      "sv": "ett bord",
+      "translations": { "ru": "стол", "en": "table" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
+      "example": { "sv": "Borden är nya.", "ru": "Столы новые.", "en": "The tables are new." }
+    },
+    {
+      "id": "barn",
+      "sv": "ett barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Barnen leker.", "ru": "Дети играют.", "en": "The children are playing." }
+    }
+  ]
+}

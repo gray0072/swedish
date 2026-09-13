@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "tycka-om-liking",
+      "sv": "tycka om",
+      "translations": { "ru": "нравиться, любить", "en": "to like" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka om", "present": "tycker om", "past": "tyckte om", "supine": "tyckt om" },
+      "note": { "ru": "Нейтральное слово, подходит и в устной, и в письменной речи.", "en": "Neutral word, fine in both speech and writing." },
+      "example": { "sv": "Jag tycker om att simma.", "ru": "Мне нравится плавать.", "en": "I like to swim." }
+    },
+    {
+      "id": "gilla-liking",
+      "sv": "gilla",
+      "translations": { "ru": "нравиться (более разговорное)", "en": "to like (more casual, spoken)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "gilla", "present": "gillar", "past": "gillade", "supine": "gillat" },
+      "example": { "sv": "Jag gillar choklad.", "ru": "Мне нравится шоколад.", "en": "I like chocolate." }
+    },
+    {
+      "id": "alska",
+      "sv": "älska",
+      "translations": { "ru": "обожать, любить", "en": "to love" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "älska", "present": "älskar", "past": "älskade", "supine": "älskat" },
+      "note": { "ru": "Сильнее, чем «tycka om»/«gilla» — сильное чувство, не только вежливая симпатия.", "en": "Stronger than \"tycka om\"/\"gilla\" — real enthusiasm, not just polite fondness." },
+      "example": { "sv": "Hon älskar att laga mat.", "ru": "Она обожает готовить.", "en": "She loves to cook." }
+    },
+    {
+      "id": "choklad",
+      "sv": "choklad",
+      "translations": { "ru": "шоколад", "en": "chocolate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en choklad", "defSg": "chokladen", "indefPl": "chokladar", "defPl": "chokladarna" },
+      "example": { "sv": "Jag gillar choklad.", "ru": "Мне нравится шоколад.", "en": "I like chocolate." }
+    },
+    {
+      "id": "glass",
+      "sv": "glass",
+      "translations": { "ru": "мороженое", "en": "ice cream" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en glass", "defSg": "glassen", "indefPl": "glassar", "defPl": "glassarna" },
+      "example": { "sv": "Alla barn älskar glass.", "ru": "Все дети обожают мороженое.", "en": "All children love ice cream." }
+    },
+    {
+      "id": "musik",
+      "sv": "musik",
+      "translations": { "ru": "музыка", "en": "music" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag tycker om musik.", "ru": "Мне нравится музыка.", "en": "I like music." }
+    },
+    {
+      "id": "laga-mat",
+      "sv": "laga mat",
+      "translations": { "ru": "готовить еду", "en": "to cook" },
+      "pos": "phrase",
+      "example": { "sv": "Hon älskar att laga mat.", "ru": "Она обожает готовить.", "en": "She loves to cook." }
+    },
+    {
+      "id": "simma-liking",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Jag tycker om att simma på sommaren.", "ru": "Мне нравится плавать летом.", "en": "I like to swim in the summer." }
+    },
+    {
+      "id": "att",
+      "sv": "att",
+      "translations": { "ru": "(частица перед инфинитивом)", "en": "to (infinitive marker)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag gillar att läsa.", "ru": "Мне нравится читать.", "en": "I like to read." }
+    }
+  ]
+}

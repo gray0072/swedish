@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "inte",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv",
+      "example": { "sv": "Jag äter inte kött.", "ru": "Я не ем мясо.", "en": "I don't eat meat." }
+    },
+    {
+      "id": "alltid",
+      "sv": "alltid",
+      "translations": { "ru": "всегда", "en": "always" },
+      "pos": "adv",
+      "example": { "sv": "Han är alltid trött.", "ru": "Он всегда уставший.", "en": "He is always tired." }
+    },
+    {
+      "id": "aldrig",
+      "sv": "aldrig",
+      "translations": { "ru": "никогда", "en": "never" },
+      "pos": "adv",
+      "example": { "sv": "Vi äter aldrig fisk.", "ru": "Мы никогда не едим рыбу.", "en": "We never eat fish." }
+    },
+    {
+      "id": "ofta",
+      "sv": "ofta",
+      "translations": { "ru": "часто", "en": "often" },
+      "pos": "adv",
+      "example": { "sv": "Vi går ofta på bio.", "ru": "Мы часто ходим в кино.", "en": "We often go to the cinema." }
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe, perhaps" },
+      "pos": "adv",
+      "example": { "sv": "Jag kommer kanske imorgon.", "ru": "Я, может быть, приду завтра.", "en": "I'll maybe come tomorrow." }
+    },
+    {
+      "id": "snart",
+      "sv": "snart",
+      "translations": { "ru": "скоро", "en": "soon" },
+      "pos": "adv",
+      "example": { "sv": "Bussen kommer snart.", "ru": "Автобус скоро придёт.", "en": "The bus is coming soon." }
+    },
+    {
+      "id": "garna",
+      "sv": "gärna",
+      "translations": { "ru": "охотно, с удовольствием", "en": "gladly, willingly" },
+      "pos": "adv",
+      "example": { "sv": "Jag vill gärna hjälpa dig.", "ru": "Я с удовольствием помогу тебе.", "en": "I'd be glad to help you." }
+    },
+    {
+      "id": "verkligen",
+      "sv": "verkligen",
+      "translations": { "ru": "действительно", "en": "really" },
+      "pos": "adv",
+      "example": { "sv": "Hon är verkligen snäll.", "ru": "Она действительно добрая.", "en": "She is really kind." }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "example": { "sv": "Jag har redan ätit.", "ru": "Я уже поел.", "en": "I have already eaten." }
+    },
+    {
+      "id": "aven",
+      "sv": "även",
+      "translations": { "ru": "тоже, также", "en": "also, too" },
+      "pos": "adv",
+      "example": { "sv": "Hon talar även engelska.", "ru": "Она также говорит по-английски.", "en": "She also speaks English." }
+    },
+    {
+      "id": "nog",
+      "sv": "nog",
+      "translations": { "ru": "наверное", "en": "probably" },
+      "pos": "adv",
+      "example": { "sv": "Det blir nog regn imorgon.", "ru": "Завтра, наверное, будет дождь.", "en": "It'll probably rain tomorrow." }
+    }
+  ]
+}

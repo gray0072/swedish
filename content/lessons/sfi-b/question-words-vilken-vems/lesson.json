@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/question-words-vilken-vems",
+  "slug": "question-words-vilken-vems",
+  "title": {
+    "sv": "Frågeord: vilken/vilket/vilka, vems, hur mycket",
+    "ru": "Вопросительные слова vilken/vilket/vilka, vems, hur mycket",
+    "en": "The question words vilken/vilket/vilka, vems, hur mycket"
+  },
+  "summary": {
+    "ru": "«Который/какой» (согласуется с en/ett/мн.), «чей» и «сколько».",
+    "en": "\"Which\" (agreeing with en/ett/plural), \"whose\", and \"how much/many\"."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "questions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 590,
+  "prerequisites": [
+    "sfi-a/wh-questions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

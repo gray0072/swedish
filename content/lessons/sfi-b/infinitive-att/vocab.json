@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "att",
+      "sv": "att",
+      "translations": { "ru": "(частица перед инфинитивом), чтобы", "en": "to (infinitive marker)" },
+      "pos": "conjunction",
+      "example": { "sv": "Det är roligt att simma.", "ru": "Плавать — весело.", "en": "It's fun to swim." }
+    },
+    {
+      "id": "vilja-inf",
+      "sv": "vilja",
+      "translations": { "ru": "хотеть", "en": "to want" },
+      "pos": "verb",
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Jag vill äta.", "ru": "Я хочу есть.", "en": "I want to eat." }
+    },
+    {
+      "id": "ata-inf",
+      "sv": "äta",
+      "translations": { "ru": "есть", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Jag vill äta nu.", "ru": "Я хочу есть сейчас.", "en": "I want to eat now." }
+    },
+    {
+      "id": "lasa-inf",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Att läsa är kul.", "ru": "Читать — весело.", "en": "Reading is fun." }
+    },
+    {
+      "id": "simma-inf",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Det är roligt att simma.", "ru": "Плавать — весело.", "en": "It's fun to swim." }
+    },
+    {
+      "id": "cykla-inf",
+      "sv": "cykla",
+      "translations": { "ru": "кататься на велосипеде", "en": "to cycle" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat" },
+      "example": { "sv": "Hon tycker om att cykla.", "ru": "Ей нравится кататься на велосипеде.", "en": "She likes cycling." }
+    },
+    {
+      "id": "sova-inf",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Jag vill sova nu.", "ru": "Я хочу спать сейчас.", "en": "I want to sleep now." }
+    },
+    {
+      "id": "arbeta-inf",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Jag börjar arbeta klockan åtta.", "ru": "Я начинаю работать в восемь.", "en": "I start working at eight." }
+    },
+    {
+      "id": "resa-inf",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Jag älskar att resa.", "ru": "Я обожаю путешествовать.", "en": "I love to travel." }
+    },
+    {
+      "id": "laga-mat-inf",
+      "sv": "laga mat",
+      "translations": { "ru": "готовить еду", "en": "to cook" },
+      "pos": "phrase",
+      "example": { "sv": "Det är kul att laga mat.", "ru": "Готовить — это весело.", "en": "Cooking is fun." }
+    },
+    {
+      "id": "tycka-om",
+      "sv": "tycka om",
+      "translations": { "ru": "любить, нравиться", "en": "to like" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tycker om att läsa.", "ru": "Мне нравится читать.", "en": "I like reading." }
+    },
+    {
+      "id": "borja-inf",
+      "sv": "börja",
+      "translations": { "ru": "начинать", "en": "to begin, start" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "example": { "sv": "Jag börjar att läsa boken.", "ru": "Я начинаю читать книгу.", "en": "I'm starting to read the book." }
+    },
+    {
+      "id": "roligt",
+      "sv": "roligt",
+      "translations": { "ru": "весело, забавно", "en": "fun" },
+      "pos": "adj",
+      "example": { "sv": "Det är roligt att cykla.", "ru": "Кататься на велосипеде — весело.", "en": "Cycling is fun." }
+    },
+    {
+      "id": "viktigt",
+      "sv": "viktigt",
+      "translations": { "ru": "важно", "en": "important" },
+      "pos": "adj",
+      "example": { "sv": "Det är viktigt att sova.", "ru": "Спать важно.", "en": "It's important to sleep." }
+    }
+  ]
+}

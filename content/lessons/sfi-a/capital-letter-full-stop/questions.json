@@ -1,0 +1,83 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-capital-letter-full-stop-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«jag bor i malmö.» — правильно записанное предложение.", "en": "\"jag bor i malmö.\" is a correctly written sentence." },
+      "answer": false,
+      "explanation": {
+        "ru": "Предложение должно начинаться с заглавной буквы: Jag bor i Malmö.",
+        "en": "A sentence must start with a capital letter: Jag bor i Malmö."
+      }
+    },
+    {
+      "id": "q-capital-letter-full-stop-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag bor i Malmö» без точки в конце — это уже завершённое написанное предложение.", "en": "\"Jag bor i Malmö\" without a full stop at the end is a properly finished written sentence." },
+      "answer": false,
+      "explanation": {
+        "ru": "Нужна точка в конце: Jag bor i Malmö.",
+        "en": "It needs a full stop at the end: Jag bor i Malmö."
+      }
+    },
+    {
+      "id": "q-capital-letter-full-stop-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой знак ставится в конце вопроса?", "en": "Which mark ends a question?" },
+      "choices": ["frågetecken", "punkt", "utropstecken", "stor bokstav"],
+      "answer": 0
+    },
+    {
+      "id": "q-capital-letter-full-stop-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое из этих предложений записано правильно?", "en": "Which of these sentences is written correctly?" },
+      "choices": ["Jag bor i Malmö.", "jag bor i malmö.", "Jag bor i Malmö", "jag bor i Malmö"],
+      "answer": 0
+    },
+    {
+      "id": "q-capital-letter-full-stop-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Предложение начинается с заглавной буквы.»", "en": "Build the sentence: \"A sentence starts with a capital letter.\"" },
+      "tokens": ["med", "börjar", "bokstav.", "Meningen", "stor"],
+      "answer": [3, 1, 0, 4, 2]
+    },
+    {
+      "id": "q-capital-letter-full-stop-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Meningen slutar med ___." },
+      "answer": ["punkt"],
+      "acceptAlso": [],
+      "hint": { "ru": "точка", "en": "full stop" }
+    },
+    {
+      "id": "q-capital-letter-full-stop-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ bor i Malmö." },
+      "answer": ["Jag"],
+      "acceptAlso": [],
+      "hint": { "ru": "я (с заглавной буквы)", "en": "I (capitalised)" }
+    },
+    {
+      "id": "q-capital-letter-full-stop-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь знак и его название", "en": "Match the mark with its name" },
+      "pairs": [
+        [".", "punkt"],
+        ["?", "frågetecken"],
+        ["!", "utropstecken"]
+      ]
+    }
+  ]
+}

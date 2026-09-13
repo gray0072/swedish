@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-det-finns-det-ar-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая фраза говорит о существовании чего-то?", "en": "Which phrase talks about something existing?" },
+      "choices": ["det finns", "det är", "det gör", "det har"],
+      "answer": 0
+    },
+    {
+      "id": "q-det-finns-det-ar-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать «Это парк»?", "en": "How do you correctly say \"It is a park\"?" },
+      "choices": ["Det finns en park.", "Det är en park.", "Det finns park.", "Det har en park."],
+      "answer": 1
+    },
+    {
+      "id": "q-det-finns-det-ar-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ en park här. (есть, существует)" },
+      "answer": ["Det finns"],
+      "acceptAlso": ["det finns"],
+      "hint": { "ru": "существование", "en": "existence" }
+    },
+    {
+      "id": "q-det-finns-det-ar-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ kallt idag. (описание погоды)" },
+      "answer": ["Det är"],
+      "acceptAlso": ["det är"],
+      "hint": { "ru": "описание", "en": "description" }
+    },
+    {
+      "id": "q-det-finns-det-ar-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «В городе есть много людей.»", "en": "Build the sentence: \"There are many people in the city.\"" },
+      "tokens": ["människor", "finns", "i", "Det", "många", "staden"],
+      "answer": [3, 1, 4, 0, 2, 5]
+    },
+    {
+      "id": "q-det-finns-det-ar-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предложение с его значением", "en": "Match the sentence with its meaning" },
+      "pairs": [
+        ["Det finns en park.", "существование парка"],
+        ["Det är en park.", "описание/опознание объекта"],
+        ["Det är kallt.", "описание погоды"],
+        ["Det finns ett problem.", "существование проблемы"]
+      ]
+    },
+    {
+      "id": "q-det-finns-det-ar-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Det finns» используют, когда что-то существует или имеется.", "en": "\"Det finns\" is used when something exists or is available." },
+      "answer": true
+    },
+    {
+      "id": "q-det-finns-det-ar-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det är kallt» и «Det finns kallt» означают одно и то же.", "en": "\"Det är kallt\" and \"Det finns kallt\" mean the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Только «Det är kallt» правильно — это описание, а не существование чего-то.", "en": "Only \"Det är kallt\" is correct — it's a description, not a statement of existence." }
+    },
+    {
+      "id": "q-det-finns-det-ar-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши по-шведски: «Есть одна проблема.»", "en": "Write in Swedish: \"There is a problem.\"" },
+      "answer": ["Det finns ett problem."],
+      "hint": { "ru": "problem — это ett-слово", "en": "problem is an ett-word" }
+    },
+    {
+      "id": "q-det-finns-det-ar-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Det finns många sjöar i Sverige.",
+      "prompt": { "ru": "О чём говорит предложение?", "en": "What does the sentence say?" },
+      "choices": [
+        { "ru": "В Швеции много озёр", "en": "There are many lakes in Sweden" },
+        { "ru": "В Швеции холодно", "en": "It is cold in Sweden" },
+        { "ru": "Это озеро", "en": "It is a lake" },
+        { "ru": "Озеро большое", "en": "The lake is big" }
+      ],
+      "answer": 0
+    }
+  ]
+}

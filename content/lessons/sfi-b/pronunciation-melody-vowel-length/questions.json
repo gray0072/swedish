@@ -1,0 +1,112 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-pronunciation-melody-vowel-length-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В утверждении «Du bor i Malmö.» мелодия падает к концу.", "en": "In the statement \"Du bor i Malmö.\" the pitch falls toward the end." },
+      "answer": true
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В вопросе «Bor du i Malmö?» мелодия падает к концу, так же как в утверждении.", "en": "In the question \"Bor du i Malmö?\" the pitch falls toward the end, just like in a statement." },
+      "answer": false,
+      "explanation": {
+        "ru": "В да/нет-вопросе мелодия растёт к концу, а не падает.",
+        "en": "In a yes/no question the pitch rises toward the end, not falls."
+      }
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-tf-3",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В слове «hal» гласная «a» долгая, потому что после неё только одна согласная.", "en": "In the word \"hal\" the vowel \"a\" is long because only one consonant follows it." },
+      "answer": true
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое предложение — вопрос?", "en": "Which sentence is a question?" },
+      "choices": ["Bor du i Malmö?", "Du bor i Malmö.", "Hon pratar svenska.", "Jag bor i Malmö."],
+      "answer": 0
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком слове гласная краткая (перед двумя одинаковыми согласными)?", "en": "In which word is the vowel short (before two identical consonants)?" },
+      "choices": ["full", "ful", "sil", "vek"],
+      "answer": 0
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В каком слове гласная долгая?", "en": "In which word is the vowel long?" },
+      "choices": ["sil", "sill", "hall", "veck"],
+      "answer": 0
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Isen är ___. (скользкий, долгое a)" },
+      "answer": ["hal"],
+      "acceptAlso": [],
+      "hint": { "ru": "скользкий", "en": "slippery" }
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Glaset är ___. (полный, краткое u)" },
+      "answer": ["fullt"],
+      "acceptAlso": ["full"],
+      "hint": { "ru": "полный", "en": "full" }
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Ты живёшь в Мальмё?»", "en": "Build the question: \"Do you live in Malmö?\"" },
+      "tokens": ["i", "Bor", "Malmö", "du"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с типом гласной (долгая/краткая)", "en": "Match the word with its vowel length" },
+      "pairs": [
+        ["ful", "долгое u"],
+        ["full", "краткое u"],
+        ["sil", "долгое i"],
+        ["sill", "краткое i"],
+        ["vek", "долгое e"],
+        ["veck", "краткое e"]
+      ]
+    },
+    {
+      "id": "q-pronunciation-melody-vowel-length-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Pratar hon svenska?",
+      "prompt": { "ru": "Это утверждение или вопрос?", "en": "Is this a statement or a question?" },
+      "choices": [
+        { "ru": "Вопрос", "en": "A question" },
+        { "ru": "Утверждение", "en": "A statement" },
+        { "ru": "Приказ", "en": "A command" },
+        { "ru": "Восклицание", "en": "An exclamation" }
+      ],
+      "answer": 0
+    }
+  ]
+}

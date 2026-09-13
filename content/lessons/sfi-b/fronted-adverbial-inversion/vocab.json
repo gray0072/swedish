@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "idag",
+      "sv": "idag",
+      "translations": { "ru": "сегодня", "en": "today" },
+      "pos": "adv",
+      "example": { "sv": "Idag är det kallt.", "ru": "Сегодня холодно.", "en": "Today it's cold." }
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv",
+      "example": { "sv": "Imorgon reser vi till Malmö.", "ru": "Завтра мы едем в Мальмё.", "en": "Tomorrow we're travelling to Malmö." }
+    },
+    {
+      "id": "ibland",
+      "sv": "ibland",
+      "translations": { "ru": "иногда", "en": "sometimes" },
+      "pos": "adv",
+      "example": { "sv": "Ibland lagar jag mat.", "ru": "Иногда я готовлю еду.", "en": "Sometimes I cook food." }
+    },
+    {
+      "id": "pa-mandag",
+      "sv": "på måndag",
+      "translations": { "ru": "в понедельник", "en": "on Monday" },
+      "pos": "phrase",
+      "example": { "sv": "På måndag jobbar jag.", "ru": "В понедельник я работаю.", "en": "On Monday I work." }
+    },
+    {
+      "id": "i-sverige",
+      "sv": "i Sverige",
+      "translations": { "ru": "в Швеции", "en": "in Sweden" },
+      "pos": "phrase",
+      "example": { "sv": "I Sverige bor många människor.", "ru": "В Швеции живёт много людей.", "en": "In Sweden many people live." }
+    },
+    {
+      "id": "dar",
+      "sv": "där",
+      "translations": { "ru": "там", "en": "there" },
+      "pos": "adv",
+      "example": { "sv": "Där ligger biblioteket.", "ru": "Там находится библиотека.", "en": "There lies the library." }
+    },
+    {
+      "id": "sedan",
+      "sv": "sedan",
+      "translations": { "ru": "потом", "en": "then, afterwards" },
+      "pos": "adv",
+      "example": { "sv": "Sedan går vi hem.", "ru": "Потом мы идём домой.", "en": "Then we go home." }
+    },
+    {
+      "id": "nu",
+      "sv": "nu",
+      "translations": { "ru": "сейчас", "en": "now" },
+      "pos": "adv",
+      "example": { "sv": "Nu regnar det.", "ru": "Сейчас идёт дождь.", "en": "Now it's raining." }
+    },
+    {
+      "id": "i-helgen",
+      "sv": "i helgen",
+      "translations": { "ru": "на выходных", "en": "at the weekend" },
+      "pos": "phrase",
+      "example": { "sv": "I helgen träffar vi vänner.", "ru": "На выходных мы встречаемся с друзьями.", "en": "At the weekend we meet friends." }
+    },
+    {
+      "id": "snabbt",
+      "sv": "snabbt",
+      "translations": { "ru": "быстро", "en": "quickly" },
+      "pos": "adv",
+      "example": { "sv": "Snabbt sprang han hem.", "ru": "Быстро он побежал домой.", "en": "Quickly he ran home." }
+    },
+    {
+      "id": "varje-dag",
+      "sv": "varje dag",
+      "translations": { "ru": "каждый день", "en": "every day" },
+      "pos": "phrase",
+      "example": { "sv": "Varje dag läser hon en bok.", "ru": "Каждый день она читает книгу.", "en": "Every day she reads a book." }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "det-finns",
+      "sv": "det finns",
+      "translations": { "ru": "имеется, есть (существует)", "en": "there is, there are" },
+      "pos": "phrase",
+      "example": { "sv": "Det finns en park här.", "ru": "Здесь есть парк.", "en": "There is a park here." }
+    },
+    {
+      "id": "det-finns-inte",
+      "sv": "det finns inte",
+      "translations": { "ru": "не имеется, нет", "en": "there is not, there are not" },
+      "pos": "phrase",
+      "example": { "sv": "Det finns inte mjölk hemma.", "ru": "Дома нет молока.", "en": "There is no milk at home." }
+    },
+    {
+      "id": "det-ar",
+      "sv": "det är",
+      "translations": { "ru": "это (есть)", "en": "it is, that is" },
+      "pos": "phrase",
+      "example": { "sv": "Det är en park.", "ru": "Это парк.", "en": "It is a park." }
+    },
+    {
+      "id": "finnas",
+      "sv": "finnas",
+      "translations": { "ru": "существовать, иметься", "en": "to exist, to be found" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "finnas", "present": "finns", "past": "fanns", "supine": "funnits" },
+      "example": { "sv": "Det finns många sjöar i Sverige.", "ru": "В Швеции много озёр.", "en": "There are many lakes in Sweden." }
+    },
+    {
+      "id": "park",
+      "sv": "park",
+      "translations": { "ru": "парк", "en": "park" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en park", "defSg": "parken", "indefPl": "parker", "defPl": "parkerna" },
+      "example": { "sv": "Parken ligger nära centrum.", "ru": "Парк находится рядом с центром.", "en": "The park is near the center." }
+    },
+    {
+      "id": "kallt",
+      "sv": "kallt",
+      "translations": { "ru": "холодно", "en": "cold" },
+      "pos": "adj",
+      "example": { "sv": "Det är kallt idag.", "ru": "Сегодня холодно.", "en": "It is cold today." }
+    },
+    {
+      "id": "varmt",
+      "sv": "varmt",
+      "translations": { "ru": "тепло, жарко", "en": "warm, hot" },
+      "pos": "adj",
+      "example": { "sv": "Det är varmt i köket.", "ru": "На кухне тепло.", "en": "It is warm in the kitchen." }
+    },
+    {
+      "id": "problem",
+      "sv": "problem",
+      "translations": { "ru": "проблема", "en": "problem" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett problem", "defSg": "problemet", "indefPl": "problem", "defPl": "problemen" },
+      "example": { "sv": "Det finns ett problem.", "ru": "Есть одна проблема.", "en": "There is a problem." }
+    },
+    {
+      "id": "manniskor",
+      "sv": "människor",
+      "translations": { "ru": "люди", "en": "people" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en människa", "defSg": "människan", "indefPl": "människor", "defPl": "människorna" },
+      "example": { "sv": "Det finns många människor på torget.", "ru": "На площади много людей.", "en": "There are many people in the square." }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "och",
+      "sv": "och",
+      "translations": { "ru": "и", "en": "and" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag dricker kaffe och äter en smörgås.", "ru": "Я пью кофе и ем бутерброд.", "en": "I drink coffee and eat a sandwich." }
+    },
+    {
+      "id": "men",
+      "sv": "men",
+      "translations": { "ru": "но", "en": "but" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag vill sova, men jag måste jobba.", "ru": "Я хочу спать, но я должен работать.", "en": "I want to sleep, but I must work." }
+    },
+    {
+      "id": "eller",
+      "sv": "eller",
+      "translations": { "ru": "или", "en": "or" },
+      "pos": "conjunction",
+      "example": { "sv": "Vill du ha te eller kaffe?", "ru": "Хочешь чай или кофе?", "en": "Do you want tea or coffee?" }
+    },
+    {
+      "id": "for-conjunction",
+      "sv": "för",
+      "translations": { "ru": "потому что, ведь", "en": "because, for (giving a reason)" },
+      "pos": "conjunction",
+      "note": { "ru": "неформальная причина; после «för» всё равно идёт главное предложение", "en": "an informal reason; the clause after \"för\" is still a main clause" },
+      "example": { "sv": "Jag är trött, för jag sov dåligt.", "ru": "Я устал, потому что плохо спал.", "en": "I'm tired, because I slept badly." }
+    },
+    {
+      "id": "sa-conjunction",
+      "sv": "så",
+      "translations": { "ru": "поэтому, так что", "en": "so (result)" },
+      "pos": "conjunction",
+      "example": { "sv": "Det regnar, så jag tar paraply.", "ru": "Идёт дождь, поэтому я беру зонт.", "en": "It's raining, so I take an umbrella." }
+    },
+    {
+      "id": "kaffe-smorgas-phrase",
+      "sv": "Jag dricker kaffe och äter en smörgås.",
+      "translations": { "ru": "Я пью кофе и ем бутерброд.", "en": "I drink coffee and eat a sandwich." },
+      "pos": "phrase"
+    },
+    {
+      "id": "sova-jobba-phrase",
+      "sv": "Jag vill sova, men jag måste jobba.",
+      "translations": { "ru": "Я хочу спать, но я должен работать.", "en": "I want to sleep, but I must work." },
+      "pos": "phrase"
+    },
+    {
+      "id": "te-kaffe-phrase",
+      "sv": "Vill du ha te eller kaffe?",
+      "translations": { "ru": "Хочешь чай или кофе?", "en": "Do you want tea or coffee?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "trott-sov-phrase",
+      "sv": "Jag är trött, för jag sov dåligt.",
+      "translations": { "ru": "Я устал, потому что плохо спал.", "en": "I'm tired, because I slept badly." },
+      "pos": "phrase"
+    },
+    {
+      "id": "regnar-paraply-phrase",
+      "sv": "Det regnar, så jag tar paraply.",
+      "translations": { "ru": "Идёт дождь, поэтому я беру зонт.", "en": "It's raining, so I take an umbrella." },
+      "pos": "phrase"
+    }
+  ]
+}

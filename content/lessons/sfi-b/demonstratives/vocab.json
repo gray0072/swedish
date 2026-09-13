@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "den-har",
+      "sv": "den här",
+      "translations": { "ru": "этот, эта (en)", "en": "this (with an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Den här bilen är ny.", "ru": "Эта машина новая.", "en": "This car is new." }
+    },
+    {
+      "id": "det-har",
+      "sv": "det här",
+      "translations": { "ru": "это (ett)", "en": "this (with an ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Det här huset är stort.", "ru": "Этот дом большой.", "en": "This house is big." }
+    },
+    {
+      "id": "de-har",
+      "sv": "de här",
+      "translations": { "ru": "эти (мн. ч.)", "en": "these (plural)" },
+      "pos": "pron",
+      "example": { "sv": "De här bilarna är dyra.", "ru": "Эти машины дорогие.", "en": "These cars are expensive." }
+    },
+    {
+      "id": "den-dar",
+      "sv": "den där",
+      "translations": { "ru": "тот, та (en)", "en": "that (with an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Den där bilen är gammal.", "ru": "Та машина старая.", "en": "That car is old." }
+    },
+    {
+      "id": "det-dar",
+      "sv": "det där",
+      "translations": { "ru": "то (ett)", "en": "that (with an ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Det där huset är litet.", "ru": "Тот дом маленький.", "en": "That house is small." }
+    },
+    {
+      "id": "de-dar",
+      "sv": "de där",
+      "translations": { "ru": "те (мн. ч.)", "en": "those (plural)" },
+      "pos": "pron",
+      "example": { "sv": "De där husen är fina.", "ru": "Те дома красивые.", "en": "Those houses are nice." }
+    },
+    {
+      "id": "bil-demonstrative",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Den här bilen är ny.", "ru": "Эта машина новая.", "en": "This car is new." }
+    },
+    {
+      "id": "hus-demonstrative",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Det här huset är stort.", "ru": "Этот дом большой.", "en": "This house is big." }
+    },
+    {
+      "id": "den-har-bilen-phrase",
+      "sv": "den här bilen",
+      "translations": { "ru": "эта машина", "en": "this car" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-har-huset-phrase",
+      "sv": "det här huset",
+      "translations": { "ru": "этот дом", "en": "this house" },
+      "pos": "phrase"
+    },
+    {
+      "id": "de-har-bilarna-phrase",
+      "sv": "de här bilarna",
+      "translations": { "ru": "эти машины", "en": "these cars" },
+      "pos": "phrase"
+    },
+    {
+      "id": "den-dar-bilen-phrase",
+      "sv": "den där bilen",
+      "translations": { "ru": "та машина", "en": "that car" },
+      "pos": "phrase"
+    }
+  ]
+}

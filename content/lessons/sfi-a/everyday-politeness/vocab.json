@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "tack",
+      "sv": "tack",
+      "translations": { "ru": "спасибо", "en": "thanks" },
+      "pos": "interjection",
+      "example": { "sv": "Tack för hjälpen!", "ru": "Спасибо за помощь!", "en": "Thanks for the help!" }
+    },
+    {
+      "id": "tack-sa-mycket",
+      "sv": "tack så mycket",
+      "translations": { "ru": "большое спасибо", "en": "thank you very much" },
+      "pos": "phrase",
+      "example": { "sv": "Tack så mycket för maten!", "ru": "Большое спасибо за еду!", "en": "Thank you very much for the food!" }
+    },
+    {
+      "id": "varsagod",
+      "sv": "varsågod",
+      "translations": { "ru": "пожалуйста (в ответ на спасибо / при вручении чего-то)", "en": "you're welcome / here you go" },
+      "pos": "interjection",
+      "example": { "sv": "— Tack! — Varsågod!", "ru": "— Спасибо! — Пожалуйста!", "en": "\"Thanks!\" \"You're welcome!\"" }
+    },
+    {
+      "id": "forlat",
+      "sv": "förlåt",
+      "translations": { "ru": "извини(те), прости(те)", "en": "sorry (asking forgiveness)" },
+      "pos": "interjection",
+      "example": { "sv": "Förlåt, jag är sen.", "ru": "Извини, я опоздал.", "en": "Sorry, I'm late." }
+    },
+    {
+      "id": "ursakta",
+      "sv": "ursäkta",
+      "translations": { "ru": "извини(те) (чтобы обратиться или пройти)", "en": "excuse me" },
+      "pos": "interjection",
+      "example": { "sv": "Ursäkta, var är toaletten?", "ru": "Извините, где туалет?", "en": "Excuse me, where is the toilet?" }
+    },
+    {
+      "id": "ursakta-mig",
+      "sv": "ursäkta mig",
+      "translations": { "ru": "простите меня / разрешите пройти", "en": "excuse me (to pass by or interrupt)" },
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta mig, får jag komma förbi?", "ru": "Извините, можно пройти?", "en": "Excuse me, may I get past?" }
+    },
+    {
+      "id": "ingen-fara",
+      "sv": "ingen fara",
+      "translations": { "ru": "ничего страшного", "en": "no problem, it's fine" },
+      "pos": "phrase",
+      "example": { "sv": "— Förlåt! — Ingen fara.", "ru": "— Извини! — Ничего страшного.", "en": "\"Sorry!\" \"No problem.\"" }
+    },
+    {
+      "id": "varsagod-och-sitt",
+      "sv": "varsågod och sitt",
+      "translations": { "ru": "пожалуйста, садитесь", "en": "please, sit down" },
+      "pos": "phrase",
+      "example": { "sv": "Varsågod och sitt!", "ru": "Пожалуйста, садитесь!", "en": "Please, sit down!" }
+    },
+    {
+      "id": "kan-jag-fa",
+      "sv": "Kan jag få …?",
+      "translations": { "ru": "Можно мне …?", "en": "May I have …?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag få en kaffe, tack?", "ru": "Можно мне кофе, пожалуйста?", "en": "May I have a coffee, please?" }
+    },
+    {
+      "id": "det-var-sa-lite",
+      "sv": "det var så lite",
+      "translations": { "ru": "не за что, пустяки", "en": "it was nothing, don't mention it" },
+      "pos": "phrase",
+      "example": { "sv": "— Tack så mycket! — Det var så lite.", "ru": "— Большое спасибо! — Не за что.", "en": "\"Thank you very much!\" \"Don't mention it.\"" }
+    }
+  ]
+}

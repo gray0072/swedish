@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-telling-teacher-ill-late-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я сегодня болею.»", "en": "Build the sentence: \"I am ill today.\"" },
+      "tokens": ["sjuk", "Jag", "idag.", "är"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-telling-teacher-ill-late-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я опоздаю.»", "en": "Build the sentence: \"I will come late.\"" },
+      "tokens": ["kommer", "Jag", "sent."],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-telling-teacher-ill-late-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag är sjuk» значит «Я болею».", "en": "\"Jag är sjuk\" means \"I am ill\"." },
+      "answer": true
+    },
+    {
+      "id": "q-telling-teacher-ill-late-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag kommer sent» значит, что человек не придёт вообще.", "en": "\"Jag kommer sent\" means the person will not come at all." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Jag kommer sent» значит «Я приду поздно», человек всё же придёт.",
+        "en": "\"Jag kommer sent\" means \"I'll come late\" — the person is still coming."
+      }
+    },
+    {
+      "id": "q-telling-teacher-ill-late-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «У меня температура»?", "en": "How do you say \"I have a fever\"?" },
+      "choices": ["Jag har feber.", "Jag är sjuk.", "Jag kommer sent.", "Jag mår bra."],
+      "answer": 0
+    },
+    {
+      "id": "q-telling-teacher-ill-late-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag måste ___ hemma." },
+      "answer": ["stanna"],
+      "acceptAlso": [],
+      "hint": { "ru": "остаться", "en": "stay" }
+    },
+    {
+      "id": "q-telling-teacher-ill-late-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag är sjuk idag och kommer inte till lektionen.",
+      "prompt": { "ru": "Что говорит человек?", "en": "What is the person saying?" },
+      "choices": [
+        { "ru": "Он болен и не придёт на урок", "en": "They are ill and won't come to the lesson" },
+        { "ru": "Он опоздает на 10 минут", "en": "They will be 10 minutes late" },
+        { "ru": "Он придёт завтра вместо сегодня", "en": "They will come tomorrow instead" },
+        { "ru": "Он забыл домашнее задание", "en": "They forgot their homework" }
+      ],
+      "answer": 0
+    }
+  ]
+}

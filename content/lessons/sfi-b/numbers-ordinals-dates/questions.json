@@ -1,0 +1,105 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-numbers-ordinals-dates-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Это стоит сто пятьдесят крон.»", "en": "Build the sentence: \"It costs a hundred and fifty kronor.\"" },
+      "tokens": ["kostar", "kronor", "Det", "hundrafemtio"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-numbers-ordinals-dates-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня третье мая.»", "en": "Build the sentence: \"Today is the third of May.\"" },
+      "tokens": ["den", "Idag", "maj", "tredje", "är", "det"],
+      "answer": [1, 4, 5, 0, 3, 2]
+    },
+    {
+      "id": "q-numbers-ordinals-dates-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vad ___ den? (стоит)" },
+      "answer": ["kostar"],
+      "acceptAlso": [],
+      "hint": { "ru": "стоит", "en": "costs" }
+    },
+    {
+      "id": "q-numbers-ordinals-dates-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Han bor på ___ våningen. (второй)" },
+      "answer": ["andra"],
+      "acceptAlso": [],
+      "hint": { "ru": "второй", "en": "second" }
+    },
+    {
+      "id": "q-numbers-ordinals-dates-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь количественное и порядковое числительное", "en": "Match the cardinal and ordinal number" },
+      "pairs": [
+        ["ett", "första"],
+        ["två", "andra"],
+        ["tre", "tredje"],
+        ["fyra", "fjärde"],
+        ["fem", "femte"],
+        ["tio", "tionde"]
+      ]
+    },
+    {
+      "id": "q-numbers-ordinals-dates-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Tusen» значит «тысяча».", "en": "\"Tusen\" means \"thousand\"." },
+      "answer": true
+    },
+    {
+      "id": "q-numbers-ordinals-dates-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Trettio» значит «тринадцать».", "en": "\"Trettio\" means \"thirteen\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Trettio» значит «тридцать». «Тринадцать» — это «tretton».",
+        "en": "\"Trettio\" means \"thirty\". \"Thirteen\" is \"tretton\"."
+      }
+    },
+    {
+      "id": "q-numbers-ordinals-dates-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как спросить дату?", "en": "How do you ask for the date?" },
+      "choices": ["Vilket datum är det idag?", "Vad kostar den?", "Hur gammal är du?", "Vilken adress bor du på?"],
+      "answer": 0
+    },
+    {
+      "id": "q-numbers-ordinals-dates-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «двести»?", "en": "How do you say \"two hundred\"?" },
+      "choices": ["tvåhundra", "tjugo", "tvåtusen", "tvåhundrasjuttio"],
+      "answer": 0
+    },
+    {
+      "id": "q-numbers-ordinals-dates-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Cykeln kostar tusen kronor.",
+      "prompt": { "ru": "Сколько стоит велосипед?", "en": "How much does the bike cost?" },
+      "choices": [
+        { "ru": "Тысячу крон", "en": "A thousand kronor" },
+        { "ru": "Сто крон", "en": "A hundred kronor" },
+        { "ru": "Двести крон", "en": "Two hundred kronor" },
+        { "ru": "Пятьдесят крон", "en": "Fifty kronor" }
+      ],
+      "answer": 0
+    }
+  ]
+}

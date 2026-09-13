@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "lasa-v2",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Jag läser en bok.", "ru": "Я читаю книгу.", "en": "I read a book." }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "En bok läser jag inte.", "ru": "Книгу я не читаю.", "en": "A book I don't read." }
+    },
+    {
+      "id": "idag",
+      "sv": "idag",
+      "translations": { "ru": "сегодня", "en": "today" },
+      "pos": "adv",
+      "example": { "sv": "Idag läser jag en bok.", "ru": "Сегодня я читаю книгу.", "en": "Today I'm reading a book." }
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv",
+      "example": { "sv": "Imorgon arbetar jag hemifrån.", "ru": "Завтра я работаю из дома.", "en": "Tomorrow I work from home." }
+    },
+    {
+      "id": "ofta",
+      "sv": "ofta",
+      "translations": { "ru": "часто", "en": "often" },
+      "pos": "adv",
+      "example": { "sv": "Ofta läser jag på kvällen.", "ru": "Часто я читаю вечером.", "en": "I often read in the evening." }
+    },
+    {
+      "id": "tyvarr",
+      "sv": "tyvärr",
+      "translations": { "ru": "к сожалению", "en": "unfortunately" },
+      "pos": "adv",
+      "example": { "sv": "Tyvärr kan jag inte komma.", "ru": "К сожалению, я не могу прийти.", "en": "Unfortunately, I can't come." }
+    },
+    {
+      "id": "dar",
+      "sv": "där",
+      "translations": { "ru": "там", "en": "there" },
+      "pos": "adv",
+      "example": { "sv": "Där bor min syster.", "ru": "Там живёт моя сестра.", "en": "There lives my sister." }
+    },
+    {
+      "id": "subjekt",
+      "sv": "subjekt",
+      "translations": { "ru": "подлежащее", "en": "subject" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett subjekt", "defSg": "subjektet", "indefPl": "subjekt", "defPl": "subjekten" },
+      "example": { "sv": "Jag är subjektet i meningen.", "ru": "Я — подлежащее в предложении.", "en": "I am the subject of the sentence." }
+    },
+    {
+      "id": "arbeta-v2",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Imorgon arbetar jag hemifrån.", "ru": "Завтра я работаю из дома.", "en": "Tomorrow I work from home." }
+    },
+    {
+      "id": "komma-v2",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Tyvärr kan jag inte komma.", "ru": "К сожалению, я не могу прийти.", "en": "Unfortunately, I can't come." }
+    }
+  ]
+}

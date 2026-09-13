@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-modals-infinitive-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Ты умеешь плавать?»", "en": "Build the sentence: \"Can you swim?\"" },
+      "tokens": ["simma", "du", "Kan"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-modals-infinitive-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Тебе нельзя курить здесь.»", "en": "Build the sentence: \"You are not allowed to smoke here.\"" },
+      "tokens": ["får", "här", "röka", "inte", "Du"],
+      "answer": [4, 0, 3, 2, 1]
+    },
+    {
+      "id": "q-modals-infinitive-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "После vill, kan, måste, får инфинитив идёт без att.", "en": "After vill, kan, måste, får the infinitive comes without att." },
+      "answer": true
+    },
+    {
+      "id": "q-modals-infinitive-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag vill att sova» — правильное предложение.", "en": "\"Jag vill att sova\" is a correct sentence." },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильно: Jag vill sova (без att).",
+        "en": "The correct form is: Jag vill sova (no att)."
+      }
+    },
+    {
+      "id": "q-modals-infinitive-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ gå nu." },
+      "answer": ["måste"],
+      "acceptAlso": [],
+      "hint": { "ru": "должны", "en": "must" }
+    },
+    {
+      "id": "q-modals-infinitive-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du ___ inte parkera här." },
+      "answer": ["får"],
+      "acceptAlso": [],
+      "hint": { "ru": "не имеешь права", "en": "may not" }
+    },
+    {
+      "id": "q-modals-infinitive-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь модальный глагол с его значением", "en": "Match the modal verb with its meaning" },
+      "pairs": [
+        ["vill", "хотеть"],
+        ["kan", "мочь, уметь"],
+        ["måste", "быть должным"],
+        ["får", "иметь разрешение"]
+      ]
+    },
+    {
+      "id": "q-modals-infinitive-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое предложение правильное?", "en": "Which sentence is correct?" },
+      "choices": ["Jag vill äta.", "Jag vill att äta.", "Jag vill äter.", "Jag vill att äter."],
+      "answer": 0
+    },
+    {
+      "id": "q-modals-infinitive-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Нам нужно платить сейчас.»", "en": "Translate to Swedish: \"We have to pay now.\"" },
+      "answer": ["Vi måste betala nu."],
+      "hint": { "ru": "Vi måste ___", "en": "Vi måste ___" }
+    }
+  ]
+}

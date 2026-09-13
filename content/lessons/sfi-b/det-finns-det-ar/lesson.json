@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/det-finns-det-ar",
+  "slug": "det-finns-det-ar",
+  "title": {
+    "sv": "det finns och det är i enkla meningar",
+    "ru": "det finns и det är в простых предложениях",
+    "en": "det finns and det är in simple sentences"
+  },
+  "summary": {
+    "ru": "Две безличные конструкции: «есть/имеется» (существование) и «это есть» (описание).",
+    "en": "Two impersonal constructions for \"there is/are\" and \"it is\"."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "sentence-structure"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 570,
+  "prerequisites": [
+    "sfi-b/en-ett-system"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

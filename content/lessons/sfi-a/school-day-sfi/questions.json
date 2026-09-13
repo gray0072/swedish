@@ -1,0 +1,65 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-school-day-sfi-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
+      "pairs": [
+        ["lektion", "урок"],
+        ["rast", "перемена"],
+        ["läxa", "домашнее задание"],
+        ["schema", "расписание"]
+      ]
+    },
+    {
+      "id": "q-school-day-sfi-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Lärare» — это учитель.", "en": "\"Lärare\" means teacher." },
+      "answer": true
+    },
+    {
+      "id": "q-school-day-sfi-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Rast» и «lektion» означают одно и то же.", "en": "\"Rast\" and \"lektion\" mean the same thing." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Lektion» — это урок, а «rast» — перемена между уроками.",
+        "en": "\"Lektion\" is the lesson, while \"rast\" is the break between lessons."
+      }
+    },
+    {
+      "id": "q-school-day-sfi-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как по-шведски «домашнее задание»?", "en": "How do you say \"homework\" in Swedish?" },
+      "choices": ["läxa", "prov", "schema", "rast"],
+      "answer": 0
+    },
+    {
+      "id": "q-school-day-sfi-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Когда начинается урок?»", "en": "Build the question: \"When does the lesson start?\"" },
+      "tokens": ["börjar", "lektionen?", "När"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-school-day-sfi-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Vi har prov på ___." },
+      "answer": ["fredag"],
+      "acceptAlso": ["Fredag"],
+      "hint": { "ru": "в пятницу", "en": "on Friday" }
+    }
+  ]
+}

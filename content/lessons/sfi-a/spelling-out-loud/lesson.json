@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/spelling-out-loud",
+  "slug": "spelling-out-loud",
+  "title": {
+    "sv": "Bokstavera",
+    "ru": "Сказать по буквам",
+    "en": "Spelling out loud"
+  },
+  "summary": {
+    "ru": "Hur stavas ditt namn? — назвать своё имя и название улицы по буквам.",
+    "en": "Hur stavas ditt namn? — spelling your name and your street letter by letter."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "spelling",
+    "personal-info",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 258,
+  "prerequisites": [
+    "sfi-a/alphabet",
+    "sfi-a/personal-info"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

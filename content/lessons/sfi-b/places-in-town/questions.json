@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-places-in-town-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Где находится аптека?»", "en": "Build the sentence: \"Where is the pharmacy?\"" },
+      "tokens": ["ligger", "Var", "apoteket"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-places-in-town-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я иду на площадь.»", "en": "Build the sentence: \"I'm going to the square.\"" },
+      "tokens": ["till", "Jag", "torget", "ska"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-places-in-town-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь место и назначение", "en": "Match the place with its purpose" },
+      "pairs": [
+        ["apotek", "medicin"],
+        ["bibliotek", "böcker"],
+        ["mataffär", "mat"],
+        ["bank", "pengar"]
+      ]
+    },
+    {
+      "id": "q-places-in-town-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Torg» — это площадь.", "en": "\"Torg\" means \"square\"." },
+      "answer": true
+    },
+    {
+      "id": "q-places-in-town-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Apotek» — общего рода (en-ord).", "en": "\"Apotek\" is a common-gender (en) noun." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Apotek» — слово среднего рода: ett apotek.",
+        "en": "\"Apotek\" is a neuter (ett) noun: ett apotek."
+      }
+    },
+    {
+      "id": "q-places-in-town-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Var ___ biblioteket?" },
+      "answer": ["ligger"],
+      "acceptAlso": [],
+      "hint": { "ru": "находится", "en": "is located" }
+    },
+    {
+      "id": "q-places-in-town-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag handlar mat i ___." },
+      "answer": ["mataffären"],
+      "acceptAlso": ["affären"],
+      "hint": { "ru": "продуктовом магазине", "en": "the grocery store" }
+    },
+    {
+      "id": "q-places-in-town-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как спросить «Где находится аптека?»", "en": "How do you ask \"Where is the pharmacy?\"" },
+      "choices": ["Var ligger apoteket?", "Vad ligger apoteket?", "Var är apotek?", "Var ligga apoteket?"],
+      "answer": 0
+    },
+    {
+      "id": "q-places-in-town-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «библиотека» (неопред. форма с артиклем)", "en": "Translate to Swedish: \"a library\" (indefinite form with article)" },
+      "answer": ["ett bibliotek"],
+      "hint": { "ru": "средний род", "en": "neuter noun" }
+    }
+  ]
+}

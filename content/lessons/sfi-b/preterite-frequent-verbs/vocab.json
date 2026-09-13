@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "vara-var",
+      "sv": "vara",
+      "translations": { "ru": "быть", "en": "to be" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Igår var jag hemma.", "ru": "Вчера я был дома.", "en": "Yesterday I was home." }
+    },
+    {
+      "id": "ha-hade",
+      "sv": "ha",
+      "translations": { "ru": "иметь", "en": "to have" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "example": { "sv": "Jag hade en fråga.", "ru": "У меня был вопрос.", "en": "I had a question." }
+    },
+    {
+      "id": "ga-gick",
+      "sv": "gå",
+      "translations": { "ru": "идти", "en": "to go, to walk" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Hon gick till jobbet.", "ru": "Она пошла на работу.", "en": "She walked to work." }
+    },
+    {
+      "id": "komma-kom",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Vi kom sent.", "ru": "Мы пришли поздно.", "en": "We came late." }
+    },
+    {
+      "id": "saga-sa",
+      "sv": "säga",
+      "translations": { "ru": "сказать", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" },
+      "note": { "ru": "Прошедшее время часто пишут «sa», реже «sade» — обе формы правильные.", "en": "The past tense is often written \"sa\", less often \"sade\" — both are correct." },
+      "example": { "sv": "Han sa hej.", "ru": "Он поздоровался.", "en": "He said hi." }
+    },
+    {
+      "id": "fa-fick",
+      "sv": "få",
+      "translations": { "ru": "получить", "en": "to get, to receive" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Jag fick ett brev.", "ru": "Я получил письмо.", "en": "I got a letter." }
+    },
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Igår var jag hemma hela dagen.", "ru": "Вчера я весь день был дома.", "en": "Yesterday I was home all day." }
+    },
+    {
+      "id": "forra-veckan",
+      "sv": "förra veckan",
+      "translations": { "ru": "на прошлой неделе", "en": "last week" },
+      "pos": "phrase",
+      "example": { "sv": "Förra veckan fick vi besök.", "ru": "На прошлой неделе к нам приезжали гости.", "en": "Last week we had visitors." }
+    },
+    {
+      "id": "i-morse",
+      "sv": "i morse",
+      "translations": { "ru": "сегодня утром", "en": "this morning" },
+      "pos": "phrase",
+      "example": { "sv": "I morse kom han försent.", "ru": "Сегодня утром он опоздал.", "en": "This morning he came late." }
+    }
+  ]
+}

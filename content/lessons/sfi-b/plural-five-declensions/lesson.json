@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/plural-five-declensions",
+  "slug": "plural-five-declensions",
+  "title": {
+    "sv": "Pluralformer: fem deklinationer (-or, -ar, -er, -n och ingen ändelse)",
+    "ru": "Множественное число: пять склонений",
+    "en": "The plural: five declensions (-or, -ar, -er, -n, and no ending)"
+  },
+  "summary": {
+    "ru": "Систематизируем пять моделей образования множественного числа.",
+    "en": "Systematising the five plural patterns."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "nouns",
+    "plural",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 440,
+  "prerequisites": [
+    "sfi-a/plural-recognition"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/modals-infinitive",
+  "slug": "modals-infinitive",
+  "title": {
+    "sv": "Vill, kan, måste, får + infinitiv",
+    "ru": "Модальные vill, kan, måste, får + инфинитив",
+    "en": "The modals vill, kan, måste, får + infinitive"
+  },
+  "summary": {
+    "ru": "Модальные глаголы сразу переходят в инфинитив — без att.",
+    "en": "Modal verbs go straight to a bare infinitive — no att."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "modal-verbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 390,
+  "prerequisites": [
+    "sfi-b/infinitive-att"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

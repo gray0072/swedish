@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "tjugoen",
+      "sv": "tjugoen",
+      "translations": { "ru": "двадцать один", "en": "twenty-one" },
+      "pos": "numeral",
+      "example": { "sv": "Jag är tjugoen år.", "ru": "Мне двадцать один год.", "en": "I am twenty-one." }
+    },
+    {
+      "id": "trettio",
+      "sv": "trettio",
+      "translations": { "ru": "тридцать", "en": "thirty" },
+      "pos": "numeral",
+      "example": { "sv": "Trettio dagar har april.", "ru": "В апреле тридцать дней.", "en": "April has thirty days." }
+    },
+    {
+      "id": "fyrtio",
+      "sv": "fyrtio",
+      "translations": { "ru": "сорок", "en": "forty" },
+      "pos": "numeral"
+    },
+    {
+      "id": "femtio",
+      "sv": "femtio",
+      "translations": { "ru": "пятьдесят", "en": "fifty" },
+      "pos": "numeral"
+    },
+    {
+      "id": "hundra",
+      "sv": "hundra",
+      "translations": { "ru": "сто", "en": "hundred" },
+      "pos": "numeral",
+      "example": { "sv": "Det kostar hundra kronor.", "ru": "Это стоит сто крон.", "en": "It costs a hundred kronor." }
+    },
+    {
+      "id": "tvahundra",
+      "sv": "tvåhundra",
+      "translations": { "ru": "двести", "en": "two hundred" },
+      "pos": "numeral",
+      "example": { "sv": "Jackan kostar tvåhundra kronor.", "ru": "Куртка стоит двести крон.", "en": "The jacket costs two hundred kronor." }
+    },
+    {
+      "id": "tusen",
+      "sv": "tusen",
+      "translations": { "ru": "тысяча", "en": "thousand" },
+      "pos": "numeral",
+      "example": { "sv": "Cykeln kostar tusen kronor.", "ru": "Велосипед стоит тысячу крон.", "en": "The bike costs a thousand kronor." }
+    },
+    {
+      "id": "forsta-ord",
+      "sv": "första",
+      "translations": { "ru": "первый", "en": "first" },
+      "pos": "numeral",
+      "example": { "sv": "Idag är det den första maj.", "ru": "Сегодня первое мая.", "en": "Today is the first of May." }
+    },
+    {
+      "id": "andra-ord",
+      "sv": "andra",
+      "translations": { "ru": "второй", "en": "second" },
+      "pos": "numeral",
+      "example": { "sv": "Han bor på andra våningen.", "ru": "Он живёт на втором этаже.", "en": "He lives on the second floor." }
+    },
+    {
+      "id": "tredje-ord",
+      "sv": "tredje",
+      "translations": { "ru": "третий", "en": "third" },
+      "pos": "numeral",
+      "example": { "sv": "Idag är det den tredje maj.", "ru": "Сегодня третье мая.", "en": "Today is the third of May." }
+    },
+    {
+      "id": "fjarde-ord",
+      "sv": "fjärde",
+      "translations": { "ru": "четвёртый", "en": "fourth" },
+      "pos": "numeral"
+    },
+    {
+      "id": "femte-ord",
+      "sv": "femte",
+      "translations": { "ru": "пятый", "en": "fifth" },
+      "pos": "numeral"
+    },
+    {
+      "id": "tionde-ord",
+      "sv": "tionde",
+      "translations": { "ru": "десятый", "en": "tenth" },
+      "pos": "numeral",
+      "example": { "sv": "Mötet är den tionde juni.", "ru": "Встреча десятого июня.", "en": "The meeting is on the tenth of June." }
+    },
+    {
+      "id": "krona",
+      "sv": "krona",
+      "translations": { "ru": "крона (валюта)", "en": "kronor (currency)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en krona", "defSg": "kronan", "indefPl": "kronor", "defPl": "kronorna" },
+      "example": { "sv": "Det kostar hundrafemtio kronor.", "ru": "Это стоит сто пятьдесят крон.", "en": "It costs a hundred and fifty kronor." }
+    },
+    {
+      "id": "kosta",
+      "sv": "kosta",
+      "translations": { "ru": "стоить", "en": "to cost" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kosta", "present": "kostar", "past": "kostade", "supine": "kostat" },
+      "example": { "sv": "Vad kostar den?", "ru": "Сколько это стоит?", "en": "How much does it cost?" }
+    },
+    {
+      "id": "datum",
+      "sv": "datum",
+      "translations": { "ru": "дата", "en": "date" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" },
+      "example": { "sv": "Vilket datum är det idag?", "ru": "Какое сегодня число?", "en": "What is the date today?" }
+    },
+    {
+      "id": "vilket-datum-ar-det-idag",
+      "sv": "Vilket datum är det idag?",
+      "translations": { "ru": "Какое сегодня число?", "en": "What is the date today?" },
+      "pos": "phrase",
+      "example": { "sv": "Vilket datum är det idag? Idag är det den tredje maj.", "ru": "Какое сегодня число? Сегодня третье мая.", "en": "What is the date today? Today is the third of May." }
+    },
+    {
+      "id": "vad-kostar-den",
+      "sv": "Vad kostar den?",
+      "translations": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad kostar den? Den kostar tvåhundra kronor.", "ru": "Сколько это стоит? Это стоит двести крон.", "en": "How much does it cost? It costs two hundred kronor." }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/telling-teacher-ill-late",
+  "slug": "telling-teacher-ill-late",
+  "title": {
+    "sv": "Sjuk eller sen till lektionen",
+    "ru": "Сказать учителю, что заболел или опоздаешь",
+    "en": "Telling the teacher you are ill or will be late"
+  },
+  "summary": {
+    "ru": "Jag är sjuk, Jag kommer sent — как сообщить об этом учителю.",
+    "en": "Jag är sjuk, Jag kommer sent — how to let your teacher know."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "school",
+    "phrases",
+    "health"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 276,
+  "prerequisites": [
+    "sfi-a/how-you-feel"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

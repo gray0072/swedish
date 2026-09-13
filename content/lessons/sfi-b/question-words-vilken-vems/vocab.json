@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "vilken",
+      "sv": "vilken",
+      "translations": { "ru": "который, какой (en-слово)", "en": "which, what (en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Vilken bil är din?", "ru": "Какая машина твоя?", "en": "Which car is yours?" }
+    },
+    {
+      "id": "vilket",
+      "sv": "vilket",
+      "translations": { "ru": "который, какой (ett-слово)", "en": "which, what (ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Vilket hus bor du i?", "ru": "В каком доме ты живёшь?", "en": "Which house do you live in?" }
+    },
+    {
+      "id": "vilka",
+      "sv": "vilka",
+      "translations": { "ru": "которые, какие (мн. число)", "en": "which, what (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Vilka bilar är dina?", "ru": "Какие машины твои?", "en": "Which cars are yours?" }
+    },
+    {
+      "id": "vems",
+      "sv": "vems",
+      "translations": { "ru": "чей", "en": "whose" },
+      "pos": "pron",
+      "example": { "sv": "Vems bok är det?", "ru": "Чья это книга?", "en": "Whose book is that?" }
+    },
+    {
+      "id": "hur-mycket",
+      "sv": "hur mycket",
+      "translations": { "ru": "сколько (с неисчисляемыми)", "en": "how much" },
+      "pos": "phrase",
+      "example": { "sv": "Hur mycket mjölk finns det?", "ru": "Сколько молока есть?", "en": "How much milk is there?" }
+    },
+    {
+      "id": "hur-manga",
+      "sv": "hur många",
+      "translations": { "ru": "сколько (с исчисляемыми, мн. число)", "en": "how many" },
+      "pos": "phrase",
+      "example": { "sv": "Hur många bilar har ni?", "ru": "Сколько у вас машин?", "en": "How many cars do you have?" }
+    },
+    {
+      "id": "hus",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Vilket hus är störst?", "ru": "Какой дом самый большой?", "en": "Which house is the biggest?" }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Vems bok ligger på bordet?", "ru": "Чья книга лежит на столе?", "en": "Whose book is on the table?" }
+    },
+    {
+      "id": "jacka",
+      "sv": "jacka",
+      "translations": { "ru": "куртка", "en": "jacket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jacka", "defSg": "jackan", "indefPl": "jackor", "defPl": "jackorna" },
+      "example": { "sv": "Vems jacka är det här?", "ru": "Чья это куртка?", "en": "Whose jacket is this?" }
+    }
+  ]
+}

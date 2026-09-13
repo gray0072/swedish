@@ -1,0 +1,37 @@
+{
+  "id": "sfi-a/capital-letter-full-stop",
+  "slug": "capital-letter-full-stop",
+  "title": {
+    "sv": "Stor bokstav och punkt",
+    "ru": "Заглавная буква и точка",
+    "en": "A capital letter and a full stop"
+  },
+  "summary": {
+    "ru": "Написать от руки одно простое предложение — с заглавной буквы и с точкой в конце.",
+    "en": "Writing one simple sentence by hand — a capital letter to start, a full stop to end."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "writing",
+    "punctuation",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 270,
+  "prerequisites": [
+    "sfi-a/upper-lower-case",
+    "sfi-a/statement-word-order"
+  ],
+  "xp": {
+    "base": 110
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

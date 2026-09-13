@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "id": "lektion",
+      "sv": "lektion",
+      "translations": { "ru": "урок", "en": "lesson" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lektion", "defSg": "lektionen", "indefPl": "lektioner", "defPl": "lektionerna" },
+      "example": { "sv": "Lektionen börjar klockan nio.", "ru": "Урок начинается в девять.", "en": "The lesson starts at nine." }
+    },
+    {
+      "id": "rast",
+      "sv": "rast",
+      "translations": { "ru": "перемена", "en": "break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rast", "defSg": "rasten", "indefPl": "raster", "defPl": "rasterna" },
+      "example": { "sv": "Vi har rast klockan tio.", "ru": "У нас перемена в десять.", "en": "We have a break at ten." }
+    },
+    {
+      "id": "laxa",
+      "sv": "läxa",
+      "translations": { "ru": "домашнее задание", "en": "homework" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
+      "example": { "sv": "Har du gjort läxan?", "ru": "Ты сделал домашнее задание?", "en": "Have you done the homework?" }
+    },
+    {
+      "id": "schema",
+      "sv": "schema",
+      "translations": { "ru": "расписание", "en": "schedule" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett schema", "defSg": "schemat", "indefPl": "scheman", "defPl": "schemana" },
+      "example": { "sv": "Titta på schemat för imorgon.", "ru": "Посмотри в расписание на завтра.", "en": "Look at tomorrow's schedule." }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Läraren heter Maria.", "ru": "Учителя зовут Мария.", "en": "The teacher's name is Maria." }
+    },
+    {
+      "id": "klasskamrat",
+      "sv": "klasskamrat",
+      "translations": { "ru": "одноклассник", "en": "classmate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klasskamrat", "defSg": "klasskamraten", "indefPl": "klasskamrater", "defPl": "klasskamraterna" },
+      "example": { "sv": "Min klasskamrat kommer från Syrien.", "ru": "Мой одноклассник из Сирии.", "en": "My classmate is from Syria." }
+    },
+    {
+      "id": "prov",
+      "sv": "prov",
+      "translations": { "ru": "тест, контрольная", "en": "test" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett prov", "defSg": "provet", "indefPl": "prov", "defPl": "proven" },
+      "example": { "sv": "Vi har prov på fredag.", "ru": "У нас тест в пятницу.", "en": "We have a test on Friday." }
+    },
+    {
+      "id": "klassrum",
+      "sv": "klassrum",
+      "translations": { "ru": "класс (кабинет)", "en": "classroom" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett klassrum", "defSg": "klassrummet", "indefPl": "klassrum", "defPl": "klassrummen" },
+      "example": { "sv": "Klassrummet är på andra våningen.", "ru": "Класс находится на втором этаже.", "en": "The classroom is on the second floor." }
+    },
+    {
+      "id": "vad-har-vi-nu",
+      "sv": "Vad har vi nu?",
+      "translations": { "ru": "Что у нас сейчас (по расписанию)?", "en": "What do we have now?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad har vi nu, lektion eller rast?", "ru": "Что у нас сейчас, урок или перемена?", "en": "What do we have now, a lesson or a break?" }
+    },
+    {
+      "id": "nar-borjar-lektionen",
+      "sv": "När börjar lektionen?",
+      "translations": { "ru": "Когда начинается урок?", "en": "When does the lesson start?" },
+      "pos": "phrase",
+      "example": { "sv": "När börjar lektionen imorgon?", "ru": "Когда завтра начинается урок?", "en": "When does the lesson start tomorrow?" }
+    }
+  ]
+}

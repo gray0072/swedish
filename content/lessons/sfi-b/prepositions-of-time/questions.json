@@ -1,0 +1,104 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-prepositions-of-time-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Встреча начинается в семь.»", "en": "Build the sentence: \"The meeting starts at seven.\"" },
+      "tokens": ["klockan", "börjar", "Mötet", "sju"],
+      "answer": [2, 1, 0, 3]
+    },
+    {
+      "id": "q-prepositions-of-time-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Летом мы часто купаемся.»", "en": "Build the sentence: \"In the summer we often swim.\"" },
+      "tokens": ["ofta", "sommaren", "Om", "badar", "vi"],
+      "answer": [2, 1, 3, 4, 0]
+    },
+    {
+      "id": "q-prepositions-of-time-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Provet är ___ en vecka. (через)" },
+      "answer": ["om"],
+      "acceptAlso": [],
+      "hint": { "ru": "через", "en": "in (from now)" }
+    },
+    {
+      "id": "q-prepositions-of-time-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ska resa ___ sommar. (этим)" },
+      "answer": ["i"],
+      "acceptAlso": [],
+      "hint": { "ru": "этим летом", "en": "this summer" }
+    },
+    {
+      "id": "q-prepositions-of-time-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь выражение времени с переводом", "en": "Match the time expression with its meaning" },
+      "pairs": [
+        ["klockan sju", "в семь часов"],
+        ["på måndag", "в ближайший понедельник"],
+        ["i sommar", "этим летом"],
+        ["om sommaren", "каждое лето"],
+        ["om en vecka", "через неделю"]
+      ]
+    },
+    {
+      "id": "q-prepositions-of-time-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Om sommaren» значит «каждое лето», а «i sommar» значит «этим летом».", "en": "\"Om sommaren\" means \"every summer\", while \"i sommar\" means \"this (coming) summer\"." },
+      "answer": true
+    },
+    {
+      "id": "q-prepositions-of-time-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Для часов времени используется предлог «på»: «på klockan sju».", "en": "Clock time uses the preposition \"på\": \"på klockan sju\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "Перед «klockan» предлог не нужен: klockan sju, а не på klockan sju.",
+        "en": "No preposition is needed before \"klockan\": klockan sju, not på klockan sju."
+      }
+    },
+    {
+      "id": "q-prepositions-of-time-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «через неделю»?", "en": "How do you say \"in a week (from now)\"?" },
+      "choices": ["om en vecka", "i en vecka", "på en vecka", "en vecka sedan"],
+      "answer": 0
+    },
+    {
+      "id": "q-prepositions-of-time-mc-2",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «утром»?", "en": "How do you say \"in the morning\"?" },
+      "choices": ["på morgonen", "i morgonen", "om morgonen", "klockan morgonen"],
+      "answer": 0
+    },
+    {
+      "id": "q-prepositions-of-time-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Kursen börjar om en vecka.",
+      "prompt": { "ru": "Когда начинается курс?", "en": "When does the course start?" },
+      "choices": [
+        { "ru": "Через неделю", "en": "In a week" },
+        { "ru": "Этим летом", "en": "This summer" },
+        { "ru": "В понедельник", "en": "On Monday" },
+        { "ru": "В семь часов", "en": "At seven o'clock" }
+      ],
+      "answer": 0
+    }
+  ]
+}

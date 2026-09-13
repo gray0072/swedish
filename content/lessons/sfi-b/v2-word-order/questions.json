@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-v2-word-order-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Сегодня я читаю книгу.»", "en": "Build the sentence: \"Today I'm reading a book.\"" },
+      "tokens": ["läser", "en", "Idag", "bok", "jag"],
+      "answer": [2, 0, 4, 1, 3]
+    },
+    {
+      "id": "q-v2-word-order-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Книгу я не читаю.» (акцент на «книгу»)", "en": "Build the sentence: \"A book I don't read.\" (emphasis on \"book\")" },
+      "tokens": ["läser", "En", "inte", "jag", "bok"],
+      "answer": [1, 4, 0, 3, 2]
+    },
+    {
+      "id": "q-v2-word-order-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В шведском главном предложении спрягаемый глагол всегда стоит вторым элементом.", "en": "In a Swedish main clause the finite verb is always the second element." },
+      "answer": true
+    },
+    {
+      "id": "q-v2-word-order-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Idag jag läser en bok» — правильный порядок слов.", "en": "\"Idag jag läser en bok\" has correct word order." },
+      "answer": false,
+      "explanation": {
+        "ru": "Правильно: Idag läser jag en bok — глагол должен идти вторым, сразу после «idag».",
+        "en": "Correct: Idag läser jag en bok — the verb must be second, right after \"idag\"."
+      }
+    },
+    {
+      "id": "q-v2-word-order-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Imorgon ___ jag hemifrån." },
+      "answer": ["arbetar"],
+      "acceptAlso": [],
+      "hint": { "ru": "работаю", "en": "work" }
+    },
+    {
+      "id": "q-v2-word-order-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Tyvärr ___ jag inte komma." },
+      "answer": ["kan"],
+      "acceptAlso": [],
+      "hint": { "ru": "могу", "en": "can" }
+    },
+    {
+      "id": "q-v2-word-order-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь начало предложения со вторым элементом (глаголом)", "en": "Match the sentence-starter with the second element (the verb)" },
+      "pairs": [
+        ["Jag", "läser"],
+        ["Idag", "läser"],
+        ["Ofta", "läser"],
+        ["Tyvärr", "kan"]
+      ]
+    },
+    {
+      "id": "q-v2-word-order-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое предложение имеет правильный порядок слов?", "en": "Which sentence has correct word order?" },
+      "choices": ["Ofta läser jag på kvällen.", "Ofta jag läser på kvällen.", "Jag ofta läser på kvällen.", "Läser ofta jag på kvällen."],
+      "answer": 0
+    },
+    {
+      "id": "q-v2-word-order-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи, начиная с «Там»: «Там живёт моя сестра.»", "en": "Translate, starting with \"Där\": \"There lives my sister.\"" },
+      "answer": ["Där bor min syster."],
+      "hint": { "ru": "Där + глагол + подлежащее", "en": "Där + verb + subject" }
+    }
+  ]
+}

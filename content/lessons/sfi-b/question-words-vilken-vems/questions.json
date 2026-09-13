@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-question-words-vilken-vems-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как спросить «Какой дом?» (hus — ett-слово)?", "en": "How do you ask \"Which house?\" (hus is an ett-word)?" },
+      "choices": ["Vilken hus?", "Vilket hus?", "Vilka hus?", "Vems hus?"],
+      "answer": 1
+    },
+    {
+      "id": "q-question-words-vilken-vems-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как спросить «Какая машина?» (bil — en-слово)?", "en": "How do you ask \"Which car?\" (bil is an en-word)?" },
+      "choices": ["Vilket bil?", "Vilka bil?", "Vilken bil?", "Vems bil?"],
+      "answer": 2
+    },
+    {
+      "id": "q-question-words-vilken-vems-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как спросить «сколько молока» (неисчисляемое)?", "en": "How do you ask \"how much milk\" (uncountable)?" },
+      "choices": ["hur många mjölk", "hur mycket mjölk", "vilken mjölk", "vems mjölk"],
+      "answer": 1
+    },
+    {
+      "id": "q-question-words-vilken-vems-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ bok är det? (чья)" },
+      "answer": ["Vems"],
+      "acceptAlso": ["vems"],
+      "hint": { "ru": "чей/чья", "en": "whose" }
+    },
+    {
+      "id": "q-question-words-vilken-vems-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ bilar har ni? (сколько, мн. число)" },
+      "answer": ["Hur många"],
+      "acceptAlso": ["hur många"],
+      "hint": { "ru": "с исчисляемыми во мн. числе", "en": "with countable plural nouns" }
+    },
+    {
+      "id": "q-question-words-vilken-vems-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Какие машины твои?»", "en": "Build the question: \"Which cars are yours?\"" },
+      "tokens": ["dina", "bilar", "är", "Vilka"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-question-words-vilken-vems-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вопросительное слово с существительным", "en": "Match the question word with the noun" },
+      "pairs": [
+        ["vilken", "bil (en)"],
+        ["vilket", "hus (ett)"],
+        ["vilka", "bilar (мн.)"],
+        ["hur mycket", "mjölk (неисч.)"]
+      ]
+    },
+    {
+      "id": "q-question-words-vilken-vems-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vilket» используется с ett-словами.", "en": "\"Vilket\" is used with ett-words." },
+      "answer": true
+    },
+    {
+      "id": "q-question-words-vilken-vems-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vems» изменяется в зависимости от рода существительного.", "en": "\"Vems\" changes depending on the noun's gender." },
+      "answer": false,
+      "explanation": { "ru": "«Vems» (чей) не меняется — одна форма для всех родов и чисел.", "en": "\"Vems\" (whose) has one fixed form for all genders and numbers." }
+    },
+    {
+      "id": "q-question-words-vilken-vems-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Vems jacka är det här? Är det din?",
+      "prompt": { "ru": "О чём спрашивают?", "en": "What is being asked?" },
+      "choices": [
+        { "ru": "Чья это куртка", "en": "Whose jacket this is" },
+        { "ru": "Сколько курток", "en": "How many jackets" },
+        { "ru": "Какого цвета куртка", "en": "What color the jacket is" },
+        { "ru": "Где куртка", "en": "Where the jacket is" }
+      ],
+      "answer": 0
+    }
+  ]
+}

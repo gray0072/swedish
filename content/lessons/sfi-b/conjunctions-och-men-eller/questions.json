@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-conjunctions-och-men-eller-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я пью кофе и ем бутерброд.»", "en": "Build the sentence: \"I drink coffee and eat a sandwich.\"" },
+      "tokens": ["kaffe", "Jag", "och", "dricker", "äter", "en", "smörgås"],
+      "answer": [1, 3, 0, 2, 4, 5, 6]
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Идёт дождь, поэтому я беру зонт.»", "en": "Build the sentence: \"It's raining, so I take an umbrella.\"" },
+      "tokens": ["tar", "Det", "paraply", "så", "jag", "regnar"],
+      "answer": [1, 5, 3, 4, 0, 2]
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag vill fika, ___ jag har inte tid." },
+      "answer": ["men"],
+      "acceptAlso": [],
+      "hint": { "ru": "но", "en": "but" }
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "После «och», «men», «eller», «för» и «så» глагол всегда стоит на своём обычном месте, как в самостоятельном предложении.",
+        "en": "After \"och\", \"men\", \"eller\", \"för\" and \"så\" the verb keeps its ordinary place, as in a stand-alone sentence."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«För» в этом уроке — подчинительный союз, после которого глагол переносится.",
+        "en": "\"För\" in this lesson is a subordinating conjunction that pushes the verb to a different spot."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«För» — сочинительный союз, после него идёт обычное главное предложение, порядок слов не меняется.",
+        "en": "\"För\" is a coordinating conjunction — the clause after it is a normal main clause, word order does not change."
+      }
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь союз с переводом", "en": "Match the conjunction with its meaning" },
+      "pairs": [
+        ["och", "и"],
+        ["men", "но"],
+        ["eller", "или"],
+        ["för", "потому что"],
+        ["så", "поэтому"]
+      ]
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как спросить «Хочешь чай или кофе?»", "en": "How do you ask \"Do you want tea or coffee?\"" },
+      "choices": ["Vill du ha te eller kaffe?", "Vill du ha te men kaffe?", "Vill du ha te så kaffe?", "Vill du ha te för kaffe?"],
+      "answer": 0
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи одним словом: «поэтому, так что»", "en": "Translate with one word: \"so\" (result)" },
+      "answer": ["så"],
+      "hint": { "ru": "выражает следствие", "en": "expresses a result" }
+    },
+    {
+      "id": "q-conjunctions-och-men-eller-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Det regnar, så jag tar paraply.",
+      "prompt": { "ru": "Что делает человек из-за дождя?", "en": "What does the person do because of the rain?" },
+      "choices": [
+        { "ru": "Берёт зонт", "en": "Takes an umbrella" },
+        { "ru": "Идёт спать", "en": "Goes to sleep" },
+        { "ru": "Пьёт кофе", "en": "Drinks coffee" },
+        { "ru": "Работает", "en": "Works" }
+      ],
+      "answer": 0
+    }
+  ]
+}

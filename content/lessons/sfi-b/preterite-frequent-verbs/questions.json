@@ -1,0 +1,103 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-preterite-frequent-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как будет прошедшее время от «vara»?", "en": "What is the past tense of \"vara\"?" },
+      "choices": ["var", "varit", "är", "vara"],
+      "answer": 0
+    },
+    {
+      "id": "q-preterite-frequent-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как будет прошедшее время от «komma»?", "en": "What is the past tense of \"komma\"?" },
+      "choices": ["kommer", "kom", "kommit", "komma"],
+      "answer": 1
+    },
+    {
+      "id": "q-preterite-frequent-verbs-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Igår ___ jag hemma. (vara)" },
+      "answer": ["var"],
+      "acceptAlso": [],
+      "hint": { "ru": "прошедшее время от «vara»", "en": "past tense of \"vara\"" }
+    },
+    {
+      "id": "q-preterite-frequent-verbs-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ ett brev igår. (få)" },
+      "answer": ["fick"],
+      "acceptAlso": [],
+      "hint": { "ru": "прошедшее время от «få»", "en": "past tense of \"få\"" }
+    },
+    {
+      "id": "q-preterite-frequent-verbs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она пошла на работу.»", "en": "Build the sentence: \"She went to work.\"" },
+      "tokens": ["jobbet", "gick", "till", "Hon"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-preterite-frequent-verbs-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «У меня был вопрос.»", "en": "Build the sentence: \"I had a question.\"" },
+      "tokens": ["en", "hade", "fråga", "Jag"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-preterite-frequent-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь инфинитив с формой прошедшего времени", "en": "Match the infinitive with its past-tense form" },
+      "pairs": [
+        ["vara", "var"],
+        ["ha", "hade"],
+        ["gå", "gick"],
+        ["komma", "kom"],
+        ["säga", "sa"],
+        ["få", "fick"]
+      ]
+    },
+    {
+      "id": "q-preterite-frequent-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Прошедшее время «säga» — «sade» или «sa».", "en": "The past tense of \"säga\" is \"sade\" or \"sa\"." },
+      "answer": true
+    },
+    {
+      "id": "q-preterite-frequent-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vi komde sent» — правильное прошедшее время.", "en": "\"Vi komde sent\" is a correct past tense form." },
+      "answer": false,
+      "explanation": { "ru": "Правильно: «Vi kom sent» — форма «kom» не образуется добавлением «-de».", "en": "The correct form is \"Vi kom sent\" — the past tense is \"kom\", not formed by adding \"-de\"." }
+    },
+    {
+      "id": "q-preterite-frequent-verbs-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Han sa hej och sedan gick han hem.",
+      "prompt": { "ru": "Что сделал мужчина сначала?", "en": "What did the man do first?" },
+      "choices": [
+        { "ru": "Поздоровался", "en": "Said hi" },
+        { "ru": "Пошёл домой", "en": "Went home" },
+        { "ru": "Получил письмо", "en": "Got a letter" },
+        { "ru": "Был на работе", "en": "Was at work" }
+      ],
+      "answer": 0
+    }
+  ]
+}

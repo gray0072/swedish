@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/prepositions-of-place",
+  "slug": "prepositions-of-place",
+  "title": {
+    "sv": "i, på, under, bakom, framför, mellan",
+    "ru": "Предлоги места",
+    "en": "Prepositions of place: i, på, under, bakom, framför, mellan"
+  },
+  "summary": {
+    "ru": "Основные предлоги места: i, på, under, bakom, framför, mellan, över, bredvid.",
+    "en": "The core spatial prepositions."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "prepositions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 520,
+  "prerequisites": [
+    "sfi-a/prepositions-i-pa"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

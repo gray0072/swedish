@@ -1,0 +1,36 @@
+{
+  "id": "sfi-a/school-day-sfi",
+  "slug": "school-day-sfi",
+  "title": {
+    "sv": "Min skoldag på SFI",
+    "ru": "Свой учебный день в SFI",
+    "en": "Your own school day at SFI"
+  },
+  "summary": {
+    "ru": "lektion, rast, läxa, schema, lärare — слова о твоём учебном дне.",
+    "en": "lektion, rast, läxa, schema, lärare — the words for your own school day."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-a"
+  ],
+  "tags": [
+    "school",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 282,
+  "prerequisites": [
+    "sfi-a/school-items",
+    "sfi-a/classroom-instructions"
+  ],
+  "xp": {
+    "base": 105
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "id": "mycket",
+      "sv": "mycket",
+      "translations": { "ru": "много (с неисчисляемыми)", "en": "much, a lot of" },
+      "pos": "pron",
+      "example": { "sv": "Det finns mycket mjölk i kylskåpet.", "ru": "В холодильнике много молока.", "en": "There is a lot of milk in the fridge." }
+    },
+    {
+      "id": "manga",
+      "sv": "många",
+      "translations": { "ru": "много (с исчисляемыми, мн. число)", "en": "many" },
+      "pos": "pron",
+      "example": { "sv": "Det finns många bilar på gatan.", "ru": "На улице много машин.", "en": "There are many cars on the street." }
+    },
+    {
+      "id": "lite",
+      "sv": "lite",
+      "translations": { "ru": "немного (с неисчисляемыми)", "en": "a little, some" },
+      "pos": "pron",
+      "example": { "sv": "Vi har lite bröd kvar.", "ru": "У нас осталось немного хлеба.", "en": "We have a little bread left." }
+    },
+    {
+      "id": "nagra",
+      "sv": "några",
+      "translations": { "ru": "несколько, некоторые (с исчисляемыми, мн. число)", "en": "some, a few" },
+      "pos": "pron",
+      "example": { "sv": "Jag köpte några äpplen.", "ru": "Я купил несколько яблок.", "en": "I bought a few apples." }
+    },
+    {
+      "id": "alla",
+      "sv": "alla",
+      "translations": { "ru": "все", "en": "all, everyone" },
+      "pos": "pron",
+      "example": { "sv": "Alla barn tycker om glass.", "ru": "Все дети любят мороженое.", "en": "All children like ice cream." }
+    },
+    {
+      "id": "ingen",
+      "sv": "ingen",
+      "translations": { "ru": "никакой, ни одного (en-слово)", "en": "no, not any (en-word)" },
+      "pos": "pron",
+      "note": { "ru": "Согласуется с en-словами в ед. числе: ingen bil.", "en": "Agrees with en-words in singular: ingen bil." },
+      "example": { "sv": "Jag har ingen bil.", "ru": "У меня нет машины.", "en": "I don't have a car." }
+    },
+    {
+      "id": "inget",
+      "sv": "inget",
+      "translations": { "ru": "никакой, ни одного (ett-слово)", "en": "no, not any (ett-word)" },
+      "pos": "pron",
+      "note": { "ru": "Согласуется с ett-словами в ед. числе: inget bröd.", "en": "Agrees with ett-words in singular: inget bröd." },
+      "example": { "sv": "Vi har inget bröd hemma.", "ru": "У нас дома нет хлеба.", "en": "We don't have any bread at home." }
+    },
+    {
+      "id": "inga",
+      "sv": "inga",
+      "translations": { "ru": "никакие, ни одного (мн. число)", "en": "no, not any (plural)" },
+      "pos": "pron",
+      "note": { "ru": "Согласуется с любыми словами во мн. числе: inga bilar.", "en": "Agrees with any word in the plural: inga bilar." },
+      "example": { "sv": "Det finns inga bilar här.", "ru": "Здесь нет машин.", "en": "There are no cars here." }
+    },
+    {
+      "id": "mjolk",
+      "sv": "mjölk",
+      "translations": { "ru": "молоко", "en": "milk" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kan du köpa mjölk?", "ru": "Можешь купить молоко?", "en": "Can you buy milk?" }
+    },
+    {
+      "id": "brod",
+      "sv": "bröd",
+      "translations": { "ru": "хлеб", "en": "bread" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vi behöver mer bröd.", "ru": "Нам нужно больше хлеба.", "en": "We need more bread." }
+    },
+    {
+      "id": "bil",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Många bilar står stilla i kön.", "ru": "Много машин стоит в пробке.", "en": "Many cars are stuck in traffic." }
+    },
+    {
+      "id": "apple",
+      "sv": "äpple",
+      "translations": { "ru": "яблоко", "en": "apple" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
+      "example": { "sv": "Några äpplen ligger på bordet.", "ru": "Несколько яблок лежат на столе.", "en": "A few apples are on the table." }
+    },
+    {
+      "id": "barn",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Alla barn leker i parken.", "ru": "Все дети играют в парке.", "en": "All the children are playing in the park." }
+    }
+  ]
+}

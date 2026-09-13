@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/en-ett-system",
+  "slug": "en-ett-system",
+  "title": {
+    "sv": "En/ett: obestämd och bestämd form i singular — som ett system",
+    "ru": "en/ett: неопределённый и определённый артикль — как система",
+    "en": "en/ett: the indefinite and definite singular — as a system"
+  },
+  "summary": {
+    "ru": "Систематизируем en-слова и ett-слова и четыре формы единственного числа.",
+    "en": "Systematising en-words vs ett-words and the four singular forms."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "nouns",
+    "articles",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 430,
+  "prerequisites": [
+    "sfi-a/en-ett-basics"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

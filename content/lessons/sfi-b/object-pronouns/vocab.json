@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "id": "mig",
+      "sv": "mig",
+      "translations": { "ru": "меня, мне", "en": "me" },
+      "pos": "pron",
+      "note": { "ru": "Произносится как «mej».", "en": "Pronounced like \"mej\"." },
+      "example": { "sv": "Hon ser mig.", "ru": "Она видит меня.", "en": "She sees me." }
+    },
+    {
+      "id": "dig",
+      "sv": "dig",
+      "translations": { "ru": "тебя, тебе", "en": "you" },
+      "pos": "pron",
+      "note": { "ru": "Произносится как «dej».", "en": "Pronounced like \"dej\"." },
+      "example": { "sv": "Jag ser dig.", "ru": "Я вижу тебя.", "en": "I see you." }
+    },
+    {
+      "id": "honom",
+      "sv": "honom",
+      "translations": { "ru": "его, ему", "en": "him" },
+      "pos": "pron",
+      "example": { "sv": "Vi ringer honom.", "ru": "Мы звоним ему.", "en": "We call him." }
+    },
+    {
+      "id": "henne",
+      "sv": "henne",
+      "translations": { "ru": "её, ей", "en": "her" },
+      "pos": "pron",
+      "example": { "sv": "Jag känner henne.", "ru": "Я знаю её.", "en": "I know her." }
+    },
+    {
+      "id": "det-obj",
+      "sv": "det",
+      "translations": { "ru": "его, её, это (про ett-слово)", "en": "it (about an ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Jag ser huset. Jag ser det.", "ru": "Я вижу дом. Я вижу его.", "en": "I see the house. I see it." }
+    },
+    {
+      "id": "den-obj",
+      "sv": "den",
+      "translations": { "ru": "его, её, это (про en-слово)", "en": "it (about an en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Jag ser bilen. Jag ser den.", "ru": "Я вижу машину. Я вижу её.", "en": "I see the car. I see it." }
+    },
+    {
+      "id": "oss",
+      "sv": "oss",
+      "translations": { "ru": "нас, нам", "en": "us" },
+      "pos": "pron",
+      "example": { "sv": "Läraren hjälper oss.", "ru": "Учитель помогает нам.", "en": "The teacher helps us." }
+    },
+    {
+      "id": "er-obj",
+      "sv": "er",
+      "translations": { "ru": "вас, вам", "en": "you (plural)" },
+      "pos": "pron",
+      "example": { "sv": "Vi bjuder er på middag.", "ru": "Мы приглашаем вас на ужин.", "en": "We invite you to dinner." }
+    },
+    {
+      "id": "dem",
+      "sv": "dem",
+      "translations": { "ru": "их, им", "en": "them" },
+      "pos": "pron",
+      "note": { "ru": "Произносится как «dom», так же как «de».", "en": "Pronounced like \"dom\", the same as \"de\"." },
+      "example": { "sv": "Vi bjuder dem på middag.", "ru": "Мы приглашаем их на ужин.", "en": "We invite them to dinner." }
+    },
+    {
+      "id": "se",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "example": { "sv": "Jag ser dig.", "ru": "Я вижу тебя.", "en": "I see you." }
+    },
+    {
+      "id": "ringa",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call (phone)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Hon ringer mig.", "ru": "Она звонит мне.", "en": "She calls me." }
+    },
+    {
+      "id": "hjalpa",
+      "sv": "hjälpa",
+      "translations": { "ru": "помогать", "en": "to help" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "hjälpa", "present": "hjälper", "past": "hjälpte", "supine": "hjälpt" },
+      "example": { "sv": "Kan du hjälpa mig?", "ru": "Можешь помочь мне?", "en": "Can you help me?" }
+    },
+    {
+      "id": "bjuda",
+      "sv": "bjuda",
+      "translations": { "ru": "приглашать, угощать", "en": "to invite, to treat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "bjuda", "present": "bjuder", "past": "bjöd", "supine": "bjudit" },
+      "example": { "sv": "Vi bjuder dem på middag.", "ru": "Мы приглашаем их на ужин.", "en": "We invite them to dinner." }
+    },
+    {
+      "id": "kanna",
+      "sv": "känna",
+      "translations": { "ru": "знать (кого-то), чувствовать", "en": "to know (a person), to feel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "känna", "present": "känner", "past": "kände", "supine": "känt" },
+      "example": { "sv": "Jag känner honom.", "ru": "Я его знаю.", "en": "I know him." }
+    },
+    {
+      "id": "med-oss",
+      "sv": "med oss",
+      "translations": { "ru": "с нами", "en": "with us" },
+      "pos": "phrase",
+      "example": { "sv": "Kom med oss!", "ru": "Пойдём с нами!", "en": "Come with us!" }
+    },
+    {
+      "id": "till-henne",
+      "sv": "till henne",
+      "translations": { "ru": "к ней, для неё", "en": "to her, for her" },
+      "pos": "phrase",
+      "example": { "sv": "Blommorna är till henne.", "ru": "Цветы для неё.", "en": "The flowers are for her." }
+    }
+  ]
+}

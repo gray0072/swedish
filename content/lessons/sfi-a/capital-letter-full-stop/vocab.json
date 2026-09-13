@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "mening",
+      "sv": "mening",
+      "translations": { "ru": "предложение", "en": "sentence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mening", "defSg": "meningen", "indefPl": "meningar", "defPl": "meningarna" },
+      "example": { "sv": "Skriv en enkel mening.", "ru": "Напиши простое предложение.", "en": "Write a simple sentence." }
+    },
+    {
+      "id": "punkt",
+      "sv": "punkt",
+      "translations": { "ru": "точка", "en": "full stop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en punkt", "defSg": "punkten", "indefPl": "punkter", "defPl": "punkterna" },
+      "example": { "sv": "Meningen slutar med punkt.", "ru": "Предложение заканчивается точкой.", "en": "The sentence ends with a full stop." }
+    },
+    {
+      "id": "borjar-med-stor-bokstav",
+      "sv": "Meningen börjar med stor bokstav.",
+      "translations": { "ru": "Предложение начинается с заглавной буквы.", "en": "A sentence starts with a capital letter." },
+      "pos": "phrase"
+    },
+    {
+      "id": "slutar-med-punkt",
+      "sv": "Meningen slutar med punkt.",
+      "translations": { "ru": "Предложение заканчивается точкой.", "en": "A sentence ends with a full stop." },
+      "pos": "phrase"
+    },
+    {
+      "id": "frageteck",
+      "sv": "frågetecken",
+      "translations": { "ru": "вопросительный знак", "en": "question mark" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett frågetecken", "defSg": "frågetecknet", "indefPl": "frågetecken", "defPl": "frågetecknen" },
+      "example": { "sv": "En fråga slutar med frågetecken.", "ru": "Вопрос заканчивается вопросительным знаком.", "en": "A question ends with a question mark." }
+    },
+    {
+      "id": "utropstecken",
+      "sv": "utropstecken",
+      "translations": { "ru": "восклицательный знак", "en": "exclamation mark" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utropstecken", "defSg": "utropstecknet", "indefPl": "utropstecken", "defPl": "utropstecknen" },
+      "example": { "sv": "Tack! har ett utropstecken.", "ru": "У «Tack!» есть восклицательный знак.", "en": "\"Tack!\" has an exclamation mark." }
+    },
+    {
+      "id": "en-hel-mening",
+      "sv": "en hel mening",
+      "translations": { "ru": "цельное предложение", "en": "a whole/complete sentence" },
+      "pos": "phrase",
+      "example": { "sv": "Skriv en hel mening, inte bara ett ord.", "ru": "Напиши цельное предложение, а не одно слово.", "en": "Write a whole sentence, not just one word." }
+    },
+    {
+      "id": "subjekt-och-verb",
+      "sv": "subjekt och verb",
+      "translations": { "ru": "подлежащее и глагол", "en": "subject and verb" },
+      "pos": "phrase",
+      "example": { "sv": "En mening har subjekt och verb.", "ru": "В предложении есть подлежащее и глагол.", "en": "A sentence has a subject and a verb." }
+    },
+    {
+      "id": "jag-bor-i-malmo",
+      "sv": "Jag bor i Malmö.",
+      "translations": { "ru": "Я живу в Мальмё.", "en": "I live in Malmö." },
+      "pos": "phrase"
+    },
+    {
+      "id": "titta-pa-tavlan",
+      "sv": "Titta på tavlan och skriv av.",
+      "translations": { "ru": "Смотри на доску и переписывай.", "en": "Look at the board and copy it." },
+      "pos": "phrase"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/definite-plural",
+  "slug": "definite-plural",
+  "title": {
+    "sv": "Bestämd form plural: bilarna, husen, äpplena",
+    "ru": "Определённое множественное число: bilarna, husen, äpplena",
+    "en": "The definite plural: bilarna, husen, äpplena"
+  },
+  "summary": {
+    "ru": "Добавляем -na/-en/-a к неопределённому множественному числу, чтобы получить определённое множественное число.",
+    "en": "Adding -na/-en/-a to the indefinite plural to get the definite plural."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "nouns",
+    "plural",
+    "grammar"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 450,
+  "prerequisites": [
+    "sfi-b/plural-five-declensions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

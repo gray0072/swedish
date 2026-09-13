@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "stor-bokstav",
+      "sv": "stor bokstav",
+      "translations": { "ru": "заглавная буква", "en": "capital letter" },
+      "pos": "phrase",
+      "example": { "sv": "Namn börjar med stor bokstav.", "ru": "Имена начинаются с заглавной буквы.", "en": "Names start with a capital letter." }
+    },
+    {
+      "id": "liten-bokstav",
+      "sv": "liten bokstav",
+      "translations": { "ru": "строчная буква", "en": "lower-case letter" },
+      "pos": "phrase",
+      "example": { "sv": "De flesta ord skrivs med liten bokstav.", "ru": "Большинство слов пишутся со строчной буквы.", "en": "Most words are written with a lower-case letter." }
+    },
+    {
+      "id": "skriva-for-hand",
+      "sv": "skriva för hand",
+      "translations": { "ru": "писать от руки", "en": "to write by hand" },
+      "pos": "phrase",
+      "example": { "sv": "Jag övar att skriva för hand.", "ru": "Я тренируюсь писать от руки.", "en": "I'm practising writing by hand." }
+    },
+    {
+      "id": "skriva-sitt-namn",
+      "sv": "skriva sitt namn",
+      "translations": { "ru": "писать своё имя", "en": "to write one's own name" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du skriva ditt namn här?", "ru": "Можешь написать своё имя здесь?", "en": "Can you write your name here?" }
+    },
+    {
+      "id": "textat",
+      "sv": "textat",
+      "translations": { "ru": "печатными буквами", "en": "in block letters" },
+      "pos": "adv",
+      "example": { "sv": "Skriv textat, tack.", "ru": "Пишите печатными буквами, пожалуйста.", "en": "Please write in block letters." }
+    },
+    {
+      "id": "underskrift",
+      "sv": "underskrift",
+      "translations": { "ru": "подпись", "en": "signature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en underskrift", "defSg": "underskriften", "indefPl": "underskrifter", "defPl": "underskrifterna" },
+      "example": { "sv": "Formuläret behöver din underskrift.", "ru": "Форме нужна твоя подпись.", "en": "The form needs your signature." }
+    },
+    {
+      "id": "penna",
+      "sv": "penna",
+      "translations": { "ru": "ручка / карандаш", "en": "pen / pencil" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en penna", "defSg": "pennan", "indefPl": "pennor", "defPl": "pennorna" },
+      "example": { "sv": "Har du en penna?", "ru": "У тебя есть ручка?", "en": "Do you have a pen?" }
+    },
+    {
+      "id": "rad",
+      "sv": "rad",
+      "translations": { "ru": "строка, линия", "en": "line (on paper)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rad", "defSg": "raden", "indefPl": "rader", "defPl": "raderna" },
+      "example": { "sv": "Skriv på raden.", "ru": "Пиши на строке.", "en": "Write on the line." }
+    },
+    {
+      "id": "skriv-har",
+      "sv": "Skriv här, tack.",
+      "translations": { "ru": "Напишите здесь, пожалуйста.", "en": "Write here, please." },
+      "pos": "phrase",
+      "example": { "sv": "Skriv ditt namn här, tack.", "ru": "Напишите здесь своё имя, пожалуйста.", "en": "Write your name here, please." }
+    },
+    {
+      "id": "borjar-med",
+      "sv": "börjar med",
+      "translations": { "ru": "начинается с", "en": "starts with" },
+      "pos": "phrase",
+      "example": { "sv": "Mitt namn börjar med stor bokstav.", "ru": "Моё имя начинается с заглавной буквы.", "en": "My name starts with a capital letter." }
+    }
+  ]
+}

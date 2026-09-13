@@ -1,0 +1,103 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-possessives-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Моя машина красная.»", "en": "Build the sentence: \"My car is red.\"" },
+      "tokens": ["röd", "bil", "Min", "är"],
+      "answer": [2, 1, 3, 0]
+    },
+    {
+      "id": "q-possessives-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Её дом большой.»", "en": "Build the sentence: \"Her house is big.\"" },
+      "tokens": ["stort", "hus", "är", "Hennes"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-possessives-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ hus är stort. (его)" },
+      "answer": ["Hans"],
+      "acceptAlso": ["hans"],
+      "hint": { "ru": "не меняется по роду", "en": "does not change by gender" }
+    },
+    {
+      "id": "q-possessives-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ barn är glada. (их)" },
+      "answer": ["Deras"],
+      "acceptAlso": ["deras"],
+      "hint": { "ru": "их", "en": "their" }
+    },
+    {
+      "id": "q-possessives-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hans» меняет форму в зависимости от en/ett/мн. ч., как «min».", "en": "\"Hans\" changes form for en/ett/plural, like \"min\" does." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Hans», «hennes» и «deras» никогда не меняются.",
+        "en": "\"Hans\", \"hennes\" and \"deras\" never change."
+      }
+    },
+    {
+      "id": "q-possessives-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vårt» используется перед ett-словом.", "en": "\"Vårt\" is used before an ett-word." },
+      "answer": true
+    },
+    {
+      "id": "q-possessives-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь местоимение с переводом", "en": "Match the pronoun with its meaning" },
+      "pairs": [
+        ["hans", "его"],
+        ["hennes", "её"],
+        ["deras", "их"],
+        ["vår", "наш"]
+      ]
+    },
+    {
+      "id": "q-possessives-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «Твоя машина новая»?", "en": "How do you say \"Your car is new\"?" },
+      "choices": ["Din bil är ny.", "Ditt bil är ny.", "Dina bil är ny.", "Hans bil är ny."],
+      "answer": 0
+    },
+    {
+      "id": "q-possessives-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши форму «мой» для ett-слова.", "en": "Write the form of \"my\" used with an ett-word." },
+      "answer": ["mitt"],
+      "hint": { "ru": "min/mitt/mina", "en": "min/mitt/mina" }
+    },
+    {
+      "id": "q-possessives-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Vårt hus är litet.",
+      "prompt": { "ru": "Чей дом маленький?", "en": "Whose house is small?" },
+      "choices": [
+        { "ru": "Наш", "en": "Ours" },
+        { "ru": "Её", "en": "Hers" },
+        { "ru": "Их", "en": "Theirs" },
+        { "ru": "Твой", "en": "Yours" }
+      ],
+      "answer": 0
+    }
+  ]
+}

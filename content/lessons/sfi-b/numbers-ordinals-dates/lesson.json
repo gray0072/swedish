@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/numbers-ordinals-dates",
+  "slug": "numbers-ordinals-dates",
+  "title": {
+    "sv": "Tal 0-1000, ordningstal, priser och datum",
+    "ru": "Числа 0-1000, порядковые числительные, цены в кронах и дата",
+    "en": "Numbers 0-1000, ordinals, prices in kronor and writing a date"
+  },
+  "summary": {
+    "ru": "Числа выше 20, порядковые числительные и как соединить числа с датами и ценами.",
+    "en": "Numbers beyond 20, ordinal numbers, and combining numbers with dates/prices."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "numbers",
+    "dates",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 530,
+  "prerequisites": [
+    "sfi-a/numbers-personal-details"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

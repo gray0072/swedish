@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "jag-ar-sjuk",
+      "sv": "Jag är sjuk.",
+      "translations": { "ru": "Я болею.", "en": "I am ill." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är sjuk idag och kommer inte till lektionen.", "ru": "Я сегодня болею и не приду на урок.", "en": "I'm ill today and won't come to the lesson." }
+    },
+    {
+      "id": "jag-kommer-sent",
+      "sv": "Jag kommer sent.",
+      "translations": { "ru": "Я опоздаю.", "en": "I will come late." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kommer sent, kanske 10 minuter.", "ru": "Я опоздаю, может быть, на 10 минут.", "en": "I'll come late, maybe 10 minutes." }
+    },
+    {
+      "id": "jag-kan-inte-komma-idag",
+      "sv": "Jag kan inte komma idag.",
+      "translations": { "ru": "Я не смогу прийти сегодня.", "en": "I can't come today." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kan inte komma idag, jag är sjuk.", "ru": "Я не смогу прийти сегодня, я болею.", "en": "I can't come today, I'm ill." }
+    },
+    {
+      "id": "jag-maste-stanna-hemma",
+      "sv": "Jag måste stanna hemma.",
+      "translations": { "ru": "Мне нужно остаться дома.", "en": "I have to stay home." },
+      "pos": "phrase",
+      "example": { "sv": "Jag måste stanna hemma imorgon.", "ru": "Мне нужно остаться завтра дома.", "en": "I have to stay home tomorrow." }
+    },
+    {
+      "id": "anmala-franvaro",
+      "sv": "anmäla frånvaro",
+      "translations": { "ru": "сообщить об отсутствии", "en": "to report an absence" },
+      "pos": "phrase",
+      "example": { "sv": "Du måste anmäla frånvaro på morgonen.", "ru": "Ты должен сообщить об отсутствии утром.", "en": "You have to report an absence in the morning." }
+    },
+    {
+      "id": "franvaro",
+      "sv": "frånvaro",
+      "translations": { "ru": "отсутствие", "en": "absence" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frånvaro", "defSg": "frånvaron", "indefPl": "frånvaror", "defPl": "frånvaron" },
+      "example": { "sv": "Hög frånvaro är ett problem.", "ru": "Большое количество пропусков — это проблема.", "en": "High absence is a problem." }
+    },
+    {
+      "id": "jag-blir-forsenad",
+      "sv": "Jag blir försenad.",
+      "translations": { "ru": "Я задержусь.", "en": "I'll be delayed." },
+      "pos": "phrase",
+      "example": { "sv": "Bussen är sen, jag blir försenad.", "ru": "Автобус опаздывает, я задержусь.", "en": "The bus is late, I'll be delayed." }
+    },
+    {
+      "id": "meddela-lararen",
+      "sv": "meddela läraren",
+      "translations": { "ru": "сообщить учителю", "en": "to let the teacher know" },
+      "pos": "phrase",
+      "example": { "sv": "Kom ihåg att meddela läraren.", "ru": "Не забудь сообщить учителю.", "en": "Remember to let the teacher know." }
+    },
+    {
+      "id": "jag-har-feber",
+      "sv": "Jag har feber.",
+      "translations": { "ru": "У меня температура.", "en": "I have a fever." },
+      "pos": "phrase",
+      "example": { "sv": "Jag har feber och stannar hemma.", "ru": "У меня температура, я останусь дома.", "en": "I have a fever, I'll stay home." }
+    },
+    {
+      "id": "vi-ses-imorgon",
+      "sv": "Vi ses imorgon istället.",
+      "translations": { "ru": "Увидимся завтра.", "en": "See you tomorrow instead." },
+      "pos": "phrase",
+      "example": { "sv": "Jag är sjuk idag. Vi ses imorgon istället.", "ru": "Я сегодня болею. Увидимся завтра.", "en": "I'm ill today. See you tomorrow instead." }
+    }
+  ]
+}

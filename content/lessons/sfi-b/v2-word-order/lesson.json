@@ -1,0 +1,35 @@
+{
+  "id": "sfi-b/v2-word-order",
+  "slug": "v2-word-order",
+  "title": {
+    "sv": "V2-ordning: verbet är alltid på andra plats",
+    "ru": "Порядок слов V2: глагол всегда вторым",
+    "en": "V2 word order: the verb is always second"
+  },
+  "summary": {
+    "ru": "Главное правило порядка слов в шведском главном предложении.",
+    "en": "The core rule of Swedish main-clause word order."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 400,
+  "prerequisites": [
+    "sfi-a/statement-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

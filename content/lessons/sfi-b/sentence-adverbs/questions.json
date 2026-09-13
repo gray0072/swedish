@@ -1,0 +1,93 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-sadv-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я не ем мясо.»", "en": "Build the sentence: \"I don't eat meat.\"" },
+      "tokens": ["kött", "inte", "äter", "Jag"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-sadv-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он всегда уставший.»", "en": "Build the sentence: \"He is always tired.\"" },
+      "tokens": ["trött", "alltid", "är", "Han"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-sadv-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "В шведском главном предложении «inte» стоит сразу после спрягаемого глагола.",
+        "en": "In a Swedish main clause, \"inte\" goes right after the finite verb."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-sadv-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag inte äter kött» — правильный порядок слов.", "en": "\"Jag inte äter kött\" is correct Swedish word order." },
+      "answer": false,
+      "explanation": { "ru": "Правильно: «Jag äter inte kött» — «inte» стоит после глагола, не перед ним.", "en": "Correct: \"Jag äter inte kött\" — \"inte\" comes after the verb, not before it." }
+    },
+    {
+      "id": "q-sadv-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Vi går ___ på bio. (часто)" },
+      "answer": ["ofta"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sadv-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag kommer ___ imorgon. (может быть)" },
+      "answer": ["kanske"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sadv-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },
+      "pairs": [
+        ["alltid", "всегда"],
+        ["aldrig", "никогда"],
+        ["ofta", "часто"],
+        ["snart", "скоро"]
+      ]
+    },
+    {
+      "id": "q-sadv-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Куда встаёт «inte» в главном предложении?", "en": "Where does \"inte\" go in a main clause?" },
+      "choices": ["Сразу после спрягаемого глагола", "В самом начале предложения", "В самом конце предложения", "Перед подлежащим"],
+      "answer": 0
+    },
+    {
+      "id": "q-sadv-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильный вариант.", "en": "Choose the correct sentence." },
+      "choices": ["Vi aldrig äter fisk.", "Vi äter aldrig fisk.", "Aldrig vi äter fisk.", "Vi äter fisk aldrig inte."],
+      "answer": 1
+    },
+    {
+      "id": "q-sadv-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи: «Мы часто ходим в кино.»", "en": "Translate: \"We often go to the cinema.\"" },
+      "answer": ["Vi går ofta på bio."],
+      "hint": { "ru": "Наречие после глагола.", "en": "The adverb goes right after the verb." }
+    }
+  ]
+}

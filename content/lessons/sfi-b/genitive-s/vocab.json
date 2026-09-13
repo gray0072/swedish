@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "anna-name",
+      "sv": "Anna",
+      "translations": { "ru": "Анна", "en": "Anna" },
+      "pos": "noun",
+      "example": { "sv": "Annas bok ligger på bordet.", "ru": "Книга Анны лежит на столе.", "en": "Anna's book is on the table." }
+    },
+    {
+      "id": "bok-genitive",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Annas bok är ny.", "ru": "Книга Анны новая.", "en": "Anna's book is new." }
+    },
+    {
+      "id": "barn-genitive",
+      "sv": "barn",
+      "translations": { "ru": "ребёнок", "en": "child" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Barnets namn är Lisa.", "ru": "Имя ребёнка — Лиса.", "en": "The child's name is Lisa." }
+    },
+    {
+      "id": "namn-genitive",
+      "sv": "namn",
+      "translations": { "ru": "имя", "en": "name" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett namn", "defSg": "namnet", "indefPl": "namn", "defPl": "namnen" },
+      "example": { "sv": "Barnets namn är Lisa.", "ru": "Имя ребёнка — Лиса.", "en": "The child's name is Lisa." }
+    },
+    {
+      "id": "mamma-genitive",
+      "sv": "mamma",
+      "translations": { "ru": "мама", "en": "mom" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mamma", "defSg": "mamman", "indefPl": "mammor", "defPl": "mammorna" },
+      "example": { "sv": "Min mammas bil är röd.", "ru": "Машина моей мамы красная.", "en": "My mom's car is red." }
+    },
+    {
+      "id": "syster-genitive",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" },
+      "example": { "sv": "Systerns lägenhet är liten.", "ru": "Квартира сестры маленькая.", "en": "The sister's apartment is small." }
+    },
+    {
+      "id": "bil-genitive",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Min mammas bil är röd.", "ru": "Машина моей мамы красная.", "en": "My mom's car is red." }
+    },
+    {
+      "id": "annas-bok-phrase",
+      "sv": "Annas bok",
+      "translations": { "ru": "книга Анны", "en": "Anna's book" },
+      "pos": "phrase"
+    },
+    {
+      "id": "barnets-namn-phrase",
+      "sv": "Barnets namn är Lisa.",
+      "translations": { "ru": "Имя ребёнка — Лиса.", "en": "The child's name is Lisa." },
+      "pos": "phrase"
+    },
+    {
+      "id": "min-mammas-bil-phrase",
+      "sv": "Min mammas bil är röd.",
+      "translations": { "ru": "Машина моей мамы красная.", "en": "My mom's car is red." },
+      "pos": "phrase"
+    }
+  ]
+}

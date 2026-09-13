@@ -1,0 +1,103 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adjective-agreement-order-1",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери предложение: «Машина большая.»", "en": "Build the sentence: \"The car is big.\"" },
+      "tokens": ["stor", "Bilen", "är"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-adjective-agreement-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дом большой.»", "en": "Build the sentence: \"The house is big.\"" },
+      "tokens": ["är", "stort", "Huset"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-adjective-agreement-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Ett ___ hus. (большой)" },
+      "answer": ["stort"],
+      "acceptAlso": [],
+      "hint": { "ru": "stor + t с ett-словом", "en": "stor + t with an ett-word" }
+    },
+    {
+      "id": "q-adjective-agreement-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "En ___ bil. (новый)" },
+      "answer": ["ny"],
+      "acceptAlso": [],
+      "hint": { "ru": "с en-словом — базовая форма", "en": "base form with an en-word" }
+    },
+    {
+      "id": "q-adjective-agreement-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Huset är stor» — правильно.", "en": "\"Huset är stor\" is correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "Huset — ett-слово, значит нужно stort: Huset är stort.",
+        "en": "Huset is an ett-word, so it needs stort: Huset är stort."
+      }
+    },
+    {
+      "id": "q-adjective-agreement-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "С en-словом прилагательное остаётся в базовой форме, без -t.", "en": "With an en-word the adjective stays in its base form, without -t." },
+      "answer": true
+    },
+    {
+      "id": "q-adjective-agreement-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь базовую форму с ett-формой", "en": "Match the base form with its ett-form" },
+      "pairs": [
+        ["stor", "stort"],
+        ["fin", "fint"],
+        ["ny", "nytt"],
+        ["gammal", "gammalt"]
+      ]
+    },
+    {
+      "id": "q-adjective-agreement-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Выбери правильный вариант: «Ett ___ hus.»", "en": "Choose the correct option: \"Ett ___ hus.\"" },
+      "choices": ["stor", "stort", "stora", "store"],
+      "answer": 1
+    },
+    {
+      "id": "q-adjective-agreement-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши ett-форму прилагательного «dyr» (дорогой).", "en": "Write the ett-form of the adjective \"dyr\" (expensive)." },
+      "answer": ["dyrt"],
+      "hint": { "ru": "добавь -t", "en": "add -t" }
+    },
+    {
+      "id": "q-adjective-agreement-listen-1",
+      "type": "listen",
+      "difficulty": 1,
+      "audioText": "Huset är stort.",
+      "prompt": { "ru": "О чём говорится, что оно большое?", "en": "What is described as big?" },
+      "choices": [
+        { "ru": "Дом", "en": "The house" },
+        { "ru": "Машина", "en": "The car" },
+        { "ru": "Ребёнок", "en": "The child" },
+        { "ru": "Книга", "en": "The book" }
+      ],
+      "answer": 0
+    }
+  ]
+}

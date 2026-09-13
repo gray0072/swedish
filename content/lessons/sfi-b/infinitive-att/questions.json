@@ -1,0 +1,89 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-infinitive-att-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Плавать — весело.»", "en": "Build the sentence: \"Swimming is fun.\"" },
+      "tokens": ["är", "simma", "Det", "roligt", "att"],
+      "answer": [2, 0, 3, 4, 1]
+    },
+    {
+      "id": "q-infinitive-att-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я хочу есть.»", "en": "Build the sentence: \"I want to eat.\"" },
+      "tokens": ["äta", "vill", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-infinitive-att-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Шведский инфинитив обычно оканчивается на -a.", "en": "The Swedish infinitive usually ends in -a." },
+      "answer": true
+    },
+    {
+      "id": "q-infinitive-att-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag vill att äta» — правильно.", "en": "\"Jag vill att äta\" is correct." },
+      "answer": false,
+      "explanation": {
+        "ru": "После модального глагола vill инфинитив идёт без att: Jag vill äta.",
+        "en": "After the modal verb vill the infinitive has no att: Jag vill äta."
+      }
+    },
+    {
+      "id": "q-infinitive-att-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är kul ___ läsa." },
+      "answer": ["att"],
+      "acceptAlso": [],
+      "hint": { "ru": "частица перед инфинитивом", "en": "infinitive marker" }
+    },
+    {
+      "id": "q-infinitive-att-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag tycker om ___ cykla." },
+      "answer": ["att"],
+      "acceptAlso": [],
+      "hint": { "ru": "чтобы/частица инфинитива", "en": "infinitive marker" }
+    },
+    {
+      "id": "q-infinitive-att-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол и его инфинитив", "en": "Match the verb with its infinitive" },
+      "pairs": [
+        ["vill", "vilja"],
+        ["äter", "äta"],
+        ["sover", "sova"],
+        ["läser", "läsa"]
+      ]
+    },
+    {
+      "id": "q-infinitive-att-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое предложение правильное?", "en": "Which sentence is correct?" },
+      "choices": ["Det är roligt att simma.", "Det är roligt simma.", "Det är att roligt simma.", "Det roligt är att simma."],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-att-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Переведи на шведский: «Готовить важно.»", "en": "Translate to Swedish: \"Cooking is important.\"" },
+      "answer": ["Det är viktigt att laga mat."],
+      "hint": { "ru": "Det är viktigt att ___", "en": "Det är viktigt att ___" }
+    }
+  ]
+}

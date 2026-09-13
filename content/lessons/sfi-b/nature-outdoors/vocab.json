@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "id": "skog",
+      "sv": "skog",
+      "translations": { "ru": "лес", "en": "forest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skog", "defSg": "skogen", "indefPl": "skogar", "defPl": "skogarna" },
+      "example": { "sv": "Vi går en promenad i skogen.", "ru": "Мы гуляем в лесу.", "en": "We take a walk in the forest." }
+    },
+    {
+      "id": "sjo",
+      "sv": "sjö",
+      "translations": { "ru": "озеро", "en": "lake" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" },
+      "example": { "sv": "Sjön är kall på vintern.", "ru": "Озеро холодное зимой.", "en": "The lake is cold in winter." }
+    },
+    {
+      "id": "strand",
+      "sv": "strand",
+      "translations": { "ru": "пляж, берег", "en": "beach, shore" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en strand", "defSg": "stranden", "indefPl": "stränder", "defPl": "stränderna" },
+      "example": { "sv": "Vi ligger på stranden hela dagen.", "ru": "Мы весь день лежим на пляже.", "en": "We lie on the beach all day." }
+    },
+    {
+      "id": "berg",
+      "sv": "berg",
+      "translations": { "ru": "гора", "en": "mountain, hill" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett berg", "defSg": "berget", "indefPl": "berg", "defPl": "bergen" },
+      "example": { "sv": "Vi klättrar upp på berget.", "ru": "Мы поднимаемся на гору.", "en": "We climb up the mountain." }
+    },
+    {
+      "id": "natur",
+      "sv": "natur",
+      "translations": { "ru": "природа", "en": "nature" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en natur", "defSg": "naturen", "indefPl": "naturer", "defPl": "naturerna" },
+      "example": { "sv": "Jag älskar svensk natur.", "ru": "Я люблю шведскую природу.", "en": "I love Swedish nature." }
+    },
+    {
+      "id": "promenad",
+      "sv": "promenad",
+      "translations": { "ru": "прогулка", "en": "walk" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en promenad", "defSg": "promenaden", "indefPl": "promenader", "defPl": "promenaderna" },
+      "example": { "sv": "Vi tar en lång promenad.", "ru": "Мы совершаем долгую прогулку.", "en": "We take a long walk." }
+    },
+    {
+      "id": "cykla",
+      "sv": "cykla",
+      "translations": { "ru": "кататься на велосипеде", "en": "to cycle, ride a bike" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat" },
+      "example": { "sv": "Vi cyklar till sjön.", "ru": "Мы едем на велосипеде к озеру.", "en": "We cycle to the lake." }
+    },
+    {
+      "id": "simma",
+      "sv": "simma",
+      "translations": { "ru": "плавать", "en": "to swim" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Barnen simmar i sjön.", "ru": "Дети плавают в озере.", "en": "The kids swim in the lake." }
+    },
+    {
+      "id": "vandra",
+      "sv": "vandra",
+      "translations": { "ru": "ходить в поход, бродить", "en": "to hike" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vandra", "present": "vandrar", "past": "vandrade", "supine": "vandrat" },
+      "example": { "sv": "Vi vandrar i bergen på sommaren.", "ru": "Летом мы ходим в горы в поход.", "en": "We go hiking in the mountains in summer." }
+    },
+    {
+      "id": "grilla",
+      "sv": "grilla",
+      "translations": { "ru": "жарить на гриле", "en": "to grill, barbecue" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "grilla", "present": "grillar", "past": "grillade", "supine": "grillat" },
+      "example": { "sv": "Vi grillar vid stranden.", "ru": "Мы жарим на гриле у пляжа.", "en": "We grill by the beach." }
+    },
+    {
+      "id": "fiska",
+      "sv": "fiska",
+      "translations": { "ru": "ловить рыбу", "en": "to fish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fiska", "present": "fiskar", "past": "fiskade", "supine": "fiskat" },
+      "example": { "sv": "Min pappa fiskar i sjön.", "ru": "Мой папа ловит рыбу в озере.", "en": "My dad fishes in the lake." }
+    },
+    {
+      "id": "trad",
+      "sv": "träd",
+      "translations": { "ru": "дерево", "en": "tree" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett träd", "defSg": "trädet", "indefPl": "träd", "defPl": "träden" },
+      "example": { "sv": "Skogen har många träd.", "ru": "В лесу много деревьев.", "en": "The forest has many trees." }
+    },
+    {
+      "id": "djur",
+      "sv": "djur",
+      "translations": { "ru": "животное", "en": "animal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett djur", "defSg": "djuret", "indefPl": "djur", "defPl": "djuren" },
+      "example": { "sv": "Vi ser djur i skogen.", "ru": "Мы видим животных в лесу.", "en": "We see animals in the forest." }
+    },
+    {
+      "id": "utflykt",
+      "sv": "utflykt",
+      "translations": { "ru": "поездка за город, экскурсия", "en": "trip, excursion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utflykt", "defSg": "utflykten", "indefPl": "utflykter", "defPl": "utflykterna" },
+      "example": { "sv": "Vi gör en utflykt på lördag.", "ru": "В субботу мы едем на экскурсию.", "en": "We're going on a trip on Saturday." }
+    },
+    {
+      "id": "vacker",
+      "sv": "vacker",
+      "translations": { "ru": "красивый", "en": "beautiful" },
+      "pos": "adj",
+      "example": { "sv": "Naturen är vacker här.", "ru": "Природа здесь красивая.", "en": "Nature is beautiful here." }
+    },
+    {
+      "id": "frisk-luft",
+      "sv": "frisk luft",
+      "translations": { "ru": "свежий воздух", "en": "fresh air" },
+      "pos": "phrase",
+      "example": { "sv": "Det är skönt med frisk luft.", "ru": "Приятно подышать свежим воздухом.", "en": "It's nice to have fresh air." }
+    },
+    {
+      "id": "utanfor-stan",
+      "sv": "utanför stan",
+      "translations": { "ru": "за городом", "en": "out of town" },
+      "pos": "phrase",
+      "example": { "sv": "Vi åker utanför stan i helgen.", "ru": "На выходных мы едем за город.", "en": "We're going out of town this weekend." }
+    },
+    {
+      "id": "i-helgen",
+      "sv": "i helgen",
+      "translations": { "ru": "на выходных", "en": "this weekend" },
+      "pos": "phrase",
+      "example": { "sv": "Vad ska du göra i helgen?", "ru": "Что ты будешь делать на выходных?", "en": "What are you doing this weekend?" }
+    }
+  ]
+}

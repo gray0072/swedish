@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/nature-outdoors",
+  "slug": "nature-outdoors",
+  "title": {
+    "sv": "Natur och friluftsliv",
+    "ru": "Природа и отдых на улице",
+    "en": "Nature and the outdoors"
+  },
+  "summary": {
+    "ru": "Skog, sjö, strand, berg — поездка за город на выходные.",
+    "en": "Skog, sjö, strand, berg — a trip out of town for the weekend."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "nature",
+    "outdoors",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 370,
+  "prerequisites": [
+    "sfi-b/places-in-town"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

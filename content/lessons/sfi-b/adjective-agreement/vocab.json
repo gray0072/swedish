@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "stor",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: stort; во мн. ч.: stora", "en": "with an ett-word: stort; plural: stora" },
+      "example": { "sv": "En stor bil. Ett stort hus.", "ru": "Большая машина. Большой дом.", "en": "A big car. A big house." }
+    },
+    {
+      "id": "fin",
+      "sv": "fin",
+      "translations": { "ru": "красивый, хороший", "en": "nice, fine" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: fint; во мн. ч.: fina", "en": "with an ett-word: fint; plural: fina" },
+      "example": { "sv": "En fin dag. Ett fint hus.", "ru": "Хороший день. Красивый дом.", "en": "A nice day. A nice house." }
+    },
+    {
+      "id": "ny",
+      "sv": "ny",
+      "translations": { "ru": "новый", "en": "new" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: nytt; во мн. ч.: nya", "en": "with an ett-word: nytt; plural: nya" },
+      "example": { "sv": "En ny bil. Ett nytt hus.", "ru": "Новая машина. Новый дом.", "en": "A new car. A new house." }
+    },
+    {
+      "id": "gammal",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: gammalt; во мн. ч.: gamla", "en": "with an ett-word: gammalt; plural: gamla" },
+      "example": { "sv": "En gammal bil. Ett gammalt hus.", "ru": "Старая машина. Старый дом.", "en": "An old car. An old house." }
+    },
+    {
+      "id": "snall",
+      "sv": "snäll",
+      "translations": { "ru": "добрый, милый", "en": "kind" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: snällt; во мн. ч.: snälla", "en": "with an ett-word: snällt; plural: snälla" },
+      "example": { "sv": "Hon är snäll.", "ru": "Она добрая.", "en": "She is kind." }
+    },
+    {
+      "id": "glad",
+      "sv": "glad",
+      "translations": { "ru": "радостный, довольный", "en": "happy, glad" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: glatt; во мн. ч.: glada", "en": "with an ett-word: glatt; plural: glada" },
+      "example": { "sv": "Barnet är glatt.", "ru": "Ребёнок радостный.", "en": "The child is happy." }
+    },
+    {
+      "id": "billig",
+      "sv": "billig",
+      "translations": { "ru": "дешёвый", "en": "cheap" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: billigt; во мн. ч.: billiga", "en": "with an ett-word: billigt; plural: billiga" },
+      "example": { "sv": "En billig bil. Ett billigt hus.", "ru": "Дешёвая машина. Дешёвый дом.", "en": "A cheap car. A cheap house." }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "note": { "ru": "с ett-словом: dyrt; во мн. ч.: dyra", "en": "with an ett-word: dyrt; plural: dyra" },
+      "example": { "sv": "Bilen är dyr. Huset är dyrt.", "ru": "Машина дорогая. Дом дорогой.", "en": "The car is expensive. The house is expensive." }
+    },
+    {
+      "id": "bil-adj-noun",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen är stor.", "ru": "Машина большая.", "en": "The car is big." }
+    },
+    {
+      "id": "hus-adj-noun",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset är stort.", "ru": "Дом большой.", "en": "The house is big." }
+    }
+  ]
+}

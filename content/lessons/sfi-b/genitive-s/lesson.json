@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/genitive-s",
+  "slug": "genitive-s",
+  "title": {
+    "sv": "Genitiv-s: Annas bok, barnets namn, min mammas bil",
+    "ru": "Генитив -s",
+    "en": "The genitive -s: Annas bok, barnets namn, min mammas bil"
+  },
+  "summary": {
+    "ru": "Принадлежность в шведском — это просто -s к существительному, без апострофа.",
+    "en": "Possession in Swedish is just -s added to a noun, no apostrophe."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "genitive",
+    "nouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 480,
+  "prerequisites": [
+    "sfi-a/min-mitt"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

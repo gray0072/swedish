@@ -1,0 +1,36 @@
+{
+  "id": "sfi-b/quantity-mycket-lite-alla",
+  "slug": "quantity-mycket-lite-alla",
+  "title": {
+    "sv": "Mängd: mycket/många, lite/några, alla/ingen",
+    "ru": "Количество: mycket/många, lite/några, alla/ingen",
+    "en": "Quantity: mycket / många, lite / några, alla / ingen"
+  },
+  "summary": {
+    "ru": "Слова количества и с каким типом существительного (исчисляемым/неисчисляемым, ед./мн. числом) каждое из них сочетается.",
+    "en": "Quantifiers and which noun type (mass vs count, singular vs plural) each pairs with."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-b"
+  ],
+  "tags": [
+    "grammar",
+    "nouns",
+    "quantifiers"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 580,
+  "prerequisites": [
+    "sfi-b/plural-five-declensions"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}
