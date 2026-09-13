@@ -11,7 +11,7 @@ Vad är ditt personnummer? — Какой у тебя личный номер?
 För det mesta börjar allt med en **ansökan** («заявление») — du **fyller i** en
 **blankett** («бланк») med dina uppgifter, sätter din **underskrift** («подпись»)
 och **skickar** den innan **tidsfristen** («срок подачи») går ut. Ibland behöver
-du visa **legitimation** («удостоverение личности») och betala en **avgift**
+du visa **legitimation** («удостоверение личности») och betala en **avgift**
 («сбор, пошлина»).
 
 ```example

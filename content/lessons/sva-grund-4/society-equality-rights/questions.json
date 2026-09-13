@@ -56,7 +56,7 @@
       "type": "true-false",
       "prompt": { "ru": "Права человека распространяются только на граждан определённой страны.", "en": "Human rights apply only to citizens of a particular country." },
       "answer": false,
-      "explanation": { "ru": "Мänskliga rättigheter распространяются на всех людей, независимо от страны.", "en": "Mänskliga rättigheter apply to all people, regardless of country." }
+      "explanation": { "ru": "Mänskliga rättigheter распространяются на всех людей, независимо от страны.", "en": "Mänskliga rättigheter apply to all people, regardless of country." }
     },
     {
       "id": "q-society-equality-rights-gap-1",

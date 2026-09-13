@@ -40,7 +40,7 @@
       "id": "q-essay-connectors-mc-5",
       "type": "mc",
       "difficulty": 2,
-      "prompt": { "ru": "Что из этого — классический скелет утредande text (аргументирующего эссе)?", "en": "Which of these is the classic skeleton of an utredande text (argumentative essay)?" },
+      "prompt": { "ru": "Что из этого — классический скелет utredande text (аргументирующего эссе)?", "en": "Which of these is the classic skeleton of an utredande text (argumentative essay)?" },
       "choices": ["Только вывод, без введения", "Inledning → argument (vidare/dessutom) → motargument (å andra sidan) → avslutning", "Случайный порядок абзацев", "Один длинный абзац без связок"],
       "answer": 1
     },

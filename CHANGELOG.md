@@ -614,3 +614,43 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   `drygt`/`knappt` "just over"/"just under" contrast, the four definitional frames,
   and that `ellipsis-repetition-avoidance` doesn't reuse `cohesion-reference`'s
   examples.
+
+## 2026-09-13 — Curriculum plan: a coverage review, and SFI kurs D rebuilt as an A2 course
+
+- Went over all 400 planned items level by level and compared them with the 262 lessons
+  that exist on disk. The index itself is clean — every written lesson has a line, every
+  line with a slug has a folder — so the review was about the plan, not about drift.
+- What the numbers showed: the ladder is upside down. The top (SVA grund delkurs 1-4,
+  roughly B1) is 185/200 written, the middle (SFI kurs C and D, A1+/A2) is 8/100, and of
+  the SFI ladder's ~100 grammar points only 20 exist (19 in kurs A, 1 in kurs B). The
+  SFI half also carries only 1115 of the project's 2827 unique words, though A1-A2 is
+  where vocabulary breadth matters most.
+- **Gaps no level covered at all** now have a slot: the genitive `-s` (kurs B, and again
+  in a longer noun phrase in kurs D), deponent and reciprocal `-s` verbs (`träffas`,
+  `ses`, `hoppas`, `trivs`, `minns` — kurs C), and the imperative of all four verb groups
+  (kurs D). Realia that appeared nowhere in the plan went into existing lines: `id-kort`
+  and `folkbokföring`, `körkort`, `växla`/`valuta`, Systembolaget, VAB.
+- **Pronunciation no longer ends at kurs A**, where its three lessons used to be the
+  whole of it: kurs B gets sentence melody and vowel length, kurs C word accent 1 and 2,
+  kurs D understanding a normal pace (`dom`, `ja`, `å`), SVA grund delkurs 3 prosody in
+  connected speech.
+- **SFI kurs D was rebuilt.** Its thematic half repeated SVA grund delkurs 2-3 almost
+  item for item (tax return, rental-contract clauses, employment contract and union, CV
+  and cover letter, interview, consumer rights, elections, business email) and had no
+  everyday life in it at all. Those stay in SVA grund, which teaches them as text work;
+  kurs D now takes the official topics in their everyday version (a bill to read, a
+  declaration you only approve, a short message to a landlord) next to vardagsliv the
+  level was missing: Sweden's geography, sport and föreningsliv, food culture, a sick
+  child and VAB, the house and the neighbours, workplace habits. Its grammar half gave up
+  five points that belong to SVA grund (participles as modifiers, nominalisation, the full
+  picture of double definiteness, `vore`, `ju … desto`).
+- **Unwritten duplicates merged, and the freed slots reused.** Kurs B's two adjective
+  points became one and its two number points became one; kurs C merged the definite
+  adjective with double definiteness and merged the emergency call with the
+  `polisanmälan`, and dropped `det finns`/`det är` (kurs B and SVA grund delkurs 1 both
+  teach it); SVA grund delkurs 3 dropped its fourth pass at `det finns`.
+- **No lesson was written, renamed or removed** — only unwritten items changed. Written
+  lessons that read as duplicates in the plan (the four conditional lessons, delkurs 4's
+  two proofreading lessons, the referat chain) turned out to differ in content, so only
+  their lines were sharpened to say how. Every level still holds exactly 50 items, and a
+  check confirms all 262 written lessons are still referenced and nothing dangles.

@@ -86,7 +86,7 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en bruksvärdeshyra", "defSg": "bruksvärdeshyran", "indefPl": "bruksvärdeshyror", "defPl": "bruksvärdeshyrorna" },
-      "example": { "sv": "Hyran fastställs enligt bruksvärdeshyra.", "ru": "Арендная плата устанавливается по системе бруксвердеcхюра.", "en": "The rent is set according to the use-value rent system." }
+      "example": { "sv": "Hyran fastställs enligt bruksvärdeshyra.", "ru": "Арендная плата устанавливается по системе бруксвердесхюра.", "en": "The rent is set according to the use-value rent system." }
     },
     {
       "id": "skalig-hyra",

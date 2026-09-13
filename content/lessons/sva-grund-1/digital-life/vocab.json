@@ -3,7 +3,7 @@
     {
       "id": "bankid",
       "sv": "BankID",
-      "translations": { "ru": "БанкID (цифровая идентификация)", "en": "BankID (digital ID app)" },
+      "translations": { "ru": "BankID (цифровая идентификация)", "en": "BankID (digital ID app)" },
       "pos": "noun",
       "example": { "sv": "Logga in med BankID för att se dina uppgifter.", "ru": "Войди через BankID, чтобы увидеть свои данные.", "en": "Log in with BankID to see your information." }
     },

@@ -138,6 +138,36 @@ grammar half, SFI kurs C and D (5 and 3 lessons written so far), the closing gra
 lessons of SVA grund delkurs 1-3, the eight new SFI topics, and the still-undesigned real
 text-lesson format, tracked in `TODO.md`.
 
+**The plan was rebalanced on 2026-09-13** after a coverage review of all 400 items. No
+lesson was written, renamed or removed — only unwritten items changed, and every level
+still holds exactly 50. What the review changed:
+
+- **Gaps that no level covered at all** were given a slot: the genitive `-s` (kurs B,
+  applied again in a longer phrase in kurs D), deponent and reciprocal `-s` verbs
+  (`träffas`, `ses`, `hoppas` — kurs C), and the imperative of all four verb groups
+  (kurs D). Realia that appeared nowhere entered existing lines: `id-kort` and
+  `folkbokföring`, `körkort`, `växla`/`valuta`, Systembolaget, VAB.
+- **Pronunciation stopped ending at kurs A.** It used to live only in kurs A's three
+  lessons; there is now a pronunciation point in kurs B (sentence melody, vowel length),
+  in kurs C (word accent 1 and 2), in kurs D (understanding a normal pace: `dom`, `ja`,
+  `å`) and in SVA grund delkurs 3 (prosody in connected speech).
+- **SFI kurs D was rebuilt as an A2 course.** Its thematic half used to repeat SVA grund
+  delkurs 2–3 almost item for item and carried no everyday life at all; the heavy
+  versions stayed in SVA grund and kurs D now mixes vardagsliv with the everyday side of
+  samhällsliv and arbetsliv. Its grammar half gave up five points that belong to SVA
+  grund (participles as modifiers, nominalisation, the full picture of double
+  definiteness, `vore`, `ju … desto`).
+- **Duplicates between neighbouring levels were merged** where the item was still
+  unwritten: in kurs B the two adjective points and the two number points became one
+  each, in kurs C the definite adjective and double definiteness became one point, the
+  emergency call and the `polisanmälan` became one lesson, and `det finns`/`det är`
+  — which kurs B and SVA grund delkurs 1 both teach — was dropped from kurs C. SVA
+  grund delkurs 3 gave up its fourth pass at `det finns`. The freed slots went to the
+  gaps above.
+- **Lessons that are already written and read as duplicates were not touched** — they
+  differ in content, so only their lines here were sharpened to say how (the four
+  conditional lessons, the two proofreading lessons of delkurs 4, the referat chain).
+
 ---
 
 ## SFI kurs A
@@ -250,14 +280,14 @@ Items 1–27 are the thematic lessons, items 28–50 the level's grammar.
 34. [ ] The plural: five declensions (`-or, -ar, -er, -n`, and no ending)
 35. [ ] The definite plural: `bilarna`, `husen`, `äpplena`
 36. [ ] The conjunctions `och`, `men`, `eller`, `för`, `så`
-37. [ ] The predicative adjective: `stor / stort / stora`
-38. [ ] The adjective before an indefinite noun
+37. [ ] Adjective agreement: `en stor bil`, `ett stort hus`, `bilen är stor`
+38. [ ] The genitive `-s`: `Annas bok`, `barnets namn`, `min mammas bil`
 39. [ ] Possessives: `min, din, hans, hennes, vår, er, deras`
 40. [ ] Demonstratives: `den här`, `den där`, `de här`
 41. [ ] Object pronouns: `mig, dig, honom, henne, oss, er, dem`
 42. [ ] Prepositions of place: `i, på, under, bakom, framför, mellan`
-43. [ ] Numbers 0–1000, prices and `kronor`
-44. [ ] Ordinal numbers and writing a date
+43. [ ] Numbers 0–1000, ordinals, prices in `kronor` and writing a date
+44. [ ] Pronunciation: the melody of a statement and of a question, and long and short vowels in a new word
 45. [ ] Prepositions of time: `klockan`, `på`, `i`, `om`
 46. [ ] The preterite of frequent verbs: `var, hade, gick, kom, sa, fick`
 47. [ ] `det finns` and `det är` in simple sentences
@@ -273,30 +303,32 @@ and longer texts are read.
 
 ### Lessons (50 lessons, 5 done)
 
+Items 1–25 are the thematic lessons, items 26–50 the level's grammar.
+
 1. [x] Public transport — `sfi-c/transport`
 2. [x] Money and prices (numbers 20–100) — `sfi-c/money`
 3. [x] Health and a visit to the doctor — `sfi-c/health`
 4. [x] Booking an appointment (`boka tid`) — `sfi-c/booking`
 5. [x] Professions — `sfi-c/professions`
-6. [ ] A working day: schedule, break, colleagues
+6. [ ] A working day: the schedule, the break, asking a colleague for help
 7. [ ] Safety at the workplace
 8. [ ] Looking for work: job ads and first steps
 9. [ ] At the pharmacy: over-the-counter medicine
-10. [ ] Emergencies and calling an ambulance
-11. [ ] Reporting to the police: a theft, lost documents, a polisanmälan
+10. [ ] Emergencies: calling 112 and an ambulance, and a `polisanmälan` for a theft or lost documents
+11. [ ] A Swedish winter: the darkness, `halka`, clothes for the season
 12. [ ] At the dentist (tandvård): booking, the treatment, the bill
 13. [ ] The post office: letters and parcels
-14. [ ] The bank: basic operations, opening an account
+14. [ ] The bank: basic operations, opening an account, changing money (`växla`, `valuta`)
 15. [ ] Phone and internet: getting connected, a subscription
 16. [ ] Paying bills: rent, electricity, internet
 17. [ ] Shopping: comparing prices, discounts, returning goods and complaining
-18. [ ] Talking about the past: what happened yesterday and last week
+18. [ ] Talking about the past: a short account of yesterday and last week
 19. [ ] Plans for the future and invitations
-20. [ ] Opinion and justification: `jag tycker att … eftersom …`
+20. [ ] Opinion in one sentence: `jag tycker att … eftersom …`
 21. [ ] Waste sorting (återvinning)
 22. [ ] Free time: cinema, theatre, sports clubs
 23. [ ] Parents' meetings and contact with the school
-24. [ ] Traffic rules and driving school — the basics
+24. [ ] Traffic rules and driving school: the `körkort` and what it takes
 25. [ ] Repairs and a tradesperson at home (plumber, electrician)
 26. [ ] The preterite: all four groups, including strong verbs
 27. [ ] The supine and strong verb forms: `skriva – skrev – skrivit`
@@ -307,12 +339,12 @@ and longer texts are read.
 32. [ ] Subordinate clauses with `om`, `när`, `eftersom`, `så att`
 33. [ ] The relative `som` and when it can be omitted
 34. [ ] Comparison of adjectives, including irregular forms
-35. [ ] The definite form of the adjective: `den stora staden`
-36. [ ] Double definiteness as a rule
+35. [ ] The definite adjective and double definiteness: `den stora staden`
+36. [ ] Deponent and reciprocal `-s` verbs: `träffas`, `ses`, `hoppas`, `trivs`, `minns`
 37. [ ] Reflexive verbs and `sig`: `tvätta sig`, `känna sig`
 38. [ ] `sin/sitt/sina` versus `hans/hennes/deras`
 39. [ ] The indefinite subject `man`
-40. [ ] `det finns` and `det är` — the difference
+40. [ ] Pronunciation: word accent 1 and 2 (`anden` – `anden`) and the melody of a long sentence
 41. [ ] Frequent particle verbs and stress on the particle
 42. [ ] Prepositions of place and direction: `i / till`, `på / till`, `hos`
 43. [ ] Adverbs: `hem/hemma`, `ut/ute`, `in/inne`, `dit/där`
@@ -332,31 +364,40 @@ a normal (not adapted) pace. Next comes SVA grund delkurs 1.
 
 ### Lessons (50 lessons, 3 done)
 
+Items 1–25 are the thematic lessons, items 26–50 the level's grammar. The thematic
+half keeps the everyday side of adult life next to the official one, and the official
+topics are taken in their **everyday** version — a bill you have to read, a declaration
+you only approve, a message to a landlord. The heavy versions of the same topics — the
+tax return, the clauses of a rental contract, the employment contract and the union, a CV
+and a cover letter, consumer rights, elections — belong to SVA grund delkurs 2–3, which
+teaches them as text work; repeating them here would only make kurs D a weaker copy of a
+later level.
+
 1. [x] Housing and renting — `sfi-d/housing`
 2. [x] Government agencies and forms — `sfi-d/authorities`
 3. [x] Emotions — `sfi-d/emotions`
 4. [ ] Digital public services: BankID, Mina sidor, 1177
-5. [ ] The municipality (kommun): which service comes from where
-6. [ ] Understanding a bill, a receipt and a payslip
-7. [ ] Taxes: Skatteverket and the basics of a tax return
-8. [ ] Insurance: home, property, health
-9. [ ] The employment contract (anställningsavtal), the union and labour rights
-10. [ ] Sick leave, holiday, parental leave (föräldraledighet)
-11. [ ] A CV and a cover letter
-12. [ ] The interview: introducing yourself and the typical questions
-13. [ ] Business correspondence by email — the formal register
-14. [ ] An application and a complaint to a public authority — a simple template
-15. [ ] A rental contract: reading and understanding the key clauses
-16. [ ] Credit, instalments, the household budget
-17. [ ] Further education: komvux, SVA grund, CSN
-18. [ ] Elections and municipal politics — basic vocabulary
-19. [ ] Media: reading and retelling a simple news item
-20. [ ] Consumer rights
-21. [ ] Shopping online: the order, delivery, returns, ångerrätt
-22. [ ] Ecology and sustainable living — a discussion
-23. [ ] Talking to a teacher about your child
-24. [ ] Cultural adaptation: habits, etiquette, expectations
-25. [ ] Final review: telling the story of your life and plans in Sweden
+5. [ ] Registration and identity: `personnummer`, `id-kort`, `folkbokföring`
+6. [ ] The municipality (kommun): which service comes from where
+7. [ ] Understanding a bill, a receipt and a payslip in outline
+8. [ ] Taxes in everyday life: the declaration you only have to approve
+9. [ ] Insurance for the home and for a trip: what it covers
+10. [ ] A working day and your employer: the schedule, the breaks, calling in sick
+11. [ ] Looking for work: the ad, the application, a short self-presentation
+12. [ ] Workplace habits: `du`-tilltal, fika, punctuality, asking for help
+13. [ ] A short formal message: writing to a school, a landlord or an authority
+14. [ ] Further education: komvux, SVA grund, CSN
+15. [ ] The geography of Sweden: landskap, the big cities, north and south
+16. [ ] Sport and exercise: the gym, a `förening`, a child's training session
+17. [ ] Food culture: husmanskost, fika, Systembolaget and opening hours
+18. [ ] Shopping and returns: `öppet köp`, the receipt, complaining about a purchase
+19. [ ] Shopping online: the order, the delivery, sending it back
+20. [ ] A sick child: VAB, calling 1177, a message to the preschool
+21. [ ] Your child's school: the meeting, the homework, contact with the teacher
+22. [ ] The house and the neighbours: the rules, the `tvättstuga`, sorting the rubbish
+23. [ ] News in everyday life: understanding a short news item
+24. [ ] Life in Sweden and life where you come from: habits, etiquette, expectations
+25. [ ] Final review: telling the story of your life in Sweden and your plans
 26. [ ] An overview of the tense system: present, preterite, perfect, pluperfect, future
 27. [ ] The pluperfect when narrating a sequence of events
 28. [ ] The `-s` passive and the `bli` passive
@@ -368,18 +409,18 @@ a normal (not adapted) pace. Next comes SVA grund delkurs 1.
 34. [ ] Causals: `eftersom`, `därför att`, `på grund av`
 35. [ ] Reported speech and the indirect question with `om`
 36. [ ] Relative clauses: `som`, `där`, `dit`, `vars`
-37. [ ] Present and past participles as modifiers
-38. [ ] Double definiteness: the full picture, including the exceptions
+37. [ ] Understanding speech at a normal pace: `dom`, `ja`, `å` and the other reductions
+38. [ ] The genitive in a longer phrase: `min kompis bror`, `Sveriges regering`
 39. [ ] Difficult agreement cases: `liten / litet / lilla / små`
 40. [ ] Abstract prepositions: `av`, `för`, `till`, `om`, `inför`
 41. [ ] Verbs governing prepositions: the frequent pairs
-42. [ ] Nominalisation and the marks of written style
+42. [ ] `vara` and `bli`: a state and a change of state
 43. [ ] Text connectors: `dessutom`, `däremot`, `alltså`, `därför`, `å andra sidan`
 44. [ ] Modal particles: `ju`, `nog`, `väl`, `faktiskt`
 45. [ ] The written norm versus the spoken one: `dem/dom`, `ska/skall`, `sade/sa`
-46. [ ] `vore` and other cautious wordings in a request or an opinion
+46. [ ] Checking that you have understood: `eller hur?`, `va?`, `menar du att …?`
 47. [ ] Impersonal `det`: `det regnar`, `det är viktigt att …`, `det sägs att …`
-48. [ ] Comparative constructions: `ju … desto`, `lika … som`, `ännu mer än`
+48. [ ] The imperative of all four verb groups: instructions, recipes and signs
 49. [ ] Word formation with the prefixes `o-` and `miss-`: `omöjlig`, `otrevlig`, `missförstå`
 50. [ ] Punctuation in a written text: the comma before a subordinate clause, paragraphing
 
@@ -467,7 +508,7 @@ structured (introduction — body — conclusion), and work with sources appears
 13. [x] News: reading a short article and picking out the essentials — `sva-grund-2/news-article-essentials`
 14. [x] Describing a chart and statistics in plain words — `sva-grund-2/describing-charts`
 15. [x] The argumentative text: thesis, arguments, conclusion — `sva-grund-2/argumentative-text`
-16. [x] Retelling and summarising (referat) — `sva-grund-2/referat-summary`
+16. [x] Retelling and summarising (referat): the neutral third-person phrases — `sva-grund-2/referat-summary`
 17. [x] A formal letter to an organisation — `sva-grund-2/formal-letter-organisation`
 18. [x] A complaint and a claim in writing — `sva-grund-2/written-complaint-claim`
 19. [x] Holidays and traditions: comparing cultures — `sva-grund-2/holidays-culture-comparison`
@@ -545,7 +586,7 @@ argumentative; critical reading of sources; a conscious choice of style.
 33. [x] Reported speech and source markers: `enligt`, `hävdar att`, `menar att` — `sva-grund-3/source-markers`
 34. [x] Argumentative constructions: `å ena sidan … å andra sidan`, `visserligen … men` — `sva-grund-3/argumentative-constructions`
 35. [x] Comparative constructions: `ju … desto`, `lika … som`, `än` — `sva-grund-3/comparative-constructions`
-36. [x] Conditional and hypothetical constructions — extended — `sva-grund-3/extended-conditionals`
+36. [x] Conditional and hypothetical constructions — extended, including the `om`-less conditional with inversion — `sva-grund-3/extended-conditionals`
 37. [x] Information structure: theme and rheme, and choosing the fundament — `sva-grund-3/theme-rheme`
 38. [x] Nominal versus verbal style: when each is appropriate — `sva-grund-3/nominal-verbal-style`
 39. [x] Idioms, metaphors and fixed expressions — `sva-grund-3/idioms-metaphors`
@@ -556,7 +597,7 @@ argumentative; critical reading of sources; a conscious choice of style.
 44. [x] Registers: formal, neutral, colloquial — `sva-grund-3/registers`
 45. [x] Typical interference errors and techniques for proofreading your own text — `sva-grund-3/proofreading-techniques`
 46. [ ] Apposition and parenthetical insertions inside a sentence
-47. [ ] Existential sentences with `det finns` and the constraint on definiteness
+47. [ ] Prosody at a natural pace: word accent, sentence stress and reductions in connected speech
 48. [ ] Generic reference: the indefinite, the definite and the bare plural in general statements
 49. [ ] Negation and its scope: `inte`, `ingen`, `aldrig`, `knappast` — placement by clause type
 50. [ ] Phase and aspect through verbs and particles: `börja`, `hålla på att`, `bruka`, `få gjort`
@@ -592,7 +633,7 @@ style.
 20. [x] Digital literacy: sources, AI, fact-checking — `sva-grund-4/digital-literacy`
 21. [x] A comparative text: two points of view, two systems — `sva-grund-4/comparative-text`
 22. [x] An instructional text: explaining a process to the reader — `sva-grund-4/instructional-text-advanced`
-23. [x] Proofreading your own text — `sva-grund-4/self-proofreading`
+23. [x] Proofreading your own text — the working habits: reading aloud, one error type per pass — `sva-grund-4/self-proofreading`
 24. [x] Giving feedback on someone else's text (kamratrespons) — `sva-grund-4/peer-feedback`
 25. [x] The final project: your own text on a free topic, defended orally — `sva-grund-4/final-project`
 26. [x] Full systematisation of the verb system, including the rare forms — `sva-grund-4/verb-system-full`
@@ -606,7 +647,7 @@ style.
 34. [x] Hedging and cautious wording: `kan tänkas`, `tycks`, `förefaller` — `sva-grund-4/hedging-language`
 35. [x] Evaluative vocabulary and objectivity of presentation — `sva-grund-4/evaluative-objectivity`
 36. [x] Proportional constructions: `ju … desto`, `i takt med att` — `sva-grund-4/proportional-constructions`
-37. [x] Conditional periods of every type, including the unreal past — `sva-grund-4/conditional-periods-full`
+37. [x] Conditional periods of every type in one summary table, including the unreal past — `sva-grund-4/conditional-periods-full`
 38. [x] Referatteknik: quotation, paraphrase, reference, plagiarism — `sva-grund-4/referat-technique`
 39. [x] Topicalisation, inversion and emphasis as a stylistic choice — `sva-grund-4/topicalisation-emphasis`
 40. [x] Tense and aspect in narrative: choosing a form for effect — `sva-grund-4/narrative-tense-aspect`
@@ -614,7 +655,7 @@ style.
 42. [x] Word formation: complex compounds and productive patterns — `sva-grund-4/complex-compounds`
 43. [x] Idioms, metaphors and phraseology in a text — `sva-grund-4/phraseology-in-text`
 44. [x] Punctuation and the layout of a formal text — `sva-grund-4/formal-text-layout`
-45. [x] Proofreading: the typical mistakes, a self-check list — `sva-grund-4/self-check-checklist`
+45. [x] The final check before handing in: a checklist of V2, gender, double definiteness, `sin/hans` — `sva-grund-4/self-check-checklist`
 46. [x] The long period: subordination versus coordination in a written text — `sva-grund-4/long-period-subordination-coordination`
 47. [x] Ellipsis: leaving out what has already been said, and avoiding repetition — `sva-grund-4/ellipsis-repetition-avoidance`
 48. [x] Emphatic and restrictive words: `endast`, `enbart`, `just`, `till och med` — `sva-grund-4/emphatic-restrictive-words`
