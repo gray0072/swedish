@@ -3,6 +3,7 @@ import type { LessonContent } from '@/content/loader';
 import { hashSeed, mulberry32, shuffle } from './prng';
 import { selectQuestions, type SelectionContext } from './selection';
 import type { GradeResult } from './grading';
+import { REWARDS } from '@/city/economy';
 
 export interface SessionQuestionResult {
   questionId: string;
@@ -107,9 +108,10 @@ export function computeRewards(session: QuizSession, inputs: RewardInputs): Rewa
   const passed = score >= inputs.passScore;
   const perfect = score === total;
 
-  const firstPassMultiplier = inputs.alreadyPassedBefore ? 0.3 : 1.0;
-  const perfectBonus = perfect ? 1.25 : 1.0;
-  const streakMultiplier = 1 + Math.min(inputs.streakDays, 10) * 0.02;
+  const firstPassMultiplier = inputs.alreadyPassedBefore ? REWARDS.repeatXpMultiplier : 1.0;
+  const perfectBonus = perfect ? REWARDS.perfectBonus : 1.0;
+  const streakMultiplier =
+    1 + Math.min(inputs.streakDays, REWARDS.streakBonusCapDays) * REWARDS.streakBonusPerDay;
 
   const rawXp = passed
     ? inputs.baseXp *
@@ -120,7 +122,7 @@ export function computeRewards(session: QuizSession, inputs: RewardInputs): Rewa
       streakMultiplier
     : 0;
   const xp = Math.round(rawXp);
-  const coins = Math.round(xp * 0.5 * inputs.perkCoinMultiplier);
+  const coins = Math.round(xp * REWARDS.coinsPerXp * inputs.perkCoinMultiplier);
 
   return { score, total, passed, xp, coins, perfect };
 }

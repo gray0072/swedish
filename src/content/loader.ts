@@ -17,6 +17,7 @@ import {
   type VocabItem,
 } from './schema';
 import { expandGenerators } from './generators';
+import { BUILDING_PRICES, ERA_UNLOCK_XP } from '@/city/economy';
 
 // -- raw eager globs -----------------------------------------------------
 
@@ -202,6 +203,8 @@ function buildRegistry(): ContentRegistry {
     tracks = parsed.data.tracks;
   }
 
+  // Eras and buildings are content joined to the economy table in src/city/economy.ts —
+  // an id missing from that table is a content error, not a silently free building.
   let eras: Era[] = [];
   for (const mod of Object.values(erasFile)) {
     const parsed = erasFileSchema.safeParse(mod.default);
@@ -209,7 +212,16 @@ function buildRegistry(): ContentRegistry {
       errors.push(`eras.json: ${parsed.error.message}`);
       continue;
     }
-    eras = parsed.data.eras.sort((a, b) => a.order - b.order);
+    eras = parsed.data.eras
+      .sort((a, b) => a.order - b.order)
+      .flatMap((era) => {
+        const unlockXp = ERA_UNLOCK_XP[era.id];
+        if (unlockXp === undefined) {
+          errors.push(`eras.json: era "${era.id}" has no ERA_UNLOCK_XP entry in city/economy.ts`);
+          return [];
+        }
+        return [{ ...era, unlockXp }];
+      });
   }
 
   let buildings: Building[] = [];
@@ -219,7 +231,16 @@ function buildRegistry(): ContentRegistry {
       errors.push(`buildings.json: ${parsed.error.message}`);
       continue;
     }
-    buildings = parsed.data.buildings;
+    buildings = parsed.data.buildings.flatMap((building) => {
+      const price = BUILDING_PRICES[building.id];
+      if (!price) {
+        errors.push(
+          `buildings.json: building "${building.id}" has no BUILDING_PRICES entry in city/economy.ts`,
+        );
+        return [];
+      }
+      return [{ ...building, ...price }];
+    });
   }
 
   const history: HistoryCard[] = [];

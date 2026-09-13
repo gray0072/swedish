@@ -9,6 +9,7 @@ import type { RewardResult } from '@/quiz/engine';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
 import { getBuildings } from '@/content/registry';
+import { buildingCostAt } from '@/city/economy';
 import { renderShareCard } from '@/lib/shareCard';
 
 export default function ResultPage() {
@@ -74,8 +75,7 @@ export default function ResultPage() {
   const affordable = getBuildings().find((b) => {
     const level = buildingLevels[b.id] ?? 0;
     if (level >= b.maxLevel) return false;
-    const cost = Math.round(b.cost.coins * Math.pow(b.costGrowth, level));
-    return cost <= wallet.coins;
+    return buildingCostAt(b, level) <= wallet.coins;
   });
 
   return (

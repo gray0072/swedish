@@ -14,8 +14,8 @@ import {
 import { computeDueDate, nextBox, type Box } from '@/srs/scheduler';
 import type { RewardResult } from '@/quiz/engine';
 import type { StudyLanguage } from '@/content/schema';
-
-const DAILY_REWARD_CAP = 2;
+import { REWARDS, STREAK } from '@/city/economy';
+import { getActivePerks } from '@/city/perks';
 
 function dateAddDays(dateStr: string, delta: number): string {
   const d = new Date(dateStr + 'T00:00:00Z');
@@ -23,10 +23,21 @@ function dateAddDays(dateStr: string, delta: number): string {
   return d.toISOString().slice(0, 10);
 }
 
-function applyStreak(streak: SaveFile['streak'], today: string): SaveFile['streak'] {
+/**
+ * `extraFreezes` is the city's `streakFreeze` perk total: it raises the number of freezes
+ * that can be *stored*, while the weekly grant stays at one. Scaling the grant instead would
+ * hand a fully-built city five freezes a week and make the streak unloseable — the perk is
+ * meant to be a deeper safety net, not an off switch.
+ */
+function applyStreak(
+  streak: SaveFile['streak'],
+  today: string,
+  extraFreezes: number,
+): SaveFile['streak'] {
   if (streak.lastActiveDate === today) return streak;
 
   const yesterday = dateAddDays(today, -1);
+  const maxFreezes = STREAK.maxFreezes + extraFreezes;
   let current: number;
   let freezesAvailable = streak.freezesAvailable;
 
@@ -42,8 +53,8 @@ function applyStreak(streak: SaveFile['streak'], today: string): SaveFile['strea
     current = 1;
   }
 
-  if (current > 0 && current % 7 === 0 && freezesAvailable < 2) {
-    freezesAvailable += 1;
+  if (current > 0 && current % STREAK.freezeEveryDays === 0) {
+    freezesAvailable = Math.min(freezesAvailable + 1, maxFreezes);
   }
 
   return {
@@ -54,9 +65,18 @@ function applyStreak(streak: SaveFile['streak'], today: string): SaveFile['strea
   };
 }
 
+/** Perk totals straight off a save's buildings — the non-hook path into the same selector. */
+function perksOf(state: SaveFile) {
+  const levels: Record<string, number> = {};
+  for (const [id, b] of Object.entries(state.city.buildings)) levels[id] = b.level;
+  return getActivePerks(levels);
+}
+
 interface AppState extends SaveFile {
   setLanguage: (lang: StudyLanguage) => void;
   touchDailyActivity: () => void;
+  /** Pays the city's dailyIncome perk if it hasn't been paid today. Returns coins paid. */
+  claimDailyIncome: () => number;
   recordItemAnswer: (questionId: string, correct: boolean) => void;
   isRewardEligible: (lessonId: string) => boolean;
   recordAttempt: (lessonId: string, reward: RewardResult, questionIds: string[]) => RewardResult;
@@ -103,7 +123,27 @@ export const useAppStore = create<AppState>()(
       setLanguage: (lang) => set({ language: lang }),
 
       touchDailyActivity: () => {
-        set((s) => ({ streak: applyStreak(s.streak, todayStr()) }));
+        set((s) => ({ streak: applyStreak(s.streak, todayStr(), perksOf(s).streakFreeze) }));
+      },
+
+      // Called once when the app shell mounts. Idempotent within a day, so re-opening the
+      // app or refreshing the page can't be farmed for a second payout.
+      claimDailyIncome: () => {
+        const s = get();
+        const today = todayStr();
+        if (s.dailyIncomeClaimedOn === today) return 0;
+        const amount = Math.round(perksOf(s).dailyIncome);
+        if (amount <= 0) {
+          // Still stamp the date: with no income buildings there is nothing to pay, and
+          // leaving it null would re-run this check on every navigation.
+          set({ dailyIncomeClaimedOn: today });
+          return 0;
+        }
+        set({
+          dailyIncomeClaimedOn: today,
+          wallet: { ...s.wallet, coins: s.wallet.coins + amount },
+        });
+        return amount;
       },
 
       recordItemAnswer: (questionId, correct) => {
@@ -136,7 +176,7 @@ export const useAppStore = create<AppState>()(
         if (!lp) return true;
         const today = todayStr();
         const runsToday = lp.rewardedRunsDate === today ? lp.rewardedRunsToday : 0;
-        return runsToday < DAILY_REWARD_CAP;
+        return runsToday < REWARDS.dailyRewardedRunsPerLesson;
       },
 
       recordAttempt: (lessonId, reward, questionIds) => {
@@ -174,7 +214,7 @@ export const useAppStore = create<AppState>()(
               xp: s.wallet.xp + finalReward.xp,
               coins: s.wallet.coins + finalReward.coins,
             },
-            streak: applyStreak(s.streak, today),
+            streak: applyStreak(s.streak, today, perksOf(s).streakFreeze),
           };
         });
 

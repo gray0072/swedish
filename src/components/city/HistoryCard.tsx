@@ -3,21 +3,46 @@ import type { HistoryCard as HistoryCardData } from '@/content/schema';
 import { resolveLocalized } from '@/content/schema';
 import { useLanguage } from '@/store/settings';
 import { useT } from '@/i18n';
+import { REWARDS } from '@/city/economy';
 import { useAppStore } from '@/store/appStore';
-import { getHistoryQuestionIdsForCard } from '@/content/registry';
+import { getBuilding, getHistoryQuestionIdsForCard } from '@/content/registry';
+import { useIsBuilt } from '@/store/city';
+import { Lock } from 'lucide-react';
 import AudioButton from '@/components/lesson/AudioButton';
-
-const READ_REWARD = 15;
 
 export default function HistoryCard({ card }: { card: HistoryCardData }) {
   const t = useT();
   const lang = useLanguage();
   const [open, setOpen] = useState(false);
   const isRead = useAppStore((s) => s.historyRead.includes(card.id));
+  // A card is the reward for putting up the building it belongs to (SPEC §12.4): until that
+  // building exists, the card is visible but sealed — which is what makes `unlockedBy` mean
+  // something instead of being a decorative field.
+  const unlocked = useIsBuilt(card.unlockedBy);
   const markHistoryRead = useAppStore((s) => s.markHistoryRead);
   const seedReviewItems = useAppStore((s) => s.seedReviewItems);
 
   const years = card.date.to ? `${card.date.from}–${card.date.to}` : `${card.date.from}`;
+
+  if (!unlocked) {
+    const gate = resolveLocalized(getBuilding(card.unlockedBy)?.name, lang) || card.unlockedBy;
+    return (
+      <div className="card border-l-4 !border-l-granite/40 opacity-70">
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <p className="font-display text-lg font-semibold text-granite dark:text-birch/60">
+              {resolveLocalized(card.title, lang)}
+            </p>
+            <p className="text-xs text-granite dark:text-birch/50">{years}</p>
+          </div>
+          <span className="flex items-center gap-1.5 text-right text-xs font-semibold text-granite dark:text-birch/50">
+            <Lock size={13} aria-hidden="true" />
+            {t('city.history.locked', { building: gate })}
+          </span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="card border-l-4 !border-l-falu">
@@ -26,7 +51,7 @@ export default function HistoryCard({ card }: { card: HistoryCardData }) {
         onClick={() => {
           setOpen((o) => !o);
           if (!isRead) {
-            markHistoryRead(card.id, READ_REWARD);
+            markHistoryRead(card.id, REWARDS.historyCardCoins);
             seedReviewItems(getHistoryQuestionIdsForCard(card.id));
           }
         }}
@@ -40,7 +65,7 @@ export default function HistoryCard({ card }: { card: HistoryCardData }) {
           <span className="text-xs font-semibold text-pine dark:text-aurora">✓ {t('city.history.read')}</span>
         ) : (
           <span className="text-xs font-semibold text-falu dark:text-gold">
-            {t('city.history.reward', { coins: READ_REWARD })}
+            {t('city.history.reward', { coins: REWARDS.historyCardCoins })}
           </span>
         )}
       </button>

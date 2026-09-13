@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import type { BuildingPrice } from '@/city/economy';
 
 /** { ru?, en?, sv? } — sv is content (Swedish words/flavour), never an interface locale. */
 export const localizedStringSchema = z.object({
@@ -257,43 +258,53 @@ export type QuestionsFile = z.infer<typeof questionsFileSchema>;
 // City: eras & buildings
 // ---------------------------------------------------------------------------
 
+// Prices, level caps and XP thresholds deliberately live in src/city/economy.ts, not here:
+// content says what a thing *is*, the economy module says what it costs and when it opens,
+// so the whole curve can be retuned in one file (SPEC §8.3). The loader merges the two, and
+// the `Era`/`Building` types the app consumes are the merged shape.
+
 export const eraSchema = z.object({
   id: z.string(),
   order: z.number(),
   name: localizedStringSchema,
-  unlockXp: z.number(),
+  /** True for the four future eras — informed guesses, not history (SPEC §12.8). */
+  speculative: z.boolean().default(false),
   palette: z.object({ primary: z.string(), accent: z.string() }),
 });
-export type Era = z.infer<typeof eraSchema>;
+export type EraContent = z.infer<typeof eraSchema>;
+export type Era = EraContent & { unlockXp: number };
 
 export const erasFileSchema = z.object({ eras: z.array(eraSchema) });
 
+// Every perk here is a NUMBER the learner can watch change (SPEC §8.4). Unlocking content —
+// a history card, a themed lesson pack — is expressed by an `unlockedBy` field on the content
+// itself (§12.4), never by a perk, so an unlock can never point at content that doesn't exist.
 export const perkSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('xpMultiplier'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('coinMultiplier'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('dailyIncome'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('extraReviewSlots'), valuePerLevel: z.number() }),
+  z.object({ type: z.literal('reviewBonus'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('streakFreeze'), valuePerLevel: z.number() }),
-  z.object({ type: z.literal('unlockLessonPack'), packId: z.string() }),
   z.object({ type: z.literal('hintToken'), valuePerLevel: z.number() }),
+  z.object({ type: z.literal('retryToken'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('cosmetic') }),
 ]);
 export type Perk = z.infer<typeof perkSchema>;
+export type PerkType = Perk['type'];
 
 export const buildingSchema = z.object({
   id: z.string(),
   era: z.string(),
   name: localizedStringSchema,
   description: localizedStringSchema.optional(),
-  cost: z.object({ coins: z.number().positive() }),
   requires: z.array(z.string()).default([]),
-  maxLevel: z.number().int().positive().default(1),
-  costGrowth: z.number().default(1.6),
   perk: perkSchema,
   position: z.object({ x: z.number(), y: z.number() }),
   flavour: localizedStringSchema.optional(),
 });
-export type Building = z.infer<typeof buildingSchema>;
+export type BuildingContent = z.infer<typeof buildingSchema>;
+export type Building = BuildingContent & BuildingPrice;
 
 export const buildingsFileSchema = z.object({ buildings: z.array(buildingSchema) });
 

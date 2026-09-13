@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Check, LogOut } from 'lucide-react';
+import { Check, Lightbulb, LogOut, RotateCcw } from 'lucide-react';
 import type { LessonContent } from '@/content/loader';
 import { createSession, recordResult, computeRewards, type RewardResult } from '@/quiz/engine';
 import { grade, type Answer, type GradeResult } from '@/quiz/grading';
@@ -10,6 +10,7 @@ import { useAppStore } from '@/store/appStore';
 import { useLessonProgress, usePreviousRunQuestionIds, useSelectionContext } from '@/store/progress';
 import { usePerks } from '@/store/city';
 import { useStreak } from '@/store/wallet';
+import { buildHint, hasHint, type Hint } from '@/quiz/hints';
 import ProgressBar from '@/components/ui/ProgressBar';
 import QuestionRenderer from './QuestionRenderer';
 
@@ -41,12 +42,15 @@ export default function QuizRunner({
   const [phase, setPhase] = useState<Phase>('answering');
   const [draft, setDraft] = useState<Answer | null>(null);
   const [feedback, setFeedback] = useState<GradeResult | null>(null);
-  // The one free retry is per RUN, not per question (SPEC §6.2) — retryUsed never resets
-  // between questions, only isRetryAttempt (this question is being re-answered) does.
-  const [retryUsed, setRetryUsed] = useState(false);
+  // Retries are counted per RUN, not per question (SPEC §6.2). The rules always give one;
+  // the city's retryToken perk adds more, so this is a budget rather than a boolean.
+  const [retriesLeft, setRetriesLeft] = useState(() => 1 + perks.retryTokens);
   const [isRetryAttempt, setIsRetryAttempt] = useState(false);
   const [awaitingRetryDecision, setAwaitingRetryDecision] = useState(false);
   const [resetTick, setResetTick] = useState(0);
+  // Hint tokens are a per-run budget too, spent at most once per question.
+  const [hintsLeft, setHintsLeft] = useState(() => perks.hintTokens);
+  const [hint, setHint] = useState<Hint | null>(null);
 
   const question = session.questions[index];
   const isLast = index === session.questions.length - 1;
@@ -76,6 +80,7 @@ export default function QuizRunner({
     setFeedback(null);
     setIsRetryAttempt(false);
     setAwaitingRetryDecision(false);
+    setHint(null);
     setResetTick((n) => n + 1);
   }, [isLast, session, lesson, progress, streak, perks, recordAttempt, onFinish]);
 
@@ -85,16 +90,24 @@ export default function QuizRunner({
     setFeedback(result);
     setPhase('feedback');
 
-    const offerRetry = !result.correct && !retryUsed && !isRetryAttempt;
+    const offerRetry = !result.correct && retriesLeft > 0 && !isRetryAttempt;
     if (offerRetry) {
-      setRetryUsed(true);
+      setRetriesLeft((n) => n - 1);
       setAwaitingRetryDecision(true);
     } else {
       setAwaitingRetryDecision(false);
       recordResult(session, question.id, result, isRetryAttempt);
       recordItemAnswer(question.id, result.correct);
     }
-  }, [draft, question, retryUsed, isRetryAttempt, session, recordItemAnswer]);
+  }, [draft, question, retriesLeft, isRetryAttempt, session, recordItemAnswer]);
+
+  const handleHint = useCallback(() => {
+    if (hintsLeft <= 0 || hint) return;
+    const next = buildHint(question);
+    if (!next) return;
+    setHint(next);
+    setHintsLeft((n) => n - 1);
+  }, [hintsLeft, hint, question]);
 
   const handleRetry = useCallback(() => {
     setIsRetryAttempt(true);
@@ -132,6 +145,16 @@ export default function QuizRunner({
           {t('quiz.question')} {index + 1}/{session.questions.length}
         </span>
         <ProgressBar value={index + (phase === 'feedback' ? 1 : 0)} max={session.questions.length} />
+        {retriesLeft > 0 && (
+          <span
+            className="flex shrink-0 items-center gap-1 text-xs font-semibold text-granite dark:text-birch/60"
+            title={t('quiz.retriesLeft', { count: retriesLeft })}
+          >
+            <RotateCcw size={13} aria-hidden="true" />
+            {retriesLeft}
+            <span className="sr-only">{t('quiz.retriesLeft', { count: retriesLeft })}</span>
+          </span>
+        )}
       </div>
 
       <div className="card" aria-live="polite">
@@ -141,7 +164,15 @@ export default function QuizRunner({
           disabled={phase === 'feedback'}
           onChange={setDraft}
           resetKey={resetTick}
+          eliminated={hint?.eliminated}
         />
+
+        {hint?.messageKey && (
+          <p className="mt-3 flex items-center gap-1.5 rounded-xl bg-gold/15 px-3 py-2 text-sm text-granite dark:text-birch/80">
+            <Lightbulb size={14} className="shrink-0 text-gold" aria-hidden="true" />
+            {t(hint.messageKey, { value: hint.messageValue })}
+          </p>
+        )}
 
         {phase === 'feedback' && feedback && (
           <div
@@ -175,7 +206,21 @@ export default function QuizRunner({
 
       <div className="mt-4 flex items-center justify-between">
         <span className="sr-only">{promptPreview}</span>
-        <div />
+        {phase === 'answering' && hintsLeft > 0 && !hint && hasHint(question) ? (
+          <button
+            type="button"
+            onClick={handleHint}
+            className="flex items-center gap-1.5 rounded-xl border border-gold/50 px-3 py-2 text-sm font-semibold text-granite hover:bg-gold/10 dark:text-birch/80"
+          >
+            <Lightbulb size={15} className="text-gold" aria-hidden="true" />
+            {t('quiz.hint')}
+            <span className="font-normal text-granite/70 dark:text-birch/50">
+              {t('quiz.hint.left', { count: hintsLeft })}
+            </span>
+          </button>
+        ) : (
+          <div />
+        )}
         {phase === 'answering' ? (
           <button className="btn-primary" disabled={!draft} onClick={handleCheck}>
             <Check size={16} aria-hidden="true" />

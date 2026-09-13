@@ -1,56 +1,11 @@
 import { useMemo } from 'react';
 import { useAppStore } from './appStore';
-import { getBuilding, getBuildings, getEras } from '@/content/registry';
-import type { Perk } from '@/content/schema';
+import { getBuildings, getEras } from '@/content/registry';
+import { getActivePerks, type PerkTotals } from '@/city/perks';
 import type { BuildingState } from './persist';
 
-export interface PerkTotals {
-  xpMultiplier: number;
-  coinMultiplier: number;
-  dailyIncome: number;
-  extraReviewSlots: number;
-  unlockedPacks: string[];
-}
-
-/** Pure selector — the quiz engine never reaches into the city store directly (SPEC §8.4). */
-export function getActivePerks(buildingLevels: Record<string, number>): PerkTotals {
-  const totals: PerkTotals = {
-    xpMultiplier: 1,
-    coinMultiplier: 1,
-    dailyIncome: 0,
-    extraReviewSlots: 0,
-    unlockedPacks: [],
-  };
-  for (const [buildingId, level] of Object.entries(buildingLevels)) {
-    if (level <= 0) continue;
-    const building = getBuilding(buildingId);
-    if (!building) continue;
-    applyPerk(totals, building.perk, level);
-  }
-  return totals;
-}
-
-function applyPerk(totals: PerkTotals, perk: Perk, level: number) {
-  switch (perk.type) {
-    case 'xpMultiplier':
-      totals.xpMultiplier += perk.valuePerLevel * level;
-      break;
-    case 'coinMultiplier':
-      totals.coinMultiplier += perk.valuePerLevel * level;
-      break;
-    case 'dailyIncome':
-      totals.dailyIncome += perk.valuePerLevel * level;
-      break;
-    case 'extraReviewSlots':
-      totals.extraReviewSlots += perk.valuePerLevel * level;
-      break;
-    case 'unlockLessonPack':
-      totals.unlockedPacks.push(perk.packId);
-      break;
-    default:
-      break;
-  }
-}
+export { getActivePerks, NO_PERKS } from '@/city/perks';
+export type { PerkTotals } from '@/city/perks';
 
 // Select the raw, reference-stable buildings map first, then derive with useMemo — building
 // a new object inline inside the zustand selector would give useSyncExternalStore a fresh
@@ -68,7 +23,7 @@ export function useCityBuildingLevels(): Record<string, number> {
 
 export function usePerks(): PerkTotals {
   const levels = useCityBuildingLevels();
-  return getActivePerks(levels);
+  return useMemo(() => getActivePerks(levels), [levels]);
 }
 
 /** Current era is simply the highest-order era whose XP threshold has been reached. */
@@ -88,4 +43,9 @@ export function useOwnedBuildingCount(): number {
 
 export function totalBuildingsCount(): number {
   return getBuildings().length;
+}
+
+/** True once the building that gates a piece of content has been built at least once. */
+export function useIsBuilt(buildingId: string): boolean {
+  return useAppStore((s) => (s.city.buildings[buildingId]?.level ?? 0) > 0);
 }

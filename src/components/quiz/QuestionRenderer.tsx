@@ -14,6 +14,8 @@ interface Props {
   onChange: (answer: Answer | null) => void;
   /** Bumped by the parent to force a fresh draft when the same question is retried. */
   resetKey: number;
+  /** Choice indices crossed out by a spent hint token — mc and listen only. */
+  eliminated?: number[];
 }
 
 const optionLetter = ['1', '2', '3', '4', '5', '6'];
@@ -24,26 +26,32 @@ function McChoices({
   onSelect,
   disabled,
   lang,
+  eliminated = [],
 }: {
   choices: Choice[];
   selected: number | null;
   onSelect: (i: number) => void;
   disabled: boolean;
   lang: ReturnType<typeof useLanguage>;
+  eliminated?: number[];
 }) {
   return (
     <div className="grid gap-2 sm:grid-cols-2">
-      {choices.map((choice, i) => (
+      {choices.map((choice, i) => {
+        const isOut = eliminated.includes(i);
+        return (
         <button
           key={i}
           type="button"
-          disabled={disabled}
+          disabled={disabled || isOut}
           onClick={() => onSelect(i)}
           className={
             'flex items-center gap-2 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-colors ' +
-            (selected === i
-              ? 'border-falu bg-falu/10 dark:bg-falu/20'
-              : 'border-granite/20 hover:border-falu/50 hover:bg-granite/5 dark:border-white/15 dark:hover:bg-white/5')
+            (isOut
+              ? 'border-granite/15 text-granite/40 line-through dark:border-white/10 dark:text-birch/25'
+              : selected === i
+                ? 'border-falu bg-falu/10 dark:bg-falu/20'
+                : 'border-granite/20 hover:border-falu/50 hover:bg-granite/5 dark:border-white/15 dark:hover:bg-white/5')
           }
         >
           <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-granite/10 text-[11px] font-bold dark:bg-white/10">
@@ -51,12 +59,19 @@ function McChoices({
           </span>
           {resolveChoice(choice, lang)}
         </button>
-      ))}
+        );
+      })}
     </div>
   );
 }
 
-export default function QuestionRenderer({ question, disabled, onChange, resetKey }: Props) {
+export default function QuestionRenderer({
+  question,
+  disabled,
+  onChange,
+  resetKey,
+  eliminated,
+}: Props) {
   const lang = useLanguage();
   const t = useT();
   const [mcChoice, setMcChoice] = useState<number | null>(null);
@@ -95,6 +110,7 @@ export default function QuestionRenderer({ question, disabled, onChange, resetKe
           selected={mcChoice}
           disabled={disabled}
           lang={lang}
+          eliminated={eliminated}
           onSelect={(i) => {
             setMcChoice(i);
             onChange({ kind: 'mc', choiceIndex: i });
@@ -123,6 +139,7 @@ export default function QuestionRenderer({ question, disabled, onChange, resetKe
           selected={mcChoice}
           disabled={disabled}
           lang={lang}
+          eliminated={eliminated}
           onSelect={(i) => {
             setMcChoice(i);
             onChange({ kind: 'listen', choiceIndex: i });

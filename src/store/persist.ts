@@ -50,6 +50,12 @@ export interface SaveFile {
   items: Record<string, ItemProgress>;
   city: { buildings: Record<string, BuildingState> };
   historyRead: string[];
+  /**
+   * yyyy-mm-dd of the last day the `dailyIncome` perk was paid out, or null if never.
+   * Optional in the parsed schema on purpose: a save written before daily income existed
+   * simply has no field, and is defaulted below rather than needing a version migration.
+   */
+  dailyIncomeClaimedOn: string | null;
   settings: {
     theme: 'system' | 'light' | 'dark';
     sound: boolean;
@@ -70,6 +76,7 @@ export function freshSave(): SaveFile {
     items: {},
     city: { buildings: {} },
     historyRead: [],
+    dailyIncomeClaimedOn: null,
     settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null },
   };
 }
@@ -92,6 +99,9 @@ export const saveFileSchema = z
     items: z.record(z.string(), z.any()),
     city: z.object({ buildings: z.record(z.string(), z.any()) }),
     historyRead: z.array(z.string()),
+    // Optional for the same reason as settings.ttsVoice below: saves from before the perk
+    // was granted don't have it, and "never claimed" is the right reading.
+    dailyIncomeClaimedOn: z.string().nullable().optional(),
     settings: z.object({
       theme: z.enum(['system', 'light', 'dark']),
       sound: z.boolean(),
@@ -125,6 +135,8 @@ export function migrateSave(raw: unknown): SaveFile {
   // A save from before the voice picker existed won't have settings.ttsVoice at all —
   // treat that the same as "auto-pick" rather than leaving it undefined.
   if (save.settings.ttsVoice === undefined) save.settings.ttsVoice = null;
+  // Same for daily income: an older save has never been paid, so it gets paid today.
+  if (save.dailyIncomeClaimedOn === undefined) save.dailyIncomeClaimedOn = null;
   return save;
 }
 

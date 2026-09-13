@@ -1,19 +1,17 @@
 import { Link } from 'react-router-dom';
-import { Flame, Landmark, RotateCcw } from 'lucide-react';
+import { Landmark, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
-import { useWallet, useStreak } from '@/store/wallet';
 import { useAllLessonProgress, useDueReviewCount } from '@/store/progress';
 import { useCurrentEra, useOwnedBuildingCount, totalBuildingsCount } from '@/store/city';
 import { getAllLessons } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
-import { formatNumber } from '@/lib/format';
+import WalletBar from '@/components/ui/WalletBar';
+import PerkPanel from '@/components/city/PerkDisplay';
 
 export default function HomePage() {
   const t = useT();
   const lang = useLanguage();
-  const wallet = useWallet();
-  const streak = useStreak();
   const dueCount = useDueReviewCount();
   const lessonsProgress = useAllLessonProgress();
   const era = useCurrentEra();
@@ -29,23 +27,10 @@ export default function HomePage() {
         <p className="mt-2 max-w-2xl text-sm text-granite dark:text-birch/70">
           {t('home.hero.subtitle')}
         </p>
-        <div className="mt-4 flex flex-wrap items-center gap-4">
-          <div className="flex items-center gap-1.5 text-sm font-semibold">
-            <span className="text-gold">★</span> {formatNumber(wallet.xp)} {t('home.wallet.xp')}
-          </div>
-          <div className="flex items-center gap-1.5 text-sm font-semibold">
-            <span>🪙</span> {formatNumber(wallet.coins)} {t('home.wallet.coins')}
-          </div>
-          {streak.current > 0 && (
-            <Link
-              to="/stats"
-              className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
-            >
-              <Flame size={16} aria-hidden="true" /> {streak.current} {t('home.streak.days')}
-            </Link>
-          )}
-        </div>
       </section>
+
+      <WalletBar />
+      <PerkPanel />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {nextLesson && (

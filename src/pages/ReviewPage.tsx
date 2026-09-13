@@ -9,13 +9,11 @@ import { findAnyQuestionById } from '@/content/registry';
 import { grade, type Answer, type GradeResult } from '@/quiz/grading';
 import { prepareQuestion } from '@/quiz/engine';
 import { hashSeed, mulberry32 } from '@/quiz/prng';
+import { REWARDS } from '@/city/economy';
 import type { Question } from '@/content/schema';
 import QuestionRenderer from '@/components/quiz/QuestionRenderer';
 import ProgressBar from '@/components/ui/ProgressBar';
 import DalaHorse from '@/components/ui/DalaHorse';
-
-const BASE_REVIEW_CAP = 20;
-const REVIEW_COIN_BONUS = 20;
 
 export default function ReviewPage() {
   const t = useT();
@@ -26,7 +24,7 @@ export default function ReviewPage() {
   const perks = usePerks();
 
   const dueQuestions = useMemo(() => {
-    const cap = BASE_REVIEW_CAP + perks.extraReviewSlots;
+    const cap = REWARDS.baseReviewSessionSize + perks.extraReviewSlots;
     const due = Object.entries(items)
       .filter(([, stat]) => isDue(stat.dueAt))
       .sort((a, b) => new Date(a[1].dueAt).getTime() - new Date(b[1].dueAt).getTime())
@@ -63,7 +61,9 @@ export default function ReviewPage() {
         <PartyPopper className="mx-auto text-gold" size={40} aria-hidden="true" />
         <h1 className="text-xl font-semibold">{t('review.done.title')}</h1>
         <p className="text-sm text-granite dark:text-birch/70">{t('review.done.subtitle')}</p>
-        <p className="text-sm font-semibold text-falu dark:text-gold">+{REVIEW_COIN_BONUS} 🪙</p>
+        <p className="text-sm font-semibold text-falu dark:text-gold">
+          +{REWARDS.reviewSessionCoins + perks.reviewBonus} 🪙
+        </p>
         <Link to="/" className="btn-primary">
           {t('common.back')}
         </Link>
@@ -84,7 +84,7 @@ export default function ReviewPage() {
   function handleNext() {
     if (isLast) {
       touchDailyActivity();
-      addCoins(REVIEW_COIN_BONUS);
+      addCoins(REWARDS.reviewSessionCoins + perks.reviewBonus);
       setDone(true);
       return;
     }

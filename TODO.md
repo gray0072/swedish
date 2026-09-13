@@ -7,20 +7,20 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Content
 
-- [ ] **SFI kurs D** has only 3 lessons, **kurs C** has 5, **kurs B** has 9.
-  `CURRICULUM.md` lists 25 topics under each level — the last remaining gap in the
-  level-by-level content plan now that all of SVA grund (delkurs 1-4) and all of SFI
-  kurs A are done. A good candidate for a run with parallel agents (the approach is
-  described in the CHANGELOG entries for 2026-09-05 and 2026-09-07).
-- [ ] `CURRICULUM.md`'s grammar lists: **110/200 points now have a dedicated lesson** —
-  points 1-20 of SVA grund delkurs 1-3 plus all 25 of delkurs 4 (bilingual RU/EN
-  theory via `theory_ru.md`), and all 25 of SFI kurs A (19 with a lesson of their own,
-  appended past item 25 of the Topics list the way SVA grund does; 6 marked done by
-  reference to a topic lesson that already covered the point, no duplicate written).
-  The other 90 points (SFI kurs B–D's 75, and points 21-25 of SVA grund delkurs 1-3)
-  still rely on grammar being threaded through topic lessons' theory rather than a
-  dedicated lesson. There are also three reference
-  articles in `content/grammar/`.
+- [ ] **262 of the 400 lessons in `CURRICULUM.md` are written; 138 are not.** Since the
+  grammar lists were merged into the lesson lists, each level is one list of 50: the
+  thematic lessons first, the level's grammar after them, one lesson per point. What is
+  missing: **SFI kurs D** 47 lessons (3 of 50 written), **kurs C** 45 (5 of 50),
+  **kurs B** 25 (23 grammar lessons, plus the 2 topics added when the level was extended
+  to 50), **SFI kurs A** its 6 newly added topics — items 26-31, everything else on that
+  level is written — and the five closing grammar lessons of each of **SVA grund
+  delkurs 1-3** (items 46-50). SVA grund delkurs 4 is done in full. A good candidate for
+  a run with parallel agents (the approach is described in the CHANGELOG entries for
+  2026-09-05 and 2026-09-07).
+- [ ] Until a grammar lesson is written, that grammar still reaches the student only
+  through the theory of the thematic lessons — that is the case for all 138 unwritten
+  lessons above, 88 of which are grammar. There are also three reference articles in
+  `content/grammar/`.
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a

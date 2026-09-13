@@ -18,6 +18,7 @@ import {
   vocabFileSchema,
 } from '../src/content/schema';
 import { expandGenerators } from '../src/content/generators';
+import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', 'content');
@@ -160,7 +161,15 @@ const eraIds = new Set<string>();
 if (existsSync(erasPath)) {
   const parsed = erasFileSchema.safeParse(readJson(erasPath));
   if (!parsed.success) errors.push(`city/eras.json: ${parsed.error.message}`);
-  else for (const era of parsed.data.eras) eraIds.add(era.id);
+  else
+    for (const era of parsed.data.eras) {
+      eraIds.add(era.id);
+      // Thresholds and prices live in src/city/economy.ts, so a content id with no entry
+      // there would load as an era nobody can unlock / a building that costs nothing.
+      if (ERA_UNLOCK_XP[era.id] === undefined) {
+        errors.push(`era "${era.id}" has no ERA_UNLOCK_XP entry in src/city/economy.ts`);
+      }
+    }
 }
 
 const buildingsPath = join(ROOT, 'city', 'buildings.json');
@@ -171,6 +180,14 @@ if (existsSync(buildingsPath)) {
     for (const b of parsed.data.buildings) {
       buildingIds.add(b.id);
       if (!eraIds.has(b.era)) errors.push(`building "${b.id}" references unknown era "${b.era}"`);
+      if (!BUILDING_PRICES[b.id]) {
+        errors.push(`building "${b.id}" has no BUILDING_PRICES entry in src/city/economy.ts`);
+      }
+    }
+    for (const id of Object.keys(BUILDING_PRICES)) {
+      if (!buildingIds.has(id)) {
+        warnings.push(`BUILDING_PRICES has a price for "${id}", which is not in buildings.json`);
+      }
     }
     for (const b of parsed.data.buildings) {
       for (const req of b.requires) {

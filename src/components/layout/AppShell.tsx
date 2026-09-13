@@ -77,9 +77,13 @@ export default function AppShell() {
   useThemeEffect();
   const t = useT();
   const touchDailyActivity = useAppStore((s) => s.touchDailyActivity);
+  const claimDailyIncome = useAppStore((s) => s.claimDailyIncome);
 
   useEffect(() => {
     touchDailyActivity();
+    // Pays the dailyIncome perk on the first visit of the day (SPEC §8.4). Idempotent, so
+    // it is safe to run on every mount — the store stamps the date and pays only once.
+    claimDailyIncome();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

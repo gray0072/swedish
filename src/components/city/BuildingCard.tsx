@@ -7,30 +7,8 @@ import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
 import { formatNumber } from '@/lib/format';
 import { getBuilding } from '@/content/registry';
-
-function perkLabel(building: Building, t: ReturnType<typeof useT>): string {
-  const p = building.perk;
-  switch (p.type) {
-    case 'xpMultiplier':
-      return `+${Math.round(p.valuePerLevel * 100)}% XP`;
-    case 'coinMultiplier':
-      return `+${Math.round(p.valuePerLevel * 100)}% 🪙`;
-    case 'dailyIncome':
-      return `+${p.valuePerLevel} 🪙/day`;
-    case 'extraReviewSlots':
-      return `+${p.valuePerLevel} review slots`;
-    case 'streakFreeze':
-      return `+${p.valuePerLevel} streak freeze/week`;
-    case 'unlockLessonPack':
-      return `🔓 ${p.packId}`;
-    case 'hintToken':
-      return `+${p.valuePerLevel} hints`;
-    case 'cosmetic':
-      return '✨';
-  }
-  void t;
-  return '';
-}
+import { buildingCostAt } from '@/city/economy';
+import { PerkLine } from './PerkDisplay';
 
 export default function BuildingCard({ building }: { building: Building }) {
   const t = useT();
@@ -41,7 +19,7 @@ export default function BuildingCard({ building }: { building: Building }) {
 
   const level = levels[building.id] ?? 0;
   const atMax = level >= building.maxLevel;
-  const cost = Math.round(building.cost.coins * Math.pow(building.costGrowth, level));
+  const cost = buildingCostAt(building, level);
   const missingRequirement = building.requires.find((reqId) => (levels[reqId] ?? 0) < 1);
   const canAfford = wallet.coins >= cost;
 
@@ -60,9 +38,7 @@ export default function BuildingCard({ building }: { building: Building }) {
           {resolveLocalized(building.description, lang)}
         </p>
       )}
-      <p className="text-xs font-semibold text-falu dark:text-gold">
-        {t('city.perk')}: {perkLabel(building, t)}
-      </p>
+      <PerkLine perk={building.perk} level={level} />
 
       {missingRequirement ? (
         <p className="mt-1 text-xs text-granite/70 dark:text-birch/40">

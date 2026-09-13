@@ -20,6 +20,12 @@ export type IconKey =
   | 'station'
   | 'arena'
   | 'museum'
+  | 'leaf'
+  | 'flask'
+  | 'antenna'
+  | 'wave'
+  | 'rocket'
+  | 'satellite'
   | 'star';
 
 const paths: Record<IconKey, ReactNode> = {
@@ -111,6 +117,46 @@ const paths: Record<IconKey, ReactNode> = {
       <path d="M3 19h18" />
     </>
   ),
+  leaf: (
+    <>
+      <path d="M20 4c0 9-5 14-12 14H5c0-9 5-14 12-14Z" />
+      <path d="M5 20c3-6 7-9 11-10" />
+    </>
+  ),
+  flask: (
+    <>
+      <path d="M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3" />
+      <path d="M9 3h6M7 15h10" />
+    </>
+  ),
+  antenna: (
+    <>
+      <path d="M12 11v9M8 20h8" />
+      <path d="M8.5 8.5a5 5 0 0 1 7 0M5.5 5.5a9 9 0 0 1 13 0" />
+      <circle cx="12" cy="11" r="1.5" />
+    </>
+  ),
+  wave: (
+    <>
+      <path d="M3 9h5l2-4 3 12 2-5h6" />
+      <path d="M3 15q3-2 6 0t6 0 6 0" />
+      <path d="M3 19q3-2 6 0t6 0 6 0" />
+    </>
+  ),
+  rocket: (
+    <>
+      <path d="M12 2c3 3 4 7 4 11l-4 3-4-3c0-4 1-8 4-11Z" />
+      <path d="M8 13l-3 3 2 1 1 3 3-3M16 13l3 3-2 1-1 3-3-3" />
+      <circle cx="12" cy="9" r="1.5" />
+    </>
+  ),
+  satellite: (
+    <>
+      <path d="M9 9 4 14l6 6 5-5" />
+      <path d="m13 5 6 6-3 3-6-6Z" />
+      <path d="M16 3l2 2M19 6l2 2" />
+    </>
+  ),
   star: (
     <path d="M12 3l2.4 5.8 6.2.5-4.7 4.1 1.5 6.1L12 16.6 6.6 19.5l1.5-6.1-4.7-4.1 6.2-.5Z" />
   ),
@@ -162,6 +208,26 @@ export const BUILDING_ICONS: Record<string, IconKey> = {
   'metro-art-station': 'station',
   'avicii-arena': 'arena',
   'abba-museum': 'museum',
+
+  'wood-city': 'tower',
+  'vertical-farm': 'leaf',
+  'electric-ferry': 'ship',
+  'climate-lab': 'flask',
+
+  'sky-garden': 'leaf',
+  'auto-metro': 'station',
+  'data-harbour': 'antenna',
+  'language-lab': 'flask',
+
+  'floating-district': 'wave',
+  'sea-gate': 'tower',
+  'kelp-farm': 'leaf',
+  'language-archive': 'museum',
+
+  'aurora-beacon': 'star',
+  'nobel-station': 'arena',
+  'space-port': 'rocket',
+  'space-school': 'satellite',
 };
 
 export function iconFor(buildingId: string): IconKey {

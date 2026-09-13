@@ -9,6 +9,8 @@ import HistoryCard from '@/components/city/HistoryCard';
 import CityMap from '@/components/city/CityMap';
 import EraFrame from '@/components/ui/EraFrame';
 import KurbitsDivider from '@/components/ui/KurbitsDivider';
+import WalletBar from '@/components/ui/WalletBar';
+import PerkPanel from '@/components/city/PerkDisplay';
 
 export default function CityPage() {
   const t = useT();
@@ -25,6 +27,9 @@ export default function CityPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-semibold">{t('city.title')}</h1>
+
+      <WalletBar />
+      <PerkPanel compact />
 
       <div className="flex gap-2 overflow-x-auto pb-1">
         {eras.map((era) => {
@@ -57,6 +62,12 @@ export default function CityPage() {
 
       {selectedEra?.id === 'viking' && (
         <p className="card !border-l-4 !border-l-gold text-sm">{t('city.eraIntro.viking')}</p>
+      )}
+
+      {/* The six historical eras are real history (SPEC §12.6); the four future ones are
+          informed guesses and have to say so wherever they are shown (SPEC §12.8). */}
+      {selectedEra?.speculative && (
+        <p className="card !border-l-4 !border-l-aurora text-sm">{t('city.eraIntro.future')}</p>
       )}
 
       {unlocked && selectedEra && (
