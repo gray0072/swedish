@@ -11,6 +11,7 @@ import { useCityBuildingLevels } from '@/store/city';
 import { getBuildings } from '@/content/registry';
 import { buildingCostAt } from '@/city/economy';
 import { renderShareCard } from '@/lib/shareCard';
+import { playFanfare, playSessionEnd } from '@/lib/sound';
 
 export default function ResultPage() {
   const { levelId = '', slug = '' } = useParams();
@@ -22,11 +23,22 @@ export default function ResultPage() {
   const wallet = useWallet();
   const buildingLevels = useCityBuildingLevels();
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  // StrictMode runs mount effects twice in dev; without this the fanfare plays over itself.
+  const celebrated = useRef(false);
 
   const reward = (location.state as { reward?: RewardResult } | null)?.reward;
 
   useEffect(() => {
-    if (!reward) navigate(`/lesson/${levelId}/${slug}`, { replace: true });
+    if (!reward) {
+      navigate(`/lesson/${levelId}/${slug}`, { replace: true });
+      return;
+    }
+    // The lesson is over: a fanfare if it was passed, a neutral chime if it wasn't. A run
+    // that fell short still gets a sound — silence would read as a bug — but not a verdict.
+    if (celebrated.current) return;
+    celebrated.current = true;
+    if (reward.passed) playFanfare(reward.perfect);
+    else playSessionEnd();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

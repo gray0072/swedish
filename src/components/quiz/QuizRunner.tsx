@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Check, Lightbulb, LogOut, RotateCcw } from 'lucide-react';
+import { ArrowRight, Check, Flag, Lightbulb, RotateCcw } from 'lucide-react';
 import type { LessonContent } from '@/content/loader';
 import { createSession, recordResult, computeRewards, type RewardResult } from '@/quiz/engine';
 import { grade, type Answer, type GradeResult } from '@/quiz/grading';
@@ -11,6 +11,7 @@ import { useLessonProgress, usePreviousRunQuestionIds, useSelectionContext } fro
 import { usePerks } from '@/store/city';
 import { useStreak } from '@/store/wallet';
 import { buildHint, hasHint, type Hint } from '@/quiz/hints';
+import { playCorrect } from '@/lib/sound';
 import ProgressBar from '@/components/ui/ProgressBar';
 import QuestionRenderer from './QuestionRenderer';
 
@@ -89,6 +90,7 @@ export default function QuizRunner({
     const result = grade(question, draft);
     setFeedback(result);
     setPhase('feedback');
+    if (result.correct) playCorrect();
 
     const offerRetry = !result.correct && retriesLeft > 0 && !isRetryAttempt;
     if (offerRetry) {
@@ -233,7 +235,11 @@ export default function QuizRunner({
         ) : (
           <button className="btn-primary" onClick={finalizeAndAdvance}>
             {isLast ? t('quiz.finish') : t('quiz.next')}
-            <LogOut size={16} className="rotate-180" aria-hidden="true" />
+            {isLast ? (
+              <Flag size={16} aria-hidden="true" />
+            ) : (
+              <ArrowRight size={16} aria-hidden="true" />
+            )}
           </button>
         )}
       </div>

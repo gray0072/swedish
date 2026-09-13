@@ -776,7 +776,7 @@ The connection must be **explicit and visible**:
 - **Audio everywhere:** every Swedish word, example and question prompt has a speaker button.
   On first load, warn once if no `sv-SE` voice is installed, with a link to OS instructions.
 - **Positive feedback:** an aurora sweep on a perfect run, a coin-count animation, subtle sounds
-  (mutable), encouraging copy in Swedish. Full motion and voice spec in §11.6–11.7.
+  (mutable), encouraging copy in Swedish. Full motion, sound and voice spec in §11.6–11.8.
 - **Accessibility:** full keyboard navigation, visible focus rings, `aria-live` for feedback,
   respect `prefers-reduced-motion`, contrast ≥ 4.5:1.
 - **PWA:** installable, offline-capable via a service worker precaching the app shell and
@@ -868,7 +868,34 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
 - Streak milestone → a kurbits vine grows around the streak counter.
 - Everything above is disabled under `prefers-reduced-motion`.
 
-### 11.7 Voice
+### 11.7 Sound
+
+Short chimes, **synthesized with the Web Audio API** in `src/lib/sound.ts` — not audio files.
+SPEC §2 rules out hosting audio assets, and a PWA that precaches every lesson JSON has no
+business also carrying megabytes of mp3 for a handful of sounds. All of them respect the
+`settings.sound` toggle and stay quiet (peak gain ≤ 0.11).
+
+**The quiz speaks in A major, the city answers in D major.** A sound says which half of the app
+it came from before the learner has read anything on screen.
+
+| Moment | Sound |
+|---|---|
+| Correct answer, in a lesson quiz or a review | A rising fifth, ~250 ms |
+| Lesson passed | An A major arpeggio landing on a held top note |
+| Lesson passed with a perfect run | The same, plus one note above it — the audible twin of the aurora sweep |
+| Lesson ended without a pass, review deck cleared | An open fifth: warm, unresolved, no verdict |
+| **New building constructed** | A low strike, then a D major chord blooming upward — heavier and slower than anything in the quiz, because this is the one moment where something becomes permanent |
+| **Building upgraded a level** | The same D major, three quick steps up: short and light, because upgrades get bought in runs |
+
+A purchase that fails — the coins ran out between render and click, or the building is already
+at its maximum — makes no sound at all. A sound is a receipt, not a button click.
+
+**There is deliberately no sound for a wrong answer.** A wrong answer only means the item comes
+back sooner (§6.4); scoring it with a buzzer would contradict the whole tone of the app. For the
+same reason the not-passed chime never falls in pitch — a descending phrase is what a buzzer
+sounds like.
+
+### 11.8 Voice
 
 - Feedback micro-copy is **in Swedish**: `Bra jobbat!` `Nästan!` `Perfekt!` `Heja!`
   `Lycka till!` `Vi ses!` — with a translation shown on first encounter and on hover.

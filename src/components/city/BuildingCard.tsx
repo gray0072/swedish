@@ -9,6 +9,7 @@ import { formatNumber } from '@/lib/format';
 import { getBuilding } from '@/content/registry';
 import { buildingCostAt } from '@/city/economy';
 import { PerkLine } from './PerkDisplay';
+import { playBuild, playUpgrade } from '@/lib/sound';
 
 export default function BuildingCard({ building }: { building: Building }) {
   const t = useT();
@@ -50,7 +51,13 @@ export default function BuildingCard({ building }: { building: Building }) {
         <button
           className="btn-primary mt-1"
           disabled={!canAfford}
-          onClick={() => buyBuilding(building.id, cost, building.maxLevel)}
+          onClick={() => {
+            // buyBuilding returns false when the coins ran out between render and click, or
+            // the building is already maxed — no sound for a purchase that didn't happen.
+            if (!buyBuilding(building.id, cost, building.maxLevel)) return;
+            if (level === 0) playBuild();
+            else playUpgrade();
+          }}
         >
           {level === 0 ? t('city.build') : t('city.upgrade')} · {formatNumber(cost)} 🪙
         </button>

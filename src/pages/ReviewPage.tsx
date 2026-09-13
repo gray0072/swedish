@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PartyPopper } from 'lucide-react';
+import { ArrowRight, Flag, PartyPopper } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { usePerks } from '@/store/city';
@@ -10,6 +10,7 @@ import { grade, type Answer, type GradeResult } from '@/quiz/grading';
 import { prepareQuestion } from '@/quiz/engine';
 import { hashSeed, mulberry32 } from '@/quiz/prng';
 import { REWARDS } from '@/city/economy';
+import { playCorrect, playFanfare } from '@/lib/sound';
 import type { Question } from '@/content/schema';
 import QuestionRenderer from '@/components/quiz/QuestionRenderer';
 import ProgressBar from '@/components/ui/ProgressBar';
@@ -79,6 +80,8 @@ export default function ReviewPage() {
     const result = grade(question, draft);
     setFeedback(result);
     recordItemAnswer(question.id, result.correct);
+    // Same reward moment as a lesson quiz, so it gets the same sound (SPEC §11.7).
+    if (result.correct) playCorrect();
   }
 
   function handleNext() {
@@ -86,6 +89,8 @@ export default function ReviewPage() {
       touchDailyActivity();
       addCoins(REWARDS.reviewSessionCoins + perks.reviewBonus);
       setDone(true);
+      // Clearing the day's due deck is a finish line too, so it earns the fanfare.
+      playFanfare();
       return;
     }
     setIndex((i) => i + 1);
@@ -138,6 +143,11 @@ export default function ReviewPage() {
         ) : (
           <button className="btn-primary" onClick={handleNext}>
             {isLast ? t('quiz.finish') : t('quiz.next')}
+            {isLast ? (
+              <Flag size={16} aria-hidden="true" />
+            ) : (
+              <ArrowRight size={16} aria-hidden="true" />
+            )}
           </button>
         )}
       </div>
