@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/formal-message-short",
+  "slug": "formal-message-short",
+  "title": {
+    "sv": "Ett kort formellt meddelande: till skolan, hyresvärden eller en myndighet",
+    "ru": "Короткое официальное сообщение: в школу, арендодателю или ведомству",
+    "en": "A short formal message: writing to a school, a landlord or an authority"
+  },
+  "summary": {
+    "ru": "Структура и вежливые формулы короткого делового сообщения по-шведски.",
+    "en": "The structure and polite formulas of a short formal message in Swedish."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["writing", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 430,
+  "prerequisites": ["sva-grund-1/personal-letter"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

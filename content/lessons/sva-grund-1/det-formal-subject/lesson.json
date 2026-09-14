@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-1/det-formal-subject",
+  "slug": "det-formal-subject",
+  "title": {
+    "sv": "Formellt subjekt och platshållare: det finns, det är, det regnar",
+    "ru": "Формальное подлежащее и заполнитель места: det finns, det är, det regnar",
+    "en": "det as a formal subject and a placeholder: det finns, det är, det regnar"
+  },
+  "summary": {
+    "ru": "«Det» без реального значения — просто держит место подлежащего, когда предложению нечем его заполнить.",
+    "en": "\"Det\" with no real meaning of its own — just holding the subject slot when the sentence has nothing else to put there."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-1"],
+  "tags": ["grammar", "syntax"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 620,
+  "prerequisites": ["sva-grund-1/main-clause-word-order"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-verb-preposition-pairs-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Каким предлогом сопровождается «lita» («доверять»)?", "en": "Which preposition follows \"lita\" (\"to trust\")?" },
+      "choices": ["på", "om", "av", "för"],
+      "answer": 0
+    },
+    {
+      "id": "q-verb-preposition-pairs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «книга о путешествии»?", "en": "How do you say \"the book is about a journey\"?" },
+      "choices": ["Boken handlar om en resa", "Boken tänker på en resa", "Boken består av en resa", "Boken letar efter en resa"],
+      "answer": 0
+    },
+    {
+      "id": "q-verb-preposition-pairs-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kursen ___ av tio lektioner. (состоит)" },
+      "answer": ["består"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-verb-preposition-pairs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я ищу свои ключи.»", "en": "Build the sentence: \"I'm looking for my keys.\"" },
+      "tokens": ["efter", "nycklar", "mina", "letar", "Jag"],
+      "answer": [4, 3, 0, 2, 1]
+    },
+    {
+      "id": "q-verb-preposition-pairs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол с предлогом", "en": "Match the verb with its preposition" },
+      "pairs": [
+        ["tänka", "på"],
+        ["bestå", "av"],
+        ["handla", "om"],
+        ["leta", "efter"]
+      ]
+    },
+    {
+      "id": "q-verb-preposition-pairs-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Bry sig om» значит «заботиться о».", "en": "\"Bry sig om\" means \"to care about\"." },
+      "answer": true
+    },
+    {
+      "id": "q-verb-preposition-pairs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Предлог после этих глаголов всегда точно совпадает с прямым переводом на русский.", "en": "The preposition after these verbs always matches a direct word-for-word translation." },
+      "answer": false,
+      "explanation": { "ru": "Предлоги в этих парах непредсказуемы и не всегда совпадают с переводом.", "en": "The prepositions in these pairings are not predictable from a direct translation." }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-1/adverb-formation-pairs",
+  "slug": "adverb-formation-pairs",
+  "title": {
+    "sv": "Adverb: bildning med -t, och paren hem/hemma, ut/ute, dit/där",
+    "ru": "Наречия: образование на -t и пары hem/hemma, ut/ute, dit/där",
+    "en": "Adverbs: formation with -t, and the pairs hem/hemma, ut/ute, dit/där"
+  },
+  "summary": {
+    "ru": "От прилагательного к наречию через -t, и движение против местоположения в парах наречий места.",
+    "en": "From adjective to adverb via -t, and movement versus location in place-adverb pairs."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-1"],
+  "tags": ["grammar", "adverbs"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 630,
+  "prerequisites": ["sva-grund-1/adjective-declension"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

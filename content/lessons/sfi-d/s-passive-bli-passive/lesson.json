@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/s-passive-bli-passive",
+  "slug": "s-passive-bli-passive",
+  "title": {
+    "sv": "S-passivum och bli-passivum",
+    "ru": "S-пассив и пассив с bli",
+    "en": "The -s passive and the bli passive"
+  },
+  "summary": {
+    "ru": "Два способа образовать пассив по-шведски: окончание -s и глагол bli.",
+    "en": "Two ways to form the passive in Swedish: the -s ending and the verb bli."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs", "passive"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 580,
+  "prerequisites": ["sfi-c/s-passive-intro", "sva-grund-2/passive-voice"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

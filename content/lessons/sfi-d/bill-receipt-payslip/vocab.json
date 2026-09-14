@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "faktura",
+      "sv": "faktura",
+      "translations": { "ru": "счёт (на оплату)", "en": "invoice, bill" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en faktura", "defSg": "fakturan", "indefPl": "fakturor", "defPl": "fakturorna" },
+      "example": { "sv": "Jag fick en faktura för elen.", "ru": "Мне пришёл счёт за электричество.", "en": "I got a bill for the electricity." }
+    },
+    {
+      "id": "forfallodag",
+      "sv": "förfallodag",
+      "translations": { "ru": "срок оплаты", "en": "due date" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Förfallodagen är den 25:e.", "ru": "Срок оплаты — 25-е число.", "en": "The due date is the 25th." }
+    },
+    {
+      "id": "belopp",
+      "sv": "belopp",
+      "translations": { "ru": "сумма", "en": "amount" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vilket belopp ska jag betala?", "ru": "Какую сумму мне нужно заплатить?", "en": "What amount do I need to pay?" }
+    },
+    {
+      "id": "ocr-nummer",
+      "sv": "OCR-nummer",
+      "translations": { "ru": "OCR-номер (номер платежа)", "en": "OCR number (payment reference)" },
+      "pos": "noun",
+      "example": { "sv": "Ange OCR-numret när du betalar.", "ru": "При оплате укажи OCR-номер.", "en": "Enter the OCR number when you pay." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Spara kvittot om du vill byta varan.", "ru": "Сохрани чек, если захочешь обменять товар.", "en": "Keep the receipt if you want to exchange the item." }
+    },
+    {
+      "id": "moms",
+      "sv": "moms",
+      "translations": { "ru": "НДС", "en": "VAT" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Priset inkluderar moms.", "ru": "Цена включает НДС.", "en": "The price includes VAT." }
+    },
+    {
+      "id": "lonespecifikation",
+      "sv": "lönespecifikation",
+      "translations": { "ru": "расчётный листок (по зарплате)", "en": "payslip" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Lönespecifikationen visar bruttolön och skatt.", "ru": "Расчётный листок показывает зарплату до вычета налогов и налог.", "en": "The payslip shows gross pay and tax." }
+    },
+    {
+      "id": "bruttolon",
+      "sv": "bruttolön",
+      "translations": { "ru": "зарплата до вычета налогов", "en": "gross pay" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min bruttolön är högre än nettolönen.", "ru": "Моя зарплата до вычета налогов выше, чем после вычета.", "en": "My gross pay is higher than my net pay." }
+    },
+    {
+      "id": "nettolon",
+      "sv": "nettolön",
+      "translations": { "ru": "зарплата после вычета налогов", "en": "net pay" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Nettolönen sätts in på mitt konto.", "ru": "Зарплата после вычета налогов поступает на мой счёт.", "en": "The net pay is paid into my account." }
+    },
+    {
+      "id": "skatteavdrag",
+      "sv": "skatteavdrag",
+      "translations": { "ru": "налоговый вычет (удержание налога)", "en": "tax deduction" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skatteavdraget syns tydligt på specifikationen.", "ru": "Налоговое удержание чётко видно в листке.", "en": "The tax deduction is clearly shown on the payslip." }
+    },
+    {
+      "id": "autogiro",
+      "sv": "autogiro",
+      "translations": { "ru": "автоплатёж (прямое дебетование)", "en": "direct debit" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag betalar hyran med autogiro.", "ru": "Я плачу за аренду автоплатёжом.", "en": "I pay rent by direct debit." }
+    },
+    {
+      "id": "betala-en-faktura",
+      "sv": "betala en faktura",
+      "translations": { "ru": "оплатить счёт", "en": "to pay a bill" },
+      "pos": "phrase",
+      "example": { "sv": "Har du betalat fakturan än?", "ru": "Ты уже оплатил(а) счёт?", "en": "Have you paid the bill yet?" }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/impersonal-det",
+  "slug": "impersonal-det",
+  "title": {
+    "sv": "Opersonligt det: det regnar, det är viktigt att…, det sägs att…",
+    "ru": "Безличное det: det regnar, det är viktigt att…, det sägs att…",
+    "en": "Impersonal det: det regnar, det är viktigt att…, det sägs att…"
+  },
+  "summary": {
+    "ru": "Как «det» используется без реального значения — для погоды, оценок и слухов.",
+    "en": "How \"det\" is used with no real referent — for weather, evaluations, and hearsay."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "pronouns"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 770,
+  "prerequisites": ["sva-grund-1/det-formal-subject"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

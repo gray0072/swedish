@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "id": "saga-att",
+      "sv": "säga att",
+      "translations": { "ru": "сказать, что", "en": "to say that" },
+      "pos": "phrase",
+      "example": { "sv": "Hon sa att hon var trött.", "ru": "Она сказала, что устала.", "en": "She said that she was tired." }
+    },
+    {
+      "id": "fraga-om",
+      "sv": "fråga om",
+      "translations": { "ru": "спросить, ли (косвенный вопрос)", "en": "to ask whether" },
+      "pos": "phrase",
+      "example": { "sv": "Han frågade om jag var hungrig.", "ru": "Он спросил, голоден(на) ли я.", "en": "He asked whether I was hungry." }
+    },
+    {
+      "id": "om-whether",
+      "sv": "om",
+      "translations": { "ru": "ли (в косвенном вопросе)", "en": "whether (in an indirect question)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag vet inte om han kommer.", "ru": "Не знаю, придёт ли он.", "en": "I don't know whether he's coming." }
+    },
+    {
+      "id": "undra",
+      "sv": "undra",
+      "translations": { "ru": "интересоваться, задаваться вопросом", "en": "to wonder" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "undra", "present": "undrar", "past": "undrade", "supine": "undrat" },
+      "example": { "sv": "Jag undrar om hon kommer.", "ru": "Интересно, придёт ли она.", "en": "I wonder whether she's coming." }
+    },
+    {
+      "id": "pasta",
+      "sv": "påstå",
+      "translations": { "ru": "утверждать", "en": "to claim" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "påstå", "present": "påstår", "past": "påstod", "supine": "påstått" },
+      "example": { "sv": "Han påstod att han inte visste något.", "ru": "Он утверждал, что ничего не знал.", "en": "He claimed that he didn't know anything." }
+    },
+    {
+      "id": "direkt-tal",
+      "sv": "direkt tal",
+      "translations": { "ru": "прямая речь", "en": "direct speech" },
+      "pos": "phrase",
+      "example": { "sv": "\"Jag är trött\", sa hon. — direkt tal.", "ru": "«Я устала», — сказала она. — прямая речь.", "en": "\"I'm tired,\" she said. — direct speech." }
+    },
+    {
+      "id": "indirekt-tal",
+      "sv": "indirekt tal",
+      "translations": { "ru": "косвенная речь", "en": "reported/indirect speech" },
+      "pos": "phrase",
+      "example": { "sv": "Hon sa att hon var trött. — indirekt tal.", "ru": "Она сказала, что устала. — косвенная речь.", "en": "She said that she was tired. — reported speech." }
+    }
+  ]
+}

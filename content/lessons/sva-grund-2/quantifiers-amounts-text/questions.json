@@ -1,0 +1,84 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-quantifiers-amounts-text-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «большинство» по-шведски?", "en": "How do you say \"most\" (of people) in Swedish?" },
+      "choices": ["de flesta", "en tredjedel", "en minoritet", "ungefär hälften"],
+      "answer": 0
+    },
+    {
+      "id": "q-quantifiers-amounts-text-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что значит «allt fler»?", "en": "What does \"allt fler\" mean?" },
+      "choices": [
+        { "ru": "Всё больше людей", "en": "An increasing number of people" },
+        { "ru": "Всё меньше людей", "en": "A decreasing number of people" },
+        { "ru": "Ровно половина", "en": "Exactly half" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-quantifiers-amounts-text-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Andelen unga som studerar har ökat.» — что растёт?", "en": "\"Andelen unga som studerar har ökat.\" — what is increasing?" },
+      "choices": [
+        { "ru": "Доля молодёжи, которая учится", "en": "The share of young people studying" },
+        { "ru": "Число университетов", "en": "The number of universities" },
+        { "ru": "Стоимость обучения", "en": "The cost of education" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-quantifiers-amounts-text-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«En minoritet» — это противоположность «en majoritet».", "en": "\"En minoritet\" is the opposite of \"en majoritet\"." },
+      "answer": true
+    },
+    {
+      "id": "q-quantifiers-amounts-text-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Minska» значит «увеличиваться».", "en": "\"Minska\" means \"to increase\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Minska» значит «уменьшаться»; «увеличиваться» — это «öka».",
+        "en": "\"Minska\" means \"to decrease\"; \"to increase\" is \"öka\"."
+      }
+    },
+    {
+      "id": "q-quantifiers-amounts-text-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Треть учеников сдала тест.»", "en": "Build the sentence: \"A third of the students passed the test.\"" },
+      "tokens": ["En", "tredjedel", "av", "eleverna", "klarade", "provet."],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-quantifiers-amounts-text-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ fler väljer att cykla till jobbet. (всё больше)" },
+      "answer": ["Allt"]
+    },
+    {
+      "id": "q-quantifiers-amounts-text-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово-квантификатор с переводом", "en": "Match the quantifier with its translation" },
+      "pairs": [
+        ["de flesta", "most"],
+        ["en tredjedel", "a third"],
+        ["andelen", "the share"],
+        ["ungefär hälften", "roughly half"]
+      ]
+    }
+  ]
+}

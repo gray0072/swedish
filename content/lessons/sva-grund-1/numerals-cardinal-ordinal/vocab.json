@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "grundtal",
+      "sv": "grundtal",
+      "translations": { "ru": "количественное числительное", "en": "cardinal number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "grundtal", "defSg": "grundtalet", "indefPl": "grundtal", "defPl": "grundtalen" }
+    },
+    {
+      "id": "ordningstal",
+      "sv": "ordningstal",
+      "translations": { "ru": "порядковое числительное", "en": "ordinal number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ordningstal", "defSg": "ordningstalet", "indefPl": "ordningstal", "defPl": "ordningstalen" }
+    },
+    {
+      "id": "forsta-tredje",
+      "sv": "första, andra, tredje",
+      "translations": { "ru": "первый, второй, третий", "en": "first, second, third" },
+      "pos": "phrase",
+      "note": { "ru": "Три неправильных порядковых числительных.", "en": "Three irregular ordinal numbers." }
+    },
+    {
+      "id": "fjarde-tionde",
+      "sv": "fjärde … tionde",
+      "translations": { "ru": "четвёртый … десятый", "en": "fourth … tenth" },
+      "pos": "phrase",
+      "note": { "ru": "Регулярная модель: grundtal + -e (fyra → fjärde с небольшим изменением основы).", "en": "The regular pattern: cardinal + -e (fyra → fjärde with a small stem change)." }
+    },
+    {
+      "id": "den-tredje-maj",
+      "sv": "den tredje maj",
+      "translations": { "ru": "третье мая", "en": "the third of May" },
+      "pos": "phrase",
+      "example": { "sv": "Idag är det den tredje maj.", "ru": "Сегодня третье мая.", "en": "Today is the third of May." }
+    },
+    {
+      "id": "klockan-ar-halv-atta",
+      "sv": "Klockan är halv åtta.",
+      "translations": { "ru": "Сейчас половина восьмого.", "en": "It's half past seven." },
+      "pos": "phrase",
+      "note": { "ru": "«Halv åtta» значит «половина ДО восьми», то есть 7:30.", "en": "\"Halv åtta\" means halfway TO eight, i.e. 7:30." }
+    },
+    {
+      "id": "kvart-i-kvart-over",
+      "sv": "kvart i / kvart över",
+      "translations": { "ru": "без четверти / четверть (после)", "en": "quarter to / quarter past" },
+      "pos": "phrase",
+      "example": { "sv": "Klockan är kvart i nio.", "ru": "Сейчас без четверти девять.", "en": "It's a quarter to nine." }
+    },
+    {
+      "id": "tjugohundra",
+      "sv": "tjugohundratjugofem",
+      "translations": { "ru": "две тысячи двадцать пять (год)", "en": "twenty twenty-five (year)" },
+      "pos": "phrase",
+      "note": { "ru": "Годы после 2000 часто читают как «tjugohundra + число», или проще «tjugotjugofem».", "en": "Years after 2000 are often read as \"tjugohundra + number\", or more simply \"tjugotjugofem\"." }
+    },
+    {
+      "id": "nittonhundra",
+      "sv": "nittonhundraåttiofyra",
+      "translations": { "ru": "тысяча девятьсот восемьдесят четыре (год)", "en": "nineteen eighty-four (year)" },
+      "pos": "phrase",
+      "note": { "ru": "Годы 1100–1999 читают как «nitton + hundra + число» без пауз.", "en": "Years 1100–1999 are read as \"nitton + hundra + number\" without pauses." }
+    },
+    {
+      "id": "fodelsedag",
+      "sv": "födelsedag",
+      "translations": { "ru": "день рождения", "en": "birthday" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "födelsedag", "defSg": "födelsedagen", "indefPl": "födelsedagar", "defPl": "födelsedagarna" }
+    }
+  ]
+}

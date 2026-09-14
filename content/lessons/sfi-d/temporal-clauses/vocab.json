@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "nar-conj",
+      "sv": "när",
+      "translations": { "ru": "когда (общее, в т.ч. повторяющееся)", "en": "when (general, incl. repeated)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag ler när jag ser henne.", "ru": "Я улыбаюсь, когда вижу её.", "en": "I smile when I see her." }
+    },
+    {
+      "id": "da-conj",
+      "sv": "då",
+      "translations": { "ru": "когда (один конкретный момент в прошлом)", "en": "when (one specific past moment)" },
+      "pos": "conjunction",
+      "example": { "sv": "Då jag var liten bodde vi i Umeå.", "ru": "Когда я был(а) маленьким(ой), мы жили в Умео.", "en": "When I was little, we lived in Umeå." }
+    },
+    {
+      "id": "medan-conj",
+      "sv": "medan",
+      "translations": { "ru": "пока, в то время как", "en": "while" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag lagar mat medan du dukar.", "ru": "Я готовлю, пока ты накрываешь на стол.", "en": "I'm cooking while you set the table." }
+    },
+    {
+      "id": "innan-conj-2",
+      "sv": "innan",
+      "translations": { "ru": "до того как, прежде чем", "en": "before" },
+      "pos": "conjunction",
+      "example": { "sv": "Ring mig innan du åker.", "ru": "Позвони мне, прежде чем поедешь.", "en": "Call me before you leave." }
+    },
+    {
+      "id": "efter-att-conj",
+      "sv": "efter att",
+      "translations": { "ru": "после того как", "en": "after" },
+      "pos": "conjunction",
+      "example": { "sv": "Efter att hon hade ätit gick hon och la sig.", "ru": "После того как она поела, она пошла спать.", "en": "After she had eaten, she went to bed." }
+    },
+    {
+      "id": "sa-fort-som",
+      "sv": "så fort som",
+      "translations": { "ru": "как только", "en": "as soon as" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag ringer så fort som jag är hemma.", "ru": "Я позвоню, как только буду дома.", "en": "I'll call as soon as I'm home." }
+    },
+    {
+      "id": "duka",
+      "sv": "duka",
+      "translations": { "ru": "накрывать на стол", "en": "to set the table" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "duka", "present": "dukar", "past": "dukade", "supine": "dukat" },
+      "example": { "sv": "Kan du duka innan gästerna kommer?", "ru": "Можешь накрыть на стол, прежде чем придут гости?", "en": "Can you set the table before the guests arrive?" }
+    },
+    {
+      "id": "ga-och-lagga-sig",
+      "sv": "gå och lägga sig",
+      "translations": { "ru": "идти спать", "en": "to go to bed" },
+      "pos": "phrase",
+      "example": { "sv": "Jag går och lägger mig klockan elva.", "ru": "Я иду спать в одиннадцать.", "en": "I go to bed at eleven." }
+    }
+  ]
+}

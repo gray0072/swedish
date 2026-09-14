@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/conditional-om-sa",
+  "slug": "conditional-om-sa",
+  "title": {
+    "sv": "Villkorssatser: om … så",
+    "ru": "Условные предложения: om … så",
+    "en": "Conditional sentences: om … så"
+  },
+  "summary": {
+    "ru": "Как строить условные предложения с «om» и опциональным «så» перед главным предложением.",
+    "en": "How to build conditional sentences with \"om\" and the optional \"så\" before the main clause."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses", "conditionals"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 600,
+  "prerequisites": ["sfi-d/skulle-infinitive-politeness"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

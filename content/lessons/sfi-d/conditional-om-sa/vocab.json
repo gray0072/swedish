@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "om-conj",
+      "sv": "om",
+      "translations": { "ru": "если", "en": "if" },
+      "pos": "conjunction",
+      "example": { "sv": "Om det regnar stannar vi hemma.", "ru": "Если пойдёт дождь, мы останемся дома.", "en": "If it rains, we'll stay home." }
+    },
+    {
+      "id": "sa-conj",
+      "sv": "så",
+      "translations": { "ru": "то (вводит главное предложение после условия)", "en": "then (introduces the main clause after a condition)" },
+      "pos": "conjunction",
+      "example": { "sv": "Om du är trött, så gå och lägg dig.", "ru": "Если ты устал(а), то иди спать.", "en": "If you're tired, then go to bed." }
+    },
+    {
+      "id": "hinner",
+      "sv": "hinna",
+      "translations": { "ru": "успевать", "en": "to have time, to make it" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "hinna", "present": "hinner", "past": "hann", "supine": "hunnit" },
+      "example": { "sv": "Om jag hinner, kommer jag på festen.", "ru": "Если успею, приду на вечеринку.", "en": "If I have time, I'll come to the party." }
+    },
+    {
+      "id": "vore",
+      "sv": "vore",
+      "translations": { "ru": "был бы (сослагательное от vara)", "en": "would be (subjunctive of vara)" },
+      "pos": "verb",
+      "example": { "sv": "Om jag vore du, skulle jag vänta.", "ru": "Если бы я был(а) тобой, я бы подождал(а).", "en": "If I were you, I would wait." }
+    },
+    {
+      "id": "ifall",
+      "sv": "ifall",
+      "translations": { "ru": "на случай если, если", "en": "in case, if" },
+      "pos": "conjunction",
+      "example": { "sv": "Ta med paraply ifall det regnar.", "ru": "Возьми зонт на случай, если пойдёт дождь.", "en": "Bring an umbrella in case it rains." }
+    },
+    {
+      "id": "villkor",
+      "sv": "villkor",
+      "translations": { "ru": "условие", "en": "condition" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det finns ett villkor för lånet.", "ru": "Для займа есть одно условие.", "en": "There's one condition for the loan." }
+    },
+    {
+      "id": "andra-fall",
+      "sv": "i så fall",
+      "translations": { "ru": "в таком случае", "en": "in that case" },
+      "pos": "phrase",
+      "example": { "sv": "I så fall väntar vi till imorgon.", "ru": "В таком случае подождём до завтра.", "en": "In that case, we'll wait until tomorrow." }
+    },
+    {
+      "id": "annars",
+      "sv": "annars",
+      "translations": { "ru": "иначе", "en": "otherwise" },
+      "pos": "adv",
+      "example": { "sv": "Skynda dig, annars missar du bussen.", "ru": "Поторопись, иначе опоздаешь на автобус.", "en": "Hurry up, otherwise you'll miss the bus." }
+    }
+  ]
+}

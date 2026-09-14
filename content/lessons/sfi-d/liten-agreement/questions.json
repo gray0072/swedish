@@ -1,0 +1,69 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-liten-agreement-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая форма используется во множественном числе?", "en": "Which form is used in the plural?" },
+      "choices": ["små", "liten", "litet", "lilla"],
+      "answer": 0
+    },
+    {
+      "id": "q-liten-agreement-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «маленький домик» (ett-слово, неопределённая форма)?", "en": "How do you say \"a little house\" (ett-word, indefinite)?" },
+      "choices": ["ett litet hus", "ett liten hus", "det lilla hus", "små hus"],
+      "answer": 0
+    },
+    {
+      "id": "q-liten-agreement-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Den ___ hunden heter Bruno. (маленькая, опред. форма)" },
+      "answer": ["lilla"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-liten-agreement-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Маленькие дети играют в парке.»", "en": "Build the sentence: \"Little children are playing in the park.\"" },
+      "tokens": ["i parken", "barn", "leker", "Små"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-liten-agreement-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму с контекстом", "en": "Match the form with its context" },
+      "pairs": [
+        ["liten", "en-слово, неопред."],
+        ["litet", "ett-слово, неопред."],
+        ["lilla", "опред. форма"],
+        ["små", "множ. число"]
+      ]
+    },
+    {
+      "id": "q-liten-agreement-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Lilla» используется в определённой форме для обоих родов.", "en": "\"Lilla\" is used in the definite form for both genders." },
+      "answer": true
+    },
+    {
+      "id": "q-liten-agreement-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Små» образуется от «liten» простым добавлением окончания -a.", "en": "\"Små\" is formed from \"liten\" by simply adding the ending -a." },
+      "answer": false,
+      "explanation": { "ru": "«Små» — совершенно другое слово, а не «liten» с окончанием.", "en": "\"Små\" is a completely different word, not \"liten\" plus an ending." }
+    }
+  ]
+}

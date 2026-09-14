@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "vana",
+      "sv": "vana",
+      "translations": { "ru": "привычка", "en": "habit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vana", "defSg": "vanan", "indefPl": "vanor", "defPl": "vanorna" },
+      "example": { "sv": "Det är en bra vana att komma i tid.", "ru": "Приходить вовремя — хорошая привычка.", "en": "Arriving on time is a good habit." }
+    },
+    {
+      "id": "jamfora",
+      "sv": "jämföra",
+      "translations": { "ru": "сравнивать", "en": "to compare" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "jämföra", "present": "jämför", "past": "jämförde", "supine": "jämfört" },
+      "example": { "sv": "Jag jämför livet här med livet hemma.", "ru": "Я сравниваю жизнь здесь с жизнью дома.", "en": "I compare life here with life back home." }
+    },
+    {
+      "id": "skillnad",
+      "sv": "skillnad",
+      "translations": { "ru": "разница", "en": "difference" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Den största skillnaden är tempot.", "ru": "Самая большая разница — это темп.", "en": "The biggest difference is the pace." }
+    },
+    {
+      "id": "likhet",
+      "sv": "likhet",
+      "translations": { "ru": "сходство", "en": "similarity" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det finns också många likheter.", "ru": "Есть также много сходств.", "en": "There are also many similarities." }
+    },
+    {
+      "id": "forvantning",
+      "sv": "förväntning",
+      "translations": { "ru": "ожидание", "en": "expectation" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Förväntningarna på tid är olika.", "ru": "Ожидания насчёт пунктуальности разные.", "en": "Expectations about time are different." }
+    },
+    {
+      "id": "artighet",
+      "sv": "artighet",
+      "translations": { "ru": "вежливость (этикет)", "en": "politeness, etiquette" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Artigheten ser olika ut i olika länder.", "ru": "Этикет выглядит по-разному в разных странах.", "en": "Etiquette looks different in different countries." }
+    },
+    {
+      "id": "van-sig-vid",
+      "sv": "vänja sig vid",
+      "translations": { "ru": "привыкать к", "en": "to get used to" },
+      "pos": "phrase",
+      "example": { "sv": "Jag har vant mig vid mörkret på vintern.", "ru": "Я привык(ла) к темноте зимой.", "en": "I've gotten used to the darkness in winter." }
+    },
+    {
+      "id": "sakna",
+      "sv": "sakna",
+      "translations": { "ru": "скучать по", "en": "to miss" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sakna", "present": "saknar", "past": "saknade", "supine": "saknat" },
+      "example": { "sv": "Jag saknar maten hemifrån.", "ru": "Я скучаю по еде из дома.", "en": "I miss the food from back home." }
+    },
+    {
+      "id": "kulturkrock",
+      "sv": "kulturkrock",
+      "translations": { "ru": "культурный шок (столкновение культур)", "en": "culture clash" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Första året hade jag en liten kulturkrock.", "ru": "В первый год у меня был небольшой культурный шок.", "en": "In the first year I had a small culture clash." }
+    },
+    {
+      "id": "personligt-avstand",
+      "sv": "personligt avstånd",
+      "translations": { "ru": "личное пространство (дистанция)", "en": "personal space" },
+      "pos": "phrase",
+      "example": { "sv": "Personligt avstånd är viktigt i kön.", "ru": "Личное пространство важно в очереди.", "en": "Personal space matters when queuing." }
+    }
+  ]
+}

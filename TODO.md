@@ -7,20 +7,12 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Content
 
-- [ ] **262 of the 400 lessons in `CURRICULUM.md` are written; 138 are not.** Since the
-  grammar lists were merged into the lesson lists, each level is one list of 50: the
-  thematic lessons first, the level's grammar after them, one lesson per point. What is
-  missing: **SFI kurs D** 47 lessons (3 of 50 written), **kurs C** 45 (5 of 50),
-  **kurs B** 25 (23 grammar lessons, plus the 2 topics added when the level was extended
-  to 50), **SFI kurs A** its 6 newly added topics — items 26-31, everything else on that
-  level is written — and the five closing grammar lessons of each of **SVA grund
-  delkurs 1-3** (items 46-50). SVA grund delkurs 4 is done in full. A good candidate for
-  a run with parallel agents (the approach is described in the CHANGELOG entries for
-  2026-09-05 and 2026-09-07).
-- [ ] Until a grammar lesson is written, that grammar still reaches the student only
-  through the theory of the thematic lessons — that is the case for all 138 unwritten
-  lessons above, 88 of which are grammar. There are also three reference articles in
-  `content/grammar/`.
+- [x] **All 400 of the 400 lessons in `CURRICULUM.md` are now written.** Every level
+  (SFI kurs A-D, SVA grund delkurs 1-4) holds its full 50 lessons — thematic first, the
+  level's grammar after them, one lesson per point. SFI kurs D was the last level
+  finished (its 47 remaining lessons, thematic and grammar alike).
+- [ ] There are also three reference articles in `content/grammar/` (word order, articles,
+  verb groups) — see "Not started at all" below for candidates to add.
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a

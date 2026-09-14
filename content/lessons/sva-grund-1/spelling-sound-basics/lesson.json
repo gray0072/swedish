@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-1/spelling-sound-basics",
+  "slug": "spelling-sound-basics",
+  "title": {
+    "sv": "Stavning och ljud: långa och korta vokaler, dubbelteckning",
+    "ru": "Правописание и звук: долгие и краткие гласные, удвоение согласных",
+    "en": "Spelling and sound: long and short vowels, double consonants, the basic rules"
+  },
+  "summary": {
+    "ru": "Систематизация правила: краткий гласный требует удвоенной согласной за собой на письме, долгий — нет.",
+    "en": "Systematising the rule: a short vowel needs a doubled consonant after it in writing, a long vowel does not."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-1"],
+  "tags": ["grammar", "spelling", "pronunciation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 650,
+  "prerequisites": ["sfi-a/vowel-length"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

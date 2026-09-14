@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "snabb-snabbt",
+      "sv": "snabb → snabbt",
+      "translations": { "ru": "быстрый → быстро (прилагательное → наречие)", "en": "fast (adj) → fast (adv)" },
+      "pos": "phrase",
+      "example": { "sv": "Han sprang snabbt.", "ru": "Он бежал быстро.", "en": "He ran fast." }
+    },
+    {
+      "id": "lugn-lugnt",
+      "sv": "lugn → lugnt",
+      "translations": { "ru": "спокойный → спокойно", "en": "calm (adj) → calmly (adv)" },
+      "pos": "phrase",
+      "example": { "sv": "Hon pratade lugnt.", "ru": "Она говорила спокойно.", "en": "She spoke calmly." }
+    },
+    {
+      "id": "hem-hemma",
+      "sv": "hem / hemma",
+      "translations": { "ru": "домой / дома", "en": "home(ward) / at home" },
+      "pos": "phrase",
+      "note": { "ru": "hem — движение, hemma — местоположение.", "en": "hem — movement, hemma — location." },
+      "example": { "sv": "Jag går hem. Jag är hemma.", "ru": "Я иду домой. Я дома.", "en": "I'm going home. I'm at home." }
+    },
+    {
+      "id": "ut-ute",
+      "sv": "ut / ute",
+      "translations": { "ru": "наружу / снаружи", "en": "out(ward) / outside" },
+      "pos": "phrase",
+      "example": { "sv": "Hon går ut. Hon är ute.", "ru": "Она выходит наружу. Она снаружи.", "en": "She's going out. She's outside." }
+    },
+    {
+      "id": "in-inne",
+      "sv": "in / inne",
+      "translations": { "ru": "внутрь / внутри", "en": "in(ward) / inside" },
+      "pos": "phrase",
+      "example": { "sv": "Han går in. Han är inne.", "ru": "Он заходит внутрь. Он внутри.", "en": "He's going in. He's inside." }
+    },
+    {
+      "id": "dit-dar",
+      "sv": "dit / där",
+      "translations": { "ru": "туда / там", "en": "(to) there / there" },
+      "pos": "phrase",
+      "example": { "sv": "Vi ska åka dit. Vi bor där.", "ru": "Мы поедем туда. Мы живём там.", "en": "We're going there. We live there." }
+    },
+    {
+      "id": "hit-har",
+      "sv": "hit / här",
+      "translations": { "ru": "сюда / здесь", "en": "(to) here / here" },
+      "pos": "phrase",
+      "example": { "sv": "Kom hit! Jag är här.", "ru": "Иди сюда! Я здесь.", "en": "Come here! I am here." }
+    },
+    {
+      "id": "upp-uppe",
+      "sv": "upp / uppe",
+      "translations": { "ru": "вверх / наверху", "en": "up(ward) / up (at the top)" },
+      "pos": "phrase",
+      "example": { "sv": "Katten klättrar upp. Katten är uppe.", "ru": "Кошка забирается наверх. Кошка наверху.", "en": "The cat climbs up. The cat is up (there)." }
+    },
+    {
+      "id": "ner-nere",
+      "sv": "ner / nere",
+      "translations": { "ru": "вниз / внизу", "en": "down(ward) / down (below)" },
+      "pos": "phrase",
+      "example": { "sv": "Hon går ner. Hon är nere.", "ru": "Она спускается вниз. Она внизу.", "en": "She's going down. She's down (there)." }
+    },
+    {
+      "id": "rorelse-vs-lage",
+      "sv": "rörelse och läge",
+      "translations": { "ru": "движение и местоположение", "en": "movement and location" },
+      "pos": "phrase",
+      "note": { "ru": "Ключевое различие в парах наречий места.", "en": "The key distinction in these place-adverb pairs." }
+    }
+  ]
+}

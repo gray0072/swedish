@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-text-connectors-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово вводит контраст («с другой стороны»)?", "en": "Which word introduces a contrast (\"on the other hand\")?" },
+      "choices": ["däremot", "dessutom", "alltså", "till exempel"],
+      "answer": 0
+    },
+    {
+      "id": "q-text-connectors-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что добавляет ещё один довод в том же направлении?", "en": "What adds another point in the same direction?" },
+      "choices": ["dessutom", "däremot", "å andra sidan", "alltså"],
+      "answer": 0
+    },
+    {
+      "id": "q-text-connectors-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han är sjuk, ___ kommer han inte idag. (значит)" },
+      "answer": ["alltså"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-text-connectors-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Квартира большая. К тому же аренда низкая.»", "en": "Build the sentence: \"The flat is big. Moreover, the rent is low.\"" },
+      "tokens": ["hyran", "är", "låg", "Dessutom"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-text-connectors-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["dessutom", "к тому же"],
+        ["däremot", "напротив"],
+        ["alltså", "следовательно"],
+        ["därför", "поэтому"]
+      ]
+    },
+    {
+      "id": "q-text-connectors-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Å andra sidan» и «däremot» оба означают «с другой стороны».", "en": "\"Å andra sidan\" and \"däremot\" both mean \"on the other hand\"." },
+      "answer": true
+    },
+    {
+      "id": "q-text-connectors-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Till exempel» вводит контраст, а не пример.", "en": "\"Till exempel\" introduces a contrast, not an example." },
+      "answer": false,
+      "explanation": { "ru": "«Till exempel» значит «например» и вводит иллюстрацию, а не контраст.", "en": "\"Till exempel\" means \"for example\" and introduces an illustration, not a contrast." }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "tanka-pa",
+      "sv": "tänka på",
+      "translations": { "ru": "думать о", "en": "to think about" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tänker ofta på min familj.", "ru": "Я часто думаю о своей семье.", "en": "I often think about my family." }
+    },
+    {
+      "id": "lita-pa",
+      "sv": "lita på",
+      "translations": { "ru": "доверять", "en": "to trust, to rely on" },
+      "pos": "phrase",
+      "example": { "sv": "Jag litar på dig.", "ru": "Я доверяю тебе.", "en": "I trust you." }
+    },
+    {
+      "id": "bry-sig-om",
+      "sv": "bry sig om",
+      "translations": { "ru": "заботиться о", "en": "to care about" },
+      "pos": "phrase",
+      "example": { "sv": "Han bryr sig om sina grannar.", "ru": "Он заботится о своих соседях.", "en": "He cares about his neighbours." }
+    },
+    {
+      "id": "beroende-av",
+      "sv": "vara beroende av",
+      "translations": { "ru": "зависеть от", "en": "to depend on" },
+      "pos": "phrase",
+      "example": { "sv": "Resultatet är beroende av vädret.", "ru": "Результат зависит от погоды.", "en": "The result depends on the weather." }
+    },
+    {
+      "id": "leta-efter",
+      "sv": "leta efter",
+      "translations": { "ru": "искать", "en": "to look for" },
+      "pos": "phrase",
+      "example": { "sv": "Jag letar efter mina nycklar.", "ru": "Я ищу свои ключи.", "en": "I'm looking for my keys." }
+    },
+    {
+      "id": "skammas-for",
+      "sv": "skämmas för",
+      "translations": { "ru": "стыдиться чего-то", "en": "to be ashamed of" },
+      "pos": "phrase",
+      "example": { "sv": "Han skäms för misstaget.", "ru": "Он стыдится своей ошибки.", "en": "He's ashamed of the mistake." }
+    },
+    {
+      "id": "besta-av",
+      "sv": "bestå av",
+      "translations": { "ru": "состоять из", "en": "to consist of" },
+      "pos": "phrase",
+      "example": { "sv": "Kursen består av tio lektioner.", "ru": "Курс состоит из десяти уроков.", "en": "The course consists of ten lessons." }
+    },
+    {
+      "id": "handla-om",
+      "sv": "handla om",
+      "translations": { "ru": "быть о (о содержании)", "en": "to be about" },
+      "pos": "phrase",
+      "example": { "sv": "Boken handlar om en resa.", "ru": "Книга о путешествии.", "en": "The book is about a journey." }
+    }
+  ]
+}

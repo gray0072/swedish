@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/paired-conjunctions",
+  "slug": "paired-conjunctions",
+  "title": {
+    "sv": "Parkonjunktioner: både … och, varken … eller, inte bara … utan också",
+    "ru": "Парные союзы: både … och, varken … eller, inte bara … utan också",
+    "en": "Paired conjunctions: både … och, varken … eller, inte bara … utan också"
+  },
+  "summary": {
+    "ru": "Союзы, которые всегда приходят парой и связывают два равноправных слова или утверждения.",
+    "en": "Conjunctions that always come in a pair, linking two equal words or statements."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "conjunctions", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1070,
+  "prerequisites": ["sva-grund-2/cause-effect-clauses"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

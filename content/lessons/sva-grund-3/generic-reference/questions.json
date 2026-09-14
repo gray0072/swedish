@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-generic-reference-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«En hund är trogen.» — о чём это предложение?", "en": "\"En hund är trogen.\" — what is this sentence about?" },
+      "choices": [
+        { "ru": "О конкретной собаке рассказчика", "en": "A specific dog belonging to the speaker" },
+        { "ru": "О собаках как категории вообще", "en": "Dogs as a category in general" },
+        { "ru": "Об одной собаке, о которой уже шла речь", "en": "One dog already mentioned in the conversation" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-generic-reference-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая форма звучит наиболее книжно/научно в родовом высказывании?", "en": "Which form sounds the most formal/scientific in a generic statement?" },
+      "choices": ["Hundar är trogna.", "Hunden är ett troget djur.", "En hund är trogen."],
+      "answer": 1
+    },
+    {
+      "id": "q-generic-reference-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая форма самая обычная в повседневной родовой фразе?", "en": "Which form is the most common in an everyday generic statement?" },
+      "choices": ["Hundar är trogna.", "Hunden är ett troget djur.", "En hund är trogen som djurart."],
+      "answer": 0
+    },
+    {
+      "id": "q-generic-reference-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hunden är ett troget djur» с определённым артиклем может звучать так же родово, как множественное число без артикля.", "en": "\"Hunden är ett troget djur\" with the definite article can sound just as generic as the bare plural." },
+      "answer": true
+    },
+    {
+      "id": "q-generic-reference-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Голое» множественное число (без артикля) не может использоваться для родовых высказываний.", "en": "The bare plural (without an article) cannot be used for generic statements." },
+      "answer": false,
+      "explanation": {
+        "ru": "Именно голое множественное число — самый обычный способ делать родовое утверждение: «Hundar är trogna.»",
+        "en": "The bare plural is exactly the most common way to make a generic statement: \"Hundar är trogna.\""
+      }
+    },
+    {
+      "id": "q-generic-reference-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ (голое мн.ч.) är trogna djur. (obestämd plural, generisk)" },
+      "answer": ["Hundar"]
+    },
+    {
+      "id": "q-generic-reference-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Люди нуждаются в воде.»", "en": "Build the sentence: \"Human beings need water.\"" },
+      "tokens": ["Människor", "behöver", "vatten."],
+      "answer": [0, 1, 2]
+    },
+    {
+      "id": "q-generic-reference-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предложение с его стилевой окраской", "en": "Match the sentence with its stylistic flavour" },
+      "pairs": [
+        ["Hundar är trogna.", "обычная, повседневная / plain, everyday"],
+        ["Hunden är ett troget djur.", "книжная, определяющая / formal, defining"],
+        ["En hund är trogen.", "определяет типичного представителя / defines a typical member"]
+      ]
+    }
+  ]
+}

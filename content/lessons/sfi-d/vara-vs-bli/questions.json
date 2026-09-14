@@ -1,0 +1,69 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-vara-vs-bli-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой глагол описывает изменение состояния, а не сам факт?", "en": "Which verb describes a change of state rather than the state itself?" },
+      "choices": ["bli", "vara", "ha", "göra"],
+      "answer": 0
+    },
+    {
+      "id": "q-vara-vs-bli-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Она устала после работы» (переход в состояние) — как правильно?", "en": "\"She got tired after work\" (a change) — which is correct?" },
+      "choices": ["Hon blev trött", "Hon är trött", "Hon har trött", "Hon gör trött"],
+      "answer": 0
+    },
+    {
+      "id": "q-vara-vs-bli-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det ___ mörkt tidigt på vintern. (становится)" },
+      "answer": ["blir"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-vara-vs-bli-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он заболел в выходные.»", "en": "Build the sentence: \"He got ill over the weekend.\"" },
+      "tokens": ["i helgen", "sjuk", "blev", "Han"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-vara-vs-bli-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["sjuk", "больной"],
+        ["arg", "злой"],
+        ["mörk", "тёмный"],
+        ["lärare", "учитель"]
+      ]
+    },
+    {
+      "id": "q-vara-vs-bli-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Vara» описывает состояние как оно уже есть, без указания на изменение.", "en": "\"Vara\" describes a state as it already is, without indicating a change." },
+      "answer": true
+    },
+    {
+      "id": "q-vara-vs-bli-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vara» и «bli» полностью взаимозаменяемы в любом контексте.", "en": "\"Vara\" and \"bli\" are fully interchangeable in every context." },
+      "answer": false,
+      "explanation": { "ru": "Они выражают разные вещи: состояние против перехода в него.", "en": "They express different things: a state versus a transition into it." }
+    }
+  ]
+}

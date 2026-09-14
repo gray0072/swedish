@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/sweden-geography",
+  "slug": "sweden-geography",
+  "title": {
+    "sv": "Sveriges geografi: landskap, de stora städerna, norr och söder",
+    "ru": "География Швеции: провинции, большие города, север и юг",
+    "en": "The geography of Sweden: landskap, the big cities, north and south"
+  },
+  "summary": {
+    "ru": "Основные слова о географии Швеции: провинции-landskap, крупные города, север и юг страны.",
+    "en": "Key words about Sweden's geography: the historic landskap, the big cities, north and south."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["culture", "geography", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 450,
+  "prerequisites": ["sfi-c/swedish-winter"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

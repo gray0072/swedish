@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/shopping-online",
+  "slug": "shopping-online",
+  "title": {
+    "sv": "Att handla på nätet: beställningen, leveransen, att skicka tillbaka",
+    "ru": "Покупки в интернете: заказ, доставка, отправка обратно",
+    "en": "Shopping online: the order, the delivery, sending it back"
+  },
+  "summary": {
+    "ru": "Слова для заказа товаров онлайн, получения доставки и возврата посылки.",
+    "en": "Words for ordering things online, receiving a delivery, and sending a parcel back."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["shopping", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 490,
+  "prerequisites": ["sfi-d/shopping-returns"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

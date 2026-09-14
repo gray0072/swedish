@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "ju-particle",
+      "sv": "ju",
+      "translations": { "ru": "же, ведь (общеизвестный факт)", "en": "you know, after all (shared, known fact)" },
+      "pos": "adv",
+      "example": { "sv": "Det är ju söndag idag.", "ru": "Сегодня же воскресенье.", "en": "It's Sunday today, you know." }
+    },
+    {
+      "id": "nog-particle",
+      "sv": "nog",
+      "translations": { "ru": "наверное, скорее всего", "en": "probably" },
+      "pos": "adv",
+      "example": { "sv": "Det blir nog regn imorgon.", "ru": "Завтра, наверное, будет дождь.", "en": "It will probably rain tomorrow." }
+    },
+    {
+      "id": "val-particle",
+      "sv": "väl",
+      "translations": { "ru": "ведь, не так ли (ожидание подтверждения)", "en": "surely, I assume (expecting confirmation)" },
+      "pos": "adv",
+      "example": { "sv": "Du kommer väl imorgon?", "ru": "Ты же завтра придёшь, не так ли?", "en": "You're coming tomorrow, aren't you?" }
+    },
+    {
+      "id": "faktiskt-particle",
+      "sv": "faktiskt",
+      "translations": { "ru": "на самом деле, действительно", "en": "actually, in fact" },
+      "pos": "adv",
+      "example": { "sv": "Jag gillar faktiskt inte kaffe.", "ru": "Мне на самом деле не нравится кофе.", "en": "I actually don't like coffee." }
+    },
+    {
+      "id": "sondag",
+      "sv": "söndag",
+      "translations": { "ru": "воскресенье", "en": "Sunday" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Affärerna är stängda på söndagar.", "ru": "Магазины закрыты по воскресеньям.", "en": "Shops are closed on Sundays." }
+    }
+  ]
+}

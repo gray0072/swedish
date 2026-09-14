@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-genitive-longer-phrase-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Куда ставится -s в длинной именной группе?", "en": "Where does the -s go in a longer noun phrase?" },
+      "choices": [
+        { "ru": "На последнее слово всей фразы", "en": "On the last word of the whole phrase" },
+        { "ru": "На первое слово фразы", "en": "On the first word of the phrase" },
+        { "ru": "На каждое слово фразы", "en": "On every word of the phrase" },
+        { "ru": "Никуда, -s не используется", "en": "Nowhere, -s isn't used" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-genitive-longer-phrase-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать «брат моего друга»?", "en": "How do you correctly say \"my friend's brother\"?" },
+      "choices": ["Min kompis bror", "Mins kompis bror", "Min kompis brors", "Min's kompis bror"],
+      "answer": 0
+    },
+    {
+      "id": "q-genitive-longer-phrase-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ regering sammanträder på tisdagar. (Швеции)" },
+      "answer": ["Sveriges"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-genitive-longer-phrase-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Столица Франции — Париж.»", "en": "Build the sentence: \"France's capital is Paris.\"" },
+      "tokens": ["huvudstad", "Paris", "Frankrikes", "är"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-genitive-longer-phrase-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["kompis", "приятель"],
+        ["regering", "правительство"],
+        ["syster", "сестра"],
+        ["huvudstad", "столица"]
+      ]
+    },
+    {
+      "id": "q-genitive-longer-phrase-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В фразе «min kompis bror» -s ставится на «kompis», а не на «bror».", "en": "In \"min kompis bror\", the -s goes on \"kompis\", not on \"bror\"." },
+      "answer": true
+    },
+    {
+      "id": "q-genitive-longer-phrase-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В цепочке из двух уровней владения -s ставится дважды.", "en": "In a two-level possessive chain, -s is added twice." },
+      "answer": false,
+      "explanation": { "ru": "-s добавляется только один раз, в самом конце всей фразы.", "en": "The -s is added only once, at the very end of the whole phrase." }
+    }
+  ]
+}

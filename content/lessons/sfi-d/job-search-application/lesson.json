@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/job-search-application",
+  "slug": "job-search-application",
+  "title": {
+    "sv": "Att söka jobb: annonsen, ansökan, en kort presentation",
+    "ru": "Поиск работы: объявление, заявка, короткая самопрезентация",
+    "en": "Looking for work: the ad, the application, a short self-presentation"
+  },
+  "summary": {
+    "ru": "Как читать объявление о работе, подать заявку и коротко представить себя.",
+    "en": "How to read a job ad, submit an application, and present yourself briefly."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["work", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 410,
+  "prerequisites": ["sfi-c/looking-for-work"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

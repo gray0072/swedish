@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/reported-speech-indirect-question",
+  "slug": "reported-speech-indirect-question",
+  "title": {
+    "sv": "Indirekt tal och den indirekta frågan med om",
+    "ru": "Косвенная речь и косвенный вопрос с om",
+    "en": "Reported speech and the indirect question with om"
+  },
+  "summary": {
+    "ru": "Как пересказать чужие слова и превратить вопрос «да/нет» в косвенный с помощью om.",
+    "en": "How to report what someone said, and turn a yes/no question into an indirect one with om."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 650,
+  "prerequisites": ["sfi-c/indirect-question", "sva-grund-2/reported-speech-verbs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

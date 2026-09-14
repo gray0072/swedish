@@ -1,0 +1,67 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-temporal-clauses-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой союз обозначает два одновременных действия?", "en": "Which conjunction marks two simultaneous actions?" },
+      "choices": ["medan", "innan", "efter att", "så fort som"],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой союз чаще указывает на один конкретный момент в прошлом, часто в начале истории?", "en": "Which conjunction typically points at one specific past moment, often at the start of a story?" },
+      "choices": ["då", "när", "medan", "innan"],
+      "answer": 0
+    },
+    {
+      "id": "q-temporal-clauses-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag lagar mat ___ du dukar. (пока)" },
+      "answer": ["medan"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-temporal-clauses-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Позвони мне, прежде чем поедешь.»", "en": "Build the sentence: \"Call me before you leave.\"" },
+      "tokens": ["du", "innan", "mig", "åker", "Ring"],
+      "answer": [4, 2, 1, 0, 3]
+    },
+    {
+      "id": "q-temporal-clauses-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь союз с переводом", "en": "Match the conjunction with its translation" },
+      "pairs": [
+        ["när", "когда (общее)"],
+        ["medan", "пока"],
+        ["innan", "до того как"],
+        ["efter att", "после того как"]
+      ]
+    },
+    {
+      "id": "q-temporal-clauses-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Så fort som» значит «как только».", "en": "\"Så fort som\" means \"as soon as\"." },
+      "answer": true
+    },
+    {
+      "id": "q-temporal-clauses-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Efter att» часто сочетается с плюсквамперфектом в придаточном.", "en": "\"Efter att\" often pairs with the pluperfect in the subordinate clause." },
+      "answer": true
+    }
+  ]
+}

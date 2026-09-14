@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-modal-particles-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая частица приглашает к согласию, как «не так ли?»", "en": "Which particle invites agreement, like \"...right?\"" },
+      "choices": ["väl", "ju", "nog", "faktiskt"],
+      "answer": 0
+    },
+    {
+      "id": "q-modal-particles-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая частица смягчает утверждение до вероятной догадки?", "en": "Which particle softens a statement into a likely guess?" },
+      "choices": ["nog", "ju", "väl", "faktiskt"],
+      "answer": 0
+    },
+    {
+      "id": "q-modal-particles-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är ___ söndag idag. (же)" },
+      "answer": ["ju"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-modal-particles-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Завтра, наверное, будет дождь.»", "en": "Build the sentence: \"It will probably rain tomorrow.\"" },
+      "tokens": ["regn", "nog", "imorgon", "Det blir"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-modal-particles-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь частицу с переводом", "en": "Match the particle with its translation" },
+      "pairs": [
+        ["ju", "же, ведь"],
+        ["nog", "наверное"],
+        ["väl", "не так ли"],
+        ["faktiskt", "на самом деле"]
+      ]
+    },
+    {
+      "id": "q-modal-particles-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Faktiskt» сигнализирует что-то неожиданное или противоречащее ожиданиям.", "en": "\"Faktiskt\" signals something surprising or contrary to expectation." },
+      "answer": true
+    },
+    {
+      "id": "q-modal-particles-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Эти частицы обязательны грамматически, без них предложение неверно.", "en": "These particles are grammatically mandatory, and without them a sentence is incorrect." },
+      "answer": false,
+      "explanation": { "ru": "Эти частицы необязательны грамматически, но важны для естественности речи.", "en": "These particles are optional grammatically, though important for sounding natural." }
+    }
+  ]
+}

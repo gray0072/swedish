@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-insurance-home-travel-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое självrisk?", "en": "What is a självrisk?" },
+      "choices": [
+        { "ru": "Сумма, которую покрываешь сам(а) при страховом случае", "en": "The amount you cover yourself on a claim" },
+        { "ru": "Полная компенсация", "en": "The full compensation" },
+        { "ru": "Ежемесячный платёж за страховку", "en": "The monthly insurance payment" },
+        { "ru": "Название страховой компании", "en": "The name of the insurance company" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-insurance-home-travel-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "У тебя протекла труба и залило ванную. Куда обратиться?", "en": "A pipe burst and flooded your bathroom. What should you do?" },
+      "choices": [
+        { "ru": "Anmäla en skada till försäkringsbolaget", "en": "Anmäla en skada (report a claim) to the insurance company" },
+        { "ru": "Deklarera hos Skatteverket", "en": "File a tax declaration" },
+        { "ru": "Ansöka om medborgarskap", "en": "Apply for citizenship" },
+        { "ru": "Boka tid hos vårdcentralen", "en": "Book an appointment at the health centre" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-insurance-home-travel-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Страховка жилья покрывает кражу.»", "en": "Build the sentence: \"Home insurance covers theft.\"" },
+      "tokens": ["stöld", "Hemförsäkringen", "täcker"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-insurance-home-travel-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["hemförsäkring", "страховка жилья"],
+        ["stöld", "кража"],
+        ["skada", "ущерб"],
+        ["ersättning", "компенсация"]
+      ]
+    },
+    {
+      "id": "q-insurance-home-travel-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Reseförsäkring действует только дома в Швеции.", "en": "Travel insurance only applies at home in Sweden." },
+      "answer": false,
+      "explanation": { "ru": "Reseförsäkring действует за границей, во время поездок.", "en": "Travel insurance is valid abroad, while travelling." }
+    },
+    {
+      "id": "q-insurance-home-travel-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Vattenskada — это повреждение водой.", "en": "Vattenskada is water damage." },
+      "answer": true
+    },
+    {
+      "id": "q-insurance-home-travel-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ skadan i appen. (заявил(а))" },
+      "answer": ["anmälde"],
+      "acceptAlso": []
+    }
+  ]
+}

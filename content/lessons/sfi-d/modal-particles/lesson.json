@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/modal-particles",
+  "slug": "modal-particles",
+  "title": {
+    "sv": "Modala partiklar: ju, nog, väl, faktiskt",
+    "ru": "Модальные частицы: ju, nog, väl, faktiskt",
+    "en": "Modal particles: ju, nog, väl, faktiskt"
+  },
+  "summary": {
+    "ru": "Четыре маленькие слова, которые придают предложению оттенок уверенности, ожидания или удивления.",
+    "en": "Four small words that colour a sentence with confidence, expectation, or surprise."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "particles"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 740,
+  "prerequisites": ["sva-grund-3/modality-certainty"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

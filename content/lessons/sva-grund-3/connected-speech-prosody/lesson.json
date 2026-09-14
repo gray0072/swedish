@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/connected-speech-prosody",
+  "slug": "connected-speech-prosody",
+  "title": {
+    "sv": "Prosodi i naturligt tempo: satsbetoning och reduktioner",
+    "ru": "Просодия в естественном темпе: фразовое ударение и редукции",
+    "en": "Prosody at a natural pace: word accent, sentence stress and reductions in connected speech"
+  },
+  "summary": {
+    "ru": "Как ударные слова несут смысл предложения, а безударные слова сжимаются: har → 'ar, det → de, och → å.",
+    "en": "How stressed words carry a sentence's meaning while unstressed ones shrink: har → 'ar, det → de, och → å."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "pronunciation", "prosody"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1520,
+  "prerequisites": ["sfi-c/pronunciation-word-accent"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

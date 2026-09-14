@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/negation-scope",
+  "slug": "negation-scope",
+  "title": {
+    "sv": "Negationens räckvidd: inte, ingen, aldrig, knappast",
+    "ru": "Область действия отрицания: inte, ingen, aldrig, knappast",
+    "en": "Negation and its scope: inte, ingen, aldrig, knappast — placement by clause type"
+  },
+  "summary": {
+    "ru": "Где стоит отрицание в главном и придаточном предложении — и как его место меняет, что именно отрицается.",
+    "en": "Where negation sits in a main versus a subordinate clause — and how its placement changes what exactly is being negated."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "negation", "word-order"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1540,
+  "prerequisites": ["sva-grund-1/subordinate-clause-word-order"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

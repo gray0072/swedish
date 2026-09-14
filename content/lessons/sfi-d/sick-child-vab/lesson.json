@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/sick-child-vab",
+  "slug": "sick-child-vab",
+  "title": {
+    "sv": "Ett sjukt barn: VAB, att ringa 1177, meddelande till förskolan",
+    "ru": "Больной ребёнок: VAB, звонок в 1177, сообщение в детский сад",
+    "en": "A sick child: VAB, calling 1177, a message to the preschool"
+  },
+  "summary": {
+    "ru": "Что делать, если ребёнок заболел: VAB (уход за больным ребёнком), звонок в 1177, сообщение в детский сад.",
+    "en": "What to do when your child is sick: VAB (caring for a sick child), calling 1177, messaging the preschool."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["family", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 500,
+  "prerequisites": ["sva-grund-1/digital-life"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

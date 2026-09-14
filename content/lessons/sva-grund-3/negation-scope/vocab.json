@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "id": "rackvidd",
+      "sv": "räckvidd",
+      "translations": { "ru": "область действия, охват", "en": "scope, reach" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "räckvidd", "defSg": "räckvidden", "indefPl": "räckvidder", "defPl": "räckvidderna" },
+      "note": { "ru": "Здесь: какая именно часть предложения отрицается.", "en": "Here: exactly which part of the sentence is being negated." }
+    },
+    {
+      "id": "ingen-neg",
+      "sv": "ingen/inget/inga",
+      "translations": { "ru": "никакой, ни один (по роду и числу)", "en": "no, none (agreeing with gender/number)" },
+      "pos": "pron",
+      "note": { "ru": "Отрицательный определитель: заменяет «en/ett/inga + существительное».", "en": "A negative determiner: replaces \"en/ett + noun\" or the plural." }
+    },
+    {
+      "id": "aldrig",
+      "sv": "aldrig",
+      "translations": { "ru": "никогда", "en": "never" },
+      "pos": "adv"
+    },
+    {
+      "id": "knappast",
+      "sv": "knappast",
+      "translations": { "ru": "вряд ли, едва ли", "en": "hardly, scarcely" },
+      "pos": "adv"
+    },
+    {
+      "id": "helt",
+      "sv": "helt",
+      "translations": { "ru": "полностью, совсем", "en": "entirely, completely" },
+      "pos": "adv"
+    },
+    {
+      "id": "alla-neg",
+      "sv": "alla",
+      "translations": { "ru": "все", "en": "everyone, all" },
+      "pos": "pron"
+    },
+    {
+      "id": "delvis-negation",
+      "sv": "delvis negation",
+      "translations": { "ru": "частичное отрицание", "en": "partial negation" },
+      "pos": "phrase",
+      "note": { "ru": "Отрицается не всё утверждение, а только его часть, напр. «inte alla».", "en": "Not the whole statement is negated, only a part of it, e.g. \"inte alla\"." }
+    },
+    {
+      "id": "total-negation",
+      "sv": "total negation",
+      "translations": { "ru": "полное отрицание", "en": "total negation" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ratt-adj",
+      "sv": "rätt",
+      "translations": { "ru": "правильный", "en": "correct, right" },
+      "pos": "adj"
+    },
+    {
+      "id": "svara-verb",
+      "sv": "svara",
+      "translations": { "ru": "отвечать", "en": "to answer" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "svara", "present": "svarar", "past": "svarade", "supine": "svarat" }
+    }
+  ]
+}

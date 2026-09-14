@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "for-att",
+      "sv": "för att",
+      "translations": { "ru": "чтобы (с целью)", "en": "in order to" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag sparar pengar för att köpa en bil.", "ru": "Я коплю деньги, чтобы купить машину.", "en": "I'm saving money in order to buy a car." }
+    },
+    {
+      "id": "utan-att",
+      "sv": "utan att",
+      "translations": { "ru": "не делая (не + деепричастие)", "en": "without (doing something)" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon gick ut utan att säga något.", "ru": "Она вышла, ничего не сказав.", "en": "She left without saying anything." }
+    },
+    {
+      "id": "genom-att",
+      "sv": "genom att",
+      "translations": { "ru": "путём того, что; тем, что (способ)", "en": "by (doing something)" },
+      "pos": "conjunction",
+      "example": { "sv": "Han lärde sig svenska genom att läsa mycket.", "ru": "Он выучил шведский, много читая.", "en": "He learned Swedish by reading a lot." }
+    },
+    {
+      "id": "spara",
+      "sv": "spara",
+      "translations": { "ru": "копить, экономить", "en": "to save" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" },
+      "example": { "sv": "Jag sparar för att kunna resa.", "ru": "Я коплю, чтобы иметь возможность путешествовать.", "en": "I'm saving so that I can travel." }
+    },
+    {
+      "id": "istallet-for-att",
+      "sv": "istället för att",
+      "translations": { "ru": "вместо того чтобы", "en": "instead of" },
+      "pos": "conjunction",
+      "example": { "sv": "Han cyklar istället för att köra bil.", "ru": "Он ездит на велосипеде вместо того, чтобы водить машину.", "en": "He cycles instead of driving." }
+    },
+    {
+      "id": "trots-att-if",
+      "sv": "utan att märka det",
+      "translations": { "ru": "не заметив этого", "en": "without noticing it" },
+      "pos": "phrase",
+      "example": { "sv": "Han gick förbi utan att märka det.", "ru": "Он прошёл мимо, не заметив этого.", "en": "He walked past without noticing it." }
+    },
+    {
+      "id": "lyckas",
+      "sv": "lyckas",
+      "translations": { "ru": "удаваться, преуспевать", "en": "to succeed, to manage" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "lyckas", "present": "lyckas", "past": "lyckades", "supine": "lyckats" },
+      "example": { "sv": "Hon lyckades genom att öva varje dag.", "ru": "Она добилась успеха, тренируясь каждый день.", "en": "She succeeded by practising every day." }
+    },
+    {
+      "id": "markera",
+      "sv": "märka",
+      "translations": { "ru": "замечать", "en": "to notice" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "märka", "present": "märker", "past": "märkte", "supine": "märkt" },
+      "example": { "sv": "Jag märkte inte att klockan var så mycket.", "ru": "Я не заметил(а), что уже так поздно.", "en": "I didn't notice it was so late." }
+    }
+  ]
+}

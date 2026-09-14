@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-workplace-habits-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как обычно обращаются к начальнику на шведском рабочем месте?", "en": "How is a boss usually addressed at a Swedish workplace?" },
+      "choices": [
+        { "ru": "На «ты» (du)", "en": "Informally, with \"du\"" },
+        { "ru": "Только по фамилии и титулу", "en": "Only by surname and title" },
+        { "ru": "Никогда напрямую", "en": "Never directly" },
+        { "ru": "Только письменно", "en": "Only in writing" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-workplace-habits-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое fika?", "en": "What is fika?" },
+      "choices": [
+        { "ru": "Совместный перерыв на кофе", "en": "A shared coffee break" },
+        { "ru": "Ежегодная премия", "en": "An annual bonus" },
+        { "ru": "Собеседование при приёме на работу", "en": "A job interview" },
+        { "ru": "Профсоюзное собрание", "en": "A union meeting" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-workplace-habits-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Важно приходить вовремя.»", "en": "Build the sentence: \"It's important to arrive on time.\"" },
+      "tokens": ["i", "tid", "att", "komma", "Det", "är", "viktigt"],
+      "answer": [4, 5, 6, 2, 3, 0, 1]
+    },
+    {
+      "id": "q-workplace-habits-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["fika", "перерыв на кофе"],
+        ["punktlighet", "пунктуальность"],
+        ["konsensus", "консенсус"],
+        ["självständig", "самостоятельный"]
+      ]
+    },
+    {
+      "id": "q-workplace-habits-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "На шведском рабочем месте не принято просить о помощи.", "en": "At a Swedish workplace it's frowned upon to ask for help." },
+      "answer": false,
+      "explanation": { "ru": "Просить о помощи — это совершенно нормально.", "en": "Asking for help is completely normal." }
+    },
+    {
+      "id": "q-workplace-habits-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Platt organisation означает плоскую, не иерархичную структуру.", "en": "Platt organisation means a flat, non-hierarchical structure." },
+      "answer": true
+    },
+    {
+      "id": "q-workplace-habits-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är okej att ___ om hjälp. (просить)" },
+      "answer": ["be"],
+      "acceptAlso": []
+    }
+  ]
+}

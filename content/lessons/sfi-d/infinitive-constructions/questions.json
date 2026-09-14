@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-infinitive-constructions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая конструкция обозначает способ («тем, что»)?", "en": "Which construction expresses means (\"by doing\")?" },
+      "choices": ["genom att", "för att", "utan att", "istället för att"],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-constructions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hon gick ut ___ säga något» — какое слово подходит?", "en": "\"Hon gick ut ___ säga något\" — which word fits?" },
+      "choices": ["utan att", "för att", "genom att", "trots att"],
+      "answer": 0
+    },
+    {
+      "id": "q-infinitive-constructions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag sparar pengar ___ köpa en bil. (чтобы)" },
+      "answer": ["för att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-infinitive-constructions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он выучил шведский, много читая.»", "en": "Build the sentence: \"He learned Swedish by reading a lot.\"" },
+      "tokens": ["genom", "läsa", "mycket", "att", "svenska", "sig", "Han lärde"],
+      "answer": [6, 5, 4, 0, 3, 1, 2]
+    },
+    {
+      "id": "q-infinitive-constructions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с переводом", "en": "Match the construction with its translation" },
+      "pairs": [
+        ["för att", "чтобы"],
+        ["utan att", "не делая"],
+        ["genom att", "путём того, что"],
+        ["istället för att", "вместо того чтобы"]
+      ]
+    },
+    {
+      "id": "q-infinitive-constructions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "После «för att», «utan att», «genom att» ставится инфинитив без отдельного подлежащего.", "en": "\"För att\", \"utan att\" and \"genom att\" are all followed by the infinitive with no separate subject." },
+      "answer": true
+    },
+    {
+      "id": "q-infinitive-constructions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Utan att» и «för att» имеют одинаковое значение.", "en": "\"Utan att\" and \"för att\" mean the same thing." },
+      "answer": false,
+      "explanation": { "ru": "«För att» — цель, «utan att» — отсутствие действия; это разные значения.", "en": "\"För att\" expresses purpose, \"utan att\" expresses absence — different meanings." }
+    }
+  ]
+}

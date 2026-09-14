@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-apposition-parenthetical-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое apposition?", "en": "What is an apposition?" },
+      "choices": [
+        { "ru": "Вставной комментарий говорящего", "en": "The speaker's inserted comment" },
+        { "ru": "Второй именной оборот, называющий то же самое иначе", "en": "A second noun phrase naming the same thing differently" },
+        { "ru": "Союз, вводящий придаточное", "en": "A conjunction introducing a subordinate clause" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-apposition-parenthetical-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anna, min syster, kommer imorgon.» — чем является «min syster»?", "en": "\"Anna, min syster, kommer imorgon.\" — what is \"min syster\"?" },
+      "choices": ["en apposition", "en inskjuten sats om åsikt", "ett tankstreck", "ett fundament"],
+      "answer": 0
+    },
+    {
+      "id": "q-apposition-parenthetical-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det var, tyvärr, för sent.» — чем является «tyvärr» здесь?", "en": "\"Det var, tyvärr, för sent.\" — what is \"tyvärr\" here?" },
+      "choices": ["en apposition", "en inskjuten kommentar", "ett subjekt", "ett objekt"],
+      "answer": 1
+    },
+    {
+      "id": "q-apposition-parenthetical-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Приложение (apposition) обычно отделяется запятыми с обеих сторон.", "en": "An apposition is usually set off by commas on both sides." },
+      "answer": true
+    },
+    {
+      "id": "q-apposition-parenthetical-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Вставная конструкция может стоять только в самом начале предложения.", "en": "A parenthetical insertion can only stand at the very start of a sentence." },
+      "answer": false,
+      "explanation": {
+        "ru": "Вставная конструкция может стоять в начале, середине или ближе к концу предложения — её место гибкое.",
+        "en": "A parenthetical insertion can stand at the start, in the middle, or near the end of a sentence — its position is flexible."
+      }
+    },
+    {
+      "id": "q-apposition-parenthetical-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Stockholm, Sveriges ___, ligger vid vattnet." },
+      "answer": ["huvudstad"]
+    },
+    {
+      "id": "q-apposition-parenthetical-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Det var, ___, för sent för att ändra planerna." },
+      "answer": ["tyvärr"]
+    },
+    {
+      "id": "q-apposition-parenthetical-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Anna, min syster, kommer imorgon.»", "en": "Build the sentence: \"Anna, min syster, kommer imorgon.\"" },
+      "tokens": ["Anna,", "min", "syster,", "kommer", "imorgon."],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-apposition-parenthetical-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь оборот с его типом", "en": "Match the phrase with its type" },
+      "pairs": [
+        ["min syster (после Anna,)", "apposition"],
+        ["tyvärr (внутри предложения)", "inskjuten sats"],
+        ["enligt min mening", "inskjuten sats"],
+        ["Sveriges huvudstad (после Stockholm,)", "apposition"]
+      ]
+    }
+  ]
+}

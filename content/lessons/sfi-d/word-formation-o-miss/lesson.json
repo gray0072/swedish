@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/word-formation-o-miss",
+  "slug": "word-formation-o-miss",
+  "title": {
+    "sv": "Ordbildning med prefixen o- och miss-: omöjlig, otrevlig, missförstå",
+    "ru": "Словообразование с приставками o- и miss-: omöjlig, otrevlig, missförstå",
+    "en": "Word formation with the prefixes o- and miss-: omöjlig, otrevlig, missförstå"
+  },
+  "summary": {
+    "ru": "Как приставки o- (отрицание) и miss- (ошибка, неправильность) образуют новые слова.",
+    "en": "How the prefixes o- (negation) and miss- (error, wrongness) build new words."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "word-formation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 790,
+  "prerequisites": ["sva-grund-2/word-formation"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

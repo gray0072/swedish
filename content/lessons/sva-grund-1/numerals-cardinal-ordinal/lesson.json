@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-1/numerals-cardinal-ordinal",
+  "slug": "numerals-cardinal-ordinal",
+  "title": {
+    "sv": "Räkneord: grundtal, ordningstal, datum och klockslag",
+    "ru": "Числительные: количественные, порядковые, даты и время суток",
+    "en": "Numerals: cardinal, ordinal, dates and clock times, and how they are read aloud"
+  },
+  "summary": {
+    "ru": "Систематизация чисел: количественные и порядковые числительные, и как читать даты и время вслух.",
+    "en": "Systematising numbers: cardinals and ordinals, and how to read dates and clock times aloud."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-1"],
+  "tags": ["grammar", "numerals", "dates"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 640,
+  "prerequisites": ["sfi-c/numbers-dates-years-percent"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

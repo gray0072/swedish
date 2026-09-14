@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-concessive-clauses-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово — предлог, а не союз?", "en": "Which word is a preposition, not a conjunction?" },
+      "choices": ["trots", "trots att", "fast", "även om"],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово наиболее разговорное для «хотя»?", "en": "Which word is the most everyday/spoken way to say \"although\"?" },
+      "choices": ["fast", "trots att", "visserligen", "ändå"],
+      "answer": 0
+    },
+    {
+      "id": "q-concessive-clauses-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon log ___ hon var trött. (несмотря на то что)" },
+      "answer": ["trots att"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-concessive-clauses-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Несмотря на дождь, они вышли.»", "en": "Build the sentence: \"Despite the rain, they went out.\"" },
+      "tokens": ["ut", "regnet", "gick", "de", "Trots"],
+      "answer": [4, 1, 3, 2, 0]
+    },
+    {
+      "id": "q-concessive-clauses-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["ändå", "всё равно"],
+        ["visserligen", "правда, конечно"],
+        ["trots", "несмотря на"],
+        ["även om", "даже если"]
+      ]
+    },
+    {
+      "id": "q-concessive-clauses-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Även om» может вводить и гипотетическую уступку.", "en": "\"Även om\" can introduce a hypothetical concession too." },
+      "answer": true
+    },
+    {
+      "id": "q-concessive-clauses-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Trots» используется перед целым придаточным предложением с глаголом.", "en": "\"Trots\" is used directly before a whole clause with a verb." },
+      "answer": false,
+      "explanation": { "ru": "«Trots» — предлог, он стоит перед существительным, а не перед целым придаточным.", "en": "\"Trots\" is a preposition, used before a noun, not before a whole clause." }
+    }
+  ]
+}

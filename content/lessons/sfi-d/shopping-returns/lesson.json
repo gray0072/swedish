@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/shopping-returns",
+  "slug": "shopping-returns",
+  "title": {
+    "sv": "Köp och retur: öppet köp, kvittot, att klaga på ett köp",
+    "ru": "Покупки и возврат: право на возврат, чек, жалоба на покупку",
+    "en": "Shopping and returns: öppet köp, the receipt, complaining about a purchase"
+  },
+  "summary": {
+    "ru": "Как воспользоваться правом на возврат товара (öppet köp) и как пожаловаться на покупку.",
+    "en": "How to use the right to return goods (öppet köp) and how to complain about a purchase."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["shopping", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 480,
+  "prerequisites": ["sfi-c/shopping-comparing-prices"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

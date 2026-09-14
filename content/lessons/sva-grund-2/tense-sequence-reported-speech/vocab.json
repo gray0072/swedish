@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "direkt-tal",
+      "sv": "direkt tal",
+      "translations": { "ru": "прямая речь", "en": "direct speech" },
+      "pos": "phrase"
+    },
+    {
+      "id": "indirekt-tal",
+      "sv": "indirekt tal",
+      "translations": { "ru": "косвенная речь", "en": "reported/indirect speech" },
+      "pos": "phrase"
+    },
+    {
+      "id": "tempusfoljd",
+      "sv": "tempusföljd",
+      "translations": { "ru": "согласование времён", "en": "sequence of tenses" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "tempusföljd", "defSg": "tempusföljden", "indefPl": "tempusföljder", "defPl": "tempusföljderna" }
+    },
+    {
+      "id": "sa-verb",
+      "sv": "säga",
+      "translations": { "ru": "говорить, сказать", "en": "to say" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" },
+      "example": { "sv": "Hon sa att hon var trött.", "ru": "Она сказала, что устала.", "en": "She said she was tired." }
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj"
+    },
+    {
+      "id": "skulle",
+      "sv": "skulle",
+      "translations": { "ru": "должен(на) был(а) (будущее в прошедшем)", "en": "would (future-in-the-past)" },
+      "pos": "verb",
+      "note": { "ru": "Используется вместо «ska», когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of \"ska\" when the reporting verb is in the past tense." }
+    },
+    {
+      "id": "hade",
+      "sv": "hade",
+      "translations": { "ru": "имел(а) (плюсквамперфект)", "en": "had (pluperfect)" },
+      "pos": "verb",
+      "note": { "ru": "Используется вместо перфекта, когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of the perfect when the reporting verb is in the past tense." }
+    },
+    {
+      "id": "igar",
+      "sv": "igår → dagen innan",
+      "translations": { "ru": "вчера → накануне (сдвиг времени в косвенной речи)", "en": "yesterday → the day before (time shift in reported speech)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon → dagen efter",
+      "translations": { "ru": "завтра → на следующий день (сдвиг времени)", "en": "tomorrow → the next day (time shift)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "meddelande",
+      "sv": "meddelande",
+      "translations": { "ru": "сообщение", "en": "message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" }
+    }
+  ]
+}

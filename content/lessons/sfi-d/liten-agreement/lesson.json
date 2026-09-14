@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/liten-agreement",
+  "slug": "liten-agreement",
+  "title": {
+    "sv": "Svåra kongruensfall: liten / litet / lilla / små",
+    "ru": "Трудные случаи согласования: liten / litet / lilla / små",
+    "en": "Difficult agreement cases: liten / litet / lilla / små"
+  },
+  "summary": {
+    "ru": "Четыре формы прилагательного «маленький» и правило, когда какую использовать.",
+    "en": "The four forms of the adjective \"little/small\" and the rule for when to use each."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "adjectives"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 690,
+  "prerequisites": ["sva-grund-1/adjective-declension"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

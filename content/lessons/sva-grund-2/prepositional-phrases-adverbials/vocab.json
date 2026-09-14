@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "adverbial",
+      "sv": "adverbial",
+      "translations": { "ru": "обстоятельство (член предложения)", "en": "adverbial (a sentence element)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "adverbial", "defSg": "adverbialet", "indefPl": "adverbial", "defPl": "adverbialen" }
+    },
+    {
+      "id": "pa-grund-av",
+      "sv": "på grund av",
+      "translations": { "ru": "из-за (причина)", "en": "because of, due to" },
+      "pos": "phrase",
+      "example": { "sv": "Tåget var sent på grund av regnet.", "ru": "Поезд опоздал из-за дождя.", "en": "The train was late because of the rain." }
+    },
+    {
+      "id": "med-stor-gladje",
+      "sv": "med stor glädje",
+      "translations": { "ru": "с большой радостью (образ действия)", "en": "with great joy (manner)" },
+      "pos": "phrase",
+      "example": { "sv": "Hon tog emot priset med stor glädje.", "ru": "Она с большой радостью приняла приз.", "en": "She accepted the prize with great joy." }
+    },
+    {
+      "id": "under-hela-sommaren",
+      "sv": "under hela sommaren",
+      "translations": { "ru": "в течение всего лета (время)", "en": "throughout the whole summer (time)" },
+      "pos": "phrase",
+      "example": { "sv": "Vi bodde där under hela sommaren.", "ru": "Мы жили там в течение всего лета.", "en": "We lived there throughout the whole summer." }
+    },
+    {
+      "id": "till-foljd-av",
+      "sv": "till följd av",
+      "translations": { "ru": "вследствие (причина, книжн.)", "en": "as a result of (formal cause)" },
+      "pos": "phrase",
+      "example": { "sv": "Priserna steg till följd av kriget.", "ru": "Цены выросли вследствие войны.", "en": "Prices rose as a result of the war." }
+    },
+    {
+      "id": "utan-tvekan",
+      "sv": "utan tvekan",
+      "translations": { "ru": "без сомнения (образ действия)", "en": "without a doubt (manner)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "vid-tillfallet",
+      "sv": "vid tillfället",
+      "translations": { "ru": "в тот момент (время)", "en": "at the time (time)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "regn",
+      "sv": "regn",
+      "translations": { "ru": "дождь", "en": "rain" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "regn", "defSg": "regnet", "indefPl": "regn", "defPl": "regnen" }
+    },
+    {
+      "id": "pris",
+      "sv": "pris",
+      "translations": { "ru": "приз, награда", "en": "prize" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "pris", "defPl": "prisen" }
+    },
+    {
+      "id": "krig",
+      "sv": "krig",
+      "translations": { "ru": "война", "en": "war" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "krig", "defSg": "kriget", "indefPl": "krig", "defPl": "krigen" }
+    }
+  ]
+}

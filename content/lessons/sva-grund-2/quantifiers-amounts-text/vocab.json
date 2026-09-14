@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "de-flesta",
+      "sv": "de flesta",
+      "translations": { "ru": "большинство", "en": "most (people/things)" },
+      "pos": "phrase",
+      "example": { "sv": "De flesta arbetar heltid.", "ru": "Большинство работает полный день.", "en": "Most people work full-time." }
+    },
+    {
+      "id": "en-tredjedel",
+      "sv": "en tredjedel",
+      "translations": { "ru": "треть", "en": "a third" },
+      "pos": "phrase",
+      "example": { "sv": "En tredjedel av eleverna klarade provet.", "ru": "Треть учеников сдала тест.", "en": "A third of the students passed the test." }
+    },
+    {
+      "id": "andelen",
+      "sv": "andel",
+      "translations": { "ru": "доля", "en": "share, proportion" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "andel", "defSg": "andelen", "indefPl": "andelar", "defPl": "andelarna" },
+      "example": { "sv": "Andelen unga som studerar har ökat.", "ru": "Доля молодёжи, которая учится, выросла.", "en": "The share of young people studying has increased." }
+    },
+    {
+      "id": "allt-fler",
+      "sv": "allt fler",
+      "translations": { "ru": "всё больше (людей)", "en": "an increasing number (of people)" },
+      "pos": "phrase",
+      "example": { "sv": "Allt fler väljer att cykla till jobbet.", "ru": "Всё больше людей выбирают ехать на работу на велосипеде.", "en": "An increasing number of people choose to cycle to work." }
+    },
+    {
+      "id": "en-majoritet",
+      "sv": "en majoritet",
+      "translations": { "ru": "большинство (формально)", "en": "a majority" },
+      "pos": "phrase"
+    },
+    {
+      "id": "en-minoritet",
+      "sv": "en minoritet",
+      "translations": { "ru": "меньшинство", "en": "a minority" },
+      "pos": "phrase"
+    },
+    {
+      "id": "ungefar-halften",
+      "sv": "ungefär hälften",
+      "translations": { "ru": "примерно половина", "en": "roughly half" },
+      "pos": "phrase"
+    },
+    {
+      "id": "en-liten-del",
+      "sv": "en liten del",
+      "translations": { "ru": "небольшая часть", "en": "a small part" },
+      "pos": "phrase"
+    },
+    {
+      "id": "oka",
+      "sv": "öka",
+      "translations": { "ru": "увеличиваться, расти", "en": "to increase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" }
+    },
+    {
+      "id": "minska",
+      "sv": "minska",
+      "translations": { "ru": "уменьшаться", "en": "to decrease" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" }
+    }
+  ]
+}

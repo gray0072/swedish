@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/insurance-home-travel",
+  "slug": "insurance-home-travel",
+  "title": {
+    "sv": "Försäkring för hemmet och för en resa",
+    "ru": "Страхование жилья и поездки",
+    "en": "Insurance for the home and for a trip"
+  },
+  "summary": {
+    "ru": "Что покрывает страховка жилья и страховка путешественника — базовые слова.",
+    "en": "What home insurance and travel insurance cover — the basic words."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["economy", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 390,
+  "prerequisites": ["sfi-d/taxes-everyday"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

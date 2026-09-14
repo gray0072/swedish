@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-punctuation-paragraphing-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Куда ставится запятая, если придаточное идёт после главного предложения?", "en": "Where does the comma go when the subordinate clause follows the main clause?" },
+      "choices": [
+        { "ru": "Перед придаточным", "en": "Right before the subordinate clause" },
+        { "ru": "В конце всего предложения", "en": "At the end of the whole sentence" },
+        { "ru": "В начале главного предложения", "en": "At the start of the main clause" },
+        { "ru": "Запятая не ставится", "en": "No comma is used at all" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-punctuation-paragraphing-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что должен содержать каждый абзац?", "en": "What should each paragraph contain?" },
+      "choices": [
+        { "ru": "Одну новую мысль", "en": "One new idea" },
+        { "ru": "Ровно пять предложений", "en": "Exactly five sentences" },
+        { "ru": "Только вопросы", "en": "Only questions" },
+        { "ru": "Список слов", "en": "A word list" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-punctuation-paragraphing-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag stannade hemma___ eftersom det regnade. (запятая)" },
+      "answer": [","],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-punctuation-paragraphing-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Так как шёл дождь, я остался дома.»", "en": "Build the sentence: \"Since it was raining, I stayed home.\"" },
+      "tokens": ["det", "regnade,", "stannade jag hemma", "Eftersom"],
+      "answer": [3, 0, 1, 2]
+    },
+    {
+      "id": "q-punctuation-paragraphing-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["komma", "запятая"],
+        ["stycke", "абзац"],
+        ["bisats", "придаточное предложение"],
+        ["huvudsats", "главное предложение"]
+      ]
+    },
+    {
+      "id": "q-punctuation-paragraphing-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Запятая перед придаточным в шведском — стандартная практика, а не необязательная.", "en": "The comma before a subordinate clause in Swedish is standard practice, not optional." },
+      "answer": true
+    },
+    {
+      "id": "q-punctuation-paragraphing-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Правило запятой меняется, если придаточное стоит в начале предложения.", "en": "The comma rule changes if the subordinate clause comes at the start of the sentence." },
+      "answer": false,
+      "explanation": { "ru": "Правило то же самое, просто запятая ставится перед тем предложением, которое идёт вторым.", "en": "The rule is the same — the comma just goes before whichever clause comes second." }
+    }
+  ]
+}

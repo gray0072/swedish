@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "det-regnar",
+      "sv": "det regnar",
+      "translations": { "ru": "идёт дождь", "en": "it's raining" },
+      "pos": "phrase",
+      "example": { "sv": "Det regnar mycket idag.", "ru": "Сегодня сильно идёт дождь.", "en": "It's raining a lot today." }
+    },
+    {
+      "id": "det-snoar",
+      "sv": "det snöar",
+      "translations": { "ru": "идёт снег", "en": "it's snowing" },
+      "pos": "phrase",
+      "example": { "sv": "Det snöar över hela landet.", "ru": "Снег идёт по всей стране.", "en": "It's snowing all over the country." }
+    },
+    {
+      "id": "det-ar-viktigt-att",
+      "sv": "det är viktigt att",
+      "translations": { "ru": "важно, что(бы)", "en": "it's important that/to" },
+      "pos": "phrase",
+      "example": { "sv": "Det är viktigt att komma i tid.", "ru": "Важно приходить вовремя.", "en": "It's important to arrive on time." }
+    },
+    {
+      "id": "det-sags-att",
+      "sv": "det sägs att",
+      "translations": { "ru": "говорят, что", "en": "it's said that" },
+      "pos": "phrase",
+      "example": { "sv": "Det sägs att det blir en kall vinter.", "ru": "Говорят, что зима будет холодной.", "en": "It's said that it will be a cold winter." }
+    },
+    {
+      "id": "det-ar-kallt",
+      "sv": "det är kallt",
+      "translations": { "ru": "холодно", "en": "it's cold" },
+      "pos": "phrase",
+      "example": { "sv": "Det är kallt ute idag.", "ru": "Сегодня на улице холодно.", "en": "It's cold outside today." }
+    },
+    {
+      "id": "det-verkar-som",
+      "sv": "det verkar som",
+      "translations": { "ru": "похоже, что", "en": "it seems that" },
+      "pos": "phrase",
+      "example": { "sv": "Det verkar som att bussen är sen.", "ru": "Похоже, что автобус опаздывает.", "en": "It seems that the bus is late." }
+    },
+    {
+      "id": "det-ar-svart-att",
+      "sv": "det är svårt att",
+      "translations": { "ru": "трудно (сделать что-то)", "en": "it's difficult to" },
+      "pos": "phrase",
+      "example": { "sv": "Det är svårt att lära sig ett nytt språk snabbt.", "ru": "Трудно быстро выучить новый язык.", "en": "It's difficult to learn a new language quickly." }
+    }
+  ]
+}

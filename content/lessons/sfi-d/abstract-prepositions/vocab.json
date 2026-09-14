@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "radd-for",
+      "sv": "rädd för",
+      "translations": { "ru": "боящийся чего-то", "en": "afraid of" },
+      "pos": "phrase",
+      "example": { "sv": "Hon är rädd för spindlar.", "ru": "Она боится пауков.", "en": "She's afraid of spiders." }
+    },
+    {
+      "id": "nojd-med",
+      "sv": "nöjd med",
+      "translations": { "ru": "довольный чем-то", "en": "pleased/satisfied with" },
+      "pos": "phrase",
+      "example": { "sv": "Jag är nöjd med resultatet.", "ru": "Я доволен(льна) результатом.", "en": "I'm pleased with the result." }
+    },
+    {
+      "id": "trott-pa",
+      "sv": "trött på",
+      "translations": { "ru": "уставший от чего-то", "en": "tired of" },
+      "pos": "phrase",
+      "example": { "sv": "Han är trött på att vänta.", "ru": "Он устал ждать.", "en": "He's tired of waiting." }
+    },
+    {
+      "id": "prata-om",
+      "sv": "prata om",
+      "translations": { "ru": "говорить о", "en": "to talk about" },
+      "pos": "phrase",
+      "example": { "sv": "Vi pratade om helgen.", "ru": "Мы говорили о выходных.", "en": "We talked about the weekend." }
+    },
+    {
+      "id": "infor-prep",
+      "sv": "inför",
+      "translations": { "ru": "перед (в преддверии чего-то)", "en": "ahead of, in preparation for" },
+      "pos": "prep",
+      "example": { "sv": "Hon är nervös inför provet.", "ru": "Она нервничает перед экзаменом.", "en": "She's nervous ahead of the exam." }
+    },
+    {
+      "id": "tacksam-for",
+      "sv": "tacksam för",
+      "translations": { "ru": "благодарный за", "en": "grateful for" },
+      "pos": "phrase",
+      "example": { "sv": "Jag är tacksam för din hjälp.", "ru": "Я благодарен(на) за твою помощь.", "en": "I'm grateful for your help." }
+    },
+    {
+      "id": "bra-pa",
+      "sv": "bra på",
+      "translations": { "ru": "хорош в чём-то", "en": "good at" },
+      "pos": "phrase",
+      "example": { "sv": "Hon är bra på matematik.", "ru": "Она хороша в математике.", "en": "She's good at maths." }
+    },
+    {
+      "id": "vanta-pa",
+      "sv": "vänta på",
+      "translations": { "ru": "ждать чего-то/кого-то", "en": "to wait for" },
+      "pos": "phrase",
+      "example": { "sv": "Jag väntar på bussen.", "ru": "Я жду автобус.", "en": "I'm waiting for the bus." }
+    }
+  ]
+}

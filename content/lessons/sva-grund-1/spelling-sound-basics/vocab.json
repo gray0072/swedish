@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "vit-vitt",
+      "sv": "vit / vitt",
+      "translations": { "ru": "белый (en-форма / ett-форма, долгий гласный)", "en": "white (en-form / ett-form, long vowel)" },
+      "pos": "phrase",
+      "note": { "ru": "Долгий «i», одна согласная на конце.", "en": "Long i, a single consonant at the end." }
+    },
+    {
+      "id": "matt-matt",
+      "sv": "matt / matt",
+      "translations": { "ru": "матовый (краткий гласный, двойная согласная)", "en": "matte, dull (short vowel, doubled consonant)" },
+      "pos": "adj",
+      "note": { "ru": "Краткий «a», двойная «t» — сравни с «mat» (еда), долгий «a», одна «t».", "en": "Short a, doubled t — compare with \"mat\" (food), long a, single t." }
+    },
+    {
+      "id": "mat-eda",
+      "sv": "mat",
+      "translations": { "ru": "еда (долгий гласный, одна согласная)", "en": "food (long vowel, single consonant)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "mat", "defSg": "maten", "indefPl": "mat", "defPl": "maten" }
+    },
+    {
+      "id": "sitta-sitter",
+      "sv": "sitta",
+      "translations": { "ru": "сидеть (краткий гласный, двойная согласная)", "en": "to sit (short vowel, doubled consonant)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sitta", "present": "sitter", "past": "satt", "supine": "suttit" }
+    },
+    {
+      "id": "sila-verb",
+      "sv": "sila",
+      "translations": { "ru": "процеживать (долгий гласный, одна согласная)", "en": "to strain, filter (long vowel, single consonant)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sila", "present": "silar", "past": "silade", "supine": "silat" }
+    },
+    {
+      "id": "lang-vokal",
+      "sv": "lång vokal",
+      "translations": { "ru": "долгий гласный", "en": "long vowel" },
+      "pos": "phrase"
+    },
+    {
+      "id": "kort-vokal",
+      "sv": "kort vokal",
+      "translations": { "ru": "краткий гласный", "en": "short vowel" },
+      "pos": "phrase"
+    },
+    {
+      "id": "dubbelteckning",
+      "sv": "dubbelteckning",
+      "translations": { "ru": "удвоение (согласной буквы на письме)", "en": "doubling (of a consonant letter in writing)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "dubbelteckning", "defSg": "dubbelteckningen", "indefPl": "dubbelteckningar", "defPl": "dubbelteckningarna" }
+    },
+    {
+      "id": "betonad-stavelse-spell",
+      "sv": "betonad stavelse",
+      "translations": { "ru": "ударный слог", "en": "stressed syllable" },
+      "pos": "phrase",
+      "note": { "ru": "Правило долготы гласного/удвоения согласной действует в ударном слоге.", "en": "The vowel-length/consonant-doubling rule applies within the stressed syllable." }
+    },
+    {
+      "id": "ett-hundrad-exception",
+      "sv": "hund",
+      "translations": { "ru": "собака (краткий гласный, одна согласная — исключение из общей картины из-за конечной позиции)", "en": "dog (short vowel, single consonant at the very end — a common exception pattern)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "note": { "ru": "Некоторые слова заканчиваются на одну согласную после краткого гласного — таких исключений немного, их нужно запоминать.", "en": "Some words end in a single consonant after a short vowel — there are a few such exceptions, learned individually." }
+    }
+  ]
+}

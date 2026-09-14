@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-reported-speech-indirect-question-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово превращает вопрос «да/нет» в косвенный?", "en": "Which word turns a yes/no question into an indirect one?" },
+      "choices": ["om", "att", "som", "vem"],
+      "answer": 0
+    },
+    {
+      "id": "q-reported-speech-indirect-question-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Är du hungrig?» в косвенной речи будет...", "en": "\"Är du hungrig?\" in reported speech becomes..." },
+      "choices": [
+        { "ru": "Han frågade om jag var hungrig.", "en": "Han frågade om jag var hungrig." },
+        { "ru": "Han frågade att jag var hungrig.", "en": "Han frågade att jag var hungrig." },
+        { "ru": "Han sa att jag var hungrig?", "en": "Han sa att jag var hungrig?" },
+        { "ru": "Han undrar hungrig.", "en": "Han undrar hungrig." }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-reported-speech-indirect-question-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag vet inte ___ han kommer i tid. (ли)" },
+      "answer": ["om"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-reported-speech-indirect-question-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она сказала, что устала.»", "en": "Build the sentence: \"She said that she was tired.\"" },
+      "tokens": ["trött", "att", "var", "hon", "Hon sa"],
+      "answer": [4, 1, 3, 2, 0]
+    },
+    {
+      "id": "q-reported-speech-indirect-question-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["undra", "интересоваться"],
+        ["påstå", "утверждать"],
+        ["direkt tal", "прямая речь"],
+        ["indirekt tal", "косвенная речь"]
+      ]
+    },
+    {
+      "id": "q-reported-speech-indirect-question-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "В косвенном придаточном сохраняется прямой порядок слов, а не инвертированный.", "en": "The indirect subordinate clause keeps straight word order, not inverted." },
+      "answer": true
+    },
+    {
+      "id": "q-reported-speech-indirect-question-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Att» используется вместо «om» в косвенном вопросе «да/нет».", "en": "\"Att\" is used instead of \"om\" in an indirect yes/no question." },
+      "answer": false,
+      "explanation": { "ru": "Именно «om», а не «att», используется в косвенном вопросе «да/нет».", "en": "It's \"om\", not \"att\", that's used in an indirect yes/no question." }
+    }
+  ]
+}

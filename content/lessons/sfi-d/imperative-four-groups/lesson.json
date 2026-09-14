@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/imperative-four-groups",
+  "slug": "imperative-four-groups",
+  "title": {
+    "sv": "Imperativ i alla fyra verbgrupper: instruktioner, recept och skyltar",
+    "ru": "Повелительное наклонение всех четырёх групп глаголов: инструкции, рецепты, вывески",
+    "en": "The imperative of all four verb groups: instructions, recipes and signs"
+  },
+  "summary": {
+    "ru": "Как образуется повелительное наклонение в каждой из четырёх групп глаголов.",
+    "en": "How the imperative is formed for each of the four verb groups."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs", "imperative"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 780,
+  "prerequisites": ["sva-grund-1/verb-groups"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

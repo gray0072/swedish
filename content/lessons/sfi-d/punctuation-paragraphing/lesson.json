@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/punctuation-paragraphing",
+  "slug": "punctuation-paragraphing",
+  "title": {
+    "sv": "Skiljetecken i en skriven text: kommat före en bisats, styckeindelning",
+    "ru": "Пунктуация в письменном тексте: запятая перед придаточным, деление на абзацы",
+    "en": "Punctuation in a written text: the comma before a subordinate clause, paragraphing"
+  },
+  "summary": {
+    "ru": "Основное правило запятой перед придаточным и как делить текст на абзацы.",
+    "en": "The core rule for the comma before a subordinate clause, and how to divide a text into paragraphs."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "writing", "punctuation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 800,
+  "prerequisites": ["sva-grund-1/punctuation-paragraphs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

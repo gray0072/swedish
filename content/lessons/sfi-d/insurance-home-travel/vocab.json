@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "forsakring",
+      "sv": "försäkring",
+      "translations": { "ru": "страховка", "en": "insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en försäkring", "defSg": "försäkringen", "indefPl": "försäkringar", "defPl": "försäkringarna" },
+      "example": { "sv": "Har du en hemförsäkring?", "ru": "У тебя есть страховка жилья?", "en": "Do you have home insurance?" }
+    },
+    {
+      "id": "hemforsakring",
+      "sv": "hemförsäkring",
+      "translations": { "ru": "страховка жилья", "en": "home insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hemförsäkringen täcker en vattenskada.", "ru": "Страховка жилья покрывает повреждение водой.", "en": "Home insurance covers water damage." }
+    },
+    {
+      "id": "reseforsakring",
+      "sv": "reseförsäkring",
+      "translations": { "ru": "страховка путешественника", "en": "travel insurance" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Reseförsäkringen gäller utomlands.", "ru": "Страховка путешественника действует за границей.", "en": "Travel insurance is valid abroad." }
+    },
+    {
+      "id": "forsakringsbolag",
+      "sv": "försäkringsbolag",
+      "translations": { "ru": "страховая компания", "en": "insurance company" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag ringer försäkringsbolaget om skadan.", "ru": "Я звоню в страховую компанию по поводу ущерба.", "en": "I call the insurance company about the damage." }
+    },
+    {
+      "id": "skada",
+      "sv": "skada",
+      "translations": { "ru": "ущерб, повреждение", "en": "damage" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skada", "defSg": "skadan", "indefPl": "skador", "defPl": "skadorna" },
+      "example": { "sv": "Jag anmäler skadan online.", "ru": "Я подаю заявление об ущербе онлайн.", "en": "I report the damage online." }
+    },
+    {
+      "id": "anmala-en-skada",
+      "sv": "anmäla en skada",
+      "translations": { "ru": "заявить об ущербе", "en": "to report a claim" },
+      "pos": "phrase",
+      "example": { "sv": "Du kan anmäla en skada i appen.", "ru": "Заявление об ущербе можно подать в приложении.", "en": "You can report a claim in the app." }
+    },
+    {
+      "id": "sjalvrisk",
+      "sv": "självrisk",
+      "translations": { "ru": "франшиза (собственный вклад при страховом случае)", "en": "deductible, excess" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Självrisken är 1500 kronor.", "ru": "Франшиза составляет 1500 крон.", "en": "The deductible is 1,500 kronor." }
+    },
+    {
+      "id": "ersattning",
+      "sv": "ersättning",
+      "translations": { "ru": "возмещение (компенсация)", "en": "compensation, payout" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Du får ersättning för de skadade sakerna.", "ru": "Ты получишь компенсацию за повреждённые вещи.", "en": "You get compensation for the damaged items." }
+    },
+    {
+      "id": "stold",
+      "sv": "stöld",
+      "translations": { "ru": "кража", "en": "theft" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Försäkringen täcker stöld.", "ru": "Страховка покрывает кражу.", "en": "The insurance covers theft." }
+    },
+    {
+      "id": "galla-verb",
+      "sv": "gälla",
+      "translations": { "ru": "действовать (быть в силе)", "en": "to be valid, to apply" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "gälla", "present": "gäller", "past": "gällde", "supine": "gällt" },
+      "example": { "sv": "Försäkringen gäller i hela Norden.", "ru": "Страховка действует по всей Скандинавии.", "en": "The insurance is valid across the Nordics." }
+    },
+    {
+      "id": "vattenskada",
+      "sv": "vattenskada",
+      "translations": { "ru": "повреждение водой", "en": "water damage" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi fick en vattenskada i badrummet.", "ru": "У нас случилось повреждение водой в ванной.", "en": "We had water damage in the bathroom." }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/tense-system-overview",
+  "slug": "tense-system-overview",
+  "title": {
+    "sv": "Översikt av tempussystemet: presens, preteritum, perfekt, pluskvamperfekt, futurum",
+    "ru": "Обзор системы времён: настоящее, претерит, перфект, плюсквамперфект, будущее",
+    "en": "An overview of the tense system: present, preterite, perfect, pluperfect, future"
+  },
+  "summary": {
+    "ru": "Все пять времён шведского глагола в одной системе, с примерами их использования.",
+    "en": "All five Swedish verb tenses laid out as one system, with examples of each."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs", "tenses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 560,
+  "prerequisites": ["sfi-c/perfect-har-supinum", "sva-grund-1/tense-overview"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

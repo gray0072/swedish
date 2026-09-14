@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "komma-noun",
+      "sv": "komma",
+      "translations": { "ru": "запятая", "en": "comma" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Sätt ett komma före bisatsen.", "ru": "Поставь запятую перед придаточным.", "en": "Put a comma before the subordinate clause." }
+    },
+    {
+      "id": "stycke",
+      "sv": "stycke",
+      "translations": { "ru": "абзац", "en": "paragraph" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Börja ett nytt stycke här.", "ru": "Начни здесь новый абзац.", "en": "Start a new paragraph here." }
+    },
+    {
+      "id": "bisats",
+      "sv": "bisats",
+      "translations": { "ru": "придаточное предложение", "en": "subordinate clause" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Bisatsen börjar med \"eftersom\".", "ru": "Придаточное начинается со слова «eftersom».", "en": "The subordinate clause starts with \"eftersom\"." }
+    },
+    {
+      "id": "huvudsats",
+      "sv": "huvudsats",
+      "translations": { "ru": "главное предложение", "en": "main clause" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Huvudsatsen kan stå ensam.", "ru": "Главное предложение может стоять само по себе.", "en": "The main clause can stand alone." }
+    },
+    {
+      "id": "punkt",
+      "sv": "punkt",
+      "translations": { "ru": "точка", "en": "full stop, period" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sätt punkt i slutet av meningen.", "ru": "Поставь точку в конце предложения.", "en": "Put a full stop at the end of the sentence." }
+    },
+    {
+      "id": "styckeindelning",
+      "sv": "styckeindelning",
+      "translations": { "ru": "деление на абзацы", "en": "paragraphing" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Bra styckeindelning gör texten lättare att läsa.", "ru": "Хорошее деление на абзацы облегчает чтение текста.", "en": "Good paragraphing makes a text easier to read." }
+    },
+    {
+      "id": "ny-tanke",
+      "sv": "en ny tanke",
+      "translations": { "ru": "новая мысль", "en": "a new idea" },
+      "pos": "phrase",
+      "example": { "sv": "Varje stycke bör innehålla en ny tanke.", "ru": "Каждый абзац должен содержать новую мысль.", "en": "Each paragraph should contain one new idea." }
+    }
+  ]
+}

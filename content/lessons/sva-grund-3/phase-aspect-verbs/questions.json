@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-phase-aspect-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая конструкция выражает, что действие происходит прямо сейчас?", "en": "Which construction expresses that an action is happening right now?" },
+      "choices": ["hålla på att + инфинитив", "bruka + инфинитив", "börja + инфинитив", "få gjort"],
+      "answer": 0
+    },
+    {
+      "id": "q-phase-aspect-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая конструкция выражает привычное, регулярное действие?", "en": "Which construction expresses a habitual, regular action?" },
+      "choices": ["bruka + инфинитив", "hålla på att + инфинитив", "sluta + инфинитив", "fortsätta + инфинитив"],
+      "answer": 0
+    },
+    {
+      "id": "q-phase-aspect-verbs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что значит «få gjort»?", "en": "What does \"få gjort\" mean?" },
+      "choices": [
+        { "ru": "Добиться, чтобы что-то было сделано, довести до результата", "en": "To get something done, to achieve a result" },
+        { "ru": "Начать что-то делать", "en": "To start doing something" },
+        { "ru": "Делать что-то регулярно", "en": "To do something regularly" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-phase-aspect-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Börja» и «sluta» — оба фазовые глаголы, но отмечают противоположные фазы действия.", "en": "\"Börja\" and \"sluta\" are both phase verbs, but mark opposite phases of an action." },
+      "answer": true
+    },
+    {
+      "id": "q-phase-aspect-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Шведский выражает вид действия (аспект) специальными глагольными окончаниями, как в некоторых других языках.", "en": "Swedish expresses verbal aspect through special verb endings, as some other languages do." },
+      "answer": false,
+      "explanation": {
+        "ru": "Шведский выражает аспект отдельными конструкциями (börja, hålla på att, bruka, få gjort и т.д.), а не окончаниями глагола.",
+        "en": "Swedish expresses aspect through separate constructions (börja, hålla på att, bruka, få gjort, and so on), not through verb endings."
+      }
+    },
+    {
+      "id": "q-phase-aspect-verbs-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag ___ på att laga mat just nu. (прямо сейчас в процессе)" },
+      "answer": ["håller"]
+    },
+    {
+      "id": "q-phase-aspect-verbs-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Hon ___ träna varje morgon. (привычно, регулярно)" },
+      "answer": ["brukar"]
+    },
+    {
+      "id": "q-phase-aspect-verbs-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Han slutade röka förra året.»", "en": "Build the sentence: \"He stopped smoking last year.\"" },
+      "tokens": ["Han", "slutade", "röka", "förra", "året."],
+      "answer": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "q-phase-aspect-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь конструкцию с выражаемым видом действия", "en": "Match the construction with the aspect it expresses" },
+      "pairs": [
+        ["börja", "начало / beginning"],
+        ["hålla på att", "процесс / ongoing"],
+        ["bruka", "привычка / habit"],
+        ["få gjort", "результат / completion"]
+      ]
+    }
+  ]
+}

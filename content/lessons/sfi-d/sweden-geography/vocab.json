@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "landskap",
+      "sv": "landskap",
+      "translations": { "ru": "провинция (историческая область)", "en": "historic province" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skåne är ett landskap i södra Sverige.", "ru": "Сконе — провинция на юге Швеции.", "en": "Skåne is a province in southern Sweden." }
+    },
+    {
+      "id": "huvudstad",
+      "sv": "huvudstad",
+      "translations": { "ru": "столица", "en": "capital" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Stockholm är Sveriges huvudstad.", "ru": "Стокгольм — столица Швеции.", "en": "Stockholm is the capital of Sweden." }
+    },
+    {
+      "id": "norrland",
+      "sv": "Norrland",
+      "translations": { "ru": "Норрланд (север Швеции)", "en": "Norrland (northern Sweden)" },
+      "pos": "noun",
+      "example": { "sv": "Norrland har långa, kalla vintrar.", "ru": "В Норрланде долгие, холодные зимы.", "en": "Norrland has long, cold winters." }
+    },
+    {
+      "id": "gotaland",
+      "sv": "Götaland",
+      "translations": { "ru": "Гёталанд (юг Швеции)", "en": "Götaland (southern Sweden)" },
+      "pos": "noun",
+      "example": { "sv": "Göteborg ligger i Götaland.", "ru": "Гётеборг находится в Гёталанде.", "en": "Gothenburg is located in Götaland." }
+    },
+    {
+      "id": "svealand",
+      "sv": "Svealand",
+      "translations": { "ru": "Свеаланд (центральная Швеция)", "en": "Svealand (central Sweden)" },
+      "pos": "noun",
+      "example": { "sv": "Stockholm ligger i Svealand.", "ru": "Стокгольм находится в Свеаланде.", "en": "Stockholm is located in Svealand." }
+    },
+    {
+      "id": "glesbygd",
+      "sv": "glesbygd",
+      "translations": { "ru": "малонаселённая местность", "en": "sparsely populated area" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han bor i glesbygden, långt från staden.", "ru": "Он живёт в малонаселённой местности, далеко от города.", "en": "He lives in a sparsely populated area, far from the city." }
+    },
+    {
+      "id": "kust",
+      "sv": "kust",
+      "translations": { "ru": "побережье", "en": "coast" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Malmö ligger vid kusten.", "ru": "Мальмё находится на побережье.", "en": "Malmö is located on the coast." }
+    },
+    {
+      "id": "fjall",
+      "sv": "fjäll",
+      "translations": { "ru": "горы (плоскогорье), фьель", "en": "mountains (fell)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Fjällen ligger i norra Sverige.", "ru": "Горы находятся на севере Швеции.", "en": "The mountains are in northern Sweden." }
+    },
+    {
+      "id": "invanare",
+      "sv": "invånare",
+      "translations": { "ru": "житель (жители)", "en": "inhabitant" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sverige har ungefär tio miljoner invånare.", "ru": "В Швеции около десяти миллионов жителей.", "en": "Sweden has about ten million inhabitants." }
+    },
+    {
+      "id": "gransa-till",
+      "sv": "gränsa till",
+      "translations": { "ru": "граничить с", "en": "to border" },
+      "pos": "phrase",
+      "example": { "sv": "Sverige gränsar till Norge och Finland.", "ru": "Швеция граничит с Норвегией и Финляндией.", "en": "Sweden borders Norway and Finland." }
+    }
+  ]
+}

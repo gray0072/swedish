@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/further-education",
+  "slug": "further-education",
+  "title": {
+    "sv": "Vidare studier: komvux, SVA grund, CSN",
+    "ru": "Дальнейшее образование: комвукс, SVA grund, CSN",
+    "en": "Further education: komvux, SVA grund, CSN"
+  },
+  "summary": {
+    "ru": "Что такое комвукс и SVA grund, и как CSN помогает финансировать учёбу.",
+    "en": "What komvux and SVA grund are, and how CSN helps fund your studies."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["education", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 440,
+  "prerequisites": ["sfi-c/looking-for-work"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

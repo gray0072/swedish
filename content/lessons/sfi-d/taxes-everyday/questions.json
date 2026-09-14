@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-taxes-everyday-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что обычно нужно сделать с декларацией, если у тебя одна простая зарплата?", "en": "What do you usually just need to do with your declaration if you have one simple income?" },
+      "choices": [
+        { "ru": "Проверить и одобрить её", "en": "Check it and approve it" },
+        { "ru": "Заполнить всё с нуля", "en": "Fill it in from scratch" },
+        { "ru": "Отнести её в банк", "en": "Take it to the bank" },
+        { "ru": "Перевести её на русский", "en": "Translate it into Russian" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-taxes-everyday-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое kvarskatt?", "en": "What is kvarskatt?" },
+      "choices": [
+        { "ru": "Доплата по налогу", "en": "Residual tax still owed" },
+        { "ru": "Возврат налога", "en": "A tax refund" },
+        { "ru": "Зарплата после вычета налога", "en": "Net pay" },
+        { "ru": "Разрешение на строительство", "en": "A building permit" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-taxes-everyday-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я одобряю декларацию через BankID.»", "en": "Build the sentence: \"I approve the declaration with BankID.\"" },
+      "tokens": ["med", "BankID", "deklarationen", "godkänner", "Jag"],
+      "answer": [4, 3, 2, 0, 1]
+    },
+    {
+      "id": "q-taxes-everyday-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["deklaration", "налоговая декларация"],
+        ["avdrag", "вычет"],
+        ["inkomst", "доход"],
+        ["skatteåterbäring", "возврат налога"]
+      ]
+    },
+    {
+      "id": "q-taxes-everyday-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Skatteverket присылает декларацию весной.", "en": "The Tax Agency sends the declaration in spring." },
+      "answer": true
+    },
+    {
+      "id": "q-taxes-everyday-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Для большинства работников все цифры в декларации нужно вводить вручную.", "en": "Most employees have to type in every figure on the declaration by hand." },
+      "answer": false,
+      "explanation": { "ru": "Работодатель уже сообщил доход, поэтому цифры обычно уже заполнены.", "en": "The employer has already reported the income, so the figures are usually pre-filled." }
+    },
+    {
+      "id": "q-taxes-everyday-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Sista ___ att deklarera är i maj. (день)" },
+      "answer": ["dag"],
+      "acceptAlso": []
+    }
+  ]
+}

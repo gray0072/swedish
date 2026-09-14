@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-formal-message-short-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как обычно завершают формальное сообщение по-шведски?", "en": "How does a formal Swedish message usually end?" },
+      "choices": [
+        { "ru": "Med vänlig hälsning", "en": "Med vänlig hälsning (Kind regards)" },
+        { "ru": "Hej då kompis!", "en": "Hej då kompis! (Bye friend!)" },
+        { "ru": "Puss och kram", "en": "Puss och kram (Hugs and kisses)" },
+        { "ru": "Vi hörs sen!", "en": "Vi hörs sen! (Talk soon!)" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-message-short-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как вежливо сказать «я был бы благодарен, если бы вы ответили»?", "en": "How do you politely say \"I would be grateful if you replied\"?" },
+      "choices": [
+        { "ru": "Jag vore tacksam om ni kunde svara", "en": "Jag vore tacksam om ni kunde svara" },
+        { "ru": "Svara nu!", "en": "Svara nu! (Reply now!)" },
+        { "ru": "Jag kräver svar", "en": "Jag kräver svar (I demand a reply)" },
+        { "ru": "Skynda dig!", "en": "Skynda dig! (Hurry up!)" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-formal-message-short-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я пишу по поводу отсутствия моего сына.»", "en": "Build the phrase: \"I'm writing regarding my son's absence.\"" },
+      "tokens": ["angående", "frånvaro", "min", "sons", "Jag", "skriver"],
+      "answer": [4, 5, 0, 2, 3, 1]
+    },
+    {
+      "id": "q-formal-message-short-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["hyresvärd", "арендодатель"],
+        ["bifoga", "прилагать"],
+        ["ämne", "тема"],
+        ["återkomma", "ответить снова"]
+      ]
+    },
+    {
+      "id": "q-formal-message-short-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Gällande» можно использовать вместо «angående».", "en": "\"Gällande\" can be used instead of \"angående\"." },
+      "answer": true
+    },
+    {
+      "id": "q-formal-message-short-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Формальное письмо обычно начинают с длинного личного рассказа.", "en": "A formal letter usually opens with a long personal story." },
+      "answer": false,
+      "explanation": { "ru": "Формальное сообщение должно быть коротким и по делу.", "en": "A formal message should be short and to the point." }
+    },
+    {
+      "id": "q-formal-message-short-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ ett läkarintyg till mejlet. (прилагаю)" },
+      "answer": ["bifogar"],
+      "acceptAlso": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-sick-child-vab-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое VAB?", "en": "What is VAB?" },
+      "choices": [
+        { "ru": "Пособие для ухода за больным ребёнком", "en": "Benefit for caring for a sick child" },
+        { "ru": "Название детского сада", "en": "The name of a preschool" },
+        { "ru": "Медицинская страховка", "en": "A health insurance" },
+        { "ru": "Служба такси", "en": "A taxi service" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-sick-child-vab-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "У ребёнка ночью была высокая температура, и он рвал. Куда можно позвонить за советом?", "en": "Your child had a high fever overnight and was vomiting. Who can you call for advice?" },
+      "choices": ["1177", "ARN", "CSN", "Systembolaget"],
+      "answer": 0
+    },
+    {
+      "id": "q-sick-child-vab-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Сегодня я сижу дома по VAB.»", "en": "Build the sentence: \"I'm on VAB today.\"" },
+      "tokens": ["idag", "vabbar", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-sick-child-vab-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["feber", "температура"],
+        ["smittsam", "заразный"],
+        ["symtom", "симптом"],
+        ["frisk", "здоровый"]
+      ]
+    },
+    {
+      "id": "q-sick-child-vab-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "VAB оформляют через Försäkringskassan.", "en": "VAB is reported through Försäkringskassan." },
+      "answer": true
+    },
+    {
+      "id": "q-sick-child-vab-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Ребёнку разрешено вернуться в сад сразу после первого здорового часа.", "en": "A child is allowed back at preschool right after the first healthy hour." },
+      "answer": false,
+      "explanation": { "ru": "Обычно требуется быть здоровым целый день перед возвращением.", "en": "The rule of thumb is being well for a full day before returning." }
+    },
+    {
+      "id": "q-sick-child-vab-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ förskolan innan klockan åtta. (сообщи)" },
+      "answer": ["Meddela"],
+      "acceptAlso": ["meddela"]
+    }
+  ]
+}

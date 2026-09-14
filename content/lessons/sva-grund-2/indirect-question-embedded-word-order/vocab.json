@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "indirekt-fraga",
+      "sv": "indirekt fråga",
+      "translations": { "ru": "косвенный вопрос", "en": "indirect question" },
+      "pos": "phrase",
+      "note": { "ru": "Вопрос, встроенный внутрь другого предложения, без вопросительного порядка слов.", "en": "A question embedded inside another sentence, without question word order." }
+    },
+    {
+      "id": "inbaddad-sats",
+      "sv": "inbäddad sats",
+      "translations": { "ru": "встроенное (вложенное) предложение", "en": "embedded clause" },
+      "pos": "phrase"
+    },
+    {
+      "id": "undra",
+      "sv": "undra",
+      "translations": { "ru": "интересоваться, задаваться вопросом", "en": "to wonder" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "undra", "present": "undrar", "past": "undrade", "supine": "undrat" },
+      "example": { "sv": "Jag undrar var du bor.", "ru": "Интересно, где ты живёшь.", "en": "I wonder where you live." }
+    },
+    {
+      "id": "fraga-verb",
+      "sv": "fråga",
+      "translations": { "ru": "спрашивать", "en": "to ask" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" },
+      "example": { "sv": "Hon frågade vad klockan var.", "ru": "Она спросила, который час.", "en": "She asked what time it was." }
+    },
+    {
+      "id": "veta-verb",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" },
+      "example": { "sv": "Vet du vem som ringde?", "ru": "Ты знаешь, кто звонил?", "en": "Do you know who called?" }
+    },
+    {
+      "id": "om-konjunktion",
+      "sv": "om",
+      "translations": { "ru": "ли (вводит косвенный вопрос без вопросительного слова)", "en": "whether, if (introduces a yes/no indirect question)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag vet inte om han kommer.", "ru": "Я не знаю, придёт ли он.", "en": "I don't know if he's coming." }
+    },
+    {
+      "id": "vad-som-hande",
+      "sv": "vad som hände",
+      "translations": { "ru": "что произошло", "en": "what happened" },
+      "pos": "phrase",
+      "note": { "ru": "Когда вопросительное слово было бы подлежащим прямого вопроса, добавляется «som».", "en": "When the question word would be the subject of the direct question, \"som\" is added." },
+      "example": { "sv": "Ingen vet vad som hände.", "ru": "Никто не знает, что произошло.", "en": "No one knows what happened." }
+    },
+    {
+      "id": "berattade",
+      "sv": "berätta",
+      "translations": { "ru": "рассказывать", "en": "to tell" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" }
+    },
+    {
+      "id": "polisen",
+      "sv": "polis",
+      "translations": { "ru": "полиция", "en": "police" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "polis", "defSg": "polisen", "indefPl": "poliser", "defPl": "poliserna" }
+    },
+    {
+      "id": "orsak",
+      "sv": "orsak",
+      "translations": { "ru": "причина", "en": "cause, reason" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+    }
+  ]
+}

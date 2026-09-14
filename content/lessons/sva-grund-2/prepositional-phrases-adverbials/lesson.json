@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/prepositional-phrases-adverbials",
+  "slug": "prepositional-phrases-adverbials",
+  "title": {
+    "sv": "Prepositionsfraser som adverbial för tid, orsak och sätt",
+    "ru": "Предложные обороты как обстоятельства времени, причины и образа действия",
+    "en": "Prepositional phrases as adverbials of time, cause and manner"
+  },
+  "summary": {
+    "ru": "Целая фраза с предлогом может работать как одно обстоятельство: «på grund av regnet», «med stor glädje», «under hela sommaren».",
+    "en": "A whole prepositional phrase can work as a single adverbial: \"på grund av regnet\", \"med stor glädje\", \"under hela sommaren\"."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "prepositions", "syntax"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1100,
+  "prerequisites": ["sva-grund-2/verb-preposition-government"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/causal-clauses",
+  "slug": "causal-clauses",
+  "title": {
+    "sv": "Kausala bisatser: eftersom, därför att, på grund av",
+    "ru": "Причинные придаточные: eftersom, därför att, på grund av",
+    "en": "Causals: eftersom, därför att, på grund av"
+  },
+  "summary": {
+    "ru": "Три способа сказать «потому что»: eftersom, därför att и предлог på grund av.",
+    "en": "Three ways to say \"because\": eftersom, därför att, and the preposition på grund av."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 640,
+  "prerequisites": ["sfi-c/subordinate-om-nar-eftersom-sa-att"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

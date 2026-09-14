@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/skulle-infinitive-politeness",
+  "slug": "skulle-infinitive-politeness",
+  "title": {
+    "sv": "Skulle + infinitiv: hypotes och artighet",
+    "ru": "Skulle + инфинитив: гипотетичность и вежливость",
+    "en": "skulle + infinitive: conditionality and politeness"
+  },
+  "summary": {
+    "ru": "Как «skulle» смягчает просьбы и выражает гипотетические, нереальные ситуации.",
+    "en": "How \"skulle\" softens requests and expresses hypothetical, unreal situations."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs", "modality"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 590,
+  "prerequisites": ["sfi-c/modal-verbs-preterite"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

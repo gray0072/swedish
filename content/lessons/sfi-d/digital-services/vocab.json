@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "bankid",
+      "sv": "BankID",
+      "translations": { "ru": "БанкИД (электронное удостоверение личности)", "en": "BankID (digital ID app)" },
+      "pos": "noun",
+      "example": { "sv": "Jag loggar in med BankID.", "ru": "Я вхожу с помощью BankID.", "en": "I log in with BankID." }
+    },
+    {
+      "id": "mina-sidor",
+      "sv": "Mina sidor",
+      "translations": { "ru": "личный кабинет (Mina sidor)", "en": "\"My pages\" (personal account portal)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag kollar mina fakturor på Mina sidor.", "ru": "Я смотрю свои счета в личном кабинете.", "en": "I check my invoices on Mina sidor." }
+    },
+    {
+      "id": "1177",
+      "sv": "1177 Vårdguiden",
+      "translations": { "ru": "1177 (медицинская справочная служба)", "en": "1177 (healthcare guidance service)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ringer 1177 om jag är osäker.", "ru": "Я звоню в 1177, если не уверен(а).", "en": "I call 1177 if I'm not sure." }
+    },
+    {
+      "id": "e-legitimation",
+      "sv": "e-legitimation",
+      "translations": { "ru": "электронное удостоверение личности", "en": "electronic ID" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-legitimation", "defSg": "e-legitimationen", "indefPl": "e-legitimationer", "defPl": "e-legitimationerna" },
+      "example": { "sv": "Du behöver en e-legitimation för att logga in.", "ru": "Для входа нужно электронное удостоверение личности.", "en": "You need an electronic ID to log in." }
+    },
+    {
+      "id": "logga-in",
+      "sv": "logga in",
+      "translations": { "ru": "войти в систему", "en": "to log in" },
+      "pos": "phrase",
+      "example": { "sv": "Hur loggar jag in på appen?", "ru": "Как мне войти в приложение?", "en": "How do I log in to the app?" }
+    },
+    {
+      "id": "logga-ut",
+      "sv": "logga ut",
+      "translations": { "ru": "выйти из системы", "en": "to log out" },
+      "pos": "phrase",
+      "example": { "sv": "Glöm inte att logga ut.", "ru": "Не забудь выйти из системы.", "en": "Don't forget to log out." }
+    },
+    {
+      "id": "losenord",
+      "sv": "lösenord",
+      "translations": { "ru": "пароль", "en": "password" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett lösenord", "defSg": "lösenordet", "indefPl": "lösenord", "defPl": "lösenorden" },
+      "example": { "sv": "Jag har glömt mitt lösenord.", "ru": "Я забыл(а) свой пароль.", "en": "I've forgotten my password." }
+    },
+    {
+      "id": "app",
+      "sv": "app",
+      "translations": { "ru": "приложение", "en": "app" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en app", "defSg": "appen", "indefPl": "appar", "defPl": "apparna" },
+      "example": { "sv": "Jag laddar ner appen till telefonen.", "ru": "Я скачиваю приложение на телефон.", "en": "I'm downloading the app to my phone." }
+    },
+    {
+      "id": "e-tjanst",
+      "sv": "e-tjänst",
+      "translations": { "ru": "электронная услуга", "en": "e-service, online service" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en e-tjänst", "defSg": "e-tjänsten", "indefPl": "e-tjänster", "defPl": "e-tjänsterna" },
+      "example": { "sv": "Kommunen har många e-tjänster.", "ru": "У муниципалитета много электронных услуг.", "en": "The municipality has many e-services." }
+    },
+    {
+      "id": "skanna-qr-kod",
+      "sv": "skanna en QR-kod",
+      "translations": { "ru": "сканировать QR-код", "en": "to scan a QR code" },
+      "pos": "phrase",
+      "example": { "sv": "Skanna QR-koden med kameran.", "ru": "Отсканируй QR-код камерой.", "en": "Scan the QR code with the camera." }
+    },
+    {
+      "id": "identifiera-sig",
+      "sv": "identifiera sig",
+      "translations": { "ru": "удостоверить свою личность", "en": "to identify oneself" },
+      "pos": "phrase",
+      "example": { "sv": "Du måste identifiera dig för att öppna ett konto.", "ru": "Чтобы открыть счёт, нужно удостоверить свою личность.", "en": "You must identify yourself to open an account." }
+    },
+    {
+      "id": "digital-brevlada",
+      "sv": "digital brevlåda",
+      "translations": { "ru": "цифровой почтовый ящик", "en": "digital mailbox" },
+      "pos": "phrase",
+      "example": { "sv": "Myndighetsposten kommer till min digitala brevlåda.", "ru": "Почта от ведомств приходит в мой цифровой почтовый ящик.", "en": "Mail from authorities arrives in my digital mailbox." }
+    },
+    {
+      "id": "anvandarnamn",
+      "sv": "användarnamn",
+      "translations": { "ru": "имя пользователя", "en": "username" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett användarnamn", "defSg": "användarnamnet", "indefPl": "användarnamn", "defPl": "användarnamnen" },
+      "example": { "sv": "Skriv in ditt användarnamn.", "ru": "Введи своё имя пользователя.", "en": "Enter your username." }
+    },
+    {
+      "id": "saker",
+      "sv": "säker",
+      "translations": { "ru": "надёжный, безопасный", "en": "secure, safe" },
+      "pos": "adj",
+      "example": { "sv": "Är det säkert att betala med kort på nätet?", "ru": "Безопасно ли платить картой в интернете?", "en": "Is it safe to pay by card online?" }
+    }
+  ]
+}

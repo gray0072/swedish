@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": "hinna",
+      "sv": "hinna",
+      "translations": { "ru": "успевать", "en": "to make it in time, to have time" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "hinna", "present": "hinner", "past": "hann", "supine": "hunnit" },
+      "example": { "sv": "Tåget hade redan gått när jag kom fram.", "ru": "Поезд уже ушёл, когда я приехал(а).", "en": "The train had already left when I arrived." }
+    },
+    {
+      "id": "aka",
+      "sv": "åka",
+      "translations": { "ru": "ехать", "en": "to travel, to go (by vehicle)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" },
+      "example": { "sv": "Hon hade redan åkt när jag ringde.", "ru": "Она уже уехала, когда я позвонил(а).", "en": "She had already left when I called." }
+    },
+    {
+      "id": "aterst-verb",
+      "sv": "sluta",
+      "translations": { "ru": "заканчиваться, переставать", "en": "to end, to stop, to quit" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" },
+      "example": { "sv": "Regnet hade slutat när vi gick ut.", "ru": "Дождь уже закончился, когда мы вышли.", "en": "The rain had stopped when we went out." }
+    },
+    {
+      "id": "glomma",
+      "sv": "glömma",
+      "translations": { "ru": "забывать", "en": "to forget" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "glömma", "present": "glömmer", "past": "glömde", "supine": "glömt" },
+      "example": { "sv": "Jag hade glömt nyckeln hemma.", "ru": "Я забыл(а) ключ дома.", "en": "I had forgotten my key at home." }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "example": { "sv": "Filmen hade redan börjat.", "ru": "Фильм уже начался.", "en": "The film had already started." }
+    },
+    {
+      "id": "innan-conj",
+      "sv": "innan",
+      "translations": { "ru": "до того как, прежде чем", "en": "before" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon hade ätit innan hon gick.", "ru": "Она поела, прежде чем ушла.", "en": "She had eaten before she left." }
+    },
+    {
+      "id": "narda",
+      "sv": "när",
+      "translations": { "ru": "когда", "en": "when" },
+      "pos": "conjunction",
+      "example": { "sv": "När jag vaknade hade solen redan gått upp.", "ru": "Когда я проснулся(лась), солнце уже взошло.", "en": "When I woke up, the sun had already risen." }
+    },
+    {
+      "id": "ha-hunnit",
+      "sv": "hinna göra något",
+      "translations": { "ru": "успеть что-то сделать", "en": "to manage to do something in time" },
+      "pos": "phrase",
+      "example": { "sv": "Jag hade inte hunnit äta innan mötet.", "ru": "Я не успел(а) поесть до встречи.", "en": "I hadn't had time to eat before the meeting." }
+    }
+  ]
+}

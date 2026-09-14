@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/connected-speech-reductions",
+  "slug": "connected-speech-reductions",
+  "title": {
+    "sv": "Att förstå tal i normal takt: dom, ja, å och andra reduktioner",
+    "ru": "Понимание речи в обычном темпе: dom, ja, å и другие редукции",
+    "en": "Understanding speech at a normal pace: dom, ja, å and the other reductions"
+  },
+  "summary": {
+    "ru": "Как звучит быстрая шведская речь: dom вместо de/dem, å вместо och, и другие сокращения.",
+    "en": "How fast Swedish speech actually sounds: dom for de/dem, å for och, and other shortenings."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "pronunciation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 670,
+  "prerequisites": ["sfi-c/pronunciation-word-accent"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

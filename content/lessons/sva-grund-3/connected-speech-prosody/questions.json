@@ -1,0 +1,92 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-connected-speech-prosody-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое «fokusord»?", "en": "What is a \"fokusord\"?" },
+      "choices": [
+        { "ru": "Слово, несущее главное ударение в предложении", "en": "The word carrying the main stress of the sentence" },
+        { "ru": "Любое служебное слово", "en": "Any function word" },
+        { "ru": "Слово в начале предложения", "en": "A word at the start of a sentence" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-connected-speech-prosody-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какие слова обычно редуцируются в беглой шведской речи?", "en": "Which kinds of words typically get reduced in fluent Swedish speech?" },
+      "choices": [
+        { "ru": "Часто встречающиеся служебные слова: har, det, och", "en": "Frequent function words: har, det, och" },
+        { "ru": "Новые, важные слова с информацией", "en": "New words carrying important information" },
+        { "ru": "Только числительные", "en": "Only numbers" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-connected-speech-prosody-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Och» в беглой речи часто звучит как «å».", "en": "\"Och\" often sounds like \"å\" in fluent speech." },
+      "answer": true
+    },
+    {
+      "id": "q-connected-speech-prosody-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово, несущее новую информацию, обычно произносится безударно.", "en": "The word carrying new information is usually pronounced without stress." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот: слово с новой или самой важной информацией получает наибольшее ударение.",
+        "en": "It's the opposite: the word with the new or most important information gets the strongest stress."
+      }
+    },
+    {
+      "id": "q-connected-speech-prosody-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Jag har sett det — i beglad tal blir det ofta 'Jag ___ sett det.'" },
+      "answer": ["'ar"]
+    },
+    {
+      "id": "q-connected-speech-prosody-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с его редуцированным произношением в речи", "en": "Match the word with its reduced pronunciation in speech" },
+      "pairs": [
+        ["och", "å"],
+        ["det/de", "dom/de"],
+        ["har (после подлежащего)", "'ar"],
+        ["sedan", "sen"]
+      ]
+    },
+    {
+      "id": "q-connected-speech-prosody-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что помогает слушателю быстро найти самую важную часть предложения?", "en": "What helps a listener quickly find the most important part of a sentence?" },
+      "choices": [
+        { "ru": "Ударение на фокусном слове", "en": "Stress on the focus word" },
+        { "ru": "Одинаковая громкость всех слов", "en": "Equal loudness on every word" },
+        { "ru": "Пауза после каждого слова", "en": "A pause after every word" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-connected-speech-prosody-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое «reduktion» в контексте связной речи?", "en": "What is a \"reduktion\" in the context of connected speech?" },
+      "choices": [
+        { "ru": "Сокращённое, ослабленное произношение частого слова", "en": "A shortened, weakened pronunciation of a frequent word" },
+        { "ru": "Удаление слова из предложения полностью", "en": "Removing a word from the sentence entirely" },
+        { "ru": "Изменение порядка слов", "en": "Changing the word order" }
+      ],
+      "answer": 0
+    }
+  ]
+}

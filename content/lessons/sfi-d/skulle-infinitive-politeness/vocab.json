@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "skulle-vilja",
+      "sv": "skulle vilja",
+      "translations": { "ru": "хотел(а) бы", "en": "would like to" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja boka ett bord.", "ru": "Я хотел(а) бы забронировать столик.", "en": "I would like to book a table." }
+    },
+    {
+      "id": "skulle-kunna",
+      "sv": "skulle kunna",
+      "translations": { "ru": "мог(ла) бы", "en": "could, would be able to" },
+      "pos": "phrase",
+      "example": { "sv": "Du skulle kunna fråga chefen.", "ru": "Ты мог(ла) бы спросить начальника.", "en": "You could ask your manager." }
+    },
+    {
+      "id": "kan-du",
+      "sv": "kan du…?",
+      "translations": { "ru": "можешь ли ты…?", "en": "can you…?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du hjälpa mig?", "ru": "Можешь мне помочь?", "en": "Can you help me?" }
+    },
+    {
+      "id": "skulle-du-kunna",
+      "sv": "skulle du kunna…?",
+      "translations": { "ru": "не мог(ла) бы ты…?", "en": "could you…? (more polite)" },
+      "pos": "phrase",
+      "example": { "sv": "Skulle du kunna hjälpa mig?", "ru": "Не мог(ла) бы ты помочь мне?", "en": "Could you help me?" }
+    },
+    {
+      "id": "om-jag-vore",
+      "sv": "om jag vore rik",
+      "translations": { "ru": "если бы я был(а) богат(а)", "en": "if I were rich" },
+      "pos": "phrase",
+      "example": { "sv": "Om jag vore rik skulle jag resa mer.", "ru": "Если бы я был(а) богат(а), я бы больше путешествовал(а).", "en": "If I were rich, I would travel more." }
+    },
+    {
+      "id": "garna",
+      "sv": "gärna",
+      "translations": { "ru": "охотно, с удовольствием", "en": "gladly" },
+      "pos": "adv",
+      "example": { "sv": "Jag skulle gärna komma på festen.", "ru": "Я бы с удовольствием пришёл(ла) на вечеринку.", "en": "I would gladly come to the party." }
+    },
+    {
+      "id": "onska",
+      "sv": "önska",
+      "translations": { "ru": "желать", "en": "to wish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "önska", "present": "önskar", "past": "önskade", "supine": "önskat" },
+      "example": { "sv": "Jag önskar att jag hade mer tid.", "ru": "Хотел(а) бы я, чтобы у меня было больше времени.", "en": "I wish I had more time." }
+    },
+    {
+      "id": "artigt-satt",
+      "sv": "ett artigt sätt",
+      "translations": { "ru": "вежливый способ (сформулировать что-то)", "en": "a polite way (of phrasing something)" },
+      "pos": "phrase",
+      "example": { "sv": "Det är ett artigt sätt att be om något.", "ru": "Это вежливый способ попросить о чём-то.", "en": "It's a polite way to ask for something." }
+    }
+  ]
+}

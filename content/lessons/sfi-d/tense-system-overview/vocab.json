@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "arbeta-tenses",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Jag hade redan arbetat i tre år när jag flyttade.", "ru": "Я уже проработал(а) три года, когда переехал(а).", "en": "I had already worked for three years when I moved." }
+    },
+    {
+      "id": "flytta",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Nästa år ska jag flytta till en större lägenhet.", "ru": "В следующем году я перееду в квартиру побольше.", "en": "Next year I'm going to move to a bigger flat." }
+    },
+    {
+      "id": "presens",
+      "sv": "presens",
+      "translations": { "ru": "настоящее время (презенс)", "en": "present tense" },
+      "pos": "noun",
+      "example": { "sv": "Presens beskriver nuet eller vanor.", "ru": "Презенс описывает настоящее или привычки.", "en": "The present tense describes now, or habits." }
+    },
+    {
+      "id": "preteritum",
+      "sv": "preteritum",
+      "translations": { "ru": "претерит (прошедшее простое)", "en": "preterite" },
+      "pos": "noun",
+      "example": { "sv": "Preteritum beskriver en avslutad händelse i det förflutna.", "ru": "Претерит описывает завершённое событие в прошлом.", "en": "The preterite describes a completed event in the past." }
+    },
+    {
+      "id": "perfekt",
+      "sv": "perfekt",
+      "translations": { "ru": "перфект", "en": "perfect (tense)" },
+      "pos": "noun",
+      "example": { "sv": "Perfekt kopplar det förflutna till nuet.", "ru": "Перфект связывает прошлое с настоящим.", "en": "The perfect connects the past to the present." }
+    },
+    {
+      "id": "pluskvamperfekt",
+      "sv": "pluskvamperfekt",
+      "translations": { "ru": "плюсквамперфект (предпрошедшее)", "en": "pluperfect" },
+      "pos": "noun",
+      "example": { "sv": "Pluskvamperfekt visar vad som hänt före en annan händelse i det förflutna.", "ru": "Плюсквамперфект показывает, что произошло до другого события в прошлом.", "en": "The pluperfect shows what happened before another past event." }
+    },
+    {
+      "id": "futurum",
+      "sv": "futurum",
+      "translations": { "ru": "будущее время", "en": "future tense" },
+      "pos": "noun",
+      "example": { "sv": "Futurum beskriver vad som ska hända.", "ru": "Будущее время описывает то, что произойдёт.", "en": "The future tense describes what will happen." }
+    },
+    {
+      "id": "hjalpverb",
+      "sv": "hjälpverb",
+      "translations": { "ru": "вспомогательный глагол", "en": "auxiliary verb" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Har och hade är hjälpverb.", "ru": "Har и hade — вспомогательные глаголы.", "en": "Har and hade are auxiliary verbs." }
+    },
+    {
+      "id": "supinum",
+      "sv": "supinum",
+      "translations": { "ru": "супин (форма для составных времён)", "en": "supine (form used in compound tenses)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Supinum används tillsammans med har eller hade.", "ru": "Супин используется вместе с har или hade.", "en": "The supine is used together with har or hade." }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "vab",
+      "sv": "VAB",
+      "translations": { "ru": "уход за больным ребёнком (пособие)", "en": "VAB (temporary parental benefit for a sick child)" },
+      "pos": "noun",
+      "example": { "sv": "Jag är hemma och vabbar idag.", "ru": "Сегодня я дома по VAB, ухаживаю за ребёнком.", "en": "I'm home on VAB today, looking after my sick child." }
+    },
+    {
+      "id": "vabba",
+      "sv": "vabba",
+      "translations": { "ru": "сидеть дома с больным ребёнком", "en": "to take VAB leave" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "vabba", "present": "vabbar", "past": "vabbade", "supine": "vabbat" },
+      "example": { "sv": "Jag vabbar för att sonen har feber.", "ru": "Я сижу дома, потому что у сына температура.", "en": "I'm on VAB because my son has a fever." }
+    },
+    {
+      "id": "feber",
+      "sv": "feber",
+      "translations": { "ru": "температура (жар)", "en": "fever" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Barnet har hög feber.", "ru": "У ребёнка высокая температура.", "en": "The child has a high fever." }
+    },
+    {
+      "id": "smittsam",
+      "sv": "smittsam",
+      "translations": { "ru": "заразный", "en": "contagious" },
+      "pos": "adj",
+      "example": { "sv": "Vattkoppor är smittsamt.", "ru": "Ветрянка заразна.", "en": "Chickenpox is contagious." }
+    },
+    {
+      "id": "forsakringskassan",
+      "sv": "Försäkringskassan",
+      "translations": { "ru": "касса социального страхования", "en": "the Swedish Social Insurance Agency" },
+      "pos": "noun",
+      "example": { "sv": "Försäkringskassan betalar ut VAB-ersättning.", "ru": "Касса соцстрахования выплачивает пособие по VAB.", "en": "The Social Insurance Agency pays out VAB benefit." }
+    },
+    {
+      "id": "anmala-vab",
+      "sv": "anmäla VAB",
+      "translations": { "ru": "оформить VAB", "en": "to report VAB" },
+      "pos": "phrase",
+      "example": { "sv": "Anmäl VAB samma dag i appen.", "ru": "Оформи VAB в тот же день в приложении.", "en": "Report VAB the same day in the app." }
+    },
+    {
+      "id": "krakas-verb",
+      "sv": "kräkas",
+      "translations": { "ru": "рвать (тошнить)", "en": "to vomit" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "kräkas", "present": "kräks", "past": "kräktes", "supine": "kräkts" },
+      "example": { "sv": "Barnet kräktes i natt.", "ru": "Ребёнка ночью вырвало.", "en": "The child was sick (vomited) in the night." }
+    },
+    {
+      "id": "meddela-forskolan",
+      "sv": "meddela förskolan",
+      "translations": { "ru": "сообщить в детский сад", "en": "to notify the preschool" },
+      "pos": "phrase",
+      "example": { "sv": "Meddela förskolan innan klockan åtta.", "ru": "Сообщи в детский сад до восьми часов.", "en": "Notify the preschool before eight o'clock." }
+    },
+    {
+      "id": "frisk",
+      "sv": "frisk",
+      "translations": { "ru": "здоровый", "en": "healthy, well" },
+      "pos": "adj",
+      "example": { "sv": "Barnet måste vara friskt en hel dag innan förskolan.", "ru": "Ребёнок должен быть здоров целый день перед возвращением в сад.", "en": "The child must be well for a full day before returning to preschool." }
+    },
+    {
+      "id": "symtom",
+      "sv": "symtom",
+      "translations": { "ru": "симптом", "en": "symptom" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Beskriv symtomen för sjuksköterskan.", "ru": "Опиши симптомы медсестре.", "en": "Describe the symptoms to the nurse." }
+    }
+  ]
+}

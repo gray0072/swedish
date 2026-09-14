@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/pluperfect-narrative",
+  "slug": "pluperfect-narrative",
+  "title": {
+    "sv": "Pluskvamperfekt när man berättar en händelsekedja",
+    "ru": "Плюсквамперфект при рассказе о последовательности событий",
+    "en": "The pluperfect when narrating a sequence of events"
+  },
+  "summary": {
+    "ru": "Как плюсквамперфект показывает, что случилось раньше других событий в рассказе.",
+    "en": "How the pluperfect shows what happened earlier than the other events in a story."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs", "tenses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 570,
+  "prerequisites": ["sfi-d/tense-system-overview"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

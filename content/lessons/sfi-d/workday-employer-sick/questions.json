@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-workday-employer-sick-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Ты проснулся(лась) с высокой температурой. Что нужно сделать в первую очередь?", "en": "You wake up with a high fever. What should you do first?" },
+      "choices": [
+        { "ru": "Sjukanmäla dig till din chef", "en": "Call in sick to your manager" },
+        { "ru": "Be en kollega om övertid", "en": "Ask a colleague for overtime" },
+        { "ru": "Kolla schemat för nästa månad", "en": "Check next month's schedule" },
+        { "ru": "Ansöka om semester", "en": "Apply for holiday" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-workday-employer-sick-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что такое karensavdrag?", "en": "What is a karensavdrag?" },
+      "choices": [
+        { "ru": "Небольшой вычет за первый день болезни", "en": "A small deduction for the first sick day" },
+        { "ru": "Медицинская справка", "en": "A medical certificate" },
+        { "ru": "Гибкий график", "en": "Flexitime" },
+        { "ru": "Ежегодный отпуск", "en": "Annual leave" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-workday-employer-sick-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы делаем перерыв в двенадцать.»", "en": "Build the sentence: \"We take a break at twelve.\"" },
+      "tokens": ["klockan", "rast", "tolv", "Vi", "tar"],
+      "answer": [3, 4, 1, 0, 2]
+    },
+    {
+      "id": "q-workday-employer-sick-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["schema", "график"],
+        ["rast", "перерыв"],
+        ["övertid", "сверхурочные"],
+        ["kollega", "коллега"]
+      ]
+    },
+    {
+      "id": "q-workday-employer-sick-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Sjukintyg — это справка от врача.", "en": "A sjukintyg is a certificate from a doctor." },
+      "answer": true
+    },
+    {
+      "id": "q-workday-employer-sick-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Flextid значит, что нельзя менять время начала работы.", "en": "Flextid means you can never shift your start time." },
+      "answer": false,
+      "explanation": { "ru": "Flextid, наоборот, позволяет немного сдвигать рабочее время.", "en": "Flextid does the opposite — it lets you shift your working hours a little." }
+    },
+    {
+      "id": "q-workday-employer-sick-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ mig till chefen på morgonen. (сообщил(а) о болезни)" },
+      "answer": ["sjukanmälde"],
+      "acceptAlso": []
+    }
+  ]
+}

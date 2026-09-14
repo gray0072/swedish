@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/indirect-question-embedded-word-order",
+  "slug": "indirect-question-embedded-word-order",
+  "title": {
+    "sv": "Ordföljd i indirekta frågor och andra inbäddade satser",
+    "ru": "Порядок слов в косвенных вопросах и других встроенных предложениях",
+    "en": "Word order in indirect questions and other embedded clauses"
+  },
+  "summary": {
+    "ru": "«Var bor du?» становится «Jag undrar var du bor» — вопросительное слово остаётся, но порядок слов меняется на порядок придаточного.",
+    "en": "\"Var bor du?\" becomes \"Jag undrar var du bor\" — the question word stays, but the word order switches to a subordinate clause's."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "word-order", "questions"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1060,
+  "prerequisites": ["sva-grund-2/reported-speech-verbs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

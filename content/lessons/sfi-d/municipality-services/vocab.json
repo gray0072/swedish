@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "id": "kommun",
+      "sv": "kommun",
+      "translations": { "ru": "муниципалитет", "en": "municipality" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kommun", "defSg": "kommunen", "indefPl": "kommuner", "defPl": "kommunerna" },
+      "example": { "sv": "Kommunen ansvarar för förskolan.", "ru": "Муниципалитет отвечает за детский сад.", "en": "The municipality is responsible for preschool." }
+    },
+    {
+      "id": "region",
+      "sv": "region",
+      "translations": { "ru": "регион (лен)", "en": "region" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Regionen driver sjukhusen.", "ru": "Регион управляет больницами.", "en": "The region runs the hospitals." }
+    },
+    {
+      "id": "stat",
+      "sv": "stat",
+      "translations": { "ru": "государство", "en": "the state" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Staten betalar ut pensionen.", "ru": "Пенсию выплачивает государство.", "en": "The state pays out the pension." }
+    },
+    {
+      "id": "socialtjansten",
+      "sv": "socialtjänsten",
+      "translations": { "ru": "социальная служба", "en": "social services" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Du kan söka hjälp hos socialtjänsten.", "ru": "За помощью можно обратиться в социальную службу.", "en": "You can ask social services for help." }
+    },
+    {
+      "id": "forskola",
+      "sv": "förskola",
+      "translations": { "ru": "детский сад", "en": "preschool" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förskola", "defSg": "förskolan", "indefPl": "förskolor", "defPl": "förskolorna" },
+      "example": { "sv": "Kommunen ordnar en plats på förskolan.", "ru": "Муниципалитет предоставляет место в детском саду.", "en": "The municipality arranges a preschool place." }
+    },
+    {
+      "id": "aldreomsorg",
+      "sv": "äldreomsorg",
+      "translations": { "ru": "уход за пожилыми людьми", "en": "elderly care" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Äldreomsorgen är kommunens ansvar.", "ru": "Уход за пожилыми — задача муниципалитета.", "en": "Elderly care is the municipality's responsibility." }
+    },
+    {
+      "id": "vardcentral",
+      "sv": "vårdcentral",
+      "translations": { "ru": "поликлиника", "en": "health centre" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vårdcentralen tillhör regionen.", "ru": "Поликлиника относится к региону.", "en": "The health centre belongs to the region." }
+    },
+    {
+      "id": "avfallshantering",
+      "sv": "avfallshantering",
+      "translations": { "ru": "обращение с отходами", "en": "waste management" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kommunen sköter avfallshanteringen.", "ru": "Обращением с отходами занимается муниципалитет.", "en": "The municipality handles waste management." }
+    },
+    {
+      "id": "bygglov",
+      "sv": "bygglov",
+      "translations": { "ru": "разрешение на строительство", "en": "building permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Du söker bygglov hos kommunen.", "ru": "Разрешение на строительство запрашивают в муниципалитете.", "en": "You apply for a building permit at the municipality." }
+    },
+    {
+      "id": "kollektivtrafik",
+      "sv": "kollektivtrafik",
+      "translations": { "ru": "общественный транспорт", "en": "public transport" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Kollektivtrafiken sköts av regionen.", "ru": "Общественным транспортом управляет регион.", "en": "Public transport is run by the region." }
+    },
+    {
+      "id": "ansvara-for",
+      "sv": "ansvara för",
+      "translations": { "ru": "отвечать за", "en": "to be responsible for" },
+      "pos": "phrase",
+      "example": { "sv": "Vem ansvarar för skolorna?", "ru": "Кто отвечает за школы?", "en": "Who is responsible for the schools?" }
+    }
+  ]
+}

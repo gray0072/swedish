@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "borja",
+      "sv": "börja",
+      "translations": { "ru": "начинать", "en": "to begin, to start" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "note": { "ru": "Фазовый глагол: указывает на начало действия. + инфинитив.", "en": "A phase verb: marks the start of an action. + infinitive." }
+    },
+    {
+      "id": "halla-pa-att",
+      "sv": "hålla på att",
+      "translations": { "ru": "быть в процессе (делать что-то)", "en": "to be in the middle of (doing something)" },
+      "pos": "phrase",
+      "note": { "ru": "Прогрессивная конструкция: hålla på att + инфинитив = «сейчас как раз».", "en": "A progressive construction: hålla på att + infinitive = \"right now, in the middle of\"." }
+    },
+    {
+      "id": "bruka",
+      "sv": "bruka",
+      "translations": { "ru": "иметь привычку, обычно (делать что-то)", "en": "to usually do, to tend to" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bruka", "present": "brukar", "past": "brukade", "supine": "brukat" },
+      "note": { "ru": "Хабитуальный (привычный) вид: bruka + инфинитив.", "en": "Habitual aspect: bruka + infinitive." }
+    },
+    {
+      "id": "fa-gjort",
+      "sv": "få gjort",
+      "translations": { "ru": "добиться, чтобы было сделано; успеть сделать", "en": "to get (something) done" },
+      "pos": "phrase",
+      "note": { "ru": "Результативная конструкция: få + объект + супин/причастие прошедшего времени.", "en": "A resultative construction: få + object + supine/past participle." }
+    },
+    {
+      "id": "sluta",
+      "sv": "sluta",
+      "translations": { "ru": "заканчивать, переставать", "en": "to stop, to finish" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" },
+      "note": { "ru": "Фазовый глагол: указывает на конец действия. + инфинитив (без att).", "en": "A phase verb: marks the end of an action. + infinitive (no att)." }
+    },
+    {
+      "id": "fortsatta",
+      "sv": "fortsätta",
+      "translations": { "ru": "продолжать", "en": "to continue" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "fortsätta", "present": "fortsätter", "past": "fortsatte", "supine": "fortsatt" },
+      "note": { "ru": "Фазовый глагол: продолжение действия.", "en": "A phase verb: continuation of an action." }
+    },
+    {
+      "id": "fas",
+      "sv": "fas",
+      "translations": { "ru": "фаза", "en": "phase" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "fas", "defSg": "fasen", "indefPl": "faser", "defPl": "faserna" }
+    },
+    {
+      "id": "aspekt",
+      "sv": "aspekt",
+      "translations": { "ru": "вид, аспект (глагольный)", "en": "aspect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "aspekt", "defSg": "aspekten", "indefPl": "aspekter", "defPl": "aspekterna" }
+    },
+    {
+      "id": "regelbundet",
+      "sv": "regelbundet",
+      "translations": { "ru": "регулярно", "en": "regularly" },
+      "pos": "adv"
+    },
+    {
+      "id": "just-nu",
+      "sv": "just nu",
+      "translations": { "ru": "прямо сейчас", "en": "right now" },
+      "pos": "phrase"
+    }
+  ]
+}

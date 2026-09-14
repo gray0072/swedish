@@ -1,0 +1,88 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-spelling-sound-basics-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое правило описывает пару «vit» / «vitt»?", "en": "Which rule describes the pair \"vit\" / \"vitt\"?" },
+      "choices": [
+        { "ru": "Долгий гласный, одна согласная на конце", "en": "Long vowel, single consonant at the end" },
+        { "ru": "Краткий гласный, двойная согласная", "en": "Short vowel, doubled consonant" },
+        { "ru": "Это не связано с долготой гласного вообще", "en": "It has nothing to do with vowel length at all" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-spelling-sound-basics-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Почему в «sitta» (сидеть) пишется двойная «t»?", "en": "Why does \"sitta\" (to sit) have a doubled t?" },
+      "choices": [
+        { "ru": "Потому что гласный «i» перед ним краткий", "en": "Because the vowel \"i\" before it is short" },
+        { "ru": "Потому что это глагол 4 группы", "en": "Because it's a group-4 verb" },
+        { "ru": "Просто исторически, без связи со звуком", "en": "Just historically, unrelated to sound" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-spelling-sound-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Правило долготы гласного/удвоения согласной действует внутри ударного слога.", "en": "The vowel-length/consonant-doubling rule applies within the stressed syllable." },
+      "answer": true
+    },
+    {
+      "id": "q-spelling-sound-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "У правила долготы гласного/удвоения согласной вообще нет исключений.", "en": "The vowel-length/consonant-doubling rule has no exceptions at all." },
+      "answer": false,
+      "explanation": {
+        "ru": "Есть немного слов вроде «hund», которые заканчиваются на одну согласную после краткого гласного — их нужно запоминать отдельно.",
+        "en": "There are a few words like \"hund\" that end in a single consonant after a short vowel — these must be learned individually."
+      }
+    },
+    {
+      "id": "q-spelling-sound-basics-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Сравни «mat» (еда) и «matt» (матовый) — в чём разница?", "en": "Compare \"mat\" (food) and \"matt\" (matte) — what's the difference?" },
+      "choices": [
+        { "ru": "«mat» — долгий гласный/одна согласная, «matt» — краткий гласный/двойная согласная", "en": "\"mat\" — long vowel/single consonant, \"matt\" — short vowel/doubled consonant" },
+        { "ru": "Оба произносятся одинаково", "en": "Both are pronounced the same way" },
+        { "ru": "Разница только в роде существительного", "en": "The only difference is the noun's gender" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-spelling-sound-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери слово-пару в правильном порядке смысла: краткий → двойная согласная.", "en": "Order matches the pattern: short vowel → doubled consonant." },
+      "tokens": ["kort", "vokal", "→", "dubbelteckning"],
+      "answer": [0, 1, 2, 3]
+    },
+    {
+      "id": "q-spelling-sound-basics-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hunden si___ mjölken genom en duk. (процеживать, долгий гласный — одна согласная)" },
+      "answer": ["lar"]
+    },
+    {
+      "id": "q-spelling-sound-basics-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с типом гласного/согласной", "en": "Match the word with its vowel/consonant type" },
+      "pairs": [
+        ["vit", "lång vokal, en konsonant"],
+        ["matt", "kort vokal, dubbel konsonant"],
+        ["mat", "lång vokal, en konsonant"],
+        ["sitta", "kort vokal, dubbel konsonant"]
+      ]
+    }
+  ]
+}

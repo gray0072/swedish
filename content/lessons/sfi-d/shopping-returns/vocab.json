@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "oppet-kop",
+      "sv": "öppet köp",
+      "translations": { "ru": "право вернуть товар без объяснения причин", "en": "open purchase (right to return)" },
+      "pos": "phrase",
+      "example": { "sv": "Det är öppet köp i 30 dagar.", "ru": "Товар можно вернуть в течение 30 дней.", "en": "There's a 30-day right of return." }
+    },
+    {
+      "id": "byta-varan",
+      "sv": "byta varan",
+      "translations": { "ru": "обменять товар", "en": "to exchange the item" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vill byta varan mot en annan storlek.", "ru": "Я хочу обменять товар на другой размер.", "en": "I want to exchange the item for a different size." }
+    },
+    {
+      "id": "lamna-tillbaka",
+      "sv": "lämna tillbaka",
+      "translations": { "ru": "вернуть (товар)", "en": "to return, to give back" },
+      "pos": "phrase",
+      "example": { "sv": "Jag lämnade tillbaka jackan.", "ru": "Я вернул(а) куртку.", "en": "I returned the jacket." }
+    },
+    {
+      "id": "reklamera",
+      "sv": "reklamera",
+      "translations": { "ru": "предъявить претензию (по браку товара)", "en": "to make a complaint about a faulty item" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" },
+      "example": { "sv": "Jag reklamerade skorna eftersom sömmen gick upp.", "ru": "Я предъявил(а) претензию по обуви, потому что разошёлся шов.", "en": "I made a complaint about the shoes because the seam came apart." }
+    },
+    {
+      "id": "reklamation",
+      "sv": "reklamation",
+      "translations": { "ru": "претензия (по браку товара)", "en": "complaint (about a faulty item)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Butiken tog emot min reklamation direkt.", "ru": "Магазин сразу принял мою претензию.", "en": "The shop accepted my complaint right away." }
+    },
+    {
+      "id": "defekt",
+      "sv": "defekt",
+      "translations": { "ru": "дефект, брак", "en": "defect, fault" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Varan hade en defekt vid leverans.", "ru": "У товара был дефект при доставке.", "en": "The item had a defect on delivery." }
+    },
+    {
+      "id": "aterbetalning",
+      "sv": "återbetalning",
+      "translations": { "ru": "возврат денег", "en": "refund" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag fick full återbetalning.", "ru": "Мне вернули деньги полностью.", "en": "I got a full refund." }
+    },
+    {
+      "id": "garanti",
+      "sv": "garanti",
+      "translations": { "ru": "гарантия", "en": "warranty" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Produkten har två års garanti.", "ru": "На товар два года гарантии.", "en": "The product has a two-year warranty." }
+    },
+    {
+      "id": "spara-kvittot",
+      "sv": "spara kvittot",
+      "translations": { "ru": "сохранить чек", "en": "to keep the receipt" },
+      "pos": "phrase",
+      "example": { "sv": "Spara alltid kvittot i minst en månad.", "ru": "Всегда сохраняй чек минимум месяц.", "en": "Always keep the receipt for at least a month." }
+    },
+    {
+      "id": "arn",
+      "sv": "ARN",
+      "translations": { "ru": "ARN (комиссия по спорам потребителей)", "en": "ARN (the consumer disputes board)" },
+      "pos": "noun",
+      "example": { "sv": "Om butiken vägrar kan man vända sig till ARN.", "ru": "Если магазин отказывает, можно обратиться в ARN.", "en": "If the shop refuses, you can turn to ARN." }
+    }
+  ]
+}

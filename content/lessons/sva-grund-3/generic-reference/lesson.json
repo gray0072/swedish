@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/generic-reference",
+  "slug": "generic-reference",
+  "title": {
+    "sv": "Generisk referens: obestämd, bestämd och nakna pluralformer",
+    "ru": "Родовая референция: неопределённая, определённая формы и «голое» множественное число",
+    "en": "Generic reference: the indefinite, the definite and the bare plural in general statements"
+  },
+  "summary": {
+    "ru": "«En hund är trogen», «Hunden är ett trofast djur», «Hundar är trogna» — три способа говорить о категории в целом.",
+    "en": "\"En hund är trogen\", \"Hunden är ett trofast djur\", \"Hundar är trogna\" — three ways to talk about a whole category."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "nouns", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1530,
+  "prerequisites": ["sva-grund-1/double-definiteness"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

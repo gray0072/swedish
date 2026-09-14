@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "sedan-dess",
+      "sv": "sedan dess",
+      "translations": { "ru": "с тех пор", "en": "since then" },
+      "pos": "phrase",
+      "example": { "sv": "Jag flyttade hit 2021, och sedan dess har mycket hänt.", "ru": "Я переехал(а) сюда в 2021, и с тех пор многое произошло.", "en": "I moved here in 2021, and since then a lot has happened." }
+    },
+    {
+      "id": "hittills",
+      "sv": "hittills",
+      "translations": { "ru": "до сих пор", "en": "so far" },
+      "pos": "adv",
+      "example": { "sv": "Hittills har allt gått bra.", "ru": "До сих пор всё шло хорошо.", "en": "So far everything has gone well." }
+    },
+    {
+      "id": "framover",
+      "sv": "framöver",
+      "translations": { "ru": "в дальнейшем, впредь", "en": "going forward" },
+      "pos": "adv",
+      "example": { "sv": "Framöver vill jag börja på SVA grund.", "ru": "В дальнейшем я хочу начать учиться в SVA grund.", "en": "Going forward, I want to start SVA grund." }
+    },
+    {
+      "id": "utveckling",
+      "sv": "utveckling",
+      "translations": { "ru": "развитие", "en": "development, progress" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min utveckling i svenska har gått snabbt.", "ru": "Мой прогресс в шведском шёл быстро.", "en": "My progress in Swedish has gone fast." }
+    },
+    {
+      "id": "malsattning",
+      "sv": "målsättning",
+      "translations": { "ru": "цель (постановка цели)", "en": "goal, objective" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min målsättning är att hitta ett jobb inom vården.", "ru": "Моя цель — найти работу в сфере здравоохранения.", "en": "My goal is to find a job in healthcare." }
+    },
+    {
+      "id": "se-tillbaka-pa",
+      "sv": "se tillbaka på",
+      "translations": { "ru": "оглядываться на, вспоминать", "en": "to look back on" },
+      "pos": "phrase",
+      "example": { "sv": "När jag ser tillbaka på de här åren är jag stolt.", "ru": "Оглядываясь на эти годы, я горжусь.", "en": "Looking back on these years, I'm proud." }
+    },
+    {
+      "id": "utmaning",
+      "sv": "utmaning",
+      "translations": { "ru": "вызов, трудность", "en": "challenge" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Den största utmaningen var språket i början.", "ru": "Самой большой трудностью был язык в начале.", "en": "The biggest challenge was the language at first." }
+    },
+    {
+      "id": "framsteg",
+      "sv": "framsteg",
+      "translations": { "ru": "прогресс, успех", "en": "progress" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag har gjort stora framsteg sedan SFI kurs A.", "ru": "Я сделал(а) большой прогресс с курса A SFI.", "en": "I've made great progress since SFI kurs A." }
+    },
+    {
+      "id": "nasta-steg",
+      "sv": "nästa steg",
+      "translations": { "ru": "следующий шаг", "en": "next step" },
+      "pos": "phrase",
+      "example": { "sv": "Nästa steg blir SVA grund delkurs 1.", "ru": "Следующий шаг — SVA grund delkurs 1.", "en": "The next step will be SVA grund delkurs 1." }
+    },
+    {
+      "id": "tacksam",
+      "sv": "tacksam",
+      "translations": { "ru": "благодарный", "en": "grateful" },
+      "pos": "adj",
+      "example": { "sv": "Jag är tacksam för allt jag lärt mig.", "ru": "Я благодарен(на) за всё, чему научился(ась).", "en": "I'm grateful for everything I've learned." }
+    }
+  ]
+}

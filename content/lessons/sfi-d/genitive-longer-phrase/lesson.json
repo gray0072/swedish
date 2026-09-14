@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/genitive-longer-phrase",
+  "slug": "genitive-longer-phrase",
+  "title": {
+    "sv": "Genitiv i en längre fras: min kompis bror, Sveriges regering",
+    "ru": "Родительный падеж в длинной фразе: min kompis bror, Sveriges regering",
+    "en": "The genitive in a longer phrase: min kompis bror, Sveriges regering"
+  },
+  "summary": {
+    "ru": "Как ставить -s только на последнее слово в длинной именной группе.",
+    "en": "How the -s genitive attaches only to the last word of a longer noun phrase."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "nouns"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 680,
+  "prerequisites": ["sfi-b/genitive-s"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

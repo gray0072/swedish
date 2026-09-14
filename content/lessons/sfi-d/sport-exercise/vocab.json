@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "gym",
+      "sv": "gym",
+      "translations": { "ru": "спортзал", "en": "gym" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett gym", "defSg": "gymmet", "indefPl": "gym", "defPl": "gymmen" },
+      "example": { "sv": "Jag tränar på gymmet tre gånger i veckan.", "ru": "Я тренируюсь в спортзале три раза в неделю.", "en": "I work out at the gym three times a week." }
+    },
+    {
+      "id": "forening",
+      "sv": "förening",
+      "translations": { "ru": "клуб, объединение (спортивное общество)", "en": "club, association" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förening", "defSg": "föreningen", "indefPl": "föreningar", "defPl": "föreningarna" },
+      "example": { "sv": "Min son spelar fotboll i en förening.", "ru": "Мой сын играет в футбол в спортивном клубе.", "en": "My son plays football in a club." }
+    },
+    {
+      "id": "trana",
+      "sv": "träna",
+      "translations": { "ru": "тренироваться", "en": "to train, to exercise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träna", "present": "tränar", "past": "tränade", "supine": "tränat" },
+      "example": { "sv": "Vi tränar på tisdagar och torsdagar.", "ru": "Мы тренируемся по вторникам и четвергам.", "en": "We train on Tuesdays and Thursdays." }
+    },
+    {
+      "id": "tranare",
+      "sv": "tränare",
+      "translations": { "ru": "тренер", "en": "coach" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Tränaren väntar på planen.", "ru": "Тренер ждёт на поле.", "en": "The coach is waiting on the pitch." }
+    },
+    {
+      "id": "medlemsavgift",
+      "sv": "medlemsavgift",
+      "translations": { "ru": "членский взнос", "en": "membership fee" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Medlemsavgiften betalas en gång om året.", "ru": "Членский взнос платят раз в год.", "en": "The membership fee is paid once a year." }
+    },
+    {
+      "id": "match",
+      "sv": "match",
+      "translations": { "ru": "матч", "en": "match" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en match", "defSg": "matchen", "indefPl": "matcher", "defPl": "matcherna" },
+      "example": { "sv": "Matchen börjar klockan fem.", "ru": "Матч начинается в пять часов.", "en": "The match starts at five o'clock." }
+    },
+    {
+      "id": "traningskladen",
+      "sv": "träningskläder",
+      "translations": { "ru": "спортивная одежда", "en": "sports clothes" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Glöm inte träningskläderna!", "ru": "Не забудь спортивную одежду!", "en": "Don't forget your sports clothes!" }
+    },
+    {
+      "id": "omkladningsrum",
+      "sv": "omklädningsrum",
+      "translations": { "ru": "раздевалка", "en": "changing room" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vi byter om i omklädningsrummet.", "ru": "Мы переодеваемся в раздевалке.", "en": "We change in the changing room." }
+    },
+    {
+      "id": "halla-sig-i-form",
+      "sv": "hålla sig i form",
+      "translations": { "ru": "поддерживать форму", "en": "to keep fit" },
+      "pos": "phrase",
+      "example": { "sv": "Jag joggar för att hålla mig i form.", "ru": "Я бегаю, чтобы поддерживать форму.", "en": "I go jogging to keep fit." }
+    },
+    {
+      "id": "skjutsa",
+      "sv": "skjutsa",
+      "translations": { "ru": "подвозить (на машине)", "en": "to give a lift, to drive (someone)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skjutsa", "present": "skjutsar", "past": "skjutsade", "supine": "skjutsat" },
+      "example": { "sv": "Jag skjutsar barnen till träningen.", "ru": "Я отвожу детей на тренировку.", "en": "I drive the kids to training." }
+    }
+  ]
+}

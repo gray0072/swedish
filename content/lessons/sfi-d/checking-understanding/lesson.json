@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/checking-understanding",
+  "slug": "checking-understanding",
+  "title": {
+    "sv": "Att kontrollera att man förstått: eller hur?, va?, menar du att…?",
+    "ru": "Проверка понимания: eller hur?, va?, menar du att…?",
+    "en": "Checking that you have understood: eller hur?, va?, menar du att…?"
+  },
+  "summary": {
+    "ru": "Разговорные фразы для проверки понимания и переспроса в беседе.",
+    "en": "Conversational phrases for checking understanding and asking for clarification."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "conversation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 760,
+  "prerequisites": ["sfi-d/modal-particles"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

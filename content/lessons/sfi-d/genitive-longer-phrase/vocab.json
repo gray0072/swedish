@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "kompis",
+      "sv": "kompis",
+      "translations": { "ru": "приятель, друг", "en": "friend, mate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kompis", "defSg": "kompisen", "indefPl": "kompisar", "defPl": "kompisarna" },
+      "example": { "sv": "Min kompis bror jobbar här.", "ru": "Брат моего друга работает здесь.", "en": "My friend's brother works here." }
+    },
+    {
+      "id": "regering",
+      "sv": "regering",
+      "translations": { "ru": "правительство", "en": "government" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sveriges regering sammanträder på tisdagar.", "ru": "Правительство Швеции заседает по вторникам.", "en": "Sweden's government meets on Tuesdays." }
+    },
+    {
+      "id": "granne-genitive",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbour" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Grannens hunds koppel gick sönder.", "ru": "Поводок собаки соседа порвался.", "en": "The neighbour's dog's lead broke." }
+    },
+    {
+      "id": "chef-noun",
+      "sv": "chef",
+      "translations": { "ru": "начальник", "en": "boss" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min chefs kontor ligger på andra våningen.", "ru": "Кабинет моего начальника на втором этаже.", "en": "My boss's office is on the second floor." }
+    },
+    {
+      "id": "syster",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" },
+      "example": { "sv": "Min systers man heter Erik.", "ru": "Мужа моей сестры зовут Эрик.", "en": "My sister's husband is called Erik." }
+    },
+    {
+      "id": "huvudstad-gen",
+      "sv": "huvudstad",
+      "translations": { "ru": "столица", "en": "capital" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Frankrikes huvudstad är Paris.", "ru": "Столица Франции — Париж.", "en": "France's capital is Paris." }
+    }
+  ]
+}

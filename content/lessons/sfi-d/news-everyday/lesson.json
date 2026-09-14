@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/news-everyday",
+  "slug": "news-everyday",
+  "title": {
+    "sv": "Nyheter i vardagen: att förstå en kort nyhetsnotis",
+    "ru": "Новости в повседневной жизни: понимание короткой новости",
+    "en": "News in everyday life: understanding a short news item"
+  },
+  "summary": {
+    "ru": "Основные слова для понимания коротких новостных заметок по-шведски.",
+    "en": "The key words for understanding a short news item in Swedish."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["media", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 530,
+  "prerequisites": ["sfi-c/opinion-one-sentence"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

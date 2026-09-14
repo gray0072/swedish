@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "som-rel",
+      "sv": "som",
+      "translations": { "ru": "который (общее относительное)", "en": "who/which/that (general relative)" },
+      "pos": "conjunction",
+      "example": { "sv": "Mannen som bor bredvid är trevlig.", "ru": "Мужчина, который живёт рядом, приятный.", "en": "The man who lives next door is nice." }
+    },
+    {
+      "id": "dar-rel",
+      "sv": "där",
+      "translations": { "ru": "где (относительное место)", "en": "where (relative, place)" },
+      "pos": "conjunction",
+      "example": { "sv": "Staden där jag bor är liten.", "ru": "Город, где я живу, маленький.", "en": "The city where I live is small." }
+    },
+    {
+      "id": "dit-rel",
+      "sv": "dit",
+      "translations": { "ru": "куда (относительное направление)", "en": "where/to which (relative, direction)" },
+      "pos": "conjunction",
+      "example": { "sv": "Skolan dit hon går ligger nära.", "ru": "Школа, куда она ходит, находится близко.", "en": "The school she goes to is nearby." }
+    },
+    {
+      "id": "vars-rel",
+      "sv": "vars",
+      "translations": { "ru": "чей (относительное притяжательное)", "en": "whose (relative possessive)" },
+      "pos": "conjunction",
+      "example": { "sv": "Kvinnan vars bil stals bor här.", "ru": "Женщина, чья машина была украдена, живёт здесь.", "en": "The woman whose car was stolen lives here." }
+    },
+    {
+      "id": "granne",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbour" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min granne som bor ovanför är trevlig.", "ru": "Мой сосед сверху приятный.", "en": "My neighbour who lives above is nice." }
+    },
+    {
+      "id": "stjala",
+      "sv": "stjäla",
+      "translations": { "ru": "красть", "en": "to steal" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "stjäla", "present": "stjäl", "past": "stal", "supine": "stulit" },
+      "example": { "sv": "Någon stal hennes cykel.", "ru": "Кто-то украл её велосипед.", "en": "Someone stole her bike." }
+    }
+  ]
+}

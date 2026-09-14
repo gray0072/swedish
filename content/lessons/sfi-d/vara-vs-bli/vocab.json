@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "vara-verb",
+      "sv": "vara",
+      "translations": { "ru": "быть (состояние)", "en": "to be (a state)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Hon är trött idag.", "ru": "Она сегодня уставшая.", "en": "She's tired today." }
+    },
+    {
+      "id": "bli-verb",
+      "sv": "bli",
+      "translations": { "ru": "становиться (изменение состояния)", "en": "to become (a change)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "bli", "present": "blir", "past": "blev", "supine": "blivit" },
+      "example": { "sv": "Hon blev trött efter jobbet.", "ru": "Она устала после работы.", "en": "She got tired after work." }
+    },
+    {
+      "id": "sjuk",
+      "sv": "sjuk",
+      "translations": { "ru": "больной", "en": "ill, sick" },
+      "pos": "adj",
+      "example": { "sv": "Han blev sjuk i helgen.", "ru": "Он заболел в выходные.", "en": "He got ill over the weekend." }
+    },
+    {
+      "id": "arg-adj",
+      "sv": "arg",
+      "translations": { "ru": "злой", "en": "angry" },
+      "pos": "adj",
+      "example": { "sv": "Hon blev arg när tåget var försenat.", "ru": "Она разозлилась, когда поезд опоздал.", "en": "She got angry when the train was late." }
+    },
+    {
+      "id": "morker",
+      "sv": "mörk",
+      "translations": { "ru": "тёмный", "en": "dark" },
+      "pos": "adj",
+      "example": { "sv": "Det blir mörkt tidigt på vintern.", "ru": "Зимой темнеет рано.", "en": "It gets dark early in winter." }
+    },
+    {
+      "id": "larare-noun",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hon är lärare. Hon blev lärare 2015.", "ru": "Она учитель. Она стала учителем в 2015.", "en": "She's a teacher. She became a teacher in 2015." }
+    }
+  ]
+}

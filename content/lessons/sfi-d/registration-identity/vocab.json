@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "personnummer",
+      "sv": "personnummer",
+      "translations": { "ru": "личный номер (аналог ИНН/СНИЛС)", "en": "personal identity number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett personnummer", "defSg": "personnumret", "indefPl": "personnummer", "defPl": "personnumren" },
+      "example": { "sv": "Du behöver ett personnummer för det mesta.", "ru": "Личный номер нужен почти для всего.", "en": "You need a personnummer for almost everything." }
+    },
+    {
+      "id": "samordningsnummer",
+      "sv": "samordningsnummer",
+      "translations": { "ru": "координационный номер", "en": "coordination number" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Innan du folkbokförs kan du få ett samordningsnummer.", "ru": "До регистрации по месту жительства можно получить координационный номер.", "en": "Before you're registered, you can get a coordination number." }
+    },
+    {
+      "id": "id-kort",
+      "sv": "id-kort",
+      "translations": { "ru": "удостоверение личности (ID-карта)", "en": "ID card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett id-kort", "defSg": "id-kortet", "indefPl": "id-kort", "defPl": "id-korten" },
+      "example": { "sv": "Jag ansöker om ett id-kort hos Skatteverket.", "ru": "Я подаю заявление на ID-карту в Skatteverket.", "en": "I'm applying for an ID card at Skatteverket." }
+    },
+    {
+      "id": "folkbokforing",
+      "sv": "folkbokföring",
+      "translations": { "ru": "регистрация по месту жительства", "en": "population registration" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Folkbokföringen bestämmer var du betalar skatt.", "ru": "Регистрация по месту жительства определяет, где ты платишь налоги.", "en": "Your population registration decides where you pay tax." }
+    },
+    {
+      "id": "folkbokford",
+      "sv": "folkbokförd",
+      "translations": { "ru": "зарегистрированный по месту жительства", "en": "registered as resident" },
+      "pos": "adj",
+      "example": { "sv": "Jag är folkbokförd i Malmö.", "ru": "Я зарегистрирован(а) по месту жительства в Мальмё.", "en": "I'm registered as resident in Malmö." }
+    },
+    {
+      "id": "adressandring",
+      "sv": "adressändring",
+      "translations": { "ru": "изменение адреса", "en": "change of address" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Gör en adressändring när du flyttar.", "ru": "При переезде оформи изменение адреса.", "en": "File a change of address when you move." }
+    },
+    {
+      "id": "styrka-sin-identitet",
+      "sv": "styrka sin identitet",
+      "translations": { "ru": "подтвердить свою личность", "en": "to prove one's identity" },
+      "pos": "phrase",
+      "example": { "sv": "Du måste styrka din identitet med pass eller id-kort.", "ru": "Личность нужно подтвердить паспортом или ID-картой.", "en": "You must prove your identity with a passport or ID card." }
+    },
+    {
+      "id": "uppehallstillstand",
+      "sv": "uppehållstillstånd",
+      "translations": { "ru": "вид на жительство", "en": "residence permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Mitt uppehållstillstånd gäller i fyra år.", "ru": "Мой вид на жительство действует четыре года.", "en": "My residence permit is valid for four years." }
+    },
+    {
+      "id": "medborgarskap",
+      "sv": "medborgarskap",
+      "translations": { "ru": "гражданство", "en": "citizenship" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hon ansökte om svenskt medborgarskap.", "ru": "Она подала заявление на шведское гражданство.", "en": "She applied for Swedish citizenship." }
+    },
+    {
+      "id": "civilstand",
+      "sv": "civilstånd",
+      "translations": { "ru": "семейное положение", "en": "marital status" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Ange ditt civilstånd i formuläret.", "ru": "Укажи семейное положение в форме.", "en": "State your marital status on the form." }
+    },
+    {
+      "id": "pass",
+      "sv": "pass",
+      "translations": { "ru": "паспорт", "en": "passport" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett pass", "defSg": "passet", "indefPl": "pass", "defPl": "passen" },
+      "example": { "sv": "Mitt pass går ut nästa år.", "ru": "Мой паспорт истекает в следующем году.", "en": "My passport expires next year." }
+    },
+    {
+      "id": "anmala-flytt",
+      "sv": "anmäla flytt",
+      "translations": { "ru": "заявить о переезде", "en": "to report a move" },
+      "pos": "phrase",
+      "example": { "sv": "Du ska anmäla flytt inom en vecka.", "ru": "О переезде нужно заявить в течение недели.", "en": "You must report a move within a week." }
+    }
+  ]
+}

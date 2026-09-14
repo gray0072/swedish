@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/vara-vs-bli",
+  "slug": "vara-vs-bli",
+  "title": {
+    "sv": "Vara och bli: ett tillstånd och en förändring",
+    "ru": "Vara и bli: состояние и изменение состояния",
+    "en": "vara and bli: a state and a change of state"
+  },
+  "summary": {
+    "ru": "Разница между «vara» (быть, статичное состояние) и «bli» (стать, изменение).",
+    "en": "The difference between \"vara\" (to be, a static state) and \"bli\" (to become, a change)."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "verbs"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 720,
+  "prerequisites": ["sfi-a/ar-har-basics"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

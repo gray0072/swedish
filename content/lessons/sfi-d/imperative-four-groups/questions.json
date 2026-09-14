@@ -1,0 +1,69 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-imperative-four-groups-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое повелительное наклонение у глагола «skriva» (группа 4)?", "en": "What is the imperative of \"skriva\" (group 4)?" },
+      "choices": ["skriv", "skriva", "skriver", "skrev"],
+      "answer": 0
+    },
+    {
+      "id": "q-imperative-four-groups-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая группа сохраняет инфинитив без изменений в повелительном наклонении?", "en": "Which group keeps the infinitive unchanged in the imperative?" },
+      "choices": ["Group 3", "Group 1", "Group 2", "Group 4"],
+      "answer": 0
+    },
+    {
+      "id": "q-imperative-four-groups-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ dörren, tack. (закрой)" },
+      "answer": ["Stäng"],
+      "acceptAlso": ["stäng"]
+    },
+    {
+      "id": "q-imperative-four-groups-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Свари картошку десять минут.»", "en": "Build the sentence: \"Boil the potatoes for ten minutes.\"" },
+      "tokens": ["i tio minuter", "potatisen", "Koka"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-imperative-four-groups-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь инфинитив с повелительным наклонением", "en": "Match the infinitive with its imperative" },
+      "pairs": [
+        ["titta", "titta!"],
+        ["ringa", "ring!"],
+        ["tro", "tro!"],
+        ["skriva", "skriv!"]
+      ]
+    },
+    {
+      "id": "q-imperative-four-groups-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Повелительное наклонение всегда является самой короткой формой глагола.", "en": "The imperative is always the shortest form of the verb." },
+      "answer": true
+    },
+    {
+      "id": "q-imperative-four-groups-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Повелительное наклонение группы 2 добавляет окончание -ade.", "en": "The group 2 imperative adds the ending -ade." },
+      "answer": false,
+      "explanation": { "ru": "Группа 2 просто обрезает окончание до основы (ring, stäng), а не добавляет -ade.", "en": "Group 2 just strips down to the bare stem (ring, stäng), it doesn't add -ade." }
+    }
+  ]
+}

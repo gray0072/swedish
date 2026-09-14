@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-child-school-contact-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое utvecklingssamtal?", "en": "What is an utvecklingssamtal?" },
+      "choices": [
+        { "ru": "Личная беседа об успехах твоего ребёнка", "en": "A one-on-one talk about your own child's progress" },
+        { "ru": "Собрание для всего класса", "en": "A meeting for the whole class" },
+        { "ru": "Больничный лист", "en": "A medical certificate" },
+        { "ru": "Годовой отчёт компании", "en": "A company's annual report" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-child-school-contact-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Куда обычно отправляют сообщение об отсутствии ребёнка?", "en": "Where do you usually report your child's absence?" },
+      "choices": ["Skolplattformen", "Systembolaget", "ARN", "CSN"],
+      "answer": 0
+    },
+    {
+      "id": "q-child-school-contact-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она делает домашнее задание после школы.»", "en": "Build the sentence: \"She does her homework after school.\"" },
+      "tokens": ["läxor", "efter", "skolan", "sina", "gör", "Hon"],
+      "answer": [5, 4, 3, 0, 1, 2]
+    },
+    {
+      "id": "q-child-school-contact-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["läxa", "домашнее задание"],
+        ["betyg", "оценка"],
+        ["mobbning", "буллинг"],
+        ["frånvaro", "отсутствие"]
+      ]
+    },
+    {
+      "id": "q-child-school-contact-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Fritids — это группа продлённого дня.", "en": "Fritids is after-school care." },
+      "answer": true
+    },
+    {
+      "id": "q-child-school-contact-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Föräldramöte — это личная встреча только про твоего ребёнка.", "en": "A föräldramöte is a private meeting just about your own child." },
+      "answer": false,
+      "explanation": { "ru": "Föräldramöte — собрание для всего класса; личная беседа — это utvecklingssamtal.", "en": "A föräldramöte is for the whole class; the private one-on-one talk is the utvecklingssamtal." }
+    },
+    {
+      "id": "q-child-school-contact-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ tid med läraren för att prata om läxorna. (записался(лась))" },
+      "answer": ["bokade"],
+      "acceptAlso": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-shopping-returns-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает «öppet köp»?", "en": "What does \"öppet köp\" mean?" },
+      "choices": [
+        { "ru": "Право вернуть товар без причины в течение срока", "en": "The right to return an item, no reason needed, within a period" },
+        { "ru": "Магазин работает круглосуточно", "en": "The shop is open 24 hours" },
+        { "ru": "Товар нельзя вернуть", "en": "The item cannot be returned" },
+        { "ru": "Скидка на первую покупку", "en": "A discount on your first purchase" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-returns-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Купленная куртка порвалась по шву через день. Что нужно сделать?", "en": "A jacket you bought tore at the seam after a day. What should you do?" },
+      "choices": [
+        { "ru": "Reklamera varan", "en": "Reklamera (complain about) the item" },
+        { "ru": "Kasta den", "en": "Throw it away" },
+        { "ru": "Sy om den själv utan att säga något", "en": "Sew it yourself without saying anything" },
+        { "ru": "Sälja den vidare", "en": "Sell it on" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-returns-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Всегда сохраняй чек.»", "en": "Build the sentence: \"Always keep the receipt.\"" },
+      "tokens": ["kvittot", "Spara", "alltid"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-shopping-returns-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["reklamation", "претензия"],
+        ["defekt", "дефект"],
+        ["återbetalning", "возврат денег"],
+        ["garanti", "гарантия"]
+      ]
+    },
+    {
+      "id": "q-shopping-returns-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "ARN — это бесплатная комиссия по спорам потребителей.", "en": "ARN is a free consumer disputes board." },
+      "answer": true
+    },
+    {
+      "id": "q-shopping-returns-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Öppet köp» и «reklamation» — это одно и то же.", "en": "\"Öppet köp\" and \"reklamation\" are the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Öppet köp — возврат без причины, reklamation — жалоба именно на дефект товара.", "en": "Öppet köp is a no-reason return; reklamation is specifically a complaint about a fault." }
+    },
+    {
+      "id": "q-shopping-returns-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag vill ___ varan mot en annan storlek. (обменять)" },
+      "answer": ["byta"],
+      "acceptAlso": []
+    }
+  ]
+}

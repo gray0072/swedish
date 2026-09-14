@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/life-sweden-comparison",
+  "slug": "life-sweden-comparison",
+  "title": {
+    "sv": "Livet i Sverige och livet där du kommer ifrån",
+    "ru": "Жизнь в Швеции и жизнь там, откуда ты родом",
+    "en": "Life in Sweden and life where you come from"
+  },
+  "summary": {
+    "ru": "Слова для сравнения привычек, этикета и ожиданий в Швеции и на родине.",
+    "en": "Words for comparing habits, etiquette and expectations in Sweden and back home."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["culture", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 540,
+  "prerequisites": ["sfi-d/workplace-habits"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

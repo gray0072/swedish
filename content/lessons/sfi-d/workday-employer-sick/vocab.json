@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "schema",
+      "sv": "schema",
+      "translations": { "ru": "график (расписание)", "en": "schedule" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Jag kollar schemat varje vecka.", "ru": "Я смотрю график каждую неделю.", "en": "I check the schedule every week." }
+    },
+    {
+      "id": "arbetstid",
+      "sv": "arbetstid",
+      "translations": { "ru": "рабочее время", "en": "working hours" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min arbetstid är 8 till 17.", "ru": "Моё рабочее время с 8 до 17.", "en": "My working hours are 8 to 5." }
+    },
+    {
+      "id": "rast",
+      "sv": "rast",
+      "translations": { "ru": "перерыв", "en": "break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rast", "defSg": "rasten", "indefPl": "raster", "defPl": "rasterna" },
+      "example": { "sv": "Vi tar rast klockan tolv.", "ru": "Мы делаем перерыв в двенадцать.", "en": "We take a break at twelve." }
+    },
+    {
+      "id": "overtid",
+      "sv": "övertid",
+      "translations": { "ru": "сверхурочные", "en": "overtime" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag jobbade övertid igår.", "ru": "Вчера я работал(а) сверхурочно.", "en": "I worked overtime yesterday." }
+    },
+    {
+      "id": "sjukanmalan",
+      "sv": "sjukanmälan",
+      "translations": { "ru": "сообщение о болезни (больничный)", "en": "sick notification" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Gör din sjukanmälan innan klockan åtta.", "ru": "Сообщи о болезни до восьми часов.", "en": "File your sick notification before eight o'clock." }
+    },
+    {
+      "id": "sjukanmala-sig",
+      "sv": "sjukanmäla sig",
+      "translations": { "ru": "сообщить о своей болезни (взять больничный)", "en": "to call in sick" },
+      "pos": "phrase",
+      "example": { "sv": "Jag sjukanmälde mig till chefen på morgonen.", "ru": "Утром я сообщил(а) начальнику, что заболел(а).", "en": "I called in sick to my boss in the morning." }
+    },
+    {
+      "id": "karensavdrag",
+      "sv": "karensavdrag",
+      "translations": { "ru": "вычет за первый день болезни", "en": "waiting-period deduction" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Karensavdraget görs på den första sjukdagen.", "ru": "Вычет за первый день болезни делается в первый день.", "en": "The waiting-period deduction is made on the first sick day." }
+    },
+    {
+      "id": "sjukintyg",
+      "sv": "sjukintyg",
+      "translations": { "ru": "больничный лист (медицинская справка)", "en": "medical certificate" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Efter en vecka behöver jag ett sjukintyg.", "ru": "После недели мне нужен больничный лист.", "en": "After a week I need a medical certificate." }
+    },
+    {
+      "id": "narmaste-chef",
+      "sv": "närmaste chef",
+      "translations": { "ru": "непосредственный начальник", "en": "direct manager" },
+      "pos": "phrase",
+      "example": { "sv": "Ring din närmaste chef direkt på morgonen.", "ru": "Позвони своему непосредственному начальнику прямо с утра.", "en": "Call your direct manager first thing in the morning." }
+    },
+    {
+      "id": "kollega",
+      "sv": "kollega",
+      "translations": { "ru": "коллега", "en": "colleague" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kollega", "defSg": "kollegan", "indefPl": "kollegor", "defPl": "kollegorna" },
+      "example": { "sv": "Be en kollega täcka upp för dig.", "ru": "Попроси коллегу подменить тебя.", "en": "Ask a colleague to cover for you." }
+    },
+    {
+      "id": "flextid",
+      "sv": "flextid",
+      "translations": { "ru": "гибкий график", "en": "flexitime" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi har flextid på jobbet.", "ru": "У нас на работе гибкий график.", "en": "We have flexitime at work." }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "du-tilltal",
+      "sv": "du-tilltal",
+      "translations": { "ru": "обращение на «ты»", "en": "using \"du\" (informal you)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "På svenska arbetsplatser är du-tilltal vanligt, även till chefen.", "ru": "На шведских рабочих местах обращение на «ты» обычно даже к начальнику.", "en": "In Swedish workplaces, using \"du\" is common, even to the boss." }
+    },
+    {
+      "id": "fika",
+      "sv": "fika",
+      "translations": { "ru": "фика (перерыв на кофе)", "en": "fika (coffee break)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi tar fika klockan tio.", "ru": "Мы делаем фику в десять.", "en": "We take fika at ten." }
+    },
+    {
+      "id": "punktlighet",
+      "sv": "punktlighet",
+      "translations": { "ru": "пунктуальность", "en": "punctuality" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Punktlighet är viktigt i Sverige.", "ru": "Пунктуальность важна в Швеции.", "en": "Punctuality is important in Sweden." }
+    },
+    {
+      "id": "be-om-hjalp",
+      "sv": "be om hjälp",
+      "translations": { "ru": "просить о помощи", "en": "to ask for help" },
+      "pos": "phrase",
+      "example": { "sv": "Det är okej att be om hjälp.", "ru": "Просить о помощи — это нормально.", "en": "It's okay to ask for help." }
+    },
+    {
+      "id": "platt-organisation",
+      "sv": "platt organisation",
+      "translations": { "ru": "плоская структура (без жёсткой иерархии)", "en": "flat organisation" },
+      "pos": "phrase",
+      "example": { "sv": "Många svenska företag har en platt organisation.", "ru": "У многих шведских компаний плоская структура управления.", "en": "Many Swedish companies have a flat organisation." }
+    },
+    {
+      "id": "konsensus",
+      "sv": "konsensus",
+      "translations": { "ru": "консенсус", "en": "consensus" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi försöker nå konsensus innan vi bestämmer.", "ru": "Мы стараемся достичь консенсуса перед принятием решения.", "en": "We try to reach consensus before deciding." }
+    },
+    {
+      "id": "raka-ryggen",
+      "sv": "rak kommunikation",
+      "translations": { "ru": "прямое общение", "en": "direct communication" },
+      "pos": "phrase",
+      "example": { "sv": "Svenskar uppskattar rak kommunikation.", "ru": "Шведы ценят прямое общение.", "en": "Swedes appreciate direct communication." }
+    },
+    {
+      "id": "komma-i-tid",
+      "sv": "komma i tid",
+      "translations": { "ru": "приходить вовремя", "en": "to arrive on time" },
+      "pos": "phrase",
+      "example": { "sv": "Det är viktigt att komma i tid till mötet.", "ru": "Важно приходить вовремя на встречу.", "en": "It's important to arrive on time for the meeting." }
+    },
+    {
+      "id": "arbetsklimat",
+      "sv": "arbetsklimat",
+      "translations": { "ru": "рабочая атмосфера (климат)", "en": "workplace atmosphere" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vi har ett bra arbetsklimat.", "ru": "У нас хорошая рабочая атмосфера.", "en": "We have a good workplace atmosphere." }
+    },
+    {
+      "id": "sjalvstandig",
+      "sv": "självständig",
+      "translations": { "ru": "самостоятельный", "en": "independent" },
+      "pos": "adj",
+      "example": { "sv": "Man förväntas vara självständig på jobbet.", "ru": "На работе от тебя ожидают самостоятельности.", "en": "You're expected to be independent at work." }
+    }
+  ]
+}

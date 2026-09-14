@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "fast-conj",
+      "sv": "fast",
+      "translations": { "ru": "хотя (разговорное)", "en": "although (informal)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag gick ut, fast det regnade.", "ru": "Я вышел(ла), хотя шёл дождь.", "en": "I went out, although it was raining." }
+    },
+    {
+      "id": "trots-att-conj",
+      "sv": "trots att",
+      "translations": { "ru": "несмотря на то что", "en": "despite the fact that" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon log trots att hon var trött.", "ru": "Она улыбалась, несмотря на то что была уставшей.", "en": "She smiled despite being tired." }
+    },
+    {
+      "id": "aven-om-conj",
+      "sv": "även om",
+      "translations": { "ru": "даже если, хотя бы", "en": "even if" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag kommer, även om jag är sjuk.", "ru": "Я приду, даже если заболею.", "en": "I'll come, even if I'm sick." }
+    },
+    {
+      "id": "trots-prep",
+      "sv": "trots",
+      "translations": { "ru": "несмотря на (предлог)", "en": "despite (preposition)" },
+      "pos": "prep",
+      "example": { "sv": "Trots regnet gick de ut.", "ru": "Несмотря на дождь, они вышли.", "en": "Despite the rain, they went out." }
+    },
+    {
+      "id": "anda",
+      "sv": "ändå",
+      "translations": { "ru": "всё равно, тем не менее", "en": "still, nevertheless" },
+      "pos": "adv",
+      "example": { "sv": "Det regnade, men vi gick ut ändå.", "ru": "Шёл дождь, но мы всё равно вышли.", "en": "It was raining, but we went out anyway." }
+    },
+    {
+      "id": "visserligen",
+      "sv": "visserligen",
+      "translations": { "ru": "правда, конечно (уступительное вводное слово)", "en": "admittedly" },
+      "pos": "adv",
+      "example": { "sv": "Visserligen är det dyrt, men det håller länge.", "ru": "Правда, это дорого, но служит долго.", "en": "Admittedly it's expensive, but it lasts a long time." }
+    },
+    {
+      "id": "trott-adj",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj",
+      "example": { "sv": "Hon var trött men glad.", "ru": "Она была уставшей, но довольной.", "en": "She was tired but happy." }
+    }
+  ]
+}

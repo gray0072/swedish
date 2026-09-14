@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/municipality-services",
+  "slug": "municipality-services",
+  "title": {
+    "sv": "Kommunen och dess tjänster",
+    "ru": "Муниципалитет и его услуги",
+    "en": "The municipality and its services"
+  },
+  "summary": {
+    "ru": "Какие услуги оказывает муниципалитет (kommun), а какие — государство или регион.",
+    "en": "Which services come from the municipality (kommun), and which come from the state or the region."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["authorities", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 360,
+  "prerequisites": ["sfi-d/authorities"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

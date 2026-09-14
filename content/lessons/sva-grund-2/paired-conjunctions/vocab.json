@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "bade-och",
+      "sv": "både … och",
+      "translations": { "ru": "и … и, как … так и", "en": "both … and" },
+      "pos": "phrase",
+      "example": { "sv": "Hon talar både svenska och engelska.", "ru": "Она говорит и по-шведски, и по-английски.", "en": "She speaks both Swedish and English." }
+    },
+    {
+      "id": "varken-eller",
+      "sv": "varken … eller",
+      "translations": { "ru": "ни … ни", "en": "neither … nor" },
+      "pos": "phrase",
+      "example": { "sv": "Han har varken tid eller pengar.", "ru": "У него нет ни времени, ни денег.", "en": "He has neither time nor money." }
+    },
+    {
+      "id": "inte-bara-utan-ocksa",
+      "sv": "inte bara … utan också",
+      "translations": { "ru": "не только … но и", "en": "not only … but also" },
+      "pos": "phrase",
+      "example": { "sv": "Hon är inte bara duktig utan också modig.", "ru": "Она не только способная, но и смелая.", "en": "She is not only capable but also brave." }
+    },
+    {
+      "id": "antingen-eller",
+      "sv": "antingen … eller",
+      "translations": { "ru": "либо … либо", "en": "either … or" },
+      "pos": "phrase",
+      "example": { "sv": "Vi kan antingen ta bussen eller cykla.", "ru": "Мы можем либо поехать на автобусе, либо на велосипеде.", "en": "We can either take the bus or cycle." }
+    },
+    {
+      "id": "sasom",
+      "sv": "modig",
+      "translations": { "ru": "смелый", "en": "brave" },
+      "pos": "adj"
+    },
+    {
+      "id": "duktig",
+      "sv": "duktig",
+      "translations": { "ru": "способный, умелый", "en": "capable, good at something" },
+      "pos": "adj"
+    },
+    {
+      "id": "cykla",
+      "sv": "cykla",
+      "translations": { "ru": "ехать на велосипеде", "en": "to cycle" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat" }
+    },
+    {
+      "id": "talar",
+      "sv": "tala",
+      "translations": { "ru": "говорить (на языке)", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" }
+    },
+    {
+      "id": "led-konjunktion",
+      "sv": "led",
+      "translations": { "ru": "член (соединяемая часть)", "en": "member, part (of the pair being linked)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "led", "defSg": "ledet", "indefPl": "led", "defPl": "leden" },
+      "note": { "ru": "Здесь: каждая из двух связанных частей парного союза.", "en": "Here: each of the two linked parts of a paired conjunction." }
+    },
+    {
+      "id": "jamnstalld",
+      "sv": "jämnställd",
+      "translations": { "ru": "равноправный", "en": "equal, on equal footing" },
+      "pos": "adj"
+    }
+  ]
+}

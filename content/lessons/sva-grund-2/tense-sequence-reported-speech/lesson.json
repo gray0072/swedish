@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/tense-sequence-reported-speech",
+  "slug": "tense-sequence-reported-speech",
+  "title": {
+    "sv": "Tempusföljd i indirekt tal",
+    "ru": "Согласование времён в косвенной речи",
+    "en": "The sequence of tenses in reported speech"
+  },
+  "summary": {
+    "ru": "«Jag är trött» становится «Hon sa att hon var trött» — время сдвигается на шаг назад, когда сообщающий глагол стоит в прошедшем.",
+    "en": "\"Jag är trött\" becomes \"Hon sa att hon var trött\" — the tense shifts one step back when the reporting verb is in the past."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "reported-speech", "tense"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1090,
+  "prerequisites": ["sva-grund-2/reported-speech-verbs"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

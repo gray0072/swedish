@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-1/article-omission",
+  "slug": "article-omission",
+  "title": {
+    "sv": "Artikel eller ingen artikel: yrken, ämnesnamn, fasta fraser",
+    "ru": "Артикль или его отсутствие: профессии, вещественные существительные, устойчивые фразы",
+    "en": "The article: when a noun goes without one — professions, mass nouns, fixed phrases"
+  },
+  "summary": {
+    "ru": "«Hon är lärare», не «en lärare» — три случая, когда en/ett неожиданно пропадает.",
+    "en": "\"Hon är lärare\", not \"en lärare\" — three situations where en/ett unexpectedly disappears."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-1"],
+  "tags": ["grammar", "nouns", "articles"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 610,
+  "prerequisites": ["sva-grund-1/noun-declensions"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

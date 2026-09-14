@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/taxes-everyday",
+  "slug": "taxes-everyday",
+  "title": {
+    "sv": "Skatt i vardagen: deklarationen du bara godkänner",
+    "ru": "Налоги в повседневной жизни: декларация, которую нужно только одобрить",
+    "en": "Taxes in everyday life: the declaration you only have to approve"
+  },
+  "summary": {
+    "ru": "Что такое налоговая декларация и почему для большинства людей достаточно её одобрить.",
+    "en": "What the tax declaration is, and why for most people it's enough just to approve it."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["economy", "authorities", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 380,
+  "prerequisites": ["sfi-d/bill-receipt-payslip"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

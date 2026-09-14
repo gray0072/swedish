@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/digital-services",
+  "slug": "digital-services",
+  "title": {
+    "sv": "Digitala samhällstjänster",
+    "ru": "Цифровые государственные услуги",
+    "en": "Digital public services"
+  },
+  "summary": {
+    "ru": "BankID, Mina sidor, 1177 — как входить в шведские цифровые сервисы и пользоваться ими.",
+    "en": "BankID, Mina sidor, 1177 — how to log in to Swedish digital services and use them."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["digital", "everyday", "authorities"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 340,
+  "prerequisites": ["sfi-d/authorities"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

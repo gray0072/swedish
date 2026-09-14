@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/apposition-parenthetical",
+  "slug": "apposition-parenthetical",
+  "title": {
+    "sv": "Apposition och inskjutna satser i en mening",
+    "ru": "Приложение и вставные конструкции внутри предложения",
+    "en": "Apposition and parenthetical insertions inside a sentence"
+  },
+  "summary": {
+    "ru": "Второе имя для того же самого («Anna, min syster, …») и вставленный комментарий («Det var, tyvärr, för sent») — и как их отделять запятыми.",
+    "en": "A second name for the same thing (\"Anna, min syster, …\") and an inserted comment (\"Det var, tyvärr, för sent\") — and how to set them off with commas."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "syntax", "punctuation", "style"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1510,
+  "prerequisites": ["sva-grund-3/extended-noun-phrase"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

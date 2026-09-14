@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/workplace-habits",
+  "slug": "workplace-habits",
+  "title": {
+    "sv": "Vanor på jobbet: du-tilltal, fika, punktlighet, att be om hjälp",
+    "ru": "Привычки на работе: обращение на «ты», фика, пунктуальность, просьба о помощи",
+    "en": "Workplace habits: du-address, fika, punctuality, asking for help"
+  },
+  "summary": {
+    "ru": "Неписаные правила шведского рабочего места: обращение на «ты», фика, пунктуальность.",
+    "en": "The unwritten rules of a Swedish workplace: du-address, fika, punctuality."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["work", "culture", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": ["sfi-d/job-search-application"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

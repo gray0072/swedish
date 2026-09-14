@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/workday-employer-sick",
+  "slug": "workday-employer-sick",
+  "title": {
+    "sv": "Arbetsdagen och din arbetsgivare: schema, raster, sjukanmälan",
+    "ru": "Рабочий день и работодатель: график, перерывы, сообщение о болезни",
+    "en": "A working day and your employer: the schedule, the breaks, calling in sick"
+  },
+  "summary": {
+    "ru": "Как договориться о графике, взять перерыв и правильно сообщить, что заболел(а).",
+    "en": "How to talk about your schedule, take a break, and correctly call in sick."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["work", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 400,
+  "prerequisites": ["sfi-c/workday-schedule-break"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

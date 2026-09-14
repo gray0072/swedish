@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/bill-receipt-payslip",
+  "slug": "bill-receipt-payslip",
+  "title": {
+    "sv": "Att förstå en faktura, ett kvitto och en lönespecifikation",
+    "ru": "Как понять счёт, чек и расчётный листок",
+    "en": "Understanding a bill, a receipt and a payslip"
+  },
+  "summary": {
+    "ru": "Основные слова, чтобы разобраться в счёте, чеке из магазина и расчётном листке — хотя бы в общих чертах.",
+    "en": "The key words for reading a bill, a shop receipt and a payslip — at least in outline."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["economy", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 370,
+  "prerequisites": ["sfi-c/paying-bills"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

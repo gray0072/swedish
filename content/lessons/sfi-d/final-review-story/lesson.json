@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/final-review-story",
+  "slug": "final-review-story",
+  "title": {
+    "sv": "Slutgenomgång: berätta historien om ditt liv i Sverige och dina planer",
+    "ru": "Итоговое повторение: расскажи историю своей жизни в Швеции и свои планы",
+    "en": "Final review: telling the story of your life in Sweden and your plans"
+  },
+  "summary": {
+    "ru": "Итоговая связная история о жизни в Швеции и планах на будущее — обзор курса D.",
+    "en": "A final connected account of your life in Sweden and your plans ahead — a review of kurs D."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["review", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 550,
+  "prerequisites": ["sfi-d/life-sweden-comparison"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

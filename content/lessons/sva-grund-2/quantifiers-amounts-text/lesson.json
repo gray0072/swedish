@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-2/quantifiers-amounts-text",
+  "slug": "quantifiers-amounts-text",
+  "title": {
+    "sv": "Kvantifierare och mängder i text: de flesta, en tredjedel, andelen, allt fler",
+    "ru": "Квантификаторы и величины в тексте: de flesta, en tredjedel, andelen, allt fler",
+    "en": "Quantifiers and amounts in a text: de flesta, en tredjedel, andelen, allt fler"
+  },
+  "summary": {
+    "ru": "Слова для описания долей и тенденций в тексте о статистике: большинство, треть, доля, всё больше.",
+    "en": "Words for describing shares and trends in a text about statistics: most, a third, the share, an increasing number."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-2"],
+  "tags": ["grammar", "quantifiers", "text"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1080,
+  "prerequisites": ["sva-grund-2/text-connectors"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

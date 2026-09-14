@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-conditional-om-sa-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что часто добавляют перед главным предложением, если оно идёт после «om»-придаточного?", "en": "What is often added before the main clause when it follows an \"om\" clause?" },
+      "choices": ["så", "att", "som", "men"],
+      "answer": 0
+    },
+    {
+      "id": "q-conditional-om-sa-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что используют в om-придаточном для нереального условия?", "en": "What do you use in the om-clause for an unreal condition?" },
+      "choices": ["Preteritum eller vore", "Presens", "Futurum", "Imperativ"],
+      "answer": 0
+    },
+    {
+      "id": "q-conditional-om-sa-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Om det regnar, ___ stannar vi hemma. (то)" },
+      "answer": ["så"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-conditional-om-sa-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Если бы я был(а) тобой, я бы подождал(а).»", "en": "Build the sentence: \"If I were you, I would wait.\"" },
+      "tokens": ["skulle", "du", "jag", "Om", "jag", "vore", "vänta"],
+      "answer": [3, 4, 5, 1, 0, 2, 6]
+    },
+    {
+      "id": "q-conditional-om-sa-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["ifall", "на случай если"],
+        ["i så fall", "в таком случае"],
+        ["annars", "иначе"],
+        ["villkor", "условие"]
+      ]
+    },
+    {
+      "id": "q-conditional-om-sa-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Så» перед главным предложением обязательно, иначе предложение неправильно.", "en": "\"Så\" before the main clause is mandatory, otherwise the sentence is wrong." },
+      "answer": false,
+      "explanation": { "ru": "«Så» необязательно — без него предложение так же правильно.", "en": "\"Så\" is optional — the sentence is equally correct without it." }
+    },
+    {
+      "id": "q-conditional-om-sa-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Annars» описывает, что случится, если условие НЕ выполнится.", "en": "\"Annars\" describes what happens if the condition is NOT met." },
+      "answer": true
+    }
+  ]
+}

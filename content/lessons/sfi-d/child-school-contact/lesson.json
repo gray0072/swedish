@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/child-school-contact",
+  "slug": "child-school-contact",
+  "title": {
+    "sv": "Ditt barns skola: mötet, läxan, kontakt med läraren",
+    "ru": "Школа твоего ребёнка: собрание, домашнее задание, контакт с учителем",
+    "en": "Your child's school: the meeting, the homework, contact with the teacher"
+  },
+  "summary": {
+    "ru": "Как общаться со школой: родительское собрание, домашнее задание, сообщение учителю.",
+    "en": "How to deal with school: parent meetings, homework, messaging the teacher."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["family", "school", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 510,
+  "prerequisites": ["sfi-c/parents-meetings-school"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

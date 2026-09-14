@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-paired-conjunctions-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «ни времени, ни денег»?", "en": "How do you say \"neither time nor money\"?" },
+      "choices": ["varken tid eller pengar", "både tid och pengar", "antingen tid eller pengar", "inte bara tid utan också pengar"],
+      "answer": 0
+    },
+    {
+      "id": "q-paired-conjunctions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая пара союзов усиливает второе качество как неожиданное дополнение?", "en": "Which pair of conjunctions emphasises the second quality as an extra, somewhat surprising addition?" },
+      "choices": ["inte bara … utan också", "både … och", "varken … eller", "antingen … eller"],
+      "answer": 0
+    },
+    {
+      "id": "q-paired-conjunctions-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Både … och» соединяет два элемента, оба из которых верны.", "en": "\"Både … och\" links two elements, both of which are true." },
+      "answer": true
+    },
+    {
+      "id": "q-paired-conjunctions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Antingen … eller» означает, что верны оба варианта одновременно.", "en": "\"Antingen … eller\" means both options are true at the same time." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Antingen … eller» предлагает выбор между двумя вариантами — верен только один из них.",
+        "en": "\"Antingen … eller\" offers a choice between two options — only one of them holds."
+      }
+    },
+    {
+      "id": "q-paired-conjunctions-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Она говорит и по-шведски, и по-английски.»", "en": "Build the sentence: \"She speaks both Swedish and English.\"" },
+      "tokens": ["Hon", "talar", "både", "svenska", "och", "engelska."],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-paired-conjunctions-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hon är ___ bara duktig utan också modig." },
+      "answer": ["inte"]
+    },
+    {
+      "id": "q-paired-conjunctions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь парный союз с переводом", "en": "Match the paired conjunction with its translation" },
+      "pairs": [
+        ["både … och", "both … and"],
+        ["varken … eller", "neither … nor"],
+        ["inte bara … utan också", "not only … but also"],
+        ["antingen … eller", "either … or"]
+      ]
+    },
+    {
+      "id": "q-paired-conjunctions-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Varken … eller» требует какой части речи после себя чаще всего?", "en": "\"Varken … eller\" most often takes what kind of word after it?" },
+      "choices": [
+        { "ru": "Два сопоставимых существительных/слова", "en": "Two comparable nouns/words" },
+        { "ru": "Целое придаточное предложение обязательно", "en": "An obligatory whole subordinate clause" },
+        { "ru": "Только числа", "en": "Only numbers" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/text-connectors",
+  "slug": "text-connectors",
+  "title": {
+    "sv": "Textbindare: dessutom, däremot, alltså, därför, å andra sidan",
+    "ru": "Текстовые связки: dessutom, däremot, alltså, därför, å andra sidan",
+    "en": "Text connectors: dessutom, däremot, alltså, därför, å andra sidan"
+  },
+  "summary": {
+    "ru": "Пять слов, которые связывают предложения в тексте: добавление, контраст, вывод, причина.",
+    "en": "Five words that link sentences in a text: addition, contrast, conclusion, reason."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "text", "connectors"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 730,
+  "prerequisites": ["sva-grund-2/text-connectors"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

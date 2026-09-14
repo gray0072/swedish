@@ -1,0 +1,90 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-negation-scope-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Где стоит «inte» в главном предложении?", "en": "Where does \"inte\" go in a main clause?" },
+      "choices": ["Сразу после спрягаемого глагола", "Перед спрягаемым глаголом", "В самом конце предложения", "В самом начале предложения"],
+      "answer": 0
+    },
+    {
+      "id": "q-negation-scope-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Где стоит «inte» в придаточном предложении (правило BIFF)?", "en": "Where does \"inte\" go in a subordinate clause (the BIFF rule)?" },
+      "choices": ["Перед спрягаемым глаголом", "После спрягаемого глагола", "После подлежащего и после глагола", "В конце предложения"],
+      "answer": 0
+    },
+    {
+      "id": "q-negation-scope-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "«Alla kom inte.» отрицает что?", "en": "What does \"Alla kom inte.\" negate?" },
+      "choices": [
+        { "ru": "Не все пришли (кто-то пришёл, кто-то нет)", "en": "Not everyone came (some came, some didn't)" },
+        { "ru": "Никто вообще не пришёл", "en": "No one at all came" },
+        { "ru": "Все определённо пришли", "en": "Everyone definitely came" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-negation-scope-mc-4",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "«Inte alla kom.» отрицает что, в отличие от предыдущего примера?", "en": "What does \"Inte alla kom.\" negate, compared to the previous example?" },
+      "choices": [
+        { "ru": "То же самое: не все пришли", "en": "The same thing: not everyone came" },
+        { "ru": "Что пришли вообще все, полностью отрицается сама идея «все»", "en": "The very idea of \"everyone\" is negated up front, more emphatically" },
+        { "ru": "Что никто не пришёл", "en": "That no one came" }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-negation-scope-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ingen», «inget», «inga» заменяют «en/ett + существительное», а не сочетаются с «inte».", "en": "\"Ingen\", \"inget\", \"inga\" replace \"en/ett + noun\", rather than combining with \"inte\"." },
+      "answer": true
+    },
+    {
+      "id": "q-negation-scope-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Knappast» выражает такое же сильное отрицание, как «aldrig».", "en": "\"Knappast\" expresses as strong a negation as \"aldrig\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Knappast» — это мягкое, сомневающееся отрицание («вряд ли»), а «aldrig» — категоричное («никогда»).",
+        "en": "\"Knappast\" is a soft, doubting negation (\"hardly\"), while \"aldrig\" is categorical (\"never\")."
+      }
+    },
+    {
+      "id": "q-negation-scope-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Hon sa att hon ___ hade sett filmen. (BIFF: inte perede verbet)" },
+      "answer": ["inte"]
+    },
+    {
+      "id": "q-negation-scope-gap-2",
+      "type": "gap",
+      "prompt": { "sv": "Jag har ___ svar rätt. (никакого правильного ответа)" },
+      "answer": ["inget"]
+    },
+    {
+      "id": "q-negation-scope-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово отрицания с его переводом", "en": "Match the negation word with its translation" },
+      "pairs": [
+        ["ingen/inget/inga", "no, none"],
+        ["aldrig", "never"],
+        ["knappast", "hardly, scarcely"],
+        ["inte", "not"]
+      ]
+    }
+  ]
+}

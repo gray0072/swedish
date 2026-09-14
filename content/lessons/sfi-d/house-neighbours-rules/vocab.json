@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "tvattstuga",
+      "sv": "tvättstuga",
+      "translations": { "ru": "прачечная (общая, в доме)", "en": "shared laundry room" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag bokar tvättstugan på måndag.", "ru": "Я бронирую прачечную на понедельник.", "en": "I'm booking the laundry room for Monday." }
+    },
+    {
+      "id": "tvattid",
+      "sv": "tvättid",
+      "translations": { "ru": "время стирки (забронированный слот)", "en": "laundry time slot" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min tvättid är klockan nio.", "ru": "Моё время стирки — девять часов.", "en": "My laundry slot is nine o'clock." }
+    },
+    {
+      "id": "sopsortering",
+      "sv": "sopsortering",
+      "translations": { "ru": "сортировка мусора", "en": "waste sorting" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Sopsortering är viktigt i huset.", "ru": "Сортировка мусора важна в доме.", "en": "Waste sorting is important in the building." }
+    },
+    {
+      "id": "sortera",
+      "sv": "sortera",
+      "translations": { "ru": "сортировать", "en": "to sort" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sortera", "present": "sorterar", "past": "sorterade", "supine": "sorterat" },
+      "example": { "sv": "Vi sorterar plast, papper och glas.", "ru": "Мы сортируем пластик, бумагу и стекло.", "en": "We sort plastic, paper and glass." }
+    },
+    {
+      "id": "atervinningsrum",
+      "sv": "återvinningsrum",
+      "translations": { "ru": "комната для переработки отходов", "en": "recycling room" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Återvinningsrummet finns i källaren.", "ru": "Комната для переработки находится в подвале.", "en": "The recycling room is in the basement." }
+    },
+    {
+      "id": "trapphus",
+      "sv": "trapphus",
+      "translations": { "ru": "подъезд (лестничная клетка)", "en": "stairwell" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Håll trapphuset rent.", "ru": "Держи подъезд в чистоте.", "en": "Keep the stairwell clean." }
+    },
+    {
+      "id": "ordningsregler",
+      "sv": "ordningsregler",
+      "translations": { "ru": "правила проживания (внутренний распорядок)", "en": "house rules" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Läs ordningsreglerna för huset.", "ru": "Прочитай правила проживания в доме.", "en": "Read the house rules." }
+    },
+    {
+      "id": "tystnad",
+      "sv": "tystnad",
+      "translations": { "ru": "тишина", "en": "quiet" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Det ska vara tystnad efter klockan tio.", "ru": "После десяти часов должна быть тишина.", "en": "There should be quiet after ten o'clock." }
+    },
+    {
+      "id": "gemensamma-utrymmen",
+      "sv": "gemensamma utrymmen",
+      "translations": { "ru": "общие помещения", "en": "shared spaces" },
+      "pos": "phrase",
+      "example": { "sv": "Cyklar får inte stå i gemensamma utrymmen.", "ru": "Велосипеды нельзя оставлять в общих помещениях.", "en": "Bicycles may not be left in shared spaces." }
+    },
+    {
+      "id": "brf",
+      "sv": "bostadsrättsförening",
+      "translations": { "ru": "жилищный кооператив (BRF)", "en": "housing cooperative (BRF)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Föreningen bestämmer ordningsreglerna.", "ru": "Кооператив устанавливает правила проживания.", "en": "The cooperative sets the house rules." }
+    }
+  ]
+}

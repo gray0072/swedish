@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "foraldramote",
+      "sv": "föräldramöte",
+      "translations": { "ru": "родительское собрание", "en": "parents' meeting" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Föräldramötet är på torsdag klockan sex.", "ru": "Родительское собрание в четверг в шесть.", "en": "The parents' meeting is on Thursday at six." }
+    },
+    {
+      "id": "utvecklingssamtal",
+      "sv": "utvecklingssamtal",
+      "translations": { "ru": "беседа о развитии ребёнка", "en": "development talk (parent-teacher conference)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vi har utvecklingssamtal en gång per termin.", "ru": "У нас беседа о развитии ребёнка раз в семестр.", "en": "We have a development talk once per term." }
+    },
+    {
+      "id": "laxa",
+      "sv": "läxa",
+      "translations": { "ru": "домашнее задание", "en": "homework" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
+      "example": { "sv": "Hon gör sina läxor efter skolan.", "ru": "Она делает домашнее задание после школы.", "en": "She does her homework after school." }
+    },
+    {
+      "id": "klasslarare",
+      "sv": "klasslärare",
+      "translations": { "ru": "классный руководитель", "en": "class teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Klassläraren skickar meddelanden via appen.", "ru": "Классный руководитель присылает сообщения через приложение.", "en": "The class teacher sends messages via the app." }
+    },
+    {
+      "id": "franvaro",
+      "sv": "frånvaro",
+      "translations": { "ru": "отсутствие (пропуск)", "en": "absence" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Anmäl frånvaro innan klockan åtta.", "ru": "Сообщи об отсутствии до восьми часов.", "en": "Report the absence before eight o'clock." }
+    },
+    {
+      "id": "skolplattform",
+      "sv": "skolplattform",
+      "translations": { "ru": "школьная платформа (приложение)", "en": "school platform (app)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Allt skickas via skolplattformen.", "ru": "Всё отправляется через школьную платформу.", "en": "Everything is sent via the school platform." }
+    },
+    {
+      "id": "betyg",
+      "sv": "betyg",
+      "translations": { "ru": "оценка", "en": "grade" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hon fick bra betyg i matematik.", "ru": "У неё хорошая оценка по математике.", "en": "She got a good grade in maths." }
+    },
+    {
+      "id": "mobbning",
+      "sv": "mobbning",
+      "translations": { "ru": "буллинг (травля)", "en": "bullying" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Skolan har en plan mot mobbning.", "ru": "У школы есть план против буллинга.", "en": "The school has an anti-bullying plan." }
+    },
+    {
+      "id": "fritids",
+      "sv": "fritids",
+      "translations": { "ru": "группа продлённого дня", "en": "after-school care" },
+      "pos": "noun",
+      "example": { "sv": "Han går på fritids efter skolan.", "ru": "Он ходит на продлёнку после школы.", "en": "He goes to after-school care after school." }
+    },
+    {
+      "id": "boka-tid-med-lararen",
+      "sv": "boka tid med läraren",
+      "translations": { "ru": "записаться на приём к учителю", "en": "to book time with the teacher" },
+      "pos": "phrase",
+      "example": { "sv": "Jag bokade tid med läraren för att prata om läxorna.", "ru": "Я записался(лась) к учителю, чтобы поговорить о домашних заданиях.", "en": "I booked time with the teacher to talk about the homework." }
+    }
+  ]
+}

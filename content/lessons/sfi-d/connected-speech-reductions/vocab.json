@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "dom-spoken",
+      "sv": "dom",
+      "translations": { "ru": "они/их (в устной речи вместо de/dem)", "en": "they/them (spoken, replaces de/dem)" },
+      "pos": "pron",
+      "example": { "sv": "Dom kommer imorgon.", "ru": "Они придут завтра.", "en": "They're coming tomorrow." }
+    },
+    {
+      "id": "a-spoken",
+      "sv": "å",
+      "translations": { "ru": "и (в устной речи вместо och)", "en": "and (spoken, replaces och)" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag å du kan gå tillsammans.", "ru": "Я и ты можем пойти вместе.", "en": "You and I can go together." }
+    },
+    {
+      "id": "ja-spoken",
+      "sv": "ja",
+      "translations": { "ru": "я (в устной речи вместо jag)", "en": "I (spoken, replaces jag)" },
+      "pos": "pron",
+      "example": { "sv": "Ja vet inte riktigt.", "ru": "Я не совсем знаю.", "en": "I don't really know." }
+    },
+    {
+      "id": "sen-spoken",
+      "sv": "sen",
+      "translations": { "ru": "потом (в устной речи вместо sedan)", "en": "then (spoken, shortened from sedan)" },
+      "pos": "adv",
+      "example": { "sv": "Vi äter, sen går vi.", "ru": "Мы поедим, потом пойдём.", "en": "We'll eat, then we'll go." }
+    },
+    {
+      "id": "nån-spoken",
+      "sv": "nån",
+      "translations": { "ru": "кто-то, какой-то (устно, от någon)", "en": "someone, some (spoken, from någon)" },
+      "pos": "pron",
+      "example": { "sv": "Är det nån hemma?", "ru": "Кто-то дома?", "en": "Is anyone home?" }
+    },
+    {
+      "id": "va-spoken",
+      "sv": "va?",
+      "translations": { "ru": "что? (переспрос)", "en": "what? (asking someone to repeat)" },
+      "pos": "interjection",
+      "example": { "sv": "Va sa du?", "ru": "Что ты сказал(а)?", "en": "What did you say?" }
+    },
+    {
+      "id": "reduktion",
+      "sv": "reduktion",
+      "translations": { "ru": "редукция (сокращение звука)", "en": "reduction (sound shortening)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Reduktioner gör talad svenska svårare att förstå.", "ru": "Редукции делают разговорный шведский сложнее для понимания.", "en": "Reductions make spoken Swedish harder to understand." }
+    },
+    {
+      "id": "skriftsprak",
+      "sv": "skriftspråk",
+      "translations": { "ru": "письменный язык", "en": "written language" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "\"De\" och \"dem\" används i skriftspråket.", "ru": "«De» и «dem» используются в письменном языке.", "en": "\"De\" and \"dem\" are used in the written language." }
+    }
+  ]
+}

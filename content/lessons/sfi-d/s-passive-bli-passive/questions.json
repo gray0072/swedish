@@ -1,0 +1,67 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-s-passive-bli-passive-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какой пассив подходит для одного конкретного завершённого события?", "en": "Which passive fits a single, completed event?" },
+      "choices": ["Bli-пассив", "S-пассив", "Оба одинаково", "Ни один"],
+      "answer": 0
+    },
+    {
+      "id": "q-s-passive-bli-passive-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Магазин открывается в десять каждый день» — какой пассив здесь уместен?", "en": "\"The shop opens at ten every day\" — which passive fits here?" },
+      "choices": ["Öppnas (s-пассив)", "Blev öppnad (bli-пассив)", "Har öppnat", "Ska öppna"],
+      "answer": 0
+    },
+    {
+      "id": "q-s-passive-bli-passive-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon ___ vald till ordförande igår. (bli, претерит)" },
+      "answer": ["blev"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-s-passive-bli-passive-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Книга была написана известным автором.»", "en": "Build the sentence: \"The book was written by a famous author.\"" },
+      "tokens": ["av", "en känd författare", "skrevs", "Boken"],
+      "answer": [3, 2, 0, 1]
+    },
+    {
+      "id": "q-s-passive-bli-passive-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму с переводом", "en": "Match the form with its translation" },
+      "pairs": [
+        ["öppnas", "открывается"],
+        ["stängas", "закрывается"],
+        ["renoveras", "ремонтируется"],
+        ["serveras", "подаётся"]
+      ]
+    },
+    {
+      "id": "q-s-passive-bli-passive-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "S-пассив подходит для общих правил и вывесок.", "en": "The -s passive suits general rules and signs." },
+      "answer": true
+    },
+    {
+      "id": "q-s-passive-bli-passive-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Предлог «av» используется, чтобы назвать исполнителя действия.", "en": "The preposition \"av\" is used to name who performed the action." },
+      "answer": true
+    }
+  ]
+}

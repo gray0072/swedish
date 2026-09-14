@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "omojlig",
+      "sv": "omöjlig",
+      "translations": { "ru": "невозможный", "en": "impossible" },
+      "pos": "adj",
+      "example": { "sv": "Det är omöjligt att hinna dit i tid.", "ru": "Невозможно успеть туда вовремя.", "en": "It's impossible to get there in time." }
+    },
+    {
+      "id": "mojlig",
+      "sv": "möjlig",
+      "translations": { "ru": "возможный", "en": "possible" },
+      "pos": "adj",
+      "example": { "sv": "Det är möjligt att lösa problemet.", "ru": "Возможно решить эту проблему.", "en": "It's possible to solve the problem." }
+    },
+    {
+      "id": "otrevlig",
+      "sv": "otrevlig",
+      "translations": { "ru": "неприятный, невежливый", "en": "unpleasant, unfriendly" },
+      "pos": "adj",
+      "example": { "sv": "Han var otrevlig mot personalen.", "ru": "Он был невежлив с персоналом.", "en": "He was unfriendly to the staff." }
+    },
+    {
+      "id": "trevlig",
+      "sv": "trevlig",
+      "translations": { "ru": "приятный, вежливый", "en": "pleasant, nice" },
+      "pos": "adj",
+      "example": { "sv": "Hon är alltid trevlig.", "ru": "Она всегда приятная.", "en": "She's always nice." }
+    },
+    {
+      "id": "missforsta",
+      "sv": "missförstå",
+      "translations": { "ru": "неправильно понять", "en": "to misunderstand" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "missförstå", "present": "missförstår", "past": "missförstod", "supine": "missförstått" },
+      "example": { "sv": "Jag missförstod hela meningen.", "ru": "Я неправильно понял(а) весь смысл.", "en": "I misunderstood the whole sentence." }
+    },
+    {
+      "id": "misslyckas",
+      "sv": "misslyckas",
+      "translations": { "ru": "потерпеть неудачу", "en": "to fail" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "misslyckas", "present": "misslyckas", "past": "misslyckades", "supine": "misslyckats" },
+      "example": { "sv": "Projektet misslyckades.", "ru": "Проект провалился.", "en": "The project failed." }
+    },
+    {
+      "id": "ovanlig",
+      "sv": "ovanlig",
+      "translations": { "ru": "необычный", "en": "unusual" },
+      "pos": "adj",
+      "example": { "sv": "Det är ett ovanligt namn.", "ru": "Это необычное имя.", "en": "It's an unusual name." }
+    },
+    {
+      "id": "misstag",
+      "sv": "misstag",
+      "translations": { "ru": "ошибка", "en": "mistake" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det var ett misstag att skriva så.", "ru": "Было ошибкой написать так.", "en": "It was a mistake to write it that way." }
+    }
+  ]
+}

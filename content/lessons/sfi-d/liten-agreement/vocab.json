@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "liten",
+      "sv": "liten",
+      "translations": { "ru": "маленький (en-род, неопр.)", "en": "small/little (en-word, indefinite)" },
+      "pos": "adj",
+      "example": { "sv": "En liten hund sprang förbi.", "ru": "Маленькая собака пробежала мимо.", "en": "A little dog ran past." }
+    },
+    {
+      "id": "litet-form",
+      "sv": "litet",
+      "translations": { "ru": "маленькое (ett-род, неопр.)", "en": "small/little (ett-word, indefinite)" },
+      "pos": "adj",
+      "example": { "sv": "Ett litet hus står på kullen.", "ru": "Маленький домик стоит на холме.", "en": "A little house stands on the hill." }
+    },
+    {
+      "id": "lilla-form",
+      "sv": "lilla",
+      "translations": { "ru": "маленький/-ая/-ое (определённая форма, ед.ч.)", "en": "little (definite form, singular)" },
+      "pos": "adj",
+      "example": { "sv": "Den lilla hunden heter Bruno.", "ru": "Маленькую собаку зовут Бруно.", "en": "The little dog is called Bruno." }
+    },
+    {
+      "id": "sma-form",
+      "sv": "små",
+      "translations": { "ru": "маленькие (мн.ч., оба рода)", "en": "little/small (plural, both genders)" },
+      "pos": "adj",
+      "example": { "sv": "Små barn leker i parken.", "ru": "Маленькие дети играют в парке.", "en": "Little children are playing in the park." }
+    },
+    {
+      "id": "kulle",
+      "sv": "kulle",
+      "translations": { "ru": "холм", "en": "hill" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Huset ligger på en kulle.", "ru": "Дом стоит на холме.", "en": "The house is on a hill." }
+    },
+    {
+      "id": "hund",
+      "sv": "hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
+      "example": { "sv": "Hunden skäller på posten.", "ru": "Собака лает на почтальона.", "en": "The dog barks at the postman." }
+    }
+  ]
+}

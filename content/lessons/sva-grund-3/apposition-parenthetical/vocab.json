@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "apposition",
+      "sv": "apposition",
+      "translations": { "ru": "приложение (грамматический термин)", "en": "apposition" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "apposition", "defSg": "appositionen", "indefPl": "appositioner", "defPl": "appositionerna" },
+      "note": { "ru": "Второй именной уточняющий оборот, стоящий рядом с первым и относящийся к тому же самому.", "en": "A second noun phrase standing next to the first, referring to the same thing." }
+    },
+    {
+      "id": "inskjuten-sats",
+      "sv": "inskjuten sats",
+      "translations": { "ru": "вставная конструкция", "en": "parenthetical insertion" },
+      "pos": "phrase",
+      "note": { "ru": "Слово, фраза или короткое предложение, вставленное внутрь другого и отделённое запятыми, скобками или тире.", "en": "A word, phrase or short clause inserted into another sentence and set off by commas, brackets or dashes." }
+    },
+    {
+      "id": "syster",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" }
+    },
+    {
+      "id": "tyvarr",
+      "sv": "tyvärr",
+      "translations": { "ru": "к сожалению", "en": "unfortunately" },
+      "pos": "adv"
+    },
+    {
+      "id": "huvudstad",
+      "sv": "huvudstad",
+      "translations": { "ru": "столица", "en": "capital city" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" }
+    },
+    {
+      "id": "for-ovrigt",
+      "sv": "för övrigt",
+      "translations": { "ru": "кстати, впрочем", "en": "incidentally, by the way" },
+      "pos": "phrase"
+    },
+    {
+      "id": "enligt-min-mening",
+      "sv": "enligt min mening",
+      "translations": { "ru": "по моему мнению", "en": "in my opinion" },
+      "pos": "phrase"
+    },
+    {
+      "id": "grundare",
+      "sv": "grundare",
+      "translations": { "ru": "основатель", "en": "founder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "grundare", "defSg": "grundaren", "indefPl": "grundare", "defPl": "grundarna" }
+    },
+    {
+      "id": "foretag",
+      "sv": "företag",
+      "translations": { "ru": "предприятие, компания", "en": "company" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "företag", "defSg": "företaget", "indefPl": "företag", "defPl": "företagen" }
+    },
+    {
+      "id": "tankstreck",
+      "sv": "tankstreck",
+      "translations": { "ru": "тире", "en": "dash" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "tankstreck", "defSg": "tankstrecket", "indefPl": "tankstreck", "defPl": "tankstrecken" }
+    }
+  ]
+}

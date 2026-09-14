@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-bill-receipt-payslip-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что показывает lönespecifikation?", "en": "What does a lönespecifikation show?" },
+      "choices": [
+        { "ru": "Зарплату и налоги", "en": "Pay and tax" },
+        { "ru": "Список покупок", "en": "A shopping list" },
+        { "ru": "Расписание автобусов", "en": "A bus timetable" },
+        { "ru": "Договор аренды", "en": "A rental contract" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-bill-receipt-payslip-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что нужно указать при оплате счёта, чтобы платёж засчитали правильно?", "en": "What do you need to enter when paying a bill so the payment is matched correctly?" },
+      "choices": ["OCR-numret", "Kvittot", "Momsen", "Bruttolönen"],
+      "answer": 0
+    },
+    {
+      "id": "q-bill-receipt-payslip-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Счёт нужно оплатить в срок.»", "en": "Build the sentence: \"The bill must be paid by the due date.\"" },
+      "tokens": ["på", "betalas", "förfallodagen", "Fakturan", "ska"],
+      "answer": [3, 4, 1, 0, 2]
+    },
+    {
+      "id": "q-bill-receipt-payslip-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["faktura", "счёт"],
+        ["kvitto", "чек"],
+        ["bruttolön", "зарплата до вычета налогов"],
+        ["nettolön", "зарплата после вычета налогов"]
+      ]
+    },
+    {
+      "id": "q-bill-receipt-payslip-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Nettolön — это зарплата до вычета налога.", "en": "Nettolön is pay before tax." },
+      "answer": false,
+      "explanation": { "ru": "Nettolön — это зарплата ПОСЛЕ вычета налога; bruttolön — до вычета.", "en": "Nettolön is pay AFTER tax; bruttolön is pay before tax." }
+    },
+    {
+      "id": "q-bill-receipt-payslip-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Autogiro — это автоматическое списание платежа со счёта.", "en": "Autogiro is an automatic direct debit payment." },
+      "answer": true
+    },
+    {
+      "id": "q-bill-receipt-payslip-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Spara ___ om du vill byta varan. (чек)" },
+      "answer": ["kvittot"],
+      "acceptAlso": []
+    }
+  ]
+}

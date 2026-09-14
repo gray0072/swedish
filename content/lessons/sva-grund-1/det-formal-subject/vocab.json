@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "id": "det-finns",
+      "sv": "det finns",
+      "translations": { "ru": "имеется, есть, существует", "en": "there is/are" },
+      "pos": "phrase",
+      "example": { "sv": "Det finns en park här.", "ru": "Здесь есть парк.", "en": "There is a park here." }
+    },
+    {
+      "id": "det-ar",
+      "sv": "det är",
+      "translations": { "ru": "это (есть)", "en": "it is" },
+      "pos": "phrase",
+      "example": { "sv": "Det är en bra bok.", "ru": "Это хорошая книга.", "en": "It is a good book." }
+    },
+    {
+      "id": "det-regnar",
+      "sv": "det regnar",
+      "translations": { "ru": "идёт дождь", "en": "it's raining" },
+      "pos": "phrase",
+      "example": { "sv": "Det regnar mycket idag.", "ru": "Сегодня сильно идёт дождь.", "en": "It's raining a lot today." }
+    },
+    {
+      "id": "det-snoar",
+      "sv": "det snöar",
+      "translations": { "ru": "идёт снег", "en": "it's snowing" },
+      "pos": "phrase"
+    },
+    {
+      "id": "det-ar-viktigt-att",
+      "sv": "det är viktigt att",
+      "translations": { "ru": "важно (сделать что-то)", "en": "it is important to" },
+      "pos": "phrase",
+      "example": { "sv": "Det är viktigt att äta frukost.", "ru": "Важно завтракать.", "en": "It is important to eat breakfast." }
+    },
+    {
+      "id": "formellt-subjekt",
+      "sv": "formellt subjekt",
+      "translations": { "ru": "формальное подлежащее", "en": "formal subject" },
+      "pos": "phrase",
+      "note": { "ru": "Подлежащее без собственного значения, только заполняющее место в предложении.", "en": "A subject with no meaning of its own, just filling the sentence's subject slot." }
+    },
+    {
+      "id": "platshallare",
+      "sv": "platshållare",
+      "translations": { "ru": "заполнитель места", "en": "placeholder" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "platshållare", "defSg": "platshållaren", "indefPl": "platshållare", "defPl": "platshållarna" }
+    },
+    {
+      "id": "det-ar-kallt",
+      "sv": "det är kallt",
+      "translations": { "ru": "холодно", "en": "it's cold" },
+      "pos": "phrase",
+      "example": { "sv": "Det är kallt ute idag.", "ru": "Сегодня на улице холодно.", "en": "It's cold outside today." }
+    },
+    {
+      "id": "verkligt-subjekt",
+      "sv": "verkligt subjekt",
+      "translations": { "ru": "настоящее (реальное) подлежащее", "en": "the real (notional) subject" },
+      "pos": "phrase",
+      "note": { "ru": "Тот, кто/что на самом деле действует — отличается от формального «det».", "en": "The one that actually acts or exists — different from the formal \"det\"." }
+    },
+    {
+      "id": "park",
+      "sv": "park",
+      "translations": { "ru": "парк", "en": "park" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "park", "defSg": "parken", "indefPl": "parker", "defPl": "parkerna" }
+    }
+  ]
+}

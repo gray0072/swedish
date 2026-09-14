@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "generisk",
+      "sv": "generisk",
+      "translations": { "ru": "родовой, обобщающий", "en": "generic" },
+      "pos": "adj",
+      "note": { "ru": "Обозначающий целый класс/категорию, а не конкретный экземпляр.", "en": "Referring to a whole class/category rather than a specific instance." }
+    },
+    {
+      "id": "hund",
+      "sv": "hund",
+      "translations": { "ru": "собака", "en": "dog" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" }
+    },
+    {
+      "id": "trogen",
+      "sv": "trogen",
+      "translations": { "ru": "верный, преданный", "en": "loyal, faithful" },
+      "pos": "adj",
+      "note": { "ru": "Определённая/множественная форма: trogna.", "en": "Definite/plural form: trogna." }
+    },
+    {
+      "id": "djur",
+      "sv": "djur",
+      "translations": { "ru": "животное", "en": "animal" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "djur", "defSg": "djuret", "indefPl": "djur", "defPl": "djuren" }
+    },
+    {
+      "id": "manniska",
+      "sv": "människa",
+      "translations": { "ru": "человек", "en": "human being" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "människa", "defSg": "människan", "indefPl": "människor", "defPl": "människorna" }
+    },
+    {
+      "id": "behover",
+      "sv": "behöva",
+      "translations": { "ru": "нуждаться в", "en": "to need" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "behöva", "present": "behöver", "past": "behövde", "supine": "behövt" }
+    },
+    {
+      "id": "vatten",
+      "sv": "vatten",
+      "translations": { "ru": "вода", "en": "water" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "vatten", "defSg": "vattnet", "indefPl": "vatten", "defPl": "vattnen" },
+      "note": { "ru": "Неисчисляемое существительное, часто без артикля в родовом высказывании.", "en": "An uncountable noun, often used with no article in a generic statement." }
+    },
+    {
+      "id": "kategori",
+      "sv": "kategori",
+      "translations": { "ru": "категория", "en": "category" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "kategori", "defSg": "kategorin", "indefPl": "kategorier", "defPl": "kategorierna" }
+    },
+    {
+      "id": "vetenskaplig",
+      "sv": "vetenskaplig",
+      "translations": { "ru": "научный", "en": "scientific" },
+      "pos": "adj"
+    },
+    {
+      "id": "bjorn",
+      "sv": "björn",
+      "translations": { "ru": "медведь", "en": "bear" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "björn", "defSg": "björnen", "indefPl": "björnar", "defPl": "björnarna" }
+    }
+  ]
+}

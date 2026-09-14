@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "titta",
+      "sv": "titta!",
+      "translations": { "ru": "смотри! (группа 1)", "en": "look! (group 1)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "titta", "present": "tittar", "past": "tittade", "supine": "tittat", "imperative": "titta" },
+      "example": { "sv": "Titta här!", "ru": "Смотри сюда!", "en": "Look here!" }
+    },
+    {
+      "id": "ring",
+      "sv": "ring!",
+      "translations": { "ru": "позвони! (группа 2)", "en": "call! (group 2)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt", "imperative": "ring" },
+      "example": { "sv": "Ring mig ikväll!", "ru": "Позвони мне вечером!", "en": "Call me tonight!" }
+    },
+    {
+      "id": "tro",
+      "sv": "tro!",
+      "translations": { "ru": "верь! (группа 3)", "en": "believe! (group 3)" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott", "imperative": "tro" },
+      "example": { "sv": "Tro på dig själv!", "ru": "Верь в себя!", "en": "Believe in yourself!" }
+    },
+    {
+      "id": "skriv",
+      "sv": "skriv!",
+      "translations": { "ru": "пиши! (группа 4)", "en": "write! (group 4)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit", "imperative": "skriv" },
+      "example": { "sv": "Skriv ditt namn här.", "ru": "Напиши здесь своё имя.", "en": "Write your name here." }
+    },
+    {
+      "id": "koka",
+      "sv": "koka!",
+      "translations": { "ru": "вари! свари! (группа 1)", "en": "boil! (group 1)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "koka", "present": "kokar", "past": "kokade", "supine": "kokat", "imperative": "koka" },
+      "example": { "sv": "Koka potatisen i tio minuter.", "ru": "Свари картошку десять минут.", "en": "Boil the potatoes for ten minutes." }
+    },
+    {
+      "id": "stang-imp",
+      "sv": "stäng!",
+      "translations": { "ru": "закрой! (группа 2)", "en": "close! (group 2)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "stänga", "present": "stänger", "past": "stängde", "supine": "stängt", "imperative": "stäng" },
+      "example": { "sv": "Stäng dörren, tack.", "ru": "Закрой дверь, пожалуйста.", "en": "Close the door, please." }
+    },
+    {
+      "id": "recept-noun",
+      "sv": "recept",
+      "translations": { "ru": "рецепт", "en": "recipe" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Följ receptet steg för steg.", "ru": "Следуй рецепту шаг за шагом.", "en": "Follow the recipe step by step." }
+    }
+  ]
+}

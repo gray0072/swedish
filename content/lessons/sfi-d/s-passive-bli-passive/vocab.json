@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "oppnas",
+      "sv": "öppnas",
+      "translations": { "ru": "открываться", "en": "to be opened" },
+      "pos": "verb",
+      "example": { "sv": "Butiken öppnas klockan tio.", "ru": "Магазин открывается в десять.", "en": "The shop is opened at ten." }
+    },
+    {
+      "id": "stangas",
+      "sv": "stängas",
+      "translations": { "ru": "закрываться", "en": "to be closed" },
+      "pos": "verb",
+      "example": { "sv": "Vägen stängs på grund av snö.", "ru": "Дорогу закрывают из-за снега.", "en": "The road is being closed because of snow." }
+    },
+    {
+      "id": "bli-byggd",
+      "sv": "bli byggd",
+      "translations": { "ru": "быть построенным", "en": "to be built" },
+      "pos": "phrase",
+      "example": { "sv": "Ett nytt hus blev byggt förra året.", "ru": "В прошлом году был построен новый дом.", "en": "A new house was built last year." }
+    },
+    {
+      "id": "renoveras",
+      "sv": "renoveras",
+      "translations": { "ru": "ремонтироваться", "en": "to be renovated" },
+      "pos": "verb",
+      "example": { "sv": "Skolan renoveras i sommar.", "ru": "Школу ремонтируют этим летом.", "en": "The school is being renovated this summer." }
+    },
+    {
+      "id": "bli-vald",
+      "sv": "bli vald",
+      "translations": { "ru": "быть избранным", "en": "to be elected/chosen" },
+      "pos": "phrase",
+      "example": { "sv": "Hon blev vald till ordförande.", "ru": "Её избрали председателем.", "en": "She was elected chairperson." }
+    },
+    {
+      "id": "reparera",
+      "sv": "reparera",
+      "translations": { "ru": "ремонтировать, чинить", "en": "to repair" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reparera", "present": "reparerar", "past": "reparerade", "supine": "reparerat" },
+      "example": { "sv": "Bilen repareras på verkstaden.", "ru": "Машину ремонтируют в мастерской.", "en": "The car is being repaired at the garage." }
+    },
+    {
+      "id": "servera",
+      "sv": "servera",
+      "translations": { "ru": "подавать (еду)", "en": "to serve" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "servera", "present": "serverar", "past": "serverade", "supine": "serverat" },
+      "example": { "sv": "Middagen serveras klockan sju.", "ru": "Ужин подают в семь.", "en": "Dinner is served at seven." }
+    },
+    {
+      "id": "av-prep",
+      "sv": "av",
+      "translations": { "ru": "(агент действия) — кем", "en": "by (agent)" },
+      "pos": "prep",
+      "example": { "sv": "Boken skrevs av en känd författare.", "ru": "Книга была написана известным автором.", "en": "The book was written by a famous author." }
+    }
+  ]
+}

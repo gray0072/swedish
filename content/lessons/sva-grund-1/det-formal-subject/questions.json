@@ -1,0 +1,72 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-det-formal-subject-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая конструкция выражает «в парке есть скамейка»?", "en": "Which construction expresses \"there is a bench in the park\"?" },
+      "choices": ["Det finns en bänk i parken.", "Det är en bänk i parken.", "Bänken finns i parken det.", "En bänk det finns i parken."],
+      "answer": 0
+    },
+    {
+      "id": "q-det-formal-subject-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "В «Det regnar mycket idag.» — что означает «det»?", "en": "In \"Det regnar mycket idag.\" — what does \"det\" refer to?" },
+      "choices": [
+        { "ru": "Ничего конкретного, это формальное подлежащее", "en": "Nothing specific, it's a formal subject" },
+        { "ru": "Небо", "en": "The sky" },
+        { "ru": "Что-то, упомянутое ранее", "en": "Something mentioned earlier" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-det-formal-subject-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det» как формальное подлежащее используется в погодных выражениях: det regnar, det snöar.", "en": "\"Det\" as a formal subject is used in weather expressions: det regnar, det snöar." },
+      "answer": true
+    },
+    {
+      "id": "q-det-formal-subject-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Det finns» и «det är» означают ровно одно и то же в любом контексте.", "en": "\"Det finns\" and \"det är\" mean exactly the same thing in every context." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Det finns» подчёркивает существование/наличие («имеется»), а «det är» скорее указывает или описывает («это есть»).",
+        "en": "\"Det finns\" emphasises existence/presence (\"there is\"), while \"det är\" points at or describes something (\"it is\")."
+      }
+    },
+    {
+      "id": "q-det-formal-subject-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Важно завтракать.»", "en": "Build the sentence: \"It is important to eat breakfast.\"" },
+      "tokens": ["Det", "är", "viktigt", "att", "äta", "frukost."],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-det-formal-subject-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "___ regnar mycket idag. (формальное подлежащее)" },
+      "answer": ["Det"]
+    },
+    {
+      "id": "q-det-formal-subject-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу с «det» и её значение", "en": "Match the \"det\" phrase with its meaning" },
+      "pairs": [
+        ["det finns", "there is/are"],
+        ["det regnar", "it's raining"],
+        ["det är viktigt att", "it's important to"],
+        ["det är kallt", "it's cold"]
+      ]
+    }
+  ]
+}

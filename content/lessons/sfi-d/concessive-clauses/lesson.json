@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/concessive-clauses",
+  "slug": "concessive-clauses",
+  "title": {
+    "sv": "Konsessiva bisatser: fast, trots att, även om",
+    "ru": "Уступительные придаточные: fast, trots att, även om",
+    "en": "Concessives: fast, trots att, även om"
+  },
+  "summary": {
+    "ru": "Три союза, вводящих уступку — то, что не помешало основному действию.",
+    "en": "Three conjunctions introducing a concession — something that didn't stop the main action."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 630,
+  "prerequisites": ["sva-grund-2/concessive-clauses"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

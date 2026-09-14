@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "dessutom",
+      "sv": "dessutom",
+      "translations": { "ru": "к тому же, кроме того", "en": "moreover, in addition" },
+      "pos": "adv",
+      "example": { "sv": "Lägenheten är stor. Dessutom är hyran låg.", "ru": "Квартира большая. К тому же аренда низкая.", "en": "The flat is big. Moreover, the rent is low." }
+    },
+    {
+      "id": "daremot",
+      "sv": "däremot",
+      "translations": { "ru": "напротив, зато", "en": "on the other hand, however" },
+      "pos": "adv",
+      "example": { "sv": "Jag gillar te. Han däremot dricker bara kaffe.", "ru": "Мне нравится чай. Он же, напротив, пьёт только кофе.", "en": "I like tea. He, on the other hand, only drinks coffee." }
+    },
+    {
+      "id": "alltsa",
+      "sv": "alltså",
+      "translations": { "ru": "следовательно, значит", "en": "so, therefore" },
+      "pos": "adv",
+      "example": { "sv": "Han är sjuk, alltså kommer han inte idag.", "ru": "Он болен, следовательно, сегодня не придёт.", "en": "He's ill, so he's not coming today." }
+    },
+    {
+      "id": "darfor-adv",
+      "sv": "därför",
+      "translations": { "ru": "поэтому", "en": "therefore, that's why" },
+      "pos": "adv",
+      "example": { "sv": "Det regnade, därför tog vi paraplyet.", "ru": "Шёл дождь, поэтому мы взяли зонт.", "en": "It was raining, that's why we took the umbrella." }
+    },
+    {
+      "id": "a-andra-sidan",
+      "sv": "å andra sidan",
+      "translations": { "ru": "с другой стороны", "en": "on the other hand" },
+      "pos": "phrase",
+      "example": { "sv": "Jobbet är stressigt. Å andra sidan är lönen bra.", "ru": "Работа напряжённая. С другой стороны, зарплата хорошая.", "en": "The job is stressful. On the other hand, the pay is good." }
+    },
+    {
+      "id": "till-exempel",
+      "sv": "till exempel",
+      "translations": { "ru": "например", "en": "for example" },
+      "pos": "phrase",
+      "example": { "sv": "Många saker är dyra, till exempel hyran.", "ru": "Многое дорого, например, аренда.", "en": "Many things are expensive, for example the rent." }
+    },
+    {
+      "id": "hyra-noun",
+      "sv": "hyra",
+      "translations": { "ru": "аренда (плата)", "en": "rent" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Hyran höjs varje år.", "ru": "Аренда повышается каждый год.", "en": "The rent goes up every year." }
+    }
+  ]
+}

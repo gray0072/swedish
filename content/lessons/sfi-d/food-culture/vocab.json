@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "husmanskost",
+      "sv": "husmanskost",
+      "translations": { "ru": "традиционная домашняя кухня", "en": "traditional Swedish home cooking" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Köttbullar är klassisk husmanskost.", "ru": "Тефтели — классическое блюдо husmanskost.", "en": "Meatballs are classic husmanskost." }
+    },
+    {
+      "id": "systembolaget",
+      "sv": "Systembolaget",
+      "translations": { "ru": "Systembolaget (государственная монополия на алкоголь)", "en": "Systembolaget (the state alcohol monopoly)" },
+      "pos": "noun",
+      "example": { "sv": "Starkare alkohol köper man på Systembolaget.", "ru": "Крепкий алкоголь покупают в Systembolaget.", "en": "Stronger alcohol is bought at Systembolaget." }
+    },
+    {
+      "id": "oppettider",
+      "sv": "öppettider",
+      "translations": { "ru": "часы работы", "en": "opening hours" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vilka öppettider har butiken?", "ru": "Какие часы работы у магазина?", "en": "What are the shop's opening hours?" }
+    },
+    {
+      "id": "kottbullar",
+      "sv": "köttbullar",
+      "translations": { "ru": "тефтели", "en": "meatballs" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vi äter köttbullar med potatis.", "ru": "Мы едим тефтели с картошкой.", "en": "We eat meatballs with potatoes." }
+    },
+    {
+      "id": "kanelbulle",
+      "sv": "kanelbulle",
+      "translations": { "ru": "булочка с корицей", "en": "cinnamon bun" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "En kanelbulle passar bra till fikat.", "ru": "Булочка с корицей отлично подходит к фике.", "en": "A cinnamon bun goes well with fika." }
+    },
+    {
+      "id": "smorgas",
+      "sv": "smörgås",
+      "translations": { "ru": "бутерброд", "en": "open sandwich" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han äter en smörgås till frukost.", "ru": "Он ест бутерброд на завтрак.", "en": "He eats an open sandwich for breakfast." }
+    },
+    {
+      "id": "lagom",
+      "sv": "lagom",
+      "translations": { "ru": "в меру, в самый раз", "en": "just the right amount" },
+      "pos": "adv",
+      "example": { "sv": "Det är lagom kryddat.", "ru": "Это в меру приправлено.", "en": "It's spiced just right." }
+    },
+    {
+      "id": "18-arsgrans",
+      "sv": "18-årsgräns",
+      "translations": { "ru": "возрастное ограничение 18 лет", "en": "18-year age limit" },
+      "pos": "noun",
+      "example": { "sv": "Det är 18-årsgräns på Systembolaget.", "ru": "В Systembolaget действует возрастное ограничение 18 лет.", "en": "There's an 18-year age limit at Systembolaget." }
+    },
+    {
+      "id": "stanga",
+      "sv": "stänga",
+      "translations": { "ru": "закрываться (о магазине)", "en": "to close" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "stänga", "present": "stänger", "past": "stängde", "supine": "stängt" },
+      "example": { "sv": "Butiken stänger klockan sex.", "ru": "Магазин закрывается в шесть.", "en": "The shop closes at six." }
+    },
+    {
+      "id": "legitimation",
+      "sv": "legitimation",
+      "translations": { "ru": "документ, удостоверяющий личность", "en": "ID (identification)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Ta med legitimation om du köper alkohol.", "ru": "Возьми документ, если покупаешь алкоголь.", "en": "Bring ID if you're buying alcohol." }
+    }
+  ]
+}

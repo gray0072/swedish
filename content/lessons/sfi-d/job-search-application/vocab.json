@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "jobbannons",
+      "sv": "jobbannons",
+      "translations": { "ru": "объявление о вакансии", "en": "job ad" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag hittade en jobbannons på nätet.", "ru": "Я нашёл(нашла) объявление о вакансии в интернете.", "en": "I found a job ad online." }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявка (заявление)", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag skickade min ansökan igår.", "ru": "Я отправил(а) заявку вчера.", "en": "I sent my application yesterday." }
+    },
+    {
+      "id": "soka-jobb",
+      "sv": "söka jobb",
+      "translations": { "ru": "искать работу", "en": "to look for work" },
+      "pos": "phrase",
+      "example": { "sv": "Jag söker jobb som undersköterska.", "ru": "Я ищу работу помощником медсестры.", "en": "I'm looking for work as a care assistant." }
+    },
+    {
+      "id": "krav",
+      "sv": "krav",
+      "translations": { "ru": "требование", "en": "requirement" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Ett krav är körkort.", "ru": "Одно из требований — водительские права.", "en": "One requirement is a driving licence." }
+    },
+    {
+      "id": "meriterande",
+      "sv": "meriterande",
+      "translations": { "ru": "являющееся преимуществом (желательно, но не обязательно)", "en": "an advantage, a plus" },
+      "pos": "adj",
+      "example": { "sv": "Svenska på hög nivå är meriterande.", "ru": "Хороший уровень шведского — преимущество.", "en": "Advanced Swedish is an advantage." }
+    },
+    {
+      "id": "arbetsuppgifter",
+      "sv": "arbetsuppgifter",
+      "translations": { "ru": "рабочие обязанности", "en": "job duties, tasks" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vilka är arbetsuppgifterna?", "ru": "Какие рабочие обязанности?", "en": "What are the job duties?" }
+    },
+    {
+      "id": "personligt-brev",
+      "sv": "personligt brev",
+      "translations": { "ru": "сопроводительное письмо", "en": "cover letter" },
+      "pos": "phrase",
+      "example": { "sv": "Bifoga ett personligt brev till ansökan.", "ru": "Приложи сопроводительное письмо к заявке.", "en": "Attach a cover letter to the application." }
+    },
+    {
+      "id": "presentera-sig",
+      "sv": "presentera sig",
+      "translations": { "ru": "представиться", "en": "to introduce oneself" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du presentera dig kort?", "ru": "Можешь коротко представиться?", "en": "Can you introduce yourself briefly?" }
+    },
+    {
+      "id": "erfarenhet",
+      "sv": "erfarenhet",
+      "translations": { "ru": "опыт", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag har erfarenhet av kundtjänst.", "ru": "У меня есть опыт работы с клиентами.", "en": "I have experience in customer service." }
+    },
+    {
+      "id": "styrka",
+      "sv": "styrka",
+      "translations": { "ru": "сильная сторона", "en": "strength" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min styrka är att jag är noggrann.", "ru": "Моя сильная сторона — внимательность.", "en": "My strength is that I'm thorough." }
+    },
+    {
+      "id": "tillsvidareanstallning",
+      "sv": "tillsvidareanställning",
+      "translations": { "ru": "постоянная занятость (бессрочный контракт)", "en": "permanent employment" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag hoppas på en tillsvidareanställning.", "ru": "Я надеюсь на постоянную занятость.", "en": "I'm hoping for permanent employment." }
+    }
+  ]
+}

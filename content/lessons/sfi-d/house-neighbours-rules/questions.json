@@ -1,0 +1,75 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-house-neighbours-rules-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как обычно пользуются общей прачечной (tvättstuga)?", "en": "How do you normally use the shared laundry room (tvättstuga)?" },
+      "choices": [
+        { "ru": "Бронируешь время (tvättid) заранее", "en": "You book a time slot in advance" },
+        { "ru": "Приходишь в любое время", "en": "You show up whenever you like" },
+        { "ru": "Она открыта только по выходным", "en": "It's only open on weekends" },
+        { "ru": "Ей может пользоваться только один человек в доме", "en": "Only one person in the building may ever use it" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-house-neighbours-rules-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Кто обычно устанавливает ordningsregler для дома?", "en": "Who usually sets the ordningsregler for a building?" },
+      "choices": ["Bostadsrättsföreningen eller hyresvärden", "Grannen mittemot", "Skatteverket", "Systembolaget"],
+      "answer": 0
+    },
+    {
+      "id": "q-house-neighbours-rules-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы сортируем пластик, бумагу и стекло.»", "en": "Build the sentence: \"We sort plastic, paper and glass.\"" },
+      "tokens": ["papper", "och", "glas", "plast", "sorterar", "Vi"],
+      "answer": [5, 4, 3, 1, 0, 2]
+    },
+    {
+      "id": "q-house-neighbours-rules-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["tvättstuga", "прачечная"],
+        ["trapphus", "подъезд"],
+        ["sopsortering", "сортировка мусора"],
+        ["tystnad", "тишина"]
+      ]
+    },
+    {
+      "id": "q-house-neighbours-rules-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Gemensamma utrymmen — это общие помещения.", "en": "Gemensamma utrymmen are shared spaces." },
+      "answer": true
+    },
+    {
+      "id": "q-house-neighbours-rules-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В подъезде принято хранить велосипеды и обувь.", "en": "It's customary to store bikes and shoes in the stairwell." },
+      "answer": false,
+      "explanation": { "ru": "Обычно правила требуют держать общие помещения свободными от личных вещей.", "en": "House rules usually require shared spaces to be kept clear of personal belongings." }
+    },
+    {
+      "id": "q-house-neighbours-rules-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ plast, papper och glas. (сортируем)" },
+      "answer": ["sorterar"],
+      "acceptAlso": []
+    }
+  ]
+}

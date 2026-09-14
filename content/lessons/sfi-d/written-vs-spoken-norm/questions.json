@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-written-vs-spoken-norm-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Где всё ещё чаще всего встречается «skall»?", "en": "Where does \"skall\" still most often appear?" },
+      "choices": ["В официальных текстах и законах", "В смс-переписке", "В детских книгах", "В разговорной речи с друзьями"],
+      "answer": 0
+    },
+    {
+      "id": "q-written-vs-spoken-norm-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как произносятся «de» и «dem» в устной речи?", "en": "How are \"de\" and \"dem\" both pronounced in speech?" },
+      "choices": ["dom", "de", "dem", "den"],
+      "answer": 0
+    },
+    {
+      "id": "q-written-vs-spoken-norm-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ dem på torget igår. (увидел(а))" },
+      "answer": ["såg"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-written-vs-spoken-norm-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Они живут в Мальмё.»", "en": "Build the sentence: \"They live in Malmö.\"" },
+      "tokens": ["i Malmö", "De", "bor"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-written-vs-spoken-norm-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь современную форму со старой", "en": "Match the modern form with the older one" },
+      "pairs": [
+        ["ska", "skall"],
+        ["sa", "sade"],
+        ["de", "dom (устно)"],
+        ["dem", "dom (устно)"]
+      ]
+    },
+    {
+      "id": "q-written-vs-spoken-norm-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Ska» — это современная, обиходная форма.", "en": "\"Ska\" is the modern, everyday form." },
+      "answer": true
+    },
+    {
+      "id": "q-written-vs-spoken-norm-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«De» и «dem» произносятся по-разному в устной речи.", "en": "\"De\" and \"dem\" are pronounced differently in speech." },
+      "answer": false,
+      "explanation": { "ru": "Оба произносятся как «dom» в устной речи, различие сохраняется только на письме.", "en": "Both are pronounced \"dom\" in speech; the distinction survives only in writing." }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "dem-written",
+      "sv": "dem",
+      "translations": { "ru": "их (письменное, объектный падеж)", "en": "them (written, object form)" },
+      "pos": "pron",
+      "example": { "sv": "Jag såg dem på torget.", "ru": "Я видел(а) их на площади.", "en": "I saw them at the square." }
+    },
+    {
+      "id": "de-written",
+      "sv": "de",
+      "translations": { "ru": "они (письменное, подлежащее)", "en": "they (written, subject form)" },
+      "pos": "pron",
+      "example": { "sv": "De bor i Malmö.", "ru": "Они живут в Мальмё.", "en": "They live in Malmö." }
+    },
+    {
+      "id": "ska-common",
+      "sv": "ska",
+      "translations": { "ru": "буду/будет (общая форма)", "en": "will, shall (common form)" },
+      "pos": "verb",
+      "example": { "sv": "Jag ska resa imorgon.", "ru": "Я поеду завтра.", "en": "I will travel tomorrow." }
+    },
+    {
+      "id": "skall-formal",
+      "sv": "skall",
+      "translations": { "ru": "буду/будет (устаревшая формальная форма)", "en": "shall (older, formal form)" },
+      "pos": "verb",
+      "example": { "sv": "Ansökan skall vara inlämnad senast fredag.", "ru": "Заявление должно быть подано не позднее пятницы.", "en": "The application shall be submitted by Friday at the latest." }
+    },
+    {
+      "id": "sa-past",
+      "sv": "sa",
+      "translations": { "ru": "сказал(а) (обычная письменная и устная форма)", "en": "said (common written and spoken form)" },
+      "pos": "verb",
+      "example": { "sv": "Hon sa att hon kommer.", "ru": "Она сказала, что придёт.", "en": "She said she's coming." }
+    },
+    {
+      "id": "sade-formal",
+      "sv": "sade",
+      "translations": { "ru": "сказал(а) (более формальная письменная форма)", "en": "said (more formal written form)" },
+      "pos": "verb",
+      "example": { "sv": "Statsministern sade att läget var stabilt.", "ru": "Премьер-министр сказал, что ситуация стабильна.", "en": "The Prime Minister said the situation was stable." }
+    },
+    {
+      "id": "myndighetstext",
+      "sv": "myndighetstext",
+      "translations": { "ru": "текст ведомства (официальный документ)", "en": "official/authority text" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Skall används fortfarande i vissa myndighetstexter.", "ru": "«Skall» всё ещё используется в некоторых официальных текстах.", "en": "\"Skall\" is still used in some official texts." }
+    }
+  ]
+}

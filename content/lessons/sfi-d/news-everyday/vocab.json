@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "nyhet",
+      "sv": "nyhet",
+      "translations": { "ru": "новость", "en": "news item" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nyhet", "defSg": "nyheten", "indefPl": "nyheter", "defPl": "nyheterna" },
+      "example": { "sv": "Har du hört den senaste nyheten?", "ru": "Слышал(а) последнюю новость?", "en": "Have you heard the latest news?" }
+    },
+    {
+      "id": "rubrik",
+      "sv": "rubrik",
+      "translations": { "ru": "заголовок", "en": "headline" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Läs rubriken innan du läser texten.", "ru": "Прочитай заголовок перед текстом.", "en": "Read the headline before the text." }
+    },
+    {
+      "id": "handelse",
+      "sv": "händelse",
+      "translations": { "ru": "событие", "en": "event" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Artikeln handlar om en händelse i centrum.", "ru": "Статья про событие в центре.", "en": "The article is about an event in the city centre." }
+    },
+    {
+      "id": "enligt",
+      "sv": "enligt",
+      "translations": { "ru": "согласно, по данным", "en": "according to" },
+      "pos": "prep",
+      "example": { "sv": "Enligt polisen var ingen skadad.", "ru": "По данным полиции, никто не пострадал.", "en": "According to the police, no one was hurt." }
+    },
+    {
+      "id": "kalla",
+      "sv": "källa",
+      "translations": { "ru": "источник", "en": "source" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vilken är källan till uppgiften?", "ru": "Каков источник этих данных?", "en": "What's the source of the information?" }
+    },
+    {
+      "id": "inrikes",
+      "sv": "inrikes",
+      "translations": { "ru": "внутренний (о новостях страны)", "en": "domestic (news)" },
+      "pos": "adj",
+      "example": { "sv": "Det här är en inrikesnyhet.", "ru": "Это внутренняя новость страны.", "en": "This is a domestic news item." }
+    },
+    {
+      "id": "utrikes",
+      "sv": "utrikes",
+      "translations": { "ru": "внешний (о зарубежных новостях)", "en": "foreign (news)" },
+      "pos": "adj",
+      "example": { "sv": "Utrikesnyheterna kommer efter sporten.", "ru": "Международные новости идут после спорта.", "en": "The foreign news comes after the sport." }
+    },
+    {
+      "id": "sammanfatta",
+      "sv": "sammanfatta",
+      "translations": { "ru": "резюмировать, кратко изложить", "en": "to summarise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Kan du sammanfatta artikeln?", "ru": "Можешь кратко изложить статью?", "en": "Can you summarise the article?" }
+    },
+    {
+      "id": "myndighet-word",
+      "sv": "myndighet",
+      "translations": { "ru": "ведомство", "en": "authority (government agency)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "En myndighet varnar för halka.", "ru": "Ведомство предупреждает о гололёде.", "en": "An authority is warning about icy roads." }
+    },
+    {
+      "id": "vad-handlar-det-om",
+      "sv": "vad handlar det om?",
+      "translations": { "ru": "о чём это?", "en": "what is it about?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad handlar nyheten om egentligen?", "ru": "О чём эта новость на самом деле?", "en": "What is the news item actually about?" }
+    }
+  ]
+}

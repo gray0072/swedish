@@ -1,0 +1,23 @@
+{
+  "id": "sva-grund-3/phase-aspect-verbs",
+  "slug": "phase-aspect-verbs",
+  "title": {
+    "sv": "Fas och aspekt genom verb och partiklar: börja, hålla på att, bruka, få gjort",
+    "ru": "Фаза и аспект через глаголы и частицы: börja, hålla på att, bruka, få gjort",
+    "en": "Phase and aspect through verbs and particles: börja, hålla på att, bruka, få gjort"
+  },
+  "summary": {
+    "ru": "Начало, процесс, привычка и результат — Swedish выражает вид действия не формами глагола, а отдельными конструкциями.",
+    "en": "Beginning, ongoing action, habit and completion — Swedish expresses aspect through separate constructions, not verb forms."
+  },
+  "kind": "grammar",
+  "levels": ["sva-grund-3"],
+  "tags": ["grammar", "verbs", "aspect"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 1550,
+  "prerequisites": ["sva-grund-3/participial-phrases"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

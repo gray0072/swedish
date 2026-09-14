@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "satsbetoning",
+      "sv": "satsbetoning",
+      "translations": { "ru": "фразовое (смысловое) ударение", "en": "sentence stress" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "satsbetoning", "defSg": "satsbetoningen", "indefPl": "satsbetoningar", "defPl": "satsbetoningarna" },
+      "note": { "ru": "Слово в предложении, несущее новую или самую важную информацию, произносится с наибольшим ударением.", "en": "The word carrying the new or most important information in a sentence is pronounced with the strongest stress." }
+    },
+    {
+      "id": "reduktion",
+      "sv": "reduktion",
+      "translations": { "ru": "редукция (сокращение при быстром произношении)", "en": "reduction (a shortened, weakened pronunciation)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "reduktion", "defSg": "reduktionen", "indefPl": "reduktioner", "defPl": "reduktionerna" }
+    },
+    {
+      "id": "obetonad",
+      "sv": "obetonad",
+      "translations": { "ru": "безударный", "en": "unstressed" },
+      "pos": "adj"
+    },
+    {
+      "id": "fokusord",
+      "sv": "fokusord",
+      "translations": { "ru": "фокусное слово (несущее главное ударение)", "en": "focus word (carrying the main stress)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "fokusord", "defSg": "fokusordet", "indefPl": "fokusord", "defPl": "fokusorden" }
+    },
+    {
+      "id": "flytande-tal",
+      "sv": "flytande tal",
+      "translations": { "ru": "беглая, связная речь", "en": "connected, fluent speech" },
+      "pos": "phrase"
+    },
+    {
+      "id": "har-reducerat",
+      "sv": "'ar",
+      "translations": { "ru": "редуцированное «har»", "en": "the reduced form of \"har\"" },
+      "pos": "phrase",
+      "note": { "ru": "В беглой речи «har» после подлежащего часто теряет начальное h: Jag 'ar sett det.", "en": "In fluent speech, \"har\" after the subject often loses its initial h: Jag 'ar sett det." }
+    },
+    {
+      "id": "de-reducerat",
+      "sv": "de (uttalas dom)",
+      "translations": { "ru": "«det/de» произносится как «dom/de»", "en": "\"det/de\" is often pronounced \"dom/de\"" },
+      "pos": "phrase"
+    },
+    {
+      "id": "a-for-och",
+      "sv": "å (för och)",
+      "translations": { "ru": "å вместо och (в беглой речи)", "en": "å instead of och (in fluent speech)" },
+      "pos": "phrase",
+      "example": { "sv": "Fisk å skaldjur.", "ru": "Рыба и морепродукты.", "en": "Fish and seafood." }
+    },
+    {
+      "id": "betona",
+      "sv": "betona",
+      "translations": { "ru": "делать ударение на, подчёркивать", "en": "to stress, to emphasise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+    },
+    {
+      "id": "rytm",
+      "sv": "rytm",
+      "translations": { "ru": "ритм", "en": "rhythm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "rytm", "defSg": "rytmen", "indefPl": "rytmer", "defPl": "rytmerna" }
+    }
+  ]
+}

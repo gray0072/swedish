@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "hon-ar-larare",
+      "sv": "Hon är lärare.",
+      "translations": { "ru": "Она учитель. (без артикля)", "en": "She is a teacher. (no article)" },
+      "pos": "phrase",
+      "note": { "ru": "После «är» + профессия артикль обычно не ставится.", "en": "After \"är\" + a profession, the article is usually omitted." }
+    },
+    {
+      "id": "han-ar-larkare",
+      "sv": "Han är läkare.",
+      "translations": { "ru": "Он врач. (без артикля)", "en": "He is a doctor. (no article)" },
+      "pos": "phrase"
+    },
+    {
+      "id": "dricka-vatten",
+      "sv": "dricka vatten",
+      "translations": { "ru": "пить воду (без артикля)", "en": "to drink water (no article)" },
+      "pos": "phrase",
+      "note": { "ru": "Вещественные (неисчисляемые) существительные обычно без артикля.", "en": "Mass (uncountable) nouns usually take no article." },
+      "example": { "sv": "Jag dricker vatten varje dag.", "ru": "Я пью воду каждый день.", "en": "I drink water every day." }
+    },
+    {
+      "id": "ata-brod",
+      "sv": "äta bröd",
+      "translations": { "ru": "есть хлеб (без артикля)", "en": "to eat bread (no article)" },
+      "pos": "phrase",
+      "example": { "sv": "Vi äter bröd till frukost.", "ru": "Мы едим хлеб на завтрак.", "en": "We eat bread for breakfast." }
+    },
+    {
+      "id": "ga-till-skolan-vs-skola",
+      "sv": "gå i skolan",
+      "translations": { "ru": "учиться в школе (устойчивая фраза, без нового артикля)", "en": "to go to/attend school (fixed phrase)" },
+      "pos": "phrase",
+      "example": { "sv": "Barnen går i skolan.", "ru": "Дети учатся в школе.", "en": "The children attend school." }
+    },
+    {
+      "id": "ha-feber",
+      "sv": "ha feber",
+      "translations": { "ru": "иметь температуру (устойчивая фраза, без артикля)", "en": "to have a fever (fixed phrase)" },
+      "pos": "phrase",
+      "example": { "sv": "Han har feber idag.", "ru": "У него сегодня температура.", "en": "He has a fever today." }
+    },
+    {
+      "id": "ta-buss",
+      "sv": "ta buss",
+      "translations": { "ru": "ехать на автобусе (обобщённо, без артикля)", "en": "to take the bus (generically, no article)" },
+      "pos": "phrase",
+      "note": { "ru": "Сравни с «ta bussen» — конкретный автобус.", "en": "Compare with \"ta bussen\" — a specific bus." },
+      "example": { "sv": "Jag brukar ta buss till jobbet.", "ru": "Я обычно езжу на работу на автобусе.", "en": "I usually take the bus to work." }
+    },
+    {
+      "id": "yrke",
+      "sv": "yrke",
+      "translations": { "ru": "профессия", "en": "profession" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" }
+    },
+    {
+      "id": "amnesnamn",
+      "sv": "ämnesnamn",
+      "translations": { "ru": "вещественное существительное", "en": "mass noun" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ämnesnamn", "defSg": "ämnesnamnet", "indefPl": "ämnesnamn", "defPl": "ämnesnamnen" }
+    },
+    {
+      "id": "fast-fras",
+      "sv": "fast fras",
+      "translations": { "ru": "устойчивая фраза", "en": "fixed phrase" },
+      "pos": "phrase"
+    }
+  ]
+}

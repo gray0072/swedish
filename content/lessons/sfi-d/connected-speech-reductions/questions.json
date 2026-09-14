@@ -1,0 +1,68 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-connected-speech-reductions-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Во что почти всегда превращаются «de» и «dem» в устной речи?", "en": "What do \"de\" and \"dem\" almost always become in speech?" },
+      "choices": ["dom", "då", "dit", "du"],
+      "answer": 0
+    },
+    {
+      "id": "q-connected-speech-reductions-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как коротко переспросить, если ты не расслышал(а)?", "en": "What's the short way to ask someone to repeat what they said?" },
+      "choices": ["Va?", "Nån?", "Sen?", "Å?"],
+      "answer": 0
+    },
+    {
+      "id": "q-connected-speech-reductions-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ kommer imorgon. (они, устная форма)" },
+      "answer": ["Dom"],
+      "acceptAlso": ["dom"]
+    },
+    {
+      "id": "q-connected-speech-reductions-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я и ты можем пойти вместе.»", "en": "Build the phrase: \"You and I can go together.\"" },
+      "tokens": ["gå", "du", "kan", "Ja å", "tillsammans"],
+      "answer": [3, 1, 2, 0, 4]
+    },
+    {
+      "id": "q-connected-speech-reductions-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь устную форму с письменной", "en": "Match the spoken form with the written one" },
+      "pairs": [
+        ["dom", "de/dem"],
+        ["å", "och"],
+        ["ja", "jag"],
+        ["sen", "sedan"]
+      ]
+    },
+    {
+      "id": "q-connected-speech-reductions-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Формы вроде «dom» и «å» нормально писать в официальном документе.", "en": "Forms like \"dom\" and \"å\" are fine to write in a formal document." },
+      "answer": false,
+      "explanation": { "ru": "Эти формы устные; официальный письменный язык сохраняет полные формы.", "en": "These forms are spoken; formal written language keeps the full forms." }
+    },
+    {
+      "id": "q-connected-speech-reductions-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Nån» — это сокращение от «någon».", "en": "\"Nån\" is a shortening of \"någon\"." },
+      "answer": true
+    }
+  ]
+}

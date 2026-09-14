@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/registration-identity",
+  "slug": "registration-identity",
+  "title": {
+    "sv": "Registrering och identitet",
+    "ru": "Регистрация и удостоверение личности",
+    "en": "Registration and identity"
+  },
+  "summary": {
+    "ru": "Личный номер, ID-карта, регистрация по месту жительства — как в Швеции подтверждают, кто ты.",
+    "en": "Personnummer, ID card, population registration — how Sweden confirms who you are."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["authorities", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 350,
+  "prerequisites": ["sfi-a/phone-numbers"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

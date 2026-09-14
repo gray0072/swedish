@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/relative-clauses",
+  "slug": "relative-clauses",
+  "title": {
+    "sv": "Relativsatser: som, där, dit, vars",
+    "ru": "Относительные придаточные: som, där, dit, vars",
+    "en": "Relative clauses: som, där, dit, vars"
+  },
+  "summary": {
+    "ru": "Четыре относительных слова: som, där, dit и vars — и когда использовать каждое.",
+    "en": "Four relative words: som, där, dit, and vars — and when to use each."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 660,
+  "prerequisites": ["sfi-c/relative-som", "sva-grund-2/relative-clauses"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

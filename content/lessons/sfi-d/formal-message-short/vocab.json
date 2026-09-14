@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "hej",
+      "sv": "Hej,",
+      "translations": { "ru": "Здравствуйте, (обращение в письме)", "en": "Hello, (letter greeting)" },
+      "pos": "phrase",
+      "example": { "sv": "Hej, jag skriver angående min sons frånvaro.", "ru": "Здравствуйте, я пишу по поводу отсутствия моего сына.", "en": "Hello, I'm writing about my son's absence." }
+    },
+    {
+      "id": "jag-skriver-angaende",
+      "sv": "jag skriver angående",
+      "translations": { "ru": "я пишу по поводу", "en": "I'm writing regarding" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skriver angående lägenheten på Storgatan.", "ru": "Я пишу по поводу квартиры на Стургатан.", "en": "I'm writing regarding the flat on Storgatan." }
+    },
+    {
+      "id": "hyresvard",
+      "sv": "hyresvärd",
+      "translations": { "ru": "арендодатель", "en": "landlord" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag mejlade min hyresvärd om felet.", "ru": "Я написал(а) арендодателю о поломке.", "en": "I emailed my landlord about the fault." }
+    },
+    {
+      "id": "med-vanlig-halsning",
+      "sv": "Med vänlig hälsning",
+      "translations": { "ru": "С уважением", "en": "Kind regards" },
+      "pos": "phrase",
+      "example": { "sv": "Med vänlig hälsning, Anna", "ru": "С уважением, Анна", "en": "Kind regards, Anna" }
+    },
+    {
+      "id": "tacksam-om",
+      "sv": "jag vore tacksam om",
+      "translations": { "ru": "я был(а) бы благодарен(на), если", "en": "I would be grateful if" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vore tacksam om ni kunde svara snart.", "ru": "Я был(а) бы благодарен(на), если бы вы могли ответить скоро.", "en": "I would be grateful if you could reply soon." }
+    },
+    {
+      "id": "aterkomma",
+      "sv": "återkomma",
+      "translations": { "ru": "вернуться к вопросу, ответить снова", "en": "to get back (to someone)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "återkomma", "present": "återkommer", "past": "återkom", "supine": "återkommit" },
+      "example": { "sv": "Jag återkommer så snart jag vet mer.", "ru": "Я вернусь к вам, как только буду знать больше.", "en": "I'll get back to you as soon as I know more." }
+    },
+    {
+      "id": "bifoga",
+      "sv": "bifoga",
+      "translations": { "ru": "прилагать (к письму)", "en": "to attach" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "bifoga", "present": "bifogar", "past": "bifogade", "supine": "bifogat" },
+      "example": { "sv": "Jag bifogar ett intyg.", "ru": "Прилагаю справку.", "en": "I'm attaching a certificate." }
+    },
+    {
+      "id": "amne",
+      "sv": "ämne",
+      "translations": { "ru": "тема (письма)", "en": "subject (of a message)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skriv ett tydligt ämne i mejlet.", "ru": "Напиши понятную тему письма.", "en": "Write a clear subject in the email." }
+    },
+    {
+      "id": "gallande",
+      "sv": "gällande",
+      "translations": { "ru": "касательно, относительно", "en": "regarding, concerning" },
+      "pos": "prep",
+      "example": { "sv": "Gällande er faktura vill jag fråga en sak.", "ru": "Относительно вашего счёта хочу спросить одну вещь.", "en": "Regarding your invoice, I have a question." }
+    },
+    {
+      "id": "onskar-fa-svar",
+      "sv": "jag önskar få svar",
+      "translations": { "ru": "прошу дать ответ", "en": "I would like a reply" },
+      "pos": "phrase",
+      "example": { "sv": "Jag önskar få svar innan fredag.", "ru": "Прошу дать ответ до пятницы.", "en": "I would like a reply before Friday." }
+    }
+  ]
+}

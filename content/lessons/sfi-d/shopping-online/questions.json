@@ -1,0 +1,75 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "verb-form", "from": "vocab", "filter": { "pos": "verb" }, "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-shopping-online-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Где часто забирают посылку из интернет-магазина?", "en": "Where do you often pick up a parcel from an online shop?" },
+      "choices": [
+        { "ru": "På ett utlämningsställe", "en": "At a collection point" },
+        { "ru": "På Skatteverket", "en": "At the Tax Agency" },
+        { "ru": "På vårdcentralen", "en": "At the health centre" },
+        { "ru": "På Systembolaget", "en": "At Systembolaget" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-online-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что нужно, чтобы отслеживать посылку?", "en": "What do you need to track a parcel?" },
+      "choices": ["Spårningsnumret", "Personnumret", "Kvittot från gymmet", "Medlemsavgiften"],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-online-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Доставка занимает от трёх до пяти дней.»", "en": "Build the sentence: \"Delivery takes three to five days.\"" },
+      "tokens": ["tar", "till", "fem", "dagar", "tre", "Leveransen"],
+      "answer": [5, 0, 4, 1, 2, 3]
+    },
+    {
+      "id": "q-shopping-online-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["beställning", "заказ"],
+        ["leverans", "доставка"],
+        ["paket", "посылка"],
+        ["fraktkostnad", "стоимость доставки"]
+      ]
+    },
+    {
+      "id": "q-shopping-online-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Returetikett используют, чтобы отправить товар обратно.", "en": "A returetikett is used to send an item back." },
+      "answer": true
+    },
+    {
+      "id": "q-shopping-online-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Betala vid leverans» значит, что нужно платить заранее.", "en": "\"Betala vid leverans\" means you have to pay in advance." },
+      "answer": false,
+      "explanation": { "ru": "«Betala vid leverans» значит платить при получении, а не заранее.", "en": "\"Betala vid leverans\" means paying on delivery, not in advance." }
+    },
+    {
+      "id": "q-shopping-online-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ en tröja på nätet igår. (заказал(а))" },
+      "answer": ["beställde"],
+      "acceptAlso": []
+    }
+  ]
+}

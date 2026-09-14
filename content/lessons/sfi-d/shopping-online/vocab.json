@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "bestalla",
+      "sv": "beställa",
+      "translations": { "ru": "заказывать", "en": "to order" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "beställa", "present": "beställer", "past": "beställde", "supine": "beställt" },
+      "example": { "sv": "Jag beställde en tröja igår.", "ru": "Вчера я заказал(а) свитер.", "en": "I ordered a sweater yesterday." }
+    },
+    {
+      "id": "bestallning",
+      "sv": "beställning",
+      "translations": { "ru": "заказ", "en": "order" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Min beställning kom idag.", "ru": "Мой заказ пришёл сегодня.", "en": "My order arrived today." }
+    },
+    {
+      "id": "leverans",
+      "sv": "leverans",
+      "translations": { "ru": "доставка", "en": "delivery" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Leveransen tar tre till fem dagar.", "ru": "Доставка занимает от трёх до пяти дней.", "en": "Delivery takes three to five days." }
+    },
+    {
+      "id": "paket",
+      "sv": "paket",
+      "translations": { "ru": "посылка", "en": "parcel" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett paket", "defSg": "paketet", "indefPl": "paket", "defPl": "paketen" },
+      "example": { "sv": "Hämta paketet på utlämningsstället.", "ru": "Забери посылку в пункте выдачи.", "en": "Pick up the parcel at the collection point." }
+    },
+    {
+      "id": "utlamningsstalle",
+      "sv": "utlämningsställe",
+      "translations": { "ru": "пункт выдачи", "en": "collection point" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Det närmaste utlämningsstället ligger vid mataffären.", "ru": "Ближайший пункт выдачи находится у продуктового магазина.", "en": "The nearest collection point is by the grocery store." }
+    },
+    {
+      "id": "fraktkostnad",
+      "sv": "fraktkostnad",
+      "translations": { "ru": "стоимость доставки", "en": "shipping cost" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Fraktkostnaden är gratis över 500 kronor.", "ru": "Доставка бесплатна при заказе от 500 крон.", "en": "Shipping is free above 500 kronor." }
+    },
+    {
+      "id": "sparningsnummer",
+      "sv": "spårningsnummer",
+      "translations": { "ru": "номер отслеживания", "en": "tracking number" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Använd spårningsnumret för att se var paketet är.", "ru": "Используй номер отслеживания, чтобы узнать, где посылка.", "en": "Use the tracking number to see where the parcel is." }
+    },
+    {
+      "id": "skicka-tillbaka",
+      "sv": "skicka tillbaka",
+      "translations": { "ru": "отправить обратно", "en": "to send back" },
+      "pos": "phrase",
+      "example": { "sv": "Jag skickade tillbaka skorna eftersom de var för små.", "ru": "Я отправил(а) обувь обратно, потому что она была маленькая.", "en": "I sent the shoes back because they were too small." }
+    },
+    {
+      "id": "returetikett",
+      "sv": "returetikett",
+      "translations": { "ru": "этикетка для возврата", "en": "return label" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Skriv ut returetiketten och klistra den på paketet.", "ru": "Распечатай этикетку для возврата и наклей на посылку.", "en": "Print the return label and stick it on the parcel." }
+    },
+    {
+      "id": "betala-vid-leverans",
+      "sv": "betala vid leverans",
+      "translations": { "ru": "оплата при получении", "en": "cash on delivery" },
+      "pos": "phrase",
+      "example": { "sv": "Jag väljer att betala vid leverans.", "ru": "Я выбираю оплату при получении.", "en": "I choose to pay on delivery." }
+    }
+  ]
+}

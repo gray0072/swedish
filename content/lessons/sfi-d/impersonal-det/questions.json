@@ -1,0 +1,73 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-impersonal-det-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "На что реально указывает «det» в «det regnar»?", "en": "What does \"det\" actually refer to in \"det regnar\"?" },
+      "choices": [
+        { "ru": "Ни на что конкретное, это заполнитель", "en": "Nothing concrete, it's a placeholder" },
+        { "ru": "На небо", "en": "The sky" },
+        { "ru": "На облако", "en": "A cloud" },
+        { "ru": "На погоду в целом как предмет", "en": "Weather as a specific object" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-impersonal-det-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая фраза передаёт слух, не называя источник?", "en": "Which phrase reports hearsay without naming a source?" },
+      "choices": ["det sägs att", "det är kallt", "det regnar", "det snöar"],
+      "answer": 0
+    },
+    {
+      "id": "q-impersonal-det-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ viktigt att komma i tid. (Det är)" },
+      "answer": ["Det är"],
+      "acceptAlso": ["det är"]
+    },
+    {
+      "id": "q-impersonal-det-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Трудно быстро выучить новый язык.»", "en": "Build the sentence: \"It's difficult to learn a new language quickly.\"" },
+      "tokens": ["svårt", "att lära sig ett nytt språk snabbt", "Det är"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-impersonal-det-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["det regnar", "идёт дождь"],
+        ["det snöar", "идёт снег"],
+        ["det sägs att", "говорят, что"],
+        ["det verkar som", "похоже, что"]
+      ]
+    },
+    {
+      "id": "q-impersonal-det-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Безличное «det» используется, потому что шведскому нужно грамматическое подлежащее.", "en": "Impersonal \"det\" is used because Swedish needs a grammatical subject." },
+      "answer": true
+    },
+    {
+      "id": "q-impersonal-det-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В «det är viktigt att komma i tid» реальное содержание — это само слово «det».", "en": "In \"det är viktigt att komma i tid\", the real content is the word \"det\" itself." },
+      "answer": false,
+      "explanation": { "ru": "Реальное содержание — это придаточное с att, а «det» лишь заполняет место подлежащего.", "en": "The real content is in the att-clause; \"det\" only fills the subject slot." }
+    }
+  ]
+}

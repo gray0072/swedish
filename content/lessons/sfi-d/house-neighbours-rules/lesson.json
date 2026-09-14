@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/house-neighbours-rules",
+  "slug": "house-neighbours-rules",
+  "title": {
+    "sv": "Huset och grannarna: reglerna, tvättstugan, sopsortering",
+    "ru": "Дом и соседи: правила, прачечная, сортировка мусора",
+    "en": "The house and the neighbours: the rules, the tvättstuga, sorting the rubbish"
+  },
+  "summary": {
+    "ru": "Правила совместного проживания в доме: прачечная по расписанию, сортировка мусора, тишина.",
+    "en": "The rules of shared living in a building: the laundry room schedule, sorting rubbish, quiet hours."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["housing", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 520,
+  "prerequisites": ["sfi-b/neighbours-small-talk"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

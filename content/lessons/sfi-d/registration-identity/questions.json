@@ -1,0 +1,80 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" },
+    { "type": "article", "from": "vocab", "filter": { "pos": "noun" } }
+  ],
+  "items": [
+    {
+      "id": "q-registration-identity-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое personnummer?", "en": "What is a personnummer?" },
+      "choices": [
+        { "ru": "Личный номер из десяти цифр", "en": "A ten-digit personal identity number" },
+        { "ru": "Номер банковского счёта", "en": "A bank account number" },
+        { "ru": "Номер телефона", "en": "A phone number" },
+        { "ru": "Регистрационный номер автомобиля", "en": "A car registration number" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-registration-identity-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Ты только что переехал(а) в новую квартиру. Что нужно сделать в течение недели?", "en": "You've just moved to a new flat. What should you do within a week?" },
+      "choices": [
+        { "ru": "Anmäla flytt (заявить о переезде)", "en": "Anmäla flytt (report the move)" },
+        { "ru": "Ansöka om medborgarskap", "en": "Apply for citizenship" },
+        { "ru": "Skanna en QR-kod", "en": "Scan a QR code" },
+        { "ru": "Beställa ett nytt pass", "en": "Order a new passport" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-registration-identity-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я зарегистрирован(а) в Мальмё.»", "en": "Build the sentence: \"I'm registered as resident in Malmö.\"" },
+      "tokens": ["i", "folkbokförd", "Malmö", "Jag", "är"],
+      "answer": [3, 4, 1, 0, 2]
+    },
+    {
+      "id": "q-registration-identity-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["personnummer", "личный номер"],
+        ["id-kort", "удостоверение личности"],
+        ["pass", "паспорт"],
+        ["medborgarskap", "гражданство"]
+      ]
+    },
+    {
+      "id": "q-registration-identity-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Folkbokföring» — это регистрация по месту жительства.", "en": "\"Folkbokföring\" is population registration." },
+      "answer": true
+    },
+    {
+      "id": "q-registration-identity-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Samordningsnummer» и «personnummer» — это одно и то же.", "en": "\"Samordningsnummer\" and \"personnummer\" are the same thing." },
+      "answer": false,
+      "explanation": { "ru": "Samordningsnummer — временный номер до folkbokföring, personnummer — постоянный.", "en": "A samordningsnummer is temporary, used before folkbokföring; a personnummer is permanent." }
+    },
+    {
+      "id": "q-registration-identity-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du måste ___ din identitet med pass eller id-kort. (подтвердить)" },
+      "answer": ["styrka"],
+      "acceptAlso": []
+    }
+  ]
+}

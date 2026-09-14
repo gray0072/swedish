@@ -1,0 +1,76 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-tense-sequence-reported-speech-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag är trött.» превращается в косвенную речь после «Hon sa att...» во что?", "en": "\"Jag är trött.\" becomes what in reported speech after \"Hon sa att...\"?" },
+      "choices": ["hon var trött", "hon är trött", "hon vore trött", "hon har varit trött"],
+      "answer": 0
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой глагол заменяет «ska» в косвенной речи после сообщающего глагола в прошедшем?", "en": "Which verb replaces \"ska\" in reported speech after a past-tense reporting verb?" },
+      "choices": ["skulle", "skall", "ska", "skulle ha"],
+      "answer": 0
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-mc-3",
+      "type": "mc",
+      "difficulty": 3,
+      "prompt": { "ru": "Как «igår» обычно передаётся в косвенной речи, если сообщение произносится позже?", "en": "How is \"igår\" usually rendered in reported speech, once the report is made later?" },
+      "choices": ["dagen innan", "imorgon", "nu", "då"],
+      "answer": 0
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Если сообщающий глагол стоит в настоящем времени («Hon säger att...»), время в придаточном обычно не сдвигается.", "en": "If the reporting verb is in the present tense (\"Hon säger att...\"), the tense in the subordinate clause usually does not shift." },
+      "answer": true
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Перфект в прямой речи («Jag har läst boken») в косвенной речи после прошедшего сообщающего глагола остаётся перфектом без изменений.", "en": "The perfect in direct speech (\"Jag har läst boken\") stays the perfect unchanged in reported speech after a past reporting verb." },
+      "answer": false,
+      "explanation": {
+        "ru": "Перфект сдвигается на шаг назад в плюсквамперфект: «Hon sa att hon hade läst boken.»",
+        "en": "The perfect shifts one step back to the pluperfect: \"Hon sa att hon hade läst boken.\""
+      }
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Она сказала, что устала.»", "en": "Build the sentence: \"She said she was tired.\"" },
+      "tokens": ["Hon", "sa", "att", "hon", "var", "trött."],
+      "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-gap-1",
+      "type": "gap",
+      "prompt": { "sv": "Han sa att han ___ läst boken. (плюсквамперфект вместо перфекта)" },
+      "answer": ["hade"]
+    },
+    {
+      "id": "q-tense-sequence-reported-speech-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь форму прямой речи с формой в косвенной речи (после прошедшего сообщающего глагола)", "en": "Match the direct-speech form with its reported-speech form (after a past reporting verb)" },
+      "pairs": [
+        ["är", "var"],
+        ["ska", "skulle"],
+        ["har läst", "hade läst"],
+        ["igår", "dagen innan"]
+      ]
+    }
+  ]
+}

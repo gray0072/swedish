@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/food-culture",
+  "slug": "food-culture",
+  "title": {
+    "sv": "Matkultur: husmanskost, fika, Systembolaget och öppettider",
+    "ru": "Пищевая культура: husmanskost, фика, Systembolaget и часы работы",
+    "en": "Food culture: husmanskost, fika, Systembolaget and opening hours"
+  },
+  "summary": {
+    "ru": "Традиционная шведская кухня, фика, монополия Systembolaget и часы работы магазинов.",
+    "en": "Traditional Swedish food, fika, the Systembolaget alcohol monopoly, and opening hours."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["culture", "food", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 470,
+  "prerequisites": ["sfi-b/food-drinks"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

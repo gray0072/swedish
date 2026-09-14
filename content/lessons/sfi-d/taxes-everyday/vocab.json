@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "deklaration",
+      "sv": "deklaration",
+      "translations": { "ru": "налоговая декларация", "en": "tax declaration" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en deklaration", "defSg": "deklarationen", "indefPl": "deklarationer", "defPl": "deklarationerna" },
+      "example": { "sv": "Jag godkänner min deklaration i appen.", "ru": "Я одобряю декларацию в приложении.", "en": "I approve my declaration in the app." }
+    },
+    {
+      "id": "skatteverket",
+      "sv": "Skatteverket",
+      "translations": { "ru": "налоговое ведомство", "en": "the Swedish Tax Agency" },
+      "pos": "noun",
+      "example": { "sv": "Skatteverket skickar deklarationen på våren.", "ru": "Налоговое ведомство присылает декларацию весной.", "en": "The Tax Agency sends the declaration in spring." }
+    },
+    {
+      "id": "godkanna",
+      "sv": "godkänna",
+      "translations": { "ru": "одобрить, утвердить", "en": "to approve" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "godkänna", "present": "godkänner", "past": "godkände", "supine": "godkänt" },
+      "example": { "sv": "Du godkänner deklarationen med BankID.", "ru": "Ты одобряешь декларацию через BankID.", "en": "You approve the declaration with BankID." }
+    },
+    {
+      "id": "skatteaterbaring",
+      "sv": "skatteåterbäring",
+      "translations": { "ru": "возврат налога", "en": "tax refund" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag fick skatteåterbäring i juni.", "ru": "Я получил(а) возврат налога в июне.", "en": "I got a tax refund in June." }
+    },
+    {
+      "id": "kvarskatt",
+      "sv": "kvarskatt",
+      "translations": { "ru": "доплата по налогу", "en": "tax owed (residual tax)" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Jag måste betala kvarskatt i år.", "ru": "В этом году мне нужно доплатить налог.", "en": "I have to pay residual tax this year." }
+    },
+    {
+      "id": "avdrag",
+      "sv": "avdrag",
+      "translations": { "ru": "вычет", "en": "deduction" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Reseavdrag är ett vanligt avdrag.", "ru": "Вычет за проезд — распространённый вычет.", "en": "Travel deduction is a common deduction." }
+    },
+    {
+      "id": "inkomst",
+      "sv": "inkomst",
+      "translations": { "ru": "доход", "en": "income" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "All inkomst finns redan ifylld.", "ru": "Весь доход уже указан заранее.", "en": "All income is already pre-filled." }
+    },
+    {
+      "id": "arbetsgivare",
+      "sv": "arbetsgivare",
+      "translations": { "ru": "работодатель", "en": "employer" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Arbetsgivaren rapporterar din lön till Skatteverket.", "ru": "Работодатель сообщает о твоей зарплате в налоговое ведомство.", "en": "Your employer reports your pay to the Tax Agency." }
+    },
+    {
+      "id": "deklarera",
+      "sv": "deklarera",
+      "translations": { "ru": "декларировать (подавать декларацию)", "en": "to file a tax declaration" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "deklarera", "present": "deklarerar", "past": "deklarerade", "supine": "deklarerat" },
+      "example": { "sv": "Alla måste deklarera varje år.", "ru": "Все должны подавать декларацию каждый год.", "en": "Everyone must file a declaration every year." }
+    },
+    {
+      "id": "sista-dag",
+      "sv": "sista dag",
+      "translations": { "ru": "последний срок (крайний день)", "en": "final deadline" },
+      "pos": "phrase",
+      "example": { "sv": "Sista dag att deklarera är i maj.", "ru": "Крайний срок подачи декларации — в мае.", "en": "The final deadline to file is in May." }
+    }
+  ]
+}

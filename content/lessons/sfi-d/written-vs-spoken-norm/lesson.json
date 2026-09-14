@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/written-vs-spoken-norm",
+  "slug": "written-vs-spoken-norm",
+  "title": {
+    "sv": "Skriftnorm mot talnorm: dem/dom, ska/skall, sade/sa",
+    "ru": "Письменная норма против устной: dem/dom, ska/skall, sade/sa",
+    "en": "The written norm versus the spoken one: dem/dom, ska/skall, sade/sa"
+  },
+  "summary": {
+    "ru": "Пары слов, где письменная норма отличается от того, что реально говорят.",
+    "en": "Word pairs where the written standard differs from what people actually say."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "writing", "pronunciation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 750,
+  "prerequisites": ["sva-grund-2/spoken-written-norms", "sfi-d/connected-speech-reductions"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

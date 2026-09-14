@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "id": "eftersom-conj",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, поскольку", "en": "since, as" },
+      "pos": "conjunction",
+      "example": { "sv": "Eftersom det regnade stannade vi hemma.", "ru": "Так как шёл дождь, мы остались дома.", "en": "Since it was raining, we stayed home." }
+    },
+    {
+      "id": "darfor-att-conj",
+      "sv": "därför att",
+      "translations": { "ru": "потому что", "en": "because" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag stannade hemma därför att det regnade.", "ru": "Я остался(лась) дома, потому что шёл дождь.", "en": "I stayed home because it was raining." }
+    },
+    {
+      "id": "pa-grund-av",
+      "sv": "på grund av",
+      "translations": { "ru": "из-за (предлог)", "en": "due to, because of" },
+      "pos": "prep",
+      "example": { "sv": "Tåget var försenat på grund av snön.", "ru": "Поезд опоздал из-за снега.", "en": "The train was delayed due to the snow." }
+    },
+    {
+      "id": "darfor",
+      "sv": "därför",
+      "translations": { "ru": "поэтому", "en": "therefore" },
+      "pos": "adv",
+      "example": { "sv": "Det regnade, därför stannade vi hemma.", "ru": "Шёл дождь, поэтому мы остались дома.", "en": "It was raining, therefore we stayed home." }
+    },
+    {
+      "id": "orsak",
+      "sv": "orsak",
+      "translations": { "ru": "причина", "en": "cause, reason" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Vad är orsaken till förseningen?", "ru": "Какова причина задержки?", "en": "What's the reason for the delay?" }
+    },
+    {
+      "id": "bero-pa",
+      "sv": "bero på",
+      "translations": { "ru": "зависеть от, быть вызванным чем-то", "en": "to be due to, to depend on" },
+      "pos": "phrase",
+      "example": { "sv": "Förseningen beror på vädret.", "ru": "Задержка вызвана погодой.", "en": "The delay is due to the weather." }
+    },
+    {
+      "id": "forsenad",
+      "sv": "försenad",
+      "translations": { "ru": "опоздавший, задержавшийся", "en": "delayed" },
+      "pos": "adj",
+      "example": { "sv": "Bussen är försenad idag.", "ru": "Автобус сегодня опаздывает.", "en": "The bus is delayed today." }
+    }
+  ]
+}

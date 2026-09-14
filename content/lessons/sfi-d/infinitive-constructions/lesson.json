@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/infinitive-constructions",
+  "slug": "infinitive-constructions",
+  "title": {
+    "sv": "Infinitivkonstruktioner: för att, utan att, genom att",
+    "ru": "Инфинитивные конструкции: för att, utan att, genom att",
+    "en": "Infinitive constructions: för att, utan att, genom att"
+  },
+  "summary": {
+    "ru": "Три частые инфинитивные конструкции: цель (för att), отсутствие (utan att), способ (genom att).",
+    "en": "Three common infinitive constructions: purpose (för att), absence (utan att), means (genom att)."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "clauses", "infinitive"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 610,
+  "prerequisites": ["sva-grund-1/att-infinitive"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

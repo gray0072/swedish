@@ -1,0 +1,74 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-digital-services-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое BankID?", "en": "What is BankID?" },
+      "choices": [
+        { "ru": "Приложение для подтверждения личности", "en": "An app for proving your identity" },
+        { "ru": "Название банка", "en": "The name of a bank" },
+        { "ru": "Кредитная карта", "en": "A credit card" },
+        { "ru": "Почтовое приложение", "en": "A mail app" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-services-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Ты не знаешь, нужно ли идти к врачу. Куда лучше позвонить?", "en": "You're not sure whether you need to see a doctor. What should you call?" },
+      "choices": ["1177", "112", "Mina sidor", "BankID"],
+      "answer": 0
+    },
+    {
+      "id": "q-digital-services-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я вхожу с помощью BankID.»", "en": "Build the sentence: \"I log in with BankID.\"" },
+      "tokens": ["med", "BankID", "loggar", "in", "Jag"],
+      "answer": [4, 2, 3, 0, 1]
+    },
+    {
+      "id": "q-digital-services-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
+      "pairs": [
+        ["lösenord", "пароль"],
+        ["app", "приложение"],
+        ["logga ut", "выйти из системы"],
+        ["säker", "надёжный"]
+      ]
+    },
+    {
+      "id": "q-digital-services-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Logga in» значит «выйти из системы».", "en": "\"Logga in\" means \"to log out\"." },
+      "answer": false,
+      "explanation": { "ru": "«Logga in» значит «войти», а «logga ut» — «выйти».", "en": "\"Logga in\" means \"to log in\"; \"logga ut\" means \"to log out\"." }
+    },
+    {
+      "id": "q-digital-services-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Mina sidor» — это личный кабинет на сайте ведомства.", "en": "\"Mina sidor\" is a personal account portal on an authority's website." },
+      "answer": true
+    },
+    {
+      "id": "q-digital-services-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du behöver en ___ för att logga in på Mina sidor. (электронное удостоверение)" },
+      "answer": ["e-legitimation"],
+      "acceptAlso": []
+    }
+  ]
+}

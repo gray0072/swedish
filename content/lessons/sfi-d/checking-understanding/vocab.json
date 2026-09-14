@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "eller-hur",
+      "sv": "eller hur?",
+      "translations": { "ru": "не так ли? (тэг-вопрос)", "en": "isn't that right? (tag question)" },
+      "pos": "phrase",
+      "example": { "sv": "Det är kallt idag, eller hur?", "ru": "Сегодня холодно, не так ли?", "en": "It's cold today, isn't it?" }
+    },
+    {
+      "id": "va-question",
+      "sv": "va?",
+      "translations": { "ru": "что? (переспрос)", "en": "what? (asking to repeat)" },
+      "pos": "interjection",
+      "example": { "sv": "Va? Kan du säga det igen?", "ru": "Что? Можешь повторить?", "en": "What? Can you say that again?" }
+    },
+    {
+      "id": "menar-du-att",
+      "sv": "menar du att…?",
+      "translations": { "ru": "ты хочешь сказать, что…?", "en": "do you mean that…?" },
+      "pos": "phrase",
+      "example": { "sv": "Menar du att vi ska vänta?", "ru": "Ты хочешь сказать, что нам нужно подождать?", "en": "Do you mean that we should wait?" }
+    },
+    {
+      "id": "forstar-du",
+      "sv": "förstår du?",
+      "translations": { "ru": "ты понимаешь?", "en": "do you understand?" },
+      "pos": "phrase",
+      "example": { "sv": "Vi möts klockan tre, förstår du?", "ru": "Мы встречаемся в три, ты понимаешь?", "en": "We're meeting at three, do you understand?" }
+    },
+    {
+      "id": "kan-du-upprepa",
+      "sv": "kan du upprepa?",
+      "translations": { "ru": "можешь повторить?", "en": "can you repeat that?" },
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, kan du upprepa vad du sa?", "ru": "Извини, можешь повторить, что ты сказал(а)?", "en": "Sorry, can you repeat what you said?" }
+    },
+    {
+      "id": "sa-att-jag-forstar-ratt",
+      "sv": "så att jag förstår rätt",
+      "translations": { "ru": "чтобы я правильно понял(а)", "en": "so that I understand correctly" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du förklara igen, så att jag förstår rätt?", "ru": "Можешь объяснить ещё раз, чтобы я правильно понял(а)?", "en": "Can you explain again, so that I understand correctly?" }
+    },
+    {
+      "id": "just-det",
+      "sv": "just det",
+      "translations": { "ru": "именно так, точно", "en": "exactly, that's right" },
+      "pos": "phrase",
+      "example": { "sv": "Just det, du har helt rätt.", "ru": "Именно так, ты совершенно прав(а).", "en": "Exactly, you're completely right." }
+    }
+  ]
+}

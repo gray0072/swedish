@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/sport-exercise",
+  "slug": "sport-exercise",
+  "title": {
+    "sv": "Sport och motion: gymmet, en förening, barnets träning",
+    "ru": "Спорт и физическая активность: спортзал, спортклуб, тренировка ребёнка",
+    "en": "Sport and exercise: the gym, a förening, a child's training session"
+  },
+  "summary": {
+    "ru": "Слова о спортзале, спортивных клубах (förening) и детских тренировках.",
+    "en": "Words for the gym, sports clubs (förening) and a child's training session."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-d"],
+  "tags": ["sport", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 460,
+  "prerequisites": ["sfi-c/free-time-cinema-sports"],
+  "xp": { "base": 110 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

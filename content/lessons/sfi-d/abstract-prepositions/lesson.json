@@ -1,0 +1,23 @@
+{
+  "id": "sfi-d/abstract-prepositions",
+  "slug": "abstract-prepositions",
+  "title": {
+    "sv": "Abstrakta prepositioner: av, för, till, om, inför",
+    "ru": "Абстрактные предлоги: av, för, till, om, inför",
+    "en": "Abstract prepositions: av, för, till, om, inför"
+  },
+  "summary": {
+    "ru": "Пять предлогов в их абстрактных, не пространственных значениях.",
+    "en": "Five prepositions in their abstract, non-spatial meanings."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-d"],
+  "tags": ["grammar", "prepositions"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 700,
+  "prerequisites": ["sfi-c/prepositions-place-direction"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}
