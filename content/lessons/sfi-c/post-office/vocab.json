@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "brev",
+      "sv": "brev",
+      "translations": { "ru": "письмо", "en": "letter" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett brev", "defSg": "brevet", "indefPl": "brev", "defPl": "breven" },
+      "example": { "sv": "Jag skickade ett brev till min mamma.", "ru": "Я отправил(а) письмо маме.", "en": "I sent a letter to my mom." }
+    },
+    {
+      "id": "paket",
+      "sv": "paket",
+      "translations": { "ru": "посылка", "en": "parcel, package" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett paket", "defSg": "paketet", "indefPl": "paket", "defPl": "paketen" },
+      "example": { "sv": "Jag väntar på ett paket från Kina.", "ru": "Я жду посылку из Китая.", "en": "I'm waiting for a parcel from China." }
+    },
+    {
+      "id": "frimarke",
+      "sv": "frimärke",
+      "translations": { "ru": "почтовая марка", "en": "postage stamp" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett frimärke", "defSg": "frimärket", "indefPl": "frimärken", "defPl": "frimärkena" },
+      "example": { "sv": "Jag behöver ett frimärke till det här brevet.", "ru": "Мне нужна марка на это письмо.", "en": "I need a stamp for this letter." }
+    },
+    {
+      "id": "skicka",
+      "sv": "skicka",
+      "translations": { "ru": "отправлять", "en": "to send" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skicka", "present": "skickar", "past": "skickade", "supine": "skickat" },
+      "example": { "sv": "Kan jag skicka det här paketet till Ryssland?", "ru": "Могу я отправить эту посылку в Россию?", "en": "Can I send this parcel to Russia?" }
+    },
+    {
+      "id": "hamta-ut-paket",
+      "sv": "hämta ut ett paket",
+      "translations": { "ru": "забрать посылку", "en": "to pick up a parcel" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska hämta ut ett paket på postombudet.", "ru": "Мне нужно забрать посылку в почтовом пункте.", "en": "I need to pick up a parcel at the post office agent." }
+    },
+    {
+      "id": "postombud",
+      "sv": "postombud",
+      "translations": { "ru": "почтовый пункт (в магазине)", "en": "postal agent (a shop handling mail)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett postombud", "defSg": "postombudet", "indefPl": "postombud", "defPl": "postombuden" },
+      "example": { "sv": "Postombudet ligger i mataffären runt hörnet.", "ru": "Почтовый пункт находится в продуктовом магазине за углом.", "en": "The postal agent is in the grocery store around the corner." }
+    },
+    {
+      "id": "adress",
+      "sv": "adress",
+      "translations": { "ru": "адрес", "en": "address" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en adress", "defSg": "adressen", "indefPl": "adresser", "defPl": "adresserna" },
+      "example": { "sv": "Skriv adressen tydligt på kuvertet.", "ru": "Напиши адрес разборчиво на конверте.", "en": "Write the address clearly on the envelope." }
+    },
+    {
+      "id": "avsandare",
+      "sv": "avsändare",
+      "translations": { "ru": "отправитель", "en": "sender" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avsändare", "defSg": "avsändaren", "indefPl": "avsändare", "defPl": "avsändarna" },
+      "example": { "sv": "Glöm inte att skriva avsändaren på baksidan.", "ru": "Не забудь написать отправителя на обратной стороне.", "en": "Don't forget to write the sender on the back." }
+    },
+    {
+      "id": "mottagare",
+      "sv": "mottagare",
+      "translations": { "ru": "получатель", "en": "recipient" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mottagare", "defSg": "mottagaren", "indefPl": "mottagare", "defPl": "mottagarna" },
+      "example": { "sv": "Mottagaren måste visa legitimation.", "ru": "Получатель должен показать документ, удостоверяющий личность.", "en": "The recipient must show ID." }
+    },
+    {
+      "id": "postlada",
+      "sv": "postlåda",
+      "translations": { "ru": "почтовый ящик", "en": "mailbox, postbox" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en postlåda", "defSg": "postlådan", "indefPl": "postlådor", "defPl": "postlådorna" },
+      "example": { "sv": "Lägg brevet i den gula postlådan.", "ru": "Опусти письмо в жёлтый почтовый ящик.", "en": "Put the letter in the yellow postbox." }
+    },
+    {
+      "id": "kuvert",
+      "sv": "kuvert",
+      "translations": { "ru": "конверт", "en": "envelope" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kuvert", "defSg": "kuvertet", "indefPl": "kuvert", "defPl": "kuverten" },
+      "example": { "sv": "Jag behöver ett nytt kuvert.", "ru": "Мне нужен новый конверт.", "en": "I need a new envelope." }
+    },
+    {
+      "id": "vikt",
+      "sv": "vikt",
+      "translations": { "ru": "вес", "en": "weight" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vikt", "defSg": "vikten", "indefPl": "vikter", "defPl": "vikterna" },
+      "example": { "sv": "Portot beror på paketets vikt.", "ru": "Стоимость доставки зависит от веса посылки.", "en": "The postage depends on the parcel's weight." }
+    },
+    {
+      "id": "porto",
+      "sv": "porto",
+      "translations": { "ru": "почтовые расходы, стоимость доставки", "en": "postage" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Hur mycket kostar portot till utlandet?", "ru": "Сколько стоит доставка за границу?", "en": "How much does postage abroad cost?" }
+    },
+    {
+      "id": "sparningsnummer",
+      "sv": "spårningsnummer",
+      "translations": { "ru": "номер отслеживания", "en": "tracking number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett spårningsnummer", "defSg": "spårningsnumret", "indefPl": "spårningsnummer", "defPl": "spårningsnumren" },
+      "example": { "sv": "Du får ett spårningsnummer på mejlen.", "ru": "Тебе пришлют номер отслеживания по почте.", "en": "You'll get a tracking number by email." }
+    },
+    {
+      "id": "legitimation",
+      "sv": "legitimation",
+      "translations": { "ru": "удостоверение личности", "en": "identification, ID" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en legitimation", "defSg": "legitimationen", "indefPl": "legitimationer", "defPl": "legitimationerna" },
+      "example": { "sv": "Ta med legitimation när du hämtar paketet.", "ru": "Возьми удостоверение личности, когда пойдёшь за посылкой.", "en": "Bring ID when you pick up the parcel." }
+    },
+    {
+      "id": "avi",
+      "sv": "avi",
+      "translations": { "ru": "уведомление (о посылке)", "en": "delivery notice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en avi", "defSg": "avin", "indefPl": "avier", "defPl": "avierna" },
+      "example": { "sv": "Jag fick en avi i brevlådan om ett paket.", "ru": "В почтовом ящике мне пришло уведомление о посылке.", "en": "I got a delivery notice in my mailbox about a parcel." }
+    }
+  ]
+}

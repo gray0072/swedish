@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-deponent-reciprocal-s-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что значит «Vi ses imorgon»?", "en": "What does \"Vi ses imorgon\" mean?" },
+      "choices": ["Увидимся завтра", "Мы видим друг друга сейчас", "Он видит меня завтра", "Мы никогда не увидимся"],
+      "answer": 0
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой глагол является депонентным (всегда с -s, без формы без «s»)?", "en": "Which verb is deponent (always has -s, with no non-\"s\" form)?" },
+      "choices": ["träffas", "hoppas", "ses", "kramas"],
+      "answer": 1
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ att det blir soligt imorgon. (надеюсь)" },
+      "answer": ["hoppas"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ inte hans namn. (не помню)" },
+      "answer": ["minns"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Träffas» происходит от «träffa» (встретить кого-то) и означает «встречаться друг с другом».", "en": "\"Träffas\" comes from \"träffa\" (to meet someone) and means \"to meet each other\"." },
+      "answer": true
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Andas» — это форма пассива глагола «anda».", "en": "\"Andas\" is the passive form of a verb \"anda\"." },
+      "answer": false,
+      "explanation": { "ru": "«Andas» — депонентный глагол; отдельного «anda» без -s не существует.", "en": "\"Andas\" is a deponent verb; there is no separate verb \"anda\" without -s." }
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мне хорошо живётся в Швеции.»", "en": "Build the sentence: \"I feel at home in Sweden.\"" },
+      "tokens": ["i Sverige", "trivs", "bra", "Jag"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь глагол с переводом", "en": "Match the verb with its meaning" },
+      "pairs": [
+        ["hoppas", "надеяться"],
+        ["minnas", "помнить"],
+        ["trivas", "чувствовать себя хорошо"],
+        ["andas", "дышать"]
+      ]
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши форму настоящего времени глагола «minnas».", "en": "Write the present-tense form of \"minnas\"." },
+      "answer": ["minns"],
+      "hint": { "ru": "minnas — minns", "en": "minnas — minns" }
+    },
+    {
+      "id": "q-deponent-reciprocal-s-verbs-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Vännerna kramas när de möts.",
+      "prompt": { "ru": "Что делают друзья?", "en": "What do the friends do?" },
+      "choices": [
+        { "ru": "Обнимаются", "en": "Hug each other" },
+        { "ru": "Расстаются", "en": "Part ways" },
+        { "ru": "Спорят", "en": "Argue" },
+        { "ru": "Забывают друг друга", "en": "Forget each other" }
+      ],
+      "answer": 0
+    }
+  ]
+}

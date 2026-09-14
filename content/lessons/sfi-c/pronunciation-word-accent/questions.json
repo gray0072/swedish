@@ -1,0 +1,71 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-pronunciation-word-accent-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Сколько пиков высоты тона у акцента 2?", "en": "How many pitch peaks does accent 2 have?" },
+      "choices": ["Two", "One", "Three", "Zero"],
+      "answer": 0
+    },
+    {
+      "id": "q-pronunciation-word-accent-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Anden» может означать и «утку», и «духа» — слово различается только тоном.", "en": "\"Anden\" can mean both \"the duck\" and \"the spirit\" — the words differ only in pitch." },
+      "answer": true
+    },
+    {
+      "id": "q-pronunciation-word-accent-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Тональные акценты влияют только на отдельные слова и никогда не сказываются на мелодике целого предложения.", "en": "Word accents only affect single words and never carry over into the melody of a whole sentence." },
+      "answer": false,
+      "explanation": {
+        "ru": "Тональная мелодика отдельных слов складывается в общую мелодику предложения, растягиваясь на несколько ударных слогов.",
+        "en": "The pitch pattern of individual words builds up into the overall melody of a sentence, stretching across several stressed syllables."
+      }
+    },
+    {
+      "id": "q-pronunciation-word-accent-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово-омограф с его значением", "en": "Match the homograph with its meaning" },
+      "pairs": [
+        ["anden (accent 1)", "the duck"],
+        ["anden (accent 2)", "the spirit"],
+        ["tomten (accent 1)", "the plot (of land)"],
+        ["tomten (accent 2)", "Santa"]
+      ]
+    },
+    {
+      "id": "q-pronunciation-word-accent-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ simmar i sjön. (den bestämda formen av \"anka\", accent 1)" },
+      "answer": ["Anden"],
+      "acceptAlso": ["anden"],
+      "hint": { "ru": "утка", "en": "the duck" }
+    },
+    {
+      "id": "q-pronunciation-word-accent-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово несёт основной пик тона в предложении?", "en": "Which syllable carries the main pitch peak in a word?" },
+      "choices": ["the stressed syllable", "the first syllable always", "the last syllable always", "no syllable in particular"],
+      "answer": 0
+    },
+    {
+      "id": "q-pronunciation-word-accent-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой акцент типичен для большинства сложных слов (compounds)?", "en": "Which accent is typical of most compound words?" },
+      "choices": ["accent 2", "accent 1", "neither", "both equally rare"],
+      "answer": 0
+    }
+  ]
+}

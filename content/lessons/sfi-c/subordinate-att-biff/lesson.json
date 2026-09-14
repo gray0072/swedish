@@ -1,0 +1,37 @@
+{
+  "id": "sfi-c/subordinate-att-biff",
+  "slug": "subordinate-att-biff",
+  "title": {
+    "sv": "Bisatser med att och BIFF-regeln",
+    "ru": "Придаточные предложения с att и правило BIFF",
+    "en": "Subordinate clauses with att and the BIFF rule (inte before the verb)"
+  },
+  "summary": {
+    "ru": "«Att» вводит придаточное предложение, а в нём «inte» ставится перед спрягаемым глаголом.",
+    "en": "\"Att\" introduces a full subordinate clause, where \"inte\" moves before the finite verb."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "subordinate-clauses",
+    "word-order",
+    "biff"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 510,
+  "prerequisites": [
+    "sfi-b/infinitive-att"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/relative-som",
+  "slug": "relative-som",
+  "title": {
+    "sv": "Relativa som och när det kan utelämnas",
+    "ru": "Относительное местоимение som и когда его можно опустить",
+    "en": "The relative som and when it can be omitted"
+  },
+  "summary": {
+    "ru": "Som можно опустить, если оно дополнение придаточного, но нельзя, если оно подлежащее.",
+    "en": "Som can be dropped when it is the object of the relative clause, but not when it is the subject."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "relative-clauses",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 530,
+  "prerequisites": [
+    "sfi-c/subordinate-att-biff"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "for-sedan",
+      "sv": "för … sedan",
+      "translations": { "ru": "… назад", "en": "… ago" },
+      "pos": "phrase",
+      "example": { "sv": "Jag flyttade hit för två år sedan.", "ru": "Я переехал сюда два года назад.", "en": "I moved here two years ago." }
+    },
+    {
+      "id": "sedan-adv",
+      "sv": "sedan",
+      "translations": { "ru": "с (какого-то момента), с тех пор", "en": "since, ever since" },
+      "pos": "adv",
+      "example": { "sv": "Jag har bott här sedan 2020.", "ru": "Я живу здесь с 2020 года.", "en": "I've lived here since 2020." }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "example": { "sv": "Jag är redan klar.", "ru": "Я уже готов.", "en": "I'm already done." }
+    },
+    {
+      "id": "annu",
+      "sv": "ännu",
+      "translations": { "ru": "ещё, пока (обычно в отрицании)", "en": "yet, still (often in negation)" },
+      "pos": "adv",
+      "example": { "sv": "Jag är inte klar ännu.", "ru": "Я ещё не готов.", "en": "I'm not done yet." }
+    },
+    {
+      "id": "i-tid",
+      "sv": "i tid",
+      "translations": { "ru": "вовремя", "en": "on time, in time" },
+      "pos": "phrase",
+      "example": { "sv": "Kom i tid till mötet.", "ru": "Приди вовремя на встречу.", "en": "Come on time for the meeting." }
+    },
+    {
+      "id": "for-lange-sedan",
+      "sv": "för länge sedan",
+      "translations": { "ru": "давно", "en": "a long time ago" },
+      "pos": "phrase",
+      "example": { "sv": "Det var för länge sedan.", "ru": "Это было давно.", "en": "That was a long time ago." }
+    },
+    {
+      "id": "moete",
+      "sv": "möte",
+      "translations": { "ru": "встреча, собрание", "en": "meeting" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett möte", "defSg": "mötet", "indefPl": "möten", "defPl": "mötena" },
+      "example": { "sv": "Mötet börjar klockan tio.", "ru": "Встреча начинается в десять.", "en": "The meeting starts at ten." }
+    },
+    {
+      "id": "flytta-hit",
+      "sv": "flytta hit",
+      "translations": { "ru": "переехать сюда", "en": "to move here" },
+      "pos": "phrase",
+      "example": { "sv": "Vi flyttade hit för tre år sedan.", "ru": "Мы переехали сюда три года назад.", "en": "We moved here three years ago." }
+    },
+    {
+      "id": "klar-adj",
+      "sv": "klar",
+      "translations": { "ru": "готовый, законченный", "en": "ready, finished" },
+      "pos": "adj",
+      "example": { "sv": "Är du klar snart?", "ru": "Ты скоро будешь готов?", "en": "Will you be ready soon?" }
+    },
+    {
+      "id": "annu-inte",
+      "sv": "ännu inte",
+      "translations": { "ru": "ещё не", "en": "not yet" },
+      "pos": "phrase",
+      "example": { "sv": "Han har ännu inte svarat.", "ru": "Он ещё не ответил.", "en": "He hasn't answered yet." }
+    }
+  ]
+}

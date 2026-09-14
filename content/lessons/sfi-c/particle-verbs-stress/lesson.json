@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/particle-verbs-stress",
+  "slug": "particle-verbs-stress",
+  "title": {
+    "sv": "Partikelverb: ringa upp, ta av sig, komma ihåg",
+    "ru": "Частичные глаголы и ударение на частице",
+    "en": "Frequent particle verbs and stress on the particle"
+  },
+  "summary": {
+    "ru": "Частицы (upp, av, ihåg, i) меняют значение глагола и всегда несут ударение.",
+    "en": "Small particles (upp, av, ihåg, i) change a verb's meaning and always carry the stress."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "particle-verbs",
+    "pronunciation"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 610,
+  "prerequisites": [
+    "sfi-b/sentence-adverbs"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

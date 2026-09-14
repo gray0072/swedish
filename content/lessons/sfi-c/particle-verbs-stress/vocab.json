@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "ringa-upp",
+      "sv": "ringa upp",
+      "translations": { "ru": "звонить, перезванивать (кому-то)", "en": "to call up, to call back" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "ringa upp", "present": "ringer upp", "past": "ringde upp", "supine": "ringt upp" },
+      "example": { "sv": "Jag ringer upp dig imorgon.", "ru": "Я перезвоню тебе завтра.", "en": "I'll call you back tomorrow." },
+      "note": { "ru": "Ударение на UPP, не на ringa.", "en": "Stress falls on UPP, not on ringa." }
+    },
+    {
+      "id": "skriva-av",
+      "sv": "skriva av",
+      "translations": { "ru": "переписывать, списывать", "en": "to copy (in writing)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva av", "present": "skriver av", "past": "skrev av", "supine": "skrivit av" },
+      "example": { "sv": "Eleven skriver av texten från tavlan.", "ru": "Ученик списывает текст с доски.", "en": "The student copies the text from the board." },
+      "note": { "ru": "Ударение на AV.", "en": "Stress falls on AV." }
+    },
+    {
+      "id": "ta-av-sig",
+      "sv": "ta av sig",
+      "translations": { "ru": "снимать (с себя, об одежде)", "en": "to take off (clothes)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ta av sig", "present": "tar av sig", "past": "tog av sig", "supine": "tagit av sig" },
+      "example": { "sv": "Han tar av sig jackan.", "ru": "Он снимает куртку.", "en": "He takes off his jacket." },
+      "note": { "ru": "Ударение на AV.", "en": "Stress falls on AV." }
+    },
+    {
+      "id": "komma-ihag",
+      "sv": "komma ihåg",
+      "translations": { "ru": "помнить, вспоминать", "en": "to remember" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma ihåg", "present": "kommer ihåg", "past": "kom ihåg", "supine": "kommit ihåg" },
+      "example": { "sv": "Jag kommer inte ihåg hans namn.", "ru": "Я не помню его имя.", "en": "I don't remember his name." },
+      "note": { "ru": "Ударение на IHÅG.", "en": "Stress falls on IHÅG." }
+    },
+    {
+      "id": "fylla-i",
+      "sv": "fylla i",
+      "translations": { "ru": "заполнять (бланк, форму)", "en": "to fill in" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fylla i", "present": "fyller i", "past": "fyllde i", "supine": "fyllt i" },
+      "example": { "sv": "Kan du fylla i blanketten?", "ru": "Можешь заполнить бланк?", "en": "Can you fill in the form?" },
+      "note": { "ru": "Ударение на I.", "en": "Stress falls on I." }
+    },
+    {
+      "id": "sla-pa",
+      "sv": "slå på",
+      "translations": { "ru": "включать (прибор)", "en": "to switch on" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "slå på", "present": "slår på", "past": "slog på", "supine": "slagit på" },
+      "example": { "sv": "Hon slår på tv:n.", "ru": "Она включает телевизор.", "en": "She switches on the TV." }
+    },
+    {
+      "id": "sla-av",
+      "sv": "stänga av",
+      "translations": { "ru": "выключать (прибор)", "en": "to switch off" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "stänga av", "present": "stänger av", "past": "stängde av", "supine": "stängt av" },
+      "example": { "sv": "Glöm inte att stänga av datorn.", "ru": "Не забудь выключить компьютер.", "en": "Don't forget to switch off the computer." }
+    },
+    {
+      "id": "ta-pa-sig",
+      "sv": "ta på sig",
+      "translations": { "ru": "надевать (на себя)", "en": "to put on (clothes)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ta på sig", "present": "tar på sig", "past": "tog på sig", "supine": "tagit på sig" },
+      "example": { "sv": "Barnen tar på sig skorna.", "ru": "Дети надевают обувь.", "en": "The children put on their shoes." }
+    },
+    {
+      "id": "komma-fram",
+      "sv": "komma fram",
+      "translations": { "ru": "прибывать, добираться", "en": "to arrive, to get through" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma fram", "present": "kommer fram", "past": "kom fram", "supine": "kommit fram" },
+      "example": { "sv": "Tåget kommer fram klockan sju.", "ru": "Поезд прибывает в семь.", "en": "The train arrives at seven." }
+    },
+    {
+      "id": "ge-upp",
+      "sv": "ge upp",
+      "translations": { "ru": "сдаваться", "en": "to give up" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ge upp", "present": "ger upp", "past": "gav upp", "supine": "gett upp" },
+      "example": { "sv": "Han ger aldrig upp.", "ru": "Он никогда не сдаётся.", "en": "He never gives up." }
+    },
+    {
+      "id": "blanketten",
+      "sv": "blankett",
+      "translations": { "ru": "бланк, форма", "en": "form (document)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en blankett", "defSg": "blanketten", "indefPl": "blanketter", "defPl": "blanketterna" },
+      "example": { "sv": "Fyll i blanketten med bläckpenna.", "ru": "Заполните бланк ручкой.", "en": "Fill in the form with a pen." }
+    },
+    {
+      "id": "jacka",
+      "sv": "jacka",
+      "translations": { "ru": "куртка", "en": "jacket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jacka", "defSg": "jackan", "indefPl": "jackor", "defPl": "jackorna" },
+      "example": { "sv": "Jackan hänger i hallen.", "ru": "Куртка висит в прихожей.", "en": "The jacket is hanging in the hall." }
+    }
+  ]
+}

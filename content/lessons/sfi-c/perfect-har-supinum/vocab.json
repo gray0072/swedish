@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "example": { "sv": "Jag har redan läst boken.", "ru": "Я уже прочитал книгу.", "en": "I have already read the book." }
+    },
+    {
+      "id": "aldrig",
+      "sv": "aldrig",
+      "translations": { "ru": "никогда", "en": "never" },
+      "pos": "adv",
+      "example": { "sv": "Hon har aldrig varit i Spanien.", "ru": "Она никогда не была в Испании.", "en": "She has never been to Spain." }
+    },
+    {
+      "id": "just-nu",
+      "sv": "just nu",
+      "translations": { "ru": "прямо сейчас", "en": "right now" },
+      "pos": "phrase",
+      "example": { "sv": "Jag har just nu läst klart boken.", "ru": "Я только что дочитал книгу.", "en": "I have just now finished reading the book." }
+    },
+    {
+      "id": "nagonsin",
+      "sv": "någonsin",
+      "translations": { "ru": "когда-либо", "en": "ever" },
+      "pos": "adv",
+      "example": { "sv": "Har du någonsin ätit surströmming?", "ru": "Ты когда-нибудь ел сюрстрёмминг?", "en": "Have you ever eaten surströmming?" }
+    },
+    {
+      "id": "lasa-boken",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Jag har läst boken. / Jag läste boken igår.", "ru": "Я прочитал книгу. / Я читал книгу вчера.", "en": "I have read the book. / I read the book yesterday." }
+    },
+    {
+      "id": "flytta-flyttat",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move (house)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Vi har flyttat till Malmö. / Vi flyttade till Malmö förra året.", "ru": "Мы переехали в Мальмё. / Мы переехали в Мальмё в прошлом году.", "en": "We have moved to Malmö. / We moved to Malmö last year." }
+    },
+    {
+      "id": "resa-rest",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Har du rest till Norge?", "ru": "Ты ездил в Норвегию?", "en": "Have you traveled to Norway?" }
+    },
+    {
+      "id": "se-filmen",
+      "sv": "se",
+      "translations": { "ru": "видеть, смотреть", "en": "to see, to watch" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "example": { "sv": "Jag har sett den filmen tre gånger.", "ru": "Я смотрел этот фильм три раза.", "en": "I have seen that movie three times." }
+    },
+    {
+      "id": "igar",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Jag läste boken igår.", "ru": "Я читал книгу вчера.", "en": "I read the book yesterday." }
+    },
+    {
+      "id": "i-somras",
+      "sv": "i somras",
+      "translations": { "ru": "прошлым летом", "en": "last summer" },
+      "pos": "phrase",
+      "example": { "sv": "Vi reste till Norge i somras.", "ru": "Прошлым летом мы ездили в Норвегию.", "en": "Last summer we traveled to Norway." }
+    }
+  ]
+}

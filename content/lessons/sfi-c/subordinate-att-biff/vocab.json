@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "att-conj-biff",
+      "sv": "att",
+      "translations": { "ru": "что (союз)", "en": "that (conjunction)" },
+      "pos": "conjunction",
+      "note": { "ru": "вводит придаточное предложение с собственным подлежащим и глаголом", "en": "introduces a subordinate clause with its own subject and verb" },
+      "example": { "sv": "Jag tror att han kommer.", "ru": "Я думаю, что он придёт.", "en": "I think that he is coming." }
+    },
+    {
+      "id": "tro-verb-biff",
+      "sv": "tro",
+      "translations": { "ru": "думать, полагать", "en": "to think, to believe" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag tror att hon är trött.", "ru": "Я думаю, что она устала.", "en": "I think that she is tired." }
+    },
+    {
+      "id": "veta-verb-biff",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" },
+      "example": { "sv": "Jag vet inte.", "ru": "Я не знаю.", "en": "I don't know." }
+    },
+    {
+      "id": "saga-verb-biff",
+      "sv": "säga",
+      "translations": { "ru": "сказать, говорить", "en": "to say" },
+      "pos": "verb",
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" },
+      "example": { "sv": "Han sa att han inte visste.", "ru": "Он сказал, что не знал.", "en": "He said that he didn't know." }
+    },
+    {
+      "id": "hoppas-verb-biff",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "example": { "sv": "Jag hoppas att det inte regnar.", "ru": "Я надеюсь, что не будет дождя.", "en": "I hope that it doesn't rain." }
+    },
+    {
+      "id": "tycka-verb-biff",
+      "sv": "tycka",
+      "translations": { "ru": "считать, находить (мнение)", "en": "to think, to find (opinion)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tycka", "present": "tycker", "past": "tyckte", "supine": "tyckt" },
+      "example": { "sv": "Jag tycker att maten är god.", "ru": "Я считаю, что еда вкусная.", "en": "I think that the food is good." }
+    },
+    {
+      "id": "inte-adv-biff",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv",
+      "note": { "ru": "в главном предложении — после глагола; в придаточном — перед глаголом (BIFF)", "en": "in a main clause it follows the verb; in a subordinate clause it comes before the verb (BIFF)" },
+      "example": { "sv": "Jag vet inte. / Jag sa att jag inte visste.", "ru": "Я не знаю. / Я сказал, что не знал.", "en": "I don't know. / I said that I didn't know." }
+    },
+    {
+      "id": "komma-verb-biff",
+      "sv": "komma",
+      "translations": { "ru": "приходить", "en": "to come" },
+      "pos": "verb",
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Jag tror att han kommer.", "ru": "Я думаю, что он придёт.", "en": "I think that he is coming." }
+    },
+    {
+      "id": "trott-adj-biff",
+      "sv": "trött",
+      "translations": { "ru": "уставший", "en": "tired" },
+      "pos": "adj",
+      "example": { "sv": "Hon sa att hon var trött.", "ru": "Она сказала, что устала.", "en": "She said that she was tired." }
+    },
+    {
+      "id": "regna-verb-biff",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Jag hoppas att det inte regnar.", "ru": "Я надеюсь, что не будет дождя.", "en": "I hope it doesn't rain." }
+    }
+  ]
+}

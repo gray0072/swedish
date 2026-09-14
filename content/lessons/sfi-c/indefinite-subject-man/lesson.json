@@ -1,0 +1,35 @@
+{
+  "id": "sfi-c/indefinite-subject-man",
+  "slug": "indefinite-subject-man",
+  "title": {
+    "sv": "Det obestämda subjektet man",
+    "ru": "Неопределённое подлежащее man",
+    "en": "The indefinite subject man"
+  },
+  "summary": {
+    "ru": "«Man» — «люди вообще, ты, кто угодно», формы en/ens, и отличие от «man» = «муж».",
+    "en": "\"Man\" as a generic \"one/you/people in general\", its forms en/ens, and how it differs from \"man\" = husband."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 590,
+  "prerequisites": [
+    "sfi-a/personal-pronouns"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

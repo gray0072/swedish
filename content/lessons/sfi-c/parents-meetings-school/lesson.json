@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/parents-meetings-school",
+  "slug": "parents-meetings-school",
+  "title": {
+    "sv": "Föräldramöten och kontakt med skolan",
+    "ru": "Родительские собрания и связь со школой",
+    "en": "Parents' meetings and contact with the school"
+  },
+  "summary": {
+    "ru": "Фразы для общения со школой ребёнка: собрания, учителя, отсутствие.",
+    "en": "Phrases for communicating with a child's school: meetings, teachers, absence reports."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "school",
+    "family",
+    "phrases"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 430,
+  "prerequisites": [
+    "sfi-b/preschool-school-basics"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": "jobbannons",
+      "sv": "jobbannons",
+      "translations": { "ru": "объявление о вакансии", "en": "job ad" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en jobbannons", "defSg": "jobbannonsen", "indefPl": "jobbannonser", "defPl": "jobbannonserna" },
+      "example": { "sv": "Jag hittade en jobbannons på nätet.", "ru": "Я нашёл(нашла) объявление о вакансии в интернете.", "en": "I found a job ad online." }
+    },
+    {
+      "id": "soka-jobb",
+      "sv": "söka jobb",
+      "translations": { "ru": "искать работу", "en": "to look for work" },
+      "pos": "phrase",
+      "example": { "sv": "Jag söker jobb som undersköterska.", "ru": "Я ищу работу помощником медсестры.", "en": "I'm looking for work as a nursing assistant." }
+    },
+    {
+      "id": "ansokan",
+      "sv": "ansökan",
+      "translations": { "ru": "заявление, заявка", "en": "application" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" },
+      "example": { "sv": "Jag skickade in min ansökan igår.", "ru": "Я отправил(а) заявление вчера.", "en": "I sent in my application yesterday." }
+    },
+    {
+      "id": "cv",
+      "sv": "cv",
+      "translations": { "ru": "резюме (CV)", "en": "CV" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett cv", "defSg": "cv:t", "indefPl": "cv:n", "defPl": "cv:na" },
+      "example": { "sv": "Bifoga ditt cv till ansökan.", "ru": "Приложите резюме к заявлению.", "en": "Attach your CV to the application." }
+    },
+    {
+      "id": "meritforteckning",
+      "sv": "meritförteckning",
+      "translations": { "ru": "резюме, перечень заслуг", "en": "resume, list of qualifications" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en meritförteckning", "defSg": "meritförteckningen", "indefPl": "meritförteckningar", "defPl": "meritförteckningarna" },
+      "example": { "sv": "Skriv en tydlig meritförteckning.", "ru": "Напиши понятное резюме.", "en": "Write a clear resume." }
+    },
+    {
+      "id": "intervju",
+      "sv": "intervju",
+      "translations": { "ru": "собеседование", "en": "interview" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en intervju", "defSg": "intervjun", "indefPl": "intervjuer", "defPl": "intervjuerna" },
+      "example": { "sv": "Jag har en intervju på fredag.", "ru": "У меня собеседование в пятницу.", "en": "I have an interview on Friday." }
+    },
+    {
+      "id": "arbetsgivare",
+      "sv": "arbetsgivare",
+      "translations": { "ru": "работодатель", "en": "employer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsgivare", "defSg": "arbetsgivaren", "indefPl": "arbetsgivare", "defPl": "arbetsgivarna" },
+      "example": { "sv": "Arbetsgivaren ringde mig igår.", "ru": "Работодатель звонил мне вчера.", "en": "The employer called me yesterday." }
+    },
+    {
+      "id": "erfarenhet",
+      "sv": "erfarenhet",
+      "translations": { "ru": "опыт", "en": "experience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en erfarenhet", "defSg": "erfarenheten", "indefPl": "erfarenheter", "defPl": "erfarenheterna" },
+      "example": { "sv": "Har du erfarenhet av det här jobbet?", "ru": "У тебя есть опыт этой работы?", "en": "Do you have experience with this job?" }
+    },
+    {
+      "id": "tjanst",
+      "sv": "tjänst",
+      "translations": { "ru": "должность, вакансия", "en": "position, job" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tjänst", "defSg": "tjänsten", "indefPl": "tjänster", "defPl": "tjänsterna" },
+      "example": { "sv": "Tjänsten är på heltid.", "ru": "Должность на полную ставку.", "en": "The position is full-time." }
+    },
+    {
+      "id": "skicka",
+      "sv": "skicka",
+      "translations": { "ru": "отправлять", "en": "to send" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skicka", "present": "skickar", "past": "skickade", "supine": "skickat" },
+      "example": { "sv": "Kan jag skicka min ansökan idag?", "ru": "Могу я отправить заявление сегодня?", "en": "Can I send my application today?" }
+    },
+    {
+      "id": "anstalla",
+      "sv": "anställa",
+      "translations": { "ru": "нанимать, брать на работу", "en": "to hire, to employ" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anställa", "present": "anställer", "past": "anställde", "supine": "anställt" },
+      "example": { "sv": "Företaget vill anställa fler personer.", "ru": "Компания хочет нанять больше людей.", "en": "The company wants to hire more people." }
+    },
+    {
+      "id": "referens",
+      "sv": "referens",
+      "translations": { "ru": "рекомендация, референс", "en": "reference" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en referens", "defSg": "referensen", "indefPl": "referenser", "defPl": "referenserna" },
+      "example": { "sv": "Har du någon referens från förra jobbet?", "ru": "У тебя есть рекомендация с прошлой работы?", "en": "Do you have a reference from your last job?" }
+    },
+    {
+      "id": "jag-soker-jobb-som",
+      "sv": "Jag söker jobb som ...",
+      "translations": { "ru": "Я ищу работу в качестве ...", "en": "I'm looking for work as a ..." },
+      "pos": "phrase"
+    },
+    {
+      "id": "kan-jag-skicka-min-ansokan",
+      "sv": "Kan jag skicka min ansökan?",
+      "translations": { "ru": "Могу я отправить своё заявление?", "en": "Can I send my application?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "har-du-erfarenhet-av-det-har",
+      "sv": "Har du erfarenhet av det här?",
+      "translations": { "ru": "У тебя есть опыт в этом?", "en": "Do you have experience with this?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-skulle-vilja-jobba-som",
+      "sv": "Jag skulle vilja jobba som ...",
+      "translations": { "ru": "Я хотел(а) бы работать в качестве ...", "en": "I would like to work as a ..." },
+      "pos": "phrase"
+    }
+  ]
+}

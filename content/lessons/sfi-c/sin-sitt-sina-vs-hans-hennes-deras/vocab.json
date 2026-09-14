@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "sin",
+      "sv": "sin",
+      "translations": { "ru": "свой (en, принадлежит подлежащему)", "en": "his/her/its own (with en-word, referring back to the subject)" },
+      "pos": "pron",
+      "example": { "sv": "Anna läser sin bok.", "ru": "Анна читает свою (собственную) книгу.", "en": "Anna is reading her (own) book." }
+    },
+    {
+      "id": "sitt",
+      "sv": "sitt",
+      "translations": { "ru": "своё (ett, принадлежит подлежащему)", "en": "his/her/its own (with ett-word, referring back to the subject)" },
+      "pos": "pron",
+      "example": { "sv": "Erik läser sitt brev.", "ru": "Эрик читает своё (собственное) письмо.", "en": "Erik is reading his (own) letter." }
+    },
+    {
+      "id": "sina",
+      "sv": "sina",
+      "translations": { "ru": "свои (мн. ч., принадлежит подлежащему)", "en": "his/her/its own (plural, referring back to the subject)" },
+      "pos": "pron",
+      "example": { "sv": "De läser sina böcker.", "ru": "Они читают свои (собственные) книги.", "en": "They are reading their (own) books." }
+    },
+    {
+      "id": "hans-2",
+      "sv": "hans",
+      "translations": { "ru": "его (чужой предмет)", "en": "his (someone else's)" },
+      "pos": "pron",
+      "note": { "ru": "Не меняется по en/ett/мн. ч.", "en": "Does not change for en/ett/plural." },
+      "example": { "sv": "Anna läser hans bok.", "ru": "Анна читает его (не свою) книгу.", "en": "Anna is reading his (someone else's) book." }
+    },
+    {
+      "id": "hennes-2",
+      "sv": "hennes",
+      "translations": { "ru": "её (чужой предмет)", "en": "her (someone else's)" },
+      "pos": "pron",
+      "note": { "ru": "Не меняется по en/ett/мн. ч.", "en": "Does not change for en/ett/plural." },
+      "example": { "sv": "Erik läser hennes brev.", "ru": "Эрик читает её (не своё) письмо.", "en": "Erik is reading her (someone else's) letter." }
+    },
+    {
+      "id": "deras-2",
+      "sv": "deras",
+      "translations": { "ru": "их (чужой предмет)", "en": "their (someone else's)" },
+      "pos": "pron",
+      "note": { "ru": "Не меняется по en/ett/мн. ч.", "en": "Does not change for en/ett/plural." },
+      "example": { "sv": "Vi läser deras böcker.", "ru": "Мы читаем их книги.", "en": "We are reading their books." }
+    },
+    {
+      "id": "syster-sin",
+      "sv": "syster",
+      "translations": { "ru": "сестра", "en": "sister" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Han älskar sin syster.", "ru": "Он любит свою сестру.", "en": "He loves his (own) sister." }
+    },
+    {
+      "id": "bil-sin",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Maria kör sin bil, inte hans bil.", "ru": "Мария едет на своей машине, а не на его машине.", "en": "Maria is driving her own car, not his car." }
+    }
+  ]
+}

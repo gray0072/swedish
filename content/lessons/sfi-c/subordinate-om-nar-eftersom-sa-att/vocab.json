@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "om-conj-sub",
+      "sv": "om",
+      "translations": { "ru": "если, ли", "en": "if, whether" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag vet inte om han kommer.", "ru": "Я не знаю, придёт ли он.", "en": "I don't know if he is coming." }
+    },
+    {
+      "id": "nar-conj-sub",
+      "sv": "när",
+      "translations": { "ru": "когда", "en": "when" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag ringer när jag kommer hem.", "ru": "Я позвоню, когда приду домой.", "en": "I'll call when I get home." }
+    },
+    {
+      "id": "eftersom-conj-sub",
+      "sv": "eftersom",
+      "translations": { "ru": "так как, потому что", "en": "because, since" },
+      "pos": "conjunction",
+      "example": { "sv": "Vi stannade hemma eftersom det regnade.", "ru": "Мы остались дома, так как шёл дождь.", "en": "We stayed home because it was raining." }
+    },
+    {
+      "id": "sa-att-conj-sub",
+      "sv": "så att",
+      "translations": { "ru": "так что, чтобы", "en": "so that" },
+      "pos": "conjunction",
+      "example": { "sv": "Hon talade tydligt så att alla förstod.", "ru": "Она говорила чётко, чтобы все поняли.", "en": "She spoke clearly so that everyone understood." }
+    },
+    {
+      "id": "ringa-verb-sub",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call (phone)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Jag ringer när jag kommer hem.", "ru": "Я позвоню, когда приду домой.", "en": "I'll call when I get home." }
+    },
+    {
+      "id": "stanna-verb-sub",
+      "sv": "stanna",
+      "translations": { "ru": "оставаться", "en": "to stay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "stanna", "present": "stannar", "past": "stannade", "supine": "stannat" },
+      "example": { "sv": "Vi stannade hemma eftersom det regnade.", "ru": "Мы остались дома, так как шёл дождь.", "en": "We stayed home because it was raining." }
+    },
+    {
+      "id": "tydligt-adv-sub",
+      "sv": "tydligt",
+      "translations": { "ru": "чётко, ясно", "en": "clearly" },
+      "pos": "adv",
+      "example": { "sv": "Hon talade tydligt.", "ru": "Она говорила чётко.", "en": "She spoke clearly." }
+    },
+    {
+      "id": "forsta-verb-sub",
+      "sv": "förstå",
+      "translations": { "ru": "понимать", "en": "to understand" },
+      "pos": "verb",
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" },
+      "example": { "sv": "Alla förstod.", "ru": "Все поняли.", "en": "Everyone understood." }
+    },
+    {
+      "id": "hemma-adv-sub",
+      "sv": "hemma",
+      "translations": { "ru": "дома", "en": "at home" },
+      "pos": "adv",
+      "example": { "sv": "Vi stannade hemma.", "ru": "Мы остались дома.", "en": "We stayed at home." }
+    },
+    {
+      "id": "fraga-verb-sub",
+      "sv": "fråga",
+      "translations": { "ru": "спрашивать", "en": "to ask" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" },
+      "example": { "sv": "Jag frågade om han visste.", "ru": "Я спросил, знал ли он.", "en": "I asked if he knew." }
+    }
+  ]
+}

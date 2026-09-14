@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "ska",
+      "sv": "ska",
+      "translations": { "ru": "собираться (решение/обещание)", "en": "will, going to (decision/promise)" },
+      "pos": "verb",
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
+      "example": { "sv": "Jag ska ringa dig.", "ru": "Я позвоню тебе (обещаю).", "en": "I will call you." }
+    },
+    {
+      "id": "kommer-att",
+      "sv": "kommer att",
+      "translations": { "ru": "(прогноз, предсказание) — будет...", "en": "will (prediction)" },
+      "pos": "phrase",
+      "example": { "sv": "Det kommer att regna.", "ru": "Будет дождь.", "en": "It's going to rain." }
+    },
+    {
+      "id": "tanka-tankte",
+      "sv": "tänka",
+      "translations": { "ru": "намереваться, думать", "en": "to intend, to think" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tänka", "present": "tänker", "past": "tänkte", "supine": "tänkt" },
+      "example": { "sv": "Jag tänker flytta.", "ru": "Я собираюсь переехать (у меня такое намерение).", "en": "I intend to move." }
+    },
+    {
+      "id": "regna-regnade",
+      "sv": "regna",
+      "translations": { "ru": "идти дождю", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Det kommer att regna imorgon.", "ru": "Завтра будет дождь.", "en": "It's going to rain tomorrow." }
+    },
+    {
+      "id": "flytta-fut",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move (house)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Jag tänker flytta till Lund.", "ru": "Я собираюсь переехать в Лунд.", "en": "I'm planning to move to Lund." }
+    },
+    {
+      "id": "bussen-gar",
+      "sv": "gå (om buss/tåg)",
+      "translations": { "ru": "отправляться (об автобусе/поезде)", "en": "to leave, to depart (bus/train)" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
+      "example": { "sv": "Bussen går klockan åtta.", "ru": "Автобус отправляется в восемь.", "en": "The bus leaves at eight." }
+    },
+    {
+      "id": "imorgon",
+      "sv": "imorgon",
+      "translations": { "ru": "завтра", "en": "tomorrow" },
+      "pos": "adv",
+      "example": { "sv": "Vi ska resa imorgon.", "ru": "Мы поедем завтра.", "en": "We are going to travel tomorrow." }
+    },
+    {
+      "id": "snart",
+      "sv": "snart",
+      "translations": { "ru": "скоро", "en": "soon" },
+      "pos": "adv",
+      "example": { "sv": "Det kommer att bli kallt snart.", "ru": "Скоро станет холодно.", "en": "It will get cold soon." }
+    },
+    {
+      "id": "planera-planerade",
+      "sv": "planera",
+      "translations": { "ru": "планировать", "en": "to plan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "planera", "present": "planerar", "past": "planerade", "supine": "planerat" },
+      "example": { "sv": "Vad tänker du göra i helgen?", "ru": "Что ты собираешься делать в выходные?", "en": "What are you planning to do this weekend?" }
+    }
+  ]
+}

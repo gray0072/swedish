@@ -1,0 +1,86 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-modal-verbs-preterite-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой претерит у «kan»?", "en": "What is the preterite of \"kan\"?" },
+      "choices": ["kunde", "ville", "skulle", "fick"],
+      "answer": 0
+    },
+    {
+      "id": "q-modal-verbs-preterite-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой претерит у «får»?", "en": "What is the preterite of \"får\"?" },
+      "choices": ["fick", "kunde", "ville", "skulle"],
+      "answer": 0
+    },
+    {
+      "id": "q-modal-verbs-preterite-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Претерит «skulle» происходит от «ska».", "en": "The preterite \"skulle\" comes from \"ska\"." },
+      "answer": true
+    },
+    {
+      "id": "q-modal-verbs-preterite-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "После модального глагола в претерите инфинитив требует «att».", "en": "After a modal verb in the preterite, the infinitive requires \"att\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "Как и в настоящем времени, после модального глагола идёт инфинитив без «att».",
+        "en": "Just like in the present tense, the infinitive after a modal verb has no \"att\"."
+      }
+    },
+    {
+      "id": "q-modal-verbs-preterite-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я не мог уснуть.»", "en": "Build the sentence: \"I couldn't sleep.\"" },
+      "tokens": ["kunde", "sova.", "Jag", "inte"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-modal-verbs-preterite-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon ___ åka hem tidigt." },
+      "answer": ["ville"],
+      "acceptAlso": [],
+      "hint": { "ru": "хотела", "en": "wanted to" }
+    },
+    {
+      "id": "q-modal-verbs-preterite-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь настоящее время и претерит", "en": "Match the present tense with the preterite" },
+      "pairs": [
+        ["kan", "kunde"],
+        ["vill", "ville"],
+        ["ska", "skulle"],
+        ["får", "fick"]
+      ]
+    },
+    {
+      "id": "q-modal-verbs-preterite-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Han fick låna min cykel igår.",
+      "prompt": { "ru": "Что произошло вчера?", "en": "What happened yesterday?" },
+      "choices": [
+        { "ru": "Ему разрешили одолжить велосипед", "en": "He was allowed to borrow a bike" },
+        { "ru": "Он не мог уснуть", "en": "He couldn't sleep" },
+        { "ru": "Он хотел поехать домой", "en": "He wanted to go home" },
+        { "ru": "Они должны были встретиться", "en": "They were going to meet" }
+      ],
+      "answer": 0
+    }
+  ]
+}

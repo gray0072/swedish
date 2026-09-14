@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-opinion-one-sentence-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое слово вводит причину в модели «jag tycker att … eftersom …»?", "en": "Which word introduces the reason in the pattern \"jag tycker att … eftersom …\"?" },
+      "choices": ["eftersom", "och", "men", "om"],
+      "answer": 0
+    },
+    {
+      "id": "q-opinion-one-sentence-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag anser att» немного более формально, чем «jag tycker att».", "en": "\"Jag anser att\" is slightly more formal than \"jag tycker att\"." },
+      "answer": true
+    },
+    {
+      "id": "q-opinion-one-sentence-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag tror att» выражает такую же уверенность, как «Jag vet att».", "en": "\"Jag tror att\" expresses the same certainty as \"Jag vet att\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Jag tror att» — это предположение («думаю»), а не твёрдое знание.",
+        "en": "\"Jag tror att\" is a belief/guess (\"I think\"), not firm knowledge."
+      }
+    },
+    {
+      "id": "q-opinion-one-sentence-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Я считаю, что школа хорошая, потому что учителя приятные.»", "en": "Build the sentence: \"I think the school is good because the teachers are nice.\"" },
+      "tokens": ["tycker", "Jag", "är", "att", "skolan", "bra", "eftersom", "lärarna", "trevliga."],
+      "answer": [1, 0, 3, 4, 2, 5, 6, 7, 8]
+    },
+    {
+      "id": "q-opinion-one-sentence-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag tycker att svenska är svårt ___ uttalet är annorlunda." },
+      "answer": ["eftersom"],
+      "acceptAlso": [],
+      "hint": { "ru": "потому что", "en": "because" }
+    },
+    {
+      "id": "q-opinion-one-sentence-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу и её перевод", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["Jag tycker att …", "I think that …"],
+        ["Jag tror att …", "I believe that …"],
+        ["Jag anser att …", "I consider that …"],
+        ["eftersom", "because"]
+      ]
+    },
+    {
+      "id": "q-opinion-one-sentence-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag tycker att det är roligt att laga mat.",
+      "prompt": { "ru": "Что считает человек?", "en": "What does the person think?" },
+      "choices": [
+        { "ru": "Готовить весело", "en": "Cooking is fun" },
+        { "ru": "Школа хорошая", "en": "The school is good" },
+        { "ru": "Погода хорошая", "en": "The weather is nice" },
+        { "ru": "Шведский трудный", "en": "Swedish is difficult" }
+      ],
+      "answer": 0
+    }
+  ]
+}

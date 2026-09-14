@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "stad-noun-dd",
+      "sv": "stad",
+      "translations": { "ru": "город", "en": "city, town" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Den stora staden.", "ru": "Большой город.", "en": "The big city." }
+    },
+    {
+      "id": "stor-dd",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "note": { "ru": "перед определённым существительным: слабая форма stora", "en": "before a definite noun: weak form stora" },
+      "example": { "sv": "Den stora staden.", "ru": "Большой город.", "en": "The big city." }
+    },
+    {
+      "id": "hus-noun-dd",
+      "sv": "hus",
+      "translations": { "ru": "дом", "en": "house" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Det gamla huset.", "ru": "Старый дом.", "en": "The old house." }
+    },
+    {
+      "id": "gammal-dd",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "note": { "ru": "перед определённым существительным: слабая форма gamla", "en": "before a definite noun: weak form gamla" },
+      "example": { "sv": "Det gamla huset.", "ru": "Старый дом.", "en": "The old house." }
+    },
+    {
+      "id": "bil-noun-dd",
+      "sv": "bil",
+      "translations": { "ru": "машина", "en": "car" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "De nya bilarna.", "ru": "Новые машины.", "en": "The new cars." }
+    },
+    {
+      "id": "ny-dd",
+      "sv": "ny",
+      "translations": { "ru": "новый", "en": "new" },
+      "pos": "adj",
+      "note": { "ru": "перед определённым существительным (и во мн. ч.): слабая форма nya", "en": "before a definite noun (and in the plural): weak form nya" },
+      "example": { "sv": "De nya bilarna.", "ru": "Новые машины.", "en": "The new cars." }
+    },
+    {
+      "id": "den-art-dd",
+      "sv": "den",
+      "translations": { "ru": "артикль перед прилагательным (en-слово)", "en": "definite article before an adjective (en-word)" },
+      "pos": "pron",
+      "example": { "sv": "Den stora staden.", "ru": "Большой город.", "en": "The big city." }
+    },
+    {
+      "id": "det-art-dd",
+      "sv": "det",
+      "translations": { "ru": "артикль перед прилагательным (ett-слово)", "en": "definite article before an adjective (ett-word)" },
+      "pos": "pron",
+      "example": { "sv": "Det gamla huset.", "ru": "Старый дом.", "en": "The old house." }
+    },
+    {
+      "id": "de-art-dd",
+      "sv": "de",
+      "translations": { "ru": "артикль перед прилагательным (мн. ч.)", "en": "definite article before an adjective (plural)" },
+      "pos": "pron",
+      "example": { "sv": "De nya bilarna.", "ru": "Новые машины.", "en": "The new cars." }
+    },
+    {
+      "id": "vacker-dd",
+      "sv": "vacker",
+      "translations": { "ru": "красивый", "en": "beautiful" },
+      "pos": "adj",
+      "note": { "ru": "слабая форма: vackra", "en": "weak form: vackra" },
+      "example": { "sv": "Den vackra staden.", "ru": "Красивый город.", "en": "The beautiful city." }
+    }
+  ]
+}

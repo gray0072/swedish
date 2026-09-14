@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-lfw-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Могу я отправить своё заявление?»", "en": "Build the sentence: \"Can I send my application?\"" },
+      "tokens": ["ansökan", "skicka", "Kan", "min", "jag"],
+      "answer": [2, 4, 1, 3, 0]
+    },
+    {
+      "id": "q-lfw-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «У тебя есть опыт этой работы?»", "en": "Build the sentence: \"Do you have experience with this job?\"" },
+      "tokens": ["av", "erfarenhet", "jobbet", "Har", "du", "det här"],
+      "answer": [3, 4, 1, 0, 5, 2]
+    },
+    {
+      "id": "q-lfw-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["jobbannons", "объявление о вакансии"],
+        ["ansökan", "заявление"],
+        ["intervju", "собеседование"],
+        ["arbetsgivare", "работодатель"]
+      ]
+    },
+    {
+      "id": "q-lfw-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«CV» и «meritförteckning» означают почти одно и то же — резюме.",
+        "en": "\"CV\" and \"meritförteckning\" mean almost the same thing — a resume."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-lfw-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Anställa» значит «увольнять с работы».",
+        "en": "\"Anställa\" means \"to fire someone from a job\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Anställa» значит «нанимать», а не увольнять.",
+        "en": "\"Anställa\" means \"to hire\", not to fire someone."
+      }
+    },
+    {
+      "id": "q-lfw-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ jobb som undersköterska. (ищу)" },
+      "answer": ["söker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-lfw-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du har läst en jobbannons och vill jobba där. Vad gör du först?",
+        "en": "You've read a job ad and want to work there. What do you do first?"
+      },
+      "choices": ["Skickar en ansökan", "Ringer polisen", "Bokar en tid hos läkaren", "Väntar i en kö"],
+      "answer": 0
+    },
+    {
+      "id": "q-lfw-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Har du erfarenhet av det här?",
+      "prompt": { "en": "What is being asked?", "ru": "О чём спрашивают?" },
+      "choices": [
+        { "en": "Whether you have experience with this", "ru": "Есть ли у тебя опыт в этом" },
+        { "en": "When the interview is", "ru": "Когда собеседование" },
+        { "en": "Where the office is", "ru": "Где находится офис" },
+        { "en": "How much the job pays", "ru": "Сколько платят за работу" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-lfw-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "How do you say \"job interview\" in Swedish (one word)?", "ru": "Как по-шведски «собеседование» (одно слово)?" },
+      "answer": ["intervju"]
+    }
+  ]
+}

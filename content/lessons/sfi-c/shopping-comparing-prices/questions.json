@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-shopping-comparing-prices-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Могу я вернуть эту кофту?»", "en": "Build the sentence: \"Can I return this sweater?\"" },
+      "tokens": ["den", "tröjan", "jag", "här", "lämna", "Kan", "tillbaka"],
+      "answer": [5, 2, 4, 6, 0, 3, 1]
+    },
+    {
+      "id": "q-shopping-comparing-prices-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Я хочу деньги обратно.»", "en": "Build the sentence: \"I want a refund.\"" },
+      "tokens": ["ha", "Jag", "tillbaka", "vill", "pengarna"],
+      "answer": [1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-shopping-comparing-prices-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["rabatt", "скидка"],
+        ["rea", "распродажа"],
+        ["reklamera", "жаловаться на покупку"],
+        ["garanti", "гарантия"]
+      ]
+    },
+    {
+      "id": "q-shopping-comparing-prices-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Öppet köp» значит, что товар можно вернуть без объяснения причины в течение определённого срока.", "en": "\"Öppet köp\" means you can return an item without a reason within a set period." },
+      "answer": true
+    },
+    {
+      "id": "q-shopping-comparing-prices-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Prisvärd» значит «слишком дорогой».", "en": "\"Prisvärd\" means \"too expensive\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Prisvärd» значит «выгодный по цене», то есть хорошее соотношение цены и качества.",
+        "en": "\"Prisvärd\" means \"good value for money\", i.e. a good price for what you get."
+      }
+    },
+    {
+      "id": "q-shopping-comparing-prices-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag vill ___ den här produkten, den är trasig. (подать рекламацию)" },
+      "answer": ["reklamera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-shopping-comparing-prices-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du köpte en tröja men den var trasig redan i affären. Vad säger du?",
+        "en": "You bought a sweater but it was already broken in the shop. What do you say?"
+      },
+      "choices": ["Jag vill reklamera den här produkten", "Jag vill jämföra priser", "Det är en bra rea", "Jag betalar med autogiro"],
+      "answer": 0
+    },
+    {
+      "id": "q-shopping-comparing-prices-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vad behöver du oftast visa för att lämna tillbaka en vara?",
+        "en": "What do you usually need to show to return an item?"
+      },
+      "choices": ["Kvittot", "Ett recept", "En biljett", "Ett kvitto på hyran"],
+      "answer": 0
+    }
+  ]
+}

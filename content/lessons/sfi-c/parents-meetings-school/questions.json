@@ -1,0 +1,91 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-parents-meetings-school-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хочу записаться на встречу с учителем.»", "en": "Build the sentence: \"I would like to book a meeting with the teacher.\"" },
+      "tokens": ["boka", "läraren", "vill", "en", "Jag", "tid", "med"],
+      "answer": [4, 2, 0, 3, 5, 6, 1]
+    },
+    {
+      "id": "q-parents-meetings-school-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["föräldramöte", "родительское собрание"],
+        ["lärare", "учитель"],
+        ["rektor", "директор школы"],
+        ["betyg", "оценка"]
+      ]
+    },
+    {
+      "id": "q-parents-meetings-school-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Frånvaroanmälan» — это сообщение о том, что ребёнок отсутствует.",
+        "en": "\"Frånvaroanmälan\" is a report saying that a child is absent."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-parents-meetings-school-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Rektor» — это учитель, который ведёт один урок.",
+        "en": "\"Rektor\" is a teacher who teaches a single lesson."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Rektor» — это директор всей школы, а не отдельный учитель.",
+        "en": "\"Rektor\" is the headteacher of the whole school, not an individual teacher."
+      }
+    },
+    {
+      "id": "q-parents-meetings-school-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag måste ___ frånvaro för mitt barn idag. (сообщить)" },
+      "answer": ["anmäla"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-parents-meetings-school-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Ditt barn är sjukt och kan inte gå till skolan. Vad ska du göra på morgonen?",
+        "en": "Your child is sick and can't go to school. What should you do in the morning?"
+      },
+      "choices": ["göra en frånvaroanmälan", "boka ett föräldramöte", "prata med rektorn", "läsa läxorna"],
+      "answer": 0
+    },
+    {
+      "id": "q-parents-meetings-school-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Var kan du se ditt barns läxor och meddelanden från läraren?",
+        "en": "Where can you see your child's homework and messages from the teacher?"
+      },
+      "choices": ["på skolplattformen", "på apoteket", "på återvinningsstationen", "i kön"],
+      "answer": 0
+    },
+    {
+      "id": "q-parents-meetings-school-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "Type the Swedish word for \"pupil, student\".", "ru": "Напиши слово по-шведски: «ученик»." },
+      "answer": ["elev"],
+      "hint": { "en": "Short word, five letters.", "ru": "Короткое слово, пять букв." }
+    }
+  ]
+}

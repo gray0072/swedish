@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/definite-adjective-double-definiteness",
+  "slug": "definite-adjective-double-definiteness",
+  "title": {
+    "sv": "Bestämd adjektivform och dubbel bestämdhet: den stora staden",
+    "ru": "Определённая форма прилагательного и двойная определённость: den stora staden",
+    "en": "The definite adjective and double definiteness: den stora staden"
+  },
+  "summary": {
+    "ru": "Перед определённым существительным ставится den/det/de И существительное получает определённое окончание — двойная определённость.",
+    "en": "Before a definite noun Swedish uses den/det/de AND the noun's definite ending — double definiteness."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "adjectives",
+    "definiteness"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 550,
+  "prerequisites": [
+    "sfi-b/demonstratives"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

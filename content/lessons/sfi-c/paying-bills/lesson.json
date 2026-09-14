@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/paying-bills",
+  "slug": "paying-bills",
+  "title": {
+    "sv": "Att betala räkningar: hyra, el och internet",
+    "ru": "Оплата счетов: аренда, электричество, интернет",
+    "en": "Paying bills: rent, electricity, internet"
+  },
+  "summary": {
+    "ru": "Слова и фразы для ежемесячных счетов за жильё: аренда, электричество, интернет, автоплатёж.",
+    "en": "Words and phrases for the monthly bills a household pays: rent, electricity, internet, autopay."
+  },
+  "kind": "mixed",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "money",
+    "housing",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 360,
+  "prerequisites": [
+    "sfi-c/bank-basics"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

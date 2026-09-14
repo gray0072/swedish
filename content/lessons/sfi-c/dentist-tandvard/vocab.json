@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "id": "tandlakare",
+      "sv": "tandläkare",
+      "translations": { "ru": "стоматолог, зубной врач", "en": "dentist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tandläkare", "defSg": "tandläkaren", "indefPl": "tandläkare", "defPl": "tandläkarna" },
+      "example": { "sv": "Jag ska till tandläkaren imorgon.", "ru": "Завтра я иду к стоматологу.", "en": "I'm going to the dentist tomorrow." }
+    },
+    {
+      "id": "tandvard",
+      "sv": "tandvård",
+      "translations": { "ru": "стоматологическая помощь", "en": "dental care" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tandvård", "defSg": "tandvården", "indefPl": "tandvårdar", "defPl": "tandvårdarna" },
+      "example": { "sv": "God tandvård är viktig för hälsan.", "ru": "Хорошая стоматологическая помощь важна для здоровья.", "en": "Good dental care is important for your health." }
+    },
+    {
+      "id": "boka-tandlakare",
+      "sv": "boka tid hos tandläkaren",
+      "translations": { "ru": "записаться к стоматологу", "en": "to book a dentist appointment" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vill boka tid hos tandläkaren så snart som möjligt.", "ru": "Я хочу записаться к стоматологу как можно скорее.", "en": "I'd like to book a dentist appointment as soon as possible." }
+    },
+    {
+      "id": "tandvark",
+      "sv": "tandvärk",
+      "translations": { "ru": "зубная боль", "en": "toothache" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tandvärk", "defSg": "tandvärken", "indefPl": "tandvärkar", "defPl": "tandvärkarna" },
+      "example": { "sv": "Jag har fruktansvärd tandvärk.", "ru": "У меня ужасная зубная боль.", "en": "I have terrible toothache." }
+    },
+    {
+      "id": "tand",
+      "sv": "tand",
+      "translations": { "ru": "зуб", "en": "tooth" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tand", "defSg": "tanden", "indefPl": "tänder", "defPl": "tänderna" },
+      "example": { "sv": "Jag har ont i en tand.", "ru": "У меня болит зуб.", "en": "I have pain in one tooth." }
+    },
+    {
+      "id": "lagning",
+      "sv": "lagning",
+      "translations": { "ru": "пломба, пломбирование", "en": "filling" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lagning", "defSg": "lagningen", "indefPl": "lagningar", "defPl": "lagningarna" },
+      "example": { "sv": "Du behöver en lagning i den här tanden.", "ru": "Вам нужна пломба в этом зубе.", "en": "You need a filling in this tooth." }
+    },
+    {
+      "id": "laga-en-tand",
+      "sv": "laga en tand",
+      "translations": { "ru": "запломбировать зуб", "en": "to fill a tooth" },
+      "pos": "phrase",
+      "example": { "sv": "Tandläkaren lagade tanden på tio minuter.", "ru": "Стоматолог запломбировал зуб за десять минут.", "en": "The dentist filled the tooth in ten minutes." }
+    },
+    {
+      "id": "tandvardskostnad",
+      "sv": "tandvårdskostnad",
+      "translations": { "ru": "стоимость стоматологического лечения", "en": "cost of dental care" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tandvårdskostnad", "defSg": "tandvårdskostnaden", "indefPl": "tandvårdskostnader", "defPl": "tandvårdskostnaderna" },
+      "example": { "sv": "Tandvårdskostnaden var högre än jag trodde.", "ru": "Стоимость лечения оказалась выше, чем я думал(а).", "en": "The cost of the dental care was higher than I expected." }
+    },
+    {
+      "id": "tandskoterska",
+      "sv": "tandsköterska",
+      "translations": { "ru": "ассистент(ка) стоматолога", "en": "dental assistant" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tandsköterska", "defSg": "tandsköterskan", "indefPl": "tandsköterskor", "defPl": "tandsköterskorna" },
+      "example": { "sv": "Tandsköterskan förberedde stolen.", "ru": "Ассистентка стоматолога подготовила кресло.", "en": "The dental assistant prepared the chair." }
+    },
+    {
+      "id": "karies",
+      "sv": "karies",
+      "translations": { "ru": "кариес", "en": "cavity, tooth decay" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Röntgenbilden visade karies i två tänder.", "ru": "Рентген показал кариес в двух зубах.", "en": "The X-ray showed cavities in two teeth." }
+    },
+    {
+      "id": "bedovning",
+      "sv": "bedövning",
+      "translations": { "ru": "обезболивание, анестезия", "en": "local anesthetic, numbing" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bedövning", "defSg": "bedövningen", "indefPl": "bedövningar", "defPl": "bedövningarna" },
+      "example": { "sv": "Vill du ha bedövning innan lagningen?", "ru": "Хотите анестезию перед пломбированием?", "en": "Would you like an anesthetic before the filling?" }
+    },
+    {
+      "id": "rakning",
+      "sv": "räkning",
+      "translations": { "ru": "счёт (к оплате)", "en": "bill, invoice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räkning", "defSg": "räkningen", "indefPl": "räkningar", "defPl": "räkningarna" },
+      "example": { "sv": "Du får räkningen skickad till din e-post.", "ru": "Счёт вам пришлют на электронную почту.", "en": "You'll get the bill sent to your email." }
+    },
+    {
+      "id": "frisktandvard",
+      "sv": "frisktandvård",
+      "translations": { "ru": "субсидия на профилактическую стоматологию", "en": "subsidized preventive dental care" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Frisktandvård gör regelbundna kontroller billigare.", "ru": "Программа субсидий делает регулярные осмотры дешевле.", "en": "The subsidy scheme makes regular check-ups cheaper." }
+    },
+    {
+      "id": "borsta-tanderna",
+      "sv": "borsta tänderna",
+      "translations": { "ru": "чистить зубы", "en": "to brush one's teeth" },
+      "pos": "phrase",
+      "example": { "sv": "Borsta tänderna två gånger om dagen.", "ru": "Чисти зубы два раза в день.", "en": "Brush your teeth twice a day." }
+    },
+    {
+      "id": "kontroll",
+      "sv": "kontroll",
+      "translations": { "ru": "осмотр, проверка", "en": "check-up" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontroll", "defSg": "kontrollen", "indefPl": "kontroller", "defPl": "kontrollerna" },
+      "example": { "sv": "Det är dags för din årliga kontroll.", "ru": "Пора на ваш ежегодный осмотр.", "en": "It's time for your annual check-up." }
+    },
+    {
+      "id": "dra-ut-tand",
+      "sv": "dra ut en tand",
+      "translations": { "ru": "удалить зуб", "en": "to pull out a tooth" },
+      "pos": "phrase",
+      "example": { "sv": "Tanden var så dålig att den fick dras ut.", "ru": "Зуб был в таком плохом состоянии, что его пришлось удалить.", "en": "The tooth was so bad it had to be pulled out." }
+    }
+  ]
+}

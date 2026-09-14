@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "id": "sakerhet",
+      "sv": "säkerhet",
+      "translations": { "ru": "безопасность", "en": "safety" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" },
+      "example": { "sv": "Säkerhet kommer först på arbetsplatsen.", "ru": "Безопасность прежде всего на рабочем месте.", "en": "Safety comes first at the workplace." }
+    },
+    {
+      "id": "skyddsutrustning",
+      "sv": "skyddsutrustning",
+      "translations": { "ru": "защитное снаряжение", "en": "safety equipment" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skyddsutrustning", "defSg": "skyddsutrustningen", "indefPl": "skyddsutrustningar", "defPl": "skyddsutrustningarna" },
+      "example": { "sv": "Du måste bära skyddsutrustning här.", "ru": "Здесь нужно носить защитное снаряжение.", "en": "You must wear safety equipment here." }
+    },
+    {
+      "id": "hjalm",
+      "sv": "hjälm",
+      "translations": { "ru": "каска, шлем", "en": "helmet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hjälm", "defSg": "hjälmen", "indefPl": "hjälmar", "defPl": "hjälmarna" },
+      "example": { "sv": "Ta på dig hjälmen innan du går in.", "ru": "Надень каску, прежде чем войти.", "en": "Put on the helmet before you go in." }
+    },
+    {
+      "id": "skyddsglasogon",
+      "sv": "skyddsglasögon",
+      "translations": { "ru": "защитные очки", "en": "safety goggles" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Använd skyddsglasögon när du borrar.", "ru": "Используй защитные очки, когда сверлишь.", "en": "Use safety goggles when you drill." }
+    },
+    {
+      "id": "skyddshandskar",
+      "sv": "skyddshandskar",
+      "translations": { "ru": "защитные перчатки", "en": "safety gloves" },
+      "pos": "noun",
+      "example": { "sv": "Glöm inte skyddshandskarna.", "ru": "Не забудь защитные перчатки.", "en": "Don't forget the safety gloves." }
+    },
+    {
+      "id": "skyddsskor",
+      "sv": "skyddsskor",
+      "translations": { "ru": "защитная обувь", "en": "safety shoes" },
+      "pos": "noun",
+      "example": { "sv": "Man ska ha skyddsskor på bygget.", "ru": "На стройке нужно носить защитную обувь.", "en": "You should wear safety shoes on the construction site." }
+    },
+    {
+      "id": "reflexvast",
+      "sv": "reflexväst",
+      "translations": { "ru": "светоотражающий жилет", "en": "hi-vis vest" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reflexväst", "defSg": "reflexvästen", "indefPl": "reflexvästar", "defPl": "reflexvästarna" },
+      "example": { "sv": "Bär alltid reflexväst utomhus.", "ru": "Всегда носи светоотражающий жилет на улице.", "en": "Always wear a hi-vis vest outdoors." }
+    },
+    {
+      "id": "olycka",
+      "sv": "olycka",
+      "translations": { "ru": "несчастный случай, авария", "en": "accident" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en olycka", "defSg": "olyckan", "indefPl": "olyckor", "defPl": "olyckorna" },
+      "example": { "sv": "Det hände en olycka på lagret.", "ru": "На складе произошёл несчастный случай.", "en": "There was an accident in the warehouse." }
+    },
+    {
+      "id": "rapportera",
+      "sv": "rapportera",
+      "translations": { "ru": "сообщать, докладывать", "en": "to report" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "rapportera", "present": "rapporterar", "past": "rapporterade", "supine": "rapporterat" },
+      "example": { "sv": "Du måste rapportera en olycka direkt.", "ru": "Ты должен сразу сообщить о несчастном случае.", "en": "You must report an accident right away." }
+    },
+    {
+      "id": "varningsskylt",
+      "sv": "varningsskylt",
+      "translations": { "ru": "предупреждающий знак", "en": "warning sign" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en varningsskylt", "defSg": "varningsskylten", "indefPl": "varningsskyltar", "defPl": "varningsskyltarna" },
+      "example": { "sv": "Läs varningsskylten innan du fortsätter.", "ru": "Прочитай предупреждающий знак, прежде чем продолжить.", "en": "Read the warning sign before you continue." }
+    },
+    {
+      "id": "nodutgang",
+      "sv": "nödutgång",
+      "translations": { "ru": "аварийный выход", "en": "emergency exit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nödutgång", "defSg": "nödutgången", "indefPl": "nödutgångar", "defPl": "nödutgångarna" },
+      "example": { "sv": "Nödutgången är till vänster om dörren.", "ru": "Аварийный выход слева от двери.", "en": "The emergency exit is to the left of the door." }
+    },
+    {
+      "id": "brandslackare",
+      "sv": "brandsläckare",
+      "translations": { "ru": "огнетушитель", "en": "fire extinguisher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brandsläckare", "defSg": "brandsläckaren", "indefPl": "brandsläckare", "defPl": "brandsläckarna" },
+      "example": { "sv": "Brandsläckaren hänger vid dörren.", "ru": "Огнетушитель висит у двери.", "en": "The fire extinguisher hangs by the door." }
+    },
+    {
+      "id": "forbandslada",
+      "sv": "förbandslåda",
+      "translations": { "ru": "аптечка первой помощи", "en": "first-aid kit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förbandslåda", "defSg": "förbandslådan", "indefPl": "förbandslådor", "defPl": "förbandslådorna" },
+      "example": { "sv": "Förbandslådan finns i personalrummet.", "ru": "Аптечка первой помощи находится в комнате отдыха персонала.", "en": "The first-aid kit is in the staff room." }
+    },
+    {
+      "id": "forsta-hjalpen",
+      "sv": "första hjälpen",
+      "translations": { "ru": "первая помощь", "en": "first aid" },
+      "pos": "phrase",
+      "example": { "sv": "Vem kan ge första hjälpen?", "ru": "Кто может оказать первую помощь?", "en": "Who can give first aid?" }
+    },
+    {
+      "id": "skada-noun",
+      "sv": "skada",
+      "translations": { "ru": "травма, повреждение", "en": "injury" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skada", "defSg": "skadan", "indefPl": "skador", "defPl": "skadorna" },
+      "example": { "sv": "Han fick en skada på armen.", "ru": "Он получил травму руки.", "en": "He got an injury to his arm." }
+    },
+    {
+      "id": "skadad",
+      "sv": "skadad",
+      "translations": { "ru": "травмированный, раненый", "en": "injured" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: skadat, мн.ч.: skadade", "en": "ett-form: skadat, plural: skadade" },
+      "example": { "sv": "Är någon skadad?", "ru": "Кто-нибудь пострадал?", "en": "Is anyone injured?" }
+    },
+    {
+      "id": "fara",
+      "sv": "fara",
+      "translations": { "ru": "опасность", "en": "danger" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fara", "defSg": "faran", "indefPl": "faror", "defPl": "farorna" },
+      "example": { "sv": "Det är fara för liv och hälsa.", "ru": "Существует опасность для жизни и здоровья.", "en": "There is danger to life and health." }
+    }
+  ]
+}

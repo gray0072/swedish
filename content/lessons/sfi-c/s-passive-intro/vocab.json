@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "forbjuds",
+      "sv": "förbjuds",
+      "translations": { "ru": "запрещается", "en": "is forbidden" },
+      "pos": "verb",
+      "example": { "sv": "Rökning förbjuds.", "ru": "Курение запрещается.", "en": "Smoking is forbidden." }
+    },
+    {
+      "id": "oppnas",
+      "sv": "öppnas",
+      "translations": { "ru": "открывается", "en": "opens, is opened" },
+      "pos": "verb",
+      "example": { "sv": "Dörren öppnas automatiskt.", "ru": "Дверь открывается автоматически.", "en": "The door opens automatically." }
+    },
+    {
+      "id": "stangs",
+      "sv": "stängs",
+      "translations": { "ru": "закрывается", "en": "closes, is closed" },
+      "pos": "verb",
+      "example": { "sv": "Butiken stängs klockan sex.", "ru": "Магазин закрывается в шесть.", "en": "The shop closes at six." }
+    },
+    {
+      "id": "talas",
+      "sv": "talas",
+      "translations": { "ru": "говорится (на языке)", "en": "is spoken" },
+      "pos": "verb",
+      "example": { "sv": "Här talas svenska.", "ru": "Здесь говорят по-шведски.", "en": "Swedish is spoken here." }
+    },
+    {
+      "id": "rokning",
+      "sv": "rökning",
+      "translations": { "ru": "курение", "en": "smoking" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rökning", "defSg": "rökningen", "indefPl": "rökningar", "defPl": "rökningarna" },
+      "example": { "sv": "Rökning är inte tillåten här.", "ru": "Курение здесь не разрешено.", "en": "Smoking is not allowed here." }
+    },
+    {
+      "id": "saljs",
+      "sv": "säljs",
+      "translations": { "ru": "продаётся", "en": "is sold" },
+      "pos": "verb",
+      "example": { "sv": "Biljetter säljs vid ingången.", "ru": "Билеты продаются у входа.", "en": "Tickets are sold at the entrance." }
+    },
+    {
+      "id": "sokes",
+      "sv": "sökes",
+      "translations": { "ru": "требуется, разыскивается", "en": "is wanted, sought" },
+      "pos": "verb",
+      "example": { "sv": "Personal sökes.", "ru": "Требуется персонал.", "en": "Staff wanted." }
+    },
+    {
+      "id": "anvands",
+      "sv": "används",
+      "translations": { "ru": "используется", "en": "is used" },
+      "pos": "verb",
+      "example": { "sv": "Här används bara kort.", "ru": "Здесь используются только карты.", "en": "Only cards are used here." }
+    },
+    {
+      "id": "parkering-forbjuden",
+      "sv": "Parkering förbjuden.",
+      "translations": { "ru": "Парковка запрещена.", "en": "Parking forbidden." },
+      "pos": "phrase",
+      "example": { "sv": "Parkering förbjuden framför porten.", "ru": "Парковка перед воротами запрещена.", "en": "Parking forbidden in front of the gate." }
+    },
+    {
+      "id": "utgang",
+      "sv": "utgång",
+      "translations": { "ru": "выход", "en": "exit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utgång", "defSg": "utgången", "indefPl": "utgångar", "defPl": "utgångarna" },
+      "example": { "sv": "Dörren vid utgången öppnas automatiskt.", "ru": "Дверь у выхода открывается автоматически.", "en": "The door at the exit opens automatically." }
+    },
+    {
+      "id": "skylt",
+      "sv": "skylt",
+      "translations": { "ru": "вывеска, табличка", "en": "sign" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skylt", "defSg": "skylten", "indefPl": "skyltar", "defPl": "skyltarna" },
+      "example": { "sv": "Skylten säger att rökning förbjuds.", "ru": "На табличке написано, что курение запрещается.", "en": "The sign says that smoking is forbidden." }
+    },
+    {
+      "id": "automatiskt",
+      "sv": "automatiskt",
+      "translations": { "ru": "автоматически", "en": "automatically" },
+      "pos": "adv",
+      "example": { "sv": "Ljuset tänds automatiskt.", "ru": "Свет включается автоматически.", "en": "The light turns on automatically." }
+    },
+    {
+      "id": "tillaten",
+      "sv": "tillåten",
+      "translations": { "ru": "разрешённый", "en": "allowed, permitted" },
+      "pos": "adj",
+      "example": { "sv": "Fotografering är inte tillåten här.", "ru": "Фотографировать здесь не разрешено.", "en": "Photography is not allowed here." }
+    },
+    {
+      "id": "servera",
+      "sv": "serveras",
+      "translations": { "ru": "подаётся", "en": "is served" },
+      "pos": "verb",
+      "example": { "sv": "Frukost serveras klockan sju.", "ru": "Завтрак подаётся в семь.", "en": "Breakfast is served at seven." }
+    }
+  ]
+}

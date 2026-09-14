@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "id": "ring-112",
+      "sv": "Ring 112!",
+      "translations": { "ru": "Звоните 112!", "en": "Call 112!" },
+      "pos": "phrase",
+      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." }
+    },
+    {
+      "id": "ambulans",
+      "sv": "ambulans",
+      "translations": { "ru": "скорая помощь", "en": "ambulance" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ambulans", "defSg": "ambulansen", "indefPl": "ambulanser", "defPl": "ambulanserna" },
+      "example": { "sv": "Ring en ambulans direkt!", "ru": "Вызовите скорую немедленно!", "en": "Call an ambulance right away!" }
+    },
+    {
+      "id": "vad-har-hant",
+      "sv": "Vad har hänt?",
+      "translations": { "ru": "Что случилось?", "en": "What happened?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "beskriva",
+      "sv": "beskriva",
+      "translations": { "ru": "описывать", "en": "to describe" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "beskriva", "present": "beskriver", "past": "beskrev", "supine": "beskrivit" },
+      "example": { "sv": "Kan du beskriva vad som hände?", "ru": "Можешь описать, что случилось?", "en": "Can you describe what happened?" }
+    },
+    {
+      "id": "kan-du-beskriva-vad-som-hande",
+      "sv": "Kan du beskriva vad som hände?",
+      "translations": { "ru": "Можешь описать, что случилось?", "en": "Can you describe what happened?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "var-hande-det",
+      "sv": "Var hände det?",
+      "translations": { "ru": "Где это случилось?", "en": "Where did it happen?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "nar-hande-det",
+      "sv": "När hände det?",
+      "translations": { "ru": "Когда это случилось?", "en": "When did it happen?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "stold",
+      "sv": "stöld",
+      "translations": { "ru": "кража", "en": "theft" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stöld", "defSg": "stölden", "indefPl": "stölder", "defPl": "stölderna" },
+      "example": { "sv": "Jag vill anmäla en stöld.", "ru": "Я хочу заявить о краже.", "en": "I want to report a theft." }
+    },
+    {
+      "id": "polisanmalan",
+      "sv": "polisanmälan",
+      "translations": { "ru": "заявление в полицию", "en": "police report" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en polisanmälan", "defSg": "polisanmälan", "indefPl": "polisanmälningar", "defPl": "polisanmälningarna" },
+      "example": { "sv": "Jag måste göra en polisanmälan.", "ru": "Мне нужно подать заявление в полицию.", "en": "I need to file a police report." }
+    },
+    {
+      "id": "anmala",
+      "sv": "anmäla",
+      "translations": { "ru": "заявлять, сообщать", "en": "to report (to authorities)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "anmäla", "present": "anmäler", "past": "anmälde", "supine": "anmält" },
+      "example": { "sv": "Var vill du anmäla stölden?", "ru": "Где ты хочешь заявить о краже?", "en": "Where do you want to report the theft?" }
+    },
+    {
+      "id": "jag-vill-anmala-en-stold",
+      "sv": "Jag vill anmäla en stöld.",
+      "translations": { "ru": "Я хочу заявить о краже.", "en": "I want to report a theft." },
+      "pos": "phrase"
+    },
+    {
+      "id": "forlorad",
+      "sv": "förlorad",
+      "translations": { "ru": "потерянный, утраченный", "en": "lost" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: förlorat, мн.ч.: förlorade", "en": "ett-form: förlorat, plural: förlorade" },
+      "example": { "sv": "Mina förlorade dokument hittades aldrig.", "ru": "Мои утерянные документы так и не нашлись.", "en": "My lost documents were never found." }
+    },
+    {
+      "id": "pass",
+      "sv": "pass",
+      "translations": { "ru": "паспорт (заграничный)", "en": "passport" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett pass", "defSg": "passet", "indefPl": "pass", "defPl": "passen" },
+      "example": { "sv": "Mitt pass är borta.", "ru": "Мой паспорт пропал.", "en": "My passport is gone." }
+    },
+    {
+      "id": "mitt-pass-ar-borta",
+      "sv": "Mitt pass är borta.",
+      "translations": { "ru": "Мой паспорт пропал.", "en": "My passport is gone." },
+      "pos": "phrase"
+    },
+    {
+      "id": "dokument",
+      "sv": "dokument",
+      "translations": { "ru": "документ", "en": "document" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett dokument", "defSg": "dokumentet", "indefPl": "dokument", "defPl": "dokumenten" },
+      "example": { "sv": "Jag har förlorat viktiga dokument.", "ru": "Я потерял(а) важные документы.", "en": "I have lost important documents." }
+    },
+    {
+      "id": "akut",
+      "sv": "akut",
+      "translations": { "ru": "срочный, неотложный", "en": "urgent, acute" },
+      "pos": "adj",
+      "note": { "ru": "неизменяемое прилагательное", "en": "invariable adjective" },
+      "example": { "sv": "Det är en akut situation.", "ru": "Это неотложная ситуация.", "en": "This is an urgent situation." }
+    }
+  ]
+}

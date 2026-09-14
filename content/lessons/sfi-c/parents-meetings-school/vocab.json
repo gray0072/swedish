@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "id": "foraldramote",
+      "sv": "föräldramöte",
+      "translations": { "ru": "родительское собрание", "en": "parents' meeting" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett föräldramöte", "defSg": "föräldramötet", "indefPl": "föräldramöten", "defPl": "föräldramötena" },
+      "example": { "sv": "Föräldramötet är på tisdag klockan sex.", "ru": "Родительское собрание во вторник в шесть.", "en": "The parents' meeting is on Tuesday at six." }
+    },
+    {
+      "id": "kontakt-med-skolan",
+      "sv": "kontakt med skolan",
+      "translations": { "ru": "связь со школой", "en": "contact with the school" },
+      "pos": "phrase",
+      "example": { "sv": "Vi har bra kontakt med skolan.", "ru": "У нас хорошая связь со школой.", "en": "We have good contact with the school." }
+    },
+    {
+      "id": "larare",
+      "sv": "lärare",
+      "translations": { "ru": "учитель", "en": "teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Jag vill prata med lärare om mitt barn.", "ru": "Я хочу поговорить с учителем о своём ребёнке.", "en": "I'd like to talk to the teacher about my child." }
+    },
+    {
+      "id": "utvecklingssamtal",
+      "sv": "utvecklingssamtal",
+      "translations": { "ru": "беседа о развитии (индивидуальная с учителем)", "en": "individual development talk with the teacher" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett utvecklingssamtal", "defSg": "utvecklingssamtalet", "indefPl": "utvecklingssamtal", "defPl": "utvecklingssamtalen" },
+      "note": { "ru": "подробнее это разбирается на уровне SVA grund", "en": "covered in more detail at SVA grund level" },
+      "example": { "sv": "Vi har utvecklingssamtal en gång per termin.", "ru": "У нас беседа о развитии раз в семестр.", "en": "We have a development talk once a term." }
+    },
+    {
+      "id": "skolplattform",
+      "sv": "skolplattform",
+      "translations": { "ru": "школьная онлайн-платформа", "en": "school platform (online)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skolplattform", "defSg": "skolplattformen", "indefPl": "skolplattformar", "defPl": "skolplattformarna" },
+      "example": { "sv": "Läxorna finns på skolplattformen.", "ru": "Домашние задания есть на школьной платформе.", "en": "The homework is on the school platform." }
+    },
+    {
+      "id": "franvaroanmalan",
+      "sv": "frånvaroanmälan",
+      "translations": { "ru": "сообщение об отсутствии (ребёнка)", "en": "absence report" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frånvaroanmälan", "defSg": "frånvaroanmälan", "indefPl": "frånvaroanmälningar", "defPl": "frånvaroanmälningarna" },
+      "example": { "sv": "Gör en frånvaroanmälan innan klockan åtta.", "ru": "Сообщи об отсутствии до восьми часов.", "en": "Submit the absence report before eight o'clock." }
+    },
+    {
+      "id": "anmala-franvaro",
+      "sv": "anmäla frånvaro",
+      "translations": { "ru": "сообщать об отсутствии", "en": "to report an absence" },
+      "pos": "phrase",
+      "example": { "sv": "Jag måste anmäla frånvaro för mitt barn idag.", "ru": "Мне нужно сообщить об отсутствии ребёнка сегодня.", "en": "I need to report my child's absence today." }
+    },
+    {
+      "id": "franvarande",
+      "sv": "frånvarande",
+      "translations": { "ru": "отсутствующий", "en": "absent" },
+      "pos": "adj",
+      "example": { "sv": "Mitt barn är frånvarande idag på grund av sjukdom.", "ru": "Мой ребёнок сегодня отсутствует из-за болезни.", "en": "My child is absent today due to illness." }
+    },
+    {
+      "id": "rektor",
+      "sv": "rektor",
+      "translations": { "ru": "директор школы", "en": "headteacher, principal" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rektor", "defSg": "rektorn", "indefPl": "rektorer", "defPl": "rektorerna" },
+      "example": { "sv": "Rektorn öppnade föräldramötet.", "ru": "Директор открыл(а) родительское собрание.", "en": "The headteacher opened the parents' meeting." }
+    },
+    {
+      "id": "klass",
+      "sv": "klass",
+      "translations": { "ru": "класс", "en": "class" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en klass", "defSg": "klassen", "indefPl": "klasser", "defPl": "klasserna" },
+      "example": { "sv": "Mitt barn går i klass fyra.", "ru": "Мой ребёнок учится в четвёртом классе.", "en": "My child is in year four." }
+    },
+    {
+      "id": "betyg",
+      "sv": "betyg",
+      "translations": { "ru": "оценка", "en": "grade" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett betyg", "defSg": "betyget", "indefPl": "betyg", "defPl": "betygen" },
+      "example": { "sv": "Vi pratade om betygen på mötet.", "ru": "Мы говорили об оценках на собрании.", "en": "We talked about the grades at the meeting." }
+    },
+    {
+      "id": "laxor",
+      "sv": "läxor",
+      "translations": { "ru": "домашние задания", "en": "homework" },
+      "pos": "noun",
+      "note": { "ru": "слово всегда во мн.ч.", "en": "used only in plural form" },
+      "example": { "sv": "Har du gjort dina läxor?", "ru": "Ты сделал домашнее задание?", "en": "Have you done your homework?" }
+    },
+    {
+      "id": "boka-tid-med-lararen",
+      "sv": "boka en tid med läraren",
+      "translations": { "ru": "записаться на встречу с учителем", "en": "to book a meeting with the teacher" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vill boka en tid med läraren.", "ru": "Я хочу записаться на встречу с учителем.", "en": "I would like to book a meeting with the teacher." }
+    },
+    {
+      "id": "elev",
+      "sv": "elev",
+      "translations": { "ru": "ученик", "en": "pupil, student" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" },
+      "example": { "sv": "Alla elever i klassen fick ett brev.", "ru": "Все ученики в классе получили письмо.", "en": "All the pupils in the class got a letter." }
+    },
+    {
+      "id": "mentor",
+      "sv": "mentor",
+      "translations": { "ru": "классный руководитель, наставник", "en": "mentor, homeroom teacher" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mentor", "defSg": "mentorn", "indefPl": "mentorer", "defPl": "mentorerna" },
+      "example": { "sv": "Kontakta mentorn om du har frågor.", "ru": "Обратись к классному руководителю, если есть вопросы.", "en": "Contact the mentor if you have questions." }
+    },
+    {
+      "id": "termin",
+      "sv": "termin",
+      "translations": { "ru": "семестр, четверть", "en": "term" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en termin", "defSg": "terminen", "indefPl": "terminer", "defPl": "terminerna" },
+      "example": { "sv": "Höstterminen börjar i augusti.", "ru": "Осенний семестр начинается в августе.", "en": "The autumn term starts in August." }
+    },
+    {
+      "id": "inloggning",
+      "sv": "inloggning",
+      "translations": { "ru": "вход в систему (логин)", "en": "login" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inloggning", "defSg": "inloggningen", "indefPl": "inloggningar", "defPl": "inloggningarna" },
+      "example": { "sv": "Du behöver en inloggning till skolplattformen.", "ru": "Нужен вход в систему на школьной платформе.", "en": "You need a login for the school platform." }
+    },
+    {
+      "id": "meddelande",
+      "sv": "meddelande",
+      "translations": { "ru": "сообщение", "en": "message" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" },
+      "example": { "sv": "Läraren skickade ett meddelande på plattformen.", "ru": "Учитель отправил сообщение на платформе.", "en": "The teacher sent a message on the platform." }
+    }
+  ]
+}

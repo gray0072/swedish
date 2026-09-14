@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-preterite-four-groups-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое окончание получает группа 1 в претерите (arbeta)?", "en": "What ending does group 1 take in the preterite (arbeta)?" },
+      "choices": ["-ade", "-de", "-dde", "no ending, vowel change"],
+      "answer": 0
+    },
+    {
+      "id": "q-preterite-four-groups-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как будет претерит от «skriva» (группа 4)?", "en": "What is the preterite of \"skriva\" (group 4)?" },
+      "choices": ["skrivade", "skrivde", "skrev", "skrivit"],
+      "answer": 2
+    },
+    {
+      "id": "q-preterite-four-groups-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая группа образует претерит на «-dde» (bo, tro)?", "en": "Which group forms the preterite with \"-dde\" (bo, tro)?" },
+      "choices": ["Group 1", "Group 2", "Group 3", "Group 4"],
+      "answer": 2
+    },
+    {
+      "id": "q-preterite-four-groups-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Han ___ hela dagen. (arbeta)" },
+      "answer": ["arbetade"],
+      "acceptAlso": [],
+      "hint": { "ru": "группа 1: -ade", "en": "group 1: -ade" }
+    },
+    {
+      "id": "q-preterite-four-groups-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ middag klockan sju. (äta)" },
+      "answer": ["åt"],
+      "acceptAlso": [],
+      "hint": { "ru": "сильный глагол, смена гласной", "en": "strong verb, vowel change" }
+    },
+    {
+      "id": "q-preterite-four-groups-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она написала письмо.»", "en": "Build the sentence: \"She wrote a letter.\"" },
+      "tokens": ["ett", "brev", "skrev", "Hon"],
+      "answer": [3, 2, 0, 1]
+    },
+    {
+      "id": "q-preterite-four-groups-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь инфинитив с претеритом", "en": "Match the infinitive with its preterite" },
+      "pairs": [
+        ["arbeta", "arbetade"],
+        ["ringa", "ringde"],
+        ["bo", "bodde"],
+        ["skriva", "skrev"],
+        ["äta", "åt"]
+      ]
+    },
+    {
+      "id": "q-preterite-four-groups-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Претерит от «läsa» — «läste».", "en": "The preterite of \"läsa\" is \"läste\"." },
+      "answer": true
+    },
+    {
+      "id": "q-preterite-four-groups-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Сильные глаголы (группа 4) добавляют окончание «-de» в претерите.", "en": "Strong verbs (group 4) add the ending \"-de\" in the preterite." },
+      "answer": false,
+      "explanation": { "ru": "Сильные глаголы меняют гласную и не добавляют окончание: skriva → skrev.", "en": "Strong verbs change their vowel and take no ending: skriva → skrev." }
+    },
+    {
+      "id": "q-preterite-four-groups-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Igår läste jag en bok och sedan ringde jag till min mamma.",
+      "prompt": { "ru": "Что говорящий сделал сначала?", "en": "What did the speaker do first?" },
+      "choices": [
+        { "ru": "Прочитал книгу", "en": "Read a book" },
+        { "ru": "Позвонил маме", "en": "Called their mom" },
+        { "ru": "Поработал", "en": "Worked" },
+        { "ru": "Поел", "en": "Ate" }
+      ],
+      "answer": 0
+    }
+  ]
+}

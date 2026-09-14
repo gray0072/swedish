@@ -1,0 +1,107 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-supine-strong-verbs-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что такое супин?", "en": "What is the supine?" },
+      "choices": [
+        "the verb's fourth form, used with har/hade",
+        "the present-tense form",
+        "the imperative form",
+        "the infinitive with att"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-supine-strong-verbs-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как будет супин от «äta»?", "en": "What is the supine of \"äta\"?" },
+      "choices": ["åt", "äter", "ätit", "äta"],
+      "answer": 2
+    },
+    {
+      "id": "q-supine-strong-verbs-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как будет супин от «se»?", "en": "What is the supine of \"se\"?" },
+      "choices": ["ser", "såg", "sett", "sedd"],
+      "answer": 2
+    },
+    {
+      "id": "q-supine-strong-verbs-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag har ___ ett brev. (skriva)" },
+      "answer": ["skrivit"],
+      "acceptAlso": [],
+      "hint": { "ru": "супин от «skriva»", "en": "supine of \"skriva\"" }
+    },
+    {
+      "id": "q-supine-strong-verbs-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han har ___ kaffe. (dricka)" },
+      "answer": ["druckit"],
+      "acceptAlso": [],
+      "hint": { "ru": "супин от «dricka»", "en": "supine of \"dricka\"" }
+    },
+    {
+      "id": "q-supine-strong-verbs-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Мы уже поели.»", "en": "Build the sentence: \"We have already eaten.\"" },
+      "tokens": ["ätit", "redan", "har", "Vi"],
+      "answer": [3, 2, 1, 0]
+    },
+    {
+      "id": "q-supine-strong-verbs-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь инфинитив с супином", "en": "Match the infinitive with its supine" },
+      "pairs": [
+        ["skriva", "skrivit"],
+        ["äta", "ätit"],
+        ["dricka", "druckit"],
+        ["sova", "sovit"],
+        ["ta", "tagit"],
+        ["se", "sett"]
+      ]
+    },
+    {
+      "id": "q-supine-strong-verbs-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Супин используется вместе с har/hade.", "en": "The supine is used together with har/hade." },
+      "answer": true
+    },
+    {
+      "id": "q-supine-strong-verbs-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Супин от «arbeta» — «arbetade».", "en": "The supine of \"arbeta\" is \"arbetade\"." },
+      "answer": false,
+      "explanation": { "ru": "«Arbetade» — это претерит. Супин — «arbetat».", "en": "\"Arbetade\" is the preterite. The supine is \"arbetat\"." }
+    },
+    {
+      "id": "q-supine-strong-verbs-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag har sprungit fem kilometer och sedan har jag sovit gott.",
+      "prompt": { "ru": "Что говорящий сделал сначала?", "en": "What did the speaker do first?" },
+      "choices": [
+        { "ru": "Пробежал пять километров", "en": "Ran five kilometers" },
+        { "ru": "Хорошо поспал", "en": "Slept well" },
+        { "ru": "Выпил кофе", "en": "Drank coffee" },
+        { "ru": "Написал письмо", "en": "Wrote a letter" }
+      ],
+      "answer": 0
+    }
+  ]
+}

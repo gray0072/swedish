@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-indirect-question-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как вежливо спросить, где вокзал?", "en": "How do you politely ask where the station is?" },
+      "choices": ["Vet du var stationen är?", "Var är stationen är?", "Är stationen var?", "Vet du är stationen var?"],
+      "answer": 0
+    },
+    {
+      "id": "q-indirect-question-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В косвенном вопросе без вопросительного слова используется союз «om».", "en": "An embedded yes/no question with no question word uses the conjunction \"om\"." },
+      "answer": true
+    },
+    {
+      "id": "q-indirect-question-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Vet du var stationen är?» использует такой же порядок слов, как прямой вопрос «Var är stationen?»", "en": "\"Vet du var stationen är?\" uses the same word order as the direct question \"Var är stationen?\"" },
+      "answer": false,
+      "explanation": {
+        "ru": "В косвенном вопросе порядок слов такой же, как в придаточном предложении: глагол идёт после подлежащего (var stationen är), а не перед ним.",
+        "en": "The embedded question uses subordinate-clause word order: the verb comes after the subject (var stationen är), not before it as in a direct question."
+      }
+    },
+    {
+      "id": "q-indirect-question-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Можешь сказать, открыт ли магазин?»", "en": "Build the sentence: \"Can you say if the shop is open?\"" },
+      "tokens": ["säga", "affären", "Kan", "om", "du", "är", "öppen?"],
+      "answer": [2, 4, 0, 3, 1, 5, 6]
+    },
+    {
+      "id": "q-indirect-question-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag undrar ___ hon kommer." },
+      "answer": ["om"],
+      "acceptAlso": [],
+      "hint": { "ru": "ли", "en": "if/whether" }
+    },
+    {
+      "id": "q-indirect-question-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вопрос и его смысл", "en": "Match the question with its meaning" },
+      "pairs": [
+        ["Vet du var stationen är?", "Do you know where the station is?"],
+        ["Kan du säga om affären är öppen?", "Can you say if the shop is open?"],
+        ["Jag undrar om hon kommer.", "I wonder if she is coming."],
+        ["Han frågade om jag visste var stationen var.", "He asked if I knew where the station was."]
+      ]
+    },
+    {
+      "id": "q-indirect-question-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Vet du var jag kan parkera?",
+      "prompt": { "ru": "О чём спрашивает человек?", "en": "What is the person asking about?" },
+      "choices": [
+        { "ru": "Где можно припарковаться", "en": "Where they can park" },
+        { "ru": "Когда открывается магазин", "en": "When the shop opens" },
+        { "ru": "Опаздывает ли поезд", "en": "If the train is delayed" },
+        { "ru": "Который час", "en": "What time it is" }
+      ],
+      "answer": 0
+    }
+  ]
+}

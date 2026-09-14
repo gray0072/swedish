@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "reflexive-mig",
+      "sv": "mig",
+      "translations": { "ru": "себя (я)", "en": "myself" },
+      "pos": "pron",
+      "example": { "sv": "Jag tvättar mig.", "ru": "Я моюсь.", "en": "I wash myself." }
+    },
+    {
+      "id": "reflexive-dig",
+      "sv": "dig",
+      "translations": { "ru": "себя (ты)", "en": "yourself" },
+      "pos": "pron",
+      "example": { "sv": "Du tvättar dig.", "ru": "Ты моешься.", "en": "You wash yourself." }
+    },
+    {
+      "id": "reflexive-sig",
+      "sv": "sig",
+      "translations": { "ru": "себя (он/она/они)", "en": "himself/herself/themselves" },
+      "pos": "pron",
+      "note": { "ru": "Одна и та же форма для 3-го лица ед. и мн. числа.", "en": "Same form for 3rd person singular and plural." },
+      "example": { "sv": "Hon tvättar sig.", "ru": "Она моется.", "en": "She washes herself." }
+    },
+    {
+      "id": "reflexive-oss",
+      "sv": "oss",
+      "translations": { "ru": "себя (мы)", "en": "ourselves" },
+      "pos": "pron",
+      "example": { "sv": "Vi tvättar oss.", "ru": "Мы моемся.", "en": "We wash ourselves." }
+    },
+    {
+      "id": "reflexive-er",
+      "sv": "er",
+      "translations": { "ru": "себя (вы)", "en": "yourselves" },
+      "pos": "pron",
+      "example": { "sv": "Ni tvättar er.", "ru": "Вы моетесь.", "en": "You (pl.) wash yourselves." }
+    },
+    {
+      "id": "tvatta-sig",
+      "sv": "tvätta sig",
+      "translations": { "ru": "мыться", "en": "to wash oneself" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tvätta sig", "present": "tvättar sig", "past": "tvättade sig", "supine": "tvättat sig" },
+      "example": { "sv": "Barnen tvättar sig innan de äter.", "ru": "Дети моются перед едой.", "en": "The children wash themselves before eating." }
+    },
+    {
+      "id": "kanna-sig",
+      "sv": "känna sig",
+      "translations": { "ru": "чувствовать себя", "en": "to feel (a certain way)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "känna sig", "present": "känner sig", "past": "kände sig", "supine": "känt sig" },
+      "example": { "sv": "Jag känner mig trött idag.", "ru": "Я чувствую себя усталым сегодня.", "en": "I feel tired today." }
+    },
+    {
+      "id": "raka-sig",
+      "sv": "raka sig",
+      "translations": { "ru": "бриться", "en": "to shave (oneself)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "raka sig", "present": "rakar sig", "past": "rakade sig", "supine": "rakat sig" },
+      "example": { "sv": "Han rakar sig varje morgon.", "ru": "Он бреется каждое утро.", "en": "He shaves every morning." }
+    },
+    {
+      "id": "satta-sig",
+      "sv": "sätta sig",
+      "translations": { "ru": "сесть, садиться", "en": "to sit down" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sätta sig", "present": "sätter sig", "past": "satte sig", "supine": "satt sig" },
+      "example": { "sv": "Kan du sätta dig, tack?", "ru": "Не мог бы ты сесть, пожалуйста?", "en": "Could you sit down, please?" }
+    },
+    {
+      "id": "skynda-sig",
+      "sv": "skynda sig",
+      "translations": { "ru": "торопиться, спешить", "en": "to hurry" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skynda sig", "present": "skyndar sig", "past": "skyndade sig", "supine": "skyndat sig" },
+      "example": { "sv": "Vi måste skynda oss!", "ru": "Нам надо поторопиться!", "en": "We have to hurry!" }
+    },
+    {
+      "id": "kla-sig",
+      "sv": "klä sig",
+      "translations": { "ru": "одеваться", "en": "to get dressed" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "klä sig", "present": "klär sig", "past": "klädde sig", "supine": "klätt sig" },
+      "example": { "sv": "Hon klär sig varmt på vintern.", "ru": "Она тепло одевается зимой.", "en": "She dresses warmly in winter." }
+    }
+  ]
+}

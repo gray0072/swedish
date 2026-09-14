@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "jag-tycker-att",
+      "sv": "Jag tycker att …",
+      "translations": { "ru": "Я считаю, что …", "en": "I think that …" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tycker att skolan är bra.", "ru": "Я считаю, что школа хорошая.", "en": "I think the school is good." }
+    },
+    {
+      "id": "eftersom",
+      "sv": "eftersom",
+      "translations": { "ru": "потому что, так как", "en": "because, since" },
+      "pos": "conjunction",
+      "example": { "sv": "Jag tycker att skolan är bra eftersom lärarna är trevliga.", "ru": "Я считаю, что школа хорошая, потому что учителя приветливые.", "en": "I think the school is good because the teachers are friendly." }
+    },
+    {
+      "id": "jag-tror-att",
+      "sv": "Jag tror att …",
+      "translations": { "ru": "Я думаю, что …", "en": "I believe/think that …" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tror att det blir bättre väder imorgon.", "ru": "Я думаю, завтра погода будет лучше.", "en": "I think the weather will be better tomorrow." }
+    },
+    {
+      "id": "jag-anser-att",
+      "sv": "Jag anser att …",
+      "translations": { "ru": "Я полагаю, что …", "en": "I consider that …" },
+      "pos": "phrase",
+      "note": { "ru": "чуть более формально, чем «tycker»", "en": "slightly more formal than \"tycker\"" },
+      "example": { "sv": "Jag anser att alla borde få gå i skolan.", "ru": "Я полагаю, что все должны иметь возможность ходить в школу.", "en": "I consider that everyone should be able to go to school." }
+    },
+    {
+      "id": "vader",
+      "sv": "väder",
+      "translations": { "ru": "погода", "en": "weather" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett väder", "defSg": "vädret", "indefPl": "väder", "defPl": "vädren" },
+      "example": { "sv": "Vädret är fint idag.", "ru": "Погода сегодня хорошая.", "en": "The weather is nice today." }
+    },
+    {
+      "id": "trevlig",
+      "sv": "trevlig",
+      "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
+      "pos": "adj",
+      "example": { "sv": "Läraren är trevlig.", "ru": "Учитель приятный.", "en": "The teacher is nice." }
+    },
+    {
+      "id": "viktigt",
+      "sv": "viktigt",
+      "translations": { "ru": "важно", "en": "important" },
+      "pos": "adj",
+      "example": { "sv": "Jag tycker att det är viktigt att äta frukost.", "ru": "Я считаю, что важно завтракать.", "en": "I think it's important to eat breakfast." }
+    },
+    {
+      "id": "svart-mat",
+      "sv": "svårt",
+      "translations": { "ru": "трудно", "en": "difficult" },
+      "pos": "adj",
+      "example": { "sv": "Jag tycker att svenska är svårt eftersom uttalet är annorlunda.", "ru": "Я считаю, что шведский трудный, потому что произношение другое.", "en": "I think Swedish is difficult because the pronunciation is different." }
+    },
+    {
+      "id": "roligt",
+      "sv": "roligt",
+      "translations": { "ru": "весело, интересно", "en": "fun" },
+      "pos": "adj",
+      "example": { "sv": "Jag tycker att det är roligt att laga mat.", "ru": "Я считаю, что готовить весело.", "en": "I think cooking is fun." }
+    },
+    {
+      "id": "uttal",
+      "sv": "uttal",
+      "translations": { "ru": "произношение", "en": "pronunciation" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett uttal", "defSg": "uttalet", "indefPl": "uttal", "defPl": "uttalen" },
+      "example": { "sv": "Uttalet är svårt i början.", "ru": "Произношение сначала сложное.", "en": "The pronunciation is hard at first." }
+    }
+  ]
+}

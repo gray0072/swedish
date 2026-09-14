@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "mobilabonnemang",
+      "sv": "mobilabonnemang",
+      "translations": { "ru": "мобильная подписка (абонемент)", "en": "mobile subscription" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mobilabonnemang", "defSg": "mobilabonnemanget", "indefPl": "mobilabonnemang", "defPl": "mobilabonnemangen" },
+      "example": { "sv": "Jag vill teckna ett mobilabonnemang.", "ru": "Я хочу оформить мобильную подписку.", "en": "I want to sign up for a mobile subscription." }
+    },
+    {
+      "id": "teckna-abonnemang",
+      "sv": "teckna ett abonnemang",
+      "translations": { "ru": "оформить подписку/абонемент", "en": "to sign up for a subscription" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag teckna ett abonnemang här?", "ru": "Могу я оформить подписку здесь?", "en": "Can I sign up for a subscription here?" }
+    },
+    {
+      "id": "kontantkort",
+      "sv": "kontantkort",
+      "translations": { "ru": "предоплаченная сим-карта (без абонемента)", "en": "prepaid SIM card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kontantkort", "defSg": "kontantkortet", "indefPl": "kontantkort", "defPl": "kontantkorten" },
+      "example": { "sv": "Jag har kontantkort istället för abonnemang.", "ru": "У меня предоплаченная карта вместо абонемента.", "en": "I have a prepaid card instead of a subscription." }
+    },
+    {
+      "id": "operator",
+      "sv": "operatör",
+      "translations": { "ru": "оператор связи", "en": "network operator" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en operatör", "defSg": "operatören", "indefPl": "operatörer", "defPl": "operatörerna" },
+      "example": { "sv": "Vilken operatör har du?", "ru": "Какой у тебя оператор?", "en": "Which operator do you have?" }
+    },
+    {
+      "id": "wifi",
+      "sv": "wifi",
+      "translations": { "ru": "вайфай", "en": "wifi" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Har ni wifi här?", "ru": "У вас здесь есть вайфай?", "en": "Do you have wifi here?" }
+    },
+    {
+      "id": "uppkoppling",
+      "sv": "uppkoppling",
+      "translations": { "ru": "подключение (к интернету)", "en": "connection" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppkoppling", "defSg": "uppkopplingen", "indefPl": "uppkopplingar", "defPl": "uppkopplingarna" },
+      "example": { "sv": "Uppkopplingen är långsam idag.", "ru": "Соединение сегодня медленное.", "en": "The connection is slow today." }
+    },
+    {
+      "id": "surfplatta",
+      "sv": "surfplatta",
+      "translations": { "ru": "планшет", "en": "tablet" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en surfplatta", "defSg": "surfplattan", "indefPl": "surfplattor", "defPl": "surfplattorna" },
+      "example": { "sv": "Barnet läser på en surfplatta.", "ru": "Ребёнок читает на планшете.", "en": "The child reads on a tablet." }
+    },
+    {
+      "id": "simkort",
+      "sv": "simkort",
+      "translations": { "ru": "сим-карта", "en": "SIM card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett simkort", "defSg": "simkortet", "indefPl": "simkort", "defPl": "simkorten" },
+      "example": { "sv": "Jag behöver ett nytt simkort.", "ru": "Мне нужна новая сим-карта.", "en": "I need a new SIM card." }
+    },
+    {
+      "id": "bredband",
+      "sv": "bredband",
+      "translations": { "ru": "широкополосный интернет", "en": "broadband" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Vi har bredband hemma.", "ru": "У нас дома есть широкополосный интернет.", "en": "We have broadband at home." }
+    },
+    {
+      "id": "rakning-tele",
+      "sv": "telefonräkning",
+      "translations": { "ru": "счёт за телефон", "en": "phone bill" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en telefonräkning", "defSg": "telefonräkningen", "indefPl": "telefonräkningar", "defPl": "telefonräkningarna" },
+      "example": { "sv": "Telefonräkningen kom idag.", "ru": "Счёт за телефон пришёл сегодня.", "en": "The phone bill arrived today." }
+    },
+    {
+      "id": "vad-kostar-abonnemanget",
+      "sv": "Vad kostar abonnemanget?",
+      "translations": { "ru": "Сколько стоит подписка?", "en": "How much does the subscription cost?" },
+      "pos": "phrase",
+      "example": { "sv": "Vad kostar abonnemanget per månad?", "ru": "Сколько стоит подписка в месяц?", "en": "How much does the subscription cost per month?" }
+    }
+  ]
+}

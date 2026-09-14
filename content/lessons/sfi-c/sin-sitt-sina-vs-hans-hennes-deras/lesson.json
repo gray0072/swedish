@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/sin-sitt-sina-vs-hans-hennes-deras",
+  "slug": "sin-sitt-sina-vs-hans-hennes-deras",
+  "title": {
+    "sv": "sin/sitt/sina eller hans/hennes/deras",
+    "ru": "sin/sitt/sina против hans/hennes/deras",
+    "en": "sin/sitt/sina versus hans/hennes/deras"
+  },
+  "summary": {
+    "ru": "sin/sitt/sina — только для владельца-подлежащего; hans/hennes/deras — для чужого владельца.",
+    "en": "sin/sitt/sina point back to the subject; hans/hennes/deras point to someone else's possession."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "pronouns",
+    "possessives"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 580,
+  "prerequisites": [
+    "sfi-b/possessives"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

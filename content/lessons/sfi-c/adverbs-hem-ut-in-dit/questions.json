@@ -1,0 +1,99 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adverbs-hem-ut-in-dit-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я иду домой в пять.»", "en": "Build the sentence: \"I go home at five.\"" },
+      "tokens": ["klockan", "hem", "Jag", "fem", "går"],
+      "answer": [2, 4, 1, 0, 3]
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Дети играют на улице.»", "en": "Build the sentence: \"The children are playing outside.\"" },
+      "tokens": ["leker", "Barnen", "ute"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag är ___ ikväll. (дома, нахождение)" },
+      "answer": ["hemma"],
+      "acceptAlso": [],
+      "hint": { "ru": "дома (нахождение)", "en": "at home (location)" }
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kom ___! (внутрь, движение)" },
+      "answer": ["in"],
+      "acceptAlso": [],
+      "hint": { "ru": "внутрь (движение)", "en": "in (movement)" }
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hemma» используется для движения, а «hem» — для нахождения.", "en": "\"Hemma\" is used for movement, and \"hem\" for location." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот: «hem» — движение (идти домой), «hemma» — нахождение (быть дома).",
+        "en": "It's the other way around: \"hem\" is movement (go home), \"hemma\" is location (be at home)."
+      }
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Där» означает нахождение («там»), а «dit» — направление («туда»).", "en": "\"Där\" means location (\"there\"), and \"dit\" means direction (\"to there\")." },
+      "answer": true
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь наречие с его типом", "en": "Match the adverb with its type" },
+      "pairs": [
+        ["hem", "движение"],
+        ["hemma", "нахождение"],
+        ["ut", "движение"],
+        ["ute", "нахождение"],
+        ["in", "движение"],
+        ["inne", "нахождение"]
+      ]
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Он выходит в сад» (движение наружу)?", "en": "How do you say \"He goes out into the garden\" (movement outward)?" },
+      "choices": ["Han går ut i trädgården.", "Han är ute i trädgården.", "Han går in i trädgården.", "Han är inne i trädgården."],
+      "answer": 0
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Я поеду туда завтра» (направление)?", "en": "How do you say \"I'm going there tomorrow\" (direction)?" },
+      "choices": ["Jag ska dit imorgon.", "Jag ska där imorgon.", "Jag är dit imorgon.", "Jag är där imorgon."],
+      "answer": 0
+    },
+    {
+      "id": "q-adverbs-hem-ut-in-dit-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи: «Моя сестра живёт там.»", "en": "Translate: \"My sister lives there.\"" },
+      "answer": ["Min syster bor där."],
+      "hint": { "ru": "bo + där (нахождение)", "en": "bo + där (location)" }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": "ganska",
+      "sv": "ganska",
+      "translations": { "ru": "довольно, достаточно", "en": "fairly, rather" },
+      "pos": "adv",
+      "example": { "sv": "Det är ganska varmt idag.", "ru": "Сегодня довольно тепло.", "en": "It is fairly warm today." }
+    },
+    {
+      "id": "valdigt",
+      "sv": "väldigt",
+      "translations": { "ru": "очень", "en": "very" },
+      "pos": "adv",
+      "example": { "sv": "Det är väldigt kallt.", "ru": "Очень холодно.", "en": "It is very cold." }
+    },
+    {
+      "id": "alltfor",
+      "sv": "alltför",
+      "translations": { "ru": "слишком, чересчур", "en": "too, excessively" },
+      "pos": "adv",
+      "example": { "sv": "Det är alltför dyrt.", "ru": "Это слишком дорого.", "en": "It is too expensive." }
+    },
+    {
+      "id": "sallan",
+      "sv": "sällan",
+      "translations": { "ru": "редко", "en": "rarely, seldom" },
+      "pos": "adv",
+      "example": { "sv": "Jag äter sällan kött.", "ru": "Я редко ем мясо.", "en": "I rarely eat meat." }
+    },
+    {
+      "id": "ibland",
+      "sv": "ibland",
+      "translations": { "ru": "иногда", "en": "sometimes" },
+      "pos": "adv",
+      "example": { "sv": "Vi går ibland på bio.", "ru": "Мы иногда ходим в кино.", "en": "We sometimes go to the cinema." }
+    },
+    {
+      "id": "redan",
+      "sv": "redan",
+      "translations": { "ru": "уже", "en": "already" },
+      "pos": "adv",
+      "example": { "sv": "Hon är redan klar.", "ru": "Она уже готова.", "en": "She is already ready." }
+    },
+    {
+      "id": "mycket",
+      "sv": "mycket",
+      "translations": { "ru": "очень, много", "en": "very, a lot" },
+      "pos": "adv",
+      "example": { "sv": "Det är mycket viktigt.", "ru": "Это очень важно.", "en": "It is very important." }
+    },
+    {
+      "id": "helt",
+      "sv": "helt",
+      "translations": { "ru": "полностью, совсем", "en": "completely, entirely" },
+      "pos": "adv",
+      "example": { "sv": "Jag är helt trött.", "ru": "Я совсем устал(а).", "en": "I am completely tired." }
+    },
+    {
+      "id": "ofta",
+      "sv": "ofta",
+      "translations": { "ru": "часто", "en": "often" },
+      "pos": "adv",
+      "example": { "sv": "Han tränar ofta.", "ru": "Он часто тренируется.", "en": "He often trains." }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "example": { "sv": "Bilen är alltför dyr.", "ru": "Машина слишком дорогая.", "en": "The car is too expensive." }
+    },
+    {
+      "id": "trott",
+      "sv": "trött",
+      "translations": { "ru": "усталый", "en": "tired" },
+      "pos": "adj",
+      "example": { "sv": "Jag är ganska trött.", "ru": "Я довольно устал(а).", "en": "I am fairly tired." }
+    },
+    {
+      "id": "trakig",
+      "sv": "tråkig",
+      "translations": { "ru": "скучный", "en": "boring" },
+      "pos": "adj",
+      "example": { "sv": "Filmen var väldigt tråkig.", "ru": "Фильм был очень скучным.", "en": "The film was very boring." }
+    },
+    {
+      "id": "svar",
+      "sv": "svår",
+      "translations": { "ru": "трудный", "en": "difficult" },
+      "pos": "adj",
+      "example": { "sv": "Provet var ganska svårt.", "ru": "Экзамен был довольно трудным.", "en": "The test was fairly difficult." }
+    }
+  ]
+}

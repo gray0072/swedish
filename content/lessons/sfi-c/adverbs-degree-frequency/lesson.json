@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/adverbs-degree-frequency",
+  "slug": "adverbs-degree-frequency",
+  "title": {
+    "sv": "Gradadverb och frekvensadverb: ganska, väldigt, alltför, sällan, ibland",
+    "ru": "Наречия степени и частоты: ganska, väldigt, alltför, sällan, ibland",
+    "en": "Adverbs of degree and frequency: ganska, väldigt, alltför, sällan, ibland"
+  },
+  "summary": {
+    "ru": "Наречия степени перед прилагательным и наречия частоты — на той же позиции, что и satsadverbial.",
+    "en": "Degree adverbs before an adjective, and frequency adverbs placed like the sentence adverbs you already know."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "adverbs",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 680,
+  "prerequisites": [
+    "sfi-b/sentence-adverbs"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

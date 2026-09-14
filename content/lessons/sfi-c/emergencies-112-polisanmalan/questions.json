@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-emerg-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хочу заявить о краже.»", "en": "Build the sentence: \"I want to report a theft.\"" },
+      "tokens": ["anmäla", "vill", "en", "Jag", "stöld"],
+      "answer": [3, 1, 0, 2, 4]
+    },
+    {
+      "id": "q-emerg-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Мой паспорт пропал.»", "en": "Build the sentence: \"My passport is gone.\"" },
+      "tokens": ["borta", "Mitt", "är", "pass"],
+      "answer": [1, 3, 2, 0]
+    },
+    {
+      "id": "q-emerg-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["stöld", "кража"],
+        ["polisanmälan", "заявление в полицию"],
+        ["ambulans", "скорая помощь"],
+        ["dokument", "документ"]
+      ]
+    },
+    {
+      "id": "q-emerg-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "112 в Швеции — это единый номер для скорой, полиции и пожарной службы.",
+        "en": "112 in Sweden is the single number for ambulance, police, and fire brigade."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-emerg-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Polisanmälan» — это заявление, которое подают, только если кто-то ранен.",
+        "en": "A \"polisanmälan\" can only be filed if someone is injured."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Polisanmälan» подают и при краже, и при утере документов — травма не обязательна.",
+        "en": "A \"polisanmälan\" is also filed for theft or lost documents — an injury is not required."
+      }
+    },
+    {
+      "id": "q-emerg-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Kan du ___ vad som hände? (описать)" },
+      "answer": ["beskriva"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-emerg-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Någon är medvetslös på gatan. Vad ropar du?",
+        "en": "Someone is unconscious on the street. What do you shout?"
+      },
+      "choices": ["Ring 112!", "Vi ses efter rasten.", "Kan jag skicka min ansökan?", "Har ni någon ledig tid?"],
+      "answer": 0
+    },
+    {
+      "id": "q-emerg-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Mitt pass är borta.",
+      "prompt": { "en": "What is the person saying?", "ru": "Что говорит человек?" },
+      "choices": [
+        { "en": "Their passport is gone", "ru": "Их паспорт пропал" },
+        { "en": "They need an ambulance", "ru": "Им нужна скорая помощь" },
+        { "en": "They have a fever", "ru": "У них температура" },
+        { "en": "They want to book an appointment", "ru": "Они хотят записаться на приём" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-emerg-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "How do you say \"I want to report a theft\" in Swedish?", "ru": "Как по-шведски сказать «Я хочу заявить о краже»?" },
+      "answer": ["Jag vill anmäla en stöld.", "Jag vill anmäla en stöld"]
+    }
+  ]
+}

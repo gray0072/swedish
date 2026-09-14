@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": "ska-plus-inf",
+      "sv": "ska",
+      "translations": { "ru": "собираться (сделать что-то), вспомогательный глагол будущего времени", "en": "going to, will (auxiliary for plans)" },
+      "pos": "verb",
+      "example": { "sv": "Jag ska resa i sommar.", "ru": "Я собираюсь путешествовать этим летом.", "en": "I'm going to travel this summer." }
+    },
+    {
+      "id": "tanker",
+      "sv": "tänker",
+      "translations": { "ru": "собирается, планирует (что-то сделать)", "en": "is planning to, intends to" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tänka", "present": "tänker", "past": "tänkte", "supine": "tänkt" },
+      "example": { "sv": "Vi tänker flytta nästa år.", "ru": "Мы планируем переехать в следующем году.", "en": "We're planning to move next year." }
+    },
+    {
+      "id": "bjuda-in",
+      "sv": "bjuda in",
+      "translations": { "ru": "приглашать (кого-то)", "en": "to invite someone" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "bjuda in", "present": "bjuder in", "past": "bjöd in", "supine": "bjudit in" },
+      "example": { "sv": "Jag vill bjuda in dig på middag.", "ru": "Я хочу пригласить тебя на ужин.", "en": "I'd like to invite you for dinner." }
+    },
+    {
+      "id": "inbjudan",
+      "sv": "inbjudan",
+      "translations": { "ru": "приглашение", "en": "invitation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en inbjudan", "defSg": "inbjudan", "indefPl": "inbjudningar", "defPl": "inbjudningarna" },
+      "example": { "sv": "Tack för inbjudan!", "ru": "Спасибо за приглашение!", "en": "Thanks for the invitation!" }
+    },
+    {
+      "id": "tacka-ja",
+      "sv": "tacka ja",
+      "translations": { "ru": "принять приглашение (сказать «да»)", "en": "to accept (an invitation)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag tackar ja till middagen.", "ru": "Я принимаю приглашение на ужин.", "en": "I accept the invitation to dinner." }
+    },
+    {
+      "id": "tacka-nej",
+      "sv": "tacka nej",
+      "translations": { "ru": "отклонить приглашение (сказать «нет»)", "en": "to decline (an invitation)" },
+      "pos": "phrase",
+      "example": { "sv": "Jag måste tacka nej den här gången.", "ru": "На этот раз мне придётся отказаться.", "en": "I have to decline this time." }
+    },
+    {
+      "id": "komma-pa-middag",
+      "sv": "komma på middag",
+      "translations": { "ru": "прийти на ужин", "en": "to come for dinner" },
+      "pos": "phrase",
+      "example": { "sv": "Vill du komma på middag på lördag?", "ru": "Хочешь прийти на ужин в субботу?", "en": "Do you want to come for dinner on Saturday?" }
+    },
+    {
+      "id": "plan",
+      "sv": "plan",
+      "translations": { "ru": "план", "en": "plan" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en plan", "defSg": "planen", "indefPl": "planer", "defPl": "planerna" },
+      "example": { "sv": "Vad har du för planer i sommar?", "ru": "Какие у тебя планы на лето?", "en": "What are your plans for the summer?" }
+    },
+    {
+      "id": "resa-verb",
+      "sv": "resa",
+      "translations": { "ru": "путешествовать, ездить", "en": "to travel" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Jag ska resa till Grekland.", "ru": "Я собираюсь поехать в Грецию.", "en": "I'm going to travel to Greece." }
+    },
+    {
+      "id": "flytta",
+      "sv": "flytta",
+      "translations": { "ru": "переезжать", "en": "to move (house)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Vi tänker flytta till en större lägenhet.", "ru": "Мы планируем переехать в квартиру побольше.", "en": "We're planning to move to a bigger apartment." }
+    },
+    {
+      "id": "kanske",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe" },
+      "pos": "adv",
+      "example": { "sv": "Kanske ska jag resa i sommar.", "ru": "Может быть, я поеду путешествовать летом.", "en": "Maybe I'll travel this summer." }
+    },
+    {
+      "id": "i-sommar",
+      "sv": "i sommar",
+      "translations": { "ru": "этим летом", "en": "this coming summer" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska resa i sommar.", "ru": "Я собираюсь путешествовать этим летом.", "en": "I'm going to travel this summer." }
+    },
+    {
+      "id": "nasta-ar",
+      "sv": "nästa år",
+      "translations": { "ru": "в следующем году", "en": "next year" },
+      "pos": "phrase",
+      "example": { "sv": "Vi tänker flytta nästa år.", "ru": "Мы планируем переехать в следующем году.", "en": "We're planning to move next year." }
+    },
+    {
+      "id": "fest",
+      "sv": "fest",
+      "translations": { "ru": "вечеринка", "en": "party" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" },
+      "example": { "sv": "Vi ska ha en fest på lördag.", "ru": "У нас будет вечеринка в субботу.", "en": "We're having a party on Saturday." }
+    }
+  ]
+}

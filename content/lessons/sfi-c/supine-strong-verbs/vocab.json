@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "arbeta-arbetat",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Jag har arbetat hela dagen.", "ru": "Я работал весь день.", "en": "I have worked all day." }
+    },
+    {
+      "id": "skriva-skrivit",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Hon har skrivit ett brev.", "ru": "Она написала письмо.", "en": "She has written a letter." }
+    },
+    {
+      "id": "ata-atit",
+      "sv": "äta",
+      "translations": { "ru": "есть, кушать", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Vi har ätit redan.", "ru": "Мы уже поели.", "en": "We have already eaten." }
+    },
+    {
+      "id": "dricka-druckit",
+      "sv": "dricka",
+      "translations": { "ru": "пить", "en": "to drink" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "dricka", "present": "dricker", "past": "drack", "supine": "druckit" },
+      "example": { "sv": "Han har druckit kaffe.", "ru": "Он выпил кофе.", "en": "He has drunk coffee." }
+    },
+    {
+      "id": "springa-sprungit",
+      "sv": "springa",
+      "translations": { "ru": "бежать", "en": "to run" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" },
+      "example": { "sv": "Jag har sprungit fem kilometer.", "ru": "Я пробежал пять километров.", "en": "I have run five kilometers." }
+    },
+    {
+      "id": "sova-sovit",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Har du sovit gott?", "ru": "Ты хорошо поспал?", "en": "Have you slept well?" }
+    },
+    {
+      "id": "ta-tagit",
+      "sv": "ta",
+      "translations": { "ru": "брать", "en": "to take" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ta", "present": "tar", "past": "tog", "supine": "tagit" },
+      "example": { "sv": "Hon har tagit bussen.", "ru": "Она поехала на автобусе.", "en": "She has taken the bus." }
+    },
+    {
+      "id": "se-sett",
+      "sv": "se",
+      "translations": { "ru": "видеть", "en": "to see" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "example": { "sv": "Vi har sett den filmen.", "ru": "Мы видели этот фильм.", "en": "We have seen that movie." }
+    }
+  ]
+}

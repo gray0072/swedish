@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": "apotek",
+      "sv": "apotek",
+      "translations": { "ru": "аптека", "en": "pharmacy" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" },
+      "example": { "sv": "Var ligger närmaste apotek?", "ru": "Где ближайшая аптека?", "en": "Where is the nearest pharmacy?" }
+    },
+    {
+      "id": "receptfri",
+      "sv": "receptfri",
+      "translations": { "ru": "безрецептурный, без рецепта", "en": "over the counter, without prescription" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: receptfritt, мн.ч.: receptfria", "en": "ett-form: receptfritt, plural: receptfria" },
+      "example": { "sv": "Det här läkemedlet är receptfritt.", "ru": "Это лекарство продаётся без рецепта.", "en": "This medicine is available over the counter." }
+    },
+    {
+      "id": "vaerktablett",
+      "sv": "värktablett",
+      "translations": { "ru": "обезболивающая таблетка", "en": "painkiller (tablet)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en värktablett", "defSg": "värktabletten", "indefPl": "värktabletter", "defPl": "värktabletterna" },
+      "example": { "sv": "Jag behöver några värktabletter.", "ru": "Мне нужны обезболивающие таблетки.", "en": "I need some painkillers." }
+    },
+    {
+      "id": "hosta",
+      "sv": "hosta",
+      "translations": { "ru": "кашлять", "en": "to cough" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hosta", "present": "hostar", "past": "hostade", "supine": "hostat" },
+      "example": { "sv": "Jag har hostat i tre dagar.", "ru": "Я кашляю уже три дня.", "en": "I've been coughing for three days." }
+    },
+    {
+      "id": "forkyld",
+      "sv": "förkyld",
+      "translations": { "ru": "простуженный", "en": "having a cold" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: förkylt, мн.ч.: förkylda", "en": "ett-form: förkylt, plural: förkylda" },
+      "example": { "sv": "Jag är förkyld och har ont i halsen.", "ru": "Я простужен(а), и у меня болит горло.", "en": "I have a cold and a sore throat." }
+    },
+    {
+      "id": "forkylning",
+      "sv": "förkylning",
+      "translations": { "ru": "простуда", "en": "a cold (illness)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förkylning", "defSg": "förkylningen", "indefPl": "förkylningar", "defPl": "förkylningarna" },
+      "example": { "sv": "Det går en förkylning runt i huset.", "ru": "В доме ходит простуда.", "en": "There's a cold going around the house." }
+    },
+    {
+      "id": "dosering",
+      "sv": "dosering",
+      "translations": { "ru": "дозировка", "en": "dosage" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dosering", "defSg": "doseringen", "indefPl": "doseringar", "defPl": "doseringarna" },
+      "example": { "sv": "Läs doseringen på förpackningen.", "ru": "Прочитай дозировку на упаковке.", "en": "Read the dosage on the packaging." }
+    },
+    {
+      "id": "dos",
+      "sv": "dos",
+      "translations": { "ru": "доза", "en": "dose" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en dos", "defSg": "dosen", "indefPl": "doser", "defPl": "doserna" },
+      "example": { "sv": "Ta en dos på morgonen och en på kvällen.", "ru": "Принимай одну дозу утром и одну вечером.", "en": "Take one dose in the morning and one in the evening." }
+    },
+    {
+      "id": "nassprej",
+      "sv": "nässpray",
+      "translations": { "ru": "спрей для носа", "en": "nasal spray" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en nässpray", "defSg": "nässprayen", "indefPl": "nässprayer", "defPl": "nässprayerna" },
+      "example": { "sv": "Använd nässprayen vid täppt näsa.", "ru": "Используй спрей при заложенном носе.", "en": "Use the nasal spray for a stuffy nose." }
+    },
+    {
+      "id": "halstablett",
+      "sv": "halstablett",
+      "translations": { "ru": "таблетка от боли в горле", "en": "throat lozenge" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en halstablett", "defSg": "halstabletten", "indefPl": "halstabletter", "defPl": "halstabletterna" },
+      "example": { "sv": "Suga på en halstablett hjälper mot ont i halsen.", "ru": "Рассасывание таблетки от горла помогает при боли в горле.", "en": "Sucking on a throat lozenge helps a sore throat." }
+    },
+    {
+      "id": "plaster",
+      "sv": "plåster",
+      "translations": { "ru": "пластырь", "en": "band-aid" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett plåster", "defSg": "plåstret", "indefPl": "plåster", "defPl": "plåstren" },
+      "example": { "sv": "Har ni plåster till ett litet sår?", "ru": "У вас есть пластырь для небольшой ранки?", "en": "Do you have a band-aid for a small cut?" }
+    },
+    {
+      "id": "febernedsattande",
+      "sv": "febernedsättande",
+      "translations": { "ru": "жаропонижающее", "en": "fever-reducing" },
+      "pos": "adj",
+      "note": { "ru": "неизменяемое прилагательное", "en": "invariable adjective" },
+      "example": { "sv": "Har ni något febernedsättande?", "ru": "У вас есть что-то жаропонижающее?", "en": "Do you have anything fever-reducing?" }
+    },
+    {
+      "id": "biverkning",
+      "sv": "biverkning",
+      "translations": { "ru": "побочный эффект", "en": "side effect" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biverkning", "defSg": "biverkningen", "indefPl": "biverkningar", "defPl": "biverkningarna" },
+      "example": { "sv": "Finns det några biverkningar?", "ru": "Есть ли побочные эффекты?", "en": "Are there any side effects?" }
+    },
+    {
+      "id": "farmaceut",
+      "sv": "farmaceut",
+      "translations": { "ru": "фармацевт", "en": "pharmacist" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en farmaceut", "defSg": "farmaceuten", "indefPl": "farmaceuter", "defPl": "farmaceuterna" },
+      "example": { "sv": "Fråga farmaceuten om du är osäker.", "ru": "Спроси фармацевта, если не уверен(а).", "en": "Ask the pharmacist if you're unsure." }
+    },
+    {
+      "id": "vad-har-ni-mot-huvudvark",
+      "sv": "Vad har ni mot huvudvärk?",
+      "translations": { "ru": "Что у вас есть от головной боли?", "en": "What do you have for a headache?" },
+      "pos": "phrase"
+    }
+  ]
+}

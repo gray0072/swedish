@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "id": "som-rel-pron",
+      "sv": "som",
+      "translations": { "ru": "который, которая, которые", "en": "who, which, that" },
+      "pos": "pron",
+      "note": { "ru": "нельзя опустить, если som — подлежащее придаточного", "en": "cannot be dropped when som is the subject of the relative clause" },
+      "example": { "sv": "Mannen som bor här är min granne.", "ru": "Мужчина, который живёт здесь, — мой сосед.", "en": "The man who lives here is my neighbor." }
+    },
+    {
+      "id": "man-noun-rel",
+      "sv": "man",
+      "translations": { "ru": "мужчина", "en": "man" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" },
+      "example": { "sv": "Mannen som bor här är min granne.", "ru": "Мужчина, который живёт здесь, — мой сосед.", "en": "The man who lives here is my neighbor." }
+    },
+    {
+      "id": "granne-noun-rel",
+      "sv": "granne",
+      "translations": { "ru": "сосед", "en": "neighbor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
+      "example": { "sv": "Han är min granne.", "ru": "Он мой сосед.", "en": "He is my neighbor." }
+    },
+    {
+      "id": "bo-verb-rel",
+      "sv": "bo",
+      "translations": { "ru": "жить (проживать)", "en": "to live (reside)" },
+      "pos": "verb",
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Han bor här.", "ru": "Он живёт здесь.", "en": "He lives here." }
+    },
+    {
+      "id": "bok-noun-rel",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Boken jag läste var bra.", "ru": "Книга, которую я читал, была хорошей.", "en": "The book I read was good." }
+    },
+    {
+      "id": "lasa-verb-rel",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Jag läste boken.", "ru": "Я читал книгу.", "en": "I read the book." }
+    },
+    {
+      "id": "traffa-verb-rel",
+      "sv": "träffa",
+      "translations": { "ru": "встречать", "en": "to meet" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" },
+      "example": { "sv": "Kvinnan jag träffade var trevlig.", "ru": "Женщина, которую я встретил, была приятной.", "en": "The woman I met was nice." }
+    },
+    {
+      "id": "kvinna-noun-rel",
+      "sv": "kvinna",
+      "translations": { "ru": "женщина", "en": "woman" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kvinna", "defSg": "kvinnan", "indefPl": "kvinnor", "defPl": "kvinnorna" },
+      "example": { "sv": "Kvinnan jag träffade var trevlig.", "ru": "Женщина, которую я встретил, была приятной.", "en": "The woman I met was nice." }
+    },
+    {
+      "id": "trevlig-adj-rel",
+      "sv": "trevlig",
+      "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
+      "pos": "adj",
+      "example": { "sv": "Hon var trevlig.", "ru": "Она была приятной.", "en": "She was nice." }
+    },
+    {
+      "id": "arbete-noun-rel",
+      "sv": "arbete",
+      "translations": { "ru": "работа", "en": "job, work" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett arbete", "defSg": "arbetet", "indefPl": "arbeten", "defPl": "arbetena" },
+      "example": { "sv": "Arbetet som hon fick var bra.", "ru": "Работа, которую она получила, была хорошей.", "en": "The job that she got was good." }
+    }
+  ]
+}

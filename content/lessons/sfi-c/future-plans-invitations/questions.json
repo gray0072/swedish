@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-future-plans-invitations-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я собираюсь путешествовать этим летом.»", "en": "Build the sentence: \"I'm going to travel this summer.\"" },
+      "tokens": ["ska", "sommar", "resa", "i", "Jag"],
+      "answer": [4, 0, 2, 3, 1]
+    },
+    {
+      "id": "q-future-plans-invitations-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Хочешь прийти на ужин в субботу?»", "en": "Build the sentence: \"Do you want to come for dinner on Saturday?\"" },
+      "tokens": ["komma", "du", "middag", "lördag", "Vill", "på", "på"],
+      "answer": [4, 1, 0, 5, 2, 6, 3]
+    },
+    {
+      "id": "q-future-plans-invitations-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["bjuda in", "приглашать"],
+        ["tacka ja", "принять приглашение"],
+        ["tacka nej", "отклонить приглашение"],
+        ["inbjudan", "приглашение"]
+      ]
+    },
+    {
+      "id": "q-future-plans-invitations-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Ska» и «tänker» оба используются, чтобы говорить о планах на будущее.", "en": "\"Ska\" and \"tänker\" are both used to talk about plans for the future." },
+      "answer": true
+    },
+    {
+      "id": "q-future-plans-invitations-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Tacka nej» значит принять приглашение.", "en": "\"Tacka nej\" means to accept an invitation." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tacka nej» значит отказаться. Принять приглашение — это «tacka ja».",
+        "en": "\"Tacka nej\" means to decline. To accept is \"tacka ja\"."
+      }
+    },
+    {
+      "id": "q-future-plans-invitations-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ flytta nästa år. (планируем)" },
+      "answer": ["tänker"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-future-plans-invitations-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "En vän frågar: «Vill du komma på middag på lördag?» Du kan inte den dagen. Vad svarar du artigt?",
+        "en": "A friend asks: \"Vill du komma på middag på lördag?\" You can't make it that day. What's a polite reply?"
+      },
+      "choices": ["Tyvärr, jag måste tacka nej den här gången", "Ja, det passar bra", "Vad heter du?", "Jag ska boka en tid"],
+      "answer": 0
+    },
+    {
+      "id": "q-future-plans-invitations-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vilken mening beskriver en framtidsplan?",
+        "en": "Which sentence describes a future plan?"
+      },
+      "choices": ["Jag ska resa i sommar.", "Jag reste förra sommaren.", "Jag är trött idag.", "Jag åt frukost."],
+      "answer": 0
+    }
+  ]
+}

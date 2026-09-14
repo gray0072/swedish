@@ -1,0 +1,35 @@
+{
+  "id": "sfi-c/prepositions-place-direction",
+  "slug": "prepositions-place-direction",
+  "title": {
+    "sv": "i / till, på / till, hos",
+    "ru": "Предлоги места и направления: i / till, på / till, hos",
+    "en": "Prepositions of place and direction: i / till, på / till, hos"
+  },
+  "summary": {
+    "ru": "Разница между статичными предлогами места (i, på, hos) и предлогом направления till.",
+    "en": "The contrast between static place prepositions (i, på, hos) and the direction preposition till."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "prepositions"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 620,
+  "prerequisites": [
+    "sfi-b/prepositions-of-place"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

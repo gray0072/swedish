@@ -1,0 +1,105 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-perfect-har-supinum-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какое время подходит для «Igår ___ jag boken.»?", "en": "Which tense fits \"Igår ___ jag boken.\"?" },
+      "choices": ["preterite (läste)", "perfect (har läst)", "supine alone (läst)", "present (läser)"],
+      "answer": 0
+    },
+    {
+      "id": "q-perfect-har-supinum-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что выражает перфект (har + supinum)?", "en": "What does the perfect (har + supinum) express?" },
+      "choices": [
+        "a specific point in the past",
+        "a past action relevant now, with no specific time given",
+        "a scheduled future event",
+        "a present habit"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q-perfect-har-supinum-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово чаще всего сочетается с претеритом, а не с перфектом?", "en": "Which word usually pairs with the preterite, not the perfect?" },
+      "choices": ["redan", "aldrig", "igår", "någonsin"],
+      "answer": 2
+    },
+    {
+      "id": "q-perfect-har-supinum-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag har redan ___ boken. (läsa)" },
+      "answer": ["läst"],
+      "acceptAlso": [],
+      "hint": { "ru": "супин от «läsa»", "en": "supine of \"läsa\"" }
+    },
+    {
+      "id": "q-perfect-har-supinum-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ___ boken igår. (läsa)" },
+      "answer": ["läste"],
+      "acceptAlso": [],
+      "hint": { "ru": "претерит: конкретный момент в прошлом", "en": "preterite: a specific point in the past" }
+    },
+    {
+      "id": "q-perfect-har-supinum-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Она никогда не была в Испании.»", "en": "Build the sentence: \"She has never been to Spain.\"" },
+      "tokens": ["varit", "aldrig", "har", "Hon", "i Spanien"],
+      "answer": [3, 2, 1, 0, 4]
+    },
+    {
+      "id": "q-perfect-har-supinum-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу с её временем", "en": "Match the phrase with its tense" },
+      "pairs": [
+        ["Jag har läst boken.", "perfect"],
+        ["Jag läste boken igår.", "preterite"],
+        ["Vi har flyttat till Malmö.", "perfect"],
+        ["Vi flyttade till Malmö förra året.", "preterite"]
+      ]
+    },
+    {
+      "id": "q-perfect-har-supinum-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Jag har läst boken» подчёркивает результат, важный сейчас.", "en": "\"Jag har läst boken\" emphasizes a result relevant now." },
+      "answer": true
+    },
+    {
+      "id": "q-perfect-har-supinum-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag har läst boken igår» — правильное предложение.", "en": "\"Jag har läst boken igår\" is a correct sentence." },
+      "answer": false,
+      "explanation": { "ru": "С конкретным указанием времени («igår») используется претерит: «Jag läste boken igår».", "en": "With a specific time word (\"igår\") you use the preterite: \"Jag läste boken igår\"." }
+    },
+    {
+      "id": "q-perfect-har-supinum-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag har redan läst boken, men igår läste jag bara några sidor.",
+      "prompt": { "ru": "Какое утверждение верно?", "en": "Which statement is correct?" },
+      "choices": [
+        { "ru": "Говорящий уже прочитал книгу целиком", "en": "The speaker has already finished the book" },
+        { "ru": "Говорящий никогда не читал книгу", "en": "The speaker has never read the book" },
+        { "ru": "Говорящий будет читать книгу завтра", "en": "The speaker will read the book tomorrow" },
+        { "ru": "Говорящий читает книгу прямо сейчас", "en": "The speaker is reading the book right now" }
+      ],
+      "answer": 0
+    }
+  ]
+}

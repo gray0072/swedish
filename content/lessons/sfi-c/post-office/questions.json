@@ -1,0 +1,104 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-post-office-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Мне нужна марка на это письмо.»", "en": "Build the sentence: \"I need a stamp for this letter.\"" },
+      "tokens": ["ett", "det här", "behöver", "Jag", "frimärke", "till", "brevet"],
+      "answer": [3, 2, 0, 4, 5, 1, 6]
+    },
+    {
+      "id": "q-post-office-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «Опусти письмо в почтовый ящик.»", "en": "Build the sentence: \"Put the letter in the postbox.\"" },
+      "tokens": ["postlådan", "brevet", "i", "Lägg"],
+      "answer": [3, 1, 2, 0]
+    },
+    {
+      "id": "q-post-office-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["avsändare", "отправитель"],
+        ["mottagare", "получатель"],
+        ["frimärke", "почтовая марка"],
+        ["porto", "стоимость доставки"]
+      ]
+    },
+    {
+      "id": "q-post-office-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Postombud» — это отдельное здание почты в каждом городе.",
+        "en": "\"Postombud\" is a standalone post office building in every town."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Postombud» — это почтовый пункт внутри обычного магазина, например продуктового.",
+        "en": "\"Postombud\" is a postal counter inside an ordinary shop, such as a grocery store."
+      }
+    },
+    {
+      "id": "q-post-office-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Чтобы забрать посылку, обычно нужно показать «legitimation».",
+        "en": "To pick up a parcel, you usually need to show \"legitimation\"."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-post-office-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag ska ___ ut ett paket på postombudet. (забрать)" },
+      "answer": ["hämta"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-post-office-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Portot beror på paketets ___. (вес)" },
+      "answer": ["vikt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-post-office-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du får en avi i brevlådan. Vad betyder det?",
+        "en": "You get an avi in your mailbox. What does that mean?"
+      },
+      "choices": [
+        "Det finns ett paket att hämta ut",
+        "Ditt brev kom fram",
+        "Du har fått ett nytt frimärke",
+        "Postlådan är full"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-post-office-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vad ska du skriva på baksidan av kuvertet, förutom mottagarens adress?",
+        "en": "What should you write on the back of the envelope, besides the recipient's address?"
+      },
+      "choices": ["avsändaren", "spårningsnumret", "vikten", "portot"],
+      "answer": 0
+    }
+  ]
+}

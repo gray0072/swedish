@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "fundament",
+      "sv": "fundament",
+      "translations": { "ru": "фундамент (первое место в предложении)", "en": "fundament (the first slot of a sentence)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" },
+      "example": { "sv": "Idag är fundamentet i meningen.", "ru": "«Idag» — это фундамент в предложении.", "en": "\"Idag\" is the fundament of the sentence." }
+    },
+    {
+      "id": "satsschema",
+      "sv": "satsschema",
+      "translations": { "ru": "схема предложения", "en": "sentence schema" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett satsschema", "defSg": "satsschemat", "indefPl": "satsscheman", "defPl": "satsschemana" },
+      "example": { "sv": "Satsschemat visar var orden ska stå.", "ru": "Схема предложения показывает, где должны стоять слова.", "en": "The sentence schema shows where the words should go." }
+    },
+    {
+      "id": "subjekt",
+      "sv": "subjekt",
+      "translations": { "ru": "подлежащее", "en": "subject" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett subjekt", "defSg": "subjektet", "indefPl": "subjekt", "defPl": "subjekten" },
+      "example": { "sv": "Jag är subjektet i meningen.", "ru": "«Jag» — это подлежащее в предложении.", "en": "\"Jag\" is the subject of the sentence." }
+    },
+    {
+      "id": "inte-schema",
+      "sv": "inte",
+      "translations": { "ru": "не", "en": "not" },
+      "pos": "adv",
+      "example": { "sv": "Jag läser inte tidningen idag.", "ru": "Я сегодня не читаю газету.", "en": "I'm not reading the newspaper today." }
+    },
+    {
+      "id": "tyvarr",
+      "sv": "tyvärr",
+      "translations": { "ru": "к сожалению", "en": "unfortunately" },
+      "pos": "adv",
+      "example": { "sv": "Tyvärr kan jag inte komma imorgon.", "ru": "К сожалению, я не смогу прийти завтра.", "en": "Unfortunately, I can't come tomorrow." }
+    },
+    {
+      "id": "idag-schema",
+      "sv": "idag",
+      "translations": { "ru": "сегодня", "en": "today" },
+      "pos": "adv",
+      "example": { "sv": "Idag läser jag inte tidningen.", "ru": "Сегодня я не читаю газету.", "en": "Today I'm not reading the newspaper." }
+    },
+    {
+      "id": "tidningen",
+      "sv": "tidning",
+      "translations": { "ru": "газета", "en": "newspaper" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" },
+      "example": { "sv": "Han läser tidningen på morgonen.", "ru": "Он читает газету утром.", "en": "He reads the newspaper in the morning." }
+    },
+    {
+      "id": "lasa",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Vi läser en bok tillsammans.", "ru": "Мы читаем книгу вместе.", "en": "We are reading a book together." }
+    },
+    {
+      "id": "predikat",
+      "sv": "predikat",
+      "translations": { "ru": "сказуемое (остальная часть после глагола)", "en": "predicate (the rest after the verb)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett predikat", "defSg": "predikatet", "indefPl": "predikat", "defPl": "predikaten" },
+      "example": { "sv": "Resten av predikatet kommer sist.", "ru": "Остальная часть сказуемого идёт в конце.", "en": "The rest of the predicate comes last." }
+    },
+    {
+      "id": "kanske-schema",
+      "sv": "kanske",
+      "translations": { "ru": "может быть", "en": "maybe, perhaps" },
+      "pos": "adv",
+      "example": { "sv": "Kanske läser hon boken imorgon.", "ru": "Может быть, она прочитает книгу завтра.", "en": "Maybe she'll read the book tomorrow." }
+    }
+  ]
+}

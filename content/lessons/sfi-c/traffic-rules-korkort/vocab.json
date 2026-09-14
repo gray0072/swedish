@@ -1,0 +1,163 @@
+{
+  "items": [
+    {
+      "id": "korkort",
+      "sv": "körkort",
+      "translations": { "ru": "водительские права", "en": "driving licence" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett körkort", "defSg": "körkortet", "indefPl": "körkort", "defPl": "körkorten" },
+      "example": { "sv": "Jag vill ta körkort nästa år.", "ru": "Я хочу получить водительские права в следующем году.", "en": "I want to get a driving licence next year." }
+    },
+    {
+      "id": "trafikregler",
+      "sv": "trafikregler",
+      "translations": { "ru": "правила дорожного движения", "en": "traffic rules" },
+      "pos": "noun",
+      "note": { "ru": "слово всегда во мн.ч.", "en": "used only in plural form" },
+      "example": { "sv": "Det är viktigt att följa trafikreglerna.", "ru": "Важно соблюдать правила дорожного движения.", "en": "It's important to follow the traffic rules." }
+    },
+    {
+      "id": "kora-bil",
+      "sv": "köra bil",
+      "translations": { "ru": "водить машину", "en": "to drive a car" },
+      "pos": "phrase",
+      "example": { "sv": "Hon lärde sig köra bil förra sommaren.", "ru": "Она научилась водить машину прошлым летом.", "en": "She learned to drive a car last summer." }
+    },
+    {
+      "id": "kora",
+      "sv": "köra",
+      "translations": { "ru": "водить, ехать (за рулём)", "en": "to drive" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "köra", "present": "kör", "past": "körde", "supine": "kört" },
+      "example": { "sv": "Vem kör idag?", "ru": "Кто сегодня за рулём?", "en": "Who's driving today?" }
+    },
+    {
+      "id": "trafikskola",
+      "sv": "trafikskola",
+      "translations": { "ru": "автошкола", "en": "driving school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trafikskola", "defSg": "trafikskolan", "indefPl": "trafikskolor", "defPl": "trafikskolorna" },
+      "example": { "sv": "Jag går på trafikskola en gång i veckan.", "ru": "Я хожу в автошколу раз в неделю.", "en": "I go to driving school once a week." }
+    },
+    {
+      "id": "teoriprov",
+      "sv": "teoriprov",
+      "translations": { "ru": "теоретический экзамен", "en": "theory test" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett teoriprov", "defSg": "teoriprovet", "indefPl": "teoriprov", "defPl": "teoriproven" },
+      "example": { "sv": "Jag har bokat teoriprov på fredag.", "ru": "Я записался на теоретический экзамен в пятницу.", "en": "I've booked the theory test on Friday." }
+    },
+    {
+      "id": "uppkorning",
+      "sv": "uppkörning",
+      "translations": { "ru": "практический экзамен по вождению", "en": "driving test" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en uppkörning", "defSg": "uppkörningen", "indefPl": "uppkörningar", "defPl": "uppkörningarna" },
+      "example": { "sv": "Uppkörningen tar cirka en timme.", "ru": "Практический экзамен длится около часа.", "en": "The driving test takes about an hour." }
+    },
+    {
+      "id": "hastighetsbegransning",
+      "sv": "hastighetsbegränsning",
+      "translations": { "ru": "ограничение скорости", "en": "speed limit" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hastighetsbegränsning", "defSg": "hastighetsbegränsningen", "indefPl": "hastighetsbegränsningar", "defPl": "hastighetsbegränsningarna" },
+      "example": { "sv": "Hastighetsbegränsningen här är femtio.", "ru": "Ограничение скорости здесь пятьдесят.", "en": "The speed limit here is fifty." }
+    },
+    {
+      "id": "korkortstillstand",
+      "sv": "körkortstillstånd",
+      "translations": { "ru": "разрешение на обучение вождению", "en": "learner's permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett körkortstillstånd", "defSg": "körkortstillståndet", "indefPl": "körkortstillstånd", "defPl": "körkortstillstånden" },
+      "example": { "sv": "Man måste ha körkortstillstånd innan man övningskör.", "ru": "Нужно разрешение на обучение перед учебной ездой.", "en": "You need a learner's permit before practising to drive." }
+    },
+    {
+      "id": "korlarare",
+      "sv": "körlärare",
+      "translations": { "ru": "инструктор по вождению", "en": "driving instructor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en körlärare", "defSg": "körläraren", "indefPl": "körlärare", "defPl": "körlärarna" },
+      "example": { "sv": "Min körlärare är väldigt tålmodig.", "ru": "Мой инструктор по вождению очень терпеливый.", "en": "My driving instructor is very patient." }
+    },
+    {
+      "id": "trafikljus",
+      "sv": "trafikljus",
+      "translations": { "ru": "светофор", "en": "traffic light" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett trafikljus", "defSg": "trafikljuset", "indefPl": "trafikljus", "defPl": "trafikljusen" },
+      "example": { "sv": "Stanna vid rött trafikljus.", "ru": "Останавливайся на красный сигнал светофора.", "en": "Stop at a red traffic light." }
+    },
+    {
+      "id": "vagmarke",
+      "sv": "vägmärke",
+      "translations": { "ru": "дорожный знак", "en": "road sign" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett vägmärke", "defSg": "vägmärket", "indefPl": "vägmärken", "defPl": "vägmärkena" },
+      "example": { "sv": "Det där vägmärket betyder stopplikt.", "ru": "Этот дорожный знак означает обязательную остановку.", "en": "That road sign means mandatory stop." }
+    },
+    {
+      "id": "korfalt",
+      "sv": "körfält",
+      "translations": { "ru": "полоса движения", "en": "traffic lane" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett körfält", "defSg": "körfältet", "indefPl": "körfält", "defPl": "körfälten" },
+      "example": { "sv": "Håll dig i höger körfält.", "ru": "Держись правой полосы.", "en": "Keep to the right-hand lane." }
+    },
+    {
+      "id": "bilbalte",
+      "sv": "bilbälte",
+      "translations": { "ru": "автомобильный ремень безопасности", "en": "seatbelt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett bilbälte", "defSg": "bilbältet", "indefPl": "bilbälten", "defPl": "bilbältena" },
+      "example": { "sv": "Kom ihåg att ta på dig bilbältet.", "ru": "Не забудь пристегнуть ремень безопасности.", "en": "Remember to put on your seatbelt." }
+    },
+    {
+      "id": "parkering",
+      "sv": "parkering",
+      "translations": { "ru": "парковка", "en": "parking" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en parkering", "defSg": "parkeringen", "indefPl": "parkeringar", "defPl": "parkeringarna" },
+      "example": { "sv": "Det finns en parkering bakom huset.", "ru": "За домом есть парковка.", "en": "There's a parking area behind the house." }
+    },
+    {
+      "id": "fartkamera",
+      "sv": "fartkamera",
+      "translations": { "ru": "камера контроля скорости", "en": "speed camera" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fartkamera", "defSg": "fartkameran", "indefPl": "fartkameror", "defPl": "fartkamerorna" },
+      "example": { "sv": "Det finns en fartkamera på den här vägen.", "ru": "На этой дороге есть камера контроля скорости.", "en": "There's a speed camera on this road." }
+    },
+    {
+      "id": "ovningskora",
+      "sv": "övningsköra",
+      "translations": { "ru": "учиться водить (тренировочная езда)", "en": "to practise driving" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "övningsköra", "present": "övningskör", "past": "övningskörde", "supine": "övningskört" },
+      "example": { "sv": "Vi övningskör på helgerna.", "ru": "Мы тренируемся водить по выходным.", "en": "We practise driving at weekends." }
+    },
+    {
+      "id": "trafikolycka",
+      "sv": "trafikolycka",
+      "translations": { "ru": "дорожно-транспортное происшествие", "en": "traffic accident" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trafikolycka", "defSg": "trafikolyckan", "indefPl": "trafikolyckor", "defPl": "trafikolyckorna" },
+      "example": { "sv": "Det var en trafikolycka på motorvägen.", "ru": "На автомагистрали произошло ДТП.", "en": "There was a traffic accident on the motorway." }
+    }
+  ]
+}

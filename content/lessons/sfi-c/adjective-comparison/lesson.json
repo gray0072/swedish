@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/adjective-comparison",
+  "slug": "adjective-comparison",
+  "title": {
+    "sv": "Komparation av adjektiv, inklusive oregelbundna former",
+    "ru": "Степени сравнения прилагательных, включая неправильные формы",
+    "en": "Comparison of adjectives, including irregular forms"
+  },
+  "summary": {
+    "ru": "Сравнительная и превосходная степень: -are/-ast, а также неправильные формы bra, dålig, liten, gammal, många.",
+    "en": "Comparative and superlative with -are/-ast, plus the irregular forms of bra, dålig, liten, gammal, många."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "adjectives",
+    "comparison"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 540,
+  "prerequisites": [
+    "sfi-b/adjective-agreement"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

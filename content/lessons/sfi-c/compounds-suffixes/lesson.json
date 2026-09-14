@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/compounds-suffixes",
+  "slug": "compounds-suffixes",
+  "title": {
+    "sv": "Sammansättningar och grundläggande suffix: -are, -het, -ning",
+    "ru": "Сложные слова и базовые суффиксы: -are, -het, -ning",
+    "en": "Compounds and basic suffixes: -are, -het, -ning"
+  },
+  "summary": {
+    "ru": "Как шведский соединяет два существительных в одно слово и три частых словообразовательных суффикса.",
+    "en": "How Swedish joins two nouns into one word, and three frequent derivational suffixes."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-c"],
+  "tags": ["grammar", "word-formation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 650,
+  "prerequisites": ["sfi-b/adjective-agreement"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

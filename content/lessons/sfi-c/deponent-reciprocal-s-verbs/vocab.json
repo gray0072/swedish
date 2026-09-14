@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "id": "traffas",
+      "sv": "träffas",
+      "translations": { "ru": "встречаться (друг с другом)", "en": "to meet (each other)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffas", "present": "träffas", "past": "träffades", "supine": "träffats" },
+      "note": { "ru": "От «träffa» (встретить кого-то) + s = «встречаться друг с другом».", "en": "From \"träffa\" (to meet someone) + -s = \"to meet each other\"." },
+      "example": { "sv": "Vi träffas klockan sju.", "ru": "Мы встречаемся друг с другом в семь.", "en": "We're meeting (each other) at seven." }
+    },
+    {
+      "id": "ses",
+      "sv": "ses",
+      "translations": { "ru": "видеться (друг с другом)", "en": "to see each other" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ses", "present": "ses", "past": "sågs", "supine": "setts" },
+      "note": { "ru": "От «se» (видеть) + s = «видеться».", "en": "From \"se\" (to see) + -s = \"to see each other\"." },
+      "example": { "sv": "Vi ses imorgon!", "ru": "Увидимся завтра!", "en": "See you tomorrow!" }
+    },
+    {
+      "id": "kramas",
+      "sv": "kramas",
+      "translations": { "ru": "обниматься", "en": "to hug (each other)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "kramas", "present": "kramas", "past": "kramades", "supine": "kramats" },
+      "note": { "ru": "От «krama» (обнять кого-то) + s = «обниматься».", "en": "From \"krama\" (to hug someone) + -s = \"to hug each other\"." },
+      "example": { "sv": "Vännerna kramas när de möts.", "ru": "Друзья обнимаются, когда встречаются.", "en": "The friends hug each other when they meet." }
+    },
+    {
+      "id": "skiljas",
+      "sv": "skiljas",
+      "translations": { "ru": "расставаться, разводиться", "en": "to part ways, to get divorced" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skiljas", "present": "skiljs", "past": "skildes", "supine": "skilts" },
+      "note": { "ru": "От «skilja» (разделить) + s = «расставаться друг с другом».", "en": "From \"skilja\" (to separate something) + -s = \"to part ways with each other\"." },
+      "example": { "sv": "De skiljs åt vid stationen.", "ru": "Они расстаются у вокзала.", "en": "They part ways at the station." }
+    },
+    {
+      "id": "hoppas",
+      "sv": "hoppas",
+      "translations": { "ru": "надеяться", "en": "to hope" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
+      "note": { "ru": "Депонентный глагол — всегда с -s, нет формы без «s».", "en": "A deponent verb — it always has -s; there is no non-\"s\" form." },
+      "example": { "sv": "Jag hoppas att det blir soligt imorgon.", "ru": "Я надеюсь, что завтра будет солнечно.", "en": "I hope it will be sunny tomorrow." }
+    },
+    {
+      "id": "trivas",
+      "sv": "trivas",
+      "translations": { "ru": "чувствовать себя хорошо, нравиться (где-то)", "en": "to feel at home, to enjoy being somewhere" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "trivas", "present": "trivs", "past": "trivdes", "supine": "trivts" },
+      "note": { "ru": "Депонентный глагол; форма настоящего времени — «trivs».", "en": "A deponent verb; the present-tense form is \"trivs\"." },
+      "example": { "sv": "Jag trivs bra i Sverige.", "ru": "Мне хорошо живётся в Швеции.", "en": "I feel at home in Sweden." }
+    },
+    {
+      "id": "minnas",
+      "sv": "minnas",
+      "translations": { "ru": "помнить", "en": "to remember" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "minnas", "present": "minns", "past": "mindes", "supine": "mints" },
+      "note": { "ru": "Депонентный глагол; форма настоящего времени — «minns».", "en": "A deponent verb; the present-tense form is \"minns\"." },
+      "example": { "sv": "Jag minns inte hans namn.", "ru": "Я не помню его имя.", "en": "I don't remember his name." }
+    },
+    {
+      "id": "andas",
+      "sv": "andas",
+      "translations": { "ru": "дышать", "en": "to breathe" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "andas", "present": "andas", "past": "andades", "supine": "andats" },
+      "note": { "ru": "Депонентный глагол — всегда с -s.", "en": "A deponent verb — it always has -s." },
+      "example": { "sv": "Andas lugnt.", "ru": "Дыши спокойно.", "en": "Breathe calmly." }
+    },
+    {
+      "id": "varandra",
+      "sv": "varandra",
+      "translations": { "ru": "друг друга", "en": "each other" },
+      "pos": "pron",
+      "example": { "sv": "De hjälper varandra.", "ru": "Они помогают друг другу.", "en": "They help each other." }
+    }
+  ]
+}

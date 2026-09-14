@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "rormokare",
+      "sv": "rörmokare",
+      "translations": { "ru": "сантехник", "en": "plumber" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rörmokare", "defSg": "rörmokaren", "indefPl": "rörmokare", "defPl": "rörmokarna" },
+      "example": { "sv": "Jag måste ringa en rörmokare.", "ru": "Мне нужно вызвать сантехника.", "en": "I need to call a plumber." }
+    },
+    {
+      "id": "elektriker",
+      "sv": "elektriker",
+      "translations": { "ru": "электрик", "en": "electrician" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elektriker", "defSg": "elektrikern", "indefPl": "elektriker", "defPl": "elektrikerna" },
+      "example": { "sv": "Elektrikern kommer imorgon.", "ru": "Электрик придёт завтра.", "en": "The electrician is coming tomorrow." }
+    },
+    {
+      "id": "hantverkare",
+      "sv": "hantverkare",
+      "translations": { "ru": "мастер, ремесленник", "en": "tradesperson, craftsperson" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hantverkare", "defSg": "hantverkaren", "indefPl": "hantverkare", "defPl": "hantverkarna" },
+      "example": { "sv": "Vi behöver boka en hantverkare.", "ru": "Нам нужно вызвать мастера.", "en": "We need to book a tradesperson." }
+    },
+    {
+      "id": "reparation",
+      "sv": "reparation",
+      "translations": { "ru": "ремонт", "en": "repair" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reparation", "defSg": "reparationen", "indefPl": "reparationer", "defPl": "reparationerna" },
+      "example": { "sv": "Reparationen tar en dag.", "ru": "Ремонт займёт один день.", "en": "The repair takes one day." }
+    },
+    {
+      "id": "det-lacker",
+      "sv": "Det läcker.",
+      "translations": { "ru": "Течёт (протекает).", "en": "It's leaking." },
+      "pos": "phrase",
+      "example": { "sv": "Det läcker under diskbänken.", "ru": "Течёт под раковиной.", "en": "It's leaking under the sink." }
+    },
+    {
+      "id": "det-ar-trasigt",
+      "sv": "Det är trasigt.",
+      "translations": { "ru": "Это сломано.", "en": "It's broken." },
+      "pos": "phrase",
+      "example": { "sv": "Diskmaskinen är trasig.", "ru": "Посудомоечная машина сломана.", "en": "The dishwasher is broken." }
+    },
+    {
+      "id": "boka-hantverkare",
+      "sv": "boka en hantverkare",
+      "translations": { "ru": "заказать мастера", "en": "to book a tradesperson" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska boka en hantverkare imorgon.", "ru": "Я закажу мастера завтра.", "en": "I'll book a tradesperson tomorrow." }
+    },
+    {
+      "id": "offert",
+      "sv": "offert",
+      "translations": { "ru": "смета, коммерческое предложение", "en": "quote" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en offert", "defSg": "offerten", "indefPl": "offerter", "defPl": "offerterna" },
+      "example": { "sv": "Kan du skicka en offert?", "ru": "Можете прислать смету?", "en": "Can you send a quote?" }
+    },
+    {
+      "id": "kran",
+      "sv": "kran",
+      "translations": { "ru": "кран (водопроводный)", "en": "tap" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kran", "defSg": "kranen", "indefPl": "kranar", "defPl": "kranarna" },
+      "example": { "sv": "Kranen droppar hela natten.", "ru": "Кран капает всю ночь.", "en": "The tap drips all night." }
+    },
+    {
+      "id": "proppen-har-gatt",
+      "sv": "Proppen har gått.",
+      "translations": { "ru": "Пробки выбило.", "en": "The fuse has blown." },
+      "pos": "phrase",
+      "example": { "sv": "Ljuset funkar inte, proppen har gått.", "ru": "Свет не работает, пробки выбило.", "en": "The light doesn't work, the fuse has blown." }
+    },
+    {
+      "id": "lagning",
+      "sv": "laga",
+      "translations": { "ru": "чинить, ремонтировать", "en": "to fix, to repair" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" },
+      "example": { "sv": "Kan du laga kranen?", "ru": "Можешь починить кран?", "en": "Can you fix the tap?" }
+    },
+    {
+      "id": "nar-kan-du-komma",
+      "sv": "När kan du komma?",
+      "translations": { "ru": "Когда ты можешь прийти?", "en": "When can you come?" },
+      "pos": "phrase",
+      "example": { "sv": "När kan du komma och titta på det?", "ru": "Когда ты сможешь прийти и посмотреть?", "en": "When can you come and take a look?" }
+    }
+  ]
+}

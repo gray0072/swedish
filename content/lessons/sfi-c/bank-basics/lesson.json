@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/bank-basics",
+  "slug": "bank-basics",
+  "title": {
+    "sv": "Banken: grunderna, öppna ett konto, växla valuta",
+    "ru": "Банк: основы, открытие счёта, обмен валюты",
+    "en": "The bank: basic operations, opening an account, changing money (växla, valuta)"
+  },
+  "summary": {
+    "ru": "Основные банковские слова и фразы: открыть счёт, обменять валюту, снять и положить деньги.",
+    "en": "Basic bank vocabulary and phrases: opening an account, exchanging currency, withdrawing and depositing money."
+  },
+  "kind": "mixed",
+  "levels": ["sfi-c"],
+  "tags": ["bank", "money", "errands", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 340,
+  "prerequisites": ["sfi-b/money-coins-notes"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

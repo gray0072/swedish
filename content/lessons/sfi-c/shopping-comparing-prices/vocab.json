@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "id": "jamfora-priser",
+      "sv": "jämföra priser",
+      "translations": { "ru": "сравнивать цены", "en": "to compare prices" },
+      "pos": "phrase",
+      "example": { "sv": "Jag brukar jämföra priser innan jag köper något dyrt.", "ru": "Я обычно сравниваю цены перед покупкой дорогой вещи.", "en": "I usually compare prices before buying something expensive." }
+    },
+    {
+      "id": "rabatt",
+      "sv": "rabatt",
+      "translations": { "ru": "скидка", "en": "discount" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rabatt", "defSg": "rabatten", "indefPl": "rabatter", "defPl": "rabatterna" },
+      "example": { "sv": "Du får tio procents rabatt idag.", "ru": "Сегодня скидка десять процентов.", "en": "You get ten percent off today." }
+    },
+    {
+      "id": "rea",
+      "sv": "rea",
+      "translations": { "ru": "распродажа", "en": "sale" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rea", "defSg": "rean", "indefPl": "reor", "defPl": "reorna" },
+      "example": { "sv": "Butiken har rea på skor just nu.", "ru": "В магазине сейчас распродажа обуви.", "en": "The shop has a sale on shoes right now." }
+    },
+    {
+      "id": "lamna-tillbaka",
+      "sv": "lämna tillbaka",
+      "translations": { "ru": "вернуть (товар)", "en": "to return (goods)" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag lämna tillbaka den här tröjan?", "ru": "Могу я вернуть эту кофту?", "en": "Can I return this sweater?" }
+    },
+    {
+      "id": "reklamera",
+      "sv": "reklamera",
+      "translations": { "ru": "жаловаться на покупку, оформить рекламацию", "en": "to complain about a purchase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" },
+      "example": { "sv": "Jag vill reklamera den här produkten, den är trasig.", "ru": "Я хочу подать рекламацию на этот товар, он сломан.", "en": "I want to complain about this product, it's broken." }
+    },
+    {
+      "id": "kvitto-shop",
+      "sv": "kvitto",
+      "translations": { "ru": "чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Har du kvar kvittot?", "ru": "У тебя ещё сохранился чек?", "en": "Do you still have the receipt?" }
+    },
+    {
+      "id": "byta",
+      "sv": "byta",
+      "translations": { "ru": "обменять", "en": "to exchange" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "byta", "present": "byter", "past": "bytte", "supine": "bytt" },
+      "example": { "sv": "Jag vill byta den mot en större storlek.", "ru": "Я хочу обменять это на больший размер.", "en": "I'd like to exchange it for a bigger size." }
+    },
+    {
+      "id": "pengarna-tillbaka",
+      "sv": "pengarna tillbaka",
+      "translations": { "ru": "деньги обратно, возврат денег", "en": "money back, refund" },
+      "pos": "phrase",
+      "example": { "sv": "Jag vill ha pengarna tillbaka.", "ru": "Я хочу вернуть деньги.", "en": "I would like a refund." }
+    },
+    {
+      "id": "oppet-kop",
+      "sv": "öppet köp",
+      "translations": { "ru": "право на возврат без объяснения причины", "en": "open purchase (right to return)" },
+      "pos": "phrase",
+      "example": { "sv": "Har ni öppet köp på trettio dagar?", "ru": "У вас есть право на возврат в течение тридцати дней?", "en": "Do you have a thirty-day open purchase policy?" }
+    },
+    {
+      "id": "garanti",
+      "sv": "garanti",
+      "translations": { "ru": "гарантия", "en": "warranty" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en garanti", "defSg": "garantin", "indefPl": "garantier", "defPl": "garantierna" },
+      "example": { "sv": "Produkten har ett års garanti.", "ru": "На товар даётся год гарантии.", "en": "The product has a one-year warranty." }
+    },
+    {
+      "id": "trasig",
+      "sv": "trasig",
+      "translations": { "ru": "сломанный, повреждённый", "en": "broken" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: trasigt, мн.ч.: trasiga", "en": "ett-form: trasigt, plural: trasiga" },
+      "example": { "sv": "Skärmen är trasig.", "ru": "Экран сломан.", "en": "The screen is broken." }
+    },
+    {
+      "id": "prisvard",
+      "sv": "prisvärd",
+      "translations": { "ru": "выгодный по цене", "en": "good value for money" },
+      "pos": "adj",
+      "example": { "sv": "Den här jackan är prisvärd.", "ru": "Эта куртка выгодна по цене.", "en": "This jacket is good value for money." }
+    },
+    {
+      "id": "dyr",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: dyrt, мн.ч.: dyra", "en": "ett-form: dyrt, plural: dyra" },
+      "example": { "sv": "Den här affären är dyrare än den andra.", "ru": "Этот магазин дороже, чем тот.", "en": "This shop is more expensive than the other one." }
+    },
+    {
+      "id": "billig",
+      "sv": "billig",
+      "translations": { "ru": "дешёвый", "en": "cheap" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: billigt, мн.ч.: billiga", "en": "ett-form: billigt, plural: billiga" },
+      "example": { "sv": "Det finns en billigare variant också.", "ru": "Есть и более дешёвый вариант.", "en": "There's a cheaper option too." }
+    },
+    {
+      "id": "klaga",
+      "sv": "klaga",
+      "translations": { "ru": "жаловаться", "en": "to complain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "klaga", "present": "klagar", "past": "klagade", "supine": "klagat" },
+      "example": { "sv": "Jag vill klaga på varan jag köpte.", "ru": "Я хочу пожаловаться на купленный товар.", "en": "I want to complain about the item I bought." }
+    }
+  ]
+}

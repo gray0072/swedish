@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/reflexive-verbs-sig",
+  "slug": "reflexive-verbs-sig",
+  "title": {
+    "sv": "Reflexiva verb och sig: tvätta sig, känna sig",
+    "ru": "Возвратные глаголы и sig",
+    "en": "Reflexive verbs and sig: tvätta sig, känna sig"
+  },
+  "summary": {
+    "ru": "Возвратное местоимение меняется по лицам: mig, dig, sig, oss, er, sig.",
+    "en": "The reflexive pronoun changes with person: mig, dig, sig, oss, er, sig."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "verbs",
+    "pronouns"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 570,
+  "prerequisites": [
+    "sfi-b/object-pronouns"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sfi-c/deponent-reciprocal-s-verbs",
+  "slug": "deponent-reciprocal-s-verbs",
+  "title": {
+    "sv": "Verb på -s: träffas, ses, hoppas, trivs, minns",
+    "ru": "Глаголы на -s: взаимные и депонентные",
+    "en": "Deponent and reciprocal -s verbs: träffas, ses, hoppas, trivs, minns"
+  },
+  "summary": {
+    "ru": "Некоторые глаголы оканчиваются на -s, но не являются пассивом: «друг друга» и просто особые глаголы.",
+    "en": "Some verbs end in -s without being passive: \"each other\" verbs, and verbs that are just built that way."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "verbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 560,
+  "prerequisites": [
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/modal-verbs-preterite",
+  "slug": "modal-verbs-preterite",
+  "title": {
+    "sv": "Modala verb i preteritum: kunde, ville, skulle, fick",
+    "ru": "Модальные глаголы в претерите: kunde, ville, skulle, fick",
+    "en": "Modal verbs in the preterite: kunde, ville, skulle, fick"
+  },
+  "summary": {
+    "ru": "Претерит четырёх модальных глаголов из kurs B + инфинитив без att.",
+    "en": "The preterite of the four sfi-b modal verbs + bare infinitive."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-c"],
+  "tags": ["grammar", "modals", "preterite"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 500,
+  "prerequisites": ["sfi-b/modals-infinitive", "sfi-c/preterite-four-groups"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/swedish-winter",
+  "slug": "swedish-winter",
+  "title": {
+    "sv": "Svensk vinter: mörker, halka och vinterkläder",
+    "ru": "Шведская зима: темнота, гололёд и зимняя одежда",
+    "en": "A Swedish winter: the darkness, halka, clothes for the season"
+  },
+  "summary": {
+    "ru": "Слова о шведской зиме: темнота, гололёд, снег и как одеться по погоде.",
+    "en": "Vocabulary for a Swedish winter: darkness, black ice, snow, and dressing for the season."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-c"],
+  "tags": ["winter", "weather", "seasons", "clothes"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 310,
+  "prerequisites": ["sfi-b/weather"],
+  "xp": { "base": 120 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

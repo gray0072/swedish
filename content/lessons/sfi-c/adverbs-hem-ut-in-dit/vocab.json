@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "hem",
+      "sv": "hem",
+      "translations": { "ru": "домой (движение)", "en": "home (movement toward)" },
+      "pos": "adv",
+      "example": { "sv": "Jag går hem klockan fem.", "ru": "Я иду домой в пять.", "en": "I go home at five." }
+    },
+    {
+      "id": "hemma",
+      "sv": "hemma",
+      "translations": { "ru": "дома (нахождение)", "en": "at home (location)" },
+      "pos": "adv",
+      "example": { "sv": "Jag är hemma ikväll.", "ru": "Я дома сегодня вечером.", "en": "I am at home tonight." }
+    },
+    {
+      "id": "ut",
+      "sv": "ut",
+      "translations": { "ru": "наружу (движение)", "en": "out (movement outward)" },
+      "pos": "adv",
+      "example": { "sv": "Han går ut i trädgården.", "ru": "Он выходит в сад.", "en": "He goes out into the garden." }
+    },
+    {
+      "id": "ute",
+      "sv": "ute",
+      "translations": { "ru": "снаружи, на улице (нахождение)", "en": "outside (location)" },
+      "pos": "adv",
+      "example": { "sv": "Barnen leker ute.", "ru": "Дети играют на улице.", "en": "The children are playing outside." }
+    },
+    {
+      "id": "in",
+      "sv": "in",
+      "translations": { "ru": "внутрь (движение)", "en": "in (movement inward)" },
+      "pos": "adv",
+      "example": { "sv": "Kom in!", "ru": "Заходи!", "en": "Come in!" }
+    },
+    {
+      "id": "inne",
+      "sv": "inne",
+      "translations": { "ru": "внутри (нахождение)", "en": "inside (location)" },
+      "pos": "adv",
+      "example": { "sv": "Vi är inne nu, det regnar.", "ru": "Мы сейчас внутри, идёт дождь.", "en": "We are inside now, it's raining." }
+    },
+    {
+      "id": "dit",
+      "sv": "dit",
+      "translations": { "ru": "туда (движение)", "en": "(to) there (movement)" },
+      "pos": "adv",
+      "example": { "sv": "Jag ska dit imorgon.", "ru": "Я поеду туда завтра.", "en": "I'm going there tomorrow." }
+    },
+    {
+      "id": "dar",
+      "sv": "där",
+      "translations": { "ru": "там (нахождение)", "en": "there (location)" },
+      "pos": "adv",
+      "example": { "sv": "Min syster bor där.", "ru": "Моя сестра живёт там.", "en": "My sister lives there." }
+    },
+    {
+      "id": "tradgard",
+      "sv": "trädgård",
+      "translations": { "ru": "сад", "en": "garden" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en trädgård", "defSg": "trädgården", "indefPl": "trädgårdar", "defPl": "trädgårdarna" },
+      "example": { "sv": "Blommorna växer i trädgården.", "ru": "Цветы растут в саду.", "en": "The flowers grow in the garden." }
+    },
+    {
+      "id": "regna",
+      "sv": "regna",
+      "translations": { "ru": "идти (о дожде)", "en": "to rain" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Det regnar mycket idag.", "ru": "Сегодня сильно идёт дождь.", "en": "It's raining a lot today." }
+    },
+    {
+      "id": "leka",
+      "sv": "leka",
+      "translations": { "ru": "играть (о детях)", "en": "to play (children)" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "leka", "present": "leker", "past": "lekte", "supine": "lekt" },
+      "example": { "sv": "Barnen leker i parken.", "ru": "Дети играют в парке.", "en": "The children are playing in the park." }
+    },
+    {
+      "id": "bo",
+      "sv": "bo",
+      "translations": { "ru": "жить (проживать)", "en": "to live, to reside" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Min syster bor i Malmö.", "ru": "Моя сестра живёт в Мальмё.", "en": "My sister lives in Malmö." }
+    }
+  ]
+}

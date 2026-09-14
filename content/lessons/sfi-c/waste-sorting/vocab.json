@@ -1,0 +1,187 @@
+{
+  "items": [
+    {
+      "id": "atervinning",
+      "sv": "återvinning",
+      "translations": { "ru": "переработка отходов", "en": "recycling" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återvinning", "defSg": "återvinningen", "indefPl": "återvinningar", "defPl": "återvinningarna" },
+      "example": { "sv": "Återvinning är bra för miljön.", "ru": "Переработка отходов полезна для окружающей среды.", "en": "Recycling is good for the environment." }
+    },
+    {
+      "id": "sopor",
+      "sv": "sopor",
+      "translations": { "ru": "мусор", "en": "rubbish, trash" },
+      "pos": "noun",
+      "note": { "ru": "слово всегда во мн.ч.", "en": "used only in plural form" },
+      "example": { "sv": "Kan du slänga soporna?", "ru": "Можешь выбросить мусор?", "en": "Can you take out the rubbish?" }
+    },
+    {
+      "id": "sortera",
+      "sv": "sortera",
+      "translations": { "ru": "сортировать", "en": "to sort" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sortera", "present": "sorterar", "past": "sorterade", "supine": "sorterat" },
+      "example": { "sv": "Vi sorterar soporna i olika kärl.", "ru": "Мы сортируем мусор по разным контейнерам.", "en": "We sort the rubbish into different bins." }
+    },
+    {
+      "id": "komposterbart",
+      "sv": "komposterbart",
+      "translations": { "ru": "компостируемое (пищевые отходы)", "en": "compostable (food waste)" },
+      "pos": "adj",
+      "note": { "ru": "чаще используется как существительное для пищевых отходов", "en": "often used as a noun for food waste" },
+      "example": { "sv": "Matrester läggs i påsen för komposterbart.", "ru": "Пищевые остатки кладут в пакет для компостируемых отходов.", "en": "Food scraps go in the compostable-waste bag." }
+    },
+    {
+      "id": "forpackning",
+      "sv": "förpackning",
+      "translations": { "ru": "упаковка", "en": "packaging" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förpackning", "defSg": "förpackningen", "indefPl": "förpackningar", "defPl": "förpackningarna" },
+      "example": { "sv": "Töm förpackningen innan du slänger den.", "ru": "Опорожни упаковку перед тем, как её выбросить.", "en": "Empty the packaging before you throw it away." }
+    },
+    {
+      "id": "glas",
+      "sv": "glas",
+      "translations": { "ru": "стекло", "en": "glass" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett glas", "defSg": "glaset", "indefPl": "glas", "defPl": "glasen" },
+      "example": { "sv": "Färgat glas och ofärgat glas sorteras separat.", "ru": "Цветное и бесцветное стекло сортируют отдельно.", "en": "Coloured and clear glass are sorted separately." }
+    },
+    {
+      "id": "metall",
+      "sv": "metall",
+      "translations": { "ru": "металл", "en": "metal" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en metall", "defSg": "metallen", "indefPl": "metaller", "defPl": "metallerna" },
+      "example": { "sv": "Konservburkar är gjorda av metall.", "ru": "Консервные банки сделаны из металла.", "en": "Tin cans are made of metal." }
+    },
+    {
+      "id": "papper",
+      "sv": "papper",
+      "translations": { "ru": "бумага", "en": "paper" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett papper", "defSg": "pappret", "indefPl": "papper", "defPl": "pappren" },
+      "example": { "sv": "Tidningar och papper hör hemma i pappersinsamlingen.", "ru": "Газеты и бумага относятся к сбору макулатуры.", "en": "Newspapers and paper belong in paper collection." }
+    },
+    {
+      "id": "plast",
+      "sv": "plast",
+      "translations": { "ru": "пластик", "en": "plastic" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en plast", "defSg": "plasten", "indefPl": "plaster", "defPl": "plasterna" },
+      "example": { "sv": "Plastförpackningar ska sköljas innan de återvinns.", "ru": "Пластиковую упаковку нужно ополоснуть перед сдачей на переработку.", "en": "Plastic packaging should be rinsed before recycling." }
+    },
+    {
+      "id": "atervinningsstation",
+      "sv": "återvinningsstation",
+      "translations": { "ru": "станция переработки отходов", "en": "recycling station" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en återvinningsstation", "defSg": "återvinningsstationen", "indefPl": "återvinningsstationer", "defPl": "återvinningsstationerna" },
+      "example": { "sv": "Vi åker till återvinningsstationen på lördagar.", "ru": "Мы ездим на станцию переработки по субботам.", "en": "We go to the recycling station on Saturdays." }
+    },
+    {
+      "id": "karl",
+      "sv": "kärl",
+      "translations": { "ru": "контейнер, ёмкость (для мусора)", "en": "bin, container (for waste)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kärl", "defSg": "kärlet", "indefPl": "kärl", "defPl": "kärlen" },
+      "example": { "sv": "Varje kärl har en egen färg.", "ru": "У каждого контейнера свой цвет.", "en": "Each bin has its own colour." }
+    },
+    {
+      "id": "restavfall",
+      "sv": "restavfall",
+      "translations": { "ru": "неперерабатываемые отходы, прочий мусор", "en": "residual waste" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett restavfall", "defSg": "restavfallet", "indefPl": "restavfall", "defPl": "restavfallen" },
+      "example": { "sv": "Det som inte går att sortera blir restavfall.", "ru": "То, что нельзя рассортировать, идёт в прочий мусор.", "en": "What can't be sorted becomes residual waste." }
+    },
+    {
+      "id": "slanga",
+      "sv": "slänga",
+      "translations": { "ru": "выбрасывать", "en": "to throw away" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "slänga", "present": "slänger", "past": "slängde", "supine": "slängt" },
+      "example": { "sv": "Släng inte batterier i restavfallet.", "ru": "Не выбрасывай батарейки в прочий мусор.", "en": "Don't throw batteries in the residual waste." }
+    },
+    {
+      "id": "atervinna",
+      "sv": "återvinna",
+      "translations": { "ru": "перерабатывать, сдавать на переработку", "en": "to recycle" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "återvinna", "present": "återvinner", "past": "återvann", "supine": "återvunnit" },
+      "example": { "sv": "Vi återvinner nästan allt hemma.", "ru": "Мы перерабатываем почти всё дома.", "en": "We recycle almost everything at home." }
+    },
+    {
+      "id": "batteri",
+      "sv": "batteri",
+      "translations": { "ru": "батарейка", "en": "battery" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett batteri", "defSg": "batteriet", "indefPl": "batterier", "defPl": "batterierna" },
+      "example": { "sv": "Batterier lämnas i en särskild box.", "ru": "Батарейки сдают в специальный контейнер.", "en": "Batteries are dropped in a special box." }
+    },
+    {
+      "id": "farligt-avfall",
+      "sv": "farligt avfall",
+      "translations": { "ru": "опасные отходы", "en": "hazardous waste" },
+      "pos": "phrase",
+      "example": { "sv": "Färg och kemikalier räknas som farligt avfall.", "ru": "Краска и химикаты считаются опасными отходами.", "en": "Paint and chemicals count as hazardous waste." }
+    },
+    {
+      "id": "grovsopor",
+      "sv": "grovsopor",
+      "translations": { "ru": "крупногабаритный мусор", "en": "bulky waste" },
+      "pos": "noun",
+      "note": { "ru": "слово всегда во мн.ч.", "en": "used only in plural form" },
+      "example": { "sv": "Gamla möbler är grovsopor.", "ru": "Старая мебель — это крупногабаритный мусор.", "en": "Old furniture counts as bulky waste." }
+    },
+    {
+      "id": "miljorum",
+      "sv": "miljörum",
+      "translations": { "ru": "комната для сортировки мусора (в доме)", "en": "recycling room (in a building)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett miljörum", "defSg": "miljörummet", "indefPl": "miljörum", "defPl": "miljörummen" },
+      "example": { "sv": "Miljörummet ligger i källaren.", "ru": "Комната для сортировки мусора находится в подвале.", "en": "The recycling room is in the basement." }
+    },
+    {
+      "id": "tomma",
+      "sv": "tömma",
+      "translations": { "ru": "опорожнять", "en": "to empty" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "tömma", "present": "tömmer", "past": "tömde", "supine": "tömt" },
+      "example": { "sv": "Töm förpackningen innan återvinning.", "ru": "Опорожни упаковку перед сдачей на переработку.", "en": "Empty the packaging before recycling." }
+    },
+    {
+      "id": "skolja",
+      "sv": "skölja",
+      "translations": { "ru": "ополаскивать", "en": "to rinse" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "skölja", "present": "sköljer", "past": "sköljde", "supine": "sköljt" },
+      "example": { "sv": "Skölj burken innan du sorterar den.", "ru": "Ополосни банку перед сортировкой.", "en": "Rinse the jar before sorting it." }
+    },
+    {
+      "id": "miljovanlig",
+      "sv": "miljövänlig",
+      "translations": { "ru": "экологичный, безопасный для окружающей среды", "en": "environmentally friendly" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: miljövänligt, мн.ч.: miljövänliga", "en": "ett-form: miljövänligt, plural: miljövänliga" },
+      "example": { "sv": "Det är miljövänligt att sortera sina sopor.", "ru": "Сортировать мусор — экологично.", "en": "It's environmentally friendly to sort your waste." }
+    }
+  ]
+}

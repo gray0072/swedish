@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-swedish-winter-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «На тротуаре гололёд.»", "en": "Build the phrase: \"There's black ice on the sidewalk.\"" },
+      "tokens": ["på", "Det", "trottoaren", "halka", "är"],
+      "answer": [1, 4, 3, 0, 2]
+    },
+    {
+      "id": "q-swedish-winter-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Не забудь тёплые варежки!»", "en": "Build the phrase: \"Don't forget warm mittens!\"" },
+      "tokens": ["inte", "vantarna", "varma", "Glöm"],
+      "answer": [3, 0, 2, 1]
+    },
+    {
+      "id": "q-swedish-winter-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["mörker", "темнота"],
+        ["halka", "гололёд"],
+        ["mössa", "шапка"],
+        ["skotta", "чистить снег лопатой"]
+      ]
+    },
+    {
+      "id": "q-swedish-winter-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "В Швеции обязательно менять на зимние шины перед зимой.",
+        "en": "In Sweden, switching to winter tires before winter is required."
+      },
+      "answer": true,
+      "explanation": {
+        "ru": "Закон требует зимние шины (vinterdäck) в зимних условиях на дорогах.",
+        "en": "The law requires winter tires (vinterdäck) when winter road conditions apply."
+      }
+    },
+    {
+      "id": "q-swedish-winter-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Halkskydd» — это украшение для шапки.",
+        "en": "\"Halkskydd\" is a decoration for your hat."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Halkskydd» — это ледоходы, которые надевают на обувь против скольжения.",
+        "en": "\"Halkskydd\" are ice grips worn on shoes to prevent slipping."
+      }
+    },
+    {
+      "id": "q-swedish-winter-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag måste ___ trappan innan jag går till jobbet. (чистить снег)" },
+      "answer": ["skotta"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-swedish-winter-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Det är tio ___ ute idag. (минус десять градусов)" },
+      "answer": ["minusgrader"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-swedish-winter-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Det är halka ute. Vad ska du ta på skorna?",
+        "en": "It's icy outside. What should you put on your shoes?"
+      },
+      "choices": ["halkskydd", "en mössa", "vantar", "en reflex"],
+      "answer": 0
+    },
+    {
+      "id": "q-swedish-winter-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Varför ska man bära en reflex på vintern?",
+        "en": "Why should you wear a reflector in winter?"
+      },
+      "choices": [
+        "Det är mörkt större delen av dagen",
+        "Det gör en varmare",
+        "Det är en lag mot halka",
+        "Det hjälper mot snöstormar"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-waste-sorting-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Можешь выбросить мусор?»", "en": "Build the sentence: \"Can you take out the rubbish?\"" },
+      "tokens": ["du", "soporna", "Kan", "slänga"],
+      "answer": [2, 0, 3, 1]
+    },
+    {
+      "id": "q-waste-sorting-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь материалы с переводом", "en": "Match the materials with their translation" },
+      "pairs": [
+        ["glas", "стекло"],
+        ["metall", "металл"],
+        ["papper", "бумага"],
+        ["plast", "пластик"]
+      ]
+    },
+    {
+      "id": "q-waste-sorting-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Grovsopor» — это крупногабаритный мусор, например старая мебель.",
+        "en": "\"Grovsopor\" is bulky waste, such as old furniture."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-waste-sorting-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Батарейки можно выбрасывать вместе с обычным мусором (restavfall).",
+        "en": "Batteries can be thrown away with ordinary residual waste (restavfall)."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "Батарейки считаются опасными отходами и сдаются отдельно.",
+        "en": "Batteries count as hazardous waste and must be dropped off separately."
+      }
+    },
+    {
+      "id": "q-waste-sorting-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ soporna i olika kärl. (сортируем)" },
+      "answer": ["sorterar"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-waste-sorting-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Var lämnar du gamla möbler som inte får plats i vanliga kärl?",
+        "en": "Where do you take old furniture that doesn't fit in ordinary bins?"
+      },
+      "choices": ["återvinningsstationen", "apoteket", "biblioteket", "mottagningen"],
+      "answer": 0
+    },
+    {
+      "id": "q-waste-sorting-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vad ska du göra med en glasburk innan du sorterar den?",
+        "en": "What should you do to a glass jar before you sort it?"
+      },
+      "choices": ["skölja den", "krossa den", "måla den", "väga den"],
+      "answer": 0
+    },
+    {
+      "id": "q-waste-sorting-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "Type the Swedish word for \"packaging\".", "ru": "Напиши слово по-шведски: «упаковка»." },
+      "answer": ["förpackning"],
+      "hint": { "en": "Starts with för-", "ru": "Начинается на för-" }
+    }
+  ]
+}

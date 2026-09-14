@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-bank-basics-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «Я хочу открыть счёт»?", "en": "How do you say \"I want to open an account\"?" },
+      "choices": ["Jag vill öppna ett konto.", "Jag vill växla pengar.", "Jag vill ta ut pengar.", "Jag vill låna pengar."],
+      "answer": 0
+    },
+    {
+      "id": "q-bank-basics-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Växla» значит «обменивать валюту».", "en": "\"Växla\" means \"to exchange currency\"." },
+      "answer": true
+    },
+    {
+      "id": "q-bank-basics-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Saldo» и «ränta» означают одно и то же.", "en": "\"Saldo\" and \"ränta\" mean the same thing." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Saldo» — это остаток на счёте, а «ränta» — это процент по вкладу или кредиту.",
+        "en": "\"Saldo\" is the account balance, while \"ränta\" is the interest rate on a deposit or loan."
+      }
+    },
+    {
+      "id": "q-bank-basics-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я плачу картой.»", "en": "Build the sentence: \"I'll pay by card.\"" },
+      "tokens": ["med", "Jag", "kort.", "betalar"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-bank-basics-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag behöver ta ___ lite pengar från bankomaten." },
+      "answer": ["ut"],
+      "acceptAlso": [],
+      "hint": { "ru": "снять (частица)", "en": "out (particle)" }
+    },
+    {
+      "id": "q-bank-basics-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
+      "pairs": [
+        ["bankomat", "банкомат"],
+        ["kontonummer", "номер счёта"],
+        ["växelkurs", "обменный курс"],
+        ["kod", "пин-код"]
+      ]
+    },
+    {
+      "id": "q-bank-basics-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag vill växla dollar till kronor.",
+      "prompt": { "ru": "Что хочет сделать человек?", "en": "What does the person want to do?" },
+      "choices": [
+        { "ru": "Обменять доллары на кроны", "en": "Exchange dollars for kronor" },
+        { "ru": "Открыть счёт", "en": "Open an account" },
+        { "ru": "Взять кредит", "en": "Take out a loan" },
+        { "ru": "Проверить баланс", "en": "Check the balance" }
+      ],
+      "answer": 0
+    }
+  ]
+}

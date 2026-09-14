@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/phone-internet-subscription",
+  "slug": "phone-internet-subscription",
+  "title": {
+    "sv": "Telefon och internet: teckna ett abonnemang",
+    "ru": "Телефон и интернет: подключение и подписка",
+    "en": "Phone and internet: getting connected, a subscription"
+  },
+  "summary": {
+    "ru": "Слова для мобильной связи и интернета: абонемент, wifi, сим-карта.",
+    "en": "Vocabulary for getting a phone and internet connection set up."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-c"],
+  "tags": ["phone", "internet", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 350,
+  "prerequisites": ["sfi-a/phone-numbers"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

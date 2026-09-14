@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "kunde",
+      "sv": "kunde",
+      "translations": { "ru": "мог(ла)", "en": "could" },
+      "pos": "verb",
+      "note": { "ru": "претерит от kan", "en": "preterite of kan" },
+      "example": { "sv": "Jag kunde inte sova.", "ru": "Я не мог уснуть.", "en": "I couldn't sleep." }
+    },
+    {
+      "id": "ville",
+      "sv": "ville",
+      "translations": { "ru": "хотел(а)", "en": "wanted to" },
+      "pos": "verb",
+      "note": { "ru": "претерит от vill", "en": "preterite of vill" },
+      "example": { "sv": "Hon ville åka hem.", "ru": "Она хотела поехать домой.", "en": "She wanted to go home." }
+    },
+    {
+      "id": "skulle",
+      "sv": "skulle",
+      "translations": { "ru": "должен(на) был(а), собирался(лась)", "en": "was going to, would" },
+      "pos": "verb",
+      "note": { "ru": "претерит от ska", "en": "preterite of ska" },
+      "example": { "sv": "Vi skulle träffas klockan sex.", "ru": "Мы должны были встретиться в шесть.", "en": "We were going to meet at six." }
+    },
+    {
+      "id": "fick-fa",
+      "sv": "fick",
+      "translations": { "ru": "получил(а), разрешили", "en": "was allowed to, got to" },
+      "pos": "verb",
+      "note": { "ru": "претерит от får", "en": "preterite of får" },
+      "example": { "sv": "Han fick låna min cykel.", "ru": "Ему разрешили одолжить мой велосипед.", "en": "He got to borrow my bike." }
+    },
+    {
+      "id": "sova-verb",
+      "sv": "sova",
+      "translations": { "ru": "спать", "en": "to sleep" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Jag kunde inte sova igår natt.", "ru": "Я не мог уснуть прошлой ночью.", "en": "I couldn't sleep last night." }
+    },
+    {
+      "id": "aka-hem",
+      "sv": "åka hem",
+      "translations": { "ru": "поехать домой", "en": "to go home" },
+      "pos": "phrase",
+      "example": { "sv": "Hon ville åka hem tidigt.", "ru": "Она хотела поехать домой рано.", "en": "She wanted to go home early." }
+    },
+    {
+      "id": "traffas-verb",
+      "sv": "träffas",
+      "translations": { "ru": "встречаться", "en": "to meet (each other)" },
+      "pos": "verb",
+      "example": { "sv": "Vi skulle träffas klockan sex, men jag kom sent.", "ru": "Мы должны были встретиться в шесть, но я опоздал.", "en": "We were going to meet at six, but I was late." }
+    },
+    {
+      "id": "lana-cykel",
+      "sv": "låna en cykel",
+      "translations": { "ru": "одолжить велосипед", "en": "to borrow a bike" },
+      "pos": "phrase",
+      "example": { "sv": "Han fick låna min cykel igår.", "ru": "Ему разрешили одолжить мой велосипед вчера.", "en": "He got to borrow my bike yesterday." }
+    },
+    {
+      "id": "inte-kunna",
+      "sv": "Jag kunde inte komma.",
+      "translations": { "ru": "Я не мог прийти.", "en": "I couldn't come." },
+      "pos": "phrase",
+      "example": { "sv": "Jag kunde inte komma igår, jag var sjuk.", "ru": "Я не мог прийти вчера, я болел.", "en": "I couldn't come yesterday, I was ill." }
+    },
+    {
+      "id": "ville-inte",
+      "sv": "Han ville inte äta.",
+      "translations": { "ru": "Он не хотел есть.", "en": "He didn't want to eat." },
+      "pos": "phrase",
+      "example": { "sv": "Barnet ville inte äta grönsaker.", "ru": "Ребёнок не хотел есть овощи.", "en": "The child didn't want to eat vegetables." }
+    },
+    {
+      "id": "fick-inte",
+      "sv": "Vi fick inte parkera där.",
+      "translations": { "ru": "Нам не разрешили парковаться там.", "en": "We weren't allowed to park there." },
+      "pos": "phrase",
+      "example": { "sv": "Vi fick inte parkera där, det var förbjudet.", "ru": "Нам не разрешили парковаться там, это было запрещено.", "en": "We weren't allowed to park there, it was forbidden." }
+    }
+  ]
+}

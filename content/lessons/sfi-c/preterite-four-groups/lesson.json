@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/preterite-four-groups",
+  "slug": "preterite-four-groups",
+  "title": {
+    "sv": "Preteritum: alla fyra grupper, inklusive starka verb",
+    "ru": "Претерит: все четыре группы, включая сильные глаголы",
+    "en": "The preterite: all four groups, including strong verbs"
+  },
+  "summary": {
+    "ru": "Претерит как система: четыре группы глаголов и их окончания в прошедшем времени.",
+    "en": "The preterite as a system: the four verb groups and how each forms its past tense."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "past-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 460,
+  "prerequisites": [
+    "sfi-b/preterite-frequent-verbs"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

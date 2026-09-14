@@ -94,17 +94,17 @@ Swedish system.
 |---|---|---|
 | SFI kurs A | 50 | 50 |
 | SFI kurs B | 50 | 50 |
-| SFI kurs C | 5 | 50 |
+| SFI kurs C | 50 | 50 |
 | SFI kurs D | 3 | 50 |
 | SVA grund delkurs 1 | 45 | 50 |
 | SVA grund delkurs 2 | 45 | 50 |
 | SVA grund delkurs 3 | 45 | 50 |
 | SVA grund delkurs 4 | 50 | 50 |
 
-Lessons done in total: **293** (`npx tsx scripts/validate-content.ts` confirms the
-number) out of **400** planned — 50 per level across the eight levels. The **107** still to
-write are the 45 lessons kurs C is missing and the 47 kurs D is missing, and the five
-closing grammar lessons of each of SVA grund delkurs 1-3.
+Lessons done in total: **338** (`npx tsx scripts/validate-content.ts` confirms the
+number) out of **400** planned — 50 per level across the eight levels. The **62** still to
+write are the 47 lessons kurs D is missing, and the five closing grammar lessons of each of
+SVA grund delkurs 1-3.
 
 **SVA grund is written end to end against its original 20-point grammar plan** — all four
 delkurser (1-4), 185 lessons: 100 thematic and 85 grammar, every one of them with
@@ -138,9 +138,13 @@ lessons and 2 new topics (places in town, nature and the outdoors) are written, 
 50 of its lessons too — its grammar, unlike kurs A's, is explained with real terminology
 (V2 word order, the five plural declensions, the genitive `-s`, possessives,
 demonstratives, and more) rather than drilled as bare patterns, matching the level's step
-up from studieväg 1 alone to the entry point for studieväg 2. The next content frontier is
-SFI kurs C and D (5 and 3 lessons written so far), the closing grammar lessons of SVA grund
-delkurs 1-3, and the still-undesigned real text-lesson format, tracked in `TODO.md`.
+up from studieväg 1 alone to the entry point for studieväg 2. **SFI kurs C is complete
+too**: all 45 of its remaining lessons (20 thematic topics and 25 grammar points — the
+preterite system, subordinate clauses and BIFF, the relative `som`, double definiteness,
+`sin` vs `hans`, the indefinite `man`, word accent, and more) are written, closing all 50 of
+its lessons. The next content frontier is SFI kurs D (3 lessons written so far), the closing
+grammar lessons of SVA grund delkurs 1-3, and the still-undesigned real text-lesson format,
+tracked in `TODO.md`.
 
 **The plan was rebalanced on 2026-09-13** after a coverage review of all 400 items. No
 lesson was written, renamed or removed — only unwritten items changed, and every level
@@ -305,7 +309,7 @@ Items 1–27 are the thematic lessons, items 28–50 the level's grammar.
 entry point. Speech becomes connected, accounts of the past and reasons for "why" appear,
 and longer texts are read.
 
-### Lessons (50 lessons, 5 done)
+### Lessons (50 lessons, 50 done)
 
 Items 1–25 are the thematic lessons, items 26–50 the level's grammar.
 
@@ -314,51 +318,51 @@ Items 1–25 are the thematic lessons, items 26–50 the level's grammar.
 3. [x] Health and a visit to the doctor — `sfi-c/health`
 4. [x] Booking an appointment (`boka tid`) — `sfi-c/booking`
 5. [x] Professions — `sfi-c/professions`
-6. [ ] A working day: the schedule, the break, asking a colleague for help
-7. [ ] Safety at the workplace
-8. [ ] Looking for work: job ads and first steps
-9. [ ] At the pharmacy: over-the-counter medicine
-10. [ ] Emergencies: calling 112 and an ambulance, and a `polisanmälan` for a theft or lost documents
-11. [ ] A Swedish winter: the darkness, `halka`, clothes for the season
-12. [ ] At the dentist (tandvård): booking, the treatment, the bill
-13. [ ] The post office: letters and parcels
-14. [ ] The bank: basic operations, opening an account, changing money (`växla`, `valuta`)
-15. [ ] Phone and internet: getting connected, a subscription
-16. [ ] Paying bills: rent, electricity, internet
-17. [ ] Shopping: comparing prices, discounts, returning goods and complaining
-18. [ ] Talking about the past: a short account of yesterday and last week
-19. [ ] Plans for the future and invitations
-20. [ ] Opinion in one sentence: `jag tycker att … eftersom …`
-21. [ ] Waste sorting (återvinning)
-22. [ ] Free time: cinema, theatre, sports clubs
-23. [ ] Parents' meetings and contact with the school
-24. [ ] Traffic rules and driving school: the `körkort` and what it takes
-25. [ ] Repairs and a tradesperson at home (plumber, electrician)
-26. [ ] The preterite: all four groups, including strong verbs
-27. [ ] The supine and strong verb forms: `skriva – skrev – skrivit`
-28. [ ] The perfect `har + supinum` and how it differs from the preterite
-29. [ ] The future: `ska`, `kommer att`, `tänker` — shades of meaning
-30. [ ] Modal verbs in the preterite: `kunde, ville, skulle, fick`
-31. [ ] Subordinate clauses with `att` and the BIFF rule (`inte` before the verb)
-32. [ ] Subordinate clauses with `om`, `när`, `eftersom`, `så att`
-33. [ ] The relative `som` and when it can be omitted
-34. [ ] Comparison of adjectives, including irregular forms
-35. [ ] The definite adjective and double definiteness: `den stora staden`
-36. [ ] Deponent and reciprocal `-s` verbs: `träffas`, `ses`, `hoppas`, `trivs`, `minns`
-37. [ ] Reflexive verbs and `sig`: `tvätta sig`, `känna sig`
-38. [ ] `sin/sitt/sina` versus `hans/hennes/deras`
-39. [ ] The indefinite subject `man`
-40. [ ] Pronunciation: word accent 1 and 2 (`anden` – `anden`) and the melody of a long sentence
-41. [ ] Frequent particle verbs and stress on the particle
-42. [ ] Prepositions of place and direction: `i / till`, `på / till`, `hos`
-43. [ ] Adverbs: `hem/hemma`, `ut/ute`, `in/inne`, `dit/där`
-44. [ ] The sentence schema: fundament — verb — subject — adverb
-45. [ ] Compounds and basic suffixes: `-are`, `-het`, `-ning`
-46. [ ] The `-s` passive on signs and in instructions — a first acquaintance
-47. [ ] Numbers in dates, years and percentages: `procent`, `hälften`, `dubbelt`
-48. [ ] Adverbs of degree and frequency: `ganska`, `väldigt`, `alltför`, `sällan`, `ibland`
-49. [ ] The indirect question: `Vet du var …?`, `Kan du säga om …?`
-50. [ ] Time expressions: `för … sedan`, `sedan`, `redan`, `ännu`, `i … tid`
+6. [x] A working day: the schedule, the break, asking a colleague for help — `sfi-c/workday-schedule-break`
+7. [x] Safety at the workplace — `sfi-c/workplace-safety`
+8. [x] Looking for work: job ads and first steps — `sfi-c/looking-for-work`
+9. [x] At the pharmacy: over-the-counter medicine — `sfi-c/pharmacy-otc-medicine`
+10. [x] Emergencies: calling 112 and an ambulance, and a `polisanmälan` for a theft or lost documents — `sfi-c/emergencies-112-polisanmalan`
+11. [x] A Swedish winter: the darkness, `halka`, clothes for the season — `sfi-c/swedish-winter`
+12. [x] At the dentist (tandvård): booking, the treatment, the bill — `sfi-c/dentist-tandvard`
+13. [x] The post office: letters and parcels — `sfi-c/post-office`
+14. [x] The bank: basic operations, opening an account, changing money (`växla`, `valuta`) — `sfi-c/bank-basics`
+15. [x] Phone and internet: getting connected, a subscription — `sfi-c/phone-internet-subscription`
+16. [x] Paying bills: rent, electricity, internet — `sfi-c/paying-bills`
+17. [x] Shopping: comparing prices, discounts, returning goods and complaining — `sfi-c/shopping-comparing-prices`
+18. [x] Talking about the past: a short account of yesterday and last week — `sfi-c/past-narrative-short`
+19. [x] Plans for the future and invitations — `sfi-c/future-plans-invitations`
+20. [x] Opinion in one sentence: `jag tycker att … eftersom …` — `sfi-c/opinion-one-sentence`
+21. [x] Waste sorting (återvinning) — `sfi-c/waste-sorting`
+22. [x] Free time: cinema, theatre, sports clubs — `sfi-c/free-time-cinema-sports`
+23. [x] Parents' meetings and contact with the school — `sfi-c/parents-meetings-school`
+24. [x] Traffic rules and driving school: the `körkort` and what it takes — `sfi-c/traffic-rules-korkort`
+25. [x] Repairs and a tradesperson at home (plumber, electrician) — `sfi-c/home-repairs-tradesperson`
+26. [x] The preterite: all four groups, including strong verbs — `sfi-c/preterite-four-groups`
+27. [x] The supine and strong verb forms: `skriva – skrev – skrivit` — `sfi-c/supine-strong-verbs`
+28. [x] The perfect `har + supinum` and how it differs from the preterite — `sfi-c/perfect-har-supinum`
+29. [x] The future: `ska`, `kommer att`, `tänker` — shades of meaning — `sfi-c/future-ska-kommer-att-tanker`
+30. [x] Modal verbs in the preterite: `kunde, ville, skulle, fick` — `sfi-c/modal-verbs-preterite`
+31. [x] Subordinate clauses with `att` and the BIFF rule (`inte` before the verb) — `sfi-c/subordinate-att-biff`
+32. [x] Subordinate clauses with `om`, `när`, `eftersom`, `så att` — `sfi-c/subordinate-om-nar-eftersom-sa-att`
+33. [x] The relative `som` and when it can be omitted — `sfi-c/relative-som`
+34. [x] Comparison of adjectives, including irregular forms — `sfi-c/adjective-comparison`
+35. [x] The definite adjective and double definiteness: `den stora staden` — `sfi-c/definite-adjective-double-definiteness`
+36. [x] Deponent and reciprocal `-s` verbs: `träffas`, `ses`, `hoppas`, `trivs`, `minns` — `sfi-c/deponent-reciprocal-s-verbs`
+37. [x] Reflexive verbs and `sig`: `tvätta sig`, `känna sig` — `sfi-c/reflexive-verbs-sig`
+38. [x] `sin/sitt/sina` versus `hans/hennes/deras` — `sfi-c/sin-sitt-sina-vs-hans-hennes-deras`
+39. [x] The indefinite subject `man` — `sfi-c/indefinite-subject-man`
+40. [x] Pronunciation: word accent 1 and 2 (`anden` – `anden`) and the melody of a long sentence — `sfi-c/pronunciation-word-accent`
+41. [x] Frequent particle verbs and stress on the particle — `sfi-c/particle-verbs-stress`
+42. [x] Prepositions of place and direction: `i / till`, `på / till`, `hos` — `sfi-c/prepositions-place-direction`
+43. [x] Adverbs: `hem/hemma`, `ut/ute`, `in/inne`, `dit/där` — `sfi-c/adverbs-hem-ut-in-dit`
+44. [x] The sentence schema: fundament — verb — subject — adverb — `sfi-c/sentence-schema-fundament`
+45. [x] Compounds and basic suffixes: `-are`, `-het`, `-ning` — `sfi-c/compounds-suffixes`
+46. [x] The `-s` passive on signs and in instructions — a first acquaintance — `sfi-c/s-passive-intro`
+47. [x] Numbers in dates, years and percentages: `procent`, `hälften`, `dubbelt` — `sfi-c/numbers-dates-years-percent`
+48. [x] Adverbs of degree and frequency: `ganska`, `väldigt`, `alltför`, `sällan`, `ibland` — `sfi-c/adverbs-degree-frequency`
+49. [x] The indirect question: `Vet du var …?`, `Kan du säga om …?` — `sfi-c/indirect-question`
+50. [x] Time expressions: `för … sedan`, `sedan`, `redan`, `ännu`, `i … tid` — `sfi-c/time-expressions-sedan-redan-annu`
 
 ## SFI kurs D
 

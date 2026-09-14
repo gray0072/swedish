@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чью книгу читает Анна во фразе «Anna läser sin bok»?", "en": "Whose book is Anna reading in \"Anna läser sin bok\"?" },
+      "choices": ["Свою собственную", "Чью-то чужую (например, брата)", "Книгу учителя", "Непонятно чью"],
+      "answer": 0
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Чью книгу читает Анна во фразе «Anna läser hans bok»?", "en": "Whose book is Anna reading in \"Anna läser hans bok\"?" },
+      "choices": ["Свою собственную", "Чужую, принадлежащую мужчине", "Книгу, принадлежащую ей самой", "Книгу, принадлежащую другой женщине"],
+      "answer": 1
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Erik läser ___ brev. (своё собственное)" },
+      "answer": ["sitt"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Erik läser ___ brev. (её, не своё)" },
+      "answer": ["hennes"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Sin/sitt/sina» всегда указывает на подлежащее того же предложения.", "en": "\"Sin/sitt/sina\" always refers back to the subject of the same clause." },
+      "answer": true
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Hans» и «sin» — взаимозаменяемые слова с одинаковым смыслом.", "en": "\"Hans\" and \"sin\" are interchangeable words with the same meaning." },
+      "answer": false,
+      "explanation": { "ru": "«Sin» — «свой» (владелец = подлежащее), «hans» — «его» (владелец — кто-то другой).", "en": "\"Sin\" means \"his own\" (owner = subject), \"hans\" means \"his\" (owner is someone else)." }
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он любит свою (собственную) сестру.»", "en": "Build the sentence: \"He loves his (own) sister.\"" },
+      "tokens": ["älskar", "sin", "Han", "syster"],
+      "answer": [2, 0, 1, 3]
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь местоимение со значением", "en": "Match the pronoun with its meaning" },
+      "pairs": [
+        ["sin", "свой (подлежащее владеет)"],
+        ["hans", "его (чужой предмет)"],
+        ["sina", "свои (мн. ч.)"],
+        ["deras", "их (чужой предмет)"]
+      ]
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши форму «свои» (множественное число).", "en": "Write the plural form of \"his/her own\"." },
+      "answer": ["sina"],
+      "hint": { "ru": "sin/sitt/sina", "en": "sin/sitt/sina" }
+    },
+    {
+      "id": "q-sin-sitt-sina-vs-hans-hennes-deras-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Maria kör sin bil, inte hans bil.",
+      "prompt": { "ru": "На чьей машине едет Мария?", "en": "Whose car is Maria driving?" },
+      "choices": [
+        { "ru": "На своей собственной", "en": "Her own" },
+        { "ru": "На его машине", "en": "His car" },
+        { "ru": "На машине их обоих", "en": "A car they share" },
+        { "ru": "Непонятно", "en": "It's unclear" }
+      ],
+      "answer": 0
+    }
+  ]
+}

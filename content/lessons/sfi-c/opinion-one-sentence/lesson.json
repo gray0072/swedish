@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/opinion-one-sentence",
+  "slug": "opinion-one-sentence",
+  "title": {
+    "sv": "Åsikt i en mening: jag tycker att … eftersom …",
+    "ru": "Мнение в одном предложении: jag tycker att … eftersom …",
+    "en": "Opinion in one sentence: jag tycker att … eftersom …"
+  },
+  "summary": {
+    "ru": "Модель для короткого мнения с причиной: jag tycker att [утверждение] eftersom [причина].",
+    "en": "A pattern for a short opinion with a reason: jag tycker att [claim] eftersom [reason]."
+  },
+  "kind": "phrases",
+  "levels": ["sfi-c"],
+  "tags": ["phrases", "opinion", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 400,
+  "prerequisites": ["sfi-b/tycker-om-gillar-alskar"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

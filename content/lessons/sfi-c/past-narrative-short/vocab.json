@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "jag-akte",
+      "sv": "jag åkte",
+      "translations": { "ru": "я поехал(а)", "en": "I went (travelled)" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «åka» — ехать", "en": "preterite of \"åka\" — to travel" },
+      "example": { "sv": "Igår åkte jag till stan.", "ru": "Вчера я поехал(а) в город.", "en": "Yesterday I went to town." }
+    },
+    {
+      "id": "jag-traffade",
+      "sv": "jag träffade",
+      "translations": { "ru": "я встретил(а)", "en": "I met" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «träffa» — встречать", "en": "preterite of \"träffa\" — to meet" },
+      "example": { "sv": "Jag träffade en vän på stan.", "ru": "Я встретил(а) друга в городе.", "en": "I met a friend in town." }
+    },
+    {
+      "id": "jag-handlade",
+      "sv": "jag handlade",
+      "translations": { "ru": "я делал(а) покупки", "en": "I shopped, I did the shopping" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «handla» — покупать, делать покупки", "en": "preterite of \"handla\" — to shop" },
+      "example": { "sv": "Sedan handlade jag mat.", "ru": "Потом я закупил(а) продукты.", "en": "Then I bought some food." }
+    },
+    {
+      "id": "jag-lagade",
+      "sv": "jag lagade mat",
+      "translations": { "ru": "я готовил(а) еду", "en": "I cooked" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «laga» — готовить", "en": "preterite of \"laga\" — to cook" },
+      "example": { "sv": "Till slut lagade jag mat hemma.", "ru": "В конце концов я приготовил(а) еду дома.", "en": "In the end I cooked at home." }
+    },
+    {
+      "id": "jag-pratade",
+      "sv": "jag pratade",
+      "translations": { "ru": "я разговаривал(а)", "en": "I talked, I chatted" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «prata» — разговаривать", "en": "preterite of \"prata\" — to talk" },
+      "example": { "sv": "Vi pratade länge om jobbet.", "ru": "Мы долго разговаривали о работе.", "en": "We talked for a long time about work." }
+    },
+    {
+      "id": "jag-tittade",
+      "sv": "jag tittade på tv",
+      "translations": { "ru": "я смотрел(а) телевизор", "en": "I watched TV" },
+      "pos": "phrase",
+      "note": { "ru": "претерит глагола «titta» — смотреть", "en": "preterite of \"titta\" — to watch" },
+      "example": { "sv": "På kvällen tittade jag på tv.", "ru": "Вечером я смотрел(а) телевизор.", "en": "In the evening I watched TV." }
+    },
+    {
+      "id": "igar-narr",
+      "sv": "igår",
+      "translations": { "ru": "вчера", "en": "yesterday" },
+      "pos": "adv",
+      "example": { "sv": "Igår åkte jag till stan.", "ru": "Вчера я поехал(а) в город.", "en": "Yesterday I went to town." }
+    },
+    {
+      "id": "i-forra-veckan",
+      "sv": "i förra veckan",
+      "translations": { "ru": "на прошлой неделе", "en": "last week" },
+      "pos": "phrase",
+      "example": { "sv": "I förra veckan träffade jag en gammal vän.", "ru": "На прошлой неделе я встретил(а) старого друга.", "en": "Last week I met an old friend." }
+    },
+    {
+      "id": "sedan-narr",
+      "sv": "sedan",
+      "translations": { "ru": "потом, затем", "en": "then, after that" },
+      "pos": "adv",
+      "example": { "sv": "Jag åkte till stan, och sedan handlade jag mat.", "ru": "Я поехал(а) в город, а потом купил(а) продукты.", "en": "I went to town, and then I did the shopping." }
+    },
+    {
+      "id": "till-slut",
+      "sv": "till slut",
+      "translations": { "ru": "в конце концов, в итоге", "en": "in the end, finally" },
+      "pos": "phrase",
+      "example": { "sv": "Till slut lagade jag mat hemma.", "ru": "В итоге я приготовил(а) еду дома.", "en": "In the end I cooked at home." }
+    },
+    {
+      "id": "forst",
+      "sv": "först",
+      "translations": { "ru": "сначала", "en": "first" },
+      "pos": "adv",
+      "example": { "sv": "Först åkte jag till jobbet.", "ru": "Сначала я поехал(а) на работу.", "en": "First I went to work." }
+    },
+    {
+      "id": "hela-dagen",
+      "sv": "hela dagen",
+      "translations": { "ru": "весь день", "en": "all day" },
+      "pos": "phrase",
+      "example": { "sv": "Det regnade hela dagen igår.", "ru": "Вчера весь день шёл дождь.", "en": "It rained all day yesterday." }
+    }
+  ]
+}

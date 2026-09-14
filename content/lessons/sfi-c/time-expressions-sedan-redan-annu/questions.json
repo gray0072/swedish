@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-time-expressions-sedan-redan-annu-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как сказать «два года назад»?", "en": "How do you say \"two years ago\"?" },
+      "choices": ["för två år sedan", "sedan två år", "i två år tid", "två år redan"],
+      "answer": 0
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Redan» и «ännu» — противоположности: «уже» и «ещё не».", "en": "\"Redan\" and \"ännu\" are opposites: \"already\" and \"not yet\"." },
+      "answer": true
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Jag är redan klar» значит «Я ещё не готов».", "en": "\"Jag är redan klar\" means \"I'm not done yet\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Jag är redan klar» значит «Я уже готов» — противоположное значение.",
+        "en": "\"Jag är redan klar\" means \"I'm already done\" — the opposite meaning."
+      }
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Я живу здесь с 2020 года.»", "en": "Build the sentence: \"I've lived here since 2020.\"" },
+      "tokens": ["har", "här", "Jag", "bott", "sedan", "2020."],
+      "answer": [2, 0, 3, 1, 4, 5]
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Han har ___ inte svarat." },
+      "answer": ["ännu"],
+      "acceptAlso": [],
+      "hint": { "ru": "ещё", "en": "yet" }
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь оборот и его значение", "en": "Match the expression with its meaning" },
+      "pairs": [
+        ["för … sedan", "… ago"],
+        ["redan", "already"],
+        ["ännu", "yet, still"],
+        ["i tid", "on time"]
+      ]
+    },
+    {
+      "id": "q-time-expressions-sedan-redan-annu-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Kom i tid till mötet.",
+      "prompt": { "ru": "О чём просят?", "en": "What is being asked?" },
+      "choices": [
+        { "ru": "Прийти вовремя на встречу", "en": "Come on time for the meeting" },
+        { "ru": "Переехать сюда", "en": "Move here" },
+        { "ru": "Ответить уже сейчас", "en": "Answer right now" },
+        { "ru": "Быть готовым давно", "en": "Be ready a long time ago" }
+      ],
+      "answer": 0
+    }
+  ]
+}

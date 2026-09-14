@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/traffic-rules-korkort",
+  "slug": "traffic-rules-korkort",
+  "title": {
+    "sv": "Trafikregler och körkort",
+    "ru": "Правила дорожного движения и водительские права",
+    "en": "Traffic rules and driving school: the körkort and what it takes"
+  },
+  "summary": {
+    "ru": "Слова о правилах движения и о том, как получить водительские права.",
+    "en": "Vocabulary for traffic rules and the path to getting a driving licence."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "traffic",
+    "driving",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 440,
+  "prerequisites": [
+    "sfi-b/directions-in-town"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

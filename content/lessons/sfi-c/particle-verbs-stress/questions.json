@@ -1,0 +1,98 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-particle-verbs-stress-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я перезвоню тебе завтра.»", "en": "Build the sentence: \"I'll call you back tomorrow.\"" },
+      "tokens": ["upp", "imorgon", "dig", "ringer", "Jag"],
+      "answer": [4, 3, 0, 2, 1]
+    },
+    {
+      "id": "q-particle-verbs-stress-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Он снимает куртку.»", "en": "Build the sentence: \"He takes off his jacket.\"" },
+      "tokens": ["av", "jackan", "sig", "Han", "tar"],
+      "answer": [3, 4, 0, 2, 1]
+    },
+    {
+      "id": "q-particle-verbs-stress-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag kommer inte ___ hans namn. (помнить)" },
+      "answer": ["ihåg"],
+      "acceptAlso": [],
+      "hint": { "ru": "помнить", "en": "remember" }
+    },
+    {
+      "id": "q-particle-verbs-stress-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Kan du fylla ___ blanketten?" },
+      "answer": ["i"],
+      "acceptAlso": [],
+      "hint": { "ru": "заполнить", "en": "fill in" }
+    },
+    {
+      "id": "q-particle-verbs-stress-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В шведских частичных глаголах ударение падает на частицу, а не на сам глагол.", "en": "In Swedish particle verbs the stress falls on the particle, not on the verb itself." },
+      "answer": true
+    },
+    {
+      "id": "q-particle-verbs-stress-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Komma ihåg» значит «прийти домой».", "en": "\"Komma ihåg\" means \"to come home\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Komma ihåg» значит «помнить, вспоминать».",
+        "en": "\"Komma ihåg\" means \"to remember\"."
+      }
+    },
+    {
+      "id": "q-particle-verbs-stress-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь частичный глагол с переводом", "en": "Match the particle verb with its translation" },
+      "pairs": [
+        ["ringa upp", "перезвонить"],
+        ["skriva av", "списывать"],
+        ["ta av sig", "снимать"],
+        ["komma ihåg", "помнить"],
+        ["fylla i", "заполнять"]
+      ]
+    },
+    {
+      "id": "q-particle-verbs-stress-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Где стоит ударение в «ringer UPP»?", "en": "Where does the stress fall in \"ringer UPP\"?" },
+      "choices": ["на частице upp", "на ringer", "на обоих одинаково", "ударения нет"],
+      "answer": 0
+    },
+    {
+      "id": "q-particle-verbs-stress-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Не забудь выключить компьютер»?", "en": "How do you say \"Don't forget to switch off the computer\"?" },
+      "choices": ["Glöm inte att stänga av datorn.", "Glöm inte att slå på datorn.", "Glöm inte att ta av datorn.", "Glöm inte att skriva av datorn."],
+      "answer": 0
+    },
+    {
+      "id": "q-particle-verbs-stress-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи: «Дети надевают обувь.»", "en": "Translate: \"The children put on their shoes.\"" },
+      "answer": ["Barnen tar på sig skorna."],
+      "hint": { "ru": "ta på sig + skorna", "en": "ta på sig + skorna" }
+    }
+  ]
+}

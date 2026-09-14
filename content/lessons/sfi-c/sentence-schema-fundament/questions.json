@@ -1,0 +1,94 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-sentence-schema-fundament-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «Сегодня я не читаю газету.»", "en": "Build the sentence: \"Today I'm not reading the newspaper.\"" },
+      "tokens": ["läser", "Idag", "inte", "jag", "tidningen"],
+      "answer": [1, 0, 3, 2, 4]
+    },
+    {
+      "id": "q-sentence-schema-fundament-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери предложение: «К сожалению, я не могу прийти завтра.»", "en": "Build the sentence: \"Unfortunately, I can't come tomorrow.\"" },
+      "tokens": ["inte", "kan", "imorgon", "jag", "komma", "Tyvärr"],
+      "answer": [5, 1, 3, 0, 4, 2]
+    },
+    {
+      "id": "q-sentence-schema-fundament-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Idag ___ jag inte tidningen. (глагол — второе место)" },
+      "answer": ["läser"],
+      "acceptAlso": [],
+      "hint": { "ru": "глагол занимает второе место", "en": "the verb takes the second slot" }
+    },
+    {
+      "id": "q-sentence-schema-fundament-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag läser ___ tidningen idag. (не)" },
+      "answer": ["inte"],
+      "acceptAlso": [],
+      "hint": { "ru": "не (сатсадвербиал)", "en": "not (sentence adverb)" }
+    },
+    {
+      "id": "q-sentence-schema-fundament-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "В схеме предложения фундамент — это то, что стоит первым, а не обязательно подлежащее.", "en": "In the sentence schema, the fundament is whatever comes first, not necessarily the subject." },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-schema-fundament-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Если подлежащее не стоит на месте фундамента, оно идёт сразу после глагола.", "en": "If the subject is not in the fundament slot, it comes right after the verb." },
+      "answer": true
+    },
+    {
+      "id": "q-sentence-schema-fundament-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово в предложении «Idag läser jag inte tidningen» с его местом в схеме", "en": "Match the word in \"Idag läser jag inte tidningen\" with its schema slot" },
+      "pairs": [
+        ["Idag", "фундамент"],
+        ["läser", "глагол"],
+        ["jag", "подлежащее"],
+        ["inte", "наречие"],
+        ["tidningen", "остальное сказуемое"]
+      ]
+    },
+    {
+      "id": "q-sentence-schema-fundament-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Что стоит в предложении сразу после глагола, если подлежащее не в фундаменте?", "en": "What comes right after the verb if the subject is not in the fundament?" },
+      "choices": ["подлежащее", "сатсадвербиал (inte и т.п.)", "остальная часть сказуемого", "ничего"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-schema-fundament-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой порядок правильный: фундамент — ? — подлежащее — наречие — остальное сказуемое.", "en": "Which order is correct: fundament — ? — subject — adverb — rest of predicate." },
+      "choices": ["спрягаемый глагол", "инфинитив", "прилагательное", "существительное"],
+      "answer": 0
+    },
+    {
+      "id": "q-sentence-schema-fundament-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи, начиная с «Kanske»: «Может быть, она прочитает книгу завтра.»", "en": "Translate, starting with \"Kanske\": \"Maybe she'll read the book tomorrow.\"" },
+      "answer": ["Kanske läser hon boken imorgon."],
+      "hint": { "ru": "Kanske + глагол + подлежащее", "en": "Kanske + verb + subject" }
+    }
+  ]
+}

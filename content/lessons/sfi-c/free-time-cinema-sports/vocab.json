@@ -1,0 +1,167 @@
+{
+  "items": [
+    {
+      "id": "bio",
+      "sv": "bio",
+      "translations": { "ru": "кино, кинотеатр", "en": "cinema" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bio", "defSg": "bion", "indefPl": "bioar", "defPl": "bioarna" },
+      "example": { "sv": "Ska vi gå på bio ikväll?", "ru": "Пойдём в кино сегодня вечером?", "en": "Shall we go to the cinema tonight?" }
+    },
+    {
+      "id": "ga-pa-bio",
+      "sv": "gå på bio",
+      "translations": { "ru": "ходить в кино", "en": "to go to the cinema" },
+      "pos": "phrase",
+      "example": { "sv": "Vi går på bio varje fredag.", "ru": "Мы ходим в кино каждую пятницу.", "en": "We go to the cinema every Friday." }
+    },
+    {
+      "id": "teater",
+      "sv": "teater",
+      "translations": { "ru": "театр", "en": "theatre" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en teater", "defSg": "teatern", "indefPl": "teatrar", "defPl": "teatrarna" },
+      "example": { "sv": "Vi såg en pjäs på teatern.", "ru": "Мы посмотрели спектакль в театре.", "en": "We saw a play at the theatre." }
+    },
+    {
+      "id": "forening",
+      "sv": "förening",
+      "translations": { "ru": "клуб, объединение, ассоциация", "en": "club, association" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förening", "defSg": "föreningen", "indefPl": "föreningar", "defPl": "föreningarna" },
+      "example": { "sv": "Han är med i en förening för schack.", "ru": "Он состоит в шахматном клубе.", "en": "He's a member of a chess club." }
+    },
+    {
+      "id": "spela-fotboll-i-en-forening",
+      "sv": "spela fotboll i en förening",
+      "translations": { "ru": "играть в футбол в клубе", "en": "to play football in a club" },
+      "pos": "phrase",
+      "example": { "sv": "Min dotter spelar fotboll i en förening.", "ru": "Моя дочь играет в футбол в клубе.", "en": "My daughter plays football in a club." }
+    },
+    {
+      "id": "boka-biljetter",
+      "sv": "boka biljetter",
+      "translations": { "ru": "бронировать билеты", "en": "to book tickets" },
+      "pos": "phrase",
+      "example": { "sv": "Vi bokade biljetter till bion online.", "ru": "Мы забронировали билеты в кино онлайн.", "en": "We booked cinema tickets online." }
+    },
+    {
+      "id": "biljett",
+      "sv": "biljett",
+      "translations": { "ru": "билет", "en": "ticket" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en biljett", "defSg": "biljetten", "indefPl": "biljetter", "defPl": "biljetterna" },
+      "example": { "sv": "Biljetterna kostar hundra kronor styck.", "ru": "Билеты стоят по сто крон.", "en": "The tickets cost a hundred kronor each." }
+    },
+    {
+      "id": "repertoar",
+      "sv": "repertoar",
+      "translations": { "ru": "репертуар, афиша", "en": "repertoire, programme" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en repertoar", "defSg": "repertoaren", "indefPl": "repertoarer", "defPl": "repertoarerna" },
+      "example": { "sv": "Kolla teaterns repertoar på hemsidan.", "ru": "Посмотри репертуар театра на сайте.", "en": "Check the theatre's programme on the website." }
+    },
+    {
+      "id": "medlem",
+      "sv": "medlem",
+      "translations": { "ru": "член (клуба, организации)", "en": "member" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medlem", "defSg": "medlemmen", "indefPl": "medlemmar", "defPl": "medlemmarna" },
+      "example": { "sv": "Jag blev medlem i föreningen i höstas.", "ru": "Я стал(а) членом клуба этой осенью.", "en": "I became a member of the club this autumn." }
+    },
+    {
+      "id": "medlemsavgift",
+      "sv": "medlemsavgift",
+      "translations": { "ru": "членский взнос", "en": "membership fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en medlemsavgift", "defSg": "medlemsavgiften", "indefPl": "medlemsavgifter", "defPl": "medlemsavgifterna" },
+      "example": { "sv": "Medlemsavgiften betalas en gång om året.", "ru": "Членский взнос платится раз в год.", "en": "The membership fee is paid once a year." }
+    },
+    {
+      "id": "trana",
+      "sv": "träna",
+      "translations": { "ru": "тренироваться", "en": "to train, to practise" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träna", "present": "tränar", "past": "tränade", "supine": "tränat" },
+      "example": { "sv": "Vi tränar två gånger i veckan.", "ru": "Мы тренируемся два раза в неделю.", "en": "We train twice a week." }
+    },
+    {
+      "id": "tranare",
+      "sv": "tränare",
+      "translations": { "ru": "тренер", "en": "coach" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tränare", "defSg": "tränaren", "indefPl": "tränare", "defPl": "tränarna" },
+      "example": { "sv": "Tränaren kommer från Norge.", "ru": "Тренер из Норвегии.", "en": "The coach is from Norway." }
+    },
+    {
+      "id": "match",
+      "sv": "match",
+      "translations": { "ru": "матч, игра", "en": "match, game" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en match", "defSg": "matchen", "indefPl": "matcher", "defPl": "matcherna" },
+      "example": { "sv": "Nästa match är på lördag.", "ru": "Следующий матч в субботу.", "en": "The next match is on Saturday." }
+    },
+    {
+      "id": "publik",
+      "sv": "publik",
+      "translations": { "ru": "публика, зрители", "en": "audience" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" },
+      "example": { "sv": "Publiken applåderade länge.", "ru": "Публика долго аплодировала.", "en": "The audience applauded for a long time." }
+    },
+    {
+      "id": "forestallning",
+      "sv": "föreställning",
+      "translations": { "ru": "представление, спектакль, сеанс", "en": "performance, show" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en föreställning", "defSg": "föreställningen", "indefPl": "föreställningar", "defPl": "föreställningarna" },
+      "example": { "sv": "Föreställningen börjar klockan sju.", "ru": "Представление начинается в семь.", "en": "The performance starts at seven." }
+    },
+    {
+      "id": "premiar",
+      "sv": "premiär",
+      "translations": { "ru": "премьера", "en": "premiere" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en premiär", "defSg": "premiären", "indefPl": "premiärer", "defPl": "premiärerna" },
+      "example": { "sv": "Filmen har premiär nästa fredag.", "ru": "Премьера фильма в следующую пятницу.", "en": "The film premieres next Friday." }
+    },
+    {
+      "id": "idrottsforening",
+      "sv": "idrottsförening",
+      "translations": { "ru": "спортивный клуб", "en": "sports club" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en idrottsförening", "defSg": "idrottsföreningen", "indefPl": "idrottsföreningar", "defPl": "idrottsföreningarna" },
+      "example": { "sv": "Barnen är med i en idrottsförening.", "ru": "Дети состоят в спортивном клубе.", "en": "The children belong to a sports club." }
+    },
+    {
+      "id": "anmala-sig",
+      "sv": "anmäla sig",
+      "translations": { "ru": "записываться (в клуб, на курс)", "en": "to sign up" },
+      "pos": "phrase",
+      "example": { "sv": "Man kan anmäla sig till föreningen på hemsidan.", "ru": "Записаться в клуб можно на сайте.", "en": "You can sign up to the club on the website." }
+    },
+    {
+      "id": "salong",
+      "sv": "salong",
+      "translations": { "ru": "зал (кинозал, зрительный зал)", "en": "auditorium, hall" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en salong", "defSg": "salongen", "indefPl": "salonger", "defPl": "salongerna" },
+      "example": { "sv": "Filmen visas i salong tre.", "ru": "Фильм показывают в третьем зале.", "en": "The film is showing in auditorium three." }
+    }
+  ]
+}

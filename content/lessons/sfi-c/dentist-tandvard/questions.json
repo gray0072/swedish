@@ -1,0 +1,99 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-dentist-tandvard-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Я хочу записаться к стоматологу.»", "en": "Build the phrase: \"I want to book a dentist appointment.\"" },
+      "tokens": ["tid", "vill", "hos", "Jag", "boka", "tandläkaren"],
+      "answer": [3, 1, 4, 0, 2, 5]
+    },
+    {
+      "id": "q-dentist-tandvard-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «У меня ужасная зубная боль.»", "en": "Build the sentence: \"I have terrible toothache.\"" },
+      "tokens": ["fruktansvärd", "har", "tandvärk", "Jag"],
+      "answer": [3, 1, 0, 2]
+    },
+    {
+      "id": "q-dentist-tandvard-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["tandvärk", "зубная боль"],
+        ["lagning", "пломба"],
+        ["karies", "кариес"],
+        ["bedövning", "анестезия"]
+      ]
+    },
+    {
+      "id": "q-dentist-tandvard-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Frisktandvård» — это программа, которая делает регулярные осмотры дешевле.",
+        "en": "\"Frisktandvård\" is a scheme that makes regular check-ups cheaper."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-dentist-tandvard-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Tandsköterska» — это то же самое, что «tandläkare».",
+        "en": "\"Tandsköterska\" is the same as \"tandläkare\"."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Tandläkare» — это стоматолог, а «tandsköterska» — ассистент(ка) стоматолога.",
+        "en": "\"Tandläkare\" is the dentist, while \"tandsköterska\" is the dental assistant."
+      }
+    },
+    {
+      "id": "q-dentist-tandvard-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du behöver en ___ i den här tanden. (пломба)" },
+      "answer": ["lagning"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-dentist-tandvard-gap-2",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "___ tänderna två gånger om dagen. (чисти)" },
+      "answer": ["Borsta"],
+      "acceptAlso": ["borsta"]
+    },
+    {
+      "id": "q-dentist-tandvard-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du har ont i en tand och tandläkaren ska laga den. Vad kan hen erbjuda dig innan?",
+        "en": "You have a toothache and the dentist is going to fill it. What might they offer you first?"
+      },
+      "choices": ["bedövning", "en räkning", "en tandsköterska", "en kontroll"],
+      "answer": 0
+    },
+    {
+      "id": "q-dentist-tandvard-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Efter behandlingen, vad får du som visar hur mycket du ska betala?",
+        "en": "After the treatment, what do you receive that shows how much you owe?"
+      },
+      "choices": ["en räkning", "en lagning", "en bedövning", "en kontroll"],
+      "answer": 0
+    }
+  ]
+}

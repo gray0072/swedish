@@ -1,0 +1,101 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-safety-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Кто-нибудь пострадал?»", "en": "Build the sentence: \"Is anyone injured?\"" },
+      "tokens": ["skadad", "Är", "någon"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-safety-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Надень каску, прежде чем войти.»", "en": "Build the sentence: \"Put on the helmet before you go in.\"" },
+      "tokens": ["på", "innan", "du", "Ta", "går", "in", "hjälmen"],
+      "answer": [3, 0, 6, 1, 2, 4, 5]
+    },
+    {
+      "id": "q-safety-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь снаряжение с переводом", "en": "Match the equipment with its translation" },
+      "pairs": [
+        ["hjälm", "каска"],
+        ["skyddsglasögon", "защитные очки"],
+        ["brandsläckare", "огнетушитель"],
+        ["förbandslåda", "аптечка первой помощи"]
+      ]
+    },
+    {
+      "id": "q-safety-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "«Nödutgång» — это место, куда складывают инструменты.",
+        "en": "A \"nödutgång\" is a place where you store tools."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Nödutgång» — это аварийный выход, а не место для хранения инструментов.",
+        "en": "A \"nödutgång\" is an emergency exit, not a place to store tools."
+      }
+    },
+    {
+      "id": "q-safety-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": {
+        "ru": "Если случилась авария, нужно (rapportera) сообщить об этом.",
+        "en": "If an accident happens, you should (rapportera) report it."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-safety-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Du måste ___ en olycka direkt. (сообщить)" },
+      "answer": ["rapportera"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-safety-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du ser rök och en varningsskylt vid en dörr. Vad gör du?",
+        "en": "You see smoke and a warning sign near a door. What do you do?"
+      },
+      "choices": ["Använder nödutgången", "Väntar vid dörren", "Ignorerar skylten", "Ringer en kollega om en fikarast"],
+      "answer": 0
+    },
+    {
+      "id": "q-safety-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Är någon skadad?",
+      "prompt": { "en": "What is being asked?", "ru": "О чём спрашивают?" },
+      "choices": [
+        { "en": "Whether anyone is injured", "ru": "Пострадал ли кто-то" },
+        { "en": "Where the fire extinguisher is", "ru": "Где находится огнетушитель" },
+        { "en": "When the break starts", "ru": "Когда начинается перерыв" },
+        { "en": "Who the boss is", "ru": "Кто начальник" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q-safety-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "How do you say \"first aid\" in Swedish?", "ru": "Как сказать по-шведски «первая помощь»?" },
+      "answer": ["första hjälpen"]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "nittonhundraattiofyra",
+      "sv": "nittonhundraåttiofyra",
+      "translations": { "ru": "тысяча девятьсот восемьдесят четвёртый (1984)", "en": "nineteen eighty-four (1984)" },
+      "pos": "numeral",
+      "example": { "sv": "Jag är född nittonhundraåttiofyra.", "ru": "Я родился/родилась в тысяча девятьсот восемьдесят четвёртом.", "en": "I was born in nineteen eighty-four." }
+    },
+    {
+      "id": "tjugohundratjugofem",
+      "sv": "tjugohundratjugofem",
+      "translations": { "ru": "две тысячи двадцать пятый (2025)", "en": "twenty twenty-five (2025)" },
+      "pos": "numeral",
+      "example": { "sv": "Det är tjugohundratjugofem nu.", "ru": "Сейчас две тысячи двадцать пятый год.", "en": "It is twenty twenty-five now." }
+    },
+    {
+      "id": "tjugotjugofem",
+      "sv": "tjugotjugofem",
+      "translations": { "ru": "двадцать двадцать пятый (2025, короткий вариант)", "en": "twenty twenty-five (short form)" },
+      "pos": "numeral",
+      "example": { "sv": "Vi säger också tjugotjugofem.", "ru": "Мы также говорим tjugotjugofem.", "en": "We also say tjugotjugofem." }
+    },
+    {
+      "id": "procent",
+      "sv": "procent",
+      "translations": { "ru": "процент", "en": "percent" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett procent", "defSg": "procentet", "indefPl": "procent", "defPl": "procenten" },
+      "example": { "sv": "Femtio procent av eleverna är här.", "ru": "Пятьдесят процентов учеников здесь.", "en": "Fifty percent of the students are here." }
+    },
+    {
+      "id": "femtio-procent",
+      "sv": "femtio procent",
+      "translations": { "ru": "пятьдесят процентов", "en": "fifty percent" },
+      "pos": "phrase",
+      "example": { "sv": "Rabatten är femtio procent idag.", "ru": "Скидка сегодня пятьдесят процентов.", "en": "The discount is fifty percent today." }
+    },
+    {
+      "id": "hundra-procent",
+      "sv": "hundra procent",
+      "translations": { "ru": "сто процентов", "en": "one hundred percent" },
+      "pos": "phrase",
+      "example": { "sv": "Jag är hundra procent säker.", "ru": "Я на сто процентов уверен(а).", "en": "I am one hundred percent sure." }
+    },
+    {
+      "id": "halften",
+      "sv": "hälften",
+      "translations": { "ru": "половина", "en": "half" },
+      "pos": "noun",
+      "example": { "sv": "Hälften av kakan är kvar.", "ru": "Половина торта осталась.", "en": "Half of the cake is left." }
+    },
+    {
+      "id": "dubbelt",
+      "sv": "dubbelt",
+      "translations": { "ru": "вдвое, двойное", "en": "double, twice as much" },
+      "pos": "adv",
+      "example": { "sv": "Det kostar dubbelt så mycket.", "ru": "Это стоит вдвое дороже.", "en": "It costs twice as much." }
+    },
+    {
+      "id": "en-tredjedel",
+      "sv": "en tredjedel",
+      "translations": { "ru": "одна треть", "en": "a third" },
+      "pos": "phrase",
+      "example": { "sv": "En tredjedel av gruppen kom sent.", "ru": "Треть группы пришла поздно.", "en": "A third of the group arrived late." }
+    },
+    {
+      "id": "en-fjardedel",
+      "sv": "en fjärdedel",
+      "translations": { "ru": "одна четверть", "en": "a quarter" },
+      "pos": "phrase",
+      "example": { "sv": "En fjärdedel av lönen går till hyran.", "ru": "Четверть зарплаты уходит на аренду.", "en": "A quarter of the salary goes to rent." }
+    },
+    {
+      "id": "arstal",
+      "sv": "årtal",
+      "translations": { "ru": "год (число)", "en": "year (a specific number)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett årtal", "defSg": "årtalet", "indefPl": "årtal", "defPl": "årtalen" },
+      "example": { "sv": "Vilket årtal föddes du?", "ru": "В каком году ты родился/родилась?", "en": "What year were you born?" }
+    },
+    {
+      "id": "fodd",
+      "sv": "född",
+      "translations": { "ru": "рождённый", "en": "born" },
+      "pos": "adj",
+      "example": { "sv": "Hon är född nittonhundranittio.", "ru": "Она родилась в тысяча девятьсот девяностом.", "en": "She was born in nineteen ninety." }
+    },
+    {
+      "id": "oka",
+      "sv": "öka",
+      "translations": { "ru": "увеличиваться, расти", "en": "to increase" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" },
+      "example": { "sv": "Priset ökade med tio procent.", "ru": "Цена выросла на десять процентов.", "en": "The price increased by ten percent." }
+    },
+    {
+      "id": "minska",
+      "sv": "minska",
+      "translations": { "ru": "уменьшаться", "en": "to decrease" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" },
+      "example": { "sv": "Antalet minskade med hälften.", "ru": "Количество уменьшилось вдвое.", "en": "The number decreased by half." }
+    },
+    {
+      "id": "vilket-arstal",
+      "sv": "Vilket årtal är det?",
+      "translations": { "ru": "Какой сейчас год?", "en": "What year is it?" },
+      "pos": "phrase",
+      "example": { "sv": "Vilket årtal är det? Det är tjugotjugofem.", "ru": "Какой сейчас год? Сейчас двадцать двадцать пятый.", "en": "What year is it? It is twenty twenty-five." }
+    }
+  ]
+}

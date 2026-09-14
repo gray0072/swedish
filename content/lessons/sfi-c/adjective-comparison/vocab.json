@@ -1,0 +1,83 @@
+{
+  "items": [
+    {
+      "id": "stor-comp",
+      "sv": "stor",
+      "translations": { "ru": "большой", "en": "big" },
+      "pos": "adj",
+      "note": { "ru": "сравнит.: större; превосх.: störst", "en": "comparative: större; superlative: störst" },
+      "example": { "sv": "Den här bilen är större än den där.", "ru": "Эта машина больше, чем та.", "en": "This car is bigger than that one." }
+    },
+    {
+      "id": "bra-comp",
+      "sv": "bra",
+      "translations": { "ru": "хороший", "en": "good" },
+      "pos": "adj",
+      "note": { "ru": "неправильно: bättre, bäst", "en": "irregular: bättre, bäst" },
+      "example": { "sv": "Det här är bättre än det gamla.", "ru": "Это лучше, чем старое.", "en": "This is better than the old one." }
+    },
+    {
+      "id": "dalig-comp",
+      "sv": "dålig",
+      "translations": { "ru": "плохой", "en": "bad" },
+      "pos": "adj",
+      "note": { "ru": "неправильно: sämre, sämst", "en": "irregular: sämre, sämst" },
+      "example": { "sv": "Vädret är sämre idag.", "ru": "Погода сегодня хуже.", "en": "The weather is worse today." }
+    },
+    {
+      "id": "liten-comp",
+      "sv": "liten",
+      "translations": { "ru": "маленький", "en": "small" },
+      "pos": "adj",
+      "note": { "ru": "неправильно: mindre, minst", "en": "irregular: mindre, minst" },
+      "example": { "sv": "Den här lägenheten är mindre.", "ru": "Эта квартира меньше.", "en": "This apartment is smaller." }
+    },
+    {
+      "id": "gammal-comp",
+      "sv": "gammal",
+      "translations": { "ru": "старый", "en": "old" },
+      "pos": "adj",
+      "note": { "ru": "неправильно: äldre, äldst", "en": "irregular: äldre, äldst" },
+      "example": { "sv": "Min bror är äldre än jag.", "ru": "Мой брат старше меня.", "en": "My brother is older than me." }
+    },
+    {
+      "id": "manga-comp",
+      "sv": "många",
+      "translations": { "ru": "много (о счётных)", "en": "many" },
+      "pos": "adj",
+      "note": { "ru": "неправильно: fler, flest", "en": "irregular: fler, flest" },
+      "example": { "sv": "Hon har fler böcker än jag.", "ru": "У неё больше книг, чем у меня.", "en": "She has more books than me." }
+    },
+    {
+      "id": "ung-comp",
+      "sv": "ung",
+      "translations": { "ru": "молодой", "en": "young" },
+      "pos": "adj",
+      "note": { "ru": "сравнит.: yngre; превосх.: yngst (неправильно)", "en": "comparative: yngre; superlative: yngst (irregular)" },
+      "example": { "sv": "Hon är yngre än sin bror.", "ru": "Она моложе своего брата.", "en": "She is younger than her brother." }
+    },
+    {
+      "id": "lang-comp",
+      "sv": "lång",
+      "translations": { "ru": "длинный, высокий", "en": "long, tall" },
+      "pos": "adj",
+      "note": { "ru": "сравнит.: längre; превосх.: längst", "en": "comparative: längre; superlative: längst" },
+      "example": { "sv": "Han är längre än sin far.", "ru": "Он выше своего отца.", "en": "He is taller than his father." }
+    },
+    {
+      "id": "an-comp",
+      "sv": "än",
+      "translations": { "ru": "чем", "en": "than" },
+      "pos": "conjunction",
+      "example": { "sv": "Bilen är dyrare än huset.", "ru": "Машина дороже, чем дом.", "en": "The car is more expensive than the house." }
+    },
+    {
+      "id": "dyr-comp",
+      "sv": "dyr",
+      "translations": { "ru": "дорогой", "en": "expensive" },
+      "pos": "adj",
+      "note": { "ru": "сравнит.: dyrare; превосх.: dyrast", "en": "comparative: dyrare; superlative: dyrast" },
+      "example": { "sv": "Den här klockan är dyrast.", "ru": "Эти часы самые дорогие.", "en": "This watch is the most expensive." }
+    }
+  ]
+}

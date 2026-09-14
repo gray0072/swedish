@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-past-narrative-short-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Вчера я поехал(а) в город.»", "en": "Build the sentence: \"Yesterday I went to town.\"" },
+      "tokens": ["stan", "jag", "Igår", "till", "åkte"],
+      "answer": [2, 4, 1, 3, 0]
+    },
+    {
+      "id": "q-past-narrative-short-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Потом я закупил(а) продукты.»", "en": "Build the sentence: \"Then I did the shopping.\"" },
+      "tokens": ["handlade", "Sedan", "mat", "jag"],
+      "answer": [1, 0, 3, 2]
+    },
+    {
+      "id": "q-past-narrative-short-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразы с переводом", "en": "Match the phrases with their translation" },
+      "pairs": [
+        ["jag åkte", "я поехал(а)"],
+        ["jag träffade", "я встретил(а)"],
+        ["jag handlade", "я делал(а) покупки"],
+        ["till slut", "в конце концов"]
+      ]
+    },
+    {
+      "id": "q-past-narrative-short-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«I förra veckan» значит «на прошлой неделе».", "en": "\"I förra veckan\" means \"last week\"." },
+      "answer": true
+    },
+    {
+      "id": "q-past-narrative-short-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Слово «sedan» в рассказе о прошлом обычно значит «сначала».", "en": "In a past-tense narrative, \"sedan\" usually means \"first\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Sedan» значит «потом, затем» — оно вводит следующее событие, а не первое.",
+        "en": "\"Sedan\" means \"then, after that\" — it introduces the next event, not the first one."
+      }
+    },
+    {
+      "id": "q-past-narrative-short-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ handlade jag mat, och sedan lagade jag middag. (сначала)" },
+      "answer": ["Först"],
+      "acceptAlso": ["först"]
+    },
+    {
+      "id": "q-past-narrative-short-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vilket ord passar bäst för att avsluta en berättelse om gårdagen?",
+        "en": "Which word best fits to close a short story about yesterday?"
+      },
+      "choices": ["till slut", "imorgon", "nästa år", "snart"],
+      "answer": 0
+    },
+    {
+      "id": "q-past-narrative-short-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Как сказать «Я встретил(а) друга»?",
+        "en": "How do you say \"I met a friend\"?"
+      },
+      "choices": ["Jag träffade en vän", "Jag träffar en vän", "Jag ska träffa en vän", "Jag har träffa en vän"],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/emergencies-112-polisanmalan",
+  "slug": "emergencies-112-polisanmalan",
+  "title": {
+    "sv": "Nödsituationer: att ringa 112 och göra en polisanmälan",
+    "ru": "Экстренные ситуации: звонок на 112 и заявление в полицию",
+    "en": "Emergencies: calling 112 and an ambulance, and a polisanmälan for a theft or lost documents"
+  },
+  "summary": {
+    "ru": "Как вызвать скорую по 112, описать случившееся и подать заявление в полицию о краже или утере документов.",
+    "en": "How to call 112 for an ambulance, describe what happened, and file a police report for a theft or lost documents."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "emergency",
+    "phrases",
+    "police"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 300,
+  "prerequisites": [
+    "sfi-a/emergency-phrases"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

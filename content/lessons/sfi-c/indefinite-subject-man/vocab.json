@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": "man-indefinite",
+      "sv": "man",
+      "translations": { "ru": "человек вообще, ты, все (неопределённое подлежащее)", "en": "one, you, people in general (indefinite subject)" },
+      "pos": "pron",
+      "note": { "ru": "Не путать с «man» = «муж, мужчина» — существительным.", "en": "Not to be confused with the noun \"man\" meaning \"husband/man\"." },
+      "example": { "sv": "Man får inte röka här.", "ru": "Здесь нельзя курить.", "en": "You're not allowed to smoke here." }
+    },
+    {
+      "id": "en-object",
+      "sv": "en",
+      "translations": { "ru": "тебя, человека (объектная форма man)", "en": "one, you (object form of man)" },
+      "pos": "pron",
+      "example": { "sv": "Det gör en glad.", "ru": "Это радует (тебя/человека).", "en": "That makes you (one) happy." }
+    },
+    {
+      "id": "ens-possessive",
+      "sv": "ens",
+      "translations": { "ru": "свой, твой (притяжательная форма man)", "en": "one's (possessive form of man)" },
+      "pos": "pron",
+      "example": { "sv": "Det är viktigt att ta hand om sin egen hälsa och lyssna på ens kropp.", "ru": "Важно заботиться о своём здоровье и слушать своё тело.", "en": "It's important to take care of one's own health and listen to one's body." }
+    },
+    {
+      "id": "man-noun",
+      "sv": "man",
+      "translations": { "ru": "мужчина, муж (существительное)", "en": "man, husband (noun)" },
+      "pos": "noun",
+      "gender": "en",
+      "note": { "ru": "Существительное «man» ≠ местоимение «man». Различай по контексту.", "en": "The noun \"man\" is a different word from the pronoun \"man\". Context tells them apart." },
+      "example": { "sv": "Hon har en man och två barn.", "ru": "У неё есть муж и двое детей.", "en": "She has a husband and two children." }
+    },
+    {
+      "id": "roka",
+      "sv": "röka",
+      "translations": { "ru": "курить", "en": "to smoke" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" },
+      "example": { "sv": "Man får inte röka här.", "ru": "Здесь нельзя курить.", "en": "You're not allowed to smoke here." }
+    },
+    {
+      "id": "fa-lov",
+      "sv": "få",
+      "translations": { "ru": "получать, иметь право", "en": "to be allowed to, to get" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Man får vänta i kön.", "ru": "Нужно ждать в очереди.", "en": "One has to wait in the queue." }
+    },
+    {
+      "id": "glad-man",
+      "sv": "glad",
+      "translations": { "ru": "радостный, счастливый", "en": "happy, glad" },
+      "pos": "adj",
+      "example": { "sv": "Det gör en glad att träffa vänner.", "ru": "Встречи с друзьями радуют.", "en": "Meeting friends makes one happy." }
+    },
+    {
+      "id": "kropp",
+      "sv": "kropp",
+      "translations": { "ru": "тело", "en": "body" },
+      "pos": "noun",
+      "gender": "en",
+      "example": { "sv": "Man ska lyssna på sin kropp.", "ru": "Нужно слушать своё тело.", "en": "One should listen to one's body." }
+    }
+  ]
+}

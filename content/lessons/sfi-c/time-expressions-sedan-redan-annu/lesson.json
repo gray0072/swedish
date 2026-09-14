@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/time-expressions-sedan-redan-annu",
+  "slug": "time-expressions-sedan-redan-annu",
+  "title": {
+    "sv": "Tidsuttryck: för … sedan, redan, ännu, i … tid",
+    "ru": "Выражения времени: för … sedan, redan, ännu, i … tid",
+    "en": "Time expressions: för … sedan, sedan, redan, ännu, i … tid"
+  },
+  "summary": {
+    "ru": "Ago, since, already, still/yet, on time — пять частых оборотов времени.",
+    "en": "Ago, since, already, still/yet, on time — five frequent time expressions."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-c"],
+  "tags": ["grammar", "time"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 700,
+  "prerequisites": ["sfi-b/prepositions-of-time"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

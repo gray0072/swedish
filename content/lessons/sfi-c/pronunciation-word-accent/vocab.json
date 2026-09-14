@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "anden-duck",
+      "sv": "anden (accent 1)",
+      "translations": { "ru": "утка (определённая форма)", "en": "the duck" },
+      "pos": "noun",
+      "note": { "ru": "акцент 1: один пик высоты тона", "en": "accent 1: a single, simple pitch peak" },
+      "example": { "sv": "Anden simmar i sjön.", "ru": "Утка плавает в озере.", "en": "The duck swims in the lake." }
+    },
+    {
+      "id": "anden-spirit",
+      "sv": "anden (accent 2)",
+      "translations": { "ru": "дух (определённая форма)", "en": "the spirit" },
+      "pos": "noun",
+      "note": { "ru": "акцент 2: два пика высоты тона", "en": "accent 2: a double, rise-fall-rise pitch pattern" },
+      "example": { "sv": "Anden i huset var snäll.", "ru": "Дух в доме был добрым.", "en": "The spirit in the house was kind." }
+    },
+    {
+      "id": "tomten-yard",
+      "sv": "tomten (accent 1)",
+      "translations": { "ru": "участок (земли) (определённая форма)", "en": "the plot (of land)" },
+      "pos": "noun",
+      "note": { "ru": "акцент 1", "en": "accent 1" },
+      "example": { "sv": "Tomten är stor.", "ru": "Участок большой.", "en": "The plot is big." }
+    },
+    {
+      "id": "tomten-santa",
+      "sv": "tomten (accent 2)",
+      "translations": { "ru": "домовой / Дед Мороз (определённая форма)", "en": "the house gnome / Santa" },
+      "pos": "noun",
+      "note": { "ru": "акцент 2", "en": "accent 2" },
+      "example": { "sv": "Tomten kommer på julafton.", "ru": "Дед Мороз приходит в сочельник.", "en": "Santa comes on Christmas Eve." }
+    },
+    {
+      "id": "buren-cage",
+      "sv": "buren (accent 1)",
+      "translations": { "ru": "клетка (определённая форма)", "en": "the cage" },
+      "pos": "noun",
+      "note": { "ru": "акцент 1", "en": "accent 1" },
+      "example": { "sv": "Buren är tom.", "ru": "Клетка пустая.", "en": "The cage is empty." }
+    },
+    {
+      "id": "buren-carried",
+      "sv": "buren (accent 2)",
+      "translations": { "ru": "несомый (причастие)", "en": "carried" },
+      "pos": "adj",
+      "note": { "ru": "акцент 2", "en": "accent 2" },
+      "example": { "sv": "Väskan blev buren av min bror.", "ru": "Сумку нёс мой брат.", "en": "The bag was carried by my brother." }
+    },
+    {
+      "id": "accent-1",
+      "sv": "accent 1",
+      "translations": { "ru": "акцент 1 (акут)", "en": "accent 1 (acute)" },
+      "pos": "phrase",
+      "note": { "ru": "один пик высоты тона; типично для многих коротких/простых слов", "en": "a single pitch peak; typical of many short/simple words" }
+    },
+    {
+      "id": "accent-2",
+      "sv": "accent 2",
+      "translations": { "ru": "акцент 2 (грав)", "en": "accent 2 (grave)" },
+      "pos": "phrase",
+      "note": { "ru": "два пика высоты тона; типично для двусложных слов и сложных слов", "en": "a double pitch peak; typical of two-syllable words and compounds" }
+    },
+    {
+      "id": "melodi",
+      "sv": "melodi",
+      "translations": { "ru": "мелодика, мелодия", "en": "melody, intonation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en melodi", "defSg": "melodin", "indefPl": "melodier", "defPl": "melodierna" },
+      "example": { "sv": "Svenskan har en tydlig melodi.", "ru": "У шведского чёткая мелодика.", "en": "Swedish has a clear melody." }
+    },
+    {
+      "id": "betonad-stavelse",
+      "sv": "betonad stavelse",
+      "translations": { "ru": "ударный слог", "en": "stressed syllable" },
+      "pos": "phrase",
+      "example": { "sv": "Den betonade stavelsen bär ordaccenten.", "ru": "Ударный слог несёт тональное ударение.", "en": "The stressed syllable carries the word accent." }
+    }
+  ]
+}

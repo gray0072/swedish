@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": "schema",
+      "sv": "schema",
+      "translations": { "ru": "расписание, график", "en": "schedule" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett schema", "defSg": "schemat", "indefPl": "scheman", "defPl": "schemana" },
+      "example": { "sv": "Kan du visa mig schemat för veckan?", "ru": "Можешь показать мне расписание на неделю?", "en": "Can you show me the schedule for the week?" }
+    },
+    {
+      "id": "rast",
+      "sv": "rast",
+      "translations": { "ru": "перерыв", "en": "break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en rast", "defSg": "rasten", "indefPl": "raster", "defPl": "rasterna" },
+      "example": { "sv": "Hur lång är rasten?", "ru": "Сколько длится перерыв?", "en": "How long is the break?" }
+    },
+    {
+      "id": "fikarast",
+      "sv": "fikarast",
+      "translations": { "ru": "кофе-пауза", "en": "coffee break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en fikarast", "defSg": "fikarasten", "indefPl": "fikaraster", "defPl": "fikarasterna" },
+      "example": { "sv": "Vi tar en fikarast klockan tio.", "ru": "У нас кофе-пауза в десять часов.", "en": "We take a coffee break at ten o'clock." }
+    },
+    {
+      "id": "lunchrast",
+      "sv": "lunchrast",
+      "translations": { "ru": "обеденный перерыв", "en": "lunch break" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en lunchrast", "defSg": "lunchrasten", "indefPl": "lunchraster", "defPl": "lunchrasterna" },
+      "example": { "sv": "Lunchrasten är mellan tolv och ett.", "ru": "Обеденный перерыв с двенадцати до часа.", "en": "The lunch break is between twelve and one." }
+    },
+    {
+      "id": "kollega",
+      "sv": "kollega",
+      "translations": { "ru": "коллега", "en": "colleague" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kollega", "defSg": "kollegan", "indefPl": "kollegor", "defPl": "kollegorna" },
+      "example": { "sv": "Min kollega heter Anna.", "ru": "Мою коллегу зовут Анна.", "en": "My colleague's name is Anna." }
+    },
+    {
+      "id": "chef",
+      "sv": "chef",
+      "translations": { "ru": "начальник, руководитель", "en": "boss, manager" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en chef", "defSg": "chefen", "indefPl": "chefer", "defPl": "cheferna" },
+      "example": { "sv": "Min chef är på möte just nu.", "ru": "Мой начальник сейчас на совещании.", "en": "My boss is in a meeting right now." }
+    },
+    {
+      "id": "arbetstid",
+      "sv": "arbetstid",
+      "translations": { "ru": "рабочее время", "en": "working hours" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetstid", "defSg": "arbetstiden", "indefPl": "arbetstider", "defPl": "arbetstiderna" },
+      "example": { "sv": "Min arbetstid är från åtta till fyra.", "ru": "Моё рабочее время с восьми до четырёх.", "en": "My working hours are from eight to four." }
+    },
+    {
+      "id": "arbetspass",
+      "sv": "arbetspass",
+      "translations": { "ru": "смена", "en": "shift" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett arbetspass", "defSg": "arbetspasset", "indefPl": "arbetspass", "defPl": "arbetspassen" },
+      "example": { "sv": "Jag har ett långt arbetspass idag.", "ru": "У меня сегодня длинная смена.", "en": "I have a long shift today." }
+    },
+    {
+      "id": "borja",
+      "sv": "börja",
+      "translations": { "ru": "начинать(ся)", "en": "to start" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "börja", "present": "börjar", "past": "började", "supine": "börjat" },
+      "example": { "sv": "När börjar du jobbet?", "ru": "Когда ты начинаешь работу?", "en": "When do you start work?" }
+    },
+    {
+      "id": "sluta",
+      "sv": "sluta",
+      "translations": { "ru": "заканчивать(ся)", "en": "to finish, to stop" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" },
+      "example": { "sv": "Jag slutar jobbet klockan fem.", "ru": "Я заканчиваю работу в пять часов.", "en": "I finish work at five o'clock." }
+    },
+    {
+      "id": "kan-du-hjalpa-mig",
+      "sv": "Kan du hjälpa mig?",
+      "translations": { "ru": "Можешь мне помочь?", "en": "Can you help me?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du hjälpa mig med den här uppgiften?", "ru": "Можешь помочь мне с этим заданием?", "en": "Can you help me with this task?" }
+    },
+    {
+      "id": "jag-behover-hjalp-med-detta",
+      "sv": "Jag behöver hjälp med det här.",
+      "translations": { "ru": "Мне нужна помощь с этим.", "en": "I need help with this." },
+      "pos": "phrase"
+    },
+    {
+      "id": "hur-lang-ar-rasten",
+      "sv": "Hur lång är rasten?",
+      "translations": { "ru": "Сколько длится перерыв?", "en": "How long is the break?" },
+      "pos": "phrase"
+    },
+    {
+      "id": "jag-har-en-fraga",
+      "sv": "Jag har en fråga.",
+      "translations": { "ru": "У меня есть вопрос.", "en": "I have a question." },
+      "pos": "phrase"
+    },
+    {
+      "id": "vi-ses-efter-rasten",
+      "sv": "Vi ses efter rasten.",
+      "translations": { "ru": "Увидимся после перерыва.", "en": "See you after the break." },
+      "pos": "phrase"
+    },
+    {
+      "id": "narvarande",
+      "sv": "närvarande",
+      "translations": { "ru": "присутствующий, на месте", "en": "present, at work" },
+      "pos": "adj",
+      "note": { "ru": "неизменяемое прилагательное", "en": "invariable adjective" },
+      "example": { "sv": "Alla kollegor är närvarande idag.", "ru": "Все коллеги сегодня на месте.", "en": "All colleagues are present today." }
+    }
+  ]
+}

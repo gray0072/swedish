@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/perfect-har-supinum",
+  "slug": "perfect-har-supinum",
+  "title": {
+    "sv": "Perfekt: har + supinum, och skillnaden mot preteritum",
+    "ru": "Перфект: har + супин и его отличие от претерита",
+    "en": "The perfect har + supinum and how it differs from the preterite"
+  },
+  "summary": {
+    "ru": "Когда использовать «har läst», а когда «läste» — перфект против претерита.",
+    "en": "When to use \"har läst\" versus \"läste\" — the perfect versus the preterite."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "past-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 480,
+  "prerequisites": [
+    "sfi-c/supine-strong-verbs"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

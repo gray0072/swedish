@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": "i-static",
+      "sv": "i",
+      "translations": { "ru": "в (нахождение внутри)", "en": "in (static location)" },
+      "pos": "prep",
+      "example": { "sv": "Jag är i skolan.", "ru": "Я в школе.", "en": "I am in school." }
+    },
+    {
+      "id": "pa-static",
+      "sv": "på",
+      "translations": { "ru": "на, в (нахождение)", "en": "on, at (static location)" },
+      "pos": "prep",
+      "example": { "sv": "Jag är på jobbet.", "ru": "Я на работе.", "en": "I am at work." }
+    },
+    {
+      "id": "till-dir",
+      "sv": "till",
+      "translations": { "ru": "к, в (направление, движение)", "en": "to (direction, movement toward)" },
+      "pos": "prep",
+      "example": { "sv": "Jag går till skolan.", "ru": "Я иду в школу.", "en": "I'm going to school." }
+    },
+    {
+      "id": "hos",
+      "sv": "hos",
+      "translations": { "ru": "у (кого-то, в гостях)", "en": "at (someone's place)" },
+      "pos": "prep",
+      "example": { "sv": "Jag är hos min vän.", "ru": "Я у своего друга.", "en": "I am at my friend's place." }
+    },
+    {
+      "id": "skola",
+      "sv": "skola",
+      "translations": { "ru": "школа", "en": "school" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" },
+      "example": { "sv": "Barnen går till skolan.", "ru": "Дети идут в школу.", "en": "The children go to school." }
+    },
+    {
+      "id": "jobb",
+      "sv": "jobb",
+      "translations": { "ru": "работа", "en": "job, work" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett jobb", "defSg": "jobbet", "indefPl": "jobb", "defPl": "jobben" },
+      "example": { "sv": "Hon åker till jobbet klockan åtta.", "ru": "Она едет на работу в восемь.", "en": "She goes to work at eight." }
+    },
+    {
+      "id": "van",
+      "sv": "vän",
+      "translations": { "ru": "друг, подруга", "en": "friend" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vän", "defSg": "vännen", "indefPl": "vänner", "defPl": "vännerna" },
+      "example": { "sv": "Jag ska till min vän ikväll.", "ru": "Я иду к своему другу сегодня вечером.", "en": "I'm going to my friend's tonight." }
+    },
+    {
+      "id": "doktor",
+      "sv": "läkare",
+      "translations": { "ru": "врач", "en": "doctor" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läkare", "defSg": "läkaren", "indefPl": "läkare", "defPl": "läkarna" },
+      "example": { "sv": "Jag ska till läkaren imorgon.", "ru": "Я иду к врачу завтра.", "en": "I'm going to the doctor tomorrow." }
+    },
+    {
+      "id": "aka",
+      "sv": "åka",
+      "translations": { "ru": "ехать", "en": "to go (by vehicle)" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" },
+      "example": { "sv": "Vi åker till stan.", "ru": "Мы едем в город.", "en": "We are going to town." }
+    },
+    {
+      "id": "vara",
+      "sv": "vara",
+      "translations": { "ru": "быть, находиться", "en": "to be" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Jag är hos min syster.", "ru": "Я у своей сестры.", "en": "I am at my sister's." }
+    },
+    {
+      "id": "hemma",
+      "sv": "stan",
+      "translations": { "ru": "город (разг., stan = staden)", "en": "town, downtown (colloquial for staden)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en stad", "defSg": "stan", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Vi ska till stan i eftermiddag.", "ru": "Мы поедем в город после обеда.", "en": "We're going downtown this afternoon." }
+    },
+    {
+      "id": "affaren",
+      "sv": "affär",
+      "translations": { "ru": "магазин", "en": "shop, store" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en affär", "defSg": "affären", "indefPl": "affärer", "defPl": "affärerna" },
+      "example": { "sv": "Jag är i affären.", "ru": "Я в магазине.", "en": "I am in the shop." }
+    }
+  ]
+}

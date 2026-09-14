@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "id": "morker",
+      "sv": "mörker",
+      "translations": { "ru": "темнота", "en": "darkness" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett mörker", "defSg": "mörkret", "indefPl": "mörker", "defPl": "mörkren" },
+      "example": { "sv": "På vintern kommer mörkret tidigt.", "ru": "Зимой темнота наступает рано.", "en": "In winter, darkness comes early." }
+    },
+    {
+      "id": "mork",
+      "sv": "mörk",
+      "translations": { "ru": "тёмный", "en": "dark" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: mörkt, мн.ч.: mörka", "en": "ett-form: mörkt, plural: mörka" },
+      "example": { "sv": "Det är redan mörkt klockan fyra.", "ru": "В четыре часа уже темно.", "en": "It's already dark at four o'clock." }
+    },
+    {
+      "id": "halka-noun",
+      "sv": "halka",
+      "translations": { "ru": "гололёд, скользкость", "en": "black ice, slipperiness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en halka", "defSg": "halkan", "indefPl": "halkor", "defPl": "halkorna" },
+      "example": { "sv": "Var försiktig, det är halka på trottoaren!", "ru": "Осторожно, на тротуаре гололёд!", "en": "Be careful, there's black ice on the sidewalk!" }
+    },
+    {
+      "id": "halka-verb",
+      "sv": "halka",
+      "translations": { "ru": "поскользнуться", "en": "to slip" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "halka", "present": "halkar", "past": "halkade", "supine": "halkat" },
+      "example": { "sv": "Jag halkade på isen igår.", "ru": "Вчера я поскользнулся(-лась) на льду.", "en": "I slipped on the ice yesterday." }
+    },
+    {
+      "id": "is",
+      "sv": "is",
+      "translations": { "ru": "лёд", "en": "ice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en is", "defSg": "isen", "indefPl": "isar", "defPl": "isarna" },
+      "example": { "sv": "Sjön har lagt is.", "ru": "Озеро покрылось льдом.", "en": "The lake has frozen over." }
+    },
+    {
+      "id": "sno-noun",
+      "sv": "snö",
+      "translations": { "ru": "снег", "en": "snow" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en snö", "defSg": "snön", "indefPl": "snöar", "defPl": "snöarna" },
+      "example": { "sv": "Det ligger mycket snö på gatorna.", "ru": "На улицах много снега.", "en": "There's a lot of snow on the streets." }
+    },
+    {
+      "id": "sno-verb",
+      "sv": "snöa",
+      "translations": { "ru": "идти (о снеге)", "en": "to snow" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "snöa", "present": "snöar", "past": "snöade", "supine": "snöat" },
+      "example": { "sv": "Det snöar mycket i natt.", "ru": "Сегодня ночью сильно идёт снег.", "en": "It's snowing a lot tonight." }
+    },
+    {
+      "id": "vinterdack",
+      "sv": "vinterdäck",
+      "translations": { "ru": "зимние шины", "en": "winter tires" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett vinterdäck", "defSg": "vinterdäcket", "indefPl": "vinterdäck", "defPl": "vinterdäcken" },
+      "example": { "sv": "Man måste byta till vinterdäck i november.", "ru": "В ноябре нужно менять на зимние шины.", "en": "You have to switch to winter tires in November." }
+    },
+    {
+      "id": "varm",
+      "sv": "varm",
+      "translations": { "ru": "тёплый", "en": "warm" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: varmt, мн.ч.: varma", "en": "ett-form: varmt, plural: varma" },
+      "example": { "sv": "Ta på dig varma kläder idag.", "ru": "Надень сегодня тёплую одежду.", "en": "Put on warm clothes today." }
+    },
+    {
+      "id": "mossa",
+      "sv": "mössa",
+      "translations": { "ru": "шапка", "en": "beanie, winter hat" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en mössa", "defSg": "mössan", "indefPl": "mössor", "defPl": "mössorna" },
+      "example": { "sv": "Glöm inte mössan när du går ut!", "ru": "Не забудь шапку, когда выходишь!", "en": "Don't forget your beanie when you go out!" }
+    },
+    {
+      "id": "vante",
+      "sv": "vante",
+      "translations": { "ru": "варежка", "en": "mitten" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en vante", "defSg": "vanten", "indefPl": "vantar", "defPl": "vantarna" },
+      "example": { "sv": "Jag har tappat en vante.", "ru": "Я потерял(а) одну варежку.", "en": "I've lost a mitten." }
+    },
+    {
+      "id": "halkskydd",
+      "sv": "halkskydd",
+      "translations": { "ru": "ледоходы, противоскользящие накладки", "en": "ice grips, anti-slip cleats" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett halkskydd", "defSg": "halkskyddet", "indefPl": "halkskydd", "defPl": "halkskydden" },
+      "example": { "sv": "Halkskydd under skorna hjälper mot fall.", "ru": "Ледоходы под обувью помогают не упасть.", "en": "Ice grips under your shoes help prevent falls." }
+    },
+    {
+      "id": "kyla",
+      "sv": "kyla",
+      "translations": { "ru": "холод", "en": "cold (noun)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kyla", "defSg": "kylan", "indefPl": "kylor", "defPl": "kylorna" },
+      "example": { "sv": "Kylan bet i kinderna.", "ru": "Холод щипал щёки.", "en": "The cold bit at our cheeks." }
+    },
+    {
+      "id": "frysa",
+      "sv": "frysa",
+      "translations": { "ru": "мёрзнуть, замерзать", "en": "to freeze, to feel cold" },
+      "pos": "verb",
+      "forms": { "infinitive": "frysa", "present": "fryser", "past": "frös", "supine": "frusit" },
+      "example": { "sv": "Jag fryser om händerna utan vantar.", "ru": "У меня мёрзнут руки без варежек.", "en": "My hands get cold without mittens." }
+    },
+    {
+      "id": "minusgrader",
+      "sv": "minusgrader",
+      "translations": { "ru": "минусовая температура", "en": "degrees below zero" },
+      "pos": "noun",
+      "example": { "sv": "Det är tio minusgrader ute idag.", "ru": "Сегодня на улице минус десять.", "en": "It's ten degrees below zero outside today." }
+    },
+    {
+      "id": "skotta",
+      "sv": "skotta",
+      "translations": { "ru": "чистить снег (лопатой)", "en": "to shovel (snow)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "skotta", "present": "skottar", "past": "skottade", "supine": "skottat" },
+      "example": { "sv": "Vi måste skotta trappan innan jobbet.", "ru": "Нужно почистить лестницу от снега перед работой.", "en": "We need to shovel the steps before work." }
+    },
+    {
+      "id": "snostorm",
+      "sv": "snöstorm",
+      "translations": { "ru": "снежная буря", "en": "snowstorm" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en snöstorm", "defSg": "snöstormen", "indefPl": "snöstormar", "defPl": "snöstormarna" },
+      "example": { "sv": "Tågen är inställda på grund av snöstormen.", "ru": "Поезда отменены из-за снежной бури.", "en": "The trains are cancelled because of the snowstorm." }
+    },
+    {
+      "id": "reflexvast",
+      "sv": "reflex",
+      "translations": { "ru": "светоотражатель", "en": "reflector" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en reflex", "defSg": "reflexen", "indefPl": "reflexer", "defPl": "reflexerna" },
+      "example": { "sv": "Bär en reflex när det är mörkt ute.", "ru": "Носи светоотражатель, когда на улице темно.", "en": "Wear a reflector when it's dark outside." }
+    }
+  ]
+}

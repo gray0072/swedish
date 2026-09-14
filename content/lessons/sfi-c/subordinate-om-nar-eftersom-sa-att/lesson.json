@@ -1,0 +1,37 @@
+{
+  "id": "sfi-c/subordinate-om-nar-eftersom-sa-att",
+  "slug": "subordinate-om-nar-eftersom-sa-att",
+  "title": {
+    "sv": "Bisatser med om, när, eftersom, så att",
+    "ru": "Придаточные предложения с om, när, eftersom, så att",
+    "en": "Subordinate clauses with om, när, eftersom, så att"
+  },
+  "summary": {
+    "ru": "Om, när, eftersom и så att вводят придаточные предложения с тем же порядком слов, что и att (BIFF).",
+    "en": "Om, när, eftersom and så att introduce subordinate clauses with the same BIFF word order as att."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "subordinate-clauses",
+    "conjunctions",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 520,
+  "prerequisites": [
+    "sfi-c/subordinate-att-biff"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

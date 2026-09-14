@@ -1,0 +1,108 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-future-ska-kommer-att-tanker-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Какая форма будущего выражает обещание или решение?", "en": "Which future form expresses a decision or promise?" },
+      "choices": ["ska", "kommer att", "tänker", "present tense"],
+      "answer": 0
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Будет дождь» (прогноз)?", "en": "How do you say \"It's going to rain\" (a prediction)?" },
+      "choices": ["Det ska regna.", "Det kommer att regna.", "Det tänker regna.", "Det regnar."],
+      "answer": 1
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-mc-3",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какая фраза выражает намерение?", "en": "Which phrase expresses an intention?" },
+      "choices": ["Jag ska ringa dig.", "Det kommer att bli kallt.", "Jag tänker flytta.", "Bussen går klockan åtta."],
+      "answer": 2
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-mc-4",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое время используется для расписания («Bussen går klockan åtta»)?", "en": "Which tense is used for a schedule (\"Bussen går klockan åtta\")?" },
+      "choices": ["preterite", "present tense", "perfect", "supine"],
+      "answer": 1
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag ___ ringa dig ikväll. (ska)" },
+      "answer": ["ska"],
+      "acceptAlso": [],
+      "hint": { "ru": "обещание", "en": "a promise" }
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det ___ regna imorgon. (kommer att)" },
+      "answer": ["kommer att"],
+      "acceptAlso": [],
+      "hint": { "ru": "прогноз", "en": "a prediction" }
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я собираюсь переехать.»", "en": "Build the sentence: \"I intend to move.\"" },
+      "tokens": ["flytta", "tänker", "Jag"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предложение с его смыслом", "en": "Match the sentence with its meaning" },
+      "pairs": [
+        ["Jag ska ringa dig.", "promise/decision"],
+        ["Det kommer att regna.", "prediction"],
+        ["Jag tänker flytta.", "intention"],
+        ["Bussen går klockan åtta.", "schedule"]
+      ]
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Kommer att» чаще всего используется для прогноза, а не для обещания.", "en": "\"Kommer att\" is mostly used for a prediction rather than a promise." },
+      "answer": true
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Настоящее время в шведском никогда не используется для будущего.", "en": "The present tense is never used for the future in Swedish." },
+      "answer": false,
+      "explanation": { "ru": "Настоящее время используется для запланированных, точных событий: «Bussen går klockan åtta».", "en": "The present tense is used for scheduled, certain events: \"Bussen går klockan åtta\"." }
+    },
+    {
+      "id": "q-future-ska-kommer-att-tanker-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag tänker flytta till Lund, men först ska jag ringa min syster. Bussen går klockan åtta.",
+      "prompt": { "ru": "Что говорящий планирует сделать сначала?", "en": "What does the speaker plan to do first?" },
+      "choices": [
+        { "ru": "Позвонить сестре", "en": "Call their sister" },
+        { "ru": "Переехать в Лунд", "en": "Move to Lund" },
+        { "ru": "Сесть на автобус", "en": "Take the bus" },
+        { "ru": "Уехать завтра", "en": "Leave tomorrow" }
+      ],
+      "answer": 0
+    }
+  ]
+}

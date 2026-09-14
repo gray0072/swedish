@@ -1,0 +1,90 @@
+{
+  "items": [
+    {
+      "id": "arbeta-arbetade",
+      "sv": "arbeta",
+      "translations": { "ru": "работать", "en": "to work" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Han arbetade hela dagen.", "ru": "Он работал весь день.", "en": "He worked all day." }
+    },
+    {
+      "id": "tala-talade",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Vi talade om jobbet.", "ru": "Мы говорили о работе.", "en": "We talked about work." }
+    },
+    {
+      "id": "ringa-ringde",
+      "sv": "ringa",
+      "translations": { "ru": "звонить", "en": "to call, to ring" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Jag ringde min mamma igår.", "ru": "Вчера я звонил маме.", "en": "I called my mom yesterday." }
+    },
+    {
+      "id": "lasa-laste",
+      "sv": "läsa",
+      "translations": { "ru": "читать", "en": "to read" },
+      "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Hon läste en bok.", "ru": "Она читала книгу.", "en": "She read a book." }
+    },
+    {
+      "id": "bo-bodde",
+      "sv": "bo",
+      "translations": { "ru": "жить (проживать)", "en": "to live (reside)" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Vi bodde i Malmö förut.", "ru": "Раньше мы жили в Мальмё.", "en": "We used to live in Malmö." }
+    },
+    {
+      "id": "tro-trodde",
+      "sv": "tro",
+      "translations": { "ru": "думать, верить", "en": "to think, to believe" },
+      "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag trodde att du sov.", "ru": "Я думал, что ты спишь.", "en": "I thought you were sleeping." }
+    },
+    {
+      "id": "skriva-skrev",
+      "sv": "skriva",
+      "translations": { "ru": "писать", "en": "to write" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Hon skrev ett brev.", "ru": "Она написала письмо.", "en": "She wrote a letter." }
+    },
+    {
+      "id": "ata-at",
+      "sv": "äta",
+      "translations": { "ru": "есть, кушать", "en": "to eat" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Vi åt middag klockan sju.", "ru": "Мы ужинали в семь часов.", "en": "We ate dinner at seven o'clock." }
+    },
+    {
+      "id": "forra-aret",
+      "sv": "förra året",
+      "translations": { "ru": "в прошлом году", "en": "last year" },
+      "pos": "phrase",
+      "example": { "sv": "Förra året arbetade jag i Göteborg.", "ru": "В прошлом году я работал в Гётеборге.", "en": "Last year I worked in Gothenburg." }
+    },
+    {
+      "id": "da",
+      "sv": "då",
+      "translations": { "ru": "тогда", "en": "then, at that time" },
+      "pos": "adv",
+      "example": { "sv": "Då bodde vi fortfarande hemma.", "ru": "Тогда мы ещё жили дома.", "en": "Back then we still lived at home." }
+    }
+  ]
+}

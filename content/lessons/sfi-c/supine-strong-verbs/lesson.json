@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/supine-strong-verbs",
+  "slug": "supine-strong-verbs",
+  "title": {
+    "sv": "Supinum och starka verb: skriva – skrev – skrivit",
+    "ru": "Супин и формы сильных глаголов: skriva – skrev – skrivit",
+    "en": "The supine and strong verb forms: skriva – skrev – skrivit"
+  },
+  "summary": {
+    "ru": "Четвёртая форма глагола (супин), которая используется вместе с har/hade.",
+    "en": "The verb's fourth principal part (supine), used together with har/hade."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "past-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 470,
+  "prerequisites": [
+    "sfi-c/preterite-four-groups"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

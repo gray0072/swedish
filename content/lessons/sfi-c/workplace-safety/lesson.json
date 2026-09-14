@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/workplace-safety",
+  "slug": "workplace-safety",
+  "title": {
+    "sv": "Säkerhet på arbetsplatsen",
+    "ru": "Безопасность на рабочем месте",
+    "en": "Safety at the workplace"
+  },
+  "summary": {
+    "ru": "Защитное снаряжение, предупреждающие знаки и что делать при несчастном случае на работе.",
+    "en": "Safety equipment, warning signs, and what to do when there's an accident at work."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "work",
+    "safety",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 270,
+  "prerequisites": [
+    "sfi-c/workday-schedule-break"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

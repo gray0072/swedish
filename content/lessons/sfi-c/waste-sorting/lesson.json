@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/waste-sorting",
+  "slug": "waste-sorting",
+  "title": {
+    "sv": "Sopsortering",
+    "ru": "Сортировка мусора (återvinning)",
+    "en": "Waste sorting (återvinning)"
+  },
+  "summary": {
+    "ru": "Слова и фразы для сортировки мусора дома и на станции переработки.",
+    "en": "Words and phrases for sorting waste at home and at the recycling station."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "waste-sorting",
+    "environment",
+    "home"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 410,
+  "prerequisites": [
+    "sfi-b/household-chores"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-traffic-rules-korkort-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как по-шведски «водительские права»?", "en": "How do you say \"driving licence\" in Swedish?" },
+      "choices": ["körkort", "trafikskola", "teoriprov", "uppkörning"],
+      "answer": 0
+    },
+    {
+      "id": "q-traffic-rules-korkort-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Teoriprov» — это письменный теоретический экзамен, а «uppkörning» — практический экзамен вождения.", "en": "\"Teoriprov\" is the written theory test, and \"uppkörning\" is the practical driving test." },
+      "answer": true
+    },
+    {
+      "id": "q-traffic-rules-korkort-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Trafikregler» используется только в единственном числе.", "en": "\"Trafikregler\" is used only in the singular." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Trafikregler» используется только во множественном числе.",
+        "en": "\"Trafikregler\" is used only in the plural."
+      }
+    },
+    {
+      "id": "q-traffic-rules-korkort-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Кто сегодня за рулём?»", "en": "Build the sentence: \"Who's driving today?\"" },
+      "tokens": ["kör", "idag?", "Vem"],
+      "answer": [2, 0, 1]
+    },
+    {
+      "id": "q-traffic-rules-korkort-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Stanna vid rött ___." },
+      "answer": ["trafikljus"],
+      "acceptAlso": [],
+      "hint": { "ru": "светофор", "en": "traffic light" }
+    },
+    {
+      "id": "q-traffic-rules-korkort-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
+      "pairs": [
+        ["vägmärke", "дорожный знак"],
+        ["körfält", "полоса движения"],
+        ["bilbälte", "ремень безопасности"],
+        ["fartkamera", "камера контроля скорости"]
+      ]
+    },
+    {
+      "id": "q-traffic-rules-korkort-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag har bokat teoriprov på fredag.",
+      "prompt": { "ru": "Что забронировал человек?", "en": "What has the person booked?" },
+      "choices": [
+        { "ru": "Теоретический экзамен", "en": "The theory test" },
+        { "ru": "Практический экзамен", "en": "The driving test" },
+        { "ru": "Урок в автошколе", "en": "A driving school lesson" },
+        { "ru": "Ремонт машины", "en": "A car repair" }
+      ],
+      "answer": 0
+    }
+  ]
+}

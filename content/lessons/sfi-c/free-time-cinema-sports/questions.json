@@ -1,0 +1,91 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-free-time-cinema-sports-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Пойдём в кино сегодня вечером?»", "en": "Build the sentence: \"Shall we go to the cinema tonight?\"" },
+      "tokens": ["på", "vi", "Ska", "bio", "ikväll", "gå"],
+      "answer": [2, 1, 5, 0, 3, 4]
+    },
+    {
+      "id": "q-free-time-cinema-sports-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["bio", "кино"],
+        ["teater", "театр"],
+        ["förening", "клуб"],
+        ["biljett", "билет"]
+      ]
+    },
+    {
+      "id": "q-free-time-cinema-sports-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Medlemsavgift» — это взнос, который платят члены клуба.",
+        "en": "\"Medlemsavgift\" is a fee that club members pay."
+      },
+      "answer": true
+    },
+    {
+      "id": "q-free-time-cinema-sports-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "«Premiär» означает, что фильм показывают уже давно.",
+        "en": "\"Premiär\" means the film has been showing for a long time already."
+      },
+      "answer": false,
+      "explanation": {
+        "ru": "«Premiär» — это премьера, то есть первый показ.",
+        "en": "\"Premiär\" means a premiere, i.e. the first showing."
+      }
+    },
+    {
+      "id": "q-free-time-cinema-sports-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Vi ___ biljetter till bion online. (забронировали)" },
+      "answer": ["bokade"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-free-time-cinema-sports-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Din dotter vill spela fotboll med andra barn varje vecka. Vad ska hon göra?",
+        "en": "Your daughter wants to play football with other children every week. What should she do?"
+      },
+      "choices": ["anmäla sig till en idrottsförening", "boka biljetter till bion", "gå på teater", "läsa repertoaren"],
+      "answer": 0
+    },
+    {
+      "id": "q-free-time-cinema-sports-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Var kan du se vilka pjäser som spelas den här månaden?",
+        "en": "Where can you see which plays are showing this month?"
+      },
+      "choices": ["i teaterns repertoar", "i medlemsavgiften", "hos tränaren", "i salongen"],
+      "answer": 0
+    },
+    {
+      "id": "q-free-time-cinema-sports-type-answer-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "en": "Type the Swedish word for \"coach\".", "ru": "Напиши слово по-шведски: «тренер»." },
+      "answer": ["tränare"],
+      "hint": { "en": "Related to the verb träna.", "ru": "Однокоренное со словом träna." }
+    }
+  ]
+}

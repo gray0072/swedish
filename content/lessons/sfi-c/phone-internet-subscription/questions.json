@@ -1,0 +1,78 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-phone-internet-subscription-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Как по-шведски «сим-карта»?", "en": "How do you say \"SIM card\" in Swedish?" },
+      "choices": ["simkort", "kontantkort", "surfplatta", "bredband"],
+      "answer": 0
+    },
+    {
+      "id": "q-phone-internet-subscription-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Kontantkort» — это предоплаченная карта без абонемента.", "en": "\"Kontantkort\" is a prepaid card with no subscription." },
+      "answer": true
+    },
+    {
+      "id": "q-phone-internet-subscription-tf-2",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "«Operatör» — это устройство для выхода в интернет.", "en": "\"Operatör\" is a device for accessing the internet." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Operatör» — это компания-оператор связи, а не устройство.",
+        "en": "\"Operatör\" is the network/telecom company, not a device."
+      }
+    },
+    {
+      "id": "q-phone-internet-subscription-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери вопрос: «Сколько стоит подписка?»", "en": "Build the question: \"How much does the subscription cost?\"" },
+      "tokens": ["kostar", "Vad", "abonnemanget?"],
+      "answer": [1, 0, 2]
+    },
+    {
+      "id": "q-phone-internet-subscription-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Har ni ___ här?" },
+      "answer": ["wifi"],
+      "acceptAlso": ["Wifi"],
+      "hint": { "ru": "вайфай", "en": "wifi" }
+    },
+    {
+      "id": "q-phone-internet-subscription-match-1",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
+      "pairs": [
+        ["mobilabonnemang", "мобильная подписка"],
+        ["kontantkort", "предоплаченная карта"],
+        ["bredband", "широкополосный интернет"],
+        ["surfplatta", "планшет"]
+      ]
+    },
+    {
+      "id": "q-phone-internet-subscription-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Jag vill teckna ett mobilabonnemang.",
+      "prompt": { "ru": "Что хочет сделать человек?", "en": "What does the person want to do?" },
+      "choices": [
+        { "ru": "Оформить мобильную подписку", "en": "Sign up for a mobile subscription" },
+        { "ru": "Купить новый планшет", "en": "Buy a new tablet" },
+        { "ru": "Оплатить счёт за телефон", "en": "Pay the phone bill" },
+        { "ru": "Сменить оператора", "en": "Change operator" }
+      ],
+      "answer": 0
+    }
+  ]
+}

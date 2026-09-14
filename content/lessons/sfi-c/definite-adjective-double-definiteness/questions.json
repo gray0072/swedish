@@ -1,0 +1,79 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-definite-adjective-double-definiteness-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать «большой город» (определённо)?", "en": "How do you correctly say \"the big city\" (definite)?" },
+      "choices": ["Den stora staden.", "Stora staden.", "Den stor staden.", "Staden stora."],
+      "answer": 0
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой артикль ставится перед прилагательным при ett-слове?", "en": "Which article goes before the adjective with an ett-word?" },
+      "choices": ["det", "den", "de", "en"],
+      "answer": 0
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Двойная определённость» значит, что и артикль (den/det/de), и окончание существительного показывают определённость одновременно.", "en": "\"Double definiteness\" means both the article (den/det/de) and the noun's ending mark definiteness at the same time." },
+      "answer": true
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "Перед определённым существительным прилагательное сохраняет базовую форму, как «stor».", "en": "Before a definite noun, the adjective keeps its base form, like \"stor\"." },
+      "answer": false,
+      "explanation": {
+        "ru": "Перед определённым существительным прилагательное принимает слабую форму на -a: stora.",
+        "en": "Before a definite noun the adjective takes the weak -a ending: stora."
+      }
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-order-1",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Старый дом.»", "en": "Build the phrase: \"The old house.\"" },
+      "tokens": ["huset.", "Det", "gamla"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-order-2",
+      "type": "order",
+      "difficulty": 3,
+      "prompt": { "ru": "Собери фразу: «Новые машины.»", "en": "Build the phrase: \"The new cars.\"" },
+      "tokens": ["bilarna.", "nya", "De"],
+      "answer": [2, 1, 0]
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ stora staden är vacker." },
+      "answer": ["Den"],
+      "acceptAlso": [],
+      "hint": { "ru": "артикль перед en-словом", "en": "article before an en-word" }
+    },
+    {
+      "id": "q-definite-adjective-double-definiteness-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь фразу и её перевод", "en": "Match the phrase with its translation" },
+      "pairs": [
+        ["Den stora staden.", "The big city."],
+        ["Det gamla huset.", "The old house."],
+        ["De nya bilarna.", "The new cars."],
+        ["Den vackra staden.", "The beautiful city."]
+      ]
+    }
+  ]
+}

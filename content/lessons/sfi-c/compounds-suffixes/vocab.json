@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "brevlada",
+      "sv": "brevlåda",
+      "translations": { "ru": "почтовый ящик", "en": "letterbox, mailbox" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en brevlåda", "defSg": "brevlådan", "indefPl": "brevlådor", "defPl": "brevlådorna" },
+      "note": { "ru": "сложное слово: brev (письмо) + låda (ящик)", "en": "compound: brev (letter) + låda (box)" },
+      "example": { "sv": "Brevet ligger i brevlådan.", "ru": "Письмо лежит в почтовом ящике.", "en": "The letter is in the mailbox." }
+    },
+    {
+      "id": "arbetare",
+      "sv": "arbetare",
+      "translations": { "ru": "рабочий", "en": "worker" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetare", "defSg": "arbetaren", "indefPl": "arbetare", "defPl": "arbetarna" },
+      "note": { "ru": "arbeta (работать) + -are", "en": "arbeta (to work) + -are" },
+      "example": { "sv": "Han är arbetare på en fabrik.", "ru": "Он рабочий на заводе.", "en": "He's a worker at a factory." }
+    },
+    {
+      "id": "lasare",
+      "sv": "läsare",
+      "translations": { "ru": "читатель", "en": "reader" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läsare", "defSg": "läsaren", "indefPl": "läsare", "defPl": "läsarna" },
+      "note": { "ru": "läsa (читать) + -are", "en": "läsa (to read) + -are" },
+      "example": { "sv": "Tidningen har många läsare.", "ru": "У газеты много читателей.", "en": "The newspaper has many readers." }
+    },
+    {
+      "id": "snallhet",
+      "sv": "snällhet",
+      "translations": { "ru": "доброта", "en": "kindness" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en snällhet", "defSg": "snällheten", "indefPl": "snällheter", "defPl": "snällheterna" },
+      "note": { "ru": "snäll (добрый) + -het", "en": "snäll (kind) + -het" },
+      "example": { "sv": "Hennes snällhet är känd.", "ru": "Её доброта известна всем.", "en": "Her kindness is well known." }
+    },
+    {
+      "id": "frihet",
+      "sv": "frihet",
+      "translations": { "ru": "свобода", "en": "freedom" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en frihet", "defSg": "friheten", "indefPl": "friheter", "defPl": "friheterna" },
+      "note": { "ru": "fri (свободный) + -het", "en": "fri (free) + -het" },
+      "example": { "sv": "Frihet är viktigt för många.", "ru": "Свобода важна для многих.", "en": "Freedom is important to many people." }
+    },
+    {
+      "id": "undersokning",
+      "sv": "undersökning",
+      "translations": { "ru": "обследование, исследование", "en": "examination, investigation" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en undersökning", "defSg": "undersökningen", "indefPl": "undersökningar", "defPl": "undersökningarna" },
+      "note": { "ru": "undersöka (обследовать) + -ning", "en": "undersöka (to examine) + -ning" },
+      "example": { "sv": "Läkaren gjorde en undersökning.", "ru": "Врач провёл обследование.", "en": "The doctor did an examination." }
+    },
+    {
+      "id": "utbildning",
+      "sv": "utbildning",
+      "translations": { "ru": "образование, обучение", "en": "education, training" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" },
+      "note": { "ru": "utbilda (обучать) + -ning", "en": "utbilda (to educate/train) + -ning" },
+      "example": { "sv": "Hon går en utbildning till sjuksköterska.", "ru": "Она учится на медсестру.", "en": "She's training to become a nurse." }
+    },
+    {
+      "id": "korkortstillstand-cs",
+      "sv": "körkortstillstånd",
+      "translations": { "ru": "разрешение на обучение вождению", "en": "learner's permit" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett körkortstillstånd", "defSg": "körkortstillståndet", "indefPl": "körkortstillstånd", "defPl": "körkortstillstånden" },
+      "note": { "ru": "körkort (права) + tillstånd (разрешение) — сложное слово из двух существительных", "en": "körkort (driving licence) + tillstånd (permit) — a compound of two nouns" },
+      "example": { "sv": "Man behöver körkortstillstånd för att övningsköra.", "ru": "Для тренировочной езды нужно разрешение.", "en": "You need a learner's permit to practise driving." }
+    },
+    {
+      "id": "matlagare",
+      "sv": "kock",
+      "translations": { "ru": "повар", "en": "cook, chef" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kock", "defSg": "kocken", "indefPl": "kockar", "defPl": "kockarna" },
+      "example": { "sv": "Min bror är kock.", "ru": "Мой брат повар.", "en": "My brother is a cook." }
+    },
+    {
+      "id": "skonhet",
+      "sv": "skönhet",
+      "translations": { "ru": "красота", "en": "beauty" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en skönhet", "defSg": "skönheten", "indefPl": "skönheter", "defPl": "skönheterna" },
+      "note": { "ru": "skön (красивый, приятный) + -het", "en": "skön (beautiful, pleasant) + -het" },
+      "example": { "sv": "Naturens skönhet är fantastisk.", "ru": "Красота природы поразительна.", "en": "The beauty of nature is amazing." }
+    }
+  ]
+}

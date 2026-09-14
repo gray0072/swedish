@@ -1,0 +1,142 @@
+{
+  "items": [
+    {
+      "id": "bank",
+      "sv": "bank",
+      "translations": { "ru": "банк", "en": "bank" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bank", "defSg": "banken", "indefPl": "banker", "defPl": "bankerna" },
+      "example": { "sv": "Jag måste gå till banken idag.", "ru": "Мне сегодня нужно в банк.", "en": "I need to go to the bank today." }
+    },
+    {
+      "id": "konto",
+      "sv": "konto",
+      "translations": { "ru": "счёт (банковский)", "en": "account" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett konto", "defSg": "kontot", "indefPl": "konton", "defPl": "kontona" },
+      "example": { "sv": "Jag vill öppna ett konto.", "ru": "Я хочу открыть счёт.", "en": "I want to open an account." }
+    },
+    {
+      "id": "oppna-konto",
+      "sv": "öppna ett konto",
+      "translations": { "ru": "открыть счёт", "en": "to open an account" },
+      "pos": "phrase",
+      "example": { "sv": "Kan jag öppna ett konto här?", "ru": "Могу я открыть здесь счёт?", "en": "Can I open an account here?" }
+    },
+    {
+      "id": "vaxla",
+      "sv": "växla",
+      "translations": { "ru": "обменивать (валюту)", "en": "to exchange (currency)" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "växla", "present": "växlar", "past": "växlade", "supine": "växlat" },
+      "example": { "sv": "Jag vill växla dollar till kronor.", "ru": "Я хочу поменять доллары на кроны.", "en": "I want to exchange dollars for kronor." }
+    },
+    {
+      "id": "valuta",
+      "sv": "valuta",
+      "translations": { "ru": "валюта", "en": "currency" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en valuta", "defSg": "valutan", "indefPl": "valutor", "defPl": "valutorna" },
+      "example": { "sv": "Vilken valuta använder ni i Ryssland?", "ru": "Какую валюту используют в России?", "en": "What currency do you use in Russia?" }
+    },
+    {
+      "id": "kort",
+      "sv": "kort",
+      "translations": { "ru": "карта (банковская)", "en": "card" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kort", "defSg": "kortet", "indefPl": "kort", "defPl": "korten" },
+      "example": { "sv": "Jag betalar med kort.", "ru": "Я плачу картой.", "en": "I'll pay by card." }
+    },
+    {
+      "id": "ta-ut-pengar",
+      "sv": "ta ut pengar",
+      "translations": { "ru": "снимать деньги", "en": "to withdraw money" },
+      "pos": "phrase",
+      "example": { "sv": "Jag behöver ta ut lite pengar från bankomaten.", "ru": "Мне нужно снять немного денег в банкомате.", "en": "I need to withdraw some money from the ATM." }
+    },
+    {
+      "id": "satta-in-pengar",
+      "sv": "sätta in pengar",
+      "translations": { "ru": "класть деньги на счёт", "en": "to deposit money" },
+      "pos": "phrase",
+      "example": { "sv": "Jag ska sätta in lönen på kontot.", "ru": "Мне нужно положить зарплату на счёт.", "en": "I need to deposit my salary into the account." }
+    },
+    {
+      "id": "bankoverforing",
+      "sv": "banköverföring",
+      "translations": { "ru": "банковский перевод", "en": "bank transfer" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en banköverföring", "defSg": "banköverföringen", "indefPl": "banköverföringar", "defPl": "banköverföringarna" },
+      "example": { "sv": "Hyran betalas med banköverföring.", "ru": "Аренда оплачивается банковским переводом.", "en": "The rent is paid by bank transfer." }
+    },
+    {
+      "id": "kontonummer",
+      "sv": "kontonummer",
+      "translations": { "ru": "номер счёта", "en": "account number" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kontonummer", "defSg": "kontonumret", "indefPl": "kontonummer", "defPl": "kontonumren" },
+      "example": { "sv": "Vad är ditt kontonummer?", "ru": "Какой у тебя номер счёта?", "en": "What's your account number?" }
+    },
+    {
+      "id": "saldo",
+      "sv": "saldo",
+      "translations": { "ru": "баланс, остаток на счёте", "en": "balance" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett saldo", "defSg": "saldot", "indefPl": "saldon", "defPl": "saldona" },
+      "example": { "sv": "Jag kollar mitt saldo i appen.", "ru": "Я проверяю баланс в приложении.", "en": "I check my balance in the app." }
+    },
+    {
+      "id": "ranta",
+      "sv": "ränta",
+      "translations": { "ru": "процент (по вкладу/кредиту)", "en": "interest (rate)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" },
+      "example": { "sv": "Räntan på lånet höjdes i år.", "ru": "Процент по кредиту в этом году вырос.", "en": "The interest rate on the loan went up this year." }
+    },
+    {
+      "id": "bankomat",
+      "sv": "bankomat",
+      "translations": { "ru": "банкомат", "en": "ATM, cash machine" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bankomat", "defSg": "bankomaten", "indefPl": "bankomater", "defPl": "bankomaterna" },
+      "example": { "sv": "Det finns en bankomat vid torget.", "ru": "У площади есть банкомат.", "en": "There's an ATM by the square." }
+    },
+    {
+      "id": "kod",
+      "sv": "kod",
+      "translations": { "ru": "код, пин-код", "en": "PIN code" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kod", "defSg": "koden", "indefPl": "koder", "defPl": "koderna" },
+      "example": { "sv": "Glöm inte din kod till kortet.", "ru": "Не забудь пин-код от карты.", "en": "Don't forget your card's PIN code." }
+    },
+    {
+      "id": "lana",
+      "sv": "låna",
+      "translations": { "ru": "занимать, брать в долг/кредит", "en": "to borrow, to take a loan" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "låna", "present": "lånar", "past": "lånade", "supine": "lånat" },
+      "example": { "sv": "Vi vill låna pengar för att köpa en lägenhet.", "ru": "Мы хотим взять кредит на покупку квартиры.", "en": "We want to borrow money to buy an apartment." }
+    },
+    {
+      "id": "kurs",
+      "sv": "växelkurs",
+      "translations": { "ru": "обменный курс", "en": "exchange rate" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en växelkurs", "defSg": "växelkursen", "indefPl": "växelkurser", "defPl": "växelkurserna" },
+      "example": { "sv": "Växelkursen ändras varje dag.", "ru": "Обменный курс меняется каждый день.", "en": "The exchange rate changes every day." }
+    }
+  ]
+}

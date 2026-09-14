@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "id": "vet-du-var",
+      "sv": "Vet du var stationen är?",
+      "translations": { "ru": "Ты не знаешь, где находится вокзал?", "en": "Do you know where the station is?" },
+      "pos": "phrase",
+      "example": { "sv": "Vet du var stationen är? Ja, den är rakt fram.", "ru": "Ты не знаешь, где вокзал? Да, прямо вперёд.", "en": "Do you know where the station is? Yes, it's straight ahead." }
+    },
+    {
+      "id": "kan-du-saga-om",
+      "sv": "Kan du säga om affären är öppen?",
+      "translations": { "ru": "Можешь сказать, открыт ли магазин?", "en": "Can you say if the shop is open?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du säga om affären är öppen? Ja, den öppnar klockan nio.", "ru": "Можешь сказать, открыт ли магазин? Да, он открывается в девять.", "en": "Can you say if the shop is open? Yes, it opens at nine." }
+    },
+    {
+      "id": "veta",
+      "sv": "veta",
+      "translations": { "ru": "знать", "en": "to know" },
+      "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "veta", "present": "vet", "past": "visste", "supine": "vetat" },
+      "example": { "sv": "Jag vet inte var han bor.", "ru": "Я не знаю, где он живёт.", "en": "I don't know where he lives." }
+    },
+    {
+      "id": "undra",
+      "sv": "undra",
+      "translations": { "ru": "интересоваться, задаваться вопросом", "en": "to wonder" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "undra", "present": "undrar", "past": "undrade", "supine": "undrat" },
+      "example": { "sv": "Jag undrar om hon kommer.", "ru": "Интересно, придёт ли она.", "en": "I wonder if she is coming." }
+    },
+    {
+      "id": "om-konjunktion",
+      "sv": "om",
+      "translations": { "ru": "ли (в косвенном вопросе)", "en": "whether, if (introducing an embedded yes/no question)" },
+      "pos": "conjunction",
+      "example": { "sv": "Kan du säga om tåget är försenat?", "ru": "Можешь сказать, опаздывает ли поезд?", "en": "Can you say if the train is delayed?" }
+    },
+    {
+      "id": "stationen",
+      "sv": "station",
+      "translations": { "ru": "вокзал, станция", "en": "station" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en station", "defSg": "stationen", "indefPl": "stationer", "defPl": "stationerna" },
+      "example": { "sv": "Stationen ligger nära torget.", "ru": "Вокзал находится рядом с площадью.", "en": "The station is near the square." }
+    },
+    {
+      "id": "affar",
+      "sv": "affär",
+      "translations": { "ru": "магазин", "en": "shop" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en affär", "defSg": "affären", "indefPl": "affärer", "defPl": "affärerna" },
+      "example": { "sv": "Affären är öppen till klockan sex.", "ru": "Магазин открыт до шести.", "en": "The shop is open until six." }
+    },
+    {
+      "id": "kan-du-saga",
+      "sv": "Kan du säga...?",
+      "translations": { "ru": "Можешь сказать...?", "en": "Can you say...?" },
+      "pos": "phrase",
+      "example": { "sv": "Kan du säga vad klockan är?", "ru": "Можешь сказать, который час?", "en": "Can you say what time it is?" }
+    },
+    {
+      "id": "forsenad",
+      "sv": "försenad",
+      "translations": { "ru": "опоздавший, задержанный", "en": "delayed, late" },
+      "pos": "adj",
+      "example": { "sv": "Tåget är försenat idag.", "ru": "Поезд сегодня опаздывает.", "en": "The train is delayed today." }
+    },
+    {
+      "id": "oppen",
+      "sv": "öppen",
+      "translations": { "ru": "открытый", "en": "open" },
+      "pos": "adj",
+      "example": { "sv": "Är biblioteket öppet på söndagar?", "ru": "Библиотека открыта по воскресеньям?", "en": "Is the library open on Sundays?" }
+    },
+    {
+      "id": "veta-var-jag-bor",
+      "sv": "Vet du var jag kan parkera?",
+      "translations": { "ru": "Ты не знаешь, где я могу припарковаться?", "en": "Do you know where I can park?" },
+      "pos": "phrase",
+      "example": { "sv": "Vet du var jag kan parkera? Ja, bakom huset.", "ru": "Ты не знаешь, где я могу припарковаться? Да, за домом.", "en": "Do you know where I can park? Yes, behind the house." }
+    },
+    {
+      "id": "fraga",
+      "sv": "fråga",
+      "translations": { "ru": "спрашивать; вопрос", "en": "to ask; a question" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" },
+      "example": { "sv": "Han frågade om jag visste var stationen var.", "ru": "Он спросил, знаю ли я, где вокзал.", "en": "He asked if I knew where the station was." }
+    }
+  ]
+}

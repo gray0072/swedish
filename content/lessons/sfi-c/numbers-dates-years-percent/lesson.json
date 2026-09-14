@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/numbers-dates-years-percent",
+  "slug": "numbers-dates-years-percent",
+  "title": {
+    "sv": "Tal i datum, årtal och procent: procent, hälften, dubbelt",
+    "ru": "Числа в датах, годах и процентах: procent, hälften, dubbelt",
+    "en": "Numbers in dates, years and percentages: procent, hälften, dubbelt"
+  },
+  "summary": {
+    "ru": "Как называть год целиком, проценты и простые дроби/кратные: половина, двойное, треть.",
+    "en": "How to say a whole year out loud, percentages, and simple fractions/multiples like half, double, a third."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "numbers",
+    "dates"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 670,
+  "prerequisites": [
+    "sfi-b/numbers-ordinals-dates"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

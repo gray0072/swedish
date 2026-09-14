@@ -1,0 +1,97 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-prepositions-place-direction-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я иду в школу.»", "en": "Build the sentence: \"I'm going to school.\"" },
+      "tokens": ["skolan", "Jag", "till", "går"],
+      "answer": [1, 3, 2, 0]
+    },
+    {
+      "id": "q-prepositions-place-direction-order-2",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери предложение: «Я в школе.»", "en": "Build the sentence: \"I am in school.\"" },
+      "tokens": ["i", "Jag", "skolan", "är"],
+      "answer": [1, 3, 0, 2]
+    },
+    {
+      "id": "q-prepositions-place-direction-gap-1",
+      "type": "gap",
+      "difficulty": 1,
+      "prompt": { "sv": "Jag är ___ jobbet. (нахождение)" },
+      "answer": ["på"],
+      "acceptAlso": [],
+      "hint": { "ru": "на (нахождение)", "en": "at (static)" }
+    },
+    {
+      "id": "q-prepositions-place-direction-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Hon åker ___ jobbet klockan åtta. (направление)" },
+      "answer": ["till"],
+      "acceptAlso": [],
+      "hint": { "ru": "к, в (направление)", "en": "to (direction)" }
+    },
+    {
+      "id": "q-prepositions-place-direction-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Till» показывает направление движения, а «i» и «på» — статичное нахождение.", "en": "\"Till\" shows movement toward a place, while \"i\" and \"på\" show static location." },
+      "answer": true
+    },
+    {
+      "id": "q-prepositions-place-direction-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "У предлога «hos» есть отдельная форма для направления, например «hos» + движение.", "en": "\"Hos\" has its own separate form for direction of movement." },
+      "answer": false,
+      "explanation": {
+        "ru": "«Hos» только статичный. Для направления к человеку используют «till»: Jag ska till min vän.",
+        "en": "\"Hos\" is only static. For direction toward a person, use \"till\": Jag ska till min vän."
+      }
+    },
+    {
+      "id": "q-prepositions-place-direction-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь предложение с типом (статика/направление)", "en": "Match the sentence with its type (static/direction)" },
+      "pairs": [
+        ["Jag är i skolan.", "статика"],
+        ["Jag går till skolan.", "направление"],
+        ["Jag är hos min vän.", "статика"],
+        ["Jag ska till min vän.", "направление"]
+      ]
+    },
+    {
+      "id": "q-prepositions-place-direction-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Я иду к врачу завтра» (направление)?", "en": "How do you say \"I'm going to the doctor tomorrow\" (direction)?" },
+      "choices": ["Jag ska till läkaren imorgon.", "Jag är hos läkaren imorgon.", "Jag är på läkaren imorgon.", "Jag är i läkaren imorgon."],
+      "answer": 0
+    },
+    {
+      "id": "q-prepositions-place-direction-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как сказать «Я у своей сестры» (статика, у кого-то дома)?", "en": "How do you say \"I am at my sister's\" (static, at someone's home)?" },
+      "choices": ["Jag är hos min syster.", "Jag är till min syster.", "Jag går hos min syster.", "Jag är i min syster."],
+      "answer": 0
+    },
+    {
+      "id": "q-prepositions-place-direction-type-1",
+      "type": "type-answer",
+      "difficulty": 3,
+      "prompt": { "ru": "Переведи: «Мы едем в город.»", "en": "Translate: \"We are going to town.\"" },
+      "answer": ["Vi åker till stan."],
+      "hint": { "ru": "åka + till", "en": "åka + till" }
+    }
+  ]
+}

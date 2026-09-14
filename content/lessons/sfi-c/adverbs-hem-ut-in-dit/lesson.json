@@ -1,0 +1,35 @@
+{
+  "id": "sfi-c/adverbs-hem-ut-in-dit",
+  "slug": "adverbs-hem-ut-in-dit",
+  "title": {
+    "sv": "hem/hemma, ut/ute, in/inne, dit/där",
+    "ru": "Наречия места: hem/hemma, ut/ute, in/inne, dit/där",
+    "en": "Adverbs: hem/hemma, ut/ute, in/inne, dit/där"
+  },
+  "summary": {
+    "ru": "Пары наречий движения и нахождения: hem/hemma, ut/ute, in/inne, dit/där.",
+    "en": "Pairs of movement-vs-location adverbs: hem/hemma, ut/ute, in/inne, dit/där."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "adverbs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 630,
+  "prerequisites": [
+    "sfi-b/prepositions-of-place"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/future-plans-invitations",
+  "slug": "future-plans-invitations",
+  "title": {
+    "sv": "Framtidsplaner och inbjudningar",
+    "ru": "Планы на будущее и приглашения",
+    "en": "Plans for the future and invitations"
+  },
+  "summary": {
+    "ru": "Как рассказать о планах с ska/tänker и как пригласить кого-то, а также принять или отклонить приглашение.",
+    "en": "How to talk about plans with ska/tänker + infinitive, and how to invite someone and accept or decline an invitation."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "phrases",
+    "future",
+    "social"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 390,
+  "prerequisites": [
+    "sfi-c/past-narrative-short"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

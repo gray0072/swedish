@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-s-passive-intro-mc-1",
+      "type": "mc",
+      "difficulty": 1,
+      "prompt": { "ru": "Что означает «Rökning förbjuds»?", "en": "What does \"Rökning förbjuds\" mean?" },
+      "choices": ["Smoking is forbidden.", "Smoking is allowed.", "Someone forbids smoking.", "Do not smoke here, please."],
+      "answer": 0
+    },
+    {
+      "id": "q-s-passive-intro-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Кто выполняет действие в предложении «Dörren öppnas automatiskt»?", "en": "Who performs the action in \"Dörren öppnas automatiskt\"?" },
+      "choices": ["No actor is named.", "The door itself, on purpose.", "A person named Anders.", "It is impossible to say without more context."],
+      "answer": 0
+    },
+    {
+      "id": "q-s-passive-intro-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Här ___ svenska. (говорят, без указания кто)" },
+      "answer": ["talas"],
+      "acceptAlso": ["Talas"],
+      "hint": { "ru": "verb + s", "en": "verb + s" }
+    },
+    {
+      "id": "q-s-passive-intro-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Biljetter ___ vid ingången. (продаются)" },
+      "answer": ["säljs"],
+      "acceptAlso": ["Säljs"],
+      "hint": { "ru": "sälja + s", "en": "sälja + s" }
+    },
+    {
+      "id": "q-s-passive-intro-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери: «Дверь открывается автоматически.»", "en": "Build: \"The door opens automatically.\"" },
+      "tokens": ["automatiskt", "Dörren", "öppnas"],
+      "answer": [1, 2, 0]
+    },
+    {
+      "id": "q-s-passive-intro-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь вывеску с её смыслом", "en": "Match the sign with its meaning" },
+      "pairs": [
+        ["Rökning förbjuds.", "Smoking is forbidden."],
+        ["Här talas svenska.", "Swedish is spoken here."],
+        ["Personal sökes.", "Staff wanted."],
+        ["Frukost serveras klockan sju.", "Breakfast is served at seven."]
+      ]
+    },
+    {
+      "id": "q-s-passive-intro-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Форма на -s (verb+s) на вывесках обычно не называет, кто выполняет действие.", "en": "The -s form (verb+s) on signs usually does not name who performs the action." },
+      "answer": true
+    },
+    {
+      "id": "q-s-passive-intro-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Öppnas» и «öppnar» означают абсолютно одно и то же.", "en": "\"Öppnas\" and \"öppnar\" mean exactly the same thing." },
+      "answer": false,
+      "explanation": { "ru": "«Öppnar» — кто-то открывает (активный залог), «öppnas» — дверь открывается сама/кем-то неназванным (пассив на -s).", "en": "\"Öppnar\" means someone opens it (active), while \"öppnas\" means it gets opened, with no actor named (the -s passive)." }
+    },
+    {
+      "id": "q-s-passive-intro-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши по-шведски вывеску: «Парковка запрещена.»", "en": "Write in Swedish the sign: \"Parking forbidden.\"" },
+      "answer": ["Parkering förbjuden."],
+      "hint": { "ru": "здесь используется прилагательное förbjuden, не глагол förbjuds", "en": "here an adjective förbjuden is used, not the verb förbjuds" }
+    },
+    {
+      "id": "q-s-passive-intro-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Butiken stängs klockan sex.",
+      "prompt": { "ru": "О чём говорит эта вывеска?", "en": "What does this sign say?" },
+      "choices": [
+        { "ru": "Магазин закрывается в шесть", "en": "The shop closes at six" },
+        { "ru": "Магазин открывается в шесть", "en": "The shop opens at six" },
+        { "ru": "Магазин закрыт навсегда", "en": "The shop is closed forever" },
+        { "ru": "Персонал требуется", "en": "Staff is wanted" }
+      ],
+      "answer": 0
+    }
+  ]
+}

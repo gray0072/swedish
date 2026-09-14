@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/dentist-tandvard",
+  "slug": "dentist-tandvard",
+  "title": {
+    "sv": "Hos tandläkaren: att boka, behandlingen, räkningen",
+    "ru": "У стоматолога: запись, лечение, счёт",
+    "en": "At the dentist (tandvård): booking, the treatment, the bill"
+  },
+  "summary": {
+    "ru": "Фразы для записи к стоматологу, описания зубной боли и оплаты счёта за лечение.",
+    "en": "Phrases for booking a dentist appointment, describing tooth pain, and paying the bill."
+  },
+  "kind": "phrases",
+  "levels": ["sfi-c"],
+  "tags": ["dentist", "health", "phrases", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 320,
+  "prerequisites": ["sfi-c/booking"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

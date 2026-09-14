@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-adverbs-degree-frequency-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какое слово означает «слишком, чересчур»?", "en": "Which word means \"too, excessively\"?" },
+      "choices": ["ganska", "alltför", "ibland", "sällan"],
+      "answer": 1
+    },
+    {
+      "id": "q-adverbs-degree-frequency-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Куда встаёт наречие частоты «sällan» в главном предложении?", "en": "Where does the frequency adverb \"sällan\" go in a main clause?" },
+      "choices": ["Right after the finite verb.", "At the very start of the sentence, always.", "Right before the subject.", "After the object."],
+      "answer": 0
+    },
+    {
+      "id": "q-adverbs-degree-frequency-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Det är ___ kallt. (очень)" },
+      "answer": ["väldigt"],
+      "acceptAlso": ["Väldigt"],
+      "hint": { "ru": "very", "en": "very" }
+    },
+    {
+      "id": "q-adverbs-degree-frequency-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag äter ___ kött. (редко)" },
+      "answer": ["sällan"],
+      "acceptAlso": ["Sällan"],
+      "hint": { "ru": "rarely", "en": "rarely" }
+    },
+    {
+      "id": "q-adverbs-degree-frequency-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери: «Мы иногда ходим в кино.»", "en": "Build: \"We sometimes go to the cinema.\"" },
+      "tokens": ["bio", "går", "ibland", "på", "Vi"],
+      "answer": [4, 1, 2, 3, 0]
+    },
+    {
+      "id": "q-adverbs-degree-frequency-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },
+      "pairs": [
+        ["ganska", "fairly, rather"],
+        ["väldigt", "very"],
+        ["sällan", "rarely"],
+        ["ibland", "sometimes"]
+      ]
+    },
+    {
+      "id": "q-adverbs-degree-frequency-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Наречия степени (ganska, väldigt, alltför) обычно стоят прямо перед прилагательным.", "en": "Degree adverbs (ganska, väldigt, alltför) usually stand right before the adjective." },
+      "answer": true
+    },
+    {
+      "id": "q-adverbs-degree-frequency-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Ganska» и «väldigt» означают ровно одинаковую степень.", "en": "\"Ganska\" and \"väldigt\" indicate exactly the same degree." },
+      "answer": false,
+      "explanation": { "ru": "«Ganska» — более мягкое, «довольно/достаточно», а «väldigt» — сильнее, «очень».", "en": "\"Ganska\" is milder (\"fairly/rather\"), while \"väldigt\" is stronger (\"very\")." }
+    },
+    {
+      "id": "q-adverbs-degree-frequency-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши по-шведски: «Это слишком дорого.»", "en": "Write in Swedish: \"It is too expensive.\"" },
+      "answer": ["Det är alltför dyrt."],
+      "hint": { "ru": "alltför + dyrt", "en": "alltför + dyrt" }
+    },
+    {
+      "id": "q-adverbs-degree-frequency-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Provet var ganska svårt.",
+      "prompt": { "ru": "О чём говорит предложение?", "en": "What does the sentence say?" },
+      "choices": [
+        { "ru": "Экзамен был довольно трудным", "en": "The test was fairly difficult" },
+        { "ru": "Экзамен был очень лёгким", "en": "The test was very easy" },
+        { "ru": "Экзамен был слишком долгим", "en": "The test was too long" },
+        { "ru": "Экзамен ещё не начался", "en": "The test has not started yet" }
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/pharmacy-otc-medicine",
+  "slug": "pharmacy-otc-medicine",
+  "title": {
+    "sv": "På apoteket: receptfria läkemedel",
+    "ru": "В аптеке: безрецептурные лекарства",
+    "en": "At the pharmacy: over-the-counter medicine"
+  },
+  "summary": {
+    "ru": "Как спросить о безрецептурных лекарствах от простуды, боли и кашля в аптеке.",
+    "en": "How to ask about over-the-counter medicine for colds, pain, and coughing at the pharmacy."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "health",
+    "pharmacy",
+    "vocab"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 290,
+  "prerequisites": [
+    "sfi-c/health"
+  ],
+  "xp": {
+    "base": 120
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

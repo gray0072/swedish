@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "id": "rakning",
+      "sv": "räkning",
+      "translations": { "ru": "счёт (на оплату)", "en": "bill" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en räkning", "defSg": "räkningen", "indefPl": "räkningar", "defPl": "räkningarna" },
+      "example": { "sv": "Jag måste betala en räkning idag.", "ru": "Мне нужно сегодня оплатить счёт.", "en": "I have to pay a bill today." }
+    },
+    {
+      "id": "hyra",
+      "sv": "hyra",
+      "translations": { "ru": "аренда, квартплата", "en": "rent" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" },
+      "example": { "sv": "Hyran ska betalas senast den sista.", "ru": "Аренду нужно оплатить не позже последнего числа.", "en": "The rent must be paid by the last day of the month." }
+    },
+    {
+      "id": "el-rakning",
+      "sv": "elräkning",
+      "translations": { "ru": "счёт за электричество", "en": "electricity bill" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en elräkning", "defSg": "elräkningen", "indefPl": "elräkningar", "defPl": "elräkningarna" },
+      "example": { "sv": "Elräkningen var hög i vinter.", "ru": "Зимой счёт за электричество был высоким.", "en": "The electricity bill was high this winter." }
+    },
+    {
+      "id": "faktura",
+      "sv": "faktura",
+      "translations": { "ru": "квитанция, инвойс", "en": "invoice" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en faktura", "defSg": "fakturan", "indefPl": "fakturor", "defPl": "fakturorna" },
+      "example": { "sv": "Du får fakturan med posten.", "ru": "Квитанция придёт по почте.", "en": "You'll get the invoice by mail." }
+    },
+    {
+      "id": "forfallodag",
+      "sv": "förfallodag",
+      "translations": { "ru": "срок оплаты, дата платежа", "en": "due date" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en förfallodag", "defSg": "förfallodagen", "indefPl": "förfallodagar", "defPl": "förfallodagarna" },
+      "example": { "sv": "Förfallodagen är den 27:e varje månad.", "ru": "Срок оплаты — 27-е число каждого месяца.", "en": "The due date is the 27th of every month." }
+    },
+    {
+      "id": "autogiro",
+      "sv": "autogiro",
+      "translations": { "ru": "автоплатёж (прямое дебетование)", "en": "autopay (direct debit)" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett autogiro", "defSg": "autogirot", "indefPl": "autogiron", "defPl": "autogirona" },
+      "example": { "sv": "Jag har hyran på autogiro.", "ru": "У меня аренда списывается автоплатежом.", "en": "I have the rent set up on autopay." }
+    },
+    {
+      "id": "betala",
+      "sv": "betala",
+      "translations": { "ru": "платить", "en": "to pay" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" },
+      "example": { "sv": "Jag betalar en räkning varje vecka.", "ru": "Я оплачиваю счёт каждую неделю.", "en": "I pay a bill every week." }
+    },
+    {
+      "id": "forsent",
+      "sv": "försenad",
+      "translations": { "ru": "просроченный", "en": "overdue, late" },
+      "pos": "adj",
+      "note": { "ru": "ett-форма: försenat, мн.ч.: försenade", "en": "ett-form: försenat, plural: försenade" },
+      "example": { "sv": "Räkningen är försenad.", "ru": "Счёт просрочен.", "en": "The bill is overdue." }
+    },
+    {
+      "id": "paminnelseavgift",
+      "sv": "påminnelseavgift",
+      "translations": { "ru": "плата за напоминание (о просрочке)", "en": "reminder fee" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en påminnelseavgift", "defSg": "påminnelseavgiften", "indefPl": "påminnelseavgifter", "defPl": "påminnelseavgifterna" },
+      "example": { "sv": "Om du betalar sent får du en påminnelseavgift.", "ru": "Если заплатишь поздно, придёт плата за напоминание.", "en": "If you pay late, you get a reminder fee." }
+    },
+    {
+      "id": "internetabonnemang",
+      "sv": "internetabonnemang",
+      "translations": { "ru": "подписка на интернет", "en": "internet subscription" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett internetabonnemang", "defSg": "internetabonnemanget", "indefPl": "internetabonnemang", "defPl": "internetabonnemangen" },
+      "example": { "sv": "Vårt internetabonnemang kostar 349 kronor i månaden.", "ru": "Наша подписка на интернет стоит 349 крон в месяц.", "en": "Our internet subscription costs 349 kronor a month." }
+    },
+    {
+      "id": "belopp",
+      "sv": "belopp",
+      "translations": { "ru": "сумма (денег)", "en": "amount" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett belopp", "defSg": "beloppet", "indefPl": "belopp", "defPl": "beloppen" },
+      "example": { "sv": "Vilket belopp ska jag betala?", "ru": "Какую сумму мне нужно оплатить?", "en": "What amount should I pay?" }
+    },
+    {
+      "id": "ocr-nummer",
+      "sv": "OCR-nummer",
+      "translations": { "ru": "OCR-номер (код платежа)", "en": "OCR number (payment reference)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Skriv OCR-numret när du betalar räkningen.", "ru": "Впиши OCR-номер, когда платишь по счёту.", "en": "Write the OCR number when you pay the bill." }
+    },
+    {
+      "id": "manadsvis",
+      "sv": "månadsvis",
+      "translations": { "ru": "ежемесячно", "en": "monthly" },
+      "pos": "adv",
+      "example": { "sv": "Vi betalar hyran månadsvis.", "ru": "Мы платим аренду ежемесячно.", "en": "We pay the rent monthly." }
+    },
+    {
+      "id": "hojning",
+      "sv": "höjning",
+      "translations": { "ru": "повышение (цены)", "en": "increase (in price)" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en höjning", "defSg": "höjningen", "indefPl": "höjningar", "defPl": "höjningarna" },
+      "example": { "sv": "Det blev en höjning av elpriset i år.", "ru": "В этом году цена на электричество выросла.", "en": "There was an increase in the electricity price this year." }
+    },
+    {
+      "id": "spara-pengar",
+      "sv": "spara pengar",
+      "translations": { "ru": "экономить деньги", "en": "to save money" },
+      "pos": "phrase",
+      "example": { "sv": "Vi försöker spara pengar på elen.", "ru": "Мы стараемся экономить на электричестве.", "en": "We're trying to save money on electricity." }
+    },
+    {
+      "id": "bankgiro",
+      "sv": "bankgiro",
+      "translations": { "ru": "банковский жиро-счёт (для платежей)", "en": "bankgiro (payment account)" },
+      "pos": "noun",
+      "gender": "ett",
+      "example": { "sv": "Betala till bankgiro 123-4567.", "ru": "Оплати на bankgiro 123-4567.", "en": "Pay to bankgiro 123-4567." }
+    },
+    {
+      "id": "kvitto",
+      "sv": "kvitto",
+      "translations": { "ru": "квитанция об оплате, чек", "en": "receipt" },
+      "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett kvitto", "defSg": "kvittot", "indefPl": "kvitton", "defPl": "kvittona" },
+      "example": { "sv": "Spara kvittot som bevis på att du betalat.", "ru": "Сохрани квитанцию как подтверждение оплаты.", "en": "Keep the receipt as proof of payment." }
+    }
+  ]
+}

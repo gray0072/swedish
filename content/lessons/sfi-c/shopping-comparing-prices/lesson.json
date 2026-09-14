@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/shopping-comparing-prices",
+  "slug": "shopping-comparing-prices",
+  "title": {
+    "sv": "Att shoppa: jämföra priser, rabatter, returer och reklamationer",
+    "ru": "Покупки: сравнение цен, скидки, возврат товара и жалобы",
+    "en": "Shopping: comparing prices, discounts, returning goods and complaining"
+  },
+  "summary": {
+    "ru": "Фразы для сравнения цен, скидок и распродаж, а также для возврата и жалобы на покупку.",
+    "en": "Phrases for comparing prices and discounts, and for returning a purchase or complaining about it."
+  },
+  "kind": "phrases",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "shopping",
+    "phrases",
+    "everyday"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 370,
+  "prerequisites": [
+    "sfi-b/clothing-store"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

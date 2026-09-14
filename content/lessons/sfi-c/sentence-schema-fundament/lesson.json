@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/sentence-schema-fundament",
+  "slug": "sentence-schema-fundament",
+  "title": {
+    "sv": "Satsschema: fundament — verb — subjekt — satsadverbial",
+    "ru": "Схема предложения: фундамент — глагол — подлежащее — наречие",
+    "en": "The sentence schema: fundament — verb — subject — adverb"
+  },
+  "summary": {
+    "ru": "Систематическая схема шведского предложения: фундамент, глагол, подлежащее и наречие.",
+    "en": "A systematic tool for placing the parts of a Swedish sentence in order."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "word-order",
+    "satsschema"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 640,
+  "prerequisites": [
+    "sfi-b/v2-word-order"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

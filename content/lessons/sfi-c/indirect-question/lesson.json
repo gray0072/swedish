@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/indirect-question",
+  "slug": "indirect-question",
+  "title": {
+    "sv": "Indirekt fråga: Vet du var …?, Kan du säga om …?",
+    "ru": "Косвенный вопрос: Vet du var …?, Kan du säga om …?",
+    "en": "The indirect question: Vet du var …?, Kan du säga om …?"
+  },
+  "summary": {
+    "ru": "Как вставить вопрос внутрь вежливой просьбы, используя порядок слов придаточного предложения (BIFF), а не вопросительный порядок.",
+    "en": "How to embed a question inside a polite request, using subordinate-clause (BIFF) word order instead of question word order."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "questions",
+    "word-order"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 690,
+  "prerequisites": [
+    "sfi-b/question-words-vilken-vems"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

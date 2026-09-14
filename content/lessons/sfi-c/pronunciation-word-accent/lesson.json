@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/pronunciation-word-accent",
+  "slug": "pronunciation-word-accent",
+  "title": {
+    "sv": "Uttal: ordaccent 1 och 2 och melodin i en lång mening",
+    "ru": "Произношение: тональное ударение 1 и 2 и мелодика длинного предложения",
+    "en": "Pronunciation: word accent 1 and 2 (anden – anden) and the melody of a long sentence"
+  },
+  "summary": {
+    "ru": "Два тональных ударения различают одинаково написанные слова, и мелодика растягивается на длинное предложение.",
+    "en": "Two pitch accents distinguish identically spelled words, and melody stretches over a long sentence."
+  },
+  "kind": "grammar",
+  "levels": ["sfi-c"],
+  "tags": ["grammar", "pronunciation"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 600,
+  "prerequisites": ["sfi-b/pronunciation-melody-vowel-length"],
+  "xp": { "base": 130 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/post-office",
+  "slug": "post-office",
+  "title": {
+    "sv": "På posten: brev och paket",
+    "ru": "На почте: письма и посылки",
+    "en": "The post office: letters and parcels"
+  },
+  "summary": {
+    "ru": "Слова и фразы для отправки писем и получения посылок на почте.",
+    "en": "Vocabulary and phrases for sending letters and picking up parcels at the post office."
+  },
+  "kind": "vocab",
+  "levels": ["sfi-c"],
+  "tags": ["post-office", "errands", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 330,
+  "prerequisites": ["sfi-b/directions-in-town"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

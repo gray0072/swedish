@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/free-time-cinema-sports",
+  "slug": "free-time-cinema-sports",
+  "title": {
+    "sv": "Fritid: bio, teater och föreningar",
+    "ru": "Досуг: кино, театр, спортивные клубы",
+    "en": "Free time: cinema, theatre, sports clubs"
+  },
+  "summary": {
+    "ru": "Слова для организованного досуга: кино, театр, клубы и бронирование билетов.",
+    "en": "Vocabulary for organised leisure activities: cinema, theatre, clubs and booking tickets."
+  },
+  "kind": "vocab",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "free-time",
+    "culture",
+    "sports"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 420,
+  "prerequisites": [
+    "sfi-b/hobbies-free-time"
+  ],
+  "xp": {
+    "base": 115
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

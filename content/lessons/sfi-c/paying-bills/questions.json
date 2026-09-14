@@ -1,0 +1,85 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-paying-bills-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери фразу: «Аренду нужно оплатить не позже последнего числа.»", "en": "Build the sentence: \"The rent must be paid by the last day.\"" },
+      "tokens": ["betalas", "sista", "ska", "den", "Hyran", "senast"],
+      "answer": [4, 2, 0, 5, 3, 1]
+    },
+    {
+      "id": "q-paying-bills-order-2",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": { "ru": "Собери фразу: «У меня аренда списывается автоплатежом.»", "en": "Build the sentence: \"I have the rent on autopay.\"" },
+      "tokens": ["på", "hyran", "Jag", "har", "autogiro"],
+      "answer": [2, 3, 1, 0, 4]
+    },
+    {
+      "id": "q-paying-bills-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
+      "pairs": [
+        ["hyra", "аренда"],
+        ["elräkning", "счёт за электричество"],
+        ["förfallodag", "срок оплаты"],
+        ["faktura", "квитанция"]
+      ]
+    },
+    {
+      "id": "q-paying-bills-tf-1",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Autogiro» значит, что банк сам списывает деньги по счёту в срок.", "en": "\"Autogiro\" means the bank automatically pays the bill on the due date." },
+      "answer": true
+    },
+    {
+      "id": "q-paying-bills-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«Påminnelseavgift» — это скидка за раннюю оплату.", "en": "\"Påminnelseavgift\" is a discount for paying early." },
+      "answer": false,
+      "explanation": {
+        "ru": "Наоборот — это дополнительная плата за то, что счёт не оплатили вовремя.",
+        "en": "The opposite — it's an extra fee charged when a bill was not paid on time."
+      }
+    },
+    {
+      "id": "q-paying-bills-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Jag måste ___ elräkningen innan förfallodagen. (заплатить)" },
+      "answer": ["betala"],
+      "acceptAlso": []
+    },
+    {
+      "id": "q-paying-bills-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Vad behöver du skriva när du betalar en räkning manuellt i banken?",
+        "en": "What do you need to write when paying a bill manually at the bank?"
+      },
+      "choices": ["OCR-numret", "en biljett", "ett recept", "en kö"],
+      "answer": 0
+    },
+    {
+      "id": "q-paying-bills-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": {
+        "ru": "Du vill slippa glömma att betala hyran varje månad. Vad kan du göra?",
+        "en": "You don't want to forget to pay the rent every month. What can you do?"
+      },
+      "choices": ["Sätta upp autogiro", "Kasta fakturan", "Vänta på påminnelseavgift", "Ringa vårdcentralen"],
+      "answer": 0
+    }
+  ]
+}

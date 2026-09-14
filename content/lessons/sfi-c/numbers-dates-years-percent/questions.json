@@ -1,0 +1,100 @@
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "listen-mc", "from": "vocab", "count": "all" }
+  ],
+  "items": [
+    {
+      "id": "q-numbers-dates-years-percent-mc-1",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Как правильно сказать год 1984?", "en": "How do you correctly say the year 1984?" },
+      "choices": ["nittonhundraåttiofyra", "nitton åttiofyra", "hundraåttiofyra", "tusenåttiofyra"],
+      "answer": 0
+    },
+    {
+      "id": "q-numbers-dates-years-percent-mc-2",
+      "type": "mc",
+      "difficulty": 2,
+      "prompt": { "ru": "Какой короткий разговорный вариант года 2025?", "en": "What is the short, spoken-style form of the year 2025?" },
+      "choices": ["tjugohundratjugofem", "tjugotjugofem", "tvåtusentjugofem", "hundratjugofem"],
+      "answer": 1
+    },
+    {
+      "id": "q-numbers-dates-years-percent-gap-1",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "Rabatten är femtio ___. (процентов)" },
+      "answer": ["procent"],
+      "acceptAlso": ["Procent"],
+      "hint": { "ru": "%", "en": "%" }
+    },
+    {
+      "id": "q-numbers-dates-years-percent-gap-2",
+      "type": "gap",
+      "difficulty": 2,
+      "prompt": { "sv": "___ av kakan är kvar. (половина)" },
+      "answer": ["Hälften"],
+      "acceptAlso": ["hälften"],
+      "hint": { "ru": "half", "en": "half" }
+    },
+    {
+      "id": "q-numbers-dates-years-percent-order-1",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": { "ru": "Собери: «Это стоит вдвое дороже.»", "en": "Build: \"It costs twice as much.\"" },
+      "tokens": ["så", "kostar", "Det", "dubbelt", "mycket"],
+      "answer": [2, 1, 3, 0, 4]
+    },
+    {
+      "id": "q-numbers-dates-years-percent-match-1",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": { "ru": "Сопоставь число с его значением", "en": "Match the number with its meaning" },
+      "pairs": [
+        ["hälften", "half"],
+        ["dubbelt", "double"],
+        ["en tredjedel", "a third"],
+        ["hundra procent", "one hundred percent"]
+      ]
+    },
+    {
+      "id": "q-numbers-dates-years-percent-tf-1",
+      "type": "true-false",
+      "difficulty": 1,
+      "prompt": { "ru": "Год в шведском обычно произносят как одно длинное составное слово.", "en": "A year in Swedish is usually pronounced as one long compound word." },
+      "answer": true
+    },
+    {
+      "id": "q-numbers-dates-years-percent-tf-2",
+      "type": "true-false",
+      "difficulty": 2,
+      "prompt": { "ru": "«En fjärdedel» означает «одна треть».", "en": "\"En fjärdedel\" means \"a third\"." },
+      "answer": false,
+      "explanation": { "ru": "«En fjärdedel» — это «одна четверть». «Одна треть» — это «en tredjedel».", "en": "\"En fjärdedel\" means \"a quarter\". \"A third\" is \"en tredjedel\"." }
+    },
+    {
+      "id": "q-numbers-dates-years-percent-type-1",
+      "type": "type-answer",
+      "difficulty": 2,
+      "prompt": { "ru": "Напиши по-шведски: «Я на сто процентов уверен(а).»", "en": "Write in Swedish: \"I am one hundred percent sure.\"" },
+      "answer": ["Jag är hundra procent säker."],
+      "hint": { "ru": "hundra procent + säker", "en": "hundra procent + säker" }
+    },
+    {
+      "id": "q-numbers-dates-years-percent-listen-1",
+      "type": "listen",
+      "difficulty": 2,
+      "audioText": "Priset ökade med tio procent.",
+      "prompt": { "ru": "О чём говорит предложение?", "en": "What does the sentence say?" },
+      "choices": [
+        { "ru": "Цена выросла на десять процентов", "en": "The price increased by ten percent" },
+        { "ru": "Цена упала на десять процентов", "en": "The price decreased by ten percent" },
+        { "ru": "Цена выросла вдвое", "en": "The price doubled" },
+        { "ru": "Цена не изменилась", "en": "The price did not change" }
+      ],
+      "answer": 0
+    }
+  ]
+}

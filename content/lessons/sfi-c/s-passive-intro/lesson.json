@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/s-passive-intro",
+  "slug": "s-passive-intro",
+  "title": {
+    "sv": "S-passiv på skyltar och i instruktioner — en första bekantskap",
+    "ru": "Пассив на -s на вывесках и в инструкциях — первое знакомство",
+    "en": "The -s passive on signs and in instructions — a first acquaintance"
+  },
+  "summary": {
+    "ru": "Как узнавать пассив на -s (verb+s) на вывесках и в инструкциях, без действующего лица.",
+    "en": "How to recognize the -s passive (verb+s) on signs and instructions, with no actor named."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "grammar",
+    "passive",
+    "signs"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 660,
+  "prerequisites": [
+    "sfi-b/det-finns-det-ar"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}

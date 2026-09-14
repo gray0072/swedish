@@ -1,0 +1,23 @@
+{
+  "id": "sfi-c/home-repairs-tradesperson",
+  "slug": "home-repairs-tradesperson",
+  "title": {
+    "sv": "Reparationer och hantverkare hemma",
+    "ru": "Ремонт и мастер на дом (сантехник, электрик)",
+    "en": "Repairs and a tradesperson at home (plumber, electrician)"
+  },
+  "summary": {
+    "ru": "Описать проблему дома и вызвать сантехника, электрика или другого мастера.",
+    "en": "Describing a problem at home and booking a plumber, electrician or other tradesperson."
+  },
+  "kind": "phrases",
+  "levels": ["sfi-c"],
+  "tags": ["housing", "phrases", "everyday"],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 450,
+  "prerequisites": ["sfi-b/household-chores"],
+  "xp": { "base": 115 },
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null
+}

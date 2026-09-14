@@ -1,0 +1,36 @@
+{
+  "id": "sfi-c/future-ska-kommer-att-tanker",
+  "slug": "future-ska-kommer-att-tanker",
+  "title": {
+    "sv": "Framtid: ska, kommer att, tänker — nyansskillnader",
+    "ru": "Будущее время: ska, kommer att, tänker — оттенки значения",
+    "en": "The future: ska, kommer att, tänker — shades of meaning"
+  },
+  "summary": {
+    "ru": "Четыре способа говорить о будущем в шведском и разница между ними.",
+    "en": "Four ways to talk about the future in Swedish, and what sets them apart."
+  },
+  "kind": "grammar",
+  "levels": [
+    "sfi-c"
+  ],
+  "tags": [
+    "verbs",
+    "grammar",
+    "future-tense"
+  ],
+  "estimatedMinutes": 5,
+  "part": null,
+  "order": 490,
+  "prerequisites": [
+    "sfi-b/present-tense"
+  ],
+  "xp": {
+    "base": 130
+  },
+  "quiz": {
+    "questionsPerRun": 10,
+    "passScore": 7
+  },
+  "cityUnlock": null
+}
