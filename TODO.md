@@ -11,8 +11,17 @@ list stays current and short). The per-lesson topic list lives separately, in
   (SFI kurs A-D, SVA grund delkurs 1-4) holds its full 50 lessons — thematic first, the
   level's grammar after them, one lesson per point. SFI kurs D was the last level
   finished (its 47 remaining lessons, thematic and grammar alike).
-- [ ] There are also three reference articles in `content/grammar/` (word order, articles,
-  verb groups) — see "Not started at all" below for candidates to add.
+- [x] **The reference section's infrastructure and its 20 language summaries are built.**
+  `content/reference/` (renamed from `content/grammar/`), `index.json`, a loader that can pair
+  each article with an optional `_ru` translation, and `/reference` with its three tabs
+  (Summaries / Word bank / Dialogues) replacing the old `/grammar` nav item. All 20 articles
+  from the REFERENCE.md plan are written and live — English only; the `_ru` files themselves
+  are not written yet, only the loader support for them.
+- [ ] The rest of the reference section is still unbuilt: the generated word bank of all
+  5 417 vocabulary items in every form (see the adjective-forms gap below — `/reference/words`
+  is a placeholder today), the 30 everyday dialogues (`/reference/dialogues` is a placeholder
+  too), and the 20 `_ru` translations of the summaries. Full plan in
+  [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md).
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a
@@ -86,8 +95,8 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Not started at all
 
-- [ ] A full `/grammar` page — three articles today (word order, articles, verb groups);
-  good candidates to add: adjectives and agreement, prepositions of place and time,
-  subordinate clauses (once B1 arrives).
+- [ ] Adjective forms are missing from the content schema entirely, so none of the 415
+  adjectives carries a comparative or a neuter form — and 473 nouns and 49 verbs are missing
+  forms validation should already be demanding. See [REFERENCE.md](REFERENCE.md) §5.3.
 - [ ] Swedish as an interface language (deliberately postponed in SPEC §0 — not to be
   confused with Swedish as the language being studied, which already works fully).

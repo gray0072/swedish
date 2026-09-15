@@ -1,7 +1,8 @@
 # AGENTS.md
 
 Working agreements for anyone — human or agent — contributing to this repository.
-Product spec: [SPEC.md](SPEC.md). Lesson plan: [CURRICULUM.md](CURRICULUM.md).
+Product spec: [SPEC.md](SPEC.md). Lesson plan: [CURRICULUM.md](CURRICULUM.md). Plan for the
+reference section: [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md).
 
 ## Language
 
@@ -9,7 +10,8 @@ Product spec: [SPEC.md](SPEC.md). Lesson plan: [CURRICULUM.md](CURRICULUM.md).
 app interface. Write in English first; a translation is optional and always secondary.
 
 - **Documents.** The canonical file has no language suffix and is written in English:
-  `SPEC.md`, `README.md`, `TODO.md`, `CHANGELOG.md`, `CURRICULUM.md`. A Russian
+  `SPEC.md`, `README.md`, `TODO.md`, `CHANGELOG.md`, `CURRICULUM.md`,
+  `REFERENCE.md`, `DIALOGUES.md`. A Russian
   translation of a document lives next to it with the **`_ru` suffix**:
   `SPEC_ru.md`, `TODO_ru.md`, `CHANGELOG_ru.md`, `CURRICULUM_ru.md`. No other
   language suffix is in use; there is no `_en` suffix, because English is the default.

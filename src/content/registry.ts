@@ -98,12 +98,23 @@ export function getAchievements() {
   return getContentRegistry().achievements;
 }
 
-export function getGrammarArticles() {
-  return getContentRegistry().grammar;
+export function getReferenceArticles() {
+  return getContentRegistry().reference;
 }
 
-export function getGrammarArticle(slug: string) {
-  return getContentRegistry().grammar.find((a) => a.slug === slug);
+export function getReferenceArticle(slug: string) {
+  return getContentRegistry().reference.find((a) => a.slug === slug);
+}
+
+/** Groups the reference articles in index order, for the summaries tab (REFERENCE.md §6.3). */
+export function getReferenceArticlesGrouped() {
+  const groups = new Map<string, ReturnType<typeof getReferenceArticles>>();
+  for (const article of getReferenceArticles()) {
+    const arr = groups.get(article.group) ?? [];
+    arr.push(article);
+    groups.set(article.group, arr);
+  }
+  return [...groups.entries()].map(([group, articles]) => ({ group, articles }));
 }
 
 export function getContentErrors() {

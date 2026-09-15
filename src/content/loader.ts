@@ -5,6 +5,7 @@ import {
   historyCardSchema,
   lessonMetaSchema,
   questionsFileSchema,
+  referenceIndexFileSchema,
   tracksFileSchema,
   vocabFileSchema,
   type Achievement,
@@ -13,6 +14,7 @@ import {
   type HistoryCard,
   type LessonMeta,
   type QuestionsFile,
+  type ReferenceGroup,
   type Track,
   type VocabItem,
 } from './schema';
@@ -65,11 +67,17 @@ const historyFiles = import.meta.glob('../../content/history/*.json', {
   eager: true,
 }) as Record<string, { default: unknown }>;
 
-const grammarFiles = import.meta.glob('../../content/grammar/*.md', {
+// English is canonical (`<slug>.md`); a `<slug>_ru.md` beside it is the translation, picked
+// by the study-language toggle exactly like a lesson's theory.md / theory_ru.md pair.
+const referenceFiles = import.meta.glob('../../content/reference/*.md', {
   eager: true,
   query: '?raw',
   import: 'default',
 }) as Record<string, string>;
+
+const referenceIndexFile = import.meta.glob('../../content/reference/index.json', {
+  eager: true,
+}) as Record<string, { default: unknown }>;
 
 const achievementsFile = import.meta.glob('../../content/achievements.json', {
   eager: true,
@@ -96,10 +104,13 @@ export interface LessonContent {
   pool: QuestionsFile['items'];
 }
 
-export interface GrammarArticle {
+export interface ReferenceArticle {
   slug: string;
-  title: string;
-  body: string;
+  titleEn: string;
+  titleRu: string | null;
+  bodyEn: string;
+  bodyRu: string | null;
+  group: ReferenceGroup;
   order: number;
 }
 
@@ -110,7 +121,7 @@ export interface ContentRegistry {
   eras: Era[];
   buildings: Building[];
   history: HistoryCard[];
-  grammar: GrammarArticle[];
+  reference: ReferenceArticle[];
   achievements: Achievement[];
   errors: string[];
 }
@@ -253,14 +264,64 @@ function buildRegistry(): ContentRegistry {
     history.push(parsed.data);
   }
 
-  const grammar: GrammarArticle[] = Object.entries(grammarFiles)
-    .map(([path, raw], i) => {
-      const slug = path.split('/').pop()!.replace(/\.md$/, '');
-      const titleMatch = raw.match(/^#\s+(.+)$/m);
-      if (!titleMatch) errors.push(`${path}: grammar article has no "# Title" heading`);
-      return { slug, title: titleMatch?.[1] ?? slug, body: raw, order: i };
+  const referenceIndex = new Map<string, { group: ReferenceGroup; order: number }>();
+  for (const [path, mod] of Object.entries(referenceIndexFile)) {
+    const parsed = referenceIndexFileSchema.safeParse(mod.default);
+    if (!parsed.success) {
+      errors.push(`${path}: ${parsed.error.message}`);
+      continue;
+    }
+    for (const entry of parsed.data.articles) referenceIndex.set(entry.slug, entry);
+  }
+
+  const referenceEnByFilename = new Map<string, string>();
+  const referenceRuBySlug = new Map<string, string>();
+  for (const [path, raw] of Object.entries(referenceFiles)) {
+    const filename = path.split('/').pop()!.replace(/\.md$/, '');
+    if (filename.endsWith('_ru')) {
+      referenceRuBySlug.set(filename.replace(/_ru$/, ''), raw);
+    } else {
+      referenceEnByFilename.set(filename, raw);
+    }
+  }
+
+  function extractTitle(raw: string, path: string): string | null {
+    const titleMatch = raw.match(/^#\s+(.+)$/m);
+    if (!titleMatch) errors.push(`${path}: reference article has no "# Title" heading`);
+    return titleMatch?.[1] ?? null;
+  }
+
+  const reference: ReferenceArticle[] = [...referenceEnByFilename.entries()]
+    .map(([slug, bodyEn]) => {
+      const indexEntry = referenceIndex.get(slug);
+      if (!indexEntry) {
+        errors.push(`content/reference/${slug}.md: no entry in index.json`);
+      }
+      const titleEn = extractTitle(bodyEn, `content/reference/${slug}.md`) ?? slug;
+      const bodyRu = referenceRuBySlug.get(slug) ?? null;
+      const titleRu = bodyRu ? extractTitle(bodyRu, `content/reference/${slug}_ru.md`) : null;
+      return {
+        slug,
+        titleEn,
+        titleRu,
+        bodyEn,
+        bodyRu,
+        group: indexEntry?.group ?? 'overview',
+        order: indexEntry?.order ?? 0,
+      };
     })
-    .sort((a, b) => a.slug.localeCompare(b.slug));
+    .sort((a, b) => a.order - b.order);
+
+  for (const slug of referenceIndex.keys()) {
+    if (!referenceEnByFilename.has(slug)) {
+      errors.push(`content/reference/index.json: entry "${slug}" has no matching .md file`);
+    }
+  }
+  for (const slug of referenceRuBySlug.keys()) {
+    if (!referenceEnByFilename.has(slug)) {
+      errors.push(`content/reference/${slug}_ru.md: no English counterpart "${slug}.md"`);
+    }
+  }
 
   let achievements: Achievement[] = [];
   for (const mod of Object.values(achievementsFile)) {
@@ -272,7 +333,7 @@ function buildRegistry(): ContentRegistry {
     achievements = parsed.data.achievements;
   }
 
-  return { tracks, lessons, curricula, eras, buildings, history, grammar, achievements, errors };
+  return { tracks, lessons, curricula, eras, buildings, history, reference, achievements, errors };
 }
 
 let cached: ContentRegistry | null = null;

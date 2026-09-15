@@ -14,6 +14,7 @@ import {
   historyCardSchema,
   lessonMetaSchema,
   questionsFileSchema,
+  referenceIndexFileSchema,
   tracksFileSchema,
   vocabFileSchema,
 } from '../src/content/schema';
@@ -214,17 +215,57 @@ if (existsSync(historyRoot)) {
   }
 }
 
-// -- grammar reference articles ------------------------------------------------
-const grammarRoot = join(ROOT, 'grammar');
-if (existsSync(grammarRoot)) {
-  const slugs = new Set<string>();
-  for (const file of readdirSync(grammarRoot)) {
+// -- reference section: language summaries (REFERENCE.md) ---------------------
+const referenceRoot = join(ROOT, 'reference');
+if (existsSync(referenceRoot)) {
+  const enSlugs = new Set<string>();
+  const ruSlugs = new Set<string>();
+  for (const file of readdirSync(referenceRoot)) {
     if (!file.endsWith('.md')) continue;
-    const slug = file.replace(/\.md$/, '');
-    if (slugs.has(slug)) errors.push(`grammar: duplicate slug "${slug}"`);
-    slugs.add(slug);
-    const raw = readFileSync(join(grammarRoot, file), 'utf-8');
-    if (!/^#\s+.+$/m.test(raw)) errors.push(`grammar/${file}: missing a "# Title" heading`);
+    const raw = readFileSync(join(referenceRoot, file), 'utf-8');
+    if (!/^#\s+.+$/m.test(raw)) {
+      errors.push(`reference/${file}: missing a "# Title" heading`);
+    }
+    if (file.endsWith('_ru.md')) {
+      const slug = file.replace(/_ru\.md$/, '');
+      if (ruSlugs.has(slug)) errors.push(`reference: duplicate slug "${slug}_ru"`);
+      ruSlugs.add(slug);
+    } else {
+      const slug = file.replace(/\.md$/, '');
+      if (enSlugs.has(slug)) errors.push(`reference: duplicate slug "${slug}"`);
+      enSlugs.add(slug);
+    }
+  }
+  for (const slug of ruSlugs) {
+    if (!enSlugs.has(slug)) {
+      errors.push(`reference/${slug}_ru.md: no English counterpart "${slug}.md"`);
+    }
+  }
+
+  const indexPath = join(referenceRoot, 'index.json');
+  if (!existsSync(indexPath)) {
+    errors.push('reference/index.json: missing');
+  } else {
+    const parsed = referenceIndexFileSchema.safeParse(readJson(indexPath));
+    if (!parsed.success) {
+      errors.push(`reference/index.json: ${parsed.error.message}`);
+    } else {
+      const indexedSlugs = new Set<string>();
+      for (const entry of parsed.data.articles) {
+        if (indexedSlugs.has(entry.slug)) {
+          errors.push(`reference/index.json: duplicate entry "${entry.slug}"`);
+        }
+        indexedSlugs.add(entry.slug);
+        if (!enSlugs.has(entry.slug)) {
+          errors.push(`reference/index.json: entry "${entry.slug}" has no matching .md file`);
+        }
+      }
+      for (const slug of enSlugs) {
+        if (!indexedSlugs.has(slug)) {
+          errors.push(`reference/${slug}.md: no entry in index.json`);
+        }
+      }
+    }
   }
 }
 

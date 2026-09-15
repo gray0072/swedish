@@ -124,6 +124,16 @@ export const verbFormsSchema = z.object({
   imperative: z.string().optional(),
 });
 
+// Positive form split by gender/number, then the two degrees of comparison — the word-bank
+// view in REFERENCE.md §5.2 needs all five to render an adjective's row.
+export const adjFormsSchema = z.object({
+  positive: z.string(),
+  neuter: z.string(),
+  plural: z.string(),
+  comparative: z.string(),
+  superlative: z.string(),
+});
+
 export const vocabItemSchema = z.object({
   id: z.string(),
   sv: z.string(),
@@ -133,7 +143,11 @@ export const vocabItemSchema = z.object({
   pos: partOfSpeechSchema,
   gender: nounGenderSchema.optional(),
   verbGroup: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
-  forms: z.union([nounFormsSchema, verbFormsSchema]).nullable().optional().default(null),
+  forms: z
+    .union([nounFormsSchema, verbFormsSchema, adjFormsSchema])
+    .nullable()
+    .optional()
+    .default(null),
   example: z
     .object({ sv: z.string(), ru: z.string().optional(), en: z.string().optional() })
     .optional(),
@@ -360,3 +374,21 @@ export const historyCardSchema = z.object({
   sources: z.array(z.string()).min(1, 'Every history card needs a source (SPEC §12.6)'),
 });
 export type HistoryCard = z.infer<typeof historyCardSchema>;
+
+// ---------------------------------------------------------------------------
+// Reference section — language summaries (REFERENCE.md), not lessons
+// ---------------------------------------------------------------------------
+
+export const referenceGroupSchema = z.enum(['overview', 'verbs', 'nouns', 'words']);
+export type ReferenceGroup = z.infer<typeof referenceGroupSchema>;
+
+export const referenceIndexEntrySchema = z.object({
+  slug: z.string(),
+  group: referenceGroupSchema,
+  order: z.number(),
+});
+
+export const referenceIndexFileSchema = z.object({
+  articles: z.array(referenceIndexEntrySchema),
+});
+export type ReferenceIndexFile = z.infer<typeof referenceIndexFileSchema>;

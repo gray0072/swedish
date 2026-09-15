@@ -69,7 +69,7 @@ const navItems = [
   // Secondary destinations, not part of the core loop — desktop nav only so the mobile
   // bottom bar (prime real estate) stays reserved for the five primary destinations.
   { to: '/stats', icon: BarChart3, key: 'nav.stats' as const, end: false, desktopOnly: true },
-  { to: '/grammar', icon: ScrollText, key: 'nav.grammar' as const, end: false, desktopOnly: true },
+  { to: '/reference', icon: ScrollText, key: 'nav.reference' as const, end: false, desktopOnly: true },
   { to: '/settings', icon: SettingsIcon, key: 'nav.settings' as const, end: false },
 ];
 

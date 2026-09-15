@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
-import { Download, PartyPopper } from 'lucide-react';
+import { Download, PartyPopper, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
 import { getAllLessons, getLesson } from '@/content/registry';
@@ -146,6 +146,16 @@ export default function ResultPage() {
       </div>
 
       <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
+        {reward.score < reward.total && (
+          <Link
+            to={`/lesson/${levelId}/${slug}/quiz`}
+            replace
+            className="flex items-center justify-center gap-1.5 rounded-xl border border-lingon/40 px-4 py-2 text-sm font-semibold text-lingon hover:bg-lingon/10"
+          >
+            <RotateCcw size={16} aria-hidden="true" />
+            {t('result.retry')}
+          </Link>
+        )}
         <Link to={`/lesson/${levelId}/${slug}`} className="btn-secondary">
           {t('result.backToLesson')}
         </Link>

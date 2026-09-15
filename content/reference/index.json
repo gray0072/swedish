@@ -1,0 +1,27 @@
+{
+  "articles": [
+    { "slug": "how-swedish-works", "group": "overview", "order": 10 },
+    { "slug": "parts-of-speech", "group": "overview", "order": 20 },
+    { "slug": "sentence-types", "group": "overview", "order": 30 },
+    { "slug": "word-order", "group": "overview", "order": 40 },
+    { "slug": "pronunciation-and-spelling", "group": "overview", "order": 50 },
+
+    { "slug": "verb-groups", "group": "verbs", "order": 60 },
+    { "slug": "verb-forms", "group": "verbs", "order": 70 },
+    { "slug": "tense-system", "group": "verbs", "order": 80 },
+    { "slug": "modal-verbs", "group": "verbs", "order": 90 },
+    { "slug": "strong-verbs", "group": "verbs", "order": 100 },
+
+    { "slug": "noun-genders", "group": "nouns", "order": 110 },
+    { "slug": "noun-forms", "group": "nouns", "order": 120 },
+
+    { "slug": "adjective-forms", "group": "words", "order": 130 },
+    { "slug": "comparison", "group": "words", "order": 140 },
+    { "slug": "adverbs", "group": "words", "order": 150 },
+    { "slug": "pronouns", "group": "words", "order": 160 },
+    { "slug": "prepositions", "group": "words", "order": 170 },
+    { "slug": "numbers-time-dates", "group": "words", "order": 180 },
+    { "slug": "conjunctions-and-connectors", "group": "words", "order": 190 },
+    { "slug": "word-formation", "group": "words", "order": 200 }
+  ]
+}

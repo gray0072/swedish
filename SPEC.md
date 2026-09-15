@@ -135,10 +135,16 @@ swedish/
 │  │  ├─ sfi-b/
 │  │  ├─ sfi-c/
 │  │  └─ ...
-│  ├─ grammar/                   # standalone reference articles (not lessons)
+│  ├─ reference/                 # language summaries — not lessons (see REFERENCE.md)
+│  │  ├─ index.json              # slug → group + order for the article list
+│  │  ├─ verb-groups.md          # English is canonical …
+│  │  ├─ verb-groups_ru.md       # … the _ru file is its translation
 │  │  ├─ word-order.md
-│  │  ├─ noun-genders.md
-│  │  └─ verb-groups.md
+│  │  └─ noun-genders.md
+│  ├─ dialogues/                 # everyday scenes (see DIALOGUES.md) — no quiz, no XP
+│  │  ├─ laundry-room.json
+│  │  ├─ cleaning-day.json
+│  │  └─ developers-deadline.json
 │  ├─ history/                   # history cards (see §12.4) — no quiz, unlocked by buildings
 │  │  ├─ birka.json
 │  │  ├─ runstenar.json
@@ -187,7 +193,7 @@ swedish/
 │  │  ├─ ResultPage.tsx
 │  │  ├─ ReviewPage.tsx          # global SRS session across all lessons
 │  │  ├─ CityPage.tsx
-│  │  ├─ GrammarPage.tsx
+│  │  ├─ ReferencePage.tsx       # hub: summaries / word bank / dialogues
 │  │  ├─ StatsPage.tsx
 │  │  └─ SettingsPage.tsx
 │  ├─ i18n/
@@ -228,6 +234,15 @@ A lesson is a **content unit** that belongs to exactly one level: its folder nam
 A curriculum is an **ordered playlist referencing lesson ids** — `content/curricula/sfi-a.json`
 sets the teaching order inside a level. A playlist may reference any lesson id, so a future
 revision pack can pull lessons from several levels without duplicating content.
+
+### Reference material is not a course
+
+`content/reference/` and `content/dialogues/` hold the material that a ladder of five-minute
+lessons cannot carry: summaries of a whole system (the verb groups, every noun declension, the
+parts of speech), a generated word bank of every vocabulary item in the app in all its forms,
+and everyday dialogues. None of it is scored, gated or tied to a level. The plan for both lives
+in [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md); the whole section is reached
+through a single navigation entry with three tabs, so it adds depth without adding chrome.
 
 ---
 
@@ -753,7 +768,9 @@ The connection must be **explicit and visible**:
 | `/lesson/:levelId/:slug/result` | Result + rewards + next step |
 | `/review` | Global SRS session |
 | `/city` | Stockholm map, shop, era timeline |
-| `/grammar` and `/grammar/:slug` | Reference articles |
+| `/reference/summaries` and `/reference/summaries/:slug` | Language summaries |
+| `/reference/words` | Word bank — every vocabulary item, in all its forms |
+| `/reference/dialogues` and `/reference/dialogues/:slug` | Everyday dialogues |
 | `/stats` | Charts: words learned, accuracy, activity heatmap |
 | `/settings` | Language, theme, TTS, export/import, reset |
 
@@ -1188,7 +1205,11 @@ the SRS deck. Themed lesson packs from §12.5. Ornament set: dala horse loader, 
 Younger Futhark seals, serpent-band era frames.
 
 **Phase 9 — Content scale-up**
-SFI kurs A/B filled out, kurs C/D built up, first text-based lessons for SVA grund delkurs 1. Grammar reference articles.
+SFI kurs A/B filled out, kurs C/D built up, first text-based lessons for SVA grund delkurs 1.
+
+**Phase 9b — Reference section**
+The summaries, the generated word bank and the everyday dialogues, behind one `/reference` entry
+with three tabs. Full plan in [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md).
 
 **Phase 10 — Polish**
 PWA, offline, i18n completion, accessibility audit, Lighthouse ≥ 95.

@@ -18,11 +18,11 @@ export default function TracksPage() {
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">{t('tracks.title')}</h1>
         <Link
-          to="/grammar"
+          to="/reference"
           className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
         >
           <ScrollText size={15} aria-hidden="true" />
-          {t('tracks.grammarLink')}
+          {t('tracks.referenceLink')}
         </Link>
       </div>
       {tracks.map((track) => (
