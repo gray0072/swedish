@@ -131,6 +131,7 @@
       "sv": "vacker",
       "translations": { "ru": "красивый", "en": "beautiful" },
       "pos": "adj",
+      "forms": { "positive": "vacker", "neuter": "vackert", "plural": "vackra", "comparative": "vackrare", "superlative": "vackrast" },
       "example": { "sv": "Naturen är vacker här.", "ru": "Природа здесь красивая.", "en": "Nature is beautiful here." }
     },
     {

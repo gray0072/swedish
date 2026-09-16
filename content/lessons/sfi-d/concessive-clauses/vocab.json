@@ -47,6 +47,7 @@
       "sv": "trött",
       "translations": { "ru": "уставший", "en": "tired" },
       "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Hon var trött men glad.", "ru": "Она была уставшей, но довольной.", "en": "She was tired but happy." }
     }
   ]

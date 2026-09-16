@@ -5,6 +5,7 @@
       "sv": "vilja",
       "translations": { "ru": "хотеть", "en": "to want to" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
       "example": { "sv": "Jag vill sova.", "ru": "Я хочу спать.", "en": "I want to sleep." }
     },
@@ -13,6 +14,7 @@
       "sv": "kunna",
       "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
       "example": { "sv": "Kan du simma?", "ru": "Ты умеешь плавать?", "en": "Can you swim?" }
     },
@@ -21,6 +23,7 @@
       "sv": "måste",
       "translations": { "ru": "должен, обязан", "en": "must, have to" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "måste", "present": "måste", "past": "måste", "supine": "måst" },
       "note": { "ru": "форма не меняется во всех временах кроме супина", "en": "the form doesn't change across most tenses" },
       "example": { "sv": "Vi måste gå nu.", "ru": "Нам нужно идти сейчас.", "en": "We must go now." }

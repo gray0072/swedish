@@ -5,27 +5,31 @@
       "sv": "å ena sidan",
       "translations": { "ru": "с одной стороны", "en": "on the one hand" },
       "pos": "phrase",
-      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." }
+      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." },
+      "example": { "sv": "Å ena sidan är hyran billigare på landet.", "ru": "С одной стороны, аренда дешевле в сельской местности.", "en": "On the one hand, rent is cheaper in the countryside." }
     },
     {
       "id": "a-andra-sidan",
       "sv": "å andra sidan",
       "translations": { "ru": "с другой стороны", "en": "on the other hand" },
       "pos": "phrase",
-      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." }
+      "note": { "ru": "Sats-наречие, вызывает V2-инверсию.", "en": "A sentence adverbial, triggers V2 inversion." },
+      "example": { "sv": "Å andra sidan är utbudet av jobb större i storstaden.", "ru": "С другой стороны, в большом городе больше предложений работы.", "en": "On the other hand, the supply of jobs is bigger in the city." }
     },
     {
       "id": "visserligen",
       "sv": "visserligen",
       "translations": { "ru": "правда, действительно (уступка)", "en": "admittedly, it's true that" },
       "pos": "adv",
-      "note": { "ru": "Признаёт довод оппонента перед тем, как men его перевесит.", "en": "Concedes the opponent's point before men outweighs it." }
+      "note": { "ru": "Признаёт довод оппонента перед тем, как men его перевесит.", "en": "Concedes the opponent's point before men outweighs it." },
+      "example": { "sv": "Visserligen är hyran hög, men läget är perfekt.", "ru": "Правда, аренда высокая, но местоположение идеальное.", "en": "Admittedly the rent is high, but the location is perfect." }
     },
     {
       "id": "men",
       "sv": "men",
       "translations": { "ru": "но", "en": "but" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Jag gillar storstaden, men jag trivs bäst på landet.", "ru": "Мне нравится большой город, но лучше всего я чувствую себя в деревне.", "en": "I like the city, but I feel most at home in the countryside." }
     },
     {
       "id": "storstad",
@@ -33,7 +37,8 @@
       "translations": { "ru": "большой город", "en": "big city" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "storstad", "defSg": "storstaden", "indefPl": "storstäder", "defPl": "storstäderna" }
+      "forms": { "indefSg": "storstad", "defSg": "storstaden", "indefPl": "storstäder", "defPl": "storstäderna" },
+      "example": { "sv": "Många unga vill flytta till en storstad.", "ru": "Многие молодые люди хотят переехать в большой город.", "en": "Many young people want to move to a big city." }
     },
     {
       "id": "landet",
@@ -41,7 +46,8 @@
       "translations": { "ru": "деревня, сельская местность", "en": "the countryside" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "land", "defSg": "landet", "indefPl": "länder", "defPl": "länderna" }
+      "forms": { "indefSg": "land", "defSg": "landet", "indefPl": "länder", "defPl": "länderna" },
+      "example": { "sv": "Vi trivs bättre på landet än i stan.", "ru": "Нам в деревне лучше, чем в городе.", "en": "We enjoy the countryside more than the city." }
     },
     {
       "id": "trivas",
@@ -50,7 +56,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "trivas", "present": "trivs", "past": "trivdes", "supine": "trivts" },
-      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." }
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." },
+      "example": { "sv": "Hon trivs verkligen i sin nya lägenhet.", "ru": "Ей действительно нравится в новой квартире.", "en": "She really feels at home in her new apartment." }
     },
     {
       "id": "hyra",
@@ -58,13 +65,16 @@
       "translations": { "ru": "аренда, квартплата", "en": "rent" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" }
+      "forms": { "indefSg": "hyra", "defSg": "hyran", "indefPl": "hyror", "defPl": "hyrorna" },
+      "example": { "sv": "Hyran är mycket högre i storstaden.", "ru": "Арендная плата в большом городе намного выше.", "en": "The rent is much higher in the big city." }
     },
     {
       "id": "hog",
       "sv": "hög",
       "translations": { "ru": "высокий", "en": "high" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "hög", "neuter": "högt", "plural": "höga", "comparative": "högre", "superlative": "högst" },
+      "example": { "sv": "Hyrorna är höga i de flesta storstäder.", "ru": "В большинстве крупных городов аренда высокая.", "en": "Rents are high in most big cities." }
     },
     {
       "id": "argument",
@@ -72,7 +82,8 @@
       "translations": { "ru": "аргумент", "en": "argument" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" }
+      "forms": { "indefSg": "argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" },
+      "example": { "sv": "Hennes starkaste argument handlade om priserna.", "ru": "Её самый сильный аргумент касался цен.", "en": "Her strongest argument was about prices." }
     },
     {
       "id": "motargument",
@@ -80,7 +91,8 @@
       "translations": { "ru": "контраргумент", "en": "counter-argument" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" }
+      "forms": { "indefSg": "motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" },
+      "example": { "sv": "Han hade inget bra motargument mot förslaget.", "ru": "У него не было хорошего контраргумента против предложения.", "en": "He had no good counter-argument against the proposal." }
     },
     {
       "id": "flytta-verb",
@@ -88,7 +100,8 @@
       "translations": { "ru": "переезжать", "en": "to move" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" }
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "De ska flytta till en storstad nästa år.", "ru": "Они собираются переехать в большой город в следующем году.", "en": "They are going to move to a big city next year." }
     }
   ]
 }

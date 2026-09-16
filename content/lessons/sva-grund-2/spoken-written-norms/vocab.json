@@ -12,7 +12,8 @@
       "sv": "dom",
       "translations": { "ru": "их, им, они (разговорная форма)", "en": "them, they (spoken form)" },
       "pos": "pron",
-      "note": { "ru": "В речи заменяет и «dem», и подлежащее «de».", "en": "In speech it replaces both \"dem\" and the subject \"de\"." }
+      "note": { "ru": "В речи заменяет и «dem», и подлежащее «de».", "en": "In speech it replaces both \"dem\" and the subject \"de\"." },
+      "example": { "sv": "Jag pratade med dom igår.", "ru": "Я разговаривал с ними вчера.", "en": "I talked to them yesterday." }
     },
     {
       "id": "sen-sedan",
@@ -25,7 +26,8 @@
       "id": "nan-nagon",
       "sv": "nån",
       "translations": { "ru": "кто-то (разговорное от någon)", "en": "someone (colloquial for någon)" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Är det nån hemma?", "ru": "Кто-нибудь дома?", "en": "Is anyone home?" }
     },
     {
       "id": "nat-nagot",
@@ -61,7 +63,8 @@
       "translations": { "ru": "разговорный язык", "en": "spoken language" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett talspråk", "defSg": "talspråket", "indefPl": "talspråk", "defPl": "talspråken" }
+      "forms": { "indefSg": "ett talspråk", "defSg": "talspråket", "indefPl": "talspråk", "defPl": "talspråken" },
+      "example": { "sv": "Ord som \"dom\" och \"nån\" hör till talspråket.", "ru": "Такие слова, как «dom» и «nån», относятся к разговорному языку.", "en": "Words like \"dom\" and \"nån\" belong to the spoken language." }
     },
     {
       "id": "skriftsprak",
@@ -69,7 +72,8 @@
       "translations": { "ru": "письменный язык", "en": "written language" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" }
+      "forms": { "indefSg": "ett skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" },
+      "example": { "sv": "I skriftspråket skriver man \"dem\" och \"någon\".", "ru": "В письменном языке пишут «dem» и «någon».", "en": "In written language, one writes \"dem\" and \"någon\"." }
     }
   ]
 }

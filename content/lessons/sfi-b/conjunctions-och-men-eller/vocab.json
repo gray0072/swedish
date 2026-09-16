@@ -40,31 +40,36 @@
       "id": "kaffe-smorgas-phrase",
       "sv": "Jag dricker kaffe och äter en smörgås.",
       "translations": { "ru": "Я пью кофе и ем бутерброд.", "en": "I drink coffee and eat a sandwich." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag dricker kaffe och äter en smörgås.", "ru": "Я пью кофе и ем бутерброд.", "en": "I drink coffee and eat a sandwich." }
     },
     {
       "id": "sova-jobba-phrase",
       "sv": "Jag vill sova, men jag måste jobba.",
       "translations": { "ru": "Я хочу спать, но я должен работать.", "en": "I want to sleep, but I must work." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag vill sova, men jag måste jobba.", "ru": "Я хочу спать, но я должен работать.", "en": "I want to sleep, but I must work." }
     },
     {
       "id": "te-kaffe-phrase",
       "sv": "Vill du ha te eller kaffe?",
       "translations": { "ru": "Хочешь чай или кофе?", "en": "Do you want tea or coffee?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vill du ha te eller kaffe?", "ru": "Хочешь чай или кофе?", "en": "Do you want tea or coffee?" }
     },
     {
       "id": "trott-sov-phrase",
       "sv": "Jag är trött, för jag sov dåligt.",
       "translations": { "ru": "Я устал, потому что плохо спал.", "en": "I'm tired, because I slept badly." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag är trött, för jag sov dåligt.", "ru": "Я устал, потому что плохо спал.", "en": "I'm tired, because I slept badly." }
     },
     {
       "id": "regnar-paraply-phrase",
       "sv": "Det regnar, så jag tar paraply.",
       "translations": { "ru": "Идёт дождь, поэтому я беру зонт.", "en": "It's raining, so I take an umbrella." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det regnar, så jag tar paraply.", "ru": "Идёт дождь, поэтому я беру зонт.", "en": "It's raining, so I take an umbrella." }
     }
   ]
 }

@@ -11,7 +11,8 @@
       "id": "siffrorna-visar",
       "sv": "siffrorna visar en tydlig trend",
       "translations": { "ru": "цифры показывают чёткий тренд", "en": "the figures show a clear trend" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Siffrorna visar en tydlig trend mot fler distansjobb.", "ru": "Цифры показывают чёткий тренд в сторону роста удалённой работы.", "en": "The figures show a clear trend towards more remote jobs." }
     },
     {
       "id": "en-mojlig-forklaring-ar-att",
@@ -24,19 +25,22 @@
       "id": "detta-kan-bero-pa",
       "sv": "detta kan bero på flera faktorer",
       "translations": { "ru": "это может зависеть от нескольких факторов", "en": "this can depend on several factors" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Detta kan bero på flera faktorer, till exempel konjunkturen och räntan.", "ru": "Это может зависеть от нескольких факторов, например, от экономической конъюнктуры и процентной ставки.", "en": "This can depend on several factors, for example the economic cycle and interest rates." }
     },
     {
       "id": "man-kan-inte-dra-slutsatsen",
       "sv": "man kan inte dra slutsatsen att...",
       "translations": { "ru": "нельзя делать вывод, что...", "en": "one can't conclude that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Man kan inte dra slutsatsen att allt beror på en enda orsak.", "ru": "Нельзя делать вывод, что всё зависит от одной единственной причины.", "en": "One can't conclude that everything depends on a single cause." }
     },
     {
       "id": "svart-att-saga-sakert",
       "sv": "det är svårt att säga säkert utan mer data",
       "translations": { "ru": "трудно сказать наверняка без дополнительных данных", "en": "it's hard to say for sure without more data" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det är svårt att säga säkert utan mer data om orsaken till nedgången.", "ru": "Трудно сказать наверняка без дополнительных данных о причине спада.", "en": "It's hard to say for sure without more data on the cause of the decline." }
     },
     {
       "id": "jamfort-med-foregaende-ar",
@@ -51,7 +55,8 @@
       "translations": { "ru": "связь, корреляция", "en": "correlation, connection" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" }
+      "forms": { "indefSg": "ett samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" },
+      "example": { "sv": "Det finns ett tydligt samband mellan utbildning och inkomst.", "ru": "Существует явная связь между образованием и доходом.", "en": "There is a clear correlation between education and income." }
     },
     {
       "id": "orsak-econ",
@@ -59,7 +64,8 @@
       "translations": { "ru": "причина", "en": "cause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" },
+      "example": { "sv": "Den främsta orsaken till ökningen är den starka konjunkturen.", "ru": "Главная причина роста — сильная экономическая конъюнктура.", "en": "The main cause of the increase is the strong economic climate." }
     },
     {
       "id": "faktor",
@@ -67,7 +73,8 @@
       "translations": { "ru": "фактор", "en": "factor" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en faktor", "defSg": "faktorn", "indefPl": "faktorer", "defPl": "faktorerna" }
+      "forms": { "indefSg": "en faktor", "defSg": "faktorn", "indefPl": "faktorer", "defPl": "faktorerna" },
+      "example": { "sv": "Räntan är en viktig faktor för bostadspriserna.", "ru": "Процентная ставка — важный фактор для цен на жильё.", "en": "The interest rate is an important factor for housing prices." }
     },
     {
       "id": "konjunktur",
@@ -75,7 +82,8 @@
       "translations": { "ru": "экономическая конъюнктура, деловой цикл", "en": "economic cycle, business climate" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" }
+      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" },
+      "example": { "sv": "Konjunkturen har varit stark de senaste åren.", "ru": "Экономическая конъюнктура была сильной в последние годы.", "en": "The economic climate has been strong in recent years." }
     },
     {
       "id": "bristyrke",

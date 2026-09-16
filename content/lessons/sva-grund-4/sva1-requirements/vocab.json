@@ -55,6 +55,8 @@
       "sv": "komvux",
       "translations": { "ru": "коммунальное образование для взрослых (комвукс)", "en": "municipal adult education (komvux)" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en komvux", "defSg": "komvuxen", "indefPl": "komvux", "defPl": "komvuxen" },
       "example": { "sv": "Jag läser Svenska som andraspråk 1 på komvux.", "ru": "Я изучаю «Шведский как второй язык 1» в комвуксе.", "en": "I am studying Swedish as a Second Language 1 at komvux." }
     },
     {

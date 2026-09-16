@@ -15,6 +15,7 @@
       "translations": { "ru": "быть", "en": "to be" },
       "pos": "verb",
       "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Vädret var vackert i går, och i dag är det soligt igen.", "ru": "Вчера была хорошая погода, а сегодня снова солнечно.", "en": "The weather was lovely yesterday, and today it is sunny again." },
       "note": { "ru": "От этого глагола образована редкая форма «vore» (см. ниже).", "en": "This verb gives the rare form \"vore\" (see below)." }
     },
     {
@@ -41,6 +42,7 @@
       "pos": "verb",
       "verbGroup": 2,
       "forms": { "infinitive": "trivas", "present": "trivs", "past": "trivdes", "supine": "trivts" },
+      "example": { "sv": "Jag trivs verkligen bra på mitt nya jobb.", "ru": "Мне очень нравится на моей новой работе.", "en": "I really feel at home in my new job." },
       "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
     },
     {
@@ -48,7 +50,9 @@
       "sv": "minnas",
       "translations": { "ru": "помнить", "en": "to remember" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "minnas", "present": "minns", "past": "mindes", "supine": "mints" },
+      "example": { "sv": "Jag minns fortfarande vår första resa till Sverige.", "ru": "Я до сих пор помню нашу первую поездку в Швецию.", "en": "I still remember our first trip to Sweden." },
       "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
     },
     {
@@ -68,6 +72,7 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "andas", "present": "andas", "past": "andades", "supine": "andats" },
+      "example": { "sv": "Andas lugnt och djupt innan du håller ditt tal.", "ru": "Дыши спокойно и глубоко перед тем, как выступить с речью.", "en": "Breathe calmly and deeply before you give your speech." },
       "note": { "ru": "Депонентный глагол.", "en": "A deponent verb." }
     },
     {
@@ -76,6 +81,7 @@
       "translations": { "ru": "мочь, уметь", "en": "to be able to, can" },
       "pos": "verb",
       "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "example": { "sv": "Hon kan tala tre språk flytande.", "ru": "Она может свободно говорить на трёх языках.", "en": "She can speak three languages fluently." },
       "note": { "ru": "Модальный глагол.", "en": "A modal verb." }
     },
     {
@@ -84,6 +90,7 @@
       "translations": { "ru": "хотеть", "en": "to want to" },
       "pos": "verb",
       "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Vi vill lära oss alla tempusformer innan provet.", "ru": "Мы хотим выучить все формы времён перед экзаменом.", "en": "We want to learn all the tense forms before the test." },
       "note": { "ru": "Модальный глагол.", "en": "A modal verb." }
     },
     {
@@ -92,6 +99,7 @@
       "translations": { "ru": "следовало бы, надлежит", "en": "ought to, should" },
       "pos": "verb",
       "forms": { "infinitive": "böra", "present": "bör", "past": "borde", "supine": "bort" },
+      "example": { "sv": "Du bör repetera de starka verben regelbundet.", "ru": "Тебе следует регулярно повторять сильные глаголы.", "en": "You ought to review the strong verbs regularly." },
       "note": { "ru": "Модальный глагол; супин «bort» встречается редко, в книжном стиле.", "en": "A modal verb; the supine \"bort\" is rare and bookish." }
     },
     {
@@ -99,6 +107,7 @@
       "sv": "måste",
       "translations": { "ru": "должен, обязан", "en": "must, have to" },
       "pos": "verb",
+      "example": { "sv": "Man måste öva verbens former för att bemästra svenska.", "ru": "Нужно тренировать формы глаголов, чтобы освоить шведский язык.", "en": "You have to practise the verb forms to master Swedish." },
       "note": { "ru": "Дефектный модальный глагол: одна и та же форма для настоящего и прошедшего времени, без инфинитива.", "en": "A defective modal verb: the same form serves present and past, with no infinitive." }
     },
     {
@@ -106,6 +115,7 @@
       "sv": "ska",
       "translations": { "ru": "должен (будущее/намерение)", "en": "shall, will, be going to" },
       "pos": "verb",
+      "example": { "sv": "Jag ska plugga svenska varje dag den här veckan.", "ru": "Я буду заниматься шведским каждый день на этой неделе.", "en": "I am going to study Swedish every day this week." },
       "note": { "ru": "Дефектный модальный глагол; инфинитив «skola» практически не используется в современном языке.", "en": "A defective modal verb; the infinitive \"skola\" is almost never used in modern Swedish." }
     },
     {
@@ -114,7 +124,8 @@
       "translations": { "ru": "причастие", "en": "participle" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" }
+      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" },
+      "example": { "sv": "Perfekt particip av \"skriva\" är \"skriven\".", "ru": "Причастие прошедшего времени от «skriva» — «skriven».", "en": "The past participle of \"skriva\" is \"skriven\"." }
     },
     {
       "id": "tempus",
@@ -122,7 +133,8 @@
       "translations": { "ru": "грамматическое время", "en": "(grammatical) tense" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "tempus", "defSg": "tempuset", "indefPl": "tempus", "defPl": "tempusen" }
+      "forms": { "indefSg": "tempus", "defSg": "tempuset", "indefPl": "tempus", "defPl": "tempusen" },
+      "example": { "sv": "Svenska har färre tempus än många andra språk.", "ru": "В шведском языке меньше времён, чем в некоторых других языках.", "en": "Swedish has fewer tenses than many other languages." }
     },
     {
       "id": "futurum",
@@ -130,7 +142,8 @@
       "translations": { "ru": "будущее время", "en": "future tense" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "futurum", "defSg": "futurumet", "indefPl": "futurum", "defPl": "futurumen" }
+      "forms": { "indefSg": "futurum", "defSg": "futurumet", "indefPl": "futurum", "defPl": "futurumen" },
+      "example": { "sv": "Futurum uttrycks ofta med \"ska\" plus infinitiv i svenskan.", "ru": "Будущее время в шведском часто выражается словом «ska» плюс инфинитив.", "en": "Future tense in Swedish is often expressed with \"ska\" plus the infinitive." }
     }
   ]
 }

@@ -25,7 +25,8 @@
       "id": "dessa-ref",
       "sv": "dessa",
       "translations": { "ru": "эти (множественное число)", "en": "these (plural)" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Dessa protester spred sig snabbt till andra städer.", "ru": "Эти протесты быстро распространились на другие города.", "en": "These protests quickly spread to other cities." }
     },
     {
       "id": "vilket-ref",
@@ -94,7 +95,8 @@
       "id": "kraftigt",
       "sv": "kraftigt",
       "translations": { "ru": "резко, сильно", "en": "sharply, strongly" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Priserna ökade kraftigt förra året.", "ru": "Цены резко выросли в прошлом году.", "en": "Prices increased sharply last year." }
     }
   ]
 }

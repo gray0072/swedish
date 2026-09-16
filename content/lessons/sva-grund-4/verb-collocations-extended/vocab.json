@@ -41,7 +41,8 @@
       "translations": { "ru": "позиция, положение", "en": "position, stance" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ställning", "defSg": "ställningen", "indefPl": "ställningar", "defPl": "ställningarna" }
+      "forms": { "indefSg": "en ställning", "defSg": "ställningen", "indefPl": "ställningar", "defPl": "ställningarna" },
+      "example": { "sv": "Var beredd att ta ställning innan mötet börjar.", "ru": "Будь готов(а) занять позицию до начала встречи.", "en": "Be ready to take a position before the meeting starts." }
     },
     {
       "id": "slutsats",
@@ -49,7 +50,8 @@
       "translations": { "ru": "вывод, заключение", "en": "conclusion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" },
+      "example": { "sv": "Vi drog en annan slutsats efter att ha läst hela utredningen.", "ru": "Мы сделали другой вывод, прочитав всё расследование.", "en": "We drew a different conclusion after reading the whole inquiry." }
     },
     {
       "id": "forslag",
@@ -57,7 +59,8 @@
       "translations": { "ru": "предложение (идея)", "en": "proposal, suggestion" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "förslag", "defSg": "förslaget", "indefPl": "förslag", "defPl": "förslagen" }
+      "forms": { "indefSg": "förslag", "defSg": "förslaget", "indefPl": "förslag", "defPl": "förslagen" },
+      "example": { "sv": "Läraren lade fram ett nytt förslag på lektionen.", "ru": "Учитель выдвинул новое предложение на уроке.", "en": "The teacher put forward a new proposal in the lesson." }
     },
     {
       "id": "diskussion",
@@ -65,7 +68,8 @@
       "translations": { "ru": "дискуссия, обсуждение", "en": "discussion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" }
+      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" },
+      "example": { "sv": "De förde en lång diskussion om förslaget.", "ru": "Они вели долгую дискуссию о предложении.", "en": "They held a long discussion about the proposal." }
     },
     {
       "id": "uttryck",
@@ -73,7 +77,8 @@
       "translations": { "ru": "выражение", "en": "expression" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "uttryck", "defSg": "uttrycket", "indefPl": "uttryck", "defPl": "uttrycken" }
+      "forms": { "indefSg": "uttryck", "defSg": "uttrycket", "indefPl": "uttryck", "defPl": "uttrycken" },
+      "example": { "sv": "Hon gav uttryck för sin glädje över resultatet.", "ru": "Она выразила свою радость по поводу результата.", "en": "She expressed her joy about the result." }
     },
     {
       "id": "utredning",
@@ -81,7 +86,8 @@
       "translations": { "ru": "расследование, официальное исследование", "en": "inquiry, official investigation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en utredning", "defSg": "utredningen", "indefPl": "utredningar", "defPl": "utredningarna" }
+      "forms": { "indefSg": "en utredning", "defSg": "utredningen", "indefPl": "utredningar", "defPl": "utredningarna" },
+      "example": { "sv": "Utredningen tog över ett år att slutföra.", "ru": "Расследование заняло больше года.", "en": "The inquiry took over a year to complete." }
     },
     {
       "id": "reform",
@@ -89,7 +95,8 @@
       "translations": { "ru": "реформа", "en": "reform" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en reform", "defSg": "reformen", "indefPl": "reformer", "defPl": "reformerna" }
+      "forms": { "indefSg": "en reform", "defSg": "reformen", "indefPl": "reformer", "defPl": "reformerna" },
+      "example": { "sv": "Reformen påverkade hela skolsystemet.", "ru": "Реформа затронула всю школьную систему.", "en": "The reform affected the entire school system." }
     },
     {
       "id": "effekt",
@@ -97,7 +104,8 @@
       "translations": { "ru": "эффект, результат", "en": "effect" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en effekt", "defSg": "effekten", "indefPl": "effekter", "defPl": "effekterna" }
+      "forms": { "indefSg": "en effekt", "defSg": "effekten", "indefPl": "effekter", "defPl": "effekterna" },
+      "example": { "sv": "Förändringen hade en positiv effekt på resultatet.", "ru": "Изменение оказало положительный эффект на результат.", "en": "The change had a positive effect on the result." }
     },
     {
       "id": "budget",
@@ -105,7 +113,8 @@
       "translations": { "ru": "бюджет", "en": "budget" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en budget", "defSg": "budgeten", "indefPl": "budgetar", "defPl": "budgetarna" }
+      "forms": { "indefSg": "en budget", "defSg": "budgeten", "indefPl": "budgetar", "defPl": "budgetarna" },
+      "example": { "sv": "Kommunen måste hålla sig till budgeten.", "ru": "Муниципалитет должен придерживаться бюджета.", "en": "The municipality must stick to the budget." }
     },
     {
       "id": "kommitte",
@@ -113,7 +122,8 @@
       "translations": { "ru": "комитет", "en": "committee" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kommitté", "defSg": "kommittén", "indefPl": "kommittéer", "defPl": "kommittéerna" }
+      "forms": { "indefSg": "en kommitté", "defSg": "kommittén", "indefPl": "kommittéer", "defPl": "kommittéerna" },
+      "example": { "sv": "Kommittén sammanträder varje månad.", "ru": "Комитет заседает каждый месяц.", "en": "The committee meets every month." }
     },
     {
       "id": "dra-verb",
@@ -121,7 +131,8 @@
       "translations": { "ru": "тащить, тянуть; делать (вывод)", "en": "to pull, draw" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "dra", "present": "drar", "past": "drog", "supine": "dragit" }
+      "forms": { "infinitive": "dra", "present": "drar", "past": "drog", "supine": "dragit" },
+      "example": { "sv": "Han drog slutsatsen att planen inte skulle fungera.", "ru": "Он сделал вывод, что план не сработает.", "en": "He drew the conclusion that the plan would not work." }
     },
     {
       "id": "lagga-verb",
@@ -129,7 +140,8 @@
       "translations": { "ru": "класть, положить", "en": "to lay, put" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "lägga", "present": "lägger", "past": "lade", "supine": "lagt" }
+      "forms": { "infinitive": "lägga", "present": "lägger", "past": "lade", "supine": "lagt" },
+      "example": { "sv": "Vi lade fram ett nytt förslag på mötet.", "ru": "Мы выдвинули новое предложение на встрече.", "en": "We put forward a new proposal at the meeting." }
     }
   ]
 }

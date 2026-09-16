@@ -5,6 +5,7 @@
       "sv": "glad",
       "translations": { "ru": "радостный, счастливый", "en": "happy, glad" },
       "pos": "adj",
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
       "example": { "sv": "Jag känner mig glad idag.", "ru": "Я чувствую себя радостным(ой) сегодня.", "en": "I feel happy today." }
     },
     {
@@ -12,6 +13,7 @@
       "sv": "ledsen",
       "translations": { "ru": "грустный", "en": "sad" },
       "pos": "adj",
+      "forms": { "positive": "ledsen", "neuter": "ledset", "plural": "ledsna", "comparative": "ledsnare", "superlative": "ledsnast" },
       "example": { "sv": "Hon är ledsen för att hunden är sjuk.", "ru": "Она грустит, потому что собака заболела.", "en": "She's sad because the dog is sick." }
     },
     {
@@ -19,6 +21,7 @@
       "sv": "arg",
       "translations": { "ru": "злой, сердитый", "en": "angry" },
       "pos": "adj",
+      "forms": { "positive": "arg", "neuter": "argt", "plural": "arga", "comparative": "argare", "superlative": "argast" },
       "example": { "sv": "Han blev arg när tåget var försenat.", "ru": "Он разозлился, когда поезд опоздал.", "en": "He got angry when the train was late." }
     },
     {
@@ -26,6 +29,7 @@
       "sv": "trött",
       "translations": { "ru": "уставший", "en": "tired" },
       "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Jag är trött efter jobbet.", "ru": "Я устал(а) после работы.", "en": "I'm tired after work." }
     },
     {
@@ -33,6 +37,7 @@
       "sv": "orolig",
       "translations": { "ru": "встревоженный, обеспокоенный", "en": "worried" },
       "pos": "adj",
+      "forms": { "positive": "orolig", "neuter": "oroligt", "plural": "oroliga", "comparative": "oroligare", "superlative": "oroligast" },
       "example": { "sv": "Jag är lite orolig inför intervjun.", "ru": "Я немного волнуюсь перед собеседованием.", "en": "I'm a bit worried about the interview." }
     },
     {
@@ -40,6 +45,7 @@
       "sv": "förvånad",
       "translations": { "ru": "удивлённый", "en": "surprised" },
       "pos": "adj",
+      "forms": { "positive": "förvånad", "neuter": "förvånat", "plural": "förvånade", "comparative": "mer förvånad", "superlative": "mest förvånad" },
       "example": { "sv": "Hon blev förvånad och glad på samma gång.", "ru": "Она удивилась и обрадовалась одновременно.", "en": "She was surprised and happy at the same time." }
     },
     {
@@ -47,6 +53,7 @@
       "sv": "lugn",
       "translations": { "ru": "спокойный", "en": "calm" },
       "pos": "adj",
+      "forms": { "positive": "lugn", "neuter": "lugnt", "plural": "lugna", "comparative": "lugnare", "superlative": "lugnast" },
       "example": { "sv": "Försök att vara lugn.", "ru": "Постарайся быть спокойным(ой).", "en": "Try to stay calm." }
     },
     {
@@ -54,6 +61,7 @@
       "sv": "rädd",
       "translations": { "ru": "испуганный", "en": "scared, afraid" },
       "pos": "adj",
+      "forms": { "positive": "rädd", "neuter": "rädd", "plural": "rädda", "comparative": "räddare", "superlative": "räddast" },
       "example": { "sv": "Barnet är rädd för mörkret.", "ru": "Ребёнок боится темноты.", "en": "The child is afraid of the dark." }
     },
     {
@@ -61,6 +69,7 @@
       "sv": "stolt",
       "translations": { "ru": "гордый", "en": "proud" },
       "pos": "adj",
+      "forms": { "positive": "stolt", "neuter": "stolt", "plural": "stolta", "comparative": "stoltare", "superlative": "stoltast" },
       "example": { "sv": "Jag är stolt över dig.", "ru": "Я горжусь тобой.", "en": "I'm proud of you." }
     },
     {
@@ -68,6 +77,7 @@
       "sv": "nervös",
       "translations": { "ru": "нервный, взволнованный", "en": "nervous" },
       "pos": "adj",
+      "forms": { "positive": "nervös", "neuter": "nervöst", "plural": "nervösa", "comparative": "nervösare", "superlative": "nervösast" },
       "example": { "sv": "Han var nervös före provet.", "ru": "Он нервничал перед экзаменом.", "en": "He was nervous before the exam." }
     },
     {
@@ -85,6 +95,7 @@
       "translations": { "ru": "радость", "en": "joy" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en glädje", "defSg": "glädjen", "indefPl": "glädjer", "defPl": "glädjerna" },
       "example": { "sv": "Hon grät av glädje.", "ru": "Она заплакала от радости.", "en": "She cried with joy." }
     },
     {
@@ -92,6 +103,7 @@
       "sv": "må",
       "translations": { "ru": "чувствовать себя (о самочувствии)", "en": "to feel (well-being)" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" },
       "example": { "sv": "Jag mår bra idag.", "ru": "Я хорошо себя чувствую сегодня.", "en": "I'm feeling well today." }
     },

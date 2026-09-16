@@ -38,7 +38,8 @@
       "id": "pa-kort-sikt",
       "sv": "på kort sikt",
       "translations": { "ru": "в краткосрочной перспективе", "en": "in the short term" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "På kort sikt kan en koldioxidskatt göra bensinen dyrare.", "ru": "В краткосрочной перспективе налог на CO2 может сделать бензин дороже.", "en": "In the short term, a carbon tax can make petrol more expensive." }
     },
     {
       "id": "pa-lang-sikt",
@@ -53,7 +54,8 @@
       "translations": { "ru": "налог на выбросы углекислого газа", "en": "carbon tax" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en koldioxidskatt", "defSg": "koldioxidskatten", "indefPl": "koldioxidskatter", "defPl": "koldioxidskatterna" }
+      "forms": { "indefSg": "en koldioxidskatt", "defSg": "koldioxidskatten", "indefPl": "koldioxidskatter", "defPl": "koldioxidskatterna" },
+      "example": { "sv": "Regeringen höjde koldioxidskatten för att minska utsläppen från trafiken.", "ru": "Правительство повысило налог на CO2, чтобы снизить выбросы от транспорта.", "en": "The government raised the carbon tax to reduce emissions from traffic." }
     },
     {
       "id": "klimatmal",
@@ -61,7 +63,8 @@
       "translations": { "ru": "климатическая цель", "en": "climate target" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett klimatmål", "defSg": "klimatmålet", "indefPl": "klimatmål", "defPl": "klimatmålen" }
+      "forms": { "indefSg": "ett klimatmål", "defSg": "klimatmålet", "indefPl": "klimatmål", "defPl": "klimatmålen" },
+      "example": { "sv": "Sveriges klimatmål innebär att landet ska vara klimatneutralt till 2045.", "ru": "Климатическая цель Швеции состоит в том, чтобы страна была климатически нейтральной к 2045 году.", "en": "Sweden's climate target is for the country to be climate-neutral by 2045." }
     },
     {
       "id": "miljohansyn",
@@ -69,13 +72,15 @@
       "translations": { "ru": "забота об окружающей среде, экологические соображения", "en": "environmental concern, environmental consideration" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en miljöhänsyn", "defSg": "miljöhänsynen", "indefPl": "miljöhänsyner", "defPl": "miljöhänsynerna" }
+      "forms": { "indefSg": "en miljöhänsyn", "defSg": "miljöhänsynen", "indefPl": "miljöhänsyner", "defPl": "miljöhänsynerna" },
+      "example": { "sv": "Beslutet togs utan tillräcklig miljöhänsyn.", "ru": "Решение приняли без достаточной заботы об экологии.", "en": "The decision was made without sufficient environmental consideration." }
     },
     {
       "id": "ekonomisk-tillvaxt",
       "sv": "ekonomisk tillväxt",
       "translations": { "ru": "экономический рост", "en": "economic growth" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Politikerna hoppas kombinera klimatmålen med fortsatt ekonomisk tillväxt.", "ru": "Политики надеются сочетать климатические цели с продолжающимся экономическим ростом.", "en": "Politicians hope to combine the climate targets with continued economic growth." }
     },
     {
       "id": "subvention",
@@ -83,7 +88,8 @@
       "translations": { "ru": "субсидия", "en": "subsidy" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en subvention", "defSg": "subventionen", "indefPl": "subventioner", "defPl": "subventionerna" }
+      "forms": { "indefSg": "en subvention", "defSg": "subventionen", "indefPl": "subventioner", "defPl": "subventionerna" },
+      "example": { "sv": "Staten ger subventioner till hushåll som installerar solpaneler.", "ru": "Государство предоставляет субсидии домохозяйствам, устанавливающим солнечные панели.", "en": "The state gives subsidies to households that install solar panels." }
     },
     {
       "id": "reglering",
@@ -91,7 +97,8 @@
       "translations": { "ru": "регулирование, нормативное ограничение", "en": "regulation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en reglering", "defSg": "regleringen", "indefPl": "regleringar", "defPl": "regleringarna" }
+      "forms": { "indefSg": "en reglering", "defSg": "regleringen", "indefPl": "regleringar", "defPl": "regleringarna" },
+      "example": { "sv": "En strängare reglering av utsläppen diskuteras just nu i riksdagen.", "ru": "Более строгое регулирование выбросов сейчас обсуждается в риксдаге.", "en": "Stricter regulation of emissions is currently being discussed in parliament." }
     },
     {
       "id": "syfta-till",
@@ -99,7 +106,8 @@
       "translations": { "ru": "быть направленным на то, чтобы...", "en": "to aim to..." },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "syfta", "present": "syftar", "past": "syftade", "supine": "syftat" }
+      "forms": { "infinitive": "syfta", "present": "syftar", "past": "syftade", "supine": "syftat" },
+      "example": { "sv": "Styrmedlet syftar till att minska utsläppen från transportsektorn.", "ru": "Инструмент политики направлен на снижение выбросов от транспортного сектора.", "en": "The policy tool aims to reduce emissions from the transport sector." }
     },
     {
       "id": "kompromiss",
@@ -107,7 +115,8 @@
       "translations": { "ru": "компромисс", "en": "compromise" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kompromiss", "defSg": "kompromissen", "indefPl": "kompromisser", "defPl": "kompromisserna" }
+      "forms": { "indefSg": "en kompromiss", "defSg": "kompromissen", "indefPl": "kompromisser", "defPl": "kompromisserna" },
+      "example": { "sv": "Klimatpolitiken är ofta resultatet av en kompromiss mellan flera partier.", "ru": "Климатическая политика часто является результатом компромисса между несколькими партиями.", "en": "Climate policy is often the result of a compromise between several parties." }
     }
   ]
 }

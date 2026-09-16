@@ -18,55 +18,64 @@
       "id": "ga-rakt-fram",
       "sv": "Gå rakt fram.",
       "translations": { "ru": "Идите прямо.", "en": "Go straight ahead." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Gå rakt fram till korsningen.", "ru": "Идите прямо до перекрёстка.", "en": "Go straight ahead to the crossroads." }
     },
     {
       "id": "svang-till-hoger",
       "sv": "Sväng till höger.",
       "translations": { "ru": "Поверните направо.", "en": "Turn right." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Sväng till höger vid banken.", "ru": "Поверните направо у банка.", "en": "Turn right at the bank." }
     },
     {
       "id": "svang-till-vanster",
       "sv": "Sväng till vänster.",
       "translations": { "ru": "Поверните налево.", "en": "Turn left." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Sväng till vänster efter bron.", "ru": "Поверните налево после моста.", "en": "Turn left after the bridge." }
     },
     {
       "id": "rakt-fram",
       "sv": "rakt fram",
       "translations": { "ru": "прямо", "en": "straight ahead" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Gatan går rakt fram.", "ru": "Улица идёт прямо.", "en": "The street goes straight ahead." }
     },
     {
       "id": "till-hoger",
       "sv": "till höger",
       "translations": { "ru": "направо, справа", "en": "to the right" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Banken ligger till höger.", "ru": "Банк находится справа.", "en": "The bank is on the right." }
     },
     {
       "id": "till-vanster",
       "sv": "till vänster",
       "translations": { "ru": "налево, слева", "en": "to the left" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Affären ligger till vänster.", "ru": "Магазин находится слева.", "en": "The shop is on the left." }
     },
     {
       "id": "ga-tillbaka",
       "sv": "Gå tillbaka.",
       "translations": { "ru": "Идите назад.", "en": "Go back." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Gå tillbaka till torget.", "ru": "Идите назад к площади.", "en": "Go back to the square." }
     },
     {
       "id": "det-ar-nara",
       "sv": "Det är nära.",
       "translations": { "ru": "Это близко.", "en": "It is close." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det är nära, bara fem minuter.", "ru": "Это близко, всего пять минут.", "en": "It's close, just five minutes." }
     },
     {
       "id": "det-ar-langt",
       "sv": "Det är långt.",
       "translations": { "ru": "Это далеко.", "en": "It is far." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det är långt, ta bussen.", "ru": "Это далеко, поезжай на автобусе.", "en": "It's far, take the bus." }
     },
     {
       "id": "har",
@@ -97,7 +106,8 @@
       "translations": { "ru": "площадь", "en": "square" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" }
+      "forms": { "indefSg": "ett torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" },
+      "example": { "sv": "Torget ligger i centrum.", "ru": "Площадь находится в центре.", "en": "The square is in the center." }
     },
     {
       "id": "korsning",
@@ -114,13 +124,15 @@
       "translations": { "ru": "угол", "en": "corner" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett hörn", "defSg": "hörnet", "indefPl": "hörn", "defPl": "hörnen" }
+      "forms": { "indefSg": "ett hörn", "defSg": "hörnet", "indefPl": "hörn", "defPl": "hörnen" },
+      "example": { "sv": "Affären ligger på hörnet.", "ru": "Магазин находится на углу.", "en": "The shop is on the corner." }
     },
     {
       "id": "tack-for-hjalpen",
       "sv": "Tack för hjälpen!",
       "translations": { "ru": "Спасибо за помощь!", "en": "Thanks for the help!" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Tack för hjälpen, vi hittar nu.", "ru": "Спасибо за помощь, теперь мы найдём дорогу.", "en": "Thanks for the help, we can find it now." }
     }
   ]
 }

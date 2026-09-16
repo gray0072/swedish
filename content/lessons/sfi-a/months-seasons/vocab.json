@@ -13,21 +13,24 @@
       "sv": "februari",
       "translations": { "ru": "февраль", "en": "February" },
       "pos": "noun",
-      "note": { "ru": "Зима (vinter).", "en": "Winter (vinter)." }
+      "note": { "ru": "Зима (vinter).", "en": "Winter (vinter)." },
+      "example": { "sv": "Februari är den kortaste månaden.", "ru": "Февраль — самый короткий месяц.", "en": "February is the shortest month." }
     },
     {
       "id": "mars",
       "sv": "mars",
       "translations": { "ru": "март", "en": "March" },
       "pos": "noun",
-      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." }
+      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." },
+      "example": { "sv": "I mars börjar snön smälta.", "ru": "В марте начинает таять снег.", "en": "In March the snow starts to melt." }
     },
     {
       "id": "april",
       "sv": "april",
       "translations": { "ru": "апрель", "en": "April" },
       "pos": "noun",
-      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." }
+      "note": { "ru": "Весна (vår).", "en": "Spring (vår)." },
+      "example": { "sv": "I april blommar de första blommorna.", "ru": "В апреле цветут первые цветы.", "en": "In April the first flowers bloom." }
     },
     {
       "id": "maj",
@@ -42,42 +45,48 @@
       "sv": "juni",
       "translations": { "ru": "июнь", "en": "June" },
       "pos": "noun",
-      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." }
+      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." },
+      "example": { "sv": "Skolan slutar i juni.", "ru": "Школа заканчивается в июне.", "en": "School ends in June." }
     },
     {
       "id": "juli",
       "sv": "juli",
       "translations": { "ru": "июль", "en": "July" },
       "pos": "noun",
-      "note": { "ru": "Лето (sommar). Месяц отпусков в Швеции.", "en": "Summer (sommar). The main holiday month in Sweden." }
+      "note": { "ru": "Лето (sommar). Месяц отпусков в Швеции.", "en": "Summer (sommar). The main holiday month in Sweden." },
+      "example": { "sv": "Många svenskar har semester i juli.", "ru": "Многие шведы в отпуске в июле.", "en": "Many Swedes are on vacation in July." }
     },
     {
       "id": "augusti",
       "sv": "augusti",
       "translations": { "ru": "август", "en": "August" },
       "pos": "noun",
-      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." }
+      "note": { "ru": "Лето (sommar).", "en": "Summer (sommar)." },
+      "example": { "sv": "Skolan börjar igen i augusti.", "ru": "Школа снова начинается в августе.", "en": "School starts again in August." }
     },
     {
       "id": "september",
       "sv": "september",
       "translations": { "ru": "сентябрь", "en": "September" },
       "pos": "noun",
-      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." },
+      "example": { "sv": "I september blir det kallare.", "ru": "В сентябре становится холоднее.", "en": "In September it gets colder." }
     },
     {
       "id": "oktober",
       "sv": "oktober",
       "translations": { "ru": "октябрь", "en": "October" },
       "pos": "noun",
-      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." },
+      "example": { "sv": "Löven faller i oktober.", "ru": "Листья падают в октябре.", "en": "The leaves fall in October." }
     },
     {
       "id": "november",
       "sv": "november",
       "translations": { "ru": "ноябрь", "en": "November" },
       "pos": "noun",
-      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." }
+      "note": { "ru": "Осень (höst).", "en": "Autumn (höst)." },
+      "example": { "sv": "I november är dagarna korta och mörka.", "ru": "В ноябре дни короткие и тёмные.", "en": "In November the days are short and dark." }
     },
     {
       "id": "december",

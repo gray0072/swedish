@@ -1,6 +1,6 @@
 import { getContentRegistry, type LessonContent } from './loader';
 import { generateHistoryQuestions, historyQuestionId } from './historyQuestions';
-import type { Question } from './schema';
+import type { LocalizedString, Question, VocabItem } from './schema';
 
 export function getTracks() {
   return getContentRegistry().tracks;
@@ -29,9 +29,113 @@ export function getAllLessons(): LessonContent[] {
   return [...getContentRegistry().lessons.values()].sort((a, b) => a.meta.order - b.meta.order);
 }
 
+/** Every lesson sharing a folder slug, across whichever levels repeat that grammar point. */
+export function getLessonsBySlug(slug: string): LessonContent[] {
+  return getAllLessons().filter((l) => l.meta.slug === slug);
+}
+
 export function getCurriculum(id: string): LessonContent[] {
   const ids = getContentRegistry().curricula.get(id) ?? [];
   return ids.map((id) => getLesson(id)).filter((l): l is LessonContent => Boolean(l));
+}
+
+/**
+ * Every lesson, in the order the single ladder actually teaches it (SPEC §5, the "single
+ * ladder" — SFI kurs A through D, then SVA grund delkurs 1 through 4). `getAllLessons()`
+ * sorts by `meta.order` alone, which only holds within one level (each level restarts at
+ * 10, 20, 30…), so it interleaves levels; this walks tracks and levels first.
+ */
+export function getLessonsInCurriculumOrder(): LessonContent[] {
+  const result: LessonContent[] = [];
+  for (const track of getTracks()) {
+    for (const level of [...track.levels].sort((a, b) => a.order - b.order)) {
+      result.push(...getLessonsForLevel(level.id));
+    }
+  }
+  return result;
+}
+
+// -- Word bank (REFERENCE.md §5) -------------------------------------------
+// A generated view over every vocab.json in the app — never authored, so it always stays in
+// sync with the lesson content it mirrors.
+
+export type WordBankSectionKey = 'verbs' | 'nouns' | 'adjectives' | 'other';
+
+export interface WordBankRow {
+  vocab: VocabItem;
+  lessonId: string;
+  lessonTitle: LocalizedString;
+}
+
+export interface WordBankBand {
+  from: number;
+  to: number;
+  rows: WordBankRow[];
+}
+
+export interface WordBankSection {
+  key: WordBankSectionKey;
+  bands: WordBankBand[];
+}
+
+/** Bands of this size keep any one group small enough to scan (REFERENCE.md §5.4). */
+const WORD_BANK_BAND_SIZE = 75;
+
+function sectionKeyFor(pos: VocabItem['pos']): WordBankSectionKey {
+  if (pos === 'verb') return 'verbs';
+  if (pos === 'noun') return 'nouns';
+  if (pos === 'adj') return 'adjectives';
+  return 'other';
+}
+
+function band(rows: WordBankRow[]): WordBankBand[] {
+  const bands: WordBankBand[] = [];
+  for (let i = 0; i < rows.length; i += WORD_BANK_BAND_SIZE) {
+    bands.push({ from: i + 1, to: Math.min(i + WORD_BANK_BAND_SIZE, rows.length), rows: rows.slice(i, i + WORD_BANK_BAND_SIZE) });
+  }
+  return bands;
+}
+
+let wordBankCache: WordBankSection[] | null = null;
+
+/**
+ * Deduplicated by (part of speech, lowercased Swedish word) — a word taught in several
+ * lessons keeps one row, pointing at the first (i.e. most basic) lesson that teaches it.
+ * Rows stay in curriculum order within each part-of-speech bucket, which is this app's
+ * only available proxy for "how common a word is" (there is no real frequency corpus here) —
+ * a word introduced in SFI kurs A is assumed more basic/frequent than one introduced in SVA
+ * grund delkurs 4. Banding into groups of ~75 turns that ordering into the "most common
+ * first, in digestible chunks" list REFERENCE.md §5.4 asks for.
+ */
+export function getWordBank(): WordBankSection[] {
+  if (wordBankCache) return wordBankCache;
+
+  const seen = new Set<string>();
+  const buckets: Record<WordBankSectionKey, WordBankRow[]> = {
+    verbs: [],
+    nouns: [],
+    adjectives: [],
+    other: [],
+  };
+
+  for (const lesson of getLessonsInCurriculumOrder()) {
+    for (const item of lesson.vocab) {
+      const key = `${item.pos}:${item.sv.trim().toLowerCase()}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      buckets[sectionKeyFor(item.pos)].push({
+        vocab: item,
+        lessonId: lesson.meta.id,
+        lessonTitle: lesson.meta.title,
+      });
+    }
+  }
+
+  wordBankCache = (['verbs', 'nouns', 'adjectives', 'other'] as const).map((key) => ({
+    key,
+    bands: band(buckets[key]),
+  }));
+  return wordBankCache;
 }
 
 export function getEras() {

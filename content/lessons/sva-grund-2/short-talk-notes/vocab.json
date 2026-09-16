@@ -4,31 +4,36 @@
       "id": "idag-ska-jag-beratta",
       "sv": "idag ska jag berätta om",
       "translations": { "ru": "сегодня я расскажу о", "en": "today I'm going to talk about" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Idag ska jag berätta om mitt hemland.", "ru": "Сегодня я расскажу о своей родине.", "en": "Today I'm going to talk about my home country." }
     },
     {
       "id": "forst-vill-jag-namna",
       "sv": "först vill jag nämna",
       "translations": { "ru": "сначала я хочу упомянуть", "en": "first I'd like to mention" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Först vill jag nämna varför jag valde ämnet.", "ru": "Сначала я хочу упомянуть, почему выбрал эту тему.", "en": "First I'd like to mention why I chose this topic." }
     },
     {
       "id": "sedan-kommer-jag-att",
       "sv": "sedan kommer jag att gå in på",
       "translations": { "ru": "затем я перейду к", "en": "then I'll go into" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Sedan kommer jag att gå in på orsakerna.", "ru": "Затем я перейду к причинам.", "en": "Then I'll go into the reasons." }
     },
     {
       "id": "till-sist-tar-jag-upp",
       "sv": "till sist tar jag upp",
       "translations": { "ru": "наконец, я расскажу о", "en": "finally I'll cover" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Till sist tar jag upp vad jag lärde mig.", "ru": "Наконец, я расскажу о том, что узнал.", "en": "Finally I'll cover what I learned." }
     },
     {
       "id": "tack-for-att-ni-lyssnade",
       "sv": "tack för att ni lyssnade",
       "translations": { "ru": "спасибо, что выслушали", "en": "thank you for listening" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Tack för att ni lyssnade, nu tar vi frågor.", "ru": "Спасибо, что выслушали, теперь перейдём к вопросам.", "en": "Thank you for listening, now let's take questions." }
     },
     {
       "id": "stodord",
@@ -45,7 +50,8 @@
       "translations": { "ru": "выступление, презентация", "en": "presentation, performance" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett framförande", "defSg": "framförandet", "indefPl": "framföranden", "defPl": "framförandena" }
+      "forms": { "indefSg": "ett framförande", "defSg": "framförandet", "indefPl": "framföranden", "defPl": "framförandena" },
+      "example": { "sv": "Hennes framförande var tydligt och välstrukturerat.", "ru": "Её выступление было чётким и хорошо структурированным.", "en": "Her presentation was clear and well structured." }
     },
     {
       "id": "publik",
@@ -53,7 +59,8 @@
       "translations": { "ru": "публика, аудитория", "en": "audience" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" },
+      "example": { "sv": "Publiken ställde många frågor efteråt.", "ru": "Публика задала много вопросов после этого.", "en": "The audience asked many questions afterward." }
     }
   ]
 }

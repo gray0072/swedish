@@ -6,6 +6,7 @@
       "translations": { "ru": "погода", "en": "weather" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett väder", "defSg": "vädret", "indefPl": "väder", "defPl": "vädren" },
       "example": { "sv": "Hur är vädret idag?", "ru": "Какая сегодня погода?", "en": "What's the weather like today?" }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "солнце", "en": "sun" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en sol", "defSg": "solen", "indefPl": "solar", "defPl": "solarna" },
       "example": { "sv": "Solen skiner.", "ru": "Солнце светит.", "en": "The sun is shining." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "дождь", "en": "rain" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett regn", "defSg": "regnet", "indefPl": "regn", "defPl": "regnen" },
       "example": { "sv": "Regnet har slutat.", "ru": "Дождь закончился.", "en": "The rain has stopped." }
     },
     {
@@ -30,6 +33,7 @@
       "translations": { "ru": "снег", "en": "snow" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en snö", "defSg": "snön", "indefPl": "snöar", "defPl": "snöarna" },
       "example": { "sv": "Det ligger snö på marken.", "ru": "На земле лежит снег.", "en": "There's snow on the ground." }
     },
     {
@@ -56,6 +60,7 @@
       "translations": { "ru": "гроза, гром", "en": "thunderstorm" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en åska", "defSg": "åskan", "indefPl": "åskor", "defPl": "åskorna" },
       "example": { "sv": "Det blir åska i kväll.", "ru": "Сегодня вечером будет гроза.", "en": "There will be a thunderstorm tonight." }
     },
     {
@@ -72,6 +77,7 @@
       "sv": "soligt",
       "translations": { "ru": "солнечно", "en": "sunny" },
       "pos": "adj",
+      "forms": { "positive": "solig", "neuter": "soligt", "plural": "soliga", "comparative": "soligare", "superlative": "soligast" },
       "example": { "sv": "Det är soligt idag.", "ru": "Сегодня солнечно.", "en": "It's sunny today." }
     },
     {
@@ -79,6 +85,7 @@
       "sv": "molnigt",
       "translations": { "ru": "облачно", "en": "cloudy" },
       "pos": "adj",
+      "forms": { "positive": "molnig", "neuter": "molnigt", "plural": "molniga", "comparative": "molnigare", "superlative": "molnigast" },
       "example": { "sv": "Det blir molnigt imorgon.", "ru": "Завтра будет облачно.", "en": "It'll be cloudy tomorrow." }
     },
     {
@@ -86,6 +93,7 @@
       "sv": "regnigt",
       "translations": { "ru": "дождливо", "en": "rainy" },
       "pos": "adj",
+      "forms": { "positive": "regnig", "neuter": "regnigt", "plural": "regniga", "comparative": "regnigare", "superlative": "regnigast" },
       "example": { "sv": "Det är regnigt på hösten.", "ru": "Осенью дождливо.", "en": "It's rainy in autumn." }
     },
     {
@@ -93,6 +101,7 @@
       "sv": "blåsigt",
       "translations": { "ru": "ветрено", "en": "windy" },
       "pos": "adj",
+      "forms": { "positive": "blåsig", "neuter": "blåsigt", "plural": "blåsiga", "comparative": "blåsigare", "superlative": "blåsigast" },
       "example": { "sv": "Det är blåsigt vid havet.", "ru": "У моря ветрено.", "en": "It's windy by the sea." }
     },
     {
@@ -100,6 +109,7 @@
       "sv": "kallt",
       "translations": { "ru": "холодно", "en": "cold" },
       "pos": "adj",
+      "forms": { "positive": "kall", "neuter": "kallt", "plural": "kalla", "comparative": "kallare", "superlative": "kallast" },
       "example": { "sv": "Det är kallt på vintern.", "ru": "Зимой холодно.", "en": "It's cold in winter." }
     },
     {
@@ -107,6 +117,7 @@
       "sv": "varmt",
       "translations": { "ru": "тепло, жарко", "en": "warm, hot" },
       "pos": "adj",
+      "forms": { "positive": "varm", "neuter": "varmt", "plural": "varma", "comparative": "varmare", "superlative": "varmast" },
       "example": { "sv": "Det är varmt på sommaren.", "ru": "Летом тепло.", "en": "It's warm in summer." }
     },
     {

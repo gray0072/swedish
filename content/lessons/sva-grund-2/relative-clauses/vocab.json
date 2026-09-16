@@ -41,7 +41,8 @@
       "translations": { "ru": "жить (где-то)", "en": "to live (reside)" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Jag bor i en stad där det finns en flod.", "ru": "Я живу в городе, где есть река.", "en": "I live in a city where there is a river." }
     },
     {
       "id": "resa",
@@ -49,7 +50,8 @@
       "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Vi reste till staden dit hon flyttade.", "ru": "Мы поехали в город, куда она переехала.", "en": "We traveled to the city she moved to." }
     },
     {
       "id": "stjala",
@@ -57,7 +59,8 @@
       "translations": { "ru": "красть", "en": "to steal" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "stjäla", "present": "stjäl", "past": "stal", "supine": "stulit" }
+      "forms": { "infinitive": "stjäla", "present": "stjäl", "past": "stal", "supine": "stulit" },
+      "example": { "sv": "Mannen som stal cykeln greps av polisen.", "ru": "Мужчина, который украл велосипед, был схвачен полицией.", "en": "The man who stole the bike was caught by the police." }
     },
     {
       "id": "gora",
@@ -65,7 +68,8 @@
       "translations": { "ru": "делать", "en": "to do, to make" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "göra", "present": "gör", "past": "gjorde", "supine": "gjort" }
+      "forms": { "infinitive": "göra", "present": "gör", "past": "gjorde", "supine": "gjort" },
+      "example": { "sv": "Det hon gjorde förvånade alla.", "ru": "То, что она сделала, всех удивило.", "en": "What she did surprised everyone." }
     },
     {
       "id": "stad",
@@ -73,7 +77,8 @@
       "translations": { "ru": "город", "en": "city, town" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" }
+      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Staden där jag bor är vacker.", "ru": "Город, где я живу, красивый.", "en": "The city where I live is beautiful." }
     },
     {
       "id": "larare",
@@ -81,7 +86,8 @@
       "translations": { "ru": "учитель", "en": "teacher" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" }
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Mannen som bor här är lärare.", "ru": "Мужчина, который живёт здесь, — учитель.", "en": "The man who lives here is a teacher." }
     },
     {
       "id": "kvinna",
@@ -89,7 +95,8 @@
       "translations": { "ru": "женщина", "en": "woman" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "kvinna", "defSg": "kvinnan", "indefPl": "kvinnor", "defPl": "kvinnorna" }
+      "forms": { "indefSg": "kvinna", "defSg": "kvinnan", "indefPl": "kvinnor", "defPl": "kvinnorna" },
+      "example": { "sv": "Kvinnan vars bil blev stulen var arg.", "ru": "Женщина, чья машина была украдена, была зла.", "en": "The woman whose car was stolen was angry." }
     },
     {
       "id": "man-noun",
@@ -97,19 +104,23 @@
       "translations": { "ru": "мужчина", "en": "man" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" }
+      "forms": { "indefSg": "man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" },
+      "example": { "sv": "Mannen som bor här är lärare.", "ru": "Мужчина, который живёт здесь, — учитель.", "en": "The man who lives here is a teacher." }
     },
     {
       "id": "arg",
       "sv": "arg",
       "translations": { "ru": "злой, сердитый", "en": "angry" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "arg", "neuter": "argt", "plural": "arga", "comparative": "argare", "superlative": "argast" },
+      "example": { "sv": "Kvinnan vars bil blev stulen var arg.", "ru": "Женщина, чья машина была украдена, была зла.", "en": "The woman whose car was stolen was angry." }
     },
     {
       "id": "sent",
       "sv": "sent",
       "translations": { "ru": "поздно", "en": "late" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Han kom för sent, vilket gjorde henne arg.", "ru": "Он опоздал, что разозлило её.", "en": "He came too late, which made her angry." }
     }
   ]
 }

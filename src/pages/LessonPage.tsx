@@ -1,8 +1,10 @@
+import { ScrollText } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
 import { getLesson } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
+import { getArticleSlugForLessonSlug } from '@/content/referenceLinks';
 import { useLessonProgress } from '@/store/progress';
 import TheoryView from '@/components/lesson/TheoryView';
 import VocabTable from '@/components/lesson/VocabTable';
@@ -17,6 +19,9 @@ export default function LessonPage() {
   const progress = useLessonProgress(lessonId);
 
   if (!lesson) return <NotFoundPage />;
+
+  const articleSlug =
+    lesson.meta.kind === 'grammar' ? getArticleSlugForLessonSlug(lesson.meta.slug) : undefined;
 
   return (
     <div className="space-y-6">
@@ -46,6 +51,15 @@ export default function LessonPage() {
             <section>
               <h2 className="mb-2 text-lg font-semibold">{t('lesson.theory')}</h2>
               <TheoryView markdown={theory} />
+              {articleSlug && (
+                <Link
+                  to={`/reference/summaries/${articleSlug}`}
+                  className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
+                >
+                  <ScrollText size={15} aria-hidden="true" />
+                  {t('reference.seeWholeSystem')}
+                </Link>
+              )}
             </section>
           )
         );

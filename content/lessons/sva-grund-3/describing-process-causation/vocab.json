@@ -6,7 +6,8 @@
       "translations": { "ru": "процесс", "en": "process" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en process", "defSg": "processen", "indefPl": "processer", "defPl": "processerna" }
+      "forms": { "indefSg": "en process", "defSg": "processen", "indefPl": "processer", "defPl": "processerna" },
+      "example": { "sv": "Hela processen tar cirka två månader.", "ru": "Весь процесс занимает около двух месяцев.", "en": "The whole process takes about two months." }
     },
     {
       "id": "processen-inleds-med",
@@ -21,7 +22,8 @@
       "translations": { "ru": "начинать, открывать (процесс)", "en": "to begin, to initiate" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "inleda", "present": "inleder", "past": "inledde", "supine": "inlett" }
+      "forms": { "infinitive": "inleda", "present": "inleder", "past": "inledde", "supine": "inlett" },
+      "example": { "sv": "Myndigheten inledde en utredning förra veckan.", "ru": "Ведомство начало расследование на прошлой неделе.", "en": "The authority initiated an investigation last week." }
     },
     {
       "id": "fortga",
@@ -48,7 +50,8 @@
       "translations": { "ru": "шаг, этап", "en": "step" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett steg", "defSg": "steget", "indefPl": "steg", "defPl": "stegen" }
+      "forms": { "indefSg": "ett steg", "defSg": "steget", "indefPl": "steg", "defPl": "stegen" },
+      "example": { "sv": "Det första steget är att fylla i ansökan.", "ru": "Первый шаг — заполнить заявление.", "en": "The first step is to fill in the application." }
     },
     {
       "id": "leda-till",
@@ -68,7 +71,8 @@
       "id": "i-sin-tur",
       "sv": "i sin tur",
       "translations": { "ru": "в свою очередь", "en": "in turn" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Förseningen påverkar i sin tur nästa steg i processen.", "ru": "Задержка, в свою очередь, влияет на следующий этап процесса.", "en": "The delay, in turn, affects the next step in the process." }
     },
     {
       "id": "orsak",
@@ -76,7 +80,8 @@
       "translations": { "ru": "причина", "en": "cause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" },
+      "example": { "sv": "Orsaken till förseningen var brist på personal.", "ru": "Причиной задержки была нехватка персонала.", "en": "The cause of the delay was a shortage of staff." }
     },
     {
       "id": "konsekvens",
@@ -84,13 +89,15 @@
       "translations": { "ru": "последствие", "en": "consequence" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" }
+      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" },
+      "example": { "sv": "En konsekvens av beslutet blev längre handläggningstider.", "ru": "Одним из последствий решения стало увеличение времени обработки.", "en": "One consequence of the decision was longer processing times." }
     },
     {
       "id": "orsak-och-verkan",
       "sv": "orsak och verkan",
       "translations": { "ru": "причина и следствие", "en": "cause and effect" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I texten analyserar man orsak och verkan bakom klimatförändringarna.", "ru": "В тексте анализируют причину и следствие изменения климата.", "en": "The text analyses the cause and effect behind climate change." }
     },
     {
       "id": "som-ett-resultat-av-detta",
@@ -119,7 +126,8 @@
       "translations": { "ru": "влечь за собой, приносить (следствие)", "en": "to bring about, to entail" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "medföra", "present": "medför", "past": "medförde", "supine": "medfört" }
+      "forms": { "infinitive": "medföra", "present": "medför", "past": "medförde", "supine": "medfört" },
+      "example": { "sv": "Den nya lagen medför strängare krav på företagen.", "ru": "Новый закон влечёт за собой более строгие требования к компаниям.", "en": "The new law entails stricter requirements for companies." }
     },
     {
       "id": "paverka",
@@ -127,7 +135,8 @@
       "translations": { "ru": "влиять на", "en": "to affect, to influence" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" }
+      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" },
+      "example": { "sv": "Väderförhållanden kan påverka hela handläggningsprocessen.", "ru": "Погодные условия могут влиять на весь процесс обработки.", "en": "Weather conditions can affect the entire processing procedure." }
     },
     {
       "id": "utlosa",
@@ -135,7 +144,8 @@
       "translations": { "ru": "вызывать, запускать (процесс)", "en": "to trigger" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "utlösa", "present": "utlöser", "past": "utlöste", "supine": "utlöst" }
+      "forms": { "infinitive": "utlösa", "present": "utlöser", "past": "utlöste", "supine": "utlöst" },
+      "example": { "sv": "Ett litet misstag kan utlösa en lång rad av problem.", "ru": "Маленькая ошибка может запустить целую цепочку проблем.", "en": "A small mistake can trigger a whole chain of problems." }
     },
     {
       "id": "forlopp",
@@ -143,7 +153,8 @@
       "translations": { "ru": "ход событий, течение (процесса)", "en": "course (of events)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett förlopp", "defSg": "förloppet", "indefPl": "förlopp", "defPl": "förloppen" }
+      "forms": { "indefSg": "ett förlopp", "defSg": "förloppet", "indefPl": "förlopp", "defPl": "förloppen" },
+      "example": { "sv": "Handläggaren beskrev förloppet steg för steg.", "ru": "Специалист описал ход событий шаг за шагом.", "en": "The caseworker described the course of events step by step." }
     }
   ]
 }

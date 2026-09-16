@@ -31,7 +31,8 @@
       "translations": { "ru": "газета", "en": "newspaper" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" }
+      "forms": { "indefSg": "tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" },
+      "example": { "sv": "Det är den här tidningen som jag läser varje morgon.", "ru": "Именно эту газету я читаю каждое утро.", "en": "It's this newspaper that I read every morning." }
     },
     {
       "id": "bok-cleft",
@@ -39,7 +40,8 @@
       "translations": { "ru": "книга", "en": "book" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" }
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Det är den boken som jag vill läsa härnäst.", "ru": "Именно эту книгу я хочу прочитать следующей.", "en": "It's that book that I want to read next." }
     },
     {
       "id": "betona",
@@ -47,13 +49,16 @@
       "translations": { "ru": "подчёркивать, акцентировать", "en": "to emphasize, stress" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" },
+      "example": { "sv": "Vi vill betona att det var Anna som ringde, inte Erik.", "ru": "Мы хотим подчеркнуть, что звонила именно Анна, а не Эрик.", "en": "We want to emphasize that it was Anna who called, not Erik." }
     },
     {
       "id": "viktig",
       "sv": "viktig",
       "translations": { "ru": "важный", "en": "important" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "viktig", "neuter": "viktigt", "plural": "viktiga", "comparative": "viktigare", "superlative": "viktigast" },
+      "example": { "sv": "Det är viktigt att betona rätt ord i en klyvd sats.", "ru": "Важно подчёркивать правильное слово в расщеплённом предложении.", "en": "It's important to stress the right word in a cleft sentence." }
     },
     {
       "id": "betoning",
@@ -61,13 +66,15 @@
       "translations": { "ru": "ударение, выделение", "en": "emphasis, stress" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "betoning", "defSg": "betoningen", "indefPl": "betoningar", "defPl": "betoningarna" }
+      "forms": { "indefSg": "betoning", "defSg": "betoningen", "indefPl": "betoningar", "defPl": "betoningarna" },
+      "example": { "sv": "Betoningen ligger på ordet \"Anna\" i den klyvda satsen.", "ru": "Ударение падает на слово «Анна» в расщеплённом предложении.", "en": "The stress falls on the word \"Anna\" in the cleft sentence." }
     },
     {
       "id": "igar-cleft",
       "sv": "igår",
       "translations": { "ru": "вчера", "en": "yesterday" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Det var igår som han ringde, inte idag.", "ru": "Именно вчера он звонил, а не сегодня.", "en": "It was yesterday that he called, not today." }
     },
     {
       "id": "utan",
@@ -82,7 +89,8 @@
       "translations": { "ru": "предполагать", "en": "to assume" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" }
+      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" },
+      "example": { "sv": "Vi kan anta att det är Erik som har gjort det.", "ru": "Мы можем предположить, что это сделал именно Эрик.", "en": "We can assume that it's Erik who did it." }
     },
     {
       "id": "antagande",
@@ -90,7 +98,8 @@
       "translations": { "ru": "предположение", "en": "assumption" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "antagande", "defSg": "antagandet", "indefPl": "antaganden", "defPl": "antagandena" }
+      "forms": { "indefSg": "antagande", "defSg": "antagandet", "indefPl": "antaganden", "defPl": "antagandena" },
+      "example": { "sv": "Det antagandet är fel om det egentligen var Anna som ringde.", "ru": "Это предположение неверно, если на самом деле звонила Анна.", "en": "That assumption is wrong if it was actually Anna who called." }
     }
   ]
 }

@@ -24,21 +24,26 @@
       "translations": { "ru": "плавать", "en": "to swim" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" }
+      "forms": { "infinitive": "simma", "present": "simmar", "past": "simmade", "supine": "simmat" },
+      "example": { "sv": "Barnen tycker om att simma på sommaren.", "ru": "Дети любят плавать летом.", "en": "The children like to swim in the summer." }
     },
     {
       "id": "vilja",
       "sv": "vilja",
       "translations": { "ru": "хотеть", "en": "to want" },
       "pos": "verb",
-      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" }
+      "verbGroup": 4,
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
+      "example": { "sv": "Jag vill lära mig prata svenska bättre.", "ru": "Я хочу научиться говорить по-шведски лучше.", "en": "I want to learn to speak Swedish better." }
     },
     {
       "id": "kunna",
       "sv": "kunna",
       "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
       "pos": "verb",
-      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" }
+      "verbGroup": 4,
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "example": { "sv": "Hon kan simma väldigt bra.", "ru": "Она умеет очень хорошо плавать.", "en": "She can swim very well." }
     },
     {
       "id": "lata",
@@ -64,7 +69,8 @@
       "translations": { "ru": "слышать", "en": "to hear" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" }
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" },
+      "example": { "sv": "Jag hörde honom prata i telefon.", "ru": "Я слышал, как он разговаривал по телефону.", "en": "I heard him talking on the phone." }
     },
     {
       "id": "fa",
@@ -72,7 +78,8 @@
       "translations": { "ru": "получать; иметь право", "en": "to get; to be allowed to" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" }
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Får jag öppna fönstret?", "ru": "Можно мне открыть окно?", "en": "May I open the window?" }
     },
     {
       "id": "glomma",

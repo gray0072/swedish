@@ -31,7 +31,8 @@
       "translations": { "ru": "пик", "en": "peak" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en topp", "defSg": "toppen", "indefPl": "toppar", "defPl": "topparna" }
+      "forms": { "indefSg": "en topp", "defSg": "toppen", "indefPl": "toppar", "defPl": "topparna" },
+      "example": { "sv": "Kurvan nådde sin topp i juli.", "ru": "Кривая достигла своего пика в июле.", "en": "The curve reached its peak in July." }
     },
     {
       "id": "nedgang",
@@ -39,7 +40,8 @@
       "translations": { "ru": "спад, падение", "en": "decline, drop" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en nedgång", "defSg": "nedgången", "indefPl": "nedgångar", "defPl": "nedgångarna" }
+      "forms": { "indefSg": "en nedgång", "defSg": "nedgången", "indefPl": "nedgångar", "defPl": "nedgångarna" },
+      "example": { "sv": "Det skedde en kraftig nedgång i försäljningen förra kvartalet.", "ru": "В прошлом квартале произошёл резкий спад продаж.", "en": "There was a sharp decline in sales last quarter." }
     },
     {
       "id": "ungefar-halften",
@@ -52,7 +54,8 @@
       "id": "en-tredjedel",
       "sv": "en tredjedel",
       "translations": { "ru": "треть", "en": "a third" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "En tredjedel av eleverna svarade att de var nöjda.", "ru": "Треть учеников ответили, что они довольны.", "en": "A third of the students said they were satisfied." }
     },
     {
       "id": "majoriteten",
@@ -77,7 +80,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "fördubblas", "present": "fördubblas", "past": "fördubblades", "supine": "fördubblats" },
-      "note": { "ru": "S-глагол (пассивная/депонентная форма).", "en": "An s-verb (passive/deponent form)." }
+      "note": { "ru": "S-глагол (пассивная/депонентная форма).", "en": "An s-verb (passive/deponent form)." },
+      "example": { "sv": "Antalet besökare fördubblades under sommaren.", "ru": "Число посетителей удвоилось за лето.", "en": "The number of visitors doubled over the summer." }
     }
   ]
 }

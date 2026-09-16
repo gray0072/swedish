@@ -6,6 +6,7 @@
       "translations": { "ru": "питание, рацион", "en": "diet, food" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en kost", "defSg": "kosten", "indefPl": "koster", "defPl": "kosterna" },
       "example": { "sv": "Han försöker äta en hälsosam kost.", "ru": "Он старается придерживаться здорового питания.", "en": "He tries to eat a healthy diet." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "питательные вещества", "en": "nutrition, nutrients" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en näring", "defSg": "näringen", "indefPl": "näringar", "defPl": "näringarna" },
       "example": { "sv": "Grönsaker innehåller mycket näring.", "ru": "Овощи содержат много питательных веществ.", "en": "Vegetables contain a lot of nutrients." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "богатый питательными веществами", "en": "nutritious, nutrient-rich" },
       "pos": "adj",
       "note": { "ru": "ett-форма: näringsrikt, мн.ч.: näringsrika", "en": "ett-form: näringsrikt, plural: näringsrika" },
+      "forms": { "positive": "näringsrik", "neuter": "näringsrikt", "plural": "näringsrika", "comparative": "näringsrikare", "superlative": "näringsrikast" },
       "example": { "sv": "Linser är näringsrika och billiga.", "ru": "Чечевица питательна и недорога.", "en": "Lentils are nutritious and cheap." }
     },
     {
@@ -30,6 +33,7 @@
       "translations": { "ru": "недостаток сна", "en": "sleep deprivation" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en sömnbrist", "defSg": "sömnbristen", "indefPl": "sömnbrister", "defPl": "sömnbristerna" },
       "example": { "sv": "Sömnbrist påverkar koncentrationen negativt.", "ru": "Недостаток сна негативно влияет на концентрацию.", "en": "Sleep deprivation negatively affects concentration." }
     },
     {
@@ -38,6 +42,7 @@
       "translations": { "ru": "сон", "en": "sleep" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en sömn", "defSg": "sömnen", "indefPl": "sömner", "defPl": "sömnerna" },
       "example": { "sv": "God sömn är grunden för återhämtning.", "ru": "Хороший сон — основа восстановления.", "en": "Good sleep is the foundation of recovery." }
     },
     {
@@ -46,6 +51,7 @@
       "translations": { "ru": "восстановление", "en": "recovery" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en återhämtning", "defSg": "återhämtningen", "indefPl": "återhämtningar", "defPl": "återhämtningarna" },
       "example": { "sv": "Kroppen behöver återhämtning efter träning.", "ru": "Организму нужно восстановление после тренировки.", "en": "The body needs recovery after exercise." }
     },
     {
@@ -63,6 +69,7 @@
       "translations": { "ru": "физическая активность, движение", "en": "exercise, physical activity" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en motion", "defSg": "motionen", "indefPl": "motioner", "defPl": "motionerna" },
       "example": { "sv": "Dagliga promenader räknas som motion.", "ru": "Ежедневные прогулки считаются физической активностью.", "en": "Daily walks count as exercise." }
     },
     {
@@ -71,6 +78,7 @@
       "translations": { "ru": "сидячий", "en": "sedentary" },
       "pos": "adj",
       "note": { "ru": "не изменяется по родам и числам (прилагательные на -ande)", "en": "invariant across gender and number (adjectives ending in -ande)" },
+      "forms": { "positive": "stillasittande", "neuter": "stillasittande", "plural": "stillasittande", "comparative": "mer stillasittande", "superlative": "mest stillasittande" },
       "example": { "sv": "Ett stillasittande arbete ökar risken för hälsoproblem.", "ru": "Сидячая работа увеличивает риск проблем со здоровьем.", "en": "A sedentary job increases the risk of health problems." }
     },
     {
@@ -86,6 +94,7 @@
       "translations": { "ru": "здоровый (о питании, образе жизни)", "en": "healthy" },
       "pos": "adj",
       "note": { "ru": "ett-форма: hälsosamt, мн.ч.: hälsosamma", "en": "ett-form: hälsosamt, plural: hälsosamma" },
+      "forms": { "positive": "hälsosam", "neuter": "hälsosamt", "plural": "hälsosamma", "comparative": "hälsosammare", "superlative": "hälsosammast" },
       "example": { "sv": "Det är viktigt att leva ett hälsosamt liv.", "ru": "Важно вести здоровый образ жизни.", "en": "It's important to live a healthy life." }
     },
     {
@@ -94,6 +103,7 @@
       "translations": { "ru": "нездоровый", "en": "unhealthy" },
       "pos": "adj",
       "note": { "ru": "ett-форма: ohälsosamt, мн.ч.: ohälsosamma", "en": "ett-form: ohälsosamt, plural: ohälsosamma" },
+      "forms": { "positive": "ohälsosam", "neuter": "ohälsosamt", "plural": "ohälsosamma", "comparative": "ohälsosammare", "superlative": "ohälsosammast" },
       "example": { "sv": "Snabbmat är ofta ohälsosam.", "ru": "Фастфуд часто нездоровый.", "en": "Fast food is often unhealthy." }
     },
     {
@@ -111,6 +121,7 @@
       "translations": { "ru": "стресс", "en": "stress" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en stress", "defSg": "stressen", "indefPl": "stressar", "defPl": "stressarna" },
       "example": { "sv": "För mycket stress är skadligt för hälsan.", "ru": "Слишком много стресса вредно для здоровья.", "en": "Too much stress is harmful to health." }
     },
     {
@@ -159,6 +170,7 @@
       "sv": "förebygga",
       "translations": { "ru": "предотвращать", "en": "to prevent" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "förebygga", "present": "förebygger", "past": "förebyggde", "supine": "förebyggt" },
       "example": { "sv": "Motion kan förebygga många sjukdomar.", "ru": "Физическая активность может предотвратить многие болезни.", "en": "Exercise can prevent many diseases." }
     },
@@ -177,6 +189,7 @@
       "translations": { "ru": "повседневная физическая активность", "en": "everyday exercise" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en vardagsmotion", "defSg": "vardagsmotionen", "indefPl": "vardagsmotioner", "defPl": "vardagsmotionerna" },
       "example": { "sv": "Att ta trapporna istället för hissen är bra vardagsmotion.", "ru": "Подниматься по лестнице вместо лифта — хорошая повседневная физическая активность.", "en": "Taking the stairs instead of the elevator is good everyday exercise." }
     }
   ]

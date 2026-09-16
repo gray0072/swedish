@@ -12,89 +12,103 @@
       "sv": "Ring 112!",
       "translations": { "ru": "Звоните 112!", "en": "Call 112!" },
       "pos": "phrase",
-      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." }
+      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." },
+      "example": { "sv": "Det brinner! Ring 112!", "ru": "Пожар! Звоните 112!", "en": "There's a fire! Call 112!" }
     },
     {
       "id": "jag-behover-hjalp",
       "sv": "Jag behöver hjälp.",
       "translations": { "ru": "Мне нужна помощь.", "en": "I need help." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta, jag behöver hjälp.", "ru": "Извините, мне нужна помощь.", "en": "Excuse me, I need help." }
     },
     {
       "id": "kan-du-hjalpa-mig",
       "sv": "Kan du hjälpa mig?",
       "translations": { "ru": "Можешь мне помочь?", "en": "Can you help me?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta, kan du hjälpa mig? Jag har gått vilse.", "ru": "Извините, можете мне помочь? Я заблудился.", "en": "Excuse me, can you help me? I've gotten lost." }
     },
     {
       "id": "det-ar-en-olycka",
       "sv": "Det är en olycka.",
       "translations": { "ru": "Здесь авария (несчастный случай).", "en": "There has been an accident." },
       "pos": "phrase",
-      "note": { "ru": "en olycka — авария, несчастный случай.", "en": "en olycka — an accident." }
+      "note": { "ru": "en olycka — авария, несчастный случай.", "en": "en olycka — an accident." },
+      "example": { "sv": "Det är en olycka på Storgatan.", "ru": "На Стургатан авария.", "en": "There has been an accident on Storgatan." }
     },
     {
       "id": "det-brinner",
       "sv": "Det brinner!",
       "translations": { "ru": "Пожар! (Горит!)", "en": "There's a fire!" },
       "pos": "phrase",
-      "note": { "ru": "От глагола brinna — гореть.", "en": "From the verb brinna — to burn." }
+      "note": { "ru": "От глагола brinna — гореть.", "en": "From the verb brinna — to burn." },
+      "example": { "sv": "Det brinner i köket!", "ru": "На кухне пожар!", "en": "There's a fire in the kitchen!" }
     },
     {
       "id": "jag-ar-sjuk",
       "sv": "Jag är sjuk.",
       "translations": { "ru": "Я болен / больна.", "en": "I am ill." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag är sjuk och behöver en läkare.", "ru": "Я болен и мне нужен врач.", "en": "I am ill and need a doctor." }
     },
     {
       "id": "jag-har-ont-har",
       "sv": "Jag har ont här.",
       "translations": { "ru": "У меня здесь болит.", "en": "It hurts here." },
       "pos": "phrase",
-      "note": { "ru": "ha ont — испытывать боль. Покажите рукой где.", "en": "ha ont — to be in pain. Point to the place." }
+      "note": { "ru": "ha ont — испытывать боль. Покажите рукой где.", "en": "ha ont — to be in pain. Point to the place." },
+      "example": { "sv": "Jag har ont här, i magen.", "ru": "У меня здесь болит, в животе.", "en": "It hurts here, in my stomach." }
     },
     {
       "id": "ring-en-ambulans",
       "sv": "Ring en ambulans.",
       "translations": { "ru": "Вызовите скорую.", "en": "Call an ambulance." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Han är skadad, ring en ambulans!", "ru": "Он ранен, вызовите скорую!", "en": "He is injured, call an ambulance!" }
     },
     {
       "id": "ring-polisen",
       "sv": "Ring polisen.",
       "translations": { "ru": "Вызовите полицию.", "en": "Call the police." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Någon stal min väska, ring polisen.", "ru": "Кто-то украл мою сумку, вызовите полицию.", "en": "Someone stole my bag, call the police." }
     },
     {
       "id": "jag-forstar-inte",
       "sv": "Jag förstår inte.",
       "translations": { "ru": "Я не понимаю.", "en": "I don't understand." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, jag förstår inte.", "ru": "Извините, я не понимаю.", "en": "Sorry, I don't understand." }
     },
     {
       "id": "jag-talar-inte-svenska",
       "sv": "Jag talar inte svenska.",
       "translations": { "ru": "Я не говорю по-шведски.", "en": "I don't speak Swedish." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag talar inte svenska. Talar du engelska?", "ru": "Я не говорю по-шведски. Ты говоришь по-английски?", "en": "I don't speak Swedish. Do you speak English?" }
     },
     {
       "id": "talar-du-engelska",
       "sv": "Talar du engelska?",
       "translations": { "ru": "Ты говоришь по-английски?", "en": "Do you speak English?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Talar du engelska? Jag förstår inte svenska så bra.", "ru": "Ты говоришь по-английски? Я не очень хорошо понимаю шведский.", "en": "Do you speak English? I don't understand Swedish very well." }
     },
     {
       "id": "var-ar-narmaste-apotek",
       "sv": "Var är närmaste apotek?",
       "translations": { "ru": "Где ближайшая аптека?", "en": "Where is the nearest pharmacy?" },
       "pos": "phrase",
-      "note": { "ru": "närmaste — ближайший.", "en": "närmaste — the nearest." }
+      "note": { "ru": "närmaste — ближайший.", "en": "närmaste — the nearest." },
+      "example": { "sv": "Ursäkta, var är närmaste apotek?", "ru": "Извините, где ближайшая аптека?", "en": "Excuse me, where is the nearest pharmacy?" }
     },
     {
       "id": "jag-har-tappat-min-telefon",
       "sv": "Jag har tappat min telefon.",
       "translations": { "ru": "Я потерял(а) телефон.", "en": "I have lost my phone." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag har tappat min telefon på bussen.", "ru": "Я потерял телефон в автобусе.", "en": "I have lost my phone on the bus." }
     },
     {
       "id": "ambulans",
@@ -102,7 +116,8 @@
       "translations": { "ru": "скорая помощь", "en": "ambulance" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ambulans", "defSg": "ambulansen", "indefPl": "ambulanser", "defPl": "ambulanserna" }
+      "forms": { "indefSg": "en ambulans", "defSg": "ambulansen", "indefPl": "ambulanser", "defPl": "ambulanserna" },
+      "example": { "sv": "En ambulans kommer snart.", "ru": "Скорая скоро приедет.", "en": "An ambulance is coming soon." }
     },
     {
       "id": "brandkar",
@@ -110,7 +125,8 @@
       "translations": { "ru": "пожарная служба", "en": "fire brigade" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en brandkår", "defSg": "brandkåren", "indefPl": "brandkårer", "defPl": "brandkårerna" }
+      "forms": { "indefSg": "en brandkår", "defSg": "brandkåren", "indefPl": "brandkårer", "defPl": "brandkårerna" },
+      "example": { "sv": "Brandkåren kom snabbt.", "ru": "Пожарная служба приехала быстро.", "en": "The fire brigade arrived quickly." }
     },
     {
       "id": "apotek",
@@ -118,7 +134,8 @@
       "translations": { "ru": "аптека", "en": "pharmacy" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" }
+      "forms": { "indefSg": "ett apotek", "defSg": "apoteket", "indefPl": "apotek", "defPl": "apoteken" },
+      "example": { "sv": "Apoteket ligger bredvid affären.", "ru": "Аптека находится рядом с магазином.", "en": "The pharmacy is next to the store." }
     }
   ]
 }

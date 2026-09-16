@@ -22,13 +22,15 @@
       "id": "borjar-med-stor-bokstav",
       "sv": "Meningen börjar med stor bokstav.",
       "translations": { "ru": "Предложение начинается с заглавной буквы.", "en": "A sentence starts with a capital letter." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Meningen börjar med stor bokstav: Jag heter Ali.", "ru": "Предложение начинается с заглавной буквы: Jag heter Ali.", "en": "A sentence starts with a capital letter: Jag heter Ali." }
     },
     {
       "id": "slutar-med-punkt",
       "sv": "Meningen slutar med punkt.",
       "translations": { "ru": "Предложение заканчивается точкой.", "en": "A sentence ends with a full stop." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag bor i Malmö. Meningen slutar med punkt.", "ru": "Я живу в Мальмё. Предложение заканчивается точкой.", "en": "I live in Malmö. The sentence ends with a full stop." }
     },
     {
       "id": "frageteck",
@@ -66,13 +68,15 @@
       "id": "jag-bor-i-malmo",
       "sv": "Jag bor i Malmö.",
       "translations": { "ru": "Я живу в Мальмё.", "en": "I live in Malmö." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag bor i Malmö.", "ru": "Я живу в Мальмё.", "en": "I live in Malmö." }
     },
     {
       "id": "titta-pa-tavlan",
       "sv": "Titta på tavlan och skriv av.",
       "translations": { "ru": "Смотри на доску и переписывай.", "en": "Look at the board and copy it." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Titta på tavlan och skriv av meningen.", "ru": "Смотри на доску и перепиши предложение.", "en": "Look at the board and copy down the sentence." }
     }
   ]
 }

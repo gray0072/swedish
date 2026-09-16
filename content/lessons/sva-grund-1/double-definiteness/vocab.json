@@ -5,6 +5,7 @@
       "sv": "stor",
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "example": { "sv": "Den stora staden ligger vid havet.", "ru": "Тот самый большой город стоит у моря.", "en": "The big city lies by the sea." },
       "note": { "sv": "stor / stort / stora" }
     },
@@ -13,6 +14,7 @@
       "sv": "vacker",
       "translations": { "ru": "красивый", "en": "beautiful" },
       "pos": "adj",
+      "forms": { "positive": "vacker", "neuter": "vackert", "plural": "vackra", "comparative": "vackrare", "superlative": "vackrast" },
       "example": { "sv": "Det vackra huset är gammalt.", "ru": "Тот самый красивый дом — старый.", "en": "The beautiful house is old." },
       "note": { "sv": "vacker / vackert / vackra" }
     },
@@ -21,6 +23,7 @@
       "sv": "gammal",
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "example": { "sv": "Den gamla bilen fungerar bra.", "ru": "Та самая старая машина хорошо работает.", "en": "The old car works well." },
       "note": { "sv": "gammal / gammalt / gamla (слабая форма — gamla)" }
     },
@@ -29,6 +32,7 @@
       "sv": "ny",
       "translations": { "ru": "новый", "en": "new" },
       "pos": "adj",
+      "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "example": { "sv": "De nya böckerna ligger på bordet.", "ru": "Те самые новые книги лежат на столе.", "en": "The new books are on the table." },
       "note": { "sv": "ny / nytt / nya" }
     },
@@ -73,6 +77,7 @@
       "sv": "hela",
       "translations": { "ru": "весь, целый", "en": "the whole" },
       "pos": "adj",
+      "forms": { "positive": "hela", "neuter": "hela", "plural": "hela", "comparative": "hela", "superlative": "hela" },
       "example": { "sv": "Hela dagen regnade det.", "ru": "Весь день шёл дождь.", "en": "It rained all day." },
       "note": { "ru": "Без свободного артикля перед прилагательным.", "en": "No free-standing article before an adjective." }
     },
@@ -81,6 +86,7 @@
       "sv": "samma",
       "translations": { "ru": "тот же самый", "en": "the same" },
       "pos": "adj",
+      "forms": { "positive": "samma", "neuter": "samma", "plural": "samma", "comparative": "samma", "superlative": "samma" },
       "example": { "sv": "Vi bor på samma gata.", "ru": "Мы живём на той же самой улице.", "en": "We live on the same street." },
       "note": { "ru": "Без свободного артикля.", "en": "No free-standing article." }
     },
@@ -89,6 +95,7 @@
       "sv": "nästa",
       "translations": { "ru": "следующий", "en": "next" },
       "pos": "adj",
+      "forms": { "positive": "nästa", "neuter": "nästa", "plural": "nästa", "comparative": "nästa", "superlative": "nästa" },
       "example": { "sv": "Vi ses nästa vecka.", "ru": "Увидимся на следующей неделе.", "en": "See you next week." },
       "note": { "ru": "Без свободного артикля.", "en": "No free-standing article." }
     },

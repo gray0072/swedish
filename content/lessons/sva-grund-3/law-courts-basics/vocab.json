@@ -140,6 +140,7 @@
       "sv": "dömas",
       "translations": { "ru": "быть осуждённым, получить приговор", "en": "to be sentenced, to be convicted" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "dömas", "present": "döms", "past": "dömdes", "supine": "dömts" },
       "example": { "sv": "Mannen dömdes till böter.", "ru": "Мужчина был приговорён к штрафу.", "en": "The man was sentenced to a fine." }
     },
@@ -158,6 +159,7 @@
       "translations": { "ru": "штраф", "en": "fine" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "böter", "defSg": "böterna", "indefPl": "böter", "defPl": "böterna" },
       "example": { "sv": "Han fick betala böter för fortkörning.", "ru": "Ему пришлось заплатить штраф за превышение скорости.", "en": "He had to pay a fine for speeding." }
     }
   ]

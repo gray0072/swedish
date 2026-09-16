@@ -32,6 +32,8 @@
       "sv": "komvux",
       "translations": { "ru": "комвукс (муниципальное образование для взрослых)", "en": "komvux (municipal adult education)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "komvux", "defSg": "komvux", "indefPl": "komvux", "defPl": "komvux" },
       "example": { "sv": "Jag läser upp mina betyg på komvux.", "ru": "Я подтягиваю свои оценки на komvux.", "en": "I'm raising my grades at komvux." }
     },
     {
@@ -121,6 +123,7 @@
       "translations": { "ru": "диплом, экзамен (выпускной)", "en": "degree, diploma" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en examen", "defSg": "examen", "indefPl": "examina", "defPl": "examina" },
       "example": { "sv": "Han tog sin examen förra våren.", "ru": "Он получил диплом прошлой весной.", "en": "He got his degree last spring." }
     },
     {
@@ -138,6 +141,7 @@
       "translations": { "ru": "обязательный", "en": "compulsory, mandatory" },
       "pos": "adj",
       "note": { "ru": "ett-форма: obligatoriskt, мн.ч.: obligatoriska", "en": "ett-form: obligatoriskt, plural: obligatoriska" },
+      "forms": { "positive": "obligatorisk", "neuter": "obligatoriskt", "plural": "obligatoriska", "comparative": "mer obligatorisk", "superlative": "mest obligatorisk" },
       "example": { "sv": "Grundskolan är obligatorisk.", "ru": "Обязательная школа обязательна.", "en": "Compulsory school is mandatory." }
     },
     {
@@ -146,6 +150,7 @@
       "translations": { "ru": "добровольный, необязательный", "en": "voluntary" },
       "pos": "adj",
       "note": { "ru": "ett-форма: frivilligt, мн.ч.: frivilliga", "en": "ett-form: frivilligt, plural: frivilliga" },
+      "forms": { "positive": "frivillig", "neuter": "frivilligt", "plural": "frivilliga", "comparative": "mer frivillig", "superlative": "mest frivillig" },
       "example": { "sv": "Gymnasiet är frivilligt, men de flesta går dit.", "ru": "Гимназия необязательна, но большинство туда идёт.", "en": "Upper secondary school is voluntary, but most people go." }
     },
     {

@@ -6,6 +6,7 @@
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
       "note": { "ru": "сравнит.: större; превосх.: störst", "en": "comparative: större; superlative: störst" },
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "example": { "sv": "Den här bilen är större än den där.", "ru": "Эта машина больше, чем та.", "en": "This car is bigger than that one." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "хороший", "en": "good" },
       "pos": "adj",
       "note": { "ru": "неправильно: bättre, bäst", "en": "irregular: bättre, bäst" },
+      "forms": { "positive": "bra", "neuter": "bra", "plural": "bra", "comparative": "bättre", "superlative": "bäst" },
       "example": { "sv": "Det här är bättre än det gamla.", "ru": "Это лучше, чем старое.", "en": "This is better than the old one." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "плохой", "en": "bad" },
       "pos": "adj",
       "note": { "ru": "неправильно: sämre, sämst", "en": "irregular: sämre, sämst" },
+      "forms": { "positive": "dålig", "neuter": "dåligt", "plural": "dåliga", "comparative": "sämre", "superlative": "sämst" },
       "example": { "sv": "Vädret är sämre idag.", "ru": "Погода сегодня хуже.", "en": "The weather is worse today." }
     },
     {
@@ -30,6 +33,7 @@
       "translations": { "ru": "маленький", "en": "small" },
       "pos": "adj",
       "note": { "ru": "неправильно: mindre, minst", "en": "irregular: mindre, minst" },
+      "forms": { "positive": "liten", "neuter": "litet", "plural": "små", "comparative": "mindre", "superlative": "minst" },
       "example": { "sv": "Den här lägenheten är mindre.", "ru": "Эта квартира меньше.", "en": "This apartment is smaller." }
     },
     {
@@ -38,6 +42,7 @@
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
       "note": { "ru": "неправильно: äldre, äldst", "en": "irregular: äldre, äldst" },
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "example": { "sv": "Min bror är äldre än jag.", "ru": "Мой брат старше меня.", "en": "My brother is older than me." }
     },
     {
@@ -46,6 +51,7 @@
       "translations": { "ru": "много (о счётных)", "en": "many" },
       "pos": "adj",
       "note": { "ru": "неправильно: fler, flest", "en": "irregular: fler, flest" },
+      "forms": { "positive": "många", "neuter": "många", "plural": "många", "comparative": "fler", "superlative": "flest" },
       "example": { "sv": "Hon har fler böcker än jag.", "ru": "У неё больше книг, чем у меня.", "en": "She has more books than me." }
     },
     {
@@ -54,6 +60,7 @@
       "translations": { "ru": "молодой", "en": "young" },
       "pos": "adj",
       "note": { "ru": "сравнит.: yngre; превосх.: yngst (неправильно)", "en": "comparative: yngre; superlative: yngst (irregular)" },
+      "forms": { "positive": "ung", "neuter": "ungt", "plural": "unga", "comparative": "yngre", "superlative": "yngst" },
       "example": { "sv": "Hon är yngre än sin bror.", "ru": "Она моложе своего брата.", "en": "She is younger than her brother." }
     },
     {
@@ -62,6 +69,7 @@
       "translations": { "ru": "длинный, высокий", "en": "long, tall" },
       "pos": "adj",
       "note": { "ru": "сравнит.: längre; превосх.: längst", "en": "comparative: längre; superlative: längst" },
+      "forms": { "positive": "lång", "neuter": "långt", "plural": "långa", "comparative": "längre", "superlative": "längst" },
       "example": { "sv": "Han är längre än sin far.", "ru": "Он выше своего отца.", "en": "He is taller than his father." }
     },
     {
@@ -77,6 +85,7 @@
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
       "note": { "ru": "сравнит.: dyrare; превосх.: dyrast", "en": "comparative: dyrare; superlative: dyrast" },
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Den här klockan är dyrast.", "ru": "Эти часы самые дорогие.", "en": "This watch is the most expensive." }
     }
   ]

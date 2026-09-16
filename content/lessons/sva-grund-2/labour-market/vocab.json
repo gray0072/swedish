@@ -84,6 +84,7 @@
       "sv": "söka jobb",
       "translations": { "ru": "искать работу", "en": "to look for a job, job-hunt" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "söka jobb", "present": "söker jobb", "past": "sökte jobb", "supine": "sökt jobb" },
       "example": { "sv": "Jag har sökt jobb i tre månader.", "ru": "Я ищу работу уже три месяца.", "en": "I've been job-hunting for three months." }
     },
@@ -101,6 +102,8 @@
       "sv": "Arbetsförmedlingen",
       "translations": { "ru": "Служба занятости Швеции", "en": "the Swedish Public Employment Service" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en arbetsförmedling", "defSg": "Arbetsförmedlingen", "indefPl": "arbetsförmedlingar", "defPl": "arbetsförmedlingarna" },
       "note": { "ru": "Государственное ведомство, которое помогает искать работу и регистрирует безработных.", "en": "The government agency that helps people find work and registers the unemployed." },
       "example": { "sv": "Jag skrev in mig på Arbetsförmedlingen förra veckan.", "ru": "Я встал(а) на учёт в службу занятости на прошлой неделе.", "en": "I registered with the Employment Service last week." }
     },
@@ -110,6 +113,7 @@
       "translations": { "ru": "полная занятость", "en": "full-time" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en heltid", "defSg": "heltiden", "indefPl": "heltider", "defPl": "heltiderna" },
       "example": { "sv": "Hon jobbar heltid som sjuksköterska.", "ru": "Она работает полный день медсестрой.", "en": "She works full-time as a nurse." }
     },
     {
@@ -118,6 +122,7 @@
       "translations": { "ru": "частичная занятость", "en": "part-time" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en deltid", "defSg": "deltiden", "indefPl": "deltider", "defPl": "deltiderna" },
       "example": { "sv": "Jag jobbar deltid vid sidan av studierna.", "ru": "Я работаю неполный день параллельно с учёбой.", "en": "I work part-time alongside my studies." }
     },
     {
@@ -135,6 +140,7 @@
       "translations": { "ru": "конкуренция", "en": "competition" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en konkurrens", "defSg": "konkurrensen", "indefPl": "konkurrenser", "defPl": "konkurrenserna" },
       "example": { "sv": "Det är hård konkurrens om de lediga jobben.", "ru": "За вакансии идёт жёсткая конкуренция.", "en": "There is fierce competition for the vacancies." }
     }
   ]

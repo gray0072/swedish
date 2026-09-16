@@ -69,6 +69,7 @@
       "sv": "gå och lägga sig",
       "translations": { "ru": "ложиться спать", "en": "to go to bed" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "gå och lägga sig", "present": "går och lägger sig", "past": "gick och lade sig", "supine": "gått och lagt sig" },
       "note": { "ru": "местоимение меняется: jag går och lägger mig, du går och lägger dig", "en": "the pronoun changes with the subject: jag går och lägger mig, du går och lägger dig" },
       "example": { "sv": "Till slut går jag och lägger mig.", "ru": "В конце концов я иду спать.", "en": "Finally I go to bed." }

@@ -6,27 +6,35 @@
       "translations": { "ru": "условное предложение", "en": "conditional clause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en villkorssats", "defSg": "villkorssatsen", "indefPl": "villkorssatser", "defPl": "villkorssatserna" }
+      "forms": { "indefSg": "en villkorssats", "defSg": "villkorssatsen", "indefPl": "villkorssatser", "defPl": "villkorssatserna" },
+      "example": { "sv": "En villkorssats inleds ofta med om.", "ru": "Условное предложение часто начинается с «om» (если).", "en": "A conditional clause often begins with \"om\" (if)." }
     },
     {
       "id": "om-conj",
       "sv": "om",
       "translations": { "ru": "если", "en": "if" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Om det uppstår ett fel, ska du kontakta oss.", "ru": "Если возникнет ошибка, тебе следует связаться с нами.", "en": "If an error occurs, you should contact us." }
     },
     {
       "id": "skulle",
       "sv": "skulle",
       "translations": { "ru": "форма претерита от «ska»: «бы, собирался»", "en": "past tense of \"ska\": \"would\"" },
       "pos": "verb",
-      "note": { "ru": "Используется в главной части ирреальных условных предложений.", "en": "Used in the main clause of unreal conditionals." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
+      "note": { "ru": "Используется в главной части ирреальных условных предложений.", "en": "Used in the main clause of unreal conditionals." },
+      "example": { "sv": "Om jag hade mer tid, skulle jag ringa henne.", "ru": "Если бы у меня было больше времени, я бы позвонил ей.", "en": "If I had more time, I would call her." }
     },
     {
       "id": "vore",
       "sv": "vore",
       "translations": { "ru": "был бы (архаичный сослагательный от vara)", "en": "were, would be (archaic subjunctive of vara)" },
       "pos": "verb",
-      "note": { "ru": "Сохранился почти только в инверсионной конструкции без om.", "en": "Survives almost only in the om-less inversion construction." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit", "imperative": "var" },
+      "note": { "ru": "Сохранился почти только в инверсионной конструкции без om.", "en": "Survives almost only in the om-less inversion construction." },
+      "example": { "sv": "Vore jag rik, skulle jag resa jorden runt.", "ru": "Был бы я богат, я бы объехал весь мир.", "en": "Were I rich, I would travel around the world." }
     },
     {
       "id": "ringa-verb",
@@ -71,13 +79,17 @@
       "id": "irreell",
       "sv": "irreell",
       "translations": { "ru": "нереальный, ирреальный", "en": "unreal, hypothetical" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "irreell", "neuter": "irreellt", "plural": "irreella", "comparative": "mer irreell", "superlative": "mest irreell" },
+      "example": { "sv": "Detta är en irreell villkorssats om något som inte kommer att hända.", "ru": "Это ирреальное условное предложение о том, что не произойдёт.", "en": "This is an unreal conditional clause about something that will not happen." }
     },
     {
       "id": "reell",
       "sv": "reell",
       "translations": { "ru": "реальный, действительный", "en": "real, actual" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "reell", "neuter": "reellt", "plural": "reella", "comparative": "mer reell", "superlative": "mest reell" },
+      "example": { "sv": "Det finns en reell risk att tåget blir försenat.", "ru": "Существует реальный риск, что поезд опоздает.", "en": "There is a real risk that the train will be delayed." }
     },
     {
       "id": "plusquamperfekt",
@@ -85,7 +97,8 @@
       "translations": { "ru": "плюсквамперфект", "en": "pluperfect" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en pluskvamperfekt", "defSg": "pluskvamperfekten", "indefPl": "pluskvamperfekter", "defPl": "pluskvamperfekterna" }
+      "forms": { "indefSg": "en pluskvamperfekt", "defSg": "pluskvamperfekten", "indefPl": "pluskvamperfekter", "defPl": "pluskvamperfekterna" },
+      "example": { "sv": "Om jag hade vetat det, hade jag ringt dig direkt.", "ru": "Если бы я знал об этом, я бы сразу позвонил тебе.", "en": "If I had known that, I would have called you right away." }
     },
     {
       "id": "inversion",
@@ -93,7 +106,8 @@
       "translations": { "ru": "инверсия", "en": "inversion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" }
+      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" },
+      "example": { "sv": "Vid inversion utan om placeras verbet först: Hade jag vetat det, hade jag ringt.", "ru": "При инверсии без «om» глагол ставится на первое место: «Hade jag vetat det, hade jag ringt».", "en": "In inversion without \"om\", the verb comes first: \"Hade jag vetat det, hade jag ringt.\"" }
     }
   ]
 }

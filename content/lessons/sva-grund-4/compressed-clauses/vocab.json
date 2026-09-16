@@ -50,6 +50,7 @@
       "sv": "leende",
       "translations": { "ru": "улыбаясь (причастие наст. вр. от le)", "en": "smiling (present participle of le)" },
       "pos": "adj",
+      "forms": { "positive": "leende", "neuter": "leende", "plural": "leende", "comparative": "mer leende", "superlative": "mest leende" },
       "example": { "sv": "Leende sprang hon för att hinna med tåget.", "ru": "Улыбаясь, она бежала, чтобы успеть на поезд.", "en": "Smiling, she ran to catch the train." }
     },
     {
@@ -64,7 +65,8 @@
       "id": "haejdaa",
       "sv": "hejdå",
       "translations": { "ru": "пока, до свидания", "en": "bye, goodbye" },
-      "pos": "interjection"
+      "pos": "interjection",
+      "example": { "sv": "Han gick utan att säga hejdå.", "ru": "Он ушёл, не попрощавшись.", "en": "He left without saying goodbye." }
     },
     {
       "id": "taag-compressed",

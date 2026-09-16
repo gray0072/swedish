@@ -48,6 +48,7 @@
       "translations": { "ru": "редукция (сокращение звука)", "en": "reduction (sound shortening)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en reduktion", "defSg": "reduktionen", "indefPl": "reduktioner", "defPl": "reduktionerna" },
       "example": { "sv": "Reduktioner gör talad svenska svårare att förstå.", "ru": "Редукции делают разговорный шведский сложнее для понимания.", "en": "Reductions make spoken Swedish harder to understand." }
     },
     {
@@ -56,6 +57,7 @@
       "translations": { "ru": "письменный язык", "en": "written language" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" },
       "example": { "sv": "\"De\" och \"dem\" används i skriftspråket.", "ru": "«De» и «dem» используются в письменном языке.", "en": "\"De\" and \"dem\" are used in the written language." }
     }
   ]

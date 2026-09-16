@@ -89,6 +89,7 @@
       "translations": { "ru": "открытый, открыто", "en": "open" },
       "pos": "adj",
       "note": { "ru": "Согласуется по роду: öppen (en-слово), öppet (ett-слово), öppna (мн. ч.).", "en": "Agrees with gender: öppen (en-word), öppet (ett-word), öppna (plural)." },
+      "forms": { "positive": "öppen", "neuter": "öppet", "plural": "öppna", "comparative": "öppnare", "superlative": "öppnast" },
       "example": { "sv": "Är biblioteket öppet på lördagar?", "ru": "Библиотека открыта по субботам?", "en": "Is the library open on Saturdays?" }
     },
     {
@@ -97,6 +98,7 @@
       "translations": { "ru": "закрытый, закрыто", "en": "closed" },
       "pos": "adj",
       "note": { "ru": "Согласуется по роду: stängd (en-слово), stängt (ett-слово), stängda (мн. ч.).", "en": "Agrees with gender: stängd (en-word), stängt (ett-word), stängda (plural)." },
+      "forms": { "positive": "stängd", "neuter": "stängt", "plural": "stängda", "comparative": "mer stängd", "superlative": "mest stängd" },
       "example": { "sv": "Affären är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
     },
     {
@@ -105,55 +107,64 @@
       "translations": { "ru": "занято (о телефонной линии)", "en": "busy (of a phone line)" },
       "pos": "adj",
       "note": { "ru": "От «upptagen» (занятый); про телефонную линию всегда говорят в форме среднего рода: Det är upptaget.", "en": "From \"upptagen\" (busy/occupied); the phone-line sense always uses the neuter form: Det är upptaget." },
+      "forms": { "positive": "upptagen", "neuter": "upptaget", "plural": "upptagna", "comparative": "mer upptagen", "superlative": "mest upptagen" },
       "example": { "sv": "Jag ringde, men det var upptaget.", "ru": "Я позвонил(а), но было занято.", "en": "I called, but the line was busy." }
     },
     {
       "id": "kan-jag-fa-prata-med",
       "sv": "Kan jag få prata med [namn]?",
       "translations": { "ru": "Можно поговорить с [именем]?", "en": "May I speak with [name]?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hej, kan jag få prata med Erik?", "ru": "Привет, можно поговорить с Эриком?", "en": "Hi, may I speak with Erik?" }
     },
     {
       "id": "tack-for-hjalpen",
       "sv": "Tack för hjälpen!",
       "translations": { "ru": "Спасибо за помощь!", "en": "Thanks for the help!" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Tack för hjälpen, vi hörs snart!", "ru": "Спасибо за помощь, скоро на связи!", "en": "Thanks for the help, talk soon!" }
     },
     {
       "id": "hej-det-ar-jag",
       "sv": "Hej, det är Sara.",
       "translations": { "ru": "Привет, это Сара.", "en": "Hi, this is Sara." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hej, det är Sara, jag ringer angående öppettiderna.", "ru": "Привет, это Сара, я звоню по поводу часов работы.", "en": "Hi, this is Sara, I'm calling about the opening hours." }
     },
     {
       "id": "vad-har-ni-for-oppettider",
       "sv": "Vad har ni för öppettider?",
       "translations": { "ru": "Какой у вас график работы?", "en": "What are your opening hours?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hej, vad har ni för öppettider på lördagar?", "ru": "Здравствуйте, какой у вас график работы по субботам?", "en": "Hi, what are your opening hours on Saturdays?" }
     },
     {
       "id": "ar-det-oppet-idag",
       "sv": "Är det öppet idag?",
       "translations": { "ru": "Сегодня открыто?", "en": "Is it open today?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Är det öppet idag, eller är ni stängda?", "ru": "Сегодня открыто, или вы закрыты?", "en": "Is it open today, or are you closed?" }
     },
     {
       "id": "jag-ringer-angaende",
       "sv": "Jag ringer angående öppettiderna.",
       "translations": { "ru": "Я звоню по поводу часов работы.", "en": "I'm calling regarding the opening hours." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hej, jag ringer angående öppettiderna på helgen.", "ru": "Здравствуйте, я звоню по поводу часов работы в выходные.", "en": "Hi, I'm calling regarding the weekend opening hours." }
     },
     {
       "id": "ett-ogonblick",
       "sv": "Ett ögonblick, bara.",
       "translations": { "ru": "Одну секунду.", "en": "One moment, please." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ett ögonblick, bara, jag hämtar honom.", "ru": "Одну секунду, я его позову.", "en": "One moment, please, I'll get him." }
     },
     {
       "id": "vem-soker-du",
       "sv": "Vem söker du?",
       "translations": { "ru": "С кем вы хотите поговорить?", "en": "Whom would you like to speak to?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vem söker du? Jag kopplar dig vidare.", "ru": "С кем вы хотите поговорить? Я вас соединю.", "en": "Whom would you like to speak to? I'll transfer you." }
     }
   ]
 }

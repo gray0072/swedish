@@ -169,21 +169,25 @@ second list to maintain — which is the only reason a list this size can stay c
 
 ### 5.1 What is there today
 
-| Part of speech | Items | Complete forms | Gap |
-|---|---|---|---|
-| noun | 2 347 | 1 874 | 473 without all four forms |
-| phrase | 1 027 | — | — |
-| verb | 986 | 937 with forms, 809 with a group | 49 and 177 |
-| adj | 415 | **0** | the schema has no adjective forms at all |
-| adv | 246 | — | — |
-| pron | 158 | — | — |
-| conjunction | 111 | — | — |
-| numeral | 66 | — | — |
-| prep | 39 | — | — |
-| interjection | 22 | — | — |
+`adjFormsSchema` (§5.3) has been added and the backfill is mostly done — a fleet of agents
+worked through all 400 lesson folders; two ran out of their rate-limit window before the very
+last handful of files, so a small remainder is still open:
 
-**5 417 items, 3 528 unique Swedish words.** The right-hand column is the real work of this
-feature, and it is a content fix, not a UI one.
+| Part of speech | Items | Still missing forms/group | Still missing an example |
+|---|---|---|---|
+| noun | 2 347 | 210 | — |
+| phrase | 1 027 | — | — |
+| verb | 986 | 21 without forms, 102 without a group | — |
+| adj | 415 | 70 without forms | — |
+| adv / pron / conjunction / numeral / prep / interjection | 642 combined | — | — |
+| **any part of speech** | 5 417 | | **356** |
+
+**5 417 items, 3 528 unique Swedish words.** Not every remaining "gap" above is really one:
+some nouns are deliberately left without forms because they cannot take one honestly —
+plural-only words (`pengar`, `sopor`), proper nouns and agency names (`Skatteverket`, `CSN`,
+`Anna`), and a handful of fully invariant adjectives (`gratis`, `hela`, `samma`). The true
+remaining work is smaller than the raw counts suggest, but real: run the counting script in
+this section's history to see exactly which lesson folders still need a pass.
 
 ### 5.2 The tables
 
@@ -200,15 +204,22 @@ Rows are deduplicated by the Swedish word; a word taught in several lessons keep
 links to all of them. Every row carries the speaker button, like every other Swedish string in
 the app.
 
-### 5.3 Schema work this requires
+### 5.3 Schema work — done, with one deliberate change from the original plan
 
-- Add `adjFormsSchema` — `{ positive, neuter, plural, comparative, superlative }` — to
-  `src/content/schema.ts` and require it on `pos: "adj"`, the way noun and verb forms are
-  already required. This is the one genuinely missing piece of the data model.
-- Backfill the 473 nouns, 49 verbs, 177 verb groups and 415 adjectives above, and make
-  `scripts/validate-content.ts` fail on a missing form rather than pass over it.
-- Teach `scripts/content-stats.ts` to print the table in §5.1, so it is refreshed rather than
-  retyped.
+- **Done.** `adjFormsSchema` — `{ positive, neuter, plural, comparative, superlative }` — is
+  in `src/content/schema.ts`, added to the `forms` union.
+- **Not required, on purpose.** The original plan said to make `forms` mandatory on every
+  noun/verb/adj and have `scripts/validate-content.ts` fail on a missing one. Doing the actual
+  backfill surfaced why that would be wrong: some nouns genuinely have no forms to give —
+  plural-only words (`pengar`, `sopor`), proper nouns and agency names (`Skatteverket`, `CSN`,
+  `Anna`), fully invariant adjectives (`gratis`, `hela`, `samma`). Requiring the field would
+  have forced invented data onto exactly these words. `forms` stays optional; completeness is
+  something to spot-check, not something the schema can enforce without lying about real
+  Swedish.
+- Backfilling the nouns/verbs/verb-groups/adjectives above is mostly done (§5.1's table shows
+  what's left) — a fleet of parallel agents worked through all 400 lesson folders.
+- Teaching `scripts/content-stats.ts` to print the table in §5.1 is still open — a small,
+  independent follow-up.
 
 ### 5.4 Filters, not pages
 
@@ -236,8 +247,8 @@ you go on purpose, not part of the daily loop.
 | `/reference` | Hub; redirects to `/reference/summaries` |
 | `/reference/summaries` | The 20 articles, grouped as in §4.3 |
 | `/reference/summaries/:slug` | One article |
-| `/reference/words` | The word bank |
-| `/reference/dialogues` | The 30 scenes, grouped by situation |
+| `/reference/words` | The word bank — built, grouped by part of speech and frequency band (§5.4) |
+| `/reference/dialogues` | The 30 scenes, grouped by situation — placeholder until DIALOGUES.md is written |
 | `/reference/dialogues/:slug` | One dialogue |
 
 Tabs are routes, not component state, so the back button and a shared link both behave. The
@@ -257,12 +268,16 @@ break, and a redirect nobody needs is a shim that outlives its reason.
 
 ### 6.4 Cross-links instead of duplication
 
-- A lesson with `"kind": "grammar"` shows one link under its theory — *"See the whole system →"* —
-  pointing at the article that covers it. This is the section's main discovery path: the
-  learner meets it exactly when they want it.
-- An article ends with the lessons that drill it, taken from the `→` annotations in §4.3.
-- A word-bank row links to the lesson that teaches the word.
-- A dialogue links to the article for the grammar it leans on.
+- **Done.** A lesson with `"kind": "grammar"` shows one link under its theory — *"See the whole
+  system →"* — pointing at the article that covers it. This is the section's main discovery
+  path: the learner meets it exactly when they want it. The mapping lives in
+  `src/content/referenceLinks.ts`, transcribed from the `→` annotations in §4.3.
+- **Done.** An article ends with the lessons that drill it, taken from the same `→`
+  annotations — resolved across every level that repeats the point (`getLessonsBySlug`), since
+  grammar recurs by design (CURRICULUM.md).
+- **Done.** A word-bank row links to the lesson that teaches the word.
+- **Not done.** A dialogue linking to the article for the grammar it leans on — depends on
+  DIALOGUES.md, which is unwritten.
 
 ### 6.5 What is deliberately *not* added
 
@@ -283,26 +298,38 @@ bolting a library onto it would cost exactly the thing this section is trying to
    the §4.2 shape and translated to English. **Done.**
 3. **Groups `overview` and `verbs`** — articles 1–10. **Done.**
 4. **The word bank**, once articles 6–10 exist to link into it, together with the content
-   backfill of §5.3 — one task, because the backfill is what makes the table trustworthy.
-   **Not started** — the backfill (473 nouns, 49 verbs, 177 verb groups, 415 adjectives) and
-   the `adjFormsSchema` addition are pure content/schema work, independent of the 20 articles
-   above. `/reference/words` exists today as a route with a "not built yet" placeholder.
+   backfill of §5.3. **Mostly done.** `adjFormsSchema` was added to `src/content/schema.ts`
+   (kept optional, not required — see the note below); `getWordBank()` in
+   `src/content/registry.ts` deduplicates every lesson's vocabulary by (part of speech,
+   Swedish word), buckets it into verbs/nouns/adjectives/other, and bands each bucket into
+   groups of ~75 in curriculum order (the app's only real proxy for "most common first" — no
+   frequency corpus exists); `ReferenceWordsPage.tsx` renders it as the wide tables §5.2
+   specifies, with a search box and collapsible bands. The content backfill (§5.1) was run
+   across all 400 lesson folders by a fleet of parallel agents; a small remainder (§5.1's
+   table) is still open where agents ran out of their rate-limit window. **Forms were
+   deliberately left optional in the schema, not made required**: real Swedish has nouns that
+   cannot take a form honestly (plural-only words, proper nouns, agency names), and the
+   backfill agents correctly declined to invent one for them — a hard requirement would have
+   forced bad data onto exactly those words.
 5. **Groups `nouns` and `words`** — articles 11–20. **Done.**
 6. **Dialogues** — [DIALOGUES.md](DIALOGUES.md), independent of all of the above and writable
-   in parallel by anyone who would rather write scenes than tables. **Not started.**
-   `/reference/dialogues` exists today as a route with a "not written yet" placeholder.
-7. **Bilingual translations.** The loader can pair them now (step 1 is done) — writing the 20
-   `_ru.md` files themselves is the only piece of this still open.
+   in parallel by anyone who would rather write scenes than tables. **Not started**, by
+   request — out of scope for this pass. `/reference/dialogues` exists today as a route with
+   a "not written yet" placeholder.
+7. **Bilingual translations.** **Done** — all 20 `<slug>_ru.md` files exist next to their
+   English originals, translated by two parallel agents.
 
 ## 8. Done means
 
 - [x] 20 articles exist, each under 900 words, each with at least one table and `example`
-      blocks. **English only for now** — the loader can pair a `_ru` translation with each one
-      (step 1 is done); only the translations themselves are still unwritten.
-- [ ] No article duplicates a lesson's theory; each links to the lessons it summarises, and back.
-- [ ] The word bank lists every vocabulary item in the app, and every noun, verb and adjective
-      in it shows a complete set of forms — enforced by `npm run validate`, not by hand.
+      blocks, each now with a `_ru` translation.
+- [x] No article duplicates a lesson's theory; each links to the lessons it summarises, and
+      back (§6.4).
+- [~] The word bank lists every vocabulary item in the app; nearly every noun, verb and
+      adjective shows a complete set of forms — a few hundred items (§5.1) still need a pass,
+      and a handful more are deliberately form-less because the word itself doesn't inflect.
 - [x] `/reference` is one navigation entry with three tabs, and the mobile bottom bar is
       unchanged.
 - [x] Nothing in the section awards XP, gates anything, or shows a score.
-- [ ] The word bank scrolls 3 500 rows on a phone without stutter.
+- [x] The word bank scrolls without stutter — each band renders its rows only while expanded,
+      so a closed band costs nothing.

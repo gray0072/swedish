@@ -7,7 +7,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en trend", "defSg": "trenden", "indefPl": "trender", "defPl": "trenderna" },
-      "note": { "ru": "Заимствование, но склоняется полностью регулярно, как familj.", "en": "A loanword, but declines fully regularly, like familj." }
+      "note": { "ru": "Заимствование, но склоняется полностью регулярно, как familj.", "en": "A loanword, but declines fully regularly, like familj." },
+      "example": { "sv": "Det är en tydlig trend att fler jobbar hemifrån.", "ru": "Есть явная тенденция, что больше людей работают из дома.", "en": "There's a clear trend of more people working from home." }
     },
     {
       "id": "pizza",
@@ -16,7 +17,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en pizza", "defSg": "pizzan", "indefPl": "pizzor", "defPl": "pizzorna" },
-      "note": { "ru": "Оканчивается на -a, поэтому регулярно получает класс -or, как flicka.", "en": "Ends in -a, so it regularly takes the -or class, like flicka." }
+      "note": { "ru": "Оканчивается на -a, поэтому регулярно получает класс -or, как flicka.", "en": "Ends in -a, so it regularly takes the -or class, like flicka." },
+      "example": { "sv": "Vi delade en pizza på restaurangen.", "ru": "Мы поделили одну пиццу в ресторане.", "en": "We shared a pizza at the restaurant." }
     },
     {
       "id": "konto",
@@ -25,7 +27,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett konto", "defSg": "kontot", "indefPl": "konton", "defPl": "kontona" },
-      "note": { "ru": "Оканчивается на гласную, поэтому регулярно получает класс -n, как äpple.", "en": "Ends in a vowel, so it regularly takes the -n class, like äpple." }
+      "note": { "ru": "Оканчивается на гласную, поэтому регулярно получает класс -n, как äpple.", "en": "Ends in a vowel, so it regularly takes the -n class, like äpple." },
+      "example": { "sv": "Jag har flera konton på olika banker.", "ru": "У меня несколько счетов в разных банках.", "en": "I have several accounts at different banks." }
     },
     {
       "id": "center",
@@ -34,7 +37,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett center", "defSg": "centret", "indefPl": "center", "defPl": "centren" },
-      "note": { "ru": "Нулевое множественное — как у ett-слов на безударный слог (fönster).", "en": "Zero-ending plural — like ett-words with an unstressed final syllable (fönster)." }
+      "note": { "ru": "Нулевое множественное — как у ett-слов на безударный слог (fönster).", "en": "Zero-ending plural — like ett-words with an unstressed final syllable (fönster)." },
+      "example": { "sv": "Butiken ligger i ett stort center utanför staden.", "ru": "Магазин находится в большом торговом центре за городом.", "en": "The shop is in a large center outside the city." }
     },
     {
       "id": "hotell",
@@ -63,7 +67,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett faktum", "defSg": "faktumet", "indefPl": "fakta", "defPl": "fakta" },
-      "note": { "ru": "Неправильное: -um отпадает, добавляется -a; определённая форма мн.ч. совпадает с неопределённой.", "en": "Irregular: -um drops, -a is added; the definite plural is identical to the indefinite one." }
+      "note": { "ru": "Неправильное: -um отпадает, добавляется -a; определённая форма мн.ч. совпадает с неопределённой.", "en": "Irregular: -um drops, -a is added; the definite plural is identical to the indefinite one." },
+      "example": { "sv": "Det är ett faktum att jorden är rund.", "ru": "Это факт, что Земля круглая.", "en": "It is a fact that the Earth is round." }
     },
     {
       "id": "drama",
@@ -72,7 +77,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett drama", "defSg": "dramat", "indefPl": "dramer", "defPl": "dramerna" },
-      "note": { "ru": "Неправильное: ожидался бы класс -n (как tema → teman), но на деле -er.", "en": "Irregular: you'd expect the -n class (like tema → teman), but it's actually -er." }
+      "note": { "ru": "Неправильное: ожидался бы класс -n (как tema → teman), но на деле -er.", "en": "Irregular: you'd expect the -n class (like tema → teman), but it's actually -er." },
+      "example": { "sv": "Familjens historia blev till ett drama på teatern.", "ru": "История семьи превратилась в драму в театре.", "en": "The family's history became a drama at the theater." }
     }
   ]
 }

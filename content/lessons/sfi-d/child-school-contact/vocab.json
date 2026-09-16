@@ -6,6 +6,7 @@
       "translations": { "ru": "родительское собрание", "en": "parents' meeting" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett föräldramöte", "defSg": "föräldramötet", "indefPl": "föräldramöten", "defPl": "föräldramötena" },
       "example": { "sv": "Föräldramötet är på torsdag klockan sex.", "ru": "Родительское собрание в четверг в шесть.", "en": "The parents' meeting is on Thursday at six." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "беседа о развитии ребёнка", "en": "development talk (parent-teacher conference)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett utvecklingssamtal", "defSg": "utvecklingssamtalet", "indefPl": "utvecklingssamtal", "defPl": "utvecklingssamtalen" },
       "example": { "sv": "Vi har utvecklingssamtal en gång per termin.", "ru": "У нас беседа о развитии ребёнка раз в семестр.", "en": "We have a development talk once per term." }
     },
     {
@@ -31,6 +33,7 @@
       "translations": { "ru": "классный руководитель", "en": "class teacher" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en klasslärare", "defSg": "klassläraren", "indefPl": "klasslärare", "defPl": "klasslärarna" },
       "example": { "sv": "Klassläraren skickar meddelanden via appen.", "ru": "Классный руководитель присылает сообщения через приложение.", "en": "The class teacher sends messages via the app." }
     },
     {
@@ -39,6 +42,7 @@
       "translations": { "ru": "отсутствие (пропуск)", "en": "absence" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en frånvaro", "defSg": "frånvaron", "indefPl": "frånvaror", "defPl": "frånvarorna" },
       "example": { "sv": "Anmäl frånvaro innan klockan åtta.", "ru": "Сообщи об отсутствии до восьми часов.", "en": "Report the absence before eight o'clock." }
     },
     {
@@ -47,6 +51,7 @@
       "translations": { "ru": "школьная платформа (приложение)", "en": "school platform (app)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en skolplattform", "defSg": "skolplattformen", "indefPl": "skolplattformar", "defPl": "skolplattformarna" },
       "example": { "sv": "Allt skickas via skolplattformen.", "ru": "Всё отправляется через школьную платформу.", "en": "Everything is sent via the school platform." }
     },
     {
@@ -55,6 +60,7 @@
       "translations": { "ru": "оценка", "en": "grade" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett betyg", "defSg": "betyget", "indefPl": "betyg", "defPl": "betygen" },
       "example": { "sv": "Hon fick bra betyg i matematik.", "ru": "У неё хорошая оценка по математике.", "en": "She got a good grade in maths." }
     },
     {
@@ -63,6 +69,7 @@
       "translations": { "ru": "буллинг (травля)", "en": "bullying" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en mobbning", "defSg": "mobbningen", "indefPl": "mobbningar", "defPl": "mobbningarna" },
       "example": { "sv": "Skolan har en plan mot mobbning.", "ru": "У школы есть план против буллинга.", "en": "The school has an anti-bullying plan." }
     },
     {
@@ -70,6 +77,8 @@
       "sv": "fritids",
       "translations": { "ru": "группа продлённого дня", "en": "after-school care" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "fritids", "defSg": "fritids", "indefPl": "fritids", "defPl": "fritids" },
       "example": { "sv": "Han går på fritids efter skolan.", "ru": "Он ходит на продлёнку после школы.", "en": "He goes to after-school care after school." }
     },
     {

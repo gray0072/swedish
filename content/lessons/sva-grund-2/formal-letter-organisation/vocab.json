@@ -30,6 +30,7 @@
       "sv": "vända sig till",
       "translations": { "ru": "обращаться к", "en": "to turn to, to contact" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "vända sig till", "present": "vänder sig till", "past": "vände sig till", "supine": "vänt sig till" },
       "example": { "sv": "Jag vänder mig till er angående min ansökan.", "ru": "Я обращаюсь к вам относительно моего заявления.", "en": "I am contacting you regarding my application." }
     },
@@ -92,6 +93,7 @@
       "sv": "tacksam",
       "translations": { "ru": "благодарный", "en": "grateful" },
       "pos": "adj",
+      "forms": { "positive": "tacksam", "neuter": "tacksamt", "plural": "tacksamma", "comparative": "tacksammare", "superlative": "tacksammast" },
       "example": { "sv": "Jag är tacksam för ett snabbt svar.", "ru": "Буду благодарен(на) за быстрый ответ.", "en": "I would be grateful for a prompt reply." }
     },
     {
@@ -134,6 +136,7 @@
       "sv": "formell",
       "translations": { "ru": "формальный, официальный", "en": "formal" },
       "pos": "adj",
+      "forms": { "positive": "formell", "neuter": "formellt", "plural": "formella", "comparative": "formellare", "superlative": "formellast" },
       "example": { "sv": "Ett brev till en myndighet ska vara formellt.", "ru": "Письмо в ведомство должно быть формальным.", "en": "A letter to an authority should be formal." }
     },
     {

@@ -6,7 +6,8 @@
       "translations": { "ru": "экономическая конъюнктура, экономический цикл", "en": "the business cycle, economic conditions" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" }
+      "forms": { "indefSg": "en konjunktur", "defSg": "konjunkturen", "indefPl": "konjunkturer", "defPl": "konjunkturerna" },
+      "example": { "sv": "Konjunkturen påverkar hur lätt det är att hitta jobb.", "ru": "Экономическая конъюнктура влияет на то, насколько легко найти работу.", "en": "The business cycle affects how easy it is to find a job." }
     },
     {
       "id": "hogkonjunktur",
@@ -31,7 +32,9 @@
       "sv": "arbetslöshet",
       "translations": { "ru": "безработица", "en": "unemployment" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "arbetslöshet", "defSg": "arbetslösheten", "indefPl": "arbetslösheter", "defPl": "arbetslösheterna" },
+      "example": { "sv": "Arbetslösheten har ökat bland unga det senaste året.", "ru": "Безработица среди молодёжи выросла за последний год.", "en": "Unemployment among young people has increased over the past year." }
     },
     {
       "id": "arbetsloshetsniva",
@@ -48,7 +51,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en bruttonationalprodukt", "defSg": "bruttonationalprodukten", "indefPl": "bruttonationalprodukter", "defPl": "bruttonationalprodukterna" },
-      "note": { "ru": "Обычно сокращается до BNP.", "en": "Usually abbreviated as BNP." }
+      "note": { "ru": "Обычно сокращается до BNP.", "en": "Usually abbreviated as BNP." },
+      "example": { "sv": "Bruttonationalprodukten mäter landets ekonomiska produktion.", "ru": "Валовой внутренний продукт измеряет экономическое производство страны.", "en": "Gross domestic product measures the country's economic output." }
     },
     {
       "id": "bnp",
@@ -71,7 +75,8 @@
       "translations": { "ru": "уровень зарплат", "en": "wage level" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en lönenivå", "defSg": "lönenivån", "indefPl": "lönenivåer", "defPl": "lönenivåerna" }
+      "forms": { "indefSg": "en lönenivå", "defSg": "lönenivån", "indefPl": "lönenivåer", "defPl": "lönenivåerna" },
+      "example": { "sv": "Lönenivån skiljer sig mycket mellan olika branscher.", "ru": "Уровень зарплат сильно отличается между разными отраслями.", "en": "Wage levels differ greatly between industries." }
     },
     {
       "id": "branschtrend",
@@ -87,13 +92,16 @@
       "sv": "tillväxt",
       "translations": { "ru": "экономический рост", "en": "growth" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "tillväxt", "defSg": "tillväxten", "indefPl": "tillväxter", "defPl": "tillväxterna" },
+      "example": { "sv": "Den ekonomiska tillväxten var svag förra året.", "ru": "Экономический рост в прошлом году был слабым.", "en": "Economic growth was weak last year." }
     },
     {
       "id": "ekonomisk",
       "sv": "ekonomisk",
       "translations": { "ru": "экономический", "en": "economic" },
       "pos": "adj",
+      "forms": { "positive": "ekonomisk", "neuter": "ekonomiskt", "plural": "ekonomiska", "comparative": "mer ekonomisk", "superlative": "mest ekonomisk" },
       "example": { "sv": "Landet har haft stark ekonomisk tillväxt de senaste åren.", "ru": "В стране в последние годы был сильный экономический рост.", "en": "The country has had strong economic growth in recent years." }
     },
     {
@@ -101,7 +109,9 @@
       "sv": "köpkraft",
       "translations": { "ru": "покупательная способность", "en": "purchasing power" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "köpkraft", "defSg": "köpkraften", "indefPl": "köpkrafter", "defPl": "köpkrafterna" },
+      "example": { "sv": "Höga priser minskar hushållens köpkraft.", "ru": "Высокие цены снижают покупательную способность домохозяйств.", "en": "High prices reduce households' purchasing power." }
     },
     {
       "id": "levnadskostnad",
@@ -109,7 +119,8 @@
       "translations": { "ru": "стоимость жизни", "en": "cost of living" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en levnadskostnad", "defSg": "levnadskostnaden", "indefPl": "levnadskostnader", "defPl": "levnadskostnaderna" }
+      "forms": { "indefSg": "en levnadskostnad", "defSg": "levnadskostnaden", "indefPl": "levnadskostnader", "defPl": "levnadskostnaderna" },
+      "example": { "sv": "Levnadskostnaderna har ökat kraftigt i storstäderna.", "ru": "Стоимость жизни сильно выросла в крупных городах.", "en": "The cost of living has risen sharply in big cities." }
     },
     {
       "id": "ranta-trend",
@@ -117,7 +128,8 @@
       "translations": { "ru": "процентная ставка", "en": "interest rate" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" }
+      "forms": { "indefSg": "en ränta", "defSg": "räntan", "indefPl": "räntor", "defPl": "räntorna" },
+      "example": { "sv": "Räntan påverkar hur mycket det kostar att låna pengar.", "ru": "Процентная ставка влияет на то, сколько стоит брать деньги в долг.", "en": "The interest rate affects how much it costs to borrow money." }
     },
     {
       "id": "rantehojning",
@@ -125,7 +137,8 @@
       "translations": { "ru": "повышение процентной ставки", "en": "interest rate hike" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en räntehöjning", "defSg": "räntehöjningen", "indefPl": "räntehöjningar", "defPl": "räntehöjningarna" }
+      "forms": { "indefSg": "en räntehöjning", "defSg": "räntehöjningen", "indefPl": "räntehöjningar", "defPl": "räntehöjningarna" },
+      "example": { "sv": "Riksbanken meddelade en ny räntehöjning i veckan.", "ru": "Национальный банк объявил о новом повышении процентной ставки на этой неделе.", "en": "The central bank announced a new interest rate hike this week." }
     },
     {
       "id": "rantesankning",
@@ -133,7 +146,8 @@
       "translations": { "ru": "понижение процентной ставки", "en": "interest rate cut" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en räntesänkning", "defSg": "räntesänkningen", "indefPl": "räntesänkningar", "defPl": "räntesänkningarna" }
+      "forms": { "indefSg": "en räntesänkning", "defSg": "räntesänkningen", "indefPl": "räntesänkningar", "defPl": "räntesänkningarna" },
+      "example": { "sv": "En räntesänkning kan stimulera ekonomin.", "ru": "Понижение процентной ставки может стимулировать экономику.", "en": "An interest rate cut can stimulate the economy." }
     },
     {
       "id": "prognos",
@@ -167,13 +181,16 @@
       "sv": "statistik",
       "translations": { "ru": "статистика", "en": "statistics" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "statistik", "defSg": "statistiken", "indefPl": "statistik", "defPl": "statistiken" },
+      "example": { "sv": "Statistiken visar en tydlig nedgång i arbetslösheten.", "ru": "Статистика показывает явное снижение безработицы.", "en": "The statistics show a clear decline in unemployment." }
     },
     {
       "id": "konjunkturen-vander",
       "sv": "konjunkturen vänder",
       "translations": { "ru": "экономический цикл разворачивается", "en": "the economic cycle turns around" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ekonomer tror att konjunkturen vänder redan nästa kvartal.", "ru": "Экономисты считают, что экономический цикл развернётся уже в следующем квартале.", "en": "Economists believe the economic cycle will turn around as early as next quarter." }
     },
     {
       "id": "analytiker",
@@ -181,7 +198,8 @@
       "translations": { "ru": "аналитик", "en": "analyst" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en analytiker", "defSg": "analytikern", "indefPl": "analytiker", "defPl": "analytikerna" }
+      "forms": { "indefSg": "en analytiker", "defSg": "analytikern", "indefPl": "analytiker", "defPl": "analytikerna" },
+      "example": { "sv": "En analytiker förklarade orsakerna till räntehöjningen.", "ru": "Аналитик объяснил причины повышения процентной ставки.", "en": "An analyst explained the reasons behind the interest rate hike." }
     }
   ]
 }

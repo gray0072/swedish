@@ -50,8 +50,8 @@
       "sv": "byxor",
       "translations": { "ru": "брюки", "en": "pants" },
       "pos": "noun",
-      "gender": null,
-      "forms": null,
+      "gender": "en",
+      "forms": { "indefSg": "en byxa", "defSg": "byxan", "indefPl": "byxor", "defPl": "byxorna" },
       "note": { "ru": "Всегда множественное число, как в английском «pants».", "en": "Always plural, like English \"pants\"." },
       "example": { "sv": "De här byxorna är nya.", "ru": "Эти брюки новые.", "en": "These pants are new." }
     },
@@ -141,8 +141,8 @@
       "sv": "glasögon",
       "translations": { "ru": "очки", "en": "glasses" },
       "pos": "noun",
-      "gender": null,
-      "forms": null,
+      "gender": "ett",
+      "forms": { "indefSg": "ett glasögon", "defSg": "glasögonet", "indefPl": "glasögon", "defPl": "glasögonen" },
       "note": { "ru": "Всегда множественное число, как в английском «glasses».", "en": "Always plural, like English \"glasses\"." },
       "example": { "sv": "Jag ser inget utan glasögon.", "ru": "Я ничего не вижу без очков.", "en": "I can't see anything without glasses." }
     }

@@ -65,6 +65,7 @@
       "translations": { "ru": "молоко", "en": "milk" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en mjölk", "defSg": "mjölken", "indefPl": "mjölkar", "defPl": "mjölkarna" },
       "example": { "sv": "Kan du köpa mjölk?", "ru": "Можешь купить молоко?", "en": "Can you buy milk?" }
     },
     {
@@ -73,6 +74,7 @@
       "translations": { "ru": "хлеб", "en": "bread" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett bröd", "defSg": "brödet", "indefPl": "bröd", "defPl": "bröden" },
       "example": { "sv": "Vi behöver mer bröd.", "ru": "Нам нужно больше хлеба.", "en": "We need more bread." }
     },
     {

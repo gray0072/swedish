@@ -5,6 +5,7 @@
       "sv": "stor",
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "note": { "ru": "с ett-словом: stort; во мн. ч.: stora", "en": "with an ett-word: stort; plural: stora" },
       "example": { "sv": "En stor bil. Ett stort hus.", "ru": "Большая машина. Большой дом.", "en": "A big car. A big house." }
     },
@@ -13,6 +14,7 @@
       "sv": "fin",
       "translations": { "ru": "красивый, хороший", "en": "nice, fine" },
       "pos": "adj",
+      "forms": { "positive": "fin", "neuter": "fint", "plural": "fina", "comparative": "finare", "superlative": "finast" },
       "note": { "ru": "с ett-словом: fint; во мн. ч.: fina", "en": "with an ett-word: fint; plural: fina" },
       "example": { "sv": "En fin dag. Ett fint hus.", "ru": "Хороший день. Красивый дом.", "en": "A nice day. A nice house." }
     },
@@ -21,6 +23,7 @@
       "sv": "ny",
       "translations": { "ru": "новый", "en": "new" },
       "pos": "adj",
+      "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "note": { "ru": "с ett-словом: nytt; во мн. ч.: nya", "en": "with an ett-word: nytt; plural: nya" },
       "example": { "sv": "En ny bil. Ett nytt hus.", "ru": "Новая машина. Новый дом.", "en": "A new car. A new house." }
     },
@@ -29,6 +32,7 @@
       "sv": "gammal",
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "note": { "ru": "с ett-словом: gammalt; во мн. ч.: gamla", "en": "with an ett-word: gammalt; plural: gamla" },
       "example": { "sv": "En gammal bil. Ett gammalt hus.", "ru": "Старая машина. Старый дом.", "en": "An old car. An old house." }
     },
@@ -37,6 +41,7 @@
       "sv": "snäll",
       "translations": { "ru": "добрый, милый", "en": "kind" },
       "pos": "adj",
+      "forms": { "positive": "snäll", "neuter": "snällt", "plural": "snälla", "comparative": "snällare", "superlative": "snällast" },
       "note": { "ru": "с ett-словом: snällt; во мн. ч.: snälla", "en": "with an ett-word: snällt; plural: snälla" },
       "example": { "sv": "Hon är snäll.", "ru": "Она добрая.", "en": "She is kind." }
     },
@@ -45,6 +50,7 @@
       "sv": "glad",
       "translations": { "ru": "радостный, довольный", "en": "happy, glad" },
       "pos": "adj",
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
       "note": { "ru": "с ett-словом: glatt; во мн. ч.: glada", "en": "with an ett-word: glatt; plural: glada" },
       "example": { "sv": "Barnet är glatt.", "ru": "Ребёнок радостный.", "en": "The child is happy." }
     },
@@ -53,6 +59,7 @@
       "sv": "billig",
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "note": { "ru": "с ett-словом: billigt; во мн. ч.: billiga", "en": "with an ett-word: billigt; plural: billiga" },
       "example": { "sv": "En billig bil. Ett billigt hus.", "ru": "Дешёвая машина. Дешёвый дом.", "en": "A cheap car. A cheap house." }
     },
@@ -61,6 +68,7 @@
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "note": { "ru": "с ett-словом: dyrt; во мн. ч.: dyra", "en": "with an ett-word: dyrt; plural: dyra" },
       "example": { "sv": "Bilen är dyr. Huset är dyrt.", "ru": "Машина дорогая. Дом дорогой.", "en": "The car is expensive. The house is expensive." }
     },

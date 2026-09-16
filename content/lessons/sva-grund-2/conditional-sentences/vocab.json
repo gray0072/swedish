@@ -12,6 +12,7 @@
       "sv": "skulle",
       "translations": { "ru": "(вспом. глагол для нереального условия) бы", "en": "would (auxiliary for unreal conditions)" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
       "example": { "sv": "Jag skulle resa mer om jag hade tid.", "ru": "Я бы путешествовал больше, если бы у меня было время.", "en": "I would travel more if I had time." }
     },
@@ -48,6 +49,7 @@
       "translations": { "ru": "гипотетический", "en": "hypothetical" },
       "pos": "adj",
       "note": { "ru": "ett-форма: hypotetiskt, мн.ч.: hypotetiska", "en": "ett-form: hypotetiskt, plural: hypotetiska" },
+      "forms": { "positive": "hypotetisk", "neuter": "hypotetiskt", "plural": "hypotetiska", "comparative": "mer hypotetisk", "superlative": "mest hypotetisk" },
       "example": { "sv": "Det är bara en hypotetisk fråga.", "ru": "Это всего лишь гипотетический вопрос.", "en": "It's just a hypothetical question." }
     },
     {
@@ -56,6 +58,7 @@
       "translations": { "ru": "реальный, настоящий", "en": "real" },
       "pos": "adj",
       "note": { "ru": "ett-форма: verkligt, мн.ч.: verkliga", "en": "ett-form: verkligt, plural: verkliga" },
+      "forms": { "positive": "verklig", "neuter": "verkligt", "plural": "verkliga", "comparative": "mer verklig", "superlative": "mest verklig" },
       "example": { "sv": "Det här är ett verkligt problem.", "ru": "Это реальная проблема.", "en": "This is a real problem." }
     },
     {

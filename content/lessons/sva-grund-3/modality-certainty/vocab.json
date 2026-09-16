@@ -6,7 +6,8 @@
       "translations": { "ru": "должен, должно быть", "en": "must, must be" },
       "pos": "verb",
       "forms": { "infinitive": "måste", "present": "måste", "past": "måste", "supine": "måst" },
-      "note": { "ru": "Модальный глагол: сильная необходимость или сильный логический вывод.", "en": "A modal verb: strong necessity or a strong logical inference." }
+      "note": { "ru": "Модальный глагол: сильная необходимость или сильный логический вывод.", "en": "A modal verb: strong necessity or a strong logical inference." },
+      "example": { "sv": "Han måste ha glömt mötet, han svarar inte alls.", "ru": "Он, должно быть, забыл о встрече — он совсем не отвечает.", "en": "He must have forgotten the meeting, he's not answering at all." }
     },
     {
       "id": "bora",
@@ -14,27 +15,33 @@
       "translations": { "ru": "следовало бы, должно быть (ожидаемо)", "en": "should, ought to (expectation)" },
       "pos": "verb",
       "forms": { "infinitive": "böra", "present": "bör", "past": "borde", "supine": "bort" },
-      "note": { "ru": "Форма претерита borde часто используется как самостоятельное модальное значение «должно быть».", "en": "The preterite form borde is often used as a standalone modal meaning \"should be.\"" }
+      "note": { "ru": "Форма претерита borde часто используется как самостоятельное модальное значение «должно быть».", "en": "The preterite form borde is often used as a standalone modal meaning \"should be.\"" },
+      "example": { "sv": "Det borde vara varmt i Spanien nu.", "ru": "В Испании сейчас, должно быть, тепло.", "en": "It should be warm in Spain now." }
     },
     {
       "id": "lar",
       "sv": "lär",
       "translations": { "ru": "говорят, что...", "en": "is said to, reportedly" },
       "pos": "verb",
-      "note": { "ru": "Эвиденциальное значение: информация из чужих слов, а не от самого говорящего.", "en": "An evidential meaning: information from hearsay, not the speaker's own knowledge." }
+      "forms": { "infinitive": "lär", "present": "lär", "past": "lär", "supine": "lärt" },
+      "note": { "ru": "Эвиденциальное значение: информация из чужих слов, а не от самого говорящего.", "en": "An evidential meaning: information from hearsay, not the speaker's own knowledge." },
+      "example": { "sv": "Han lär vara mycket duktig på matematik.", "ru": "Говорят, он очень хорошо разбирается в математике.", "en": "He is said to be very good at mathematics." }
     },
     {
       "id": "torde",
       "sv": "torde",
       "translations": { "ru": "по-видимому (книжн.)", "en": "presumably (formal/written)" },
       "pos": "verb",
-      "note": { "ru": "Устаревшая, книжная модальная форма — почти не встречается в устной речи.", "en": "An archaic, written modal form — rarely heard in speech." }
+      "forms": { "infinitive": "töra", "present": "tör", "past": "torde", "supine": "torts" },
+      "note": { "ru": "Устаревшая, книжная модальная форма — почти не встречается в устной речи.", "en": "An archaic, written modal form — rarely heard in speech." },
+      "example": { "sv": "Det torde vara den bästa lösningen i det här läget.", "ru": "По-видимому, это лучшее решение в данной ситуации.", "en": "It is presumably the best solution in this situation." }
     },
     {
       "id": "kanske",
       "sv": "kanske",
       "translations": { "ru": "может быть", "en": "maybe, perhaps" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Kanske kommer hon till festen, jag vet inte säkert.", "ru": "Может быть, она придёт на вечеринку, я точно не знаю.", "en": "Maybe she'll come to the party, I don't know for sure." }
     },
     {
       "id": "sakerhet",
@@ -42,7 +49,8 @@
       "translations": { "ru": "уверенность", "en": "certainty" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" }
+      "forms": { "indefSg": "säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" },
+      "example": { "sv": "Han talade med stor säkerhet om framtiden.", "ru": "Он говорил о будущем с большой уверенностью.", "en": "He spoke about the future with great certainty." }
     },
     {
       "id": "anta",
@@ -50,7 +58,8 @@
       "translations": { "ru": "предполагать", "en": "to assume, suppose" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" }
+      "forms": { "infinitive": "anta", "present": "antar", "past": "antog", "supine": "antagit" },
+      "example": { "sv": "Jag antar att hon redan har åkt hem.", "ru": "Я предполагаю, что она уже уехала домой.", "en": "I assume she has already gone home." }
     },
     {
       "id": "granne",
@@ -58,7 +67,8 @@
       "translations": { "ru": "сосед", "en": "neighbour" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" }
+      "forms": { "indefSg": "granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
+      "example": { "sv": "Min granne lär flytta till en annan stad.", "ru": "Мой сосед, говорят, переезжает в другой город.", "en": "My neighbour is said to be moving to another city." }
     },
     {
       "id": "lampa",
@@ -66,13 +76,16 @@
       "translations": { "ru": "лампа", "en": "lamp" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "lampa", "defSg": "lampan", "indefPl": "lampor", "defPl": "lamporna" }
+      "forms": { "indefSg": "lampa", "defSg": "lampan", "indefPl": "lampor", "defPl": "lamporna" },
+      "example": { "sv": "Lampan i köket måste vara trasig, den lyser inte.", "ru": "Лампа на кухне, должно быть, сломана — она не горит.", "en": "The lamp in the kitchen must be broken, it isn't lighting up." }
     },
     {
       "id": "tand",
       "sv": "tänd",
       "translations": { "ru": "зажжённый, включённый (о свете)", "en": "lit, switched on (of light)" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "tänd", "neuter": "tänt", "plural": "tända", "comparative": "mer tänd", "superlative": "mest tänd" },
+      "example": { "sv": "Lampan är tänd, så någon måste vara hemma.", "ru": "Лампа горит, значит, дома, должно быть, кто-то есть.", "en": "The lamp is lit, so someone must be home." }
     },
     {
       "id": "pris",
@@ -80,7 +93,8 @@
       "translations": { "ru": "цена", "en": "price" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" }
+      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" },
+      "example": { "sv": "Priset borde sjunka snart, enligt experterna.", "ru": "По словам экспертов, цена скоро должна упасть.", "en": "The price should fall soon, according to the experts." }
     },
     {
       "id": "stiga",
@@ -88,7 +102,8 @@
       "translations": { "ru": "подниматься, расти", "en": "to rise" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "stiga", "present": "stiger", "past": "steg", "supine": "stigit" }
+      "forms": { "infinitive": "stiga", "present": "stiger", "past": "steg", "supine": "stigit" },
+      "example": { "sv": "Priserna lär stiga igen till hösten.", "ru": "Говорят, цены снова вырастут к осени.", "en": "Prices are said to rise again by autumn." }
     }
   ]
 }

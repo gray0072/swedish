@@ -5,6 +5,7 @@
       "sv": "snäll",
       "translations": { "ru": "добрый, милый", "en": "kind" },
       "pos": "adj",
+      "forms": { "positive": "snäll", "neuter": "snällt", "plural": "snälla", "comparative": "snällare", "superlative": "snällast" },
       "example": { "sv": "Läraren är snäll.", "ru": "Учитель добрый.", "en": "The teacher is kind." },
       "note": { "sv": "snäll / snällt / snälla" }
     },
@@ -13,6 +14,7 @@
       "sv": "ny",
       "translations": { "ru": "новый", "en": "new" },
       "pos": "adj",
+      "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "example": { "sv": "Vi har en ny bil.", "ru": "У нас новая машина.", "en": "We have a new car." },
       "note": { "sv": "ny / nytt / nya" }
     },
@@ -21,6 +23,7 @@
       "sv": "dum",
       "translations": { "ru": "глупый", "en": "silly, dumb" },
       "pos": "adj",
+      "forms": { "positive": "dum", "neuter": "dumt", "plural": "dumma", "comparative": "dummare", "superlative": "dummast" },
       "example": { "sv": "Det var en dum idé.", "ru": "Это была глупая идея.", "en": "That was a silly idea." },
       "note": { "sv": "dum / dumt / dumma" }
     },
@@ -29,6 +32,7 @@
       "sv": "snabb",
       "translations": { "ru": "быстрый", "en": "fast" },
       "pos": "adj",
+      "forms": { "positive": "snabb", "neuter": "snabbt", "plural": "snabba", "comparative": "snabbare", "superlative": "snabbast" },
       "example": { "sv": "Tåget är snabbt.", "ru": "Поезд быстрый.", "en": "The train is fast." },
       "note": { "sv": "snabb / snabbt / snabba" }
     },
@@ -37,6 +41,7 @@
       "sv": "svag",
       "translations": { "ru": "слабый", "en": "weak" },
       "pos": "adj",
+      "forms": { "positive": "svag", "neuter": "svagt", "plural": "svaga", "comparative": "svagare", "superlative": "svagast" },
       "example": { "sv": "Kaffet är svagt.", "ru": "Кофе слабый.", "en": "The coffee is weak." },
       "note": { "sv": "svag / svagt / svaga" }
     },
@@ -45,6 +50,7 @@
       "sv": "stark",
       "translations": { "ru": "сильный", "en": "strong" },
       "pos": "adj",
+      "forms": { "positive": "stark", "neuter": "starkt", "plural": "starka", "comparative": "starkare", "superlative": "starkast" },
       "example": { "sv": "Han är stark.", "ru": "Он сильный.", "en": "He is strong." },
       "note": { "sv": "stark / starkt / starka" }
     },
@@ -53,6 +59,7 @@
       "sv": "rolig",
       "translations": { "ru": "весёлый, забавный", "en": "fun" },
       "pos": "adj",
+      "forms": { "positive": "rolig", "neuter": "roligt", "plural": "roliga", "comparative": "roligare", "superlative": "roligast" },
       "example": { "sv": "Filmen var rolig.", "ru": "Фильм был весёлым.", "en": "The film was fun." },
       "note": { "sv": "rolig / roligt / roliga" }
     },
@@ -61,6 +68,7 @@
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Lägenheten är dyr.", "ru": "Квартира дорогая.", "en": "The apartment is expensive." },
       "note": { "sv": "dyr / dyrt / dyra" }
     },
@@ -69,6 +77,7 @@
       "sv": "billig",
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "example": { "sv": "Det här är ett billigt hus.", "ru": "Это дешёвый дом.", "en": "This is a cheap house." },
       "note": { "sv": "billig / billigt / billiga" }
     },
@@ -77,6 +86,7 @@
       "sv": "glad",
       "translations": { "ru": "радостный, довольный", "en": "happy, glad" },
       "pos": "adj",
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
       "example": { "sv": "Barnen är glada.", "ru": "Дети радостные.", "en": "The children are happy." },
       "note": { "sv": "glad / glatt / glada" }
     },

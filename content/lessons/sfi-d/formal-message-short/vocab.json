@@ -20,6 +20,7 @@
       "translations": { "ru": "арендодатель", "en": "landlord" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en hyresvärd", "defSg": "hyresvärden", "indefPl": "hyresvärdar", "defPl": "hyresvärdarna" },
       "example": { "sv": "Jag mejlade min hyresvärd om felet.", "ru": "Я написал(а) арендодателю о поломке.", "en": "I emailed my landlord about the fault." }
     },
     {
@@ -60,6 +61,7 @@
       "translations": { "ru": "тема (письма)", "en": "subject (of a message)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett ämne", "defSg": "ämnet", "indefPl": "ämnen", "defPl": "ämnena" },
       "example": { "sv": "Skriv ett tydligt ämne i mejlet.", "ru": "Напиши понятную тему письма.", "en": "Write a clear subject in the email." }
     },
     {

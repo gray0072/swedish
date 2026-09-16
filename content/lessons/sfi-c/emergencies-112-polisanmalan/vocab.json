@@ -5,7 +5,8 @@
       "sv": "Ring 112!",
       "translations": { "ru": "Звоните 112!", "en": "Call 112!" },
       "pos": "phrase",
-      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." }
+      "note": { "ru": "112 читается: ett — ett — två.", "en": "112 is read out as: ett — ett — två." },
+      "example": { "sv": "Ring 112 om det är akut!", "ru": "Звоните 112, если это срочно!", "en": "Call 112 if it's urgent!" }
     },
     {
       "id": "ambulans",
@@ -20,7 +21,8 @@
       "id": "vad-har-hant",
       "sv": "Vad har hänt?",
       "translations": { "ru": "Что случилось?", "en": "What happened?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vad har hänt här?", "ru": "Что случилось здесь?", "en": "What happened here?" }
     },
     {
       "id": "beskriva",
@@ -35,19 +37,22 @@
       "id": "kan-du-beskriva-vad-som-hande",
       "sv": "Kan du beskriva vad som hände?",
       "translations": { "ru": "Можешь описать, что случилось?", "en": "Can you describe what happened?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Polisen frågade: Kan du beskriva vad som hände?", "ru": "Полиция спросила: Можешь описать, что случилось?", "en": "The police asked: Can you describe what happened?" }
     },
     {
       "id": "var-hande-det",
       "sv": "Var hände det?",
       "translations": { "ru": "Где это случилось?", "en": "Where did it happen?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Var hände det, på gatan eller hemma?", "ru": "Где это случилось — на улице или дома?", "en": "Where did it happen — on the street or at home?" }
     },
     {
       "id": "nar-hande-det",
       "sv": "När hände det?",
       "translations": { "ru": "Когда это случилось?", "en": "When did it happen?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "När hände det, i morse eller igår?", "ru": "Когда это случилось — сегодня утром или вчера?", "en": "When did it happen — this morning or yesterday?" }
     },
     {
       "id": "stold",
@@ -80,7 +85,8 @@
       "id": "jag-vill-anmala-en-stold",
       "sv": "Jag vill anmäla en stöld.",
       "translations": { "ru": "Я хочу заявить о краже.", "en": "I want to report a theft." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag vill anmäla en stöld på stationen.", "ru": "Я хочу заявить о краже в участке.", "en": "I want to report a theft at the station." }
     },
     {
       "id": "forlorad",
@@ -88,6 +94,7 @@
       "translations": { "ru": "потерянный, утраченный", "en": "lost" },
       "pos": "adj",
       "note": { "ru": "ett-форма: förlorat, мн.ч.: förlorade", "en": "ett-form: förlorat, plural: förlorade" },
+      "forms": { "positive": "förlorad", "neuter": "förlorat", "plural": "förlorade", "comparative": "mer förlorad", "superlative": "mest förlorad" },
       "example": { "sv": "Mina förlorade dokument hittades aldrig.", "ru": "Мои утерянные документы так и не нашлись.", "en": "My lost documents were never found." }
     },
     {
@@ -103,7 +110,8 @@
       "id": "mitt-pass-ar-borta",
       "sv": "Mitt pass är borta.",
       "translations": { "ru": "Мой паспорт пропал.", "en": "My passport is gone." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Mitt pass är borta – jag måste anmäla det.", "ru": "Мой паспорт пропал — мне нужно об этом заявить.", "en": "My passport is gone – I need to report it." }
     },
     {
       "id": "dokument",
@@ -120,6 +128,7 @@
       "translations": { "ru": "срочный, неотложный", "en": "urgent, acute" },
       "pos": "adj",
       "note": { "ru": "неизменяемое прилагательное", "en": "invariable adjective" },
+      "forms": { "positive": "akut", "neuter": "akut", "plural": "akuta", "comparative": "mer akut", "superlative": "mest akut" },
       "example": { "sv": "Det är en akut situation.", "ru": "Это неотложная ситуация.", "en": "This is an urgent situation." }
     }
   ]

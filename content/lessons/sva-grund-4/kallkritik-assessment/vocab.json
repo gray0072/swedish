@@ -86,6 +86,7 @@
       "sv": "vinklad",
       "translations": { "ru": "предвзятый, тенденциозно поданный", "en": "biased, slanted" },
       "pos": "adj",
+      "forms": { "positive": "vinklad", "neuter": "vinklat", "plural": "vinklade", "comparative": "mer vinklad", "superlative": "mest vinklad" },
       "example": { "sv": "Artikeln är vinklad och visar bara en sida av frågan.", "ru": "Статья предвзята и показывает только одну сторону вопроса.", "en": "The article is slanted and shows only one side of the question." }
     },
     {
@@ -93,6 +94,7 @@
       "sv": "opartisk",
       "translations": { "ru": "беспристрастный", "en": "impartial" },
       "pos": "adj",
+      "forms": { "positive": "opartisk", "neuter": "opartiskt", "plural": "opartiska", "comparative": "mer opartisk", "superlative": "mest opartisk" },
       "example": { "sv": "En domstol förväntas vara opartisk.", "ru": "От суда ожидают беспристрастности.", "en": "A court is expected to be impartial." }
     },
     {

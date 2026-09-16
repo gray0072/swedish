@@ -59,6 +59,7 @@
       "sv": "rund",
       "translations": { "ru": "круглый", "en": "round" },
       "pos": "adj",
+      "forms": { "positive": "rund", "neuter": "runt", "plural": "runda", "comparative": "rundare", "superlative": "rundast" },
       "note": { "ru": "ett-форма: runt, мн.ч.: runda", "en": "ett-form: runt, plural: runda" },
       "example": { "sv": "Bordet är runt.", "ru": "Стол круглый.", "en": "The table is round." }
     },
@@ -67,6 +68,7 @@
       "sv": "fyrkantig",
       "translations": { "ru": "квадратный, четырёхугольный", "en": "square-shaped, four-sided" },
       "pos": "adj",
+      "forms": { "positive": "fyrkantig", "neuter": "fyrkantigt", "plural": "fyrkantiga", "comparative": "fyrkantigare", "superlative": "fyrkantigast" },
       "note": { "ru": "ett-форма: fyrkantigt, мн.ч.: fyrkantiga", "en": "ett-form: fyrkantigt, plural: fyrkantiga" },
       "example": { "sv": "Fönstret är fyrkantigt.", "ru": "Окно квадратное.", "en": "The window is square." }
     },
@@ -75,6 +77,7 @@
       "sv": "stor",
       "translations": { "ru": "большой", "en": "big, large" },
       "pos": "adj",
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "note": { "ru": "ett-форма: stort, мн.ч.: stora", "en": "ett-form: stort, plural: stora" },
       "example": { "sv": "Vi bor i ett stort hus.", "ru": "Мы живём в большом доме.", "en": "We live in a big house." }
     },
@@ -83,6 +86,7 @@
       "sv": "liten",
       "translations": { "ru": "маленький", "en": "small, little" },
       "pos": "adj",
+      "forms": { "positive": "liten", "neuter": "litet", "plural": "små", "comparative": "mindre", "superlative": "minst" },
       "note": { "ru": "Неправильное: liten / litet / lilla / små. Надо выучить наизусть.", "en": "Irregular: liten / litet / lilla / små. Learn it by heart." },
       "example": { "sv": "Jag har en liten bil.", "ru": "У меня маленькая машина.", "en": "I have a small car." }
     },
@@ -91,6 +95,7 @@
       "sv": "lång",
       "translations": { "ru": "длинный; высокий (о человеке)", "en": "long; tall (of a person)" },
       "pos": "adj",
+      "forms": { "positive": "lång", "neuter": "långt", "plural": "långa", "comparative": "längre", "superlative": "längst" },
       "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
       "example": { "sv": "Min bror är lång.", "ru": "Мой брат высокий.", "en": "My brother is tall." }
     },
@@ -99,6 +104,7 @@
       "sv": "kort",
       "translations": { "ru": "короткий", "en": "short" },
       "pos": "adj",
+      "forms": { "positive": "kort", "neuter": "kort", "plural": "korta", "comparative": "kortare", "superlative": "kortast" },
       "note": { "ru": "ett-форма: kort, мн.ч.: korta", "en": "ett-form: kort, plural: korta" },
       "example": { "sv": "Vägen är kort.", "ru": "Дорога короткая.", "en": "The road is short." }
     },
@@ -107,6 +113,7 @@
       "sv": "hög",
       "translations": { "ru": "высокий", "en": "high, tall" },
       "pos": "adj",
+      "forms": { "positive": "hög", "neuter": "högt", "plural": "höga", "comparative": "högre", "superlative": "högst" },
       "note": { "ru": "ett-форма: högt, мн.ч.: höga", "en": "ett-form: högt, plural: höga" },
       "example": { "sv": "Berget är högt.", "ru": "Гора высокая.", "en": "The mountain is high." }
     },
@@ -115,6 +122,7 @@
       "sv": "låg",
       "translations": { "ru": "низкий", "en": "low" },
       "pos": "adj",
+      "forms": { "positive": "låg", "neuter": "lågt", "plural": "låga", "comparative": "lägre", "superlative": "lägst" },
       "note": { "ru": "ett-форма: lågt, мн.ч.: låga", "en": "ett-form: lågt, plural: låga" },
       "example": { "sv": "Huset är lågt.", "ru": "Дом низкий.", "en": "The house is low." }
     },
@@ -123,6 +131,7 @@
       "sv": "bred",
       "translations": { "ru": "широкий", "en": "wide, broad" },
       "pos": "adj",
+      "forms": { "positive": "bred", "neuter": "brett", "plural": "breda", "comparative": "bredare", "superlative": "bredast" },
       "note": { "ru": "ett-форма: brett, мн.ч.: breda", "en": "ett-form: brett, plural: breda" },
       "example": { "sv": "Gatan är bred.", "ru": "Улица широкая.", "en": "The street is wide." }
     },
@@ -131,6 +140,7 @@
       "sv": "smal",
       "translations": { "ru": "узкий; худой", "en": "narrow; slim" },
       "pos": "adj",
+      "forms": { "positive": "smal", "neuter": "smalt", "plural": "smala", "comparative": "smalare", "superlative": "smalast" },
       "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
       "example": { "sv": "Vägen är smal.", "ru": "Дорога узкая.", "en": "The road is narrow." }
     },
@@ -139,6 +149,7 @@
       "sv": "tjock",
       "translations": { "ru": "толстый", "en": "thick, fat" },
       "pos": "adj",
+      "forms": { "positive": "tjock", "neuter": "tjockt", "plural": "tjocka", "comparative": "tjockare", "superlative": "tjockast" },
       "note": { "ru": "ett-форма: tjockt, мн.ч.: tjocka", "en": "ett-form: tjockt, plural: tjocka" },
       "example": { "sv": "Boken är tjock.", "ru": "Книга толстая.", "en": "The book is thick." }
     },
@@ -147,6 +158,7 @@
       "sv": "tunn",
       "translations": { "ru": "тонкий", "en": "thin" },
       "pos": "adj",
+      "forms": { "positive": "tunn", "neuter": "tunt", "plural": "tunna", "comparative": "tunnare", "superlative": "tunnast" },
       "note": { "ru": "ett-форма: tunt, мн.ч.: tunna", "en": "ett-form: tunt, plural: tunna" },
       "example": { "sv": "Isen är tunn.", "ru": "Лёд тонкий.", "en": "The ice is thin." }
     },
@@ -155,6 +167,7 @@
       "sv": "tung",
       "translations": { "ru": "тяжёлый", "en": "heavy" },
       "pos": "adj",
+      "forms": { "positive": "tung", "neuter": "tungt", "plural": "tunga", "comparative": "tyngre", "superlative": "tyngst" },
       "note": { "ru": "ett-форма: tungt, мн.ч.: tunga", "en": "ett-form: tungt, plural: tunga" },
       "example": { "sv": "Väskan är tung.", "ru": "Сумка тяжёлая.", "en": "The bag is heavy." }
     },
@@ -163,6 +176,7 @@
       "sv": "lätt",
       "translations": { "ru": "лёгкий (по весу); лёгкий, простой", "en": "light (in weight); easy" },
       "pos": "adj",
+      "forms": { "positive": "lätt", "neuter": "lätt", "plural": "lätta", "comparative": "lättare", "superlative": "lättast" },
       "note": { "ru": "ett-форма: lätt, мн.ч.: lätta", "en": "ett-form: lätt, plural: lätta" },
       "example": { "sv": "Väskan är lätt.", "ru": "Сумка лёгкая.", "en": "The bag is light." }
     }

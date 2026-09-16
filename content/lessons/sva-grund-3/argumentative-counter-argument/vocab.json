@@ -6,7 +6,8 @@
       "translations": { "ru": "оппонент, противник (во мнении)", "en": "opponent" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en motståndare", "defSg": "motståndaren", "indefPl": "motståndare", "defPl": "motståndarna" }
+      "forms": { "indefSg": "en motståndare", "defSg": "motståndaren", "indefPl": "motståndare", "defPl": "motståndarna" },
+      "example": { "sv": "Debattens motståndare vägrade svara på frågan.", "ru": "Оппонент в дебатах отказался отвечать на вопрос.", "en": "The opponent in the debate refused to answer the question." }
     },
     {
       "id": "motstandare-till-detta-havdar-att",
@@ -33,7 +34,8 @@
       "id": "en-mojlig-invandning-ar-att",
       "sv": "en möjlig invändning är att...",
       "translations": { "ru": "одно из возможных возражений — то, что...", "en": "one possible objection is that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "En möjlig invändning är att förslaget blir för dyrt.", "ru": "Одно из возможных возражений — то, что предложение окажется слишком дорогим.", "en": "One possible objection is that the proposal will be too expensive." }
     },
     {
       "id": "det-ar-sant-att-men",
@@ -48,7 +50,8 @@
       "translations": { "ru": "возражение", "en": "objection" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en invändning", "defSg": "invändningen", "indefPl": "invändningar", "defPl": "invändningarna" }
+      "forms": { "indefSg": "en invändning", "defSg": "invändningen", "indefPl": "invändningar", "defPl": "invändningarna" },
+      "example": { "sv": "Läraren tog upp en viktig invändning mot texten.", "ru": "Учитель озвучил важное возражение против текста.", "en": "The teacher raised an important objection to the text." }
     },
     {
       "id": "tillbakavisa",
@@ -56,7 +59,8 @@
       "translations": { "ru": "опровергать", "en": "to refute" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "tillbakavisa", "present": "tillbakavisar", "past": "tillbakavisade", "supine": "tillbakavisat" }
+      "forms": { "infinitive": "tillbakavisa", "present": "tillbakavisar", "past": "tillbakavisade", "supine": "tillbakavisat" },
+      "example": { "sv": "Forskaren tillbakavisade kritiken med tydliga bevis.", "ru": "Исследователь опровергла критику чёткими доказательствами.", "en": "The researcher refuted the criticism with clear evidence." }
     },
     {
       "id": "bemota",
@@ -64,7 +68,8 @@
       "translations": { "ru": "отвечать на (аргумент), парировать", "en": "to counter, to respond to (an argument)" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "bemöta", "present": "bemöter", "past": "bemötte", "supine": "bemött" }
+      "forms": { "infinitive": "bemöta", "present": "bemöter", "past": "bemötte", "supine": "bemött" },
+      "example": { "sv": "Hon bemötte invändningen lugnt och sakligt.", "ru": "Она спокойно и по существу ответила на возражение.", "en": "She calmly and factually responded to the objection." }
     },
     {
       "id": "havda",
@@ -72,7 +77,8 @@
       "translations": { "ru": "утверждать", "en": "to claim, to assert" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" }
+      "forms": { "infinitive": "hävda", "present": "hävdar", "past": "hävdade", "supine": "hävdat" },
+      "example": { "sv": "Politikern hävdade att reformen skulle gynna alla.", "ru": "Политик утверждал, что реформа принесёт пользу всем.", "en": "The politician claimed that the reform would benefit everyone." }
     },
     {
       "id": "stamma-ca",
@@ -89,31 +95,36 @@
       "translations": { "ru": "убеждать", "en": "to convince" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "övertyga", "present": "övertygar", "past": "övertygade", "supine": "övertygat" }
+      "forms": { "infinitive": "övertyga", "present": "övertygar", "past": "övertygade", "supine": "övertygat" },
+      "example": { "sv": "Hans argument övertygade till slut publiken.", "ru": "В итоге его аргументы убедили публику.", "en": "His argument eventually convinced the audience." }
     },
     {
       "id": "dock-ca",
       "sv": "dock",
       "translations": { "ru": "однако, впрочем", "en": "however" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Förslaget lät bra, dock saknades det finansiering.", "ru": "Предложение звучало хорошо, однако не хватало финансирования.", "en": "The proposal sounded good; however, funding was lacking." }
     },
     {
       "id": "trots-detta",
       "sv": "trots detta",
       "translations": { "ru": "несмотря на это", "en": "despite this" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Trots detta valde de att gå vidare med planen.", "ru": "Несмотря на это, они решили продолжить осуществление плана.", "en": "Despite this, they chose to go ahead with the plan." }
     },
     {
       "id": "i-sjalva-verket",
       "sv": "i själva verket",
       "translations": { "ru": "на самом деле", "en": "in fact, actually" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I själva verket handlar debatten om något helt annat.", "ru": "На самом деле дебаты касаются совершенно другого.", "en": "In fact, the debate is about something completely different." }
     },
     {
       "id": "giltigt-argument",
       "sv": "ett giltigt argument",
       "translations": { "ru": "весомый, обоснованный аргумент", "en": "a valid argument" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Att kostnaderna minskar är ett giltigt argument för reformen.", "ru": "Снижение затрат — весомый аргумент в пользу реформы.", "en": "That costs decrease is a valid argument for the reform." }
     }
   ]
 }

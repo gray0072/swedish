@@ -6,7 +6,8 @@
       "translations": { "ru": "цитата", "en": "quotation" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "citat", "defSg": "citatet", "indefPl": "citat", "defPl": "citaten" }
+      "forms": { "indefSg": "citat", "defSg": "citatet", "indefPl": "citat", "defPl": "citaten" },
+      "example": { "sv": "Kom ihåg att sätta citatet inom citattecken.", "ru": "Не забудь поставить цитату в кавычки.", "en": "Remember to put the quotation in quotation marks." }
     },
     {
       "id": "citera",
@@ -14,7 +15,8 @@
       "translations": { "ru": "цитировать", "en": "to quote" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" }
+      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" },
+      "example": { "sv": "Man ska citera texten ordagrant.", "ru": "Цитату нужно приводить дословно.", "en": "You should quote the text word for word." }
     },
     {
       "id": "parafras",
@@ -22,7 +24,8 @@
       "translations": { "ru": "парафраз, пересказ своими словами", "en": "paraphrase" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en parafras", "defSg": "parafrasen", "indefPl": "parafraser", "defPl": "parafraserna" }
+      "forms": { "indefSg": "en parafras", "defSg": "parafrasen", "indefPl": "parafraser", "defPl": "parafraserna" },
+      "example": { "sv": "En parafras återger innehållet med egna ord.", "ru": "Парафраз передаёт содержание своими словами.", "en": "A paraphrase conveys the content in one's own words." }
     },
     {
       "id": "parafrasera",
@@ -30,7 +33,8 @@
       "translations": { "ru": "перефразировать, пересказывать своими словами", "en": "to paraphrase" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "parafrasera", "present": "parafraserar", "past": "parafraserade", "supine": "parafraserat" }
+      "forms": { "infinitive": "parafrasera", "present": "parafraserar", "past": "parafraserade", "supine": "parafraserat" },
+      "example": { "sv": "Det är bättre att parafrasera än att citera för mycket.", "ru": "Лучше пересказать своими словами, чем цитировать слишком много.", "en": "It's better to paraphrase than to quote too much." }
     },
     {
       "id": "plagiat",
@@ -38,7 +42,8 @@
       "translations": { "ru": "плагиат", "en": "plagiarism" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett plagiat", "defSg": "plagiatet", "indefPl": "plagiat", "defPl": "plagiaten" }
+      "forms": { "indefSg": "ett plagiat", "defSg": "plagiatet", "indefPl": "plagiat", "defPl": "plagiaten" },
+      "example": { "sv": "Att kopiera text utan källa räknas som plagiat.", "ru": "Копирование текста без указания источника считается плагиатом.", "en": "Copying text without a source counts as plagiarism." }
     },
     {
       "id": "plagiera",
@@ -46,7 +51,8 @@
       "translations": { "ru": "заниматься плагиатом, красть чужой текст", "en": "to plagiarise" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "plagiera", "present": "plagierar", "past": "plagierade", "supine": "plagierat" }
+      "forms": { "infinitive": "plagiera", "present": "plagierar", "past": "plagierade", "supine": "plagierat" },
+      "example": { "sv": "Du får inte plagiera andras texter.", "ru": "Нельзя заниматься плагиатом чужих текстов.", "en": "You must not plagiarise other people's texts." }
     },
     {
       "id": "kalla-referat",
@@ -54,7 +60,8 @@
       "translations": { "ru": "источник", "en": "source" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Ange alltid din källa när du skriver ett referat.", "ru": "Всегда указывай источник, когда пишешь реферат.", "en": "Always state your source when writing a summary." }
     },
     {
       "id": "kallhanvisning-referat",
@@ -62,7 +69,8 @@
       "translations": { "ru": "ссылка на источник", "en": "source reference, citation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" }
+      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" },
+      "example": { "sv": "En tydlig källhänvisning gör texten trovärdig.", "ru": "Чёткая ссылка на источник делает текст достоверным.", "en": "A clear source reference makes the text credible." }
     },
     {
       "id": "havda",
@@ -79,7 +87,8 @@
       "translations": { "ru": "исследователь, учёный", "en": "researcher, scholar" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+      "forms": { "indefSg": "en forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" },
+      "example": { "sv": "Forskaren presenterade sina resultat på konferensen.", "ru": "Исследователь представил свои результаты на конференции.", "en": "The researcher presented her findings at the conference." }
     },
     {
       "id": "studie",
@@ -87,7 +96,8 @@
       "translations": { "ru": "исследование", "en": "study" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" }
+      "forms": { "indefSg": "en studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" },
+      "example": { "sv": "Studien visar att läsförståelsen förbättras med referatteknik.", "ru": "Исследование показывает, что понимание текста улучшается с помощью техники реферирования.", "en": "The study shows that reading comprehension improves with referat technique." }
     },
     {
       "id": "halvera",
@@ -95,7 +105,8 @@
       "translations": { "ru": "сократить вдвое, разделить пополам", "en": "to halve" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "halvera", "present": "halverar", "past": "halverade", "supine": "halverat" }
+      "forms": { "infinitive": "halvera", "present": "halverar", "past": "halverade", "supine": "halverat" },
+      "example": { "sv": "Regeringen vill halvera utsläppen till 2030.", "ru": "Правительство хочет сократить выбросы вдвое к 2030 году.", "en": "The government wants to halve emissions by 2030." }
     },
     {
       "id": "utslapp",
@@ -103,7 +114,8 @@
       "translations": { "ru": "выбросы", "en": "emissions" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "utsläpp", "defSg": "utsläppet", "indefPl": "utsläpp", "defPl": "utsläppen" }
+      "forms": { "indefSg": "utsläpp", "defSg": "utsläppet", "indefPl": "utsläpp", "defPl": "utsläppen" },
+      "example": { "sv": "Utsläppen från trafiken har minskat de senaste åren.", "ru": "Выбросы от транспорта сократились за последние годы.", "en": "Emissions from traffic have decreased in recent years." }
     },
     {
       "id": "referatteknik",
@@ -111,7 +123,8 @@
       "translations": { "ru": "техника пересказа (реферирования)", "en": "referat technique, summarising technique" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en referatteknik", "defSg": "referattekniken", "indefPl": "referattekniker", "defPl": "referatteknikerna" }
+      "forms": { "indefSg": "en referatteknik", "defSg": "referattekniken", "indefPl": "referattekniker", "defPl": "referatteknikerna" },
+      "example": { "sv": "I kursen övar vi på referatteknik och källhänvisning.", "ru": "На курсе мы практикуем технику реферирования и оформление ссылок на источники.", "en": "In the course we practise referat technique and source referencing." }
     },
     {
       "id": "hot-noun",
@@ -119,7 +132,8 @@
       "translations": { "ru": "угроза", "en": "threat" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "hot", "defSg": "hotet", "indefPl": "hot", "defPl": "hoten" }
+      "forms": { "indefSg": "hot", "defSg": "hotet", "indefPl": "hot", "defPl": "hoten" },
+      "example": { "sv": "Klimatförändringen är ett hot mot miljön.", "ru": "Изменение климата — угроза окружающей среде.", "en": "Climate change is a threat to the environment." }
     }
   ]
 }

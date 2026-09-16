@@ -7,57 +7,67 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "räckvidd", "defSg": "räckvidden", "indefPl": "räckvidder", "defPl": "räckvidderna" },
-      "note": { "ru": "Здесь: какая именно часть предложения отрицается.", "en": "Here: exactly which part of the sentence is being negated." }
+      "note": { "ru": "Здесь: какая именно часть предложения отрицается.", "en": "Here: exactly which part of the sentence is being negated." },
+      "example": { "sv": "Negationens räckvidd avgör vad meningen egentligen betyder.", "ru": "Область действия отрицания определяет истинный смысл предложения.", "en": "The scope of the negation determines what the sentence actually means." }
     },
     {
       "id": "ingen-neg",
       "sv": "ingen/inget/inga",
       "translations": { "ru": "никакой, ни один (по роду и числу)", "en": "no, none (agreeing with gender/number)" },
       "pos": "pron",
-      "note": { "ru": "Отрицательный определитель: заменяет «en/ett/inga + существительное».", "en": "A negative determiner: replaces \"en/ett + noun\" or the plural." }
+      "note": { "ru": "Отрицательный определитель: заменяет «en/ett/inga + существительное».", "en": "A negative determiner: replaces \"en/ett + noun\" or the plural." },
+      "example": { "sv": "Han hade inget svar på frågan.", "ru": "У него не было никакого ответа на вопрос.", "en": "He had no answer to the question." }
     },
     {
       "id": "aldrig",
       "sv": "aldrig",
       "translations": { "ru": "никогда", "en": "never" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Jag har aldrig läst den boken.", "ru": "Я никогда не читал(а) эту книгу.", "en": "I have never read that book." }
     },
     {
       "id": "knappast",
       "sv": "knappast",
       "translations": { "ru": "вряд ли, едва ли", "en": "hardly, scarcely" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Han kommer knappast i tid till mötet.", "ru": "Он вряд ли успеет к встрече вовремя.", "en": "He will hardly make it to the meeting on time." }
     },
     {
       "id": "helt",
       "sv": "helt",
       "translations": { "ru": "полностью, совсем", "en": "entirely, completely" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Jag håller inte helt med om det där.", "ru": "Я не совсем согласен(а) с этим.", "en": "I don't entirely agree with that." }
     },
     {
       "id": "alla-neg",
       "sv": "alla",
       "translations": { "ru": "все", "en": "everyone, all" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Inte alla i klassen klarade provet.", "ru": "Не все в классе сдали тест.", "en": "Not everyone in the class passed the test." }
     },
     {
       "id": "delvis-negation",
       "sv": "delvis negation",
       "translations": { "ru": "частичное отрицание", "en": "partial negation" },
       "pos": "phrase",
-      "note": { "ru": "Отрицается не всё утверждение, а только его часть, напр. «inte alla».", "en": "Not the whole statement is negated, only a part of it, e.g. \"inte alla\"." }
+      "note": { "ru": "Отрицается не всё утверждение, а только его часть, напр. «inte alla».", "en": "Not the whole statement is negated, only a part of it, e.g. \"inte alla\"." },
+      "example": { "sv": "Inte alla elever klarade provet — det är delvis negation.", "ru": "Не все ученики сдали тест — это частичное отрицание.", "en": "Not all students passed the test — that's partial negation." }
     },
     {
       "id": "total-negation",
       "sv": "total negation",
       "translations": { "ru": "полное отрицание", "en": "total negation" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ingen av eleverna klarade provet — det är total negation.", "ru": "Ни один из учеников не сдал тест — это полное отрицание.", "en": "None of the students passed the test — that's total negation." }
     },
     {
       "id": "ratt-adj",
       "sv": "rätt",
       "translations": { "ru": "правильный", "en": "correct, right" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "rätt", "neuter": "rätt", "plural": "rätta", "comparative": "mer rätt", "superlative": "mest rätt" },
+      "example": { "sv": "Det var inte helt rätt svar.", "ru": "Это был не совсем правильный ответ.", "en": "That wasn't quite the right answer." }
     },
     {
       "id": "svara-verb",
@@ -65,7 +75,8 @@
       "translations": { "ru": "отвечать", "en": "to answer" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "svara", "present": "svarar", "past": "svarade", "supine": "svarat" }
+      "forms": { "infinitive": "svara", "present": "svarar", "past": "svarade", "supine": "svarat" },
+      "example": { "sv": "Han svarade inte på alla frågorna.", "ru": "Он не ответил на все вопросы.", "en": "He didn't answer all the questions." }
     }
   ]
 }

@@ -112,6 +112,7 @@
       "translations": { "ru": "почтовые расходы, стоимость доставки", "en": "postage" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett porto", "defSg": "portot", "indefPl": "porton", "defPl": "portona" },
       "example": { "sv": "Hur mycket kostar portot till utlandet?", "ru": "Сколько стоит доставка за границу?", "en": "How much does postage abroad cost?" }
     },
     {

@@ -20,7 +20,8 @@
       "translations": { "ru": "такт, ритм, темп", "en": "beat, rhythm, pace" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en takt", "defSg": "takten", "indefPl": "takter", "defPl": "takterna" }
+      "forms": { "indefSg": "en takt", "defSg": "takten", "indefPl": "takter", "defPl": "takterna" },
+      "example": { "sv": "Priserna sjunker i samma takt som efterfrågan ökar.", "ru": "Цены падают в том же темпе, в каком растёт спрос.", "en": "Prices fall at the same pace as demand rises." }
     },
     {
       "id": "oka",
@@ -28,7 +29,8 @@
       "translations": { "ru": "расти, увеличиваться", "en": "to increase, to grow" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" }
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" },
+      "example": { "sv": "Ju fler elbilar som säljs, desto mer ökar behovet av laddinfrastruktur.", "ru": "Чем больше продаётся электромобилей, тем сильнее растёт потребность в зарядной инфраструктуре.", "en": "The more electric cars are sold, the more the need for charging infrastructure increases." }
     },
     {
       "id": "sjunka",
@@ -36,7 +38,8 @@
       "translations": { "ru": "падать, снижаться; тонуть", "en": "to fall, to decline; to sink" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "sjunka", "present": "sjunker", "past": "sjönk", "supine": "sjunkit" }
+      "forms": { "infinitive": "sjunka", "present": "sjunker", "past": "sjönk", "supine": "sjunkit" },
+      "example": { "sv": "Efterfrågan på elbilar ökar i takt med att priserna sjunker.", "ru": "Спрос на электромобили растёт по мере того, как цены снижаются.", "en": "Demand for electric cars rises as prices fall." }
     },
     {
       "id": "efterfragan",
@@ -44,7 +47,8 @@
       "translations": { "ru": "спрос", "en": "demand" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Слово почти не имеет формы множественного числа в обычном употреблении.", "en": "The word rarely takes a plural form in ordinary use." }
+      "note": { "ru": "Слово почти не имеет формы множественного числа в обычном употреблении.", "en": "The word rarely takes a plural form in ordinary use." },
+      "example": { "sv": "Ju billigare elbilar blir, desto större blir efterfrågan.", "ru": "Чем дешевле становятся электромобили, тем больше становится спрос.", "en": "The cheaper electric cars become, the greater the demand grows." }
     },
     {
       "id": "pris-noun",
@@ -52,7 +56,8 @@
       "translations": { "ru": "цена; приз", "en": "price; prize" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" }
+      "forms": { "indefSg": "pris", "defSg": "priset", "indefPl": "priser", "defPl": "priserna" },
+      "example": { "sv": "Priset på elbilar sjunker i takt med att fler tillverkas.", "ru": "Цена на электромобили снижается по мере того, как их производится больше.", "en": "The price of electric cars falls as more are manufactured." }
     },
     {
       "id": "vaxa",
@@ -60,7 +65,8 @@
       "translations": { "ru": "расти", "en": "to grow" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "växa", "present": "växer", "past": "växte", "supine": "växt" }
+      "forms": { "infinitive": "växa", "present": "växer", "past": "växte", "supine": "växt" },
+      "example": { "sv": "Marknaden för elbilar växer snabbare för varje år.", "ru": "Рынок электромобилей растёт быстрее с каждым годом.", "en": "The market for electric cars is growing faster every year." }
     },
     {
       "id": "elbil",
@@ -68,7 +74,8 @@
       "translations": { "ru": "электромобиль", "en": "electric car" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en elbil", "defSg": "elbilen", "indefPl": "elbilar", "defPl": "elbilarna" }
+      "forms": { "indefSg": "en elbil", "defSg": "elbilen", "indefPl": "elbilar", "defPl": "elbilarna" },
+      "example": { "sv": "Ju fler som köper en elbil, desto snabbare byggs infrastrukturen ut.", "ru": "Чем больше людей покупают электромобиль, тем быстрее расширяется инфраструктура.", "en": "The more people who buy an electric car, the faster the infrastructure is expanded." }
     },
     {
       "id": "infrastruktur",
@@ -76,7 +83,8 @@
       "translations": { "ru": "инфраструктура", "en": "infrastructure" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en infrastruktur", "defSg": "infrastrukturen", "indefPl": "infrastrukturer", "defPl": "infrastrukturerna" }
+      "forms": { "indefSg": "en infrastruktur", "defSg": "infrastrukturen", "indefPl": "infrastrukturer", "defPl": "infrastrukturerna" },
+      "example": { "sv": "Infrastrukturen för elbilar byggs ut i takt med att efterfrågan ökar.", "ru": "Инфраструктура для электромобилей расширяется по мере роста спроса.", "en": "The infrastructure for electric cars is expanded as demand increases." }
     },
     {
       "id": "byggas-ut",
@@ -91,7 +99,8 @@
       "translations": { "ru": "качество воздуха", "en": "air quality" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en luftkvalitet", "defSg": "luftkvaliteten", "indefPl": "luftkvaliteter", "defPl": "luftkvaliteterna" }
+      "forms": { "indefSg": "en luftkvalitet", "defSg": "luftkvaliteten", "indefPl": "luftkvaliteter", "defPl": "luftkvaliteterna" },
+      "example": { "sv": "Luftkvaliteten förbättras i takt med att fler väljer elbilar.", "ru": "Качество воздуха улучшается по мере того, как всё больше людей выбирают электромобили.", "en": "Air quality improves as more people choose electric cars." }
     },
     {
       "id": "forbattras",
@@ -99,14 +108,17 @@
       "translations": { "ru": "улучшаться", "en": "to improve (intransitive)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" }
+      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" },
+      "example": { "sv": "Luftkvaliteten förbättras ju fler elbilar det blir på vägarna.", "ru": "Качество воздуха улучшается, чем больше электромобилей появляется на дорогах.", "en": "Air quality improves the more electric cars there are on the roads." }
     },
     {
       "id": "klok",
       "sv": "klok",
       "translations": { "ru": "мудрый, разумный", "en": "wise, sensible" },
       "pos": "adj",
-      "note": { "ru": "Сравнительная степень: klokare; превосходная: klokast.", "en": "Comparative: klokare; superlative: klokast." }
+      "note": { "ru": "Сравнительная степень: klokare; превосходная: klokast.", "en": "Comparative: klokare; superlative: klokast." },
+      "forms": { "positive": "klok", "neuter": "klokt", "plural": "kloka", "comparative": "klokare", "superlative": "klokast" },
+      "example": { "sv": "Ju äldre hon blir, desto klokare verkar hon bli.", "ru": "Чем старше она становится, тем мудрее она, кажется, становится.", "en": "The older she gets, the wiser she seems to become." }
     }
   ]
 }

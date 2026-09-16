@@ -172,6 +172,7 @@
       "translations": { "ru": "чистый", "en": "clean" },
       "pos": "adj",
       "note": { "ru": "ett-форма: rent, мн.ч.: rena", "en": "ett-form: rent, plural: rena" },
+      "forms": { "positive": "ren", "neuter": "rent", "plural": "rena", "comparative": "renare", "superlative": "renast" },
       "example": { "sv": "Köket är rent nu.", "ru": "Кухня теперь чистая.", "en": "The kitchen is clean now." }
     },
     {
@@ -180,6 +181,7 @@
       "translations": { "ru": "грязный", "en": "dirty" },
       "pos": "adj",
       "note": { "ru": "ett-форма: smutsigt, мн.ч.: smutsiga", "en": "ett-form: smutsigt, plural: smutsiga" },
+      "forms": { "positive": "smutsig", "neuter": "smutsigt", "plural": "smutsiga", "comparative": "smutsigare", "superlative": "smutsigast" },
       "example": { "sv": "Golvet är smutsigt efter festen.", "ru": "Пол грязный после вечеринки.", "en": "The floor is dirty after the party." }
     }
   ]

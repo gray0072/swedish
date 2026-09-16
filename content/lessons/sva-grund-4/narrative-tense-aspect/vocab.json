@@ -13,7 +13,8 @@
       "translations": { "ru": "рассказ, повествование", "en": "story, narrative" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" }
+      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" },
+      "example": { "sv": "Berättelsen utspelar sig i historiskt presens.", "ru": "Рассказ ведётся в историческом настоящем времени.", "en": "The story is told in the historical present tense." }
     },
     {
       "id": "resa-verb",
@@ -21,7 +22,8 @@
       "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Kungen reser till huvudstaden med sitt följe.", "ru": "Король едет в столицу со своей свитой.", "en": "The king travels to the capital with his retinue." }
     },
     {
       "id": "mota",
@@ -29,7 +31,8 @@
       "translations": { "ru": "встречать", "en": "to meet" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "möta", "present": "möter", "past": "mötte", "supine": "mött" }
+      "forms": { "infinitive": "möta", "present": "möter", "past": "mötte", "supine": "mött" },
+      "example": { "sv": "Hjälten möter en främling på vägen.", "ru": "Герой встречает незнакомца на дороге.", "en": "The hero meets a stranger on the road." }
     },
     {
       "id": "huvudstad",
@@ -37,7 +40,8 @@
       "translations": { "ru": "столица", "en": "capital city" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" }
+      "forms": { "indefSg": "en huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" },
+      "example": { "sv": "Kungen anländer till huvudstaden i gryningen.", "ru": "Король прибывает в столицу на рассвете.", "en": "The king arrives in the capital at dawn." }
     },
     {
       "id": "torg",
@@ -45,13 +49,16 @@
       "translations": { "ru": "площадь", "en": "square (in a city)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" }
+      "forms": { "indefSg": "torg", "defSg": "torget", "indefPl": "torg", "defPl": "torgen" },
+      "example": { "sv": "Folkmassan samlas på torget för att se kungen.", "ru": "Толпа собирается на площади, чтобы увидеть короля.", "en": "The crowd gathers in the square to see the king." }
     },
     {
       "id": "jublande",
       "sv": "jublande",
       "translations": { "ru": "ликующий", "en": "cheering, jubilant" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "jublande", "neuter": "jublande", "plural": "jublande", "comparative": "mer jublande", "superlative": "mest jublande" },
+      "example": { "sv": "En jublande folkmassa möter kungen på torget.", "ru": "Ликующая толпа встречает короля на площади.", "en": "A cheering crowd greets the king in the square." }
     },
     {
       "id": "folkmassa",
@@ -59,13 +66,15 @@
       "translations": { "ru": "толпа народа", "en": "crowd" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en folkmassa", "defSg": "folkmassan", "indefPl": "folkmassor", "defPl": "folkmassorna" }
+      "forms": { "indefSg": "en folkmassa", "defSg": "folkmassan", "indefPl": "folkmassor", "defPl": "folkmassorna" },
+      "example": { "sv": "En jublande folkmassa väntar utanför slottet.", "ru": "Ликующая толпа ждёт у дворца.", "en": "A cheering crowd is waiting outside the castle." }
     },
     {
       "id": "plotsligt",
       "sv": "plötsligt",
       "translations": { "ru": "вдруг, внезапно", "en": "suddenly" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Plötsligt hörs ett konstigt ljud från skogen.", "ru": "Вдруг из леса раздаётся странный звук.", "en": "Suddenly a strange sound is heard from the forest." }
     },
     {
       "id": "ljud",
@@ -73,7 +82,8 @@
       "translations": { "ru": "звук", "en": "sound" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ljud", "defSg": "ljudet", "indefPl": "ljud", "defPl": "ljuden" }
+      "forms": { "indefSg": "ljud", "defSg": "ljudet", "indefPl": "ljud", "defPl": "ljuden" },
+      "example": { "sv": "Ett konstigt ljud hörs från skogen.", "ru": "Из леса слышен странный звук.", "en": "A strange sound is heard from the forest." }
     },
     {
       "id": "hora-verb",
@@ -81,7 +91,8 @@
       "translations": { "ru": "слышать", "en": "to hear" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" }
+      "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" },
+      "example": { "sv": "Plötsligt hör hon ett konstigt ljud från skogen.", "ru": "Вдруг она слышит странный звук из леса.", "en": "Suddenly she hears a strange sound from the forest." }
     },
     {
       "id": "skog",
@@ -89,7 +100,8 @@
       "translations": { "ru": "лес", "en": "forest" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en skog", "defSg": "skogen", "indefPl": "skogar", "defPl": "skogarna" }
+      "forms": { "indefSg": "en skog", "defSg": "skogen", "indefPl": "skogar", "defPl": "skogarna" },
+      "example": { "sv": "Ljudet kom från den mörka skogen.", "ru": "Звук раздавался из тёмного леса.", "en": "The sound came from the dark forest." }
     },
     {
       "id": "kulmen",
@@ -97,7 +109,9 @@
       "translations": { "ru": "кульминация", "en": "climax" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Слово почти не изменяется по числам в обычном употреблении.", "en": "The word rarely changes for number in ordinary use." }
+      "forms": { "indefSg": "en kulm", "defSg": "kulmen", "indefPl": "kulmar", "defPl": "kulmarna" },
+      "note": { "ru": "Слово почти не изменяется по числам в обычном употреблении.", "en": "The word rarely changes for number in ordinary use." },
+      "example": { "sv": "Berättelsens kulmen nås när hjälten möter sin fiende.", "ru": "Кульминация рассказа наступает, когда герой встречает своего врага.", "en": "The story's climax is reached when the hero meets his enemy." }
     }
   ]
 }

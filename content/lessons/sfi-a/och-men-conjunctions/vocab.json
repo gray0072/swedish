@@ -27,6 +27,7 @@
       "translations": { "ru": "сын", "en": "son" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en son", "defSg": "sonen", "indefPl": "söner", "defPl": "sönerna" },
       "example": { "sv": "Jag har en son och en dotter.", "ru": "У меня есть сын и дочь.", "en": "I have a son and a daughter." }
     },
     {
@@ -34,7 +35,9 @@
       "sv": "dotter",
       "translations": { "ru": "дочь", "en": "daughter" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en dotter", "defSg": "dottern", "indefPl": "döttrar", "defPl": "döttrarna" },
+      "example": { "sv": "Min dotter går i skolan.", "ru": "Моя дочь ходит в школу.", "en": "My daughter goes to school." }
     },
     {
       "id": "trott",
@@ -42,6 +45,7 @@
       "translations": { "ru": "усталый", "en": "tired" },
       "pos": "adj",
       "note": { "ru": "ett-форма: trött (без изменений), мн.ч.: trötta", "en": "ett-form: trött (unchanged), plural: trötta" },
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Han är trött men glad.", "ru": "Он усталый, но радостный.", "en": "He is tired but happy." }
     },
     {
@@ -49,7 +53,9 @@
       "sv": "glad",
       "translations": { "ru": "радостный, весёлый", "en": "happy, glad" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: glatt, мн.ч.: glada", "en": "ett-form: glatt, plural: glada" }
+      "note": { "ru": "ett-форма: glatt, мн.ч.: glada", "en": "ett-form: glatt, plural: glada" },
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
+      "example": { "sv": "Hon är glad idag.", "ru": "Она сегодня радостная.", "en": "She is happy today." }
     },
     {
       "id": "kaffe",
@@ -62,7 +68,8 @@
       "id": "te",
       "sv": "te",
       "translations": { "ru": "чай", "en": "tea" },
-      "pos": "noun"
+      "pos": "noun",
+      "example": { "sv": "Jag dricker te på morgonen.", "ru": "Я пью чай утром.", "en": "I drink tea in the morning." }
     },
     {
       "id": "vill",
@@ -77,7 +84,8 @@
       "sv": "ha",
       "translations": { "ru": "иметь", "en": "to have" },
       "pos": "verb",
-      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" }
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "example": { "sv": "Jag vill ha kaffe.", "ru": "Я хочу кофе.", "en": "I want coffee." }
     },
     {
       "id": "heter",
@@ -99,13 +107,15 @@
       "id": "svenska",
       "sv": "svenska",
       "translations": { "ru": "шведский язык", "en": "Swedish (the language)" },
-      "pos": "noun"
+      "pos": "noun",
+      "example": { "sv": "Jag talar svenska men inte engelska.", "ru": "Я говорю по-шведски, но не по-английски.", "en": "I speak Swedish but not English." }
     },
     {
       "id": "engelska",
       "sv": "engelska",
       "translations": { "ru": "английский язык", "en": "English (the language)" },
-      "pos": "noun"
+      "pos": "noun",
+      "example": { "sv": "Talar du engelska eller svenska?", "ru": "Ты говоришь по-английски или по-шведски?", "en": "Do you speak English or Swedish?" }
     }
   ]
 }

@@ -25,31 +25,36 @@
       "id": "jag-bor-i-malmo",
       "sv": "Jag bor i Malmö.",
       "translations": { "ru": "Я живу в Мальмё.", "en": "I live in Malmö." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag bor i Malmö sedan förra året.", "ru": "Я живу в Мальмё с прошлого года.", "en": "I have lived in Malmö since last year." }
     },
     {
       "id": "hon-jobbar-i-stockholm",
       "sv": "Hon jobbar i Stockholm.",
       "translations": { "ru": "Она работает в Стокгольме.", "en": "She works in Stockholm." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon jobbar i Stockholm men bor i Uppsala.", "ru": "Она работает в Стокгольме, но живёт в Уппсале.", "en": "She works in Stockholm but lives in Uppsala." }
     },
     {
       "id": "jag-bor-pa-storgatan-5",
       "sv": "Jag bor på Storgatan 5.",
       "translations": { "ru": "Я живу на Стургатан, 5.", "en": "I live at Storgatan 5." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag bor på Storgatan 5, våning tre.", "ru": "Я живу на Стургатан, 5, на третьем этаже.", "en": "I live at Storgatan 5, third floor." }
     },
     {
       "id": "han-jobbar-pa-ett-kontor",
       "sv": "Han jobbar på ett kontor.",
       "translations": { "ru": "Он работает в офисе.", "en": "He works at an office." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Han jobbar på ett kontor i centrum.", "ru": "Он работает в офисе в центре.", "en": "He works at an office downtown." }
     },
     {
       "id": "vi-ar-pa-skolan",
       "sv": "Vi är på skolan.",
       "translations": { "ru": "Мы в школе.", "en": "We are at school." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vi är på skolan till klockan tre.", "ru": "Мы в школе до трёх часов.", "en": "We are at school until three o'clock." }
     },
     {
       "id": "bo",

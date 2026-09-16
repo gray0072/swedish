@@ -4,13 +4,15 @@
       "id": "direkt-tal",
       "sv": "direkt tal",
       "translations": { "ru": "прямая речь", "en": "direct speech" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I direkt tal säger hon: \"Jag är trött.\"", "ru": "В прямой речи она говорит: «Я устала».", "en": "In direct speech she says: \"I am tired.\"" }
     },
     {
       "id": "indirekt-tal",
       "sv": "indirekt tal",
       "translations": { "ru": "косвенная речь", "en": "reported/indirect speech" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I indirekt tal blir det: hon sa att hon var trött.", "ru": "В косвенной речи получится: она сказала, что устала.", "en": "In reported speech it becomes: she said that she was tired." }
     },
     {
       "id": "tempusfoljd",
@@ -18,7 +20,8 @@
       "translations": { "ru": "согласование времён", "en": "sequence of tenses" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "tempusföljd", "defSg": "tempusföljden", "indefPl": "tempusföljder", "defPl": "tempusföljderna" }
+      "forms": { "indefSg": "tempusföljd", "defSg": "tempusföljden", "indefPl": "tempusföljder", "defPl": "tempusföljderna" },
+      "example": { "sv": "Läraren förklarade reglerna för tempusföljd.", "ru": "Учитель объяснил правила согласования времён.", "en": "The teacher explained the rules for the sequence of tenses." }
     },
     {
       "id": "sa-verb",
@@ -33,33 +36,43 @@
       "id": "trott",
       "sv": "trött",
       "translations": { "ru": "уставший", "en": "tired" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
+      "example": { "sv": "Hon sa att hon var trött.", "ru": "Она сказала, что устала.", "en": "She said she was tired." }
     },
     {
       "id": "skulle",
       "sv": "skulle",
       "translations": { "ru": "должен(на) был(а) (будущее в прошедшем)", "en": "would (future-in-the-past)" },
       "pos": "verb",
-      "note": { "ru": "Используется вместо «ska», когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of \"ska\" when the reporting verb is in the past tense." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
+      "note": { "ru": "Используется вместо «ska», когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of \"ska\" when the reporting verb is in the past tense." },
+      "example": { "sv": "Hon sa att hon skulle komma imorgon.", "ru": "Она сказала, что придёт завтра.", "en": "She said that she would come tomorrow." }
     },
     {
       "id": "hade",
       "sv": "hade",
       "translations": { "ru": "имел(а) (плюсквамперфект)", "en": "had (pluperfect)" },
       "pos": "verb",
-      "note": { "ru": "Используется вместо перфекта, когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of the perfect when the reporting verb is in the past tense." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
+      "note": { "ru": "Используется вместо перфекта, когда сообщающий глагол стоит в прошедшем времени.", "en": "Used instead of the perfect when the reporting verb is in the past tense." },
+      "example": { "sv": "Han sa att han hade läst boken.", "ru": "Он сказал, что прочитал книгу.", "en": "He said that he had read the book." }
     },
     {
       "id": "igar",
       "sv": "igår → dagen innan",
       "translations": { "ru": "вчера → накануне (сдвиг времени в косвенной речи)", "en": "yesterday → the day before (time shift in reported speech)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon sa: \"Jag kom igår\" → Hon sa att hon hade kommit dagen innan.", "ru": "Она сказала: «Я приехала вчера» → Она сказала, что приехала накануне.", "en": "She said: \"I arrived yesterday\" → She said that she had arrived the day before." }
     },
     {
       "id": "imorgon",
       "sv": "imorgon → dagen efter",
       "translations": { "ru": "завтра → на следующий день (сдвиг времени)", "en": "tomorrow → the next day (time shift)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon sa: \"Jag åker imorgon\" → Hon sa att hon skulle åka dagen efter.", "ru": "Она сказала: «Я уеду завтра» → Она сказала, что уедет на следующий день.", "en": "She said: \"I'm leaving tomorrow\" → She said that she would leave the next day." }
     },
     {
       "id": "meddelande",
@@ -67,7 +80,8 @@
       "translations": { "ru": "сообщение", "en": "message" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" }
+      "forms": { "indefSg": "meddelande", "defSg": "meddelandet", "indefPl": "meddelanden", "defPl": "meddelandena" },
+      "example": { "sv": "Hon skrev att hon skulle skicka ett meddelande senare.", "ru": "Она написала, что отправит сообщение позже.", "en": "She wrote that she would send a message later." }
     }
   ]
 }

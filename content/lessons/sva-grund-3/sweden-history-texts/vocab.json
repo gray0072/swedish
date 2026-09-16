@@ -48,7 +48,8 @@
       "translations": { "ru": "эпоха", "en": "era, epoch" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en epok", "defSg": "epoken", "indefPl": "epoker", "defPl": "epokerna" }
+      "forms": { "indefSg": "en epok", "defSg": "epoken", "indefPl": "epoker", "defPl": "epokerna" },
+      "example": { "sv": "Vikingatiden räknas som en egen epok i Sveriges historia.", "ru": "Эпоха викингов считается отдельной эпохой в истории Швеции.", "en": "The Viking Age is considered a separate epoch in Swedish history." }
     },
     {
       "id": "handelse",
@@ -56,7 +57,8 @@
       "translations": { "ru": "событие", "en": "event" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en händelse", "defSg": "händelsen", "indefPl": "händelser", "defPl": "händelserna" }
+      "forms": { "indefSg": "en händelse", "defSg": "händelsen", "indefPl": "händelser", "defPl": "händelserna" },
+      "example": { "sv": "Den historiska händelsen förändrade landet i grunden.", "ru": "Это историческое событие коренным образом изменило страну.", "en": "The historical event fundamentally changed the country." }
     },
     {
       "id": "skildra",
@@ -64,7 +66,8 @@
       "translations": { "ru": "изображать, описывать (события)", "en": "to depict, to portray" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "skildra", "present": "skildrar", "past": "skildrade", "supine": "skildrat" }
+      "forms": { "infinitive": "skildra", "present": "skildrar", "past": "skildrade", "supine": "skildrat" },
+      "example": { "sv": "Boken skildrar livet i Sverige under 1800-talet.", "ru": "Книга изображает жизнь в Швеции в XIX веке.", "en": "The book depicts life in Sweden during the 19th century." }
     },
     {
       "id": "tolkning",
@@ -72,7 +75,8 @@
       "translations": { "ru": "интерпретация, толкование", "en": "interpretation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tolkning", "defSg": "tolkningen", "indefPl": "tolkningar", "defPl": "tolkningarna" }
+      "forms": { "indefSg": "en tolkning", "defSg": "tolkningen", "indefPl": "tolkningar", "defPl": "tolkningarna" },
+      "example": { "sv": "Historiker har olika tolkningar av händelsen.", "ru": "У историков разные интерпретации этого события.", "en": "Historians have different interpretations of the event." }
     },
     {
       "id": "tidslinje",
@@ -80,7 +84,8 @@
       "translations": { "ru": "временная линия, хронология", "en": "timeline" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tidslinje", "defSg": "tidslinjen", "indefPl": "tidslinjer", "defPl": "tidslinjerna" }
+      "forms": { "indefSg": "en tidslinje", "defSg": "tidslinjen", "indefPl": "tidslinjer", "defPl": "tidslinjerna" },
+      "example": { "sv": "Läraren ritade en tidslinje över Sveriges historia.", "ru": "Учитель нарисовал хронологию истории Швеции.", "en": "The teacher drew a timeline of Swedish history." }
     },
     {
       "id": "samhalle-hist",
@@ -88,7 +93,8 @@
       "translations": { "ru": "общество", "en": "society" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" }
+      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" },
+      "example": { "sv": "Samhället förändrades snabbt under industrialiseringen.", "ru": "Общество быстро менялось во время индустриализации.", "en": "Society changed quickly during industrialisation." }
     },
     {
       "id": "forandring",
@@ -96,14 +102,17 @@
       "translations": { "ru": "изменение", "en": "change" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en förändring", "defSg": "förändringen", "indefPl": "förändringar", "defPl": "förändringarna" }
+      "forms": { "indefSg": "en förändring", "defSg": "förändringen", "indefPl": "förändringar", "defPl": "förändringarna" },
+      "example": { "sv": "Reformen ledde till en stor förändring i samhället.", "ru": "Реформа привела к большим изменениям в обществе.", "en": "The reform led to a major change in society." }
     },
     {
       "id": "arv-hist",
       "sv": "arv",
       "translations": { "ru": "наследие", "en": "heritage, legacy" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett arv", "defSg": "arvet", "indefPl": "arv", "defPl": "arven" },
+      "example": { "sv": "Demokratin är ett viktigt arv från 1900-talet.", "ru": "Демократия — важное наследие XX века.", "en": "Democracy is an important legacy from the 20th century." }
     },
     {
       "id": "minnesmarke",
@@ -111,7 +120,8 @@
       "translations": { "ru": "памятник, мемориал", "en": "memorial, monument" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett minnesmärke", "defSg": "minnesmärket", "indefPl": "minnesmärken", "defPl": "minnesmärkena" }
+      "forms": { "indefSg": "ett minnesmärke", "defSg": "minnesmärket", "indefPl": "minnesmärken", "defPl": "minnesmärkena" },
+      "example": { "sv": "Ett minnesmärke restes till minne av händelsen.", "ru": "В память об этом событии был установлен памятник.", "en": "A memorial was erected in memory of the event." }
     }
   ]
 }

@@ -4,19 +4,22 @@
       "id": "till-skillnad-fran",
       "sv": "till skillnad från",
       "translations": { "ru": "в отличие от", "en": "unlike, in contrast to" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Till skillnad från många andra länder firar man midsommar i Sverige.", "ru": "В отличие от многих других стран, в Швеции отмечают Мидсоммар.", "en": "Unlike many other countries, Midsummer is celebrated in Sweden." }
     },
     {
       "id": "pa-liknande-satt",
       "sv": "på liknande sätt",
       "translations": { "ru": "похожим образом", "en": "in a similar way" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Påsken firas på liknande sätt i flera länder.", "ru": "Пасху отмечают похожим образом в нескольких странах.", "en": "Easter is celebrated in a similar way in several countries." }
     },
     {
       "id": "en-intressant-skillnad",
       "sv": "en intressant skillnad är att",
       "translations": { "ru": "интересное отличие в том, что", "en": "an interesting difference is that" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "En intressant skillnad är att man firar nyår vid olika tider i olika kulturer.", "ru": "Интересное отличие в том, что новый год отмечают в разное время в разных культурах.", "en": "An interesting difference is that New Year is celebrated at different times in different cultures." }
     },
     {
       "id": "generellt-sett",
@@ -29,7 +32,8 @@
       "id": "medan-comparison",
       "sv": "medan",
       "translations": { "ru": "тогда как, в то время как", "en": "while, whereas" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "I Sverige äter man julmat i december, medan andra kulturer firar senare.", "ru": "В Швеции рождественскую еду едят в декабре, тогда как в других культурах празднуют позже.", "en": "In Sweden people eat Christmas food in December, while other cultures celebrate later." }
     },
     {
       "id": "skillnad",
@@ -37,7 +41,8 @@
       "translations": { "ru": "отличие, разница", "en": "difference" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en skillnad", "defSg": "skillnaden", "indefPl": "skillnader", "defPl": "skillnaderna" }
+      "forms": { "indefSg": "en skillnad", "defSg": "skillnaden", "indefPl": "skillnader", "defPl": "skillnaderna" },
+      "example": { "sv": "Det finns en stor skillnad mellan hur högtider firas i olika länder.", "ru": "Есть большое различие в том, как в разных странах отмечают праздники.", "en": "There is a big difference in how holidays are celebrated in different countries." }
     },
     {
       "id": "likhet",
@@ -45,7 +50,8 @@
       "translations": { "ru": "сходство", "en": "similarity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" }
+      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" },
+      "example": { "sv": "Det finns många likheter mellan svenska och norska högtidstraditioner.", "ru": "Есть много сходств между шведскими и норвежскими праздничными традициями.", "en": "There are many similarities between Swedish and Norwegian holiday traditions." }
     },
     {
       "id": "vara-van-vid",

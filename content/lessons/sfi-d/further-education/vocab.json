@@ -5,6 +5,8 @@
       "sv": "komvux",
       "translations": { "ru": "комвукс (образование для взрослых)", "en": "komvux (municipal adult education)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "komvux", "defSg": "komvux", "indefPl": "komvux", "defPl": "komvux" },
       "example": { "sv": "Efter SFI kan man börja på komvux.", "ru": "После SFI можно начать учёбу в комвуксе.", "en": "After SFI you can start at komvux." }
     },
     {
@@ -12,6 +14,8 @@
       "sv": "SVA grund",
       "translations": { "ru": "SVA grund (базовый шведский как второй язык)", "en": "SVA grund (basic Swedish as a second language)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "SVA grund", "defSg": "SVA grund", "indefPl": "SVA grund", "defPl": "SVA grund" },
       "example": { "sv": "SVA grund kommer efter SFI kurs D.", "ru": "SVA grund идёт после SFI курса D.", "en": "SVA grund comes after SFI kurs D." }
     },
     {
@@ -19,6 +23,8 @@
       "sv": "CSN",
       "translations": { "ru": "CSN (ведомство по учебным пособиям)", "en": "CSN (the study grants agency)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "CSN", "defSg": "CSN", "indefPl": "CSN", "defPl": "CSN" },
       "example": { "sv": "Jag ansöker om studiestöd hos CSN.", "ru": "Я подаю заявку на учебное пособие в CSN.", "en": "I apply for study support from CSN." }
     },
     {
@@ -27,6 +33,7 @@
       "translations": { "ru": "учебное пособие", "en": "study grant/aid" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett studiestöd", "defSg": "studiestödet", "indefPl": "studiestöd", "defPl": "studiestöden" },
       "example": { "sv": "Studiestödet består av bidrag och lån.", "ru": "Учебное пособие состоит из гранта и займа.", "en": "Study aid consists of a grant and a loan." }
     },
     {
@@ -35,6 +42,7 @@
       "translations": { "ru": "учебный грант", "en": "study grant" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett studiebidrag", "defSg": "studiebidraget", "indefPl": "studiebidrag", "defPl": "studiebidragen" },
       "example": { "sv": "Studiebidraget behöver inte betalas tillbaka.", "ru": "Учебный грант не нужно возвращать.", "en": "The study grant doesn't need to be paid back." }
     },
     {
@@ -43,6 +51,7 @@
       "translations": { "ru": "учебный займ (кредит на обучение)", "en": "student loan" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett studielån", "defSg": "studielånet", "indefPl": "studielån", "defPl": "studielånen" },
       "example": { "sv": "Studielånet betalas tillbaka efter studierna.", "ru": "Учебный займ выплачивается после окончания учёбы.", "en": "The student loan is paid back after your studies." }
     },
     {
@@ -51,6 +60,7 @@
       "translations": { "ru": "право поступления (соответствие требованиям)", "en": "eligibility, entry qualification" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en behörighet", "defSg": "behörigheten", "indefPl": "behörigheter", "defPl": "behörigheterna" },
       "example": { "sv": "Kursen ger behörighet till gymnasiet.", "ru": "Курс даёт право поступления в гимназию.", "en": "The course gives eligibility for upper-secondary school." }
     },
     {
@@ -59,6 +69,7 @@
       "translations": { "ru": "часть курса (делкурс)", "en": "sub-course, module" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en delkurs", "defSg": "delkursen", "indefPl": "delkurser", "defPl": "delkurserna" },
       "example": { "sv": "SVA grund har fyra delkurser.", "ru": "SVA grund состоит из четырёх частей.", "en": "SVA grund has four sub-courses." }
     },
     {
@@ -67,6 +78,7 @@
       "translations": { "ru": "профессиональное обучение", "en": "vocational training" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en yrkesutbildning", "defSg": "yrkesutbildningen", "indefPl": "yrkesutbildningar", "defPl": "yrkesutbildningarna" },
       "example": { "sv": "Han läser en yrkesutbildning till elektriker.", "ru": "Он учится на профессиональном курсе на электрика.", "en": "He's doing vocational training to become an electrician." }
     },
     {

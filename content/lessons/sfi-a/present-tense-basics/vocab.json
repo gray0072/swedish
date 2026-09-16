@@ -5,6 +5,8 @@
       "sv": "heter",
       "translations": { "ru": "зовут (jag heter, du heter, han heter — всегда так)", "en": "is/am/are called (jag heter, du heter, han heter — always the same)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "heta", "present": "heter", "past": "hette", "supine": "hetat" },
       "example": { "sv": "Jag heter Sara.", "ru": "Меня зовут Сара.", "en": "My name is Sara." }
     },
     {
@@ -12,6 +14,8 @@
       "sv": "bor",
       "translations": { "ru": "живу/живёшь/живёт... (одно слово для всех)", "en": "live(s) (one word for everyone)" },
       "pos": "verb",
+      "verbGroup": 3,
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
       "example": { "sv": "Vi bor i Göteborg.", "ru": "Мы живём в Гётеборге.", "en": "We live in Gothenburg." }
     },
     {
@@ -19,6 +23,8 @@
       "sv": "kommer",
       "translations": { "ru": "прихожу/приходит... (тоже одно слово)", "en": "come(s) (also one word)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
       "example": { "sv": "De kommer från Irak.", "ru": "Они из Ирака.", "en": "They are from Iraq." }
     },
     {
@@ -26,6 +32,8 @@
       "sv": "talar",
       "translations": { "ru": "говорю/говоришь/говорит...", "en": "speak(s)" },
       "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
       "example": { "sv": "Han talar svenska.", "ru": "Он говорит по-шведски.", "en": "He speaks Swedish." }
     },
     {
@@ -33,6 +41,8 @@
       "sv": "äter",
       "translations": { "ru": "ем/ешь/ест...", "en": "eat(s)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
       "example": { "sv": "Jag äter frukost.", "ru": "Я ем завтрак.", "en": "I eat breakfast." }
     },
     {
@@ -40,6 +50,8 @@
       "sv": "jobbar",
       "translations": { "ru": "работаю/работаешь/работает...", "en": "work(s)" },
       "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
       "example": { "sv": "Jag jobbar i Malmö.", "ru": "Я работаю в Мальмё.", "en": "I work in Malmö." }
     },
     {
@@ -47,6 +59,8 @@
       "sv": "läser",
       "translations": { "ru": "читаю/читаешь/читает...", "en": "read(s)" },
       "pos": "verb",
+      "verbGroup": 2,
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
       "example": { "sv": "Vi läser en bok.", "ru": "Мы читаем книгу.", "en": "We read a book." }
     }
   ]

@@ -15,6 +15,7 @@
       "translations": { "ru": "безрецептурный, без рецепта", "en": "over the counter, without prescription" },
       "pos": "adj",
       "note": { "ru": "ett-форма: receptfritt, мн.ч.: receptfria", "en": "ett-form: receptfritt, plural: receptfria" },
+      "forms": { "positive": "receptfri", "neuter": "receptfritt", "plural": "receptfria", "comparative": "mer receptfri", "superlative": "mest receptfri" },
       "example": { "sv": "Det här läkemedlet är receptfritt.", "ru": "Это лекарство продаётся без рецепта.", "en": "This medicine is available over the counter." }
     },
     {
@@ -41,6 +42,7 @@
       "translations": { "ru": "простуженный", "en": "having a cold" },
       "pos": "adj",
       "note": { "ru": "ett-форма: förkylt, мн.ч.: förkylda", "en": "ett-form: förkylt, plural: förkylda" },
+      "forms": { "positive": "förkyld", "neuter": "förkylt", "plural": "förkylda", "comparative": "mer förkyld", "superlative": "mest förkyld" },
       "example": { "sv": "Jag är förkyld och har ont i halsen.", "ru": "Я простужен(а), и у меня болит горло.", "en": "I have a cold and a sore throat." }
     },
     {
@@ -103,6 +105,7 @@
       "translations": { "ru": "жаропонижающее", "en": "fever-reducing" },
       "pos": "adj",
       "note": { "ru": "неизменяемое прилагательное", "en": "invariable adjective" },
+      "forms": { "positive": "febernedsättande", "neuter": "febernedsättande", "plural": "febernedsättande", "comparative": "mer febernedsättande", "superlative": "mest febernedsättande" },
       "example": { "sv": "Har ni något febernedsättande?", "ru": "У вас есть что-то жаропонижающее?", "en": "Do you have anything fever-reducing?" }
     },
     {
@@ -127,7 +130,8 @@
       "id": "vad-har-ni-mot-huvudvark",
       "sv": "Vad har ni mot huvudvärk?",
       "translations": { "ru": "Что у вас есть от головной боли?", "en": "What do you have for a headache?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vad har ni mot huvudvärk och feber?", "ru": "Что у вас есть от головной боли и температуры?", "en": "What do you have for a headache and fever?" }
     }
   ]
 }

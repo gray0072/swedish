@@ -11,13 +11,15 @@
       "id": "for-det-forsta",
       "sv": "för det första",
       "translations": { "ru": "во-первых", "en": "first, firstly" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "För det första kostar det mindre pengar.", "ru": "Во-первых, это стоит меньше денег.", "en": "First, it costs less money." }
     },
     {
       "id": "for-det-andra",
       "sv": "för det andra",
       "translations": { "ru": "во-вторых", "en": "second, secondly" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "För det andra får eleverna mer tid att sova.", "ru": "Во-вторых, ученики получают больше времени для сна.", "en": "Second, the students get more time to sleep." }
     },
     {
       "id": "visserligen",
@@ -30,7 +32,8 @@
       "id": "vaga-tyngre",
       "sv": "väga tyngre",
       "translations": { "ru": "перевешивать (о значимости)", "en": "to outweigh, to carry more weight" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Fördelarna väger tyngre än nackdelarna.", "ru": "Преимущества перевешивают недостатки.", "en": "The advantages outweigh the disadvantages." }
     },
     {
       "id": "sammanfattningsvis",
@@ -45,7 +48,8 @@
       "translations": { "ru": "аргумент", "en": "argument" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" }
+      "forms": { "indefSg": "ett argument", "defSg": "argumentet", "indefPl": "argument", "defPl": "argumenten" },
+      "example": { "sv": "Hon lade fram ett starkt argument.", "ru": "Она привела веский аргумент.", "en": "She presented a strong argument." }
     },
     {
       "id": "tes",
@@ -53,7 +57,8 @@
       "translations": { "ru": "тезис", "en": "thesis" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" }
+      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" },
+      "example": { "sv": "Uppsatsens tes är att skolan bör börja senare.", "ru": "Тезис сочинения — что школа должна начинаться позже.", "en": "The essay's thesis is that school should start later." }
     },
     {
       "id": "motargument",
@@ -61,7 +66,8 @@
       "translations": { "ru": "контраргумент", "en": "counter-argument" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" }
+      "forms": { "indefSg": "ett motargument", "defSg": "motargumentet", "indefPl": "motargument", "defPl": "motargumenten" },
+      "example": { "sv": "Läraren bemötte motargumentet med ett exempel.", "ru": "Учитель ответил на контраргумент примером.", "en": "The teacher countered the counter-argument with an example." }
     }
   ]
 }

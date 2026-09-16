@@ -15,6 +15,7 @@
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
       "note": { "ru": "перед определённым существительным: слабая форма stora", "en": "before a definite noun: weak form stora" },
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "example": { "sv": "Den stora staden.", "ru": "Большой город.", "en": "The big city." }
     },
     {
@@ -32,6 +33,7 @@
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
       "note": { "ru": "перед определённым существительным: слабая форма gamla", "en": "before a definite noun: weak form gamla" },
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "example": { "sv": "Det gamla huset.", "ru": "Старый дом.", "en": "The old house." }
     },
     {
@@ -49,6 +51,7 @@
       "translations": { "ru": "новый", "en": "new" },
       "pos": "adj",
       "note": { "ru": "перед определённым существительным (и во мн. ч.): слабая форма nya", "en": "before a definite noun (and in the plural): weak form nya" },
+      "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "example": { "sv": "De nya bilarna.", "ru": "Новые машины.", "en": "The new cars." }
     },
     {
@@ -78,6 +81,7 @@
       "translations": { "ru": "красивый", "en": "beautiful" },
       "pos": "adj",
       "note": { "ru": "слабая форма: vackra", "en": "weak form: vackra" },
+      "forms": { "positive": "vacker", "neuter": "vackert", "plural": "vackra", "comparative": "vackrare", "superlative": "vackrast" },
       "example": { "sv": "Den vackra staden.", "ru": "Красивый город.", "en": "The beautiful city." }
     }
   ]

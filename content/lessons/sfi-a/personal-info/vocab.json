@@ -69,6 +69,7 @@
       "translations": { "ru": "дата рождения", "en": "date of birth" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett födelsedatum", "defSg": "födelsedatumet", "indefPl": "födelsedatum", "defPl": "födelsedatumen" },
       "example": { "sv": "Skriv ditt födelsedatum här.", "ru": "Напиши здесь дату рождения.", "en": "Write your date of birth here." }
     },
     {
@@ -104,6 +105,7 @@
       "translations": { "ru": "семейное положение", "en": "marital status" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett civilstånd", "defSg": "civilståndet", "indefPl": "civilstånd", "defPl": "civilstånden" },
       "example": { "sv": "Vad är ditt civilstånd — gift eller ogift?", "ru": "Какое у тебя семейное положение — женат/замужем или нет?", "en": "What is your marital status — married or single?" }
     },
     {
@@ -138,6 +140,7 @@
       "sv": "underteckna",
       "translations": { "ru": "подписывать(ся)", "en": "to sign" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "underteckna", "present": "undertecknar", "past": "undertecknade", "supine": "undertecknat" },
       "example": { "sv": "Underteckna blanketten längst ner.", "ru": "Подпиши бланк внизу.", "en": "Sign the form at the bottom." }
     },

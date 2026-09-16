@@ -101,6 +101,7 @@
       "translations": { "ru": "право свободного доступа к природе", "en": "the right of public access (to nature)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "allemansrätt", "defSg": "allemansrätten", "indefPl": "allemansrätter", "defPl": "allemansrätterna" },
       "example": { "sv": "Allemansrätten ger alla rätt att plocka bär i skogen.", "ru": "Право свободного доступа даёт каждому право собирать ягоды в лесу.", "en": "The right of public access gives everyone the right to pick berries in the forest." }
     },
     {

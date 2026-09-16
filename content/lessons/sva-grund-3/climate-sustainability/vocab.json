@@ -30,7 +30,8 @@
       "translations": { "ru": "переход на новую климатическую политику", "en": "climate transition" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en klimatomställning", "defSg": "klimatomställningen", "indefPl": "klimatomställningar", "defPl": "klimatomställningarna" }
+      "forms": { "indefSg": "en klimatomställning", "defSg": "klimatomställningen", "indefPl": "klimatomställningar", "defPl": "klimatomställningarna" },
+      "example": { "sv": "Klimatomställningen kräver stora investeringar i grön teknik.", "ru": "Переход на новую климатическую политику требует крупных инвестиций в зелёные технологии.", "en": "The climate transition requires large investments in green technology." }
     },
     {
       "id": "en-losning-skulle-kunna-vara-att",
@@ -43,13 +44,15 @@
       "id": "det-storsta-problemet-ar-att",
       "sv": "det största problemet är att...",
       "translations": { "ru": "самая большая проблема в том, что...", "en": "the biggest problem is that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det största problemet är att många länder inte minskar sina utsläpp snabbt nog.", "ru": "Самая большая проблема в том, что многие страны не снижают выбросы достаточно быстро.", "en": "The biggest problem is that many countries are not reducing their emissions fast enough." }
     },
     {
       "id": "vi-maste-agera-nu",
       "sv": "vi måste agera nu",
       "translations": { "ru": "мы должны действовать сейчас", "en": "we must act now" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Forskare varnar att vi måste agera nu för att bromsa klimatförändringarna.", "ru": "Учёные предупреждают, что мы должны действовать сейчас, чтобы замедлить изменение климата.", "en": "Scientists warn that we must act now to slow down climate change." }
     },
     {
       "id": "koldioxidutslapp",
@@ -57,13 +60,15 @@
       "translations": { "ru": "выбросы углекислого газа", "en": "carbon dioxide emissions" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett koldioxidutsläpp", "defSg": "koldioxidutsläppet", "indefPl": "koldioxidutsläpp", "defPl": "koldioxidutsläppen" }
+      "forms": { "indefSg": "ett koldioxidutsläpp", "defSg": "koldioxidutsläppet", "indefPl": "koldioxidutsläpp", "defPl": "koldioxidutsläppen" },
+      "example": { "sv": "Trafiken står för en stor del av koldioxidutsläppen i städerna.", "ru": "Транспорт составляет значительную часть выбросов углекислого газа в городах.", "en": "Traffic accounts for a large share of carbon dioxide emissions in cities." }
     },
     {
       "id": "fornybar-energi",
       "sv": "förnybar energi",
       "translations": { "ru": "возобновляемая энергия", "en": "renewable energy" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Sverige satsar mycket på förnybar energi som vind- och vattenkraft.", "ru": "Швеция активно вкладывается в возобновляемую энергию, такую как ветровая и гидроэнергия.", "en": "Sweden invests heavily in renewable energy such as wind and hydropower." }
     },
     {
       "id": "minska-climate",
@@ -71,7 +76,8 @@
       "translations": { "ru": "уменьшать, снижать", "en": "to reduce" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" }
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" },
+      "example": { "sv": "Vi måste minska våra koldioxidutsläpp snabbt.", "ru": "Мы должны быстро снизить наши выбросы углекислого газа.", "en": "We must reduce our carbon dioxide emissions quickly." }
     },
     {
       "id": "paverka",
@@ -79,7 +85,8 @@
       "translations": { "ru": "влиять на", "en": "to affect, to impact" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" }
+      "forms": { "infinitive": "påverka", "present": "påverkar", "past": "påverkade", "supine": "påverkat" },
+      "example": { "sv": "Klimatförändringarna påverkar jordbruket negativt.", "ru": "Изменение климата негативно влияет на сельское хозяйство.", "en": "Climate change negatively affects agriculture." }
     },
     {
       "id": "konsekvens",
@@ -87,25 +94,29 @@
       "translations": { "ru": "последствие", "en": "consequence" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" }
+      "forms": { "indefSg": "en konsekvens", "defSg": "konsekvensen", "indefPl": "konsekvenser", "defPl": "konsekvenserna" },
+      "example": { "sv": "Torka och översvämningar är konsekvenser av klimatförändringarna.", "ru": "Засухи и наводнения — это последствия изменения климата.", "en": "Drought and flooding are consequences of climate change." }
     },
     {
       "id": "globalt",
       "sv": "globalt",
       "translations": { "ru": "глобально, в мировом масштабе", "en": "globally" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Klimatfrågan måste lösas globalt, inte bara nationellt.", "ru": "Климатический вопрос нужно решать глобально, а не только на национальном уровне.", "en": "The climate issue must be solved globally, not just nationally." }
     },
     {
       "id": "pa-lang-sikt",
       "sv": "på lång sikt",
       "translations": { "ru": "в долгосрочной перспективе", "en": "in the long run" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "På lång sikt blir förnybar energi billigare än fossila bränslen.", "ru": "В долгосрочной перспективе возобновляемая энергия становится дешевле, чем ископаемое топливо.", "en": "In the long run, renewable energy becomes cheaper than fossil fuels." }
     },
     {
       "id": "pa-kort-sikt",
       "sv": "på kort sikt",
       "translations": { "ru": "в краткосрочной перспективе", "en": "in the short run" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "På kort sikt kan omställningen kosta mer, men den lönar sig i framtiden.", "ru": "В краткосрочной перспективе переход может стоить дороже, но в будущем он окупится.", "en": "In the short run the transition may cost more, but it pays off in the future." }
     }
   ]
 }

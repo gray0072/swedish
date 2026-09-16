@@ -11,43 +11,50 @@
       "id": "min-utgangspunkt-ar-att",
       "sv": "min utgångspunkt är att...",
       "translations": { "ru": "моя исходная позиция в том, что...", "en": "my starting point is that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Min utgångspunkt är att alla elever ska ha rätt till gratis lunch.", "ru": "Моя исходная позиция в том, что все ученики должны иметь право на бесплатный обед.", "en": "My starting point is that all students should have a right to a free lunch." }
     },
     {
       "id": "det-starkaste-argumentet",
       "sv": "det starkaste argumentet för min sida är...",
       "translations": { "ru": "самый сильный аргумент в пользу моей стороны — это...", "en": "the strongest argument for my side is..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det starkaste argumentet för min sida är att statistiken talar för sig själv.", "ru": "Самый сильный аргумент в пользу моей стороны — это то, что статистика говорит сама за себя.", "en": "The strongest argument for my side is that the statistics speak for themselves." }
     },
     {
       "id": "tungt-vagande-skal",
       "sv": "ett tungt vägande skäl",
       "translations": { "ru": "веский довод", "en": "a weighty reason" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon lade fram ett tungt vägande skäl för sitt förslag.", "ru": "Она привела веский довод в пользу своего предложения.", "en": "She put forward a weighty reason for her proposal." }
     },
     {
       "id": "min-motstandare-havdar",
       "sv": "min motståndare hävdar att...",
       "translations": { "ru": "мой оппонент утверждает, что...", "en": "my opponent claims that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Min motståndare hävdar att förbudet inte skulle fungera i praktiken.", "ru": "Мой оппонент утверждает, что запрет не сработает на практике.", "en": "My opponent claims that the ban would not work in practice." }
     },
     {
       "id": "lat-mig-bemota-det",
       "sv": "låt mig bemöta det argumentet",
       "translations": { "ru": "позвольте мне ответить на этот аргумент", "en": "let me answer that argument" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Låt mig bemöta det argumentet innan vi går vidare.", "ru": "Позвольте мне ответить на этот аргумент, прежде чем мы продолжим.", "en": "Let me answer that argument before we move on." }
     },
     {
       "id": "det-haller-inte",
       "sv": "det håller inte, av flera skäl",
       "translations": { "ru": "это не выдерживает критики по нескольким причинам", "en": "that doesn't hold up, for several reasons" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det håller inte, av flera skäl, att påstå att alla tänker likadant.", "ru": "Утверждение, что все думают одинаково, не выдерживает критики по нескольким причинам.", "en": "It doesn't hold up, for several reasons, to claim that everyone thinks the same way." }
     },
     {
       "id": "sammanfattningsvis-vidhaller",
       "sv": "sammanfattningsvis vidhåller jag min ståndpunkt",
       "translations": { "ru": "в заключение, я настаиваю на своей позиции", "en": "in conclusion, I stand by my position" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Sammanfattningsvis vidhåller jag min ståndpunkt trots motargumenten.", "ru": "В заключение, я настаиваю на своей позиции, несмотря на контраргументы.", "en": "In conclusion, I stand by my position despite the counterarguments." }
     },
     {
       "id": "debatt",
@@ -117,7 +124,8 @@
       "id": "vinna-en-debatt",
       "sv": "vinna en debatt",
       "translations": { "ru": "выиграть дебаты", "en": "to win a debate" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Man vinner inte en debatt genom att höja rösten.", "ru": "Дебаты не выигрывают, повышая голос.", "en": "You don't win a debate by raising your voice." }
     },
     {
       "id": "motargument",

@@ -5,13 +5,15 @@
       "sv": "indirekt fråga",
       "translations": { "ru": "косвенный вопрос", "en": "indirect question" },
       "pos": "phrase",
-      "note": { "ru": "Вопрос, встроенный внутрь другого предложения, без вопросительного порядка слов.", "en": "A question embedded inside another sentence, without question word order." }
+      "note": { "ru": "Вопрос, встроенный внутрь другого предложения, без вопросительного порядка слов.", "en": "A question embedded inside another sentence, without question word order." },
+      "example": { "sv": "Läraren ställde en indirekt fråga om vad vi tyckte.", "ru": "Учитель задал косвенный вопрос о том, что мы думаем.", "en": "The teacher asked an indirect question about what we thought." }
     },
     {
       "id": "inbaddad-sats",
       "sv": "inbäddad sats",
       "translations": { "ru": "встроенное (вложенное) предложение", "en": "embedded clause" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I meningen \"jag vet vad hon heter\" är \"vad hon heter\" en inbäddad sats.", "ru": "В предложении «я знаю, как её зовут» «как её зовут» — это вложенное предложение.", "en": "In the sentence \"I know what her name is,\" \"what her name is\" is an embedded clause." }
     },
     {
       "id": "undra",
@@ -61,7 +63,8 @@
       "translations": { "ru": "рассказывать", "en": "to tell" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" }
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" },
+      "example": { "sv": "Kan du berätta vad som hände på mötet?", "ru": "Можешь рассказать, что произошло на встрече?", "en": "Can you tell me what happened at the meeting?" }
     },
     {
       "id": "polisen",
@@ -69,7 +72,8 @@
       "translations": { "ru": "полиция", "en": "police" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "polis", "defSg": "polisen", "indefPl": "poliser", "defPl": "poliserna" }
+      "forms": { "indefSg": "polis", "defSg": "polisen", "indefPl": "poliser", "defPl": "poliserna" },
+      "example": { "sv": "Vittnet berättade för polisen vad som hade hänt.", "ru": "Свидетель рассказал полиции, что произошло.", "en": "The witness told the police what had happened." }
     },
     {
       "id": "orsak",
@@ -77,7 +81,8 @@
       "translations": { "ru": "причина", "en": "cause, reason" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" }
+      "forms": { "indefSg": "orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" },
+      "example": { "sv": "Ingen vet vad orsaken till förseningen var.", "ru": "Никто не знает, какова была причина задержки.", "en": "No one knows what the cause of the delay was." }
     }
   ]
 }

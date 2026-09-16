@@ -25,7 +25,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en blyertspenna", "defSg": "blyertspennan", "indefPl": "blyertspennor", "defPl": "blyertspennorna" },
-      "note": { "ru": "В речи часто просто «en penna».", "en": "In everyday speech often just \"en penna\"." }
+      "note": { "ru": "В речи часто просто «en penna».", "en": "In everyday speech often just \"en penna\"." },
+      "example": { "sv": "Jag ritar med en blyertspenna.", "ru": "Я рисую карандашом.", "en": "I draw with a pencil." }
     },
     {
       "id": "papper",
@@ -33,6 +34,7 @@
       "translations": { "ru": "бумага, лист бумаги", "en": "paper, sheet of paper" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett papper", "defSg": "papperet", "indefPl": "papper", "defPl": "papperen" },
       "example": { "sv": "Jag skriver på ett papper.", "ru": "Я пишу на листе бумаги.", "en": "I am writing on a sheet of paper." }
     },
     {
@@ -41,6 +43,7 @@
       "translations": { "ru": "ластик", "en": "eraser" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett suddgummi", "defSg": "suddgummit", "indefPl": "suddgummin", "defPl": "suddgummina" },
       "example": { "sv": "Kan jag låna ett suddgummi?", "ru": "Можно одолжить ластик?", "en": "Can I borrow an eraser?" }
     },
     {
@@ -49,7 +52,8 @@
       "translations": { "ru": "папка", "en": "binder, folder" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en pärm", "defSg": "pärmen", "indefPl": "pärmar", "defPl": "pärmarna" }
+      "forms": { "indefSg": "en pärm", "defSg": "pärmen", "indefPl": "pärmar", "defPl": "pärmarna" },
+      "example": { "sv": "Alla papper ligger i pärmen.", "ru": "Все бумаги лежат в папке.", "en": "All the papers are in the binder." }
     },
     {
       "id": "vaska",
@@ -66,7 +70,8 @@
       "translations": { "ru": "блокнот", "en": "notepad" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett block", "defSg": "blocket", "indefPl": "block", "defPl": "blocken" }
+      "forms": { "indefSg": "ett block", "defSg": "blocket", "indefPl": "block", "defPl": "blocken" },
+      "example": { "sv": "Jag skriver anteckningar i blocket.", "ru": "Я пишу заметки в блокноте.", "en": "I write notes in the notepad." }
     },
     {
       "id": "tavla",
@@ -83,7 +88,8 @@
       "translations": { "ru": "компьютер", "en": "computer" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en dator", "defSg": "datorn", "indefPl": "datorer", "defPl": "datorerna" }
+      "forms": { "indefSg": "en dator", "defSg": "datorn", "indefPl": "datorer", "defPl": "datorerna" },
+      "example": { "sv": "Datorn är i väskan.", "ru": "Компьютер в сумке.", "en": "The computer is in the bag." }
     },
     {
       "id": "stol",
@@ -117,7 +123,8 @@
       "translations": { "ru": "ученик", "en": "pupil, student" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" }
+      "forms": { "indefSg": "en elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" },
+      "example": { "sv": "Eleven räcker upp handen.", "ru": "Ученик поднимает руку.", "en": "The pupil raises their hand." }
     },
     {
       "id": "klassrum",
@@ -125,7 +132,8 @@
       "translations": { "ru": "класс, классная комната", "en": "classroom" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett klassrum", "defSg": "klassrummet", "indefPl": "klassrum", "defPl": "klassrummen" }
+      "forms": { "indefSg": "ett klassrum", "defSg": "klassrummet", "indefPl": "klassrum", "defPl": "klassrummen" },
+      "example": { "sv": "Klassrummet har tjugo stolar.", "ru": "В классе двадцать стульев.", "en": "The classroom has twenty chairs." }
     },
     {
       "id": "lektion",
@@ -142,13 +150,15 @@
       "translations": { "ru": "словарь", "en": "dictionary" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ordbok", "defSg": "ordboken", "indefPl": "ordböcker", "defPl": "ordböckerna" }
+      "forms": { "indefSg": "en ordbok", "defSg": "ordboken", "indefPl": "ordböcker", "defPl": "ordböckerna" },
+      "example": { "sv": "Jag slår upp ordet i ordboken.", "ru": "Я ищу слово в словаре.", "en": "I look up the word in the dictionary." }
     },
     {
       "id": "kan-jag-lana-en-penna",
       "sv": "Kan jag låna en penna?",
       "translations": { "ru": "Можно одолжить ручку?", "en": "Can I borrow a pen?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ursäkta, kan jag låna en penna?", "ru": "Извините, можно одолжить ручку?", "en": "Excuse me, can I borrow a pen?" }
     }
   ]
 }

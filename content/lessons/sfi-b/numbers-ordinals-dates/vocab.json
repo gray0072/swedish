@@ -18,13 +18,15 @@
       "id": "fyrtio",
       "sv": "fyrtio",
       "translations": { "ru": "сорок", "en": "forty" },
-      "pos": "numeral"
+      "pos": "numeral",
+      "example": { "sv": "Min mamma är fyrtio år.", "ru": "Моей маме сорок лет.", "en": "My mom is forty years old." }
     },
     {
       "id": "femtio",
       "sv": "femtio",
       "translations": { "ru": "пятьдесят", "en": "fifty" },
-      "pos": "numeral"
+      "pos": "numeral",
+      "example": { "sv": "Boken kostar femtio kronor.", "ru": "Книга стоит пятьдесят крон.", "en": "The book costs fifty kronor." }
     },
     {
       "id": "hundra",
@@ -72,13 +74,15 @@
       "id": "fjarde-ord",
       "sv": "fjärde",
       "translations": { "ru": "четвёртый", "en": "fourth" },
-      "pos": "numeral"
+      "pos": "numeral",
+      "example": { "sv": "Vi bor på fjärde våningen.", "ru": "Мы живём на четвёртом этаже.", "en": "We live on the fourth floor." }
     },
     {
       "id": "femte-ord",
       "sv": "femte",
       "translations": { "ru": "пятый", "en": "fifth" },
-      "pos": "numeral"
+      "pos": "numeral",
+      "example": { "sv": "Hon kom på femte plats.", "ru": "Она пришла на пятом месте.", "en": "She came in fifth place." }
     },
     {
       "id": "tionde-ord",

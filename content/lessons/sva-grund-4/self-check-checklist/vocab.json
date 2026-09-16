@@ -6,7 +6,8 @@
       "translations": { "ru": "чек-лист, список проверки", "en": "checklist" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en checklista", "defSg": "checklistan", "indefPl": "checklistor", "defPl": "checklistorna" }
+      "forms": { "indefSg": "en checklista", "defSg": "checklistan", "indefPl": "checklistor", "defPl": "checklistorna" },
+      "example": { "sv": "Använd checklistan innan du lämnar in texten.", "ru": "Используй чек-лист перед тем, как сдать текст.", "en": "Use the checklist before handing in the text." }
     },
     {
       "id": "granska",
@@ -14,7 +15,8 @@
       "translations": { "ru": "проверять, тщательно рассматривать", "en": "to review, scrutinise" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" },
+      "example": { "sv": "Granska texten en extra gång innan du lämnar in den.", "ru": "Просмотри текст ещё раз перед тем, как сдать его.", "en": "Review the text one more time before handing it in." }
     },
     {
       "id": "sprakgranskning",
@@ -22,7 +24,8 @@
       "translations": { "ru": "языковая правка, проверка языка", "en": "proofreading, language review" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en språkgranskning", "defSg": "språkgranskningen", "indefPl": "språkgranskningar", "defPl": "språkgranskningarna" }
+      "forms": { "indefSg": "en språkgranskning", "defSg": "språkgranskningen", "indefPl": "språkgranskningar", "defPl": "språkgranskningarna" },
+      "example": { "sv": "Språkgranskning hjälper dig att hitta fel i grammatiken.", "ru": "Языковая проверка помогает найти ошибки в грамматике.", "en": "Language review helps you find mistakes in the grammar." }
     },
     {
       "id": "huvudsats",
@@ -30,7 +33,8 @@
       "translations": { "ru": "главное предложение", "en": "main clause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" }
+      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" },
+      "example": { "sv": "Varje mening måste innehålla minst en huvudsats.", "ru": "Каждое предложение должно содержать хотя бы одно главное предложение.", "en": "Every sentence must contain at least one main clause." }
     },
     {
       "id": "genus",
@@ -38,7 +42,8 @@
       "translations": { "ru": "грамматический род", "en": "grammatical gender" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" }
+      "forms": { "indefSg": "genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" },
+      "example": { "sv": "Kom ihåg att kontrollera genus på substantiven.", "ru": "Не забудь проверить род существительных.", "en": "Remember to check the gender of the nouns." }
     },
     {
       "id": "dubbel-bestamdhet",
@@ -53,7 +58,8 @@
       "translations": { "ru": "тезис", "en": "thesis" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" }
+      "forms": { "indefSg": "en tes", "defSg": "tesen", "indefPl": "teser", "defPl": "teserna" },
+      "example": { "sv": "Din tes bör presenteras redan i inledningen.", "ru": "Твой тезис должен быть представлен уже во вступлении.", "en": "Your thesis should be presented already in the introduction." }
     },
     {
       "id": "slutsats-checklist",
@@ -61,7 +67,8 @@
       "translations": { "ru": "вывод, заключение", "en": "conclusion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" }
+      "forms": { "indefSg": "en slutsats", "defSg": "slutsatsen", "indefPl": "slutsatser", "defPl": "slutsatserna" },
+      "example": { "sv": "Avsluta texten med en tydlig slutsats.", "ru": "Заканчивай текст чётким выводом.", "en": "End the text with a clear conclusion." }
     },
     {
       "id": "sammanhang",
@@ -69,7 +76,8 @@
       "translations": { "ru": "связность, контекст", "en": "coherence, context" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" },
+      "example": { "sv": "Läs igenom texten för att kontrollera sammanhang mellan styckena.", "ru": "Прочитай текст, чтобы проверить связность между абзацами.", "en": "Read through the text to check the coherence between paragraphs." }
     },
     {
       "id": "alska",
@@ -77,27 +85,31 @@
       "translations": { "ru": "любить", "en": "to love" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "älska", "present": "älskar", "past": "älskade", "supine": "älskat" }
+      "forms": { "infinitive": "älska", "present": "älskar", "past": "älskade", "supine": "älskat" },
+      "example": { "sv": "Många elever älskar inte att skriva, men det blir lättare med en checklista.", "ru": "Многие ученики не любят писать, но с чек-листом это становится легче.", "en": "Many students don't love writing, but it gets easier with a checklist." }
     },
     {
       "id": "sin-sitt-sina",
       "sv": "sin/sitt/sina",
       "translations": { "ru": "свой/своё/свои (возвратное притяжательное)", "en": "one's own (reflexive possessive)" },
       "pos": "pron",
-      "note": { "ru": "Используется, когда обладатель совпадает с подлежащим предложения.", "en": "Used when the owner is the same as the subject of the clause." }
+      "note": { "ru": "Используется, когда обладатель совпадает с подлежащим предложения.", "en": "Used when the owner is the same as the subject of the clause." },
+      "example": { "sv": "Hon läser sin text en extra gång innan hon lämnar in den.", "ru": "Она перечитывает свой текст ещё раз перед тем, как сдать его.", "en": "She reads her (own) text one more time before handing it in." }
     },
     {
       "id": "hans-hennes",
       "sv": "hans/hennes",
       "translations": { "ru": "его/её (не возвратное)", "en": "his/her (non-reflexive)" },
       "pos": "pron",
-      "note": { "ru": "Используется, когда обладатель — не подлежащее этого предложения.", "en": "Used when the owner is not the subject of this clause." }
+      "note": { "ru": "Используется, когда обладатель — не подлежащее этого предложения.", "en": "Used when the owner is not the subject of this clause." },
+      "example": { "sv": "Läraren rättar hans text efter att han lämnat in den.", "ru": "Учитель проверяет его текст после того, как он его сдал.", "en": "The teacher corrects his text after he has handed it in." }
     },
     {
       "id": "trots",
       "sv": "trots",
       "translations": { "ru": "несмотря на", "en": "despite, in spite of" },
-      "pos": "prep"
+      "pos": "prep",
+      "example": { "sv": "Trots att texten var kort innehöll den alla viktiga delar.", "ru": "Несмотря на то, что текст был коротким, он содержал все важные части.", "en": "Despite the text being short, it contained all the important parts." }
     }
   ]
 }

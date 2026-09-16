@@ -44,6 +44,7 @@
       "sv": "kallt",
       "translations": { "ru": "холодно", "en": "cold" },
       "pos": "adj",
+      "forms": { "positive": "kall", "neuter": "kallt", "plural": "kalla", "comparative": "kallare", "superlative": "kallast" },
       "example": { "sv": "Det är kallt idag.", "ru": "Сегодня холодно.", "en": "It is cold today." }
     },
     {
@@ -51,6 +52,7 @@
       "sv": "varmt",
       "translations": { "ru": "тепло, жарко", "en": "warm, hot" },
       "pos": "adj",
+      "forms": { "positive": "varm", "neuter": "varmt", "plural": "varma", "comparative": "varmare", "superlative": "varmast" },
       "example": { "sv": "Det är varmt i köket.", "ru": "На кухне тепло.", "en": "It is warm in the kitchen." }
     },
     {

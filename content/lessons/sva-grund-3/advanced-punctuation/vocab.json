@@ -6,7 +6,8 @@
       "translations": { "ru": "двоеточие", "en": "colon" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett kolon", "defSg": "kolonet", "indefPl": "kolon", "defPl": "kolonen" }
+      "forms": { "indefSg": "ett kolon", "defSg": "kolonet", "indefPl": "kolon", "defPl": "kolonen" },
+      "example": { "sv": "Ett kolon kan användas för att introducera en uppräkning.", "ru": "Двоеточие можно использовать, чтобы ввести перечисление.", "en": "A colon can be used to introduce a list." }
     },
     {
       "id": "tankstreck",
@@ -24,7 +25,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett bindestreck", "defSg": "bindestrecket", "indefPl": "bindestreck", "defPl": "bindestrecken" },
-      "note": { "ru": "Короткий, без пробелов — не путать с tankstreck.", "en": "Short, no spaces — not to be confused with tankstreck." }
+      "note": { "ru": "Короткий, без пробелов — не путать с tankstreck.", "en": "Short, no spaces — not to be confused with tankstreck." },
+      "example": { "sv": "Ordet skrivs med bindestreck: sms-meddelande.", "ru": "Слово пишется через дефис: sms-meddelande.", "en": "The word is written with a hyphen: sms-meddelande." }
     },
     {
       "id": "citattecken",
@@ -33,7 +35,8 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett citattecken", "defSg": "citattecknet", "indefPl": "citattecken", "defPl": "citattecknen" },
-      "note": { "ru": "В шведском одинаковый символ ” и в начале, и в конце цитаты.", "en": "Swedish uses the same character ” for both the opening and closing mark." }
+      "note": { "ru": "В шведском одинаковый символ ” и в начале, и в конце цитаты.", "en": "Swedish uses the same character ” for both the opening and closing mark." },
+      "example": { "sv": "Hon satte ordet ”ärlig” inom citattecken.", "ru": "Она поставила слово «честный» в кавычки.", "en": "She put the word \"honest\" in quotation marks." }
     },
     {
       "id": "kommatecken",
@@ -41,7 +44,8 @@
       "translations": { "ru": "запятая (знак)", "en": "comma (the mark)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett kommatecken", "defSg": "kommatecknet", "indefPl": "kommatecken", "defPl": "kommatecknen" }
+      "forms": { "indefSg": "ett kommatecken", "defSg": "kommatecknet", "indefPl": "kommatecken", "defPl": "kommatecknen" },
+      "example": { "sv": "Hon glömde kommatecknet mellan de två satserna.", "ru": "Она забыла запятую между двумя предложениями.", "en": "She forgot the comma between the two clauses." }
     },
     {
       "id": "begransande-bisats",
@@ -63,7 +67,8 @@
       "id": "direkt-tal",
       "sv": "direkt tal",
       "translations": { "ru": "прямая речь", "en": "direct speech" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I direkt tal skriver man exakt vad personen sade.", "ru": "В прямой речи пишут именно то, что сказал человек.", "en": "In direct speech you write exactly what the person said." }
     },
     {
       "id": "replik",
@@ -71,7 +76,8 @@
       "translations": { "ru": "реплика, фраза (в диалоге)", "en": "a line (of dialogue), a remark" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en replik", "defSg": "repliken", "indefPl": "repliker", "defPl": "replikerna" }
+      "forms": { "indefSg": "en replik", "defSg": "repliken", "indefPl": "repliker", "defPl": "replikerna" },
+      "example": { "sv": "Skådespelarens replik fick publiken att skratta.", "ru": "Реплика актёра вызвала смех публики.", "en": "The actor's line made the audience laugh." }
     },
     {
       "id": "intervall",

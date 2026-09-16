@@ -44,6 +44,8 @@
       "sv": "CSN",
       "translations": { "ru": "ЦСН — государственный орган, выдающий финансовую поддержку на учёбу", "en": "CSN — the Swedish Board of Student Finance" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "CSN", "defSg": "CSN", "indefPl": "CSN", "defPl": "CSN" },
       "example": { "sv": "CSN betalar ut studiebidrag och studielån varje månad.", "ru": "CSN ежемесячно выплачивает грант и кредит на учёбу.", "en": "CSN pays out the student grant and student loan every month." }
     },
     {

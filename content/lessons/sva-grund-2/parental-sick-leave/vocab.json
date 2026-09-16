@@ -68,6 +68,8 @@
       "sv": "Försäkringskassan",
       "translations": { "ru": "Кассы социального страхования Швеции", "en": "the Swedish Social Insurance Agency" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en försäkringskassa", "defSg": "Försäkringskassan", "indefPl": "försäkringskassor", "defPl": "försäkringskassorna" },
       "note": { "ru": "Государственное ведомство, которое выплачивает пособия по болезни, родительские пособия и другие компенсации.", "en": "The government agency that pays out sickness benefit, parental benefit and other compensation." },
       "example": { "sv": "Jag ansökte om föräldrapenning hos Försäkringskassan.", "ru": "Я подал(а) заявление на родительское пособие в Försäkringskassan.", "en": "I applied for parental benefit at the Social Insurance Agency." }
     },
@@ -104,6 +106,7 @@
       "translations": { "ru": "отсутствие по болезни", "en": "sick absence" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en sjukfrånvaro", "defSg": "sjukfrånvaron", "indefPl": "sjukfrånvaror", "defPl": "sjukfrånvarorna" },
       "example": { "sv": "Sjukfrånvaron ökade under vintern.", "ru": "Отсутствие по болезни выросло зимой.", "en": "Sick absence increased during the winter." }
     },
     {
@@ -112,6 +115,7 @@
       "translations": { "ru": "трудоспособность", "en": "work capacity" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en arbetsförmåga", "defSg": "arbetsförmågan", "indefPl": "arbetsförmågor", "defPl": "arbetsförmågorna" },
       "example": { "sv": "Läkaren bedömer din arbetsförmåga.", "ru": "Врач оценивает твою трудоспособность.", "en": "The doctor assesses your work capacity." }
     },
     {

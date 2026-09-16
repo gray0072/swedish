@@ -14,6 +14,7 @@
       "sv": "leende",
       "translations": { "ru": "улыбающийся; улыбка", "en": "smiling; a smile" },
       "pos": "adj",
+      "forms": { "positive": "leende", "neuter": "leende", "plural": "leende", "comparative": "mer leende", "superlative": "mest leende" },
       "note": { "ru": "Причастие наст. времени от le — не изменяется по роду/числу; как существительное ett leende значит «улыбка».", "en": "Present participle of le — invariable for gender/number; as a noun, ett leende means \"a smile\"." },
       "example": { "sv": "En leende flicka vinkade.", "ru": "Улыбающаяся девочка помахала рукой.", "en": "A smiling girl waved." }
     },
@@ -23,13 +24,15 @@
       "translations": { "ru": "бежать", "en": "to run" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" }
+      "forms": { "infinitive": "springa", "present": "springer", "past": "sprang", "supine": "sprungit" },
+      "example": { "sv": "Han springer varje morgon.", "ru": "Он бегает каждое утро.", "en": "He runs every morning." }
     },
     {
       "id": "springande",
       "sv": "springande",
       "translations": { "ru": "бегом, на бегу", "en": "running" },
       "pos": "adj",
+      "forms": { "positive": "springande", "neuter": "springande", "plural": "springande", "comparative": "mer springande", "superlative": "mest springande" },
       "note": { "ru": "Причастие наст. времени от springa; используется обстоятельственно.", "en": "Present participle of springa; used adverbially." },
       "example": { "sv": "Barnen kom springande.", "ru": "Дети прибежали.", "en": "The children came running." }
     },
@@ -39,7 +42,8 @@
       "translations": { "ru": "жить", "en": "to live" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "Vi bor i en lägenhet i centrum.", "ru": "Мы живём в квартире в центре.", "en": "We live in an apartment downtown." }
     },
     {
       "id": "boende",
@@ -73,7 +77,8 @@
       "translations": { "ru": "учиться, изучать", "en": "to study" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "studera", "present": "studerar", "past": "studerade", "supine": "studerat" }
+      "forms": { "infinitive": "studera", "present": "studerar", "past": "studerade", "supine": "studerat" },
+      "example": { "sv": "Hon studerar svenska vid universitetet.", "ru": "Она изучает шведский язык в университете.", "en": "She is studying Swedish at university." }
     },
     {
       "id": "studerande",
@@ -90,7 +95,8 @@
       "translations": { "ru": "случаться, происходить", "en": "to happen" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "ske", "present": "sker", "past": "skedde", "supine": "skett" }
+      "forms": { "infinitive": "ske", "present": "sker", "past": "skedde", "supine": "skett" },
+      "example": { "sv": "Olyckan skedde mitt på dagen.", "ru": "Авария произошла в середине дня.", "en": "The accident happened in the middle of the day." }
     },
     {
       "id": "skeende",

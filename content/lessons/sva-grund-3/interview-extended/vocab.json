@@ -37,6 +37,7 @@
       "sv": "nuvarande",
       "translations": { "ru": "нынешний, текущий", "en": "current" },
       "pos": "adj",
+      "forms": { "positive": "nuvarande", "neuter": "nuvarande", "plural": "nuvarande", "comparative": "mer nuvarande", "superlative": "mest nuvarande" },
       "example": { "sv": "Mitt nuvarande jobb är stabilt men utvecklar mig inte.", "ru": "Моя нынешняя работа стабильна, но не развивает меня.", "en": "My current job is stable but does not help me grow." }
     },
     {
@@ -44,6 +45,7 @@
       "sv": "säga upp sig",
       "translations": { "ru": "уволиться (по своей инициативе)", "en": "to resign, to quit" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "säga upp sig", "present": "säger upp sig", "past": "sa upp sig", "supine": "sagt upp sig" },
       "example": { "sv": "Jag sa upp mig från mitt förra jobb i våras.", "ru": "Я уволился(лась) с прежней работы этой весной.", "en": "I resigned from my previous job this spring." }
     },

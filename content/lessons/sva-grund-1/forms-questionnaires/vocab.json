@@ -13,6 +13,7 @@
       "sv": "obligatorisk",
       "translations": { "ru": "обязательный", "en": "mandatory, required" },
       "pos": "adj",
+      "forms": { "positive": "obligatorisk", "neuter": "obligatoriskt", "plural": "obligatoriska", "comparative": "mer obligatorisk", "superlative": "mest obligatorisk" },
       "example": { "sv": "Detta är ett obligatoriskt fält.", "ru": "Это обязательное поле.", "en": "This is a mandatory field." }
     },
     {
@@ -20,6 +21,7 @@
       "sv": "frivillig",
       "translations": { "ru": "добровольный, необязательный", "en": "voluntary, optional" },
       "pos": "adj",
+      "forms": { "positive": "frivillig", "neuter": "frivilligt", "plural": "frivilliga", "comparative": "frivilligare", "superlative": "frivilligast" },
       "example": { "sv": "Den här frågan är frivillig.", "ru": "Этот вопрос необязательный.", "en": "This question is optional." }
     },
     {

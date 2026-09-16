@@ -5,6 +5,7 @@
       "sv": "stor",
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
       "note": { "ru": "ett-форма: stort, мн.ч.: stora", "en": "ett-form: stort, plural: stora" },
       "example": { "sv": "Huset är stort, men trädgården är liten.", "ru": "Дом большой, а сад маленький.", "en": "The house is big, but the garden is small." }
     },
@@ -13,6 +14,7 @@
       "sv": "liten",
       "translations": { "ru": "маленький", "en": "small" },
       "pos": "adj",
+      "forms": { "positive": "liten", "neuter": "litet", "plural": "små", "comparative": "mindre", "superlative": "minst" },
       "note": { "ru": "ett-форма: litet, мн.ч.: små (неправильная форма)", "en": "ett-form: litet, plural: små (irregular)" },
       "example": { "sv": "Trädgården är liten, men huset är stort.", "ru": "Сад маленький, а дом большой.", "en": "The garden is small, but the house is big." }
     },
@@ -21,6 +23,7 @@
       "sv": "lång",
       "translations": { "ru": "длинный", "en": "long" },
       "pos": "adj",
+      "forms": { "positive": "lång", "neuter": "långt", "plural": "långa", "comparative": "längre", "superlative": "längst" },
       "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
       "example": { "sv": "Filmen är lång, men trailern är kort.", "ru": "Фильм длинный, а трейлер короткий.", "en": "The movie is long, but the trailer is short." }
     },
@@ -29,6 +32,7 @@
       "sv": "kort",
       "translations": { "ru": "короткий", "en": "short" },
       "pos": "adj",
+      "forms": { "positive": "kort", "neuter": "kort", "plural": "korta", "comparative": "kortare", "superlative": "kortast" },
       "note": { "ru": "ett-форма: kort (не меняется), мн.ч.: korta", "en": "ett-form: kort (unchanged), plural: korta" },
       "example": { "sv": "Trailern är kort, men filmen är lång.", "ru": "Трейлер короткий, а фильм длинный.", "en": "The trailer is short, but the movie is long." }
     },
@@ -37,6 +41,7 @@
       "sv": "ny",
       "translations": { "ru": "новый", "en": "new" },
       "pos": "adj",
+      "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "note": { "ru": "ett-форма: nytt, мн.ч.: nya", "en": "ett-form: nytt, plural: nya" },
       "example": { "sv": "Min telefon är ny, men min dator är gammal.", "ru": "Мой телефон новый, а компьютер старый.", "en": "My phone is new, but my computer is old." }
     },
@@ -45,6 +50,7 @@
       "sv": "gammal",
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "note": { "ru": "ett-форма: gammalt, мн.ч.: gamla", "en": "ett-form: gammalt, plural: gamla" },
       "example": { "sv": "Datorn är gammal, men telefonen är ny.", "ru": "Компьютер старый, а телефон новый.", "en": "The computer is old, but the phone is new." }
     },
@@ -53,6 +59,7 @@
       "sv": "snabb",
       "translations": { "ru": "быстрый", "en": "fast" },
       "pos": "adj",
+      "forms": { "positive": "snabb", "neuter": "snabbt", "plural": "snabba", "comparative": "snabbare", "superlative": "snabbast" },
       "note": { "ru": "ett-форма: snabbt, мн.ч.: snabba", "en": "ett-form: snabbt, plural: snabba" },
       "example": { "sv": "Tåget är snabbt, men bussen är långsam.", "ru": "Поезд быстрый, а автобус медленный.", "en": "The train is fast, but the bus is slow." }
     },
@@ -61,6 +68,7 @@
       "sv": "långsam",
       "translations": { "ru": "медленный", "en": "slow" },
       "pos": "adj",
+      "forms": { "positive": "långsam", "neuter": "långsamt", "plural": "långsamma", "comparative": "långsammare", "superlative": "långsammast" },
       "note": { "ru": "ett-форма: långsamt, мн.ч.: långsamma", "en": "ett-form: långsamt, plural: långsamma" },
       "example": { "sv": "Bussen är långsam, men tåget är snabbt.", "ru": "Автобус медленный, а поезд быстрый.", "en": "The bus is slow, but the train is fast." }
     },
@@ -69,6 +77,7 @@
       "sv": "tung",
       "translations": { "ru": "тяжёлый", "en": "heavy" },
       "pos": "adj",
+      "forms": { "positive": "tung", "neuter": "tungt", "plural": "tunga", "comparative": "tyngre", "superlative": "tyngst" },
       "note": { "ru": "ett-форма: tungt, мн.ч.: tunga", "en": "ett-form: tungt, plural: tunga" },
       "example": { "sv": "Den här väskan är tung, men den där är lätt.", "ru": "Эта сумка тяжёлая, а та лёгкая.", "en": "This bag is heavy, but that one is light." }
     },
@@ -77,13 +86,16 @@
       "sv": "lätt",
       "translations": { "ru": "лёгкий (по весу)", "en": "light (in weight)" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: lätt (не меняется), мн.ч.: lätta", "en": "ett-form: lätt (unchanged), plural: lätta" }
+      "forms": { "positive": "lätt", "neuter": "lätt", "plural": "lätta", "comparative": "lättare", "superlative": "lättast" },
+      "note": { "ru": "ett-форма: lätt (не меняется), мн.ч.: lätta", "en": "ett-form: lätt (unchanged), plural: lätta" },
+      "example": { "sv": "Den här väskan är lätt, jag kan bära den själv.", "ru": "Эта сумка лёгкая, я могу нести её сама.", "en": "This bag is light, I can carry it myself." }
     },
     {
       "id": "dyr",
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "note": { "ru": "ett-форма: dyrt, мн.ч.: dyra", "en": "ett-form: dyrt, plural: dyra" },
       "example": { "sv": "Den här klockan är dyr, men den där är billig.", "ru": "Эти часы дорогие, а те дешёвые.", "en": "This watch is expensive, but that one is cheap." }
     },
@@ -92,6 +104,7 @@
       "sv": "billig",
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "note": { "ru": "ett-форма: billigt, мн.ч.: billiga", "en": "ett-form: billigt, plural: billiga" },
       "example": { "sv": "Den här klockan är billig, den andra är dyr.", "ru": "Эти часы дешёвые, а те другие — дорогие.", "en": "This watch is cheap, the other one is expensive." }
     },
@@ -100,6 +113,7 @@
       "sv": "ren",
       "translations": { "ru": "чистый", "en": "clean" },
       "pos": "adj",
+      "forms": { "positive": "ren", "neuter": "rent", "plural": "rena", "comparative": "renare", "superlative": "renast" },
       "note": { "ru": "ett-форма: rent, мн.ч.: rena", "en": "ett-form: rent, plural: rena" },
       "example": { "sv": "Köket är rent, men badrummet är smutsigt.", "ru": "Кухня чистая, а ванная грязная.", "en": "The kitchen is clean, but the bathroom is dirty." }
     },
@@ -108,13 +122,16 @@
       "sv": "smutsig",
       "translations": { "ru": "грязный", "en": "dirty" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: smutsigt, мн.ч.: smutsiga", "en": "ett-form: smutsigt, plural: smutsiga" }
+      "forms": { "positive": "smutsig", "neuter": "smutsigt", "plural": "smutsiga", "comparative": "smutsigare", "superlative": "smutsigast" },
+      "note": { "ru": "ett-форма: smutsigt, мн.ч.: smutsiga", "en": "ett-form: smutsigt, plural: smutsiga" },
+      "example": { "sv": "Mina skor är smutsiga efter promenaden.", "ru": "Мои туфли грязные после прогулки.", "en": "My shoes are dirty after the walk." }
     },
     {
       "id": "oppen",
       "sv": "öppen",
       "translations": { "ru": "открытый", "en": "open" },
       "pos": "adj",
+      "forms": { "positive": "öppen", "neuter": "öppet", "plural": "öppna", "comparative": "öppnare", "superlative": "öppnast" },
       "note": { "ru": "ett-форма: öppet, мн.ч.: öppna (неправильная форма)", "en": "ett-form: öppet, plural: öppna (irregular)" },
       "example": { "sv": "Butiken är öppen på dagen men stängd på natten.", "ru": "Магазин открыт днём, но закрыт ночью.", "en": "The shop is open during the day but closed at night." }
     },
@@ -123,13 +140,16 @@
       "sv": "stängd",
       "translations": { "ru": "закрытый", "en": "closed" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: stängt, мн.ч.: stängda", "en": "ett-form: stängt, plural: stängda" }
+      "forms": { "positive": "stängd", "neuter": "stängt", "plural": "stängda", "comparative": "mer stängd", "superlative": "mest stängd" },
+      "note": { "ru": "ett-форма: stängt, мн.ч.: stängda", "en": "ett-form: stängt, plural: stängda" },
+      "example": { "sv": "Affären är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
     },
     {
       "id": "full",
       "sv": "full",
       "translations": { "ru": "полный", "en": "full" },
       "pos": "adj",
+      "forms": { "positive": "full", "neuter": "fullt", "plural": "fulla", "comparative": "fullare", "superlative": "fullast" },
       "note": { "ru": "ett-форма: fullt, мн.ч.: fulla", "en": "ett-form: fullt, plural: fulla" },
       "example": { "sv": "Glaset är fullt, men flaskan är tom.", "ru": "Стакан полный, а бутылка пустая.", "en": "The glass is full, but the bottle is empty." }
     },
@@ -138,13 +158,16 @@
       "sv": "tom",
       "translations": { "ru": "пустой", "en": "empty" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: tomt, мн.ч.: tomma", "en": "ett-form: tomt, plural: tomma" }
+      "forms": { "positive": "tom", "neuter": "tomt", "plural": "tomma", "comparative": "tommare", "superlative": "tomast" },
+      "note": { "ru": "ett-форма: tomt, мн.ч.: tomma", "en": "ett-form: tomt, plural: tomma" },
+      "example": { "sv": "Kylskåpet är tomt, vi måste handla mat.", "ru": "Холодильник пустой, нам нужно купить еду.", "en": "The fridge is empty, we need to buy food." }
     },
     {
       "id": "hog",
       "sv": "hög",
       "translations": { "ru": "высокий", "en": "high, tall" },
       "pos": "adj",
+      "forms": { "positive": "hög", "neuter": "högt", "plural": "höga", "comparative": "högre", "superlative": "högst" },
       "note": { "ru": "ett-форма: högt, мн.ч.: höga", "en": "ett-form: högt, plural: höga" },
       "example": { "sv": "Berget är högt, men kullen är låg.", "ru": "Гора высокая, а холм низкий.", "en": "The mountain is high, but the hill is low." }
     },
@@ -153,13 +176,16 @@
       "sv": "låg",
       "translations": { "ru": "низкий", "en": "low" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: lågt, мн.ч.: låga", "en": "ett-form: lågt, plural: låga" }
+      "forms": { "positive": "låg", "neuter": "lågt", "plural": "låga", "comparative": "lägre", "superlative": "lägst" },
+      "note": { "ru": "ett-форма: lågt, мн.ч.: låga", "en": "ett-form: lågt, plural: låga" },
+      "example": { "sv": "Bordet är lågt och passar bra för barn.", "ru": "Стол низкий и хорошо подходит для детей.", "en": "The table is low and suits children well." }
     },
     {
       "id": "bred",
       "sv": "bred",
       "translations": { "ru": "широкий", "en": "wide" },
       "pos": "adj",
+      "forms": { "positive": "bred", "neuter": "brett", "plural": "breda", "comparative": "bredare", "superlative": "bredast" },
       "note": { "ru": "ett-форма: brett, мн.ч.: breda", "en": "ett-form: brett, plural: breda" },
       "example": { "sv": "Motorvägen är bred, men gränden är smal.", "ru": "Автомагистраль широкая, а переулок узкий.", "en": "The highway is wide, but the alley is narrow." }
     },
@@ -168,7 +194,9 @@
       "sv": "smal",
       "translations": { "ru": "узкий", "en": "narrow" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" }
+      "forms": { "positive": "smal", "neuter": "smalt", "plural": "smala", "comparative": "smalare", "superlative": "smalast" },
+      "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
+      "example": { "sv": "Gatan är smal och det är svårt att parkera där.", "ru": "Улица узкая, и там трудно парковаться.", "en": "The street is narrow and it is hard to park there." }
     }
   ]
 }

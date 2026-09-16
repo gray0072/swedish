@@ -65,6 +65,7 @@
       "sv": "frånvarande",
       "translations": { "ru": "отсутствующий", "en": "absent" },
       "pos": "adj",
+      "forms": { "positive": "frånvarande", "neuter": "frånvarande", "plural": "frånvarande", "comparative": "mer frånvarande", "superlative": "mest frånvarande" },
       "example": { "sv": "Mitt barn är frånvarande idag på grund av sjukdom.", "ru": "Мой ребёнок сегодня отсутствует из-за болезни.", "en": "My child is absent today due to illness." }
     },
     {
@@ -99,6 +100,8 @@
       "sv": "läxor",
       "translations": { "ru": "домашние задания", "en": "homework" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en läxa", "defSg": "läxan", "indefPl": "läxor", "defPl": "läxorna" },
       "note": { "ru": "слово всегда во мн.ч.", "en": "used only in plural form" },
       "example": { "sv": "Har du gjort dina läxor?", "ru": "Ты сделал домашнее задание?", "en": "Have you done your homework?" }
     },

@@ -12,25 +12,29 @@
       "sv": "Hur mycket kostar det?",
       "translations": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
       "pos": "phrase",
-      "note": { "ru": "То же самое, что «Vad kostar det?».", "en": "The same thing as \"Vad kostar det?\"." }
+      "note": { "ru": "То же самое, что «Vad kostar det?».", "en": "The same thing as \"Vad kostar det?\"." },
+      "example": { "sv": "Hur mycket kostar det? — Femtio kronor.", "ru": "Сколько это стоит? — Пятьдесят крон.", "en": "How much does it cost? — Fifty kronor." }
     },
     {
       "id": "det-kostar-tjugo-kronor",
       "sv": "Det kostar tjugo kronor.",
       "translations": { "ru": "Это стоит двадцать крон.", "en": "It costs twenty kronor." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det kostar tjugo kronor, tack.", "ru": "Это стоит двадцать крон, пожалуйста.", "en": "It costs twenty kronor, please." }
     },
     {
       "id": "kan-jag-betala-med-kort",
       "sv": "Kan jag betala med kort?",
       "translations": { "ru": "Можно заплатить картой?", "en": "Can I pay by card?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Kan jag betala med kort? — Ja, det går bra.", "ru": "Можно заплатить картой? — Да, конечно.", "en": "Can I pay by card? — Yes, that's fine." }
     },
     {
       "id": "jag-betalar-med-kort",
       "sv": "Jag betalar med kort.",
       "translations": { "ru": "Я плачу картой.", "en": "I am paying by card." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag betalar med kort, inte kontant.", "ru": "Я плачу картой, а не наличными.", "en": "I'm paying by card, not in cash." }
     },
     {
       "id": "kontant",
@@ -53,20 +57,23 @@
       "id": "kan-jag-fa-ett-kvitto",
       "sv": "Kan jag få ett kvitto?",
       "translations": { "ru": "Можно чек?", "en": "Can I have a receipt?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Kan jag få ett kvitto, tack?", "ru": "Можно чек, пожалуйста?", "en": "Can I have a receipt, please?" }
     },
     {
       "id": "var-ar-kassan",
       "sv": "Var är kassan?",
       "translations": { "ru": "Где касса?", "en": "Where is the checkout?" },
       "pos": "phrase",
-      "note": { "ru": "en kassa — касса; kassan — «эта касса».", "en": "en kassa — a checkout; kassan — the checkout." }
+      "note": { "ru": "en kassa — касса; kassan — «эта касса».", "en": "en kassa — a checkout; kassan — the checkout." },
+      "example": { "sv": "Ursäkta, var är kassan?", "ru": "Извините, где касса?", "en": "Excuse me, where is the checkout?" }
     },
     {
       "id": "jag-tar-den-har",
       "sv": "Jag tar den här.",
       "translations": { "ru": "Я возьму вот это.", "en": "I'll take this one." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag tar den här, tack.", "ru": "Я возьму вот это, пожалуйста.", "en": "I'll take this one, please." }
     },
     {
       "id": "har-ni",
@@ -79,13 +86,15 @@
       "id": "jag-vill-bara-titta",
       "sv": "Jag vill bara titta.",
       "translations": { "ru": "Я просто посмотрю.", "en": "I'm just looking." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag vill bara titta, tack.", "ru": "Я просто посмотрю, спасибо.", "en": "I'm just looking, thanks." }
     },
     {
       "id": "tack-det-var-allt",
       "sv": "Tack, det var allt.",
       "translations": { "ru": "Спасибо, это всё.", "en": "Thanks, that's all." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Tack, det var allt för idag.", "ru": "Спасибо, это всё на сегодня.", "en": "Thanks, that's all for today." }
     },
     {
       "id": "pase",
@@ -101,7 +110,8 @@
       "sv": "Vill du ha en påse?",
       "translations": { "ru": "Пакет нужен?", "en": "Would you like a bag?" },
       "pos": "phrase",
-      "note": { "ru": "Так спрашивает кассир. Ответ: «Ja, tack» или «Nej, tack».", "en": "The cashier asks this. Answer: \"Ja, tack\" or \"Nej, tack\"." }
+      "note": { "ru": "Так спрашивает кассир. Ответ: «Ja, tack» или «Nej, tack».", "en": "The cashier asks this. Answer: \"Ja, tack\" or \"Nej, tack\"." },
+      "example": { "sv": "Vill du ha en påse? — Ja, tack.", "ru": "Пакет нужен? — Да, пожалуйста.", "en": "Would you like a bag? — Yes, please." }
     },
     {
       "id": "rea",
@@ -109,6 +119,7 @@
       "translations": { "ru": "распродажа", "en": "sale" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en rea", "defSg": "rean", "indefPl": "reor", "defPl": "reorna" },
       "example": { "sv": "Det är rea nu.", "ru": "Сейчас распродажа.", "en": "There is a sale now." }
     },
     {
@@ -116,6 +127,7 @@
       "sv": "billig",
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "example": { "sv": "Boken är billig.", "ru": "Книга дешёвая.", "en": "The book is cheap." }
     },
     {
@@ -123,6 +135,7 @@
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Det är för dyrt.", "ru": "Это слишком дорого.", "en": "That is too expensive." }
     }
   ]

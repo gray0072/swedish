@@ -102,6 +102,7 @@
       "translations": { "ru": "разрешение спора", "en": "dispute resolution" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en tvistlösning", "defSg": "tvistlösningen", "indefPl": "tvistlösningar", "defPl": "tvistlösningarna" },
       "example": { "sv": "ARN erbjuder en enkel form av tvistlösning utan domstol.", "ru": "ARN предлагает простую форму разрешения спора без суда.", "en": "ARN offers a simple form of dispute resolution without going to court." }
     },
     {

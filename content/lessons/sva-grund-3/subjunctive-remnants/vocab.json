@@ -5,28 +5,39 @@
       "sv": "vore",
       "translations": { "ru": "было бы (книжн.)", "en": "would be (formal/written)" },
       "pos": "verb",
-      "note": { "ru": "Старая форма конъюнктива глагола vara, заменяет skulle vara в приподнятом стиле.", "en": "The old subjunctive form of vara, replacing skulle vara in elevated style." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "note": { "ru": "Старая форма конъюнктива глагола vara, заменяет skulle vara в приподнятом стиле.", "en": "The old subjunctive form of vara, replacing skulle vara in elevated style." },
+      "example": { "sv": "Det vore bra om du kunde komma i tid.", "ru": "Было бы хорошо, если бы ты мог прийти вовремя.", "en": "It would be good if you could come on time." }
     },
     {
       "id": "ma",
       "sv": "må",
       "translations": { "ru": "пусть (в пожеланиях)", "en": "may (in wishes)" },
       "pos": "verb",
-      "note": { "ru": "Сохранился только в застывших пожеланиях: Må det gå dig väl.", "en": "Survives only in fixed wishes: Må det gå dig väl." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "må", "present": "må", "past": "måtte", "supine": "mått" },
+      "note": { "ru": "Сохранился только в застывших пожеланиях: Må det gå dig väl.", "en": "Survives only in fixed wishes: Må det gå dig väl." },
+      "example": { "sv": "Må du få ett gott nytt år.", "ru": "Пусть у тебя будет хороший новый год.", "en": "May you have a good new year." }
     },
     {
       "id": "matte",
       "sv": "måtte",
       "translations": { "ru": "хоть бы, пусть бы", "en": "I do hope, may (wishing about the future)" },
       "pos": "verb",
-      "note": { "ru": "Расширенная форма må для пожеланий о будущем.", "en": "An extended form of må used for wishes about the future." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "må", "present": "må", "past": "måtte", "supine": "mått" },
+      "note": { "ru": "Расширенная форма må для пожеланий о будущем.", "en": "An extended form of må used for wishes about the future." },
+      "example": { "sv": "Måtte hon klara provet imorgon.", "ru": "Хоть бы она сдала завтра экзамен.", "en": "I do hope she passes the test tomorrow." }
     },
     {
       "id": "vara-inf",
       "sv": "vara",
       "translations": { "ru": "быть", "en": "to be" },
       "pos": "verb",
-      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" }
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
+      "example": { "sv": "Han vill vara läkare när han blir stor.", "ru": "Он хочет быть врачом, когда вырастет.", "en": "He wants to be a doctor when he grows up." }
     },
     {
       "id": "synd",
@@ -43,7 +54,8 @@
       "translations": { "ru": "пропустить, упустить", "en": "to miss" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "missa", "present": "missar", "past": "missade", "supine": "missat" }
+      "forms": { "infinitive": "missa", "present": "missar", "past": "missade", "supine": "missat" },
+      "example": { "sv": "Jag missade tåget med två minuter.", "ru": "Я опоздал на поезд на две минуты.", "en": "I missed the train by two minutes." }
     },
     {
       "id": "onska",
@@ -51,13 +63,16 @@
       "translations": { "ru": "желать", "en": "to wish" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "önska", "present": "önskar", "past": "önskade", "supine": "önskat" }
+      "forms": { "infinitive": "önska", "present": "önskar", "past": "önskade", "supine": "önskat" },
+      "example": { "sv": "Vi önskar dig lycka till med provet.", "ru": "Мы желаем тебе удачи на экзамене.", "en": "We wish you good luck with the test." }
     },
     {
       "id": "hogtidlig",
       "sv": "högtidlig",
       "translations": { "ru": "торжественный", "en": "solemn, ceremonial" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "högtidlig", "neuter": "högtidligt", "plural": "högtidliga", "comparative": "högtidligare", "superlative": "högtidligast" },
+      "example": { "sv": "Studenten hölls i en högtidlig ceremoni.", "ru": "Выпускной был проведён в торжественной обстановке.", "en": "The graduation was held in a solemn ceremony." }
     },
     {
       "id": "skriftsprak",
@@ -65,7 +80,8 @@
       "translations": { "ru": "письменный язык", "en": "written language" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" }
+      "forms": { "indefSg": "skriftspråk", "defSg": "skriftspråket", "indefPl": "skriftspråk", "defPl": "skriftspråken" },
+      "example": { "sv": "Skriftspråket skiljer sig ofta från talspråket.", "ru": "Письменный язык часто отличается от разговорного.", "en": "Written language often differs from spoken language." }
     },
     {
       "id": "fest-noun",
@@ -73,7 +89,8 @@
       "translations": { "ru": "вечеринка, праздник", "en": "party, celebration" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" }
+      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" },
+      "example": { "sv": "Vi bjöd in alla grannar till festen.", "ru": "Мы пригласили на праздник всех соседей.", "en": "We invited all the neighbours to the party." }
     }
   ]
 }

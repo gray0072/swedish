@@ -6,7 +6,8 @@
       "translations": { "ru": "исследование", "en": "study" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" }
+      "forms": { "indefSg": "studie", "defSg": "studien", "indefPl": "studier", "defPl": "studierna" },
+      "example": { "sv": "Studien visar ett tydligt samband mellan de två variablerna.", "ru": "Исследование показывает явную связь между двумя переменными.", "en": "The study shows a clear link between the two variables." }
     },
     {
       "id": "genomforande-ab",
@@ -14,7 +15,8 @@
       "translations": { "ru": "проведение, осуществление", "en": "carrying-out, implementation" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett genomförande", "defSg": "genomförandet", "indefPl": "genomföranden", "defPl": "genomförandena" }
+      "forms": { "indefSg": "ett genomförande", "defSg": "genomförandet", "indefPl": "genomföranden", "defPl": "genomförandena" },
+      "example": { "sv": "Genomförandet av projektet tog längre tid än planerat.", "ru": "Осуществление проекта заняло больше времени, чем планировалось.", "en": "The implementation of the project took longer than planned." }
     },
     {
       "id": "granskning-ab",
@@ -22,7 +24,8 @@
       "translations": { "ru": "проверка, изучение", "en": "review, examination" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "granskning", "defSg": "granskningen", "indefPl": "granskningar", "defPl": "granskningarna" }
+      "forms": { "indefSg": "granskning", "defSg": "granskningen", "indefPl": "granskningar", "defPl": "granskningarna" },
+      "example": { "sv": "En noggrann granskning av materialet krävs innan beslut fattas.", "ru": "Перед принятием решения требуется тщательная проверка материала.", "en": "A careful review of the material is required before a decision is made." }
     },
     {
       "id": "samband",
@@ -30,7 +33,8 @@
       "translations": { "ru": "связь, зависимость", "en": "link, connection" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" }
+      "forms": { "indefSg": "samband", "defSg": "sambandet", "indefPl": "samband", "defPl": "sambanden" },
+      "example": { "sv": "Det finns ett tydligt samband mellan inkomst och utbildning.", "ru": "Существует явная связь между доходом и образованием.", "en": "There is a clear link between income and education." }
     },
     {
       "id": "variabel",
@@ -38,7 +42,8 @@
       "translations": { "ru": "переменная", "en": "variable" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "variabel", "defSg": "variabeln", "indefPl": "variabler", "defPl": "variablerna" }
+      "forms": { "indefSg": "variabel", "defSg": "variabeln", "indefPl": "variabler", "defPl": "variablerna" },
+      "example": { "sv": "Studien tar hänsyn till flera olika variabler.", "ru": "Исследование учитывает несколько различных переменных.", "en": "The study takes several different variables into account." }
     },
     {
       "id": "resultat-ab",
@@ -46,7 +51,8 @@
       "translations": { "ru": "результат", "en": "result" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "resultat", "defSg": "resultatet", "indefPl": "resultat", "defPl": "resultaten" }
+      "forms": { "indefSg": "resultat", "defSg": "resultatet", "indefPl": "resultat", "defPl": "resultaten" },
+      "example": { "sv": "Resultatet av granskningen presenteras nästa vecka.", "ru": "Результат проверки будет представлен на следующей неделе.", "en": "The result of the review will be presented next week." }
     },
     {
       "id": "handlaeggning",
@@ -54,7 +60,8 @@
       "translations": { "ru": "обработка, рассмотрение (дела)", "en": "processing, handling (of a case)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "handläggning", "defSg": "handläggningen", "indefPl": "handläggningar", "defPl": "handläggningarna" }
+      "forms": { "indefSg": "handläggning", "defSg": "handläggningen", "indefPl": "handläggningar", "defPl": "handläggningarna" },
+      "example": { "sv": "Handläggningen av ärendet tar upp till sex veckor.", "ru": "Рассмотрение дела занимает до шести недель.", "en": "The processing of the case takes up to six weeks." }
     },
     {
       "id": "handlaegga",
@@ -62,7 +69,8 @@
       "translations": { "ru": "обрабатывать, рассматривать (дело)", "en": "to process, to handle (a case)" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "handlägga", "present": "handlägger", "past": "handlade", "supine": "handlagt" }
+      "forms": { "infinitive": "handlägga", "present": "handlägger", "past": "handlade", "supine": "handlagt" },
+      "example": { "sv": "En handläggare på myndigheten handlägger ditt ärende.", "ru": "Дело рассматривает сотрудник ведомства.", "en": "A case officer at the agency handles your case." }
     },
     {
       "id": "aerende",
@@ -70,7 +78,8 @@
       "translations": { "ru": "дело, вопрос (в делопроизводстве)", "en": "case, matter (administrative)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ärende", "defSg": "ärendet", "indefPl": "ärenden", "defPl": "ärendena" }
+      "forms": { "indefSg": "ärende", "defSg": "ärendet", "indefPl": "ärenden", "defPl": "ärendena" },
+      "example": { "sv": "Ditt ärende registrerades hos myndigheten i förra veckan.", "ru": "Ваше дело было зарегистрировано в ведомстве на прошлой неделе.", "en": "Your case was registered with the agency last week." }
     },
     {
       "id": "ansoekan",
@@ -78,13 +87,15 @@
       "translations": { "ru": "заявление, заявка", "en": "application" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" }
+      "forms": { "indefSg": "ansökan", "defSg": "ansökan", "indefPl": "ansökningar", "defPl": "ansökningarna" },
+      "example": { "sv": "Din ansökan behandlas så snart som möjligt.", "ru": "Ваша заявка будет обработана как можно скорее.", "en": "Your application will be processed as soon as possible." }
     },
     {
       "id": "inkommande",
       "sv": "inkommande",
       "translations": { "ru": "поступающий, входящий", "en": "incoming, arriving" },
       "pos": "adj",
+      "forms": { "positive": "inkommande", "neuter": "inkommande", "plural": "inkommande", "comparative": "mer inkommande", "superlative": "mest inkommande" },
       "example": { "sv": "i samband med ansökans inkommande", "ru": "в связи с поступлением заявления", "en": "in connection with the arrival of the application" }
     },
     {
@@ -93,7 +104,8 @@
       "translations": { "ru": "сообщать", "en": "to announce, to inform" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "meddela", "present": "meddelar", "past": "meddelade", "supine": "meddelat" }
+      "forms": { "infinitive": "meddela", "present": "meddelar", "past": "meddelade", "supine": "meddelat" },
+      "example": { "sv": "Myndigheten meddelar sitt beslut inom en månad.", "ru": "Ведомство сообщает своё решение в течение месяца.", "en": "The agency announces its decision within a month." }
     },
     {
       "id": "paaboerja",
@@ -102,7 +114,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "påbörja", "present": "påbörjar", "past": "påbörjade", "supine": "påbörjat" },
-      "note": { "ru": "Более формальный синоним «börja».", "en": "A more formal synonym for \"börja\"." }
+      "note": { "ru": "Более формальный синоним «börja».", "en": "A more formal synonym for \"börja\"." },
+      "example": { "sv": "Handläggaren påbörjar utredningen så snart ärendet kommit in.", "ru": "Сотрудник начинает расследование, как только дело поступает.", "en": "The case officer begins the investigation as soon as the case arrives." }
     },
     {
       "id": "innebaera",
@@ -110,7 +123,8 @@
       "translations": { "ru": "означать, включать в себя", "en": "to entail, to involve" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "innebära", "present": "innebär", "past": "innebar", "supine": "inneburit" }
+      "forms": { "infinitive": "innebära", "present": "innebär", "past": "innebar", "supine": "inneburit" },
+      "example": { "sv": "Beslutet innebär att ansökan avslås.", "ru": "Решение означает, что заявка отклоняется.", "en": "The decision entails that the application is rejected." }
     },
     {
       "id": "material-ab",
@@ -118,7 +132,8 @@
       "translations": { "ru": "материал (для исследования)", "en": "material (for a study)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "material", "defSg": "materialet", "indefPl": "material", "defPl": "materialen" }
+      "forms": { "indefSg": "material", "defSg": "materialet", "indefPl": "material", "defPl": "materialen" },
+      "example": { "sv": "Allt material till studien granskades noga.", "ru": "Весь материал для исследования был тщательно проверен.", "en": "All the material for the study was carefully reviewed." }
     }
   ]
 }

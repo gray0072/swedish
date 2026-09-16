@@ -6,6 +6,7 @@
       "translations": { "ru": "машина", "en": "car" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
       "example": { "sv": "Det är en bil.", "ru": "Это машина.", "en": "That's a car." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "кошка", "en": "cat" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en katt", "defSg": "katten", "indefPl": "katter", "defPl": "katterna" },
       "example": { "sv": "Jag har en katt.", "ru": "У меня есть кошка.", "en": "I have a cat." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "собака", "en": "dog" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en hund", "defSg": "hunden", "indefPl": "hundar", "defPl": "hundarna" },
       "example": { "sv": "Han har en hund.", "ru": "У него есть собака.", "en": "He has a dog." }
     },
     {
@@ -30,6 +33,7 @@
       "translations": { "ru": "день", "en": "day" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en dag", "defSg": "dagen", "indefPl": "dagar", "defPl": "dagarna" },
       "example": { "sv": "En dag är lång.", "ru": "День длинный.", "en": "A day is long." }
     },
     {
@@ -38,6 +42,7 @@
       "translations": { "ru": "девочка", "en": "girl" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en flicka", "defSg": "flickan", "indefPl": "flickor", "defPl": "flickorna" },
       "example": { "sv": "Det är en flicka.", "ru": "Это девочка.", "en": "That's a girl." }
     },
     {
@@ -46,6 +51,7 @@
       "translations": { "ru": "мальчик", "en": "boy" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en pojke", "defSg": "pojken", "indefPl": "pojkar", "defPl": "pojkarna" },
       "example": { "sv": "Det är en pojke.", "ru": "Это мальчик.", "en": "That's a boy." }
     },
     {
@@ -54,6 +60,7 @@
       "translations": { "ru": "дом", "en": "house" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
       "example": { "sv": "Det är ett hus.", "ru": "Это дом.", "en": "That's a house." }
     },
     {
@@ -62,6 +69,7 @@
       "translations": { "ru": "ребёнок", "en": "child" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
       "example": { "sv": "Hon har ett barn.", "ru": "У неё есть ребёнок.", "en": "She has a child." }
     },
     {
@@ -70,6 +78,7 @@
       "translations": { "ru": "стол", "en": "table" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett bord", "defSg": "bordet", "indefPl": "bord", "defPl": "borden" },
       "example": { "sv": "Det är ett bord.", "ru": "Это стол.", "en": "That's a table." }
     },
     {
@@ -78,6 +87,7 @@
       "translations": { "ru": "яблоко", "en": "apple" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett äpple", "defSg": "äpplet", "indefPl": "äpplen", "defPl": "äpplena" },
       "example": { "sv": "Det är ett äpple.", "ru": "Это яблоко.", "en": "That's an apple." }
     },
     {
@@ -86,6 +96,7 @@
       "translations": { "ru": "работа", "en": "job" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett jobb", "defSg": "jobbet", "indefPl": "jobb", "defPl": "jobben" },
       "example": { "sv": "Jag har ett jobb.", "ru": "У меня есть работа.", "en": "I have a job." }
     },
     {
@@ -94,6 +105,7 @@
       "translations": { "ru": "год", "en": "year" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett år", "defSg": "året", "indefPl": "år", "defPl": "åren" },
       "example": { "sv": "Ett år är långt.", "ru": "Год длинный.", "en": "A year is long." }
     }
   ]

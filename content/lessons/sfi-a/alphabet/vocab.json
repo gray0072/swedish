@@ -15,6 +15,7 @@
       "translations": { "ru": "алфавит", "en": "alphabet" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett alfabete", "defSg": "alfabetet", "indefPl": "alfabeten", "defPl": "alfabetena" },
       "example": { "sv": "Det svenska alfabetet har 29 bokstäver.", "ru": "В шведском алфавите 29 букв.", "en": "The Swedish alphabet has 29 letters." }
     },
     {
@@ -23,7 +24,8 @@
       "translations": { "ru": "гласная (буква)", "en": "vowel" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en vokal", "defSg": "vokalen", "indefPl": "vokaler", "defPl": "vokalerna" }
+      "forms": { "indefSg": "en vokal", "defSg": "vokalen", "indefPl": "vokaler", "defPl": "vokalerna" },
+      "example": { "sv": "A är en vokal i det svenska alfabetet.", "ru": "А — гласная буква в шведском алфавите.", "en": "A is a vowel in the Swedish alphabet." }
     },
     {
       "id": "konsonant",
@@ -31,13 +33,15 @@
       "translations": { "ru": "согласная (буква)", "en": "consonant" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konsonant", "defSg": "konsonanten", "indefPl": "konsonanter", "defPl": "konsonanterna" }
+      "forms": { "indefSg": "en konsonant", "defSg": "konsonanten", "indefPl": "konsonanter", "defPl": "konsonanterna" },
+      "example": { "sv": "B är en konsonant.", "ru": "Б — согласная буква.", "en": "B is a consonant." }
     },
     {
       "id": "bokstavera",
       "sv": "bokstavera",
       "translations": { "ru": "произносить по буквам", "en": "to spell out loud" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "bokstavera", "present": "bokstaverar", "past": "bokstaverade", "supine": "bokstaverat" },
       "example": { "sv": "Kan du bokstavera efternamnet?", "ru": "Можешь произнести фамилию по буквам?", "en": "Can you spell the surname out loud?" }
     },
@@ -124,6 +128,7 @@
       "sv": "äta",
       "translations": { "ru": "есть, кушать", "en": "to eat" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
       "example": { "sv": "Vi äter äpplen i trädgården.", "ru": "Мы едим яблоки в саду.", "en": "We're eating apples in the garden." }
     },
@@ -159,6 +164,7 @@
       "sv": "gå",
       "translations": { "ru": "идти, ходить", "en": "to walk, to go" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "gå", "present": "går", "past": "gick", "supine": "gått" },
       "example": { "sv": "Vi går till skolan.", "ru": "Мы идём в школу.", "en": "We're walking to school." }
     },
@@ -185,6 +191,7 @@
       "sv": "sjuk",
       "translations": { "ru": "больной", "en": "sick" },
       "pos": "adj",
+      "forms": { "positive": "sjuk", "neuter": "sjukt", "plural": "sjuka", "comparative": "sjukare", "superlative": "sjukast" },
       "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болен/больна.", "en": "I'm sick today." }
     },
     {
@@ -201,6 +208,7 @@
       "sv": "höra",
       "translations": { "ru": "слышать", "en": "to hear" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "höra", "present": "hör", "past": "hörde", "supine": "hört" },
       "example": { "sv": "Jag hör dig inte.", "ru": "Я тебя не слышу.", "en": "I can't hear you." }
     }

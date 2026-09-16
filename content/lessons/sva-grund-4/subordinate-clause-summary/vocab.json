@@ -32,19 +32,22 @@
       "id": "naer-conj-sum",
       "sv": "när",
       "translations": { "ru": "когда", "en": "when" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Hon log när hon läste sammanfattningen.", "ru": "Она улыбнулась, когда читала резюме.", "en": "She smiled when she read the summary." }
     },
     {
       "id": "medan-conj-sum",
       "sv": "medan",
       "translations": { "ru": "пока, в то время как", "en": "while" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Han skrev sammanfattningen medan hon läste texten högt.", "ru": "Он писал резюме, пока она читала текст вслух.", "en": "He wrote the summary while she read the text aloud." }
     },
     {
       "id": "innan-conj-sum",
       "sv": "innan",
       "translations": { "ru": "прежде чем, до того как", "en": "before" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Läs texten noga innan du skriver en sammanfattning.", "ru": "Внимательно прочитай текст, прежде чем писать резюме.", "en": "Read the text carefully before you write a summary." }
     },
     {
       "id": "tills-conj",
@@ -57,7 +60,8 @@
       "id": "fastaen-sum",
       "sv": "fastän",
       "translations": { "ru": "хотя", "en": "although, even though" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Hon förstod texten fastän den var svår.", "ru": "Она поняла текст, хотя он был трудным.", "en": "She understood the text although it was difficult." }
     },
     {
       "id": "aeven-om",
@@ -70,7 +74,8 @@
       "id": "eftersom-sum",
       "sv": "eftersom",
       "translations": { "ru": "так как, потому что", "en": "because, since" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Han fick godkänt eftersom sammanfattningen var tydlig.", "ru": "Он получил зачёт, так как резюме было понятным.", "en": "He passed because the summary was clear." }
     },
     {
       "id": "daerfoer-att",
@@ -83,7 +88,8 @@
       "id": "om-cond-sum",
       "sv": "om",
       "translations": { "ru": "если", "en": "if" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Om du sammanfattar texten kort blir det lättare att förstå.", "ru": "Если ты кратко резюмируешь текст, его будет легче понять.", "en": "If you summarize the text briefly, it becomes easier to understand." }
     },
     {
       "id": "ifall",

@@ -5,6 +5,8 @@
       "sv": "ska",
       "translations": { "ru": "собираться (сделать что-то), вспомогательный глагол будущего времени", "en": "going to, will (auxiliary for plans)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
       "example": { "sv": "Jag ska resa i sommar.", "ru": "Я собираюсь путешествовать этим летом.", "en": "I'm going to travel this summer." }
     },
     {

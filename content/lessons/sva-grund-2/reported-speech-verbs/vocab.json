@@ -6,7 +6,8 @@
       "translations": { "ru": "сказать, говорить", "en": "to say" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "säga", "present": "säger", "past": "sade", "supine": "sagt" }
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sade", "supine": "sagt" },
+      "example": { "sv": "Hon sa att hon skulle komma sent.", "ru": "Она сказала, что придёт поздно.", "en": "She said that she would come late." }
     },
     {
       "id": "pasta",
@@ -50,7 +51,8 @@
       "translations": { "ru": "верить, полагать", "en": "to believe, think" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" }
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag tror att mötet flyttas till fredag.", "ru": "Я думаю, что встречу перенесут на пятницу.", "en": "I believe the meeting will be moved to Friday." }
     },
     {
       "id": "beratta",
@@ -58,7 +60,8 @@
       "translations": { "ru": "рассказывать", "en": "to tell, narrate" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" }
+      "forms": { "infinitive": "berätta", "present": "berättar", "past": "berättade", "supine": "berättat" },
+      "example": { "sv": "Han berättade att han hade bytt jobb.", "ru": "Он рассказал, что сменил работу.", "en": "He told us that he had changed jobs." }
     },
     {
       "id": "pastaende",
@@ -66,7 +69,8 @@
       "translations": { "ru": "утверждение", "en": "claim, assertion" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "påstående", "defSg": "påståendet", "indefPl": "påståenden", "defPl": "påståendena" }
+      "forms": { "indefSg": "påstående", "defSg": "påståendet", "indefPl": "påståenden", "defPl": "påståendena" },
+      "example": { "sv": "Påståendet gick inte att bevisa.", "ru": "Утверждение не удалось доказать.", "en": "The claim could not be proven." }
     },
     {
       "id": "asikt",
@@ -74,7 +78,8 @@
       "translations": { "ru": "мнение", "en": "opinion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" }
+      "forms": { "indefSg": "åsikt", "defSg": "åsikten", "indefPl": "åsikter", "defPl": "åsikterna" },
+      "example": { "sv": "Hon delade sin åsikt om förslaget.", "ru": "Она поделилась своим мнением о предложении.", "en": "She shared her opinion about the proposal." }
     },
     {
       "id": "forskare",
@@ -82,7 +87,8 @@
       "translations": { "ru": "исследователь, учёный", "en": "researcher, scientist" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" },
+      "example": { "sv": "Forskaren berättade om sina resultat.", "ru": "Учёный рассказал о своих результатах.", "en": "The researcher told about her results." }
     },
     {
       "id": "kalla",
@@ -90,13 +96,15 @@
       "translations": { "ru": "источник", "en": "source" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Han angav ingen källa för påståendet.", "ru": "Он не указал источник для этого утверждения.", "en": "He did not give any source for the claim." }
     },
     {
       "id": "att-conj",
       "sv": "att",
       "translations": { "ru": "что (союз, вводящий придаточное)", "en": "that (conjunction introducing a clause)" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Hon sa att hon skulle komma sent.", "ru": "Она сказала, что придёт поздно.", "en": "She said that she would come late." }
     }
   ]
 }

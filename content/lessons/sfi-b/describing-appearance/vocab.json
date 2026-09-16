@@ -23,6 +23,7 @@
       "sv": "lockig",
       "translations": { "ru": "кудрявый", "en": "curly" },
       "pos": "adj",
+      "forms": { "positive": "lockig", "neuter": "lockigt", "plural": "lockiga", "comparative": "lockigare", "superlative": "lockigast" },
       "note": { "ru": "ett-форма: lockigt, мн.ч.: lockiga", "en": "ett-form: lockigt, plural: lockiga" },
       "example": { "sv": "Hennes hår är lockigt och blont.", "ru": "Её волосы кудрявые и светлые.", "en": "Her hair is curly and blonde." }
     },
@@ -31,6 +32,7 @@
       "sv": "rak",
       "translations": { "ru": "прямой (о волосах)", "en": "straight (hair)" },
       "pos": "adj",
+      "forms": { "positive": "rak", "neuter": "rakt", "plural": "raka", "comparative": "rakare", "superlative": "rakast" },
       "note": { "ru": "ett-форма: rakt, мн.ч.: raka", "en": "ett-form: rakt, plural: raka" },
       "example": { "sv": "Erik har rakt, grått hår.", "ru": "У Эрика прямые седые волосы.", "en": "Erik has straight, grey hair." }
     },
@@ -39,6 +41,7 @@
       "sv": "kort",
       "translations": { "ru": "короткий (о волосах); низкий (о росте)", "en": "short (hair, height)" },
       "pos": "adj",
+      "forms": { "positive": "kort", "neuter": "kort", "plural": "korta", "comparative": "kortare", "superlative": "kortast" },
       "note": { "ru": "ett-форма совпадает: kort, мн.ч.: korta", "en": "ett-form is the same: kort, plural: korta" },
       "example": { "sv": "Hon klippte sig och har kort hår nu.", "ru": "Она подстриглась, и теперь у неё короткие волосы.", "en": "She got a haircut and has short hair now." }
     },
@@ -47,6 +50,7 @@
       "sv": "lång",
       "translations": { "ru": "длинный (о волосах); высокий (о росте)", "en": "long (hair); tall (height)" },
       "pos": "adj",
+      "forms": { "positive": "lång", "neuter": "långt", "plural": "långa", "comparative": "längre", "superlative": "längst" },
       "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
       "example": { "sv": "Erik är lång och kraftig.", "ru": "Эрик высокий и крупный.", "en": "Erik is tall and heavyset." }
     },
@@ -55,6 +59,7 @@
       "sv": "medellång",
       "translations": { "ru": "среднего роста", "en": "medium height" },
       "pos": "adj",
+      "forms": { "positive": "medellång", "neuter": "medellångt", "plural": "medellånga", "comparative": "mer medellång", "superlative": "mest medellång" },
       "note": { "ru": "ett-форма: medellångt, мн.ч.: medellånga", "en": "ett-form: medellångt, plural: medellånga" },
       "example": { "sv": "Anna är medellång, varken kort eller lång.", "ru": "Анна среднего роста — ни низкая, ни высокая.", "en": "Anna is medium height — neither short nor tall." }
     },
@@ -130,6 +135,7 @@
       "sv": "smal",
       "translations": { "ru": "стройный, худой", "en": "slim, thin" },
       "pos": "adj",
+      "forms": { "positive": "smal", "neuter": "smalt", "plural": "smala", "comparative": "smalare", "superlative": "smalast" },
       "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
       "example": { "sv": "Anna är smal och medellång.", "ru": "Анна стройная и среднего роста.", "en": "Anna is slim and medium height." }
     },
@@ -138,6 +144,7 @@
       "sv": "kraftig",
       "translations": { "ru": "крупный, плотного телосложения", "en": "heavyset, sturdy" },
       "pos": "adj",
+      "forms": { "positive": "kraftig", "neuter": "kraftigt", "plural": "kraftiga", "comparative": "kraftigare", "superlative": "kraftigast" },
       "note": { "ru": "ett-форма: kraftigt, мн.ч.: kraftiga", "en": "ett-form: kraftigt, plural: kraftiga" },
       "example": { "sv": "Erik är kraftig och stark.", "ru": "Эрик крупный и сильный.", "en": "Erik is heavyset and strong." }
     },
@@ -146,6 +153,7 @@
       "sv": "ung",
       "translations": { "ru": "молодой", "en": "young" },
       "pos": "adj",
+      "forms": { "positive": "ung", "neuter": "ungt", "plural": "unga", "comparative": "yngre", "superlative": "yngst" },
       "note": { "ru": "ett-форма: ungt, мн.ч.: unga", "en": "ett-form: ungt, plural: unga" },
       "example": { "sv": "Anna är bara tjugo år och ser ung ut.", "ru": "Анне всего двадцать лет, и она выглядит молодо.", "en": "Anna is only twenty and looks young." }
     },
@@ -154,6 +162,7 @@
       "sv": "gammal",
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "note": { "ru": "ett-форма: gammalt, мн.ч.: gamla (неправильная форма — одна m пропадает)", "en": "ett-form: gammalt, plural: gamla (irregular — one m drops)" },
       "example": { "sv": "Erik är gammal men pigg.", "ru": "Эрик старый, но бодрый.", "en": "Erik is old but lively." }
     },
@@ -162,6 +171,7 @@
       "sv": "snygg",
       "translations": { "ru": "симпатичный, привлекательный", "en": "good-looking, attractive" },
       "pos": "adj",
+      "forms": { "positive": "snygg", "neuter": "snyggt", "plural": "snygga", "comparative": "snyggare", "superlative": "snyggast" },
       "note": { "ru": "ett-форма: snyggt, мн.ч.: snygga", "en": "ett-form: snyggt, plural: snygga" },
       "example": { "sv": "Många tycker att Erik är snygg trots sin ålder.", "ru": "Многие считают, что Эрик привлекателен, несмотря на возраст.", "en": "Many think Erik is good-looking despite his age." }
     },

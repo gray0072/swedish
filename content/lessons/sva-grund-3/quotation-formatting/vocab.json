@@ -20,7 +20,8 @@
       "translations": { "ru": "говорить, сказать", "en": "to say" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" }
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" },
+      "example": { "sv": "Hon sa att mötet var flyttat till fredag.", "ru": "Она сказала, что встреча перенесена на пятницу.", "en": "She said that the meeting had been moved to Friday." }
     },
     {
       "id": "fraga-verb",
@@ -28,7 +29,8 @@
       "translations": { "ru": "спрашивать", "en": "to ask" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" }
+      "forms": { "infinitive": "fråga", "present": "frågar", "past": "frågade", "supine": "frågat" },
+      "example": { "sv": "Journalisten frågade experten om orsaken till förändringen.", "ru": "Журналист спросил эксперта о причине изменения.", "en": "The journalist asked the expert about the cause of the change." }
     },
     {
       "id": "enligt",
@@ -43,7 +45,8 @@
       "translations": { "ru": "источник", "en": "source" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Skribenten anger sin källa i slutet av texten.", "ru": "Автор указывает свой источник в конце текста.", "en": "The writer states their source at the end of the text." }
     },
     {
       "id": "kallhanvisning",
@@ -51,7 +54,8 @@
       "translations": { "ru": "ссылка на источник", "en": "source reference, citation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" }
+      "forms": { "indefSg": "en källhänvisning", "defSg": "källhänvisningen", "indefPl": "källhänvisningar", "defPl": "källhänvisningarna" },
+      "example": { "sv": "En tydlig källhänvisning gör texten mer trovärdig.", "ru": "Чёткая ссылка на источник делает текст более достоверным.", "en": "A clear source reference makes the text more credible." }
     },
     {
       "id": "referat",
@@ -59,7 +63,8 @@
       "translations": { "ru": "пересказ, реферат (текста)", "en": "summary, report (of a text)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett referat", "defSg": "referatet", "indefPl": "referat", "defPl": "referaten" }
+      "forms": { "indefSg": "ett referat", "defSg": "referatet", "indefPl": "referat", "defPl": "referaten" },
+      "example": { "sv": "Uppgiften är att skriva ett referat av artikeln.", "ru": "Задание — написать реферат (пересказ) статьи.", "en": "The task is to write a summary of the article." }
     },
     {
       "id": "skribent",
@@ -67,7 +72,8 @@
       "translations": { "ru": "автор, пишущий (статьи)", "en": "writer, author (of an article)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en skribent", "defSg": "skribenten", "indefPl": "skribenter", "defPl": "skribenterna" }
+      "forms": { "indefSg": "en skribent", "defSg": "skribenten", "indefPl": "skribenter", "defPl": "skribenterna" },
+      "example": { "sv": "Skribenten hänvisar till flera olika källor i texten.", "ru": "Автор ссылается на несколько разных источников в тексте.", "en": "The writer refers to several different sources in the text." }
     },
     {
       "id": "framga",
@@ -84,7 +90,8 @@
       "translations": { "ru": "статья", "en": "article" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" }
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" },
+      "example": { "sv": "Artikeln handlar om digitaliseringens effekter på arbetsmarknaden.", "ru": "Статья посвящена влиянию цифровизации на рынок труда.", "en": "The article is about the effects of digitalization on the labour market." }
     }
   ]
 }

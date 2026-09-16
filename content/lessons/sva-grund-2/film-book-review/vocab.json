@@ -13,21 +13,26 @@
       "translations": { "ru": "раскрывать (спойлер), выдавать", "en": "to give away, to reveal" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "avslöja", "present": "avslöjar", "past": "avslöjade", "supine": "avslöjat" }
+      "forms": { "infinitive": "avslöja", "present": "avslöjar", "past": "avslöjade", "supine": "avslöjat" },
+      "example": { "sv": "Recensenten avslöjade slutet i sin recension.", "ru": "Рецензент раскрыл финал в своей рецензии.", "en": "The reviewer gave away the ending in the review." }
     },
     {
       "id": "valskriven",
       "sv": "välskriven",
       "translations": { "ru": "хорошо написанный", "en": "well-written" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: välskrivet, мн.ч.: välskrivna", "en": "ett-form: välskrivet, plural: välskrivna" }
+      "note": { "ru": "ett-форма: välskrivet, мн.ч.: välskrivna", "en": "ett-form: välskrivet, plural: välskrivna" },
+      "forms": { "positive": "välskriven", "neuter": "välskrivet", "plural": "välskrivna", "comparative": "mer välskriven", "superlative": "mest välskriven" },
+      "example": { "sv": "Boken är otroligt välskriven från första sidan.", "ru": "Книга невероятно хорошо написана с первой страницы.", "en": "The book is incredibly well-written from the first page." }
     },
     {
       "id": "platt",
       "sv": "platt",
       "translations": { "ru": "плоский, невыразительный (о персонаже)", "en": "flat (of a character)" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: platt, мн.ч.: platta", "en": "ett-form: platt, plural: platta" }
+      "note": { "ru": "ett-форма: platt, мн.ч.: platta", "en": "ett-form: platt, plural: platta" },
+      "forms": { "positive": "platt", "neuter": "platt", "plural": "platta", "comparative": "plattare", "superlative": "plattast" },
+      "example": { "sv": "Huvudpersonen känns tyvärr ganska platt.", "ru": "Главный герой, к сожалению, кажется довольно плоским.", "en": "Unfortunately, the main character feels rather flat." }
     },
     {
       "id": "skadespelare",
@@ -35,7 +40,8 @@
       "translations": { "ru": "актёр", "en": "actor" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" }
+      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" },
+      "example": { "sv": "Huvudrollens skådespelare gör en fantastisk insats i filmen.", "ru": "Актёр в главной роли играет потрясающе в этом фильме.", "en": "The lead actor gives a fantastic performance in the film." }
     },
     {
       "id": "ge-stjarnor",
@@ -59,7 +65,8 @@
       "translations": { "ru": "рецензия", "en": "review" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en recension", "defSg": "recensionen", "indefPl": "recensioner", "defPl": "recensionerna" }
+      "forms": { "indefSg": "en recension", "defSg": "recensionen", "indefPl": "recensioner", "defPl": "recensionerna" },
+      "example": { "sv": "Jag läste en recension av boken innan jag köpte den.", "ru": "Я прочитал(а) рецензию на книгу, прежде чем купить её.", "en": "I read a review of the book before I bought it." }
     },
     {
       "id": "tempo",
@@ -67,7 +74,8 @@
       "translations": { "ru": "темп", "en": "pace" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" }
+      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" },
+      "example": { "sv": "Filmen har ett högt tempo genom hela andra akten.", "ru": "Фильм держит высокий темп на протяжении всего второго акта.", "en": "The film keeps a fast pace throughout the entire second act." }
     }
   ]
 }

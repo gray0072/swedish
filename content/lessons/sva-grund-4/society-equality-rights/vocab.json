@@ -58,7 +58,8 @@
       "translations": { "ru": "сообщество, общность", "en": "community" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en gemenskap", "defSg": "gemenskapen", "indefPl": "gemenskaper", "defPl": "gemenskaperna" }
+      "forms": { "indefSg": "en gemenskap", "defSg": "gemenskapen", "indefPl": "gemenskaper", "defPl": "gemenskaperna" },
+      "example": { "sv": "En stark gemenskap gör att alla känner sig trygga och välkomna.", "ru": "Крепкое сообщество помогает всем чувствовать себя защищёнными и желанными.", "en": "A strong sense of community helps everyone feel safe and welcome." }
     },
     {
       "id": "vardighet",
@@ -66,7 +67,8 @@
       "translations": { "ru": "достоинство", "en": "dignity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en värdighet", "defSg": "värdigheten", "indefPl": "värdigheter", "defPl": "värdigheterna" }
+      "forms": { "indefSg": "en värdighet", "defSg": "värdigheten", "indefPl": "värdigheter", "defPl": "värdigheterna" },
+      "example": { "sv": "Alla människor har rätt att bli behandlade med värdighet.", "ru": "Все люди имеют право на то, чтобы их достоинство уважали.", "en": "All people have the right to be treated with dignity." }
     },
     {
       "id": "utanforskap",
@@ -74,7 +76,8 @@
       "translations": { "ru": "исключённость, социальная изоляция", "en": "social exclusion" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett utanförskap", "defSg": "utanförskapet", "indefPl": "utanförskap", "defPl": "utanförskapen" }
+      "forms": { "indefSg": "ett utanförskap", "defSg": "utanförskapet", "indefPl": "utanförskap", "defPl": "utanförskapen" },
+      "example": { "sv": "Ensamhet och utanförskap kan påverka hälsan negativt.", "ru": "Одиночество и социальная изоляция могут негативно влиять на здоровье.", "en": "Loneliness and social exclusion can negatively affect health." }
     },
     {
       "id": "funktionsvariation",
@@ -82,25 +85,29 @@
       "translations": { "ru": "функциональная особенность (инвалидность, нейтральный термин)", "en": "functional variation (disability, neutral term)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en funktionsvariation", "defSg": "funktionsvariationen", "indefPl": "funktionsvariationer", "defPl": "funktionsvariationerna" }
+      "forms": { "indefSg": "en funktionsvariation", "defSg": "funktionsvariationen", "indefPl": "funktionsvariationer", "defPl": "funktionsvariationerna" },
+      "example": { "sv": "Personer med funktionsvariation ska ha samma möjligheter som alla andra.", "ru": "Люди с особыми потребностями должны иметь те же возможности, что и все остальные.", "en": "People with disabilities should have the same opportunities as everyone else." }
     },
     {
       "id": "ratten-till",
       "sv": "rätten till...",
       "translations": { "ru": "право на...", "en": "the right to..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Alla har rätten till utbildning och hälsovård.", "ru": "У всех есть право на образование и медицинскую помощь.", "en": "Everyone has the right to education and healthcare." }
     },
     {
       "id": "samma-varde",
       "sv": "samma värde",
       "translations": { "ru": "одинаковая ценность", "en": "equal worth" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "I Sverige ska alla människor ha samma värde inför lagen.", "ru": "В Швеции все люди должны иметь одинаковую ценность перед законом.", "en": "In Sweden, all people should have equal worth before the law." }
     },
     {
       "id": "delta-i-samhallet",
       "sv": "delta i samhället",
       "translations": { "ru": "участвовать в жизни общества", "en": "to take part in society" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det är viktigt att alla kan delta i samhället, oavsett bakgrund.", "ru": "Важно, чтобы каждый мог участвовать в жизни общества, независимо от происхождения.", "en": "It's important that everyone can take part in society, regardless of background." }
     },
     {
       "id": "mangfald",
@@ -108,7 +115,8 @@
       "translations": { "ru": "разнообразие", "en": "diversity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en mångfald", "defSg": "mångfalden", "indefPl": "mångfalder", "defPl": "mångfalderna" }
+      "forms": { "indefSg": "en mångfald", "defSg": "mångfalden", "indefPl": "mångfalder", "defPl": "mångfalderna" },
+      "example": { "sv": "Mångfald berikar både arbetsplatsen och samhället.", "ru": "Разнообразие обогащает как рабочее место, так и общество.", "en": "Diversity enriches both the workplace and society." }
     }
   ]
 }

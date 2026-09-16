@@ -75,27 +75,36 @@
       "sv": "mjölk",
       "translations": { "ru": "молоко", "en": "milk" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "mjölk", "defSg": "mjölken", "indefPl": "mjölkar", "defPl": "mjölkarna" },
+      "example": { "sv": "Vi har ingen mjölk kvar i kylskåpet.", "ru": "У нас не осталось молока в холодильнике.", "en": "We have no milk left in the fridge." }
     },
     {
       "id": "vatten",
       "sv": "vatten",
       "translations": { "ru": "вода", "en": "water" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "vatten", "defSg": "vattnet", "indefPl": "vatten", "defPl": "vattnen" },
+      "example": { "sv": "Kan du ge mig lite vatten, tack?", "ru": "Можешь дать мне немного воды, пожалуйста?", "en": "Can you give me some water, please?" }
     },
     {
       "id": "elev",
       "sv": "elev",
       "translations": { "ru": "ученик, ученица", "en": "pupil, student" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" },
+      "example": { "sv": "Varje elev måste ha med sig en bok.", "ru": "Каждый ученик должен взять с собой книгу.", "en": "Every pupil must bring a book." }
     },
     {
       "id": "pengar",
       "sv": "pengar",
       "translations": { "ru": "деньги", "en": "money" },
-      "pos": "noun"
+      "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "peng", "defSg": "pengen", "indefPl": "pengar", "defPl": "pengarna" },
+      "example": { "sv": "Jag har inte så mycket pengar just nu.", "ru": "У меня сейчас не так много денег.", "en": "I don't have much money right now." }
     }
   ]
 }

@@ -5,6 +5,7 @@
       "sv": "gift",
       "translations": { "ru": "женат / замужем", "en": "married" },
       "pos": "adj",
+      "forms": { "positive": "gift", "neuter": "gift", "plural": "gifta", "comparative": "mer gift", "superlative": "mest gift" },
       "example": { "sv": "Hon är gift med Anders.", "ru": "Она замужем за Андерсом.", "en": "She is married to Anders." }
     },
     {
@@ -12,6 +13,7 @@
       "sv": "skild",
       "translations": { "ru": "разведён(а)", "en": "divorced" },
       "pos": "adj",
+      "forms": { "positive": "skild", "neuter": "skilt", "plural": "skilda", "comparative": "mer skild", "superlative": "mest skild" },
       "example": { "sv": "Mina föräldrar är skilda.", "ru": "Мои родители в разводе.", "en": "My parents are divorced." }
     },
     {
@@ -19,6 +21,7 @@
       "sv": "singel",
       "translations": { "ru": "холост, не в отношениях", "en": "single" },
       "pos": "adj",
+      "forms": { "positive": "singel", "neuter": "singel", "plural": "singla", "comparative": "mer singel", "superlative": "mest singel" },
       "example": { "sv": "Jag är singel just nu.", "ru": "Сейчас я не в отношениях.", "en": "I'm single right now." }
     },
     {
@@ -35,6 +38,7 @@
       "sv": "förlovad",
       "translations": { "ru": "помолвлен(а)", "en": "engaged" },
       "pos": "adj",
+      "forms": { "positive": "förlovad", "neuter": "förlovat", "plural": "förlovade", "comparative": "mer förlovad", "superlative": "mest förlovad" },
       "example": { "sv": "Vi blev förlovade i somras.", "ru": "Мы обручились этим летом.", "en": "We got engaged last summer." }
     },
     {
@@ -43,6 +47,7 @@
       "translations": { "ru": "жених (помолвленный)", "en": "fiancé" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en fästman", "defSg": "fästmannen", "indefPl": "fästmän", "defPl": "fästmännen" },
       "example": { "sv": "Hennes fästman jobbar som lärare.", "ru": "Её жених работает учителем.", "en": "Her fiancé works as a teacher." }
     },
     {
@@ -51,6 +56,7 @@
       "translations": { "ru": "невеста (помолвленная)", "en": "fiancée" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en fästmö", "defSg": "fästmön", "indefPl": "fästmör", "defPl": "fästmörna" },
       "example": { "sv": "Han presenterade sin fästmö för familjen.", "ru": "Он представил свою невесту семье.", "en": "He introduced his fiancée to the family." }
     },
     {
@@ -59,6 +65,7 @@
       "translations": { "ru": "свекровь, тёща", "en": "mother-in-law" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en svärmor", "defSg": "svärmodern", "indefPl": "svärmödrar", "defPl": "svärmödrarna" },
       "example": { "sv": "Min svärmor kommer på middag ikväll.", "ru": "Сегодня вечером свекровь придёт на ужин.", "en": "My mother-in-law is coming for dinner tonight." }
     },
     {
@@ -67,6 +74,7 @@
       "translations": { "ru": "свёкор, тесть", "en": "father-in-law" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en svärfar", "defSg": "svärfadern", "indefPl": "svärfäder", "defPl": "svärfäderna" },
       "example": { "sv": "Min svärfar har ett hus på landet.", "ru": "У моего тестя есть дом за городом.", "en": "My father-in-law has a house in the countryside." }
     },
     {
@@ -75,6 +83,7 @@
       "translations": { "ru": "зять", "en": "son-in-law" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en svärson", "defSg": "svärsonen", "indefPl": "svärsöner", "defPl": "svärsönerna" },
       "example": { "sv": "Deras svärson bor i Malmö.", "ru": "Их зять живёт в Мальмё.", "en": "Their son-in-law lives in Malmö." }
     },
     {
@@ -83,6 +92,7 @@
       "translations": { "ru": "невестка (жена сына)", "en": "daughter-in-law" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en svärdotter", "defSg": "svärdottern", "indefPl": "svärdöttrar", "defPl": "svärdöttrarna" },
       "example": { "sv": "Min svärdotter väntar barn.", "ru": "Моя невестка ждёт ребёнка.", "en": "My daughter-in-law is expecting a baby." }
     },
     {
@@ -91,6 +101,7 @@
       "translations": { "ru": "приёмный/неродной ребёнок", "en": "stepchild" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett styvbarn", "defSg": "styvbarnet", "indefPl": "styvbarn", "defPl": "styvbarnen" },
       "example": { "sv": "Han har två styvbarn.", "ru": "У него двое неродных детей.", "en": "He has two stepchildren." }
     },
     {
@@ -99,6 +110,7 @@
       "translations": { "ru": "отчим", "en": "stepfather" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en styvpappa", "defSg": "styvpappan", "indefPl": "styvpappor", "defPl": "styvpapporna" },
       "example": { "sv": "Min styvpappa lagar god mat.", "ru": "Мой отчим хорошо готовит.", "en": "My stepfather cooks good food." }
     },
     {
@@ -107,6 +119,7 @@
       "translations": { "ru": "мачеха", "en": "stepmother" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en styvmamma", "defSg": "styvmamman", "indefPl": "styvmammor", "defPl": "styvmammorna" },
       "example": { "sv": "Jag kommer bra överens med min styvmamma.", "ru": "Я хорошо лажу со своей мачехой.", "en": "I get along well with my stepmother." }
     },
     {
@@ -114,6 +127,7 @@
       "sv": "gravid",
       "translations": { "ru": "беременна", "en": "pregnant" },
       "pos": "adj",
+      "forms": { "positive": "gravid", "neuter": "gravid", "plural": "gravida", "comparative": "mer gravid", "superlative": "mest gravid" },
       "example": { "sv": "Hon är gravid i sjätte månaden.", "ru": "Она беременна, шестой месяц.", "en": "She is six months pregnant." }
     },
     {
@@ -148,6 +162,7 @@
       "sv": "gifta sig",
       "translations": { "ru": "жениться, выйти замуж", "en": "to get married" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "gifta sig", "present": "gifter sig", "past": "gifte sig", "supine": "gift sig" },
       "example": { "sv": "De ska gifta sig nästa sommar.", "ru": "Они поженятся следующим летом.", "en": "They're getting married next summer." }
     },
@@ -156,6 +171,7 @@
       "sv": "skilja sig",
       "translations": { "ru": "разводиться", "en": "to get divorced" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "skilja sig", "present": "skiljer sig", "past": "skilde sig", "supine": "skilt sig" },
       "example": { "sv": "Han skilde sig förra året.", "ru": "Он развёлся в прошлом году.", "en": "He got divorced last year." }
     }

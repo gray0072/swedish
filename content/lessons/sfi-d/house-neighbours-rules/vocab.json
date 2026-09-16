@@ -6,6 +6,7 @@
       "translations": { "ru": "прачечная (общая, в доме)", "en": "shared laundry room" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en tvättstuga", "defSg": "tvättstugan", "indefPl": "tvättstugor", "defPl": "tvättstugorna" },
       "example": { "sv": "Jag bokar tvättstugan på måndag.", "ru": "Я бронирую прачечную на понедельник.", "en": "I'm booking the laundry room for Monday." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "время стирки (забронированный слот)", "en": "laundry time slot" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en tvättid", "defSg": "tvättiden", "indefPl": "tvättider", "defPl": "tvättiderna" },
       "example": { "sv": "Min tvättid är klockan nio.", "ru": "Моё время стирки — девять часов.", "en": "My laundry slot is nine o'clock." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "сортировка мусора", "en": "waste sorting" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en sopsortering", "defSg": "sopsorteringen", "indefPl": "sopsorteringar", "defPl": "sopsorteringarna" },
       "example": { "sv": "Sopsortering är viktigt i huset.", "ru": "Сортировка мусора важна в доме.", "en": "Waste sorting is important in the building." }
     },
     {
@@ -39,6 +42,7 @@
       "translations": { "ru": "комната для переработки отходов", "en": "recycling room" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett återvinningsrum", "defSg": "återvinningsrummet", "indefPl": "återvinningsrum", "defPl": "återvinningsrummen" },
       "example": { "sv": "Återvinningsrummet finns i källaren.", "ru": "Комната для переработки находится в подвале.", "en": "The recycling room is in the basement." }
     },
     {
@@ -47,6 +51,7 @@
       "translations": { "ru": "подъезд (лестничная клетка)", "en": "stairwell" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett trapphus", "defSg": "trapphuset", "indefPl": "trapphus", "defPl": "trapphusen" },
       "example": { "sv": "Håll trapphuset rent.", "ru": "Держи подъезд в чистоте.", "en": "Keep the stairwell clean." }
     },
     {
@@ -55,6 +60,7 @@
       "translations": { "ru": "правила проживания (внутренний распорядок)", "en": "house rules" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en ordningsregel", "defSg": "ordningsregeln", "indefPl": "ordningsregler", "defPl": "ordningsreglerna" },
       "example": { "sv": "Läs ordningsreglerna för huset.", "ru": "Прочитай правила проживания в доме.", "en": "Read the house rules." }
     },
     {
@@ -63,6 +69,7 @@
       "translations": { "ru": "тишина", "en": "quiet" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en tystnad", "defSg": "tystnaden", "indefPl": "tystnader", "defPl": "tystnaderna" },
       "example": { "sv": "Det ska vara tystnad efter klockan tio.", "ru": "После десяти часов должна быть тишина.", "en": "There should be quiet after ten o'clock." }
     },
     {
@@ -78,6 +85,7 @@
       "translations": { "ru": "жилищный кооператив (BRF)", "en": "housing cooperative (BRF)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en bostadsrättsförening", "defSg": "bostadsrättsföreningen", "indefPl": "bostadsrättsföreningar", "defPl": "bostadsrättsföreningarna" },
       "example": { "sv": "Föreningen bestämmer ordningsreglerna.", "ru": "Кооператив устанавливает правила проживания.", "en": "The cooperative sets the house rules." }
     }
   ]

@@ -83,6 +83,7 @@
       "translations": { "ru": "кариес", "en": "cavity, tooth decay" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en karies", "defSg": "kariesen", "indefPl": "karies", "defPl": "kariesen" },
       "example": { "sv": "Röntgenbilden visade karies i två tänder.", "ru": "Рентген показал кариес в двух зубах.", "en": "The X-ray showed cavities in two teeth." }
     },
     {
@@ -109,6 +110,7 @@
       "translations": { "ru": "субсидия на профилактическую стоматологию", "en": "subsidized preventive dental care" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en frisktandvård", "defSg": "frisktandvården", "indefPl": "frisktandvårdar", "defPl": "frisktandvårdarna" },
       "example": { "sv": "Frisktandvård gör regelbundna kontroller billigare.", "ru": "Программа субсидий делает регулярные осмотры дешевле.", "en": "The subsidy scheme makes regular check-ups cheaper." }
     },
     {

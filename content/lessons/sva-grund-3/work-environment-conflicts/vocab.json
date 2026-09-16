@@ -51,6 +51,7 @@
       "translations": { "ru": "домогательства, преследование", "en": "harassment" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett trakasseri", "defSg": "trakasseriet", "indefPl": "trakasserier", "defPl": "trakasserierna" },
       "example": { "sv": "Hon anmälde trakasserier från en kollega.", "ru": "Она заявила о домогательствах со стороны коллеги.", "en": "She reported harassment from a colleague." }
     },
     {
@@ -112,6 +113,8 @@
       "sv": "Arbetsmiljöverket",
       "translations": { "ru": "Инспекция труда Швеции", "en": "the Swedish Work Environment Authority" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett arbetsmiljöverk", "defSg": "Arbetsmiljöverket", "indefPl": "arbetsmiljöverk", "defPl": "arbetsmiljöverken" },
       "note": { "ru": "Государственное ведомство, контролирующее соблюдение закона об охране труда.", "en": "The government agency that enforces the Work Environment Act." },
       "example": { "sv": "Arbetsmiljöverket kan besöka en arbetsplats utan förvarning.", "ru": "Инспекция труда может посетить рабочее место без предупреждения.", "en": "The Work Environment Authority can visit a workplace without notice." }
     },
@@ -120,6 +123,7 @@
       "sv": "stressrelaterad",
       "translations": { "ru": "связанный со стрессом", "en": "stress-related" },
       "pos": "adj",
+      "forms": { "positive": "stressrelaterad", "neuter": "stressrelaterat", "plural": "stressrelaterade", "comparative": "mer stressrelaterad", "superlative": "mest stressrelaterad" },
       "example": { "sv": "Stressrelaterad ohälsa ökar på många arbetsplatser.", "ru": "Связанные со стрессом заболевания растут на многих рабочих местах.", "en": "Stress-related ill health is rising at many workplaces." }
     },
     {
@@ -128,6 +132,7 @@
       "translations": { "ru": "трудности во взаимодействии, сложности в сотрудничестве", "en": "cooperation difficulties" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en samarbetssvårighet", "defSg": "samarbetssvårigheten", "indefPl": "samarbetssvårigheter", "defPl": "samarbetssvårigheterna" },
       "example": { "sv": "Teamet fick samarbetssvårigheter efter omorganisationen.", "ru": "После реорганизации у команды возникли сложности во взаимодействии.", "en": "The team developed cooperation difficulties after the reorganisation." }
     },
     {

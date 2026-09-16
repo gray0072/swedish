@@ -28,6 +28,7 @@
       "translations": { "ru": "мужчина, муж (существительное)", "en": "man, husband (noun)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en man", "defSg": "mannen", "indefPl": "män", "defPl": "männen" },
       "note": { "ru": "Существительное «man» ≠ местоимение «man». Различай по контексту.", "en": "The noun \"man\" is a different word from the pronoun \"man\". Context tells them apart." },
       "example": { "sv": "Hon har en man och två barn.", "ru": "У неё есть муж и двое детей.", "en": "She has a husband and two children." }
     },
@@ -54,6 +55,7 @@
       "sv": "glad",
       "translations": { "ru": "радостный, счастливый", "en": "happy, glad" },
       "pos": "adj",
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
       "example": { "sv": "Det gör en glad att träffa vänner.", "ru": "Встречи с друзьями радуют.", "en": "Meeting friends makes one happy." }
     },
     {
@@ -62,6 +64,7 @@
       "translations": { "ru": "тело", "en": "body" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en kropp", "defSg": "kroppen", "indefPl": "kroppar", "defPl": "kropparna" },
       "example": { "sv": "Man ska lyssna på sin kropp.", "ru": "Нужно слушать своё тело.", "en": "One should listen to one's body." }
     }
   ]

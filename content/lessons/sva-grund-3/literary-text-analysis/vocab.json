@@ -24,7 +24,8 @@
       "translations": { "ru": "второстепенный персонаж", "en": "secondary character" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en bikaraktär", "defSg": "bikaraktären", "indefPl": "bikaraktärer", "defPl": "bikaraktärerna" }
+      "forms": { "indefSg": "en bikaraktär", "defSg": "bikaraktären", "indefPl": "bikaraktärer", "defPl": "bikaraktärerna" },
+      "example": { "sv": "Läraren är en bikaraktär som hjälper huvudpersonen.", "ru": "Учитель — второстепенный персонаж, который помогает главному герою.", "en": "The teacher is a secondary character who helps the main character." }
     },
     {
       "id": "konflikt",
@@ -68,7 +69,8 @@
       "translations": { "ru": "интрига, сюжетная линия", "en": "plot, intrigue" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en intrig", "defSg": "intrigen", "indefPl": "intriger", "defPl": "intrigerna" }
+      "forms": { "indefSg": "en intrig", "defSg": "intrigen", "indefPl": "intriger", "defPl": "intrigerna" },
+      "example": { "sv": "Intrigen blir mer spännande i det sista kapitlet.", "ru": "Сюжетная линия становится более напряжённой в последней главе.", "en": "The plot becomes more exciting in the last chapter." }
     },
     {
       "id": "tema",
@@ -76,7 +78,8 @@
       "translations": { "ru": "тема", "en": "theme" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" }
+      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" },
+      "example": { "sv": "Romanens tema är ensamhet och utanförskap.", "ru": "Тема романа — одиночество и отчуждённость.", "en": "The novel's theme is loneliness and exclusion." }
     },
     {
       "id": "budskap",
@@ -84,7 +87,8 @@
       "translations": { "ru": "послание, идея (произведения)", "en": "message" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett budskap", "defSg": "budskapet", "indefPl": "budskap", "defPl": "budskapen" }
+      "forms": { "indefSg": "ett budskap", "defSg": "budskapet", "indefPl": "budskap", "defPl": "budskapen" },
+      "example": { "sv": "Budskapet i berättelsen är att man ska följa sina drömmar.", "ru": "Идея этой истории в том, что нужно следовать своим мечтам.", "en": "The message of the story is that you should follow your dreams." }
     },
     {
       "id": "jag-berattare",
@@ -92,13 +96,15 @@
       "translations": { "ru": "рассказчик от первого лица", "en": "first-person narrator" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en jag-berättare", "defSg": "jag-berättaren", "indefPl": "jag-berättare", "defPl": "jag-berättarna" }
+      "forms": { "indefSg": "en jag-berättare", "defSg": "jag-berättaren", "indefPl": "jag-berättare", "defPl": "jag-berättarna" },
+      "example": { "sv": "Berättelsen är skriven av en jag-berättare som heter Elin.", "ru": "История написана от лица рассказчика от первого лица по имени Элин.", "en": "The story is written by a first-person narrator named Elin." }
     },
     {
       "id": "allvetande-berattare",
       "sv": "allvetande berättare",
       "translations": { "ru": "всезнающий рассказчик", "en": "omniscient narrator" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Texten berättas av en allvetande berättare som känner alla karaktärers tankar.", "ru": "Текст рассказан всезнающим рассказчиком, знающим мысли всех персонажей.", "en": "The text is told by an omniscient narrator who knows all the characters' thoughts." }
     },
     {
       "id": "kapitel",
@@ -106,7 +112,8 @@
       "translations": { "ru": "глава", "en": "chapter" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett kapitel", "defSg": "kapitlet", "indefPl": "kapitel", "defPl": "kapitlen" }
+      "forms": { "indefSg": "ett kapitel", "defSg": "kapitlet", "indefPl": "kapitel", "defPl": "kapitlen" },
+      "example": { "sv": "Det sista kapitlet avslöjar hur allt slutar.", "ru": "Последняя глава раскрывает, чем всё заканчивается.", "en": "The last chapter reveals how everything ends." }
     },
     {
       "id": "dialog",
@@ -114,7 +121,8 @@
       "translations": { "ru": "диалог", "en": "dialogue" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en dialog", "defSg": "dialogen", "indefPl": "dialoger", "defPl": "dialogerna" }
+      "forms": { "indefSg": "en dialog", "defSg": "dialogen", "indefPl": "dialoger", "defPl": "dialogerna" },
+      "example": { "sv": "Dialogen mellan de två systrarna avslöjar konflikten.", "ru": "Диалог между двумя сёстрами раскрывает конфликт.", "en": "The dialogue between the two sisters reveals the conflict." }
     },
     {
       "id": "upplosning",
@@ -122,7 +130,8 @@
       "translations": { "ru": "развязка", "en": "resolution, ending" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en upplösning", "defSg": "upplösningen", "indefPl": "upplösningar", "defPl": "upplösningarna" }
+      "forms": { "indefSg": "en upplösning", "defSg": "upplösningen", "indefPl": "upplösningar", "defPl": "upplösningarna" },
+      "example": { "sv": "Upplösningen kommer plötsligt på de sista sidorna.", "ru": "Развязка наступает внезапно на последних страницах.", "en": "The resolution comes suddenly on the last pages." }
     },
     {
       "id": "inledning",
@@ -130,7 +139,8 @@
       "translations": { "ru": "вступление, начало", "en": "opening, introduction" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en inledning", "defSg": "inledningen", "indefPl": "inledningar", "defPl": "inledningarna" }
+      "forms": { "indefSg": "en inledning", "defSg": "inledningen", "indefPl": "inledningar", "defPl": "inledningarna" },
+      "example": { "sv": "Inledningen presenterar miljön och huvudpersonen.", "ru": "Вступление представляет обстановку и главного героя.", "en": "The introduction presents the setting and the main character." }
     }
   ]
 }

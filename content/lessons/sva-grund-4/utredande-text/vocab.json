@@ -58,6 +58,7 @@
       "sv": "neutral",
       "translations": { "ru": "нейтральный (не принимающий чью-то сторону)", "en": "neutral, impartial" },
       "pos": "adj",
+      "forms": { "positive": "neutral", "neuter": "neutralt", "plural": "neutrala", "comparative": "neutralare", "superlative": "neutralast" },
       "example": { "sv": "Skribenten förhåller sig neutral genom hela texten.", "ru": "Автор сохраняет нейтральную позицию на протяжении всего текста.", "en": "The writer remains neutral throughout the text." }
     },
     {
@@ -65,6 +66,7 @@
       "sv": "objektiv",
       "translations": { "ru": "объективный", "en": "objective" },
       "pos": "adj",
+      "forms": { "positive": "objektiv", "neuter": "objektivt", "plural": "objektiva", "comparative": "mer objektiv", "superlative": "mest objektiv" },
       "example": { "sv": "En utredande text ska vara så objektiv som möjligt.", "ru": "Utredande text должен быть максимально объективным.", "en": "An utredande text should be as objective as possible." }
     },
     {
@@ -81,6 +83,7 @@
       "sv": "mångfacetterad",
       "translations": { "ru": "многогранный", "en": "multifaceted" },
       "pos": "adj",
+      "forms": { "positive": "mångfacetterad", "neuter": "mångfacetterat", "plural": "mångfacetterade", "comparative": "mer mångfacetterad", "superlative": "mest mångfacetterad" },
       "example": { "sv": "Det här är en mångfacetterad fråga utan ett enkelt svar.", "ru": "Это многогранный вопрос без простого ответа.", "en": "This is a multifaceted question without a simple answer." }
     },
     {

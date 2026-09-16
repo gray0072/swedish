@@ -48,28 +48,32 @@
       "sv": "Stäng boken!",
       "translations": { "ru": "Закройте книгу!", "en": "Close the book!" },
       "pos": "phrase",
-      "note": { "ru": "От глагола stänga — закрывать.", "en": "From the verb stänga — to close." }
+      "note": { "ru": "От глагола stänga — закрывать.", "en": "From the verb stänga — to close." },
+      "example": { "sv": "Stäng boken och lyssna på mig.", "ru": "Закройте книгу и слушайте меня.", "en": "Close the book and listen to me." }
     },
     {
       "id": "titta-pa-tavlan",
       "sv": "Titta på tavlan!",
       "translations": { "ru": "Смотрите на доску!", "en": "Look at the board!" },
       "pos": "phrase",
-      "note": { "ru": "en tavla — доска в классе.", "en": "en tavla — the board in the classroom." }
+      "note": { "ru": "en tavla — доска в классе.", "en": "en tavla — the board in the classroom." },
+      "example": { "sv": "Titta på tavlan och skriv av orden.", "ru": "Смотрите на доску и переписывайте слова.", "en": "Look at the board and copy the words." }
     },
     {
       "id": "sitt-ner",
       "sv": "Sitt ner!",
       "translations": { "ru": "Сядьте!", "en": "Sit down!" },
       "pos": "phrase",
-      "note": { "ru": "От глагола sitta — сидеть.", "en": "From the verb sitta — to sit." }
+      "note": { "ru": "От глагола sitta — сидеть.", "en": "From the verb sitta — to sit." },
+      "example": { "sv": "Sitt ner och öppna boken.", "ru": "Сядьте и откройте книгу.", "en": "Sit down and open the book." }
     },
     {
       "id": "res-dig-upp",
       "sv": "Res dig upp!",
       "translations": { "ru": "Встань(те)!", "en": "Stand up!" },
       "pos": "phrase",
-      "note": { "ru": "Также говорят: Ställ dig upp!", "en": "You also hear: Ställ dig upp!" }
+      "note": { "ru": "Также говорят: Ställ dig upp!", "en": "You also hear: Ställ dig upp!" },
+      "example": { "sv": "Res dig upp när läraren kommer in.", "ru": "Встаньте, когда заходит учитель.", "en": "Stand up when the teacher comes in." }
     },
     {
       "id": "arbeta-i-par",
@@ -83,28 +87,32 @@
       "sv": "Räck upp handen!",
       "translations": { "ru": "Поднимите руку!", "en": "Raise your hand!" },
       "pos": "phrase",
-      "note": { "ru": "en hand — рука; handen — рука (опред.).", "en": "en hand — hand; handen — the hand." }
+      "note": { "ru": "en hand — рука; handen — рука (опред.).", "en": "en hand — hand; handen — the hand." },
+      "example": { "sv": "Räck upp handen om du har en fråga.", "ru": "Поднимите руку, если у вас вопрос.", "en": "Raise your hand if you have a question." }
     },
     {
       "id": "var-tysta",
       "sv": "Var tysta!",
       "translations": { "ru": "Тихо!", "en": "Be quiet!" },
       "pos": "phrase",
-      "note": { "ru": "Одному человеку: Var tyst!", "en": "To one person: Var tyst!" }
+      "note": { "ru": "Одному человеку: Var tyst!", "en": "To one person: Var tyst!" },
+      "example": { "sv": "Var tysta när läraren pratar.", "ru": "Тихо, когда учитель говорит.", "en": "Be quiet when the teacher is talking." }
     },
     {
       "id": "vand-blad",
       "sv": "Vänd blad!",
       "translations": { "ru": "Переверните страницу!", "en": "Turn the page!" },
       "pos": "phrase",
-      "note": { "ru": "Также: Vänd sidan!", "en": "Also: Vänd sidan!" }
+      "note": { "ru": "Также: Vänd sidan!", "en": "Also: Vänd sidan!" },
+      "example": { "sv": "Vänd blad och läs nästa text.", "ru": "Переверните страницу и прочитайте следующий текст.", "en": "Turn the page and read the next text." }
     },
     {
       "id": "sudda-ut",
       "sv": "Sudda ut!",
       "translations": { "ru": "Стирай(те)!", "en": "Erase it!" },
       "pos": "phrase",
-      "note": { "ru": "Стереть написанное — ластиком или с доски.", "en": "To rub out what is written — with an eraser or off the board." }
+      "note": { "ru": "Стереть написанное — ластиком или с доски.", "en": "To rub out what is written — with an eraser or off the board." },
+      "example": { "sv": "Sudda ut det gamla ordet på tavlan.", "ru": "Стирайте старое слово на доске.", "en": "Erase the old word on the board." }
     },
     {
       "id": "kan-du-upprepa",
@@ -117,7 +125,8 @@
       "id": "kan-du-skriva-det-pa-tavlan",
       "sv": "Kan du skriva det på tavlan?",
       "translations": { "ru": "Можешь написать это на доске?", "en": "Can you write it on the board?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, kan du skriva det på tavlan?", "ru": "Извините, можете написать это на доске?", "en": "Sorry, can you write it on the board?" }
     },
     {
       "id": "kan-du-prata-langsammare",

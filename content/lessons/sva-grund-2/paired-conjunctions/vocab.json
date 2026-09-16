@@ -32,13 +32,17 @@
       "id": "sasom",
       "sv": "modig",
       "translations": { "ru": "смелый", "en": "brave" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "modig", "neuter": "modigt", "plural": "modiga", "comparative": "modigare", "superlative": "modigast" },
+      "example": { "sv": "Hon är inte bara duktig utan också modig.", "ru": "Она не только способная, но и смелая.", "en": "She is not only capable but also brave." }
     },
     {
       "id": "duktig",
       "sv": "duktig",
       "translations": { "ru": "способный, умелый", "en": "capable, good at something" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "duktig", "neuter": "duktigt", "plural": "duktiga", "comparative": "duktigare", "superlative": "duktigast" },
+      "example": { "sv": "Han är duktig på att skriva både formella och informella texter.", "ru": "Он умеет писать как формальные, так и неформальные тексты.", "en": "He is good at writing both formal and informal texts." }
     },
     {
       "id": "cykla",
@@ -46,7 +50,8 @@
       "translations": { "ru": "ехать на велосипеде", "en": "to cycle" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat" }
+      "forms": { "infinitive": "cykla", "present": "cyklar", "past": "cyklade", "supine": "cyklat" },
+      "example": { "sv": "Vi kan antingen ta bussen eller cykla till jobbet.", "ru": "Мы можем либо поехать на автобусе, либо на велосипеде на работу.", "en": "We can either take the bus or cycle to work." }
     },
     {
       "id": "talar",
@@ -54,7 +59,8 @@
       "translations": { "ru": "говорить (на языке)", "en": "to speak" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" }
+      "forms": { "infinitive": "tala", "present": "talar", "past": "talade", "supine": "talat" },
+      "example": { "sv": "Hon talar både svenska och engelska hemma.", "ru": "Дома она говорит и по-шведски, и по-английски.", "en": "At home she speaks both Swedish and English." }
     },
     {
       "id": "led-konjunktion",
@@ -63,13 +69,16 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "led", "defSg": "ledet", "indefPl": "led", "defPl": "leden" },
-      "note": { "ru": "Здесь: каждая из двух связанных частей парного союза.", "en": "Here: each of the two linked parts of a paired conjunction." }
+      "note": { "ru": "Здесь: каждая из двух связанных частей парного союза.", "en": "Here: each of the two linked parts of a paired conjunction." },
+      "example": { "sv": "Varje led i en parkonjunktion ska vara grammatiskt likvärdigt.", "ru": "Каждый член парного союза должен быть грамматически равноценным.", "en": "Each member of a paired conjunction should be grammatically equivalent." }
     },
     {
       "id": "jamnstalld",
       "sv": "jämnställd",
       "translations": { "ru": "равноправный", "en": "equal, on equal footing" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "jämnställd", "neuter": "jämnställt", "plural": "jämnställda", "comparative": "mer jämnställd", "superlative": "mest jämnställd" },
+      "example": { "sv": "Både kvinnor och män ska vara jämnställda på arbetsplatsen.", "ru": "И женщины, и мужчины должны быть равноправны на рабочем месте.", "en": "Both women and men should be equal at the workplace." }
     }
   ]
 }

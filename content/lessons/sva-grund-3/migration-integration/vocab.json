@@ -6,6 +6,7 @@
       "translations": { "ru": "миграция", "en": "migration" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en migration", "defSg": "migrationen", "indefPl": "migrationer", "defPl": "migrationerna" },
       "example": { "sv": "Migration innebär att människor flyttar från ett land till ett annat.", "ru": "Миграция означает, что люди переезжают из одной страны в другую.", "en": "Migration means that people move from one country to another." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "интеграция", "en": "integration" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en integration", "defSg": "integrationen", "indefPl": "integrationer", "defPl": "integrationerna" },
       "example": { "sv": "Integration handlar om att bli en del av samhället i det nya landet.", "ru": "Интеграция — это становление частью общества в новой стране.", "en": "Integration is about becoming part of society in the new country." }
     },
     {
@@ -21,6 +23,7 @@
       "sv": "mångkulturell",
       "translations": { "ru": "многокультурный", "en": "multicultural" },
       "pos": "adj",
+      "forms": { "positive": "mångkulturell", "neuter": "mångkulturellt", "plural": "mångkulturella", "comparative": "mer mångkulturell", "superlative": "mest mångkulturell" },
       "note": { "ru": "ett-форма: mångkulturellt, мн.ч.: mångkulturella", "en": "ett-form: mångkulturellt, plural: mångkulturella" },
       "example": { "sv": "Sverige beskrivs ofta som ett mångkulturellt samhälle.", "ru": "Швецию часто описывают как многокультурное общество.", "en": "Sweden is often described as a multicultural society." }
     },
@@ -30,6 +33,7 @@
       "translations": { "ru": "курс общественной ориентации", "en": "civic orientation (course)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en samhällsorientering", "defSg": "samhällsorienteringen", "indefPl": "samhällsorienteringar", "defPl": "samhällsorienteringarna" },
       "example": { "sv": "Samhällsorientering ger nyanlända grundläggande kunskap om Sverige.", "ru": "Курс общественной ориентации даёт новоприбывшим базовые знания о Швеции.", "en": "Civic orientation gives newly arrived people basic knowledge about Sweden." }
     },
     {
@@ -44,7 +48,9 @@
       "sv": "nyanländ",
       "translations": { "ru": "новоприбывший", "en": "newly arrived (person)" },
       "pos": "adj",
-      "note": { "ru": "Часто используется как существительное: en nyanländ, de nyanlända.", "en": "Often used as a noun: en nyanländ, de nyanlända." }
+      "forms": { "positive": "nyanländ", "neuter": "nyanlänt", "plural": "nyanlända", "comparative": "mer nyanländ", "superlative": "mest nyanländ" },
+      "note": { "ru": "Часто используется как существительное: en nyanländ, de nyanlända.", "en": "Often used as a noun: en nyanländ, de nyanlända." },
+      "example": { "sv": "Kommunen erbjuder svenskkurser för nyanlända.", "ru": "Коммуна предлагает курсы шведского для новоприбывших.", "en": "The municipality offers Swedish courses for newly arrived people." }
     },
     {
       "id": "asyl",
@@ -52,6 +58,7 @@
       "translations": { "ru": "убежище (юридический статус)", "en": "asylum" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en asyl", "defSg": "asylen", "indefPl": "asyler", "defPl": "asylerna" },
       "example": { "sv": "Efter beviljad asyl kan man ansöka om uppehållstillstånd.", "ru": "После предоставления убежища можно подать заявление на вид на жительство.", "en": "After asylum is granted, one can apply for a residence permit." }
     },
     {
@@ -60,7 +67,8 @@
       "translations": { "ru": "вид на жительство", "en": "residence permit" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett uppehållstillstånd", "defSg": "uppehållstillståndet", "indefPl": "uppehållstillstånd", "defPl": "uppehållstillstånden" }
+      "forms": { "indefSg": "ett uppehållstillstånd", "defSg": "uppehållstillståndet", "indefPl": "uppehållstillstånd", "defPl": "uppehållstillstånden" },
+      "example": { "sv": "Hon fick permanent uppehållstillstånd efter tre år.", "ru": "Она получила постоянный вид на жительство через три года.", "en": "She was granted permanent residency after three years." }
     },
     {
       "id": "medborgarskap",
@@ -68,7 +76,8 @@
       "translations": { "ru": "гражданство", "en": "citizenship" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett medborgarskap", "defSg": "medborgarskapet", "indefPl": "medborgarskap", "defPl": "medborgarskapen" }
+      "forms": { "indefSg": "ett medborgarskap", "defSg": "medborgarskapet", "indefPl": "medborgarskap", "defPl": "medborgarskapen" },
+      "example": { "sv": "Han ansökte om svenskt medborgarskap förra året.", "ru": "В прошлом году он подал заявление на шведское гражданство.", "en": "He applied for Swedish citizenship last year." }
     },
     {
       "id": "mangfald",
@@ -76,6 +85,7 @@
       "translations": { "ru": "разнообразие", "en": "diversity" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en mångfald", "defSg": "mångfalden", "indefPl": "mångfalder", "defPl": "mångfalderna" },
       "example": { "sv": "Mångfald på arbetsplatsen kan berika verksamheten.", "ru": "Разнообразие на рабочем месте может обогатить работу организации.", "en": "Diversity in the workplace can enrich an organization." }
     },
     {
@@ -84,14 +94,17 @@
       "translations": { "ru": "встреча культур", "en": "cultural encounter" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett kulturmöte", "defSg": "kulturmötet", "indefPl": "kulturmöten", "defPl": "kulturmötena" }
+      "forms": { "indefSg": "ett kulturmöte", "defSg": "kulturmötet", "indefPl": "kulturmöten", "defPl": "kulturmötena" },
+      "example": { "sv": "Skolan anordnade ett kulturmöte med musik och mat från olika länder.", "ru": "Школа организовала встречу культур с музыкой и еды из разных стран.", "en": "The school organized a cultural encounter with music and food from different countries." }
     },
     {
       "id": "inkludering",
       "sv": "inkludering",
       "translations": { "ru": "включение, инклюзия", "en": "inclusion" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en inkludering", "defSg": "inkluderingen", "indefPl": "inkluderingar", "defPl": "inkluderingarna" },
+      "example": { "sv": "Skolan arbetar aktivt för inkludering av alla elever.", "ru": "Школа активно работает над включением всех учеников.", "en": "The school actively works on the inclusion of all students." }
     },
     {
       "id": "fordom",
@@ -99,14 +112,17 @@
       "translations": { "ru": "предрассудок", "en": "prejudice" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en fördom", "defSg": "fördomen", "indefPl": "fördomar", "defPl": "fördomarna" }
+      "forms": { "indefSg": "en fördom", "defSg": "fördomen", "indefPl": "fördomar", "defPl": "fördomarna" },
+      "example": { "sv": "Många fördomar bygger på okunskap.", "ru": "Многие предрассудки основаны на невежестве.", "en": "Many prejudices are based on ignorance." }
     },
     {
       "id": "jamlikhet",
       "sv": "jämlikhet",
       "translations": { "ru": "равенство", "en": "equality" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en jämlikhet", "defSg": "jämlikheten", "indefPl": "jämlikheter", "defPl": "jämlikheterna" },
+      "example": { "sv": "Jämlikhet mellan alla invånare är ett viktigt mål.", "ru": "Равенство между всеми жителями — важная цель.", "en": "Equality among all residents is an important goal." }
     }
   ]
 }

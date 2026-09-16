@@ -4,19 +4,22 @@
       "id": "far-jag-lagga-till-nagot",
       "sv": "får jag lägga till något?",
       "translations": { "ru": "можно мне кое-что добавить?", "en": "may I add something?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Får jag lägga till något innan vi går vidare?", "ru": "Можно мне кое-что добавить, прежде чем мы продолжим?", "en": "May I add something before we move on?" }
     },
     {
       "id": "jag-skulle-vilja-saga-en-sak",
       "sv": "jag skulle vilja säga en sak",
       "translations": { "ru": "я хотел(а) бы сказать одну вещь", "en": "I would like to say one thing" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja säga en sak om det här förslaget.", "ru": "Я хотел бы сказать одну вещь по поводу этого предложения.", "en": "I would like to say one thing about this proposal." }
     },
     {
       "id": "jag-ser-det-lite-annorlunda",
       "sv": "jag ser det lite annorlunda",
       "translations": { "ru": "я смотрю на это немного иначе", "en": "I see it a bit differently" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag ser det lite annorlunda än du gör.", "ru": "Я смотрю на это немного иначе, чем ты.", "en": "I see it a bit differently than you do." }
     },
     {
       "id": "jag-haller-med-om-att",
@@ -29,43 +32,50 @@
       "id": "jag-haller-inte-riktigt-med-om-att",
       "sv": "jag håller inte riktigt med om att...",
       "translations": { "ru": "я не совсем согласен(на), что...", "en": "I don't quite agree that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag håller inte riktigt med om att lösningen är så enkel.", "ru": "Я не совсем согласен, что решение настолько простое.", "en": "I don't quite agree that the solution is that simple." }
     },
     {
       "id": "det-stammer-men",
       "sv": "det stämmer, men...",
       "translations": { "ru": "это верно, но...", "en": "that's true, but..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det stämmer, men vi måste också tänka på kostnaden.", "ru": "Это верно, но нам также нужно подумать о стоимости.", "en": "That's true, but we also need to think about the cost." }
     },
     {
       "id": "om-jag-ska-sammanfatta",
       "sv": "om jag ska sammanfatta det vi kommit fram till",
       "translations": { "ru": "если подвести итог тому, к чему мы пришли", "en": "if I'm to sum up what we've concluded" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Om jag ska sammanfatta det vi kommit fram till, behöver vi mer tid.", "ru": "Если подвести итог тому, к чему мы пришли, нам нужно больше времени.", "en": "If I'm to sum up what we've concluded, we need more time." }
     },
     {
       "id": "far-jag-avbryta",
       "sv": "får jag avbryta?",
       "translations": { "ru": "можно перебить?", "en": "may I interrupt?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Får jag avbryta? Jag tror att vi missar en viktig poäng.", "ru": "Можно перебить? Кажется, мы упускаем важный момент.", "en": "May I interrupt? I think we're missing an important point." }
     },
     {
       "id": "fortsatt-du-var-inte-klar",
       "sv": "fortsätt, du var inte klar",
       "translations": { "ru": "продолжай, ты не закончил(а)", "en": "go on, you weren't finished" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Fortsätt, du var inte klar med din tanke.", "ru": "Продолжай, ты не закончил свою мысль.", "en": "Go on, you weren't finished with your thought." }
     },
     {
       "id": "vad-tycker-du-om-det",
       "sv": "vad tycker du om det?",
       "translations": { "ru": "что ты об этом думаешь?", "en": "what do you think about that?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vad tycker du om det här förslaget?", "ru": "Что ты думаешь об этом предложении?", "en": "What do you think about this proposal?" }
     },
     {
       "id": "bra-poang-discussion",
       "sv": "bra poäng",
       "translations": { "ru": "хорошее замечание", "en": "good point" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Bra poäng, jag hade inte tänkt på det.", "ru": "Хорошее замечание, я не думал об этом.", "en": "Good point, I hadn't thought of that." }
     },
     {
       "id": "diskussion",
@@ -73,7 +83,8 @@
       "translations": { "ru": "дискуссия, обсуждение", "en": "discussion" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" }
+      "forms": { "indefSg": "en diskussion", "defSg": "diskussionen", "indefPl": "diskussioner", "defPl": "diskussionerna" },
+      "example": { "sv": "Diskussionen handlade om skolans nya regler.", "ru": "Дискуссия касалась новых правил школы.", "en": "The discussion was about the school's new rules." }
     },
     {
       "id": "delta",
@@ -81,7 +92,8 @@
       "translations": { "ru": "участвовать", "en": "to participate" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "delta", "present": "deltar", "past": "deltog", "supine": "deltagit" }
+      "forms": { "infinitive": "delta", "present": "deltar", "past": "deltog", "supine": "deltagit" },
+      "example": { "sv": "Alla elever deltog i diskussionen.", "ru": "Все ученики участвовали в дискуссии.", "en": "All the students participated in the discussion." }
     },
     {
       "id": "avbryta",
@@ -89,13 +101,15 @@
       "translations": { "ru": "перебивать, прерывать", "en": "to interrupt" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "avbryta", "present": "avbryter", "past": "avbröt", "supine": "avbrutit" }
+      "forms": { "infinitive": "avbryta", "present": "avbryter", "past": "avbröt", "supine": "avbrutit" },
+      "example": { "sv": "Det är oartigt att avbryta någon mitt i en mening.", "ru": "Невежливо перебивать кого-то посреди фразы.", "en": "It's impolite to interrupt someone in the middle of a sentence." }
     },
     {
       "id": "komma-overens",
       "sv": "komma överens",
       "translations": { "ru": "прийти к согласию", "en": "to agree, to come to an agreement" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Efter en lång diskussion kom de överens om en lösning.", "ru": "После долгой дискуссии они пришли к согласию по поводу решения.", "en": "After a long discussion, they came to an agreement on a solution." }
     }
   ]
 }

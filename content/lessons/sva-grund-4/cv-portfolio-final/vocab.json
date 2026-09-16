@@ -135,6 +135,7 @@
       "sv": "målinriktad",
       "translations": { "ru": "целенаправленный, целеустремлённый", "en": "goal-oriented, focused" },
       "pos": "adj",
+      "forms": { "positive": "målinriktad", "neuter": "målinriktat", "plural": "målinriktade", "comparative": "mer målinriktad", "superlative": "mest målinriktad" },
       "example": { "sv": "Rekryteraren beskrev mig som målinriktad och noggrann.", "ru": "Рекрутёр описал меня как целеустремлённого(ую) и внимательного(ую) к деталям.", "en": "The recruiter described me as goal-oriented and thorough." }
     }
   ]

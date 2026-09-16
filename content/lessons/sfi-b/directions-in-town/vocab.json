@@ -86,6 +86,7 @@
       "sv": "höger",
       "translations": { "ru": "правый, направо", "en": "right" },
       "pos": "adj",
+      "forms": { "positive": "höger", "neuter": "höger", "plural": "höger", "comparative": "mer höger", "superlative": "mest höger" },
       "example": { "sv": "Ta första gatan på höger sida.", "ru": "Сверни на первую улицу с правой стороны.", "en": "Take the first street on the right side." }
     },
     {
@@ -93,6 +94,7 @@
       "sv": "vänster",
       "translations": { "ru": "левый, налево", "en": "left" },
       "pos": "adj",
+      "forms": { "positive": "vänster", "neuter": "vänster", "plural": "vänster", "comparative": "mer vänster", "superlative": "mest vänster" },
       "example": { "sv": "Biblioteket ligger på vänster sida om gatan.", "ru": "Библиотека находится с левой стороны улицы.", "en": "The library is on the left side of the street." }
     },
     {

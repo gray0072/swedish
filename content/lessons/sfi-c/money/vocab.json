@@ -77,6 +77,8 @@
       "sv": "pengar",
       "translations": { "ru": "деньги", "en": "money" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en peng", "defSg": "pengen", "indefPl": "pengar", "defPl": "pengarna" },
       "example": { "sv": "Jag har inte mycket pengar just nu.", "ru": "У меня сейчас немного денег.", "en": "I don't have much money right now." }
     },
     {
@@ -94,6 +96,7 @@
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
       "note": { "ru": "ett-форма: dyrt, мн.ч.: dyra", "en": "ett-form: dyrt, plural: dyra" },
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Bostäder är dyra i Stockholm.", "ru": "Жильё в Стокгольме дорогое.", "en": "Housing is expensive in Stockholm." }
     },
     {
@@ -102,6 +105,7 @@
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
       "note": { "ru": "ett-форма: billigt, мн.ч.: billiga", "en": "ett-form: billigt, plural: billiga" },
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "example": { "sv": "Den här tröjan är billig.", "ru": "Этот свитер дешёвый.", "en": "This sweater is cheap." }
     },
     {
@@ -127,6 +131,8 @@
       "sv": "kontanter",
       "translations": { "ru": "наличные", "en": "cash" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en kontant", "defSg": "kontanten", "indefPl": "kontanter", "defPl": "kontanterna" },
       "example": { "sv": "Jag har inga kontanter, bara kort.", "ru": "У меня нет наличных, только карта.", "en": "I have no cash, only a card." }
     },
     {

@@ -59,6 +59,7 @@
       "translations": { "ru": "льгота при высоких расходах на лечение (потолок расходов)", "en": "high-cost protection (a cap on healthcare costs)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett högkostnadsskydd", "defSg": "högkostnadsskyddet", "indefPl": "högkostnadsskydd", "defPl": "högkostnadsskydden" },
       "note": { "ru": "После того как пациент заплатил определённую сумму за визиты в течение года, дальнейшие визиты становятся бесплатными.", "en": "Once a patient has paid a set amount for visits within a year, further visits become free." },
       "example": { "sv": "Tack vare högkostnadsskyddet betalar jag inget mer i år.", "ru": "Благодаря льготе по высоким расходам я больше не плачу в этом году.", "en": "Thanks to the high-cost protection, I don't pay anything more this year." }
     },
@@ -86,6 +87,7 @@
       "translations": { "ru": "гарантия сроков оказания медицинской помощи", "en": "care guarantee (maximum legal waiting times)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en vårdgaranti", "defSg": "vårdgarantin", "indefPl": "vårdgarantier", "defPl": "vårdgarantierna" },
       "note": { "ru": "Закон устанавливает максимальные сроки ожидания приёма и лечения.", "en": "The law sets maximum waiting times for appointments and treatment." },
       "example": { "sv": "Vårdgarantin säger att du ska få en tid inom tre dagar.", "ru": "Гарантия сроков говорит, что тебе должны дать приём в течение трёх дней.", "en": "The care guarantee says you should get an appointment within three days." }
     },
@@ -95,6 +97,7 @@
       "translations": { "ru": "специализированная медицинская помощь", "en": "specialist care" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en specialistvård", "defSg": "specialistvården", "indefPl": "specialistvårder", "defPl": "specialistvårderna" },
       "example": { "sv": "Efter remissen fick jag specialistvård på sjukhuset.", "ru": "После направления я получил(а) специализированную помощь в больнице.", "en": "After the referral, I received specialist care at the hospital." }
     },
     {
@@ -112,6 +115,7 @@
       "translations": { "ru": "бесплатный (без сбора)", "en": "free of charge" },
       "pos": "adj",
       "note": { "ru": "ett-форма: avgiftsfritt, мн.ч.: avgiftsfria", "en": "ett-form: avgiftsfritt, plural: avgiftsfria" },
+      "forms": { "positive": "avgiftsfri", "neuter": "avgiftsfritt", "plural": "avgiftsfria", "comparative": "mer avgiftsfri", "superlative": "mest avgiftsfri" },
       "example": { "sv": "Vård för barn under arton år är avgiftsfri.", "ru": "Медицинская помощь для детей до восемнадцати лет бесплатна.", "en": "Healthcare for children under eighteen is free of charge." }
     }
   ]

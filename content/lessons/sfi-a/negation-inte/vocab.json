@@ -66,37 +66,43 @@
       "translations": { "ru": "машина", "en": "car" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
       "example": { "sv": "Vi har inte bil.", "ru": "У нас нет машины.", "en": "We don't have a car." }
     },
     {
       "id": "jag",
       "sv": "jag",
       "translations": { "ru": "я", "en": "I" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Jag bor inte i Lund.", "ru": "Я не живу в Лунде.", "en": "I don't live in Lund." }
     },
     {
       "id": "han",
       "sv": "han",
       "translations": { "ru": "он", "en": "he" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Han talar inte engelska.", "ru": "Он не говорит по-английски.", "en": "He doesn't speak English." }
     },
     {
       "id": "hon",
       "sv": "hon",
       "translations": { "ru": "она", "en": "she" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Hon jobbar inte i Malmö.", "ru": "Она не работает в Мальмё.", "en": "She doesn't work in Malmö." }
     },
     {
       "id": "vi",
       "sv": "vi",
       "translations": { "ru": "мы", "en": "we" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Vi har inte bil.", "ru": "У нас нет машины.", "en": "We don't have a car." }
     },
     {
       "id": "du",
       "sv": "du",
       "translations": { "ru": "ты", "en": "you" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Du heter inte Erik.", "ru": "Тебя зовут не Эрик.", "en": "Your name isn't Erik." }
     }
   ]
 }

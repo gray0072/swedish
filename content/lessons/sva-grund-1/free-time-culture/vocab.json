@@ -49,6 +49,7 @@
       "sv": "spännande",
       "translations": { "ru": "захватывающий, увлекательный", "en": "exciting, thrilling" },
       "pos": "adj",
+      "forms": { "positive": "spännande", "neuter": "spännande", "plural": "spännande", "comparative": "mer spännande", "superlative": "mest spännande" },
       "example": { "sv": "Det var en väldigt spännande film.", "ru": "Это был очень увлекательный фильм.", "en": "It was a very exciting film." }
     },
     {
@@ -56,6 +57,7 @@
       "sv": "tråkig",
       "translations": { "ru": "скучный", "en": "boring" },
       "pos": "adj",
+      "forms": { "positive": "tråkig", "neuter": "tråkigt", "plural": "tråkiga", "comparative": "tråkigare", "superlative": "tråkigast" },
       "example": { "sv": "Filmen var lite tråkig i mitten.", "ru": "Фильм был немного скучным в середине.", "en": "The film was a bit boring in the middle." }
     },
     {

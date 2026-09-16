@@ -5,7 +5,8 @@
       "sv": "enligt",
       "translations": { "ru": "согласно, по данным", "en": "according to" },
       "pos": "prep",
-      "note": { "ru": "Требует после себя существительное/имя, а не придаточное.", "en": "Takes a noun/name after it, not a clause." }
+      "note": { "ru": "Требует после себя существительное/имя, а не придаточное.", "en": "Takes a noun/name after it, not a clause." },
+      "example": { "sv": "Enligt Skatteverket ska deklarationen lämnas in i maj.", "ru": "По данным налогового управления, декларацию нужно подать в мае.", "en": "According to the Tax Agency, the tax return must be filed in May." }
     },
     {
       "id": "havda",
@@ -22,14 +23,17 @@
       "translations": { "ru": "считать, полагать", "en": "to think, hold the view" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" }
+      "forms": { "infinitive": "mena", "present": "menar", "past": "menade", "supine": "menat" },
+      "example": { "sv": "Experten menar att situationen kommer att förbättras snart.", "ru": "Эксперт считает, что ситуация скоро улучшится.", "en": "The expert holds the view that the situation will improve soon." }
     },
     {
       "id": "skatteverket",
       "sv": "Skatteverket",
       "translations": { "ru": "налоговое управление", "en": "the Swedish Tax Agency" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett skatteverk", "defSg": "Skatteverket", "indefPl": "skatteverk", "defPl": "skatteverken" },
+      "example": { "sv": "Skatteverket hanterar alla svenska skattefrågor.", "ru": "Налоговое управление занимается всеми шведскими налоговыми вопросами.", "en": "The Tax Agency handles all Swedish tax matters." }
     },
     {
       "id": "deklaration",
@@ -37,7 +41,8 @@
       "translations": { "ru": "налоговая декларация", "en": "tax return" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "deklaration", "defSg": "deklarationen", "indefPl": "deklarationer", "defPl": "deklarationerna" }
+      "forms": { "indefSg": "deklaration", "defSg": "deklarationen", "indefPl": "deklarationer", "defPl": "deklarationerna" },
+      "example": { "sv": "Deklarationen måste lämnas in senast i maj.", "ru": "Декларацию нужно подать не позднее мая.", "en": "The tax return must be filed by May at the latest." }
     },
     {
       "id": "myndighet",
@@ -45,7 +50,8 @@
       "translations": { "ru": "ведомство, орган власти", "en": "authority, agency" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" }
+      "forms": { "indefSg": "myndighet", "defSg": "myndigheten", "indefPl": "myndigheter", "defPl": "myndigheterna" },
+      "example": { "sv": "Myndigheten svarar för tillsynen av branschen.", "ru": "Ведомство отвечает за надзор за отраслью.", "en": "The authority is responsible for supervising the industry." }
     },
     {
       "id": "system",
@@ -53,7 +59,8 @@
       "translations": { "ru": "система", "en": "system" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "system", "defSg": "systemet", "indefPl": "system", "defPl": "systemen" }
+      "forms": { "indefSg": "system", "defSg": "systemet", "indefPl": "system", "defPl": "systemen" },
+      "example": { "sv": "Det nya systemet fungerar bättre än det gamla.", "ru": "Новая система работает лучше старой.", "en": "The new system works better than the old one." }
     },
     {
       "id": "expert",
@@ -61,7 +68,8 @@
       "translations": { "ru": "эксперт", "en": "expert" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "expert", "defSg": "experten", "indefPl": "experter", "defPl": "experterna" }
+      "forms": { "indefSg": "expert", "defSg": "experten", "indefPl": "experter", "defPl": "experterna" },
+      "example": { "sv": "En expert hävdar att förändringen är nödvändig.", "ru": "Эксперт утверждает, что изменение необходимо.", "en": "An expert claims that the change is necessary." }
     },
     {
       "id": "situation",
@@ -69,14 +77,17 @@
       "translations": { "ru": "ситуация", "en": "situation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "situation", "defSg": "situationen", "indefPl": "situationer", "defPl": "situationerna" }
+      "forms": { "indefSg": "situation", "defSg": "situationen", "indefPl": "situationer", "defPl": "situationerna" },
+      "example": { "sv": "Situationen på arbetsmarknaden har förändrats mycket.", "ru": "Ситуация на рынке труда сильно изменилась.", "en": "The situation on the labour market has changed a lot." }
     },
     {
       "id": "forbattras",
       "sv": "förbättras",
       "translations": { "ru": "улучшаться", "en": "to improve, get better" },
       "pos": "verb",
-      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" }
+      "verbGroup": 1,
+      "forms": { "infinitive": "förbättras", "present": "förbättras", "past": "förbättrades", "supine": "förbättrats" },
+      "example": { "sv": "Läget förbättras stadigt sedan förra året.", "ru": "Ситуация стабильно улучшается с прошлого года.", "en": "The situation has been steadily improving since last year." }
     },
     {
       "id": "fungera",
@@ -84,7 +95,8 @@
       "translations": { "ru": "работать, функционировать", "en": "to function, work" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "fungera", "present": "fungerar", "past": "fungerade", "supine": "fungerat" }
+      "forms": { "infinitive": "fungera", "present": "fungerar", "past": "fungerade", "supine": "fungerat" },
+      "example": { "sv": "Det nya systemet fungerar utan problem.", "ru": "Новая система работает без проблем.", "en": "The new system works without problems." }
     },
     {
       "id": "kalla",
@@ -92,7 +104,8 @@
       "translations": { "ru": "источник", "en": "source" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+      "forms": { "indefSg": "källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Enligt källan är uppgifterna korrekta.", "ru": "По данным источника, сведения верны.", "en": "According to the source, the information is correct." }
     }
   ]
 }

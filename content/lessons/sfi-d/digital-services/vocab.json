@@ -5,6 +5,8 @@
       "sv": "BankID",
       "translations": { "ru": "БанкИД (электронное удостоверение личности)", "en": "BankID (digital ID app)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "BankID", "defSg": "BankID", "indefPl": "BankID", "defPl": "BankID" },
       "example": { "sv": "Jag loggar in med BankID.", "ru": "Я вхожу с помощью BankID.", "en": "I log in with BankID." }
     },
     {
@@ -106,6 +108,7 @@
       "sv": "säker",
       "translations": { "ru": "надёжный, безопасный", "en": "secure, safe" },
       "pos": "adj",
+      "forms": { "positive": "säker", "neuter": "säkert", "plural": "säkra", "comparative": "säkrare", "superlative": "säkrast" },
       "example": { "sv": "Är det säkert att betala med kort på nätet?", "ru": "Безопасно ли платить картой в интернете?", "en": "Is it safe to pay by card online?" }
     }
   ]

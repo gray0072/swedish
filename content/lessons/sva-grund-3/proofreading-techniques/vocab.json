@@ -6,7 +6,8 @@
       "translations": { "ru": "ошибка интерференции (из родного языка)", "en": "interference error (from one's native language)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett interferensfel", "defSg": "interferensfelet", "indefPl": "interferensfel", "defPl": "interferensfelen" }
+      "forms": { "indefSg": "ett interferensfel", "defSg": "interferensfelet", "indefPl": "interferensfel", "defPl": "interferensfelen" },
+      "example": { "sv": "Många interferensfel beror på att man översätter direkt från sitt modersmål.", "ru": "Многие ошибки интерференции возникают из-за прямого перевода с родного языка.", "en": "Many interference errors occur because people translate directly from their native language." }
     },
     {
       "id": "artikel-proofreading",
@@ -14,7 +15,8 @@
       "translations": { "ru": "артикль", "en": "article (grammatical)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" }
+      "forms": { "indefSg": "en artikel", "defSg": "artikeln", "indefPl": "artiklar", "defPl": "artiklarna" },
+      "example": { "sv": "Glöm inte att kontrollera att varje substantiv har rätt artikel.", "ru": "Не забудь проверить, что у каждого существительного правильный артикль.", "en": "Don't forget to check that every noun has the correct article." }
     },
     {
       "id": "inversion",
@@ -22,7 +24,8 @@
       "translations": { "ru": "инверсия (обратный порядок слов)", "en": "inversion (reversed word order)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" }
+      "forms": { "indefSg": "en inversion", "defSg": "inversionen", "indefPl": "inversioner", "defPl": "inversionerna" },
+      "example": { "sv": "Vid inversion byter subjektet och verbet plats efter ett fundament som inte är subjekt.", "ru": "При инверсии подлежащее и глагол меняются местами после члена предложения, который не является подлежащим.", "en": "With inversion, the subject and verb swap places after a fundament that is not the subject." }
     },
     {
       "id": "dubbel-bestamdhet",
@@ -37,19 +40,23 @@
       "translations": { "ru": "вычитывать, проверять текст", "en": "to proofread" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" }
+      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" },
+      "example": { "sv": "Det är viktigt att korrekturläsa texten innan man lämnar in den.", "ru": "Важно вычитать текст перед тем, как его сдать.", "en": "It's important to proofread the text before handing it in." }
     },
     {
       "id": "lasa-hogt",
       "sv": "läsa högt",
       "translations": { "ru": "читать вслух", "en": "to read aloud" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Att läsa texten högt hjälper dig att upptäcka konstiga meningar.", "ru": "Чтение текста вслух помогает заметить неудачные предложения.", "en": "Reading the text aloud helps you notice awkward sentences." }
     },
     {
       "id": "konsekvent",
       "sv": "konsekvent",
       "translations": { "ru": "последовательный, согласованный", "en": "consistent" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "konsekvent", "neuter": "konsekvent", "plural": "konsekventa", "comparative": "mer konsekvent", "superlative": "mest konsekvent" },
+      "example": { "sv": "Det är viktigt att vara konsekvent med verbtempus i hela texten.", "ru": "Важно быть последовательным во временах глаголов на протяжении всего текста.", "en": "It's important to be consistent with verb tense throughout the text." }
     },
     {
       "id": "fundament-proofreading",
@@ -57,7 +64,8 @@
       "translations": { "ru": "фундамент (первая позиция huvudsats)", "en": "fundament (the first slot of a main clause)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" },
+      "example": { "sv": "Kontrollera vad som står i fundamentet i varje huvudsats.", "ru": "Проверь, что стоит в фундаменте (первой позиции) каждого главного предложения.", "en": "Check what is in the fundament (first slot) of each main clause." }
     },
     {
       "id": "genus",
@@ -65,7 +73,8 @@
       "translations": { "ru": "грамматический род", "en": "grammatical gender" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" }
+      "forms": { "indefSg": "ett genus", "defSg": "genuset", "indefPl": "genus", "defPl": "genusen" },
+      "example": { "sv": "Substantivets genus avgör vilken artikel man ska använda.", "ru": "Род существительного определяет, какой артикль нужно использовать.", "en": "A noun's grammatical gender determines which article to use." }
     },
     {
       "id": "huvudsats",
@@ -73,7 +82,8 @@
       "translations": { "ru": "главное предложение", "en": "main clause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" }
+      "forms": { "indefSg": "en huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" },
+      "example": { "sv": "En huvudsats kan stå ensam som en fullständig mening.", "ru": "Главное предложение может стоять отдельно как полноценное предложение.", "en": "A main clause can stand alone as a complete sentence." }
     }
   ]
 }

@@ -34,7 +34,8 @@
       "translations": { "ru": "копить, экономить", "en": "to save" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" }
+      "forms": { "infinitive": "spara", "present": "sparar", "past": "sparade", "supine": "sparat" },
+      "example": { "sv": "Hon vill spara pengar för att köpa en lägenhet.", "ru": "Она хочет копить деньги, чтобы купить квартиру.", "en": "She wants to save money in order to buy an apartment." }
     },
     {
       "id": "prata",
@@ -42,7 +43,8 @@
       "translations": { "ru": "разговаривать", "en": "to talk" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" }
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" },
+      "example": { "sv": "Man lär sig ett språk genom att prata mycket.", "ru": "Язык учат, много разговаривая.", "en": "You learn a language by talking a lot." }
     },
     {
       "id": "titta",
@@ -50,7 +52,8 @@
       "translations": { "ru": "смотреть", "en": "to watch, to look" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "titta", "present": "tittar", "past": "tittade", "supine": "tittat" }
+      "forms": { "infinitive": "titta", "present": "tittar", "past": "tittade", "supine": "tittat" },
+      "example": { "sv": "Han slappnade av genom att titta på en film.", "ru": "Он расслабился, посмотрев фильм.", "en": "He relaxed by watching a movie." }
     },
     {
       "id": "lasa-inf",
@@ -58,7 +61,8 @@
       "translations": { "ru": "читать", "en": "to read" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" }
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Hon somnade istället för att läsa boken.", "ru": "Она заснула вместо того, чтобы читать книгу.", "en": "She fell asleep instead of reading the book." }
     },
     {
       "id": "lova",
@@ -66,7 +70,8 @@
       "translations": { "ru": "обещать", "en": "to promise" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "lova", "present": "lovar", "past": "lovade", "supine": "lovat" }
+      "forms": { "infinitive": "lova", "present": "lovar", "past": "lovade", "supine": "lovat" },
+      "example": { "sv": "Han lovade att sluta röka.", "ru": "Он пообещал бросить курить.", "en": "He promised to stop smoking." }
     },
     {
       "id": "roka",
@@ -74,7 +79,8 @@
       "translations": { "ru": "курить", "en": "to smoke" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" }
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" },
+      "example": { "sv": "Hon slutade röka utan att ta några piller.", "ru": "Она бросила курить без каких-либо таблеток.", "en": "She quit smoking without taking any pills." }
     },
     {
       "id": "bil",
@@ -82,13 +88,15 @@
       "translations": { "ru": "машина", "en": "car" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" }
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Han sparar pengar för att köpa en ny bil.", "ru": "Он копит деньги, чтобы купить новую машину.", "en": "He is saving money in order to buy a new car." }
     },
     {
       "id": "hejda",
       "sv": "hejdå",
       "translations": { "ru": "пока (при прощании)", "en": "bye" },
-      "pos": "interjection"
+      "pos": "interjection",
+      "example": { "sv": "Hon gick utan att säga hejdå till någon.", "ru": "Она ушла, ни с кем не попрощавшись.", "en": "She left without saying bye to anyone." }
     }
   ]
 }

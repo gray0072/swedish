@@ -6,7 +6,9 @@
       "translations": { "ru": "политика на рынке труда", "en": "labour market policy" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа. Три элемента: arbets (труда) + marknad (рынок) + s + politik (политика).", "en": "Usually has no plural. Three elements: arbets (labour's) + marknad (market) + s + politik (policy)." }
+      "forms": { "indefSg": "en arbetsmarknadspolitik", "defSg": "arbetsmarknadspolitiken", "indefPl": "arbetsmarknadspolitiker", "defPl": "arbetsmarknadspolitikerna" },
+      "note": { "ru": "Обычно без множественного числа. Три элемента: arbets (труда) + marknad (рынок) + s + politik (политика).", "en": "Usually has no plural. Three elements: arbets (labour's) + marknad (market) + s + politik (policy)." },
+      "example": { "sv": "Regeringens arbetsmarknadspolitik ska minska ungdomsarbetslösheten.", "ru": "Политика правительства на рынке труда должна снизить безработицу среди молодёжи.", "en": "The government's labour market policy is meant to reduce youth unemployment." }
     },
     {
       "id": "arbetsmarknad",
@@ -14,7 +16,8 @@
       "translations": { "ru": "рынок труда", "en": "labour market" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en arbetsmarknad", "defSg": "arbetsmarknaden", "indefPl": "arbetsmarknader", "defPl": "arbetsmarknaderna" }
+      "forms": { "indefSg": "en arbetsmarknad", "defSg": "arbetsmarknaden", "indefPl": "arbetsmarknader", "defPl": "arbetsmarknaderna" },
+      "example": { "sv": "Den svenska arbetsmarknaden kräver ofta goda språkkunskaper.", "ru": "Шведский рынок труда часто требует хороших языковых знаний.", "en": "The Swedish labour market often requires good language skills." }
     },
     {
       "id": "politik",
@@ -22,7 +25,9 @@
       "translations": { "ru": "политика", "en": "policy, politics" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа (не путать с en politiker — «политик, человек»).", "en": "Usually has no plural (do not confuse with en politiker — \"a politician\")." }
+      "forms": { "indefSg": "en politik", "defSg": "politiken", "indefPl": "politiker", "defPl": "politikerna" },
+      "note": { "ru": "Обычно без множественного числа (не путать с en politiker — «политик, человек»).", "en": "Usually has no plural (do not confuse with en politiker — \"a politician\")." },
+      "example": { "sv": "Hon är intresserad av politik men vill inte bli politiker.", "ru": "Она интересуется политикой, но не хочет становиться политиком.", "en": "She is interested in politics but doesn't want to become a politician." }
     },
     {
       "id": "marknad",
@@ -30,7 +35,8 @@
       "translations": { "ru": "рынок", "en": "market" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en marknad", "defSg": "marknaden", "indefPl": "marknader", "defPl": "marknaderna" }
+      "forms": { "indefSg": "en marknad", "defSg": "marknaden", "indefPl": "marknader", "defPl": "marknaderna" },
+      "example": { "sv": "Priserna bestäms av utbud och efterfrågan på marknaden.", "ru": "Цены определяются спросом и предложением на рынке.", "en": "Prices are determined by supply and demand in the market." }
     },
     {
       "id": "sjukvardspersonal",
@@ -38,7 +44,9 @@
       "translations": { "ru": "медицинский персонал", "en": "healthcare staff" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа (собирательное слово). sjuk (больной) + vård (уход) + s + personal (персонал).", "en": "Usually has no plural (a collective noun). sjuk (sick) + vård (care) + s + personal (staff)." }
+      "forms": { "indefSg": "en sjukvårdspersonal", "defSg": "sjukvårdspersonalen", "indefPl": "sjukvårdspersonaler", "defPl": "sjukvårdspersonalerna" },
+      "note": { "ru": "Обычно без множественного числа (собирательное слово). sjuk (больной) + vård (уход) + s + personal (персонал).", "en": "Usually has no plural (a collective noun). sjuk (sick) + vård (care) + s + personal (staff)." },
+      "example": { "sv": "Sjukvårdspersonalen arbetade dygnet runt under pandemin.", "ru": "Медицинский персонал работал круглосуточно во время пандемии.", "en": "The healthcare staff worked around the clock during the pandemic." }
     },
     {
       "id": "sjukvard",
@@ -46,7 +54,9 @@
       "translations": { "ru": "здравоохранение, медицинский уход", "en": "healthcare" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+      "forms": { "indefSg": "en sjukvård", "defSg": "sjukvården", "indefPl": "sjukvårdar", "defPl": "sjukvårdarna" },
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." },
+      "example": { "sv": "Sjukvården i Sverige finansieras huvudsakligen genom skatter.", "ru": "Здравоохранение в Швеции финансируется в основном через налоги.", "en": "Healthcare in Sweden is mainly financed through taxes." }
     },
     {
       "id": "personal",
@@ -54,7 +64,9 @@
       "translations": { "ru": "персонал", "en": "staff, personnel" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Собирательное слово, обычно без множественного числа.", "en": "A collective noun, usually with no plural." }
+      "forms": { "indefSg": "en personal", "defSg": "personalen", "indefPl": "personaler", "defPl": "personalerna" },
+      "note": { "ru": "Собирательное слово, обычно без множественного числа.", "en": "A collective noun, usually with no plural." },
+      "example": { "sv": "Företaget anställde ny personal inför sommaren.", "ru": "Компания наняла новый персонал перед летом.", "en": "The company hired new staff ahead of summer." }
     },
     {
       "id": "konsumentskyddslagstiftning",
@@ -62,7 +74,9 @@
       "translations": { "ru": "законодательство о защите прав потребителей", "en": "consumer protection legislation" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа. konsument (потребитель) + skydd (защита) + s + lagstiftning (законодательство).", "en": "Usually has no plural. konsument (consumer) + skydd (protection) + s + lagstiftning (legislation)." }
+      "forms": { "indefSg": "en konsumentskyddslagstiftning", "defSg": "konsumentskyddslagstiftningen", "indefPl": "konsumentskyddslagstiftningar", "defPl": "konsumentskyddslagstiftningarna" },
+      "note": { "ru": "Обычно без множественного числа. konsument (потребитель) + skydd (защита) + s + lagstiftning (законодательство).", "en": "Usually has no plural. konsument (consumer) + skydd (protection) + s + lagstiftning (legislation)." },
+      "example": { "sv": "Konsumentskyddslagstiftningen ger köpare rätt att ångra ett köp.", "ru": "Законодательство о защите прав потребителей даёт покупателям право отказаться от покупки.", "en": "Consumer protection legislation gives buyers the right to cancel a purchase." }
     },
     {
       "id": "konsument",
@@ -70,7 +84,8 @@
       "translations": { "ru": "потребитель", "en": "consumer" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en konsument", "defSg": "konsumenten", "indefPl": "konsumenter", "defPl": "konsumenterna" }
+      "forms": { "indefSg": "en konsument", "defSg": "konsumenten", "indefPl": "konsumenter", "defPl": "konsumenterna" },
+      "example": { "sv": "Som konsument har du rätt att lämna tillbaka en felaktig vara.", "ru": "Как потребитель ты имеешь право вернуть бракованный товар.", "en": "As a consumer, you have the right to return a faulty item." }
     },
     {
       "id": "skydd",
@@ -78,7 +93,8 @@
       "translations": { "ru": "защита", "en": "protection" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "skydd", "defSg": "skyddet", "indefPl": "skydd", "defPl": "skydden" }
+      "forms": { "indefSg": "skydd", "defSg": "skyddet", "indefPl": "skydd", "defPl": "skydden" },
+      "example": { "sv": "Hjälmen ger ett bra skydd mot huvudskador.", "ru": "Шлем обеспечивает хорошую защиту от травм головы.", "en": "The helmet provides good protection against head injuries." }
     },
     {
       "id": "lagstiftning",
@@ -86,7 +102,9 @@
       "translations": { "ru": "законодательство", "en": "legislation" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+      "forms": { "indefSg": "en lagstiftning", "defSg": "lagstiftningen", "indefPl": "lagstiftningar", "defPl": "lagstiftningarna" },
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." },
+      "example": { "sv": "Ny lagstiftning trädde i kraft i januari.", "ru": "Новое законодательство вступило в силу в январе.", "en": "New legislation came into force in January." }
     },
     {
       "id": "sammansattning",
@@ -94,7 +112,8 @@
       "translations": { "ru": "сложное слово, композит", "en": "compound word" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en sammansättning", "defSg": "sammansättningen", "indefPl": "sammansättningar", "defPl": "sammansättningarna" }
+      "forms": { "indefSg": "en sammansättning", "defSg": "sammansättningen", "indefPl": "sammansättningar", "defPl": "sammansättningarna" },
+      "example": { "sv": "Ordet \"arbetsmarknad\" är en sammansättning av \"arbete\" och \"marknad\".", "ru": "Слово «arbetsmarknad» — это сложное слово, составленное из «arbete» и «marknad».", "en": "The word \"arbetsmarknad\" is a compound of \"arbete\" and \"marknad\"." }
     },
     {
       "id": "huvudord",
@@ -102,7 +121,8 @@
       "translations": { "ru": "главное слово (в композите)", "en": "head word (in a compound)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "huvudord", "defSg": "huvudordet", "indefPl": "huvudord", "defPl": "huvudorden" }
+      "forms": { "indefSg": "huvudord", "defSg": "huvudordet", "indefPl": "huvudord", "defPl": "huvudorden" },
+      "example": { "sv": "I sammansättningen \"skolbok\" är \"bok\" huvudordet.", "ru": "В сложном слове «skolbok» главным словом является «bok».", "en": "In the compound \"skolbok\", \"bok\" is the head word." }
     }
   ]
 }

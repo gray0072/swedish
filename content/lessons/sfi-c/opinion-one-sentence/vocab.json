@@ -43,6 +43,7 @@
       "sv": "trevlig",
       "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
       "pos": "adj",
+      "forms": { "positive": "trevlig", "neuter": "trevligt", "plural": "trevliga", "comparative": "trevligare", "superlative": "trevligast" },
       "example": { "sv": "Läraren är trevlig.", "ru": "Учитель приятный.", "en": "The teacher is nice." }
     },
     {
@@ -50,6 +51,7 @@
       "sv": "viktigt",
       "translations": { "ru": "важно", "en": "important" },
       "pos": "adj",
+      "forms": { "positive": "viktig", "neuter": "viktigt", "plural": "viktiga", "comparative": "viktigare", "superlative": "viktigast" },
       "example": { "sv": "Jag tycker att det är viktigt att äta frukost.", "ru": "Я считаю, что важно завтракать.", "en": "I think it's important to eat breakfast." }
     },
     {
@@ -57,6 +59,7 @@
       "sv": "svårt",
       "translations": { "ru": "трудно", "en": "difficult" },
       "pos": "adj",
+      "forms": { "positive": "svår", "neuter": "svårt", "plural": "svåra", "comparative": "svårare", "superlative": "svårast" },
       "example": { "sv": "Jag tycker att svenska är svårt eftersom uttalet är annorlunda.", "ru": "Я считаю, что шведский трудный, потому что произношение другое.", "en": "I think Swedish is difficult because the pronunciation is different." }
     },
     {
@@ -64,6 +67,7 @@
       "sv": "roligt",
       "translations": { "ru": "весело, интересно", "en": "fun" },
       "pos": "adj",
+      "forms": { "positive": "rolig", "neuter": "roligt", "plural": "roliga", "comparative": "roligare", "superlative": "roligast" },
       "example": { "sv": "Jag tycker att det är roligt att laga mat.", "ru": "Я считаю, что готовить весело.", "en": "I think cooking is fun." }
     },
     {

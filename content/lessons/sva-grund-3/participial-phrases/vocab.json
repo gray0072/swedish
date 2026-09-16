@@ -15,7 +15,8 @@
       "translations": { "ru": "свистеть, насвистывать", "en": "to whistle" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "vissla", "present": "visslar", "past": "visslade", "supine": "visslat" }
+      "forms": { "infinitive": "vissla", "present": "visslar", "past": "visslade", "supine": "visslat" },
+      "example": { "sv": "Visslande gick han nedför gatan.", "ru": "Насвистывая, он шёл вниз по улице.", "en": "Whistling, he walked down the street." }
     },
     {
       "id": "skratta",
@@ -23,7 +24,8 @@
       "translations": { "ru": "смеяться", "en": "to laugh" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "skratta", "present": "skrattar", "past": "skrattade", "supine": "skrattat" }
+      "forms": { "infinitive": "skratta", "present": "skrattar", "past": "skrattade", "supine": "skrattat" },
+      "example": { "sv": "Skrattande sprang barnen ut på gatan.", "ru": "Смеясь, дети выбежали на улицу.", "en": "Laughing, the children ran out onto the street." }
     },
     {
       "id": "lamna",
@@ -31,14 +33,16 @@
       "translations": { "ru": "покидать, оставлять", "en": "to leave" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "lämna", "present": "lämnar", "past": "lämnade", "supine": "lämnat" }
+      "forms": { "infinitive": "lämna", "present": "lämnar", "past": "lämnade", "supine": "lämnat" },
+      "example": { "sv": "Hon lämnade rummet utan att säga något.", "ru": "Она покинула комнату, ничего не сказав.", "en": "She left the room without saying anything." }
     },
     {
       "id": "ga-in",
       "sv": "gå in",
       "translations": { "ru": "входить", "en": "to go in, enter" },
       "pos": "verb",
-      "forms": { "infinitive": "gå in", "present": "går in", "past": "gick in", "supine": "gått in" }
+      "forms": { "infinitive": "gå in", "present": "går in", "past": "gick in", "supine": "gått in" },
+      "example": { "sv": "Leende gick hon in i rummet.", "ru": "Улыбаясь, она вошла в комнату.", "en": "Smiling, she went into the room." }
     },
     {
       "id": "rum",
@@ -46,7 +50,8 @@
       "translations": { "ru": "комната", "en": "room" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "rum", "defSg": "rummet", "indefPl": "rum", "defPl": "rummen" }
+      "forms": { "indefSg": "rum", "defSg": "rummet", "indefPl": "rum", "defPl": "rummen" },
+      "example": { "sv": "Rummet var helt tomt när hon kom in.", "ru": "Комната была совсем пуста, когда она вошла.", "en": "The room was completely empty when she came in." }
     },
     {
       "id": "gata",
@@ -54,7 +59,8 @@
       "translations": { "ru": "улица", "en": "street" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" }
+      "forms": { "indefSg": "gata", "defSg": "gatan", "indefPl": "gator", "defPl": "gatorna" },
+      "example": { "sv": "Visslande gick han nedför gatan.", "ru": "Насвистывая, он шёл вниз по улице.", "en": "Whistling, he walked down the street." }
     },
     {
       "id": "skola-noun",
@@ -62,7 +68,8 @@
       "translations": { "ru": "школа", "en": "school" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" }
+      "forms": { "indefSg": "skola", "defSg": "skolan", "indefPl": "skolor", "defPl": "skolorna" },
+      "example": { "sv": "Skrattande sprang barnen till skolan.", "ru": "Смеясь, дети побежали в школу.", "en": "Laughing, the children ran to school." }
     },
     {
       "id": "barn",
@@ -70,19 +77,23 @@
       "translations": { "ru": "ребёнок", "en": "child" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" }
+      "forms": { "indefSg": "barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
+      "example": { "sv": "Skrattande sprang barnen ut på gatan.", "ru": "Смеясь, дети выбежали на улицу.", "en": "Laughing, the children ran out onto the street." }
     },
     {
       "id": "samtidigt",
       "sv": "samtidigt",
       "translations": { "ru": "одновременно", "en": "simultaneously, at the same time" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Hon log samtidigt som hon nickade.", "ru": "Она улыбалась и одновременно кивала.", "en": "She smiled while nodding at the same time." }
     },
     {
       "id": "berattande",
       "sv": "berättande",
       "translations": { "ru": "повествовательный", "en": "narrative" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "berättande", "neuter": "berättande", "plural": "berättande", "comparative": "mer berättande", "superlative": "mest berättande" },
+      "example": { "sv": "Texten har en berättande stil med många participfraser.", "ru": "Текст написан в повествовательном стиле с множеством причастных оборотов.", "en": "The text has a narrative style with many participial phrases." }
     },
     {
       "id": "particip",
@@ -90,7 +101,8 @@
       "translations": { "ru": "причастие", "en": "participle" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" }
+      "forms": { "indefSg": "particip", "defSg": "participet", "indefPl": "particip", "defPl": "participen" },
+      "example": { "sv": "\"Leende\" är ett particip som fungerar som en bisats.", "ru": "«Leende» — причастие, которое функционирует как придаточное предложение.", "en": "\"Leende\" is a participle that functions like a subordinate clause." }
     }
   ]
 }

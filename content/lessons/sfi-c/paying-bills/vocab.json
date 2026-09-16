@@ -69,6 +69,7 @@
       "translations": { "ru": "просроченный", "en": "overdue, late" },
       "pos": "adj",
       "note": { "ru": "ett-форма: försenat, мн.ч.: försenade", "en": "ett-form: försenat, plural: försenade" },
+      "forms": { "positive": "försenad", "neuter": "försenat", "plural": "försenade", "comparative": "mer försenad", "superlative": "mest försenad" },
       "example": { "sv": "Räkningen är försenad.", "ru": "Счёт просрочен.", "en": "The bill is overdue." }
     },
     {
@@ -104,6 +105,7 @@
       "translations": { "ru": "OCR-номер (код платежа)", "en": "OCR number (payment reference)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett OCR-nummer", "defSg": "OCR-numret", "indefPl": "OCR-nummer", "defPl": "OCR-numren" },
       "example": { "sv": "Skriv OCR-numret när du betalar räkningen.", "ru": "Впиши OCR-номер, когда платишь по счёту.", "en": "Write the OCR number when you pay the bill." }
     },
     {
@@ -135,6 +137,7 @@
       "translations": { "ru": "банковский жиро-счёт (для платежей)", "en": "bankgiro (payment account)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett bankgiro", "defSg": "bankgirot", "indefPl": "bankgiron", "defPl": "bankgirona" },
       "example": { "sv": "Betala till bankgiro 123-4567.", "ru": "Оплати на bankgiro 123-4567.", "en": "Pay to bankgiro 123-4567." }
     },
     {

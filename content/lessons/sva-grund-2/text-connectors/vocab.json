@@ -39,31 +39,36 @@
       "id": "tvartom",
       "sv": "tvärtom",
       "translations": { "ru": "наоборот", "en": "on the contrary" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Han blev inte trött, tvärtom fick han mer energi.", "ru": "Он не устал, наоборот, у него прибавилось энергии.", "en": "He didn't get tired; on the contrary, he got more energy." }
     },
     {
       "id": "dock",
       "sv": "dock",
       "translations": { "ru": "однако, всё же", "en": "however, though" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Priset är högt, dock är kvaliteten bra.", "ru": "Цена высокая, однако качество хорошее.", "en": "The price is high; however, the quality is good." }
     },
     {
       "id": "samtidigt",
       "sv": "samtidigt",
       "translations": { "ru": "в то же время", "en": "at the same time" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Hon jobbar heltid och studerar samtidigt.", "ru": "Она работает полный день и одновременно учится.", "en": "She works full-time and studies at the same time." }
     },
     {
       "id": "slutligen",
       "sv": "slutligen",
       "translations": { "ru": "наконец, в заключение", "en": "finally, in conclusion" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Slutligen vill jag tacka alla deltagare.", "ru": "Наконец, я хочу поблагодарить всех участников.", "en": "Finally, I would like to thank all the participants." }
     },
     {
       "id": "for-det-forsta",
       "sv": "för det första",
       "translations": { "ru": "во-первых", "en": "firstly" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "För det första måste vi spara pengar.", "ru": "Во-первых, нам нужно экономить деньги.", "en": "Firstly, we need to save money." }
     },
     {
       "id": "stycke",
@@ -71,7 +76,8 @@
       "translations": { "ru": "абзац", "en": "paragraph" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "stycke", "defSg": "stycket", "indefPl": "stycken", "defPl": "styckena" }
+      "forms": { "indefSg": "stycke", "defSg": "stycket", "indefPl": "stycken", "defPl": "styckena" },
+      "example": { "sv": "Det första stycket sammanfattar hela texten.", "ru": "Первый абзац кратко излагает весь текст.", "en": "The first paragraph summarises the whole text." }
     },
     {
       "id": "sammanhang",
@@ -79,7 +85,8 @@
       "translations": { "ru": "связность, контекст", "en": "coherence, context" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+      "forms": { "indefSg": "sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" },
+      "example": { "sv": "Konnektiver ger texten bättre sammanhang.", "ru": "Связки придают тексту лучшую связность.", "en": "Connectors give the text better coherence." }
     }
   ]
 }

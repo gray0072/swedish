@@ -15,7 +15,8 @@
       "translations": { "ru": "есть (кушать)", "en": "to eat" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" }
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Vi hade redan ätit när han kom.", "ru": "Мы уже поели, когда он пришёл.", "en": "We had already eaten when he arrived." }
     },
     {
       "id": "komma",
@@ -23,7 +24,8 @@
       "translations": { "ru": "приходить", "en": "to come" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Hon hade kommit hem innan mörkret föll.", "ru": "Она пришла домой до того, как стемнело.", "en": "She had come home before darkness fell." }
     },
     {
       "id": "sova",
@@ -31,7 +33,8 @@
       "translations": { "ru": "спать", "en": "to sleep" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Han hade sovit dåligt hela natten.", "ru": "Он плохо спал всю ночь.", "en": "He had slept badly all night." }
     },
     {
       "id": "ga",
@@ -63,37 +66,44 @@
       "sv": "redan",
       "translations": { "ru": "уже", "en": "already" },
       "pos": "adv",
-      "note": { "ru": "Частый сигнал плюсквамперфекта.", "en": "A common pluperfect signal." }
+      "note": { "ru": "Частый сигнал плюсквамперфекта.", "en": "A common pluperfect signal." },
+      "example": { "sv": "Hon hade redan gått när jag ringde.", "ru": "Она уже ушла, когда я позвонил.", "en": "She had already left when I called." }
     },
     {
       "id": "tidigare",
       "sv": "tidigare",
       "translations": { "ru": "раньше, ранее", "en": "earlier" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Han hade tidigare bott i en annan stad.", "ru": "Раньше он жил в другом городе.", "en": "He had earlier lived in a different city." }
     },
     {
       "id": "innan",
       "sv": "innan",
       "translations": { "ru": "до того как", "en": "before" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Vi hade ätit innan filmen började.", "ru": "Мы поели до того, как начался фильм.", "en": "We had eaten before the film started." }
     },
     {
       "id": "sedan",
       "sv": "sedan",
       "translations": { "ru": "потом, затем", "en": "then, afterwards" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Vi hade packat väskorna, och sedan somnade jag direkt.", "ru": "Мы упаковали вещи, а потом я сразу заснул.", "en": "We had packed the bags, and then I fell asleep right away." }
     },
     {
       "id": "direkt",
       "sv": "direkt",
       "translations": { "ru": "сразу, прямо", "en": "right away, immediately" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Hon förstod direkt vad som hade hänt.", "ru": "Она сразу поняла, что случилось.", "en": "She immediately understood what had happened." }
     },
     {
       "id": "trott",
       "sv": "trött",
       "translations": { "ru": "усталый", "en": "tired" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
+      "example": { "sv": "Han var trött eftersom han hade sovit dåligt.", "ru": "Он был усталым, потому что плохо спал.", "en": "He was tired because he had slept badly." }
     },
     {
       "id": "natt",
@@ -101,7 +111,8 @@
       "translations": { "ru": "ночь", "en": "night" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "natt", "defSg": "natten", "indefPl": "nätter", "defPl": "nätterna" }
+      "forms": { "indefSg": "natt", "defSg": "natten", "indefPl": "nätter", "defPl": "nätterna" },
+      "example": { "sv": "Det hade snöat under natten.", "ru": "Ночью шёл снег.", "en": "It had snowed during the night." }
     }
   ]
 }

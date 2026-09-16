@@ -131,6 +131,7 @@
       "sv": "tyst",
       "translations": { "ru": "тихий", "en": "quiet" },
       "pos": "adj",
+      "forms": { "positive": "tyst", "neuter": "tyst", "plural": "tysta", "comparative": "tystare", "superlative": "tystast" },
       "example": { "sv": "Var snäll och var tyst efter klockan tio.", "ru": "Пожалуйста, соблюдай тишину после десяти.", "en": "Please be quiet after ten o'clock." }
     },
     {
@@ -138,6 +139,7 @@
       "sv": "högljudd",
       "translations": { "ru": "шумный, громкий", "en": "loud, noisy" },
       "pos": "adj",
+      "forms": { "positive": "högljudd", "neuter": "högljutt", "plural": "högljudda", "comparative": "högljuddare", "superlative": "högljuddast" },
       "example": { "sv": "Grannen ovanför är lite högljudd på kvällarna.", "ru": "Сосед сверху немного шумный по вечерам.", "en": "The neighbour upstairs is a bit loud in the evenings." }
     },
     {
@@ -145,6 +147,7 @@
       "sv": "trevlig",
       "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
       "pos": "adj",
+      "forms": { "positive": "trevlig", "neuter": "trevligt", "plural": "trevliga", "comparative": "trevligare", "superlative": "trevligast" },
       "example": { "sv": "Det var trevligt att prata med dig!", "ru": "Было приятно с тобой поговорить!", "en": "It was nice talking to you!" }
     },
     {

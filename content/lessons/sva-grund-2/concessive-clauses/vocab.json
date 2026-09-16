@@ -27,13 +27,16 @@
       "translations": { "ru": "играть", "en": "to play" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "spela", "present": "spelar", "past": "spelade", "supine": "spelat" }
+      "forms": { "infinitive": "spela", "present": "spelar", "past": "spelade", "supine": "spelat" },
+      "example": { "sv": "Han fortsätter spela trots att laget förlorar ofta.", "ru": "Он продолжает играть, несмотря на то что команда часто проигрывает.", "en": "He keeps playing even though the team often loses." }
     },
     {
       "id": "skadad",
       "sv": "skadad",
       "translations": { "ru": "травмированный, повреждённый", "en": "injured" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "skadad", "neuter": "skadat", "plural": "skadade", "comparative": "mer skadad", "superlative": "mest skadad" },
+      "example": { "sv": "Hon tränar fast hon är skadad.", "ru": "Она тренируется, хотя она травмирована.", "en": "She trains even though she is injured." }
     },
     {
       "id": "ma",
@@ -41,7 +44,8 @@
       "translations": { "ru": "чувствовать себя (в фразах «må bra/dåligt»)", "en": "to feel (in phrases like \"må bra/dåligt\")" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" }
+      "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" },
+      "example": { "sv": "Han jobbar även om han mår dåligt.", "ru": "Он работает, даже если он плохо себя чувствует.", "en": "He works even if he feels unwell." }
     },
     {
       "id": "sluta",
@@ -49,7 +53,8 @@
       "translations": { "ru": "прекращать, переставать", "en": "to stop" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" }
+      "forms": { "infinitive": "sluta", "present": "slutar", "past": "slutade", "supine": "slutat" },
+      "example": { "sv": "Hon slutade inte jobba fast hon var trött.", "ru": "Она не перестала работать, хотя была устала.", "en": "She didn't stop working even though she was tired." }
     },
     {
       "id": "jobba",
@@ -57,7 +62,8 @@
       "translations": { "ru": "работать", "en": "to work" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" }
+      "forms": { "infinitive": "jobba", "present": "jobbar", "past": "jobbade", "supine": "jobbat" },
+      "example": { "sv": "Vi jobbar vidare trots att det regnar ute.", "ru": "Мы продолжаем работать, несмотря на то что за окном дождь.", "en": "We keep working even though it's raining outside." }
     },
     {
       "id": "regna-concessive",
@@ -65,7 +71,8 @@
       "translations": { "ru": "идти (о дожде)", "en": "to rain" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Barnen leker utomhus även om det regnar.", "ru": "Дети играют на улице, даже если идёт дождь.", "en": "The children play outside even if it's raining." }
     },
     {
       "id": "fotboll",
@@ -73,7 +80,8 @@
       "translations": { "ru": "футбол", "en": "football, soccer" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "fotboll", "defSg": "fotbollen", "indefPl": "fotbollar", "defPl": "fotbollarna" }
+      "forms": { "indefSg": "fotboll", "defSg": "fotbollen", "indefPl": "fotbollar", "defPl": "fotbollarna" },
+      "example": { "sv": "Trots regnet spelar de fotboll varje vecka.", "ru": "Несмотря на дождь, они играют в футбол каждую неделю.", "en": "Despite the rain, they play football every week." }
     }
   ]
 }

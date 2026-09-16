@@ -5,14 +5,18 @@
       "sv": "omöjlig",
       "translations": { "ru": "невозможный", "en": "impossible" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: omöjligt, мн.ч.: omöjliga", "en": "ett-form: omöjligt, plural: omöjliga" }
+      "forms": { "positive": "omöjlig", "neuter": "omöjligt", "plural": "omöjliga", "comparative": "omöjligare", "superlative": "omöjligast" },
+      "note": { "ru": "ett-форма: omöjligt, мн.ч.: omöjliga", "en": "ett-form: omöjligt, plural: omöjliga" },
+      "example": { "sv": "Det är omöjligt att komma dit i tid.", "ru": "Невозможно добраться туда вовремя.", "en": "It's impossible to get there on time." }
     },
     {
       "id": "olycklig",
       "sv": "olycklig",
       "translations": { "ru": "несчастный", "en": "unhappy" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: olyckligt, мн.ч.: olyckliga", "en": "ett-form: olyckligt, plural: olyckliga" }
+      "forms": { "positive": "olycklig", "neuter": "olyckligt", "plural": "olyckliga", "comparative": "olyckligare", "superlative": "olyckligast" },
+      "note": { "ru": "ett-форма: olyckligt, мн.ч.: olyckliga", "en": "ett-form: olyckligt, plural: olyckliga" },
+      "example": { "sv": "Hon blev olycklig när resan avbokades.", "ru": "Она стала несчастна, когда поездку отменили.", "en": "She became unhappy when the trip was cancelled." }
     },
     {
       "id": "besvara",
@@ -20,7 +24,8 @@
       "translations": { "ru": "ответить на (что-то)", "en": "to answer (something)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "besvara", "present": "besvarar", "past": "besvarade", "supine": "besvarat" }
+      "forms": { "infinitive": "besvara", "present": "besvarar", "past": "besvarade", "supine": "besvarat" },
+      "example": { "sv": "Vi besvarar alla frågor inom två dagar.", "ru": "Мы отвечаем на все вопросы в течение двух дней.", "en": "We answer all questions within two days." }
     },
     {
       "id": "betala",
@@ -28,35 +33,44 @@
       "translations": { "ru": "платить", "en": "to pay" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" }
+      "forms": { "infinitive": "betala", "present": "betalar", "past": "betalade", "supine": "betalat" },
+      "example": { "sv": "Han betalade fakturan i tid.", "ru": "Он оплатил счёт вовремя.", "en": "He paid the invoice on time." }
     },
     {
       "id": "lasbar",
       "sv": "läsbar",
       "translations": { "ru": "читаемый", "en": "readable" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: läsbart, мн.ч.: läsbara", "en": "ett-form: läsbart, plural: läsbara" }
+      "forms": { "positive": "läsbar", "neuter": "läsbart", "plural": "läsbara", "comparative": "läsbarare", "superlative": "läsbarast" },
+      "note": { "ru": "ett-форма: läsbart, мн.ч.: läsbara", "en": "ett-form: läsbart, plural: läsbara" },
+      "example": { "sv": "Texten blev mycket mer läsbar efter redigeringen.", "ru": "После редактирования текст стал намного более читаемым.", "en": "The text became much more readable after editing." }
     },
     {
       "id": "forklarbar",
       "sv": "förklarbar",
       "translations": { "ru": "объяснимый", "en": "explicable" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: förklarbart, мн.ч.: förklarbara", "en": "ett-form: förklarbart, plural: förklarbara" }
+      "forms": { "positive": "förklarbar", "neuter": "förklarbart", "plural": "förklarbara", "comparative": "mer förklarbar", "superlative": "mest förklarbar" },
+      "note": { "ru": "ett-форма: förklarbart, мн.ч.: förklarbara", "en": "ett-form: förklarbart, plural: förklarbara" },
+      "example": { "sv": "Hans reaktion var helt förklarbar.", "ru": "Его реакция была вполне объяснима.", "en": "His reaction was entirely explicable." }
     },
     {
       "id": "farlig",
       "sv": "farlig",
       "translations": { "ru": "опасный", "en": "dangerous" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: farligt, мн.ч.: farliga", "en": "ett-form: farligt, plural: farliga" }
+      "forms": { "positive": "farlig", "neuter": "farligt", "plural": "farliga", "comparative": "farligare", "superlative": "farligast" },
+      "note": { "ru": "ett-форма: farligt, мн.ч.: farliga", "en": "ett-form: farligt, plural: farliga" },
+      "example": { "sv": "Det är farligt att cykla utan hjälm.", "ru": "Опасно ездить на велосипеде без шлема.", "en": "It's dangerous to cycle without a helmet." }
     },
     {
       "id": "hopplos",
       "sv": "hopplös",
       "translations": { "ru": "безнадёжный", "en": "hopeless" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: hopplöst, мн.ч.: hopplösa", "en": "ett-form: hopplöst, plural: hopplösa" }
+      "forms": { "positive": "hopplös", "neuter": "hopplöst", "plural": "hopplösa", "comparative": "hopplösare", "superlative": "hopplösast" },
+      "note": { "ru": "ett-форма: hopplöst, мн.ч.: hopplösa", "en": "ett-form: hopplöst, plural: hopplösa" },
+      "example": { "sv": "Situationen kändes hopplös till slut.", "ru": "В конце ситуация казалась безнадёжной.", "en": "The situation felt hopeless in the end." }
     },
     {
       "id": "fara-noun",
@@ -64,7 +78,8 @@
       "translations": { "ru": "опасность", "en": "danger" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en fara", "defSg": "faran", "indefPl": "faror", "defPl": "farorna" }
+      "forms": { "indefSg": "en fara", "defSg": "faran", "indefPl": "faror", "defPl": "farorna" },
+      "example": { "sv": "Det finns en fara med att köra för snabbt.", "ru": "Есть опасность в слишком быстрой езде.", "en": "There is a danger in driving too fast." }
     },
     {
       "id": "hopp-noun",
@@ -72,7 +87,8 @@
       "translations": { "ru": "надежда", "en": "hope" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett hopp", "defSg": "hoppet", "indefPl": "hopp", "defPl": "hoppen" }
+      "forms": { "indefSg": "ett hopp", "defSg": "hoppet", "indefPl": "hopp", "defPl": "hoppen" },
+      "example": { "sv": "Hon förlorade inte hoppet trots svårigheterna.", "ru": "Она не потеряла надежду, несмотря на трудности.", "en": "She did not lose hope despite the difficulties." }
     }
   ]
 }

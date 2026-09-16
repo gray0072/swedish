@@ -53,6 +53,7 @@
       "translations": { "ru": "музыка", "en": "music" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en musik", "defSg": "musiken", "indefPl": "musik", "defPl": "musiken" },
       "example": { "sv": "Jag tycker om musik.", "ru": "Мне нравится музыка.", "en": "I like music." }
     },
     {

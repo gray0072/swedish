@@ -14,6 +14,7 @@
       "sv": "ledig",
       "translations": { "ru": "свободный (от работы), выходной", "en": "off, free (from work)" },
       "pos": "adj",
+      "forms": { "positive": "ledig", "neuter": "ledigt", "plural": "lediga", "comparative": "ledigare", "superlative": "ledigast" },
       "note": { "ru": "ett-форма: ledigt, мн.ч.: lediga", "en": "ett-form: ledigt, plural: lediga" },
       "example": { "sv": "Jag är ledig på fredag.", "ru": "В пятницу я не работаю.", "en": "I'm off work on Friday." }
     },
@@ -30,6 +31,7 @@
       "sv": "sjukskriven",
       "translations": { "ru": "на больничном (оформленный)", "en": "signed off sick, on sick leave" },
       "pos": "adj",
+      "forms": { "positive": "sjukskriven", "neuter": "sjukskrivet", "plural": "sjukskrivna", "comparative": "mer sjukskriven", "superlative": "mest sjukskriven" },
       "note": { "ru": "ett-форма: sjukskrivet, мн.ч.: sjukskrivna", "en": "ett-form: sjukskrivet, plural: sjukskrivna" },
       "example": { "sv": "Jag är sjukskriven till fredag.", "ru": "Я на больничном до пятницы.", "en": "I'm signed off sick until Friday." }
     },
@@ -55,6 +57,8 @@
       "sv": "VAB",
       "translations": { "ru": "уход за больным ребёнком (пособие)", "en": "temporary parental benefit (caring for a sick child)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "VAB", "defSg": "VAB:et", "indefPl": "VAB", "defPl": "VAB:en" },
       "example": { "sv": "Jag tar VAB imorgon eftersom sonen är sjuk.", "ru": "Завтра я беру VAB, потому что сын заболел.", "en": "I'm taking VAB tomorrow because my son is sick." }
     },
     {
@@ -107,6 +111,7 @@
       "translations": { "ru": "сверхурочные (переработка)", "en": "overtime" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "övertid", "defSg": "övertiden", "indefPl": "övertider", "defPl": "övertiderna" },
       "example": { "sv": "Jag jobbade övertid igår.", "ru": "Вчера я работал(а) сверхурочно.", "en": "I worked overtime yesterday." }
     },
     {

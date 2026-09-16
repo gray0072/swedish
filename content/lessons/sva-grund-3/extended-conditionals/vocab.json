@@ -5,6 +5,8 @@
       "sv": "vore",
       "translations": { "ru": "был бы (архаичное сослагательное наклонение от vara)", "en": "were/would be (archaic subjunctive of vara)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit", "imperative": "var" },
       "example": { "sv": "Vore jag dig, skulle jag tacka nej.", "ru": "Будь я на твоём месте, я бы отказался.", "en": "If I were you, I would decline." }
     },
     {
@@ -22,7 +24,8 @@
       "translations": { "ru": "связываться, обращаться", "en": "to contact" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" },
+      "example": { "sv": "Kontakta oss om du har frågor.", "ru": "Свяжитесь с нами, если у вас есть вопросы.", "en": "Contact us if you have questions." }
     },
     {
       "id": "hora-av-sig",
@@ -43,14 +46,16 @@
       "sv": "skulle ha + supinum",
       "translations": { "ru": "сделал бы (условный перфект, главная часть ирреального прошлого)", "en": "would have + past participle (conditional perfect, the main clause of an unreal past condition)" },
       "pos": "phrase",
-      "note": { "ru": "Стандартная, самая формальная форма главной части.", "en": "The standard, most formal form of the main clause." }
+      "note": { "ru": "Стандартная, самая формальная форма главной части.", "en": "The standard, most formal form of the main clause." },
+      "example": { "sv": "Om jag hade vetat det, skulle jag ha ringt dig direkt.", "ru": "Если бы я знал это, я бы сразу тебе позвонил.", "en": "If I had known that, I would have called you right away." }
     },
     {
       "id": "hade-supinum-inversion",
       "sv": "Hade jag vetat det, ...",
       "translations": { "ru": "Если бы я это знал, ... (инверсия вместо om)", "en": "Had I known that, ... (inversion instead of om)" },
       "pos": "phrase",
-      "note": { "ru": "Личный глагол придаточного встаёт перед подлежащим и заменяет om.", "en": "The finite verb of the clause moves before the subject and replaces om." }
+      "note": { "ru": "Личный глагол придаточного встаёт перед подлежащим и заменяет om.", "en": "The finite verb of the clause moves before the subject and replaces om." },
+      "example": { "sv": "Hade jag vetat det, hade jag stannat hemma.", "ru": "Если бы я это знал, я остался бы дома.", "en": "Had I known that, I would have stayed home." }
     },
     {
       "id": "fel",
@@ -58,13 +63,15 @@
       "translations": { "ru": "ошибка", "en": "error, mistake" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett fel", "defSg": "felet", "indefPl": "fel", "defPl": "felen" }
+      "forms": { "indefSg": "ett fel", "defSg": "felet", "indefPl": "fel", "defPl": "felen" },
+      "example": { "sv": "Om ett fel uppstår, kontakta supporten.", "ru": "Если возникнет ошибка, обратитесь в поддержку.", "en": "If an error occurs, contact support." }
     },
     {
       "id": "stanna-hemma",
       "sv": "stanna hemma",
       "translations": { "ru": "оставаться дома", "en": "to stay home" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vore jag sjuk, skulle jag stanna hemma.", "ru": "Будь я больным, я бы остался дома.", "en": "Were I sick, I would stay home." }
     },
     {
       "id": "ringa",
@@ -72,7 +79,8 @@
       "translations": { "ru": "звонить", "en": "to call, to phone" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" }
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Ring mig om något händer.", "ru": "Позвони мне, если что-то случится.", "en": "Call me if something happens." }
     },
     {
       "id": "regn",
@@ -89,7 +97,8 @@
       "translations": { "ru": "служба поддержки", "en": "support (customer service)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en support", "defSg": "supporten", "indefPl": "supporter", "defPl": "supporterna" }
+      "forms": { "indefSg": "en support", "defSg": "supporten", "indefPl": "supporter", "defPl": "supporterna" },
+      "example": { "sv": "Supporten svarade snabbt på mitt mejl.", "ru": "Служба поддержки быстро ответила на моё письмо.", "en": "The support team replied quickly to my email." }
     }
   ]
 }

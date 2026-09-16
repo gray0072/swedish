@@ -44,6 +44,7 @@
       "sv": "halv",
       "translations": { "ru": "половина (перед СЛЕДУЮЩИМ часом: halv nio = 8:30)", "en": "half (points to the NEXT hour: halv nio = 8:30)" },
       "pos": "adj",
+      "forms": { "positive": "halv", "neuter": "halvt", "plural": "halva", "comparative": "halvare", "superlative": "halvast" },
       "example": { "sv": "Klockan är halv nio.", "ru": "Сейчас половина девятого (8:30).", "en": "It's half past eight (8:30)." }
     },
     {

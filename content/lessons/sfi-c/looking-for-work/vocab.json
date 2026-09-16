@@ -110,25 +110,29 @@
       "id": "jag-soker-jobb-som",
       "sv": "Jag söker jobb som ...",
       "translations": { "ru": "Я ищу работу в качестве ...", "en": "I'm looking for work as a ..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag söker jobb som undersköterska.", "ru": "Я ищу работу в качестве помощника медсестры.", "en": "I'm looking for work as a nursing assistant." }
     },
     {
       "id": "kan-jag-skicka-min-ansokan",
       "sv": "Kan jag skicka min ansökan?",
       "translations": { "ru": "Могу я отправить своё заявление?", "en": "Can I send my application?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Kan jag skicka min ansökan via mejl?", "ru": "Могу я отправить своё заявление по электронной почте?", "en": "Can I send my application by email?" }
     },
     {
       "id": "har-du-erfarenhet-av-det-har",
       "sv": "Har du erfarenhet av det här?",
       "translations": { "ru": "У тебя есть опыт в этом?", "en": "Do you have experience with this?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Har du erfarenhet av det här sedan tidigare?", "ru": "У тебя уже есть опыт в этом?", "en": "Do you already have experience with this?" }
     },
     {
       "id": "jag-skulle-vilja-jobba-som",
       "sv": "Jag skulle vilja jobba som ...",
       "translations": { "ru": "Я хотел(а) бы работать в качестве ...", "en": "I would like to work as a ..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja jobba som lärare.", "ru": "Я хотел(а) бы работать в качестве учителя.", "en": "I would like to work as a teacher." }
     }
   ]
 }

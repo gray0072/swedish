@@ -18,13 +18,15 @@
       "id": "pa-onsdag",
       "sv": "på onsdag",
       "translations": { "ru": "в среду", "en": "on Wednesday" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vi har prov på onsdag.", "ru": "У нас тест в среду.", "en": "We have a test on Wednesday." }
     },
     {
       "id": "pa-torsdag",
       "sv": "på torsdag",
       "translations": { "ru": "в четверг", "en": "on Thursday" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon jobbar på torsdag.", "ru": "Она работает в четверг.", "en": "She works on Thursday." }
     },
     {
       "id": "pa-fredag",
@@ -44,7 +46,8 @@
       "id": "pa-sondag",
       "sv": "på söndag",
       "translations": { "ru": "в воскресенье", "en": "on Sunday" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vi vilar på söndag.", "ru": "Мы отдыхаем в воскресенье.", "en": "We rest on Sunday." }
     },
     {
       "id": "pa-mandagar",

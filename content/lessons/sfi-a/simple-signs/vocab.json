@@ -5,6 +5,7 @@
       "sv": "ÖPPET",
       "translations": { "ru": "открыто", "en": "open" },
       "pos": "adj",
+      "forms": { "positive": "öppen", "neuter": "öppet", "plural": "öppna", "comparative": "öppnare", "superlative": "öppnast" },
       "note": { "ru": "Обычная запись: öppet.", "en": "Written normally: öppet." },
       "example": { "sv": "Det är öppet idag.", "ru": "Сегодня открыто.", "en": "It is open today." }
     },
@@ -13,6 +14,7 @@
       "sv": "STÄNGT",
       "translations": { "ru": "закрыто", "en": "closed" },
       "pos": "adj",
+      "forms": { "positive": "stängd", "neuter": "stängt", "plural": "stängda", "comparative": "mer stängd", "superlative": "mest stängd" },
       "note": { "ru": "Обычная запись: stängt.", "en": "Written normally: stängt." },
       "example": { "sv": "Det är stängt på söndagar.", "ru": "По воскресеньям закрыто.", "en": "It is closed on Sundays." }
     },
@@ -22,7 +24,8 @@
       "translations": { "ru": "вход", "en": "entrance" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ingång", "defSg": "ingången", "indefPl": "ingångar", "defPl": "ingångarna" }
+      "forms": { "indefSg": "en ingång", "defSg": "ingången", "indefPl": "ingångar", "defPl": "ingångarna" },
+      "example": { "sv": "Ingången är på baksidan.", "ru": "Вход находится с задней стороны.", "en": "The entrance is at the back." }
     },
     {
       "id": "utgang",
@@ -30,7 +33,8 @@
       "translations": { "ru": "выход", "en": "exit" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en utgång", "defSg": "utgången", "indefPl": "utgångar", "defPl": "utgångarna" }
+      "forms": { "indefSg": "en utgång", "defSg": "utgången", "indefPl": "utgångar", "defPl": "utgångarna" },
+      "example": { "sv": "Utgången är till vänster.", "ru": "Выход слева.", "en": "The exit is on the left." }
     },
     {
       "id": "nodutgang",
@@ -39,7 +43,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en nödutgång", "defSg": "nödutgången", "indefPl": "nödutgångar", "defPl": "nödutgångarna" },
-      "note": { "ru": "nöd- значит «беда, авария».", "en": "nöd- means \"emergency, distress\"." }
+      "note": { "ru": "nöd- значит «беда, авария».", "en": "nöd- means \"emergency, distress\"." },
+      "example": { "sv": "Nödutgången är bredvid trappan.", "ru": "Аварийный выход рядом с лестницей.", "en": "The emergency exit is next to the stairs." }
     },
     {
       "id": "toalett",
@@ -47,42 +52,58 @@
       "translations": { "ru": "туалет", "en": "toilet" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en toalett", "defSg": "toaletten", "indefPl": "toaletter", "defPl": "toaletterna" }
+      "forms": { "indefSg": "en toalett", "defSg": "toaletten", "indefPl": "toaletter", "defPl": "toaletterna" },
+      "example": { "sv": "Toaletten är stängd just nu.", "ru": "Туалет сейчас закрыт.", "en": "The toilet is closed right now." }
     },
     {
       "id": "wc",
       "sv": "WC",
       "translations": { "ru": "туалет (WC)", "en": "toilet (WC)" },
       "pos": "noun",
-      "note": { "ru": "То же, что TOALETT. Часто просто буквы WC.", "en": "The same as TOALETT. Often just the letters WC." }
+      "gender": "ett",
+      "forms": { "indefSg": "ett wc", "defSg": "wc:et", "indefPl": "wc", "defPl": "wc:na" },
+      "note": { "ru": "То же, что TOALETT. Часто просто буквы WC.", "en": "The same as TOALETT. Often just the letters WC." },
+      "example": { "sv": "WC finns på andra våningen.", "ru": "Туалет находится на втором этаже.", "en": "The WC is on the second floor." }
     },
     {
       "id": "damer",
       "sv": "DAMER",
       "translations": { "ru": "женский (туалет)", "en": "ladies" },
       "pos": "noun",
-      "note": { "ru": "en dam — женщина, дама; damer — женщины.", "en": "en dam — a lady; damer — ladies." }
+      "gender": "en",
+      "forms": { "indefSg": "en dam", "defSg": "damen", "indefPl": "damer", "defPl": "damerna" },
+      "note": { "ru": "en dam — женщина, дама; damer — женщины.", "en": "en dam — a lady; damer — ladies." },
+      "example": { "sv": "Skylten DAMER visar var damtoaletten är.", "ru": "Табличка DAMER показывает, где женский туалет.", "en": "The sign DAMER shows where the ladies' room is." }
     },
     {
       "id": "herrar",
       "sv": "HERRAR",
       "translations": { "ru": "мужской (туалет)", "en": "gentlemen" },
       "pos": "noun",
-      "note": { "ru": "en herre — мужчина, господин; herrar — мужчины.", "en": "en herre — a gentleman; herrar — gentlemen." }
+      "gender": "en",
+      "forms": { "indefSg": "en herre", "defSg": "herren", "indefPl": "herrar", "defPl": "herrarna" },
+      "note": { "ru": "en herre — мужчина, господин; herrar — мужчины.", "en": "en herre — a gentleman; herrar — gentlemen." },
+      "example": { "sv": "Skylten HERRAR visar var herrtoaletten är.", "ru": "Табличка HERRAR показывает, где мужской туалет.", "en": "The sign HERRAR shows where the men's room is." }
     },
     {
       "id": "dra",
       "sv": "DRA",
       "translations": { "ru": "тянуть (на себя)", "en": "pull" },
       "pos": "verb",
-      "note": { "ru": "На двери: тянуть дверь к себе.", "en": "On a door: pull the door towards you." }
+      "verbGroup": 4,
+      "forms": { "infinitive": "dra", "present": "drar", "past": "drog", "supine": "dragit", "imperative": "dra" },
+      "note": { "ru": "На двери: тянуть дверь к себе.", "en": "On a door: pull the door towards you." },
+      "example": { "sv": "Man ska dra i dörren, inte trycka.", "ru": "Дверь нужно тянуть, а не толкать.", "en": "You should pull the door, not push it." }
     },
     {
       "id": "tryck",
       "sv": "TRYCK",
       "translations": { "ru": "толкать (от себя)", "en": "push" },
       "pos": "verb",
-      "note": { "ru": "На двери: толкать дверь от себя.", "en": "On a door: push the door away from you." }
+      "verbGroup": 2,
+      "forms": { "infinitive": "trycka", "present": "trycker", "past": "tryckte", "supine": "tryckt", "imperative": "tryck" },
+      "note": { "ru": "На двери: толкать дверь от себя.", "en": "On a door: push the door away from you." },
+      "example": { "sv": "Tryck på knappen för att öppna dörren.", "ru": "Нажми на кнопку, чтобы открыть дверь.", "en": "Push the button to open the door." }
     },
     {
       "id": "kassa",
@@ -90,7 +111,8 @@
       "translations": { "ru": "касса", "en": "checkout, cash desk" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kassa", "defSg": "kassan", "indefPl": "kassor", "defPl": "kassorna" }
+      "forms": { "indefSg": "en kassa", "defSg": "kassan", "indefPl": "kassor", "defPl": "kassorna" },
+      "example": { "sv": "Betala vid kassan.", "ru": "Оплатите на кассе.", "en": "Pay at the checkout." }
     },
     {
       "id": "hiss",
@@ -98,7 +120,8 @@
       "translations": { "ru": "лифт", "en": "lift, elevator" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en hiss", "defSg": "hissen", "indefPl": "hissar", "defPl": "hissarna" }
+      "forms": { "indefSg": "en hiss", "defSg": "hissen", "indefPl": "hissar", "defPl": "hissarna" },
+      "example": { "sv": "Hissen är trasig idag.", "ru": "Лифт сегодня не работает.", "en": "The lift is broken today." }
     },
     {
       "id": "trappa",
@@ -106,7 +129,8 @@
       "translations": { "ru": "лестница", "en": "stairs" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en trappa", "defSg": "trappan", "indefPl": "trappor", "defPl": "trapporna" }
+      "forms": { "indefSg": "en trappa", "defSg": "trappan", "indefPl": "trappor", "defPl": "trapporna" },
+      "example": { "sv": "Ta trappan om hissen är trasig.", "ru": "Идите по лестнице, если лифт не работает.", "en": "Take the stairs if the lift is broken." }
     },
     {
       "id": "information",

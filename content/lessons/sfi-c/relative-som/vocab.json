@@ -31,6 +31,7 @@
       "sv": "bo",
       "translations": { "ru": "жить (проживать)", "en": "to live (reside)" },
       "pos": "verb",
+      "verbGroup": 3,
       "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
       "example": { "sv": "Han bor här.", "ru": "Он живёт здесь.", "en": "He lives here." }
     },
@@ -75,6 +76,7 @@
       "sv": "trevlig",
       "translations": { "ru": "приятный, милый", "en": "nice, pleasant" },
       "pos": "adj",
+      "forms": { "positive": "trevlig", "neuter": "trevligt", "plural": "trevliga", "comparative": "trevligare", "superlative": "trevligast" },
       "example": { "sv": "Hon var trevlig.", "ru": "Она была приятной.", "en": "She was nice." }
     },
     {

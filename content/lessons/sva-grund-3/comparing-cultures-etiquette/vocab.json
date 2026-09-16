@@ -6,7 +6,8 @@
       "translations": { "ru": "норма вежливости", "en": "politeness norm" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en artighetsnorm", "defSg": "artighetsnormen", "indefPl": "artighetsnormer", "defPl": "artighetsnormerna" }
+      "forms": { "indefSg": "en artighetsnorm", "defSg": "artighetsnormen", "indefPl": "artighetsnormer", "defPl": "artighetsnormerna" },
+      "example": { "sv": "Att inte avbryta är en viktig artighetsnorm i Sverige.", "ru": "Не перебивать — важная норма вежливости в Швеции.", "en": "Not interrupting is an important politeness norm in Sweden." }
     },
     {
       "id": "halsningsfras",
@@ -30,6 +31,7 @@
       "translations": { "ru": "пунктуальность", "en": "punctuality" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "punktlighet", "defSg": "punktligheten", "indefPl": "punktligheter", "defPl": "punktligheterna" },
       "example": { "sv": "Punktlighet är en viktig norm på jobbet.", "ru": "Пунктуальность — важная норма на работе.", "en": "Punctuality is an important norm at work." }
     },
     {
@@ -38,6 +40,7 @@
       "translations": { "ru": "прямота (в общении)", "en": "directness" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "direkthet", "defSg": "direktheten", "indefPl": "direktheter", "defPl": "direktheterna" },
       "example": { "sv": "En del uppfattar svensk direkthet i sakfrågor som ovänlig, men den är inte menad så.", "ru": "Некоторые воспринимают шведскую прямоту в деловых вопросах как недружелюбие, но так не задумано.", "en": "Some perceive Swedish directness in practical matters as unfriendly, but it isn't meant that way." }
     },
     {
@@ -91,20 +94,25 @@
       "sv": "du-reformen",
       "translations": { "ru": "du-реформа (переход на обращение «ты»)", "en": "the du-reform (shift to informal address)" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en du-reform", "defSg": "du-reformen", "indefPl": "du-reformer", "defPl": "du-reformerna" },
+      "example": { "sv": "Du-reformen på 1960-talet förändrade hur svenskar tilltalar varandra.", "ru": "Du-реформа в 1960-е годы изменила то, как шведы обращаются друг к другу.", "en": "The du-reform in the 1960s changed how Swedes address each other." }
     },
     {
       "id": "artig",
       "sv": "artig",
       "translations": { "ru": "вежливый", "en": "polite" },
       "pos": "adj",
+      "forms": { "positive": "artig", "neuter": "artigt", "plural": "artiga", "comparative": "artigare", "superlative": "artigast" },
       "example": { "sv": "Det anses artigt att inte avbryta någon som pratar.", "ru": "Считается вежливым не перебивать говорящего.", "en": "It's considered polite not to interrupt someone who is speaking." }
     },
     {
       "id": "respektlos",
       "sv": "respektlös",
       "translations": { "ru": "неуважительный, невежливый", "en": "disrespectful" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "respektlös", "neuter": "respektlöst", "plural": "respektlösa", "comparative": "respektlösare", "superlative": "respektlösast" },
+      "example": { "sv": "Det anses respektlöst att komma för sent till ett möte.", "ru": "Считается неуважительным опаздывать на встречу.", "en": "It is considered disrespectful to arrive late to a meeting." }
     },
     {
       "id": "forvanta-sig",
@@ -121,7 +129,8 @@
       "translations": { "ru": "ожидание", "en": "expectation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en förväntning", "defSg": "förväntningen", "indefPl": "förväntningar", "defPl": "förväntningarna" }
+      "forms": { "indefSg": "en förväntning", "defSg": "förväntningen", "indefPl": "förväntningar", "defPl": "förväntningarna" },
+      "example": { "sv": "Hon hade höga förväntningar på det nya jobbet.", "ru": "У неё были большие ожидания от новой работы.", "en": "She had high expectations for the new job." }
     },
     {
       "id": "norm",
@@ -129,7 +138,8 @@
       "translations": { "ru": "норма", "en": "norm" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en norm", "defSg": "normen", "indefPl": "normer", "defPl": "normerna" }
+      "forms": { "indefSg": "en norm", "defSg": "normen", "indefPl": "normer", "defPl": "normerna" },
+      "example": { "sv": "Att hälsa med handskakning är en social norm i många länder.", "ru": "Приветствовать пожатием руки — социальная норма в многих странах.", "en": "Greeting with a handshake is a social norm in many countries." }
     },
     {
       "id": "kroppssprak",
@@ -137,7 +147,8 @@
       "translations": { "ru": "язык тела", "en": "body language" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett kroppsspråk", "defSg": "kroppsspråket", "indefPl": "kroppsspråk", "defPl": "kroppsspråken" }
+      "forms": { "indefSg": "ett kroppsspråk", "defSg": "kroppsspråket", "indefPl": "kroppsspråk", "defPl": "kroppsspråken" },
+      "example": { "sv": "Kroppsspråk säger ofta mer än ord.", "ru": "Язык тела часто говорит больше, чем слова.", "en": "Body language often says more than words." }
     },
     {
       "id": "ogonkontakt",
@@ -145,7 +156,8 @@
       "translations": { "ru": "зрительный контакт", "en": "eye contact" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ögonkontakt", "defSg": "ögonkontakten", "indefPl": "ögonkontakter", "defPl": "ögonkontakterna" }
+      "forms": { "indefSg": "en ögonkontakt", "defSg": "ögonkontakten", "indefPl": "ögonkontakter", "defPl": "ögonkontakterna" },
+      "example": { "sv": "Att hålla ögonkontakt visar att man lyssnar.", "ru": "Поддержание зрительного контакта показывает, что человек слушает.", "en": "Keeping eye contact shows that you are listening." }
     },
     {
       "id": "i-jamforelse-med",
@@ -158,7 +170,8 @@
       "id": "det-anses",
       "sv": "det anses att",
       "translations": { "ru": "считается, что", "en": "it is considered that" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det anses oartigt att prata högt i tunnelbanan.", "ru": "Считается невежливым громко разговаривать в метро.", "en": "It is considered impolite to talk loudly on the subway." }
     },
     {
       "id": "det-ar-vanligt-att",

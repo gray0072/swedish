@@ -23,7 +23,8 @@
       "translations": { "ru": "сходство", "en": "similarity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" }
+      "forms": { "indefSg": "en likhet", "defSg": "likheten", "indefPl": "likheter", "defPl": "likheterna" },
+      "example": { "sv": "En likhet mellan systemen är att båda är avgiftsfria.", "ru": "Одно сходство между системами в том, что обе бесплатны.", "en": "One similarity between the systems is that both are free of charge." }
     },
     {
       "id": "jamfora",
@@ -60,7 +61,8 @@
       "id": "den-storsta-skillnaden-ligger-i",
       "sv": "den största skillnaden ligger i",
       "translations": { "ru": "главное различие заключается в", "en": "the main difference lies in" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Den största skillnaden ligger i hur lärarna bedömer eleverna.", "ru": "Главное различие заключается в том, как учителя оценивают учеников.", "en": "The main difference lies in how teachers assess the students." }
     },
     {
       "id": "bada",
@@ -87,13 +89,15 @@
       "id": "till-skillnad-fran",
       "sv": "till skillnad från",
       "translations": { "ru": "в отличие от", "en": "unlike, in contrast to" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Till skillnad från mitt hemland är skolmaten gratis i Sverige.", "ru": "В отличие от моей родины, школьная еда в Швеции бесплатна.", "en": "Unlike my home country, school meals are free in Sweden." }
     },
     {
       "id": "gemensamt-for-bada",
       "sv": "gemensamt för båda är att",
       "translations": { "ru": "общее для обеих систем то, что", "en": "what both have in common is that" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Gemensamt för båda är att utbildningen är obligatorisk upp till en viss ålder.", "ru": "Общее для обеих систем то, что образование обязательно до определённого возраста.", "en": "What both have in common is that education is compulsory up to a certain age." }
     },
     {
       "id": "sammanfattningsvis-comp",
@@ -107,27 +111,34 @@
       "sv": "valfrihet",
       "translations": { "ru": "свобода выбора", "en": "freedom of choice" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en valfrihet", "defSg": "valfriheten", "indefPl": "valfriheter", "defPl": "valfriheterna" },
+      "example": { "sv": "Eleverna har stor valfrihet när det gäller vilka kurser de väljer.", "ru": "У учеников большая свобода выбора в отношении того, какие курсы выбирать.", "en": "Students have a great deal of freedom of choice regarding which courses they pick." }
     },
     {
       "id": "obligatorisk",
       "sv": "obligatorisk",
       "translations": { "ru": "обязательный", "en": "compulsory, mandatory" },
       "pos": "adj",
+      "forms": { "positive": "obligatorisk", "neuter": "obligatoriskt", "plural": "obligatoriska", "comparative": "mer obligatorisk", "superlative": "mest obligatorisk" },
       "example": { "sv": "Grundskolan är obligatorisk i Sverige.", "ru": "Основная школа в Швеции обязательна.", "en": "Compulsory school is mandatory in Sweden." }
     },
     {
       "id": "perfekt",
       "sv": "perfekt",
       "translations": { "ru": "идеальный, совершенный", "en": "perfect" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "perfekt", "neuter": "perfekt", "plural": "perfekta", "comparative": "mer perfekt", "superlative": "mest perfekt" },
+      "example": { "sv": "Inget skolsystem är perfekt, men båda har sina styrkor.", "ru": "Ни одна школьная система не идеальна, но у обеих есть свои сильные стороны.", "en": "No school system is perfect, but both have their strengths." }
     },
     {
       "id": "skolgang",
       "sv": "skolgång",
       "translations": { "ru": "обучение в школе, посещение школы", "en": "schooling" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en skolgång", "defSg": "skolgången", "indefPl": "skolgångar", "defPl": "skolgångarna" },
+      "example": { "sv": "Efter tio års skolgång kan eleverna välja gymnasium.", "ru": "После десяти лет обучения в школе ученики могут выбрать гимназию.", "en": "After ten years of schooling, students can choose upper secondary school." }
     }
   ]
 }

@@ -15,6 +15,7 @@
       "translations": { "ru": "приватность, неприкосновенность частной жизни", "en": "privacy" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en integritet", "defSg": "integriteten", "indefPl": "integriteter", "defPl": "integriteterna" },
       "example": { "sv": "Många är oroliga för sin integritet på nätet.", "ru": "Многие обеспокоены своей приватностью в интернете.", "en": "Many people are worried about their privacy online." }
     },
     {
@@ -32,6 +33,7 @@
       "translations": { "ru": "искусственный интеллект (ИИ)", "en": "artificial intelligence (AI)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en artificiell intelligens", "defSg": "den artificiella intelligensen", "indefPl": "artificiella intelligenser", "defPl": "de artificiella intelligenserna" },
       "example": { "sv": "Artificiell intelligens kan analysera stora mängder data snabbt.", "ru": "Искусственный интеллект может быстро анализировать большие объёмы данных.", "en": "Artificial intelligence can analyze large amounts of data quickly." }
     },
     {
@@ -49,6 +51,7 @@
       "translations": { "ru": "согласие", "en": "consent" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett samtycke", "defSg": "samtycket", "indefPl": "samtycken", "defPl": "samtyckena" },
       "example": { "sv": "Innan företaget får dela dina uppgifter behöver de ditt samtycke.", "ru": "Прежде чем компания сможет поделиться твоими данными, ей нужно твоё согласие.", "en": "Before the company can share your data, it needs your consent." }
     },
     {
@@ -66,13 +69,15 @@
       "translations": { "ru": "шифрование", "en": "encryption" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kryptering", "defSg": "krypteringen", "indefPl": "krypteringar", "defPl": "krypteringarna" }
+      "forms": { "indefSg": "en kryptering", "defSg": "krypteringen", "indefPl": "krypteringar", "defPl": "krypteringarna" },
+      "example": { "sv": "Meddelanden skickas med stark kryptering.", "ru": "Сообщения отправляются с сильным шифрованием.", "en": "Messages are sent with strong encryption." }
     },
     {
       "id": "digitalt-fotavtryck",
       "sv": "digitalt fotavtryck",
       "translations": { "ru": "цифровой след", "en": "digital footprint" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Allt du gör på nätet lämnar ett digitalt fotavtryck.", "ru": "Всё, что ты делаешь в сети, оставляет цифровой след.", "en": "Everything you do online leaves a digital footprint." }
     },
     {
       "id": "dela-tech",
@@ -94,7 +99,8 @@
       "id": "samla-in",
       "sv": "samla in",
       "translations": { "ru": "собирать (данные)", "en": "to collect (data)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Appen samlar in data om användarnas plats.", "ru": "Приложение собирает данные о местоположении пользователей.", "en": "The app collects data about users' location." }
     },
     {
       "id": "molntjanst",
@@ -102,7 +108,8 @@
       "translations": { "ru": "облачный сервис", "en": "cloud service" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en molntjänst", "defSg": "molntjänsten", "indefPl": "molntjänster", "defPl": "molntjänsterna" }
+      "forms": { "indefSg": "en molntjänst", "defSg": "molntjänsten", "indefPl": "molntjänster", "defPl": "molntjänsterna" },
+      "example": { "sv": "Företaget lagrar sina filer i en molntjänst.", "ru": "Компания хранит свои файлы в облачном сервисе.", "en": "The company stores its files in a cloud service." }
     },
     {
       "id": "hackare",
@@ -110,7 +117,8 @@
       "translations": { "ru": "хакер", "en": "hacker" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en hackare", "defSg": "hackaren", "indefPl": "hackare", "defPl": "hackarna" }
+      "forms": { "indefSg": "en hackare", "defSg": "hackaren", "indefPl": "hackare", "defPl": "hackarna" },
+      "example": { "sv": "En hackare försökte ta sig in i systemet.", "ru": "Хакер попытался проникнуть в систему.", "en": "A hacker tried to break into the system." }
     }
   ]
 }

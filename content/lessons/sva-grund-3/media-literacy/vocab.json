@@ -80,6 +80,7 @@
       "sv": "opartisk",
       "translations": { "ru": "беспристрастный", "en": "impartial" },
       "pos": "adj",
+      "forms": { "positive": "opartisk", "neuter": "opartiskt", "plural": "opartiska", "comparative": "opartiskare", "superlative": "opartiskast" },
       "example": { "sv": "En opartisk nyhetskälla presenterar flera perspektiv.", "ru": "Беспристрастный источник новостей представляет несколько точек зрения.", "en": "An impartial news source presents several perspectives." }
     },
     {
@@ -115,6 +116,7 @@
       "translations": { "ru": "проверка фактов", "en": "fact-checking" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en faktagranskning", "defSg": "faktagranskningen", "indefPl": "faktagranskningar", "defPl": "faktagranskningarna" },
       "example": { "sv": "Faktagranskning visade att uppgiften var felaktig.", "ru": "Проверка фактов показала, что сведения были неверны.", "en": "Fact-checking showed that the claim was incorrect." }
     },
     {
@@ -123,6 +125,7 @@
       "translations": { "ru": "дезинформация", "en": "disinformation" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en desinformation", "defSg": "desinformationen", "indefPl": "desinformationer", "defPl": "desinformationerna" },
       "example": { "sv": "Myndigheten varnade för desinformation inför valet.", "ru": "Ведомство предупредило о дезинформации перед выборами.", "en": "The authority warned about disinformation ahead of the election." }
     },
     {

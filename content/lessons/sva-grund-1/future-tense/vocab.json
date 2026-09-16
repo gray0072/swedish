@@ -15,7 +15,8 @@
       "translations": { "ru": "встречать(ся)", "en": "to meet" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" },
+      "example": { "sv": "Jag ska träffa min vän imorgon.", "ru": "Завтра я встречусь с другом.", "en": "I'm going to meet my friend tomorrow." }
     },
     {
       "id": "regna",
@@ -24,7 +25,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
-      "note": { "ru": "Безличный глагол: подлежащее всегда «det».", "en": "An impersonal verb: the subject is always \"det\"." }
+      "note": { "ru": "Безличный глагол: подлежащее всегда «det».", "en": "An impersonal verb: the subject is always \"det\"." },
+      "example": { "sv": "Det kommer att regna imorgon.", "ru": "Завтра будет дождь.", "en": "It's going to rain tomorrow." }
     },
     {
       "id": "ga",
@@ -42,7 +44,8 @@
       "pos": "verb",
       "verbGroup": 4,
       "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
-      "note": { "ru": "Основа конструкции «kommer att» + инфинитив.", "en": "The base of the \"kommer att\" + infinitive construction." }
+      "note": { "ru": "Основа конструкции «kommer att» + инфинитив.", "en": "The base of the \"kommer att\" + infinitive construction." },
+      "example": { "sv": "Hon kommer att komma sent ikväll.", "ru": "Она придёт сегодня поздно.", "en": "She will come late tonight." }
     },
     {
       "id": "planera",
@@ -50,7 +53,8 @@
       "translations": { "ru": "планировать", "en": "to plan" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "planera", "present": "planerar", "past": "planerade", "supine": "planerat" }
+      "forms": { "infinitive": "planera", "present": "planerar", "past": "planerade", "supine": "planerat" },
+      "example": { "sv": "Vi planerar en resa till Norge.", "ru": "Мы планируем поездку в Норвегию.", "en": "We are planning a trip to Norway." }
     },
     {
       "id": "tag",
@@ -58,7 +62,8 @@
       "translations": { "ru": "поезд", "en": "train" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" }
+      "forms": { "indefSg": "tåg", "defSg": "tåget", "indefPl": "tåg", "defPl": "tågen" },
+      "example": { "sv": "Tåget till Malmö går snart.", "ru": "Поезд на Мальмё скоро отходит.", "en": "The train to Malmö is leaving soon." }
     },
     {
       "id": "moln",
@@ -66,19 +71,22 @@
       "translations": { "ru": "облако", "en": "cloud" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "moln", "defSg": "molnet", "indefPl": "moln", "defPl": "molnen" }
+      "forms": { "indefSg": "moln", "defSg": "molnet", "indefPl": "moln", "defPl": "molnen" },
+      "example": { "sv": "Det kommer många moln från väster.", "ru": "С запада надвигается много облаков.", "en": "Many clouds are coming from the west." }
     },
     {
       "id": "imorgon",
       "sv": "imorgon",
       "translations": { "ru": "завтра", "en": "tomorrow" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Imorgon ska vi resa till Göteborg.", "ru": "Завтра мы поедем в Гётеборг.", "en": "Tomorrow we are going to travel to Gothenburg." }
     },
     {
       "id": "snart",
       "sv": "snart",
       "translations": { "ru": "скоро", "en": "soon" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Bussen kommer snart.", "ru": "Автобус скоро придёт.", "en": "The bus is coming soon." }
     }
   ]
 }

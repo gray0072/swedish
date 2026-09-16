@@ -24,7 +24,8 @@
       "translations": { "ru": "танцевать", "en": "to dance" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat" }
+      "forms": { "infinitive": "dansa", "present": "dansar", "past": "dansade", "supine": "dansat" },
+      "example": { "sv": "Man dansar ofta på midsommar.", "ru": "На Иванов день часто танцуют.", "en": "People often dance at midsummer." }
     },
     {
       "id": "roka",
@@ -32,7 +33,8 @@
       "translations": { "ru": "курить", "en": "to smoke" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" }
+      "forms": { "infinitive": "röka", "present": "röker", "past": "rökte", "supine": "rökt" },
+      "example": { "sv": "Det är inte tillåtet att röka här.", "ru": "Здесь курить не разрешается.", "en": "It's not allowed to smoke here." }
     },
     {
       "id": "prata",
@@ -40,21 +42,24 @@
       "translations": { "ru": "разговаривать", "en": "to talk" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" }
+      "forms": { "infinitive": "prata", "present": "pratar", "past": "pratade", "supine": "pratat" },
+      "example": { "sv": "Man pratar högt i telefon på bussen.", "ru": "В автобусе громко разговаривают по телефону.", "en": "People talk loudly on the phone on the bus." }
     },
     {
       "id": "man-pron",
       "sv": "man",
       "translations": { "ru": "человек вообще, «ты/люди»", "en": "one, generic \"you/people\"" },
       "pos": "pron",
-      "note": { "ru": "Обобщённое подлежащее: man ska, man kan, man bör.", "en": "A generic subject: man ska, man kan, man bör." }
+      "note": { "ru": "Обобщённое подлежащее: man ska, man kan, man bör.", "en": "A generic subject: man ska, man kan, man bör." },
+      "example": { "sv": "Man ska inte prata med munnen full.", "ru": "Не стоит разговаривать с полным ртом.", "en": "You shouldn't talk with your mouth full." }
     },
     {
       "id": "det-pron",
       "sv": "det",
       "translations": { "ru": "формальное «это»", "en": "formal \"it\"" },
       "pos": "pron",
-      "note": { "ru": "Формальное подлежащее: погода, существование, det + -s-пассив.", "en": "A formal subject: weather, existence, det + -s-passive." }
+      "note": { "ru": "Формальное подлежащее: погода, существование, det + -s-пассив.", "en": "A formal subject: weather, existence, det + -s-passive." },
+      "example": { "sv": "Det regnar och det är kallt ute.", "ru": "Идёт дождь, и на улице холодно.", "en": "It's raining and it's cold outside." }
     },
     {
       "id": "klubb",
@@ -62,7 +67,8 @@
       "translations": { "ru": "клуб", "en": "club" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "klubb", "defSg": "klubben", "indefPl": "klubbar", "defPl": "klubbarna" }
+      "forms": { "indefSg": "klubb", "defSg": "klubben", "indefPl": "klubbar", "defPl": "klubbarna" },
+      "example": { "sv": "Man kommer inte in på klubben utan legitimation.", "ru": "В клуб не попасть без документа, удостоверяющего личность.", "en": "You can't get into the club without ID." }
     },
     {
       "id": "fest",
@@ -70,7 +76,8 @@
       "translations": { "ru": "вечеринка, праздник", "en": "party" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" }
+      "forms": { "indefSg": "fest", "defSg": "festen", "indefPl": "fester", "defPl": "festerna" },
+      "example": { "sv": "Det blir en stor fest i helgen.", "ru": "В выходные будет большая вечеринка.", "en": "There's going to be a big party this weekend." }
     },
     {
       "id": "kaffe",
@@ -78,7 +85,8 @@
       "translations": { "ru": "кофе", "en": "coffee" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "kaffe", "defSg": "kaffet", "indefPl": "kaffe", "defPl": "kaffena" }
+      "forms": { "indefSg": "kaffe", "defSg": "kaffet", "indefPl": "kaffe", "defPl": "kaffena" },
+      "example": { "sv": "Det finns inget kaffe kvar i köket.", "ru": "На кухне не осталось кофе.", "en": "There's no coffee left in the kitchen." }
     },
     {
       "id": "mun",
@@ -86,19 +94,23 @@
       "translations": { "ru": "рот", "en": "mouth" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "mun", "defSg": "munnen", "indefPl": "munnar", "defPl": "munnarna" }
+      "forms": { "indefSg": "mun", "defSg": "munnen", "indefPl": "munnar", "defPl": "munnarna" },
+      "example": { "sv": "Han öppnade munnen men sa ingenting.", "ru": "Он открыл рот, но ничего не сказал.", "en": "He opened his mouth but said nothing." }
     },
     {
       "id": "kvar",
       "sv": "kvar",
       "translations": { "ru": "остался, ещё есть", "en": "left, remaining" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Det finns inget kaffe kvar.", "ru": "Кофе больше не осталось.", "en": "There's no coffee left." }
     },
     {
       "id": "opersonlig",
       "sv": "opersonlig",
       "translations": { "ru": "безличный", "en": "impersonal" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "opersonlig", "neuter": "opersonligt", "plural": "opersonliga", "comparative": "opersonligare", "superlative": "opersonligast" },
+      "example": { "sv": "Brevet var skrivet i en opersonlig ton.", "ru": "Письмо было написано безличным тоном.", "en": "The letter was written in an impersonal tone." }
     }
   ]
 }

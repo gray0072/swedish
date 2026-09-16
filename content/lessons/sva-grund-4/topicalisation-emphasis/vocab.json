@@ -6,7 +6,8 @@
       "translations": { "ru": "топикализация", "en": "topicalisation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en topikalisering", "defSg": "topikaliseringen", "indefPl": "topikaliseringar", "defPl": "topikaliseringarna" }
+      "forms": { "indefSg": "en topikalisering", "defSg": "topikaliseringen", "indefPl": "topikaliseringar", "defPl": "topikaliseringarna" },
+      "example": { "sv": "Topikalisering innebär att man flyttar ett annat ord än subjektet till fundamentet.", "ru": "Топикализация означает, что на первое место в предложении ставят не подлежащее, а другое слово.", "en": "Topicalisation means moving a word other than the subject into the fundament (first position)." }
     },
     {
       "id": "fundament",
@@ -14,7 +15,8 @@
       "translations": { "ru": "фундамент (первое место в предложении)", "en": "fundament (first position in a clause)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" },
+      "example": { "sv": "I meningen \"Igår såg jag filmen\" är \"igår\" fundamentet.", "ru": "В предложении «Igår såg jag filmen» слово «igår» стоит в фундаменте (первой позиции).", "en": "In the sentence \"Igår såg jag filmen\", \"igår\" is the fundament (first position)." }
     },
     {
       "id": "emfas",
@@ -22,7 +24,8 @@
       "translations": { "ru": "эмфаза, выделение", "en": "emphasis" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en emfas", "defSg": "emfasen", "indefPl": "emfaser", "defPl": "emfaserna" }
+      "forms": { "indefSg": "en emfas", "defSg": "emfasen", "indefPl": "emfaser", "defPl": "emfaserna" },
+      "example": { "sv": "Med emfas på objektet blir meningen: \"Den boken har jag redan läst.\"", "ru": "С эмфазой на дополнении предложение звучит так: «Den boken har jag redan läst».", "en": "With emphasis on the object, the sentence becomes: \"That book I have already read.\"" }
     },
     {
       "id": "betona",
@@ -30,7 +33,8 @@
       "translations": { "ru": "подчёркивать, выделять", "en": "to emphasise, stress" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" },
+      "example": { "sv": "Genom att flytta ordet till första plats kan man betona det extra mycket.", "ru": "Переместив слово на первое место, можно особенно сильно его подчеркнуть.", "en": "By moving the word to first position, you can emphasise it especially strongly." }
     },
     {
       "id": "kontrast",
@@ -38,7 +42,8 @@
       "translations": { "ru": "контраст, противопоставление", "en": "contrast" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" }
+      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" },
+      "example": { "sv": "Genom omvänd ordföljd skapar man en tydlig kontrast mellan de två meningarna.", "ru": "С помощью обратного порядка слов создаётся чёткий контраст между двумя предложениями.", "en": "Using inverted word order creates a clear contrast between the two sentences." }
     },
     {
       "id": "objekt-noun",
@@ -46,7 +51,8 @@
       "translations": { "ru": "объект, дополнение", "en": "object" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett objekt", "defSg": "objektet", "indefPl": "objekt", "defPl": "objekten" }
+      "forms": { "indefSg": "ett objekt", "defSg": "objektet", "indefPl": "objekt", "defPl": "objekten" },
+      "example": { "sv": "I den topikaliserade meningen står objektet först: \"Den filmen har jag sett.\"", "ru": "В топикализированном предложении дополнение стоит на первом месте: «Den filmen har jag sett».", "en": "In the topicalised sentence, the object comes first: \"That film I have seen.\"" }
     },
     {
       "id": "adverbial",
@@ -54,7 +60,8 @@
       "translations": { "ru": "обстоятельство", "en": "adverbial" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett adverbial", "defSg": "adverbialet", "indefPl": "adverbial", "defPl": "adverbialen" }
+      "forms": { "indefSg": "ett adverbial", "defSg": "adverbialet", "indefPl": "adverbial", "defPl": "adverbialen" },
+      "example": { "sv": "Ett adverbial kan flyttas till fundamentet för att betona tid eller plats, till exempel \"Igår regnade det hela dagen.\"", "ru": "Обстоятельство можно переместить в фундамент, чтобы подчеркнуть время или место, например: «Igår regnade det hela dagen».", "en": "An adverbial can be moved into the fundament to emphasise time or place, for example \"Yesterday it rained all day.\"" }
     },
     {
       "id": "se-verb",
@@ -62,7 +69,8 @@
       "translations": { "ru": "видеть, смотреть", "en": "to see, watch" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" }
+      "forms": { "infinitive": "se", "present": "ser", "past": "såg", "supine": "sett" },
+      "example": { "sv": "Den filmen har jag redan sett.", "ru": "Этот фильм я уже видел(а).", "en": "That film I have already seen." }
     },
     {
       "id": "bo-verb",
@@ -70,7 +78,8 @@
       "translations": { "ru": "жить, проживать", "en": "to live, reside" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" }
+      "forms": { "infinitive": "bo", "present": "bor", "past": "bodde", "supine": "bott" },
+      "example": { "sv": "I Stockholm bor jag sedan tre år.", "ru": "В Стокгольме я живу уже три года.", "en": "In Stockholm I have been living for three years." }
     },
     {
       "id": "traffa",
@@ -78,7 +87,8 @@
       "translations": { "ru": "встречать (кого-то)", "en": "to meet (someone)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" },
+      "example": { "sv": "Honom har jag inte träffat på länge.", "ru": "Его я давно не встречал(а).", "en": "Him I haven't met for a long time." }
     },
     {
       "id": "losa",
@@ -86,7 +96,8 @@
       "translations": { "ru": "решать (проблему)", "en": "to solve" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "lösa", "present": "löser", "past": "löste", "supine": "löst" }
+      "forms": { "infinitive": "lösa", "present": "löser", "past": "löste", "supine": "löst" },
+      "example": { "sv": "Det problemet löste vi tillsammans igår.", "ru": "Эту проблему мы решили вместе вчера.", "en": "That problem we solved together yesterday." }
     },
     {
       "id": "gang",
@@ -94,7 +105,8 @@
       "translations": { "ru": "раз (при счёте)", "en": "time (occasion)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en gång", "defSg": "gången", "indefPl": "gånger", "defPl": "gångerna" }
+      "forms": { "indefSg": "en gång", "defSg": "gången", "indefPl": "gånger", "defPl": "gångerna" },
+      "example": { "sv": "Den här gången ska vi göra rätt från början.", "ru": "На этот раз мы сделаем всё правильно с самого начала.", "en": "This time we are going to get it right from the start." }
     }
   ]
 }

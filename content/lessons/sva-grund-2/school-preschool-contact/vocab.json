@@ -11,7 +11,8 @@
       "id": "hur-gar-det",
       "sv": "hur går det för honom/henne",
       "translations": { "ru": "как у него/неё дела", "en": "how is he/she doing" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Kan ni berätta hur det går för honom i skolan?", "ru": "Можете рассказать, как у него дела в школе?", "en": "Can you tell me how he's doing at school?" }
     },
     {
       "id": "sarskilt-stod",
@@ -44,7 +45,8 @@
       "translations": { "ru": "трудности", "en": "difficulties" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en svårighet", "defSg": "svårigheten", "indefPl": "svårigheter", "defPl": "svårigheterna" }
+      "forms": { "indefSg": "en svårighet", "defSg": "svårigheten", "indefPl": "svårigheter", "defPl": "svårigheterna" },
+      "example": { "sv": "Läraren berättade om hans svårigheter med läsningen.", "ru": "Учитель рассказал о его трудностях с чтением.", "en": "The teacher told us about his difficulties with reading." }
     },
     {
       "id": "kontakta",
@@ -52,7 +54,8 @@
       "translations": { "ru": "связаться с, обратиться к", "en": "to contact" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" },
+      "example": { "sv": "Kontakta gärna mentorn om ni har frågor.", "ru": "Обращайтесь к ментору, если у вас есть вопросы.", "en": "Feel free to contact the mentor if you have questions." }
     }
   ]
 }

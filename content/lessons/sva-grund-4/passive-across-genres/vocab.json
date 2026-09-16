@@ -6,7 +6,8 @@
       "translations": { "ru": "отчёт, доклад", "en": "report" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "rapport", "defSg": "rapporten", "indefPl": "rapporter", "defPl": "rapporterna" }
+      "forms": { "indefSg": "rapport", "defSg": "rapporten", "indefPl": "rapporter", "defPl": "rapporterna" },
+      "example": { "sv": "Rapporten publicerades av myndigheten i går.", "ru": "Отчёт был опубликован ведомством вчера.", "en": "The report was published by the agency yesterday." }
     },
     {
       "id": "forskare-genre",
@@ -14,7 +15,8 @@
       "translations": { "ru": "исследователь, учёный", "en": "researcher, scientist" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" },
+      "example": { "sv": "Studien genomfördes av forskare vid universitetet.", "ru": "Исследование было проведено учёными университета.", "en": "The study was conducted by researchers at the university." }
     },
     {
       "id": "presskonferens",
@@ -22,7 +24,8 @@
       "translations": { "ru": "пресс-конференция", "en": "press conference" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "presskonferens", "defSg": "presskonferensen", "indefPl": "presskonferenser", "defPl": "presskonferenserna" }
+      "forms": { "indefSg": "presskonferens", "defSg": "presskonferensen", "indefPl": "presskonferenser", "defPl": "presskonferenserna" },
+      "example": { "sv": "Beslutet tillkännagavs vid en presskonferens.", "ru": "Решение было объявлено на пресс-конференции.", "en": "The decision was announced at a press conference." }
     },
     {
       "id": "regering",
@@ -30,7 +33,8 @@
       "translations": { "ru": "правительство", "en": "government" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" }
+      "forms": { "indefSg": "regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" },
+      "example": { "sv": "Lagförslaget lades fram av regeringen.", "ru": "Законопроект был представлен правительством.", "en": "The bill was put forward by the government." }
     },
     {
       "id": "foerhandling",
@@ -38,7 +42,8 @@
       "translations": { "ru": "переговоры", "en": "negotiation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "förhandling", "defSg": "förhandlingen", "indefPl": "förhandlingar", "defPl": "förhandlingarna" }
+      "forms": { "indefSg": "förhandling", "defSg": "förhandlingen", "indefPl": "förhandlingar", "defPl": "förhandlingarna" },
+      "example": { "sv": "Ett nytt avtal förhandlades fram efter långa förhandlingar.", "ru": "После долгих переговоров было выработано новое соглашение.", "en": "A new agreement was negotiated after long negotiations." }
     },
     {
       "id": "presentera",
@@ -46,7 +51,8 @@
       "translations": { "ru": "представлять, презентовать", "en": "to present" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "presentera", "present": "presenterar", "past": "presenterade", "supine": "presenterat" }
+      "forms": { "infinitive": "presentera", "present": "presenterar", "past": "presenterade", "supine": "presenterat" },
+      "example": { "sv": "Resultaten presenterades av forskarna vid en konferens.", "ru": "Результаты были представлены исследователями на конференции.", "en": "The results were presented by the researchers at a conference." }
     },
     {
       "id": "fatta-beslut-genre",
@@ -61,7 +67,8 @@
       "translations": { "ru": "нагревать", "en": "to heat (up)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "upphetta", "present": "upphettar", "past": "upphettade", "supine": "upphettat" }
+      "forms": { "infinitive": "upphetta", "present": "upphettar", "past": "upphettade", "supine": "upphettat" },
+      "example": { "sv": "Blandningen upphettas till 100 grader.", "ru": "Смесь нагревается до 100 градусов.", "en": "The mixture is heated to 100 degrees." }
     },
     {
       "id": "roera-om",
@@ -83,7 +90,8 @@
       "translations": { "ru": "анализировать", "en": "to analyse" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "analysera", "present": "analyserar", "past": "analyserade", "supine": "analyserat" }
+      "forms": { "infinitive": "analysera", "present": "analyserar", "past": "analyserade", "supine": "analyserat" },
+      "example": { "sv": "Materialet analyserades av flera oberoende forskare.", "ru": "Материал был проанализирован несколькими независимыми исследователями.", "en": "The material was analysed by several independent researchers." }
     },
     {
       "id": "sammanstaella",
@@ -91,13 +99,16 @@
       "translations": { "ru": "сводить воедино, составлять", "en": "to compile" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "sammanställa", "present": "sammanställer", "past": "sammanställde", "supine": "sammanställt" }
+      "forms": { "infinitive": "sammanställa", "present": "sammanställer", "past": "sammanställde", "supine": "sammanställt" },
+      "example": { "sv": "Resultaten sammanställdes i en gemensam rapport.", "ru": "Результаты были сведены в общий отчёт.", "en": "The results were compiled into a joint report." }
     },
     {
       "id": "orolig-genre",
       "sv": "orolig",
       "translations": { "ru": "встревоженный, беспокойный", "en": "worried, anxious" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "orolig", "neuter": "oroligt", "plural": "oroliga", "comparative": "oroligare", "superlative": "oroligast" },
+      "example": { "sv": "Befolkningen är orolig inför de nya nedskärningarna.", "ru": "Население обеспокоено новыми сокращениями.", "en": "The population is worried about the new cutbacks." }
     },
     {
       "id": "av-agent",
@@ -112,7 +123,8 @@
       "translations": { "ru": "жанр", "en": "genre" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "genre", "defSg": "genren", "indefPl": "genrer", "defPl": "genrerna" }
+      "forms": { "indefSg": "genre", "defSg": "genren", "indefPl": "genrer", "defPl": "genrerna" },
+      "example": { "sv": "Passiv används olika ofta beroende på genre.", "ru": "Пассив используется с разной частотой в зависимости от жанра.", "en": "The passive is used with different frequency depending on the genre." }
     }
   ]
 }

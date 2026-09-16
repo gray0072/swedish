@@ -59,13 +59,16 @@
       "translations": { "ru": "общешведский язык (стандарт всей страны)", "en": "national standard Swedish" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en rikssvenska", "defSg": "rikssvenskan", "indefPl": "rikssvenskor", "defPl": "rikssvenskorna" }
+      "forms": { "indefSg": "en rikssvenska", "defSg": "rikssvenskan", "indefPl": "rikssvenskor", "defPl": "rikssvenskorna" },
+      "example": { "sv": "Nyhetsuppläsare talar oftast rikssvenska.", "ru": "Диктора новостей обычно говорят на общешведском стандарте.", "en": "News presenters usually speak national standard Swedish." }
     },
     {
       "id": "tvasprakig",
       "sv": "tvåspråkig",
       "translations": { "ru": "двуязычный", "en": "bilingual" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "tvåspråkig", "neuter": "tvåspråkigt", "plural": "tvåspråkiga", "comparative": "mer tvåspråkig", "superlative": "mest tvåspråkig" },
+      "example": { "sv": "Många barn i Sverige växer upp tvåspråkiga.", "ru": "Многие дети в Швеции растут двуязычными.", "en": "Many children in Sweden grow up bilingual." }
     },
     {
       "id": "modersmal",
@@ -73,7 +76,8 @@
       "translations": { "ru": "родной язык", "en": "mother tongue, native language" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett modersmål", "defSg": "modersmålet", "indefPl": "modersmål", "defPl": "modersmålen" }
+      "forms": { "indefSg": "ett modersmål", "defSg": "modersmålet", "indefPl": "modersmål", "defPl": "modersmålen" },
+      "example": { "sv": "Mitt modersmål är arabiska, men jag pratar svenska varje dag.", "ru": "Мой родной язык — арабский, но я говорю по-шведски каждый день.", "en": "My mother tongue is Arabic, but I speak Swedish every day." }
     },
     {
       "id": "brytning",
@@ -81,7 +85,8 @@
       "translations": { "ru": "акцент (речи иностранца)", "en": "accent (of a non-native speaker)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en brytning", "defSg": "brytningen", "indefPl": "brytningar", "defPl": "brytningarna" }
+      "forms": { "indefSg": "en brytning", "defSg": "brytningen", "indefPl": "brytningar", "defPl": "brytningarna" },
+      "example": { "sv": "Man kan höra att hon har en lätt brytning när hon pratar svenska.", "ru": "Можно услышать, что у неё лёгкий акцент, когда она говорит по-шведски.", "en": "You can hear that she has a slight accent when she speaks Swedish." }
     },
     {
       "id": "sprakvariant",
@@ -89,7 +94,8 @@
       "translations": { "ru": "языковой вариант", "en": "language variety" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en språkvariant", "defSg": "språkvarianten", "indefPl": "språkvarianter", "defPl": "språkvarianterna" }
+      "forms": { "indefSg": "en språkvariant", "defSg": "språkvarianten", "indefPl": "språkvarianter", "defPl": "språkvarianterna" },
+      "example": { "sv": "Skånska är en språkvariant som skiljer sig mycket i uttal.", "ru": "Сконский диалект — это языковой вариант, сильно отличающийся по произношению.", "en": "Scanian is a language variety that differs a lot in pronunciation." }
     },
     {
       "id": "identitet-lang",
@@ -97,7 +103,8 @@
       "translations": { "ru": "идентичность", "en": "identity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en identitet", "defSg": "identiteten", "indefPl": "identiteter", "defPl": "identiteterna" }
+      "forms": { "indefSg": "en identitet", "defSg": "identiteten", "indefPl": "identiteter", "defPl": "identiteterna" },
+      "example": { "sv": "Språket är en viktig del av vår identitet.", "ru": "Язык — важная часть нашей идентичности.", "en": "Language is an important part of our identity." }
     },
     {
       "id": "sprakforandring",
@@ -105,7 +112,8 @@
       "translations": { "ru": "языковое изменение", "en": "language change" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en språkförändring", "defSg": "språkförändringen", "indefPl": "språkförändringar", "defPl": "språkförändringarna" }
+      "forms": { "indefSg": "en språkförändring", "defSg": "språkförändringen", "indefPl": "språkförändringar", "defPl": "språkförändringarna" },
+      "example": { "sv": "Sociala medier har lett till snabb språkförändring bland unga.", "ru": "Социальные сети привели к быстрому языковому изменению среди молодёжи.", "en": "Social media has led to rapid language change among young people." }
     },
     {
       "id": "myndighetstext",
@@ -113,7 +121,8 @@
       "translations": { "ru": "текст госоргана, официальный документ", "en": "official/government text" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en myndighetstext", "defSg": "myndighetstexten", "indefPl": "myndighetstexter", "defPl": "myndighetstexterna" }
+      "forms": { "indefSg": "en myndighetstext", "defSg": "myndighetstexten", "indefPl": "myndighetstexter", "defPl": "myndighetstexterna" },
+      "example": { "sv": "Myndighetstexter ska vara skrivna på ett klart och begripligt språk.", "ru": "Официальные тексты должны быть написаны ясным и понятным языком.", "en": "Official texts should be written in clear and comprehensible language." }
     }
   ]
 }

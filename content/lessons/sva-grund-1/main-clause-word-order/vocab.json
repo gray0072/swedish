@@ -15,7 +15,8 @@
       "translations": { "ru": "главное предложение", "en": "main clause" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" }
+      "forms": { "indefSg": "huvudsats", "defSg": "huvudsatsen", "indefPl": "huvudsatser", "defPl": "huvudsatserna" },
+      "example": { "sv": "En huvudsats kan stå ensam som en fullständig mening.", "ru": "Главное предложение может стоять отдельно как полноценное предложение.", "en": "A main clause can stand alone as a complete sentence." }
     },
     {
       "id": "bo",
@@ -41,7 +42,8 @@
       "translations": { "ru": "путешествовать, ехать", "en": "to travel" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" }
+      "forms": { "infinitive": "resa", "present": "reser", "past": "reste", "supine": "rest" },
+      "example": { "sv": "Imorgon reser vi till Danmark.", "ru": "Завтра мы едем в Данию.", "en": "Tomorrow we are travelling to Denmark." }
     },
     {
       "id": "jobba",
@@ -58,7 +60,8 @@
       "translations": { "ru": "студент", "en": "student" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "student", "defSg": "studenten", "indefPl": "studenter", "defPl": "studenterna" }
+      "forms": { "indefSg": "student", "defSg": "studenten", "indefPl": "studenter", "defPl": "studenterna" },
+      "example": { "sv": "Studenten läser på universitetet i Lund.", "ru": "Студент учится в университете Лунда.", "en": "The student studies at the university in Lund." }
     },
     {
       "id": "stad",
@@ -66,13 +69,15 @@
       "translations": { "ru": "город", "en": "city" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" }
+      "forms": { "indefSg": "stad", "defSg": "staden", "indefPl": "städer", "defPl": "städerna" },
+      "example": { "sv": "Var ligger den staden?", "ru": "Где находится этот город?", "en": "Where is that city located?" }
     },
     {
       "id": "idag",
       "sv": "idag",
       "translations": { "ru": "сегодня", "en": "today" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Idag jobbar jag hemifrån.", "ru": "Сегодня я работаю из дома.", "en": "Today I'm working from home." }
     },
     {
       "id": "imorgon",

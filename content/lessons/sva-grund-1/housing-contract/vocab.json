@@ -33,6 +33,7 @@
       "translations": { "ru": "субаренда, пересдача жилья", "en": "subletting" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "andrahandsuthyrning", "defSg": "andrahandsuthyrningen", "indefPl": "andrahandsuthyrningar", "defPl": "andrahandsuthyrningarna" },
       "example": { "sv": "Andrahandsuthyrning kräver ofta tillstånd från hyresvärden.", "ru": "Субаренда часто требует разрешения от арендодателя.", "en": "Subletting often requires the landlord's permission." }
     },
     {
@@ -128,6 +129,8 @@
       "sv": "Hyresnämnden",
       "translations": { "ru": "Арендная комиссия (орган по жилищным спорам)", "en": "the Rental Tribunal" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "hyresnämnd", "defSg": "Hyresnämnden", "indefPl": "hyresnämnder", "defPl": "hyresnämnderna" },
       "example": { "sv": "Om ni inte kommer överens kan ni vända er till Hyresnämnden.", "ru": "Если вы не можете договориться, можно обратиться в Арендную комиссию.", "en": "If you can't agree, you can turn to the Rental Tribunal." }
     },
     {
@@ -136,6 +139,7 @@
       "translations": { "ru": "уборка при переезде", "en": "move-out cleaning" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "flyttstädning", "defSg": "flyttstädningen", "indefPl": "flyttstädningar", "defPl": "flyttstädningarna" },
       "example": { "sv": "Glöm inte flyttstädningen innan besiktningen.", "ru": "Не забудь про уборку перед осмотром при переезде.", "en": "Don't forget the move-out cleaning before the inspection." }
     },
     {

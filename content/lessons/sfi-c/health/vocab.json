@@ -6,6 +6,7 @@
       "translations": { "ru": "больной", "en": "sick, ill" },
       "pos": "adj",
       "note": { "ru": "ett-форма: sjukt, мн.ч.: sjuka", "en": "ett-form: sjukt, plural: sjuka" },
+      "forms": { "positive": "sjuk", "neuter": "sjukt", "plural": "sjuka", "comparative": "sjukare", "superlative": "sjukast" },
       "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болею.", "en": "I'm sick today." }
     },
     {
@@ -21,6 +22,7 @@
       "translations": { "ru": "головная боль", "en": "headache" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en huvudvärk", "defSg": "huvudvärken", "indefPl": "huvudvärkar", "defPl": "huvudvärkarna" },
       "example": { "sv": "Jag har huvudvärk.", "ru": "У меня болит голова.", "en": "I have a headache." }
     },
     {
@@ -29,6 +31,7 @@
       "translations": { "ru": "температура, жар", "en": "fever" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en feber", "defSg": "febern", "indefPl": "febrar", "defPl": "febrarna" },
       "example": { "sv": "Barnet har hög feber.", "ru": "У ребёнка высокая температура.", "en": "The child has a high fever." }
     },
     {
@@ -117,6 +120,7 @@
       "sv": "må",
       "translations": { "ru": "чувствовать себя", "en": "to feel (well/unwell)" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "må", "present": "mår", "past": "mådde", "supine": "mått" },
       "example": { "sv": "Hur mår du idag?", "ru": "Как ты себя чувствуешь сегодня?", "en": "How are you feeling today?" }
     },
@@ -135,6 +139,7 @@
       "translations": { "ru": "здоровый", "en": "healthy" },
       "pos": "adj",
       "note": { "ru": "ett-форма: friskt, мн.ч.: friska", "en": "ett-form: friskt, plural: friska" },
+      "forms": { "positive": "frisk", "neuter": "friskt", "plural": "friska", "comparative": "friskare", "superlative": "friskast" },
       "example": { "sv": "Nu är jag frisk igen.", "ru": "Теперь я снова здоров.", "en": "Now I'm healthy again." }
     },
     {

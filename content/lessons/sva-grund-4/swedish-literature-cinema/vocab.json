@@ -51,7 +51,8 @@
       "translations": { "ru": "писатель, автор", "en": "author, writer" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" }
+      "forms": { "indefSg": "en författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" },
+      "example": { "sv": "Hon är en känd författare som skriver om samhällsfrågor.", "ru": "Она известная писательница, которая пишет об общественных вопросах.", "en": "She is a well-known author who writes about social issues." }
     },
     {
       "id": "deckare",
@@ -59,7 +60,8 @@
       "translations": { "ru": "детектив (жанр/книга)", "en": "crime novel, detective story" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en deckare", "defSg": "deckaren", "indefPl": "deckare", "defPl": "deckarna" }
+      "forms": { "indefSg": "en deckare", "defSg": "deckaren", "indefPl": "deckare", "defPl": "deckarna" },
+      "example": { "sv": "Han läser gärna svenska deckare på sommaren.", "ru": "Летом он любит читать шведские детективы.", "en": "He likes to read Swedish crime novels in the summer." }
     },
     {
       "id": "skadespelare",
@@ -67,7 +69,8 @@
       "translations": { "ru": "актёр, актриса", "en": "actor" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" }
+      "forms": { "indefSg": "en skådespelare", "defSg": "skådespelaren", "indefPl": "skådespelare", "defPl": "skådespelarna" },
+      "example": { "sv": "Skådespelaren fick pris för sin roll i filmen.", "ru": "Актёр получил премию за свою роль в фильме.", "en": "The actor received an award for his role in the film." }
     },
     {
       "id": "manusforfattare",
@@ -75,7 +78,8 @@
       "translations": { "ru": "сценарист", "en": "screenwriter" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en manusförfattare", "defSg": "manusförfattaren", "indefPl": "manusförfattare", "defPl": "manusförfattarna" }
+      "forms": { "indefSg": "en manusförfattare", "defSg": "manusförfattaren", "indefPl": "manusförfattare", "defPl": "manusförfattarna" },
+      "example": { "sv": "Manusförfattaren skrev om boken till en film.", "ru": "Сценарист переработал книгу в сценарий фильма.", "en": "The screenwriter adapted the book into a film." }
     },
     {
       "id": "racknas-som",
@@ -88,19 +92,23 @@
       "id": "har-du-last-nagot-av-henne",
       "sv": "har du läst något av henne?",
       "translations": { "ru": "ты читал(а) что-нибудь из её книг?", "en": "have you read anything by her?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Har du läst något av henne, till exempel hennes senaste roman?", "ru": "Ты читал(а) что-нибудь из её книг, например её последний роман?", "en": "Have you read anything by her, for example her latest novel?" }
     },
     {
       "id": "aktuell-samhallsfraga",
       "sv": "en aktuell samhällsfråga",
       "translations": { "ru": "актуальный общественный вопрос", "en": "a current social issue" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Romanen tar upp en aktuell samhällsfråga som många diskuterar.", "ru": "Роман поднимает актуальный общественный вопрос, который многие обсуждают.", "en": "The novel addresses a current social issue that many people are discussing." }
     },
     {
       "id": "prisbelont",
       "sv": "prisbelönt",
       "translations": { "ru": "удостоенный премии, отмеченный наградами", "en": "award-winning" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "prisbelönt", "neuter": "prisbelönt", "plural": "prisbelönta", "comparative": "mer prisbelönt", "superlative": "mest prisbelönt" },
+      "example": { "sv": "Filmen är prisbelönt och har vunnit flera internationella priser.", "ru": "Фильм отмечен наградами и выиграл несколько международных премий.", "en": "The film is award-winning and has won several international prizes." }
     },
     {
       "id": "utspela-sig",
@@ -108,7 +116,8 @@
       "translations": { "ru": "происходить, разворачиваться (о действии)", "en": "to take place, to be set (of a story)" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "utspela sig", "present": "utspelar sig", "past": "utspelade sig", "supine": "utspelat sig" }
+      "forms": { "infinitive": "utspela sig", "present": "utspelar sig", "past": "utspelade sig", "supine": "utspelat sig" },
+      "example": { "sv": "Romanen utspelar sig i Stockholm under 1900-talet.", "ru": "Роман происходит в Стокгольме в XX веке.", "en": "The novel is set in Stockholm during the 20th century." }
     },
     {
       "id": "publik",
@@ -116,7 +125,8 @@
       "translations": { "ru": "публика, аудитория (зрителей)", "en": "audience" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" },
+      "example": { "sv": "Publiken applåderade länge efter filmen.", "ru": "Публика долго аплодировала после фильма.", "en": "The audience applauded for a long time after the film." }
     }
   ]
 }

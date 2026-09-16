@@ -50,6 +50,7 @@
       "sv": "säga upp",
       "translations": { "ru": "увольнять; расторгать договор", "en": "to give notice, to terminate employment" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "säga upp", "present": "säger upp", "past": "sade upp", "supine": "sagt upp", "imperative": "säg upp" },
       "example": { "sv": "Företaget sa upp tio anställda i somras.", "ru": "Компания уволила десять сотрудников этим летом.", "en": "The company laid off ten employees this summer." }
     },
@@ -95,6 +96,7 @@
       "translations": { "ru": "трудовое право", "en": "labour law" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en arbetsrätt", "defSg": "arbetsrätten", "indefPl": "arbetsrätter", "defPl": "arbetsrätterna" },
       "example": { "sv": "Kursen handlar om svensk arbetsrätt.", "ru": "Курс посвящён шведскому трудовому праву.", "en": "The course is about Swedish labour law." }
     },
     {
@@ -102,6 +104,8 @@
       "sv": "LAS",
       "translations": { "ru": "Закон о защите занятости (Швеция)", "en": "the Employment Protection Act (Sweden)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "LAS", "defSg": "LAS", "indefPl": "LAS", "defPl": "LAS" },
       "note": { "ru": "LAS = lagen om anställningsskydd, регулирует увольнения и сроки предупреждения.", "en": "LAS = lagen om anställningsskydd, the law regulating dismissals and notice periods." },
       "example": { "sv": "Enligt LAS har jag rätt till en viss uppsägningstid.", "ru": "Согласно LAS, у меня есть право на определённый срок предупреждения.", "en": "Under LAS, I'm entitled to a certain notice period." }
     },

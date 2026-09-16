@@ -64,25 +64,29 @@
       "id": "den-har-bilen-phrase",
       "sv": "den här bilen",
       "translations": { "ru": "эта машина", "en": "this car" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Den här bilen är ny.", "ru": "Эта машина новая.", "en": "This car is new." }
     },
     {
       "id": "det-har-huset-phrase",
       "sv": "det här huset",
       "translations": { "ru": "этот дом", "en": "this house" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det här huset är stort.", "ru": "Этот дом большой.", "en": "This house is big." }
     },
     {
       "id": "de-har-bilarna-phrase",
       "sv": "de här bilarna",
       "translations": { "ru": "эти машины", "en": "these cars" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "De här bilarna är dyra.", "ru": "Эти машины дорогие.", "en": "These cars are expensive." }
     },
     {
       "id": "den-dar-bilen-phrase",
       "sv": "den där bilen",
       "translations": { "ru": "та машина", "en": "that car" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Den där bilen är gammal.", "ru": "Та машина старая.", "en": "That car is old." }
     }
   ]
 }

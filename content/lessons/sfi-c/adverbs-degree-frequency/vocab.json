@@ -68,6 +68,7 @@
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Bilen är alltför dyr.", "ru": "Машина слишком дорогая.", "en": "The car is too expensive." }
     },
     {
@@ -75,6 +76,7 @@
       "sv": "trött",
       "translations": { "ru": "усталый", "en": "tired" },
       "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Jag är ganska trött.", "ru": "Я довольно устал(а).", "en": "I am fairly tired." }
     },
     {
@@ -82,6 +84,7 @@
       "sv": "tråkig",
       "translations": { "ru": "скучный", "en": "boring" },
       "pos": "adj",
+      "forms": { "positive": "tråkig", "neuter": "tråkigt", "plural": "tråkiga", "comparative": "tråkigare", "superlative": "tråkigast" },
       "example": { "sv": "Filmen var väldigt tråkig.", "ru": "Фильм был очень скучным.", "en": "The film was very boring." }
     },
     {
@@ -89,6 +92,7 @@
       "sv": "svår",
       "translations": { "ru": "трудный", "en": "difficult" },
       "pos": "adj",
+      "forms": { "positive": "svår", "neuter": "svårt", "plural": "svåra", "comparative": "svårare", "superlative": "svårast" },
       "example": { "sv": "Provet var ganska svårt.", "ru": "Экзамен был довольно трудным.", "en": "The test was fairly difficult." }
     }
   ]

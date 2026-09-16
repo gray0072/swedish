@@ -49,6 +49,8 @@
       "sv": "hälften",
       "translations": { "ru": "половина", "en": "half" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en hälft", "defSg": "hälften", "indefPl": "hälfter", "defPl": "hälfterna" },
       "example": { "sv": "Hälften av kakan är kvar.", "ru": "Половина торта осталась.", "en": "Half of the cake is left." }
     },
     {
@@ -86,6 +88,7 @@
       "sv": "född",
       "translations": { "ru": "рождённый", "en": "born" },
       "pos": "adj",
+      "forms": { "positive": "född", "neuter": "fött", "plural": "födda", "comparative": "mer född", "superlative": "mest född" },
       "example": { "sv": "Hon är född nittonhundranittio.", "ru": "Она родилась в тысяча девятьсот девяностом.", "en": "She was born in nineteen ninety." }
     },
     {

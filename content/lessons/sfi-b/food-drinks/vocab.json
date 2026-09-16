@@ -15,7 +15,8 @@
       "translations": { "ru": "сыр", "en": "cheese" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ost", "defSg": "osten", "indefPl": "ostar", "defPl": "ostarna" }
+      "forms": { "indefSg": "en ost", "defSg": "osten", "indefPl": "ostar", "defPl": "ostarna" },
+      "example": { "sv": "Jag äter ost till frukost.", "ru": "Я ем сыр на завтрак.", "en": "I eat cheese for breakfast." }
     },
     {
       "id": "apple",
@@ -32,7 +33,8 @@
       "translations": { "ru": "банан", "en": "banana" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en banan", "defSg": "bananen", "indefPl": "bananer", "defPl": "bananerna" }
+      "forms": { "indefSg": "en banan", "defSg": "bananen", "indefPl": "bananer", "defPl": "bananerna" },
+      "example": { "sv": "Barnet äter en banan.", "ru": "Ребёнок ест банан.", "en": "The child is eating a banana." }
     },
     {
       "id": "potatis",
@@ -40,7 +42,8 @@
       "translations": { "ru": "картофель", "en": "potato" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en potatis", "defSg": "potatisen", "indefPl": "potatisar", "defPl": "potatisarna" }
+      "forms": { "indefSg": "en potatis", "defSg": "potatisen", "indefPl": "potatisar", "defPl": "potatisarna" },
+      "example": { "sv": "Vi kokar potatis till middag.", "ru": "Мы варим картофель на ужин.", "en": "We're boiling potatoes for dinner." }
     },
     {
       "id": "fisk",
@@ -48,14 +51,17 @@
       "translations": { "ru": "рыба", "en": "fish" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en fisk", "defSg": "fisken", "indefPl": "fiskar", "defPl": "fiskarna" }
+      "forms": { "indefSg": "en fisk", "defSg": "fisken", "indefPl": "fiskar", "defPl": "fiskarna" },
+      "example": { "sv": "Han lagar fisk till lunch.", "ru": "Он готовит рыбу на обед.", "en": "He's cooking fish for lunch." }
     },
     {
       "id": "smor",
       "sv": "smör",
       "translations": { "ru": "масло", "en": "butter" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett smör", "defSg": "smöret", "indefPl": "smör", "defPl": "smören" },
+      "example": { "sv": "Jag brer smör på brödet.", "ru": "Я намазываю масло на хлеб.", "en": "I spread butter on the bread." }
     },
     {
       "id": "mjolk",
@@ -63,6 +69,7 @@
       "translations": { "ru": "молоко", "en": "milk" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en mjölk", "defSg": "mjölken", "indefPl": "mjölkar", "defPl": "mjölkarna" },
       "example": { "sv": "Kan jag få lite mjölk?", "ru": "Можно мне немного молока?", "en": "Can I have some milk?" }
     },
     {
@@ -70,7 +77,9 @@
       "sv": "vatten",
       "translations": { "ru": "вода", "en": "water" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett vatten", "defSg": "vattnet", "indefPl": "vatten", "defPl": "vattnen" },
+      "example": { "sv": "Kan jag få ett glas vatten?", "ru": "Можно мне стакан воды?", "en": "Can I have a glass of water?" }
     },
     {
       "id": "kaffe",
@@ -78,6 +87,7 @@
       "translations": { "ru": "кофе", "en": "coffee" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett kaffe", "defSg": "kaffet", "indefPl": "kaffeer", "defPl": "kaffeerna" },
       "example": { "sv": "Ska vi fika och dricka kaffe?", "ru": "Устроим фику и выпьем кофе?", "en": "Shall we have a fika and drink coffee?" }
     },
     {
@@ -85,35 +95,45 @@
       "sv": "te",
       "translations": { "ru": "чай", "en": "tea" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett te", "defSg": "teet", "indefPl": "teer", "defPl": "teerna" },
+      "example": { "sv": "Hon dricker en kopp te.", "ru": "Она пьёт чашку чая.", "en": "She's drinking a cup of tea." }
     },
     {
       "id": "kott",
       "sv": "kött",
       "translations": { "ru": "мясо", "en": "meat" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett kött", "defSg": "köttet", "indefPl": "kött", "defPl": "kötten" },
+      "example": { "sv": "Vi äter kött till helgen.", "ru": "Мы едим мясо на выходных.", "en": "We eat meat on the weekend." }
     },
     {
       "id": "ris",
       "sv": "ris",
       "translations": { "ru": "рис", "en": "rice" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett ris", "defSg": "riset", "indefPl": "ris", "defPl": "risen" },
+      "example": { "sv": "Ris passar bra med fisk.", "ru": "Рис хорошо подходит к рыбе.", "en": "Rice goes well with fish." }
     },
     {
       "id": "socker",
       "sv": "socker",
       "translations": { "ru": "сахар", "en": "sugar" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett socker", "defSg": "sockret", "indefPl": "socker", "defPl": "sockren" },
+      "example": { "sv": "Han tar socker i kaffet.", "ru": "Он добавляет сахар в кофе.", "en": "He takes sugar in his coffee." }
     },
     {
       "id": "salt",
       "sv": "salt",
       "translations": { "ru": "соль", "en": "salt" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett salt", "defSg": "saltet", "indefPl": "salt", "defPl": "salten" },
+      "example": { "sv": "Kan du ge mig saltet?", "ru": "Можешь передать мне соль?", "en": "Can you pass me the salt?" }
     }
   ]
 }

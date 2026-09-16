@@ -6,7 +6,8 @@
       "translations": { "ru": "деревянный дом", "en": "wooden house" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "trähus", "defSg": "trähuset", "indefPl": "trähus", "defPl": "trähusen" }
+      "forms": { "indefSg": "trähus", "defSg": "trähuset", "indefPl": "trähus", "defPl": "trähusen" },
+      "example": { "sv": "De bor i ett gammalt trähus nära sjön.", "ru": "Они живут в старом деревянном доме у озера.", "en": "They live in an old wooden house near the lake." }
     },
     {
       "id": "tradgard",
@@ -14,7 +15,8 @@
       "translations": { "ru": "сад", "en": "garden" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "trädgård", "defSg": "trädgården", "indefPl": "trädgårdar", "defPl": "trädgårdarna" }
+      "forms": { "indefSg": "trädgård", "defSg": "trädgården", "indefPl": "trädgårdar", "defPl": "trädgårdarna" },
+      "example": { "sv": "Trädgården är full av blommor på sommaren.", "ru": "Сад летом полон цветов.", "en": "The garden is full of flowers in the summer." }
     },
     {
       "id": "sjo",
@@ -22,35 +24,44 @@
       "translations": { "ru": "озеро", "en": "lake" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" }
+      "forms": { "indefSg": "sjö", "defSg": "sjön", "indefPl": "sjöar", "defPl": "sjöarna" },
+      "example": { "sv": "Sjön ligger mitt i skogen.", "ru": "Озеро расположено посреди леса.", "en": "The lake is located in the middle of the forest." }
     },
     {
       "id": "stor",
       "sv": "stor",
       "translations": { "ru": "большой", "en": "big" },
       "pos": "adj",
-      "note": { "ru": "Определённая форма (при указателе): stora — одинаково для всех родов и числа.", "en": "Definite form (with a determiner): stora — the same for all genders and numbers." }
+      "note": { "ru": "Определённая форма (при указателе): stora — одинаково для всех родов и числа.", "en": "Definite form (with a determiner): stora — the same for all genders and numbers." },
+      "forms": { "positive": "stor", "neuter": "stort", "plural": "stora", "comparative": "större", "superlative": "störst" },
+      "example": { "sv": "Det där är ett stort hus med en stor trädgård.", "ru": "Вон тот — большой дом с большим садом.", "en": "That's a big house with a big garden." }
     },
     {
       "id": "gammal",
       "sv": "gammal",
       "translations": { "ru": "старый", "en": "old" },
       "pos": "adj",
-      "note": { "ru": "Определённая форма: gamla (неправильная основа gammal- → gamla).", "en": "Definite form: gamla (irregular stem gammal- → gamla)." }
+      "note": { "ru": "Определённая форма: gamla (неправильная основа gammal- → gamla).", "en": "Definite form: gamla (irregular stem gammal- → gamla)." },
+      "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
+      "example": { "sv": "Det gamla trähuset byggdes för hundra år sedan.", "ru": "Старый деревянный дом был построен сто лет назад.", "en": "The old wooden house was built a hundred years ago." }
     },
     {
       "id": "vacker",
       "sv": "vacker",
       "translations": { "ru": "красивый", "en": "beautiful" },
       "pos": "adj",
-      "note": { "ru": "Определённая форма: vackra.", "en": "Definite form: vackra." }
+      "note": { "ru": "Определённая форма: vackra.", "en": "Definite form: vackra." },
+      "forms": { "positive": "vacker", "neuter": "vackert", "plural": "vackra", "comparative": "vackrare", "superlative": "vackrast" },
+      "example": { "sv": "Den där trädgården är verkligen vacker.", "ru": "Вон тот сад действительно красив.", "en": "That garden is really beautiful." }
     },
     {
       "id": "liten",
       "sv": "liten",
       "translations": { "ru": "маленький", "en": "small" },
       "pos": "adj",
-      "note": { "ru": "Определённая форма особая: lilla (не litna).", "en": "Irregular definite form: lilla (not litna)." }
+      "note": { "ru": "Определённая форма особая: lilla (не litna).", "en": "Irregular definite form: lilla (not litna)." },
+      "forms": { "positive": "liten", "neuter": "litet", "plural": "små", "comparative": "mindre", "superlative": "minst" },
+      "example": { "sv": "Den lilla sjön syns inte på kartan.", "ru": "Маленькое озеро не видно на карте.", "en": "The small lake isn't visible on the map." }
     },
     {
       "id": "ligga",
@@ -65,26 +76,30 @@
       "id": "den-dar",
       "sv": "den där",
       "translations": { "ru": "тот (указывая, en-слово)", "en": "that (pointing, en-word)" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Den där bilen är min mammas.", "ru": "Вон та машина — моей мамы.", "en": "That car (over there) is my mom's." }
     },
     {
       "id": "det-dar",
       "sv": "det där",
       "translations": { "ru": "то (указывая, ett-слово)", "en": "that (pointing, ett-word)" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "Det där huset är till salu.", "ru": "Вон тот дом продаётся.", "en": "That house (over there) is for sale." }
     },
     {
       "id": "de-dar",
       "sv": "de där",
       "translations": { "ru": "те (указывая, множ. число)", "en": "those (pointing, plural)" },
-      "pos": "pron"
+      "pos": "pron",
+      "example": { "sv": "De där husen är byggda av trä.", "ru": "Вон те дома построены из дерева.", "en": "Those houses (over there) are built of wood." }
     },
     {
       "id": "som",
       "sv": "som",
       "translations": { "ru": "который, что", "en": "that, which, who" },
       "pos": "pron",
-      "note": { "ru": "Относительное местоимение, вводит определительное придаточное.", "en": "Relative pronoun, introduces a relative clause." }
+      "note": { "ru": "Относительное местоимение, вводит определительное придаточное.", "en": "Relative pronoun, introduces a relative clause." },
+      "example": { "sv": "Huset som ligger vid sjön är mycket gammalt.", "ru": "Дом, который находится у озера, очень старый.", "en": "The house that is located by the lake is very old." }
     },
     {
       "id": "hus-huset",
@@ -92,7 +107,8 @@
       "translations": { "ru": "дом", "en": "house" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" }
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset har en stor trädgård.", "ru": "У дома большой сад.", "en": "The house has a large garden." }
     },
     {
       "id": "bil",
@@ -100,7 +116,8 @@
       "translations": { "ru": "машина", "en": "car" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" }
+      "forms": { "indefSg": "bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
+      "example": { "sv": "Bilen står utanför det gamla huset.", "ru": "Машина стоит перед старым домом.", "en": "The car is parked outside the old house." }
     }
   ]
 }

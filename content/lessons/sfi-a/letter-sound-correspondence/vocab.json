@@ -12,6 +12,7 @@
       "sv": "sjuk",
       "translations": { "ru": "больной", "en": "sick" },
       "pos": "adj",
+      "forms": { "positive": "sjuk", "neuter": "sjukt", "plural": "sjuka", "comparative": "sjukare", "superlative": "sjukast" },
       "example": { "sv": "Jag är sjuk idag.", "ru": "Я сегодня болен.", "en": "I'm sick today." }
     },
     {
@@ -20,6 +21,7 @@
       "translations": { "ru": "звезда", "en": "star" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en stjärna", "defSg": "stjärnan", "indefPl": "stjärnor", "defPl": "stjärnorna" },
       "example": { "sv": "Stjärnan lyser på natten.", "ru": "Звезда светит ночью.", "en": "The star shines at night." }
     },
     {
@@ -28,6 +30,7 @@
       "translations": { "ru": "рубашка", "en": "shirt" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en skjorta", "defSg": "skjortan", "indefPl": "skjortor", "defPl": "skjortorna" },
       "example": { "sv": "Skjortan är vit.", "ru": "Рубашка белая.", "en": "The shirt is white." }
     },
     {
@@ -36,6 +39,7 @@
       "translations": { "ru": "девушка", "en": "girl" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en tjej", "defSg": "tjejen", "indefPl": "tjejer", "defPl": "tjejerna" },
       "example": { "sv": "Hon är en tjej.", "ru": "Она девушка.", "en": "She is a girl." }
     },
     {
@@ -44,6 +48,7 @@
       "translations": { "ru": "кухня", "en": "kitchen" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett kök", "defSg": "köket", "indefPl": "kök", "defPl": "köken" },
       "example": { "sv": "Köket är litet.", "ru": "Кухня маленькая.", "en": "The kitchen is small." }
     },
     {
@@ -52,6 +57,7 @@
       "translations": { "ru": "любовь", "en": "love" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en kärlek", "defSg": "kärleken", "indefPl": "kärlekar", "defPl": "kärlekarna" },
       "example": { "sv": "Kärlek är viktig för alla.", "ru": "Любовь важна для всех.", "en": "Love is important to everyone." }
     },
     {

@@ -1,15 +1,15 @@
 {
   "items": [
-    { "id": "mandag", "sv": "måndag", "translations": { "ru": "понедельник", "en": "Monday" }, "pos": "noun", "example": { "sv": "Vi ses på måndag.", "ru": "Увидимся в понедельник.", "en": "See you on Monday." } },
-    { "id": "tisdag", "sv": "tisdag", "translations": { "ru": "вторник", "en": "Tuesday" }, "pos": "noun" },
-    { "id": "onsdag", "sv": "onsdag", "translations": { "ru": "среда", "en": "Wednesday" }, "pos": "noun" },
-    { "id": "torsdag", "sv": "torsdag", "translations": { "ru": "четверг", "en": "Thursday" }, "pos": "noun" },
-    { "id": "fredag", "sv": "fredag", "translations": { "ru": "пятница", "en": "Friday" }, "pos": "noun", "example": { "sv": "Fredag är min favoritdag.", "ru": "Пятница — мой любимый день.", "en": "Friday is my favourite day." } },
-    { "id": "lordag", "sv": "lördag", "translations": { "ru": "суббота", "en": "Saturday" }, "pos": "noun" },
-    { "id": "sondag", "sv": "söndag", "translations": { "ru": "воскресенье", "en": "Sunday" }, "pos": "noun" },
+    { "id": "mandag", "sv": "måndag", "translations": { "ru": "понедельник", "en": "Monday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en måndag", "defSg": "måndagen", "indefPl": "måndagar", "defPl": "måndagarna" }, "example": { "sv": "Vi ses på måndag.", "ru": "Увидимся в понедельник.", "en": "See you on Monday." } },
+    { "id": "tisdag", "sv": "tisdag", "translations": { "ru": "вторник", "en": "Tuesday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en tisdag", "defSg": "tisdagen", "indefPl": "tisdagar", "defPl": "tisdagarna" }, "example": { "sv": "Jag har svenska på tisdag.", "ru": "У меня шведский во вторник.", "en": "I have Swedish class on Tuesday." } },
+    { "id": "onsdag", "sv": "onsdag", "translations": { "ru": "среда", "en": "Wednesday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en onsdag", "defSg": "onsdagen", "indefPl": "onsdagar", "defPl": "onsdagarna" }, "example": { "sv": "Vi träffas på onsdag.", "ru": "Мы встречаемся в среду.", "en": "We're meeting on Wednesday." } },
+    { "id": "torsdag", "sv": "torsdag", "translations": { "ru": "четверг", "en": "Thursday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en torsdag", "defSg": "torsdagen", "indefPl": "torsdagar", "defPl": "torsdagarna" }, "example": { "sv": "Jag jobbar inte på torsdag.", "ru": "Я не работаю в четверг.", "en": "I don't work on Thursday." } },
+    { "id": "fredag", "sv": "fredag", "translations": { "ru": "пятница", "en": "Friday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en fredag", "defSg": "fredagen", "indefPl": "fredagar", "defPl": "fredagarna" }, "example": { "sv": "Fredag är min favoritdag.", "ru": "Пятница — мой любимый день.", "en": "Friday is my favourite day." } },
+    { "id": "lordag", "sv": "lördag", "translations": { "ru": "суббота", "en": "Saturday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en lördag", "defSg": "lördagen", "indefPl": "lördagar", "defPl": "lördagarna" }, "example": { "sv": "Vi handlar mat på lördag.", "ru": "Мы покупаем продукты в субботу.", "en": "We buy groceries on Saturday." } },
+    { "id": "sondag", "sv": "söndag", "translations": { "ru": "воскресенье", "en": "Sunday" }, "pos": "noun", "gender": "en", "forms": { "indefSg": "en söndag", "defSg": "söndagen", "indefPl": "söndagar", "defPl": "söndagarna" }, "example": { "sv": "På söndag vilar jag.", "ru": "В воскресенье я отдыхаю.", "en": "On Sunday I rest." } },
     { "id": "idag", "sv": "idag", "translations": { "ru": "сегодня", "en": "today" }, "pos": "adv", "example": { "sv": "Vad ska vi göra idag?", "ru": "Что мы будем делать сегодня?", "en": "What are we doing today?" } },
-    { "id": "imorgon", "sv": "imorgon", "translations": { "ru": "завтра", "en": "tomorrow" }, "pos": "adv" },
-    { "id": "igar", "sv": "igår", "translations": { "ru": "вчера", "en": "yesterday" }, "pos": "adv" },
+    { "id": "imorgon", "sv": "imorgon", "translations": { "ru": "завтра", "en": "tomorrow" }, "pos": "adv", "example": { "sv": "Imorgon börjar kursen.", "ru": "Завтра начинается курс.", "en": "Tomorrow the course starts." } },
+    { "id": "igar", "sv": "igår", "translations": { "ru": "вчера", "en": "yesterday" }, "pos": "adv", "example": { "sv": "Igår var det måndag.", "ru": "Вчера был понедельник.", "en": "Yesterday was Monday." } },
     {
       "id": "helg",
       "sv": "helg",
@@ -25,7 +25,8 @@
       "translations": { "ru": "будний день", "en": "weekday" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en vardag", "defSg": "vardagen", "indefPl": "vardagar", "defPl": "vardagarna" }
+      "forms": { "indefSg": "en vardag", "defSg": "vardagen", "indefPl": "vardagar", "defPl": "vardagarna" },
+      "example": { "sv": "Idag är det en vardag.", "ru": "Сегодня будний день.", "en": "Today is a weekday." }
     }
   ]
 }

@@ -5,7 +5,10 @@
       "sv": "vederbörande",
       "translations": { "ru": "означенное/данное лицо (канцелярское)", "en": "the party in question (officialese)" },
       "pos": "noun",
-      "note": { "ru": "Неизменяемая канцелярская форма; в нейтральном регистре — просто «personen».", "en": "An invariable officialese form; in neutral register, simply \"personen\"." }
+      "gender": "en",
+      "forms": { "indefSg": "en vederbörande", "defSg": "vederbörande", "indefPl": "vederbörande", "defPl": "vederbörande" },
+      "note": { "ru": "Неизменяемая канцелярская форма; в нейтральном регистре — просто «personen».", "en": "An invariable officialese form; in neutral register, simply \"personen\"." },
+      "example": { "sv": "Vederbörande ska underteckna blanketten personligen.", "ru": "Означенное лицо должно лично подписать бланк.", "en": "The party in question must sign the form personally." }
     },
     {
       "id": "person",
@@ -13,7 +16,8 @@
       "translations": { "ru": "человек, лицо", "en": "person" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en person", "defSg": "personen", "indefPl": "personer", "defPl": "personerna" }
+      "forms": { "indefSg": "en person", "defSg": "personen", "indefPl": "personer", "defPl": "personerna" },
+      "example": { "sv": "Polisen sökte efter en person som setts vid platsen.", "ru": "Полиция искала человека, которого видели на месте.", "en": "The police were looking for a person who had been seen at the scene." }
     },
     {
       "id": "typ-noun",
@@ -21,7 +25,8 @@
       "translations": { "ru": "тип, чувак (разговорное)", "en": "guy, dude (colloquial)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en typ", "defSg": "typen", "indefPl": "typer", "defPl": "typerna" }
+      "forms": { "indefSg": "en typ", "defSg": "typen", "indefPl": "typer", "defPl": "typerna" },
+      "example": { "sv": "Vem var den typen som ringde igår?", "ru": "Кто был тот тип, который звонил вчера?", "en": "Who was that guy who called yesterday?" }
     },
     {
       "id": "snubbe",
@@ -29,7 +34,8 @@
       "translations": { "ru": "чувак, парень (разговорное)", "en": "guy, dude (colloquial)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en snubbe", "defSg": "snubben", "indefPl": "snubbar", "defPl": "snubbarna" }
+      "forms": { "indefSg": "en snubbe", "defSg": "snubben", "indefPl": "snubbar", "defPl": "snubbarna" },
+      "example": { "sv": "Den snubben glömde alltid sina nycklar.", "ru": "Этот парень всегда забывал свои ключи.", "en": "That guy always forgot his keys." }
     },
     {
       "id": "installa-sig",
@@ -44,7 +50,8 @@
       "translations": { "ru": "приходить, прийти", "en": "to come" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" }
+      "forms": { "infinitive": "komma", "present": "kommer", "past": "kom", "supine": "kommit" },
+      "example": { "sv": "Hon kommer att komma till mötet i tid.", "ru": "Она придёт на встречу вовремя.", "en": "She will come to the meeting on time." }
     },
     {
       "id": "dyka-upp",
@@ -57,7 +64,8 @@
       "id": "skall",
       "sv": "skall",
       "translations": { "ru": "должен (устаревшая/канцелярская форма от ska)", "en": "shall (archaic/officialese form of ska)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vederbörande skall inkomma med nödvändiga handlingar.", "ru": "Означенное лицо должно предоставить необходимые документы.", "en": "The party in question shall submit the necessary documents." }
     },
     {
       "id": "erhalla",
@@ -65,7 +73,8 @@
       "translations": { "ru": "получать (формальное)", "en": "to receive, to obtain (formal)" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "erhålla", "present": "erhåller", "past": "erhöll", "supine": "erhållit" }
+      "forms": { "infinitive": "erhålla", "present": "erhåller", "past": "erhöll", "supine": "erhållit" },
+      "example": { "sv": "Sökanden kan erhålla ett beslut inom fyra veckor.", "ru": "Заявитель может получить решение в течение четырёх недель.", "en": "The applicant may receive a decision within four weeks." }
     },
     {
       "id": "fa",
@@ -73,25 +82,32 @@
       "translations": { "ru": "получать (нейтральное)", "en": "to get, to receive (neutral)" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" }
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
+      "example": { "sv": "Jag fick ett brev från myndigheten igår.", "ru": "Я вчера получил письмо от ведомства.", "en": "I got a letter from the authority yesterday." }
     },
     {
       "id": "vardaglig",
       "sv": "vardaglig",
       "translations": { "ru": "повседневный, разговорный", "en": "everyday, colloquial" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "vardaglig", "neuter": "vardagligt", "plural": "vardagliga", "comparative": "vardagligare", "superlative": "vardagligast" },
+      "example": { "sv": "Vi använder ett mer vardagligt språk när vi pratar med vänner.", "ru": "Мы используем более разговорный язык, когда говорим с друзьями.", "en": "We use more everyday language when talking to friends." }
     },
     {
       "id": "formell",
       "sv": "formell",
       "translations": { "ru": "формальный", "en": "formal" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "formell", "neuter": "formellt", "plural": "formella", "comparative": "mer formell", "superlative": "mest formell" },
+      "example": { "sv": "E-postmeddelanden till myndigheter bör vara formella.", "ru": "Электронные письма в государственные органы должны быть формальными.", "en": "Emails to authorities should be formal." }
     },
     {
       "id": "neutral-adj",
       "sv": "neutral",
       "translations": { "ru": "нейтральный", "en": "neutral" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "neutral", "neuter": "neutralt", "plural": "neutrala", "comparative": "mer neutral", "superlative": "mest neutral" },
+      "example": { "sv": "Försök att hålla en neutral ton i din rapport.", "ru": "Старайся сохранять нейтральный тон в своём отчёте.", "en": "Try to keep a neutral tone in your report." }
     }
   ]
 }

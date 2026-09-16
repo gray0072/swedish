@@ -12,6 +12,7 @@
       "sv": "vilja",
       "translations": { "ru": "хотеть", "en": "to want" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
       "example": { "sv": "Jag vill äta.", "ru": "Я хочу есть.", "en": "I want to eat." }
     },
@@ -106,6 +107,7 @@
       "sv": "roligt",
       "translations": { "ru": "весело, забавно", "en": "fun" },
       "pos": "adj",
+      "forms": { "positive": "rolig", "neuter": "roligt", "plural": "roliga", "comparative": "roligare", "superlative": "roligast" },
       "example": { "sv": "Det är roligt att cykla.", "ru": "Кататься на велосипеде — весело.", "en": "Cycling is fun." }
     },
     {
@@ -113,6 +115,7 @@
       "sv": "viktigt",
       "translations": { "ru": "важно", "en": "important" },
       "pos": "adj",
+      "forms": { "positive": "viktig", "neuter": "viktigt", "plural": "viktiga", "comparative": "viktigare", "superlative": "viktigast" },
       "example": { "sv": "Det är viktigt att sova.", "ru": "Спать важно.", "en": "It's important to sleep." }
     }
   ]

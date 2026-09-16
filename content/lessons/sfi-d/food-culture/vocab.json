@@ -6,6 +6,7 @@
       "translations": { "ru": "традиционная домашняя кухня", "en": "traditional Swedish home cooking" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en husmanskost", "defSg": "husmanskosten", "indefPl": "husmanskoster", "defPl": "husmanskosterna" },
       "example": { "sv": "Köttbullar är klassisk husmanskost.", "ru": "Тефтели — классическое блюдо husmanskost.", "en": "Meatballs are classic husmanskost." }
     },
     {
@@ -13,6 +14,8 @@
       "sv": "Systembolaget",
       "translations": { "ru": "Systembolaget (государственная монополия на алкоголь)", "en": "Systembolaget (the state alcohol monopoly)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "Systembolaget", "defSg": "Systembolaget", "indefPl": "Systembolaget", "defPl": "Systembolaget" },
       "example": { "sv": "Starkare alkohol köper man på Systembolaget.", "ru": "Крепкий алкоголь покупают в Systembolaget.", "en": "Stronger alcohol is bought at Systembolaget." }
     },
     {
@@ -21,6 +24,7 @@
       "translations": { "ru": "часы работы", "en": "opening hours" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en öppettid", "defSg": "öppettiden", "indefPl": "öppettider", "defPl": "öppettiderna" },
       "example": { "sv": "Vilka öppettider har butiken?", "ru": "Какие часы работы у магазина?", "en": "What are the shop's opening hours?" }
     },
     {
@@ -29,6 +33,7 @@
       "translations": { "ru": "тефтели", "en": "meatballs" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en köttbulle", "defSg": "köttbullen", "indefPl": "köttbullar", "defPl": "köttbullarna" },
       "example": { "sv": "Vi äter köttbullar med potatis.", "ru": "Мы едим тефтели с картошкой.", "en": "We eat meatballs with potatoes." }
     },
     {
@@ -37,6 +42,7 @@
       "translations": { "ru": "булочка с корицей", "en": "cinnamon bun" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en kanelbulle", "defSg": "kanelbullen", "indefPl": "kanelbullar", "defPl": "kanelbullarna" },
       "example": { "sv": "En kanelbulle passar bra till fikat.", "ru": "Булочка с корицей отлично подходит к фике.", "en": "A cinnamon bun goes well with fika." }
     },
     {
@@ -45,6 +51,7 @@
       "translations": { "ru": "бутерброд", "en": "open sandwich" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en smörgås", "defSg": "smörgåsen", "indefPl": "smörgåsar", "defPl": "smörgåsarna" },
       "example": { "sv": "Han äter en smörgås till frukost.", "ru": "Он ест бутерброд на завтрак.", "en": "He eats an open sandwich for breakfast." }
     },
     {
@@ -59,6 +66,8 @@
       "sv": "18-årsgräns",
       "translations": { "ru": "возрастное ограничение 18 лет", "en": "18-year age limit" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en 18-årsgräns", "defSg": "18-årsgränsen", "indefPl": "18-årsgränser", "defPl": "18-årsgränserna" },
       "example": { "sv": "Det är 18-årsgräns på Systembolaget.", "ru": "В Systembolaget действует возрастное ограничение 18 лет.", "en": "There's an 18-year age limit at Systembolaget." }
     },
     {
@@ -76,6 +85,7 @@
       "translations": { "ru": "документ, удостоверяющий личность", "en": "ID (identification)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en legitimation", "defSg": "legitimationen", "indefPl": "legitimationer", "defPl": "legitimationerna" },
       "example": { "sv": "Ta med legitimation om du köper alkohol.", "ru": "Возьми документ, если покупаешь алкоголь.", "en": "Bring ID if you're buying alcohol." }
     }
   ]

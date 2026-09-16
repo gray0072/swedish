@@ -5,13 +5,15 @@
       "sv": "Hon är lärare.",
       "translations": { "ru": "Она учитель. (без артикля)", "en": "She is a teacher. (no article)" },
       "pos": "phrase",
-      "note": { "ru": "После «är» + профессия артикль обычно не ставится.", "en": "After \"är\" + a profession, the article is usually omitted." }
+      "note": { "ru": "После «är» + профессия артикль обычно не ставится.", "en": "After \"är\" + a profession, the article is usually omitted." },
+      "example": { "sv": "Hon är lärare på en skola i Stockholm.", "ru": "Она учитель в одной из школ Стокгольма.", "en": "She is a teacher at a school in Stockholm." }
     },
     {
       "id": "han-ar-larkare",
       "sv": "Han är läkare.",
       "translations": { "ru": "Он врач. (без артикля)", "en": "He is a doctor. (no article)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Han är läkare på sjukhuset.", "ru": "Он врач в больнице.", "en": "He is a doctor at the hospital." }
     },
     {
       "id": "dricka-vatten",
@@ -56,7 +58,8 @@
       "translations": { "ru": "профессия", "en": "profession" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" }
+      "forms": { "indefSg": "yrke", "defSg": "yrket", "indefPl": "yrken", "defPl": "yrkena" },
+      "example": { "sv": "Vad har du för yrke?", "ru": "Кто ты по профессии?", "en": "What is your profession?" }
     },
     {
       "id": "amnesnamn",
@@ -64,13 +67,15 @@
       "translations": { "ru": "вещественное существительное", "en": "mass noun" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ämnesnamn", "defSg": "ämnesnamnet", "indefPl": "ämnesnamn", "defPl": "ämnesnamnen" }
+      "forms": { "indefSg": "ämnesnamn", "defSg": "ämnesnamnet", "indefPl": "ämnesnamn", "defPl": "ämnesnamnen" },
+      "example": { "sv": "\"Vatten\" är ett ämnesnamn utan artikel i plural.", "ru": "«Vatten» — вещественное существительное без артикля во множественном числе.", "en": "\"Vatten\" is a mass noun without an article in the plural." }
     },
     {
       "id": "fast-fras",
       "sv": "fast fras",
       "translations": { "ru": "устойчивая фраза", "en": "fixed phrase" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "\"Ha feber\" är en fast fras utan artikel.", "ru": "«Ha feber» — устойчивая фраза без артикля.", "en": "\"Ha feber\" is a fixed phrase without an article." }
     }
   ]
 }

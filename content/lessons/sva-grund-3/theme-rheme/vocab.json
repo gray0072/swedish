@@ -6,7 +6,8 @@
       "translations": { "ru": "тема (данная, уже известная информация)", "en": "theme (given, already known information)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" }
+      "forms": { "indefSg": "ett tema", "defSg": "temat", "indefPl": "teman", "defPl": "temana" },
+      "example": { "sv": "Temat i första meningen är ofta känt sedan tidigare.", "ru": "Тема в первом предложении часто уже известна.", "en": "The theme in the first sentence is often already known." }
     },
     {
       "id": "rema",
@@ -14,7 +15,8 @@
       "translations": { "ru": "рема (новая информация в предложении)", "en": "rheme (the new information in a sentence)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en rema", "defSg": "reman", "indefPl": "remor", "defPl": "remorna" }
+      "forms": { "indefSg": "en rema", "defSg": "reman", "indefPl": "remor", "defPl": "remorna" },
+      "example": { "sv": "Reman innehåller den nya informationen i meningen.", "ru": "Рема содержит новую информацию в предложении.", "en": "The rheme contains the new information in the sentence." }
     },
     {
       "id": "fundament",
@@ -22,7 +24,8 @@
       "translations": { "ru": "фундамент (позиция перед личным глаголом в huvudsats)", "en": "fundament (the slot before the finite verb in a main clause)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" }
+      "forms": { "indefSg": "ett fundament", "defSg": "fundamentet", "indefPl": "fundament", "defPl": "fundamenten" },
+      "example": { "sv": "I fundamentet står ofta temat, det redan kända.", "ru": "В фундаменте часто стоит тема, уже известная информация.", "en": "The fundament often contains the theme, the already known information." }
     },
     {
       "id": "huvuddel",
@@ -30,7 +33,8 @@
       "translations": { "ru": "основная часть предложения (после личного глагола)", "en": "the main part of the clause (after the finite verb)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en huvuddel", "defSg": "huvuddelen", "indefPl": "huvuddelar", "defPl": "huvuddelarna" }
+      "forms": { "indefSg": "en huvuddel", "defSg": "huvuddelen", "indefPl": "huvuddelar", "defPl": "huvuddelarna" },
+      "example": { "sv": "Ny information placeras oftast i huvuddelen av satsen.", "ru": "Новая информация обычно ставится в основной части предложения.", "en": "New information is usually placed in the main part of the clause." }
     },
     {
       "id": "sammanhang",
@@ -38,19 +42,22 @@
       "translations": { "ru": "связность, контекст", "en": "coherence, context" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" }
+      "forms": { "indefSg": "ett sammanhang", "defSg": "sammanhanget", "indefPl": "sammanhang", "defPl": "sammanhangen" },
+      "example": { "sv": "God textbindning skapar sammanhang mellan meningarna.", "ru": "Хорошая связность текста создаёт связь между предложениями.", "en": "Good text cohesion creates coherence between the sentences." }
     },
     {
       "id": "kand-information",
       "sv": "känd information",
       "translations": { "ru": "известная информация", "en": "known/given information" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Fundamentet innehåller ofta känd information.", "ru": "Фундамент часто содержит известную информацию.", "en": "The fundament often contains known information." }
     },
     {
       "id": "ny-information",
       "sv": "ny information",
       "translations": { "ru": "новая информация", "en": "new information" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ny information presenteras vanligtvis i slutet av meningen.", "ru": "Новая информация обычно представляется в конце предложения.", "en": "New information is usually presented at the end of the sentence." }
     },
     {
       "id": "aterknyta-till",
@@ -58,7 +65,8 @@
       "translations": { "ru": "снова связать с, отсылать назад к", "en": "to tie back to, to link back to" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "återknyta", "present": "återknyter", "past": "återknöt", "supine": "återknutit" }
+      "forms": { "infinitive": "återknyta", "present": "återknyter", "past": "återknöt", "supine": "återknutit" },
+      "example": { "sv": "Nästa mening återknyter till ämnet i den föregående.", "ru": "Следующее предложение снова связывается с темой предыдущего.", "en": "The next sentence ties back to the topic of the previous one." }
     },
     {
       "id": "visa-sig",
@@ -71,7 +79,9 @@
       "id": "vardefull",
       "sv": "värdefull",
       "translations": { "ru": "ценный", "en": "valuable" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "värdefull", "neuter": "värdefullt", "plural": "värdefulla", "comparative": "värdefullare", "superlative": "värdefullast" },
+      "example": { "sv": "Källan visade sig vara mycket värdefull för uppsatsen.", "ru": "Источник оказался очень ценным для сочинения.", "en": "The source turned out to be very valuable for the essay." }
     },
     {
       "id": "vind",
@@ -79,7 +89,8 @@
       "translations": { "ru": "чердак", "en": "attic" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en vind", "defSg": "vinden", "indefPl": "vindar", "defPl": "vindarna" }
+      "forms": { "indefSg": "en vind", "defSg": "vinden", "indefPl": "vindar", "defPl": "vindarna" },
+      "example": { "sv": "Vi förvarar gamla möbler på vinden.", "ru": "Мы храним старую мебель на чердаке.", "en": "We store old furniture in the attic." }
     },
     {
       "id": "hitta",
@@ -87,7 +98,8 @@
       "translations": { "ru": "находить", "en": "to find" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "hitta", "present": "hittar", "past": "hittade", "supine": "hittat" }
+      "forms": { "infinitive": "hitta", "present": "hittar", "past": "hittade", "supine": "hittat" },
+      "example": { "sv": "Hon hittade en gammal karta i arkivet.", "ru": "Она нашла старую карту в архиве.", "en": "She found an old map in the archive." }
     }
   ]
 }

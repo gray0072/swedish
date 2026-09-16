@@ -6,7 +6,8 @@
       "translations": { "ru": "волонтёрская работа", "en": "volunteer work" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett volontärarbete", "defSg": "volontärarbetet", "indefPl": "volontärarbeten", "defPl": "volontärarbetena" }
+      "forms": { "indefSg": "ett volontärarbete", "defSg": "volontärarbetet", "indefPl": "volontärarbeten", "defPl": "volontärarbetena" },
+      "example": { "sv": "Hon gör volontärarbete på helgerna.", "ru": "По выходным она занимается волонтёрской работой.", "en": "She does volunteer work on weekends." }
     },
     {
       "id": "ideell-forening",
@@ -37,7 +38,8 @@
       "translations": { "ru": "гражданин", "en": "citizen" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en medborgare", "defSg": "medborgaren", "indefPl": "medborgare", "defPl": "medborgarna" }
+      "forms": { "indefSg": "en medborgare", "defSg": "medborgaren", "indefPl": "medborgare", "defPl": "medborgarna" },
+      "example": { "sv": "Alla medborgare har rätt att rösta.", "ru": "Все граждане имеют право голосовать.", "en": "All citizens have the right to vote." }
     },
     {
       "id": "delta-i",
@@ -52,13 +54,15 @@
       "translations": { "ru": "общество", "en": "society" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" }
+      "forms": { "indefSg": "ett samhälle", "defSg": "samhället", "indefPl": "samhällen", "defPl": "samhällena" },
+      "example": { "sv": "Volontärarbete stärker samhället.", "ru": "Волонтёрская работа укрепляет общество.", "en": "Volunteer work strengthens society." }
     },
     {
       "id": "lokal-forening",
       "sv": "lokal förening",
       "translations": { "ru": "местное объединение", "en": "local association" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Han är medlem i en lokal förening för naturvård.", "ru": "Он состоит в местном объединении по охране природы.", "en": "He is a member of a local association for nature conservation." }
     }
   ]
 }

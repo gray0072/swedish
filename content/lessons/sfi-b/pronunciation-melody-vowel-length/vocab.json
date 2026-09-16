@@ -5,32 +5,37 @@
       "sv": "Du bor i Malmö.",
       "translations": { "ru": "Ты живёшь в Мальмё. (утверждение — тон падает)", "en": "You live in Malmö. (statement — pitch falls)" },
       "pos": "phrase",
-      "note": { "ru": "Мелодия падает к концу предложения.", "en": "The pitch falls toward the end of the sentence." }
+      "note": { "ru": "Мелодия падает к концу предложения.", "en": "The pitch falls toward the end of the sentence." },
+      "example": { "sv": "Du bor i Malmö, det vet jag.", "ru": "Ты живёшь в Мальмё, я это знаю.", "en": "You live in Malmö, I know that." }
     },
     {
       "id": "bor-du-i-malmo-question",
       "sv": "Bor du i Malmö?",
       "translations": { "ru": "Ты живёшь в Мальмё? (вопрос — тон растёт)", "en": "Do you live in Malmö? (question — pitch rises)" },
       "pos": "phrase",
-      "note": { "ru": "Мелодия растёт к концу предложения, глагол стоит первым.", "en": "The pitch rises toward the end, and the verb comes first." }
+      "note": { "ru": "Мелодия растёт к концу предложения, глагол стоит первым.", "en": "The pitch rises toward the end, and the verb comes first." },
+      "example": { "sv": "Bor du i Malmö, eller?", "ru": "Ты живёшь в Мальмё, или?", "en": "Do you live in Malmö, or?" }
     },
     {
       "id": "hon-pratar-svenska-statement",
       "sv": "Hon pratar svenska.",
       "translations": { "ru": "Она говорит по-шведски. (утверждение)", "en": "She speaks Swedish. (statement)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon pratar svenska, engelska och spanska.", "ru": "Она говорит по-шведски, по-английски и по-испански.", "en": "She speaks Swedish, English, and Spanish." }
     },
     {
       "id": "pratar-hon-svenska-question",
       "sv": "Pratar hon svenska?",
       "translations": { "ru": "Она говорит по-шведски? (вопрос)", "en": "Does she speak Swedish? (question)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Pratar hon svenska bra?", "ru": "Она хорошо говорит по-шведски?", "en": "Does she speak Swedish well?" }
     },
     {
       "id": "ful",
       "sv": "ful",
       "translations": { "ru": "некрасивый (долгое u, одна согласная)", "en": "ugly (long u, one consonant)" },
       "pos": "adj",
+      "forms": { "positive": "ful", "neuter": "fult", "plural": "fula", "comparative": "fulare", "superlative": "fulast" },
       "example": { "sv": "Huset är fult, tycker han.", "ru": "Дом некрасивый, думает он.", "en": "The house is ugly, he thinks." }
     },
     {
@@ -38,6 +43,7 @@
       "sv": "full",
       "translations": { "ru": "полный, пьяный (краткое u, две согласные)", "en": "full, drunk (short u, two consonants)" },
       "pos": "adj",
+      "forms": { "positive": "full", "neuter": "fullt", "plural": "fulla", "comparative": "fullare", "superlative": "fullast" },
       "example": { "sv": "Glaset är fullt.", "ru": "Стакан полный.", "en": "The glass is full." }
     },
     {
@@ -46,7 +52,8 @@
       "translations": { "ru": "сито (долгое i, одна согласная)", "en": "sieve, strainer (long i, one consonant)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en sil", "defSg": "silen", "indefPl": "silar", "defPl": "silarna" }
+      "forms": { "indefSg": "en sil", "defSg": "silen", "indefPl": "silar", "defPl": "silarna" },
+      "example": { "sv": "Häll teet genom silen.", "ru": "Процеди чай через сито.", "en": "Pour the tea through the strainer." }
     },
     {
       "id": "sill",
@@ -54,13 +61,15 @@
       "translations": { "ru": "селёдка (краткое i, две согласные)", "en": "herring (short i, two consonants)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en sill", "defSg": "sillen", "indefPl": "sillar", "defPl": "sillarna" }
+      "forms": { "indefSg": "en sill", "defSg": "sillen", "indefPl": "sillar", "defPl": "sillarna" },
+      "example": { "sv": "Vi äter sill på midsommar.", "ru": "Мы едим селёдку на Мидсоммар.", "en": "We eat herring at Midsummer." }
     },
     {
       "id": "hal",
       "sv": "hal",
       "translations": { "ru": "скользкий (долгое a, одна согласная)", "en": "slippery (long a, one consonant)" },
       "pos": "adj",
+      "forms": { "positive": "hal", "neuter": "halt", "plural": "hala", "comparative": "halare", "superlative": "halast" },
       "example": { "sv": "Isen är hal.", "ru": "Лёд скользкий.", "en": "The ice is slippery." }
     },
     {
@@ -69,13 +78,16 @@
       "translations": { "ru": "прихожая (краткое a, две согласные)", "en": "hall, corridor (short a, two consonants)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en hall", "defSg": "hallen", "indefPl": "hallar", "defPl": "hallarna" }
+      "forms": { "indefSg": "en hall", "defSg": "hallen", "indefPl": "hallar", "defPl": "hallarna" },
+      "example": { "sv": "Ta av skorna i hallen.", "ru": "Сними обувь в прихожей.", "en": "Take off your shoes in the hall." }
     },
     {
       "id": "vek",
       "sv": "vek",
       "translations": { "ru": "слабый, мягкий (долгое e, одна согласная)", "en": "weak, soft/pliant (long e, one consonant)" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "vek", "neuter": "vekt", "plural": "veka", "comparative": "vekare", "superlative": "vekast" },
+      "example": { "sv": "Hans röst är vek och mjuk.", "ru": "Его голос мягкий и тихий.", "en": "His voice is soft and gentle." }
     },
     {
       "id": "veck",
@@ -83,7 +95,8 @@
       "translations": { "ru": "складка, сгиб (краткое e, две согласные)", "en": "fold, crease (short e, two consonants)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett veck", "defSg": "vecket", "indefPl": "veck", "defPl": "vecken" }
+      "forms": { "indefSg": "ett veck", "defSg": "vecket", "indefPl": "veck", "defPl": "vecken" },
+      "example": { "sv": "Det finns ett veck i tyget.", "ru": "На ткани есть складка.", "en": "There's a fold in the fabric." }
     }
   ]
 }

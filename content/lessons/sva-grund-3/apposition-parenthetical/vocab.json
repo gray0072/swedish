@@ -7,14 +7,16 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "apposition", "defSg": "appositionen", "indefPl": "appositioner", "defPl": "appositionerna" },
-      "note": { "ru": "Второй именной уточняющий оборот, стоящий рядом с первым и относящийся к тому же самому.", "en": "A second noun phrase standing next to the first, referring to the same thing." }
+      "note": { "ru": "Второй именной уточняющий оборот, стоящий рядом с первым и относящийся к тому же самому.", "en": "A second noun phrase standing next to the first, referring to the same thing." },
+      "example": { "sv": "Anna, min kollega, kommer också på mötet.", "ru": "Анна, моя коллега, тоже придёт на встречу.", "en": "Anna, my colleague, is also coming to the meeting." }
     },
     {
       "id": "inskjuten-sats",
       "sv": "inskjuten sats",
       "translations": { "ru": "вставная конструкция", "en": "parenthetical insertion" },
       "pos": "phrase",
-      "note": { "ru": "Слово, фраза или короткое предложение, вставленное внутрь другого и отделённое запятыми, скобками или тире.", "en": "A word, phrase or short clause inserted into another sentence and set off by commas, brackets or dashes." }
+      "note": { "ru": "Слово, фраза или короткое предложение, вставленное внутрь другого и отделённое запятыми, скобками или тире.", "en": "A word, phrase or short clause inserted into another sentence and set off by commas, brackets or dashes." },
+      "example": { "sv": "Han sa, tror jag, att mötet var inställt.", "ru": "Он сказал, кажется, что встречу отменили.", "en": "He said, I think, that the meeting was cancelled." }
     },
     {
       "id": "syster",
@@ -22,13 +24,15 @@
       "translations": { "ru": "сестра", "en": "sister" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" }
+      "forms": { "indefSg": "syster", "defSg": "systern", "indefPl": "systrar", "defPl": "systrarna" },
+      "example": { "sv": "Min syster, som är läkare, bor i Göteborg.", "ru": "Моя сестра, которая врач, живёт в Гётеборге.", "en": "My sister, who is a doctor, lives in Gothenburg." }
     },
     {
       "id": "tyvarr",
       "sv": "tyvärr",
       "translations": { "ru": "к сожалению", "en": "unfortunately" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Tyvärr, som du redan vet, är biljetterna slutsålda.", "ru": "К сожалению, как ты уже знаешь, билеты закончились.", "en": "Unfortunately, as you already know, the tickets are sold out." }
     },
     {
       "id": "huvudstad",
@@ -36,19 +40,22 @@
       "translations": { "ru": "столица", "en": "capital city" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" }
+      "forms": { "indefSg": "huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" },
+      "example": { "sv": "Stockholm, Sveriges huvudstad, ligger vid havet.", "ru": "Стокгольм, столица Швеции, расположен у моря.", "en": "Stockholm, the capital of Sweden, lies by the sea." }
     },
     {
       "id": "for-ovrigt",
       "sv": "för övrigt",
       "translations": { "ru": "кстати, впрочем", "en": "incidentally, by the way" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Filmen var bra. För övrigt spelade musiken en stor roll.", "ru": "Фильм был хорош. Кстати, музыка играла важную роль.", "en": "The film was good. Incidentally, the music played a big role." }
     },
     {
       "id": "enligt-min-mening",
       "sv": "enligt min mening",
       "translations": { "ru": "по моему мнению", "en": "in my opinion" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Enligt min mening, och det tror jag flera håller med om, borde texten kortas.", "ru": "По моему мнению, и я думаю, многие согласятся, текст надо сократить.", "en": "In my opinion, and I think several would agree, the text should be shortened." }
     },
     {
       "id": "grundare",
@@ -56,7 +63,8 @@
       "translations": { "ru": "основатель", "en": "founder" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "grundare", "defSg": "grundaren", "indefPl": "grundare", "defPl": "grundarna" }
+      "forms": { "indefSg": "grundare", "defSg": "grundaren", "indefPl": "grundare", "defPl": "grundarna" },
+      "example": { "sv": "Ingvar Kamprad, grundaren av IKEA, föddes i Småland.", "ru": "Ингвар Кампрад, основатель IKEA, родился в Смоланде.", "en": "Ingvar Kamprad, the founder of IKEA, was born in Småland." }
     },
     {
       "id": "foretag",
@@ -64,7 +72,8 @@
       "translations": { "ru": "предприятие, компания", "en": "company" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "företag", "defSg": "företaget", "indefPl": "företag", "defPl": "företagen" }
+      "forms": { "indefSg": "företag", "defSg": "företaget", "indefPl": "företag", "defPl": "företagen" },
+      "example": { "sv": "IKEA, ett svenskt företag, säljer möbler i hela världen.", "ru": "IKEA, шведская компания, продаёт мебель по всему миру.", "en": "IKEA, a Swedish company, sells furniture all over the world." }
     },
     {
       "id": "tankstreck",
@@ -72,7 +81,8 @@
       "translations": { "ru": "тире", "en": "dash" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "tankstreck", "defSg": "tankstrecket", "indefPl": "tankstreck", "defPl": "tankstrecken" }
+      "forms": { "indefSg": "tankstreck", "defSg": "tankstrecket", "indefPl": "tankstreck", "defPl": "tankstrecken" },
+      "example": { "sv": "Man kan använda ett tankstreck för att sätta in en apposition – till exempel en förklaring.", "ru": "Тире можно использовать, чтобы вставить приложение — например, пояснение.", "en": "You can use a dash to insert an apposition – for example, an explanation." }
     }
   ]
 }

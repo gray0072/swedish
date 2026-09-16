@@ -15,6 +15,7 @@
       "translations": { "ru": "правительство", "en": "government" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en regering", "defSg": "regeringen", "indefPl": "regeringar", "defPl": "regeringarna" },
       "example": { "sv": "Sveriges regering sammanträder på tisdagar.", "ru": "Правительство Швеции заседает по вторникам.", "en": "Sweden's government meets on Tuesdays." }
     },
     {
@@ -23,6 +24,7 @@
       "translations": { "ru": "сосед", "en": "neighbour" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en granne", "defSg": "grannen", "indefPl": "grannar", "defPl": "grannarna" },
       "example": { "sv": "Grannens hunds koppel gick sönder.", "ru": "Поводок собаки соседа порвался.", "en": "The neighbour's dog's lead broke." }
     },
     {
@@ -31,6 +33,7 @@
       "translations": { "ru": "начальник", "en": "boss" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en chef", "defSg": "chefen", "indefPl": "chefer", "defPl": "cheferna" },
       "example": { "sv": "Min chefs kontor ligger på andra våningen.", "ru": "Кабинет моего начальника на втором этаже.", "en": "My boss's office is on the second floor." }
     },
     {
@@ -48,6 +51,7 @@
       "translations": { "ru": "столица", "en": "capital" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en huvudstad", "defSg": "huvudstaden", "indefPl": "huvudstäder", "defPl": "huvudstäderna" },
       "example": { "sv": "Frankrikes huvudstad är Paris.", "ru": "Столица Франции — Париж.", "en": "France's capital is Paris." }
     }
   ]

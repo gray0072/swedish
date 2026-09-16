@@ -159,6 +159,7 @@
       "translations": { "ru": "тихий, тихо", "en": "quiet" },
       "pos": "adj",
       "note": { "ru": "ett-форма: tyst, мн.ч.: tysta", "en": "ett-form: tyst, plural: tysta" },
+      "forms": { "positive": "tyst", "neuter": "tyst", "plural": "tysta", "comparative": "tystare", "superlative": "tystast" },
       "example": { "sv": "Man ska vara tyst i läsesalen.", "ru": "В читальном зале нужно вести себя тихо.", "en": "You should be quiet in the reading room." }
     }
   ]

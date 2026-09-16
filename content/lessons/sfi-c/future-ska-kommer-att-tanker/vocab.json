@@ -5,6 +5,7 @@
       "sv": "ska",
       "translations": { "ru": "собираться (решение/обещание)", "en": "will, going to (decision/promise)" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
       "example": { "sv": "Jag ska ringa dig.", "ru": "Я позвоню тебе (обещаю).", "en": "I will call you." }
     },

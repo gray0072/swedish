@@ -96,6 +96,7 @@
       "translations": { "ru": "бабушка (со стороны отца)", "en": "paternal grandmother" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en farmor", "defSg": "farmodern", "indefPl": "farmödrar", "defPl": "farmödrarna" },
       "example": { "sv": "Farmor bakar kanelbullar.", "ru": "Бабушка печёт булочки с корицей.", "en": "Grandma is baking cinnamon buns." }
     },
     {
@@ -104,6 +105,7 @@
       "translations": { "ru": "дедушка (со стороны отца)", "en": "paternal grandfather" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en farfar", "defSg": "farfadern", "indefPl": "farfäder", "defPl": "farfäderna" },
       "example": { "sv": "Farfar läser tidningen.", "ru": "Дедушка читает газету.", "en": "Grandpa is reading the newspaper." }
     },
     {
@@ -112,6 +114,7 @@
       "translations": { "ru": "бабушка (со стороны матери)", "en": "maternal grandmother" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en mormor", "defSg": "mormodern", "indefPl": "mormödrar", "defPl": "mormödrarna" },
       "example": { "sv": "Mormor bor i Göteborg.", "ru": "Бабушка (по маме) живёт в Гётеборге.", "en": "Grandma lives in Gothenburg." }
     },
     {
@@ -120,6 +123,7 @@
       "translations": { "ru": "дедушка (со стороны матери)", "en": "maternal grandfather" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en morfar", "defSg": "morfadern", "indefPl": "morfäder", "defPl": "morfäderna" },
       "example": { "sv": "Morfar fiskar varje sommar.", "ru": "Дедушка (по маме) рыбачит каждое лето.", "en": "Grandpa goes fishing every summer." }
     },
     {

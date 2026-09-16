@@ -6,7 +6,8 @@
       "translations": { "ru": "уровень моря", "en": "sea level" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "havsnivå", "defSg": "havsnivån", "indefPl": "havsnivåer", "defPl": "havsnivåerna" }
+      "forms": { "indefSg": "havsnivå", "defSg": "havsnivån", "indefPl": "havsnivåer", "defPl": "havsnivåerna" },
+      "example": { "sv": "Forskarna mäter hur havsnivån förändras över tid.", "ru": "Учёные измеряют, как меняется уровень моря со временем.", "en": "Researchers measure how the sea level changes over time." }
     },
     {
       "id": "havsnivaahoejning",
@@ -14,7 +15,8 @@
       "translations": { "ru": "повышение уровня моря", "en": "sea-level rise" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "havsnivåhöjning", "defSg": "havsnivåhöjningen", "indefPl": "havsnivåhöjningar", "defPl": "havsnivåhöjningarna" }
+      "forms": { "indefSg": "havsnivåhöjning", "defSg": "havsnivåhöjningen", "indefPl": "havsnivåhöjningar", "defPl": "havsnivåhöjningarna" },
+      "example": { "sv": "Artikeln beskriver hur havsnivåhöjningen påverkar kustnära städer.", "ru": "Статья описывает, как повышение уровня моря влияет на прибрежные города.", "en": "The article describes how sea-level rise affects coastal cities." }
     },
     {
       "id": "oeversvaemning",
@@ -22,7 +24,8 @@
       "translations": { "ru": "затопление, наводнение", "en": "flooding" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "översvämning", "defSg": "översvämningen", "indefPl": "översvämningar", "defPl": "översvämningarna" }
+      "forms": { "indefSg": "översvämning", "defSg": "översvämningen", "indefPl": "översvämningar", "defPl": "översvämningarna" },
+      "example": { "sv": "Risken för översvämning ökar när havsnivån stiger.", "ru": "Риск наводнения увеличивается по мере повышения уровня моря.", "en": "The risk of flooding increases as the sea level rises." }
     },
     {
       "id": "risk-popsci",
@@ -30,7 +33,8 @@
       "translations": { "ru": "риск", "en": "risk" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "risk", "defSg": "risken", "indefPl": "risker", "defPl": "riskerna" }
+      "forms": { "indefSg": "risk", "defSg": "risken", "indefPl": "risker", "defPl": "riskerna" },
+      "example": { "sv": "Studien visar en tydlig risk för luftföroreningar i städerna.", "ru": "Исследование показывает явный риск загрязнения воздуха в городах.", "en": "The study shows a clear risk of air pollution in cities." }
     },
     {
       "id": "riskfaktor",
@@ -38,7 +42,8 @@
       "translations": { "ru": "фактор риска", "en": "risk factor" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "riskfaktor", "defSg": "riskfaktorn", "indefPl": "riskfaktorer", "defPl": "riskfaktorerna" }
+      "forms": { "indefSg": "riskfaktor", "defSg": "riskfaktorn", "indefPl": "riskfaktorer", "defPl": "riskfaktorerna" },
+      "example": { "sv": "Luftföroreningar är en viktig riskfaktor för hälsan.", "ru": "Загрязнение воздуха является важным фактором риска для здоровья.", "en": "Air pollution is an important risk factor for health." }
     },
     {
       "id": "bygglov",
@@ -46,7 +51,8 @@
       "translations": { "ru": "разрешение на строительство", "en": "building permit" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "bygglov", "defSg": "bygglovet", "indefPl": "bygglov", "defPl": "byggloven" }
+      "forms": { "indefSg": "bygglov", "defSg": "bygglovet", "indefPl": "bygglov", "defPl": "byggloven" },
+      "example": { "sv": "Kommunen kräver bygglov för nya hus i kustnära områden.", "ru": "Муниципалитет требует разрешение на строительство новых домов в прибрежных районах.", "en": "The municipality requires a building permit for new houses in coastal areas." }
     },
     {
       "id": "beakta",
@@ -55,7 +61,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "beakta", "present": "beaktar", "past": "beaktade", "supine": "beaktat" },
-      "note": { "ru": "Книжный, официальный глагол.", "en": "A bookish, official verb." }
+      "note": { "ru": "Книжный, официальный глагол.", "en": "A bookish, official verb." },
+      "example": { "sv": "Kommunen måste beakta riskerna för översvämning vid planeringen.", "ru": "Муниципалитет должен учитывать риски наводнения при планировании.", "en": "The municipality must take the flooding risks into account during planning." }
     },
     {
       "id": "vaega-in",
@@ -70,7 +77,8 @@
       "translations": { "ru": "представлять собой, составлять", "en": "to constitute" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "utgöra", "present": "utgör", "past": "utgjorde", "supine": "utgjort" }
+      "forms": { "infinitive": "utgöra", "present": "utgör", "past": "utgjorde", "supine": "utgjort" },
+      "example": { "sv": "Höjda havsnivåer utgör ett hot mot kustnära bebyggelse.", "ru": "Повышение уровня моря представляет угрозу для прибрежной застройки.", "en": "Rising sea levels constitute a threat to coastal buildings." }
     },
     {
       "id": "exponering",
@@ -78,7 +86,8 @@
       "translations": { "ru": "воздействие, экспозиция", "en": "exposure" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "exponering", "defSg": "exponeringen", "indefPl": "exponeringar", "defPl": "exponeringarna" }
+      "forms": { "indefSg": "exponering", "defSg": "exponeringen", "indefPl": "exponeringar", "defPl": "exponeringarna" },
+      "example": { "sv": "Lång exponering för luftföroreningar kan skada lungorna.", "ru": "Долгое воздействие загрязнённого воздуха может повредить лёгкие.", "en": "Long exposure to air pollution can damage the lungs." }
     },
     {
       "id": "luftfoerorening",
@@ -86,13 +95,15 @@
       "translations": { "ru": "загрязнение воздуха", "en": "air pollution" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "luftförorening", "defSg": "luftföroreningen", "indefPl": "luftföroreningar", "defPl": "luftföroreningarna" }
+      "forms": { "indefSg": "luftförorening", "defSg": "luftföroreningen", "indefPl": "luftföroreningar", "defPl": "luftföroreningarna" },
+      "example": { "sv": "Forskare varnar för ökad luftförorening i storstäderna.", "ru": "Учёные предупреждают о росте загрязнения воздуха в крупных городах.", "en": "Scientists warn of increasing air pollution in big cities." }
     },
     {
       "id": "kommunal-planering",
       "sv": "kommunal planering",
       "translations": { "ru": "муниципальное планирование", "en": "municipal planning" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Kommunal planering måste ta hänsyn till risken för översvämning.", "ru": "Муниципальное планирование должно учитывать риск наводнения.", "en": "Municipal planning must take the risk of flooding into account." }
     },
     {
       "id": "forskare-popsci",
@@ -100,13 +111,16 @@
       "translations": { "ru": "учёный, исследователь", "en": "researcher, scientist" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" }
+      "forms": { "indefSg": "forskare", "defSg": "forskaren", "indefPl": "forskare", "defPl": "forskarna" },
+      "example": { "sv": "En forskare vid universitetet studerar havsnivåhöjningen.", "ru": "Учёный из университета изучает повышение уровня моря.", "en": "A researcher at the university studies sea-level rise." }
     },
     {
       "id": "kustnaera",
       "sv": "kustnära",
       "translations": { "ru": "прибрежный, находящийся рядом с побережьем", "en": "coastal, near the coast" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "kustnära", "neuter": "kustnära", "plural": "kustnära", "comparative": "mer kustnära", "superlative": "mest kustnära" },
+      "example": { "sv": "Många kustnära samhällen riskerar att drabbas av översvämning.", "ru": "Многим прибрежным населённым пунктам угрожает риск наводнения.", "en": "Many coastal communities risk being affected by flooding." }
     }
   ]
 }

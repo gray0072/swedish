@@ -5,6 +5,7 @@
       "sv": "lång",
       "translations": { "ru": "высокий, длинный", "en": "tall, long" },
       "pos": "adj",
+      "forms": { "positive": "lång", "neuter": "långt", "plural": "långa", "comparative": "längre", "superlative": "längst" },
       "note": { "ru": "ett-форма: långt, мн.ч.: långa", "en": "ett-form: långt, plural: långa" },
       "example": { "sv": "Han är lång och smal.", "ru": "Он высокий и худой.", "en": "He is tall and slim." }
     },
@@ -13,6 +14,7 @@
       "sv": "kort",
       "translations": { "ru": "невысокий, короткий", "en": "short" },
       "pos": "adj",
+      "forms": { "positive": "kort", "neuter": "kort", "plural": "korta", "comparative": "kortare", "superlative": "kortast" },
       "note": { "ru": "ett-форма: kort, мн.ч.: korta", "en": "ett-form: kort, plural: korta" },
       "example": { "sv": "Hon är kort men stark.", "ru": "Она невысокая, но сильная.", "en": "She is short but strong." }
     },
@@ -21,6 +23,7 @@
       "sv": "smal",
       "translations": { "ru": "худой, стройный", "en": "slim, thin" },
       "pos": "adj",
+      "forms": { "positive": "smal", "neuter": "smalt", "plural": "smala", "comparative": "smalare", "superlative": "smalast" },
       "note": { "ru": "ett-форма: smalt, мн.ч.: smala", "en": "ett-form: smalt, plural: smala" },
       "example": { "sv": "Han har blivit smalare.", "ru": "Он похудел.", "en": "He has become slimmer." }
     },
@@ -29,6 +32,7 @@
       "sv": "kraftig",
       "translations": { "ru": "крупный, плотного телосложения", "en": "heavily built, sturdy" },
       "pos": "adj",
+      "forms": { "positive": "kraftig", "neuter": "kraftigt", "plural": "kraftiga", "comparative": "kraftigare", "superlative": "kraftigast" },
       "note": { "ru": "ett-форма: kraftigt, мн.ч.: kraftiga", "en": "ett-form: kraftigt, plural: kraftiga" },
       "example": { "sv": "Farbrorn är kraftig och stark.", "ru": "Дядя крупного телосложения и сильный.", "en": "The uncle is heavily built and strong." }
     },
@@ -37,6 +41,7 @@
       "sv": "blond",
       "translations": { "ru": "светловолосый, блондин(ка)", "en": "blond" },
       "pos": "adj",
+      "forms": { "positive": "blond", "neuter": "blont", "plural": "blonda", "comparative": "blondare", "superlative": "blondast" },
       "note": { "ru": "ett-форма: blont, мн.ч.: blonda", "en": "ett-form: blont, plural: blonda" },
       "example": { "sv": "Hennes bror är blond med blå ögon.", "ru": "Её брат светловолосый, с голубыми глазами.", "en": "Her brother is blond with blue eyes." }
     },
@@ -45,6 +50,7 @@
       "sv": "mörkhårig",
       "translations": { "ru": "темноволосый", "en": "dark-haired" },
       "pos": "adj",
+      "forms": { "positive": "mörkhårig", "neuter": "mörkhårigt", "plural": "mörkhåriga", "comparative": "mer mörkhårig", "superlative": "mest mörkhårig" },
       "note": { "ru": "ett-форма: mörkhårigt, мн.ч.: mörkhåriga", "en": "ett-form: mörkhårigt, plural: mörkhåriga" },
       "example": { "sv": "Min kollega är mörkhårig och har glasögon.", "ru": "Мой коллега темноволосый и носит очки.", "en": "My colleague is dark-haired and wears glasses." }
     },
@@ -53,6 +59,7 @@
       "sv": "lockig",
       "translations": { "ru": "кудрявый", "en": "curly-haired" },
       "pos": "adj",
+      "forms": { "positive": "lockig", "neuter": "lockigt", "plural": "lockiga", "comparative": "lockigare", "superlative": "lockigast" },
       "note": { "ru": "ett-форма: lockigt, мн.ч.: lockiga", "en": "ett-form: lockigt, plural: lockiga" },
       "example": { "sv": "Barnet har lockigt hår.", "ru": "У ребёнка кудрявые волосы.", "en": "The child has curly hair." }
     },
@@ -61,6 +68,7 @@
       "sv": "snäll",
       "translations": { "ru": "добрый, милый", "en": "kind" },
       "pos": "adj",
+      "forms": { "positive": "snäll", "neuter": "snällt", "plural": "snälla", "comparative": "snällare", "superlative": "snällast" },
       "note": { "ru": "ett-форма: snällt, мн.ч.: snälla", "en": "ett-form: snällt, plural: snälla" },
       "example": { "sv": "Min granne är väldigt snäll.", "ru": "Мой сосед очень добрый.", "en": "My neighbour is very kind." }
     },
@@ -69,6 +77,7 @@
       "sv": "envis",
       "translations": { "ru": "упрямый", "en": "stubborn" },
       "pos": "adj",
+      "forms": { "positive": "envis", "neuter": "envist", "plural": "envisa", "comparative": "envisare", "superlative": "envisast" },
       "note": { "ru": "ett-форма: envist, мн.ч.: envisa", "en": "ett-form: envist, plural: envisa" },
       "example": { "sv": "Han är envis och ändrar sig sällan.", "ru": "Он упрямый и редко меняет решение.", "en": "He is stubborn and rarely changes his mind." }
     },
@@ -77,6 +86,7 @@
       "sv": "pålitlig",
       "translations": { "ru": "надёжный", "en": "reliable" },
       "pos": "adj",
+      "forms": { "positive": "pålitlig", "neuter": "pålitligt", "plural": "pålitliga", "comparative": "pålitligare", "superlative": "pålitligast" },
       "note": { "ru": "ett-форма: pålitligt, мн.ч.: pålitliga", "en": "ett-form: pålitligt, plural: pålitliga" },
       "example": { "sv": "Hon är pålitlig — man kan lita på henne.", "ru": "Она надёжная — на неё можно положиться.", "en": "She is reliable — you can count on her." }
     },
@@ -85,6 +95,7 @@
       "sv": "blyg",
       "translations": { "ru": "застенчивый", "en": "shy" },
       "pos": "adj",
+      "forms": { "positive": "blyg", "neuter": "blygt", "plural": "blyga", "comparative": "blygare", "superlative": "blygast" },
       "note": { "ru": "ett-форма: blygt, мн.ч.: blyga", "en": "ett-form: blygt, plural: blyga" },
       "example": { "sv": "Pojken är blyg när han möter nya människor.", "ru": "Мальчик стесняется при знакомстве с новыми людьми.", "en": "The boy is shy when he meets new people." }
     },
@@ -93,6 +104,7 @@
       "sv": "öppen",
       "translations": { "ru": "открытый, общительный", "en": "open, outgoing" },
       "pos": "adj",
+      "forms": { "positive": "öppen", "neuter": "öppet", "plural": "öppna", "comparative": "öppnare", "superlative": "öppnast" },
       "note": { "ru": "ett-форма: öppet, мн.ч.: öppna", "en": "ett-form: öppet, plural: öppna" },
       "example": { "sv": "Hon är öppen och pratar gärna med alla.", "ru": "Она открытая и охотно общается со всеми.", "en": "She is open and happily talks to everyone." }
     },
@@ -101,6 +113,7 @@
       "sv": "självsäker",
       "translations": { "ru": "уверенный в себе", "en": "self-confident" },
       "pos": "adj",
+      "forms": { "positive": "självsäker", "neuter": "självsäkert", "plural": "självsäkra", "comparative": "självsäkrare", "superlative": "självsäkrast" },
       "note": { "ru": "ett-форма: självsäkert, мн.ч.: självsäkra", "en": "ett-form: självsäkert, plural: självsäkra" },
       "example": { "sv": "Han verkar självsäker på intervjuer.", "ru": "На собеседованиях он выглядит уверенным в себе.", "en": "He seems self-confident at interviews." }
     },
@@ -127,6 +140,7 @@
       "sv": "se ut",
       "translations": { "ru": "выглядеть", "en": "to look (a certain way)" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "se ut", "present": "ser ut", "past": "såg ut", "supine": "sett ut" },
       "example": { "sv": "Hur ser din bror ut?", "ru": "Как выглядит твой брат?", "en": "What does your brother look like?" }
     }

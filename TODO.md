@@ -11,17 +11,22 @@ list stays current and short). The per-lesson topic list lives separately, in
   (SFI kurs A-D, SVA grund delkurs 1-4) holds its full 50 lessons — thematic first, the
   level's grammar after them, one lesson per point. SFI kurs D was the last level
   finished (its 47 remaining lessons, thematic and grammar alike).
-- [x] **The reference section's infrastructure and its 20 language summaries are built.**
-  `content/reference/` (renamed from `content/grammar/`), `index.json`, a loader that can pair
+- [x] **The reference section is built end to end, except dialogues.**
+  `content/reference/` (renamed from `content/grammar/`), `index.json`, a loader that pairs
   each article with an optional `_ru` translation, and `/reference` with its three tabs
   (Summaries / Word bank / Dialogues) replacing the old `/grammar` nav item. All 20 articles
-  from the REFERENCE.md plan are written and live — English only; the `_ru` files themselves
-  are not written yet, only the loader support for them.
-- [ ] The rest of the reference section is still unbuilt: the generated word bank of all
-  5 417 vocabulary items in every form (see the adjective-forms gap below — `/reference/words`
-  is a placeholder today), the 30 everyday dialogues (`/reference/dialogues` is a placeholder
-  too), and the 20 `_ru` translations of the summaries. Full plan in
-  [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md).
+  from the REFERENCE.md plan are written, live, and now translated (20 `_ru.md` files). The
+  word bank (`/reference/words`) is a real generated view — deduplicated, banded into groups
+  of ~75 by curriculum order, with search — not a placeholder. Cross-links between grammar
+  lessons and their articles (REFERENCE.md §6.4) are wired both ways.
+- [x] **The vocab-schema and content-backfill gap is mostly closed.** `adjFormsSchema` exists
+  in `src/content/schema.ts` (deliberately optional, not required — some real Swedish words
+  cannot honestly take a form). A fleet of parallel agents backfilled noun/verb forms, verb
+  groups and adjective forms across nearly all 400 lesson folders; a couple of hundred items
+  are still open where two agents ran out of their rate-limit window — see REFERENCE.md §5.1
+  for the exact remaining counts and which lesson folders still need a pass.
+- [ ] Dialogues are not started, by request (out of scope for this pass) —
+  `/reference/dialogues` is still a placeholder. Full plan in [DIALOGUES.md](DIALOGUES.md).
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a
@@ -95,8 +100,5 @@ list stays current and short). The per-lesson topic list lives separately, in
 
 ## Not started at all
 
-- [ ] Adjective forms are missing from the content schema entirely, so none of the 415
-  adjectives carries a comparative or a neuter form — and 473 nouns and 49 verbs are missing
-  forms validation should already be demanding. See [REFERENCE.md](REFERENCE.md) §5.3.
 - [ ] Swedish as an interface language (deliberately postponed in SPEC §0 — not to be
   confused with Swedish as the language being studied, which already works fully).

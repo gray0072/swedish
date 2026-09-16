@@ -41,7 +41,8 @@
       "translations": { "ru": "польза", "en": "benefit, use" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en nytta", "defSg": "nyttan", "indefPl": "nyttor", "defPl": "nyttorna" }
+      "forms": { "indefSg": "en nytta", "defSg": "nyttan", "indefPl": "nyttor", "defPl": "nyttorna" },
+      "example": { "sv": "Det finns stor nytta i att läsa texten högt för sig själv.", "ru": "Есть большая польза в том, чтобы читать текст вслух самому себе.", "en": "There is great benefit in reading the text aloud to yourself." }
     },
     {
       "id": "finger",
@@ -49,7 +50,8 @@
       "translations": { "ru": "палец (на руке)", "en": "finger" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett finger", "defSg": "fingret", "indefPl": "fingrar", "defPl": "fingrarna" }
+      "forms": { "indefSg": "ett finger", "defSg": "fingret", "indefPl": "fingrar", "defPl": "fingrarna" },
+      "example": { "sv": "Läraren pekade med fingret på ett svårt uttryck i texten.", "ru": "Учитель показал пальцем на трудное выражение в тексте.", "en": "The teacher pointed with a finger at a difficult expression in the text." }
     },
     {
       "id": "riktning",
@@ -57,7 +59,8 @@
       "translations": { "ru": "направление", "en": "direction" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en riktning", "defSg": "riktningen", "indefPl": "riktningar", "defPl": "riktningarna" }
+      "forms": { "indefSg": "en riktning", "defSg": "riktningen", "indefPl": "riktningar", "defPl": "riktningarna" },
+      "example": { "sv": "Texten har hittat sin riktning efter den nya inledningen.", "ru": "Текст обрёл своё направление после нового вступления.", "en": "The text has found its direction after the new introduction." }
     },
     {
       "id": "hansyn",
@@ -65,7 +68,8 @@
       "translations": { "ru": "внимание, учёт (чьих-то интересов)", "en": "consideration, regard" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." }
+      "note": { "ru": "Обычно без множественного числа.", "en": "Usually has no plural." },
+      "example": { "sv": "Man bör ta hänsyn till läsarens förkunskaper när man skriver en text.", "ru": "При написании текста следует учитывать предварительные знания читателя.", "en": "One should take the reader's prior knowledge into consideration when writing a text." }
     },
     {
       "id": "vikt",
@@ -73,7 +77,8 @@
       "translations": { "ru": "вес; значение", "en": "weight; importance" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en vikt", "defSg": "vikten", "indefPl": "vikter", "defPl": "vikterna" }
+      "forms": { "indefSg": "en vikt", "defSg": "vikten", "indefPl": "vikter", "defPl": "vikterna" },
+      "example": { "sv": "Läraren betonade vikten av att använda fasta uttryck rätt.", "ru": "Учитель подчеркнул важность правильного использования устойчивых выражений.", "en": "The teacher stressed the importance of using fixed expressions correctly." }
     },
     {
       "id": "mojlighet",
@@ -81,7 +86,8 @@
       "translations": { "ru": "возможность", "en": "possibility, opportunity" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" }
+      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" },
+      "example": { "sv": "Fasta uttryck ger dig möjlighet att skriva mer naturligt.", "ru": "Устойчивые выражения дают тебе возможность писать более естественно.", "en": "Fixed expressions give you the opportunity to write more naturally." }
     },
     {
       "id": "varning",
@@ -89,13 +95,15 @@
       "translations": { "ru": "предупреждение", "en": "warning" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en varning", "defSg": "varningen", "indefPl": "varningar", "defPl": "varningarna" }
+      "forms": { "indefSg": "en varning", "defSg": "varningen", "indefPl": "varningar", "defPl": "varningarna" },
+      "example": { "sv": "Texten innehåller en tydlig varning om att missbruka idiom.", "ru": "Текст содержит явное предупреждение о неправильном использовании идиом.", "en": "The text contains a clear warning about misusing idioms." }
     },
     {
       "id": "hemifran",
       "sv": "hemifrån",
       "translations": { "ru": "из дома", "en": "from home" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Många skriver sina texter hemifrån numera.", "ru": "Многие пишут свои тексты из дома в наши дни.", "en": "Many people write their texts from home nowadays." }
     }
   ]
 }

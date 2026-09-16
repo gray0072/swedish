@@ -5,6 +5,8 @@
       "sv": "anden (accent 1)",
       "translations": { "ru": "утка (определённая форма)", "en": "the duck" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en and", "defSg": "anden", "indefPl": "änder", "defPl": "änderna" },
       "note": { "ru": "акцент 1: один пик высоты тона", "en": "accent 1: a single, simple pitch peak" },
       "example": { "sv": "Anden simmar i sjön.", "ru": "Утка плавает в озере.", "en": "The duck swims in the lake." }
     },
@@ -13,6 +15,8 @@
       "sv": "anden (accent 2)",
       "translations": { "ru": "дух (определённая форма)", "en": "the spirit" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en ande", "defSg": "anden", "indefPl": "andar", "defPl": "andarna" },
       "note": { "ru": "акцент 2: два пика высоты тона", "en": "accent 2: a double, rise-fall-rise pitch pattern" },
       "example": { "sv": "Anden i huset var snäll.", "ru": "Дух в доме был добрым.", "en": "The spirit in the house was kind." }
     },
@@ -21,6 +25,8 @@
       "sv": "tomten (accent 1)",
       "translations": { "ru": "участок (земли) (определённая форма)", "en": "the plot (of land)" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tomt", "defSg": "tomten", "indefPl": "tomter", "defPl": "tomterna" },
       "note": { "ru": "акцент 1", "en": "accent 1" },
       "example": { "sv": "Tomten är stor.", "ru": "Участок большой.", "en": "The plot is big." }
     },
@@ -29,6 +35,8 @@
       "sv": "tomten (accent 2)",
       "translations": { "ru": "домовой / Дед Мороз (определённая форма)", "en": "the house gnome / Santa" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en tomte", "defSg": "tomten", "indefPl": "tomtar", "defPl": "tomtarna" },
       "note": { "ru": "акцент 2", "en": "accent 2" },
       "example": { "sv": "Tomten kommer på julafton.", "ru": "Дед Мороз приходит в сочельник.", "en": "Santa comes on Christmas Eve." }
     },
@@ -37,6 +45,8 @@
       "sv": "buren (accent 1)",
       "translations": { "ru": "клетка (определённая форма)", "en": "the cage" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en bur", "defSg": "buren", "indefPl": "burar", "defPl": "burarna" },
       "note": { "ru": "акцент 1", "en": "accent 1" },
       "example": { "sv": "Buren är tom.", "ru": "Клетка пустая.", "en": "The cage is empty." }
     },
@@ -45,6 +55,7 @@
       "sv": "buren (accent 2)",
       "translations": { "ru": "несомый (причастие)", "en": "carried" },
       "pos": "adj",
+      "forms": { "positive": "buren", "neuter": "buret", "plural": "burna", "comparative": "mer buren", "superlative": "mest buren" },
       "note": { "ru": "акцент 2", "en": "accent 2" },
       "example": { "sv": "Väskan blev buren av min bror.", "ru": "Сумку нёс мой брат.", "en": "The bag was carried by my brother." }
     },
@@ -53,14 +64,16 @@
       "sv": "accent 1",
       "translations": { "ru": "акцент 1 (акут)", "en": "accent 1 (acute)" },
       "pos": "phrase",
-      "note": { "ru": "один пик высоты тона; типично для многих коротких/простых слов", "en": "a single pitch peak; typical of many short/simple words" }
+      "note": { "ru": "один пик высоты тона; типично для многих коротких/простых слов", "en": "a single pitch peak; typical of many short/simple words" },
+      "example": { "sv": "Substantivet 'bil' uttalas med accent 1.", "ru": "Существительное 'bil' произносится с акцентом 1.", "en": "The noun 'bil' is pronounced with accent 1." }
     },
     {
       "id": "accent-2",
       "sv": "accent 2",
       "translations": { "ru": "акцент 2 (грав)", "en": "accent 2 (grave)" },
       "pos": "phrase",
-      "note": { "ru": "два пика высоты тона; типично для двусложных слов и сложных слов", "en": "a double pitch peak; typical of two-syllable words and compounds" }
+      "note": { "ru": "два пика высоты тона; типично для двусложных слов и сложных слов", "en": "a double pitch peak; typical of two-syllable words and compounds" },
+      "example": { "sv": "Substantivet 'lampa' uttalas med accent 2.", "ru": "Существительное 'lampa' произносится с акцентом 2.", "en": "The noun 'lampa' is pronounced with accent 2." }
     },
     {
       "id": "melodi",

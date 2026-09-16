@@ -22,7 +22,8 @@
       "translations": { "ru": "пакетный тур", "en": "package holiday" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en paketresa", "defSg": "paketresan", "indefPl": "paketresor", "defPl": "paketresorna" }
+      "forms": { "indefSg": "en paketresa", "defSg": "paketresan", "indefPl": "paketresor", "defPl": "paketresorna" },
+      "example": { "sv": "Vi bokade en paketresa till Grekland.", "ru": "Мы забронировали пакетный тур в Грецию.", "en": "We booked a package holiday to Greece." }
     },
     {
       "id": "resmal",
@@ -39,7 +40,8 @@
       "translations": { "ru": "отмена бронирования", "en": "cancellation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en avbokning", "defSg": "avbokningen", "indefPl": "avbokningar", "defPl": "avbokningarna" }
+      "forms": { "indefSg": "en avbokning", "defSg": "avbokningen", "indefPl": "avbokningar", "defPl": "avbokningarna" },
+      "example": { "sv": "Avbokningen kostar ingenting inom 24 timmar.", "ru": "Отмена бронирования бесплатна в течение 24 часов.", "en": "Cancellation is free within 24 hours." }
     },
     {
       "id": "reseforsakring",
@@ -65,7 +67,8 @@
       "translations": { "ru": "список вещей для поездки", "en": "packing list" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en packlista", "defSg": "packlistan", "indefPl": "packlistor", "defPl": "packlistorna" }
+      "forms": { "indefSg": "en packlista", "defSg": "packlistan", "indefPl": "packlistor", "defPl": "packlistorna" },
+      "example": { "sv": "Jag skrev en packlista innan resan.", "ru": "Я составил список вещей перед поездкой.", "en": "I wrote a packing list before the trip." }
     },
     {
       "id": "hyra-bil",
@@ -97,13 +100,15 @@
       "translations": { "ru": "пограничный контроль", "en": "border control" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en gränskontroll", "defSg": "gränskontrollen", "indefPl": "gränskontroller", "defPl": "gränskontrollerna" }
+      "forms": { "indefSg": "en gränskontroll", "defSg": "gränskontrollen", "indefPl": "gränskontroller", "defPl": "gränskontrollerna" },
+      "example": { "sv": "Vi väntade länge vid gränskontrollen.", "ru": "Мы долго ждали на пограничном контроле.", "en": "We waited a long time at border control." }
     },
     {
       "id": "utomlands",
       "sv": "utomlands",
       "translations": { "ru": "за границей, за границу", "en": "abroad" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Hon har rest mycket utomlands.", "ru": "Она много путешествовала за границей.", "en": "She has traveled a lot abroad." }
     },
     {
       "id": "hemresa",
@@ -111,7 +116,8 @@
       "translations": { "ru": "обратная дорога домой", "en": "the trip home" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en hemresa", "defSg": "hemresan", "indefPl": "hemresor", "defPl": "hemresorna" }
+      "forms": { "indefSg": "en hemresa", "defSg": "hemresan", "indefPl": "hemresor", "defPl": "hemresorna" },
+      "example": { "sv": "Hemresan tog nästan tio timmar.", "ru": "Обратная дорога домой заняла почти десять часов.", "en": "The trip home took almost ten hours." }
     }
   ]
 }

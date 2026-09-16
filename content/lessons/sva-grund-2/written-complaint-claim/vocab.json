@@ -22,7 +22,8 @@
       "translations": { "ru": "предъявить претензию", "en": "to file a claim" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" }
+      "forms": { "infinitive": "reklamera", "present": "reklamerar", "past": "reklamerade", "supine": "reklamerat" },
+      "example": { "sv": "Jag vill reklamera en trasig produkt.", "ru": "Я хочу предъявить претензию по поводу неисправного товара.", "en": "I would like to file a claim about a broken product." }
     },
     {
       "id": "harmed",
@@ -46,7 +47,8 @@
       "translations": { "ru": "компенсация, возмещение", "en": "compensation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ersättning", "defSg": "ersättningen", "indefPl": "ersättningar", "defPl": "ersättningarna" }
+      "forms": { "indefSg": "en ersättning", "defSg": "ersättningen", "indefPl": "ersättningar", "defPl": "ersättningarna" },
+      "example": { "sv": "Jag begär ersättning för den skadade varan.", "ru": "Я требую компенсацию за повреждённый товар.", "en": "I am requesting compensation for the damaged item." }
     },
     {
       "id": "atgarda",
@@ -54,7 +56,8 @@
       "translations": { "ru": "устранить (проблему)", "en": "to fix, to remedy" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "åtgärda", "present": "åtgärdar", "past": "åtgärdade", "supine": "åtgärdat" }
+      "forms": { "infinitive": "åtgärda", "present": "åtgärdar", "past": "åtgärdade", "supine": "åtgärdat" },
+      "example": { "sv": "Vi ber er åtgärda felet så snart som möjligt.", "ru": "Просим вас устранить неисправность как можно скорее.", "en": "We ask you to fix the fault as soon as possible." }
     },
     {
       "id": "byta-ut",
@@ -78,7 +81,8 @@
       "translations": { "ru": "гарантия", "en": "warranty" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en garanti", "defSg": "garantin", "indefPl": "garantier", "defPl": "garantierna" }
+      "forms": { "indefSg": "en garanti", "defSg": "garantin", "indefPl": "garantier", "defPl": "garantierna" },
+      "example": { "sv": "Varan täcks fortfarande av garantin.", "ru": "На товар ещё действует гарантия.", "en": "The item is still covered by the warranty." }
     },
     {
       "id": "frist",
@@ -95,13 +99,15 @@
       "translations": { "ru": "требование", "en": "demand" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett krav", "defSg": "kravet", "indefPl": "krav", "defPl": "kraven" }
+      "forms": { "indefSg": "ett krav", "defSg": "kravet", "indefPl": "krav", "defPl": "kraven" },
+      "example": { "sv": "Företaget avslog mitt krav på återbetalning.", "ru": "Компания отклонила моё требование о возврате денег.", "en": "The company rejected my demand for a refund." }
     },
     {
       "id": "felaktig",
       "sv": "felaktig",
       "translations": { "ru": "неисправный, дефектный", "en": "faulty" },
       "pos": "adj",
+      "forms": { "positive": "felaktig", "neuter": "felaktigt", "plural": "felaktiga", "comparative": "felaktigare", "superlative": "felaktigast" },
       "note": { "ru": "ett-форма: felaktigt, мн.ч.: felaktiga", "en": "ett-form: felaktigt, plural: felaktiga" },
       "example": { "sv": "Varan var felaktig redan när jag öppnade paketet.", "ru": "Товар был неисправен уже при вскрытии упаковки.", "en": "The item was already faulty when I opened the package." }
     }

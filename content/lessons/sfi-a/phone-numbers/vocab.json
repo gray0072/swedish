@@ -80,6 +80,7 @@
       "translations": { "ru": "плюс (знак +)", "en": "plus (the + sign)" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett plus", "defSg": "pluset", "indefPl": "plus", "defPl": "plusen" },
       "example": { "sv": "Plus fyrtiosex är Sverige.", "ru": "Плюс сорок шесть — это Швеция.", "en": "Plus forty-six is Sweden." }
     },
     {
@@ -96,7 +97,8 @@
       "sv": "sjuttiotre",
       "translations": { "ru": "семьдесят три (73)", "en": "seventy-three (73)" },
       "pos": "numeral",
-      "note": { "ru": "Пары цифр в номере часто читают одним словом: 73 — sjuttiotre.", "en": "Pairs of digits in a number are often read as one word: 73 is sjuttiotre." }
+      "note": { "ru": "Пары цифр в номере часто читают одним словом: 73 — sjuttiotre.", "en": "Pairs of digits in a number are often read as one word: 73 is sjuttiotre." },
+      "example": { "sv": "Mitt nummer slutar med sjuttiotre.", "ru": "Мой номер заканчивается на семьдесят три.", "en": "My number ends with seventy-three." }
     },
     {
       "id": "ringa",
@@ -126,25 +128,29 @@
       "id": "vad-ar-ditt-telefonnummer",
       "sv": "Vad är ditt telefonnummer?",
       "translations": { "ru": "Какой у тебя номер телефона?", "en": "What is your phone number?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vad är ditt telefonnummer? Jag vill ringa dig.", "ru": "Какой у тебя номер телефона? Я хочу позвонить тебе.", "en": "What is your phone number? I want to call you." }
     },
     {
       "id": "kan-du-upprepa-numret",
       "sv": "Kan du upprepa numret?",
       "translations": { "ru": "Можешь повторить номер?", "en": "Can you repeat the number?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Förlåt, kan du upprepa numret?", "ru": "Извини, можешь повторить номер?", "en": "Sorry, can you repeat the number?" }
     },
     {
       "id": "kan-du-saga-det-langsammare",
       "sv": "Kan du säga det långsammare?",
       "translations": { "ru": "Можешь сказать это медленнее?", "en": "Can you say it more slowly?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag hörde inte. Kan du säga det långsammare?", "ru": "Я не услышал. Можешь сказать это медленнее?", "en": "I didn't hear it. Can you say it more slowly?" }
     },
     {
       "id": "jag-stavar-mitt-namn",
       "sv": "Jag stavar mitt namn.",
       "translations": { "ru": "Я называю своё имя по буквам.", "en": "I spell my name." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag stavar mitt namn: A-N-N-A.", "ru": "Я называю своё имя по буквам: A-N-N-A.", "en": "I spell my name: A-N-N-A." }
     }
   ]
 }

@@ -5,6 +5,8 @@
       "sv": "BankID",
       "translations": { "ru": "BankID (цифровая идентификация)", "en": "BankID (digital ID app)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "BankID", "defSg": "BankID:et", "indefPl": "BankID", "defPl": "BankID:en" },
       "example": { "sv": "Logga in med BankID för att se dina uppgifter.", "ru": "Войди через BankID, чтобы увидеть свои данные.", "en": "Log in with BankID to see your information." }
     },
     {
@@ -12,6 +14,8 @@
       "sv": "Mina sidor",
       "translations": { "ru": "«Мои страницы» (личный кабинет)", "en": "\"Mina sidor\" (my pages, a personal account portal)" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "sida", "defSg": "sidan", "indefPl": "sidor", "defPl": "sidorna" },
       "example": { "sv": "Du hittar din ansökan under Mina sidor.", "ru": "Ты найдёшь своё заявление в разделе «Мои страницы».", "en": "You'll find your application under \"Mina sidor\"." }
     },
     {
@@ -55,6 +59,8 @@
       "sv": "Kivra",
       "translations": { "ru": "Kivra (сервис цифрового почтового ящика)", "en": "Kivra (a digital mailbox service)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "Kivra", "defSg": "Kivra", "indefPl": "Kivra", "defPl": "Kivra" },
       "example": { "sv": "Jag får mina brev från myndigheterna i Kivra.", "ru": "Письма от госорганов я получаю в Kivra.", "en": "I receive my letters from the authorities in Kivra." }
     },
     {
@@ -140,6 +146,7 @@
       "sv": "digital",
       "translations": { "ru": "цифровой", "en": "digital" },
       "pos": "adj",
+      "forms": { "positive": "digital", "neuter": "digitalt", "plural": "digitala", "comparative": "mer digital", "superlative": "mest digital" },
       "note": { "ru": "ett-форма: digitalt, мн.ч.: digitala", "en": "ett-form: digitalt, plural: digitala" },
       "example": { "sv": "Allt fler tjänster blir digitala.", "ru": "Всё больше услуг становятся цифровыми.", "en": "More and more services are becoming digital." }
     }

@@ -13,7 +13,8 @@
       "translations": { "ru": "идти (о дожде)", "en": "to rain" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "Eftersom det regnade mycket i går kväll, när jag var på väg hem, blev jag alldeles blöt.", "ru": "Так как вчера вечером, когда я шёл домой, шёл сильный дождь, я весь промок.", "en": "Because it rained heavily last night, when I was on my way home, I got completely soaked." }
     },
     {
       "id": "stanna",
@@ -21,7 +22,8 @@
       "translations": { "ru": "оставаться", "en": "to stay" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "stanna", "present": "stannar", "past": "stannade", "supine": "stannat" }
+      "forms": { "infinitive": "stanna", "present": "stannar", "past": "stannade", "supine": "stannat" },
+      "example": { "sv": "Om det regnar imorgon, tror jag att vi stannar hemma hela kvällen.", "ru": "Если завтра будет дождь, думаю, мы весь вечер останемся дома.", "en": "If it rains tomorrow, I think we'll stay home the whole evening." }
     },
     {
       "id": "ringa-lswo",
@@ -38,7 +40,8 @@
       "translations": { "ru": "телефон", "en": "telephone" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "telefon", "defSg": "telefonen", "indefPl": "telefoner", "defPl": "telefonerna" }
+      "forms": { "indefSg": "telefon", "defSg": "telefonen", "indefPl": "telefoner", "defPl": "telefonerna" },
+      "example": { "sv": "När telefonen ringde igår kväll, medan jag lagade middag, blev jag rädd.", "ru": "Когда вчера вечером зазвонил телефон, пока я готовил(а) ужин, я испугался/испугалась.", "en": "When the phone rang last night, while I was cooking dinner, I got scared." }
     },
     {
       "id": "fraga-noun-lswo",
@@ -46,7 +49,8 @@
       "translations": { "ru": "вопрос", "en": "question" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "fråga", "defSg": "frågan", "indefPl": "frågor", "defPl": "frågorna" }
+      "forms": { "indefSg": "fråga", "defSg": "frågan", "indefPl": "frågor", "defPl": "frågorna" },
+      "example": { "sv": "Om du har en fråga när du kommer hem, kan du kontakta mig på kvällen.", "ru": "Если у тебя возникнет вопрос, когда ты придёшь домой, можешь связаться со мной вечером.", "en": "If you have a question when you get home, you can contact me in the evening." }
     },
     {
       "id": "kontakta",
@@ -54,19 +58,22 @@
       "translations": { "ru": "связываться, контактировать", "en": "to contact" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" }
+      "forms": { "infinitive": "kontakta", "present": "kontaktar", "past": "kontaktade", "supine": "kontaktat" },
+      "example": { "sv": "Om du har frågor när du kommer hem ikväll, kan du kontakta mig på telefon.", "ru": "Если у тебя будут вопросы, когда ты придёшь домой сегодня вечером, можешь связаться со мной по телефону.", "en": "If you have questions when you get home tonight, you can contact me by phone." }
     },
     {
       "id": "om-conj",
       "sv": "om",
       "translations": { "ru": "если", "en": "if" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Om det regnar när du kommer hem ikväll, ring mig gärna.", "ru": "Если пойдёт дождь, когда ты придёшь домой вечером, обязательно позвони мне.", "en": "If it rains when you get home tonight, please call me." }
     },
     {
       "id": "nar-conj",
       "sv": "när",
       "translations": { "ru": "когда (союз)", "en": "when (conjunction)" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Jag ringde henne när jag kom hem igår kväll.", "ru": "Я позвонил(а) ей, когда пришёл(шла) домой вчера вечером.", "en": "I called her when I got home last night." }
     },
     {
       "id": "kvall",
@@ -74,19 +81,22 @@
       "translations": { "ru": "вечер", "en": "evening" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "kväll", "defSg": "kvällen", "indefPl": "kvällar", "defPl": "kvällarna" }
+      "forms": { "indefSg": "kväll", "defSg": "kvällen", "indefPl": "kvällar", "defPl": "kvällarna" },
+      "example": { "sv": "Eftersom jag var trött igår kväll, stannade jag hemma.", "ru": "Так как я вчера вечером устал(а), я остался/осталась дома.", "en": "Because I was tired last night, I stayed home." }
     },
     {
       "id": "hem-adv",
       "sv": "hem",
       "translations": { "ru": "домой", "en": "home (direction)" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Eftersom det regnade, gick jag hem tidigare än vanligt.", "ru": "Так как шёл дождь, я пошёл(шла) домой раньше, чем обычно.", "en": "Because it was raining, I went home earlier than usual." }
     },
     {
       "id": "hemma",
       "sv": "hemma",
       "translations": { "ru": "дома", "en": "at home" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Om det regnar imorgon, stannar vi hemma hela dagen.", "ru": "Если завтра будет дождь, мы весь день останемся дома.", "en": "If it rains tomorrow, we'll stay home all day." }
     }
   ]
 }

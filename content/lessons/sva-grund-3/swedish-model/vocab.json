@@ -41,6 +41,8 @@
       "sv": "riksdagen",
       "translations": { "ru": "риксдаг (парламент Швеции)", "en": "the Riksdag (the Swedish parliament)" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "en riksdag", "defSg": "riksdagen", "indefPl": "riksdagar", "defPl": "riksdagarna" },
       "note": { "ru": "Законодательный орган Швеции, состоящий из 349 депутатов.", "en": "Sweden's legislative body, consisting of 349 members." },
       "example": { "sv": "Riksdagen beslutar om nya lagar.", "ru": "Риксдаг принимает новые законы.", "en": "The Riksdag decides on new laws." }
     },
@@ -68,6 +70,7 @@
       "translations": { "ru": "налоговые средства, бюджетные деньги", "en": "tax funds, public money" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett skattemedel", "defSg": "skattemedlet", "indefPl": "skattemedel", "defPl": "skattemedlen" },
       "example": { "sv": "Skolan finansieras med skattemedel.", "ru": "Школа финансируется за счёт налоговых средств.", "en": "The school is financed with tax funds." }
     },
     {
@@ -85,6 +88,7 @@
       "translations": { "ru": "коммунальное собрание (представительный орган коммуны)", "en": "the municipal council" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett kommunfullmäktige", "defSg": "kommunfullmäktige", "indefPl": "kommunfullmäktige", "defPl": "kommunfullmäktige" },
       "note": { "ru": "Высший принимающий решения орган коммуны, избираемый жителями.", "en": "The municipality's highest decision-making body, elected by residents." },
       "example": { "sv": "Kommunfullmäktige beslutar om kommunens budget.", "ru": "Коммунальное собрание принимает решение о бюджете коммуны.", "en": "The municipal council decides on the municipality's budget." }
     },
@@ -94,6 +98,7 @@
       "translations": { "ru": "региональное собрание (представительный орган региона)", "en": "the regional council" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett regionfullmäktige", "defSg": "regionfullmäktige", "indefPl": "regionfullmäktige", "defPl": "regionfullmäktige" },
       "example": { "sv": "Regionfullmäktige fattar beslut om vården.", "ru": "Региональное собрание принимает решения о здравоохранении.", "en": "The regional council makes decisions about healthcare." }
     },
     {
@@ -126,6 +131,7 @@
       "sv": "folkvald",
       "translations": { "ru": "избранный народом", "en": "elected by the people" },
       "pos": "adj",
+      "forms": { "positive": "folkvald", "neuter": "folkvalt", "plural": "folkvalda", "comparative": "mer folkvald", "superlative": "mest folkvald" },
       "example": { "sv": "Ledamöterna i riksdagen är folkvalda.", "ru": "Депутаты риксдага избираются народом.", "en": "Members of the Riksdag are elected by the people." }
     }
   ]

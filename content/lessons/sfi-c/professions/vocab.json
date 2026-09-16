@@ -96,6 +96,7 @@
       "translations": { "ru": "безработный", "en": "unemployed" },
       "pos": "adj",
       "note": { "ru": "ett-форма: arbetslöst, мн.ч.: arbetslösa", "en": "ett-form: arbetslöst, plural: arbetslösa" },
+      "forms": { "positive": "arbetslös", "neuter": "arbetslöst", "plural": "arbetslösa", "comparative": "mer arbetslös", "superlative": "mest arbetslös" },
       "example": { "sv": "Han är arbetslös just nu.", "ru": "Он сейчас безработный.", "en": "He is unemployed right now." }
     },
     {

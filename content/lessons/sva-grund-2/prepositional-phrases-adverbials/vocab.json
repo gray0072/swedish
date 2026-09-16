@@ -40,13 +40,15 @@
       "id": "utan-tvekan",
       "sv": "utan tvekan",
       "translations": { "ru": "без сомнения (образ действия)", "en": "without a doubt (manner)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon är utan tvekan den bästa kandidaten.", "ru": "Она без сомнения лучший кандидат.", "en": "She is without a doubt the best candidate." }
     },
     {
       "id": "vid-tillfallet",
       "sv": "vid tillfället",
       "translations": { "ru": "в тот момент (время)", "en": "at the time (time)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vid tillfället visste ingen vad som skulle hända.", "ru": "В тот момент никто не знал, что произойдёт.", "en": "At the time, no one knew what would happen." }
     },
     {
       "id": "regn",

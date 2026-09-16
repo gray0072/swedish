@@ -51,6 +51,7 @@
       "translations": { "ru": "чаевые", "en": "tip" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en dricks", "defSg": "dricksen", "indefPl": "dricksar", "defPl": "dricksarna" },
       "example": { "sv": "Vi lämnade lite dricks till servitören.", "ru": "Мы оставили немного чаевых официанту.", "en": "We left a small tip for the waiter." },
       "note": { "en": "Usually used as an uncountable noun, mostly in the singular.", "ru": "Обычно употребляется как неисчисляемое существительное, в основном в единственном числе." }
     },
@@ -67,7 +68,8 @@
       "id": "boka-bord",
       "sv": "Jag skulle vilja boka ett bord.",
       "translations": { "ru": "Я хотел(а) бы забронировать столик.", "en": "I would like to book a table." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag skulle vilja boka ett bord för två.", "ru": "Я хотел(а) бы забронировать столик на двоих.", "en": "I would like to book a table for two." }
     },
     {
       "id": "fika",
@@ -84,6 +86,7 @@
       "translations": { "ru": "кофе", "en": "coffee" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett kaffe", "defSg": "kaffet", "indefPl": "kaffeer", "defPl": "kaffeerna" },
       "example": { "sv": "En kopp kaffe, tack.", "ru": "Чашку кофе, пожалуйста.", "en": "A cup of coffee, please." }
     },
     {
@@ -126,7 +129,8 @@
       "id": "smaklig-maltid",
       "sv": "Smaklig måltid!",
       "translations": { "ru": "Приятного аппетита!", "en": "Enjoy your meal!" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Smaklig måltid, allihopa!", "ru": "Приятного аппетита всем!", "en": "Enjoy your meal, everyone!" }
     },
     {
       "id": "kvitto",
@@ -141,7 +145,8 @@
       "id": "betala-var-for-sig",
       "sv": "Vi betalar var för sig, tack.",
       "translations": { "ru": "Мы платим отдельно, пожалуйста.", "en": "We're paying separately, please." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vi betalar var för sig, tack, jag och min vän.", "ru": "Мы платим отдельно, я и мой друг.", "en": "We're paying separately, me and my friend." }
     },
     {
       "id": "rekommendera",

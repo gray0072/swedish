@@ -55,7 +55,8 @@
       "translations": { "ru": "идти (о дожде)", "en": "to rain" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" }
+      "forms": { "infinitive": "regna", "present": "regnar", "past": "regnade", "supine": "regnat" },
+      "example": { "sv": "När det regnar, stannar jag hemma.", "ru": "Когда идёт дождь, я остаюсь дома.", "en": "When it rains, I stay home." }
     },
     {
       "id": "sova",
@@ -63,7 +64,8 @@
       "translations": { "ru": "спать", "en": "to sleep" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Då telefonen ringde, sov jag.", "ru": "Когда зазвонил телефон, я спал.", "en": "When the phone rang, I was sleeping." }
     },
     {
       "id": "ringa",
@@ -71,7 +73,8 @@
       "translations": { "ru": "звонить", "en": "to ring, to call" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" }
+      "forms": { "infinitive": "ringa", "present": "ringer", "past": "ringde", "supine": "ringt" },
+      "example": { "sv": "Ring mig innan du åker.", "ru": "Позвони мне перед тем, как поедешь.", "en": "Call me before you leave." }
     },
     {
       "id": "laga",
@@ -79,7 +82,8 @@
       "translations": { "ru": "готовить (еду)", "en": "to cook, to make (food)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" }
+      "forms": { "infinitive": "laga", "present": "lagar", "past": "lagade", "supine": "lagat" },
+      "example": { "sv": "Han lagade mat medan hon inte var hemma.", "ru": "Он готовил еду, пока её не было дома.", "en": "He cooked while she wasn't home." }
     },
     {
       "id": "aka",
@@ -87,7 +91,8 @@
       "translations": { "ru": "ехать", "en": "to go (by vehicle)" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" }
+      "forms": { "infinitive": "åka", "present": "åker", "past": "åkte", "supine": "åkt" },
+      "example": { "sv": "Efter att han hade läst boken åkte han hem.", "ru": "После того как он прочитал книгу, он поехал домой.", "en": "After he had read the book, he went home." }
     },
     {
       "id": "vanta",
@@ -95,7 +100,8 @@
       "translations": { "ru": "ждать", "en": "to wait" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "vänta", "present": "väntar", "past": "väntade", "supine": "väntat" }
+      "forms": { "infinitive": "vänta", "present": "väntar", "past": "väntade", "supine": "väntat" },
+      "example": { "sv": "Vi väntar tills han inte är arg längre.", "ru": "Мы ждём, пока он не перестанет злиться.", "en": "We wait until he isn't angry anymore." }
     },
     {
       "id": "flytta",
@@ -103,7 +109,8 @@
       "translations": { "ru": "переезжать", "en": "to move (relocate)" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" }
+      "forms": { "infinitive": "flytta", "present": "flyttar", "past": "flyttade", "supine": "flyttat" },
+      "example": { "sv": "Sedan hon flyttade hit har hon inte träffat honom.", "ru": "С тех пор как она переехала сюда, она не встречала его.", "en": "Since she moved here, she hasn't met him." }
     },
     {
       "id": "traffa",
@@ -111,7 +118,8 @@
       "translations": { "ru": "встречать", "en": "to meet" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" }
+      "forms": { "infinitive": "träffa", "present": "träffar", "past": "träffade", "supine": "träffat" },
+      "example": { "sv": "Sedan hon flyttade hit har hon inte träffat honom.", "ru": "С тех пор как она переехала сюда, она не встречала его.", "en": "Since she moved here, she hasn't met him." }
     }
   ]
 }

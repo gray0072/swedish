@@ -57,6 +57,7 @@
       "pos": "noun",
       "gender": "en",
       "note": { "ru": "Семь признаков, защищённых законом о дискриминации: пол, гендерная идентичность, этническая принадлежность, религия, инвалидность, сексуальная ориентация, возраст.", "en": "Seven grounds protected by the Discrimination Act: sex, gender identity, ethnicity, religion, disability, sexual orientation, age." },
+      "forms": { "indefSg": "en diskrimineringsgrund", "defSg": "diskrimineringsgrunden", "indefPl": "diskrimineringsgrunder", "defPl": "diskrimineringsgrunderna" },
       "example": { "sv": "Ålder är en av de sju diskrimineringsgrunderna.", "ru": "Возраст — один из семи признаков дискриминации.", "en": "Age is one of the seven grounds of discrimination." }
     },
     {

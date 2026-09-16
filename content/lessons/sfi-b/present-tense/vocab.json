@@ -5,6 +5,7 @@
       "sv": "vara",
       "translations": { "ru": "быть", "en": "to be" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit", "imperative": "var" },
       "example": { "sv": "Jag är trött.", "ru": "Я устал(а).", "en": "I am tired." }
     },
@@ -41,7 +42,8 @@
       "translations": { "ru": "читать", "en": "to read" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" }
+      "forms": { "infinitive": "läsa", "present": "läser", "past": "läste", "supine": "läst" },
+      "example": { "sv": "Jag läser en bok varje kväll.", "ru": "Я читаю книгу каждый вечер.", "en": "I read a book every evening." }
     },
     {
       "id": "skriva",
@@ -49,7 +51,8 @@
       "translations": { "ru": "писать", "en": "to write" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" }
+      "forms": { "infinitive": "skriva", "present": "skriver", "past": "skrev", "supine": "skrivit" },
+      "example": { "sv": "Hon skriver ett brev.", "ru": "Она пишет письмо.", "en": "She's writing a letter." }
     },
     {
       "id": "arbeta",
@@ -57,7 +60,8 @@
       "translations": { "ru": "работать", "en": "to work" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" }
+      "forms": { "infinitive": "arbeta", "present": "arbetar", "past": "arbetade", "supine": "arbetat" },
+      "example": { "sv": "Vi arbetar på kontoret.", "ru": "Мы работаем в офисе.", "en": "We work at the office." }
     },
     {
       "id": "studera",
@@ -74,7 +78,8 @@
       "translations": { "ru": "есть, кушать", "en": "to eat" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" }
+      "forms": { "infinitive": "äta", "present": "äter", "past": "åt", "supine": "ätit" },
+      "example": { "sv": "Barnen äter frukost klockan sju.", "ru": "Дети едят завтрак в семь часов.", "en": "The children eat breakfast at seven o'clock." }
     },
     {
       "id": "dricka",
@@ -82,7 +87,8 @@
       "translations": { "ru": "пить", "en": "to drink" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "dricka", "present": "dricker", "past": "drack", "supine": "druckit" }
+      "forms": { "infinitive": "dricka", "present": "dricker", "past": "drack", "supine": "druckit" },
+      "example": { "sv": "Jag dricker vatten varje dag.", "ru": "Я пью воду каждый день.", "en": "I drink water every day." }
     },
     {
       "id": "sova",
@@ -90,7 +96,8 @@
       "translations": { "ru": "спать", "en": "to sleep" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" }
+      "forms": { "infinitive": "sova", "present": "sover", "past": "sov", "supine": "sovit" },
+      "example": { "sv": "Barnet sover hela natten.", "ru": "Ребёнок спит всю ночь.", "en": "The child sleeps all night." }
     },
     {
       "id": "gilla",
@@ -107,14 +114,17 @@
       "translations": { "ru": "понимать", "en": "to understand" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" }
+      "forms": { "infinitive": "förstå", "present": "förstår", "past": "förstod", "supine": "förstått" },
+      "example": { "sv": "Jag förstår inte frågan.", "ru": "Я не понимаю вопрос.", "en": "I don't understand the question." }
     },
     {
       "id": "kunna",
       "sv": "kunna",
       "translations": { "ru": "мочь, уметь", "en": "can, to be able to" },
       "pos": "verb",
-      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" }
+      "verbGroup": 4,
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
+      "example": { "sv": "Hon kan prata tre språk.", "ru": "Она умеет говорить на трёх языках.", "en": "She can speak three languages." }
     }
   ]
 }

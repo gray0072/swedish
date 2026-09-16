@@ -7,7 +7,8 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "satsbetoning", "defSg": "satsbetoningen", "indefPl": "satsbetoningar", "defPl": "satsbetoningarna" },
-      "note": { "ru": "Слово в предложении, несущее новую или самую важную информацию, произносится с наибольшим ударением.", "en": "The word carrying the new or most important information in a sentence is pronounced with the strongest stress." }
+      "note": { "ru": "Слово в предложении, несущее новую или самую важную информацию, произносится с наибольшим ударением.", "en": "The word carrying the new or most important information in a sentence is pronounced with the strongest stress." },
+      "example": { "sv": "Det ord som bär satsbetoningen är oftast nytt i sammanhanget.", "ru": "Слово, несущее фразовое ударение, обычно новое в контексте.", "en": "The word carrying the sentence stress is usually new in the context." }
     },
     {
       "id": "reduktion",
@@ -15,13 +16,16 @@
       "translations": { "ru": "редукция (сокращение при быстром произношении)", "en": "reduction (a shortened, weakened pronunciation)" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "reduktion", "defSg": "reduktionen", "indefPl": "reduktioner", "defPl": "reduktionerna" }
+      "forms": { "indefSg": "reduktion", "defSg": "reduktionen", "indefPl": "reduktioner", "defPl": "reduktionerna" },
+      "example": { "sv": "I talspråket sker en tydlig reduktion av obetonade stavelser.", "ru": "В разговорной речи происходит заметная редукция безударных слогов.", "en": "In spoken language there is a clear reduction of unstressed syllables." }
     },
     {
       "id": "obetonad",
       "sv": "obetonad",
       "translations": { "ru": "безударный", "en": "unstressed" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "obetonad", "neuter": "obetonat", "plural": "obetonade", "comparative": "mer obetonad", "superlative": "mest obetonad" },
+      "example": { "sv": "Artikeln \"en\" är oftast obetonad i meningen.", "ru": "Артикль «en» обычно безударный в предложении.", "en": "The article \"en\" is usually unstressed in the sentence." }
     },
     {
       "id": "fokusord",
@@ -29,26 +33,30 @@
       "translations": { "ru": "фокусное слово (несущее главное ударение)", "en": "focus word (carrying the main stress)" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "fokusord", "defSg": "fokusordet", "indefPl": "fokusord", "defPl": "fokusorden" }
+      "forms": { "indefSg": "fokusord", "defSg": "fokusordet", "indefPl": "fokusord", "defPl": "fokusorden" },
+      "example": { "sv": "I meningen \"Jag vill ha kaffe\" är kaffe fokusordet.", "ru": "В предложении «Jag vill ha kaffe» слово kaffe — фокусное слово.", "en": "In the sentence \"Jag vill ha kaffe\", kaffe is the focus word." }
     },
     {
       "id": "flytande-tal",
       "sv": "flytande tal",
       "translations": { "ru": "беглая, связная речь", "en": "connected, fluent speech" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Flytande tal kräver mycket övning i ett nytt språk.", "ru": "Беглая речь требует много практики на новом языке.", "en": "Fluent speech requires a lot of practice in a new language." }
     },
     {
       "id": "har-reducerat",
       "sv": "'ar",
       "translations": { "ru": "редуцированное «har»", "en": "the reduced form of \"har\"" },
       "pos": "phrase",
-      "note": { "ru": "В беглой речи «har» после подлежащего часто теряет начальное h: Jag 'ar sett det.", "en": "In fluent speech, \"har\" after the subject often loses its initial h: Jag 'ar sett det." }
+      "note": { "ru": "В беглой речи «har» после подлежащего часто теряет начальное h: Jag 'ar sett det.", "en": "In fluent speech, \"har\" after the subject often loses its initial h: Jag 'ar sett det." },
+      "example": { "sv": "Jag 'ar sett filmen förut.", "ru": "Я уже видел этот фильм раньше.", "en": "I've seen this film before." }
     },
     {
       "id": "de-reducerat",
       "sv": "de (uttalas dom)",
       "translations": { "ru": "«det/de» произносится как «dom/de»", "en": "\"det/de\" is often pronounced \"dom/de\"" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Dom kommer imorgon.", "ru": "Они придут завтра.", "en": "They are coming tomorrow." }
     },
     {
       "id": "a-for-och",
@@ -63,7 +71,8 @@
       "translations": { "ru": "делать ударение на, подчёркивать", "en": "to stress, to emphasise" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" }
+      "forms": { "infinitive": "betona", "present": "betonar", "past": "betonade", "supine": "betonat" },
+      "example": { "sv": "Man betonar ofta det viktigaste ordet i meningen.", "ru": "Часто делают ударение на самом важном слове в предложении.", "en": "The most important word in the sentence is often stressed." }
     },
     {
       "id": "rytm",
@@ -71,7 +80,8 @@
       "translations": { "ru": "ритм", "en": "rhythm" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "rytm", "defSg": "rytmen", "indefPl": "rytmer", "defPl": "rytmerna" }
+      "forms": { "indefSg": "rytm", "defSg": "rytmen", "indefPl": "rytmer", "defPl": "rytmerna" },
+      "example": { "sv": "Svenska har en speciell rytm med betonade och obetonade stavelser.", "ru": "У шведского языка особый ритм с ударными и безударными слогами.", "en": "Swedish has a particular rhythm with stressed and unstressed syllables." }
     }
   ]
 }

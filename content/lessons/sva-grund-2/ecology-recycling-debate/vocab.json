@@ -48,6 +48,7 @@
       "translations": { "ru": "переработка (отходов)", "en": "recycling" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en återvinning", "defSg": "återvinningen", "indefPl": "återvinningar", "defPl": "återvinningarna" },
       "example": { "sv": "Återvinning minskar mängden avfall som hamnar på soptippen.", "ru": "Переработка уменьшает количество отходов, попадающих на свалку.", "en": "Recycling reduces the amount of waste that ends up in landfill." }
     },
     {
@@ -56,6 +57,7 @@
       "translations": { "ru": "сортировка мусора (по источнику)", "en": "waste sorting" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en källsortering", "defSg": "källsorteringen", "indefPl": "källsorteringar", "defPl": "källsorteringarna" },
       "example": { "sv": "Källsortering är obligatorisk i de flesta svenska kommuner.", "ru": "Сортировка мусора обязательна в большинстве шведских коммун.", "en": "Waste sorting is mandatory in most Swedish municipalities." }
     },
     {
@@ -91,6 +93,7 @@
       "translations": { "ru": "отходы, мусор", "en": "waste" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett avfall", "defSg": "avfallet", "indefPl": "avfall", "defPl": "avfallen" },
       "example": { "sv": "Allt avfall ska sorteras i rätt kärl.", "ru": "Все отходы нужно сортировать в правильные контейнеры.", "en": "All waste should be sorted into the correct bins." }
     },
     {
@@ -108,6 +111,7 @@
       "translations": { "ru": "устойчивый, экологичный", "en": "sustainable" },
       "pos": "adj",
       "note": { "ru": "ett-форма: hållbart, мн.ч.: hållbara", "en": "ett-form: hållbart, plural: hållbara" },
+      "forms": { "positive": "hållbar", "neuter": "hållbart", "plural": "hållbara", "comparative": "hållbarare", "superlative": "hållbarast" },
       "example": { "sv": "Vi försöker leva mer hållbart.", "ru": "Мы стараемся жить более экологично.", "en": "We try to live more sustainably." }
     },
     {

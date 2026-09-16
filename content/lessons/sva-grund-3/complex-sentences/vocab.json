@@ -15,7 +15,8 @@
       "translations": { "ru": "думать, полагать", "en": "to think, believe" },
       "pos": "verb",
       "verbGroup": 3,
-      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" }
+      "forms": { "infinitive": "tro", "present": "tror", "past": "trodde", "supine": "trott" },
+      "example": { "sv": "Jag tror att hon har rätt.", "ru": "Я думаю, что она права.", "en": "I think she is right." }
     },
     {
       "id": "hoppas",
@@ -24,7 +25,8 @@
       "pos": "verb",
       "verbGroup": 1,
       "forms": { "infinitive": "hoppas", "present": "hoppas", "past": "hoppades", "supine": "hoppats" },
-      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." }
+      "note": { "ru": "Депонентный глагол: форма на -s во всех временах.", "en": "A deponent verb: keeps the -s ending in every tense." },
+      "example": { "sv": "Jag hoppas att provet inte blir svårt.", "ru": "Я надеюсь, что экзамен не будет трудным.", "en": "I hope the test won't be difficult." }
     },
     {
       "id": "lova",
@@ -50,46 +52,54 @@
       "translations": { "ru": "экзамен, контрольная", "en": "test, exam" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "prov", "defSg": "provet", "indefPl": "prov", "defPl": "proven" }
+      "forms": { "indefSg": "prov", "defSg": "provet", "indefPl": "prov", "defPl": "proven" },
+      "example": { "sv": "Eleverna skrev provet på fredag.", "ru": "Ученики писали контрольную в пятницу.", "en": "The students took the test on Friday." }
     },
     {
       "id": "sjuk",
       "sv": "sjuk",
       "translations": { "ru": "больной", "en": "sick" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "sjuk", "neuter": "sjukt", "plural": "sjuka", "comparative": "sjukare", "superlative": "sjukast" },
+      "example": { "sv": "Hon stannade hemma eftersom hon var sjuk.", "ru": "Она осталась дома, так как была больна.", "en": "She stayed home because she was sick." }
     },
     {
       "id": "eftersom",
       "sv": "eftersom",
       "translations": { "ru": "так как, потому что", "en": "because, since" },
       "pos": "conjunction",
-      "note": { "ru": "Вводит придаточное причины, требует BIFF-порядка слов.", "en": "Introduces a reason clause; triggers BIFF word order." }
+      "note": { "ru": "Вводит придаточное причины, требует BIFF-порядка слов.", "en": "Introduces a reason clause; triggers BIFF word order." },
+      "example": { "sv": "Han kom sent eftersom bussen var försenad.", "ru": "Он пришёл поздно, так как автобус задержался.", "en": "He arrived late because the bus was delayed." }
     },
     {
       "id": "faestaen",
       "sv": "fastän",
       "translations": { "ru": "хотя", "en": "although, even though" },
       "pos": "conjunction",
-      "note": { "ru": "Вводит уступительное придаточное.", "en": "Introduces a concessive clause." }
+      "note": { "ru": "Вводит уступительное придаточное.", "en": "Introduces a concessive clause." },
+      "example": { "sv": "Hon gick till skolan fastän hon var sjuk.", "ru": "Она пошла в школу, хотя была больна.", "en": "She went to school although she was sick." }
     },
     {
       "id": "varfoer",
       "sv": "varför",
       "translations": { "ru": "почему", "en": "why" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Läraren frågade varför eleven kom för sent.", "ru": "Учитель спросил, почему ученик опоздал.", "en": "The teacher asked why the student was late." }
     },
     {
       "id": "om-conj",
       "sv": "om",
       "translations": { "ru": "ли (в косвенном вопросе)", "en": "whether, if" },
       "pos": "conjunction",
-      "note": { "ru": "Вводит придаточное типа да/нет-вопроса.", "en": "Introduces a yes/no-question clause." }
+      "note": { "ru": "Вводит придаточное типа да/нет-вопроса.", "en": "Introduces a yes/no-question clause." },
+      "example": { "sv": "Jag vet inte om läraren kommer imorgon.", "ru": "Я не знаю, придёт ли учитель завтра.", "en": "I don't know whether the teacher will come tomorrow." }
     },
     {
       "id": "medan",
       "sv": "medan",
       "translations": { "ru": "пока, в то время как", "en": "while" },
-      "pos": "conjunction"
+      "pos": "conjunction",
+      "example": { "sv": "Hon läste medan hon väntade på bussen.", "ru": "Она читала, пока ждала автобус.", "en": "She read while she waited for the bus." }
     },
     {
       "id": "laerare",
@@ -97,7 +107,8 @@
       "translations": { "ru": "учитель", "en": "teacher" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" }
+      "forms": { "indefSg": "lärare", "defSg": "läraren", "indefPl": "lärare", "defPl": "lärarna" },
+      "example": { "sv": "Läraren rättade alla prov på kvällen.", "ru": "Учитель проверял все контрольные вечером.", "en": "The teacher graded all the tests in the evening." }
     },
     {
       "id": "elev",
@@ -105,7 +116,8 @@
       "translations": { "ru": "ученик", "en": "pupil, student" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" }
+      "forms": { "indefSg": "elev", "defSg": "eleven", "indefPl": "elever", "defPl": "eleverna" },
+      "example": { "sv": "Eleven undrade om provet skulle bli svårt.", "ru": "Ученик спрашивал себя, будет ли контрольная трудной.", "en": "The student wondered whether the test would be difficult." }
     }
   ]
 }

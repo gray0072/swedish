@@ -15,7 +15,8 @@
       "translations": { "ru": "открывать", "en": "to open" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "öppna", "present": "öppnar", "past": "öppnade", "supine": "öppnat" }
+      "forms": { "infinitive": "öppna", "present": "öppnar", "past": "öppnade", "supine": "öppnat" },
+      "example": { "sv": "Dörren öppnas automatiskt.", "ru": "Дверь открывается автоматически.", "en": "The door opens automatically." }
     },
     {
       "id": "skriva",
@@ -32,7 +33,8 @@
       "translations": { "ru": "продавать", "en": "to sell" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "sälja", "present": "säljer", "past": "sålde", "supine": "sålt" }
+      "forms": { "infinitive": "sälja", "present": "säljer", "past": "sålde", "supine": "sålt" },
+      "example": { "sv": "Huset säljs av en mäklare.", "ru": "Дом продаётся через агента.", "en": "The house is being sold by an agent." }
     },
     {
       "id": "bygga",
@@ -40,35 +42,44 @@
       "translations": { "ru": "строить", "en": "to build" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "bygga", "present": "bygger", "past": "byggde", "supine": "byggt" }
+      "forms": { "infinitive": "bygga", "present": "bygger", "past": "byggde", "supine": "byggt" },
+      "example": { "sv": "Huset byggdes för hundra år sedan.", "ru": "Дом был построен сто лет назад.", "en": "The house was built a hundred years ago." }
     },
     {
       "id": "bli",
       "sv": "bli",
       "translations": { "ru": "стать", "en": "to become" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "bli", "present": "blir", "past": "blev", "supine": "blivit" },
-      "note": { "ru": "Вспомогательный глагол bli-пассива: bli + причастие (blev stängd).", "en": "The auxiliary of the bli-passive: bli + participle (blev stängd)." }
+      "note": { "ru": "Вспомогательный глагол bli-пассива: bli + причастие (blev stängd).", "en": "The auxiliary of the bli-passive: bli + participle (blev stängd)." },
+      "example": { "sv": "Butiken blev stängd klockan arton.", "ru": "Магазин был закрыт в 18:00.", "en": "The shop was closed at 18:00." }
     },
     {
       "id": "vara",
       "sv": "vara",
       "translations": { "ru": "быть", "en": "to be" },
       "pos": "verb",
+      "verbGroup": 4,
       "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
-      "note": { "ru": "Вспомогательный глагол vara-пассива: vara + причастие (är stängd).", "en": "The auxiliary of the vara-passive: vara + participle (är stängd)." }
+      "note": { "ru": "Вспомогательный глагол vara-пассива: vara + причастие (är stängd).", "en": "The auxiliary of the vara-passive: vara + participle (är stängd)." },
+      "example": { "sv": "Butiken är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
     },
     {
       "id": "passiv",
       "sv": "passiv",
       "translations": { "ru": "пассивный", "en": "passive" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "passiv", "neuter": "passivt", "plural": "passiva", "comparative": "mer passiv", "superlative": "mest passiv" },
+      "example": { "sv": "Satsen står i passiv form.", "ru": "Предложение стоит в пассивной форме.", "en": "The sentence is in passive form." }
     },
     {
       "id": "aktiv",
       "sv": "aktiv",
       "translations": { "ru": "активный", "en": "active" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "aktiv", "neuter": "aktivt", "plural": "aktiva", "comparative": "mer aktiv", "superlative": "mest aktiv" },
+      "example": { "sv": "Man kan skriva samma sats i aktiv eller passiv form.", "ru": "Одно и то же предложение можно написать в активной или пассивной форме.", "en": "You can write the same sentence in active or passive form." }
     },
     {
       "id": "dorr",
@@ -76,7 +87,8 @@
       "translations": { "ru": "дверь", "en": "door" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "dörr", "defSg": "dörren", "indefPl": "dörrar", "defPl": "dörrarna" }
+      "forms": { "indefSg": "dörr", "defSg": "dörren", "indefPl": "dörrar", "defPl": "dörrarna" },
+      "example": { "sv": "Dörren stängs automatiskt klockan tjugotvå.", "ru": "Дверь автоматически закрывается в 22:00.", "en": "The door closes automatically at 22:00." }
     },
     {
       "id": "butik",
@@ -84,7 +96,8 @@
       "translations": { "ru": "магазин", "en": "shop" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "butik", "defSg": "butiken", "indefPl": "butiker", "defPl": "butikerna" }
+      "forms": { "indefSg": "butik", "defSg": "butiken", "indefPl": "butiker", "defPl": "butikerna" },
+      "example": { "sv": "Butiken öppnas klockan nio.", "ru": "Магазин открывается в 9:00.", "en": "The shop opens at 9:00." }
     },
     {
       "id": "bok",
@@ -92,7 +105,8 @@
       "translations": { "ru": "книга", "en": "book" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" }
+      "forms": { "indefSg": "bok", "defSg": "boken", "indefPl": "böcker", "defPl": "böckerna" },
+      "example": { "sv": "Boken skrevs på svenska.", "ru": "Книга была написана на шведском.", "en": "The book was written in Swedish." }
     },
     {
       "id": "forfattare",
@@ -100,7 +114,8 @@
       "translations": { "ru": "автор", "en": "author" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" }
+      "forms": { "indefSg": "författare", "defSg": "författaren", "indefPl": "författare", "defPl": "författarna" },
+      "example": { "sv": "Boken skrevs av en känd författare.", "ru": "Книгу написал известный автор.", "en": "The book was written by a well-known author." }
     },
     {
       "id": "hus",
@@ -108,19 +123,22 @@
       "translations": { "ru": "дом", "en": "house" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" }
+      "forms": { "indefSg": "hus", "defSg": "huset", "indefPl": "hus", "defPl": "husen" },
+      "example": { "sv": "Huset byggs av ett lokalt företag.", "ru": "Дом строится местной компанией.", "en": "The house is being built by a local company." }
     },
     {
       "id": "varje-dag",
       "sv": "varje dag",
       "translations": { "ru": "каждый день", "en": "every day" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Butiken öppnas varje dag klockan nio.", "ru": "Магазин открывается каждый день в 9:00.", "en": "The shop is opened every day at 9:00." }
     },
     {
       "id": "igar",
       "sv": "igår",
       "translations": { "ru": "вчера", "en": "yesterday" },
-      "pos": "adv"
+      "pos": "adv",
+      "example": { "sv": "Butiken stängdes tidigt igår.", "ru": "Вчера магазин закрылся рано.", "en": "The shop was closed early yesterday." }
     }
   ]
 }

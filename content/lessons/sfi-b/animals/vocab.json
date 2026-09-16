@@ -158,6 +158,7 @@
       "sv": "vild",
       "translations": { "ru": "дикий", "en": "wild" },
       "pos": "adj",
+      "forms": { "positive": "vild", "neuter": "vilt", "plural": "vilda", "comparative": "vildare", "superlative": "vildast" },
       "note": { "ru": "ett-форма: vilt, мн.ч.: vilda", "en": "ett-form: vilt, plural: vilda" },
       "example": { "sv": "Ett lejon är ett vilt djur.", "ru": "Лев — дикое животное.", "en": "A lion is a wild animal." }
     },
@@ -166,6 +167,7 @@
       "sv": "tam",
       "translations": { "ru": "домашний, ручной", "en": "tame" },
       "pos": "adj",
+      "forms": { "positive": "tam", "neuter": "tamt", "plural": "tamma", "comparative": "tamare", "superlative": "tamast" },
       "note": { "ru": "ett-форма: tamt, мн.ч.: tamma", "en": "ett-form: tamt, plural: tamma" },
       "example": { "sv": "Katten är tam.", "ru": "Кошка ручная.", "en": "The cat is tame." }
     }

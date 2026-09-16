@@ -93,6 +93,7 @@
       "sv": "dyr",
       "translations": { "ru": "дорогой", "en": "expensive" },
       "pos": "adj",
+      "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Den här klockan är väldigt dyr.", "ru": "Эти часы очень дорогие.", "en": "This watch is very expensive." }
     },
     {
@@ -100,6 +101,7 @@
       "sv": "billig",
       "translations": { "ru": "дешёвый", "en": "cheap" },
       "pos": "adj",
+      "forms": { "positive": "billig", "neuter": "billigt", "plural": "billiga", "comparative": "billigare", "superlative": "billigast" },
       "example": { "sv": "Bussbiljetten är billigare än taxi.", "ru": "Билет на автобус дешевле, чем такси.", "en": "The bus ticket is cheaper than a taxi." }
     },
     {
@@ -111,6 +113,7 @@
         "ru": "«Gratis» не изменяется по роду и числу: ett gratis inträde, en gratis biljett.",
         "en": "\"Gratis\" is invariable — it never changes form: ett gratis inträde, en gratis biljett."
       },
+      "forms": { "positive": "gratis", "neuter": "gratis", "plural": "gratis", "comparative": "gratis", "superlative": "gratis" },
       "example": { "sv": "Inträdet är gratis för barn.", "ru": "Вход бесплатный для детей.", "en": "Entry is free for children." }
     },
     {

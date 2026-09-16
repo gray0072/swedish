@@ -24,7 +24,8 @@
       "translations": { "ru": "символика", "en": "symbolism" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en symbolik", "defSg": "symboliken", "indefPl": "symboliker", "defPl": "symbolikerna" }
+      "forms": { "indefSg": "en symbolik", "defSg": "symboliken", "indefPl": "symboliker", "defPl": "symbolikerna" },
+      "example": { "sv": "Bokens symbolik är svår att tolka vid en första läsning.", "ru": "Символику книги трудно истолковать при первом чтении.", "en": "The book's symbolism is hard to interpret on a first reading." }
     },
     {
       "id": "symbol-lit",
@@ -64,7 +65,8 @@
       "translations": { "ru": "толковать как", "en": "to interpret as" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "tolka", "present": "tolkar", "past": "tolkade", "supine": "tolkat" }
+      "forms": { "infinitive": "tolka", "present": "tolkar", "past": "tolkade", "supine": "tolkat" },
+      "example": { "sv": "Man kan tolka slutet som ett tecken på hopp.", "ru": "Конец можно толковать как знак надежды.", "en": "One can interpret the ending as a sign of hope." }
     },
     {
       "id": "eftertanke",
@@ -72,13 +74,16 @@
       "translations": { "ru": "размышление, задумчивость", "en": "reflection, second thought" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en eftertanke", "defSg": "eftertanken", "indefPl": "eftertankar", "defPl": "eftertankarna" }
+      "forms": { "indefSg": "en eftertanke", "defSg": "eftertanken", "indefPl": "eftertankar", "defPl": "eftertankarna" },
+      "example": { "sv": "Romanen lämnar läsaren med mycket eftertanke.", "ru": "Роман оставляет читателя с богатым материалом для размышлений.", "en": "The novel leaves the reader with a lot to reflect on." }
     },
     {
       "id": "karv",
       "sv": "kärv",
       "translations": { "ru": "суровый, сдержанный (о стиле)", "en": "terse, austere" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "kärv", "neuter": "kärvt", "plural": "kärva", "comparative": "kärvare", "superlative": "kärvast" },
+      "example": { "sv": "Berättaren har ett kärvt och sparsmakat språk.", "ru": "У рассказчика суровый и скупой язык.", "en": "The narrator has a terse and austere style of language." }
     },
     {
       "id": "tempo-lit",
@@ -86,13 +91,15 @@
       "translations": { "ru": "темп (повествования)", "en": "pace" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" }
+      "forms": { "indefSg": "ett tempo", "defSg": "tempot", "indefPl": "tempon", "defPl": "tempona" },
+      "example": { "sv": "Tempot ökar mot slutet av berättelsen.", "ru": "Темп повествования усиливается к концу рассказа.", "en": "The pace picks up towards the end of the story." }
     },
     {
       "id": "oppet-slut",
       "sv": "öppet slut",
       "translations": { "ru": "открытый финал", "en": "open ending" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Romanen har ett öppet slut som väcker många frågor.", "ru": "У романа открытый финал, который вызывает много вопросов.", "en": "The novel has an open ending that raises many questions." }
     },
     {
       "id": "metafor",
@@ -100,7 +107,8 @@
       "translations": { "ru": "метафора", "en": "metaphor" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en metafor", "defSg": "metaforen", "indefPl": "metaforer", "defPl": "metaforerna" }
+      "forms": { "indefSg": "en metafor", "defSg": "metaforen", "indefPl": "metaforer", "defPl": "metaforerna" },
+      "example": { "sv": "Havet används som en metafor för livet.", "ru": "Море используется как метафора жизни.", "en": "The sea is used as a metaphor for life." }
     },
     {
       "id": "kontrast-lit",
@@ -108,19 +116,23 @@
       "translations": { "ru": "контраст", "en": "contrast" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" }
+      "forms": { "indefSg": "en kontrast", "defSg": "kontrasten", "indefPl": "kontraster", "defPl": "kontrasterna" },
+      "example": { "sv": "Det finns en stark kontrast mellan de två huvudpersonerna.", "ru": "Между двумя главными героями существует резкий контраст.", "en": "There is a strong contrast between the two main characters." }
     },
     {
       "id": "aterkommande",
       "sv": "återkommande",
       "translations": { "ru": "повторяющийся", "en": "recurring" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "återkommande", "neuter": "återkommande", "plural": "återkommande", "comparative": "mer återkommande", "superlative": "mest återkommande" },
+      "example": { "sv": "Ensamhet är ett återkommande drag i författarens verk.", "ru": "Одиночество — повторяющаяся черта в произведениях автора.", "en": "Loneliness is a recurring trait in the author's work." }
     },
     {
       "id": "vacka-eftertanke",
       "sv": "väcka eftertanke",
       "translations": { "ru": "заставлять задуматься", "en": "to provoke reflection" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Slutet är tänkt att väcka eftertanke hos läsaren.", "ru": "Финал задуман так, чтобы заставить читателя задуматься.", "en": "The ending is meant to provoke reflection in the reader." }
     }
   ]
 }

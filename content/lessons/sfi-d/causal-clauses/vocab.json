@@ -34,6 +34,7 @@
       "translations": { "ru": "причина", "en": "cause, reason" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en orsak", "defSg": "orsaken", "indefPl": "orsaker", "defPl": "orsakerna" },
       "example": { "sv": "Vad är orsaken till förseningen?", "ru": "Какова причина задержки?", "en": "What's the reason for the delay?" }
     },
     {
@@ -48,6 +49,7 @@
       "sv": "försenad",
       "translations": { "ru": "опоздавший, задержавшийся", "en": "delayed" },
       "pos": "adj",
+      "forms": { "positive": "försenad", "neuter": "försenat", "plural": "försenade", "comparative": "mer försenad", "superlative": "mest försenad" },
       "example": { "sv": "Bussen är försenad idag.", "ru": "Автобус сегодня опаздывает.", "en": "The bus is delayed today." }
     }
   ]

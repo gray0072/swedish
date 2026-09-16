@@ -15,6 +15,7 @@
       "translations": { "ru": "индивидуальный план развития (IUP)", "en": "individual development plan (IUP)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en individuell utvecklingsplan", "defSg": "den individuella utvecklingsplanen", "indefPl": "individuella utvecklingsplaner", "defPl": "de individuella utvecklingsplanerna" },
       "example": { "sv": "Läraren skriver ner mål i den individuella utvecklingsplanen.", "ru": "Учитель записывает цели в индивидуальный план развития.", "en": "The teacher writes down goals in the individual development plan." }
     },
     {

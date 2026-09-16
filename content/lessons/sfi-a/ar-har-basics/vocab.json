@@ -5,6 +5,8 @@
       "sv": "är",
       "translations": { "ru": "быть (я есть, ты есть, он есть — одно и то же слово)", "en": "to be (jag är, du är, han är — the same word)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
       "example": { "sv": "Jag är trött.", "ru": "Я устал.", "en": "I'm tired." }
     },
     {
@@ -12,6 +14,8 @@
       "sv": "har",
       "translations": { "ru": "иметь (одно и то же слово для всех)", "en": "to have (the same word for everyone)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "ha", "present": "har", "past": "hade", "supine": "haft" },
       "example": { "sv": "Jag har en bil.", "ru": "У меня есть машина.", "en": "I have a car." }
     },
     {
@@ -19,6 +23,7 @@
       "sv": "trött",
       "translations": { "ru": "уставший", "en": "tired" },
       "pos": "adj",
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Jag är trött idag.", "ru": "Я сегодня устал.", "en": "I'm tired today." }
     },
     {
@@ -27,6 +32,7 @@
       "translations": { "ru": "ребёнок, дети", "en": "child, children" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett barn", "defSg": "barnet", "indefPl": "barn", "defPl": "barnen" },
       "example": { "sv": "Jag har två barn.", "ru": "У меня двое детей.", "en": "I have two children." }
     },
     {
@@ -35,6 +41,7 @@
       "translations": { "ru": "машина", "en": "car" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en bil", "defSg": "bilen", "indefPl": "bilar", "defPl": "bilarna" },
       "example": { "sv": "Jag har en bil.", "ru": "У меня есть машина.", "en": "I have a car." }
     },
     {

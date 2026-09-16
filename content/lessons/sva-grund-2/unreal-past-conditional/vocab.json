@@ -15,7 +15,8 @@
       "translations": { "ru": "сказать", "en": "to say" },
       "pos": "verb",
       "verbGroup": 4,
-      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" }
+      "forms": { "infinitive": "säga", "present": "säger", "past": "sa", "supine": "sagt" },
+      "example": { "sv": "Om jag hade vetat det skulle jag ha sagt något.", "ru": "Если бы я это знал, я бы что-то сказал.", "en": "If I had known that, I would have said something." }
     },
     {
       "id": "skynda-sig",
@@ -30,7 +31,8 @@
       "id": "hinna-med",
       "sv": "hinna med",
       "translations": { "ru": "успеть на (транспорт)", "en": "to catch (a train/bus)" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Om hon hade skyndat sig skulle hon ha hunnit med tåget.", "ru": "Если бы она поторопилась, она бы успела на поезд.", "en": "If she had hurried, she would have caught the train." }
     },
     {
       "id": "boka-tidigare",
@@ -45,7 +47,8 @@
       "translations": { "ru": "сожаление", "en": "regret" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en ånger", "defSg": "ångern", "indefPl": "ånger", "defPl": "ångrarna" }
+      "forms": { "indefSg": "en ånger", "defSg": "ångern", "indefPl": "ånger", "defPl": "ångrarna" },
+      "example": { "sv": "Han kände en stark ånger efteråt.", "ru": "Потом он почувствовал сильное сожаление.", "en": "He felt strong regret afterward." }
     },
     {
       "id": "pluskvamperfekt",
@@ -53,7 +56,9 @@
       "translations": { "ru": "плюсквамперфект", "en": "the pluperfect" },
       "pos": "noun",
       "gender": "en",
-      "note": { "ru": "Грамматический термин, не бытовое слово.", "en": "A grammatical term, not everyday vocabulary." }
+      "forms": { "indefSg": "en pluskvamperfekt", "defSg": "pluskvamperfekten", "indefPl": "pluskvamperfekter", "defPl": "pluskvamperfekterna" },
+      "note": { "ru": "Грамматический термин, не бытовое слово.", "en": "A grammatical term, not everyday vocabulary." },
+      "example": { "sv": "Pluskvamperfekt används för att visa vad som hänt före ett annat dåtida skeende.", "ru": "Плюсквамперфект используется, чтобы показать, что произошло до другого события в прошлом.", "en": "The pluperfect is used to show what happened before another past event." }
     }
   ]
 }

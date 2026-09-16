@@ -163,8 +163,8 @@
       "sv": "byxor",
       "translations": { "ru": "брюки", "en": "pants" },
       "pos": "noun",
-      "gender": null,
-      "forms": null,
+      "gender": "en",
+      "forms": { "indefSg": "en byxa", "defSg": "byxan", "indefPl": "byxor", "defPl": "byxorna" },
       "note": { "ru": "Всегда множественное число.", "en": "Always plural." },
       "example": { "sv": "Kan jag byta byxorna mot en annan storlek?", "ru": "Могу я поменять брюки на другой размер?", "en": "Can I exchange the pants for another size?" }
     }

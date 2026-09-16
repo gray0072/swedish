@@ -34,25 +34,29 @@
       "id": "en-majoritet",
       "sv": "en majoritet",
       "translations": { "ru": "большинство (формально)", "en": "a majority" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "En majoritet av befolkningen stödjer förslaget.", "ru": "Большинство населения поддерживает предложение.", "en": "A majority of the population supports the proposal." }
     },
     {
       "id": "en-minoritet",
       "sv": "en minoritet",
       "translations": { "ru": "меньшинство", "en": "a minority" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "En minoritet röstade emot förslaget.", "ru": "Меньшинство проголосовало против предложения.", "en": "A minority voted against the proposal." }
     },
     {
       "id": "ungefar-halften",
       "sv": "ungefär hälften",
       "translations": { "ru": "примерно половина", "en": "roughly half" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Ungefär hälften av deltagarna svarade på enkäten.", "ru": "Примерно половина участников ответила на опрос.", "en": "Roughly half of the participants answered the survey." }
     },
     {
       "id": "en-liten-del",
       "sv": "en liten del",
       "translations": { "ru": "небольшая часть", "en": "a small part" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Endast en liten del av budgeten gick till kultur.", "ru": "Только небольшая часть бюджета пошла на культуру.", "en": "Only a small part of the budget went to culture." }
     },
     {
       "id": "oka",
@@ -60,7 +64,8 @@
       "translations": { "ru": "увеличиваться, расти", "en": "to increase" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" }
+      "forms": { "infinitive": "öka", "present": "ökar", "past": "ökade", "supine": "ökat" },
+      "example": { "sv": "Antalet studenter har ökat de senaste åren.", "ru": "Число студентов увеличилось за последние годы.", "en": "The number of students has increased in recent years." }
     },
     {
       "id": "minska",
@@ -68,7 +73,8 @@
       "translations": { "ru": "уменьшаться", "en": "to decrease" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" }
+      "forms": { "infinitive": "minska", "present": "minskar", "past": "minskade", "supine": "minskat" },
+      "example": { "sv": "Arbetslösheten har minskat något.", "ru": "Безработица немного снизилась.", "en": "Unemployment has decreased somewhat." }
     }
   ]
 }

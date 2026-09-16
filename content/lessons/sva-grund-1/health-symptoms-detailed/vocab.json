@@ -54,6 +54,7 @@
       "sv": "ihållande",
       "translations": { "ru": "постоянный, непрекращающийся", "en": "persistent, constant" },
       "pos": "adj",
+      "forms": { "positive": "ihållande", "neuter": "ihållande", "plural": "ihållande", "comparative": "mer ihållande", "superlative": "mest ihållande" },
       "note": { "ru": "не изменяется по родам и числам (прилагательные на -ande)", "en": "invariant across gender and number (adjectives ending in -ande)" },
       "example": { "sv": "Jag har ihållande huvudvärk.", "ru": "У меня постоянная головная боль.", "en": "I have a persistent headache." }
     },
@@ -62,6 +63,7 @@
       "sv": "akut",
       "translations": { "ru": "острый, срочный", "en": "acute, urgent" },
       "pos": "adj",
+      "forms": { "positive": "akut", "neuter": "akut", "plural": "akuta", "comparative": "mer akut", "superlative": "mest akut" },
       "note": { "ru": "ett-форма: akut, мн.ч.: akuta", "en": "ett-form: akut, plural: akuta" },
       "example": { "sv": "Det känns akut, jag måste till sjukhuset.", "ru": "Это похоже на срочный случай, мне нужно в больницу.", "en": "It feels urgent, I need to go to the hospital." }
     },
@@ -70,6 +72,7 @@
       "sv": "svår",
       "translations": { "ru": "сильный, тяжёлый (о боли)", "en": "severe" },
       "pos": "adj",
+      "forms": { "positive": "svår", "neuter": "svårt", "plural": "svåra", "comparative": "svårare", "superlative": "svårast" },
       "note": { "ru": "ett-форма: svårt, мн.ч.: svåra", "en": "ett-form: svårt, plural: svåra" },
       "example": { "sv": "Jag har svår smärta i ryggen.", "ru": "У меня сильная боль в спине.", "en": "I have severe pain in my back." }
     },
@@ -78,6 +81,7 @@
       "sv": "lindrig",
       "translations": { "ru": "лёгкий, несильный", "en": "mild" },
       "pos": "adj",
+      "forms": { "positive": "lindrig", "neuter": "lindrigt", "plural": "lindriga", "comparative": "lindrigare", "superlative": "lindrigast" },
       "note": { "ru": "ett-форма: lindrigt, мн.ч.: lindriga", "en": "ett-form: lindrigt, plural: lindriga" },
       "example": { "sv": "Det är bara en lindrig förkylning.", "ru": "Это просто лёгкая простуда.", "en": "It's just a mild cold." }
     },

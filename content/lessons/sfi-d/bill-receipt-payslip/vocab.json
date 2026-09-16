@@ -15,6 +15,7 @@
       "translations": { "ru": "срок оплаты", "en": "due date" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en förfallodag", "defSg": "förfallodagen", "indefPl": "förfallodagar", "defPl": "förfallodagarna" },
       "example": { "sv": "Förfallodagen är den 25:e.", "ru": "Срок оплаты — 25-е число.", "en": "The due date is the 25th." }
     },
     {
@@ -23,6 +24,7 @@
       "translations": { "ru": "сумма", "en": "amount" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett belopp", "defSg": "beloppet", "indefPl": "belopp", "defPl": "beloppen" },
       "example": { "sv": "Vilket belopp ska jag betala?", "ru": "Какую сумму мне нужно заплатить?", "en": "What amount do I need to pay?" }
     },
     {
@@ -30,6 +32,8 @@
       "sv": "OCR-nummer",
       "translations": { "ru": "OCR-номер (номер платежа)", "en": "OCR number (payment reference)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett OCR-nummer", "defSg": "OCR-numret", "indefPl": "OCR-nummer", "defPl": "OCR-numren" },
       "example": { "sv": "Ange OCR-numret när du betalar.", "ru": "При оплате укажи OCR-номер.", "en": "Enter the OCR number when you pay." }
     },
     {
@@ -47,6 +51,7 @@
       "translations": { "ru": "НДС", "en": "VAT" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en moms", "defSg": "momsen", "indefPl": "momser", "defPl": "momserna" },
       "example": { "sv": "Priset inkluderar moms.", "ru": "Цена включает НДС.", "en": "The price includes VAT." }
     },
     {
@@ -55,6 +60,7 @@
       "translations": { "ru": "расчётный листок (по зарплате)", "en": "payslip" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en lönespecifikation", "defSg": "lönespecifikationen", "indefPl": "lönespecifikationer", "defPl": "lönespecifikationerna" },
       "example": { "sv": "Lönespecifikationen visar bruttolön och skatt.", "ru": "Расчётный листок показывает зарплату до вычета налогов и налог.", "en": "The payslip shows gross pay and tax." }
     },
     {
@@ -63,6 +69,7 @@
       "translations": { "ru": "зарплата до вычета налогов", "en": "gross pay" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en bruttolön", "defSg": "bruttolönen", "indefPl": "bruttolöner", "defPl": "bruttolönerna" },
       "example": { "sv": "Min bruttolön är högre än nettolönen.", "ru": "Моя зарплата до вычета налогов выше, чем после вычета.", "en": "My gross pay is higher than my net pay." }
     },
     {
@@ -71,6 +78,7 @@
       "translations": { "ru": "зарплата после вычета налогов", "en": "net pay" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en nettolön", "defSg": "nettolönen", "indefPl": "nettolöner", "defPl": "nettolönerna" },
       "example": { "sv": "Nettolönen sätts in på mitt konto.", "ru": "Зарплата после вычета налогов поступает на мой счёт.", "en": "The net pay is paid into my account." }
     },
     {
@@ -79,6 +87,7 @@
       "translations": { "ru": "налоговый вычет (удержание налога)", "en": "tax deduction" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett skatteavdrag", "defSg": "skatteavdraget", "indefPl": "skatteavdrag", "defPl": "skatteavdragen" },
       "example": { "sv": "Skatteavdraget syns tydligt på specifikationen.", "ru": "Налоговое удержание чётко видно в листке.", "en": "The tax deduction is clearly shown on the payslip." }
     },
     {
@@ -87,6 +96,7 @@
       "translations": { "ru": "автоплатёж (прямое дебетование)", "en": "direct debit" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett autogiro", "defSg": "autogirot", "indefPl": "autogiron", "defPl": "autogirona" },
       "example": { "sv": "Jag betalar hyran med autogiro.", "ru": "Я плачу за аренду автоплатёжом.", "en": "I pay rent by direct debit." }
     },
     {

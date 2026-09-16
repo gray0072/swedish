@@ -39,6 +39,8 @@
       "sv": "Swish",
       "translations": { "ru": "Swish (сервис мгновенных платежей)", "en": "Swish (an instant-payment service)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "ett Swish", "defSg": "Swishet", "indefPl": "Swish", "defPl": "Swishen" },
       "example": { "sv": "De flesta svenskar betalar med Swish i vardagen.", "ru": "Большинство шведов расплачиваются через Swish в повседневной жизни.", "en": "Most Swedes pay with Swish in everyday life." }
     },
     {
@@ -64,6 +66,8 @@
       "sv": "Mina meddelanden",
       "translations": { "ru": "«Мои сообщения» (цифровой почтовый сервис)", "en": "\"Mina meddelanden\" (a digital mail service)" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "Mina meddelanden", "defSg": "Mina meddelanden", "indefPl": "Mina meddelanden", "defPl": "Mina meddelanden" },
       "example": { "sv": "Skatteverket skickar beslutet till Mina meddelanden.", "ru": "Налоговое агентство отправляет решение в «Мои сообщения».", "en": "The Tax Agency sends the decision to \"Mina meddelanden\"." }
     },
     {
@@ -98,6 +102,7 @@
       "sv": "föra över pengar",
       "translations": { "ru": "переводить деньги", "en": "to transfer money" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "föra över", "present": "för över", "past": "förde över", "supine": "fört över" },
       "example": { "sv": "Jag förde över pengar till mitt sparkonto.", "ru": "Я перевёл деньги на свой сберегательный счёт.", "en": "I transferred money to my savings account." }
     },

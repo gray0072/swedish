@@ -25,7 +25,8 @@
       "id": "det-snoar",
       "sv": "det snöar",
       "translations": { "ru": "идёт снег", "en": "it's snowing" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det snöar mycket i januari.", "ru": "В январе идёт много снега.", "en": "It snows a lot in January." }
     },
     {
       "id": "det-ar-viktigt-att",
@@ -39,7 +40,8 @@
       "sv": "formellt subjekt",
       "translations": { "ru": "формальное подлежащее", "en": "formal subject" },
       "pos": "phrase",
-      "note": { "ru": "Подлежащее без собственного значения, только заполняющее место в предложении.", "en": "A subject with no meaning of its own, just filling the sentence's subject slot." }
+      "note": { "ru": "Подлежащее без собственного значения, только заполняющее место в предложении.", "en": "A subject with no meaning of its own, just filling the sentence's subject slot." },
+      "example": { "sv": "\"Det\" i \"det regnar\" är ett formellt subjekt.", "ru": "«Det» в «det regnar» — формальное подлежащее.", "en": "\"Det\" in \"det regnar\" is a formal subject." }
     },
     {
       "id": "platshallare",
@@ -47,7 +49,8 @@
       "translations": { "ru": "заполнитель места", "en": "placeholder" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "platshållare", "defSg": "platshållaren", "indefPl": "platshållare", "defPl": "platshållarna" }
+      "forms": { "indefSg": "platshållare", "defSg": "platshållaren", "indefPl": "platshållare", "defPl": "platshållarna" },
+      "example": { "sv": "\"Det\" fungerar som en platshållare för subjektet.", "ru": "«Det» служит заполнителем места для подлежащего.", "en": "\"Det\" functions as a placeholder for the subject." }
     },
     {
       "id": "det-ar-kallt",
@@ -61,7 +64,8 @@
       "sv": "verkligt subjekt",
       "translations": { "ru": "настоящее (реальное) подлежащее", "en": "the real (notional) subject" },
       "pos": "phrase",
-      "note": { "ru": "Тот, кто/что на самом деле действует — отличается от формального «det».", "en": "The one that actually acts or exists — different from the formal \"det\"." }
+      "note": { "ru": "Тот, кто/что на самом деле действует — отличается от формального «det».", "en": "The one that actually acts or exists — different from the formal \"det\"." },
+      "example": { "sv": "I \"det finns en park\" är \"en park\" det verkliga subjektet.", "ru": "В «det finns en park» «en park» — реальное подлежащее.", "en": "In \"det finns en park\", \"en park\" is the real subject." }
     },
     {
       "id": "park",
@@ -69,7 +73,8 @@
       "translations": { "ru": "парк", "en": "park" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "park", "defSg": "parken", "indefPl": "parker", "defPl": "parkerna" }
+      "forms": { "indefSg": "park", "defSg": "parken", "indefPl": "parker", "defPl": "parkerna" },
+      "example": { "sv": "Det finns en stor park nära huset.", "ru": "Рядом с домом есть большой парк.", "en": "There is a big park near the house." }
     }
   ]
 }

@@ -6,7 +6,8 @@
       "translations": { "ru": "исследовать, обследовать", "en": "to investigate, to examine" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" }
+      "forms": { "infinitive": "undersöka", "present": "undersöker", "past": "undersökte", "supine": "undersökt" },
+      "example": { "sv": "Forskarna undersöker hur nominalisering påverkar skriftspråket.", "ru": "Учёные исследуют, как номинализация влияет на письменный язык.", "en": "The researchers are investigating how nominalisation affects written language." }
     },
     {
       "id": "undersokning",
@@ -23,14 +24,18 @@
       "translations": { "ru": "использование (сам процесс)", "en": "usage, the act of using" },
       "pos": "noun",
       "gender": "ett",
-      "note": { "ru": "Абстрактное существительное от «använda», совпадает по форме с презенс-причастием.", "en": "An abstract noun from \"använda\", identical in shape to the present participle." }
+      "forms": { "indefSg": "ett användande", "defSg": "användandet", "indefPl": "användanden", "defPl": "användandena" },
+      "note": { "ru": "Абстрактное существительное от «använda», совпадает по форме с презенс-причастием.", "en": "An abstract noun from \"använda\", identical in shape to the present participle." },
+      "example": { "sv": "Användandet av passiva konstruktioner minskar när man nominaliserar.", "ru": "Использование пассивных конструкций уменьшается при номинализации.", "en": "The use of passive constructions decreases when you nominalise." }
     },
     {
       "id": "agerande",
       "sv": "agerande",
       "translations": { "ru": "поведение, образ действий", "en": "behaviour, conduct" },
       "pos": "noun",
-      "gender": "ett"
+      "gender": "ett",
+      "forms": { "indefSg": "ett agerande", "defSg": "agerandet", "indefPl": "ageranden", "defPl": "agerandena" },
+      "example": { "sv": "Chefens agerande beskrevs i rapporten.", "ru": "Поведение начальника было описано в отчёте.", "en": "The manager's conduct was described in the report." }
     },
     {
       "id": "mojlighet",
@@ -38,7 +43,8 @@
       "translations": { "ru": "возможность", "en": "possibility" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" }
+      "forms": { "indefSg": "en möjlighet", "defSg": "möjligheten", "indefPl": "möjligheter", "defPl": "möjligheterna" },
+      "example": { "sv": "Utbildningen gav henne nya möjligheter.", "ru": "Образование дало ей новые возможности.", "en": "The education gave her new opportunities." }
     },
     {
       "id": "sakerhet",
@@ -46,7 +52,8 @@
       "translations": { "ru": "надёжность, безопасность", "en": "safety, security" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" }
+      "forms": { "indefSg": "en säkerhet", "defSg": "säkerheten", "indefPl": "säkerheter", "defPl": "säkerheterna" },
+      "example": { "sv": "Undersökningen ökade säkerheten på arbetsplatsen.", "ru": "Проверка повысила безопасность на рабочем месте.", "en": "The investigation increased safety at the workplace." }
     },
     {
       "id": "berattelse",
@@ -54,7 +61,8 @@
       "translations": { "ru": "рассказ, повествование", "en": "story, narrative" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" }
+      "forms": { "indefSg": "en berättelse", "defSg": "berättelsen", "indefPl": "berättelser", "defPl": "berättelserna" },
+      "example": { "sv": "Hennes berättelse byggde på många nominaliseringar.", "ru": "Её рассказ был построен на множестве номинализаций.", "en": "Her narrative was built on many nominalisations." }
     },
     {
       "id": "upplevelse",
@@ -62,7 +70,8 @@
       "translations": { "ru": "переживание, впечатление", "en": "experience" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en upplevelse", "defSg": "upplevelsen", "indefPl": "upplevelser", "defPl": "upplevelserna" }
+      "forms": { "indefSg": "en upplevelse", "defSg": "upplevelsen", "indefPl": "upplevelser", "defPl": "upplevelserna" },
+      "example": { "sv": "Kursen gav honom en ny upplevelse av det svenska språket.", "ru": "Курс дал ему новое переживание шведского языка.", "en": "The course gave him a new experience of the Swedish language." }
     },
     {
       "id": "utbildning",
@@ -70,7 +79,8 @@
       "translations": { "ru": "образование, обучение", "en": "education, training" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" }
+      "forms": { "indefSg": "en utbildning", "defSg": "utbildningen", "indefPl": "utbildningar", "defPl": "utbildningarna" },
+      "example": { "sv": "Hans utbildning tog fyra år att slutföra.", "ru": "Его образование заняло четыре года.", "en": "His education took four years to complete." }
     }
   ]
 }

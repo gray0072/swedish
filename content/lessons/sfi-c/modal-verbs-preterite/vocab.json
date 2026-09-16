@@ -5,6 +5,8 @@
       "sv": "kunde",
       "translations": { "ru": "мог(ла)", "en": "could" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "kunna", "present": "kan", "past": "kunde", "supine": "kunnat" },
       "note": { "ru": "претерит от kan", "en": "preterite of kan" },
       "example": { "sv": "Jag kunde inte sova.", "ru": "Я не мог уснуть.", "en": "I couldn't sleep." }
     },
@@ -13,6 +15,8 @@
       "sv": "ville",
       "translations": { "ru": "хотел(а)", "en": "wanted to" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vilja", "present": "vill", "past": "ville", "supine": "velat" },
       "note": { "ru": "претерит от vill", "en": "preterite of vill" },
       "example": { "sv": "Hon ville åka hem.", "ru": "Она хотела поехать домой.", "en": "She wanted to go home." }
     },
@@ -21,6 +25,8 @@
       "sv": "skulle",
       "translations": { "ru": "должен(на) был(а), собирался(лась)", "en": "was going to, would" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "skola", "present": "ska", "past": "skulle", "supine": "skolat" },
       "note": { "ru": "претерит от ska", "en": "preterite of ska" },
       "example": { "sv": "Vi skulle träffas klockan sex.", "ru": "Мы должны были встретиться в шесть.", "en": "We were going to meet at six." }
     },
@@ -29,6 +35,8 @@
       "sv": "fick",
       "translations": { "ru": "получил(а), разрешили", "en": "was allowed to, got to" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "få", "present": "får", "past": "fick", "supine": "fått" },
       "note": { "ru": "претерит от får", "en": "preterite of får" },
       "example": { "sv": "Han fick låna min cykel.", "ru": "Ему разрешили одолжить мой велосипед.", "en": "He got to borrow my bike." }
     },
@@ -53,6 +61,8 @@
       "sv": "träffas",
       "translations": { "ru": "встречаться", "en": "to meet (each other)" },
       "pos": "verb",
+      "verbGroup": 1,
+      "forms": { "infinitive": "träffas", "present": "träffas", "past": "träffades", "supine": "träffats" },
       "example": { "sv": "Vi skulle träffas klockan sex, men jag kom sent.", "ru": "Мы должны были встретиться в шесть, но я опоздал.", "en": "We were going to meet at six, but I was late." }
     },
     {

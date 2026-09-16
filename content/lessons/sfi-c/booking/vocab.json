@@ -23,6 +23,7 @@
       "sv": "boka om",
       "translations": { "ru": "перенести запись", "en": "to reschedule" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "boka om", "present": "bokar om", "past": "bokade om", "supine": "bokat om" },
       "example": { "sv": "Kan vi boka om till fredag istället?", "ru": "Можем перенести на пятницу?", "en": "Can we reschedule to Friday instead?" }
     },
@@ -40,6 +41,7 @@
       "sv": "ledig",
       "translations": { "ru": "свободный, доступный", "en": "free, available" },
       "pos": "adj",
+      "forms": { "positive": "ledig", "neuter": "ledigt", "plural": "lediga", "comparative": "ledigare", "superlative": "ledigast" },
       "example": { "sv": "Är klockan tio ledig?", "ru": "Десять часов свободно?", "en": "Is ten o'clock available?" }
     },
     {
@@ -47,6 +49,7 @@
       "sv": "upptagen",
       "translations": { "ru": "занят(о)", "en": "busy, occupied" },
       "pos": "adj",
+      "forms": { "positive": "upptagen", "neuter": "upptaget", "plural": "upptagna", "comparative": "mer upptagen", "superlative": "mest upptagen" },
       "example": { "sv": "Tyvärr är jag upptagen på måndag.", "ru": "К сожалению, в понедельник я занят(а).", "en": "Unfortunately I'm busy on Monday." }
     },
     {
@@ -145,6 +148,7 @@
       "translations": { "ru": "приём без записи", "en": "drop-in (no appointment needed)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en drop-in", "defSg": "drop-in:en", "indefPl": "drop-in", "defPl": "drop-in:en" },
       "example": { "sv": "Vårdcentralen har drop-in på morgonen.", "ru": "В поликлинике утром приём без записи.", "en": "The clinic has drop-in hours in the morning." }
     },
     {

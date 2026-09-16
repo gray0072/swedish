@@ -72,6 +72,7 @@
       "translations": { "ru": "резюме, CV", "en": "CV, resume" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett CV", "defSg": "CV:t", "indefPl": "CV:n", "defPl": "CV:na" },
       "example": { "sv": "Bifoga ditt CV och personliga brev.", "ru": "Приложи своё резюме и сопроводительное письмо.", "en": "Attach your CV and cover letter." }
     },
     {
@@ -120,6 +121,7 @@
       "sv": "tacka ja till",
       "translations": { "ru": "принять (предложение)", "en": "to accept (an offer)" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "tacka ja till", "present": "tackar ja till", "past": "tackade ja till", "supine": "tackat ja till" },
       "example": { "sv": "Jag tackade ja till erbjudandet direkt.", "ru": "Я сразу принял(а) предложение.", "en": "I accepted the offer right away." }
     },
@@ -128,6 +130,7 @@
       "sv": "tacka nej till",
       "translations": { "ru": "отклонить (предложение)", "en": "to decline (an offer)" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "tacka nej till", "present": "tackar nej till", "past": "tackade nej till", "supine": "tackat nej till" },
       "example": { "sv": "Hon tackade nej till tjänsten.", "ru": "Она отклонила эту должность.", "en": "She declined the position." }
     }

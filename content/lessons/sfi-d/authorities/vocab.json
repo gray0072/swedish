@@ -24,6 +24,7 @@
       "translations": { "ru": "заявление", "en": "application" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en ansökan", "defSg": "ansökningen", "indefPl": "ansökningar", "defPl": "ansökningarna" },
       "example": { "sv": "Ansökan måste skickas in före tidsfristen.", "ru": "Заявление нужно отправить до срока.", "en": "The application must be sent before the deadline." }
     },
     {
@@ -58,6 +59,8 @@
       "sv": "Skatteverket",
       "translations": { "ru": "Налоговое агентство", "en": "the Swedish Tax Agency" },
       "pos": "noun",
+      "gender": "ett",
+      "forms": { "indefSg": "Skatteverket", "defSg": "Skatteverket", "indefPl": "Skatteverket", "defPl": "Skatteverket" },
       "example": { "sv": "Jag måste kontakta Skatteverket.", "ru": "Мне нужно связаться с налоговой.", "en": "I need to contact the Tax Agency." }
     },
     {
@@ -65,6 +68,8 @@
       "sv": "Försäkringskassan",
       "translations": { "ru": "Агентство социального страхования", "en": "the Swedish Social Insurance Agency" },
       "pos": "noun",
+      "gender": "en",
+      "forms": { "indefSg": "Försäkringskassan", "defSg": "Försäkringskassan", "indefPl": "Försäkringskassan", "defPl": "Försäkringskassan" },
       "example": { "sv": "Jag vill boka en tid hos Försäkringskassan.", "ru": "Я хочу записаться на приём в Försäkringskassan.", "en": "I want to book an appointment with the Social Insurance Agency." }
     },
     {
@@ -144,6 +149,7 @@
       "sv": "fylla i",
       "translations": { "ru": "заполнять (бланк)", "en": "to fill in" },
       "pos": "verb",
+      "verbGroup": 2,
       "forms": { "infinitive": "fylla i", "present": "fyller i", "past": "fyllde i", "supine": "fyllt i" },
       "example": { "sv": "Fyll i blanketten med bläckpenna.", "ru": "Заполни бланк ручкой.", "en": "Fill in the form with a pen." }
     },

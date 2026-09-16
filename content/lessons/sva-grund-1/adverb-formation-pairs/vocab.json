@@ -69,7 +69,8 @@
       "sv": "rörelse och läge",
       "translations": { "ru": "движение и местоположение", "en": "movement and location" },
       "pos": "phrase",
-      "note": { "ru": "Ключевое различие в парах наречий места.", "en": "The key distinction in these place-adverb pairs." }
+      "note": { "ru": "Ключевое различие в парах наречий места.", "en": "The key distinction in these place-adverb pairs." },
+      "example": { "sv": "Hon springer upp för trappan; sedan är hon uppe.", "ru": "Она бежит вверх по лестнице; потом она наверху.", "en": "She runs up the stairs; then she is up there." }
     }
   ]
 }

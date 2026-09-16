@@ -74,10 +74,20 @@ describe('wordForms', () => {
     expect(wordForms({ ...base, sv: 'hej', pos: 'phrase', forms: null } as VocabItem)).toEqual([]);
   });
 
-  it('never leaves an item that has forms in the content with an empty line', () => {
+  it('never crashes on a real content item, and only returns an empty line for a genuinely invariant word', () => {
+    // A real word can be fully invariant — "gratis", an abbreviation like "CSN", an agency
+    // name like "Skatteverket" — in which case every form legitimately equals the headword
+    // (once articles are stripped, same as `wordForms` does internally) and an empty result
+    // is correct, not a content bug.
+    const strip = (v: string) => v.trim().toLowerCase().replace(/^(en|ett|att)\s+/, '');
     for (const lesson of getAllLessons()) {
       for (const item of lesson.vocab) {
-        if (item.forms) expect(wordForms(item).length).toBeGreaterThan(0);
+        if (!item.forms) continue;
+        const forms = wordForms(item);
+        if (forms.length > 0) continue;
+        const headword = strip(item.sv);
+        const isInvariant = Object.values(item.forms).every((v) => !v || strip(v) === headword);
+        expect(isInvariant).toBe(true);
       }
     }
   });

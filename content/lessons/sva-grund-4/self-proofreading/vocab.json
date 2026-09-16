@@ -6,14 +6,17 @@
       "translations": { "ru": "вычитывать, делать корректуру", "en": "to proofread" },
       "pos": "verb",
       "verbGroup": 2,
-      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" }
+      "forms": { "infinitive": "korrekturläsa", "present": "korrekturläser", "past": "korrekturläste", "supine": "korrekturläst" },
+      "example": { "sv": "Det är viktigt att korrekturläsa texten innan du lämnar in den.", "ru": "Важно вычитать текст перед тем, как сдать его.", "en": "It's important to proofread the text before handing it in." }
     },
     {
       "id": "korrekturlasning",
       "sv": "korrekturläsning",
       "translations": { "ru": "корректура, языковая правка", "en": "proofreading" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en korrekturläsning", "defSg": "korrekturläsningen", "indefPl": "korrekturläsningar", "defPl": "korrekturläsningarna" },
+      "example": { "sv": "Korrekturläsning tar tid men förbättrar texten mycket.", "ru": "Корректура занимает время, но значительно улучшает текст.", "en": "Proofreading takes time but improves the text a lot." }
     },
     {
       "id": "lasa-hogt",
@@ -28,14 +31,17 @@
       "translations": { "ru": "орфографическая ошибка", "en": "spelling mistake" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett stavfel", "defSg": "stavfelet", "indefPl": "stavfel", "defPl": "stavfelen" }
+      "forms": { "indefSg": "ett stavfel", "defSg": "stavfelet", "indefPl": "stavfel", "defPl": "stavfelen" },
+      "example": { "sv": "Ett stavfel kan ändra betydelsen av en hel mening.", "ru": "Орфографическая ошибка может изменить смысл целого предложения.", "en": "A spelling mistake can change the meaning of an entire sentence." }
     },
     {
       "id": "interpunktion",
       "sv": "interpunktion",
       "translations": { "ru": "пунктуация", "en": "punctuation" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en interpunktion", "defSg": "interpunktionen", "indefPl": "interpunktioner", "defPl": "interpunktionerna" },
+      "example": { "sv": "Rätt interpunktion gör texten lättare att läsa.", "ru": "Правильная пунктуация делает текст легче для чтения.", "en": "Correct punctuation makes the text easier to read." }
     },
     {
       "id": "en-sak-i-taget",
@@ -55,7 +61,8 @@
       "id": "fraescha-ogon",
       "sv": "fräscha ögon",
       "translations": { "ru": "свежий взгляд", "en": "fresh eyes" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vänta en dag och läs texten igen med fräscha ögon.", "ru": "Подожди день и перечитай текст свежим взглядом.", "en": "Wait a day and read the text again with fresh eyes." }
     },
     {
       "id": "upprepning",
@@ -70,7 +77,8 @@
       "id": "leta-efter",
       "sv": "leta efter",
       "translations": { "ru": "искать", "en": "to look for" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Leta efter upprepningar och långa meningar när du korrekturläser.", "ru": "Ищи повторы и длинные предложения, когда делаешь корректуру.", "en": "Look for repetitions and long sentences when you proofread." }
     },
     {
       "id": "markera",
@@ -85,7 +93,9 @@
       "id": "osaker",
       "sv": "osäker",
       "translations": { "ru": "неуверенный", "en": "unsure" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "osäker", "neuter": "osäkert", "plural": "osäkra", "comparative": "osäkrare", "superlative": "osäkrast" },
+      "example": { "sv": "Om du är osäker på ett ord, slå upp det i en ordbok.", "ru": "Если ты не уверен в слове, найди его в словаре.", "en": "If you're unsure about a word, look it up in a dictionary." }
     },
     {
       "id": "granska",
@@ -93,7 +103,8 @@
       "translations": { "ru": "просматривать, изучать", "en": "to review, to examine" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" }
+      "forms": { "infinitive": "granska", "present": "granskar", "past": "granskade", "supine": "granskat" },
+      "example": { "sv": "Be en vän granska texten innan du lämnar in den.", "ru": "Попроси друга просмотреть текст, прежде чем сдать его.", "en": "Ask a friend to review the text before you hand it in." }
     },
     {
       "id": "genomlasning",
@@ -101,7 +112,8 @@
       "translations": { "ru": "прочтение, проход по тексту", "en": "read-through" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en genomläsning", "defSg": "genomläsningen", "indefPl": "genomläsningar", "defPl": "genomläsningarna" }
+      "forms": { "indefSg": "en genomläsning", "defSg": "genomläsningen", "indefPl": "genomläsningar", "defPl": "genomläsningarna" },
+      "example": { "sv": "Gör en sista genomläsning innan du skickar in uppsatsen.", "ru": "Сделай последний просмотр текста, прежде чем отправить сочинение.", "en": "Do one final read-through before you submit the essay." }
     },
     {
       "id": "verbform",
@@ -109,20 +121,24 @@
       "translations": { "ru": "форма глагола", "en": "verb form" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en verbform", "defSg": "verbformen", "indefPl": "verbformer", "defPl": "verbformerna" }
+      "forms": { "indefSg": "en verbform", "defSg": "verbformen", "indefPl": "verbformer", "defPl": "verbformerna" },
+      "example": { "sv": "Kontrollera att du använder rätt verbform i varje mening.", "ru": "Проверь, что ты используешь правильную форму глагола в каждом предложении.", "en": "Check that you use the correct verb form in every sentence." }
     },
     {
       "id": "stavning",
       "sv": "stavning",
       "translations": { "ru": "орфография, написание", "en": "spelling" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en stavning", "defSg": "stavningen", "indefPl": "stavningar", "defPl": "stavningarna" },
+      "example": { "sv": "Ordböcker hjälper dig att kontrollera stavning.", "ru": "Словари помогают проверить орфографию.", "en": "Dictionaries help you check spelling." }
     },
     {
       "id": "naturlig",
       "sv": "naturlig",
       "translations": { "ru": "естественный", "en": "natural" },
       "pos": "adj",
+      "forms": { "positive": "naturlig", "neuter": "naturligt", "plural": "naturliga", "comparative": "naturligare", "superlative": "naturligast" },
       "example": { "sv": "Läs texten högt för att höra om meningarna låter naturliga.", "ru": "Прочитайте текст вслух, чтобы услышать, звучат ли предложения естественно.", "en": "Read the text aloud to hear whether the sentences sound natural." }
     }
   ]

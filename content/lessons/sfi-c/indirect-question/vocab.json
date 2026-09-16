@@ -69,6 +69,7 @@
       "sv": "försenad",
       "translations": { "ru": "опоздавший, задержанный", "en": "delayed, late" },
       "pos": "adj",
+      "forms": { "positive": "försenad", "neuter": "försenat", "plural": "försenade", "comparative": "mer försenad", "superlative": "mest försenad" },
       "example": { "sv": "Tåget är försenat idag.", "ru": "Поезд сегодня опаздывает.", "en": "The train is delayed today." }
     },
     {
@@ -76,6 +77,7 @@
       "sv": "öppen",
       "translations": { "ru": "открытый", "en": "open" },
       "pos": "adj",
+      "forms": { "positive": "öppen", "neuter": "öppet", "plural": "öppna", "comparative": "öppnare", "superlative": "öppnast" },
       "example": { "sv": "Är biblioteket öppet på söndagar?", "ru": "Библиотека открыта по воскресеньям?", "en": "Is the library open on Sundays?" }
     },
     {

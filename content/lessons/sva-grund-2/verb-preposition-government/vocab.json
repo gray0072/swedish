@@ -46,13 +46,15 @@
       "id": "lita-pa",
       "sv": "lita på",
       "translations": { "ru": "доверять", "en": "to trust" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag litar på min bästa vän.", "ru": "Я доверяю своему лучшему другу.", "en": "I trust my best friend." }
     },
     {
       "id": "oroa-sig-for",
       "sv": "oroa sig för",
       "translations": { "ru": "беспокоиться о", "en": "to worry about" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Hon oroar sig för sina barn.", "ru": "Она беспокоится о своих детях.", "en": "She worries about her children." }
     }
   ]
 }

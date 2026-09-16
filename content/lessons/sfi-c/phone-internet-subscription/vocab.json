@@ -40,6 +40,7 @@
       "translations": { "ru": "вайфай", "en": "wifi" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett wifi", "defSg": "wifit", "indefPl": "wifi", "defPl": "wifina" },
       "example": { "sv": "Har ni wifi här?", "ru": "У вас здесь есть вайфай?", "en": "Do you have wifi here?" }
     },
     {
@@ -75,6 +76,7 @@
       "translations": { "ru": "широкополосный интернет", "en": "broadband" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett bredband", "defSg": "bredbandet", "indefPl": "bredband", "defPl": "bredbanden" },
       "example": { "sv": "Vi har bredband hemma.", "ru": "У нас дома есть широкополосный интернет.", "en": "We have broadband at home." }
     },
     {

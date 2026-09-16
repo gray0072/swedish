@@ -28,6 +28,8 @@
       "sv": "vore",
       "translations": { "ru": "был бы (сослагательное от vara)", "en": "would be (subjunctive of vara)" },
       "pos": "verb",
+      "verbGroup": 4,
+      "forms": { "infinitive": "vara", "present": "är", "past": "var", "supine": "varit" },
       "example": { "sv": "Om jag vore du, skulle jag vänta.", "ru": "Если бы я был(а) тобой, я бы подождал(а).", "en": "If I were you, I would wait." }
     },
     {
@@ -43,6 +45,7 @@
       "translations": { "ru": "условие", "en": "condition" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett villkor", "defSg": "villkoret", "indefPl": "villkor", "defPl": "villkoren" },
       "example": { "sv": "Det finns ett villkor för lånet.", "ru": "Для займа есть одно условие.", "en": "There's one condition for the loan." }
     },
     {

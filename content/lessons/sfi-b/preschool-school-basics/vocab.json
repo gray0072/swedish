@@ -24,6 +24,7 @@
       "translations": { "ru": "учительница, фрёкен", "en": "teacher (miss)" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en fröken", "defSg": "fröknen", "indefPl": "fröknar", "defPl": "fröknarna" },
       "example": { "sv": "Barnen frågar fröken om hjälp.", "ru": "Дети спрашивают учительницу о помощи.", "en": "The children ask the teacher for help." },
       "note": { "ru": "Традиционное слово, которым дети обращаются к учительнице, особенно в детском саду и младших классах.", "en": "A traditional word children use to address a female teacher, especially in preschool and the lower grades." }
     },

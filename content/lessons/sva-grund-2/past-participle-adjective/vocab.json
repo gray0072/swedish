@@ -5,6 +5,7 @@
       "sv": "skriven",
       "translations": { "ru": "написанный", "en": "written" },
       "pos": "adj",
+      "forms": { "positive": "skriven", "neuter": "skrivet", "plural": "skrivna", "comparative": "mer skriven", "superlative": "mest skriven" },
       "note": { "ru": "ett-форма: skrivet, мн.ч.: skrivna", "en": "ett-form: skrivet, plural: skrivna" },
       "example": { "sv": "Det här är ett skrivet brev.", "ru": "Это написанное письмо.", "en": "This is a written letter." }
     },
@@ -13,6 +14,7 @@
       "sv": "stängd",
       "translations": { "ru": "закрытый", "en": "closed" },
       "pos": "adj",
+      "forms": { "positive": "stängd", "neuter": "stängt", "plural": "stängda", "comparative": "mer stängd", "superlative": "mest stängd" },
       "note": { "ru": "ett-форма: stängt, мн.ч.: stängda", "en": "ett-form: stängt, plural: stängda" },
       "example": { "sv": "Butiken är stängd på söndagar.", "ru": "Магазин закрыт по воскресеньям.", "en": "The shop is closed on Sundays." }
     },
@@ -21,6 +23,7 @@
       "sv": "öppnad",
       "translations": { "ru": "открытый (кем-то)", "en": "opened" },
       "pos": "adj",
+      "forms": { "positive": "öppnad", "neuter": "öppnat", "plural": "öppnade", "comparative": "mer öppnad", "superlative": "mest öppnad" },
       "note": { "ru": "ett-форма: öppnat, мн.ч.: öppnade", "en": "ett-form: öppnat, plural: öppnade" },
       "example": { "sv": "Ett redan öppnat paket kan inte returneras.", "ru": "Уже вскрытую посылку нельзя вернуть.", "en": "An already opened package can't be returned." }
     },
@@ -29,6 +32,7 @@
       "sv": "kokt",
       "translations": { "ru": "варёный", "en": "boiled" },
       "pos": "adj",
+      "forms": { "positive": "kokt", "neuter": "kokt", "plural": "kokta", "comparative": "mer kokt", "superlative": "mest kokt" },
       "note": { "ru": "ett-форма: kokt, мн.ч.: kokta (форма en/ett совпадают)", "en": "ett-form: kokt, plural: kokta (en/ett forms coincide)" },
       "example": { "sv": "Vi åt kokt potatis till middag.", "ru": "Мы ели варёную картошку на ужин.", "en": "We had boiled potatoes for dinner." }
     },
@@ -37,6 +41,7 @@
       "sv": "målad",
       "translations": { "ru": "покрашенный", "en": "painted" },
       "pos": "adj",
+      "forms": { "positive": "målad", "neuter": "målat", "plural": "målade", "comparative": "mer målad", "superlative": "mest målad" },
       "note": { "ru": "ett-форма: målat, мн.ч.: målade", "en": "ett-form: målat, plural: målade" },
       "example": { "sv": "Huset är nymålat.", "ru": "Дом свежепокрашен.", "en": "The house is freshly painted." }
     },
@@ -45,7 +50,9 @@
       "sv": "trött",
       "translations": { "ru": "уставший", "en": "tired" },
       "pos": "adj",
-      "note": { "ru": "Исторически причастие от «tröttna», сегодня — обычное прилагательное; ett-форма: trött, мн.ч.: trötta", "en": "Historically a participle of \"tröttna\", now a plain adjective; ett-form: trött, plural: trötta" }
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
+      "note": { "ru": "Исторически причастие от «tröttna», сегодня — обычное прилагательное; ett-форма: trött, мн.ч.: trötta", "en": "Historically a participle of \"tröttna\", now a plain adjective; ett-form: trött, plural: trötta" },
+      "example": { "sv": "Hon var trött efter den långa resan.", "ru": "Она была уставшей после долгой поездки.", "en": "She was tired after the long trip." }
     },
     {
       "id": "supinum",
@@ -53,7 +60,9 @@
       "translations": { "ru": "супин", "en": "the supine" },
       "pos": "noun",
       "gender": "ett",
-      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." }
+      "forms": { "indefSg": "ett supinum", "defSg": "supinumet", "indefPl": "supina", "defPl": "supinaformerna" },
+      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." },
+      "example": { "sv": "Verbets supinum används tillsammans med \"har\" eller \"hade\".", "ru": "Супин глагола используется вместе с «har» или «hade».", "en": "The verb's supine form is used together with \"har\" or \"hade\"." }
     },
     {
       "id": "perfektparticip",
@@ -61,7 +70,9 @@
       "translations": { "ru": "перфектное причастие", "en": "past participle" },
       "pos": "noun",
       "gender": "ett",
-      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." }
+      "forms": { "indefSg": "ett perfektparticip", "defSg": "perfektparticipet", "indefPl": "perfektparticip", "defPl": "perfektparticipen" },
+      "note": { "ru": "Грамматический термин.", "en": "A grammatical term." },
+      "example": { "sv": "Perfektparticipet kan användas som adjektiv, till exempel \"en stängd dörr\".", "ru": "Перфектное причастие может использоваться как прилагательное, например «en stängd dörr».", "en": "The past participle can be used as an adjective, for example \"en stängd dörr\"." }
     }
   ]
 }

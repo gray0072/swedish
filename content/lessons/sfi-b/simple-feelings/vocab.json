@@ -15,6 +15,7 @@
       "translations": { "ru": "усталый", "en": "tired" },
       "pos": "adj",
       "note": { "ru": "ett-форма: trött (не меняется), мн.ч.: trötta", "en": "ett-form: trött (unchanged), plural: trötta" },
+      "forms": { "positive": "trött", "neuter": "trött", "plural": "trötta", "comparative": "tröttare", "superlative": "tröttast" },
       "example": { "sv": "Jag är trött efter jobbet.", "ru": "Я устал после работы.", "en": "I am tired after work." }
     },
     {
@@ -23,6 +24,7 @@
       "translations": { "ru": "голодный", "en": "hungry" },
       "pos": "adj",
       "note": { "ru": "ett-форма: hungrigt, мн.ч.: hungriga", "en": "ett-form: hungrigt, plural: hungriga" },
+      "forms": { "positive": "hungrig", "neuter": "hungrigt", "plural": "hungriga", "comparative": "hungrigare", "superlative": "hungrigast" },
       "example": { "sv": "Barnen är hungriga efter skolan.", "ru": "Дети голодные после школы.", "en": "The children are hungry after school." }
     },
     {
@@ -31,6 +33,7 @@
       "translations": { "ru": "хочет пить, испытывающий жажду", "en": "thirsty" },
       "pos": "adj",
       "note": { "ru": "ett-форма: törstigt, мн.ч.: törstiga", "en": "ett-form: törstigt, plural: törstiga" },
+      "forms": { "positive": "törstig", "neuter": "törstigt", "plural": "törstiga", "comparative": "törstigare", "superlative": "törstigast" },
       "example": { "sv": "Jag är törstig, finns det vatten?", "ru": "Я хочу пить, есть вода?", "en": "I am thirsty, is there any water?" }
     },
     {
@@ -39,6 +42,7 @@
       "translations": { "ru": "радостный, счастливый", "en": "happy, glad" },
       "pos": "adj",
       "note": { "ru": "ett-форма: glatt, мн.ч.: glada", "en": "ett-form: glatt, plural: glada" },
+      "forms": { "positive": "glad", "neuter": "glatt", "plural": "glada", "comparative": "gladare", "superlative": "gladast" },
       "example": { "sv": "Hon är glad över nyheten.", "ru": "Она рада этой новости.", "en": "She is happy about the news." }
     },
     {
@@ -47,6 +51,7 @@
       "translations": { "ru": "грустный, огорчённый", "en": "sad" },
       "pos": "adj",
       "note": { "ru": "неправильное: ett-форма ledset, мн.ч. ledsna (не ledsent/ledsena)", "en": "irregular: ett-form ledset, plural ledsna (not ledsent/ledsena)" },
+      "forms": { "positive": "ledsen", "neuter": "ledset", "plural": "ledsna", "comparative": "ledsnare", "superlative": "ledsnast" },
       "example": { "sv": "Han är ledsen för att hunden sprang bort.", "ru": "Он расстроен, потому что собака убежала.", "en": "He is sad because the dog ran away." }
     },
     {
@@ -55,6 +60,7 @@
       "translations": { "ru": "злой, сердитый", "en": "angry" },
       "pos": "adj",
       "note": { "ru": "ett-форма: argt, мн.ч.: arga", "en": "ett-form: argt, plural: arga" },
+      "forms": { "positive": "arg", "neuter": "argt", "plural": "arga", "comparative": "argare", "superlative": "argast" },
       "example": { "sv": "Chefen är arg på mig.", "ru": "Начальник злится на меня.", "en": "The boss is angry with me." }
     },
     {
@@ -63,6 +69,7 @@
       "translations": { "ru": "испуганный, боящийся", "en": "scared, afraid" },
       "pos": "adj",
       "note": { "ru": "мн.ч.: rädda. Ett-форма теоретически «rätt» (совпадает по написанию с «правильный»), но так почти никогда не говорят — обычно перестраивают фразу, например «ett skrämt barn» вместо «ett rädd/rätt barn»", "en": "plural: rädda. The ett-form is theoretically \"rätt\" (spelled like the unrelated word for \"correct\"), but native speakers almost never say it — they rephrase instead, e.g. \"ett skrämt barn\" rather than \"ett rädd/rätt barn\"" },
+      "forms": { "positive": "rädd", "neuter": "rätt", "plural": "rädda", "comparative": "räddare", "superlative": "räddast" },
       "example": { "sv": "Hon är rädd för spindlar.", "ru": "Она боится пауков.", "en": "She is afraid of spiders." }
     },
     {
@@ -71,6 +78,7 @@
       "translations": { "ru": "довольный", "en": "satisfied, pleased" },
       "pos": "adj",
       "note": { "ru": "ett-форма: nöjt, мн.ч.: nöjda", "en": "ett-form: nöjt, plural: nöjda" },
+      "forms": { "positive": "nöjd", "neuter": "nöjt", "plural": "nöjda", "comparative": "nöjdare", "superlative": "nöjdast" },
       "example": { "sv": "Jag är nöjd med resultatet.", "ru": "Я доволен результатом.", "en": "I am satisfied with the result." }
     },
     {
@@ -79,6 +87,7 @@
       "translations": { "ru": "обеспокоенный, встревоженный", "en": "worried" },
       "pos": "adj",
       "note": { "ru": "ett-форма: oroligt, мн.ч.: oroliga", "en": "ett-form: oroligt, plural: oroliga" },
+      "forms": { "positive": "orolig", "neuter": "oroligt", "plural": "oroliga", "comparative": "oroligare", "superlative": "oroligast" },
       "example": { "sv": "Mamma är orolig för provet imorgon.", "ru": "Мама волнуется из-за завтрашнего экзамена.", "en": "Mom is worried about tomorrow's test." }
     },
     {
@@ -87,6 +96,7 @@
       "translations": { "ru": "в стрессе, напряжённый", "en": "stressed" },
       "pos": "adj",
       "note": { "ru": "ett-форма: stressat, мн.ч.: stressade", "en": "ett-form: stressat, plural: stressade" },
+      "forms": { "positive": "stressad", "neuter": "stressat", "plural": "stressade", "comparative": "mer stressad", "superlative": "mest stressad" },
       "example": { "sv": "Vi är stressade innan resan.", "ru": "Мы нервничаем перед поездкой.", "en": "We are stressed before the trip." }
     },
     {
@@ -95,6 +105,7 @@
       "translations": { "ru": "спокойный", "en": "calm" },
       "pos": "adj",
       "note": { "ru": "ett-форма: lugnt, мн.ч.: lugna", "en": "ett-form: lugnt, plural: lugna" },
+      "forms": { "positive": "lugn", "neuter": "lugnt", "plural": "lugna", "comparative": "lugnare", "superlative": "lugnast" },
       "example": { "sv": "Jag känner mig lugn nu.", "ru": "Теперь я чувствую себя спокойно.", "en": "I feel calm now." }
     },
     {
@@ -103,6 +114,7 @@
       "translations": { "ru": "нервный, взволнованный", "en": "nervous" },
       "pos": "adj",
       "note": { "ru": "ett-форма: nervöst, мн.ч.: nervösa", "en": "ett-form: nervöst, plural: nervösa" },
+      "forms": { "positive": "nervös", "neuter": "nervöst", "plural": "nervösa", "comparative": "nervösare", "superlative": "nervösast" },
       "example": { "sv": "Jag är nervös inför intervjun.", "ru": "Я нервничаю перед собеседованием.", "en": "I am nervous before the interview." }
     },
     {
@@ -111,6 +123,7 @@
       "translations": { "ru": "удивлённый", "en": "surprised" },
       "pos": "adj",
       "note": { "ru": "ett-форма: förvånat, мн.ч.: förvånade", "en": "ett-form: förvånat, plural: förvånade" },
+      "forms": { "positive": "förvånad", "neuter": "förvånat", "plural": "förvånade", "comparative": "mer förvånad", "superlative": "mest förvånad" },
       "example": { "sv": "Hon är förvånad över priset.", "ru": "Она удивлена ценой.", "en": "She is surprised by the price." }
     },
     {
@@ -118,14 +131,18 @@
       "sv": "besviken",
       "translations": { "ru": "разочарованный", "en": "disappointed" },
       "pos": "adj",
-      "note": { "ru": "неправильное: ett-форма besviket, мн.ч. besvikna", "en": "irregular: ett-form besviket, plural besvikna" }
+      "note": { "ru": "неправильное: ett-форма besviket, мн.ч. besvikna", "en": "irregular: ett-form besviket, plural besvikna" },
+      "forms": { "positive": "besviken", "neuter": "besviket", "plural": "besvikna", "comparative": "mer besviken", "superlative": "mest besviken" },
+      "example": { "sv": "Han blev besviken på resultatet.", "ru": "Он был разочарован результатом.", "en": "He was disappointed with the result." }
     },
     {
       "id": "somnig",
       "sv": "sömnig",
       "translations": { "ru": "сонный", "en": "sleepy" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: sömnigt, мн.ч.: sömniga", "en": "ett-form: sömnigt, plural: sömniga" }
+      "note": { "ru": "ett-форма: sömnigt, мн.ч.: sömniga", "en": "ett-form: sömnigt, plural: sömniga" },
+      "forms": { "positive": "sömnig", "neuter": "sömnigt", "plural": "sömniga", "comparative": "sömnigare", "superlative": "sömnigast" },
+      "example": { "sv": "Barnen är sömniga efter lunch.", "ru": "Дети сонные после обеда.", "en": "The children are sleepy after lunch." }
     },
     {
       "id": "pigg",
@@ -133,6 +150,7 @@
       "translations": { "ru": "бодрый, энергичный", "en": "energetic, refreshed, alert" },
       "pos": "adj",
       "note": { "ru": "ett-форма: piggt, мн.ч.: pigga", "en": "ett-form: piggt, plural: pigga" },
+      "forms": { "positive": "pigg", "neuter": "piggt", "plural": "pigga", "comparative": "piggare", "superlative": "piggast" },
       "example": { "sv": "Jag är pigg på morgonen.", "ru": "Утром я бодрый.", "en": "I am energetic in the morning." }
     },
     {
@@ -140,7 +158,9 @@
       "sv": "irriterad",
       "translations": { "ru": "раздражённый", "en": "irritated, annoyed" },
       "pos": "adj",
-      "note": { "ru": "ett-форма: irriterat, мн.ч.: irriterade", "en": "ett-form: irriterat, plural: irriterade" }
+      "note": { "ru": "ett-форма: irriterat, мн.ч.: irriterade", "en": "ett-form: irriterat, plural: irriterade" },
+      "forms": { "positive": "irriterad", "neuter": "irriterat", "plural": "irriterade", "comparative": "mer irriterad", "superlative": "mest irriterad" },
+      "example": { "sv": "Hon blev irriterad på trafiken.", "ru": "Она разозлилась из-за пробки.", "en": "She got irritated by the traffic." }
     }
   ]
 }

@@ -27,6 +27,7 @@
       "translations": { "ru": "развитие", "en": "development, progress" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en utveckling", "defSg": "utvecklingen", "indefPl": "utvecklingar", "defPl": "utvecklingarna" },
       "example": { "sv": "Min utveckling i svenska har gått snabbt.", "ru": "Мой прогресс в шведском шёл быстро.", "en": "My progress in Swedish has gone fast." }
     },
     {
@@ -35,6 +36,7 @@
       "translations": { "ru": "цель (постановка цели)", "en": "goal, objective" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en målsättning", "defSg": "målsättningen", "indefPl": "målsättningar", "defPl": "målsättningarna" },
       "example": { "sv": "Min målsättning är att hitta ett jobb inom vården.", "ru": "Моя цель — найти работу в сфере здравоохранения.", "en": "My goal is to find a job in healthcare." }
     },
     {
@@ -50,6 +52,7 @@
       "translations": { "ru": "вызов, трудность", "en": "challenge" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "en utmaning", "defSg": "utmaningen", "indefPl": "utmaningar", "defPl": "utmaningarna" },
       "example": { "sv": "Den största utmaningen var språket i början.", "ru": "Самой большой трудностью был язык в начале.", "en": "The biggest challenge was the language at first." }
     },
     {
@@ -58,6 +61,7 @@
       "translations": { "ru": "прогресс, успех", "en": "progress" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett framsteg", "defSg": "framsteget", "indefPl": "framsteg", "defPl": "framstegen" },
       "example": { "sv": "Jag har gjort stora framsteg sedan SFI kurs A.", "ru": "Я сделал(а) большой прогресс с курса A SFI.", "en": "I've made great progress since SFI kurs A." }
     },
     {
@@ -72,6 +76,7 @@
       "sv": "tacksam",
       "translations": { "ru": "благодарный", "en": "grateful" },
       "pos": "adj",
+      "forms": { "positive": "tacksam", "neuter": "tacksamt", "plural": "tacksamma", "comparative": "tacksammare", "superlative": "tacksammast" },
       "example": { "sv": "Jag är tacksam för allt jag lärt mig.", "ru": "Я благодарен(на) за всё, чему научился(ась).", "en": "I'm grateful for everything I've learned." }
     }
   ]

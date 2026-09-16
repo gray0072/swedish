@@ -51,6 +51,7 @@
       "translations": { "ru": "условия страхования (полиса)", "en": "insurance terms and conditions" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "ett försäkringsvillkor", "defSg": "försäkringsvillkoret", "indefPl": "försäkringsvillkor", "defPl": "försäkringsvillkoren" },
       "example": { "sv": "Läs försäkringsvillkoren innan du tecknar avtalet.", "ru": "Прочитай условия страхования, прежде чем заключать договор.", "en": "Read the insurance terms before signing the contract." }
     },
     {
@@ -103,6 +104,7 @@
       "sv": "teckna en försäkring",
       "translations": { "ru": "оформить страховку", "en": "to take out an insurance policy" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "teckna en försäkring", "present": "tecknar en försäkring", "past": "tecknade en försäkring", "supine": "tecknat en försäkring" },
       "example": { "sv": "Jag tecknade en hemförsäkring när jag flyttade in.", "ru": "Я оформил(а) страховку жилья, когда переехал(а).", "en": "I took out home insurance when I moved in." }
     },
@@ -129,6 +131,7 @@
       "sv": "drabbas av",
       "translations": { "ru": "пострадать от (чего-то)", "en": "to be affected by, to suffer from" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "drabbas av", "present": "drabbas av", "past": "drabbades av", "supine": "drabbats av" },
       "example": { "sv": "Familjen drabbades av en vattenskada i källaren.", "ru": "Семья пострадала от ущерба от воды в подвале.", "en": "The family suffered water damage in the basement." }
     },

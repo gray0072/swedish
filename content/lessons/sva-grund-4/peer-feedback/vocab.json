@@ -5,26 +5,32 @@
       "sv": "kamratrespons",
       "translations": { "ru": "обратная связь от одноклассника", "en": "peer feedback" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en kamratrespons", "defSg": "kamratresponsen", "indefPl": "kamratresponser", "defPl": "kamratresponserna" },
+      "example": { "sv": "Kamratrespons hjälper eleverna att se sina texter med nya ögon.", "ru": "Обратная связь от одноклассников помогает ученикам увидеть свои тексты по-новому.", "en": "Peer feedback helps students see their texts with new eyes." }
     },
     {
       "id": "respons",
       "sv": "respons",
       "translations": { "ru": "отклик, обратная связь", "en": "feedback, response" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en respons", "defSg": "responsen", "indefPl": "responser", "defPl": "responserna" },
+      "example": { "sv": "Läraren gav positiv respons på min uppsats.", "ru": "Учитель дал положительный отклик на моё сочинение.", "en": "The teacher gave positive feedback on my essay." }
     },
     {
       "id": "ge-respons",
       "sv": "ge respons",
       "translations": { "ru": "давать обратную связь", "en": "to give feedback" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vi ska ge respons på varandras texter i par.", "ru": "Мы будем давать друг другу обратную связь по текстам в парах.", "en": "We will give each other feedback on our texts in pairs." }
     },
     {
       "id": "konstruktiv",
       "sv": "konstruktiv",
       "translations": { "ru": "конструктивный", "en": "constructive" },
       "pos": "adj",
+      "forms": { "positive": "konstruktiv", "neuter": "konstruktivt", "plural": "konstruktiva", "comparative": "mer konstruktiv", "superlative": "mest konstruktiv" },
       "example": { "sv": "Konstruktiv kritik hjälper författaren att förbättra texten.", "ru": "Конструктивная критика помогает автору улучшить текст.", "en": "Constructive criticism helps the author improve the text." }
     },
     {
@@ -32,7 +38,9 @@
       "sv": "kritik",
       "translations": { "ru": "критика", "en": "criticism" },
       "pos": "noun",
-      "gender": "en"
+      "gender": "en",
+      "forms": { "indefSg": "en kritik", "defSg": "kritiken", "indefPl": "kritiker", "defPl": "kritikerna" },
+      "example": { "sv": "Han fick mycket kritik för sin slutsats.", "ru": "Он получил много критики за свой вывод.", "en": "He received a lot of criticism for his conclusion." }
     },
     {
       "id": "forbattringsforslag",
@@ -40,13 +48,15 @@
       "translations": { "ru": "предложение по улучшению", "en": "suggestion for improvement" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett förbättringsförslag", "defSg": "förbättringsförslaget", "indefPl": "förbättringsförslag", "defPl": "förbättringsförslagen" }
+      "forms": { "indefSg": "ett förbättringsförslag", "defSg": "förbättringsförslaget", "indefPl": "förbättringsförslag", "defPl": "förbättringsförslagen" },
+      "example": { "sv": "Har du något förbättringsförslag till min text?", "ru": "У тебя есть какое-нибудь предложение по улучшению моего текста?", "en": "Do you have any suggestion for improving my text?" }
     },
     {
       "id": "lyckas-med",
       "sv": "lyckas med",
       "translations": { "ru": "преуспеть в чём-то, справиться с чем-то", "en": "to succeed at, to do well with" },
       "pos": "verb",
+      "verbGroup": 1,
       "forms": { "infinitive": "lyckas", "present": "lyckas", "past": "lyckades", "supine": "lyckats" },
       "example": { "sv": "Jag tycker att du lyckas bra med att beskriva miljön i din text.", "ru": "Мне кажется, тебе хорошо удалось описать обстановку в твоём тексте.", "en": "I think you do a good job of describing the setting in your text." }
     },
@@ -63,7 +73,8 @@
       "translations": { "ru": "сильная сторона", "en": "strength" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en styrka", "defSg": "styrkan", "indefPl": "styrkor", "defPl": "styrkorna" }
+      "forms": { "indefSg": "en styrka", "defSg": "styrkan", "indefPl": "styrkor", "defPl": "styrkorna" },
+      "example": { "sv": "En styrka i din text är det tydliga språket.", "ru": "Сильная сторона твоего текста — это ясный язык.", "en": "A strength in your text is the clear language." }
     },
     {
       "id": "svaghet",
@@ -71,7 +82,8 @@
       "translations": { "ru": "слабая сторона", "en": "weakness" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en svaghet", "defSg": "svagheten", "indefPl": "svagheter", "defPl": "svagheterna" }
+      "forms": { "indefSg": "en svaghet", "defSg": "svagheten", "indefPl": "svagheter", "defPl": "svagheterna" },
+      "example": { "sv": "En svaghet i texten är att inledningen är otydlig.", "ru": "Слабая сторона текста в том, что вступление неясное.", "en": "A weakness in the text is that the introduction is unclear." }
     },
     {
       "id": "tydliggora",
@@ -86,7 +98,8 @@
       "id": "uttrycka-sig",
       "sv": "uttrycka sig",
       "translations": { "ru": "выражаться, формулировать свои мысли", "en": "to express oneself" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Du uttrycker dig väldigt tydligt i den här texten.", "ru": "Ты очень ясно выражаешь свои мысли в этом тексте.", "en": "You express yourself very clearly in this text." }
     },
     {
       "id": "formulering",
@@ -94,7 +107,8 @@
       "translations": { "ru": "формулировка", "en": "phrasing, wording" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en formulering", "defSg": "formuleringen", "indefPl": "formuleringar", "defPl": "formuleringarna" }
+      "forms": { "indefSg": "en formulering", "defSg": "formuleringen", "indefPl": "formuleringar", "defPl": "formuleringarna" },
+      "example": { "sv": "Den här formuleringen är lite otydlig.", "ru": "Эта формулировка немного неясна.", "en": "This wording is a bit unclear." }
     },
     {
       "id": "mena",
@@ -109,19 +123,23 @@
       "id": "vad-menade-du-har",
       "sv": "vad menade du här?",
       "translations": { "ru": "что ты имел в виду здесь?", "en": "what did you mean here?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Vad menade du här, kan du förklara lite mer?", "ru": "Что ты имел в виду здесь, можешь объяснить немного подробнее?", "en": "What did you mean here, can you explain a bit more?" }
     },
     {
       "id": "korta-ner",
       "sv": "korta ner",
       "translations": { "ru": "сократить", "en": "to shorten" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Du borde korta ner den här stycket lite.", "ru": "Тебе стоит немного сократить этот абзац.", "en": "You should shorten this paragraph a bit." }
     },
     {
       "id": "konkret",
       "sv": "konkret",
       "translations": { "ru": "конкретный", "en": "concrete" },
-      "pos": "adj"
+      "pos": "adj",
+      "forms": { "positive": "konkret", "neuter": "konkret", "plural": "konkreta", "comparative": "mer konkret", "superlative": "mest konkret" },
+      "example": { "sv": "Kan du ge ett mer konkret exempel här?", "ru": "Можешь привести здесь более конкретный пример?", "en": "Can you give a more concrete example here?" }
     },
     {
       "id": "formulera-om",

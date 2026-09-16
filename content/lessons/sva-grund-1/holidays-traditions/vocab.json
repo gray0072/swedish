@@ -6,6 +6,7 @@
       "translations": { "ru": "мидсоммар, летний праздник солнцестояния", "en": "Midsummer" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "midsommar", "defSg": "midsommaren", "indefPl": "midsomrar", "defPl": "midsomrarna" },
       "example": { "sv": "Vi firar midsommar med dans och blommor i håret.", "ru": "Мы отмечаем мидсоммар с танцами и цветами в волосах.", "en": "We celebrate Midsummer with dancing and flowers in our hair." }
     },
     {
@@ -14,6 +15,7 @@
       "translations": { "ru": "Рождество", "en": "Christmas" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "jul", "defSg": "julen", "indefPl": "jular", "defPl": "jularna" },
       "example": { "sv": "På julafton äter familjen julbord tillsammans.", "ru": "В сочельник семья вместе ест рождественский стол.", "en": "On Christmas Eve the family eats the Christmas table together." }
     },
     {
@@ -22,6 +24,7 @@
       "translations": { "ru": "Пасха", "en": "Easter" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "påsk", "defSg": "påsken", "indefPl": "påskar", "defPl": "påskarna" },
       "example": { "sv": "Barnen går runt och firar påsk som små häxor.", "ru": "Дети ходят и празднуют Пасху, наряженные маленькими ведьмами.", "en": "The children go around celebrating Easter dressed as little witches." }
     },
     {
@@ -30,6 +33,7 @@
       "translations": { "ru": "Люсия, праздник святой Люсии (13 декабря)", "en": "Saint Lucy's Day" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "lucia", "defSg": "lucian", "indefPl": "lucior", "defPl": "luciorna" },
       "example": { "sv": "På lucia leder en flicka ett luciatåg med ljus.", "ru": "На Люсию девушка ведёт шествие со свечами.", "en": "On Lucia, a girl leads a candlelit procession." }
     },
     {
@@ -38,6 +42,7 @@
       "translations": { "ru": "Вальборг, ночь на Вальпургию (30 апреля)", "en": "Valborg, Walpurgis Night" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "valborg", "defSg": "valborgen", "indefPl": "valborgar", "defPl": "valborgarna" },
       "example": { "sv": "På valborg tänder man en stor brasa och sjunger vårsånger.", "ru": "На вальборг зажигают большой костёр и поют весенние песни.", "en": "On Valborg people light a big bonfire and sing spring songs." }
     },
     {
@@ -127,6 +132,7 @@
       "translations": { "ru": "Новый год", "en": "New Year" },
       "pos": "noun",
       "gender": "ett",
+      "forms": { "indefSg": "nyår", "defSg": "nyåret", "indefPl": "nyår", "defPl": "nyåren" },
       "example": { "sv": "Vi firar nyår med fyrverkerier.", "ru": "Мы отмечаем Новый год фейерверками.", "en": "We celebrate New Year with fireworks." }
     },
     {
@@ -135,6 +141,7 @@
       "translations": { "ru": "адвент (предрождественский период)", "en": "Advent" },
       "pos": "noun",
       "gender": "en",
+      "forms": { "indefSg": "advent", "defSg": "adventen", "indefPl": "adventer", "defPl": "adventerna" },
       "example": { "sv": "Vi tänder ett ljus varje söndag i advent.", "ru": "Мы зажигаем свечу каждое воскресенье адвента.", "en": "We light a candle every Sunday of Advent." }
     },
     {

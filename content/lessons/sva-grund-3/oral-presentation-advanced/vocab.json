@@ -4,13 +4,15 @@
       "id": "bra-fraga-lat-mig-forklara",
       "sv": "bra fråga, låt mig förklara",
       "translations": { "ru": "хороший вопрос, позвольте мне объяснить", "en": "good question, let me explain" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Bra fråga, låt mig förklara varför vi valde den lösningen.", "ru": "Хороший вопрос, позвольте мне объяснить, почему мы выбрали это решение.", "en": "Good question, let me explain why we chose that solution." }
     },
     {
       "id": "det-atterkommer-jag-till",
       "sv": "det återkommer jag till om en liten stund",
       "translations": { "ru": "я вернусь к этому чуть позже", "en": "I'll come back to that in a moment" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det återkommer jag till om en liten stund, men först visar jag statistiken.", "ru": "Я вернусь к этому чуть позже, но сначала покажу статистику.", "en": "I'll come back to that in a moment, but first let me show the statistics." }
     },
     {
       "id": "som-ni-ser-pa-bilden",
@@ -23,43 +25,50 @@
       "id": "om-vi-tittar-pa-nasta-bild",
       "sv": "om vi tittar på nästa bild",
       "translations": { "ru": "если посмотреть на следующее изображение", "en": "if we look at the next slide" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Om vi tittar på nästa bild, ser vi resultaten från förra året.", "ru": "Если посмотреть на следующее изображение, мы увидим результаты за прошлый год.", "en": "If we look at the next slide, we see last year's results." }
     },
     {
       "id": "jag-ska-halla-mig-till-tiden",
       "sv": "jag ska hålla mig till tiden",
       "translations": { "ru": "я буду придерживаться регламента", "en": "I'll stick to the time" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag ska hålla mig till tiden så att vi hinner med frågor också.", "ru": "Я буду придерживаться регламента, чтобы у нас осталось время на вопросы.", "en": "I'll stick to the time so we also have time for questions." }
     },
     {
       "id": "jag-har-ungefar-x-minuter-kvar",
       "sv": "jag har ungefär fem minuter kvar",
       "translations": { "ru": "у меня осталось около пяти минут", "en": "I have about five minutes left" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag har ungefär fem minuter kvar, så jag sammanfattar snart.", "ru": "У меня осталось около пяти минут, так что скоро я подведу итог.", "en": "I have about five minutes left, so I'll summarize soon." }
     },
     {
       "id": "innan-jag-avslutar-vill-jag-saga",
       "sv": "innan jag avslutar vill jag säga",
       "translations": { "ru": "прежде чем закончить, хочу сказать", "en": "before I finish, I want to say" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Innan jag avslutar vill jag säga att jag är tacksam för publikens frågor.", "ru": "Прежде чем закончить, хочу сказать, что я благодарен(на) за вопросы аудитории.", "en": "Before I finish, I want to say that I'm grateful for the audience's questions." }
     },
     {
       "id": "finns-det-nagra-fragor",
       "sv": "finns det några frågor?",
       "translations": { "ru": "есть вопросы?", "en": "are there any questions?" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Nu har jag gått igenom allt. Finns det några frågor?", "ru": "Теперь я всё рассказал(а). Есть вопросы?", "en": "Now I've gone through everything. Are there any questions?" }
     },
     {
       "id": "det-var-en-bra-poang",
       "sv": "det var en bra poäng",
       "translations": { "ru": "это хорошее замечание", "en": "that was a good point" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Det var en bra poäng, det hade jag inte tänkt på.", "ru": "Это хорошее замечание, я об этом не подумал(а).", "en": "That was a good point, I hadn't thought of that." }
     },
     {
       "id": "jag-ar-inte-helt-saker-men",
       "sv": "jag är inte helt säker, men...",
       "translations": { "ru": "я не совсем уверен(а), но...", "en": "I'm not entirely sure, but..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Jag är inte helt säker, men jag tror att siffran stämmer.", "ru": "Я не совсем уверен(а), но думаю, что цифра верна.", "en": "I'm not entirely sure, but I think the figure is correct." }
     },
     {
       "id": "illustrera",
@@ -67,7 +76,8 @@
       "translations": { "ru": "иллюстрировать, показывать наглядно", "en": "to illustrate" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "illustrera", "present": "illustrerar", "past": "illustrerade", "supine": "illustrerat" }
+      "forms": { "infinitive": "illustrera", "present": "illustrerar", "past": "illustrerade", "supine": "illustrerat" },
+      "example": { "sv": "Diagrammet illustrerar hur försäljningen ökade.", "ru": "Диаграмма иллюстрирует, как выросли продажи.", "en": "The chart illustrates how sales increased." }
     },
     {
       "id": "diagram",
@@ -75,7 +85,8 @@
       "translations": { "ru": "диаграмма, график", "en": "diagram, chart" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett diagram", "defSg": "diagrammet", "indefPl": "diagram", "defPl": "diagrammen" }
+      "forms": { "indefSg": "ett diagram", "defSg": "diagrammet", "indefPl": "diagram", "defPl": "diagrammen" },
+      "example": { "sv": "Diagrammet visar utvecklingen de senaste fem åren.", "ru": "Диаграмма показывает развитие за последние пять лет.", "en": "The chart shows the development over the last five years." }
     },
     {
       "id": "presentation-oral",
@@ -83,7 +94,8 @@
       "translations": { "ru": "презентация, доклад", "en": "presentation" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en presentation", "defSg": "presentationen", "indefPl": "presentationer", "defPl": "presentationerna" }
+      "forms": { "indefSg": "en presentation", "defSg": "presentationen", "indefPl": "presentationer", "defPl": "presentationerna" },
+      "example": { "sv": "Presentationen tog tjugo minuter.", "ru": "Презентация заняла двадцать минут.", "en": "The presentation took twenty minutes." }
     },
     {
       "id": "publik",
@@ -91,7 +103,8 @@
       "translations": { "ru": "публика, аудитория", "en": "audience" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" }
+      "forms": { "indefSg": "en publik", "defSg": "publiken", "indefPl": "publiker", "defPl": "publikerna" },
+      "example": { "sv": "Publiken ställde många frågor efteråt.", "ru": "Аудитория задала много вопросов после выступления.", "en": "The audience asked many questions afterwards." }
     },
     {
       "id": "tidsram",
@@ -99,7 +112,8 @@
       "translations": { "ru": "временные рамки, регламент", "en": "timeframe" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tidsram", "defSg": "tidsramen", "indefPl": "tidsramar", "defPl": "tidsramarna" }
+      "forms": { "indefSg": "en tidsram", "defSg": "tidsramen", "indefPl": "tidsramar", "defPl": "tidsramarna" },
+      "example": { "sv": "Vi måste hålla oss inom tidsramen.", "ru": "Мы должны укладываться во временные рамки.", "en": "We have to stay within the timeframe." }
     },
     {
       "id": "sammanfatta-oral",
@@ -107,7 +121,8 @@
       "translations": { "ru": "подводить итог, резюмировать", "en": "to summarize" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" }
+      "forms": { "infinitive": "sammanfatta", "present": "sammanfattar", "past": "sammanfattade", "supine": "sammanfattat" },
+      "example": { "sv": "Låt mig sammanfatta de viktigaste punkterna.", "ru": "Позвольте мне подвести итог самым важным пунктам.", "en": "Let me summarize the most important points." }
     }
   ]
 }

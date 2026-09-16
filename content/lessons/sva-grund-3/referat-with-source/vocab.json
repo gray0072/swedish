@@ -11,19 +11,22 @@
       "id": "enligt-en-artikel-i",
       "sv": "enligt en artikel i...",
       "translations": { "ru": "согласно статье в...", "en": "according to an article in..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Enligt en artikel i Aftonbladet ökar priserna snabbt.", "ru": "Согласно статье в Aftonbladet, цены быстро растут.", "en": "According to an article in Aftonbladet, prices are rising quickly." }
     },
     {
       "id": "kallan-uppger-att",
       "sv": "källan uppger att...",
       "translations": { "ru": "источник сообщает, что...", "en": "the source states that..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Källan uppger att projektet är försenat.", "ru": "Источник сообщает, что проект задержан.", "en": "The source states that the project is delayed." }
     },
     {
       "id": "forfattaren-hanvisar-till",
       "sv": "författaren hänvisar till...",
       "translations": { "ru": "автор ссылается на...", "en": "the author refers to..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Författaren hänvisar till en rapport från Statistiska centralbyrån.", "ru": "Автор ссылается на отчёт Статистического управления.", "en": "The author refers to a report from Statistics Sweden." }
     },
     {
       "id": "enligt-namn",
@@ -36,13 +39,15 @@
       "id": "som-det-star-i-artikeln",
       "sv": "som det står i artikeln",
       "translations": { "ru": "как написано в статье", "en": "as it says in the article" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Som det står i artikeln har antalet ansökningar ökat kraftigt.", "ru": "Как написано в статье, число заявлений значительно возросло.", "en": "As it says in the article, the number of applications has increased sharply." }
     },
     {
       "id": "artikeln-ar-hamtad-fran",
       "sv": "artikeln är hämtad från...",
       "translations": { "ru": "статья взята из...", "en": "the article is taken from..." },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Artikeln är hämtad från Svenska Dagbladet.", "ru": "Статья взята из Svenska Dagbladet.", "en": "The article is taken from Svenska Dagbladet." }
     },
     {
       "id": "det-framgar-av-texten-att",
@@ -57,7 +62,8 @@
       "translations": { "ru": "источник", "en": "source" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" }
+      "forms": { "indefSg": "en källa", "defSg": "källan", "indefPl": "källor", "defPl": "källorna" },
+      "example": { "sv": "Man bör alltid ange sin källa när man citerar någon.", "ru": "Всегда нужно указывать источник, когда цитируешь кого-то.", "en": "You should always cite your source when quoting someone." }
     },
     {
       "id": "citera",
@@ -65,7 +71,8 @@
       "translations": { "ru": "цитировать", "en": "to quote" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" }
+      "forms": { "infinitive": "citera", "present": "citerar", "past": "citerade", "supine": "citerat" },
+      "example": { "sv": "I referatet citerar hon författaren ordagrant.", "ru": "В реферате она цитирует автора слово в слово.", "en": "In the summary she quotes the author verbatim." }
     },
     {
       "id": "hanvisa-till",
@@ -73,13 +80,15 @@
       "translations": { "ru": "ссылаться на", "en": "to refer to" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "hänvisa", "present": "hänvisar", "past": "hänvisade", "supine": "hänvisat" }
+      "forms": { "infinitive": "hänvisa", "present": "hänvisar", "past": "hänvisade", "supine": "hänvisat" },
+      "example": { "sv": "I texten hänvisar hon till flera vetenskapliga studier.", "ru": "В тексте она ссылается на несколько научных исследований.", "en": "In the text she refers to several scientific studies." }
     },
     {
       "id": "ange-kalla",
       "sv": "ange en källa",
       "translations": { "ru": "указывать источник", "en": "to cite a source" },
-      "pos": "phrase"
+      "pos": "phrase",
+      "example": { "sv": "Glöm inte att ange en källa för varje påstående.", "ru": "Не забудь указать источник для каждого утверждения.", "en": "Don't forget to cite a source for every claim." }
     },
     {
       "id": "tidning",
@@ -87,7 +96,8 @@
       "translations": { "ru": "газета", "en": "newspaper" },
       "pos": "noun",
       "gender": "en",
-      "forms": { "indefSg": "en tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" }
+      "forms": { "indefSg": "en tidning", "defSg": "tidningen", "indefPl": "tidningar", "defPl": "tidningarna" },
+      "example": { "sv": "Artikeln publicerades i en stor svensk tidning.", "ru": "Статья была опубликована в крупной шведской газете.", "en": "The article was published in a major Swedish newspaper." }
     },
     {
       "id": "publicera",
@@ -95,7 +105,8 @@
       "translations": { "ru": "публиковать", "en": "to publish" },
       "pos": "verb",
       "verbGroup": 1,
-      "forms": { "infinitive": "publicera", "present": "publicerar", "past": "publicerade", "supine": "publicerat" }
+      "forms": { "infinitive": "publicera", "present": "publicerar", "past": "publicerade", "supine": "publicerat" },
+      "example": { "sv": "Tidningen publicerade artikeln förra veckan.", "ru": "Газета опубликовала статью на прошлой неделе.", "en": "The newspaper published the article last week." }
     },
     {
       "id": "datum",
@@ -103,7 +114,8 @@
       "translations": { "ru": "дата", "en": "date" },
       "pos": "noun",
       "gender": "ett",
-      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" }
+      "forms": { "indefSg": "ett datum", "defSg": "datumet", "indefPl": "datum", "defPl": "datumen" },
+      "example": { "sv": "Artikeln har inget angivet datum.", "ru": "У статьи не указана дата.", "en": "The article has no stated date." }
     }
   ]
 }
