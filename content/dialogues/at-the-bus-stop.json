@@ -1,0 +1,25 @@
+{
+  "id": "at-the-bus-stop",
+  "title": { "sv": "Vid busshållplatsen", "en": "At the bus stop", "ru": "На автобусной остановке" },
+  "setting": {
+    "en": "Nguyen is waiting for a bus that seems to be running late, and asks Eva, who is also waiting.",
+    "ru": "Нгуен ждёт автобус, который, похоже, опаздывает, и спрашивает Еву, которая тоже ждёт."
+  },
+  "level": "sfi-a",
+  "tags": ["transport", "out-and-about", "directions"],
+  "roles": [
+    { "id": "A", "name": "Nguyen" },
+    { "id": "B", "name": "Eva" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Ursäkta, går den här bussen till Centralen?", "en": "Excuse me, does this bus go to Centralen?", "ru": "Извините, этот автобус едет до Центрального вокзала?" },
+    { "role": "B", "sv": "Ja, det ska den göra, men den brukar vara sen den här tiden på dagen.", "en": "Yes, it should, but it tends to be late at this time of day.", "ru": "Да, должен, но в это время дня он обычно опаздывает." },
+    { "role": "A", "sv": "Appen sa att den skulle komma för fem minuter sen. Har du väntat länge?", "en": "The app said it would come five minutes ago. Have you been waiting long?", "ru": "Приложение сказало, что он должен был прийти пять минут назад. Вы давно ждёте?" },
+    { "role": "B", "sv": "En bra stund, faktiskt. Nästa tur går om tjugo minuter enligt tavlan där.", "en": "A good while, actually. The next one leaves in twenty minutes according to that sign.", "ru": "Довольно долго, если честно. Следующий рейс через двадцать минут, судя по табло." },
+    { "role": "A", "sv": "Oj, det var värre än jag trodde. Finns det något annat sätt att ta sig dit?", "en": "Oh, that's worse than I thought. Is there another way to get there?", "ru": "Ой, это хуже, чем я думал. Есть другой способ туда добраться?" },
+    { "role": "B", "sv": "Du kan ta tunnelbanan från Slussen istället, den går oftare.", "en": "You could take the subway from Slussen instead, it runs more often.", "ru": "Вы могли бы поехать на метро от Слюссена, оно ходит чаще." },
+    { "role": "A", "sv": "Bra idé, tack för tipset! Då provar jag det istället.", "en": "Good idea, thanks for the tip! I'll try that instead then.", "ru": "Хорошая идея, спасибо за подсказку! Тогда попробую так." },
+    { "role": "B", "sv": "Lycka till, och kolla appen igen imorgon, den brukar strula på morgnarna.", "en": "Good luck, and check the app again tomorrow, it tends to act up in the mornings.", "ru": "Удачи, и проверьте приложение ещё раз завтра, оно обычно барахлит по утрам." }
+  ],
+  "keyPhrases": ["går den här bussen till Centralen", "Nästa tur går om tjugo minuter"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "salary-talk",
+  "title": { "sv": "Lönesamtalet", "en": "The salary talk", "ru": "Разговор о зарплате" },
+  "setting": {
+    "en": "Fatima has asked her manager Johan for a few minutes to talk about her salary.",
+    "ru": "Фатима попросила у своего руководителя Юхана несколько минут, чтобы поговорить о зарплате."
+  },
+  "level": "sfi-c",
+  "tags": ["work", "salary", "negotiation", "lonesamtal"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Johan" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej Johan, har du en minut? Jag skulle vilja prata om min lön.", "en": "Hi Johan, have you got a minute? I'd like to talk about my salary.", "ru": "Привет, Юхан, есть минутка? Я хотела бы поговорить о своей зарплате." },
+    { "role": "B", "sv": "Visst, sätt dig. Vad hade du tänkt dig?", "en": "Sure, sit down. What were you thinking?", "ru": "Конечно, садись. Что ты имеешь в виду?" },
+    { "role": "A", "sv": "Jag tycker jag borde ligga runt fyrtiotusen, med tanke på allt jag tagit på mig i år.", "en": "I think I should be around forty thousand, given everything I've taken on this year.", "ru": "Я думаю, мне следует получать около сорока тысяч, учитывая всё, что я взяла на себя в этом году." },
+    { "role": "B", "sv": "Okej... det låter som mycket på en gång. Vi får återkomma till det efter sommaren.", "en": "Okay... that sounds like a lot all at once. We'll have to get back to you on that after the summer.", "ru": "Хорошо... это звучит как много сразу. Мы вернёмся к этому после лета.", "note": { "en": "\"Vi får återkomma\" is a classic Swedish soft deflection — polite, non-committal, and easy to let slide if nobody follows up." } },
+    { "role": "A", "sv": "Jag förstår att det tar tid, men kan vi bestämma ett datum redan nu? Annars blir det ju bara liggande.", "en": "I understand it takes time, but can we set a date right now? Otherwise it'll just sit there.", "ru": "Я понимаю, что это требует времени, но можем ли мы назначить дату прямо сейчас? Иначе всё просто повиснет." },
+    { "role": "B", "sv": "Bra poäng. Vad sägs om att vi hörs igen om två veckor, med ett konkret svar?", "en": "Good point. How about we talk again in two weeks, with a concrete answer?", "ru": "Хорошая мысль. Как насчёт того, чтобы снова поговорить через две недели с конкретным ответом?" },
+    { "role": "A", "sv": "Det låter bra. Ska jag boka in ett möte i kalendern?", "en": "That sounds good. Should I book a meeting in the calendar?", "ru": "Звучит хорошо. Мне забронировать встречу в календаре?" },
+    { "role": "B", "sv": "Gör det, så har vi det svart på vitt.", "en": "Do that, then we'll have it in black and white.", "ru": "Сделай так, тогда у нас будет всё чёрным по белому." },
+    { "role": "A", "sv": "Perfekt. Och tack för att du tar det på allvar.", "en": "Perfect. And thanks for taking it seriously.", "ru": "Отлично. И спасибо, что относишься к этому серьёзно." },
+    { "role": "B", "sv": "Självklart, du har ju levererat bra hela året.", "en": "Of course, you've delivered well all year after all.", "ru": "Конечно, ты ведь хорошо работала весь год." }
+  ],
+  "keyPhrases": ["prata om min lön", "Vi får återkomma till det", "boka in ett möte"],
+  "culture": {
+    "en": "In Sweden individual salaries are usually private between employer and employee, unlike the collectively bargained minimums unions negotiate — so the lönesamtal is where a personal case has to be made.",
+    "ru": "В Швеции индивидуальная зарплата обычно остаётся личным делом работодателя и сотрудника, в отличие от минимальных ставок, о которых договариваются профсоюзы, — поэтому именно на lönesamtal нужно отстаивать свою позицию лично."
+  }
+}

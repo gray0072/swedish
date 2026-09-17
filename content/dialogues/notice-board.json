@@ -1,0 +1,71 @@
+{
+  "id": "notice-board",
+  "title": { "sv": "Anslagstavlan", "en": "The notice board", "ru": "Доска объявлений" },
+  "setting": {
+    "en": "Eva reads the notice board in the entrance hall aloud to Johan.",
+    "ru": "Ева читает вслух доску объявлений в подъезде для Йохана."
+  },
+  "level": "sfi-a",
+  "tags": ["neighbours", "notice-board", "housing"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Johan" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Titta, det står nåt nytt på anslagstavlan.",
+      "en": "Look, there's something new on the notice board.",
+      "ru": "Смотри, на доске объявлений появилось что-то новое."
+    },
+    {
+      "role": "B",
+      "sv": "Jaså, vad står det?",
+      "en": "Oh, what does it say?",
+      "ru": "Да? И что там написано?"
+    },
+    {
+      "role": "A",
+      "sv": "Vattnet stängs av på tisdag mellan tio och tolv, står det här.",
+      "en": "The water will be shut off on Tuesday between ten and twelve, it says here.",
+      "ru": "Здесь написано, что во вторник с десяти до двенадцати отключат воду."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, bra att veta. Nåt mer?",
+      "en": "Okay, good to know. Anything else?",
+      "ru": "Хорошо, надо запомнить. Что-нибудь ещё?"
+    },
+    {
+      "role": "A",
+      "sv": "Ja, årsmötet är den tjugonde, klockan arton i föreningslokalen.",
+      "en": "Yes, the annual meeting is on the twentieth, at six in the evening in the association's meeting room.",
+      "ru": "Да, годовое собрание двадцатого числа, в шесть вечера в помещении товарищества."
+    },
+    {
+      "role": "B",
+      "sv": "Då måste vi komma ihåg att gå dit i år.",
+      "en": "Then we have to remember to go this year.",
+      "ru": "Тогда надо не забыть сходить в этом году."
+    },
+    {
+      "role": "A",
+      "sv": "Och sen är det en lapp om en katt: 'En katt har försvunnit, grå med vit bröst, hör av er om ni ser henne.'",
+      "en": "And then there's a note about a cat: 'A cat has gone missing, grey with a white chest, get in touch if you see her.'",
+      "ru": "А ещё есть записка про кота: «Пропал кот, серый с белой грудкой, сообщите, если увидите его»."
+    },
+    {
+      "role": "B",
+      "sv": "Åh, vad tråkigt. Jag håller utkik på vägen till jobbet.",
+      "en": "Oh, that's a shame. I'll keep an eye out on my way to work.",
+      "ru": "Ой, как жаль. Буду поглядывать по пути на работу."
+    },
+    {
+      "role": "A",
+      "sv": "Bra idé. Jag sätter upp en påminnelse om vattnet så vi inte glömmer.",
+      "en": "Good idea. I'll put up a reminder about the water so we don't forget.",
+      "ru": "Хорошая идея. Я повешу напоминание про воду, чтобы мы не забыли."
+    }
+  ],
+  "keyPhrases": ["Vattnet stängs av", "årsmötet", "En katt har försvunnit"]
+}

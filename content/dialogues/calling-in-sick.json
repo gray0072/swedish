@@ -1,0 +1,32 @@
+{
+  "id": "calling-in-sick",
+  "title": { "sv": "Sjukanmälan till chefen", "en": "Calling in sick to the manager", "ru": "Звонок начальнику по болезни" },
+  "setting": {
+    "en": "Erik messages his manager Anna to report sick for the day.",
+    "ru": "Эрик пишет своей руководительнице Анне, чтобы сообщить о больничном на сегодня."
+  },
+  "level": "sfi-b",
+  "tags": ["work", "health", "phone-call"],
+  "roles": [
+    { "id": "A", "name": "Erik" },
+    { "id": "B", "name": "Anna" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej Anna, jag ville bara sjukanmäla mig för idag.", "en": "Hi Anna, I just wanted to call in sick for today.", "ru": "Привет, Анна, я просто хотел сообщить, что беру больничный на сегодня." },
+    { "role": "B", "sv": "Okej, tack för att du hör av dig. Vad är det, förkylning?", "en": "Okay, thanks for letting me know. What is it, a cold?", "ru": "Хорошо, спасибо, что дал знать. Что случилось, простуда?" },
+    { "role": "A", "sv": "Ja, feber och ont i halsen. Jag tror jag stannar hemma imorgon också.", "en": "Yeah, fever and a sore throat. I think I'll stay home tomorrow too.", "ru": "Да, температура и болит горло. Думаю, завтра тоже останусь дома." },
+    { "role": "B", "sv": "Bra, vila du. Har du något viktigt inplanerat idag som vi behöver flytta?", "en": "Good, get some rest. Do you have anything important planned today that we need to move?", "ru": "Хорошо, отдыхай. У тебя есть что-то важное запланировано на сегодня, что нужно перенести?" },
+    { "role": "A", "sv": "Bara mötet med kunden klockan elva, kan du eller Fatima ta det?", "en": "Just the client meeting at eleven, could you or Fatima take it?", "ru": "Только встреча с клиентом в одиннадцать, можешь ты или Фатима её провести?" },
+    { "role": "B", "sv": "Jag tar det, ingen fara. Krya på dig, och hör av dig om det drar ut på tiden.", "en": "I'll take it, no worries. Get well soon, and let me know if it drags on.", "ru": "Я проведу, не переживай. Выздоравливай, и дай знать, если затянется." },
+    { "role": "A", "sv": "Tack, det ska jag. Vi hörs imorgon.", "en": "Thanks, I will. We'll talk tomorrow.", "ru": "Спасибо, обязательно. Созвонимся завтра." },
+    { "role": "B", "sv": "Glöm inte att registrera det i systemet också, annars måste jag lägga in det manuellt.", "en": "Don't forget to register it in the system too, otherwise I'll have to enter it manually.", "ru": "Не забудь также зарегистрировать это в системе, иначе мне придётся вносить вручную." },
+    { "role": "A", "sv": "Redan gjort, skickade in det innan jag ringde.", "en": "Already done, I submitted it before I called.", "ru": "Уже сделано, отправил ещё до звонка." },
+    { "role": "B", "sv": "Perfekt, då är allt klart. Krya på dig nu.", "en": "Perfect, then everything's sorted. Get well now.", "ru": "Отлично, тогда всё готово. Поправляйся." },
+    { "role": "A", "sv": "Tack så mycket, hej då.", "en": "Thanks a lot, bye.", "ru": "Большое спасибо, пока." }
+  ],
+  "keyPhrases": ["sjukanmäla mig", "Krya på dig", "registrera det i systemet"],
+  "culture": {
+    "en": "A Swedish sjukanmälan is expected to be short and factual, not apologetic — you report the fact, arrange coverage if needed, and that is the whole conversation.",
+    "ru": "Шведское sjukanmälan (уведомление о больничном) должно быть коротким и по делу, без извинений — сообщаешь факт, при необходимости договариваешься о замене, и разговор окончен."
+  }
+}

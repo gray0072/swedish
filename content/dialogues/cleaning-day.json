@@ -1,0 +1,81 @@
+{
+  "id": "cleaning-day",
+  "title": { "sv": "Städdagen", "en": "The cleaning day", "ru": "День уборки" },
+  "setting": {
+    "en": "The housing association's autumn städdag: raking leaves, sorting the skip, and dividing the work in the courtyard.",
+    "ru": "Осенний субботник жилищного товарищества: сгребают листья, разбирают контейнер и делят работу во дворе."
+  },
+  "level": "sfi-c",
+  "tags": ["housing", "neighbours", "tradition", "städdag"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Erik" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej! Skönt att så många kom till städdagen idag.",
+      "en": "Hi! Great that so many people showed up for the cleaning day.",
+      "ru": "Привет! Здорово, что столько людей пришло на субботник."
+    },
+    {
+      "role": "B",
+      "sv": "Ja, vädret höll ju i sig också. Ska vi börja med att kratta löven?",
+      "en": "Yeah, and the weather held up too. Should we start by raking the leaves?",
+      "ru": "Да, и погода не подвела. Начнём с того, что сгребём листья?"
+    },
+    {
+      "role": "A",
+      "sv": "Visst. Vill du ta cykelförrådet, så tar jag rabatterna vid garaget?",
+      "en": "Sure. Do you want to take the bike shed, and I'll take the flower beds by the garage?",
+      "ru": "Хорошо. Ты возьмёшь велосипедную стоянку, а я — клумбы у гаража?"
+    },
+    {
+      "role": "B",
+      "sv": "Absolut. Var är containern förresten? Jag har säckar att slänga.",
+      "en": "Absolutely. Where's the skip, by the way? I have bags to throw out.",
+      "ru": "Конечно. А где, кстати, контейнер? У меня есть мешки, которые нужно выбросить."
+    },
+    {
+      "role": "A",
+      "sv": "Den står borta vid parkeringen, till höger om lekplatsen.",
+      "en": "It's over by the parking lot, to the right of the playground.",
+      "ru": "Он стоит у парковки, справа от детской площадки."
+    },
+    {
+      "role": "B",
+      "sv": "Perfekt, tack. Förresten, vem tog trädgårdssidan i år?",
+      "en": "Perfect, thanks. By the way, who took the garden side this year?",
+      "ru": "Отлично, спасибо. Кстати, кто в этом году занимается садовой стороной?"
+    },
+    {
+      "role": "A",
+      "sv": "Familjen Nguyen gjorde det, dom är där redan.",
+      "en": "The Nguyen family did, they're already there.",
+      "ru": "Семья Нгуен, они уже там."
+    },
+    {
+      "role": "B",
+      "sv": "Bra. Jag hoppas det blir korv med bröd sen, som förra året.",
+      "en": "Good. I hope there'll be hot dogs afterwards, like last year.",
+      "ru": "Хорошо. Надеюсь, потом будут хот-доги, как в прошлом году."
+    },
+    {
+      "role": "A",
+      "sv": "Ja, styrelsen fixar grillen klockan tolv, och sen fika efteråt.",
+      "en": "Yes, the board is doing the grill at twelve, and coffee afterwards.",
+      "ru": "Да, правление разожжёт гриль в двенадцать, а потом будет кофе с булочками."
+    },
+    {
+      "role": "B",
+      "sv": "Härligt, då jobbar jag på tills dess.",
+      "en": "Lovely, I'll keep working until then.",
+      "ru": "Замечательно, тогда я буду работать до этого времени."
+    }
+  ],
+  "keyPhrases": ["städdagen", "containern", "korv med bröd", "trädgårdssidan"],
+  "culture": {
+    "en": "Städdag is a twice-yearly work party in Swedish housing associations: everyone turns up to rake, paint and haul, and it always ends with korv med bröd and fika — the food is the actual point.",
+    "ru": "Städdag — общий субботник в шведских жилищных товариществах, который проводится дважды в год: все сгребают листья, красят и таскают мусор, а заканчивается всё хот-догами и кофе с булочками — угощение и есть главная цель."
+  }
+}

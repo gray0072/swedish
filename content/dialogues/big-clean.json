@@ -1,0 +1,71 @@
+{
+  "id": "big-clean",
+  "title": { "sv": "Storstädning", "en": "The big clean", "ru": "Генеральная уборка" },
+  "setting": {
+    "en": "Fatima and Erik spend the weekend on a big clean and sorting out the rubbish properly.",
+    "ru": "Фатима и Эрик проводят выходные за генеральной уборкой и правильной сортировкой мусора."
+  },
+  "level": "sfi-c",
+  "tags": ["household", "recycling", "cleaning"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Erik" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Nu kör vi storstädning innan helgen är slut.",
+      "en": "Let's get on with the big clean before the weekend is over.",
+      "ru": "Давай устроим генеральную уборку, пока выходные не закончились."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, jag börjar med köket. Var ska allt skräp ta vägen?",
+      "en": "Okay, I'll start with the kitchen. Where should all the junk go?",
+      "ru": "Хорошо, я начну с кухни. А куда девать весь этот хлам?"
+    },
+    {
+      "role": "A",
+      "sv": "Kom ihåg sopsorteringen, pappret för sig och plasten för sig.",
+      "en": "Remember the recycling sorting, paper separately and plastic separately.",
+      "ru": "Не забудь про сортировку мусора: бумага отдельно, пластик отдельно."
+    },
+    {
+      "role": "B",
+      "sv": "Just det, jag glömmer alltid det. Var ligger återvinningen?",
+      "en": "Right, I always forget that. Where's the recycling area?",
+      "ru": "Точно, я всегда это забываю. Где пункт переработки?"
+    },
+    {
+      "role": "A",
+      "sv": "Rummet bredvid tvättstugan, det står tydligt vad som är vad.",
+      "en": "The room next to the laundry room, it's clearly labelled what goes where.",
+      "ru": "Комната рядом с прачечной, там чётко подписано, что куда."
+    },
+    {
+      "role": "B",
+      "sv": "Och alla burkarna och flaskorna, ska dom med till pant?",
+      "en": "And all the cans and bottles, should they go for the deposit refund?",
+      "ru": "А все банки и бутылки — их сдать на переработку с залогом (pant)?"
+    },
+    {
+      "role": "A",
+      "sv": "Ja, ta med dom till pantautomaten på ICA, vi får pengar tillbaka.",
+      "en": "Yes, take them to the deposit machine at the ICA supermarket, we get money back.",
+      "ru": "Да, отнеси их в автомат для возврата тары в ICA, нам вернут деньги."
+    },
+    {
+      "role": "B",
+      "sv": "Bra, då blir det lite fika för pantpengarna sen.",
+      "en": "Good, then we'll get a little fika out of the deposit money later.",
+      "ru": "Хорошо, тогда потом устроим кофе с булочками на эти деньги."
+    },
+    {
+      "role": "A",
+      "sv": "Precis det jag tänkte.",
+      "en": "Exactly what I was thinking.",
+      "ru": "Именно об этом я и подумала."
+    }
+  ],
+  "keyPhrases": ["sopsorteringen", "återvinningen", "pant"]
+}

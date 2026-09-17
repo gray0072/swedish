@@ -1,0 +1,71 @@
+{
+  "id": "preschool-drop-off",
+  "title": { "sv": "Lämning på förskolan", "en": "Preschool drop-off", "ru": "Утренняя передача в детском саду" },
+  "setting": {
+    "en": "Eva drops off her daughter Elsa at förskolan and hands over the morning's information to Sara.",
+    "ru": "Ева приводит дочь Эльсу в детский сад и передаёт утреннюю информацию воспитательнице Саре."
+  },
+  "level": "sfi-b",
+  "tags": ["family", "preschool", "children", "morning"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Sara" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "God morgon! Elsa sov dåligt inatt, ville bara att du skulle veta det.",
+      "en": "Good morning! Elsa slept badly last night, just wanted you to know.",
+      "ru": "Доброе утро! Эльса плохо спала ночью, просто хотела вам сообщить."
+    },
+    {
+      "role": "B",
+      "sv": "Tack för att du säger till. Var hon vaken mycket i natt?",
+      "en": "Thanks for letting me know. Was she awake a lot during the night?",
+      "ru": "Спасибо, что предупредили. Она много просыпалась ночью?"
+    },
+    {
+      "role": "A",
+      "sv": "Ja, ett par gånger. Hon kan behöva extra vila idag.",
+      "en": "Yes, a couple of times. She might need some extra rest today.",
+      "ru": "Да, пару раз. Возможно, ей сегодня нужен дополнительный отдых."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, vi ser till att hon får en lugn stund om hon blir trött.",
+      "en": "Okay, we'll make sure she gets a quiet moment if she gets tired.",
+      "ru": "Хорошо, мы позаботимся, чтобы у неё было спокойное время, если она устанет."
+    },
+    {
+      "role": "A",
+      "sv": "Hon somnade inte på eftermiddagen igår heller, ingen middagslur.",
+      "en": "She didn't fall asleep in the afternoon yesterday either, no nap.",
+      "ru": "Вчера днём она тоже не заснула, тихого часа не было."
+    },
+    {
+      "role": "B",
+      "sv": "Noterat, vi håller ett extra öga på henne.",
+      "en": "Noted, we'll keep a closer eye on her.",
+      "ru": "Записала, будем следить за ней внимательнее."
+    },
+    {
+      "role": "A",
+      "sv": "Tack. Jag hämtar henne klockan fyra idag, min man är upptagen.",
+      "en": "Thanks. I'll pick her up at four today, my husband is busy.",
+      "ru": "Спасибо. Я заберу её сегодня в четыре, мой муж занят."
+    },
+    {
+      "role": "B",
+      "sv": "Perfekt, då säger vi det. Ha en bra dag!",
+      "en": "Perfect, let's say that then. Have a good day!",
+      "ru": "Отлично, договорились. Хорошего дня!"
+    },
+    {
+      "role": "A",
+      "sv": "Detsamma, hej då Elsa, var snäll mot fröken!",
+      "en": "Same to you, bye Elsa, be nice to your teacher!",
+      "ru": "И вам того же, пока, Эльса, слушайся воспитательницу!"
+    }
+  ],
+  "keyPhrases": ["sov dåligt", "ingen middagslur", "hämtar henne klockan fyra"]
+}

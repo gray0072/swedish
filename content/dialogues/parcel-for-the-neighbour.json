@@ -1,0 +1,71 @@
+{
+  "id": "parcel-for-the-neighbour",
+  "title": { "sv": "Ett paket åt grannen", "en": "A parcel for the neighbour", "ru": "Посылка для соседа" },
+  "setting": {
+    "en": "Eva took in a parcel for Marek yesterday because he wasn't home.",
+    "ru": "Вчера Ева приняла посылку для Марека, потому что его не было дома."
+  },
+  "level": "sfi-b",
+  "tags": ["neighbours", "favour", "delivery"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej Marek! Jag tog emot ett paket åt dig igår, budet kunde inte leverera det till dig.",
+      "en": "Hi Marek! I took in a parcel for you yesterday, the courier couldn't deliver it to you.",
+      "ru": "Привет, Марек! Я вчера приняла для тебя посылку, курьер не смог доставить её лично тебе."
+    },
+    {
+      "role": "B",
+      "sv": "Åh, tack! Jag undrade var det tagit vägen.",
+      "en": "Oh, thanks! I was wondering where it had gone.",
+      "ru": "Ой, спасибо! А я всё гадал, куда она подевалась."
+    },
+    {
+      "role": "A",
+      "sv": "Jag la en lapp i din brevlåda också, såg du den?",
+      "en": "I also left a note in your mailbox, did you see it?",
+      "ru": "Я ещё оставила записку у тебя в почтовом ящике, ты её видел?"
+    },
+    {
+      "role": "B",
+      "sv": "Nej, jag har inte kollat brevlådan än idag.",
+      "en": "No, I haven't checked the mailbox yet today.",
+      "ru": "Нет, я ещё сегодня не проверял ящик."
+    },
+    {
+      "role": "A",
+      "sv": "Ingen fara, paketet står hos mig i hallen. Kom förbi när du vill.",
+      "en": "No problem, the parcel is in my hallway. Come by whenever you like.",
+      "ru": "Ничего страшного, посылка у меня в прихожей. Заходи, когда удобно."
+    },
+    {
+      "role": "B",
+      "sv": "Kan jag komma nu på en gång? Jag väntar faktiskt på just den här varan.",
+      "en": "Can I come right now? I'm actually waiting for this exact item.",
+      "ru": "Можно я зайду прямо сейчас? Я как раз жду именно эту вещь."
+    },
+    {
+      "role": "A",
+      "sv": "Visst, kom in bara.",
+      "en": "Sure, just come on in.",
+      "ru": "Конечно, заходи."
+    },
+    {
+      "role": "B",
+      "sv": "Tack så hemskt mycket, det var snällt av dig att ta emot det.",
+      "en": "Thank you so much, it was kind of you to take it in.",
+      "ru": "Огромное спасибо, было очень мило с твоей стороны принять её."
+    },
+    {
+      "role": "A",
+      "sv": "Det är väl det minsta man kan göra som granne.",
+      "en": "Well, it's the least you can do as a neighbour.",
+      "ru": "Ну, это же самое малое, что можно сделать для соседа."
+    }
+  ],
+  "keyPhrases": ["tog emot ett paket", "Jag la en lapp", "Tack så hemskt mycket"]
+}

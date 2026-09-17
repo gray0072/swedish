@@ -1,0 +1,30 @@
+{
+  "id": "job-interview",
+  "title": { "sv": "Anställningsintervjun", "en": "The job interview", "ru": "Собеседование на работу" },
+  "setting": {
+    "en": "Fatima is interviewed by Johan, an HR manager, for a new position.",
+    "ru": "Фатима проходит собеседование с Юханом, менеджером по персоналу, на новую должность."
+  },
+  "level": "sfi-c",
+  "tags": ["work", "interview", "formal"],
+  "roles": [
+    { "id": "A", "name": "Johan" },
+    { "id": "B", "name": "Fatima" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Välkommen, sätt dig gärna. Berätta lite om varför du sökte just den här tjänsten.", "en": "Welcome, please have a seat. Tell me a bit about why you applied for this particular position.", "ru": "Добро пожаловать, присаживайтесь. Расскажите немного, почему вы подавали заявку именно на эту должность." },
+    { "role": "B", "sv": "Tack. Jag har jobbat med liknande uppgifter i tre år, och er inriktning på hållbarhet lockade mig verkligen.", "en": "Thank you. I've worked with similar tasks for three years, and your focus on sustainability really appealed to me.", "ru": "Спасибо. Я работала над похожими задачами три года, и ваш акцент на устойчивом развитии меня очень привлёк." },
+    { "role": "A", "sv": "Bra. Vad skulle du säga är din största styrka?", "en": "Good. What would you say is your biggest strength?", "ru": "Хорошо. Что бы вы назвали своей главной сильной стороной?" },
+    { "role": "B", "sv": "Jag är nog ganska strukturerad, och bra på att hålla deadlines även när det är stressigt.", "en": "I'd say I'm quite structured, and good at keeping deadlines even under stress.", "ru": "Я, наверное, довольно организованна и умею соблюдать сроки, даже когда напряжённо.", "note": { "en": "\"Nog\" here softens a confident claim — hedging even when praising yourself is normal Swedish interview style." } },
+    { "role": "A", "sv": "Och en svaghet, eller ett område du vill utvecklas inom?", "en": "And a weakness, or an area you'd like to develop?", "ru": "А слабая сторона, или область, в которой вы хотели бы развиваться?" },
+    { "role": "B", "sv": "Jag kan bli lite för detaljfokuserad ibland, så jag jobbar på att släppa taget lite snabbare.", "en": "I can get a bit too detail-focused sometimes, so I'm working on letting go a bit faster.", "ru": "Иногда я слишком зацикливаюсь на деталях, поэтому работаю над тем, чтобы быстрее отпускать." },
+    { "role": "A", "sv": "Förstår. Vilken uppsägningstid har du på ditt nuvarande jobb?", "en": "I see. What's your notice period at your current job?", "ru": "Понимаю. Какой у вас срок предупреждения об увольнении на текущей работе?" },
+    { "role": "B", "sv": "Tre månader, men jag kan säkert diskutera det om det behövs.", "en": "Three months, but I could certainly discuss that if needed.", "ru": "Три месяца, но я, конечно, могу это обсудить, если нужно." },
+    { "role": "A", "sv": "Bra att veta. Har du några frågor till oss innan vi avslutar?", "en": "Good to know. Do you have any questions for us before we wrap up?", "ru": "Хорошо знать. У вас есть вопросы к нам, прежде чем мы закончим?" },
+    { "role": "B", "sv": "Ja, hur ser en vanlig vecka ut i teamet just nu?", "en": "Yes, what does a typical week look like in the team right now?", "ru": "Да, как выглядит обычная неделя в команде сейчас?" },
+    { "role": "A", "sv": "Bra fråga! Vi jobbar i tvåveckorssprintar, med mycket samarbete över gränserna.", "en": "Good question! We work in two-week sprints, with a lot of collaboration across teams.", "ru": "Хороший вопрос! Мы работаем спринтами по две недели, с большим взаимодействием между командами." },
+    { "role": "B", "sv": "Låter precis som min typ av arbetsmiljö. Tack för samtalet.", "en": "That sounds exactly like my kind of work environment. Thanks for the conversation.", "ru": "Звучит именно как моя рабочая среда. Спасибо за беседу." },
+    { "role": "A", "sv": "Tack detsamma, vi hör av oss inom en vecka.", "en": "Thanks to you too, we'll be in touch within a week.", "ru": "Взаимно, мы свяжемся в течение недели." }
+  ],
+  "keyPhrases": ["varför du sökte", "din största styrka", "uppsägningstid"]
+}

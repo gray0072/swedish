@@ -1,0 +1,67 @@
+{
+  "id": "stairwell-hello",
+  "title": { "sv": "Hej i trappan", "en": "Hello on the stairs", "ru": "Привет на лестнице" },
+  "setting": {
+    "en": "Eva runs into a new neighbour, Johan, on the stairs on her way to work.",
+    "ru": "Ева встречает на лестнице нового соседа Йохана по пути на работу."
+  },
+  "level": "sfi-a",
+  "tags": ["neighbours", "smalltalk", "greetings", "stairwell"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Johan" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej! Vi har visst inte setts förut. Jag heter Eva, jag bor på tvåan.",
+      "en": "Hi! We haven't met before, I think. I'm Eva, I live on the second floor.",
+      "ru": "Привет! Кажется, мы не встречались раньше. Меня зовут Ева, я живу на втором этаже.",
+      "note": { "en": "\"Vi har visst inte setts förut\" is a soft, standard way to open a conversation with a stranger you share a building with." }
+    },
+    {
+      "role": "B",
+      "sv": "Hej Eva, jag heter Johan. Vi flyttade in förra veckan, vi bor på trean.",
+      "en": "Hi Eva, I'm Johan. We moved in last week, we live on the third floor.",
+      "ru": "Привет, Ева, я Йохан. Мы переехали на прошлой неделе, живём на третьем этаже."
+    },
+    {
+      "role": "A",
+      "sv": "Åh, välkommen då! Hur trivs ni hittills?",
+      "en": "Oh, welcome then! How are you settling in so far?",
+      "ru": "О, тогда добро пожаловать! Как вам тут пока нравится?"
+    },
+    {
+      "role": "B",
+      "sv": "Tack, bra faktiskt. Grannarna verkar trevliga.",
+      "en": "Thanks, good actually. The neighbours seem nice.",
+      "ru": "Спасибо, вообще-то хорошо. Соседи кажутся приятными."
+    },
+    {
+      "role": "A",
+      "sv": "Ja, det är lugnt här i huset. Fint väder idag, eller hur?",
+      "en": "Yeah, it's calm in this building. Nice weather today, isn't it?",
+      "ru": "Да, в доме спокойно. Сегодня хорошая погода, правда?"
+    },
+    {
+      "role": "B",
+      "sv": "Ja verkligen, äntligen lite sol efter allt regn.",
+      "en": "Yes really, finally some sun after all the rain.",
+      "ru": "Да, точно, наконец-то немного солнца после всего этого дождя."
+    },
+    {
+      "role": "A",
+      "sv": "Precis. Nåväl, jag måste rusa till jobbet nu. Vi ses!",
+      "en": "Exactly. Well, I have to rush to work now. See you!",
+      "ru": "Точно. Ну ладно, мне нужно бежать на работу. Увидимся!",
+      "note": { "en": "\"Nåväl\" signals a polite shift out of small talk before leaving." }
+    },
+    {
+      "role": "B",
+      "sv": "Vi ses, hej så länge!",
+      "en": "See you, bye for now!",
+      "ru": "Увидимся, пока!"
+    }
+  ],
+  "keyPhrases": ["Vi har visst inte setts förut", "Hur trivs ni", "Vi ses", "hej så länge"]
+}

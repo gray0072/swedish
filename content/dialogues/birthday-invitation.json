@@ -1,0 +1,84 @@
+{
+  "id": "birthday-invitation",
+  "title": { "sv": "Kalasinbjudan", "en": "Birthday invitation", "ru": "Приглашение на день рождения" },
+  "setting": {
+    "en": "Alice invites Erik's daughter to her birthday party; the parents sort out allergies, presents and pick-up.",
+    "ru": "Алиса приглашает дочь Эрика на свой день рождения; родители обсуждают аллергии, подарки и время забирать ребёнка."
+  },
+  "level": "sfi-b",
+  "tags": ["family", "children", "party", "planning"],
+  "roles": [
+    { "id": "A", "name": "Alice" },
+    { "id": "B", "name": "Erik" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej Erik! Min dotter Wilma fyller sju på lördag och vi undrar om Maja vill komma på kalas.",
+      "en": "Hi Erik! My daughter Wilma is turning seven on Saturday and we're wondering if Maja wants to come to the party.",
+      "ru": "Привет, Эрик! Моей дочери Вильме исполняется семь в субботу, и мы хотели узнать, хочет ли Майя прийти на праздник."
+    },
+    {
+      "role": "B",
+      "sv": "Vad kul, det tror jag hon vill! Vilken tid är det?",
+      "en": "How nice, I think she'd love to! What time is it?",
+      "ru": "Как здорово, думаю, она захочет! Во сколько это?"
+    },
+    {
+      "role": "A",
+      "sv": "Klockan tretton till femton, hemma hos oss. Har Maja nåt allergi förresten?",
+      "en": "One to three PM, at our place. Does Maja have any allergies by the way?",
+      "ru": "С тринадцати до пятнадцати, у нас дома. Кстати, у Майи есть какая-нибудь аллергия?"
+    },
+    {
+      "role": "B",
+      "sv": "Ja, faktiskt, hon är allergisk mot nötter. Annars äter hon det mesta.",
+      "en": "Yes, actually, she's allergic to nuts. Otherwise she eats most things.",
+      "ru": "Да, вообще-то, у неё аллергия на орехи. В остальном она ест почти всё."
+    },
+    {
+      "role": "A",
+      "sv": "Bra att veta, då bakar jag en tårta helt utan nötter så är det säkert.",
+      "en": "Good to know, then I'll bake a cake completely without nuts so it's safe.",
+      "ru": "Хорошо, что знаю, тогда испеку торт совсем без орехов, чтобы было безопасно.",
+      "note": { "en": "Asking about allergies before a party is standard Swedish parent etiquette, not overcaution." }
+    },
+    {
+      "role": "B",
+      "sv": "Tack, jättesnällt. Ska hon ha med sig present?",
+      "en": "Thanks, that's very kind. Should she bring a present?",
+      "ru": "Спасибо, очень мило. Ей нужно принести подарок?"
+    },
+    {
+      "role": "A",
+      "sv": "Det behövs inte, men blir det nåt så gillar hon böcker och sånt man kan pyssla med.",
+      "en": "It's not necessary, but if it happens, she likes books and craft things.",
+      "ru": "Не обязательно, но если что-то будет, она любит книги и всё, чем можно мастерить."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, då fixar jag nåt litet. Ska jag hämta henne klockan femton då?",
+      "en": "Okay, then I'll get something small. Should I pick her up at three then?",
+      "ru": "Хорошо, тогда что-нибудь небольшое куплю. Мне забрать её в пятнадцать тогда?"
+    },
+    {
+      "role": "A",
+      "sv": "Ja gärna, eller nån annan som du litar på kan också hämta henne, bara du säger till.",
+      "en": "Yes please, or someone else you trust can pick her up too, just let me know.",
+      "ru": "Да, пожалуйста, или кто-то другой, кому вы доверяете, тоже может её забрать, просто дайте знать."
+    },
+    {
+      "role": "B",
+      "sv": "Det blir nog jag. Vi ses på lördag, tack för inbjudan!",
+      "en": "It'll probably be me. See you Saturday, thanks for the invitation!",
+      "ru": "Наверное, это буду я. Увидимся в субботу, спасибо за приглашение!"
+    },
+    {
+      "role": "A",
+      "sv": "Vi ses!",
+      "en": "See you!",
+      "ru": "До встречи!"
+    }
+  ],
+  "keyPhrases": ["allergisk mot nötter", "Ska hon ha med sig present", "hämta henne"]
+}

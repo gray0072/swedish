@@ -1,0 +1,26 @@
+{
+  "id": "booking-a-meeting",
+  "title": { "sv": "Boka ett möte", "en": "Booking a meeting", "ru": "Назначение встречи" },
+  "setting": {
+    "en": "Anna wants to schedule a budget meeting with Erik for next week.",
+    "ru": "Анна хочет назначить встречу по бюджету с Эриком на следующую неделю."
+  },
+  "level": "sfi-b",
+  "tags": ["work", "meetings", "scheduling"],
+  "roles": [
+    { "id": "A", "name": "Anna" },
+    { "id": "B", "name": "Erik" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej Erik, kan vi boka in ett möte om budgeten nästa vecka?", "en": "Hi Erik, can we book a meeting about the budget next week?", "ru": "Привет, Эрик, можем мы назначить встречу по бюджету на следующей неделе?" },
+    { "role": "B", "sv": "Visst, jag kollar kalendern... Tisdag eftermiddag funkar för mig.", "en": "Sure, let me check my calendar... Tuesday afternoon works for me.", "ru": "Конечно, посмотрю календарь... Вторник во второй половине дня мне подходит." },
+    { "role": "A", "sv": "Tisdag är tyvärr fullbokad för mig. Vad sägs om onsdag klockan tio istället?", "en": "Tuesday is unfortunately fully booked for me. How about Wednesday at ten instead?", "ru": "Вторник у меня, к сожалению, полностью занят. Как насчёт среды в десять?" },
+    { "role": "B", "sv": "Onsdag går bra. Behöver vi boka ett rum, eller räcker det digitalt?", "en": "Wednesday works. Do we need to book a room, or is a digital meeting enough?", "ru": "Среда подходит. Нужно ли бронировать переговорную, или достаточно онлайн?" },
+    { "role": "A", "sv": "Vi tar det på riktigt, folk är trötta på Teams-möten. Sal B är ledig då, ser jag.", "en": "Let's do it in person, people are tired of Teams meetings. Room B is free then, I see.", "ru": "Давай в живую, люди устали от встреч в Teams. Зал B, вижу, свободен." },
+    { "role": "B", "sv": "Perfekt. Vad ska vi ha på agendan, bara budgeten eller mer?", "en": "Perfect. What should be on the agenda, just the budget or more?", "ru": "Отлично. Что будет в повестке, только бюджет или что-то ещё?" },
+    { "role": "A", "sv": "Budgeten, och kanske fem minuter om semesterplaneringen om det finns tid.", "en": "The budget, and maybe five minutes on vacation planning if there's time.", "ru": "Бюджет, и, может быть, пять минут про планирование отпусков, если будет время." },
+    { "role": "B", "sv": "Låter bra. Jag skickar en kalenderinbjudan med agendan innan fredag.", "en": "Sounds good. I'll send a calendar invite with the agenda before Friday.", "ru": "Звучит хорошо. Я отправлю приглашение в календаре с повесткой до пятницы." },
+    { "role": "A", "sv": "Toppen, tack för det. Vi ses onsdag då.", "en": "Great, thanks for that. See you Wednesday then.", "ru": "Отлично, спасибо. Тогда увидимся в среду." }
+  ],
+  "keyPhrases": ["boka in ett möte", "skickar en kalenderinbjudan", "Sal B är ledig"]
+}

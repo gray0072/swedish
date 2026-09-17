@@ -1,0 +1,31 @@
+{
+  "id": "on-the-bus",
+  "title": { "sv": "På bussen", "en": "On the bus", "ru": "В автобусе" },
+  "setting": {
+    "en": "Marek sits next to Anna on the bus, unsure which stop is his, while the ticket inspector Fatima comes by.",
+    "ru": "Марек садится рядом с Анной в автобусе, не зная, на какой остановке ему выходить, а мимо проходит контролёр Фатима."
+  },
+  "level": "sfi-a",
+  "tags": ["transport", "bus", "tickets"],
+  "roles": [
+    { "id": "A", "name": "Marek" },
+    { "id": "B", "name": "Anna" },
+    { "id": "C", "name": "Fatima" },
+    { "id": "PA", "name": "Högtalaren" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Ursäkta, är den här platsen ledig?", "en": "Excuse me, is this seat free?", "ru": "Извините, это место свободно?" },
+    { "role": "B", "sv": "Ja, varsågod. Jag kliver av om två hållplatser.", "en": "Yes, go ahead. I'm getting off in two stops.", "ru": "Да, пожалуйста. Я выхожу через две остановки." },
+    { "role": "PA", "sv": "Nästa station, Medborgarplatsen. Dörrarna stängs.", "en": "Next stop, Medborgarplatsen. The doors are closing.", "ru": "Следующая станция, Медборгарплатсен. Двери закрываются." },
+    { "role": "A", "sv": "Vet du om jag ska trycka på stoppknappen snart, jag ska till Slussen.", "en": "Do you know if I should press the stop button soon, I'm going to Slussen.", "ru": "Вы не знаете, скоро мне нажимать кнопку остановки, мне нужно до Слюссена." },
+    { "role": "B", "sv": "Nej, vänta till efter den här. Slussen är stationen efter.", "en": "No, wait until after this one. Slussen is the next station after.", "ru": "Нет, подождите до следующей. Слюссен — станция после этой." },
+    { "role": "C", "sv": "Biljetter, tack så mycket! Har alla giltig biljett?", "en": "Tickets, please! Does everyone have a valid ticket?", "ru": "Билеты, пожалуйста! У всех есть действительный билет?" },
+    { "role": "A", "sv": "Jag har en app-biljett, ett ögonblick bara... här är den.", "en": "I have an app ticket, just a moment... here it is.", "ru": "У меня билет в приложении, одну секунду... вот он." },
+    { "role": "C", "sv": "Perfekt, tack. Trevlig resa.", "en": "Perfect, thanks. Have a nice trip.", "ru": "Отлично, спасибо. Приятной поездки." },
+    { "role": "PA", "sv": "Nästa station, Slussen. Dörrarna stängs.", "en": "Next stop, Slussen. The doors are closing.", "ru": "Следующая станция, Слюссен. Двери закрываются." },
+    { "role": "A", "sv": "Där är det! Tack för hjälpen.", "en": "There it is! Thanks for the help.", "ru": "Вот и она! Спасибо за помощь." },
+    { "role": "B", "sv": "Ingen orsak, hej då!", "en": "No problem, bye!", "ru": "Не за что, пока!" },
+    { "role": "A", "sv": "Hej då!", "en": "Bye!", "ru": "Пока!" }
+  ],
+  "keyPhrases": ["är den här platsen ledig", "Dörrarna stängs", "trycka på stoppknappen"]
+}

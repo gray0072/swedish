@@ -1,0 +1,83 @@
+{
+  "id": "morning-rush",
+  "title": { "sv": "Morgonstressen", "en": "The morning rush", "ru": "Утренняя суета" },
+  "setting": {
+    "en": "Fatima is trying to get her son Adam out the door for förskolan on time.",
+    "ru": "Фатима пытается вовремя собрать сына Адама в детский сад."
+  },
+  "level": "sfi-b",
+  "tags": ["family", "morning", "children", "routine"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Adam" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Adam, upp och hoppa! Klockan är kvart över sju.",
+      "en": "Adam, up and at 'em! It's a quarter past seven.",
+      "ru": "Адам, подъём! Уже четверть восьмого."
+    },
+    {
+      "role": "B",
+      "sv": "Fem minuter till, mamma...",
+      "en": "Five more minutes, mum...",
+      "ru": "Ещё пять минуточек, мама..."
+    },
+    {
+      "role": "A",
+      "sv": "Nej, nu! Skynda dig, frukosten står redan på bordet.",
+      "en": "No, now! Hurry up, breakfast is already on the table.",
+      "ru": "Нет, сейчас же! Поторопись, завтрак уже на столе."
+    },
+    {
+      "role": "B",
+      "sv": "Okej okej, jag kommer.",
+      "en": "Okay okay, I'm coming.",
+      "ru": "Ладно, ладно, иду."
+    },
+    {
+      "role": "A",
+      "sv": "Ta på dig kläderna medan jag bäddar din säng.",
+      "en": "Get dressed while I make your bed.",
+      "ru": "Одевайся, пока я застилаю твою кровать."
+    },
+    {
+      "role": "B",
+      "sv": "Mamma, var är min andra sko? Jag hittar bara en!",
+      "en": "Mum, where's my other shoe? I can only find one!",
+      "ru": "Мама, где мой второй ботинок? Я нашёл только один!"
+    },
+    {
+      "role": "A",
+      "sv": "Har du kollat under soffan? Den brukar hamna där.",
+      "en": "Have you checked under the sofa? It usually ends up there.",
+      "ru": "Ты смотрел под диваном? Он обычно там оказывается."
+    },
+    {
+      "role": "B",
+      "sv": "Ja! Där var den.",
+      "en": "Yes! There it was.",
+      "ru": "Да! Вот он."
+    },
+    {
+      "role": "A",
+      "sv": "Bra, nu måste vi verkligen skynda oss, vi kommer för sent till förskolan.",
+      "en": "Good, now we really have to hurry, we're going to be late for preschool.",
+      "ru": "Хорошо, теперь нам правда нужно поторопиться, мы опоздаем в садик."
+    },
+    {
+      "role": "B",
+      "sv": "Jag är klar, jag är klar!",
+      "en": "I'm ready, I'm ready!",
+      "ru": "Я готов, я готов!"
+    },
+    {
+      "role": "A",
+      "sv": "Perfekt. Jacka på, skorna på, och ut genom dörren.",
+      "en": "Perfect. Jacket on, shoes on, and out the door.",
+      "ru": "Отлично. Куртку надеть, ботинки надеть — и за дверь."
+    }
+  ],
+  "keyPhrases": ["Skynda dig", "var är min andra sko", "vi kommer för sent"]
+}

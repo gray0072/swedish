@@ -1,0 +1,84 @@
+{
+  "id": "reporting-absence",
+  "title": { "sv": "Att sjukanmäla barnet", "en": "Reporting a child's absence", "ru": "Как сообщить об отсутствии ребёнка" },
+  "setting": {
+    "en": "Nguyen's son woke up with a fever. Nguyen reports it in the school app, then the teacher calls to check.",
+    "ru": "Сын Нгуена проснулся с температурой. Нгуен сообщает об этом в школьном приложении, а потом учитель звонит уточнить."
+  },
+  "level": "sfi-b",
+  "tags": ["school", "children", "illness", "phone"],
+  "roles": [
+    { "id": "A", "name": "Nguyen" },
+    { "id": "B", "name": "Läraren" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Jag loggar in i skolappen och anmäler frånvaro för Kevin idag.",
+      "en": "I'm logging into the school app to report Kevin's absence today.",
+      "ru": "Захожу в школьное приложение и сообщаю об отсутствии Кевина сегодня."
+    },
+    {
+      "role": "A",
+      "sv": "Orsak: sjuk. Feber sen i morse.",
+      "en": "Reason: sick. Fever since this morning.",
+      "ru": "Причина: болен. Температура с утра."
+    },
+    {
+      "role": "B",
+      "sv": "Hej, det är Sara, Kevins lärare. Jag såg din anmälan i appen.",
+      "en": "Hi, this is Sara, Kevin's teacher. I saw your report in the app.",
+      "ru": "Здравствуйте, это Сара, учитель Кевина. Я увидела ваше сообщение в приложении."
+    },
+    {
+      "role": "A",
+      "sv": "Hej Sara. Ja, han vaknade med feber, trettioåtta och sju.",
+      "en": "Hi Sara. Yes, he woke up with a fever, thirty-eight point seven.",
+      "ru": "Здравствуйте, Сара. Да, он проснулся с температурой, тридцать восемь и семь."
+    },
+    {
+      "role": "B",
+      "sv": "Okej. Vet du om han har varit i kontakt med nån som är sjuk?",
+      "en": "Okay. Do you know if he's been in contact with anyone who's sick?",
+      "ru": "Хорошо. Вы знаете, контактировал ли он с кем-то, кто болен?",
+      "note": { "en": "A teacher asking this is routine, not suspicion — schools track illness spread." }
+    },
+    {
+      "role": "A",
+      "sv": "Inte vad jag vet. Han var pigg i går kväll.",
+      "en": "Not that I know of. He was fine last night.",
+      "ru": "Насколько мне известно, нет. Вчера вечером он был бодрым."
+    },
+    {
+      "role": "B",
+      "sv": "Då säger vi så. Han ska vara febrifri ett helt dygn innan han kommer tillbaka.",
+      "en": "Then let's leave it at that. He needs to be fever-free for a full day before he comes back.",
+      "ru": "Тогда договорились. Ему нужно быть без температуры целые сутки, прежде чем возвращаться."
+    },
+    {
+      "role": "A",
+      "sv": "Ja, det vet jag. Jag anmäler igen imorgon om han fortfarande är sjuk.",
+      "en": "Yes, I know. I'll report again tomorrow if he's still sick.",
+      "ru": "Да, я знаю. Завтра снова сообщу, если он всё ещё будет болеть."
+    },
+    {
+      "role": "B",
+      "sv": "Perfekt, det räcker med appen då, du behöver inte ringa igen.",
+      "en": "Perfect, the app is enough then, you don't need to call again.",
+      "ru": "Отлично, тогда достаточно приложения, звонить снова не нужно."
+    },
+    {
+      "role": "A",
+      "sv": "Bra, tack för att du ringde. Krya på dig till honom!",
+      "en": "Great, thanks for calling. Get well wishes to him!",
+      "ru": "Хорошо, спасибо, что позвонили. Передавайте ему пожелания скорее выздороветь!"
+    },
+    {
+      "role": "B",
+      "sv": "Tack, ha en bra dag.",
+      "en": "Thanks, have a good day.",
+      "ru": "Спасибо, хорошего дня."
+    }
+  ],
+  "keyPhrases": ["anmäler frånvaro", "febrifri ett helt dygn", "Krya på dig"]
+}

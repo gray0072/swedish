@@ -1,0 +1,33 @@
+{
+  "id": "booking-a-doctor",
+  "title": { "sv": "Boka tid hos vårdcentralen", "en": "Booking a doctor's appointment", "ru": "Запись к врачу в поликлинику" },
+  "setting": {
+    "en": "Fatima calls the health centre to describe her symptoms and get an appointment, speaking to Johan.",
+    "ru": "Фатима звонит в поликлинику, чтобы описать симптомы и записаться на приём, разговаривая с Юханом."
+  },
+  "level": "sfi-b",
+  "tags": ["health", "phone-call", "vardcentralen"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Johan" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej, jag skulle vilja boka en tid, jag mår inte bra.", "en": "Hi, I'd like to book an appointment, I'm not feeling well.", "ru": "Здравствуйте, я хотела бы записаться на приём, мне нездоровится." },
+    { "role": "B", "sv": "Okej, berätta lite. Vad är det för symptom du har?", "en": "Okay, tell me a bit. What symptoms do you have?", "ru": "Хорошо, расскажите немного. Какие у вас симптомы?" },
+    { "role": "A", "sv": "Ont i halsen sen tre dagar, och feber igår kväll, runt trettioåtta och en halv.", "en": "A sore throat for three days, and a fever last night, around thirty-eight and a half.", "ru": "Болит горло уже три дня, и вчера вечером была температура, около тридцати восьми с половиной." },
+    { "role": "B", "sv": "Har du hosta eller andningsbesvär också?", "en": "Do you have a cough or breathing difficulties too?", "ru": "У вас есть кашель или затруднённое дыхание?" },
+    { "role": "A", "sv": "Lite hosta, men inget allvarligt tycker jag. Mest bara trött och hängig.", "en": "A little cough, but nothing serious I think. Mostly just tired and run down.", "ru": "Небольшой кашель, но, думаю, ничего серьёзного. В основном просто усталость и слабость." },
+    { "role": "B", "sv": "Låter som en vanlig förkylning, men vi bokar en tid ändå så en läkare kan titta på halsen.", "en": "Sounds like an ordinary cold, but we'll book a time anyway so a doctor can look at your throat.", "ru": "Похоже на обычную простуду, но мы всё равно запишем вас на приём, чтобы врач посмотрел горло." },
+    { "role": "A", "sv": "Bra, när finns det en ledig tid?", "en": "Good, when is there a free slot?", "ru": "Хорошо, когда есть свободное время?" },
+    { "role": "B", "sv": "Jag har en tid imorgon klockan elva, passar det?", "en": "I have a slot tomorrow at eleven, does that work?", "ru": "У меня есть время завтра в одиннадцать, вам подходит?" },
+    { "role": "A", "sv": "Ja, det passar bra. Behöver jag ta med något särskilt?", "en": "Yes, that works well. Do I need to bring anything in particular?", "ru": "Да, отлично подходит. Мне нужно взять что-то особенное с собой?" },
+    { "role": "B", "sv": "Bara legitimation. Och ring 1177 igen om du blir sämre under natten.", "en": "Just an ID. And call 1177 again if you get worse during the night.", "ru": "Только удостоверение личности. И позвоните снова по номеру 1177, если станет хуже ночью." },
+    { "role": "A", "sv": "Okej, det ska jag komma ihåg. Tack för hjälpen.", "en": "Okay, I'll remember that. Thanks for the help.", "ru": "Хорошо, я запомню. Спасибо за помощь." },
+    { "role": "B", "sv": "Varsågod, krya på dig och vi ses imorgon.", "en": "You're welcome, get well soon and see you tomorrow.", "ru": "Пожалуйста, поправляйтесь, и увидимся завтра." }
+  ],
+  "keyPhrases": ["boka en tid", "1177", "en tid imorgon klockan elva"],
+  "culture": {
+    "en": "1177 is the national phone number and website for non-emergency healthcare advice in Sweden — the usual first stop before a visit is booked.",
+    "ru": "1177 — это национальный номер телефона и сайт для получения неэкстренных медицинских консультаций в Швеции — обычно первый шаг перед записью на приём."
+  }
+}

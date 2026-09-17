@@ -1,0 +1,65 @@
+{
+  "id": "who-does-what",
+  "title": { "sv": "Vem gör vad", "en": "Who does what", "ru": "Кто что делает" },
+  "setting": {
+    "en": "Eva and Marek sit down to divide the household chores more fairly.",
+    "ru": "Ева и Марек садятся, чтобы более справедливо разделить домашние обязанности."
+  },
+  "level": "sfi-c",
+  "tags": ["family", "chores", "negotiation"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Ska vi bestämma vem som gör vad hemma? Det blir alltid jag som får diska.",
+      "en": "Should we decide who does what at home? It's always me who ends up doing the dishes.",
+      "ru": "Может, определимся, кто что делает по дому? Мыть посуду всегда приходится мне."
+    },
+    {
+      "role": "B",
+      "sv": "Förlåt, jag har inte tänkt på det. Vad vill du att jag gör istället?",
+      "en": "Sorry, I hadn't really thought about it. What would you like me to do instead?",
+      "ru": "Извини, я как-то не задумывался об этом. Что бы ты хотела, чтобы я делал вместо этого?"
+    },
+    {
+      "role": "A",
+      "sv": "Kan du dammsuga varje helg, och slänga soporna på väg till jobbet?",
+      "en": "Could you vacuum every weekend, and take out the trash on your way to work?",
+      "ru": "Можешь пылесосить каждые выходные и выносить мусор по дороге на работу?"
+    },
+    {
+      "role": "B",
+      "sv": "Visst, det går bra. Men jag vill slippa vika tvätt, jag tycker inte om det.",
+      "en": "Sure, that works. But I'd like to skip folding laundry, I don't like it.",
+      "ru": "Конечно, годится. Но я бы хотел не заниматься складыванием белья, мне это не нравится."
+    },
+    {
+      "role": "A",
+      "sv": "Okej, då tar jag hand om tvätten, om du diskar på vardagarna.",
+      "en": "Okay, then I'll take care of the laundry, if you do the dishes on weekdays.",
+      "ru": "Хорошо, тогда я буду заниматься стиркой, если ты будешь мыть посуду по будням."
+    },
+    {
+      "role": "B",
+      "sv": "Låter rättvist, vi provar så ett tag.",
+      "en": "Sounds fair, let's try that for a while.",
+      "ru": "Звучит справедливо, давай попробуем так какое-то время."
+    },
+    {
+      "role": "A",
+      "sv": "Bra, och storstädningen delar vi på som vanligt.",
+      "en": "Good, and we'll split the big cleaning like usual.",
+      "ru": "Хорошо, а генеральную уборку, как обычно, поделим пополам."
+    },
+    {
+      "role": "B",
+      "sv": "Absolut, det är ju ändå inte kul för nån av oss.",
+      "en": "Absolutely, neither of us enjoys that anyway.",
+      "ru": "Конечно, всё равно это никому из нас не нравится."
+    }
+  ],
+  "keyPhrases": ["diska", "dammsuga", "slänga soporna", "vika tvätt"]
+}

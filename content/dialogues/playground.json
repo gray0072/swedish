@@ -1,0 +1,77 @@
+{
+  "id": "playground",
+  "title": { "sv": "På lekplatsen", "en": "At the playground", "ru": "На детской площадке" },
+  "setting": {
+    "en": "Fatima and Anna sit on the bench while their children share the swing at the playground.",
+    "ru": "Фатима и Анна сидят на скамейке, пока их дети делят качели на детской площадке."
+  },
+  "level": "sfi-b",
+  "tags": ["family", "children", "playground", "parents"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Anna" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej, får jag sätta mig här bredvid dig?",
+      "en": "Hi, may I sit here next to you?",
+      "ru": "Привет, можно я сяду рядом с тобой?"
+    },
+    {
+      "role": "B",
+      "sv": "Javisst, varsågod.",
+      "en": "Of course, go ahead.",
+      "ru": "Конечно, пожалуйста."
+    },
+    {
+      "role": "A",
+      "sv": "Tack. Såg du? Min son frågade precis din dotter 'Får jag låna din spade?'",
+      "en": "Thanks. Did you see that? My son just asked your daughter 'May I borrow your spade?'",
+      "ru": "Спасибо. Видела? Мой сын только что спросил у твоей дочки: «Можно мне одолжить твою лопатку?»"
+    },
+    {
+      "role": "B",
+      "sv": "Haha ja, och hon sa ja direkt, sött.",
+      "en": "Haha yes, and she said yes right away, cute.",
+      "ru": "Ха-ха, да, и она сразу согласилась, мило."
+    },
+    {
+      "role": "A",
+      "sv": "Dom kommer bra överens. Fast nu bråkar dom visst om gungan.",
+      "en": "They get along well. Though now it seems they're fighting over the swing.",
+      "ru": "Они хорошо ладят. Хотя, кажется, теперь спорят из-за качелей."
+    },
+    {
+      "role": "B",
+      "sv": "Ja, dom får dela på gungan, femtio gungtag var kanske?",
+      "en": "Yeah, they'll have to share the swing, maybe fifty pushes each?",
+      "ru": "Да, придётся им делить качели, может, по пятьдесят раскачиваний каждому?"
+    },
+    {
+      "role": "A",
+      "sv": "Bra idé, jag säger till dom.",
+      "en": "Good idea, I'll tell them.",
+      "ru": "Хорошая идея, я им скажу."
+    },
+    {
+      "role": "B",
+      "sv": "Vi måste ändå gå snart, är hemma om fem minuter tänkte jag säga till henne.",
+      "en": "We have to leave soon anyway, I was going to tell her we're heading home in five minutes.",
+      "ru": "Нам всё равно скоро уходить, я хотела сказать ей, что через пять минут идём домой."
+    },
+    {
+      "role": "A",
+      "sv": "Vi med, det börjar bli kallt nu när solen gått ner.",
+      "en": "Us too, it's getting cold now that the sun's gone down.",
+      "ru": "Мы тоже, становится холодно, солнце уже село."
+    },
+    {
+      "role": "B",
+      "sv": "Ja. Kul att prata, vi ses här igen kanske!",
+      "en": "Yeah. Nice talking to you, maybe see you here again!",
+      "ru": "Да. Приятно было поболтать, может, ещё увидимся здесь!"
+    }
+  ],
+  "keyPhrases": ["Får jag låna din spade", "dela på gungan", "om fem minuter"]
+}

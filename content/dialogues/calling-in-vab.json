@@ -1,0 +1,76 @@
+{
+  "id": "calling-in-vab",
+  "title": { "sv": "Att ringa in vab", "en": "Calling in vab", "ru": "Звонок о больничном по уходу за ребёнком" },
+  "setting": {
+    "en": "Eva's daughter Elsa is sick. Eva calls the preschool, then her manager, to say she is staying home with vab.",
+    "ru": "Дочь Евы, Эльса, заболела. Ева звонит в детский сад, а затем своему руководителю, чтобы сказать, что останется дома по больничному по уходу за ребёнком."
+  },
+  "level": "sfi-c",
+  "tags": ["family", "illness", "work", "vab"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Sara" },
+    { "id": "C", "name": "Johan" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej, det är Eva, mamma till Elsa i Solrosgruppen. Jag ringer för att anmäla vab idag.",
+      "en": "Hi, this is Eva, Elsa's mum in the Sunflower group. I'm calling to report a sick-child day today.",
+      "ru": "Здравствуйте, это Ева, мама Эльсы из группы «Подсолнух». Звоню сообщить, что сегодня беру больничный по уходу за ребёнком."
+    },
+    {
+      "role": "B",
+      "sv": "Hej Eva! Okej, vad är det för symtom?",
+      "en": "Hi Eva! Okay, what are the symptoms?",
+      "ru": "Здравствуйте, Ева! Хорошо, какие симптомы?"
+    },
+    {
+      "role": "A",
+      "sv": "Hon har feber och ont i halsen sen inatt, så hon stannar hemma.",
+      "en": "She's had a fever and a sore throat since last night, so she's staying home.",
+      "ru": "У неё с ночи температура и болит горло, поэтому она останется дома."
+    },
+    {
+      "role": "B",
+      "sv": "Tråkigt att höra, krya på er! Jag för in det i systemet.",
+      "en": "Sorry to hear that, get well soon! I'll register it in the system.",
+      "ru": "Жаль это слышать, выздоравливайте! Я отмечу это в системе."
+    },
+    {
+      "role": "A",
+      "sv": "Tack så mycket, ha en bra dag.",
+      "en": "Thank you very much, have a good day.",
+      "ru": "Большое спасибо, хорошего дня."
+    },
+    {
+      "role": "A",
+      "sv": "Hej Johan, det är Eva. Jag måste vabba idag, Elsa är sjuk.",
+      "en": "Hi Johan, it's Eva. I have to stay home with a sick child today, Elsa is ill.",
+      "ru": "Привет, Йохан, это Ева. Мне сегодня нужно взять больничный по уходу, Эльса заболела."
+    },
+    {
+      "role": "C",
+      "sv": "Okej, tack för att du hör av dig. Hoppas hon blir bättre snart.",
+      "en": "Okay, thanks for letting me know. Hope she gets better soon.",
+      "ru": "Хорошо, спасибо, что сообщила. Надеюсь, она скоро поправится."
+    },
+    {
+      "role": "A",
+      "sv": "Tack, jag jobbar hemifrån om det behövs nåt akut, annars hörs vi imorgon.",
+      "en": "Thanks, I'll work from home if anything urgent comes up, otherwise let's talk tomorrow.",
+      "ru": "Спасибо, если будет что-то срочное, поработаю из дома, иначе созвонимся завтра."
+    },
+    {
+      "role": "C",
+      "sv": "Låter bra, ta hand om henne. Vi löser resten.",
+      "en": "Sounds good, take care of her. We'll handle the rest.",
+      "ru": "Хорошо, позаботься о ней. Остальное мы уладим."
+    }
+  ],
+  "keyPhrases": ["anmäla vab", "vabba", "krya på er"],
+  "culture": {
+    "en": "Vab (\"vård av barn\") is paid leave for looking after a sick child, reported to Försäkringskassan; parents notify the preschool first, then their employer, and it's treated as an ordinary, unremarkable part of working life.",
+    "ru": "Vab (\"vård av barn\", уход за ребёнком) — оплачиваемый отпуск по уходу за больным ребёнком, оформляемый через Försäkringskassan; родители сначала сообщают в детский сад, потом работодателю, и это воспринимается как обычная, никого не удивляющая часть рабочей жизни."
+  }
+}

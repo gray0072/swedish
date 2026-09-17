@@ -1,0 +1,28 @@
+{
+  "id": "train-cancelled",
+  "title": { "sv": "Tåget är inställt", "en": "The train is cancelled", "ru": "Поезд отменён" },
+  "setting": {
+    "en": "Johan's train to Uppsala has been cancelled, and he asks staff member Eva what to do.",
+    "ru": "Поезд Юхана до Уппсалы отменён, и он спрашивает сотрудницу Еву, что делать."
+  },
+  "level": "sfi-b",
+  "tags": ["transport", "train", "problem-solving"],
+  "roles": [
+    { "id": "A", "name": "Johan" },
+    { "id": "B", "name": "Eva" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Ursäkta, vet du varför tåget till Uppsala är inställt?", "en": "Excuse me, do you know why the train to Uppsala is cancelled?", "ru": "Извините, вы не знаете, почему поезд до Уппсалы отменён?" },
+    { "role": "B", "sv": "Det är visst ett tekniskt fel på spåret. Vi vet inte riktigt när det löser sig.", "en": "There's apparently a technical fault on the track. We don't really know when it'll be fixed.", "ru": "Судя по всему, техническая неисправность на путях. Мы точно не знаем, когда это исправят." },
+    { "role": "A", "sv": "Jaha, det var ju inte bra. Finns det någon ersättningsbuss?", "en": "Oh, that's not great. Is there a replacement bus?", "ru": "Ясно, это не очень хорошо. Есть ли автобус-замена?" },
+    { "role": "B", "sv": "Ja, den går från hållplatsen utanför entrén om tio minuter.", "en": "Yes, it leaves from the stop outside the entrance in ten minutes.", "ru": "Да, он отправляется от остановки снаружи у входа через десять минут." },
+    { "role": "A", "sv": "Vet du hur lång tid resan tar med buss istället för tåg?", "en": "Do you know how long the trip takes by bus instead of by train?", "ru": "Вы не знаете, сколько времени займёт поездка на автобусе вместо поезда?" },
+    { "role": "B", "sv": "Nog en timme längre, tyvärr, men den stannar på samma stationer.", "en": "Probably an hour longer, unfortunately, but it stops at the same stations.", "ru": "Наверное, на час дольше, к сожалению, но он останавливается на тех же станциях." },
+    { "role": "A", "sv": "Okej, bättre än inget. Gäller min tågbiljett på bussen också?", "en": "Okay, better than nothing. Is my train ticket valid on the bus too?", "ru": "Хорошо, лучше, чем ничего. Мой билет на поезд действителен и на автобус?" },
+    { "role": "B", "sv": "Ja, du behöver bara visa den för föraren, ingen ny biljett behövs.", "en": "Yes, you just need to show it to the driver, no new ticket needed.", "ru": "Да, вам достаточно показать его водителю, новый билет не нужен." },
+    { "role": "A", "sv": "Toppen, tack för hjälpen. Var någonstans sa du att den stod?", "en": "Great, thanks for the help. Where did you say it was parked?", "ru": "Отлично, спасибо за помощь. Где вы говорите он стоит?" },
+    { "role": "B", "sv": "Precis utanför huvudentrén, du ser skylten 'Ersättningstrafik'.", "en": "Right outside the main entrance, you'll see the 'Replacement service' sign.", "ru": "Прямо у главного входа, вы увидите табличку 'Замена перевозки'." },
+    { "role": "A", "sv": "Perfekt, då skyndar jag mig dit. Tack igen!", "en": "Perfect, I'll hurry over there then. Thanks again!", "ru": "Отлично, тогда я поспешу туда. Спасибо ещё раз!" }
+  ],
+  "keyPhrases": ["tåget till Uppsala är inställt", "ersättningsbuss", "Ersättningstrafik"]
+}

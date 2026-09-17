@@ -1,0 +1,71 @@
+{
+  "id": "what-shall-we-eat",
+  "title": { "sv": "Vad ska vi äta?", "en": "What shall we eat?", "ru": "Что будем есть?" },
+  "setting": {
+    "en": "Eva and Marek try to figure out dinner plans and what's left in the fridge.",
+    "ru": "Ева и Марек пытаются решить, что готовить на ужин и что осталось в холодильнике."
+  },
+  "level": "sfi-b",
+  "tags": ["family", "food", "planning"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Vad ska vi äta ikväll? Jag orkar inte tänka.",
+      "en": "What shall we eat tonight? I don't have the energy to think.",
+      "ru": "Что будем есть сегодня вечером? У меня нет сил думать."
+    },
+    {
+      "role": "B",
+      "sv": "Vad finns det hemma egentligen? Har vi kollat kylskåpet?",
+      "en": "What's actually at home? Have we checked the fridge?",
+      "ru": "А что вообще есть дома? Мы смотрели в холодильник?"
+    },
+    {
+      "role": "A",
+      "sv": "Bara ägg, lite ost och en gammal paprika, tror jag.",
+      "en": "Just eggs, a bit of cheese and an old bell pepper, I think.",
+      "ru": "Только яйца, немного сыра и старый перец, кажется."
+    },
+    {
+      "role": "B",
+      "sv": "Då måste vi nog handla lite mat på vägen hem.",
+      "en": "Then we probably need to buy some food on the way home.",
+      "ru": "Тогда нам, наверное, надо купить продуктов по дороге домой."
+    },
+    {
+      "role": "A",
+      "sv": "Kan du göra det? Jag hämtar barnen från fritids samtidigt.",
+      "en": "Could you do that? I'm picking up the kids from after-school club at the same time.",
+      "ru": "Можешь этим заняться? Я как раз буду забирать детей из группы продлённого дня."
+    },
+    {
+      "role": "B",
+      "sv": "Visst, jag handlar. Nån särskild önskan?",
+      "en": "Sure, I'll do the shopping. Any particular wishes?",
+      "ru": "Конечно, схожу за покупками. Есть какие-то особые пожелания?"
+    },
+    {
+      "role": "A",
+      "sv": "Kanske pasta med nåt enkelt, vi är trötta båda två.",
+      "en": "Maybe pasta with something simple, we're both tired.",
+      "ru": "Может, паста с чем-нибудь простым, мы оба устали."
+    },
+    {
+      "role": "B",
+      "sv": "Pasta funkar bra. Jag köper lite grönsaker också, så det blir hyfsat nyttigt.",
+      "en": "Pasta works fine. I'll buy some vegetables too, so it's reasonably healthy.",
+      "ru": "Паста подойдёт. Куплю ещё немного овощей, чтобы было более-менее полезно."
+    },
+    {
+      "role": "A",
+      "sv": "Perfekt, tack för att du fixar det.",
+      "en": "Perfect, thanks for sorting it out.",
+      "ru": "Отлично, спасибо, что займёшься этим."
+    }
+  ],
+  "keyPhrases": ["Vad ska vi äta", "handla lite mat", "Vad finns det hemma"]
+}

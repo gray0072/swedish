@@ -1,0 +1,82 @@
+{
+  "id": "parent-teacher-meeting",
+  "title": { "sv": "Utvecklingssamtalet", "en": "The parent-teacher meeting", "ru": "Родительское собрание (беседа о развитии)" },
+  "setting": {
+    "en": "Teacher Anna meets Adam's father Marek for the term's utvecklingssamtal.",
+    "ru": "Учительница Анна встречается с отцом Адама, Мареком, на семестровой беседе о развитии ребёнка."
+  },
+  "level": "sfi-d",
+  "tags": ["school", "parents", "meeting", "utvecklingssamtal"],
+  "roles": [
+    { "id": "A", "name": "Anna" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Välkommen till utvecklingssamtalet! Sätt dig, så går vi igenom hur det går för Adam.",
+      "en": "Welcome to the development meeting! Sit down, and we'll go through how Adam is doing.",
+      "ru": "Добро пожаловать на беседу о развитии! Присаживайтесь, мы обсудим, как дела у Адама."
+    },
+    {
+      "role": "B",
+      "sv": "Tack. Jag är lite nervös, ska jag vara ärlig.",
+      "en": "Thanks. I'm a bit nervous, to be honest.",
+      "ru": "Спасибо. Если честно, я немного нервничаю."
+    },
+    {
+      "role": "A",
+      "sv": "Ingen anledning till oro, det mesta ser jättebra ut faktiskt.",
+      "en": "No reason to worry, most of it actually looks great.",
+      "ru": "Нет повода для беспокойства, в целом всё выглядит очень хорошо.",
+      "note": { "en": "Swedish teachers open on the positive before anything else, even when there is something to flag later." }
+    },
+    {
+      "role": "B",
+      "sv": "Skönt att höra. Hänger han med i matematiken? Det har han klagat på hemma.",
+      "en": "Good to hear. Is he keeping up in maths? He's complained about it at home.",
+      "ru": "Приятно слышать. А по математике он успевает? Дома он на это жаловался."
+    },
+    {
+      "role": "A",
+      "sv": "Han hänger med bra, men han skulle kunna räcka upp handen lite oftare.",
+      "en": "He's keeping up fine, but he could raise his hand a bit more often.",
+      "ru": "Он вполне успевает, но мог бы почаще поднимать руку."
+    },
+    {
+      "role": "B",
+      "sv": "Jaha. Finns det nåt vi borde jobba mer med hemma, tycker du?",
+      "en": "I see. Is there anything you think we should work more on at home?",
+      "ru": "Понятно. А есть что-то, над чем нам стоило бы больше работать дома, как вы думаете?"
+    },
+    {
+      "role": "A",
+      "sv": "Kanske lite mer läsning kvällstid, men inget att oroa sig för.",
+      "en": "Maybe a bit more reading in the evenings, but nothing to worry about.",
+      "ru": "Может быть, чуть больше чтения по вечерам, но это не повод для беспокойства."
+    },
+    {
+      "role": "B",
+      "sv": "Det kan vi absolut göra. Är det nåt mer du tänker på?",
+      "en": "We can absolutely do that. Is there anything else on your mind?",
+      "ru": "Мы это точно можем сделать. Есть ещё что-то, о чём вы думаете?"
+    },
+    {
+      "role": "A",
+      "sv": "Nej, egentligen inte. Han är omtyckt och trivs bra i klassen.",
+      "en": "No, not really. He's well-liked and does well in the class.",
+      "ru": "Нет, в общем-то, нет. Его любят одноклассники, и ему хорошо в классе."
+    },
+    {
+      "role": "B",
+      "sv": "Tack, det var skönt att höra det svart på vitt.",
+      "en": "Thanks, it was good to hear it spelled out clearly.",
+      "ru": "Спасибо, было приятно услышать это прямо и ясно."
+    }
+  ],
+  "keyPhrases": ["utvecklingssamtalet", "hänger med bra", "Finns det nåt vi borde"],
+  "culture": {
+    "en": "Utvecklingssamtal is a scheduled one-on-one meeting between teacher and parent held each term, built around the child's own development plan rather than grades alone, and conducted in careful, hedged, non-confrontational language.",
+    "ru": "Utvecklingssamtal — плановая индивидуальная встреча учителя и родителя, проводимая каждый семестр и построенная вокруг индивидуального плана развития ребёнка, а не только оценок; ведётся в осторожной, смягчённой, неконфронтационной манере."
+  }
+}

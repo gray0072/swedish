@@ -1,0 +1,88 @@
+{
+  "id": "laundry-room",
+  "title": { "sv": "I tvättstugan", "en": "In the laundry room", "ru": "В прачечной" },
+  "setting": {
+    "en": "Eva's booked time has started but Marek's washing machine is still running.",
+    "ru": "Время Евы уже началось, но стиральная машина Марека всё ещё работает."
+  },
+  "level": "sfi-c",
+  "tags": ["housing", "conflict", "smaprat", "laundry"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej! Förlåt, men jag tror att min tid i tvättstugan börjar nu, klockan sju.",
+      "en": "Hi! Sorry, but I think my time in the laundry room starts now, at seven.",
+      "ru": "Привет! Извини, но, кажется, моё время в прачечной начинается сейчас, в семь.",
+      "note": { "en": "\"Förlåt, men…\" is how a Swede opens a complaint: apologise first." }
+    },
+    {
+      "role": "B",
+      "sv": "Oj, förlåt! Jag missade tiden helt. Jag tar ut den direkt.",
+      "en": "Oh, sorry! I completely missed the time. I'll take it out right away.",
+      "ru": "Ой, извини! Я совсем забыл про время. Сейчас же вытащу бельё."
+    },
+    {
+      "role": "A",
+      "sv": "Ingen fara, det händer alla ibland.",
+      "en": "No worries, it happens to everyone sometimes.",
+      "ru": "Ничего страшного, с каждым бывает."
+    },
+    {
+      "role": "B",
+      "sv": "Är det upptaget hela kvällen, eller finns det fler tider?",
+      "en": "Is it booked the whole evening, or are there more slots?",
+      "ru": "Всё занято на весь вечер, или есть ещё время?"
+    },
+    {
+      "role": "A",
+      "sv": "Nej då, det är upptaget bara till klockan nio, sen är det ledigt.",
+      "en": "No, it's only booked until nine, then it's free.",
+      "ru": "Нет, занято только до девяти, потом свободно."
+    },
+    {
+      "role": "B",
+      "sv": "Bra att veta. Då kan jag boka en tid ikväll.",
+      "en": "Good to know. Then I can book a time tonight.",
+      "ru": "Хорошо, что сказала. Тогда я забронирую время на сегодня вечером."
+    },
+    {
+      "role": "A",
+      "sv": "Bokningstavlan hänger där borta vid dörren, bredvid ingången.",
+      "en": "The booking board hangs over there by the door, next to the entrance.",
+      "ru": "Доска бронирования висит вон там у двери, рядом со входом."
+    },
+    {
+      "role": "B",
+      "sv": "Tack, jag kollar den på väg ut.",
+      "en": "Thanks, I'll check it on my way out.",
+      "ru": "Спасибо, я посмотрю на неё по пути."
+    },
+    {
+      "role": "A",
+      "sv": "Förresten, torktumlaren är ledig nu om du vill använda den sen.",
+      "en": "By the way, the dryer is free now if you want to use it later.",
+      "ru": "Кстати, сушилка сейчас свободна, если хочешь ей потом воспользоваться."
+    },
+    {
+      "role": "B",
+      "sv": "Tack för det! Och förlåt igen för krånglet med tiden.",
+      "en": "Thanks for that! And sorry again for the hassle with the time.",
+      "ru": "Спасибо за это! И извини ещё раз за путаницу со временем."
+    },
+    {
+      "role": "A",
+      "sv": "Det är lugnt, vi har alla glömt en tid nån gång.",
+      "en": "It's fine, we've all forgotten a booking at some point.",
+      "ru": "Всё нормально, мы все хоть раз забывали своё время."
+    }
+  ],
+  "keyPhrases": ["tvättstugan", "Jag tar ut den direkt", "det är upptaget", "boka en tid", "Det är lugnt"],
+  "culture": {
+    "en": "The laundry room (tvättstuga) is the most regulated shared space in Swedish housing: a booking board, strict time slots, and an unwritten rule that you clean the lint filter before you leave.",
+    "ru": "Прачечная (tvättstuga) — самое зарегулированное общее помещение в шведском доме: доска бронирования, строгие временные интервалы и негласное правило чистить фильтр перед уходом."
+  }
+}

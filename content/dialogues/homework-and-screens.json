@@ -1,0 +1,71 @@
+{
+  "id": "homework-and-screens",
+  "title": { "sv": "Läxan och skärmtiden", "en": "Homework and screens", "ru": "Уроки и экранное время" },
+  "setting": {
+    "en": "Fatima negotiates with her daughter Alice about finishing homework before more screen time.",
+    "ru": "Фатима договаривается с дочерью Алисой о том, чтобы сначала сделать уроки, а потом получить больше экранного времени."
+  },
+  "level": "sfi-c",
+  "tags": ["family", "children", "homework", "screens"],
+  "roles": [
+    { "id": "A", "name": "Fatima" },
+    { "id": "B", "name": "Alice" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Alice, har du gjort din läxa än?",
+      "en": "Alice, have you done your homework yet?",
+      "ru": "Алиса, ты уже сделала уроки?"
+    },
+    {
+      "role": "B",
+      "sv": "Snart, jag är mitt i ett spel, kan jag inte göra läxan sen?",
+      "en": "Soon, I'm in the middle of a game, can't I do the homework later?",
+      "ru": "Скоро, я как раз играю, можно я сделаю уроки попозже?"
+    },
+    {
+      "role": "A",
+      "sv": "Nej, gör din läxa nu, spelet får vänta.",
+      "en": "No, do your homework now, the game can wait.",
+      "ru": "Нет, делай уроки сейчас, игра подождёт."
+    },
+    {
+      "role": "B",
+      "sv": "Men bara en kvart till, snälla.",
+      "en": "But just fifteen more minutes, please.",
+      "ru": "Но ещё только четверть часа, пожалуйста."
+    },
+    {
+      "role": "A",
+      "sv": "Okej, en kvart till, men sen stänger vi av skärmen helt.",
+      "en": "Okay, fifteen more minutes, but then we turn the screen off completely.",
+      "ru": "Хорошо, ещё четверть часа, но потом полностью выключаем экран."
+    },
+    {
+      "role": "B",
+      "sv": "Lovar!",
+      "en": "I promise!",
+      "ru": "Обещаю!"
+    },
+    {
+      "role": "A",
+      "sv": "Och när läxan är klar, då kan du få lite mer skärmtid innan middagen.",
+      "en": "And once the homework is done, you can have a bit more screen time before dinner.",
+      "ru": "А когда сделаешь уроки, получишь ещё немного экранного времени перед ужином."
+    },
+    {
+      "role": "B",
+      "sv": "Va, verkligen? Okej, då gör jag läxan direkt!",
+      "en": "What, really? Okay, then I'll do the homework right away!",
+      "ru": "Правда? Хорошо, тогда я сразу же сделаю уроки!"
+    },
+    {
+      "role": "A",
+      "sv": "Bra beslut. Rop på mig om du behöver hjälp med nåt.",
+      "en": "Good decision. Call me if you need help with anything.",
+      "ru": "Хорошее решение. Позови меня, если понадобится помощь."
+    }
+  ],
+  "keyPhrases": ["gör din läxa", "en kvart till", "skärmtid"]
+}

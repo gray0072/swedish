@@ -1,0 +1,77 @@
+{
+  "id": "after-school-club",
+  "title": { "sv": "På fritids", "en": "At after-school club", "ru": "На продлёнке" },
+  "setting": {
+    "en": "Sara calls the after-school club to find out who's picking up her son today and when.",
+    "ru": "Сара звонит на продлёнку, чтобы узнать, кто и когда сегодня заберёт её сына."
+  },
+  "level": "sfi-a",
+  "tags": ["school", "children", "phone", "fritids"],
+  "roles": [
+    { "id": "A", "name": "Sara" },
+    { "id": "B", "name": "Fritidspedagogen" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej, det är Sara, Melvins mamma. Jag undrar vem som hämtar honom idag.",
+      "en": "Hi, this is Sara, Melvin's mum. I'm wondering who's picking him up today.",
+      "ru": "Здравствуйте, это Сара, мама Мелвина. Хотела узнать, кто заберёт его сегодня."
+    },
+    {
+      "role": "B",
+      "sv": "Hej Sara! Jag kollar i listan… det står att pappa hämtar klockan sexton.",
+      "en": "Hi Sara! Let me check the list… it says dad is picking up at four.",
+      "ru": "Здравствуйте, Сара! Сейчас посмотрю в списке… написано, что папа заберёт в шестнадцать."
+    },
+    {
+      "role": "A",
+      "sv": "Oj, det stämmer inte, han jobbar sent idag. Jag hämtar istället.",
+      "en": "Oh, that's not right, he's working late today. I'll pick him up instead.",
+      "ru": "Ой, это неверно, он сегодня работает допоздна. Заберу я вместо него."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, då ändrar jag det direkt. Vilken tid tänkte du komma?",
+      "en": "Okay, I'll change that right away. What time were you thinking of coming?",
+      "ru": "Хорошо, сейчас же изменю. Во сколько вы планируете прийти?"
+    },
+    {
+      "role": "A",
+      "sv": "Runt kvart över fem, jag slutar jobbet klockan fem.",
+      "en": "Around quarter past five, I finish work at five.",
+      "ru": "Около четверти шестого, я заканчиваю работу в пять."
+    },
+    {
+      "role": "B",
+      "sv": "Bra, det funkar fint. Vi är öppna till arton, så ingen fara.",
+      "en": "Good, that works fine. We're open until six, so no worries.",
+      "ru": "Хорошо, это подходит. Мы открыты до восемнадцати, так что всё в порядке."
+    },
+    {
+      "role": "A",
+      "sv": "Toppen. Kan du säga till Melvin att det är jag som kommer, inte pappa?",
+      "en": "Great. Can you tell Melvin it's me coming, not dad?",
+      "ru": "Отлично. Можете сказать Мелвину, что приду я, а не папа?"
+    },
+    {
+      "role": "B",
+      "sv": "Absolut, jag säger till honom nu på en gång.",
+      "en": "Absolutely, I'll tell him right now.",
+      "ru": "Конечно, скажу ему прямо сейчас."
+    },
+    {
+      "role": "A",
+      "sv": "Tack så mycket, då ses vi sen.",
+      "en": "Thank you so much, see you later then.",
+      "ru": "Большое спасибо, тогда до встречи."
+    },
+    {
+      "role": "B",
+      "sv": "Vi ses, hej så länge!",
+      "en": "See you, bye for now!",
+      "ru": "До встречи, пока!"
+    }
+  ],
+  "keyPhrases": ["vem som hämtar honom", "kvart över fem", "hej så länge"]
+}

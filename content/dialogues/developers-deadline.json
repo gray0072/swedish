@@ -1,0 +1,27 @@
+{
+  "id": "developers-deadline",
+  "title": { "sv": "Deadline för utvecklarna", "en": "The developers' deadline", "ru": "Дедлайн для разработчиков" },
+  "setting": {
+    "en": "Marek and Nguyen, two developers, realise the Friday release is at risk after QA found a bug.",
+    "ru": "Марек и Нгуен, два разработчика, понимают, что пятничный релиз под угрозой после того, как QA нашёл баг."
+  },
+  "level": "sfi-d",
+  "tags": ["work", "tech", "deadline", "anglicisms"],
+  "roles": [
+    { "id": "A", "name": "Marek" },
+    { "id": "B", "name": "Nguyen" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Vi hinner inte till fredag, va. QA hittade en jävla bug i payment-flowet igår.", "en": "We're not going to make Friday. QA found a nasty bug in the payment flow yesterday.", "ru": "Мы не успеем к пятнице. QA вчера нашёл жуткий баг в payment-флоу.", "note": { "en": "\"Va\" tacked onto a statement isn't a question here — it's a resigned, almost rhetorical tag, close to \"you know\"." } },
+    { "role": "B", "sv": "Allvarligt? Jag trodde estimatet höll ganska bra.", "en": "Seriously? I thought the estimate was holding up pretty well.", "ru": "Серьёзно? Я думал, оценка держится довольно хорошо." },
+    { "role": "A", "sv": "Det gjorde det, fram tills nu. Vi måste cutta scope om vi ska ha en chans.", "en": "It was, until now. We have to cut scope if we're going to have a chance.", "ru": "Так и было, до сих пор. Нам нужно урезать объём, если хотим успеть." },
+    { "role": "B", "sv": "Kan vi skjuta på det, typ pusha login-refactorn till nästa sprint?", "en": "Can we push it back, like push the login refactor to next sprint?", "ru": "Можем мы это отложить, типа перенести рефакторинг логина на следующий спринт?" },
+    { "role": "A", "sv": "Exakt vad jag tänkte. Men vi måste synka med PO innan standup imorgon.", "en": "Exactly what I was thinking. But we need to sync with the PO before standup tomorrow.", "ru": "Именно об этом я и думал. Но нам нужно синхронизироваться с PO перед стендапом завтра." },
+    { "role": "B", "sv": "Yep, jag lägger upp en ticket och taggar henne i Slack direkt.", "en": "Yep, I'll put up a ticket and tag her in Slack right away.", "ru": "Ага, я заведу тикет и сразу отмечу её в Slack." },
+    { "role": "A", "sv": "Och förresten, deployen från igår gick sönder på staging.", "en": "And by the way, yesterday's deploy broke on staging.", "ru": "И кстати, вчерашний деплой сломался на стейджинге." },
+    { "role": "B", "sv": "Klassiskt. Fick du rulla tillbaka?", "en": "Classic. Did you have to roll back?", "ru": "Классика. Пришлось откатывать?" },
+    { "role": "A", "sv": "Ja, rollback är klar. Kör en ny deploy när fixen är mergad.", "en": "Yeah, the rollback is done. We'll run a new deploy once the fix is merged.", "ru": "Да, откат сделан. Запустим новый деплой, как только фикс замёржится." },
+    { "role": "B", "sv": "Perfekt, pinga mig så fort pipelinen är grön igen.", "en": "Perfect, ping me as soon as the pipeline is green again.", "ru": "Отлично, напиши мне, как только пайплайн снова станет зелёным." }
+  ],
+  "keyPhrases": ["Vi hinner inte till fredag", "Kan vi skjuta på det", "cutta scope", "rulla tillbaka"]
+}

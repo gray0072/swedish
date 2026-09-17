@@ -1,0 +1,78 @@
+{
+  "id": "noise-at-night",
+  "title": { "sv": "Oväsen på natten", "en": "Noise at night", "ru": "Шум ночью" },
+  "setting": {
+    "en": "Anna knocks on Johan's door at half past eleven about the party music next door.",
+    "ru": "Анна стучит в дверь к Йохану в половине двенадцатого ночи из-за музыки на вечеринке."
+  },
+  "level": "sfi-b",
+  "tags": ["neighbours", "conflict", "night", "politeness"],
+  "roles": [
+    { "id": "A", "name": "Anna" },
+    { "id": "B", "name": "Johan" }
+  ],
+  "lines": [
+    {
+      "role": "A",
+      "sv": "Hej, förlåt att jag stör så här sent.",
+      "en": "Hi, sorry to bother you this late.",
+      "ru": "Привет, извини, что беспокою так поздно.",
+      "note": { "en": "\"Förlåt att jag stör\" softens an evening complaint before it's even stated." }
+    },
+    {
+      "role": "B",
+      "sv": "Hej! Nej då, kom in— eller, vad gäller det?",
+      "en": "Hi! No worries, come in— or, what is it about?",
+      "ru": "Привет! Да ничего, заходи... или в чём дело?"
+    },
+    {
+      "role": "A",
+      "sv": "Det är bara det att musiken hörs ganska bra hos oss, och klockan är redan halv tolv.",
+      "en": "It's just that the music carries pretty well to our place, and it's already half past eleven.",
+      "ru": "Просто музыку у нас хорошо слышно, а уже половина двенадцатого."
+    },
+    {
+      "role": "B",
+      "sv": "Åh, förlåt, vi tänkte inte på det. Vi sänker volymen direkt.",
+      "en": "Oh, sorry, we didn't think about that. We'll turn the volume down right away.",
+      "ru": "Ой, извини, мы не подумали об этом. Сейчас же сделаем потише."
+    },
+    {
+      "role": "A",
+      "sv": "Tack, jag uppskattar det. Imorgon är det vardag för de flesta av oss.",
+      "en": "Thanks, I appreciate that. Tomorrow's a workday for most of us.",
+      "ru": "Спасибо, я это ценю. Завтра у большинства из нас рабочий день."
+    },
+    {
+      "role": "B",
+      "sv": "Absolut, du har rätt. Vi stänger av musiken helt om en kvart.",
+      "en": "Absolutely, you're right. We'll turn the music off completely in fifteen minutes.",
+      "ru": "Конечно, ты права. Через пятнадцать минут мы вообще выключим музыку."
+    },
+    {
+      "role": "A",
+      "sv": "Det behövs inte, bara lite lugnare räcker.",
+      "en": "That's not necessary, just a bit quieter is enough.",
+      "ru": "Не нужно совсем выключать, достаточно просто потише."
+    },
+    {
+      "role": "B",
+      "sv": "Okej, vi ser till att hålla ner ljudet. Förlåt igen för besväret.",
+      "en": "Okay, we'll make sure to keep the volume down. Sorry again for the trouble.",
+      "ru": "Хорошо, мы проследим за громкостью. Ещё раз извини за беспокойство."
+    },
+    {
+      "role": "A",
+      "sv": "Ingen fara, det är ju trots allt helg imorgon för er, ha en trevlig kväll!",
+      "en": "No worries, it is the weekend for you all after all, have a nice evening!",
+      "ru": "Ничего страшного, у вас всё же завтра выходной, хорошего вечера!"
+    },
+    {
+      "role": "B",
+      "sv": "Detsamma, och tack för att du sa till istället för att bara ringa vaktmästaren.",
+      "en": "Same to you, and thanks for telling us in person instead of just calling the caretaker.",
+      "ru": "И тебе того же, и спасибо, что сказала лично, а не сразу позвонила коменданту."
+    }
+  ],
+  "keyPhrases": ["förlåt att jag stör", "sänker volymen", "Imorgon är det vardag"]
+}

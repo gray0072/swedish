@@ -1,0 +1,28 @@
+{
+  "id": "ordering-fika",
+  "title": { "sv": "Beställa fika på café", "en": "Ordering fika at a café", "ru": "Заказ кофе с выпечкой в кафе" },
+  "setting": {
+    "en": "Eva orders a coffee and a bun at a café, where barista Marek is working the till.",
+    "ru": "Ева заказывает кофе и булочку в кафе, где за кассой работает бариста Марек."
+  },
+  "level": "sfi-a",
+  "tags": ["cafe", "fika", "shopping", "payment"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Marek" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej, jag skulle vilja beställa en kanelbulle och en kaffe, tack.", "en": "Hi, I'd like to order a cinnamon bun and a coffee, please.", "ru": "Здравствуйте, я хотела бы заказать булочку с корицей и кофе, пожалуйста." },
+    { "role": "B", "sv": "Visst. Vill du ha caffe latte eller vanligt bryggkaffe?", "en": "Sure. Would you like a caffè latte or regular filter coffee?", "ru": "Конечно. Хотите латте или обычный фильтрованный кофе?" },
+    { "role": "A", "sv": "Bryggkaffe räcker gott. Och kanelbullen, är den nybakad idag?", "en": "Filter coffee is fine. And the cinnamon bun, is it freshly baked today?", "ru": "Фильтрованного кофе достаточно. А булочка с корицей, она сегодня свежая?" },
+    { "role": "B", "sv": "Ja, vi bakar varje morgon. Ska det vara här eller ta med?", "en": "Yes, we bake every morning. Is it for here or to go?", "ru": "Да, мы печём каждое утро. Здесь будете есть или с собой?" },
+    { "role": "A", "sv": "Här, tack, jag ska sitta och jobba lite.", "en": "For here, thanks, I'm going to sit and get some work done.", "ru": "Здесь, спасибо, я собираюсь посидеть и немного поработать." },
+    { "role": "B", "sv": "Perfekt, det blir sjuttiofem kronor. Betalar du med kort?", "en": "Perfect, that'll be seventy-five kronor. Are you paying by card?", "ru": "Отлично, с вас семьдесят пять крон. Расплачиваетесь картой?" },
+    { "role": "A", "sv": "Ja... hoppsan, kortet vill inte gå igenom. Kan jag försöka igen?", "en": "Yes... oops, the card won't go through. Can I try again?", "ru": "Да... ой, карта не проходит. Можно попробовать ещё раз?" },
+    { "role": "B", "sv": "Klart, ingen brådska, testa en gång till.", "en": "Sure, no rush, try once more.", "ru": "Конечно, не спешите, попробуйте ещё раз." },
+    { "role": "A", "sv": "Nu funkade det, tack för tålamodet.", "en": "It worked this time, thanks for your patience.", "ru": "Теперь получилось, спасибо за терпение." },
+    { "role": "B", "sv": "Ingen fara alls. Varsågod, numret på bordet är sex, jag kommer med det snart.", "en": "No problem at all. Here you go, the table number is six, I'll bring it over soon.", "ru": "Совсем не проблема. Пожалуйста, номер столика шесть, скоро принесу." },
+    { "role": "A", "sv": "Tack så mycket!", "en": "Thank you so much!", "ru": "Большое спасибо!" }
+  ],
+  "keyPhrases": ["Ska det vara här eller ta med", "kanelbulle", "Betalar du med kort"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "at-the-supermarket",
+  "title": { "sv": "I mataffären", "en": "At the supermarket", "ru": "В супермаркете" },
+  "setting": {
+    "en": "Nguyen is checking out at the supermarket, where cashier Anna helps with a forgotten bag and bottle deposit.",
+    "ru": "Нгуен рассчитывается на кассе супермаркета, где кассир Анна помогает с забытым пакетом и возвратом тары."
+  },
+  "level": "sfi-a",
+  "tags": ["shopping", "supermarket", "everyday"],
+  "roles": [
+    { "id": "A", "name": "Nguyen" },
+    { "id": "B", "name": "Anna" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Hej, jag hittar inte hyllan med mjölk, vet du var den ligger?", "en": "Hi, I can't find the milk shelf, do you know where it is?", "ru": "Здравствуйте, я не могу найти полку с молоком, вы не знаете, где она?" },
+    { "role": "B", "sv": "Den är längst bak till vänster, bredvid frysdisken.", "en": "It's at the back on the left, next to the freezer section.", "ru": "Она в самом конце слева, рядом с морозильными витринами." },
+    { "role": "A", "sv": "Tack! ... Okej, jag är klar. Ska jag lägga allt på bandet?", "en": "Thanks! ... Okay, I'm done. Should I put everything on the belt?", "ru": "Спасибо! ... Так, я готов. Мне выложить всё на ленту?" },
+    { "role": "B", "sv": "Ja, varsågod. Har du med dig egen kasse eller vill du köpa en?", "en": "Yes, go ahead. Do you have your own bag with you, or would you like to buy one?", "ru": "Да, пожалуйста. У вас есть свой пакет, или хотите купить?" },
+    { "role": "A", "sv": "Jag glömde min hemma, så jag tar en påse, tack.", "en": "I forgot mine at home, so I'll take a bag, thanks.", "ru": "Я забыл свой дома, так что возьму пакет, спасибо." },
+    { "role": "B", "sv": "Inga problem. Vill du panta flaskorna samtidigt, jag ser att du har några?", "en": "No problem. Would you like to return the deposit bottles at the same time, I see you have a few?", "ru": "Не проблема. Хотите заодно сдать бутылки под залог, я вижу у вас несколько?" },
+    { "role": "A", "sv": "Åh, jag glömde helt, ett ögonblick... Klart, här är kvittot från pantautomaten.", "en": "Oh, I totally forgot, one moment... Done, here's the receipt from the deposit machine.", "ru": "Ой, совсем забыл, секунду... Готово, вот чек от автомата приёма тары." },
+    { "role": "B", "sv": "Perfekt, då drar jag av det på totalen. Vill du ha kvitto på köpet också?", "en": "Perfect, I'll deduct that from the total then. Would you like a receipt for the purchase too?", "ru": "Отлично, тогда я вычту это из суммы. Хотите чек за покупку тоже?" },
+    { "role": "A", "sv": "Ja tack, det vill jag. Och kan jag betala med kort?", "en": "Yes please, I'd like that. And can I pay by card?", "ru": "Да, пожалуйста, хочу. И могу я расплатиться картой?" },
+    { "role": "B", "sv": "Absolut, dra eller knacka kortet när det står 'betala'.", "en": "Absolutely, swipe or tap the card when it says 'pay'.", "ru": "Конечно, проведите или приложите карту, когда появится 'оплатить'." },
+    { "role": "A", "sv": "Klart. Tack för hjälpen, ha en bra dag!", "en": "Done. Thanks for the help, have a nice day!", "ru": "Готово. Спасибо за помощь, хорошего дня!" },
+    { "role": "B", "sv": "Tack detsamma, hej då!", "en": "Same to you, bye!", "ru": "Взаимно, до свидания!" }
+  ],
+  "keyPhrases": ["hyllan med mjölk", "panta flaskorna", "Vill du ha kvitto"]
+}

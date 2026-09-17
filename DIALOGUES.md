@@ -102,72 +102,72 @@ section's voice and are written before the rest.
 
 ### 5.1 Home and neighbours
 
-- [ ] ★ 1. `stairwell-hello` — meeting a neighbour on the stairs: introducing yourself, which
+- [x] ★ 1. `stairwell-hello` — meeting a neighbour on the stairs: introducing yourself, which
   floor, weather småprat, ending a conversation without rudeness.
-- [ ] ★ 2. `laundry-room` — the booked time has started and the machine is still running.
+- [x] ★ 2. `laundry-room` — the booked time has started and the machine is still running.
   `boka tid`, the booking board, a complaint opened with an apology.
-- [ ] ★ 3. `cleaning-day` — the housing association's **städdag**: raking leaves, the skip,
+- [x] ★ 3. `cleaning-day` — the housing association's **städdag**: raking leaves, the skip,
   who takes the garden side, and the `korv med bröd` and fika that close it. The single most
   Swedish scene in the list.
-- [ ] 4. `noise-at-night` — knocking on the door about a party, at 23:30, politely.
-- [ ] 5. `parcel-for-the-neighbour` — taking in a delivery, leaving a note, handing it over.
-- [ ] 6. `notice-board` — reading the board in the entrance: water shut-off on Tuesday,
+- [x] 4. `noise-at-night` — knocking on the door about a party, at 23:30, politely.
+- [x] 5. `parcel-for-the-neighbour` — taking in a delivery, leaving a note, handing it over.
+- [x] 6. `notice-board` — reading the board in the entrance: water shut-off on Tuesday,
   annual meeting, a lost cat. Mostly one voice reading aloud to another.
 
 ### 5.2 Family and the household
 
-- [ ] ★ 7. `morning-rush` — waking the children, breakfast, the shoe that is missing, out of
+- [x] ★ 7. `morning-rush` — waking the children, breakfast, the shoe that is missing, out of
   the door. Imperatives and time expressions at speed.
-- [ ] ★ 8. `who-does-what` — dividing the chores: `diska`, `dammsuga`, `slänga soporna`,
+- [x] ★ 8. `who-does-what` — dividing the chores: `diska`, `dammsuga`, `slänga soporna`,
   `vika tvätt`. Negotiating, not ordering.
-- [ ] 9. `big-clean` — the weekend **storstädning**, and sorting the rubbish properly:
+- [x] 9. `big-clean` — the weekend **storstädning**, and sorting the rubbish properly:
   `sopsortering`, `återvinning`, `pant`.
-- [ ] 10. `what-shall-we-eat` — dinner plans, what is in the fridge, the shopping list.
-- [ ] 11. `homework-and-screens` — a child, the `läxa`, and the negotiated end of screen time.
-- [ ] 12. `calling-in-vab` — a child is ill: calling the preschool, then the employer. `vab`
+- [x] 10. `what-shall-we-eat` — dinner plans, what is in the fridge, the shopping list.
+- [x] 11. `homework-and-screens` — a child, the `läxa`, and the negotiated end of screen time.
+- [x] 12. `calling-in-vab` — a child is ill: calling the preschool, then the employer. `vab`
   explained in `culture`.
 
 ### 5.3 School and children
 
-- [ ] ★ 13. `parent-teacher-meeting` — the **utvecklingssamtal**: how it is run, what a
+- [x] ★ 13. `parent-teacher-meeting` — the **utvecklingssamtal**: how it is run, what a
   teacher actually says, how a parent asks whether there is a problem. Careful, hedged,
   extremely Swedish language.
-- [ ] ★ 14. `playground` — at the **lekplats**: `Får jag låna din spade?`, one parent to
+- [x] ★ 14. `playground` — at the **lekplats**: `Får jag låna din spade?`, one parent to
   another on the bench, the swing that has to be shared, going home in five minutes.
-- [ ] 15. `preschool-drop-off` — the handover at `förskolan`: slept badly, no nap, pick-up at
+- [x] 15. `preschool-drop-off` — the handover at `förskolan`: slept badly, no nap, pick-up at
   four.
-- [ ] 16. `reporting-absence` — reporting a child sick to the school, by app and by phone.
-- [ ] 17. `birthday-invitation` — an invitation between parents: allergies, presents, when to
+- [x] 16. `reporting-absence` — reporting a child sick to the school, by app and by phone.
+- [x] 17. `birthday-invitation` — an invitation between parents: allergies, presents, when to
   be collected.
-- [ ] 18. `after-school-club` — `fritids`: who is collecting the child today, and when.
+- [x] 18. `after-school-club` — `fritids`: who is collecting the child today, and when.
 
 ### 5.4 Work
 
-- [ ] ★ 19. `salary-talk` — the **lönesamtal**: asking for a raise, naming a figure, hearing
+- [x] ★ 19. `salary-talk` — the **lönesamtal**: asking for a raise, naming a figure, hearing
   "we will come back to it", and the follow-up question that makes that answer concrete.
-- [ ] ★ 20. `developers-deadline` — two programmers before a release: the estimate that no
+- [x] ★ 20. `developers-deadline` — two programmers before a release: the estimate that no
   longer holds, `vi hinner inte till fredag`, cutting scope, `kan vi skjuta på det?`, the
   deploy that went wrong. Swedish that is half English loanwords, which is exactly the point.
-- [ ] 21. `calling-in-sick` — `sjukanmälan` to a manager: short, factual, no apology storm.
-- [ ] 22. `office-fika` — the coffee break: the actual topics (weather, holidays, football,
+- [x] 21. `calling-in-sick` — `sjukanmälan` to a manager: short, factual, no apology storm.
+- [x] 22. `office-fika` — the coffee break: the actual topics (weather, holidays, football,
   house prices) and how to join and leave a group of colleagues.
-- [ ] 23. `job-interview` — the `anställningsintervju`: strengths, notice period, why you
+- [x] 23. `job-interview` — the `anställningsintervju`: strengths, notice period, why you
   applied.
-- [ ] 24. `booking-a-meeting` — finding a room and a slot, agenda, "I will send a calendar
+- [x] 24. `booking-a-meeting` — finding a room and a slot, agenda, "I will send a calendar
   invite".
 
 ### 5.5 Out and about
 
-- [ ] ★ 25. `at-the-bus-stop` — `Går den här bussen till Centralen?`, the bus that is late,
+- [x] ★ 25. `at-the-bus-stop` — `Går den här bussen till Centralen?`, the bus that is late,
   the app that says something different, `nästa tur går om tjugo minuter`.
-- [ ] ★ 26. `on-the-bus` — the ride itself: `Ursäkta, är den här platsen ledig?`, the ticket
+- [x] ★ 26. `on-the-bus` — the ride itself: `Ursäkta, är den här platsen ledig?`, the ticket
   check, pressing the stop button, the announcements (`Nästa station…`, `Dörrarna stängs`).
-- [ ] 27. `train-cancelled` — `inställt`, the replacement bus, asking a member of staff what to
+- [x] 27. `train-cancelled` — `inställt`, the replacement bus, asking a member of staff what to
   do next.
-- [ ] 28. `at-the-supermarket` — finding an aisle, the checkout, `pant`, `Vill du ha kvitto?`
-- [ ] 29. `booking-a-doctor` — `vårdcentralen`: describing symptoms on the phone, being given
+- [x] 28. `at-the-supermarket` — finding an aisle, the checkout, `pant`, `Vill du ha kvitto?`
+- [x] 29. `booking-a-doctor` — `vårdcentralen`: describing symptoms on the phone, being given
   a time, `1177`.
-- [ ] 30. `ordering-fika` — a café: ordering, paying by card, `Ska det vara här eller ta med?`
+- [x] 30. `ordering-fika` — a café: ordering, paying by card, `Ska det vara här eller ta med?`
 
 ## 6. Where it lives in the interface
 
@@ -190,7 +190,7 @@ out to the summaries whose grammar the scene leans on.
 
 ## 8. Done means
 
-- [ ] 30 dialogues exist, each 8–16 lines, each with `ru` and `en` on every line.
+- [x] 30 dialogues exist, each 8–16 lines, each with `ru` and `en` on every line.
 - [ ] Every `keyPhrase` occurs verbatim in its dialogue, and validation says so.
 - [ ] Key phrases from a dialogue that has been read turn up in a later review session.
 - [ ] The listen mode plays a whole scene, alternating between roles, in one tap.

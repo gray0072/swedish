@@ -1,0 +1,29 @@
+{
+  "id": "office-fika",
+  "title": { "sv": "Fika på jobbet", "en": "Office fika", "ru": "Кофе-брейк на работе" },
+  "setting": {
+    "en": "Eva and Nguyen are having their afternoon fika when Marek joins them.",
+    "ru": "Ева и Нгуен пьют кофе во время дневного перерыва, когда к ним присоединяется Марек."
+  },
+  "level": "sfi-b",
+  "tags": ["work", "smaprat", "fika", "socializing"],
+  "roles": [
+    { "id": "A", "name": "Eva" },
+    { "id": "B", "name": "Nguyen" },
+    { "id": "C", "name": "Marek" }
+  ],
+  "lines": [
+    { "role": "A", "sv": "Fika-dags! Kommer du?", "en": "Fika time! Are you coming?", "ru": "Время кофе-брейка! Идёшь?" },
+    { "role": "B", "sv": "Ja, jag behöver verkligen en kopp kaffe nu.", "en": "Yeah, I really need a cup of coffee right now.", "ru": "Да, мне сейчас реально нужна чашка кофе." },
+    { "role": "C", "sv": "Får jag slå mig ner, eller stör jag?", "en": "May I sit down, or am I interrupting?", "ru": "Можно подсесть, или я мешаю?" },
+    { "role": "A", "sv": "Nej då, sätt dig! Vi pratade just om vädret, som vanligt.", "en": "No, not at all, sit down! We were just talking about the weather, as usual.", "ru": "Да нет же, садись! Мы как раз говорили о погоде, как обычно." },
+    { "role": "B", "sv": "Ska visst bli sol i helgen, äntligen. Har du några planer, Marek?", "en": "Apparently it'll be sunny this weekend, finally. Do you have any plans, Marek?", "ru": "Говорят, в выходные наконец будет солнце. У тебя есть планы, Марек?" },
+    { "role": "C", "sv": "Tänkte kolla på fotbollen faktiskt, om jag hinner mellan allt annat.", "en": "I was thinking of watching the football, actually, if I have time between everything else.", "ru": "Вообще-то думал посмотреть футбол, если успею между делами." },
+    { "role": "A", "sv": "Såg du förresten priserna på lägenheter i innerstan nu? Helt sjukt.", "en": "By the way, did you see the apartment prices downtown now? Completely insane.", "ru": "Кстати, видел цены на квартиры в центре сейчас? Просто безумие." },
+    { "role": "B", "sv": "Ja, det är ju inte klokt. Man får ju flytta till Norrland snart.", "en": "Yeah, it's crazy. You'll have to move to Norrland soon.", "ru": "Да, это же ни в какие ворота. Скоро придётся переезжать в Норрланд." },
+    { "role": "C", "sv": "Haha, precis. Nåja, jag måste tillbaka till mitt möte om fem minuter.", "en": "Haha, exactly. Well, I need to get back to my meeting in five minutes.", "ru": "Ха-ха, точно. Ну ладно, мне нужно вернуться на встречу через пять минут." },
+    { "role": "A", "sv": "Okej, vi ses sen då. Tack för sällskapet!", "en": "Okay, see you later then. Thanks for the company!", "ru": "Хорошо, тогда увидимся позже. Спасибо за компанию!" },
+    { "role": "C", "sv": "Tack detsamma, ha en bra fika.", "en": "Same to you, have a good fika.", "ru": "Взаимно, приятного кофе-брейка." }
+  ],
+  "keyPhrases": ["Fika-dags", "Får jag slå mig ner", "jag måste tillbaka till mitt möte"]
+}
