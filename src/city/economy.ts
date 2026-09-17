@@ -174,6 +174,8 @@ export const REWARDS = {
   baseReviewSessionSize: 20,
   /** One-time coins for reading a history card (SPEC §12.4). */
   historyCardCoins: 40,
+  /** One-time coins for reading a dialogue for the first time (DIALOGUES.md §3). */
+  dialogueCoins: 40,
 } as const;
 
 export const STREAK = {

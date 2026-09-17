@@ -391,4 +391,57 @@ export const referenceIndexEntrySchema = z.object({
 export const referenceIndexFileSchema = z.object({
   articles: z.array(referenceIndexEntrySchema),
 });
+
+// ---------------------------------------------------------------------------
+// Dialogues — everyday scenes (DIALOGUES.md), no quiz/XP/gate, read for their own sake
+// ---------------------------------------------------------------------------
+
+export const dialogueRoleSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+});
+export type DialogueRole = z.infer<typeof dialogueRoleSchema>;
+
+// `note` is written English-only in practice (a translator's aside, not dialogue content),
+// so unlike the rest of the file it isn't required to carry a `ru` counterpart.
+export const dialogueNoteSchema = z.object({ en: z.string(), ru: z.string().optional() });
+
+export const dialogueLineSchema = z.object({
+  role: z.string(),
+  sv: z.string(),
+  en: z.string(),
+  ru: z.string(),
+  note: dialogueNoteSchema.optional(),
+});
+export type DialogueLine = z.infer<typeof dialogueLineSchema>;
+
+export const dialogueSchema = z.object({
+  id: z.string(),
+  title: localizedStringSchema,
+  setting: z.object({ en: z.string(), ru: z.string() }),
+  // The level whose vocabulary the scene roughly matches — a hint for the list, never a gate
+  // (DIALOGUES.md §4.7).
+  level: z.string(),
+  tags: z.array(z.string()).default([]),
+  roles: z.array(dialogueRoleSchema).min(2),
+  lines: z.array(dialogueLineSchema).min(1),
+  // Bridges into the SRS deck exactly like a history card's vocab (DIALOGUES.md §3): each
+  // phrase must occur verbatim in one of `lines[].sv`, checked by validate-content.ts.
+  keyPhrases: z.array(z.string()).default([]),
+  culture: z.object({ en: z.string(), ru: z.string() }).optional(),
+});
+export type Dialogue = z.infer<typeof dialogueSchema>;
+
+export const dialogueGroupSchema = z.enum(['home', 'family', 'school', 'work', 'outAndAbout']);
+export type DialogueGroup = z.infer<typeof dialogueGroupSchema>;
+
+export const dialogueIndexEntrySchema = z.object({
+  slug: z.string(),
+  group: dialogueGroupSchema,
+  order: z.number(),
+});
+
+export const dialogueIndexFileSchema = z.object({
+  dialogues: z.array(dialogueIndexEntrySchema),
+});
 export type ReferenceIndexFile = z.infer<typeof referenceIndexFileSchema>;

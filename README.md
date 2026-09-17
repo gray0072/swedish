@@ -3,9 +3,11 @@
 **Live: [gray0072.github.io/swedish](https://gray0072.github.io/swedish/)**
 
 Learn Swedish and build the city of Stockholm — from a prehistoric settlement to the modern
-metro. A static, backend-free web app: every lesson is short (5 minutes), every test is drawn
-from a large question pool, and every reward is spendable in a city-building game layered on
-top. Full product spec: [SPEC.md](SPEC.md) — the authoritative design spec for this
+metro. A static, backend-free-by-default web app: every lesson is short (5 minutes), every
+test is drawn from a large question pool, and every reward is spendable in a city-building
+game layered on top. Progress lives in `localStorage`; an optional Google sign-in adds
+cross-device sync on top, via Supabase (see [Cloud sync](#cloud-sync-optional) below) — the
+app works fully offline either way. Full product spec: [SPEC.md](SPEC.md) — the authoritative design spec for this
 project. Lesson-topic plan per level: [CURRICULUM.md](CURRICULUM.md) — start here when
 picking what content to write next. Outstanding work: [TODO.md](TODO.md).
 Development log: [CHANGELOG.md](CHANGELOG.md). Contributor conventions:
@@ -25,7 +27,8 @@ version.
 | Gamification | XP and coins from passing quizzes, spent building Stockholm through six historical eras |
 | History cards | Short, sourced history notes (Birka, the 1252 mention, the Vasa, the metro) unlocked by buildings |
 | RU/EN toggle | One header switch changes both the interface language and every translation shown |
-| Local-only progress | Everything lives in `localStorage`; export/import a JSON save file, no account, no server |
+| Local-first progress | Everything lives in `localStorage`; export/import a JSON save file — no account or server required |
+| Cloud sync (optional) | Sign in with Google to sync progress across devices, merged field-by-field so nothing is lost; see [Cloud sync](#cloud-sync-optional) |
 
 ## How it works
 
@@ -45,6 +48,7 @@ version.
 - [Tailwind CSS](https://tailwindcss.com/) — a small Swedish-design-inspired palette (falu red, birch, gold; no MUI)
 - [react-markdown](https://github.com/remarkjs/react-markdown) — lesson theory
 - [Vitest](https://vitest.dev/) — unit tests for the quiz engine, grading, selection weighting and the SRS scheduler
+- [Supabase](https://supabase.com/) — optional: Auth (Google, PKCE) + Postgres, for cross-device sync only
 
 ## Getting started
 
@@ -73,6 +77,30 @@ it if the repo is ever renamed or moved to a custom domain.
 A manual alternative (`npm run deploy`, via the `gh-pages` package) is also available if you'd
 rather publish from a local build to a `gh-pages` branch instead of waiting on CI.
 
+## Cloud sync (optional)
+
+Progress works fully offline out of the box (`localStorage` + export/import). Signing in with
+Google in Settings additionally syncs the same save file through a Supabase project — merged
+field-by-field on sync (lessons, SRS items, buildings, wallet, streak, …) so progress made on
+two devices between syncs is combined rather than one side clobbering the other. Full scheme:
+[SPEC.md §7.1](SPEC.md#71-optional-cloud-sync--supabase).
+
+To wire this up for your own fork:
+
+1. Create a free [Supabase](https://supabase.com/) project.
+2. Run [supabase/schema.sql](supabase/schema.sql) once in its SQL editor — one `saves` table
+   with row-level security scoping every row to its own user.
+3. In the Supabase dashboard, enable the Google auth provider (Authentication → Providers),
+   which needs a Google Cloud OAuth client id/secret, and add your dev/prod URLs under
+   Authentication → URL Configuration → Redirect URLs.
+4. Copy `.env.example` to `.env.local` and fill in `VITE_SUPABASE_URL` /
+   `VITE_SUPABASE_ANON_KEY` from Project Settings → API. Neither value is secret — the
+   anon/publishable key ships in the client bundle by design; RLS is what actually protects
+   the data — but `.env.local` is gitignored anyway to keep per-fork keys out of the repo.
+
+Without those env vars set, the app builds and runs exactly as before: cloud sync silently
+compiles out and only the local-only path is used.
+
 ## Project structure
 
 ```
@@ -85,9 +113,11 @@ src/
   content/               Zod schemas, the content loader/registry, vocab->quiz generators
   quiz/                  session creation, weighted selection, grading, reward math
   srs/                   Leitner-box review scheduler
-  store/                 Zustand store (wallet, progress, city, settings) + save/export/import
+  store/                 Zustand store (wallet, progress, city, settings) + save/export/import,
+                         plus optional Supabase cloud sync (cloudSync.ts, useCloudSync.ts)
   components/, pages/    UI
 scripts/                 validate-content.ts (CI content validation), new-lesson.ts (scaffolder)
+supabase/                schema.sql — the `saves` table + RLS policies (see Cloud sync above)
 tests/                   Vitest unit tests
 ```
 

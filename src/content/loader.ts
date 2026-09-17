@@ -1,6 +1,8 @@
 import {
   achievementsFileSchema,
   buildingsFileSchema,
+  dialogueIndexFileSchema,
+  dialogueSchema,
   erasFileSchema,
   historyCardSchema,
   lessonMetaSchema,
@@ -10,6 +12,8 @@ import {
   vocabFileSchema,
   type Achievement,
   type Building,
+  type Dialogue,
+  type DialogueGroup,
   type Era,
   type HistoryCard,
   type LessonMeta,
@@ -83,6 +87,10 @@ const achievementsFile = import.meta.glob('../../content/achievements.json', {
   eager: true,
 }) as Record<string, { default: unknown }>;
 
+const dialogueFiles = import.meta.glob('../../content/dialogues/*.json', {
+  eager: true,
+}) as Record<string, { default: unknown }>;
+
 // -- folder key -> lesson id -----------------------------------------------
 // A path like ../../content/lessons/sfi-a/greetings/lesson.json maps to folderKey
 // "sfi-a/greetings" so vocab/questions/theory can be joined to the same lesson.
@@ -114,6 +122,11 @@ export interface ReferenceArticle {
   order: number;
 }
 
+export interface DialogueEntry extends Dialogue {
+  group: DialogueGroup;
+  order: number;
+}
+
 export interface ContentRegistry {
   tracks: Track[];
   lessons: Map<string, LessonContent>;
@@ -123,6 +136,7 @@ export interface ContentRegistry {
   history: HistoryCard[];
   reference: ReferenceArticle[];
   achievements: Achievement[];
+  dialogues: DialogueEntry[];
   errors: string[];
 }
 
@@ -333,7 +347,57 @@ function buildRegistry(): ContentRegistry {
     achievements = parsed.data.achievements;
   }
 
-  return { tracks, lessons, curricula, eras, buildings, history, reference, achievements, errors };
+  const dialogueIndex = new Map<string, { group: DialogueGroup; order: number }>();
+  const dialoguesRaw = new Map<string, Dialogue>();
+  for (const [path, mod] of Object.entries(dialogueFiles)) {
+    const filename = path.split('/').pop()!.replace(/\.json$/, '');
+    if (filename === 'index') {
+      const parsed = dialogueIndexFileSchema.safeParse(mod.default);
+      if (!parsed.success) {
+        errors.push(`${path}: ${parsed.error.message}`);
+        continue;
+      }
+      for (const entry of parsed.data.dialogues) dialogueIndex.set(entry.slug, entry);
+      continue;
+    }
+    const parsed = dialogueSchema.safeParse(mod.default);
+    if (!parsed.success) {
+      errors.push(`${path}: ${parsed.error.message}`);
+      continue;
+    }
+    const dialogue = parsed.data;
+    if (dialogue.id !== filename) {
+      errors.push(`${path}: dialogue id is "${dialogue.id}", expected "${filename}"`);
+    }
+    const roleIds = new Set(dialogue.roles.map((r) => r.id));
+    for (const line of dialogue.lines) {
+      if (!roleIds.has(line.role)) {
+        errors.push(`${path}: line uses undeclared role "${line.role}"`);
+      }
+    }
+    for (const phrase of dialogue.keyPhrases) {
+      if (!dialogue.lines.some((l) => l.sv.includes(phrase))) {
+        errors.push(`${path}: keyPhrase "${phrase}" does not occur verbatim in any line`);
+      }
+    }
+    dialoguesRaw.set(dialogue.id, dialogue);
+  }
+  for (const id of dialoguesRaw.keys()) {
+    if (!dialogueIndex.has(id)) errors.push(`content/dialogues/${id}.json: no entry in index.json`);
+  }
+  for (const slug of dialogueIndex.keys()) {
+    if (!dialoguesRaw.has(slug)) {
+      errors.push(`content/dialogues/index.json: entry "${slug}" has no matching .json file`);
+    }
+  }
+  const dialogues: DialogueEntry[] = [...dialoguesRaw.entries()]
+    .map(([id, dialogue]) => {
+      const indexEntry = dialogueIndex.get(id);
+      return { ...dialogue, group: indexEntry?.group ?? 'home', order: indexEntry?.order ?? 0 };
+    })
+    .sort((a, b) => a.order - b.order);
+
+  return { tracks, lessons, curricula, eras, buildings, history, reference, achievements, dialogues, errors };
 }
 
 let cached: ContentRegistry | null = null;

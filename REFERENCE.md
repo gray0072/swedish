@@ -302,7 +302,7 @@ bolting a library onto it would cost exactly the thing this section is trying to
    (kept optional, not required — see the note below); `getWordBank()` in
    `src/content/registry.ts` deduplicates every lesson's vocabulary by (part of speech,
    Swedish word), buckets it into verbs/nouns/adjectives/other, and bands each bucket into
-   groups of ~75 in curriculum order (the app's only real proxy for "most common first" — no
+   groups of ~50 in curriculum order (the app's only real proxy for "most common first" — no
    frequency corpus exists); `ReferenceWordsPage.tsx` renders it as the wide tables §5.2
    specifies, with a search box and collapsible bands. The content backfill (§5.1) was run
    across all 400 lesson folders by a fleet of parallel agents; a small remainder (§5.1's

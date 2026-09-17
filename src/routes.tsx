@@ -15,6 +15,7 @@ const ReferenceSummariesPage = lazy(() => import('@/pages/ReferenceSummariesPage
 const ReferenceArticlePage = lazy(() => import('@/pages/ReferenceArticlePage'));
 const ReferenceWordsPage = lazy(() => import('@/pages/ReferenceWordsPage'));
 const ReferenceDialoguesPage = lazy(() => import('@/pages/ReferenceDialoguesPage'));
+const ReferenceDialoguePage = lazy(() => import('@/pages/ReferenceDialoguePage'));
 const StatsPage = lazy(() => import('@/pages/StatsPage'));
 const SettingsPage = lazy(() => import('@/pages/SettingsPage'));
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
@@ -40,6 +41,7 @@ export const routes: RouteObject[] = [
           { path: 'summaries/:slug', element: <ReferenceArticlePage /> },
           { path: 'words', element: <ReferenceWordsPage /> },
           { path: 'dialogues', element: <ReferenceDialoguesPage /> },
+          { path: 'dialogues/:slug', element: <ReferenceDialoguePage /> },
         ],
       },
       { path: '/stats', element: <StatsPage /> },

@@ -169,6 +169,7 @@ export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
     items: mergeItems(local.items, remote.items),
     city: { buildings: mergeBuildings(local.city.buildings, remote.city.buildings) },
     historyRead: Array.from(new Set([...local.historyRead, ...remote.historyRead])),
+    dialoguesRead: Array.from(new Set([...local.dialoguesRead, ...remote.dialoguesRead])),
     dailyIncomeClaimedOn:
       (local.dailyIncomeClaimedOn ?? '') >= (remote.dailyIncomeClaimedOn ?? '')
         ? local.dailyIncomeClaimedOn

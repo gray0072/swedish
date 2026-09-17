@@ -1,5 +1,6 @@
-import { getContentRegistry, type LessonContent } from './loader';
+import { getContentRegistry, type DialogueEntry, type LessonContent } from './loader';
 import { generateHistoryQuestions, historyQuestionId } from './historyQuestions';
+import { dialogueQuestionId, generateDialogueQuestions } from './dialogueQuestions';
 import type { LocalizedString, Question, VocabItem } from './schema';
 
 export function getTracks() {
@@ -79,7 +80,7 @@ export interface WordBankSection {
 }
 
 /** Bands of this size keep any one group small enough to scan (REFERENCE.md §5.4). */
-const WORD_BANK_BAND_SIZE = 75;
+const WORD_BANK_BAND_SIZE = 50;
 
 function sectionKeyFor(pos: VocabItem['pos']): WordBankSectionKey {
   if (pos === 'verb') return 'verbs';
@@ -104,7 +105,7 @@ let wordBankCache: WordBankSection[] | null = null;
  * Rows stay in curriculum order within each part-of-speech bucket, which is this app's
  * only available proxy for "how common a word is" (there is no real frequency corpus here) —
  * a word introduced in SFI kurs A is assumed more basic/frequent than one introduced in SVA
- * grund delkurs 4. Banding into groups of ~75 turns that ordering into the "most common
+ * grund delkurs 4. Banding into groups of ~50 turns that ordering into the "most common
  * first, in digestible chunks" list REFERENCE.md §5.4 asks for.
  */
 export function getWordBank(): WordBankSection[] {
@@ -193,9 +194,50 @@ export function getHistoryQuestionIdsForCard(cardId: string): string[] {
   return card.vocab.map((w) => historyQuestionId(cardId, w.sv));
 }
 
-/** Looks a question up across BOTH lesson pools and history-derived questions. */
+let dialogueQuestionCache: Map<string, Question> | null = null;
+
+function getDialogueQuestionIndex(): Map<string, Question> {
+  if (!dialogueQuestionCache) {
+    const dialogues = getContentRegistry().dialogues;
+    dialogueQuestionCache = new Map();
+    for (const dialogue of dialogues) {
+      for (const q of generateDialogueQuestions(dialogue, dialogues)) {
+        dialogueQuestionCache.set(q.id, q);
+      }
+    }
+  }
+  return dialogueQuestionCache;
+}
+
+/** The question ids a dialogue's keyPhrases seed into the SRS deck once it's read. */
+export function getDialogueQuestionIdsFor(dialogueId: string): string[] {
+  const dialogue = getContentRegistry().dialogues.find((d) => d.id === dialogueId);
+  if (!dialogue) return [];
+  return dialogue.keyPhrases.map((phrase) => dialogueQuestionId(dialogueId, phrase));
+}
+
+/** Looks a question up across lesson pools, history- and dialogue-derived questions. */
 export function findAnyQuestionById(id: string): Question | undefined {
-  return findQuestionById(id) ?? getHistoryQuestionIndex().get(id);
+  return findQuestionById(id) ?? getHistoryQuestionIndex().get(id) ?? getDialogueQuestionIndex().get(id);
+}
+
+export function getDialogues(): DialogueEntry[] {
+  return getContentRegistry().dialogues;
+}
+
+export function getDialogue(id: string): DialogueEntry | undefined {
+  return getContentRegistry().dialogues.find((d) => d.id === id);
+}
+
+/** Groups dialogues by section, in index order (DIALOGUES.md §5/§6) — mirrors the reference tab. */
+export function getDialoguesGrouped() {
+  const groups = new Map<string, DialogueEntry[]>();
+  for (const dialogue of getDialogues()) {
+    const arr = groups.get(dialogue.group) ?? [];
+    arr.push(dialogue);
+    groups.set(dialogue.group, arr);
+  }
+  return [...groups.entries()].map(([group, dialogues]) => ({ group, dialogues }));
 }
 
 export function getAchievements() {

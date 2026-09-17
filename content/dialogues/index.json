@@ -1,0 +1,38 @@
+{
+  "dialogues": [
+    { "slug": "stairwell-hello", "group": "home", "order": 10 },
+    { "slug": "laundry-room", "group": "home", "order": 20 },
+    { "slug": "cleaning-day", "group": "home", "order": 30 },
+    { "slug": "noise-at-night", "group": "home", "order": 40 },
+    { "slug": "parcel-for-the-neighbour", "group": "home", "order": 50 },
+    { "slug": "notice-board", "group": "home", "order": 60 },
+
+    { "slug": "morning-rush", "group": "family", "order": 70 },
+    { "slug": "who-does-what", "group": "family", "order": 80 },
+    { "slug": "big-clean", "group": "family", "order": 90 },
+    { "slug": "what-shall-we-eat", "group": "family", "order": 100 },
+    { "slug": "homework-and-screens", "group": "family", "order": 110 },
+    { "slug": "calling-in-vab", "group": "family", "order": 120 },
+
+    { "slug": "parent-teacher-meeting", "group": "school", "order": 130 },
+    { "slug": "playground", "group": "school", "order": 140 },
+    { "slug": "preschool-drop-off", "group": "school", "order": 150 },
+    { "slug": "reporting-absence", "group": "school", "order": 160 },
+    { "slug": "birthday-invitation", "group": "school", "order": 170 },
+    { "slug": "after-school-club", "group": "school", "order": 180 },
+
+    { "slug": "salary-talk", "group": "work", "order": 190 },
+    { "slug": "developers-deadline", "group": "work", "order": 200 },
+    { "slug": "calling-in-sick", "group": "work", "order": 210 },
+    { "slug": "office-fika", "group": "work", "order": 220 },
+    { "slug": "job-interview", "group": "work", "order": 230 },
+    { "slug": "booking-a-meeting", "group": "work", "order": 240 },
+
+    { "slug": "at-the-bus-stop", "group": "outAndAbout", "order": 250 },
+    { "slug": "on-the-bus", "group": "outAndAbout", "order": 260 },
+    { "slug": "train-cancelled", "group": "outAndAbout", "order": 270 },
+    { "slug": "at-the-supermarket", "group": "outAndAbout", "order": 280 },
+    { "slug": "booking-a-doctor", "group": "outAndAbout", "order": 290 },
+    { "slug": "ordering-fika", "group": "outAndAbout", "order": 300 }
+  ]
+}

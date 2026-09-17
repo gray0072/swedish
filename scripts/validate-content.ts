@@ -10,6 +10,8 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   buildingsFileSchema,
+  dialogueIndexFileSchema,
+  dialogueSchema,
   erasFileSchema,
   historyCardSchema,
   lessonMetaSchema,
@@ -269,6 +271,72 @@ if (existsSync(referenceRoot)) {
   }
 }
 
+// -- dialogues ------------------------------------------------------------
+const dialoguesRoot = join(ROOT, 'dialogues');
+let dialogueCount = 0;
+if (existsSync(dialoguesRoot)) {
+  const dialogueIds = new Set<string>();
+  for (const file of readdirSync(dialoguesRoot)) {
+    if (file === 'index.json') continue;
+    const slug = file.replace(/\.json$/, '');
+    const parsed = dialogueSchema.safeParse(readJson(join(dialoguesRoot, file)));
+    if (!parsed.success) {
+      errors.push(`dialogues/${file}: ${parsed.error.message}`);
+      continue;
+    }
+    const dialogue = parsed.data;
+    dialogueCount += 1;
+    if (dialogueIds.has(dialogue.id)) errors.push(`dialogues: duplicate dialogue id "${dialogue.id}"`);
+    dialogueIds.add(dialogue.id);
+    if (dialogue.id !== slug) {
+      errors.push(`dialogues/${file}: dialogue id is "${dialogue.id}", expected "${slug}"`);
+    }
+    if (dialogue.lines.length < 8 || dialogue.lines.length > 16) {
+      warnings.push(
+        `dialogues/${file}: ${dialogue.lines.length} lines (DIALOGUES.md §4.1 wants 8-16)`,
+      );
+    }
+    const roleIds = new Set(dialogue.roles.map((r) => r.id));
+    for (const line of dialogue.lines) {
+      if (!roleIds.has(line.role)) {
+        errors.push(`dialogues/${file}: line uses undeclared role "${line.role}"`);
+      }
+    }
+    // DIALOGUES.md §2: "keyPhrases are strings that actually occur in the dialogue."
+    for (const phrase of dialogue.keyPhrases) {
+      if (!dialogue.lines.some((l) => l.sv.includes(phrase))) {
+        errors.push(`dialogues/${file}: keyPhrase "${phrase}" does not occur verbatim in any line`);
+      }
+    }
+  }
+
+  const indexPath = join(dialoguesRoot, 'index.json');
+  if (!existsSync(indexPath)) {
+    errors.push('dialogues/index.json: missing');
+  } else {
+    const parsed = dialogueIndexFileSchema.safeParse(readJson(indexPath));
+    if (!parsed.success) {
+      errors.push(`dialogues/index.json: ${parsed.error.message}`);
+    } else {
+      const indexedSlugs = new Set<string>();
+      for (const entry of parsed.data.dialogues) {
+        if (indexedSlugs.has(entry.slug)) {
+          errors.push(`dialogues/index.json: duplicate entry "${entry.slug}"`);
+        }
+        indexedSlugs.add(entry.slug);
+        if (!dialogueIds.has(entry.slug)) {
+          errors.push(`dialogues/index.json: entry "${entry.slug}" has no matching .json file`);
+        }
+      }
+      for (const id of dialogueIds) {
+        if (!indexedSlugs.has(id)) {
+          errors.push(`dialogues/${id}.json: no entry in index.json`);
+        }
+      }
+    }
+  }
+}
+
 // -- report -------------------------------------------------------------------
 if (warnings.length) {
   console.warn(`\n⚠ ${warnings.length} warning(s):`);
@@ -281,4 +349,6 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`\n✓ Content valid — ${lessonIds.size} lesson(s), ${buildingIds.size} building(s).`);
+console.log(
+  `\n✓ Content valid — ${lessonIds.size} lesson(s), ${buildingIds.size} building(s), ${dialogueCount} dialogue(s).`,
+);

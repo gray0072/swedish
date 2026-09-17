@@ -58,6 +58,63 @@ export function previewVoice(voiceURI: string, rate?: number): void {
   window.speechSynthesis.speak(utterance);
 }
 
+export interface DialogueCue {
+  text: string;
+  roleIndex: number;
+}
+
+// Alternating rate for role 1 vs role 0 when only one sv-SE voice is installed (the common
+// case) — the only way to make two speakers sound distinct without a second voice.
+const ROLE_RATE_OFFSET = -0.15;
+
+export interface SpeakDialogueOptions {
+  /** Called just before each cue starts playing, with its index into the cues array. */
+  onCueStart?: (index: number) => void;
+  /** Called once the whole scene has finished playing (not called if stop() cuts it short). */
+  onDone?: () => void;
+}
+
+/** Plays a whole dialogue scene in order, alternating voice (if more than one is installed)
+ * or rate per role, chaining each utterance to the next (DIALOGUES.md §3 "listen" mode). */
+export function speakDialogue(cues: DialogueCue[], options: SpeakDialogueOptions = {}): { stop: () => void } {
+  if (typeof window === 'undefined' || !window.speechSynthesis || cues.length === 0) {
+    return { stop: () => {} };
+  }
+  window.speechSynthesis.cancel();
+  const voices = loadSwedishVoices();
+  const baseRate = useAppStore.getState().settings.ttsRate;
+  let cancelled = false;
+
+  function playFrom(index: number) {
+    if (cancelled) return;
+    if (index >= cues.length) {
+      options.onDone?.();
+      return;
+    }
+    const cue = cues[index];
+    options.onCueStart?.(index);
+    const utterance = new SpeechSynthesisUtterance(cue.text);
+    utterance.lang = 'sv-SE';
+    if (voices.length > 1) {
+      utterance.voice = voices[cue.roleIndex % voices.length];
+      utterance.rate = baseRate;
+    } else {
+      if (voices[0]) utterance.voice = voices[0];
+      utterance.rate = cue.roleIndex % 2 === 0 ? baseRate : Math.max(0.5, baseRate + ROLE_RATE_OFFSET);
+    }
+    utterance.onend = () => playFrom(index + 1);
+    window.speechSynthesis.speak(utterance);
+  }
+
+  playFrom(0);
+  return {
+    stop: () => {
+      cancelled = true;
+      window.speechSynthesis.cancel();
+    },
+  };
+}
+
 // Voice lists load asynchronously in most browsers — refresh the cache once they arrive.
 if (typeof window !== 'undefined' && window.speechSynthesis) {
   window.speechSynthesis.onvoiceschanged = () => {

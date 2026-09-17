@@ -83,6 +83,7 @@ interface AppState extends SaveFile {
   recordAttempt: (lessonId: string, reward: RewardResult, questionIds: string[]) => RewardResult;
   buyBuilding: (buildingId: string, cost: number, maxLevel: number) => boolean;
   markHistoryRead: (id: string, coinReward: number) => void;
+  markDialogueRead: (id: string, coinReward: number) => void;
   addCoins: (amount: number) => void;
   seedReviewItems: (ids: string[]) => void;
   setTheme: (theme: SaveFile['settings']['theme']) => void;
@@ -106,6 +107,7 @@ export function toSaveFile(state: AppState): SaveFile {
     items,
     city,
     historyRead,
+    dialoguesRead,
     dailyIncomeClaimedOn,
     settings,
   } = state;
@@ -119,6 +121,7 @@ export function toSaveFile(state: AppState): SaveFile {
     items,
     city,
     historyRead,
+    dialoguesRead,
     dailyIncomeClaimedOn,
     settings,
   };
@@ -279,6 +282,15 @@ export const useAppStore = create<AppState>()(
         if (s.historyRead.includes(id)) return;
         set({
           historyRead: [...s.historyRead, id],
+          wallet: { ...s.wallet, coins: s.wallet.coins + coinReward },
+        });
+      },
+
+      markDialogueRead: (id, coinReward) => {
+        const s = get();
+        if (s.dialoguesRead.includes(id)) return;
+        set({
+          dialoguesRead: [...s.dialoguesRead, id],
           wallet: { ...s.wallet, coins: s.wallet.coins + coinReward },
         });
       },

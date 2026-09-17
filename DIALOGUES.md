@@ -191,8 +191,8 @@ out to the summaries whose grammar the scene leans on.
 ## 8. Done means
 
 - [x] 30 dialogues exist, each 8–16 lines, each with `ru` and `en` on every line.
-- [ ] Every `keyPhrase` occurs verbatim in its dialogue, and validation says so.
-- [ ] Key phrases from a dialogue that has been read turn up in a later review session.
-- [ ] The listen mode plays a whole scene, alternating between roles, in one tap.
-- [ ] Nothing in the section awards XP, gates anything, or shows a score.
-- [ ] Read on a phone, a dialogue needs no horizontal scrolling and no zoom.
+- [x] Every `keyPhrase` occurs verbatim in its dialogue, and validation says so.
+- [x] Key phrases from a dialogue that has been read turn up in a later review session.
+- [x] The listen mode plays a whole scene, alternating between roles, in one tap.
+- [x] Nothing in the section awards XP, gates anything, or shows a score.
+- [x] Read on a phone, a dialogue needs no horizontal scrolling and no zoom.

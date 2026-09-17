@@ -50,6 +50,9 @@ export interface SaveFile {
   items: Record<string, ItemProgress>;
   city: { buildings: Record<string, BuildingState> };
   historyRead: string[];
+  /** Dialogue ids read at least once — like historyRead, this is what seeds keyPhrases (see
+   * dialogueQuestions.ts) into the SRS deck and gates the one-time coin reward. */
+  dialoguesRead: string[];
   /**
    * yyyy-mm-dd of the last day the `dailyIncome` perk was paid out, or null if never.
    * Optional in the parsed schema on purpose: a save written before daily income existed
@@ -76,6 +79,7 @@ export function freshSave(): SaveFile {
     items: {},
     city: { buildings: {} },
     historyRead: [],
+    dialoguesRead: [],
     dailyIncomeClaimedOn: null,
     settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null },
   };
@@ -99,6 +103,9 @@ export const saveFileSchema = z
     items: z.record(z.string(), z.any()),
     city: z.object({ buildings: z.record(z.string(), z.any()) }),
     historyRead: z.array(z.string()),
+    // Optional for the same reason as dailyIncomeClaimedOn below: a save from before dialogues
+    // existed has no field, and "nothing read yet" is the right reading.
+    dialoguesRead: z.array(z.string()).optional(),
     // Optional for the same reason as settings.ttsVoice below: saves from before the perk
     // was granted don't have it, and "never claimed" is the right reading.
     dailyIncomeClaimedOn: z.string().nullable().optional(),
@@ -137,6 +144,7 @@ export function migrateSave(raw: unknown): SaveFile {
   if (save.settings.ttsVoice === undefined) save.settings.ttsVoice = null;
   // Same for daily income: an older save has never been paid, so it gets paid today.
   if (save.dailyIncomeClaimedOn === undefined) save.dailyIncomeClaimedOn = null;
+  if (save.dialoguesRead === undefined) save.dialoguesRead = [];
   return save;
 }
 
