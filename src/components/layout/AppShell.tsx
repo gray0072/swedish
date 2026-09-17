@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
+import { useCloudSync } from '@/store/useCloudSync';
 import { useLanguage, useSettings } from '@/store/settings';
 import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
 import DalaHorse from '@/components/ui/DalaHorse';
@@ -78,6 +79,9 @@ export default function AppShell() {
   const t = useT();
   const touchDailyActivity = useAppStore((s) => s.touchDailyActivity);
   const claimDailyIncome = useAppStore((s) => s.claimDailyIncome);
+  // Runs the actual sync effect once at the app root, independent of route changes.
+  // SettingsPage shows status/controls via useCloudSyncStatus(), not this hook.
+  useCloudSync();
 
   useEffect(() => {
     touchDailyActivity();

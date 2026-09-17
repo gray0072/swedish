@@ -5,6 +5,7 @@ import { useAppStore } from '@/store/appStore';
 import { useSettings, useLanguage } from '@/store/settings';
 import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
 import { exportSaveToFile } from '@/store/persist';
+import { useCloudSyncStatus } from '@/store/cloudSyncStatus';
 import { listSwedishVoices, previewVoice } from '@/lib/tts';
 
 /** Re-reads the installed sv-SE voice list, refreshing once the browser loads it async. */
@@ -36,6 +37,7 @@ export default function SettingsPage() {
   const [importMessage, setImportMessage] = useState<string | null>(null);
 
   const fullState = useAppStore((s) => s);
+  const cloudSync = useCloudSyncStatus();
 
   function handleExport() {
     exportSaveToFile(fullState);
@@ -149,6 +151,30 @@ export default function SettingsPage() {
           </div>
         )}
       </section>
+
+      {cloudSync.available && (
+        <section className="card space-y-2">
+          <label className="text-sm font-semibold">{t('settings.cloud.title')}</label>
+          <p className="text-xs text-granite dark:text-birch/60">{t('settings.cloud.description')}</p>
+          {cloudSync.user ? (
+            <div className="flex items-center justify-between gap-2">
+              <span className="truncate text-xs text-granite dark:text-birch/60">
+                {cloudSync.user.email}
+                {cloudSync.status === 'syncing' && ` · ${t('settings.cloud.status.syncing')}`}
+                {cloudSync.status === 'synced' && ` · ${t('settings.cloud.status.synced')}`}
+                {cloudSync.status === 'error' && ` · ${t('settings.cloud.status.error')}`}
+              </span>
+              <button className="btn-secondary shrink-0" onClick={cloudSync.signOut}>
+                {t('settings.cloud.signOut')}
+              </button>
+            </div>
+          ) : (
+            <button className="btn-secondary w-full" onClick={cloudSync.signIn}>
+              {t('settings.cloud.signIn')}
+            </button>
+          )}
+        </section>
+      )}
 
       <section className="card space-y-3">
         <button className="btn-secondary w-full" onClick={handleExport}>

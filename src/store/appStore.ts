@@ -16,6 +16,7 @@ import type { RewardResult } from '@/quiz/engine';
 import type { StudyLanguage } from '@/content/schema';
 import { REWARDS, STREAK } from '@/city/economy';
 import { getActivePerks } from '@/city/perks';
+import { mergeSaves } from './cloudSync';
 
 function dateAddDays(dateStr: string, delta: number): string {
   const d = new Date(dateStr + 'T00:00:00Z');
@@ -89,6 +90,38 @@ interface AppState extends SaveFile {
   setTtsVoice: (voiceURI: string | null) => void;
   resetSave: () => void;
   importSave: (raw: unknown) => boolean;
+  /** Merges a cloud save into the current local state (see cloudSync.ts) and returns the result. */
+  mergeWithCloud: (remote: unknown) => SaveFile | null;
+}
+
+/** Strips the store's actions off, leaving just the persisted save shape. */
+export function toSaveFile(state: AppState): SaveFile {
+  const {
+    version,
+    createdAt,
+    language,
+    wallet,
+    streak,
+    lessons,
+    items,
+    city,
+    historyRead,
+    dailyIncomeClaimedOn,
+    settings,
+  } = state;
+  return {
+    version,
+    createdAt,
+    language,
+    wallet,
+    streak,
+    lessons,
+    items,
+    city,
+    historyRead,
+    dailyIncomeClaimedOn,
+    settings,
+  };
 }
 
 // zustand's `persist` JSON-serializes state on every write and parses on load; we route both
@@ -289,6 +322,16 @@ export const useAppStore = create<AppState>()(
           return true;
         } catch {
           return false;
+        }
+      },
+
+      mergeWithCloud: (remote) => {
+        try {
+          const merged = mergeSaves(toSaveFile(get()), migrateSave(remote));
+          set(merged);
+          return merged;
+        } catch {
+          return null;
         }
       },
     }),
