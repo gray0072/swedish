@@ -27,6 +27,13 @@ jobs:
       - run: npm run validate
       - run: npm run test
       - run: npm run build
+        env:
+          # Optional cloud-sync feature (SPEC.md §7.1) — neither value is secret (the
+          # anon/publishable key ships in the client bundle by design either way), but each
+          # fork points at its own Supabase project, so they're repo secrets rather than
+          # hardcoded. Unset: the build produces the same app with cloud sync compiled out.
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -614,7 +614,10 @@ the app exactly as described in §7.
   (gitignored) as `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`, read at build time by Vite.
   These are not secrets: for a static site the built JS bundle ships to every visitor
   regardless, so the anon key is meant to be public — the actual access boundary is the
-  database's row-level security, not key secrecy.
+  database's row-level security, not key secrecy. The automatic CI deploy
+  (`.github/workflows/deploy.yml`) reads the same two values from GitHub Actions repository
+  secrets instead, since `.env.local` never reaches CI — leaving those secrets unset there is
+  the usual reason a deployed build shows no sign-in button even though it works locally.
 - `supabase/schema.sql` — run once by hand in the Supabase SQL editor. One table,
   `saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
   with RLS policies restricting every select/insert/update to `auth.uid() = user_id`. No

@@ -94,12 +94,19 @@ To wire this up for your own fork:
    which needs a Google Cloud OAuth client id/secret, and add your dev/prod URLs under
    Authentication → URL Configuration → Redirect URLs.
 4. Copy `.env.example` to `.env.local` and fill in `VITE_SUPABASE_URL` /
-   `VITE_SUPABASE_ANON_KEY` from Project Settings → API. Neither value is secret — the
-   anon/publishable key ships in the client bundle by design; RLS is what actually protects
-   the data — but `.env.local` is gitignored anyway to keep per-fork keys out of the repo.
+   `VITE_SUPABASE_ANON_KEY` from Project Settings → API, for local `npm run dev` /
+   `npm run deploy`. Neither value is secret — the anon/publishable key ships in the client
+   bundle by design; RLS is what actually protects the data — but `.env.local` is gitignored
+   anyway to keep per-fork keys out of the repo.
+5. For the automatic CI deploy (`.github/workflows/deploy.yml`, triggered on every push to
+   `main`), also add the same two values as **repository secrets** — Settings → Secrets and
+   variables → Actions → New repository secret — named exactly `VITE_SUPABASE_URL` and
+   `VITE_SUPABASE_ANON_KEY`. The workflow's build step reads them from there; `.env.local`
+   never reaches CI. Skipping this step is the most common way to end up with a deployed
+   build that has no sign-in button — it's not broken, it just built without them.
 
-Without those env vars set, the app builds and runs exactly as before: cloud sync silently
-compiles out and only the local-only path is used.
+Without those env vars set (locally or in CI), the app builds and runs exactly as before:
+cloud sync silently compiles out and only the local-only path is used.
 
 ## Project structure
 

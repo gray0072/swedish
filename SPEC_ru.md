@@ -615,7 +615,10 @@ interface SaveFile {
   (не в git) как `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`, подставляются Vite на этапе
   сборки. Это не секреты: для статического сайта собранный JS-бандл и так уходит каждому
   посетителю, поэтому anon-ключ и задуман публичным — реальная граница доступа — это
-  row-level security базы данных, а не секретность ключа.
+  row-level security базы данных, а не секретность ключа. Автоматический деплой через CI
+  (`.github/workflows/deploy.yml`) берёт те же два значения из репозиторных секретов GitHub
+  Actions, так как `.env.local` в CI не попадает — если их там не задать, задеплоенная сборка
+  соберётся без кнопки входа, при том что локально всё работает.
 - `supabase/schema.sql` — выполняется один раз вручную в SQL-редакторе Supabase. Одна таблица,
   `saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
   с RLS-политиками, ограничивающими каждый select/insert/update условием
