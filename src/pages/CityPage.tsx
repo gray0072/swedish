@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
-import { getBuildingsForEra, getEras, getHistoryCardsForEra } from '@/content/registry';
+import { getBuildings, getBuildingsForEra, getEras, getHistoryCardsForEra } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import { useWallet } from '@/store/wallet';
+import { useCityBuildingLevels } from '@/store/city';
+import { pickInitialEra } from '@/city/progress';
 import BuildingCard from '@/components/city/BuildingCard';
 import HistoryCard from '@/components/city/HistoryCard';
 import CityMap from '@/components/city/CityMap';
@@ -17,7 +19,12 @@ export default function CityPage() {
   const lang = useLanguage();
   const wallet = useWallet();
   const eras = getEras();
-  const [selectedEraId, setSelectedEraId] = useState(eras[0]?.id);
+  const levels = useCityBuildingLevels();
+  // Lazy initial state, not an effect: the tab is chosen once, when the page opens, and
+  // never yanked out from under a learner who has since switched era by hand.
+  const [selectedEraId, setSelectedEraId] = useState(
+    () => pickInitialEra(eras, getBuildings(), levels, wallet.xp)?.id ?? eras[0]?.id,
+  );
 
   const selectedEra = eras.find((e) => e.id === selectedEraId) ?? eras[0];
   const unlocked = wallet.xp >= (selectedEra?.unlockXp ?? 0);

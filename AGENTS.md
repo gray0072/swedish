@@ -2,7 +2,8 @@
 
 Working agreements for anyone — human or agent — contributing to this repository.
 Product spec: [SPEC.md](SPEC.md). Lesson plan: [CURRICULUM.md](CURRICULUM.md). Plan for the
-reference section: [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md).
+reference section: [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md). Plan for
+the city illustration: [CITY_VISUALS.md](CITY_VISUALS.md).
 
 ## Language
 

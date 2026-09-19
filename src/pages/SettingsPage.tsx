@@ -29,6 +29,7 @@ export default function SettingsPage() {
   const setLanguage = useAppStore((s) => s.setLanguage);
   const setTheme = useAppStore((s) => s.setTheme);
   const setSound = useAppStore((s) => s.setSound);
+  const setCityMotion = useAppStore((s) => s.setCityMotion);
   const setTtsVoice = useAppStore((s) => s.setTtsVoice);
   const voices = useSwedishVoiceList();
   const resetSave = useAppStore((s) => s.resetSave);
@@ -116,6 +117,21 @@ export default function SettingsPage() {
           onChange={(e) => setSound(e.target.checked)}
           className="h-5 w-5 accent-falu"
         />
+      </section>
+
+      <section className="card space-y-2">
+        <label className="text-sm font-semibold">{t('settings.cityMotion')}</label>
+        <div className="flex flex-wrap gap-2">
+          {(['full', 'calm', 'off'] as const).map((tier) => (
+            <button
+              key={tier}
+              onClick={() => setCityMotion(tier)}
+              className={settings.cityMotion === tier ? 'btn-primary' : 'btn-secondary'}
+            >
+              {t(`settings.cityMotion.${tier}` as never)}
+            </button>
+          ))}
+        </div>
       </section>
 
       <section className="card space-y-2">

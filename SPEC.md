@@ -928,8 +928,10 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
 
 ### 11.5 City illustration style
 
-- Flat vector SVG, consistent 2 px stroke, limited palette per era, no photorealism,
-  no gradients except the aurora celebration.
+- Flat vector SVG, consistent 2 px stroke, limited palette per era, no photorealism.
+- **Gradients:** the aurora celebration, plus exactly one two-stop vertical sky gradient and
+  one water-depth gradient per era, both low contrast. Buildings, terrain and figures stay
+  flat-filled. Nothing else in the app gets a gradient.
 - A deliberate hand-carved irregularity — lines with a slight wobble, like a woodcut print.
 - Isometric-lite: buildings face front with one small offset side plane. Keeps authoring cheap.
 - Materials shift by era: hide and timber → wood and iron → brick and lime plaster →
@@ -937,6 +939,9 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
 - **The map background is constant:** the Mälaren shoreline and the island of Stadsholmen.
   Water and rock never change; only what stands on them does. This is what makes the six eras
   read as one place across time.
+- The plan for turning this backdrop into a living, animated scene — isometric grid, drawn
+  buildings, inhabitants — is [CITY_VISUALS.md](CITY_VISUALS.md), which also lists the two
+  narrow amendments it asks of this section and of §11.6.
 
 ### 11.6 Motion
 
@@ -945,7 +950,14 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
 - Perfect run → an aurora sweep and gold coins, 1.2 s maximum.
 - Building completed → the building "carves" itself in, stroke first, then fill.
 - Streak milestone → a kurbits vine grows around the streak counter.
-- Everything above is disabled under `prefers-reduced-motion`.
+- **Ambient motion** is its own category: continuous low-amplitude loops that nobody
+  triggered — water, smoke, citizens walking, a flag. It is what keeps the city from reading
+  as a diagram. It is calm enough to ignore, capped by an explicit node budget, and it stops
+  entirely when the scene is off-screen or the tab is in the background.
+- Motion has a three-position setting (`full` / `calm` / `off`); `calm` keeps reactions and
+  events but drops the ambient layer.
+- Everything above is disabled under `prefers-reduced-motion`, which overrides that setting
+  and is never overridable by it. Disabled means a composed still frame, not a paused one.
 
 ### 11.7 Sound
 

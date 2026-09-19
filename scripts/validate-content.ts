@@ -22,6 +22,20 @@ import {
 } from '../src/content/schema';
 import { expandGenerators } from '../src/content/generators';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
+import type { AmbientEmitter, EraArt } from '../src/components/city/scene/types';
+import { ISLAND_CELLS } from '../src/components/city/scene/island';
+import { footprintCells, footprintsOverlap } from '../src/components/city/scene/iso';
+import { LIGHT_THEMES, DARK_THEMES } from '../src/components/city/scene/themes';
+import tribeArt from '../src/components/city/art/tribe';
+import vikingArt from '../src/components/city/art/viking';
+import medievalArt from '../src/components/city/art/medieval';
+import empireArt from '../src/components/city/art/empire';
+import industrialArt from '../src/components/city/art/industrial';
+import modernArt from '../src/components/city/art/modern';
+import greenArt from '../src/components/city/art/green';
+import connectedArt from '../src/components/city/art/connected';
+import floatingArt from '../src/components/city/art/floating';
+import stellarArt from '../src/components/city/art/stellar';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', 'content');
@@ -176,10 +190,12 @@ if (existsSync(erasPath)) {
 }
 
 const buildingsPath = join(ROOT, 'city', 'buildings.json');
+let cityBuildings: ReturnType<typeof buildingsFileSchema.parse>['buildings'] = [];
 if (existsSync(buildingsPath)) {
   const parsed = buildingsFileSchema.safeParse(readJson(buildingsPath));
   if (!parsed.success) errors.push(`city/buildings.json: ${parsed.error.message}`);
   else {
+    cityBuildings = parsed.data.buildings;
     for (const b of parsed.data.buildings) {
       buildingIds.add(b.id);
       if (!eraIds.has(b.era)) errors.push(`building "${b.id}" references unknown era "${b.era}"`);
@@ -197,6 +213,144 @@ if (existsSync(buildingsPath)) {
         if (!buildingIds.has(req)) {
           errors.push(`building "${b.id}" requires unknown building "${req}"`);
         }
+      }
+    }
+  }
+}
+
+// -- city art (CITY_VISUALS_TECH.md §5) --------------------------------------
+// Art/content parity, level counts, grid placement and ambient budgets, checked without
+// touching scene/** or types.ts beyond reading their exported values — this agent owns
+// art/**, content and this script only.
+const ERA_ART: Record<string, EraArt> = {
+  tribe: tribeArt,
+  viking: vikingArt,
+  medieval: medievalArt,
+  empire: empireArt,
+  industrial: industrialArt,
+  modern: modernArt,
+  green: greenArt,
+  connected: connectedArt,
+  floating: floatingArt,
+  stellar: stellarArt,
+};
+
+const VALID_EMITTERS: AmbientEmitter[] = [
+  'smoke', 'birds', 'flag', 'rotor', 'beacon', 'aurora', 'snow', 'pollen', 'rain',
+];
+const EMITTER_NODE_COST: Record<AmbientEmitter, number> = {
+  smoke: 3, birds: 4, flag: 1, rotor: 1, beacon: 1, aurora: 2, snow: 20, pollen: 20, rain: 20,
+};
+const AMBIENT_NODE_BUDGET = 60; // CITY_VISUALS_LIFE.md §7
+
+if (cityBuildings.length > 0) {
+  const islandKeys = new Set(ISLAND_CELLS.map((c) => `${c.q},${c.r}`));
+
+  for (const [eraId, art] of Object.entries(ERA_ART)) {
+    const eraBuildings = cityBuildings.filter((b) => b.era === eraId);
+    const contentIds = new Set(eraBuildings.map((b) => b.id));
+    const artIds = new Set(Object.keys(art));
+
+    for (const id of artIds) {
+      if (!contentIds.has(id)) errors.push(`art/${eraId}: "${id}" has art but no content/city/buildings.json entry`);
+    }
+    for (const id of contentIds) {
+      if (!artIds.has(id)) errors.push(`art/${eraId}: "${id}" is in buildings.json but has no art`);
+    }
+
+    let landmarkCount = 0;
+    let emitterNodes = 0;
+    const placed: Array<{ id: string; cell: { q: number; r: number }; footprint: { w: number; h: number } }> = [];
+
+    for (const building of eraBuildings) {
+      const artEntry = art[building.id];
+      const price = BUILDING_PRICES[building.id];
+      if (!artEntry || !price) continue; // already reported above / by the buildings pass
+
+      if (artEntry.levels.length !== price.maxLevel) {
+        errors.push(
+          `art/${eraId}/${building.id}: ${artEntry.levels.length} level(s) authored, maxLevel is ${price.maxLevel}`,
+        );
+      }
+      if (artEntry.footprint.w === 2 && artEntry.footprint.h === 2) landmarkCount += 1;
+
+      // Content footprint must match the art footprint (CITY_VISUALS_TECH.md §2/§5).
+      if (building.footprint.w !== artEntry.footprint.w || building.footprint.h !== artEntry.footprint.h) {
+        errors.push(
+          `${eraId}/${building.id}: content footprint ${building.footprint.w}x${building.footprint.h} does not match art footprint ${artEntry.footprint.w}x${artEntry.footprint.h}`,
+        );
+      }
+
+      for (const emitter of artEntry.ambient ?? []) {
+        if (!VALID_EMITTERS.includes(emitter)) {
+          errors.push(`art/${eraId}/${building.id}: unknown ambient emitter "${emitter}"`);
+        } else {
+          emitterNodes += EMITTER_NODE_COST[emitter];
+        }
+      }
+
+      // Cell placement: every building now carries a `cell` (Phase 4 requirement) and every
+      // cell of its footprint must be inside island.ts's walkable set.
+      if (!building.cell) {
+        errors.push(`${eraId}/${building.id}: missing "cell" (required from Phase 4 on)`);
+        continue;
+      }
+      const cells = footprintCells(building.cell, building.footprint);
+      for (const cell of cells) {
+        if (!islandKeys.has(`${cell.q},${cell.r}`)) {
+          errors.push(`${eraId}/${building.id}: cell (${cell.q},${cell.r}) is outside the island's walkable set`);
+        }
+      }
+      placed.push({ id: building.id, cell: building.cell, footprint: building.footprint });
+    }
+
+    if (landmarkCount !== 1) {
+      errors.push(`art/${eraId}: expected exactly one 2x2 landmark, found ${landmarkCount}`);
+    }
+
+    for (let i = 0; i < placed.length; i += 1) {
+      for (let j = i + 1; j < placed.length; j += 1) {
+        if (footprintsOverlap(placed[i].cell, placed[i].footprint, placed[j].cell, placed[j].footprint)) {
+          errors.push(`${eraId}: footprints overlap between "${placed[i].id}" and "${placed[j].id}"`);
+        }
+      }
+    }
+
+    if (emitterNodes > AMBIENT_NODE_BUDGET) {
+      warnings.push(`${eraId}: ambient emitters cost ${emitterNodes} nodes, over the ${AMBIENT_NODE_BUDGET}-node budget`);
+    }
+  }
+}
+
+// Every SceneTheme needs both variants, with every token a hex literal (CITY_VISUALS_TECH.md
+// §5 rule 6) — checked here since this script is the one place both content and scene/themes
+// are already in scope.
+const HEX_RE = /^#[0-9a-fA-F]{3,8}$/;
+function flattenTokens(obj: Record<string, unknown>, prefix = ''): Array<[string, unknown]> {
+  const out: Array<[string, unknown]> = [];
+  for (const [k, v] of Object.entries(obj)) {
+    const key = prefix ? `${prefix}.${k}` : k;
+    if (v && typeof v === 'object' && !Array.isArray(v)) out.push(...flattenTokens(v as Record<string, unknown>, key));
+    else out.push([key, v]);
+  }
+  return out;
+}
+for (const eraId of Object.keys(ERA_ART)) {
+  const light = LIGHT_THEMES[eraId];
+  const dark = DARK_THEMES[eraId];
+  if (!light || !dark) {
+    errors.push(`themes: era "${eraId}" is missing a light or dark SceneTheme`);
+    continue;
+  }
+  for (const [theme, label] of [[light, 'light'], [dark, 'dark']] as const) {
+    for (const [key, value] of flattenTokens(theme as unknown as Record<string, unknown>)) {
+      if (key === 'ambient.emitters' || key === 'time') continue;
+      if (Array.isArray(value)) {
+        for (const v of value) {
+          if (typeof v === 'string' && !HEX_RE.test(v)) errors.push(`themes/${eraId} (${label}): "${key}" is not a hex literal`);
+        }
+      } else if (typeof value === 'string' && !HEX_RE.test(value)) {
+        errors.push(`themes/${eraId} (${label}): "${key}" is not a hex literal`);
       }
     }
   }

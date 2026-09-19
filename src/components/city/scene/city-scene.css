@@ -1,0 +1,307 @@
+/*
+ * Motion for the city scene (CITY_VISUALS_MOTION.md). Every animated rule here targets a
+ * `<g>` and touches only `transform`/`opacity` — never `x`/`y`/`width`/`d`, so nothing here
+ * triggers layout. `prefers-reduced-motion` always wins: every ambient loop is switched off
+ * and replaced by a hand-chosen still frame that still reads as composed, not paused mid-step
+ * (CITY_VISUALS_MOTION.md §4).
+ */
+
+/* -- Theme token switch — light is the default, dark overrides under the app's .dark class,
+   so Scene.tsx never has to know which theme is active; it just emits both variants. ------- */
+
+.city-scene {
+  --sky-0: var(--sky-0-light);
+  --sky-1: var(--sky-1-light);
+  --water-base: var(--water-base-light);
+  --water-deep: var(--water-deep-light);
+  --water-wave: var(--water-wave-light);
+  --water-foam: var(--water-foam-light);
+  --ground-top: var(--ground-top-light);
+  --ground-cliff: var(--ground-cliff-light);
+  --ground-wet: var(--ground-wet-light);
+  --horizon: var(--horizon-light);
+  --wall: var(--wall-light);
+  --wall-side: var(--wall-side-light);
+  --roof: var(--roof-light);
+  --roof-side: var(--roof-side-light);
+  --timber: var(--timber-light);
+  --trim: var(--trim-light);
+  --glass: var(--glass-light);
+  --glass-lit: var(--glass-lit-light);
+}
+
+.dark .city-scene {
+  --sky-0: var(--sky-0-dark);
+  --sky-1: var(--sky-1-dark);
+  --water-base: var(--water-base-dark);
+  --water-deep: var(--water-deep-dark);
+  --water-wave: var(--water-wave-dark);
+  --water-foam: var(--water-foam-dark);
+  --ground-top: var(--ground-top-dark);
+  --ground-cliff: var(--ground-cliff-dark);
+  --ground-wet: var(--ground-wet-dark);
+  --horizon: var(--horizon-dark);
+  --wall: var(--wall-dark);
+  --wall-side: var(--wall-side-dark);
+  --roof: var(--roof-dark);
+  --roof-side: var(--roof-side-dark);
+  --timber: var(--timber-dark);
+  --trim: var(--trim-dark);
+  --glass: var(--glass-dark);
+  --glass-lit: var(--glass-lit-dark);
+}
+
+/* -- Water --------------------------------------------------------------- */
+
+.wave-band {
+  animation: wave-scroll linear infinite;
+}
+.wave-band--1 { animation-duration: 6s; }
+.wave-band--2 { animation-duration: 9s; animation-direction: reverse; }
+.wave-band--3 { animation-duration: 13s; }
+
+@keyframes wave-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-33.3333%); }
+}
+
+.shoreline-foam {
+  stroke-dasharray: 5 7;
+  animation: foam-dash 7s linear infinite;
+}
+
+@keyframes foam-dash {
+  to { stroke-dashoffset: -48; }
+}
+
+.water-sparkle {
+  animation: sparkle ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.5; }
+}
+
+/* -- Plots ----------------------------------------------------------------- */
+
+.plot-affordable {
+  animation: plot-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes plot-pulse {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+.plot-shimmer {
+  animation: plot-shimmer 900ms ease-out;
+}
+
+@keyframes plot-shimmer {
+  from { opacity: 0; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* -- Buildings / interaction ------------------------------------------------ */
+
+.building-instance {
+  transform: translateY(0);
+  transition: transform 160ms ease-out;
+}
+
+.building-instance.is-hovered {
+  transform: translateY(-3px);
+}
+
+.tap-ring {
+  transform-origin: center;
+  animation: tap-ring 450ms ease-out;
+}
+
+@keyframes tap-ring {
+  from { opacity: 0.6; transform: scale(0.4); }
+  to { opacity: 0; transform: scale(1.6); }
+}
+
+.hit-target {
+  outline: none;
+}
+
+.hit-target:focus-visible .focus-ring {
+  opacity: 1;
+}
+
+.focus-ring {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hover-label {
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+  pointer-events: none;
+}
+
+.hit-target:hover .hover-label,
+.hit-target:focus-visible .hover-label {
+  opacity: 1;
+}
+
+/* -- Ambient life (CITY_VISUALS_LIFE.md §7) -------------------------------------------- */
+
+.ambient-smoke__puff {
+  animation: smoke-rise 4s ease-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.ambient-smoke__puff--2 { animation-delay: 1.3s; }
+.ambient-smoke__puff--3 { animation-delay: 2.6s; }
+
+@keyframes smoke-rise {
+  0% { transform: translate(0, 0) scale(0.6); opacity: 0.4; }
+  100% { transform: translate(6px, -40px) scale(1.3); opacity: 0; }
+}
+
+.ambient-flag {
+  animation: flag-flap 700ms steps(2) infinite;
+  transform-box: fill-box;
+}
+
+@keyframes flag-flap {
+  0%, 100% { transform: scaleX(1); }
+  50% { transform: scaleX(0.75); }
+}
+
+.ambient-rotor {
+  animation: rotor-spin 4s linear infinite;
+  transform-box: fill-box;
+}
+
+@keyframes rotor-spin {
+  to { transform: rotate(360deg); }
+}
+
+.ambient-beacon {
+  animation: beacon-sweep 8s linear infinite;
+  transform-box: fill-box;
+}
+
+@keyframes beacon-sweep {
+  to { transform: rotate(360deg); }
+}
+
+.ambient-aurora {
+  animation: aurora-drift 18s ease-in-out infinite;
+}
+
+@keyframes aurora-drift {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(24px); }
+}
+
+.ambient-birds__flock {
+  animation: birds-cross 25s linear infinite;
+}
+
+@keyframes birds-cross {
+  from { transform: translateX(0); }
+  to { transform: translateX(1280px); }
+}
+
+.reed-sway {
+  animation: reed-sway 5s ease-in-out infinite;
+  transform-box: fill-box;
+}
+
+@keyframes reed-sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(4deg); }
+}
+
+.weather-particle {
+  animation: weather-fall linear infinite;
+  transform-box: fill-box;
+}
+
+@keyframes weather-fall {
+  from { transform: translate(0, 0); opacity: 1; }
+  to { transform: translate(var(--drift, 0px), 940px); opacity: 0.2; }
+}
+
+/* -- Reduced motion: every ambient/reactive loop freezes at a composed rest frame --------- */
+
+/* -- Lit windows (CITY_VISUALS_SCENE.md §6): each lit pane flips on after its own delay, so
+   an era's windows come on one by one. `steps(1)` keeps it a switch, not a dimmer; `both`
+   holds the pane dark until its turn, and leaves it lit afterwards. -------------------- */
+
+.lit-window {
+  animation: window-lights 200ms steps(1) both;
+}
+
+@keyframes window-lights {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* -- Era cross-fade (CITY_VISUALS_MOTION.md §3): 260 ms, replayed by remounting the group
+   under a new key when the incoming era's art has resolved. ------------------------------ */
+
+.era-fade {
+  animation: era-fade 260ms ease-in-out both;
+}
+
+@keyframes era-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .era-fade {
+    animation: none;
+  }
+
+  /* The still frame wants the windows lit, so drop the animation rather than the light. */
+  .lit-window {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave-band,
+  .shoreline-foam,
+  .water-sparkle,
+  .plot-affordable,
+  .plot-shimmer,
+  .tap-ring,
+  .ambient-smoke__puff,
+  .ambient-flag,
+  .ambient-rotor,
+  .ambient-beacon,
+  .ambient-aurora,
+  .ambient-birds__flock,
+  .reed-sway,
+  .weather-particle {
+    animation: none !important;
+  }
+
+  .water-sparkle {
+    opacity: 0.3;
+  }
+
+  .plot-affordable {
+    opacity: 0.85;
+  }
+
+  .building-instance {
+    transition: none !important;
+  }
+}

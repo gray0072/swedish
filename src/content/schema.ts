@@ -314,7 +314,12 @@ export const buildingSchema = z.object({
   description: localizedStringSchema.optional(),
   requires: z.array(z.string()).default([]),
   perk: perkSchema,
-  position: z.object({ x: z.number(), y: z.number() }),
+  position: z.object({ x: z.number(), y: z.number() }), // kept as the documented placement fallback
+  // Grid-cell placement (CITY_VISUALS_TECH.md §2). `cell` is optional during migration — a
+  // building without one is projected from `position` onto the nearest free island cell — but
+  // every building now carries one; validation is what turns a future gap into an error.
+  cell: z.object({ q: z.number().int(), r: z.number().int() }).optional(),
+  footprint: z.object({ w: z.number().int(), h: z.number().int() }).default({ w: 1, h: 1 }),
   flavour: localizedStringSchema.optional(),
 });
 export type BuildingContent = z.infer<typeof buildingSchema>;

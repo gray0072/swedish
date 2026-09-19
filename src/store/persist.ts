@@ -65,6 +65,12 @@ export interface SaveFile {
     ttsRate: number;
     /** speechSynthesis voiceURI of the preferred sv-SE voice, or null = auto-pick. */
     ttsVoice: string | null;
+    /** The city scene's ambient motion tier (CITY_VISUALS_MOTION.md §4). `prefers-reduced-motion`
+     * always overrides this to `off` regardless of what is saved here. Optional in the type for
+     * the same reason as `ttsVoice` below: fixtures and saves written before this setting
+     * existed don't have it, and `migrateSave`/`freshSave` are what guarantee a real value at
+     * runtime — callers should still read it as `settings.cityMotion ?? 'full'`. */
+    cityMotion?: 'full' | 'calm' | 'off';
   };
 }
 
@@ -81,7 +87,7 @@ export function freshSave(): SaveFile {
     historyRead: [],
     dialoguesRead: [],
     dailyIncomeClaimedOn: null,
-    settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null },
+    settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null, cityMotion: 'full' },
   };
 }
 
@@ -116,6 +122,9 @@ export const saveFileSchema = z
       // Optional: saves from before the voice picker was added won't have it yet — treated
       // as "auto-pick" (see migrateSave's post-parse defaulting below).
       ttsVoice: z.string().nullable().optional(),
+      // Optional for the same reason: a save from before cityMotion existed defaults to 'full'
+      // below, matching every other motion-affecting toggle's off-by-default-means-on stance.
+      cityMotion: z.enum(['full', 'calm', 'off']).optional(),
     }),
   })
   .passthrough();
@@ -142,6 +151,7 @@ export function migrateSave(raw: unknown): SaveFile {
   // A save from before the voice picker existed won't have settings.ttsVoice at all —
   // treat that the same as "auto-pick" rather than leaving it undefined.
   if (save.settings.ttsVoice === undefined) save.settings.ttsVoice = null;
+  if (save.settings.cityMotion === undefined) save.settings.cityMotion = 'full';
   // Same for daily income: an older save has never been paid, so it gets paid today.
   if (save.dailyIncomeClaimedOn === undefined) save.dailyIncomeClaimedOn = null;
   if (save.dialoguesRead === undefined) save.dialoguesRead = [];

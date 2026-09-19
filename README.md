@@ -16,6 +16,12 @@ under the `_ru` suffix ([SPEC_ru.md](SPEC_ru.md), [CURRICULUM_ru.md](CURRICULUM_
 [TODO_ru.md](TODO_ru.md), [CHANGELOG_ru.md](CHANGELOG_ru.md)); English is the primary
 version.
 
+## Screenshots
+
+| Topics and levels | A quiz in progress | The city — Viking era |
+|---|---|---|
+| ![Tracks and levels list](docs/screenshots/tracks.png) | ![A quiz question with a typed answer](docs/screenshots/quiz.png) | ![The isometric city scene, Viking era](docs/screenshots/city.png) |
+
 ## Features
 
 | Feature | Description |
@@ -107,6 +113,14 @@ To wire this up for your own fork:
 
 Without those env vars set (locally or in CI), the app builds and runs exactly as before:
 cloud sync silently compiles out and only the local-only path is used.
+
+**Troubleshooting: Google sign-in redirects to `localhost` and errors out on the deployed
+site.** This is a Supabase dashboard setting, not a code bug — the app always redirects back
+to the page it was opened from (`src/store/cloudSync.ts`). Supabase falls back to its
+**Site URL** (Authentication → URL Configuration), which defaults to
+`http://localhost:3000`, whenever the actual redirect isn't in the **Redirect URLs** allow
+list. Fix: set Site URL to your deployed URL (e.g. `https://<user>.github.io/swedish/`) and
+add both that and `http://localhost:5173/swedish/` to Redirect URLs.
 
 ## Project structure
 

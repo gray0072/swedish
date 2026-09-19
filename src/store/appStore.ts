@@ -89,6 +89,7 @@ interface AppState extends SaveFile {
   setTheme: (theme: SaveFile['settings']['theme']) => void;
   setSound: (enabled: boolean) => void;
   setTtsVoice: (voiceURI: string | null) => void;
+  setCityMotion: (tier: NonNullable<SaveFile['settings']['cityMotion']>) => void;
   resetSave: () => void;
   importSave: (raw: unknown) => boolean;
   /** Merges a cloud save into the current local state (see cloudSync.ts) and returns the result. */
@@ -324,6 +325,7 @@ export const useAppStore = create<AppState>()(
       setTheme: (theme) => set((s) => ({ settings: { ...s.settings, theme } })),
       setSound: (sound) => set((s) => ({ settings: { ...s.settings, sound } })),
       setTtsVoice: (ttsVoice) => set((s) => ({ settings: { ...s.settings, ttsVoice } })),
+      setCityMotion: (cityMotion) => set((s) => ({ settings: { ...s.settings, cityMotion } })),
 
       resetSave: () => set(freshSave()),
 
