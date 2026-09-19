@@ -41,22 +41,34 @@ export async function getCurrentUser(): Promise<CloudUser | null> {
   return toCloudUser(data.session);
 }
 
+/**
+ * `null` means "this user genuinely has no cloud save yet" — the safe case where pushing the
+ * local save up is correct because there is nothing to lose. A Supabase error (RLS denial,
+ * network failure, a row whose `data` doesn't parse) is a DIFFERENT case and must never be
+ * treated the same way: silently returning `null` there previously made a fetch failure look
+ * identical to "no save exists yet", so the caller (useCloudSync.ts) would push the current
+ * (possibly empty, freshly-installed) local state over whatever was actually in the cloud —
+ * overwriting real progress while still reporting "synced". Throwing here instead makes that
+ * whole sync attempt fail loudly (status: 'error') rather than quietly destroying data.
+ */
 export async function fetchCloudSave(userId: string): Promise<SaveFile | null> {
   if (!supabase) return null;
   const { data, error } = await supabase.from('saves').select('data').eq('user_id', userId).maybeSingle();
-  if (error || !data) return null;
-  try {
-    return migrateSave(data.data);
-  } catch {
-    return null;
-  }
+  if (error) throw error;
+  if (!data) return null; // no error AND no row: this user has never synced before — genuinely empty.
+  return migrateSave(data.data); // a corrupted row is also a real failure, not "no save".
 }
 
 export async function pushCloudSave(userId: string, save: SaveFile): Promise<void> {
   if (!supabase) return;
-  await supabase
+  // supabase-js resolves with { data, error } instead of throwing on a failed request (an RLS
+  // denial, a network error, …), so awaiting it alone proves nothing. Without checking `error`
+  // here, a failed upsert was indistinguishable from a successful one to every caller, which is
+  // how this app could report "synced" while the cloud row never actually existed.
+  const { error } = await supabase
     .from('saves')
     .upsert({ user_id: userId, data: save, updated_at: new Date().toISOString() });
+  if (error) throw error;
 }
 
 // ---------------------------------------------------------------------------
