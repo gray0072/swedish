@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Landmark, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
+import { SECONDARY_NAV } from '@/components/layout/secondaryNav';
 import { useLanguage } from '@/store/settings';
 import { useAllLessonProgress, useDueReviewCount } from '@/store/progress';
 import { useCurrentEra, useOwnedBuildingCount, totalBuildingsCount } from '@/store/city';
@@ -77,13 +78,17 @@ export default function HomePage() {
         <span className="text-sm font-semibold text-falu dark:text-gold">{t('home.city.cta')} →</span>
       </Link>
 
+      {/* The way in to everything the header no longer carries (`secondaryNav.ts`), repeated
+          here so it is reachable from the first screen and not only from Topics. */}
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-center text-sm font-semibold text-falu dark:text-gold">
         <Link to="/tracks" className="hover:underline">
           {t('home.browseTracks')} →
         </Link>
-        <Link to="/stats" className="hover:underline">
-          {t('nav.stats')} →
-        </Link>
+        {SECONDARY_NAV.map(({ to, key }) => (
+          <Link key={to} to={to} className="hover:underline">
+            {t(key)} →
+          </Link>
+        ))}
       </div>
     </div>
   );

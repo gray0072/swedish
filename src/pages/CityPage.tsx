@@ -77,6 +77,24 @@ export default function CityPage() {
         <p className="card !border-l-4 !border-l-aurora text-sm">{t('city.eraIntro.future')}</p>
       )}
 
+      {/* A locked era is not a blank page: its buildings are listed read-only, so the XP that
+          opens it buys something the learner has already seen and wants. History cards stay
+          hidden — those are the reward for actually getting here. */}
+      {selectedEra && !unlocked && buildings.length > 0 && (
+        <section className="space-y-3">
+          <KurbitsDivider />
+          <div>
+            <h2 className="font-display text-lg font-semibold">{t('city.preview.title')}</h2>
+            <p className="mt-1 text-xs text-granite dark:text-birch/50">{t('city.preview.hint')}</p>
+          </div>
+          <div className="grid gap-3 opacity-80 sm:grid-cols-2 lg:grid-cols-3">
+            {buildings.map((b) => (
+              <BuildingCard key={b.id} building={b} preview />
+            ))}
+          </div>
+        </section>
+      )}
+
       {unlocked && selectedEra && (
         <>
           <EraFrame>{resolveLocalized(selectedEra.name, lang)}</EraFrame>

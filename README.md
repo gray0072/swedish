@@ -35,10 +35,11 @@ four are informed guesses ([SPEC.md](SPEC.md) §12.8).
 | ![The Green City](docs/screenshots/city-green.png)<br>**7. The Green City** | ![The Connected City](docs/screenshots/city-connected.png)<br>**8. The Connected City** | ![The Floating City](docs/screenshots/city-floating.png)<br>**9. The Floating City** |
 | ![The Star City](docs/screenshots/city-stellar.png)<br>**10. The Star City** | | |
 
-All of these are generated from the running app by `npm run screenshots`
-([scripts/screenshots.ts](scripts/screenshots.ts)) — it boots the dev server, seeds a
-throwaway finished save, and drives your installed Chrome. Add `-- city` or `-- eras` to
-redo only that half. Re-run it whenever the scene changes; never touch the PNGs by hand.
+Every shot above except the quiz one is generated from the running app by
+`npm run screenshots` ([scripts/screenshots.ts](scripts/screenshots.ts)) — it boots the dev
+server, seeds a throwaway finished save, and drives your installed Chrome. Add `-- pages` or
+`-- eras` to redo only that half. Re-run it whenever the scene or the chrome around it
+changes; never touch those PNGs by hand.
 
 ## Features
 

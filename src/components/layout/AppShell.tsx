@@ -1,14 +1,6 @@
 import { Suspense, useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import {
-  BarChart3,
-  BookOpen,
-  Home,
-  Landmark,
-  RotateCcw,
-  ScrollText,
-  Settings as SettingsIcon,
-} from 'lucide-react';
+import { BookOpen, Home, Landmark, Settings as SettingsIcon } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useCloudSync } from '@/store/useCloudSync';
@@ -77,15 +69,16 @@ function GithubMark({ className }: { className?: string }) {
 
 const REPO_URL = 'https://github.com/gray0072/swedish';
 
+/**
+ * The core loop, and nothing else: seven items overflowed the header row, and the three that
+ * are not part of the loop — review, stats, reference — now live on the Topics page and at the
+ * foot of the Home page instead (`secondaryNav.ts`). The same four items serve the desktop row
+ * and the mobile bottom bar.
+ */
 const navItems = [
   { to: '/', icon: Home, key: 'nav.home' as const, end: true },
   { to: '/tracks', icon: BookOpen, key: 'nav.tracks' as const, end: false },
-  { to: '/review', icon: RotateCcw, key: 'nav.review' as const, end: false },
   { to: '/city', icon: Landmark, key: 'nav.city' as const, end: false },
-  // Secondary destinations, not part of the core loop — desktop nav only so the mobile
-  // bottom bar (prime real estate) stays reserved for the five primary destinations.
-  { to: '/stats', icon: BarChart3, key: 'nav.stats' as const, end: false, desktopOnly: true },
-  { to: '/reference', icon: ScrollText, key: 'nav.reference' as const, end: false, desktopOnly: true },
   { to: '/settings', icon: SettingsIcon, key: 'nav.settings' as const, end: false },
 ];
 
@@ -148,9 +141,7 @@ export default function AppShell() {
           </div>
         </div>
         <nav className="flex justify-between border-t border-granite/10 sm:hidden">
-          {navItems
-            .filter((item) => !item.desktopOnly)
-            .map(({ to, icon: Icon, key, end }) => (
+          {navItems.map(({ to, icon: Icon, key, end }) => (
             <NavLink
               key={to}
               to={to}

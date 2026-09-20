@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { ScrollText } from 'lucide-react';
 import { useT } from '@/i18n';
+import { SECONDARY_NAV } from '@/components/layout/secondaryNav';
 import { useLanguage } from '@/store/settings';
 import { getTracks, getLessonsForLevel } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
@@ -15,15 +15,23 @@ export default function TracksPage() {
 
   return (
     <div className="space-y-8">
-      <div className="flex items-center justify-between">
+      {/* Review, stats and the reference used to be header tabs; the header could not hold
+          seven of them, so they live here — next to the reference link that was already here
+          (`secondaryNav.ts`). */}
+      <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
         <h1 className="text-2xl font-semibold">{t('tracks.title')}</h1>
-        <Link
-          to="/reference"
-          className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
-        >
-          <ScrollText size={15} aria-hidden="true" />
-          {t('tracks.referenceLink')}
-        </Link>
+        <nav className="flex flex-wrap items-center gap-x-4 gap-y-1">
+          {SECONDARY_NAV.map(({ to, icon: Icon, key }) => (
+            <Link
+              key={to}
+              to={to}
+              className="flex items-center gap-1.5 text-sm font-semibold text-falu hover:underline dark:text-gold"
+            >
+              <Icon size={15} aria-hidden="true" />
+              {t(key)}
+            </Link>
+          ))}
+        </nav>
       </div>
       {tracks.map((track) => (
         <section key={track.id}>

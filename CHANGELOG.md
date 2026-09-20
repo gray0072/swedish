@@ -680,3 +680,17 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   and every building at its cap, and drives the installed Chrome through `playwright-core`.
   The README's city shot was redone this way, and ten new ones added — one per era, each
   showing that era finished.
+- **A link to the repository** sits in the top-right corner of the header, next to the language
+  select: the GitHub mark, inlined as one SVG path rather than imported from `lucide-react`,
+  whose brand icons are deprecated upstream and due to be removed in v1.0.
+- **The header menu no longer overflows.** It held seven destinations and ran out of room, so
+  the three that are not part of the core loop — review, stats, reference — moved out of it.
+  They now sit as links in the Topics page header, beside the reference link that was already
+  there, and are repeated at the foot of the Home page; `secondaryNav.ts` is the one list both
+  render. The header and the mobile bottom bar are left with home, topics, Stockholm and
+  settings. No route changed — only the way in.
+- **A locked era now shows what it will bring.** Picking an era the learner has not unlocked
+  used to give a single "needs more XP" line and nothing else; it now lists that era's
+  buildings below it in a read-only variant of the building card — name, description, perk,
+  cost, level cap and what has to be built first, with no button to press. History cards stay
+  hidden: those remain the reward for getting there.

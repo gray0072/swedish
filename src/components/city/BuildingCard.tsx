@@ -11,7 +11,14 @@ import { buildingCostAt } from '@/city/economy';
 import { PerkLine } from './PerkDisplay';
 import { playBuild, playUpgrade } from '@/lib/sound';
 
-export default function BuildingCard({ building }: { building: Building }) {
+/**
+ * `preview` is the read-only variant shown for an era the learner has not unlocked yet
+ * (CityPage): same name, description and perk, but nothing to press — the cost is stated as
+ * plain text, because a button that can only ever be disabled reads as broken rather than as
+ * locked. Requirements still show: half of what makes a future era interesting is seeing the
+ * order things have to be built in.
+ */
+export default function BuildingCard({ building, preview = false }: { building: Building; preview?: boolean }) {
   const t = useT();
   const lang = useLanguage();
   const wallet = useWallet();
@@ -41,7 +48,24 @@ export default function BuildingCard({ building }: { building: Building }) {
       )}
       <PerkLine perk={building.perk} level={level} />
 
-      {missingRequirement ? (
+      {preview ? (
+        <div className="mt-1 space-y-1 text-xs text-granite/80 dark:text-birch/50">
+          <p className="font-semibold">
+            {t('city.cost')}: {formatNumber(cost)} 🪙
+            {building.maxLevel > 1 && (
+              <span className="font-normal">
+                {' '}
+                · {t('city.maxLevel')} {building.maxLevel}
+              </span>
+            )}
+          </p>
+          {missingRequirement && (
+            <p>
+              {t('city.requires')}: {resolveLocalized(getBuilding(missingRequirement)?.name, lang)}
+            </p>
+          )}
+        </div>
+      ) : missingRequirement ? (
         <p className="mt-1 text-xs text-granite/70 dark:text-birch/40">
           {t('city.requires')}: {resolveLocalized(getBuilding(missingRequirement)?.name, lang)}
         </p>

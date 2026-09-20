@@ -18,11 +18,11 @@ import { chromium, type Page } from 'playwright-core';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
 
 /**
- * `npm run screenshots` does everything; `-- city` or `-- eras` redoes only that half, which
- * matters because the citizens are mid-walk in every shot — re-running the whole set rewrites
- * ten PNGs that differ only in where the little figures happen to be standing.
+ * `npm run screenshots` does everything; `-- pages` or `-- eras` redoes only that half, which
+ * matters because the citizens are mid-walk in every era shot — re-running the whole set
+ * rewrites ten PNGs that differ only in where the little figures happen to be standing.
  */
-const only = process.argv[2] as 'city' | 'eras' | undefined;
+const only = process.argv[2] as 'pages' | 'eras' | undefined;
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(root, 'docs', 'screenshots');
@@ -114,7 +114,7 @@ async function main() {
     await page.goto(`${BASE}/#/city`, { waitUntil: 'networkidle' });
     await settle(page);
 
-    for (const era of only === 'city' ? [] : [...eras].sort((a, b) => a.order - b.order)) {
+    for (const era of only === 'pages' ? [] : [...eras].sort((a, b) => a.order - b.order)) {
       await page.getByRole('button', { name: era.name.en, exact: true }).click();
       await settle(page);
       await page.locator('.city-scene').screenshot({ path: join(outDir, `city-${era.id}.png`) });
@@ -131,6 +131,16 @@ async function main() {
       await page.waitForTimeout(200);
       await page.screenshot({ path: join(outDir, 'city.png') });
       console.log('wrote city.png');
+
+      // The topics list, shown with no lesson progress — its own page so it can have its own
+      // height. (`quiz.png`, the third README shot, still has to be taken by hand: it needs a
+      // quiz run in a particular state rather than a route and a save.)
+      const tracks = await browser.newPage({ viewport: { width: 1200, height: 820 }, deviceScaleFactor: 1 });
+      await tracks.goto(`${BASE}/#/tracks`, { waitUntil: 'networkidle' });
+      await tracks.waitForTimeout(400);
+      await tracks.screenshot({ path: join(outDir, 'tracks.png') });
+      await tracks.close();
+      console.log('wrote tracks.png');
     }
   } finally {
     await browser.close();
