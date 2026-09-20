@@ -1,6 +1,6 @@
 import type { GridCell } from './types';
 import { cellKey, toScreen } from './iso';
-import { makeSeededRandom, pointsToPath, wobblePath, type Point } from './wobble';
+import { closedSplinePath, makeSeededRandom, pointsToPath, type Point } from './wobble';
 
 /**
  * The walkable cell set and its terrain geometry. The island's shape is the one constant
@@ -110,8 +110,8 @@ export function pathToHub(cell: GridCell): GridCell[] {
 
 // ---------------------------------------------------------------------------
 // Terrain silhouette — the island polygon, identical in every era. Derived once from the
-// walkable set's outer boundary, then run through the woodcut wobble so the shoreline reads
-// as hand-carved rather than mechanically smooth.
+// walkable set's outer boundary, then jittered and rounded so the shoreline reads as a
+// coastline rather than as the polygon it is derived from.
 // ---------------------------------------------------------------------------
 
 function isBoundaryCell(cell: GridCell): boolean {
@@ -159,22 +159,73 @@ const boundaryCorners = ISLAND_CELLS.filter(isBoundaryCell).flatMap(diamondCorne
 const hullPoints = convexHull(boundaryCorners);
 const islandRng = makeSeededRandom(0xc17a); // "city" — stable across every load and render
 
-/** The island silhouette, world-space, wobbled once and reused by every era's terrain layer. */
-export const ISLAND_POLYGON_PATH: string = `${wobblePath([...hullPoints, hullPoints[0]], islandRng)} Z`;
+const CENTROID = {
+  x: hullPoints.reduce((sum, p) => sum + p.x, 0) / hullPoints.length,
+  y: hullPoints.reduce((sum, p) => sum + p.y, 0) / hullPoints.length,
+};
 
-/** A gentler inset copy of the silhouette, used for the cliff/wet-rock terrain bands. */
-export function insetPolygonPath(insetUnits: number, seedOffset: number): string {
-  const cx = hullPoints.reduce((sum, p) => sum + p.x, 0) / hullPoints.length;
-  const cy = hullPoints.reduce((sum, p) => sum + p.y, 0) / hullPoints.length;
-  const inset = hullPoints.map((p) => {
-    const dx = p.x - cx;
-    const dy = p.y - cy;
-    const length = Math.hypot(dx, dy) || 1;
-    const scale = Math.max(0, (length - insetUnits) / length);
-    return { x: cx + dx * scale, y: cy + dy * scale };
+/** Pushes a point toward (positive) or away from (negative) the silhouette's centroid. */
+function offsetFromCentroid(p: Point, units: number): Point {
+  const dx = p.x - CENTROID.x;
+  const dy = p.y - CENTROID.y;
+  const length = Math.hypot(dx, dy) || 1;
+  const scale = Math.max(0, (length - units) / length);
+  return { x: CENTROID.x + dx * scale, y: CENTROID.y + dy * scale };
+}
+
+/**
+ * The shoreline's control points: the hull's vertices plus one point per edge midpoint, each
+ * nudged radially by a seeded amount. The hull on its own is a hard-edged decagon and a
+ * coastline is not — the jitter breaks up its long straight runs, and `closedSplinePath`
+ * rounds what is left, so the island reads as a landmass instead of a game token.
+ */
+const SHORE_POINTS: Point[] = (() => {
+  const dense: Point[] = [];
+  for (let i = 0; i < hullPoints.length; i += 1) {
+    const a = hullPoints[i];
+    const b = hullPoints[(i + 1) % hullPoints.length];
+    dense.push(a, { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 });
+  }
+  return dense.map((p) => {
+    const dx = p.x - CENTROID.x;
+    const dy = p.y - CENTROID.y;
+    const scale = 1 + (islandRng() * 2 - 1) * 0.06;
+    return { x: CENTROID.x + dx * scale, y: CENTROID.y + dy * scale };
   });
+})();
+
+/** The island silhouette, world-space, derived once and reused by every era's terrain layer. */
+export const ISLAND_POLYGON_PATH: string = closedSplinePath(SHORE_POINTS);
+
+/**
+ * How far the rock below the grass is extruded downward, in world units. `Terrain` draws the
+ * same silhouette twice — once shifted down by this much in the cliff tone, once in place in
+ * the surface tone — so the island reads as a slab of rock sitting *in* the water rather than
+ * a flat sticker laid *on* it. `Water` puts its foam ring and shallows on the shifted copy,
+ * because that lower outline is where rock actually meets water.
+ */
+export const ISLAND_DEPTH = 26;
+
+/**
+ * World-space bounding box of the silhouette. `placement.ts` maps a building's percentage
+ * `position` into this box rather than into the whole 1200x900 frame, so the arrangement
+ * depends on the island alone and survives any future re-framing of sky and water.
+ */
+export const ISLAND_BOUNDS = (() => {
+  const xs = SHORE_POINTS.map((p) => p.x);
+  const ys = SHORE_POINTS.map((p) => p.y);
+  return { minX: Math.min(...xs), maxX: Math.max(...xs), minY: Math.min(...ys), maxY: Math.max(...ys) };
+})();
+
+/** A copy of the silhouette pushed toward its centroid — used for the cliff/wet-rock terrain
+ * bands, and, with a negative `insetUnits`, for the shallows ring `Water` draws just outside
+ * the shore. */
+export function insetPolygonPath(insetUnits: number, seedOffset: number): string {
   const rng = makeSeededRandom(0xc17a + seedOffset);
-  return `${wobblePath([...inset, inset[0]], rng)} Z`;
+  // Each band gets its own small jitter on top of the offset, so the cliff, the wet rock and
+  // the shallows never run exactly parallel to the shore the way a machine-drawn outline would.
+  const offset = SHORE_POINTS.map((p) => offsetFromCentroid(p, insetUnits + (rng() * 2 - 1) * 2));
+  return closedSplinePath(offset);
 }
 
 export { pointsToPath };

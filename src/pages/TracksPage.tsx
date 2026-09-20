@@ -45,7 +45,8 @@ export default function TracksPage() {
                 >
                   <p className="font-semibold">{resolveLocalized(level.title, lang)}</p>
                   <p className="mt-1 text-xs text-granite dark:text-birch/60">
-                    {lessons.length} {t('level.lessonsCount')}
+                    {passed > 0 ? `${passed} / ${lessons.length}` : lessons.length}{' '}
+                    {t('level.lessonsCount')}
                   </p>
                   {lessons.length > 0 && (
                     <div className="mt-2">

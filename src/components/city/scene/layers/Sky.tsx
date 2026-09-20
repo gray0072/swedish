@@ -1,3 +1,4 @@
+import { WATER_LINE } from '../iso';
 import type { SceneTheme } from '../types';
 
 const BIRD_CHEVRONS = [
@@ -28,7 +29,9 @@ export default function Sky({ theme, eraId, active }: { theme: SceneTheme; eraId
           <stop offset="100%" stopColor="var(--sky-1)" />
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="1200" height="620" fill={`url(#${gradId})`} />
+      {/* Down to the waterline plus a little, so the water painted on top of it never leaves
+          a hairline seam at the horizon. */}
+      <rect x="0" y="0" width="1200" height={WATER_LINE + 20} fill={`url(#${gradId})`} />
       <circle cx="940" cy={celestialY} r={isNight ? 22 : 30} fill={celestialFill} opacity={isNight ? 0.9 : 0.5} />
       {hasAurora && (
         <path

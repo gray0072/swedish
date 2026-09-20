@@ -7,7 +7,20 @@ import type { Footprint, GridCell } from './types';
 
 export const TILE_W = 96;
 export const TILE_H = 48;
-export const ORIGIN = { x: 600, y: 300 };
+/**
+ * Grid cell (0,0) centre. The y value is what seats the island *in* the water: the walkable
+ * set reaches 144 units above and 192 below this point, so the whole silhouette has to sit
+ * below `WATER_LINE` with room left over for the foreground water strip at the bottom edge.
+ */
+export const ORIGIN = { x: 600, y: 480 };
+
+/**
+ * The single horizon/waterline for the whole scene: sky above it, one continuous stretch of
+ * Mälaren from it down to the bottom of the frame, with the island floating in the middle of
+ * that water. Sky, Horizon, Water and the vessel routes all derive their geometry from this
+ * one number, so the sea can never detach from the shore again.
+ */
+export const WATER_LINE = 260;
 
 export interface ScreenPoint {
   x: number;

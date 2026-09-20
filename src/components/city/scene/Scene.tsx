@@ -5,7 +5,7 @@ import { buildingCostAt } from '@/city/economy';
 import { hasEraArt, loadEraArt, peekEraArt, peekEraFigures } from '../art/registry';
 import { iconFor } from '../icons';
 import type { AmbientEmitter, GridCell } from './types';
-import { compareDepth } from './iso';
+import { compareDepth, WATER_LINE } from './iso';
 import { assignCells } from './placement';
 import { buildPathGraph } from './island';
 import { DARK_THEMES, LIGHT_THEMES, themeCssVars } from './themes';
@@ -384,7 +384,13 @@ export default function Scene({
   const hasHarbour = buildings.some((b) => (levels[b.id] ?? 0) > 0 && art?.[b.id]?.harbour === true);
   const vesselRoutes: VesselRoute[] = useMemo(() => {
     if (!hasHarbour || !figures?.boat) return [];
-    return [{ cx: 600, cy: 760, rx: 520, ry: 60, lapSeconds: 30, phase: 0, hull: theme.material.timber, sail: theme.material.wall }];
+    // The route is a shallow ellipse in the *far* water, between the horizon and the island's
+    // back shore: this layer draws behind the terrain, so a boat crossing the front of the
+    // ellipse slips behind the island and back out the other side, which reads as sailing
+    // around it. A route in the foreground water would be swallowed by the island instead.
+    return [
+      { cx: 600, cy: WATER_LINE + 58, rx: 470, ry: 26, lapSeconds: 34, phase: 0, hull: theme.material.timber, sail: theme.material.wall },
+    ];
   }, [hasHarbour, figures?.boat, theme.material.timber, theme.material.wall]);
 
   return (

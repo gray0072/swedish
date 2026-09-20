@@ -60,9 +60,11 @@
 .wave-band--2 { animation-duration: 9s; animation-direction: reverse; }
 .wave-band--3 { animation-duration: 13s; }
 
+/* Exactly one wave period (`WAVE_PERIOD` in Water.tsx, world units = CSS px inside the
+   viewBox): any other distance restarts the loop mid-crest and the water visibly jumps. */
 @keyframes wave-scroll {
   from { transform: translateX(0); }
-  to { transform: translateX(-33.3333%); }
+  to { transform: translateX(-600px); }
 }
 
 .shoreline-foam {

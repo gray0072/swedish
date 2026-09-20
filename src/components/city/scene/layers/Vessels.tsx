@@ -91,7 +91,9 @@ const Vessels = forwardRef<VesselsHandle, { routes: VesselRoute[]; figures?: Era
                 strokeWidth="1.5"
                 strokeDasharray="3 3"
               />
-              {draw({ x: 0, y: 0, w: 28, hull: route.hull, sail: route.sail })}
+              {/* Small: these sail in the far water behind the island, so they have to read
+                  as distant next to the buildings standing on the near shore. */}
+              {draw({ x: 0, y: 0, w: 22, hull: route.hull, sail: route.sail })}
             </g>
           );
         })}

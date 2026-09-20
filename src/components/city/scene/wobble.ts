@@ -59,3 +59,28 @@ export function pointsToPath(points: Point[], close = false): string {
   if (close) d.push('Z');
   return d.join(' ');
 }
+
+/**
+ * A closed Catmull-Rom spline through `points`, emitted as cubic béziers. Used for the island
+ * silhouette: the walkable set's convex hull is a hard-edged decagon, and a coastline is not —
+ * running the hull through here turns it into a rounded, organic outline while keeping the
+ * shape (and therefore the shore-to-cell relationship) exactly where it was.
+ */
+export function closedSplinePath(points: Point[]): string {
+  if (points.length < 3) return pointsToPath(points, true);
+  const at = (i: number) => points[((i % points.length) + points.length) % points.length];
+  const d = [`M ${at(0).x.toFixed(2)} ${at(0).y.toFixed(2)}`];
+  for (let i = 0; i < points.length; i += 1) {
+    const p0 = at(i - 1);
+    const p1 = at(i);
+    const p2 = at(i + 1);
+    const p3 = at(i + 2);
+    // Standard Catmull-Rom -> Bézier control points (tension 1/6).
+    const c1 = { x: p1.x + (p2.x - p0.x) / 6, y: p1.y + (p2.y - p0.y) / 6 };
+    const c2 = { x: p2.x - (p3.x - p1.x) / 6, y: p2.y - (p3.y - p1.y) / 6 };
+    d.push(
+      `C ${c1.x.toFixed(2)} ${c1.y.toFixed(2)} ${c2.x.toFixed(2)} ${c2.y.toFixed(2)} ${p2.x.toFixed(2)} ${p2.y.toFixed(2)}`,
+    );
+  }
+  return `${d.join(' ')} Z`;
+}

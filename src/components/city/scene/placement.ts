@@ -1,6 +1,6 @@
 import type { Footprint, GridCell } from './types';
 import { cellKey, footprintCells, footprintsOverlap, screenToCell } from './iso';
-import { ISLAND_CELLS, isWalkable } from './island';
+import { ISLAND_BOUNDS, ISLAND_CELLS, isWalkable } from './island';
 
 /**
  * The placement fallback (CITY_VISUALS_TECH.md §2/§8, Phase 0). Content has no `cell` yet, so
@@ -12,11 +12,12 @@ import { ISLAND_CELLS, isWalkable } from './island';
  * this module only validates that it fits.
  */
 
-// The old flat backdrop treated `position.x/y` as percentages of its own box; re-using the
-// same reading here means buildings roughly keep their old relative arrangement instead of
-// jumping to unrelated corners of the island the moment the scene ships.
-const WORLD_W = 1200;
-const WORLD_H = 900;
+// The old flat backdrop treated `position.x/y` as percentages of its own box. That reading is
+// kept — buildings hold their relative arrangement — but the box is the island's own bounding
+// box rather than the whole frame, so the spread covers the shore and nothing depends on where
+// sky and water happen to sit.
+const SPAN_X = ISLAND_BOUNDS.maxX - ISLAND_BOUNDS.minX;
+const SPAN_Y = ISLAND_BOUNDS.maxY - ISLAND_BOUNDS.minY;
 
 export interface Placeable {
   id: string;
@@ -91,8 +92,8 @@ export function assignCells(items: Placeable[]): Map<string, Placement> {
       cell = item.cell;
     } else {
       const target = screenToCell({
-        x: (item.position.x / 100) * WORLD_W,
-        y: (item.position.y / 100) * WORLD_H,
+        x: ISLAND_BOUNDS.minX + (item.position.x / 100) * SPAN_X,
+        y: ISLAND_BOUNDS.minY + (item.position.y / 100) * SPAN_Y,
       });
       cell = nearestFreeCell(target, footprint, occupied);
     }

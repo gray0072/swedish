@@ -13,6 +13,22 @@ stands on: coordinates, layers, terrain and era colour.
 - Light comes from the **upper left** everywhere and never moves. It is what makes flat
   shapes read as solid.
 
+### Framing
+
+One horizon governs the whole picture: `WATER_LINE = 260` in `iso.ts`. Sky above it, one
+unbroken body of water from it down to `y = 900`, and a single island sitting *in* that water:
+
+```
+y =   0 … 260   sky, sun/moon, birds; the mainland ridge rises out of the far shore
+y = 260         WATER_LINE — the horizon, and the only place sky and water meet
+y = 260 … 336   far water: haze, fine wave bands, boats passing behind the island
+y = 336 … 672   the island (plus its rock slab); tall art overhangs upward into the sky
+y = 672 … 900   near water: the deepest tone, the largest waves, foreground rocks and reeds
+```
+
+Sky, water, horizon, the vessel routes and `ORIGIN.y` are all derived from `WATER_LINE`, so
+the sea can never come loose from the shore and leave the island hanging in mid-air.
+
 ## 2. The isometric grid
 
 Buildings stand on a 2:1 isometric grid, which is what turns "icons on a picture" into a
@@ -20,7 +36,7 @@ place with ground.
 
 ```
 TILE_W = 96, TILE_H = 48          // world units, 2:1
-ORIGIN = { x: 600, y: 300 }        // grid cell (0,0) centre
+ORIGIN = { x: 600, y: 480 }        // grid cell (0,0) centre — below WATER_LINE
 
 screenX = ORIGIN.x + (q - r) * TILE_W / 2
 screenY = ORIGIN.y + (q + r) * TILE_H / 2
@@ -44,9 +60,9 @@ can target layers rather than individual shapes.
 |---|---|---|---|
 | 0 | `sky` | Two-stop vertical era gradient | No |
 | 1 | `celestial` | Sun or moon disc; aurora band in the night eras | Very slow drift |
-| 2 | `horizon` | Mainland ridge, distant spires, three depth bands at 6 / 10 / 14 % opacity | Parallax 0 (fixed) |
-| 3 | `water` | Mälaren: base fill + 3 wave bands + shoreline foam | Wave scroll |
-| 4 | `vessels` | Boats and ferries on scripted routes | Yes |
+| 2 | `horizon` | Mainland ridge rising out of the far shore, three depth bands, base at `WATER_LINE` | Parallax 0 (fixed) |
+| 3 | `water` | Mälaren, `WATER_LINE` to the bottom edge: base + depth gradients + 3 wave bands + shallows and foam | Wave scroll |
+| 4 | `vessels` | Boats on a route in the far water, so they pass behind the island | Yes |
 | 5 | `terrain` | Island rock, grass, cliff edge, quays, paths, fields | No |
 | 6 | `plots` | Unbuilt building sites: dashed outline, post sign | Pulse when affordable |
 | 7 | `buildings` | Depth-sorted building instances and their shadows | Build-in, idle |
@@ -60,25 +76,35 @@ focus rings draw above everything.
 
 ## 4. Terrain
 
-- The island silhouette is the **same polygon in every era** — the existing Stadsholmen
-  path, re-drawn in world coordinates. Only fills and what stands on it change.
+- The island silhouette is the **same outline in every era** — the walkable set's convex hull,
+  jittered per vertex by a seeded PRNG and closed with a Catmull-Rom spline so it reads as a
+  coastline rather than as the polygon it comes from. Only fills and what stands on it change.
+- **The island has thickness.** The silhouette is drawn three times: a soft shadow cast on the
+  lake, a copy offset down by `ISLAND_DEPTH = 26` in the cliff tone (the rock face below the
+  grass), and the surface itself. That extruded sliver, plus the shallows ring `water` draws
+  around it, is what plants the island in the water instead of on top of it.
 - Three ground tones per era: top surface, a 1-cell cliff band at the shoreline, and the
-  wet rock strip at the waterline. Cliff band = surface tone darkened 14 %.
-- Shoreline, quay edges and path borders use the **woodcut wobble**: every long edge is a
-  path with ±0.6 unit jitter at ~18-unit intervals, generated once at module load from a
-  seeded PRNG so it is stable across renders but not mechanically straight.
+  wet rock strip at the waterline. Cliff band = surface tone darkened 14 %. A single gradient
+  from transparent (upper left) to the cliff tone (lower right) carries the fixed light.
+- Path borders use the **woodcut wobble**: every long edge is a path with ±0.6 unit jitter at
+  ~18-unit intervals, generated once at module load from a seeded PRNG so it is stable across
+  renders but not mechanically straight.
 - Paths connect building plots along grid edges and are the routes citizens walk
   ([CITY_VISUALS_LIFE.md §3](CITY_VISUALS_LIFE.md)). A path segment only draws once at least
   one of the two plots it joins is built.
 
 ## 5. Water
 
-- Base: era water colour at 100 %, plus a second two-stop gradient for depth near the horizon.
-- Three wave bands, each a repeating wobbled sine path, 60 units tall, scrolling horizontally
-  at 6 / 9 / 13 s per cycle in alternating directions. Scroll by `translateX` on the group,
-  with the path drawn 1.5× the viewBox width so the loop is seamless.
-- Shoreline foam: a short dashed white-at-25 % stroke hugging the island edge, with its
-  `stroke-dashoffset` animating over 7 s.
+- Base: era water colour at 100 % from `WATER_LINE` to the bottom edge, plus two gradients for
+  distance — the sky's horizon stop hazing the far water, the deep tone gathering toward the
+  viewer.
+- Three wave bands, each a repeating sine path, scrolling horizontally at 6 / 9 / 13 s per
+  cycle in alternating directions: fine and faint near the horizon, tallest in the foreground.
+  Scroll by `translateX` on the group, by **exactly one wave period** (600 units) and with the
+  path drawn wide enough to cover the frame at both ends, or the loop visibly jumps.
+- Shoreline: two outset copies of the silhouette at half the island's depth for the shallows,
+  and the foam — a short dashed white-at-25 % stroke — hugging the island's *lower* outline,
+  where rock actually meets water, with its `stroke-dashoffset` animating over 7 s.
 - Water sparkle: 12–20 tiny 2×2 diamonds at fixed positions, opacity looping 0 → 0.5 → 0 on
   staggered 3–5 s delays. Cheap, and it is most of what makes still water look alive.
 

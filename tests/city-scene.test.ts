@@ -5,10 +5,20 @@ import {
   depthOf,
   footprintCells,
   footprintsOverlap,
+  ORIGIN,
   screenToCell,
   toScreen,
+  WATER_LINE,
 } from '@/components/city/scene/iso';
-import { ISLAND_CELLS, ISLAND_HUB, isWalkable, neighborsOf, pathToHub } from '@/components/city/scene/island';
+import {
+  ISLAND_BOUNDS,
+  ISLAND_CELLS,
+  ISLAND_DEPTH,
+  ISLAND_HUB,
+  isWalkable,
+  neighborsOf,
+  pathToHub,
+} from '@/components/city/scene/island';
 import { assignCells, hasOverlaps } from '@/components/city/scene/placement';
 import { LIGHT_THEMES, DARK_THEMES } from '@/components/city/scene/themes';
 
@@ -21,7 +31,19 @@ describe('iso: toScreen / screenToCell round-trip', () => {
   });
 
   it('places the origin cell at ORIGIN', () => {
-    expect(toScreen({ q: 0, r: 0 })).toEqual({ x: 600, y: 300 });
+    expect(toScreen({ q: 0, r: 0 })).toEqual(ORIGIN);
+  });
+});
+
+describe('scene framing: the island floats in the water, not above it', () => {
+  it('keeps the whole silhouette below the waterline and inside the frame', () => {
+    // The regression this guards: with the island's screen bounds above `WATER_LINE`, the sea
+    // becomes a detached strip at the bottom of the picture and the island hangs in the sky.
+    expect(ISLAND_BOUNDS.minY).toBeGreaterThan(WATER_LINE);
+    // Room left for the rock slab and a stretch of foreground water below the near shore.
+    expect(ISLAND_BOUNDS.maxY + ISLAND_DEPTH).toBeLessThan(900 - 120);
+    expect(ISLAND_BOUNDS.minX).toBeGreaterThan(0);
+    expect(ISLAND_BOUNDS.maxX).toBeLessThan(1200);
   });
 });
 

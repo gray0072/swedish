@@ -41,8 +41,9 @@ footprint: z.object({ w: z.number().int(), h: z.number().int() }).default({ w: 1
 ```
 
 - `cell` is optional in the schema, and all 38 buildings now carry one. A building without
-  one is still placed by projecting its percentage `position` onto the nearest free island
-  cell — that fallback stays, so new content can be authored before its cell is picked.
+  one is still placed by projecting its percentage `position` across the island's bounding box
+  onto the nearest free island cell — that fallback stays, so new content
+  can be authored before its cell is picked.
 - `footprint` lives in content, not in the art file, because it is a placement fact the
   validator needs without importing TSX.
 - Nothing else in content changes. Art, materials, ambient emitters and work spots stay in
