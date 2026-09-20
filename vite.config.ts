@@ -58,5 +58,8 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./tests/setup.ts'],
+    // Scratch git worktrees under .kilo/ hold their own copy of tests/, which vitest would
+    // otherwise collect and run against this checkout's src — stale copies then "fail".
+    exclude: ['**/node_modules/**', '**/dist/**', '.kilo/**'],
   },
 });

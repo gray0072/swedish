@@ -13,7 +13,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate": "tsx scripts/validate-content.ts",
-    "new:lesson": "tsx scripts/new-lesson.ts"
+    "new:lesson": "tsx scripts/new-lesson.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
@@ -37,6 +38,7 @@
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",
     "jsdom": "^25.0.1",
+    "playwright-core": "^1.63.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.2",

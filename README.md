@@ -22,6 +22,24 @@ version.
 |---|---|---|
 | ![Tracks and levels list](docs/screenshots/tracks.png) | ![A quiz question with a typed answer](docs/screenshots/quiz.png) | ![The isometric city scene, Viking era](docs/screenshots/city.png) |
 
+### The ten eras
+
+One island, ten ages. Each shot is that era with every one of its buildings finished — what
+the map looks like just before the next era opens. The first six are real history; the last
+four are informed guesses ([SPEC.md](SPEC.md) §12.8).
+
+| | | |
+|---|---|---|
+| ![The Settlement](docs/screenshots/city-tribe.png)<br>**1. The Settlement** | ![The Viking Age](docs/screenshots/city-viking.png)<br>**2. The Viking Age** | ![The Middle Ages](docs/screenshots/city-medieval.png)<br>**3. The Middle Ages** |
+| ![The Age of Empire](docs/screenshots/city-empire.png)<br>**4. The Age of Empire** | ![The Industrial Age](docs/screenshots/city-industrial.png)<br>**5. The Industrial Age** | ![Modern Stockholm](docs/screenshots/city-modern.png)<br>**6. Modern Stockholm** |
+| ![The Green City](docs/screenshots/city-green.png)<br>**7. The Green City** | ![The Connected City](docs/screenshots/city-connected.png)<br>**8. The Connected City** | ![The Floating City](docs/screenshots/city-floating.png)<br>**9. The Floating City** |
+| ![The Star City](docs/screenshots/city-stellar.png)<br>**10. The Star City** | | |
+
+All of these are generated from the running app by `npm run screenshots`
+([scripts/screenshots.ts](scripts/screenshots.ts)) — it boots the dev server, seeds a
+throwaway finished save, and drives your installed Chrome. Add `-- city` or `-- eras` to
+redo only that half. Re-run it whenever the scene changes; never touch the PNGs by hand.
+
 ## Features
 
 | Feature | Description |

@@ -654,3 +654,29 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   two proofreading lessons, the referat chain) turned out to differ in content, so only
   their lines were sharpened to say how. Every level still holds exactly 50 items, and a
   check confirms all 262 written lessons are still referenced and nothing dangles.
+
+---
+
+## 2026-09-20 — The island put back in the water, and screenshots generated from the app
+
+- **The city scene's framing was broken and is now fixed.** The water was a strip across the
+  bottom third of the frame (`y = 600…900`) while the island lived at `y ≈ 156…492`, so the
+  island hung in the sky above a detached lake. One waterline, `WATER_LINE = 260` in `iso.ts`,
+  now governs the whole picture: sky above it, one unbroken body of water from it to the
+  bottom edge, and the island (`ORIGIN.y` moved 300 → 480) sitting in the middle of that
+  water. Sky, horizon, water and the boat routes all derive from that one number.
+- **The island reads as land now.** Its outline was the walkable set's convex hull — a hard
+  decagon; it is now that hull with per-vertex seeded jitter, closed with a Catmull-Rom
+  spline. It also has thickness: a shadow cast on the lake, a rock slab extruded down by
+  `ISLAND_DEPTH = 26`, the grass surface on top, and a shallows ring in the water around it.
+- **Water gained depth.** Distance haze at the far edge, a deep tone gathering toward the
+  viewer, and wave rows that grow from fine ripples at the horizon to the largest in the
+  foreground. The wave scroll was also jumping every cycle — it shifted 400 units against a
+  600-unit wave period; it now shifts exactly one period.
+- **Boats moved to the far water**, where they pass behind the island instead of sailing
+  through empty foreground that the island would have swallowed.
+- **`npm run screenshots`** (`scripts/screenshots.ts`) regenerates `docs/screenshots/` from
+  the running app: it boots the dev server, seeds a throwaway save with every era unlocked
+  and every building at its cap, and drives the installed Chrome through `playwright-core`.
+  The README's city shot was redone this way, and ten new ones added — one per era, each
+  showing that era finished.
