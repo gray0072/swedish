@@ -722,3 +722,10 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
     skipped at `off` as well.
 
   `prefers-reduced-motion` switches all of it off, as before.
+- **The README was redone for GitHub.** It opens with a banner, `docs/banner.png`, rendered
+  from `docs/banner.html` at 1280×640 so it also works as the repository's social preview.
+  Under the banner are links to the app and the main documents, CI and licence badges, and a
+  row of headline numbers. The screenshots sit in tables, and the ten eras in a single
+  five-wide grid. The feature list is brought up to date (ten eras rather than six, the
+  reference section, dialogues, perks, PWA), and the documents are listed in one table. Build,
+  cloud sync, screenshots and project structure moved into collapsible sections.
