@@ -62,7 +62,7 @@ works offline. Sign in with Google only if you want sync across devices.
 
 Each shot is an era with every one of its buildings finished — what the map looks like just
 before the next era opens. The first six are real history; the last four are informed
-guesses, and the app says so ([SPEC.md](SPEC.md) §12.8).
+guesses, and the app says so ([SPEC.md §12.8](specs/12-history.md)).
 
 <table>
   <tr>
@@ -160,10 +160,10 @@ them with the `_ru` suffix.
 
 | Document | What's in it |
 |---|---|
-| [SPEC.md](SPEC.md) 🇷🇺 | The product spec, which has the final say on design decisions |
-| [CURRICULUM.md](CURRICULUM.md) 🇷🇺 | The lesson-topic plan for every level; start here when picking what to write next |
-| [REFERENCE.md](REFERENCE.md) 🇷🇺 · [DIALOGUES.md](DIALOGUES.md) 🇷🇺 | Plans for the reference section and the dialogues |
-| [CITY_VISUALS.md](CITY_VISUALS.md) | How the city scene is built: grid, buildings, motion, life |
+| [SPEC.md](SPEC.md) 🇷🇺 | The product spec (an index of [specs/](specs/)), which has the final say on design decisions |
+| [CURRICULUM.md](specs/CURRICULUM.md) 🇷🇺 | The lesson-topic plan for every level; start here when picking what to write next |
+| [REFERENCE.md](specs/REFERENCE.md) 🇷🇺 · [DIALOGUES.md](specs/DIALOGUES.md) 🇷🇺 | Plans for the reference section and the dialogues |
+| [CITY_VISUALS.md](specs/CITY_VISUALS.md) | How the city scene is built: grid, buildings, motion, life |
 | [TODO.md](TODO.md) 🇷🇺 | Outstanding work, content gaps and known discrepancies |
 | [CHANGELOG.md](CHANGELOG.md) 🇷🇺 | Development log |
 | [AGENTS.md](AGENTS.md) | Rules for contributors, human or agent |
@@ -193,7 +193,7 @@ Progress works fully offline out of the box (`localStorage` + export/import). Si
 Google in Settings additionally syncs the same save file through a Supabase project — merged
 field by field (lessons, SRS items, buildings, wallet, streak, …) so progress made on two
 devices between syncs is combined rather than one side overwriting the other. Full scheme:
-[SPEC.md §7.1](SPEC.md#71-optional-cloud-sync--supabase).
+[SPEC.md §7.1](specs/07-progress-and-sync.md#71-optional-cloud-sync--supabase).
 
 1. Create a free [Supabase](https://supabase.com/) project.
 2. Run [supabase/schema.sql](supabase/schema.sql) once in its SQL editor — one `saves` table
@@ -234,6 +234,8 @@ those PNGs by hand.
 
 The banner at the top, [docs/banner.png](docs/banner.png), which is also the repository's
 social preview, is rendered from [docs/banner.html](docs/banner.html) at 1280×640.
+The link preview of the deployed app, [public/og-image.png](public/og-image.png), is rendered
+from [docs/og-image.html](docs/og-image.html) at 1200×630.
 
 </details>
 

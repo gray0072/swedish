@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Source of public/og-image.png (link preview for the deployed app, 1200x630). Render it at a 1200x630 viewport, DPR 1, after `npm run screenshots` has refreshed the city shot it uses. -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;background:#1f4852;font-family:Inter,sans-serif;color:#F6F2EA;position:relative;overflow:hidden}
+.city{position:absolute;left:267px;top:-153px;width:1141px;height:856px}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,#1b3f49 0%,#1b3f49 34%,rgba(27,63,73,.82) 46%,rgba(27,63,73,0) 64%),linear-gradient(0deg,rgba(20,48,56,.55),rgba(20,48,56,0) 30%)}
+.flag{position:absolute;top:0;left:0;right:0;height:8px;background:linear-gradient(90deg,#006aa7,#fecc00,#006aa7)}
+.left{position:absolute;left:68px;top:0;bottom:0;width:500px;display:flex;flex-direction:column;justify-content:center}
+.brand{display:flex;align-items:center;gap:16px;margin-bottom:26px}
+.mark{width:58px;height:58px}
+.se{font-weight:700;font-size:15px;letter-spacing:3px;color:#C8A24A;padding:6px 11px;border:1.5px solid #C8A24A88;border-radius:999px}
+h1{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:112px;line-height:.88;letter-spacing:-1px}
+.tag{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:40px;line-height:1.1;margin-top:16px;color:#E9D9A8}
+.sub{font-size:20px;line-height:1.5;color:#F6F2EAcc;margin-top:20px;max-width:440px}
+.url{position:absolute;left:68px;bottom:44px;display:flex;align-items:center;gap:10px;font-size:18px;font-weight:600;color:#F6F2EA;background:#F6F2EA1f;border:1px solid #F6F2EA38;padding:10px 18px 10px 14px;border-radius:999px}
+.url i{width:10px;height:10px;border-radius:50%;background:#7fd19b;box-shadow:0 0 0 4px #7fd19b33}
+.card{position:absolute;right:56px;bottom:52px;width:290px;background:#FDFBF7;color:#0E2438;border-radius:18px;padding:18px 20px;box-shadow:0 22px 50px rgba(8,24,30,.45);transform:rotate(-2deg)}
+.q{font-size:14px;color:#6b7278;font-weight:500}
+.a{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:38px;line-height:1.1;margin-top:4px;color:#0E2438}
+.a b{color:#7C3228}
+.ok{display:flex;gap:8px;margin-top:12px}
+.pill{font-size:14px;font-weight:700;padding:5px 11px;border-radius:999px;background:#2f7d4f1f;color:#2f7d4f}
+.pill.g{background:#C8A24A2e;color:#7a5d17}
+</style></head><body>
+<img class="city" src="screenshots/city-viking.png">
+<div class="shade"></div>
+<div class="flag"></div>
+<div class="left">
+<div class="brand">
+<svg class="mark" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#7C3228"/><path d="M8 20c1-6 4-9 8-9s7 3 8 9" stroke="#F6F2EA" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="16" cy="11" r="2.4" fill="#C8A24A"/></svg>
+<span class="se">LÄR DIG SVENSKA</span>
+</div>
+<h1>Swedish</h1>
+<div class="tag">Learn Swedish.<br>Build Stockholm.</div>
+<div class="sub">Five-minute lessons that pay for a city — from a Viking settlement to a city among the stars.</div>
+</div>
+<div class="url"><i></i>gray0072.github.io/swedish</div>
+<div class="card">
+<div class="q">"gå" in the supine?</div>
+<div class="a">jag har <b>gått</b></div>
+<div class="ok"><span class="pill">✓ Correct</span><span class="pill g">+10 XP · +5 kr</span></div>
+</div>
+</body></html>
