@@ -6,6 +6,17 @@ import { useStreak, useWallet } from '@/store/wallet';
 import { usePerks } from '@/store/city';
 import { formatNumber } from '@/lib/format';
 import { todayStr } from '@/store/persist';
+import { useCountUp } from '@/lib/useCountUp';
+
+/** A wallet figure that counts to its new value and swells once as it does. */
+function Counter({ value }: { value: number }) {
+  const shown = useCountUp(value);
+  return (
+    <dd className={'inline-block text-sm font-semibold' + (shown !== value ? ' animate-bump' : '')}>
+      {formatNumber(shown)}
+    </dd>
+  );
+}
 
 /**
  * The learner's current resources, shown identically on the home screen and the city map so
@@ -31,13 +42,13 @@ export default function WalletBar({ heading = false }: { heading?: boolean }) {
       <dl className="flex flex-wrap items-center gap-x-5 gap-y-2">
         <div className="flex items-center gap-1.5">
           <Star size={15} className="text-gold" aria-hidden="true" />
-          <dd className="text-sm font-semibold">{formatNumber(wallet.xp)}</dd>
+          <Counter value={wallet.xp} />
           <dt className="text-sm text-granite dark:text-birch/60">{t('wallet.xp')}</dt>
         </div>
 
         <div className="flex items-center gap-1.5">
           <span aria-hidden="true">🪙</span>
-          <dd className="text-sm font-semibold">{formatNumber(wallet.coins)}</dd>
+          <Counter value={wallet.coins} />
           <dt className="text-sm text-granite dark:text-birch/60">{t('wallet.coins')}</dt>
         </div>
 

@@ -240,7 +240,7 @@ export default function QuestionRenderer({
                 setOrderSeq(next);
                 onChange(next.length === question.tokens.length ? { kind: 'order', order: next } : null);
               }}
-              className="sv-word rounded-lg bg-falu/10 px-3 py-1.5 text-sm dark:bg-falu/25"
+              className="sv-word animate-pop-in rounded-lg bg-falu/10 px-3 py-1.5 text-sm dark:bg-falu/25"
             >
               {question.tokens[tokenIdx]}
             </button>
@@ -298,7 +298,7 @@ export default function QuestionRenderer({
                 className={
                   'sv-word block w-full rounded-lg border px-3 py-2 text-left text-sm transition-colors ' +
                   (matchedLeft.has(i)
-                    ? 'border-pine/40 bg-pine/10 opacity-60'
+                    ? 'animate-pop-in border-pine/40 bg-pine/10 opacity-60'
                     : activeLeft === i
                       ? 'border-falu bg-falu/10'
                       : 'border-granite/20 hover:border-falu/40 dark:border-white/15')
@@ -326,7 +326,7 @@ export default function QuestionRenderer({
                 className={
                   'block w-full rounded-lg border px-3 py-2 text-left text-sm transition-colors ' +
                   (matchedRight.has(originalIdx)
-                    ? 'border-pine/40 bg-pine/10 opacity-60'
+                    ? 'animate-pop-in border-pine/40 bg-pine/10 opacity-60'
                     : 'border-granite/20 hover:border-falu/40 dark:border-white/15')
                 }
               >

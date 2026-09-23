@@ -12,6 +12,35 @@ import { getBuildings } from '@/content/registry';
 import { buildingCostAt } from '@/city/economy';
 import { renderShareCard } from '@/lib/shareCard';
 import { playFanfare, playSessionEnd } from '@/lib/sound';
+import { useCountUp } from '@/lib/useCountUp';
+
+// Where the coins of a perfect run land, relative to the coin figure (SPEC §11.6, 1.2 s max).
+const COIN_THROWS = [
+  [-90, -70],
+  [-55, -110],
+  [-20, -85],
+  [15, -120],
+  [50, -90],
+  [85, -65],
+  [-70, -30],
+  [70, -35],
+];
+
+function CoinBurst() {
+  return (
+    <span aria-hidden="true" className="pointer-events-none absolute left-1/2 top-1/2">
+      {COIN_THROWS.map(([dx, dy], i) => (
+        <span
+          key={i}
+          className="absolute -ml-2 -mt-2 animate-coin-fly text-base opacity-0"
+          style={{ '--dx': `${dx}px`, '--dy': `${dy}px`, animationDelay: `${150 + i * 40}ms` } as React.CSSProperties}
+        >
+          🪙
+        </span>
+      ))}
+    </span>
+  );
+}
 
 export default function ResultPage() {
   const { levelId = '', slug = '' } = useParams();
@@ -27,6 +56,8 @@ export default function ResultPage() {
   const celebrated = useRef(false);
 
   const reward = (location.state as { reward?: RewardResult } | null)?.reward;
+  const shownXp = useCountUp(reward?.xp ?? 0, { from: 0, duration: 900 });
+  const shownCoins = useCountUp(reward?.coins ?? 0, { from: 0, duration: 900 });
 
   useEffect(() => {
     if (!reward) {
@@ -102,7 +133,7 @@ export default function ResultPage() {
 
       <div className="card">
         <PartyPopper
-          className={reward.passed ? 'mx-auto text-gold' : 'mx-auto text-granite'}
+          className={reward.passed ? 'mx-auto animate-bounce-in text-gold' : 'mx-auto text-granite'}
           size={40}
           aria-hidden="true"
         />
@@ -115,11 +146,12 @@ export default function ResultPage() {
 
         <div className="mt-4 flex justify-center gap-6">
           <div>
-            <p className="text-2xl font-bold text-gold">+{reward.xp}</p>
+            <p className="text-2xl font-bold tabular-nums text-gold">+{shownXp}</p>
             <p className="text-xs text-granite dark:text-birch/60">{t('result.xpEarned')}</p>
           </div>
-          <div>
-            <p className="text-2xl font-bold text-falu dark:text-gold">+{reward.coins}</p>
+          <div className="relative">
+            {reward.perfect && <CoinBurst />}
+            <p className="text-2xl font-bold tabular-nums text-falu dark:text-gold">+{shownCoins}</p>
             <p className="text-xs text-granite dark:text-birch/60">{t('result.coinsEarned')}</p>
           </div>
         </div>

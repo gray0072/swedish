@@ -80,10 +80,9 @@ export default function BuildingCard({ building, preview = false }: { building: 
             // buyBuilding returns false when the coins ran out between render and click, or
             // the building is already maxed — no sound for a purchase that didn't happen.
             if (!buyBuilding(building.id, cost, building.maxLevel)) return;
-            if (level === 0) {
-              playBuild();
-              celebrate();
-            } else playUpgrade();
+            if (level === 0) playBuild();
+            else playUpgrade();
+            celebrate();
           }}
         >
           {level === 0 ? t('city.build') : t('city.upgrade')} · {formatNumber(cost)} 🪙

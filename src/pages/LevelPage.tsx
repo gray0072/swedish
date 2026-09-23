@@ -41,8 +41,13 @@ export default function LevelPage() {
           const allPassed = group.lessons.every((l) => progress[l.meta.id]?.passed);
           const target = `/lesson/${levelId}/${first.meta.slug}`;
           return (
-            <li key={group.key} ref={index === firstOpenIndex ? firstOpenRef : undefined}>
-              <Link to={target} className="card flex items-center justify-between hover:border-falu/40">
+            <li
+              key={group.key}
+              ref={index === firstOpenIndex ? firstOpenRef : undefined}
+              className="animate-rise-in"
+              style={{ animationDelay: `${Math.min(index, 10) * 30}ms` }}
+            >
+              <Link to={target} className="card card-hover flex items-center justify-between hover:border-falu/40">
                 <div>
                   <p className="font-semibold">
                     {resolveLocalized(first.meta.title, lang)}

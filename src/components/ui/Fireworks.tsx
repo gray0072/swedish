@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { playFireworkBurst } from '@/lib/sound';
+import { useAppStore } from '@/store/appStore';
 
 /**
  * A full-screen fireworks show for a new building (BuildingCard). Anything can start one with
@@ -7,8 +8,8 @@ import { playFireworkBurst } from '@/lib/sound';
  * above everything and ignores the pointer, so the learner can keep building while it plays.
  *
  * Each shell's burst sound is played by the canvas at the moment it opens, so what you hear
- * matches what you see. With `prefers-reduced-motion` the show is skipped — only the build
- * chime (played by the card) remains.
+ * matches what you see. With `prefers-reduced-motion`, or the city motion setting at `off`,
+ * the show is skipped — only the build chime (played by the card) remains.
  */
 
 const EVENT = 'swedish:celebrate';
@@ -48,7 +49,8 @@ export default function Fireworks() {
 
   useEffect(() => {
     const start = () => {
-      if (!prefersReducedMotion()) setRun((n) => n + 1);
+      if (prefersReducedMotion() || useAppStore.getState().settings.cityMotion === 'off') return;
+      setRun((n) => n + 1);
     };
     window.addEventListener(EVENT, start);
     return () => window.removeEventListener(EVENT, start);
@@ -101,7 +103,7 @@ function Show({ onDone }: { onDone: () => void }) {
     };
 
     const burst = (r: Rocket) => {
-      const count = 50 + Math.floor(Math.random() * 40);
+      const count = 70 + Math.floor(Math.random() * 40);
       const speed = Math.min(width, height) * (0.25 + Math.random() * 0.15);
       // Some shells carry a second colour, so the sky is not one flat tint.
       const second = Math.random() < 0.4 ? COLORS[Math.floor(Math.random() * COLORS.length)] : r.color;
@@ -135,6 +137,8 @@ function Show({ onDone }: { onDone: () => void }) {
 
       ctx.clearRect(0, 0, width, height);
       ctx.globalCompositeOperation = 'lighter';
+      ctx.lineWidth = 3;
+      ctx.lineCap = 'round';
 
       for (let i = rockets.length - 1; i >= 0; i--) {
         const r = rockets[i];
@@ -159,11 +163,13 @@ function Show({ onDone }: { onDone: () => void }) {
         s.vy = s.vy * 0.985 + gravity * dt;
         s.x += s.vx * dt;
         s.y += s.vy * dt;
+        // Each spark is a short streak along its path, so a burst reads as trails, not dots.
         ctx.globalAlpha = Math.min(1, s.life / (s.maxLife * 0.6));
-        ctx.fillStyle = s.color;
+        ctx.strokeStyle = s.color;
         ctx.beginPath();
-        ctx.arc(s.x, s.y, 2.2, 0, Math.PI * 2);
-        ctx.fill();
+        ctx.moveTo(s.x - s.vx * 0.04, s.y - s.vy * 0.04);
+        ctx.lineTo(s.x, s.y);
+        ctx.stroke();
       }
       ctx.globalAlpha = 1;
       ctx.globalCompositeOperation = 'source-over';

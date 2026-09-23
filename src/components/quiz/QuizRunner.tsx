@@ -160,17 +160,20 @@ export default function QuizRunner({
       </div>
 
       <div className="card" aria-live="polite">
-        <QuestionRenderer
-          key={`${question.id}-${resetTick}`}
-          question={question}
-          disabled={phase === 'feedback'}
-          onChange={setDraft}
-          resetKey={resetTick}
-          eliminated={hint?.eliminated}
-        />
+        {/* A new question slides in; a retry of the same one does not (key is the id only). */}
+        <div key={question.id} className="animate-rise-in">
+          <QuestionRenderer
+            key={`${question.id}-${resetTick}`}
+            question={question}
+            disabled={phase === 'feedback'}
+            onChange={setDraft}
+            resetKey={resetTick}
+            eliminated={hint?.eliminated}
+          />
+        </div>
 
         {hint?.messageKey && (
-          <p className="mt-3 flex items-center gap-1.5 rounded-xl bg-gold/15 px-3 py-2 text-sm text-granite dark:text-birch/80">
+          <p className="mt-3 flex animate-rise-in items-center gap-1.5 rounded-xl bg-gold/15 px-3 py-2 text-sm text-granite dark:text-birch/80">
             <Lightbulb size={14} className="shrink-0 text-gold" aria-hidden="true" />
             {t(hint.messageKey, { value: hint.messageValue })}
           </p>
@@ -181,8 +184,8 @@ export default function QuizRunner({
             className={
               'mt-4 rounded-xl border p-3 text-sm ' +
               (feedback.correct
-                ? 'border-pine/30 bg-pine/10 text-pine dark:text-aurora'
-                : 'border-lingon/30 bg-lingon/10 text-lingon')
+                ? 'animate-pop-in border-pine/30 bg-pine/10 text-pine dark:text-aurora'
+                : 'animate-rise-in border-lingon/30 bg-lingon/10 text-lingon')
             }
           >
             <p className="font-semibold">

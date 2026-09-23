@@ -42,14 +42,15 @@ export default function TracksPage() {
             </p>
           )}
           <div className="grid gap-3 sm:grid-cols-2">
-            {track.levels.map((level) => {
+            {track.levels.map((level, index) => {
               const lessons = getLessonsForLevel(level.id);
               const passed = lessons.filter((l) => lessonsProgress[l.meta.id]?.passed).length;
               return (
                 <Link
                   key={level.id}
                   to={`/tracks/${track.id}/${level.id}`}
-                  className="card block hover:border-falu/40"
+                  className="card card-hover block animate-rise-in hover:border-falu/40"
+                  style={{ animationDelay: `${Math.min(index, 10) * 40}ms` }}
                 >
                   <p className="font-semibold">{resolveLocalized(level.title, lang)}</p>
                   <p className="mt-1 text-xs text-granite dark:text-birch/60">

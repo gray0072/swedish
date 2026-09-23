@@ -41,11 +41,45 @@ export default {
           '0%, 100%': { transform: 'rotate(-4deg)' },
           '50%': { transform: 'rotate(4deg)' },
         },
+        // Entrances (SPEC §11.6: calm, ease-out). Run with `backwards` fill, never `both`: a
+        // transform left on an element after it finishes would trap `position: fixed`
+        // descendants (the fireworks canvas) inside it.
+        // The end frames name no opacity, so they settle on the element's own (a matched pair
+        // sits at 60%) instead of flashing to full and dropping back.
+        'rise-in': {
+          '0%': { opacity: '0', transform: 'translateY(6px)' },
+          '100%': { transform: 'none' },
+        },
+        'pop-in': {
+          '0%': { opacity: '0', transform: 'scale(0.85)' },
+          '100%': { transform: 'none' },
+        },
+        'bounce-in': {
+          '0%': { opacity: '0', transform: 'scale(0.3)' },
+          '60%': { opacity: '1', transform: 'scale(1.12)' },
+          '100%': { opacity: '1', transform: 'none' },
+        },
+        // A value that just changed swells briefly — WalletBar's XP and coins.
+        bump: {
+          '0%, 100%': { transform: 'none' },
+          '40%': { transform: 'scale(1.18)' },
+        },
+        // A coin thrown out of the result card on a perfect run; ResultPage sets --dx/--dy.
+        'coin-fly': {
+          '0%': { opacity: '0', transform: 'translate(0, 0) scale(0.6)' },
+          '15%': { opacity: '1' },
+          '100%': { opacity: '0', transform: 'translate(var(--dx), var(--dy)) scale(1) rotate(200deg)' },
+        },
       },
       animation: {
         'aurora-sweep': 'aurora-sweep 1.2s ease-out',
         carve: 'carve 900ms ease-out',
         'dala-rock': 'dala-rock 1.6s ease-in-out infinite',
+        'rise-in': 'rise-in 220ms ease-out backwards',
+        'pop-in': 'pop-in 180ms ease-out backwards',
+        'bounce-in': 'bounce-in 520ms cubic-bezier(0.2, 0.8, 0.3, 1.2) backwards',
+        bump: 'bump 400ms ease-out',
+        'coin-fly': 'coin-fly 1.1s ease-out forwards',
       },
     },
   },

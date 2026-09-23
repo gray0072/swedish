@@ -11,6 +11,8 @@ export interface BuildingInstance {
   icon: IconKey;
   art?: BuildingArt;
   isHovered: boolean;
+  /** Just built or upgraded — plays `building-rise` once (Scene.tsx decides). */
+  rising?: boolean;
   /** This building's share of the era's ambient budget (`ambient.ts`), already truncated. */
   ambient?: AmbientEmitter[];
 }
@@ -117,6 +119,12 @@ export default function Buildings({
               renderAmbientEmitter(type, center.x, center.y - (levelArt?.height ?? 30) * 0.6, ambientActive, `${instance.id}-${i}`),
             )}
 
+            {/* Keyed by level so an upgrade remounts the art and the rise replays. */}
+            <g
+              key={instance.level}
+              className={instance.rising ? 'building-rise' : undefined}
+              style={instance.rising ? { transformOrigin: `${center.x}px ${center.y}px` } : undefined}
+            >
             {levelArt ? (
               // The scene applies the isometric placement; art draws in its own local space
               // with the footprint's front-bottom corner at the origin and **y pointing up**
@@ -132,6 +140,7 @@ export default function Buildings({
                 </svg>
               </g>
             )}
+            </g>
 
             {atMax && (
               <path

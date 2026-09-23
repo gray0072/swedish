@@ -701,10 +701,24 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   word-order tokens, the Swedish column of a match question, and multiple-choice options that
   are Swedish text. Listening questions stay silent on a pick — there, hearing each option
   would give the answer away.
-- **A new building gets fireworks.** Building something for the first time (not an upgrade)
-  launches a full-screen fireworks show of about ten seconds over the page, with a burst sound
+- **A new building gets fireworks.** Building something, or raising its level, launches a full-screen fireworks show of about ten seconds over the page, with a burst sound
   synthesized for each shell as it opens, panned to where it opened. The canvas ignores the
   pointer, so building can go on under it; `prefers-reduced-motion` skips the show and keeps
   only the build chime, and the sound setting mutes the bursts.
 - **Opening a course scrolls to where the learner left off** — the first topic not yet passed.
 - **Example sentences under vocabulary words are spoken on a tap.**
+- **Motion across the app**, kept to SPEC §11.6 — calm, short, ease-out:
+  - each page rises in on navigation, and the lists of courses and topics stagger in;
+  - cards that are links lift slightly under the pointer, and buttons press in on a tap;
+  - in a quiz the next question slides in, feedback and hints fade in, a correct answer pops,
+    and picked words and matched pairs pop into place — nothing is added as ornament;
+  - the result screen counts XP and coins up from zero, the party popper bounces in on a pass,
+    and a perfect run throws a handful of coins out of the coin figure (SPEC §10's coin-count
+    animation and §11.6's gold coins, both missing until now);
+  - XP and coins in the wallet bar count to their new value and swell once when they change;
+  - on the city map a building that has just been built or upgraded grows out of its plot
+    (§11.6's "the building carves itself in"). It runs at the `calm` motion setting too, since
+    it is a reaction rather than ambient motion, and is dropped at `off`. Fireworks are
+    skipped at `off` as well.
+
+  `prefers-reduced-motion` switches all of it off, as before.

@@ -26,8 +26,12 @@
   .card {
     @apply rounded-2xl border border-granite/15 bg-white/70 p-5 shadow-sm dark:border-white/10 dark:bg-midnight-surface/70;
   }
+  /* A card that is a link lifts a little under the pointer — paper picked up off the desk. */
+  .card-hover {
+    @apply transition duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md;
+  }
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-40;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition duration-150 ease-out active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-40 disabled:active:scale-100;
   }
   .btn-primary {
     @apply btn bg-falu text-birch hover:bg-falu/90;

@@ -1,5 +1,5 @@
 import { Suspense, useEffect } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { BookOpen, Home, Landmark, Settings as SettingsIcon } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
@@ -85,6 +85,7 @@ const navItems = [
 export default function AppShell() {
   useThemeEffect();
   const t = useT();
+  const { pathname } = useLocation();
   const touchDailyActivity = useAppStore((s) => s.touchDailyActivity);
   const claimDailyIncome = useAppStore((s) => s.claimDailyIncome);
   // Runs the actual sync effect once at the app root, independent of route changes.
@@ -158,9 +159,12 @@ export default function AppShell() {
         </nav>
       </header>
       <main className="mx-auto max-w-5xl px-4 py-6">
-        <Suspense fallback={<PageLoading />}>
-          <Outlet />
-        </Suspense>
+        {/* Keyed by path so every page change replays a short rise-in. */}
+        <div key={pathname} className="animate-rise-in">
+          <Suspense fallback={<PageLoading />}>
+            <Outlet />
+          </Suspense>
+        </div>
       </main>
     </div>
   );

@@ -38,6 +38,9 @@ import HitLayer, { type HitTarget } from './layers/HitLayer';
 import DevOverlay from './DevOverlay';
 import './city-scene.css';
 
+/** Length of the `building-rise` animation in `city-scene.css`. */
+const RISE_MS = 700;
+
 function scrollToBuilding(id: string) {
   document.getElementById(`building-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
@@ -173,6 +176,27 @@ export default function Scene({
   const prefersReducedMotion = usePrefersReducedMotion();
   const viewportWidth = useViewportWidth();
   const tier = resolveMotionTier(cityMotion, prefersReducedMotion);
+
+  // A building that just gained a level rises into place (SPEC §11.6) — a reaction, so it
+  // runs at `calm` too and only `off` drops it. `risingUntil` keeps the class on for the
+  // animation's whole length: re-renders during it (hover, agents) must not cut it short.
+  // Switching era leaves `levels` untouched, so a tab change never replays it.
+  const riseBaselineRef = useRef(levels);
+  const risingUntilRef = useRef(new Map<string, number>());
+  const now = Date.now();
+  if (tier !== 'off') {
+    for (const [id, level] of Object.entries(levels)) {
+      if (level > (riseBaselineRef.current[id] ?? 0) && !risingUntilRef.current.has(id)) {
+        risingUntilRef.current.set(id, now + RISE_MS);
+      }
+    }
+  }
+  useEffect(() => {
+    riseBaselineRef.current = levels;
+    const timer = setTimeout(() => risingUntilRef.current.clear(), RISE_MS);
+    return () => clearTimeout(timer);
+  }, [levels]);
+  const isRising = (id: string) => (risingUntilRef.current.get(id) ?? 0) > now;
   const figures = peekEraFigures(era.id);
 
   // Footprint has three possible sources, in precedence order: the content record (once the
@@ -257,6 +281,7 @@ export default function Scene({
         icon: iconFor(b.id),
         art: art?.[b.id],
         isHovered: hoveredId === b.id,
+        rising: isRising(b.id),
         ambient: ambientByBuilding.get(b.id),
       });
     } else {

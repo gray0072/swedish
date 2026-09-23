@@ -35,7 +35,7 @@ export default function HomePage() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         {nextLesson && (
-          <Link to={`/lesson/${nextLesson.meta.levels[0]}/${nextLesson.meta.slug}`} className="card block hover:border-falu/40">
+          <Link to={`/lesson/${nextLesson.meta.levels[0]}/${nextLesson.meta.slug}`} className="card card-hover block hover:border-falu/40">
             <p className="text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">
               {t('home.continue')}
             </p>
@@ -46,7 +46,7 @@ export default function HomePage() {
           </Link>
         )}
 
-        <Link to="/review" className="card block hover:border-falu/40">
+        <Link to="/review" className="card card-hover block hover:border-falu/40">
           <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">
             <RotateCcw size={13} aria-hidden="true" /> {t('home.dueReviews.title')}
           </p>
@@ -65,7 +65,7 @@ export default function HomePage() {
         </Link>
       </div>
 
-      <Link to="/city" className="card flex items-center justify-between hover:border-falu/40">
+      <Link to="/city" className="card card-hover flex items-center justify-between hover:border-falu/40">
         <div>
           <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">
             <Landmark size={13} aria-hidden="true" /> {t('home.city.title')}
