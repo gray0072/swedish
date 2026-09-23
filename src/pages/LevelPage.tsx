@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
@@ -15,6 +16,15 @@ export default function LevelPage() {
   const lessons = getLessonsForLevel(levelId);
   const groups = groupLessonsForList(lessons);
   const progress = useAllLessonProgress();
+  const firstOpenRef = useRef<HTMLLIElement>(null);
+  const firstOpenIndex = groups.findIndex((g) => !g.lessons.every((l) => progress[l.meta.id]?.passed));
+
+  // Opening a course lands on the first topic not yet passed. Runs once per course, not on
+  // every progress change, so it never yanks the list while the learner is scrolling it.
+  useEffect(() => {
+    if (firstOpenIndex > 0) firstOpenRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [levelId]);
 
   if (!level) return <NotFoundPage />;
 
@@ -26,12 +36,12 @@ export default function LevelPage() {
       <h1 className="text-2xl font-semibold">{resolveLocalized(level.title, lang)}</h1>
 
       <ul className="space-y-2">
-        {groups.map((group) => {
+        {groups.map((group, index) => {
           const first = group.lessons[0];
           const allPassed = group.lessons.every((l) => progress[l.meta.id]?.passed);
           const target = `/lesson/${levelId}/${first.meta.slug}`;
           return (
-            <li key={group.key}>
+            <li key={group.key} ref={index === firstOpenIndex ? firstOpenRef : undefined}>
               <Link to={target} className="card flex items-center justify-between hover:border-falu/40">
                 <div>
                   <p className="font-semibold">

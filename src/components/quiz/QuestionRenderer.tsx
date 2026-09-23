@@ -20,6 +20,11 @@ interface Props {
 
 const optionLetter = ['1', '2', '3', '4', '5', '6'];
 
+/** A plain-string choice is Swedish unless it is written in Cyrillic (translation choices). */
+function swedishChoiceText(choice: Choice): string | null {
+  return typeof choice === 'string' && !/[Ѐ-ӿ]/.test(choice) ? choice : null;
+}
+
 function McChoices({
   choices,
   selected,
@@ -27,6 +32,7 @@ function McChoices({
   disabled,
   lang,
   eliminated = [],
+  speak = false,
 }: {
   choices: Choice[];
   selected: number | null;
@@ -34,6 +40,8 @@ function McChoices({
   disabled: boolean;
   lang: ReturnType<typeof useLanguage>;
   eliminated?: number[];
+  /** Pronounce a Swedish choice when it is picked. Off for `listen`, where it would give the answer away. */
+  speak?: boolean;
 }) {
   return (
     <div className="grid gap-2 sm:grid-cols-2">
@@ -44,7 +52,11 @@ function McChoices({
           key={i}
           type="button"
           disabled={disabled || isOut}
-          onClick={() => onSelect(i)}
+          onClick={() => {
+            const sv = speak ? swedishChoiceText(choice) : null;
+            if (sv) speakSwedish(sv);
+            onSelect(i);
+          }}
           className={
             'flex items-center gap-2 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-colors ' +
             (isOut
@@ -111,6 +123,7 @@ export default function QuestionRenderer({
           disabled={disabled}
           lang={lang}
           eliminated={eliminated}
+          speak
           onSelect={(i) => {
             setMcChoice(i);
             onChange({ kind: 'mc', choiceIndex: i });
@@ -210,7 +223,6 @@ export default function QuestionRenderer({
   }
 
   if (question.type === 'order') {
-    const remaining = question.tokens.map((_, i) => i).filter((i) => !orderSeq.includes(i));
     return (
       <div>
         <p className="mb-4 text-lg font-medium">{resolveLocalized(question.prompt, lang)}</p>
@@ -235,21 +247,32 @@ export default function QuestionRenderer({
           ))}
         </div>
         <div className="flex flex-wrap gap-2">
-          {remaining.map((tokenIdx) => (
+          {/* Every token keeps its slot in the pool: a picked one leaves an invisible
+              placeholder of the same size, so the rest never shift under the next tap. */}
+          {question.tokens.map((token, tokenIdx) => {
+            const picked = orderSeq.includes(tokenIdx);
+            return (
             <button
               key={tokenIdx}
               type="button"
-              disabled={disabled}
+              disabled={disabled || picked}
+              aria-hidden={picked || undefined}
+              tabIndex={picked ? -1 : undefined}
               onClick={() => {
+                speakSwedish(token);
                 const next = [...orderSeq, tokenIdx];
                 setOrderSeq(next);
                 onChange(next.length === question.tokens.length ? { kind: 'order', order: next } : null);
               }}
-              className="sv-word rounded-lg border border-granite/25 px-3 py-1.5 text-sm hover:border-falu/50 dark:border-white/15"
+              className={
+                'sv-word rounded-lg border border-granite/25 px-3 py-1.5 text-sm hover:border-falu/50 dark:border-white/15' +
+                (picked ? ' invisible' : '')
+              }
             >
-              {question.tokens[tokenIdx]}
+              {token}
             </button>
-          ))}
+            );
+          })}
         </div>
       </div>
     );
@@ -268,7 +291,10 @@ export default function QuestionRenderer({
                 key={i}
                 type="button"
                 disabled={disabled || matchedLeft.has(i)}
-                onClick={() => setActiveLeft(i)}
+                onClick={() => {
+                  speakSwedish(sv);
+                  setActiveLeft(i);
+                }}
                 className={
                   'sv-word block w-full rounded-lg border px-3 py-2 text-left text-sm transition-colors ' +
                   (matchedLeft.has(i)

@@ -694,3 +694,17 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   buildings below it in a read-only variant of the building card — name, description, perk,
   cost, level cap and what has to be built first, with no button to press. History cards stay
   hidden: those remain the reward for getting there.
+- **Word-order questions keep the pool still.** Tapping a word used to remove it from the list,
+  so every word after it jumped one place left; it now leaves an invisible placeholder of the
+  same size, and the rest stay where the learner saw them.
+- **Picked Swedish words are spoken.** In a test, a Swedish word is pronounced as it is chosen:
+  word-order tokens, the Swedish column of a match question, and multiple-choice options that
+  are Swedish text. Listening questions stay silent on a pick — there, hearing each option
+  would give the answer away.
+- **A new building gets fireworks.** Building something for the first time (not an upgrade)
+  launches a full-screen fireworks show of about ten seconds over the page, with a burst sound
+  synthesized for each shell as it opens, panned to where it opened. The canvas ignores the
+  pointer, so building can go on under it; `prefers-reduced-motion` skips the show and keeps
+  only the build chime, and the sound setting mutes the bursts.
+- **Opening a course scrolls to where the learner left off** — the first topic not yet passed.
+- **Example sentences under vocabulary words are spoken on a tap.**

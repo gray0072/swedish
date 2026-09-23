@@ -13,6 +13,7 @@ import EraFrame from '@/components/ui/EraFrame';
 import KurbitsDivider from '@/components/ui/KurbitsDivider';
 import WalletBar from '@/components/ui/WalletBar';
 import PerkPanel from '@/components/city/PerkDisplay';
+import Fireworks from '@/components/ui/Fireworks';
 
 export default function CityPage() {
   const t = useT();
@@ -34,6 +35,7 @@ export default function CityPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-semibold">{t('city.title')}</h1>
+      <Fireworks />
 
       <WalletBar />
       <PerkPanel compact />

@@ -2,6 +2,7 @@ import type { VocabItem } from '@/content/schema';
 import { resolveLocalized, type StudyLanguage } from '@/content/schema';
 import { wordForms } from '@/content/forms';
 import AudioButton from './AudioButton';
+import { speakSwedish } from '@/lib/tts';
 import { useT } from '@/i18n';
 
 function GenderTag({ gender }: { gender: 'en' | 'ett' | null | undefined }) {
@@ -59,7 +60,15 @@ export default function VocabTable({ items, lang }: { items: VocabItem[]; lang: 
           {item.example && (
             <div className="mt-2 flex items-start gap-1.5 border-t border-granite/10 pl-8 pt-2 text-xs text-granite dark:border-white/10 dark:text-birch/60">
               <span className="italic">
-                {t('lesson.vocab.example')}: {item.example.sv}
+                {t('lesson.vocab.example')}:{' '}
+                <button
+                  type="button"
+                  onClick={() => speakSwedish(item.example!.sv)}
+                  title={`Lyssna: ${item.example.sv}`}
+                  className="sv-word text-left italic underline decoration-dotted decoration-granite/40 underline-offset-2 hover:text-falu dark:decoration-birch/30 dark:hover:text-gold"
+                >
+                  {item.example.sv}
+                </button>
               </span>
             </div>
           )}

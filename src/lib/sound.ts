@@ -152,3 +152,65 @@ export function playSessionEnd(): void {
     { freq: A5, at: 0.02, len: 0.5, gain: 0.05 },
   ]);
 }
+
+let noiseBuffer: AudioBuffer | null = null;
+
+function whiteNoise(ac: AudioContext): AudioBuffer {
+  if (noiseBuffer && noiseBuffer.sampleRate === ac.sampleRate) return noiseBuffer;
+  const buffer = ac.createBuffer(1, Math.floor(ac.sampleRate * 1.5), ac.sampleRate);
+  const data = buffer.getChannelData(0);
+  for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+  return (noiseBuffer = buffer);
+}
+
+/**
+ * One firework shell bursting: a soft thump of filtered noise with a crackling tail. Played by
+ * the build celebration (`Fireworks.tsx`) at the moment each shell opens on screen, so sound
+ * and picture stay in step. `pan` (-1…1) follows where on the screen the burst happened.
+ */
+export function playFireworkBurst(pan = 0): void {
+  if (!useAppStore.getState().settings.sound) return;
+  const ac = audioContext();
+  if (!ac) return;
+
+  const start = ac.currentTime + 0.01;
+  let out: AudioNode = ac.destination;
+  if (typeof ac.createStereoPanner === 'function') {
+    const panner = ac.createStereoPanner();
+    panner.pan.value = Math.max(-1, Math.min(1, pan));
+    panner.connect(ac.destination);
+    out = panner;
+  }
+
+  // The boom: low-passed noise with a quick decay.
+  const boom = ac.createBufferSource();
+  boom.buffer = whiteNoise(ac);
+  const lowpass = ac.createBiquadFilter();
+  lowpass.type = 'lowpass';
+  lowpass.frequency.value = 500 + Math.random() * 300;
+  const boomEnv = ac.createGain();
+  boomEnv.gain.setValueAtTime(0.0001, start);
+  boomEnv.gain.exponentialRampToValueAtTime(0.22, start + 0.01);
+  boomEnv.gain.exponentialRampToValueAtTime(0.0001, start + 0.7);
+  boom.connect(lowpass).connect(boomEnv).connect(out);
+  boom.start(start);
+  boom.stop(start + 0.75);
+
+  // The crackle: a scatter of tiny high-passed clicks as the stars burn out.
+  const crackles = 10 + Math.floor(Math.random() * 10);
+  for (let i = 0; i < crackles; i++) {
+    const at = start + 0.25 + Math.random() * 0.9;
+    const click = ac.createBufferSource();
+    click.buffer = whiteNoise(ac);
+    const highpass = ac.createBiquadFilter();
+    highpass.type = 'highpass';
+    highpass.frequency.value = 2500 + Math.random() * 2500;
+    const env = ac.createGain();
+    env.gain.setValueAtTime(0.0001, at);
+    env.gain.exponentialRampToValueAtTime(0.03 + Math.random() * 0.03, at + 0.003);
+    env.gain.exponentialRampToValueAtTime(0.0001, at + 0.04);
+    click.connect(highpass).connect(env).connect(out);
+    click.start(at, Math.random());
+    click.stop(at + 0.05);
+  }
+}
