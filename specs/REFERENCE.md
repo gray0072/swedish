@@ -9,12 +9,12 @@ without rebuilding the context.
 
 The dialogue catalogue is large enough to live on its own: see [DIALOGUES.md](DIALOGUES.md).
 A Russian translation of this file is [REFERENCE_ru.md](REFERENCE_ru.md) and must be kept in
-sync ([AGENTS.md](AGENTS.md)).
+sync ([AGENTS.md](../AGENTS.md)).
 
 ## 1. What it replaces
 
 `content/grammar/` holds three articles — word order, en/ett, verb groups 1–4 — written in
-Russian only, which [AGENTS.md](AGENTS.md) calls a bug. They are not deleted: they are the
+Russian only, which [AGENTS.md](../AGENTS.md) calls a bug. They are not deleted: they are the
 seed of a much bigger section, rewritten in English with a `_ru` translation beside them, and
 the folder is renamed to `content/reference/`, because the section is no longer only grammar.
 

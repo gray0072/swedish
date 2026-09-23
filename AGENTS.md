@@ -1,9 +1,11 @@
 # AGENTS.md
 
 Working agreements for anyone — human or agent — contributing to this repository.
-Product spec: [SPEC.md](SPEC.md). Lesson plan: [CURRICULUM.md](CURRICULUM.md). Plan for the
-reference section: [REFERENCE.md](REFERENCE.md) and [DIALOGUES.md](DIALOGUES.md). Plan for
-the city illustration: [CITY_VISUALS.md](CITY_VISUALS.md).
+Product spec: [SPEC.md](SPEC.md) — an index; each of its sections is a file in
+[specs/](specs/). Lesson plan: [CURRICULUM.md](specs/CURRICULUM.md). Plan for the
+reference section: [REFERENCE.md](specs/REFERENCE.md) and [DIALOGUES.md](specs/DIALOGUES.md).
+Plan for the city illustration: [CITY_VISUALS.md](specs/CITY_VISUALS.md). Every planning and
+spec document lives in `specs/`; `SPEC.md` stays at the root as the table of contents.
 
 ## Language
 
@@ -11,10 +13,11 @@ the city illustration: [CITY_VISUALS.md](CITY_VISUALS.md).
 app interface. Write in English first; a translation is optional and always secondary.
 
 - **Documents.** The canonical file has no language suffix and is written in English:
-  `SPEC.md`, `README.md`, `TODO.md`, `CHANGELOG.md`, `CURRICULUM.md`,
-  `REFERENCE.md`, `DIALOGUES.md`. A Russian
+  `SPEC.md`, `README.md`, `TODO.md`, `CHANGELOG.md`, `specs/CURRICULUM.md`,
+  `specs/REFERENCE.md`, `specs/DIALOGUES.md`, `specs/08-gamification.md`. A Russian
   translation of a document lives next to it with the **`_ru` suffix**:
-  `SPEC_ru.md`, `TODO_ru.md`, `CHANGELOG_ru.md`, `CURRICULUM_ru.md`. No other
+  `SPEC_ru.md`, `TODO_ru.md`, `CHANGELOG_ru.md`, `specs/CURRICULUM_ru.md`,
+  `specs/08-gamification_ru.md`. No other
   language suffix is in use; there is no `_en` suffix, because English is the default.
 - **Keeping pairs in sync.** When a document changes, update the English file and its
   `_ru` translation in the same commit. If a `_ru` file does not exist for a document,

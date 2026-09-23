@@ -1,7 +1,7 @@
 # Curriculum — lessons by level
 
 This is a programme document (not abstract design, but a concrete list of lessons) that
-lives next to [SPEC.md](SPEC.md)/[SPEC_ru.md](SPEC_ru.md). It exists so that **a new
+lives next to [SPEC.md](../SPEC.md)/[SPEC_ru.md](../SPEC_ru.md). It exists so that **a new
 session can start straight from it**: open the file, see which topics are already done and
 which are queued, and start writing content without rebuilding the context from scratch.
 

@@ -4,7 +4,7 @@ A programme document, like [CURRICULUM.md](CURRICULUM.md), for the third surface
 reference section described in [REFERENCE.md](REFERENCE.md) §2. It lists the scenes to write,
 the format they are written in, and the rules that keep them worth reading. A Russian
 translation lives in [DIALOGUES_ru.md](DIALOGUES_ru.md) and must be kept in sync
-([AGENTS.md](AGENTS.md)).
+([AGENTS.md](../AGENTS.md)).
 
 ## 1. Why a dialogue is not a lesson
 

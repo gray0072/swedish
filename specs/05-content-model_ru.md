@@ -1,0 +1,241 @@
+# 5. Модель данных контента
+
+> Часть технического задания — оглавление в [SPEC_ru.md](../SPEC_ru.md).
+> Английская версия — [05-content-model.md](05-content-model.md), обе должны оставаться синхронными.
+
+Все типы описаны через Zod в `src/content/schema.ts` и экспортируются как выведенные TS-типы.
+
+## 5.1 Треки и уровни — `content/tracks.json`
+
+```jsonc
+{
+  "tracks": [
+    {
+      "id": "sfi",
+      "title": { "ru": "SFI", "sv": "Utbildning i svenska för invandrare" },
+      "note": { "ru": "Курсы A–D — официальные названия SFI, они собираются в три studievägar." },
+      "levels": [
+        { "id": "sfi-a", "title": { "ru": "SFI kurs A (≈ до A1)" }, "order": 1 },
+        { "id": "sfi-b", "title": { "ru": "SFI kurs B (≈ A1)" }, "order": 2 },
+        { "id": "sfi-c", "title": { "ru": "SFI kurs C (≈ A1+)" }, "order": 3 },
+        { "id": "sfi-d", "title": { "ru": "SFI kurs D (≈ A2)" }, "order": 4 }
+      ]
+    },
+    {
+      "id": "sva-grund",
+      "title": { "ru": "SVA — grundläggande nivå", "sv": "Svenska som andraspråk, grundläggande nivå" },
+      "note": { "ru": "Курс komvux на 700 poäng из четырёх delkurser; идёт после SFI kurs D." },
+      "levels": [
+        { "id": "sva-grund-1", "title": { "ru": "SVA grund delkurs 1 (≈ A2+)" }, "order": 1 },
+        { "id": "sva-grund-2", "title": { "ru": "SVA grund delkurs 2 (≈ B1)" }, "order": 2 },
+        { "id": "sva-grund-3", "title": { "ru": "SVA grund delkurs 3 (≈ B1)" }, "order": 3 },
+        { "id": "sva-grund-4", "title": { "ru": "SVA grund delkurs 4 (≈ B1+)" }, "order": 4 }
+      ]
+    }
+  ]
+}
+```
+
+`LocalizedString` = `{ ru?: string; en?: string; sv?: string }`. Порядок разрешения при выводе:
+текущий язык обучения (`ru` или `en`) → второй из них → `sv` → первый доступный ключ.
+
+Ключ `sv` внутри `LocalizedString` — это *контент* (шведские названия, атмосферные фразы),
+а не шведский интерфейс: в UI поставляются только `ru` и `en`.
+
+## 5.2 Метаданные урока — `content/lessons/<level>/<slug>/lesson.json`
+
+```jsonc
+{
+  "id": "sfi-a/greetings",
+  "slug": "greetings",
+  "title": { "sv": "Hälsningar", "ru": "Приветствия", "en": "Greetings" },
+  "summary": { "ru": "Как здороваться и прощаться по-шведски." },
+  "kind": "vocab",                       // "vocab" | "grammar" | "phrases" | "mixed"
+  "levels": ["sfi-a"],                   // ровно один уровень; совпадает с папкой
+  "tags": ["everyday", "speaking"],
+  "estimatedMinutes": 5,                 // ЖЁСТКИЙ ПОТОЛОК: 5. Длиннее — делить на части
+  "part": null,                          // или { "series": "food", "index": 1, "of": 3 }
+  "order": 10,                           // подсказка сортировки внутри основного уровня
+  "prerequisites": [],                   // id уроков, желательных до этого (мягкое ограничение)
+  "xp": { "base": 100 },                 // XP за первое прохождение
+  "quiz": { "questionsPerRun": 10, "passScore": 7 },
+  "cityUnlock": null                     // id здания, которое открывает этот урок (опционально)
+}
+```
+
+**Правило пяти минут.** Урок должен проходиться примерно за пять минут: до ~400 слов теории и
+до 25 слов в словаре плюс тест из 10 вопросов. Тема, которая не помещается, делится на серию
+частей, каждая из которых — обычный самостоятельный урок:
+
+```
+content/lessons/sfi-b/food-1/   → { "part": { "series": "food", "index": 1, "of": 3 } }
+content/lessons/sfi-b/food-2/   → { "part": { "series": "food", "index": 2, "of": 3 } }
+content/lessons/sfi-b/food-3/   → { "part": { "series": "food", "index": 3, "of": 3 } }
+```
+
+В списке уроков части показываются одной сгруппированной карточкой («Еда · 3 части») с общим
+кольцом прогресса, а после завершения части экран результата сразу предлагает следующую.
+При этом у каждой части свой пул, свои XP и своё состояние прохождения — серия это способ
+отображения, а не единица работы.
+
+## 5.3 Теория — `theory.md`
+
+Обычный Markdown. Держать до ~400 слов. Дополнительно поддерживается:
+
+- Таблицы (GFM) для спряжений и склонений.
+- Блоки с языком `example` для пар предложений:
+
+````markdown
+```example
+Hej! — Hi!
+God morgon! — Good morning!
+```
+````
+
+К каждой шведской строке, отрисованной из теории, автоматически добавляется кнопка озвучки.
+
+Необязательный файл `theory_ru.md` рядом с ним несёт русский перевод. `LessonPage`
+показывает `theory_ru.md`, когда переключатель языка обучения стоит на русском, и
+откатывается на `theory.md`, если существует только один из двух файлов — так что урок
+может обойтись теорией только на английском (дефолт) или иметь оба языка.
+
+## 5.4 Словарь — `vocab.json`
+
+```jsonc
+{
+  "items": [
+    {
+      "id": "hej",
+      "sv": "hej",
+      "translations": { "ru": "привет", "en": "hi" },
+      "pos": "interjection",              // noun | verb | adj | adv | pron | prep | phrase | ...
+      "gender": null,                     // "en" | "ett" | null  (только существительные)
+      "forms": null,                      // см. ниже
+      "example": {
+        "sv": "Hej, hur mår du?",
+        "ru": "Привет, как дела?"
+      },
+      "note": { "ru": "Универсальное приветствие, подходит в любой ситуации." }
+    },
+    {
+      "id": "bok",
+      "sv": "bok",
+      "translations": { "ru": "книга", "en": "book" },
+      "pos": "noun",
+      "gender": "en",
+      "forms": {
+        "indefSg": "en bok", "defSg": "boken",
+        "indefPl": "böcker", "defPl": "böckerna"
+      }
+    },
+    {
+      "id": "tala",
+      "sv": "tala",
+      "translations": { "ru": "говорить", "en": "to speak" },
+      "pos": "verb",
+      "verbGroup": 1,
+      "forms": {
+        "infinitive": "tala", "present": "talar",
+        "past": "talade", "supine": "talat", "imperative": "tala"
+      }
+    }
+  ]
+}
+```
+
+## 5.5 Вопросы — `questions.json`
+
+Пул состоит из **ручных вопросов + автогенерируемых**. Список из 25 слов автоматически
+разворачивается в 100+ вопросов — именно это делает «100 вопросов на тему» реалистичным.
+
+```jsonc
+{
+  "generators": [
+    { "type": "sv-to-native-mc", "from": "vocab", "count": "all" },
+    { "type": "native-to-sv-mc", "from": "vocab", "count": "all" },
+    { "type": "type-answer",     "from": "vocab", "count": "all", "direction": "native-to-sv" },
+    { "type": "listen-mc",       "from": "vocab", "count": "all" },
+    { "type": "article",         "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "plural",          "from": "vocab", "filter": { "pos": "noun" } },
+    { "type": "verb-form",       "from": "vocab", "filter": { "pos": "verb" },
+      "targets": ["present", "past", "supine"] }
+  ],
+  "items": [
+    {
+      "id": "q-greet-01",
+      "type": "mc",
+      "difficulty": 1,                    // 1..3, влияет на вес при выборке
+      "prompt": { "ru": "Как сказать «Доброе утро»?" },
+      "choices": ["God morgon", "God natt", "Hej då", "Tack"],
+      "answer": 0,
+      "explanation": { "ru": "«God morgon» — примерно до 10 утра." },
+      "tags": ["greetings"]
+    },
+    {
+      "id": "q-greet-02",
+      "type": "gap",
+      "prompt": { "sv": "___ morgon! Hur mår du?" },
+      "answer": ["God"],
+      "acceptAlso": ["god"],
+      "hint": { "ru": "Пожелание перед словом «утро»." }
+    },
+    {
+      "id": "q-greet-03",
+      "type": "order",
+      "prompt": { "ru": "Собери предложение: «Меня зовут Анна.»" },
+      "tokens": ["Jag", "heter", "Anna"],
+      "answer": [0, 1, 2]
+    },
+    {
+      "id": "q-greet-04",
+      "type": "match",
+      "prompt": { "ru": "Сопоставь приветствия с переводом." },
+      "pairs": [
+        ["Hej då", "Пока"],
+        ["Vi ses", "Увидимся"],
+        ["God natt", "Спокойной ночи"]
+      ]
+    },
+    {
+      "id": "q-greet-05",
+      "type": "listen",
+      "audioText": "God kväll",
+      "prompt": { "ru": "Что ты услышал(а)?" },
+      "choices": ["God kväll", "God morgon", "God natt", "Godis"],
+      "answer": 0
+    }
+  ]
+}
+```
+
+## 5.6 Типы вопросов (v1)
+
+| Тип | Взаимодействие | Примечания |
+|---|---|---|
+| `mc` | Один вариант из 4 | Клавиши `1`–`4` |
+| `multi` | Несколько правильных вариантов | Возможен частичный зачёт |
+| `type-answer` | Свободный ввод | Нормализация: trim, регистр не важен, `å ä ö` обязательны, пунктуация игнорируется; почти-верный ответ (расстояние Левенштейна ≤ 1) показывает «почти — проверь написание» и засчитывается с пониженным XP |
+| `gap` | Вставить пропущенное в предложение | Поддержка нескольких пропусков |
+| `order` | Собрать предложение из слов-фишек | Ключевой тип для шведского порядка слов (V2) |
+| `match` | Сопоставление пар (3–5) | Считается за один вопрос |
+| `listen` | TTS читает по-шведски, ученик выбирает/печатает | Корректно пропускается, если нет голоса `sv-SE` |
+| `article` | Выбрать `en` / `ett` | Генерируется из существительных |
+| `plural` | Ввести или выбрать форму множественного числа | Генерируется из существительных |
+| `verb-form` | Дать форму настоящего/прошедшего/супина | Генерируется из глаголов |
+| `true-false` | Верно/неверно | Дёшево писать вручную |
+
+Каждый тип реализует один интерфейс, чтобы раннер оставался универсальным:
+
+```ts
+interface QuestionRenderer<Q extends Question> {
+  Component: React.FC<{ question: Q; onAnswer: (a: Answer) => void; disabled: boolean }>;
+  grade(question: Q, answer: Answer): GradeResult;   // { correct, partial?: number, feedback? }
+}
+```
+
+## 5.7 Генерация неправильных вариантов
+
+Для автогенерируемых вопросов с выбором неправильные варианты берутся **сначала из того же
+урока**, затем из того же уровня, с приоритетом на ту же часть речи и похожую длину слова.
+Это даёт правдоподобные, а не абсурдные варианты. Запрещено предлагать вариант, перевод
+которого совпадает с переводом правильного ответа.

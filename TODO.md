@@ -3,7 +3,7 @@
 A working checklist, not a history (unlike [CHANGELOG.md](CHANGELOG.md), which grows at
 the end — this file is the opposite: cross out or delete an item once it is done, so the
 list stays current and short). The per-lesson topic list lives separately, in
-[CURRICULUM.md](CURRICULUM.md).
+[CURRICULUM.md](specs/CURRICULUM.md).
 
 ## Content
 
@@ -26,7 +26,7 @@ list stays current and short). The per-lesson topic list lives separately, in
   are still open where two agents ran out of their rate-limit window — see REFERENCE.md §5.1
   for the exact remaining counts and which lesson folders still need a pass.
 - [ ] Dialogues are not started, by request (out of scope for this pass) —
-  `/reference/dialogues` is still a placeholder. Full plan in [DIALOGUES.md](DIALOGUES.md).
+  `/reference/dialogues` is still a placeholder. Full plan in [DIALOGUES.md](specs/DIALOGUES.md).
 - [ ] The "real text-lesson format" (a reading-passage field, comprehension question
   types, `LessonPage` UI — see `SPEC.md` §5) was never designed. Every SVA grund topic
   that would ideally use it (reading a short story and retelling it, a referat with a
