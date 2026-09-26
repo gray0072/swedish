@@ -16,5 +16,5 @@ Every sentence still ends with a **punkt** (full stop), question mark, or exclam
 For longer texts, good **styckeindelning** (paragraphing) matters as much as punctuation inside the sentence: each **stycke** (paragraph) should hold **en ny tanke** (one new idea), with a blank line or indent marking the shift.
 
 ```example
-Nytt stycke, ny tanke — det gör texten lättare att följa. — New paragraph, new idea — it makes the text easier to follow.
+Nytt stycke, ny tanke – det gör texten lättare att följa. — New paragraph, new idea – it makes the text easier to follow.
 ```

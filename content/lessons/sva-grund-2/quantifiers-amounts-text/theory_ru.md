@@ -7,8 +7,7 @@
 ```example
 De flesta arbetar heltid. — Большинство работает полный день.
 En tredjedel av eleverna klarade provet. — Треть учеников сдала тест.
-Andelen unga som studerar har ökat. — Доля молодёжи, которая учится,
-выросла.
+Andelen unga som studerar har ökat. — Доля молодёжи, которая учится, выросла.
 Ungefär hälften svarade ja. — Примерно половина ответила «да».
 ```
 
@@ -23,11 +22,9 @@ Andelen minskade förra året. — Доля уменьшилась в прошл
 ## Большинство и меньшинство
 
 ```example
-En majoritet röstade för förslaget. — Большинство проголосовало за
-предложение.
+En majoritet röstade för förslaget. — Большинство проголосовало за предложение.
 En minoritet var emot. — Меньшинство было против.
-En liten del av befolkningen berörs. — Небольшая часть населения
-затронута.
+En liten del av befolkningen berörs. — Небольшая часть населения затронута.
 ```
 
 ## Описание тенденции во времени
@@ -37,10 +34,8 @@ En liten del av befolkningen berörs. — Небольшая часть насе
 описании направления графика.
 
 ```example
-Allt fler väljer att cykla till jobbet. — Всё больше людей выбирают ехать
-на работу на велосипеде.
-Allt färre röker idag jämfört med för tjugo år sedan. — Всё меньше людей
-курят сегодня по сравнению с двадцатью годами назад.
+Allt fler väljer att cykla till jobbet. — Всё больше людей выбирают ехать на работу на велосипеде.
+Allt färre röker idag jämfört med för tjugo år sedan. — Всё меньше людей курят сегодня по сравнению с двадцатью годами назад.
 ```
 
 ## Коротко

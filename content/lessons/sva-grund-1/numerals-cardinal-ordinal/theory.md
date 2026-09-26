@@ -9,8 +9,7 @@ onward, the pattern is mostly regular: cardinal + **-e** (with small stem
 changes).
 
 ```example
-ett, två, tre → första, andra, tredje — one, two, three → first, second,
-third
+ett, två, tre → första, andra, tredje — one, two, three → first, second, third
 fyra → fjärde — four → fourth
 tio → tionde — ten → tenth
 ```
@@ -30,8 +29,7 @@ Swedish clock time counts *toward* the next hour, not from the last one —
 this trips up many learners, so pay close attention to **halv**.
 
 ```example
-Klockan är halv åtta. — It's half past seven. (halfway TO eight, i.e. 7:30,
-not 8:30!)
+Klockan är halv åtta. — It's half past seven. (halfway TO eight, i.e. 7:30, not 8:30!)
 Klockan är kvart i nio. — It's a quarter to nine. (8:45)
 Klockan är kvart över nio. — It's a quarter past nine. (9:15)
 ```
@@ -44,8 +42,7 @@ or, informally, split the same old way.
 
 ```example
 1984 → nittonhundraåttiofyra — nineteen eighty-four
-2025 → tjugohundratjugofem (formal) or tjugotjugofem (casual) — twenty
-twenty-five
+2025 → tjugohundratjugofem / tjugotjugofem — twenty twenty-five (formal / casual)
 ```
 
 ## In short

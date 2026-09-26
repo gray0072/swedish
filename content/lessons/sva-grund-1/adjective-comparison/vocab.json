@@ -7,7 +7,7 @@
       "pos": "adj",
       "forms": { "positive": "snäll", "neuter": "snällt", "plural": "snälla", "comparative": "snällare", "superlative": "snällast" },
       "example": { "sv": "Hon är snällare än sin bror.", "ru": "Она добрее, чем её брат.", "en": "She is kinder than her brother." },
-      "note": { "sv": "snäll — snällare — snällast (регулярно)" }
+      "note": { "sv": "snäll – snällare – snällast (регулярно)" }
     },
     {
       "id": "ny",
@@ -16,7 +16,7 @@
       "pos": "adj",
       "forms": { "positive": "ny", "neuter": "nytt", "plural": "nya", "comparative": "nyare", "superlative": "nyast" },
       "example": { "sv": "Den här bilen är nyare.", "ru": "Эта машина новее.", "en": "This car is newer." },
-      "note": { "sv": "ny — nyare — nyast (регулярно)" }
+      "note": { "sv": "ny – nyare – nyast (регулярно)" }
     },
     {
       "id": "stark",
@@ -25,7 +25,7 @@
       "pos": "adj",
       "forms": { "positive": "stark", "neuter": "starkt", "plural": "starka", "comparative": "starkare", "superlative": "starkast" },
       "example": { "sv": "Han är starkast i familjen.", "ru": "Он самый сильный в семье.", "en": "He is the strongest in the family." },
-      "note": { "sv": "stark — starkare — starkast (регулярно)" }
+      "note": { "sv": "stark – starkare – starkast (регулярно)" }
     },
     {
       "id": "dyr",
@@ -34,7 +34,7 @@
       "pos": "adj",
       "forms": { "positive": "dyr", "neuter": "dyrt", "plural": "dyra", "comparative": "dyrare", "superlative": "dyrast" },
       "example": { "sv": "Den här lägenheten är dyrare.", "ru": "Эта квартира дороже.", "en": "This apartment is more expensive." },
-      "note": { "sv": "dyr — dyrare — dyrast (регулярно)" }
+      "note": { "sv": "dyr – dyrare – dyrast (регулярно)" }
     },
     {
       "id": "svag",
@@ -43,7 +43,7 @@
       "pos": "adj",
       "forms": { "positive": "svag", "neuter": "svagt", "plural": "svaga", "comparative": "svagare", "superlative": "svagast" },
       "example": { "sv": "Kaffet blir svagare med mer vatten.", "ru": "Кофе становится слабее с большим количеством воды.", "en": "The coffee gets weaker with more water." },
-      "note": { "sv": "svag — svagare — svagast (регулярно)" }
+      "note": { "sv": "svag – svagare – svagast (регулярно)" }
     },
     {
       "id": "bra",
@@ -52,7 +52,7 @@
       "pos": "adj",
       "forms": { "positive": "bra", "neuter": "bra", "plural": "bra", "comparative": "bättre", "superlative": "bäst" },
       "example": { "sv": "Det här är bättre än det där.", "ru": "Это лучше, чем то.", "en": "This is better than that." },
-      "note": { "sv": "bra/god — bättre — bäst (супплетивно)" }
+      "note": { "sv": "bra/god – bättre – bäst (супплетивно)" }
     },
     {
       "id": "dalig",
@@ -61,7 +61,7 @@
       "pos": "adj",
       "forms": { "positive": "dålig", "neuter": "dåligt", "plural": "dåliga", "comparative": "sämre", "superlative": "värst" },
       "example": { "sv": "Vädret var sämre igår.", "ru": "Погода была хуже вчера.", "en": "The weather was worse yesterday." },
-      "note": { "sv": "dålig — sämre/värre — sämst/värst (супплетивно)" }
+      "note": { "sv": "dålig – sämre/värre – sämst/värst (супплетивно)" }
     },
     {
       "id": "liten",
@@ -70,7 +70,7 @@
       "pos": "adj",
       "forms": { "positive": "liten", "neuter": "litet", "plural": "små", "comparative": "mindre", "superlative": "minst" },
       "example": { "sv": "Den här lägenheten är mindre.", "ru": "Эта квартира меньше.", "en": "This apartment is smaller." },
-      "note": { "sv": "liten — mindre — minst (супплетивно)" }
+      "note": { "sv": "liten – mindre – minst (супплетивно)" }
     },
     {
       "id": "gammal",
@@ -79,7 +79,7 @@
       "pos": "adj",
       "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "example": { "sv": "Hon är äldre än sin bror.", "ru": "Она старше своего брата.", "en": "She is older than her brother." },
-      "note": { "sv": "gammal — äldre — äldst (супплетивно)" }
+      "note": { "sv": "gammal – äldre – äldst (супплетивно)" }
     },
     {
       "id": "manga",
@@ -88,7 +88,7 @@
       "pos": "adj",
       "forms": { "positive": "många", "neuter": "mycket", "plural": "många", "comparative": "fler", "superlative": "flest" },
       "example": { "sv": "Han har fler böcker än jag.", "ru": "У него больше книг, чем у меня.", "en": "He has more books than me." },
-      "note": { "sv": "många — fler — flest (супплетивно)" }
+      "note": { "sv": "många – fler – flest (супплетивно)" }
     }
   ]
 }

@@ -5,9 +5,9 @@ quality), and the **superlative** (most of a quality).
 Most adjectives form these regularly with **-are** and **-ast**:
 
 ```example
-stor — större — störst — big — bigger — biggest
-dyr — dyrare — dyrast — expensive — more expensive — most expensive
-lång — längre — längst — long/tall — longer/taller — longest/tallest
+stor – större – störst — big – bigger – biggest
+dyr – dyrare – dyrast — expensive – more expensive – most expensive
+lång – längre – längst — long/tall – longer/taller – longest/tallest
 ```
 
 Use **än** for "than" in comparisons:

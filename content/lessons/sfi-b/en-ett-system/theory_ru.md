@@ -21,12 +21,12 @@ ett äpple — äpplet (гласный, ett-слово)
 Ещё примеры для обоих родов:
 
 ```example
-en katt — katten — эта кошка
-en dag — dagen — этот день
-en gata — gatan — эта улица
-ett bord — bordet — этот стол
-ett barn — barnet — этот ребёнок
-ett öga — ögat — этот глаз
+en katt – katten — эта кошка
+en dag – dagen — этот день
+en gata – gatan — эта улица
+ett bord – bordet — этот стол
+ett barn – barnet — этот ребёнок
+ett öga – ögat — этот глаз
 ```
 
 Обратите внимание: en-слово, оканчивающееся на согласный, добавляет целый слог

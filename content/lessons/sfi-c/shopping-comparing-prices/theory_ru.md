@@ -3,8 +3,7 @@
 целую **rea** (распродажу) — часто отмеченную красной табличкой в витрине.
 
 ```example
-Jag brukar jämföra priser innan jag köper något dyrt. — Я обычно сравниваю цены
-перед покупкой дорогой вещи.
+Jag brukar jämföra priser innan jag köper något dyrt. — Я обычно сравниваю цены перед покупкой дорогой вещи.
 Butiken har rea på skor just nu. — В магазине сейчас распродажа обуви.
 ```
 
@@ -25,8 +24,7 @@ Jag vill byta den mot en större storlek. — Я хочу обменять эт�
 (гарантию), которая это покрывает.
 
 ```example
-Jag vill reklamera den här produkten, den är trasig. — Я хочу подать рекламацию на
-этот товар, он сломан.
+Jag vill reklamera den här produkten, den är trasig. — Я хочу подать рекламацию на этот товар, он сломан.
 Jag vill ha pengarna tillbaka. — Я хочу вернуть деньги.
 ```
 

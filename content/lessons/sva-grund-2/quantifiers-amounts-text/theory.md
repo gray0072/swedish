@@ -6,10 +6,8 @@ numbers.
 
 ```example
 De flesta arbetar heltid. — Most people work full-time.
-En tredjedel av eleverna klarade provet. — A third of the students passed
-the test.
-Andelen unga som studerar har ökat. — The share of young people studying
-has increased.
+En tredjedel av eleverna klarade provet. — A third of the students passed the test.
+Andelen unga som studerar har ökat. — The share of young people studying has increased.
 Ungefär hälften svarade ja. — Roughly half answered yes.
 ```
 
@@ -26,8 +24,7 @@ Andelen minskade förra året. — The share decreased last year.
 ```example
 En majoritet röstade för förslaget. — A majority voted for the proposal.
 En minoritet var emot. — A minority were against.
-En liten del av befolkningen berörs. — A small part of the population is
-affected.
+En liten del av befolkningen berörs. — A small part of the population is affected.
 ```
 
 ## Describing a trend over time
@@ -37,10 +34,8 @@ shrinking number of people or things over time — a common phrase in
 describing a chart's direction.
 
 ```example
-Allt fler väljer att cykla till jobbet. — An increasing number of people
-choose to cycle to work.
-Allt färre röker idag jämfört med för tjugo år sedan. — Fewer and fewer
-people smoke today compared to twenty years ago.
+Allt fler väljer att cykla till jobbet. — An increasing number of people choose to cycle to work.
+Allt färre röker idag jämfört med för tjugo år sedan. — Fewer and fewer people smoke today compared to twenty years ago.
 ```
 
 ## In short

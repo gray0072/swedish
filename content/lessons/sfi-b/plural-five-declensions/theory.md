@@ -11,21 +11,21 @@ only on gender — it must be learned together with each noun.
 | 5 | (none) | ett hus -> hus |
 
 ```example
-en flicka — flickor — a girl — girls
-en bil — bilar — a car — cars
-en lägenhet — lägenheter — an apartment — apartments
-ett äpple — äpplen — an apple — apples
-ett hus — hus — a house — houses
+en flicka – flickor — a girl – girls
+en bil – bilar — a car – cars
+en lägenhet – lägenheter — an apartment – apartments
+ett äpple – äpplen — an apple – apples
+ett hus – hus — a house – houses
 ```
 
 A few more examples per pattern:
 
 ```example
-en gata — gator — a street — streets
-en hund — hundar — a dog — dogs
-en biljett — biljetter — a ticket — tickets
-ett hjärta — hjärtan — a heart — hearts
-ett bord — bord — a table — tables
+en gata – gator — a street – streets
+en hund – hundar — a dog – dogs
+en biljett – biljetter — a ticket – tickets
+ett hjärta – hjärtan — a heart – hearts
+ett bord – bord — a table – tables
 ```
 
 Some tendencies help as rough guides: many **en-words ending in -a** take **-or**

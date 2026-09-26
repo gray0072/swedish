@@ -20,8 +20,7 @@ Det gör en glad att träffa vänner. — Встречи с друзьями р�
 чём-то:
 
 ```example
-Det är viktigt att ta hand om sin egen hälsa och lyssna på ens kropp. — Важно
-заботиться о своём здоровье и слушать своё тело.
+Det är viktigt att ta hand om sin egen hälsa och lyssna på ens kropp. — Важно заботиться о своём здоровье и слушать своё тело.
 Man ska lyssna på sin kropp. — Нужно слушать своё тело.
 ```
 

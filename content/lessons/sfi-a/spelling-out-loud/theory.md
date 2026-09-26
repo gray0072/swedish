@@ -41,10 +41,10 @@ Vänta lite, jag skriver ner det. — Wait a moment, I'll write it down.
 Put together, a whole exchange looks like this:
 
 ```example
-— Hur stavas ditt namn?
-— A-N-N-A. Stort A.
-— Och efternamn?
-— Lindqvist. L-I-N-D-Q-V-I-S-T.
-— Kan du upprepa det, tack?
-— Ja, L-I-N-D-Q-V-I-S-T.
+– Hur stavas ditt namn?
+– A-N-N-A. Stort A.
+– Och efternamn?
+– Lindqvist. L-I-N-D-Q-V-I-S-T.
+– Kan du upprepa det, tack?
+– Ja, L-I-N-D-Q-V-I-S-T.
 ```

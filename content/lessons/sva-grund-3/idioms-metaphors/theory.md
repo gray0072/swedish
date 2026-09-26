@@ -8,7 +8,7 @@ vocabulary units.
 Literally "to have a loose screw." It means to act strangely, to be a bit crazy.
 
 ```example
-Han pratar med växterna – han har nog en skruv lös. — He talks to the plants — he's probably got a screw loose.
+Han pratar med växterna – han har nog en skruv lös. — He talks to the plants – he's probably got a screw loose.
 ```
 
 ## kasta pärlor för svin
@@ -37,7 +37,7 @@ without effort, by sheer luck — often with a note of disapproval, implying the
 person didn't earn it.
 
 ```example
-Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — He got the job with no experience — he slid right in without any effort.
+Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — He got the job with no experience – he slid right in without any effort.
 ```
 
 ## ana ugglor i mossen
@@ -46,7 +46,7 @@ Literally "to suspect owls in the bog." It means to sense that something is wron
 to smell a rat.
 
 ```example
-Jag anar ugglor i mossen – något stämmer inte. — I smell a rat — something's not right.
+Jag anar ugglor i mossen – något stämmer inte. — I smell a rat – something's not right.
 ```
 
 ## The takeaway

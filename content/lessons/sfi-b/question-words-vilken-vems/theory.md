@@ -37,9 +37,9 @@ Hur många bilar har ni? — How many cars do you have?
 Putting them together in short exchanges:
 
 ```example
-— Vilken bil är din? — Den röda. — Which car is yours? — The red one.
-— Vems bok är det? — Det är min. — Whose book is that? — It's mine.
-— Hur många barn har ni? — Två. — How many children do you have? — Two.
+– Vilken bil är din? – Den röda. — Which car is yours? – The red one.
+– Vems bok är det? – Det är min. — Whose book is that? – It's mine.
+– Hur många barn har ni? – Två. — How many children do you have? – Two.
 ```
 
 A quick way to remember: ask yourself what the answer would be. If the answer

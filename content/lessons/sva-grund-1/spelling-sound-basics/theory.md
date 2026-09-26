@@ -42,9 +42,7 @@ exceptions; the rule is strongest in the middle of a word, before another
 syllable.
 
 ```example
-Hunden silar mjölken genom en duk. — The dog strains the milk through a
-cloth. (hund: short vowel, single consonant — an exception; silar: long
-vowel, single consonant — the regular rule)
+Hunden silar mjölken genom en duk. — The dog strains the milk through a cloth. (hund: short vowel, single consonant — an exception; silar: long vowel, single consonant — the regular rule)
 ```
 
 ## In short

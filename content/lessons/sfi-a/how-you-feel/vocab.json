@@ -127,7 +127,7 @@
       "translations": { "ru": "Так себе.", "en": "So-so." },
       "pos": "phrase",
       "note": { "ru": "средний ответ на «Hur mår du?»", "en": "the middle answer to \"Hur mår du?\"" },
-      "example": { "sv": "Hur mår du? — Så där.", "ru": "Как ты? — Так себе.", "en": "How are you? — So-so." }
+      "example": { "sv": "Hur mår du? – Så där.", "ru": "Как ты? — Так себе.", "en": "How are you? — So-so." }
     }
   ]
 }

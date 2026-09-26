@@ -2,7 +2,7 @@ Three ways to give a reason, in decreasing order of formality: **eftersom** (sin
 
 ```example
 Eftersom det regnade stannade vi hemma. — Since it was raining, we stayed home.
-Varför stannade du hemma? — Därför att det regnade. — Why did you stay home? — Because it was raining.
+Varför stannade du hemma? – Därför att det regnade. — Why did you stay home? – Because it was raining.
 ```
 
 **På grund av** (due to) is a preposition, so it takes a noun, not a full clause — handy for a short, formal reason.

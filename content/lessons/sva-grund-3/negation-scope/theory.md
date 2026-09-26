@@ -6,10 +6,8 @@ can carry two different meanings depending on where the negation sits.
 ## Same words, different scope
 
 ```example
-Alla kom inte. — Not everyone came. (some did, some didn't — partial
-negation)
-Inte alla kom. — Not everyone came. (fronted for emphasis: the claim
-"everyone came" is flatly rejected)
+Alla kom inte. — Not everyone came. (some did, some didn't — partial negation)
+Inte alla kom. — Not everyone came. (fronted for emphasis: the claim "everyone came" is flatly rejected)
 ```
 
 Both translate similarly into English, but moving **inte** next to **alla**
@@ -32,8 +30,7 @@ of negation — total absence, and a doubtful, weak denial.
 
 ```example
 Han svarar aldrig i tid. — He never answers on time. (categorical)
-Det är knappast rätt svar. — That's hardly the right answer. (a soft doubt,
-not a flat denial)
+Det är knappast rätt svar. — That's hardly the right answer. (a soft doubt, not a flat denial)
 ```
 
 ## Scope in a subordinate clause
@@ -42,8 +39,7 @@ The BIFF placement — **inte** before the finite verb — holds for the whole
 family of negators in a subordinate clause too.
 
 ```example
-Hon sa att hon aldrig hade sett filmen. — She said she'd never seen the
-film.
+Hon sa att hon aldrig hade sett filmen. — She said she'd never seen the film.
 ```
 
 ## In short

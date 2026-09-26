@@ -6,8 +6,8 @@
 настоящем времени — добавляют **-ade**.
 
 ```example
-Han arbetar. — Han arbetade. — Он работал.
-Vi talar om jobbet. — Vi talade om jobbet. — Мы говорили о работе.
+Han arbetar. – Han arbetade. — Он работал.
+Vi talar om jobbet. – Vi talade om jobbet. — Мы говорили о работе.
 ```
 
 **Группа 2** — глаголы, основа которых оканчивается на согласный — добавляют
@@ -15,24 +15,24 @@ Vi talar om jobbet. — Vi talade om jobbet. — Мы говорили о раб
 s, k, p).
 
 ```example
-Jag ringer. — Jag ringde. — Я позвонил.
-Hon läser en bok. — Hon läste en bok. — Она читала книгу.
+Jag ringer. – Jag ringde. — Я позвонил.
+Hon läser en bok. – Hon läste en bok. — Она читала книгу.
 ```
 
 **Группа 3** — короткие глаголы с ударной гласной в конце (bo, tro, ske) —
 добавляют **-dde**.
 
 ```example
-Vi bor i Malmö. — Vi bodde i Malmö. — Мы жили в Мальмё.
-Jag tror på dig. — Jag trodde på dig. — Я поверил тебе.
+Vi bor i Malmö. – Vi bodde i Malmö. — Мы жили в Мальмё.
+Jag tror på dig. – Jag trodde på dig. — Я поверил тебе.
 ```
 
 **Группа 4** — сильные, неправильные глаголы — вообще не добавляют
 окончание. Вместо этого меняется гласная в основе.
 
 ```example
-Hon skriver ett brev. — Hon skrev ett brev. — Она написала письмо.
-Vi äter middag. — Vi åt middag. — Мы поужинали.
+Hon skriver ett brev. – Hon skrev ett brev. — Она написала письмо.
+Vi äter middag. – Vi åt middag. — Мы поужинали.
 ```
 
 Вот вся система в одной таблице:

@@ -9,10 +9,8 @@ both sides (or ends the sentence, with one comma).
 
 ```example
 Anna, min syster, kommer imorgon. — Anna, my sister, is coming tomorrow.
-Stockholm, Sveriges huvudstad, ligger vid vattnet. — Stockholm, Sweden's
-capital, is by the water.
-Ingvar Kamprad, grundaren av IKEA, föddes i Småland. — Ingvar Kamprad, the
-founder of IKEA, was born in Småland.
+Stockholm, Sveriges huvudstad, ligger vid vattnet. — Stockholm, Sweden's capital, is by the water.
+Ingvar Kamprad, grundaren av IKEA, föddes i Småland. — Ingvar Kamprad, the founder of IKEA, was born in Småland.
 ```
 
 Both parts of an apposition refer to the *same* entity — "Anna" and "min
@@ -25,12 +23,9 @@ personal comment, a reservation, or an evaluation — dropped into the middle
 of a sentence and set off by commas (or, for a stronger break, dashes).
 
 ```example
-Det var, tyvärr, för sent för att ändra planerna. — It was, unfortunately,
-too late to change the plans.
-Det är, enligt min mening, det bästa alternativet. — It is, in my opinion,
-the best option.
-Priset steg — för övrigt inte för första gången — med tio procent. — The
-price rose — incidentally not for the first time — by ten percent.
+Det var, tyvärr, för sent för att ändra planerna. — It was, unfortunately, too late to change the plans.
+Det är, enligt min mening, det bästa alternativet. — It is, in my opinion, the best option.
+Priset steg – för övrigt inte för första gången – med tio procent. — The price rose – incidentally not for the first time – by ten percent.
 ```
 
 Unlike an apposition, a parenthetical insertion doesn't rename anything — it

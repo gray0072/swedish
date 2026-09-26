@@ -28,10 +28,10 @@ De skiljs åt vid stationen. — Они расстаются у вокзала.
 слова.
 
 ```example
-hoppas — hoppas — hoppades — hoppats (надеяться)
-trivas — trivs — trivdes — trivts (чувствовать себя хорошо где-то)
-minnas — minns — mindes — mints (помнить)
-andas — andas — andades — andats (дышать)
+hoppas – hoppas – hoppades — hoppats (надеяться)
+trivas – trivs – trivdes — trivts (чувствовать себя хорошо где-то)
+minnas – minns – mindes — mints (помнить)
+andas – andas – andades — andats (дышать)
 ```
 
 ```example

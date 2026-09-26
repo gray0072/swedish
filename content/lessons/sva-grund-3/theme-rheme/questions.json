@@ -97,7 +97,7 @@
     {
       "id": "q-theme-rheme-gap-2",
       "type": "gap",
-      "prompt": { "sv": "___ köpte Anna i går. (Boken, тема — книга)" },
+      "prompt": { "sv": "___ köpte Anna i går. (Boken, тема – книга)" },
       "answer": ["Boken"],
       "acceptAlso": []
     }

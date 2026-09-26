@@ -6,32 +6,32 @@ four groups, and each group forms the preterite in its own predictable way.
 add **-ade**.
 
 ```example
-Han arbetar. — Han arbetade. — He worked.
-Vi talar om jobbet. — Vi talade om jobbet. — We talked about work.
+Han arbetar. – Han arbetade. — He worked.
+Vi talar om jobbet. – Vi talade om jobbet. — We talked about work.
 ```
 
 **Group 2** — verbs whose stem ends in a consonant — add **-de** (after a
 voiced consonant) or **-te** (after an unvoiced one like s, k, p).
 
 ```example
-Jag ringer. — Jag ringde. — I called.
-Hon läser en bok. — Hon läste en bok. — She read a book.
+Jag ringer. – Jag ringde. — I called.
+Hon läser en bok. – Hon läste en bok. — She read a book.
 ```
 
 **Group 3** — short verbs ending in a stressed vowel (bo, tro, ske) — add
 **-dde**.
 
 ```example
-Vi bor i Malmö. — Vi bodde i Malmö. — We lived in Malmö.
-Jag tror på dig. — Jag trodde på dig. — I believed you.
+Vi bor i Malmö. – Vi bodde i Malmö. — We lived in Malmö.
+Jag tror på dig. – Jag trodde på dig. — I believed you.
 ```
 
 **Group 4** — the strong, irregular verbs — take no ending at all. Instead
 the stem vowel changes.
 
 ```example
-Hon skriver ett brev. — Hon skrev ett brev. — She wrote a letter.
-Vi äter middag. — Vi åt middag. — We ate dinner.
+Hon skriver ett brev. – Hon skrev ett brev. — She wrote a letter.
+Vi äter middag. – Vi åt middag. — We ate dinner.
 ```
 
 Here is the whole system side by side:

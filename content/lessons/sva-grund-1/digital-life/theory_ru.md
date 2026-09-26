@@ -4,7 +4,7 @@
 
 ```example
 Logga in med BankID för att se dina uppgifter. — Войди через BankID, чтобы увидеть свои данные.
-BankID är en typ av e-legitimation. — BankID — это один из видов электронного удостоверения личности.
+BankID är en typ av e-legitimation. – BankID — это один из видов электронного удостоверения личности.
 ```
 
 Почти у каждого госоргана есть личный кабинет — **Mina sidor** («Мои страницы»), где

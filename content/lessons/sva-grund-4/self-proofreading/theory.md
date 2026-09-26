@@ -15,7 +15,7 @@ word — when reading silently, the eye often "fills in" what isn't actually the
 ## Check one thing at a time
 
 ```example
-Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Check one thing at a time — first spelling, then punctuation, then verb forms.
+Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Check one thing at a time – first spelling, then punctuation, then verb forms.
 ```
 
 **en sak i taget** — one thing at a time. Looking for every kind of mistake at once

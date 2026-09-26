@@ -9,7 +9,7 @@ Dikten har tre strofer med fyra verser i varje. — В стихотворени�
 ```
 
 ```example
-Sista ordet i varje rad rimmar — det kallas helt enkelt rim. — Последнее слово в каждой строке рифмуется — это называется рифмой.
+Sista ordet i varje rad rimmar – det kallas helt enkelt rim. — Последнее слово в каждой строке рифмуется – это называется рифмой.
 ```
 
 ## Bildspråk: metafor, liknelse, symbol

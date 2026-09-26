@@ -741,3 +741,19 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   of the course list it was opened from.
 - **The `cosmetic` perk is gone.** The hut now gives +2 kr a day and the rock carving +4 cards
   per review session, so no building card says "no effect on learning" any more.
+
+## 2026-09-26 — Example lines in theory: one line, one dash rule, audio everywhere
+
+- **Example blocks no longer break.** An example line is split at the first spaced em dash
+  into Swedish and translation. Hard-wrapped lines rendered their tails as separate rows
+  with their own speaker buttons, dialogue lines starting with `—` had no Swedish to speak
+  ("— Tack för hjälpen! — Varsågod!" showed a button that said nothing), and an em dash
+  inside a Swedish sentence cut it in half. 105 theory files were fixed: wraps joined,
+  Swedish-side dashes turned into the tankstreck `–`, and a few mixed lines rewritten by hand.
+- **The dash rule** (SPEC §5.3): the Swedish side never contains an em dash; a dash in Swedish
+  is `–`, as Swedish typesetting uses it anyway; the translation may contain anything. The
+  same `–` is now used in the `sv` fields of vocab, questions and dialogues (95 places).
+  `npm run validate` rejects the broken shapes.
+- **The speaker reads cleaner text**: no ✓/✗ marks or leading dialogue dash, and arrows and
+  slashes become pauses, for every speaker button in the app.
+- An example row now wraps as one paragraph next to its button instead of two squeezed columns.

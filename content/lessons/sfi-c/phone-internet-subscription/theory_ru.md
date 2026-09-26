@@ -4,8 +4,7 @@
 
 ```example
 Jag vill teckna ett mobilabonnemang. — Я хочу оформить мобильную подписку.
-Jag har kontantkort istället för abonnemang. — У меня предоплаченная карта
-вместо абонемента.
+Jag har kontantkort istället för abonnemang. — У меня предоплаченная карта вместо абонемента.
 ```
 
 Что бы вы ни выбрали, понадобится **simkort** от **operatör** (оператора

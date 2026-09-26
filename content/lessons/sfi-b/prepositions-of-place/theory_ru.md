@@ -24,10 +24,8 @@ Boken är på bordet. — Книга на столе.
 
 ```example
 Vi träffas på torget. — Встретимся на площади.
-Biblioteket ligger mellan skolan och banken. — Библиотека находится между
-школой и банком.
-Bilen står framför huset, inte bakom det. — Машина стоит перед домом, а не
-за ним.
+Biblioteket ligger mellan skolan och banken. — Библиотека находится между школой и банком.
+Bilen står framför huset, inte bakom det. — Машина стоит перед домом, а не за ним.
 ```
 
 С этими предлогами часто используются два глагола: **ligga** (лежать,

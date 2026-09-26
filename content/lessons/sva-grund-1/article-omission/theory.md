@@ -32,11 +32,9 @@ A handful of common expressions simply lost their article over time and
 must be learned as whole chunks.
 
 ```example
-Barnen går i skolan. — The children attend school. (a fixed phrase about
-attending, not a specific building)
+Barnen går i skolan. — The children attend school. (a fixed phrase about attending, not a specific building)
 Han har feber idag. — He has a fever today.
-Jag brukar ta buss till jobbet. — I usually take the bus to work. (generic
-mode of transport)
+Jag brukar ta buss till jobbet. — I usually take the bus to work. (generic mode of transport)
 ```
 
 Compare the last one with the article present: **ta bussen** means boarding

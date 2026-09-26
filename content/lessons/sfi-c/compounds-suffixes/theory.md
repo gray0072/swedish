@@ -6,8 +6,7 @@ the *first* part.
 
 ```example
 brev + låda → brevlåda — letter + box → letterbox, mailbox
-körkort + tillstånd → körkortstillstånd — driving licence + permit →
-learner's permit
+körkort + tillstånd → körkortstillstånd — driving licence + permit → learner's permit
 ```
 
 Once joined, a compound behaves as one word with one gender (usually taken

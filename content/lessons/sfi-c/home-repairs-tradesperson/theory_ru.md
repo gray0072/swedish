@@ -41,6 +41,6 @@ Kan du skicka en offert? — Можете прислать смету?
 Вместе короткий звонок может звучать так:
 
 ```example
-— Hej, det läcker under diskbänken. Kan du laga kranen?
-— Ja, jag kan komma på torsdag. Reparationen tar en dag.
+– Hej, det läcker under diskbänken. Kan du laga kranen?
+– Ja, jag kan komma på torsdag. Reparationen tar en dag.
 ```

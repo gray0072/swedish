@@ -30,8 +30,8 @@ the two words — `Jag tycker inte om fisk.`
 Short answers are very handy here:
 
 ```example
-Gillar du kaffe? — Ja, det gör jag.
-Gillar du fisk? — Nej, det gör jag inte.
+Gillar du kaffe? – Ja, det gör jag.
+Gillar du fisk? – Nej, det gör jag inte.
 ```
 
 Stronger than "gillar": **Jag älskar choklad.** And **Jag hatar...** is a very

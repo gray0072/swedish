@@ -8,7 +8,7 @@
 не в себе, «с приветом».
 
 ```example
-Han pratar med växterna – han har nog en skruv lös. — Он разговаривает с растениями — он, наверное, немного с приветом.
+Han pratar med växterna – han har nog en skruv lös. — Он разговаривает с растениями – он, наверное, немного с приветом.
 ```
 
 ## kasta pärlor för svin
@@ -37,7 +37,7 @@ Ta det lugnt, det är ingen ko på isen. — Не переживай, спеши
 неодобрения — не заслужив этого).
 
 ```example
-Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — Он получил работу без опыта — ему просто повезло, без всяких усилий.
+Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — Он получил работу без опыта – ему просто повезло, без всяких усилий.
 ```
 
 ## ana ugglor i mossen
@@ -46,7 +46,7 @@ Han fick jobbet utan erfarenhet – han gled in på en räkmacka. — Он по�
 подвох.
 
 ```example
-Jag anar ugglor i mossen – något stämmer inte. — Я чую неладное — что-то тут не так.
+Jag anar ugglor i mossen – något stämmer inte. — Я чую неладное – что-то тут не так.
 ```
 
 ## Итог

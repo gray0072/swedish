@@ -22,11 +22,9 @@ Frequent, unstressed function words are shortened or weakened in fast,
 connected speech — this is completely normal, not sloppy pronunciation.
 
 ```example
-Jag har sett det. → Jag 'ar sett de. — I've seen it. (har loses its h; det
-sounds like "de")
+Jag har sett det. → Jag 'ar sett de. — I've seen it. (har loses its h; det sounds like "de")
 Fisk och skaldjur. → Fisk å skaldjur. — Fish and seafood. (och → å)
-De sa att de skulle komma. → Dom sa att dom skulle komma. — They said they'd
-come. (de → dom)
+De sa att de skulle komma. → Dom sa att dom skulle komma. — They said they'd come. (de → dom)
 ```
 
 None of this shows up in writing — you write **har**, **och**, **de** — but

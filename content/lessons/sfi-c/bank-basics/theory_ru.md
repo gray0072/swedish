@@ -4,8 +4,7 @@
 ```example
 Jag vill öppna ett konto. — Я хочу открыть счёт.
 Jag ska sätta in lönen på kontot. — Мне нужно положить зарплату на счёт.
-Jag behöver ta ut lite pengar från bankomaten. — Мне нужно снять немного
-денег в банкомате.
+Jag behöver ta ut lite pengar från bankomaten. — Мне нужно снять немного денег в банкомате.
 ```
 
 **Kontonummer** — это номер счёта, а **kod** — это пин-код, который вы
@@ -40,7 +39,6 @@ Växelkursen ändras varje dag. — Обменный курс меняется �
 **att låna** (брать в кредит), а стоимость займа — это **ränta** (процент).
 
 ```example
-Vi vill låna pengar för att köpa en lägenhet. — Мы хотим взять кредит на
-покупку квартиры.
+Vi vill låna pengar för att köpa en lägenhet. — Мы хотим взять кредит на покупку квартиры.
 Räntan på lånet höjdes i år. — Процент по кредиту в этом году вырос.
 ```

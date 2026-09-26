@@ -16,7 +16,7 @@ Jag ska ringa dig imorgon. — Я позвоню тебе завтра (обещ
 логический вывод говорящего, а не на его личное решение:
 
 ```example
-Titta på molnen — det kommer att regna snart. — Смотри на облака — скоро пойдёт дождь.
+Titta på molnen – det kommer att regna snart. — Смотри на облака – скоро пойдёт дождь.
 Priserna kommer att stiga nästa år. — Цены вырастут в следующем году.
 ```
 

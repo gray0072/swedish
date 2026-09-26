@@ -33,8 +33,7 @@ Jag håller på att laga mat just nu. — Я как раз сейчас гото
 
 ```example
 Hon brukar träna varje morgon. — Она обычно тренируется каждое утро.
-Vi brukade åka dit på somrarna. — Мы раньше ездили туда летом. (претерит:
-привычка в прошлом)
+Vi brukade åka dit på somrarna. — Мы раньше ездили туда летом. (претерит: привычка в прошлом)
 ```
 
 ## Довести до результата: få gjort

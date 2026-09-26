@@ -25,8 +25,7 @@ Han fick låna min cykel. — Ему разрешили одолжить мой 
 ```example
 Jag kunde inte komma igår, jag var sjuk. — Я не мог прийти вчера, я болел.
 Barnet ville inte äta grönsaker. — Ребёнок не хотел есть овощи.
-Vi fick inte parkera där, det var förbjudet. — Нам не разрешили парковаться
-там, это было запрещено.
+Vi fick inte parkera där, det var förbjudet. — Нам не разрешили парковаться там, это было запрещено.
 ```
 
 Эти четыре формы позволяют рассказать целую историю о прошлом: что вы могли
@@ -34,7 +33,5 @@ Vi fick inte parkera där, det var förbjudet. — Нам не разрешил�
 или не было разрешено.
 
 ```example
-Vi skulle träffas klockan sex, men jag kom sent — jag kunde inte hitta min
-cykel! — Мы должны были встретиться в шесть, но я опоздал — я не мог найти
-свой велосипед!
+Vi skulle träffas klockan sex, men jag kom sent – jag kunde inte hitta min cykel! — Мы должны были встретиться в шесть, но я опоздал – я не мог найти свой велосипед!
 ```

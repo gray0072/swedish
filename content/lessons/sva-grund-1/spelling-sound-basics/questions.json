@@ -69,7 +69,7 @@
     {
       "id": "q-spelling-sound-basics-gap-1",
       "type": "gap",
-      "prompt": { "sv": "Hunden si___ mjölken genom en duk. (процеживать, долгий гласный — одна согласная)" },
+      "prompt": { "sv": "Hunden si___ mjölken genom en duk. (процеживать, долгий гласный – одна согласная)" },
       "answer": ["lar"]
     },
     {

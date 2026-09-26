@@ -67,14 +67,14 @@
       "sv": "Ja, det gör jag.",
       "translations": { "ru": "Да, нравится.", "en": "Yes, I do." },
       "pos": "phrase",
-      "example": { "sv": "Gillar du kaffe? — Ja, det gör jag.", "ru": "Ты любишь кофе? — Да.", "en": "Do you like coffee? — Yes, I do." }
+      "example": { "sv": "Gillar du kaffe? – Ja, det gör jag.", "ru": "Ты любишь кофе? — Да.", "en": "Do you like coffee? — Yes, I do." }
     },
     {
       "id": "nej-det-gor-jag-inte",
       "sv": "Nej, det gör jag inte.",
       "translations": { "ru": "Нет, не нравится.", "en": "No, I do not." },
       "pos": "phrase",
-      "example": { "sv": "Gillar du fisk? — Nej, det gör jag inte.", "ru": "Ты любишь рыбу? — Нет.", "en": "Do you like fish? — No, I do not." }
+      "example": { "sv": "Gillar du fisk? – Nej, det gör jag inte.", "ru": "Ты любишь рыбу? — Нет.", "en": "Do you like fish? — No, I do not." }
     },
     {
       "id": "det-ar-bra",

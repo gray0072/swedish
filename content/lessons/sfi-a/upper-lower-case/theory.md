@@ -12,8 +12,7 @@ lower-case. That single rule already covers most of what you need: names of
 people, countries, cities and streets always start with **stor bokstav**.
 
 ```example
-Mitt namn är Ali. Jag bor på Kungsgatan. — My name is Ali. I live on
-Kungsgatan.
+Mitt namn är Ali. Jag bor på Kungsgatan. — My name is Ali. I live on Kungsgatan.
 ```
 
 When you fill in a form by hand, you are often asked to write **textat** —

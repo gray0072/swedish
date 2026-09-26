@@ -12,11 +12,11 @@ ending on top of it.
 | no ending | hus | **-en** | husen |
 
 ```example
-flickor — flickorna — girls — the girls
-bilar — bilarna — cars — the cars
-lägenheter — lägenheterna — apartments — the apartments
-äpplen — äpplena — apples — the apples
-hus — husen — houses — the houses
+flickor – flickorna — girls – the girls
+bilar – bilarna — cars – the cars
+lägenheter – lägenheterna — apartments – the apartments
+äpplen – äpplena — apples – the apples
+hus – husen — houses – the houses
 ```
 
 The pattern in short: most plurals already ending in a vowel sound (-or, -ar, -er)
@@ -26,9 +26,9 @@ ending** at all in the indefinite (ending in a consonant, like "hus" or "barn") 
 **-en**.
 
 ```example
-hundar — hundarna — dogs — the dogs
-barn — barnen — children — the children
-bord — borden — tables — the tables
+hundar – hundarna — dogs – the dogs
+barn – barnen — children – the children
+bord – borden — tables – the tables
 ```
 
 So the whole singular-plural system now has four forms for every noun: indefinite

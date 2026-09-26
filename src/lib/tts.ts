@@ -35,10 +35,23 @@ function resolveVoice(): SpeechSynthesisVoice | null {
   return voices[0];
 }
 
+/**
+ * What the speech engine gets: no ✓/✗ marks, no leading dialogue dash, and arrows, slashes and
+ * spaced dashes read as a pause — some voices otherwise say "right arrow" or "slash" aloud.
+ */
+export function speakableSwedish(text: string): string {
+  return text
+    .replace(/[✓✗]/g, '')
+    .replace(/^\s*[–—]\s*/, '')
+    .replace(/\s*(?:→|\/|\s[–—])\s*/g, ', ')
+    .replace(/([.!?…]),/g, '$1')
+    .trim();
+}
+
 export function speakSwedish(text: string, rate?: number): void {
   if (typeof window === 'undefined' || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
+  const utterance = new SpeechSynthesisUtterance(speakableSwedish(text));
   utterance.lang = 'sv-SE';
   utterance.rate = rate ?? useAppStore.getState().settings.ttsRate;
   const voice = resolveVoice();

@@ -2,8 +2,7 @@
 и у него есть своя лексика.
 
 ```example
-Jag vill ta körkort nästa år. — Я хочу получить водительские права в
-следующем году.
+Jag vill ta körkort nästa år. — Я хочу получить водительские права в следующем году.
 ```
 
 Сначала нужно **körkortstillstånd** (разрешение на обучение), которое
@@ -11,18 +10,15 @@ Jag vill ta körkort nästa år. — Я хочу получить водител
 профессиональным **körlärare** в **trafikskola** (автошколе).
 
 ```example
-Man måste ha körkortstillstånd innan man övningskör. — Нужно разрешение на
-обучение перед учебной ездой.
-Min körlärare är väldigt tålmodig. — Мой инструктор по вождению очень
-терпеливый.
+Man måste ha körkortstillstånd innan man övningskör. — Нужно разрешение на обучение перед учебной ездой.
+Min körlärare är väldigt tålmodig. — Мой инструктор по вождению очень терпеливый.
 ```
 
 Между вами и правами стоят два экзамена: **teoriprov** (письменный
 теоретический экзамен) и **uppkörning** (практический экзамен по вождению).
 
 ```example
-Jag har bokat teoriprov på fredag. — Я записался на теоретический экзамен в
-пятницу.
+Jag har bokat teoriprov på fredag. — Я записался на теоретический экзамен в пятницу.
 Uppkörningen tar cirka en timme. — Практический экзамен длится около часа.
 ```
 
@@ -34,12 +30,10 @@ Uppkörningen tar cirka en timme. — Практический экзамен д
 **bilbälte** (ремень безопасности).
 
 ```example
-Det är viktigt att följa trafikreglerna. — Важно соблюдать правила дорожного
-движения.
+Det är viktigt att följa trafikreglerna. — Важно соблюдать правила дорожного движения.
 Stanna vid rött trafikljus. — Останавливайся на красный сигнал светофора.
 Håll dig i höger körfält. — Держись правой полосы.
-Kom ihåg att ta på dig bilbältet. — Не забудь пристегнуть ремень
-безопасности.
+Kom ihåg att ta på dig bilbältet. — Не забудь пристегнуть ремень безопасности.
 ```
 
 Если что-то всё же пойдёт не так, слово, которое лучше никогда не

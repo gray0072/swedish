@@ -6,8 +6,7 @@ subordinate-clause order.
 
 ```example
 Var bor du? — Where do you live? (direct: verb right after var)
-Jag undrar var du bor. — I wonder where you live. (indirect: subject before
-the verb)
+Jag undrar var du bor. — I wonder where you live. (indirect: subject before the verb)
 ```
 
 In the direct question, the finite verb comes immediately after the
@@ -16,10 +15,8 @@ question word. Once the question is embedded — after **undra**, **fråga**,
 like any subordinate clause.
 
 ```example
-Vad heter hon? → Vet du vad hon heter? — What's her name? → Do you know
-what her name is?
-Vad var klockan? → Hon frågade vad klockan var. — What time was it? → She
-asked what time it was.
+Vad heter hon? → Vet du vad hon heter? — What's her name? → Do you know what her name is?
+Vad var klockan? → Hon frågade vad klockan var. — What time was it? → She asked what time it was.
 ```
 
 ## No question word: use om
@@ -28,8 +25,7 @@ A yes/no question with no question word is embedded with the conjunction
 **om** ("whether/if").
 
 ```example
-Kommer han? → Jag vet inte om han kommer. — Is he coming? → I don't know if
-he's coming.
+Kommer han? → Jag vet inte om han kommer. — Is he coming? → I don't know if he's coming.
 ```
 
 ## When the question word is the subject: add som
@@ -39,10 +35,8 @@ If the question word would itself be the subject of the direct question
 sentence would be missing a subject entirely.
 
 ```example
-Vem ringde? → Ingen vet vem som ringde. — Who called? → No one knows who
-called.
-Vad hände? → Polisen undersöker vad som hände. — What happened? → The
-police are investigating what happened.
+Vem ringde? → Ingen vet vem som ringde. — Who called? → No one knows who called.
+Vad hände? → Polisen undersöker vad som hände. — What happened? → The police are investigating what happened.
 ```
 
 ## In short

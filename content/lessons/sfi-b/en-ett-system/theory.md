@@ -20,12 +20,12 @@ ett äpple — äpplet (vowel, ett-word)
 More examples across both genders:
 
 ```example
-en katt — katten — the cat
-en dag — dagen — the day
-en gata — gatan — the street
-ett bord — bordet — the table
-ett barn — barnet — the child
-ett öga — ögat — the eye
+en katt – katten — the cat
+en dag – dagen — the day
+en gata – gatan — the street
+ett bord – bordet — the table
+ett barn – barnet — the child
+ett öga – ögat — the eye
 ```
 
 Notice: an en-word ending in a consonant adds a full syllable, **-en** (bil ->

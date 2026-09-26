@@ -5,7 +5,7 @@
       "sv": "Vad kostar det?",
       "translations": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
       "pos": "phrase",
-      "example": { "sv": "Vad kostar det? — Det kostar tio kronor.", "ru": "Сколько это стоит? — Десять крон.", "en": "How much does it cost? — Ten kronor." }
+      "example": { "sv": "Vad kostar det? – Det kostar tio kronor.", "ru": "Сколько это стоит? — Десять крон.", "en": "How much does it cost? — Ten kronor." }
     },
     {
       "id": "hur-mycket-kostar-det",
@@ -13,7 +13,7 @@
       "translations": { "ru": "Сколько это стоит?", "en": "How much does it cost?" },
       "pos": "phrase",
       "note": { "ru": "То же самое, что «Vad kostar det?».", "en": "The same thing as \"Vad kostar det?\"." },
-      "example": { "sv": "Hur mycket kostar det? — Femtio kronor.", "ru": "Сколько это стоит? — Пятьдесят крон.", "en": "How much does it cost? — Fifty kronor." }
+      "example": { "sv": "Hur mycket kostar det? – Femtio kronor.", "ru": "Сколько это стоит? — Пятьдесят крон.", "en": "How much does it cost? — Fifty kronor." }
     },
     {
       "id": "det-kostar-tjugo-kronor",
@@ -27,7 +27,7 @@
       "sv": "Kan jag betala med kort?",
       "translations": { "ru": "Можно заплатить картой?", "en": "Can I pay by card?" },
       "pos": "phrase",
-      "example": { "sv": "Kan jag betala med kort? — Ja, det går bra.", "ru": "Можно заплатить картой? — Да, конечно.", "en": "Can I pay by card? — Yes, that's fine." }
+      "example": { "sv": "Kan jag betala med kort? – Ja, det går bra.", "ru": "Можно заплатить картой? — Да, конечно.", "en": "Can I pay by card? — Yes, that's fine." }
     },
     {
       "id": "jag-betalar-med-kort",
@@ -111,7 +111,7 @@
       "translations": { "ru": "Пакет нужен?", "en": "Would you like a bag?" },
       "pos": "phrase",
       "note": { "ru": "Так спрашивает кассир. Ответ: «Ja, tack» или «Nej, tack».", "en": "The cashier asks this. Answer: \"Ja, tack\" or \"Nej, tack\"." },
-      "example": { "sv": "Vill du ha en påse? — Ja, tack.", "ru": "Пакет нужен? — Да, пожалуйста.", "en": "Would you like a bag? — Yes, please." }
+      "example": { "sv": "Vill du ha en påse? – Ja, tack.", "ru": "Пакет нужен? — Да, пожалуйста.", "en": "Would you like a bag? — Yes, please." }
     },
     {
       "id": "rea",

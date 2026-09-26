@@ -33,8 +33,8 @@ end in **-e** or **-a**, and answer the question *var?* ("where?"). The
 ("where to?").
 
 ```example
-Var är du? — Hemma. / Ute. / Inne. / Där.
-Vart ska du? — Hem. / Ut. / In. / Dit.
+Var är du? – Hemma. / Ute. / Inne. / Där.
+Vart ska du? – Hem. / Ut. / In. / Dit.
 ```
 
 Mixing these up is one of the most common mistakes for learners — but once

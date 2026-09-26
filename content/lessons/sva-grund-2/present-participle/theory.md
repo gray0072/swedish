@@ -12,7 +12,7 @@ The key difference from an ordinary adjective: the present participle **never ch
 ```example
 en leende flicka — a smiling girl
 ett leende barn — a smiling child
-leende barn (pl.) — smiling children
+leende barn — smiling children (pl.)
 ```
 
 ## Two main uses

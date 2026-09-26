@@ -7,8 +7,7 @@ For weak (regular) verbs, the supine is easy: it looks almost like the
 preterite.
 
 ```example
-Jag arbetar. — Jag arbetade. — Jag har arbetat.
-I work. — I worked. — I have worked.
+Jag arbetar. – Jag arbetade. – Jag har arbetat. — I work. – I worked. – I have worked.
 ```
 
 For strong verbs the supine usually ends in **-it**, but the stem vowel is

@@ -47,8 +47,6 @@ bilar → inga bilar
 Putting it together in one short story:
 
 ```example
-Vi har lite mjölk men inget bröd hemma. — We have a little milk but no
-bread at home.
-Det finns många bilar men inga cyklar på gatan. — There are many cars but
-no bikes on the street.
+Vi har lite mjölk men inget bröd hemma. — We have a little milk but no bread at home.
+Det finns många bilar men inga cyklar på gatan. — There are many cars but no bikes on the street.
 ```

@@ -38,7 +38,7 @@ I sin studie hävdar Berg (2023) att utsläppen måste halveras. — В своё
 кавычек, и пересказа своими словами без ссылки:
 
 ```example
-✗ Klimatförändringarna är det största hotet mot vår tid. (без кавычек и без ссылки — плагиат)
+✗ Klimatförändringarna är det största hotet mot vår tid. — без кавычек и без ссылки: плагиат
 ✓ Enligt Berg (2023) är klimatförändringarna det största hotet mot vår tid. — По Бергу (2023), изменение климата — величайшая угроза.
 ```
 

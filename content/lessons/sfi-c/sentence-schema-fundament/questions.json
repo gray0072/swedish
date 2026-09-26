@@ -25,7 +25,7 @@
       "id": "q-sentence-schema-fundament-gap-1",
       "type": "gap",
       "difficulty": 2,
-      "prompt": { "sv": "Idag ___ jag inte tidningen. (глагол — второе место)" },
+      "prompt": { "sv": "Idag ___ jag inte tidningen. (глагол – второе место)" },
       "answer": ["läser"],
       "acceptAlso": [],
       "hint": { "ru": "глагол занимает второе место", "en": "the verb takes the second slot" }

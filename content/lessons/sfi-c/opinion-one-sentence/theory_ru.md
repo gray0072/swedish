@@ -1,8 +1,7 @@
 Целое мнение с причиной укладывается в одну простую модель:
 
 ```example
-Jag tycker att skolan är bra eftersom lärarna är trevliga. — Я считаю, что
-школа хорошая, потому что учителя приветливые.
+Jag tycker att skolan är bra eftersom lärarna är trevliga. — Я считаю, что школа хорошая, потому что учителя приветливые.
 ```
 
 Первая половина, **jag tycker att [утверждение]**, формулирует ваше мнение
@@ -11,8 +10,7 @@ Jag tycker att skolan är bra eftersom lärarna är trevliga. — Я счита�
 следуют обычному порядку слов придаточного предложения.
 
 ```example
-Jag tycker att svenska är svårt eftersom uttalet är annorlunda. — Я считаю,
-что шведский трудный, потому что произношение другое.
+Jag tycker att svenska är svårt eftersom uttalet är annorlunda. — Я считаю, что шведский трудный, потому что произношение другое.
 Jag tycker att det är roligt att laga mat. — Я считаю, что готовить весело.
 ```
 
@@ -21,18 +19,15 @@ Jag tycker att det är roligt att laga mat. — Я считаю, что гото
 (я полагаю — чуть более формально).
 
 ```example
-Jag tror att det blir bättre väder imorgon. — Я думаю, завтра погода будет
-лучше.
-Jag anser att alla borde få gå i skolan. — Я полагаю, что все должны иметь
-возможность ходить в школу.
+Jag tror att det blir bättre väder imorgon. — Я думаю, завтра погода будет лучше.
+Jag anser att alla borde få gå i skolan. — Я полагаю, что все должны иметь возможность ходить в школу.
 ```
 
 Так можно построить короткое мнение почти о чём угодно — просто подставьте
 утверждение и причину:
 
 ```example
-Jag tycker att det är viktigt att äta frukost eftersom det ger energi. — Я
-считаю, что важно завтракать, потому что это даёт энергию.
+Jag tycker att det är viktigt att äta frukost eftersom det ger energi. — Я считаю, что важно завтракать, потому что это даёт энергию.
 ```
 
 Держите предложение на одном утверждении и одной причине — в этом весь

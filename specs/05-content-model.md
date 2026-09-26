@@ -88,8 +88,24 @@ Plain Markdown. Keep it under ~400 words. Supported extras:
 ```example
 Hej! — Hi!
 God morgon! — Good morning!
+– Tack för hjälpen! – Varsågod!
+skriva – skrev – skrivit — to write – wrote – written
 ```
 ````
+
+  One line is one example, split at the **first** spaced em dash ` — `: Swedish on the left,
+  translation on the right. That only works if the Swedish side never contains an em dash, so:
+  - a dash inside Swedish is the **tankstreck `–`** (en dash), as Swedish typesetting uses it
+    anyway — dialogue replies, asides, form series; a word-internal hyphen stays `-`;
+  - the translation may contain anything, em dashes included (Russian needs them);
+  - a line is **never hard-wrapped** — a wrapped tail would render as its own row with its
+    own speaker button;
+  - a line without ` — ` is Swedish only (a dialogue exchange, a list of forms).
+
+  `npm run validate` rejects a line that starts with `—`, a line with no Swedish before the
+  separator, and a translation-less line that continues a wrapped one
+  (`src/content/exampleLine.ts`). The speaker reads the Swedish side with ✓/✗ marks, the
+  leading dialogue dash, arrows and slashes turned into pauses (`speakableSwedish()`).
 
 Every Swedish string rendered from theory gets a small speaker button injected automatically.
 

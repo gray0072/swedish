@@ -24,10 +24,8 @@ needs two things to sit between, joined with **och** (and).
 
 ```example
 Vi träffas på torget. — We'll meet at the square.
-Biblioteket ligger mellan skolan och banken. — The library is between the
-school and the bank.
-Bilen står framför huset, inte bakom det. — The car is in front of the house,
-not behind it.
+Biblioteket ligger mellan skolan och banken. — The library is between the school and the bank.
+Bilen står framför huset, inte bakom det. — The car is in front of the house, not behind it.
 ```
 
 Two useful verbs go with all of these: **ligga** (to lie, to be located — for

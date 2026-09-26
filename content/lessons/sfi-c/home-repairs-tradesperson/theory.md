@@ -19,8 +19,7 @@ everyday problems:
 
 ```example
 Kranen droppar hela natten. — The tap drips all night.
-Ljuset funkar inte, proppen har gått. — The light doesn't work, the fuse has
-blown.
+Ljuset funkar inte, proppen har gått. — The light doesn't work, the fuse has blown.
 ```
 
 To arrange a visit, use **boka en hantverkare** and ask when they can come:
@@ -40,6 +39,6 @@ Kan du skicka en offert? — Can you send a quote?
 Putting it together, a short call might sound like this:
 
 ```example
-— Hej, det läcker under diskbänken. Kan du laga kranen?
-— Ja, jag kan komma på torsdag. Reparationen tar en dag.
+– Hej, det läcker under diskbänken. Kan du laga kranen?
+– Ja, jag kan komma på torsdag. Reparationen tar en dag.
 ```

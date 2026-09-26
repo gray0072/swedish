@@ -63,7 +63,7 @@
       "sv": "Har du barn?",
       "translations": { "ru": "У тебя есть дети?", "en": "Do you have children?" },
       "pos": "phrase",
-      "example": { "sv": "Har du barn? — Ja, jag har två barn.", "ru": "У тебя есть дети? — Да, у меня двое.", "en": "Do you have children? — Yes, I have two." }
+      "example": { "sv": "Har du barn? – Ja, jag har två barn.", "ru": "У тебя есть дети? — Да, у меня двое.", "en": "Do you have children? — Yes, I have two." }
     },
     {
       "id": "jag-ar-fran-sverige",

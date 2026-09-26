@@ -5,7 +5,7 @@
       "sv": "Hur stavas ditt namn?",
       "translations": { "ru": "Как пишется твоё имя (по буквам)?", "en": "How do you spell your name?" },
       "pos": "phrase",
-      "example": { "sv": "Hur stavas ditt namn? — S-A-R-A.", "ru": "Как пишется твоё имя? — С-А-Р-А.", "en": "How do you spell your name? — S-A-R-A." }
+      "example": { "sv": "Hur stavas ditt namn? – S-A-R-A.", "ru": "Как пишется твоё имя? — С-А-Р-А.", "en": "How do you spell your name? — S-A-R-A." }
     },
     {
       "id": "kan-du-bokstavera",
@@ -61,7 +61,7 @@
       "sv": "Vad heter du i efternamn?",
       "translations": { "ru": "Как твоя фамилия?", "en": "What is your last name?" },
       "pos": "phrase",
-      "example": { "sv": "Vad heter du i efternamn? — Andersson.", "ru": "Как твоя фамилия? — Андерссон.", "en": "What is your last name? — Andersson." }
+      "example": { "sv": "Vad heter du i efternamn? – Andersson.", "ru": "Как твоя фамилия? — Андерссон.", "en": "What is your last name? — Andersson." }
     },
     {
       "id": "det-stavas",

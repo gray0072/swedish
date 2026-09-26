@@ -12,9 +12,7 @@ Jag träffade en vän. — Я встретил(а) друга.
 русском, они превращают набор отдельных предложений в один связный рассказ.
 
 ```example
-Först åkte jag till jobbet. Sedan handlade jag mat. Till slut lagade jag mat
-hemma. — Сначала я поехал(а) на работу. Потом закупил(а) продукты. В итоге
-приготовил(а) еду дома.
+Först åkte jag till jobbet. Sedan handlade jag mat. Till slut lagade jag mat hemma. — Сначала я поехал(а) на работу. Потом закупил(а) продукты. В итоге приготовил(а) еду дома.
 ```
 
 Два полезных маркера времени для целой истории — это **igår** (вчера) и
@@ -22,8 +20,7 @@ hemma. — Сначала я поехал(а) на работу. Потом за
 перед глаголом.
 
 ```example
-I förra veckan träffade jag en gammal vän. — На прошлой неделе я встретил(а)
-старого друга.
+I förra veckan träffade jag en gammal vän. — На прошлой неделе я встретил(а) старого друга.
 Vi pratade länge om jobbet. — Мы долго разговаривали о работе.
 ```
 

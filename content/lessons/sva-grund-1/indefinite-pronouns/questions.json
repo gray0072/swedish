@@ -35,14 +35,14 @@
     {
       "id": "indefinite-pronouns-gap-5",
       "type": "gap",
-      "prompt": { "sv": "Vi drack ___ mjölk. (mjölk — en-слово, всё молоко / all the milk)" },
+      "prompt": { "sv": "Vi drack ___ mjölk. (mjölk – en-слово, всё молоко / all the milk)" },
       "answer": ["all"],
       "acceptAlso": []
     },
     {
       "id": "indefinite-pronouns-gap-6",
       "type": "gap",
-      "prompt": { "sv": "___ vatten är kallt. (vatten — ett-слово, вся вода / all the water)" },
+      "prompt": { "sv": "___ vatten är kallt. (vatten – ett-слово, вся вода / all the water)" },
       "answer": ["Allt", "allt"],
       "acceptAlso": []
     },

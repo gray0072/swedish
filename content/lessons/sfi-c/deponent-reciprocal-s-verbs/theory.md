@@ -27,10 +27,10 @@ De skiljs åt vid stationen. — They part ways at the station.
 supine. There is no matching non-s verb; the -s is simply part of the word.
 
 ```example
-hoppas — hoppas — hoppades — hoppats (to hope)
-trivas — trivs — trivdes — trivts (to feel at home)
-minnas — minns — mindes — mints (to remember)
-andas — andas — andades — andats (to breathe)
+hoppas – hoppas – hoppades — hoppats (to hope)
+trivas – trivs – trivdes — trivts (to feel at home)
+minnas – minns – mindes — mints (to remember)
+andas – andas – andades — andats (to breathe)
 ```
 
 ```example

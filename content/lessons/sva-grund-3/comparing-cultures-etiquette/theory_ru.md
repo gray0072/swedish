@@ -16,7 +16,7 @@ Efter du-reformen tilltalar man nästan alla med "du", inte med titel. — По�
 
 ```example
 Svenskar värnar ofta om sitt personliga utrymme och håller ett visst avstånd i kön. — Шведы часто заботятся о личном пространстве и держат некоторую дистанцию в очереди.
-Det är vanligt att man värdesätter punktlighet mycket högt — att komma för sent anses oartigt. — Обычно очень ценят пунктуальность — прийти слишком поздно считается невежливым.
+Det är vanligt att man värdesätter punktlighet mycket högt – att komma för sent anses oartigt. — Обычно очень ценят пунктуальность – прийти слишком поздно считается невежливым.
 ```
 
 ## Прямота против сдержанности
@@ -33,7 +33,7 @@ Det anses artigt att inte avbryta någon som pratar. — Считается ве
 - **det är vanligt att** — принято, обычно бывает так, что
 
 ```example
-Man förväntar sig ofta ögonkontakt när man pratar med någon — det anses visa intresse. — Часто ожидают зрительного контакта в разговоре — считается, что это показывает интерес.
+Man förväntar sig ofta ögonkontakt när man pratar med någon – det anses visa intresse. — Часто ожидают зрительного контакта в разговоре – считается, что это показывает интерес.
 ```
 
 Сравнивая этикет двух культур, важно не просто перечислять факты о **kroppsspråk**

@@ -113,7 +113,7 @@
       "id": "q-kallkritik-assessment-gap-3",
       "type": "gap",
       "difficulty": 2,
-      "prompt": { "sv": "Vad är ___ med den här texten — att informera eller att övertyga? (замысел, цель)" },
+      "prompt": { "sv": "Vad är ___ med den här texten – att informera eller att övertyga? (замысел, цель)" },
       "answer": ["syftet"],
       "acceptAlso": ["syfte"]
     },

@@ -45,8 +45,7 @@ movement form; a verb of state (**vara, bo, sitta, stå**) takes the
 location form.
 
 ```example
-Katten klättrar upp. Katten är uppe. — The cat climbs up. The cat is up
-(there).
+Katten klättrar upp. Katten är uppe. — The cat climbs up. The cat is up (there).
 ```
 
 ## In short

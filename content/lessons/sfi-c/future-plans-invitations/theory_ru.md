@@ -44,7 +44,7 @@ Jag måste tacka nej den här gången. — На этот раз мне прид�
 Вместе короткий разговор о планах на выходные может звучать так:
 
 ```example
-— Vad har du för planer i helgen?
-— Jag tänker träffa vänner. Vill du komma på fest på lördag?
-— Ja, jag tackar ja!
+– Vad har du för planer i helgen?
+– Jag tänker träffa vänner. Vill du komma på fest på lördag?
+– Ja, jag tackar ja!
 ```

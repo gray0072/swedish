@@ -43,7 +43,7 @@
     {
       "id": "q-future-tense-gap-2",
       "type": "gap",
-      "prompt": { "sv": "Titta på molnen — det ___ att regna snart. (kommer)" },
+      "prompt": { "sv": "Titta på molnen – det ___ att regna snart. (kommer)" },
       "answer": ["kommer"],
       "acceptAlso": []
     },

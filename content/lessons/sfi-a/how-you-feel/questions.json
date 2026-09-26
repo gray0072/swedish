@@ -65,7 +65,7 @@
       "id": "q-how-you-feel-gap-2",
       "type": "gap",
       "difficulty": 1,
-      "prompt": { "sv": "Hur ___ du? — Jag mår bra." },
+      "prompt": { "sv": "Hur ___ du? – Jag mår bra." },
       "answer": ["mår"],
       "acceptAlso": [],
       "hint": { "ru": "чувствуешь себя", "en": "feel" }

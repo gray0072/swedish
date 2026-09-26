@@ -16,5 +16,5 @@ Eftersom det regnade, stannade jag hemma. — Так как шёл дождь, �
 Для более длинных текстов хорошее **styckeindelning** (деление на абзацы) важно не меньше, чем пунктуация внутри предложения: каждый **stycke** (абзац) должен содержать **en ny tanke** (одну новую мысль), а пустая строка или отступ отмечают переход.
 
 ```example
-Nytt stycke, ny tanke — det gör texten lättare att följa. — Новый абзац, новая мысль — это облегчает чтение текста.
+Nytt stycke, ny tanke – det gör texten lättare att följa. — Новый абзац, новая мысль – это облегчает чтение текста.
 ```

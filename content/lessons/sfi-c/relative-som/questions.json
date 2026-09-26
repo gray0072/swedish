@@ -25,7 +25,7 @@
       "id": "q-relative-som-gap-1",
       "type": "gap",
       "difficulty": 2,
-      "prompt": { "sv": "Mannen ___ bor här är min granne. (который — обязательно!)" },
+      "prompt": { "sv": "Mannen ___ bor här är min granne. (который – обязательно!)" },
       "answer": ["som"],
       "acceptAlso": [],
       "hint": { "ru": "som здесь подлежащее, его нельзя убрать", "en": "som is the subject here, it cannot be dropped" }

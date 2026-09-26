@@ -29,7 +29,8 @@ past participle, however, always changes, because it describes the result of a
 completed action rather than an ongoing process.
 
 ```example
-Ett skrivande barn (a writing child — unchanged) — ett skrivet brev (a written letter — agrees).
+ett skrivande barn — a writing child (unchanged)
+ett skrivet brev — a written letter (agrees)
 ```
 
 The participle's shape is usually predictable from the verb group: group 1 gets

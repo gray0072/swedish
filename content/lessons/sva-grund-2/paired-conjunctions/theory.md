@@ -24,8 +24,7 @@ Adds emphasis: the second element is presented as an extra, sometimes
 unexpected addition to the first.
 
 ```example
-Hon är inte bara duktig utan också modig. — She is not only capable but
-also brave.
+Hon är inte bara duktig utan också modig. — She is not only capable but also brave.
 ```
 
 ## antingen … eller — either … or
@@ -34,8 +33,7 @@ Offers a genuine choice between two options — unlike *både … och*, only one
 of them holds.
 
 ```example
-Vi kan antingen ta bussen eller cykla. — We can either take the bus or
-cycle.
+Vi kan antingen ta bussen eller cykla. — We can either take the bus or cycle.
 ```
 
 ## A shared shape
@@ -46,8 +44,7 @@ kind — which is what makes the sentence read smoothly.
 
 ```example
 Hon är varken trött eller ledsen. — She is neither tired nor sad. (adj + adj)
-Vi ska antingen resa till Spanien eller stanna hemma. — We'll either travel
-to Spain or stay home. (verb phrase + verb phrase)
+Vi ska antingen resa till Spanien eller stanna hemma. — We'll either travel to Spain or stay home. (verb phrase + verb phrase)
 ```
 
 ## In short

@@ -49,7 +49,7 @@
     {
       "id": "q-connected-speech-prosody-gap-1",
       "type": "gap",
-      "prompt": { "sv": "Jag har sett det — i beglad tal blir det ofta 'Jag ___ sett det.'" },
+      "prompt": { "sv": "Jag har sett det – i beglad tal blir det ofta 'Jag ___ sett det.'" },
       "answer": ["'ar"]
     },
     {

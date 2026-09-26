@@ -14,7 +14,7 @@ Läs texten högt för dig själv för att höra om meningarna låter naturliga.
 ## Проверяйте один аспект за раз
 
 ```example
-Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Проверяйте по одному аспекту за раз — сначала орфографию, потом пунктуацию, потом формы глаголов.
+Kontrollera en sak i taget – först stavning, sedan interpunktion, sedan verbformer. — Проверяйте по одному аспекту за раз – сначала орфографию, потом пунктуацию, потом формы глаголов.
 ```
 
 **en sak i taget** — одно дело за раз. Если искать все ошибки сразу, легко

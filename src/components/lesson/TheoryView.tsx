@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AudioButton from './AudioButton';
 import { useLanguage } from '@/store/settings';
+import { splitExampleLine } from '@/content/exampleLine';
 
 function isExampleCodeChild(child: unknown): boolean {
   if (!isValidElement(child)) return false;
@@ -17,13 +18,16 @@ function ExampleBlock({ raw }: { raw: string }) {
   return (
     <div className="my-3 space-y-1.5 rounded-xl border border-granite/15 bg-granite/5 p-3 dark:border-white/10 dark:bg-white/5">
       {lines.map((line, i) => {
-        const [sv, ...rest] = line.split('—').map((s) => s.trim());
-        const translation = rest.join('—');
+        const { sv, translation } = splitExampleLine(line);
         return (
-          <div key={i} className="flex items-center gap-2 text-sm">
+          // One text flow next to the button, so a long pair wraps as a paragraph instead of
+          // squeezing Swedish and translation into two narrow columns.
+          <div key={i} className="flex items-start gap-2 text-sm">
             <AudioButton text={sv} />
-            <span className="sv-word">{sv}</span>
-            {translation && <span className="text-granite dark:text-birch/60">— {translation}</span>}
+            <p className="m-0 min-w-0 pt-1">
+              <span className="sv-word">{sv}</span>
+              {translation && <span className="text-granite dark:text-birch/60"> — {translation}</span>}
+            </p>
           </div>
         );
       })}

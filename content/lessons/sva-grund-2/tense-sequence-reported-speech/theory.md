@@ -7,22 +7,19 @@ If the reporting verb (**säga**, **berätta**...) is in the past tense, a
 present tense in the original statement shifts to the preterite.
 
 ```example
-"Jag är trött." → Hon sa att hon var trött. — "I'm tired." → She said she
-was tired.
+"Jag är trött." → Hon sa att hon var trött. — "I'm tired." → She said she was tired.
 ```
 
 ## The perfect shifts to the pluperfect
 
 ```example
-"Jag har läst boken." → Han sa att han hade läst boken. — "I've read the
-book." → He said he'd read the book.
+"Jag har läst boken." → Han sa att han hade läst boken. — "I've read the book." → He said he'd read the book.
 ```
 
 ## ska shifts to skulle
 
 ```example
-"Jag ska resa imorgon." → Hon sa att hon skulle resa dagen efter. — "I'm
-going to travel tomorrow." → She said she was going to travel the next day.
+"Jag ska resa imorgon." → Hon sa att hon skulle resa dagen efter. — "I'm going to travel tomorrow." → She said she was going to travel the next day.
 ```
 
 ## Time words shift too

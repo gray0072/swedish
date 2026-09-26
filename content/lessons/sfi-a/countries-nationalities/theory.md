@@ -27,8 +27,8 @@ capitalised, but the nationality and the language are lower case.** English does
 the opposite, so your hand wants to write *Svenska*. Don't.
 
 ```example
-Sverige — svensk — svenska
-Turkiet — turkisk — turkiska
+Sverige – svensk – svenska
+Turkiet – turkisk – turkiska
 ```
 
 Notice how neatly the words are built: almost every language ends in **-ska**

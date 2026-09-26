@@ -22,8 +22,7 @@ Tåget var sent eftersom det regnade. — та же мысль как полно
 ## Образ действия: med, utan
 
 ```example
-Hon tog emot priset med stor glädje. — Она с большой радостью приняла
-приз.
+Hon tog emot priset med stor glädje. — Она с большой радостью приняла приз.
 Han svarade utan tvekan. — Он ответил без колебаний.
 ```
 
@@ -42,8 +41,7 @@ Hon var på plats vid tillfället. — Она была на месте в тот
 компактнее, не теряя информацию.
 
 ```example
-Mötet flyttades på grund av vädret. — Встречу перенесли из-за погоды. (одна
-компактная фраза, а не целое «eftersom det var dåligt väder»)
+Mötet flyttades på grund av vädret. — Встречу перенесли из-за погоды. (одна компактная фраза, а не целое «eftersom det var dåligt väder»)
 ```
 
 ## Коротко

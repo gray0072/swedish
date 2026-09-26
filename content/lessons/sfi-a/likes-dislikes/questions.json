@@ -69,7 +69,7 @@
       "id": "q-likes-dislikes-gap-2",
       "type": "gap",
       "difficulty": 2,
-      "prompt": { "sv": "Gillar du fisk? — Nej, det gör jag ___." },
+      "prompt": { "sv": "Gillar du fisk? – Nej, det gör jag ___." },
       "answer": ["inte"],
       "acceptAlso": [],
       "hint": { "ru": "не", "en": "not" }

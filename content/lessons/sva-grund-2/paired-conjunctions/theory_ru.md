@@ -7,8 +7,7 @@
 Связывает две вещи, которые обе просто верны, рядом друг с другом.
 
 ```example
-Hon talar både svenska och engelska. — Она говорит и по-шведски, и
-по-английски.
+Hon talar både svenska och engelska. — Она говорит и по-шведски, и по-английски.
 ```
 
 ## varken … eller — ни … ни
@@ -25,8 +24,7 @@ Han har varken tid eller pengar. — У него нет ни времени, н�
 неожиданный, довесок к первому.
 
 ```example
-Hon är inte bara duktig utan också modig. — Она не только способная, но и
-смелая.
+Hon är inte bara duktig utan också modig. — Она не только способная, но и смелая.
 ```
 
 ## antingen … eller — либо … либо
@@ -35,8 +33,7 @@ Hon är inte bara duktig utan också modig. — Она не только спо�
 och*, верен только один из них.
 
 ```example
-Vi kan antingen ta bussen eller cykla. — Мы можем либо поехать на автобусе,
-либо на велосипеде.
+Vi kan antingen ta bussen eller cykla. — Мы можем либо поехать на автобусе, либо на велосипеде.
 ```
 
 ## Общая форма
@@ -47,10 +44,8 @@ Vi kan antingen ta bussen eller cykla. — Мы можем либо поехат
 гладким.
 
 ```example
-Hon är varken trött eller ledsen. — Она не уставшая и не грустная. (прил. +
-прил.)
-Vi ska antingen resa till Spanien eller stanna hemma. — Мы либо поедем в
-Испанию, либо останемся дома. (глагольная фраза + глагольная фраза)
+Hon är varken trött eller ledsen. — Она не уставшая и не грустная. (прил. + прил.)
+Vi ska antingen resa till Spanien eller stanna hemma. — Мы либо поедем в Испанию, либо останемся дома. (глагольная фраза + глагольная фраза)
 ```
 
 ## Коротко

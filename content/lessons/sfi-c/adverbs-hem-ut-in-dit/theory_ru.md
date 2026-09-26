@@ -33,8 +33,8 @@ där** — все заканчиваются на **-e** или **-a** и отв
 *vart?* («куда?»).
 
 ```example
-Var är du? — Hemma. / Ute. / Inne. / Där.
-Vart ska du? — Hem. / Ut. / In. / Dit.
+Var är du? – Hemma. / Ute. / Inne. / Där.
+Vart ska du? – Hem. / Ut. / In. / Dit.
 ```
 
 Путаница между этими формами — одна из самых частых ошибок у изучающих

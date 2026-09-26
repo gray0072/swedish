@@ -94,7 +94,7 @@
       "pos": "noun",
       "gender": "en",
       "forms": { "indefSg": "en genre", "defSg": "genren", "indefPl": "genrer", "defPl": "genrerna" },
-      "example": { "sv": "Vilken genre är det — drama eller komedi?", "ru": "Какой это жанр — драма или комедия?", "en": "What genre is it — drama or comedy?" }
+      "example": { "sv": "Vilken genre är det – drama eller komedi?", "ru": "Какой это жанр — драма или комедия?", "en": "What genre is it — drama or comedy?" }
     },
     {
       "id": "bibliotek",
@@ -151,7 +151,7 @@
       "sv": "jag skulle rekommendera...",
       "translations": { "ru": "я бы порекомендовал(а)...", "en": "I would recommend..." },
       "pos": "phrase",
-      "example": { "sv": "Jag skulle rekommendera den boken — den var väldigt spännande.", "ru": "Я бы порекомендовал(а) эту книгу — она была очень захватывающей.", "en": "I would recommend that book — it was very exciting." }
+      "example": { "sv": "Jag skulle rekommendera den boken – den var väldigt spännande.", "ru": "Я бы порекомендовал(а) эту книгу — она была очень захватывающей.", "en": "I would recommend that book — it was very exciting." }
     },
     {
       "id": "det-var-ganska-spannande-trakigt",

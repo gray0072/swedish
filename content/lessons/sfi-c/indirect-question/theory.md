@@ -31,8 +31,7 @@ polite than a bare question.
 ```example
 Veta: Jag vet inte var han bor. — I don't know where he lives.
 Undra: Jag undrar om hon kommer. — I wonder if she's coming.
-Fråga: Han frågade om jag visste var stationen var. — He asked if I knew
-where the station was.
+Fråga: Han frågade om jag visste var stationen var. — He asked if I knew where the station was.
 ```
 
 A short checklist: find the question word (or use **om** if there isn't

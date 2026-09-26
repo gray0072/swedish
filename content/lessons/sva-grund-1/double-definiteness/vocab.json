@@ -25,7 +25,7 @@
       "pos": "adj",
       "forms": { "positive": "gammal", "neuter": "gammalt", "plural": "gamla", "comparative": "äldre", "superlative": "äldst" },
       "example": { "sv": "Den gamla bilen fungerar bra.", "ru": "Та самая старая машина хорошо работает.", "en": "The old car works well." },
-      "note": { "sv": "gammal / gammalt / gamla (слабая форма — gamla)" }
+      "note": { "sv": "gammal / gammalt / gamla (слабая форма – gamla)" }
     },
     {
       "id": "ny",

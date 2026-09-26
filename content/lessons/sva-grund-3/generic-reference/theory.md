@@ -28,8 +28,7 @@ if defining the species as a type, the way an encyclopedia or textbook
 would.
 
 ```example
-Hunden är ett troget djur. — The dog is a loyal animal. (a definition,
-almost encyclopedic in tone)
+Hunden är ett troget djur. — The dog is a loyal animal. (a definition, almost encyclopedic in tone)
 ```
 
 The **indefinite singular** (*en hund*) picks out one representative member
@@ -37,8 +36,7 @@ to stand for the whole category — useful when making a point about what any
 single dog is like.
 
 ```example
-En hund behöver rörelse varje dag. — A dog needs exercise every day. (true
-of any dog you pick)
+En hund behöver rörelse varje dag. — A dog needs exercise every day. (true of any dog you pick)
 ```
 
 ## Mass nouns skip the article entirely

@@ -17,7 +17,7 @@ Jag ska ringa dig imorgon. — I'll call you tomorrow (I promise).
 reasoning, rather than on their own decision:
 
 ```example
-Titta på molnen — det kommer att regna snart. — Look at the clouds — it's going to rain soon.
+Titta på molnen – det kommer att regna snart. — Look at the clouds – it's going to rain soon.
 Priserna kommer att stiga nästa år. — Prices will rise next year.
 ```
 

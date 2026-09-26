@@ -52,14 +52,14 @@
       "translations": { "ru": "частичное отрицание", "en": "partial negation" },
       "pos": "phrase",
       "note": { "ru": "Отрицается не всё утверждение, а только его часть, напр. «inte alla».", "en": "Not the whole statement is negated, only a part of it, e.g. \"inte alla\"." },
-      "example": { "sv": "Inte alla elever klarade provet — det är delvis negation.", "ru": "Не все ученики сдали тест — это частичное отрицание.", "en": "Not all students passed the test — that's partial negation." }
+      "example": { "sv": "Inte alla elever klarade provet – det är delvis negation.", "ru": "Не все ученики сдали тест — это частичное отрицание.", "en": "Not all students passed the test — that's partial negation." }
     },
     {
       "id": "total-negation",
       "sv": "total negation",
       "translations": { "ru": "полное отрицание", "en": "total negation" },
       "pos": "phrase",
-      "example": { "sv": "Ingen av eleverna klarade provet — det är total negation.", "ru": "Ни один из учеников не сдал тест — это полное отрицание.", "en": "None of the students passed the test — that's total negation." }
+      "example": { "sv": "Ingen av eleverna klarade provet – det är total negation.", "ru": "Ни один из учеников не сдал тест — это полное отрицание.", "en": "None of the students passed the test — that's total negation." }
     },
     {
       "id": "ratt-adj",

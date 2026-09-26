@@ -16,7 +16,7 @@ almost disappeared from everyday speech.
 
 ```example
 Svenskar värnar ofta om sitt personliga utrymme och håller ett visst avstånd i kön. — Swedes often value their personal space and keep a certain distance in a queue.
-Det är vanligt att man värdesätter punktlighet mycket högt — att komma för sent anses oartigt. — It's common to value punctuality very highly — arriving late is considered impolite.
+Det är vanligt att man värdesätter punktlighet mycket högt – att komma för sent anses oartigt. — It's common to value punctuality very highly – arriving late is considered impolite.
 ```
 
 ## Directness versus reserve
@@ -33,7 +33,7 @@ Det anses artigt att inte avbryta någon som pratar. — It's considered polite 
 - **det är vanligt att** — it is common/customary to
 
 ```example
-Man förväntar sig ofta ögonkontakt när man pratar med någon — det anses visa intresse. — People often expect eye contact in a conversation — it's considered to show interest.
+Man förväntar sig ofta ögonkontakt när man pratar med någon – det anses visa intresse. — People often expect eye contact in a conversation – it's considered to show interest.
 ```
 
 When comparing the etiquette of two cultures, it's not enough to list facts about

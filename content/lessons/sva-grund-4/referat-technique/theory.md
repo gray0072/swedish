@@ -40,7 +40,7 @@ source, as if they were your own. This applies both to verbatim copying without
 quotation marks and to paraphrasing without a reference:
 
 ```example
-✗ Klimatförändringarna är det största hotet mot vår tid. (no quotation marks, no reference — plagiarism)
+✗ Klimatförändringarna är det största hotet mot vår tid. — no quotation marks, no reference: plagiarism
 ✓ Enligt Berg (2023) är klimatförändringarna det största hotet mot vår tid. — According to Berg (2023), climate change is the greatest threat.
 ```
 

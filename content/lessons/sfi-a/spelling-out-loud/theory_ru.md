@@ -41,10 +41,10 @@ Vänta lite, jag skriver ner det. — Подожди немного, я это �
 Вместе целый диалог выглядит так:
 
 ```example
-— Hur stavas ditt namn?
-— A-N-N-A. Stort A.
-— Och efternamn?
-— Lindqvist. L-I-N-D-Q-V-I-S-T.
-— Kan du upprepa det, tack?
-— Ja, L-I-N-D-Q-V-I-S-T.
+– Hur stavas ditt namn?
+– A-N-N-A. Stort A.
+– Och efternamn?
+– Lindqvist. L-I-N-D-Q-V-I-S-T.
+– Kan du upprepa det, tack?
+– Ja, L-I-N-D-Q-V-I-S-T.
 ```

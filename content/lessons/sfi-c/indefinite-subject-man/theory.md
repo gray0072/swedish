@@ -19,8 +19,7 @@ Det gör en glad att träffa vänner. — Meeting friends makes one happy.
 own" something:
 
 ```example
-Det är viktigt att ta hand om sin egen hälsa och lyssna på ens kropp. — It's
-important to take care of one's own health and listen to one's body.
+Det är viktigt att ta hand om sin egen hälsa och lyssna på ens kropp. — It's important to take care of one's own health and listen to one's body.
 Man ska lyssna på sin kropp. — One should listen to one's body.
 ```
 
@@ -36,8 +35,7 @@ Hon har en man och två barn. — She has a husband and two children.
 Compare the pronoun and the noun side by side:
 
 ```example
-Man får inte röka här. — You're not allowed to smoke here. (pronoun: people
-in general)
+Man får inte röka här. — You're not allowed to smoke here. (pronoun: people in general)
 Hon har en man. — She has a husband. (noun: a person)
 ```
 

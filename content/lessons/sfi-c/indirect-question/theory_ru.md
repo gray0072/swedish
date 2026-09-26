@@ -31,8 +31,7 @@ Jag undrar om hon kommer. — Интересно, придёт ли она.
 ```example
 Veta: Jag vet inte var han bor. — Я не знаю, где он живёт.
 Undra: Jag undrar om hon kommer. — Интересно, придёт ли она.
-Fråga: Han frågade om jag visste var stationen var. — Он спросил, знаю ли я,
-где вокзал.
+Fråga: Han frågade om jag visste var stationen var. — Он спросил, знаю ли я, где вокзал.
 ```
 
 Короткая памятка: найдите вопросительное слово (или используйте **om**, если

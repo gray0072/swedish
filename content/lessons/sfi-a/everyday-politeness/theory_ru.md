@@ -14,8 +14,8 @@ Ursäkta! — Извините!
 в ответ, или когда что-то вручаете, или приглашаете сесть и поесть.
 
 ```example
-— Tack för hjälpen! — Varsågod!
-— Här är din kaffe. Varsågod! — Tack!
+– Tack för hjälpen! – Varsågod!
+– Här är din kaffe. Varsågod! – Tack!
 ```
 
 **Förlåt** и **ursäkta** оба переводятся как «извини(те)», но используются
@@ -33,7 +33,7 @@ Ursäkta mig, får jag komma förbi? — Извините, можно пройт
 страшного», буквально «нет опасности».
 
 ```example
-— Förlåt! — Ingen fara.
+– Förlåt! – Ingen fara.
 ```
 
 Чтобы вежливо что-то попросить, добавьте **tack** в конце короткой просьбы или

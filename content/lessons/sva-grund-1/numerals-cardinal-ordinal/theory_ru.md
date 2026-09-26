@@ -10,8 +10,7 @@
 небольшими изменениями основы).
 
 ```example
-ett, två, tre → första, andra, tredje — один, два, три → первый, второй,
-третий
+ett, två, tre → första, andra, tredje — один, два, три → первый, второй, третий
 fyra → fjärde — четыре → четвёртый
 tio → tionde — десять → десятый
 ```
@@ -33,8 +32,7 @@ Han föddes den första januari. — Он родился первого янва
 внимание на **halv**.
 
 ```example
-Klockan är halv åtta. — Сейчас половина восьмого. (половина ДО восьми, то
-есть 7:30, а не 8:30!)
+Klockan är halv åtta. — Сейчас половина восьмого. (половина ДО восьми, то есть 7:30, а не 8:30!)
 Klockan är kvart i nio. — Сейчас без четверти девять. (8:45)
 Klockan är kvart över nio. — Сейчас четверть десятого. (9:15)
 ```
@@ -47,8 +45,7 @@ Klockan är kvart över nio. — Сейчас четверть десятого.
 
 ```example
 1984 → nittonhundraåttiofyra — тысяча девятьсот восемьдесят четыре
-2025 → tjugohundratjugofem (формально) или tjugotjugofem (разговорно) —
-две тысячи двадцать пять
+2025 → tjugohundratjugofem / tjugotjugofem — две тысячи двадцать пять (формально / разговорно)
 ```
 
 ## Коротко

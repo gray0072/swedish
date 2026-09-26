@@ -23,9 +23,9 @@ echo the verb from the question. With **är** you echo **är**, with **har** you
 **har**, and with every other verb you use **gör**.
 
 ```example
-Är du gift? — Ja, det är jag. / Nej, det är jag inte.
-Har du barn? — Ja, det har jag.
-Bor du i Malmö? — Ja, det gör jag. / Nej, det gör jag inte.
+Är du gift? – Ja, det är jag. / Nej, det är jag inte.
+Har du barn? – Ja, det har jag.
+Bor du i Malmö? – Ja, det gör jag. / Nej, det gör jag inte.
 ```
 
 If you have no answer, two phrases will rescue you: **Jag vet inte** (I don't know)
@@ -36,8 +36,8 @@ and **Jag förstår inte** (I don't understand).
 Here is the trap. If the question contains **inte**, then "yes" is not **Ja** but **Jo**.
 
 ```example
-Bor du här? — Ja, jag bor här. — Do you live here? — Yes, I do.
-Bor du inte här? — Jo, jag bor här. — Don't you live here? — Yes, I do live here.
+Bor du här? – Ja, jag bor här. — Do you live here? – Yes, I do.
+Bor du inte här? – Jo, jag bor här. — Don't you live here? – Yes, I do live here.
 ```
 
 The rule is short: **inte in the question → answer Jo**. The word **Nej** works the

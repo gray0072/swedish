@@ -21,6 +21,7 @@ import {
   vocabFileSchema,
 } from '../src/content/schema';
 import { expandGenerators } from '../src/content/generators';
+import { exampleBlockProblems } from '../src/content/exampleLine';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
 import type { AmbientEmitter, EraArt } from '../src/components/city/scene/types';
 import { ISLAND_CELLS } from '../src/components/city/scene/island';
@@ -118,8 +119,10 @@ if (existsSync(lessonsRoot)) {
       const theoryPath = join(dir, 'theory.md');
       const hasTheory = existsSync(theoryPath);
       if (hasTheory) {
-        const words = countWords(readFileSync(theoryPath, 'utf-8'));
+        const theory = readFileSync(theoryPath, 'utf-8');
+        const words = countWords(theory);
         if (words > 450) errors.push(`${meta.id}: theory.md is ${words} words (5-minute rule wants ~400)`);
+        for (const problem of exampleBlockProblems(theory)) errors.push(`${meta.id}/theory.md ${problem}`);
       } else if (vocab.length === 0) {
         warnings.push(`${meta.id}: no theory.md and no vocab.json — lesson has no content body`);
       }
@@ -127,8 +130,10 @@ if (existsSync(lessonsRoot)) {
       const theoryRuPath = join(dir, 'theory_ru.md');
       if (existsSync(theoryRuPath)) {
         if (!hasTheory) errors.push(`${meta.id}: theory_ru.md exists without a theory.md`);
-        const words = countWords(readFileSync(theoryRuPath, 'utf-8'));
+        const theoryRu = readFileSync(theoryRuPath, 'utf-8');
+        const words = countWords(theoryRu);
         if (words > 450) errors.push(`${meta.id}: theory_ru.md is ${words} words (5-minute rule wants ~400)`);
+        for (const problem of exampleBlockProblems(theoryRu)) errors.push(`${meta.id}/theory_ru.md ${problem}`);
       }
 
       const generated = expandGenerators(questionsFile.generators, vocab, meta.id);

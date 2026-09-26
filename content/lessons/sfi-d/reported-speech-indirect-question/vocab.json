@@ -44,14 +44,14 @@
       "sv": "direkt tal",
       "translations": { "ru": "прямая речь", "en": "direct speech" },
       "pos": "phrase",
-      "example": { "sv": "\"Jag är trött\", sa hon. — direkt tal.", "ru": "«Я устала», — сказала она. — прямая речь.", "en": "\"I'm tired,\" she said. — direct speech." }
+      "example": { "sv": "\"Jag är trött\", sa hon. – direkt tal.", "ru": "«Я устала», — сказала она. — прямая речь.", "en": "\"I'm tired,\" she said. — direct speech." }
     },
     {
       "id": "indirekt-tal",
       "sv": "indirekt tal",
       "translations": { "ru": "косвенная речь", "en": "reported/indirect speech" },
       "pos": "phrase",
-      "example": { "sv": "Hon sa att hon var trött. — indirekt tal.", "ru": "Она сказала, что устала. — косвенная речь.", "en": "She said that she was tired. — reported speech." }
+      "example": { "sv": "Hon sa att hon var trött. – indirekt tal.", "ru": "Она сказала, что устала. — косвенная речь.", "en": "She said that she was tired. — reported speech." }
     }
   ]
 }

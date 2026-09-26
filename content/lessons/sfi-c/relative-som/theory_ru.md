@@ -18,8 +18,8 @@ Boken som jag läste var bra. — Книга, которую я читал, бы
 - Если som — **дополнение** придаточного предложения, его **можно опустить**.
 
 ```example
-Mannen som bor här är min granne. — som — подлежащее при «bor» — опустить нельзя.
-Boken (som) jag läste var bra. — som — дополнение при «läste» — можно опустить.
+Mannen som bor här är min granne. – som — подлежащее при «bor» – опустить нельзя.
+Boken (som) jag läste var bra. – som — дополнение при «läste» – можно опустить.
 ```
 
 Простая проверка: посмотрите, что идёт сразу после som. Если сразу следует

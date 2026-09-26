@@ -19,8 +19,7 @@ For an action happening at this very moment — closest to an English
 progressive — Swedish uses **hålla på att** + infinitive.
 
 ```example
-Jag håller på att laga mat just nu. — I'm (in the middle of) cooking right
-now.
+Jag håller på att laga mat just nu. — I'm (in the middle of) cooking right now.
 ```
 
 Literally "hold on to," this construction captures the sense of being
@@ -33,8 +32,7 @@ usually or typically does, without pinning down a specific instance.
 
 ```example
 Hon brukar träna varje morgon. — She usually exercises every morning.
-Vi brukade åka dit på somrarna. — We used to go there in the summers.
-(preterite: a past habit)
+Vi brukade åka dit på somrarna. — We used to go there in the summers. (preterite: a past habit)
 ```
 
 ## Getting something done: få gjort
@@ -44,8 +42,7 @@ finally achieved, often against some difficulty or effort.
 
 ```example
 Jag fick äntligen bilen lagad. — I finally got the car fixed.
-Hon fick allt gjort innan mötet. — She got everything done before the
-meeting.
+Hon fick allt gjort innan mötet. — She got everything done before the meeting.
 ```
 
 ## In short

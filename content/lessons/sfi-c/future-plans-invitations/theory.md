@@ -26,8 +26,7 @@ Vi ska ha en fest på lördag. — We're having a party on Saturday.
 A simple, everyday way to invite someone is just to ask if they want to come:
 
 ```example
-Vill du komma på middag på lördag? — Do you want to come for dinner on
-Saturday?
+Vill du komma på middag på lördag? — Do you want to come for dinner on Saturday?
 ```
 
 Answering an invitation is just as short — **tacka ja** to accept, **tacka
@@ -42,7 +41,7 @@ Jag måste tacka nej den här gången. — I have to decline this time.
 Put together, a short exchange about weekend plans might sound like this:
 
 ```example
-— Vad har du för planer i helgen?
-— Jag tänker träffa vänner. Vill du komma på fest på lördag?
-— Ja, jag tackar ja!
+– Vad har du för planer i helgen?
+– Jag tänker träffa vänner. Vill du komma på fest på lördag?
+– Ja, jag tackar ja!
 ```

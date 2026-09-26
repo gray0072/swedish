@@ -10,8 +10,7 @@ First comes a **körkortstillstånd** (learner's permit), which lets you start
 professional **körlärare** at a **trafikskola** (driving school).
 
 ```example
-Man måste ha körkortstillstånd innan man övningskör. — You need a learner's
-permit before practising to drive.
+Man måste ha körkortstillstånd innan man övningskör. — You need a learner's permit before practising to drive.
 Min körlärare är väldigt tålmodig. — My driving instructor is very patient.
 ```
 
@@ -30,8 +29,7 @@ sign), keep to your **körfält** (lane), watch the **hastighetsbegränsning**
 always wear your **bilbälte** (seatbelt).
 
 ```example
-Det är viktigt att följa trafikreglerna. — It's important to follow the
-traffic rules.
+Det är viktigt att följa trafikreglerna. — It's important to follow the traffic rules.
 Stanna vid rött trafikljus. — Stop at a red traffic light.
 Håll dig i höger körfält. — Keep to the right-hand lane.
 Kom ihåg att ta på dig bilbältet. — Remember to put on your seatbelt.
@@ -41,6 +39,5 @@ If things go wrong despite all that, the word you hope never to need is
 **trafikolycka** — a traffic accident.
 
 ```example
-Det var en trafikolycka på motorvägen. — There was a traffic accident on the
-motorway.
+Det var en trafikolycka på motorvägen. — There was a traffic accident on the motorway.
 ```

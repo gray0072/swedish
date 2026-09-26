@@ -9,7 +9,7 @@ Dikten har tre strofer med fyra verser i varje. — The poem has three stanzas w
 ```
 
 ```example
-Sista ordet i varje rad rimmar — det kallas helt enkelt rim. — The last word in each line rhymes — that's simply called rhyme.
+Sista ordet i varje rad rimmar – det kallas helt enkelt rim. — The last word in each line rhymes – that's simply called rhyme.
 ```
 
 ## Bildspråk: metafor, liknelse, symbol

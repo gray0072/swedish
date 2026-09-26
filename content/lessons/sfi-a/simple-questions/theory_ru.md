@@ -23,9 +23,9 @@ Kommer du från Sverige? — Ты из Швеции?
 глаголами берут **gör**.
 
 ```example
-Är du gift? — Ja, det är jag. / Nej, det är jag inte.
-Har du barn? — Ja, det har jag.
-Bor du i Malmö? — Ja, det gör jag. / Nej, det gör jag inte.
+Är du gift? – Ja, det är jag. / Nej, det är jag inte.
+Har du barn? – Ja, det har jag.
+Bor du i Malmö? – Ja, det gör jag. / Nej, det gör jag inte.
 ```
 
 Если ответа нет, есть две спасательные фразы: **Jag vet inte** (я не знаю) и
@@ -36,8 +36,8 @@ Bor du i Malmö? — Ja, det gör jag. / Nej, det gör jag inte.
 Вот ловушка. Если вопрос содержит **inte**, то «да» будет не **Ja**, а **Jo**.
 
 ```example
-Bor du här? — Ja, jag bor här. — Ты живёшь здесь? — Да.
-Bor du inte här? — Jo, jag bor här. — Ты разве не живёшь здесь? — Живу.
+Bor du här? – Ja, jag bor här. — Ты живёшь здесь? – Да.
+Bor du inte här? – Jo, jag bor här. — Ты разве не живёшь здесь? – Живу.
 ```
 
 Правило короткое: **есть inte в вопросе → отвечай Jo**. Слово **Nej** работает

@@ -12,21 +12,21 @@
 | 5 | (нет) | ett hus -> hus |
 
 ```example
-en flicka — flickor — девочка — девочки
-en bil — bilar — машина — машины
-en lägenhet — lägenheter — квартира — квартиры
-ett äpple — äpplen — яблоко — яблоки
-ett hus — hus — дом — дома
+en flicka – flickor — девочка – девочки
+en bil – bilar — машина – машины
+en lägenhet – lägenheter — квартира – квартиры
+ett äpple – äpplen — яблоко – яблоки
+ett hus – hus — дом – дома
 ```
 
 Ещё примеры для каждой модели:
 
 ```example
-en gata — gator — улица — улицы
-en hund — hundar — собака — собаки
-en biljett — biljetter — билет — билеты
-ett hjärta — hjärtan — сердце — сердца
-ett bord — bord — стол — столы
+en gata – gator — улица – улицы
+en hund – hundar — собака – собаки
+en biljett – biljetter — билет – билеты
+ett hjärta – hjärtan — сердце – сердца
+ett bord – bord — стол – столы
 ```
 
 Некоторые тенденции помогают как ориентир: многие **en-слова на -a** получают

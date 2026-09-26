@@ -47,13 +47,13 @@
     {
       "id": "q-complex-compounds-gap-1",
       "type": "gap",
-      "prompt": { "sv": "arbets___spolitik — политика на рынке труда (недостающий элемент)" },
+      "prompt": { "sv": "arbets___spolitik – политика на рынке труда (недостающий элемент)" },
       "answer": ["marknad"]
     },
     {
       "id": "q-complex-compounds-gap-2",
       "type": "gap",
-      "prompt": { "sv": "sjuk___spersonal — медицинский персонал (недостающий элемент, «уход»)" },
+      "prompt": { "sv": "sjuk___spersonal – медицинский персонал (недостающий элемент, «уход»)" },
       "answer": ["vård"]
     },
     {

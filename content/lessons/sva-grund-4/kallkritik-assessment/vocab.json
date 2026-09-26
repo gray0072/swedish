@@ -113,7 +113,7 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett syfte", "defSg": "syftet", "indefPl": "syften", "defPl": "syftena" },
-      "example": { "sv": "Vad är syftet med den här texten — att informera eller att övertyga?", "ru": "Какова цель этого текста — информировать или убеждать?", "en": "What is the purpose of this text — to inform or to persuade?" }
+      "example": { "sv": "Vad är syftet med den här texten – att informera eller att övertyga?", "ru": "Какова цель этого текста — информировать или убеждать?", "en": "What is the purpose of this text — to inform or to persuade?" }
     },
     {
       "id": "desinformation",

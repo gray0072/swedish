@@ -30,8 +30,8 @@ Jag gillar min lärare. — Мне нравится мой учитель.
 Отвечать на вопрос коротко очень удобно:
 
 ```example
-Gillar du kaffe? — Ja, det gör jag.
-Gillar du fisk? — Nej, det gör jag inte.
+Gillar du kaffe? – Ja, det gör jag.
+Gillar du fisk? – Nej, det gör jag inte.
 ```
 
 Сильнее, чем «gillar»: **Jag älskar choklad.** А **Jag hatar...** — очень сильное

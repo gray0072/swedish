@@ -4,7 +4,7 @@ film som handlade om..."** ("I saw a film that was about...").
 
 ```example
 Jag såg en film som handlade om en familj som flyttar till Sverige. — I saw a film about a family that moves to Sweden.
-Vilken genre är det — drama eller komedi? — What genre is it — drama or comedy?
+Vilken genre är det – drama eller komedi? — What genre is it – drama or comedy?
 ```
 
 For a book, you can say where the **handling** (plot) **utspelar sig** (takes
@@ -22,7 +22,7 @@ recommend...") or **"Det var ganska spännande/tråkigt"** ("It was pretty
 exciting/boring").
 
 ```example
-Jag skulle rekommendera den boken — den var väldigt spännande. — I would recommend that book — it was very exciting.
+Jag skulle rekommendera den boken – den var väldigt spännande. — I would recommend that book – it was very exciting.
 Filmen var lite tråkig i mitten, tycker jag. — I think the film was a bit boring in the middle.
 ```
 

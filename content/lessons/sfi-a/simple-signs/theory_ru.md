@@ -44,9 +44,11 @@ TILLTRÄDE FÖRBJUDET — проход запрещён
 
 ```example
 TOALETT / WC — туалет
-DAMER — женский; HERRAR — мужской
+DAMER — женский
+HERRAR — мужской
 KASSA — касса
-HISS — лифт; TRAPPA — лестница
+HISS — лифт
+TRAPPA — лестница
 INFORMATION — справочная
 RESERVERAT — занято, зарезервировано
 ```

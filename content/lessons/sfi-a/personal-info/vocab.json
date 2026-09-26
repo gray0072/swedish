@@ -106,7 +106,7 @@
       "pos": "noun",
       "gender": "ett",
       "forms": { "indefSg": "ett civilstånd", "defSg": "civilståndet", "indefPl": "civilstånd", "defPl": "civilstånden" },
-      "example": { "sv": "Vad är ditt civilstånd — gift eller ogift?", "ru": "Какое у тебя семейное положение — женат/замужем или нет?", "en": "What is your marital status — married or single?" }
+      "example": { "sv": "Vad är ditt civilstånd – gift eller ogift?", "ru": "Какое у тебя семейное положение — женат/замужем или нет?", "en": "What is your marital status — married or single?" }
     },
     {
       "id": "kon",

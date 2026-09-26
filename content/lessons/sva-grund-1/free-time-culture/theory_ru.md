@@ -5,7 +5,7 @@ på fritiden. Man börjar ofta med att berätta vad den **handlar om**
 
 ```example
 Jag såg en film som handlade om en familj som flyttar till Sverige. — Я посмотрел(а) фильм о семье, которая переезжает в Швецию.
-Vilken genre är det — drama eller komedi? — Какой это жанр — драма или комедия?
+Vilken genre är det – drama eller komedi? — Какой это жанр – драма или комедия?
 ```
 
 För en bok kan man säga var **handlingen** («сюжет, действие») **utspelar sig**
@@ -23,7 +23,7 @@ Efter att ha berättat om handlingen ger man ofta sin åsikt och kanske en
 довольно захватывающе/скучно»).
 
 ```example
-Jag skulle rekommendera den boken — den var väldigt spännande. — Я бы порекомендовал(а) эту книгу — она была очень захватывающей.
+Jag skulle rekommendera den boken – den var väldigt spännande. — Я бы порекомендовал(а) эту книгу – она была очень захватывающей.
 Filmen var lite tråkig i mitten, tycker jag. — По-моему, фильм немного затянут в середине.
 ```
 

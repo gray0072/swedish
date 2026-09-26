@@ -19,7 +19,7 @@
       "sv": "varsågod",
       "translations": { "ru": "пожалуйста (в ответ на спасибо / при вручении чего-то)", "en": "you're welcome / here you go" },
       "pos": "interjection",
-      "example": { "sv": "— Tack! — Varsågod!", "ru": "— Спасибо! — Пожалуйста!", "en": "\"Thanks!\" \"You're welcome!\"" }
+      "example": { "sv": "– Tack! – Varsågod!", "ru": "— Спасибо! — Пожалуйста!", "en": "\"Thanks!\" \"You're welcome!\"" }
     },
     {
       "id": "forlat",
@@ -47,7 +47,7 @@
       "sv": "ingen fara",
       "translations": { "ru": "ничего страшного", "en": "no problem, it's fine" },
       "pos": "phrase",
-      "example": { "sv": "— Förlåt! — Ingen fara.", "ru": "— Извини! — Ничего страшного.", "en": "\"Sorry!\" \"No problem.\"" }
+      "example": { "sv": "– Förlåt! – Ingen fara.", "ru": "— Извини! — Ничего страшного.", "en": "\"Sorry!\" \"No problem.\"" }
     },
     {
       "id": "varsagod-och-sitt",
@@ -68,7 +68,7 @@
       "sv": "det var så lite",
       "translations": { "ru": "не за что, пустяки", "en": "it was nothing, don't mention it" },
       "pos": "phrase",
-      "example": { "sv": "— Tack så mycket! — Det var så lite.", "ru": "— Большое спасибо! — Не за что.", "en": "\"Thank you very much!\" \"Don't mention it.\"" }
+      "example": { "sv": "– Tack så mycket! – Det var så lite.", "ru": "— Большое спасибо! — Не за что.", "en": "\"Thank you very much!\" \"Don't mention it.\"" }
     }
   ]
 }

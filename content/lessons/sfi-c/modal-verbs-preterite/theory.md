@@ -23,11 +23,9 @@ Negation works exactly like in the present tense too: **inte** goes right
 after the modal, before the infinitive.
 
 ```example
-Jag kunde inte komma igår, jag var sjuk. — I couldn't come yesterday, I was
-ill.
+Jag kunde inte komma igår, jag var sjuk. — I couldn't come yesterday, I was ill.
 Barnet ville inte äta grönsaker. — The child didn't want to eat vegetables.
-Vi fick inte parkera där, det var förbjudet. — We weren't allowed to park
-there, it was forbidden.
+Vi fick inte parkera där, det var förbjudet. — We weren't allowed to park there, it was forbidden.
 ```
 
 These four forms let you narrate a whole story about the past: what you
@@ -35,7 +33,5 @@ could or couldn't do, what you wanted, what was planned, and what you were
 or weren't allowed to.
 
 ```example
-Vi skulle träffas klockan sex, men jag kom sent — jag kunde inte hitta min
-cykel! — We were going to meet at six, but I was late — I couldn't find my
-bike!
+Vi skulle träffas klockan sex, men jag kom sent – jag kunde inte hitta min cykel! — We were going to meet at six, but I was late – I couldn't find my bike!
 ```

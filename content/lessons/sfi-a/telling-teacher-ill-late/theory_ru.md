@@ -11,10 +11,8 @@ Jag kommer sent. — Я приду поздно (опоздаю).
 
 ```example
 Jag är sjuk och kan inte komma idag. — Я болею и не смогу прийти сегодня.
-Jag har feber och måste stanna hemma. — У меня температура, мне нужно
-остаться дома.
-Bussen är sen, jag blir försenad — kanske tio minuter. — Автобус опаздывает,
-я задержусь — может быть, на десять минут.
+Jag har feber och måste stanna hemma. — У меня температура, мне нужно остаться дома.
+Bussen är sen, jag blir försenad – kanske tio minuter. — Автобус опаздывает, я задержусь – может быть, на десять минут.
 ```
 
 Во многих школах SFI также нужно **anmäla frånvaro** — сообщить об
@@ -22,8 +20,7 @@ Bussen är sen, jag blir försenad — kanske tio minuter. — Автобус о
 а не после.
 
 ```example
-Jag måste anmäla frånvaro på morgonen. — Мне нужно сообщить об отсутствии
-утром.
+Jag måste anmäla frånvaro på morgonen. — Мне нужно сообщить об отсутствии утром.
 ```
 
 Короткое письменное сообщение строится так же, как и устное — просто
@@ -31,8 +28,7 @@ Jag måste anmäla frånvaro på morgonen. — Мне нужно сообщит�
 вернуться.
 
 ```example
-Hej! Jag är sjuk idag och kommer inte till lektionen. Vi ses imorgon
-istället. — Привет! Я сегодня болею и не приду на урок. Увидимся завтра.
+Hej! Jag är sjuk idag och kommer inte till lektionen. Vi ses imorgon istället. — Привет! Я сегодня болею и не приду на урок. Увидимся завтра.
 ```
 
 Если вы заранее знаете, что опоздаете, а не будете отсутствовать полностью,

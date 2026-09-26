@@ -28,7 +28,7 @@
     {
       "id": "sin-sitt-sina-gap-4",
       "type": "gap",
-      "prompt": { "sv": "___ bil är ny. Han köpte den igår. (Его машина / His car — не подлежащее того же предложения)" },
+      "prompt": { "sv": "___ bil är ny. Han köpte den igår. (Его машина / His car – не подлежащее того же предложения)" },
       "answer": ["Hans", "hans"],
       "acceptAlso": []
     },

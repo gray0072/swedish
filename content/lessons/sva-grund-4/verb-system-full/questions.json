@@ -106,7 +106,7 @@
     {
       "id": "q-verb-system-full-gap-4",
       "type": "gap",
-      "prompt": { "sv": "Hon ___ redan skrivit brevet när jag kom. (плюсквамперфект — вспомогательный глагол)" },
+      "prompt": { "sv": "Hon ___ redan skrivit brevet när jag kom. (плюсквамперфект – вспомогательный глагол)" },
       "answer": ["hade"]
     },
     {

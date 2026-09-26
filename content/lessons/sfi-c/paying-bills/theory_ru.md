@@ -24,8 +24,7 @@ Förfallodagen är den 27:e. — Срок оплаты — 27-е число.
 
 ```example
 Jag har hyran på autogiro. — У меня аренда списывается автоплатежом.
-Räkningen är försenad, så jag fick en påminnelseavgift. — Счёт просрочен, поэтому мне
-пришла плата за напоминание.
+Räkningen är försenad, så jag fick en påminnelseavgift. — Счёт просрочен, поэтому мне пришла плата за напоминание.
 ```
 
 Счета, которые приходят **månadsvis** (ежемесячно), проще всего планировать —

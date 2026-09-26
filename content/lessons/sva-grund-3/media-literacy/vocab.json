@@ -133,7 +133,7 @@
       "sv": "Vilket syfte har texten?",
       "translations": { "ru": "Какова цель текста?", "en": "What is the purpose of the text?" },
       "pos": "phrase",
-      "example": { "sv": "Fråga dig alltid: Vilket syfte har texten — att informera eller att övertyga?", "ru": "Всегда спрашивай себя: «Какова цель текста — информировать или убедить?»", "en": "Always ask yourself: What is the purpose of the text — to inform or to persuade?" }
+      "example": { "sv": "Fråga dig alltid: Vilket syfte har texten – att informera eller att övertyga?", "ru": "Всегда спрашивай себя: «Какова цель текста — информировать или убедить?»", "en": "Always ask yourself: What is the purpose of the text — to inform or to persuade?" }
     }
   ]
 }

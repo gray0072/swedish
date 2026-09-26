@@ -25,11 +25,9 @@ Jag har INTE sett filmen. — Я НЕ видел фильм. (фокусное �
 связной речи — это совершенно нормально, а не небрежное произношение.
 
 ```example
-Jag har sett det. → Jag 'ar sett de. — Я это видел. (har теряет h; det
-звучит как «de»)
+Jag har sett det. → Jag 'ar sett de. — Я это видел. (har теряет h; det звучит как «de»)
 Fisk och skaldjur. → Fisk å skaldjur. — Рыба и морепродукты. (och → å)
-De sa att de skulle komma. → Dom sa att dom skulle komma. — Они сказали, что
-придут. (de → dom)
+De sa att de skulle komma. → Dom sa att dom skulle komma. — Они сказали, что придут. (de → dom)
 ```
 
 Ничего из этого не отражается на письме — вы пишете **har**, **och**,

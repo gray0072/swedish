@@ -5,8 +5,7 @@ at all.
 ## Cause: på grund av, till följd av
 
 ```example
-Tåget var sent på grund av regnet. — The train was late because of the
-rain.
+Tåget var sent på grund av regnet. — The train was late because of the rain.
 Priserna steg till följd av kriget. — Prices rose as a result of the war.
 ```
 
@@ -22,16 +21,14 @@ Tåget var sent eftersom det regnade. — the same idea as a full clause
 ## Manner: med, utan
 
 ```example
-Hon tog emot priset med stor glädje. — She accepted the prize with great
-joy.
+Hon tog emot priset med stor glädje. — She accepted the prize with great joy.
 Han svarade utan tvekan. — He answered without hesitation.
 ```
 
 ## Time: under, vid
 
 ```example
-Vi bodde där under hela sommaren. — We lived there throughout the whole
-summer.
+Vi bodde där under hela sommaren. — We lived there throughout the whole summer.
 Hon var på plats vid tillfället. — She was on the scene at the time.
 ```
 
@@ -43,8 +40,7 @@ sentence's main point — a useful tool for tightening a paragraph without
 losing information.
 
 ```example
-Mötet flyttades på grund av vädret. — The meeting was moved because of the
-weather. (one tight phrase, not a whole "eftersom det var dåligt väder")
+Mötet flyttades på grund av vädret. — The meeting was moved because of the weather. (one tight phrase, not a whole "eftersom det var dåligt väder")
 ```
 
 ## In short

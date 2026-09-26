@@ -3,10 +3,8 @@ Start with opening an account and paying in or out.
 
 ```example
 Jag vill öppna ett konto. — I want to open an account.
-Jag ska sätta in lönen på kontot. — I need to deposit my salary into the
-account.
-Jag behöver ta ut lite pengar från bankomaten. — I need to withdraw some
-money from the ATM.
+Jag ska sätta in lönen på kontot. — I need to deposit my salary into the account.
+Jag behöver ta ut lite pengar från bankomaten. — I need to withdraw some money from the ATM.
 ```
 
 **Kontonummer** identifies the account, and **kod** is the PIN code you type
@@ -40,8 +38,6 @@ Finally, if the bank lends you money — for a home, for instance — that's
 **att låna**, and the cost of borrowing is the **ränta**.
 
 ```example
-Vi vill låna pengar för att köpa en lägenhet. — We want to borrow money to
-buy an apartment.
-Räntan på lånet höjdes i år. — The interest rate on the loan went up this
-year.
+Vi vill låna pengar för att köpa en lägenhet. — We want to borrow money to buy an apartment.
+Räntan på lånet höjdes i år. — The interest rate on the loan went up this year.
 ```

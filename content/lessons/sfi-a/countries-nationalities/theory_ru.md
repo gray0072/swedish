@@ -27,8 +27,8 @@ Jag talar svenska. — Я говорю по-шведски.
 рука сама тянется написать *Svenska*. Не надо.
 
 ```example
-Sverige — svensk — svenska
-Turkiet — turkisk — turkiska
+Sverige – svensk – svenska
+Turkiet – turkisk – turkiska
 ```
 
 Заметьте, как удобно устроены слова: почти все языки заканчиваются на **-ska**

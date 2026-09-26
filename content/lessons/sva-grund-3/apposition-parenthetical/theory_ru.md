@@ -10,10 +10,8 @@ sats** (вставная конструкция).
 
 ```example
 Anna, min syster, kommer imorgon. — Анна, моя сестра, приедет завтра.
-Stockholm, Sveriges huvudstad, ligger vid vattnet. — Стокгольм, столица
-Швеции, находится у воды.
-Ingvar Kamprad, grundaren av IKEA, föddes i Småland. — Ингвар Кампрад,
-основатель IKEA, родился в Смоланде.
+Stockholm, Sveriges huvudstad, ligger vid vattnet. — Стокгольм, столица Швеции, находится у воды.
+Ingvar Kamprad, grundaren av IKEA, föddes i Småland. — Ингвар Кампрад, основатель IKEA, родился в Смоланде.
 ```
 
 Обе части приложения относятся к *одному и тому же* — «Anna» и «min syster»
@@ -26,12 +24,9 @@ Ingvar Kamprad, grundaren av IKEA, föddes i Småland. — Ингвар Камп
 отделённая запятыми (или, для более сильной паузы, тире).
 
 ```example
-Det var, tyvärr, för sent för att ändra planerna. — Это было, к сожалению,
-слишком поздно, чтобы менять планы.
-Det är, enligt min mening, det bästa alternativet. — Это, по моему мнению,
-лучший вариант.
-Priset steg — för övrigt inte för första gången — med tio procent. — Цена
-выросла — кстати, не в первый раз — на десять процентов.
+Det var, tyvärr, för sent för att ändra planerna. — Это было, к сожалению, слишком поздно, чтобы менять планы.
+Det är, enligt min mening, det bästa alternativet. — Это, по моему мнению, лучший вариант.
+Priset steg – för övrigt inte för första gången – med tio procent. — Цена выросла – кстати, не в первый раз – на десять процентов.
 ```
 
 В отличие от приложения, вставная конструкция ничего не переименовывает —

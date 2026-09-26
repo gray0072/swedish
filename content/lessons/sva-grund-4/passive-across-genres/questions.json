@@ -76,7 +76,7 @@
     {
       "id": "q-passive-across-genres-gap-2",
       "type": "gap",
-      "prompt": { "sv": "Data samlas ___ varje månad. (собирать данные — устойчивое выражение)" },
+      "prompt": { "sv": "Data samlas ___ varje månad. (собирать данные – устойчивое выражение)" },
       "answer": ["in"]
     },
     {

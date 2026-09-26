@@ -29,7 +29,7 @@
     {
       "id": "q-modal-verbs-tenses-gap-4",
       "type": "gap",
-      "prompt": { "sv": "Igår ___ jag jobba hela dagen. (måste, вчера — прошедшее)" },
+      "prompt": { "sv": "Igår ___ jag jobba hela dagen. (måste, вчера – прошедшее)" },
       "answer": ["måste"],
       "acceptAlso": []
     },

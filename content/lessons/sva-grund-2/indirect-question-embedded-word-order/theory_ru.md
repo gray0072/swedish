@@ -6,8 +6,7 @@
 
 ```example
 Var bor du? — Где ты живёшь? (прямой: глагол сразу после var)
-Jag undrar var du bor. — Интересно, где ты живёшь. (косвенный: подлежащее
-перед глаголом)
+Jag undrar var du bor. — Интересно, где ты живёшь. (косвенный: подлежащее перед глаголом)
 ```
 
 В прямом вопросе спрягаемый глагол идёт сразу после вопросительного слова.
@@ -16,10 +15,8 @@ Jag undrar var du bor. — Интересно, где ты живёшь. (кос
 придаточном предложении.
 
 ```example
-Vad heter hon? → Vet du vad hon heter? — Как её зовут? → Ты знаешь, как её
-зовут?
-Vad var klockan? → Hon frågade vad klockan var. — Который был час? → Она
-спросила, который был час.
+Vad heter hon? → Vet du vad hon heter? — Как её зовут? → Ты знаешь, как её зовут?
+Vad var klockan? → Hon frågade vad klockan var. — Который был час? → Она спросила, который был час.
 ```
 
 ## Без вопросительного слова: используем om
@@ -28,8 +25,7 @@ Vad var klockan? → Hon frågade vad klockan var. — Который был ч�
 («ли»).
 
 ```example
-Kommer han? → Jag vet inte om han kommer. — Он придёт? → Я не знаю, придёт
-ли он.
+Kommer han? → Jag vet inte om han kommer. — Он придёт? → Я не знаю, придёт ли он.
 ```
 
 ## Когда вопросительное слово — подлежащее: добавляем som
@@ -39,10 +35,8 @@ ringde?*), встроенному предложению нужен **som** ср
 предложения вовсе не будет подлежащего.
 
 ```example
-Vem ringde? → Ingen vet vem som ringde. — Кто звонил? → Никто не знает, кто
-звонил.
-Vad hände? → Polisen undersöker vad som hände. — Что случилось? → Полиция
-расследует, что случилось.
+Vem ringde? → Ingen vet vem som ringde. — Кто звонил? → Никто не знает, кто звонил.
+Vad hände? → Polisen undersöker vad som hände. — Что случилось? → Полиция расследует, что случилось.
 ```
 
 ## Коротко

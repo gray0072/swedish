@@ -44,8 +44,7 @@ Kom hit! Jag är här. — Иди сюда! Я здесь.
 состояния (**vara, bo, sitta, stå**) берёт форму местоположения.
 
 ```example
-Katten klättrar upp. Katten är uppe. — Кошка забирается наверх. Кошка
-наверху.
+Katten klättrar upp. Katten är uppe. — Кошка забирается наверх. Кошка наверху.
 ```
 
 ## Коротко

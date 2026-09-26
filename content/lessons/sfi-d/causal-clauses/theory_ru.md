@@ -2,7 +2,7 @@
 
 ```example
 Eftersom det regnade stannade vi hemma. — Так как шёл дождь, мы остались дома.
-Varför stannade du hemma? — Därför att det regnade. — Почему ты остался(лась) дома? — Потому что шёл дождь.
+Varför stannade du hemma? – Därför att det regnade. — Почему ты остался(лась) дома? – Потому что шёл дождь.
 ```
 
 **På grund av** («из-за») — это предлог, поэтому после него идёт существительное, а не целое придаточное — удобно для короткой, формальной причины.

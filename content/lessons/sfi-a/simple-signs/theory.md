@@ -46,9 +46,11 @@ TILLTRÄDE FÖRBJUDET — no admittance
 
 ```example
 TOALETT / WC — toilet
-DAMER — ladies; HERRAR — gentlemen
+DAMER — ladies
+HERRAR — gentlemen
 KASSA — checkout, cash desk
-HISS — lift; TRAPPA — stairs
+HISS — lift
+TRAPPA — stairs
 INFORMATION — information desk
 RESERVERAT — reserved
 ```
