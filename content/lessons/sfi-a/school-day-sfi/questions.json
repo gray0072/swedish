@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-school-day-sfi-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
@@ -19,14 +19,14 @@
       ]
     },
     {
-      "id": "q-school-day-sfi-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Lärare» — это учитель.", "en": "\"Lärare\" means teacher." },
       "answer": true
     },
     {
-      "id": "q-school-day-sfi-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Rast» и «lektion» означают одно и то же.", "en": "\"Rast\" and \"lektion\" mean the same thing." },
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "q-school-day-sfi-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как по-шведски «домашнее задание»?", "en": "How do you say \"homework\" in Swedish?" },
@@ -45,7 +45,7 @@
       "answer": 0
     },
     {
-      "id": "q-school-day-sfi-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Когда начинается урок?»", "en": "Build the question: \"When does the lesson start?\"" },
@@ -53,7 +53,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-school-day-sfi-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vi har prov på ___." },

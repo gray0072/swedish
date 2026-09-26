@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-shopping-phrases-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери вопрос: «Сколько это стоит?»", "en": "Build the question: \"How much does it cost?\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-shopping-phrases-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери ответ: «Это стоит двадцать крон.»", "en": "Build the answer: \"It costs twenty kronor.\"" },
@@ -23,7 +23,7 @@
       "answer": [1, 3, 2, 0]
     },
     {
-      "id": "q-shopping-phrases-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "q-shopping-phrases-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В большинстве шведских магазинов можно заплатить картой.", "en": "In most Swedish shops you can pay by card." },
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "q-shopping-phrases-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Правильно говорить «en kvitto».", "en": "\"En kvitto\" is correct." },
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "q-shopping-phrases-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Kan jag betala med ___? (картой / by card)" },
@@ -65,7 +65,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-shopping-phrases-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Tack, det var ___. (это всё / that's all)" },
@@ -73,7 +73,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-shopping-phrases-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как попросить чек?", "en": "How do you ask for a receipt?" },
@@ -81,7 +81,7 @@
       "answer": 0
     },
     {
-      "id": "q-shopping-phrases-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 3,
       "audioText": "Det kostar trettio kronor.",

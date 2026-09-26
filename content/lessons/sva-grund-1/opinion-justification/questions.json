@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-opinion-justification-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери фразу: «Я считаю, что общественный транспорт недостаточно хорош.»", "en": "Build the sentence: \"I think public transport isn't good enough.\"" },
@@ -17,7 +17,7 @@
       "answer": [6, 4, 2, 1, 5, 7, 0, 3]
     },
     {
-      "id": "q-opinion-justification-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «С одной стороны, удобно жить в городе.»", "en": "Build the sentence: \"On the one hand, it's convenient to live in the city.\"" },
@@ -25,7 +25,7 @@
       "answer": [8, 3, 1, 5, 9, 0, 2, 4, 6, 7]
     },
     {
-      "id": "q-opinion-justification-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь союзы и фразы с переводом", "en": "Match the conjunctions and phrases with their translation" },
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "q-opinion-justification-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 3,
       "prompt": {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "q-opinion-justification-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -61,7 +61,7 @@
       "answer": true
     },
     {
-      "id": "q-opinion-justification-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag tycker att bussarna ofta är sena, ___ det är för få bussar. (так как)" },
@@ -69,7 +69,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-opinion-justification-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -80,7 +80,7 @@
       "answer": 0
     },
     {
-      "id": "q-opinion-justification-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

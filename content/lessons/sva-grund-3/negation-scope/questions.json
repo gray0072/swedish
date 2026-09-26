@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-negation-scope-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Где стоит «inte» в главном предложении?", "en": "Where does \"inte\" go in a main clause?" },
@@ -13,7 +13,7 @@
       "answer": 0
     },
     {
-      "id": "q-negation-scope-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Где стоит «inte» в придаточном предложении (правило BIFF)?", "en": "Where does \"inte\" go in a subordinate clause (the BIFF rule)?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-negation-scope-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "«Alla kom inte.» отрицает что?", "en": "What does \"Alla kom inte.\" negate?" },
@@ -33,7 +33,7 @@
       "answer": 0
     },
     {
-      "id": "q-negation-scope-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "«Inte alla kom.» отрицает что, в отличие от предыдущего примера?", "en": "What does \"Inte alla kom.\" negate, compared to the previous example?" },
@@ -45,14 +45,14 @@
       "answer": 1
     },
     {
-      "id": "q-negation-scope-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Ingen», «inget», «inga» заменяют «en/ett + существительное», а не сочетаются с «inte».", "en": "\"Ingen\", \"inget\", \"inga\" replace \"en/ett + noun\", rather than combining with \"inte\"." },
       "answer": true
     },
     {
-      "id": "q-negation-scope-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Knappast» выражает такое же сильное отрицание, как «aldrig».", "en": "\"Knappast\" expresses as strong a negation as \"aldrig\"." },
@@ -63,19 +63,19 @@
       }
     },
     {
-      "id": "q-negation-scope-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon sa att hon ___ hade sett filmen. (BIFF: inte perede verbet)" },
       "answer": ["inte"]
     },
     {
-      "id": "q-negation-scope-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag har ___ svar rätt. (никакого правильного ответа)" },
       "answer": ["inget"]
     },
     {
-      "id": "q-negation-scope-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово отрицания с его переводом", "en": "Match the negation word with its translation" },

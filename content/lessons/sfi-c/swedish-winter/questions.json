@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-swedish-winter-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «На тротуаре гололёд.»", "en": "Build the phrase: \"There's black ice on the sidewalk.\"" },
@@ -14,7 +14,7 @@
       "answer": [1, 4, 3, 0, 2]
     },
     {
-      "id": "q-swedish-winter-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Не забудь тёплые варежки!»", "en": "Build the phrase: \"Don't forget warm mittens!\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 0, 2, 1]
     },
     {
-      "id": "q-swedish-winter-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "q-swedish-winter-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "id": "q-swedish-winter-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "q-swedish-winter-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag måste ___ trappan innan jag går till jobbet. (чистить снег)" },
@@ -70,7 +70,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-swedish-winter-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Det är tio ___ ute idag. (минус десять градусов)" },
@@ -78,7 +78,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-swedish-winter-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -89,7 +89,7 @@
       "answer": 0
     },
     {
-      "id": "q-swedish-winter-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

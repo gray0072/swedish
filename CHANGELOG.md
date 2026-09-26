@@ -773,3 +773,17 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - `npm run validate` now checks all ~24 000 questions: no two options that look (or, for
   listening, sound) the same, and every typed answer accepts the lesson's own spelling.
 - The accent lesson says honestly that the device voice reads both words of a pair the same.
+
+## 2026-09-26 — One id format for questions, stale ids dropped from saves
+
+- **Every question id is now `<level>/<slug>/<local>`** (SPEC §5.5). Handwritten ids had
+  grown four shapes (`q-<slug>-gap-1`, `q-alpha-order-1`, `q-p5d-gap-1`, `<slug>-mc-1`), and
+  56 of them were shared by two lessons — `sfi-b/family` and `sfi-b/family-relations` both had
+  `q-fam-order-1`, so their review progress was mixed up. All 3 956 were rewritten to a local
+  `<type>-<n>` (`mc-1`, `gap-3`), which the loader prefixes with the lesson id; generated
+  questions follow as `<level>/<slug>/gen-…`. The schema rejects any other local id, and the
+  loader and `npm run validate` reject a lesson whose id, slug or first level disagrees with
+  its folder. Lesson ids were already `<level>/<slug>` everywhere.
+- **Loading a save drops ids the content no longer has** — lessons, SRS items, buildings,
+  history cards and dialogues — from localStorage, an imported file and the cloud alike.
+  Review progress from before this change is discarded with the old question ids.

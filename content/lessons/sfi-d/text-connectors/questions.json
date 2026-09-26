@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-text-connectors-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое слово вводит контраст («с другой стороны»)?", "en": "Which word introduces a contrast (\"on the other hand\")?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-text-connectors-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что добавляет ещё один довод в том же направлении?", "en": "What adds another point in the same direction?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-text-connectors-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Han är sjuk, ___ kommer han inte idag. (значит)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-text-connectors-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Квартира большая. К тому же аренда низкая.»", "en": "Build the sentence: \"The flat is big. Moreover, the rent is low.\"" },
@@ -38,7 +38,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-text-connectors-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-text-connectors-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Å andra sidan» и «däremot» оба означают «с другой стороны».", "en": "\"Å andra sidan\" and \"däremot\" both mean \"on the other hand\"." },
       "answer": true
     },
     {
-      "id": "q-text-connectors-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Till exempel» вводит контраст, а не пример.", "en": "\"Till exempel\" introduces a contrast, not an example." },

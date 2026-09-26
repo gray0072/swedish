@@ -94,6 +94,9 @@ if (existsSync(lessonsRoot)) {
       if (meta.id !== `${level}/${slug}`) {
         errors.push(`${level}/${slug}: lesson id is "${meta.id}", expected "${level}/${slug}"`);
       }
+      if (meta.slug !== slug || meta.levels[0] !== level) {
+        errors.push(`${level}/${slug}: slug and levels[0] must match the folder`);
+      }
       prerequisites.push([meta.id, meta.prerequisites]);
 
       for (const levelId of meta.levels) {
@@ -139,7 +142,12 @@ if (existsSync(lessonsRoot)) {
       }
 
       const generated = expandGenerators(questionsFile.generators, vocab, meta.id);
-      const pool = [...questionsFile.items, ...generated];
+      // Same namespacing as the loader: every question id is `<level>/<slug>/<local>`.
+      const authored = (questionsFile.items as import('../src/content/schema').Question[]).map((q) => ({
+        ...q,
+        id: `${meta.id}/${q.id}`,
+      }));
+      const pool = [...authored, ...generated];
       if (pool.length < meta.quiz.questionsPerRun) {
         errors.push(
           `${meta.id}: pool has only ${pool.length} questions, needs >= ${meta.quiz.questionsPerRun}`,
@@ -150,7 +158,7 @@ if (existsSync(lessonsRoot)) {
         if (seenIds.has(q.id)) errors.push(`${meta.id}: duplicate question id "${q.id}"`);
         seenIds.add(q.id);
         if ((q.type === 'mc' || q.type === 'listen') && (q.answer < 0 || q.answer >= q.choices.length)) {
-          errors.push(`${meta.id}/${q.id}: answer index ${q.answer} out of range`);
+          errors.push(`${q.id}: answer index ${q.answer} out of range`);
         }
         // Two options that look — or, for listening, sound — the same make a question
         // unanswerable. Homographs in one vocab list are the usual cause.
@@ -159,7 +167,7 @@ if (existsSync(lessonsRoot)) {
             typeof c === 'string' ? (q.type === 'listen' ? withoutNotes(c).toLowerCase() : c) : JSON.stringify(c),
           );
           if (new Set(labels).size !== labels.length) {
-            errors.push(`${meta.id}/${q.id}: two choices look or sound the same: ${labels.join(' | ')}`);
+            errors.push(`${q.id}: two choices look or sound the same: ${labels.join(' | ')}`);
           }
         }
         // A typed answer must accept the way the lesson itself writes it.
@@ -167,7 +175,7 @@ if (existsSync(lessonsRoot)) {
           for (const spelling of q.answer.flatMap(acceptedSpellings)) {
             const typed = spelling.split(PLACEHOLDER).join('Anna');
             if (!grade(q, { kind: 'type-answer', text: typed }).correct) {
-              errors.push(`${meta.id}/${q.id}: typing "${typed}" is graded wrong`);
+              errors.push(`${q.id}: typing "${typed}" is graded wrong`);
             }
           }
         }

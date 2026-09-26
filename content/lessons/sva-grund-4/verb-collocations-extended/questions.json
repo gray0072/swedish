@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-verb-collocations-extended-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как перевести «ta ställning till»?", "en": "How do you translate \"ta ställning till\"?" },
@@ -18,7 +18,7 @@
       "answer": 0
     },
     {
-      "id": "q-verb-collocations-extended-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как перевести «dra slutsatsen att»?", "en": "How do you translate \"dra slutsatsen att\"?" },
@@ -30,7 +30,7 @@
       "answer": 0
     },
     {
-      "id": "q-verb-collocations-extended-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой глагол используется в коллокации «lägga fram ett förslag»?", "en": "Which verb is used in the collocation \"lägga fram ett förslag\"?" },
@@ -38,7 +38,7 @@
       "answer": 0
     },
     {
-      "id": "q-verb-collocations-extended-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что значит «ge uttryck för sin oro»?", "en": "What does \"ge uttryck för sin oro\" mean?" },
@@ -50,31 +50,31 @@
       "answer": 0
     },
     {
-      "id": "q-verb-collocations-extended-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon tar ___ till förslaget. (ställning)" },
       "answer": ["ställning"]
     },
     {
-      "id": "q-verb-collocations-extended-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Utredningen drar ___ att reformen har gett önskad effekt. (slutsatsen)" },
       "answer": ["slutsatsen"]
     },
     {
-      "id": "q-verb-collocations-extended-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Regeringen ___ fram ett nytt förslag nästa vecka. (lägger)" },
       "answer": ["lägger"]
     },
     {
-      "id": "q-verb-collocations-extended-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "Kommittén för en ___ om budgeten. (diskussion)" },
       "answer": ["diskussion"]
     },
     {
-      "id": "q-verb-collocations-extended-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Коллокации «глагол + существительное» типа «dra slutsatsen att» можно переводить дословно, слово за словом.", "en": "\"Verb + noun\" collocations like \"dra slutsatsen att\" can be translated word for word." },
@@ -82,21 +82,21 @@
       "explanation": { "ru": "Нет, их нужно запоминать целиком как устойчивую единицу.", "en": "No, they must be learned whole, as a fixed unit." }
     },
     {
-      "id": "q-verb-collocations-extended-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Такие коллокации типичны для формального и академического текста.", "en": "Such collocations are typical of formal and academic text." },
       "answer": true
     },
     {
-      "id": "q-verb-collocations-extended-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В коллокации меняется только дополнение после предлога/союза, а сама конструкция остаётся фиксированной.", "en": "Only the complement after the preposition/conjunction changes in a collocation, while the construction itself stays fixed." },
       "answer": true
     },
     {
-      "id": "q-verb-collocations-extended-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Расследование делает вывод, что реформа дала желаемый эффект.»", "en": "Build the sentence: \"The inquiry concludes that the reform has had the desired effect.\"" },
@@ -104,7 +104,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
     },
     {
-      "id": "q-verb-collocations-extended-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Правительство выдвигает новое предложение на следующей неделе.»", "en": "Build the sentence: \"The government is putting forward a new proposal next week.\"" },
@@ -112,7 +112,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-verb-collocations-extended-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь коллокацию с переводом", "en": "Match the collocation with its translation" },

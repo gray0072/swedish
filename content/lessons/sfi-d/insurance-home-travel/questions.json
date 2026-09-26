@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-insurance-home-travel-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое självrisk?", "en": "What is a självrisk?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-insurance-home-travel-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "У тебя протекла труба и залило ванную. Куда обратиться?", "en": "A pipe burst and flooded your bathroom. What should you do?" },
@@ -33,7 +33,7 @@
       "answer": 0
     },
     {
-      "id": "q-insurance-home-travel-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Страховка жилья покрывает кражу.»", "en": "Build the sentence: \"Home insurance covers theft.\"" },
@@ -41,7 +41,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-insurance-home-travel-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": "q-insurance-home-travel-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Reseförsäkring действует только дома в Швеции.", "en": "Travel insurance only applies at home in Sweden." },
@@ -61,14 +61,14 @@
       "explanation": { "ru": "Reseförsäkring действует за границей, во время поездок.", "en": "Travel insurance is valid abroad, while travelling." }
     },
     {
-      "id": "q-insurance-home-travel-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Vattenskada — это повреждение водой.", "en": "Vattenskada is water damage." },
       "answer": true
     },
     {
-      "id": "q-insurance-home-travel-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ skadan i appen. (заявил(а))" },

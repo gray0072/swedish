@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-past-narrative-short-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Вчера я поехал(а) в город.»", "en": "Build the sentence: \"Yesterday I went to town.\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 4, 1, 3, 0]
     },
     {
-      "id": "q-past-narrative-short-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Потом я закупил(а) продукты.»", "en": "Build the sentence: \"Then I did the shopping.\"" },
@@ -22,7 +22,7 @@
       "answer": [1, 0, 3, 2]
     },
     {
-      "id": "q-past-narrative-short-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразы с переводом", "en": "Match the phrases with their translation" },
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "id": "q-past-narrative-short-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«I förra veckan» значит «на прошлой неделе».", "en": "\"I förra veckan\" means \"last week\"." },
       "answer": true
     },
     {
-      "id": "q-past-narrative-short-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Слово «sedan» в рассказе о прошлом обычно значит «сначала».", "en": "In a past-tense narrative, \"sedan\" usually means \"first\"." },
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "q-past-narrative-short-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ handlade jag mat, och sedan lagade jag middag. (сначала)" },
@@ -60,7 +60,7 @@
       "acceptAlso": ["först"]
     },
     {
-      "id": "q-past-narrative-short-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -71,7 +71,7 @@
       "answer": 0
     },
     {
-      "id": "q-past-narrative-short-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

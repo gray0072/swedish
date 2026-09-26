@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-digital-services-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое BankID?", "en": "What is BankID?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-digital-services-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Ты не знаешь, нужно ли идти к врачу. Куда лучше позвонить?", "en": "You're not sure whether you need to see a doctor. What should you call?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-digital-services-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я вхожу с помощью BankID.»", "en": "Build the sentence: \"I log in with BankID.\"" },
@@ -36,7 +36,7 @@
       "answer": [4, 2, 3, 0, 1]
     },
     {
-      "id": "q-digital-services-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "q-digital-services-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Logga in» значит «выйти из системы».", "en": "\"Logga in\" means \"to log out\"." },
@@ -56,14 +56,14 @@
       "explanation": { "ru": "«Logga in» значит «войти», а «logga ut» — «выйти».", "en": "\"Logga in\" means \"to log in\"; \"logga ut\" means \"to log out\"." }
     },
     {
-      "id": "q-digital-services-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Mina sidor» — это личный кабинет на сайте ведомства.", "en": "\"Mina sidor\" is a personal account portal on an authority's website." },
       "answer": true
     },
     {
-      "id": "q-digital-services-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du behöver en ___ för att logga in på Mina sidor. (электронное удостоверение)" },

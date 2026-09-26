@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-language-society-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Чем отличается «sociolekt» от «dialekt»?", "en": "How is \"sociolekt\" different from \"dialekt\"?" },
       "choices": [
@@ -16,7 +16,7 @@
       "answer": 0
     },
     {
-      "id": "q-language-society-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Что означает «kodväxling»?", "en": "What does \"kodväxling\" mean?" },
       "choices": [
@@ -27,7 +27,7 @@
       "answer": 0
     },
     {
-      "id": "q-language-society-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что такое «språknorm»?", "en": "What is \"språknorm\"?" },
       "choices": [
@@ -38,42 +38,42 @@
       "answer": 0
     },
     {
-      "id": "q-language-society-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Что значит «tvåspråkig»?", "en": "What does \"tvåspråkig\" mean?" },
       "choices": ["двуязычный", "одноязычный", "многодиалектный"],
       "answer": 0
     },
     {
-      "id": "q-language-society-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Диалект — это неправильная форма языка.", "en": "A dialect is an incorrect form of a language." },
       "answer": false,
       "explanation": { "ru": "Диалект — это просто региональный вариант языка, не хуже стандартного.", "en": "A dialect is simply a regional variety of a language, not inferior to the standard." }
     },
     {
-      "id": "q-language-society-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Языковая норма неизменна и никогда не меняется.", "en": "The language norm is fixed and never changes." },
       "answer": false,
       "explanation": { "ru": "Норма медленно меняется со временем.", "en": "The norm changes slowly over time." }
     },
     {
-      "id": "q-language-society-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Ungdomars sätt att prata kallas ibland en ___. (sociolekt)" },
       "answer": ["sociolekt"],
       "acceptAlso": []
     },
     {
-      "id": "q-language-society-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Många tvåspråkiga barn ___ mellan svenska och sitt andra språk. (kodväxlar)" },
       "answer": ["kodväxlar"],
       "acceptAlso": []
     },
     {
-      "id": "q-language-society-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Языковая норма медленно меняется со временем.»", "en": "Build the sentence: \"The language norm changes slowly over time.\"" },
@@ -81,7 +81,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "q-language-society-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь термин с определением", "en": "Match the term with its definition" },
       "pairs": [
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": "q-language-society-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "Что значит «myndighetstext»?", "en": "What does \"myndighetstext\" mean?" },
       "choices": ["официальный текст госоргана", "личное письмо", "диалог в фильме"],

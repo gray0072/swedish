@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-traffic-rules-korkort-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как по-шведски «водительские права»?", "en": "How do you say \"driving licence\" in Swedish?" },
@@ -14,14 +14,14 @@
       "answer": 0
     },
     {
-      "id": "q-traffic-rules-korkort-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Teoriprov» — это письменный теоретический экзамен, а «uppkörning» — практический экзамен вождения.", "en": "\"Teoriprov\" is the written theory test, and \"uppkörning\" is the practical driving test." },
       "answer": true
     },
     {
-      "id": "q-traffic-rules-korkort-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Trafikregler» используется только в единственном числе.", "en": "\"Trafikregler\" is used only in the singular." },
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "q-traffic-rules-korkort-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Кто сегодня за рулём?»", "en": "Build the sentence: \"Who's driving today?\"" },
@@ -40,7 +40,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-traffic-rules-korkort-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Stanna vid rött ___." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "светофор", "en": "traffic light" }
     },
     {
-      "id": "q-traffic-rules-korkort-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "q-traffic-rules-korkort-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag har bokat teoriprov på fredag.",

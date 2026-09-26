@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-grocery-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Возьми корзину перед тем, как идти за покупками.»", "en": "Build the sentence: \"Take a basket before you shop.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 4, 5, 0, 1, 2]
     },
     {
-      "id": "q-grocery-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Я куплю хлеб и молоко.»", "en": "Build the sentence: \"I'm going to buy bread and milk.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 4, 2, 5, 0, 1]
     },
     {
-      "id": "q-grocery-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова из магазина с переводом", "en": "Match the grocery-store words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-grocery-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Betala kontant» значит платить картой.", "en": "\"Betala kontant\" means to pay by card." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-grocery-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Чтобы обменять товар (byta), обычно нужен чек (kvitto).", "en": "To exchange (byta) an item, you usually need the receipt (kvitto)." },
       "answer": true
     },
     {
-      "id": "q-grocery-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ bananerna innan du betalar. (взвесь)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["väg"]
     },
     {
-      "id": "q-grocery-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Glöm inte att ta med en ___ till mataffären. (пакет)" },
@@ -72,7 +72,7 @@
       "acceptAlso": ["en påse"]
     },
     {
-      "id": "q-grocery-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 1
     },
     {
-      "id": "q-grocery-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

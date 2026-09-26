@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-routine-present-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я всегда просыпаюсь в шесть.»", "en": "Build the sentence: \"I always wake up at six.\"" },
@@ -16,7 +16,7 @@
       "answer": [4, 3, 1, 0, 2]
     },
     {
-      "id": "q-routine-present-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я редко готовлю сам(а).»", "en": "Build the sentence: \"I rarely cook by myself.\"" },
@@ -24,7 +24,7 @@
       "answer": [4, 3, 1, 0, 2]
     },
     {
-      "id": "q-routine-present-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь наречия частоты с переводом", "en": "Match the frequency adverbs with their translation" },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "id": "q-routine-present-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "q-routine-present-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -60,7 +60,7 @@
       "answer": true
     },
     {
-      "id": "q-routine-present-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ till jobbet med bussen varje dag. (добираюсь)" },
@@ -68,7 +68,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-routine-present-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -79,7 +79,7 @@
       "answer": 0
     },
     {
-      "id": "q-routine-present-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

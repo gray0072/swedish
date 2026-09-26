@@ -4,7 +4,7 @@
   ],
   "items": [
     {
-      "id": "q-idioms-metaphors-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Что означает «ha en skruv lös»?", "en": "What does \"ha en skruv lös\" mean?" },
       "choices": [
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-idioms-metaphors-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Что означает «kasta pärlor för svin»?", "en": "What does \"kasta pärlor för svin\" mean?" },
       "choices": [
@@ -26,7 +26,7 @@
       "answer": 0
     },
     {
-      "id": "q-idioms-metaphors-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "«Det är ingen ko på isen» означает...", "en": "\"Det är ingen ko på isen\" means..." },
       "choices": [
@@ -37,7 +37,7 @@
       "answer": 0
     },
     {
-      "id": "q-idioms-metaphors-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "«Han gled in på en räkmacka» означает, что он...", "en": "\"Han gled in på en räkmacka\" means that he..." },
       "choices": [
@@ -48,7 +48,7 @@
       "answer": 0
     },
     {
-      "id": "q-idioms-metaphors-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "«Jag anar ugglor i mossen» означает...", "en": "\"Jag anar ugglor i mossen\" means..." },
       "choices": [
@@ -59,20 +59,20 @@
       "answer": 0
     },
     {
-      "id": "q-idioms-metaphors-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Шведские идиомы можно всегда правильно понять, если перевести их слово в слово.", "en": "Swedish idioms can always be correctly understood by translating them word for word." },
       "answer": false,
       "explanation": { "ru": "Смысл идиомы не выводится из отдельных слов — её нужно знать целиком.", "en": "An idiom's meaning cannot be derived from its individual words — you have to know it as a whole." }
     },
     {
-      "id": "q-idioms-metaphors-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«Glida in på en räkmacka» часто содержит оттенок неодобрения — что человек не заслужил результат.", "en": "\"Glida in på en räkmacka\" often carries a note of disapproval — that the person didn't earn the result." },
       "answer": true
     },
     {
-      "id": "q-idioms-metaphors-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь идиому с её буквальным переводом", "en": "Match the idiom with its literal translation" },
       "pairs": [
@@ -83,14 +83,14 @@
       ]
     },
     {
-      "id": "q-idioms-metaphors-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Ta det lugnt, det är ingen ___ på isen. (ko)" },
       "answer": ["ko"],
       "acceptAlso": []
     },
     {
-      "id": "q-idioms-metaphors-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он получил работу без опыта — ему просто повезло.»", "en": "Build the sentence: \"He got the job with no experience — he slid right in.\"" },
@@ -98,14 +98,14 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     },
     {
-      "id": "q-idioms-metaphors-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag anar ___ i mossen – något stämmer inte. (ugglor)" },
       "answer": ["ugglor"],
       "acceptAlso": []
     },
     {
-      "id": "q-idioms-metaphors-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "prompt": { "ru": "«Kasta pärlor för svin» — выражение библейского происхождения, совпадающее по смыслу с русским «метать бисер перед свиньями».", "en": "\"Kasta pärlor för svin\" is a biblical expression that matches the meaning of the English \"cast pearls before swine\"." },
       "answer": true

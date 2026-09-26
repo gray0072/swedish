@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-word-formation-o-miss-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая приставка отрицает прилагательное?", "en": "Which prefix negates an adjective?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-word-formation-o-miss-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что значит «missförstå»?", "en": "What does \"missförstå\" mean?" },
@@ -23,7 +23,7 @@
       "answer": 0
     },
     {
-      "id": "q-word-formation-o-miss-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är ___ att hinna dit i tid. (невозможно)" },
@@ -31,7 +31,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-word-formation-o-miss-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Проект провалился.»", "en": "Build the sentence: \"The project failed.\"" },
@@ -39,7 +39,7 @@
       "answer": [1, 0]
     },
     {
-      "id": "q-word-formation-o-miss-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -51,14 +51,14 @@
       ]
     },
     {
-      "id": "q-word-formation-o-miss-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«O-» очень продуктивная приставка и присоединяется ко многим прилагательным.", "en": "\"O-\" is a very productive prefix and attaches to many adjectives." },
       "answer": true
     },
     {
-      "id": "q-word-formation-o-miss-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Miss-» обычно присоединяется к прилагательным, а не к глаголам.", "en": "\"Miss-\" is usually attached to adjectives rather than verbs." },

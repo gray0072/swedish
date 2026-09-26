@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-employment-contract-rights-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мой срок предупреждения об увольнении — три месяца.»", "en": "Build the sentence: \"My notice period is three months.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 4, 0, 3, 1]
     },
     {
-      "id": "q-employment-contract-rights-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я состою в профсоюзе.»", "en": "Build the sentence: \"I am a member of a trade union.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 4, 0, 3, 1]
     },
     {
-      "id": "q-employment-contract-rights-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-employment-contract-rights-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-employment-contract-rights-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Tillsvidareanställning» означает работу на определённый, заранее известный срок.", "en": "\"Tillsvidareanställning\" means work for a set, predetermined period." },
@@ -61,14 +61,14 @@
       }
     },
     {
-      "id": "q-employment-contract-rights-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "LAS — это закон, который защищает работников при увольнении.", "en": "LAS is the law that protects employees in cases of dismissal." },
       "answer": true
     },
     {
-      "id": "q-employment-contract-rights-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Kollektivavtal» заключается между одним работником и работодателем.", "en": "A \"kollektivavtal\" is made between a single employee and the employer." },
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "q-employment-contract-rights-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Facket ___ om högre löner varje år. (ведёт переговоры)" },
@@ -87,7 +87,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-employment-contract-rights-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Bussförarna gick ut i ___ i går. (забастовка)" },
@@ -95,7 +95,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-employment-contract-rights-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Företaget ___ tio anställda i somras. (уволила)" },
@@ -103,7 +103,7 @@
       "acceptAlso": ["sade upp"]
     },
     {
-      "id": "q-employment-contract-rights-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -114,7 +114,7 @@
       "answer": 0
     },
     {
-      "id": "q-employment-contract-rights-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -125,7 +125,7 @@
       "answer": 0
     },
     {
-      "id": "q-employment-contract-rights-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

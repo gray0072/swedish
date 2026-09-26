@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-compressed-clauses-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что сжимает инфинитивный оборот с «för att»?", "en": "What does an infinitive phrase with \"för att\" compress?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-compressed-clauses-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Hon sprang för att hon skulle hinna med tåget» — почему здесь нельзя просто убрать «hon skulle» и оставить инфинитив?", "en": "\"Hon sprang för att hon skulle hinna med tåget\" — why can't you just drop \"hon skulle\" and keep the infinitive here?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-compressed-clauses-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Han gick utan att säga hejdå» — что это за оборот?", "en": "\"Han gick utan att säga hejdå\" — what kind of phrase is this?" },
@@ -30,7 +30,7 @@
       "answer": 1
     },
     {
-      "id": "q-compressed-clauses-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что сжимает причастный оборот (например, «Leende sprang hon...»)?", "en": "What does a participial phrase (e.g. \"Leende sprang hon...\") compress?" },
@@ -38,7 +38,7 @@
       "answer": 1
     },
     {
-      "id": "q-compressed-clauses-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "В цепочке «Hon log medan hon sprang, för att hon skulle hinna med tåget» → «Leende sprang hon för att hinna med tåget» — что произошло?", "en": "In the chain \"Hon log medan hon sprang, för att hon skulle hinna med tåget\" → \"Leende sprang hon för att hinna med tåget\" — what happened?" },
@@ -46,7 +46,7 @@
       "answer": 1
     },
     {
-      "id": "q-compressed-clauses-mc-6",
+      "id": "mc-6",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что означает «istället för att»?", "en": "What does \"istället för att\" mean?" },
@@ -54,14 +54,14 @@
       "answer": 1
     },
     {
-      "id": "q-compressed-clauses-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Инфинитивный оборот и причастный оборот — оба сжимают полное придаточное в более короткую фразу.", "en": "Both the infinitive phrase and the participial phrase compress a full subordinate clause into a shorter phrase." },
       "answer": true
     },
     {
-      "id": "q-compressed-clauses-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Инфинитивный оборот с «för att» и причастный оборот сжимают один и тот же тип придаточного.", "en": "An infinitive phrase with \"för att\" and a participial phrase compress the same type of clause." },
@@ -69,32 +69,32 @@
       "explanation": { "ru": "Нет: инфинитив сжимает цель/исключение, причастие — время/образ действия.", "en": "No: the infinitive compresses purpose/exception, the participle compresses time/manner." }
     },
     {
-      "id": "q-compressed-clauses-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Оба типа сжатия можно использовать вместе в одном предложении.", "en": "Both kinds of compression can be used together in the same sentence." },
       "answer": true
     },
     {
-      "id": "q-compressed-clauses-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon sprang ___ hinna med tåget. (инфинитивный оборот цели)" },
       "answer": ["för att"]
     },
     {
-      "id": "q-compressed-clauses-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Han gick ___ säga hejdå. (инфинитивный оборот исключения)" },
       "answer": ["utan att"]
     },
     {
-      "id": "q-compressed-clauses-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "___ sprang hon för att hinna med tåget. (причастный оборот от le, в начале предложения)" },
       "answer": ["Leende"]
     },
     {
-      "id": "q-compressed-clauses-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Она бежала, чтобы успеть на поезд.» (инфинитивный оборот)", "en": "Build the sentence: \"She ran to catch the train.\" (infinitive phrase)" },
@@ -102,7 +102,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "q-compressed-clauses-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Улыбаясь, она бежала, чтобы успеть на поезд.» (причастный + инфинитивный оборот)", "en": "Build the sentence: \"Smiling, she ran to catch the train.\" (participial + infinitive phrase)" },
@@ -110,7 +110,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-compressed-clauses-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь оборот с типом придаточного, который он сжимает", "en": "Match the phrase type with the clause it compresses" },

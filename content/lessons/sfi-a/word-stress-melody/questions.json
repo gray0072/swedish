@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-word-stress-melody-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Я говорю по-шведски.»", "en": "Build the sentence: \"I speak Swedish.\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-word-stress-melody-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с его громким слогом", "en": "Match the word with its stressed syllable" },
@@ -27,14 +27,14 @@
       ]
     },
     {
-      "id": "q-word-stress-melody-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "У большинства дней недели громкий слог — первый.", "en": "For most days of the week, the loud syllable is the first one." },
       "answer": true
     },
     {
-      "id": "q-word-stress-melody-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В слове «arbetar» громкий слог первый.", "en": "In the word \"arbetar\", the loud syllable is the first one." },
@@ -42,7 +42,7 @@
       "explanation": { "ru": "В «arbetar» громкий слог второй: arBEtar.", "en": "In \"arbetar\" the loud syllable is the second one: arBEtar." }
     },
     {
-      "id": "q-word-stress-melody-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой слог громче в слове «arbetar»?", "en": "Which syllable is loudest in \"arbetar\"?" },
@@ -50,7 +50,7 @@
       "answer": 1
     },
     {
-      "id": "q-word-stress-melody-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно звучит слово «tisdag»?", "en": "Where does the stress fall in \"tisdag\"?" },
@@ -58,7 +58,7 @@
       "answer": 0
     },
     {
-      "id": "q-word-stress-melody-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ svenska. (говорю)" },

@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-paired-conjunctions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «ни времени, ни денег»?", "en": "How do you say \"neither time nor money\"?" },
@@ -13,7 +13,7 @@
       "answer": 0
     },
     {
-      "id": "q-paired-conjunctions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая пара союзов усиливает второе качество как неожиданное дополнение?", "en": "Which pair of conjunctions emphasises the second quality as an extra, somewhat surprising addition?" },
@@ -21,14 +21,14 @@
       "answer": 0
     },
     {
-      "id": "q-paired-conjunctions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Både … och» соединяет два элемента, оба из которых верны.", "en": "\"Både … och\" links two elements, both of which are true." },
       "answer": true
     },
     {
-      "id": "q-paired-conjunctions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Antingen … eller» означает, что верны оба варианта одновременно.", "en": "\"Antingen … eller\" means both options are true at the same time." },
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "q-paired-conjunctions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Она говорит и по-шведски, и по-английски.»", "en": "Build the sentence: \"She speaks both Swedish and English.\"" },
@@ -47,13 +47,13 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-paired-conjunctions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon är ___ bara duktig utan också modig." },
       "answer": ["inte"]
     },
     {
-      "id": "q-paired-conjunctions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь парный союз с переводом", "en": "Match the paired conjunction with its translation" },
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "q-paired-conjunctions-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Varken … eller» требует какой части речи после себя чаще всего?", "en": "\"Varken … eller\" most often takes what kind of word after it?" },

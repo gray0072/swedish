@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-skulle-infinitive-politeness-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая фраза более вежливая?", "en": "Which phrase is more polite?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-skulle-infinitive-politeness-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что выражает предложение «Om jag vore rik skulle jag resa mer»?", "en": "What does \"Om jag vore rik skulle jag resa mer\" express?" },
@@ -27,7 +27,7 @@
       "answer": 0
     },
     {
-      "id": "q-skulle-infinitive-politeness-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ vilja boka ett bord. (хотел(а) бы)" },
@@ -35,7 +35,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-skulle-infinitive-politeness-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Не мог(ла) бы ты помочь мне?»", "en": "Build the sentence: \"Could you help me?\"" },
@@ -43,7 +43,7 @@
       "answer": [4, 3, 0, 2, 1]
     },
     {
-      "id": "q-skulle-infinitive-politeness-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
@@ -55,14 +55,14 @@
       ]
     },
     {
-      "id": "q-skulle-infinitive-politeness-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Skulle du kunna…?» вежливее, чем «Kan du…?».", "en": "\"Skulle du kunna…?\" is more polite than \"Kan du…?\"." },
       "answer": true
     },
     {
-      "id": "q-skulle-infinitive-politeness-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Skulle» используется только для приказов.", "en": "\"Skulle\" is used only for giving orders." },

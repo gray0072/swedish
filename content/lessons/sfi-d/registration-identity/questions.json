@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-registration-identity-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое personnummer?", "en": "What is a personnummer?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-registration-identity-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Ты только что переехал(а) в новую квартиру. Что нужно сделать в течение недели?", "en": "You've just moved to a new flat. What should you do within a week?" },
@@ -34,7 +34,7 @@
       "answer": 0
     },
     {
-      "id": "q-registration-identity-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я зарегистрирован(а) в Мальмё.»", "en": "Build the sentence: \"I'm registered as resident in Malmö.\"" },
@@ -42,7 +42,7 @@
       "answer": [3, 4, 1, 0, 2]
     },
     {
-      "id": "q-registration-identity-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-registration-identity-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Folkbokföring» — это регистрация по месту жительства.", "en": "\"Folkbokföring\" is population registration." },
       "answer": true
     },
     {
-      "id": "q-registration-identity-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Samordningsnummer» и «personnummer» — это одно и то же.", "en": "\"Samordningsnummer\" and \"personnummer\" are the same thing." },
@@ -69,7 +69,7 @@
       "explanation": { "ru": "Samordningsnummer — временный номер до folkbokföring, personnummer — постоянный.", "en": "A samordningsnummer is temporary, used before folkbokföring; a personnummer is permanent." }
     },
     {
-      "id": "q-registration-identity-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du måste ___ din identitet med pass eller id-kort. (подтвердить)" },

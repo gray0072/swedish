@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-spelling-out-loud-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Как пишется твоё имя?»", "en": "Build the question: \"How do you spell your name?\"" },
@@ -14,7 +14,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-spelling-out-loud-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Можешь произнести это по буквам?»", "en": "Build the phrase: \"Can you spell that out?\"" },
@@ -22,14 +22,14 @@
       "answer": [1, 3, 2, 0]
     },
     {
-      "id": "q-spelling-out-loud-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Hur stavas ditt namn?» спрашивает, как пишется имя по буквам.", "en": "\"Hur stavas ditt namn?\" asks how your name is spelled." },
       "answer": true
     },
     {
-      "id": "q-spelling-out-loud-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Vad heter du i efternamn?» спрашивает про имя, а не фамилию.", "en": "\"Vad heter du i efternamn?\" asks about your first name, not your last name." },
@@ -40,7 +40,7 @@
       }
     },
     {
-      "id": "q-spelling-out-loud-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как попросить кого-то повторить сказанное?", "en": "How do you ask someone to repeat what they said?" },
@@ -48,7 +48,7 @@
       "answer": 0
     },
     {
-      "id": "q-spelling-out-loud-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ stavas ditt namn?" },
@@ -57,7 +57,7 @@
       "hint": { "ru": "как", "en": "how" }
     },
     {
-      "id": "q-spelling-out-loud-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Vad heter du i efternamn?",

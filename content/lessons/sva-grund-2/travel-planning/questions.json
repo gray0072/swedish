@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-travel-planning-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Что такое en paketresa?", "en": "What is en paketresa?" },
       "choices": [
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "q-travel-planning-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Когда обычно открывается incheckning перед вылетом?", "en": "When does check-in usually open before a flight?" },
       "choices": [
@@ -27,34 +27,34 @@
       "answer": 0
     },
     {
-      "id": "q-travel-planning-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Reseförsäkring нужна на случай болезни или потери багажа в поездке.", "en": "Travel insurance covers illness or lost luggage during a trip." },
       "answer": true
     },
     {
-      "id": "q-travel-planning-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Avbokning всегда бесплатна независимо от срока.", "en": "Cancellation (avbokning) is always free regardless of the deadline." },
       "answer": false,
       "explanation": { "ru": "Отмена обычно бесплатна только до определённого срока.", "en": "Cancellation is usually free only up to a certain deadline." }
     },
     {
-      "id": "q-travel-planning-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Italien är ett populärt ___." },
       "answer": ["resmål"],
       "acceptAlso": []
     },
     {
-      "id": "q-travel-planning-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Glöm inte att teckna en ___." },
       "answer": ["reseförsäkring"],
       "acceptAlso": []
     },
     {
-      "id": "q-travel-planning-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
       "pairs": [
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "q-travel-planning-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Дешевле арендовать машину заранее.»", "en": "Build the sentence: \"It's cheaper to rent a car in advance.\"" },
@@ -73,14 +73,14 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-travel-planning-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что нужно взять с собой на gränskontroll при поездке utomlands?", "en": "What do you need to bring to border control when travelling abroad?" },
       "choices": ["passet", "packlistan", "avbokningen"],
       "answer": 0
     },
     {
-      "id": "q-travel-planning-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "prompt": { "ru": "Hemresa случается перед avresa.", "en": "The hemresa (trip home) happens before the avresa (departure)." },
       "answer": false,

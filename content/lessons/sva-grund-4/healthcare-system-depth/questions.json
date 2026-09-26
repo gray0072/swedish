@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-healthcare-system-depth-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Что такое «socialförsäkring»?", "en": "What is \"socialförsäkring\"?" },
       "choices": [
@@ -16,7 +16,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthcare-system-depth-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Что делает «högkostnadsskydd»?", "en": "What does \"högkostnadsskydd\" do?" },
       "choices": [
@@ -27,7 +27,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthcare-system-depth-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что означает «jämlik vård»?", "en": "What does \"jämlik vård\" mean?" },
       "choices": [
@@ -38,42 +38,42 @@
       "answer": 0
     },
     {
-      "id": "q-healthcare-system-depth-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Что такое «folkhälsa»?", "en": "What is \"folkhälsa\"?" },
       "choices": ["общественное здоровье населения", "здоровье одного пациента", "медицинская страховка"],
       "answer": 0
     },
     {
-      "id": "q-healthcare-system-depth-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Здравоохранение в Швеции полностью бесплатное для всех.", "en": "Healthcare in Sweden is completely free for everyone." },
       "answer": false,
       "explanation": { "ru": "Пациент платит небольшую фиксированную плату (patientavgift), но с защитой högkostnadsskydd.", "en": "The patient pays a small fixed fee (patientavgift), but it's capped by högkostnadsskydd." }
     },
     {
-      "id": "q-healthcare-system-depth-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«Socialförsäkring» включает только медицинские услуги.", "en": "\"Socialförsäkring\" includes only medical services." },
       "answer": false,
       "explanation": { "ru": "Она также включает родительский отпуск, больничный, пенсию и другие выплаты.", "en": "It also includes parental leave, sick pay, pensions, and other benefits." }
     },
     {
-      "id": "q-healthcare-system-depth-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Patientens ___ innefattar rätten till information om sin vård. (rättigheter)" },
       "answer": ["rättigheter"],
       "acceptAlso": []
     },
     {
-      "id": "q-healthcare-system-depth-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ varierar mellan olika regioner i Sverige. (sjukvårdsavgiften)" },
       "answer": ["sjukvårdsavgiften", "Sjukvårdsavgiften"],
       "acceptAlso": ["sjukvårdsavgiften"]
     },
     {
-      "id": "q-healthcare-system-depth-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Общественное здоровье касается здоровья населения в целом.»", "en": "Build the sentence: \"Public health is about the health of the population as a whole.\"" },
@@ -81,7 +81,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "q-healthcare-system-depth-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь термин с определением", "en": "Match the term with its definition" },
       "pairs": [
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": "q-healthcare-system-depth-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "Что значит «vårdgaranti»?", "en": "What does \"vårdgaranti\" mean?" },
       "choices": ["гарантия максимального времени ожидания", "гарантия возврата денег", "страховой полис"],

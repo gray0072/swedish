@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "formal-letter-organisation-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я обращаюсь к вам относительно моего заявления.»", "en": "Build the sentence: \"I am contacting you regarding my application.\"" },
@@ -14,7 +14,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "formal-letter-organisation-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Прилагаю справку о личности.»", "en": "Build the sentence: \"I am enclosing my certificate of registration.\"" },
@@ -22,7 +22,7 @@
       "answer": [0, 1, 2]
     },
     {
-      "id": "formal-letter-organisation-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "formal-letter-organisation-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь формальную фразу с переводом", "en": "Match the formal phrase with its translation" },
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "formal-letter-organisation-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "formal-letter-organisation-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -70,7 +70,7 @@
       "answer": true
     },
     {
-      "id": "formal-letter-organisation-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ mig till er angående mitt ärende. (обращаюсь)" },
@@ -78,7 +78,7 @@
       "acceptAlso": []
     },
     {
-      "id": "formal-letter-organisation-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Med vänlig ___, Maria Andersson (уважением)" },
@@ -86,7 +86,7 @@
       "acceptAlso": []
     },
     {
-      "id": "formal-letter-organisation-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -97,7 +97,7 @@
       "answer": 0
     },
     {
-      "id": "formal-letter-organisation-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -108,7 +108,7 @@
       "answer": 0
     },
     {
-      "id": "formal-letter-organisation-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

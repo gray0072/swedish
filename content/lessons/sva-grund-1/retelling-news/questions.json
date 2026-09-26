@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-ren-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я слышал(а), что поезд опаздывает на двадцать минут.»", "en": "Build the sentence: \"I heard that the train is twenty minutes late.\"" },
@@ -18,7 +18,7 @@
       "answer": [4, 2, 1, 5, 0, 3]
     },
     {
-      "id": "q-ren-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Они сообщили, что встречу перенесли на пятницу.»", "en": "Build the sentence: \"They announced that the meeting has been moved to Friday.\"" },
@@ -26,7 +26,7 @@
       "answer": [4, 1, 5, 3, 0, 2]
     },
     {
-      "id": "q-ren-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -38,14 +38,14 @@
       ]
     },
     {
-      "id": "q-ren-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Enligt nyheterna» значит «согласно новостям».", "en": "\"Enligt nyheterna\" means \"according to the news\"." },
       "answer": true
     },
     {
-      "id": "q-ren-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Påstå» и «meddela» означают ровно одно и то же — просто «сообщать факт».", "en": "\"Påstå\" and \"meddela\" mean exactly the same thing — simply \"to state a fact\"." },
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "q-ren-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ nyheterna blir det snö imorgon. (согласно)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["enligt"]
     },
     {
-      "id": "q-ren-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "De ___ att spår tre är stängt idag. (сообщили)" },
@@ -72,7 +72,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-ren-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-ren-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -94,7 +94,7 @@
       "answer": 0
     },
     {
-      "id": "q-ren-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

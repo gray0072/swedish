@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-quantifiers-amounts-text-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «большинство» по-шведски?", "en": "How do you say \"most\" (of people) in Swedish?" },
@@ -13,7 +13,7 @@
       "answer": 0
     },
     {
-      "id": "q-quantifiers-amounts-text-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что значит «allt fler»?", "en": "What does \"allt fler\" mean?" },
@@ -25,7 +25,7 @@
       "answer": 0
     },
     {
-      "id": "q-quantifiers-amounts-text-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Andelen unga som studerar har ökat.» — что растёт?", "en": "\"Andelen unga som studerar har ökat.\" — what is increasing?" },
@@ -37,14 +37,14 @@
       "answer": 0
     },
     {
-      "id": "q-quantifiers-amounts-text-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«En minoritet» — это противоположность «en majoritet».", "en": "\"En minoritet\" is the opposite of \"en majoritet\"." },
       "answer": true
     },
     {
-      "id": "q-quantifiers-amounts-text-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Minska» значит «увеличиваться».", "en": "\"Minska\" means \"to increase\"." },
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": "q-quantifiers-amounts-text-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Треть учеников сдала тест.»", "en": "Build the sentence: \"A third of the students passed the test.\"" },
@@ -63,13 +63,13 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-quantifiers-amounts-text-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ fler väljer att cykla till jobbet. (всё больше)" },
       "answer": ["Allt"]
     },
     {
-      "id": "q-quantifiers-amounts-text-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово-квантификатор с переводом", "en": "Match the quantifier with its translation" },

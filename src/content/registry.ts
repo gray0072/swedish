@@ -221,6 +221,19 @@ export function findAnyQuestionById(id: string): Question | undefined {
   return findQuestionById(id) ?? getHistoryQuestionIndex().get(id) ?? getDialogueQuestionIndex().get(id);
 }
 
+let allQuestionIdsCache: Set<string> | null = null;
+
+/** Every question id the app knows — lesson pools plus history- and dialogue-derived ones. */
+export function getAllQuestionIds(): Set<string> {
+  if (!allQuestionIdsCache) {
+    allQuestionIdsCache = new Set([...getHistoryQuestionIndex().keys(), ...getDialogueQuestionIndex().keys()]);
+    for (const lesson of getContentRegistry().lessons.values()) {
+      for (const q of lesson.pool) allQuestionIdsCache.add(q.id);
+    }
+  }
+  return allQuestionIdsCache;
+}
+
 export function getDialogues(): DialogueEntry[] {
   return getContentRegistry().dialogues;
 }

@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-insurance-claims-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Страхование жилья покрывает пожар и кражу со взломом.»", "en": "Build the sentence: \"Home insurance covers fire and burglary.\"" },
@@ -18,7 +18,7 @@
       "answer": [1, 0, 3, 2]
     },
     {
-      "id": "q-insurance-claims-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я сразу же подал(а) заявление о страховом случае.»", "en": "Build the sentence: \"I filed an insurance claim right away.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 3, 0, 1]
     },
     {
-      "id": "q-insurance-claims-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-insurance-claims-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-insurance-claims-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Självrisk» — это сумма, которую полностью оплачивает страховая компания.", "en": "\"Självrisk\" is the amount the insurance company pays in full." },
@@ -61,14 +61,14 @@
       }
     },
     {
-      "id": "q-insurance-claims-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Прежде чем оформить страховку, стоит прочитать «försäkringsvillkor».", "en": "Before taking out a policy, it is worth reading the \"försäkringsvillkor\"." },
       "answer": true
     },
     {
-      "id": "q-insurance-claims-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Livförsäkring» предназначена для покрытия ущерба от кражи в квартире.", "en": "\"Livförsäkring\" is meant to cover damage from a burglary in an apartment." },
@@ -79,14 +79,14 @@
       }
     },
     {
-      "id": "q-insurance-claims-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Более высокая франшиза («självrisk») обычно означает более низкую ежемесячную премию.", "en": "A higher deductible (\"självrisk\") usually means a lower monthly premium." },
       "answer": true
     },
     {
-      "id": "q-insurance-claims-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Försäkringen ___ inte vattenskador i det här fallet. (не покрывает)" },
@@ -94,7 +94,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-insurance-claims-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ en hemförsäkring när jag flyttade in. (оформил(а))" },
@@ -102,7 +102,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-insurance-claims-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ är 1500 kronor för den här skadan. (франшиза)" },
@@ -110,7 +110,7 @@
       "acceptAlso": ["självrisken"]
     },
     {
-      "id": "q-insurance-claims-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -121,7 +121,7 @@
       "answer": 0
     },
     {
-      "id": "q-insurance-claims-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -132,7 +132,7 @@
       "answer": 0
     },
     {
-      "id": "q-insurance-claims-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

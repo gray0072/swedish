@@ -14,6 +14,18 @@ describe('content registry', () => {
     }
   });
 
+  it('every lesson id is <level>/<slug>, and every question id is <lesson id>/<local>', () => {
+    const seen = new Set<string>();
+    for (const lesson of getAllLessons()) {
+      expect(lesson.meta.id).toBe(`${lesson.meta.levels[0]}/${lesson.meta.slug}`);
+      for (const q of lesson.pool) {
+        expect(q.id.startsWith(`${lesson.meta.id}/`), q.id).toBe(true);
+        expect(seen.has(q.id), `duplicate question id ${q.id}`).toBe(false);
+        seen.add(q.id);
+      }
+    }
+  });
+
   it('every lesson fits the 5-minute rule', () => {
     for (const lesson of getAllLessons()) {
       expect(lesson.meta.estimatedMinutes).toBeLessThanOrEqual(5);

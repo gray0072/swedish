@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-workday-employer-sick-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Ты проснулся(лась) с высокой температурой. Что нужно сделать в первую очередь?", "en": "You wake up with a high fever. What should you do first?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-workday-employer-sick-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что такое karensavdrag?", "en": "What is a karensavdrag?" },
@@ -33,7 +33,7 @@
       "answer": 0
     },
     {
-      "id": "q-workday-employer-sick-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мы делаем перерыв в двенадцать.»", "en": "Build the sentence: \"We take a break at twelve.\"" },
@@ -41,7 +41,7 @@
       "answer": [3, 4, 1, 0, 2]
     },
     {
-      "id": "q-workday-employer-sick-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -53,14 +53,14 @@
       ]
     },
     {
-      "id": "q-workday-employer-sick-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Sjukintyg — это справка от врача.", "en": "A sjukintyg is a certificate from a doctor." },
       "answer": true
     },
     {
-      "id": "q-workday-employer-sick-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Flextid значит, что нельзя менять время начала работы.", "en": "Flextid means you can never shift your start time." },
@@ -68,7 +68,7 @@
       "explanation": { "ru": "Flextid, наоборот, позволяет немного сдвигать рабочее время.", "en": "Flextid does the opposite — it lets you shift your working hours a little." }
     },
     {
-      "id": "q-workday-employer-sick-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ mig till chefen på morgonen. (сообщил(а) о болезни)" },

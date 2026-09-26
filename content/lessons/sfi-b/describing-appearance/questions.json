@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-describing-appearance-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «У неё длинные прямые волосы.»", "en": "Build the sentence: \"She has long, straight hair.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 4, 3, 0, 1]
     },
     {
-      "id": "q-describing-appearance-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Он низкий и крупный.»", "en": "Build the sentence: \"He is short and heavyset.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 4, 2, 0]
     },
     {
-      "id": "q-describing-appearance-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова о внешности с переводом", "en": "Match the appearance words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-describing-appearance-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Слово «glasögon» существует только во множественном числе — формы «ett glasögon» не бывает.", "en": "\"Glasögon\" exists only in the plural in Swedish — there is no singular \"ett glasögon\"." },
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": "q-describing-appearance-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Глагол «le» (улыбаться) — правильный глагол первой группы: le, lear, leade, leat.", "en": "The verb \"le\" (to smile) is a regular first-conjugation verb: le, lear, leade, leat." },
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "q-describing-appearance-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon har ___ hår. (кудрявые)" },
@@ -68,7 +68,7 @@
       "acceptAlso": ["Lockigt"]
     },
     {
-      "id": "q-describing-appearance-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Mannen har ett grått ___. (борода)" },
@@ -76,7 +76,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-describing-appearance-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -92,7 +92,7 @@
       "answer": 1
     },
     {
-      "id": "q-describing-appearance-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

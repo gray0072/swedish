@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-adverbs-hem-ut-in-dit-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я иду домой в пять.»", "en": "Build the sentence: \"I go home at five.\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 4, 1, 0, 3]
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Дети играют на улице.»", "en": "Build the sentence: \"The children are playing outside.\"" },
@@ -22,7 +22,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag är ___ ikväll. (дома, нахождение)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "дома (нахождение)", "en": "at home (location)" }
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Kom ___! (внутрь, движение)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "внутрь (движение)", "en": "in (movement)" }
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Hemma» используется для движения, а «hem» — для нахождения.", "en": "\"Hemma\" is used for movement, and \"hem\" for location." },
@@ -51,14 +51,14 @@
       }
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Där» означает нахождение («там»), а «dit» — направление («туда»).", "en": "\"Där\" means location (\"there\"), and \"dit\" means direction (\"to there\")." },
       "answer": true
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь наречие с его типом", "en": "Match the adverb with its type" },
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Он выходит в сад» (движение наружу)?", "en": "How do you say \"He goes out into the garden\" (movement outward)?" },
@@ -80,7 +80,7 @@
       "answer": 0
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Я поеду туда завтра» (направление)?", "en": "How do you say \"I'm going there tomorrow\" (direction)?" },
@@ -88,7 +88,7 @@
       "answer": 0
     },
     {
-      "id": "q-adverbs-hem-ut-in-dit-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Переведи: «Моя сестра живёт там.»", "en": "Translate: \"My sister lives there.\"" },

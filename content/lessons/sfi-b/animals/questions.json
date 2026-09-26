@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-animals-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Собаку зовут Бруно.»", "en": "Build the phrase: \"The dog's name is Bruno.\"" },
@@ -17,7 +17,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-animals-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Кошка спит весь день.»", "en": "Build the phrase: \"The cat sleeps all day.\"" },
@@ -25,7 +25,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-animals-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь животных с переводом", "en": "Match the animals with their translation" },
@@ -37,14 +37,14 @@
       ]
     },
     {
-      "id": "q-animals-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Множественное число слова «får» — «får» (не меняется).", "en": "The plural of \"får\" is \"får\" (unchanged)." },
       "answer": true
     },
     {
-      "id": "q-animals-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Vild» значит «домашний, ручной».", "en": "\"Vild\" means \"tame, domesticated\"." },
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": "q-animals-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag har ett ___. (домашнее животное)" },
@@ -63,7 +63,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-animals-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -74,7 +74,7 @@
       "answer": 0
     },
     {
-      "id": "q-animals-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

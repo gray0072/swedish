@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-adjective-declension-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vi har ett ___ (ny) hus." },
@@ -15,7 +15,7 @@
       "explanation": { "ru": "ett-слово + неопределённое существительное → сильная форма на -t.", "en": "ett-word + indefinite noun → strong form with -t." }
     },
     {
-      "id": "q-adjective-declension-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Bilarna är ___ (snabb) idag." },
@@ -24,7 +24,7 @@
       "explanation": { "ru": "Прилагательное-сказуемое во множественном числе всегда на -a.", "en": "A predicative adjective with a plural subject always takes -a." }
     },
     {
-      "id": "q-adjective-declension-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Det är en ___ (dyr) lägenhet." },
@@ -33,7 +33,7 @@
       "explanation": { "ru": "en-слово + неопределённое существительное → форма без окончания.", "en": "en-word + indefinite noun → the bare form, no ending." }
     },
     {
-      "id": "q-adjective-declension-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Den ___ (stark) mannen heter Erik." },
@@ -42,7 +42,7 @@
       "explanation": { "ru": "После «den» — слабая форма, всегда -a.", "en": "After \"den\" — the weak form, always -a." }
     },
     {
-      "id": "q-adjective-declension-gap-5",
+      "id": "gap-5",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Mitt ___ (ny) hus ligger i stan." },
@@ -51,7 +51,7 @@
       "explanation": { "ru": "После притяжательного местоимения — тоже слабая форма -a.", "en": "After a possessive pronoun — also the weak -a form." }
     },
     {
-      "id": "q-adjective-declension-gap-6",
+      "id": "gap-6",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag läser ___ (rolig) böcker." },
@@ -60,7 +60,7 @@
       "explanation": { "ru": "Неопределённое существительное во множественном числе → сильная форма -a.", "en": "An indefinite plural noun → the strong -a form." }
     },
     {
-      "id": "q-adjective-declension-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Выбери правильную форму: «Barnet är ___.» (glad)", "en": "Pick the right form: \"Barnet är ___.\" (glad)" },
@@ -68,7 +68,7 @@
       "answer": 0
     },
     {
-      "id": "q-adjective-declension-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Выбери правильную форму: «Den här bilen är ___.» (dum)", "en": "Pick the right form: \"Den här bilen är ___.\" (dum)" },
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "q-adjective-declension-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое окончание у слабого склонения прилагательного?", "en": "What ending does the weak declension use?" },
@@ -93,7 +93,7 @@
       "answer": 0
     },
     {
-      "id": "q-adjective-declension-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -103,7 +103,7 @@
       "answer": true
     },
     {
-      "id": "q-adjective-declension-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -113,7 +113,7 @@
       "answer": true
     },
     {
-      "id": "q-adjective-declension-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "q-adjective-declension-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь контекст с правильным окончанием прилагательного «stor»", "en": "Match the context with the correct ending of \"stor\"" },
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": "q-adjective-declension-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Та самая новая машина быстрая.»", "en": "Build the sentence: \"The new car is fast.\"" },

@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-municipality-services-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Кто отвечает за förskola (детский сад)?", "en": "Who is responsible for förskola (preschool)?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-municipality-services-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Кто управляет vårdcentral (поликлиникой)?", "en": "Who runs a vårdcentral (health centre)?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-municipality-services-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Муниципалитет отвечает за детский сад.»", "en": "Build the sentence: \"The municipality is responsible for preschool.\"" },
@@ -36,7 +36,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-municipality-services-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "q-municipality-services-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Пенсию выплачивает муниципалитет.", "en": "The municipality pays out the pension." },
@@ -56,14 +56,14 @@
       "explanation": { "ru": "Пенсию выплачивает государство (staten), а не муниципалитет.", "en": "The pension is paid by the state, not the municipality." }
     },
     {
-      "id": "q-municipality-services-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Äldreomsorg — это уход за пожилыми людьми.", "en": "Äldreomsorg is elderly care." },
       "answer": true
     },
     {
-      "id": "q-municipality-services-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vem ___ för skolorna? (отвечает)" },

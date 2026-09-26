@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-relative-som-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мужчина, который живёт здесь, — мой сосед.»", "en": "Build the sentence: \"The man who lives here is my neighbor.\"" },
@@ -14,7 +14,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "q-relative-som-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Книга, которую я читал, была хорошей.»", "en": "Build the sentence: \"The book I read was good.\"" },
@@ -22,7 +22,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "q-relative-som-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Mannen ___ bor här är min granne. (который – обязательно!)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "som здесь подлежащее, его нельзя убрать", "en": "som is the subject here, it cannot be dropped" }
     },
     {
-      "id": "q-relative-som-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Boken (___) jag läste var bra. (можно опустить)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "som — дополнение, можно опустить", "en": "som is the object, it can be dropped" }
     },
     {
-      "id": "q-relative-som-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Som» можно опустить, если оно является подлежащим придаточного предложения.", "en": "\"Som\" can be omitted when it is the subject of the relative clause." },
@@ -51,14 +51,14 @@
       }
     },
     {
-      "id": "q-relative-som-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Boken jag läste var bra» без som — правильно и естественно.", "en": "\"Boken jag läste var bra\" without som is correct and natural." },
       "answer": true
     },
     {
-      "id": "q-relative-som-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 3,
       "prompt": { "ru": "Сопоставь предложение с тем, можно ли опустить som", "en": "Match the sentence with whether som can be dropped" },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": "q-relative-som-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "В каком предложении som НЕЛЬЗЯ опустить?", "en": "In which sentence can som NOT be dropped?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-relative-som-type-answer-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Переведи на шведский: «Женщина, которую я встретил, была приятной.»", "en": "Translate into Swedish: \"The woman I met was nice.\"" },
@@ -86,7 +86,7 @@
       "hint": { "ru": "som можно опустить, так как оно дополнение", "en": "som can be dropped since it is the object" }
     },
     {
-      "id": "q-relative-som-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Mannen som bor här är min granne.",

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-future-plans-invitations-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я собираюсь путешествовать этим летом.»", "en": "Build the sentence: \"I'm going to travel this summer.\"" },
@@ -14,7 +14,7 @@
       "answer": [4, 0, 2, 3, 1]
     },
     {
-      "id": "q-future-plans-invitations-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Хочешь прийти на ужин в субботу?»", "en": "Build the sentence: \"Do you want to come for dinner on Saturday?\"" },
@@ -22,7 +22,7 @@
       "answer": [4, 1, 0, 5, 2, 6, 3]
     },
     {
-      "id": "q-future-plans-invitations-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "id": "q-future-plans-invitations-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ska» и «tänker» оба используются, чтобы говорить о планах на будущее.", "en": "\"Ska\" and \"tänker\" are both used to talk about plans for the future." },
       "answer": true
     },
     {
-      "id": "q-future-plans-invitations-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Tacka nej» значит принять приглашение.", "en": "\"Tacka nej\" means to accept an invitation." },
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "q-future-plans-invitations-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi ___ flytta nästa år. (планируем)" },
@@ -60,7 +60,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-future-plans-invitations-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -71,7 +71,7 @@
       "answer": 0
     },
     {
-      "id": "q-future-plans-invitations-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

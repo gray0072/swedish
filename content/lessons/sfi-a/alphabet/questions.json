@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-alpha-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я тебя не слышу.»", "en": "Build the sentence: \"I can't hear you.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-alpha-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь особые буквы с их звучанием", "en": "Match the extra letters with their sound" },
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "q-alpha-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "q-alpha-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -54,7 +54,7 @@
       "answer": true
     },
     {
-      "id": "q-alpha-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Kan du ___ ditt namn? (произнести по буквам)" },
@@ -62,7 +62,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-alpha-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -78,7 +78,7 @@
       "answer": 1
     },
     {
-      "id": "q-alpha-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

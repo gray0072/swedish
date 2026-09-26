@@ -6,35 +6,35 @@
   ],
   "items": [
     {
-      "id": "q-modal-verbs-tenses-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag har alltid ___ lära mig svenska. (vilja, supinum)" },
       "answer": ["velat"],
       "acceptAlso": []
     },
     {
-      "id": "q-modal-verbs-tenses-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Hon har aldrig ___ simma. (kunna, supinum)" },
       "answer": ["kunnat"],
       "acceptAlso": []
     },
     {
-      "id": "q-modal-verbs-tenses-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Vi har äntligen ___ resa till Sverige. (få, supinum)" },
       "answer": ["fått"],
       "acceptAlso": []
     },
     {
-      "id": "q-modal-verbs-tenses-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "Igår ___ jag jobba hela dagen. (måste, вчера – прошедшее)" },
       "answer": ["måste"],
       "acceptAlso": []
     },
     {
-      "id": "q-modal-verbs-tenses-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как звучит претерит от «vilja»?", "en": "What is the preteritum of \"vilja\"?" },
@@ -42,7 +42,7 @@
       "answer": 1
     },
     {
-      "id": "q-modal-verbs-tenses-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая форма — супин глагола «böra»?", "en": "Which form is the supine of \"böra\"?" },
@@ -50,7 +50,7 @@
       "answer": 2
     },
     {
-      "id": "q-modal-verbs-tenses-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое время используют вместо перфекта у «ska»?", "en": "Which tense is used instead of the perfect with \"ska\"?" },
@@ -64,21 +64,21 @@
       "explanation": { "ru": "«Ska» практически не встречается в перфекте; вместо него используется претерит skulle.", "en": "\"Ska\" almost never appears in the perfect; instead the preteritum skulle is used." }
     },
     {
-      "id": "q-modal-verbs-tenses-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Måste» имеет одну и ту же форму в презенсе и претерите.", "en": "\"Måste\" has the same form in the present and the preteritum." },
       "answer": true
     },
     {
-      "id": "q-modal-verbs-tenses-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Супин «fått» относится к глаголу «få».", "en": "The supine \"fått\" belongs to the verb \"få\"." },
       "answer": true
     },
     {
-      "id": "q-modal-verbs-tenses-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "После модального глагола следующий глагол ставится в инфинитиве с «att».", "en": "After a modal verb, the next verb takes the infinitive with \"att\"." },
@@ -86,14 +86,14 @@
       "explanation": { "ru": "После модального глагола инфинитив идёт без att: «vill simma».", "en": "After a modal verb the infinitive has no att: \"vill simma\"." }
     },
     {
-      "id": "q-modal-verbs-tenses-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Kan» — это презенс глагола «kunna».", "en": "\"Kan\" is the present tense of \"kunna\"." },
       "answer": true
     },
     {
-      "id": "q-modal-verbs-tenses-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мне пришлось работать все выходные.»", "en": "Build the sentence: \"I've had to work the whole weekend.\"" },
@@ -101,7 +101,7 @@
       "answer": [5, 0, 1, 4, 2, 3]
     },
     {
-      "id": "q-modal-verbs-tenses-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь модальный глагол с его супином", "en": "Match the modal verb with its supine" },

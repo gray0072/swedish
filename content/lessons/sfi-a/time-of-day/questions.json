@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-tod-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Увидимся вечером.»", "en": "Build the phrase: \"See you in the evening.\"" },
@@ -17,7 +17,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-tod-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь части суток с переводом", "en": "Match the times of day with their translation" },
@@ -29,14 +29,14 @@
       ]
     },
     {
-      "id": "q-tod-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Middag» связано и с полднем, и с обедом.", "en": "\"Middag\" relates to both midday and dinner." },
       "answer": true
     },
     {
-      "id": "q-tod-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Dygn» значит «неделя».", "en": "\"Dygn\" means \"week\"." },
@@ -44,14 +44,14 @@
       "explanation": { "ru": "«Dygn» — это сутки, 24 часа. Неделя — «vecka».", "en": "\"Dygn\" is a 24-hour day-night cycle. \"Week\" is \"vecka\"." }
     },
     {
-      "id": "q-tod-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "God ___! Vi ses imorgon. (спокойной ночи → natt)" },
       "answer": ["natt"],
       "acceptAlso": []
     },
     {
-      "id": "q-tod-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что говорят перед сном?", "en": "What do you say before going to sleep?" },

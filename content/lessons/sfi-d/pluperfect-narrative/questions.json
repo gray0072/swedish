@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-pluperfect-narrative-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как строится плюсквамперфект?", "en": "How is the pluperfect built?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-pluperfect-narrative-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Когда я пришёл на станцию, поезд уже ушёл» — какое время у «ушёл»?", "en": "\"When I got to the station, the train had already left\" — what tense is \"had left\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-pluperfect-narrative-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ glömt nyckeln hemma. (плюсквамперфект)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-pluperfect-narrative-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Дождь уже закончился, когда мы вышли.»", "en": "Build the sentence: \"The rain had already stopped when we went out.\"" },
@@ -38,7 +38,7 @@
       "answer": [3, 2, 0, 1, 4]
     },
     {
-      "id": "q-pluperfect-narrative-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-pluperfect-narrative-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Redan» часто сигнализирует использование плюсквамперфекта.", "en": "\"Redan\" often signals the pluperfect." },
       "answer": true
     },
     {
-      "id": "q-pluperfect-narrative-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jag åt» и «Jag hade ätit» означают абсолютно одно и то же.", "en": "\"Jag åt\" and \"Jag hade ätit\" mean exactly the same thing." },

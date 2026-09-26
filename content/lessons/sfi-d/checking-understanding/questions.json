@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-checking-understanding-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как быстро и неформально переспросить, если не расслышал(а)?", "en": "What's the quick, informal way to ask someone to repeat?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-checking-understanding-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая фраза проверяет смысл сказанного, а не только слова?", "en": "Which phrase checks the meaning of what was said, not just the words?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-checking-understanding-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är kallt idag, ___? (не так ли)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-checking-understanding-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Можешь повторить, что ты сказал(а)?»", "en": "Build the phrase: \"Can you repeat what you said?\"" },
@@ -38,7 +38,7 @@
       "answer": [3, 0, 1, 2]
     },
     {
-      "id": "q-checking-understanding-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-checking-understanding-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Just det» используют, чтобы согласиться с чем-то верным.", "en": "\"Just det\" is used to agree with something correct." },
       "answer": true
     },
     {
-      "id": "q-checking-understanding-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Kan du upprepa?» более неформально, чем «va?».", "en": "\"Kan du upprepa?\" is more informal than \"va?\"." },

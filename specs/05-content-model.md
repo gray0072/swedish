@@ -193,7 +193,7 @@ The pool is **handwritten items + auto-generated items**. A 25-word vocab list e
   ],
   "items": [
     {
-      "id": "q-greet-01",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,                    // 1..3, used for weighting
       "prompt": { "ru": "Как сказать «Доброе утро»?" },
@@ -203,7 +203,7 @@ The pool is **handwritten items + auto-generated items**. A 25-word vocab list e
       "tags": ["greetings"]
     },
     {
-      "id": "q-greet-02",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ morgon! Hur mår du?" },
       "answer": ["God"],
@@ -211,14 +211,14 @@ The pool is **handwritten items + auto-generated items**. A 25-word vocab list e
       "hint": { "ru": "Пожелание перед словом «утро»." }
     },
     {
-      "id": "q-greet-03",
+      "id": "order-1",
       "type": "order",
       "prompt": { "ru": "Собери предложение: «Меня зовут Анна.»" },
       "tokens": ["Jag", "heter", "Anna"],
       "answer": [0, 1, 2]
     },
     {
-      "id": "q-greet-04",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь приветствия с переводом." },
       "pairs": [
@@ -228,7 +228,7 @@ The pool is **handwritten items + auto-generated items**. A 25-word vocab list e
       ]
     },
     {
-      "id": "q-greet-05",
+      "id": "listen-1",
       "type": "listen",
       "audioText": "God kväll",
       "prompt": { "ru": "Что ты услышал(а)?" },
@@ -238,6 +238,12 @@ The pool is **handwritten items + auto-generated items**. A 25-word vocab list e
   ]
 }
 ```
+
+**Ids.** A lesson id is always `<level>/<slug>` and matches the folder. A handwritten
+question's `id` is local to its lesson — `<type>-<n>` (`mc-1`, `gap-3`, `tf-2`); the loader
+namespaces it as `<level>/<slug>/<local>` (`sfi-a/greetings/mc-1`), and generated questions
+get `<level>/<slug>/gen-<kind>-<vocab id>`. That full id is the only form the SRS deck and the
+save file see, so two lessons can never share a question id.
 
 ## 5.6 Question types (v1)
 

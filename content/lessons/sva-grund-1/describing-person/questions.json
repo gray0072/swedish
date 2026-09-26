@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-person-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Она невысокая и светловолосая.»", "en": "Build the sentence: \"She is short and blond.\"" },
@@ -18,7 +18,7 @@
       "answer": [4, 1, 0, 3, 2]
     },
     {
-      "id": "q-person-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "q-person-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "q-person-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Han är väldigt ___. Man kan lita på honom. (надёжный)" },
@@ -52,7 +52,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-person-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -63,7 +63,7 @@
       "answer": 0
     },
     {
-      "id": "q-person-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

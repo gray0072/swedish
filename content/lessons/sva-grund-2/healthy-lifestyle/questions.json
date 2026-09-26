@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-healthy-lifestyle-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Сбалансированное питание важно для здоровья.»", "en": "Build the sentence: \"A balanced diet is important for health.\"" },
@@ -17,7 +17,7 @@
       "answer": [2, 6, 3, 5, 1, 4, 0]
     },
     {
-      "id": "q-healthy-lifestyle-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Организму нужно восстановление после тренировки.»", "en": "Build the sentence: \"The body needs recovery after exercise.\"" },
@@ -25,7 +25,7 @@
       "answer": [3, 4, 1, 0, 2]
     },
     {
-      "id": "q-healthy-lifestyle-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "q-healthy-lifestyle-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "q-healthy-lifestyle-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "q-healthy-lifestyle-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "q-healthy-lifestyle-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "God ___ är grunden för återhämtning. (сон)" },
@@ -87,7 +87,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-healthy-lifestyle-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Man bör ___ för mycket socker. (избегать)" },
@@ -95,7 +95,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-healthy-lifestyle-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -106,7 +106,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthy-lifestyle-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -117,7 +117,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthy-lifestyle-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -128,7 +128,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthy-lifestyle-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

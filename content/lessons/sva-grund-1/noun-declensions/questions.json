@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-noun-declensions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "En ___ (flicka, обычн. мн.ч.) leker i parken." },
@@ -16,7 +16,7 @@
       "explanation": { "ru": "Класс -or: flicka → flickor.", "en": "The -or class: flicka → flickor." }
     },
     {
-      "id": "q-noun-declensions-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ser alla ___ (bil, опр. мн.ч.) på gatan." },
@@ -25,7 +25,7 @@
       "explanation": { "ru": "Опр. мн. = неопр. мн. + -na: bilar → bilarna.", "en": "Def. pl. = indef. pl. + -na: bilar → bilarna." }
     },
     {
-      "id": "q-noun-declensions-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Här finns fem ___ (hus, неопр. мн.ч.)." },
@@ -34,7 +34,7 @@
       "explanation": { "ru": "«Hus» не меняется во множественном числе.", "en": "\"Hus\" does not change in the plural." }
     },
     {
-      "id": "q-noun-declensions-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ (äpple, опр. мн.ч.) ligger på bordet." },
@@ -43,7 +43,7 @@
       "explanation": { "ru": "Класс -n: äpple → äpplen → äpplena.", "en": "The -n class: äpple → äpplen → äpplena." }
     },
     {
-      "id": "q-noun-declensions-gap-5",
+      "id": "gap-5",
       "type": "gap",
       "difficulty": 3,
       "prompt": { "sv": "Sverige har många ___ (stad, неопр. мн.ч.)." },
@@ -52,7 +52,7 @@
       "explanation": { "ru": "«Stad» — исключение внутри класса -er: гласная меняется a→ä.", "en": "\"Stad\" is irregular within the -er class: the vowel changes a→ä." }
     },
     {
-      "id": "q-noun-declensions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой артикль у слова «familj»?", "en": "Which article goes with \"familj\"?" },
@@ -60,7 +60,7 @@
       "answer": 0
     },
     {
-      "id": "q-noun-declensions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой артикль у слова «hus»?", "en": "Which article goes with \"hus\"?" },
@@ -68,7 +68,7 @@
       "answer": 0
     },
     {
-      "id": "q-noun-declensions-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "К какому склонению во множественном числе относится «bil»?", "en": "Which plural declension class does \"bil\" belong to?" },
@@ -81,7 +81,7 @@
       "answer": 0
     },
     {
-      "id": "q-noun-declensions-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Определённое множественное число от «vecka»?", "en": "The definite plural of \"vecka\"?" },
@@ -89,7 +89,7 @@
       "answer": 0
     },
     {
-      "id": "q-noun-declensions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -99,7 +99,7 @@
       "answer": true
     },
     {
-      "id": "q-noun-declensions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": "q-noun-declensions-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "q-noun-declensions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с его неопределённым множественным числом", "en": "Match the word with its indefinite plural" },
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": "q-noun-declensions-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с его определённой формой единственного числа", "en": "Match the word with its definite singular form" },
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": "q-noun-declensions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Машина красная.»", "en": "Build the sentence: \"The car is red.\"" },

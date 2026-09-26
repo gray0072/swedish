@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-colors-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Небо синее.»", "en": "Build the sentence: \"The sky is blue.\"" },
@@ -15,7 +15,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-colors-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь цвета с переводом", "en": "Match the colors with their translation" },
@@ -27,14 +27,14 @@
       ]
     },
     {
-      "id": "q-colors-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Ett-форма от «röd» — «rött».", "en": "The ett-form of \"röd\" is \"rött\"." },
       "answer": true
     },
     {
-      "id": "q-colors-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Слово «rosa» меняет форму перед ett-словами.", "en": "\"Rosa\" changes form before ett-words." },
@@ -45,14 +45,14 @@
       }
     },
     {
-      "id": "q-colors-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Gräset är ___. (зелёное)" },
       "answer": ["grönt"],
       "acceptAlso": []
     },
     {
-      "id": "q-colors-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какого цвета шведский флаг (кроме жёлтого)?", "en": "What color is the Swedish flag besides yellow?" },

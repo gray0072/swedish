@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "referat-summary-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Автор считает, что правительству следовало бы делать больше.»", "en": "Build the sentence: \"The author holds that the government ought to do more.\"" },
@@ -14,7 +14,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "referat-summary-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Согласно тексту, безработица высока среди молодёжи.»", "en": "Build the sentence: \"According to the text, unemployment is high among young people.\"" },
@@ -22,7 +22,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "referat-summary-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь глагол с переводом", "en": "Match the verb with its translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "referat-summary-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу-связку с переводом", "en": "Match the connecting phrase with its translation" },
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "referat-summary-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -56,7 +56,7 @@
       "answer": true
     },
     {
-      "id": "referat-summary-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -70,7 +70,7 @@
       }
     },
     {
-      "id": "referat-summary-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -80,7 +80,7 @@
       "answer": true
     },
     {
-      "id": "referat-summary-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ texten är arbetslösheten hög bland unga. (согласно)" },
@@ -88,7 +88,7 @@
       "acceptAlso": []
     },
     {
-      "id": "referat-summary-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon ___ att problemet är större än man tror. (утверждает)" },
@@ -96,7 +96,7 @@
       "acceptAlso": []
     },
     {
-      "id": "referat-summary-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -107,7 +107,7 @@
       "answer": 0
     },
     {
-      "id": "referat-summary-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -118,7 +118,7 @@
       "answer": 0
     },
     {
-      "id": "referat-summary-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

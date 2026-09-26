@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-double-definiteness-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ stora staden ligger vid havet. (den/det/de)" },
@@ -15,7 +15,7 @@
       "explanation": { "ru": "«Stad» — en-слово, значит артикль «den».", "en": "\"Stad\" is an en-word, so the article is \"den\"." }
     },
     {
-      "id": "q-double-definiteness-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ stora huset är gammalt. (den/det/de)" },
@@ -24,7 +24,7 @@
       "explanation": { "ru": "«Hus» — ett-слово, значит артикль «det».", "en": "\"Hus\" is an ett-word, so the article is \"det\"." }
     },
     {
-      "id": "q-double-definiteness-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ stora städerna är vackra. (den/det/de)" },
@@ -33,7 +33,7 @@
       "explanation": { "ru": "Множественное число всегда берёт «de».", "en": "The plural always takes \"de\"." }
     },
     {
-      "id": "q-double-definiteness-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "difficulty": 3,
       "prompt": { "sv": "Min stora ___ (stad, неопр. ед.ч.) är fin." },
@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "q-double-definiteness-gap-5",
+      "id": "gap-5",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Den gamla ___ (bil, опр. ед.ч.) är blå." },
@@ -54,7 +54,7 @@
       "explanation": { "ru": "Существительное всё равно получает своё определённое окончание.", "en": "The noun still takes its own definite ending." }
     },
     {
-      "id": "q-double-definiteness-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Выбери правильный артикль: «___ nya boken är bra.»", "en": "Pick the right article: \"___ nya boken är bra.\"" },
@@ -62,7 +62,7 @@
       "answer": 0
     },
     {
-      "id": "q-double-definiteness-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Выбери правильный артикль: «___ vackra huset.»", "en": "Pick the right article: \"___ vackra huset.\"" },
@@ -70,7 +70,7 @@
       "answer": 0
     },
     {
-      "id": "q-double-definiteness-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как правильно сказать «мой большой город»?", "en": "How do you correctly say \"my big city\"?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-double-definiteness-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "q-double-definiteness-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -102,7 +102,7 @@
       "answer": true
     },
     {
-      "id": "q-double-definiteness-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -112,7 +112,7 @@
       "answer": true
     },
     {
-      "id": "q-double-definiteness-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь род/число с артиклем", "en": "Match the gender/number with its article" },
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "q-double-definiteness-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Та самая старая машина синяя.»", "en": "Build the sentence: \"The old car is blue.\"" },

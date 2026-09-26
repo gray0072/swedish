@@ -7,21 +7,21 @@
   ],
   "items": [
     {
-      "id": "q-numbers-personal-details-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hur gammal är du? Jag är ___ år. (двадцать)" },
       "answer": ["tjugo"],
       "acceptAlso": []
     },
     {
-      "id": "q-numbers-personal-details-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag bor på Storgatan ___. (10)" },
       "answer": ["tio"],
       "acceptAlso": []
     },
     {
-      "id": "q-numbers-personal-details-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно спросить возраст?", "en": "How do you correctly ask someone's age?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-numbers-personal-details-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как читается номер дома в адресе — «Storgatan 16»?", "en": "How is the house number read in the address \"Storgatan 16\"?" },
@@ -37,13 +37,13 @@
       "answer": 1
     },
     {
-      "id": "q-numbers-personal-details-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Номер дома в адресе произносится целиком, одним словом.", "en": "A house number in an address is said whole, as one word." },
       "answer": true
     },
     {
-      "id": "q-numbers-personal-details-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Возраст и номер дома читаются по цифрам, как номер телефона.", "en": "Age and house numbers are read digit by digit, like a phone number." },
       "answer": false,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "q-numbers-personal-details-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вопрос с подходящим ответом", "en": "Match the question with the matching answer" },
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id": "q-numbers-personal-details-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мне двадцать лет.»", "en": "Build the sentence: \"I am twenty years old.\"" },

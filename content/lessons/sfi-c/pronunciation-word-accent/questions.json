@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-pronunciation-word-accent-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Сколько пиков высоты тона у акцента 2?", "en": "How many pitch peaks does accent 2 have?" },
@@ -13,14 +13,14 @@
       "answer": 0
     },
     {
-      "id": "q-pronunciation-word-accent-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Anden» может означать и «утку», и «духа» — слово различается только тоном.", "en": "\"Anden\" can mean both \"the duck\" and \"the spirit\" — the words differ only in pitch." },
       "answer": true
     },
     {
-      "id": "q-pronunciation-word-accent-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Тональные акценты влияют только на отдельные слова и никогда не сказываются на мелодике целого предложения.", "en": "Word accents only affect single words and never carry over into the melody of a whole sentence." },
@@ -31,7 +31,7 @@
       }
     },
     {
-      "id": "q-pronunciation-word-accent-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово-омограф с его значением", "en": "Match the homograph with its meaning" },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": "q-pronunciation-word-accent-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ simmar i sjön. (den bestämda formen av \"anka\", accent 1)" },
@@ -52,7 +52,7 @@
       "hint": { "ru": "утка", "en": "the duck" }
     },
     {
-      "id": "q-pronunciation-word-accent-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово несёт основной пик тона в предложении?", "en": "Which syllable carries the main pitch peak in a word?" },
@@ -60,7 +60,7 @@
       "answer": 0
     },
     {
-      "id": "q-pronunciation-word-accent-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой акцент типичен для большинства сложных слов (compounds)?", "en": "Which accent is typical of most compound words?" },

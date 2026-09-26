@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-opinion-one-sentence-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое слово вводит причину в модели «jag tycker att … eftersom …»?", "en": "Which word introduces the reason in the pattern \"jag tycker att … eftersom …\"?" },
@@ -14,14 +14,14 @@
       "answer": 0
     },
     {
-      "id": "q-opinion-one-sentence-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Jag anser att» немного более формально, чем «jag tycker att».", "en": "\"Jag anser att\" is slightly more formal than \"jag tycker att\"." },
       "answer": true
     },
     {
-      "id": "q-opinion-one-sentence-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jag tror att» выражает такую же уверенность, как «Jag vet att».", "en": "\"Jag tror att\" expresses the same certainty as \"Jag vet att\"." },
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "q-opinion-one-sentence-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Я считаю, что школа хорошая, потому что учителя приятные.»", "en": "Build the sentence: \"I think the school is good because the teachers are nice.\"" },
@@ -40,7 +40,7 @@
       "answer": [1, 0, 3, 4, 2, 5, 6, 7, 8]
     },
     {
-      "id": "q-opinion-one-sentence-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag tycker att svenska är svårt ___ uttalet är annorlunda." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "потому что", "en": "because" }
     },
     {
-      "id": "q-opinion-one-sentence-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу и её перевод", "en": "Match the phrase with its translation" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "q-opinion-one-sentence-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag tycker att det är roligt att laga mat.",

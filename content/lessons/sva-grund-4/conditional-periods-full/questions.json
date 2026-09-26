@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-conditional-periods-full-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "«Om jag har tid ringer jag dig» — какой это тип условия?", "en": "\"Om jag har tid ringer jag dig\" — which type of conditional is this?" },
@@ -13,7 +13,7 @@
       "answer": 0
     },
     {
-      "id": "q-conditional-periods-full-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Om jag hade tid skulle jag ringa dig» — какой это тип условия?", "en": "\"Om jag hade tid skulle jag ringa dig\" — which type of conditional is this?" },
@@ -21,7 +21,7 @@
       "answer": 1
     },
     {
-      "id": "q-conditional-periods-full-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Om jag hade haft tid skulle jag ha ringt dig» — какой это тип условия?", "en": "\"Om jag hade haft tid skulle jag ha ringt dig\" — which type of conditional is this?" },
@@ -29,7 +29,7 @@
       "answer": 2
     },
     {
-      "id": "q-conditional-periods-full-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что берёт на себя роль союза «om», если его убрать?", "en": "What takes over the role of the conjunction \"om\" when it is dropped?" },
@@ -37,45 +37,45 @@
       "answer": 0
     },
     {
-      "id": "q-conditional-periods-full-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Om jag hade haft tid, ___ jag ha ringt dig. (главная часть, ирреальное о прошлом)" },
       "answer": ["skulle"]
     },
     {
-      "id": "q-conditional-periods-full-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ jag haft tid, skulle jag ha ringt dig. (без om, инверсия)" },
       "answer": ["Hade"]
     },
     {
-      "id": "q-conditional-periods-full-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "___ jag dig, skulle jag tacka nej. (архаичная форма от vara)" },
       "answer": ["Vore"]
     },
     {
-      "id": "q-conditional-periods-full-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "Uppstår fel, ___ support. (реальное условие, без om, императив)" },
       "answer": ["kontakta"]
     },
     {
-      "id": "q-conditional-periods-full-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В ирреальном условии о настоящем придаточное стоит в претерите.", "en": "In the unreal-present conditional, the subordinate clause is in the past tense." },
       "answer": true
     },
     {
-      "id": "q-conditional-periods-full-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В ирреальном условии о прошлом главная часть использует «skulle ha» + супинум.", "en": "In the unreal-past conditional, the main clause uses \"skulle ha\" + supine." },
       "answer": true
     },
     {
-      "id": "q-conditional-periods-full-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Убрать «om» и поставить глагол первым можно только с ирреальными условиями, но не с реальными.", "en": "Dropping \"om\" and fronting the verb is possible only with unreal conditionals, not with real ones." },
@@ -83,14 +83,14 @@
       "explanation": { "ru": "Инверсия без om работает и с реальными условиями («Uppstår fel, kontakta support»), это стилистический вариант для любого типа.", "en": "The om-less inversion also works with real conditionals (\"Uppstår fel, kontakta support\") — it's a stylistic option for any type." }
     },
     {
-      "id": "q-conditional-periods-full-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 3,
       "prompt": { "ru": "«Vore» встречается почти исключительно в конструкции без «om».", "en": "\"Vore\" occurs almost exclusively in the om-less construction." },
       "answer": true
     },
     {
-      "id": "q-conditional-periods-full-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Если бы я это знал, я бы что-то сказал.» (без om)", "en": "Build the sentence: \"Had I known that, I would have said something.\" (no om)" },
@@ -98,7 +98,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-conditional-periods-full-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь тип условия с формой придаточного", "en": "Match the conditional type with the form of its subordinate clause" },

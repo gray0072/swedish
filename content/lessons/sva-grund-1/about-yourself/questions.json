@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-about-yourself-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я приехал в Швецию три года назад.»", "en": "Build the sentence: \"I came to Sweden three years ago.\"" },
@@ -18,7 +18,7 @@
       "answer": [4, 5, 1, 0, 6, 3, 2]
     },
     {
-      "id": "q-about-yourself-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Прямо сейчас я изучаю шведский.»", "en": "Build the sentence: \"Right now I'm studying Swedish.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 4, 0, 2]
     },
     {
-      "id": "q-about-yourself-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова-связки с переводом", "en": "Match the connectors with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-about-yourself-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -48,7 +48,7 @@
       "answer": true
     },
     {
-      "id": "q-about-yourself-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "q-about-yourself-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag kom till Sverige ___ tre år sedan. (тому назад)" },
@@ -70,7 +70,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-about-yourself-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -81,7 +81,7 @@
       "answer": 0
     },
     {
-      "id": "q-about-yourself-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

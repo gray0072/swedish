@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-school-items-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Можно одолжить ручку?»", "en": "Build the question: \"Can I borrow a pen?\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 4, 2, 3, 0]
     },
     {
-      "id": "q-school-items-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Книга лежит на столе.»", "en": "Build the sentence: \"The book is lying on the table.\"" },
@@ -23,7 +23,7 @@
       "answer": [2, 1, 3, 0]
     },
     {
-      "id": "q-school-items-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "id": "q-school-items-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Bord» — это en-слово.", "en": "\"Bord\" is an en-word." },
@@ -47,14 +47,14 @@
       }
     },
     {
-      "id": "q-school-items-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Определённая форма от «en bok» — «boken».", "en": "The definite form of \"en bok\" is \"boken\"." },
       "answer": true
     },
     {
-      "id": "q-school-items-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Kan jag låna ___ penna? (en / ett)" },
@@ -62,7 +62,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-school-items-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Boken ligger på ___. (ett bord → «на столе»)" },
@@ -70,7 +70,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-school-items-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Чем стирают то, что написано карандашом?", "en": "What do you rub out pencil with?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-school-items-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 3,
       "audioText": "Kan jag låna ett suddgummi?",

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-upper-lower-case-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Имя Anna пишется со строчной буквы: anna.", "en": "The name Anna is written with a lower-case letter: anna." },
@@ -17,14 +17,14 @@
       }
     },
     {
-      "id": "q-upper-lower-case-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Textat» значит писать печатными буквами, а не курсивом.", "en": "\"Textat\" means writing in block letters, not in cursive." },
       "answer": true
     },
     {
-      "id": "q-upper-lower-case-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как по-шведски «заглавная буква»?", "en": "How do you say \"capital letter\" in Swedish?" },
@@ -32,7 +32,7 @@
       "answer": 0
     },
     {
-      "id": "q-upper-lower-case-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что просят, когда говорят «Skriv textat, tack»?", "en": "What are you asked when someone says \"Skriv textat, tack\"?" },
@@ -45,7 +45,7 @@
       "answer": 0
     },
     {
-      "id": "q-upper-lower-case-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Напишите здесь, пожалуйста.»", "en": "Build the sentence: \"Write here, please.\"" },
@@ -53,7 +53,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-upper-lower-case-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Namn börjar med stor ___." },
@@ -62,7 +62,7 @@
       "hint": { "ru": "буква", "en": "letter" }
     },
     {
-      "id": "q-upper-lower-case-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Kan du skriva ditt namn här?",

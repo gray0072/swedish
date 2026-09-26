@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-long-period-subordination-coordination-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как обычно читается сочинённая (samordning) цепочка фактов?", "en": "How does a coordinated (samordning) chain of facts typically read?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-long-period-subordination-coordination-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Trots att det regnade gick vi ut, eftersom vi hade lovat att komma, vilket gjorde att vi blev blöta.» — какая часть здесь huvudsats?", "en": "\"Trots att det regnade gick vi ut, eftersom vi hade lovat att komma, vilket gjorde att vi blev blöta.\" — which part is the huvudsats here?" },
@@ -22,7 +22,7 @@
       "answer": 1
     },
     {
-      "id": "q-long-period-subordination-coordination-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой риск связан со слишком длинным, сильно подчинённым периодом?", "en": "What risk comes with an overlong, heavily subordinated period?" },
@@ -30,7 +30,7 @@
       "answer": 1
     },
     {
-      "id": "q-long-period-subordination-coordination-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что делает подчинение (underordning) с содержанием предложения по сравнению с сочинением?", "en": "What does subordination (underordning) do to the content of a sentence compared with coordination?" },
@@ -38,14 +38,14 @@
       "answer": 1
     },
     {
-      "id": "q-long-period-subordination-coordination-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Сочинение (samordning) обычно ближе к устной, разговорной речи, чем подчинение.", "en": "Coordination (samordning) is usually closer to plain, spoken language than subordination." },
       "answer": true
     },
     {
-      "id": "q-long-period-subordination-coordination-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Умелый автор должен подчинять как можно больше мыслей в одном предложении, не заботясь о длине.", "en": "A skilled writer should subordinate as many ideas as possible into one sentence, without worrying about length." },
@@ -53,20 +53,20 @@
       "explanation": { "ru": "Наоборот: слишком длинный подчинённый период трудно читать — нужно варьировать длину предложений.", "en": "The opposite: an overlong subordinated period is hard to read — sentence length should be varied." }
     },
     {
-      "id": "q-long-period-subordination-coordination-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В сочинённой цепочке все части предложения равноправны.", "en": "In a coordinated chain, all the parts of the sentence are equal in status." },
       "answer": true
     },
     {
-      "id": "q-long-period-subordination-coordination-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ det regnade gick vi ut. (несмотря на то что)" },
       "answer": ["Trots att"]
     },
     {
-      "id": "q-long-period-subordination-coordination-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Мы обещали прийти, поэтому всё равно вышли.»", "en": "Build the sentence: \"We had promised to come, so we went out anyway.\"" },
@@ -74,7 +74,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     },
     {
-      "id": "q-long-period-subordination-coordination-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь союз/слово с его функцией", "en": "Match the connector with its function" },

@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-adjective-antonyms-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь прилагательные с их антонимами", "en": "Match the adjectives with their antonyms" },
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "id": "q-adjective-antonyms-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь прилагательные с их антонимами", "en": "Match the adjectives with their antonyms" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "q-adjective-antonyms-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -45,7 +45,7 @@
       "answer": 1
     },
     {
-      "id": "q-adjective-antonyms-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "q-adjective-antonyms-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -71,7 +71,7 @@
       "answer": 1
     },
     {
-      "id": "q-adjective-antonyms-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "q-adjective-antonyms-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "q-adjective-antonyms-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Flaskan är tom, men glaset är ___. (полный)" },

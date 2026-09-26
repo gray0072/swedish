@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-numbers-ordinals-dates-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Это стоит сто пятьдесят крон.»", "en": "Build the sentence: \"It costs a hundred and fifty kronor.\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-numbers-ordinals-dates-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Сегодня третье мая.»", "en": "Build the sentence: \"Today is the third of May.\"" },
@@ -22,7 +22,7 @@
       "answer": [1, 4, 5, 0, 3, 2]
     },
     {
-      "id": "q-numbers-ordinals-dates-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vad ___ den? (стоит)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "стоит", "en": "costs" }
     },
     {
-      "id": "q-numbers-ordinals-dates-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Han bor på ___ våningen. (второй)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "второй", "en": "second" }
     },
     {
-      "id": "q-numbers-ordinals-dates-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь количественное и порядковое числительное", "en": "Match the cardinal and ordinal number" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-numbers-ordinals-dates-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Tusen» значит «тысяча».", "en": "\"Tusen\" means \"thousand\"." },
       "answer": true
     },
     {
-      "id": "q-numbers-ordinals-dates-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Trettio» значит «тринадцать».", "en": "\"Trettio\" means \"thirteen\"." },
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "q-numbers-ordinals-dates-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как спросить дату?", "en": "How do you ask for the date?" },
@@ -80,7 +80,7 @@
       "answer": 0
     },
     {
-      "id": "q-numbers-ordinals-dates-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как сказать «двести»?", "en": "How do you say \"two hundred\"?" },
@@ -88,7 +88,7 @@
       "answer": 0
     },
     {
-      "id": "q-numbers-ordinals-dates-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Cykeln kostar tusen kronor.",

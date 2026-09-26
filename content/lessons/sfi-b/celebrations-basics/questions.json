@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-celebrations-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Мы поём песни у майского шеста.»", "en": "Build the sentence: \"We sing songs by the maypole.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 1, 2, 0, 4]
     },
     {
-      "id": "q-celebrations-basics-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Мы приглашаем гостей.»", "en": "Build the sentence: \"We invite guests.\"" },
@@ -26,7 +26,7 @@
       "answer": [1, 3, 0, 2]
     },
     {
-      "id": "q-celebrations-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь праздники с переводом", "en": "Match the holidays with their translation" },
@@ -38,14 +38,14 @@
       ]
     },
     {
-      "id": "q-celebrations-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Midsommar» празднуют летом.", "en": "\"Midsommar\" is celebrated in the summer." },
       "answer": true
     },
     {
-      "id": "q-celebrations-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jul» и «midsommar» празднуются в один и тот же день.", "en": "\"Jul\" and \"midsommar\" are celebrated on the same day." },
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "q-celebrations-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi tänder ___ på tårtan. (свечи)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["Ljus"]
     },
     {
-      "id": "q-celebrations-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -75,7 +75,7 @@
       "answer": 2
     },
     {
-      "id": "q-celebrations-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

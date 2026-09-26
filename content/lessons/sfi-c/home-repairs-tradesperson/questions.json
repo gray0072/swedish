@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-home-repairs-tradesperson-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Кого вызывают, если течёт труба?", "en": "Who do you call if a pipe is leaking?" },
@@ -14,14 +14,14 @@
       "answer": 0
     },
     {
-      "id": "q-home-repairs-tradesperson-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Det är trasigt» значит «Это сломано».", "en": "\"Det är trasigt\" means \"It's broken\"." },
       "answer": true
     },
     {
-      "id": "q-home-repairs-tradesperson-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Offert» — это счёт, который уже оплачен.", "en": "\"Offert\" is a bill that has already been paid." },
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "q-home-repairs-tradesperson-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мне нужно вызвать сантехника.»", "en": "Build the sentence: \"I need to call a plumber.\"" },
@@ -40,7 +40,7 @@
       "answer": [1, 3, 0, 2, 4]
     },
     {
-      "id": "q-home-repairs-tradesperson-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Det ___ under diskbänken." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "течёт", "en": "is leaking" }
     },
     {
-      "id": "q-home-repairs-tradesperson-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "q-home-repairs-tradesperson-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Ljuset funkar inte, proppen har gått.",

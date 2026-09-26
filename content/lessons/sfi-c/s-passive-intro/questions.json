@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-s-passive-intro-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что означает «Rökning förbjuds»?", "en": "What does \"Rökning förbjuds\" mean?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-s-passive-intro-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Кто выполняет действие в предложении «Dörren öppnas automatiskt»?", "en": "Who performs the action in \"Dörren öppnas automatiskt\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-s-passive-intro-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Här ___ svenska. (говорят, без указания кто)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "verb + s", "en": "verb + s" }
     },
     {
-      "id": "q-s-passive-intro-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Biljetter ___ vid ingången. (продаются)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "sälja + s", "en": "sälja + s" }
     },
     {
-      "id": "q-s-passive-intro-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери: «Дверь открывается автоматически.»", "en": "Build: \"The door opens automatically.\"" },
@@ -48,7 +48,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-s-passive-intro-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вывеску с её смыслом", "en": "Match the sign with its meaning" },
@@ -60,14 +60,14 @@
       ]
     },
     {
-      "id": "q-s-passive-intro-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Форма на -s (verb+s) на вывесках обычно не называет, кто выполняет действие.", "en": "The -s form (verb+s) on signs usually does not name who performs the action." },
       "answer": true
     },
     {
-      "id": "q-s-passive-intro-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Öppnas» и «öppnar» означают абсолютно одно и то же.", "en": "\"Öppnas\" and \"öppnar\" mean exactly the same thing." },
@@ -75,7 +75,7 @@
       "explanation": { "ru": "«Öppnar» — кто-то открывает (активный залог), «öppnas» — дверь открывается сама/кем-то неназванным (пассив на -s).", "en": "\"Öppnar\" means someone opens it (active), while \"öppnas\" means it gets opened, with no actor named (the -s passive)." }
     },
     {
-      "id": "q-s-passive-intro-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Напиши по-шведски вывеску: «Парковка запрещена.»", "en": "Write in Swedish the sign: \"Parking forbidden.\"" },
@@ -83,7 +83,7 @@
       "hint": { "ru": "здесь используется прилагательное förbjuden, не глагол förbjuds", "en": "here an adjective förbjuden is used, not the verb förbjuds" }
     },
     {
-      "id": "q-s-passive-intro-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Butiken stängs klockan sex.",

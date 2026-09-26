@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-tycker-om-gillar-alskar-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой глагол выражает самое сильное чувство?", "en": "Which verb expresses the strongest feeling?" },
@@ -14,7 +14,7 @@
       "answer": 2
     },
     {
-      "id": "q-tycker-om-gillar-alskar-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Мне нравится плавать»?", "en": "How do you say \"I like to swim\"?" },
@@ -22,7 +22,7 @@
       "answer": 1
     },
     {
-      "id": "q-tycker-om-gillar-alskar-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой глагол более разговорный, характерен для устной речи?", "en": "Which verb is more casual, typical of spoken language?" },
@@ -30,7 +30,7 @@
       "answer": 1
     },
     {
-      "id": "q-tycker-om-gillar-alskar-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ choklad. (нравится, разговорное)" },
@@ -39,7 +39,7 @@
       "hint": { "ru": "разговорное «нравится»", "en": "casual \"to like\"" }
     },
     {
-      "id": "q-tycker-om-gillar-alskar-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon ___ att laga mat. (обожает)" },
@@ -48,7 +48,7 @@
       "hint": { "ru": "сильнейшее чувство", "en": "strongest feeling" }
     },
     {
-      "id": "q-tycker-om-gillar-alskar-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мне нравится читать.»", "en": "Build the sentence: \"I like to read.\"" },
@@ -56,7 +56,7 @@
       "answer": [3, 2, 4, 1, 0]
     },
     {
-      "id": "q-tycker-om-gillar-alskar-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь глагол симпатии с силой чувства", "en": "Match the liking verb with its intensity" },
@@ -68,14 +68,14 @@
       ]
     },
     {
-      "id": "q-tycker-om-gillar-alskar-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "После «tycker om», «gillar» и «älskar» можно ставить и существительное, и инфинитив с «att».", "en": "\"Tycker om\", \"gillar\" and \"älskar\" can all be followed by either a noun or an infinitive with \"att\"." },
       "answer": true
     },
     {
-      "id": "q-tycker-om-gillar-alskar-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Älskar» слабее по интенсивности, чем «gillar».", "en": "\"Älskar\" is weaker in intensity than \"gillar\"." },
@@ -83,7 +83,7 @@
       "explanation": { "ru": "Наоборот: «älskar» — самое сильное из трёх, «gillar» — среднее.", "en": "The opposite: \"älskar\" is the strongest of the three, \"gillar\" is in the middle." }
     },
     {
-      "id": "q-tycker-om-gillar-alskar-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag tycker om musik, men jag älskar att dansa.",

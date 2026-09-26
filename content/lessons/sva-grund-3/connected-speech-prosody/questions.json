@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-connected-speech-prosody-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что такое «fokusord»?", "en": "What is a \"fokusord\"?" },
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "q-connected-speech-prosody-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какие слова обычно редуцируются в беглой шведской речи?", "en": "Which kinds of words typically get reduced in fluent Swedish speech?" },
@@ -29,14 +29,14 @@
       "answer": 0
     },
     {
-      "id": "q-connected-speech-prosody-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Och» в беглой речи часто звучит как «å».", "en": "\"Och\" often sounds like \"å\" in fluent speech." },
       "answer": true
     },
     {
-      "id": "q-connected-speech-prosody-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Слово, несущее новую информацию, обычно произносится безударно.", "en": "The word carrying new information is usually pronounced without stress." },
@@ -47,13 +47,13 @@
       }
     },
     {
-      "id": "q-connected-speech-prosody-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag har sett det – i beglad tal blir det ofta 'Jag ___ sett det.'" },
       "answer": ["'ar"]
     },
     {
-      "id": "q-connected-speech-prosody-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с его редуцированным произношением в речи", "en": "Match the word with its reduced pronunciation in speech" },
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "q-connected-speech-prosody-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что помогает слушателю быстро найти самую важную часть предложения?", "en": "What helps a listener quickly find the most important part of a sentence?" },
@@ -77,7 +77,7 @@
       "answer": 0
     },
     {
-      "id": "q-connected-speech-prosody-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что такое «reduktion» в контексте связной речи?", "en": "What is a \"reduktion\" in the context of connected speech?" },

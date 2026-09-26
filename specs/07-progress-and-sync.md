@@ -38,6 +38,9 @@ Rules:
 
 - `persist.ts` owns a `migrations` map keyed by version; a save from an older version is
   migrated forward, never dropped.
+- Ids the current content no longer has — lessons, questions (SRS items and
+  `lastRunQuestionIds`), buildings, history cards, dialogues — are dropped whenever a save
+  is loaded: from localStorage, an imported file or the cloud (`src/store/pruneSave.ts`).
 - **Export / Import** buttons in Settings download/upload this JSON. This is the backup story
   for a backend-free app and must exist in v1.
 - A corrupted save must never crash the app: parse with Zod, fall back to a fresh save, and

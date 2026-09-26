@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-formal-message-short-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как обычно завершают формальное сообщение по-шведски?", "en": "How does a formal Swedish message usually end?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-formal-message-short-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как вежливо сказать «я был бы благодарен, если бы вы ответили»?", "en": "How do you politely say \"I would be grateful if you replied\"?" },
@@ -34,7 +34,7 @@
       "answer": 0
     },
     {
-      "id": "q-formal-message-short-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я пишу по поводу отсутствия моего сына.»", "en": "Build the phrase: \"I'm writing regarding my son's absence.\"" },
@@ -42,7 +42,7 @@
       "answer": [4, 5, 0, 2, 3, 1]
     },
     {
-      "id": "q-formal-message-short-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-formal-message-short-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Gällande» можно использовать вместо «angående».", "en": "\"Gällande\" can be used instead of \"angående\"." },
       "answer": true
     },
     {
-      "id": "q-formal-message-short-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Формальное письмо обычно начинают с длинного личного рассказа.", "en": "A formal letter usually opens with a long personal story." },
@@ -69,7 +69,7 @@
       "explanation": { "ru": "Формальное сообщение должно быть коротким и по делу.", "en": "A formal message should be short and to the point." }
     },
     {
-      "id": "q-formal-message-short-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ ett läkarintyg till mejlet. (прилагаю)" },

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-dentist-tandvard-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я хочу записаться к стоматологу.»", "en": "Build the phrase: \"I want to book a dentist appointment.\"" },
@@ -14,7 +14,7 @@
       "answer": [3, 1, 4, 0, 2, 5]
     },
     {
-      "id": "q-dentist-tandvard-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «У меня ужасная зубная боль.»", "en": "Build the sentence: \"I have terrible toothache.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-dentist-tandvard-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "q-dentist-tandvard-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -44,7 +44,7 @@
       "answer": true
     },
     {
-      "id": "q-dentist-tandvard-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "q-dentist-tandvard-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du behöver en ___ i den här tanden. (пломба)" },
@@ -66,7 +66,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-dentist-tandvard-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ tänderna två gånger om dagen. (чисти)" },
@@ -74,7 +74,7 @@
       "acceptAlso": ["borsta"]
     },
     {
-      "id": "q-dentist-tandvard-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -85,7 +85,7 @@
       "answer": 0
     },
     {
-      "id": "q-dentist-tandvard-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

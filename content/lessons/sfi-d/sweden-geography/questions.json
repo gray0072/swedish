@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-sweden-geography-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой город является столицей Швеции?", "en": "Which city is Sweden's capital?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-sweden-geography-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "С какими странами граничит Швеция?", "en": "Which countries does Sweden border?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-sweden-geography-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Стокгольм — столица Швеции.»", "en": "Build the sentence: \"Stockholm is Sweden's capital.\"" },
@@ -36,7 +36,7 @@
       "answer": [1, 3, 2, 0]
     },
     {
-      "id": "q-sweden-geography-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,14 +48,14 @@
       ]
     },
     {
-      "id": "q-sweden-geography-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Норрланд находится на севере Швеции.", "en": "Norrland is in northern Sweden." },
       "answer": true
     },
     {
-      "id": "q-sweden-geography-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В Швеции живёт около ста миллионов человек.", "en": "Sweden has about a hundred million inhabitants." },
@@ -63,7 +63,7 @@
       "explanation": { "ru": "В Швеции около десяти миллионов жителей, а не ста.", "en": "Sweden has about ten million inhabitants, not a hundred million." }
     },
     {
-      "id": "q-sweden-geography-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Sverige ___ till Norge och Finland. (граничит)" },

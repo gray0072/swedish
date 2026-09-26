@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-ellipsis-repetition-avoidance-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое эллипсис в тексте?", "en": "What is ellipsis in a text?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Hon läste boken och tyckte om den.» — что пропущено перед «tyckte»?", "en": "\"Hon läste boken och tyckte om den.\" — what is omitted before \"tyckte\"?" },
@@ -22,7 +22,7 @@
       "answer": 1
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Han är längre än hon.» — какое слово пропущено по сравнению с «Han är längre än vad hon är»?", "en": "\"Han är längre än hon.\" — which word is missing compared with \"Han är längre än vad hon är\"?" },
@@ -30,7 +30,7 @@
       "answer": 1
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что обычно пропускается в коротком ответе на диалоговый вопрос?", "en": "What is typically dropped in a short dialogue answer?" },
@@ -38,7 +38,7 @@
       "answer": 1
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Эллипсис и местоименная референция (det, vilket) — взаимоисключающие приёмы, автор должен выбрать только один навсегда.", "en": "Ellipsis and pronominal reference (det, vilket) are mutually exclusive — a writer must pick only one and stick to it forever." },
@@ -46,14 +46,14 @@
       "explanation": { "ru": "Нет, это два компаньона: опытные авторы переключаются между ними в зависимости от ситуации.", "en": "No, they are companions: skilled writers switch between them depending on the situation." }
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Чрезмерное использование местоименной отсылки там, где возможен чистый эллипсис, звучит громоздко.", "en": "Overusing pronominal reference where a clean ellipsis is available sounds clunky." },
       "answer": true
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ja, gärna.» — это полная, грамматически неукороченная форма ответа.", "en": "\"Ja, gärna.\" is the full, non-shortened form of the answer." },
@@ -61,13 +61,13 @@
       "explanation": { "ru": "Нет, это эллиптический короткий ответ — полная форма звучала бы как «Ja, jag vill gärna ha kaffe.»", "en": "No, it's an elliptical short answer — the full form would be \"Ja, jag vill gärna ha kaffe.\"" }
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Har du läst boken? Nej, inte ___. (ещё нет)" },
       "answer": ["än"]
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение с эллипсисом общего подлежащего: «Она прочитала книгу и оценила её.»", "en": "Build the sentence using shared-subject ellipsis: \"She read the book and liked it.\"" },
@@ -75,7 +75,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "q-ellipsis-repetition-avoidance-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь паттерн эллипсиса с примером", "en": "Match the ellipsis pattern with its example" },

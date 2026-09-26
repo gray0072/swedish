@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-phraseology-in-text-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что значит «dra nytta av»?", "en": "What does \"dra nytta av\" mean?" },
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "q-phraseology-in-text-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что значит «sätta fingret på ett problem»?", "en": "What does \"sätta fingret på ett problem\" mean?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-phraseology-in-text-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Чем эта фразеология отличается от ярких идиом delkurs 3 (например, «ha en skruv lös»)?", "en": "How does this phraseology differ from the vivid idioms of delkurs 3 (e.g. \"ha en skruv lös\")?" },
@@ -41,7 +41,7 @@
       "answer": 0
     },
     {
-      "id": "q-phraseology-in-text-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как перевести «Många lägger stor vikt vid att kunna arbeta hemifrån»?", "en": "How do you translate \"Många lägger stor vikt vid att kunna arbeta hemifrån\"?" },
@@ -53,31 +53,31 @@
       "answer": 0
     },
     {
-      "id": "q-phraseology-in-text-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Det är ett steg i rätt ___, men mer behöver göras. (riktning)" },
       "answer": ["riktning"]
     },
     {
-      "id": "q-phraseology-in-text-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Regeringen bör ta ___ till forskarnas varningar. (hänsyn)" },
       "answer": ["hänsyn"]
     },
     {
-      "id": "q-phraseology-in-text-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Artikeln sätter ___ på ett verkligt problem. (fingret)" },
       "answer": ["fingret"]
     },
     {
-      "id": "q-phraseology-in-text-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "Utbildning kan hjälpa människor att dra ___ av nya möjligheter. (nytta)" },
       "answer": ["nytta"]
     },
     {
-      "id": "q-phraseology-in-text-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Sätta fingret på» можно понять дословно по частям, без знания устойчивого выражения.", "en": "\"Sätta fingret på\" can be understood word for word, without knowing it as a fixed phrase." },
@@ -85,21 +85,21 @@
       "explanation": { "ru": "Как и другие фразеологизмы, это выражение нужно учить целиком.", "en": "Like other phraseology, this expression must be learned as a whole unit." }
     },
     {
-      "id": "q-phraseology-in-text-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Такая фразеология типична для аргументированных текстов и эссе.", "en": "This kind of phraseology is typical of argumentative texts and essays." },
       "answer": true
     },
     {
-      "id": "q-phraseology-in-text-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Ett steg i rätt riktning» звучит более «по-взрослому», чем простое «det är bra».", "en": "\"Ett steg i rätt riktning\" sounds more \"grown-up\" than a plain \"det är bra\"." },
       "answer": true
     },
     {
-      "id": "q-phraseology-in-text-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Это шаг в правильном направлении, но нужно сделать больше.»", "en": "Build the sentence: \"It's a step in the right direction, but more needs to be done.\"" },
@@ -107,7 +107,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     },
     {
-      "id": "q-phraseology-in-text-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразеологизм с его значением", "en": "Match the phrase with its meaning" },

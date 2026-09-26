@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-sport-exercise-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое förening?", "en": "What is a förening?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-sport-exercise-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "У твоего ребёнка тренировка по футболу через час, а поле далеко. Что нужно сделать?", "en": "Your child's football training starts in an hour, and the pitch is far away. What should you do?" },
@@ -34,7 +34,7 @@
       "answer": 0
     },
     {
-      "id": "q-sport-exercise-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я тренируюсь в спортзале три раза в неделю.»", "en": "Build the sentence: \"I work out at the gym three times a week.\"" },
@@ -42,7 +42,7 @@
       "answer": [6, 4, 0, 1, 5, 2, 3]
     },
     {
-      "id": "q-sport-exercise-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-sport-exercise-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Träningskläder — это спортивная одежда.", "en": "Träningskläder is sports clothing." },
       "answer": true
     },
     {
-      "id": "q-sport-exercise-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Medlemsavgift обычно платят каждый день.", "en": "The medlemsavgift is usually paid every day." },
@@ -69,7 +69,7 @@
       "explanation": { "ru": "Членский взнос обычно платят раз в год, а не каждый день.", "en": "The membership fee is usually paid once a year, not every day." }
     },
     {
-      "id": "q-sport-exercise-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi byter om i ___. (раздевалка)" },

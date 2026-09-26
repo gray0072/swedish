@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-indefinite-subject-man-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что значит «Man får inte röka här»?", "en": "What does \"Man får inte röka här\" mean?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-indefinite-subject-man-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово — объектная форма местоимения «man»?", "en": "Which word is the object form of the pronoun \"man\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-indefinite-subject-man-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det gör ___ glad. (тебя/человека радует)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-indefinite-subject-man-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ ska lyssna på ___ kropp. (люди вообще; своё)" },
@@ -38,7 +38,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-indefinite-subject-man-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Man» как местоимение и «man» как существительное («муж») — это одно и то же слово с одним значением.", "en": "\"Man\" the pronoun and \"man\" the noun (\"husband\") are the same word with one meaning." },
@@ -46,14 +46,14 @@
       "explanation": { "ru": "Это два разных слова, которые различаются по контексту.", "en": "They are two different words that context tells apart." }
     },
     {
-      "id": "q-indefinite-subject-man-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ens» — притяжательная форма от «man».", "en": "\"Ens\" is the possessive form of \"man\"." },
       "answer": true
     },
     {
-      "id": "q-indefinite-subject-man-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Здесь нельзя курить.»", "en": "Build the sentence: \"You're not allowed to smoke here.\"" },
@@ -61,7 +61,7 @@
       "answer": [3, 4, 2, 0, 1]
     },
     {
-      "id": "q-indefinite-subject-man-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь форму с её ролью", "en": "Match the form with its role" },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "q-indefinite-subject-man-type-answer-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Напиши слово, которое означает «муж» (существительное), а не неопределённое подлежащее.", "en": "Write the word that means \"husband\" (noun), not the indefinite subject." },
@@ -81,7 +81,7 @@
       "hint": { "ru": "Она пишется так же, но это другое слово.", "en": "It's spelled the same, but it's a different word." }
     },
     {
-      "id": "q-indefinite-subject-man-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Hon har en man och två barn.",

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-punctuation-paragraphing-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Куда ставится запятая, если придаточное идёт после главного предложения?", "en": "Where does the comma go when the subordinate clause follows the main clause?" },
@@ -19,7 +19,7 @@
       "answer": 0
     },
     {
-      "id": "q-punctuation-paragraphing-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что должен содержать каждый абзац?", "en": "What should each paragraph contain?" },
@@ -32,7 +32,7 @@
       "answer": 0
     },
     {
-      "id": "q-punctuation-paragraphing-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag stannade hemma___ eftersom det regnade. (запятая)" },
@@ -40,7 +40,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-punctuation-paragraphing-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Так как шёл дождь, я остался дома.»", "en": "Build the sentence: \"Since it was raining, I stayed home.\"" },
@@ -48,7 +48,7 @@
       "answer": [3, 0, 1, 2]
     },
     {
-      "id": "q-punctuation-paragraphing-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -60,14 +60,14 @@
       ]
     },
     {
-      "id": "q-punctuation-paragraphing-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Запятая перед придаточным в шведском — стандартная практика, а не необязательная.", "en": "The comma before a subordinate clause in Swedish is standard practice, not optional." },
       "answer": true
     },
     {
-      "id": "q-punctuation-paragraphing-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Правило запятой меняется, если придаточное стоит в начале предложения.", "en": "The comma rule changes if the subordinate clause comes at the start of the sentence." },

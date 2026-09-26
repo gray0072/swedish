@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-paying-bills-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Аренду нужно оплатить не позже последнего числа.»", "en": "Build the sentence: \"The rent must be paid by the last day.\"" },
@@ -14,7 +14,7 @@
       "answer": [4, 2, 0, 5, 3, 1]
     },
     {
-      "id": "q-paying-bills-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «У меня аренда списывается автоплатежом.»", "en": "Build the sentence: \"I have the rent on autopay.\"" },
@@ -22,7 +22,7 @@
       "answer": [2, 3, 1, 0, 4]
     },
     {
-      "id": "q-paying-bills-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "id": "q-paying-bills-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Autogiro» значит, что банк сам списывает деньги по счёту в срок.", "en": "\"Autogiro\" means the bank automatically pays the bill on the due date." },
       "answer": true
     },
     {
-      "id": "q-paying-bills-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Påminnelseavgift» — это скидка за раннюю оплату.", "en": "\"Påminnelseavgift\" is a discount for paying early." },
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "q-paying-bills-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag måste ___ elräkningen innan förfallodagen. (заплатить)" },
@@ -60,7 +60,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-paying-bills-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -71,7 +71,7 @@
       "answer": 0
     },
     {
-      "id": "q-paying-bills-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

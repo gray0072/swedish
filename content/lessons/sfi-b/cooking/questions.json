@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-cook-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Нарежь помидоры кубиками.»", "en": "Build the sentence: \"Cut the tomatoes into cubes.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-cook-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Обжарь лук на масле.»", "en": "Build the sentence: \"Fry the onion in butter.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-cook-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь кухонные слова с переводом", "en": "Match the kitchen words with their translation" },
@@ -38,14 +38,14 @@
       ]
     },
     {
-      "id": "q-cook-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Skala» значит снять кожуру, например с картошки.", "en": "\"Skala\" means to remove the peel, e.g. from a potato." },
       "answer": true
     },
     {
-      "id": "q-cook-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Steka» и «koka» значат одно и то же — готовить в воде.", "en": "\"Steka\" and \"koka\" mean the same thing — to cook in water." },
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "q-cook-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ potatisen i femton minuter. (свари)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["koka"]
     },
     {
-      "id": "q-cook-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -75,7 +75,7 @@
       "answer": 1
     },
     {
-      "id": "q-cook-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

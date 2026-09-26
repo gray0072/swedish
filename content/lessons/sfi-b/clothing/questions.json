@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-cloth-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мне нужна новая куртка.»", "en": "Build the sentence: \"I need a new jacket.\"" },
@@ -17,7 +17,7 @@
       "answer": [4, 3, 1, 2, 0]
     },
     {
-      "id": "q-cloth-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "q-cloth-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -39,7 +39,7 @@
       "answer": true
     },
     {
-      "id": "q-cloth-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Glasögon» — это ett-слово в единственном числе.", "en": "\"Glasögon\" is a singular ett-word." },
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "q-cloth-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Ta på dig en ___, det är kallt ute. (шапка)" },
@@ -58,7 +58,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-cloth-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что обычно надевают на собеседование в офис?", "en": "What do you usually wear to a job interview?" },

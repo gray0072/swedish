@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "forms-questionnaires-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -19,7 +19,7 @@
       "answer": 1
     },
     {
-      "id": "forms-questionnaires-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -30,7 +30,7 @@
       "answer": 0
     },
     {
-      "id": "forms-questionnaires-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -41,7 +41,7 @@
       "answer": 1
     },
     {
-      "id": "forms-questionnaires-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -51,7 +51,7 @@
       "answer": true
     },
     {
-      "id": "forms-questionnaires-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "forms-questionnaires-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -75,7 +75,7 @@
       "answer": true
     },
     {
-      "id": "forms-questionnaires-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ blanketten och ange datum och ort. (Подпишите)" },
@@ -83,7 +83,7 @@
       "acceptAlso": []
     },
     {
-      "id": "forms-questionnaires-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ i rutan om du är student. (Поставь галочку)" },
@@ -91,7 +91,7 @@
       "acceptAlso": []
     },
     {
-      "id": "forms-questionnaires-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с бланка с переводом", "en": "Match the form-wording word with its translation" },
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "id": "forms-questionnaires-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },

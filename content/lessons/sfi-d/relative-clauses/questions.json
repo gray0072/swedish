@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-relative-clauses-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое слово используется, когда есть движение к месту?", "en": "Which word is used when there's movement toward the place?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-relative-clauses-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово — относительное притяжательное («чей»)?", "en": "Which word is the relative possessive (\"whose\")?" },
@@ -23,7 +23,7 @@
       "answer": 0
     },
     {
-      "id": "q-relative-clauses-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Staden ___ jag bor är liten. (где)" },
@@ -31,7 +31,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-relative-clauses-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мужчина, который живёт рядом, приятный.»", "en": "Build the sentence: \"The man who lives next door is nice.\"" },
@@ -39,7 +39,7 @@
       "answer": [5, 3, 2, 0, 4, 1]
     },
     {
-      "id": "q-relative-clauses-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -51,14 +51,14 @@
       ]
     },
     {
-      "id": "q-relative-clauses-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Som» может относиться и к людям, и к предметам.", "en": "\"Som\" can refer to both people and things." },
       "answer": true
     },
     {
-      "id": "q-relative-clauses-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Där» и «dit» — это абсолютно взаимозаменяемые слова.", "en": "\"Där\" and \"dit\" are fully interchangeable." },

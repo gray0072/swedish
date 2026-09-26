@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-society-equality-rights-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "В чём разница между «jämlikhet» и «jämställdhet»?", "en": "What is the difference between \"jämlikhet\" and \"jämställdhet\"?" },
       "choices": [
@@ -16,7 +16,7 @@
       "answer": 0
     },
     {
-      "id": "q-society-equality-rights-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Что означает «delaktighet»?", "en": "What does \"delaktighet\" mean?" },
       "choices": [
@@ -27,14 +27,14 @@
       "answer": 0
     },
     {
-      "id": "q-society-equality-rights-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что значит «tillgänglighet»?", "en": "What does \"tillgänglighet\" mean?" },
       "choices": ["доступность", "гендерное равенство", "разнообразие"],
       "answer": 0
     },
     {
-      "id": "q-society-equality-rights-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Что такое «funktionsvariation»?", "en": "What is \"funktionsvariation\"?" },
       "choices": [
@@ -45,35 +45,35 @@
       "answer": 0
     },
     {
-      "id": "q-society-equality-rights-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "«Jämställdhet» и «jämlikhet» — это одно и то же понятие.", "en": "\"Jämställdhet\" and \"jämlikhet\" are the same concept." },
       "answer": false,
       "explanation": { "ru": "Jämlikhet — общее равенство, jämställdhet — конкретно гендерное равенство.", "en": "Jämlikhet is general equality; jämställdhet is specifically gender equality." }
     },
     {
-      "id": "q-society-equality-rights-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Права человека распространяются только на граждан определённой страны.", "en": "Human rights apply only to citizens of a particular country." },
       "answer": false,
       "explanation": { "ru": "Mänskliga rättigheter распространяются на всех людей, независимо от страны.", "en": "Mänskliga rättigheter apply to all people, regardless of country." }
     },
     {
-      "id": "q-society-equality-rights-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jämställdhet handlar specifikt om jämlikhet mellan kvinnor och ___. (män)" },
       "answer": ["män"],
       "acceptAlso": []
     },
     {
-      "id": "q-society-equality-rights-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Skolan arbetar aktivt med ___ av alla elever. (inkludering)" },
       "answer": ["inkludering"],
       "acceptAlso": []
     },
     {
-      "id": "q-society-equality-rights-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Доступность означает, что все должны иметь возможность передвигаться и участвовать.»", "en": "Build the sentence: \"Accessibility means everyone should be able to get around and take part.\"" },
@@ -81,7 +81,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     },
     {
-      "id": "q-society-equality-rights-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь термин с переводом", "en": "Match the term with its translation" },
       "pairs": [
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": "q-society-equality-rights-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "Что значит «utanförskap»?", "en": "What does \"utanförskap\" mean?" },
       "choices": ["социальная изоляция, исключённость", "экономический рост", "языковая норма"],

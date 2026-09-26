@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-fam-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Мы обручились этим летом.»", "en": "Build the sentence: \"We got engaged this summer.\"" },
@@ -17,7 +17,7 @@
       "answer": [2, 1, 4, 0, 3]
     },
     {
-      "id": "q-fam-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «У него двое неродных детей.»", "en": "Build the sentence: \"He has two stepchildren.\"" },
@@ -25,7 +25,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-fam-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь родственников с переводом", "en": "Match the family words with their translation" },
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "q-fam-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Sambo» значит, что пара официально расписана.", "en": "\"Sambo\" means the couple is officially married." },
@@ -48,14 +48,14 @@
       }
     },
     {
-      "id": "q-fam-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Skilsmässa» значит, что пара юридически разводится.", "en": "\"Skilsmässa\" means the couple is getting legally divorced." },
       "answer": true
     },
     {
-      "id": "q-fam-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Min ___ kommer på middag ikväll. (свекровь)" },
@@ -63,7 +63,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-fam-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -74,7 +74,7 @@
       "answer": 1
     },
     {
-      "id": "q-fam-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

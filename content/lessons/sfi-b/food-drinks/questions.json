@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-food-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Можно мне немного молока?»", "en": "Build the sentence: \"Can I have some milk?\"" },
@@ -17,7 +17,7 @@
       "answer": [4, 2, 3, 1, 0]
     },
     {
-      "id": "q-food-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь продукты с переводом", "en": "Match the food words with their translation" },
@@ -29,14 +29,14 @@
       ]
     },
     {
-      "id": "q-food-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Kaffe» — это ett-слово.", "en": "\"Kaffe\" is an ett-word." },
       "answer": true
     },
     {
-      "id": "q-food-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -50,14 +50,14 @@
       }
     },
     {
-      "id": "q-food-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag vill ha en kopp ___. (кофе)" },
       "answer": ["kaffe"],
       "acceptAlso": []
     },
     {
-      "id": "q-food-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что традиционно пьют во время «fika»?", "en": "What do you traditionally drink during \"fika\"?" },

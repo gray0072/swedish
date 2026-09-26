@@ -5,14 +5,14 @@
   ],
   "items": [
     {
-      "id": "q-economy-statistics-analysis-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Какая фраза используется, чтобы предложить объяснение статистике?", "en": "Which phrase is used to offer an explanation for statistics?" },
       "choices": ["en möjlig förklaring är att...", "jämfört med föregående år", "det är svårt att säga säkert"],
       "answer": 0
     },
     {
-      "id": "q-economy-statistics-analysis-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "В чём разница между «samband» и «orsak»?", "en": "What is the difference between \"samband\" and \"orsak\"?" },
       "choices": [
@@ -23,7 +23,7 @@
       "answer": 0
     },
     {
-      "id": "q-economy-statistics-analysis-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что значит «bristyrke»?", "en": "What does \"bristyrke\" mean?" },
       "choices": [
@@ -34,42 +34,42 @@
       "answer": 0
     },
     {
-      "id": "q-economy-statistics-analysis-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Что значит «konjunktur»?", "en": "What does \"konjunktur\" mean?" },
       "choices": ["экономическая конъюнктура", "процентная ставка", "государственный бюджет"],
       "answer": 0
     },
     {
-      "id": "q-economy-statistics-analysis-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Если два показателя связаны (samband), это всегда значит, что один вызывает другой.", "en": "If two figures are correlated (samband), that always means one causes the other." },
       "answer": false,
       "explanation": { "ru": "Корреляция не равна причинности — нужны дополнительные данные.", "en": "Correlation is not causation — more data is needed." }
     },
     {
-      "id": "q-economy-statistics-analysis-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Хороший анализ статистики всегда признаёт, что могут быть разные объяснения.", "en": "Good statistical analysis always acknowledges there may be different explanations." },
       "answer": true,
       "explanation": { "ru": "Именно поэтому используются фразы вроде «en möjlig förklaring är att...».", "en": "That's exactly why phrases like \"en möjlig förklaring är att...\" are used." }
     },
     {
-      "id": "q-economy-statistics-analysis-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Statistiken ___ på att arbetslösheten minskar bland unga. (tyder)" },
       "answer": ["tyder"],
       "acceptAlso": []
     },
     {
-      "id": "q-economy-statistics-analysis-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Man kan inte ___ slutsatsen att X orsakar Y enbart utifrån detta. (dra)" },
       "answer": ["dra"],
       "acceptAlso": []
     },
     {
-      "id": "q-economy-statistics-analysis-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «По сравнению с прошлым годом инфляция снизилась.»", "en": "Build the sentence: \"Compared with the previous year, inflation has gone down.\"" },
@@ -77,7 +77,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-economy-statistics-analysis-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь фразу с её функцией", "en": "Match the phrase with its function" },
       "pairs": [
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "id": "q-economy-statistics-analysis-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "Что значит «slutsats»?", "en": "What does \"slutsats\" mean?" },
       "choices": ["вывод, заключение", "источник данных", "погрешность"],

@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-komvux-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Мне нужно сделать задание к пятнице.»", "en": "Build the sentence: \"I have to do an assignment by Friday.\"" },
@@ -18,7 +18,7 @@
       "answer": [5, 2, 1, 0, 3, 4, 6]
     },
     {
-      "id": "q-komvux-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "q-komvux-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Godkänd» значит «не сдано».", "en": "\"Godkänd\" means \"failed\"." },
@@ -41,7 +41,7 @@
       }
     },
     {
-      "id": "q-komvux-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag fick ___ på kursen. (зачёт, сдано)" },
@@ -49,7 +49,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-komvux-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -60,7 +60,7 @@
       "answer": 0
     },
     {
-      "id": "q-komvux-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

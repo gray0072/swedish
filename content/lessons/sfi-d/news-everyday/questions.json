@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-news-everyday-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что показывает слово «enligt» в новости?", "en": "What does the word \"enligt\" show in a news item?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-news-everyday-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Новость о выборах в другой стране — это скорее...", "en": "A news item about an election in another country is more likely..." },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-news-everyday-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «По данным полиции, никто не пострадал.»", "en": "Build the sentence: \"According to the police, no one was hurt.\"" },
@@ -37,7 +37,7 @@
       "answer": [4, 1, 2, 3, 0]
     },
     {
-      "id": "q-news-everyday-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -49,14 +49,14 @@
       ]
     },
     {
-      "id": "q-news-everyday-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Rubrik — это заголовок статьи.", "en": "Rubrik is the article's headline." },
       "answer": true
     },
     {
-      "id": "q-news-everyday-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Inrikes» значит «зарубежный».", "en": "\"Inrikes\" means \"foreign\"." },
@@ -64,7 +64,7 @@
       "explanation": { "ru": "«Inrikes» значит «внутренний, о своей стране»; «зарубежный» — это «utrikes».", "en": "\"Inrikes\" means \"domestic\"; \"foreign\" is \"utrikes\"." }
     },
     {
-      "id": "q-news-everyday-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Kan du ___ artikeln i två meningar? (кратко изложить)" },

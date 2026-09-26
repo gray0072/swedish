@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-food-culture-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Где в Швеции покупают крепкий алкоголь?", "en": "Where do you buy stronger alcohol in Sweden?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-food-culture-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что значит «lagom»?", "en": "What does \"lagom\" mean?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-food-culture-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Магазин закрывается в шесть.»", "en": "Build the sentence: \"The shop closes at six.\"" },
@@ -36,7 +36,7 @@
       "answer": [3, 2, 0, 1]
     },
     {
-      "id": "q-food-culture-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,14 +48,14 @@
       ]
     },
     {
-      "id": "q-food-culture-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Köttbullar — это тефтели.", "en": "Köttbullar are meatballs." },
       "answer": true
     },
     {
-      "id": "q-food-culture-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В Systembolaget можно купить алкоголь без документа, даже если тебе выглядит на 18.", "en": "You can buy alcohol at Systembolaget without ID even if you look 18." },
@@ -63,7 +63,7 @@
       "explanation": { "ru": "Обычно всё равно требуют показать документ, удостоверяющий возраст.", "en": "Staff usually still ask to see ID to confirm your age." }
     },
     {
-      "id": "q-food-culture-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Ta med ___ om du köper alkohol. (документ)" },

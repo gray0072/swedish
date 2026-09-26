@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-wh-questions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери вопрос: «Где ты живёшь?»", "en": "Build the question: \"Where do you live?\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-wh-questions-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери вопрос: «Когда ты придёшь?»", "en": "Build the question: \"When are you coming?\"" },
@@ -23,21 +23,21 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-wh-questions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ heter du? (что)" },
       "answer": ["Vad"],
       "acceptAlso": ["vad"]
     },
     {
-      "id": "q-wh-questions-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ är det? (кто)" },
       "answer": ["Vem"],
       "acceptAlso": ["vem"]
     },
     {
-      "id": "q-wh-questions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой вопрос спрашивает про возраст?", "en": "Which question asks about age?" },
@@ -45,7 +45,7 @@
       "answer": 1
     },
     {
-      "id": "q-wh-questions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что стоит на первом месте в вопросе с вопросительным словом?", "en": "What comes first in a question with a question word?" },
@@ -53,20 +53,20 @@
       "answer": 1
     },
     {
-      "id": "q-wh-questions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "«Vem» переводится как «когда».", "en": "\"Vem\" translates as \"when\"." },
       "answer": false,
       "explanation": { "ru": "«Vem» — это «кто», а «когда» — это «när».", "en": "\"Vem\" means \"who\"; \"when\" is \"när\"." }
     },
     {
-      "id": "q-wh-questions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Слово-действие в вопросе стоит сразу после вопросительного слова.", "en": "The action word comes right after the question word." },
       "answer": true
     },
     {
-      "id": "q-wh-questions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вопросительное слово с переводом", "en": "Match the question word with its translation" },

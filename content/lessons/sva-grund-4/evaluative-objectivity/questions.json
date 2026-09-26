@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-evaluative-objectivity-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой глагол нейтрален, а не оценочен?", "en": "Which verb is neutral, not evaluative?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-evaluative-objectivity-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Priset sköt i höjden med hela 10 procent» — что здесь добавляет оценку?", "en": "\"Priset sköt i höjden med hela 10 procent\" — what adds the evaluative judgment here?" },
@@ -22,7 +22,7 @@
       "answer": 1
     },
     {
-      "id": "q-evaluative-objectivity-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Меняет ли оценочная лексика сами факты?", "en": "Does evaluative vocabulary change the facts themselves?" },
@@ -30,7 +30,7 @@
       "answer": 1
     },
     {
-      "id": "q-evaluative-objectivity-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "В каком жанре уместна оценочная лексика вроде «rasa», «enorm», «chockerande»?", "en": "In which genre is evaluative vocabulary like \"rasa\", \"enorm\", \"chockerande\" appropriate?" },
@@ -38,7 +38,7 @@
       "answer": 1
     },
     {
-      "id": "q-evaluative-objectivity-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "Почему utredande text на письменном экзамене требует нейтральной лексики?", "en": "Why does the exam's utredande text require neutral vocabulary?" },
@@ -46,14 +46,14 @@
       "answer": 0
     },
     {
-      "id": "q-evaluative-objectivity-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Minska» и «rasa» могут описывать одно и то же изменение количества, но с разной степенью оценки.", "en": "\"Minska\" and \"rasa\" can describe the same change in quantity, but with a different degree of judgment." },
       "answer": true
     },
     {
-      "id": "q-evaluative-objectivity-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Усилители вроде «hela» и «enorm» типичны для нейтрального utredande text.", "en": "Intensifiers like \"hela\" and \"enorm\" are typical of a neutral utredande text." },
@@ -61,32 +61,32 @@
       "explanation": { "ru": "Наоборот, они типичны для оценочного, персуазивного письма, а не для нейтрального изложения.", "en": "The opposite: they're typical of evaluative, persuasive writing, not neutral presentation." }
     },
     {
-      "id": "q-evaluative-objectivity-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Умение распознавать оценочную лексику полезно и для нейтрального письма, и для убеждающего.", "en": "Recognising evaluative vocabulary is useful for both neutral and persuasive writing." },
       "answer": true
     },
     {
-      "id": "q-evaluative-objectivity-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Priset ___ med 10 procent. (нейтральный глагол роста)" },
       "answer": ["ökade"]
     },
     {
-      "id": "q-evaluative-objectivity-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Priset sköt i höjden med ___ 10 procent. (усилитель)" },
       "answer": ["hela"]
     },
     {
-      "id": "q-evaluative-objectivity-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Antalet arbetslösa ___ dramatiskt under året. (оценочный глагол убывания)" },
       "answer": ["rasade"]
     },
     {
-      "id": "q-evaluative-objectivity-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери нейтральное предложение: «Цена выросла на 10 процентов.»", "en": "Build the neutral sentence: \"The price increased by 10 percent.\"" },
@@ -94,7 +94,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "q-evaluative-objectivity-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь нейтральное слово с его оценочным аналогом", "en": "Match the neutral word with its evaluative counterpart" },

@@ -7,21 +7,21 @@
   ],
   "items": [
     {
-      "id": "q-definite-form-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "en bil → ___" },
       "answer": ["bilen"],
       "acceptAlso": []
     },
     {
-      "id": "q-definite-form-basics-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "ett hus → ___" },
       "answer": ["huset"],
       "acceptAlso": []
     },
     {
-      "id": "q-definite-form-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как сказать «эта кошка»?", "en": "How do you say \"the cat\"?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-definite-form-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как сказать «этот ребёнок»?", "en": "How do you say \"the child\"?" },
@@ -37,13 +37,13 @@
       "answer": 1
     },
     {
-      "id": "q-definite-form-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "en-слова обычно добавляют «-en» на конце.", "en": "En-words usually add \"-en\" at the end." },
       "answer": true
     },
     {
-      "id": "q-definite-form-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "ett-слова обычно добавляют «-en» на конце.", "en": "Ett-words usually add \"-en\" at the end." },
       "answer": false,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "q-definite-form-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с его формой «этот, эта»", "en": "Match the word with its \"the\" form" },
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "q-definite-form-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Машина новая.»", "en": "Build the sentence: \"The car is new.\"" },
@@ -73,7 +73,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-definite-form-basics-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Дом большой.»", "en": "Build the sentence: \"The house is big.\"" },

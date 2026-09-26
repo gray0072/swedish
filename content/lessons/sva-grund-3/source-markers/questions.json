@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-source-markers-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что должно идти после `enligt`?", "en": "What must follow `enligt`?" },
@@ -18,7 +18,7 @@
       "answer": 0
     },
     {
-      "id": "q-source-markers-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что берёт после себя `hävdar`?", "en": "What does `hävdar` take after it?" },
@@ -26,7 +26,7 @@
       "answer": 1
     },
     {
-      "id": "q-source-markers-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Myndigheten hävdar att systemet fungerar korrekt» — согласен ли автор текста с этим утверждением?", "en": "\"Myndigheten hävdar att systemet fungerar korrekt\" — does the writer agree with this claim?" },
@@ -38,7 +38,7 @@
       "answer": 0
     },
     {
-      "id": "q-source-markers-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Зачем в реферате и новостях используют маркеры источника типа enligt/hävdar att?", "en": "Why do referat writing and news use source markers like enligt/hävdar att?" },
@@ -50,25 +50,25 @@
       "answer": 0
     },
     {
-      "id": "q-source-markers-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ Skatteverket ska deklarationen lämnas in senast den 2 maj. (маркер источника + существительное)" },
       "answer": ["Enligt"]
     },
     {
-      "id": "q-source-markers-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Myndigheten ___ att systemet fungerar korrekt. (утверждать)" },
       "answer": ["hävdar"]
     },
     {
-      "id": "q-source-markers-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Experten ___ att situationen kommer att förbättras. (считать, полагать)" },
       "answer": ["menar"]
     },
     {
-      "id": "q-source-markers-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Enligt» можно присоединить прямо к целому придаточному предложению с att.", "en": "\"Enligt\" can attach directly to a whole att-clause." },
@@ -76,14 +76,14 @@
       "explanation": { "ru": "Enligt берёт после себя существительное или имя, а не придаточное.", "en": "Enligt takes a noun or a name after it, not a clause." }
     },
     {
-      "id": "q-source-markers-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Hävdar att» и «menar att» позволяют приписать утверждение конкретному источнику, не делая его своим фактом.", "en": "\"Hävdar att\" and \"menar att\" let you attribute a claim to a specific source without making it your own fact." },
       "answer": true
     },
     {
-      "id": "q-source-markers-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Маркеры источника не важны в новостных и реферативных текстах.", "en": "Source markers don't matter in news and referat writing." },
@@ -91,7 +91,7 @@
       "explanation": { "ru": "Наоборот, это базовый инструмент для дистанцирования автора от чужого утверждения.", "en": "On the contrary, they're a core tool for keeping the writer at a distance from someone else's claim." }
     },
     {
-      "id": "q-source-markers-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «По словам учителя, экзамен был трудным.»", "en": "Build the sentence: \"According to the teacher, the test was hard.\"" },
@@ -99,7 +99,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "q-source-markers-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь маркер с тем, что после него следует", "en": "Match the marker with what follows it" },

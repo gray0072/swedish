@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-bill-receipt-payslip-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что показывает lönespecifikation?", "en": "What does a lönespecifikation show?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-bill-receipt-payslip-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что нужно указать при оплате счёта, чтобы платёж засчитали правильно?", "en": "What do you need to enter when paying a bill so the payment is matched correctly?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-bill-receipt-payslip-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Счёт нужно оплатить в срок.»", "en": "Build the sentence: \"The bill must be paid by the due date.\"" },
@@ -36,7 +36,7 @@
       "answer": [3, 4, 1, 0, 2]
     },
     {
-      "id": "q-bill-receipt-payslip-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "q-bill-receipt-payslip-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Nettolön — это зарплата до вычета налога.", "en": "Nettolön is pay before tax." },
@@ -56,14 +56,14 @@
       "explanation": { "ru": "Nettolön — это зарплата ПОСЛЕ вычета налога; bruttolön — до вычета.", "en": "Nettolön is pay AFTER tax; bruttolön is pay before tax." }
     },
     {
-      "id": "q-bill-receipt-payslip-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Autogiro — это автоматическое списание платежа со счёта.", "en": "Autogiro is an automatic direct debit payment." },
       "answer": true
     },
     {
-      "id": "q-bill-receipt-payslip-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Spara ___ om du vill byta varan. (чек)" },

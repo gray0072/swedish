@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-genitive-longer-phrase-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Куда ставится -s в длинной именной группе?", "en": "Where does the -s go in a longer noun phrase?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-genitive-longer-phrase-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как правильно сказать «брат моего друга»?", "en": "How do you correctly say \"my friend's brother\"?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-genitive-longer-phrase-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ regering sammanträder på tisdagar. (Швеции)" },
@@ -36,7 +36,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-genitive-longer-phrase-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Столица Франции — Париж.»", "en": "Build the sentence: \"France's capital is Paris.\"" },
@@ -44,7 +44,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-genitive-longer-phrase-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -56,14 +56,14 @@
       ]
     },
     {
-      "id": "q-genitive-longer-phrase-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В фразе «min kompis bror» -s ставится на «kompis», а не на «bror».", "en": "In \"min kompis bror\", the -s goes on \"kompis\", not on \"bror\"." },
       "answer": true
     },
     {
-      "id": "q-genitive-longer-phrase-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В цепочке из двух уровней владения -s ставится дважды.", "en": "In a two-level possessive chain, -s is added twice." },

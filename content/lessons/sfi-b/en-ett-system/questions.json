@@ -7,49 +7,49 @@
   ],
   "items": [
     {
-      "id": "q-eas-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "en bil -> ___ (определённая форма)" },
       "answer": ["bilen"],
       "acceptAlso": []
     },
     {
-      "id": "q-eas-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "ett hus -> ___ (определённая форма)" },
       "answer": ["huset"],
       "acceptAlso": []
     },
     {
-      "id": "q-eas-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "en flicka -> ___ (определённая форма)" },
       "answer": ["flickan"],
       "acceptAlso": []
     },
     {
-      "id": "q-eas-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "ett äpple -> ___ (определённая форма)" },
       "answer": ["äpplet"],
       "acceptAlso": []
     },
     {
-      "id": "q-eas-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "En-слово, оканчивающееся на согласный, получает окончание -en в определённой форме.", "en": "An en-word ending in a consonant gets the ending -en in the definite form." },
       "answer": true
     },
     {
-      "id": "q-eas-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Определённая форма от «ett bord» — «bordet».", "en": "The definite form of \"ett bord\" is \"bordet\"." },
       "answer": true
     },
     {
-      "id": "q-eas-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Определённая форма от «en gata» — «gataen».", "en": "The definite form of \"en gata\" is \"gataen\"." },
@@ -57,7 +57,7 @@
       "explanation": { "ru": "Правильно: «gatan» — en-слово на гласный получает только -n.", "en": "Correct: \"gatan\" — an en-word ending in a vowel only adds -n." }
     },
     {
-      "id": "q-eas-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое окончание получает ett-слово на согласный в определённой форме?", "en": "Which ending does an ett-word ending in a consonant get in the definite form?" },
@@ -65,7 +65,7 @@
       "answer": 0
     },
     {
-      "id": "q-eas-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Выбери правильную определённую форму «ett öga».", "en": "Choose the correct definite form of \"ett öga\"." },
@@ -73,7 +73,7 @@
       "answer": 2
     },
     {
-      "id": "q-eas-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь неопределённую и определённую форму", "en": "Match the indefinite and definite forms" },

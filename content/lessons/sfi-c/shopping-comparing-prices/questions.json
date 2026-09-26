@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-shopping-comparing-prices-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Могу я вернуть эту кофту?»", "en": "Build the sentence: \"Can I return this sweater?\"" },
@@ -14,7 +14,7 @@
       "answer": [5, 2, 4, 6, 0, 3, 1]
     },
     {
-      "id": "q-shopping-comparing-prices-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Я хочу деньги обратно.»", "en": "Build the sentence: \"I want a refund.\"" },
@@ -22,7 +22,7 @@
       "answer": [1, 3, 0, 4, 2]
     },
     {
-      "id": "q-shopping-comparing-prices-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "id": "q-shopping-comparing-prices-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Öppet köp» значит, что товар можно вернуть без объяснения причины в течение определённого срока.", "en": "\"Öppet köp\" means you can return an item without a reason within a set period." },
       "answer": true
     },
     {
-      "id": "q-shopping-comparing-prices-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Prisvärd» значит «слишком дорогой».", "en": "\"Prisvärd\" means \"too expensive\"." },
@@ -52,7 +52,7 @@
       }
     },
     {
-      "id": "q-shopping-comparing-prices-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag vill ___ den här produkten, den är trasig. (подать рекламацию)" },
@@ -60,7 +60,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-shopping-comparing-prices-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -71,7 +71,7 @@
       "answer": 0
     },
     {
-      "id": "q-shopping-comparing-prices-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

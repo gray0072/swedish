@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-supine-strong-verbs-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое супин?", "en": "What is the supine?" },
@@ -19,7 +19,7 @@
       "answer": 0
     },
     {
-      "id": "q-supine-strong-verbs-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как будет супин от «äta»?", "en": "What is the supine of \"äta\"?" },
@@ -27,7 +27,7 @@
       "answer": 2
     },
     {
-      "id": "q-supine-strong-verbs-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как будет супин от «se»?", "en": "What is the supine of \"se\"?" },
@@ -35,7 +35,7 @@
       "answer": 2
     },
     {
-      "id": "q-supine-strong-verbs-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag har ___ ett brev. (skriva)" },
@@ -44,7 +44,7 @@
       "hint": { "ru": "супин от «skriva»", "en": "supine of \"skriva\"" }
     },
     {
-      "id": "q-supine-strong-verbs-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Han har ___ kaffe. (dricka)" },
@@ -53,7 +53,7 @@
       "hint": { "ru": "супин от «dricka»", "en": "supine of \"dricka\"" }
     },
     {
-      "id": "q-supine-strong-verbs-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мы уже поели.»", "en": "Build the sentence: \"We have already eaten.\"" },
@@ -61,7 +61,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-supine-strong-verbs-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь инфинитив с супином", "en": "Match the infinitive with its supine" },
@@ -75,14 +75,14 @@
       ]
     },
     {
-      "id": "q-supine-strong-verbs-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Супин используется вместе с har/hade.", "en": "The supine is used together with har/hade." },
       "answer": true
     },
     {
-      "id": "q-supine-strong-verbs-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Супин от «arbeta» — «arbetade».", "en": "The supine of \"arbeta\" is \"arbetade\"." },
@@ -90,7 +90,7 @@
       "explanation": { "ru": "«Arbetade» — это претерит. Супин — «arbetat».", "en": "\"Arbetade\" is the preterite. The supine is \"arbetat\"." }
     },
     {
-      "id": "q-supine-strong-verbs-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag har sprungit fem kilometer och sedan har jag sovit gott.",

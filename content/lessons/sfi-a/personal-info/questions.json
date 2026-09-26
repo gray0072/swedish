@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-pinfo-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Какой у тебя личный номер?»", "en": "Build the question: \"What is your personal identity number?\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-pinfo-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "q-pinfo-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -44,14 +44,14 @@
       }
     },
     {
-      "id": "q-pinfo-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Fylla i» значит «заполнять» (например, бланк).", "en": "\"Fylla i\" means \"to fill in\" (e.g. a form)." },
       "answer": true
     },
     {
-      "id": "q-pinfo-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag ___ Anna. (меня зовут)" },
@@ -59,7 +59,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-pinfo-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -75,7 +75,7 @@
       "answer": 1
     },
     {
-      "id": "q-pinfo-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

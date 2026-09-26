@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-pres-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я изучаю шведский.»", "en": "Build the sentence: \"I study Swedish.\"" },
@@ -15,7 +15,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-pres-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -25,7 +25,7 @@
       "answer": true
     },
     {
-      "id": "q-pres-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Vara» в настоящем времени — «varar».", "en": "\"Vara\" in the present tense is \"varar\"." },
@@ -33,14 +33,14 @@
       "explanation": { "ru": "Правильная форма — «är», это неправильный глагол.", "en": "The correct form is \"är\" — it's an irregular verb." }
     },
     {
-      "id": "q-pres-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag ___ i Stockholm. (bo)" },
       "answer": ["bor"],
       "acceptAlso": []
     },
     {
-      "id": "q-pres-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь глагол с переводом", "en": "Match the verb with its translation" },
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": "q-pres-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как будет «Меня зовут…»?", "en": "How do you say \"My name is...\"?" },

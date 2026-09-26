@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-job-search-application-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что значит «meriterande» в объявлении о работе?", "en": "What does \"meriterande\" mean in a job ad?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-job-search-application-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что обычно прикладывают к ansökan, чтобы объяснить свой опыт?", "en": "What do you usually attach to an ansökan to explain your experience?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-job-search-application-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я ищу работу помощником медсестры.»", "en": "Build the sentence: \"I'm looking for work as a care assistant.\"" },
@@ -36,7 +36,7 @@
       "answer": [4, 3, 1, 0, 2]
     },
     {
-      "id": "q-job-search-application-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,14 +48,14 @@
       ]
     },
     {
-      "id": "q-job-search-application-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Tillsvidareanställning — это постоянная занятость.", "en": "Tillsvidareanställning is permanent employment." },
       "answer": true
     },
     {
-      "id": "q-job-search-application-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Krav в объявлении — это то же самое, что meriterande.", "en": "Krav in an ad is the same thing as meriterande." },
@@ -63,7 +63,7 @@
       "explanation": { "ru": "Krav — обязательное требование, meriterande — лишь преимущество.", "en": "Krav is a firm requirement; meriterande is only an advantage." }
     },
     {
-      "id": "q-job-search-application-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Kan du ___ dig kort? (представиться)" },

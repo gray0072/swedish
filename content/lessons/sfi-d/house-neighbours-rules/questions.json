@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-house-neighbours-rules-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как обычно пользуются общей прачечной (tvättstuga)?", "en": "How do you normally use the shared laundry room (tvättstuga)?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-house-neighbours-rules-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Кто обычно устанавливает ordningsregler для дома?", "en": "Who usually sets the ordningsregler for a building?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-house-neighbours-rules-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мы сортируем пластик, бумагу и стекло.»", "en": "Build the sentence: \"We sort plastic, paper and glass.\"" },
@@ -37,7 +37,7 @@
       "answer": [5, 4, 3, 1, 0, 2]
     },
     {
-      "id": "q-house-neighbours-rules-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -49,14 +49,14 @@
       ]
     },
     {
-      "id": "q-house-neighbours-rules-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Gemensamma utrymmen — это общие помещения.", "en": "Gemensamma utrymmen are shared spaces." },
       "answer": true
     },
     {
-      "id": "q-house-neighbours-rules-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В подъезде принято хранить велосипеды и обувь.", "en": "It's customary to store bikes and shoes in the stairwell." },
@@ -64,7 +64,7 @@
       "explanation": { "ru": "Обычно правила требуют держать общие помещения свободными от личных вещей.", "en": "House rules usually require shared spaces to be kept clear of personal belongings." }
     },
     {
-      "id": "q-house-neighbours-rules-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi ___ plast, papper och glas. (сортируем)" },

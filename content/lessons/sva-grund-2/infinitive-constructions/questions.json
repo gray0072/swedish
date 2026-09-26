@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-infinitive-constructions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-constructions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -42,7 +42,7 @@
       }
     },
     {
-      "id": "q-infinitive-constructions-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -58,7 +58,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-constructions-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -74,7 +74,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-constructions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -86,7 +86,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-infinitive-constructions-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -98,7 +98,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-infinitive-constructions-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 3,
       "prompt": {
@@ -110,7 +110,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-infinitive-constructions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": {
@@ -121,7 +121,7 @@
       "answer": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-infinitive-constructions-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": {
@@ -132,7 +132,7 @@
       "answer": [7, 6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-infinitive-constructions-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 3,
       "prompt": {
@@ -143,7 +143,7 @@
       "answer": [8, 7, 6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-infinitive-constructions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -153,7 +153,7 @@
       "answer": true
     },
     {
-      "id": "q-infinitive-constructions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -167,7 +167,7 @@
       }
     },
     {
-      "id": "q-infinitive-constructions-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -177,7 +177,7 @@
       "answer": true
     },
     {
-      "id": "q-infinitive-constructions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь оборот со значением", "en": "Match the construction with its meaning" },

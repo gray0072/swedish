@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-statement-word-order-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Я живу в Мальмё.»", "en": "Build the sentence: \"I live in Malmö.\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 2, 3, 0]
     },
     {
-      "id": "q-statement-word-order-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Мы говорим по-шведски.»", "en": "Build the sentence: \"We speak Swedish.\"" },
@@ -23,21 +23,21 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-statement-word-order-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ heter Ali. (ты)" },
       "answer": ["Du"],
       "acceptAlso": ["du"]
     },
     {
-      "id": "q-statement-word-order-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Han ___ i Stockholm. (работает)" },
       "answer": ["jobbar"],
       "acceptAlso": []
     },
     {
-      "id": "q-statement-word-order-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой порядок слов в шведском простом предложении?", "en": "What is the word order in a simple Swedish sentence?" },
@@ -50,7 +50,7 @@
       "answer": 0
     },
     {
-      "id": "q-statement-word-order-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Выбери правильное предложение.", "en": "Pick the correct sentence." },
@@ -58,20 +58,20 @@
       "answer": 1
     },
     {
-      "id": "q-statement-word-order-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "В предложении «Jag bor i Malmö» слово «bor» стоит на первом месте.", "en": "In \"Jag bor i Malmö\", the word \"bor\" comes first." },
       "answer": false,
       "explanation": { "ru": "На первом месте стоит «jag» — тот, кто живёт.", "en": "\"Jag\" comes first — the one who lives there." }
     },
     {
-      "id": "q-statement-word-order-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Слово-действие в простом шведском предложении всегда стоит на втором месте.", "en": "The action word in a simple Swedish sentence always comes second." },
       "answer": true
     },
     {
-      "id": "q-statement-word-order-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь начало и продолжение предложения", "en": "Match the start and the end of the sentence" },

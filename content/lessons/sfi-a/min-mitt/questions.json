@@ -7,28 +7,28 @@
   ],
   "items": [
     {
-      "id": "q-min-mitt-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ mamma heter Eva. (моя)" },
       "answer": ["Min", "min"],
       "acceptAlso": []
     },
     {
-      "id": "q-min-mitt-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ barn sover. (мой)" },
       "answer": ["Mitt", "mitt"],
       "acceptAlso": []
     },
     {
-      "id": "q-min-mitt-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "___ böcker är nya. (мои)" },
       "answer": ["Mina", "mina"],
       "acceptAlso": []
     },
     {
-      "id": "q-min-mitt-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно сказать «моя машина»?", "en": "How do you correctly say \"my car\"?" },
@@ -36,7 +36,7 @@
       "answer": 0
     },
     {
-      "id": "q-min-mitt-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно сказать «мой дом»?", "en": "How do you correctly say \"my house\"?" },
@@ -44,13 +44,13 @@
       "answer": 1
     },
     {
-      "id": "q-min-mitt-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "«mitt» используется перед ett-словами.", "en": "\"mitt\" is used before ett-words." },
       "answer": true
     },
     {
-      "id": "q-min-mitt-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«mina» используется перед одним en-словом.", "en": "\"mina\" is used before a single en-word." },
       "answer": false,
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "q-min-mitt-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с правильной формой «мой»", "en": "Match the word with the correct form of \"my\"" },
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "id": "q-min-mitt-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мою маму зовут Ева.»", "en": "Build the sentence: \"My mom's name is Eva.\"" },

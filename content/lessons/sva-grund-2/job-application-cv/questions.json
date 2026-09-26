@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-job-application-cv-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я претендую на должность учителя.»", "en": "Build the sentence: \"I am applying for the position of teacher.\"" },
@@ -18,7 +18,7 @@
       "answer": [1, 3, 4, 0, 2]
     },
     {
-      "id": "q-job-application-cv-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Пожалуйста, приложи резюме к заявлению.»", "en": "Build the sentence: \"Please attach your CV to the application.\"" },
@@ -26,7 +26,7 @@
       "answer": [1, 3, 0, 2]
     },
     {
-      "id": "q-job-application-cv-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-job-application-cv-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-job-application-cv-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Personligt brev» и «CV» — это один и тот же документ.", "en": "\"Personligt brev\" and \"CV\" are the same document." },
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "q-job-application-cv-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Tacka nej till» тьянстен означает согласиться на должность.", "en": "\"Tacka nej till\" a position means accepting it." },
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "q-job-application-cv-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Если тебя «kallar till intervju», значит работодатель отклонил заявление.", "en": "Being \"kallad till intervju\" means the employer rejected your application." },
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "q-job-application-cv-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Kan du ge mig namn på två ___? (рекомендателей)" },
@@ -91,7 +91,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-job-application-cv-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ min ansökan igår. (отправил(а))" },
@@ -99,7 +99,7 @@
       "acceptAlso": ["skickade"]
     },
     {
-      "id": "q-job-application-cv-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag har en ___ på onsdag. (собеседование)" },
@@ -107,7 +107,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-job-application-cv-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -118,7 +118,7 @@
       "answer": 0
     },
     {
-      "id": "q-job-application-cv-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -129,7 +129,7 @@
       "answer": 0
     },
     {
-      "id": "q-job-application-cv-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

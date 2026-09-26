@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-participial-phrases-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какому полному придаточному соответствует «Leende gick hon in i rummet»?", "en": "Which full subordinate clause corresponds to \"Leende gick hon in i rummet\"?" },
@@ -18,7 +18,7 @@
       "answer": 0
     },
     {
-      "id": "q-participial-phrases-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как изменяется причастие настоящего времени (leende, visslande) по родам и числам?", "en": "How does the present participle (leende, visslande) change for gender and number?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-participial-phrases-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "В каком стиле типичны причастные обороты вроде «Visslande gick han längs gatan»?", "en": "In which style are participial phrases like \"Visslande gick han längs gatan\" typical?" },
@@ -40,7 +40,7 @@
       "answer": 0
     },
     {
-      "id": "q-participial-phrases-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Действие причастия в обороте вроде «Skrattande lämnade barnen skolan» происходит...", "en": "The participle's action in a phrase like \"Skrattande lämnade barnen skolan\" happens..." },
@@ -52,32 +52,32 @@
       "answer": 0
     },
     {
-      "id": "q-participial-phrases-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ gick hon in i rummet. (le, причастие наст. времени)" },
       "answer": ["Leende"]
     },
     {
-      "id": "q-participial-phrases-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ gick han längs gatan. (vissla, причастие наст. времени)" },
       "answer": ["Visslande"]
     },
     {
-      "id": "q-participial-phrases-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "___ lämnade barnen skolan. (skratta, причастие наст. времени)" },
       "answer": ["Skrattande"]
     },
     {
-      "id": "q-participial-phrases-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Причастный оборот вроде «Leende gick hon in» может заменить придаточное с when/while.", "en": "A participial phrase like \"Leende gick hon in\" can replace a when/while clause." },
       "answer": true
     },
     {
-      "id": "q-participial-phrases-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Причастие в таком обороте согласуется по роду и числу с подлежащим.", "en": "The participle in such a phrase agrees in gender and number with the subject." },
@@ -85,7 +85,7 @@
       "explanation": { "ru": "Причастие настоящего времени неизменяемо: одна форма для всех родов и чисел.", "en": "The present participle is invariable: one form for all genders and numbers." }
     },
     {
-      "id": "q-participial-phrases-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Причастные обороты чаще встречаются в повседневной устной речи, чем в письменной прозе.", "en": "Participial phrases occur more often in everyday spoken speech than in written prose." },
@@ -93,7 +93,7 @@
       "explanation": { "ru": "Наоборот, они типичны для письменного, литературного стиля.", "en": "It's the opposite — they're typical of written, literary style." }
     },
     {
-      "id": "q-participial-phrases-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Улыбаясь, она вошла в комнату.»", "en": "Build the sentence: \"Smiling, she entered the room.\"" },
@@ -101,7 +101,7 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-participial-phrases-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь причастный оборот с полным придаточным", "en": "Match the participial phrase with its full clause" },

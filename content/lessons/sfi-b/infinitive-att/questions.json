@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-infinitive-att-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Плавать — весело.»", "en": "Build the sentence: \"Swimming is fun.\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 0, 3, 4, 1]
     },
     {
-      "id": "q-infinitive-att-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я хочу есть.»", "en": "Build the sentence: \"I want to eat.\"" },
@@ -22,14 +22,14 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-infinitive-att-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Шведский инфинитив обычно оканчивается на -a.", "en": "The Swedish infinitive usually ends in -a." },
       "answer": true
     },
     {
-      "id": "q-infinitive-att-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jag vill att äta» — правильно.", "en": "\"Jag vill att äta\" is correct." },
@@ -40,7 +40,7 @@
       }
     },
     {
-      "id": "q-infinitive-att-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är kul ___ läsa." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "частица перед инфинитивом", "en": "infinitive marker" }
     },
     {
-      "id": "q-infinitive-att-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag tycker om ___ cykla." },
@@ -58,7 +58,7 @@
       "hint": { "ru": "чтобы/частица инфинитива", "en": "infinitive marker" }
     },
     {
-      "id": "q-infinitive-att-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь глагол и его инфинитив", "en": "Match the verb with its infinitive" },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": "q-infinitive-att-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое предложение правильное?", "en": "Which sentence is correct?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-att-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Переведи на шведский: «Готовить важно.»", "en": "Translate to Swedish: \"Cooking is important.\"" },

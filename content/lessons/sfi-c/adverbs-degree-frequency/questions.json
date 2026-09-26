@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-adverbs-degree-frequency-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово означает «слишком, чересчур»?", "en": "Which word means \"too, excessively\"?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-adverbs-degree-frequency-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Куда встаёт наречие частоты «sällan» в главном предложении?", "en": "Where does the frequency adverb \"sällan\" go in a main clause?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-adverbs-degree-frequency-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är ___ kallt. (очень)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "very", "en": "very" }
     },
     {
-      "id": "q-adverbs-degree-frequency-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag äter ___ kött. (редко)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "rarely", "en": "rarely" }
     },
     {
-      "id": "q-adverbs-degree-frequency-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери: «Мы иногда ходим в кино.»", "en": "Build: \"We sometimes go to the cinema.\"" },
@@ -48,7 +48,7 @@
       "answer": [4, 1, 2, 3, 0]
     },
     {
-      "id": "q-adverbs-degree-frequency-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },
@@ -60,14 +60,14 @@
       ]
     },
     {
-      "id": "q-adverbs-degree-frequency-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Наречия степени (ganska, väldigt, alltför) обычно стоят прямо перед прилагательным.", "en": "Degree adverbs (ganska, väldigt, alltför) usually stand right before the adjective." },
       "answer": true
     },
     {
-      "id": "q-adverbs-degree-frequency-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Ganska» и «väldigt» означают ровно одинаковую степень.", "en": "\"Ganska\" and \"väldigt\" indicate exactly the same degree." },
@@ -75,7 +75,7 @@
       "explanation": { "ru": "«Ganska» — более мягкое, «довольно/достаточно», а «väldigt» — сильнее, «очень».", "en": "\"Ganska\" is milder (\"fairly/rather\"), while \"väldigt\" is stronger (\"very\")." }
     },
     {
-      "id": "q-adverbs-degree-frequency-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Напиши по-шведски: «Это слишком дорого.»", "en": "Write in Swedish: \"It is too expensive.\"" },
@@ -83,7 +83,7 @@
       "hint": { "ru": "alltför + dyrt", "en": "alltför + dyrt" }
     },
     {
-      "id": "q-adverbs-degree-frequency-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Provet var ganska svårt.",

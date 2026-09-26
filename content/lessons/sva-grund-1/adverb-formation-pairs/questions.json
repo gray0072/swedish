@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-adverb-formation-pairs-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое наречие от «snabb» (быстрый)?", "en": "What is the adverb form of \"snabb\" (fast)?" },
@@ -13,7 +13,7 @@
       "answer": 0
     },
     {
-      "id": "q-adverb-formation-pairs-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово выражает движение — «я иду ___»?", "en": "Which word expresses movement — \"I'm going ___\"?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-adverb-formation-pairs-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово выражает местоположение — «я ___»?", "en": "Which word expresses location — \"I am ___\"?" },
@@ -29,14 +29,14 @@
       "answer": 0
     },
     {
-      "id": "q-adverb-formation-pairs-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Наречие от прилагательного часто образуется добавлением -t, похоже на форму среднего рода (ett-слово).", "en": "The adverb of an adjective is often formed by adding -t, similar to the ett-word (neuter) form." },
       "answer": true
     },
     {
-      "id": "q-adverb-formation-pairs-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Dit» и «där» — это одно и то же слово в разных диалектах.", "en": "\"Dit\" and \"där\" are just dialectal variants of the same word." },
@@ -47,7 +47,7 @@
       }
     },
     {
-      "id": "q-adverb-formation-pairs-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Она говорила спокойно.»", "en": "Build the sentence: \"She spoke calmly.\"" },
@@ -55,13 +55,13 @@
       "answer": [0, 1, 2]
     },
     {
-      "id": "q-adverb-formation-pairs-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Kom ___! (сюда, движение)" },
       "answer": ["hit"]
     },
     {
-      "id": "q-adverb-formation-pairs-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь наречие движения с наречием местоположения", "en": "Match the movement adverb with its location counterpart" },

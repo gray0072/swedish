@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-book-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я хотел(а) бы записаться на приём.»", "en": "Build the sentence: \"I would like to book an appointment.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 4, 1, 5, 0, 2]
     },
     {
-      "id": "q-book-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Вам подойдёт четверг?»", "en": "Build the sentence: \"Does Thursday suit you?\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-book-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-book-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Drop-in» значит, что нужно записаться заранее.", "en": "\"Drop-in\" means you must book in advance." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-book-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Bekräftelse» — это сообщение, подтверждающее, что запись сделана.", "en": "\"Bekräftelse\" is a message confirming that the booking was made." },
       "answer": true
     },
     {
-      "id": "q-book-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag måste ___ min tid imorgon. (отменить)" },
@@ -64,7 +64,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-book-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -75,7 +75,7 @@
       "answer": 1
     },
     {
-      "id": "q-book-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

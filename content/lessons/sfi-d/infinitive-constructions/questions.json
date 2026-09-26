@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-infinitive-constructions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая конструкция обозначает способ («тем, что»)?", "en": "Which construction expresses means (\"by doing\")?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-constructions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Hon gick ut ___ säga något» — какое слово подходит?", "en": "\"Hon gick ut ___ säga något\" — which word fits?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-infinitive-constructions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag sparar pengar ___ köpa en bil. (чтобы)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-infinitive-constructions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он выучил шведский, много читая.»", "en": "Build the sentence: \"He learned Swedish by reading a lot.\"" },
@@ -38,7 +38,7 @@
       "answer": [6, 5, 4, 0, 3, 1, 2]
     },
     {
-      "id": "q-infinitive-constructions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь конструкцию с переводом", "en": "Match the construction with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-infinitive-constructions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "После «för att», «utan att», «genom att» ставится инфинитив без отдельного подлежащего.", "en": "\"För att\", \"utan att\" and \"genom att\" are all followed by the infinitive with no separate subject." },
       "answer": true
     },
     {
-      "id": "q-infinitive-constructions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Utan att» и «för att» имеют одинаковое значение.", "en": "\"Utan att\" and \"för att\" mean the same thing." },

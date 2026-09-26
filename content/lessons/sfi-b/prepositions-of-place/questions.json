@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-prepositions-of-place-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Книга лежит на столе.»", "en": "Build the sentence: \"The book is lying on the table.\"" },
@@ -14,7 +14,7 @@
       "answer": [1, 0, 3, 2]
     },
     {
-      "id": "q-prepositions-of-place-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Школа находится между банком и библиотекой.»", "en": "Build the sentence: \"The school is between the bank and the library.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 1, 0, 4, 5, 2]
     },
     {
-      "id": "q-prepositions-of-place-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Katten ligger ___ bordet. (под)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "под", "en": "under" }
     },
     {
-      "id": "q-prepositions-of-place-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Bilen står ___ huset. (за)" },
@@ -40,7 +40,7 @@
       "hint": { "ru": "за", "en": "behind" }
     },
     {
-      "id": "q-prepositions-of-place-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь предлог с переводом", "en": "Match the preposition with its translation" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-prepositions-of-place-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Framför» значит «перед, впереди».", "en": "\"Framför\" means \"in front of\"." },
       "answer": true
     },
     {
-      "id": "q-prepositions-of-place-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Lampan hänger under bordet» значит, что лампа висит над столом.", "en": "\"Lampan hänger under bordet\" means the lamp hangs above the table." },
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "q-prepositions-of-place-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Стул стоит рядом со столом»?", "en": "How do you say \"The chair is next to the table\"?" },
@@ -80,7 +80,7 @@
       "answer": 0
     },
     {
-      "id": "q-prepositions-of-place-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой предлог означает «между»?", "en": "Which preposition means \"between\"?" },
@@ -88,7 +88,7 @@
       "answer": 0
     },
     {
-      "id": "q-prepositions-of-place-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Banken ligger bredvid torget.",

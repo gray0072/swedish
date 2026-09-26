@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-sadv-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я не ем мясо.»", "en": "Build the sentence: \"I don't eat meat.\"" },
@@ -14,7 +14,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-sadv-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он всегда уставший.»", "en": "Build the sentence: \"He is always tired.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-sadv-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -32,7 +32,7 @@
       "answer": true
     },
     {
-      "id": "q-sadv-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Jag inte äter kött» — правильный порядок слов.", "en": "\"Jag inte äter kött\" is correct Swedish word order." },
@@ -40,21 +40,21 @@
       "explanation": { "ru": "Правильно: «Jag äter inte kött» — «inte» стоит после глагола, не перед ним.", "en": "Correct: \"Jag äter inte kött\" — \"inte\" comes after the verb, not before it." }
     },
     {
-      "id": "q-sadv-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Vi går ___ på bio. (часто)" },
       "answer": ["ofta"],
       "acceptAlso": []
     },
     {
-      "id": "q-sadv-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag kommer ___ imorgon. (может быть)" },
       "answer": ["kanske"],
       "acceptAlso": []
     },
     {
-      "id": "q-sadv-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": "q-sadv-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Куда встаёт «inte» в главном предложении?", "en": "Where does \"inte\" go in a main clause?" },
@@ -74,7 +74,7 @@
       "answer": 0
     },
     {
-      "id": "q-sadv-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Выбери правильный вариант.", "en": "Choose the correct sentence." },
@@ -82,7 +82,7 @@
       "answer": 1
     },
     {
-      "id": "q-sadv-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Переведи: «Мы часто ходим в кино.»", "en": "Translate: \"We often go to the cinema.\"" },

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-tense-system-overview-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое время используется с «har» и супином?", "en": "Which tense is built with \"har\" and the supine?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-tense-system-overview-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое время показывает, что что-то случилось ДО другого события в прошлом?", "en": "Which tense shows something happened BEFORE another past event?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-tense-system-overview-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ redan arbetat i tre år när jag flyttade hit. (плюсквамперфект от har)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-tense-system-overview-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag ___ på ett kontor. (presens: arbeta)" },
@@ -38,7 +38,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-tense-system-overview-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я проработал(а) здесь пять лет.»", "en": "Build the sentence: \"I have worked here five years.\"" },
@@ -46,7 +46,7 @@
       "answer": [6, 3, 5, 4, 0, 1, 2]
     },
     {
-      "id": "q-tense-system-overview-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь время с его функцией", "en": "Match the tense with its function" },
@@ -58,14 +58,14 @@
       ]
     },
     {
-      "id": "q-tense-system-overview-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Pluskvamperfekt строится с «hade» и супином.", "en": "The pluskvamperfekt is built with \"hade\" and the supine." },
       "answer": true
     },
     {
-      "id": "q-tense-system-overview-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Futurum всегда образуется только окончанием -de.", "en": "The futurum is always formed only with the -de ending." },

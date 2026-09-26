@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-free-time-cinema-sports-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Пойдём в кино сегодня вечером?»", "en": "Build the sentence: \"Shall we go to the cinema tonight?\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 1, 5, 0, 3, 4]
     },
     {
-      "id": "q-free-time-cinema-sports-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "id": "q-free-time-cinema-sports-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -36,7 +36,7 @@
       "answer": true
     },
     {
-      "id": "q-free-time-cinema-sports-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "q-free-time-cinema-sports-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi ___ biljetter till bion online. (забронировали)" },
@@ -58,7 +58,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-free-time-cinema-sports-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -69,7 +69,7 @@
       "answer": 0
     },
     {
-      "id": "q-free-time-cinema-sports-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -80,7 +80,7 @@
       "answer": 0
     },
     {
-      "id": "q-free-time-cinema-sports-type-answer-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "en": "Type the Swedish word for \"coach\".", "ru": "Напиши слово по-шведски: «тренер»." },

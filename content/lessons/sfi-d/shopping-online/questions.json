@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-shopping-online-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Где часто забирают посылку из интернет-магазина?", "en": "Where do you often pick up a parcel from an online shop?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-shopping-online-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что нужно, чтобы отслеживать посылку?", "en": "What do you need to track a parcel?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-shopping-online-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Доставка занимает от трёх до пяти дней.»", "en": "Build the sentence: \"Delivery takes three to five days.\"" },
@@ -37,7 +37,7 @@
       "answer": [5, 0, 4, 1, 2, 3]
     },
     {
-      "id": "q-shopping-online-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -49,14 +49,14 @@
       ]
     },
     {
-      "id": "q-shopping-online-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Returetikett используют, чтобы отправить товар обратно.", "en": "A returetikett is used to send an item back." },
       "answer": true
     },
     {
-      "id": "q-shopping-online-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Betala vid leverans» значит, что нужно платить заранее.", "en": "\"Betala vid leverans\" means you have to pay in advance." },
@@ -64,7 +64,7 @@
       "explanation": { "ru": "«Betala vid leverans» значит платить при получении, а не заранее.", "en": "\"Betala vid leverans\" means paying on delivery, not in advance." }
     },
     {
-      "id": "q-shopping-online-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ en tröja på nätet igår. (заказал(а))" },

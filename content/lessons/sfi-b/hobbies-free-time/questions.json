@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-hobbies-free-time-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я играю в футбол по субботам.»", "en": "Build the sentence: \"I play football on Saturdays.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 1, 4, 3, 0]
     },
     {
-      "id": "q-hobbies-free-time-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Он коллекционирует марки.»", "en": "Build the sentence: \"He collects stamps.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-hobbies-free-time-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь глаголы с переводом", "en": "Match the verbs with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-hobbies-free-time-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В этом уроке «sticka» означает «рыбачить».", "en": "In this lesson, \"sticka\" means \"to fish\"." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-hobbies-free-time-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Tycka om» и «gilla» оба могут означать «нравиться».", "en": "\"Tycka om\" and \"gilla\" can both mean \"to like\"." },
       "answer": true
     },
     {
-      "id": "q-hobbies-free-time-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ fotboll varje helg. (играю)" },
@@ -64,7 +64,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-hobbies-free-time-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vad ___ du om att göra på fritiden? (любишь)" },
@@ -72,7 +72,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-hobbies-free-time-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-hobbies-free-time-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 3,
       "prompt": {

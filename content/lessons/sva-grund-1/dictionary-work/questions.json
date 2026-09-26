@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "dictionary-work-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "dictionary-work-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "dictionary-work-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -39,7 +39,7 @@
       "answer": 1
     },
     {
-      "id": "dictionary-work-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "dictionary-work-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "dictionary-work-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -77,7 +77,7 @@
       "answer": true
     },
     {
-      "id": "dictionary-work-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vad ___ ordet \"lagom\"? (значит)" },
@@ -85,7 +85,7 @@
       "acceptAlso": []
     },
     {
-      "id": "dictionary-work-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hur ___ verbet \"vara\"? (спрягается)" },
@@ -93,7 +93,7 @@
       "acceptAlso": ["böjer"]
     },
     {
-      "id": "dictionary-work-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь словарный термин с переводом", "en": "Match the dictionary term with its translation" },
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": "dictionary-work-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Можешь привести пример?»", "en": "Build the question: \"Can you give an example?\"" },

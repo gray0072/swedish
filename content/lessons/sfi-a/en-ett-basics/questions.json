@@ -7,21 +7,21 @@
   ],
   "items": [
     {
-      "id": "q-en-ett-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Det är ___ hus. (дом)" },
       "answer": ["ett"],
       "acceptAlso": []
     },
     {
-      "id": "q-en-ett-basics-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag har ___ katt. (кошка)" },
       "answer": ["en"],
       "acceptAlso": []
     },
     {
-      "id": "q-en-ett-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно сказать «ребёнок»?", "en": "How do you correctly say \"child\"?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-en-ett-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как правильно сказать «машина»?", "en": "How do you correctly say \"car\"?" },
@@ -37,13 +37,13 @@
       "answer": 1
     },
     {
-      "id": "q-en-ett-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Большинство шведских существительных — en-слова.", "en": "Most Swedish nouns are en-words." },
       "answer": true
     },
     {
-      "id": "q-en-ett-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«en äpple» — правильно сказано.", "en": "\"en äpple\" is said correctly." },
       "answer": false,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "q-en-ett-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово с его маленьким словом-спутником", "en": "Match the noun with its own little word" },
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "q-en-ett-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Это машина.»", "en": "Build the sentence: \"That's a car.\"" },
@@ -73,7 +73,7 @@
       "answer": [3, 0, 1, 2]
     },
     {
-      "id": "q-en-ett-basics-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «У неё есть ребёнок.»", "en": "Build the sentence: \"She has a child.\"" },

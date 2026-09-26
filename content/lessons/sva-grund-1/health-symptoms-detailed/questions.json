@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-healthdet-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери вопрос: «Где болит?»", "en": "Build the question: \"Where does it hurt?\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 1, 0, 3]
     },
     {
-      "id": "q-healthdet-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": "q-healthdet-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "q-healthdet-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Läkaren vill ___ dig. (осмотреть)" },
@@ -52,7 +52,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-healthdet-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -63,7 +63,7 @@
       "answer": 0
     },
     {
-      "id": "q-healthdet-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

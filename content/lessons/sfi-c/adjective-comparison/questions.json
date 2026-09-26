@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-adjective-comparison-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Эта машина больше, чем та.»", "en": "Build the sentence: \"This car is bigger than that one.\"" },
@@ -14,7 +14,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-adjective-comparison-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мой брат старше меня.»", "en": "Build the sentence: \"My brother is older than me.\"" },
@@ -22,7 +22,7 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-adjective-comparison-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det här är ___ än det gamla. (лучше)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "неправильная форма от bra", "en": "irregular form of bra" }
     },
     {
-      "id": "q-adjective-comparison-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon har ___ böcker än jag. (больше, о счётных)" },
@@ -40,14 +40,14 @@
       "hint": { "ru": "неправильная форма от många", "en": "irregular form of många" }
     },
     {
-      "id": "q-adjective-comparison-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Регулярная сравнительная степень образуется добавлением -are, а превосходная — -ast.", "en": "The regular comparative is formed with -are, and the superlative with -ast." },
       "answer": true
     },
     {
-      "id": "q-adjective-comparison-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Сравнительная степень от «dålig» — «dåligare».", "en": "The comparative of \"dålig\" is \"dåligare\"." },
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "q-adjective-comparison-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь прилагательное с его сравнительной степенью", "en": "Match the adjective with its comparative form" },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": "q-adjective-comparison-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Выбери превосходную степень от «liten» (маленький).", "en": "Choose the superlative of \"liten\" (small)." },
@@ -78,7 +78,7 @@
       "answer": 1
     },
     {
-      "id": "q-adjective-comparison-type-answer-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Напиши превосходную степень от «gammal» (старый).", "en": "Write the superlative of \"gammal\" (old)." },
@@ -86,7 +86,7 @@
       "hint": { "ru": "неправильная форма", "en": "irregular form" }
     },
     {
-      "id": "q-adjective-comparison-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Den här klockan är dyrast.",

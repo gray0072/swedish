@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-impersonal-det-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "На что реально указывает «det» в «det regnar»?", "en": "What does \"det\" actually refer to in \"det regnar\"?" },
@@ -19,7 +19,7 @@
       "answer": 0
     },
     {
-      "id": "q-impersonal-det-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая фраза передаёт слух, не называя источник?", "en": "Which phrase reports hearsay without naming a source?" },
@@ -27,7 +27,7 @@
       "answer": 0
     },
     {
-      "id": "q-impersonal-det-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ viktigt att komma i tid. (Det är)" },
@@ -35,7 +35,7 @@
       "acceptAlso": ["det är"]
     },
     {
-      "id": "q-impersonal-det-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Трудно быстро выучить новый язык.»", "en": "Build the sentence: \"It's difficult to learn a new language quickly.\"" },
@@ -43,7 +43,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-impersonal-det-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
@@ -55,14 +55,14 @@
       ]
     },
     {
-      "id": "q-impersonal-det-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Безличное «det» используется, потому что шведскому нужно грамматическое подлежащее.", "en": "Impersonal \"det\" is used because Swedish needs a grammatical subject." },
       "answer": true
     },
     {
-      "id": "q-impersonal-det-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В «det är viktigt att komma i tid» реальное содержание — это само слово «det».", "en": "In \"det är viktigt att komma i tid\", the real content is the word \"det\" itself." },

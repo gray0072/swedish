@@ -4,49 +4,49 @@
   ],
   "items": [
     {
-      "id": "q-registers-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Какое слово относится к формальному, канцелярскому регистру?", "en": "Which word belongs to the formal, officialese register?" },
       "choices": ["vederbörande", "personen", "typen"],
       "answer": 0
     },
     {
-      "id": "q-registers-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Какое слово нейтрально и подходит для новостной заметки?", "en": "Which word is neutral and fits a news report?" },
       "choices": ["personen", "vederbörande", "snubben"],
       "answer": 0
     },
     {
-      "id": "q-registers-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Какой глагол разговорный, вместо нейтрального «komma»?", "en": "Which verb is colloquial, standing in for neutral \"komma\"?" },
       "choices": ["dyka upp", "inställa sig", "anlända"],
       "answer": 0
     },
     {
-      "id": "q-registers-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "«Vederbörande skall...», «Personen ska...» и «Typen ska...» грамматически все неправильны, кроме одного.", "en": "\"Vederbörande skall...\", \"Personen ska...\" and \"Typen ska...\" are grammatically all wrong except one." },
       "answer": false,
       "explanation": { "ru": "Все три грамматически правильны — различается только регистр и лексика.", "en": "All three are grammatically correct — only the register and vocabulary differ." }
     },
     {
-      "id": "q-registers-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Klarspråk рекомендует использовать «vederbörande» и «skall» в современных официальных текстах.", "en": "Klarspråk recommends using \"vederbörande\" and \"skall\" in modern official texts." },
       "answer": false,
       "explanation": { "ru": "Наоборот: klarspråk советует заменять их на «personen» и «ska».", "en": "The opposite: klarspråk advises replacing them with \"personen\" and \"ska\"." }
     },
     {
-      "id": "q-registers-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ ska komma senast klockan nio. (personen, нейтральный регистр)" },
       "answer": ["Personen"],
       "acceptAlso": []
     },
     {
-      "id": "q-registers-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь слово с его регистром", "en": "Match the word with its register" },
       "pairs": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "q-registers-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Какой регистр подходит для заявления в организацию?", "en": "Which register fits an application to an organisation?" },
       "choices": [
@@ -68,7 +68,7 @@
       "answer": 0
     },
     {
-      "id": "q-registers-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "prompt": { "ru": "Почему «vederbörande» в SMS другу звучит странно?", "en": "Why does \"vederbörande\" sound strange in a text message to a friend?" },
       "choices": [
@@ -79,7 +79,7 @@
       "answer": 0
     },
     {
-      "id": "q-registers-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение в нейтральном регистре: «Человек должен прийти не позднее девяти.»", "en": "Build the neutral-register sentence: \"The person should arrive no later than nine.\"" },
@@ -87,7 +87,7 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-registers-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Han ska ___ innan nio. (dyka upp, разговорный)" },
       "answer": ["dyka upp"],

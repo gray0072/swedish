@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-simple-questions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Ты живёшь в Мальмё?»", "en": "Build the question: \"Do you live in Malmö?\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 3, 0, 2]
     },
     {
-      "id": "q-simple-questions-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери короткий ответ: «Да (живу).»", "en": "Build the short answer: \"Yes, I do.\"" },
@@ -23,7 +23,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-simple-questions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вопрос и правильный короткий ответ", "en": "Match each question with the right short answer" },
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": "q-simple-questions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": "q-simple-questions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 3,
       "prompt": {
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "q-simple-questions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ du svenska? – Ja, lite." },
@@ -72,7 +72,7 @@
       "hint": { "ru": "Глагол «говорить» выходит на первое место.", "en": "The verb \"to speak\" moves to the front." }
     },
     {
-      "id": "q-simple-questions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "q-simple-questions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -103,7 +103,7 @@
       "answer": 0
     },
     {
-      "id": "q-simple-questions-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 1,
       "audioText": "Förstår du?",

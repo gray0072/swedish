@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-life-sweden-comparison-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что означает «kulturkrock»?", "en": "What does \"kulturkrock\" mean?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-life-sweden-comparison-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что чаще всего отличается сильнее — большие вещи или повседневные привычки?", "en": "What often differs more — big things or everyday habits?" },
@@ -34,7 +34,7 @@
       "answer": 0
     },
     {
-      "id": "q-life-sweden-comparison-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я скучаю по еде из дома.»", "en": "Build the sentence: \"I miss the food from back home.\"" },
@@ -42,7 +42,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-life-sweden-comparison-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -54,14 +54,14 @@
       ]
     },
     {
-      "id": "q-life-sweden-comparison-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Vänja sig vid» значит «привыкать к».", "en": "\"Vänja sig vid\" means \"to get used to\"." },
       "answer": true
     },
     {
-      "id": "q-life-sweden-comparison-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Sakna» значит «сравнивать».", "en": "\"Sakna\" means \"to compare\"." },
@@ -69,7 +69,7 @@
       "explanation": { "ru": "«Sakna» значит «скучать по», а «сравнивать» — это «jämföra».", "en": "\"Sakna\" means \"to miss\"; \"to compare\" is \"jämföra\"." }
     },
     {
-      "id": "q-life-sweden-comparison-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ livet här med livet hemma. (сравниваю)" },

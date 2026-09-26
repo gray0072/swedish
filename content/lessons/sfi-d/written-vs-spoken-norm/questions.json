@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-written-vs-spoken-norm-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Где всё ещё чаще всего встречается «skall»?", "en": "Where does \"skall\" still most often appear?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-written-vs-spoken-norm-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как произносятся «de» и «dem» в устной речи?", "en": "How are \"de\" and \"dem\" both pronounced in speech?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-written-vs-spoken-norm-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ dem på torget igår. (увидел(а))" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-written-vs-spoken-norm-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Они живут в Мальмё.»", "en": "Build the sentence: \"They live in Malmö.\"" },
@@ -38,7 +38,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-written-vs-spoken-norm-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь современную форму со старой", "en": "Match the modern form with the older one" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-written-vs-spoken-norm-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ska» — это современная, обиходная форма.", "en": "\"Ska\" is the modern, everyday form." },
       "answer": true
     },
     {
-      "id": "q-written-vs-spoken-norm-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«De» и «dem» произносятся по-разному в устной речи.", "en": "\"De\" and \"dem\" are pronounced differently in speech." },

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-formal-text-layout-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как оформляется заголовок по шведской типографской норме?", "en": "How is a heading formatted per Swedish typographic convention?" },
@@ -18,7 +18,7 @@
       "answer": 0
     },
     {
-      "id": "q-formal-text-layout-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Можно ли в одном документе смешивать отступ (indrag) и пустую строку (blankrad) для разделения абзацев?", "en": "Can a single document mix indentation (indrag) and a blank line (blankrad) to separate paragraphs?" },
@@ -30,7 +30,7 @@
       "answer": 0
     },
     {
-      "id": "q-formal-text-layout-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Когда используют нумерованный список, а не маркированный?", "en": "When do you use a numbered list rather than a bulleted one?" },
@@ -42,7 +42,7 @@
       "answer": 0
     },
     {
-      "id": "q-formal-text-layout-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что важнее всего для пунктуации формального документа целиком?", "en": "What matters most for the punctuation of a formal document as a whole?" },
@@ -54,19 +54,19 @@
       "answer": 0
     },
     {
-      "id": "q-formal-text-layout-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "1.1 ___ – предыстория (заголовок подраздела)" },
       "answer": ["Bakgrund"]
     },
     {
-      "id": "q-formal-text-layout-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ resultatet efter ett år. (оценить, императив от utvärdera)" },
       "answer": ["Utvärdera"]
     },
     {
-      "id": "q-formal-text-layout-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Заголовок в формальном шведском тексте обычно заканчивается точкой.", "en": "A heading in formal Swedish text usually ends with a full stop." },
@@ -74,14 +74,14 @@
       "explanation": { "ru": "Заголовки пишутся без точки в конце.", "en": "Headings are written without a full stop at the end." }
     },
     {
-      "id": "q-formal-text-layout-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Каждый пункт списка, если это самостоятельное предложение, начинается с заглавной буквы и заканчивается точкой.", "en": "Each list item, if it is a complete sentence, starts with a capital letter and ends with a full stop." },
       "answer": true
     },
     {
-      "id": "q-formal-text-layout-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Иерархия заголовков строится от частного к общему.", "en": "Heading hierarchy goes from the specific to the general." },
@@ -89,14 +89,14 @@
       "explanation": { "ru": "Наоборот — от общего к частному (1, затем 1.1, затем 1.1.1).", "en": "The opposite — from general to specific (1, then 1.1, then 1.1.1)." }
     },
     {
-      "id": "q-formal-text-layout-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Несогласованность в оформлении (например, кавычки то такие, то другие) выглядит небрежно, даже если грамматика верна.", "en": "Inconsistent formatting (e.g. mixing different quotation marks) looks careless even if the grammar is correct." },
       "answer": true
     },
     {
-      "id": "q-formal-text-layout-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери заголовок раздела: «Цель и постановка вопроса» с нумерацией 1.1.1", "en": "Build the section heading: \"Purpose and research question\" numbered 1.1.1" },
@@ -104,7 +104,7 @@
       "answer": [0, 1, 2, 3]
     },
     {
-      "id": "q-formal-text-layout-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь термин с его значением", "en": "Match the term with its meaning" },
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": "q-formal-text-layout-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Где типичнее разделение абзацев пустой строкой (blankrad)?", "en": "Where is separating paragraphs with a blank line (blankrad) more typical?" },

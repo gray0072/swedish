@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-final-review-story-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что обычно идёт после SFI kurs D для большинства учеников?", "en": "What usually comes next after SFI kurs D for most students?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-final-review-story-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что делает рассказ о своём пути более достоверным?", "en": "What makes a story about your journey feel more believable?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-final-review-story-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я сделал(а) большой прогресс.»", "en": "Build the sentence: \"I've made great progress.\"" },
@@ -36,7 +36,7 @@
       "answer": [3, 4, 1, 2, 0]
     },
     {
-      "id": "q-final-review-story-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,14 +48,14 @@
       ]
     },
     {
-      "id": "q-final-review-story-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Framöver» значит «в дальнейшем».", "en": "\"Framöver\" means \"going forward\"." },
       "answer": true
     },
     {
-      "id": "q-final-review-story-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Hittills» значит то же самое, что «framöver».", "en": "\"Hittills\" means the same thing as \"framöver\"." },
@@ -63,7 +63,7 @@
       "explanation": { "ru": "«Hittills» значит «до сих пор» (о прошлом), а «framöver» — «в дальнейшем» (о будущем).", "en": "\"Hittills\" means \"so far\" (the past); \"framöver\" means \"going forward\" (the future)." }
     },
     {
-      "id": "q-final-review-story-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ steg blir SVA grund. (следующий)" },

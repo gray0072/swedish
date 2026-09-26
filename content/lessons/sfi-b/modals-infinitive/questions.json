@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-modals-infinitive-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Ты умеешь плавать?»", "en": "Build the sentence: \"Can you swim?\"" },
@@ -14,7 +14,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-modals-infinitive-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Тебе нельзя курить здесь.»", "en": "Build the sentence: \"You are not allowed to smoke here.\"" },
@@ -22,14 +22,14 @@
       "answer": [4, 0, 3, 2, 1]
     },
     {
-      "id": "q-modals-infinitive-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "После vill, kan, måste, får инфинитив идёт без att.", "en": "After vill, kan, måste, får the infinitive comes without att." },
       "answer": true
     },
     {
-      "id": "q-modals-infinitive-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jag vill att sova» — правильное предложение.", "en": "\"Jag vill att sova\" is a correct sentence." },
@@ -40,7 +40,7 @@
       }
     },
     {
-      "id": "q-modals-infinitive-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vi ___ gå nu." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "должны", "en": "must" }
     },
     {
-      "id": "q-modals-infinitive-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du ___ inte parkera här." },
@@ -58,7 +58,7 @@
       "hint": { "ru": "не имеешь права", "en": "may not" }
     },
     {
-      "id": "q-modals-infinitive-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь модальный глагол с его значением", "en": "Match the modal verb with its meaning" },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": "q-modals-infinitive-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое предложение правильное?", "en": "Which sentence is correct?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-modals-infinitive-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Переведи на шведский: «Нам нужно платить сейчас.»", "en": "Translate to Swedish: \"We have to pay now.\"" },

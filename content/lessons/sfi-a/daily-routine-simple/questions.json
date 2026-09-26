@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-daily-routine-simple-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Утром я завтракаю.»", "en": "Build the sentence: \"In the morning I eat breakfast.\"" },
@@ -15,7 +15,7 @@
       "answer": [1, 3, 4, 0, 2]
     },
     {
-      "id": "q-daily-routine-simple-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я иду спать.»", "en": "Build the sentence: \"I go to bed.\"" },
@@ -23,7 +23,7 @@
       "answer": [1, 4, 3, 0, 2]
     },
     {
-      "id": "q-daily-routine-simple-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь еду и время дня", "en": "Match the meal with the time of day" },
@@ -35,14 +35,14 @@
       ]
     },
     {
-      "id": "q-daily-routine-simple-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Först vaknar jag» — правильно: глагол стоит сразу после «först».", "en": "\"Först vaknar jag\" is correct: the verb comes right after \"först\"." },
       "answer": true
     },
     {
-      "id": "q-daily-routine-simple-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«På morgonen jag äter frukost» — правильно.", "en": "\"På morgonen jag äter frukost\" is correct." },
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": "q-daily-routine-simple-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Först vaknar jag. ___ äter jag frukost." },
@@ -62,7 +62,7 @@
       "hint": { "ru": "потом", "en": "then" }
     },
     {
-      "id": "q-daily-routine-simple-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag ___ frukost klockan sju." },
@@ -71,7 +71,7 @@
       "hint": { "ru": "ем", "en": "eat" }
     },
     {
-      "id": "q-daily-routine-simple-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Я иду в школу»?", "en": "How do you say \"I go to school\"?" },
@@ -79,7 +79,7 @@
       "answer": 0
     },
     {
-      "id": "q-daily-routine-simple-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "På kvällen lagar jag mat.",

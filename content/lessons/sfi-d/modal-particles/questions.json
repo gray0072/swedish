@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-modal-particles-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая частица приглашает к согласию, как «не так ли?»", "en": "Which particle invites agreement, like \"...right?\"" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-modal-particles-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая частица смягчает утверждение до вероятной догадки?", "en": "Which particle softens a statement into a likely guess?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-modal-particles-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är ___ söndag idag. (же)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-modal-particles-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Завтра, наверное, будет дождь.»", "en": "Build the sentence: \"It will probably rain tomorrow.\"" },
@@ -38,7 +38,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-modal-particles-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь частицу с переводом", "en": "Match the particle with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-modal-particles-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Faktiskt» сигнализирует что-то неожиданное или противоречащее ожиданиям.", "en": "\"Faktiskt\" signals something surprising or contrary to expectation." },
       "answer": true
     },
     {
-      "id": "q-modal-particles-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Эти частицы обязательны грамматически, без них предложение неверно.", "en": "These particles are grammatically mandatory, and without them a sentence is incorrect." },

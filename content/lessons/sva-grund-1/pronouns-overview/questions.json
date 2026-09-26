@@ -5,28 +5,28 @@
   ],
   "items": [
     {
-      "id": "pronouns-overview-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon ringer ___. (jag, объектное / object)" },
       "answer": ["mig"],
       "acceptAlso": []
     },
     {
-      "id": "pronouns-overview-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Det är ___ bok. (jag, притяжательное / possessive)" },
       "answer": ["min"],
       "acceptAlso": []
     },
     {
-      "id": "pronouns-overview-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Jag känner ___. (han, объектное / object)" },
       "answer": ["honom"],
       "acceptAlso": []
     },
     {
-      "id": "pronouns-overview-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая объектная форма у «hon»?", "en": "What is the object form of \"hon\"?" },
@@ -34,7 +34,7 @@
       "answer": 0
     },
     {
-      "id": "pronouns-overview-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое местоимение верно продолжает «Han tvättar ___» в значении «моется сам»?", "en": "Which pronoun correctly completes \"Han tvättar ___\" meaning \"washes himself\"?" },
@@ -43,7 +43,7 @@
       "explanation": { "ru": "Возвратное «sig» показывает, что подлежащее и объект — один человек.", "en": "The reflexive \"sig\" shows the subject and the object are the same person." }
     },
     {
-      "id": "pronouns-overview-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое предложение значит «Он моет кого-то другого»?", "en": "Which sentence means \"He washes someone else\"?" },
@@ -51,32 +51,32 @@
       "answer": 1
     },
     {
-      "id": "pronouns-overview-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Возвратное местоимение «sig» используется и для «jag».", "en": "The reflexive pronoun \"sig\" is also used for \"jag\"." },
       "answer": false,
       "explanation": { "ru": "«Sig» — только 3-е лицо. Для «jag» используется объектная форма «mig».", "en": "\"Sig\" is only for the 3rd person. \"Jag\" uses the object form \"mig\" instead." }
     },
     {
-      "id": "pronouns-overview-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Притяжательное «min/mitt/mina» согласуется по роду и числу с тем, чем владеют.", "en": "The possessive \"min/mitt/mina\" agrees in gender and number with the thing owned." },
       "answer": true
     },
     {
-      "id": "pronouns-overview-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "prompt": { "ru": "«den» и «det» используют одну и ту же притяжательную форму «dess».", "en": "\"den\" and \"det\" share the same possessive form \"dess\"." },
       "answer": true
     },
     {
-      "id": "pronouns-overview-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "prompt": { "ru": "Объектная форма «de» — это «dem».", "en": "The object form of \"de\" is \"dem\"." },
       "answer": true
     },
     {
-      "id": "pronouns-overview-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь личное местоимение с его объектной формой", "en": "Match the personal pronoun with its object form" },
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "id": "pronouns-overview-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь личное местоимение с его притяжательной формой", "en": "Match the personal pronoun with its possessive form" },
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": "pronouns-overview-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он моется (сам).»", "en": "Build the sentence: \"He washes himself.\"" },

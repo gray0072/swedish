@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-sentence-elements-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-elements-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-elements-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -39,7 +39,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-elements-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -50,7 +50,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-elements-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -65,7 +65,7 @@
       }
     },
     {
-      "id": "q-sentence-elements-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -75,14 +75,14 @@
       "answer": true
     },
     {
-      "id": "q-sentence-elements-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Predikat — это всегда глагол.", "en": "The predikat is always a verb." },
       "answer": true
     },
     {
-      "id": "q-sentence-elements-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "q-sentence-elements-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -108,7 +108,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-sentence-elements-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -120,7 +120,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-sentence-elements-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь член предложения с вопросом", "en": "Match the sentence element with its question" },
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "q-sentence-elements-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": {
@@ -143,7 +143,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-sentence-elements-mc-6",
+      "id": "mc-6",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

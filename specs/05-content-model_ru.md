@@ -194,7 +194,7 @@ skriva – skrev – skrivit — to write – wrote – written
   ],
   "items": [
     {
-      "id": "q-greet-01",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,                    // 1..3, влияет на вес при выборке
       "prompt": { "ru": "Как сказать «Доброе утро»?" },
@@ -204,7 +204,7 @@ skriva – skrev – skrivit — to write – wrote – written
       "tags": ["greetings"]
     },
     {
-      "id": "q-greet-02",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ morgon! Hur mår du?" },
       "answer": ["God"],
@@ -212,14 +212,14 @@ skriva – skrev – skrivit — to write – wrote – written
       "hint": { "ru": "Пожелание перед словом «утро»." }
     },
     {
-      "id": "q-greet-03",
+      "id": "order-1",
       "type": "order",
       "prompt": { "ru": "Собери предложение: «Меня зовут Анна.»" },
       "tokens": ["Jag", "heter", "Anna"],
       "answer": [0, 1, 2]
     },
     {
-      "id": "q-greet-04",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь приветствия с переводом." },
       "pairs": [
@@ -229,7 +229,7 @@ skriva – skrev – skrivit — to write – wrote – written
       ]
     },
     {
-      "id": "q-greet-05",
+      "id": "listen-1",
       "type": "listen",
       "audioText": "God kväll",
       "prompt": { "ru": "Что ты услышал(а)?" },
@@ -239,6 +239,12 @@ skriva – skrev – skrivit — to write – wrote – written
   ]
 }
 ```
+
+**Id.** Id урока — всегда `<level>/<slug>` и совпадает с папкой. `id` рукописного вопроса
+локален для урока — `<тип>-<n>` (`mc-1`, `gap-3`, `tf-2`); загрузчик превращает его в
+`<level>/<slug>/<local>` (`sfi-a/greetings/mc-1`), а сгенерированные вопросы получают
+`<level>/<slug>/gen-<вид>-<id слова>`. Только этот полный id видят колода SRS и сейв, поэтому
+у двух уроков не может быть общего id вопроса.
 
 ## 5.6 Типы вопросов (v1)
 

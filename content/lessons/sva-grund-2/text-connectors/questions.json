@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-text-connectors-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «К тому же она работает неполный день.»", "en": "Build the sentence: \"In addition, she works part-time.\"" },
@@ -13,7 +13,7 @@
       "answer": [2, 3, 1, 0]
     },
     {
-      "id": "q-text-connectors-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Зато Эрик предпочитает оставаться дома.»", "en": "Build the sentence: \"Erik, in contrast, prefers to stay home.\"" },
@@ -21,7 +21,7 @@
       "answer": [3, 1, 2, 0, 4]
     },
     {
-      "id": "q-text-connectors-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Поэтому мы остались дома.»", "en": "Build the sentence: \"So we stayed home.\"" },
@@ -29,7 +29,7 @@
       "answer": [2, 3, 1, 0]
     },
     {
-      "id": "q-text-connectors-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -40,7 +40,7 @@
       "answer": 0
     },
     {
-      "id": "q-text-connectors-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -51,7 +51,7 @@
       "answer": 2
     },
     {
-      "id": "q-text-connectors-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -67,7 +67,7 @@
       "answer": 0
     },
     {
-      "id": "q-text-connectors-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 1
     },
     {
-      "id": "q-text-connectors-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -93,7 +93,7 @@
       "answer": true
     },
     {
-      "id": "q-text-connectors-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "q-text-connectors-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -117,7 +117,7 @@
       "answer": true
     },
     {
-      "id": "q-text-connectors-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -129,7 +129,7 @@
       "acceptAlso": ["dessutom"]
     },
     {
-      "id": "q-text-connectors-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -141,7 +141,7 @@
       "acceptAlso": ["alltså"]
     },
     {
-      "id": "q-text-connectors-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь связку с её функцией", "en": "Match the connector with its function" },

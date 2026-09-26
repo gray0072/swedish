@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-parts-of-speech-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая часть речи у слова «hund»?", "en": "What part of speech is \"hund\"?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая часть речи у слова «springa»?", "en": "What part of speech is \"springa\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая часть речи у слова «snabb»?", "en": "What part of speech is \"snabb\"?" },
@@ -30,7 +30,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая часть речи у слова «hon»?", "en": "What part of speech is \"hon\"?" },
@@ -38,7 +38,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая часть речи у слова «i» в «i parken»?", "en": "What part of speech is \"i\" in \"i parken\"?" },
@@ -46,7 +46,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-6",
+      "id": "mc-6",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая часть речи у слова «inte»?", "en": "What part of speech is \"inte\"?" },
@@ -54,7 +54,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-7",
+      "id": "mc-7",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая часть речи у слова «och»?", "en": "What part of speech is \"och\"?" },
@@ -62,7 +62,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-8",
+      "id": "mc-8",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая часть речи у слова «två»?", "en": "What part of speech is \"två\"?" },
@@ -70,7 +70,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-mc-9",
+      "id": "mc-9",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какая часть речи у слова «hej»?", "en": "What part of speech is \"hej\"?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-parts-of-speech-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -88,7 +88,7 @@
       "answer": true
     },
     {
-      "id": "q-parts-of-speech-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "q-parts-of-speech-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -114,7 +114,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-parts-of-speech-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь часть речи с примером", "en": "Match the part of speech with its example" },
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": "q-parts-of-speech-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": {

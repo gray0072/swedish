@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-cst-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Нас пригласили на развитийную беседу в четверг.»", "en": "Build the sentence: \"We've been invited to a development talk on Thursday.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 4, 0, 6, 1, 2, 5, 7]
     },
     {
-      "id": "q-cst-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери вопрос: «Как у него сейчас дела в школе?»", "en": "Build the question: \"How is he doing at school right now?\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 5, 0, 2, 4, 6]
     },
     {
-      "id": "q-cst-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -38,14 +38,14 @@
       ]
     },
     {
-      "id": "q-cst-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Utvecklingssamtal» — это беседа родителей с учителем о ребёнке.", "en": "\"Utvecklingssamtal\" is a talk between parents and the teacher about the child." },
       "answer": true
     },
     {
-      "id": "q-cst-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Frånvaro» значит «посещаемость».", "en": "\"Frånvaro\" means \"attendance\"." },
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "q-cst-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Läraren pratade om barnets styrkor och ___. (слабые стороны)" },
@@ -64,7 +64,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-cst-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Gör han ___ varje dag? (домашние задания)" },
@@ -72,7 +72,7 @@
       "acceptAlso": ["läxor"]
     },
     {
-      "id": "q-cst-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-cst-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -94,7 +94,7 @@
       "answer": 0
     },
     {
-      "id": "q-cst-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -105,7 +105,7 @@
       "answer": 0
     },
     {
-      "id": "q-cst-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Переведи на шведский: «Можем назначить беседу на другой день?»", "en": "Translate to Swedish: \"Can we schedule the talk for another day?\"" },

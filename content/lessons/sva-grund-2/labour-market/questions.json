@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-labour-market-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Какая квалификация требуется для этой должности?»", "en": "Build the question: \"What qualifications are required for the position?\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 1, 0, 2, 4]
     },
     {
-      "id": "q-labour-market-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «У меня пять лет опыта работы в клиентской поддержке.»", "en": "Build the sentence: \"I have five years of experience in customer service.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 1, 4, 0, 3]
     },
     {
-      "id": "q-labour-market-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-labour-market-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-labour-market-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Arbetsgivare» — это тот, кто ищет работу.", "en": "\"Arbetsgivare\" is someone looking for a job." },
@@ -61,14 +61,14 @@
       }
     },
     {
-      "id": "q-labour-market-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Arbetsförmedlingen — это государственная служба занятости в Швеции.", "en": "Arbetsförmedlingen is the Swedish government's employment service." },
       "answer": true
     },
     {
-      "id": "q-labour-market-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Heltid» и «deltid» означают одно и то же — полную занятость.", "en": "\"Heltid\" and \"deltid\" mean the same thing — full-time work." },
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "q-labour-market-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag läste en ___ på nätet igår. (объявление о вакансии)" },
@@ -87,7 +87,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-labour-market-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är hård ___ om de lediga jobben. (конкуренция)" },
@@ -95,7 +95,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-labour-market-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Företaget vill ___ fler ingenjörer. (нанять)" },
@@ -103,7 +103,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-labour-market-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -114,7 +114,7 @@
       "answer": 0
     },
     {
-      "id": "q-labour-market-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -125,7 +125,7 @@
       "answer": 0
     },
     {
-      "id": "q-labour-market-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -136,7 +136,7 @@
       "answer": 0
     },
     {
-      "id": "q-labour-market-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

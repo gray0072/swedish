@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-payslip-walkthrough-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Расчётный листок показывает зарплату брутто, вычеты и зарплату нетто.»", "en": "Build the sentence: \"The payslip shows the gross salary, the deductions and the net salary.\"" },
@@ -17,7 +17,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-payslip-walkthrough-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Работодатель ежемесячно откладывает деньги в твою трудовую пенсию.»", "en": "Build the sentence: \"The employer sets aside money for your occupational pension every month.\"" },
@@ -25,7 +25,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-payslip-walkthrough-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Большинство имеет право на 25 дней отпуска в год.»", "en": "Build the sentence: \"Most people are entitled to 25 vacation days a year.\"" },
@@ -33,7 +33,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-payslip-walkthrough-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "q-payslip-walkthrough-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -57,14 +57,14 @@
       ]
     },
     {
-      "id": "q-payslip-walkthrough-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Nettolön» — это сумма, которую ты реально получаешь на счёт после вычета налога.", "en": "\"Nettolön\" is the amount you actually receive in your account after tax." },
       "answer": true
     },
     {
-      "id": "q-payslip-walkthrough-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Arbetsgivaravgift» — это налог, который вычитают напрямую из зарплаты сотрудника.", "en": "\"Arbetsgivaravgift\" is a tax deducted directly from the employee's own salary." },
@@ -75,14 +75,14 @@
       }
     },
     {
-      "id": "q-payslip-walkthrough-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Если из зарплаты удержали слишком много налога, можно попросить jämkning.", "en": "If too much tax was withheld from your salary, you can request a jämkning." },
       "answer": true
     },
     {
-      "id": "q-payslip-walkthrough-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Все дни больничного и отпуска по уходу за ребёнком одинаково не засчитываются для отпускных.", "en": "All sick days and all parental-leave days equally never count toward holiday pay." },
@@ -93,7 +93,7 @@
       }
     },
     {
-      "id": "q-payslip-walkthrough-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Skillnaden mellan bruttolön och nettolön är ___ skatt. (удержанный)" },
@@ -101,7 +101,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-payslip-walkthrough-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Arbetsgivaren skickar en ___ till Skatteverket varje år. (справка о доходах)" },
@@ -109,7 +109,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-payslip-walkthrough-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ på mitt jobb är den 25:e varje månad. (день выплаты)" },
@@ -117,7 +117,7 @@
       "acceptAlso": ["utbetalningsdagen"]
     },
     {
-      "id": "q-payslip-walkthrough-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -128,7 +128,7 @@
       "answer": 0
     },
     {
-      "id": "q-payslip-walkthrough-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -139,7 +139,7 @@
       "answer": 0
     },
     {
-      "id": "q-payslip-walkthrough-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

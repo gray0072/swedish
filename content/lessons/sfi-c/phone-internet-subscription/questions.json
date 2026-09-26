@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-phone-internet-subscription-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как по-шведски «сим-карта»?", "en": "How do you say \"SIM card\" in Swedish?" },
@@ -14,14 +14,14 @@
       "answer": 0
     },
     {
-      "id": "q-phone-internet-subscription-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Kontantkort» — это предоплаченная карта без абонемента.", "en": "\"Kontantkort\" is a prepaid card with no subscription." },
       "answer": true
     },
     {
-      "id": "q-phone-internet-subscription-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Operatör» — это устройство для выхода в интернет.", "en": "\"Operatör\" is a device for accessing the internet." },
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "q-phone-internet-subscription-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Сколько стоит подписка?»", "en": "Build the question: \"How much does the subscription cost?\"" },
@@ -40,7 +40,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-phone-internet-subscription-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Har ni ___ här?" },
@@ -49,7 +49,7 @@
       "hint": { "ru": "вайфай", "en": "wifi" }
     },
     {
-      "id": "q-phone-internet-subscription-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слово и его значение", "en": "Match the word with its meaning" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "q-phone-internet-subscription-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag vill teckna ett mobilabonnemang.",

@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-further-education-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что делает CSN?", "en": "What does CSN do?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-further-education-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что идёт после SFI kurs D?", "en": "What comes after SFI kurs D?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-further-education-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «SVA grund состоит из четырёх частей.»", "en": "Build the sentence: \"SVA grund has four sub-courses.\"" },
@@ -36,7 +36,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-further-education-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": "q-further-education-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Studiebidrag нужно возвращать так же, как studielån.", "en": "Studiebidrag has to be paid back just like studielån." },
@@ -56,14 +56,14 @@
       "explanation": { "ru": "Studiebidrag — это грант, его не возвращают; возвращают только studielån.", "en": "Studiebidrag is a grant and is never repaid; only the studielån is repaid." }
     },
     {
-      "id": "q-further-education-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Komvux — это образование для взрослых.", "en": "Komvux is adult education." },
       "answer": true
     },
     {
-      "id": "q-further-education-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ansöker om studiestöd hos ___. (CSN)" },

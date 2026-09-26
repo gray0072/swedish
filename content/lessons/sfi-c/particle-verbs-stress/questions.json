@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-particle-verbs-stress-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я перезвоню тебе завтра.»", "en": "Build the sentence: \"I'll call you back tomorrow.\"" },
@@ -14,7 +14,7 @@
       "answer": [4, 3, 0, 2, 1]
     },
     {
-      "id": "q-particle-verbs-stress-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он снимает куртку.»", "en": "Build the sentence: \"He takes off his jacket.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 4, 0, 2, 1]
     },
     {
-      "id": "q-particle-verbs-stress-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag kommer inte ___ hans namn. (помнить)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "помнить", "en": "remember" }
     },
     {
-      "id": "q-particle-verbs-stress-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Kan du fylla ___ blanketten?" },
@@ -40,14 +40,14 @@
       "hint": { "ru": "заполнить", "en": "fill in" }
     },
     {
-      "id": "q-particle-verbs-stress-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В шведских частичных глаголах ударение падает на частицу, а не на сам глагол.", "en": "In Swedish particle verbs the stress falls on the particle, not on the verb itself." },
       "answer": true
     },
     {
-      "id": "q-particle-verbs-stress-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Komma ihåg» значит «прийти домой».", "en": "\"Komma ihåg\" means \"to come home\"." },
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "q-particle-verbs-stress-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь частичный глагол с переводом", "en": "Match the particle verb with its translation" },
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "q-particle-verbs-stress-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Где стоит ударение в «ringer UPP»?", "en": "Where does the stress fall in \"ringer UPP\"?" },
@@ -79,7 +79,7 @@
       "answer": 0
     },
     {
-      "id": "q-particle-verbs-stress-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «Не забудь выключить компьютер»?", "en": "How do you say \"Don't forget to switch off the computer\"?" },
@@ -87,7 +87,7 @@
       "answer": 0
     },
     {
-      "id": "q-particle-verbs-stress-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Переведи: «Дети надевают обувь.»", "en": "Translate: \"The children put on their shoes.\"" },

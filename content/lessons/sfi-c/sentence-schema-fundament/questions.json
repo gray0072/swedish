@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-sentence-schema-fundament-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Сегодня я не читаю газету.»", "en": "Build the sentence: \"Today I'm not reading the newspaper.\"" },
@@ -14,7 +14,7 @@
       "answer": [1, 0, 3, 2, 4]
     },
     {
-      "id": "q-sentence-schema-fundament-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «К сожалению, я не могу прийти завтра.»", "en": "Build the sentence: \"Unfortunately, I can't come tomorrow.\"" },
@@ -22,7 +22,7 @@
       "answer": [5, 1, 3, 0, 4, 2]
     },
     {
-      "id": "q-sentence-schema-fundament-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Idag ___ jag inte tidningen. (глагол – второе место)" },
@@ -31,7 +31,7 @@
       "hint": { "ru": "глагол занимает второе место", "en": "the verb takes the second slot" }
     },
     {
-      "id": "q-sentence-schema-fundament-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag läser ___ tidningen idag. (не)" },
@@ -40,21 +40,21 @@
       "hint": { "ru": "не (сатсадвербиал)", "en": "not (sentence adverb)" }
     },
     {
-      "id": "q-sentence-schema-fundament-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В схеме предложения фундамент — это то, что стоит первым, а не обязательно подлежащее.", "en": "In the sentence schema, the fundament is whatever comes first, not necessarily the subject." },
       "answer": true
     },
     {
-      "id": "q-sentence-schema-fundament-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Если подлежащее не стоит на месте фундамента, оно идёт сразу после глагола.", "en": "If the subject is not in the fundament slot, it comes right after the verb." },
       "answer": true
     },
     {
-      "id": "q-sentence-schema-fundament-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово в предложении «Idag läser jag inte tidningen» с его местом в схеме", "en": "Match the word in \"Idag läser jag inte tidningen\" with its schema slot" },
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "q-sentence-schema-fundament-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что стоит в предложении сразу после глагола, если подлежащее не в фундаменте?", "en": "What comes right after the verb if the subject is not in the fundament?" },
@@ -75,7 +75,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-schema-fundament-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой порядок правильный: фундамент — ? — подлежащее — наречие — остальное сказуемое.", "en": "Which order is correct: fundament — ? — subject — adverb — rest of predicate." },
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-schema-fundament-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 3,
       "prompt": { "ru": "Переведи, начиная с «Kanske»: «Может быть, она прочитает книгу завтра.»", "en": "Translate, starting with \"Kanske\": \"Maybe she'll read the book tomorrow.\"" },

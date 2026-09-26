@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-simple-feelings-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я чувствую себя счастливым.»", "en": "Build the sentence: \"I feel happy.\"" },
@@ -15,7 +15,7 @@
       "answer": [2, 1, 0, 3]
     },
     {
-      "id": "q-simple-feelings-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь прилагательное с переводом", "en": "Match the adjective with its translation" },
@@ -28,14 +28,14 @@
       ]
     },
     {
-      "id": "q-simple-feelings-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Ett-форма слова «ledsen» — «ledset», а не «ledsent».", "en": "The ett-form of \"ledsen\" is \"ledset\", not \"ledsent\"." },
       "answer": true
     },
     {
-      "id": "q-simple-feelings-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Предложение «Jag känner glad» грамматически правильное.", "en": "The sentence \"Jag känner glad\" is grammatically correct." },
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": "q-simple-feelings-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag är ___ och vill äta något." },
@@ -55,7 +55,7 @@
       "hint": { "ru": "голодный", "en": "hungry" }
     },
     {
-      "id": "q-simple-feelings-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Barnet är ___ eftersom hunden sprang bort." },
@@ -64,7 +64,7 @@
       "hint": { "ru": "грустный (ett-форма)", "en": "sad (ett-form)" }
     },
     {
-      "id": "q-simple-feelings-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "Как сказать «я чувствую себя спокойно»?", "en": "How do you say \"I feel calm\"?" },

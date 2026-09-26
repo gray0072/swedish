@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-sentence-adverb-position-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": {
@@ -17,7 +17,7 @@
       "answer": [4, 3, 2, 1, 0]
     },
     {
-      "id": "q-sentence-adverb-position-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": {
@@ -28,7 +28,7 @@
       "answer": [7, 6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-sentence-adverb-position-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Дети уже спят.»", "en": "Build the sentence: \"The children are already asleep.\"" },
@@ -36,7 +36,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-sentence-adverb-position-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -52,7 +52,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-adverb-position-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -68,7 +68,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-adverb-position-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "Выбери правильный huvudsats.", "en": "Choose the correctly ordered huvudsats." },
@@ -76,7 +76,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-adverb-position-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "Выбери правильный bisats.", "en": "Choose the correctly ordered bisats." },
@@ -89,7 +89,7 @@
       "answer": 0
     },
     {
-      "id": "q-sentence-adverb-position-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое из этих слов НЕ является satsadverbial?", "en": "Which of these words is NOT a satsadverbial?" },
@@ -97,7 +97,7 @@
       "answer": 2
     },
     {
-      "id": "q-sentence-adverb-position-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "К satsadverbial относится только слово «inte».", "en": "\"Inte\" is the only satsadverbial." },
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "q-sentence-adverb-position-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -118,7 +118,7 @@
       "answer": true
     },
     {
-      "id": "q-sentence-adverb-position-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -128,7 +128,7 @@
       "answer": true
     },
     {
-      "id": "q-sentence-adverb-position-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -140,7 +140,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-sentence-adverb-position-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -152,7 +152,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-sentence-adverb-position-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь наречие с переводом", "en": "Match the adverb with its translation" },

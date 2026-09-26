@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-workplace-habits-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как обычно обращаются к начальнику на шведском рабочем месте?", "en": "How is a boss usually addressed at a Swedish workplace?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-workplace-habits-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что такое fika?", "en": "What is fika?" },
@@ -33,7 +33,7 @@
       "answer": 0
     },
     {
-      "id": "q-workplace-habits-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Важно приходить вовремя.»", "en": "Build the sentence: \"It's important to arrive on time.\"" },
@@ -41,7 +41,7 @@
       "answer": [4, 5, 6, 2, 3, 0, 1]
     },
     {
-      "id": "q-workplace-habits-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": "q-workplace-habits-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "На шведском рабочем месте не принято просить о помощи.", "en": "At a Swedish workplace it's frowned upon to ask for help." },
@@ -61,14 +61,14 @@
       "explanation": { "ru": "Просить о помощи — это совершенно нормально.", "en": "Asking for help is completely normal." }
     },
     {
-      "id": "q-workplace-habits-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Platt organisation означает плоскую, не иерархичную структуру.", "en": "Platt organisation means a flat, non-hierarchical structure." },
       "answer": true
     },
     {
-      "id": "q-workplace-habits-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är okej att ___ om hjälp. (просить)" },

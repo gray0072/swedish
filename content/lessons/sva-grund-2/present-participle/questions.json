@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-present-participle-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой суффикс берёт «le» (основа уже оканчивается на гласную)?", "en": "Which suffix does \"le\" take (its stem already ends in a vowel)?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-present-participle-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Чем «leende» в «en leende flicka» и «ett leende barn» отличается друг от друга?", "en": "How does \"leende\" differ between \"en leende flicka\" and \"ett leende barn\"?" },
@@ -27,7 +27,7 @@
       "answer": 0
     },
     {
-      "id": "q-present-participle-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Han kom ___ till skolan. (springa, presens particip)" },
@@ -35,7 +35,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-present-participle-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon satt ___ i soffan. (läsa, presens particip)" },
@@ -44,7 +44,7 @@
       "hint": { "ru": "Основа läs- оканчивается на согласную.", "en": "The stem läs- ends in a consonant." }
     },
     {
-      "id": "q-present-participle-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "en ___ flicka (le, presens particip)" },
@@ -52,7 +52,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-present-participle-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Причастие настоящего времени согласуется по роду и числу, как обычное прилагательное.", "en": "The present participle agrees in gender and number, like an ordinary adjective." },
@@ -60,14 +60,14 @@
       "explanation": { "ru": "Нет, оно всегда одной формы: leende, leende, leende.", "en": "No, it's always one form: leende, leende, leende." }
     },
     {
-      "id": "q-present-participle-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Boende» может значить и «проживание», и (в другом смысле) «жилец».", "en": "\"Boende\" can mean both \"accommodation\" and, in another sense, \"resident\"." },
       "answer": true
     },
     {
-      "id": "q-present-participle-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Studerande» меняет форму во множественном числе, как обычное существительное на en.", "en": "\"Studerande\" changes form in the plural, like an ordinary en-noun." },
@@ -75,7 +75,7 @@
       "explanation": { "ru": "Нет: en studerande — flera studerande, форма не меняется.", "en": "No: en studerande — flera studerande, the form stays the same." }
     },
     {
-      "id": "q-present-participle-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Она пришла улыбаясь.»", "en": "Build the sentence: \"She came smiling.\"" },
@@ -83,7 +83,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-present-participle-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь глагол с его причастием настоящего времени", "en": "Match the verb with its present participle" },
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": "q-present-participle-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое из этих существительных НЕ меняется во множественном числе?", "en": "Which of these nouns does NOT change in the plural?" },
@@ -108,7 +108,7 @@
       "answer": 0
     },
     {
-      "id": "q-present-participle-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "difficulty": 3,
       "prompt": { "sv": "Många ___ läser på biblioteket. (studerande, мн.ч.)" },
@@ -117,7 +117,7 @@
       "hint": { "ru": "Форма во мн.ч. совпадает с формой в ед.ч.", "en": "The plural form is identical to the singular." }
     },
     {
-      "id": "q-present-participle-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Skrivande» как отвлечённое существительное («писательство») — среднего рода: ett skrivande.", "en": "\"Skrivande\" as an abstract noun (\"writing\") is neuter: ett skrivande." },

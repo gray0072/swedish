@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-temporal-clauses-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой союз обозначает два одновременных действия?", "en": "Which conjunction marks two simultaneous actions?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-temporal-clauses-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой союз чаще указывает на один конкретный момент в прошлом, часто в начале истории?", "en": "Which conjunction typically points at one specific past moment, often at the start of a story?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-temporal-clauses-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag lagar mat ___ du dukar. (пока)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-temporal-clauses-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Позвони мне, прежде чем поедешь.»", "en": "Build the sentence: \"Call me before you leave.\"" },
@@ -38,7 +38,7 @@
       "answer": [4, 2, 1, 0, 3]
     },
     {
-      "id": "q-temporal-clauses-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь союз с переводом", "en": "Match the conjunction with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-temporal-clauses-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Så fort som» значит «как только».", "en": "\"Så fort som\" means \"as soon as\"." },
       "answer": true
     },
     {
-      "id": "q-temporal-clauses-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Efter att» часто сочетается с плюсквамперфектом в придаточном.", "en": "\"Efter att\" often pairs with the pluperfect in the subordinate clause." },

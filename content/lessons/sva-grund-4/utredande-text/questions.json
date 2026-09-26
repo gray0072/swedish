@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-utredande-text-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Вопрос можно осветить с разных сторон.»", "en": "Build the sentence: \"The question can be illuminated from several angles.\"" },
@@ -18,7 +18,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-utredande-text-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Utredande text должен быть максимально объективным.»", "en": "Build the sentence: \"An utredande text should be as objective as possible.\"" },
@@ -26,7 +26,7 @@
       "answer": [1, 0, 2]
     },
     {
-      "id": "q-utredande-text-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Текст рассматривает несколько разных точек зрения на один и тот же вопрос.»", "en": "Build the sentence: \"The text covers several different perspectives on the same question.\"" },
@@ -34,7 +34,7 @@
       "answer": [0, 2, 1, 3]
     },
     {
-      "id": "q-utredande-text-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": "q-utredande-text-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "q-utredande-text-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В utredande text автор должен открыто высказывать своё личное мнение и убеждать читателя.", "en": "In an utredande text, the writer should openly state a personal opinion and try to convince the reader." },
@@ -69,14 +69,14 @@
       }
     },
     {
-      "id": "q-utredande-text-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Конструкция «å ena sidan..., å andra sidan...» используется, чтобы представить две разные точки зрения.", "en": "The construction \"å ena sidan..., å andra sidan...\" is used to present two different perspectives." },
       "answer": true
     },
     {
-      "id": "q-utredande-text-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Заключение utredande text должно выносить чёткий личный вердикт по вопросу.", "en": "The conclusion of an utredande text should deliver a clear personal verdict on the question." },
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "q-utredande-text-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Utredande text и argumenterande text — это один и тот же жанр текста.", "en": "An utredande text and an argumenterande text are the same genre of text." },
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "q-utredande-text-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Skribenten förhåller sig ___ genom hela texten. (нейтральный)" },
@@ -106,7 +106,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-utredande-text-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Texten ___ frågan ur flera perspektiv. (исследует)" },
@@ -114,7 +114,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-utredande-text-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ visar detta att frågan är mer komplex än den verkar. (в совокупности)" },
@@ -122,7 +122,7 @@
       "acceptAlso": ["sammantaget"]
     },
     {
-      "id": "q-utredande-text-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -133,7 +133,7 @@
       "answer": 0
     },
     {
-      "id": "q-utredande-text-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -144,7 +144,7 @@
       "answer": 0
     },
     {
-      "id": "q-utredande-text-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

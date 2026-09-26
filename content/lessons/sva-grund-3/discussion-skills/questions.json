@@ -5,21 +5,21 @@
   ],
   "items": [
     {
-      "id": "q-discussion-skills-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "prompt": { "ru": "Какая фраза используется, чтобы вежливо вступить в разговор?", "en": "Which phrase is used to politely join a conversation?" },
       "choices": ["får jag lägga till något?", "det stämmer, men...", "bra poäng"],
       "answer": 0
     },
     {
-      "id": "q-discussion-skills-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "prompt": { "ru": "Какая фраза выражает согласие?", "en": "Which phrase expresses agreement?" },
       "choices": ["jag håller med om att", "jag ser det lite annorlunda", "får jag avbryta?"],
       "answer": 0
     },
     {
-      "id": "q-discussion-skills-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Что значит «delta»?", "en": "What does \"delta\" mean?" },
       "choices": [
@@ -30,35 +30,35 @@
       "answer": 0
     },
     {
-      "id": "q-discussion-skills-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "В хорошей дискуссии перебивать нужно молча, не спрашивая разрешения.", "en": "In a good discussion, you should interrupt silently without asking." },
       "answer": false,
       "explanation": { "ru": "Вежливее спросить «får jag avbryta?», прежде чем перебить.", "en": "It's more polite to ask \"får jag avbryta?\" before interrupting." }
     },
     {
-      "id": "q-discussion-skills-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Возражать в дискуссии всегда невежливо.", "en": "Objecting in a discussion is always impolite." },
       "answer": false,
       "explanation": { "ru": "Возражать вежливо и по делу — нормальная часть дискуссии.", "en": "Objecting politely and specifically is a normal part of a discussion." }
     },
     {
-      "id": "q-discussion-skills-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ lägga till något? (får jag)" },
       "answer": ["Får jag"],
       "acceptAlso": ["får jag"]
     },
     {
-      "id": "q-discussion-skills-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Om jag ska ___ det vi kommit fram till... (sammanfatta)" },
       "answer": ["sammanfatta"],
       "acceptAlso": []
     },
     {
-      "id": "q-discussion-skills-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я смотрю на это немного иначе.»", "en": "Build the sentence: \"I see it a bit differently.\"" },
@@ -66,7 +66,7 @@
       "answer": [0, 1, 2, 3, 4]
     },
     {
-      "id": "q-discussion-skills-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь фразу с её функцией", "en": "Match the phrase with its function" },
       "pairs": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "q-discussion-skills-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "prompt": { "ru": "Что означает «komma överens»?", "en": "What does \"komma överens\" mean?" },
       "choices": ["прийти к согласию / to come to an agreement", "перебить / to interrupt", "добавить что-то / to add something"],

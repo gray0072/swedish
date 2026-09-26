@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-causal-clauses-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое слово — предлог, требующий существительного, а не придаточного?", "en": "Which word is a preposition, needing a noun rather than a clause?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-causal-clauses-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Det regnade, ___ stannade vi hemma» — какое слово даёт значение «поэтому»?", "en": "\"Det regnade, ___ stannade vi hemma\" — which word gives the meaning \"therefore\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-causal-clauses-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Tåget var försenat ___ snön. (из-за)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-causal-clauses-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Так как шёл дождь, мы остались дома.»", "en": "Build the sentence: \"Since it was raining, we stayed home.\"" },
@@ -38,7 +38,7 @@
       "answer": [1, 0, 3, 2, 4]
     },
     {
-      "id": "q-causal-clauses-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-causal-clauses-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Därför att» и «därför» означают одно и то же и взаимозаменяемы.", "en": "\"Därför att\" and \"därför\" mean the same thing and are interchangeable." },
@@ -58,7 +58,7 @@
       "explanation": { "ru": "«Därför att» вводит причину, а «därför» — результат; они не взаимозаменяемы.", "en": "\"Därför att\" introduces a reason, while \"därför\" introduces a result — they aren't interchangeable." }
     },
     {
-      "id": "q-causal-clauses-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Eftersom» часто стоит в начале предложения.", "en": "\"Eftersom\" often stands at the start of the sentence." },

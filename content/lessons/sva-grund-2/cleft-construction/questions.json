@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-cleft-construction-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что выделяется в «Det är Anna som lagar mat»?", "en": "What is emphasized in \"Det är Anna som lagar mat\"?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-cleft-construction-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что выделяется в «Det är tidningen som Erik läser»?", "en": "What is emphasized in \"Det är tidningen som Erik läser\"?" },
@@ -22,7 +22,7 @@
       "answer": 1
     },
     {
-      "id": "q-cleft-construction-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -38,7 +38,7 @@
       "answer": 0
     },
     {
-      "id": "q-cleft-construction-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Во что превращается «är» в клефт-конструкции в прошедшем времени?", "en": "What does \"är\" become in the cleft construction in the past tense?" },
@@ -46,7 +46,7 @@
       "answer": 0
     },
     {
-      "id": "q-cleft-construction-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -62,7 +62,7 @@
       "answer": 2
     },
     {
-      "id": "q-cleft-construction-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "q-cleft-construction-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -86,7 +86,7 @@
       "answer": true
     },
     {
-      "id": "q-cleft-construction-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "q-cleft-construction-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": {
@@ -112,7 +112,7 @@
       "acceptAlso": ["det"]
     },
     {
-      "id": "q-cleft-construction-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": {
@@ -123,7 +123,7 @@
       "answer": ["var"]
     },
     {
-      "id": "q-cleft-construction-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Это книгу читает Анна (не что-то другое).»", "en": "Build the sentence: \"It's the book that Anna is reading.\"" },
@@ -131,7 +131,7 @@
       "answer": [4, 3, 1, 2, 5, 0]
     },
     {
-      "id": "q-cleft-construction-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Это в Мальмё мы живём.»", "en": "Build the sentence: \"It's in Malmö that we live.\"" },
@@ -139,7 +139,7 @@
       "answer": [3, 1, 5, 0, 2, 4]
     },
     {
-      "id": "q-cleft-construction-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь обычное предложение с его клефт-версией", "en": "Match the plain sentence with its cleft version" },

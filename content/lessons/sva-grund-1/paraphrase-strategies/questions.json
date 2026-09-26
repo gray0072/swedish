@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "paraphrase-strategies-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": {
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "paraphrase-strategies-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -28,7 +28,7 @@
       "answer": 1
     },
     {
-      "id": "paraphrase-strategies-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -39,7 +39,7 @@
       "answer": 0
     },
     {
-      "id": "paraphrase-strategies-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -49,7 +49,7 @@
       "answer": true
     },
     {
-      "id": "paraphrase-strategies-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -63,7 +63,7 @@
       }
     },
     {
-      "id": "paraphrase-strategies-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "paraphrase-strategies-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Förlåt, jag förstod inte ___. Kan du säga det på ett annat sätt? (совсем)" },
@@ -85,7 +85,7 @@
       "acceptAlso": []
     },
     {
-      "id": "paraphrase-strategies-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vad ___ du med det? (имеешь в виду)" },
@@ -93,7 +93,7 @@
       "acceptAlso": []
     },
     {
-      "id": "paraphrase-strategies-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь стратегическую фразу с переводом", "en": "Match the strategy phrase with its translation" },
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": "paraphrase-strategies-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Извини, я не совсем понял(а).»", "en": "Build the sentence: \"Sorry, I didn't quite understand.\"" },

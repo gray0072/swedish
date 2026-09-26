@@ -7,34 +7,34 @@
   ],
   "items": [
     {
-      "id": "q-present-tense-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag ___ Sara. (меня зовут)" },
       "answer": ["heter"],
       "acceptAlso": []
     },
     {
-      "id": "q-present-tense-basics-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Var ___ du? (живёшь)" },
       "answer": ["bor"],
       "acceptAlso": []
     },
     {
-      "id": "q-present-tense-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Слово «heter» меняется в зависимости от того, jag это, du или han.", "en": "\"Heter\" changes depending on whether it's jag, du or han." },
       "answer": false,
       "explanation": { "ru": "«heter» — одно и то же слово для jag, du, han, hon, vi, ni, de.", "en": "\"heter\" is the same word for jag, du, han, hon, vi, ni, de." }
     },
     {
-      "id": "q-present-tense-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«Vi bor», «Ni bor», «De bor» — всюду одно и то же слово «bor».", "en": "\"Vi bor\", \"Ni bor\", \"De bor\" — the word \"bor\" is the same everywhere." },
       "answer": true
     },
     {
-      "id": "q-present-tense-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как сказать «он работает»?", "en": "How do you say \"he works\"?" },
@@ -42,7 +42,7 @@
       "answer": 0
     },
     {
-      "id": "q-present-tense-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Они из Ирака.»", "en": "Build the sentence: \"They are from Iraq.\"" },
@@ -50,7 +50,7 @@
       "answer": [2, 1, 0, 3]
     },
     {
-      "id": "q-present-tense-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь предложение с переводом", "en": "Match the sentence with its translation" },

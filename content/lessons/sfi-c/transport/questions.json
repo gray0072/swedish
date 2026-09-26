@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-transport-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери объявление: «Следующая станция — Слюссен.»", "en": "Build the announcement: \"Next station is Slussen.\"" },
@@ -17,7 +17,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-transport-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Двери закрываются.»", "en": "Build the phrase: \"The doors are closing.\"" },
@@ -25,7 +25,7 @@
       "answer": [1, 0]
     },
     {
-      "id": "q-transport-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь виды транспорта с переводом", "en": "Match the vehicles with their translation" },
@@ -37,14 +37,14 @@
       ]
     },
     {
-      "id": "q-transport-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Hållplats» — это остановка наземного транспорта.", "en": "\"Hållplats\" is a bus/tram stop." },
       "answer": true
     },
     {
-      "id": "q-transport-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Tåget är försenat» значит «поезд отменён».", "en": "\"Tåget är försenat\" means \"the train is cancelled\"." },
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": "q-transport-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "En ___, tack. (билет)" },
@@ -63,7 +63,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-transport-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-child-school-contact-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое utvecklingssamtal?", "en": "What is an utvecklingssamtal?" },
@@ -20,7 +20,7 @@
       "answer": 0
     },
     {
-      "id": "q-child-school-contact-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Куда обычно отправляют сообщение об отсутствии ребёнка?", "en": "Where do you usually report your child's absence?" },
@@ -28,7 +28,7 @@
       "answer": 0
     },
     {
-      "id": "q-child-school-contact-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Она делает домашнее задание после школы.»", "en": "Build the sentence: \"She does her homework after school.\"" },
@@ -36,7 +36,7 @@
       "answer": [5, 4, 3, 0, 1, 2]
     },
     {
-      "id": "q-child-school-contact-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -48,14 +48,14 @@
       ]
     },
     {
-      "id": "q-child-school-contact-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Fritids — это группа продлённого дня.", "en": "Fritids is after-school care." },
       "answer": true
     },
     {
-      "id": "q-child-school-contact-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Föräldramöte — это личная встреча только про твоего ребёнка.", "en": "A föräldramöte is a private meeting just about your own child." },
@@ -63,7 +63,7 @@
       "explanation": { "ru": "Föräldramöte — собрание для всего класса; личная беседа — это utvecklingssamtal.", "en": "A föräldramöte is for the whole class; the private one-on-one talk is the utvecklingssamtal." }
     },
     {
-      "id": "q-child-school-contact-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ tid med läraren för att prata om läxorna. (записался(лась))" },

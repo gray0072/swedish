@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-topicalisation-emphasis-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Den här boken har jag redan läst» — что вынесено в fundament?", "en": "\"Den här boken har jag redan läst\" — what is fronted into the fundament?" },
@@ -14,7 +14,7 @@
       "answer": 1
     },
     {
-      "id": "q-topicalisation-emphasis-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Зачем используют топикализацию?", "en": "Why do speakers use topicalisation?" },
@@ -26,7 +26,7 @@
       "answer": 1
     },
     {
-      "id": "q-topicalisation-emphasis-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что обязательно происходит с подлежащим и глаголом при топикализации не-подлежащего?", "en": "What must happen to the subject and verb when a non-subject is topicalised?" },
@@ -34,7 +34,7 @@
       "answer": 1
     },
     {
-      "id": "q-topicalisation-emphasis-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое предложение — нейтральное (тема = подлежащее)?", "en": "Which sentence is neutral (theme = subject)?" },
@@ -42,25 +42,25 @@
       "answer": 0
     },
     {
-      "id": "q-topicalisation-emphasis-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Den här filmen ___ jag sett tre gånger. (перфект от se)" },
       "answer": ["har"]
     },
     {
-      "id": "q-topicalisation-emphasis-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "I Stockholm ___ jag aldrig bott. (перфект)" },
       "answer": ["har"]
     },
     {
-      "id": "q-topicalisation-emphasis-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Det här problemet måste ___ lösa nu. (местоимение «мы»)" },
       "answer": ["vi"]
     },
     {
-      "id": "q-topicalisation-emphasis-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Топикализация — грамматическая ошибка, которую нужно избегать.", "en": "Topicalisation is a grammatical error to be avoided." },
@@ -68,7 +68,7 @@
       "explanation": { "ru": "Это осознанный стилистический приём для эмфазы, а не ошибка.", "en": "It's a deliberate stylistic device for emphasis, not an error." }
     },
     {
-      "id": "q-topicalisation-emphasis-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "При топикализации объекта подлежащее всё равно остаётся перед глаголом.", "en": "When an object is topicalised, the subject still stays before the verb." },
@@ -76,14 +76,14 @@
       "explanation": { "ru": "Нет: действует V2 — глагол встаёт перед подлежащим (инверсия).", "en": "No: V2 applies — the verb comes before the subject (inversion)." }
     },
     {
-      "id": "q-topicalisation-emphasis-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В fundament может встать не только подлежащее, но и объект или обстоятельство.", "en": "The fundament can hold not only the subject but also an object or an adverbial." },
       "answer": true
     },
     {
-      "id": "q-topicalisation-emphasis-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Топикализация уместна в любом нейтральном повествовании и должна использоваться как можно чаще.", "en": "Topicalisation is appropriate in any neutral narration and should be used as often as possible." },
@@ -91,7 +91,7 @@
       "explanation": { "ru": "Она уместна для контраста и сильной эмфазы, но избыточна в нейтральном рассказе.", "en": "It suits contrast and strong emphasis, but is overkill in neutral narration." }
     },
     {
-      "id": "q-topicalisation-emphasis-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение с топикализацией: «ЭТОТ фильм я смотрел три раза.»", "en": "Build the topicalised sentence: \"THIS film I've watched three times.\"" },
@@ -99,7 +99,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-topicalisation-emphasis-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «В Стокгольме я никогда не жил.»", "en": "Build the sentence: \"In Stockholm I have never lived.\"" },
@@ -107,7 +107,7 @@
       "answer": [0, 1, 2, 3, 4, 5]
     },
     {
-      "id": "q-topicalisation-emphasis-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь предложение с тем, что в нём вынесено в fundament", "en": "Match the sentence with what is fronted in its fundament" },

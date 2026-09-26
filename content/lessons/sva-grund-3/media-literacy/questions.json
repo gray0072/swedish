@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-media-literacy-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Кто написал текст и зачем?»", "en": "Build the question: \"Who wrote the text and why?\"" },
@@ -17,7 +17,7 @@
       "answer": [2, 1, 0, 4, 3]
     },
     {
-      "id": "q-media-literacy-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Надёжен ли источник?»", "en": "Build the question: \"Is the source reliable?\"" },
@@ -25,7 +25,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-media-literacy-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Текст кажется предвзятым.»", "en": "Build the sentence: \"The text seems slanted.\"" },
@@ -33,7 +33,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-media-literacy-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": "q-media-literacy-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "q-media-literacy-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Vinkling» всегда означает, что текст полностью лжив.", "en": "\"Vinkling\" always means the text is entirely false." },
@@ -68,14 +68,14 @@
       }
     },
     {
-      "id": "q-media-literacy-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Достоверность источника растёт, если несколько независимых источников подтверждают одну и ту же информацию.", "en": "A source's credibility increases if several independent sources confirm the same information." },
       "answer": true
     },
     {
-      "id": "q-media-literacy-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Primärkälla» — это пересказ новости в другом издании.", "en": "A \"primärkälla\" is a retelling of the news in another outlet." },
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "q-media-literacy-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Opartisk» источник обычно представляет только одну точку зрения.", "en": "An \"opartisk\" source usually presents only one perspective." },
@@ -97,7 +97,7 @@
       }
     },
     {
-      "id": "q-media-literacy-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Vad är ___ med den här texten? (цель)" },
@@ -105,7 +105,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-media-literacy-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Myndigheten varnade för ___ inför valet. (дезинформация)" },
@@ -113,7 +113,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-media-literacy-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vem är ___ bakom det här inlägget? (автор, отправитель)" },
@@ -121,7 +121,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-media-literacy-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -132,7 +132,7 @@
       "answer": 0
     },
     {
-      "id": "q-media-literacy-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -143,7 +143,7 @@
       "answer": 0
     },
     {
-      "id": "q-media-literacy-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

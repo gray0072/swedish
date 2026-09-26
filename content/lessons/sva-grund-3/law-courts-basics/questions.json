@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-law-courts-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Судебный процесс проходил в суде первой инстанции.»", "en": "Build the sentence: \"The trial was held at the district court.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-law-courts-basics-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Прокурор предъявил обвинение мужчине.»", "en": "Build the sentence: \"The prosecutor brought charges against the man.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-law-courts-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-law-courts-basics-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-law-courts-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Frikänna» означает признать виновным и назначить наказание.", "en": "\"Frikänna\" means to find someone guilty and impose a punishment." },
@@ -61,14 +61,14 @@
       }
     },
     {
-      "id": "q-law-courts-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Приговор, вынесенный в tingsrätt, можно обжаловать в hovrätt.", "en": "A verdict from the tingsrätt can be appealed to the hovrätt." },
       "answer": true
     },
     {
-      "id": "q-law-courts-basics-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Tvistemål» — это всегда уголовное дело с прокурором.", "en": "A \"tvistemål\" is always a criminal case involving a prosecutor." },
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "q-law-courts-basics-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Свидетель («vittne») представляет интересы подсудимого в суде.", "en": "A witness (\"vittne\") represents the defendant's interests in court." },
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "q-law-courts-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Mannen ___ till böter. (был приговорён)" },
@@ -98,7 +98,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-law-courts-basics-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du kan ___ domen inom tre veckor. (обжаловать)" },
@@ -106,7 +106,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-law-courts-basics-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Han fick betala ___ för fortkörning. (штраф)" },
@@ -114,7 +114,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-law-courts-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -125,7 +125,7 @@
       "answer": 0
     },
     {
-      "id": "q-law-courts-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -136,7 +136,7 @@
       "answer": 0
     },
     {
-      "id": "q-law-courts-basics-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

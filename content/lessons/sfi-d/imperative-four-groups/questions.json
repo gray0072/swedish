@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-imperative-four-groups-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое повелительное наклонение у глагола «skriva» (группа 4)?", "en": "What is the imperative of \"skriva\" (group 4)?" },
@@ -15,7 +15,7 @@
       "answer": 0
     },
     {
-      "id": "q-imperative-four-groups-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какая группа сохраняет инфинитив без изменений в повелительном наклонении?", "en": "Which group keeps the infinitive unchanged in the imperative?" },
@@ -23,7 +23,7 @@
       "answer": 0
     },
     {
-      "id": "q-imperative-four-groups-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ dörren, tack. (закрой)" },
@@ -31,7 +31,7 @@
       "acceptAlso": ["stäng"]
     },
     {
-      "id": "q-imperative-four-groups-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Свари картошку десять минут.»", "en": "Build the sentence: \"Boil the potatoes for ten minutes.\"" },
@@ -39,7 +39,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-imperative-four-groups-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь инфинитив с повелительным наклонением", "en": "Match the infinitive with its imperative" },
@@ -51,14 +51,14 @@
       ]
     },
     {
-      "id": "q-imperative-four-groups-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Повелительное наклонение всегда является самой короткой формой глагола.", "en": "The imperative is always the shortest form of the verb." },
       "answer": true
     },
     {
-      "id": "q-imperative-four-groups-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Повелительное наклонение группы 2 добавляет окончание -ade.", "en": "The group 2 imperative adds the ending -ade." },

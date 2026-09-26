@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-quantity-mycket-lite-alla-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово подходит к «bilar» (машины, мн. число)?", "en": "Which word fits \"bilar\" (cars, plural)?" },
@@ -16,7 +16,7 @@
       "answer": 1
     },
     {
-      "id": "q-quantity-mycket-lite-alla-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово подходит к «mjölk» (молоко, неисчисляемое)?", "en": "Which word fits \"mjölk\" (milk, uncountable)?" },
@@ -24,7 +24,7 @@
       "answer": 2
     },
     {
-      "id": "q-quantity-mycket-lite-alla-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 3,
       "prompt": { "ru": "Как правильно сказать «нет хлеба» (bröd — ett-слово)?", "en": "How do you correctly say \"no bread\" (bröd is an ett-word)?" },
@@ -32,7 +32,7 @@
       "answer": 1
     },
     {
-      "id": "q-quantity-mycket-lite-alla-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag har ___ bil. (нет, en-слово)" },
@@ -41,7 +41,7 @@
       "hint": { "ru": "согласуется с en-словом", "en": "agrees with an en-word" }
     },
     {
-      "id": "q-quantity-mycket-lite-alla-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det finns ___ äpplen på bordet. (несколько)" },
@@ -50,7 +50,7 @@
       "hint": { "ru": "мн. число, исчисляемое", "en": "plural, countable" }
     },
     {
-      "id": "q-quantity-mycket-lite-alla-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Все дети играют.»", "en": "Build the sentence: \"All children play.\"" },
@@ -58,7 +58,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-quantity-mycket-lite-alla-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово количества с подходящим существительным", "en": "Match the quantifier with the noun it fits" },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": "q-quantity-mycket-lite-alla-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Många» используется с неисчисляемыми существительными, например «många mjölk».", "en": "\"Många\" is used with uncountable nouns, e.g. \"många mjölk\"." },
@@ -78,14 +78,14 @@
       "explanation": { "ru": "«Många» используется только со счётными существительными во мн. числе: «många bilar». С «mjölk» нужно «mycket».", "en": "\"Många\" is only used with countable plural nouns: \"många bilar\". With \"mjölk\" you need \"mycket\"." }
     },
     {
-      "id": "q-quantity-mycket-lite-alla-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Inga» используется во множественном числе для любого рода.", "en": "\"Inga\" is used in the plural, regardless of gender." },
       "answer": true
     },
     {
-      "id": "q-quantity-mycket-lite-alla-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Det finns inga bilar på gatan idag.",

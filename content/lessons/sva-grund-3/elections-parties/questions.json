@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-elections-parties-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Все шведские граждане старше 18 лет могут голосовать.»", "en": "Build the sentence: \"All Swedish citizens over 18 may vote.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 3, 1, 0, 4]
     },
     {
-      "id": "q-elections-parties-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Правительство формируется после выборов.»", "en": "Build the sentence: \"The government is formed after the election.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-elections-parties-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-elections-parties-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "q-elections-parties-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Чтобы попасть в риксдаг, партии достаточно получить хотя бы один голос.", "en": "To enter the Riksdag, a party only needs a single vote." },
@@ -61,14 +61,14 @@
       }
     },
     {
-      "id": "q-elections-parties-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Выборы в риксдаг, регион и коммуну в Швеции проходят одновременно.", "en": "Elections to the Riksdag, the region and the municipality in Sweden are held at the same time." },
       "answer": true
     },
     {
-      "id": "q-elections-parties-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Оппозиция — это партии, которые вошли в правительство.", "en": "The opposition consists of the parties that joined the government." },
@@ -79,14 +79,14 @@
       }
     },
     {
-      "id": "q-elections-parties-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Folkomröstning» — это голосование напрямую по конкретному вопросу.", "en": "\"Folkomröstning\" is a direct vote on a specific question." },
       "answer": true
     },
     {
-      "id": "q-elections-parties-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Riksdagen har 349 ___. (мандатов)" },
@@ -94,7 +94,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-elections-parties-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Flera partier bildade en ___. (коалиция)" },
@@ -102,7 +102,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-elections-parties-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Man lägger sin ___ i ett kuvert. (бюллетень)" },
@@ -110,7 +110,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-elections-parties-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -121,7 +121,7 @@
       "answer": 0
     },
     {
-      "id": "q-elections-parties-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -132,7 +132,7 @@
       "answer": 0
     },
     {
-      "id": "q-elections-parties-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

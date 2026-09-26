@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-emergency-phrases-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой номер экстренных служб в Швеции?", "en": "What is the emergency number in Sweden?" },
@@ -19,7 +19,7 @@
       }
     },
     {
-      "id": "q-emergency-phrases-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -39,14 +39,14 @@
       }
     },
     {
-      "id": "q-emergency-phrases-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Звонок на 112 в Швеции бесплатный.", "en": "Calling 112 in Sweden is free of charge." },
       "answer": true
     },
     {
-      "id": "q-emergency-phrases-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "q-emergency-phrases-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Мне нужна помощь.»", "en": "Build the phrase: \"I need help.\"" },
@@ -68,7 +68,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-emergency-phrases-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Можешь мне помочь?»", "en": "Build the question: \"Can you help me?\"" },
@@ -76,7 +76,7 @@
       "answer": [2, 1, 3, 0]
     },
     {
-      "id": "q-emergency-phrases-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Hjälp! ___ 112!" },
@@ -85,7 +85,7 @@
       "hint": { "ru": "Глагол «звонить» в форме команды.", "en": "The verb \"to call\" in its command form." }
     },
     {
-      "id": "q-emergency-phrases-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 3,
       "prompt": { "ru": "Кто нужен в этой ситуации?", "en": "Which service does each situation need?" },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "q-emergency-phrases-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Det brinner!",

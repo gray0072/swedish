@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-pa-with-days-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Я работаю в понедельник.»", "en": "Build the sentence: \"I work on Monday.\"" },
@@ -15,7 +15,7 @@
       "answer": [2, 1, 0, 3]
     },
     {
-      "id": "q-pa-with-days-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери предложение: «Увидимся в пятницу.»", "en": "Build the sentence: \"See you on Friday.\"" },
@@ -23,7 +23,7 @@
       "answer": [2, 1, 0, 3]
     },
     {
-      "id": "q-pa-with-days-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vi ses ___ lördag." },
@@ -31,7 +31,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-pa-with-days-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag jobbar ___ måndagar." },
@@ -40,7 +40,7 @@
       "hint": { "ru": "«Каждый понедельник» — тоже с этим словом.", "en": "\"Every Monday\" also takes this word." }
     },
     {
-      "id": "q-pa-with-days-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «по понедельникам» (каждую неделю)?", "en": "How do you say \"on Mondays\" (every week)?" },
@@ -48,7 +48,7 @@
       "answer": 1
     },
     {
-      "id": "q-pa-with-days-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что значит «på fredag»?", "en": "What does \"på fredag\" mean?" },
@@ -56,14 +56,14 @@
       "answer": 0
     },
     {
-      "id": "q-pa-with-days-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«på måndagar» значит «каждый понедельник».", "en": "\"på måndagar\" means \"every Monday\"." },
       "answer": true
     },
     {
-      "id": "q-pa-with-days-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Слово «på» подходит только для некоторых дней недели, а не для всех.", "en": "The word \"på\" only works with some days of the week, not all of them." },
@@ -71,7 +71,7 @@
       "explanation": { "ru": "«på» подходит перед любым днём недели.", "en": "\"på\" works before any day of the week." }
     },
     {
-      "id": "q-pa-with-days-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь день недели с «på»-формой", "en": "Match the day with its \"på\" form" },

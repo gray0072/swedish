@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-modality-certainty-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое из этих слов выражает самую сильную уверенность?", "en": "Which of these words expresses the strongest certainty?" },
@@ -13,7 +13,7 @@
       "answer": 2
     },
     {
-      "id": "q-modality-certainty-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Han lär ha flyttat till Stockholm» — откуда информация?", "en": "\"Han lär ha flyttat till Stockholm\" — where does the information come from?" },
@@ -25,7 +25,7 @@
       "answer": 1
     },
     {
-      "id": "q-modality-certainty-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Где типично встречается `torde`?", "en": "Where is `torde` typically found?" },
@@ -37,7 +37,7 @@
       "answer": 1
     },
     {
-      "id": "q-modality-certainty-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Расставь по убыванию уверенности: borde, kanske, måste.", "en": "Rank these from most to least certain: borde, kanske, måste." },
@@ -45,31 +45,31 @@
       "answer": 0
     },
     {
-      "id": "q-modality-certainty-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hon ___ vara hemma nu, lampan är tänd. (почти уверен, сильный вывод)" },
       "answer": ["måste"]
     },
     {
-      "id": "q-modality-certainty-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Hon ___ vara hemma nu, klockan är sex. (ожидаемо, но не полная уверенность)" },
       "answer": ["borde"]
     },
     {
-      "id": "q-modality-certainty-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Det ___ bli regn imorgon. (говорят, что...)" },
       "answer": ["lär"]
     },
     {
-      "id": "q-modality-certainty-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "Priset ___ stiga nästa år. (книжн., осторожное предположение)" },
       "answer": ["torde"]
     },
     {
-      "id": "q-modality-certainty-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "`Kanske` выражает более сильную уверенность, чем `måste`.", "en": "`Kanske` expresses stronger certainty than `måste`." },
@@ -77,14 +77,14 @@
       "explanation": { "ru": "Наоборот: `måste` — почти уверенность, `kanske` — чистое предположение.", "en": "It's the opposite: `måste` is near-certainty, `kanske` is pure speculation." }
     },
     {
-      "id": "q-modality-certainty-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "`Lär` в этом значении связано с информацией из чужих слов, а не с личным наблюдением говорящего.", "en": "In this meaning, `lär` is tied to information from someone else's words, not the speaker's own observation." },
       "answer": true
     },
     {
-      "id": "q-modality-certainty-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "`Torde` — это обычное слово повседневной устной речи.", "en": "`Torde` is an everyday word in casual speech." },
@@ -92,7 +92,7 @@
       "explanation": { "ru": "`Torde` — книжная, официальная форма, редкая в устной речи.", "en": "`Torde` is a formal, written form, rare in speech." }
     },
     {
-      "id": "q-modality-certainty-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Она, должно быть, дома, свет горит.»", "en": "Build the sentence: \"She must be home, the light is on.\"" },
@@ -100,7 +100,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "q-modality-certainty-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь модальное слово со степенью уверенности", "en": "Match the modal word with its degree of certainty" },

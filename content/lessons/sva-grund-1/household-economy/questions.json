@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-household-economy-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Аренда — наш самый большой расход.»", "en": "Build the sentence: \"Rent is our biggest expense.\"" },
@@ -18,7 +18,7 @@
       "answer": [4, 1, 3, 0, 2]
     },
     {
-      "id": "q-household-economy-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я плачу за аренду через автоплатёж.»", "en": "Build the sentence: \"I pay the rent via direct debit.\"" },
@@ -26,7 +26,7 @@
       "answer": [4, 2, 1, 0, 3]
     },
     {
-      "id": "q-household-economy-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-household-economy-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Förfallodag» — это день, когда пришла зарплата.", "en": "\"Förfallodag\" is the day your salary arrives." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-household-economy-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Autogiro» позволяет банку автоматически списывать деньги для оплаты счетов.", "en": "\"Autogiro\" lets the bank automatically withdraw money to pay bills." },
       "answer": true
     },
     {
-      "id": "q-household-economy-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Räkningen ___ om tio dagar. (наступает срок)" },
@@ -64,7 +64,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-household-economy-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag sätter in pengar på ___ varje månad. (сберегательный счёт)" },
@@ -72,7 +72,7 @@
       "acceptAlso": ["sparkonto"]
     },
     {
-      "id": "q-household-economy-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-household-economy-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

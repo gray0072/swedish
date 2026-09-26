@@ -17,6 +17,7 @@ import type { StudyLanguage } from '@/content/schema';
 import { REWARDS, STREAK } from '@/city/economy';
 import { getActivePerks } from '@/city/perks';
 import { mergeSaves } from './cloudSync';
+import { pruneUnknownIds } from './pruneSave';
 
 function dateAddDays(dateStr: string, delta: number): string {
   const d = new Date(dateStr + 'T00:00:00Z');
@@ -129,14 +130,15 @@ export function toSaveFile(state: AppState): SaveFile {
 }
 
 // zustand's `persist` JSON-serializes state on every write and parses on load; we route both
-// through migrateSave() so a save from an older app version upgrades instead of getting dropped.
+// through migrateSave() so a save from an older app version upgrades instead of getting dropped,
+// then pruneUnknownIds() so ids the current content no longer has are dropped.
 const storage: PersistStorage<AppState> = {
   getItem: (name) => {
     const raw = localStorage.getItem(name);
     if (!raw) return null;
     try {
       const parsedOuter = JSON.parse(raw) as { state: unknown; version: number };
-      const migrated = migrateSave(parsedOuter.state);
+      const migrated = pruneUnknownIds(migrateSave(parsedOuter.state));
       return { state: migrated, version: SAVE_VERSION } as StorageValue<AppState>;
     } catch {
       return null;
@@ -331,7 +333,7 @@ export const useAppStore = create<AppState>()(
 
       importSave: (raw) => {
         try {
-          const migrated = migrateSave(raw);
+          const migrated = pruneUnknownIds(migrateSave(raw));
           set(migrated);
           return true;
         } catch {
@@ -341,7 +343,7 @@ export const useAppStore = create<AppState>()(
 
       mergeWithCloud: (remote) => {
         try {
-          const merged = mergeSaves(toSaveFile(get()), migrateSave(remote));
+          const merged = mergeSaves(toSaveFile(get()), pruneUnknownIds(migrateSave(remote)));
           set(merged);
           return merged;
         } catch {

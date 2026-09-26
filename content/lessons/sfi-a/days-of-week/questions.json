@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-days-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Расставь дни по порядку начиная с понедельника", "en": "Order the days starting from Monday" },
@@ -17,7 +17,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-days-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь дни недели с переводом", "en": "Match the days with their translation" },
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "id": "q-days-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Шведская неделя начинается с воскресенья.", "en": "The Swedish week starts on Sunday." },
@@ -37,7 +37,7 @@
       "explanation": { "ru": "Неделя начинается с понедельника — «måndag».", "en": "The week starts on Monday — \"måndag\"." }
     },
     {
-      "id": "q-days-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -47,14 +47,14 @@
       "answer": true
     },
     {
-      "id": "q-days-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Vi ses på ___! (в пятницу)" },
       "answer": ["fredag"],
       "acceptAlso": []
     },
     {
-      "id": "q-days-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой день идёт сразу после «onsdag»?", "en": "Which day comes right after \"onsdag\"?" },

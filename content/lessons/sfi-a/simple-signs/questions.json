@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-simple-signs-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вывески-противоположности", "en": "Match each sign with its opposite" },
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "id": "q-simple-signs-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«STÄNGT» значит «открыто».", "en": "\"STÄNGT\" means \"open\"." },
@@ -30,7 +30,7 @@
       }
     },
     {
-      "id": "q-simple-signs-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "q-simple-signs-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "На двери написано TRYCK. Что ты делаешь?", "en": "The door says TRYCK. What do you do?" },
@@ -57,7 +57,7 @@
       "answer": 0
     },
     {
-      "id": "q-simple-signs-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Тебе нужен туалет. Какую вывеску ты ищешь?", "en": "You need a toilet. Which sign do you look for?" },
@@ -65,7 +65,7 @@
       "answer": 0
     },
     {
-      "id": "q-simple-signs-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что значит RÖKNING FÖRBJUDEN?", "en": "What does RÖKNING FÖRBJUDEN mean?" },
@@ -78,7 +78,7 @@
       "answer": 0
     },
     {
-      "id": "q-simple-signs-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är ___ på söndagar." },
@@ -87,7 +87,7 @@
       "hint": { "ru": "По воскресеньям магазин не работает.", "en": "On Sundays the shop does not open." }
     },
     {
-      "id": "q-simple-signs-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Где туалет?»", "en": "Build the question: \"Where is the toilet?\"" },
@@ -95,7 +95,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-simple-signs-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "nödutgång",

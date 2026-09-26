@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-indirect-question-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как вежливо спросить, где вокзал?", "en": "How do you politely ask where the station is?" },
@@ -14,14 +14,14 @@
       "answer": 0
     },
     {
-      "id": "q-indirect-question-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В косвенном вопросе без вопросительного слова используется союз «om».", "en": "An embedded yes/no question with no question word uses the conjunction \"om\"." },
       "answer": true
     },
     {
-      "id": "q-indirect-question-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Vet du var stationen är?» использует такой же порядок слов, как прямой вопрос «Var är stationen?»", "en": "\"Vet du var stationen är?\" uses the same word order as the direct question \"Var är stationen?\"" },
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "q-indirect-question-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Можешь сказать, открыт ли магазин?»", "en": "Build the sentence: \"Can you say if the shop is open?\"" },
@@ -40,7 +40,7 @@
       "answer": [2, 4, 0, 3, 1, 5, 6]
     },
     {
-      "id": "q-indirect-question-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag undrar ___ hon kommer." },
@@ -49,7 +49,7 @@
       "hint": { "ru": "ли", "en": "if/whether" }
     },
     {
-      "id": "q-indirect-question-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь вопрос и его смысл", "en": "Match the question with its meaning" },
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "q-indirect-question-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Vet du var jag kan parkera?",

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-perfect-har-supinum-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое время подходит для «Igår ___ jag boken.»?", "en": "Which tense fits \"Igår ___ jag boken.\"?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-perfect-har-supinum-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что выражает перфект (har + supinum)?", "en": "What does the perfect (har + supinum) express?" },
@@ -27,7 +27,7 @@
       "answer": 1
     },
     {
-      "id": "q-perfect-har-supinum-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово чаще всего сочетается с претеритом, а не с перфектом?", "en": "Which word usually pairs with the preterite, not the perfect?" },
@@ -35,7 +35,7 @@
       "answer": 2
     },
     {
-      "id": "q-perfect-har-supinum-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Jag har redan ___ boken. (läsa)" },
@@ -44,7 +44,7 @@
       "hint": { "ru": "супин от «läsa»", "en": "supine of \"läsa\"" }
     },
     {
-      "id": "q-perfect-har-supinum-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ___ boken igår. (läsa)" },
@@ -53,7 +53,7 @@
       "hint": { "ru": "претерит: конкретный момент в прошлом", "en": "preterite: a specific point in the past" }
     },
     {
-      "id": "q-perfect-har-supinum-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Она никогда не была в Испании.»", "en": "Build the sentence: \"She has never been to Spain.\"" },
@@ -61,7 +61,7 @@
       "answer": [3, 2, 1, 0, 4]
     },
     {
-      "id": "q-perfect-har-supinum-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с её временем", "en": "Match the phrase with its tense" },
@@ -73,14 +73,14 @@
       ]
     },
     {
-      "id": "q-perfect-har-supinum-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Jag har läst boken» подчёркивает результат, важный сейчас.", "en": "\"Jag har läst boken\" emphasizes a result relevant now." },
       "answer": true
     },
     {
-      "id": "q-perfect-har-supinum-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Jag har läst boken igår» — правильное предложение.", "en": "\"Jag har läst boken igår\" is a correct sentence." },
@@ -88,7 +88,7 @@
       "explanation": { "ru": "С конкретным указанием времени («igår») используется претерит: «Jag läste boken igår».", "en": "With a specific time word (\"igår\") you use the preterite: \"Jag läste boken igår\"." }
     },
     {
-      "id": "q-perfect-har-supinum-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Jag har redan läst boken, men igår läste jag bara några sidor.",

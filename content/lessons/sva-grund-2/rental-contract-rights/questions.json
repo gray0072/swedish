@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-rental-contract-rights-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Арендодатель отвечает за содержание дома.»", "en": "Build the sentence: \"The landlord is responsible for maintaining the property.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 1, 4, 0, 2]
     },
     {
-      "id": "q-rental-contract-rights-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Уведомление о расторжении должно быть в письменной форме.»", "en": "Build the sentence: \"The termination must be in writing.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-rental-contract-rights-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-rental-contract-rights-match-2",
+      "id": "match-2",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-rental-contract-rights-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Besittningsskydd» защищает нанимателя от произвольного выселения.", "en": "\"Besittningsskydd\" protects the tenant from arbitrary eviction." },
       "answer": true
     },
     {
-      "id": "q-rental-contract-rights-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Underhållsskyldighet» — это обязанность нанимателя платить арендную плату вовремя.", "en": "\"Underhållsskyldighet\" is the tenant's duty to pay rent on time." },
@@ -68,14 +68,14 @@
       }
     },
     {
-      "id": "q-rental-contract-rights-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Förverkande» означает, что наниматель теряет право на жильё за грубое нарушение договора.", "en": "\"Förverkande\" means the tenant loses the right to the tenancy for a serious breach of contract." },
       "answer": true
     },
     {
-      "id": "q-rental-contract-rights-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Grannarna anmälde upprepade ___. (нарушения спокойствия)" },
@@ -83,7 +83,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-rental-contract-rights-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du har rätt att betala en ___ hyra. (разумную)" },
@@ -91,7 +91,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-rental-contract-rights-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Anmäl felet så bokar hyresvärden en ___. (ремонт)" },
@@ -99,7 +99,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-rental-contract-rights-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -110,7 +110,7 @@
       "answer": 0
     },
     {
-      "id": "q-rental-contract-rights-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -121,7 +121,7 @@
       "answer": 0
     },
     {
-      "id": "q-rental-contract-rights-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -132,7 +132,7 @@
       "answer": 0
     },
     {
-      "id": "q-rental-contract-rights-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "ru": "Переведи на шведский: «Правила проживания вывешены в подъезде.»", "en": "Translate to Swedish: \"The house rules are posted in the stairwell.\"" },

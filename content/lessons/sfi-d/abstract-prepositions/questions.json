@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-abstract-prepositions-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какой предлог указывает на что-то предстоящее, например экзамен?", "en": "Which preposition points ahead to something upcoming, like an exam?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-abstract-prepositions-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как сказать «довольный результатом»?", "en": "How do you say \"pleased with the result\"?" },
@@ -22,7 +22,7 @@
       "answer": 0
     },
     {
-      "id": "q-abstract-prepositions-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon är rädd ___ spindlar. (боится)" },
@@ -30,7 +30,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-abstract-prepositions-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мы говорили о выходных.»", "en": "Build the sentence: \"We talked about the weekend.\"" },
@@ -38,7 +38,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-abstract-prepositions-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "id": "q-abstract-prepositions-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Vänta på» значит «ждать чего-то/кого-то».", "en": "\"Vänta på\" means \"to wait for\"." },
       "answer": true
     },
     {
-      "id": "q-abstract-prepositions-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Все шведские предлоги в устойчивых выражениях совпадают с их русскими эквивалентами.", "en": "All Swedish prepositions in fixed expressions match their equivalents in other languages exactly." },

@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-narrative-tense-aspect-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое «historiskt presens»?", "en": "What is \"historiskt presens\"?" },
@@ -18,7 +18,7 @@
       "answer": 0
     },
     {
-      "id": "q-narrative-tense-aspect-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "«Det är år 1863. Kungen reser till huvudstaden.» — как читатель понимает, что речь о прошлом?", "en": "\"Det är år 1863. Kungen reser till huvudstaden.\" — how does the reader know this is about the past?" },
@@ -30,7 +30,7 @@
       "answer": 0
     },
     {
-      "id": "q-narrative-tense-aspect-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Зачем автор может переключаться с претерита на историческое настоящее в кульминационный момент?", "en": "Why might a writer switch from the preterite to the historical present at the climactic moment?" },
@@ -42,7 +42,7 @@
       "answer": 0
     },
     {
-      "id": "q-narrative-tense-aspect-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Какое предложение — пример исторического настоящего?", "en": "Which sentence is an example of the historical present?" },
@@ -50,25 +50,25 @@
       "answer": 1
     },
     {
-      "id": "q-narrative-tense-aspect-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Han gick länge i skogen. Plötsligt ___ han ett ljud bakom sig. (презенс от höra)" },
       "answer": ["hör"]
     },
     {
-      "id": "q-narrative-tense-aspect-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Det ___ år 1863. Kungen reser till huvudstaden. (презенс от vara)" },
       "answer": ["är"]
     },
     {
-      "id": "q-narrative-tense-aspect-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Kungen ___ till huvudstaden 1863 och möttes av jublande folkmassor. (претерит от resa)" },
       "answer": ["reste"]
     },
     {
-      "id": "q-narrative-tense-aspect-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Историческое настоящее меняет фактическое значение — событие на самом деле происходит сейчас.", "en": "The historical present changes the actual meaning — the event is really happening now." },
@@ -76,14 +76,14 @@
       "explanation": { "ru": "Сдвиг чисто стилистический: факт остаётся в прошлом, меняется только форма подачи.", "en": "The shift is purely stylistic: the fact stays in the past, only the presentation changes." }
     },
     {
-      "id": "q-narrative-tense-aspect-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Историческое настоящее часто встречается в художественной литературе и устных рассказах.", "en": "The historical present is common in literary fiction and oral storytelling." },
       "answer": true
     },
     {
-      "id": "q-narrative-tense-aspect-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В одном и том же отрывке нельзя сочетать претерит и историческое настоящее.", "en": "The preterite and the historical present cannot be combined within the same passage." },
@@ -91,7 +91,7 @@
       "explanation": { "ru": "Можно и даже приветствуется: фон — в претерите, кульминация — в историческом настоящем.", "en": "They can be combined, and it's even a common technique: background in the preterite, climax in the historical present." }
     },
     {
-      "id": "q-narrative-tense-aspect-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": { "ru": "Собери предложение: «Он долго шёл по лесу. Вдруг он слышит звук позади себя.»", "en": "Build the sentence: \"He walked in the forest for a long time. Suddenly he hears a sound behind him.\"" },
@@ -99,7 +99,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     },
     {
-      "id": "q-narrative-tense-aspect-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь форму времени с её ролью в повествовании", "en": "Match the tense form with its narrative role" },
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": "q-narrative-tense-aspect-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Историческое настоящее чаще встречается в...", "en": "The historical present is more often found in..." },

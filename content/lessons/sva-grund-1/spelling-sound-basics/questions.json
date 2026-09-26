@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-spelling-sound-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое правило описывает пару «vit» / «vitt»?", "en": "Which rule describes the pair \"vit\" / \"vitt\"?" },
@@ -17,7 +17,7 @@
       "answer": 0
     },
     {
-      "id": "q-spelling-sound-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Почему в «sitta» (сидеть) пишется двойная «t»?", "en": "Why does \"sitta\" (to sit) have a doubled t?" },
@@ -29,14 +29,14 @@
       "answer": 0
     },
     {
-      "id": "q-spelling-sound-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Правило долготы гласного/удвоения согласной действует внутри ударного слога.", "en": "The vowel-length/consonant-doubling rule applies within the stressed syllable." },
       "answer": true
     },
     {
-      "id": "q-spelling-sound-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "У правила долготы гласного/удвоения согласной вообще нет исключений.", "en": "The vowel-length/consonant-doubling rule has no exceptions at all." },
@@ -47,7 +47,7 @@
       }
     },
     {
-      "id": "q-spelling-sound-basics-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Сравни «mat» (еда) и «matt» (матовый) — в чём разница?", "en": "Compare \"mat\" (food) and \"matt\" (matte) — what's the difference?" },
@@ -59,7 +59,7 @@
       "answer": 0
     },
     {
-      "id": "q-spelling-sound-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери слово-пару в правильном порядке смысла: краткий → двойная согласная.", "en": "Order matches the pattern: short vowel → doubled consonant." },
@@ -67,13 +67,13 @@
       "answer": [0, 1, 2, 3]
     },
     {
-      "id": "q-spelling-sound-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Hunden si___ mjölken genom en duk. (процеживать, долгий гласный – одна согласная)" },
       "answer": ["lar"]
     },
     {
-      "id": "q-spelling-sound-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с типом гласного/согласной", "en": "Match the word with its vowel/consonant type" },

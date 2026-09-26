@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-modal-verbs-preterite-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой претерит у «kan»?", "en": "What is the preterite of \"kan\"?" },
@@ -14,7 +14,7 @@
       "answer": 0
     },
     {
-      "id": "q-modal-verbs-preterite-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какой претерит у «får»?", "en": "What is the preterite of \"får\"?" },
@@ -22,14 +22,14 @@
       "answer": 0
     },
     {
-      "id": "q-modal-verbs-preterite-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Претерит «skulle» происходит от «ska».", "en": "The preterite \"skulle\" comes from \"ska\"." },
       "answer": true
     },
     {
-      "id": "q-modal-verbs-preterite-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "После модального глагола в претерите инфинитив требует «att».", "en": "After a modal verb in the preterite, the infinitive requires \"att\"." },
@@ -40,7 +40,7 @@
       }
     },
     {
-      "id": "q-modal-verbs-preterite-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Я не мог уснуть.»", "en": "Build the sentence: \"I couldn't sleep.\"" },
@@ -48,7 +48,7 @@
       "answer": [2, 0, 3, 1]
     },
     {
-      "id": "q-modal-verbs-preterite-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hon ___ åka hem tidigt." },
@@ -57,7 +57,7 @@
       "hint": { "ru": "хотела", "en": "wanted to" }
     },
     {
-      "id": "q-modal-verbs-preterite-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь настоящее время и претерит", "en": "Match the present tense with the preterite" },
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": "q-modal-verbs-preterite-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Han fick låna min cykel igår.",

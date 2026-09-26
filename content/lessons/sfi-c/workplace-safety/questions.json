@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-safety-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Кто-нибудь пострадал?»", "en": "Build the sentence: \"Is anyone injured?\"" },
@@ -14,7 +14,7 @@
       "answer": [1, 2, 0]
     },
     {
-      "id": "q-safety-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Надень каску, прежде чем войти.»", "en": "Build the sentence: \"Put on the helmet before you go in.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 0, 6, 1, 2, 4, 5]
     },
     {
-      "id": "q-safety-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь снаряжение с переводом", "en": "Match the equipment with its translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "q-safety-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "id": "q-safety-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -58,7 +58,7 @@
       "answer": true
     },
     {
-      "id": "q-safety-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Du måste ___ en olycka direkt. (сообщить)" },
@@ -66,7 +66,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-safety-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -77,7 +77,7 @@
       "answer": 0
     },
     {
-      "id": "q-safety-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Är någon skadad?",
@@ -91,7 +91,7 @@
       "answer": 0
     },
     {
-      "id": "q-safety-type-1",
+      "id": "type-1",
       "type": "type-answer",
       "difficulty": 2,
       "prompt": { "en": "How do you say \"first aid\" in Swedish?", "ru": "Как сказать по-шведски «первая помощь»?" },

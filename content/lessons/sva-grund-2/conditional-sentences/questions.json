@@ -5,28 +5,28 @@
   ],
   "items": [
     {
-      "id": "q-conditional-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Om det regnar ___ jag hemma. (stanna)" },
       "answer": ["stannar"],
       "acceptAlso": []
     },
     {
-      "id": "q-conditional-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Om jag ___ tid skulle jag resa mer. (ha)" },
       "answer": ["hade"],
       "acceptAlso": []
     },
     {
-      "id": "q-conditional-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "Om han visste svaret ___ han säga det. (skola)" },
       "answer": ["skulle"],
       "acceptAlso": []
     },
     {
-      "id": "q-conditional-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -40,7 +40,7 @@
       "answer": 0
     },
     {
-      "id": "q-conditional-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -54,7 +54,7 @@
       "answer": 1
     },
     {
-      "id": "q-conditional-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": {
         "ru": "В нереальном условии претерит (`hade`, `visste`) означает, что действие было в прошлом.",
@@ -67,13 +67,13 @@
       }
     },
     {
-      "id": "q-conditional-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "В реальном условии главное предложение может стоять в презенсе вместо `ska`.", "en": "In a real condition, the main clause can use the present tense instead of `ska`." },
       "answer": true
     },
     {
-      "id": "q-conditional-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Если у меня будет время, я тебе позвоню.»", "en": "Build the sentence: \"If I have time, I'll call you.\"" },
@@ -81,7 +81,7 @@
       "answer": [0, 1, 2, 3, 4, 5, 6, 7]
     },
     {
-      "id": "q-conditional-match-1",
+      "id": "match-1",
       "type": "match",
       "prompt": { "ru": "Сопоставь тип условия с его грамматикой", "en": "Match the condition type with its grammar" },
       "pairs": [
@@ -90,14 +90,14 @@
       ]
     },
     {
-      "id": "q-conditional-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "___ det regnar stannar jag hemma." },
       "answer": ["Om"],
       "acceptAlso": []
     },
     {
-      "id": "q-conditional-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "prompt": { "ru": "Где обычно стоит главный глагол сразу после om-придаточного, если оно стоит первым?", "en": "Where does the main verb typically go right after a fronted om-clause?" },
       "choices": [

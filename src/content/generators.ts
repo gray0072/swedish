@@ -69,7 +69,7 @@ function genSvToNativeMc(vocab: VocabItem[], lessonId: string): Question[] {
     const distractors = pickDistractors(vocab, item, 3);
     if (distractors.length < 3) continue;
     out.push({
-      id: `gen-${lessonId}-sv2n-${item.id}`,
+      id: `${lessonId}/gen-sv2n-${item.id}`,
       type: 'mc',
       difficulty: 1,
       tags: ['generated', 'sv-to-native'],
@@ -94,7 +94,7 @@ function genNativeToSvMc(vocab: VocabItem[], lessonId: string): Question[] {
     const distractors = pickDistractors(vocab, item, 3);
     if (distractors.length < 3) continue;
     out.push({
-      id: `gen-${lessonId}-n2sv-${item.id}`,
+      id: `${lessonId}/gen-n2sv-${item.id}`,
       type: 'mc',
       difficulty: 2,
       tags: ['generated', 'native-to-sv'],
@@ -112,7 +112,7 @@ function genNativeToSvMc(vocab: VocabItem[], lessonId: string): Question[] {
 
 function genTypeAnswer(vocab: VocabItem[], lessonId: string): Question[] {
   return vocab.map((item) => ({
-    id: `gen-${lessonId}-type-${item.id}`,
+    id: `${lessonId}/gen-type-${item.id}`,
     type: 'type-answer' as const,
     difficulty: 2,
     tags: ['generated', 'type-answer'],
@@ -132,7 +132,7 @@ function genListenMc(vocab: VocabItem[], lessonId: string): Question[] {
     const distractors = pickDistractors(vocab, item, 3);
     if (distractors.length < 3) continue;
     out.push({
-      id: `gen-${lessonId}-listen-${item.id}`,
+      id: `${lessonId}/gen-listen-${item.id}`,
       type: 'listen',
       difficulty: 2,
       tags: ['generated', 'listen'],
@@ -150,7 +150,7 @@ function genArticle(vocab: VocabItem[], lessonId: string): Question[] {
   return vocab
     .filter((v) => v.pos === 'noun' && v.gender)
     .map((item) => ({
-      id: `gen-${lessonId}-article-${item.id}`,
+      id: `${lessonId}/gen-article-${item.id}`,
       type: 'mc' as const,
       difficulty: 2,
       tags: ['generated', 'article'],
@@ -170,7 +170,7 @@ function genPlural(vocab: VocabItem[], lessonId: string): Question[] {
     .map((item) => {
       const forms = item.forms as { indefPl: string };
       return {
-        id: `gen-${lessonId}-plural-${item.id}`,
+        id: `${lessonId}/gen-plural-${item.id}`,
         type: 'type-answer' as const,
         difficulty: 3,
         tags: ['generated', 'plural'],
@@ -202,7 +202,7 @@ function genVerbForm(
       const value = forms[target];
       if (!value) continue;
       out.push({
-        id: `gen-${lessonId}-verb-${target}-${item.id}`,
+        id: `${lessonId}/gen-verb-${target}-${item.id}`,
         type: 'type-answer',
         difficulty: 3,
         tags: ['generated', 'verb-form', target],

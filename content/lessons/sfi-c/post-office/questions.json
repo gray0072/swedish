@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-post-office-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Мне нужна марка на это письмо.»", "en": "Build the sentence: \"I need a stamp for this letter.\"" },
@@ -14,7 +14,7 @@
       "answer": [3, 2, 0, 4, 5, 1, 6]
     },
     {
-      "id": "q-post-office-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Опусти письмо в почтовый ящик.»", "en": "Build the sentence: \"Put the letter in the postbox.\"" },
@@ -22,7 +22,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-post-office-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова с переводом", "en": "Match the words with their translation" },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": "q-post-office-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -48,7 +48,7 @@
       }
     },
     {
-      "id": "q-post-office-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": {
@@ -58,7 +58,7 @@
       "answer": true
     },
     {
-      "id": "q-post-office-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag ska ___ ut ett paket på postombudet. (забрать)" },
@@ -66,7 +66,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-post-office-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Portot beror på paketets ___. (вес)" },
@@ -74,7 +74,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-post-office-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -90,7 +90,7 @@
       "answer": 0
     },
     {
-      "id": "q-post-office-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

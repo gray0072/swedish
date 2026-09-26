@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-household-chores-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Сложи бельё и убери его в шкаф.»", "en": "Build the sentence: \"Fold the laundry and put it in the wardrobe.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 5, 0, 4, 1, 6, 3]
     },
     {
-      "id": "q-household-chores-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Не забудь вынести мусор сегодня вечером.»", "en": "Build the sentence: \"Remember to take out the trash tonight.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 5, 1, 4, 3, 0]
     },
     {
-      "id": "q-household-chores-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь бытовую технику и предметы с переводом", "en": "Match the household appliances and items with their translation" },
@@ -38,14 +38,14 @@
       ]
     },
     {
-      "id": "q-household-chores-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Diska» значит мыть посуду, а не стирать одежду.", "en": "\"Diska\" means to wash the dishes, not to do laundry." },
       "answer": true
     },
     {
-      "id": "q-household-chores-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ren» и «smutsig» — синонимы, оба значат «грязный».", "en": "\"Ren\" and \"smutsig\" are synonyms, both meaning \"dirty\"." },
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "q-household-chores-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "___ sängen innan du går till skolan. (заправь)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["bädda"]
     },
     {
-      "id": "q-household-chores-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Glöm inte att ___ soporna ikväll. (выбросить)" },
@@ -72,7 +72,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-household-chores-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 1
     },
     {
-      "id": "q-household-chores-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 3,
       "prompt": {

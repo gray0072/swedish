@@ -5,7 +5,7 @@
   ],
   "items": [
     {
-      "id": "q-complex-compounds-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "С какого элемента лучше всего начинать разбор длинного сложного слова?", "en": "Which element is the best place to start parsing a long compound?" },
@@ -13,7 +13,7 @@
       "answer": 1
     },
     {
-      "id": "q-complex-compounds-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое слово — главный элемент в «arbetsmarknadspolitik»?", "en": "Which word is the head element in \"arbetsmarknadspolitik\"?" },
@@ -21,7 +21,7 @@
       "answer": 2
     },
     {
-      "id": "q-complex-compounds-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что задаёт главный (последний) элемент сложного слова?", "en": "What does the head (last) element of a compound determine?" },
@@ -33,7 +33,7 @@
       "answer": 0
     },
     {
-      "id": "q-complex-compounds-mc-4",
+      "id": "mc-4",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Как перевести «sjukvårdspersonal»?", "en": "How do you translate \"sjukvårdspersonal\"?" },
@@ -45,19 +45,19 @@
       "answer": 0
     },
     {
-      "id": "q-complex-compounds-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "arbets___spolitik – политика на рынке труда (недостающий элемент)" },
       "answer": ["marknad"]
     },
     {
-      "id": "q-complex-compounds-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "sjuk___spersonal – медицинский персонал (недостающий элемент, «уход»)" },
       "answer": ["vård"]
     },
     {
-      "id": "q-complex-compounds-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Главный элемент сложного слова стоит в начале слова.", "en": "The head element of a compound comes at the start of the word." },
@@ -65,14 +65,14 @@
       "explanation": { "ru": "Наоборот — главный элемент стоит в конце слова.", "en": "The opposite is true — the head element comes at the end of the word." }
     },
     {
-      "id": "q-complex-compounds-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Многочастные композиты разбираются по тому же принципу, что и двухчастные, только элементов больше.", "en": "Multi-part compounds are parsed by the same principle as two-part ones, just with more elements." },
       "answer": true
     },
     {
-      "id": "q-complex-compounds-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "Соединительное -s- между элементами — это отдельное слово со своим значением.", "en": "The linking -s- between elements is a separate word with its own meaning." },
@@ -80,7 +80,7 @@
       "explanation": { "ru": "Это просто соединительный элемент («шов»), не отдельное слово.", "en": "It's just a connecting element (a \"seam\"), not a separate word." }
     },
     {
-      "id": "q-complex-compounds-tf-4",
+      "id": "tf-4",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Слово «politiker» означает то же самое, что множественное число слова «politik».", "en": "The word \"politiker\" means the same as the plural of \"politik\"." },
@@ -88,7 +88,7 @@
       "explanation": { "ru": "«En politiker» — это «политик, человек», а не форма множественного числа от «politik» (политика, которое обычно не имеет мн. числа).", "en": "\"En politiker\" means \"a politician\", not the plural of \"politik\" (policy, which usually has no plural)." }
     },
     {
-      "id": "q-complex-compounds-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери разбор справа налево для «arbetsmarknadspolitik»: главное слово → первое уточнение → второе уточнение.", "en": "Build the right-to-left breakdown of \"arbetsmarknadspolitik\": head word → first modifier → second modifier." },
@@ -96,7 +96,7 @@
       "answer": [0, 1, 2]
     },
     {
-      "id": "q-complex-compounds-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь сложное слово с его переводом", "en": "Match the compound with its translation" },
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "id": "q-complex-compounds-mc-5",
+      "id": "mc-5",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Главный элемент в «konsumentskyddslagstiftning» — это...", "en": "The head element in \"konsumentskyddslagstiftning\" is..." },

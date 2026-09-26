@@ -7,7 +7,7 @@
   ],
   "items": [
     {
-      "id": "q-personal-pronouns-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь местоимение с переводом", "en": "Match the pronoun with its translation" },
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "id": "q-personal-pronouns-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Он работает в Стокгольме.»", "en": "Build the sentence: \"He works in Stockholm.\"" },
@@ -27,34 +27,34 @@
       "answer": [1, 0, 2, 3]
     },
     {
-      "id": "q-personal-pronouns-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "___ heter Ali. (я)" },
       "answer": ["Jag"],
       "acceptAlso": ["jag"]
     },
     {
-      "id": "q-personal-pronouns-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "___ bor i Sverige. (мы)" },
       "answer": ["Vi"],
       "acceptAlso": ["vi"]
     },
     {
-      "id": "q-personal-pronouns-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "Слово «de» произносится так же, как пишется — «де».", "en": "\"De\" is pronounced exactly as it's spelled." },
       "answer": false,
       "explanation": { "ru": "«de» произносится как «дом».", "en": "\"de\" is pronounced like \"dom\"." }
     },
     {
-      "id": "q-personal-pronouns-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "«Ni» может значить и «ты» вежливо, и «вы» — много человек.", "en": "\"Ni\" can mean either a polite \"you\" or \"you\" to several people." },
       "answer": true
     },
     {
-      "id": "q-personal-pronouns-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как по-шведски «она»?", "en": "What's \"she\" in Swedish?" },
@@ -62,7 +62,7 @@
       "answer": 0
     },
     {
-      "id": "q-personal-pronouns-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Каким словом заменишь ett-слово, например «huset»?", "en": "Which word replaces an ett-word, e.g. \"huset\"?" },

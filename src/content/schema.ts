@@ -70,7 +70,7 @@ export const lessonPartSchema = z.object({
 });
 
 export const lessonMetaSchema = z.object({
-  id: z.string(), // "sfi-a/greetings"
+  id: z.string(), // "<level>/<slug>" — must match the folder, e.g. "sfi-a/greetings"
   slug: z.string(),
   title: localizedStringSchema,
   summary: localizedStringSchema.optional(),
@@ -163,8 +163,13 @@ export const vocabFileSchema = z.object({
 // Questions
 // ---------------------------------------------------------------------------
 
+// A handwritten question's id is local to its lesson — `<type>-<n>`, e.g. `mc-3`, `gap-1`.
+// The loader namespaces it as `<level>/<slug>/<local>` ("sfi-a/greetings/mc-3"), the one id
+// format the SRS deck and the save file see; generated questions use `<level>/<slug>/gen-…`.
+export const LOCAL_QUESTION_ID = /^[a-z]+-\d+$/;
+
 const baseQuestion = {
-  id: z.string(),
+  id: z.string().regex(LOCAL_QUESTION_ID, 'Question id must be local to the lesson: <type>-<n>, e.g. "mc-3"'),
   difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]).default(1),
   tags: z.array(z.string()).default([]),
   explanation: localizedStringSchema.optional(),

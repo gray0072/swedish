@@ -6,14 +6,14 @@
   ],
   "items": [
     {
-      "id": "q-pronunciation-melody-vowel-length-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В утверждении «Du bor i Malmö.» мелодия падает к концу.", "en": "In the statement \"Du bor i Malmö.\" the pitch falls toward the end." },
       "answer": true
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В вопросе «Bor du i Malmö?» мелодия падает к концу, так же как в утверждении.", "en": "In the question \"Bor du i Malmö?\" the pitch falls toward the end, just like in a statement." },
@@ -24,14 +24,14 @@
       }
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "В слове «hal» гласная «a» долгая, потому что после неё только одна согласная.", "en": "In the word \"hal\" the vowel \"a\" is long because only one consonant follows it." },
       "answer": true
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое предложение — вопрос?", "en": "Which sentence is a question?" },
@@ -39,7 +39,7 @@
       "answer": 0
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "В каком слове гласная краткая (перед двумя одинаковыми согласными)?", "en": "In which word is the vowel short (before two identical consonants)?" },
@@ -47,7 +47,7 @@
       "answer": 0
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "В каком слове гласная долгая?", "en": "In which word is the vowel long?" },
@@ -55,7 +55,7 @@
       "answer": 0
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Isen är ___. (скользкий, долгое a)" },
@@ -64,7 +64,7 @@
       "hint": { "ru": "скользкий", "en": "slippery" }
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Glaset är ___. (полный, краткое u)" },
@@ -73,7 +73,7 @@
       "hint": { "ru": "полный", "en": "full" }
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери вопрос: «Ты живёшь в Мальмё?»", "en": "Build the question: \"Do you live in Malmö?\"" },
@@ -81,7 +81,7 @@
       "answer": [1, 3, 0, 2]
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с типом гласной (долгая/краткая)", "en": "Match the word with its vowel length" },
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": "q-pronunciation-melody-vowel-length-listen-1",
+      "id": "listen-1",
       "type": "listen",
       "difficulty": 2,
       "audioText": "Pratar hon svenska?",

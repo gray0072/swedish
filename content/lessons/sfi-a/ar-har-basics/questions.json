@@ -7,34 +7,34 @@
   ],
   "items": [
     {
-      "id": "q-ar-har-basics-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "Jag ___ trött. (я устал/устала)" },
       "answer": ["är"],
       "acceptAlso": []
     },
     {
-      "id": "q-ar-har-basics-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "Jag ___ två barn. (у меня есть)" },
       "answer": ["har"],
       "acceptAlso": []
     },
     {
-      "id": "q-ar-har-basics-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "prompt": { "ru": "«har» звучит одинаково и для jag, и для du, и для vi.", "en": "\"har\" sounds the same for jag, du and vi." },
       "answer": true
     },
     {
-      "id": "q-ar-har-basics-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "prompt": { "ru": "Чтобы сказать «ты устал», нужно другое слово вместо «är».", "en": "To say \"you are tired\" you need a different word instead of \"är\"." },
       "answer": false,
       "explanation": { "ru": "«är» — то же самое слово: Du är trött.", "en": "\"är\" is the same word: Du är trött." }
     },
     {
-      "id": "q-ar-har-basics-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Как спросить «У тебя есть дети?»", "en": "How do you ask \"Do you have children?\"" },
@@ -42,7 +42,7 @@
       "answer": 0
     },
     {
-      "id": "q-ar-har-basics-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что означает «Jag har två barn»?", "en": "What does \"Jag har två barn\" mean?" },
@@ -50,7 +50,7 @@
       "answer": 0
     },
     {
-      "id": "q-ar-har-basics-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «У меня есть машина.»", "en": "Build the sentence: \"I have a car.\"" },
@@ -58,7 +58,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-ar-har-basics-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь фразу с переводом", "en": "Match the phrase with its translation" },

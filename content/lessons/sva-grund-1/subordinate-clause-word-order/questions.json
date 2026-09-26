@@ -6,7 +6,7 @@
   ],
   "items": [
     {
-      "id": "q-subordinate-clause-word-order-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 3,
       "prompt": {
@@ -17,7 +17,7 @@
       "answer": [6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-subordinate-clause-word-order-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 3,
       "prompt": {
@@ -28,7 +28,7 @@
       "answer": [6, 5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-subordinate-clause-word-order-order-3",
+      "id": "order-3",
       "type": "order",
       "difficulty": 2,
       "prompt": {
@@ -39,7 +39,7 @@
       "answer": [3, 2, 1, 0]
     },
     {
-      "id": "q-subordinate-clause-word-order-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -55,7 +55,7 @@
       "answer": 0
     },
     {
-      "id": "q-subordinate-clause-word-order-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Что означает аббревиатура BIFF?", "en": "What does the abbreviation BIFF stand for?" },
@@ -68,7 +68,7 @@
       "answer": 0
     },
     {
-      "id": "q-subordinate-clause-word-order-mc-3",
+      "id": "mc-3",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -84,14 +84,14 @@
       "answer": 0
     },
     {
-      "id": "q-subordinate-clause-word-order-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "В huvudsats «inte» стоит после личного глагола.", "en": "In a huvudsats, \"inte\" comes after the finite verb." },
       "answer": true
     },
     {
-      "id": "q-subordinate-clause-word-order-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -105,7 +105,7 @@
       }
     },
     {
-      "id": "q-subordinate-clause-word-order-tf-3",
+      "id": "tf-3",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -115,7 +115,7 @@
       "answer": true
     },
     {
-      "id": "q-subordinate-clause-word-order-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 3,
       "prompt": {
@@ -127,7 +127,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-subordinate-clause-word-order-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 3,
       "prompt": {
@@ -139,7 +139,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-subordinate-clause-word-order-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 1,
       "prompt": { "ru": "Сопоставь союз с переводом", "en": "Match the conjunction with its translation" },

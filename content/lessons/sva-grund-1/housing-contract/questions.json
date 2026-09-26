@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-housing-contract-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Срок предупреждения — три месяца.»", "en": "Build the sentence: \"The notice period is three months.\"" },
@@ -18,7 +18,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-housing-contract-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Мы расторгли договор.»", "en": "Build the sentence: \"We gave notice on the contract.\"" },
@@ -26,7 +26,7 @@
       "answer": [3, 1, 0, 2]
     },
     {
-      "id": "q-housing-contract-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь понятия с переводом", "en": "Match the terms with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-housing-contract-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Andrahandshyresgäst» — это тот, кто владеет квартирой.", "en": "\"Andrahandshyresgäst\" is the person who owns the apartment." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-housing-contract-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Bostadskö» — это очередь людей, ожидающих квартиру по найму.", "en": "\"Bostadskö\" is a queue of people waiting for a rental apartment." },
       "answer": true
     },
     {
-      "id": "q-housing-contract-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ är oftast tre månader. (Срок предупреждения)" },
@@ -64,7 +64,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-housing-contract-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Hyresvärden ___ lägenheten innan besiktningen. (осматривает)" },
@@ -72,7 +72,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-housing-contract-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -83,7 +83,7 @@
       "answer": 0
     },
     {
-      "id": "q-housing-contract-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

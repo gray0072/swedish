@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-directions-in-town-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Поверни у кольцевой развязки.»", "en": "Build the sentence: \"Turn at the roundabout.\"" },
@@ -18,7 +18,7 @@
       "answer": [2, 0, 1]
     },
     {
-      "id": "q-directions-in-town-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Улица находится напротив площади.»", "en": "Build the sentence: \"The street is opposite the square.\"" },
@@ -26,7 +26,7 @@
       "answer": [2, 3, 0, 1]
     },
     {
-      "id": "q-directions-in-town-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-directions-in-town-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Höger» значит «налево».", "en": "\"Höger\" means \"to the left\"." },
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": "q-directions-in-town-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Övergångsställe» — это место, где можно перейти улицу.", "en": "An \"övergångsställe\" is a place where you can cross the street." },
       "answer": true
     },
     {
-      "id": "q-directions-in-town-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Vid nästa ___ ska du svänga höger. (перекрёсток / crossing)" },
@@ -64,7 +64,7 @@
       "acceptAlso": ["korsningen"]
     },
     {
-      "id": "q-directions-in-town-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Jag kan inte ___ rätt gata. (найти / find)" },
@@ -72,7 +72,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-directions-in-town-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 3,
       "prompt": {
@@ -87,7 +87,7 @@
       }
     },
     {
-      "id": "q-directions-in-town-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 1,
       "prompt": {

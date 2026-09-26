@@ -7,42 +7,42 @@
   ],
   "items": [
     {
-      "id": "q-p5d-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "prompt": { "sv": "en flicka -> två ___ (plural)" },
       "answer": ["flickor"],
       "acceptAlso": []
     },
     {
-      "id": "q-p5d-gap-2",
+      "id": "gap-2",
       "type": "gap",
       "prompt": { "sv": "en bil -> två ___ (plural)" },
       "answer": ["bilar"],
       "acceptAlso": []
     },
     {
-      "id": "q-p5d-gap-3",
+      "id": "gap-3",
       "type": "gap",
       "prompt": { "sv": "en lägenhet -> två ___ (plural)" },
       "answer": ["lägenheter"],
       "acceptAlso": []
     },
     {
-      "id": "q-p5d-gap-4",
+      "id": "gap-4",
       "type": "gap",
       "prompt": { "sv": "ett äpple -> två ___ (plural)" },
       "answer": ["äpplen"],
       "acceptAlso": []
     },
     {
-      "id": "q-p5d-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Ett hus» во множественном числе без окончания: «hus».", "en": "\"Ett hus\" in the plural takes no ending: \"hus\"." },
       "answer": true
     },
     {
-      "id": "q-p5d-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "По роду слова (en/ett) всегда можно точно предсказать, какое окончание будет во множественном числе.", "en": "You can always predict the plural ending from a noun's gender (en/ett) alone." },
@@ -50,7 +50,7 @@
       "explanation": { "ru": "Нет, склонение нужно запоминать вместе со словом — точного правила нет.", "en": "No — the declension must be learned with the word; there's no exact rule." }
     },
     {
-      "id": "q-p5d-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое множественное число у «en biljett»?", "en": "What is the plural of \"en biljett\"?" },
@@ -58,7 +58,7 @@
       "answer": 0
     },
     {
-      "id": "q-p5d-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "Какое множественное число у «ett hjärta»?", "en": "What is the plural of \"ett hjärta\"?" },
@@ -66,7 +66,7 @@
       "answer": 1
     },
     {
-      "id": "q-p5d-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь существительное с его множественным числом", "en": "Match the noun with its plural" },
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": "q-p5d-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «У нас есть два яблока.»", "en": "Build the sentence: \"We have two apples.\"" },

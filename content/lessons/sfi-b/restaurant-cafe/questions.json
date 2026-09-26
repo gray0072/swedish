@@ -10,7 +10,7 @@
   ],
   "items": [
     {
-      "id": "q-restaurant-cafe-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 1,
       "prompt": { "ru": "Собери фразу: «Можно счёт, пожалуйста?»", "en": "Build the sentence: \"Can we have the bill, please?\"" },
@@ -18,7 +18,7 @@
       "answer": [4, 3, 2, 0, 1]
     },
     {
-      "id": "q-restaurant-cafe-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери фразу: «Я хочу заказать чашку кофе.»", "en": "Build the sentence: \"I would like to order a cup of coffee.\"" },
@@ -26,7 +26,7 @@
       "answer": [5, 4, 3, 2, 1, 0]
     },
     {
-      "id": "q-restaurant-cafe-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слова из ресторана с переводом", "en": "Match the restaurant words with their translation" },
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "q-restaurant-cafe-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "«Fika» — это просто чашка кофе, и ничего больше.", "en": "\"Fika\" is just a cup of coffee, nothing more." },
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": "q-restaurant-cafe-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Kvitto» и «nota» значат одно и то же и используются в один и тот же момент.", "en": "\"Kvitto\" and \"nota\" mean the same thing and are asked for at the same moment." },
@@ -60,7 +60,7 @@
       }
     },
     {
-      "id": "q-restaurant-cafe-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 1,
       "prompt": { "sv": "Kan jag få ___, tack? (счёт)" },
@@ -68,7 +68,7 @@
       "acceptAlso": ["räkningen"]
     },
     {
-      "id": "q-restaurant-cafe-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {
@@ -79,7 +79,7 @@
       "answer": 1
     },
     {
-      "id": "q-restaurant-cafe-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

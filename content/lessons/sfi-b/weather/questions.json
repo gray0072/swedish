@@ -9,7 +9,7 @@
   ],
   "items": [
     {
-      "id": "q-weather-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Сегодня солнечно.»", "en": "Build the sentence: \"It's sunny today.\"" },
@@ -17,7 +17,7 @@
       "answer": [3, 1, 2, 0]
     },
     {
-      "id": "q-weather-order-2",
+      "id": "order-2",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Идёт дождь.»", "en": "Build the sentence: \"It's raining.\"" },
@@ -25,7 +25,7 @@
       "answer": [1, 0]
     },
     {
-      "id": "q-weather-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь погодные слова с переводом", "en": "Match the weather words with their translation" },
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "q-weather-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 2,
       "prompt": {
@@ -47,7 +47,7 @@
       "answer": true
     },
     {
-      "id": "q-weather-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "«Vädret» — это неопределённая форма слова «väder».", "en": "\"Vädret\" is the indefinite form of \"väder\"." },
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "q-weather-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "Det är fem ___ ute. (градусов)" },
@@ -66,7 +66,7 @@
       "acceptAlso": []
     },
     {
-      "id": "q-weather-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 2,
       "prompt": {

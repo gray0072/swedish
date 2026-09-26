@@ -8,7 +8,7 @@
   ],
   "items": [
     {
-      "id": "q-sick-child-vab-mc-1",
+      "id": "mc-1",
       "type": "mc",
       "difficulty": 1,
       "prompt": { "ru": "Что такое VAB?", "en": "What is VAB?" },
@@ -21,7 +21,7 @@
       "answer": 0
     },
     {
-      "id": "q-sick-child-vab-mc-2",
+      "id": "mc-2",
       "type": "mc",
       "difficulty": 2,
       "prompt": { "ru": "У ребёнка ночью была высокая температура, и он рвал. Куда можно позвонить за советом?", "en": "Your child had a high fever overnight and was vomiting. Who can you call for advice?" },
@@ -29,7 +29,7 @@
       "answer": 0
     },
     {
-      "id": "q-sick-child-vab-order-1",
+      "id": "order-1",
       "type": "order",
       "difficulty": 2,
       "prompt": { "ru": "Собери предложение: «Сегодня я сижу дома по VAB.»", "en": "Build the sentence: \"I'm on VAB today.\"" },
@@ -37,7 +37,7 @@
       "answer": [2, 1, 0]
     },
     {
-      "id": "q-sick-child-vab-match-1",
+      "id": "match-1",
       "type": "match",
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово с переводом", "en": "Match the word with its translation" },
@@ -49,14 +49,14 @@
       ]
     },
     {
-      "id": "q-sick-child-vab-tf-1",
+      "id": "tf-1",
       "type": "true-false",
       "difficulty": 1,
       "prompt": { "ru": "VAB оформляют через Försäkringskassan.", "en": "VAB is reported through Försäkringskassan." },
       "answer": true
     },
     {
-      "id": "q-sick-child-vab-tf-2",
+      "id": "tf-2",
       "type": "true-false",
       "difficulty": 2,
       "prompt": { "ru": "Ребёнку разрешено вернуться в сад сразу после первого здорового часа.", "en": "A child is allowed back at preschool right after the first healthy hour." },
@@ -64,7 +64,7 @@
       "explanation": { "ru": "Обычно требуется быть здоровым целый день перед возвращением.", "en": "The rule of thumb is being well for a full day before returning." }
     },
     {
-      "id": "q-sick-child-vab-gap-1",
+      "id": "gap-1",
       "type": "gap",
       "difficulty": 2,
       "prompt": { "sv": "___ förskolan innan klockan åtta. (сообщи)" },

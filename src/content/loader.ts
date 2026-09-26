@@ -184,13 +184,19 @@ function buildRegistry(): ContentRegistry {
       continue;
     }
     const meta = parsed.data;
+    const [folderLevel, folderSlug] = key.split('/');
+    if (meta.id !== key || meta.slug !== folderSlug || meta.levels[0] !== folderLevel) {
+      errors.push(`${path}: id/slug/levels[0] must match the folder "${key}"`);
+      continue;
+    }
     const vocab = vocabByKey.get(key) ?? [];
     const questions = questionsByKey.get(key) ?? { generators: [], items: [] };
     const theoryEn = theoryEnByKey.get(key) ?? null;
     const theoryRu = theoryRuByKey.get(key) ?? null;
 
     const generated = expandGenerators(questions.generators, vocab, meta.id);
-    const pool = [...questions.items, ...generated];
+    const authored = questions.items.map((q) => ({ ...q, id: `${meta.id}/${q.id}` }));
+    const pool = [...authored, ...generated];
 
     if (pool.length < meta.quiz.questionsPerRun) {
       errors.push(
