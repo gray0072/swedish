@@ -787,3 +787,29 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **Loading a save drops ids the content no longer has** — lessons, SRS items, buildings,
   history cards and dialogues — from localStorage, an imported file and the cloud alike.
   Review progress from before this change is discarded with the old question ids.
+
+## 2026-09-26 — 36 achievements with tiers, medals and progress
+
+- **Achievements grew from 9 to 36**, with 118 tiers between them (SPEC §8.6), in five groups:
+  words, lessons, habits, city and history, and secrets. New ones include Memory master
+  (words taken to the last review box), Learning from mistakes, Unbroken chain (correct
+  answers in a row), Marathon (lessons in one day), Stubborn (passing a lesson you had
+  failed), Swedish holidays (studying on midsommarafton, Lucia, kanelbullens dag…), Patron,
+  Piggy bank, and hidden ones — Night owl, Early bird, Fika break, Welcome back, and Lagom
+  for passing on exactly the pass mark.
+- **Tiers and progress.** Each achievement is a medal coloured by its tier — copper, silver,
+  gold, aurora, amethyst, star — with a ring filling towards the next tier, a bar with
+  "34 / 100", tier pips, and a rosette once every tier is done. The Stats page groups them,
+  shows totals and the most recently earned medals; secrets stay "???" until found.
+- **Computed vs stored.** Everything the save already knows is computed live; only events
+  nothing else records (active days, review sessions, time of day, holidays, audio plays…)
+  are counted in `save.achievements`, together with the highest tier reached — so a medal is
+  never taken back when a streak breaks or coins are spent. Cloud merge and pruning know the
+  new field; an older save gets every tier it already qualifies for on first load.
+- **Each tier pays coins once** (10–300 by rank, ~6 300 in total) and is announced with a
+  toast and a small bell sound; many at once collapse into one summary.
+- Descriptions pluralise properly in both languages ("1 lesson", "3 урока", "5 уроков").
+- **Achievements earned in a lesson get a ceremony on the result screen**, Duolingo-style: a
+  full screen per unlock where the medal spins in over turning rays, sparks fly, the new
+  tier pips fill, and the coins and the next level's goal appear; Continue or Enter moves on.
+  Afterwards the result card keeps an "Earned in this lesson" row — tap a medal to replay it.

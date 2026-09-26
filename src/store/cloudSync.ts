@@ -1,5 +1,13 @@
 import { supabase } from './supabaseClient';
-import { migrateSave, type SaveFile, type ItemProgress, type LessonProgress, type BuildingState } from './persist';
+import {
+  migrateSave,
+  type AchievementCounter,
+  type AchievementState,
+  type SaveFile,
+  type ItemProgress,
+  type LessonProgress,
+  type BuildingState,
+} from './persist';
 
 export function isCloudSyncAvailable(): boolean {
   return supabase !== null;
@@ -156,6 +164,32 @@ function mergeBuildings(
   return out;
 }
 
+function mergeAchievements(a: AchievementState, b: AchievementState): AchievementState {
+  const unlocked: AchievementState['unlocked'] = {};
+  for (const id of new Set([...Object.keys(a.unlocked), ...Object.keys(b.unlocked)])) {
+    const x = a.unlocked[id];
+    const y = b.unlocked[id];
+    // The higher tier wins; on a tie the earlier date, so "unlocked on" never moves forward.
+    unlocked[id] = !x || !y ? (x ?? y) : x.tier !== y.tier ? (x.tier > y.tier ? x : y) : x.at <= y.at ? x : y;
+  }
+  const counters: AchievementState['counters'] = { ...a.counters };
+  for (const [key, value] of Object.entries(b.counters) as Array<[AchievementCounter, number]>) {
+    counters[key] = Math.max(counters[key] ?? 0, value);
+  }
+  const day =
+    a.day.date !== b.day.date
+      ? a.day.date > b.day.date ? a.day : b.day
+      : { date: a.day.date, lessons: Math.max(a.day.lessons, b.day.lessons) };
+  return {
+    unlocked,
+    counters,
+    holidays: Array.from(new Set([...a.holidays, ...b.holidays])),
+    // The running combo belongs to this device's current session.
+    combo: a.combo,
+    day,
+  };
+}
+
 export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
   const preferRemoteSettings = isLocalFresh(local);
   const localDate = local.streak.lastActiveDate;
@@ -186,6 +220,7 @@ export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
       (local.dailyIncomeClaimedOn ?? '') >= (remote.dailyIncomeClaimedOn ?? '')
         ? local.dailyIncomeClaimedOn
         : remote.dailyIncomeClaimedOn,
+    achievements: mergeAchievements(local.achievements, remote.achievements),
     settings: preferRemoteSettings ? remote.settings : local.settings,
   };
 }

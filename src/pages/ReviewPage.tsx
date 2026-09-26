@@ -22,6 +22,7 @@ export default function ReviewPage() {
   const recordItemAnswer = useAppStore((s) => s.recordItemAnswer);
   const touchDailyActivity = useAppStore((s) => s.touchDailyActivity);
   const addCoins = useAppStore((s) => s.addCoins);
+  const recordReviewSession = useAppStore((s) => s.recordReviewSession);
   const perks = usePerks();
 
   const dueQuestions = useMemo(() => {
@@ -88,6 +89,7 @@ export default function ReviewPage() {
     if (isLast) {
       touchDailyActivity();
       addCoins(REWARDS.reviewSessionCoins + perks.reviewBonus);
+      recordReviewSession();
       setDone(true);
       // Clearing the day's due deck is a finish line too, so it earns the fanfare.
       playFanfare();

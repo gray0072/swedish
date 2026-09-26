@@ -29,7 +29,11 @@ interface SaveFile {
     era: EraId;
     buildings: Record<BuildingId, { level: number; builtAt: string }>;
   };
-  achievements: AchievementId[];
+  achievements: {
+    unlocked: Record<AchievementId, { tier: number; at: string }>; // highest tier ever reached
+    counters: Partial<Record<AchievementCounter, number>>;         // events nothing else records
+    holidays: string[]; combo: number; day: { date: string; lessons: number };
+  };
   settings: { theme: 'system'|'light'|'dark'; tts: { voice?: string; rate: number }; sound: boolean };
 }
 ```
@@ -39,7 +43,7 @@ Rules:
 - `persist.ts` owns a `migrations` map keyed by version; a save from an older version is
   migrated forward, never dropped.
 - Ids the current content no longer has — lessons, questions (SRS items and
-  `lastRunQuestionIds`), buildings, history cards, dialogues — are dropped whenever a save
+  `lastRunQuestionIds`), buildings, history cards, dialogues, achievements — are dropped whenever a save
   is loaded: from localStorage, an imported file or the cloud (`src/store/pruneSave.ts`).
 - **Export / Import** buttons in Settings download/upload this JSON. This is the backup story
   for a backend-free app and must exist in v1.
@@ -102,6 +106,7 @@ different one on a laptop before either syncs. Instead `mergeSaves()` merges fie
 | `streak` | Whole record from whichever side has the more recent `lastActiveDate` (it's a small date-driven state machine, not safe to merge field-by-field); `longest` = max of both |
 | `historyRead` / `dialoguesRead` | Set union |
 | `dailyIncomeClaimedOn` | The later of the two dates, so a day already claimed on one device isn't paid out again |
+| `achievements` | `unlocked`: the higher tier wins (earlier date on a tie); `counters`: max per key; `holidays`: union; `day`: the later date; `combo`: local |
 | `settings`, `language` | Pulled from the cloud only the first time, when the local save is still untouched (`freshSave()` defaults) — otherwise the local device's own preference always wins, since theme/voice/etc. are per-device, not per-account |
 
 All counters merge with `max`, never sum — this keeps a repeated merge (e.g. syncing again

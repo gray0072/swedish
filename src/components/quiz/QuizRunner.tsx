@@ -9,6 +9,7 @@ import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useLessonProgress, usePreviousRunQuestionIds, useSelectionContext } from '@/store/progress';
 import { usePerks } from '@/store/city';
+import { claimPendingAchievements, type AchievementUnlock } from '@/store/achievements';
 import { useStreak } from '@/store/wallet';
 import { buildHint, hasHint, type Hint } from '@/quiz/hints';
 import { playCorrect } from '@/lib/sound';
@@ -22,7 +23,7 @@ export default function QuizRunner({
   onFinish,
 }: {
   lesson: LessonContent;
-  onFinish: (reward: RewardResult) => void;
+  onFinish: (reward: RewardResult, unlocks: AchievementUnlock[]) => void;
 }) {
   const t = useT();
   const lang = useLanguage();
@@ -72,7 +73,9 @@ export default function QuizRunner({
         reward,
         session.questions.map((q) => q.id),
       );
-      onFinish(finalReward);
+      // Claimed here, synchronously, so the result screen can celebrate exactly what this
+      // run earned — the app-wide watcher would otherwise grab them as toasts first.
+      onFinish(finalReward, claimPendingAchievements());
       return;
     }
     setIndex((i) => i + 1);

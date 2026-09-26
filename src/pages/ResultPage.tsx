@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Download, PartyPopper, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
@@ -13,6 +13,12 @@ import { buildingCostAt } from '@/city/economy';
 import { renderShareCard } from '@/lib/shareCard';
 import { playFanfare, playSessionEnd } from '@/lib/sound';
 import { useCountUp } from '@/lib/useCountUp';
+import { useAchievementStatuses, type AchievementUnlock } from '@/store/achievements';
+import AchievementMedal from '@/components/ui/AchievementMedal';
+import AchievementReveal from '@/components/ui/AchievementReveal';
+
+// The ceremony opens once the XP and coin count-up has had its moment.
+const REVEAL_DELAY_MS = 1300;
 
 // Where the coins of a perfect run land, relative to the coin figure (SPEC §11.6, 1.2 s max).
 const COIN_THROWS = [
@@ -55,7 +61,12 @@ export default function ResultPage() {
   // StrictMode runs mount effects twice in dev; without this the fanfare plays over itself.
   const celebrated = useRef(false);
 
-  const reward = (location.state as { reward?: RewardResult } | null)?.reward;
+  const navState = location.state as { reward?: RewardResult; unlocks?: AchievementUnlock[] } | null;
+  const reward = navState?.reward;
+  const unlocks = navState?.unlocks ?? [];
+  const statuses = useAchievementStatuses();
+  // Index of the unlock the ceremony shows, or null while it is closed.
+  const [revealAt, setRevealAt] = useState<number | null>(null);
   const shownXp = useCountUp(reward?.xp ?? 0, { from: 0, duration: 900 });
   const shownCoins = useCountUp(reward?.coins ?? 0, { from: 0, duration: 900 });
 
@@ -70,6 +81,15 @@ export default function ResultPage() {
     celebrated.current = true;
     if (reward.passed) playFanfare(reward.perfect);
     else playSessionEnd();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Its own effect, without the celebrated guard: under StrictMode the first timer is
+  // cleared by the simulated unmount, and the second run has to be free to set it again.
+  useEffect(() => {
+    if (unlocks.length === 0) return;
+    const timer = window.setTimeout(() => setRevealAt(0), REVEAL_DELAY_MS);
+    return () => window.clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -176,6 +196,38 @@ export default function ResultPage() {
           </button>
         )}
       </div>
+
+      {unlocks.length > 0 && (
+        <div className="card animate-rise-in">
+          <p className="text-sm font-semibold">{t('result.achievements')}</p>
+          <div className="mt-3 flex flex-wrap justify-center gap-3">
+            {unlocks.map((u, i) => {
+              const status = statuses.find((s) => s.achievement.id === u.id);
+              if (!status) return null;
+              return (
+                <button
+                  key={u.id}
+                  onClick={() => setRevealAt(i)}
+                  title={resolveLocalized(status.achievement.name, lang)}
+                  className="flex w-20 flex-col items-center gap-1.5 rounded-xl p-1 transition-transform hover:scale-105"
+                >
+                  <AchievementMedal status={{ ...status, tier: u.to }} size={52} showRing={false} />
+                  <span className="line-clamp-2 text-[11px] leading-tight text-granite dark:text-birch/70">
+                    {resolveLocalized(status.achievement.name, lang)}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          <p className="mt-2 text-xs font-semibold text-falu dark:text-gold">
+            +{unlocks.reduce((n, u) => n + u.coins, 0)} 🪙
+          </p>
+        </div>
+      )}
+
+      {revealAt !== null && (
+        <AchievementReveal unlocks={unlocks} startAt={revealAt} onClose={() => setRevealAt(null)} />
+      )}
 
       <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
         {reward.score < reward.total && (

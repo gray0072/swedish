@@ -148,5 +148,42 @@ The connection must be **explicit and visible**:
   which page you happen to be on.
 - Buildings gate *bonus* content only — never core curriculum. Progress in the language must
   never be blocked by the game.
-- Achievements bridge both: "Ordförråd 500" (500 words seen), "Sju dagar i rad" (7-day streak),
-  "Stockholms grundare" (complete the medieval era).
+- Achievements bridge both — see §8.6.
+
+## 8.6 Achievements — `content/achievements.json`
+
+36 achievements in five groups — words, lessons, habits, city and history, secrets — with
+118 tiers between them. An achievement is one **metric** plus a list of ascending
+**thresholds**; one threshold is a plain one-off, several are tiers. Tiers are coloured
+copper, silver, gold, aurora, amethyst and star (palette tokens only), shown as a medal whose
+ring fills towards the next tier, and a medal with every tier done gets a rosette.
+
+**What is computed and what is stored.** A metric the save already answers is derived live
+(`src/achievements/metrics.ts`): words learned and mastered, words once missed and now
+learned, correct answers, lessons passed / flawless / grammar, courses finished, the share
+of the curriculum, longest streak, XP, eras, coins held and spent, buildings built and
+maxed, history cards and dialogues read. Only facts nothing else records are stored, as
+event counters in `save.achievements` (`src/achievements/events.ts`): active days, review
+sessions, best run of correct answers, most lessons in one day, comebacks after a week,
+streak freezes spent, lessons passed after an earlier fail, "lagom" passes on the exact pass
+mark, sessions at night / early morning / fika time / on weekends, Swedish holidays studied
+on (nyårsdagen, våffeldagen, valborg, nationaldagen, midsommarafton, kanelbullens dag, Lucia,
+julafton), and audio plays. The **highest tier reached** is stored too, and never lowered:
+a broken streak or spent coins do not take a medal back, and each tier pays exactly once.
+
+**Rewards.** A tier pays one-time coins by its rank — 10, 25, 50, 100, 200, 300
+(`ACHIEVEMENT_TIER_COINS` in `src/city/economy.ts`), ~6 300 coins for all 118 tiers, about a
+tenth of the fully built city. `AchievementToasts` in the app shell claims every freshly
+reached tier as soon as the save qualifies and announces it with a toast and a bell sound;
+more than three at once (an old save meeting the feature) collapse into one summary.
+
+**The end of a lesson** claims its own unlocks synchronously, before the result screen opens,
+and celebrates them there instead of as toasts (`AchievementReveal`): 1.3 s after the result
+appears, a full-screen ceremony per unlock — the medal spins in over turning rays in its tier
+colour, sparks fly off, the new tier pips fill, the coins and the next level's goal follow —
+with Continue (or Enter) moving to the next one. The result card then keeps a row "Earned in
+this lesson", and tapping a medal replays its ceremony. Toasts wait while a ceremony is open.
+All motion stops under `prefers-reduced-motion`.
+
+**Secrets** show as "???" until their first tier is reached. Descriptions use `{n}` for the
+threshold and `{n|one|other}` (Russian `{n|one|few|many}`) for its plural.

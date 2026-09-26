@@ -58,6 +58,7 @@ export function speakSwedish(text: string, rate?: number): void {
   const voice = resolveVoice();
   if (voice) utterance.voice = voice;
   window.speechSynthesis.speak(utterance);
+  useAppStore.getState().countAchievementEvent('audioPlays');
 }
 
 /** Preview a specific voice regardless of the stored preference — used by the Settings picker. */
@@ -121,6 +122,7 @@ export function speakDialogue(cues: DialogueCue[], options: SpeakDialogueOptions
   }
 
   playFrom(0);
+  useAppStore.getState().countAchievementEvent('audioPlays');
   return {
     stop: () => {
       cancelled = true;

@@ -336,26 +336,68 @@ export const buildingsFileSchema = z.object({ buildings: z.array(buildingSchema)
 // ---------------------------------------------------------------------------
 
 // ---------------------------------------------------------------------------
-// Achievements — computed from existing stats, never stored as separate state
-// (SPEC §8.5: they bridge learning and the city).
+// Achievements — tiered goals over a single metric (SPEC §8.6). The metric's value is
+// either derived live from the save or read from an event counter the save keeps for it;
+// the highest tier ever reached is stored, so a tier is never taken back.
 // ---------------------------------------------------------------------------
 
-export const achievementConditionSchema = z.discriminatedUnion('type', [
-  z.object({ type: z.literal('wordsLearned'), value: z.number() }),
-  z.object({ type: z.literal('streak'), value: z.number() }),
-  z.object({ type: z.literal('lessonsPassed'), value: z.number() }),
-  z.object({ type: z.literal('allLessonsPassed') }),
-  z.object({ type: z.literal('eraReached'), eraId: z.string() }),
-  z.object({ type: z.literal('buildingsOwned'), value: z.number() }),
+export const achievementMetricSchema = z.enum([
+  // derived live from the save
+  'wordsLearned',
+  'wordsMastered',
+  'mistakesFixed',
+  'correctAnswers',
+  'lessonsPassed',
+  'perfectLessons',
+  'grammarPassed',
+  'levelsCompleted',
+  'curriculumPercent',
+  'streakLongest',
+  'xp',
+  'coinsHeld',
+  'coinsSpent',
+  'erasReached',
+  'buildingsOwned',
+  'buildingsMaxed',
+  'historyRead',
+  'dialoguesRead',
+  // event counters kept in save.achievements (nothing else in the save records them)
+  'daysActive',
+  'reviewSessions',
+  'bestCombo',
+  'bestDay',
+  'comebacks',
+  'freezesUsed',
+  'stubbornPasses',
+  'lagomPasses',
+  'nightSessions',
+  'morningSessions',
+  'fikaSessions',
+  'weekendSessions',
+  'holidays',
+  'audioPlays',
 ]);
-export type AchievementCondition = z.infer<typeof achievementConditionSchema>;
+export type AchievementMetric = z.infer<typeof achievementMetricSchema>;
+
+export const achievementCategorySchema = z.enum(['words', 'lessons', 'habits', 'city', 'secret']);
+export type AchievementCategory = z.infer<typeof achievementCategorySchema>;
 
 export const achievementSchema = z.object({
   id: z.string(),
   name: localizedStringSchema,
+  /** `{n}` is replaced with the threshold of the tier being described. */
   description: localizedStringSchema,
   icon: z.string(),
-  condition: achievementConditionSchema,
+  category: achievementCategorySchema,
+  metric: achievementMetricSchema,
+  /** Thresholds, strictly ascending; one entry is a plain one-off achievement. */
+  tiers: z
+    .array(z.number().positive())
+    .min(1)
+    .max(6)
+    .refine((t) => t.every((v, i) => i === 0 || v > t[i - 1]), 'Tiers must be strictly ascending'),
+  /** Hidden as "???" until its first tier is reached. */
+  secret: z.boolean().default(false),
 });
 export type Achievement = z.infer<typeof achievementSchema>;
 

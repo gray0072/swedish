@@ -1,67 +1,55 @@
-import type { Achievement, AchievementCondition, Era } from '@/content/schema';
-import { getAchievements, getAllLessons, getEras } from '@/content/registry';
-import { useWordsLearned, useAllLessonProgress } from './progress';
-import { useStreak } from './wallet';
-import { useCurrentEra, useOwnedBuildingCount } from './city';
+import { useMemo } from 'react';
+import { useShallow } from 'zustand/react/shallow';
+import { useAppStore } from './appStore';
+import type { SaveFile } from './persist';
+import { evaluateAchievements, type AchievementStatus } from '@/achievements/metrics';
+import { achievementTierCoins } from '@/city/economy';
 
-export interface AchievementStatus {
-  achievement: Achievement;
-  unlocked: boolean;
-}
+export type { AchievementStatus } from '@/achievements/metrics';
 
-interface Stats {
-  wordsLearned: number;
-  streakCurrent: number;
-  lessonsPassed: number;
-  totalLessons: number;
-  currentEraOrder: number;
-  eras: Era[];
-  buildingsOwned: number;
-}
-
-function checkCondition(condition: AchievementCondition, stats: Stats): boolean {
-  switch (condition.type) {
-    case 'wordsLearned':
-      return stats.wordsLearned >= condition.value;
-    case 'streak':
-      return stats.streakCurrent >= condition.value;
-    case 'lessonsPassed':
-      return stats.lessonsPassed >= condition.value;
-    case 'allLessonsPassed':
-      return stats.totalLessons > 0 && stats.lessonsPassed >= stats.totalLessons;
-    case 'eraReached': {
-      const era = stats.eras.find((e) => e.id === condition.eraId);
-      return Boolean(era) && stats.currentEraOrder >= era!.order;
-    }
-    case 'buildingsOwned':
-      return stats.buildingsOwned >= condition.value;
-  }
-}
-
-/** Achievements are computed live from existing stats — never persisted separately, so
- * they can never drift out of sync with the numbers that earned them (SPEC §8.5). */
+/**
+ * Every achievement's live status (SPEC §8.6). Selects only the slices metrics read, so
+ * settings changes do not re-evaluate; the evaluation itself is a few linear passes.
+ */
 export function useAchievementStatuses(): AchievementStatus[] {
-  const wordsLearned = useWordsLearned();
-  const streak = useStreak();
-  const lessonsProgress = useAllLessonProgress();
-  const currentEra = useCurrentEra();
-  const buildingsOwned = useOwnedBuildingCount();
+  const slices = useAppStore(
+    useShallow((s) => ({
+      items: s.items,
+      lessons: s.lessons,
+      wallet: s.wallet,
+      streak: s.streak,
+      city: s.city,
+      historyRead: s.historyRead,
+      dialoguesRead: s.dialoguesRead,
+      achievements: s.achievements,
+    })),
+  );
+  return useMemo(() => evaluateAchievements(slices as SaveFile), [slices]);
+}
 
-  const allLessons = getAllLessons();
-  const lessonsPassed = allLessons.filter((l) => lessonsProgress[l.meta.id]?.passed).length;
+export interface AchievementUnlock {
+  id: string;
+  /** Tier held before (0 = new medal) and tier just reached. */
+  from: number;
+  to: number;
+  coins: number;
+}
 
-  const stats: Stats = {
-    wordsLearned,
-    streakCurrent: streak.current,
-    lessonsPassed,
-    totalLessons: allLessons.length,
-    currentEraOrder: currentEra.order,
-    eras: getEras(),
-    buildingsOwned,
-  };
-
-  return getAchievements().map((achievement) => ({
-    achievement,
-    unlocked: checkCondition(achievement.condition, stats),
-  }));
+/**
+ * Claims every tier the current save reaches but has not stored yet, pays its coins, and
+ * says what was claimed. Called synchronously where a moment should celebrate its own
+ * unlocks (the end of a quiz), and by the app-wide watcher for everything else — whichever
+ * runs first claims, so a tier is never announced twice.
+ */
+export function claimPendingAchievements(): AchievementUnlock[] {
+  const state = useAppStore.getState();
+  const fresh = evaluateAchievements(state as SaveFile).filter((s) => s.liveTier > s.storedTier);
+  if (fresh.length === 0) return [];
+  const paid = state.claimAchievementTiers(fresh.map((s) => ({ id: s.achievement.id, tier: s.liveTier })));
+  if (paid === 0) return [];
+  return fresh.map((s) => {
+    let coins = 0;
+    for (let tier = s.storedTier + 1; tier <= s.liveTier; tier++) coins += achievementTierCoins(tier);
+    return { id: s.achievement.id, from: s.storedTier, to: s.liveTier, coins };
+  });
 }

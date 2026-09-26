@@ -29,7 +29,11 @@ interface SaveFile {
     era: EraId;
     buildings: Record<BuildingId, { level: number; builtAt: string }>;
   };
-  achievements: AchievementId[];
+  achievements: {
+    unlocked: Record<AchievementId, { tier: number; at: string }>; // высший когда-либо достигнутый уровень
+    counters: Partial<Record<AchievementCounter, number>>;         // события, которые больше нигде не записаны
+    holidays: string[]; combo: number; day: { date: string; lessons: number };
+  };
   settings: { theme: 'system'|'light'|'dark'; tts: { voice?: string; rate: number }; sound: boolean };
 }
 ```
@@ -39,7 +43,7 @@ interface SaveFile {
 - В `persist.ts` лежит карта `migrations` по версиям; сейв старой версии мигрируется вперёд,
   а не удаляется.
 - Id, которых больше нет в контенте — уроки, вопросы (элементы SRS и `lastRunQuestionIds`),
-  здания, исторические карточки, диалоги, — удаляются при каждой загрузке сейва: из
+  здания, исторические карточки, диалоги, достижения, — удаляются при каждой загрузке сейва: из
   localStorage, из импортированного файла или из облака (`src/store/pruneSave.ts`).
 - Кнопки **Экспорт / Импорт** в настройках скачивают и загружают этот JSON. Это единственный
   способ бэкапа в приложении без бэкенда — обязателен в v1.
@@ -105,6 +109,7 @@ interface SaveFile {
 | `streak` | Вся запись целиком берётся с более свежим `lastActiveDate` (это небольшая дата-машина состояний, мержить по полям небезопасно); `longest` — максимум из двух |
 | `historyRead` / `dialoguesRead` | Объединение множеств |
 | `dailyIncomeClaimedOn` | Более поздняя из двух дат — чтобы уже полученный за день бонус не выдался повторно |
+| `achievements` | `unlocked`: побеждает более высокий уровень (при равенстве — более ранняя дата); `counters`: max по ключу; `holidays`: объединение; `day`: более поздняя дата; `combo`: локальный |
 | `settings`, `language` | Подтягиваются из облака только при первом входе, если локальный сейв ещё не тронут (значения по умолчанию `freshSave()`) — в остальных случаях всегда побеждают локальные настройки устройства, так как тема/голос и т.п. — это настройки устройства, а не аккаунта |
 
 Все счётчики мержатся через `max`, а не через сумму — это делает повторное слияние (например,

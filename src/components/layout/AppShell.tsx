@@ -7,6 +7,7 @@ import { useCloudSync } from '@/store/useCloudSync';
 import { useLanguage, useSettings } from '@/store/settings';
 import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
 import DalaHorse from '@/components/ui/DalaHorse';
+import AchievementToasts from '@/components/ui/AchievementToasts';
 
 function PageLoading() {
   return (
@@ -166,6 +167,7 @@ export default function AppShell() {
           </Suspense>
         </div>
       </main>
+      <AchievementToasts />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import {
   SAVE_KEY,
   SAVE_VERSION,
   todayStr,
+  type AchievementCounter,
   type BuildingState,
   type ItemProgress,
   type LessonProgress,
@@ -14,10 +15,12 @@ import {
 import { computeDueDate, nextBox, type Box } from '@/srs/scheduler';
 import type { RewardResult } from '@/quiz/engine';
 import type { StudyLanguage } from '@/content/schema';
-import { REWARDS, STREAK } from '@/city/economy';
+import { achievementTierCoins, REWARDS, STREAK } from '@/city/economy';
 import { getActivePerks } from '@/city/perks';
 import { mergeSaves } from './cloudSync';
 import { pruneUnknownIds } from './pruneSave';
+import { getLesson } from '@/content/registry';
+import { countEvent, onAnswer, onLessonPassed, onNewDay, onReviewSession } from '@/achievements/events';
 
 function dateAddDays(dateStr: string, delta: number): string {
   const d = new Date(dateStr + 'T00:00:00Z');
@@ -67,6 +70,14 @@ function applyStreak(
   };
 }
 
+/** The day's first activity moves the streak and the achievement day counters together. */
+function startDay(s: SaveFile, today: string): Pick<SaveFile, 'streak' | 'achievements'> {
+  return {
+    streak: applyStreak(s.streak, today, perksOf(s).streakFreeze),
+    achievements: onNewDay(s.achievements, s.streak, today),
+  };
+}
+
 /** Perk totals straight off a save's buildings — the non-hook path into the same selector. */
 function perksOf(state: SaveFile) {
   const levels: Record<string, number> = {};
@@ -86,6 +97,11 @@ interface AppState extends SaveFile {
   markHistoryRead: (id: string, coinReward: number) => void;
   markDialogueRead: (id: string, coinReward: number) => void;
   addCoins: (amount: number) => void;
+  /** Counts a finished due-review session towards achievements. */
+  recordReviewSession: () => void;
+  countAchievementEvent: (key: AchievementCounter) => void;
+  /** Stores newly reached achievement tiers and pays their coins. Returns coins paid. */
+  claimAchievementTiers: (claims: { id: string; tier: number }[]) => number;
   seedReviewItems: (ids: string[]) => void;
   setTheme: (theme: SaveFile['settings']['theme']) => void;
   setSound: (enabled: boolean) => void;
@@ -111,6 +127,7 @@ export function toSaveFile(state: AppState): SaveFile {
     historyRead,
     dialoguesRead,
     dailyIncomeClaimedOn,
+    achievements,
     settings,
   } = state;
   return {
@@ -125,6 +142,7 @@ export function toSaveFile(state: AppState): SaveFile {
     historyRead,
     dialoguesRead,
     dailyIncomeClaimedOn,
+    achievements,
     settings,
   };
 }
@@ -162,7 +180,7 @@ export const useAppStore = create<AppState>()(
       setLanguage: (lang) => set({ language: lang }),
 
       touchDailyActivity: () => {
-        set((s) => ({ streak: applyStreak(s.streak, todayStr(), perksOf(s).streakFreeze) }));
+        set((s) => startDay(s, todayStr()));
       },
 
       // Called once when the app shell mounts. Idempotent within a day, so re-opening the
@@ -206,7 +224,10 @@ export const useAppStore = create<AppState>()(
             lastCorrect: correct,
             lastSeenAt: new Date().toISOString(),
           };
-          return { items: { ...s.items, [questionId]: updated } };
+          return {
+            items: { ...s.items, [questionId]: updated },
+            achievements: onAnswer(s.achievements, correct),
+          };
         });
       },
 
@@ -234,6 +255,14 @@ export const useAppStore = create<AppState>()(
             lastRunQuestionIds: [],
           };
           const runsToday = prev.rewardedRunsDate === today ? prev.rewardedRunsToday : 0;
+          const day = startDay(s, today);
+          const passScore = getLesson(lessonId)?.meta.quiz.passScore;
+          const achievements = reward.passed
+            ? onLessonPassed(day.achievements, new Date(), {
+                failedBefore: prev.attempts > 0 && !prev.passed,
+                lagom: reward.score === passScore && reward.score < reward.total,
+              })
+            : day.achievements;
           const lessons: Record<string, LessonProgress> = {
             ...s.lessons,
             [lessonId]: {
@@ -253,7 +282,8 @@ export const useAppStore = create<AppState>()(
               xp: s.wallet.xp + finalReward.xp,
               coins: s.wallet.coins + finalReward.coins,
             },
-            streak: applyStreak(s.streak, today, perksOf(s).streakFreeze),
+            streak: day.streak,
+            achievements,
           };
         });
 
@@ -299,6 +329,34 @@ export const useAppStore = create<AppState>()(
       },
 
       addCoins: (amount) => set((s) => ({ wallet: { ...s.wallet, coins: s.wallet.coins + amount } })),
+
+      recordReviewSession: () =>
+        set((s) => ({ achievements: onReviewSession(s.achievements, new Date()) })),
+
+      countAchievementEvent: (key) => set((s) => ({ achievements: countEvent(s.achievements, key) })),
+
+      claimAchievementTiers: (claims) => {
+        const s = get();
+        const unlocked = { ...s.achievements.unlocked };
+        const at = new Date().toISOString();
+        let coins = 0;
+        let changed = false;
+        for (const { id, tier } of claims) {
+          const had = unlocked[id]?.tier ?? 0;
+          if (tier <= had) continue;
+          changed = true;
+          // Every tier skipped over pays too: a save that jumps from none to tier 3 at once
+          // (an old save meeting this feature, a merge from another device) gets all three.
+          for (let t = had + 1; t <= tier; t++) coins += achievementTierCoins(t);
+          unlocked[id] = { tier, at };
+        }
+        if (!changed) return 0;
+        set({
+          achievements: { ...s.achievements, unlocked },
+          wallet: { ...s.wallet, coins: s.wallet.coins + coins },
+        });
+        return coins;
+      },
 
       // Seeds brand-new SRS items as "due now" — never touches an id already being tracked,
       // so re-reading a history card doesn't reset progress on words you've already reviewed.

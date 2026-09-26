@@ -1,4 +1,5 @@
 import {
+  getAchievements,
   getAllQuestionIds,
   getBuilding,
   getDialogue,
@@ -9,7 +10,7 @@ import type { SaveFile } from './persist';
 
 /**
  * Drops every id the current content no longer knows — lessons, SRS items, buildings,
- * history cards and dialogues. Content ids change when lessons are renamed, moved or
+ * history cards, dialogues and achievements. Content ids change when lessons are renamed, moved or
  * removed; a save keeps the old ids forever otherwise, and they would inflate counts
  * (achievements, review deck size) while pointing at nothing. Run on every save that
  * enters the store: localStorage, an imported file, a cloud copy.
@@ -37,6 +38,12 @@ export function pruneUnknownIds(save: SaveFile): SaveFile {
     if (getBuilding(id)) buildings[id] = building;
   }
 
+  const achievementIds = new Set(getAchievements().map((a) => a.id));
+  const unlocked: SaveFile['achievements']['unlocked'] = {};
+  for (const [id, entry] of Object.entries(save.achievements.unlocked)) {
+    if (achievementIds.has(id)) unlocked[id] = entry;
+  }
+
   return {
     ...save,
     lessons,
@@ -44,5 +51,6 @@ export function pruneUnknownIds(save: SaveFile): SaveFile {
     city: { ...save.city, buildings },
     historyRead: save.historyRead.filter((id) => historyIds.has(id)),
     dialoguesRead: save.dialoguesRead.filter((id) => Boolean(getDialogue(id))),
+    achievements: { ...save.achievements, unlocked },
   };
 }

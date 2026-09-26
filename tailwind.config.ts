@@ -64,6 +64,13 @@ export default {
           '0%, 100%': { transform: 'none' },
           '40%': { transform: 'scale(1.18)' },
         },
+        // A medal lands on the achievement reveal: spun in from nothing, overshoots, settles.
+        'medal-in': {
+          '0%': { opacity: '0', transform: 'scale(0.2) rotate(-220deg)' },
+          '55%': { opacity: '1', transform: 'scale(1.18) rotate(12deg)' },
+          '75%': { transform: 'scale(0.94) rotate(-5deg)' },
+          '100%': { opacity: '1', transform: 'none' },
+        },
         // A coin thrown out of the result card on a perfect run; ResultPage sets --dx/--dy.
         'coin-fly': {
           '0%': { opacity: '0', transform: 'translate(0, 0) scale(0.6)' },
@@ -80,6 +87,7 @@ export default {
         'bounce-in': 'bounce-in 520ms cubic-bezier(0.2, 0.8, 0.3, 1.2) backwards',
         bump: 'bump 400ms ease-out',
         'coin-fly': 'coin-fly 1.1s ease-out forwards',
+        'medal-in': 'medal-in 800ms cubic-bezier(0.2, 0.8, 0.3, 1.1) backwards',
       },
     },
   },

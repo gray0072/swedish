@@ -178,6 +178,18 @@ export const REWARDS = {
   dialogueCoins: 40,
 } as const;
 
+/**
+ * One-time coins for reaching an achievement tier (SPEC §8.6), by tier: the first tier of
+ * anything pays 10, the sixth 300. All 118 tiers together are worth about 6 300 coins over
+ * the whole curriculum — roughly a tenth of what the fully built city costs, so medals are a
+ * welcome top-up, never a way to buy the city without learning.
+ */
+export const ACHIEVEMENT_TIER_COINS = [10, 25, 50, 100, 200, 300] as const;
+
+export function achievementTierCoins(tier: number): number {
+  return ACHIEVEMENT_TIER_COINS[Math.min(tier, ACHIEVEMENT_TIER_COINS.length) - 1] ?? 0;
+}
+
 export const STREAK = {
   /** A freeze is granted every N consecutive days. */
   freezeEveryDays: 7,

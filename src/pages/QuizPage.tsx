@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { getLesson } from '@/content/registry';
 import { useT } from '@/i18n';
 import type { RewardResult } from '@/quiz/engine';
+import type { AchievementUnlock } from '@/store/achievements';
 import QuizRunner from '@/components/quiz/QuizRunner';
 import NotFoundPage from './NotFoundPage';
 
@@ -14,8 +15,8 @@ export default function QuizPage() {
   const lesson = getLesson(lessonId);
 
   const handleFinish = useCallback(
-    (reward: RewardResult) => {
-      navigate(`/lesson/${levelId}/${slug}/result`, { state: { reward }, replace: true });
+    (reward: RewardResult, unlocks: AchievementUnlock[]) => {
+      navigate(`/lesson/${levelId}/${slug}/result`, { state: { reward, unlocks }, replace: true });
     },
     [navigate, levelId, slug],
   );

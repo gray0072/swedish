@@ -36,6 +36,7 @@
   - 8.3 Здания — `content/city/buildings.json` + `src/city/economy.ts`
   - 8.4 Типы бонусов
   - 8.5 Связка «обучение ↔ город»
+  - 8.6 Достижения
 - [9. Маршруты (HashRouter)](specs/09-routing_ru.md)
 - [10. Требования к UI/UX](specs/10-ui-ux_ru.md)
 - [11. Визуальный стиль — шведская национальная эстетика](specs/11-visual-identity_ru.md)

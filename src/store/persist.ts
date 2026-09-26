@@ -35,6 +35,44 @@ export interface BuildingState {
   builtAt: string;
 }
 
+/**
+ * Event counters for achievements whose metric the rest of the save cannot answer — how many
+ * days you studied, how many reviews you finished, what time of day you did it. Everything
+ * else an achievement measures is derived live from the save (store/achievements.ts), so it
+ * can never drift from the numbers that earned it. Counters only ever grow.
+ */
+export type AchievementCounter =
+  | 'daysActive'
+  | 'reviewSessions'
+  | 'bestCombo'
+  | 'bestDay'
+  | 'comebacks'
+  | 'freezesUsed'
+  | 'stubbornPasses'
+  | 'lagomPasses'
+  | 'nightSessions'
+  | 'morningSessions'
+  | 'fikaSessions'
+  | 'weekendSessions'
+  | 'audioPlays';
+
+export interface AchievementState {
+  /** Highest tier (1-based) ever reached per achievement id. Never lowered: a streak that
+   * breaks or coins that get spent do not take a medal back, and each tier pays out once. */
+  unlocked: Record<string, { tier: number; at: string }>;
+  counters: Partial<Record<AchievementCounter, number>>;
+  /** Ids of the Swedish holidays (achievements.ts) a lesson or review was finished on. */
+  holidays: string[];
+  /** Consecutive correct answers right now, across lessons and reviews. */
+  combo: number;
+  /** Lessons passed on `date` (local yyyy-mm-dd) — feeds the bestDay counter. */
+  day: { date: string; lessons: number };
+}
+
+export function freshAchievementState(): AchievementState {
+  return { unlocked: {}, counters: {}, holidays: [], combo: 0, day: { date: '', lessons: 0 } };
+}
+
 export interface SaveFile {
   version: 1;
   createdAt: string;
@@ -59,6 +97,8 @@ export interface SaveFile {
    * simply has no field, and is defaulted below rather than needing a version migration.
    */
   dailyIncomeClaimedOn: string | null;
+  /** Optional in the parsed schema for the same reason as dailyIncomeClaimedOn. */
+  achievements: AchievementState;
   settings: {
     theme: 'system' | 'light' | 'dark';
     sound: boolean;
@@ -87,6 +127,7 @@ export function freshSave(): SaveFile {
     historyRead: [],
     dialoguesRead: [],
     dailyIncomeClaimedOn: null,
+    achievements: freshAchievementState(),
     settings: { theme: 'system', sound: true, ttsRate: 0.95, ttsVoice: null, cityMotion: 'full' },
   };
 }
@@ -115,6 +156,17 @@ export const saveFileSchema = z
     // Optional for the same reason as settings.ttsVoice below: saves from before the perk
     // was granted don't have it, and "never claimed" is the right reading.
     dailyIncomeClaimedOn: z.string().nullable().optional(),
+    // Optional: a save from before tiered achievements has none — the watcher then grants
+    // every tier the save already qualifies for on first load.
+    achievements: z
+      .object({
+        unlocked: z.record(z.string(), z.object({ tier: z.number(), at: z.string() })),
+        counters: z.record(z.string(), z.number()),
+        holidays: z.array(z.string()),
+        combo: z.number(),
+        day: z.object({ date: z.string(), lessons: z.number() }),
+      })
+      .optional(),
     settings: z.object({
       theme: z.enum(['system', 'light', 'dark']),
       sound: z.boolean(),
@@ -155,6 +207,7 @@ export function migrateSave(raw: unknown): SaveFile {
   // Same for daily income: an older save has never been paid, so it gets paid today.
   if (save.dailyIncomeClaimedOn === undefined) save.dailyIncomeClaimedOn = null;
   if (save.dialoguesRead === undefined) save.dialoguesRead = [];
+  if (save.achievements === undefined) save.achievements = freshAchievementState();
   return save;
 }
 
@@ -189,4 +242,10 @@ export function exportSaveToFile(save: SaveFile) {
 
 export function todayStr(d: Date = new Date()): string {
   return d.toISOString().slice(0, 10);
+}
+
+/** yyyy-mm-dd in the learner's own time zone — for "what day was it for you", not streaks. */
+export function localDateStr(d: Date = new Date()): string {
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }

@@ -36,6 +36,7 @@
   - 8.3 Buildings — `content/city/buildings.json` + `src/city/economy.ts`
   - 8.4 Perk types
   - 8.5 The learning ↔ city loop
+  - 8.6 Achievements
 - [9. Routing (HashRouter)](specs/09-routing.md)
 - [10. UI/UX requirements](specs/10-ui-ux.md)
 - [11. Visual identity — Swedish national style](specs/11-visual-identity.md)

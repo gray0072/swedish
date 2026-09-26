@@ -2,66 +2,738 @@
   "achievements": [
     {
       "id": "first-word",
-      "name": { "sv": "Första ordet", "ru": "Первое слово", "en": "First word" },
-      "description": { "ru": "Выучи первое слово.", "en": "Learn your first word." },
+      "name": {
+        "sv": "Första ordet",
+        "ru": "Первое слово",
+        "en": "First word"
+      },
+      "description": {
+        "ru": "Выучи первое слово.",
+        "en": "Learn your first word."
+      },
       "icon": "🌱",
-      "condition": { "type": "wordsLearned", "value": 1 }
+      "category": "words",
+      "metric": "wordsLearned",
+      "tiers": [
+        1
+      ]
     },
     {
-      "id": "vocab-25",
-      "name": { "sv": "Ordförråd 25", "ru": "Словарь 25", "en": "Vocabulary 25" },
-      "description": { "ru": "25 выученных слов.", "en": "25 words learned." },
-      "icon": "📗",
-      "condition": { "type": "wordsLearned", "value": 25 }
-    },
-    {
-      "id": "vocab-75",
-      "name": { "sv": "Ordförråd 75", "ru": "Словарь 75", "en": "Vocabulary 75" },
-      "description": { "ru": "75 выученных слов.", "en": "75 words learned." },
+      "id": "vocabulary",
+      "name": {
+        "sv": "Ordförråd",
+        "ru": "Словарь",
+        "en": "Vocabulary"
+      },
+      "description": {
+        "ru": "Выучи {n} {n|слово|слова|слов}.",
+        "en": "Learn {n} {n|word|words}."
+      },
       "icon": "📚",
-      "condition": { "type": "wordsLearned", "value": 75 }
+      "category": "words",
+      "metric": "wordsLearned",
+      "tiers": [
+        10,
+        50,
+        150,
+        400,
+        1000
+      ]
     },
     {
-      "id": "streak-3",
-      "name": { "sv": "Tre dagar i rad", "ru": "Три дня подряд", "en": "Three days in a row" },
-      "description": { "ru": "Занимайся три дня подряд.", "en": "Study three days in a row." },
-      "icon": "🔥",
-      "condition": { "type": "streak", "value": 3 }
+      "id": "memory",
+      "name": {
+        "sv": "Minnesmästare",
+        "ru": "Мастер памяти",
+        "en": "Memory master"
+      },
+      "description": {
+        "ru": "Доведи {n} {n|слово|слова|слов} до последней коробки повторения.",
+        "en": "Take {n} {n|word|words} all the way to the last review box."
+      },
+      "icon": "🧠",
+      "category": "words",
+      "metric": "wordsMastered",
+      "tiers": [
+        10,
+        50,
+        200,
+        500
+      ]
     },
     {
-      "id": "streak-7",
-      "name": { "sv": "Sju dagar i rad", "ru": "Семь дней подряд", "en": "Seven days in a row" },
-      "description": { "ru": "Занимайся семь дней подряд.", "en": "Study seven days in a row." },
-      "icon": "🔥",
-      "condition": { "type": "streak", "value": 7 }
+      "id": "mistakes",
+      "name": {
+        "sv": "Lära av misstag",
+        "ru": "Работа над ошибками",
+        "en": "Learning from mistakes"
+      },
+      "description": {
+        "ru": "Прочно выучи {n} {n|слово|слова|слов}, в которых когда-то ошибся.",
+        "en": "Firmly learn {n} {n|word|words} you once got wrong."
+      },
+      "icon": "🩹",
+      "category": "words",
+      "metric": "mistakesFixed",
+      "tiers": [
+        5,
+        25,
+        100
+      ]
+    },
+    {
+      "id": "correct",
+      "name": {
+        "sv": "Rätt svar",
+        "ru": "Верный ответ",
+        "en": "Right answer"
+      },
+      "description": {
+        "ru": "Дай {n} {n|верный ответ|верных ответа|верных ответов}.",
+        "en": "Give {n} correct {n|answer|answers}."
+      },
+      "icon": "✅",
+      "category": "words",
+      "metric": "correctAnswers",
+      "tiers": [
+        50,
+        250,
+        1000,
+        5000,
+        15000
+      ]
+    },
+    {
+      "id": "listener",
+      "name": {
+        "sv": "Lyssnaren",
+        "ru": "Слушатель",
+        "en": "The listener"
+      },
+      "description": {
+        "ru": "Послушай шведскую речь {n} {n|раз|раза|раз}.",
+        "en": "Listen to Swedish {n} {n|time|times}."
+      },
+      "icon": "🎧",
+      "category": "words",
+      "metric": "audioPlays",
+      "tiers": [
+        10,
+        100,
+        500,
+        2000
+      ]
+    },
+    {
+      "id": "lessons",
+      "name": {
+        "sv": "Lektioner",
+        "ru": "Уроки",
+        "en": "Lessons"
+      },
+      "description": {
+        "ru": "Пройди {n} {n|урок|урока|уроков}.",
+        "en": "Pass {n} {n|lesson|lessons}."
+      },
+      "icon": "📖",
+      "category": "lessons",
+      "metric": "lessonsPassed",
+      "tiers": [
+        1,
+        10,
+        25,
+        50,
+        100,
+        200
+      ]
+    },
+    {
+      "id": "perfect",
+      "name": {
+        "sv": "Felfri",
+        "ru": "Без ошибок",
+        "en": "Flawless"
+      },
+      "description": {
+        "ru": "Ответь без единой ошибки в {n} {n|уроке|уроках|уроках}.",
+        "en": "Get every answer right in {n} {n|lesson|lessons}."
+      },
+      "icon": "🎯",
+      "category": "lessons",
+      "metric": "perfectLessons",
+      "tiers": [
+        1,
+        5,
+        20,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": {
+        "sv": "Grammatiknörd",
+        "ru": "Знаток грамматики",
+        "en": "Grammar nerd"
+      },
+      "description": {
+        "ru": "Пройди {n} {n|урок|урока|уроков} грамматики.",
+        "en": "Pass {n} grammar {n|lesson|lessons}."
+      },
+      "icon": "🧩",
+      "category": "lessons",
+      "metric": "grammarPassed",
+      "tiers": [
+        1,
+        10,
+        25,
+        50
+      ]
+    },
+    {
+      "id": "course-clear",
+      "name": {
+        "sv": "Kursklar",
+        "ru": "Курс пройден",
+        "en": "Course complete"
+      },
+      "description": {
+        "ru": "Пройди все уроки {n} {n|курса|курсов|курсов}.",
+        "en": "Pass every lesson of {n} {n|course|courses}."
+      },
+      "icon": "🎓",
+      "category": "lessons",
+      "metric": "levelsCompleted",
+      "tiers": [
+        1,
+        2,
+        4,
+        8
+      ]
     },
     {
       "id": "curriculum-clear",
-      "name": { "sv": "Alla lektioner", "ru": "Все уроки", "en": "Every lesson" },
-      "description": { "ru": "Пройди все доступные уроки.", "en": "Pass every available lesson." },
-      "icon": "🎓",
-      "condition": { "type": "allLessonsPassed" }
+      "name": {
+        "sv": "Hela vägen",
+        "ru": "До самого конца",
+        "en": "All the way"
+      },
+      "description": {
+        "ru": "Пройди {n}% всех уроков.",
+        "en": "Pass {n}% of all lessons."
+      },
+      "icon": "🏆",
+      "category": "lessons",
+      "metric": "curriculumPercent",
+      "tiers": [
+        10,
+        25,
+        50,
+        75,
+        100
+      ]
+    },
+    {
+      "id": "stubborn",
+      "name": {
+        "sv": "Envis",
+        "ru": "Упорство",
+        "en": "Stubborn"
+      },
+      "description": {
+        "ru": "Пройди {n} {n|урок|урока|уроков}, которые раньше не давались.",
+        "en": "Pass {n} {n|lesson|lessons} you had failed before."
+      },
+      "icon": "💪",
+      "category": "lessons",
+      "metric": "stubbornPasses",
+      "tiers": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "id": "marathon",
+      "name": {
+        "sv": "Maraton",
+        "ru": "Марафон",
+        "en": "Marathon"
+      },
+      "description": {
+        "ru": "Пройди {n} {n|урок|урока|уроков} за один день.",
+        "en": "Pass {n} lessons in a single day."
+      },
+      "icon": "🏃",
+      "category": "lessons",
+      "metric": "bestDay",
+      "tiers": [
+        3,
+        5,
+        10
+      ]
+    },
+    {
+      "id": "streak",
+      "name": {
+        "sv": "I rad",
+        "ru": "Подряд",
+        "en": "In a row"
+      },
+      "description": {
+        "ru": "Занимайся {n} {n|день|дня|дней} подряд.",
+        "en": "Study {n} days in a row."
+      },
+      "icon": "🔥",
+      "category": "habits",
+      "metric": "streakLongest",
+      "tiers": [
+        3,
+        7,
+        14,
+        30,
+        100,
+        365
+      ]
+    },
+    {
+      "id": "regular",
+      "name": {
+        "sv": "Stamgäst",
+        "ru": "Завсегдатай",
+        "en": "Regular"
+      },
+      "description": {
+        "ru": "Занимайся {n} {n|день|дня|дней} — не обязательно подряд.",
+        "en": "Study on {n} different days."
+      },
+      "icon": "🗓️",
+      "category": "habits",
+      "metric": "daysActive",
+      "tiers": [
+        7,
+        30,
+        100,
+        250
+      ]
+    },
+    {
+      "id": "review",
+      "name": {
+        "sv": "Repetition",
+        "ru": "Повторение",
+        "en": "Repetition"
+      },
+      "description": {
+        "ru": "Заверши {n} {n|сессию|сессии|сессий} повторения.",
+        "en": "Finish {n} review {n|session|sessions}."
+      },
+      "icon": "🔁",
+      "category": "habits",
+      "metric": "reviewSessions",
+      "tiers": [
+        1,
+        10,
+        50,
+        150
+      ]
+    },
+    {
+      "id": "combo",
+      "name": {
+        "sv": "Obruten kedja",
+        "ru": "Непрерывная цепь",
+        "en": "Unbroken chain"
+      },
+      "description": {
+        "ru": "Дай {n} {n|верный ответ|верных ответа|верных ответов} подряд.",
+        "en": "Give {n} correct answers in a row."
+      },
+      "icon": "⛓️",
+      "category": "habits",
+      "metric": "bestCombo",
+      "tiers": [
+        10,
+        25,
+        50,
+        100
+      ]
+    },
+    {
+      "id": "freeze",
+      "name": {
+        "sv": "Isvakt",
+        "ru": "Ледяной страж",
+        "en": "Ice guard"
+      },
+      "description": {
+        "ru": "Заморозка спасла твою серию {n} {n|раз|раза|раз}.",
+        "en": "Let a streak freeze save your streak {n} {n|time|times}."
+      },
+      "icon": "❄️",
+      "category": "habits",
+      "metric": "freezesUsed",
+      "tiers": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "weekend",
+      "name": {
+        "sv": "Helgplugg",
+        "ru": "Учёба в выходные",
+        "en": "Weekend study"
+      },
+      "description": {
+        "ru": "Заверши {n} {n|урок или повторение|урока или повторения|уроков или повторений} в выходные.",
+        "en": "Finish {n} lessons or reviews on a weekend."
+      },
+      "icon": "🛋️",
+      "category": "habits",
+      "metric": "weekendSessions",
+      "tiers": [
+        5,
+        25,
+        100
+      ]
+    },
+    {
+      "id": "holidays",
+      "name": {
+        "sv": "Högtider",
+        "ru": "Шведские праздники",
+        "en": "Swedish holidays"
+      },
+      "description": {
+        "ru": "Позанимайся в {n} {n|шведский праздник|шведских праздника|шведских праздников} — мидсоммар, Люсия, день булочки с корицей…",
+        "en": "Study on {n} Swedish {n|holiday|holidays} — midsommar, Lucia, kanelbullens dag…"
+      },
+      "icon": "🌼",
+      "category": "habits",
+      "metric": "holidays",
+      "tiers": [
+        1,
+        3,
+        5,
+        8
+      ]
     },
     {
       "id": "era-viking",
-      "name": { "sv": "Vikingafärd", "ru": "Поход викингов", "en": "Viking voyage" },
-      "description": { "ru": "Дойди до эпохи викингов.", "en": "Reach the Viking age." },
+      "name": {
+        "sv": "Vikingafärd",
+        "ru": "Поход викингов",
+        "en": "Viking voyage"
+      },
+      "description": {
+        "ru": "Дойди до эпохи викингов.",
+        "en": "Reach the Viking age."
+      },
       "icon": "🛶",
-      "condition": { "type": "eraReached", "eraId": "viking" }
+      "category": "city",
+      "metric": "erasReached",
+      "tiers": [
+        2
+      ]
     },
     {
       "id": "era-medieval",
-      "name": { "sv": "Stockholms grundare", "ru": "Основатель Стокгольма", "en": "Founder of Stockholm" },
-      "description": { "ru": "Дойди до средневекового Стокгольма.", "en": "Reach medieval Stockholm." },
+      "name": {
+        "sv": "Stockholms grundare",
+        "ru": "Основатель Стокгольма",
+        "en": "Founder of Stockholm"
+      },
+      "description": {
+        "ru": "Дойди до средневекового Стокгольма.",
+        "en": "Reach medieval Stockholm."
+      },
       "icon": "🏰",
-      "condition": { "type": "eraReached", "eraId": "medieval" }
+      "category": "city",
+      "metric": "erasReached",
+      "tiers": [
+        3
+      ]
     },
     {
-      "id": "builder-10",
-      "name": { "sv": "Samlaren", "ru": "Коллекционер", "en": "The collector" },
-      "description": { "ru": "Построй 10 зданий.", "en": "Build 10 buildings." },
+      "id": "era-modern",
+      "name": {
+        "sv": "Moderna tider",
+        "ru": "Новое время",
+        "en": "Modern times"
+      },
+      "description": {
+        "ru": "Дойди до современного Стокгольма.",
+        "en": "Reach modern Stockholm."
+      },
+      "icon": "🚇",
+      "category": "city",
+      "metric": "erasReached",
+      "tiers": [
+        6
+      ]
+    },
+    {
+      "id": "era-stellar",
+      "name": {
+        "sv": "Stjärnstaden",
+        "ru": "Звёздный город",
+        "en": "The star city"
+      },
+      "description": {
+        "ru": "Дойди до последней эпохи — звёздного города.",
+        "en": "Reach the last era — the star city."
+      },
+      "icon": "🚀",
+      "category": "city",
+      "metric": "erasReached",
+      "tiers": [
+        10
+      ]
+    },
+    {
+      "id": "xp",
+      "name": {
+        "sv": "Erfarenhet",
+        "ru": "Опыт",
+        "en": "Experience"
+      },
+      "description": {
+        "ru": "Набери {n} XP.",
+        "en": "Earn {n} XP."
+      },
+      "icon": "⭐",
+      "category": "city",
+      "metric": "xp",
+      "tiers": [
+        500,
+        2500,
+        10000,
+        30000,
+        75000
+      ]
+    },
+    {
+      "id": "builder",
+      "name": {
+        "sv": "Byggmästare",
+        "ru": "Строитель",
+        "en": "Master builder"
+      },
+      "description": {
+        "ru": "Построй {n} {n|здание|здания|зданий}.",
+        "en": "Build {n} {n|building|buildings}."
+      },
       "icon": "🏗️",
-      "condition": { "type": "buildingsOwned", "value": 10 }
+      "category": "city",
+      "metric": "buildingsOwned",
+      "tiers": [
+        1,
+        5,
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "id": "maxed",
+      "name": {
+        "sv": "Fullt utbyggt",
+        "ru": "Полностью отстроено",
+        "en": "Fully built"
+      },
+      "description": {
+        "ru": "Улучши {n} {n|здание|здания|зданий} до максимального уровня.",
+        "en": "Upgrade {n} {n|building|buildings} to the top level."
+      },
+      "icon": "🏛️",
+      "category": "city",
+      "metric": "buildingsMaxed",
+      "tiers": [
+        1,
+        5,
+        15
+      ]
+    },
+    {
+      "id": "patron",
+      "name": {
+        "sv": "Mecenat",
+        "ru": "Меценат",
+        "en": "Patron"
+      },
+      "description": {
+        "ru": "Потрать на город {n} {n|крону|кроны|крон}.",
+        "en": "Spend {n} kronor on the city."
+      },
+      "icon": "👑",
+      "category": "city",
+      "metric": "coinsSpent",
+      "tiers": [
+        500,
+        5000,
+        20000,
+        50000
+      ]
+    },
+    {
+      "id": "piggy-bank",
+      "name": {
+        "sv": "Spargris",
+        "ru": "Копилка",
+        "en": "Piggy bank"
+      },
+      "description": {
+        "ru": "Накопи {n} {n|крону|кроны|крон} одновременно.",
+        "en": "Have {n} kronor saved up at once."
+      },
+      "icon": "🐷",
+      "category": "city",
+      "metric": "coinsHeld",
+      "tiers": [
+        250,
+        1000,
+        5000
+      ]
+    },
+    {
+      "id": "historian",
+      "name": {
+        "sv": "Historiker",
+        "ru": "Историк",
+        "en": "Historian"
+      },
+      "description": {
+        "ru": "Прочитай {n} {n|историческую карточку|исторические карточки|исторических карточек}.",
+        "en": "Read {n} history {n|card|cards}."
+      },
+      "icon": "📜",
+      "category": "city",
+      "metric": "historyRead",
+      "tiers": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "talker",
+      "name": {
+        "sv": "Pratglad",
+        "ru": "Болтун",
+        "en": "Chatterbox"
+      },
+      "description": {
+        "ru": "Прочитай {n} {n|диалог|диалога|диалогов}.",
+        "en": "Read {n} {n|dialogue|dialogues}."
+      },
+      "icon": "💬",
+      "category": "city",
+      "metric": "dialoguesRead",
+      "tiers": [
+        1,
+        5,
+        15,
+        30
+      ]
+    },
+    {
+      "id": "lagom",
+      "name": {
+        "sv": "Lagom",
+        "ru": "Лагом",
+        "en": "Lagom"
+      },
+      "description": {
+        "ru": "Пройди урок ровно на проходной балл — не больше и не меньше.",
+        "en": "Pass a lesson with exactly the score it takes — not too much, not too little."
+      },
+      "icon": "⚖️",
+      "category": "secret",
+      "metric": "lagomPasses",
+      "tiers": [
+        1
+      ],
+      "secret": true
+    },
+    {
+      "id": "night-owl",
+      "name": {
+        "sv": "Nattuggla",
+        "ru": "Сова",
+        "en": "Night owl"
+      },
+      "description": {
+        "ru": "Заверши {n} {n|урок или повторение|урока или повторения|уроков или повторений} между полуночью и пятью утра.",
+        "en": "Finish {n} {n|lesson or review|lessons or reviews} between midnight and 5 am."
+      },
+      "icon": "🦉",
+      "category": "secret",
+      "metric": "nightSessions",
+      "tiers": [
+        1,
+        10
+      ],
+      "secret": true
+    },
+    {
+      "id": "early-bird",
+      "name": {
+        "sv": "Morgonpigg",
+        "ru": "Жаворонок",
+        "en": "Early bird"
+      },
+      "description": {
+        "ru": "Заверши {n} {n|урок или повторение|урока или повторения|уроков или повторений} с пяти до восьми утра.",
+        "en": "Finish {n} {n|lesson or review|lessons or reviews} between 5 and 8 am."
+      },
+      "icon": "🐓",
+      "category": "secret",
+      "metric": "morningSessions",
+      "tiers": [
+        1,
+        10
+      ],
+      "secret": true
+    },
+    {
+      "id": "fika",
+      "name": {
+        "sv": "Fikapaus",
+        "ru": "Перерыв на фику",
+        "en": "Fika break"
+      },
+      "description": {
+        "ru": "Заверши {n} {n|урок или повторение|урока или повторения|уроков или повторений} во время фики, с трёх до четырёх дня.",
+        "en": "Finish {n} {n|lesson or review|lessons or reviews} at fika time, between 3 and 4 pm."
+      },
+      "icon": "☕",
+      "category": "secret",
+      "metric": "fikaSessions",
+      "tiers": [
+        1,
+        10
+      ],
+      "secret": true
+    },
+    {
+      "id": "comeback",
+      "name": {
+        "sv": "Välkommen tillbaka",
+        "ru": "С возвращением",
+        "en": "Welcome back"
+      },
+      "description": {
+        "ru": "Вернись после недели или больше без занятий.",
+        "en": "Come back after a week or more away."
+      },
+      "icon": "🧭",
+      "category": "secret",
+      "metric": "comebacks",
+      "tiers": [
+        1
+      ],
+      "secret": true
     }
   ]
 }

@@ -143,6 +143,20 @@ export function playUpgrade(): void {
 }
 
 /**
+ * An achievement tier is reached: two bell strikes a fourth apart, high and bright, with a
+ * soft triangle underneath. It has to read as "something shiny" over whatever sound the
+ * moment itself just made, so it stays above the fanfare's register and ends quickly.
+ */
+export function playAchievement(): void {
+  play([
+    { freq: E6, at: 0, len: 0.35, gain: 0.06 },
+    { freq: A5, at: 0, len: 0.3, gain: 0.04, voice: 'triangle' },
+    { freq: A5 * 2, at: 0.13, len: 0.55, gain: 0.06 },
+    { freq: E5, at: 0.13, len: 0.5, gain: 0.03, voice: 'triangle' },
+  ]);
+}
+
+/**
  * The lesson ended without a pass. An open fifth, warm and unresolved — it marks the moment
  * without pronouncing a verdict. Never a falling phrase: that is what a buzzer sounds like.
  */

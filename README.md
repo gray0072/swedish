@@ -104,7 +104,7 @@ guesses, and the app says so ([SPEC.md §12.8](specs/12-history.md)).
 | 📖 **Reference** | Grammar summaries, a searchable dictionary of every word taught, and 31 everyday dialogues you can listen to or act out one role at a time |
 | 🏙️ **The city** | Ten eras and 38 buildings drawn as an isometric scene with citizens, boats, weather and lights at night; each building gives a perk |
 | 📜 **History cards** | Short, sourced notes (Birka, the rune stones, the first written mention in 1252, the Vasa, the metro) unlocked by the buildings they belong to |
-| 🔥 **Streaks and achievements** | Daily streak with freezes, achievements, and a stats page |
+| 🔥 **Streaks and achievements** | Daily streak with freezes, 36 achievements with up to six tiers each, and a stats page with medals and progress |
 | 🌗 **Comfortable to use** | Light and dark themes, keyboard navigation, `prefers-reduced-motion` respected, sounds you can mute |
 | 🇬🇧 🇷🇺 **Two interface languages** | One switch changes the interface and every translation shown |
 | 💾 **Local-first** | Everything lives in `localStorage`; export and import a JSON save file |
