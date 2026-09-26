@@ -12,14 +12,18 @@ The same spelling can carry either accent, giving two completely different
 words:
 
 ```example
-anden (accent 1) — the duck
-anden (accent 2) — the spirit
+anden [accent 1] — the duck
+anden [accent 2] — the spirit
 ```
 
 ```example
-tomten (accent 1) — the plot (of land)
-tomten (accent 2) — the house gnome / Santa
+tomten [accent 1] — the plot (of land)
+tomten [accent 2] — the house gnome / Santa
 ```
+
+A note on the speaker buttons: the app uses your device's computer voice, and it
+reads both words of a pair the same way — it can't be told which accent you mean.
+To hear the real difference, listen to a Swedish speaker say the pair.
 
 You won't always be able to tell these apart from context alone, so it's
 worth training your ear on a few classic minimal pairs like these — but don't

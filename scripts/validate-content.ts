@@ -22,6 +22,8 @@ import {
 } from '../src/content/schema';
 import { expandGenerators } from '../src/content/generators';
 import { exampleBlockProblems } from '../src/content/exampleLine';
+import { PLACEHOLDER, acceptedSpellings, withoutNotes } from '../src/content/swedishText';
+import { grade } from '../src/quiz/grading';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
 import type { AmbientEmitter, EraArt } from '../src/components/city/scene/types';
 import { ISLAND_CELLS } from '../src/components/city/scene/island';
@@ -149,6 +151,25 @@ if (existsSync(lessonsRoot)) {
         seenIds.add(q.id);
         if ((q.type === 'mc' || q.type === 'listen') && (q.answer < 0 || q.answer >= q.choices.length)) {
           errors.push(`${meta.id}/${q.id}: answer index ${q.answer} out of range`);
+        }
+        // Two options that look — or, for listening, sound — the same make a question
+        // unanswerable. Homographs in one vocab list are the usual cause.
+        if (q.type === 'mc' || q.type === 'listen') {
+          const labels = q.choices.map((c) =>
+            typeof c === 'string' ? (q.type === 'listen' ? withoutNotes(c).toLowerCase() : c) : JSON.stringify(c),
+          );
+          if (new Set(labels).size !== labels.length) {
+            errors.push(`${meta.id}/${q.id}: two choices look or sound the same: ${labels.join(' | ')}`);
+          }
+        }
+        // A typed answer must accept the way the lesson itself writes it.
+        if (q.type === 'type-answer') {
+          for (const spelling of q.answer.flatMap(acceptedSpellings)) {
+            const typed = spelling.split(PLACEHOLDER).join('Anna');
+            if (!grade(q, { kind: 'type-answer', text: typed }).correct) {
+              errors.push(`${meta.id}/${q.id}: typing "${typed}" is graded wrong`);
+            }
+          }
         }
       }
     }

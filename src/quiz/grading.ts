@@ -1,4 +1,5 @@
 import type { Question } from '@/content/schema';
+import { PLACEHOLDER, acceptedSpellings } from '../content/swedishText';
 
 export type Answer =
   | { kind: 'mc'; choiceIndex: number }
@@ -20,8 +21,22 @@ function normalize(text: string): string {
   return text
     .trim()
     .toLowerCase()
-    .replace(/[.,!?;:'"()\-]/g, '')
-    .replace(/\s+/g, ' ');
+    .replace(/[.,!?;:'"()\-/…]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function escapeRegExp(text: string): string {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/** A spelling with a `[…]` placeholder: the placeholder matches up to three free words, or none. */
+function matchesPlaceholder(spelling: string, normInput: string): boolean {
+  const pattern = spelling
+    .split(PLACEHOLDER)
+    .map((part) => escapeRegExp(normalize(part)))
+    .join('\\s*(?:\\S+\\s*){0,3}');
+  return new RegExp(`^${pattern}$`).test(normInput);
 }
 
 function levenshtein(a: string, b: string): number {
@@ -39,8 +54,11 @@ function levenshtein(a: string, b: string): number {
   return dp[a.length][b.length];
 }
 
-function matchesAny(input: string, candidates: string[]): GradeResult {
+function matchesAny(input: string, answers: string[]): GradeResult {
+  const spellings = answers.flatMap(acceptedSpellings);
   const normInput = normalize(input);
+  if (spellings.some((s) => s.includes(PLACEHOLDER) && matchesPlaceholder(s, normInput))) return { correct: true };
+  const candidates = spellings.map((s) => s.split(PLACEHOLDER).join(' '));
   if (candidates.some((c) => normalize(c) === normInput)) return { correct: true };
   const nearMiss = candidates.some((c) => levenshtein(normalize(c), normInput) <= 1);
   if (nearMiss) return { correct: true, almost: true };

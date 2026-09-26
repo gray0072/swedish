@@ -6,6 +6,7 @@ import { useLanguage } from '@/store/settings';
 import { resolveLocalized, type StudyLanguage } from '@/content/schema';
 import { getWordBank, type WordBankRow, type WordBankSectionKey } from '@/content/registry';
 import AudioButton from '@/components/lesson/AudioButton';
+import SwedishText from '@/components/lesson/SwedishText';
 
 const SECTIONS: WordBankSectionKey[] = ['verbs', 'nouns', 'adjectives', 'other'];
 
@@ -40,7 +41,7 @@ function SvHead({ row }: { row: WordBankRow }) {
   return (
     <span className="flex items-center gap-1.5">
       <AudioButton text={row.vocab.sv} />
-      <span className="sv-word">{row.vocab.sv}</span>
+      <span className="sv-word"><SwedishText text={row.vocab.sv} /></span>
     </span>
   );
 }

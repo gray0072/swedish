@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Choice, Question } from '@/content/schema';
 import { resolveLocalized, resolveChoice } from '@/content/schema';
+import SwedishText from '@/components/lesson/SwedishText';
 import { useLanguage } from '@/store/settings';
 import { useT } from '@/i18n';
 import { shuffleDisplay } from '@/lib/shuffle';
@@ -69,7 +70,7 @@ function McChoices({
           <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-granite/10 text-[11px] font-bold dark:bg-white/10">
             {optionLetter[i]}
           </span>
-          {resolveChoice(choice, lang)}
+          <SwedishText text={resolveChoice(choice, lang)} />
         </button>
         );
       })}
@@ -116,7 +117,7 @@ export default function QuestionRenderer({
   if (question.type === 'mc') {
     return (
       <div>
-        <p className="mb-4 text-lg font-medium">{resolveLocalized(question.prompt, lang)}</p>
+        <p className="mb-4 text-lg font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
         <McChoices
           choices={question.choices}
           selected={mcChoice}
@@ -145,7 +146,7 @@ export default function QuestionRenderer({
             <Volume2 size={16} aria-hidden="true" />
             {t('lesson.play')}
           </button>
-          <p className="font-medium">{resolveLocalized(question.prompt, lang)}</p>
+          <p className="font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
         </div>
         <McChoices
           choices={question.choices}
@@ -165,7 +166,7 @@ export default function QuestionRenderer({
   if (question.type === 'type-answer' || question.type === 'gap') {
     return (
       <div>
-        <p className="mb-4 text-lg font-medium">{resolveLocalized(question.prompt, lang)}</p>
+        <p className="mb-4 text-lg font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
         <input
           type="text"
           value={text}
@@ -196,7 +197,7 @@ export default function QuestionRenderer({
   if (question.type === 'true-false') {
     return (
       <div>
-        <p className="mb-4 text-lg font-medium">{resolveLocalized(question.prompt, lang)}</p>
+        <p className="mb-4 text-lg font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
         <div className="flex gap-3">
           {[true, false].map((v) => (
             <button
@@ -225,7 +226,7 @@ export default function QuestionRenderer({
   if (question.type === 'order') {
     return (
       <div>
-        <p className="mb-4 text-lg font-medium">{resolveLocalized(question.prompt, lang)}</p>
+        <p className="mb-4 text-lg font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
         <div className="mb-3 flex min-h-12 flex-wrap gap-2 rounded-xl border border-dashed border-granite/30 p-3 dark:border-white/20">
           {orderSeq.length === 0 && (
             <span className="text-sm text-granite/60">…</span>
@@ -304,7 +305,7 @@ export default function QuestionRenderer({
                       : 'border-granite/20 hover:border-falu/40 dark:border-white/15')
                 }
               >
-                {sv}
+                <SwedishText text={sv} />
               </button>
             ))}
           </div>

@@ -2,6 +2,7 @@ import type { VocabItem } from '@/content/schema';
 import { resolveLocalized, type StudyLanguage } from '@/content/schema';
 import { wordForms } from '@/content/forms';
 import AudioButton from './AudioButton';
+import SwedishText from './SwedishText';
 import { speakSwedish } from '@/lib/tts';
 import { useT } from '@/i18n';
 
@@ -49,7 +50,7 @@ export default function VocabTable({ items, lang }: { items: VocabItem[]; lang: 
           <div className="flex items-start justify-between gap-2">
             <div className="flex items-center gap-1.5">
               <AudioButton text={item.sv} />
-              <span className="sv-word text-base">{item.sv}</span>
+              <span className="sv-word text-base"><SwedishText text={item.sv} /></span>
               <GenderTag gender={item.gender} />
             </div>
           </div>
@@ -67,7 +68,7 @@ export default function VocabTable({ items, lang }: { items: VocabItem[]; lang: 
                   title={`Lyssna: ${item.example.sv}`}
                   className="sv-word text-left italic underline decoration-dotted decoration-granite/40 underline-offset-2 hover:text-falu dark:decoration-birch/30 dark:hover:text-gold"
                 >
-                  {item.example.sv}
+                  <SwedishText text={item.example.sv} />
                 </button>
               </span>
             </div>

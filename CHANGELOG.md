@@ -757,3 +757,19 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **The speaker reads cleaner text**: no ✓/✗ marks or leading dialogue dash, and arrows and
   slashes become pauses, for every speaker button in the app.
 - An example row now wraps as one paragraph next to its button instead of two squeezed columns.
+
+## 2026-09-26 — Notes are never spoken, and quizzes stop tripping over homographs
+
+- **One bracket rule for Swedish text** (SPEC §5.3): `[…]` is a note or a placeholder, shown
+  as a small muted label and never spoken; `(…)` is real Swedish, spoken, and optional in a
+  typed answer. Notes that were in round brackets moved to square ones: the six accent pairs
+  (`anden [accent 1]`), `gå [om buss/tåg]`, `de [uttalas dom]`, `å [för och]`.
+- **Typed answers accept what a person would type**: "tacka nej" for `tacka nej (till)`, any
+  name for `[namn]`, either word for `bäste herr/fru`, and no note to type.
+- **Homographs no longer break multiple choice.** "man" (one) and "man" (a man), or "hyra"
+  the verb and the noun, used to appear as two identical options — or as two right ones, or
+  as an unanswerable listening question. The generator now skips a distractor that looks or
+  sounds like the answer, or like another distractor.
+- `npm run validate` now checks all ~24 000 questions: no two options that look (or, for
+  listening, sound) the same, and every typed answer accepts the lesson's own spelling.
+- The accent lesson says honestly that the device voice reads both words of a pair the same.

@@ -53,14 +53,14 @@
     },
     {
       "id": "de-reducerat",
-      "sv": "de (uttalas dom)",
+      "sv": "de [uttalas dom]",
       "translations": { "ru": "«det/de» произносится как «dom/de»", "en": "\"det/de\" is often pronounced \"dom/de\"" },
       "pos": "phrase",
       "example": { "sv": "Dom kommer imorgon.", "ru": "Они придут завтра.", "en": "They are coming tomorrow." }
     },
     {
       "id": "a-for-och",
-      "sv": "å (för och)",
+      "sv": "å [för och]",
       "translations": { "ru": "å вместо och (в беглой речи)", "en": "å instead of och (in fluent speech)" },
       "pos": "phrase",
       "example": { "sv": "Fisk å skaldjur.", "ru": "Рыба и морепродукты.", "en": "Fish and seafood." }

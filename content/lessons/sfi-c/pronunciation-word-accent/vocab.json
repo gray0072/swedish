@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "anden-duck",
-      "sv": "anden (accent 1)",
+      "sv": "anden [accent 1]",
       "translations": { "ru": "утка (определённая форма)", "en": "the duck" },
       "pos": "noun",
       "gender": "en",
@@ -12,7 +12,7 @@
     },
     {
       "id": "anden-spirit",
-      "sv": "anden (accent 2)",
+      "sv": "anden [accent 2]",
       "translations": { "ru": "дух (определённая форма)", "en": "the spirit" },
       "pos": "noun",
       "gender": "en",
@@ -22,7 +22,7 @@
     },
     {
       "id": "tomten-yard",
-      "sv": "tomten (accent 1)",
+      "sv": "tomten [accent 1]",
       "translations": { "ru": "участок (земли) (определённая форма)", "en": "the plot (of land)" },
       "pos": "noun",
       "gender": "en",
@@ -32,7 +32,7 @@
     },
     {
       "id": "tomten-santa",
-      "sv": "tomten (accent 2)",
+      "sv": "tomten [accent 2]",
       "translations": { "ru": "домовой / Дед Мороз (определённая форма)", "en": "the house gnome / Santa" },
       "pos": "noun",
       "gender": "en",
@@ -42,7 +42,7 @@
     },
     {
       "id": "buren-cage",
-      "sv": "buren (accent 1)",
+      "sv": "buren [accent 1]",
       "translations": { "ru": "клетка (определённая форма)", "en": "the cage" },
       "pos": "noun",
       "gender": "en",
@@ -52,7 +52,7 @@
     },
     {
       "id": "buren-carried",
-      "sv": "buren (accent 2)",
+      "sv": "buren [accent 2]",
       "translations": { "ru": "несомый (причастие)", "en": "carried" },
       "pos": "adj",
       "forms": { "positive": "buren", "neuter": "buret", "plural": "burna", "comparative": "mer buren", "superlative": "mest buren" },

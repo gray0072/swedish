@@ -2,6 +2,7 @@ import { isValidElement } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import AudioButton from './AudioButton';
+import SwedishText from './SwedishText';
 import { useLanguage } from '@/store/settings';
 import { splitExampleLine } from '@/content/exampleLine';
 
@@ -25,7 +26,7 @@ function ExampleBlock({ raw }: { raw: string }) {
           <div key={i} className="flex items-start gap-2 text-sm">
             <AudioButton text={sv} />
             <p className="m-0 min-w-0 pt-1">
-              <span className="sv-word">{sv}</span>
+              <span className="sv-word"><SwedishText text={sv} /></span>
               {translation && <span className="text-granite dark:text-birch/60"> — {translation}</span>}
             </p>
           </div>

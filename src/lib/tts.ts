@@ -1,4 +1,5 @@
 import { useAppStore } from '@/store/appStore';
+import { withoutNotes } from '@/content/swedishText';
 
 let cachedSwedishVoices: SpeechSynthesisVoice[] | undefined;
 
@@ -36,11 +37,11 @@ function resolveVoice(): SpeechSynthesisVoice | null {
 }
 
 /**
- * What the speech engine gets: no ✓/✗ marks, no leading dialogue dash, and arrows, slashes and
- * spaced dashes read as a pause — some voices otherwise say "right arrow" or "slash" aloud.
+ * What the speech engine gets: no [notes], no ✓/✗ marks, no leading dialogue dash, and arrows,
+ * slashes and spaced dashes read as a pause — some voices otherwise say "right arrow" or "slash".
  */
 export function speakableSwedish(text: string): string {
-  return text
+  return withoutNotes(text)
     .replace(/[✓✗]/g, '')
     .replace(/^\s*[–—]\s*/, '')
     .replace(/\s*(?:→|\/|\s[–—])\s*/g, ', ')

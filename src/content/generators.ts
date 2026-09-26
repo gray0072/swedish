@@ -1,4 +1,5 @@
 import type { GeneratorConfig, Question, VocabItem } from './schema';
+import { withoutNotes } from './swedishText';
 
 /**
  * Expands a small vocabulary list (15-25 words) into a large question pool (100+).
@@ -40,13 +41,25 @@ export function expandGenerators(
   return out;
 }
 
-/** Prefer distractors of the same part of speech and similar word length. */
+/** How a word sounds — two items that sound alike can't both be offered as choices. */
+function spokenKey(item: VocabItem): string {
+  return withoutNotes(item.sv).toLowerCase();
+}
+
+/**
+ * Prefer distractors of the same part of speech and similar word length. A homograph of the
+ * answer ("man" the pronoun vs "man" the noun, "hyra" the verb vs the noun) is never offered:
+ * it would put two identical options on screen, or two right ones.
+ */
 function pickDistractors(vocab: VocabItem[], current: VocabItem, count: number): VocabItem[] {
-  const others = vocab.filter((v) => v.id !== current.id);
+  const key = spokenKey(current);
+  const others = vocab.filter((v) => v.id !== current.id && spokenKey(v) !== key);
   const samePos = others.filter((v) => v.pos === current.pos);
   const base = samePos.length >= count ? samePos : others;
+  const seen = new Set<string>();
   return [...base]
     .sort((a, b) => Math.abs(a.sv.length - current.sv.length) - Math.abs(b.sv.length - current.sv.length))
+    .filter((v) => !seen.has(spokenKey(v)) && Boolean(seen.add(spokenKey(v))))
     .slice(0, count);
 }
 

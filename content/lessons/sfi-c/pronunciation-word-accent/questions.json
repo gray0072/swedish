@@ -36,10 +36,10 @@
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь слово-омограф с его значением", "en": "Match the homograph with its meaning" },
       "pairs": [
-        ["anden (accent 1)", "the duck"],
-        ["anden (accent 2)", "the spirit"],
-        ["tomten (accent 1)", "the plot (of land)"],
-        ["tomten (accent 2)", "Santa"]
+        ["anden [accent 1]", "the duck"],
+        ["anden [accent 2]", "the spirit"],
+        ["tomten [accent 1]", "the plot (of land)"],
+        ["tomten [accent 2]", "Santa"]
       ]
     },
     {

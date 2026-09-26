@@ -45,7 +45,7 @@
     },
     {
       "id": "bussen-gar",
-      "sv": "gå (om buss/tåg)",
+      "sv": "gå [om buss/tåg]",
       "translations": { "ru": "отправляться (об автобусе/поезде)", "en": "to leave, to depart (bus/train)" },
       "pos": "verb",
       "verbGroup": 4,

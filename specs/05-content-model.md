@@ -107,6 +107,22 @@ skriva – skrev – skrivit — to write – wrote – written
   (`src/content/exampleLine.ts`). The speaker reads the Swedish side with ✓/✗ marks, the
   leading dialogue dash, arrows and slashes turned into pauses (`speakableSwedish()`).
 
+**Brackets in any Swedish field** — theory examples, vocab `sv` and `example.sv`, choices —
+say whether the text is Swedish speech (`src/content/swedishText.ts`):
+
+| Written | Means | Shown | Spoken | Typed answer |
+|---|---|---|---|---|
+| `anden [accent 1]`, `gå [om buss/tåg]` | a note | as a small muted label | no | not needed |
+| `prata med [namn]` | a placeholder | as a small muted label | no | any 0–3 words |
+| `tacka nej (till)`, `ARN (Allmänna …)` | optional or explanatory Swedish | as written | yes | with or without it |
+| `bäste herr/fru` | a choice between words | as written | as a pause | either word |
+
+So a note never goes in round brackets: it would be read aloud in a Swedish voice and would
+have to be typed in a quiz. Generated questions never offer a distractor that looks or sounds
+like the answer (homographs such as *man* / *man*), and `npm run validate` rejects any
+multiple-choice or listening question with two identical options, and any typed answer the
+lesson's own spelling would fail.
+
 Every Swedish string rendered from theory gets a small speaker button injected automatically.
 
 An optional `theory_ru.md` next to it carries the Russian translation. `LessonPage` picks
