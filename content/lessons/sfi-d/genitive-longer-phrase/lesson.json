@@ -15,7 +15,7 @@
   "tags": ["grammar", "nouns"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 680,
+  "order": 560,
   "prerequisites": ["sfi-b/genitive-s"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

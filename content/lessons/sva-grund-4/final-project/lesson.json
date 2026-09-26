@@ -15,7 +15,7 @@
   "tags": ["phrases", "writing", "speaking", "capstone"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2200,
+  "order": 2240,
   "prerequisites": ["sva-grund-3/planning-further-study"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

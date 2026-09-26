@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 370,
+  "order": 560,
   "prerequisites": [
     "sfi-b/places-in-town"
   ],

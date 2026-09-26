@@ -15,7 +15,7 @@
   "tags": ["grammar", "pronunciation", "prosody"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1520,
+  "order": 1696,
   "prerequisites": ["sfi-c/pronunciation-word-accent"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

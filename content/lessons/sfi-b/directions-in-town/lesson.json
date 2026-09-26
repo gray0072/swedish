@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 310,
+  "order": 450,
   "prerequisites": [
     "sfi-a/simple-directions"
   ],

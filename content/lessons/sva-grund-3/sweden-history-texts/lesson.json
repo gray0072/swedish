@@ -15,7 +15,7 @@
   "tags": ["vocab", "history", "reading"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1670,
+  "order": 1597,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

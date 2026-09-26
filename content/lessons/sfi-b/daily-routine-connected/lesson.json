@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 230,
+  "order": 310,
   "prerequisites": [
     "sfi-a/daily-routine-simple",
     "sfi-b/present-tense"

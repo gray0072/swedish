@@ -15,7 +15,7 @@
   "tags": ["economy", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 390,
+  "order": 470,
   "prerequisites": ["sfi-d/taxes-everyday"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

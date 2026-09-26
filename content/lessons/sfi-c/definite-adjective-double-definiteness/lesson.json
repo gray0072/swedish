@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 550,
+  "order": 400,
   "prerequisites": [
     "sfi-b/demonstratives"
   ],

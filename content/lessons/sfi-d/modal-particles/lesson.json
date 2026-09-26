@@ -15,7 +15,7 @@
   "tags": ["grammar", "particles"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 740,
+  "order": 680,
   "prerequisites": ["sva-grund-3/modality-certainty"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

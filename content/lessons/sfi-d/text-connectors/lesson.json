@@ -15,7 +15,7 @@
   "tags": ["grammar", "text", "connectors"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 730,
+  "order": 660,
   "prerequisites": ["sva-grund-2/text-connectors"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

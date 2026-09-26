@@ -15,7 +15,7 @@
   "tags": ["culture", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 540,
+  "order": 770,
   "prerequisites": ["sfi-d/workplace-habits"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

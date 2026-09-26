@@ -15,7 +15,7 @@
   "tags": ["work", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 400,
+  "order": 490,
   "prerequisites": ["sfi-c/workday-schedule-break"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 540,
+  "order": 380,
   "prerequisites": [
     "sfi-b/adjective-agreement"
   ],

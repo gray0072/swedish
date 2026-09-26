@@ -84,9 +84,6 @@ function applyPerk(totals: PerkTotals, perk: Perk, level: number) {
     case 'retryToken':
       totals.retryTokens += perk.valuePerLevel * level;
       break;
-    case 'cosmetic':
-      // Deliberately nothing: decoration is the whole effect, and the building card says so.
-      break;
   }
 }
 
@@ -95,5 +92,5 @@ function applyPerk(totals: PerkTotals, perk: Perk, level: number) {
  * opposed to the city-wide totals above.
  */
 export function perkValueAtLevel(perk: Perk, level: number): number {
-  return perk.type === 'cosmetic' ? 0 : perk.valuePerLevel * Math.max(level, 1);
+  return perk.valuePerLevel * Math.max(level, 1);
 }

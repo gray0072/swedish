@@ -15,7 +15,7 @@
   "tags": ["grammar", "clauses", "time"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 620,
+  "order": 440,
   "prerequisites": ["sva-grund-2/temporal-clauses"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

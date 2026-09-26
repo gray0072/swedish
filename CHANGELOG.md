@@ -729,3 +729,15 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   five-wide grid. The feature list is brought up to date (ten eras rather than six, the
   reference section, dialogues, perks, PWA), and the documents are listed in one table. Build,
   cloud sync, screenshots and project structure moved into collapsible sections.
+
+## 2026-09-26 — Grammar spread through each course, and every building gives something
+
+- **Grammar is no longer one block at the end of a course.** Within each of the eight
+  courses, grammar lessons are interleaved with vocabulary and phrase lessons, each strand
+  keeping its own order of difficulty, and no lesson comes before a prerequisite in the same
+  course. The `order` fields and `content/curricula/*.json` were renumbered to match.
+- **Grammar lessons carry a "Grammar" badge** in the course list and on the lesson page.
+- **Opening a lesson starts at the top of the page**, instead of keeping the scroll position
+  of the course list it was opened from.
+- **The `cosmetic` perk is gone.** The hut now gives +2 kr a day and the rock carving +4 cards
+  per review session, so no building card says "no effect on learning" any more.

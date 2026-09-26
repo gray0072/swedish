@@ -15,7 +15,7 @@
   "tags": ["grammar", "adjectives"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 690,
+  "order": 580,
   "prerequisites": ["sva-grund-1/adjective-declension"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

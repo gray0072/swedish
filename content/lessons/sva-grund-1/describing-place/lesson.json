@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 670,
+  "order": 500,
   "prerequisites": [
     "sfi-b/home"
   ],

@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 480,
+  "order": 370,
   "prerequisites": [
     "sfi-a/min-mitt"
   ],

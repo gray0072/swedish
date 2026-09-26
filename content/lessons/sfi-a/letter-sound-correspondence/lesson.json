@@ -20,7 +20,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 300,
+  "order": 29,
   "prerequisites": [
     "sfi-a/alphabet"
   ],

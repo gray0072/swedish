@@ -15,7 +15,7 @@
   "tags": ["writing", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 430,
+  "order": 550,
   "prerequisites": ["sva-grund-1/personal-letter"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

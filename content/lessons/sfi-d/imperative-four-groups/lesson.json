@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "imperative"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 780,
+  "order": 760,
   "prerequisites": ["sva-grund-1/verb-groups"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

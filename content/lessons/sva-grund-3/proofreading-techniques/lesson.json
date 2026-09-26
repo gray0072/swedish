@@ -15,7 +15,7 @@
   "tags": ["grammar", "writing", "proofreading", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1500,
+  "order": 1660,
   "prerequisites": ["sva-grund-3/registers"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

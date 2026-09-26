@@ -15,7 +15,7 @@
   "tags": ["phrases", "culture", "writing"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1250,
+  "order": 1201,
   "prerequisites": ["sva-grund-1/free-time-culture"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

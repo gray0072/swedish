@@ -15,7 +15,7 @@
   "tags": ["phrases", "school", "family"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1150,
+  "order": 1022,
   "prerequisites": ["sva-grund-1/child-school-talk"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

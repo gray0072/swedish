@@ -15,7 +15,7 @@
   "tags": ["digital", "everyday", "authorities"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 340,
+  "order": 370,
   "prerequisites": ["sfi-d/authorities"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

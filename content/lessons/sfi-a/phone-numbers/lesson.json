@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 140,
+  "order": 211,
   "prerequisites": [
     "sfi-a/numbers-0-20",
     "sfi-a/personal-info"

@@ -15,7 +15,7 @@
   "tags": ["post-office", "errands", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 330,
+  "order": 450,
   "prerequisites": ["sfi-b/directions-in-town"],
   "xp": { "base": 115 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

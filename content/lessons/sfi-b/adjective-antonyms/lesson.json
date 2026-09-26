@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 240,
+  "order": 330,
   "prerequisites": [
     "sfi-a/shapes-sizes"
   ],

@@ -15,7 +15,7 @@
   "tags": ["grammar", "conjunctions", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1070,
+  "order": 1246,
   "prerequisites": ["sva-grund-2/cause-effect-clauses"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

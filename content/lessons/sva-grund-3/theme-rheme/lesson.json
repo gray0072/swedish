@@ -15,7 +15,7 @@
   "tags": ["grammar", "word-order", "style", "discourse"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1420,
+  "order": 1517,
   "prerequisites": ["sva-grund-2/long-sentence-word-order"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

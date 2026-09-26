@@ -15,7 +15,7 @@
   "tags": ["phrases", "statistics", "writing"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1190,
+  "order": 1093,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

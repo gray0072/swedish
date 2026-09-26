@@ -14,7 +14,8 @@
       },
       "requires": [],
       "perk": {
-        "type": "cosmetic"
+        "type": "dailyIncome",
+        "valuePerLevel": 2
       },
       "position": {
         "x": 20,
@@ -78,7 +79,8 @@
         "hut"
       ],
       "perk": {
-        "type": "cosmetic"
+        "type": "extraReviewSlots",
+        "valuePerLevel": 4
       },
       "position": {
         "x": 65,

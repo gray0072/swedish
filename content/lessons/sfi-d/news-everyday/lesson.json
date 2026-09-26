@@ -15,7 +15,7 @@
   "tags": ["media", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 530,
+  "order": 750,
   "prerequisites": ["sfi-c/opinion-one-sentence"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

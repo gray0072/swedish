@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 510,
+  "order": 320,
   "prerequisites": [
     "sfi-b/infinitive-att"
   ],

@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 360,
+  "order": 510,
   "prerequisites": [
     "sfi-c/bank-basics"
   ],

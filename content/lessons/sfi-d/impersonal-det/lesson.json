@@ -15,7 +15,7 @@
   "tags": ["grammar", "pronouns"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 770,
+  "order": 740,
   "prerequisites": ["sva-grund-1/det-formal-subject"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

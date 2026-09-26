@@ -15,7 +15,7 @@
   "tags": ["phrases", "speaking", "presentation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1300,
+  "order": 1291,
   "prerequisites": ["sva-grund-1/about-yourself"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["grammar", "syntax", "punctuation", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1510,
+  "order": 1678,
   "prerequisites": ["sva-grund-3/extended-noun-phrase"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

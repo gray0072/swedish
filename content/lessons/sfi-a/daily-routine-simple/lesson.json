@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 250,
+  "order": 384,
   "prerequisites": [
     "sfi-a/time-of-day"
   ],

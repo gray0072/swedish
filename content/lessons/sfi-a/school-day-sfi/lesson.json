@@ -20,7 +20,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 282,
+  "order": 480,
   "prerequisites": [
     "sfi-a/school-items",
     "sfi-a/classroom-instructions"

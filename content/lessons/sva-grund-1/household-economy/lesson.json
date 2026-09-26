@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 790,
+  "order": 733,
   "prerequisites": [
     "sfi-c/money"
   ],

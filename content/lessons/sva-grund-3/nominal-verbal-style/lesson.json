@@ -15,7 +15,7 @@
   "tags": ["grammar", "style", "register", "writing"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1430,
+  "order": 1534,
   "prerequisites": ["sva-grund-2/nominalisation"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

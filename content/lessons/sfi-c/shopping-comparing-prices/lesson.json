@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 370,
+  "order": 530,
   "prerequisites": [
     "sfi-b/clothing-store"
   ],

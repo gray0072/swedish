@@ -15,7 +15,7 @@
   "tags": ["phrases", "climate", "society"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2130,
+  "order": 2100,
   "prerequisites": ["sva-grund-3/climate-sustainability"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["phrases", "writing", "proofreading"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2180,
+  "order": 2200,
   "prerequisites": ["sva-grund-4/self-check-checklist"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

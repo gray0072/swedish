@@ -15,7 +15,7 @@
   "tags": ["grammar", "word-formation", "nouns"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 980,
+  "order": 1084,
   "prerequisites": ["sva-grund-1/verb-groups"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

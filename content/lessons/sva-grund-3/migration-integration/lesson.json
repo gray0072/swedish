@@ -15,7 +15,7 @@
   "tags": ["vocab", "society", "migration"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1700,
+  "order": 1651,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

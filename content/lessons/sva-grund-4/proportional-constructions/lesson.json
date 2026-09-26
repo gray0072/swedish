@@ -15,7 +15,7 @@
   "tags": ["grammar", "word-order", "connectors", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1860,
+  "order": 1970,
   "prerequisites": ["sva-grund-3/comparative-constructions"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

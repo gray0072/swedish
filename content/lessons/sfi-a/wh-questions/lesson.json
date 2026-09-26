@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 360,
+  "order": 173,
   "prerequisites": [
     "sfi-a/statement-word-order"
   ],

@@ -15,7 +15,7 @@
   "tags": ["bank", "money", "errands", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 340,
+  "order": 470,
   "prerequisites": ["sfi-b/money-coins-notes"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["housing", "phrases", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 450,
+  "order": 690,
   "prerequisites": ["sfi-b/household-chores"],
   "xp": { "base": 115 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

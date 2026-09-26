@@ -15,7 +15,7 @@
   "tags": ["vocab", "technology", "society"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1680,
+  "order": 1615,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

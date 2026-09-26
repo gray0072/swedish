@@ -15,7 +15,7 @@
   "tags": ["grammar", "writing", "pronunciation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 750,
+  "order": 700,
   "prerequisites": ["sva-grund-2/spoken-written-norms", "sfi-d/connected-speech-reductions"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

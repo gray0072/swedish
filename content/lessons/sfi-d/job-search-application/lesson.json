@@ -15,7 +15,7 @@
   "tags": ["work", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 410,
+  "order": 510,
   "prerequisites": ["sfi-c/looking-for-work"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

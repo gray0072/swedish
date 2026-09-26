@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1100,
+  "order": 932,
   "prerequisites": [
     "sfi-c/health"
   ],

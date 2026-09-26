@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 420,
+  "order": 230,
   "prerequisites": [
     "sfi-b/v2-word-order"
   ],

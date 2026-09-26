@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 530,
+  "order": 580,
   "prerequisites": [
     "sfi-a/numbers-personal-details"
   ],

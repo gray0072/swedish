@@ -15,7 +15,7 @@
   "tags": ["grammar", "clauses", "infinitive"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 610,
+  "order": 420,
   "prerequisites": ["sva-grund-1/att-infinitive"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["sport", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 460,
+  "order": 610,
   "prerequisites": ["sfi-c/free-time-cinema-sports"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

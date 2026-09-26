@@ -20,7 +20,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 50,
+  "order": 68,
   "prerequisites": [
     "sfi-a/numbers-0-20"
   ],

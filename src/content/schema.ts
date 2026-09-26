@@ -302,7 +302,6 @@ export const perkSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('streakFreeze'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('hintToken'), valuePerLevel: z.number() }),
   z.object({ type: z.literal('retryToken'), valuePerLevel: z.number() }),
-  z.object({ type: z.literal('cosmetic') }),
 ]);
 export type Perk = z.infer<typeof perkSchema>;
 export type PerkType = Perk['type'];

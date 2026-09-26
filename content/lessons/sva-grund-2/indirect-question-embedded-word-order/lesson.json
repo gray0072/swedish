@@ -15,7 +15,7 @@
   "tags": ["grammar", "word-order", "questions"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1060,
+  "order": 1228,
   "prerequisites": ["sva-grund-2/reported-speech-verbs"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

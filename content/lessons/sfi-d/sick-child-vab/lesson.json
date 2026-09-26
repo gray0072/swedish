@@ -15,7 +15,7 @@
   "tags": ["family", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 500,
+  "order": 690,
   "prerequisites": ["sva-grund-1/digital-life"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

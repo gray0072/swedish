@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 410,
+  "order": 610,
   "prerequisites": [
     "sfi-b/household-chores"
   ],

@@ -15,7 +15,7 @@
   "tags": ["family", "school", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 510,
+  "order": 710,
   "prerequisites": ["sfi-c/parents-meetings-school"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

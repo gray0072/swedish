@@ -15,7 +15,7 @@
   "tags": ["grammar", "clauses", "conditionals"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 600,
+  "order": 400,
   "prerequisites": ["sfi-d/skulle-infinitive-politeness"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

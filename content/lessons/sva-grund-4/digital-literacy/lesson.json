@@ -15,7 +15,7 @@
   "tags": ["vocab", "technology", "media"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2150,
+  "order": 2140,
   "prerequisites": ["sva-grund-3/technology-privacy"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

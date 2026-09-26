@@ -15,7 +15,7 @@
   "tags": ["health", "prevention", "vocab"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1730,
+  "order": 1705,
   "prerequisites": ["sva-grund-2/healthcare-system"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

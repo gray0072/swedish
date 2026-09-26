@@ -15,7 +15,7 @@
   "tags": ["referat", "writing", "phrases", "source"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1640,
+  "order": 1543,
   "prerequisites": ["sva-grund-2/referat-summary"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

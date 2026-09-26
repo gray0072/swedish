@@ -15,7 +15,7 @@
   "tags": ["vocab", "language", "culture"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2100,
+  "order": 2040,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

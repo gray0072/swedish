@@ -15,7 +15,7 @@
   "tags": ["vocab", "society", "rights"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2140,
+  "order": 2120,
   "prerequisites": ["sva-grund-3/discrimination-equality"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

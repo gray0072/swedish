@@ -15,7 +15,7 @@
   "tags": ["grammar", "reported-speech", "tense"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1090,
+  "order": 1282,
   "prerequisites": ["sva-grund-2/reported-speech-verbs"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

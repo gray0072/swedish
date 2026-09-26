@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ScrollText } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useT } from '@/i18n';
@@ -18,6 +19,11 @@ export default function LessonPage() {
   const lesson = getLesson(lessonId);
   const progress = useLessonProgress(lessonId);
 
+  // A lesson is read top-down: opening one from a scrolled course list starts at its title.
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [lessonId]);
+
   if (!lesson) return <NotFoundPage />;
 
   const articleSlug =
@@ -30,6 +36,11 @@ export default function LessonPage() {
       </Link>
 
       <div>
+        {lesson.meta.kind === 'grammar' && (
+          <span className="mb-1 inline-block rounded-full bg-blue-flag/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-blue-flag dark:bg-aurora/15 dark:text-aurora">
+            {t('level.grammarBadge')}
+          </span>
+        )}
         <h1 className="text-2xl font-semibold">{resolveLocalized(lesson.meta.title, lang)}</h1>
         {lesson.meta.summary && (
           <p className="mt-1 text-sm text-granite dark:text-birch/70">

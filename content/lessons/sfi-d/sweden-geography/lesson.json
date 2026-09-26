@@ -15,7 +15,7 @@
   "tags": ["culture", "geography", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 450,
+  "order": 590,
   "prerequisites": ["sfi-c/swedish-winter"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

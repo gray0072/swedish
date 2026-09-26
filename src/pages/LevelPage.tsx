@@ -51,6 +51,11 @@ export default function LevelPage() {
                 <div>
                   <p className="font-semibold">
                     {resolveLocalized(first.meta.title, lang)}
+                    {first.meta.kind === 'grammar' && (
+                      <span className="ml-2 inline-block rounded-full bg-blue-flag/10 px-2 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-wide text-blue-flag dark:bg-aurora/15 dark:text-aurora">
+                        {t('level.grammarBadge')}
+                      </span>
+                    )}
                     {group.series && (
                       <span className="ml-2 text-xs font-normal text-granite dark:text-birch/50">
                         · {group.lessons.length} {t('level.part')}

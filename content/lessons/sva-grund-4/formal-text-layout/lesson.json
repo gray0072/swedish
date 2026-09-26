@@ -15,7 +15,7 @@
   "tags": ["grammar", "writing", "punctuation", "formal"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1940,
+  "order": 2130,
   "prerequisites": ["sva-grund-3/advanced-punctuation"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

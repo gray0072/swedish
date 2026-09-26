@@ -15,7 +15,7 @@
   "tags": ["review", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 550,
+  "order": 790,
   "prerequisites": ["sfi-d/life-sweden-comparison"],
   "xp": { "base": 115 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

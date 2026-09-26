@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "collocations", "formal"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1910,
+  "order": 2070,
   "prerequisites": ["sva-grund-2/verb-preposition-government"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

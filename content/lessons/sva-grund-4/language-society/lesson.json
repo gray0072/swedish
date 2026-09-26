@@ -15,7 +15,7 @@
   "tags": ["vocab", "language", "society"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2090,
+  "order": 2020,
   "prerequisites": ["sva-grund-3/registers"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

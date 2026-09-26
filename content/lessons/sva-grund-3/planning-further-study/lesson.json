@@ -15,7 +15,7 @@
   "tags": ["studies", "gymnasium", "komvux", "vocab"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1750,
+  "order": 1741,
   "prerequisites": ["sva-grund-1/studying-komvux"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

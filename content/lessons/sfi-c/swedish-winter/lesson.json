@@ -15,7 +15,7 @@
   "tags": ["winter", "weather", "seasons", "clothes"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 310,
+  "order": 410,
   "prerequisites": ["sfi-b/weather"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

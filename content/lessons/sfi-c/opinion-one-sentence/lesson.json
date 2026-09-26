@@ -15,7 +15,7 @@
   "tags": ["phrases", "opinion", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 400,
+  "order": 590,
   "prerequisites": ["sfi-b/tycker-om-gillar-alskar"],
   "xp": { "base": 115 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

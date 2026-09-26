@@ -15,7 +15,7 @@
   "tags": ["shopping", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 490,
+  "order": 670,
   "prerequisites": ["sfi-d/shopping-returns"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

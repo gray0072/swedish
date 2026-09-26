@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "prepositions"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 710,
+  "order": 620,
   "prerequisites": ["sfi-d/abstract-prepositions", "sva-grund-2/verb-preposition-government"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

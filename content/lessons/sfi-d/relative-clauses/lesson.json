@@ -15,7 +15,7 @@
   "tags": ["grammar", "clauses"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 660,
+  "order": 520,
   "prerequisites": ["sfi-c/relative-som", "sva-grund-2/relative-clauses"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

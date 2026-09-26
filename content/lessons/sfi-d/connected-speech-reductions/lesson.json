@@ -15,7 +15,7 @@
   "tags": ["grammar", "pronunciation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 670,
+  "order": 540,
   "prerequisites": ["sfi-c/pronunciation-word-accent"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

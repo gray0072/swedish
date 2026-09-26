@@ -117,7 +117,6 @@ Two rules govern this list:
 | `streakFreeze` | +N freezes can be *stored* (the weekly grant stays at 1) | `applyStreak()` |
 | `hintToken` | N free hints per quiz run | `QuizRunner` + `quiz/hints.ts` |
 | `retryToken` | N extra second tries per run, at half credit | `QuizRunner` retry budget |
-| `cosmetic` | Visual only — decorations, seasonal skins | nothing, and the card says so |
 
 **Hints never answer the question, they narrow it** (`src/quiz/hints.ts`): a multiple-choice
 question loses half its distractors but never the last one; a typed answer reveals its first

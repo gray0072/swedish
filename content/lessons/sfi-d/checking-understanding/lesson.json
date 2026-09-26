@@ -15,7 +15,7 @@
   "tags": ["grammar", "conversation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 760,
+  "order": 720,
   "prerequisites": ["sfi-d/modal-particles"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["grammar", "negation", "word-order"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1540,
+  "order": 1732,
   "prerequisites": ["sva-grund-1/subordinate-clause-word-order"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

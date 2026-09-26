@@ -15,7 +15,7 @@
   "tags": ["grammar", "pronunciation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 600,
+  "order": 500,
   "prerequisites": ["sfi-b/pronunciation-melody-vowel-length"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

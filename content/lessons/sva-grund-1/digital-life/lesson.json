@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 800,
+  "order": 751,
   "prerequisites": [
     "sfi-d/authorities"
   ],

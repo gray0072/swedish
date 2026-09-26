@@ -15,7 +15,7 @@
   "tags": ["shopping", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 480,
+  "order": 650,
   "prerequisites": ["sfi-c/shopping-comparing-prices"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

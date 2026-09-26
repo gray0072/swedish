@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 450,
+  "order": 300,
   "prerequisites": [
     "sfi-b/plural-five-declensions"
   ],

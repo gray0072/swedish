@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 550,
+  "order": 500,
   "prerequisites": [
     "sfi-a/pa-with-days"
   ],

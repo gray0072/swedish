@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "passive"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 580,
+  "order": 360,
   "prerequisites": ["sfi-c/s-passive-intro", "sva-grund-2/passive-voice"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["economy", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 370,
+  "order": 430,
   "prerequisites": ["sfi-c/paying-bills"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

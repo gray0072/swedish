@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 150,
+  "order": 231,
   "prerequisites": [
     "sfi-a/days-of-week"
   ],

@@ -15,7 +15,7 @@
   "tags": ["grammar", "word-formation", "vocabulary"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1450,
+  "order": 1570,
   "prerequisites": ["sva-grund-2/word-formation"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

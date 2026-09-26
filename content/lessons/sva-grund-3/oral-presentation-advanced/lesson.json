@@ -15,7 +15,7 @@
   "tags": ["phrases", "speaking", "presentation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1620,
+  "order": 1508,
   "prerequisites": ["sva-grund-2/short-talk-notes"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["grammar", "clauses"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 630,
+  "order": 460,
   "prerequisites": ["sva-grund-2/concessive-clauses"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

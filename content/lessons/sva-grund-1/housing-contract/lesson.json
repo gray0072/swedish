@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 780,
+  "order": 715,
   "prerequisites": [
     "sfi-d/housing"
   ],

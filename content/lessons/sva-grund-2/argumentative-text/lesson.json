@@ -15,7 +15,7 @@
   "tags": ["phrases", "writing", "argumentation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1200,
+  "order": 1111,
   "prerequisites": ["sva-grund-1/opinion-justification"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

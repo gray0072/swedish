@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 160,
+  "order": 240,
   "prerequisites": [
     "sfi-a/months-seasons"
   ],

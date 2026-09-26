@@ -15,7 +15,7 @@
   "tags": ["culture", "etiquette", "comparison", "vocab"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1710,
+  "order": 1669,
   "prerequisites": ["sva-grund-2/holidays-culture-comparison"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

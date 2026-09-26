@@ -15,7 +15,7 @@
   "tags": ["grammar", "conditionals", "verbs"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 900,
+  "order": 941,
   "prerequisites": ["sva-grund-2/conditional-sentences"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

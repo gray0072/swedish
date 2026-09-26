@@ -15,7 +15,7 @@
   "tags": ["grammar", "modals", "preterite"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 500,
+  "order": 300,
   "prerequisites": ["sfi-b/modals-infinitive", "sfi-c/preterite-four-groups"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

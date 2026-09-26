@@ -15,7 +15,7 @@
   "tags": ["grammar", "punctuation", "writing"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1470,
+  "order": 1606,
   "prerequisites": ["sva-grund-1/punctuation-paragraphs"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

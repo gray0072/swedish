@@ -15,7 +15,7 @@
   "tags": ["grammar", "idioms", "vocabulary", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1440,
+  "order": 1552,
   "prerequisites": [],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

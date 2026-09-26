@@ -15,7 +15,7 @@
   "tags": ["culture", "food", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 470,
+  "order": 630,
   "prerequisites": ["sfi-b/food-drinks"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

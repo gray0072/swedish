@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 470,
+  "order": 240,
   "prerequisites": [
     "sfi-c/preterite-four-groups"
   ],

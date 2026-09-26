@@ -15,7 +15,7 @@
   "tags": ["work", "culture", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 420,
+  "order": 530,
   "prerequisites": ["sfi-d/job-search-application"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

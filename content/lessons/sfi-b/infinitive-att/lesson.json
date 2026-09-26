@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 380,
+  "order": 140,
   "prerequisites": [
     "sfi-b/present-tense"
   ],

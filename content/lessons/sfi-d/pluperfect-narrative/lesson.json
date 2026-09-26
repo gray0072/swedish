@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "tenses"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 570,
+  "order": 340,
   "prerequisites": ["sfi-d/tense-system-overview"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

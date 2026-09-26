@@ -15,7 +15,7 @@
   "tags": ["grammar", "writing", "proofreading", "review"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1950,
+  "order": 2150,
   "prerequisites": ["sva-grund-3/proofreading-techniques"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

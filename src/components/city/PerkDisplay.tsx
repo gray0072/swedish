@@ -30,7 +30,6 @@ const PERK_UI: Record<PerkType, { icon: LucideIcon; tone: string }> = {
   streakFreeze: { icon: Snowflake, tone: 'text-blue-flag dark:text-aurora' },
   hintToken: { icon: Lightbulb, tone: 'text-gold' },
   retryToken: { icon: RotateCcw, tone: 'text-falu dark:text-gold' },
-  cosmetic: { icon: Sparkles, tone: 'text-granite dark:text-birch/60' },
 };
 
 /** Percentage perks are stored as fractions (0.03) but read as percents (+3%). */
@@ -50,7 +49,7 @@ export function perkEffectKey(type: PerkType) {
 export function PerkLine({ perk, level }: { perk: Perk; level: number }) {
   const t = useT();
   const { icon: Icon, tone } = PERK_UI[perk.type];
-  const perLevel = perk.type === 'cosmetic' ? 0 : perk.valuePerLevel;
+  const perLevel = perk.valuePerLevel;
   const owned = Math.max(level, 1);
 
   return (
@@ -58,7 +57,7 @@ export function PerkLine({ perk, level }: { perk: Perk; level: number }) {
       <Icon size={14} className={`mt-0.5 shrink-0 ${tone}`} aria-hidden="true" />
       <span>
         {t(perkEffectKey(perk.type) as never, { value: displayValue(perk.type, perLevel * owned) })}
-        {level > 1 && perk.type !== 'cosmetic' && (
+        {level > 1 && (
           <span className="font-normal text-granite dark:text-birch/50">
             {' '}
             ({t('city.level')} {level})

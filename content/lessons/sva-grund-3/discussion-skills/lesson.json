@@ -15,7 +15,7 @@
   "tags": ["phrases", "speaking", "discussion"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1630,
+  "order": 1526,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["economy", "labour-market", "statistics", "vocab"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1720,
+  "order": 1687,
   "prerequisites": ["sva-grund-2/labour-market"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

@@ -15,7 +15,7 @@
   "tags": ["economy", "authorities", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 380,
+  "order": 450,
   "prerequisites": ["sfi-d/bill-receipt-payslip"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

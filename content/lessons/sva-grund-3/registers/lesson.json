@@ -15,7 +15,7 @@
   "tags": ["grammar", "register", "style", "vocabulary"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1490,
+  "order": 1642,
   "prerequisites": ["sva-grund-2/spoken-written-norms"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

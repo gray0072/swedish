@@ -15,7 +15,7 @@
   "tags": ["grammar", "conditionals", "word-order", "review"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1870,
+  "order": 1990,
   "prerequisites": ["sva-grund-3/extended-conditionals"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

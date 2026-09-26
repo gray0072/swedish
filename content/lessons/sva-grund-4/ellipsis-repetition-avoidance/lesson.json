@@ -23,7 +23,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2220,
+  "order": 2190,
   "prerequisites": [
     "sva-grund-4/cohesion-reference"
   ],

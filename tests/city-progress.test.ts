@@ -14,7 +14,7 @@ function building(id: string, era: string, maxLevel: number): Building {
     era,
     name: { en: id },
     requires: [],
-    perk: { type: 'cosmetic' },
+    perk: { type: 'xpMultiplier', valuePerLevel: 0.01 },
     position: { x: 50, y: 50 },
     footprint: { w: 1, h: 1 },
     coins: 10,

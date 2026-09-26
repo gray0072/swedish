@@ -15,7 +15,7 @@
   "tags": ["phone", "internet", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 350,
+  "order": 490,
   "prerequisites": ["sfi-a/phone-numbers"],
   "xp": { "base": 115 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

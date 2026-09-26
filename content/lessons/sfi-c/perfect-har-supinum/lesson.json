@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 480,
+  "order": 260,
   "prerequisites": [
     "sfi-c/supine-strong-verbs"
   ],

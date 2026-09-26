@@ -15,7 +15,7 @@
   "tags": ["grammar", "nouns", "style"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1530,
+  "order": 1714,
   "prerequisites": ["sva-grund-1/double-definiteness"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

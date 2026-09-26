@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 680,
+  "order": 660,
   "prerequisites": [
     "sfi-b/sentence-adverbs"
   ],

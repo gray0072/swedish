@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "tenses"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 560,
+  "order": 320,
   "prerequisites": ["sfi-c/perfect-har-supinum", "sva-grund-1/tense-overview"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

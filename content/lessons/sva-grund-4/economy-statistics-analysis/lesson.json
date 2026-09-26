@@ -15,7 +15,7 @@
   "tags": ["phrases", "economy", "statistics"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 2110,
+  "order": 2060,
   "prerequisites": ["sva-grund-3/economy-labour-trends"],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

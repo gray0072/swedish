@@ -15,7 +15,7 @@
   "tags": ["authorities", "everyday"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 350,
+  "order": 390,
   "prerequisites": ["sfi-a/phone-numbers"],
   "xp": { "base": 110 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

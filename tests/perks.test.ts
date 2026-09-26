@@ -27,7 +27,6 @@ function totalsFor(perk: Perk, level = 1): PerkTotals {
     case 'streakFreeze': t.streakFreeze += perk.valuePerLevel * level; break;
     case 'hintToken': t.hintTokens += perk.valuePerLevel * level; break;
     case 'retryToken': t.retryTokens += perk.valuePerLevel * level; break;
-    case 'cosmetic': break;
   }
   return t;
 }
@@ -53,11 +52,9 @@ function fullyBuiltTotals(): PerkTotals {
 describe('perks', () => {
   it('gives every perk a visible effect — no perk is computed and then ignored', () => {
     // The failure this guards against: a building advertises a bonus, getActivePerks dutifully
-    // totals it, and nothing in the app ever reads that total. `cosmetic` is the one perk
-    // allowed to change nothing, because "decoration" is the whole promise.
+    // totals it, and nothing in the app ever reads that total — every building gives something.
     const used = new Set<PerkType>(buildings.map((b) => b.perk.type));
     for (const type of used) {
-      if (type === 'cosmetic') continue;
       const sample = buildings.find((b) => b.perk.type === type)!.perk;
       expect(totalsFor(sample), `perk ${type} moved nothing`).not.toEqual(NO_PERKS);
     }
@@ -65,7 +62,6 @@ describe('perks', () => {
 
   it('never lets a building promise a bonus worth nothing', () => {
     for (const b of buildings) {
-      if (b.perk.type === 'cosmetic') continue;
       expect(b.perk.valuePerLevel, `building ${b.id}`).toBeGreaterThan(0);
     }
   });
@@ -91,7 +87,7 @@ describe('perks', () => {
     // Every perk type the schema offers should be earned somewhere in the city.
     for (const type of [
       'xpMultiplier', 'coinMultiplier', 'dailyIncome', 'extraReviewSlots',
-      'reviewBonus', 'streakFreeze', 'hintToken', 'retryToken', 'cosmetic',
+      'reviewBonus', 'streakFreeze', 'hintToken', 'retryToken',
     ] as PerkType[]) {
       expect(byType.get(type) ?? 0, `no building grants ${type}`).toBeGreaterThan(0);
     }

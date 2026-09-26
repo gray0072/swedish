@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs", "modality"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 590,
+  "order": 380,
   "prerequisites": ["sfi-c/modal-verbs-preterite"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

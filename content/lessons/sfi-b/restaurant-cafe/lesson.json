@@ -22,7 +22,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 220,
+  "order": 290,
   "prerequisites": [
     "sfi-b/food-drinks",
     "sfi-b/cooking"

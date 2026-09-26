@@ -15,7 +15,7 @@
   "tags": ["vocab", "poetry", "reading"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1660,
+  "order": 1579,
   "prerequisites": [],
   "xp": { "base": 120 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

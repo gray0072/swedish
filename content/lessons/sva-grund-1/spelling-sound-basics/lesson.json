@@ -15,7 +15,7 @@
   "tags": ["grammar", "spelling", "pronunciation"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 650,
+  "order": 850,
   "prerequisites": ["sfi-a/vowel-length"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

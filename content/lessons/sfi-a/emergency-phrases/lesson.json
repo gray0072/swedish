@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 130,
+  "order": 192,
   "prerequisites": [
     "sfi-a/greetings"
   ],

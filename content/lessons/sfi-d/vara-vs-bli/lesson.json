@@ -15,7 +15,7 @@
   "tags": ["grammar", "verbs"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 720,
+  "order": 640,
   "prerequisites": ["sfi-a/ar-har-basics"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

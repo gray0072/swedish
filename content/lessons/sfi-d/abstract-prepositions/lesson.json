@@ -15,7 +15,7 @@
   "tags": ["grammar", "prepositions"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 700,
+  "order": 600,
   "prerequisites": ["sfi-c/prepositions-place-direction"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

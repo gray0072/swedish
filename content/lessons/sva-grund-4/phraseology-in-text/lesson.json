@@ -15,7 +15,7 @@
   "tags": ["grammar", "vocabulary", "style", "idioms"],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1930,
+  "order": 2110,
   "prerequisites": ["sva-grund-3/idioms-metaphors"],
   "xp": { "base": 130 },
   "quiz": { "questionsPerRun": 10, "passScore": 7 },

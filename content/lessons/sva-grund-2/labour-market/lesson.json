@@ -21,7 +21,7 @@
   ],
   "estimatedMinutes": 5,
   "part": null,
-  "order": 1060,
+  "order": 860,
   "prerequisites": [
     "sfi-c/professions"
   ],
