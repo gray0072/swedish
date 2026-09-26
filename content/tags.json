@@ -1,0 +1,1232 @@
+{
+  "tags": {
+    "academic": {
+      "en": "academic",
+      "ru": "академический"
+    },
+    "academic-style": {
+      "en": "academic style",
+      "ru": "академический стиль"
+    },
+    "adjectives": {
+      "en": "adjectives",
+      "ru": "прилагательные"
+    },
+    "administration": {
+      "en": "administration",
+      "ru": "администрация"
+    },
+    "adverbs": {
+      "en": "adverbs",
+      "ru": "наречия"
+    },
+    "agreement": {
+      "en": "agreement",
+      "ru": "согласование"
+    },
+    "alphabet": {
+      "en": "alphabet",
+      "ru": "алфавит"
+    },
+    "animals": {
+      "en": "animals",
+      "ru": "животные"
+    },
+    "antonyms": {
+      "en": "antonyms",
+      "ru": "антонимы"
+    },
+    "appearance": {
+      "en": "appearance",
+      "ru": "внешность"
+    },
+    "argumentation": {
+      "en": "argumentation",
+      "ru": "аргументация"
+    },
+    "argumentative-text": {
+      "en": "argumentative text",
+      "ru": "аргументативный текст"
+    },
+    "articles": {
+      "en": "articles",
+      "ru": "артикли"
+    },
+    "aspect": {
+      "en": "aspect",
+      "ru": "вид глагола"
+    },
+    "authorities": {
+      "en": "authorities",
+      "ru": "госорганы"
+    },
+    "bank": {
+      "en": "bank",
+      "ru": "банк"
+    },
+    "basics": {
+      "en": "basics",
+      "ru": "основы"
+    },
+    "biff": {
+      "en": "BIFF rule",
+      "ru": "правило BIFF"
+    },
+    "body": {
+      "en": "body",
+      "ru": "тело"
+    },
+    "books": {
+      "en": "books",
+      "ru": "книги"
+    },
+    "bureaucracy": {
+      "en": "bureaucracy",
+      "ru": "бюрократия"
+    },
+    "business-style": {
+      "en": "business style",
+      "ru": "деловой стиль"
+    },
+    "cafe": {
+      "en": "café",
+      "ru": "кафе"
+    },
+    "calendar": {
+      "en": "calendar",
+      "ru": "календарь"
+    },
+    "capstone": {
+      "en": "capstone",
+      "ru": "итоговый урок"
+    },
+    "causation": {
+      "en": "causation",
+      "ru": "причинность"
+    },
+    "cause-effect": {
+      "en": "cause and effect",
+      "ru": "причина и следствие"
+    },
+    "celebrations": {
+      "en": "celebrations",
+      "ru": "праздники"
+    },
+    "character": {
+      "en": "character",
+      "ru": "характер"
+    },
+    "children": {
+      "en": "children",
+      "ru": "дети"
+    },
+    "chores": {
+      "en": "chores",
+      "ru": "домашние дела"
+    },
+    "city": {
+      "en": "city",
+      "ru": "город"
+    },
+    "civic-life": {
+      "en": "civic life",
+      "ru": "гражданская жизнь"
+    },
+    "civics": {
+      "en": "civics",
+      "ru": "обществознание"
+    },
+    "claim": {
+      "en": "claim",
+      "ru": "тезис"
+    },
+    "classroom": {
+      "en": "classroom",
+      "ru": "в классе"
+    },
+    "clauses": {
+      "en": "clauses",
+      "ru": "предложения"
+    },
+    "cleft": {
+      "en": "cleft sentences",
+      "ru": "выделительные конструкции"
+    },
+    "climate": {
+      "en": "climate",
+      "ru": "климат"
+    },
+    "clothes": {
+      "en": "clothes",
+      "ru": "одежда"
+    },
+    "clothing": {
+      "en": "clothing",
+      "ru": "одежда"
+    },
+    "cohesion": {
+      "en": "cohesion",
+      "ru": "связность"
+    },
+    "colleagues": {
+      "en": "colleagues",
+      "ru": "коллеги"
+    },
+    "collocations": {
+      "en": "collocations",
+      "ru": "словосочетания"
+    },
+    "colors": {
+      "en": "colors",
+      "ru": "цвета"
+    },
+    "common-mistakes": {
+      "en": "common mistakes",
+      "ru": "частые ошибки"
+    },
+    "communication": {
+      "en": "communication",
+      "ru": "общение"
+    },
+    "communication-strategies": {
+      "en": "communication strategies",
+      "ru": "стратегии общения"
+    },
+    "comparison": {
+      "en": "comparison",
+      "ru": "сравнение"
+    },
+    "complaint": {
+      "en": "complaint",
+      "ru": "жалоба"
+    },
+    "compounds": {
+      "en": "compounds",
+      "ru": "сложные слова"
+    },
+    "concessive": {
+      "en": "concession",
+      "ru": "уступка"
+    },
+    "conditionals": {
+      "en": "conditionals",
+      "ru": "условные"
+    },
+    "conjunctions": {
+      "en": "conjunctions",
+      "ru": "союзы"
+    },
+    "connectors": {
+      "en": "connectors",
+      "ru": "связки"
+    },
+    "consumer-rights": {
+      "en": "consumer rights",
+      "ru": "права потребителя"
+    },
+    "conversation": {
+      "en": "conversation",
+      "ru": "разговор"
+    },
+    "cooking": {
+      "en": "cooking",
+      "ru": "готовка"
+    },
+    "coordination": {
+      "en": "coordination",
+      "ru": "сочинение"
+    },
+    "countries": {
+      "en": "countries",
+      "ru": "страны"
+    },
+    "critical-thinking": {
+      "en": "critical thinking",
+      "ru": "критическое мышление"
+    },
+    "csn": {
+      "en": "CSN",
+      "ru": "CSN"
+    },
+    "culture": {
+      "en": "culture",
+      "ru": "культура"
+    },
+    "cv": {
+      "en": "CV",
+      "ru": "резюме"
+    },
+    "daily-routine": {
+      "en": "daily routine",
+      "ru": "распорядок дня"
+    },
+    "dates": {
+      "en": "dates",
+      "ru": "даты"
+    },
+    "debate": {
+      "en": "debate",
+      "ru": "дебаты"
+    },
+    "declension": {
+      "en": "declension",
+      "ru": "склонение"
+    },
+    "definite-form": {
+      "en": "definite form",
+      "ru": "определённая форма"
+    },
+    "definiteness": {
+      "en": "definiteness",
+      "ru": "определённость"
+    },
+    "definitions": {
+      "en": "definitions",
+      "ru": "определения"
+    },
+    "demonstratives": {
+      "en": "demonstratives",
+      "ru": "указательные"
+    },
+    "dentist": {
+      "en": "dentist",
+      "ru": "стоматолог"
+    },
+    "describing-objects": {
+      "en": "describing objects",
+      "ru": "описание предметов"
+    },
+    "description": {
+      "en": "description",
+      "ru": "описание"
+    },
+    "dictionary": {
+      "en": "dictionary",
+      "ru": "словарь"
+    },
+    "digital": {
+      "en": "digital",
+      "ru": "цифровое"
+    },
+    "directions": {
+      "en": "directions",
+      "ru": "как пройти"
+    },
+    "discourse": {
+      "en": "discourse",
+      "ru": "дискурс"
+    },
+    "discrimination": {
+      "en": "discrimination",
+      "ru": "дискриминация"
+    },
+    "discussion": {
+      "en": "discussion",
+      "ru": "обсуждение"
+    },
+    "doctor": {
+      "en": "doctor",
+      "ru": "врач"
+    },
+    "driving": {
+      "en": "driving",
+      "ru": "вождение"
+    },
+    "ecology": {
+      "en": "ecology",
+      "ru": "экология"
+    },
+    "economy": {
+      "en": "economy",
+      "ru": "экономика"
+    },
+    "education": {
+      "en": "education",
+      "ru": "образование"
+    },
+    "ellipsis": {
+      "en": "ellipsis",
+      "ru": "эллипсис"
+    },
+    "emergency": {
+      "en": "emergency",
+      "ru": "экстренные случаи"
+    },
+    "emotions": {
+      "en": "emotions",
+      "ru": "эмоции"
+    },
+    "emphasis": {
+      "en": "emphasis",
+      "ru": "акцент"
+    },
+    "en-ett": {
+      "en": "en ett",
+      "ru": "en/ett"
+    },
+    "environment": {
+      "en": "environment",
+      "ru": "окружающая среда"
+    },
+    "errands": {
+      "en": "errands",
+      "ru": "дела"
+    },
+    "essay": {
+      "en": "essay",
+      "ru": "эссе"
+    },
+    "etiquette": {
+      "en": "etiquette",
+      "ru": "этикет"
+    },
+    "everyday": {
+      "en": "everyday",
+      "ru": "повседневное"
+    },
+    "family": {
+      "en": "family",
+      "ru": "семья"
+    },
+    "feedback": {
+      "en": "feedback",
+      "ru": "обратная связь"
+    },
+    "feelings": {
+      "en": "feelings",
+      "ru": "чувства"
+    },
+    "focus": {
+      "en": "focus",
+      "ru": "фокус"
+    },
+    "food": {
+      "en": "food",
+      "ru": "еда"
+    },
+    "formal": {
+      "en": "formal",
+      "ru": "официальное"
+    },
+    "formal-letter": {
+      "en": "formal letter",
+      "ru": "официальное письмо"
+    },
+    "forms": {
+      "en": "forms",
+      "ru": "формы"
+    },
+    "free-time": {
+      "en": "free time",
+      "ru": "свободное время"
+    },
+    "frequency-adverbs": {
+      "en": "frequency adverbs",
+      "ru": "наречия частоты"
+    },
+    "fundament": {
+      "en": "fundament",
+      "ru": "фундамент"
+    },
+    "future": {
+      "en": "future",
+      "ru": "будущее"
+    },
+    "future-tense": {
+      "en": "future tense",
+      "ru": "будущее время"
+    },
+    "genitive": {
+      "en": "genitive",
+      "ru": "родительный"
+    },
+    "genre": {
+      "en": "genre",
+      "ru": "жанр"
+    },
+    "geography": {
+      "en": "geography",
+      "ru": "география"
+    },
+    "grammar": {
+      "en": "grammar",
+      "ru": "грамматика"
+    },
+    "groceries": {
+      "en": "groceries",
+      "ru": "продукты"
+    },
+    "gymnasium": {
+      "en": "gymnasium",
+      "ru": "гимназия"
+    },
+    "health": {
+      "en": "health",
+      "ru": "здоровье"
+    },
+    "healthcare": {
+      "en": "healthcare",
+      "ru": "здравоохранение"
+    },
+    "healthcare-system": {
+      "en": "healthcare system",
+      "ru": "система здравоохранения"
+    },
+    "hedging": {
+      "en": "hedging",
+      "ru": "смягчение"
+    },
+    "history": {
+      "en": "history",
+      "ru": "история"
+    },
+    "hobbies": {
+      "en": "hobbies",
+      "ru": "хобби"
+    },
+    "holidays": {
+      "en": "holidays",
+      "ru": "праздники"
+    },
+    "home": {
+      "en": "home",
+      "ru": "дом"
+    },
+    "housing": {
+      "en": "housing",
+      "ru": "жильё"
+    },
+    "idioms": {
+      "en": "idioms",
+      "ru": "идиомы"
+    },
+    "imperative": {
+      "en": "imperative",
+      "ru": "повелительное"
+    },
+    "infinitive": {
+      "en": "infinitive",
+      "ru": "инфинитив"
+    },
+    "instructions": {
+      "en": "instructions",
+      "ru": "инструкции"
+    },
+    "insurance": {
+      "en": "insurance",
+      "ru": "страхование"
+    },
+    "internet": {
+      "en": "internet",
+      "ru": "интернет"
+    },
+    "interview": {
+      "en": "interview",
+      "ru": "интервью"
+    },
+    "job-application": {
+      "en": "job application",
+      "ru": "отклик на вакансию"
+    },
+    "job-search": {
+      "en": "job search",
+      "ru": "поиск работы"
+    },
+    "kallkritik": {
+      "en": "källkritik",
+      "ru": "källkritik"
+    },
+    "kitchen": {
+      "en": "kitchen",
+      "ru": "кухня"
+    },
+    "komvux": {
+      "en": "Komvux",
+      "ru": "Komvux"
+    },
+    "labour-market": {
+      "en": "labour market",
+      "ru": "рынок труда"
+    },
+    "labour-rights": {
+      "en": "labour rights",
+      "ru": "трудовые права"
+    },
+    "language": {
+      "en": "language",
+      "ru": "язык"
+    },
+    "languages": {
+      "en": "languages",
+      "ru": "языки"
+    },
+    "law": {
+      "en": "law",
+      "ru": "закон"
+    },
+    "legal": {
+      "en": "legal",
+      "ru": "право"
+    },
+    "leisure": {
+      "en": "leisure",
+      "ru": "досуг"
+    },
+    "letter": {
+      "en": "letter",
+      "ru": "письмо"
+    },
+    "library": {
+      "en": "library",
+      "ru": "библиотека"
+    },
+    "lifestyle": {
+      "en": "lifestyle",
+      "ru": "образ жизни"
+    },
+    "listening": {
+      "en": "listening",
+      "ru": "аудирование"
+    },
+    "literacy": {
+      "en": "literacy",
+      "ru": "грамотность"
+    },
+    "literature": {
+      "en": "literature",
+      "ru": "литература"
+    },
+    "loanwords": {
+      "en": "loanwords",
+      "ru": "заимствования"
+    },
+    "media": {
+      "en": "media",
+      "ru": "СМИ"
+    },
+    "media-literacy": {
+      "en": "media literacy",
+      "ru": "медиаграмотность"
+    },
+    "messaging": {
+      "en": "messaging",
+      "ru": "переписка"
+    },
+    "metalanguage": {
+      "en": "metalanguage",
+      "ru": "метаязык"
+    },
+    "migration": {
+      "en": "migration",
+      "ru": "миграция"
+    },
+    "modal-verbs": {
+      "en": "modal verbs",
+      "ru": "модальные глаголы"
+    },
+    "modality": {
+      "en": "modality",
+      "ru": "модальность"
+    },
+    "modals": {
+      "en": "modals",
+      "ru": "модальные"
+    },
+    "money": {
+      "en": "money",
+      "ru": "деньги"
+    },
+    "months": {
+      "en": "months",
+      "ru": "месяцы"
+    },
+    "morphology": {
+      "en": "morphology",
+      "ru": "морфология"
+    },
+    "movement": {
+      "en": "movement",
+      "ru": "движение"
+    },
+    "narrative": {
+      "en": "narrative",
+      "ru": "повествование"
+    },
+    "nationalities": {
+      "en": "nationalities",
+      "ru": "национальности"
+    },
+    "nature": {
+      "en": "nature",
+      "ru": "природа"
+    },
+    "navigation": {
+      "en": "navigation",
+      "ru": "ориентирование"
+    },
+    "negation": {
+      "en": "negation",
+      "ru": "отрицание"
+    },
+    "neighbourhood": {
+      "en": "neighbourhood",
+      "ru": "район"
+    },
+    "neighbours": {
+      "en": "neighbours",
+      "ru": "соседи"
+    },
+    "news": {
+      "en": "news",
+      "ru": "новости"
+    },
+    "news-writing": {
+      "en": "news writing",
+      "ru": "новостной текст"
+    },
+    "nominalisation": {
+      "en": "nominalisation",
+      "ru": "номинализация"
+    },
+    "nouns": {
+      "en": "nouns",
+      "ru": "существительные"
+    },
+    "numbers": {
+      "en": "numbers",
+      "ru": "числа"
+    },
+    "numerals": {
+      "en": "numerals",
+      "ru": "числительные"
+    },
+    "objectivity": {
+      "en": "objectivity",
+      "ru": "объективность"
+    },
+    "official-style": {
+      "en": "official style",
+      "ru": "официальный стиль"
+    },
+    "opinion": {
+      "en": "opinion",
+      "ru": "мнение"
+    },
+    "opinions": {
+      "en": "opinions",
+      "ru": "мнения"
+    },
+    "opposites": {
+      "en": "opposites",
+      "ru": "противоположности"
+    },
+    "ordinals": {
+      "en": "ordinals",
+      "ru": "порядковые"
+    },
+    "outdoors": {
+      "en": "outdoors",
+      "ru": "на природе"
+    },
+    "paraphrasing": {
+      "en": "paraphrasing",
+      "ru": "перефразирование"
+    },
+    "participle": {
+      "en": "participle",
+      "ru": "причастие"
+    },
+    "participles": {
+      "en": "participles",
+      "ru": "причастия"
+    },
+    "particle-verbs": {
+      "en": "particle verbs",
+      "ru": "фразовые глаголы"
+    },
+    "particles": {
+      "en": "particles",
+      "ru": "частицы"
+    },
+    "parts-of-speech": {
+      "en": "parts of speech",
+      "ru": "части речи"
+    },
+    "passive": {
+      "en": "passive",
+      "ru": "пассив"
+    },
+    "passive-voice": {
+      "en": "passive voice",
+      "ru": "страдательный залог"
+    },
+    "past-tense": {
+      "en": "past tense",
+      "ru": "прошедшее время"
+    },
+    "payments": {
+      "en": "payments",
+      "ru": "платежи"
+    },
+    "people": {
+      "en": "people",
+      "ru": "люди"
+    },
+    "personal-experience": {
+      "en": "personal experience",
+      "ru": "личный опыт"
+    },
+    "personal-info": {
+      "en": "personal info",
+      "ru": "личные данные"
+    },
+    "personnummer": {
+      "en": "personnummer",
+      "ru": "personnummer"
+    },
+    "pharmacy": {
+      "en": "pharmacy",
+      "ru": "аптека"
+    },
+    "phone": {
+      "en": "phone",
+      "ru": "телефон"
+    },
+    "phrases": {
+      "en": "phrases",
+      "ru": "фразы"
+    },
+    "places": {
+      "en": "places",
+      "ru": "места"
+    },
+    "planning": {
+      "en": "planning",
+      "ru": "планирование"
+    },
+    "plans": {
+      "en": "plans",
+      "ru": "планы"
+    },
+    "plural": {
+      "en": "plural",
+      "ru": "множественное"
+    },
+    "poetry": {
+      "en": "poetry",
+      "ru": "поэзия"
+    },
+    "police": {
+      "en": "police",
+      "ru": "полиция"
+    },
+    "politeness": {
+      "en": "politeness",
+      "ru": "вежливость"
+    },
+    "portfolio": {
+      "en": "portfolio",
+      "ru": "портфолио"
+    },
+    "possessive": {
+      "en": "possessive",
+      "ru": "притяжательное"
+    },
+    "possessives": {
+      "en": "possessives",
+      "ru": "притяжательные"
+    },
+    "post-office": {
+      "en": "post office",
+      "ru": "почта"
+    },
+    "precision": {
+      "en": "precision",
+      "ru": "точность"
+    },
+    "prepositions": {
+      "en": "prepositions",
+      "ru": "предлоги"
+    },
+    "preschool": {
+      "en": "preschool",
+      "ru": "детский сад"
+    },
+    "present-tense": {
+      "en": "present tense",
+      "ru": "настоящее время"
+    },
+    "presentation": {
+      "en": "presentation",
+      "ru": "презентация"
+    },
+    "preterite": {
+      "en": "preterite",
+      "ru": "претерит"
+    },
+    "prevention": {
+      "en": "prevention",
+      "ru": "профилактика"
+    },
+    "process": {
+      "en": "process",
+      "ru": "процесс"
+    },
+    "professions": {
+      "en": "professions",
+      "ru": "профессии"
+    },
+    "pronouns": {
+      "en": "pronouns",
+      "ru": "местоимения"
+    },
+    "pronunciation": {
+      "en": "pronunciation",
+      "ru": "произношение"
+    },
+    "proofreading": {
+      "en": "proofreading",
+      "ru": "вычитка"
+    },
+    "prosody": {
+      "en": "prosody",
+      "ru": "интонация"
+    },
+    "punctuation": {
+      "en": "punctuation",
+      "ru": "пунктуация"
+    },
+    "quantifiers": {
+      "en": "quantifiers",
+      "ru": "кванторы"
+    },
+    "questions": {
+      "en": "questions",
+      "ru": "вопросы"
+    },
+    "reading": {
+      "en": "reading",
+      "ru": "чтение"
+    },
+    "recycling": {
+      "en": "recycling",
+      "ru": "переработка"
+    },
+    "referat": {
+      "en": "referat",
+      "ru": "реферат"
+    },
+    "reference": {
+      "en": "reference",
+      "ru": "справка"
+    },
+    "reflection": {
+      "en": "reflection",
+      "ru": "рефлексия"
+    },
+    "reflexive-verbs": {
+      "en": "reflexive verbs",
+      "ru": "возвратные глаголы"
+    },
+    "register": {
+      "en": "register",
+      "ru": "регистр"
+    },
+    "relationships": {
+      "en": "relationships",
+      "ru": "отношения"
+    },
+    "relative-clause": {
+      "en": "relative clause",
+      "ru": "определительное придаточное"
+    },
+    "relative-clauses": {
+      "en": "relative clauses",
+      "ru": "определительные придаточные"
+    },
+    "reported-speech": {
+      "en": "reported speech",
+      "ru": "косвенная речь"
+    },
+    "restaurant": {
+      "en": "restaurant",
+      "ru": "ресторан"
+    },
+    "retelling": {
+      "en": "retelling",
+      "ru": "пересказ"
+    },
+    "review": {
+      "en": "review",
+      "ru": "повторение"
+    },
+    "rights": {
+      "en": "rights",
+      "ru": "права"
+    },
+    "safety": {
+      "en": "safety",
+      "ru": "безопасность"
+    },
+    "salary": {
+      "en": "salary",
+      "ru": "зарплата"
+    },
+    "satsschema": {
+      "en": "satsschema",
+      "ru": "satsschema"
+    },
+    "school": {
+      "en": "school",
+      "ru": "школа"
+    },
+    "seasons": {
+      "en": "seasons",
+      "ru": "времена года"
+    },
+    "self-presentation": {
+      "en": "self presentation",
+      "ru": "о себе"
+    },
+    "sentence-elements": {
+      "en": "sentence elements",
+      "ru": "члены предложения"
+    },
+    "sentence-structure": {
+      "en": "sentence structure",
+      "ru": "строение предложения"
+    },
+    "shapes": {
+      "en": "shapes",
+      "ru": "фигуры"
+    },
+    "shopping": {
+      "en": "shopping",
+      "ru": "покупки"
+    },
+    "signs": {
+      "en": "signs",
+      "ru": "вывески"
+    },
+    "sizes": {
+      "en": "sizes",
+      "ru": "размеры"
+    },
+    "small-talk": {
+      "en": "small talk",
+      "ru": "смолток"
+    },
+    "social": {
+      "en": "social",
+      "ru": "общение"
+    },
+    "social-insurance": {
+      "en": "social insurance",
+      "ru": "соцстрахование"
+    },
+    "society": {
+      "en": "society",
+      "ru": "общество"
+    },
+    "source": {
+      "en": "source",
+      "ru": "источник"
+    },
+    "speaking": {
+      "en": "speaking",
+      "ru": "говорение"
+    },
+    "spelling": {
+      "en": "spelling",
+      "ru": "орфография"
+    },
+    "spoken-swedish": {
+      "en": "spoken swedish",
+      "ru": "разговорный шведский"
+    },
+    "sport": {
+      "en": "sport",
+      "ru": "спорт"
+    },
+    "sports": {
+      "en": "sports",
+      "ru": "спорт"
+    },
+    "statistics": {
+      "en": "statistics",
+      "ru": "статистика"
+    },
+    "store": {
+      "en": "store",
+      "ru": "магазин"
+    },
+    "storytelling": {
+      "en": "storytelling",
+      "ru": "рассказ"
+    },
+    "studies": {
+      "en": "studies",
+      "ru": "учёба"
+    },
+    "study-skills": {
+      "en": "study skills",
+      "ru": "навыки учёбы"
+    },
+    "style": {
+      "en": "style",
+      "ru": "стиль"
+    },
+    "subordinate-clause": {
+      "en": "subordinate clause",
+      "ru": "придаточное"
+    },
+    "subordinate-clauses": {
+      "en": "subordinate clauses",
+      "ru": "придаточные"
+    },
+    "subordination": {
+      "en": "subordination",
+      "ru": "подчинение"
+    },
+    "summary": {
+      "en": "summary",
+      "ru": "краткое изложение"
+    },
+    "sva1": {
+      "en": "SVA 1",
+      "ru": "SVA 1"
+    },
+    "syntax": {
+      "en": "syntax",
+      "ru": "синтаксис"
+    },
+    "system": {
+      "en": "system",
+      "ru": "система"
+    },
+    "taxes": {
+      "en": "taxes",
+      "ru": "налоги"
+    },
+    "technology": {
+      "en": "technology",
+      "ru": "технологии"
+    },
+    "temporal-clause": {
+      "en": "temporal clause",
+      "ru": "придаточное времени"
+    },
+    "tense": {
+      "en": "tense",
+      "ru": "время"
+    },
+    "tenses": {
+      "en": "tenses",
+      "ru": "времена"
+    },
+    "terminology": {
+      "en": "terminology",
+      "ru": "терминология"
+    },
+    "text": {
+      "en": "text",
+      "ru": "текст"
+    },
+    "text-structure": {
+      "en": "text structure",
+      "ru": "структура текста"
+    },
+    "time": {
+      "en": "time",
+      "ru": "время"
+    },
+    "time-expressions": {
+      "en": "time expressions",
+      "ru": "выражения времени"
+    },
+    "time-of-day": {
+      "en": "time of day",
+      "ru": "время суток"
+    },
+    "town": {
+      "en": "town",
+      "ru": "город"
+    },
+    "traffic": {
+      "en": "traffic",
+      "ru": "дорожное движение"
+    },
+    "transport": {
+      "en": "transport",
+      "ru": "транспорт"
+    },
+    "travel": {
+      "en": "travel",
+      "ru": "путешествия"
+    },
+    "university": {
+      "en": "university",
+      "ru": "университет"
+    },
+    "utredande-text": {
+      "en": "utredande text",
+      "ru": "utredande text"
+    },
+    "v2": {
+      "en": "V2 rule",
+      "ru": "правило V2"
+    },
+    "verb-groups": {
+      "en": "verb groups",
+      "ru": "группы глаголов"
+    },
+    "verbs": {
+      "en": "verbs",
+      "ru": "глаголы"
+    },
+    "vocab": {
+      "en": "words",
+      "ru": "слова"
+    },
+    "vocabulary": {
+      "en": "vocabulary",
+      "ru": "лексика"
+    },
+    "waste-sorting": {
+      "en": "waste sorting",
+      "ru": "сортировка мусора"
+    },
+    "weather": {
+      "en": "weather",
+      "ru": "погода"
+    },
+    "winter": {
+      "en": "winter",
+      "ru": "зима"
+    },
+    "word-formation": {
+      "en": "word formation",
+      "ru": "словообразование"
+    },
+    "word-order": {
+      "en": "word order",
+      "ru": "порядок слов"
+    },
+    "work": {
+      "en": "work",
+      "ru": "работа"
+    },
+    "work-environment": {
+      "en": "work environment",
+      "ru": "рабочая среда"
+    },
+    "writing": {
+      "en": "writing",
+      "ru": "письмо"
+    },
+    "written-style": {
+      "en": "written style",
+      "ru": "письменный стиль"
+    }
+  }
+}

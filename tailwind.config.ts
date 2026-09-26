@@ -50,6 +50,9 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(6px)' },
           '100%': { transform: 'none' },
         },
+        'fade-in': {
+          '0%': { opacity: '0' },
+        },
         'pop-in': {
           '0%': { opacity: '0', transform: 'scale(0.85)' },
           '100%': { transform: 'none' },
@@ -83,6 +86,7 @@ export default {
         carve: 'carve 900ms ease-out',
         'dala-rock': 'dala-rock 1.6s ease-in-out infinite',
         'rise-in': 'rise-in 220ms ease-out backwards',
+        'fade-in': 'fade-in 180ms ease-out backwards',
         'pop-in': 'pop-in 180ms ease-out backwards',
         'bounce-in': 'bounce-in 520ms cubic-bezier(0.2, 0.8, 0.3, 1.2) backwards',
         bump: 'bump 400ms ease-out',

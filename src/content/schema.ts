@@ -62,6 +62,7 @@ export const tracksFileSchema = z.object({
 // ---------------------------------------------------------------------------
 
 export const lessonKindSchema = z.enum(['vocab', 'grammar', 'phrases', 'mixed']);
+export type LessonKind = z.infer<typeof lessonKindSchema>;
 
 export const lessonPartSchema = z.object({
   series: z.string(),

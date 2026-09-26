@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
-import { Volume2 } from 'lucide-react';
+import { CheckCircle2, Cloud, CloudAlert, Loader2, LogOut, Volume2 } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
-import { useSettings, useLanguage } from '@/store/settings';
-import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
+import { useSettings } from '@/store/settings';
 import { exportSaveToFile } from '@/store/persist';
 import { useCloudSyncStatus } from '@/store/cloudSyncStatus';
 import { listSwedishVoices, previewVoice } from '@/lib/tts';
+import { alertDialog, confirmDialog } from '@/components/ui/Dialog';
+import { LanguageCards } from '@/components/ui/LanguagePicker';
 
 /** Re-reads the installed sv-SE voice list, refreshing once the browser loads it async. */
 function useSwedishVoiceList(): SpeechSynthesisVoice[] {
@@ -22,11 +23,29 @@ function useSwedishVoiceList(): SpeechSynthesisVoice[] {
   return voices;
 }
 
+function CloudStatusPill({ status }: { status: string }) {
+  const t = useT();
+  const look =
+    status === 'syncing'
+      ? { Icon: Loader2, spin: true, key: 'settings.cloud.status.syncing', tone: 'bg-blue-flag/10 text-blue-flag dark:bg-aurora/15 dark:text-aurora' }
+      : status === 'synced'
+        ? { Icon: CheckCircle2, spin: false, key: 'settings.cloud.status.synced', tone: 'bg-pine/10 text-pine dark:bg-aurora/15 dark:text-aurora' }
+        : status === 'error'
+          ? { Icon: CloudAlert, spin: false, key: 'settings.cloud.status.error', tone: 'bg-lingon/10 text-lingon' }
+          : { Icon: Cloud, spin: false, key: null, tone: '' };
+  if (!look.key) return null;
+  const { Icon } = look;
+  return (
+    <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${look.tone}`}>
+      <Icon size={13} aria-hidden="true" className={look.spin ? 'animate-spin' : undefined} />
+      {t(look.key as never)}
+    </span>
+  );
+}
+
 export default function SettingsPage() {
   const t = useT();
-  const lang = useLanguage();
   const settings = useSettings();
-  const setLanguage = useAppStore((s) => s.setLanguage);
   const setTheme = useAppStore((s) => s.setTheme);
   const setSound = useAppStore((s) => s.setSound);
   const setCityMotion = useAppStore((s) => s.setCityMotion);
@@ -35,7 +54,6 @@ export default function SettingsPage() {
   const resetSave = useAppStore((s) => s.resetSave);
   const importSave = useAppStore((s) => s.importSave);
   const fileInput = useRef<HTMLInputElement>(null);
-  const [importMessage, setImportMessage] = useState<string | null>(null);
 
   const fullState = useAppStore((s) => s);
   const cloudSync = useCloudSyncStatus();
@@ -55,18 +73,27 @@ export default function SettingsPage() {
     reader.onload = () => {
       try {
         const json = JSON.parse(String(reader.result));
-        const ok = importSave(json);
-        setImportMessage(ok ? t('settings.importSuccess') : t('settings.importError'));
+        if (importSave(json)) {
+          void alertDialog({ title: t('settings.importSuccess'), tone: 'success' });
+          return;
+        }
       } catch {
-        setImportMessage(t('settings.importError'));
+        // falls through to the error below
       }
+      void alertDialog({ title: t('settings.importError.title'), message: t('settings.importError'), tone: 'error' });
     };
     reader.readAsText(file);
     e.target.value = '';
   }
 
-  function handleReset() {
-    if (window.confirm(t('settings.reset.confirm'))) resetSave();
+  async function handleReset() {
+    const reset = await confirmDialog({
+      title: t('settings.reset.confirm.title'),
+      message: t('settings.reset.confirm'),
+      confirmLabel: t('settings.reset.confirm.action'),
+      tone: 'danger',
+    });
+    if (reset) resetSave();
   }
 
   return (
@@ -74,21 +101,8 @@ export default function SettingsPage() {
       <h1 className="text-2xl font-semibold">{t('settings.title')}</h1>
 
       <section className="card space-y-2">
-        <label className="text-sm font-semibold" htmlFor="language-select">
-          {t('settings.language')}
-        </label>
-        <select
-          id="language-select"
-          value={lang}
-          onChange={(e) => setLanguage(e.target.value as StudyLanguage)}
-          className="w-full rounded-xl border border-granite/25 bg-transparent px-3 py-2.5 text-sm outline-none focus:border-falu dark:border-white/20"
-        >
-          {LANGUAGE_OPTIONS.map(({ code, label }) => (
-            <option key={code} value={code}>
-              {label}
-            </option>
-          ))}
-        </select>
+        <p className="text-sm font-semibold">{t('settings.language')}</p>
+        <LanguageCards />
       </section>
 
       <section className="card space-y-2">
@@ -173,14 +187,15 @@ export default function SettingsPage() {
           <label className="text-sm font-semibold">{t('settings.cloud.title')}</label>
           <p className="text-xs text-granite dark:text-birch/60">{t('settings.cloud.description')}</p>
           {cloudSync.user ? (
-            <div className="flex items-center justify-between gap-2">
-              <span className="truncate text-xs text-granite dark:text-birch/60">
-                {cloudSync.user.email}
-                {cloudSync.status === 'syncing' && ` · ${t('settings.cloud.status.syncing')}`}
-                {cloudSync.status === 'synced' && ` · ${t('settings.cloud.status.synced')}`}
-                {cloudSync.status === 'error' && ` · ${t('settings.cloud.status.error')}`}
-              </span>
+            // Email and status each get their own line: side by side with the button they
+            // were squeezed into one truncated row, and a phone showed "…" instead of "Synced".
+            <div className="flex flex-wrap items-center gap-3 pt-1">
+              <div className="min-w-0 flex-1 space-y-1.5">
+                <p className="break-all text-sm font-medium">{cloudSync.user.email}</p>
+                <CloudStatusPill status={cloudSync.status} />
+              </div>
               <button className="btn-secondary shrink-0" onClick={cloudSync.signOut}>
+                <LogOut size={15} aria-hidden="true" />
                 {t('settings.cloud.signOut')}
               </button>
             </div>
@@ -206,7 +221,6 @@ export default function SettingsPage() {
           className="hidden"
           onChange={handleFileChange}
         />
-        {importMessage && <p className="text-xs text-granite dark:text-birch/60">{importMessage}</p>}
       </section>
 
       <section className="card">

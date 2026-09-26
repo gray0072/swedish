@@ -9,6 +9,8 @@ import { getArticleSlugForLessonSlug } from '@/content/referenceLinks';
 import { useLessonProgress } from '@/store/progress';
 import TheoryView from '@/components/lesson/TheoryView';
 import VocabTable from '@/components/lesson/VocabTable';
+import { displayTags } from '@/content/tags';
+import { KindBadge, TagChips } from '@/components/lesson/LessonBadges';
 import NotFoundPage from './NotFoundPage';
 
 export default function LessonPage() {
@@ -36,17 +38,14 @@ export default function LessonPage() {
       </Link>
 
       <div>
-        {lesson.meta.kind === 'grammar' && (
-          <span className="mb-1 inline-block rounded-full bg-blue-flag/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-blue-flag dark:bg-aurora/15 dark:text-aurora">
-            {t('level.grammarBadge')}
-          </span>
-        )}
+        <KindBadge kind={lesson.meta.kind} className="mb-1.5" />
         <h1 className="text-2xl font-semibold">{resolveLocalized(lesson.meta.title, lang)}</h1>
         {lesson.meta.summary && (
           <p className="mt-1 text-sm text-granite dark:text-birch/70">
             {resolveLocalized(lesson.meta.summary, lang)}
           </p>
         )}
+        <TagChips tags={displayTags(lesson.meta)} className="mt-3" />
         {progress?.passed && (
           <p className="mt-2 text-sm font-semibold text-pine dark:text-aurora">
             ✓ {t('lesson.passed')} · {t('lesson.bestScore')}: {progress.bestScore}/

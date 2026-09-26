@@ -4,10 +4,12 @@ import { BookOpen, Home, Landmark, Settings as SettingsIcon } from 'lucide-react
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useCloudSync } from '@/store/useCloudSync';
-import { useLanguage, useSettings } from '@/store/settings';
-import { LANGUAGE_OPTIONS, type StudyLanguage } from '@/content/schema';
+import { useSettings } from '@/store/settings';
 import DalaHorse from '@/components/ui/DalaHorse';
 import AchievementToasts from '@/components/ui/AchievementToasts';
+import { DialogHost } from '@/components/ui/Dialog';
+import { Flag } from '@/components/ui/Flag';
+import { LanguageMenu } from '@/components/ui/LanguagePicker';
 
 function PageLoading() {
   return (
@@ -34,25 +36,6 @@ function useThemeEffect() {
       return () => mq.removeEventListener('change', apply);
     }
   }, [theme]);
-}
-
-function LanguageToggle() {
-  const lang = useLanguage();
-  const setLanguage = useAppStore((s) => s.setLanguage);
-  return (
-    <select
-      value={lang}
-      onChange={(e) => setLanguage(e.target.value as StudyLanguage)}
-      aria-label="Study language"
-      className="rounded-full border border-granite/30 bg-transparent px-3 py-1.5 text-xs font-semibold text-granite outline-none focus:border-falu dark:text-birch/70"
-    >
-      {LANGUAGE_OPTIONS.map(({ code, label }) => (
-        <option key={code} value={code}>
-          {label}
-        </option>
-      ))}
-    </select>
-  );
 }
 
 /**
@@ -107,7 +90,7 @@ export default function AppShell() {
       <header className="border-b border-granite/15 bg-birch/90 backdrop-blur dark:border-white/10 dark:bg-midnight/90">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3">
           <NavLink to="/" className="flex items-center gap-2 font-display text-xl font-semibold">
-            <span aria-hidden="true">🇸🇪</span>
+            <Flag code="se" className="h-4" />
             {t('app.title' as never)}
           </NavLink>
           <nav className="hidden gap-1 sm:flex">
@@ -129,7 +112,7 @@ export default function AppShell() {
             ))}
           </nav>
           <div className="flex items-center gap-2">
-            <LanguageToggle />
+            <LanguageMenu />
             <a
               href={REPO_URL}
               target="_blank"
@@ -168,6 +151,7 @@ export default function AppShell() {
         </div>
       </main>
       <AchievementToasts />
+      <DialogHost />
     </div>
   );
 }

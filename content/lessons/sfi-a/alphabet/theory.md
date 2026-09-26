@@ -2,6 +2,11 @@ Det svenska alfabetet (the Swedish alphabet) has **29 letters**. The first 26 ar
 
 Then come three EXTRA letters at the very end: **å, ä, ö**. This is important: å is not "a with a ring", ä is not "a with dots", and ö is not "o with dots" — in Swedish they are separate letters with their own place in the alphabet, right after z. A Swedish dictionary or a phone book always sorts ... x, y, z, å, ä, ö at the end, so if you're looking up a word starting with one of these, look last, not among the a's or o's.
 
+```example
+A. B. C. D. E. F. G. H. I. J. K. L. M. N. O. P. Q. R. S. T. U. V. W. X. Y. Z. Å. Ä. Ö. — the whole alphabet, letter by letter
+Å. Ä. Ö. — the three extra letters at the very end
+```
+
 Sound-wise:
 - **å** sounds like the "o" in English "more" — e.g. **båt** (boat), **gå** (to walk).
 - **ä** sounds like the "e" in English "bed" — e.g. **äta** (to eat), **väska** (bag).

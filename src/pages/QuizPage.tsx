@@ -5,6 +5,7 @@ import { useT } from '@/i18n';
 import type { RewardResult } from '@/quiz/engine';
 import type { AchievementUnlock } from '@/store/achievements';
 import QuizRunner from '@/components/quiz/QuizRunner';
+import { confirmDialog } from '@/components/ui/Dialog';
 import NotFoundPage from './NotFoundPage';
 
 export default function QuizPage() {
@@ -23,8 +24,15 @@ export default function QuizPage() {
 
   if (!lesson) return <NotFoundPage />;
 
-  const handleQuit = () => {
-    if (window.confirm(t('quiz.confirmQuit'))) {
+  const handleQuit = async () => {
+    const quit = await confirmDialog({
+      title: t('quiz.confirmQuit.title'),
+      message: t('quiz.confirmQuit'),
+      confirmLabel: t('quiz.quit'),
+      cancelLabel: t('quiz.confirmQuit.stay'),
+      tone: 'danger',
+    });
+    if (quit) {
       navigate(`/lesson/${levelId}/${slug}`);
     }
   };

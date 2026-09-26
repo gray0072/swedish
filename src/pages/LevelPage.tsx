@@ -5,7 +5,9 @@ import { useLanguage } from '@/store/settings';
 import { getLevel, getLessonsForLevel, groupLessonsForList } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import { useAllLessonProgress } from '@/store/progress';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Clock } from 'lucide-react';
+import { displayTags } from '@/content/tags';
+import { KindBadge, TagChips } from '@/components/lesson/LessonBadges';
 import NotFoundPage from './NotFoundPage';
 
 export default function LevelPage() {
@@ -47,26 +49,26 @@ export default function LevelPage() {
               className="animate-rise-in"
               style={{ animationDelay: `${Math.min(index, 10) * 30}ms` }}
             >
-              <Link to={target} className="card card-hover flex items-center justify-between hover:border-falu/40">
-                <div>
+              <Link to={target} className="card card-hover flex items-center justify-between gap-3 hover:border-falu/40">
+                <div className="min-w-0">
                   <p className="font-semibold">
                     {resolveLocalized(first.meta.title, lang)}
-                    {first.meta.kind === 'grammar' && (
-                      <span className="ml-2 inline-block rounded-full bg-blue-flag/10 px-2 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-wide text-blue-flag dark:bg-aurora/15 dark:text-aurora">
-                        {t('level.grammarBadge')}
-                      </span>
-                    )}
                     {group.series && (
                       <span className="ml-2 text-xs font-normal text-granite dark:text-birch/50">
                         · {group.lessons.length} {t('level.part')}
                       </span>
                     )}
                   </p>
-                  <p className="mt-1 text-xs text-granite dark:text-birch/60">
-                    {first.meta.estimatedMinutes} {t('level.minutes')}
-                  </p>
+                  <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1.5">
+                    <KindBadge kind={first.meta.kind} />
+                    <span className="inline-flex items-center gap-1 text-xs text-granite dark:text-birch/60">
+                      <Clock size={12} aria-hidden="true" />
+                      {first.meta.estimatedMinutes} {t('level.minutes')}
+                    </span>
+                    <TagChips tags={displayTags(first.meta, 3)} />
+                  </div>
                 </div>
-                {allPassed && <CheckCircle2 className="text-pine dark:text-aurora" size={20} aria-hidden="true" />}
+                {allPassed && <CheckCircle2 className="shrink-0 text-pine dark:text-aurora" size={20} aria-hidden="true" />}
               </Link>
             </li>
           );

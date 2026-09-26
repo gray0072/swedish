@@ -22,6 +22,7 @@ import {
 } from '../src/content/schema';
 import { expandGenerators } from '../src/content/generators';
 import { exampleBlockProblems } from '../src/content/exampleLine';
+import { hasTagLabel } from '../src/content/tags';
 import { PLACEHOLDER, acceptedSpellings, withoutNotes } from '../src/content/swedishText';
 import { grade } from '../src/quiz/grading';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '../src/city/economy';
@@ -103,6 +104,10 @@ if (existsSync(lessonsRoot)) {
         if (!levelIds.has(levelId)) {
           warnings.push(`${meta.id}: references unknown level id "${levelId}" (not in tracks.json)`);
         }
+      }
+
+      for (const tag of meta.tags) {
+        if (!hasTagLabel(tag)) errors.push(`${meta.id}: tag "${tag}" has no label in content/tags.json`);
       }
 
       const vocabPath = join(dir, 'vocab.json');
