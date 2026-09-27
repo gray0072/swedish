@@ -3,23 +3,19 @@ import { Landmark, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { SECONDARY_NAV } from '@/components/layout/secondaryNav';
 import { useLanguage } from '@/store/settings';
-import { useAllLessonProgress, useDueReviewCount } from '@/store/progress';
+import { useDueReviewCount } from '@/store/progress';
 import { useCurrentEra, useOwnedBuildingCount, totalBuildingsCount } from '@/store/city';
-import { getAllLessons } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import WalletBar from '@/components/ui/WalletBar';
 import PerkPanel from '@/components/city/PerkDisplay';
+import NextLessonCard from '@/components/lesson/NextLessonCard';
 
 export default function HomePage() {
   const t = useT();
   const lang = useLanguage();
   const dueCount = useDueReviewCount();
-  const lessonsProgress = useAllLessonProgress();
   const era = useCurrentEra();
   const ownedBuildings = useOwnedBuildingCount();
-
-  const allLessons = getAllLessons();
-  const nextLesson = allLessons.find((l) => !lessonsProgress[l.meta.id]?.passed) ?? allLessons[0];
 
   return (
     <div className="space-y-6">
@@ -34,17 +30,7 @@ export default function HomePage() {
       <PerkPanel />
 
       <div className="grid gap-4 sm:grid-cols-2">
-        {nextLesson && (
-          <Link to={`/lesson/${nextLesson.meta.levels[0]}/${nextLesson.meta.slug}`} className="card card-hover block hover:border-falu/40">
-            <p className="text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">
-              {t('home.continue')}
-            </p>
-            <p className="mt-1 text-lg font-semibold">{resolveLocalized(nextLesson.meta.title, lang)}</p>
-            <p className="mt-1 text-sm text-granite dark:text-birch/70">
-              {resolveLocalized(nextLesson.meta.summary, lang)}
-            </p>
-          </Link>
-        )}
+        <NextLessonCard />
 
         <Link to="/review" className="card card-hover block hover:border-falu/40">
           <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">

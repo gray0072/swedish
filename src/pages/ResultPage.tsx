@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Download, PartyPopper, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
-import { getAllLessons, getLesson } from '@/content/registry';
+import { findNextOpenLesson, getLesson, lessonPath } from '@/content/registry';
+import { useAllLessonProgress } from '@/store/progress';
 import { resolveLocalized } from '@/content/schema';
 import type { RewardResult } from '@/quiz/engine';
 import { useWallet } from '@/store/wallet';
@@ -57,6 +58,7 @@ export default function ResultPage() {
   const lang = useLanguage();
   const wallet = useWallet();
   const buildingLevels = useCityBuildingLevels();
+  const lessonsProgress = useAllLessonProgress();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   // StrictMode runs mount effects twice in dev; without this the fanfare plays over itself.
   const celebrated = useRef(false);
@@ -132,8 +134,9 @@ export default function ResultPage() {
     }, 'image/png');
   }
 
-  const allLessons = getAllLessons();
-  const nextLesson = allLessons.find((l) => l.meta.order > (lesson?.meta.order ?? 0));
+  // The next lesson still to do, not merely the next one in order — after a retry of an old
+  // lesson, "next" leads back to where the learner actually is.
+  const nextLesson = findNextOpenLesson((id) => Boolean(lessonsProgress[id]?.passed), lessonId);
 
   const affordable = getBuildings().find((b) => {
     const level = buildingLevels[b.id] ?? 0;
@@ -244,7 +247,7 @@ export default function ResultPage() {
           {t('result.backToLesson')}
         </Link>
         {nextLesson && (
-          <Link to={`/lesson/${nextLesson.meta.levels[0]}/${nextLesson.meta.slug}`} className="btn-primary">
+          <Link to={lessonPath(nextLesson)} className="btn-primary">
             {t('result.nextLesson')}
           </Link>
         )}

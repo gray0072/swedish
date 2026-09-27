@@ -63,10 +63,10 @@
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь главные предложения с их придаточными продолжениями", "en": "Match the main clauses with their subordinate continuations" },
       "pairs": [
-        ["Jag tror", "att han kommer"],
-        ["Hon sa", "att hon inte visste"],
-        ["Jag hoppas", "att det inte regnar"],
-        ["Vi tycker", "att maten är god"]
+        ["Anna säger", "att hon inte är hungrig"],
+        ["Erik och Sara tror", "att de inte hinner"],
+        ["Jag hoppas", "att jag inte blir sjuk"],
+        ["Vi vet", "att vi inte har tid"]
       ]
     },
     {

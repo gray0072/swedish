@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import {
+  citizenKind,
   citizenPosition,
+  isRallying,
+  rallyCitizens,
   computePopulation,
   makeAgentRng,
   populationCap,
@@ -158,5 +161,31 @@ describe('motion tier resolution (CITY_VISUALS_MOTION.md §4)', () => {
     expect(ambientEnabled('full')).toBe(true);
     expect(ambientEnabled('calm')).toBe(false);
     expect(ambientEnabled('off')).toBe(false);
+  });
+});
+
+describe('rally on a purchase (CITY_VISUALS_LIFE.md §5a)', () => {
+  const graph = buildPathGraph([{ q: 0, r: -3 }, { q: 0, r: -2 }, { q: 0, r: -1 }, { q: 0, r: 0 }]);
+  const center = { x: 600, y: 400 };
+
+  it('runs everyone to the building, two builders and a cheering crowd, then back to the walk', () => {
+    const rng = makeAgentRng(7);
+    const start = Array.from({ length: 5 }, (_, i) => spawnCitizen(i, graph, rng, false));
+    let citizens = rallyCitizens(start, center, { x: 48, y: 24 }, rng);
+    expect(citizens.filter((c) => c.rally?.role === 'build')).toHaveLength(2);
+    expect(citizens.filter((c) => c.rally?.role === 'cheer')).toHaveLength(3);
+
+    // After the run (≤ 2 s) everyone is at the building, busy.
+    for (let i = 0; i < 25; i += 1) citizens = stepAgents(citizens, 0.1, graph, rng);
+    for (const c of citizens) {
+      expect(c.rally?.stage).toBe('act');
+      const p = citizenPosition(c);
+      expect(Math.hypot(p.x - center.x, p.y - center.y)).toBeLessThan(90);
+    }
+    expect(citizens.filter((c) => citizenKind(c) === 'worker')).toHaveLength(2);
+
+    // Long after, the rally is over and each citizen is back on the edge it left.
+    for (let i = 0; i < 120; i += 1) citizens = stepAgents(citizens, 0.1, graph, rng);
+    expect(isRallying(citizens)).toBe(false);
   });
 });

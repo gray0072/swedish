@@ -61,12 +61,12 @@
       "id": "match-1",
       "type": "match",
       "difficulty": 2,
-      "prompt": { "ru": "Сопоставь начало предложения со вторым элементом (глаголом)", "en": "Match the sentence-starter with the second element (the verb)" },
+      "prompt": { "ru": "Сопоставь начало предложения с продолжением — глагол всегда на втором месте", "en": "Match the sentence opening with its continuation — the verb always comes second" },
       "pairs": [
-        ["Jag", "läser"],
-        ["Idag", "läser"],
-        ["Ofta", "läser"],
-        ["Tyvärr", "kan"]
+        ["Jag", "heter Anna."],
+        ["På morgonen", "dricker jag kaffe."],
+        ["På kvällen", "tittar vi på tv."],
+        ["Tyvärr", "kan jag inte komma."]
       ]
     },
     {

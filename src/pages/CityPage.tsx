@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { Check } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
 import { getBuildings, getBuildingsForEra, getEras, getHistoryCardsForEra } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
-import { pickInitialEra } from '@/city/progress';
+import { isEraComplete, pickInitialEra } from '@/city/progress';
 import BuildingCard from '@/components/city/BuildingCard';
 import HistoryCard from '@/components/city/HistoryCard';
 import CityMap from '@/components/city/CityMap';
@@ -14,6 +15,7 @@ import KurbitsDivider from '@/components/ui/KurbitsDivider';
 import WalletBar from '@/components/ui/WalletBar';
 import PerkPanel from '@/components/city/PerkDisplay';
 import Fireworks from '@/components/ui/Fireworks';
+import NextLessonCard from '@/components/lesson/NextLessonCard';
 
 export default function CityPage() {
   const t = useT();
@@ -28,6 +30,21 @@ export default function CityPage() {
   );
 
   const selectedEra = eras.find((e) => e.id === selectedEraId) ?? eras[0];
+
+  // The era strip scrolls sideways; keep the selected era in view — on arrival (the era the
+  // page opened on is often far to the right) and whenever the selection changes. Scrolls the
+  // strip itself rather than `scrollIntoView`, which would also move the page vertically.
+  const stripRef = useRef<HTMLDivElement>(null);
+  const selectedTabRef = useRef<HTMLButtonElement>(null);
+  const firstScroll = useRef(true);
+  useEffect(() => {
+    const strip = stripRef.current;
+    const tab = selectedTabRef.current;
+    if (!strip || !tab) return;
+    const left = tab.offsetLeft - strip.offsetLeft - (strip.clientWidth - tab.offsetWidth) / 2;
+    strip.scrollTo({ left: Math.max(0, left), behavior: firstScroll.current ? 'auto' : 'smooth' });
+    firstScroll.current = false;
+  }, [selectedEra?.id]);
   const unlocked = wallet.xp >= (selectedEra?.unlockXp ?? 0);
   const buildings = selectedEra ? getBuildingsForEra(selectedEra.id) : [];
   const historyCards = selectedEra ? getHistoryCardsForEra(selectedEra.id) : [];
@@ -40,22 +57,38 @@ export default function CityPage() {
       <WalletBar />
       <PerkPanel compact />
 
-      <div className="flex gap-2 overflow-x-auto pb-1">
+      <div ref={stripRef} className="flex gap-2 overflow-x-auto pb-1">
         {eras.map((era) => {
           const isUnlocked = wallet.xp >= era.unlockXp;
+          const complete =
+            isUnlocked && getBuildingsForEra(era.id).length > 0 && isEraComplete(era, getBuildings(), levels);
+          const isSelected = era.id === selectedEra?.id;
           return (
             <button
               key={era.id}
+              ref={isSelected ? selectedTabRef : undefined}
               onClick={() => setSelectedEraId(era.id)}
+              title={complete ? t('city.eraComplete') : undefined}
               className={
-                'shrink-0 rounded-full border px-3 py-1.5 text-sm font-semibold transition-colors ' +
-                (era.id === selectedEra?.id
+                'inline-flex shrink-0 items-center gap-1 rounded-full border px-3 py-1.5 text-sm font-semibold transition-colors ' +
+                (isSelected
                   ? 'border-falu bg-falu text-birch'
                   : isUnlocked
                     ? 'border-granite/25 hover:border-falu/40 dark:border-white/15'
                     : 'border-granite/15 text-granite/50 dark:border-white/10 dark:text-birch/30')
               }
             >
+              {complete && (
+                <span
+                  className={
+                    'inline-flex h-4 w-4 items-center justify-center rounded-full ' +
+                    (isSelected ? 'bg-birch text-falu' : 'bg-pine text-birch dark:bg-aurora dark:text-midnight')
+                  }
+                >
+                  <Check size={11} strokeWidth={3} aria-hidden="true" />
+                  <span className="sr-only">{t('city.eraComplete')}</span>
+                </span>
+              )}
               {resolveLocalized(era.name, lang)}
               {!isUnlocked && ' 🔒'}
             </button>
@@ -123,6 +156,9 @@ export default function CityPage() {
           )}
         </>
       )}
+
+      {/* Coins come from lessons: the foot of the city points straight back to the next one. */}
+      <NextLessonCard />
     </div>
   );
 }

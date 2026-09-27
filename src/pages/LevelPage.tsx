@@ -8,6 +8,7 @@ import { useAllLessonProgress } from '@/store/progress';
 import { CheckCircle2, Clock } from 'lucide-react';
 import { displayTags } from '@/content/tags';
 import { KindBadge, TagChips } from '@/components/lesson/LessonBadges';
+import CourseIcon from '@/components/lesson/CourseIcon';
 import NotFoundPage from './NotFoundPage';
 
 export default function LevelPage() {
@@ -35,7 +36,10 @@ export default function LevelPage() {
       <Link to="/tracks" className="text-sm text-granite hover:underline dark:text-birch/60">
         ← {t('common.back')}
       </Link>
-      <h1 className="text-2xl font-semibold">{resolveLocalized(level.title, lang)}</h1>
+      <h1 className="flex items-center gap-3 text-2xl font-semibold">
+        <CourseIcon levelId={levelId} size={36} />
+        {resolveLocalized(level.title, lang)}
+      </h1>
 
       <ul className="space-y-2">
         {groups.map((group, index) => {
@@ -65,8 +69,10 @@ export default function LevelPage() {
                       <Clock size={12} aria-hidden="true" />
                       {first.meta.estimatedMinutes} {t('level.minutes')}
                     </span>
-                    <TagChips tags={displayTags(first.meta, 3)} />
                   </div>
+                  {/* Tags always start their own row: wrapped in with the kind badge they
+                      broke unevenly on a phone, half on one line and half on the next. */}
+                  <TagChips tags={displayTags(first.meta, 3)} className="mt-1.5" />
                 </div>
                 {allPassed && <CheckCircle2 className="shrink-0 text-pine dark:text-aurora" size={20} aria-hidden="true" />}
               </Link>

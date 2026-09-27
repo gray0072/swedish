@@ -145,6 +145,7 @@
   "city.maxLevel": "Max level",
   "city.cost": "Cost",
   "city.locked": "Needs more XP",
+  "city.eraComplete": "Era complete — every building at max level",
   "city.requires": "Requires first",
   "city.preview.title": "What this era brings",
   "city.preview.hint": "A look ahead — these open for building once the era itself does.",

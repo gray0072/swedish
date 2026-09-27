@@ -813,3 +813,27 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   full screen per unlock where the medal spins in over turning rays, sparks fly, the new
   tier pips fill, and the coins and the next level's goal appear; Continue or Enter moves on.
   Afterwards the result card keeps an "Earned in this lesson" row — tap a medal to replay it.
+
+## 2026-09-27 — Next lesson, course icons, a town that comes running
+
+- **"Next lesson" means the next one still to do.** After a test, the button skips lessons
+  already passed and wraps round to a gap left earlier; the home page and the foot of the
+  city offer the first lesson not yet passed, in real course order (SFI A→D, then SVA 1→4 —
+  the old home card sorted across courses and could suggest the wrong one).
+- **Course icons**: each course has its own icon and colour, read as a journey (sprout,
+  footsteps, bike, train, compass, mountain, sailboat, graduation cap), on the course list
+  and the course page.
+- **Lesson cards** always put their tags on their own row, so phones no longer mix them in
+  with the kind badge and minutes.
+- **City**: an era with every building at max level carries a check mark on its tab; the
+  era strip scrolls to the selected era; residents run to a new or upgraded building — two
+  pitch in, the rest cheer — then go back to their walk (CITY_VISUALS_LIFE.md §5a); an
+  upgrade plays a brighter "ta-da", and the fireworks start after the sound, not over it.
+- **Match questions**: four had pairs that fitted more than one way ("Jag bor / Han jobbar"
+  with "i Malmö / i Stockholm" and similar); they were rewritten so each half has one
+  clear partner. Repeated right-hand sides (en/ett, min/mitt…) are graded by text, so
+  either identical button counts.
+- **Dialogue phrases in review are gap-fills now.** "What does «cutta scope» mean?" offered
+  whole-line translations from unrelated scenes, so the answer gave itself away on one word.
+  Now the line is shown with the phrase blanked and its translation as the clue, and the
+  options are key phrases of other dialogues, cased to fit the gap.

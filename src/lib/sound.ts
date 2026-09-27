@@ -131,16 +131,24 @@ export function playBuild(): void {
 }
 
 /**
- * An existing building gains a level: the same D major, three quick steps up. Short and light
- * — upgrades are bought in runs, so this has to stay pleasant the fifth time in a row.
+ * An existing building gains a level: a bright "ta-da" in the same D major — a quick run up to
+ * the octave and a held top note with the chord under it. It plays on its own first; the
+ * fireworks wait `UPGRADE_SOUND_MS` so the cheer is heard before the sky fills.
  */
 export function playUpgrade(): void {
   play([
-    { freq: D5, at: 0, len: 0.12, gain: 0.07, voice: 'triangle' },
-    { freq: FS5, at: 0.06, len: 0.12, gain: 0.07, voice: 'triangle' },
-    { freq: A5, at: 0.12, len: 0.26, gain: 0.08, voice: 'triangle' },
+    { freq: D5, at: 0, len: 0.1, gain: 0.07, voice: 'triangle' },
+    { freq: FS5, at: 0.08, len: 0.1, gain: 0.07, voice: 'triangle' },
+    { freq: A5, at: 0.16, len: 0.12, gain: 0.08, voice: 'triangle' },
+    { freq: D5 * 2, at: 0.28, len: 0.55, gain: 0.09, voice: 'triangle' },
+    { freq: FS5, at: 0.28, len: 0.5, gain: 0.04 },
+    { freq: D4, at: 0.28, len: 0.6, gain: 0.05 },
   ]);
 }
+
+/** How long each city chime rings before the fireworks start (BuildingCard). */
+export const BUILD_SOUND_MS = 650;
+export const UPGRADE_SOUND_MS = 800;
 
 /**
  * An achievement tier is reached: two bell strikes a fourth apart, high and bright, with a

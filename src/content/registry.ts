@@ -56,6 +56,25 @@ export function getLessonsInCurriculumOrder(): LessonContent[] {
   return result;
 }
 
+/** The lesson page's URL, under the first course that lists the lesson. */
+export function lessonPath(lesson: LessonContent): string {
+  return `/lesson/${lesson.meta.levels[0]}/${lesson.meta.slug}`;
+}
+
+/**
+ * The first lesson on the ladder not yet passed. With `afterId`, the search starts just past
+ * that lesson and wraps round to the start, so "next lesson" after a test skips everything
+ * already done and still finds a gap left earlier in the course. `undefined` once every
+ * lesson (other than `afterId`) is passed.
+ */
+export function findNextOpenLesson(isPassed: (lessonId: string) => boolean, afterId?: string): LessonContent | undefined {
+  const seen = new Set<string>();
+  const ladder = getLessonsInCurriculumOrder().filter((l) => !seen.has(l.meta.id) && seen.add(l.meta.id));
+  const start = afterId ? ladder.findIndex((l) => l.meta.id === afterId) + 1 : 0;
+  const ordered = [...ladder.slice(start), ...ladder.slice(0, start)];
+  return ordered.find((l) => l.meta.id !== afterId && !isPassed(l.meta.id));
+}
+
 // -- Word bank (REFERENCE.md §5) -------------------------------------------
 // A generated view over every vocab.json in the app — never authored, so it always stays in
 // sync with the lesson content it mirrors.

@@ -91,3 +91,35 @@ describe('grade — true-false', () => {
     expect(grade(q, { kind: 'true-false', value: false }).correct).toBe(false);
   });
 });
+
+describe('grade — match', () => {
+  const q: Question = {
+    id: 'q5',
+    type: 'match',
+    difficulty: 1,
+    tags: [],
+    generated: false,
+    prompt: { ru: 'test' },
+    pairs: [
+      ['bil', 'en'],
+      ['hus', 'ett'],
+      ['katt', 'en'],
+    ],
+  };
+  it('accepts either copy of a repeated right-hand side', () => {
+    const pairs: Array<[number, number]> = [
+      [0, 2],
+      [1, 1],
+      [2, 0],
+    ];
+    expect(grade(q, { kind: 'match', pairs }).correct).toBe(true);
+  });
+  it('rejects a wrong pairing', () => {
+    const pairs: Array<[number, number]> = [
+      [0, 1],
+      [1, 0],
+      [2, 2],
+    ];
+    expect(grade(q, { kind: 'match', pairs }).correct).toBe(false);
+  });
+});

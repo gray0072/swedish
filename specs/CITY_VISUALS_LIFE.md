@@ -60,6 +60,18 @@ A **worker** is a citizen variant tied to a building rather than a path:
 - From the `connected` era on, the worker is replaced by a small drone doing the same job,
   which is also how the future eras stay legible as future without new mechanics.
 
+## 5a. Rally
+
+A purchase is a town event. When a building is built or upgraded (at motion tier `full`):
+
+- Every citizen leaves the path and runs to it (≤ 2 s, eased).
+- The two nearest become builders at its front corners, drawn as the era's worker figure
+  with the tool swing; the rest fan out in an arc in front of the footprint and hop.
+- After 4–5.2 s each runs back to the point of the path it left and walks on; the returns are
+  staggered so the crowd breaks up one by one.
+- The shop sound plays first, and the fireworks start once it has rung
+  (`BUILD_SOUND_MS` / `UPGRADE_SOUND_MS` in `sound.ts`).
+
 ## 6. Vessels
 
 - One to three boats per era, on fixed closed spline routes across the water layer, 22–40 s

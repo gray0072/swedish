@@ -5,14 +5,17 @@ import { buildingCostAt } from '@/city/economy';
 import { hasEraArt, loadEraArt, peekEraArt, peekEraFigures } from '../art/registry';
 import { iconFor } from '../icons';
 import type { AmbientEmitter, GridCell } from './types';
-import { compareDepth, WATER_LINE } from './iso';
+import { compareDepth, footprintCenter, TILE_H, TILE_W, WATER_LINE } from './iso';
 import { assignCells } from './placement';
 import { buildPathGraph } from './island';
 import { DARK_THEMES, LIGHT_THEMES, themeCssVars } from './themes';
 import { selectAmbientEmitters, type AmbientInstance } from './ambient';
 import {
+  citizenKind,
   citizenPosition,
   computePopulation,
+  isRallying,
+  rallyCitizens,
   emptyWorkerQueue,
   makeAgentRng,
   requestWorker,
@@ -335,17 +338,37 @@ export default function Scene({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [population]);
 
-  // A building crossing from level N to N+1 gets a worker (LIFE.md §5). Tracked by a ref
-  // rather than effect deps so a re-render that changes nothing about levels never re-fires it.
-  const prevLevelsRef = useRef<Record<string, number>>({});
+  // A building crossing from level N to N+1 gets a worker (LIFE.md §5), and the whole town
+  // comes running: two lend a hand, the rest cheer (LIFE.md §5a). Tracked by a ref rather
+  // than effect deps so a re-render that changes nothing about levels never re-fires it;
+  // seeded with the levels at mount so opening the page is not mistaken for a purchase.
+  // Declared after the sim-rebuild effect above, so a first build — which reshapes the path
+  // graph and so rebuilds the population — rallies the new citizens, not the discarded ones.
+  const prevLevelsRef = useRef<Record<string, number>>(levels);
   useEffect(() => {
     const prev = prevLevelsRef.current;
+    let rallyTo: string | null = null;
     for (const b of buildings) {
       const before = prev[b.id] ?? 0;
       const nowLevel = levels[b.id] ?? 0;
-      if (nowLevel > before) simRef.current.workers = requestWorker(simRef.current.workers, b.id);
+      if (nowLevel > before) {
+        simRef.current.workers = requestWorker(simRef.current.workers, b.id);
+        rallyTo = b.id;
+      }
     }
     prevLevelsRef.current = { ...levels };
+    const placement = rallyTo ? placements.get(rallyTo) : undefined;
+    if (placement && tier === 'full') {
+      const size = Math.max(placement.footprint.w, placement.footprint.h);
+      const sim = simRef.current;
+      sim.citizens = rallyCitizens(
+        sim.citizens,
+        footprintCenter(placement.cell, placement.footprint),
+        { x: (TILE_W / 2) * size, y: (TILE_H / 2) * size },
+        sim.rng,
+      );
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- placements/tier are read, not triggers
   }, [buildings, levels]);
 
   const agentsHandleRef = useRef<AgentsHandle>(null);
@@ -370,16 +393,20 @@ export default function Scene({
           body: clothing?.body ?? '#8A7A63',
           head: clothing?.head ?? '#C9A876',
           accent: clothing?.accent ?? '#4A3F31',
-          kind: 'citizen',
+          kind: citizenKind(c),
         };
       });
       agentsHandleRef.current?.sync(visuals);
       vesselsHandleRef.current?.tick(dtSeconds);
 
+      // A rally runs and swings faster than a stroll, so its frames are swapped more often.
       phaseThrottleRef.current += dtSeconds;
-      if (phaseThrottleRef.current >= 0.32) {
+      if (phaseThrottleRef.current >= (isRallying(sim.citizens) ? 0.12 : 0.32)) {
         phaseThrottleRef.current = 0;
-        agentsHandleRef.current?.setPhases(sim.citizens.map((c) => c.phase));
+        agentsHandleRef.current?.setPhases(
+          sim.citizens.map((c) => c.phase),
+          sim.citizens.map(citizenKind),
+        );
       }
     },
     [graph, clothing],

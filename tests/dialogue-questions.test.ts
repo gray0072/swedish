@@ -45,12 +45,18 @@ describe('generateDialogueQuestions', () => {
     }
   });
 
-  it('the correct choice is the translation of the line the phrase occurs in', () => {
+  it('blanks the phrase out of its line, gives the translation, and the phrase is the answer', () => {
     const [first] = generateDialogueQuestions(a, [a, b]);
     expect(first.type).toBe('mc');
     if (first.type === 'mc') {
-      expect(first.choices[0]).toEqual({ en: 'Hi, how are you?', ru: 'Привет, как дела?' });
+      expect(first.choices[0]).toBe('hur mår du');
+      expect(first.prompt.en).toBe('Fill in the gap: "Hej, ___?" — Hi, how are you?');
     }
+  });
+
+  it("distractors are other dialogues' keyPhrases, cased to fit the gap", () => {
+    const [first] = generateDialogueQuestions(a, [a, b]);
+    if (first.type === 'mc') expect(first.choices.slice(1)).toEqual(['vad heter du']);
   });
 
   it('ids are deterministic and match dialogueQuestionId()', () => {

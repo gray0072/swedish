@@ -22,8 +22,11 @@ export function pickInitialEra(
   const unlocked = ordered.filter((era) => xp >= era.unlockXp);
   if (unlocked.length === 0) return ordered[0];
 
-  const pending = unlocked.find((era) =>
-    buildings.some((b) => b.era === era.id && (levels[b.id] ?? 0) < b.maxLevel),
-  );
+  const pending = unlocked.find((era) => !isEraComplete(era, buildings, levels));
   return pending ?? unlocked[unlocked.length - 1];
+}
+
+/** Every building of the era stands at its maximum level (vacuously true for an empty era). */
+export function isEraComplete(era: Era, buildings: Building[], levels: Record<string, number>): boolean {
+  return buildings.every((b) => b.era !== era.id || (levels[b.id] ?? 0) >= b.maxLevel);
 }

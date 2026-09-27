@@ -6,6 +6,7 @@ import { getTracks, getLessonsForLevel } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import { useAllLessonProgress } from '@/store/progress';
 import ProgressBar from '@/components/ui/ProgressBar';
+import CourseIcon from '@/components/lesson/CourseIcon';
 
 export default function TracksPage() {
   const t = useT();
@@ -52,11 +53,16 @@ export default function TracksPage() {
                   className="card card-hover block animate-rise-in hover:border-falu/40"
                   style={{ animationDelay: `${Math.min(index, 10) * 40}ms` }}
                 >
-                  <p className="font-semibold">{resolveLocalized(level.title, lang)}</p>
-                  <p className="mt-1 text-xs text-granite dark:text-birch/60">
-                    {passed > 0 ? `${passed} / ${lessons.length}` : lessons.length}{' '}
-                    {t('level.lessonsCount')}
-                  </p>
+                  <div className="flex items-center gap-3">
+                    <CourseIcon levelId={level.id} />
+                    <div className="min-w-0">
+                      <p className="font-semibold">{resolveLocalized(level.title, lang)}</p>
+                      <p className="mt-0.5 text-xs text-granite dark:text-birch/60">
+                        {passed > 0 ? `${passed} / ${lessons.length}` : lessons.length}{' '}
+                        {t('level.lessonsCount')}
+                      </p>
+                    </div>
+                  </div>
                   {lessons.length > 0 && (
                     <div className="mt-2">
                       <ProgressBar value={passed} max={lessons.length} />

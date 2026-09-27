@@ -40,3 +40,18 @@ describe('content registry', () => {
     expect(count).toBeGreaterThanOrEqual(12);
   });
 });
+
+describe('findNextOpenLesson', () => {
+  it('skips passed lessons, starts after the current one and wraps round', async () => {
+    const { findNextOpenLesson, getLessonsInCurriculumOrder } = await import('@/content/registry');
+    const ladder = getLessonsInCurriculumOrder();
+    const [a, b, c] = ladder.map((l) => l.meta.id);
+    expect(findNextOpenLesson(() => false)?.meta.id).toBe(a);
+    expect(findNextOpenLesson((id) => id === a || id === b)?.meta.id).toBe(c);
+    // After lesson c with b passed and a still open, "next" is the one after c, not a.
+    expect(findNextOpenLesson((id) => id === b, c)?.meta.id).toBe(ladder[3].meta.id);
+    // Everything after c passed: wraps back to the gap at a.
+    const done = new Set(ladder.slice(1).map((l) => l.meta.id));
+    expect(findNextOpenLesson((id) => done.has(id), c)?.meta.id).toBe(a);
+  });
+});

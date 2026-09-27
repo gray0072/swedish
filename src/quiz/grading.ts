@@ -93,10 +93,12 @@ export function grade(question: Question, answer: Answer): GradeResult {
 
     case 'match':
       if (answer.kind !== 'match') return { correct: false };
+      // Compared by text, not index: pairs like en/ett repeat a right-hand side, and the
+      // learner cannot tell which of two identical "en" buttons was meant for which word.
       return {
         correct:
           answer.pairs.length === question.pairs.length &&
-          answer.pairs.every(([left, right]) => left === right),
+          answer.pairs.every(([left, right]) => question.pairs[left]?.[1] === question.pairs[right]?.[1]),
       };
 
     case 'true-false':

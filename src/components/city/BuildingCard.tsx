@@ -9,7 +9,7 @@ import { formatNumber } from '@/lib/format';
 import { getBuilding } from '@/content/registry';
 import { buildingCostAt } from '@/city/economy';
 import { PerkLine } from './PerkDisplay';
-import { playBuild, playUpgrade } from '@/lib/sound';
+import { BUILD_SOUND_MS, playBuild, playUpgrade, UPGRADE_SOUND_MS } from '@/lib/sound';
 import { celebrate } from '@/components/ui/Fireworks';
 
 /**
@@ -80,9 +80,10 @@ export default function BuildingCard({ building, preview = false }: { building: 
             // buyBuilding returns false when the coins ran out between render and click, or
             // the building is already maxed — no sound for a purchase that didn't happen.
             if (!buyBuilding(building.id, cost, building.maxLevel)) return;
+            // The chime first, then the fireworks: started together, the bursts drowned it.
             if (level === 0) playBuild();
             else playUpgrade();
-            celebrate();
+            window.setTimeout(celebrate, level === 0 ? BUILD_SOUND_MS : UPGRADE_SOUND_MS);
           }}
         >
           {level === 0 ? t('city.build') : t('city.upgrade')} · {formatNumber(cost)} 🪙

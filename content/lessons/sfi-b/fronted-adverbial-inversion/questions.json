@@ -59,10 +59,10 @@
       "difficulty": 2,
       "prompt": { "ru": "Сопоставь начало предложения с продолжением", "en": "Match the sentence opening with its continuation" },
       "pairs": [
-        ["På måndag", "jobbar jag."],
-        ["I Sverige", "bor många människor."],
-        ["Idag", "är det kallt."],
-        ["Ibland", "lagar jag mat."]
+        ["På morgonen", "äter jag frukost."],
+        ["I Sverige", "talar man svenska."],
+        ["På vintern", "är det kallt och mörkt."],
+        ["I affären", "köper jag mjölk."]
       ]
     },
     {

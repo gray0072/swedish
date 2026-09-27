@@ -73,7 +73,9 @@ strings that actually occur in the dialogue.
 | **Role-play** | Pick a role; your lines are blanked and revealed one at a time. No scoring, no input — the point is to say it out loud. |
 
 `keyPhrases` **enter the SRS deck**, the same bridge history cards already use (SPEC §12.4):
-the dialogue read for fun quietly becomes review material. Reading a dialogue for the first
+the dialogue read for fun quietly becomes review material. Each phrase is asked as a gap:
+its line with the phrase blanked out, the line's translation as the clue, and the missing
+Swedish chosen from the phrase and keyPhrases of other dialogues (`dialogueQuestions.ts`). Reading a dialogue for the first
 time pays a small one-time coin reward, again like a history card. That is the whole of its
 connection to the game — no XP, no pass, no streak.
 

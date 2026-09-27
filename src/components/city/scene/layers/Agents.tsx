@@ -22,8 +22,9 @@ export interface AgentsHandle {
    * to justify doubling every figure's node count by pre-rendering both frames (that alone
    * would blow the ≤40 agent-node slice of CITY_VISUALS_MOTION.md §5's budget at a full
    * population). A low-frequency React re-render swaps which single frame is drawn instead;
-   * `Scene.tsx`'s clock calls this on its own throttle, off the same rAF loop. */
-  setPhases: (phases: WalkPhase[]) => void;
+   * `Scene.tsx`'s clock calls this on its own throttle, off the same rAF loop. `kinds` swaps
+   * a citizen for the worker figure while it helps with a new building (agents.ts rally). */
+  setPhases: (phases: WalkPhase[], kinds?: AgentVisual['kind'][]) => void;
 }
 
 /**
@@ -36,6 +37,7 @@ const Agents = forwardRef<AgentsHandle, { initial: AgentVisual[]; figures?: EraF
   ({ initial, figures }, ref) => {
     const wrapperRefs = useRef<(SVGGElement | null)[]>([]);
     const [phases, setPhasesState] = useState<WalkPhase[]>(() => initial.map((v) => v.phase));
+    const [kinds, setKinds] = useState<AgentVisual['kind'][] | null>(null);
 
     useImperativeHandle(
       ref,
@@ -49,8 +51,9 @@ const Agents = forwardRef<AgentsHandle, { initial: AgentVisual[]; figures?: EraF
             wrapper.style.opacity = String(v.opacity);
           }
         },
-        setPhases(next) {
+        setPhases(next, nextKinds) {
           setPhasesState(next);
+          setKinds(nextKinds ?? null);
         },
       }),
       [],
@@ -61,7 +64,7 @@ const Agents = forwardRef<AgentsHandle, { initial: AgentVisual[]; figures?: EraF
     return (
       <g aria-hidden="true">
         {initial.map((v, i) => {
-          const draw = v.kind === 'worker' ? figures.worker : figures.citizen;
+          const draw = (kinds?.[i] ?? v.kind) === 'worker' ? figures.worker : figures.citizen;
           const phase = phases[i] ?? v.phase;
           return (
             <g

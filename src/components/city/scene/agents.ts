@@ -1,7 +1,6 @@
 import type { GridCell } from './types';
 import type { PathGraph } from './island';
-import { cellKey } from './iso';
-import { toScreen } from './iso';
+import { cellKey, toScreen, type ScreenPoint } from './iso';
 import { makeSeededRandom } from './wobble';
 
 /**
@@ -38,6 +37,126 @@ export interface CitizenState {
   idleRemaining: number;
   /** 0..1 fade-in opacity; reaches 1 after `FADE_IN_MS`. */
   fade: number;
+  /** Set while the citizen has run off to a building that was just built or upgraded. */
+  rally?: RallyState;
+}
+
+// ---------------------------------------------------------------------------
+// Rally: a purchase draws the town (CITY_VISUALS_LIFE.md §5a)
+// ---------------------------------------------------------------------------
+
+const RALLY_RUN_SPEED = 110; // world units / s — a run, several times the stroll
+const RALLY_RUN_MIN_S = 0.5;
+const RALLY_RUN_MAX_S = 2;
+const RALLY_ACT_MS = 4000;
+const RALLY_ACT_JITTER_MS = 1200; // so they drift home one by one, not as a block
+const RALLY_BUILDERS = 2;
+const RUN_PHASE_MS = 140;
+const SWING_PHASE_MS = 250;
+const HOP_HEIGHT = 7;
+const HOP_HZ = 1.8;
+
+export type RallyRole = 'build' | 'cheer';
+
+export interface RallyState {
+  role: RallyRole;
+  /** Running there, working or cheering on the spot, running back. */
+  stage: 'go' | 'act' | 'back';
+  from: ScreenPoint;
+  to: ScreenPoint;
+  /** Where on its path the citizen was — the walk resumes from here afterwards. */
+  home: ScreenPoint;
+  /** Run progress 0..1 over `runSeconds`. */
+  t: number;
+  runSeconds: number;
+  /** Time spent in the `act` stage, and how long that stage lasts for this citizen. */
+  elapsed: number;
+  actMs: number;
+}
+
+function runSeconds(a: ScreenPoint, b: ScreenPoint): number {
+  const d = Math.hypot(b.x - a.x, b.y - a.y);
+  return Math.max(RALLY_RUN_MIN_S, Math.min(RALLY_RUN_MAX_S, d / RALLY_RUN_SPEED));
+}
+
+/**
+ * Sends every citizen running to the building at `center`: the nearest `RALLY_BUILDERS` get
+ * to work on it, the rest gather in an arc in front and cheer. `radius` is the footprint's
+ * half-size in world units, so a landmark draws a wider crowd than a hut. Citizens already
+ * mid-rally simply turn towards the new building.
+ */
+export function rallyCitizens(
+  citizens: CitizenState[],
+  center: ScreenPoint,
+  radius: { x: number; y: number },
+  rng: () => number,
+): CitizenState[] {
+  const byDistance = citizens
+    .map((c, i) => {
+      const p = citizenPosition(c);
+      return { i, d: Math.hypot(p.x - center.x, p.y - center.y) };
+    })
+    .sort((a, b) => a.d - b.d)
+    .map((e) => e.i);
+  const builders = new Set(byDistance.slice(0, RALLY_BUILDERS));
+  const crowd = byDistance.filter((i) => !builders.has(i));
+
+  const spot = (i: number): ScreenPoint => {
+    if (builders.has(i)) {
+      // Close in at the front corners, one each side.
+      const side = byDistance.indexOf(i) === 0 ? -1 : 1;
+      return { x: center.x + side * radius.x * 0.55, y: center.y + radius.y * 0.45 };
+    }
+    // The crowd fans out along the front half of an ellipse round the footprint.
+    const k = crowd.indexOf(i);
+    const angle = Math.PI * (0.12 + (0.76 * (k + 0.5)) / Math.max(1, crowd.length));
+    const reach = 1.25 + rng() * 0.25;
+    return {
+      x: center.x + Math.cos(angle) * radius.x * reach,
+      y: center.y + Math.sin(angle) * radius.y * reach,
+    };
+  };
+
+  return citizens.map((c, i) => {
+    const from = citizenPosition(c);
+    const to = spot(i);
+    return {
+      ...c,
+      rally: {
+        role: builders.has(i) ? 'build' : 'cheer',
+        stage: 'go',
+        from,
+        to,
+        home: pathPosition(c),
+        t: 0,
+        runSeconds: runSeconds(from, to),
+        elapsed: 0,
+        actMs: RALLY_ACT_MS + rng() * RALLY_ACT_JITTER_MS,
+      },
+    };
+  });
+}
+
+function stepRally(citizen: CitizenState, rally: RallyState, dtMs: number, fade: number): CitizenState {
+  let { phase, phaseElapsed } = citizen;
+  const flipEvery = rally.stage === 'act' ? SWING_PHASE_MS : RUN_PHASE_MS;
+  phaseElapsed += dtMs;
+  if (phaseElapsed >= flipEvery) {
+    phaseElapsed -= flipEvery;
+    phase = phase === 0 ? 1 : 0;
+  }
+
+  if (rally.stage === 'act') {
+    const elapsed = rally.elapsed + dtMs;
+    if (elapsed < rally.actMs) return { ...citizen, phase, phaseElapsed, fade, rally: { ...rally, elapsed } };
+    const back = { ...rally, stage: 'back' as const, from: rally.to, to: rally.home, t: 0, runSeconds: runSeconds(rally.to, rally.home) };
+    return { ...citizen, phase, phaseElapsed, fade, rally: back };
+  }
+
+  const t = rally.t + dtMs / 1000 / rally.runSeconds;
+  if (t < 1) return { ...citizen, phase, phaseElapsed, fade, rally: { ...rally, t } };
+  if (rally.stage === 'back') return { ...citizen, phase, phaseElapsed, fade, rally: undefined };
+  return { ...citizen, phase, phaseElapsed, fade, rally: { ...rally, stage: 'act', t: 1, elapsed: 0 } };
 }
 
 /** A worker mid-job at a building's `workSpot`, before it walks off and becomes a citizen. */
@@ -157,6 +276,9 @@ export function stepCitizen(citizen: CitizenState, dtSeconds: number, graph: Pat
   const dtMs = dtSeconds * 1000;
   const fade = Math.min(1, citizen.fade + dtMs / FADE_IN_MS);
 
+  // A rally pauses the path walk; it picks up exactly where it left off afterwards.
+  if (citizen.rally) return stepRally(citizen, citizen.rally, dtMs, fade);
+
   if (citizen.idleRemaining > 0) {
     const idleRemaining = Math.max(0, citizen.idleRemaining - dtMs);
     return { ...citizen, idleRemaining, fade };
@@ -212,11 +334,42 @@ export function stepAgents(
   return citizens.map((c) => stepCitizen(c, dtSeconds, graph, rng));
 }
 
-/** World-space position of a citizen along its current edge, for rendering. */
-export function citizenPosition(citizen: CitizenState): { x: number; y: number } {
+/** World-space position of a citizen along its current path edge, ignoring any rally. */
+function pathPosition(citizen: CitizenState): ScreenPoint {
   const a = toScreen(citizen.from);
   const b = toScreen(citizen.to);
   return { x: a.x + (b.x - a.x) * citizen.t, y: a.y + (b.y - a.y) * citizen.t };
+}
+
+/**
+ * How far above the ground a rallying citizen is drawn: cheerers hop, builders bob with each
+ * swing of the tool. Pure function of the rally clock, so it needs no state of its own.
+ */
+function rallyLift(rally: RallyState, phase: WalkPhase): number {
+  if (rally.stage !== 'act') return 0;
+  if (rally.role === 'build') return phase === 1 ? -1.5 : 0;
+  return -Math.abs(Math.sin((rally.elapsed / 1000) * Math.PI * HOP_HZ)) * HOP_HEIGHT;
+}
+
+/** World-space position of a citizen, for rendering — on its path, or wherever a rally took it. */
+export function citizenPosition(citizen: CitizenState): ScreenPoint {
+  const rally = citizen.rally;
+  if (!rally) return pathPosition(citizen);
+  // Ease in and out, so the run starts with a burst and slows as they arrive.
+  const e = rally.t * rally.t * (3 - 2 * rally.t);
+  return {
+    x: rally.from.x + (rally.to.x - rally.from.x) * e,
+    y: rally.from.y + (rally.to.y - rally.from.y) * e + rallyLift(rally, citizen.phase),
+  };
+}
+
+/** Builders at work are drawn as the era's worker figure, tool in hand. */
+export function citizenKind(citizen: CitizenState): 'citizen' | 'worker' {
+  return citizen.rally?.role === 'build' && citizen.rally.stage === 'act' ? 'worker' : 'citizen';
+}
+
+export function isRallying(citizens: CitizenState[]): boolean {
+  return citizens.some((c) => c.rally);
 }
 
 /** Deterministic per-scene RNG — one instance per mounted era, never re-seeded per tick. */
