@@ -11,7 +11,9 @@ swedish/
 │     └─ validate.yml            # typecheck, lint, валидация контента, тесты
 ├─ public/
 │  ├─ .nojekyll                  # чтобы Pages отдавал папки, начинающиеся с _
-│  ├─ favicon.svg
+│  ├─ favicon.svg                # иконка приложения: силуэт Стадсхюсет (§11.4)
+│  ├─ icon-192.png, icon-512.png # PNG-рендеры favicon.svg для манифеста
+│  ├─ apple-touch-icon.png       # 180 px, без скруглений (iOS скругляет сам)
 │  ├─ manifest.webmanifest       # PWA
 │  └─ img/
 │     ├─ ornament/               # далекарлийская лошадка, курбитс, руны, змеиная лента (§11.4)

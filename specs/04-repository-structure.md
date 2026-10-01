@@ -11,7 +11,9 @@ swedish/
 │     └─ validate.yml            # typecheck, lint, content validation, tests
 ├─ public/
 │  ├─ .nojekyll                  # required so /_assets is served by Pages
-│  ├─ favicon.svg
+│  ├─ favicon.svg                # app icon: Stadshuset silhouette (see §11.4)
+│  ├─ icon-192.png, icon-512.png # PNG renders of favicon.svg for the manifest
+│  ├─ apple-touch-icon.png       # 180 px, square corners (iOS rounds them)
 │  ├─ manifest.webmanifest       # PWA
 │  └─ img/
 │     ├─ ornament/               # dala horse, kurbits, runes, serpent band (see §11.4)

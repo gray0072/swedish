@@ -9,6 +9,7 @@ import { formatNumber } from '@/lib/format';
 import { getBuilding } from '@/content/registry';
 import { buildingCostAt } from '@/city/economy';
 import { PerkLine } from './PerkDisplay';
+import { BuildingIcon, iconFor } from './icons';
 import { BUILD_SOUND_MS, playBuild, playUpgrade, UPGRADE_SOUND_MS } from '@/lib/sound';
 import { celebrate } from '@/components/ui/Fireworks';
 
@@ -34,10 +35,15 @@ export default function BuildingCard({ building, preview = false }: { building: 
 
   return (
     <div className="card flex flex-col gap-2">
-      <div className="flex items-start justify-between">
-        <p className="sv-word text-base">{resolveLocalized(building.name, lang)}</p>
+      <div className="flex items-start justify-between gap-2">
+        <div className="flex min-w-0 items-center gap-2">
+          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-granite/10 text-falu dark:bg-white/10 dark:text-gold">
+            <BuildingIcon icon={iconFor(building.id)} className="h-5 w-5" />
+          </span>
+          <p className="sv-word text-base">{resolveLocalized(building.name, lang)}</p>
+        </div>
         {level > 0 && (
-          <span className="rounded-full bg-pine/15 px-2 py-0.5 text-[11px] font-semibold text-pine dark:text-aurora">
+          <span className="shrink-0 rounded-full bg-pine/15 px-2 py-0.5 text-[11px] font-semibold text-pine dark:text-aurora">
             {t('city.level')} {level}/{building.maxLevel}
           </span>
         )}

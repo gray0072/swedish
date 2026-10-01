@@ -61,6 +61,12 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
   frame around era headers.
 - Icons: `lucide-react` as the base, plus hand-made SVGs for the Swedish specifics —
   dalahäst, kanelbulle, midsommarstång, the `T` of tunnelbanan.
+- **App icon** — the silhouette of Stadshuset (Stockholm City Hall) over the water of
+  Riddarfjärden: birch-white tower and hall on falu red, the three gilded crowns and the
+  water lines in gold. `public/favicon.svg` is the source; the PNG icons are renders of it.
+- **Building pictograms** — every building has a pictogram of its own (no two share one),
+  drawn in the 2 px line style of §11.5 (`src/components/city/icons.tsx`). It sits on the
+  building's card and stands in for the building in the scene until its art exists.
 - **No horned helmets. Ever.** They are a 19th-century opera costume invention. One of them
   in this app quietly discredits everything in section 12.
 
