@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pickInitialEra } from '@/city/progress';
+import { findBuyableBuilding, pickInitialEra } from '@/city/progress';
 import type { Building, Era } from '@/content/schema';
 
 const eras: Era[] = [
@@ -44,5 +44,28 @@ describe('pickInitialEra', () => {
 
   it('comes back to an earlier era that still has an upgrade left', () => {
     expect(pickInitialEra(eras, buildings, { a1: 1, b1: 1 }, 500)?.id).toBe('a');
+  });
+});
+
+describe('findBuyableBuilding', () => {
+  const withReq = { ...building('a2', 'a', 1), requires: ['a1'] };
+  const all = [...buildings, withReq];
+
+  it('skips buildings of an era that is still locked', () => {
+    expect(findBuyableBuilding(eras, [building('c1', 'c', 1)], {}, 100, 1000)).toBeUndefined();
+  });
+
+  it('skips a building whose requirement is not built yet', () => {
+    expect(findBuyableBuilding(eras, [withReq], {}, 0, 1000)).toBeUndefined();
+    expect(findBuyableBuilding(eras, [withReq], { a1: 1 }, 0, 1000)?.id).toBe('a2');
+  });
+
+  it('skips maxed and unaffordable buildings', () => {
+    expect(findBuyableBuilding(eras, all, { a1: 2, a2: 1 }, 0, 1000)).toBeUndefined();
+    expect(findBuyableBuilding(eras, all, {}, 0, 5)).toBeUndefined();
+  });
+
+  it('prefers the earliest era', () => {
+    expect(findBuyableBuilding(eras, [...all].reverse(), { a1: 2, a2: 1 }, 500, 1000)?.id).toBe('b1');
   });
 });

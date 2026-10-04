@@ -172,6 +172,11 @@ export default function QuizRunner({
             onChange={setDraft}
             resetKey={resetTick}
             eliminated={hint?.eliminated}
+            verdict={
+              phase === 'feedback' && feedback
+                ? { correct: feedback.correct, reveal: !wasJustOfferedRetry }
+                : null
+            }
           />
         </div>
 
@@ -187,7 +192,7 @@ export default function QuizRunner({
             className={
               'mt-4 rounded-xl border p-3 text-sm ' +
               (feedback.correct
-                ? 'animate-pop-in border-pine/30 bg-pine/10 text-pine dark:text-aurora'
+                ? 'animate-pop-in border-aurora/50 bg-aurora/15 text-pine dark:text-aurora'
                 : 'animate-rise-in border-lingon/30 bg-lingon/10 text-lingon')
             }
           >

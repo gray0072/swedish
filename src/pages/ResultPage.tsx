@@ -9,8 +9,8 @@ import { resolveLocalized } from '@/content/schema';
 import type { RewardResult } from '@/quiz/engine';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
-import { getBuildings } from '@/content/registry';
-import { buildingCostAt } from '@/city/economy';
+import { getBuildings, getEras } from '@/content/registry';
+import { findBuyableBuilding } from '@/city/progress';
 import { renderShareCard } from '@/lib/shareCard';
 import { playFanfare, playSessionEnd } from '@/lib/sound';
 import { useCountUp } from '@/lib/useCountUp';
@@ -138,11 +138,8 @@ export default function ResultPage() {
   // lesson, "next" leads back to where the learner actually is.
   const nextLesson = findNextOpenLesson((id) => Boolean(lessonsProgress[id]?.passed), lessonId);
 
-  const affordable = getBuildings().find((b) => {
-    const level = buildingLevels[b.id] ?? 0;
-    if (level >= b.maxLevel) return false;
-    return buildingCostAt(b, level) <= wallet.coins;
-  });
+  const affordable = findBuyableBuilding(getEras(), getBuildings(), buildingLevels, wallet.xp, wallet.coins);
+  const affordableIsUpgrade = Boolean(affordable && (buildingLevels[affordable.id] ?? 0) > 0);
 
   return (
     <div className="mx-auto max-w-md space-y-6 text-center">
@@ -185,10 +182,10 @@ export default function ResultPage() {
 
         {affordable && (
           <Link
-            to="/city"
+            to={`/city?building=${affordable.id}`}
             className="mt-4 block rounded-lg bg-gold/15 px-3 py-2 text-sm font-semibold text-falu dark:text-gold"
           >
-            {t('result.canAfford')} «{resolveLocalized(affordable.name, lang)}» →
+            {t(affordableIsUpgrade ? 'result.canUpgrade' : 'result.canAfford')} «{resolveLocalized(affordable.name, lang)}» →
           </Link>
         )}
 

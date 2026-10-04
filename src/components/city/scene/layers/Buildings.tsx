@@ -37,17 +37,21 @@ function renderAmbientEmitter(type: AmbientEmitter, cx: number, cy: number, acti
         </g>
       );
     case 'flag':
+      // A pole under the cloth, so the flag is planted on the building instead of hanging in
+      // the air beside it. Only the cloth flaps; the pole is static.
       return (
-        <rect
-          key={key}
-          className={active ? 'ambient-flag' : undefined}
-          x={cx - 1}
-          y={cy - 14}
-          width="9"
-          height="6"
-          fill="var(--trim)"
-          style={{ transformOrigin: `${cx - 1}px ${cy - 11}px` }}
-        />
+        <g key={key}>
+          <line x1={cx - 1} y1={cy - 15} x2={cx - 1} y2={cy + 4} stroke="var(--timber)" strokeWidth="1.2" strokeLinecap="round" />
+          <rect
+            className={active ? 'ambient-flag' : undefined}
+            x={cx - 1}
+            y={cy - 14}
+            width="9"
+            height="6"
+            fill="var(--trim)"
+            style={{ transformOrigin: '0% 50%' }}
+          />
+        </g>
       );
     case 'rotor':
       return (
@@ -60,7 +64,7 @@ function renderAmbientEmitter(type: AmbientEmitter, cx: number, cy: number, acti
           y2={cy}
           stroke="var(--timber)"
           strokeWidth="2"
-          style={{ transformOrigin: `${cx}px ${cy}px` }}
+          style={{ transformOrigin: '50% 50%' }}
         />
       );
     case 'beacon':
@@ -71,7 +75,7 @@ function renderAmbientEmitter(type: AmbientEmitter, cx: number, cy: number, acti
           d={`M ${cx} ${cy} L ${cx - 3} ${cy - 30} A 30 30 0 0 1 ${cx + 3} ${cy - 30} Z`}
           fill="var(--glass-lit)"
           fillOpacity={active ? 0.12 : 0}
-          style={{ transformOrigin: `${cx}px ${cy}px` }}
+          style={{ transformOrigin: '50% 100%' }}
         />
       );
     default:

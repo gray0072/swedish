@@ -24,7 +24,7 @@ export interface AmbientInstance {
 export const EMITTER_NODE_COST: Record<AmbientEmitter, number> = {
   smoke: 3,
   birds: 4,
-  flag: 1,
+  flag: 2,
   rotor: 1,
   beacon: 1,
   aurora: 2,

@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Check } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
-import { getBuildings, getBuildingsForEra, getEras, getHistoryCardsForEra } from '@/content/registry';
+import { getBuilding, getBuildings, getBuildingsForEra, getEras, getHistoryCardsForEra } from '@/content/registry';
 import { resolveLocalized } from '@/content/schema';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
@@ -23,11 +24,37 @@ export default function CityPage() {
   const wallet = useWallet();
   const eras = getEras();
   const levels = useCityBuildingLevels();
+  // `?building=<id>` comes from the result page's "you can now build …" link: open on that
+  // building's era and bring its card into view, instead of leaving the learner to find it.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [focusBuildingId] = useState(() => searchParams.get('building'));
   // Lazy initial state, not an effect: the tab is chosen once, when the page opens, and
   // never yanked out from under a learner who has since switched era by hand.
-  const [selectedEraId, setSelectedEraId] = useState(
-    () => pickInitialEra(eras, getBuildings(), levels, wallet.xp)?.id ?? eras[0]?.id,
-  );
+  const [selectedEraId, setSelectedEraId] = useState(() => {
+    const focusEra = eras.find((e) => e.id === getBuilding(focusBuildingId ?? '')?.era);
+    if (focusEra && wallet.xp >= focusEra.unlockXp) return focusEra.id;
+    return pickInitialEra(eras, getBuildings(), levels, wallet.xp)?.id ?? eras[0]?.id;
+  });
+  const [highlightedId, setHighlightedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!focusBuildingId) return;
+    // Drop the parameter so a reload or a later visit opens the page normally.
+    setSearchParams({}, { replace: true });
+    // One frame for the era's cards to lay out before scrolling to one of them.
+    const frame = window.requestAnimationFrame(() => {
+      const card = document.getElementById(`building-${focusBuildingId}`);
+      if (!card) return;
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setHighlightedId(focusBuildingId);
+    });
+    const timer = window.setTimeout(() => setHighlightedId(null), 2500);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.clearTimeout(timer);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- runs once, for the building the page was opened with
+  }, []);
 
   const selectedEra = eras.find((e) => e.id === selectedEraId) ?? eras[0];
 
@@ -133,11 +160,20 @@ export default function CityPage() {
       {unlocked && selectedEra && (
         <>
           <EraFrame>{resolveLocalized(selectedEra.name, lang)}</EraFrame>
-          <CityMap era={selectedEra} buildings={buildings} />
+          <div id="city-map" className="scroll-mt-20">
+            <CityMap era={selectedEra} buildings={buildings} />
+          </div>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {buildings.map((b) => (
-              <div key={b.id} id={`building-${b.id}`} className="scroll-mt-20">
+              <div
+                key={b.id}
+                id={`building-${b.id}`}
+                className={
+                  'scroll-mt-20 rounded-2xl transition-shadow duration-500 ' +
+                  (highlightedId === b.id ? 'ring-2 ring-gold ring-offset-2 ring-offset-birch dark:ring-offset-midnight' : '')
+                }
+              >
                 <BuildingCard building={b} />
               </div>
             ))}

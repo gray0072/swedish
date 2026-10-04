@@ -75,7 +75,12 @@ const Agents = forwardRef<AgentsHandle, { initial: AgentVisual[]; figures?: EraF
               transform={`translate(${v.x}, ${v.y})`}
               style={{ opacity: v.opacity }}
             >
-              {draw({ x: 0, y: 0, phase, body: v.body, head: v.head, accent: v.accent })}
+              {/* The figure shapes are authored y-up from the feet (head at +y, the step bob
+                  negative), while SVG's y runs down — flip them, or every walker is drawn
+                  upside down: body on top, head underneath with the hood poking out of it. */}
+              <g transform="scale(1, -1)">
+                {draw({ x: 0, y: 0, phase, body: v.body, head: v.head, accent: v.accent })}
+              </g>
             </g>
           );
         })}

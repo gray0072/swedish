@@ -837,3 +837,24 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   whole-line translations from unrelated scenes, so the answer gave itself away on one word.
   Now the line is shown with the phrase blanked and its translation as the clue, and the
   options are key phrases of other dialogues, cased to fit the gap.
+
+## 2026-10-04 — Honest "you can build", walkers the right way up, checked answers in colour
+
+- **The result screen only offers what the city will actually sell.** "You can now build …"
+  checked coins alone, so it named buildings of eras still locked (the sea gate, the wood
+  city) or ones whose prerequisite was missing. It now uses the city's own rule — era open,
+  requirements standing, not maxed, affordable — and says "upgrade" for a building that
+  already stands.
+- **The link lands on the building**: the city opens on its era, scrolls to its card and
+  rings it for a moment. After building or upgrading, the page scrolls back up to the map,
+  where the new building rises.
+- **City map fixes**: walkers were drawn upside down (body on top, the head below with the
+  hood sticking out of it — "a rectangle on a circle"); the foreground reeds swung across
+  the water instead of bending; the ambient flag jumped sideways every 350 ms, and the
+  rotor and beacon turned round a far-away point. All four pivoted on world coordinates
+  inside a self-relative transform box. The flag also got a pole, so it no longer hangs in
+  the air beside the city wall.
+- **Checked answers are coloured**: the picked option turns green or red; after a wrong
+  final answer the right option gets a dashed green outline (not while a retry is still on
+  offer). Typed answers and word order get the same green/red border, and the "Correct!"
+  panel is green instead of grey.

@@ -31,7 +31,10 @@ export default function Props({ active }: { active: boolean }) {
         </g>
       ))}
       {REEDS.map((reed, i) => (
-        <g key={i} className={active ? 'reed-sway' : undefined} style={{ transformOrigin: `${reed.x}px ${reed.y}px` }}>
+        // `reed-sway` measures its origin from the clump's own box (transform-box: fill-box), so
+        // the pivot is its foot in percent — a world-pixel origin there sat ~1000 px away and
+        // swung the whole clump across the water instead of bending it.
+        <g key={i} className={active ? 'reed-sway' : undefined} style={{ transformOrigin: '25% 100%' }}>
           <path
             d={`M ${reed.x} ${reed.y} L ${reed.x - 2} ${reed.y - 18} M ${reed.x + 3} ${reed.y} L ${reed.x + 1} ${reed.y - 22} M ${reed.x + 6} ${reed.y} L ${reed.x + 5} ${reed.y - 15}`}
             stroke="var(--ground-cliff)"

@@ -86,6 +86,8 @@ export default function BuildingCard({ building, preview = false }: { building: 
             // buyBuilding returns false when the coins ran out between render and click, or
             // the building is already maxed — no sound for a purchase that didn't happen.
             if (!buyBuilding(building.id, cost, building.maxLevel)) return;
+            // Back up to the map, where the new building rises — the card itself barely changes.
+            document.getElementById('city-map')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
             // The chime first, then the fireworks: started together, the bursts drowned it.
             if (level === 0) playBuild();
             else playUpgrade();

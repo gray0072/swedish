@@ -17,6 +17,30 @@ interface Props {
   resetKey: number;
   /** Choice indices crossed out by a spent hint token — mc and listen only. */
   eliminated?: number[];
+  /**
+   * Set once the answer has been checked: the picked option turns green or red. `reveal`
+   * also marks the right option of a wrong answer — off while a retry is still on offer,
+   * where showing it would hand the retry its answer.
+   */
+  verdict?: Verdict | null;
+}
+
+export interface Verdict {
+  correct: boolean;
+  reveal: boolean;
+}
+
+// Aurora rather than pine for the border and wash: pine is so dark it reads as grey, not green.
+const CORRECT_CLASSES = 'border-aurora bg-aurora/15 text-pine dark:text-aurora';
+const WRONG_CLASSES = 'border-lingon bg-lingon/10 text-lingon';
+const REVEALED_CLASSES = 'border-dashed border-aurora text-pine dark:text-aurora';
+
+/** Classes for a checked option: green or red if it was picked, a dashed green outline if it is the revealed answer. */
+function verdictClasses(verdict: Verdict | null | undefined, picked: boolean, isAnswer: boolean): string | null {
+  if (!verdict) return null;
+  if (picked) return verdict.correct ? CORRECT_CLASSES : WRONG_CLASSES;
+  if (isAnswer && verdict.reveal && !verdict.correct) return REVEALED_CLASSES;
+  return null;
 }
 
 const optionLetter = ['1', '2', '3', '4', '5', '6'];
@@ -34,9 +58,13 @@ function McChoices({
   lang,
   eliminated = [],
   speak = false,
+  answer,
+  verdict,
 }: {
   choices: Choice[];
   selected: number | null;
+  answer: number;
+  verdict?: Verdict | null;
   onSelect: (i: number) => void;
   disabled: boolean;
   lang: ReturnType<typeof useLanguage>;
@@ -48,6 +76,7 @@ function McChoices({
     <div className="grid gap-2 sm:grid-cols-2">
       {choices.map((choice, i) => {
         const isOut = eliminated.includes(i);
+        const checked = verdictClasses(verdict, selected === i, answer === i);
         return (
         <button
           key={i}
@@ -60,7 +89,9 @@ function McChoices({
           }}
           className={
             'flex items-center gap-2 rounded-xl border px-4 py-3 text-left text-sm font-medium transition-colors ' +
-            (isOut
+            (checked
+              ? checked
+              : isOut
               ? 'border-granite/15 text-granite/40 line-through dark:border-white/10 dark:text-birch/25'
               : selected === i
                 ? 'border-falu bg-falu/10 dark:bg-falu/20'
@@ -84,6 +115,7 @@ export default function QuestionRenderer({
   onChange,
   resetKey,
   eliminated,
+  verdict,
 }: Props) {
   const lang = useLanguage();
   const t = useT();
@@ -124,6 +156,8 @@ export default function QuestionRenderer({
           disabled={disabled}
           lang={lang}
           eliminated={eliminated}
+          answer={question.answer}
+          verdict={verdict}
           speak
           onSelect={(i) => {
             setMcChoice(i);
@@ -154,6 +188,8 @@ export default function QuestionRenderer({
           disabled={disabled}
           lang={lang}
           eliminated={eliminated}
+          answer={question.answer}
+          verdict={verdict}
           onSelect={(i) => {
             setMcChoice(i);
             onChange({ kind: 'listen', choiceIndex: i });
@@ -183,7 +219,10 @@ export default function QuestionRenderer({
           autoCapitalize="off"
           autoCorrect="off"
           spellCheck={false}
-          className="w-full rounded-xl border border-granite/25 bg-transparent px-4 py-3 text-lg outline-none focus:border-falu dark:border-white/20"
+          className={
+            'w-full rounded-xl border bg-transparent px-4 py-3 text-lg outline-none ' +
+            (verdictClasses(verdict, true, false) ?? 'border-granite/25 focus:border-falu dark:border-white/20')
+          }
         />
         {'hint' in question && question.hint && (
           <p className="mt-2 text-xs text-granite dark:text-birch/60">
@@ -210,9 +249,10 @@ export default function QuestionRenderer({
               }}
               className={
                 'flex-1 rounded-xl border px-4 py-3 font-semibold transition-colors ' +
+                (verdictClasses(verdict, tf === v, question.answer === v) ??
                 (tf === v
                   ? 'border-falu bg-falu/10'
-                  : 'border-granite/20 hover:border-falu/50 dark:border-white/15')
+                  : 'border-granite/20 hover:border-falu/50 dark:border-white/15'))
               }
             >
               {v ? t('quiz.trueFalse.true') : t('quiz.trueFalse.false')}
@@ -227,7 +267,12 @@ export default function QuestionRenderer({
     return (
       <div>
         <p className="mb-4 text-lg font-medium"><SwedishText text={resolveLocalized(question.prompt, lang)} /></p>
-        <div className="mb-3 flex min-h-12 flex-wrap gap-2 rounded-xl border border-dashed border-granite/30 p-3 dark:border-white/20">
+        <div
+          className={
+            'mb-3 flex min-h-12 flex-wrap gap-2 rounded-xl border p-3 ' +
+            (verdictClasses(verdict, true, false) ?? 'border-dashed border-granite/30 dark:border-white/20')
+          }
+        >
           {orderSeq.length === 0 && (
             <span className="text-sm text-granite/60">…</span>
           )}
