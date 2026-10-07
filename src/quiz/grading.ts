@@ -75,9 +75,15 @@ export function grade(question: Question, answer: Answer): GradeResult {
       if (answer.kind !== 'listen') return { correct: false };
       return { correct: answer.choiceIndex === question.answer };
 
-    case 'type-answer':
+    case 'type-answer': {
       if (answer.kind !== 'type-answer') return { correct: false };
-      return matchesAny(answer.text, question.answer);
+      // A hint like "Det är viktigt att ___" reads as a frame to complete, so the
+      // learner may type only the missing words — try them inside the frame too.
+      const frames = Object.values(question.hint ?? {}).filter((h): h is string => !!h?.includes('___'));
+      const results = [answer.text, ...frames.map((f) => f.replace('___', answer.text.trim()))]
+        .map((text) => matchesAny(text, question.answer));
+      return results.find((r) => r.correct && !r.almost) ?? results.find((r) => r.correct) ?? results[0];
+    }
 
     case 'gap':
       if (answer.kind !== 'gap') return { correct: false };

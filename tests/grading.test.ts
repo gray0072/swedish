@@ -57,6 +57,16 @@ describe('grade — type-answer', () => {
     expect(nearMiss.almost).toBe(true);
     expect(grade(q2, { kind: 'type-answer', text: 'sjö' })).toEqual({ correct: true });
   });
+  it('accepts just the missing words when the hint is a frame with a blank', () => {
+    const framed: Question = {
+      ...q,
+      answer: ['Det är viktigt att laga mat.'],
+      hint: { ru: 'Det är viktigt att ___', en: 'Det är viktigt att ___' },
+    };
+    expect(grade(framed, { kind: 'type-answer', text: 'laga mat' })).toEqual({ correct: true });
+    expect(grade(framed, { kind: 'type-answer', text: 'Det är viktigt att laga mat' })).toEqual({ correct: true });
+    expect(grade(framed, { kind: 'type-answer', text: 'laga' }).correct).toBe(false);
+  });
 });
 
 describe('grade — order', () => {

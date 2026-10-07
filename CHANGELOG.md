@@ -858,3 +858,6 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   final answer the right option gets a dashed green outline (not while a retry is still on
   offer). Typed answers and word order get the same green/red border, and the "Correct!"
   panel is green instead of grey.
+- **Typed answers with a frame hint**: a hint like "Det är viktigt att ___" invites typing
+  only the missing words, but the check wanted the whole sentence, so "laga mat" was
+  marked wrong. Now both the missing words and the full sentence are accepted.
