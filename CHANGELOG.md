@@ -861,3 +861,9 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **Typed answers with a frame hint**: a hint like "Det är viktigt att ___" invites typing
   only the missing words, but the check wanted the whole sentence, so "laga mat" was
   marked wrong. Now both the missing words and the full sentence are accepted.
+- **Synonyms in typed answers**: "работать" is both *arbeta* and *jobba*, but a typed
+  answer accepted only the lesson's own word. Any word another lesson gives the same
+  translation now counts as right too.
+- **Word order with repeated words**: in "Jag har en son och en dotter" the two "en"
+  tokens were told apart by position, so placing the other "en" first was marked wrong.
+  Order is now checked by the words themselves.

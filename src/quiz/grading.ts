@@ -91,10 +91,12 @@ export function grade(question: Question, answer: Answer): GradeResult {
 
     case 'order':
       if (answer.kind !== 'order') return { correct: false };
+      // Compared by text, not index: a sentence like "Jag har en son och en dotter" has two
+      // identical "en" tokens, and either one may be placed first.
       return {
         correct:
           answer.order.length === question.answer.length &&
-          answer.order.every((v, i) => v === question.answer[i]),
+          answer.order.every((v, i) => question.tokens[v] === question.tokens[question.answer[i]]),
       };
 
     case 'match':

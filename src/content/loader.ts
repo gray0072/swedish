@@ -22,7 +22,7 @@ import {
   type Track,
   type VocabItem,
 } from './schema';
-import { expandGenerators } from './generators';
+import { buildSynonymIndex, expandGenerators } from './generators';
 import { BUILDING_PRICES, ERA_UNLOCK_XP } from '@/city/economy';
 
 // -- raw eager globs -----------------------------------------------------
@@ -176,6 +176,8 @@ function buildRegistry(): ContentRegistry {
     theoryRuByKey.set(folderKey(path), raw);
   }
 
+  const synonyms = buildSynonymIndex([...vocabByKey.values()].flat());
+
   for (const [path, mod] of Object.entries(lessonMetaFiles)) {
     const key = folderKey(path);
     const parsed = lessonMetaSchema.safeParse(mod.default);
@@ -194,7 +196,7 @@ function buildRegistry(): ContentRegistry {
     const theoryEn = theoryEnByKey.get(key) ?? null;
     const theoryRu = theoryRuByKey.get(key) ?? null;
 
-    const generated = expandGenerators(questions.generators, vocab, meta.id);
+    const generated = expandGenerators(questions.generators, vocab, meta.id, synonyms);
     const authored = questions.items.map((q) => ({ ...q, id: `${meta.id}/${q.id}` }));
     const pool = [...authored, ...generated];
 

@@ -84,6 +84,10 @@ describe('grade — order', () => {
     expect(grade(q, { kind: 'order', order: [1, 0, 2] }).correct).toBe(true);
     expect(grade(q, { kind: 'order', order: [0, 1, 2] }).correct).toBe(false);
   });
+  it('lets either of two identical tokens go first', () => {
+    const twin: Question = { ...q, tokens: ['en', 'dotter', 'Jag', 'och', 'har', 'son', 'en'], answer: [2, 4, 0, 5, 3, 6, 1] };
+    expect(grade(twin, { kind: 'order', order: [2, 4, 6, 5, 3, 0, 1] }).correct).toBe(true);
+  });
 });
 
 describe('grade — true-false', () => {

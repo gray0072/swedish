@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { expandGenerators } from '@/content/generators';
+import { buildSynonymIndex, expandGenerators } from '@/content/generators';
+import { grade } from '@/quiz/grading';
 import type { VocabItem } from '@/content/schema';
 
 const vocab: VocabItem[] = [
@@ -64,5 +65,18 @@ describe('expandGenerators', () => {
     );
     const ids = new Set(out.map((q) => q.id));
     expect(ids.size).toBe(out.length);
+  });
+
+  it('accepts a word another lesson gives the same translation in typed answers', () => {
+    const arbeta: VocabItem = { id: 'arbeta', sv: 'arbeta', translations: { ru: 'работать', en: 'to work' }, pos: 'verb', forms: null };
+    const jobba: VocabItem = { ...arbeta, id: 'jobba', sv: 'jobba' };
+    const [q] = expandGenerators(
+      [{ type: 'type-answer', from: 'vocab', count: 'all' }],
+      [arbeta],
+      'test',
+      buildSynonymIndex([arbeta, jobba]),
+    );
+    expect(q.type === 'type-answer' && q.answer).toEqual(['arbeta', 'jobba']);
+    expect(grade(q, { kind: 'type-answer', text: 'jobba' })).toEqual({ correct: true });
   });
 });

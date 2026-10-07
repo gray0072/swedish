@@ -10,6 +10,7 @@ export function expandGenerators(
   generators: GeneratorConfig[],
   vocab: VocabItem[],
   lessonId: string,
+  synonyms: SynonymIndex = new Map(),
 ): Question[] {
   const out: Question[] = [];
   for (const gen of generators) {
@@ -22,7 +23,7 @@ export function expandGenerators(
         out.push(...genNativeToSvMc(pool, lessonId));
         break;
       case 'type-answer':
-        out.push(...genTypeAnswer(pool, lessonId));
+        out.push(...genTypeAnswer(pool, lessonId, synonyms));
         break;
       case 'listen-mc':
         out.push(...genListenMc(pool, lessonId));
@@ -110,7 +111,27 @@ function genNativeToSvMc(vocab: VocabItem[], lessonId: string): Question[] {
   return out;
 }
 
-function genTypeAnswer(vocab: VocabItem[], lessonId: string): Question[] {
+/** Swedish words by shared translation, across the whole course: `ru:работать` → arbeta, jobba. */
+export type SynonymIndex = Map<string, string[]>;
+
+const translationKeys = (item: VocabItem) => [
+  `ru:${item.translations.ru.trim().toLowerCase()}`,
+  `en:${item.translations.en.trim().toLowerCase()}`,
+];
+
+export function buildSynonymIndex(vocab: VocabItem[]): SynonymIndex {
+  const index: SynonymIndex = new Map();
+  for (const item of vocab) {
+    for (const key of translationKeys(item)) {
+      const words = index.get(key) ?? [];
+      if (!words.includes(item.sv)) words.push(item.sv);
+      index.set(key, words);
+    }
+  }
+  return index;
+}
+
+function genTypeAnswer(vocab: VocabItem[], lessonId: string, synonyms: SynonymIndex): Question[] {
   return vocab.map((item) => ({
     id: `${lessonId}/gen-type-${item.id}`,
     type: 'type-answer' as const,
@@ -121,7 +142,9 @@ function genTypeAnswer(vocab: VocabItem[], lessonId: string): Question[] {
       ru: `Напиши по-шведски: «${item.translations.ru}»`,
       en: `Type in Swedish: "${item.translations.en}"`,
     },
-    answer: [item.sv],
+    // "работать" is both arbeta and jobba: any word another lesson gives the same
+    // translation is a right answer too. The lesson's own word stays first — it is the one shown.
+    answer: [...new Set([item.sv, ...translationKeys(item).flatMap((k) => synonyms.get(k) ?? [])])],
     hint: item.example ? { ru: item.example.ru, en: item.example.en } : undefined,
   }));
 }
