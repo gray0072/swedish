@@ -1,5 +1,5 @@
 import type { GridCell } from '../types';
-import { cellKey, toScreen } from '../iso';
+import { toScreen } from '../iso';
 import { ISLAND_DEPTH, ISLAND_POLYGON_PATH, buildPathGraph, insetPolygonPath } from '../island';
 import { makeSeededRandom, wobblePath } from '../wobble';
 
@@ -18,10 +18,14 @@ import { makeSeededRandom, wobblePath } from '../wobble';
  * one source of truth for "which cells are connected" instead of two copies drifting apart.
  */
 
-const pathRng = makeSeededRandom(0x9a7e);
-
 export default function Terrain({ builtCells }: { builtCells: GridCell[] }) {
   const { edges } = buildPathGraph(builtCells);
+  // Seeded per render, not per module: a shared generator advanced on every re-render, so
+  // the walkways used to re-jitter whenever anything on the map changed (a hover included).
+  const pathRng = makeSeededRandom(0x9a7e);
+  const pathD = edges
+    .map(([a, b]) => wobblePath([toScreen(a), toScreen(b)], pathRng, 0.5, 16))
+    .join(' ');
 
   return (
     <g aria-hidden="true">
@@ -52,21 +56,10 @@ export default function Terrain({ builtCells }: { builtCells: GridCell[] }) {
       <path d={ISLAND_POLYGON_PATH} fill="none" stroke="var(--ground-wet)" strokeWidth="4" strokeOpacity="0.7" />
       <path d={insetPolygonPath(9, 1)} fill="none" stroke="var(--ground-cliff)" strokeWidth="14" strokeOpacity="0.22" />
 
-      {edges.map(([a, b]) => {
-        const pa = toScreen(a);
-        const pb = toScreen(b);
-        return (
-          <path
-            key={`${cellKey(a)}-${cellKey(b)}`}
-            d={wobblePath([pa, pb], pathRng, 0.5, 16)}
-            fill="none"
-            stroke="var(--ground-cliff)"
-            strokeOpacity="0.5"
-            strokeWidth="6"
-            strokeLinecap="round"
-          />
-        );
-      })}
+      {/* Walkways: one worn edge and one trodden centre, each a single path for the whole
+          network so the node count does not grow with the town. */}
+      <path d={pathD} fill="none" stroke="var(--ground-cliff)" strokeOpacity="0.35" strokeWidth="13" strokeLinecap="round" strokeLinejoin="round" />
+      <path d={pathD} fill="none" stroke="var(--ground-path)" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" />
     </g>
   );
 }

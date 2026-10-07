@@ -90,6 +90,14 @@ async function startServer() {
   return server;
 }
 
+/**
+ * An era tab by its name. Not an exact match: a finished era's tab also carries a hidden
+ * "Era complete" label, and in this script's save every era is finished.
+ */
+function eraTab(page: Page, name: string) {
+  return page.getByRole('button', { name: new RegExp(`${name}$`) });
+}
+
 /** The scene mounts its era art from an async chunk and fades it in over 260 ms. */
 async function settle(page: Page) {
   await page.waitForSelector('.city-scene svg');
@@ -103,6 +111,15 @@ async function main() {
 
   try {
     const page = await browser.newPage({ viewport: VIEWPORT, deviceScaleFactor: 1 });
+    // A finished save qualifies for a pile of achievements at once, and their toast would sit
+    // over the bottom of every shot.
+    await page.addInitScript(() => {
+      document.addEventListener('DOMContentLoaded', () => {
+        const style = document.createElement('style');
+        style.textContent = '[role="status"][aria-live="polite"].fixed { display: none !important; }';
+        document.head.appendChild(style);
+      });
+    });
     // Seed on the app's own origin, then load the city route with the save already in place.
     await page.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
     // zustand's persist wraps the save in { state, version } — seeding the bare save file
@@ -115,7 +132,7 @@ async function main() {
     await settle(page);
 
     for (const era of only === 'pages' ? [] : [...eras].sort((a, b) => a.order - b.order)) {
-      await page.getByRole('button', { name: era.name.en, exact: true }).click();
+      await eraTab(page, era.name.en).click();
       await settle(page);
       await page.locator('.city-scene').screenshot({ path: join(outDir, `city-${era.id}.png`) });
       console.log(`wrote city-${era.id}.png`);
@@ -125,7 +142,7 @@ async function main() {
       // The page-level shot the README leads with: the Viking era, wallet bar and era tabs in
       // frame. Clicking a tab scrolls it into view, so the page has to be sent back to the top
       // or the shot starts halfway down the bonus panel.
-      await page.getByRole('button', { name: 'The Viking Age', exact: true }).click();
+      await eraTab(page, 'The Viking Age').click();
       await settle(page);
       await page.evaluate(() => window.scrollTo(0, 0));
       await page.waitForTimeout(200);

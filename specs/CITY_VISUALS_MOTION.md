@@ -38,10 +38,14 @@ the event category unchanged; this document adds the ambient category and its co
 | `reed-sway` | Foreground props | 5 s | ease-in-out | ∞ |
 | `plot-pulse` | Affordable plots | 2.4 s | ease-in-out | ∞ |
 | `plot-shimmer` | Newly affordable | 900 ms | ease-out | once |
+| `ghost-breathe` | Affordable plot's blueprint | 2.4 s | ease-in-out | ∞ |
+| `badge-bob` | Build / upgrade bubbles | 2.4 s | ease-in-out | ∞ |
+| `preview-shimmer` | Selected building's next level | 1.8 s | ease-in-out | ∞ |
+| `decor-grow` | Growth items of a building that just levelled | 600 ms, after 350 ms | overshoot | once |
 | `build-carve` | New building | 900 ms | ease-out | once |
 | `upgrade-carve` | Added mass only | 700 ms | ease-out | once |
 | `hover-lift` | Building group | 160 ms | ease-out | once |
-| `tap-ring` | Building base | 450 ms | ease-out | once |
+| `tap-ring` | Building base | 450 ms | ease-out | once, held at its end frame (hidden under reduced motion) |
 | `era-fade` | Whole scene | 260 ms | ease-in-out | once |
 | `window-lights` | Lit windows | 2 s stagger | steps(1) | once per era open |
 | `aurora-drift` | Aurora band | 18 s | ease-in-out | ∞ |

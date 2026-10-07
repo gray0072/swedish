@@ -32,7 +32,9 @@ import Horizon from './layers/Horizon';
 import Water from './layers/Water';
 import Terrain from './layers/Terrain';
 import Plots, { type PlotInstance } from './layers/Plots';
-import Buildings, { type BuildingInstance } from './layers/Buildings';
+import Buildings, { artTop, type BuildingInstance, type GhostInstance } from './layers/Buildings';
+import Badges, { type BadgeInstance } from './layers/Badges';
+import { computeDecor } from './decor';
 import Agents, { type AgentVisual, type AgentsHandle } from './layers/Agents';
 import Vessels, { type VesselRoute, type VesselsHandle } from './layers/Vessels';
 import Props from './layers/Props';
@@ -108,6 +110,13 @@ export interface SceneProps {
   /** Persisted motion preference (CITY_VISUALS_MOTION.md §4) — `Scene` combines it with the
    * OS `prefers-reduced-motion` signal itself, so callers only ever pass the raw setting. */
   cityMotion?: MotionTier;
+  /** The building picked on the map. It previews its next level in place, and `CityMap`
+   * shows its panel below the scene. */
+  selectedId?: string | null;
+  /** Whether the selected building previews its next level (default on). */
+  preview?: boolean;
+  /** Tapping a building or plot. Without a handler the tap scrolls to its card instead. */
+  onSelect?: (id: string | null) => void;
 }
 
 /**
@@ -122,6 +131,9 @@ export default function Scene({
   coins,
   lang,
   cityMotion = 'full',
+  selectedId = null,
+  preview: previewOn = true,
+  onSelect,
 }: SceneProps) {
   // Era cross-fade (CITY_VISUALS_TECH.md §3): the scene keeps rendering the era it already
   // has art for until the next era's chunk resolves, then swaps both at once and replays
@@ -174,6 +186,10 @@ export default function Scene({
   const { era, buildings, art } = shown;
 
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  // Bumped when a building level is measured for the first time (Buildings.tsx), so the
+  // badges, which float above each drawing's measured top, are placed from the real box.
+  const [, setMeasureTick] = useState(0);
+  const onMeasured = useCallback(() => setMeasureTick((n) => n + 1), []);
   const [tappedKey, setTappedKey] = useState<{ id: string; key: number } | null>(null);
   const isDark = useIsDarkMode();
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -233,6 +249,8 @@ export default function Scene({
 
   const plotInstances: PlotInstance[] = [];
   const buildingInstances: BuildingInstance[] = [];
+  const ghostInstances: GhostInstance[] = [];
+  const badges: BadgeInstance[] = [];
   const hitTargets: HitTarget[] = [];
   const builtCells: GridCell[] = [];
   let ownedBuildings = 0;
@@ -271,10 +289,18 @@ export default function Scene({
     const label = `${name} — level ${level} of ${b.maxLevel}`;
     hitTargets.push({ id: b.id, cell: placement.cell, footprint: placement.footprint, label });
 
+    const cost = buildingCostAt(b, level);
+    const center = footprintCenter(placement.cell, placement.footprint);
+    const selected = previewOn && selectedId === b.id;
     if (level > 0) {
       builtCells.push(placement.cell);
       ownedBuildings += 1;
       totalLevels += level;
+      const preview = selected && level < b.maxLevel;
+      if (level < b.maxLevel && coins >= cost && !preview) {
+        const top = artTop(art?.[b.id]?.levels[level - 1], center);
+        badges.push({ id: b.id, kind: 'upgrade', x: top.x, y: top.y });
+      }
       buildingInstances.push({
         id: b.id,
         cell: placement.cell,
@@ -286,23 +312,54 @@ export default function Scene({
         isHovered: hoveredId === b.id,
         rising: isRising(b.id),
         ambient: ambientByBuilding.get(b.id),
+        preview,
       });
     } else {
       const missingRequirement = b.requires.some((reqId) => (levels[reqId] ?? 0) < 1);
-      const cost = buildingCostAt(b, level);
+      const affordable = !missingRequirement && coins >= cost;
+      const blueprint = !missingRequirement ? art?.[b.id] : undefined;
       plotInstances.push({
         id: b.id,
         cell: placement.cell,
         footprint: placement.footprint,
         locked: missingRequirement,
-        affordable: !missingRequirement && coins >= cost,
+        affordable,
+        blueprint: Boolean(blueprint),
       });
+      if (blueprint) {
+        ghostInstances.push({ id: b.id, cell: placement.cell, footprint: placement.footprint, art: blueprint, affordable, preview: selected });
+        if (!selected) {
+          const top = artTop(blueprint.levels[0], center);
+          badges.push(
+            affordable
+              ? { id: b.id, kind: 'build', x: top.x, y: top.y }
+              : { id: b.id, kind: 'saving', x: top.x, y: top.y, progress: coins / cost },
+          );
+        }
+      }
     }
   }
 
   // -- Agents (CITY_VISUALS_LIFE.md §3-5, Phase 4) ---------------------------------------
   const containerRef = useRef<HTMLDivElement>(null);
   const graph = useMemo(() => buildPathGraph(builtCells), [JSON.stringify(builtCells)]);
+
+  // The island's trees and the town that grows around each building (decor.ts). Keyed by
+  // the levels it depends on, so a hover or an agent tick never recomputes it.
+  const decorSites = sorted.map((b) => ({
+    id: b.id,
+    cell: placements.get(b.id)!.cell,
+    footprint: placements.get(b.id)!.footprint,
+    level: levels[b.id] ?? 0,
+    maxLevel: b.maxLevel,
+  }));
+  const decorKey = `${era.id}|${decorSites.map((s) => `${s.id}:${s.level}:${s.cell.q},${s.cell.r}`).join(';')}`;
+  const decor = useMemo(
+    () => computeDecor({ eraId: era.id, sites: decorSites, graph }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- decorKey captures every input
+    [decorKey, graph],
+  );
+  const growingOwners = new Set(buildingInstances.filter((i) => i.rising).map((i) => i.id));
   const population = computePopulation(ownedBuildings, totalLevels, viewportWidth, prefersReducedMotion);
 
   // The simulation lives outside React state (CITY_VISUALS_TECH.md §4): one seeded rng, one
@@ -468,8 +525,17 @@ export default function Scene({
         <Vessels ref={vesselsHandleRef} routes={vesselRoutes} figures={figures} />
         <Terrain builtCells={builtCells} />
         <Plots plots={plotInstances} ambientActive={ambientActive} />
-        <Buildings instances={buildingInstances} material={activeMaterial} ambientActive={ambientActive} />
+        <Buildings
+          instances={buildingInstances}
+          ghosts={ghostInstances}
+          decor={decor}
+          growingOwners={growingOwners}
+          material={activeMaterial}
+          ambientActive={ambientActive}
+          onMeasured={onMeasured}
+        />
         <Agents ref={agentsHandleRef} initial={initialAgentVisuals} figures={figures} />
+        <Badges badges={badges} active={ambientActive} />
         <Props active={ambientActive} />
         <Weather
           kind={weatherKind?.type === 'snow' || weatherKind?.type === 'pollen' || weatherKind?.type === 'rain' ? weatherKind.type : undefined}
@@ -482,8 +548,10 @@ export default function Scene({
           onHover={setHoveredId}
           onActivate={(id) => {
             setTappedKey({ id, key: Date.now() });
-            scrollToBuilding(id);
+            if (onSelect) onSelect(selectedId === id ? null : id);
+            else scrollToBuilding(id);
           }}
+          selectedId={selectedId}
         />
         </g>
       </svg>

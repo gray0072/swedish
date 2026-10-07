@@ -9,6 +9,8 @@ export interface PlotInstance {
   locked: boolean;
   /** Requirement met and the learner can afford the next level right now. */
   affordable: boolean;
+  /** The building's blueprint stands on the plot (Buildings.tsx), so the post sign is not needed. */
+  blueprint?: boolean;
 }
 
 /**
@@ -33,12 +35,14 @@ export default function Plots({ plots, ambientActive = true }: { plots: PlotInst
               d={outline}
               fill="none"
               stroke={plot.locked ? 'var(--ground-cliff)' : 'var(--trim)'}
-              strokeOpacity={plot.locked ? 0.5 : 0.4}
+              strokeOpacity={plot.locked ? 0.5 : 0.6}
               strokeWidth="2"
               strokeDasharray="6 5"
             />
-            <line x1={postX} y1={postY} x2={postX} y2={postY - 14} stroke="var(--timber)" strokeWidth="2" strokeOpacity="0.6" />
-            {plot.locked ? (
+            {!plot.blueprint && (
+              <line x1={postX} y1={postY} x2={postX} y2={postY - 14} stroke="var(--timber)" strokeWidth="2" strokeOpacity="0.6" />
+            )}
+            {plot.blueprint ? null : plot.locked ? (
               <>
                 <circle cx={postX - 3} cy={postY - 14} r="2.4" fill="none" stroke="var(--ground-cliff)" strokeWidth="1.4" />
                 <circle cx={postX + 3} cy={postY - 14} r="2.4" fill="none" stroke="var(--ground-cliff)" strokeWidth="1.4" />

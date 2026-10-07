@@ -240,7 +240,9 @@ export function dome(cx: number, cy: number, r: number, fill: string, shade: str
   return (
     <g>
       <circle cx={cx} cy={cy} r={r} fill={fill} />
-      <path d={`M${cx - r} ${cy} A${r} ${r} 0 0 0 ${cx + r} ${cy} A${r} ${r * 0.55} 0 0 1 ${cx - r} ${cy} Z`} fill={shade} opacity={0.35} />
+      {/* Art space is y-up and flipped by the scene, so the sweep flags read the other way
+          round from plain SVG: these put the shade on the *lower* half, away from the light. */}
+      <path d={`M${cx - r} ${cy} A${r} ${r} 0 0 1 ${cx + r} ${cy} A${r} ${r * 0.55} 0 0 0 ${cx - r} ${cy} Z`} fill={shade} opacity={0.35} />
     </g>
   );
 }
@@ -261,4 +263,13 @@ export interface CapsuleOptions {
 export function capsule({ cx, y, w, h, fill, seed = 0 }: CapsuleOptions): ReactNode {
   const lean = wobbleAt(seed, 0.5);
   return <rect x={cx - w / 2 + lean} y={y} width={w} height={h} rx={w / 2} fill={fill} />;
+}
+
+/**
+ * Draws screen-space children (y down — the figures and boats in `figures.tsx`) inside y-up
+ * building art, mirrored about the line `y = y0` so their ground contact stays at `y0`.
+ * Without it a moored boat drawn by a building comes out upside down, its sail under the hull.
+ */
+export function upright(y0: number, children: ReactNode): ReactNode {
+  return <g transform={`translate(0 ${2 * y0}) scale(1 -1)`}>{children}</g>;
 }

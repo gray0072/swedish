@@ -12,14 +12,15 @@ import { shadow } from '../shared/primitives';
 const W = 96; // spans most of a 2x2 footprint's width
 const DEPTH = 44;
 
-/** One boulder, a squat wobble-free polygon (real megaliths are irregular, but a wobbled
- * stroke reads as "carved", and these are unworked stones — a plain flat shape is correct). */
+/** One standing stone: an upright, round-shouldered block with its lit face toward the light.
+ * Ales stenar's stones stand, they do not lie — drawn flat they read as pebbles. */
 function boulder(cx: number, y: number, size: number, fill: string, side: string) {
-  const r = size / 2;
+  const w = size * 0.9;
+  const h = size * 1.5;
   return (
     <g>
-      <ellipse cx={cx} cy={y} rx={r} ry={r * 0.6} fill={side} />
-      <ellipse cx={cx} cy={y + size * 0.35} rx={r} ry={r * 0.6} fill={fill} />
+      <rect x={cx - w / 2} y={y} width={w} height={h} rx={w * 0.4} fill={side} />
+      <rect x={cx - w / 2} y={y} width={w * 0.6} height={h} rx={w * 0.3} fill={fill} />
     </g>
   );
 }
@@ -53,6 +54,6 @@ function landmark(m: MaterialTokens) {
 
 export const stoneShip: BuildingArt = {
   footprint: { w: 2, h: 2 },
-  levels: [{ height: 24, render: landmark }],
+  levels: [{ height: 34, render: landmark }],
   workSpot: { dx: W / 2, dy: DEPTH * 0.4 },
 };

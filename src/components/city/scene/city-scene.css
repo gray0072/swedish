@@ -19,6 +19,8 @@
   --ground-top: var(--ground-top-light);
   --ground-cliff: var(--ground-cliff-light);
   --ground-wet: var(--ground-wet-light);
+  --foliage: var(--foliage-light);
+  --ground-path: var(--ground-path-light);
   --horizon: var(--horizon-light);
   --wall: var(--wall-light);
   --wall-side: var(--wall-side-light);
@@ -40,6 +42,8 @@
   --ground-top: var(--ground-top-dark);
   --ground-cliff: var(--ground-cliff-dark);
   --ground-wet: var(--ground-wet-dark);
+  --foliage: var(--foliage-dark);
+  --ground-path: var(--ground-path-dark);
   --horizon: var(--horizon-dark);
   --wall: var(--wall-dark);
   --wall-side: var(--wall-side-dark);
@@ -105,6 +109,58 @@
   to { opacity: 1; transform: scale(1); }
 }
 
+/* -- Blueprints, previews, badges, growth ----------------------------------- */
+
+/* A plot carries its building as a flat silhouette in the era trim: faint while it is still
+   being saved for, stronger and breathing once it is affordable. */
+.building-ghost {
+  opacity: 0.22;
+}
+
+.building-ghost--ready {
+  animation: ghost-breathe 2.4s ease-in-out infinite;
+}
+
+@keyframes ghost-breathe {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.55; }
+}
+
+/* The selected building's next level, in its real colours, not yet solid. */
+.building-preview {
+  animation: preview-shimmer 1.8s ease-in-out infinite;
+}
+
+@keyframes preview-shimmer {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.85; }
+}
+
+.badge-bob {
+  animation: badge-bob 2.4s ease-in-out infinite;
+}
+
+@keyframes badge-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* A building's new neighbours spring up with it when it gains a level. */
+.decor-grow {
+  animation: decor-grow 600ms cubic-bezier(0.2, 0.8, 0.3, 1.3) 350ms both;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+
+@keyframes decor-grow {
+  from { opacity: 0; transform: scale(0.2); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.selected-ring {
+  pointer-events: none;
+}
+
 /* -- Buildings / interaction ------------------------------------------------ */
 
 .building-instance {
@@ -118,7 +174,8 @@
 
 .tap-ring {
   transform-origin: center;
-  animation: tap-ring 450ms ease-out;
+  /* `forwards`: without it the ring snaps back to full opacity when the fade ends and stays. */
+  animation: tap-ring 450ms ease-out forwards;
 }
 
 @keyframes tap-ring {
@@ -288,7 +345,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .era-fade,
-  .building-rise {
+  .building-rise,
+  .decor-grow {
     animation: none;
   }
 
@@ -312,8 +370,24 @@
   .ambient-aurora,
   .ambient-birds__flock,
   .reed-sway,
-  .weather-particle {
+  .weather-particle,
+  .building-ghost--ready,
+  .building-preview,
+  .badge-bob {
     animation: none !important;
+  }
+
+  .building-ghost--ready {
+    opacity: 0.45;
+  }
+
+  .building-preview {
+    opacity: 0.75;
+  }
+
+  /* With its fade switched off the tap ring would sit on the map for good. */
+  .tap-ring {
+    display: none;
   }
 
   .water-sparkle {

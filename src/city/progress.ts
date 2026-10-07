@@ -58,3 +58,33 @@ export function findBuyableBuilding(
     return buildingCostAt(b, level) <= coins;
   });
 }
+
+/**
+ * Something to save for: the cheapest building the learner could buy next but cannot afford
+ * yet — era unlocked, requirements standing, not maxed, price above the wallet. Cheapest
+ * first, because the nearest goal is the one that pulls ("80 coins to the smithy"), and a
+ * tie goes to the earlier era. Undefined when everything open is affordable or built.
+ */
+export function findSavingGoal(
+  eras: Era[],
+  buildings: Building[],
+  levels: Record<string, number>,
+  xp: number,
+  coins: number,
+): { building: Building; cost: number } | undefined {
+  const eraOrder = new Map(eras.map((era) => [era.id, era] as const));
+  let best: { building: Building; cost: number; order: number } | undefined;
+  for (const b of buildings) {
+    const era = eraOrder.get(b.era);
+    if (!era || xp < era.unlockXp) continue;
+    const level = levels[b.id] ?? 0;
+    if (level >= b.maxLevel) continue;
+    if (b.requires.some((reqId) => (levels[reqId] ?? 0) < 1)) continue;
+    const cost = buildingCostAt(b, level);
+    if (cost <= coins) continue;
+    if (!best || cost < best.cost || (cost === best.cost && era.order < best.order)) {
+      best = { building: b, cost, order: era.order };
+    }
+  }
+  return best && { building: best.building, cost: best.cost };
+}

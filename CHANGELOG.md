@@ -867,3 +867,39 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **Word order with repeated words**: in "Jag har en son och en dotter" the two "en"
   tokens were told apart by position, so placing the other "en" first was marked wrong.
   Order is now checked by the words themselves.
+
+## 2026-10-07 — A city worth saving for: upgrades you can see, a growing town, goals in lessons
+
+- **Every building's upgrades were checked level by level**, and the ones that barely changed
+  were redrawn so each level reads from across the island. The campfire grows a cooking spit
+  and then a carved gathering pole; Stortorget fills with its narrow stepped-gable merchant
+  houses, one per level, and finally its well; the shipyard planks its hull and raises a
+  treadwheel crane; Central Station gets its glazed train shed, a locomotive and a clock
+  turret; the metro station opens a painted cave hall; the electric ferry gets a terminal and
+  a charging arm; the driverless metro runs on an elevated guideway; the data harbour, sea
+  gate, kelp farm, Nobel station and spaceport all gain a real second level.
+- **Landmarks that did not read as themselves were redrawn**: the Vasa (dark oak, two rows of
+  red gun ports, the gilded stern, three masts), Skansen (a red cottage, Seglora church and a
+  post mill), the ABBA museum (a marquee in lights and a mirror ball), the rock carving
+  (a granite whaleback with the painted Tanum motifs), the climate lab, language lab, language
+  archive and space school.
+- **Fixes on the map**: buildings sat off-centre on their plots (art drawn from x = 0 was
+  placed with its left edge at the centre) — each drawing is now measured and centred, and
+  drawn a quarter larger; max-level stars and smoke sit on the real top of each drawing; the
+  Avicii Arena was shaded on the top half instead of the bottom; the moored longship hung
+  upside down with its sail under the hull; the walkways re-jittered on every hover; the tap
+  ring stayed on screen once its fade ended.
+- **The island is no longer empty.** Each era opens as a wooded island — pines, round trees,
+  boulders, crystals in the stellar era — and every building gathers a town around itself as
+  it levels up: tents and fields, cottages, gabled houses, gardens, blocks, pods and domes,
+  one per level and one more at the top. They spring up with the upgrade.
+- **The map shows what you can do now.** Every open plot carries a blueprint of its building;
+  an affordable plot breathes and carries a gold "+", an affordable upgrade a green arrow, and
+  a plot still out of reach a ring filling with coins. A chip counts the era's levels built.
+- **Tap a building to build it on the map**: it previews its next level in place, and a panel
+  under the map shows the perk now and next, the wallet against the price, "26 🪙 to go ·
+  about 1 lesson", the Build/Upgrade button, and a straight link to the next lesson when
+  coins are short.
+- **There is always a next goal.** The home screen's city card names what you can build now,
+  or the nearest building you are saving for, with a progress bar and the lessons left; the
+  result screen does the same when nothing is affordable yet.

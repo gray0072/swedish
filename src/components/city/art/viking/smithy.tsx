@@ -43,13 +43,20 @@ function landmark(m: MaterialTokens) {
   return (
     <>
       {shadow(W + 16)}
+      {/* Landmark: a stone chimney through the roof for a hotter forge — the new height a
+          smith's upgrade earns — and an open lean-to for the bellows, +50% mass (§4). */}
+      <rect x={W * 0.62} y={wallH} width={9} height={rise + 14} fill={m.wallSide} />
+      <rect x={W * 0.62 - 1.5} y={wallH + rise + 12} width={12} height={4} fill={m.timber} />
       {isoBox({ x: 0, y: 0, w: W, h: wallH, wall: m.wall, wallSide: m.wallSide })}
       {isoRoof({ x: -2, y: wallH, w: W + 4, rise, roof: m.roof, roofSide: m.roofSide })}
-      {/* Landmark: an open lean-to added for the bellows, +50% mass over level 1 (§4). */}
       {isoBox({ x: W + 2, y: 0, w: 16, h: wallH * 0.65, depth: 6, wall: m.wallSide, wallSide: m.wall })}
       {isoRoof({ x: W, y: wallH * 0.65, w: 20, rise: rise * 0.6, depth: 6, roof: m.roofSide, roofSide: m.roof })}
       {forge(W * 0.7, m.wallSide)}
       {basket(W + 10, 0, m.timber)}
+      {/* The anvil on its stump, out front where the work is done. */}
+      <rect x={-12} y={0} width={6} height={7} fill={m.timber} />
+      <path d="M-16 7 L-2 7 L-4 11 L-14 11 Z" fill={m.wallSide} />
+      <path d="M-16 11 L-2 11 L-1 13 L-19 13 Z" fill={m.wallSide} />
       <path d={wobbleLine(W * 0.25, 0, W * 0.25, wallH * 0.7, 41, 0.3)} stroke={m.timber} strokeWidth={2} strokeLinecap="round" fill="none" />
       {/* A hung tool sign — the plate a customer would look for. */}
       <path d={wobbleLine(W * 0.25, wallH * 0.7, W * 0.25 + 6, wallH * 0.7, 42, 0.2)} stroke={m.trim} strokeWidth={1.6} strokeLinecap="round" fill="none" />
@@ -61,7 +68,7 @@ export const smithy: BuildingArt = {
   footprint: { w: 1, h: 1 },
   levels: [
     { height: 40, render: built },
-    { height: 44, render: landmark },
+    { height: 58, render: landmark },
   ],
   ambient: ['smoke'],
   workSpot: { dx: W * 0.7, dy: 8 },

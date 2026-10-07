@@ -30,6 +30,9 @@ const ANIMATED_GROUP_SELECTOR = [
   '.ambient-birds__flock',
   '.reed-sway',
   '.weather-particle',
+  '.building-ghost--ready',
+  '.building-preview',
+  '.badge-bob',
 ].join(', ');
 
 export default function DevOverlay({

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { findBuyableBuilding, pickInitialEra } from '@/city/progress';
+import { findBuyableBuilding, findSavingGoal, pickInitialEra } from '@/city/progress';
 import type { Building, Era } from '@/content/schema';
 
 const eras: Era[] = [
@@ -67,5 +67,33 @@ describe('findBuyableBuilding', () => {
 
   it('prefers the earliest era', () => {
     expect(findBuyableBuilding(eras, [...all].reverse(), { a1: 2, a2: 1 }, 500, 1000)?.id).toBe('b1');
+  });
+});
+
+describe('findSavingGoal', () => {
+  const priced = [
+    { ...building('cheap', 'a', 2), coins: 40 },
+    { ...building('dear', 'a', 1), coins: 90 },
+    { ...building('locked-era', 'c', 1), coins: 20 },
+    { ...building('needs-cheap', 'a', 1), coins: 30, requires: ['cheap'] },
+  ];
+
+  it('picks the cheapest open building the wallet cannot cover yet', () => {
+    expect(findSavingGoal(eras, priced, {}, 0, 10)).toEqual({ building: priced[0], cost: 40 });
+  });
+
+  it('skips what is already affordable, locked behind XP, maxed or missing a requirement', () => {
+    // 50 coins covers `cheap`; `needs-cheap` is still blocked; `locked-era` is in a closed era.
+    expect(findSavingGoal(eras, priced, {}, 0, 50)?.building.id).toBe('dear');
+    expect(findSavingGoal(eras, priced, { cheap: 2, dear: 1 }, 0, 0)?.building.id).toBe('needs-cheap');
+  });
+
+  it('prices the next level, not the first', () => {
+    const growing = [{ ...building('g', 'a', 3), coins: 40, costGrowth: 2 }];
+    expect(findSavingGoal(eras, growing, { g: 1 }, 0, 50)).toEqual({ building: growing[0], cost: 80 });
+  });
+
+  it('has nothing to suggest once everything open is affordable or built', () => {
+    expect(findSavingGoal(eras, priced, {}, 0, 1_000)).toBeUndefined();
   });
 });

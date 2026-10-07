@@ -179,6 +179,20 @@ export const REWARDS = {
 } as const;
 
 /**
+ * What one lesson typically pays, for turning a price into "about N lessons" on the map and
+ * the home screen. ~150 XP per first pass (the figure every threshold above is tuned against)
+ * at `coinsPerXp`. Deliberately a round planning number, not a promise: perks, streaks and a
+ * flawless run all pay more, a replay pays less.
+ */
+export const TYPICAL_LESSON_COINS = Math.round(150 * REWARDS.coinsPerXp);
+
+/** Roughly how many lessons it takes to earn `coins` more — at least one for any shortfall. */
+export function lessonsToEarn(coins: number): number {
+  if (coins <= 0) return 0;
+  return Math.max(1, Math.ceil(coins / TYPICAL_LESSON_COINS));
+}
+
+/**
  * One-time coins for reaching an achievement tier (SPEC §8.6), by tier: the first tier of
  * anything pays 10, the sixth 300. All 118 tiers together are worth about 6 300 coins over
  * the whole curriculum — roughly a tenth of what the fully built city costs, so medals are a

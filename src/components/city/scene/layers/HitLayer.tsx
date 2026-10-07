@@ -10,7 +10,7 @@ export interface HitTarget {
 }
 
 /**
- * Layer 11 (`hit`) — the only focusable layer (CITY_VISUALS_TECH.md §6). It is last in
+ * Layer 12 (`hit`) — the only focusable layer (CITY_VISUALS_TECH.md §6). It is last in
  * document order so its focus ring always draws above the art, and hover/keyboard state
  * never depends on the art's actual silhouette. Callers pre-sort `targets` back-to-front,
  * left-to-right so DOM order (and therefore tab order) matches the scene's depth order.
@@ -21,7 +21,9 @@ export default function HitLayer({
   tappedKey,
   onHover,
   onActivate,
+  selectedId = null,
 }: {
+  selectedId?: string | null;
   targets: HitTarget[];
   hoveredId: string | null;
   tappedKey: { id: string; key: number } | null;
@@ -36,6 +38,9 @@ export default function HitLayer({
         const halfH = (TILE_H / 2) * target.footprint.h;
         const outline = `M ${center.x} ${center.y - halfH} L ${center.x + halfW} ${center.y} L ${center.x} ${center.y + halfH} L ${center.x - halfW} ${center.y} Z`;
         const isTapped = tappedKey?.id === target.id;
+        const isSelected = selectedId === target.id;
+        // Wide enough for the label it carries: ~5.6 units per character at font-size 10.
+        const labelW = Math.max(80, target.label.length * 5.6 + 14);
 
         return (
           <g
@@ -43,7 +48,8 @@ export default function HitLayer({
             role="button"
             tabIndex={0}
             aria-label={target.label}
-            className="hit-target"
+            aria-pressed={isSelected}
+            className={`hit-target${isSelected ? ' is-selected' : ''}`}
             onMouseEnter={() => onHover(target.id)}
             onMouseLeave={() => onHover(hoveredId === target.id ? null : hoveredId)}
             onFocus={() => onHover(target.id)}
@@ -56,7 +62,27 @@ export default function HitLayer({
               }
             }}
           >
+            {/* The hit area reaches up over the drawing too, not only its footprint: people tap
+                the building they see, and a tall one stands well above its plot. */}
             <path d={outline} fill="transparent" stroke="none" />
+            <rect
+              x={center.x - halfW * 0.6}
+              y={center.y - halfH - 70 * target.footprint.h}
+              width={halfW * 1.2}
+              height={70 * target.footprint.h + halfH}
+              fill="transparent"
+            />
+            {isSelected && (
+              <path
+                className="selected-ring"
+                d={outline}
+                fill="var(--trim)"
+                fillOpacity="0.14"
+                stroke="var(--trim)"
+                strokeWidth="2.5"
+                strokeDasharray="8 5"
+              />
+            )}
             <path
               className="focus-ring"
               d={outline}
@@ -77,10 +103,10 @@ export default function HitLayer({
               />
             )}
             <g className="hover-label">
-              <rect x={center.x - 40} y={center.y - halfH - 26} width="80" height="18" rx="3" fill="var(--wall)" fillOpacity="0.92" />
+              <rect x={center.x - labelW / 2} y={center.y + halfH + 6} width={labelW} height="18" rx="9" fill="var(--wall)" fillOpacity="0.94" />
               <text
                 x={center.x}
-                y={center.y - halfH - 13}
+                y={center.y + halfH + 19}
                 textAnchor="middle"
                 fontSize="10"
                 fill="var(--trim)"

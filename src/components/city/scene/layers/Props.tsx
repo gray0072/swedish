@@ -1,7 +1,7 @@
 import { makeSeededRandom } from '../wobble';
 
 /**
- * Layer 9 (`props`) — foreground rocks and reeds (CITY_VISUALS_SCENE.md §3). Fixed, hand-picked
+ * Layer 10 (`props`) — foreground rocks and reeds (CITY_VISUALS_SCENE.md §3). Fixed, hand-picked
  * positions near the bottom edge so the water reads as continuing past the frame; reeds get the
  * `reed-sway` ambient loop, rocks are perfectly static set-dressing.
  */

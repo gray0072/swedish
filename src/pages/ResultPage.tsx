@@ -10,7 +10,11 @@ import type { RewardResult } from '@/quiz/engine';
 import { useWallet } from '@/store/wallet';
 import { useCityBuildingLevels } from '@/store/city';
 import { getBuildings, getEras } from '@/content/registry';
-import { findBuyableBuilding } from '@/city/progress';
+import { findBuyableBuilding, findSavingGoal } from '@/city/progress';
+import { lessonsToEarn } from '@/city/economy';
+import { fillCount } from '@/achievements/describe';
+import { formatNumber } from '@/lib/format';
+import { CoinProgress } from '@/components/city/MapBuildingPanel';
 import { renderShareCard } from '@/lib/shareCard';
 import { playFanfare, playSessionEnd } from '@/lib/sound';
 import { useCountUp } from '@/lib/useCountUp';
@@ -140,6 +144,9 @@ export default function ResultPage() {
 
   const affordable = findBuyableBuilding(getEras(), getBuildings(), buildingLevels, wallet.xp, wallet.coins);
   const affordableIsUpgrade = Boolean(affordable && (buildingLevels[affordable.id] ?? 0) > 0);
+  // Nothing to buy yet: show what this lesson's coins went towards instead, so every result
+  // ends with the city one step closer, not with silence.
+  const goal = affordable ? undefined : findSavingGoal(getEras(), getBuildings(), buildingLevels, wallet.xp, wallet.coins);
 
   return (
     <div className="mx-auto max-w-md space-y-6 text-center">
@@ -186,6 +193,25 @@ export default function ResultPage() {
             className="mt-4 block rounded-lg bg-gold/15 px-3 py-2 text-sm font-semibold text-falu dark:text-gold"
           >
             {t(affordableIsUpgrade ? 'result.canUpgrade' : 'result.canAfford')} «{resolveLocalized(affordable.name, lang)}» →
+          </Link>
+        )}
+
+        {goal && (
+          <Link
+            to={`/city?building=${goal.building.id}`}
+            className="mt-4 block space-y-1.5 rounded-lg bg-granite/5 px-3 py-2 text-left text-xs dark:bg-white/5"
+          >
+            <span className="flex justify-between gap-2 font-semibold">
+              <span className="truncate">{t('result.goal', { name: resolveLocalized(goal.building.name, lang) })}</span>
+              <span className="shrink-0 tabular-nums">
+                {formatNumber(wallet.coins)} / {formatNumber(goal.cost)} 🪙
+              </span>
+            </span>
+            <CoinProgress coins={wallet.coins} cost={goal.cost} />
+            <span className="block text-granite dark:text-birch/60">
+              {t('city.panel.toGo', { coins: formatNumber(goal.cost - wallet.coins) })} ·{' '}
+              {fillCount(t('city.panel.lessons'), lessonsToEarn(goal.cost - wallet.coins), lang)}
+            </span>
           </Link>
         )}
 

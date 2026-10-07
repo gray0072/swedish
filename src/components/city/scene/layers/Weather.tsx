@@ -2,7 +2,7 @@ import type { AmbientEmitter } from '../types';
 import { makeSeededRandom } from '../wobble';
 
 /**
- * Layer 10 (`weather`) — the optional, era-gated particle emitters (CITY_VISUALS_LIFE.md §7's
+ * Layer 11 (`weather`) — the optional, era-gated particle emitters (CITY_VISUALS_LIFE.md §7's
  * `snow`/`pollen`/`rain`). These are the most expensive ambient emitters (20 nodes each) and
  * "off by default" per the doc, so `Scene.tsx` only ever passes one through here when the
  * ambient budget (`ambient.ts`) actually selected it for this era.

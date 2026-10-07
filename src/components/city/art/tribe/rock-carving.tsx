@@ -15,26 +15,35 @@ import { shadow, wobbleLine } from '../shared/primitives';
  */
 const OCHRE = '#a13a2a';
 
-const W = 46;
+const W = 58;
 
 function landmark(m: MaterialTokens) {
+  const g = { stroke: OCHRE, strokeWidth: 1.6, strokeLinecap: 'round' as const, fill: 'none' };
   return (
     <>
-      {shadow(W, 6)}
-      {/* The slab itself, drawn low and wide, front face only — a carving has no side plane. */}
-      <polygon points={`0,0 ${W},0 ${W - 4},10 4,10`} fill={m.wall} />
-      {/* A handful of carved motifs: a sun disc, a ship, a simple figure — the Tanum repertoire. */}
-      <circle cx={W * 0.22} cy={6} r={3.2} fill="none" stroke={OCHRE} strokeWidth={1.4} />
-      <path d={wobbleLine(W * 0.4, 8, W * 0.68, 8, 5, 0.4)} stroke={OCHRE} strokeWidth={1.4} strokeLinecap="round" fill="none" />
-      <path d={wobbleLine(W * 0.4, 8, W * 0.44, 3, 6, 0.4)} stroke={OCHRE} strokeWidth={1.4} strokeLinecap="round" fill="none" />
-      <path d={wobbleLine(W * 0.68, 8, W * 0.64, 3, 7, 0.4)} stroke={OCHRE} strokeWidth={1.4} strokeLinecap="round" fill="none" />
-      <path d={wobbleLine(W * 0.82, 4, W * 0.82, 9, 8, 0.4)} stroke={OCHRE} strokeWidth={1.4} strokeLinecap="round" fill="none" />
+      {shadow(W, 10)}
+      {/* The rock: a smooth glacier-polished whaleback of bare granite, paler than the soil
+          around it, with a thin shaded flank on the far side from the light. */}
+      <path d={`M-2 0 Q0 18 ${W * 0.4} 23 Q${W * 0.8} 25 ${W + 2} 0 Z`} fill={m.glass} />
+      <path d={`M${W * 0.82} 21 Q${W * 0.98} 14 ${W + 2} 0 L${W * 0.88} 0 Q${W * 0.9} 12 ${W * 0.82} 21 Z`} fill={m.wall} />
+      <path d={`M2 6 Q${W * 0.3} 19 ${W * 0.55} 21`} stroke={m.wall} strokeWidth={1} fill="none" opacity={0.5} />
+      {/* The Tanum repertoire, painted in: a sun wheel, a ship with its crew strokes, a figure
+          with raised arms, a pair of footprints. */}
+      <circle cx={W * 0.18} cy={10} r={4} {...g} />
+      <path d={`M${W * 0.18 - 4} 10 H${W * 0.18 + 4} M${W * 0.18} 6 V14`} {...g} strokeWidth={1.1} />
+      <path d={`M${W * 0.32} 9 Q${W * 0.45} 4 ${W * 0.58} 9`} {...g} />
+      <path d={`M${W * 0.32} 9 L${W * 0.3} 13 M${W * 0.58} 9 L${W * 0.61} 13`} {...g} />
+      <path d={`M${W * 0.39} 7 V11 M${W * 0.45} 6.5 V10.5 M${W * 0.51} 7 V11`} {...g} strokeWidth={1.1} />
+      <path d={wobbleLine(W * 0.42, 14, W * 0.42, 19, 8, 0.3)} {...g} />
+      <path d={`M${W * 0.36} 20 L${W * 0.42} 17 L${W * 0.48} 20`} {...g} strokeWidth={1.2} />
+      <ellipse cx={W * 0.7} cy={7} rx={1.6} ry={2.4} fill={OCHRE} />
+      <ellipse cx={W * 0.76} cy={9} rx={1.6} ry={2.4} fill={OCHRE} />
     </>
   );
 }
 
 export const rockCarving: BuildingArt = {
   footprint: { w: 1, h: 1 },
-  levels: [{ height: 12, render: landmark }],
+  levels: [{ height: 26, render: landmark }],
   workSpot: { dx: W * 0.5, dy: 4 },
 };

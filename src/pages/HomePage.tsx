@@ -1,21 +1,16 @@
 import { Link } from 'react-router-dom';
-import { Landmark, RotateCcw } from 'lucide-react';
+import { RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { SECONDARY_NAV } from '@/components/layout/secondaryNav';
-import { useLanguage } from '@/store/settings';
 import { useDueReviewCount } from '@/store/progress';
-import { useCurrentEra, useOwnedBuildingCount, totalBuildingsCount } from '@/store/city';
-import { resolveLocalized } from '@/content/schema';
 import WalletBar from '@/components/ui/WalletBar';
 import PerkPanel from '@/components/city/PerkDisplay';
 import NextLessonCard from '@/components/lesson/NextLessonCard';
+import CityGoalCard from '@/components/city/CityGoalCard';
 
 export default function HomePage() {
   const t = useT();
-  const lang = useLanguage();
   const dueCount = useDueReviewCount();
-  const era = useCurrentEra();
-  const ownedBuildings = useOwnedBuildingCount();
 
   return (
     <div className="space-y-6">
@@ -51,18 +46,7 @@ export default function HomePage() {
         </Link>
       </div>
 
-      <Link to="/city" className="card card-hover flex items-center justify-between hover:border-falu/40">
-        <div>
-          <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-granite dark:text-birch/50">
-            <Landmark size={13} aria-hidden="true" /> {t('home.city.title')}
-          </p>
-          <p className="mt-1 text-lg font-semibold">{resolveLocalized(era.name, lang)}</p>
-          <p className="mt-1 text-sm text-granite dark:text-birch/70">
-            {ownedBuildings}/{totalBuildingsCount()}
-          </p>
-        </div>
-        <span className="text-sm font-semibold text-falu dark:text-gold">{t('home.city.cta')} →</span>
-      </Link>
+      <CityGoalCard />
 
       {/* The way in to everything the header no longer carries (`secondaryNav.ts`), repeated
           here so it is reachable from the first screen and not only from Topics. */}

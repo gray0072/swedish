@@ -108,7 +108,7 @@ function toDarkStroke(hex: string): string {
 interface EraPaletteSeed {
   sky: [string, string];
   water: { base: string; deep: string; wave: string; foam: string };
-  ground: { top: string; cliff: string; wet: string };
+  ground: { top: string; cliff: string; wet: string; foliage: string };
   horizon: string;
   wall: string;
   roof: string;
@@ -128,7 +128,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   tribe: {
     sky: ['#BFD3D6', '#E8DCC2'],
     water: { base: '#3F6B73', deep: '#2C4E56', wave: '#5C8A91', foam: '#F2F6EE' },
-    ground: { top: '#8C8266', cliff: '#6E6650', wet: '#5A6B5E' },
+    ground: { top: '#8C8266', cliff: '#6E6650', wet: '#5A6B5E', foliage: '#4E5E3E' },
     horizon: '#7A8C82',
     wall: '#8A7A63', roof: '#5E6E52', timber: '#4A3F31', trim: '#7C3228', glass: '#CFE0DD',
     time: 'day', ambient: ['smoke', 'birds'], accent: '#7C3228',
@@ -138,7 +138,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   viking: {
     sky: ['#AFCBDD', '#E4DDB8'],
     water: { base: '#2E5A63', deep: '#1F3F47', wave: '#4A7A82', foam: '#EFF3E2' },
-    ground: { top: '#6E7A4E', cliff: '#525D3B', wet: '#43574C' },
+    ground: { top: '#6E7A4E', cliff: '#525D3B', wet: '#43574C', foliage: '#3C5A34' },
     horizon: '#4E6357',
     wall: '#7A5A3A', roof: '#4C5A3C', timber: '#3A2C1E', trim: '#C8A24A', glass: '#C8DCD6',
     time: 'day', ambient: ['smoke', 'flag', 'birds'], accent: '#C8A24A',
@@ -148,7 +148,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   medieval: {
     sky: ['#E7A46B', '#F6D9A6'],
     water: { base: '#2C4A57', deep: '#1C323C', wave: '#456B78', foam: '#F7E8CE' },
-    ground: { top: '#B3856A', cliff: '#8C6650', wet: '#5C6660' },
+    ground: { top: '#B3856A', cliff: '#8C6650', wet: '#5C6660', foliage: '#5E6E3E' },
     horizon: '#8C6F63',
     wall: '#B24A3C', roof: '#5A4638', timber: '#3B2C22', trim: '#C8A24A', glass: '#EAD9B0',
     time: 'dusk', ambient: ['flag', 'birds'], accent: '#C8A24A',
@@ -158,7 +158,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   empire: {
     sky: ['#BFE0EF', '#F2E7C2'],
     water: { base: '#1F6C9C', deep: '#154A6C', wave: '#3F8FBC', foam: '#F5F2E2' },
-    ground: { top: '#D6C79A', cliff: '#AE9C6E', wet: '#6E7A6A' },
+    ground: { top: '#D6C79A', cliff: '#AE9C6E', wet: '#6E7A6A', foliage: '#6E8A4A' },
     horizon: '#8FA4AE',
     wall: '#E4D19A', roof: '#7C5A45', timber: '#4A3626', trim: '#C8A24A', glass: '#D9E9EC',
     time: 'day', ambient: ['flag', 'birds'], accent: '#006AA7',
@@ -168,7 +168,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   industrial: {
     sky: ['#8E97A0', '#D9A876'],
     water: { base: '#2A3E45', deep: '#1A2A30', wave: '#41595F', foam: '#E8DCC6' },
-    ground: { top: '#6E5C52', cliff: '#4E4038', wet: '#3E4A48', },
+    ground: { top: '#6E5C52', cliff: '#4E4038', wet: '#3E4A48', foliage: '#46563E' },
     horizon: '#5C5450',
     wall: '#7A3C34', roof: '#3A3A3E', timber: '#2A2422', trim: '#006AA7', glass: '#B7C4C2',
     time: 'dusk', ambient: ['smoke', 'birds'], accent: '#006AA7',
@@ -178,7 +178,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   modern: {
     sky: ['#0E2438', '#274257'],
     water: { base: '#0B2230', deep: '#071620', wave: '#173A4C', foam: '#BFD8DE' },
-    ground: { top: '#565C60', cliff: '#3E4346', wet: '#2C3638' },
+    ground: { top: '#565C60', cliff: '#3E4346', wet: '#2C3638', foliage: '#2E4A3E' },
     horizon: '#2E3E4A',
     wall: '#6A6E70', roof: '#3A3E42', timber: '#26282A', trim: '#3FBF9F', glass: '#9FD8DC',
     time: 'night', ambient: ['birds'], accent: '#3FBF9F',
@@ -188,7 +188,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   green: {
     sky: ['#BEE3D6', '#E9EFC8'],
     water: { base: '#2E7A6C', deep: '#1F5A4E', wave: '#4EA08E', foam: '#F1F6E4' },
-    ground: { top: '#5E8A52', cliff: '#436A3C', wet: '#38584A' },
+    ground: { top: '#5E8A52', cliff: '#436A3C', wet: '#38584A', foliage: '#2F6A3A' },
     horizon: '#4E7A5E',
     wall: '#8A6E4A', roof: '#3E7A4C', timber: '#3A2C1E', trim: '#7FD4A8', glass: '#D6ECE0',
     time: 'day', ambient: ['birds', 'pollen'], accent: '#7FD4A8',
@@ -198,7 +198,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   connected: {
     sky: ['#5A6BA0', '#C4B8E0'],
     water: { base: '#243154', deep: '#161E38', wave: '#3B4C7A', foam: '#DDE0F2' },
-    ground: { top: '#5A5E72', cliff: '#3E4256', wet: '#2E3448' },
+    ground: { top: '#5A5E72', cliff: '#3E4256', wet: '#2E3448', foliage: '#3E6A6A' },
     horizon: '#3E4666',
     wall: '#7A8098', roof: '#4A4E62', timber: '#2A2C3A', trim: '#8AB4FF', glass: '#C3D4FF',
     time: 'dusk', ambient: ['rotor', 'birds'], accent: '#8AB4FF',
@@ -208,7 +208,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   floating: {
     sky: ['#BFE7EE', '#E4F5EE'],
     water: { base: '#0E6E86', deep: '#0A4E60', wave: '#2E96AC', foam: '#EAFBF6' },
-    ground: { top: '#7A8A80', cliff: '#5C6C64', wet: '#3E5C58' },
+    ground: { top: '#7A8A80', cliff: '#5C6C64', wet: '#3E5C58', foliage: '#3E7A5E' },
     horizon: '#4E7A82',
     wall: '#8A9690', roof: '#2E6E78', timber: '#2A3A38', trim: '#4FD6E8', glass: '#CFF2F0',
     time: 'day', ambient: ['birds'], accent: '#4FD6E8',
@@ -218,7 +218,7 @@ const ERA_SEEDS: Record<string, EraPaletteSeed> = {
   stellar: {
     sky: ['#120F30', '#2C2460'],
     water: { base: '#160F3A', deep: '#0C0824', wave: '#2A2060', foam: '#C9B6FF' },
-    ground: { top: '#3A3458', cliff: '#26223E', wet: '#1C1A30' },
+    ground: { top: '#3A3458', cliff: '#26223E', wet: '#1C1A30', foliage: '#5E4E9A' },
     horizon: '#241E48',
     wall: '#4A4470', roof: '#302A50', timber: '#1C1830', trim: '#C9B6FF', glass: '#D8CCFF',
     time: 'night', ambient: ['aurora', 'beacon'], accent: '#C9B6FF',
@@ -239,11 +239,16 @@ function buildMaterial(seed: EraPaletteSeed, stroke: (hex: string) => string): M
   };
 }
 
+/** Walkways are the island's own ground, worn lighter by feet. */
+function pathTone(top: string): string {
+  return lighten(top, 7);
+}
+
 function buildLightTheme(seed: EraPaletteSeed): SceneTheme {
   return {
     sky: seed.sky,
     water: seed.water,
-    ground: seed.ground,
+    ground: { ...seed.ground, path: pathTone(seed.ground.top) },
     horizon: seed.horizon,
     material: buildMaterial(seed, (hex) => hex),
     time: seed.time,
@@ -265,6 +270,8 @@ function buildDarkTheme(seed: EraPaletteSeed): SceneTheme {
       top: toDarkTone(seed.ground.top, seed.accent),
       cliff: toDarkTone(seed.ground.cliff, seed.accent),
       wet: toDarkTone(seed.ground.wet, seed.accent),
+      foliage: toDarkTone(seed.ground.foliage, seed.accent),
+      path: pathTone(toDarkTone(seed.ground.top, seed.accent)),
     },
     horizon: toDarkTone(seed.horizon, seed.accent),
     // Building fills stay identical in dark theme; only their strokes lighten (SCENE.md §7).
@@ -308,6 +315,8 @@ export function themeCssVars(light: SceneTheme, dark: SceneTheme): Record<string
     ['ground-top', light.ground.top, dark.ground.top],
     ['ground-cliff', light.ground.cliff, dark.ground.cliff],
     ['ground-wet', light.ground.wet, dark.ground.wet],
+    ['foliage', light.ground.foliage, dark.ground.foliage],
+    ['ground-path', light.ground.path, dark.ground.path],
     ['horizon', light.horizon, dark.horizon],
     ['wall', light.material.wall, dark.material.wall],
     ['wall-side', light.material.wallSide, dark.material.wallSide],

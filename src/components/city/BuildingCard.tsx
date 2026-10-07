@@ -2,16 +2,11 @@ import type { Building } from '@/content/schema';
 import { resolveLocalized } from '@/content/schema';
 import { useLanguage } from '@/store/settings';
 import { useT } from '@/i18n';
-import { useAppStore } from '@/store/appStore';
-import { useWallet } from '@/store/wallet';
-import { useCityBuildingLevels } from '@/store/city';
 import { formatNumber } from '@/lib/format';
 import { getBuilding } from '@/content/registry';
-import { buildingCostAt } from '@/city/economy';
 import { PerkLine } from './PerkDisplay';
 import { BuildingIcon, iconFor } from './icons';
-import { BUILD_SOUND_MS, playBuild, playUpgrade, UPGRADE_SOUND_MS } from '@/lib/sound';
-import { celebrate } from '@/components/ui/Fireworks';
+import { useBuildAction } from './useBuildAction';
 
 /**
  * `preview` is the read-only variant shown for an era the learner has not unlocked yet
@@ -23,15 +18,7 @@ import { celebrate } from '@/components/ui/Fireworks';
 export default function BuildingCard({ building, preview = false }: { building: Building; preview?: boolean }) {
   const t = useT();
   const lang = useLanguage();
-  const wallet = useWallet();
-  const levels = useCityBuildingLevels();
-  const buyBuilding = useAppStore((s) => s.buyBuilding);
-
-  const level = levels[building.id] ?? 0;
-  const atMax = level >= building.maxLevel;
-  const cost = buildingCostAt(building, level);
-  const missingRequirement = building.requires.find((reqId) => (levels[reqId] ?? 0) < 1);
-  const canAfford = wallet.coins >= cost;
+  const { level, atMax, cost, missingRequirement, canAfford, build } = useBuildAction(building);
 
   return (
     <div className="card flex flex-col gap-2">
@@ -82,17 +69,7 @@ export default function BuildingCard({ building, preview = false }: { building: 
         <button
           className="btn-primary mt-1"
           disabled={!canAfford}
-          onClick={() => {
-            // buyBuilding returns false when the coins ran out between render and click, or
-            // the building is already maxed — no sound for a purchase that didn't happen.
-            if (!buyBuilding(building.id, cost, building.maxLevel)) return;
-            // Back up to the map, where the new building rises — the card itself barely changes.
-            document.getElementById('city-map')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            // The chime first, then the fireworks: started together, the bursts drowned it.
-            if (level === 0) playBuild();
-            else playUpgrade();
-            window.setTimeout(celebrate, level === 0 ? BUILD_SOUND_MS : UPGRADE_SOUND_MS);
-          }}
+          onClick={build}
         >
           {level === 0 ? t('city.build') : t('city.upgrade')} · {formatNumber(cost)} 🪙
         </button>

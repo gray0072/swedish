@@ -65,7 +65,11 @@ export interface SceneTheme {
   /** Vertical sky gradient stops, top → horizon. */
   sky: [string, string];
   water: { base: string; deep: string; wave: string; foam: string };
-  ground: { top: string; cliff: string; wet: string };
+  /**
+   * `foliage` colours the island's trees and fields (the decor layer); `path` is the trodden
+   * ground of the walkways — derived from `top`, never hand-authored.
+   */
+  ground: { top: string; cliff: string; wet: string; foliage: string; path: string };
   horizon: string;
   material: MaterialTokens;
   time: 'day' | 'dusk' | 'night';

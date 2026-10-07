@@ -63,13 +63,14 @@ can target layers rather than individual shapes.
 | 2 | `horizon` | Mainland ridge rising out of the far shore, three depth bands, base at `WATER_LINE` | Parallax 0 (fixed) |
 | 3 | `water` | Mälaren, `WATER_LINE` to the bottom edge: base + depth gradients + 3 wave bands + shallows and foam | Wave scroll |
 | 4 | `vessels` | Boats on a route in the far water, so they pass behind the island | Yes |
-| 5 | `terrain` | Island rock, grass, cliff edge, quays, paths, fields | No |
-| 6 | `plots` | Unbuilt building sites: dashed outline, post sign | Pulse when affordable |
-| 7 | `buildings` | Depth-sorted building instances and their shadows | Build-in, idle |
+| 5 | `terrain` | Island rock, grass, cliff edge, quays, paths | No |
+| 6 | `plots` | Unbuilt building sites: dashed outline; a post sign only where no blueprint stands | Pulse when affordable |
+| 7 | `buildings` | Buildings, plot blueprints and the decor (§4a), painter-sorted *together* by the front of their footprints | Build-in, idle |
 | 8 | `agents` | Citizens and workers | Yes |
-| 9 | `props` | Foreground rocks, reeds, a boat at the near quay | Reeds sway |
-| 10 | `weather` | Optional snow / rain / pollen, era-conditional | Yes |
-| 11 | `hit` | Transparent `<a>`/`<g role="button">` targets, one per building or plot | — |
+| 9 | `badges` | Calls to action over buildings and plots: upgrade arrow, build plus, saving ring | Gentle bob |
+| 10 | `props` | Foreground rocks, reeds, a boat at the near quay | Reeds sway |
+| 11 | `weather` | Optional snow / rain / pollen, era-conditional | Yes |
+| 12 | `hit` | Transparent `<g role="button">` targets, one per building or plot; the selected one keeps a dashed ring | — |
 
 The hit layer is separate and last so hover/focus never depends on the art's shape, and so
 focus rings draw above everything.
@@ -91,7 +92,29 @@ focus rings draw above everything.
   renders but not mechanically straight.
 - Paths connect building plots along grid edges and are the routes citizens walk
   ([CITY_VISUALS_LIFE.md §3](CITY_VISUALS_LIFE.md)). A path segment only draws once at least
-  one of the two plots it joins is built.
+  one of the two plots it joins is built. The whole network is two paths — a worn edge in the
+  cliff tone and a trodden centre in the era's `path` tone — so its node cost does not grow
+  with the town. Its wobble is seeded per render, so a re-render (a hover) never re-jitters it.
+
+## 4a. Decor — what grows on the island
+
+`scene/decor.ts` places, and `scene/decorArt.tsx` draws, everything on the island that is not
+a building. Both kinds are pure functions of the era and the levels, so a save always draws
+the same island, and neither ever sits on a footprint (built or not — a plot stays clear for
+its building), on the hub, or on a cell the path graph walks.
+
+- **Wild** — pines, round trees, bushes, boulders, and crystals in `stellar`, on roughly half
+  the free cells. An era opens as a wooded island with empty plots.
+- **Growth** — the town a building gathers around itself: one item per level, plus one more
+  at its maximum (`growthCount`), on the nearest free cells. Tents and fields in `tribe`,
+  cottages in `viking`, gabled houses and gardens in `medieval`/`empire`, blocks from
+  `industrial` on, pods and domes in the future eras (`ERA_DECOR`). An upgrade therefore
+  changes the island, not just a sprite: the new neighbours spring up with it (`decor-grow`).
+
+Decor is coloured only through CSS tokens — the era's materials, plus two ground tokens added
+for it: `foliage` (trees, fields) and `path` (walkways, derived from `top`). Every drawing is
+2–6 nodes; a fully built era stays under 610 nodes in total, inside the motion budget
+([CITY_VISUALS_MOTION.md §5](CITY_VISUALS_MOTION.md)).
 
 ## 5. Water
 
@@ -117,7 +140,7 @@ content palette plus a small hand-tuned set:
 interface SceneTheme {
   sky: [string, string];        // gradient stops, top → horizon
   water: { base: string; deep: string; wave: string; foam: string };
-  ground: { top: string; cliff: string; wet: string };
+  ground: { top: string; cliff: string; wet: string; foliage: string; path: string };
   horizon: string;              // silhouette tone
   material: MaterialTokens;     // see CITY_VISUALS_BUILDINGS.md §3
   time: 'day' | 'dusk' | 'night';

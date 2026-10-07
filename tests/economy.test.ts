@@ -3,13 +3,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { buildingsFileSchema, erasFileSchema } from '@/content/schema';
-import {
-  BUILDING_PRICES,
-  CURRICULUM_PLAN,
-  ERA_UNLOCK_XP,
-  buildingCostAt,
-  buildingTotalCost,
-} from '@/city/economy';
+import { BUILDING_PRICES, CURRICULUM_PLAN, ERA_UNLOCK_XP, buildingCostAt, buildingTotalCost, TYPICAL_LESSON_COINS, lessonsToEarn, REWARDS } from '@/city/economy';
 
 // Read the two city files straight off disk rather than through the registry: the registry
 // eagerly globs every lesson in the repo, and a second suite doing that in parallel with
@@ -101,5 +95,20 @@ describe('city economy', () => {
     expect(buildingCostAt(price, 2)).toBe(400);
     expect(buildingTotalCost(price)).toBe(700);
     expect(buildingTotalCost({ coins: 300, maxLevel: 1, costGrowth: 1 })).toBe(300);
+  });
+});
+
+describe('lessons to earn a price', () => {
+  it('counts at least one lesson for any shortfall, none for none', () => {
+    expect(lessonsToEarn(0)).toBe(0);
+    expect(lessonsToEarn(-5)).toBe(0);
+    expect(lessonsToEarn(1)).toBe(1);
+    expect(lessonsToEarn(TYPICAL_LESSON_COINS)).toBe(1);
+    expect(lessonsToEarn(TYPICAL_LESSON_COINS + 1)).toBe(2);
+  });
+
+  it('plans with what a typical first pass pays', () => {
+    // ~150 XP per lesson at coinsPerXp — the figure the era thresholds are tuned against.
+    expect(TYPICAL_LESSON_COINS).toBe(Math.round(150 * REWARDS.coinsPerXp));
   });
 });

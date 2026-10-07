@@ -146,6 +146,19 @@ The connection must be **explicit and visible**:
   kronor, streak, stored freezes, today's daily income) and the city's active bonuses, each with
   an icon and a sentence. What you have and what the city is doing for you must never depend on
   which page you happen to be on.
+- **There is always a next goal, priced in lessons.** When nothing is affordable, the result
+  screen, the home screen's city card and the map's panel all name the nearest building the
+  learner is saving for, with the wallet against its price and "about N lessons" to go
+  (`findSavingGoal` in `src/city/progress.ts`, `lessonsToEarn` and `TYPICAL_LESSON_COINS` in
+  `src/city/economy.ts` — ~150 XP a lesson at `coinsPerXp`, a planning figure, not a promise).
+  The panel's second button goes straight to the next lesson.
+- **The map shows what is possible right now** (CITY_VISUALS_BUILDINGS.md §5): every open plot
+  carries its building's blueprint, affordable plots and upgrades carry a bobbing badge, and
+  a plot still being saved for carries a ring filling with coins. A chip on the map counts the
+  era's levels built. Tapping a building previews its next level in place and opens its panel,
+  with the Build button, under the map.
+- **An upgrade changes the island**, not only the building: each level adds a house, field
+  or garden around it, and the maximum level one more (CITY_VISUALS_SCENE.md §4a).
 - Buildings gate *bonus* content only — never core curriculum. Progress in the language must
   never be blocked by the game.
 - Achievements bridge both — see §8.6.

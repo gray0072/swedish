@@ -54,8 +54,11 @@ red-painted carving).
 `maxLevel` is 1, 2 or 3 (`src/city/economy.ts`). Art must make the level legible from the
 map alone, without reading the badge:
 
-- **Level 0 — plot.** A dashed footprint outline in the era trim colour at 40 %, a small
-  carved post sign, and flattened ground. Not empty space: an invitation.
+- **Level 0 — plot.** A dashed footprint outline in the era trim colour, and on it the
+  building's **blueprint**: its first level drawn as one flat silhouette in the trim colour
+  (every material token set to `var(--trim)`), faint while it is being saved for. A plot whose
+  requirement is unmet gets no blueprint, only the post sign with a chain. Not empty space: an
+  invitation, and a promise of exactly what goes there.
 - **Level 1 — built.** The base form. Modest, complete, in use.
 - **Level 2 — extended.** Same silhouette family, more of it: an added wing or storey, one
   more prop cluster, a second chimney. Roughly +25 % mass.
@@ -73,7 +76,10 @@ scaling looks like a zoom; growth by redrawing looks like construction.
 |---|---|
 | Locked era | The whole scene is dimmed 35 % behind the lock copy; plots are not drawn |
 | Requirement unmet | Plot drawn, outline solid grey, no pulse, post sign carries a chain glyph |
-| Affordable now | Plot outline pulses gold, 2.4 s loop — see [CITY_VISUALS_MOTION.md §3](CITY_VISUALS_MOTION.md) |
+| Open, not yet affordable | Blueprint at 22 %; over it a still ring filling with gold as the wallet nears the price |
+| Affordable now | Plot outline pulses, the blueprint breathes (`ghost-breathe`), and a gold "+" bubble bobs over it — see [CITY_VISUALS_MOTION.md §3](CITY_VISUALS_MOTION.md) |
+| Upgrade affordable | A green arrow bubble bobs over the building |
+| Selected | The next level is drawn in its real colours, shimmering (`preview-shimmer`), in place of the current one; the panel under the map shows what it adds |
 | Just became affordable | One shimmer sweep across the plot, once, when coins cross the cost |
 | Under construction | The 900 ms carve-in, stroke then fill (SPEC §11.6) |
 | Upgraded | The new level's added mass carves in; the existing shape does not redraw |
@@ -112,11 +118,25 @@ export const longhouse: BuildingArt = {
 space whose origin is the footprint's front-bottom corner, y pointing up. The scene applies
 the isometric transform; art files never do coordinate maths.
 
+**Placement.** The scene measures each level once (`getBBox`, cached per level object) and
+centres the drawing on its footprint, so art may be authored from x = 0 rightwards without
+drifting off its plot. Stars, smoke, flags and badges sit on the *measured* top. Art is drawn
+at `ART_SCALE` = 1.25 of its authored units.
+
+**Screen-space helpers.** The boats and figures in `shared/figures.tsx` are drawn y-down; a
+building that moors one wraps it in `upright(y0, …)` from `shared/primitives.tsx`, or it comes
+out upside down with its sail under the hull.
+
 ## 7. Interaction
 
 - Hover / focus: the building group lifts 3 units and its shadow grows 8 % — 160 ms ease-out.
-- Click / tap: a single expanding ring at the base, then the existing
-  `scrollToBuilding()` behaviour.
+- Click / tap: a single expanding ring at the base, and the building is **selected**: it
+  previews its next level in place, and `MapBuildingPanel` opens under the map with the level,
+  the perk now and at the next level, the wallet against the price ("26 🪙 to go · about 1
+  lesson"), the Build / Upgrade button itself, and — when coins are short — a link straight to
+  the next lesson. Tapping again, the ✕ or Escape deselects. Buying hides the preview so the
+  new level is what rises. The card below the map stays the full, accessible representation
+  (the panel's "Details" scrolls to it).
 - Keyboard: the hit layer is tab-ordered by depth (back to front, left to right), each target
   labelled `"<name> — level n of m"`, with a visible focus ring drawn on the hit layer.
 - Long-press / hover ≥ 500 ms: a small label plate with name, level and next cost. The plate

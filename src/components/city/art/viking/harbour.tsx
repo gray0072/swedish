@@ -1,5 +1,5 @@
 import type { BuildingArt, MaterialTokens } from '../../scene/types';
-import { isoBox, shadow, wobbleLine } from '../shared/primitives';
+import { isoBox, shadow, upright, wobbleLine } from '../shared/primitives';
 import { barrel, net } from '../shared/props';
 import { boatViking } from '../shared/figures';
 
@@ -40,7 +40,7 @@ function built(m: MaterialTokens) {
       {jetty(W * 0.6, m.wall, m.wallSide)}
       {/* Mooring post */}
       <path d={wobbleLine(4, 8, 4, 20, 61, 0.3)} stroke={m.timber} strokeWidth={2} strokeLinecap="round" fill="none" />
-      {boatViking({ x: W * 0.55, y: 10, w: 34, hull: m.wallSide })}
+      {upright(9, boatViking({ x: W * 0.62, y: 9, w: 40, hull: m.timber }))}
       {barrel(W * 0.85, 0, m.timber)}
     </>
   );
@@ -55,7 +55,10 @@ function landmark(m: MaterialTokens) {
       <path d={wobbleLine(W - 6, 8, W - 6, 22, 62, 0.3)} stroke={m.timber} strokeWidth={2} strokeLinecap="round" fill="none" />
       {/* Landmark: the ship carries a sail now, and a small dock crane for cargo — the busier
           harbour §4 describes. */}
-      {boatViking({ x: W * 0.55, y: 10, w: 40, hull: m.wallSide, sail: m.trim })}
+      {upright(9, boatViking({ x: W * 0.55, y: 9, w: 52, hull: m.timber, sail: m.trim }))}
+      {/* A boathouse at the landward end, where the ship wintered. */}
+      {isoBox({ x: -6, y: 8, w: 22, h: 14, depth: 6, wall: m.wall, wallSide: m.wallSide })}
+      <polygon points="-9,22 5,34 19,22" fill={m.roof} />
       {net(W * 0.1, 0, 22, m.timber)}
       {barrel(W * 0.88, 0, m.timber)}
       {barrel(W * 0.78, 0, m.timber)}

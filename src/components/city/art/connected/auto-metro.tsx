@@ -1,5 +1,5 @@
 import type { BuildingArt, MaterialTokens } from '../../scene/types';
-import { isoBox, shadow, windowGrid, wobbleLine } from '../shared/primitives';
+import { shadow } from '../shared/primitives';
 
 /**
  * The driverless metro — a guess: the announcements stay the same, you still have to
@@ -9,29 +9,57 @@ import { isoBox, shadow, windowGrid, wobbleLine } from '../shared/primitives';
 
 const W = 84; // 2x1 footprint
 
+const DECK = 20;
+
+/** The elevated guideway: one slim beam on three pylons. */
+function guideway(m: MaterialTokens) {
+  return (
+    <g>
+      {[8, W * 0.5, W - 8].map((x) => (
+        <rect key={x} x={x - 2.5} y={0} width={5} height={DECK} fill={m.wallSide} />
+      ))}
+      <rect x={-8} y={DECK} width={W + 16} height={4} fill={m.wall} />
+      <rect x={-8} y={DECK + 4} width={W + 16} height={1} fill={m.trim} />
+    </g>
+  );
+}
+
+/** A driverless pod train: rounded both ends, no cab, a lit window band. */
+function train(x: number, w: number, m: MaterialTokens) {
+  return (
+    <g>
+      <rect x={x} y={DECK + 5} width={w} height={11} rx={5} fill={m.glass} />
+      <rect x={x + 4} y={DECK + 9} width={w - 8} height={4} rx={2} fill={m.glassLit} />
+      <rect x={x + 2} y={DECK + 6} width={w - 4} height={1.2} fill={m.trim} />
+    </g>
+  );
+}
+
 function built(m: MaterialTokens) {
-  const wallH = 18;
   return (
     <>
       {shadow(W, 10)}
-      {isoBox({ x: 0, y: 0, w: W, h: wallH, depth: 8, wall: m.wall, wallSide: m.wallSide })}
-      {windowGrid({ x: 2, y: 2, w: W - 4, h: wallH - 4, cols: 6, rows: 1, size: 5, glass: m.glass })}
-      <rect x={-2} y={wallH} width={W + 4} height={2} fill={m.trim} />
+      {guideway(m)}
+      {train(6, 40, m)}
+      {/* Stairs up to the platform. */}
+      <polygon points={`${W - 4},0 ${W + 10},0 ${W - 4},${DECK}`} fill={m.wallSide} />
     </>
   );
 }
 
 function landmark(m: MaterialTokens) {
-  const wallH = 20;
   return (
     <>
-      {shadow(W, 10)}
-      {isoBox({ x: 0, y: 0, w: W, h: wallH, depth: 8, wall: m.wall, wallSide: m.wallSide })}
-      {windowGrid({ x: 2, y: 2, w: W - 4, h: wallH - 4, cols: 6, rows: 1, size: 5, glass: m.glass, glassLit: m.glassLit, lit: [1, 2, 4] })}
-      <rect x={-2} y={wallH} width={W + 4} height={2} fill={m.trim} />
-      {/* Landmark: a slim overhead canopy, unmanned — the "no driver's cab" cue. */}
-      <path d={wobbleLine(0, wallH + 6, W, wallH + 4, 251, 0.3)} stroke={m.timber} strokeWidth={1.6} strokeLinecap="round" fill="none" />
-      <path d={wobbleLine(W * 0.5, wallH, W * 0.5, wallH + 5, 252, 0.2)} stroke={m.timber} strokeWidth={1.4} strokeLinecap="round" />
+      {shadow(W + 10, 10)}
+      {/* Landmark: a glass station on the guideway, a lift tower, and a second train. */}
+      <rect x={W + 2} y={0} width={9} height={DECK + 24} fill={m.wall} />
+      <rect x={W + 4} y={DECK + 14} width={5} height={6} fill={m.glassLit} />
+      {guideway(m)}
+      <rect x={W * 0.5} y={DECK + 5} width={W * 0.48} height={18} fill={m.glass} opacity={0.55} />
+      <path d={`M${W * 0.48} ${DECK + 23} Q${W * 0.74} ${DECK + 34} ${W} ${DECK + 23}`} fill={m.glass} />
+      <path d={`M${W * 0.48} ${DECK + 23} Q${W * 0.74} ${DECK + 34} ${W} ${DECK + 23}`} stroke={m.trim} strokeWidth={1.2} fill="none" />
+      {train(W * 0.52, 36, m)}
+      {train(2, 30, m)}
     </>
   );
 }
@@ -39,8 +67,8 @@ function landmark(m: MaterialTokens) {
 export const autoMetro: BuildingArt = {
   footprint: { w: 2, h: 1 },
   levels: [
-    { height: 30, render: built },
-    { height: 34, render: landmark },
+    { height: 36, render: built },
+    { height: 56, render: landmark },
   ],
   ambient: ['rotor'],
   workSpot: { dx: W * 0.4, dy: 4 },
