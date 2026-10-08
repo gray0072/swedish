@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useT } from '@/i18n';
 import { SECONDARY_NAV } from '@/components/layout/secondaryNav';
@@ -13,6 +14,25 @@ export default function TracksPage() {
   const lang = useLanguage();
   const tracks = getTracks();
   const lessonsProgress = useAllLessonProgress();
+
+  // Open on the first course that still has lessons to pass, not on the top of a long list
+  // of finished ones. Chosen once, when the page opens; the very first course needs no scroll.
+  const [focusLevelId] = useState(() => {
+    const levels = tracks.flatMap((track) => track.levels);
+    const open = levels.find((level) =>
+      getLessonsForLevel(level.id).some((l) => !lessonsProgress[l.meta.id]?.passed),
+    );
+    return open && open !== levels[0] ? open.id : null;
+  });
+  useEffect(() => {
+    if (!focusLevelId) return;
+    // One frame for the cards to lay out before scrolling to one of them.
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(`course-${focusLevelId}`)?.scrollIntoView({ block: 'center' });
+    });
+    return () => window.cancelAnimationFrame(frame);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- runs once, for the course the page was opened with
+  }, []);
 
   return (
     <div className="space-y-8">
@@ -49,6 +69,7 @@ export default function TracksPage() {
               return (
                 <Link
                   key={level.id}
+                  id={`course-${level.id}`}
                   to={`/tracks/${track.id}/${level.id}`}
                   className="card card-hover block animate-rise-in hover:border-falu/40"
                   style={{ animationDelay: `${Math.min(index, 10) * 40}ms` }}

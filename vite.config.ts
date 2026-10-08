@@ -10,12 +10,15 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // `prompt`, not `autoUpdate`: a new version waits instead of taking over a page that is
+      // mid-quiz; src/lib/appUpdate.ts applies it, with a reload, once the learner is off one.
+      registerType: 'prompt',
       // The app already ships public/manifest.webmanifest by hand (SPEC.md §12) — this
       // just tells the plugin to link/generate the service worker, not to re-author the
       // manifest itself.
       manifest: false,
-      injectRegister: 'auto',
+      // Registered from src/main.tsx through `virtual:pwa-register`.
+      injectRegister: false,
       workbox: {
         // Precache the app shell (JS/CSS) and the lesson/city/history content JSON so the
         // whole learning loop keeps working with no network after the first visit.

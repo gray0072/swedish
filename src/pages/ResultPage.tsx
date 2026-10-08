@@ -1,9 +1,9 @@
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-import { Download, PartyPopper, RotateCcw } from 'lucide-react';
+import { PartyPopper, RotateCcw } from 'lucide-react';
 import { useT } from '@/i18n';
 import { useLanguage } from '@/store/settings';
-import { findNextOpenLesson, getLesson, lessonPath } from '@/content/registry';
+import { findNextOpenLesson, lessonPath } from '@/content/registry';
 import { useAllLessonProgress } from '@/store/progress';
 import { resolveLocalized } from '@/content/schema';
 import type { RewardResult } from '@/quiz/engine';
@@ -15,7 +15,6 @@ import { lessonsToEarn } from '@/city/economy';
 import { fillCount } from '@/achievements/describe';
 import { formatNumber } from '@/lib/format';
 import { CoinProgress } from '@/components/city/MapBuildingPanel';
-import { renderShareCard } from '@/lib/shareCard';
 import { playFanfare, playSessionEnd } from '@/lib/sound';
 import { useCountUp } from '@/lib/useCountUp';
 import { useAchievementStatuses, type AchievementUnlock } from '@/store/achievements';
@@ -63,7 +62,6 @@ export default function ResultPage() {
   const wallet = useWallet();
   const buildingLevels = useCityBuildingLevels();
   const lessonsProgress = useAllLessonProgress();
-  const canvasRef = useRef<HTMLCanvasElement>(null);
   // StrictMode runs mount effects twice in dev; without this the fanfare plays over itself.
   const celebrated = useRef(false);
 
@@ -101,43 +99,6 @@ export default function ResultPage() {
 
   if (!reward) return null;
 
-  const lesson = getLesson(lessonId);
-
-  async function handleShare() {
-    if (!reward || !canvasRef.current || !lesson) return;
-    renderShareCard(canvasRef.current, {
-      lessonTitle: resolveLocalized(lesson.meta.title, lang),
-      score: reward.score,
-      total: reward.total,
-      xp: reward.xp,
-      coins: reward.coins,
-      dateLabel: new Date().toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US'),
-      perfectLabel: t('result.perfect'),
-    });
-    canvasRef.current.toBlob(async (blob) => {
-      if (!blob) return;
-      const file = new File([blob], 'swedish-result.png', { type: 'image/png' });
-      const nav = navigator as Navigator & {
-        canShare?: (data: { files: File[] }) => boolean;
-        share?: (data: { files: File[]; title?: string }) => Promise<void>;
-      };
-      if (nav.canShare?.({ files: [file] }) && nav.share) {
-        try {
-          await nav.share({ files: [file], title: 'Swedish' });
-          return;
-        } catch {
-          // user cancelled the native share sheet — fall through to download
-        }
-      }
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'swedish-result.png';
-      a.click();
-      URL.revokeObjectURL(url);
-    }, 'image/png');
-  }
-
   // The next lesson still to do, not merely the next one in order — after a retry of an old
   // lesson, "next" leads back to where the learner actually is.
   const nextLesson = findNextOpenLesson((id) => Boolean(lessonsProgress[id]?.passed), lessonId);
@@ -150,8 +111,6 @@ export default function ResultPage() {
 
   return (
     <div className="mx-auto max-w-md space-y-6 text-center">
-      <canvas ref={canvasRef} className="hidden" aria-hidden="true" />
-
       {reward.perfect && (
         <div className="animate-aurora-sweep text-sm font-semibold text-aurora">
           ✨ {t('result.perfect')}
@@ -213,13 +172,6 @@ export default function ResultPage() {
               {fillCount(t('city.panel.lessons'), lessonsToEarn(goal.cost - wallet.coins), lang)}
             </span>
           </Link>
-        )}
-
-        {reward.perfect && (
-          <button onClick={handleShare} className="btn-secondary mt-4 w-full">
-            <Download size={16} aria-hidden="true" />
-            {t('result.share')}
-          </button>
         )}
       </div>
 

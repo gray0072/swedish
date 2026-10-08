@@ -22,4 +22,7 @@
 - **Accessibility:** full keyboard navigation, visible focus rings, `aria-live` for feedback,
   respect `prefers-reduced-motion`, contrast ≥ 4.5:1.
 - **PWA:** installable, offline-capable via a service worker precaching the app shell and
-  all content JSON.
+  all content JSON. A new version installs in the background and waits; it takes over, with a
+  reload, only once the learner is off the quiz, review or result screen, and the app checks for
+  one on every return to the foreground (`src/lib/appUpdate.ts`). Manifest `id` `/swedish/`, so
+  the app installs next to the other apps on `gray0072.github.io`.

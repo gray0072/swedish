@@ -4,6 +4,7 @@ import { BookOpen, Home, Landmark, Settings as SettingsIcon } from 'lucide-react
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useCloudSync } from '@/store/useCloudSync';
+import { useApplyUpdateWhenIdle } from '@/lib/appUpdate';
 import { useSettings } from '@/store/settings';
 import DalaHorse from '@/components/ui/DalaHorse';
 import AchievementToasts from '@/components/ui/AchievementToasts';
@@ -75,6 +76,7 @@ export default function AppShell() {
   // Runs the actual sync effect once at the app root, independent of route changes.
   // SettingsPage shows status/controls via useCloudSyncStatus(), not this hook.
   useCloudSync();
+  useApplyUpdateWhenIdle(pathname);
 
   useEffect(() => {
     touchDailyActivity();

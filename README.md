@@ -260,7 +260,7 @@ src/
   store/                    Zustand store (wallet, progress, city, settings), save/export/import,
                             optional Supabase cloud sync
   components/, pages/       UI; the city scene lives in components/city/scene
-  lib/                      speech, synthesized sounds, share card, helpers
+  lib/                      speech, synthesized sounds, helpers
 scripts/                    content validation, lesson scaffolder, screenshot generator
 supabase/                   schema.sql — the `saves` table + RLS policies
 tests/                      Vitest unit tests

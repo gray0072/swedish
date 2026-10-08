@@ -903,3 +903,20 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **There is always a next goal.** The home screen's city card names what you can build now,
   or the nearest building you are saving for, with a progress bar and the lessons left; the
   result screen does the same when nothing is affordable yet.
+
+## 2026-10-08 — Courses open where you are, a leaner result and city, updates that wait for a quiz to end
+
+- **The courses page scrolls to the first course with lessons still to pass**, instead of
+  opening on the top of a list of finished ones.
+- **"Share your result" is gone** from the result screen, together with the canvas share card
+  behind it.
+- **The city page no longer shows the active-bonuses panel**: each building card already names
+  its perk, and the panel stays on the home screen.
+- **Updates no longer wait for a cold start, and never interrupt a quiz.** The service worker
+  now runs in `prompt` mode: a new version installs in the background and waits; once the
+  learner is off the quiz, review or result screen, the page reloads into it. The installed app
+  also checks for a new version every time it returns to the foreground, which Android resumes
+  from the background rather than restarting.
+- **The manifest has an explicit `id` (`/swedish/`)** and an English description, so the app
+  installs on Android next to the other apps on `gray0072.github.io`. AGENTS.md gained the rules
+  for sharing that origin: an app-name prefix on every storage key, database and cache.

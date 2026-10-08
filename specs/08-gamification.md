@@ -142,10 +142,10 @@ The connection must be **explicit and visible**:
   review session", not a bare "+12" — with the perk's icon beside it. One module,
   `components/city/PerkDisplay.tsx`, owns that wording, so a building card and the bonus panel
   can never disagree about what a perk does.
-- **The home screen and the city map both show the same two blocks**: current resources (XP,
-  kronor, streak, stored freezes, today's daily income) and the city's active bonuses, each with
-  an icon and a sentence. What you have and what the city is doing for you must never depend on
-  which page you happen to be on.
+- **The home screen shows two blocks**: current resources (XP, kronor, streak, stored freezes,
+  today's daily income) and the city's active bonuses, each with an icon and a sentence. The
+  city page shows the same resources but not the bonus total — there every building card
+  already names its own perk, and the page leads with the map.
 - **There is always a next goal, priced in lessons.** When nothing is affordable, the result
   screen, the home screen's city card and the map's panel all name the nearest building the
   learner is saving for, with the wallet against its price and "about N lessons" to go

@@ -34,6 +34,29 @@ app interface. Write in English first; a translation is optional and always seco
   (`src/content/schema.ts`) rather than this rule.
 - **Code.** Identifiers, comments, commit messages and PR descriptions are English.
 
+## Shared origin: storage and the PWA
+
+The app is served from `https://gray0072.github.io/swedish/`, next to other apps on the same
+origin (`/ivan/…`, `/tanks/`). Folders do not separate browser storage — only the origin does.
+
+- **Every storage name starts with the app's name.** `localStorage` / `sessionStorage` keys,
+  IndexedDB database names and Cache Storage cache names begin with `swedish` (the save is
+  `swedish-app`). A bare `settings` or `progress` would read and overwrite another app's data.
+  Names a library builds from its own unique id (Supabase's `sb-<project-ref>-…`, Workbox's
+  precache name, which carries the scope `/swedish/`) are already apart.
+- **Never wipe the whole origin.** `localStorage.clear()`, deleting every cache from
+  `caches.keys()` or every IndexedDB database destroys the other apps' data; remove only names
+  with this app's prefix.
+- **The manifest `id` is an absolute path: `"/swedish/"`.** A relative `id` such as `"./"`
+  resolves against the *origin* of `start_url`, not the manifest's folder, so every app on the
+  domain would get the same id and Android would treat them as one app. `start_url` and `scope`
+  stay `/swedish/`, so the app is installable next to the others.
+- **Updates never interrupt a quiz.** The service worker is registered in `prompt` mode; a new
+  version waits until the learner leaves the quiz, review or result screen, then the page
+  reloads into it (`src/lib/appUpdate.ts`). The app also checks for a new version each time it
+  returns to the foreground. A new screen that holds unsaved in-progress state belongs in
+  `BUSY_ROUTES` there.
+
 ## Commits
 
 One subject line, no body, no trailers.

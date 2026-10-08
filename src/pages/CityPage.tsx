@@ -14,7 +14,6 @@ import CityMap from '@/components/city/CityMap';
 import EraFrame from '@/components/ui/EraFrame';
 import KurbitsDivider from '@/components/ui/KurbitsDivider';
 import WalletBar from '@/components/ui/WalletBar';
-import PerkPanel from '@/components/city/PerkDisplay';
 import Fireworks from '@/components/ui/Fireworks';
 import NextLessonCard from '@/components/lesson/NextLessonCard';
 
@@ -82,7 +81,6 @@ export default function CityPage() {
       <Fireworks />
 
       <WalletBar />
-      <PerkPanel compact />
 
       <div ref={stripRef} className="flex gap-2 overflow-x-auto pb-1">
         {eras.map((era) => {

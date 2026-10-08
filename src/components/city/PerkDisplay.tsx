@@ -84,10 +84,10 @@ function activeRows(perks: PerkTotals): Array<{ type: PerkType; value: number }>
 }
 
 /**
- * The city's total bonuses, shown on both the home screen and the city map so the learner
- * can always see what the buildings are actually doing for them.
+ * The city's total bonuses, shown on the home screen so the learner can always see what the
+ * buildings are actually doing for them.
  */
-export default function PerkPanel({ compact = false }: { compact?: boolean }) {
+export default function PerkPanel() {
   const t = useT();
   const perks = usePerks();
   const rows = activeRows(perks);
@@ -102,9 +102,7 @@ export default function PerkPanel({ compact = false }: { compact?: boolean }) {
         <p className="mt-2 text-sm text-granite dark:text-birch/70">{t('perks.empty')}</p>
       ) : (
         <>
-          {!compact && (
-            <p className="mt-1 text-xs text-granite dark:text-birch/60">{t('perks.subtitle')}</p>
-          )}
+          <p className="mt-1 text-xs text-granite dark:text-birch/60">{t('perks.subtitle')}</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {rows.map(({ type, value }) => {
               const { icon: Icon, tone } = PERK_UI[type];

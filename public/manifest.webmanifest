@@ -1,7 +1,8 @@
 {
   "name": "Swedish",
   "short_name": "Swedish",
-  "description": "Учи шведский язык и строй Стокгольм от племени до наших дней.",
+  "description": "Learn Swedish and build Stockholm from a tribe to the present day.",
+  "id": "/swedish/",
   "start_url": "/swedish/",
   "scope": "/swedish/",
   "display": "standalone",
