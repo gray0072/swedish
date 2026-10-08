@@ -94,8 +94,8 @@ function McChoices({
               : isOut
               ? 'border-granite/15 text-granite/40 line-through dark:border-white/10 dark:text-birch/25'
               : selected === i
-                ? 'border-falu bg-falu/10 dark:bg-falu/20'
-                : 'border-granite/20 hover:border-falu/50 hover:bg-granite/5 dark:border-white/15 dark:hover:bg-white/5')
+                ? 'border-blue-flag bg-blue-flag/10 dark:bg-blue-flag/20'
+                : 'border-granite/20 hover:border-blue-flag/50 hover:bg-granite/5 dark:border-white/15 dark:hover:bg-white/5')
           }
         >
           <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-granite/10 text-[11px] font-bold dark:bg-white/10">
@@ -221,7 +221,7 @@ export default function QuestionRenderer({
           spellCheck={false}
           className={
             'w-full rounded-xl border bg-transparent px-4 py-3 text-lg outline-none ' +
-            (verdictClasses(verdict, true, false) ?? 'border-granite/25 focus:border-falu dark:border-white/20')
+            (verdictClasses(verdict, true, false) ?? 'border-granite/25 focus:border-blue-flag dark:border-white/20')
           }
         />
         {'hint' in question && question.hint && (
@@ -251,8 +251,8 @@ export default function QuestionRenderer({
                 'flex-1 rounded-xl border px-4 py-3 font-semibold transition-colors ' +
                 (verdictClasses(verdict, tf === v, question.answer === v) ??
                 (tf === v
-                  ? 'border-falu bg-falu/10'
-                  : 'border-granite/20 hover:border-falu/50 dark:border-white/15'))
+                  ? 'border-blue-flag bg-blue-flag/10'
+                  : 'border-granite/20 hover:border-blue-flag/50 dark:border-white/15'))
               }
             >
               {v ? t('quiz.trueFalse.true') : t('quiz.trueFalse.false')}
@@ -286,7 +286,7 @@ export default function QuestionRenderer({
                 setOrderSeq(next);
                 onChange(next.length === question.tokens.length ? { kind: 'order', order: next } : null);
               }}
-              className="sv-word animate-pop-in rounded-lg bg-falu/10 px-3 py-1.5 text-sm dark:bg-falu/25"
+              className="sv-word animate-pop-in rounded-lg bg-blue-flag/10 px-3 py-1.5 text-sm dark:bg-blue-flag/25"
             >
               {question.tokens[tokenIdx]}
             </button>
@@ -311,7 +311,7 @@ export default function QuestionRenderer({
                 onChange(next.length === question.tokens.length ? { kind: 'order', order: next } : null);
               }}
               className={
-                'sv-word rounded-lg border border-granite/25 px-3 py-1.5 text-sm hover:border-falu/50 dark:border-white/15' +
+                'sv-word rounded-lg border border-granite/25 px-3 py-1.5 text-sm hover:border-blue-flag/50 dark:border-white/15' +
                 (picked ? ' invisible' : '')
               }
             >
@@ -346,8 +346,8 @@ export default function QuestionRenderer({
                   (matchedLeft.has(i)
                     ? 'animate-pop-in border-pine/40 bg-pine/10 opacity-60'
                     : activeLeft === i
-                      ? 'border-falu bg-falu/10'
-                      : 'border-granite/20 hover:border-falu/40 dark:border-white/15')
+                      ? 'border-blue-flag bg-blue-flag/10'
+                      : 'border-granite/20 hover:border-blue-flag/40 dark:border-white/15')
                 }
               >
                 <SwedishText text={sv} />
@@ -373,7 +373,7 @@ export default function QuestionRenderer({
                   'block w-full rounded-lg border px-3 py-2 text-left text-sm transition-colors ' +
                   (matchedRight.has(originalIdx)
                     ? 'animate-pop-in border-pine/40 bg-pine/10 opacity-60'
-                    : 'border-granite/20 hover:border-falu/40 dark:border-white/15')
+                    : 'border-granite/20 hover:border-blue-flag/40 dark:border-white/15')
                 }
               >
                 {question.pairs[originalIdx][1]}
