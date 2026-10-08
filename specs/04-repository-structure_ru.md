@@ -13,6 +13,8 @@ swedish/
 │  ├─ .nojekyll                  # чтобы Pages отдавал папки, начинающиеся с _
 │  ├─ favicon.svg                # иконка приложения: силуэт Стадсхюсет (§11.4)
 │  ├─ icon-192.png, icon-512.png # PNG-рендеры favicon.svg для манифеста
+│  ├─ icon-maskable.svg          # maskable-вариант: фон до краёв, рисунок внутри безопасного круга
+│  ├─ icon-maskable-192.png, -512.png # его PNG-рендеры, purpose "maskable" (круглые иконки Android)
 │  ├─ apple-touch-icon.png       # 180 px, без скруглений (iOS скругляет сам)
 │  ├─ manifest.webmanifest       # PWA
 │  └─ img/
