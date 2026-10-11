@@ -920,3 +920,11 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
 - **The manifest has an explicit `id` (`/swedish/`)** and an English description, so the app
   installs on Android next to the other apps on `gray0072.github.io`. AGENTS.md gained the rules
   for sharing that origin: an app-name prefix on every storage key, database and cache.
+
+## 2026-10-11 — The cloud save table is `swedish_saves`
+
+- **The Supabase table is renamed from `saves` to `swedish_saves`.** The Supabase project is now
+  shared with `tanks` and `world-aviation`, each with its own tables, so every table name starts
+  with its app's prefix, like the storage keys on the shared origin. `supabase/schema.sql`
+  renames the old table in place (rows and policies kept) and is safe to run again; it must run
+  before this version is deployed.

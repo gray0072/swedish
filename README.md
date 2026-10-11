@@ -196,7 +196,7 @@ devices between syncs is combined rather than one side overwriting the other. Fu
 [SPEC.md §7.1](specs/07-progress-and-sync.md#71-optional-cloud-sync--supabase).
 
 1. Create a free [Supabase](https://supabase.com/) project.
-2. Run [supabase/schema.sql](supabase/schema.sql) once in its SQL editor — one `saves` table
+2. Run [supabase/schema.sql](supabase/schema.sql) once in its SQL editor — one `swedish_saves` table
    with row-level security scoping every row to its own user.
 3. Enable the Google auth provider (Authentication → Providers), which needs a Google Cloud
    OAuth client id/secret, and add your dev and prod URLs under Authentication → URL
@@ -262,7 +262,7 @@ src/
   components/, pages/       UI; the city scene lives in components/city/scene
   lib/                      speech, synthesized sounds, helpers
 scripts/                    content validation, lesson scaffolder, screenshot generator
-supabase/                   schema.sql — the `saves` table + RLS policies
+supabase/                   schema.sql — the `swedish_saves` table + RLS policies
 tests/                      Vitest unit tests
 ```
 

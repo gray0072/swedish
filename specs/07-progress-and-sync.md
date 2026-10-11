@@ -67,10 +67,14 @@ the app exactly as described in §7.
   (`.github/workflows/deploy.yml`) reads the same two values from GitHub Actions repository
   secrets instead, since `.env.local` never reaches CI — leaving those secrets unset there is
   the usual reason a deployed build shows no sign-in button even though it works locally.
-- `supabase/schema.sql` — run once by hand in the Supabase SQL editor. One table,
-  `saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
+- `supabase/schema.sql` — run by hand in the Supabase SQL editor (safe to run again). One table,
+  `swedish_saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
   with RLS policies restricting every select/insert/update to `auth.uid() = user_id`. No
-  `service_role` key is used anywhere in the client.
+  `service_role` key is used anywhere in the client. The Supabase project is shared with other
+  apps of the same author (`tanks`, `world-aviation`), so every table name starts with its app's
+  prefix, like the storage keys on the shared origin; the table was plain `saves` until
+  2026-10-11 and the script renames it, keeping its rows. The other apps keep their sessions under
+  their own `localStorage` keys; this app's stays at Supabase's default `sb-<project-ref>-auth-token`.
 - Google sign-in via Supabase Auth, using the **PKCE** flow
   (`src/store/supabaseClient.ts`: `createClient(url, key, { auth: { flowType: 'pkce' } })`).
   This is required, not a style choice: the app uses `HashRouter` (§9), and Supabase's default

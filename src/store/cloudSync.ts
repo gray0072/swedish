@@ -9,6 +9,10 @@ import {
   type BuildingState,
 } from './persist';
 
+// The Supabase project is shared with other apps (tanks, world-aviation), so the table name
+// carries the app's prefix, like every storage key does (supabase/schema.sql).
+const SAVES_TABLE = 'swedish_saves';
+
 export function isCloudSyncAvailable(): boolean {
   return supabase !== null;
 }
@@ -61,7 +65,7 @@ export async function getCurrentUser(): Promise<CloudUser | null> {
  */
 export async function fetchCloudSave(userId: string): Promise<SaveFile | null> {
   if (!supabase) return null;
-  const { data, error } = await supabase.from('saves').select('data').eq('user_id', userId).maybeSingle();
+  const { data, error } = await supabase.from(SAVES_TABLE).select('data').eq('user_id', userId).maybeSingle();
   if (error) throw error;
   if (!data) return null; // no error AND no row: this user has never synced before — genuinely empty.
   return migrateSave(data.data); // a corrupted row is also a real failure, not "no save".
@@ -74,7 +78,7 @@ export async function pushCloudSave(userId: string, save: SaveFile): Promise<voi
   // here, a failed upsert was indistinguishable from a successful one to every caller, which is
   // how this app could report "synced" while the cloud row never actually existed.
   const { error } = await supabase
-    .from('saves')
+    .from(SAVES_TABLE)
     .upsert({ user_id: userId, data: save, updated_at: new Date().toISOString() });
   if (error) throw error;
 }

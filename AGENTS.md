@@ -42,8 +42,12 @@ origin (`/ivan/…`, `/tanks/`). Folders do not separate browser storage — onl
 - **Every storage name starts with the app's name.** `localStorage` / `sessionStorage` keys,
   IndexedDB database names and Cache Storage cache names begin with `swedish` (the save is
   `swedish-app`). A bare `settings` or `progress` would read and overwrite another app's data.
-  Names a library builds from its own unique id (Supabase's `sb-<project-ref>-…`, Workbox's
-  precache name, which carries the scope `/swedish/`) are already apart.
+  Names a library builds from its own unique id (Workbox's precache name, which carries the
+  scope `/swedish/`) are already apart. Supabase's `sb-<project-ref>-auth-token` is not: the
+  Supabase project is shared with `tanks` and `world-aviation`, which therefore keep their
+  sessions under their own keys (`tanks.auth`, `worldaviation.auth.*`); this app keeps the default.
+- **Every Supabase table starts with the app's name too** (`swedish_saves`): the project is
+  shared with the other apps, each with its own tables.
 - **Never wipe the whole origin.** `localStorage.clear()`, deleting every cache from
   `caches.keys()` or every IndexedDB database destroys the other apps' data; remove only names
   with this app's prefix.

@@ -67,10 +67,16 @@ interface SaveFile {
   (`.github/workflows/deploy.yml`) берёт те же два значения из репозиторных секретов GitHub
   Actions, так как `.env.local` в CI не попадает — если их там не задать, задеплоенная сборка
   соберётся без кнопки входа, при том что локально всё работает.
-- `supabase/schema.sql` — выполняется один раз вручную в SQL-редакторе Supabase. Одна таблица,
-  `saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
+- `supabase/schema.sql` — выполняется вручную в SQL-редакторе Supabase (повторный запуск
+  безопасен). Одна таблица,
+  `swedish_saves(user_id uuid primary key references auth.users, data jsonb, updated_at timestamptz)`,
   с RLS-политиками, ограничивающими каждый select/insert/update условием
-  `auth.uid() = user_id`. Ключ `service_role` в клиенте нигде не используется.
+  `auth.uid() = user_id`. Ключ `service_role` в клиенте нигде не используется. Проект Supabase
+  общий с другими приложениями того же автора (`tanks`, `world-aviation`), поэтому имя каждой
+  таблицы начинается с префикса её приложения, как и ключи хранилища на общем origin; до
+  2026-10-11 таблица называлась просто `saves`, и скрипт переименовывает её, сохраняя строки.
+  Другие приложения хранят свои сессии под собственными ключами `localStorage`; сессия этого
+  приложения остаётся под ключом Supabase по умолчанию `sb-<project-ref>-auth-token`.
 - Вход через Google через Supabase Auth, по потоку **PKCE**
   (`src/store/supabaseClient.ts`: `createClient(url, key, { auth: { flowType: 'pkce' } })`).
   Это не стилистический выбор, а необходимость: приложение использует `HashRouter` (§9), а
