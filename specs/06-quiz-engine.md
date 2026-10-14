@@ -33,6 +33,10 @@ State machine: `idle → question → feedback → (question | summary)`.
 - Immediate feedback after each answer: correct/incorrect, correct answer, explanation, audio.
 - A **"one free retry"** rule: the first wrong answer in a run may be retried once for half
   credit. This is positive reinforcement, not punishment.
+- **"Can't listen now"**: a listening question offers this button. It swaps the current and
+  every remaining listening question in the run for unused non-listening questions from the
+  pool, so the run keeps its length; if the pool runs out of them, the leftover listening
+  questions are dropped and the pass threshold shrinks in proportion. It lasts until the run ends.
 - Progress bar with per-question dots; keyboard-first (`1`–`4`, `Enter`, `Esc`).
 - The learner can quit anytime; partial progress is saved but no XP is awarded below the
   pass threshold.

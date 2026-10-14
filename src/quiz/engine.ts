@@ -1,7 +1,7 @@
 import type { Question } from '@/content/schema';
 import type { LessonContent } from '@/content/loader';
-import { hashSeed, mulberry32, shuffle } from './prng';
-import { selectQuestions, type SelectionContext } from './selection';
+import { hashSeed, mulberry32, shuffle, weightedSample } from './prng';
+import { selectQuestions, weightFor, type SelectionContext } from './selection';
 import type { GradeResult } from './grading';
 import { REWARDS } from '@/city/economy';
 
@@ -56,6 +56,46 @@ export function createSession(
   );
   const questions = picked.map((q) => prepareQuestion(q, rng));
   return { lessonId: lesson.meta.id, seed, attemptNumber, questions, results: [] };
+}
+
+/**
+ * "Can't listen now": every listening question from `fromIndex` on is swapped for an unused
+ * non-listening question from the pool, so the run keeps its length. When the pool runs out
+ * of those, the remaining listening questions are dropped and the run gets shorter.
+ * Mutates the session in place.
+ */
+export function skipListening(
+  session: QuizSession,
+  fromIndex: number,
+  pool: Question[],
+  selectionCtx: SelectionContext,
+): void {
+  const head = session.questions.slice(0, fromIndex);
+  const tail = session.questions.slice(fromIndex);
+  const listenCount = tail.filter((q) => q.type === 'listen').length;
+  if (listenCount === 0) return;
+
+  const used = new Set(session.questions.map((q) => q.id));
+  const rng = mulberry32(hashSeed(`${session.seed}:no-listen:${fromIndex}`));
+  const spare = pool.filter((q) => q.type !== 'listen' && !used.has(q.id));
+  const replacements = weightedSample(spare, (q) => weightFor(q, selectionCtx), listenCount, rng)
+    .map((q) => prepareQuestion(q, rng));
+
+  const next: Question[] = [];
+  for (const q of tail) {
+    if (q.type !== 'listen') next.push(q);
+    else {
+      const replacement = replacements.shift();
+      if (replacement) next.push(replacement);
+    }
+  }
+  session.questions = [...head, ...next];
+}
+
+/** The pass threshold for a run shortened by skipped listening, kept in proportion. */
+export function scaledPassScore(passScore: number, runLength: number, plannedLength: number): number {
+  if (runLength >= plannedLength) return passScore;
+  return Math.max(1, Math.ceil((passScore * runLength) / plannedLength));
 }
 
 export type { Answer, GradeResult } from './grading';

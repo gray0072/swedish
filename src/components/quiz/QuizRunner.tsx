@@ -1,7 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { ArrowRight, Check, Flag, Lightbulb, RotateCcw } from 'lucide-react';
+import { ArrowRight, Check, Flag, Lightbulb, RotateCcw, VolumeX } from 'lucide-react';
 import type { LessonContent } from '@/content/loader';
-import { createSession, recordResult, computeRewards, type RewardResult } from '@/quiz/engine';
+import {
+  createSession,
+  recordResult,
+  computeRewards,
+  scaledPassScore,
+  skipListening,
+  type RewardResult,
+} from '@/quiz/engine';
 import { grade, type Answer, type GradeResult } from '@/quiz/grading';
 import { resolveLocalized, type Question, type StudyLanguage } from '@/content/schema';
 import { useLanguage } from '@/store/settings';
@@ -13,6 +20,7 @@ import { claimPendingAchievements, type AchievementUnlock } from '@/store/achiev
 import { useStreak } from '@/store/wallet';
 import { buildHint, hasHint, type Hint } from '@/quiz/hints';
 import { playCorrect } from '@/lib/sound';
+import { stopSpeaking } from '@/lib/tts';
 import ProgressBar from '@/components/ui/ProgressBar';
 import QuestionRenderer from './QuestionRenderer';
 
@@ -53,32 +61,41 @@ export default function QuizRunner({
   // Hint tokens are a per-run budget too, spent at most once per question.
   const [hintsLeft, setHintsLeft] = useState(() => perks.hintTokens);
   const [hint, setHint] = useState<Hint | null>(null);
+  // "Can't listen now" holds until the end of this run; the session itself is reshaped.
+  const [listeningOff, setListeningOff] = useState(false);
+  const canSkipListening = useMemo(
+    () => lesson.pool.some((q) => q.type !== 'listen'),
+    [lesson],
+  );
 
   const question = session.questions[index];
   const isLast = index === session.questions.length - 1;
 
-  const finalizeAndAdvance = useCallback(() => {
-    if (isLast) {
-      const reward = computeRewards(session, {
-        baseXp: lesson.meta.xp.base,
-        passScore: lesson.meta.quiz.passScore,
-        totalQuestions: session.questions.length,
-        alreadyPassedBefore: progress?.passed ?? false,
-        streakDays: streak.current,
-        perkXpMultiplier: perks.xpMultiplier,
-        perkCoinMultiplier: perks.coinMultiplier,
-      });
-      const finalReward = recordAttempt(
-        lesson.meta.id,
-        reward,
-        session.questions.map((q) => q.id),
-      );
-      // Claimed here, synchronously, so the result screen can celebrate exactly what this
-      // run earned — the app-wide watcher would otherwise grab them as toasts first.
-      onFinish(finalReward, claimPendingAchievements());
-      return;
-    }
-    setIndex((i) => i + 1);
+  const finish = useCallback(() => {
+    const reward = computeRewards(session, {
+      baseXp: lesson.meta.xp.base,
+      passScore: scaledPassScore(
+        lesson.meta.quiz.passScore,
+        session.questions.length,
+        lesson.meta.quiz.questionsPerRun,
+      ),
+      totalQuestions: session.questions.length,
+      alreadyPassedBefore: progress?.passed ?? false,
+      streakDays: streak.current,
+      perkXpMultiplier: perks.xpMultiplier,
+      perkCoinMultiplier: perks.coinMultiplier,
+    });
+    const finalReward = recordAttempt(
+      lesson.meta.id,
+      reward,
+      session.questions.map((q) => q.id),
+    );
+    // Claimed here, synchronously, so the result screen can celebrate exactly what this
+    // run earned — the app-wide watcher would otherwise grab them as toasts first.
+    onFinish(finalReward, claimPendingAchievements());
+  }, [session, lesson, progress, streak, perks, recordAttempt, onFinish]);
+
+  const resetQuestionState = useCallback(() => {
     setPhase('answering');
     setDraft(null);
     setFeedback(null);
@@ -86,7 +103,30 @@ export default function QuizRunner({
     setAwaitingRetryDecision(false);
     setHint(null);
     setResetTick((n) => n + 1);
-  }, [isLast, session, lesson, progress, streak, perks, recordAttempt, onFinish]);
+  }, []);
+
+  const finalizeAndAdvance = useCallback(() => {
+    if (isLast) {
+      finish();
+      return;
+    }
+    setIndex((i) => i + 1);
+    resetQuestionState();
+  }, [isLast, finish, resetQuestionState]);
+
+  const handleSkipListening = useCallback(() => {
+    stopSpeaking();
+    // The retry spent on this question bought nothing — give it back.
+    if (isRetryAttempt) setRetriesLeft((n) => n + 1);
+    skipListening(session, index, lesson.pool, selectionCtx);
+    setListeningOff(true);
+    // With no spare questions left, the listening tail is dropped and the run may be over.
+    if (index >= session.questions.length) {
+      finish();
+      return;
+    }
+    resetQuestionState();
+  }, [isRetryAttempt, session, index, lesson, selectionCtx, finish, resetQuestionState]);
 
   const handleCheck = useCallback(() => {
     if (!draft) return;
@@ -230,6 +270,18 @@ export default function QuizRunner({
             <span className="font-normal text-granite/70 dark:text-birch/50">
               {t('quiz.hint.left', { count: hintsLeft })}
             </span>
+          </button>
+        ) : phase === 'answering' &&
+          question.type === 'listen' &&
+          !listeningOff &&
+          canSkipListening ? (
+          <button
+            type="button"
+            onClick={handleSkipListening}
+            className="flex items-center gap-1.5 rounded-xl border border-granite/25 px-3 py-2 text-sm font-semibold text-granite hover:bg-granite/10 dark:border-white/20 dark:text-birch/80"
+          >
+            <VolumeX size={15} aria-hidden="true" />
+            {t('quiz.cantListen')}
           </button>
         ) : (
           <div />

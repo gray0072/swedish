@@ -61,6 +61,12 @@ export function speakSwedish(text: string, rate?: number): void {
   useAppStore.getState().countAchievementEvent('audioPlays');
 }
 
+/** Silences whatever is being spoken. */
+export function stopSpeaking(): void {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+}
+
 /** Preview a specific voice regardless of the stored preference — used by the Settings picker. */
 export function previewVoice(voiceURI: string, rate?: number): void {
   if (typeof window === 'undefined' || !window.speechSynthesis) return;

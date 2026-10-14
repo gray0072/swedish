@@ -928,3 +928,11 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   with its app's prefix, like the storage keys on the shared origin. `supabase/schema.sql`
   renames the old table in place (rows and policies kept) and is safe to run again; it must run
   before this version is deployed.
+
+## 2026-10-14 — "Can't listen now" in the quiz
+
+- **A listening question has a "Can't listen now" button.** It turns listening off until the end
+  of the run: the current and every remaining listening question are swapped for unused
+  questions of other types from the lesson's pool, so the run keeps its length. If the pool has
+  too few of them, the leftover listening questions are dropped and the pass threshold shrinks
+  in proportion. A retry already spent on the skipped question is given back.

@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { computeRewards, prepareQuestion, type QuizSession } from '@/quiz/engine';
+import {
+  computeRewards,
+  prepareQuestion,
+  scaledPassScore,
+  skipListening,
+  type QuizSession,
+} from '@/quiz/engine';
 import { mulberry32 } from '@/quiz/prng';
 import type { Question } from '@/content/schema';
 
@@ -106,5 +112,55 @@ describe('prepareQuestion', () => {
       answer: true,
     };
     expect(prepareQuestion(tf, mulberry32(1))).toEqual(tf);
+  });
+});
+
+describe('skipListening', () => {
+  const ctx = { previousRunIds: [], itemStats: {} };
+  const listen = (id: string): Question => ({
+    id,
+    type: 'listen',
+    difficulty: 1,
+    tags: [],
+    generated: true,
+    prompt: { ru: 'x' },
+    audioText: 'hej',
+    choices: ['a', 'b'],
+    answer: 0,
+  });
+  const tf = (id: string): Question => ({
+    id,
+    type: 'true-false',
+    difficulty: 1,
+    tags: [],
+    generated: false,
+    prompt: { ru: 'x' },
+    answer: true,
+  });
+  const withQuestions = (questions: Question[]): QuizSession => ({
+    lessonId: 'x',
+    seed: 's',
+    attemptNumber: 1,
+    questions,
+    results: [],
+  });
+
+  it('swaps listening questions from the given index on for unused ones, keeping the length', () => {
+    const s = withQuestions([listen('l1'), tf('t1'), listen('l2'), listen('l3')]);
+    skipListening(s, 1, [listen('l1'), tf('t1'), listen('l2'), listen('l3'), tf('t2'), tf('t3')], ctx);
+    expect(s.questions.map((q) => q.id)).toEqual(['l1', 't1', expect.any(String), expect.any(String)]);
+    expect(new Set(s.questions.slice(2).map((q) => q.id))).toEqual(new Set(['t2', 't3']));
+  });
+
+  it('drops leftover listening questions when the pool runs out of replacements', () => {
+    const s = withQuestions([tf('t1'), listen('l1'), listen('l2')]);
+    skipListening(s, 0, [tf('t1'), listen('l1'), listen('l2'), tf('t2')], ctx);
+    expect(s.questions.map((q) => q.id)).toEqual(['t1', 't2']);
+  });
+
+  it('scales the pass threshold to a shortened run', () => {
+    expect(scaledPassScore(7, 10, 10)).toBe(7);
+    expect(scaledPassScore(7, 8, 10)).toBe(6);
+    expect(scaledPassScore(7, 1, 10)).toBe(1);
   });
 });

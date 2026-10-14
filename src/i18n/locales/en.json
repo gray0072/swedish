@@ -106,6 +106,7 @@
   "quiz.next": "Next",
   "quiz.finish": "Finish",
   "quiz.retry": "Try again",
+  "quiz.cantListen": "Can't listen now",
   "quiz.quit": "Quit",
   "quiz.correct": "Correct!",
   "quiz.almost": "Almost — check the spelling.",
