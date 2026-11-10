@@ -64,6 +64,8 @@ in full blue and yellow reads as a sports kit, not as Swedish design.
 - **App icon** — the silhouette of Stadshuset (Stockholm City Hall) over the water of
   Riddarfjärden: birch-white tower and hall on falu red, the three gilded crowns and the
   water lines in gold. `public/favicon.svg` is the source; the PNG icons are renders of it.
+  The manifest lists only the PNGs: with the SVG (`sizes: "any"`) next to them, Android
+  Chrome picks it over the maskable PNG and draws the icon as a small square in a white circle.
 - **Building pictograms** — every building has a pictogram of its own (no two share one),
   drawn in the 2 px line style of §11.5 (`src/components/city/icons.tsx`). It sits on the
   building's card and stands in for the building in the scene until its art exists.
