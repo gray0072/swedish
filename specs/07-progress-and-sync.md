@@ -107,7 +107,7 @@ different one on a laptop before either syncs. Instead `mergeSaves()` merges fie
 | `items[id]` (SRS) | `box`/`dueAt`/`lastCorrect`/`lastSeenAt` from whichever side reviewed it more recently; `seen`/`correct`/`wrong` = max of both |
 | `city.buildings[id]` | Whichever side has the higher `level` wins outright — a building already bought further on one device is never downgraded |
 | `wallet.{xp,coins}` | `max` of both — earned currency only grows; the trade-off is that two independent gains made on both devices between syncs aren't summed, only the larger is kept |
-| `streak` | Whole record from whichever side has the more recent `lastActiveDate` (it's a small date-driven state machine, not safe to merge field-by-field); `longest` = max of both |
+| `streak` | Whole record, never field-by-field (it's a small date-driven state machine). The side with the older `lastActiveDate` is first played forward to the newer date, as if the app had been opened on it, then the higher `current` wins together with its `freezesAvailable`; `longest` = max of both. Simply taking the newer date would lose the streak: the app moves the local streak to today as soon as it opens, before the cloud save arrives, so an idle device would always look newest with a streak reset to 1 |
 | `historyRead` / `dialoguesRead` | Set union |
 | `dailyIncomeClaimedOn` | The later of the two dates, so a day already claimed on one device isn't paid out again |
 | `achievements` | `unlocked`: the higher tier wins (earlier date on a tie); `counters`: max per key; `holidays`: union; `day`: the later date; `combo`: local |

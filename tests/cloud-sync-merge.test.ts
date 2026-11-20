@@ -103,3 +103,69 @@ describe('mergeSaves', () => {
     expect(mergeSaves(usedLocal, remote).settings.theme).toBe('system');
   });
 });
+
+describe('mergeSaves — streak', () => {
+  const streak = (s: Partial<SaveFile['streak']>): SaveFile['streak'] => ({
+    current: 0,
+    longest: 0,
+    lastActiveDate: null,
+    freezesAvailable: 0,
+    ...s,
+  });
+
+  it('keeps the cloud streak when an idle device already stamped today on open', () => {
+    // The phone was last used three days ago; opening the app reset its streak to 1 for today
+    // before the cloud save arrived. The laptop studied yesterday with a 12-day streak.
+    const local = saveWith({
+      streak: streak({ current: 1, longest: 5, lastActiveDate: '2026-11-20', freezesAvailable: 0 }),
+    });
+    const remote = saveWith({
+      streak: streak({ current: 12, longest: 12, lastActiveDate: '2026-11-19', freezesAvailable: 2 }),
+    });
+    expect(mergeSaves(local, remote).streak).toEqual({
+      current: 13,
+      longest: 13,
+      lastActiveDate: '2026-11-20',
+      freezesAvailable: 2,
+    });
+  });
+
+  it('keeps the longer streak and its freezes when both devices were active the same day', () => {
+    const local = saveWith({
+      streak: streak({ current: 3, longest: 3, lastActiveDate: '2026-11-20', freezesAvailable: 0 }),
+    });
+    const remote = saveWith({
+      streak: streak({ current: 20, longest: 20, lastActiveDate: '2026-11-20', freezesAvailable: 1 }),
+    });
+    expect(mergeSaves(local, remote).streak).toEqual(remote.streak);
+    expect(mergeSaves(remote, local).streak).toEqual(remote.streak);
+  });
+
+  it('takes the newer streak when the older one has already broken', () => {
+    const local = saveWith({
+      streak: streak({ current: 2, longest: 30, lastActiveDate: '2026-11-20', freezesAvailable: 0 }),
+    });
+    const remote = saveWith({
+      streak: streak({ current: 30, longest: 30, lastActiveDate: '2026-11-10', freezesAvailable: 0 }),
+    });
+    expect(mergeSaves(local, remote).streak).toEqual(local.streak);
+  });
+
+  it('pulls the cloud streak into a fresh install', () => {
+    const remote = saveWith({
+      streak: streak({ current: 8, longest: 9, lastActiveDate: '2026-11-19', freezesAvailable: 1 }),
+    });
+    expect(mergeSaves(freshSave(), remote).streak).toEqual(remote.streak);
+  });
+
+  it('is idempotent', () => {
+    const local = saveWith({
+      streak: streak({ current: 1, longest: 5, lastActiveDate: '2026-11-20' }),
+    });
+    const remote = saveWith({
+      streak: streak({ current: 12, longest: 12, lastActiveDate: '2026-11-19', freezesAvailable: 2 }),
+    });
+    const once = mergeSaves(local, remote);
+    expect(mergeSaves(once, remote).streak).toEqual(once.streak);
+  });
+});

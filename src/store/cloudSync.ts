@@ -1,4 +1,6 @@
 import { supabase } from './supabaseClient';
+import { getActivePerks } from '@/city/perks';
+import { mergeStreaks } from './streak';
 import {
   migrateSave,
   type AchievementCounter,
@@ -196,9 +198,10 @@ function mergeAchievements(a: AchievementState, b: AchievementState): Achievemen
 
 export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
   const preferRemoteSettings = isLocalFresh(local);
-  const localDate = local.streak.lastActiveDate;
-  const remoteDate = remote.streak.lastActiveDate;
-  const streakBase = localDate && (!remoteDate || localDate >= remoteDate) ? local.streak : remote.streak;
+  const buildings = mergeBuildings(local.city.buildings, remote.city.buildings);
+  const levels: Record<string, number> = {};
+  for (const [id, b] of Object.entries(buildings)) levels[id] = b.level;
+  const streak = mergeStreaks(local.streak, remote.streak, getActivePerks(levels).streakFreeze);
 
   return {
     version: local.version,
@@ -211,13 +214,10 @@ export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
       xp: Math.max(local.wallet.xp, remote.wallet.xp),
       coins: Math.max(local.wallet.coins, remote.wallet.coins),
     },
-    streak: {
-      ...streakBase,
-      longest: Math.max(local.streak.longest, remote.streak.longest),
-    },
+    streak,
     lessons: mergeLessons(local.lessons, remote.lessons),
     items: mergeItems(local.items, remote.items),
-    city: { buildings: mergeBuildings(local.city.buildings, remote.city.buildings) },
+    city: { buildings },
     historyRead: Array.from(new Set([...local.historyRead, ...remote.historyRead])),
     dialoguesRead: Array.from(new Set([...local.dialoguesRead, ...remote.dialoguesRead])),
     dailyIncomeClaimedOn:

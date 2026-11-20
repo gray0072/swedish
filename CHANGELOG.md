@@ -936,3 +936,11 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   questions of other types from the lesson's pool, so the run keeps its length. If the pool has
   too few of them, the leftover listening questions are dropped and the pass threshold shrinks
   in proportion. A retry already spent on the skipped question is given back.
+
+## 2026-11-20 — The streak survives cloud sync
+
+- **The streak and its freezes now sync between devices.** Opening the app moves the local
+  streak to today before the cloud save arrives, so a device idle for a few days showed up with
+  "today, 1 day, no freezes", and the merge, which took the record with the newer date, wrote
+  that over the real streak from the other device. The merge now plays the older record forward
+  to the newer date and keeps the longer streak with its freezes (`src/store/streak.ts`).

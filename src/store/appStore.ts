@@ -15,60 +15,13 @@ import {
 import { computeDueDate, nextBox, type Box } from '@/srs/scheduler';
 import type { RewardResult } from '@/quiz/engine';
 import type { StudyLanguage } from '@/content/schema';
-import { achievementTierCoins, REWARDS, STREAK } from '@/city/economy';
+import { achievementTierCoins, REWARDS } from '@/city/economy';
 import { getActivePerks } from '@/city/perks';
 import { mergeSaves } from './cloudSync';
 import { pruneUnknownIds } from './pruneSave';
+import { applyStreak } from './streak';
 import { getLesson } from '@/content/registry';
 import { countEvent, onAnswer, onLessonPassed, onNewDay, onReviewSession } from '@/achievements/events';
-
-function dateAddDays(dateStr: string, delta: number): string {
-  const d = new Date(dateStr + 'T00:00:00Z');
-  d.setUTCDate(d.getUTCDate() + delta);
-  return d.toISOString().slice(0, 10);
-}
-
-/**
- * `extraFreezes` is the city's `streakFreeze` perk total: it raises the number of freezes
- * that can be *stored*, while the weekly grant stays at one. Scaling the grant instead would
- * hand a fully-built city five freezes a week and make the streak unloseable — the perk is
- * meant to be a deeper safety net, not an off switch.
- */
-function applyStreak(
-  streak: SaveFile['streak'],
-  today: string,
-  extraFreezes: number,
-): SaveFile['streak'] {
-  if (streak.lastActiveDate === today) return streak;
-
-  const yesterday = dateAddDays(today, -1);
-  const maxFreezes = STREAK.maxFreezes + extraFreezes;
-  let current: number;
-  let freezesAvailable = streak.freezesAvailable;
-
-  if (streak.lastActiveDate === null) {
-    current = 1;
-  } else if (streak.lastActiveDate === yesterday) {
-    current = streak.current + 1;
-  } else if (freezesAvailable > 0) {
-    // Missed a day, but a streak freeze absorbs it instead of resetting to zero.
-    current = streak.current + 1;
-    freezesAvailable -= 1;
-  } else {
-    current = 1;
-  }
-
-  if (current > 0 && current % STREAK.freezeEveryDays === 0) {
-    freezesAvailable = Math.min(freezesAvailable + 1, maxFreezes);
-  }
-
-  return {
-    current,
-    longest: Math.max(streak.longest, current),
-    lastActiveDate: today,
-    freezesAvailable,
-  };
-}
 
 /** The day's first activity moves the streak and the achievement day counters together. */
 function startDay(s: SaveFile, today: string): Pick<SaveFile, 'streak' | 'achievements'> {
