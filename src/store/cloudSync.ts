@@ -196,7 +196,27 @@ function mergeAchievements(a: AchievementState, b: AchievementState): Achievemen
   };
 }
 
+/**
+ * XP and coins earned only grow, and so does `coinsSpent`, so each merges with `max`; the balance
+ * is then what was earned minus what was spent. Merging the balance itself with `max` would undo
+ * every purchase, since every sync merges with the cloud copy from before it. Independent gains
+ * made on two devices between syncs are still not summed — only the larger is kept.
+ */
+function mergeWallet(a: SaveFile['wallet'], b: SaveFile['wallet']): SaveFile['wallet'] {
+  const earned = Math.max(a.coins + a.coinsSpent, b.coins + b.coinsSpent);
+  const coinsSpent = Math.max(a.coinsSpent, b.coinsSpent);
+  return { xp: Math.max(a.xp, b.xp), coins: earned - coinsSpent, coinsSpent };
+}
+
 export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
+  // A reset made on a signed-in device wins over everything from before it: the side with the
+  // older reset is discarded, not merged, or the progress the reset cleared would come back.
+  // Settings and language stay per device either way.
+  const localReset = local.resetAt ?? '';
+  const remoteReset = remote.resetAt ?? '';
+  if (localReset > remoteReset) return local;
+  if (remoteReset > localReset) return { ...remote, language: local.language, settings: local.settings };
+
   const preferRemoteSettings = isLocalFresh(local);
   const buildings = mergeBuildings(local.city.buildings, remote.city.buildings);
   const levels: Record<string, number> = {};
@@ -207,13 +227,8 @@ export function mergeSaves(local: SaveFile, remote: SaveFile): SaveFile {
     version: local.version,
     createdAt: local.createdAt < remote.createdAt ? local.createdAt : remote.createdAt,
     language: preferRemoteSettings ? remote.language : local.language,
-    wallet: {
-      // Earned currency only grows: max avoids losing coins/XP earned on the other device
-      // between syncs (at the cost of not summing gains made independently on both at once —
-      // an acceptable trade-off for a single-player save).
-      xp: Math.max(local.wallet.xp, remote.wallet.xp),
-      coins: Math.max(local.wallet.coins, remote.wallet.coins),
-    },
+    wallet: mergeWallet(local.wallet, remote.wallet),
+    resetAt: local.resetAt,
     streak,
     lessons: mergeLessons(local.lessons, remote.lessons),
     items: mergeItems(local.items, remote.items),

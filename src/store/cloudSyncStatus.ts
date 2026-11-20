@@ -6,6 +6,14 @@ export type CloudSyncStatus = 'unavailable' | 'signedOut' | 'syncing' | 'synced'
 interface CloudSyncStatusState {
   status: CloudSyncStatus;
   user: CloudUser | null;
+  /**
+   * The first sync of this app session has finished (or failed, or there is no account to sync).
+   * AppShell starts the day — streak, daily income, achievement day counters — only after it, so
+   * a device that sat idle does not move its stale local copy first and lose the update to the
+   * merge.
+   */
+  initialSyncDone: boolean;
+  markInitialSyncDone: () => void;
   setStatus: (status: CloudSyncStatus) => void;
   setUser: (user: CloudUser | null) => void;
 }
@@ -15,6 +23,8 @@ interface CloudSyncStatusState {
 export const useCloudSyncStatusStore = create<CloudSyncStatusState>((set) => ({
   status: isCloudSyncAvailable() ? 'signedOut' : 'unavailable',
   user: null,
+  initialSyncDone: !isCloudSyncAvailable(),
+  markInitialSyncDone: () => set({ initialSyncDone: true }),
   setStatus: (status) => set({ status }),
   setUser: (user) => set({ user }),
 }));

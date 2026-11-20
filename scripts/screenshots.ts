@@ -58,7 +58,7 @@ function demoSave() {
     version: 1,
     createdAt: builtAt,
     language: 'en',
-    wallet: { xp: Math.max(...Object.values(ERA_UNLOCK_XP)) + 5_000, coins: 12_400 },
+    wallet: { xp: Math.max(...Object.values(ERA_UNLOCK_XP)) + 5_000, coins: 12_400, coinsSpent: 0 },
     streak: { current: 12, longest: 21, lastActiveDate: null, freezesAvailable: 2 },
     lessons: {},
     items: {},

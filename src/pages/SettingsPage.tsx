@@ -87,13 +87,15 @@ export default function SettingsPage() {
   }
 
   async function handleReset() {
+    // Signed in, the reset reaches the cloud and every other device too, so the dialog says so.
+    const everywhere = cloudSync.user !== null;
     const reset = await confirmDialog({
       title: t('settings.reset.confirm.title'),
-      message: t('settings.reset.confirm'),
+      message: t(everywhere ? 'settings.reset.confirm.everywhere' : 'settings.reset.confirm'),
       confirmLabel: t('settings.reset.confirm.action'),
       tone: 'danger',
     });
-    if (reset) resetSave();
+    if (reset) resetSave(everywhere);
   }
 
   return (

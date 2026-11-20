@@ -57,10 +57,40 @@ describe('mergeSaves', () => {
   });
 
   it('takes the max of wallet totals so neither device loses earned currency', () => {
-    const local = saveWith({ wallet: { xp: 100, coins: 20 } });
-    const remote = saveWith({ wallet: { xp: 40, coins: 90 } });
+    const local = saveWith({ wallet: { xp: 100, coins: 20, coinsSpent: 0 } });
+    const remote = saveWith({ wallet: { xp: 40, coins: 90, coinsSpent: 0 } });
 
-    expect(mergeSaves(local, remote).wallet).toEqual({ xp: 100, coins: 90 });
+    expect(mergeSaves(local, remote).wallet).toEqual({ xp: 100, coins: 90, coinsSpent: 0 });
+  });
+
+  it('keeps a purchase when merging with the cloud copy from before it', () => {
+    const local = saveWith({ wallet: { xp: 500, coins: 100, coinsSpent: 900 } });
+    const remote = saveWith({ wallet: { xp: 500, coins: 1000, coinsSpent: 0 } });
+
+    expect(mergeSaves(local, remote).wallet).toEqual({ xp: 500, coins: 100, coinsSpent: 900 });
+    expect(mergeSaves(remote, local).wallet).toEqual({ xp: 500, coins: 100, coinsSpent: 900 });
+  });
+
+  it('keeps coins earned after a purchase on the other device', () => {
+    // The laptop bought for 900 and pushed; the phone, still at the pre-purchase cloud copy,
+    // then earned 30 more on top of the 1000 it had.
+    const phone = saveWith({ wallet: { xp: 530, coins: 1030, coinsSpent: 0 } });
+    const cloud = saveWith({ wallet: { xp: 500, coins: 100, coinsSpent: 900 } });
+
+    expect(mergeSaves(phone, cloud).wallet).toEqual({ xp: 530, coins: 130, coinsSpent: 900 });
+  });
+
+  it("discards the side whose reset is older, keeping this device's settings", () => {
+    const progress = saveWith({ wallet: { xp: 900, coins: 50, coinsSpent: 0 }, historyRead: ['x'] });
+    const reset = saveWith({ resetAt: '2026-11-20T10:00:00.000Z' });
+    reset.settings = { ...reset.settings, theme: 'dark' };
+
+    expect(mergeSaves(reset, progress)).toEqual(reset);
+    const pulled = mergeSaves(progress, reset);
+    expect(pulled.wallet.xp).toBe(0);
+    expect(pulled.historyRead).toEqual([]);
+    expect(pulled.resetAt).toBe(reset.resetAt);
+    expect(pulled.settings).toEqual(progress.settings);
   });
 
   it('unions historyRead entries read on either device', () => {
@@ -72,7 +102,7 @@ describe('mergeSaves', () => {
 
   it('is idempotent: merging a save with itself changes nothing', () => {
     const local = saveWith({
-      wallet: { xp: 12, coins: 3 },
+      wallet: { xp: 12, coins: 3, coinsSpent: 0 },
       lessons: {
         l1: {
           attempts: 1,
@@ -98,7 +128,7 @@ describe('mergeSaves', () => {
     expect(mergeSaves(freshLocal, remote).language).toBe('ru');
     expect(mergeSaves(freshLocal, remote).settings.theme).toBe('dark');
 
-    const usedLocal = saveWith({ language: 'en', wallet: { xp: 1, coins: 0 } });
+    const usedLocal = saveWith({ language: 'en', wallet: { xp: 1, coins: 0, coinsSpent: 0 } });
     expect(mergeSaves(usedLocal, remote).language).toBe('en');
     expect(mergeSaves(usedLocal, remote).settings.theme).toBe('system');
   });

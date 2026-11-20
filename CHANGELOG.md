@@ -944,3 +944,25 @@ SFI kurs A → B → C → D  →  SVA grund delkurs 1 → 2 → 3 → 4  →  S
   "today, 1 day, no freezes", and the merge, which took the record with the newer date, wrote
   that over the real streak from the other device. The merge now plays the older record forward
   to the newer date and keeps the longer streak with its freezes (`src/store/streak.ts`).
+
+## 2026-11-20 — Cloud sync never pushes without merging first
+
+- **Every sync now pulls, merges and only then pushes.** Before, the app merged only on sign-in
+  and page load and then pushed its local copy as is: with two devices open, each push wiped what
+  the other had pushed, and after a failed first pull (offline) the next local change overwrote
+  the cloud save with an unmerged copy. A failed pull now blocks the push and is retried in 30 s.
+- **Syncs also run when the app is hidden with changes pending, when it returns to the
+  foreground and when the network comes back**, so a quiz finished on the phone right before
+  closing it reaches the laptop, and a phone app resumed from the background picks up what the
+  laptop did.
+- **The day starts after the first sync.** Streak, daily income and the achievement day counters
+  used to move on the stale copy of an idle device before the cloud save arrived; the merge then
+  lost the day's income and "days active" and counted false comebacks.
+- **Purchases survive the merge.** The wallet keeps `coinsSpent`; earned coins and spent coins
+  each merge with `max` and the balance is their difference. Merging the balance with `max` would
+  undo every purchase now that every push merges with the cloud copy from before it.
+- **Reset while signed in reaches every device.** It stamps `resetAt`, and the merge discards the
+  side with the older stamp instead of merging the cleared progress back. The confirmation says
+  so.
+- **An older app version no longer deletes newer progress from the cloud.** Ids unknown to the
+  running content are still pruned from the store, but the copy pushed back keeps them.

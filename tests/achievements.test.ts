@@ -131,7 +131,7 @@ describe('achievement metrics', () => {
   it('never takes a stored tier back when the live value drops', () => {
     const save: SaveFile = {
       ...freshSave(),
-      wallet: { xp: 0, coins: 10 },
+      wallet: { xp: 0, coins: 10, coinsSpent: 0 },
       achievements: { ...freshAchievementState(), unlocked: { 'piggy-bank': { tier: 2, at: '2026-01-01' } } },
     };
     const s = status(save, 'piggy-bank');
@@ -182,13 +182,13 @@ describe('achievement events', () => {
 
 describe('claiming achievement tiers', () => {
   it('pays every skipped tier once and is idempotent', () => {
-    useAppStore.getState().resetSave();
+    useAppStore.getState().resetSave(false);
     const paid = useAppStore.getState().claimAchievementTiers([{ id: 'vocabulary', tier: 3 }]);
     expect(paid).toBe(achievementTierCoins(1) + achievementTierCoins(2) + achievementTierCoins(3));
     expect(useAppStore.getState().wallet.coins).toBe(paid);
     expect(useAppStore.getState().claimAchievementTiers([{ id: 'vocabulary', tier: 3 }])).toBe(0);
     expect(useAppStore.getState().achievements.unlocked.vocabulary.tier).toBe(3);
-    useAppStore.getState().resetSave();
+    useAppStore.getState().resetSave(false);
   });
 
   it('merges devices by the higher tier and the larger counter', () => {

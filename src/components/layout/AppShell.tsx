@@ -4,6 +4,7 @@ import { BookOpen, Home, Landmark, Settings as SettingsIcon } from 'lucide-react
 import { useT } from '@/i18n';
 import { useAppStore } from '@/store/appStore';
 import { useCloudSync } from '@/store/useCloudSync';
+import { useCloudSyncStatusStore } from '@/store/cloudSyncStatus';
 import { useApplyUpdateWhenIdle } from '@/lib/appUpdate';
 import { useSettings } from '@/store/settings';
 import DalaHorse from '@/components/ui/DalaHorse';
@@ -78,13 +79,19 @@ export default function AppShell() {
   useCloudSync();
   useApplyUpdateWhenIdle(pathname);
 
+  const initialSyncDone = useCloudSyncStatusStore((s) => s.initialSyncDone);
+
+  // Waits for the first cloud sync: starting the day on a stale local copy (an idle device)
+  // would pay the daily income twice across devices and lose the day's achievement counters to
+  // the merge. Without an account, or once the sync fails or times out, it runs at once.
   useEffect(() => {
+    if (!initialSyncDone) return;
     touchDailyActivity();
     // Pays the dailyIncome perk on the first visit of the day (SPEC §8.4). Idempotent, so
     // it is safe to run on every mount — the store stamps the date and pays only once.
     claimDailyIncome();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [initialSyncDone]);
 
   return (
     <div className="min-h-screen">

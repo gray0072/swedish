@@ -77,7 +77,17 @@ export interface SaveFile {
   version: 1;
   createdAt: string;
   language: 'ru' | 'en';
-  wallet: { xp: number; coins: number };
+  /**
+   * `coins` is the balance; `coinsSpent` is every coin ever spent. Both totals only grow except
+   * `coins` on a purchase, and the cloud merge needs that split: merging the balance alone with
+   * `max` undoes every purchase, because the cloud still holds the balance from before it.
+   */
+  wallet: { xp: number; coins: number; coinsSpent: number };
+  /**
+   * When progress was last reset on a signed-in device, or null. A save whose reset is older than
+   * the other side's is discarded on merge instead of being merged back in (cloudSync.ts).
+   */
+  resetAt: string | null;
   streak: {
     current: number;
     longest: number;
@@ -119,7 +129,8 @@ export function freshSave(): SaveFile {
     version: SAVE_VERSION,
     createdAt: new Date().toISOString(),
     language: 'en',
-    wallet: { xp: 0, coins: 0 },
+    wallet: { xp: 0, coins: 0, coinsSpent: 0 },
+    resetAt: null,
     streak: { current: 0, longest: 0, lastActiveDate: null, freezesAvailable: 0 },
     lessons: {},
     items: {},
@@ -139,7 +150,10 @@ export const saveFileSchema = z
     version: z.number(),
     createdAt: z.string(),
     language: z.enum(['ru', 'en']),
-    wallet: z.object({ xp: z.number(), coins: z.number() }),
+    // coinsSpent and resetAt are optional for the same reason as dailyIncomeClaimedOn below:
+    // older saves don't have them, and 0 / "never reset" is the right reading.
+    wallet: z.object({ xp: z.number(), coins: z.number(), coinsSpent: z.number().optional() }),
+    resetAt: z.string().nullable().optional(),
     streak: z.object({
       current: z.number(),
       longest: z.number(),
@@ -207,6 +221,8 @@ export function migrateSave(raw: unknown): SaveFile {
   // Same for daily income: an older save has never been paid, so it gets paid today.
   if (save.dailyIncomeClaimedOn === undefined) save.dailyIncomeClaimedOn = null;
   if (save.dialoguesRead === undefined) save.dialoguesRead = [];
+  if (save.wallet.coinsSpent === undefined) save.wallet.coinsSpent = 0;
+  if (save.resetAt === undefined) save.resetAt = null;
   if (save.achievements === undefined) save.achievements = freshAchievementState();
   return save;
 }

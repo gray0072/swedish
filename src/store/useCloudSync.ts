@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { toSaveFile, useAppStore } from './appStore';
+import { useAppStore } from './appStore';
 import { useCloudSyncStatusStore } from './cloudSyncStatus';
 import {
   fetchCloudSave,
@@ -9,79 +9,141 @@ import {
   type CloudUser,
 } from './cloudSync';
 
-// Local edits accumulate for this long before being pushed to the cloud — long enough that
-// a whole quiz run's worth of store updates collapses into one upsert, short enough that
-// switching devices soon after rarely finds a stale cloud save.
-const PUSH_DEBOUNCE_MS = 10_000;
+// Local edits accumulate for this long before a sync — long enough that a whole quiz run's
+// worth of store updates collapses into one round trip.
+const SYNC_DEBOUNCE_MS = 10_000;
+// After a failed sync (offline, a server error) the next attempt comes this much later.
+const RETRY_MS = 30_000;
+// The day starts (AppShell) even if the first sync hangs this long.
+const INITIAL_SYNC_TIMEOUT_MS = 8_000;
 
 /**
- * Mounted once (in AppShell). Pulls the cloud save and merges it in on sign-in, then keeps
- * pushing local changes to the cloud (debounced) for as long as the session stays signed in.
- * UI reads the resulting status via useCloudSyncStatus() instead of calling this again.
+ * Mounted once (in AppShell). While signed in, every sync is the same three steps: pull the
+ * cloud save, merge it into the local state (mergeSaves), push the merge. Nothing is ever pushed
+ * without the pull and merge before it, so a push can't overwrite progress another device made
+ * since this one last looked — and a failed pull (offline, an RLS error) blocks the push instead
+ * of letting an unmerged local copy replace the cloud one.
+ *
+ * A sync runs on sign-in (including "already signed in" on load), 10 s after local changes, as
+ * soon as the app is hidden with changes still pending (a phone app is often closed right after
+ * a quiz), when it comes back to the foreground (another device may have moved on meanwhile),
+ * when the network comes back, and 30 s after a failure. UI reads the status via
+ * useCloudSyncStatus() instead of calling this again.
  */
 export function useCloudSync(): void {
   useEffect(() => {
-    if (!isCloudSyncAvailable()) return;
-    const { setStatus, setUser } = useCloudSyncStatusStore.getState();
-    let cancelled = false;
-    const userRef: { current: CloudUser | null } = { current: null };
-    const pushTimer: { current: ReturnType<typeof setTimeout> | null } = { current: null };
+    const { setStatus, setUser, markInitialSyncDone } = useCloudSyncStatusStore.getState();
+    if (!isCloudSyncAvailable()) {
+      markInitialSyncDone();
+      return;
+    }
+    let disposed = false;
+    let user: CloudUser | null = null;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    let running: Promise<void> | null = null;
+    let again = false;
+    // True while a merge writes to the store, so that write doesn't schedule yet another sync.
+    let applyingMerge = false;
 
-    async function handleSignedIn(u: CloudUser) {
+    const initialTimeout = setTimeout(markInitialSyncDone, INITIAL_SYNC_TIMEOUT_MS);
+
+    function schedule(delayMs: number) {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(() => {
+        timer = null;
+        void sync();
+      }, delayMs);
+    }
+
+    async function syncOnce(): Promise<void> {
+      const u = user;
+      if (!u || disposed) return;
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
       setStatus('syncing');
       try {
-        // fetchCloudSave now throws on a real failure (RLS denial, network error, a corrupted
-        // row) instead of returning `null` the same way it does for "no cloud save yet" — so
-        // reaching the `: toSaveFile(...)` branch below means this really is this user's first
-        // sync, and pushing the local save up is the correct, non-destructive thing to do.
+        // Throws on a real failure; null only when this account has never synced.
         const remote = await fetchCloudSave(u.id);
-        const merged = remote
-          ? useAppStore.getState().mergeWithCloud(remote)
-          : toSaveFile(useAppStore.getState());
-        if (!merged) {
-          // mergeWithCloud failed internally (e.g. the fetched row didn't match the save
-          // schema) — status must reflect that, not claim success over an unmerged state.
-          if (!cancelled) setStatus('error');
-          return;
+        if (disposed || user?.id !== u.id) return;
+        applyingMerge = true;
+        let merged;
+        try {
+          merged = useAppStore.getState().mergeWithCloud(remote);
+        } finally {
+          applyingMerge = false;
         }
-        await pushCloudSave(u.id, merged); // throws on failure — caught below, never silent.
-        if (!cancelled) setStatus('synced');
+        if (!merged) throw new Error('The cloud save could not be merged');
+        await pushCloudSave(u.id, merged);
+        if (!disposed && user?.id === u.id) setStatus('synced');
       } catch {
-        if (!cancelled) setStatus('error');
+        if (!disposed && user?.id === u.id) {
+          setStatus('error');
+          schedule(RETRY_MS);
+        }
       }
     }
 
-    // Supabase fires this once immediately with the current session, then again on every
-    // sign-in/sign-out — so this alone covers both "already signed in on load" and later changes.
+    /** Runs one sync at a time; a request made during a sync runs right after it. */
+    function sync(): Promise<void> {
+      if (running) {
+        again = true;
+        return running;
+      }
+      running = (async () => {
+        try {
+          do {
+            again = false;
+            await syncOnce();
+          } while (again && !disposed);
+        } finally {
+          running = null;
+        }
+      })();
+      return running;
+    }
+
+    // Supabase fires this once right away with the current session, then on every auth event
+    // (sign-in, sign-out, the hourly token refresh) — only a change of account needs a sync.
     const unsubscribeAuth = onAuthStateChange((u) => {
-      userRef.current = u;
+      const changed = user?.id !== u?.id;
+      user = u;
       setUser(u);
-      if (u) void handleSignedIn(u);
-      else setStatus('signedOut');
+      if (!u) {
+        if (timer) clearTimeout(timer);
+        timer = null;
+        setStatus('signedOut');
+        markInitialSyncDone();
+        return;
+      }
+      if (changed) void sync().finally(markInitialSyncDone);
     });
 
-    // Any further local change, while signed in, is pushed after a short debounce.
-    const unsubscribeStore = useAppStore.subscribe((state) => {
-      const currentUser = userRef.current;
-      if (!currentUser) return;
-      if (pushTimer.current) clearTimeout(pushTimer.current);
-      // Status stays whatever it was for the whole debounce window — it was already
-      // misleading to still show "synced" here while a push was merely pending, but the
-      // real fix is `pushCloudSave` now actually rejecting on a failed upsert, so the
-      // 'error' branch below is reachable at all instead of firing on a false promise.
-      pushTimer.current = setTimeout(() => {
-        pushCloudSave(currentUser.id, toSaveFile(state)).then(
-          () => !cancelled && setStatus('synced'),
-          () => !cancelled && setStatus('error'),
-        );
-      }, PUSH_DEBOUNCE_MS);
+    const unsubscribeStore = useAppStore.subscribe(() => {
+      if (!user || applyingMerge) return;
+      schedule(SYNC_DEBOUNCE_MS);
     });
+
+    function onVisibilityChange() {
+      if (!user) return;
+      if (document.visibilityState === 'visible') void sync();
+      else if (timer) void sync(); // flush pending changes before the app may be killed
+    }
+    function onOnline() {
+      if (user) void sync();
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    window.addEventListener('online', onOnline);
 
     return () => {
-      cancelled = true;
+      disposed = true;
+      clearTimeout(initialTimeout);
+      if (timer) clearTimeout(timer);
       unsubscribeAuth();
       unsubscribeStore();
-      if (pushTimer.current) clearTimeout(pushTimer.current);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      window.removeEventListener('online', onOnline);
     };
   }, []);
 }

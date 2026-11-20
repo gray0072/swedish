@@ -21,6 +21,7 @@ import { mergeSaves } from './cloudSync';
 import { pruneUnknownIds } from './pruneSave';
 import { applyStreak } from './streak';
 import { getLesson } from '@/content/registry';
+import { deepEqual } from '@/lib/deepEqual';
 import { countEvent, onAnswer, onLessonPassed, onNewDay, onReviewSession } from '@/achievements/events';
 
 /** The day's first activity moves the streak and the achievement day counters together. */
@@ -60,9 +61,20 @@ interface AppState extends SaveFile {
   setSound: (enabled: boolean) => void;
   setTtsVoice: (voiceURI: string | null) => void;
   setCityMotion: (tier: NonNullable<SaveFile['settings']['cityMotion']>) => void;
-  resetSave: () => void;
+  /**
+   * Starts over with a fresh save. `everywhere` (signed in) stamps `resetAt`, so the merge
+   * discards the old progress on the cloud and on the other devices instead of merging it back.
+   * Signed out, the reset is this device's own: the stamp stays, and signing in later merges the
+   * cloud progress back in.
+   */
+  resetSave: (everywhere: boolean) => void;
   importSave: (raw: unknown) => boolean;
-  /** Merges a cloud save into the current local state (see cloudSync.ts) and returns the result. */
+  /**
+   * Merges a cloud save (null: there is none yet) into the current local state (see
+   * cloudSync.ts) and returns the save to push. The store gets the merge with unknown ids
+   * pruned; the returned save keeps them, so an older app version does not delete from the cloud
+   * the progress a newer version made on content it does not know yet.
+   */
   mergeWithCloud: (remote: unknown) => SaveFile | null;
 }
 
@@ -82,6 +94,7 @@ export function toSaveFile(state: AppState): SaveFile {
     dailyIncomeClaimedOn,
     achievements,
     settings,
+    resetAt,
   } = state;
   return {
     version,
@@ -97,6 +110,7 @@ export function toSaveFile(state: AppState): SaveFile {
     dailyIncomeClaimedOn,
     achievements,
     settings,
+    resetAt,
   };
 }
 
@@ -232,6 +246,7 @@ export const useAppStore = create<AppState>()(
           return {
             lessons,
             wallet: {
+              ...s.wallet,
               xp: s.wallet.xp + finalReward.xp,
               coins: s.wallet.coins + finalReward.coins,
             },
@@ -252,7 +267,7 @@ export const useAppStore = create<AppState>()(
         if (current.level >= maxLevel) return false;
         if (s.wallet.coins < cost) return false;
         set({
-          wallet: { ...s.wallet, coins: s.wallet.coins - cost },
+          wallet: { ...s.wallet, coins: s.wallet.coins - cost, coinsSpent: s.wallet.coinsSpent + cost },
           city: {
             buildings: {
               ...s.city.buildings,
@@ -340,7 +355,8 @@ export const useAppStore = create<AppState>()(
       setTtsVoice: (ttsVoice) => set((s) => ({ settings: { ...s.settings, ttsVoice } })),
       setCityMotion: (cityMotion) => set((s) => ({ settings: { ...s.settings, cityMotion } })),
 
-      resetSave: () => set(freshSave()),
+      resetSave: (everywhere) =>
+        set((s) => ({ ...freshSave(), resetAt: everywhere ? new Date().toISOString() : s.resetAt })),
 
       importSave: (raw) => {
         try {
@@ -354,8 +370,12 @@ export const useAppStore = create<AppState>()(
 
       mergeWithCloud: (remote) => {
         try {
-          const merged = mergeSaves(toSaveFile(get()), pruneUnknownIds(migrateSave(remote)));
-          set(merged);
+          const local = toSaveFile(get());
+          if (remote === null || remote === undefined) return local;
+          const merged = mergeSaves(local, migrateSave(remote));
+          const pruned = pruneUnknownIds(merged);
+          // Most syncs change nothing locally; skipping the set spares a re-render of every screen.
+          if (!deepEqual(pruned, local)) set(pruned);
           return merged;
         } catch {
           return null;

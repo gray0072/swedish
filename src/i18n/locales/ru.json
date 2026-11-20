@@ -216,6 +216,7 @@
   "settings.importError.title": "Импорт не удался",
   "settings.reset": "Сбросить весь прогресс",
   "settings.reset.confirm": "Точно сбросить весь прогресс? Это необратимо.",
+  "settings.reset.confirm.everywhere": "Точно сбросить весь прогресс? Это необратимо. Вы вошли в аккаунт, поэтому прогресс сотрётся и в облаке, и на других ваших устройствах.",
   "settings.reset.confirm.title": "Сбросить весь прогресс?",
   "settings.reset.confirm.action": "Сбросить",
   "stats.title": "Статистика",

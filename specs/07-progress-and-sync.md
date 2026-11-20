@@ -10,7 +10,8 @@ interface SaveFile {
   version: 1;
   createdAt: string;
   profile: { name?: string; language: 'ru' | 'en' };   // UI + translations, one setting
-  wallet: { xp: number; coins: number; level: number };
+  wallet: { xp: number; coins: number; coinsSpent: number; level: number }; // coinsSpent: every coin ever spent
+  resetAt: string | null;   // last reset made while signed in (§7.1 merge)
   streak: { current: number; longest: number; lastActiveDate: string; freezesAvailable: number };
   lessons: Record<LessonId, {
     attempts: number;
@@ -44,7 +45,9 @@ Rules:
   migrated forward, never dropped.
 - Ids the current content no longer has — lessons, questions (SRS items and
   `lastRunQuestionIds`), buildings, history cards, dialogues, achievements — are dropped whenever a save
-  is loaded: from localStorage, an imported file or the cloud (`src/store/pruneSave.ts`).
+  is loaded: from localStorage, an imported file or the cloud (`src/store/pruneSave.ts`). The
+  copy pushed back to the cloud keeps them, though: an app version that is not updated yet must
+  not delete progress a newer version made on content it does not know.
 - **Export / Import** buttons in Settings download/upload this JSON. This is the backup story
   for a backend-free app and must exist in v1.
 - A corrupted save must never crash the app: parse with Zod, fall back to a fresh save, and
@@ -92,10 +95,23 @@ the app exactly as described in §7.
 | `src/store/useCloudSync.ts` | The actual effect — mounted once in `AppShell` — driving the sequence below |
 | `SettingsPage.tsx` | The "Cloud sync" card: sign in/out button, status line |
 
-**Sequence:** on sign-in (including "already signed in" on page load), pull the cloud row,
-`mergeSaves()` it with the current local `SaveFile`, write the merged result back to both
-`localStorage` (via the store) and Supabase. From then on, while signed in, any local change
-is pushed after a 10s debounce (long enough that one quiz run collapses into a single upsert).
+**Sequence:** every sync is the same three steps — pull the cloud row, `mergeSaves()` it with
+the current local `SaveFile` (the store gets the result), push the merge. Nothing is pushed
+without the pull and merge right before it: a push of the local copy alone would overwrite
+whatever another device pushed since, and a failed pull (offline, an RLS error) must block the
+push rather than let an unmerged copy replace the cloud one. A sync runs on sign-in (including
+"already signed in" on page load), 10 s after local changes (one quiz run collapses into one
+round trip), at once when the app is hidden with changes pending (a phone app is often closed
+right after a quiz), when it returns to the foreground, when the network comes back, and 30 s
+after a failure. One sync runs at a time.
+
+The day starts (streak, daily income, the achievement day counters — `AppShell`) only after the
+first sync of the session, or after it fails or takes longer than 8 s. Started on the stale copy
+of a device that sat idle, the day would be lost to the merge.
+
+**Reset.** "Reset all progress" while signed in stamps `resetAt`; the merge discards whichever
+side has the older stamp, so the reset reaches the cloud and every other device instead of being
+merged away. A reset while signed out keeps the old stamp and stays on that device.
 
 **Merge scheme.** A whole-file "last write wins" would silently discard progress made on
 whichever device didn't happen to sync last — e.g. finishing a lesson on a phone and a
@@ -106,8 +122,9 @@ different one on a laptop before either syncs. Instead `mergeSaves()` merges fie
 | `lessons[id]` | Base record = whichever side has the newer `lastAttemptAt`; `bestScore`/`attempts` = max of both, `passed` = OR of both |
 | `items[id]` (SRS) | `box`/`dueAt`/`lastCorrect`/`lastSeenAt` from whichever side reviewed it more recently; `seen`/`correct`/`wrong` = max of both |
 | `city.buildings[id]` | Whichever side has the higher `level` wins outright — a building already bought further on one device is never downgraded |
-| `wallet.{xp,coins}` | `max` of both — earned currency only grows; the trade-off is that two independent gains made on both devices between syncs aren't summed, only the larger is kept |
+| `wallet` | `xp`, `coinsSpent` and coins earned (`coins + coinsSpent`) each take the `max` of both — they only grow; the balance is earned minus spent. Taking the `max` of the balance itself would undo every purchase, since each sync merges with the cloud copy from before it. Two independent gains made on both devices between syncs still aren't summed — only the larger is kept |
 | `streak` | Whole record, never field-by-field (it's a small date-driven state machine). The side with the older `lastActiveDate` is first played forward to the newer date, as if the app had been opened on it, then the higher `current` wins together with its `freezesAvailable`; `longest` = max of both. Simply taking the newer date would lose the streak: the app moves the local streak to today as soon as it opens, before the cloud save arrives, so an idle device would always look newest with a streak reset to 1 |
+| `resetAt` | Not merged: the side with the older reset is discarded whole (see **Reset** above); settings and language stay local |
 | `historyRead` / `dialoguesRead` | Set union |
 | `dailyIncomeClaimedOn` | The later of the two dates, so a day already claimed on one device isn't paid out again |
 | `achievements` | `unlocked`: the higher tier wins (earlier date on a tie); `counters`: max per key; `holidays`: union; `day`: the later date; `combo`: local |

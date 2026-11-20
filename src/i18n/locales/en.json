@@ -216,6 +216,7 @@
   "settings.importError.title": "Import failed",
   "settings.reset": "Reset all progress",
   "settings.reset.confirm": "Really reset all progress? This can't be undone.",
+  "settings.reset.confirm.everywhere": "Really reset all progress? This can't be undone. You are signed in, so the progress is also erased from the cloud and from your other devices.",
   "settings.reset.confirm.title": "Reset all progress?",
   "settings.reset.confirm.action": "Reset",
   "stats.title": "Stats",
